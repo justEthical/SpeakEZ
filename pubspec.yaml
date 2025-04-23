@@ -39,6 +39,8 @@ dependencies:
   path_provider: ^2.1.5
   flutter_sound: ^9.28.0
   permission_handler: ^12.0.0+1
+  smooth_page_indicator: ^1.2.1
+  lottie: ^3.3.1
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +70,8 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/whisper_model/
+    - assets/lottie/
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -80,6 +84,24 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Black.ttf
+          weight: 900
+
   # fonts:
   #   - family: Schyler
   #     fonts:

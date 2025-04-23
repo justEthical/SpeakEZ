@@ -2,11 +2,14 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
 
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
   final cutomTabBarController = PageController(initialPage: 0);
+  final onboardingPageIndicator = PageController(initialPage: 0);
+  var currentOnboardingIndex = 0.obs;
   var currentTabIndex = 0.obs;
   var transcription = "".obs;
 
@@ -46,6 +49,13 @@ class GlobalController extends GetxController {
     recognizer.free();
     offlineStream.free();
   }
+
+  Future<LottieComposition?> customDecoder(List<int> bytes) {
+  return LottieComposition.decodeZip(bytes, filePicker: (files) {
+    return files.firstWhereOrNull(
+        (f) => f.name.startsWith('animations/') && f.name.endsWith('.json'));
+  });
+}
 }
 
 GlobalController globalController = GlobalController.instance;
