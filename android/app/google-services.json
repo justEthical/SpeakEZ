@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "890810544590",
+    "project_id": "speakez-ai",
+    "storage_bucket": "speakez-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890810544590:android:6237c64797e745ff33fb9f",
+        "android_client_info": {
+          "package_name": "com.english.learning.speakez.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890810544590-5jcfbd8po27g6p8mg6ptep4nmc6uet5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.english.learning.speakez.ai",
+            "certificate_hash": "3f8ce0435a1b0bb05dc86e2d066bd8b3fcc655d6"
+          }
+        },
+        {
+          "client_id": "890810544590-g8m23kfnt8r8khgkkuf9ra948oquiu5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx9bSy2Pfs8X-_ZvlHvE4tPnmeyjvDw1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890810544590-g8m23kfnt8r8khgkkuf9ra948oquiu5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
