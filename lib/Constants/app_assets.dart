@@ -8,5 +8,7 @@ class AppAssets {
   static String get onboaring3 => _getFullLottiePath("second.lottie");
 
   // images
-
+  static String get logo => _getFullImagePath("logo.png");
+  static String get google => _getFullImagePath("google.png");
+  static String get fb => _getFullImagePath("fb.png");
 }

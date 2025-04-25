@@ -1,10 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
+import 'package:speak_ez/Utils/theme.dart';
 
 import 'Controllers/global_controller.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const AppEntry());
 }
 
@@ -21,25 +26,15 @@ class AppEntry extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.system, // 👈 auto switch based on OS
-      home: const OnboardingScreen());
+      home: const LoginScreen());
   }
 }
 
+class Wrapper extends StatelessWidget {
+  const Wrapper({super.key});
 
-final ThemeData lightTheme = ThemeData(
-  brightness: Brightness.light,
-  primarySwatch: Colors.deepPurple,
-  scaffoldBackgroundColor: Colors.white,
-  textTheme: const TextTheme(
-    bodyLarge: TextStyle(color: Colors.black),
-  ),
-);
-
-final ThemeData darkTheme = ThemeData(
-  brightness: Brightness.dark,
-  primarySwatch: Colors.deepPurple,
-  scaffoldBackgroundColor: Color(0xFF121212),
-  textTheme: const TextTheme(
-    bodyLarge: TextStyle(color: Colors.white),
-  ),
-);
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}

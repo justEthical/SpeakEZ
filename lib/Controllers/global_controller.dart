@@ -3,10 +3,12 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
 
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
+  static SharedPreferences? prefs;
   final cutomTabBarController = PageController(initialPage: 0);
   final onboardingPageIndicator = PageController(initialPage: 0);
   var currentOnboardingIndex = 0.obs;
