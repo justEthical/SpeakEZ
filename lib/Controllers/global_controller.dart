@@ -8,11 +8,14 @@ import 'package:speak_ez/Utils/load_model_helper.dart';
 
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
-  static SharedPreferences? prefs;
+  SharedPreferences? prefs;
   final cutomTabBarController = PageController(initialPage: 0);
   final onboardingPageIndicator = PageController(initialPage: 0);
+  final onboardingQuestionsController = PageController(initialPage: 0);
+
   var currentOnboardingIndex = 0.obs;
   var currentTabIndex = 0.obs;
+  var currentOnboardingQuestionIndex = 0.obs;
   var transcription = "".obs;
 
   void transcribeAudio() async {

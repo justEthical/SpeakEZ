@@ -5,6 +5,7 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Screens/Login/Widgets/login_button.dart';
 import 'package:speak_ez/Screens/Login/Widgets/terms_and_privacy.dart';
+import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -91,7 +92,16 @@ class LoginScreen extends StatelessWidget {
                     ),
 
                     SizedBox(height: 20),
-                    LoginButton(text: "Google", logo: AppAssets.google, onTap: () => AuthService.signInWithGoogle(),),
+                    LoginButton(
+                      text: "Google",
+                      logo: AppAssets.google,
+                      onTap: () async{
+                        final userData = await AuthService.signInWithGoogle();
+                        if (userData != null) {
+                          Get.offAll(()=> OnboarindQuestions());
+                        }
+                      },
+                    ),
                     // SizedBox(height: 15),
                     // LoginButton(text: "Facebook", logo: AppAssets.fb),
                     SizedBox(height: 15),
