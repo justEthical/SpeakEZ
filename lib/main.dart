@@ -1,13 +1,17 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
+import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
+import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Utils/theme.dart';
 
 import 'Controllers/global_controller.dart';
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const AppEntry());
@@ -26,15 +30,44 @@ class AppEntry extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.system, // 👈 auto switch based on OS
-      home: const LoginScreen());
+      home: const OnboarindQuestions(),
+    );
   }
 }
 
-class Wrapper extends StatelessWidget {
+class Wrapper extends StatefulWidget {
   const Wrapper({super.key});
 
   @override
+  State<Wrapper> createState() => _WrapperState();
+}
+
+class _WrapperState extends State<Wrapper> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getSharePrefsAndRouteUser();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(body: Center(child: CircularProgressIndicator()));
+  }
+
+  getSharePrefsAndRouteUser() async {
+    globalController.prefs = await SharedPreferences.getInstance();
+    final userAuthState = globalController.prefs?.getString(
+      AppStrings.userAuthState,
+    );
+    if (userAuthState == "loggedIn") {
+      Get.offAll(() => TabBarScreen());
+    } else if (userAuthState == "loggedOut") {
+      Get.offAll(() => LoginScreen());
+    } else if (userAuthState == "onboardingQuestions") {
+      Get.offAll(() => OnboarindQuestions());
+    } else {
+      Get.offAll(() => OnboardingScreen());
+    }
   }
 }
