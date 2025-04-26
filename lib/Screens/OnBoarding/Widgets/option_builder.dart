@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 
@@ -11,6 +10,7 @@ class OptionsBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final c = Get.find<OnboardingController>();
     return Obx(
       () => GestureDetector(
         onTap: () {
@@ -22,7 +22,7 @@ class OptionsBuilder extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 20),
           decoration: BoxDecoration(
             color:
-                globalController.onboardingQuestionAnswerMap[model.id] == label
+                c.onboardingQuestionAnswerMap[model.id] == label
                     ? Colors.purple
                     : const Color(0xFFF2F2F2),
             borderRadius: BorderRadius.circular(10),
@@ -33,7 +33,7 @@ class OptionsBuilder extends StatelessWidget {
               style: TextStyle(
                 fontSize: 15,
                 color:
-                    globalController.onboardingQuestionAnswerMap[model.id] ==
+                    c.onboardingQuestionAnswerMap[model.id] ==
                             label
                         ? Colors.white
                         : Colors.black87,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_and_options.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_progress_bar.dart';
@@ -13,11 +12,14 @@ class OnboarindQuestions extends StatefulWidget {
 }
 
 class _OnboarindQuestionsState extends State<OnboarindQuestions> {
+
+  final c = Get.find<OnboardingController>();
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    Get.find<OnboardingController>().addLanguageBasedQuestionInOnboarding();
+    c.addLanguageBasedQuestionInOnboarding();
   }
 
   @override
@@ -29,12 +31,12 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.purple),
           onPressed: () {
-            if (globalController.onboardingQuestionsController.page != 0) {
-              globalController.onboardingQuestionsController.previousPage(
+            if (c.onboardingQuestionsController.page != 0) {
+              c.onboardingQuestionsController.previousPage(
                 duration: Duration(milliseconds: 300),
                 curve: Curves.easeIn,
               );
-              globalController.currentOnboardingQuestionIndex.value--;
+              c.currentOnboardingQuestionIndex.value--;
             }
           },
         ),

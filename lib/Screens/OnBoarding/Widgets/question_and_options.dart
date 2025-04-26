@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/option_builder.dart';
 
@@ -11,6 +11,7 @@ class QuestionAndOptions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final c = Get.find<OnboardingController>();
     return Expanded(
       child: Container(
         height: Get.height * 0.6,
@@ -32,7 +33,7 @@ class QuestionAndOptions extends StatelessWidget {
           () => PageView.builder(
             itemCount: onboardingQuestions.length,
             scrollDirection: Axis.horizontal,
-            controller: globalController.onboardingQuestionsController,
+            controller: c.onboardingQuestionsController,
             itemBuilder: (ctx, i) {
               return Column(
                 mainAxisSize: MainAxisSize.min,
