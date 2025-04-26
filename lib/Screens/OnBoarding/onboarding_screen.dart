@@ -109,7 +109,6 @@ class OnboardingScreen extends StatelessWidget {
                       minimumSize: const Size(100, 40),
                     ),
                     onPressed: () {
-                      globalController.currentOnboardingIndex.value++;
                       globalController.onboardingPageIndicator.nextPage(
                         duration: const Duration(milliseconds: 500),
                         curve: Curves.easeIn,
@@ -118,6 +117,7 @@ class OnboardingScreen extends StatelessWidget {
                         globalController.prefs?.setString(AppStrings.userAuthState, "loggedOut");
                         Get.offAll(() => const LoginScreen());
                       }
+                      globalController.currentOnboardingIndex.value++;
                     },
                     child: Text("Next", style: TextStyle(color: Colors.white)),
                   ),

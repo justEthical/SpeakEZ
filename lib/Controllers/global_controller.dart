@@ -1,5 +1,6 @@
 import 'dart:typed_data';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
@@ -12,6 +13,7 @@ import 'package:speak_ez/Utils/load_model_helper.dart';
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
   SharedPreferences? prefs;
+  Rxn<User> currentUser = Rxn<User>();
   final cutomTabBarController = PageController(initialPage: 0);
   final onboardingPageIndicator = PageController(initialPage: 0);
   final onboardingQuestionsController = PageController(initialPage: 0);
@@ -69,21 +71,6 @@ class GlobalController extends GetxController {
         );
       },
     );
-  }
-
-  void addLanguageBasedQuestionInOnboarding() async {
-    final countryCode = await NetworkService.getUserCountryFromIP();
-    for (var country in countryLanguages) {
-      if (country.countryCode == countryCode) {
-        onboardingQuestions.add(
-          OnboardingQuestion(
-            id: "MotherTongue",
-            question: "Which language do you speak at home?",
-            options: country.languages,
-          ),
-        );
-      }
-    }
   }
 }
 
