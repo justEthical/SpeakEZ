@@ -1,99 +1,100 @@
 class CountryLanguage {
-  final String country;
+  final String countryCode;
   final List<String> languages;
 
-  CountryLanguage({required this.country, required this.languages});
+  CountryLanguage({required this.countryCode, required this.languages});
 }
 
+
 final List<CountryLanguage> countryLanguages = [
-  CountryLanguage(country: "India", languages: [
+  CountryLanguage(countryCode: "IN", languages: [
     "Hindi", "Tamil", "Telugu", "Malayalam", "Kannada", "Punjabi", "Bengali", "Marathi", "Gujarati", "Urdu", "Odia", "Assamese"
   ]),
-  CountryLanguage(country: "United States", languages: [
+  CountryLanguage(countryCode: "US", languages: [
     "English", "Spanish"
   ]),
-  CountryLanguage(country: "United Kingdom", languages: [
+  CountryLanguage(countryCode: "GB", languages: [
     "English", "Welsh", "Scottish Gaelic"
   ]),
-  CountryLanguage(country: "Canada", languages: [
+  CountryLanguage(countryCode: "CA", languages: [
     "English", "French"
   ]),
-  CountryLanguage(country: "Australia", languages: [
+  CountryLanguage(countryCode: "AU", languages: [
     "English", "I speak a different language"
   ]),
-  CountryLanguage(country: "Germany", languages: [
+  CountryLanguage(countryCode: "DE", languages: [
     "German", "I speak a different language"
   ]),
-  CountryLanguage(country: "France", languages: [
+  CountryLanguage(countryCode: "FR", languages: [
     "French", "I speak a different language"
   ]),
-  CountryLanguage(country: "Italy", languages: [
+  CountryLanguage(countryCode: "IT", languages: [
     "Italian", "I speak a different language"
   ]),
-  CountryLanguage(country: "Spain", languages: [
+  CountryLanguage(countryCode: "ES", languages: [
     "Spanish", "Catalan", "Galician", "Basque"
   ]),
-  CountryLanguage(country: "Russia", languages: [
+  CountryLanguage(countryCode: "RU", languages: [
     "Russian", "I speak a different language"
   ]),
-  CountryLanguage(country: "China", languages: [
+  CountryLanguage(countryCode: "CN", languages: [
     "Mandarin", "Cantonese"
   ]),
-  CountryLanguage(country: "Japan", languages: [
+  CountryLanguage(countryCode: "JP", languages: [
     "Japanese", "I speak a different language"
   ]),
-  CountryLanguage(country: "South Korea", languages: [
+  CountryLanguage(countryCode: "KR", languages: [
     "Korean", "I speak a different language"
   ]),
-  CountryLanguage(country: "Brazil", languages: [
+  CountryLanguage(countryCode: "BR", languages: [
     "Portuguese", "I speak a different language"
   ]),
-  CountryLanguage(country: "Mexico", languages: [
+  CountryLanguage(countryCode: "MX", languages: [
     "Spanish", "I speak a different language"
   ]),
-  CountryLanguage(country: "Indonesia", languages: [
+  CountryLanguage(countryCode: "ID", languages: [
     "Indonesian (Bahasa Indonesia)", "Javanese", "Sundanese"
   ]),
-  CountryLanguage(country: "Saudi Arabia", languages: [
+  CountryLanguage(countryCode: "SA", languages: [
     "Arabic", "I speak a different language"
   ]),
-  CountryLanguage(country: "Egypt", languages: [
+  CountryLanguage(countryCode: "EG", languages: [
     "Arabic", "I speak a different language"
   ]),
-  CountryLanguage(country: "South Africa", languages: [
+  CountryLanguage(countryCode: "ZA", languages: [
     "Zulu", "Xhosa", "Afrikaans", "English", "Sesotho", "Setswana", "Xitsonga", "Tshivenda", "isiNdebele"
   ]),
-  CountryLanguage(country: "Pakistan", languages: [
+  CountryLanguage(countryCode: "PK", languages: [
     "Urdu", "Punjabi", "Sindhi", "Pashto", "Balochi"
   ]),
-  CountryLanguage(country: "Bangladesh", languages: [
+  CountryLanguage(countryCode: "BD", languages: [
     "Bengali", "I speak a different language"
   ]),
-  CountryLanguage(country: "Sri Lanka", languages: [
+  CountryLanguage(countryCode: "LK", languages: [
     "Sinhala", "Tamil"
   ]),
-  CountryLanguage(country: "Nepal", languages: [
+  CountryLanguage(countryCode: "NP", languages: [
     "Nepali", "I speak a different language"
   ]),
-  CountryLanguage(country: "Thailand", languages: [
+  CountryLanguage(countryCode: "TH", languages: [
     "Thai", "I speak a different language"
   ]),
-  CountryLanguage(country: "Vietnam", languages: [
+  CountryLanguage(countryCode: "VN", languages: [
     "Vietnamese", "I speak a different language"
   ]),
-  CountryLanguage(country: "Turkey", languages: [
+  CountryLanguage(countryCode: "TR", languages: [
     "Turkish", "I speak a different language"
   ]),
-  CountryLanguage(country: "Iran", languages: [
+  CountryLanguage(countryCode: "IR", languages: [
     "Persian (Farsi)", "I speak a different language"
   ]),
-  CountryLanguage(country: "Iraq", languages: [
+  CountryLanguage(countryCode: "IQ", languages: [
     "Arabic", "Kurdish"
   ]),
-  CountryLanguage(country: "Nigeria", languages: [
+  CountryLanguage(countryCode: "NG", languages: [
     "English", "Hausa", "Yoruba", "Igbo"
   ]),
-  CountryLanguage(country: "Kenya", languages: [
+  CountryLanguage(countryCode: "KE", languages: [
     "English", "Swahili"
   ])
 ];

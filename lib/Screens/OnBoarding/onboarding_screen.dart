@@ -4,7 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Models/onboarind_view_model.dart';
+import 'package:speak_ez/Models/onboarding_view_model.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {

@@ -1,12 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Models/onboardin_questions_model.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_and_options.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_progress_bar.dart';
 
-class OnboarindQuestions extends StatelessWidget {
+class OnboarindQuestions extends StatefulWidget {
   const OnboarindQuestions({super.key});
+
+  @override
+  State<OnboarindQuestions> createState() => _OnboarindQuestionsState();
+}
+
+class _OnboarindQuestionsState extends State<OnboarindQuestions> {
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    globalController.addLanguageBasedQuestionInOnboarding();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -54,6 +65,7 @@ class OnboarindQuestions extends StatelessWidget {
             QuestionProgressBar(),
             const SizedBox(height: 30),
             QuestionAndOptions(),
+            
           ],
         ),
       ),
