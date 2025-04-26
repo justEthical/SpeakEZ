@@ -1,3 +1,5 @@
+import 'package:get/get.dart';
+
 class OnboardingQuestion {
   final String id;
   final String question;
@@ -10,7 +12,7 @@ class OnboardingQuestion {
   });
 }
 
-final List<OnboardingQuestion> onboardingQuestions = [
+var  onboardingQuestions = [
   OnboardingQuestion(
     id: 'userType',
     question: 'What best describes you?',
@@ -52,4 +54,4 @@ final List<OnboardingQuestion> onboardingQuestions = [
       'Daily lessons / challenges',
     ],
   ),
-];
+].obs;

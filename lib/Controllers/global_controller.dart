@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:speak_ez/Models/country_languages.dart';
+import 'package:speak_ez/Models/onboarding_questions_model.dart';
+import 'package:speak_ez/Services/Network_service.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
 
 class GlobalController extends GetxController {
@@ -17,6 +20,8 @@ class GlobalController extends GetxController {
   var currentTabIndex = 0.obs;
   var currentOnboardingQuestionIndex = 0.obs;
   var transcription = "".obs;
+
+  var onboardingQuestionAnswerMap = <String, String>{}.obs;
 
   void transcribeAudio() async {
     final now = DateTime.now().millisecondsSinceEpoch;
@@ -56,11 +61,30 @@ class GlobalController extends GetxController {
   }
 
   Future<LottieComposition?> customDecoder(List<int> bytes) {
-  return LottieComposition.decodeZip(bytes, filePicker: (files) {
-    return files.firstWhereOrNull(
-        (f) => f.name.startsWith('animations/') && f.name.endsWith('.json'));
-  });
-}
+    return LottieComposition.decodeZip(
+      bytes,
+      filePicker: (files) {
+        return files.firstWhereOrNull(
+          (f) => f.name.startsWith('animations/') && f.name.endsWith('.json'),
+        );
+      },
+    );
+  }
+
+  void addLanguageBasedQuestionInOnboarding() async {
+    final countryCode = await NetworkService.getUserCountryFromIP();
+    for (var country in countryLanguages) {
+      if (country.countryCode == countryCode) {
+        onboardingQuestions.add(
+          OnboardingQuestion(
+            id: "MotherTongue",
+            question: "Which language do you speak at home?",
+            options: country.languages,
+          ),
+        );
+      }
+    }
+  }
 }
 
 GlobalController globalController = GlobalController.instance;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Models/onboardin_questions_model.dart';
+import 'package:speak_ez/Models/onboarding_questions_model.dart';
 
 class QuestionProgressBar extends StatelessWidget {
   const QuestionProgressBar({super.key});

@@ -12,7 +12,7 @@ class OnboarindViewModel {
   });
 }
 
-final onBoardingItems = [
+List<OnboarindViewModel> onBoardingItems = [
   OnboarindViewModel(
     title: "Speak with Confidence",
     description:
