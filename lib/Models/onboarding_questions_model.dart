@@ -32,6 +32,7 @@ var  onboardingQuestions = [
       'For job interviews or work communication',
       'For travel or international conversations',
       'To improve grammar and vocabulary',
+      'For school or college',
       'Just learning for fun',
     ],
   ),

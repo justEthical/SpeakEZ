@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/onboarding_controller.dart';
+import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
-import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Utils/theme.dart';
 
 import 'Controllers/global_controller.dart';
@@ -26,11 +27,12 @@ class AppEntry extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialBinding: BindingsBuilder(() {
         Get.put(GlobalController());
+        Get.put(OnboardingController());
       }),
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.system, // 👈 auto switch based on OS
-      home: const OnboarindQuestions(),
+      home: const Wrapper(),
     );
   }
 }
@@ -61,7 +63,7 @@ class _WrapperState extends State<Wrapper> {
       AppStrings.userAuthState,
     );
     if (userAuthState == "loggedIn") {
-      Get.offAll(() => TabBarScreen());
+      Get.offAll(() => HomeScreen());
     } else if (userAuthState == "loggedOut") {
       Get.offAll(() => LoginScreen());
     } else if (userAuthState == "onboardingQuestions") {

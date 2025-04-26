@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_and_options.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_progress_bar.dart';
 
@@ -11,12 +13,11 @@ class OnboarindQuestions extends StatefulWidget {
 }
 
 class _OnboarindQuestionsState extends State<OnboarindQuestions> {
-
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    globalController.addLanguageBasedQuestionInOnboarding();
+    Get.find<OnboardingController>().addLanguageBasedQuestionInOnboarding();
   }
 
   @override
@@ -65,7 +66,6 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
             QuestionProgressBar(),
             const SizedBox(height: 30),
             QuestionAndOptions(),
-            
           ],
         ),
       ),

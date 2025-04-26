@@ -1,0 +1,102 @@
+{
+    "lesson_name": "Talking About Past Events",
+    "level": "Intermediate",
+    "questions": [
+      {
+        "type": "flashcard",
+        "word": "Went",
+        "image_url": "https://example.com/went.png",
+        "audio_url": "https://example.com/went.mp3",
+        "translation": "गया"
+      },
+      {
+        "type": "flashcard",
+        "word": "Ate",
+        "image_url": "https://example.com/ate.png",
+        "audio_url": "https://example.com/ate.mp3",
+        "translation": "खाया"
+      },
+      {
+        "type": "flashcard",
+        "word": "Saw",
+        "image_url": "https://example.com/saw.png",
+        "audio_url": "https://example.com/saw.mp3",
+        "translation": "देखा"
+      },
+      {
+        "type": "flashcard",
+        "word": "Bought",
+        "image_url": "https://example.com/bought.png",
+        "audio_url": "https://example.com/bought.mp3",
+        "translation": "खरीदा"
+      },
+      {
+        "type": "flashcard",
+        "word": "Flew",
+        "image_url": "https://example.com/flew.png",
+        "audio_url": "https://example.com/flew.mp3",
+        "translation": "उड़ा"
+      },
+      {
+        "type": "jumbled",
+        "question": "Arrange the letters to form a past tense verb",
+        "jumbled_word": "EWTN",
+        "answer": "WENT"
+      },
+      {
+        "type": "jumbled",
+        "question": "Arrange the letters to form a past tense verb",
+        "jumbled_word": "TEA",
+        "answer": "ATE"
+      },
+      {
+        "type": "fill_in_blank",
+        "question": "I ___ (go/went) to the market yesterday.",
+        "options": ["go", "went"],
+        "correct_answer": "went"
+      },
+      {
+        "type": "fill_in_blank",
+        "question": "He ___ (eat/ate) an apple for breakfast.",
+        "options": ["eat", "ate"],
+        "correct_answer": "ate"
+      },
+      {
+        "type": "tap_audio",
+        "audio_url": "https://example.com/saw.mp3",
+        "options": ["Saw", "Bought", "Flew"],
+        "correct_answer": "Saw"
+      },
+      {
+        "type": "tap_audio",
+        "audio_url": "https://example.com/flew.mp3",
+        "options": ["Went", "Flew", "Ate"],
+        "correct_answer": "Flew"
+      },
+      {
+        "type": "word_match",
+        "pairs": [
+          { "word": "Bought", "match": "Purchased something" },
+          { "word": "Flew", "match": "Travelled in the air" }
+        ]
+      },
+      {
+        "type": "word_match",
+        "pairs": [
+          { "word": "Saw", "match": "Looked at something" },
+          { "word": "Ate", "match": "Consumed food" }
+        ]
+      },
+      {
+        "type": "sentence_rearrange",
+        "jumbled_sentence": ["Yesterday", "I", "went", "to", "the", "park"],
+        "answer": "Yesterday I went to the park."
+      },
+      {
+        "type": "sentence_rearrange",
+        "jumbled_sentence": ["She", "bought", "a", "new", "dress", "last", "week"],
+        "answer": "She bought a new dress last week."
+      }
+    ]
+  }
+  
