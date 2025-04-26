@@ -4,6 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Models/onboarding_view_model.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 
@@ -12,6 +13,7 @@ class OnboardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final OnboardingController c = Get.put(OnboardingController());
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -21,7 +23,7 @@ class OnboardingScreen extends StatelessWidget {
               SizedBox(height: 40),
               SmoothPageIndicator(
                 controller:
-                    globalController.onboardingPageIndicator, // PageController
+                    c.onboardingPageIndicator, // PageController
                 count: 3,
                 effect: ExpandingDotsEffect(
                   activeDotColor: Colors.blue,
@@ -35,7 +37,7 @@ class OnboardingScreen extends StatelessWidget {
               Expanded(
                 child: PageView.builder(
                   physics: NeverScrollableScrollPhysics(),
-                  controller: globalController.onboardingPageIndicator,
+                  controller: c.onboardingPageIndicator,
                   scrollDirection: Axis.horizontal,
                   itemCount: onBoardingItems.length,
                   itemBuilder: (ctx, i) {
@@ -79,15 +81,15 @@ class OnboardingScreen extends StatelessWidget {
                 children: [
                   Obx(
                     () =>
-                        (globalController.currentOnboardingIndex.value != 0)
+                        (c.currentOnboardingIndex.value != 0)
                             ? ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.blue,
                                 minimumSize: const Size(100, 40),
                               ),
                               onPressed: () {
-                                globalController.currentOnboardingIndex.value--;
-                                globalController.onboardingPageIndicator
+                                c.currentOnboardingIndex.value--;
+                                c.onboardingPageIndicator
                                     .previousPage(
                                       duration: const Duration(
                                         milliseconds: 500,
@@ -109,15 +111,15 @@ class OnboardingScreen extends StatelessWidget {
                       minimumSize: const Size(100, 40),
                     ),
                     onPressed: () {
-                      globalController.onboardingPageIndicator.nextPage(
+                      c.onboardingPageIndicator.nextPage(
                         duration: const Duration(milliseconds: 500),
                         curve: Curves.easeIn,
                       );
-                      if (globalController.currentOnboardingIndex.value == 2) {
+                      if (c.currentOnboardingIndex.value == 2) {
                         globalController.prefs?.setString(AppStrings.userAuthState, "loggedOut");
                         Get.offAll(() => const LoginScreen());
                       }
-                      globalController.currentOnboardingIndex.value++;
+                      c.currentOnboardingIndex.value++;
                     },
                     child: Text("Next", style: TextStyle(color: Colors.white)),
                   ),

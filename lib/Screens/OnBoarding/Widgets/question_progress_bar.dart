@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 
 class QuestionProgressBar extends StatelessWidget {
@@ -8,6 +8,7 @@ class QuestionProgressBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final c = Get.find<OnboardingController>();
     return Stack(
       children: [
         Container(
@@ -26,7 +27,7 @@ class QuestionProgressBar extends StatelessWidget {
               duration: Duration(milliseconds: 300),
               width:
                   ((Get.width / onboardingQuestions.length) *
-                      (globalController.currentOnboardingQuestionIndex.value +
+                      (c.currentOnboardingQuestionIndex.value +
                           1)) -
                   40,
               height: 10,

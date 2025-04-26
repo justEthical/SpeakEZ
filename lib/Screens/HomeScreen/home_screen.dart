@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
-        title: Text("Hi, ${globalController.currentUser.value!.displayName}"),
+        title: Text("Hi, ${globalController.userProfile.value.name}!"),
       ),
     );
   }
