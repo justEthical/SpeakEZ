@@ -3,6 +3,7 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Models/user_profile_model.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
@@ -13,9 +14,23 @@ class GlobalController extends GetxController {
   var userProfile = UserProfileModel.fromJson({}).obs;
   final cutomTabBarController = PageController(initialPage: 0);
 
+  var appVersion = "".obs;
+
   var currentTabIndex = 0.obs;
 
   var transcription = "".obs;
+
+  @override
+  void onReady() {
+    // TODO: implement onReady
+    super.onReady();
+    loadVersion();
+  }
+
+  void loadVersion() async {
+    PackageInfo packageInfo = await PackageInfo.fromPlatform();
+    appVersion.value = "${packageInfo.version}(${packageInfo.buildNumber})";
+  }
 
   void transcribeAudio() async {
     final now = DateTime.now().millisecondsSinceEpoch;

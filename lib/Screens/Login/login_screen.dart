@@ -1,17 +1,10 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/get_core.dart';
-import 'package:get/get_navigation/src/extension_navigation.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/Login/Widgets/login_button.dart';
 import 'package:speak_ez/Screens/Login/Widgets/terms_and_privacy.dart';
-import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
-import 'package:speak_ez/Services/auth_service.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

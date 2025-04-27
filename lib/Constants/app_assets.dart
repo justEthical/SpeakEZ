@@ -11,4 +11,12 @@ class AppAssets {
   static String get logo => _getFullImagePath("logo.png");
   static String get google => _getFullImagePath("google.png");
   static String get fb => _getFullImagePath("fb.png");
+  static String get settings => _getFullImagePath("settings.svg");
+
+  // profile
+  static String helpCircle = _getFullImagePath('help-circle.svg');
+  static String starIcon = _getFullImagePath('star.svg');
+  static String giftIcon = _getFullImagePath('gift.svg');
+  static String logOut = _getFullImagePath('log-out.svg');
+  static String deleteIcon = _getFullImagePath('trash.svg');
 }

@@ -6,7 +6,6 @@ import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/country_languages.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
-import 'package:speak_ez/Models/user_profile_model.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Services/auth_service.dart';
@@ -45,13 +44,6 @@ class OnboardingController extends GetxController {
       globalController.prefs?.setString(
         AppStrings.userProfile,
         jsonEncode(userProfile),
-      );
-
-      var profileData = globalController.prefs?.getString(
-        AppStrings.userProfile,
-      );
-      globalController.userProfile.value = UserProfileModel.fromJson(
-        jsonDecode(profileData!),
       );
 
       Get.offAll(() => const HomeScreen());
