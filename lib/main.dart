@@ -31,6 +31,7 @@ class AppEntry extends StatelessWidget {
       }),
       theme: lightTheme,
       darkTheme: darkTheme,
+      
       themeMode: ThemeMode.system, // 👈 auto switch based on OS
       home: const Wrapper(),
     );
