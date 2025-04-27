@@ -5,6 +5,7 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 
 class SettingScreens extends StatelessWidget {
   const SettingScreens({super.key});
@@ -16,6 +17,7 @@ class SettingScreens extends StatelessWidget {
         children: [
           Container(
             width: Get.width,
+            padding: const EdgeInsets.only(bottom: 15),
             decoration: BoxDecoration(
               color: Colors.deepPurple,
               borderRadius: BorderRadius.only(
@@ -41,6 +43,22 @@ class SettingScreens extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
+                      InkWell(
+                        onTap: () => Get.back(),
+                        child: Container(
+                          padding: const EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle,
+                          ),
+                          child: Icon(
+                            Icons.close,
+                            size: 20,
+                            color: Colors.deepPurple,
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 20),
                     ],
                   ),
                   SizedBox(height: 15),
@@ -136,9 +154,10 @@ class SettingScreens extends StatelessWidget {
                 ),
                 SettingsOptionTile(
                   onTap: () async {
-                    // Get.defaultDialog(
-                    //     titleStyle: const TextStyle(fontSize: 0),
-                    //     content: const LogoutDialog());
+                    Get.defaultDialog(
+                      titleStyle: const TextStyle(fontSize: 0),
+                      content: CustomDialogs.logoutDialog(),
+                    );
                   },
                   icon: AppAssets.logOut,
                   content: "Logout",

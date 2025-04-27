@@ -52,21 +52,33 @@ class OnboardingController extends GetxController {
 
   void googleLogin() async {
     final userData = await AuthService.signInWithGoogle();
-    if (userData != null) {
+    if (userData?.user != null) {
       var userProfile = {
-        "uid": userData.uid,
-        "name": userData.displayName,
-        "email": userData.email,
-        "imageUrl": userData.photoURL,
+        "uid": userData?.user?.uid,
+        "name": userData?.user?.displayName,
+        "email": userData?.user?.email,
+        "imageUrl": userData?.user?.photoURL,
       };
       globalController.prefs?.setString(
         AppStrings.userProfile,
         jsonEncode(userProfile),
       );
-      Get.offAll(() => OnboarindQuestions());
+      print(userData!.additionalUserInfo!.isNewUser);
+      if (userData.additionalUserInfo!.isNewUser) {
+        Get.offAll(() => OnboarindQuestions());
+      } else {
+        globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
+        Get.offAll(() => HomeScreen());
+      }
     }
   }
 
+  /*************  ✨ Windsurf Command ⭐  *************/
+  /// Adds a language based question in the onboardingQuestions list.
+  ///
+  /// This question asks the user which language they speak at home.
+  /// The options are based on the user's country.
+  /// *****  4e777342-ad44-4f6c-bfcd-ef372e6b7212  ******
   void addLanguageBasedQuestionInOnboarding() async {
     final countryCode = await NetworkService.getUserCountryFromIP();
     for (var country in countryLanguages) {

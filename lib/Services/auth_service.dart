@@ -6,7 +6,7 @@ class AuthService {
   static final GoogleSignIn _googleSignIn = GoogleSignIn();
   static User? user;
   
-  static Future<User?> signInWithGoogle() async {
+  static Future<UserCredential?> signInWithGoogle() async {
   try {
     // Trigger the Google Sign-In process
     final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
@@ -27,16 +27,15 @@ class AuthService {
     final UserCredential userCredential = await _auth.signInWithCredential(credential);
 
     // Return the authenticated user
-    return userCredential.user;
+    return userCredential;
   } catch (e) {
     print("Error during Google sign-in: $e");
     return null;
   }
 }
 
-Future<void> signOutGoogle() async {
+static Future<void> signOutGoogle() async {
   await _googleSignIn.signOut();
   await _auth.signOut();
-  print("User signed out");
 }
 }
