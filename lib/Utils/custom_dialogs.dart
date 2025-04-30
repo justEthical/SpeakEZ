@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
@@ -9,6 +8,7 @@ import 'package:speak_ez/Services/auth_service.dart';
 class CustomDialogs {
   static Widget logoutDialog() {
     return Dialog(
+      insetPadding: const EdgeInsets.all(20),
       child: Container(
         // padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(

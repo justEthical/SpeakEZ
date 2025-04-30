@@ -19,4 +19,8 @@ class AppAssets {
   static String giftIcon = _getFullImagePath('gift.svg');
   static String logOut = _getFullImagePath('log-out.svg');
   static String deleteIcon = _getFullImagePath('trash.svg');
+
+  // Home
+  static String flame = _getFullImagePath('flame-icon.svg');
+  static String medal = _getFullImagePath('medal-icon.svg');
 }

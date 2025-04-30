@@ -25,13 +25,14 @@ class AppEntry extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
+      defaultTransition: Transition.cupertino,
       initialBinding: BindingsBuilder(() {
         Get.put(GlobalController());
         Get.put(OnboardingController());
       }),
       theme: lightTheme,
       darkTheme: darkTheme,
-      
+
       themeMode: ThemeMode.system, // 👈 auto switch based on OS
       home: const Wrapper(),
     );

@@ -28,11 +28,11 @@ var  onboardingQuestions = [
     id: 'motivation',
     question: 'Why do you want to learn English?',
     options: [
-      'To speak fluently and confidently',
-      'For job interviews or work communication',
+      'Speak fluently and confidently',
+      'Job interviews or work',
       'For travel or international conversations',
-      'To improve grammar and vocabulary',
-      'For school or college',
+      'Improve grammar and vocabulary',
+      'School or college',
       'Just learning for fun',
     ],
   ),
@@ -42,7 +42,8 @@ var  onboardingQuestions = [
     options: [
       'Not confident at all',
       'A little confident',
-      'Very confident',
+      'Very confident'
+      'Fluent in English',
     ],
   ),
   OnboardingQuestion(
