@@ -5,6 +5,7 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
+import 'package:speak_ez/Utils/common_widgets.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 
 class SettingScreens extends StatelessWidget {
@@ -76,8 +77,8 @@ class SettingScreens extends StatelessWidget {
                         ),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
-                          child: Image.network(
-                            globalController.userProfile.value.imageUrl,
+                          child: UrlImage(
+                            url: globalController.userProfile.value.imageUrl,
                           ),
                         ),
                       ),
