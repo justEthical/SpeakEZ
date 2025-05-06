@@ -30,19 +30,19 @@ class HomeScreenController extends GetxController {
         break;
       case "B1":
         currenEnglishLessonLevel.value = "B1";
-        loadLessonsFromJson('assets/lessons/a2.json');
+        loadLessonsFromJson('assets/lessons/b1.json');
         break;
       case "B2":
         currenEnglishLessonLevel.value = "B2";
-        loadLessonsFromJson('assets/lessons/a2.json');
+        loadLessonsFromJson('assets/lessons/b2.json');
         break;
       case "C1":
         currenEnglishLessonLevel.value = "C1";
-        loadLessonsFromJson('assets/lessons/a2.json');
+        loadLessonsFromJson('assets/lessons/c1.json');
         break;
       case "C2":
         currenEnglishLessonLevel.value = "C2";
-        loadLessonsFromJson('assets/lessons/a2.json');
+        loadLessonsFromJson('assets/lessons/c2.json');
         break;
     }
     currenEnglishLessonLevel.value = level;

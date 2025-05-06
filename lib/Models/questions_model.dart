@@ -2,7 +2,7 @@ class Lesson {
   final String lessonName;
   final String purpose;
   final CEFRLevel cefrLevel;
-  final List<Question> questions;
+  final List<DifficaultyLevels> questions;
 
   Lesson({
     required this.lessonName,
@@ -17,7 +17,9 @@ class Lesson {
       purpose: json['purpose'],
       cefrLevel: CEFRLevelExtension.fromString(json['cefrLevel']),
       questions:
-          (json['questions'] as List).map((q) => Question.fromJson(q)).toList(),
+          (json['questions'] as List)
+              .map((q) => DifficaultyLevels.fromJson(q))
+              .toList(),
     );
   }
 
@@ -26,6 +28,32 @@ class Lesson {
     'purpose': purpose,
     'cefrLevel': cefrLevel.name,
     'questions': questions.map((q) => q.toJson()).toList(),
+  };
+}
+
+class DifficaultyLevels {
+  final Question easy;
+  final Question medium;
+  final Question hard;
+
+  DifficaultyLevels({
+    required this.easy,
+    required this.medium,
+    required this.hard,
+  });
+
+  factory DifficaultyLevels.fromJson(Map<String, dynamic> json) {
+    return DifficaultyLevels(
+      easy: Question.fromJson(json['easy']),
+      medium: Question.fromJson(json['medium']),
+      hard: Question.fromJson(json['hard']),
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+    'easy': easy.toJson(),
+    'medium': medium.toJson(),
+    'hard': hard.toJson(),
   };
 }
 
