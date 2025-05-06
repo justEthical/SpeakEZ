@@ -1,7 +1,7 @@
 {
     "id": "lesson_speakingconfidently_001",
-    "name": "Simple Conversations for Confidence",
-    "purpose": "Speaking practice for building confidence",
+    "lesson_name": "Simple Conversations for Confidence",
+    "purpose": "Just for fun",
     "cefrLevel": "A1",
     "questions": [
       {
@@ -21,7 +21,8 @@
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'Good morning! How are you?'",
-          "expectedText": "Good morning! How are you?"
+          "options": [],
+          "answer": "Good morning! How are you?"
         }
       },
       {
@@ -34,14 +35,15 @@
         },
         "medium": {
           "type": "sentenceRearranging",
-          "question": "Arrange the words to form a correct sentence.",
-          "words": ["I", "am", "fine"],
+          "question": "Arrange the options to form a correct sentence.",
+          "options": ["I", "am", "fine"],
           "answer": ["I", "am", "fine"]
         },
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'Goodbye! See you soon!'",
-          "expectedText": "Goodbye! See you soon!"
+          "options": [],
+          "answer": "Goodbye! See you soon!"
         }
       },
       {
@@ -54,8 +56,8 @@
         },
         "medium": {
           "type": "sentenceRearranging",
-          "question": "Arrange the words to make a correct sentence.",
-          "words": ["am", "I", "fine"],
+          "question": "Arrange the options to make a correct sentence.",
+          "options": ["am", "I", "fine"],
           "answer": ["I", "am", "fine"]
         },
         "hard": {
@@ -83,7 +85,8 @@
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'Sorry, could you please repeat that?'",
-          "expectedText": "Sorry, could you please repeat that?"
+          "options": [],
+          "answer": "Sorry, could you please repeat that?"
         }
       },
       {
@@ -103,7 +106,8 @@
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'I am learning English confidently!'",
-          "expectedText": "I am learning English confidently!"
+          "options": [],
+          "answer": "I am learning English confidently!"
         }
       },
       {
@@ -116,14 +120,15 @@
         },
         "medium": {
           "type": "sentenceRearranging",
-          "question": "Arrange the words to form a correct sentence.",
-          "words": ["You", "are", "How"],
+          "question": "Arrange the options to form a correct sentence.",
+          "options": ["You", "are", "How"],
           "answer": ["How", "are", "you"]
         },
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'I am very happy today!'",
-          "expectedText": "I am very happy today!"
+          "options": [],
+          "answer": "I am very happy today!"
         }
       },
       {
@@ -143,7 +148,8 @@
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'Thank you for your help!'",
-          "expectedText": "Thank you for your help!"
+          "options": [],
+          "answer": "Thank you for your help!"
         }
       },
       {
@@ -185,7 +191,8 @@
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'My name is [Your Name].'",
-          "expectedText": "My name is [Your Name]."
+          "options": [],
+          "answer": "My name is [Your Name]."
         }
       },
       {
@@ -198,18 +205,17 @@
         },
         "medium": {
           "type": "sentenceRearranging",
-          "question": "Arrange the words to form a greeting.",
-          "words": ["to", "Nice", "meet", "you"],
+          "question": "Arrange the options to form a greeting.",
+          "options": ["to", "Nice", "meet", "you"],
           "answer": ["Nice", "to", "meet", "you"]
         },
         "hard": {
           "type": "speaking",
           "question": "Read this sentence aloud: 'Nice to meet you!'",
-          "expectedText": "Nice to meet you!"
+          "options": [],
+          "answer": "Nice to meet you!"
         }
       }
-      
-
     ]
   }
   

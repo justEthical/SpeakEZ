@@ -41,7 +41,7 @@ class ListOfLessons extends StatelessWidget {
                   ...List.generate(
                     CEFRLevel.values.length,
                     (index) => InkWell(
-                      onTap: (){
+                      onTap: () {
                         c.changeEnglishLevel(CEFRLevel.values[index].name);
                       },
                       child: Container(
@@ -49,7 +49,11 @@ class ListOfLessons extends StatelessWidget {
                         height: 40,
                         margin: EdgeInsets.only(right: 10),
                         decoration: BoxDecoration(
-                          color: Colors.black,
+                          color:
+                              c.currenEnglishLessonLevel.value ==
+                                      CEFRLevel.values[index].name
+                                  ? Colors.black
+                                  : Colors.grey,
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Center(
