@@ -1,191 +1,131 @@
 class Lesson {
+  final String id;
   final String lessonName;
   final String purpose;
-  final CEFRLevel cefrLevel;
-  final List<DifficaultyLevels> questions;
+  final String cefrLevel;
+  final List<QuestionGroup> questions;
 
   Lesson({
+    required this.id,
     required this.lessonName,
     required this.purpose,
-    required this.questions,
     required this.cefrLevel,
+    required this.questions,
   });
 
   factory Lesson.fromJson(Map<String, dynamic> json) {
     return Lesson(
+      id: json['id'],
       lessonName: json['lesson_name'],
       purpose: json['purpose'],
-      cefrLevel: CEFRLevelExtension.fromString(json['cefrLevel']),
-      questions:
-          (json['questions'] as List)
-              .map((q) => DifficaultyLevels.fromJson(q))
-              .toList(),
+      cefrLevel: json['cefrLevel'],
+      questions: (json['questions'] as List)
+          .map((q) => QuestionGroup.fromJson(q))
+          .toList(),
     );
   }
-
-  Map<String, dynamic> toJson() => {
-    'lesson_name': lessonName,
-    'purpose': purpose,
-    'cefrLevel': cefrLevel.name,
-    'questions': questions.map((q) => q.toJson()).toList(),
-  };
 }
 
-class DifficaultyLevels {
-  final Question easy;
-  final Question medium;
-  final Question hard;
+class QuestionGroup {
+  final List<Question> questionByDifficulty;
 
-  DifficaultyLevels({
-    required this.easy,
-    required this.medium,
-    required this.hard,
-  });
+  QuestionGroup({required this.questionByDifficulty});
 
-  factory DifficaultyLevels.fromJson(Map<String, dynamic> json) {
-    return DifficaultyLevels(
-      easy: Question.fromJson(json['easy']),
-      medium: Question.fromJson(json['medium']),
-      hard: Question.fromJson(json['hard']),
+  factory QuestionGroup.fromJson(Map<String, dynamic> json) {
+    return QuestionGroup(
+      questionByDifficulty: (json['questionByDifficulty'] as List)
+          .map((q) => Question.fromJson(q))
+          .toList(),
     );
   }
-
-  Map<String, dynamic> toJson() => {
-    'easy': easy.toJson(),
-    'medium': medium.toJson(),
-    'hard': hard.toJson(),
-  };
 }
 
-// Base question class
 class Question {
-  final String type;
+  final QuestionType type;
   final String question;
   final List<dynamic> options;
-  final dynamic correctAnswer;
+  final dynamic answer;
+  final String? audioUrl;
 
   Question({
     required this.type,
     required this.question,
     required this.options,
-    required this.correctAnswer,
+    required this.answer,
+    this.audioUrl,
   });
 
   factory Question.fromJson(Map<String, dynamic> json) {
     return Question(
-      type: json['type'],
+      type: questionTypeFromString(json['type']),
       question: json['question'],
-      options: json['options'],
-      correctAnswer: json['correct_answer'] ?? json['correct_answers'],
+      options: List<dynamic>.from(json['options']),
+      answer: json['answer'],
+      audioUrl: json['audioUrl'],
     );
   }
-
-  Map<String, dynamic> toJson() => {
-    'type': type,
-    'question': question,
-    'options': options,
-    'correct_answer': correctAnswer,
-  };
 }
+
 
 enum QuestionType {
-  fillInTheBlanks,
-  sentenceCorrection,
-  synonymsMatching,
   multipleChoice,
-  trueFalse,
-  listening,
+  fillInTheBlanks,
   speaking,
+  trueFalse,
   sentenceRearranging,
-  shortAnswer,
+  listening,
+  synonymsMatching,
+  shortAnswer
 }
 
-extension QuestionTypeExtension on QuestionType {
-  String get name {
-    switch (this) {
-      case QuestionType.fillInTheBlanks:
-        return 'fill_in_the_blanks';
-      case QuestionType.sentenceCorrection:
-        return 'sentence_correction';
-      case QuestionType.synonymsMatching:
-        return 'synonyms_matching';
-      case QuestionType.multipleChoice:
-        return 'multiple_choice';
-      case QuestionType.trueFalse:
-        return 'true_false';
-      case QuestionType.listening:
-        return 'listening';
-      case QuestionType.speaking:
-        return 'speaking';
-      case QuestionType.sentenceRearranging:
-        return 'sentence_rearranging';
-      case QuestionType.shortAnswer:
-        return 'short_answer';
-    }
-  }
-
-  static QuestionType fromString(String value) {
-    switch (value) {
-      case 'fill_in_the_blanks':
-        return QuestionType.fillInTheBlanks;
-      case 'sentence_correction':
-        return QuestionType.sentenceCorrection;
-      case 'synonyms_matching':
-        return QuestionType.synonymsMatching;
-      case 'multiple_choice':
-        return QuestionType.multipleChoice;
-      case 'true_false':
-        return QuestionType.trueFalse;
-      case 'listening':
-        return QuestionType.listening;
-      case 'speaking':
-        return QuestionType.speaking;
-      case 'sentence_rearranging':
-        return QuestionType.sentenceRearranging;
-      case 'short_answer':
-        return QuestionType.shortAnswer;
-      default:
-        throw ArgumentError('Unknown question type: $value');
-    }
+QuestionType questionTypeFromString(String type) {
+  switch (type) {
+    case 'multipleChoice':
+      return QuestionType.multipleChoice;
+    case 'fillInTheBlanks':
+      return QuestionType.fillInTheBlanks;
+    case 'speaking':
+      return QuestionType.speaking;
+    case 'trueFalse':
+      return QuestionType.trueFalse;
+    case 'sentenceRearranging':
+      return QuestionType.sentenceRearranging;
+    case 'listening':
+      return QuestionType.listening;
+    case 'synonymsMatching':
+      return QuestionType.synonymsMatching;
+    case 'shortAnswer':
+      return QuestionType.shortAnswer;
+    default:
+      throw Exception('Unknown QuestionType: $type');
   }
 }
 
-enum CEFRLevel { A1, A2, B1, B2, C1, C2 }
+enum CEFRLevel {
+  A1,
+  A2,
+  B1,
+  B2,
+  C1,
+  C2
+}
 
-extension CEFRLevelExtension on CEFRLevel {
-  String get name {
-    switch (this) {
-      case CEFRLevel.A1:
-        return 'A1';
-      case CEFRLevel.A2:
-        return 'A2';
-      case CEFRLevel.B1:
-        return 'B1';
-      case CEFRLevel.B2:
-        return 'B2';
-      case CEFRLevel.C1:
-        return 'C1';
-      case CEFRLevel.C2:
-        return 'C2';
-    }
-  }
-
-  static CEFRLevel fromString(String value) {
-    switch (value) {
-      case 'A1':
-        return CEFRLevel.A1;
-      case 'A2':
-        return CEFRLevel.A2;
-      case 'B1':
-        return CEFRLevel.B1;
-      case 'B2':
-        return CEFRLevel.B2;
-      case 'C1':
-        return CEFRLevel.C1;
-      case 'C2':
-        return CEFRLevel.C2;
-      default:
-        throw ArgumentError('Unknown CEFR level: $value');
-    }
+CEFRLevel cefrLevelFromString(String level) {
+  switch (level) {
+    case 'A1':
+      return CEFRLevel.A1;
+    case 'A2':
+      return CEFRLevel.A2;
+    case 'B1':
+      return CEFRLevel.B1;
+    case 'B2':
+      return CEFRLevel.B2;
+    case 'C1':
+      return CEFRLevel.C1;
+    case 'C2':
+      return CEFRLevel.C2;
+    default:
+      throw Exception('Unknown CEFR level: $level');
   }
 }
+

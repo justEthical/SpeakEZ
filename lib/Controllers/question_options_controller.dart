@@ -11,10 +11,12 @@ class QuestionOptionsController extends GetxController {
   var currentQuestionIndex = 0.obs;
   final questionPageController = PageController();
   var currentSelectedOptionIndex = 100.obs;
+  var questionDifficultyLevel = 0.obs;
 
   var currentLesson =
       Lesson(
-        cefrLevel: CEFRLevel.A1,
+        id: "",
+        cefrLevel: CEFRLevel.A1.name,
         questions: [],
         purpose: "",
         lessonName: "",

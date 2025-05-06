@@ -5,217 +5,227 @@
     "cefrLevel": "A1",
     "questions": [
       {
-        "number": 1,
-        "easy": {
-          "type": "multipleChoice",
-          "question": "How do you greet someone in the morning?",
-          "options": ["Good morning!", "Good night!", "See you later!"],
-          "answer": "Good morning!"
-        },
-        "medium": {
-          "type": "fillInTheBlanks",
-          "question": "___ morning! How are you?",
-          "options": ["Good", "Great", "Fine"],
-          "answer": "Good"
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'Good morning! How are you?'",
-          "options": [],
-          "answer": "Good morning! How are you?"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "multipleChoice",
+            "question": "How do you greet someone in the morning?",
+            "options": ["Good morning!", "Good night!", "See you later!"],
+            "answer": "Good morning!"
+          },
+          {
+            "type": "fillInTheBlanks",
+            "question": "___ morning! How are you?",
+            "options": ["Good", "Great", "Fine"],
+            "answer": "Good"
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'Good morning! How are you?'",
+            "options": [],
+            "answer": "Good morning! How are you?"
+          }
+        ]
       },
       {
-        "number": 2,
-        "easy": {
-          "type": "trueFalse",
-          "question": "You say 'Goodbye!' when you meet someone.",
-          "options": ["True", "False"],
-          "answer": "False"
-        },
-        "medium": {
-          "type": "sentenceRearranging",
-          "question": "Arrange the options to form a correct sentence.",
-          "options": ["I", "am", "fine"],
-          "answer": ["I", "am", "fine"]
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'Goodbye! See you soon!'",
-          "options": [],
-          "answer": "Goodbye! See you soon!"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "trueFalse",
+            "question": "You say 'Goodbye!' when you meet someone.",
+            "options": ["True", "False"],
+            "answer": "False"
+          },
+          {
+            "type": "sentenceRearranging",
+            "question": "Arrange the options to form a correct sentence.",
+            "options": ["I", "am", "fine"],
+            "answer": ["I", "am", "fine"]
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'Goodbye! See you soon!'",
+            "options": [],
+            "answer": "Goodbye! See you soon!"
+          }
+        ]
       },
       {
-        "number": 3,
-        "easy": {
-          "type": "multipleChoice",
-          "question": "Which sentence is correct?",
-          "options": ["I am fine.", "I fine am.", "Am fine I."],
-          "answer": "I am fine."
-        },
-        "medium": {
-          "type": "sentenceRearranging",
-          "question": "Arrange the options to make a correct sentence.",
-          "options": ["am", "I", "fine"],
-          "answer": ["I", "am", "fine"]
-        },
-        "hard": {
-          "type": "listening",
-          "audioUrl": "https://example.com/audio/lesson1_q3.mp3",
-          "question": "What did the speaker say?",
-          "options": ["I am fine.", "I fine am.", "Fine I am."],
-          "answer": "I am fine."
-        }
+        "questionByDifficulty": [
+          {
+            "type": "multipleChoice",
+            "question": "Which sentence is correct?",
+            "options": ["I am fine.", "I fine am.", "Am fine I."],
+            "answer": "I am fine."
+          },
+          {
+            "type": "sentenceRearranging",
+            "question": "Arrange the options to make a correct sentence.",
+            "options": ["am", "I", "fine"],
+            "answer": ["I", "am", "fine"]
+          },
+          {
+            "type": "listening",
+            "audioUrl": "https://example.com/audio/lesson1_q3.mp3",
+            "question": "What did the speaker say?",
+            "options": ["I am fine.", "I fine am.", "Fine I am."],
+            "answer": "I am fine."
+          }
+        ]
       },
       {
-        "number": 4,
-        "easy": {
-          "type": "multipleChoice",
-          "question": "What do you say when you don’t understand something?",
-          "options": ["Sorry, can you repeat?", "I don't care.", "Leave it."],
-          "answer": "Sorry, can you repeat?"
-        },
-        "medium": {
-          "type": "fillInTheBlanks",
-          "question": "Could you please ___ that?",
-          "options": ["repeat", "leave", "forget"],
-          "answer": "repeat"
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'Sorry, could you please repeat that?'",
-          "options": [],
-          "answer": "Sorry, could you please repeat that?"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "multipleChoice",
+            "question": "What do you say when you don’t understand something?",
+            "options": ["Sorry, can you repeat?", "I don't care.", "Leave it."],
+            "answer": "Sorry, can you repeat?"
+          },
+          {
+            "type": "fillInTheBlanks",
+            "question": "Could you please ___ that?",
+            "options": ["repeat", "leave", "forget"],
+            "answer": "repeat"
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'Sorry, could you please repeat that?'",
+            "options": [],
+            "answer": "Sorry, could you please repeat that?"
+          }
+        ]
       },
       {
-        "number": 5,
-        "easy": {
-          "type": "trueFalse",
-          "question": "Speaking slowly can help you sound more confident.",
-          "options": ["True", "False"],
-          "answer": "True"
-        },
-        "medium": {
-          "type": "synonymsMatching",
-          "question": "Match the word with a similar meaning: 'Confident'",
-          "options": ["Sure", "Sad", "Tired"],
-          "answer": "Sure"
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'I am learning English confidently!'",
-          "options": [],
-          "answer": "I am learning English confidently!"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "trueFalse",
+            "question": "Speaking slowly can help you sound more confident.",
+            "options": ["True", "False"],
+            "answer": "True"
+          },
+          {
+            "type": "synonymsMatching",
+            "question": "Match the word with a similar meaning: 'Confident'",
+            "options": ["Sure", "Sad", "Tired"],
+            "answer": "Sure"
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'I am learning English confidently!'",
+            "options": [],
+            "answer": "I am learning English confidently!"
+          }
+        ]
       },
       {
-        "number": 6,
-        "easy": {
-          "type": "synonymsMatching",
-          "question": "Match the word 'Happy' with its synonym.",
-          "options": ["Sad", "Joyful", "Angry"],
-          "answer": "Joyful"
-        },
-        "medium": {
-          "type": "sentenceRearranging",
-          "question": "Arrange the options to form a correct sentence.",
-          "options": ["You", "are", "How"],
-          "answer": ["How", "are", "you"]
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'I am very happy today!'",
-          "options": [],
-          "answer": "I am very happy today!"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "synonymsMatching",
+            "question": "Match the word 'Happy' with its synonym.",
+            "options": ["Sad", "Joyful", "Angry"],
+            "answer": "Joyful"
+          },
+          {
+            "type": "sentenceRearranging",
+            "question": "Arrange the options to form a correct sentence.",
+            "options": ["You", "are", "How"],
+            "answer": ["How", "are", "you"]
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'I am very happy today!'",
+            "options": [],
+            "answer": "I am very happy today!"
+          }
+        ]
       },
       {
-        "number": 7,
-        "easy": {
-          "type": "trueFalse",
-          "question": "It is polite to say 'Thank you' when you receive help.",
-          "options": ["True", "False"],
-          "answer": "True"
-        },
-        "medium": {
-          "type": "fillInTheBlanks",
-          "question": "Thank you ___ your help.",
-          "options": ["to", "for", "with"],
-          "answer": "for"
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'Thank you for your help!'",
-          "options": [],
-          "answer": "Thank you for your help!"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "trueFalse",
+            "question": "It is polite to say 'Thank you' when you receive help.",
+            "options": ["True", "False"],
+            "answer": "True"
+          },
+          {
+            "type": "fillInTheBlanks",
+            "question": "Thank you ___ your help.",
+            "options": ["to", "for", "with"],
+            "answer": "for"
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'Thank you for your help!'",
+            "options": [],
+            "answer": "Thank you for your help!"
+          }
+        ]
       },
       {
-        "number": 8,
-        "easy": {
-          "type": "multipleChoice",
-          "question": "What should you say when you meet someone new?",
-          "options": ["Go away.", "Nice to meet you.", "Where are you going?"],
-          "answer": "Nice to meet you."
-        },
-        "medium": {
-          "type": "fillInTheBlanks",
-          "question": "Nice to ___ you!",
-          "options": ["see", "meet", "look"],
-          "answer": "meet"
-        },
-        "hard": {
-          "type": "listening",
-          "audioUrl": "https://example.com/audio/lesson1_q8.mp3",
-          "question": "What did the speaker say?",
-          "options": ["Nice to meet you.", "See you later.", "Meet you tomorrow."],
-          "answer": "Nice to meet you."
-        }
+        "questionByDifficulty": [
+          {
+            "type": "multipleChoice",
+            "question": "What should you say when you meet someone new?",
+            "options": ["Go away.", "Nice to meet you.", "Where are you going?"],
+            "answer": "Nice to meet you."
+          },
+          {
+            "type": "fillInTheBlanks",
+            "question": "Nice to ___ you!",
+            "options": ["see", "meet", "look"],
+            "answer": "meet"
+          },
+          {
+            "type": "listening",
+            "audioUrl": "https://example.com/audio/lesson1_q8.mp3",
+            "question": "What did the speaker say?",
+            "options": ["Nice to meet you.", "See you later.", "Meet you tomorrow."],
+            "answer": "Nice to meet you."
+          }
+        ]
       },
       {
-        "number": 9,
-        "easy": {
-          "type": "fillInTheBlanks",
-          "question": "Please ___ your name.",
-          "options": ["say", "tell", "speak"],
-          "answer": "say"
-        },
-        "medium": {
-          "type": "shortAnswer",
-          "question": "Write your name in the box.",
-          "options": [],
-          "answer": "[User's Name]"
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'My name is [Your Name].'",
-          "options": [],
-          "answer": "My name is [Your Name]."
-        }
+        "questionByDifficulty": [
+          {
+            "type": "fillInTheBlanks",
+            "question": "Please ___ your name.",
+            "options": ["say", "tell", "speak"],
+            "answer": "say"
+          },
+          {
+            "type": "shortAnswer",
+            "question": "Write your name in the box.",
+            "options": [],
+            "answer": "[User's Name]"
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'My name is [Your Name].'",
+            "options": [],
+            "answer": "My name is [Your Name]."
+          }
+        ]
       },
       {
-        "number": 10,
-        "easy": {
-          "type": "trueFalse",
-          "question": "It's okay not to say anything after meeting someone.",
-          "options": ["True", "False"],
-          "answer": "False"
-        },
-        "medium": {
-          "type": "sentenceRearranging",
-          "question": "Arrange the options to form a greeting.",
-          "options": ["to", "Nice", "meet", "you"],
-          "answer": ["Nice", "to", "meet", "you"]
-        },
-        "hard": {
-          "type": "speaking",
-          "question": "Read this sentence aloud: 'Nice to meet you!'",
-          "options": [],
-          "answer": "Nice to meet you!"
-        }
+        "questionByDifficulty": [
+          {
+            "type": "trueFalse",
+            "question": "It's okay not to say anything after meeting someone.",
+            "options": ["True", "False"],
+            "answer": "False"
+          },
+          {
+            "type": "sentenceRearranging",
+            "question": "Arrange the options to form a greeting.",
+            "options": ["to", "Nice", "meet", "you"],
+            "answer": ["Nice", "to", "meet", "you"]
+          },
+          {
+            "type": "speaking",
+            "question": "Read this sentence aloud: 'Nice to meet you!'",
+            "options": [],
+            "answer": "Nice to meet you!"
+          }
+        ]
       }
-    ]
+    ]    
   }
   
