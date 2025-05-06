@@ -51,7 +51,14 @@ class QuestionAndOptionScreen extends StatelessWidget {
                     (ctx, i) => Column(
                       children: [
                         Text(
-                          c.currentLesson.value.questions[i].easy.question,
+                          c
+                              .currentLesson
+                              .value
+                              .questions[i]
+                              .questionByDifficulty[c
+                                  .questionDifficultyLevel
+                                  .value]
+                              .question,
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 18,
@@ -61,7 +68,12 @@ class QuestionAndOptionScreen extends StatelessWidget {
                         Spacer(),
                         OptionsBuilder(
                           options:
-                              c.currentLesson.value.questions[i].easy.options,
+                              c
+                                  .currentLesson
+                                  .value
+                                  .questions[i]
+                                  .questionByDifficulty[0]
+                                  .options,
                         ),
                         SafeArea(
                           child: Obx(
@@ -87,8 +99,8 @@ class QuestionAndOptionScreen extends StatelessWidget {
                                           );
                                           c.currentSelectedOptionIndex.value =
                                               100;
-                                        }else{
-                                          Get.offAll(()=> ResultScreen());
+                                        } else {
+                                          Get.offAll(() => ResultScreen());
                                         }
                                       },
                               child: Text(
