@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Controllers/question_options_controller.dart';
+import 'package:lottie/lottie.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 
 class ExitAlertBottomSheet extends StatelessWidget {
   const ExitAlertBottomSheet({super.key});
@@ -13,6 +16,14 @@ class ExitAlertBottomSheet extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          SizedBox(
+            height: 200,
+            width: 200,
+            child: Lottie.asset(
+              AppAssets.exitAlert,
+              decoder: globalController.customDecoder,
+            ),
+          ),
           Text(
             "Are you sure you want to exit and discard your lesson progress?",
             textAlign: TextAlign.center,
@@ -25,7 +36,7 @@ class ExitAlertBottomSheet extends StatelessWidget {
 
           SizedBox(height: 20),
           ElevatedButton(
-            onPressed:  () {},
+            onPressed: () => Get.back(),
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.black,
               fixedSize: Size(Get.width, 45),
@@ -37,7 +48,7 @@ class ExitAlertBottomSheet extends StatelessWidget {
           ),
           SizedBox(height: 12),
           InkWell(
-            onTap: () => Get.back(),
+            onTap: () => Get.offAll(HomeScreen()),
             child: Text(
               "Close and discard",
               style: TextStyle(color: Colors.red),
