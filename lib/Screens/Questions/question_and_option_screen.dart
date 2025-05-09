@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
-import 'package:speak_ez/Screens/Questions/result_screen.dart';
-
+import 'package:speak_ez/Models/questions_model.dart';
+import 'package:speak_ez/Screens/Questions/Widgets/continue_button.dart';
 import 'Widgets/options_builder.dart';
 import 'Widgets/progress_bar.dart';
 
@@ -12,7 +12,6 @@ class QuestionAndOptionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
-
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -47,71 +46,32 @@ class QuestionAndOptionScreen extends StatelessWidget {
             Expanded(
               child: PageView.builder(
                 controller: c.questionPageController,
-                itemBuilder:
-                    (ctx, i) => Column(
-                      children: [
-                        Text(
-                          c
-                              .currentLesson
-                              .value
-                              .questions[i]
-                              .questionByDifficulty[c
-                                  .questionDifficultyLevel
-                                  .value]
-                              .question,
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
+                itemBuilder: (ctx, i) {
+                  Question question =
+                      c.currentLesson.value.questions[i].questionByDifficulty[c
+                          .questionDifficultyLevel
+                          .value];
+                  c.shouldEnableContinueButton(question.type);
+                  return Column(
+                    children: [
+                      Text(
+                        question.question,
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
                         ),
-                        Spacer(),
-                        OptionsBuilder(
-                          options:
-                              c
-                                  .currentLesson
-                                  .value
-                                  .questions[i]
-                                  .questionByDifficulty[0]
-                                  .options,
-                        ),
-                        SafeArea(
-                          child: Obx(
-                            () => ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.black,
-                                fixedSize: Size(Get.width, 55),
-                              ),
-                              onPressed:
-                                  c.currentSelectedOptionIndex.value == 100
-                                      ? null
-                                      : () async {
-                                        if (c.currentQuestionIndex.value <
-                                            c
-                                                    .currentLesson
-                                                    .value
-                                                    .questions
-                                                    .length -
-                                                1) {
-                                          c.currentQuestionIndex.value++;
-                                          c.questionPageController.jumpToPage(
-                                            c.currentQuestionIndex.value,
-                                          );
-                                          c.currentSelectedOptionIndex.value =
-                                              100;
-                                        } else {
-                                          Get.offAll(() => ResultScreen());
-                                        }
-                                      },
-                              child: Text(
-                                "Continue",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
+                      ),
+                      Spacer(),
+                      OptionsBuilderByType(
+                        options: question.options,
+                        type: question.type,
+                      ),
+                      SizedBox(height: 12),
+                      ContinueButton(),
+                    ],
+                  );
+                },
                 itemCount: c.currentLesson.value.questions.length,
               ),
             ),

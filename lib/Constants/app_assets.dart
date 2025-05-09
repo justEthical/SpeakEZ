@@ -6,6 +6,9 @@ class AppAssets {
   static String get onboaring1 => _getFullLottiePath("first.lottie");
   static String get onboaring2 => _getFullLottiePath("third.lottie");
   static String get onboaring3 => _getFullLottiePath("second.lottie");
+  static String get exitAlert => _getFullLottiePath("exit_alert.lottie");
+  static String get confetti => _getFullLottiePath("confetti.lottie");
+  static String get owl => _getFullLottiePath("owl.lottie");
 
   // images
   static String get logo => _getFullImagePath("logo.png");
