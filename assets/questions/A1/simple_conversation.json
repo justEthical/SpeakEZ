@@ -104,7 +104,7 @@
             "type": "synonymsMatching",
             "question": "Match the word with a similar meaning: 'Confident'",
             "options": ["Sure", "Sad", "Tired"],
-            "answer": 1
+            "answer":0
           },
           {
             "type": "speaking",
@@ -125,8 +125,8 @@
           {
             "type": "sentenceRearranging",
             "question": "Arrange the options to form a correct sentence.",
-            "options": ["You", "are", "How"],
-            "answer": ["How", "are", "you"]
+            "options": ["you", "are", "how"],
+            "answer": ["how", "are", "you"]
           },
           {
             "type": "speaking",
