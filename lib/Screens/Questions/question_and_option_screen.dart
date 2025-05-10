@@ -68,7 +68,7 @@ class QuestionAndOptionScreen extends StatelessWidget {
                         type: question.type,
                       ),
                       SizedBox(height: 12),
-                      ContinueButton(),
+                      ContinueButton(question: question),
                     ],
                   );
                 },

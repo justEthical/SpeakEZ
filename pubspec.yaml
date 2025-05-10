@@ -51,6 +51,7 @@ dependencies:
   package_info_plus: ^8.3.0
   cached_network_image: ^3.4.1
   flutter_tts: ^4.2.2
+  flame_audio: ^2.11.5
 
 dev_dependencies:
   flutter_test:
@@ -83,6 +84,7 @@ flutter:
     - assets/lottie/
     - assets/images/
     - assets/lessons/
+    - assets/audio/
     - assets/questions/A1/
 
   # An image asset can refer to one or more resolution-specific "variants", see
