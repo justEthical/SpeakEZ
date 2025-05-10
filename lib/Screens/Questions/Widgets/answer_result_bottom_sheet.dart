@@ -42,10 +42,10 @@ class AnswerResultBottomSheet extends StatelessWidget {
                 fontFamily: AppStrings.nunitoFont,
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
             SizedBox(
-              height: 100,
-              width: 100,
+              height: 60,
+              width: 60,
               child: Lottie.asset(
                 isAnswerCorrect
                     ? AppAssets.correctAnswer
@@ -54,10 +54,11 @@ class AnswerResultBottomSheet extends StatelessWidget {
                 repeat: isAnswerCorrect,
               ),
             ),
+            SizedBox(height: 10),
             isAnswerCorrect
                 ? SizedBox()
                 : Text(
-                  correctAnswer,
+                  "Correct Answer: $correctAnswer",
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
