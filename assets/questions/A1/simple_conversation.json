@@ -10,13 +10,13 @@
             "type": "multipleChoice",
             "question": "How do you greet someone in the morning?",
             "options": ["Good morning!", "Good night!", "See you later!"],
-            "answer": "Good morning!"
+            "answer": 0
           },
           {
             "type": "fillInTheBlanks",
             "question": "___ morning! How are you?",
             "options": ["Good", "Great", "Fine"],
-            "answer": "Good"
+            "answer": 0
           },
           {
             "type": "speaking",
@@ -32,7 +32,7 @@
             "type": "trueFalse",
             "question": "You say 'Goodbye!' when you meet someone.",
             "options": ["True", "False"],
-            "answer": "False"
+            "answer": 1
           },
           {
             "type": "sentenceRearranging",
@@ -54,7 +54,7 @@
             "type": "multipleChoice",
             "question": "Which sentence is correct?",
             "options": ["I am fine.", "I fine am.", "Am fine I."],
-            "answer": "I am fine."
+            "answer": 0
           },
           {
             "type": "sentenceRearranging",
@@ -64,10 +64,9 @@
           },
           {
             "type": "listening",
-            "audioUrl": "https://example.com/audio/lesson1_q3.mp3",
             "question": "What did the speaker say?",
             "options": ["I am fine.", "I fine am.", "Fine I am."],
-            "answer": "I am fine."
+            "answer": 0
           }
         ]
       },
@@ -77,13 +76,13 @@
             "type": "multipleChoice",
             "question": "What do you say when you don’t understand something?",
             "options": ["Sorry, can you repeat?", "I don't care.", "Leave it."],
-            "answer": "Sorry, can you repeat?"
+            "answer": 0
           },
           {
             "type": "fillInTheBlanks",
             "question": "Could you please ___ that?",
             "options": ["repeat", "leave", "forget"],
-            "answer": "repeat"
+            "answer": 0
           },
           {
             "type": "speaking",
@@ -99,13 +98,13 @@
             "type": "trueFalse",
             "question": "Speaking slowly can help you sound more confident.",
             "options": ["True", "False"],
-            "answer": "True"
+            "answer": 0
           },
           {
             "type": "synonymsMatching",
             "question": "Match the word with a similar meaning: 'Confident'",
             "options": ["Sure", "Sad", "Tired"],
-            "answer": "Sure"
+            "answer": 1
           },
           {
             "type": "speaking",
@@ -121,7 +120,7 @@
             "type": "synonymsMatching",
             "question": "Match the word 'Happy' with its synonym.",
             "options": ["Sad", "Joyful", "Angry"],
-            "answer": "Joyful"
+            "answer": 1
           },
           {
             "type": "sentenceRearranging",
@@ -143,13 +142,13 @@
             "type": "trueFalse",
             "question": "It is polite to say 'Thank you' when you receive help.",
             "options": ["True", "False"],
-            "answer": "True"
+            "answer": 0
           },
           {
             "type": "fillInTheBlanks",
             "question": "Thank you ___ your help.",
             "options": ["to", "for", "with"],
-            "answer": "for"
+            "answer": 1
           },
           {
             "type": "speaking",
@@ -165,20 +164,19 @@
             "type": "multipleChoice",
             "question": "What should you say when you meet someone new?",
             "options": ["Go away.", "Nice to meet you.", "Where are you going?"],
-            "answer": "Nice to meet you."
+            "answer": 1
           },
           {
             "type": "fillInTheBlanks",
             "question": "Nice to ___ you!",
             "options": ["see", "meet", "look"],
-            "answer": "meet"
+            "answer": 1
           },
           {
             "type": "listening",
-            "audioUrl": "https://example.com/audio/lesson1_q8.mp3",
             "question": "What did the speaker say?",
             "options": ["Nice to meet you.", "See you later.", "Meet you tomorrow."],
-            "answer": "Nice to meet you."
+            "answer": 0
           }
         ]
       },
@@ -188,13 +186,13 @@
             "type": "fillInTheBlanks",
             "question": "Please ___ your name.",
             "options": ["say", "tell", "speak"],
-            "answer": "say"
+            "answer": 0
           },
           {
-            "type": "shortAnswer",
-            "question": "Write your name in the box.",
-            "options": [],
-            "answer": "[User's Name]"
+            "type": "fillInTheBlanks",
+            "question": "Please ___ your name.",
+            "options": ["say", "tell", "speak"],
+            "answer": 0
           },
           {
             "type": "speaking",
@@ -210,7 +208,7 @@
             "type": "trueFalse",
             "question": "It's okay not to say anything after meeting someone.",
             "options": ["True", "False"],
-            "answer": "False"
+            "answer": 1
           },
           {
             "type": "sentenceRearranging",

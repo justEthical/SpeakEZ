@@ -4,6 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
+import 'package:speak_ez/Screens/tab_bar_screen.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
@@ -68,7 +69,7 @@ class ResultScreen extends StatelessWidget {
                         child: Lottie.asset(
                           AppAssets.owl,
                           decoder: globalController.customDecoder,
-                          repeat: false,
+                          repeat: true,
                         ),
                       ),
                       Spacer(flex: 10),
@@ -122,7 +123,7 @@ class ResultScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 20),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () => Get.offAll(() => const TabBarScreen()),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.black,
                           fixedSize: Size(Get.width - 30, 55),

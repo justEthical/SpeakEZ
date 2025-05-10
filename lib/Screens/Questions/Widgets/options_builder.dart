@@ -17,7 +17,7 @@ class OptionsBuilderByType extends StatelessWidget {
     switch (type) {
       case QuestionType.sentenceRearranging:
         return SentenceRearrange(options: options, questionType: type);
-
+      
       default:
         return MCQOptionsBuilder(options: options, questionType: type);
     }

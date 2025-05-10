@@ -45,14 +45,12 @@ class Question {
   final String question;
   final List<dynamic> options;
   final dynamic answer;
-  final String? audioUrl;
 
   Question({
     required this.type,
     required this.question,
     required this.options,
     required this.answer,
-    this.audioUrl,
   });
 
   factory Question.fromJson(Map<String, dynamic> json) {
@@ -61,7 +59,6 @@ class Question {
       question: json['question'],
       options: List<dynamic>.from(json['options']),
       answer: json['answer'],
-      audioUrl: json['audioUrl'],
     );
   }
 }
@@ -94,8 +91,6 @@ QuestionType questionTypeFromString(String type) {
       return QuestionType.listening;
     case 'synonymsMatching':
       return QuestionType.synonymsMatching;
-    case 'shortAnswer':
-      return QuestionType.shortAnswer;
     default:
       throw Exception('Unknown QuestionType: $type');
   }

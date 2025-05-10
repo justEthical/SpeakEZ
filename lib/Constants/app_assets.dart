@@ -9,6 +9,13 @@ class AppAssets {
   static String get exitAlert => _getFullLottiePath("exit_alert.lottie");
   static String get confetti => _getFullLottiePath("confetti.lottie");
   static String get owl => _getFullLottiePath("owl.lottie");
+  static String get correctAnswer => _getFullLottiePath("correct.lottie");
+  static String get wrongAnswer => _getFullLottiePath("wrong.lottie");
+
+  //Audio files
+  static String get correct => "correct.mp3";
+  static String get incorrect => "incorrect.mp3";
+
 
   // images
   static String get logo => _getFullImagePath("logo.png");
