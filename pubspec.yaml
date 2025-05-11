@@ -52,6 +52,9 @@ dependencies:
   cached_network_image: ^3.4.1
   flutter_tts: ^4.2.2
   flame_audio: ^2.11.5
+  speech_to_text: ^7.0.0
+  archive: ^4.0.7
+  dio: ^5.8.0+1
 
 dev_dependencies:
   flutter_test:
@@ -86,6 +89,7 @@ flutter:
     - assets/lessons/
     - assets/audio/
     - assets/questions/A1/
+    # - assets/whisper_model/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

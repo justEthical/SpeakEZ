@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Utils/load_model_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
   const TabBarScreen({super.key});
@@ -12,6 +13,18 @@ class TabBarScreen extends StatefulWidget {
 
 class _TabBarScreenState extends State<TabBarScreen> {
   final c = Get.put(GlobalController());
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Future.delayed(Duration.zero, () async {
+    if (!await isModelAvailable()) {
+      runSilentDownload();
+    }
+  });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

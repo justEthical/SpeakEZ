@@ -13,11 +13,13 @@ class QuestionOptionsController extends GetxController {
   var currentQuestionIndex = 0.obs;
   final questionPageController = PageController();
   var currentSelectedOptionIndex = 100.obs;
-  var questionDifficultyLevel = 1.obs;
+  var questionDifficultyLevel = 2.obs;
   var sentenceRearrangeTempList = <String>[].obs;
   var sentenceRearrangeOptionList = <String>[].obs;
 
   var isContinueButtonEnabled = false.obs;
+  var isMicOn = false.obs;
+  var currenSpeakingText = "".obs;
 
   var currentLesson =
       Lesson(
