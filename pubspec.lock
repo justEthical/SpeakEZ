@@ -10,7 +10,7 @@ packages:
     source: hosted
     version: "1.3.54"
   archive:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: archive
       sha256: "2fde1607386ab523f7a36bb3e7edb43bd58e6edaf2ffb29d8a6d578b297fdbbd"
@@ -161,6 +161,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      sha256: "253a18bbd4851fecba42f7343a1df3a9a4c1d31a2c1b37e221086b4fa8c8dbc9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.8.0+1"
+  dio_web_adapter:
+    dependency: transitive
+    description:
+      name: dio_web_adapter
+      sha256: "7586e476d70caecaf1686d21eee7247ea43ef5c345eab9e0cc3583ff13378d78"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
   fake_async:
     dependency: transitive
     description:
@@ -408,6 +424,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.9.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -576,6 +600,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      sha256: "67fc27ed9639506c856c840ccce7594d0bdcd91bc8d53d6e52359449a1d50602"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.11.1"
   permission_handler:
     dependency: "direct main"
     description:
@@ -789,6 +821,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.1"
+  speech_to_text:
+    dependency: "direct main"
+    description:
+      name: speech_to_text
+      sha256: "6cf8f284997490ebef1d68f8707bef57dcf083f43c0f915cc285428520bfe6be"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  speech_to_text_platform_interface:
+    dependency: transitive
+    description:
+      name: speech_to_text_platform_interface
+      sha256: a1935847704e41ee468aad83181ddd2423d0833abe55d769c59afca07adb5114
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.0"
   sprintf:
     dependency: transitive
     description:

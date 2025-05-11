@@ -9,6 +9,7 @@ import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/Questions/result_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
+import 'package:speak_ez/Screens/whisper_ai.dart';
 import 'package:speak_ez/Utils/theme.dart';
 
 import 'Controllers/global_controller.dart';
@@ -35,7 +36,7 @@ class AppEntry extends StatelessWidget {
       darkTheme: darkTheme,
 
       themeMode: ThemeMode.system, // 👈 auto switch based on OS
-      home: const Wrapper(),
+      home: const WhisperAi(),
     );
   }
 }
