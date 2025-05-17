@@ -29,10 +29,10 @@ Future<OfflineRecognizer> initWhisperRecognizer() async {
     OfflineRecognizerConfig(
       model: OfflineModelConfig(
         whisper: OfflineWhisperModelConfig(
-          encoder: '${dir.path}/tiny.en-encoder.int8.onnx',
-          decoder: '${dir.path}/tiny.en-decoder.int8.onnx',
+          encoder: '${dir.path}/base.en-encoder.int8.onnx',
+          decoder: '${dir.path}/base.en-decoder.int8.onnx',
         ),
-        tokens: '${dir.path}/tiny.en-tokens.txt',
+        tokens: '${dir.path}/base.en-tokens.txt',
         modelType: 'whisper',
       ),
     ),
@@ -51,6 +51,35 @@ Float32List convertBytesToFloat32(Uint8List bytes, [endian = Endian.little]) {
   }
 
   return values;
+}
+
+Float32List downmixAndNormalizeWav(Uint8List bytes) {
+  final data = ByteData.view(bytes.buffer);
+
+  final numChannels = data.getUint16(22, Endian.little);
+  final bitsPerSample = data.getUint16(34, Endian.little);
+  final dataOffset = 44;
+
+  if (bitsPerSample != 16) {
+    throw Exception('Only 16-bit PCM is supported');
+  }
+
+  final outputLength = (bytes.length - dataOffset) ~/ (2 * numChannels);
+  final floatSamples = Float32List(outputLength);
+
+  int outIndex = 0;
+
+  for (int i = dataOffset; i < bytes.length; i += 2 * numChannels) {
+    int sum = 0;
+    for (int c = 0; c < numChannels; c++) {
+      int sample = data.getInt16(i + c * 2, Endian.little);
+      sum += sample;
+    }
+    int monoSample = (sum / numChannels).round(); // average
+    floatSamples[outIndex++] = monoSample / 32768.0;
+  }
+
+  return floatSamples;
 }
 
 void _modelDownloadWorker(List args) async {
@@ -118,8 +147,8 @@ void runSilentDownload() async {
 
   final resultPort = ReceivePort();
   sendPort.send([
-    'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.0/tiny_en.zip',
-    'tiny_en.zip',
+    'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
+    'vanilla.zip',
     resultPort.sendPort,
   ]);
 
@@ -128,6 +157,6 @@ void runSilentDownload() async {
 
 Future<bool> isModelAvailable() async {
   final dir = await getApplicationDocumentsDirectory();
-  final encoder = File('${dir.path}/tiny.en-decoder.int8.onnx');
+  final encoder = File('${dir.path}/base.en-decoder.int8.onnx');
   return encoder.existsSync(); // Fast check
 }
