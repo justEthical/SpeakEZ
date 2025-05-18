@@ -1,6 +1,4 @@
 import 'dart:io';
-import 'dart:typed_data';
-
 import 'package:sherpa_onnx/sherpa_onnx.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
 
@@ -42,10 +40,5 @@ class WhisperHelper {
 
   freeReconizer() {
     recognizer.free();
-  }
-
-  // Example method
-  void sayHello() {
-    print('Hello from Singleton!');
   }
 }
