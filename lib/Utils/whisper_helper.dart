@@ -6,6 +6,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sherpa_onnx/sherpa_onnx.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 
 class WhisperHelper {
   // Private constructor
@@ -21,8 +22,8 @@ class WhisperHelper {
 
   late OfflineRecognizer recognizer;
 
-  Future<void> init() async {
-    recognizer = await initWhisperRecognizer();
+  void init() {
+    recognizer =  initWhisperRecognizer();
   }
 
   Future<String> transcribe(filePath) async {
@@ -47,8 +48,8 @@ class WhisperHelper {
     recognizer.free();
   }
 
-  Future<OfflineRecognizer> initWhisperRecognizer() async {
-  final dir = await getApplicationDocumentsDirectory();
+  OfflineRecognizer initWhisperRecognizer() {
+  final dir = Directory(globalController.appDocDirectoryPath);
 
   final recognizer = OfflineRecognizer(
     OfflineRecognizerConfig(
