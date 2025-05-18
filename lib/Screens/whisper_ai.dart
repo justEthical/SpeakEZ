@@ -25,20 +25,13 @@ class _WhisperAiState extends State<WhisperAi> {
     // TODO: implement initState
     super.initState();
 
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      Future.delayed(Duration.zero, () async {
-        CustomLoader.showLoader();
-        await WhisperHelper().init();
-        CustomLoader.hideLoader();
-      });
-    });
-
     Future.delayed(Duration.zero, () async {
       if (!await isModelAvailable()) {
         runSilentDownload();
       } else {
         initBindings();
       }
+      WhisperHelper().init();
     });
   }
 
