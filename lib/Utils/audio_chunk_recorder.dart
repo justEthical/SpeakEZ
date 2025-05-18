@@ -1,8 +1,10 @@
 import 'dart:io';
-
+import 'dart:isolate';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
@@ -47,9 +49,7 @@ class AudioChunkRecorder {
             recording = false;
 
             await _recorder.stop();
-            WhisperHelper
-                .transcribe(path)
-                .then((value) => c.transcriptionText.value += value);
+            isolateTranscriptionWork(path);
             break;
           }
         }
@@ -70,7 +70,22 @@ class AudioChunkRecorder {
     if (await _recorder.isRecording()) {
       await _recorder.stop();
     }
-    await transcribeLastRecordingChunk();
+    // await transcribeLastRecordingChunk();
+  }
+
+  isolateTranscriptionWork(String filePath) async {
+    final ReceivePort port = ReceivePort();
+    final token = RootIsolateToken.instance!;
+    await Isolate.spawn(WhisperHelper.transcribe, [
+      filePath,
+      globalController.appDocDirectoryPath,
+      token,
+      port.sendPort,
+    ]);
+
+    final result = await port.first;
+    port.close();
+    Get.find<PracticeController>().transcriptionText.value += result;
   }
 
   Future<void> transcribeLastRecordingChunk() async {
@@ -79,12 +94,7 @@ class AudioChunkRecorder {
 
     if (await File(lastRecordingChunkPath).exists()) {
       await _recorder.stop();
-      WhisperHelper
-          .transcribe(lastRecordingChunkPath)
-          .then(
-            (value) =>
-                Get.find<PracticeController>().transcriptionText.value += value,
-          );
+      isolateTranscriptionWork(lastRecordingChunkPath);
     }
   }
 }
