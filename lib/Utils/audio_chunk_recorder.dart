@@ -47,7 +47,7 @@ class AudioChunkRecorder {
             recording = false;
 
             await _recorder.stop();
-            WhisperHelper()
+            WhisperHelper
                 .transcribe(path)
                 .then((value) => c.transcriptionText.value += value);
             break;
@@ -71,7 +71,6 @@ class AudioChunkRecorder {
       await _recorder.stop();
     }
     await transcribeLastRecordingChunk();
-    WhisperHelper().freeReconizer();
   }
 
   Future<void> transcribeLastRecordingChunk() async {
@@ -80,7 +79,7 @@ class AudioChunkRecorder {
 
     if (await File(lastRecordingChunkPath).exists()) {
       await _recorder.stop();
-      WhisperHelper()
+      WhisperHelper
           .transcribe(lastRecordingChunkPath)
           .then(
             (value) =>

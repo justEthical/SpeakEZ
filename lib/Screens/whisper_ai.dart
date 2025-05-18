@@ -31,7 +31,6 @@ class _WhisperAiState extends State<WhisperAi> {
       } else {
         initBindings();
       }
-      WhisperHelper().init();
     });
   }
 

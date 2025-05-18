@@ -9,24 +9,10 @@ import 'package:sherpa_onnx/sherpa_onnx.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 
 class WhisperHelper {
-  // Private constructor
-  WhisperHelper._internal();
+  
 
-  // The single instance of the class (lazily created)
-  static final WhisperHelper _instance = WhisperHelper._internal();
-
-  // Factory constructor that returns the same instance every time
-  factory WhisperHelper() {
-    return _instance;
-  }
-
-  late OfflineRecognizer recognizer;
-
-  void init() {
-    recognizer =  initWhisperRecognizer();
-  }
-
-  Future<String> transcribe(filePath) async {
+  static Future<String> transcribe(filePath) async {
+    final recognizer = initWhisperRecognizer();
     var offlineStream = recognizer.createStream();
     final now = DateTime.now().millisecondsSinceEpoch;
     print("Start: $now");
@@ -40,15 +26,12 @@ class WhisperHelper {
     print("Transcript: ${result.text}");
     print("End: ${second - DateTime.now().millisecondsSinceEpoch}");
     offlineStream.free();
+    recognizer.free();
     print(result.text);
     return result.text;
   }
 
-  freeReconizer() {
-    recognizer.free();
-  }
-
-  OfflineRecognizer initWhisperRecognizer() {
+  static OfflineRecognizer initWhisperRecognizer() {
   final dir = Directory(globalController.appDocDirectoryPath);
 
   final recognizer = OfflineRecognizer(
@@ -66,7 +49,7 @@ class WhisperHelper {
   return recognizer;
 }
 
-Float32List downmixAndNormalizeWav(Uint8List bytes) {
+static Float32List downmixAndNormalizeWav(Uint8List bytes) {
   final data = ByteData.view(bytes.buffer);
 
   final numChannels = data.getUint16(22, Endian.little);
