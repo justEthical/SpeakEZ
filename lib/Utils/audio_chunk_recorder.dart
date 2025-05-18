@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
@@ -67,6 +69,23 @@ class AudioChunkRecorder {
     recording = false;
     if (await _recorder.isRecording()) {
       await _recorder.stop();
+    }
+    await transcribeLastRecordingChunk();
+    WhisperHelper().freeReconizer();
+  }
+
+  Future<void> transcribeLastRecordingChunk() async {
+    final dir = await getApplicationDocumentsDirectory();
+    final lastRecordingChunkPath = '${dir.path}/$_fileIndex.wav';
+
+    if (await File(lastRecordingChunkPath).exists()) {
+      await _recorder.stop();
+      WhisperHelper()
+          .transcribe(lastRecordingChunkPath)
+          .then(
+            (value) =>
+                Get.find<PracticeController>().transcriptionText.value += value,
+          );
     }
   }
 }
