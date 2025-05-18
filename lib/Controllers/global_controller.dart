@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Models/user_profile_model.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
@@ -13,6 +14,7 @@ class GlobalController extends GetxController {
   SharedPreferences? prefs;
   var userProfile = UserProfileModel.fromJson({}).obs;
   final cutomTabBarController = PageController(initialPage: 0);
+  String appDocDirectoryPath = "";
 
   var appVersion = "".obs;
 
@@ -25,6 +27,12 @@ class GlobalController extends GetxController {
     // TODO: implement onReady
     super.onReady();
     loadVersion();
+    getAppDocDirectoryPath();
+  }
+
+  Future<void> getAppDocDirectoryPath() async {
+    final dir = await getApplicationDocumentsDirectory();
+    appDocDirectoryPath = dir.path;
   }
 
   void loadVersion() async {
