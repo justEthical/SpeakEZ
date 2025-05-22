@@ -21,7 +21,6 @@ class AudioChunkRecorder {
   );
 
   Future<void> startAutoRecording() async {
-    final c = Get.find<PracticeController>();
     final dir = await getApplicationDocumentsDirectory();
     _shouldStop = false; // reset flag
 
@@ -44,7 +43,7 @@ class AudioChunkRecorder {
 
           print('🔊 Amplitude: $level at ${duration}s');
 
-          if (duration >= 10 && level < -13.0) {
+          if (duration >= 5 && level < -13.0) {
             print('⏸️ Silence detected, stopping chunk...');
             recording = false;
 
@@ -70,7 +69,7 @@ class AudioChunkRecorder {
     if (await _recorder.isRecording()) {
       await _recorder.stop();
     }
-    // await transcribeLastRecordingChunk();
+    await transcribeLastRecordingChunk();
   }
 
   isolateTranscriptionWork(String filePath) async {
