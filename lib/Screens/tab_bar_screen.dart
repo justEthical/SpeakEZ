@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
 import 'package:speak_ez/Utils/load_model_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
@@ -33,10 +34,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
         physics: NeverScrollableScrollPhysics(),
         children: [
           HomeScreen(),
-          Container(
-            color: Colors.white,
-            child: Center(child: Text("Coming soon")),
-          ),
+          PracticeSpeaking(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(

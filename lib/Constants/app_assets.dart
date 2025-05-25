@@ -11,12 +11,12 @@ class AppAssets {
   static String get owl => _getFullLottiePath("owl.lottie");
   static String get correctAnswer => _getFullLottiePath("correct.lottie");
   static String get wrongAnswer => _getFullLottiePath("wrong.lottie");
-  
+  static String get chatting => _getFullLottiePath("chating.lottie");
+  static String get recording => _getFullLottiePath("recording.lottie");
 
   //Audio files
   static String get correct => "correct.mp3";
   static String get incorrect => "incorrect.mp3";
-
 
   // images
   static String get logo => _getFullImagePath("logo.png");
@@ -37,4 +37,5 @@ class AppAssets {
 
   // practice
   static String get jobInterview => _getFullImagePath("job_interview.svg");
+  static String get natashaChat => _getFullImagePath("natasha_chat.png");
 }

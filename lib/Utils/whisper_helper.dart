@@ -150,8 +150,8 @@ class WhisperHelper {
 
     final resultPort = ReceivePort();
     sendPort.send([
-      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
-      'vanilla.zip',
+      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.0/tiny_en.zip',
+      'tiny_en.zip',
       resultPort.sendPort,
     ]);
 
@@ -160,7 +160,7 @@ class WhisperHelper {
 
   Future<bool> isModelAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
-    final encoder = File('${dir.path}/base.en-decoder.int8.onnx');
+    final encoder = File('${dir.path}/tiny.en-decoder.int8.onnx');
     return encoder.existsSync(); // Fast check
   }
 }

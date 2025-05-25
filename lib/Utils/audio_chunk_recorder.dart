@@ -84,7 +84,11 @@ class AudioChunkRecorder {
 
     final result = await port.first;
     port.close();
-    Get.find<PracticeController>().transcriptionText.value += result;
+    try {
+      Get.find<PracticeController>().transcriptionText.value += result;
+    } catch (e) {
+      print(e.toString());
+    }
   }
 
   Future<void> transcribeLastRecordingChunk() async {
