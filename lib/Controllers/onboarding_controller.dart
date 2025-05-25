@@ -8,6 +8,7 @@ import 'package:speak_ez/Models/country_languages.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
+import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/network_service.dart';
 
@@ -68,7 +69,7 @@ class OnboardingController extends GetxController {
         Get.offAll(() => OnboarindQuestions());
       } else {
         globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
-        Get.offAll(() => HomeScreen());
+        Get.offAll(() => TabBarScreen());
       }
     }
   }
