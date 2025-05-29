@@ -18,24 +18,73 @@ class WhisperHelper {
 
     initBindings();
 
+    final t0 = DateTime.now().millisecondsSinceEpoch;
+    final recognizerLoadStart = t0;
+
     final recognizer = initWhisperRecognizer(docDirctoryPath);
-    var offlineStream = recognizer.createStream();
-    final now = DateTime.now().millisecondsSinceEpoch;
-    print("Start: $now");
+
+    final recognizerLoadEnd = DateTime.now().millisecondsSinceEpoch;
+    print("📦 Model loaded in ${recognizerLoadEnd - recognizerLoadStart} ms");
+
+    final offlineStream = recognizer.createStream();
+
+    final audioLoadStart = DateTime.now().millisecondsSinceEpoch;
     final bytes = await File(filePath).readAsBytes();
-    final second = DateTime.now().millisecondsSinceEpoch;
-    print("Audio loaded: ${now - second}");
+    final audioLoadEnd = DateTime.now().millisecondsSinceEpoch;
+    print("🎧 Audio loaded in ${audioLoadEnd - audioLoadStart} ms");
+
     final sampleFloat32 = downmixAndNormalizeWav(bytes);
+
+    final decodeStart = DateTime.now().millisecondsSinceEpoch;
     offlineStream.acceptWaveform(sampleRate: 16000, samples: sampleFloat32);
     recognizer.decode(offlineStream);
     final result = recognizer.getResult(offlineStream);
-    print("Transcript: ${result.text}");
-    print("End: ${second - DateTime.now().millisecondsSinceEpoch}");
+    final decodeEnd = DateTime.now().millisecondsSinceEpoch;
+
+    print("🧠 Decode time: ${decodeEnd - decodeStart} ms");
+    print("📝 Transcript: ${result.text}");
+
     offlineStream.free();
     recognizer.free();
-    print(result.text);
+
     replyTo.send(result.text);
   }
+
+static void whisperIsolateEntry(List args) async {
+  final SendPort mainSendPort = args[0];
+  final String modelPath = args[1];
+  final RootIsolateToken token = args[2];
+
+  BackgroundIsolateBinaryMessenger.ensureInitialized(token);
+  initBindings(); // FFI bindings for sherpa-onnx
+
+  final recognizer = initWhisperRecognizer(modelPath);
+
+  final isolateReceivePort = ReceivePort();
+  mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
+
+  await for (final message in isolateReceivePort) {
+    if (message is Map && message.containsKey('file') && message.containsKey('replyTo')) {
+      final filePath = message['file'] as String;
+      final SendPort replyTo = message['replyTo'] as SendPort;
+
+      final bytes = await File(filePath).readAsBytes();
+      final samples = downmixAndNormalizeWav(bytes);
+
+      final stream = recognizer.createStream();
+      stream.acceptWaveform(sampleRate: 16000, samples: samples);
+      recognizer.decode(stream);
+      final result = recognizer.getResult(stream);
+      stream.free();
+
+      replyTo.send(result.text); // send back transcription
+    }
+  }
+
+  // recognizer.free();
+  // isolateReceivePort.close();
+}
+
 
   static OfflineRecognizer initWhisperRecognizer(String path) {
     final dir = Directory(path);
@@ -84,7 +133,7 @@ class WhisperHelper {
     return floatSamples;
   }
 
-  void _modelDownloadWorker(List args) async {
+  static void _modelDownloadWorker(List args) async {
     final RootIsolateToken rootIsolateToken = args[0]; // first arg is token
     final SendPort replyTo = args[1];
     // 🛠 Fix here
@@ -140,7 +189,7 @@ class WhisperHelper {
     }
   }
 
-  void runSilentDownload() async {
+  static void runSilentDownload() async {
     final receivePort = ReceivePort();
     final token = RootIsolateToken.instance!;
 
@@ -150,17 +199,17 @@ class WhisperHelper {
 
     final resultPort = ReceivePort();
     sendPort.send([
-      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.0/tiny_en.zip',
-      'tiny_en.zip',
-      resultPort.sendPort,
-    ]);
+    'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
+    'vanilla.zip',
+    resultPort.sendPort,
+  ]);
 
     await resultPort.first; // You can log or ignore
   }
 
-  Future<bool> isModelAvailable() async {
+  static Future<bool> isModelAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
-    final encoder = File('${dir.path}/tiny.en-decoder.int8.onnx');
+    final encoder = File('${dir.path}/base.en-decoder.int8.onnx');
     return encoder.existsSync(); // Fast check
   }
 }

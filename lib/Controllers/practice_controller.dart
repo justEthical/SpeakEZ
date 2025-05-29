@@ -1,9 +1,13 @@
 import 'dart:async';
+import 'dart:isolate';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import '../Utils/audio_chunk_recorder.dart';
 
@@ -20,6 +24,27 @@ class PracticeController extends GetxController {
   Timer? _timer;
   var currentChats = <ChatModel>[].obs;
 
+  late SendPort whisperSendPort;
+
+  @override
+  void onReady() {
+    super.onReady();
+    startWhisperIsolate();
+  }
+
+  Future<void> startWhisperIsolate() async {
+    final ReceivePort onMainReceive = ReceivePort();
+
+    final RootIsolateToken token = RootIsolateToken.instance!;
+    await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+      onMainReceive.sendPort,
+      globalController.appDocDirectoryPath,
+      token,
+    ]);
+
+    whisperSendPort = await onMainReceive.first;
+  }
+
   void startRecording() {
     _addRecordingChatCell();
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
@@ -27,7 +52,7 @@ class PracticeController extends GetxController {
         print("Timer stopped");
         _addChatCellTranscriptionData(timer);
       } else {
-        print("Timmer running ${remainingSeconds.value}");
+        // print("Timmer running ${remainingSeconds.value}");
         remainingSeconds.value--;
       }
     });
@@ -57,7 +82,6 @@ class PracticeController extends GetxController {
     timer.cancel();
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
-    transcriptionText.value = "";
     remainingSeconds.value = 30;
     currentChats.add(
       ChatModel(
@@ -72,11 +96,12 @@ class PracticeController extends GetxController {
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeOut,
     );
+    transcriptionText.value = "";
   }
 
   void stopRecording() {
     recorder.stop();
-    _timer!.cancel();
+    _timer?.cancel();
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
     transcriptionText.value = "";

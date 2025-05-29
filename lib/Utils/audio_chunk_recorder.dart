@@ -7,6 +7,7 @@ import 'package:record/record.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
+// import 'package:speak_ez/Utils/whisper_helper.dart';
 
 class AudioChunkRecorder {
   final _recorder = AudioRecorder();
@@ -41,14 +42,14 @@ class AudioChunkRecorder {
           final amplitude = await _recorder.getAmplitude();
           final double level = amplitude.current;
 
-          print('🔊 Amplitude: $level at ${duration}s');
+          // print('🔊 Amplitude: $level at ${duration}s');
 
           if (duration >= 5 && level < -13.0) {
             print('⏸️ Silence detected, stopping chunk...');
             recording = false;
 
             await _recorder.stop();
-            isolateTranscriptionWork(path);
+            transcribeWithPersistentIsolate(path);
             break;
           }
         }
@@ -69,10 +70,14 @@ class AudioChunkRecorder {
     if (await _recorder.isRecording()) {
       await _recorder.stop();
     }
-    await transcribeLastRecordingChunk();
+    final dir = await getApplicationDocumentsDirectory();
+    final lastRecordingChunkPath = '${dir.path}/$_fileIndex.wav';
+    await transcribeWithPersistentIsolate(lastRecordingChunkPath);
   }
 
   isolateTranscriptionWork(String filePath) async {
+    final a = DateTime.now();
+    print("isolate called at ${DateTime.now()}");
     final ReceivePort port = ReceivePort();
     final token = RootIsolateToken.instance!;
     await Isolate.spawn(WhisperHelper.transcribe, [
@@ -86,18 +91,27 @@ class AudioChunkRecorder {
     port.close();
     try {
       Get.find<PracticeController>().transcriptionText.value += result;
+      print(
+        "result got at  ${DateTime.now().millisecondsSinceEpoch - a.millisecondsSinceEpoch} ms",
+      );
     } catch (e) {
       print(e.toString());
     }
   }
 
-  Future<void> transcribeLastRecordingChunk() async {
-    final dir = await getApplicationDocumentsDirectory();
-    final lastRecordingChunkPath = '${dir.path}/$_fileIndex.wav';
+  Future<void> transcribeWithPersistentIsolate(String filePath) async {
+    if(File(filePath).existsSync()){
+      final c = Get.find<PracticeController>();
+    final ReceivePort responsePort = ReceivePort();
 
-    if (await File(lastRecordingChunkPath).exists()) {
-      await _recorder.stop();
-      isolateTranscriptionWork(lastRecordingChunkPath);
+    c.whisperSendPort.send({
+      'file': filePath,
+      'replyTo': responsePort.sendPort,
+    });
+
+    final result = await responsePort.first;
+    print('TRANSCRIBED: $result');
+    c.transcriptionText.value += result;
     }
   }
 }
