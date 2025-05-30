@@ -64,10 +64,10 @@ class PracticeController extends GetxController {
     isRecordingPaused.value = false;
     currentChats.add(
       ChatModel(
-        message: "",
+        message: "🎙️ Recording...",
         time: "time",
         isAI: false,
-        chatType: ChatType.transcribing,
+        chatType: ChatType.normalChatMesssage,
       ),
     );
     chatScrollController.animateTo(
