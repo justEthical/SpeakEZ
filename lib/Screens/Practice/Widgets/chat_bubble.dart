@@ -65,7 +65,14 @@ class ChatBubble extends StatelessWidget {
         children: [
           Spacer(),
 
-          ConstrainedBox(
+          chatModel.chatType == ChatType.transcribing ? SizedBox(
+            width: 45,
+            height: 45,
+            child: Lottie.asset(
+              AppAssets.chatting,
+              decoder: globalController.customDecoder,
+            ),
+          ) : ConstrainedBox(
             constraints: BoxConstraints(maxWidth: Get.width - 120),
             child: Container(
               margin: EdgeInsets.only(bottom: 10),
@@ -86,13 +93,11 @@ class ChatBubble extends StatelessWidget {
               ),
               padding: const EdgeInsets.all(10),
               child: Text(
-                chatModel.chatType == ChatType.transcribing
-                    ? "🎙️ Recording..."
-                    : chatModel.message,
+              chatModel.message,
                 style: TextStyle(color: Colors.white, fontSize: 15),
               ),
             ),
-          ),
+          )
         ],
       );
     }
