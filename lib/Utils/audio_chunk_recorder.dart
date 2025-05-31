@@ -1,13 +1,9 @@
 import 'dart:io';
 import 'dart:isolate';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
-// import 'package:speak_ez/Utils/whisper_helper.dart';
 
 class AudioChunkRecorder {
   final _recorder = AudioRecorder();
