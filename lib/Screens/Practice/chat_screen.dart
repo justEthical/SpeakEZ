@@ -7,13 +7,27 @@ import 'package:speak_ez/Screens/Practice/Widgets/chat_screen_bottom_bar.dart';
 
 import 'Widgets/progress_bar.dart';
 
-class ChatScreen extends StatelessWidget {
+class ChatScreen extends StatefulWidget {
   final String title;
   const ChatScreen({super.key, required this.title});
 
   @override
+  State<ChatScreen> createState() => _ChatScreenState();
+}
+
+class _ChatScreenState extends State<ChatScreen> {
+  final c = Get.put(PracticeController());
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      c.addInitialMessage();
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final c = Get.put(PracticeController());
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -23,7 +37,7 @@ class ChatScreen extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    title,
+                    widget.title,
                     style: TextStyle(
                       fontWeight: FontWeight.w800,
                       fontSize: 20,
@@ -33,7 +47,12 @@ class ChatScreen extends StatelessWidget {
 
                   Spacer(),
                   InkWell(
-                    onTap: () => c.isLastChunkTranscribed.value = !c.isLastChunkTranscribed.value,//c.showExitBottomSheet(context),
+                    onTap:
+                        () =>
+                            c.isLastChunkTranscribed.value =
+                                !c
+                                    .isLastChunkTranscribed
+                                    .value, //c.showExitBottomSheet(context),
                     child: Container(
                       width: 30,
                       height: 30,
@@ -61,7 +80,7 @@ class ChatScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
-              ChatScreenBottomBar()
+              ChatScreenBottomBar(),
             ],
           ),
         ),

@@ -4,9 +4,12 @@ import 'dart:isolate';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
+import 'package:speak_ez/Services/network_service.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import '../Utils/audio_chunk_recorder.dart';
@@ -27,6 +30,7 @@ class PracticeController extends GetxController {
   late Worker isLastChunkWorker;
   late StreamSubscription<bool> sub;
   late SendPort whisperSendPort;
+  final tts = TextToSpeechService();
 
   @override
   void onReady() {
@@ -114,16 +118,64 @@ class PracticeController extends GetxController {
             chatType: ChatType.normalChatMesssage,
           ),
         );
+        currentChats.add(
+          ChatModel(
+            message: transcriptionText.value,
+            time: "time",
+            isAI: true,
+            chatType: ChatType.gettingAIResponse,
+          ),
+        );
+        getAiResponse();
         chatScrollController.animateTo(
-          chatScrollController.position.maxScrollExtent + 20,
+          chatScrollController.position.maxScrollExtent  * 2,
           duration: const Duration(milliseconds: 300),
           curve: Curves.easeOut,
         );
-        
+
       }
       sub.cancel();
       isLastChunkTranscribed.value = false;
     });
+  }
+
+  getAiResponse() async {
+    var response = await NetworkService.getAiReposne(transcriptionText.value, topic: "Job interview");
+    if (response != null) {
+      currentChats.remove(currentChats.last);
+      currentChats.add(
+        ChatModel(
+          message: response.trim(),
+          time: "time",
+          isAI: true,
+          chatType: ChatType.normalChatMesssage,
+        ),
+      );
+
+      chatScrollController.animateTo(
+        chatScrollController.position.maxScrollExtent * 2,
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeOut,
+      );
+      tts.speak(response);
+    }
+  }
+
+  addInitialMessage() {
+    currentChats.add(
+      ChatModel(
+        message: AppStrings.initialMessage,
+        time: "time",
+        isAI: true,
+        chatType: ChatType.normalChatMesssage,
+      ),
+    );
+    chatScrollController.animateTo(
+      chatScrollController.position.maxScrollExtent + 20,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeOut,
+    );
+    tts.speak(AppStrings.initialMessage);
   }
 
   void stopRecording() {
