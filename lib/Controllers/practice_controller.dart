@@ -23,7 +23,9 @@ class PracticeController extends GetxController {
   late AnimationController lottieAnimationcontroller;
   Timer? _timer;
   var currentChats = <ChatModel>[].obs;
-
+  var isLastChunkTranscribed = false.obs;
+  late Worker isLastChunkWorker;
+  late StreamSubscription<bool> sub;
   late SendPort whisperSendPort;
 
   @override
@@ -43,6 +45,7 @@ class PracticeController extends GetxController {
     ]);
 
     whisperSendPort = await onMainReceive.first;
+    print('Whisper isolate started');
   }
 
   void startRecording() {
@@ -83,12 +86,13 @@ class PracticeController extends GetxController {
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
     remainingSeconds.value = 30;
+
     currentChats.add(
       ChatModel(
-        message: transcriptionText.value,
-        time: "${DateTime.now().hour}:${DateTime.now().minute}",
+        message: "🎙️ Recording stopped",
+        time: "time",
         isAI: false,
-        chatType: ChatType.normalChatMesssage,
+        chatType: ChatType.transcribing,
       ),
     );
     chatScrollController.animateTo(
@@ -96,7 +100,30 @@ class PracticeController extends GetxController {
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeOut,
     );
-    transcriptionText.value = "";
+    print('listener hashcode: $hashCode');
+
+    sub = isLastChunkTranscribed.listen((val) {
+      print("Listener called: $val");
+      if (val) {
+        currentChats.remove(currentChats.last);
+        currentChats.add(
+          ChatModel(
+            message: transcriptionText.value,
+            time: "time",
+            isAI: false,
+            chatType: ChatType.normalChatMesssage,
+          ),
+        );
+        chatScrollController.animateTo(
+          chatScrollController.position.maxScrollExtent + 20,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeOut,
+        );
+        
+      }
+      sub.cancel();
+      isLastChunkTranscribed.value = false;
+    });
   }
 
   void stopRecording() {
