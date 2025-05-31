@@ -33,7 +33,7 @@ class ChatScreen extends StatelessWidget {
 
                   Spacer(),
                   InkWell(
-                    onTap: () => c.showExitBottomSheet(context),
+                    onTap: () => c.isLastChunkTranscribed.value = !c.isLastChunkTranscribed.value,//c.showExitBottomSheet(context),
                     child: Container(
                       width: 30,
                       height: 30,

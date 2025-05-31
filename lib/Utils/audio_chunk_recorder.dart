@@ -24,7 +24,8 @@ class AudioChunkRecorder {
   Future<void> startAutoRecording() async {
     final dir = await getApplicationDocumentsDirectory();
     _shouldStop = false; // reset flag
-
+    Get.find<PracticeController>().transcriptionText.value = "";
+    Get.find<PracticeController>().isLastChunkTranscribed.value = false;
     if (await _recorder.hasPermission()) {
       while (!_shouldStop) {
         final path = '${dir.path}/${_fileIndex++}.wav';
@@ -72,46 +73,54 @@ class AudioChunkRecorder {
     }
     final dir = await getApplicationDocumentsDirectory();
     final lastRecordingChunkPath = '${dir.path}/$_fileIndex.wav';
+    print("heerree");
     await transcribeWithPersistentIsolate(lastRecordingChunkPath);
-  }
-
-  isolateTranscriptionWork(String filePath) async {
-    final a = DateTime.now();
-    print("isolate called at ${DateTime.now()}");
-    final ReceivePort port = ReceivePort();
-    final token = RootIsolateToken.instance!;
-    await Isolate.spawn(WhisperHelper.transcribe, [
-      filePath,
-      globalController.appDocDirectoryPath,
-      token,
-      port.sendPort,
-    ]);
-
-    final result = await port.first;
-    port.close();
     try {
-      Get.find<PracticeController>().transcriptionText.value += result;
-      print(
-        "result got at  ${DateTime.now().millisecondsSinceEpoch - a.millisecondsSinceEpoch} ms",
-      );
+      Get.find<PracticeController>().isLastChunkTranscribed.value = true;
     } catch (e) {
       print(e.toString());
     }
+    print("last recording transcribed");
   }
 
+  // isolateTranscriptionWork(String filePath) async {
+  //   final a = DateTime.now();
+  //   print("isolate called at ${DateTime.now()}");
+  //   final ReceivePort port = ReceivePort();
+  //   final token = RootIsolateToken.instance!;
+  //   await Isolate.spawn(WhisperHelper.transcribe, [
+  //     filePath,
+  //     globalController.appDocDirectoryPath,
+  //     token,
+  //     port.sendPort,
+  //   ]);
+
+  //   final result = await port.first;
+  //   port.close();
+  //   try {
+  //     Get.find<PracticeController>().transcriptionText.value += result;
+  //     print(
+  //       "result got at  ${DateTime.now().millisecondsSinceEpoch - a.millisecondsSinceEpoch} ms",
+  //     );
+  //   } catch (e) {
+  //     print(e.toString());
+  //   }
+  // }
+
   Future<void> transcribeWithPersistentIsolate(String filePath) async {
-    if(File(filePath).existsSync()){
+    if (File(filePath).existsSync()) {
+      print('file exists');
       final c = Get.find<PracticeController>();
-    final ReceivePort responsePort = ReceivePort();
+      final ReceivePort responsePort = ReceivePort();
 
-    c.whisperSendPort.send({
-      'file': filePath,
-      'replyTo': responsePort.sendPort,
-    });
+      c.whisperSendPort.send({
+        'file': filePath,
+        'replyTo': responsePort.sendPort,
+      });
 
-    final result = await responsePort.first;
-    print('TRANSCRIBED: $result');
-    c.transcriptionText.value += result;
+      final result = await responsePort.first;
+      print('TRANSCRIBED: $result');
+      c.transcriptionText.value += result;
     }
   }
 }
