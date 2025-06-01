@@ -2,10 +2,12 @@ import 'dart:io';
 import 'dart:isolate';
 import 'dart:typed_data';
 import 'package:archive/archive.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sherpa_onnx/sherpa_onnx.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 
 class WhisperHelper {
   static Future<void> transcribe(List<dynamic> args) async {
@@ -50,41 +52,42 @@ class WhisperHelper {
     replyTo.send(result.text);
   }
 
-static void whisperIsolateEntry(List args) async {
-  final SendPort mainSendPort = args[0];
-  final String modelPath = args[1];
-  final RootIsolateToken token = args[2];
+  static void whisperIsolateEntry(List args) async {
+    final SendPort mainSendPort = args[0];
+    final String modelPath = args[1];
+    final RootIsolateToken token = args[2];
 
-  BackgroundIsolateBinaryMessenger.ensureInitialized(token);
-  initBindings(); // FFI bindings for sherpa-onnx
+    BackgroundIsolateBinaryMessenger.ensureInitialized(token);
+    initBindings(); // FFI bindings for sherpa-onnx
 
-  final recognizer = initWhisperRecognizer(modelPath);
+    final recognizer = initWhisperRecognizer(modelPath);
 
-  final isolateReceivePort = ReceivePort();
-  mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
+    final isolateReceivePort = ReceivePort();
+    mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
 
-  await for (final message in isolateReceivePort) {
-    if (message is Map && message.containsKey('file') && message.containsKey('replyTo')) {
-      final filePath = message['file'] as String;
-      final SendPort replyTo = message['replyTo'] as SendPort;
+    await for (final message in isolateReceivePort) {
+      if (message is Map &&
+          message.containsKey('file') &&
+          message.containsKey('replyTo')) {
+        final filePath = message['file'] as String;
+        final SendPort replyTo = message['replyTo'] as SendPort;
 
-      final bytes = await File(filePath).readAsBytes();
-      final samples = downmixAndNormalizeWav(bytes);
+        final bytes = await File(filePath).readAsBytes();
+        final samples = downmixAndNormalizeWav(bytes);
 
-      final stream = recognizer.createStream();
-      stream.acceptWaveform(sampleRate: 16000, samples: samples);
-      recognizer.decode(stream);
-      final result = recognizer.getResult(stream);
-      stream.free();
+        final stream = recognizer.createStream();
+        stream.acceptWaveform(sampleRate: 16000, samples: samples);
+        recognizer.decode(stream);
+        final result = recognizer.getResult(stream);
+        stream.free();
 
-      replyTo.send(result.text); // send back transcription
+        replyTo.send(result.text); // send back transcription
+      }
     }
+
+    // recognizer.free();
+    // isolateReceivePort.close();
   }
-
-  // recognizer.free();
-  // isolateReceivePort.close();
-}
-
 
   static OfflineRecognizer initWhisperRecognizer(String path) {
     final dir = Directory(path);
@@ -136,6 +139,7 @@ static void whisperIsolateEntry(List args) async {
   static void _modelDownloadWorker(List args) async {
     final RootIsolateToken rootIsolateToken = args[0]; // first arg is token
     final SendPort replyTo = args[1];
+    final SendPort downloadProgress = args[2];
     // 🛠 Fix here
     BackgroundIsolateBinaryMessenger.ensureInitialized(rootIsolateToken);
 
@@ -159,10 +163,12 @@ static void whisperIsolateEntry(List args) async {
           url,
           zipPath,
           onReceiveProgress: (rec, total) {
+            var percent = double.parse((rec / total * 100).toStringAsFixed(1));
             if (total != -1) {
-              print(
-                '[Download Progress] ${(rec / total * 100).toStringAsFixed(1)}%',
-              );
+              downloadProgress.send(percent);
+              // print(
+              //   '[Download Progress] $percent%',
+              // );
             }
           },
           options: Options(receiveTimeout: Duration.zero),
@@ -179,7 +185,6 @@ static void whisperIsolateEntry(List args) async {
         }
 
         replyTo.send('✅ Done');
-        initBindings();
       } catch (e) {
         print('[Error] $e');
         replyTo.send('❌ Failed');
@@ -191,20 +196,31 @@ static void whisperIsolateEntry(List args) async {
 
   static void runSilentDownload() async {
     final receivePort = ReceivePort();
+    final downloadProgress = ReceivePort();
     final token = RootIsolateToken.instance!;
 
-    await Isolate.spawn(_modelDownloadWorker, [token, receivePort.sendPort]);
+    await Isolate.spawn(_modelDownloadWorker, [
+      token,
+      receivePort.sendPort,
+      downloadProgress.sendPort,
+    ]);
 
     final sendPort = await receivePort.first as SendPort;
 
+    downloadProgress.listen((data) {
+      print("DOWNLOAD PROGRESS $data");
+      globalController.aiModelDownloadProgress.value = data;
+    });
+
     final resultPort = ReceivePort();
     sendPort.send([
-    'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
-    'vanilla.zip',
-    resultPort.sendPort,
-  ]);
+      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
+      'vanilla.zip',
+      resultPort.sendPort,
+    ]);
 
     await resultPort.first; // You can log or ignore
+    globalController.isAiModelDownloaded.value = true;
   }
 
   static Future<bool> isModelAvailable() async {

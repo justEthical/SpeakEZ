@@ -20,10 +20,10 @@ class _TabBarScreenState extends State<TabBarScreen> {
     // TODO: implement initState
     super.initState();
     Future.delayed(Duration.zero, () async {
-    if (!await WhisperHelper. isModelAvailable()) {
-      WhisperHelper.runSilentDownload();
-    }
-  });
+      if (!await WhisperHelper.isModelAvailable()) {
+        WhisperHelper.runSilentDownload();
+      }
+    });
   }
 
   @override
@@ -32,31 +32,30 @@ class _TabBarScreenState extends State<TabBarScreen> {
       body: PageView(
         controller: globalController.cutomTabBarController,
         physics: NeverScrollableScrollPhysics(),
-        children: [
-          HomeScreen(),
-          PracticeSpeaking(),
-        ],
+        children: [HomeScreen(), PracticeSpeaking()],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        onTap: (value) {
-          globalController.currentTabIndex.value = value;
-          globalController.cutomTabBarController.animateToPage(
-            value,
-            duration: Duration(milliseconds: 300),
-            curve: Curves.easeIn,
-          );
-        },
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.workspace_premium_outlined),
-            label: "Progress",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.chat_bubble_outline),
-            label: "Practice",
-          ),
-        ],
-        currentIndex: 0,
+      bottomNavigationBar: Obx(
+        () => BottomNavigationBar(
+          onTap: (value) {
+            globalController.currentTabIndex.value = value;
+            globalController.cutomTabBarController.animateToPage(
+              value,
+              duration: Duration(milliseconds: 300),
+              curve: Curves.easeIn,
+            );
+          },
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.workspace_premium_outlined),
+              label: "Progress",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.chat_bubble_outline),
+              label: "Practice",
+            ),
+          ],
+          currentIndex: globalController.currentTabIndex.value,
+        ),
       ),
     );
   }

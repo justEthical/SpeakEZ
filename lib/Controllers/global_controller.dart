@@ -11,7 +11,7 @@ import 'package:speak_ez/Models/user_profile_model.dart';
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
   SharedPreferences? prefs;
-  late SendPort whisperSendPort;
+  late SendPort whisperSendPort; // send port to whisper isolate
   var userProfile = UserProfileModel.fromJson({}).obs;
   final cutomTabBarController = PageController(initialPage: 0);
   String appDocDirectoryPath = "";
@@ -21,6 +21,9 @@ class GlobalController extends GetxController {
   var currentTabIndex = 0.obs;
 
   var transcription = "".obs;
+
+  var aiModelDownloadProgress = 0.0.obs;
+  var isAiModelDownloaded = false.obs;
 
   @override
   void onReady() {
