@@ -50,9 +50,6 @@ class AudioChunkRecorder {
             break;
           }
         }
-
-        // Optional: short pause before starting next recording
-        await Future.delayed(Duration(milliseconds: 500));
       }
 
       print('🛑 Recording fully stopped');
@@ -68,7 +65,7 @@ class AudioChunkRecorder {
       await _recorder.stop();
     }
     final dir = await getApplicationDocumentsDirectory();
-    final lastRecordingChunkPath = '${dir.path}/$_fileIndex.wav';
+    final lastRecordingChunkPath = '${dir.path}/${_fileIndex-1}.wav';
     print("heerree");
     await transcribeWithPersistentIsolate(lastRecordingChunkPath);
     try {
@@ -78,30 +75,6 @@ class AudioChunkRecorder {
     }
     print("last recording transcribed");
   }
-
-  // isolateTranscriptionWork(String filePath) async {
-  //   final a = DateTime.now();
-  //   print("isolate called at ${DateTime.now()}");
-  //   final ReceivePort port = ReceivePort();
-  //   final token = RootIsolateToken.instance!;
-  //   await Isolate.spawn(WhisperHelper.transcribe, [
-  //     filePath,
-  //     globalController.appDocDirectoryPath,
-  //     token,
-  //     port.sendPort,
-  //   ]);
-
-  //   final result = await port.first;
-  //   port.close();
-  //   try {
-  //     Get.find<PracticeController>().transcriptionText.value += result;
-  //     print(
-  //       "result got at  ${DateTime.now().millisecondsSinceEpoch - a.millisecondsSinceEpoch} ms",
-  //     );
-  //   } catch (e) {
-  //     print(e.toString());
-  //   }
-  // }
 
   Future<void> transcribeWithPersistentIsolate(String filePath) async {
     if (File(filePath).existsSync()) {
