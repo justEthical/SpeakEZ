@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:isolate';
 import 'dart:typed_data';
 import 'package:archive/archive.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
