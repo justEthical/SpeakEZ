@@ -31,6 +31,7 @@ class PracticeController extends GetxController {
   late StreamSubscription<bool> sub;
   late SendPort whisperSendPort;
   final tts = TextToSpeechService();
+  
 
   @override
   void onReady() {

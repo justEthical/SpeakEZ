@@ -1,10 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/scenario_card.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 
-class PracticeSpeaking extends StatelessWidget {
+class PracticeSpeaking extends StatefulWidget {
   const PracticeSpeaking({super.key});
+
+  @override
+  State<PracticeSpeaking> createState() => _PracticeSpeakingState();
+}
+
+class _PracticeSpeakingState extends State<PracticeSpeaking> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      Future.delayed(Duration.zero, () async {
+        globalController.isAiModelDownloaded.value =
+            await WhisperHelper.isModelAvailable();
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -73,18 +93,42 @@ class PracticeSpeaking extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              Expanded(
-                child: ListView.builder(
-                  itemCount: 5,
-                  itemBuilder: (ctx, i) {
-                    return ScenarioCard(
-                      title: "Job Interview",
-                      subtitle: "Practice answering common interview questions with Natasha",
-                      image: AppAssets.jobInterview,
-                      level: "intermediate",
-                    );
-                  },
-                ),
+              Obx(
+                () =>
+                    globalController.isAiModelDownloaded.value
+                        ? Expanded(
+                          child: ListView.builder(
+                            itemCount: 5,
+                            itemBuilder: (ctx, i) {
+                              return ScenarioCard(
+                                title: "Job Interview",
+                                subtitle:
+                                    "Practice answering common interview questions with Natasha",
+                                image: AppAssets.jobInterview,
+                                level: "intermediate",
+                              );
+                            },
+                          ),
+                        )
+                        : Expanded(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Lottie.asset(
+                                AppAssets.downloading,
+                                width: Get.width * 0.5, 
+                                height: Get.width * 0.5,
+                                decoder: globalController.customDecoder
+                              ),
+                              Center(
+                                child: Text(
+                                  "Downloading Natasha model ${globalController.aiModelDownloadProgress.value}",
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
               ),
             ],
           ),

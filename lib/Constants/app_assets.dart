@@ -13,6 +13,7 @@ class AppAssets {
   static String get wrongAnswer => _getFullLottiePath("wrong.lottie");
   static String get chatting => _getFullLottiePath("chating.lottie");
   static String get recording => _getFullLottiePath("recording.lottie");
+  static String get downloading => _getFullLottiePath("downloading.lottie");
 
   //Audio files
   static String get correct => "correct.mp3";

@@ -48,11 +48,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   Spacer(),
                   InkWell(
                     onTap:
-                        () =>
-                            c.isLastChunkTranscribed.value =
-                                !c
-                                    .isLastChunkTranscribed
-                                    .value, //c.showExitBottomSheet(context),
+                        () => c.showExitBottomSheet(context),
                     child: Container(
                       width: 30,
                       height: 30,
