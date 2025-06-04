@@ -9,6 +9,7 @@ import 'package:sherpa_onnx/sherpa_onnx.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 
 class WhisperHelper {
+  static const modelName = 'base';
   static Future<void> transcribe(List<dynamic> args) async {
     final filePath = args[0];
     final docDirctoryPath = args[1];
@@ -95,10 +96,10 @@ class WhisperHelper {
       OfflineRecognizerConfig(
         model: OfflineModelConfig(
           whisper: OfflineWhisperModelConfig(
-            encoder: '${dir.path}/base.en-encoder.int8.onnx',
-            decoder: '${dir.path}/base.en-decoder.int8.onnx',
+            encoder: '${dir.path}/$modelName.en-encoder.int8.onnx',
+            decoder: '${dir.path}/$modelName.en-decoder.int8.onnx',
           ),
-          tokens: '${dir.path}/base.en-tokens.txt',
+          tokens: '${dir.path}/$modelName.en-tokens.txt',
           modelType: 'whisper',
         ),
       ),
@@ -213,8 +214,10 @@ class WhisperHelper {
 
     final resultPort = ReceivePort();
     sendPort.send([
-      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
-      'vanilla.zip',
+      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.0/tiny_en.zip',
+      'tiny_en.zip',
+      // 'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
+      // 'vanilla.zip',
       resultPort.sendPort,
     ]);
 
@@ -224,7 +227,7 @@ class WhisperHelper {
 
   static Future<bool> isModelAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
-    final encoder = File('${dir.path}/base.en-decoder.int8.onnx');
+    final encoder = File('${dir.path}/$modelName.en-decoder.int8.onnx');
     return encoder.existsSync(); // Fast check
   }
 }

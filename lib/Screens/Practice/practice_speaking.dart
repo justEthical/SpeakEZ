@@ -117,13 +117,19 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
                             children: [
                               Lottie.asset(
                                 AppAssets.downloading,
-                                width: Get.width * 0.5, 
+                                width: Get.width * 0.5,
                                 height: Get.width * 0.5,
-                                decoder: globalController.customDecoder
+                                decoder: globalController.customDecoder,
                               ),
                               Center(
                                 child: Text(
-                                  "Downloading Natasha model ${globalController.aiModelDownloadProgress.value}",
+                                  "Downloading Natasha AI… (${globalController.aiModelDownloadProgress.value}%)\nThe download is about 60 MB. Please keep the app open until it’s finished.",
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w700,
+                                  ),
                                 ),
                               ),
                             ],

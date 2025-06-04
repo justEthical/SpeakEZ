@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/doughnut_animation.dart';
 
@@ -42,13 +45,20 @@ class ChatScreenBottomBar extends StatelessWidget {
           Obx(
             () =>
                 c.isRecordingInProgress.value
-                    ? AnimatedDoughnut()
-                    : InkWell(
-                      onTap: () => c.startRecording(),
-                      child: SizedBox(
-                        height: 100,
-                        width: 100,
-                        child: Icon(Icons.mic, size: 40, color: Colors.grey),
+                    ? InkWell(
+                      onTap: () => c.stopRecording(),
+                      child: AnimatedDoughnut())
+                    : Opacity(
+                      opacity: c.isSpeaking.value ? 0.4 : 1,
+                      child: InkWell(
+                        onTap: () => c.startRecording(),
+                        child: Lottie.asset(
+                          AppAssets.mic,
+                          animate: !c.isSpeaking.value,
+                          width: 100,
+                          height: 100,
+                          decoder: globalController.customDecoder,
+                        ),
                       ),
                     ),
           ),

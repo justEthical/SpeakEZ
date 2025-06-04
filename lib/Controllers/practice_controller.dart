@@ -31,7 +31,7 @@ class PracticeController extends GetxController {
   late StreamSubscription<bool> sub;
   late SendPort whisperSendPort;
   final tts = TextToSpeechService();
-  
+  var isSpeaking = false.obs;
 
   @override
   void onReady() {
@@ -129,11 +129,10 @@ class PracticeController extends GetxController {
         );
         getAiResponse();
         chatScrollController.animateTo(
-          chatScrollController.position.maxScrollExtent  * 2,
+          chatScrollController.position.maxScrollExtent * 2,
           duration: const Duration(milliseconds: 300),
           curve: Curves.easeOut,
         );
-
       }
       sub.cancel();
       isLastChunkTranscribed.value = false;
@@ -141,7 +140,10 @@ class PracticeController extends GetxController {
   }
 
   getAiResponse() async {
-    var response = await NetworkService.getAiReposne(transcriptionText.value, topic: "Job interview");
+    var response = await NetworkService.getAiReposne(
+      transcriptionText.value,
+      topic: "Job interview",
+    );
     if (response != null) {
       currentChats.remove(currentChats.last);
       currentChats.add(
@@ -158,7 +160,9 @@ class PracticeController extends GetxController {
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
       );
-      tts.speak(response);
+      isSpeaking.value = true;
+      await tts.speakAndWait(response);
+      isSpeaking.value = false;
     }
   }
 
@@ -176,7 +180,11 @@ class PracticeController extends GetxController {
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeOut,
     );
-    tts.speak(AppStrings.initialMessage);
+    Future.delayed(const Duration(seconds: 2), () async {
+      isSpeaking.value = true;
+      await tts.speakAndWait(AppStrings.initialMessage);
+      isSpeaking.value = false;
+    });
   }
 
   void stopRecording() {
