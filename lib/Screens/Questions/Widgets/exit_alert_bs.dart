@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Screens/tab_bar_screen.dart';
 
 class ExitAlertBottomSheet extends StatelessWidget {
   const ExitAlertBottomSheet({super.key});
@@ -48,7 +48,7 @@ class ExitAlertBottomSheet extends StatelessWidget {
           ),
           SizedBox(height: 12),
           InkWell(
-            onTap: () => Get.offAll(HomeScreen()),
+            onTap: () => Get.offAll(TabBarScreen()),
             child: Text(
               "Close and discard",
               style: TextStyle(color: Colors.red),
