@@ -10,47 +10,6 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 
 class WhisperHelper {
   static const modelName = 'base';
-  static Future<void> transcribe(List<dynamic> args) async {
-    final filePath = args[0];
-    final docDirctoryPath = args[1];
-    final RootIsolateToken token = args[2];
-    final SendPort replyTo = args[3];
-
-    BackgroundIsolateBinaryMessenger.ensureInitialized(token);
-
-    initBindings();
-
-    final t0 = DateTime.now().millisecondsSinceEpoch;
-    final recognizerLoadStart = t0;
-
-    final recognizer = initWhisperRecognizer(docDirctoryPath);
-
-    final recognizerLoadEnd = DateTime.now().millisecondsSinceEpoch;
-    print("📦 Model loaded in ${recognizerLoadEnd - recognizerLoadStart} ms");
-
-    final offlineStream = recognizer.createStream();
-
-    final audioLoadStart = DateTime.now().millisecondsSinceEpoch;
-    final bytes = await File(filePath).readAsBytes();
-    final audioLoadEnd = DateTime.now().millisecondsSinceEpoch;
-    print("🎧 Audio loaded in ${audioLoadEnd - audioLoadStart} ms");
-
-    final sampleFloat32 = downmixAndNormalizeWav(bytes);
-
-    final decodeStart = DateTime.now().millisecondsSinceEpoch;
-    offlineStream.acceptWaveform(sampleRate: 16000, samples: sampleFloat32);
-    recognizer.decode(offlineStream);
-    final result = recognizer.getResult(offlineStream);
-    final decodeEnd = DateTime.now().millisecondsSinceEpoch;
-
-    print("🧠 Decode time: ${decodeEnd - decodeStart} ms");
-    print("📝 Transcript: ${result.text}");
-
-    offlineStream.free();
-    recognizer.free();
-
-    replyTo.send(result.text);
-  }
 
   static void whisperIsolateEntry(List args) async {
     final SendPort mainSendPort = args[0];
@@ -66,7 +25,12 @@ class WhisperHelper {
     mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
 
     await for (final message in isolateReceivePort) {
-      if (message is Map &&
+      if (message is String && message == 'stop') {
+        // Graceful shutdown
+        recognizer.free();
+        isolateReceivePort.close();
+        break; // exit the loop and function => isolate terminates
+      } else if (message is Map &&
           message.containsKey('file') &&
           message.containsKey('replyTo')) {
         final filePath = message['file'] as String;
@@ -214,10 +178,8 @@ class WhisperHelper {
 
     final resultPort = ReceivePort();
     sendPort.send([
-      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.0/tiny_en.zip',
-      'tiny_en.zip',
-      // 'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
-      // 'vanilla.zip',
+      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
+      'vanilla.zip',
       resultPort.sendPort,
     ]);
 

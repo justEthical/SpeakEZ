@@ -39,6 +39,12 @@ class PracticeController extends GetxController {
     startWhisperIsolate();
   }
 
+  @override
+  void onClose() {
+    super.onClose();
+    whisperSendPort.send('stop');
+  }
+
   Future<void> startWhisperIsolate() async {
     final ReceivePort onMainReceive = ReceivePort();
 
@@ -58,7 +64,7 @@ class PracticeController extends GetxController {
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {
         print("Timer stopped");
-        _addChatCellTranscriptionData(timer);
+        addChatCellTranscriptionData();
       } else {
         // print("Timmer running ${remainingSeconds.value}");
         remainingSeconds.value--;
@@ -85,9 +91,9 @@ class PracticeController extends GetxController {
     );
   }
 
-  _addChatCellTranscriptionData(Timer timer) {
+  void addChatCellTranscriptionData() {
     recorder.stop();
-    timer.cancel();
+    _timer?.cancel();
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
     remainingSeconds.value = 30;
@@ -101,7 +107,7 @@ class PracticeController extends GetxController {
       ),
     );
     chatScrollController.animateTo(
-      chatScrollController.position.maxScrollExtent + 20,
+      chatScrollController.position.maxScrollExtent * 2,
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeOut,
     );
@@ -111,6 +117,7 @@ class PracticeController extends GetxController {
       print("Listener called: $val");
       if (val) {
         currentChats.remove(currentChats.last);
+        transcriptionText.value = removeBracketedWords(transcriptionText.value);
         currentChats.add(
           ChatModel(
             message: transcriptionText.value,
@@ -139,6 +146,17 @@ class PracticeController extends GetxController {
     });
   }
 
+  String removeBracketedWords(String text) {
+    // Matches any word starting with [ or (, up to the next space, or closed bracket/parenthesis (greedy).
+    final pattern = RegExp(
+      r'(\s*[\[\(][^\s\]\)]*[\]\)]?\s*)',
+      caseSensitive: false,
+    );
+    String cleaned = text.replaceAll(pattern, ' ');
+    // Remove any extra spaces
+    return cleaned.replaceAll(RegExp(r'\s+'), ' ').trim();
+  }
+
   getAiResponse() async {
     var response = await NetworkService.getAiReposne(
       transcriptionText.value,
@@ -156,7 +174,7 @@ class PracticeController extends GetxController {
       );
 
       chatScrollController.animateTo(
-        chatScrollController.position.maxScrollExtent * 2,
+        200,
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
       );

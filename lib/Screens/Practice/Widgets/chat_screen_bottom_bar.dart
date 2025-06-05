@@ -46,7 +46,7 @@ class ChatScreenBottomBar extends StatelessWidget {
             () =>
                 c.isRecordingInProgress.value
                     ? InkWell(
-                      onTap: () => c.stopRecording(),
+                      onTap: () => c.addChatCellTranscriptionData(),
                       child: AnimatedDoughnut())
                     : Opacity(
                       opacity: c.isSpeaking.value ? 0.4 : 1,
