@@ -64,4 +64,33 @@ class CustomDialogs {
       ),
     );
   }
+
+  static Widget enableMicrophonePermissionFromSettings() {
+    return Dialog(
+      insetPadding: const EdgeInsets.all(20),
+      child: Container(
+        padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Column(
+          children: [
+            const Text(
+              'Please enable microphone permission from settings.',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+            ),
+            SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: (){
+                globalController.openAppSetting();
+              },
+              child: Text("Open Settings"),
+            )
+          ],
+        ),
+      ),
+    );
+  }
 }

@@ -52,7 +52,8 @@ class ExitAlertChatBottomSheet extends StatelessWidget {
           InkWell(
             onTap: () {
               c.stopRecording();
-              Get.offAll(TabBarScreen());
+              Get.back();
+              Get.back();
             },
             child: Text(
               "Close and discard",

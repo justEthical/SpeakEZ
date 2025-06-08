@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 
 class ScenarioCard extends StatelessWidget {
   final String title;
@@ -19,6 +22,7 @@ class ScenarioCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final c = Get.find<PracticeController>();
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
       padding: EdgeInsets.all(10),
@@ -84,8 +88,8 @@ class ScenarioCard extends StatelessWidget {
           ),
           SizedBox(height: 10),
           ElevatedButton(
-            onPressed: () {
-              Get.to(ChatScreen(title: title));
+            onPressed: () async {
+              c.getMicrophonePermission(title);
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.black,

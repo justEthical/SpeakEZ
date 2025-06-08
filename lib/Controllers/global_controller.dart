@@ -7,6 +7,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Models/user_profile_model.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
@@ -90,6 +91,14 @@ class GlobalController extends GetxController {
       },
     );
   }
+
+  void openAppSetting() async {
+  bool opened = await openAppSettings();
+  if (!opened) {
+    // handle failure to open settings
+    print('Could not open settings');
+  }
+}
 }
 
 GlobalController globalController = GlobalController.instance;
