@@ -4,11 +4,14 @@ import 'dart:isolate';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
+import 'package:speak_ez/Screens/Practice/chat_screen.dart';
 import 'package:speak_ez/Services/network_service.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
@@ -17,7 +20,7 @@ import '../Utils/audio_chunk_recorder.dart';
 class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
   var transcriptionText = "".obs;
-  var currentUserSessionSeconds = 0.obs;
+  var currentUserSessionMessage = 0.obs;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -30,20 +33,9 @@ class PracticeController extends GetxController {
   late Worker isLastChunkWorker;
   late StreamSubscription<bool> sub;
   late SendPort whisperSendPort;
+  var isWhisperInitialized = false.obs;
   final tts = TextToSpeechService();
   var isSpeaking = false.obs;
-
-  @override
-  void onReady() {
-    super.onReady();
-    startWhisperIsolate();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-    whisperSendPort.send('stop');
-  }
 
   Future<void> startWhisperIsolate() async {
     final ReceivePort onMainReceive = ReceivePort();
@@ -56,7 +48,8 @@ class PracticeController extends GetxController {
     ]);
 
     whisperSendPort = await onMainReceive.first;
-    print('Whisper isolate started');
+    isWhisperInitialized.value = true;
+    print('Whisper isolate started $whisperSendPort');
   }
 
   void startRecording() {
@@ -157,12 +150,24 @@ class PracticeController extends GetxController {
     return cleaned.replaceAll(RegExp(r'\s+'), ' ').trim();
   }
 
+  List<Map<String, String>> getPastConversation() {
+    List<Map<String, String>> pastConversation = [];
+    for (var chat in currentChats) {
+      if (chat.chatType == ChatType.normalChatMesssage) {
+        pastConversation.add({(chat.isAI ? "You" : "User"): chat.message});
+      }
+    }
+    return pastConversation;
+  }
+
   getAiResponse() async {
     var response = await NetworkService.getAiReposne(
       transcriptionText.value,
       topic: "Job interview",
+      pastConversation: getPastConversation(),
     );
     if (response != null) {
+      currentUserSessionMessage.value++;
       currentChats.remove(currentChats.last);
       currentChats.add(
         ChatModel(
@@ -174,7 +179,7 @@ class PracticeController extends GetxController {
       );
 
       chatScrollController.animateTo(
-        200,
+        chatScrollController.position.maxScrollExtent * 2,
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
       );
@@ -234,5 +239,20 @@ class PracticeController extends GetxController {
       isScrollControlled: true,
       builder: (context) => ExitAlertChatBottomSheet(),
     );
+  }
+
+  void getMicrophonePermission(String title) async {
+    final status = await Permission.microphone.status;
+    if (status.isGranted) {
+      Get.to(ChatScreen(title: title));
+    } else if (status.isPermanentlyDenied) {
+      Get.defaultDialog(
+        titleStyle: const TextStyle(fontSize: 0),
+        content: CustomDialogs.enableMicrophonePermissionFromSettings(),
+      );
+    } else {
+      await Permission.microphone.request();
+      getMicrophonePermission(title);
+    }
   }
 }

@@ -10,6 +10,7 @@ class AppStrings {
       "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
   static const String systemPrompt =
       'You are Natasha, an English learning coach. Reply to users with short messages of 3-4 lines based on their responses. If a user asks a question that violates your AI guidelines, such as anything illegal or unethical, politely tell them you can’t discuss that topic. Also, encourage the user to continue the conversation on topic';
+  static const String continueConversation = "Continue Conversation by asking question in you every reply based on the past conveersation or topic";
   // Shared Preferences
   static const String userAuthState = "user_auth_state";
   static const String userProfile = "user_profile";

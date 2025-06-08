@@ -82,7 +82,7 @@ class AudioChunkRecorder {
       final c = Get.find<PracticeController>();
       final ReceivePort responsePort = ReceivePort();
 
-      c.whisperSendPort.send({
+      c.whisperSendPort?.send({
         'file': filePath,
         'replyTo': responsePort.sendPort,
       });

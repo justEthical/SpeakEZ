@@ -16,14 +16,23 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
-  final c = Get.put(PracticeController());
+  final c = Get.find<PracticeController>();
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       c.addInitialMessage();
+      c.startWhisperIsolate();
     });
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    c.whisperSendPort.send('stop');
+    c.isWhisperInitialized.value = false;
   }
 
   @override
@@ -40,15 +49,14 @@ class _ChatScreenState extends State<ChatScreen> {
                     widget.title,
                     style: TextStyle(
                       fontWeight: FontWeight.w800,
-                      fontSize: 20,
-                      fontFamily: AppStrings.nunitoFont,
+                      fontSize: 24,
+                      // fontFamily: AppStrings.nunitoFont,
                     ),
                   ),
 
                   Spacer(),
                   InkWell(
-                    onTap:
-                        () => c.showExitBottomSheet(context),
+                    onTap: () => c.showExitBottomSheet(context),
                     child: Container(
                       width: 30,
                       height: 30,

@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/scenario_card.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
@@ -14,6 +15,8 @@ class PracticeSpeaking extends StatefulWidget {
 }
 
 class _PracticeSpeakingState extends State<PracticeSpeaking> {
+  final c = Get.put(PracticeController());
+  
   @override
   void initState() {
     // TODO: implement initState
