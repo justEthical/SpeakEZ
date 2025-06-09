@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
+import 'package:speak_ez/Models/scenario_model.dart';
+import 'package:speak_ez/Screens/Practice/ResultScreen/practice_result_screen.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_screen_bottom_bar.dart';
 
 import 'Widgets/progress_bar.dart';
 
 class ChatScreen extends StatefulWidget {
-  final String title;
-  const ChatScreen({super.key, required this.title});
+  final ScenarioModel scenarioModel;
+  const ChatScreen({super.key, required this.scenarioModel});
 
   @override
   State<ChatScreen> createState() => _ChatScreenState();
@@ -22,6 +23,7 @@ class _ChatScreenState extends State<ChatScreen> {
     // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      c.currentScenarioModel = widget.scenarioModel;
       c.addInitialMessage();
       c.startWhisperIsolate();
     });
@@ -33,6 +35,9 @@ class _ChatScreenState extends State<ChatScreen> {
     super.dispose();
     c.whisperSendPort.send('stop');
     c.isWhisperInitialized.value = false;
+    c.currentUserSessionMessage.value = 0;
+    c.tts.stop();
+    print("dissposed");
   }
 
   @override
@@ -46,7 +51,7 @@ class _ChatScreenState extends State<ChatScreen> {
               Row(
                 children: [
                   Text(
-                    widget.title,
+                    widget.scenarioModel.title,
                     style: TextStyle(
                       fontWeight: FontWeight.w800,
                       fontSize: 24,
@@ -84,7 +89,27 @@ class _ChatScreenState extends State<ChatScreen> {
                 ),
               ),
               SizedBox(height: 10),
-              ChatScreenBottomBar(),
+              Obx(
+                () =>
+                    c.currentUserSessionMessage.value >= 5
+                        ? ElevatedButton(
+                          onPressed: () {
+                            Get.off(PracticeResultSreen());
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.black,
+                            fixedSize: Size(Get.width, 55),
+                          ),
+                          child: Text(
+                            "View Results",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                            ),
+                          ),
+                        )
+                        : ChatScreenBottomBar(),
+              ),
             ],
           ),
         ),

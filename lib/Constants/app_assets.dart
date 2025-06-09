@@ -39,5 +39,27 @@ class AppAssets {
 
   // practice
   static String get jobInterview => _getFullImagePath("job_interview.svg");
+  static String get orderingFood => _getFullImagePath("ordering_food.svg");
+  static String get makingFriends => _getFullImagePath("making_friends.svg");
+  static String get askingDirections =>
+      _getFullImagePath("asking_directions.svg");
+  static String get shopping => _getFullImagePath("shopping.svg");
+  static String get atTheDoctor => _getFullImagePath("at_the_doctor.svg");
+  static String get phoneCalls => _getFullImagePath("phone_calls.svg");
+  static String get dailyEnglish => _getFullImagePath("daily_english.svg");
+  static String get travel => _getFullImagePath("travel.svg");
+  static String get inTheClassroom => _getFullImagePath("in_the_classroom.svg");
+  static String get dailyRoutine => _getFullImagePath("daily_routine.svg");
+  static String get makingPlans => _getFullImagePath("making_plans.svg");
+  static String get festivals => _getFullImagePath("festivals.svg");
+  static String get workplaceTalk => _getFullImagePath("workplace_talk.svg");
+  static String get usingTechnology =>
+      _getFullImagePath("using_technology.svg");
+  static String get parentTeacher => _getFullImagePath("parent_teacher.svg");
+  static String get banking => _getFullImagePath("banking.svg");
+  static String get publicTransport =>
+      _getFullImagePath("public_transport.svg");
+  static String get weather => _getFullImagePath("weather.svg");
+  static String get talkingFood => _getFullImagePath("talking_food.svg");
   static String get natashaChat => _getFullImagePath("natasha_chat.png");
 }

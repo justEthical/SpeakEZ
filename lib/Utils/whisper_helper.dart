@@ -148,6 +148,16 @@ class WhisperHelper {
           print('[Unzip] Extracted: ${file.name}');
         }
 
+        // delete zip filee
+        try {
+          final file = File(zipPath);
+          if (await file.exists()) {
+            await file.delete();
+          }
+        } catch (e) {
+          print('Error deleting file: $e');
+        }
+
         replyTo.send('✅ Done');
       } catch (e) {
         print('[Error] $e');

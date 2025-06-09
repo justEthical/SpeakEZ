@@ -4,6 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
+import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/scenario_card.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
@@ -101,14 +102,10 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
                     globalController.isAiModelDownloaded.value
                         ? Expanded(
                           child: ListView.builder(
-                            itemCount: 5,
+                            itemCount: scenarios.length,
                             itemBuilder: (ctx, i) {
                               return ScenarioCard(
-                                title: "Job Interview",
-                                subtitle:
-                                    "Practice answering common interview questions with Natasha",
-                                image: AppAssets.jobInterview,
-                                level: "intermediate",
+                                scenarioModel: scenarios[i],
                               );
                             },
                           ),
