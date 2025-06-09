@@ -1,23 +1,16 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:permission_handler/permission_handler.dart';
-import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
-import 'package:speak_ez/Screens/Practice/chat_screen.dart';
-import 'package:speak_ez/Utils/custom_dialogs.dart';
+import 'package:speak_ez/Models/scenario_model.dart';
 
 class ScenarioCard extends StatelessWidget {
-  final String title;
-  final String subtitle;
-  final String image;
-  final String level;
+  final ScenarioModel scenarioModel;
   const ScenarioCard({
     super.key,
-    required this.title,
-    required this.subtitle,
-    required this.image,
-    required this.level,
+    required this.scenarioModel,
   });
 
   @override
@@ -51,7 +44,7 @@ class ScenarioCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: SvgPicture.asset(AppAssets.jobInterview),
+                child: SvgPicture.asset(scenarioModel.imagePath),
               ),
               const SizedBox(width: 10),
               SizedBox(
@@ -62,7 +55,7 @@ class ScenarioCard extends StatelessWidget {
                   children: [
                     Spacer(),
                     Text(
-                      title,
+                      scenarioModel.title,
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -72,7 +65,7 @@ class ScenarioCard extends StatelessWidget {
                     SizedBox(
                       width: Get.width - 220,
                       child: Text(
-                        subtitle,
+                        scenarioModel.description,
                         maxLines: 10,
                         style: const TextStyle(
                           fontSize: 14,
@@ -89,7 +82,7 @@ class ScenarioCard extends StatelessWidget {
           SizedBox(height: 10),
           ElevatedButton(
             onPressed: () async {
-              c.getMicrophonePermission(title);
+              c.getMicrophonePermission(scenarioModel);
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.black,

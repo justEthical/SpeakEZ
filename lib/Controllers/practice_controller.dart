@@ -8,6 +8,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/chat_model.dart';
+import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
 import 'package:speak_ez/Services/network_service.dart';
@@ -21,6 +22,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
   var transcriptionText = "".obs;
   var currentUserSessionMessage = 0.obs;
+  var maxNumberOfAiResponsesPerSession = 5;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -34,6 +36,7 @@ class PracticeController extends GetxController {
   late StreamSubscription<bool> sub;
   late SendPort whisperSendPort;
   var isWhisperInitialized = false.obs;
+  ScenarioModel? currentScenarioModel;
   final tts = TextToSpeechService();
   var isSpeaking = false.obs;
 
@@ -77,11 +80,7 @@ class PracticeController extends GetxController {
         chatType: ChatType.normalChatMesssage,
       ),
     );
-    chatScrollController.animateTo(
-      chatScrollController.position.maxScrollExtent + 20,
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeOut,
-    );
+    _scrollToBottom();
   }
 
   void addChatCellTranscriptionData() {
@@ -99,11 +98,7 @@ class PracticeController extends GetxController {
         chatType: ChatType.transcribing,
       ),
     );
-    chatScrollController.animateTo(
-      chatScrollController.position.maxScrollExtent * 2,
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeOut,
-    );
+    _scrollToBottom();
     print('listener hashcode: $hashCode');
 
     sub = isLastChunkTranscribed.listen((val) {
@@ -119,24 +114,35 @@ class PracticeController extends GetxController {
             chatType: ChatType.normalChatMesssage,
           ),
         );
-        currentChats.add(
-          ChatModel(
-            message: transcriptionText.value,
-            time: "time",
-            isAI: true,
-            chatType: ChatType.gettingAIResponse,
-          ),
-        );
-        getAiResponse();
-        chatScrollController.animateTo(
-          chatScrollController.position.maxScrollExtent * 2,
-          duration: const Duration(milliseconds: 300),
-          curve: Curves.easeOut,
-        );
+        currentUserSessionMessage.value++;
+        if (currentUserSessionMessage.value <
+            maxNumberOfAiResponsesPerSession) {
+          currentChats.add(
+            ChatModel(
+              message: "getting AI response",
+              time: "time",
+              isAI: true,
+              chatType: ChatType.gettingAIResponse,
+            ),
+          );
+          getAiResponse();
+          _scrollToBottom();
+        } else {
+          
+          addLastMessage();
+        }
       }
       sub.cancel();
       isLastChunkTranscribed.value = false;
     });
+  }
+
+  void _scrollToBottom() {
+    chatScrollController.animateTo(
+      chatScrollController.position.maxScrollExtent * 2,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeOut,
+    );
   }
 
   String removeBracketedWords(String text) {
@@ -163,11 +169,10 @@ class PracticeController extends GetxController {
   getAiResponse() async {
     var response = await NetworkService.getAiReposne(
       transcriptionText.value,
-      topic: "Job interview",
+      topic: currentScenarioModel!.prompt,
       pastConversation: getPastConversation(),
     );
     if (response != null) {
-      currentUserSessionMessage.value++;
       currentChats.remove(currentChats.last);
       currentChats.add(
         ChatModel(
@@ -178,34 +183,44 @@ class PracticeController extends GetxController {
         ),
       );
 
-      chatScrollController.animateTo(
-        chatScrollController.position.maxScrollExtent * 2,
-        duration: const Duration(milliseconds: 300),
-        curve: Curves.easeOut,
-      );
+      _scrollToBottom();
       isSpeaking.value = true;
       await tts.speakAndWait(response);
       isSpeaking.value = false;
     }
   }
 
-  addInitialMessage() {
+  void addInitialMessage() {
+    currentChats.clear();
     currentChats.add(
       ChatModel(
-        message: AppStrings.initialMessage,
+        message: currentScenarioModel!.intro,
         time: "time",
         isAI: true,
         chatType: ChatType.normalChatMesssage,
       ),
     );
-    chatScrollController.animateTo(
-      chatScrollController.position.maxScrollExtent + 20,
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeOut,
-    );
-    Future.delayed(const Duration(seconds: 2), () async {
+    _scrollToBottom();
+    Future.delayed(const Duration(seconds: 0), () async {
       isSpeaking.value = true;
-      await tts.speakAndWait(AppStrings.initialMessage);
+      await tts.speakAndWait(currentScenarioModel!.intro);
+      isSpeaking.value = false;
+    });
+  }
+
+  void addLastMessage() {
+    currentChats.add(
+      ChatModel(
+        message: AppStrings.outroMessage,
+        time: "time",
+        isAI: true,
+        chatType: ChatType.normalChatMesssage,
+      ),
+    );
+    _scrollToBottom();
+    Future.delayed(const Duration(seconds: 0), () async {
+      isSpeaking.value = true;
+      await tts.speakAndWait(AppStrings.outroMessage);
       isSpeaking.value = false;
     });
   }
@@ -241,18 +256,20 @@ class PracticeController extends GetxController {
     );
   }
 
-  void getMicrophonePermission(String title) async {
+  void getMicrophonePermission(ScenarioModel scenarioModel) async {
     final status = await Permission.microphone.status;
     if (status.isGranted) {
-      Get.to(ChatScreen(title: title));
+      Get.to(ChatScreen(scenarioModel: scenarioModel));
     } else if (status.isPermanentlyDenied) {
       Get.defaultDialog(
         titleStyle: const TextStyle(fontSize: 0),
         content: CustomDialogs.enableMicrophonePermissionFromSettings(),
       );
     } else {
-      await Permission.microphone.request();
-      getMicrophonePermission(title);
+      final  status = await Permission.microphone.request();
+      if(status.isGranted){
+        Get.to(ChatScreen(scenarioModel: scenarioModel));
+      }
     }
   }
 }

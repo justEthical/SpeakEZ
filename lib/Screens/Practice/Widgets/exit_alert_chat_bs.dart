@@ -4,7 +4,6 @@ import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
-import 'package:speak_ez/Screens/tab_bar_screen.dart';
 
 class ExitAlertChatBottomSheet extends StatelessWidget {
   const ExitAlertChatBottomSheet({super.key});

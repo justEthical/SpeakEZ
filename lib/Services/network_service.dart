@@ -7,7 +7,7 @@ import 'package:speak_ez/Constants/app_strings.dart';
 class NetworkService {
   static final dio = Dio();
   static final baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBcc-zdYdnImr7fk5PJJvYjizsSkScrOKs';
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyBcc-zdYdnImr7fk5PJJvYjizsSkScrOKs';
   static Future<String> getUserCountryFromIP() async {
     final response = await http.get(Uri.parse("https://ipwho.is/"));
     if (response.statusCode == 200) {
@@ -57,6 +57,10 @@ class NetworkService {
           ],
         },
       ],
+      "generationConfig": {
+        "temperature": 1.0,
+        "responseMimeType": "text/plain",
+      },
     };
   }
 }
