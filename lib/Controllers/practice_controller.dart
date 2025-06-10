@@ -138,12 +138,17 @@ class PracticeController extends GetxController {
   }
 
   void _scrollToBottom() {
-    chatScrollController.animateTo(
-      chatScrollController.position.maxScrollExtent * 2,
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeOut,
-    );
-  }
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    if (chatScrollController.hasClients) {
+      chatScrollController.animateTo(
+        chatScrollController.position.maxScrollExtent,
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeOut,
+      );
+    }
+  });
+}
+
 
   String removeBracketedWords(String text) {
     // Matches any word starting with [ or (, up to the next space, or closed bracket/parenthesis (greedy).
