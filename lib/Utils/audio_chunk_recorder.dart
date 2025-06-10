@@ -22,7 +22,16 @@ class AudioChunkRecorder {
     _shouldStop = false; // reset flag
     Get.find<PracticeController>().transcriptionText.value = "";
     Get.find<PracticeController>().isLastChunkTranscribed.value = false;
-    if (await _recorder.hasPermission()) {
+    try {
+      await _recorder.stop();
+     final hasPermission = await _recorder.hasPermission();
+      print(hasPermission);
+    } catch (e) {
+      print(e.toString());
+    }
+    final hasPermission = await _recorder.hasPermission();
+    print(hasPermission);
+    if (hasPermission) {
       while (!_shouldStop) {
         final path = '${dir.path}/${_fileIndex++}.wav';
         print('🎙️ Recording: $path');
@@ -65,7 +74,7 @@ class AudioChunkRecorder {
       await _recorder.stop();
     }
     final dir = await getApplicationDocumentsDirectory();
-    final lastRecordingChunkPath = '${dir.path}/${_fileIndex-1}.wav';
+    final lastRecordingChunkPath = '${dir.path}/${_fileIndex - 1}.wav';
     print("heerree");
     await transcribeWithPersistentIsolate(lastRecordingChunkPath);
     try {
@@ -82,7 +91,7 @@ class AudioChunkRecorder {
       final c = Get.find<PracticeController>();
       final ReceivePort responsePort = ReceivePort();
 
-      c.whisperSendPort?.send({
+      c.whisperSendPort.send({
         'file': filePath,
         'replyTo': responsePort.sendPort,
       });
