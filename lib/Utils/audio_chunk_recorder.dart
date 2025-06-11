@@ -24,7 +24,8 @@ class AudioChunkRecorder {
     Get.find<PracticeController>().isLastChunkTranscribed.value = false;
     try {
       await _recorder.stop();
-     final hasPermission = await _recorder.hasPermission();
+      print("Reached permission check"); // <-- add this
+      final hasPermission = await _recorder.hasPermission();
       print(hasPermission);
     } catch (e) {
       print(e.toString());
@@ -72,6 +73,7 @@ class AudioChunkRecorder {
     recording = false;
     if (await _recorder.isRecording()) {
       await _recorder.stop();
+      await _recorder.dispose();
     }
     final dir = await getApplicationDocumentsDirectory();
     final lastRecordingChunkPath = '${dir.path}/${_fileIndex - 1}.wav';
