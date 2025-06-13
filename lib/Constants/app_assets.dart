@@ -62,4 +62,10 @@ class AppAssets {
   static String get weather => _getFullImagePath("weather.svg");
   static String get talkingFood => _getFullImagePath("talking_food.svg");
   static String get natashaChat => _getFullImagePath("natasha_chat.png");
+
+  // Practice Result
+  static String get fluency => _getFullImagePath("fluency.svg");
+  static String get grammar => _getFullImagePath("grammer.svg");
+  static String get vocabulary => _getFullImagePath("vocabulary.svg");
+  static String get totalSpeakingTime => _getFullImagePath("total_speaking_time.svg");
 }

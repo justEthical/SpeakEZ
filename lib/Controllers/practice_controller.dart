@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:isolate';
 
 import 'package:flutter/material.dart';
@@ -8,6 +9,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/chat_model.dart';
+import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
@@ -22,13 +24,15 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
   var transcriptionText = "".obs;
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = 5;
+  var maxNumberOfAiResponsesPerSession = 1;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
   var remainingSeconds = 30.obs;
+  var totalSpeakingTime = 0;
   late AnimationController recordingAnimationcontroller;
   late AnimationController lottieAnimationcontroller;
+  EvaluationResult? resultModel;
   Timer? _timer;
   var currentChats = <ChatModel>[].obs;
   var isLastChunkTranscribed = false.obs;
@@ -77,6 +81,7 @@ class PracticeController extends GetxController {
         message: "🎙️ Recording...",
         time: "time",
         isAI: false,
+        messageDuration: 0,
         chatType: ChatType.normalChatMesssage,
       ),
     );
@@ -88,13 +93,13 @@ class PracticeController extends GetxController {
     _timer?.cancel();
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
-    remainingSeconds.value = 30;
 
     currentChats.add(
       ChatModel(
         message: "🎙️ Recording stopped",
         time: "time",
         isAI: false,
+        messageDuration: 0,
         chatType: ChatType.transcribing,
       ),
     );
@@ -111,44 +116,58 @@ class PracticeController extends GetxController {
             message: transcriptionText.value,
             time: "time",
             isAI: false,
+            messageDuration: 30 - remainingSeconds.value,
             chatType: ChatType.normalChatMesssage,
           ),
         );
         currentUserSessionMessage.value++;
+        currentChats.add(
+          ChatModel(
+            message: "getting AI response",
+            time: "time",
+            isAI: true,
+            messageDuration: 0,
+            chatType: ChatType.gettingAIResponse,
+          ),
+        );
         if (currentUserSessionMessage.value <
             maxNumberOfAiResponsesPerSession) {
-          currentChats.add(
-            ChatModel(
-              message: "getting AI response",
-              time: "time",
-              isAI: true,
-              chatType: ChatType.gettingAIResponse,
-            ),
-          );
           getAiResponse();
-          _scrollToBottom();
         } else {
-          
-          addLastMessage();
+          getConversationAiFeedbackResult();
         }
+        _scrollToBottom();
       }
+      remainingSeconds.value = 30;
       sub.cancel();
       isLastChunkTranscribed.value = false;
     });
   }
 
-  void _scrollToBottom() {
-  WidgetsBinding.instance.addPostFrameCallback((_) {
-    if (chatScrollController.hasClients) {
-      chatScrollController.animateTo(
-        chatScrollController.position.maxScrollExtent,
-        duration: const Duration(milliseconds: 300),
-        curve: Curves.easeOut,
-      );
+  getConversationAiFeedbackResult() async {
+    final pastConversation = getPastConversation();
+    final res = await NetworkService.getConversationAiFeedbackResult(
+      pastConversation,
+    );
+    if (res != null) {
+      resultModel = EvaluationResult.fromJson(jsonDecode(res));
+      print(res);
+      currentChats.remove(currentChats.last);
+      addLastMessage();
     }
-  });
-}
+  }
 
+  void _scrollToBottom() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (chatScrollController.hasClients) {
+        chatScrollController.animateTo(
+          chatScrollController.position.maxScrollExtent,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeOut,
+        );
+      }
+    });
+  }
 
   String removeBracketedWords(String text) {
     // Matches any word starting with [ or (, up to the next space, or closed bracket/parenthesis (greedy).
@@ -161,11 +180,18 @@ class PracticeController extends GetxController {
     return cleaned.replaceAll(RegExp(r'\s+'), ' ').trim();
   }
 
-  List<Map<String, String>> getPastConversation() {
-    List<Map<String, String>> pastConversation = [];
+  List<Map<String, dynamic>> getPastConversation() {
+    List<Map<String, dynamic>> pastConversation = [];
     for (var chat in currentChats) {
       if (chat.chatType == ChatType.normalChatMesssage) {
-        pastConversation.add({(chat.isAI ? "You" : "User"): chat.message});
+        if (chat.isAI) {
+          pastConversation.add({"AI": chat.message});
+        } else {
+          totalSpeakingTime += chat.messageDuration;
+          pastConversation.add({
+            "User": {"text": chat.message, "duration": chat.messageDuration},
+          });
+        }
       }
     }
     return pastConversation;
@@ -184,6 +210,7 @@ class PracticeController extends GetxController {
           message: response.trim(),
           time: "time",
           isAI: true,
+          messageDuration: 0,
           chatType: ChatType.normalChatMesssage,
         ),
       );
@@ -202,6 +229,7 @@ class PracticeController extends GetxController {
         message: currentScenarioModel!.intro,
         time: "time",
         isAI: true,
+        messageDuration: 0,
         chatType: ChatType.normalChatMesssage,
       ),
     );
@@ -219,6 +247,7 @@ class PracticeController extends GetxController {
         message: AppStrings.outroMessage,
         time: "time",
         isAI: true,
+        messageDuration: 0,
         chatType: ChatType.normalChatMesssage,
       ),
     );
@@ -271,8 +300,8 @@ class PracticeController extends GetxController {
         content: CustomDialogs.enableMicrophonePermissionFromSettings(),
       );
     } else {
-      final  status = await Permission.microphone.request();
-      if(status.isGranted){
+      final status = await Permission.microphone.request();
+      if (status.isGranted) {
         Get.to(ChatScreen(scenarioModel: scenarioModel));
       }
     }
