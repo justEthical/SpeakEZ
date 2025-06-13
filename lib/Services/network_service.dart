@@ -22,7 +22,7 @@ class NetworkService {
   static Future<String?> getAiReposne(
     String userPrompt, {
     required String topic,
-    required List<Map<String, String>> pastConversation,
+    required List<Map<String, dynamic>> pastConversation,
   }) async {
     final pastConversationSring = jsonEncode(
       pastConversation.reversed.toList(),
@@ -43,7 +43,25 @@ class NetworkService {
     return null;
   }
 
-  static Map getBody(String systemPrompt, String userPrompt) {
+  static Future<String?> getConversationAiFeedbackResult(
+    List<Map<String, dynamic>> pastConversation,
+  ) async {
+    try {
+      final text = jsonEncode(pastConversation);
+      final body = getBody(AppStrings.resultScreenSystemPrompt, text, responseMimeType: "application/json");
+      Response response = await dio.post(baseUrl, data: jsonEncode(body));
+      if (response.statusCode == 200) {
+        return response.data['candidates'][0]['content']['parts'][0]['text'];
+      }
+    } on DioException catch (e) {
+      print('Dio error: ${e.message}');
+    } catch (e) {
+      print('Other error: $e');
+    }
+    return null;
+  }
+
+  static Map getBody(String systemPrompt, String userPrompt, {String responseMimeType = "text/plain"}) {
     return {
       "system_instruction": {
         "parts": [
@@ -59,7 +77,7 @@ class NetworkService {
       ],
       "generationConfig": {
         "temperature": 1.0,
-        "responseMimeType": "text/plain",
+        "responseMimeType": responseMimeType,
       },
     };
   }

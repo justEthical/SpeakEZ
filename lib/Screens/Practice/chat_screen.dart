@@ -91,10 +91,10 @@ class _ChatScreenState extends State<ChatScreen> {
               SizedBox(height: 10),
               Obx(
                 () =>
-                    c.currentUserSessionMessage.value >= 5
+                    c.currentUserSessionMessage.value >= c.maxNumberOfAiResponsesPerSession
                         ? ElevatedButton(
                           onPressed: () {
-                            Get.off(PracticeResultSreen());
+                            Get.off(PracticeResultSreen(result: c.resultModel!,));
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.black,

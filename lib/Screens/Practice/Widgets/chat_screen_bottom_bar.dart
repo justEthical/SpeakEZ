@@ -51,7 +51,11 @@ class ChatScreenBottomBar extends StatelessWidget {
                     : Opacity(
                       opacity: c.isSpeaking.value || !c.isWhisperInitialized.value ? 0.4 : 1,
                       child: InkWell(
-                        onTap: () => c.startRecording(),
+                        onTap: () {
+                          if(!c.isSpeaking.value && c.isWhisperInitialized.value){
+                            c.startRecording();
+                          }
+                        } ,
                         child: Lottie.asset(
                           AppAssets.mic,
                           animate: !(c.isSpeaking.value || !c.isWhisperInitialized.value),
