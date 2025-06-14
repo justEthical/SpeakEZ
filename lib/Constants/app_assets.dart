@@ -68,4 +68,5 @@ class AppAssets {
   static String get grammar => _getFullImagePath("grammer.svg");
   static String get vocabulary => _getFullImagePath("vocabulary.svg");
   static String get totalSpeakingTime => _getFullImagePath("total_speaking_time.svg");
+  static String get tip => _getFullImagePath("tip.svg");
 }
