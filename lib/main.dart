@@ -36,16 +36,17 @@ class AppEntry extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.light, // 👈 auto switch based on OS
-      home: PracticeResultSreen(result: EvaluationResult(
-  score: 80,
-  fluency: FeedbackCategory(rating: 6, feedback: "feedback"),
-  grammar: FeedbackCategory(rating: 6, feedback: "feedback"),
-  vocabulary: FeedbackCategory(rating: 6, feedback: "feedback"),
-  pronunciation: FeedbackCategory(rating: 6, feedback: "feedback"),
-  motivation: "motivation",
-  suggestion: "suggestion",
-  correction: ["I'm good, how about you?", "I went to the market today."],
-)) //const Wrapper(),
+      home: const Wrapper()// PracticeResultSreen(result: EvaluationResult(
+  // score: 80,
+  // fluency: FeedbackCategory(rating: 6, feedback: "feedback"),
+  // grammar: FeedbackCategory(rating: 6, feedback: "feedback"),
+  // vocabulary: FeedbackCategory(rating: 6, feedback: "feedback"),
+  // pronunciation: FeedbackCategory(rating: 6, feedback: "feedback"),
+  // motivation: "motivation",
+  // suggestion: "suggestion",
+  // correction: ["I'm good, how about you?", "I went to the market today."],
+// )
+// ) ,
     );
   }
 }

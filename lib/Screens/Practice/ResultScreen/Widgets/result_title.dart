@@ -50,7 +50,7 @@ class _ResultTileState extends State<ResultTile> {
                         boxShadow: const [
                           BoxShadow(
                             offset: Offset(0, 5),
-                            color: Colors.black12,
+                            color: Colors.indigoAccent,
                             spreadRadius: 2,
                             blurRadius: 2,
                           ),
@@ -75,6 +75,7 @@ class _ResultTileState extends State<ResultTile> {
                               style: const TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w400,
+                                color: Colors.deepPurple
                               ),
                             ),
                         const SizedBox(height: 5),

@@ -1,11 +1,15 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:io';
 import 'dart:isolate';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:scroll_screenshot/scroll_screenshot.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/chat_model.dart';
@@ -305,5 +309,83 @@ class PracticeController extends GetxController {
         Get.to(ChatScreen(scenarioModel: scenarioModel));
       }
     }
+  }
+
+  String formatDuration(int totalSeconds) {
+    final minutes = (totalSeconds ~/ 60).toString().padLeft(2, '0');
+    final seconds = (totalSeconds % 60).toString().padLeft(2, '0');
+    return '$minutes:$seconds';
+  }
+
+  String formatDateToLongString(DateTime date) {
+    final weekdays = [
+      'Monday',
+      'Tuesday',
+      'Wednesday',
+      'Thursday',
+      'Friday',
+      'Saturday',
+      'Sunday',
+    ];
+    final months = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December',
+    ];
+
+    String getDaySuffix(int day) {
+      if (day >= 11 && day <= 13) return 'th';
+      switch (day % 10) {
+        case 1:
+          return 'st';
+        case 2:
+          return 'nd';
+        case 3:
+          return 'rd';
+        default:
+          return 'th';
+      }
+    }
+
+    final dayOfWeek = weekdays[date.weekday - 1];
+    final day = date.day;
+    final suffix = getDaySuffix(day);
+    final month = months[date.month - 1];
+    final year = date.year;
+
+    return '$dayOfWeek, $day$suffix $month $year';
+  }
+
+  Future<void> captureAndShare(globalKey) async {
+    String? base64String = await ScrollScreenshot.captureAndSaveScreenshot(
+      globalKey,
+    );
+    if (base64String == null) return;
+
+    // Remove possible data URL prefix
+    final base64Data = base64String.split(',').last;
+    final bytes = base64Decode(base64Data);
+
+    // Save image to temp directory
+    final tempDir = await getTemporaryDirectory();
+    final file = await File('${tempDir.path}/screenshot.png').create();
+    await file.writeAsBytes(bytes);
+
+    // Share image using share_plus
+    await SharePlus.instance.share(
+      ShareParams(
+        text: "Checkout my result on SpeakEZ AI",
+        files: [XFile(file.path)],
+      ),
+    );
   }
 }

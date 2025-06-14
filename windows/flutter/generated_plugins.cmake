@@ -9,6 +9,8 @@ list(APPEND FLUTTER_PLUGIN_LIST
   flutter_tts
   permission_handler_windows
   record_windows
+  scroll_screenshot
+  share_plus
   url_launcher_windows
 )
 
