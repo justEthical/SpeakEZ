@@ -78,7 +78,7 @@ class SettingScreens extends StatelessWidget {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
                           child: UrlImage(
-                            url: globalController.userProfile.value.imageUrl,
+                            url: globalController.userProfile.value.photoUrl ?? 'https://placekitten.com/640/360',
                           ),
                         ),
                       ),
@@ -88,7 +88,7 @@ class SettingScreens extends StatelessWidget {
                         children: [
                           // Spacer(),
                           Text(
-                            globalController.userProfile.value.name,
+                            globalController.userProfile.value.displayName,
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,

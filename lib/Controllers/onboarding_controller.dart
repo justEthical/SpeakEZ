@@ -1,16 +1,19 @@
 import 'dart:convert';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/country_languages.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
-import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
+import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/network_service.dart';
+import 'package:speak_ez/Utils/custom_loader.dart';
 
 class OnboardingController extends GetxController {
   final onboardingPageIndicator = PageController(initialPage: 0);
@@ -42,51 +45,80 @@ class OnboardingController extends GetxController {
       );
       Map<String, dynamic> userProfile = jsonDecode(userProfileData!);
       userProfile.addAll(onboardingQuestionAnswerMap);
+      globalController.userProfile.value = UserProfileModel.fromMap(
+        userProfile,
+      );
+      FirestoreHelper.saveCurrentUserProfile(
+        globalController.userProfile.value,
+      );
       globalController.prefs?.setString(
         AppStrings.userProfile,
         jsonEncode(userProfile),
       );
 
-      Get.offAll(() => const HomeScreen());
+      Get.offAll(() => const TabBarScreen());
     }
   }
 
-  void googleLogin() async {
+  Future<void> googleLogin() async {
     final userData = await AuthService.signInWithGoogle();
     if (userData?.user != null) {
-      var userProfile = {
-        "uid": userData?.user?.uid,
-        "name": userData?.user?.displayName,
-        "email": userData?.user?.email,
-        "imageUrl": userData?.user?.photoURL,
-      };
-      globalController.prefs?.setString(
-        AppStrings.userProfile,
-        jsonEncode(userProfile),
-      );
       print(userData!.additionalUserInfo!.isNewUser);
       if (userData.additionalUserInfo!.isNewUser) {
+        saveUserProfile(userData);
         Get.offAll(() => OnboarindQuestions());
       } else {
-        globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
-        Get.offAll(() => TabBarScreen());
+        final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
+        if (userProfile != null) {
+          globalController.userProfile.value = userProfile;
+          globalController.prefs?.setString(
+            AppStrings.userProfile,
+            jsonEncode(userProfile.toMap()),
+          );
+          globalController.prefs?.setString(
+            AppStrings.userAuthState,
+            "loggedIn",
+          );
+          Get.offAll(() => TabBarScreen());
+        }
       }
     }
   }
 
-  /*************  ✨ Windsurf Command ⭐  *************/
-  /// Adds a language based question in the onboardingQuestions list.
-  ///
-  /// This question asks the user which language they speak at home.
-  /// The options are based on the user's country.
-  /// *****  4e777342-ad44-4f6c-bfcd-ef372e6b7212  ******
+  Future<void> saveUserProfile(UserCredential userData) async {
+    CustomLoader.showLoader();
+    var userProfile = UserProfileModel(
+      uid: userData.user!.uid,
+      currentEnglishLevel: 'A1',
+      currentLessonProgress: 0,
+      currentStreak: 0,
+      wordLearned: 0,
+      displayName: userData.user!.displayName ?? 'User',
+      photoUrl: userData.user!.photoURL,
+      email: userData.user!.email!,
+      lastActive: DateTime.now(),
+      userType: onboardingQuestionAnswerMap['userType'] ?? '',
+      motivation: onboardingQuestionAnswerMap['motivation'] ?? '',
+      confidence: onboardingQuestionAnswerMap['confidence'] ?? '',
+      preferredPractice: onboardingQuestionAnswerMap['preferredPractice'] ?? '',
+      motherTongue: onboardingQuestionAnswerMap['motherTongue'] ?? '',
+    );
+    globalController.userProfile.value = userProfile;
+    globalController.prefs?.setString(
+      AppStrings.userProfile,
+      jsonEncode(userProfile.toMap()),
+    );
+    FirestoreHelper.saveCurrentUserProfile(globalController.userProfile.value);
+    CustomLoader.hideLoader();
+  }
+
   void addLanguageBasedQuestionInOnboarding() async {
     final countryCode = await NetworkService.getUserCountryFromIP();
     for (var country in countryLanguages) {
       if (country.countryCode == countryCode) {
         onboardingQuestions.add(
           OnboardingQuestion(
-            id: "MotherTongue",
+            id: "motherTongue",
             question: "Which language do you speak at home?",
             options: country.languages,
           ),
