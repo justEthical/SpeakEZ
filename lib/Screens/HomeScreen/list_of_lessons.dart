@@ -1,15 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Models/questions_model.dart';
 
-class ListOfLessons extends StatelessWidget {
+class ListOfLessons extends StatefulWidget {
   const ListOfLessons({super.key});
 
   @override
+  State<ListOfLessons> createState() => _ListOfLessonsState();
+}
+
+class _ListOfLessonsState extends State<ListOfLessons> {
+  final c = Get.find<HomeScreenController>();
+  @override
   Widget build(BuildContext context) {
-    final c = Get.find<HomeScreenController>();
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
@@ -41,8 +47,11 @@ class ListOfLessons extends StatelessWidget {
                   ...List.generate(
                     CEFRLevel.values.length,
                     (index) => InkWell(
-                      onTap: () {
-                        c.changeEnglishLevel(CEFRLevel.values[index].name);
+                      onTap: () async {
+                        // c.currentLessonNameList.value = await c
+                        //     .loadLessonsFromJson(CEFRLevel.values[index].name);
+                        // c.currenEnglishLessonLevel.value =
+                        //     CEFRLevel.values[index].name;
                       },
                       child: Container(
                         width: 70,
@@ -136,5 +145,16 @@ class ListOfLessons extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    Future.delayed(Duration.zero, () async {
+      c.currentLessonNameList.value = await c.loadLessonsFromJson(
+        globalController.userProfile.value.currentEnglishLevel,
+      );
+    });
   }
 }

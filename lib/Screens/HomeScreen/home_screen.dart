@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         title: Text(
-          "Hi, ${globalController.userProfile.value.name}!",
+          "Hi, ${globalController.userProfile.value.displayName}!",
           style: TextStyle(
             color: Colors.white,
             fontFamily: AppStrings.nunitoFont,
@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     title: "Current Streak",
                     icon: AppAssets.flame,
                     iconColor: Colors.deepOrange,
-                    progress: "7 days",
+                    progress: "${globalController.userProfile.value.currentStreak} days",
                   ),
                   SizedBox(width: 20),
                   SteakAndProgressCard(
@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         Spacer(),
-                        Text("32%"),
+                        Text("${0.25 * globalController.userProfile.value.currentLessonProgress}%"),
                       ],
                     ),
 
