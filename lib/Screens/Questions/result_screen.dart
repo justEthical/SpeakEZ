@@ -17,6 +17,7 @@ class ResultScreen extends StatelessWidget {
   /// percentage and a button at the end.
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
+    c.updateLesssonProgress();
     return Scaffold(
       body: SafeArea(
         child: Stack(

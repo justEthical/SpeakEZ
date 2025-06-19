@@ -12,6 +12,7 @@ class QuestionAndOptionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
+    
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -62,6 +63,16 @@ class QuestionAndOptionScreen extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
+                      question.type == QuestionType.listening
+                          ? IconButton(
+                            onPressed: () {
+                              c.ttsHelper.speakAndWait(
+                                question.options[question.answer],
+                              );
+                            },
+                            icon: Icon(Icons.volume_up, color: Colors.purple),
+                          )
+                          : SizedBox(),
                       Spacer(),
                       OptionsBuilderByType(
                         options: question.options,
@@ -69,6 +80,7 @@ class QuestionAndOptionScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 12),
                       ContinueButton(question: question),
+                      SizedBox(height: 15),
                     ],
                   );
                 },

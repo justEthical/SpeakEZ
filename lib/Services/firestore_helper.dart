@@ -18,6 +18,19 @@ class FirestoreHelper {
         .set(userProfile.toMap(), SetOptions(merge: true));
   }
 
+  static Future<void> updateUserField(String field, dynamic value) async {
+  final user = FirebaseAuth.instance.currentUser;
+  if (user == null) {
+    throw Exception('No user is currently signed in.');
+  }
+
+  await FirebaseFirestore.instance
+      .collection('users')
+      .doc(user.uid)
+      .update({field: value});
+}
+
+
   static Future<UserProfileModel?> fetchCurrentUserProfile() async {
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) {

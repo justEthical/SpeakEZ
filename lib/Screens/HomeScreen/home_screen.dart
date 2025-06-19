@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         Spacer(),
-                        Text("${0.25 * globalController.userProfile.value.currentLessonProgress}%"),
+                        Text("${ globalController.userProfile.value.currentEnglishLevelProgress/5 * 100}%"),
                       ],
                     ),
 

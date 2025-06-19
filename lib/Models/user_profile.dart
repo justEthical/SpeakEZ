@@ -1,7 +1,7 @@
 class UserProfileModel {
   String uid;
   final String currentEnglishLevel;
-  final int currentLessonProgress;
+  int currentEnglishLevelProgress;
   final int currentStreak;
   final int wordLearned;
   final String displayName;
@@ -19,7 +19,7 @@ class UserProfileModel {
   UserProfileModel({
     required this.uid,
     required this.currentEnglishLevel,
-    required this.currentLessonProgress,
+    required this.currentEnglishLevelProgress,
     required this.currentStreak,
     required this.wordLearned,
     required this.displayName,
@@ -38,7 +38,7 @@ class UserProfileModel {
     return UserProfileModel(
       uid: map['uid'] ?? '',
       currentEnglishLevel: map['current_english_level'] ?? '',
-      currentLessonProgress: map['current_lesson_progress'] ?? 0,
+      currentEnglishLevelProgress: map['current_english_level_progress'] ?? 0,
       currentStreak: map['current_streak'] ?? 0,
       wordLearned: map['word_learned'] ?? 0,
       displayName: map['display_name'] ?? '',
@@ -60,7 +60,7 @@ class UserProfileModel {
     return {
       'uid': uid,
       'current_english_level': currentEnglishLevel,
-      'current_lesson_progress': currentLessonProgress,
+      'current_english_level_progress': currentEnglishLevelProgress,
       'current_streak': currentStreak,
       'word_learned': wordLearned,
       'display_name': displayName,
