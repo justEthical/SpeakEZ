@@ -90,7 +90,7 @@ class OnboardingController extends GetxController {
     var userProfile = UserProfileModel(
       uid: userData.user!.uid,
       currentEnglishLevel: 'A1',
-      currentLessonProgress: 0,
+      currentEnglishLevelProgress: 0,
       currentStreak: 0,
       wordLearned: 0,
       displayName: userData.user!.displayName ?? 'User',

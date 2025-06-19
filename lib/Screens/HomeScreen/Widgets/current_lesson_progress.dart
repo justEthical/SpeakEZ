@@ -23,8 +23,8 @@ class CurrentLessonProgress extends StatelessWidget {
             duration: Duration(milliseconds: 300),
             width:
                 (Get.width - 54) /
-                25 *
-                (globalController.userProfile.value.currentLessonProgress + 1),
+                5 *
+                (globalController.userProfile.value.currentEnglishLevelProgress),
 
             height: 10,
             decoration: BoxDecoration(

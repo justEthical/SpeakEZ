@@ -1,0 +1,188 @@
+{
+  "id": "lesson_greetingsintros_001",
+  "lesson_name": "Greetings & Introductions",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "questions": [
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "What do you say when you meet someone for the first time?",
+          "options": ["Goodbye!", "Nice to meet you!", "See you soon!"],
+          "answer": 1
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "___ to meet you!",
+          "options": ["Nice", "Glad", "Fine"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Read this sentence aloud: 'Nice to meet you!'",
+          "options": [],
+          "answer": "Nice to meet you!"
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "You say 'Good night' to greet someone in the morning.",
+          "options": ["True", "False"],
+          "answer": 1
+        },
+        {
+          "type": "sentenceRearranging",
+          "question": "Arrange the options to form a correct greeting.",
+          "options": ["Hello", "there"],
+          "answer": ["Hello", "there"]
+        },
+        {
+          "type": "speaking",
+          "question": "Read this sentence aloud: 'Hello there!'",
+          "options": [],
+          "answer": "Hello there!"
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which is a formal way to introduce yourself?",
+          "options": [
+            "Hey, I'm John.",
+            "Yo! John here.",
+            "Hello, my name is John."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "My name ___ John.",
+          "options": ["is", "are", "am"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Introduce yourself using this template: 'Hello, my name is [Your Name].'",
+          "options": [],
+          "answer": "Hello, my name is [Your Name]."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "It is polite to shake hands when meeting someone new.",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "synonymsMatching",
+          "question": "Match the word 'Hello' with a similar greeting.",
+          "options": ["Goodbye", "Hi", "Thanks"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Hi! How are you?'",
+          "options": [],
+          "answer": "Hi! How are you?"
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which is NOT a greeting?",
+          "options": ["See you soon.", "Good afternoon.", "Good evening."],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "___ evening! How are you?",
+          "options": ["Good", "Nice", "Hello"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Read this aloud: 'Good afternoon! It's nice to meet you.'",
+          "options": [],
+          "answer": "Good afternoon! It's nice to meet you."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "sentenceRearranging",
+          "question": "Arrange the options to introduce yourself.",
+          "options": ["am", "I", "Alice"],
+          "answer": ["I", "am", "Alice"]
+        },
+        {
+          "type": "trueFalse",
+          "question": "When someone says 'How are you?', you can reply 'I'm fine, thank you.'",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I'm fine, thank you. And you?'",
+          "options": [],
+          "answer": "I'm fine, thank you. And you?"
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "What do you say when leaving?",
+          "options": ["Good morning!", "Goodbye!", "Nice to meet you!"],
+          "answer": 1
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "___ bye! See you tomorrow.",
+          "options": ["Good", "Goodbye", "Nice"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Goodbye! See you soon!'",
+          "options": [],
+          "answer": "Goodbye! See you soon!"
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "synonymsMatching",
+          "question": "Match the word 'Goodbye' with a similar expression.",
+          "options": ["See you!", "Hi!", "Thank you!"],
+          "answer": 0
+        },
+        {
+          "type": "sentenceRearranging",
+          "question": "Arrange the options to make a polite greeting.",
+          "options": ["to", "Nice", "meet", "you"],
+          "answer": ["Nice", "to", "meet", "you"]
+        },
+        {
+          "type": "speaking",
+          "question": "Read this: 'See you later!'",
+          "options": [],
+          "answer": "See you later!"
+        }
+      ]
+    }
+  ]
+}

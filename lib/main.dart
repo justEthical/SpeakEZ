@@ -4,11 +4,9 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
-import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
-import 'package:speak_ez/Screens/Practice/ResultScreen/practice_result_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Utils/theme.dart';
 

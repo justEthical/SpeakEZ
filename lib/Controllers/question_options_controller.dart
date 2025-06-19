@@ -3,9 +3,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Questions/Widgets/exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Questions/result_screen.dart';
 import 'package:speak_ez/Screens/Questions/Widgets/answer_result_bottom_sheet.dart';
+import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 
 import '../Models/questions_model.dart';
 
@@ -13,9 +17,18 @@ class QuestionOptionsController extends GetxController {
   var currentQuestionIndex = 0.obs;
   final questionPageController = PageController();
   var currentSelectedOptionIndex = 100.obs;
-  var questionDifficultyLevel = 2.obs;
+  var questionDifficultyLevel = 0.obs;
   var sentenceRearrangeTempList = <String>[].obs;
   var sentenceRearrangeOptionList = <String>[].obs;
+  final ttsHelper = TextToSpeechService();
+
+  var lessonList = [
+    "assets/questions/A1/Greetings & Introductions.json",
+    "assets/questions/A1/Talking About Yourself.json",
+    "assets/questions/A1/Family Members.json",
+    "assets/questions/A1/Numbers and Counting.json",
+    "assets/questions/A1/Days of the Week.json",
+  ];
 
   var isContinueButtonEnabled = false.obs;
   var isMicOn = false.obs;
@@ -32,10 +45,24 @@ class QuestionOptionsController extends GetxController {
 
   Future<void> setCurrentLesson() async {
     final data = await rootBundle.loadString(
-      "assets/questions/A1/simple_conversation.json",
+      lessonList[globalController.userProfile.value.currentEnglishLevelProgress],
     );
     final jsonString = jsonDecode(data.toString());
     currentLesson.value = Lesson.fromJson(jsonString);
+  }
+
+  updateLesssonProgress() {
+    globalController.userProfile.value.currentEnglishLevelProgress++;
+
+    globalController.prefs?.setString(
+      AppStrings.userProfile,
+      jsonEncode(globalController.userProfile.value.toMap()),
+    );
+
+    FirestoreHelper.updateUserField(
+      "current_lesson_progress",
+      globalController.userProfile.value.currentEnglishLevelProgress,
+    );
   }
 
   String getResultScreenText(double accuracy) {
