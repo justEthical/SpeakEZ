@@ -21,6 +21,7 @@ class QuestionOptionsController extends GetxController {
   var sentenceRearrangeTempList = <String>[].obs;
   var sentenceRearrangeOptionList = <String>[].obs;
   final ttsHelper = TextToSpeechService();
+  var correctAnswer = 0.obs;
 
   var lessonList = [
     "assets/questions/A1/Greetings & Introductions.json",
