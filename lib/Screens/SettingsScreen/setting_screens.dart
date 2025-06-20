@@ -86,7 +86,6 @@ class SettingScreens extends StatelessWidget {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          // Spacer(),
                           Text(
                             globalController.userProfile.value.displayName,
                             style: TextStyle(
@@ -165,7 +164,7 @@ class SettingScreens extends StatelessWidget {
                 ),
                 SettingsOptionTile(
                   onTap: () async {
-                    // Get.dialog(const DeleteAccountDialog());
+                    Get.dialog( CustomDialogs.deleteConfirmationDialog());
                   },
                   icon: AppAssets.deleteIcon,
                   heading: 'Delete Account',
