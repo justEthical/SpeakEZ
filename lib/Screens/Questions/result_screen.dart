@@ -17,6 +17,8 @@ class ResultScreen extends StatelessWidget {
   /// percentage and a button at the end.
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
+    final accuracy =
+        (c.correctAnswer.value / c.currentLesson.value.questions.length) * 100;
     c.updateLesssonProgress();
     return Scaffold(
       body: SafeArea(
@@ -54,7 +56,7 @@ class ResultScreen extends StatelessWidget {
                       SizedBox(
                         width: Get.width - 30,
                         child: Text(
-                          c.getResultScreenText(96.6),
+                          c.getResultScreenText(accuracy),
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: Colors.black,
@@ -90,7 +92,7 @@ class ResultScreen extends StatelessWidget {
                             Spacer(),
 
                             Text(
-                              "96.4%",
+                              "$accuracy%",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,

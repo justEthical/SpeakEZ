@@ -31,6 +31,7 @@ class ContinueButton extends StatelessWidget {
                           question.answer,
                         );
                         if (isAnswerCorrect) {
+                          c.correctAnswer++;
                           FlameAudio.play(AppAssets.correct);
                         } else {
                           FlameAudio.play(AppAssets.incorrect);
@@ -45,6 +46,7 @@ class ContinueButton extends StatelessWidget {
                             c.currentSelectedOptionIndex.value ==
                             question.answer;
                         if (isAnswerCorrect) {
+                          c.correctAnswer++;
                           FlameAudio.play(AppAssets.correct);
                         } else {
                           FlameAudio.play(AppAssets.incorrect);

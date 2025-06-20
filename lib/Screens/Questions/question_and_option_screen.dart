@@ -46,6 +46,7 @@ class QuestionAndOptionScreen extends StatelessWidget {
             const SizedBox(height: 20),
             Expanded(
               child: PageView.builder(
+                physics : NeverScrollableScrollPhysics(),
                 controller: c.questionPageController,
                 itemBuilder: (ctx, i) {
                   Question question =
