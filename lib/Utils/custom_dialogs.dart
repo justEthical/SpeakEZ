@@ -70,7 +70,7 @@ class CustomDialogs {
     return Dialog(
       insetPadding: const EdgeInsets.all(20),
       child: Container(
-        padding: const EdgeInsets.all(20),
+        // padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(10),
@@ -80,14 +80,20 @@ class CustomDialogs {
             const Text(
               'Please enable microphone permission from settings.',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 15),
             ElevatedButton(
               onPressed: () {
                 globalController.openAppSetting();
               },
-              child: Text("Open Settings"),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.deepPurple, 
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: Text("Open Settings", style: TextStyle(color: Colors.white)),
             ),
           ],
         ),
