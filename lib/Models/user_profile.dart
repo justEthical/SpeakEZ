@@ -2,13 +2,13 @@ class UserProfileModel {
   String uid;
   final String currentEnglishLevel;
   int currentEnglishLevelProgress;
-  final int currentStreak;
+  int currentStreak;
   final int wordLearned;
   final String displayName;
 
   final String? photoUrl;
   final String email;
-  final DateTime lastActive;
+  DateTime lastActive;
 
   String userType;
   String motivation;
