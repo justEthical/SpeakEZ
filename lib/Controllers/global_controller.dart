@@ -63,7 +63,15 @@ class GlobalController extends GetxController {
     }
   }
 
-
+  void showSnackbarWithGetX(String title, String message) {
+    Get.snackbar(
+      title,
+      message,
+      backgroundColor: Colors.black,
+      colorText: Colors.white,
+      snackPosition: SnackPosition.BOTTOM,
+    );
+  }
 }
 
 GlobalController globalController = GlobalController.instance;
