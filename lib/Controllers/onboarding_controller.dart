@@ -22,13 +22,39 @@ class OnboardingController extends GetxController {
   var currentOnboardingIndex = 0.obs;
   var onboardingQuestionAnswerMap = <String, String>{}.obs;
 
-  /// Call when an option is selected in OnboardingQuestions screen.
-  ///
-  /// If the selected option is not the last question, then navigate to the
-  /// next question. Store the selected option in the global controller.
-  ///
-  /// If the selected option is the last question, then set the user profile
-  /// in the shared preferences and navigate to the HomeScreen.
+  var isloginForm = true.obs;
+  final nameController = TextEditingController();
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
+  final loginFormKey = GlobalKey<FormState>();
+
+  bool isValidPassword(String password) {
+    final passwordRegex = RegExp(
+      r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$',
+    );
+    return passwordRegex.hasMatch(password);
+  }
+
+  bool isValidEmail(String email) {
+    // Step 1: Check proper email format
+    final emailRegex = RegExp(r'^[\w\.-]+@[\w\.-]+\.\w+$');
+    if (!emailRegex.hasMatch(email)) return false;
+
+    // Step 2: Allow only popular domains
+    final allowedDomains = [
+      'gmail.com',
+      'outlook.com',
+      'live.com',
+      'yahoo.com',
+      'icloud.com',
+      'hotmail.com',
+      'protonmail.com',
+    ];
+
+    final domain = email.split('@').last.toLowerCase();
+    return allowedDomains.contains(domain);
+  }
+
   void optionSelected(OnboardingQuestion model, String label) {
     if (onboardingQuestionsController.page! < onboardingQuestions.length - 1) {
       onboardingQuestionsController.nextPage(
@@ -60,6 +86,40 @@ class OnboardingController extends GetxController {
     }
   }
 
+  Future<void> emailLogin(String email, String password) async {
+    // CustomLoader.showLoader();
+    final userData = await AuthService.loginWithEmail(email, password);
+    if (userData?.user != null) {
+      final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
+      if (userProfile != null) {
+        globalController.userProfile.value = userProfile;
+        globalController.prefs?.setString(
+          AppStrings.userProfile,
+          jsonEncode(userProfile.toMap()),
+        );
+        globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
+        Get.offAll(() => TabBarScreen());
+      }
+    }else{
+
+    }
+    // CustomLoader.hideLoader();
+  }
+
+  Future<void> emailSignUp(
+    String email,
+    String password,
+    String userName,
+  ) async {
+    CustomLoader.showLoader();
+    final userData = await AuthService.signUpWithEmail(email, password);
+    if (userData?.user != null) {
+      saveUserProfile(userData!, userName: userName);
+      Get.offAll(() => OnboarindQuestions());
+    }
+    CustomLoader.hideLoader();
+  }
+
   Future<void> googleLogin() async {
     final userData = await AuthService.signInWithGoogle();
     if (userData?.user != null) {
@@ -85,7 +145,10 @@ class OnboardingController extends GetxController {
     }
   }
 
-  Future<void> saveUserProfile(UserCredential userData) async {
+  Future<void> saveUserProfile(
+    UserCredential userData, {
+    String userName = '',
+  }) async {
     CustomLoader.showLoader();
     var userProfile = UserProfileModel(
       uid: userData.user!.uid,
@@ -93,7 +156,7 @@ class OnboardingController extends GetxController {
       currentEnglishLevelProgress: 0,
       currentStreak: 0,
       wordLearned: 0,
-      displayName: userData.user!.displayName ?? 'User',
+      displayName: userData.user!.displayName ?? userName,
       photoUrl: userData.user!.photoURL,
       email: userData.user!.email!,
       lastActive: DateTime.now(),
