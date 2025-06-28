@@ -27,10 +27,11 @@ class CustomDialogs {
             Row(
               children: [
                 ElevatedButton(
-                  onPressed: () {
+                  onPressed: () async{
                     AuthService.signOutGoogle();
+                    await globalController.prefs?.clear();
                     globalController.prefs?.setString(
-                      AppStrings.userProfile,
+                      AppStrings.userAuthState,
                       "loggedOut",
                     );
                     Get.offAll(() => const LoginScreen());
