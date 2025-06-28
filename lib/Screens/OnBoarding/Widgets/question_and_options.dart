@@ -34,6 +34,7 @@ class QuestionAndOptions extends StatelessWidget {
             itemCount: onboardingQuestions.length,
             scrollDirection: Axis.horizontal,
             controller: c.onboardingQuestionsController,
+            physics: const NeverScrollableScrollPhysics(),
             itemBuilder: (ctx, i) {
               return Column(
                 mainAxisSize: MainAxisSize.min,
@@ -41,12 +42,12 @@ class QuestionAndOptions extends StatelessWidget {
                 children: [
                   Text(
                     'Question ${i + 1} of ${onboardingQuestions.length}',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
-                  const SizedBox(height: 18),
+                  const SizedBox(height: 15),
                   Text(
                     onboardingQuestions[i].question,
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 30),
                   Expanded(

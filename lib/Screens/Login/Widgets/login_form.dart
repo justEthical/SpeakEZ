@@ -13,46 +13,42 @@ class LoginForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Form(
-        key: c.loginFormKey,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            CustomTextField(
-              textCtrl: c.emailController,
-              hintText: "Enter Email...",
-              leadingIcon: AppAssets.atIcon,
-              title: "Email",
-              isPassword: false,
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            CustomTextField(
-              textCtrl: c.passwordController,
-              hintText: "Enter password...",
-              leadingIcon: AppAssets.lockIcon,
-              title: "Password",
-              isPassword: true,
-            ),
-            const SizedBox(
-              height: 40,
-            ),
-            SubmitButton(
-              onTap: () async {
-                if (c.loginFormKey.currentState!.validate()) {
-                  c.emailLogin(c.emailController.text.trim(), c.passwordController.text.trim());
-                }
-              },
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            const OrSeparator(),
-            const SizedBox(
-              height: 20,
-            ),
-            const GoogleLoginButton()
-          ],
-        ));
+      key: c.loginFormKey,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          CustomTextField(
+            textCtrl: c.emailController,
+            hintText: "Enter Email...",
+            leadingIcon: AppAssets.atIcon,
+            title: "Email",
+            isPassword: false,
+          ),
+          const SizedBox(height: 20),
+          CustomTextField(
+            textCtrl: c.passwordController,
+            hintText: "Enter password...",
+            leadingIcon: AppAssets.lockIcon,
+            title: "Password",
+            isPassword: true,
+          ),
+          const SizedBox(height: 40),
+          SubmitButton(
+            onTap: () async {
+              if (c.loginFormKey.currentState!.validate()) {
+                c.emailLogin(
+                  c.emailController.text.trim(),
+                  c.passwordController.text.trim(),
+                );
+              }
+            },
+          ),
+          const SizedBox(height: 20),
+          const OrSeparator(),
+          const SizedBox(height: 20),
+          const GoogleLoginButton(),
+        ],
+      ),
+    );
   }
 }

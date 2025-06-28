@@ -21,7 +21,7 @@ class OnboardingController extends GetxController {
   var currentOnboardingQuestionIndex = 0.obs;
   var currentOnboardingIndex = 0.obs;
   var onboardingQuestionAnswerMap = <String, String>{}.obs;
-  var switchButtonText  = "Login".obs;
+  var switchButtonText = "Login".obs;
 
   var isloginForm = true.obs;
   final nameController = TextEditingController();
@@ -80,6 +80,7 @@ class OnboardingController extends GetxController {
       FirestoreHelper.saveCurrentUserProfile(
         globalController.userProfile.value,
       );
+      globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
       globalController.prefs?.setString(
         AppStrings.userProfile,
         jsonEncode(userProfile),
@@ -90,7 +91,7 @@ class OnboardingController extends GetxController {
   }
 
   Future<void> emailLogin(String email, String password) async {
-    // CustomLoader.showLoader();
+    CustomLoader.showLoader();
     final userData = await AuthService.loginWithEmail(email, password);
     if (userData?.user != null) {
       final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
@@ -100,13 +101,19 @@ class OnboardingController extends GetxController {
           AppStrings.userProfile,
           jsonEncode(userProfile.toMap()),
         );
-        globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
+        globalController.prefs?.setString(
+          AppStrings.userAuthState,
+          "onboardingQuestions",
+        );
+        if (globalController.userProfile.value.motherTongue == "") {
+          Get.offAll(() => OnboarindQuestions());
+        } else {
+          Get.offAll(() => TabBarScreen());
+        }
         Get.offAll(() => TabBarScreen());
       }
-    }else{
-
-    }
-    // CustomLoader.hideLoader();
+    } else {}
+    CustomLoader.hideLoader();
   }
 
   Future<void> emailSignUp(
@@ -124,6 +131,7 @@ class OnboardingController extends GetxController {
   }
 
   Future<void> googleLogin() async {
+    CustomLoader.showLoader();
     final userData = await AuthService.signInWithGoogle();
     if (userData?.user != null) {
       print(userData!.additionalUserInfo!.isNewUser);
@@ -140,12 +148,17 @@ class OnboardingController extends GetxController {
           );
           globalController.prefs?.setString(
             AppStrings.userAuthState,
-            "loggedIn",
+            "onboardingQuestions",
           );
-          Get.offAll(() => TabBarScreen());
+          if (globalController.userProfile.value.motherTongue == "") {
+            Get.offAll(() => OnboarindQuestions());
+          } else {
+            Get.offAll(() => TabBarScreen());
+          }
         }
       }
     }
+    CustomLoader.hideLoader();
   }
 
   Future<void> saveUserProfile(

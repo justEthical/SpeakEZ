@@ -29,7 +29,7 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
         backgroundColor: Colors.deepPurple,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: Colors.purple),
+          icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () {
             if (c.onboardingQuestionsController.page != 0) {
               c.onboardingQuestionsController.previousPage(
@@ -64,9 +64,9 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
               'Help us personalize your experience',
               style: TextStyle(fontSize: 18, color: Colors.grey),
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 20),
             QuestionProgressBar(),
-            const SizedBox(height: 30),
+            const SizedBox(height: 20),
             QuestionAndOptions(),
           ],
         ),

@@ -19,7 +19,7 @@ class OptionsBuilder extends StatelessWidget {
         child: Container(
           width: Get.width,
           margin: const EdgeInsets.only(bottom: 10),
-          padding: const EdgeInsets.symmetric(vertical: 20),
+          padding: const EdgeInsets.symmetric(vertical: 15),
           decoration: BoxDecoration(
             color:
                 c.onboardingQuestionAnswerMap[model.id] == label
