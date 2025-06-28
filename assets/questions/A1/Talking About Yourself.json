@@ -1,0 +1,184 @@
+{
+  "id": "lesson_talkingaboutyourself_002",
+  "lesson_name": "Talking About Yourself",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "questions": [
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which word means 'the country you live in'?",
+          "options": ["city", "name", "country"],
+          "answer": 2
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "I live in ___.",
+          "options": ["banana", "India", "green"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I live in [Your City].'",
+          "options": [],
+          "answer": "I live in [Your City]."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "You say 'I am a student' to tell what you do.",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "I am a ___ at college.",
+          "options": ["student", "dog", "country"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I am a student.'",
+          "options": [],
+          "answer": "I am a student."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which one is a hobby?",
+          "options": ["reading", "walking", "both"],
+          "answer": 2
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "My hobby is ___.",
+          "options": ["apple", "reading", "color"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'My hobby is reading books.'",
+          "options": [],
+          "answer": "My hobby is reading books."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "sentenceRearranging",
+          "question": "Rearrange to form a sentence.",
+          "options": ["I", "live", "in", "Delhi"],
+          "answer": ["I", "live", "in", "Delhi"]
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "I ___ from India.",
+          "options": ["am", "is", "are"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I am from India.'",
+          "options": [],
+          "answer": "I am from India."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "You say 'My name is Raj' to talk about your name.",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "sentenceRearranging",
+          "question": "Rearrange: ['My', 'name', 'Raj', 'is']",
+          "options": ["My", "name", "Raj", "is"],
+          "answer": ["My", "name", "is", "Raj"]
+        },
+        {
+          "type": "listening",
+          "question": "What did the speaker say?",
+          "options": ["My name is Raj.", "I am Raj.", "You are Raj."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which is a correct sentence?",
+          "options": ["I like reading.", "I reading like.", "Like I reading."],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "I ___ English.",
+          "options": ["likes", "like", "liking"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I like English.'",
+          "options": [],
+          "answer": "I like English."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "listening",
+          "question": "What did the speaker say?",
+          "options": ["I like music.", "I like movies.", "I like dancing."],
+          "answer": 1
+        },
+        {
+          "type": "listening",
+          "question": "What did the speaker say?",
+          "options": ["I have two brothers.", "I have one sister.", "I have one brother."],
+          "answer": 2
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I have one brother.'",
+          "options": [],
+          "answer": "I have one brother."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is correct?",
+          "options": ["I am happy.", "Am I happy.", "Happy am I."],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "I am ___ today.",
+          "options": ["happy", "blue", "name"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I am happy today.'",
+          "options": [],
+          "answer": "I am happy today."
+        }
+      ]
+    }
+  ]
+}

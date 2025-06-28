@@ -5,11 +5,13 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
+import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/steak_and_progress_card.dart';
-import 'package:speak_ez/Screens/Questions/listening_screen.dart';
+import 'package:speak_ez/Screens/Questions/question_and_option_screen.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
+import 'package:speak_ez/Utils/custom_loader.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
 
@@ -36,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         title: Text(
-          "Hi, ${globalController.userProfile.value.name}!",
+          "Hi, ${globalController.userProfile.value.displayName}!",
           style: TextStyle(
             color: Colors.white,
             fontFamily: AppStrings.nunitoFont,
@@ -81,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     title: "Current Streak",
                     icon: AppAssets.flame,
                     iconColor: Colors.deepOrange,
-                    progress: "7 days",
+                    progress: "${globalController.userProfile.value.currentStreak} days",
                   ),
                   SizedBox(width: 20),
                   SteakAndProgressCard(
@@ -134,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         Spacer(),
-                        Text("32%"),
+                        Text("${ globalController.userProfile.value.currentEnglishLevelProgress/5 * 100}%"),
                       ],
                     ),
 
@@ -142,8 +144,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     CurrentLessonProgress(),
                     SizedBox(height: 15),
                     ElevatedButton(
-                      onPressed: () {
-                        Get.to(ListeningScreen());
+                      onPressed: () async {
+                        final c = Get.put(QuestionOptionsController());
+                        CustomLoader.showLoader();
+                        await c.setCurrentLesson();
+                        CustomLoader.hideLoader();
+                        Get.to(QuestionAndOptionScreen());
                       },
                       style: ElevatedButton.styleFrom(
                         fixedSize: Size(Get.width, 50),

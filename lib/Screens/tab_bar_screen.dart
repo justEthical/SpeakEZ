@@ -1,10 +1,9 @@
-import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Screens/recording_screen.dart';
-import 'package:speak_ez/Utils/audio_recorder_helper.dart';
+import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
   const TabBarScreen({super.key});
@@ -15,58 +14,49 @@ class TabBarScreen extends StatefulWidget {
 
 class _TabBarScreenState extends State<TabBarScreen> {
   final c = Get.put(GlobalController());
-  var isRecording = false.obs;
-  List<int> _audioBuffer = [];
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Future.delayed(Duration.zero, () async {
+      if (!await WhisperHelper.isModelAvailable()) {
+        WhisperHelper.runSilentDownload();
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView(
         controller: globalController.cutomTabBarController,
-        children: [RecordingScreen(), Container(color: Colors.green)],
+        physics: NeverScrollableScrollPhysics(),
+        children: [HomeScreen(), PracticeSpeaking()],
       ),
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: <Widget>[
-            IconButton(
-              icon: const Icon(Icons.home),
-              tooltip: 'Home',
-              onPressed: () {},
+      bottomNavigationBar: Obx(
+        () => BottomNavigationBar(
+          onTap: (value) {
+            globalController.currentTabIndex.value = value;
+            globalController.cutomTabBarController.animateToPage(
+              value,
+              duration: Duration(milliseconds: 300),
+              curve: Curves.easeIn,
+            );
+          },
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.workspace_premium_outlined),
+              label: "Progress",
             ),
-            IconButton(
-              icon: const Icon(Icons.search),
-              tooltip: 'Search',
-              onPressed: () {},
+            BottomNavigationBarItem(
+              icon: Icon(Icons.chat_bubble_outline),
+              label: "Practice",
             ),
           ],
+          currentIndex: globalController.currentTabIndex.value,
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          
-          if (!isRecording.value) {
-            _audioBuffer.clear();
-            var audioBufferStream = await startRecordingAndGetStream();
-            isRecording.value = true;
-            audioBufferStream.listen((event) {
-              _audioBuffer.addAll(event);
-              print("Here");
-            });
-          } else {
-            print(_audioBuffer.length);
-            await stopRecording();
-            globalController.transcribeLiveAudio(
-              Uint8List.fromList(_audioBuffer),
-            );
-            isRecording.value = false;
-          }
-        },
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-        backgroundColor: Colors.blueAccent,
-        child: const Icon(Icons.mic, color: Colors.white),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
