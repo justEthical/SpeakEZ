@@ -77,21 +77,7 @@ class SettingScreens extends StatelessWidget {
                         ),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(100),
-                          child: UrlImage(
-                            url:
-                                globalController.userProfile.value.photoUrl ==
-                                            '' ||
-                                        globalController
-                                                .userProfile
-                                                .value
-                                                .photoUrl ==
-                                            null
-                                    ? 'https://avatar.iran.liara.run/public'
-                                    : globalController
-                                        .userProfile
-                                        .value
-                                        .photoUrl!,
-                          ),
+                          child: UrlImage(url: _getImageUrl()),
                         ),
                       ),
                       SizedBox(width: 20),
@@ -199,5 +185,14 @@ class SettingScreens extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  String _getImageUrl() {
+    if (globalController.userProfile.value.photoUrl == '' ||
+        globalController.userProfile.value.photoUrl == null) {
+      return 'https://avatar.iran.liara.run/public';
+    } else {
+      return globalController.userProfile.value.photoUrl!;
+    }
   }
 }

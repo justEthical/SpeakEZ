@@ -12,13 +12,15 @@ class CustomLoader {
     Get.dialog(
       PopScope(
         canPop: false,
-        child: SizedBox(
-          height: 50,
-          width: 50,
-          child: Lottie.asset(
-            AppAssets.loader,
-            repeat: true,
-            decoder: globalController.customDecoder,
+        child: Center(
+          child: SizedBox(
+            height: 150,
+            width: 150,
+            child: Lottie.asset(
+              AppAssets.loader,
+              repeat: true,
+              decoder: globalController.customDecoder,
+            ),
           ),
         ),
       ),
