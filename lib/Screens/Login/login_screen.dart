@@ -1,116 +1,63 @@
+import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Constants/app_strings.dart';
-import 'package:speak_ez/Controllers/onboarding_controller.dart';
-import 'package:speak_ez/Screens/Login/Widgets/login_button.dart';
-import 'package:speak_ez/Screens/Login/Widgets/terms_and_privacy.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:speak_ez/Screens/Login/Widgets/top_text.dart';
 
-import 'Widgets/signup_login_form.dart';
+import 'Widgets/login_form.dart';
+import 'Widgets/login_signup_switcher.dart';
+import 'Widgets/signup_form.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class LoginSignUp extends StatefulWidget {
+  const LoginSignUp({super.key});
 
+  @override
+  State<LoginSignUp> createState() => _LoginSignUpState();
+}
+
+class _LoginSignUpState extends State<LoginSignUp> {
+  final c = Get.find<OnboardingController>();
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _setFirstInstallFalse();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: true,
-      body: Container(
-        width: Get.width,
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
-            colors: [Colors.deepPurpleAccent, Colors.deepPurple],
+      backgroundColor: Colors.white,
+      body: SafeArea(
+          child: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            // mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Obx(() => c.isloginForm.value
+                  ? const TopText(
+                      heading: "Welcome Back",
+                      subHeading: "Glad to see you again")
+                  : const TopText(
+                      heading: "Let's Start",
+                      subHeading: "Create your account in simple steps",
+                    )),
+              const SizedBox(
+                height: 20,
+              ),
+              const LoginSignUpSwitch(),
+              SizedBox(height: Get.height * 0.05,),
+              Obx(() => c.isloginForm.value? LoginForm() : SignUpForm())
+            ],
           ),
         ),
-        child: Column(
-          children: [
-            Spacer(),
-            Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
-                boxShadow: [
-                  BoxShadow(
-                    color: const Color(0x33000000),
-                    spreadRadius: 5,
-                    blurRadius: 7,
-                    offset: const Offset(0, 5),
-                  ),
-                ],
-              ),
-              width: 100,
-              height: 100,
-              child: Image.asset(AppAssets.logo),
-            ),
-            SizedBox(height: 20),
-            Text(
-              "SpeakEZ AI",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 30,
-                fontWeight: FontWeight.w800,
-              ),
-            ),
-            SizedBox(height: 10),
-            Text(
-              "Connecting you to a world of English learning opportunities.",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.w700,
-                fontFamily: AppStrings.nunitoFont,
-              ),
-            ),
-            Spacer(),
-
-            AnimatedContainer(
-              duration: Duration(milliseconds: 300),
-              width: Get.width,
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20),
-                  topRight: Radius.circular(20),
-                ),
-              ),
-              padding: const EdgeInsets.symmetric( horizontal: 20, vertical: 10),
-              child: SafeArea(
-                child: Column(
-                  children: [
-                    // Text(
-                    //   "Join us to unlock your English potential \n login to continue.",
-                    //   textAlign: TextAlign.center,
-                    //   style: TextStyle(
-                    //     fontSize: 18,
-                    //     fontWeight: FontWeight.w700,
-                    //   ),
-                    // ),
-                    // SizedBox(height: 20),
-                    SignupLoginForm(),
-                    SizedBox(height: 20),
-                    LoginButton(
-                      text: "Google",
-                      logo: AppAssets.google,
-                      onTap: () async {
-                        Get.find<OnboardingController>().googleLogin();
-                      },
-                    ),
-                    // SizedBox(height: 15),
-                    // LoginButton(text: "Facebook", logo: AppAssets.fb),
-                    SizedBox(height: 15),
-                    TermsAndPrivacy(),
-                    SizedBox(height: 15),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
+      )),
     );
+  }
+
+  _setFirstInstallFalse()async{
+    final _prefs = await SharedPreferences.getInstance();
+    _prefs.setBool("firstInstall", false);
   }
 }

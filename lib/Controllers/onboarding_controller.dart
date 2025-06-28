@@ -21,12 +21,15 @@ class OnboardingController extends GetxController {
   var currentOnboardingQuestionIndex = 0.obs;
   var currentOnboardingIndex = 0.obs;
   var onboardingQuestionAnswerMap = <String, String>{}.obs;
+  var switchButtonText  = "Login".obs;
 
   var isloginForm = true.obs;
   final nameController = TextEditingController();
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
+  final confirmPasswordController = TextEditingController();
   final loginFormKey = GlobalKey<FormState>();
+  final signupFormKey = GlobalKey<FormState>();
 
   bool isValidPassword(String password) {
     final passwordRegex = RegExp(
