@@ -1,0 +1,228 @@
+{
+  "id": "lesson_daysoftheweek_001",
+  "lesson_name": "Days of the Week",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "questions": [
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which of these is a day of the week?",
+          "options": ["Friday", "Fruit", "Friend"],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "There are ___ days in a week.",
+          "options": ["five", "seven", "ten"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'There are seven days in a week.'",
+          "options": [],
+          "answer": "There are seven days in a week."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "Monday comes before Tuesday.",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "The first day of the week is ___.",
+          "options": ["Sunday", "Wednesday", "Friday"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Sunday is the first day of the week.'",
+          "options": [],
+          "answer": "Sunday is the first day of the week."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which day comes after Wednesday?",
+          "options": ["Monday", "Thursday", "Tuesday"],
+          "answer": 1
+        },
+        {
+          "type": "sentenceRearranging",
+          "question": "Arrange: [on, I, football, play, Sunday]",
+          "options": ["on", "I", "football", "play", "Sunday"],
+          "answer": ["I", "play", "football", "on", "Sunday"]
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I play football on Sunday.'",
+          "options": [],
+          "answer": "I play football on Sunday."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which is a weekday?",
+          "options": ["Saturday", "Tuesday", "Sunday"],
+          "answer": 1
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "I go to school on ___.",
+          "options": ["Monday", "holiday", "banana"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I go to school on Monday.'",
+          "options": [],
+          "answer": "I go to school on Monday."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "Friday comes after Thursday.",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "___ is the day before Saturday.",
+          "options": ["Friday", "Sunday", "Wednesday"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Friday comes before Saturday.'",
+          "options": [],
+          "answer": "Friday comes before Saturday."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which day comes after Sunday?",
+          "options": ["Friday", "Monday", "Saturday"],
+          "answer": 1
+        },
+        {
+          "type": "sentenceRearranging",
+          "question": "Arrange: [is, today, Monday]",
+          "options": ["is", "today", "Monday"],
+          "answer": ["Today", "is", "Monday"]
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Today is Monday.'",
+          "options": [],
+          "answer": "Today is Monday."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "fillInTheBlanks",
+          "question": "___ and Sunday are weekends.",
+          "options": ["Saturday", "Wednesday", "Tuesday"],
+          "answer": 0
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What day comes before Monday?",
+          "options": ["Sunday", "Tuesday", "Friday"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Saturday and Sunday are weekend days.'",
+          "options": [],
+          "answer": "Saturday and Sunday are weekend days."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "trueFalse",
+          "question": "Wednesday is between Tuesday and Thursday.",
+          "options": ["True", "False"],
+          "answer": 0
+        },
+        {
+          "type": "sentenceRearranging",
+          "question": "Arrange: [on, have, I, exam, Friday]",
+          "options": ["on", "have", "I", "exam", "Friday"],
+          "answer": ["I", "have", "exam", "on", "Friday"]
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'I have an exam on Friday.'",
+          "options": [],
+          "answer": "I have an exam on Friday."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "multipleChoice",
+          "question": "Which day ends the week?",
+          "options": ["Monday", "Sunday", "Thursday"],
+          "answer": 1
+        },
+        {
+          "type": "fillInTheBlanks",
+          "question": "The weekend starts on ___.",
+          "options": ["Friday", "Saturday", "Thursday"],
+          "answer": 1
+        },
+        {
+          "type": "speaking",
+          "question": "Say: 'Sunday is a holiday for me.'",
+          "options": [],
+          "answer": "Sunday is a holiday for me."
+        }
+      ]
+    },
+    {
+      "questionByDifficulty": [
+        {
+          "type": "listening",
+          "question": "What day did the speaker say?",
+          "options": ["Monday", "Tuesday", "Thursday"],
+          "answer": 2
+        },
+        {
+          "type": "listening",
+          "question": "What day did the speaker say?",
+          "options": ["Saturday", "Sunday", "Friday"],
+          "answer": 0
+        },
+        {
+          "type": "speaking",
+          "question": "Say all days of the week from Monday to Sunday.",
+          "options": [],
+          "answer": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+        }
+      ]
+    }
+  ]
+}

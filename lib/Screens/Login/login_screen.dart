@@ -6,12 +6,15 @@ import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/Login/Widgets/login_button.dart';
 import 'package:speak_ez/Screens/Login/Widgets/terms_and_privacy.dart';
 
+import 'Widgets/signup_login_form.dart';
+
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       body: Container(
         width: Get.width,
         decoration: BoxDecoration(
@@ -38,12 +41,9 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              width: 150,
-              height: 150,
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(20),
-                child: Image.asset(AppAssets.logo),
-              ),
+              width: 100,
+              height: 100,
+              child: Image.asset(AppAssets.logo),
             ),
             SizedBox(height: 20),
             Text(
@@ -51,7 +51,7 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 30,
-                fontWeight: FontWeight.w900,
+                fontWeight: FontWeight.w800,
               ),
             ),
             SizedBox(height: 10),
@@ -61,13 +61,14 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
-                fontWeight: FontWeight.w900,
+                fontWeight: FontWeight.w700,
                 fontFamily: AppStrings.nunitoFont,
               ),
             ),
             Spacer(),
 
-            Container(
+            AnimatedContainer(
+              duration: Duration(milliseconds: 300),
               width: Get.width,
               decoration: BoxDecoration(
                 color: Colors.white,
@@ -76,19 +77,20 @@ class LoginScreen extends StatelessWidget {
                   topRight: Radius.circular(20),
                 ),
               ),
-              padding: const EdgeInsets.all(20),
+              padding: const EdgeInsets.symmetric( horizontal: 20, vertical: 10),
               child: SafeArea(
                 child: Column(
                   children: [
-                    Text(
-                      "Join us to unlock your English potential \n login to continue.",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w900,
-                      ),
-                    ),
-
+                    // Text(
+                    //   "Join us to unlock your English potential \n login to continue.",
+                    //   textAlign: TextAlign.center,
+                    //   style: TextStyle(
+                    //     fontSize: 18,
+                    //     fontWeight: FontWeight.w700,
+                    //   ),
+                    // ),
+                    // SizedBox(height: 20),
+                    SignupLoginForm(),
                     SizedBox(height: 20),
                     LoginButton(
                       text: "Google",
