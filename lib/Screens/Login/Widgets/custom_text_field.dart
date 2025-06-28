@@ -90,11 +90,11 @@ class _CustomTextFieldState extends State<CustomTextField> {
                   return "Password does not match";
                 }
               }
-              return '';
+              return null;
             },
             decoration: InputDecoration(
               filled: true,
-              fillColor: Colors.grey.withOpacity(0.1),
+              fillColor: Colors.deepPurple.withOpacity(0.1),
               prefixIcon: Container(
                   padding: const EdgeInsets.all(15),
                   width: 10,
@@ -102,7 +102,6 @@ class _CustomTextFieldState extends State<CustomTextField> {
                   child: SvgPicture.asset(
                     widget.leadingIcon,
                     fit: BoxFit.contain,
-                    color: Colors.black,
                   )),
               suffixIcon: widget.isPassword
                   ? InkWell(

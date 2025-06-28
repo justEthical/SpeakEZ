@@ -46,7 +46,10 @@ class QuestionOptionsController extends GetxController {
 
   Future<void> setCurrentLesson() async {
     final data = await rootBundle.loadString(
-      lessonList[globalController.userProfile.value.currentEnglishLevelProgress],
+      lessonList[globalController
+          .userProfile
+          .value
+          .currentEnglishLevelProgress],
     );
     final jsonString = jsonDecode(data.toString());
     currentLesson.value = Lesson.fromJson(jsonString);
@@ -54,16 +57,22 @@ class QuestionOptionsController extends GetxController {
 
   updateLesssonProgress() {
     globalController.userProfile.value.currentEnglishLevelProgress++;
+    if (globalController.userProfile.value.lastActive
+            .difference(DateTime.now())
+            .inDays !=
+        0) {
+      globalController.userProfile.value.currentStreak++;
+    }
+    globalController.userProfile.value.lastActive = DateTime.now();
 
+    // updating user profile in local storage
     globalController.prefs?.setString(
       AppStrings.userProfile,
       jsonEncode(globalController.userProfile.value.toMap()),
     );
 
-    FirestoreHelper.updateUserField(
-      "current_lesson_progress",
-      globalController.userProfile.value.currentEnglishLevelProgress,
-    );
+    // updating user profile in firestore
+    FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
   }
 
   String getResultScreenText(double accuracy) {

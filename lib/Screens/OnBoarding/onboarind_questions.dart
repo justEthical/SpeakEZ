@@ -26,7 +26,7 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.deepPurple,
         elevation: 0,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.purple),
@@ -42,7 +42,7 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
         ),
         title: const Text(
           'Back',
-          style: TextStyle(color: Colors.black, fontSize: 16),
+          style: TextStyle(color: Colors.white, fontSize: 16),
         ),
         titleSpacing: -10,
       ),
@@ -54,7 +54,7 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
             const Text(
               'Tell us about yourself',
               style: TextStyle(
-                fontSize: 28,
+                fontSize: 25,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
               ),
@@ -62,7 +62,7 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
             const SizedBox(height: 8),
             const Text(
               'Help us personalize your experience',
-              style: TextStyle(fontSize: 20, color: Colors.grey),
+              style: TextStyle(fontSize: 18, color: Colors.grey),
             ),
             const SizedBox(height: 30),
             QuestionProgressBar(),

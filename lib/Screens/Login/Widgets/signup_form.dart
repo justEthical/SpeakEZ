@@ -17,10 +17,10 @@ class SignUpForm extends StatelessWidget {
         child: Column(
           children: [
             CustomTextField(
-              textCtrl: c.emailController,
-              hintText: "Email",
-              leadingIcon: AppAssets.atIcon,
-              title: "Email",
+              textCtrl: c.nameController,
+              hintText: "Full Name",
+              leadingIcon: AppAssets.user,
+              title: "Full Name ",
               isPassword: false,
               keyBoardType: TextInputType.emailAddress,
             ),
@@ -61,9 +61,7 @@ class SignUpForm extends StatelessWidget {
             const OrSeparator(),
             _gap(),
             const GoogleLoginButton(),
-            const SizedBox(
-              height: 20,
-            )
+
           ],
         ));
   }

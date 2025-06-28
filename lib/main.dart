@@ -66,7 +66,9 @@ class _WrapperState extends State<Wrapper> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: CircularProgressIndicator()));
+    return Scaffold(
+      backgroundColor: Colors.white  ,
+      body: Center(child: CircularProgressIndicator()));
   }
 
   getSharePrefsAndRouteUser() async {

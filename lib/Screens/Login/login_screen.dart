@@ -2,6 +2,7 @@ import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:speak_ez/Screens/Login/Widgets/terms_and_privacy.dart';
 import 'package:speak_ez/Screens/Login/Widgets/top_text.dart';
 
 import 'Widgets/login_form.dart';
@@ -29,7 +30,7 @@ class _LoginSignUpState extends State<LoginSignUp> {
       backgroundColor: Colors.white,
       body: SafeArea(
           child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.only(top: 20.0, left: 20, right: 20),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,11 +45,15 @@ class _LoginSignUpState extends State<LoginSignUp> {
                       subHeading: "Create your account in simple steps",
                     )),
               const SizedBox(
-                height: 20,
+                height: 15,
               ),
               const LoginSignUpSwitch(),
-              SizedBox(height: Get.height * 0.05,),
-              Obx(() => c.isloginForm.value? LoginForm() : SignUpForm())
+              const SizedBox(
+                height: 15,
+              ),
+              Obx(() => c.isloginForm.value? LoginForm() : SignUpForm()),
+              SizedBox(height: 15),
+              TermsAndPrivacy()
             ],
           ),
         ),

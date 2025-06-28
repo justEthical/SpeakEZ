@@ -73,12 +73,24 @@ class SettingScreens extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.white,
                           border: Border.all(color: Colors.white, width: 2),
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(100),
                         ),
                         child: ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(100),
                           child: UrlImage(
-                            url: globalController.userProfile.value.photoUrl ?? 'https://placekitten.com/640/360',
+                            url:
+                                globalController.userProfile.value.photoUrl ==
+                                            '' ||
+                                        globalController
+                                                .userProfile
+                                                .value
+                                                .photoUrl ==
+                                            null
+                                    ? 'https://avatar.iran.liara.run/public'
+                                    : globalController
+                                        .userProfile
+                                        .value
+                                        .photoUrl!,
                           ),
                         ),
                       ),
@@ -164,7 +176,7 @@ class SettingScreens extends StatelessWidget {
                 ),
                 SettingsOptionTile(
                   onTap: () async {
-                    Get.dialog( CustomDialogs.deleteConfirmationDialog());
+                    Get.dialog(CustomDialogs.deleteConfirmationDialog());
                   },
                   icon: AppAssets.deleteIcon,
                   heading: 'Delete Account',
