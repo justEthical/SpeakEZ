@@ -85,6 +85,8 @@ class OnboardingController extends GetxController {
         AppStrings.userProfile,
         jsonEncode(userProfile),
       );
+      currentOnboardingQuestionIndex.value = 0;
+      onboardingQuestionAnswerMap.clear();
 
       Get.offAll(() => const TabBarScreen());
     }
@@ -110,7 +112,6 @@ class OnboardingController extends GetxController {
         } else {
           Get.offAll(() => TabBarScreen());
         }
-        Get.offAll(() => TabBarScreen());
       }
     } else {}
     CustomLoader.hideLoader();
