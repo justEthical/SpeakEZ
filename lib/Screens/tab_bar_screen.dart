@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
@@ -14,6 +15,7 @@ class TabBarScreen extends StatefulWidget {
 
 class _TabBarScreenState extends State<TabBarScreen> {
   final c = Get.put(GlobalController());
+  var backButtonCount = 0;
 
   @override
   void initState() {
@@ -28,33 +30,46 @@ class _TabBarScreenState extends State<TabBarScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: PageView(
-        controller: globalController.cutomTabBarController,
-        physics: NeverScrollableScrollPhysics(),
-        children: [HomeScreen(), PracticeSpeaking()],
-      ),
-      bottomNavigationBar: Obx(
-        () => BottomNavigationBar(
-          onTap: (value) {
-            globalController.currentTabIndex.value = value;
-            globalController.cutomTabBarController.animateToPage(
-              value,
-              duration: Duration(milliseconds: 300),
-              curve: Curves.easeIn,
-            );
-          },
-          items: [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.workspace_premium_outlined),
-              label: "Progress",
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.chat_bubble_outline),
-              label: "Practice",
-            ),
-          ],
-          currentIndex: globalController.currentTabIndex.value,
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (a, _) {
+        backButtonCount++;
+        globalController.showSnackbarWithGetX("Exit", "Press again to exit");
+        if (backButtonCount == 2) {
+          SystemNavigator.pop();
+        }
+        Future.delayed(Duration(seconds: 2), () {
+          backButtonCount = 0;
+        });
+      },
+      child: Scaffold(
+        body: PageView(
+          controller: globalController.cutomTabBarController,
+          physics: NeverScrollableScrollPhysics(),
+          children: [HomeScreen(), PracticeSpeaking()],
+        ),
+        bottomNavigationBar: Obx(
+          () => BottomNavigationBar(
+            onTap: (value) {
+              globalController.currentTabIndex.value = value;
+              globalController.cutomTabBarController.animateToPage(
+                value,
+                duration: Duration(milliseconds: 300),
+                curve: Curves.easeIn,
+              );
+            },
+            items: [
+              BottomNavigationBarItem(
+                icon: Icon(Icons.workspace_premium_outlined),
+                label: "Progress",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.chat_bubble_outline),
+                label: "Practice",
+              ),
+            ],
+            currentIndex: globalController.currentTabIndex.value,
+          ),
         ),
       ),
     );

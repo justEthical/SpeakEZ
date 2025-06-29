@@ -45,8 +45,7 @@ class PracticeResultSreen extends StatelessWidget {
           key: globalKey,
           child: Container(
             padding: const EdgeInsets.all(15.0),
-            color: const Color.fromARGB(255, 226, 226, 226)
-            ,
+            color: const Color.fromARGB(255, 226, 226, 226),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
@@ -62,7 +61,10 @@ class PracticeResultSreen extends StatelessWidget {
                     children: [
                       Text(
                         c.formatDateToLongString(DateTime.now()),
-                        style: TextStyle(fontSize: 14, color: Colors.deepPurple),
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Colors.deepPurple,
+                        ),
                       ),
                       SizedBox(height: 10),
                       Text(
@@ -73,14 +75,14 @@ class PracticeResultSreen extends StatelessWidget {
                           fontWeight: FontWeight.w900,
                         ),
                       ),
-          
+
                       SizedBox(height: 5),
                       ScoreBar(score: result.score),
                       SizedBox(height: 10),
                     ],
                   ),
                 ),
-          
+
                 Container(
                   margin: EdgeInsets.only(bottom: 10, top: 10),
                   decoration: BoxDecoration(
@@ -138,6 +140,19 @@ class PracticeResultSreen extends StatelessWidget {
                   icon: AppAssets.tip,
                   heading: 'Suggestion',
                   content: result.suggestion,
+                ),
+                SizedBox(height: 10),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.black,
+                    fixedSize: Size(Get.width - 30, 50),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                      side: const BorderSide(width: 0.56, color: Colors.black),
+                    ),
+                  ),
+                  child: Text("Done", style: TextStyle(color: Colors.white)),
                 ),
               ],
             ),

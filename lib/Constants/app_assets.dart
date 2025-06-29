@@ -23,9 +23,14 @@ class AppAssets {
 
   // images
   static String get logo => _getFullImagePath("logo.png");
-  static String get google => _getFullImagePath("google.png");
+  static String get google => _getFullImagePath("google.svg");
   static String get fb => _getFullImagePath("fb.png");
   static String get settings => _getFullImagePath("settings.svg");
+  static String get user => _getFullImagePath("user.svg"); 
+  static String get eyeClosed => _getFullImagePath("eye-off.svg");
+  static String get eyeIcon => _getFullImagePath("eye.svg");
+  static String get atIcon => _getFullImagePath("at-sign.svg");
+  static String get lockIcon => _getFullImagePath("lock.svg");  
 
   // profile
   static String helpCircle = _getFullImagePath('help-circle.svg');

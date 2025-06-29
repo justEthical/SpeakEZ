@@ -35,7 +35,7 @@ class _ResultTileState extends State<ResultTile> {
               color: Colors.white,
               borderRadius: BorderRadius.circular(10),
             ),
-            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
             child: Column(
               children: [
                 Row(
@@ -80,7 +80,7 @@ class _ResultTileState extends State<ResultTile> {
                             ),
                         const SizedBox(height: 5),
                         SizedBox(
-                          width: Get.width - 120,
+                          width: Get.width - 130,
                           child: Text(
                             widget.content,
                             style: const TextStyle(

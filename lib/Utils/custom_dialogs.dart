@@ -34,7 +34,7 @@ class CustomDialogs {
                       AppStrings.userAuthState,
                       "loggedOut",
                     );
-                    Get.offAll(() => const LoginScreen());
+                    Get.offAll(() => const LoginSignUp());
                   },
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -129,7 +129,7 @@ class CustomDialogs {
                         AppStrings.userProfile,
                         "loggedOut",
                       );
-                      Get.offAll(() => const LoginScreen());
+                      Get.offAll(() => const LoginSignUp());
                     }
                   },
                   style: ElevatedButton.styleFrom(

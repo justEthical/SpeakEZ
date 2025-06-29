@@ -8,7 +8,7 @@ class CountryLanguage {
 
 final List<CountryLanguage> countryLanguages = [
   CountryLanguage(countryCode: "IN", languages: [
-    "Hindi", "Tamil", "Telugu", "Malayalam", "Kannada", "Punjabi", "Bengali", "Marathi", "Gujarati", "Urdu", "Odia", "Assamese"
+    "Hindi", "Tamil", "Telugu", "Malayalam", "Kannada"
   ]),
   CountryLanguage(countryCode: "US", languages: [
     "English", "Spanish"

@@ -42,7 +42,7 @@ var  onboardingQuestions = [
     options: [
       'Not confident at all',
       'A little confident',
-      'Very confident'
+      'Very confident',
       'Fluent in English',
     ],
   ),
