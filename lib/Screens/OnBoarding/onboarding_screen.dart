@@ -117,7 +117,7 @@ class OnboardingScreen extends StatelessWidget {
                       );
                       if (c.currentOnboardingIndex.value == 2) {
                         globalController.prefs?.setString(AppStrings.userAuthState, "loggedOut");
-                        Get.offAll(() => const LoginScreen());
+                        Get.offAll(() => const LoginSignUp());
                       }
                       c.currentOnboardingIndex.value++;
                     },

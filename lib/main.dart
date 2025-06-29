@@ -66,7 +66,9 @@ class _WrapperState extends State<Wrapper> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: CircularProgressIndicator()));
+    return Scaffold(
+      backgroundColor: Colors.white  ,
+      body: Center(child: CircularProgressIndicator()));
   }
 
   getSharePrefsAndRouteUser() async {
@@ -77,7 +79,7 @@ class _WrapperState extends State<Wrapper> {
     if (userAuthState == "loggedIn") {
       Get.offAll(() => TabBarScreen());
     } else if (userAuthState == "loggedOut") {
-      Get.offAll(() => LoginScreen());
+      Get.offAll(() => LoginSignUp());
     } else if (userAuthState == "onboardingQuestions") {
       Get.offAll(() => OnboarindQuestions());
     } else {
