@@ -18,6 +18,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
   final c = Get.find<PracticeController>();
+  var isBottomSheetOpen = false;
   @override
   void initState() {
     // TODO: implement initState
@@ -42,11 +43,16 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: PopScope(
-        canPop: false, 
-        onPopInvokedWithResult: (didPop, result) => c.showExitBottomSheet(context),
-        child: SafeArea(
+    return PopScope(
+      canPop: isBottomSheetOpen,
+      onPopInvokedWithResult: (a, _) {
+        if(!isBottomSheetOpen){
+          isBottomSheetOpen = true;
+          c.showExitBottomSheet(context);
+        }
+      },
+      child: Scaffold(
+        body: SafeArea(
           child: Padding(
             padding: const EdgeInsets.all(15.0),
             child: Column(
@@ -64,7 +70,10 @@ class _ChatScreenState extends State<ChatScreen> {
         
                     Spacer(),
                     InkWell(
-                      onTap: () => c.showExitBottomSheet(context),
+                      onTap: () {
+                        c.showExitBottomSheet(context);
+                        isBottomSheetOpen = true; 
+                      },
                       child: Container(
                         width: 30,
                         height: 30,

@@ -28,7 +28,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
   var transcriptionText = "".obs;
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = 10;
+  var maxNumberOfAiResponsesPerSession = 1;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -186,10 +186,12 @@ class PracticeController extends GetxController {
 
   List<Map<String, dynamic>> getPastConversation() {
     List<Map<String, dynamic>> pastConversation = [];
-    pastConversation.add({"AI": currentChats[currentChats.length - 2].message});
-    pastConversation.add({"User": currentChats.last.message});
+    pastConversation.add({"AI": currentChats[currentChats.length - 3].message});
+    pastConversation.add({
+      "User": currentChats[currentChats.length - 2].message,
+    });
 
-    totalSpeakingTime += currentChats.last.messageDuration;
+    totalSpeakingTime += currentChats[currentChats.length - 2].messageDuration;
 
     return pastConversation;
   }

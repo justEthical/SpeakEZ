@@ -143,7 +143,7 @@ class PracticeResultSreen extends StatelessWidget {
                 ),
                 SizedBox(height: 10),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () => Get.back(),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.black,
                     fixedSize: Size(Get.width - 30, 50),
