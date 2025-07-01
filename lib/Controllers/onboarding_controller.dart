@@ -155,13 +155,13 @@ class OnboardingController extends GetxController {
           if (globalController.userProfile.value.motherTongue == "") {
             globalController.prefs?.setString(
               AppStrings.userAuthState,
-              "loggedIn",
+              "onboardingQuestions",
             );
             Get.offAll(() => OnboarindQuestions());
           } else {
             globalController.prefs?.setString(
               AppStrings.userAuthState,
-              "onboardingQuestions",
+              "loggedIn",
             );
             Get.offAll(() => TabBarScreen());
           }

@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 
 class NetworkService {
   static final dio = Dio();
@@ -48,7 +49,11 @@ class NetworkService {
   ) async {
     try {
       final text = jsonEncode(pastConversation);
-      final body = getBody(AppStrings.resultScreenSystemPrompt, text, responseMimeType: "application/json");
+      final body = getBody(
+        "${AppStrings.resultScreenSystemPrompt} user english level: ${globalController.userProfile.value.currentEnglishLevel}",
+        text,
+        responseMimeType: "application/json",
+      );
       Response response = await dio.post(baseUrl, data: jsonEncode(body));
       if (response.statusCode == 200) {
         return response.data['candidates'][0]['content']['parts'][0]['text'];
@@ -61,7 +66,11 @@ class NetworkService {
     return null;
   }
 
-  static Map getBody(String systemPrompt, String userPrompt, {String responseMimeType = "text/plain"}) {
+  static Map getBody(
+    String systemPrompt,
+    String userPrompt, {
+    String responseMimeType = "text/plain",
+  }) {
     return {
       "system_instruction": {
         "parts": [

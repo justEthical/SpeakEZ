@@ -188,19 +188,9 @@ class PracticeController extends GetxController {
     List<Map<String, dynamic>> pastConversation = [];
     pastConversation.add({"AI": currentChats[currentChats.length - 2].message});
     pastConversation.add({"User": currentChats.last.message});
-    // for (var chat in currentChats) {
-    //   if (chat.chatType == ChatType.normalChatMesssage) {
-    //     if (chat.isAI) {
-    //       pastConversation.add({"AI": chat.message});
-    //     } else {
-    //       totalSpeakingTime += chat.messageDuration;
-    //       pastConversation.add({
-    //         "User": {"text": chat.message, "duration": chat.messageDuration},
-    //       });
-    //     }
-    //   }
-    // }
-    
+
+    totalSpeakingTime += currentChats.last.messageDuration;
+
     return pastConversation;
   }
 
