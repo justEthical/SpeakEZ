@@ -1,0 +1,186 @@
+{
+  "id": "lesson_colors_001",
+  "lesson_name": "Colors",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "red", "meaning": "the color of apples or tomatoes" },
+      { "word": "blue", "meaning": "the color of the sky" },
+      { "word": "green", "meaning": "the color of grass" },
+      { "word": "yellow", "meaning": "the color of the sun or bananas" },
+      { "word": "black", "meaning": "the color of night" },
+      { "word": "white", "meaning": "the color of milk or snow" },
+      { "word": "orange", "meaning": "the color of an orange fruit" },
+      { "word": "brown", "meaning": "the color of chocolate or wood" },
+      { "word": "pink", "meaning": "a light red color" },
+      { "word": "purple", "meaning": "the color of some grapes" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Adjectives before nouns",
+        "explanation": "Put color words before the thing. Example: red apple, blue sky."
+      },
+      {
+        "title": "Using 'is' for color",
+        "explanation": "Use 'is' to tell the color of one thing. Example: The apple is red."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The sky is blue.", "translation": "" },
+      { "sentence": "Bananas are yellow.", "translation": "" },
+      { "sentence": "My shirt is white.", "translation": "" },
+      { "sentence": "She likes pink flowers.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which color is the sky?",
+        "options": ["Blue", "Red", "Green"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Chocolate is ___.",
+        "options": ["brown", "pink", "black"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which color is a banana?",
+        "options": ["Purple", "Yellow", "Blue"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Grass is usually green.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which color is made by mixing red and white?",
+        "options": ["Pink", "Orange", "Brown"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is black. (night)",
+        "options": ["apple", "sky", "night"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She has a ___ dress. (red)",
+        "options": ["red", "blue", "green"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, white, Milk]",
+        "options": ["is", "white", "Milk"],
+        "answer": ["Milk", "is", "white"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Oranges are ___.",
+        "options": ["orange", "purple", "brown"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [are, green, Leaves]",
+        "options": ["are", "green", "Leaves"],
+        "answer": ["Leaves", "are", "green"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What color did the speaker say? (Audio: 'The sky is blue.')",
+        "options": ["Blue", "Red", "Yellow"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Which fruit is yellow? (Audio: 'Bananas are yellow.')",
+        "options": ["Banana", "Apple", "Grape"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What color is the flower? (Audio: 'She likes pink flowers.')",
+        "options": ["Pink", "White", "Brown"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What color is chocolate? (Audio: 'Chocolate is brown.')",
+        "options": ["Pink", "Brown", "Orange"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is the color of milk? (Audio: 'Milk is white.')",
+        "options": ["White", "Green", "Red"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The sky is blue.'",
+        "options": [],
+        "answer": "The sky is blue."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My shirt is white.'",
+        "options": [],
+        "answer": "My shirt is white."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Bananas are yellow.'",
+        "options": [],
+        "answer": "Bananas are yellow."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I like red apples.'",
+        "options": [],
+        "answer": "I like red apples."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She likes pink flowers.'",
+        "options": [],
+        "answer": "She likes pink flowers."
+      }
+    ]
+  }
+}

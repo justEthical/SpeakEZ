@@ -1,0 +1,156 @@
+{
+  "id": "lesson_daysoftheweek_001",
+  "lesson_name": "Days of the Week",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which of these is a day of the week?",
+        "options": ["Friday", "Fruit", "Friend"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "There are ___ days in a week.",
+        "options": ["five", "seven", "ten"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Monday comes before Tuesday.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which day is not a weekend day?",
+        "options": ["Sunday", "Tuesday", "Saturday"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "___ and Sunday are weekends.",
+        "options": ["Saturday", "Wednesday", "Tuesday"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The first day of the week is ___.",
+        "options": ["Sunday", "Wednesday", "Friday"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [on, I, football, play, Sunday]",
+        "options": ["on", "I", "football", "play", "Sunday"],
+        "answer": ["I", "play", "football", "on", "Sunday"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "I go to school on ___.",
+        "options": ["Monday", "holiday", "banana"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, today, Monday]",
+        "options": ["is", "today", "Monday"],
+        "answer": ["Today", "is", "Monday"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "___ comes before Saturday.",
+        "options": ["Friday", "Sunday", "Wednesday"],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What day did the speaker say?",
+        "options": ["Monday", "Tuesday", "Thursday"],
+        "answer": 2
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What day did the speaker say?",
+        "options": ["Saturday", "Sunday", "Friday"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What day did the speaker say?",
+        "options": ["Friday", "Saturday", "Monday"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "The speaker said: 'I have an exam on ____.'",
+        "options": ["Friday", "Sunday", "Wednesday"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "The speaker said: 'Today is ____.'",
+        "options": ["Monday", "Tuesday", "Saturday"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'There are seven days in a week.'",
+        "options": [],
+        "answer": "There are seven days in a week."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Sunday is the first day of the week.'",
+        "options": [],
+        "answer": "Sunday is the first day of the week."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say all days of the week from Monday to Sunday.",
+        "options": [],
+        "answer": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I have an exam on Friday.'",
+        "options": [],
+        "answer": "I have an exam on Friday."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Today is Monday.'",
+        "options": [],
+        "answer": "Today is Monday."
+      }
+    ]
+  }
+}

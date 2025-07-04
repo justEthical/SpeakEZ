@@ -1,0 +1,83 @@
+You are an expert English language content creator.
+
+Create a lesson on the topic: "Classroom Objects" for CEFR level A1.
+
+Follow this JSON structure exactly:
+
+{
+  "id": "<unique_lesson_id>",
+  "lesson_name": "<topic name>",
+  "purpose": "<purpose or user type, e.g., All, Travel, Business>",
+  "cefrLevel": "<CEFR level, e.g., A1>",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "<word1>", "meaning": "<simple definition>" },
+      { "word": "<word2>", "meaning": "<simple definition>" }
+      // Add more as needed
+    ],
+    "grammar_tips": [
+      {
+        "title": "<Short grammar tip title>",
+        "explanation": "<1-2 line explanation with a simple example>"
+      }
+      // Add more as needed
+    ],
+    "example_sentences": [
+      {
+        "sentence": "<example sentence using lesson vocabulary/grammar>",
+        "translation": ""
+      }
+      // Add more as needed
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "<unique_question_id>",
+        "type": "multipleChoice" or "fillInTheBlanks" or "trueFalse",
+        "question": "<question text>",
+        "options": ["<option1>", "<option2>", "<option3>"],
+        "answer": <correct_option_index>
+      }
+      // Add at least 5 questions for variety
+    ],
+    "sentence": [
+      {
+        "id": "<unique_question_id>",
+        "type": "fillInTheBlanks" or "sentenceRearranging",
+        "question": "<question text or arrangement task>",
+        "options": ["<option1>", "<option2>", ...],
+        "answer": <correct_option_index or array>
+      }
+      // Add at least 5 questions
+    ],
+    "listening": [
+      {
+        "id": "<unique_question_id>",
+        "type": "listening",
+        "question": "<question prompt for listening>",
+        "options": ["<option1>", "<option2>", "<option3>"],
+        "answer": <correct_option_index>
+      }
+      // Add at least 5 questions
+    ],
+    "speaking": [
+      {
+        "id": "<unique_question_id>",
+        "type": "speaking",
+        "question": "<prompt for the learner to say>",
+        "options": [],
+        "answer": "<target sentence to be spoken>"
+      }
+      // Add at least 5 prompts
+    ]
+  }
+}
+
+**Instructions:**
+- Make sure the vocabulary and questions are suitable for the given CEFR level.
+- Use simple, clear English.
+- Keep all field names and structure exactly as shown.
+- For options and answers, always keep the correct answer index accurate.
+- Fill all pools with at least 5 varied questions each.
+- Do NOT include any explanations outside the JSON—return only valid JSON.
