@@ -1,4 +1,186 @@
 {
-  "id": 4,
-  "message": "This is file number 4"
+  "id": "lesson_problems_solutions_001",
+  "lesson_name": "Dealing with Problems & Solutions",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "problem", "meaning": "something difficult or not right" },
+      { "word": "solution", "meaning": "the answer to a problem" },
+      { "word": "fix", "meaning": "to repair or solve something" },
+      { "word": "suggestion", "meaning": "an idea to help someone" },
+      { "word": "advice", "meaning": "what someone tells you to help you decide" },
+      { "word": "trouble", "meaning": "a situation that is difficult or has problems" },
+      { "word": "complain", "meaning": "to say you are not happy about something" },
+      { "word": "recommend", "meaning": "to say something is a good idea" },
+      { "word": "deal with", "meaning": "to try to solve or manage a problem" },
+      { "word": "improve", "meaning": "to make something better" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Making suggestions",
+        "explanation": "Use 'You should...' or 'Why don't you...?' to give ideas. Example: You should talk to your boss."
+      },
+      {
+        "title": "Talking about problems in the past",
+        "explanation": "Use the past simple for finished problems. Example: I had a problem with my laptop last week."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I have a problem with my phone.", "translation": "" },
+      { "sentence": "The solution is to restart it.", "translation": "" },
+      { "sentence": "He suggested asking for help.", "translation": "" },
+      { "sentence": "She gave me good advice.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'the answer to a problem'?",
+        "options": ["problem", "solution", "complain"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "To repair something is to ___.",
+        "options": ["fix", "deal", "complain"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'an idea to help someone'?",
+        "options": ["advice", "suggestion", "improve"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "To complain is to say you are not happy about something.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What word means 'to try to solve or manage a problem'?",
+        "options": ["recommend", "deal with", "improve"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is to restart your computer.",
+        "options": ["problem", "solution", "suggestion"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She ___ me to talk to my teacher. (gave advice)",
+        "options": ["suggested", "complained", "advised"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [phone, problem, my, a, have, with, I]",
+        "options": ["phone", "problem", "my", "a", "have", "with", "I"],
+        "answer": ["I", "have", "a", "problem", "with", "my", "phone"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "He ___ asking for help.",
+        "options": ["suggested", "fixed", "improved"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [should, You, your, boss, talk, to]",
+        "options": ["should", "You", "your", "boss", "talk", "to"],
+        "answer": ["You", "should", "talk", "to", "your", "boss"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the speaker's problem? (Audio: 'I have a problem with my phone.')",
+        "options": ["With phone", "With laptop", "With TV"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the solution? (Audio: 'The solution is to restart it.')",
+        "options": ["To restart it", "To buy a new one", "To complain"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What did he suggest? (Audio: 'He suggested asking for help.')",
+        "options": ["To restart", "Asking for help", "To ignore it"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What did she give? (Audio: 'She gave me good advice.')",
+        "options": ["A problem", "Good advice", "A phone"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What do you have to do? (Audio: 'You should talk to your boss.')",
+        "options": ["Talk to your boss", "Restart your computer", "Ask for help"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I have a problem with my phone.'",
+        "options": [],
+        "answer": "I have a problem with my phone."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The solution is to restart it.'",
+        "options": [],
+        "answer": "The solution is to restart it."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He suggested asking for help.'",
+        "options": [],
+        "answer": "He suggested asking for help."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'She gave me good advice.'",
+        "options": [],
+        "answer": "She gave me good advice."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'You should talk to your boss.'",
+        "options": [],
+        "answer": "You should talk to your boss."
+      }
+    ]
+  }
 }

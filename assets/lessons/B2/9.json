@@ -1,4 +1,186 @@
 {
-  "id": 9,
-  "message": "This is file number 9"
+  "id": "lesson_environmental_problems_solutions_001",
+  "lesson_name": "Evaluating Environmental Problems and Solutions",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "pollution", "meaning": "making air, water, or land dirty" },
+      { "word": "climate change", "meaning": "long-term change in the earth’s weather" },
+      { "word": "deforestation", "meaning": "cutting down many trees in an area" },
+      { "word": "renewable", "meaning": "something that can be used again and again" },
+      { "word": "conservation", "meaning": "protecting nature and resources" },
+      { "word": "sustainable", "meaning": "something that can continue without harming nature" },
+      { "word": "recycle", "meaning": "to use something again after processing" },
+      { "word": "emission", "meaning": "release of gas or pollution into the air" },
+      { "word": "biodiversity", "meaning": "the variety of plants and animals in a place" },
+      { "word": "ecosystem", "meaning": "a community of living things and their environment" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Conditionals for Solutions",
+        "explanation": "Use 'if' to suggest solutions. Example: If we recycle more, we can reduce pollution."
+      },
+      {
+        "title": "Expressing Opinions and Evaluations",
+        "explanation": "Use phrases like 'I believe', 'It is important to', and 'should be done'. Example: I believe conservation should be a priority."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Deforestation is a serious problem in many countries.", "translation": "" },
+      { "sentence": "We should use renewable energy to reduce emissions.", "translation": "" },
+      { "sentence": "Conservation of water is important for a sustainable future.", "translation": "" },
+      { "sentence": "If people recycle, there will be less waste.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'making air, water, or land dirty'?",
+        "options": ["pollution", "renewable", "ecosystem"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ is a long-term change in the earth’s weather.",
+        "options": ["Conservation", "Climate change", "Recycling"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'to use something again after processing'?",
+        "options": ["conservation", "deforestation", "recycle"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Sustainable' means something that can continue without harming nature.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'the variety of plants and animals in a place'?",
+        "options": ["ecosystem", "biodiversity", "emission"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ is a serious problem in many countries.",
+        "options": ["Deforestation", "Ecosystem", "Recycling"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We should use ___ energy to reduce emissions.",
+        "options": ["renewable", "pollution", "climate"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [future, important, is, water, a, sustainable, conservation, for]",
+        "options": ["future", "important", "is", "water", "a", "sustainable", "conservation", "for"],
+        "answer": ["Conservation", "of", "water", "is", "important", "for", "a", "sustainable", "future"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "If people recycle, there will be less ___.",
+        "options": ["biodiversity", "waste", "conservation"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [should, a, priority, conservation, be]",
+        "options": ["should", "a", "priority", "conservation", "be"],
+        "answer": ["Conservation", "should", "be", "a", "priority"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is a serious problem in many countries? (Audio: 'Deforestation is a serious problem in many countries.')",
+        "options": ["Ecosystem", "Deforestation", "Emission"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What should we use to reduce emissions? (Audio: 'We should use renewable energy to reduce emissions.')",
+        "options": ["Renewable energy", "Pollution", "Biodiversity"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What is important for a sustainable future? (Audio: 'Conservation of water is important for a sustainable future.')",
+        "options": ["Climate change", "Conservation of water", "Deforestation"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What happens if people recycle? (Audio: 'If people recycle, there will be less waste.')",
+        "options": ["More waste", "Less waste", "More pollution"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What means protecting nature and resources?",
+        "options": ["Conservation", "Ecosystem", "Emission"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Deforestation is a serious problem in many countries.'",
+        "options": [],
+        "answer": "Deforestation is a serious problem in many countries."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'We should use renewable energy to reduce emissions.'",
+        "options": [],
+        "answer": "We should use renewable energy to reduce emissions."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Conservation of water is important for a sustainable future.'",
+        "options": [],
+        "answer": "Conservation of water is important for a sustainable future."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'If people recycle, there will be less waste.'",
+        "options": [],
+        "answer": "If people recycle, there will be less waste."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Conservation should be a priority.'",
+        "options": [],
+        "answer": "Conservation should be a priority."
+      }
+    ]
+  }
 }

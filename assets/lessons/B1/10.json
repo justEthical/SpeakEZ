@@ -1,4 +1,206 @@
 {
-  "id": 10,
-  "message": "This is file number 10"
+  "id": "b1_relationships_friendship_01",
+  "lesson_name": "Talking About Relationships & Friendship",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "friendship", "meaning": "the relationship between friends" },
+      { "word": "trust", "meaning": "to believe that someone is honest" },
+      { "word": "support", "meaning": "to help someone" },
+      { "word": "argue", "meaning": "to disagree or fight with words" },
+      { "word": "get along", "meaning": "to have a good relationship" },
+      { "word": "close", "meaning": "having a strong relationship" },
+      { "word": "acquaintance", "meaning": "a person you know, but not well" },
+      { "word": "share", "meaning": "to give something to others" },
+      { "word": "advice", "meaning": "ideas or suggestions about what someone should do" },
+      { "word": "loyal", "meaning": "always supporting your friend or partner" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Simple for Relationships",
+        "explanation": "Use the present simple to talk about your relationships: 'I trust my best friend.'"
+      },
+      {
+        "title": "Talking About Experiences",
+        "explanation": "Use the present perfect for life experiences: 'We have known each other for five years.'"
+      },
+      {
+        "title": "Using 'get along' and 'get on'",
+        "explanation": "'Get along' or 'get on' means to have a good relationship: 'I get along with my classmates.'"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "She is my close friend. We share everything.",
+        "translation": ""
+      },
+      {
+        "sentence": "It is important to trust and support each other.",
+        "translation": ""
+      },
+      {
+        "sentence": "Sometimes friends argue, but they make up quickly.",
+        "translation": ""
+      },
+      {
+        "sentence": "He gave me good advice when I had a problem.",
+        "translation": ""
+      },
+      {
+        "sentence": "I get along well with my cousins.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'loyal' mean?",
+        "options": ["Always supporting your friend", "Fighting often", "Telling lies"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "An _____ is a person you know but not very well.",
+        "options": ["acquaintance", "advice", "support"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "'Argue' means to always agree.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What is 'advice'?",
+        "options": ["A suggestion to help someone", "A secret", "A promise"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'to have a good relationship'?",
+        "options": ["argue", "get along", "close"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My friend always _____ (trusts/supports) me.",
+        "options": ["trusts", "supports"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We have _____ (known/argued) each other for many years.",
+        "options": ["known", "argued"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: good / get / classmates / I / along / my / with",
+        "options": ["I get along with my classmates."],
+        "answer": [0]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "It is important to _____ (share/argue) your feelings.",
+        "options": ["share", "argue"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: gives / advice / she / good / me",
+        "options": ["She gives me good advice."],
+        "answer": [0]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Listen: Who does Tom get along with?",
+        "options": ["His classmates", "His teacher", "His parents"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Listen: How long have Maria and Anna known each other?",
+        "options": ["One year", "Three years", "Five years"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Listen: Why did John argue with his friend?",
+        "options": ["About a game", "About food", "About homework"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Listen: What advice did Sarah give?",
+        "options": ["To study harder", "To play more", "To make new friends"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Listen: What does Emily share with her friends?",
+        "options": ["Books", "Money", "Secrets"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Describe your best friend.",
+        "options": [],
+        "answer": "My best friend is funny, loyal, and always supports me."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Talk about a time you helped a friend.",
+        "options": [],
+        "answer": "I helped my friend with homework when he did not understand it."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Explain how you give advice to your friends.",
+        "options": [],
+        "answer": "I listen to my friends and then give advice if they need help."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Describe a time you argued with someone and made up.",
+        "options": [],
+        "answer": "Last week, I argued with my friend about a game, but we made up quickly."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say why trust is important in a relationship.",
+        "options": [],
+        "answer": "Trust is important because it helps people feel safe and happy together."
+      }
+    ]
+  }
 }

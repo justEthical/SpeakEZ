@@ -1,4 +1,187 @@
 {
-  "id": 6,
-  "message": "This is file number 6"
+  "id": "lesson_international_relations_c1_001",
+  "lesson_name": "Discussing International Relations",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "diplomacy", "meaning": "managing relationships between countries" },
+      { "word": "treaty", "meaning": "a formal agreement between countries" },
+      { "word": "sanction", "meaning": "a penalty imposed to influence behavior" },
+      { "word": "sovereignty", "meaning": "the right of a country to govern itself" },
+      { "word": "negotiation", "meaning": "discussing to reach an agreement" },
+      { "word": "alliance", "meaning": "a partnership between countries for mutual benefit" },
+      { "word": "embargo", "meaning": "a ban on trade with a country" },
+      { "word": "multilateral", "meaning": "involving several countries" },
+      { "word": "mediation", "meaning": "helping two sides reach agreement" },
+      { "word": "conflict resolution", "meaning": "methods to solve disagreements peacefully" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Reporting Verbs in Diplomacy",
+        "explanation": "Use verbs like 'stated', 'announced', 'claimed', and 'argued' to report what others say. Example: 'The ambassador stated that the talks were productive.'"
+      },
+      {
+        "title": "Conditional Sentences in International Relations",
+        "explanation": "Use conditionals to discuss possible results. Example: 'If the treaty is signed, sanctions will be lifted.'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Diplomacy is crucial for maintaining peace.", "translation": "" },
+      { "sentence": "The two countries signed a historic treaty.", "translation": "" },
+      { "sentence": "Sanctions were imposed after the incident.", "translation": "" },
+      { "sentence": "If both nations cooperate, the conflict can be resolved.", "translation": "" },
+      { "sentence": "Mediation often leads to a peaceful solution.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is a treaty?",
+        "options": ["A penalty", "A formal agreement", "A type of conflict"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ is when one country bans trade with another.",
+        "options": ["Embargo", "Alliance", "Sovereignty"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Diplomacy helps maintain peaceful relationships between countries.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'the right of a country to govern itself'?",
+        "options": ["Negotiation", "Mediation", "Sovereignty"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which term describes a partnership between countries?",
+        "options": ["Sanction", "Alliance", "Embargo"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The countries reached an ___ after long negotiations.",
+        "options": ["embargo", "agreement", "penalty"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [signed, treaty, the, leaders, yesterday]",
+        "options": ["signed", "treaty", "the", "leaders", "yesterday"],
+        "answer": ["The", "leaders", "signed", "the", "treaty", "yesterday"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "If both sides cooperate, ___ will be easier.",
+        "options": ["negotiation", "conflict resolution", "sanction"],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [relations, international, important, are, stability, for]",
+        "options": ["relations", "international", "important", "are", "stability", "for"],
+        "answer": ["International", "relations", "are", "important", "for", "stability"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The UN often acts as a ___ in conflicts.",
+        "options": ["mediation", "treaty", "sanction"],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "If you hear about 'sanctions', what is being discussed?",
+        "options": ["A peace agreement", "A penalty to influence behavior", "A celebration"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "If a news report says, 'The two countries formed an alliance,' what does it mean?",
+        "options": ["They are in conflict", "They will trade", "They agreed to work together"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "When someone says 'multilateral talks,' how many countries are likely involved?",
+        "options": ["One", "Two", "Several"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which of these best describes 'sovereignty'?",
+        "options": ["Country's independence", "A trade ban", "A negotiation"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "If you hear, 'The nations are in negotiation,' what is happening?",
+        "options": ["They are discussing to reach an agreement", "They are celebrating", "They are fighting"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Diplomacy plays a vital role in international relations.'",
+        "options": [],
+        "answer": "Diplomacy plays a vital role in international relations."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The countries agreed to lift the embargo.'",
+        "options": [],
+        "answer": "The countries agreed to lift the embargo."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Sanctions were imposed to encourage peaceful negotiations.'",
+        "options": [],
+        "answer": "Sanctions were imposed to encourage peaceful negotiations."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Sovereignty is essential for a nation's independence.'",
+        "options": [],
+        "answer": "Sovereignty is essential for a nation's independence."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The alliance helped maintain peace in the region.'",
+        "options": [],
+        "answer": "The alliance helped maintain peace in the region."
+      }
+    ]
+  }
 }

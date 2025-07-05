@@ -1,4 +1,186 @@
 {
-  "id": 1,
-  "message": "This is file number 1"
+  "id": "lesson_evaluating_synthesizing_arguments_c1_001",
+  "lesson_name": "Evaluating and Synthesizing Arguments",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "evaluate", "meaning": "to judge or assess the value or quality of something" },
+      { "word": "synthesize", "meaning": "to combine ideas or information to create something new" },
+      { "word": "premise", "meaning": "an idea or statement on which an argument is based" },
+      { "word": "counterargument", "meaning": "an opposing viewpoint or argument" },
+      { "word": "evidence", "meaning": "facts or information that support an idea" },
+      { "word": "bias", "meaning": "a personal preference that can affect judgment" },
+      { "word": "fallacy", "meaning": "a mistaken belief or error in reasoning" },
+      { "word": "rebuttal", "meaning": "a response to counter or disagree with an argument" },
+      { "word": "coherence", "meaning": "logical connection or consistency in ideas" },
+      { "word": "validity", "meaning": "being logically correct or sound" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Formal Connectors",
+        "explanation": "Use connectors like 'however', 'nevertheless', 'furthermore', and 'therefore' to link arguments. Example: The study is recent; however, its sample size is limited."
+      },
+      {
+        "title": "Passive Voice for Objectivity",
+        "explanation": "Passive voice helps keep arguments neutral. Example: The evidence was analyzed by the team."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "It is important to evaluate the credibility of each source.", "translation": "" },
+      { "sentence": "Her argument was strong because it included relevant evidence.", "translation": "" },
+      { "sentence": "A good essay synthesizes ideas from multiple texts.", "translation": "" },
+      { "sentence": "The author provided a convincing rebuttal to the counterargument.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'to combine ideas to create something new'?",
+        "options": ["evaluate", "synthesize", "rebuttal"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is an opposing viewpoint or argument.",
+        "options": ["counterargument", "premise", "bias"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word refers to 'facts or information that support an idea'?",
+        "options": ["fallacy", "evidence", "coherence"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Validity' means being logically correct or sound.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is a 'premise'?",
+        "options": ["A mistaken belief", "A supporting fact", "An idea an argument is based on"],
+        "answer": 2
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "It is important to ___ the credibility of each source.",
+        "options": ["rebuttal", "evaluate", "bias"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "A good essay ___ ideas from multiple texts.",
+        "options": ["synthesizes", "rebuttal", "fallacy"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [a, argument, provided, to, the, the, author, counterargument, rebuttal, convincing]",
+        "options": ["a", "argument", "provided", "to", "the", "the", "author", "counterargument", "rebuttal", "convincing"],
+        "answer": ["The", "author", "provided", "a", "convincing", "rebuttal", "to", "the", "counterargument"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Her argument was strong because it included relevant ___.",
+        "options": ["coherence", "evidence", "fallacy"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [logical, has, argument, coherence, the]",
+        "options": ["logical", "has", "argument", "coherence", "the"],
+        "answer": ["The", "argument", "has", "logical", "coherence"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is essential when judging the value of a source? (Audio: 'It is important to evaluate the credibility of each source.')",
+        "options": ["Premise", "Bias", "Evaluate"],
+        "answer": 2
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Why was her argument strong? (Audio: 'Her argument was strong because it included relevant evidence.')",
+        "options": ["It was long", "It included evidence", "It had a fallacy"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does a good essay do? (Audio: 'A good essay synthesizes ideas from multiple texts.')",
+        "options": ["Provides a rebuttal", "Synthesizes ideas", "States a fallacy"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What did the author provide to the counterargument? (Audio: 'The author provided a convincing rebuttal to the counterargument.')",
+        "options": ["Rebuttal", "Evidence", "Premise"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which word refers to a mistake in reasoning?",
+        "options": ["Premise", "Fallacy", "Validity"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'It is important to evaluate the credibility of each source.'",
+        "options": [],
+        "answer": "It is important to evaluate the credibility of each source."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Her argument was strong because it included relevant evidence.'",
+        "options": [],
+        "answer": "Her argument was strong because it included relevant evidence."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'A good essay synthesizes ideas from multiple texts.'",
+        "options": [],
+        "answer": "A good essay synthesizes ideas from multiple texts."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The author provided a convincing rebuttal to the counterargument.'",
+        "options": [],
+        "answer": "The author provided a convincing rebuttal to the counterargument."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The argument has logical coherence.'",
+        "options": [],
+        "answer": "The argument has logical coherence."
+      }
+    ]
+  }
 }

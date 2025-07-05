@@ -1,4 +1,215 @@
 {
-  "id": 8,
-  "message": "This is file number 8"
+  "id": "lesson_evaluating_supreme_court_decisions_c2_001",
+  "lesson_name": "Evaluating Supreme Court Decisions",
+  "purpose": "Academic, Law, Advanced Citizenship",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "precedent", "meaning": "an earlier decision that guides future cases" },
+      { "word": "dissent", "meaning": "disagreement with the majority opinion" },
+      { "word": "majority opinion", "meaning": "the official decision agreed upon by most judges" },
+      { "word": "judicial review", "meaning": "the court's power to decide if laws are constitutional" },
+      { "word": "statutory interpretation", "meaning": "judging what a law means" },
+      { "word": "constitutional", "meaning": "allowed by the constitution" },
+      { "word": "remand", "meaning": "send a case back to a lower court" },
+      { "word": "jurisprudence", "meaning": "the theory or philosophy of law" },
+      { "word": "plaintiff", "meaning": "the person who brings a case to court" },
+      { "word": "landmark decision", "meaning": "a very important and influential court ruling" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Passive Voice for Legal Analysis",
+        "explanation": "Use the passive voice to highlight the action or result, e.g., 'The law was overturned by the Court.'"
+      },
+      {
+        "title": "Using Complex Sentences for Arguments",
+        "explanation": "Link ideas using clauses: 'Although the dissent was persuasive, the majority opinion prevailed.'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The Supreme Court established a new precedent in its latest ruling.", "translation": "" },
+      { "sentence": "The majority opinion found the law to be unconstitutional.", "translation": "" },
+      { "sentence": "The dissent argued that the statute was interpreted too narrowly.", "translation": "" },
+      { "sentence": "The case was remanded to the lower court for further proceedings.", "translation": "" },
+      { "sentence": "Judicial review allows courts to evaluate the validity of legislation.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is a 'precedent'?",
+        "options": [
+          "A law made by Congress",
+          "A previous court decision that guides future cases",
+          "A court disagreement"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ opinion is written by a judge who disagrees with the majority.",
+        "options": ["landmark", "majority", "dissent"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Judicial review means the court can decide if laws are constitutional.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Who is the 'plaintiff' in a Supreme Court case?",
+        "options": [
+          "The government",
+          "The judge",
+          "The person bringing the case"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "A ___ decision changes how future cases are decided.",
+        "options": ["landmark", "remand", "statutory"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The law was declared ___ by the Supreme Court.",
+        "options": ["plaintiff", "constitutional", "dissent"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The case was ___ to the lower court.",
+        "options": ["remand", "remanded", "remanding"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, was, decision, controversial, highly]",
+        "options": ["the", "was", "decision", "controversial", "highly"],
+        "answer": ["The", "decision", "was", "highly", "controversial"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ interpretation is the process of deciding what a law means.",
+        "options": ["Statutory", "Majority", "Plaintiff"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [court, set, a, The, new, precedent]",
+        "options": ["court", "set", "a", "The", "new", "precedent"],
+        "answer": ["The", "court", "set", "a", "new", "precedent"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What does a dissenting opinion express?",
+        "options": [
+          "Agreement with the majority",
+          "Disagreement with the majority",
+          "A summary of the case"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the function of judicial review?",
+        "options": [
+          "To enforce laws",
+          "To make laws",
+          "To check if laws are constitutional"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Why is a landmark decision important?",
+        "options": [
+          "It applies only to one person",
+          "It changes future legal practice",
+          "It is always unanimous"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Who writes the majority opinion?",
+        "options": [
+          "The judge with the most experience",
+          "Any judge who agrees with the main decision",
+          "The judge who brought the case"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is statutory interpretation?",
+        "options": [
+          "Enforcing a law",
+          "Deciding what a law means",
+          "Repealing a law"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Summarize the reasoning behind a Supreme Court majority opinion of your choice.",
+        "options": [],
+        "answer": "The majority opinion in this case was based on the interpretation of constitutional rights and prior precedents."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Present arguments supporting or opposing a dissenting opinion in a major decision.",
+        "options": [],
+        "answer": "I support the dissent because it provides a more balanced view of the statute's intent."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Explain the impact of a landmark Supreme Court decision on society.",
+        "options": [],
+        "answer": "This landmark decision fundamentally changed civil rights protections in the country."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Discuss the importance of judicial review in maintaining checks and balances.",
+        "options": [],
+        "answer": "Judicial review is essential because it ensures that laws respect the constitution."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Debate the role of precedent in guiding future Supreme Court decisions.",
+        "options": [],
+        "answer": "Precedent helps maintain consistency in the law, but can also hinder necessary change."
+      }
+    ]
+  }
 }

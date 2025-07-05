@@ -1,4 +1,186 @@
 {
-  "id": 1,
-  "message": "This is file number 1"
+  "id": "lesson_personal_information_001",
+  "lesson_name": "Personal Information",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "address", "meaning": "where you live" },
+      { "word": "phone number", "meaning": "the number to call you" },
+      { "word": "nationality", "meaning": "the country you are from" },
+      { "word": "date of birth", "meaning": "the day you were born" },
+      { "word": "surname", "meaning": "your last name" },
+      { "word": "first name", "meaning": "your given name" },
+      { "word": "email", "meaning": "electronic mail address" },
+      { "word": "married", "meaning": "having a husband or wife" },
+      { "word": "single", "meaning": "not married" },
+      { "word": "passport", "meaning": "an official document to travel to other countries" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking for personal details",
+        "explanation": "Use 'What is your...?' to ask for information. Example: What is your address?"
+      },
+      {
+        "title": "Answering questions about yourself",
+        "explanation": "Use 'My' or 'I am' to answer. Example: My surname is Khan. I am single."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My first name is Priya.", "translation": "" },
+      { "sentence": "I am Indian.", "translation": "" },
+      { "sentence": "My address is 12 Park Street.", "translation": "" },
+      { "sentence": "My phone number is 9898989898.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means your last name?",
+        "options": ["address", "surname", "phone number"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Your ___ is the day you were born.",
+        "options": ["passport", "email", "date of birth"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Nationality means the country you are from.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which is used to travel to another country?",
+        "options": ["passport", "phone number", "surname"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "If you are not married, you are ___.",
+        "options": ["single", "email", "nationality"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My ___ is Sinha. (surname)",
+        "options": ["address", "surname", "first name"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I am ___. (Indian)",
+        "options": ["phone number", "Indian", "married"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, My, Park, Street, address, 12]",
+        "options": ["is", "My", "Park", "Street", "address", "12"],
+        "answer": ["My", "address", "is", "12", "Park", "Street"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "My ___ is 25 March 1998. (date of birth)",
+        "options": ["date of birth", "passport", "surname"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [name, My, is, first, Rahul]",
+        "options": ["name", "My", "is", "first", "Rahul"],
+        "answer": ["My", "first", "name", "is", "Rahul"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the person's phone number? (Audio: 'My phone number is 9876543210.')",
+        "options": ["9876543210", "1234567890", "9999999999"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the person's nationality? (Audio: 'I am Indian.')",
+        "options": ["Indian", "Single", "Priya"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What is the person's surname? (Audio: 'My surname is Patel.')",
+        "options": ["Patel", "Priya", "Kumar"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is the address? (Audio: 'My address is 45 Lake Road.')",
+        "options": ["45 Lake Road", "25 Park Street", "12 Park Street"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Is the person married or single? (Audio: 'I am single.')",
+        "options": ["Married", "Single", "Email"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My first name is Priya.'",
+        "options": [],
+        "answer": "My first name is Priya."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I am Indian.'",
+        "options": [],
+        "answer": "I am Indian."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'My address is 12 Park Street.'",
+        "options": [],
+        "answer": "My address is 12 Park Street."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'My date of birth is 25 March 1998.'",
+        "options": [],
+        "answer": "My date of birth is 25 March 1998."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I am single.'",
+        "options": [],
+        "answer": "I am single."
+      }
+    ]
+  }
 }

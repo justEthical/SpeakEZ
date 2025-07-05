@@ -1,4 +1,186 @@
 {
-  "id": 2,
-  "message": "This is file number 2"
+  "id": "lesson_feelings_emotions_001",
+  "lesson_name": "Describing Feelings & Emotions",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "happy", "meaning": "feeling good or pleased" },
+      { "word": "sad", "meaning": "feeling unhappy or down" },
+      { "word": "angry", "meaning": "feeling mad or upset" },
+      { "word": "excited", "meaning": "feeling very happy or eager" },
+      { "word": "nervous", "meaning": "feeling worried or afraid" },
+      { "word": "bored", "meaning": "feeling tired because something is not interesting" },
+      { "word": "surprised", "meaning": "feeling something unexpected happened" },
+      { "word": "tired", "meaning": "feeling you need to rest" },
+      { "word": "scared", "meaning": "feeling afraid" },
+      { "word": "proud", "meaning": "feeling good about what you or someone has done" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'feel' and 'am/is/are'",
+        "explanation": "Use 'I feel' or 'I am' to talk about your feelings. Example: I feel happy. I am sad."
+      },
+      {
+        "title": "Expressing emotions about others",
+        "explanation": "Use 'He/She is' or 'They are' for others. Example: She is excited. They are bored."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I am happy today.", "translation": "" },
+      { "sentence": "He feels nervous before the test.", "translation": "" },
+      { "sentence": "We are excited about the trip.", "translation": "" },
+      { "sentence": "She is proud of her work.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'feeling good or pleased'?",
+        "options": ["Sad", "Happy", "Angry"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "If you are not interested, you feel ___.",
+        "options": ["bored", "proud", "nervous"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which feeling is about being afraid?",
+        "options": ["Surprised", "Scared", "Excited"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "You feel excited when something fun will happen.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'feeling mad'?",
+        "options": ["Angry", "Tired", "Proud"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She is ___ because it is her birthday.",
+        "options": ["sad", "happy", "scared"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He feels ___ before the exam.",
+        "options": ["bored", "nervous", "excited"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [we, about, excited, are, trip, the]",
+        "options": ["we", "about", "excited", "are", "trip", "the"],
+        "answer": ["We", "are", "excited", "about", "the", "trip"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "They are ___ because the movie is long and not interesting.",
+        "options": ["proud", "bored", "surprised"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, today, happy, am]",
+        "options": ["I", "today", "happy", "am"],
+        "answer": ["I", "am", "happy", "today"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "How does the speaker feel? (Audio: 'I am tired.')",
+        "options": ["Tired", "Excited", "Proud"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Why is the speaker surprised? (Audio: 'I am surprised to see you.')",
+        "options": ["To see a friend", "To eat lunch", "To do homework"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What feeling does the speaker have? (Audio: 'He is angry.')",
+        "options": ["Happy", "Angry", "Sad"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Why is she proud? (Audio: 'She is proud of her work.')",
+        "options": ["Her work", "Her school", "Her friend"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "How does the speaker feel? (Audio: 'I am scared of the dark.')",
+        "options": ["Scared", "Bored", "Happy"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I am happy today.'",
+        "options": [],
+        "answer": "I am happy today."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'He feels nervous before the test.'",
+        "options": [],
+        "answer": "He feels nervous before the test."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We are excited about the trip.'",
+        "options": [],
+        "answer": "We are excited about the trip."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'They are bored.'",
+        "options": [],
+        "answer": "They are bored."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She is proud of her work.'",
+        "options": [],
+        "answer": "She is proud of her work."
+      }
+    ]
+  }
 }

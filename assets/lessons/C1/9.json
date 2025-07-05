@@ -1,4 +1,187 @@
 {
-  "id": 9,
-  "message": "This is file number 9"
+  "id": "lesson_debates_discussions_c1_001",
+  "lesson_name": "Participating in Debates and Discussions",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "assert", "meaning": "to state something firmly" },
+      { "word": "counterargument", "meaning": "an argument against another argument" },
+      { "word": "moderator", "meaning": "a person who leads a discussion or debate" },
+      { "word": "stance", "meaning": "a position or view on a topic" },
+      { "word": "rebuttal", "meaning": "an answer to a criticism or argument" },
+      { "word": "clarification", "meaning": "making something easier to understand" },
+      { "word": "persuade", "meaning": "to make someone agree with you" },
+      { "word": "justify", "meaning": "to give reasons for your opinion" },
+      { "word": "concede", "meaning": "to admit that something is true, often unwillingly" },
+      { "word": "summarize", "meaning": "to give a short statement of the main points" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Modal Verbs for Opinions",
+        "explanation": "Use modals like 'might', 'could', 'should' to express opinions gently. E.g., 'We might consider another approach.'"
+      },
+      {
+        "title": "Signposting in Discussions",
+        "explanation": "Use phrases like 'Firstly', 'However', 'In conclusion' to structure your argument clearly."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I would like to assert that technology improves our lives.", "translation": "" },
+      { "sentence": "Her counterargument was strong and well-supported.", "translation": "" },
+      { "sentence": "The moderator asked for clarification.", "translation": "" },
+      { "sentence": "He gave a convincing rebuttal to the criticism.", "translation": "" },
+      { "sentence": "To summarize, we need more research on this issue.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'stance' mean?",
+        "options": ["A position on a topic", "A type of speech", "A summary of results"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "Who is a moderator?",
+        "options": ["A person who presents arguments", "A person who leads the debate", "A person who listens quietly"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A rebuttal is a response to an argument.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "fillInTheBlanks",
+        "question": "To ___ is to try to change someone's mind.",
+        "options": ["persuade", "clarify", "summarize"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does it mean to concede a point?",
+        "options": ["Argue against it", "Ignore it", "Admit it is true"],
+        "answer": 2
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Can you ___ your main argument?",
+        "options": ["concede", "summarize", "counter"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I would like to ___ my opinion on this issue.",
+        "options": ["assert", "moderate", "justify"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [should, first, address, we, the, arguments, main]",
+        "options": ["should", "first", "address", "we", "the", "arguments", "main"],
+        "answer": ["First", "we", "should", "address", "the", "main", "arguments"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Her ___ made me think more about my opinion.",
+        "options": ["justification", "rebuttal", "stance"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, conclusion, need, we, consider, options, more, to]",
+        "options": ["in", "conclusion", "need", "we", "consider", "options", "more", "to"],
+        "answer": ["In", "conclusion", "we", "need", "to", "consider", "more", "options"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "If you hear, 'Can you clarify your point?', what is being asked?",
+        "options": ["To speak louder", "To make your idea clearer", "To give a summary"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What does it mean when someone says, 'To summarize'?",
+        "options": ["To begin a debate", "To end with main points", "To give a rebuttal"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "If the moderator asks for a counterargument, what should you do?",
+        "options": ["Agree with the speaker", "Give an opposing view", "Remain silent"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "If someone says, 'I concede that point,' what are they doing?",
+        "options": ["Refusing to listen", "Admitting the other person is right", "Changing the topic"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does 'justify your stance' mean?",
+        "options": ["Give reasons for your opinion", "Summarize your speech", "Change your opinion"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I would like to assert my opinion on this topic.'",
+        "options": [],
+        "answer": "I would like to assert my opinion on this topic."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My counterargument is based on recent studies.'",
+        "options": [],
+        "answer": "My counterargument is based on recent studies."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'To clarify, I believe education is essential.'",
+        "options": [],
+        "answer": "To clarify, I believe education is essential."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'In conclusion, we need more evidence.'",
+        "options": [],
+        "answer": "In conclusion, we need more evidence."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I concede that your argument has some merit.'",
+        "options": [],
+        "answer": "I concede that your argument has some merit."
+      }
+    ]
+  }
 }

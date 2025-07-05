@@ -1,4 +1,187 @@
 {
-  "id": 5,
-  "message": "This is file number 5"
+  "id": "lesson_peer_reviewed_journal_articles_c2_001",
+  "lesson_name": "Writing Peer-Reviewed Journal Articles",
+  "purpose": "Academic, Research, Professional Writing",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "peer review", "meaning": "evaluation of work by experts in the same field" },
+      { "word": "manuscript", "meaning": "a document submitted for publication" },
+      { "word": "abstract", "meaning": "a brief summary of a research article" },
+      { "word": "methodology", "meaning": "the system of methods used in a study" },
+      { "word": "results", "meaning": "the findings or outcomes of research" },
+      { "word": "discussion", "meaning": "section where results are interpreted" },
+      { "word": "references", "meaning": "list of sources cited in the article" },
+      { "word": "citation", "meaning": "a reference to a published source" },
+      { "word": "plagiarism", "meaning": "using someone else's work as your own" },
+      { "word": "editorial board", "meaning": "a group of experts who review submissions" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Formal Passive Structures",
+        "explanation": "Use the passive voice to focus on research processes. E.g., 'Data were collected from five universities.'"
+      },
+      {
+        "title": "Hedging Language",
+        "explanation": "Use modal verbs and cautious language to avoid overgeneralizing. E.g., 'The results suggest...' or 'This may indicate...'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The manuscript was accepted after peer review.", "translation": "" },
+      { "sentence": "An abstract provides a concise overview of the study.", "translation": "" },
+      { "sentence": "Plagiarism is strictly prohibited in academic writing.", "translation": "" },
+      { "sentence": "References must follow the journal’s style guidelines.", "translation": "" },
+      { "sentence": "The editorial board decides whether the article is published.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is the purpose of peer review?",
+        "options": ["To advertise the article", "To evaluate research by experts", "To write the references"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is a brief summary at the start of an article.",
+        "options": ["manuscript", "abstract", "citation"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Plagiarism is acceptable in journal articles.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which section interprets the findings?",
+        "options": ["Abstract", "Discussion", "References"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does the editorial board do?",
+        "options": ["Conducts experiments", "Reviews and approves articles", "Writes the citations"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ must be formatted according to journal rules.",
+        "options": ["references", "results", "abstract"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "After ___, the article may be revised.",
+        "options": ["citation", "peer review", "publication"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [was, the, by, accepted, board, editorial, manuscript]",
+        "options": ["was", "the", "by", "accepted", "board", "editorial", "manuscript"],
+        "answer": ["The", "manuscript", "was", "accepted", "by", "the", "editorial", "board"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ is using someone else’s work without credit.",
+        "options": ["Peer review", "Plagiarism", "Methodology"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, abstract, article, of, the, the, summary]",
+        "options": ["is", "abstract", "article", "of", "the", "the", "summary"],
+        "answer": ["The", "abstract", "is", "the", "summary", "of", "the", "article"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What must be included at the end of a research article?",
+        "options": ["Abstract", "References", "Plagiarism"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Who evaluates the submitted manuscript?",
+        "options": ["The editorial board", "The readers", "The advertisers"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which section details the study’s procedures?",
+        "options": ["Abstract", "Methodology", "Discussion"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is required to avoid plagiarism?",
+        "options": ["Citations", "Long sentences", "No references"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which part summarizes the key findings?",
+        "options": ["Results", "References", "Editorial board"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Describe the main steps in publishing a peer-reviewed article.",
+        "options": [],
+        "answer": "You submit a manuscript, it is peer-reviewed, possibly revised, and finally published."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Explain why the abstract is important in journal articles.",
+        "options": [],
+        "answer": "The abstract helps readers quickly understand the article’s main ideas and findings."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Discuss how to avoid plagiarism in academic writing.",
+        "options": [],
+        "answer": "To avoid plagiarism, always cite your sources and use your own words."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Summarize the difference between methodology and results sections.",
+        "options": [],
+        "answer": "The methodology explains how the research was done; the results show what was found."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Give one reason why peer review is valuable.",
+        "options": [],
+        "answer": "Peer review improves the quality and reliability of published research."
+      }
+    ]
+  }
 }

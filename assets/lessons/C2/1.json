@@ -1,4 +1,187 @@
 {
-  "id": 1,
-  "message": "This is file number 1"
+  "id": "lesson_analyzing_philosophical_texts_c2_001",
+  "lesson_name": "Analyzing Philosophical Texts",
+  "purpose": "Academic, Philosophy, Critical Thinking",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "ontology", "meaning": "the study of being and existence" },
+      { "word": "epistemology", "meaning": "the study of knowledge and belief" },
+      { "word": "dialectic", "meaning": "discussion or reasoning by dialogue as a method of intellectual investigation" },
+      { "word": "paradox", "meaning": "a statement that seems contradictory but may be true" },
+      { "word": "axiom", "meaning": "a statement accepted as true without proof" },
+      { "word": "empiricism", "meaning": "the theory that all knowledge comes from experience" },
+      { "word": "metaphysics", "meaning": "the branch of philosophy dealing with the nature of reality" },
+      { "word": "determinism", "meaning": "the belief that all events are caused by previous events" },
+      { "word": "teleology", "meaning": "the explanation of phenomena by the purpose they serve" },
+      { "word": "solipsism", "meaning": "the idea that only one's own mind is sure to exist" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Complex Sentences for Critical Analysis",
+        "explanation": "Use subordinate clauses to express relationships and nuances, e.g., 'Although the argument is compelling, it fails to address...' "
+      },
+      {
+        "title": "Nominalization in Academic Writing",
+        "explanation": "Transform verbs or adjectives into nouns for formal tone, e.g., 'to analyze' → 'analysis', 'certain' → 'certainty'."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Epistemology explores how we acquire knowledge.", "translation": "" },
+      { "sentence": "The philosopher presented a paradox that challenged common beliefs.", "translation": "" },
+      { "sentence": "Determinism suggests that all actions are the result of prior causes.", "translation": "" },
+      { "sentence": "The ontological question remains central to many philosophical debates.", "translation": "" },
+      { "sentence": "Empiricism emphasizes observation and experience over theory.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'ontology' study?",
+        "options": ["Knowledge", "Existence", "Morality"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A(n) ___ is accepted as true without proof.",
+        "options": ["axiom", "paradox", "dialectic"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which branch deals with reality's nature?",
+        "options": ["Metaphysics", "Empiricism", "Teleology"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Solipsism holds that only one's own mind can be known to exist.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Empiricism values knowledge from:",
+        "options": ["Logic", "Authority", "Experience"],
+        "answer": 2
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ is the study of knowledge and justified belief.",
+        "options": ["Epistemology", "Ontology", "Teleology"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [philosophy, questions, metaphysical, explores, fundamental]",
+        "options": ["philosophy", "questions", "metaphysical", "explores", "fundamental"],
+        "answer": ["Philosophy", "explores", "fundamental", "metaphysical", "questions"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "A ___ often appears self-contradictory but can reveal deeper truths.",
+        "options": ["paradox", "axiom", "determinism"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ is a reasoning process involving dialogue and argument.",
+        "options": ["Empiricism", "Dialectic", "Solipsism"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [debate, determinism, in, is, central, philosophical, many]",
+        "options": ["debate", "determinism", "in", "is", "central", "philosophical", "many"],
+        "answer": ["Determinism", "is", "central", "in", "many", "philosophical", "debate"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the focus of epistemology?",
+        "options": ["Being", "Knowledge", "Morality"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "If something is described as 'teleological,' what does it relate to?",
+        "options": ["Purpose", "Experience", "Existence"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "When a philosopher uses a paradox, what are they often trying to do?",
+        "options": ["Prove a fact", "Challenge assumptions", "Describe reality"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What does determinism suggest about human actions?",
+        "options": ["They are free", "They are random", "They are caused by prior events"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is an axiom?",
+        "options": ["A proven fact", "A statement accepted without proof", "A debated opinion"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Summarize the main idea of a philosophical text you have read.",
+        "options": [],
+        "answer": "The main idea of the philosophical text is..."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Explain the difference between ontology and epistemology.",
+        "options": [],
+        "answer": "Ontology is the study of being and existence, while epistemology is the study of knowledge and belief."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Use 'paradox' in a sentence related to philosophy.",
+        "options": [],
+        "answer": "The paradox in the philosopher's argument made me think more deeply."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Describe a philosophical debate using the word 'dialectic'.",
+        "options": [],
+        "answer": "The dialectic between the two philosophers led to new insights."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Discuss how empiricism influences modern science.",
+        "options": [],
+        "answer": "Empiricism influences modern science by emphasizing the importance of observation and experience."
+      }
+    ]
+  }
 }

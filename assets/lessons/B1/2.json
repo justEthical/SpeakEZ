@@ -1,4 +1,186 @@
 {
-  "id": 2,
-  "message": "This is file number 2"
+  "id": "lesson_education_studies_001",
+  "lesson_name": "Talking About Education & Studies",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "subject", "meaning": "a topic studied at school or college" },
+      { "word": "exam", "meaning": "a formal test" },
+      { "word": "degree", "meaning": "a qualification from a university" },
+      { "word": "assignment", "meaning": "work given by a teacher to be done at home" },
+      { "word": "lecture", "meaning": "a talk given to students" },
+      { "word": "research", "meaning": "to study something in detail" },
+      { "word": "enroll", "meaning": "to officially join a course or school" },
+      { "word": "graduate", "meaning": "to finish school or university successfully" },
+      { "word": "semester", "meaning": "half of a school or university year" },
+      { "word": "presentation", "meaning": "a talk about a topic, often in class" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about past studies",
+        "explanation": "Use the simple past for completed studies. Example: I studied biology last year."
+      },
+      {
+        "title": "Present Perfect for recent achievements",
+        "explanation": "Use 'have/has + past participle' for recent events. Example: I have just finished my assignment."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I am enrolled in a degree course.", "translation": "" },
+      { "sentence": "He passed his final exam last week.", "translation": "" },
+      { "sentence": "She has completed all her assignments.", "translation": "" },
+      { "sentence": "Our teacher gave a lecture on chemistry.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a qualification from a university'?",
+        "options": ["lecture", "degree", "subject"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is work given by a teacher to do at home.",
+        "options": ["degree", "assignment", "exam"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'to officially join a course'?",
+        "options": ["graduate", "research", "enroll"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "A presentation is a talk about a topic in class.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'half of a school year'?",
+        "options": ["semester", "subject", "lecture"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She has ___ all her assignments.",
+        "options": ["completed", "enrolled", "graduated"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He ___ his final exam last week.",
+        "options": ["passes", "passed", "passing"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [degree, in, am, a, I, enrolled, course]",
+        "options": ["degree", "in", "am", "a", "I", "enrolled", "course"],
+        "answer": ["I", "am", "enrolled", "in", "a", "degree", "course"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Our teacher gave a ___ on chemistry.",
+        "options": ["lecture", "semester", "research"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [her, has, graduated, she, university, from]",
+        "options": ["her", "has", "graduated", "she", "university", "from"],
+        "answer": ["She", "has", "graduated", "from", "her", "university"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the speaker enrolled in? (Audio: 'I am enrolled in a degree course.')",
+        "options": ["A degree course", "A lecture", "A semester"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What did he do last week? (Audio: 'He passed his final exam last week.')",
+        "options": ["Completed assignments", "Passed his final exam", "Started a new semester"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What has she completed? (Audio: 'She has completed all her assignments.')",
+        "options": ["All her assignments", "A degree", "Research"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What did the teacher give? (Audio: 'Our teacher gave a lecture on chemistry.')",
+        "options": ["An exam", "A presentation", "A lecture"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What has she done? (Audio: 'She has graduated from her university.')",
+        "options": ["Graduated", "Enrolled", "Given a lecture"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I am enrolled in a degree course.'",
+        "options": [],
+        "answer": "I am enrolled in a degree course."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'He passed his final exam last week.'",
+        "options": [],
+        "answer": "He passed his final exam last week."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She has completed all her assignments.'",
+        "options": [],
+        "answer": "She has completed all her assignments."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Our teacher gave a lecture on chemistry.'",
+        "options": [],
+        "answer": "Our teacher gave a lecture on chemistry."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She has graduated from her university.'",
+        "options": [],
+        "answer": "She has graduated from her university."
+      }
+    ]
+  }
 }

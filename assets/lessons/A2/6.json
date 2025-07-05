@@ -1,4 +1,186 @@
 {
-  "id": 6,
-  "message": "This is file number 6"
+  "id": "lesson_describing_people_character_001",
+  "lesson_name": "Describing People (character/personality)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "friendly", "meaning": "kind and pleasant to others" },
+      { "word": "honest", "meaning": "always tells the truth" },
+      { "word": "hardworking", "meaning": "works a lot and does not give up" },
+      { "word": "polite", "meaning": "has good manners" },
+      { "word": "funny", "meaning": "makes people laugh" },
+      { "word": "brave", "meaning": "not afraid to do difficult things" },
+      { "word": "shy", "meaning": "quiet and not confident with new people" },
+      { "word": "selfish", "meaning": "thinks only about himself/herself" },
+      { "word": "generous", "meaning": "likes to give and share" },
+      { "word": "lazy", "meaning": "does not like to work or do much" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'is' and 'are' with adjectives",
+        "explanation": "Use 'is' for one person and 'are' for many. Example: She is polite. They are hardworking."
+      },
+      {
+        "title": "Describing yourself and others",
+        "explanation": "Use 'I am', 'He is', 'She is', 'They are' + adjective. Example: I am honest."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My brother is very funny.", "translation": "" },
+      { "sentence": "She is a hardworking student.", "translation": "" },
+      { "sentence": "They are always friendly to everyone.", "translation": "" },
+      { "sentence": "I am honest and polite.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'makes people laugh'?",
+        "options": ["shy", "funny", "brave"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Someone who always tells the truth is ___.",
+        "options": ["honest", "lazy", "friendly"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A generous person likes to share.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Who is not afraid to do difficult things?",
+        "options": ["brave", "shy", "selfish"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'does not like to work'?",
+        "options": ["polite", "lazy", "honest"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My teacher is very ___. (polite)",
+        "options": ["polite", "lazy", "shy"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He is a ___ boy. (hardworking)",
+        "options": ["funny", "hardworking", "selfish"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, generous, She]",
+        "options": ["is", "generous", "She"],
+        "answer": ["She", "is", "generous"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "They are always ___. (friendly)",
+        "options": ["brave", "friendly", "lazy"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, and, honest, polite, am]",
+        "options": ["I", "and", "honest", "polite", "am"],
+        "answer": ["I", "am", "honest", "and", "polite"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "How is the person's brother? (Audio: 'My brother is very funny.')",
+        "options": ["Brave", "Funny", "Lazy"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the student like? (Audio: 'She is a hardworking student.')",
+        "options": ["Lazy", "Selfish", "Hardworking"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "How are they to everyone? (Audio: 'They are always friendly to everyone.')",
+        "options": ["Friendly", "Brave", "Polite"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "How does the speaker describe themselves? (Audio: 'I am honest and polite.')",
+        "options": ["Brave and shy", "Honest and polite", "Lazy and selfish"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Who likes to give and share? (Audio: 'She is generous.')",
+        "options": ["Polite", "Generous", "Hardworking"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My brother is very funny.'",
+        "options": [],
+        "answer": "My brother is very funny."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She is a hardworking student.'",
+        "options": [],
+        "answer": "She is a hardworking student."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'They are always friendly to everyone.'",
+        "options": [],
+        "answer": "They are always friendly to everyone."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I am honest and polite.'",
+        "options": [],
+        "answer": "I am honest and polite."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She is generous.'",
+        "options": [],
+        "answer": "She is generous."
+      }
+    ]
+  }
 }

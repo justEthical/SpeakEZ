@@ -1,4 +1,187 @@
 {
-  "id": 4,
-  "message": "This is file number 4"
+  "id": "lesson_metaethics_moral_philosophy_c2_001",
+  "lesson_name": "Discussing Meta-ethics and Moral Philosophy",
+  "purpose": "Academic, Philosophy, Advanced Discussion",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "meta-ethics", "meaning": "the study of the nature and meaning of moral terms and judgments" },
+      { "word": "normativity", "meaning": "the quality of establishing standards or norms, especially for behavior" },
+      { "word": "moral realism", "meaning": "the view that moral facts exist independently of human opinion" },
+      { "word": "subjectivism", "meaning": "the view that moral judgments are based on personal feelings or perspectives" },
+      { "word": "non-cognitivism", "meaning": "the belief that moral statements do not express truths and cannot be true or false" },
+      { "word": "emotivism", "meaning": "the theory that moral statements express emotional reactions" },
+      { "word": "prescriptivism", "meaning": "the theory that moral statements are instructions or recommendations" },
+      { "word": "ethical naturalism", "meaning": "the belief that moral properties are reducible to natural properties" },
+      { "word": "moral anti-realism", "meaning": "the view that moral facts do not exist independently of our beliefs" },
+      { "word": "cognitivism", "meaning": "the view that moral statements can be true or false" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Complex Conditional Sentences",
+        "explanation": "Use 'if...then...' to discuss hypothetical ethical scenarios. E.g., 'If moral realism is correct, then objective values exist.'"
+      },
+      {
+        "title": "Passive and Nominalization",
+        "explanation": "Use passive voice and nominalization to focus on processes or ideas, e.g., 'It is argued that...' or 'The justification of actions requires...' "
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Meta-ethics explores the meaning of moral terms.", "translation": "" },
+      { "sentence": "Subjectivism suggests that right and wrong depend on personal perspectives.", "translation": "" },
+      { "sentence": "According to moral realism, moral facts exist independently of what we believe.", "translation": "" },
+      { "sentence": "Non-cognitivists argue that moral claims are not statements of fact.", "translation": "" },
+      { "sentence": "Emotivism holds that moral language is a reflection of our emotions.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does meta-ethics study?",
+        "options": ["Practical ethical rules", "The meaning of moral language", "Historical ethics"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ is the theory that moral facts are independent of human opinions.",
+        "options": ["Moral realism", "Emotivism", "Subjectivism"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which theory says moral statements only express feelings?",
+        "options": ["Prescriptivism", "Cognitivism", "Emotivism"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Subjectivism claims moral judgments are true for everyone.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Non-cognitivism is the belief that...",
+        "options": ["Moral statements can be true or false", "Moral statements do not express facts", "Ethics is the same as science"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "According to ___, moral properties are natural properties.",
+        "options": ["ethical naturalism", "prescriptivism", "emotivism"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, normativity, moral, central, in, philosophy]",
+        "options": ["is", "normativity", "moral", "central", "in", "philosophy"],
+        "answer": ["Normativity", "is", "central", "in", "moral", "philosophy"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "___ holds that moral language is a kind of command.",
+        "options": ["Prescriptivism", "Subjectivism", "Moral realism"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "If you are a ___, you believe moral statements can be true or false.",
+        "options": ["cognitivist", "emotivist", "non-cognitivist"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [questions, meta-ethics, about, nature, moral, asks, of]",
+        "options": ["questions", "meta-ethics", "about", "nature", "moral", "asks", "of"],
+        "answer": ["Meta-ethics", "asks", "questions", "about", "the", "nature", "of", "moral"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is non-cognitivism?",
+        "options": ["A belief in moral facts", "A denial that moral statements are factual", "A focus on historical morals"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What does prescriptivism claim?",
+        "options": ["Moral statements are commands", "Moral statements are always true", "Moral statements are facts"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Who thinks that morality is rooted in emotions?",
+        "options": ["Cognitivists", "Emotivists", "Realists"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which concept concerns the standards of right and wrong?",
+        "options": ["Normativity", "Anachronism", "Juxtaposition"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is the focus of meta-ethics?",
+        "options": ["Application of moral rules", "Study of moral language and concepts", "Study of law"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Summarize the difference between moral realism and moral anti-realism.",
+        "options": [],
+        "answer": "Moral realism holds that moral facts exist independently; anti-realism denies this."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Explain the main point of non-cognitivism in your own words.",
+        "options": [],
+        "answer": "Non-cognitivism says moral statements do not express facts and cannot be true or false."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Give an example of how emotivism explains a moral statement.",
+        "options": [],
+        "answer": "According to emotivism, saying 'Stealing is wrong' means 'I disapprove of stealing.'"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Discuss why normativity is important in moral philosophy.",
+        "options": [],
+        "answer": "Normativity is important because it sets standards for judging actions as right or wrong."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Argue for or against ethical naturalism.",
+        "options": [],
+        "answer": "Ethical naturalism is convincing/unconvincing because it explains moral facts as part of nature."
+      }
+    ]
+  }
 }

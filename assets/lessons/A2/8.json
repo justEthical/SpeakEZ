@@ -1,4 +1,186 @@
 {
-  "id": 8,
-  "message": "This is file number 8"
+  "id": "lesson_giving_reasons_001",
+  "lesson_name": "Giving Reasons (because, so)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "because", "meaning": "to give a reason" },
+      { "word": "so", "meaning": "shows a result" },
+      { "word": "hungry", "meaning": "want to eat" },
+      { "word": "tired", "meaning": "want to rest or sleep" },
+      { "word": "rain", "meaning": "water falls from the sky" },
+      { "word": "late", "meaning": "after the usual time" },
+      { "word": "exam", "meaning": "a test at school" },
+      { "word": "homework", "meaning": "work given by teachers to do at home" },
+      { "word": "cold", "meaning": "low temperature" },
+      { "word": "miss", "meaning": "to not be at or to not have something" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'because' for reasons",
+        "explanation": "Put 'because' before the reason. Example: I am late because it is raining."
+      },
+      {
+        "title": "Using 'so' for results",
+        "explanation": "Put 'so' before the result. Example: It is raining, so I am late."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I am hungry because I did not eat breakfast.", "translation": "" },
+      { "sentence": "It is raining, so I took my umbrella.", "translation": "" },
+      { "sentence": "He is tired because he worked all day.", "translation": "" },
+      { "sentence": "She missed the bus, so she was late.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'to give a reason'?",
+        "options": ["because", "so", "rain"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "You feel ___ if you want to rest.",
+        "options": ["hungry", "tired", "cold"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word shows a result?",
+        "options": ["because", "so", "miss"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "An exam is a test at school.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'work given by teachers to do at home'?",
+        "options": ["homework", "rain", "cold"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He was late ___ he missed the bus.",
+        "options": ["so", "because", "cold"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "It was raining, ___ we stayed inside.",
+        "options": ["because", "so", "miss"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, tired, worked, because, am, all day]",
+        "options": ["I", "tired", "worked", "because", "am", "all day"],
+        "answer": ["I", "am", "tired", "because", "I", "worked", "all day"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "She had an exam, ___ she studied hard.",
+        "options": ["so", "because", "rain"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, not, breakfast, eat, did, because, was, hungry, I]",
+        "options": ["I", "not", "breakfast", "eat", "did", "because", "was", "hungry", "I"],
+        "answer": ["I", "was", "hungry", "because", "I", "did", "not", "eat", "breakfast"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Why was the speaker late? (Audio: 'I was late because I missed the bus.')",
+        "options": ["Because of the rain", "Because they missed the bus", "Because of an exam"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What did the speaker do because it was cold? (Audio: 'It was cold, so I wore a jacket.')",
+        "options": ["Wore a jacket", "Ate breakfast", "Went home"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Why did he study hard? (Audio: 'He had an exam, so he studied hard.')",
+        "options": ["Because he was hungry", "Because he had an exam", "Because it was raining"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Why is the speaker hungry? (Audio: 'I am hungry because I did not eat breakfast.')",
+        "options": ["Because they ate breakfast", "Because they did not eat breakfast", "Because they studied hard"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What did the speaker do because it was raining? (Audio: 'It is raining, so I took my umbrella.')",
+        "options": ["Took an umbrella", "Missed the bus", "Wore a jacket"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I am hungry because I did not eat breakfast.'",
+        "options": [],
+        "answer": "I am hungry because I did not eat breakfast."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'It is raining, so I took my umbrella.'",
+        "options": [],
+        "answer": "It is raining, so I took my umbrella."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She missed the bus, so she was late.'",
+        "options": [],
+        "answer": "She missed the bus, so she was late."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He is tired because he worked all day.'",
+        "options": [],
+        "answer": "He is tired because he worked all day."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She had an exam, so she studied hard.'",
+        "options": [],
+        "answer": "She had an exam, so she studied hard."
+      }
+    ]
+  }
 }

@@ -1,4 +1,207 @@
 {
-  "id": 6,
-  "message": "This is file number 6"
+  "id": "lesson_advanced_scientific_research_c2_001",
+  "lesson_name": "Conducting Advanced Scientific Research",
+  "purpose": "Academic, Research, Professional Development",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "hypothesis", "meaning": "a proposed explanation for a phenomenon" },
+      { "word": "empirical", "meaning": "based on observation or experience" },
+      { "word": "methodology", "meaning": "system of methods used in research" },
+      { "word": "meta-analysis", "meaning": "a study that combines data from multiple studies" },
+      { "word": "longitudinal", "meaning": "study that collects data over a long period" },
+      { "word": "randomized controlled trial", "meaning": "an experiment with random allocation to groups" },
+      { "word": "statistical significance", "meaning": "measure of whether results are likely due to chance" },
+      { "word": "replicability", "meaning": "ability to repeat results in another study" },
+      { "word": "confounding variable", "meaning": "factor that distorts the true relationship between variables" },
+      { "word": "systematic review", "meaning": "summary of all available evidence on a topic" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Nominalization in Academic Writing",
+        "explanation": "Turn verbs into nouns for formal style. E.g., 'to analyze' becomes 'analysis': 'The analysis was conducted…'"
+      },
+      {
+        "title": "Complex Conditionals",
+        "explanation": "Use complex conditionals to express research scenarios: 'If the sample size had been larger, the results might have differed.'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "A robust methodology is crucial for replicability.", "translation": "" },
+      { "sentence": "Meta-analyses provide comprehensive insights by synthesizing existing studies.", "translation": "" },
+      { "sentence": "The findings achieved statistical significance.", "translation": "" },
+      { "sentence": "Confounding variables must be carefully controlled.", "translation": "" },
+      { "sentence": "Longitudinal studies track changes over extended periods.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'empirical' mean in research?",
+        "options": ["Based on theory", "Based on observation", "Based on opinion"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is a proposed explanation that can be tested.",
+        "options": ["hypothesis", "confounding variable", "review"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What is a meta-analysis?",
+        "options": [
+          "A single experiment",
+          "A review of unrelated books",
+          "A study combining data from multiple studies"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Randomized controlled trials use random allocation to groups.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What must be controlled to avoid bias?",
+        "options": ["Abstract", "Confounding variable", "Methodology"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The results were not ___ significant.",
+        "options": ["statistically", "methodologically", "randomly"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ study follows subjects for many years.",
+        "options": ["systematic", "longitudinal", "empirical"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [variable, confounding, must, controlled, be]",
+        "options": ["variable", "confounding", "must", "controlled", "be"],
+        "answer": ["Confounding", "variable", "must", "be", "controlled"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "A ___ review summarizes all evidence on a topic.",
+        "options": ["randomized", "systematic", "empirical"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [analysis, meta-, is, a, data, synthesis, of]",
+        "options": ["analysis", "meta-", "is", "a", "data", "synthesis", "of"],
+        "answer": ["A", "meta-analysis", "is", "a", "synthesis", "of", "data"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which research design randomly assigns subjects to groups?",
+        "options": [
+          "Longitudinal study",
+          "Randomized controlled trial",
+          "Systematic review"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What does a systematic review provide?",
+        "options": [
+          "An opinion piece",
+          "A summary of research evidence",
+          "A single experiment"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which term refers to results that can be duplicated?",
+        "options": ["Empirical", "Replicability", "Confounding variable"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is a hypothesis?",
+        "options": [
+          "A method of data collection",
+          "A proposed explanation for something",
+          "A published article"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does 'statistical significance' mean?",
+        "options": [
+          "Results are likely due to chance",
+          "Results are unlikely to be due to chance",
+          "Results are always correct"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Explain how to ensure replicability in a scientific study.",
+        "options": [],
+        "answer": "Replicability is ensured by providing detailed methodology and making data available for other researchers."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Describe the process of conducting a meta-analysis.",
+        "options": [],
+        "answer": "A meta-analysis collects and combines data from several studies to identify overall trends."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Discuss the importance of controlling confounding variables.",
+        "options": [],
+        "answer": "Controlling confounding variables ensures the research findings are accurate and unbiased."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Summarize why longitudinal studies are valuable in science.",
+        "options": [],
+        "answer": "Longitudinal studies track changes over time and help identify patterns that short-term studies cannot."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Give an example of using empirical evidence in research.",
+        "options": [],
+        "answer": "Collecting and analyzing real-world data to test a hypothesis is an example of using empirical evidence."
+      }
+    ]
+  }
 }

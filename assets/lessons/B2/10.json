@@ -1,4 +1,186 @@
 {
-  "id": 10,
-  "message": "This is file number 10"
+  "id": "lesson_work_life_balance_001",
+  "lesson_name": "Talking About Work-Life Balance",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "balance", "meaning": "a situation where things are equal or in the right amount" },
+      { "word": "stress", "meaning": "a feeling of worry or tension" },
+      { "word": "priority", "meaning": "something important that must be done first" },
+      { "word": "flexible", "meaning": "able to change easily" },
+      { "word": "overwork", "meaning": "to work too much" },
+      { "word": "schedule", "meaning": "a plan for when things will happen" },
+      { "word": "downtime", "meaning": "free time to relax" },
+      { "word": "burnout", "meaning": "feeling very tired from working too much" },
+      { "word": "remote work", "meaning": "working from a place that is not the office" },
+      { "word": "boundaries", "meaning": "limits between work and personal life" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Modals for Advice",
+        "explanation": "Use 'should', 'ought to', or 'must' to give advice. Example: You should set boundaries."
+      },
+      {
+        "title": "Gerunds and Infinitives After Certain Verbs",
+        "explanation": "Some verbs are followed by '-ing' or 'to'. Example: I enjoy having downtime. I need to finish my work."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Work-life balance is important for good health.", "translation": "" },
+      { "sentence": "You should make time for downtime each day.", "translation": "" },
+      { "sentence": "Burnout happens when you overwork and don’t rest.", "translation": "" },
+      { "sentence": "Remote work can make it harder to set boundaries.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a situation where things are equal or in the right amount'?",
+        "options": ["burnout", "balance", "priority"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ means working from a place that is not the office.",
+        "options": ["Flexible", "Remote work", "Downtime"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you call a plan for when things will happen?",
+        "options": ["Boundaries", "Schedule", "Priority"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Burnout' means feeling very tired from working too much.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'free time to relax'?",
+        "options": ["Schedule", "Downtime", "Overwork"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Work-life ___ is important for good health.",
+        "options": ["balance", "priority", "stress"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "You should make time for ___ each day.",
+        "options": ["overwork", "downtime", "boundaries"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [burnout, when, you, rest, overwork, happens, and, don’t]",
+        "options": ["burnout", "when", "you", "rest", "overwork", "happens", "and", "don’t"],
+        "answer": ["Burnout", "happens", "when", "you", "overwork", "and", "don’t", "rest"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Remote work can make it harder to set ___.",
+        "options": ["burnout", "boundaries", "priority"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [flexible, my, work, is, schedule]",
+        "options": ["flexible", "my", "work", "is", "schedule"],
+        "answer": ["My", "work", "schedule", "is", "flexible"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is important for good health? (Audio: 'Work-life balance is important for good health.')",
+        "options": ["Downtime", "Work-life balance", "Burnout"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What should you make time for each day? (Audio: 'You should make time for downtime each day.')",
+        "options": ["Downtime", "Priority", "Stress"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What happens when you overwork and don’t rest? (Audio: 'Burnout happens when you overwork and don’t rest.')",
+        "options": ["Balance", "Priority", "Burnout"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What can make it harder to set boundaries? (Audio: 'Remote work can make it harder to set boundaries.')",
+        "options": ["Burnout", "Remote work", "Flexible schedule"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which word means 'a feeling of worry or tension'?",
+        "options": ["Stress", "Schedule", "Balance"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Work-life balance is important for good health.'",
+        "options": [],
+        "answer": "Work-life balance is important for good health."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'You should make time for downtime each day.'",
+        "options": [],
+        "answer": "You should make time for downtime each day."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Burnout happens when you overwork and don’t rest.'",
+        "options": [],
+        "answer": "Burnout happens when you overwork and don’t rest."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Remote work can make it harder to set boundaries.'",
+        "options": [],
+        "answer": "Remote work can make it harder to set boundaries."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'My work schedule is flexible.'",
+        "options": [],
+        "answer": "My work schedule is flexible."
+      }
+    ]
+  }
 }

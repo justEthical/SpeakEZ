@@ -1,4 +1,187 @@
 {
-  "id": 10,
-  "message": "This is file number 10"
+  "id": "lesson_evaluating_scientific_claims_c1_001",
+  "lesson_name": "Evaluating Scientific Claims",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "evidence", "meaning": "information that shows something is true" },
+      { "word": "hypothesis", "meaning": "an idea or explanation that is tested" },
+      { "word": "peer review", "meaning": "evaluation by other experts in the field" },
+      { "word": "validity", "meaning": "how true or accurate something is" },
+      { "word": "replicable", "meaning": "able to be repeated with the same results" },
+      { "word": "bias", "meaning": "an unfair preference or prejudice" },
+      { "word": "methodology", "meaning": "the system of methods used in a study" },
+      { "word": "sample size", "meaning": "the number of people or things studied" },
+      { "word": "conclusion", "meaning": "the final decision or judgment" },
+      { "word": "statistical significance", "meaning": "the likelihood that a result is not due to chance" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Passive Voice in Scientific Writing",
+        "explanation": "Passive voice is common in scientific writing. E.g., 'The experiment was conducted by the team.'"
+      },
+      {
+        "title": "Reporting Verbs",
+        "explanation": "Use verbs like 'suggest', 'indicate', 'demonstrate' to report scientific findings. E.g., 'The study suggests a link.'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The evidence supports the hypothesis.", "translation": "" },
+      { "sentence": "Peer review is essential in science.", "translation": "" },
+      { "sentence": "The results must be replicable to be valid.", "translation": "" },
+      { "sentence": "Bias can affect the validity of a claim.", "translation": "" },
+      { "sentence": "The conclusion was based on a large sample size.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is 'bias' in a scientific study?",
+        "options": ["A careful method", "An unfair preference", "A conclusion"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "What does 'replicable' mean?",
+        "options": ["Can be repeated", "Very important", "Hard to understand"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is an idea you test in a study.",
+        "options": ["hypothesis", "sample", "conclusion"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Statistical significance means a result is likely not by chance.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does 'peer review' involve?",
+        "options": ["Making new experiments", "Experts checking the work", "Changing the results"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ of the study depends on the evidence.",
+        "options": ["conclusion", "methodology", "bias"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "A large ___ size makes the study stronger.",
+        "options": ["peer", "sample", "validity"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, was, hypothesis, tested, study, in, the]",
+        "options": ["the", "was", "hypothesis", "tested", "study", "in", "the"],
+        "answer": ["The", "hypothesis", "was", "tested", "in", "the", "study"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Results should be ___ to be trusted.",
+        "options": ["bias", "replicable", "peer"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, was, reviewed, peer, by, work]",
+        "options": ["the", "was", "reviewed", "peer", "by", "work"],
+        "answer": ["The", "work", "was", "reviewed", "by", "peer"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "If you hear 'The results were statistically significant,' what does it mean?",
+        "options": ["The results happened by chance", "The results are important and not by chance", "The results are not finished"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the role of peer review?",
+        "options": ["To publish the work", "To check the work for quality", "To collect more data"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "When someone says 'methodology,' what are they talking about?",
+        "options": ["The way the study was done", "The people in the study", "The final results"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "If a claim has no evidence, what should you do?",
+        "options": ["Trust it", "Question it", "Ignore it"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "If a study is not replicable, what is the problem?",
+        "options": ["It cannot be repeated with the same results", "It is very expensive", "It is finished quickly"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The hypothesis was supported by strong evidence.'",
+        "options": [],
+        "answer": "The hypothesis was supported by strong evidence."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Peer review helps ensure the validity of research.'",
+        "options": [],
+        "answer": "Peer review helps ensure the validity of research."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'There was some bias in the methodology.'",
+        "options": [],
+        "answer": "There was some bias in the methodology."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The sample size affects the study's reliability.'",
+        "options": [],
+        "answer": "The sample size affects the study's reliability."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The results were not replicable.'",
+        "options": [],
+        "answer": "The results were not replicable."
+      }
+    ]
+  }
 }

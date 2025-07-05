@@ -1,4 +1,186 @@
 {
-  "id": 10,
-  "message": "This is file number 10"
+  "id": "lesson_my_house_home_001",
+  "lesson_name": "My House / Home",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "house", "meaning": "a place where you live" },
+      { "word": "home", "meaning": "the place you live with your family" },
+      { "word": "room", "meaning": "a part of a house" },
+      { "word": "kitchen", "meaning": "the room where you cook food" },
+      { "word": "bedroom", "meaning": "the room where you sleep" },
+      { "word": "bathroom", "meaning": "the room where you wash" },
+      { "word": "living room", "meaning": "the room where you sit and talk" },
+      { "word": "garden", "meaning": "an area with plants near your house" },
+      { "word": "window", "meaning": "an opening in the wall to let in light" },
+      { "word": "door", "meaning": "the part you open to go in or out" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'There is/There are'",
+        "explanation": "Use 'There is' for one thing and 'There are' for many. Example: There is a kitchen. There are two windows."
+      },
+      {
+        "title": "Using 'my' for things you have",
+        "explanation": "Use 'my' to talk about your house. Example: My house is big. My room is blue."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My house has three rooms.", "translation": "मेरे घर में तीन कमरे हैं।" },
+      { "sentence": "There is a kitchen in my house.", "translation": "मेरे घर में एक रसोईघर है।" },
+      { "sentence": "The bathroom is small.", "translation": "बाथरूम छोटा है।" },
+      { "sentence": "We sit in the living room.", "translation": "हम बैठक कक्ष में बैठते हैं।" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which room do you sleep in?",
+        "options": ["Kitchen", "Bedroom", "Bathroom"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "You cook food in the ___.",
+        "options": ["kitchen", "garden", "window"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which part do you open to go in or out?",
+        "options": ["Door", "Room", "Window"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "A garden is usually inside the house.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Where do you wash?",
+        "options": ["Bedroom", "Bathroom", "Living room"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My house has two ___. (bathrooms)",
+        "options": ["kitchens", "bedrooms", "bathrooms"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "There is a ___ in my house. (garden)",
+        "options": ["room", "kitchen", "garden"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [my, is, blue, room]",
+        "options": ["my", "is", "blue", "room"],
+        "answer": ["My", "room", "is", "blue"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We sit in the ___.",
+        "options": ["living room", "bathroom", "garden"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [has, My, rooms, three, house]",
+        "options": ["has", "My", "rooms", "three", "house"],
+        "answer": ["My", "house", "has", "three", "rooms"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which room did the speaker mention? (Audio: 'The kitchen is big.')",
+        "options": ["Kitchen", "Bedroom", "Bathroom"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "How many rooms are in the house? (Audio: 'My house has three rooms.')",
+        "options": ["Two", "Three", "Four"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Where do we sit? (Audio: 'We sit in the living room.')",
+        "options": ["Living room", "Bathroom", "Garden"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which part lets in light? (Audio: 'There are two windows in my house.')",
+        "options": ["Door", "Window", "Room"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which room is small? (Audio: 'The bathroom is small.')",
+        "options": ["Kitchen", "Bedroom", "Bathroom"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My house has three rooms.'",
+        "options": [],
+        "answer": "My house has three rooms."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'There is a kitchen in my house.'",
+        "options": [],
+        "answer": "There is a kitchen in my house."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We sit in the living room.'",
+        "options": [],
+        "answer": "We sit in the living room."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The bathroom is small.'",
+        "options": [],
+        "answer": "The bathroom is small."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'My room is blue.'",
+        "options": [],
+        "answer": "My room is blue."
+      }
+    ]
+  }
 }

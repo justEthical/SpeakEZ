@@ -1,4 +1,187 @@
 {
-  "id": 3,
-  "message": "This is file number 3"
+  "id": "lesson_nuanced_tone_register_c1_001",
+  "lesson_name": "Understanding Nuanced Tone and Register",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "tone", "meaning": "the writer's or speaker's attitude in communication" },
+      { "word": "register", "meaning": "the level of formality or informality in language" },
+      { "word": "formal", "meaning": "very correct and polite language" },
+      { "word": "informal", "meaning": "casual or everyday language" },
+      { "word": "nuanced", "meaning": "showing small differences or subtle shades of meaning" },
+      { "word": "sarcastic", "meaning": "using irony to mock or show contempt" },
+      { "word": "colloquial", "meaning": "language used in ordinary or familiar conversation" },
+      { "word": "empathetic", "meaning": "showing understanding of another's feelings" },
+      { "word": "authoritative", "meaning": "confident and likely to be respected or obeyed" },
+      { "word": "ambiguous", "meaning": "having more than one possible meaning" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Choosing the Right Register",
+        "explanation": "Use more formal words in professional or academic settings. Example: 'request' instead of 'ask for'."
+      },
+      {
+        "title": "Contractions and Informality",
+        "explanation": "Contractions (e.g., 'can't', 'won't') make speech informal. Avoid them in formal writing."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Could you please send the report by Friday?", "translation": "" },
+      { "sentence": "Hey, can you send that report over?", "translation": "" },
+      { "sentence": "Her tone was polite but firm.", "translation": "" },
+      { "sentence": "He spoke in a very formal register during the meeting.", "translation": "" },
+      { "sentence": "The writer used a sarcastic tone to criticize the policy.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'register' mean in language?",
+        "options": ["the speed of talking", "level of formality", "a type of dictionary"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "Which word means 'showing subtle differences'?",
+        "options": ["ambiguous", "nuanced", "empathetic"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "A ___ tone shows understanding of someone’s feelings.",
+        "options": ["formal", "empathetic", "sarcastic"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Colloquial' language is used in academic essays.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word describes a tone that mocks?",
+        "options": ["empathetic", "sarcastic", "authoritative"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He used a very ___ register in his speech to students.",
+        "options": ["formal", "informal", "colloquial"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [her, was, the, of, tone, letter, friendly]",
+        "options": ["her", "was", "the", "of", "tone", "letter", "friendly"],
+        "answer": ["The", "tone", "of", "her", "letter", "was", "friendly"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "You should avoid ___ language in a job interview.",
+        "options": ["colloquial", "formal", "empathetic"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [his, formal, in, very, was, the, essay, register]",
+        "options": ["his", "formal", "in", "very", "was", "the", "essay", "register"],
+        "answer": ["The", "register", "in", "his", "essay", "was", "very", "formal"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The meaning of his words was ___; it was not clear.",
+        "options": ["authoritative", "ambiguous", "colloquial"],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which tone is used if someone says, 'Sure, I’d love to work all weekend!' with a flat voice?",
+        "options": ["sarcastic", "formal", "empathetic"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "In what register is the sentence: 'I would be grateful if you could...'?",
+        "options": ["informal", "colloquial", "formal"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does it mean if someone uses ambiguous language?",
+        "options": ["The meaning is clear", "It has two meanings", "It is friendly"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which word describes a friendly, everyday way of speaking?",
+        "options": ["colloquial", "formal", "authoritative"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which tone does the sentence 'It might rain or it might not.' have?",
+        "options": ["empathetic", "ambiguous", "authoritative"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I would appreciate your feedback on my report.'",
+        "options": [],
+        "answer": "I would appreciate your feedback on my report."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Hey, can you give me a hand?'",
+        "options": [],
+        "answer": "Hey, can you give me a hand?"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'His tone was more formal than usual.'",
+        "options": [],
+        "answer": "His tone was more formal than usual."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Sometimes, language can be ambiguous.'",
+        "options": [],
+        "answer": "Sometimes, language can be ambiguous."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Using the right register is important in business.'",
+        "options": [],
+        "answer": "Using the right register is important in business."
+      }
+    ]
+  }
 }

@@ -1,4 +1,206 @@
 {
-  "id": 1,
-  "message": "This is file number 1"
+  "id": "b2_debating_social_issues_01",
+  "lesson_name": "Debating Social Issues",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "controversial", "meaning": "causing strong disagreement or discussion" },
+      { "word": "inequality", "meaning": "unfair difference in how people are treated" },
+      { "word": "perspective", "meaning": "a particular way of thinking about something" },
+      { "word": "advocate", "meaning": "to support or argue for something" },
+      { "word": "opponent", "meaning": "someone who disagrees or argues against" },
+      { "word": "compromise", "meaning": "an agreement where both sides give up something" },
+      { "word": "evidence", "meaning": "facts or information supporting an idea" },
+      { "word": "policy", "meaning": "a rule or plan made by an organization or government" },
+      { "word": "impact", "meaning": "the effect or influence of something" },
+      { "word": "raise awareness", "meaning": "to help more people know about something important" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Expressing Opinions",
+        "explanation": "Use phrases like 'I believe', 'In my opinion', 'From my perspective': 'I believe that education should be free for everyone.'"
+      },
+      {
+        "title": "Conceding a Point",
+        "explanation": "Use phrases like 'Although', 'While I agree', 'It is true that' to show understanding of the other side: 'Although some people argue that..., I think...'"
+      },
+      {
+        "title": "Using Modals for Debate",
+        "explanation": "Use modals like 'should', 'must', 'could', 'might' for suggestions or necessity: 'Governments should do more to reduce inequality.'"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "I believe that climate change is the most important social issue today.",
+        "translation": ""
+      },
+      {
+        "sentence": "There is a lot of inequality in access to healthcare.",
+        "translation": ""
+      },
+      {
+        "sentence": "My opponent argued that this policy would have a negative impact.",
+        "translation": ""
+      },
+      {
+        "sentence": "We need more evidence before making a decision.",
+        "translation": ""
+      },
+      {
+        "sentence": "It is important to raise awareness about mental health.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'controversial' mean?",
+        "options": ["Popular with everyone", "Causing strong disagreement", "Something easy to decide"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A person who disagrees with you in a debate is your _____.",
+        "options": ["advocate", "opponent", "impact"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "'Raise awareness' means to help more people know about something.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What is a 'compromise'?",
+        "options": ["A strong opinion", "An agreement where both sides give up something", "Evidence for an argument"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does 'policy' mean?",
+        "options": ["A type of debate", "A rule or plan made by a government", "An example from history"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "In my _____ (opinion/evidence), this is not fair.",
+        "options": ["opinion", "evidence"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We need more _____ (impact/evidence) to support our view.",
+        "options": ["impact", "evidence"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: believe / must / take / I / action / we",
+        "options": ["I believe we must take action."],
+        "answer": [0]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The new policy will _____ (impact/compromise) students' lives.",
+        "options": ["impact", "compromise"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: awareness / to / need / mental health / raise / we / about",
+        "options": ["We need to raise awareness about mental health."],
+        "answer": [0]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Listen: What is the controversial issue being discussed?",
+        "options": ["Climate change", "Sports", "Travel"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Listen: What does the speaker believe is needed?",
+        "options": ["More evidence", "A new policy", "A stronger opponent"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Listen: What solution does the speaker suggest?",
+        "options": ["Ignore the issue", "Make a compromise", "Raise taxes"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Listen: What impact does the policy have?",
+        "options": ["Positive", "Negative", "No impact"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Listen: Who is the speaker's opponent?",
+        "options": ["Someone who agrees", "Someone who disagrees", "A member of the public"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "State your opinion on a controversial issue in your country.",
+        "options": [],
+        "answer": "In my opinion, reducing pollution should be the top priority."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Explain why evidence is important in a debate.",
+        "options": [],
+        "answer": "Evidence is important because it helps to prove your point and makes your argument stronger."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Present an argument for or against a social policy.",
+        "options": [],
+        "answer": "I advocate for free education because it gives everyone a fair chance."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Describe a time when you had to compromise in a discussion.",
+        "options": [],
+        "answer": "Last year, my classmates and I compromised on where to go for our school trip."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Discuss the impact of social media on raising awareness.",
+        "options": [],
+        "answer": "Social media can raise awareness quickly and reach many people."
+      }
+    ]
+  }
 }

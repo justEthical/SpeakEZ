@@ -1,4 +1,215 @@
 {
-  "id": 10,
-  "message": "This is file number 10"
+  "id": "lesson_participating_panel_debates_c2_001",
+  "lesson_name": "Participating in Panel Debates",
+  "purpose": "Academic, Business, Public Speaking",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "moderator", "meaning": "person who leads a discussion or debate" },
+      { "word": "interjection", "meaning": "a comment made in the middle of someone else’s speech" },
+      { "word": "assertion", "meaning": "a confident statement of fact or belief" },
+      { "word": "counterargument", "meaning": "an argument against another argument" },
+      { "word": "concede", "meaning": "to admit that something is true or correct" },
+      { "word": "rebuttal", "meaning": "a response that disagrees with an argument" },
+      { "word": "discourse", "meaning": "formal discussion on a topic" },
+      { "word": "equipoise", "meaning": "a balanced state or attitude in argument" },
+      { "word": "preempt", "meaning": "to act before someone else in order to prevent something" },
+      { "word": "impartial", "meaning": "not taking sides; neutral" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Hedging Language",
+        "explanation": "Use words like 'perhaps', 'it seems', or 'arguably' to sound less forceful and more diplomatic: 'Arguably, the policy has both benefits and drawbacks.'"
+      },
+      {
+        "title": "Sequencing Ideas with Connectors",
+        "explanation": "Use advanced connectors: 'Moreover', 'On the contrary', 'In addition', 'Nevertheless'."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The moderator ensured each panelist had equal time to speak.", "translation": "" },
+      { "sentence": "Her rebuttal was concise and addressed all the points raised.", "translation": "" },
+      { "sentence": "He conceded that there were limitations to his approach.", "translation": "" },
+      { "sentence": "The discussion maintained equipoise despite differing opinions.", "translation": "" },
+      { "sentence": "Impartiality is crucial for moderators in panel debates.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'rebuttal' mean?",
+        "options": [
+          "A supporting statement",
+          "A response that disagrees with an argument",
+          "An opening statement"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ leads and manages a panel discussion.",
+        "options": ["counterargument", "moderator", "interjection"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "To concede means to deny another person's point.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word refers to being neutral and fair?",
+        "options": [
+          "assertion",
+          "impartial",
+          "preempt"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "___ is a balanced state or attitude in argument.",
+        "options": ["Equipoise", "Discourse", "Rebuttal"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He made a strong ___ to my argument.",
+        "options": ["moderator", "counterargument", "discourse"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The panelist's ___ clarified her stance.",
+        "options": ["impartiality", "rebuttal", "preempt"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [discussion, was, impartial, the, because, moderator, the]",
+        "options": ["discussion", "was", "impartial", "the", "because", "moderator", "the"],
+        "answer": ["The", "discussion", "was", "impartial", "because", "the", "moderator"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "To ___ means to act first to prevent something.",
+        "options": ["rebuttal", "preempt", "concede"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [ensured, the, that, moderator, balance, discussion, in, there, was]",
+        "options": ["ensured", "the", "that", "moderator", "balance", "discussion", "in", "there", "was"],
+        "answer": ["The", "moderator", "ensured", "that", "there", "was", "balance", "in", "the", "discussion"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Who is responsible for guiding a panel debate?",
+        "options": [
+          "Panelist",
+          "Audience",
+          "Moderator"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is a counterargument?",
+        "options": [
+          "An argument supporting the main point",
+          "An argument against another argument",
+          "A summary of the debate"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What should a moderator remain during a panel debate?",
+        "options": [
+          "Impartial",
+          "Assertive",
+          "Preemptive"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "If a panelist concedes a point, what have they done?",
+        "options": [
+          "Denied it",
+          "Ignored it",
+          "Admitted it"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does it mean to preempt in a debate?",
+        "options": [
+          "To wait for another's argument",
+          "To act in advance to prevent something",
+          "To change the topic"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Politely disagree with a point and provide a counterargument.",
+        "options": [],
+        "answer": "While I respect your viewpoint, I would argue that the evidence suggests otherwise."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Concede a minor point during a debate, then introduce your main argument.",
+        "options": [],
+        "answer": "I concede that there are challenges, but the long-term benefits outweigh these issues."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Summarize your position at the end of a panel debate.",
+        "options": [],
+        "answer": "In conclusion, I believe the proposed solution balances the needs of all parties involved."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Invite another panelist to share their perspective.",
+        "options": [],
+        "answer": "I’d like to invite my fellow panelist to share their perspective on this issue."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Preempt an objection to your argument.",
+        "options": [],
+        "answer": "Some may object that this approach is too costly; however, data shows it is more efficient long-term."
+      }
+    ]
+  }
 }

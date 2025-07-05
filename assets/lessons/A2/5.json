@@ -1,4 +1,186 @@
 {
-  "id": 5,
-  "message": "This is file number 5"
+  "id": "lesson_future_plans_001",
+  "lesson_name": "Future Plans (going to, will)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "plan", "meaning": "an idea for what you will do" },
+      { "word": "future", "meaning": "the time after now" },
+      { "word": "travel", "meaning": "to go to a new place" },
+      { "word": "meet", "meaning": "to see someone by arrangement" },
+      { "word": "study", "meaning": "to learn something" },
+      { "word": "visit", "meaning": "to go to see a person or place" },
+      { "word": "next", "meaning": "coming immediately after" },
+      { "word": "weekend", "meaning": "Saturday and Sunday" },
+      { "word": "decide", "meaning": "to make a choice" },
+      { "word": "save", "meaning": "to keep money for later" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'going to' for plans",
+        "explanation": "Use 'going to' for something you have decided to do. Example: I am going to study."
+      },
+      {
+        "title": "Using 'will' for offers and decisions",
+        "explanation": "Use 'will' for sudden decisions or offers. Example: I will help you."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I am going to visit my cousin next week.", "translation": "" },
+      { "sentence": "She will call you tomorrow.", "translation": "" },
+      { "sentence": "We are going to travel to Delhi.", "translation": "" },
+      { "sentence": "I will save money for a new phone.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'to learn something'?",
+        "options": ["travel", "meet", "study"],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Saturday and Sunday are called ___.",
+        "options": ["weekend", "plan", "future"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you do when you decide something?",
+        "options": ["visit", "decide", "next"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "To save means to keep money for later.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'to go to a new place'?",
+        "options": ["future", "travel", "plan"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I am ___ to buy a new book. (going)",
+        "options": ["going", "will", "study"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She ___ help you with your homework. (will)",
+        "options": ["will", "going to", "plan"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [next, visit, going, week, to, am, I, my, uncle]",
+        "options": ["next", "visit", "going", "week", "to", "am", "I", "my", "uncle"],
+        "answer": ["I", "am", "going", "to", "visit", "my", "uncle", "next", "week"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We are ___ to travel to Delhi.",
+        "options": ["will", "going", "plan"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [save, will, phone, I, money, a, for, new]",
+        "options": ["save", "will", "phone", "I", "money", "a", "for", "new"],
+        "answer": ["I", "will", "save", "money", "for", "a", "new", "phone"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the speaker going to do? (Audio: 'I am going to visit my cousin next week.')",
+        "options": ["Visit cousin", "Study", "Travel to Delhi"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What will she do tomorrow? (Audio: 'She will call you tomorrow.')",
+        "options": ["Call you", "Meet you", "Travel"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Where are they going to travel? (Audio: 'We are going to travel to Delhi.')",
+        "options": ["Mumbai", "Delhi", "Kolkata"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What will the speaker save money for? (Audio: 'I will save money for a new phone.')",
+        "options": ["A new book", "A new phone", "A trip"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "When is the visit planned? (Audio: 'I am going to visit my cousin next week.')",
+        "options": ["Tomorrow", "Next week", "Today"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I am going to visit my cousin next week.'",
+        "options": [],
+        "answer": "I am going to visit my cousin next week."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She will call you tomorrow.'",
+        "options": [],
+        "answer": "She will call you tomorrow."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We are going to travel to Delhi.'",
+        "options": [],
+        "answer": "We are going to travel to Delhi."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I will save money for a new phone.'",
+        "options": [],
+        "answer": "I will save money for a new phone."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I am going to study for my test.'",
+        "options": [],
+        "answer": "I am going to study for my test."
+      }
+    ]
+  }
 }

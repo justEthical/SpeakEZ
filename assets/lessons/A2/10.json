@@ -1,4 +1,186 @@
 {
-  "id": 10,
-  "message": "This is file number 10"
+  "id": "lesson_hobbies_interests_001",
+  "lesson_name": "Talking About Hobbies & Interests",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "hobby", "meaning": "an activity you enjoy in your free time" },
+      { "word": "interest", "meaning": "something you like to learn or know about" },
+      { "word": "collect", "meaning": "to gather similar things as a hobby" },
+      { "word": "play", "meaning": "to take part in a game or sport" },
+      { "word": "listen", "meaning": "to pay attention to sound" },
+      { "word": "read", "meaning": "to look at and understand written words" },
+      { "word": "draw", "meaning": "to make pictures with a pen or pencil" },
+      { "word": "garden", "meaning": "to grow plants and flowers" },
+      { "word": "photography", "meaning": "taking pictures with a camera" },
+      { "word": "bake", "meaning": "to cook food in an oven" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about likes",
+        "explanation": "Use 'I like' or 'I love' + verb-ing. Example: I like reading."
+      },
+      {
+        "title": "Asking about hobbies",
+        "explanation": "Say 'What are your hobbies?' or 'What do you like to do in your free time?'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My hobby is playing cricket.", "translation": "" },
+      { "sentence": "She is interested in photography.", "translation": "" },
+      { "sentence": "I like listening to music.", "translation": "" },
+      { "sentence": "They enjoy baking cakes.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'an activity you enjoy in your free time'?",
+        "options": ["hobby", "draw", "garden"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "To gather things like stamps or coins is to ___.",
+        "options": ["listen", "collect", "bake"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'to make pictures with a pencil'?",
+        "options": ["garden", "draw", "play"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Photography' is about taking pictures.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'to cook food in an oven'?",
+        "options": ["bake", "read", "play"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My hobby is ___ cricket.",
+        "options": ["play", "playing", "played"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She is interested ___ photography.",
+        "options": ["in", "on", "at"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [like, music, I, to, listening]",
+        "options": ["like", "music", "I", "to", "listening"],
+        "answer": ["I", "like", "listening", "to", "music"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "They ___ baking cakes.",
+        "options": ["enjoy", "draw", "garden"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [books, enjoys, She, reading]",
+        "options": ["books", "enjoys", "She", "reading"],
+        "answer": ["She", "enjoys", "reading", "books"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the speaker's hobby? (Audio: 'My hobby is playing cricket.')",
+        "options": ["Drawing", "Playing cricket", "Baking"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is she interested in? (Audio: 'She is interested in photography.')",
+        "options": ["Baking", "Photography", "Gardening"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does the speaker like to do? (Audio: 'I like listening to music.')",
+        "options": ["Listen to music", "Read books", "Draw pictures"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What do they enjoy? (Audio: 'They enjoy baking cakes.')",
+        "options": ["Reading books", "Baking cakes", "Gardening"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does she enjoy? (Audio: 'She enjoys reading books.')",
+        "options": ["Gardening", "Listening to music", "Reading books"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My hobby is playing cricket.'",
+        "options": [],
+        "answer": "My hobby is playing cricket."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She is interested in photography.'",
+        "options": [],
+        "answer": "She is interested in photography."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I like listening to music.'",
+        "options": [],
+        "answer": "I like listening to music."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'They enjoy baking cakes.'",
+        "options": [],
+        "answer": "They enjoy baking cakes."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She enjoys reading books.'",
+        "options": [],
+        "answer": "She enjoys reading books."
+      }
+    ]
+  }
 }

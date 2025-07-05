@@ -1,4 +1,187 @@
 {
-  "id": 3,
-  "message": "This is file number 3"
+  "id": "lesson_deconstructing_advanced_literary_works_c2_001",
+  "lesson_name": "Deconstructing Advanced Literary Works",
+  "purpose": "Academic, Literature, Advanced Reading",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "allegory", "meaning": "a story with a hidden meaning, often moral or political" },
+      { "word": "metafiction", "meaning": "fiction that draws attention to its own construction" },
+      { "word": "polyphony", "meaning": "multiple voices or points of view in a narrative" },
+      { "word": "motif", "meaning": "a recurring theme or idea in a literary work" },
+      { "word": "anachronism", "meaning": "something placed in a time where it does not belong" },
+      { "word": "juxtaposition", "meaning": "placing two things side by side for contrast" },
+      { "word": "intertextuality", "meaning": "the relationship between different texts" },
+      { "word": "stream of consciousness", "meaning": "a literary style showing thoughts as they occur" },
+      { "word": "subtext", "meaning": "the underlying or implicit meaning in a text" },
+      { "word": "pastiche", "meaning": "a work that imitates the style of others, often playfully" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Embedded Clauses",
+        "explanation": "Embed clauses for nuance and complexity, e.g., 'The novel, which was published in 1922, explores...' "
+      },
+      {
+        "title": "Cohesion with Discourse Markers",
+        "explanation": "Link ideas using advanced markers, e.g., 'Furthermore', 'Conversely', 'Nonetheless'."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The author employs polyphony to present multiple perspectives.", "translation": "" },
+      { "sentence": "Intertextuality enriches the reading experience by connecting texts.", "translation": "" },
+      { "sentence": "The recurring motif of water symbolizes rebirth throughout the novel.", "translation": "" },
+      { "sentence": "The story’s subtext criticizes social inequality.", "translation": "" },
+      { "sentence": "The novel’s use of stream of consciousness reveals the character’s inner turmoil.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is 'motif'?",
+        "options": ["A recurring theme", "A character’s name", "A writing tool"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A story that symbolizes political ideas is an ___.",
+        "options": ["allegory", "pastiche", "anachronism"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which term refers to 'multiple voices' in a novel?",
+        "options": ["Subtext", "Polyphony", "Motif"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Metafiction is fiction that comments on itself.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is 'juxtaposition' used for?",
+        "options": ["Creating unity", "Showing contrast", "Explaining themes"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ of war appears in every chapter.",
+        "options": ["motif", "allegory", "pastiche"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, by, is, highlighted, juxtaposition, themes, author]",
+        "options": ["the", "by", "is", "highlighted", "juxtaposition", "themes", "author"],
+        "answer": ["The", "themes", "are", "highlighted", "by", "juxtaposition", "author"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The novel’s ___ draws from various literary styles.",
+        "options": ["pastiche", "stream of consciousness", "subtext"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ connects this novel with others in the same genre.",
+        "options": ["Intertextuality", "Motif", "Anachronism"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, an, technique, consciousness, of, stream, is]",
+        "options": ["the", "an", "technique", "consciousness", "of", "stream", "is"],
+        "answer": ["Stream", "of", "consciousness", "is", "an", "technique", "the"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What does metafiction do?",
+        "options": ["Hides the story’s structure", "Draws attention to the text’s construction", "Describes nature"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is a pastiche?",
+        "options": ["A recurring idea", "A mix of different styles", "A character's thought"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which literary device is a story with a hidden message?",
+        "options": ["Allegory", "Anachronism", "Juxtaposition"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Why might an author use juxtaposition?",
+        "options": ["To show differences", "To confuse the reader", "To summarize the plot"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does 'subtext' refer to?",
+        "options": ["Main events", "Hidden meanings", "Character names"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Summarize the main theme of an advanced literary work you have read.",
+        "options": [],
+        "answer": "The main theme of the literary work is..."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Explain how the author uses stream of consciousness in a novel.",
+        "options": [],
+        "answer": "The author uses stream of consciousness to show the character’s inner thoughts and emotions."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Describe the effect of juxtaposition in a literary passage.",
+        "options": [],
+        "answer": "Juxtaposition in the passage highlights the differences between two ideas or characters."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Discuss the role of intertextuality in modern literature.",
+        "options": [],
+        "answer": "Intertextuality connects different works, adding depth and new meanings for the reader."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Use the word 'motif' in a sentence about literature.",
+        "options": [],
+        "answer": "The recurring motif of darkness in the novel represents uncertainty and fear."
+      }
+    ]
+  }
 }

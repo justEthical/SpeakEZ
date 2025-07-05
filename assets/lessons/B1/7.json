@@ -1,4 +1,206 @@
 {
-  "id": 7,
-  "message": "This is file number 7"
+  "id": "b1_routines_01",
+  "lesson_name": "Describing Daily & Weekly Routines",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "routine", "meaning": "something you do regularly" },
+      { "word": "usually", "meaning": "most of the time" },
+      { "word": "rarely", "meaning": "not often" },
+      { "word": "commute", "meaning": "travel to work or school" },
+      { "word": "tidy", "meaning": "make something clean and organized" },
+      { "word": "exercise", "meaning": "physical activity to stay healthy" },
+      { "word": "breakfast", "meaning": "the first meal of the day" },
+      { "word": "weekday", "meaning": "Monday to Friday" },
+      { "word": "weekend", "meaning": "Saturday and Sunday" },
+      { "word": "occasionally", "meaning": "sometimes, but not often" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Simple for Routines",
+        "explanation": "Use the present simple tense to talk about habits: 'I get up at 7 a.m. every day.'"
+      },
+      {
+        "title": "Frequency Adverbs",
+        "explanation": "Words like always, usually, often, sometimes, rarely, and never show how often you do something. Example: 'She often goes to the gym.'"
+      },
+      {
+        "title": "Questions about Routine",
+        "explanation": "Use 'do/does' to ask about habits: 'What do you do on weekends?'"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "I usually wake up at 6:30 in the morning.",
+        "translation": ""
+      },
+      {
+        "sentence": "My brother rarely eats breakfast.",
+        "translation": ""
+      },
+      {
+        "sentence": "Do you commute by bus or train?",
+        "translation": ""
+      },
+      {
+        "sentence": "On weekdays, I study and do my homework.",
+        "translation": ""
+      },
+      {
+        "sentence": "We sometimes go to the park on weekends.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'commute' mean?",
+        "options": ["Eat breakfast", "Travel to work or school", "Go shopping"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "Which word means 'not often'?",
+        "options": ["Usually", "Rarely", "Always"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "I _____ go to the gym on Saturdays. (sometimes/never/always)",
+        "options": ["sometimes", "never", "always"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Tidy' means to make something messy.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which is a weekday?",
+        "options": ["Sunday", "Friday", "Saturday"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She _____ (always/rarely) eats lunch at home.",
+        "options": ["always", "rarely"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I _____ (commute/exercise) to work every day.",
+        "options": ["commute", "exercise"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: goes / my / jogging / every / morning / friend",
+        "options": ["My friend goes jogging every morning."],
+        "answer": [0]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We _____ (tidy/commute) the house every weekend.",
+        "options": ["tidy", "commute"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: on / breakfast / never / I / Sundays / have",
+        "options": ["I never have breakfast on Sundays."],
+        "answer": [0]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Listen: What does Anna usually do in the evening?",
+        "options": ["She studies.", "She watches TV.", "She goes jogging."],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Listen: How often does David commute by train?",
+        "options": ["Always", "Sometimes", "Never"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Listen: Which day does Maria tidy her room?",
+        "options": ["Monday", "Saturday", "Friday"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Listen: What meal does Tom skip?",
+        "options": ["Breakfast", "Lunch", "Dinner"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Listen: When does Lisa exercise?",
+        "options": ["On weekends", "Every day", "Only on Mondays"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say what you do every morning.",
+        "options": [],
+        "answer": "Every morning, I brush my teeth and have breakfast."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Describe your weekend routine.",
+        "options": [],
+        "answer": "On weekends, I relax, meet friends, and sometimes go to the park."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Talk about how you commute to school or work.",
+        "options": [],
+        "answer": "I usually commute by bus to school."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Explain what you never do on weekdays.",
+        "options": [],
+        "answer": "I never stay up late on weekdays."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Describe something you do occasionally.",
+        "options": [],
+        "answer": "I occasionally visit my grandparents on Sundays."
+      }
+    ]
+  }
 }

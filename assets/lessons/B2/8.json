@@ -1,4 +1,186 @@
 {
-  "id": 8,
-  "message": "This is file number 8"
+  "id": "lesson_discussing_science_innovation_001",
+  "lesson_name": "Discussing Science and Innovation",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "experiment", "meaning": "a test to learn something new" },
+      { "word": "hypothesis", "meaning": "an idea that you test in an experiment" },
+      { "word": "theory", "meaning": "an explanation based on facts" },
+      { "word": "research", "meaning": "careful study to find out new facts" },
+      { "word": "innovation", "meaning": "a new idea, method, or device" },
+      { "word": "discovery", "meaning": "finding something for the first time" },
+      { "word": "method", "meaning": "a way of doing something" },
+      { "word": "result", "meaning": "what you find after an experiment" },
+      { "word": "evidence", "meaning": "facts that show something is true" },
+      { "word": "application", "meaning": "using something for a particular purpose" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Perfect for Recent Discoveries",
+        "explanation": "Use 'has/have + past participle' to talk about recent science achievements. Example: Scientists have discovered a new planet."
+      },
+      {
+        "title": "Reporting Results",
+        "explanation": "Use reporting verbs like 'show', 'prove', and 'suggest'. Example: The results show that the method works."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Researchers have developed a new vaccine.", "translation": "" },
+      { "sentence": "The theory explains how plants grow.", "translation": "" },
+      { "sentence": "This experiment provides evidence for the hypothesis.", "translation": "" },
+      { "sentence": "Innovation is essential for scientific progress.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a new idea, method, or device'?",
+        "options": ["innovation", "evidence", "method"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "An ___ is a test to learn something new.",
+        "options": ["experiment", "application", "theory"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'an idea that you test in an experiment'?",
+        "options": ["result", "hypothesis", "discovery"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Discovery' means finding something for the first time.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'careful study to find out new facts'?",
+        "options": ["research", "evidence", "method"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Researchers have developed a new ___.",
+        "options": ["hypothesis", "vaccine", "theory"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ explains how plants grow.",
+        "options": ["theory", "result", "evidence"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [provides, for, hypothesis, experiment, the, evidence, this]",
+        "options": ["provides", "for", "hypothesis", "experiment", "the", "evidence", "this"],
+        "answer": ["This", "experiment", "provides", "evidence", "for", "the", "hypothesis"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ is essential for scientific progress.",
+        "options": ["Application", "Discovery", "Innovation"],
+        "answer": 2
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [study, careful, is, research, to, find, facts, new]",
+        "options": ["study", "careful", "is", "research", "to", "find", "facts", "new"],
+        "answer": ["Research", "is", "careful", "study", "to", "find", "new", "facts"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What have researchers developed? (Audio: 'Researchers have developed a new vaccine.')",
+        "options": ["A new vaccine", "A new theory", "A new experiment"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What explains how plants grow? (Audio: 'The theory explains how plants grow.')",
+        "options": ["The method", "The theory", "The application"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What provides evidence for the hypothesis? (Audio: 'This experiment provides evidence for the hypothesis.')",
+        "options": ["The application", "The experiment", "The discovery"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is essential for scientific progress? (Audio: 'Innovation is essential for scientific progress.')",
+        "options": ["Innovation", "Result", "Hypothesis"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is research? (Audio: 'Research is careful study to find out new facts.')",
+        "options": ["Application", "Discovery", "Research"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Researchers have developed a new vaccine.'",
+        "options": [],
+        "answer": "Researchers have developed a new vaccine."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The theory explains how plants grow.'",
+        "options": [],
+        "answer": "The theory explains how plants grow."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'This experiment provides evidence for the hypothesis.'",
+        "options": [],
+        "answer": "This experiment provides evidence for the hypothesis."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Innovation is essential for scientific progress.'",
+        "options": [],
+        "answer": "Innovation is essential for scientific progress."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Research is careful study to find out new facts.'",
+        "options": [],
+        "answer": "Research is careful study to find out new facts."
+      }
+    ]
+  }
 }
