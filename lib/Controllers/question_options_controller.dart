@@ -5,13 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Screens/Questions/Widgets/exit_alert_bs.dart';
-import 'package:speak_ez/Screens/Questions/result_screen.dart';
-import 'package:speak_ez/Screens/Questions/Widgets/answer_result_bottom_sheet.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
-import '../Models/questions_model.dart';
+import '../Models/lesson_model_new.dart';
 
 class QuestionOptionsController extends GetxController {
   var currentQuestionIndex = 0.obs;
@@ -35,24 +32,13 @@ class QuestionOptionsController extends GetxController {
   var isMicOn = false.obs;
   var currenSpeakingText = "".obs;
 
-  var currentLesson =
-      Lesson(
-        id: "",
-        cefrLevel: CEFRLevel.A1.name,
-        questions: [],
-        purpose: "",
-        lessonName: "",
-      ).obs;
-
-  Future<void> setCurrentLesson() async {
+  Future<Lesson> setCurrentLesson() async {
+    final profile = globalController.userProfile.value;
     final data = await rootBundle.loadString(
-      lessonList[globalController
-          .userProfile
-          .value
-          .currentEnglishLevelProgress],
+      "assets/lessons/${profile.currentEnglishLevel}/${profile.currentEnglishLevelProgress + 1}.json",
     );
     final jsonString = jsonDecode(data.toString());
-    currentLesson.value = Lesson.fromJson(jsonString);
+    return Lesson.fromJson(jsonString);
   }
 
   updateLesssonProgress() {
@@ -90,32 +76,32 @@ Mistakes are your secret weapon to get better. 💥
 💡 Keep practicing, and you’ll be surprised how fast you improve!''';
   }
 
-  void showExitBottomSheet(context) {
-    showModalBottomSheet(
-      context: context,
-      showDragHandle: true,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(20),
-          topRight: Radius.circular(20),
-        ),
-      ),
-      isScrollControlled: true,
-      builder: (context) => ExitAlertBottomSheet(),
-    );
-  }
+  // void showExitBottomSheet(context) {
+  //   showModalBottomSheet(
+  //     context: context,
+  //     showDragHandle: true,
+  //     shape: RoundedRectangleBorder(
+  //       borderRadius: BorderRadius.only(
+  //         topLeft: Radius.circular(20),
+  //         topRight: Radius.circular(20),
+  //       ),
+  //     ),
+  //     isScrollControlled: true,
+  //     builder: (context) => ExitAlertBottomSheet(),
+  //   );
+  // }
 
-  void shouldEnableContinueButton(QuestionType questionType) {
-    switch (questionType) {
-      case QuestionType.sentenceRearranging:
-        isContinueButtonEnabled.value = sentenceRearrangeTempList.isNotEmpty;
-        break;
+  // void shouldEnableContinueButton(QuestionType questionType) {
+  //   switch (questionType) {
+  //     case QuestionType.sentenceRearranging:
+  //       isContinueButtonEnabled.value = sentenceRearrangeTempList.isNotEmpty;
+  //       break;
 
-      default:
-        isContinueButtonEnabled.value = currentSelectedOptionIndex.value != 100;
-        break;
-    }
-  }
+  //     default:
+  //       isContinueButtonEnabled.value = currentSelectedOptionIndex.value != 100;
+  //       break;
+  //   }
+  // }
 
   bool comparing2Lists(List<String> list1, List<dynamic> list2) {
     List<String> list3 = list2.map((e) => e.toString()).toList();
@@ -125,37 +111,37 @@ Mistakes are your secret weapon to get better. 💥
     return areEqual;
   }
 
-  void moveToNextQuestion() {
-    if (currentQuestionIndex.value < currentLesson.value.questions.length - 1) {
-      currentQuestionIndex.value++;
-      questionPageController.jumpToPage(currentQuestionIndex.value);
-      currentSelectedOptionIndex.value = 100;
-    } else {
-      Get.offAll(() => ResultScreen());
-    }
-  }
+  // void moveToNextQuestion() {
+  //   if (currentQuestionIndex.value < currentLesson.value.questions.length - 1) {
+  //     currentQuestionIndex.value++;
+  //     questionPageController.jumpToPage(currentQuestionIndex.value);
+  //     currentSelectedOptionIndex.value = 100;
+  //   } else {
+  //     Get.offAll(() => ResultScreen());
+  //   }
+  // }
 
-  void showAnswerResultBottomSheet({
-    required bool isAnswerCorrect,
-    required String correctAnswer,
-  }) {
-    showModalBottomSheet(
-      context: Get.context!,
-      isDismissible: false,
-      enableDrag: false,
-      backgroundColor: Colors.transparent,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(20),
-          topRight: Radius.circular(20),
-        ),
-      ),
-      isScrollControlled: true,
-      builder:
-          (context) => AnswerResultBottomSheet(
-            isAnswerCorrect: isAnswerCorrect,
-            correctAnswer: correctAnswer,
-          ),
-    );
-  }
+  // void showAnswerResultBottomSheet({
+  //   required bool isAnswerCorrect,
+  //   required String correctAnswer,
+  // }) {
+  //   showModalBottomSheet(
+  //     context: Get.context!,
+  //     isDismissible: false,
+  //     enableDrag: false,
+  //     backgroundColor: Colors.transparent,
+  //     shape: RoundedRectangleBorder(
+  //       borderRadius: BorderRadius.only(
+  //         topLeft: Radius.circular(20),
+  //         topRight: Radius.circular(20),
+  //       ),
+  //     ),
+  //     isScrollControlled: true,
+  //     builder:
+  //         (context) => AnswerResultBottomSheet(
+  //           isAnswerCorrect: isAnswerCorrect,
+  //           correctAnswer: correctAnswer,
+  //         ),
+  //   );
+  // }
 }

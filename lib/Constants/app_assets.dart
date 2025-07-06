@@ -26,11 +26,11 @@ class AppAssets {
   static String get google => _getFullImagePath("google.svg");
   static String get fb => _getFullImagePath("fb.png");
   static String get settings => _getFullImagePath("settings.svg");
-  static String get user => _getFullImagePath("user.svg"); 
+  static String get user => _getFullImagePath("user.svg");
   static String get eyeClosed => _getFullImagePath("eye-off.svg");
   static String get eyeIcon => _getFullImagePath("eye.svg");
   static String get atIcon => _getFullImagePath("at-sign.svg");
-  static String get lockIcon => _getFullImagePath("lock.svg");  
+  static String get lockIcon => _getFullImagePath("lock.svg");
 
   // profile
   static String helpCircle = _getFullImagePath('help-circle.svg');
@@ -42,6 +42,10 @@ class AppAssets {
   // Home
   static String flame = _getFullImagePath('flame-icon.svg');
   static String medal = _getFullImagePath('medal-icon.svg');
+
+  // Lesson
+  static String cat = _getFullImagePath('cat.png');
+  static String speak = _getFullImagePath('speak.svg');
 
   // practice
   static String get jobInterview => _getFullImagePath("job_interview.svg");
@@ -73,6 +77,7 @@ class AppAssets {
   static String get fluency => _getFullImagePath("fluency.svg");
   static String get grammar => _getFullImagePath("grammer.svg");
   static String get vocabulary => _getFullImagePath("vocabulary.svg");
-  static String get totalSpeakingTime => _getFullImagePath("total_speaking_time.svg");
+  static String get totalSpeakingTime =>
+      _getFullImagePath("total_speaking_time.svg");
   static String get tip => _getFullImagePath("tip.svg");
 }

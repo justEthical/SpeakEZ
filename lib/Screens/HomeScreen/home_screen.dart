@@ -9,7 +9,7 @@ import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/steak_and_progress_card.dart';
-import 'package:speak_ez/Screens/Questions/question_and_option_screen.dart';
+import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 
@@ -147,9 +147,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       onPressed: () async {
                         final c = Get.put(QuestionOptionsController());
                         CustomLoader.showLoader();
-                        await c.setCurrentLesson();
+                        final lesson = await c.setCurrentLesson();
                         CustomLoader.hideLoader();
-                        Get.to(QuestionAndOptionScreen());
+                        Get.to(LessonIntroScreen(lesson: lesson,));
                       },
                       style: ElevatedButton.styleFrom(
                         fixedSize: Size(Get.width, 50),

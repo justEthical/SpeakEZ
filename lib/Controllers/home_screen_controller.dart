@@ -15,9 +15,9 @@ class HomeScreenController extends GetxController {
   void onReady() {
     // TODO: implement onReady
     super.onReady();
-    Future.delayed(Duration.zero, () async {
-      currentLessonNameList.value = await loadLessonsFromJson("A1");
-    });
+    // Future.delayed(Duration.zero, () async {
+    //   currentLessonNameList.value = await loadLessonsFromJson("A1");
+    // });
   }
 
   void changeEnglishLevel(String level) async {
