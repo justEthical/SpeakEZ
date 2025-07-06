@@ -1,0 +1,187 @@
+{
+  "id": "lesson_ethical_dilemmas_c1_001",
+  "lesson_name": "Debating Ethical Dilemmas",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "ethical", "meaning": "related to moral principles of right and wrong" },
+      { "word": "dilemma", "meaning": "a situation where you must choose between two difficult options" },
+      { "word": "justify", "meaning": "to show or prove that something is right" },
+      { "word": "consequence", "meaning": "the result of an action or decision" },
+      { "word": "perspective", "meaning": "a point of view or way of seeing things" },
+      { "word": "controversial", "meaning": "causing disagreement or discussion" },
+      { "word": "morality", "meaning": "beliefs about what is right or wrong" },
+      { "word": "integrity", "meaning": "honesty and strong moral principles" },
+      { "word": "rationalize", "meaning": "to try to explain or justify with logical reasons" },
+      { "word": "principle", "meaning": "a basic rule or belief that guides actions" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Conditionals for Debates",
+        "explanation": "Use conditionals (if, unless) to discuss possible outcomes. Example: 'If everyone lied, trust would be impossible.'"
+      },
+      {
+        "title": "Expressing Opinions Politely",
+        "explanation": "Use phrases like 'I believe', 'In my view', or 'It seems to me' for respectful debate."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "It's difficult to make the ethical choice when both options have consequences.", "translation": "" },
+      { "sentence": "Some dilemmas have no clear right or wrong answer.", "translation": "" },
+      { "sentence": "From her perspective, honesty is always the best policy.", "translation": "" },
+      { "sentence": "He tried to justify his decision with logical reasons.", "translation": "" },
+      { "sentence": "Integrity means doing the right thing even when no one is watching.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'dilemma' mean?",
+        "options": ["A simple decision", "A difficult choice between two options", "A type of discussion"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ means honesty and strong moral principles.",
+        "options": ["consequence", "integrity", "perspective"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A controversial issue always has a clear solution.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'to show something is right'?",
+        "options": ["justify", "rationalize", "consequence"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is a 'principle'?",
+        "options": ["A type of argument", "A basic rule or belief", "A moral problem"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "If you value ___, you will try to be honest even in tough situations.",
+        "options": ["controversial", "integrity", "consequence"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [often, are, ethical, dilemmas, controversial]",
+        "options": ["often", "are", "ethical", "dilemmas", "controversial"],
+        "answer": ["Ethical", "dilemmas", "are", "often", "controversial"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "We must consider the ___ of our decisions.",
+        "options": ["consequences", "perspectives", "justifications"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [his, tried, to, rationalize, he, mistake]",
+        "options": ["his", "tried", "to", "rationalize", "he", "mistake"],
+        "answer": ["He", "tried", "to", "rationalize", "his", "mistake"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "___ is the study of what is right and wrong.",
+        "options": ["Morality", "Perspective", "Dilemma"],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "If someone says, 'It's not always easy to do the right thing,' what topic are they discussing?",
+        "options": ["entertainment", "ethical dilemmas", "weather"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Which phrase is used to express an opinion politely?",
+        "options": ["I believe", "You are wrong", "Never"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "If a person says, 'If everyone cheated, there would be no trust,' what grammar structure do they use?",
+        "options": ["past tense", "conditional", "imperative"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is the consequence in: 'If you lie, people may not trust you'?",
+        "options": ["People may not trust you", "Lying", "Perspective"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which word best fits: 'She always acts with ___'?",
+        "options": ["controversy", "integrity", "dilemma"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'In my view, honesty is the most important principle.'",
+        "options": [],
+        "answer": "In my view, honesty is the most important principle."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'If everyone told the truth, the world would be a better place.'",
+        "options": [],
+        "answer": "If everyone told the truth, the world would be a better place."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Ethical dilemmas often have no simple solution.'",
+        "options": [],
+        "answer": "Ethical dilemmas often have no simple solution."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We must consider the consequences before making a decision.'",
+        "options": [],
+        "answer": "We must consider the consequences before making a decision."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'He tried to justify his actions, but the morality was still questionable.'",
+        "options": [],
+        "answer": "He tried to justify his actions, but the morality was still questionable."
+      }
+    ]
+  }
+}

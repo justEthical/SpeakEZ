@@ -1,0 +1,190 @@
+{
+  "id": "lesson_comparing_people_things_001",
+  "lesson_name": "Comparing People and Things",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "taller", "meaning": "having more height" },
+      { "word": "shorter", "meaning": "having less height" },
+      { "word": "older", "meaning": "having more age" },
+      { "word": "younger", "meaning": "having less age" },
+      { "word": "faster", "meaning": "having more speed" },
+      { "word": "slower", "meaning": "having less speed" },
+      { "word": "bigger", "meaning": "having more size" },
+      { "word": "smaller", "meaning": "having less size" },
+      { "word": "more beautiful", "meaning": "having more beauty" },
+      { "word": "less expensive", "meaning": "costing less money" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Comparative adjectives",
+        "explanation": "Use -er for short words. Example: tall → taller, fast → faster."
+      },
+      {
+        "title": "Using 'than' for comparison",
+        "explanation": "Use 'than' to compare. Example: He is taller than me."
+      },
+      {
+        "title": "'More' and 'less' for long words",
+        "explanation": "Use 'more' or 'less' for long adjectives. Example: more beautiful, less expensive."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My sister is taller than me.", "translation": "" },
+      { "sentence": "This bag is less expensive than that one.", "translation": "" },
+      { "sentence": "Cats are faster than turtles.", "translation": "" },
+      { "sentence": "This room is bigger than the kitchen.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'having more age'?",
+        "options": ["younger", "older", "shorter"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "If you can run very fast, you are ___.",
+        "options": ["slower", "faster", "older"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'costing less money'?",
+        "options": ["more beautiful", "less expensive", "bigger"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Bigger means having less size.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'having more beauty'?",
+        "options": ["shorter", "more beautiful", "faster"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My brother is ___ than me. (younger)",
+        "options": ["older", "taller", "younger"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "This car is ___ than that one. (bigger)",
+        "options": ["smaller", "bigger", "slower"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, this, expensive, less, bag, that, than]",
+        "options": ["is", "this", "expensive", "less", "bag", "that", "than"],
+        "answer": ["This", "bag", "is", "less", "expensive", "than", "that"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Dogs are ___ than cats. (slower)",
+        "options": ["faster", "slower", "more beautiful"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [room, bigger, is, this, kitchen, the, than]",
+        "options": ["room", "bigger", "is", "this", "kitchen", "the", "than"],
+        "answer": ["This", "room", "is", "bigger", "than", "the", "kitchen"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Who is taller? (Audio: 'My sister is taller than me.')",
+        "options": ["Me", "My sister", "My brother"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Which bag is less expensive? (Audio: 'This bag is less expensive than that one.')",
+        "options": ["This bag", "That bag", "Both"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which animal is faster? (Audio: 'Cats are faster than turtles.')",
+        "options": ["Cats", "Turtles", "Dogs"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which room is bigger? (Audio: 'This room is bigger than the kitchen.')",
+        "options": ["Kitchen", "This room", "Bathroom"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Who is younger? (Audio: 'My brother is younger than me.')",
+        "options": ["Me", "My brother", "My sister"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My sister is taller than me.'",
+        "options": [],
+        "answer": "My sister is taller than me."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'This bag is less expensive than that one.'",
+        "options": [],
+        "answer": "This bag is less expensive than that one."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Cats are faster than turtles.'",
+        "options": [],
+        "answer": "Cats are faster than turtles."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'This room is bigger than the kitchen.'",
+        "options": [],
+        "answer": "This room is bigger than the kitchen."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'My brother is younger than me.'",
+        "options": [],
+        "answer": "My brother is younger than me."
+      }
+    ]
+  }
+}

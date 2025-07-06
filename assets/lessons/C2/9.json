@@ -1,0 +1,215 @@
+{
+  "id": "lesson_exploring_theories_of_consciousness_c2_001",
+  "lesson_name": "Exploring Theories of Consciousness",
+  "purpose": "Academic, Philosophy, Psychology",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "qualia", "meaning": "the subjective qualities of conscious experience" },
+      { "word": "phenomenology", "meaning": "the study of conscious experience from the first-person perspective" },
+      { "word": "dualism", "meaning": "the theory that mind and body are separate" },
+      { "word": "panpsychism", "meaning": "the view that consciousness is a universal feature of all things" },
+      { "word": "emergentism", "meaning": "the idea that consciousness arises from complex physical processes" },
+      { "word": "materialism", "meaning": "the belief that only physical matter exists and mind is a product of it" },
+      { "word": "subjectivity", "meaning": "the quality of experiences being unique to the individual" },
+      { "word": "introspection", "meaning": "examining one's own conscious thoughts and feelings" },
+      { "word": "hard problem", "meaning": "the challenge of explaining how and why we have subjective experiences" },
+      { "word": "neural correlates", "meaning": "the brain processes that correspond with conscious states" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Nominalization in Academic Writing",
+        "explanation": "Turn verbs or adjectives into nouns for formality: 'to perceive' → 'perception'."
+      },
+      {
+        "title": "Complex Conditional Structures",
+        "explanation": "Use advanced conditionals: 'If consciousness were fully understood, many debates would cease.'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The hard problem of consciousness remains unsolved despite advances in neuroscience.", "translation": "" },
+      { "sentence": "Dualism posits a fundamental difference between mind and body.", "translation": "" },
+      { "sentence": "Phenomenology prioritizes first-person accounts of experience.", "translation": "" },
+      { "sentence": "Panpsychism challenges the traditional materialist perspective.", "translation": "" },
+      { "sentence": "Introspection is often used as a tool in the study of consciousness.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'qualia' refer to?",
+        "options": [
+          "Objective measurements",
+          "The subjective qualities of experience",
+          "A type of neural process"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ is the theory that mind and body are separate.",
+        "options": ["Emergentism", "Dualism", "Materialism"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Panpsychism claims that consciousness is present in all things.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term describes the brain activity linked to conscious states?",
+        "options": [
+          "Subjectivity",
+          "Neural correlates",
+          "Phenomenology"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The ___ problem refers to the challenge of explaining subjective experience.",
+        "options": ["easy", "hard", "neural"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ involves examining one's own conscious thoughts.",
+        "options": ["Emergentism", "Introspection", "Dualism"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___ prioritizes first-person accounts of experience.",
+        "options": ["Materialism", "Phenomenology", "Panpsychism"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [remains, of, the, a, consciousness, hard, problem, unresolved]",
+        "options": ["remains", "of", "the", "a", "consciousness", "hard", "problem", "unresolved"],
+        "answer": ["The", "hard", "problem", "of", "consciousness", "remains", "unresolved"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Materialism argues that only ___ matter exists.",
+        "options": ["physical", "spiritual", "subjective"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [from, arises, complex, emergentism, physical, that, processes, suggests, consciousness]",
+        "options": ["from", "arises", "complex", "emergentism", "physical", "that", "processes", "suggests", "consciousness"],
+        "answer": ["Emergentism", "suggests", "that", "consciousness", "arises", "from", "complex", "physical", "processes"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which theory states that the mind and body are fundamentally different?",
+        "options": [
+          "Dualism",
+          "Materialism",
+          "Emergentism"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the focus of phenomenology?",
+        "options": [
+          "Neural activity",
+          "First-person conscious experience",
+          "Objective behavior"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which problem asks why we have subjective experience?",
+        "options": [
+          "Easy problem",
+          "Hard problem",
+          "Practical problem"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which theory suggests consciousness is a property of all matter?",
+        "options": [
+          "Materialism",
+          "Dualism",
+          "Panpsychism"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What are neural correlates of consciousness?",
+        "options": [
+          "Subjective experiences",
+          "Brain activities related to consciousness",
+          "First-person reports"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Compare materialism and dualism as theories of consciousness.",
+        "options": [],
+        "answer": "Materialism claims mind is a product of matter, while dualism argues mind and body are distinct substances."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Explain the 'hard problem' of consciousness in your own words.",
+        "options": [],
+        "answer": "The 'hard problem' concerns why and how subjective experiences arise from brain processes."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Describe a critique of panpsychism.",
+        "options": [],
+        "answer": "A critique of panpsychism is that it is difficult to test or provide evidence for consciousness in all matter."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Summarize the importance of introspection in the study of consciousness.",
+        "options": [],
+        "answer": "Introspection allows researchers to access personal, subjective experiences that are central to consciousness studies."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Discuss how emergentism addresses the complexity of conscious experience.",
+        "options": [],
+        "answer": "Emergentism suggests that consciousness results from complex interactions among physical systems, not reducible to simpler elements."
+      }
+    ]
+  }
+}

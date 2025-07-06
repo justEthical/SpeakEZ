@@ -1,0 +1,186 @@
+{
+  "id": "lesson_personal_qualities_001",
+  "lesson_name": "Describing Personal Qualities",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "honest", "meaning": "someone who always tells the truth" },
+      { "word": "creative", "meaning": "able to make new things or ideas" },
+      { "word": "generous", "meaning": "happy to give and share" },
+      { "word": "patient", "meaning": "able to wait calmly" },
+      { "word": "confident", "meaning": "sure about yourself" },
+      { "word": "reliable", "meaning": "can be trusted to do things well" },
+      { "word": "ambitious", "meaning": "wanting to be successful" },
+      { "word": "hardworking", "meaning": "putting a lot of effort into work" },
+      { "word": "friendly", "meaning": "kind and pleasant to others" },
+      { "word": "polite", "meaning": "showing good manners" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using adjectives to describe people",
+        "explanation": "Put the adjective before the noun. Example: She is a creative person."
+      },
+      {
+        "title": "Using 'very' and 'quite' for emphasis",
+        "explanation": "Use 'very' or 'quite' before an adjective. Example: He is very hardworking."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "She is an honest and reliable friend.", "translation": "" },
+      { "sentence": "He is quite creative and friendly.", "translation": "" },
+      { "sentence": "My teacher is very patient.", "translation": "" },
+      { "sentence": "I want to be more confident.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'someone who always tells the truth'?",
+        "options": ["confident", "honest", "creative"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ person is happy to give and share.",
+        "options": ["hardworking", "generous", "ambitious"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'can be trusted to do things well'?",
+        "options": ["reliable", "polite", "patient"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Polite' means showing good manners.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does 'ambitious' mean?",
+        "options": ["Wanting to be successful", "Kind to others", "Always telling the truth"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She is an ___ and reliable friend.",
+        "options": ["honest", "polite", "ambitious"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He is ___ creative and friendly.",
+        "options": ["quite", "very", "too"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [teacher, patient, very, my, is]",
+        "options": ["teacher", "patient", "very", "my", "is"],
+        "answer": ["My", "teacher", "is", "very", "patient"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "I want to be more ___.",
+        "options": ["hardworking", "confident", "friendly"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [honest, an, she, person, is]",
+        "options": ["honest", "an", "she", "person", "is"],
+        "answer": ["She", "is", "an", "honest", "person"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which two qualities does the speaker mention? (Audio: 'She is an honest and reliable friend.')",
+        "options": ["honest and reliable", "friendly and polite", "ambitious and patient"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "How is he described? (Audio: 'He is quite creative and friendly.')",
+        "options": ["Very hardworking", "Quite creative and friendly", "Always patient"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What quality does the teacher have? (Audio: 'My teacher is very patient.')",
+        "options": ["polite", "patient", "hardworking"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What does the speaker want? (Audio: 'I want to be more confident.')",
+        "options": ["To be more confident", "To be more ambitious", "To be more polite"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Who is polite? (Audio: 'He is a polite boy.')",
+        "options": ["He", "She", "I"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'She is an honest and reliable friend.'",
+        "options": [],
+        "answer": "She is an honest and reliable friend."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'He is quite creative and friendly.'",
+        "options": [],
+        "answer": "He is quite creative and friendly."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'My teacher is very patient.'",
+        "options": [],
+        "answer": "My teacher is very patient."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I want to be more confident.'",
+        "options": [],
+        "answer": "I want to be more confident."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She is an honest person.'",
+        "options": [],
+        "answer": "She is an honest person."
+      }
+    ]
+  }
+}

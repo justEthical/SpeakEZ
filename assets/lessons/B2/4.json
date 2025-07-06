@@ -1,0 +1,186 @@
+{
+  "id": "lesson_analyzing_news_articles_001",
+  "lesson_name": "Analyzing News Articles",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "headline", "meaning": "the title of a news article" },
+      { "word": "source", "meaning": "where information comes from" },
+      { "word": "bias", "meaning": "an unfair preference for or against something" },
+      { "word": "fact", "meaning": "something that is true and can be proven" },
+      { "word": "opinion", "meaning": "what someone thinks or believes" },
+      { "word": "reliable", "meaning": "can be trusted" },
+      { "word": "quotation", "meaning": "exact words from someone" },
+      { "word": "summary", "meaning": "a short description of the main points" },
+      { "word": "evidence", "meaning": "information that shows something is true" },
+      { "word": "perspective", "meaning": "a point of view" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Reporting Verbs",
+        "explanation": "Use verbs like 'report', 'state', 'claim', and 'argue' to show what the article says. Example: The article claims that the weather is changing."
+      },
+      {
+        "title": "Passive Voice",
+        "explanation": "Use the passive to focus on the action, not the person. Example: It was reported that prices increased."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The headline says that prices are rising.", "translation": "" },
+      { "sentence": "According to the article, the source is reliable.", "translation": "" },
+      { "sentence": "The author argues that more evidence is needed.", "translation": "" },
+      { "sentence": "In my opinion, the article is balanced.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'the title of a news article'?",
+        "options": ["headline", "opinion", "summary"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is something that is true and can be proven.",
+        "options": ["fact", "bias", "source"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'an unfair preference for or against something'?",
+        "options": ["bias", "evidence", "quotation"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Quotation' means the exact words from someone.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'can be trusted'?",
+        "options": ["summary", "reliable", "perspective"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ says that prices are rising.",
+        "options": ["headline", "source", "evidence"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "According to the article, the ___ is reliable.",
+        "options": ["bias", "source", "summary"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, the, summary, points, of, article, main, the]",
+        "options": ["is", "the", "summary", "points", "of", "article", "main", "the"],
+        "answer": ["The", "summary", "is", "the", "main", "points", "of", "the", "article"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "In my ___, the article is balanced.",
+        "options": ["evidence", "opinion", "headline"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [that, the, argues, author, more, needed, evidence, is]",
+        "options": ["that", "the", "argues", "author", "more", "needed", "evidence", "is"],
+        "answer": ["The", "author", "argues", "that", "more", "evidence", "is", "needed"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What does the headline say? (Audio: 'The headline says that prices are rising.')",
+        "options": ["Prices are falling", "Prices are rising", "Prices are stable"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Who is reliable according to the article? (Audio: 'According to the article, the source is reliable.')",
+        "options": ["The author", "The source", "The reader"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does the author argue? (Audio: 'The author argues that more evidence is needed.')",
+        "options": ["There is enough evidence", "More evidence is needed", "No evidence is needed"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is the speaker's opinion? (Audio: 'In my opinion, the article is balanced.')",
+        "options": ["It is unbalanced", "It is biased", "It is balanced"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does 'quotation' mean? (Audio: 'A quotation is the exact words from someone.')",
+        "options": ["A summary", "A fact", "The exact words from someone"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The headline says that prices are rising.'",
+        "options": [],
+        "answer": "The headline says that prices are rising."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'According to the article, the source is reliable.'",
+        "options": [],
+        "answer": "According to the article, the source is reliable."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The author argues that more evidence is needed.'",
+        "options": [],
+        "answer": "The author argues that more evidence is needed."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'In my opinion, the article is balanced.'",
+        "options": [],
+        "answer": "In my opinion, the article is balanced."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'A quotation is the exact words from someone.'",
+        "options": [],
+        "answer": "A quotation is the exact words from someone."
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "b2_discussing_globalization_01",
+  "lesson_name": "Discussing Globalization",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "globalization", "meaning": "the process of countries becoming more connected" },
+      { "word": "multinational", "meaning": "a company that operates in many countries" },
+      { "word": "trade", "meaning": "buying and selling goods between countries" },
+      { "word": "outsourcing", "meaning": "sending work to another country to save costs" },
+      { "word": "diversity", "meaning": "having many different types of people or things" },
+      { "word": "cultural exchange", "meaning": "sharing ideas and traditions between countries" },
+      { "word": "economy", "meaning": "the system of money and trade in a country" },
+      { "word": "inequality", "meaning": "an unfair difference between people or groups" },
+      { "word": "integration", "meaning": "combining different parts into a whole" },
+      { "word": "standardization", "meaning": "making things the same in many places" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Expressing Causes and Effects",
+        "explanation": "Use 'because', 'due to', 'as a result', and 'therefore' to connect ideas. Example: 'Outsourcing is popular because it reduces costs.'"
+      },
+      {
+        "title": "Making Comparisons",
+        "explanation": "Use 'more/less...than', 'the most/least', and comparative forms: 'Trade is easier now than before.'"
+      },
+      {
+        "title": "Using Passive Voice",
+        "explanation": "Use the passive to focus on the action: 'Jobs are outsourced to other countries.'"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "Globalization has led to greater cultural exchange.",
+        "translation": ""
+      },
+      {
+        "sentence": "Many multinational companies have offices around the world.",
+        "translation": ""
+      },
+      {
+        "sentence": "Outsourcing is used by businesses to lower costs.",
+        "translation": ""
+      },
+      {
+        "sentence": "Some people believe that globalization increases inequality.",
+        "translation": ""
+      },
+      {
+        "sentence": "Standardization makes products similar in many countries.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'multinational' mean?",
+        "options": ["A company in one country", "A company in many countries", "A type of trade"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "_____ means buying and selling goods between countries.",
+        "options": ["Trade", "Outsourcing", "Diversity"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "'Cultural exchange' is about sharing ideas between countries.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What is 'outsourcing'?",
+        "options": ["Sending work to another country", "Having a diverse workplace", "Making laws"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does 'standardization' refer to?",
+        "options": ["Making things the same", "Increasing diversity", "Trading goods"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Globalization has _____ (increased/reduced) cultural exchange.",
+        "options": ["increased", "reduced"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Jobs are _____ (outsourced/traded) to other countries to save money.",
+        "options": ["outsourced", "traded"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: economy / the / globalization / affected / has",
+        "options": ["Globalization has affected the economy."],
+        "answer": [0]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "_____ (Integration/Diversity) combines different cultures.",
+        "options": ["Integration", "Diversity"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: standardization / makes / products / similar / many / countries / in",
+        "options": ["Standardization makes products similar in many countries."],
+        "answer": [0]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Listen: What is one effect of globalization mentioned?",
+        "options": ["Lower diversity", "More cultural exchange", "Less trade"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Listen: Why do companies use outsourcing?",
+        "options": ["To increase costs", "To lower costs", "To reduce diversity"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Listen: What does standardization do?",
+        "options": ["Makes things different", "Makes things the same", "Increases trade"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Listen: What is a negative effect of globalization mentioned?",
+        "options": ["More jobs", "Increased inequality", "More integration"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Listen: What do multinational companies do?",
+        "options": ["Operate in many countries", "Work in only one place", "Focus only on local trade"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Explain what globalization means in your own words.",
+        "options": [],
+        "answer": "Globalization is when countries and people around the world become more connected through trade and culture."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Give one positive effect of globalization.",
+        "options": [],
+        "answer": "A positive effect is that people can experience new cultures and ideas."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Describe a negative impact of globalization.",
+        "options": [],
+        "answer": "One negative impact is that it can increase inequality between countries."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Discuss how multinational companies influence local cultures.",
+        "options": [],
+        "answer": "Multinational companies can influence local cultures by bringing new products and changing local traditions."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Suggest one way to balance the benefits and drawbacks of globalization.",
+        "options": [],
+        "answer": "Countries can create fair trade rules to help both workers and businesses benefit."
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "lesson_advanced_technology_001",
+  "lesson_name": "Talking About Advanced Technology",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "artificial intelligence", "meaning": "technology that can think and learn like humans" },
+      { "word": "innovation", "meaning": "a new idea, device, or method" },
+      { "word": "robotics", "meaning": "the science of making and using robots" },
+      { "word": "automation", "meaning": "using machines to do work automatically" },
+      { "word": "virtual reality", "meaning": "a computer-made world you can experience" },
+      { "word": "algorithm", "meaning": "a set of rules a computer follows" },
+      { "word": "breakthrough", "meaning": "an important new discovery or development" },
+      { "word": "digital", "meaning": "using computers or electronics" },
+      { "word": "network", "meaning": "a system that connects computers or people" },
+      { "word": "device", "meaning": "a piece of electronic equipment" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Describing Processes",
+        "explanation": "Use passive voice to explain how technology is used. Example: Data is collected by sensors."
+      },
+      {
+        "title": "Speculating About the Future",
+        "explanation": "Use 'will', 'might', or 'could' to talk about future technology. Example: Robots might replace many jobs."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Artificial intelligence is changing many industries.", "translation": "" },
+      { "sentence": "A new breakthrough was made in robotics last year.", "translation": "" },
+      { "sentence": "Automation can increase efficiency in factories.", "translation": "" },
+      { "sentence": "People use virtual reality to experience new worlds.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'technology that can think and learn like humans'?",
+        "options": ["robotics", "automation", "artificial intelligence"],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A set of rules a computer follows is called an ___.",
+        "options": ["algorithm", "breakthrough", "device"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'a computer-made world you can experience'?",
+        "options": ["virtual reality", "network", "automation"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Breakthrough' means an important new discovery or development.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'a system that connects computers or people'?",
+        "options": ["device", "network", "innovation"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ is changing many industries.",
+        "options": ["Artificial intelligence", "Device", "Automation"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "A new ___ was made in robotics last year.",
+        "options": ["algorithm", "breakthrough", "network"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [increase, automation, can, efficiency, factories, in]",
+        "options": ["increase", "automation", "can", "efficiency", "factories", "in"],
+        "answer": ["Automation", "can", "increase", "efficiency", "in", "factories"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "People use ___ to experience new worlds.",
+        "options": ["digital", "virtual reality", "robotics"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [data, by, sensors, collected, is]",
+        "options": ["data", "by", "sensors", "collected", "is"],
+        "answer": ["Data", "is", "collected", "by", "sensors"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is changing many industries? (Audio: 'Artificial intelligence is changing many industries.')",
+        "options": ["Artificial intelligence", "Automation", "Device"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What was made in robotics last year? (Audio: 'A new breakthrough was made in robotics last year.')",
+        "options": ["A device", "A breakthrough", "A network"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What can increase efficiency in factories? (Audio: 'Automation can increase efficiency in factories.')",
+        "options": ["Automation", "Network", "Virtual reality"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What do people use to experience new worlds? (Audio: 'People use virtual reality to experience new worlds.')",
+        "options": ["Automation", "Virtual reality", "Innovation"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "How is data collected? (Audio: 'Data is collected by sensors.')",
+        "options": ["By sensors", "By robots", "By devices"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Artificial intelligence is changing many industries.'",
+        "options": [],
+        "answer": "Artificial intelligence is changing many industries."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'A new breakthrough was made in robotics last year.'",
+        "options": [],
+        "answer": "A new breakthrough was made in robotics last year."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Automation can increase efficiency in factories.'",
+        "options": [],
+        "answer": "Automation can increase efficiency in factories."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'People use virtual reality to experience new worlds.'",
+        "options": [],
+        "answer": "People use virtual reality to experience new worlds."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Data is collected by sensors.'",
+        "options": [],
+        "answer": "Data is collected by sensors."
+      }
+    ]
+  }
+}

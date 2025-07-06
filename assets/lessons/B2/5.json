@@ -1,0 +1,186 @@
+{
+  "id": "lesson_understanding_cultural_differences_001",
+  "lesson_name": "Understanding Cultural Differences",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "culture", "meaning": "the ideas and customs of a group of people" },
+      { "word": "custom", "meaning": "a traditional way of doing something" },
+      { "word": "tradition", "meaning": "a belief or way of doing something that has existed for a long time" },
+      { "word": "value", "meaning": "a belief about what is important" },
+      { "word": "norm", "meaning": "a usual or expected way of behaving" },
+      { "word": "taboo", "meaning": "something that is not allowed by society" },
+      { "word": "stereotype", "meaning": "an oversimplified idea about a group" },
+      { "word": "prejudice", "meaning": "an unfair feeling about a group" },
+      { "word": "multicultural", "meaning": "including people from many cultures" },
+      { "word": "tolerance", "meaning": "accepting other people's differences" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Expressing Contrast",
+        "explanation": "Use 'whereas', 'however', or 'on the other hand' to show differences. Example: In some cultures people bow, whereas in others they shake hands."
+      },
+      {
+        "title": "Using Passive for Customs",
+        "explanation": "Use passive forms to describe what is done. Example: Shoes are removed before entering the house."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Each culture has its own traditions and values.", "translation": "" },
+      { "sentence": "It is a custom to eat together during festivals.", "translation": "" },
+      { "sentence": "Tolerance is important in a multicultural society.", "translation": "" },
+      { "sentence": "Certain topics are considered taboo in some cultures.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'the ideas and customs of a group of people'?",
+        "options": ["taboo", "culture", "prejudice"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is a traditional way of doing something.",
+        "options": ["custom", "value", "norm"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'accepting other people's differences'?",
+        "options": ["multicultural", "tolerance", "tradition"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Stereotype' means an oversimplified idea about a group.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'an unfair feeling about a group'?",
+        "options": ["value", "taboo", "prejudice"],
+        "answer": 2
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Each ___ has its own traditions and values.",
+        "options": ["norm", "custom", "culture"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___ is important in a multicultural society.",
+        "options": ["Prejudice", "Tolerance", "Stereotype"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [eating, custom, is, together, during, it, a, festivals]",
+        "options": ["eating", "custom", "is", "together", "during", "it", "a", "festivals"],
+        "answer": ["It", "is", "a", "custom", "to", "eat", "together", "during", "festivals"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Certain topics are considered ___ in some cultures.",
+        "options": ["multicultural", "taboo", "norm"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [multicultural, people, live, in, many, from, a, society]",
+        "options": ["multicultural", "people", "live", "in", "many", "from", "a", "society"],
+        "answer": ["Many", "people", "from", "different", "cultures", "live", "in", "a", "multicultural", "society"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What does each culture have? (Audio: 'Each culture has its own traditions and values.')",
+        "options": ["Traditions and values", "Stereotypes and prejudice", "Norms and tolerance"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is a custom during festivals? (Audio: 'It is a custom to eat together during festivals.')",
+        "options": ["Eat alone", "Eat together", "Avoid eating"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What is important in a multicultural society? (Audio: 'Tolerance is important in a multicultural society.')",
+        "options": ["Tradition", "Tolerance", "Prejudice"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is considered taboo in some cultures? (Audio: 'Certain topics are considered taboo in some cultures.')",
+        "options": ["Certain topics", "All customs", "Traditions"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is a stereotype? (Audio: 'A stereotype is an oversimplified idea about a group.')",
+        "options": ["An unfair feeling", "An oversimplified idea", "A traditional value"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Each culture has its own traditions and values.'",
+        "options": [],
+        "answer": "Each culture has its own traditions and values."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'It is a custom to eat together during festivals.'",
+        "options": [],
+        "answer": "It is a custom to eat together during festivals."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Tolerance is important in a multicultural society.'",
+        "options": [],
+        "answer": "Tolerance is important in a multicultural society."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Certain topics are considered taboo in some cultures.'",
+        "options": [],
+        "answer": "Certain topics are considered taboo in some cultures."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'A stereotype is an oversimplified idea about a group.'",
+        "options": [],
+        "answer": "A stereotype is an oversimplified idea about a group."
+      }
+    ]
+  }
+}

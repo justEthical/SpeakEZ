@@ -1,0 +1,186 @@
+{
+  "id": "lesson_exploring_stereotypes_prejudices_001",
+  "lesson_name": "Exploring Stereotypes & Prejudices",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "stereotype", "meaning": "a simple idea about a group that may not be true" },
+      { "word": "prejudice", "meaning": "an unfair feeling or dislike for a group" },
+      { "word": "discrimination", "meaning": "unfair treatment because of a group" },
+      { "word": "assumption", "meaning": "something you believe without proof" },
+      { "word": "bias", "meaning": "a strong feeling for or against something, often unfair" },
+      { "word": "diversity", "meaning": "many different kinds of people or things" },
+      { "word": "inclusion", "meaning": "making sure everyone is part of a group" },
+      { "word": "tolerance", "meaning": "accepting differences" },
+      { "word": "equality", "meaning": "everyone being treated the same way" },
+      { "word": "marginalize", "meaning": "to push someone out of an important group" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Modal Verbs to Express Uncertainty",
+        "explanation": "Use 'might', 'could', or 'may' to show that something is possible but not certain. Example: This stereotype might not be true."
+      },
+      {
+        "title": "Forming Passive Sentences",
+        "explanation": "Use passive voice to focus on the action or situation. Example: Some people are marginalized in society."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Stereotypes can lead to prejudice and discrimination.", "translation": "" },
+      { "sentence": "We should celebrate diversity and practice inclusion.", "translation": "" },
+      { "sentence": "An assumption is not always correct.", "translation": "" },
+      { "sentence": "Many groups have been marginalized in history.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a simple idea about a group that may not be true'?",
+        "options": ["stereotype", "equality", "inclusion"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ means unfair treatment because of a group.",
+        "options": ["Diversity", "Discrimination", "Tolerance"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'accepting differences'?",
+        "options": ["Tolerance", "Assumption", "Bias"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Prejudice' means an unfair feeling or dislike for a group.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'to push someone out of an important group'?",
+        "options": ["Include", "Marginalize", "Assume"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Stereotypes can lead to ___ and discrimination.",
+        "options": ["bias", "prejudice", "diversity"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We should celebrate ___ and practice inclusion.",
+        "options": ["diversity", "equality", "prejudice"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, not, always, assumption, an, correct]",
+        "options": ["is", "not", "always", "assumption", "an", "correct"],
+        "answer": ["An", "assumption", "is", "not", "always", "correct"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Many groups have been ___ in history.",
+        "options": ["marginalize", "included", "marginalized"],
+        "answer": 2
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [be, might, true, not, stereotype, this]",
+        "options": ["be", "might", "true", "not", "stereotype", "this"],
+        "answer": ["This", "stereotype", "might", "not", "be", "true"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What can stereotypes lead to? (Audio: 'Stereotypes can lead to prejudice and discrimination.')",
+        "options": ["Tolerance", "Prejudice and discrimination", "Diversity"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What should we celebrate? (Audio: 'We should celebrate diversity and practice inclusion.')",
+        "options": ["Discrimination", "Assumption", "Diversity"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What is not always correct? (Audio: 'An assumption is not always correct.')",
+        "options": ["A stereotype", "An assumption", "A prejudice"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What happened to many groups in history? (Audio: 'Many groups have been marginalized in history.')",
+        "options": ["Included", "Marginalized", "Celebrated"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What might not be true? (Audio: 'This stereotype might not be true.')",
+        "options": ["This stereotype", "This bias", "This diversity"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Stereotypes can lead to prejudice and discrimination.'",
+        "options": [],
+        "answer": "Stereotypes can lead to prejudice and discrimination."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'We should celebrate diversity and practice inclusion.'",
+        "options": [],
+        "answer": "We should celebrate diversity and practice inclusion."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'An assumption is not always correct.'",
+        "options": [],
+        "answer": "An assumption is not always correct."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Many groups have been marginalized in history.'",
+        "options": [],
+        "answer": "Many groups have been marginalized in history."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'This stereotype might not be true.'",
+        "options": [],
+        "answer": "This stereotype might not be true."
+      }
+    ]
+  }
+}

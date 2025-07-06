@@ -103,13 +103,18 @@ class OnboardingController extends GetxController {
           AppStrings.userProfile,
           jsonEncode(userProfile.toMap()),
         );
-        globalController.prefs?.setString(
-          AppStrings.userAuthState,
-          "onboardingQuestions",
-        );
+
         if (globalController.userProfile.value.motherTongue == "") {
+          globalController.prefs?.setString(
+            AppStrings.userAuthState,
+            "onboardingQuestions",
+          );
           Get.offAll(() => OnboarindQuestions());
         } else {
+          globalController.prefs?.setString(
+            AppStrings.userAuthState,
+            "loggedIn",
+          );
           Get.offAll(() => TabBarScreen());
         }
       }
@@ -147,13 +152,17 @@ class OnboardingController extends GetxController {
             AppStrings.userProfile,
             jsonEncode(userProfile.toMap()),
           );
-          globalController.prefs?.setString(
-            AppStrings.userAuthState,
-            "onboardingQuestions",
-          );
           if (globalController.userProfile.value.motherTongue == "") {
+            globalController.prefs?.setString(
+              AppStrings.userAuthState,
+              "onboardingQuestions",
+            );
             Get.offAll(() => OnboarindQuestions());
           } else {
+            globalController.prefs?.setString(
+              AppStrings.userAuthState,
+              "loggedIn",
+            );
             Get.offAll(() => TabBarScreen());
           }
         }

@@ -1,0 +1,187 @@
+{
+  "id": "lesson_analyzing_satire_irony_c1_001",
+  "lesson_name": "Analyzing Satire and Irony",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "satire", "meaning": "a way of criticizing people or ideas in a humorous way" },
+      { "word": "irony", "meaning": "using words to express the opposite of what is meant" },
+      { "word": "sarcasm", "meaning": "the use of irony to mock or show contempt" },
+      { "word": "parody", "meaning": "an imitation of a style or work for comic effect" },
+      { "word": "understatement", "meaning": "making something seem less important than it is" },
+      { "word": "exaggeration", "meaning": "making something seem more important than it is" },
+      { "word": "wit", "meaning": "the ability to use words cleverly and humorously" },
+      { "word": "mockery", "meaning": "making fun of someone or something" },
+      { "word": "innuendo", "meaning": "an indirect remark, often suggesting something bad" },
+      { "word": "lampoon", "meaning": "to publicly criticize using ridicule or irony" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Subjunctive Mood for Hypotheticals",
+        "explanation": "Satire and irony often use 'if I were' to create hypothetical situations. Example: If I were king, I’d ban all work on Mondays."
+      },
+      {
+        "title": "Contrast with Connectors",
+        "explanation": "Words like 'but', 'however', and 'yet' signal irony or contrast. Example: He said he was thrilled, yet his face was blank."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The cartoon used satire to highlight political issues.", "translation": "" },
+      { "sentence": "Her use of irony made the story more entertaining.", "translation": "" },
+      { "sentence": "He said, 'Great job!' after I dropped the plate, using sarcasm.", "translation": "" },
+      { "sentence": "The film is a parody of classic detective movies.", "translation": "" },
+      { "sentence": "He described the storm as 'a bit of rain', an example of understatement.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'criticizing people or ideas in a humorous way'?",
+        "options": ["satire", "wit", "innuendo"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "What is 'parody'?",
+        "options": ["an imitation for comic effect", "an indirect remark", "a clever joke"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "The use of ___ can make a story more entertaining by expressing the opposite of what is meant.",
+        "options": ["mockery", "exaggeration", "irony"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "Lampoon means to praise someone publicly.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is sarcasm?",
+        "options": ["mocking irony", "serious comment", "comic imitation"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He used ___ to make fun of the politician’s speech.",
+        "options": ["exaggeration", "parody", "satire"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [story, irony, the, made, her, entertaining, use, more, of]",
+        "options": ["story", "irony", "the", "made", "her", "entertaining", "use", "more", "of"],
+        "answer": ["Her", "use", "of", "irony", "made", "the", "story", "more", "entertaining"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The film is a ___ of detective movies.",
+        "options": ["parody", "wit", "innuendo"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Describing a tornado as 'windy' is an example of ___.",
+        "options": ["parody", "understatement", "exaggeration"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [rain, a, of, storm, as, bit, the, described, he]",
+        "options": ["rain", "a", "of", "storm", "as", "bit", "the", "described", "he"],
+        "answer": ["He", "described", "the", "storm", "as", "a", "bit", "of", "rain"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which literary device is being used? (Audio: 'He called a very tall man “Shorty.”')",
+        "options": ["Irony", "Understatement", "Parody"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What is the function of satire? (Audio: 'Satire is often used to highlight flaws in society through humor.')",
+        "options": ["To mock", "To praise", "To highlight flaws humorously"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "How is parody different from sarcasm? (Audio: 'Parody is an imitation, while sarcasm mocks using irony.')",
+        "options": ["They are the same", "Parody imitates, sarcasm mocks", "Both are irony"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which word refers to making something seem less important than it is?",
+        "options": ["Understatement", "Satire", "Mockery"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Which device uses indirect remarks to suggest something bad?",
+        "options": ["Exaggeration", "Wit", "Innuendo"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Satire can help us see social issues more clearly.'",
+        "options": [],
+        "answer": "Satire can help us see social issues more clearly."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Her use of irony made the story more entertaining.'",
+        "options": [],
+        "answer": "Her use of irony made the story more entertaining."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He used sarcasm to mock his friend's bad idea.'",
+        "options": [],
+        "answer": "He used sarcasm to mock his friend's bad idea."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The film is a parody of detective stories.'",
+        "options": [],
+        "answer": "The film is a parody of detective stories."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'He described the storm as a bit of rain, showing understatement.'",
+        "options": [],
+        "answer": "He described the storm as a bit of rain, showing understatement."
+      }
+    ]
+  }
+}
