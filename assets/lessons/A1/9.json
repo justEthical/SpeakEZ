@@ -1,0 +1,186 @@
+{
+  "id": "lesson_school_subjects_001",
+  "lesson_name": "School Subjects",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "Math", "meaning": "the study of numbers and shapes" },
+      { "word": "Science", "meaning": "the study of nature and the world" },
+      { "word": "English", "meaning": "the study of the English language" },
+      { "word": "History", "meaning": "the study of past events" },
+      { "word": "Geography", "meaning": "the study of places and maps" },
+      { "word": "Art", "meaning": "the subject of drawing and painting" },
+      { "word": "Music", "meaning": "the subject of singing and playing instruments" },
+      { "word": "Computer", "meaning": "the subject of learning about computers" },
+      { "word": "Physical Education", "meaning": "the subject where you do sports and exercise" },
+      { "word": "Homework", "meaning": "work you do at home for school" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'my favorite subject is...'",
+        "explanation": "Say 'My favorite subject is English.' to talk about what you like."
+      },
+      {
+        "title": "Using 'I have' for timetable",
+        "explanation": "Say 'I have math on Monday.' to talk about your classes."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I have science class today.", "translation": "मेरी आज विज्ञान की कक्षा है।" },
+      { "sentence": "Math is my favorite subject.", "translation": "गणित मेरा पसंदीदा विषय है।" },
+      { "sentence": "We draw in art class.", "translation": "हम कला की कक्षा में चित्र बनाते हैं।" },
+      { "sentence": "I do my homework after school.", "translation": "मैं स्कूल के बाद अपना गृहकार्य करता हूँ।" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which subject teaches about numbers?",
+        "options": ["History", "Math", "Music"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "In ___ class, we learn about maps.",
+        "options": ["Geography", "Art", "Math"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "You sing in music class.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which subject is about the past?",
+        "options": ["Art", "Science", "History"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which subject is about drawing and painting?",
+        "options": ["Music", "Art", "English"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My favorite subject is ___. (math)",
+        "options": ["history", "math", "music"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We have ___ on Monday. (English)",
+        "options": ["English", "Art", "Science"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, do, homework, my, after, school]",
+        "options": ["I", "do", "homework", "my", "after", "school"],
+        "answer": ["I", "do", "my", "homework", "after", "school"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We draw in ___ class.",
+        "options": ["music", "art", "math"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [today, have, I, science, class]",
+        "options": ["today", "have", "I", "science", "class"],
+        "answer": ["I", "have", "science", "class", "today"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which subject did the speaker mention? (Audio: 'I have history today.')",
+        "options": ["History", "Math", "Art"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What do students do in art class? (Audio: 'We draw in art class.')",
+        "options": ["Sing", "Draw", "Count"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which subject is about computers? (Audio: 'We learn about computers.')",
+        "options": ["English", "Computer", "Science"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Which subject is about singing? (Audio: 'We sing in music class.')",
+        "options": ["Math", "Music", "Art"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "When does the speaker do homework? (Audio: 'I do my homework after school.')",
+        "options": ["Before school", "During class", "After school"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Math is my favorite subject.'",
+        "options": [],
+        "answer": "Math is my favorite subject."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I have science class today.'",
+        "options": [],
+        "answer": "I have science class today."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We draw in art class.'",
+        "options": [],
+        "answer": "We draw in art class."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I do my homework after school.'",
+        "options": [],
+        "answer": "I do my homework after school."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We sing in music class.'",
+        "options": [],
+        "answer": "We sing in music class."
+      }
+    ]
+  }
+}

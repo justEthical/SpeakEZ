@@ -1,0 +1,187 @@
+{
+  "id": "lesson_literary_devices_c1_001",
+  "lesson_name": "Interpreting Literary Devices",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "metaphor", "meaning": "a comparison without using 'like' or 'as'" },
+      { "word": "simile", "meaning": "a comparison using 'like' or 'as'" },
+      { "word": "personification", "meaning": "giving human qualities to non-human things" },
+      { "word": "alliteration", "meaning": "repetition of consonant sounds at the beginning of words" },
+      { "word": "irony", "meaning": "using words to mean the opposite of what is expected" },
+      { "word": "hyperbole", "meaning": "an exaggerated statement not meant to be taken literally" },
+      { "word": "symbolism", "meaning": "using objects to represent ideas or concepts" },
+      { "word": "oxymoron", "meaning": "combining two opposite ideas in one phrase" },
+      { "word": "imagery", "meaning": "using descriptive language to create pictures in the reader's mind" },
+      { "word": "onomatopoeia", "meaning": "a word that imitates the sound it represents" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Interpreting Figurative Language",
+        "explanation": "Look for meanings beyond the literal words. Example: 'Time is a thief' does not mean time steals literally."
+      },
+      {
+        "title": "Identifying Similes and Metaphors",
+        "explanation": "Similes use 'like' or 'as'; metaphors do not. Example: 'She is as brave as a lion' (simile). 'She is a lion' (metaphor)."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The classroom was a zoo. (Metaphor)", "translation": "" },
+      { "sentence": "His words cut deeper than a knife. (Metaphor)", "translation": "" },
+      { "sentence": "She sang like an angel. (Simile)", "translation": "" },
+      { "sentence": "The wind whispered through the trees. (Personification)", "translation": "" },
+      { "sentence": "Boom! The fireworks exploded in the sky. (Onomatopoeia)", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is a simile?",
+        "options": ["A comparison using 'like' or 'as'", "An exaggeration", "Giving human qualities to things"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ is when objects are used to represent ideas.",
+        "options": ["Hyperbole", "Symbolism", "Alliteration"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Onomatopoeia is a word that sounds like its meaning.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which is an example of irony?",
+        "options": ["Saying 'What a beautiful day' during a storm", "Saying 'as busy as a bee'", "Calling the sun 'angry'"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does 'personification' do?",
+        "options": ["Gives human qualities to non-human things", "Repeats sounds", "Exaggerates statements"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She is as fast as a ___. (Choose: rabbit, car, turtle)",
+        "options": ["rabbit", "car", "turtle"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [storm, a, was, the, classroom]",
+        "options": ["storm", "a", "was", "the", "classroom"],
+        "answer": ["The", "classroom", "was", "a", "storm"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The leaves ___ in the wind. (Choose: danced, ate, sang)",
+        "options": ["danced", "ate", "sang"],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, golden, silence]",
+        "options": ["is", "golden", "silence"],
+        "answer": ["Silence", "is", "golden"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "His backpack was a ___ of bricks. (Choose: feather, pile, ton)",
+        "options": ["feather", "pile", "ton"],
+        "answer": 2
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Which device is used if you hear 'The sky cried all night'?",
+        "options": ["Simile", "Personification", "Onomatopoeia"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "If a speaker says, 'Buzz, buzz,' which device is this?",
+        "options": ["Alliteration", "Onomatopoeia", "Metaphor"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "If you hear 'Her voice was music to my ears', which device is used?",
+        "options": ["Metaphor", "Hyperbole", "Irony"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What literary device is in 'He ran faster than the wind'?",
+        "options": ["Simile", "Metaphor", "Hyperbole"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does the sentence 'She is a night owl' mean?",
+        "options": ["She likes to stay up late", "She is a bird", "She is quiet"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The stars danced in the sky.'",
+        "options": [],
+        "answer": "The stars danced in the sky."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Life is a journey full of surprises.'",
+        "options": [],
+        "answer": "Life is a journey full of surprises."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Her laughter was music to my ears.'",
+        "options": [],
+        "answer": "Her laughter was music to my ears."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Boom! The door slammed shut.'",
+        "options": [],
+        "answer": "Boom! The door slammed shut."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She is as wise as an owl.'",
+        "options": [],
+        "answer": "She is as wise as an owl."
+      }
+    ]
+  }
+}

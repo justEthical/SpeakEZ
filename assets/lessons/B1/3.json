@@ -1,0 +1,186 @@
+{
+  "id": "lesson_work_professions_001",
+  "lesson_name": "Discussing Work & Professions",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "profession", "meaning": "a type of job that needs special training" },
+      { "word": "colleague", "meaning": "a person you work with" },
+      { "word": "salary", "meaning": "money you get for your work" },
+      { "word": "interview", "meaning": "a meeting to get a job" },
+      { "word": "promotion", "meaning": "when you move to a higher position at work" },
+      { "word": "full-time", "meaning": "working all the usual hours of a job" },
+      { "word": "part-time", "meaning": "working fewer hours than a full-time job" },
+      { "word": "employer", "meaning": "the person or company you work for" },
+      { "word": "employee", "meaning": "a person who works for someone else" },
+      { "word": "responsibility", "meaning": "something you must do as part of your job" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about job roles",
+        "explanation": "Use 'I work as...' or 'My job is...' Example: I work as a teacher."
+      },
+      {
+        "title": "Describing duties and responsibilities",
+        "explanation": "Use 'have to' or 'must' to talk about things you need to do. Example: I have to attend meetings."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I work as a nurse in a hospital.", "translation": "" },
+      { "sentence": "My colleague is very helpful.", "translation": "" },
+      { "sentence": "She got a promotion last month.", "translation": "" },
+      { "sentence": "The salary for this job is good.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'money you get for your work'?",
+        "options": ["salary", "responsibility", "promotion"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A person you work with is called a ___.",
+        "options": ["employee", "colleague", "employer"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'a meeting to get a job'?",
+        "options": ["promotion", "interview", "full-time"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Part-time' means working fewer hours than full-time.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What do you call the person or company you work for?",
+        "options": ["employee", "employer", "colleague"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I work ___ a nurse in a hospital.",
+        "options": ["at", "as", "on"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She got a ___ last month.",
+        "options": ["salary", "responsibility", "promotion"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, helpful, colleague, my, very]",
+        "options": ["is", "helpful", "colleague", "my", "very"],
+        "answer": ["My", "colleague", "is", "very", "helpful"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The ___ for this job is good.",
+        "options": ["salary", "employer", "employee"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [meetings, to, attend, I, have]",
+        "options": ["meetings", "to", "attend", "I", "have"],
+        "answer": ["I", "have", "to", "attend", "meetings"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the speaker's job? (Audio: 'I work as a nurse in a hospital.')",
+        "options": ["Nurse", "Doctor", "Teacher"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Who is very helpful? (Audio: 'My colleague is very helpful.')",
+        "options": ["Employer", "Colleague", "Employee"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What happened last month? (Audio: 'She got a promotion last month.')",
+        "options": ["Got a new job", "Got a promotion", "Had an interview"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is good about the job? (Audio: 'The salary for this job is good.')",
+        "options": ["Responsibility", "Salary", "Working hours"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What must the speaker do? (Audio: 'I have to attend meetings.')",
+        "options": ["Have a promotion", "Attend meetings", "Work part-time"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I work as a nurse in a hospital.'",
+        "options": [],
+        "answer": "I work as a nurse in a hospital."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My colleague is very helpful.'",
+        "options": [],
+        "answer": "My colleague is very helpful."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She got a promotion last month.'",
+        "options": [],
+        "answer": "She got a promotion last month."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The salary for this job is good.'",
+        "options": [],
+        "answer": "The salary for this job is good."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I have to attend meetings.'",
+        "options": [],
+        "answer": "I have to attend meetings."
+      }
+    ]
+  }
+}

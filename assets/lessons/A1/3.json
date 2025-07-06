@@ -1,0 +1,185 @@
+{
+  "id": "lesson_daysoftheweek_001",
+  "lesson_name": "Days of the Week",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "Monday", "meaning": "The first day of the week" },
+      { "word": "Tuesday", "meaning": "The second day of the week" },
+      { "word": "Wednesday", "meaning": "The third day of the week" },
+      { "word": "Thursday", "meaning": "The fourth day of the week" },
+      { "word": "Friday", "meaning": "The fifth day of the week" },
+      { "word": "Saturday", "meaning": "The sixth day of the week" },
+      { "word": "Sunday", "meaning": "The seventh day of the week" },
+      { "word": "weekend", "meaning": "Saturday and Sunday" },
+      { "word": "weekday", "meaning": "Any day from Monday to Friday" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Capitalizing Days",
+        "explanation": "Always write days of the week with a capital letter. Example: Monday, not monday."
+      },
+      {
+        "title": "Using 'on' with Days",
+        "explanation": "Use 'on' before days. Example: I go to school on Monday."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Today is Friday.", "translation": "" },
+      { "sentence": "I play football on Sunday.", "translation": "" },
+      { "sentence": "Saturday and Sunday are the weekend.", "translation": "" },
+      { "sentence": "She goes to school on Monday.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which of these is a day of the week?",
+        "options": ["Monday", "Holiday", "School"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "There are ___ days in a week.",
+        "options": ["seven", "five", "ten"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Sunday is a weekday.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which two days make up the weekend?",
+        "options": ["Monday and Tuesday", "Saturday and Sunday", "Friday and Saturday"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is the third day of the week?",
+        "options": ["Tuesday", "Wednesday", "Thursday"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The first day of the week is ___.",
+        "options": ["Sunday", "Wednesday", "Monday"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I have an exam on ___.",
+        "options": ["Friday", "Banana", "Chair"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [on, go, I, Monday, school, to]",
+        "options": ["on", "go", "I", "Monday", "school", "to"],
+        "answer": ["I", "go", "to", "school", "on", "Monday"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ and Sunday are weekends.",
+        "options": ["Saturday", "Wednesday", "Tuesday"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [Sunday, on, play, I, football]",
+        "options": ["Sunday", "on", "play", "I", "football"],
+        "answer": ["I", "play", "football", "on", "Sunday"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What day did the speaker say? (Audio: 'Today is Thursday.')",
+        "options": ["Monday", "Thursday", "Saturday"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What days are the weekend? (Audio: 'Saturday and Sunday are the weekend.')",
+        "options": ["Monday and Friday", "Saturday and Sunday", "Tuesday and Thursday"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What day comes after Monday? (Audio: 'Tuesday comes after Monday.')",
+        "options": ["Sunday", "Tuesday", "Wednesday"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What is the first day of the week? (Audio: 'The first day is Monday.')",
+        "options": ["Monday", "Saturday", "Friday"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What day is it? (Audio: 'It is Sunday.')",
+        "options": ["Sunday", "Wednesday", "Friday"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Today is Friday.'",
+        "options": [],
+        "answer": "Today is Friday."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I play football on Sunday.'",
+        "options": [],
+        "answer": "I play football on Sunday."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say all days of the week from Monday to Sunday.",
+        "options": [],
+        "answer": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Saturday and Sunday are the weekend.'",
+        "options": [],
+        "answer": "Saturday and Sunday are the weekend."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She goes to school on Monday.'",
+        "options": [],
+        "answer": "She goes to school on Monday."
+      }
+    ]
+  }
+}

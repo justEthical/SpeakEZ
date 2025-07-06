@@ -1,0 +1,190 @@
+{
+  "id": "lesson_simple_past_regular_irregular_001",
+  "lesson_name": "Talking About the Past (simple past regular/irregular)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "visited", "meaning": "went to see a place or person" },
+      { "word": "watched", "meaning": "looked at something, like a movie or TV" },
+      { "word": "played", "meaning": "did an activity for fun, like a game" },
+      { "word": "walked", "meaning": "moved by putting one foot in front of the other" },
+      { "word": "studied", "meaning": "learned about something" },
+      { "word": "went", "meaning": "past of 'go', moved from one place to another" },
+      { "word": "saw", "meaning": "past of 'see', looked at something" },
+      { "word": "ate", "meaning": "past of 'eat', put food in your mouth and swallowed" },
+      { "word": "had", "meaning": "past of 'have', owned or experienced something" },
+      { "word": "bought", "meaning": "past of 'buy', got something by paying for it" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Simple Past - Regular Verbs",
+        "explanation": "Add '-ed' to most verbs. Example: walk → walked, play → played."
+      },
+      {
+        "title": "Simple Past - Irregular Verbs",
+        "explanation": "Some verbs change completely. Example: go → went, see → saw."
+      },
+      {
+        "title": "Making Negatives in Past",
+        "explanation": "Use 'did not' + base verb. Example: I did not watch TV."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Yesterday, I visited my friend.", "translation": "" },
+      { "sentence": "She watched a movie last night.", "translation": "" },
+      { "sentence": "They went to the park.", "translation": "" },
+      { "sentence": "We ate pizza for dinner.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is the past form of 'go'?",
+        "options": ["went", "goed", "goes"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "I ___ (see) a rainbow yesterday.",
+        "options": ["see", "saw", "seen"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "The past of 'play' is 'played'.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'got something by paying for it'?",
+        "options": ["ate", "bought", "walked"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is the past form of 'eat'?",
+        "options": ["eated", "ate", "eats"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "We ___ (study) for the test last night.",
+        "options": ["studied", "study", "studies"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She ___ (walk) to school yesterday.",
+        "options": ["walk", "walks", "walked"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [visited, I, friend, my, yesterday]",
+        "options": ["visited", "I", "friend", "my", "yesterday"],
+        "answer": ["I", "visited", "my", "friend", "yesterday"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "They ___ (not watch) TV last night.",
+        "options": ["did not watch", "not watched", "didn't watched"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [park, the, to, went, They]",
+        "options": ["park", "the", "to", "went", "They"],
+        "answer": ["They", "went", "to", "the", "park"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What did the speaker do yesterday? (Audio: 'I visited my friend yesterday.')",
+        "options": ["Visited a friend", "Bought a car", "Watched TV"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What did she watch last night? (Audio: 'She watched a movie last night.')",
+        "options": ["A movie", "A game", "The news"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Where did they go? (Audio: 'They went to the park.')",
+        "options": ["To the park", "To school", "To a store"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What did you eat for dinner? (Audio: 'We ate pizza for dinner.')",
+        "options": ["Pizza", "Rice", "Bread"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Did they study for the test? (Audio: 'We studied for the test last night.')",
+        "options": ["Yes", "No", "Not sure"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Yesterday, I visited my friend.'",
+        "options": [],
+        "answer": "Yesterday, I visited my friend."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She watched a movie last night.'",
+        "options": [],
+        "answer": "She watched a movie last night."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'They went to the park.'",
+        "options": [],
+        "answer": "They went to the park."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We ate pizza for dinner.'",
+        "options": [],
+        "answer": "We ate pizza for dinner."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I did not watch TV last night.'",
+        "options": [],
+        "answer": "I did not watch TV last night."
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "lesson_conducting_presenting_research_c1_001",
+  "lesson_name": "Conducting and Presenting Research",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "methodology", "meaning": "the system of methods used in research" },
+      { "word": "hypothesis", "meaning": "an idea that you test through research" },
+      { "word": "data analysis", "meaning": "examining information to draw conclusions" },
+      { "word": "literature review", "meaning": "a summary of existing studies on a topic" },
+      { "word": "findings", "meaning": "results discovered from research" },
+      { "word": "implications", "meaning": "possible effects or outcomes of results" },
+      { "word": "references", "meaning": "sources of information used in your research" },
+      { "word": "abstract", "meaning": "a brief summary of a research paper" },
+      { "word": "variables", "meaning": "factors that can change in an experiment" },
+      { "word": "presentation", "meaning": "showing and explaining your work to others" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Nominalization in Academic Writing",
+        "explanation": "Use nouns instead of verbs to sound more formal. E.g., 'The analysis of data' instead of 'Analyzing data.'"
+      },
+      {
+        "title": "Reporting Verbs",
+        "explanation": "Use verbs like 'suggests,' 'indicates,' and 'demonstrates' to report findings. Example: 'The study suggests that...'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "The methodology section explains how the research was conducted.", "translation": "" },
+      { "sentence": "The hypothesis was supported by the data analysis.", "translation": "" },
+      { "sentence": "A good literature review summarizes key previous studies.", "translation": "" },
+      { "sentence": "The findings show a clear trend in the results.", "translation": "" },
+      { "sentence": "Implications of this research may influence future studies.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is a hypothesis?",
+        "options": ["A research method", "An idea to be tested", "A source of information"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "An abstract is a short summary of a research paper.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word refers to the section that explains how the study was done?",
+        "options": ["Methodology", "Findings", "References"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What are variables in research?",
+        "options": ["A type of result", "Factors that can change", "Ways of presenting data"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "A ___ review summarizes previous research on a topic.",
+        "options": ["methodology", "literature", "data"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ section shows what was discovered.",
+        "options": ["introduction", "findings", "abstract"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Research ___ can influence future studies.",
+        "options": ["variables", "implications", "references"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [data, analysis, the, supports, hypothesis, the]",
+        "options": ["data", "analysis", "the", "supports", "hypothesis", "the"],
+        "answer": ["The", "data", "analysis", "supports", "the", "hypothesis"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The ___ lists all the sources used in your research.",
+        "options": ["references", "abstract", "presentation"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, summary, research, a, an, brief, of, abstract]",
+        "options": ["is", "summary", "research", "a", "an", "brief", "of", "abstract"],
+        "answer": ["An", "abstract", "is", "a", "brief", "summary", "of", "research"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "If you hear, 'Please include a literature review,' what should you add?",
+        "options": ["A summary of earlier research", "The main results", "The experiment details"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What does 'data analysis' mean?",
+        "options": ["Describing the topic", "Examining information to draw conclusions", "Quoting sources"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "If someone says, 'Show your findings,' what do you present?",
+        "options": ["Your opinion", "The research results", "A reference list"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "When presenting, what is an abstract?",
+        "options": ["A full research paper", "A short summary", "A list of references"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "If your professor asks for the implications, what are you being asked for?",
+        "options": ["Possible effects of the research", "Background information", "Sources used"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The hypothesis was tested with several experiments.'",
+        "options": [],
+        "answer": "The hypothesis was tested with several experiments."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The methodology explains the research process.'",
+        "options": [],
+        "answer": "The methodology explains the research process."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I presented the findings clearly to the audience.'",
+        "options": [],
+        "answer": "I presented the findings clearly to the audience."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'A literature review is important for research.'",
+        "options": [],
+        "answer": "A literature review is important for research."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The implications of the study are significant.'",
+        "options": [],
+        "answer": "The implications of the study are significant."
+      }
+    ]
+  }
+}

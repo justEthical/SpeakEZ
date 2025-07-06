@@ -1,0 +1,195 @@
+{
+  "id": "lesson_greetings_001",
+  "lesson_name": "Greetings & Introductions",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "Hello", "meaning": "A word you say to greet someone" },
+      { "word": "Hi", "meaning": "A short and friendly greeting" },
+      { "word": "Good morning", "meaning": "A greeting used in the morning" },
+      { "word": "Good afternoon", "meaning": "A greeting used in the afternoon" },
+      { "word": "Good evening", "meaning": "A greeting used in the evening" },
+      { "word": "Nice to meet you", "meaning": "A polite phrase to say when meeting someone for the first time" },
+      { "word": "My name is...", "meaning": "A way to tell someone your name" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Introducing Yourself",
+        "explanation": "Use 'My name is...' to tell your name. Example: My name is John."
+      },
+      {
+        "title": "Greeting at Different Times",
+        "explanation": "Say 'Good morning' before noon, 'Good afternoon' after 12 pm, and 'Good evening' after 5 pm."
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "Hello! My name is Anna.",
+        "translation": ""
+      },
+      {
+        "sentence": "Good morning! How are you?",
+        "translation": ""
+      },
+      {
+        "sentence": "Hi, I am David.",
+        "translation": ""
+      },
+      {
+        "sentence": "Nice to meet you!",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you say when you meet someone in the morning?",
+        "options": ["Good night", "Good morning", "Goodbye"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "Which word is a greeting?",
+        "options": ["Hello", "Table", "Apple"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "___ to meet you!",
+        "options": ["Good", "Nice", "Happy"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "We say 'Hi' when greeting someone.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which greeting do you use at night?",
+        "options": ["Good morning", "Good evening", "Good afternoon"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My name ___ Alex.",
+        "options": ["is", "are", "am"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___ to meet you.",
+        "options": ["Nice", "Hi", "Good"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [Hello, am, I, Peter]",
+        "options": ["Hello", "am", "I", "Peter"],
+        "answer": ["Hello", "I", "am", "Peter"]
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [Good, morning]",
+        "options": ["Good", "morning"],
+        "answer": ["Good", "morning"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "___ afternoon!",
+        "options": ["Good", "Nice", "Happy"],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What did the speaker say?",
+        "options": ["Hello", "Goodbye", "Sorry"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Which greeting did you hear?",
+        "options": ["Good morning", "Good night", "Thank you"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What is the person's name? (Audio: 'My name is Mark.')",
+        "options": ["Alex", "Mark", "John"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Did the speaker say 'Hi'?",
+        "options": ["Yes", "No", "Not sure"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What time of day was the greeting? (Audio: 'Good evening!')",
+        "options": ["Morning", "Afternoon", "Evening"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Hello! My name is Anna.'",
+        "options": [],
+        "answer": "Hello! My name is Anna."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Good morning!'",
+        "options": [],
+        "answer": "Good morning!"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Hi, I am David.'",
+        "options": [],
+        "answer": "Hi, I am David."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Nice to meet you.'",
+        "options": [],
+        "answer": "Nice to meet you."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Good evening!'",
+        "options": [],
+        "answer": "Good evening!"
+      }
+    ]
+  }
+}

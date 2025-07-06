@@ -1,0 +1,186 @@
+{
+  "id": "lesson_making_justifying_choices_001",
+  "lesson_name": "Making & Justifying Choices",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "option", "meaning": "a possible choice" },
+      { "word": "decision", "meaning": "the act of making up your mind" },
+      { "word": "prefer", "meaning": "to like one thing more than another" },
+      { "word": "reason", "meaning": "why you do something" },
+      { "word": "advantage", "meaning": "something good about a choice" },
+      { "word": "disadvantage", "meaning": "something not good about a choice" },
+      { "word": "select", "meaning": "to choose something" },
+      { "word": "consider", "meaning": "to think about carefully" },
+      { "word": "recommend", "meaning": "to say something is a good idea" },
+      { "word": "choice", "meaning": "the thing you pick" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Expressing Preferences",
+        "explanation": "Use 'prefer' or 'would rather' to say what you like. Example: I prefer tea to coffee."
+      },
+      {
+        "title": "Giving Reasons",
+        "explanation": "Use 'because' or 'so' to explain your choice. Example: I chose the red shirt because it looks nice."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I have two options for lunch.", "translation": "" },
+      { "sentence": "She made a good decision.", "translation": "" },
+      { "sentence": "He prefers books to movies.", "translation": "" },
+      { "sentence": "I chose this hotel because it is close to the city center.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a possible choice'?",
+        "options": ["option", "reason", "decision"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is why you do something.",
+        "options": ["reason", "advantage", "select"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'something not good about a choice'?",
+        "options": ["advantage", "disadvantage", "choice"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Prefer' means to like one thing more than another.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'to choose something'?",
+        "options": ["recommend", "select", "consider"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I ___ coffee to tea.",
+        "options": ["prefer", "consider", "reason"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He ___ the blue shirt because it was cheaper.",
+        "options": ["recommend", "selected", "prefer"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, the, choice, good, because, price]",
+        "options": ["is", "the", "choice", "good", "because", "price"],
+        "answer": ["The", "choice", "is", "good", "because", "price"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "I have to ___ my hotel for the trip.",
+        "options": ["prefer", "select", "consider"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [for, reason, a, have, you, your, choice, should]",
+        "options": ["for", "reason", "a", "have", "you", "your", "choice", "should"],
+        "answer": ["You", "should", "have", "a", "reason", "for", "your", "choice"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What does the speaker have? (Audio: 'I have two options for lunch.')",
+        "options": ["Two options for lunch", "A reason for lunch", "A recommendation"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What did she make? (Audio: 'She made a good decision.')",
+        "options": ["A choice", "A decision", "A recommendation"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does he prefer? (Audio: 'He prefers books to movies.')",
+        "options": ["Movies", "Books", "Both"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Why did the speaker choose the hotel? (Audio: 'I chose this hotel because it is close to the city center.')",
+        "options": ["It is cheap", "It is close to the city center", "It has many options"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What should you do? (Audio: 'You should have a reason for your choice.')",
+        "options": ["Make a reason", "Have a reason for your choice", "Select a hotel"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I have two options for lunch.'",
+        "options": [],
+        "answer": "I have two options for lunch."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She made a good decision.'",
+        "options": [],
+        "answer": "She made a good decision."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He prefers books to movies.'",
+        "options": [],
+        "answer": "He prefers books to movies."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I chose this hotel because it is close to the city center.'",
+        "options": [],
+        "answer": "I chose this hotel because it is close to the city center."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'You should have a reason for your choice.'",
+        "options": [],
+        "answer": "You should have a reason for your choice."
+      }
+    ]
+  }
+}

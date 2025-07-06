@@ -1,0 +1,186 @@
+{
+  "id": "lesson_family_members_001",
+  "lesson_name": "Family Members",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "father", "meaning": "your dad" },
+      { "word": "mother", "meaning": "your mom" },
+      { "word": "brother", "meaning": "your male sibling" },
+      { "word": "sister", "meaning": "your female sibling" },
+      { "word": "grandfather", "meaning": "your father's or mother's father" },
+      { "word": "grandmother", "meaning": "your father's or mother's mother" },
+      { "word": "parents", "meaning": "your father and mother" },
+      { "word": "family", "meaning": "all your relatives" },
+      { "word": "uncle", "meaning": "your father's or mother's brother" },
+      { "word": "aunt", "meaning": "your father's or mother's sister" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'my' to show family",
+        "explanation": "Use 'my' to talk about your family. Example: My mother is kind."
+      },
+      {
+        "title": "Plural family members",
+        "explanation": "Add 's' for more than one. Example: brothers, sisters."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My father is a teacher.", "translation": "" },
+      { "sentence": "I have one brother and one sister.", "translation": "" },
+      { "sentence": "My grandparents live with us.", "translation": "" },
+      { "sentence": "Our family is big.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Who is your father's father?",
+        "options": ["Brother", "Grandfather", "Uncle"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Your mother's daughter is your ___.",
+        "options": ["sister", "aunt", "grandmother"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Your aunt is your father's or mother's sister.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Who are your parents?",
+        "options": ["Father and mother", "Sister and brother", "Uncle and aunt"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What do you call all your relatives?",
+        "options": ["Family", "Friends", "School"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I have two ___. (brothers)",
+        "options": ["sisters", "brothers", "uncles"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "My ___ is very kind. (mother)",
+        "options": ["aunt", "mother", "grandmother"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, My, teacher, father, a]",
+        "options": ["is", "My", "teacher", "father", "a"],
+        "answer": ["My", "father", "is", "a", "teacher"]
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, one, I, sister]",
+        "options": ["have", "one", "I", "sister"],
+        "answer": ["I", "have", "one", "sister"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "My grandparents ___ with us.",
+        "options": ["live", "go", "eat"],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Who is speaking? (Audio: 'My name is Anna. I have one brother.')",
+        "options": ["Brother", "Sister", "Anna"],
+        "answer": 2
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "How many sisters does the speaker have? (Audio: 'I have two sisters.')",
+        "options": ["One", "Two", "Three"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Who is the oldest family member? (Audio: 'My grandfather is the oldest.')",
+        "options": ["Father", "Sister", "Grandfather"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Who is your mother's mother? (Audio: 'My grandmother is kind.')",
+        "options": ["Grandmother", "Mother", "Aunt"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "How many brothers does the speaker have? (Audio: 'I have no brothers.')",
+        "options": ["One", "Two", "None"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My father is a teacher.'",
+        "options": [],
+        "answer": "My father is a teacher."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I have one brother and one sister.'",
+        "options": [],
+        "answer": "I have one brother and one sister."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Our family is big.'",
+        "options": [],
+        "answer": "Our family is big."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'My grandparents live with us.'",
+        "options": [],
+        "answer": "My grandparents live with us."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'My mother is very kind.'",
+        "options": [],
+        "answer": "My mother is very kind."
+      }
+    ]
+  }
+}

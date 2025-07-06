@@ -1,0 +1,186 @@
+{
+  "id": "lesson_describing_life_experiences_001",
+  "lesson_name": "Describing Life Experiences",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "adventure", "meaning": "an exciting experience or activity" },
+      { "word": "memorable", "meaning": "something that you will remember" },
+      { "word": "challenge", "meaning": "a difficult task or problem" },
+      { "word": "achievement", "meaning": "something important that you succeed in doing" },
+      { "word": "regret", "meaning": "to wish you had not done something" },
+      { "word": "inspire", "meaning": "to give someone ideas or motivation" },
+      { "word": "opportunity", "meaning": "a chance to do something" },
+      { "word": "overcome", "meaning": "to successfully deal with a problem" },
+      { "word": "travel", "meaning": "to go to different places, usually far from home" },
+      { "word": "learn", "meaning": "to gain knowledge or a new skill" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Perfect for Life Experiences",
+        "explanation": "Use 'have/has + past participle' to talk about experiences in your life. Example: I have traveled to France."
+      },
+      {
+        "title": "Describing when something happened",
+        "explanation": "Use the simple past with a specific time. Example: I visited Paris in 2020."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I have had many adventures in my life.", "translation": "" },
+      { "sentence": "Have you ever climbed a mountain?", "translation": "" },
+      { "sentence": "My trip to Japan was a memorable experience.", "translation": "" },
+      { "sentence": "She overcame many challenges during her studies.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'an exciting experience'?",
+        "options": ["regret", "adventure", "learn"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is a chance to do something new.",
+        "options": ["challenge", "regret", "opportunity"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'to successfully deal with a problem'?",
+        "options": ["overcome", "travel", "memorable"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "To regret is to wish you had not done something.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'to give someone motivation'?",
+        "options": ["inspire", "challenge", "achievement"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I have ___ many new things during my travels.",
+        "options": ["learned", "learn", "learning"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "My first job was a very ___ experience. (memorable)",
+        "options": ["memorable", "regret", "overcome"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, climbed, ever, you, a, mountain]",
+        "options": ["have", "climbed", "ever", "you", "a", "mountain"],
+        "answer": ["Have", "you", "ever", "climbed", "a", "mountain"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "She ___ (overcome) many challenges in her life.",
+        "options": ["has overcome", "have overcame", "overcame"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [to, I, France, traveled, have]",
+        "options": ["to", "I", "France", "traveled", "have"],
+        "answer": ["I", "have", "traveled", "to", "France"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What kind of experience did the speaker have? (Audio: 'I have had many adventures in my life.')",
+        "options": ["Challenges", "Adventures", "Regrets"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What did the person ask? (Audio: 'Have you ever climbed a mountain?')",
+        "options": ["If you have traveled", "If you have climbed a mountain", "If you have learned something"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "How was the trip to Japan? (Audio: 'My trip to Japan was a memorable experience.')",
+        "options": ["Memorable", "Difficult", "Short"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What did she do during her studies? (Audio: 'She overcame many challenges during her studies.')",
+        "options": ["Regretted things", "Overcame challenges", "Traveled a lot"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What did the speaker do in France? (Audio: 'I have traveled to France.')",
+        "options": ["Learned a new language", "Traveled", "Climbed a mountain"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I have had many adventures in my life.'",
+        "options": [],
+        "answer": "I have had many adventures in my life."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Have you ever climbed a mountain?'",
+        "options": [],
+        "answer": "Have you ever climbed a mountain?"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'My trip to Japan was a memorable experience.'",
+        "options": [],
+        "answer": "My trip to Japan was a memorable experience."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'She overcame many challenges during her studies.'",
+        "options": [],
+        "answer": "She overcame many challenges during her studies."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I have traveled to France.'",
+        "options": [],
+        "answer": "I have traveled to France."
+      }
+    ]
+  }
+}

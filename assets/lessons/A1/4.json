@@ -1,0 +1,190 @@
+{
+  "id": "lesson_months_dates_001",
+  "lesson_name": "Months & Dates",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "January", "meaning": "The first month of the year" },
+      { "word": "February", "meaning": "The second month of the year" },
+      { "word": "March", "meaning": "The third month of the year" },
+      { "word": "April", "meaning": "The fourth month of the year" },
+      { "word": "May", "meaning": "The fifth month of the year" },
+      { "word": "June", "meaning": "The sixth month of the year" },
+      { "word": "July", "meaning": "The seventh month of the year" },
+      { "word": "August", "meaning": "The eighth month of the year" },
+      { "word": "September", "meaning": "The ninth month of the year" },
+      { "word": "October", "meaning": "The tenth month of the year" },
+      { "word": "November", "meaning": "The eleventh month of the year" },
+      { "word": "December", "meaning": "The twelfth month of the year" },
+      { "word": "date", "meaning": "A day of the month or year" },
+      { "word": "year", "meaning": "Twelve months together" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Capitalizing Months",
+        "explanation": "Always write months with a capital letter. Example: March, not march."
+      },
+      {
+        "title": "Saying Dates",
+        "explanation": "Say the month first, then the date. Example: July 4th."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "My birthday is in April.", "translation": "" },
+      { "sentence": "Today is the first of January.", "translation": "" },
+      { "sentence": "There are twelve months in a year.", "translation": "" },
+      { "sentence": "School starts in June.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which of these is a month?",
+        "options": ["Monday", "April", "Week"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The twelfth month of the year is ___.",
+        "options": ["June", "October", "December"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "How many months are in a year?",
+        "options": ["Ten", "Twelve", "Seven"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "July is the fifth month of the year.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which month comes after February?",
+        "options": ["March", "May", "April"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My birthday is in ___.",
+        "options": ["Friday", "June", "Sunday"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "School starts in ___.",
+        "options": ["May", "June", "December"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [October, is, month, tenth, the]",
+        "options": ["October", "is", "month", "tenth", "the"],
+        "answer": ["October", "is", "the", "tenth", "month"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "There are ___ months in a year.",
+        "options": ["seven", "twelve", "nine"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [March, is, birthday, in, My]",
+        "options": ["March", "is", "birthday", "in", "My"],
+        "answer": ["My", "birthday", "is", "in", "March"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What month did the speaker say? (Audio: 'Today is July 1st.')",
+        "options": ["July", "May", "March"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "When is the holiday? (Audio: 'The holiday is in December.')",
+        "options": ["January", "June", "December"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What is the first month of the year? (Audio: 'January is the first month.')",
+        "options": ["April", "January", "August"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What month comes after September? (Audio: 'October comes after September.')",
+        "options": ["October", "November", "August"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is today's date? (Audio: 'Today is May 10th.')",
+        "options": ["March 10th", "May 10th", "June 10th"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My birthday is in March.'",
+        "options": [],
+        "answer": "My birthday is in March."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'There are twelve months in a year.'",
+        "options": [],
+        "answer": "There are twelve months in a year."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say the months of the year from January to December.",
+        "options": [],
+        "answer": "January, February, March, April, May, June, July, August, September, October, November, December"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Today is October 2nd.'",
+        "options": [],
+        "answer": "Today is October 2nd."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'School starts in June.'",
+        "options": [],
+        "answer": "School starts in June."
+      }
+    ]
+  }
+}

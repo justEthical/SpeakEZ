@@ -1,0 +1,186 @@
+{
+  "id": "lesson_describing_people_appearance_001",
+  "lesson_name": "Describing People (appearance)",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "tall", "meaning": "having a greater than average height" },
+      { "word": "short", "meaning": "having a smaller than average height" },
+      { "word": "young", "meaning": "not old" },
+      { "word": "old", "meaning": "having lived for many years" },
+      { "word": "hair", "meaning": "what grows on your head" },
+      { "word": "eyes", "meaning": "what you use to see" },
+      { "word": "face", "meaning": "the front part of your head" },
+      { "word": "beautiful", "meaning": "very attractive" },
+      { "word": "handsome", "meaning": "good-looking (for boys/men)" },
+      { "word": "smile", "meaning": "the expression when you are happy" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'is' and 'has'",
+        "explanation": "Use 'is' for describing, 'has' for features. Example: She is tall. She has long hair."
+      },
+      {
+        "title": "Adjectives before nouns",
+        "explanation": "Put adjectives before nouns. Example: big eyes, short hair."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "He is tall and young.", "translation": "" },
+      { "sentence": "She has brown eyes.", "translation": "" },
+      { "sentence": "My grandmother is old.", "translation": "" },
+      { "sentence": "The girl has long hair.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means not tall?",
+        "options": ["old", "short", "beautiful"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "She has black ___.",
+        "options": ["hair", "eyes", "smile"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Who is described as handsome?",
+        "options": ["A boy", "A dog", "A chair"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "You use your eyes to see.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is the front part of your head?",
+        "options": ["Face", "Hand", "Leg"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He ___ short hair.",
+        "options": ["has", "is", "have"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She ___ beautiful eyes.",
+        "options": ["has", "is", "have"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [hair, long, has, She]",
+        "options": ["hair", "long", "has", "She"],
+        "answer": ["She", "has", "long", "hair"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "My grandfather is ___.",
+        "options": ["young", "old", "tall"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [tall, He, is]",
+        "options": ["tall", "He", "is"],
+        "answer": ["He", "is", "tall"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What color are her eyes? (Audio: 'She has brown eyes.')",
+        "options": ["Black", "Brown", "Blue"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "How does the boy look? (Audio: 'He is tall.')",
+        "options": ["Short", "Tall", "Old"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does the girl have? (Audio: 'The girl has long hair.')",
+        "options": ["Short hair", "Long hair", "No hair"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Who is old? (Audio: 'My grandmother is old.')",
+        "options": ["My grandmother", "My brother", "My mother"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does the speaker do? (Audio: 'He smiles.')",
+        "options": ["He jumps", "He smiles", "He runs"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'She has brown eyes.'",
+        "options": [],
+        "answer": "She has brown eyes."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'He is tall and young.'",
+        "options": [],
+        "answer": "He is tall and young."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'My grandmother is old.'",
+        "options": [],
+        "answer": "My grandmother is old."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The girl has long hair.'",
+        "options": [],
+        "answer": "The girl has long hair."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'He has a nice smile.'",
+        "options": [],
+        "answer": "He has a nice smile."
+      }
+    ]
+  }
+}

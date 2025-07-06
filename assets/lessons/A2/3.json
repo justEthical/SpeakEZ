@@ -1,0 +1,186 @@
+{
+  "id": "lesson_daily_routines_001",
+  "lesson_name": "Describing Daily Routines",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "wake up", "meaning": "to stop sleeping" },
+      { "word": "get up", "meaning": "to get out of bed" },
+      { "word": "have breakfast", "meaning": "to eat food in the morning" },
+      { "word": "go to school", "meaning": "to travel to school" },
+      { "word": "study", "meaning": "to learn or read" },
+      { "word": "come home", "meaning": "to return to your house" },
+      { "word": "do homework", "meaning": "to complete school tasks at home" },
+      { "word": "have dinner", "meaning": "to eat food in the evening" },
+      { "word": "watch TV", "meaning": "to look at television programs" },
+      { "word": "go to bed", "meaning": "to get in bed to sleep" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Simple Present for routines",
+        "explanation": "Use the simple present tense for daily habits. Example: I wake up at 7 am."
+      },
+      {
+        "title": "Using 'usually', 'always', 'sometimes'",
+        "explanation": "These words show how often you do something. Example: I usually get up early."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "I wake up at 6:30 every day.", "translation": "" },
+      { "sentence": "She goes to school by bus.", "translation": "" },
+      { "sentence": "We have dinner at 8 pm.", "translation": "" },
+      { "sentence": "They do their homework after school.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means to stop sleeping?",
+        "options": ["wake up", "go to bed", "have dinner"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "You ___ at night to sleep.",
+        "options": ["study", "go to bed", "get up"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you do after you get up?",
+        "options": ["wake up", "go to school", "come home"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "You have breakfast in the evening.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which activity do you do in the evening?",
+        "options": ["go to bed", "have breakfast", "have dinner"],
+        "answer": 2
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I ___ my homework after school.",
+        "options": ["go", "do", "eat"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We ___ TV in the evening.",
+        "options": ["have", "watch", "come"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [at, wake, 6:30, I, up]",
+        "options": ["at", "wake", "6:30", "I", "up"],
+        "answer": ["I", "wake", "up", "at", "6:30"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "She ___ to school by bus.",
+        "options": ["goes", "does", "studies"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [dinner, have, 8 pm, We, at]",
+        "options": ["dinner", "have", "8 pm", "We", "at"],
+        "answer": ["We", "have", "dinner", "at", "8 pm"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What time does the speaker wake up? (Audio: 'I wake up at 6:30.')",
+        "options": ["6:30", "8:00", "7:00"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "How does she go to school? (Audio: 'She goes to school by bus.')",
+        "options": ["By bus", "By car", "On foot"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "When do they do homework? (Audio: 'They do their homework after school.')",
+        "options": ["Before school", "After school", "At night"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "When do you have dinner? (Audio: 'We have dinner at 8 pm.')",
+        "options": ["8 am", "8 pm", "6 pm"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What do you do before going to bed? (Audio: 'I watch TV before I go to bed.')",
+        "options": ["Eat", "Watch TV", "Study"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I wake up at 6:30 every day.'",
+        "options": [],
+        "answer": "I wake up at 6:30 every day."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She goes to school by bus.'",
+        "options": [],
+        "answer": "She goes to school by bus."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We have dinner at 8 pm.'",
+        "options": [],
+        "answer": "We have dinner at 8 pm."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'They do their homework after school.'",
+        "options": [],
+        "answer": "They do their homework after school."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I watch TV in the evening.'",
+        "options": [],
+        "answer": "I watch TV in the evening."
+      }
+    ]
+  }
+}

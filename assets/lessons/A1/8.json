@@ -1,0 +1,186 @@
+{
+  "id": "lesson_classroom_objects_001",
+  "lesson_name": "Classroom Objects",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "desk", "meaning": "a table you sit at in class" },
+      { "word": "chair", "meaning": "something you sit on" },
+      { "word": "book", "meaning": "something you read" },
+      { "word": "pen", "meaning": "something you write with (ink)" },
+      { "word": "pencil", "meaning": "something you write with (lead)" },
+      { "word": "eraser", "meaning": "something you use to remove pencil marks" },
+      { "word": "board", "meaning": "a big surface for writing in class" },
+      { "word": "teacher", "meaning": "the person who teaches the class" },
+      { "word": "bag", "meaning": "something you carry your things in" },
+      { "word": "notebook", "meaning": "a book for writing notes" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'a' and 'an' with objects",
+        "explanation": "Use 'a' before words starting with a consonant sound. Example: a pen, a book."
+      },
+      {
+        "title": "This is/These are",
+        "explanation": "Use 'This is' for one object and 'These are' for many. Example: This is a chair. These are books."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "This is my desk.", "translation": "यह मेरी मेज़ है।" },
+      { "sentence": "I have a blue pen.", "translation": "मेरे पास एक नीला पेन है।" },
+      { "sentence": "The teacher writes on the board.", "translation": "शिक्षक बोर्ड पर लिखते हैं।" },
+      { "sentence": "There are many books in my bag.", "translation": "मेरे बैग में कई किताबें हैं।" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you use to write with ink?",
+        "options": ["Pen", "Chair", "Bag"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "I sit on a ___.",
+        "options": ["desk", "chair", "board"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which object is used for reading?",
+        "options": ["Pencil", "Book", "Bag"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "A board is something you read.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What do you use to erase pencil marks?",
+        "options": ["Eraser", "Pen", "Notebook"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "This is my ___. (desk)",
+        "options": ["chair", "desk", "board"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The teacher writes on the ___.",
+        "options": ["board", "book", "bag"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, I, a, blue, pen]",
+        "options": ["have", "I", "a", "blue", "pen"],
+        "answer": ["I", "have", "a", "blue", "pen"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "There are many ___ in my bag.",
+        "options": ["notebooks", "books", "erasers"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [notebook, new, is, This, my]",
+        "options": ["notebook", "new", "is", "This", "my"],
+        "answer": ["This", "is", "my", "new", "notebook"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What object did the speaker mention? (Audio: 'I have a pencil.')",
+        "options": ["Pencil", "Bag", "Book"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What did the teacher use? (Audio: 'The teacher writes on the board.')",
+        "options": ["Bag", "Pen", "Board"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Where are the books? (Audio: 'There are many books in my bag.')",
+        "options": ["On the desk", "In the bag", "On the chair"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What color is the pen? (Audio: 'I have a blue pen.')",
+        "options": ["Blue", "Red", "Black"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What does the student use to erase? (Audio: 'I use an eraser.')",
+        "options": ["Bag", "Book", "Eraser"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'This is my desk.'",
+        "options": [],
+        "answer": "This is my desk."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I have a blue pen.'",
+        "options": [],
+        "answer": "I have a blue pen."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The teacher writes on the board.'",
+        "options": [],
+        "answer": "The teacher writes on the board."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'There are many books in my bag.'",
+        "options": [],
+        "answer": "There are many books in my bag."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'This is my new notebook.'",
+        "options": [],
+        "answer": "This is my new notebook."
+      }
+    ]
+  }
+}

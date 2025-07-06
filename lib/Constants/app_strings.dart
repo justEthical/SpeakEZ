@@ -23,6 +23,7 @@ class AppStrings {
 - Motivation message
 - One improvement suggestion
 - A "correction" array containing only the corrected/improved user sentences in the same order as the input chat (do not include original or extra info).
+- Adjust the feedback and scores to match the user's English level
 
 Reply only in this JSON format:
 

@@ -1,0 +1,191 @@
+{
+  "id": "lesson_numbers_counting_001",
+  "lesson_name": "Numbers & Counting",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "one", "meaning": "the number 1" },
+      { "word": "two", "meaning": "the number 2" },
+      { "word": "three", "meaning": "the number 3" },
+      { "word": "four", "meaning": "the number 4" },
+      { "word": "five", "meaning": "the number 5" },
+      { "word": "count", "meaning": "to say numbers in order" },
+      { "word": "number", "meaning": "a symbol or word for an amount" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "How to use numbers in sentences",
+        "explanation": "Numbers can come before nouns. Example: I have two books."
+      },
+      {
+        "title": "Singular and plural with numbers",
+        "explanation": "Use a plural noun after numbers greater than one. Example: Three cats."
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "There are four apples.",
+        "translation": ""
+      },
+      {
+        "sentence": "I have one pen.",
+        "translation": ""
+      },
+      {
+        "sentence": "She can count to ten.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What number comes after two?",
+        "options": ["Three", "One", "Four"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "I have ___ apples. (3)",
+        "options": ["one", "three", "five"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means the number 5?",
+        "options": ["Two", "Five", "Four"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "The word 'count' means to say numbers in order.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which is a number?",
+        "options": ["Apple", "Four", "Dog"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I have ___ dogs. (2)",
+        "options": ["one", "two", "three"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "There are ___ students in the class. (5)",
+        "options": ["five", "two", "one"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, I, books, three]",
+        "options": ["have", "I", "books", "three"],
+        "answer": ["I", "have", "three", "books"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "He can ___ to ten.",
+        "options": ["sing", "count", "jump"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [four, cats, are, There]",
+        "options": ["four", "cats", "are", "There"],
+        "answer": ["There", "are", "four", "cats"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "How many apples did the speaker say? (Audio: 'There are three apples.')",
+        "options": ["One", "Three", "Five"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What number did the speaker say? (Audio: 'Five')",
+        "options": ["Two", "Five", "Four"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What can the person do? (Audio: 'I can count to four.')",
+        "options": ["Jump", "Sing", "Count"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "How many pens does she have? (Audio: 'She has one pen.')",
+        "options": ["One", "Two", "Four"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "How many children are there? (Audio: 'There are two children.')",
+        "options": ["One", "Two", "Three"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I have two books.'",
+        "options": [],
+        "answer": "I have two books."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'There are five dogs.'",
+        "options": [],
+        "answer": "There are five dogs."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He can count to ten.'",
+        "options": [],
+        "answer": "He can count to ten."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'One, two, three, four, five.'",
+        "options": [],
+        "answer": "One, two, three, four, five."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I have one pen.'",
+        "options": [],
+        "answer": "I have one pen."
+      }
+    ]
+  }
+}

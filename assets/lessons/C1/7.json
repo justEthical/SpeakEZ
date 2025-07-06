@@ -1,0 +1,187 @@
+{
+  "id": "lesson_writing_academic_essays_c1_001",
+  "lesson_name": "Writing Academic Essays",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "thesis statement", "meaning": "the main idea of an essay, usually in one sentence" },
+      { "word": "coherence", "meaning": "logical connection and flow in writing" },
+      { "word": "citation", "meaning": "giving credit to the source of information" },
+      { "word": "argument", "meaning": "a reason or set of reasons to support an idea" },
+      { "word": "counterargument", "meaning": "an argument against your main point" },
+      { "word": "introduction", "meaning": "the first part of an essay that presents the topic" },
+      { "word": "conclusion", "meaning": "the final part that summarizes the essay" },
+      { "word": "evidence", "meaning": "facts or examples to support your argument" },
+      { "word": "transition", "meaning": "words or phrases that connect ideas" },
+      { "word": "plagiarism", "meaning": "using someone else's work as your own without credit" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Formal Language",
+        "explanation": "Academic essays require formal language. Avoid contractions (use 'do not' instead of 'don't') and slang."
+      },
+      {
+        "title": "Passive Voice",
+        "explanation": "The passive voice is often used in academic writing. Example: 'The results were analyzed.'"
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "A strong thesis statement guides the entire essay.", "translation": "" },
+      { "sentence": "Coherence makes your writing easier to understand.", "translation": "" },
+      { "sentence": "All sources must be cited to avoid plagiarism.", "translation": "" },
+      { "sentence": "The introduction should outline the main points.", "translation": "" },
+      { "sentence": "A good conclusion summarizes the arguments and presents a final thought.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is a thesis statement?",
+        "options": ["The essay's main idea", "A quote", "A reference list"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Plagiarism is using someone else's work without credit.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What does 'coherence' mean in writing?",
+        "options": ["Correct grammar", "Logical flow", "Number of words"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which section of an essay summarizes the main points?",
+        "options": ["Body", "Introduction", "Conclusion"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "A ___ is an argument against your main point.",
+        "options": ["evidence", "citation", "counterargument"],
+        "answer": 2
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ presents the topic and outlines the essay.",
+        "options": ["body", "introduction", "conclusion"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Facts and examples are used as ___.",
+        "options": ["citation", "evidence", "thesis"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [should, your, summarize, conclusion, essay, the]",
+        "options": ["should", "your", "summarize", "conclusion", "essay", "the"],
+        "answer": ["Your", "conclusion", "should", "summarize", "the", "essay"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ words help connect ideas and paragraphs.",
+        "options": ["Thesis", "Transition", "Introduction"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [statement, the, guides, entire, thesis, essay, the]",
+        "options": ["statement", "the", "guides", "entire", "thesis", "essay", "the"],
+        "answer": ["The", "thesis", "statement", "guides", "the", "entire", "essay"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "If you hear, 'Your argument lacks evidence,' what does it mean?",
+        "options": ["You have too many facts", "You need more support for your ideas", "Your essay is too long"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "If someone says, 'Include a counterargument,' what should you do?",
+        "options": ["Add an opposing view", "Rewrite your thesis", "Change your topic"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Which part of the essay is usually written last?",
+        "options": ["Introduction", "Body", "Conclusion"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "If a professor says, 'Use more transitions,' what does it mean?",
+        "options": ["Add more connecting words", "Write more paragraphs", "Use passive voice"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "If you hear, 'Do not plagiarize,' what should you do?",
+        "options": ["Copy from sources", "Paraphrase and cite your sources", "Omit references"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My essay has a clear thesis statement.'",
+        "options": [],
+        "answer": "My essay has a clear thesis statement."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I use evidence to support my arguments.'",
+        "options": [],
+        "answer": "I use evidence to support my arguments."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Transitions connect my ideas clearly.'",
+        "options": [],
+        "answer": "Transitions connect my ideas clearly."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I always cite my sources properly.'",
+        "options": [],
+        "answer": "I always cite my sources properly."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The conclusion summarizes the main points of my essay.'",
+        "options": [],
+        "answer": "The conclusion summarizes the main points of my essay."
+      }
+    ]
+  }
+}

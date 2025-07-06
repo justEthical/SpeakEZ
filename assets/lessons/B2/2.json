@@ -1,0 +1,206 @@
+{
+  "id": "b2_expressing_opinions_controversial_01",
+  "lesson_name": "Expressing Opinions on Controversial Topics",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "controversial", "meaning": "causing a lot of disagreement" },
+      { "word": "stance", "meaning": "a person’s opinion or position on an issue" },
+      { "word": "justify", "meaning": "to show a good reason for something" },
+      { "word": "counterargument", "meaning": "an argument against your own opinion" },
+      { "word": "bias", "meaning": "an unfair preference for or against something" },
+      { "word": "acknowledge", "meaning": "to accept or admit something is true" },
+      { "word": "assert", "meaning": "to state something strongly" },
+      { "word": "subjective", "meaning": "based on personal opinions, not facts" },
+      { "word": "objective", "meaning": "based on facts, not personal feelings" },
+      { "word": "valid", "meaning": "reasonable or correct" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Expressing Strong Opinions",
+        "explanation": "Use phrases like 'I firmly believe', 'Without a doubt', 'It is clear that': 'I firmly believe that this law is unfair.'"
+      },
+      {
+        "title": "Introducing Counterarguments",
+        "explanation": "Use phrases like 'On the other hand', 'However', 'Nevertheless': 'On the other hand, some people think...'"
+      },
+      {
+        "title": "Justifying Your Opinion",
+        "explanation": "Use 'because', 'since', 'as', or 'due to': 'I support this policy because it helps society.'"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "This is a controversial topic, so opinions are divided.",
+        "translation": ""
+      },
+      {
+        "sentence": "My stance is that everyone should have equal rights.",
+        "translation": ""
+      },
+      {
+        "sentence": "He justified his decision with valid reasons.",
+        "translation": ""
+      },
+      {
+        "sentence": "We must acknowledge the opposing viewpoint.",
+        "translation": ""
+      },
+      {
+        "sentence": "Her comments were subjective, not objective.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'bias' mean?",
+        "options": ["A strong reason", "An unfair preference", "A valid argument"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A(n) _____ is an argument against your own opinion.",
+        "options": ["stance", "counterargument", "bias"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "'Objective' means based on personal feelings.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'to show a good reason for something'?",
+        "options": ["justify", "assert", "acknowledge"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is a 'stance'?",
+        "options": ["A strong feeling", "A person's opinion on an issue", "A legal rule"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He _____ (asserted/biased) his viewpoint with confidence.",
+        "options": ["asserted", "biased"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We should _____ (acknowledge/justify) the other side's opinion.",
+        "options": ["acknowledge", "justify"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: controversial / is / this / topic / highly",
+        "options": ["This topic is highly controversial."],
+        "answer": [0]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Her comments were _____ (subjective/objective), not based on facts.",
+        "options": ["subjective", "objective"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: valid / reasons / gave / he / very",
+        "options": ["He gave very valid reasons."],
+        "answer": [0]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Listen: What is the speaker’s stance on the topic?",
+        "options": ["They support it", "They are neutral", "They are against it"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Listen: What word does the speaker use to justify their opinion?",
+        "options": ["Because", "Nevertheless", "Although"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Listen: What kind of argument is presented?",
+        "options": ["Subjective", "Objective", "Emotional"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Listen: What does the speaker acknowledge?",
+        "options": ["A bias", "A counterargument", "A law"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Listen: Is the topic controversial?",
+        "options": ["Yes", "No", "Not sure"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Express your stance on a controversial topic.",
+        "options": [],
+        "answer": "My stance is that stricter laws are needed to protect the environment."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Justify your opinion on a recent news event.",
+        "options": [],
+        "answer": "I believe the decision was fair because everyone had a chance to speak."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Acknowledge a counterargument and respond.",
+        "options": [],
+        "answer": "Some people say this solution is too expensive, but I think it will save money in the long run."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Explain the difference between subjective and objective statements.",
+        "options": [],
+        "answer": "Subjective statements are based on feelings, while objective statements are based on facts."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Give a valid reason for supporting or opposing a policy.",
+        "options": [],
+        "answer": "I support this policy because it helps reduce inequality."
+      }
+    ]
+  }
+}

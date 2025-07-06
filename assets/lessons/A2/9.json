@@ -1,0 +1,186 @@
+{
+  "id": "lesson_talking_about_experiences_001",
+  "lesson_name": "Talking About Experiences",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "experience", "meaning": "something you did or felt" },
+      { "word": "ever", "meaning": "at any time in your life" },
+      { "word": "never", "meaning": "not at any time" },
+      { "word": "try", "meaning": "to do something for the first time" },
+      { "word": "visit", "meaning": "to go and see a place or person" },
+      { "word": "travel", "meaning": "to go to another place" },
+      { "word": "eat", "meaning": "to put food in your mouth and swallow" },
+      { "word": "see", "meaning": "to look at something" },
+      { "word": "meet", "meaning": "to see someone for the first time" },
+      { "word": "enjoy", "meaning": "to like doing something" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'have you ever...?'",
+        "explanation": "Use 'Have you ever' + past participle to ask about experiences. Example: Have you ever visited Delhi?"
+      },
+      {
+        "title": "Talking about things you have never done",
+        "explanation": "Use 'I have never' + past participle. Example: I have never eaten sushi."
+      }
+    ],
+    "example_sentences": [
+      { "sentence": "Have you ever visited another country?", "translation": "" },
+      { "sentence": "I have never tried Italian food.", "translation": "" },
+      { "sentence": "She has met many famous people.", "translation": "" },
+      { "sentence": "We have seen that movie twice.", "translation": "" }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'something you did or felt'?",
+        "options": ["experience", "travel", "see"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "If you have not done something at any time, you say ___.",
+        "options": ["ever", "never", "enjoy"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which word means 'to go to another place'?",
+        "options": ["meet", "visit", "travel"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'Enjoy' means to like doing something.",
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What do you say when you do something for the first time?",
+        "options": ["visit", "try", "eat"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ you ever visited another country?",
+        "options": ["Did", "Have", "Do"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I have ___ tried Japanese food.",
+        "options": ["ever", "never", "meet"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [met, people, famous, has, many, She]",
+        "options": ["met", "people", "famous", "has", "many", "She"],
+        "answer": ["She", "has", "met", "many", "famous", "people"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We have ___ that movie twice.",
+        "options": ["eat", "see", "seen"],
+        "answer": 2
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [visited, have, Delhi, I]",
+        "options": ["visited", "have", "Delhi", "I"],
+        "answer": ["I", "have", "visited", "Delhi"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What does the speaker ask? (Audio: 'Have you ever visited another country?')",
+        "options": ["Visited another country", "Tried new food", "Met a friend"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "What has the speaker never tried? (Audio: 'I have never tried Italian food.')",
+        "options": ["Italian food", "Chinese food", "Mexican food"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Who has she met? (Audio: 'She has met many famous people.')",
+        "options": ["Many famous people", "Her family", "A teacher"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "How many times have they seen the movie? (Audio: 'We have seen that movie twice.')",
+        "options": ["Once", "Twice", "Never"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What have you done? (Audio: 'I have visited Delhi.')",
+        "options": ["Visited Delhi", "Tried pizza", "Seen a movie"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Have you ever visited another country?'",
+        "options": [],
+        "answer": "Have you ever visited another country?"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I have never tried Italian food.'",
+        "options": [],
+        "answer": "I have never tried Italian food."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She has met many famous people.'",
+        "options": [],
+        "answer": "She has met many famous people."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We have seen that movie twice.'",
+        "options": [],
+        "answer": "We have seen that movie twice."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I have visited Delhi.'",
+        "options": [],
+        "answer": "I have visited Delhi."
+      }
+    ]
+  }
+}

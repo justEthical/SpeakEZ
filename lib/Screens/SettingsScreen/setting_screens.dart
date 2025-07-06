@@ -64,12 +64,12 @@ class SettingScreens extends StatelessWidget {
                   ),
                   SizedBox(height: 15),
                   Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       SizedBox(width: 20),
                       Container(
-                        width: 100,
-                        height: 100,
+                        width: 80,
+                        height: 80,
                         decoration: BoxDecoration(
                           color: Colors.white,
                           border: Border.all(color: Colors.white, width: 2),
@@ -84,39 +84,46 @@ class SettingScreens extends StatelessWidget {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            globalController.userProfile.value.displayName,
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700,
-                              fontFamily: AppStrings.nunitoFont,
+                          SizedBox(
+                            width: Get.width - 140,
+                            child: Text(
+                              globalController.userProfile.value.displayName,
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700,
+                                fontFamily: AppStrings.nunitoFont,
+                              ),
                             ),
                           ),
                           SizedBox(height: 5),
-                          Text(
-                            globalController.userProfile.value.email,
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700,
-                              fontFamily: AppStrings.nunitoFont,
+                          SizedBox(
+                            width: Get.width - 140, 
+                            child: Text(
+                              globalController.userProfile.value.email,
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700,
+                                fontFamily: AppStrings.nunitoFont,
+                              ),
                             ),
                           ),
 
-                          ElevatedButton(
-                            onPressed: () {},
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.black,
-                              fixedSize: Size(100, 30),
-                              padding: EdgeInsets.zero,
-                              minimumSize: Size(0, 0),
-                            ),
-                            child: Text(
-                              "Edit",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          ),
+                          // ElevatedButton(
+                          //   onPressed: () {},
+                          //   style: ElevatedButton.styleFrom(
+                          //     backgroundColor: Colors.black,
+                          //     fixedSize: Size(100, 30),
+                          //     padding: EdgeInsets.zero,
+                          //     minimumSize: Size(0, 0),
+                          //   ),
+                          //   child: Text(
+                          //     "Edit",
+                          //     style: TextStyle(color: Colors.white),
+                          //   ),
+                          // ),
                         ],
                       ),
                     ],

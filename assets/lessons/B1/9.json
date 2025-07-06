@@ -1,0 +1,206 @@
+{
+  "id": "b1_cities_countryside_01",
+  "lesson_name": "Describing Cities & Countryside",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      { "word": "skyscraper", "meaning": "a very tall building" },
+      { "word": "suburb", "meaning": "an area on the edge of a city" },
+      { "word": "rural", "meaning": "connected to the countryside" },
+      { "word": "urban", "meaning": "related to a city" },
+      { "word": "crowded", "meaning": "full of people" },
+      { "word": "peaceful", "meaning": "quiet and calm" },
+      { "word": "traffic", "meaning": "many cars on the road" },
+      { "word": "landscape", "meaning": "the general view of a place" },
+      { "word": "village", "meaning": "a small group of houses in the countryside" },
+      { "word": "public transport", "meaning": "buses, trains, or trams that everyone can use" }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Comparatives and Superlatives",
+        "explanation": "Use '-er' or 'more' to compare: 'The city is busier than the village.' Use '-est' or 'most' for the highest degree: 'The countryside is the most peaceful place.'"
+      },
+      {
+        "title": "There is / There are",
+        "explanation": "Use 'there is' for one thing and 'there are' for many: 'There is a park in my city. There are many farms in the countryside.'"
+      },
+      {
+        "title": "Describing Places",
+        "explanation": "Use adjectives to describe: 'The streets are crowded.'"
+      }
+    ],
+    "example_sentences": [
+      {
+        "sentence": "The city is very crowded and noisy.",
+        "translation": ""
+      },
+      {
+        "sentence": "There are beautiful landscapes in the countryside.",
+        "translation": ""
+      },
+      {
+        "sentence": "My village is more peaceful than the city.",
+        "translation": ""
+      },
+      {
+        "sentence": "Many people use public transport in urban areas.",
+        "translation": ""
+      },
+      {
+        "sentence": "The suburb is quieter than the city center.",
+        "translation": ""
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'rural' mean?",
+        "options": ["Related to a city", "Connected to the countryside", "A type of building"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A _____ is a very tall building.",
+        "options": ["suburb", "village", "skyscraper"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "'Public transport' means cars that only one family uses.",
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'quiet and calm'?",
+        "options": ["crowded", "peaceful", "urban"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "A small group of houses in the countryside is a _____.",
+        "options": ["village", "skyscraper", "traffic"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The countryside is _____ (more/most) peaceful than the city.",
+        "options": ["more", "most"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "There _____ (is/are) many shops in the city.",
+        "options": ["is", "are"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: in / there / tall / the / are / city / buildings",
+        "options": ["There are tall buildings in the city."],
+        "answer": [0]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Public transport is _____ (better/best) in urban areas.",
+        "options": ["better", "best"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: peaceful / village / my / is / very",
+        "options": ["My village is very peaceful."],
+        "answer": [0]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "Listen: What is the city center like?",
+        "options": ["Quiet and empty", "Busy and crowded", "Full of farms"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Listen: Where do most people use public transport?",
+        "options": ["In villages", "In urban areas", "In forests"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "Listen: What can you see in the countryside?",
+        "options": ["Skyscrapers", "Farms and fields", "Traffic jams"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "Listen: How does the suburb compare to the city center?",
+        "options": ["Noisier", "Quieter", "More crowded"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "Listen: What is the landscape like in the countryside?",
+        "options": ["Beautiful and green", "Full of tall buildings", "Busy with cars"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Describe a city you have visited.",
+        "options": [],
+        "answer": "I visited Mumbai. It is a very busy city with many tall buildings and a lot of traffic."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Talk about what you like in the countryside.",
+        "options": [],
+        "answer": "I like the countryside because it is peaceful and there are beautiful landscapes."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Explain the difference between a suburb and the city center.",
+        "options": [],
+        "answer": "The suburb is quieter and has more houses, while the city center is crowded and busy."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say why public transport is important in cities.",
+        "options": [],
+        "answer": "Public transport is important in cities because it helps people move quickly and reduces traffic."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Describe the landscape you see from your home.",
+        "options": [],
+        "answer": "From my home, I can see green fields and small houses. The landscape is very beautiful."
+      }
+    ]
+  }
+}
