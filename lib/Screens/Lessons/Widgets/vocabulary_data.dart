@@ -3,16 +3,18 @@ import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Models/lesson_model_new.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
 class VocabularyData extends StatelessWidget {
-  final VocabularyItem  vocabularyItem;
+  final VocabularyItem vocabularyItem;
   const VocabularyData({super.key, required this.vocabularyItem});
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -52,8 +54,7 @@ class VocabularyData extends StatelessWidget {
                 color: Colors.grey[200],
               ),
               child: Text(
-                vocabularyItem.wordTranslation!["Hindi"]
-                    .toString(),
+                vocabularyItem.wordTranslation!["Hindi"].toString(),
                 style: GoogleFonts.poppins(
                   fontSize: 16,
                   fontWeight: FontWeight.normal,
@@ -64,9 +65,13 @@ class VocabularyData extends StatelessWidget {
           SizedBox(height: 18),
           Text(
             "Meaning:",
-            style: GoogleFonts.poppins(fontSize: 17, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.start,
+            style: GoogleFonts.poppins(
+              fontSize: 17,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-          SizedBox(height: 5),
+          SizedBox(height: 10),
           Text(
             vocabularyItem.meaning,
             textAlign: TextAlign.start,
@@ -75,23 +80,46 @@ class VocabularyData extends StatelessWidget {
               fontWeight: FontWeight.normal,
             ),
           ),
-          SizedBox(height: 5),
-          Container(
-            padding: EdgeInsets.all(8),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: Colors.grey, width: 0.4),
-              color: Colors.grey[200],
+          SizedBox(height: 8),
+          TranslationTextView(
+            text: vocabularyItem.meaningTranslation!["Hindi"].toString(),
+          ),
+          
+          SizedBox(height: 18),
+          Text(
+            "Example Sentence(s)",
+            style: GoogleFonts.poppins(
+              fontSize: 17,
+              fontWeight: FontWeight.bold,
             ),
-            child: Text(
-              vocabularyItem.meaningTranslation!["Hindi"]
-                  .toString(),
-              textAlign: TextAlign.start,
-              style: GoogleFonts.poppins(
-                fontSize: 16,
-                fontWeight: FontWeight.normal,
+          ),
+          SizedBox(height: 10),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ...List.generate(
+                vocabularyItem.examples.length,
+                (index) => Column(
+                  children: [
+                    Text(
+                      "${index + 1}. ${vocabularyItem.examples[index].sentence}",
+                      style: GoogleFonts.poppins(
+                        fontSize: 16,
+                        fontWeight: FontWeight.normal,
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 8),
+                    TranslationTextView(
+                      text:
+                          vocabularyItem.examples[index].translation!["Hindi"]
+                              .toString(),
+                    ),
+                    SizedBox(height: 18),
+                  ],
+                ),
               ),
-            ),
+            ],
           ),
         ],
       ),
