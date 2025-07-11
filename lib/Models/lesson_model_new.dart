@@ -28,24 +28,18 @@ class Lesson {
 class LessonIntro {
   final List<VocabularyItem> vocabulary;
   final List<GrammarTip> grammarTips;
-  final List<ExampleSentence> exampleSentences;
 
   LessonIntro({
     required this.vocabulary,
     required this.grammarTips,
-    required this.exampleSentences,
   });
 
   factory LessonIntro.fromJson(Map<String, dynamic> json) => LessonIntro(
         vocabulary: (json['vocabulary'] as List)
-            .expand((v) => v is List ? v : [v])
             .map((e) => VocabularyItem.fromJson(e))
             .toList(),
         grammarTips: (json['grammar_tips'] as List)
             .map((e) => GrammarTip.fromJson(e))
-            .toList(),
-        exampleSentences: (json['example_sentences'] as List)
-            .map((e) => ExampleSentence.fromJson(e))
             .toList(),
       );
 }
@@ -55,12 +49,14 @@ class VocabularyItem {
   final Map<String, String>? wordTranslation;
   final String meaning;
   final Map<String, String>? meaningTranslation;
+  final List<ExampleSentence> examples;
 
   VocabularyItem({
     required this.word,
     this.wordTranslation,
     required this.meaning,
     this.meaningTranslation,
+    required this.examples,
   });
 
   factory VocabularyItem.fromJson(Map<String, dynamic> json) => VocabularyItem(
@@ -72,6 +68,9 @@ class VocabularyItem {
         meaningTranslation: json['meaning_translation'] != null
             ? Map<String, String>.from(json['meaning_translation'])
             : null,
+        examples: (json['examples'] as List)
+            .map((e) => ExampleSentence.fromJson(e))
+            .toList(),
       );
 }
 

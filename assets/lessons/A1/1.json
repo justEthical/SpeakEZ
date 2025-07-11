@@ -5,104 +5,174 @@
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
-      [
-        {
-          "word": "Hello",
-          "word_translation": {
-            "Hindi": "नमस्ते",
-            "Japanese": "こんにちは"
-          },
-          "meaning": "A word you say to greet someone",
-          "meaning_translation": {
-            "Hindi": "वह शब्द जो आप किसी का अभिवादन करने के लिए कहते हैं",
-            "Japanese": "誰かに挨拶するときに言う言葉"
-          }
+      {
+        "word": "Hello",
+        "word_translation": {
+          "Hindi": "नमस्ते",
+          "Japanese": "こんにちは"
         },
-        {
-          "word": "Hi",
-          "word_translation": {
-            "Hindi": "नमस्ते",
-            "Japanese": "やあ"
-          },
-          "meaning": "A short and friendly greeting",
-          "meaning_translation": {
-            "Hindi": "एक छोटा और दोस्ताना अभिवादन",
-            "Japanese": "短くてフレンドリーな挨拶"
-          }
+        "meaning": "A word you say to greet someone",
+        "meaning_translation": {
+          "Hindi": "वह शब्द जो आप किसी का अभिवादन करने के लिए कहते हैं",
+          "Japanese": "誰かに挨拶するときに言う言葉"
         },
-        {
-          "word": "Good morning",
-          "word_translation": {
-            "Hindi": "सुप्रभात",
-            "Japanese": "おはようございます"
-          },
-          "meaning": "A greeting used in the morning",
-          "meaning_translation": {
-            "Hindi": "सुबह में इस्तेमाल किया जाने वाला अभिवादन",
-            "Japanese": "朝に使う挨拶"
+        "examples": [
+          {
+            "sentence": "Hello! My name is Anna.",
+            "translation": {
+              "Hindi": "नमस्ते! मेरा नाम अन्ना है।",
+              "Japanese": "こんにちは！私の名前はアンナです。"
+            }
           }
+        ]
+      },
+      {
+        "word": "Hi",
+        "word_translation": {
+          "Hindi": "नमस्ते",
+          "Japanese": "やあ"
         },
-        {
-          "word": "Good afternoon",
-          "word_translation": {
-            "Hindi": "शुभ दोपहर",
-            "Japanese": "こんにちは"
-          },
-          "meaning": "A greeting used in the afternoon",
-          "meaning_translation": {
-            "Hindi": "दोपहर में इस्तेमाल किया जाने वाला अभिवादन",
-            "Japanese": "午後に使う挨拶"
-          }
+        "meaning": "A short and friendly greeting",
+        "meaning_translation": {
+          "Hindi": "एक छोटा और दोस्ताना अभिवादन",
+          "Japanese": "短くてフレンドリーな挨拶"
         },
-        {
-          "word": "Good evening",
-          "word_translation": {
-            "Hindi": "शुभ संध्या",
-            "Japanese": "こんばんは"
-          },
-          "meaning": "A greeting used in the evening",
-          "meaning_translation": {
-            "Hindi": "शाम में इस्तेमाल किया जाने वाला अभिवादन",
-            "Japanese": "夕方に使う挨拶"
+        "examples": [
+          {
+            "sentence": "Hi, I am David.",
+            "translation": {
+              "Hindi": "नमस्ते, मैं डेविड हूँ।",
+              "Japanese": "やあ、私はデイビッドです。"
+            }
           }
+        ]
+      },
+      {
+        "word": "Good morning",
+        "word_translation": {
+          "Hindi": "सुप्रभात",
+          "Japanese": "おはようございます"
         },
-        {
-          "word": "Good night",
-          "word_translation": {
-            "Hindi": "शुभ रात्रि",
-            "Japanese": "おやすみなさい"
-          },
-          "meaning": "A phrase used to say goodbye before going to sleep",
-          "meaning_translation": {
-            "Hindi": "सोने से पहले अलविदा कहने के लिए उपयोग किया जाने वाला वाक्यांश",
-            "Japanese": "寝る前に別れを告げるときに使う表現"
-          }
+        "meaning": "A greeting used in the morning",
+        "meaning_translation": {
+          "Hindi": "सुबह में इस्तेमाल किया जाने वाला अभिवादन",
+          "Japanese": "朝に使う挨拶"
         },
-        {
-          "word": "Nice to meet you",
-          "word_translation": {
-            "Hindi": "आपसे मिलकर खुशी हुई",
-            "Japanese": "はじめまして"
-          },
-          "meaning": "A polite phrase to say when meeting someone for the first time",
-          "meaning_translation": {
-            "Hindi": "किसी से पहली बार मिलने पर कहने के लिए एक विनम्र वाक्यांश",
-            "Japanese": "初めて会うときに使う丁寧な表現"
+        "examples": [
+          {
+            "sentence": "Good morning! How are you?",
+            "translation": {
+              "Hindi": "सुप्रभात! आप कैसे हैं?",
+              "Japanese": "おはようございます！お元気ですか？"
+            }
           }
+        ]
+      },
+      {
+        "word": "Good afternoon",
+        "word_translation": {
+          "Hindi": "शुभ दोपहर",
+          "Japanese": "こんにちは"
         },
-        {
-          "word": "My name is...",
-          "word_translation": {
-            "Hindi": "मेरा नाम ... है",
-            "Japanese": "私の名前は..."
-          },
-          "meaning": "A way to tell someone your name",
-          "meaning_translation": {
-            "Hindi": "किसी को अपना नाम बताने का तरीका",
-            "Japanese": "自分の名前を伝える方法"
+        "meaning": "A greeting used in the afternoon",
+        "meaning_translation": {
+          "Hindi": "दोपहर में इस्तेमाल किया जाने वाला अभिवादन",
+          "Japanese": "午後に使う挨拶"
+        },
+        "examples": [
+          {
+            "sentence": "Good afternoon! Welcome.",
+            "translation": {
+              "Hindi": "शुभ दोपहर! स्वागत है।",
+              "Japanese": "こんにちは！ようこそ。"
+            }
           }
-        }
-      ]
+        ]
+      },
+      {
+        "word": "Good evening",
+        "word_translation": {
+          "Hindi": "शुभ संध्या",
+          "Japanese": "こんばんは"
+        },
+        "meaning": "A greeting used in the evening",
+        "meaning_translation": {
+          "Hindi": "शाम में इस्तेमाल किया जाने वाला अभिवादन",
+          "Japanese": "夕方に使う挨拶"
+        },
+        "examples": [
+          {
+            "sentence": "Good evening! How was your day?",
+            "translation": {
+              "Hindi": "शुभ संध्या! आपका दिन कैसा था?",
+              "Japanese": "こんばんは！今日はどうでしたか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Good night",
+        "word_translation": {
+          "Hindi": "शुभ रात्रि",
+          "Japanese": "おやすみなさい"
+        },
+        "meaning": "A phrase used to say goodbye before going to sleep",
+        "meaning_translation": {
+          "Hindi": "सोने से पहले अलविदा कहने के लिए उपयोग किया जाने वाला वाक्यांश",
+          "Japanese": "寝る前に別れを告げるときに使う表現"
+        },
+        "examples": [
+          {
+            "sentence": "Good night! See you tomorrow.",
+            "translation": {
+              "Hindi": "शुभ रात्रि! कल मिलते हैं।",
+              "Japanese": "おやすみなさい！また明日。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Nice to meet you",
+        "word_translation": {
+          "Hindi": "आपसे मिलकर खुशी हुई",
+          "Japanese": "はじめまして"
+        },
+        "meaning": "A polite phrase to say when meeting someone for the first time",
+        "meaning_translation": {
+          "Hindi": "किसी से पहली बार मिलने पर कहने के लिए एक विनम्र वाक्यांश",
+          "Japanese": "初めて会うときに使う丁寧な表現"
+        },
+        "examples": [
+          {
+            "sentence": "Nice to meet you!",
+            "translation": {
+              "Hindi": "आपसे मिलकर खुशी हुई!",
+              "Japanese": "はじめまして！"
+            }
+          }
+        ]
+      },
+      {
+        "word": "My name is...",
+        "word_translation": {
+          "Hindi": "मेरा नाम ... है",
+          "Japanese": "私の名前は..."
+        },
+        "meaning": "A way to tell someone your name",
+        "meaning_translation": {
+          "Hindi": "किसी को अपना नाम बताने का तरीका",
+          "Japanese": "自分の名前を伝える方法"
+        },
+        "examples": [
+          {
+            "sentence": "My name is Alex.",
+            "translation": {
+              "Hindi": "मेरा नाम एलेक्स है।",
+              "Japanese": "私の名前はアレックスです。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
@@ -119,36 +189,6 @@
         "explanation_translation": {
           "Hindi": "दोपहर से पहले 'Good morning', 12 बजे के बाद 'Good afternoon', और 5 बजे के बाद 'Good evening' कहें।",
           "Japanese": "正午まで「Good morning」、12時以降は「Good afternoon」、17時以降は「Good evening」と言います。"
-        }
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "Hello! My name is Anna.",
-        "translation": {
-          "Hindi": "नमस्ते! मेरा नाम अन्ना है।",
-          "Japanese": "こんにちは！私の名前はアンナです。"
-        }
-      },
-      {
-        "sentence": "Good morning! How are you?",
-        "translation": {
-          "Hindi": "सुप्रभात! आप कैसे हैं?",
-          "Japanese": "おはようございます！お元気ですか？"
-        }
-      },
-      {
-        "sentence": "Hi, I am David.",
-        "translation": {
-          "Hindi": "नमस्ते, मैं डेविड हूँ।",
-          "Japanese": "やあ、私はデイビッドです。"
-        }
-      },
-      {
-        "sentence": "Nice to meet you!",
-        "translation": {
-          "Hindi": "आपसे मिलकर खुशी हुई!",
-          "Japanese": "はじめまして！"
         }
       }
     ]
