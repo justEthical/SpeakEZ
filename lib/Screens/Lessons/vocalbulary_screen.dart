@@ -41,15 +41,20 @@ class VocalbularyScreen extends StatelessWidget {
                   lesson.lessonIntro.vocabulary.length,
                   (e) => GestureDetector(
                     onTap: () {},
-                    child: Container(
-                      width:
-                          (Get.width / lesson.lessonIntro.vocabulary.length) -
-                          10,
-                      height: 4,
-                      decoration: BoxDecoration(
-                        border: Border.all(color: Colors.grey, width: 0.4),
-                        color: Colors.grey[300],
-                        borderRadius: BorderRadius.circular(10),
+                    child: Obx(
+                      () => Container(
+                        width:
+                            (Get.width / lesson.lessonIntro.vocabulary.length) -
+                            10,
+                        height: 4,
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey, width: 0.4),
+                          color:
+                              e <= c.currentWordMeaningIndex.value
+                                  ? Colors.deepPurple
+                                  : Colors.grey[300],
+                          borderRadius: BorderRadius.circular(10),
+                        ),
                       ),
                     ),
                   ),
@@ -112,7 +117,7 @@ class VocalbularyScreen extends StatelessWidget {
                         curve: Curves.linear,
                       );
                       c.currentWordMeaningIndex.value++;
-                    }else{
+                    } else {
                       print("Done");
                     }
                   },
