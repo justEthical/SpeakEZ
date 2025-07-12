@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Models/lesson_model_new.dart';
+import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 

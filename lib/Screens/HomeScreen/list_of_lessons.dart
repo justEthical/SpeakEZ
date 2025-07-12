@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Models/questions_model.dart';
 
@@ -129,7 +128,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  c.currentLessonNameList[i].name,
+                                  c.currentLessonNameList[i].toString(),
                                   style: TextStyle(fontWeight: FontWeight.w700),
                                 ),
                                 Text(c.currenEnglishLessonLevel.value),
@@ -147,14 +146,4 @@ class _ListOfLessonsState extends State<ListOfLessons> {
     );
   }
 
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
-    Future.delayed(Duration.zero, () async {
-      c.currentLessonNameList.value = await c.loadLessonsFromJson(
-        globalController.userProfile.value.currentEnglishLevel,
-      );
-    });
-  }
 }

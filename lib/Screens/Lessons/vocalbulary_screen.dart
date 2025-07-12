@@ -5,7 +5,7 @@ import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/vocabulary_data.dart';
 import 'package:speak_ez/Screens/Lessons/grammer_tips_screen.dart';
 
-import '../../Models/lesson_model_new.dart' show Lesson;
+import '../../Models/lesson_model.dart' show Lesson;
 
 class VocalbularyScreen extends StatelessWidget {
   final Lesson lesson;
@@ -35,106 +35,88 @@ class VocalbularyScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ...List.generate(
-                  lesson.lessonIntro.vocabulary.length,
-                  (e) => GestureDetector(
-                    onTap: () {},
-                    child: Obx(
-                      () => Container(
-                        width:
-                            (Get.width / lesson.lessonIntro.vocabulary.length) -
-                            10,
-                        height: 4,
-                        decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey, width: 0.4),
-                          color:
-                              e <= c.currentWordMeaningIndex.value
-                                  ? Colors.deepPurple
-                                  : Colors.grey[300],
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
+            _progressIndicator(),
             SizedBox(height: 18),
-            Expanded(
-              flex: 10,
-              child: PageView.builder(
-                controller: c.wordMeaningPageController,
-                physics: const NeverScrollableScrollPhysics(),
-                scrollDirection: Axis.horizontal,
-                itemCount: lesson.lessonIntro.vocabulary.length,
-                itemBuilder: (ctx, i) {
-                  return VocabularyData(
-                    vocabularyItem: lesson.lessonIntro.vocabulary[i],
-                  );
-                },
+            _content(),
+            _bottomButtons(),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _progressIndicator() {
+    final c = Get.find<QuestionOptionsController>();
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        ...List.generate(
+          lesson.lessonIntro.vocabulary.length,
+          (e) => GestureDetector(
+            onTap: () {},
+            child: Obx(
+              () => Container(
+                width: (Get.width / lesson.lessonIntro.vocabulary.length) - 10,
+                height: 4,
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey, width: 0.4),
+                  color:
+                      e <= c.currentWordMeaningIndex.value
+                          ? Colors.deepPurple
+                          : Colors.grey[300],
+                  borderRadius: BorderRadius.circular(10),
+                ),
               ),
             ),
-            Row(
-              children: [
-                Obx(
-                  () =>
-                      c.currentWordMeaningIndex.value == 0
-                          ? SizedBox()
-                          : ElevatedButton(
-                            onPressed: () {
-                              c.wordMeaningPageController.previousPage(
-                                duration: const Duration(milliseconds: 300),
-                                curve: Curves.linear,
-                              );
-                              c.currentWordMeaningIndex.value--;
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.deepPurple,
-                              fixedSize: Size(100, 40),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                            ),
-                            child: Text(
-                              "Prev",
-                              style: TextStyle(
-                                fontWeight: FontWeight.w600,
-                                fontSize: 16,
-                                color: Colors.white,
-                              ),
-                            ),
-                          ),
-                ),
-                Spacer(),
-                ElevatedButton(
-                  onPressed: () {
-                    if (c.currentWordMeaningIndex.value <
-                        lesson.lessonIntro.vocabulary.length - 1) {
-                      c.wordMeaningPageController.nextPage(
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _content() {
+    final c = Get.find<QuestionOptionsController>();
+    return Expanded(
+      flex: 10,
+      child: PageView.builder(
+        controller: c.wordMeaningPageController,
+        physics: const NeverScrollableScrollPhysics(),
+        scrollDirection: Axis.horizontal,
+        itemCount: lesson.lessonIntro.vocabulary.length,
+        itemBuilder: (ctx, i) {
+          return VocabularyData(
+            vocabularyItem: lesson.lessonIntro.vocabulary[i],
+          );
+        },
+      ),
+    );
+  }
+
+  Widget _bottomButtons() {
+    final c = Get.find<QuestionOptionsController>();
+    return Row(
+      children: [
+        Obx(
+          () =>
+              c.currentWordMeaningIndex.value == 0
+                  ? SizedBox()
+                  : ElevatedButton(
+                    onPressed: () {
+                      c.wordMeaningPageController.previousPage(
                         duration: const Duration(milliseconds: 300),
                         curve: Curves.linear,
                       );
-                      c.currentWordMeaningIndex.value++;
-                    } else {
-                      Get.off(GrammerTipsScreen(lesson: lesson,));
-                    }
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.deepPurple,
-                    fixedSize: Size(100, 40),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12),
+                      c.currentWordMeaningIndex.value--;
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple,
+                      fixedSize: Size(100, 40),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
                     ),
-                  ),
-                  child: Obx(
-                    () => Text(
-                      c.currentWordMeaningIndex.value ==
-                              lesson.lessonIntro.vocabulary.length - 1
-                          ? "Done"
-                          : "Next",
+                    child: Text(
+                      "Prev",
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 16,
@@ -142,12 +124,43 @@ class VocalbularyScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                ),
-              ],
-            ),
-          ],
         ),
-      ),
+        Spacer(),
+        ElevatedButton(
+          onPressed: () {
+            if (c.currentWordMeaningIndex.value <
+                lesson.lessonIntro.vocabulary.length - 1) {
+              c.wordMeaningPageController.nextPage(
+                duration: const Duration(milliseconds: 300),
+                curve: Curves.linear,
+              );
+              c.currentWordMeaningIndex.value++;
+            } else {
+              Get.off(GrammerTipsScreen(lesson: lesson));
+            }
+          },
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.deepPurple,
+            fixedSize: Size(100, 40),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+          child: Obx(
+            () => Text(
+              c.currentWordMeaningIndex.value ==
+                      lesson.lessonIntro.vocabulary.length - 1
+                  ? "Done"
+                  : "Next",
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 16,
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

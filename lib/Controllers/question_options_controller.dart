@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -8,13 +9,14 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
-import '../Models/lesson_model_new.dart';
+import '../Models/lesson_model.dart';
 
 class QuestionOptionsController extends GetxController {
   var currentQuestionIndex = 0.obs;
   final questionPageController = PageController();
   var currentSelectedOptionIndex = 100.obs;
-  var questionDifficultyLevel = 0.obs;
+  // var questionDifficultyLevel = 0.obs;
+  var currentQuestionList = <Question>[].obs;
   var sentenceRearrangeTempList = <String>[].obs;
   var sentenceRearrangeOptionList = <String>[].obs;
   final ttsHelper = TextToSpeechService();
@@ -23,8 +25,7 @@ class QuestionOptionsController extends GetxController {
   var currentGrammerTipIndex = 0.obs;
 
   final wordMeaningPageController = PageController();
-  final grammerTipPageController   = PageController();
-    
+  final grammerTipPageController = PageController();
 
   var lessonList = [
     "assets/questions/A1/Greetings & Introductions.json",
@@ -115,6 +116,24 @@ Mistakes are your secret weapon to get better. 💥
         list1.length == list3.length &&
         list1.asMap().entries.every((entry) => entry.value == list3[entry.key]);
     return areEqual;
+  }
+
+  void buildQnaList(Lesson lesson) {
+    final tmpArray = [];
+    for (var i = 0; i < 3; i++) {
+      final random = Random();
+      int randomNumber = random.nextInt(5);
+      if (!tmpArray.contains(randomNumber)) {
+        tmpArray.add(randomNumber);
+      }
+    }
+    print(tmpArray);
+    for (var i in tmpArray) {
+      currentQuestionList.add(lesson.questionPools.vocabulary[i]);
+      currentQuestionList.add(lesson.questionPools.sentence[i]);
+      currentQuestionList.add(lesson.questionPools.listening[i]);
+      currentQuestionList.add(lesson.questionPools.speaking[i]);
+    }
   }
 
   // void moveToNextQuestion() {

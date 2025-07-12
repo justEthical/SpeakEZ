@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Models/lesson_model_new.dart';
+import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/vocalbulary_screen.dart';
 
 class LessonIntroScreen extends StatelessWidget {
@@ -59,7 +59,7 @@ class LessonIntroScreen extends StatelessWidget {
           Spacer(),
           ElevatedButton(
             onPressed: () {
-              Get.to(VocalbularyScreen(lesson: lesson));
+              Get.off(VocalbularyScreen(lesson: lesson));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.deepPurple,
