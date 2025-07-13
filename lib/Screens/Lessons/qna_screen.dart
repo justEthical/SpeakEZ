@@ -6,6 +6,7 @@ import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/continue_button.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/option_builder.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
+import './Widgets/progress_bar.dart';
 
 class QnaScreen extends StatelessWidget {
   final Lesson lesson;
@@ -32,6 +33,8 @@ class QnaScreen extends StatelessWidget {
         padding: EdgeInsets.all(15),
         child: Column(
           children: [
+            ProgressBar(),
+            SizedBox(height: 15), 
             Expanded(
               child: PageView.builder(
                 controller: c.questionPageController,
@@ -39,6 +42,7 @@ class QnaScreen extends StatelessWidget {
                 itemCount: c.currentQuestionList.length,
                 itemBuilder: (ctx, i) {
                   return Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         "Q${i + 1}. ${c.currentQuestionList[i].question}",
