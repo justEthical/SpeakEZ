@@ -16,32 +16,31 @@ class Lesson {
   });
 
   factory Lesson.fromJson(Map<String, dynamic> json) => Lesson(
-        id: json['id'],
-        lessonName: json['lesson_name'],
-        purpose: json['purpose'],
-        cefrLevel: json['cefrLevel'],
-        lessonIntro: LessonIntro.fromJson(json['lesson_intro']),
-        questionPools: QuestionPools.fromJson(json['question_pools']),
-      );
+    id: json['id'],
+    lessonName: json['lesson_name'],
+    purpose: json['purpose'],
+    cefrLevel: json['cefrLevel'],
+    lessonIntro: LessonIntro.fromJson(json['lesson_intro']),
+    questionPools: QuestionPools.fromJson(json['question_pools']),
+  );
 }
 
 class LessonIntro {
   final List<VocabularyItem> vocabulary;
   final List<GrammarTip> grammarTips;
 
-  LessonIntro({
-    required this.vocabulary,
-    required this.grammarTips,
-  });
+  LessonIntro({required this.vocabulary, required this.grammarTips});
 
   factory LessonIntro.fromJson(Map<String, dynamic> json) => LessonIntro(
-        vocabulary: (json['vocabulary'] as List)
+    vocabulary:
+        (json['vocabulary'] as List)
             .map((e) => VocabularyItem.fromJson(e))
             .toList(),
-        grammarTips: (json['grammar_tips'] as List)
+    grammarTips:
+        (json['grammar_tips'] as List)
             .map((e) => GrammarTip.fromJson(e))
             .toList(),
-      );
+  );
 }
 
 class VocabularyItem {
@@ -60,18 +59,21 @@ class VocabularyItem {
   });
 
   factory VocabularyItem.fromJson(Map<String, dynamic> json) => VocabularyItem(
-        word: json['word'],
-        wordTranslation: json['word_translation'] != null
+    word: json['word'],
+    wordTranslation:
+        json['word_translation'] != null
             ? Map<String, String>.from(json['word_translation'])
             : null,
-        meaning: json['meaning'],
-        meaningTranslation: json['meaning_translation'] != null
+    meaning: json['meaning'],
+    meaningTranslation:
+        json['meaning_translation'] != null
             ? Map<String, String>.from(json['meaning_translation'])
             : null,
-        examples: (json['examples'] as List)
+    examples:
+        (json['examples'] as List)
             .map((e) => ExampleSentence.fromJson(e))
             .toList(),
-      );
+  );
 }
 
 class GrammarTip {
@@ -86,29 +88,28 @@ class GrammarTip {
   });
 
   factory GrammarTip.fromJson(Map<String, dynamic> json) => GrammarTip(
-        title: json['title'],
-        explanation: json['explanation'],
-        explanationTranslation: json['explanation_translation'] != null
+    title: json['title'],
+    explanation: json['explanation'],
+    explanationTranslation:
+        json['explanation_translation'] != null
             ? Map<String, String>.from(json['explanation_translation'])
             : null,
-      );
+  );
 }
 
 class ExampleSentence {
   final String sentence;
   final Map<String, String>? translation;
 
-  ExampleSentence({
-    required this.sentence,
-    this.translation,
-  });
+  ExampleSentence({required this.sentence, this.translation});
 
   factory ExampleSentence.fromJson(Map<String, dynamic> json) =>
       ExampleSentence(
         sentence: json['sentence'],
-        translation: json['translation'] != null
-            ? Map<String, String>.from(json['translation'])
-            : null,
+        translation:
+            json['translation'] != null
+                ? Map<String, String>.from(json['translation'])
+                : null,
       );
 }
 
@@ -126,24 +127,20 @@ class QuestionPools {
   });
 
   factory QuestionPools.fromJson(Map<String, dynamic> json) => QuestionPools(
-        vocabulary: (json['vocabulary'] as List)
-            .map((e) => Question.fromJson(e))
-            .toList(),
-        sentence: (json['sentence'] as List)
-            .map((e) => Question.fromJson(e))
-            .toList(),
-        listening: (json['listening'] as List)
-            .map((e) => Question.fromJson(e))
-            .toList(),
-        speaking: (json['speaking'] as List)
-            .map((e) => Question.fromJson(e))
-            .toList(),
-      );
+    vocabulary:
+        (json['vocabulary'] as List).map((e) => Question.fromJson(e)).toList(),
+    sentence:
+        (json['sentence'] as List).map((e) => Question.fromJson(e)).toList(),
+    listening:
+        (json['listening'] as List).map((e) => Question.fromJson(e)).toList(),
+    speaking:
+        (json['speaking'] as List).map((e) => Question.fromJson(e)).toList(),
+  );
 }
 
 class Question {
   final String id;
-  final String type;
+  final QuestionType type;
   final String question;
   final Map<String, String>? questionTranslation;
   final List<dynamic>? options;
@@ -159,13 +156,23 @@ class Question {
   });
 
   factory Question.fromJson(Map<String, dynamic> json) => Question(
-        id: json['id'],
-        type: json['type'],
-        question: json['question'],
-        questionTranslation: json['question_translation'] != null
+    id: json['id'],
+    type: QuestionType.values.firstWhere((e) => e.name == json['type']),
+    question: json['question'],
+    questionTranslation:
+        json['question_translation'] != null
             ? Map<String, String>.from(json['question_translation'])
             : null,
-        options: json['options'] as List<dynamic>?,
-        answer: json['answer'],
-      );
+    options: json['options'] as List<dynamic>?,
+    answer: json['answer'],
+  );
+}
+
+enum QuestionType {
+  multipleChoice,
+  fillInTheBlanks,
+  trueFalse,
+  sentenceRearranging,
+  listening,
+  speaking,
 }

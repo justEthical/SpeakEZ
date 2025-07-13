@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/continue_button.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/option_builder.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 
 class QnaScreen extends StatelessWidget {
@@ -33,6 +35,7 @@ class QnaScreen extends StatelessWidget {
             Expanded(
               child: PageView.builder(
                 controller: c.questionPageController,
+                physics: NeverScrollableScrollPhysics(),
                 itemCount: c.currentQuestionList.length,
                 itemBuilder: (ctx, i) {
                   return Column(
@@ -52,6 +55,13 @@ class QnaScreen extends StatelessWidget {
                                 .currentQuestionList[i]
                                 .questionTranslation!["Hindi"]
                                 .toString(),
+                      ),
+                      Spacer(),
+                      OptionBuilder(question: c.currentQuestionList[i]),
+                      SizedBox(height: 15),
+                      ContinueButton(
+                        question:
+                            c.currentQuestionList[c.currentQuestionIndex.value],
                       ),
                     ],
                   );

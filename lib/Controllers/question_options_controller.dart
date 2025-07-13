@@ -6,6 +6,8 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
+import 'package:speak_ez/Screens/Lessons/result_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
@@ -98,17 +100,17 @@ Mistakes are your secret weapon to get better. 💥
   //   );
   // }
 
-  // void shouldEnableContinueButton(QuestionType questionType) {
-  //   switch (questionType) {
-  //     case QuestionType.sentenceRearranging:
-  //       isContinueButtonEnabled.value = sentenceRearrangeTempList.isNotEmpty;
-  //       break;
+  void shouldEnableContinueButton(QuestionType questionType) {
+    switch (questionType) {
+      case QuestionType.sentenceRearranging:
+        isContinueButtonEnabled.value = sentenceRearrangeTempList.isNotEmpty;
+        break;
 
-  //     default:
-  //       isContinueButtonEnabled.value = currentSelectedOptionIndex.value != 100;
-  //       break;
-  //   }
-  // }
+      default:
+        isContinueButtonEnabled.value = currentSelectedOptionIndex.value != 100;
+        break;
+    }
+  }
 
   bool comparing2Lists(List<String> list1, List<dynamic> list2) {
     List<String> list3 = list2.map((e) => e.toString()).toList();
@@ -136,37 +138,37 @@ Mistakes are your secret weapon to get better. 💥
     }
   }
 
-  // void moveToNextQuestion() {
-  //   if (currentQuestionIndex.value < currentLesson.value.questions.length - 1) {
-  //     currentQuestionIndex.value++;
-  //     questionPageController.jumpToPage(currentQuestionIndex.value);
-  //     currentSelectedOptionIndex.value = 100;
-  //   } else {
-  //     Get.offAll(() => ResultScreen());
-  //   }
-  // }
+  void moveToNextQuestion() {
+    if (currentQuestionIndex.value < currentQuestionList.length - 1) {
+      currentQuestionIndex.value++;
+      questionPageController.jumpToPage(currentQuestionIndex.value);
+      currentSelectedOptionIndex.value = 100;
+    } else {
+      Get.offAll(() => ResultScreen());
+    }
+  }
 
-  // void showAnswerResultBottomSheet({
-  //   required bool isAnswerCorrect,
-  //   required String correctAnswer,
-  // }) {
-  //   showModalBottomSheet(
-  //     context: Get.context!,
-  //     isDismissible: false,
-  //     enableDrag: false,
-  //     backgroundColor: Colors.transparent,
-  //     shape: RoundedRectangleBorder(
-  //       borderRadius: BorderRadius.only(
-  //         topLeft: Radius.circular(20),
-  //         topRight: Radius.circular(20),
-  //       ),
-  //     ),
-  //     isScrollControlled: true,
-  //     builder:
-  //         (context) => AnswerResultBottomSheet(
-  //           isAnswerCorrect: isAnswerCorrect,
-  //           correctAnswer: correctAnswer,
-  //         ),
-  //   );
-  // }
+  void showAnswerResultBottomSheet({
+    required bool isAnswerCorrect,
+    required String correctAnswer,
+  }) {
+    showModalBottomSheet(
+      context: Get.context!,
+      isDismissible: false,
+      enableDrag: false,
+      backgroundColor: Colors.transparent,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(20),
+          topRight: Radius.circular(20),
+        ),
+      ),
+      isScrollControlled: true,
+      builder:
+          (context) => AnswerResultBottomSheet(
+            isAnswerCorrect: isAnswerCorrect,
+            correctAnswer: correctAnswer,
+          ),
+    );
+  }
 }
