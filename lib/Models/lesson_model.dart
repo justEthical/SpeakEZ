@@ -142,6 +142,7 @@ class Question {
   final String id;
   final QuestionType type;
   final String question;
+  final String? audioText;
   final Map<String, String>? questionTranslation;
   final List<dynamic>? options;
   final dynamic answer;
@@ -150,6 +151,7 @@ class Question {
     required this.id,
     required this.type,
     required this.question,
+    this.audioText,
     this.questionTranslation,
     this.options,
     required this.answer,
@@ -159,6 +161,7 @@ class Question {
     id: json['id'],
     type: QuestionType.values.firstWhere((e) => e.name == json['type']),
     question: json['question'],
+    audioText: json['audio_text'],  
     questionTranslation:
         json['question_translation'] != null
             ? Map<String, String>.from(json['question_translation'])

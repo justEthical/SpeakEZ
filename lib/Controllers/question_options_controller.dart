@@ -122,7 +122,7 @@ Mistakes are your secret weapon to get better. 💥
 
   void buildQnaList(Lesson lesson) {
     final tmpArray = [];
-    for (var i = 0; i < 3; i++) {
+    while (tmpArray.length < 3) {
       final random = Random();
       int randomNumber = random.nextInt(5);
       if (!tmpArray.contains(randomNumber)) {

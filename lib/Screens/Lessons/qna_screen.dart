@@ -34,18 +34,19 @@ class QnaScreen extends StatelessWidget {
         child: Column(
           children: [
             ProgressBar(),
-            SizedBox(height: 15), 
+            SizedBox(height: 15),
             Expanded(
               child: PageView.builder(
                 controller: c.questionPageController,
                 physics: NeverScrollableScrollPhysics(),
                 itemCount: c.currentQuestionList.length,
                 itemBuilder: (ctx, i) {
+                  final question = c.currentQuestionList[i];
                   return Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Q${i + 1}. ${c.currentQuestionList[i].question}",
+                        "Q${i + 1}. ${question.question}",
                         textAlign: TextAlign.start,
                         style: GoogleFonts.poppins(
                           fontSize: 16,
@@ -60,8 +61,24 @@ class QnaScreen extends StatelessWidget {
                                 .questionTranslation!["Hindi"]
                                 .toString(),
                       ),
+                      question.type == QuestionType.listening
+                          ? ElevatedButton(
+                            style:  ElevatedButton.styleFrom(
+                              backgroundColor: Colors.deepPurple
+                            ),
+                            onPressed: () {
+                              c.ttsHelper.speak(
+                                question.audioText!,
+                              );
+                            },
+                            child: Text(
+                              "Listen 🔊",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          )
+                          : SizedBox(),
                       Spacer(),
-                      OptionBuilder(question: c.currentQuestionList[i]),
+                      OptionBuilder(question: question),
                       SizedBox(height: 15),
                       ContinueButton(
                         question:

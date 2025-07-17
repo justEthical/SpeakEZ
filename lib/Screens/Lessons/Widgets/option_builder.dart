@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/mcq_options.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/sentence_rearrange_options.dart';
 
 class OptionBuilder extends StatelessWidget {
   final Question question;
@@ -9,14 +10,8 @@ class OptionBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     switch (question.type) {
-      // case QuestionType.fillInTheBlanks:
-      //   return const Text("Option 4");
-      // case QuestionType.trueFalse:
-      //   return const Text("Option 2");
       case QuestionType.sentenceRearranging:
-        return const Text("Option 5");
-      case QuestionType.listening:
-        return const Text("Option 6");
+        return SentenceRearrangeOptions(question: question) ;
       case QuestionType.speaking:
         return const Text("Option 7");
       default:

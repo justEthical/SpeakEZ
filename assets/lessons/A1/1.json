@@ -358,8 +358,10 @@
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
+        "type": "multipleChoice",
+
         "question": "What did the speaker say?",
+        "audioText": "Hello",
         "question_translation": {
           "Hindi": "वक्ता ने क्या कहा?",
           "Japanese": "話者は何と言いましたか？"
@@ -373,8 +375,9 @@
       },
       {
         "id": "listen2",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "Which greeting did you hear?",
+        "audioText": "Good morning",
         "question_translation": {
           "Hindi": "आपने कौन सा अभिवादन सुना?",
           "Japanese": "どの挨拶を聞きましたか？"
@@ -389,10 +392,11 @@
       {
         "id": "listen3",
         "type": "listening",
-        "question": "What is the person's name? (Audio: 'My name is Mark.')",
+        "question": "What is the person's name?",
+        "audioText": "My name is Mark.",
         "question_translation": {
-          "Hindi": "उस व्यक्ति का नाम क्या है? (ऑडियो: 'My name is Mark.')",
-          "Japanese": "その人の名前は何ですか？ (音声: 'My name is Mark.')"
+          "Hindi": "उस व्यक्ति का नाम क्या है?",
+          "Japanese": "その人の名前は何ですか?"
         },
         "options": [
           "Alex",
@@ -403,11 +407,12 @@
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "Did the speaker say 'Hi'?",
+        "type": "multipleChoice",
+        "question": "Did the speaker say 'Nice to meet you'?",
+        "audioText": "Nice to meet you",
         "question_translation": {
-          "Hindi": "क्या वक्ता ने 'Hi' कहा?",
-          "Japanese": "話者は「Hi」と言いましたか？"
+          "Hindi": "क्या वक्ता ने 'Nice to meet you' कहा?",
+          "Japanese": "話者は「Nice to meet you」と言いましたか？"
         },
         "options": [
           "Yes",
@@ -419,10 +424,11 @@
       {
         "id": "listen5",
         "type": "listening",
-        "question": "What time of day was the greeting? (Audio: 'Good evening!')",
+        "question": "What time of day was the greeting?",
+        "audioText":"Good morning",
         "question_translation": {
-          "Hindi": "अभिवादन किस समय का था? (ऑडियो: 'Good evening!')",
-          "Japanese": "挨拶はどの時間帯でしたか？ (音声: 'Good evening!')"
+          "Hindi": "अभिवादन किस समय का था?",
+          "Japanese": "挨拶はどの時間帯でしたか？"
         },
         "options": [
           "Morning",
