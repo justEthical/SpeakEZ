@@ -29,6 +29,8 @@ class QuestionOptionsController extends GetxController {
   final wordMeaningPageController = PageController();
   final grammerTipPageController = PageController();
 
+  var isListeningLessonAnswer = false.obs;  // for lessons answers speech to text 
+
   var lessonList = [
     "assets/questions/A1/Greetings & Introductions.json",
     "assets/questions/A1/Talking About Yourself.json",

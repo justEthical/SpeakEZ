@@ -358,10 +358,10 @@
     "listening": [
       {
         "id": "listen1",
-        "type": "multipleChoice",
+        "type": "listening",
 
         "question": "What did the speaker say?",
-        "audioText": "Hello",
+        "audio_text": "Hello",
         "question_translation": {
           "Hindi": "वक्ता ने क्या कहा?",
           "Japanese": "話者は何と言いましたか？"
@@ -375,9 +375,9 @@
       },
       {
         "id": "listen2",
-        "type": "multipleChoice",
+        "type": "listening",
         "question": "Which greeting did you hear?",
-        "audioText": "Good morning",
+        "audio_text": "Good morning",
         "question_translation": {
           "Hindi": "आपने कौन सा अभिवादन सुना?",
           "Japanese": "どの挨拶を聞きましたか？"
@@ -393,7 +393,7 @@
         "id": "listen3",
         "type": "listening",
         "question": "What is the person's name?",
-        "audioText": "My name is Mark.",
+        "audio_text": "My name is Mark.",
         "question_translation": {
           "Hindi": "उस व्यक्ति का नाम क्या है?",
           "Japanese": "その人の名前は何ですか?"
@@ -407,9 +407,9 @@
       },
       {
         "id": "listen4",
-        "type": "multipleChoice",
+        "type": "listening",
         "question": "Did the speaker say 'Nice to meet you'?",
-        "audioText": "Nice to meet you",
+        "audio_text": "Nice to meet you",
         "question_translation": {
           "Hindi": "क्या वक्ता ने 'Nice to meet you' कहा?",
           "Japanese": "話者は「Nice to meet you」と言いましたか？"
@@ -425,7 +425,7 @@
         "id": "listen5",
         "type": "listening",
         "question": "What time of day was the greeting?",
-        "audioText":"Good morning",
+        "audio_text":"Good morning",
         "question_translation": {
           "Hindi": "अभिवादन किस समय का था?",
           "Japanese": "挨拶はどの時間帯でしたか？"

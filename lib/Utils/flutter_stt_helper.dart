@@ -18,6 +18,7 @@ class SpeechService {
         onResult: (result) {
           recognizedText = result.recognizedWords;
           onResult(recognizedText); // callback to update UI or state
+          print('stoped ji');
         },
       );
     } else {

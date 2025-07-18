@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/mcq_options.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/sentence_rearrange_options.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/speak_option.dart';
+import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 
 class OptionBuilder extends StatelessWidget {
   final Question question;
@@ -11,9 +14,9 @@ class OptionBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     switch (question.type) {
       case QuestionType.sentenceRearranging:
-        return SentenceRearrangeOptions(question: question) ;
+        return SentenceRearrangeOptions(question: question);
       case QuestionType.speaking:
-        return const Text("Option 7");
+        return SpeakOption(question: question );
       default:
         // default option type will be multiple choice
         return McqOptions(question: question);
