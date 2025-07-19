@@ -64,6 +64,7 @@ class PracticeController extends GetxController {
   }
 
   void startRecording() {
+    recorder.startAutoRecording();
     _addRecordingChatCell();
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {
@@ -77,7 +78,7 @@ class PracticeController extends GetxController {
   }
 
   _addRecordingChatCell() {
-    recorder.startAutoRecording();
+    
     isRecordingInProgress.value = true;
     isRecordingPaused.value = false;
     currentChats.add(

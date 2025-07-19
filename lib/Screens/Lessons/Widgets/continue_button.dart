@@ -30,27 +30,24 @@ class ContinueButton extends StatelessWidget {
                           c.sentenceRearrangeTempList,
                           question.answer,
                         );
-                        if (isAnswerCorrect) {
-                          c.correctAnswer++;
-                          FlameAudio.play(AppAssets.correct);
-                        } else {
-                          FlameAudio.play(AppAssets.incorrect);
-                        }
+                        _playAudio(isAnswerCorrect, c);
                         c.showAnswerResultBottomSheet(
                           isAnswerCorrect: isAnswerCorrect,
                           correctAnswer: question.answer.join(" "),
+                        );
+                        break;
+                      case QuestionType.speaking:
+                      _playAudio(c.isSpeakAnswerCorrect(), c);  
+                        c.showAnswerResultBottomSheet(
+                            isAnswerCorrect: c.isSpeakAnswerCorrect(),
+                            correctAnswer: question.answer
                         );
                         break;
                       default:
                         final isAnswerCorrect =
                             c.currentSelectedOptionIndex.value ==
                             question.answer;
-                        if (isAnswerCorrect) {
-                          c.correctAnswer++;
-                          FlameAudio.play(AppAssets.correct);
-                        } else {
-                          FlameAudio.play(AppAssets.incorrect);
-                        }
+                        _playAudio(isAnswerCorrect, c);
                         c.showAnswerResultBottomSheet(
                           isAnswerCorrect: isAnswerCorrect,
                           correctAnswer: question.options![question.answer],
@@ -62,5 +59,15 @@ class ContinueButton extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  void _playAudio(bool isAnswerCorrect, QuestionOptionsController c) {
+
+    if (isAnswerCorrect) {
+                          c.correctAnswer++;
+                          FlameAudio.play(AppAssets.correct);
+                        } else {
+                          FlameAudio.play(AppAssets.incorrect);
+                        }
   }
 }

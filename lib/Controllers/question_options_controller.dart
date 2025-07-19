@@ -1,4 +1,6 @@
+import 'dart:async';
 import 'dart:convert';
+import 'dart:isolate';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -9,7 +11,9 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import '../Models/lesson_model.dart';
 
@@ -23,13 +27,20 @@ class QuestionOptionsController extends GetxController {
   var sentenceRearrangeOptionList = <String>[].obs;
   final ttsHelper = TextToSpeechService();
   var correctAnswer = 0.obs;
+  Timer? _timer;
+  var transcriptionText = "".obs;
   var currentWordMeaningIndex = 0.obs;
   var currentGrammerTipIndex = 0.obs;
+
+  var speakingQuestionAccuracy = 0.0;
 
   final wordMeaningPageController = PageController();
   final grammerTipPageController = PageController();
 
-  var isListeningLessonAnswer = false.obs;  // for lessons answers speech to text 
+  var isListeningLessonAnswer = false.obs; // for lessons answers speech to text
+  final AudioChunkRecorder recorder = AudioChunkRecorder();
+  var isLastChunkTranscribed = false.obs;
+  late StreamSubscription<bool> sub;
 
   var lessonList = [
     "assets/questions/A1/Greetings & Introductions.json",
@@ -42,6 +53,11 @@ class QuestionOptionsController extends GetxController {
   var isContinueButtonEnabled = false.obs;
   var isMicOn = false.obs;
   var currenSpeakingText = "".obs;
+  late SendPort whisperSendPort;
+  var isWhisperInitialized = false.obs;
+  var remainingSeconds = 10.obs;
+  var sttResult = "".obs;
+  var isAudioProcessing = false.obs;
 
   Future<Lesson> setCurrentLesson() async {
     final profile = globalController.userProfile.value;
@@ -70,6 +86,51 @@ class QuestionOptionsController extends GetxController {
 
     // updating user profile in firestore
     FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
+  }
+
+  Future<void> startWhisperIsolate() async {
+    final ReceivePort onMainReceive = ReceivePort();
+
+    final RootIsolateToken token = RootIsolateToken.instance!;
+    await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+      onMainReceive.sendPort,
+      globalController.appDocDirectoryPath,
+      token,
+    ]);
+
+    whisperSendPort = await onMainReceive.first;
+    isWhisperInitialized.value = true;
+    print('Whisper isolate started $whisperSendPort');
+  }
+
+  void startRecording() {
+    isListeningLessonAnswer.value = true;
+    recorder.startAutoRecording(isFromLesson: true);
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (remainingSeconds.value == 0) {
+        stopRecording();
+        print("Timer stopped");
+      } else {
+        // print("Timmer running ${remainingSeconds.value}");
+        remainingSeconds.value--;
+      }
+    });
+  }
+
+  void stopRecording() {
+    
+    _timer?.cancel();
+    recorder.stop(isFromLesson: true);
+    isAudioProcessing.value = true;
+    sub = isLastChunkTranscribed.listen((val) {
+      if (val) {
+        print(transcriptionText.value);
+        isAudioProcessing.value = false;
+        isListeningLessonAnswer.value = false;
+        remainingSeconds.value = 10;
+        sub.cancel();
+      }
+    });
   }
 
   String getResultScreenText(double accuracy) {
@@ -107,7 +168,8 @@ Mistakes are your secret weapon to get better. 💥
       case QuestionType.sentenceRearranging:
         isContinueButtonEnabled.value = sentenceRearrangeTempList.isNotEmpty;
         break;
-
+      case QuestionType.speaking:
+        isContinueButtonEnabled.value = true;
       default:
         isContinueButtonEnabled.value = currentSelectedOptionIndex.value != 100;
         break;
@@ -172,5 +234,41 @@ Mistakes are your secret weapon to get better. 💥
             correctAnswer: correctAnswer,
           ),
     );
+  }
+
+  double calculateAccuracy(String correctAnswer, String userAnswer) {
+    final correctAnswerList = correctAnswer.split(' ');
+    final userAnswerList = userAnswer.split(' ');
+    var match = 0;
+    for (
+      int i = 0;
+      i < correctAnswerList.length && i < userAnswerList.length;
+      i++
+    ) {
+      if (correctAnswerList[i].toLowerCase() ==
+          userAnswerList[i].toLowerCase()) {
+        match++;
+      }
+    }
+    return (match / correctAnswer.length) * 100;
+  }
+
+  bool isSpeakAnswerCorrect() {
+    switch (globalController.userProfile.value.currentEnglishLevel) {
+      case "A1":
+        return speakingQuestionAccuracy >= 50;
+      case "A2":
+        return speakingQuestionAccuracy >= 60;
+      case "B1":
+        return speakingQuestionAccuracy >= 70;
+      case "B2":
+        return speakingQuestionAccuracy >= 80;
+      case "C1":
+        return speakingQuestionAccuracy >= 90;
+      case "C2":
+        return speakingQuestionAccuracy == 100;
+      default:
+        return false;
+    }
   }
 }

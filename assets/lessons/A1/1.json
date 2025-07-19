@@ -442,13 +442,13 @@
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'Hello! My name is Anna.'",
+        "question": "Say: 'Hello! My name is Ravi.'",
         "question_translation": {
-          "Hindi": "कहें: 'Hello! My name is Anna.'",
-          "Japanese": "言ってください: 'Hello! My name is Anna.'"
+          "Hindi": "कहें: 'Hello! My name is Ravi.'",
+          "Japanese": "言ってください: 'Hello! My name is Ravi.'"
         },
         "options": [],
-        "answer": "Hello! My name is Anna."
+        "answer": "hello my name is Ravi"
       },
       {
         "id": "speak2",
@@ -459,18 +459,18 @@
           "Japanese": "言ってください: 'Good morning!'"
         },
         "options": [],
-        "answer": "Good morning!"
+        "answer": "good morning"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'Hi, I am David.'",
+        "question": "Say: 'Hi, I am Neha.'",
         "question_translation": {
-          "Hindi": "कहें: 'Hi, I am David.'",
-          "Japanese": "言ってください: 'Hi, I am David.'"
+          "Hindi": "कहें: 'Hi, I am Neha.'",
+          "Japanese": "言ってください: 'Hi, I am Neha.'"
         },
         "options": [],
-        "answer": "Hi, I am David."
+        "answer": "hi i am neha"
       },
       {
         "id": "speak4",
@@ -481,7 +481,7 @@
           "Japanese": "言ってください: 'Nice to meet you.'"
         },
         "options": [],
-        "answer": "Nice to meet you."
+        "answer": "nice to meet you"
       },
       {
         "id": "speak5",
@@ -492,7 +492,7 @@
           "Japanese": "言ってください: 'Good evening!'"
         },
         "options": [],
-        "answer": "Good evening!"
+        "answer": "good evening"
       }
     ]
   }

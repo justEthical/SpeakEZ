@@ -8,7 +8,12 @@ class SpeechService {
 
   Future<void> startListening(Function(String) onResult) async {
     bool available = await _speech.initialize(
-      onStatus: (status) => print('Status: $status'),
+      onStatus: (status) {
+        print("Status: $status");
+        if (status == "done" || status == "notListening") {
+          isListening = false;
+        } 
+      },
       onError: (error) => print('Error: $error'),
     );
 
@@ -18,7 +23,6 @@ class SpeechService {
         onResult: (result) {
           recognizedText = result.recognizedWords;
           onResult(recognizedText); // callback to update UI or state
-          print('stoped ji');
         },
       );
     } else {
