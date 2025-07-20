@@ -124,13 +124,30 @@ class QuestionOptionsController extends GetxController {
     isAudioProcessing.value = true;
     sub = isLastChunkTranscribed.listen((val) {
       if (val) {
+        // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
+        transcriptionText.value = removeBracketedWords(transcriptionText.value);
+        // removing non alphabet characters like !, @, #, %, comma (,) etc  
+        transcriptionText.value = removeNonAlphabet(transcriptionText.value);
         print(transcriptionText.value);
+
+        isContinueButtonEnabled.value = true;
         isAudioProcessing.value = false;
         isListeningLessonAnswer.value = false;
         remainingSeconds.value = 10;
         sub.cancel();
       }
     });
+  }
+
+  String removeBracketedWords(String text) {
+    // Matches any word starting with [ or (, up to the next space, or closed bracket/parenthesis (greedy).
+    final pattern = RegExp(
+      r'(\s*[\[\(][^\s\]\)]*[\]\)]?\s*)',
+      caseSensitive: false,
+    );
+    String cleaned = text.replaceAll(pattern, ' ');
+    // Remove any extra spaces
+    return cleaned.replaceAll(RegExp(r'\s+'), ' ').trim();
   }
 
   String getResultScreenText(double accuracy) {
@@ -250,23 +267,28 @@ Mistakes are your secret weapon to get better. 💥
         match++;
       }
     }
-    return (match / correctAnswer.length) * 100;
+    print((match / correctAnswerList.length) * 100);
+    return (match / correctAnswerList.length) * 100;
   }
 
-  bool isSpeakAnswerCorrect() {
+String removeNonAlphabet(String input) {
+  return input.replaceAll(RegExp(r'[^a-zA-Z]'), '');
+}
+
+  bool isSpeakingQuestionAccurate(double accuracy){
     switch (globalController.userProfile.value.currentEnglishLevel) {
       case "A1":
-        return speakingQuestionAccuracy >= 50;
+        return accuracy >= 50;
       case "A2":
-        return speakingQuestionAccuracy >= 60;
+        return accuracy >= 60;
       case "B1":
-        return speakingQuestionAccuracy >= 70;
+        return accuracy >= 70;
       case "B2":
-        return speakingQuestionAccuracy >= 80;
+        return accuracy >= 80;
       case "C1":
-        return speakingQuestionAccuracy >= 90;
+        return accuracy >= 90;
       case "C2":
-        return speakingQuestionAccuracy == 100;
+        return accuracy == 100;
       default:
         return false;
     }

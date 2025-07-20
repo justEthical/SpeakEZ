@@ -51,8 +51,8 @@ class _SpeakOptionState extends State<SpeakOption> {
                             width: 0.4,
                           ),
                         ),
-                        child: c.isAudioProcessing.value ? CircularProgressIndicator() : Lottie.asset(
-                          AppAssets.recording,
+                        child:   Lottie.asset(
+                          c.isAudioProcessing.value ? AppAssets.loader : AppAssets.recording,
                           height: 60,
                           width: 60,
                           decoder: globalController.customDecoder,

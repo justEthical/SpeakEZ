@@ -37,9 +37,10 @@ class ContinueButton extends StatelessWidget {
                         );
                         break;
                       case QuestionType.speaking:
-                      _playAudio(c.isSpeakAnswerCorrect(), c);  
+                      final speakingAccuracy = c.calculateAccuracy(question.answer, c.transcriptionText.value.trim());
+                      _playAudio(c.isSpeakingQuestionAccurate(speakingAccuracy), c);  
                         c.showAnswerResultBottomSheet(
-                            isAnswerCorrect: c.isSpeakAnswerCorrect(),
+                            isAnswerCorrect: c.isSpeakingQuestionAccurate(speakingAccuracy),
                             correctAnswer: question.answer
                         );
                         break;
