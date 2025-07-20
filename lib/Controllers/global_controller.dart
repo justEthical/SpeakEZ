@@ -64,13 +64,14 @@ class GlobalController extends GetxController {
   }
 
   void showSnackbarWithGetX(String title, String message) {
-    Get.snackbar(
+    Future.delayed(Duration(microseconds: 100), () => Get.snackbar(
       title,
       message,
       backgroundColor: Colors.black,
       colorText: Colors.white,
       snackPosition: SnackPosition.BOTTOM,
-    );
+    ));
+    
   }
 }
 

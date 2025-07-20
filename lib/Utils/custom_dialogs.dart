@@ -126,7 +126,7 @@ class CustomDialogs {
                     final res = await FirestoreHelper.deleteCurrentUser();
                     if (res) {
                       globalController.prefs?.setString(
-                        AppStrings.userProfile,
+                        AppStrings.userAuthState,
                         "loggedOut",
                       );
                       Get.offAll(() => const LoginSignUp());

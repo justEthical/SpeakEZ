@@ -33,13 +33,19 @@ class AuthService {
       // Return the authenticated user
       return userCredential;
     } catch (e) {
-      globalController.showSnackbarWithGetX('Error', 'Error during Google sign-in: $e');
+      globalController.showSnackbarWithGetX(
+        'Error',
+        'Error during Google sign-in: $e',
+      );
       print("Error during Google sign-in: $e");
       return null;
     }
   }
 
-  static Future<UserCredential?> signUpWithEmail(String email, String password) async {
+  static Future<UserCredential?> signUpWithEmail(
+    String email,
+    String password,
+  ) async {
     try {
       UserCredential userCredential = await FirebaseAuth.instance
           .createUserWithEmailAndPassword(email: email, password: password);
@@ -47,15 +53,23 @@ class AuthService {
       print('Signup successful: ${userCredential.user?.email}');
       return userCredential;
     } on FirebaseAuthException catch (e) {
-      await Future.delayed(Duration(milliseconds: 100));
       if (e.code == 'weak-password') {
-        globalController.showSnackbarWithGetX('Error', 'The password provided is too weak.');
+        globalController.showSnackbarWithGetX(
+          'Error',
+          'The password provided is too weak.',
+        );
         print('The password provided is too weak.');
       } else if (e.code == 'email-already-in-use') {
-        globalController.showSnackbarWithGetX('Error', 'The account already exists for that email.');
+        globalController.showSnackbarWithGetX(
+          'Error',
+          'The account already exists for that email.',
+        );
         print('The account already exists for that email.');
       } else {
-        globalController.showSnackbarWithGetX('Error', 'Signup error: ${e.message}');
+        globalController.showSnackbarWithGetX(
+          'Error',
+          'Signup error: ${e.message}',
+        );
         print('Signup error: ${e.message}');
       }
     } catch (e) {
@@ -65,7 +79,10 @@ class AuthService {
     return null;
   }
 
-  static Future<UserCredential?> loginWithEmail(String email, String password) async {
+  static Future<UserCredential?> loginWithEmail(
+    String email,
+    String password,
+  ) async {
     try {
       UserCredential userCredential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
@@ -74,12 +91,18 @@ class AuthService {
       return userCredential;
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
-        globalController.showSnackbarWithGetX('Error', 'No user found for that email.');  
+        globalController.showSnackbarWithGetX(
+          'Error',
+          'No user found for that email.',
+        );
         print('No user found for that email.');
       } else if (e.code == 'wrong-password') {
         print('Wrong password provided for that user.');
       } else {
-        globalController.showSnackbarWithGetX('Error', 'Login error: ${e.message}');
+        globalController.showSnackbarWithGetX(
+          'Error',
+          'Login error: ${e.message}',
+        );
         print('Login error: ${e.message}');
       }
     } catch (e) {
@@ -96,5 +119,99 @@ class AuthService {
     } catch (e) {
       print("Error during Google sign-out: $e");
     }
+  }
+
+  static Future<bool> reAuthenticateGoogleLogin() async {
+    final FirebaseAuth auth = FirebaseAuth.instance;
+    final User? user = auth.currentUser;
+
+    if (user == null) {
+      print("No user is currently signed in.");
+      globalController.showSnackbarWithGetX(
+        "Error",
+        "No user is currently signed in.",
+      );
+      return false;
+    }
+
+    try {
+      // Step 1: Trigger Google Sign-In flow
+      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+      if (googleUser == null) {
+        print("Google Sign-In cancelled by user.");
+        globalController.showSnackbarWithGetX(
+          "Error",
+          "Google Sign-In cancelled by user.",
+        );
+        return false;
+      }
+
+      // Step 2: Get auth details
+      final GoogleSignInAuthentication googleAuth =
+          await googleUser.authentication;
+
+      // Step 3: Create Firebase credential
+      final AuthCredential credential = GoogleAuthProvider.credential(
+        idToken: googleAuth.idToken,
+        accessToken: googleAuth.accessToken,
+      );
+
+      // Step 4: Reauthenticate
+      await user.reauthenticateWithCredential(credential);
+      print("Reauthentication successful.");
+      return true;
+    } catch (e) {
+      globalController.showSnackbarWithGetX(
+        'Error',
+        'Reauthentication failed: $e',
+      );
+      print("Reauthentication failed: $e");
+      return false;
+    }
+  }
+
+  static Future<bool> reAuthenticateWithEmail({
+    required String email,
+    required String password,
+  }) async {
+    final FirebaseAuth auth = FirebaseAuth.instance;
+    final User? user = auth.currentUser;
+
+    if (user == null) {
+      print("No user is currently signed in.");
+      globalController.showSnackbarWithGetX(
+        "Error",
+        "No user is currently signed in.",
+      );
+      return false;
+    }
+
+    try {
+      // Step 1: Create email credential
+      final AuthCredential credential = EmailAuthProvider.credential(
+        email: email,
+        password: password,
+      );
+
+      // Step 2: Reauthenticate
+      await user.reauthenticateWithCredential(credential);
+
+      print("Reauthentication successful.");
+      return true;
+    } on FirebaseAuthException catch (e) {
+      globalController.showSnackbarWithGetX(
+        "Error",
+        "Reauthentication failed: ${e.message}",
+      );
+      print("FirebaseAuthException: ${e.code} - ${e.message}");
+      // Handle error: wrong-password, user-mismatch, etc.
+    } catch (e) {
+      globalController.showSnackbarWithGetX(
+        "Error",
+        "Error during reauthentication: $e",
+      );
+      print("Error during reauthentication: $e");
+    }
+    return false;
   }
 }

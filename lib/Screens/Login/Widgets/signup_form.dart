@@ -22,7 +22,7 @@ class SignUpForm extends StatelessWidget {
               leadingIcon: AppAssets.user,
               title: "Full Name ",
               isPassword: false,
-              keyBoardType: TextInputType.emailAddress,
+              keyBoardType: TextInputType.name,
             ),
             _gap(),
             CustomTextField(
