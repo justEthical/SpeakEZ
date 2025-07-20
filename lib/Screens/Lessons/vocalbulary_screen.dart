@@ -15,31 +15,42 @@ class VocalbularyScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
     c.currentWordMeaningIndex.value = 0;
-    return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back_ios_new_rounded),
+    c.isBottomSheetOpen = false;
+    return PopScope(
+      canPop: c.isBottomSheetOpen,
+      onPopInvokedWithResult: (res, k){
+        if(!c.isBottomSheetOpen){
+          c.isBottomSheetOpen = true;
+          c.showExitBottomSheet(context); 
+        }
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          leading: IconButton(
+            onPressed: () {
+              c.isBottomSheetOpen = true;
+              c.showExitBottomSheet(context);
+            },
+            icon: const Icon(Icons.arrow_back_ios_new_rounded),
+          ),
+          title: Text(
+            "Vocalbulary",
+            style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
         ),
-        title: Text(
-          "Vocalbulary",
-          style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
-        ),
-      ),
-      body: Container(
-        width: Get.width,
-        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            _progressIndicator(),
-            SizedBox(height: 18),
-            _content(),
-            _bottomButtons(),
-          ],
+        body: Container(
+          width: Get.width,
+          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _progressIndicator(),
+              SizedBox(height: 18),
+              _content(),
+              _bottomButtons(),
+            ],
+          ),
         ),
       ),
     );

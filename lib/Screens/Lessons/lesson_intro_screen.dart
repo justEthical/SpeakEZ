@@ -19,7 +19,7 @@ class LessonIntroScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         leading: InkWell(
           onTap: () {
-            Get.back();
+            Get.back(); 
           },
           child: Container(
             margin: EdgeInsets.all(10),
@@ -42,7 +42,6 @@ class LessonIntroScreen extends StatelessWidget {
             child: Image.asset(AppAssets.cat),
           ),
           SizedBox(width: Get.width, height: 20),
-          
           Text(
             "Welcome to the lesson",
             style: GoogleFonts.poppins(

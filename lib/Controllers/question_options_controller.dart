@@ -9,6 +9,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
+import 'package:speak_ez/Screens/Lessons/Widgets/lessons_exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
@@ -167,20 +168,22 @@ Mistakes are your secret weapon to get better. 💥
 💡 Keep practicing, and you’ll be surprised how fast you improve!''';
   }
 
-  // void showExitBottomSheet(context) {
-  //   showModalBottomSheet(
-  //     context: context,
-  //     showDragHandle: true,
-  //     shape: RoundedRectangleBorder(
-  //       borderRadius: BorderRadius.only(
-  //         topLeft: Radius.circular(20),
-  //         topRight: Radius.circular(20),
-  //       ),
-  //     ),
-  //     isScrollControlled: true,
-  //     builder: (context) => ExitAlertBottomSheet(),
-  //   );
-  // }
+
+var isBottomSheetOpen = false;
+  void showExitBottomSheet(context) {
+    showModalBottomSheet(
+      context: context,
+      showDragHandle: true,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(20),
+          topRight: Radius.circular(20),
+        ),
+      ),
+      isScrollControlled: true,
+      builder: (context) => LessonsExitAlertBottomSheet(),
+    );
+  }
 
   void shouldEnableContinueButton(QuestionType questionType) {
     switch (questionType) {

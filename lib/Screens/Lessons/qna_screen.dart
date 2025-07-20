@@ -15,81 +15,91 @@ class QnaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
-    return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: const Icon(Icons.arrow_back_ios_new_rounded),
+    return PopScope(
+      canPop: c.isBottomSheetOpen,
+      onPopInvokedWithResult: (res, k){
+        if(!c.isBottomSheetOpen){
+          c.isBottomSheetOpen = true;
+          c.showExitBottomSheet(context);
+        }
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          leading: IconButton(
+            onPressed: () {
+              c.isBottomSheetOpen = true;
+              c.showExitBottomSheet(context);
+            },
+            icon: const Icon(Icons.arrow_back_ios_new_rounded),
+          ),
+          title: Text(
+            "Test Your Knowledge",
+            style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
         ),
-        title: Text(
-          "Test Your Knowledge",
-          style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
-        ),
-      ),
-      body: Container(
-        padding: EdgeInsets.all(15),
-        child: Column(
-          children: [
-            ProgressBar(),
-            SizedBox(height: 15),
-            Expanded(
-              child: PageView.builder(
-                controller: c.questionPageController,
-                physics: NeverScrollableScrollPhysics(),
-                itemCount: c.currentQuestionList.length,
-                itemBuilder: (ctx, i) {
-                  final question = c.currentQuestionList[i];
-                  return Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Q${i + 1}. ${question.question}",
-                        textAlign: TextAlign.start,
-                        style: GoogleFonts.poppins(
-                          fontSize: 16,
-                          fontWeight: FontWeight.normal,
+        body: Container(
+          padding: EdgeInsets.all(15),
+          child: Column(
+            children: [
+              ProgressBar(),
+              SizedBox(height: 15),
+              Expanded(
+                child: PageView.builder(
+                  controller: c.questionPageController,
+                  physics: NeverScrollableScrollPhysics(),
+                  itemCount: c.currentQuestionList.length,
+                  itemBuilder: (ctx, i) {
+                    final question = c.currentQuestionList[i];
+                    return Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Q${i + 1}. ${question.question}",
+                          textAlign: TextAlign.start,
+                          style: GoogleFonts.poppins(
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal,
+                          ),
                         ),
-                      ),
-                      SizedBox(height: 10),
-                      TranslationTextView(
-                        text:
-                            c
-                                .currentQuestionList[i]
-                                .questionTranslation!["Hindi"]
-                                .toString(),
-                      ),
-                      question.type == QuestionType.listening
-                          ? ElevatedButton(
-                            style:  ElevatedButton.styleFrom(
-                              backgroundColor: Colors.deepPurple
-                            ),
-                            onPressed: () {
-                              c.ttsHelper.speak(
-                                question.audioText!,
-                              );
-                            },
-                            child: Text(
-                              "Listen 🔊",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          )
-                          : SizedBox(),
-                      Spacer(),
-                      OptionBuilder(question: question),
-                      SizedBox(height: 15),
-                      ContinueButton(
-                        question:
-                            c.currentQuestionList[c.currentQuestionIndex.value],
-                      ),
-                    ],
-                  );
-                },
+                        SizedBox(height: 10),
+                        TranslationTextView(
+                          text:
+                              c
+                                  .currentQuestionList[i]
+                                  .questionTranslation!["Hindi"]
+                                  .toString(),
+                        ),
+                        question.type == QuestionType.listening
+                            ? ElevatedButton(
+                              style:  ElevatedButton.styleFrom(
+                                backgroundColor: Colors.deepPurple
+                              ),
+                              onPressed: () {
+                                c.ttsHelper.speak(
+                                  question.audioText!,
+                                );
+                              },
+                              child: Text(
+                                "Listen 🔊",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            )
+                            : SizedBox(),
+                        Spacer(),
+                        OptionBuilder(question: question),
+                        SizedBox(height: 15),
+                        ContinueButton(
+                          question:
+                              c.currentQuestionList[c.currentQuestionIndex.value],
+                        ),
+                      ],
+                    );
+                  },
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
