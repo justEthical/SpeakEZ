@@ -124,9 +124,11 @@ class QuestionOptionsController extends GetxController {
     isAudioProcessing.value = true;
     sub = isLastChunkTranscribed.listen((val) {
       if (val) {
+        print(transcriptionText.value);
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
         transcriptionText.value = removeBracketedWords(transcriptionText.value);
-        // removing non alphabet characters like !, @, #, %, comma (,) etc  
+        // removing non alphabet characters like !, @, #, %, comma (,) etc 
+        print(transcriptionText.value); 
         transcriptionText.value = removeNonAlphabet(transcriptionText.value);
         print(transcriptionText.value);
 
@@ -272,7 +274,7 @@ Mistakes are your secret weapon to get better. 💥
   }
 
 String removeNonAlphabet(String input) {
-  return input.replaceAll(RegExp(r'[^a-zA-Z]'), '');
+  return input.replaceAll(RegExp(r'[^a-zA-Z\s]'), '');
 }
 
   bool isSpeakingQuestionAccurate(double accuracy){
