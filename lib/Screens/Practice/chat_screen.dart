@@ -52,78 +52,78 @@ class _ChatScreenState extends State<ChatScreen> {
         }
       },
       child: Scaffold(
-        body: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.all(15.0),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Text(
-                      widget.scenarioModel.title,
-                      style: TextStyle(
-                        fontWeight: FontWeight.w800,
-                        fontSize: 24,
-                        // fontFamily: AppStrings.nunitoFont,
-                      ),
-                    ),
-        
-                    Spacer(),
-                    InkWell(
-                      onTap: () {
-                        c.showExitBottomSheet(context);
-                        isBottomSheetOpen = true; 
-                      },
-                      child: Container(
-                        width: 30,
-                        height: 30,
-                        decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Icon(Icons.close, color: Colors.white),
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                ProgressBar(),
-                SizedBox(height: 10),
-                Expanded(
-                  child: Obx(
-                    () => ListView.builder(
-                      controller: c.chatScrollController,
-                      itemCount: c.currentChats.length,
-                      itemBuilder: (ctx, index) {
-                        return ChatBubble(chatModel: c.currentChats[index]);
-                      },
-                    ),
+        appBar: AppBar(
+          elevation: 0,
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          centerTitle: true,
+          title: Text(
+            widget.scenarioModel.title,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.black87,
+            ),
+          ),
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black54),
+            onPressed: () {
+              isBottomSheetOpen = true;
+              c.showExitBottomSheet(context);
+            },
+          ),
+        ),
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          child: Column(
+            children: [
+              const SizedBox(height: 10),
+              ProgressBar(),
+              const SizedBox(height: 20),
+              Expanded(
+                child: Obx(
+                  () => ListView.builder(
+                    controller: c.chatScrollController,
+                    itemCount: c.currentChats.length,
+                    itemBuilder: (ctx, index) {
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: 12.0),
+                        child: ChatBubble(chatModel: c.currentChats[index]),
+                      );
+                    },
                   ),
                 ),
-                SizedBox(height: 10),
-                Obx(
-                  () =>
-                      c.currentUserSessionMessage.value >= c.maxNumberOfAiResponsesPerSession
-                          ? ElevatedButton(
-                            onPressed: () {
-                              Get.off(PracticeResultSreen(result: c.resultModel!,));
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.black,
-                              fixedSize: Size(Get.width, 55),
+              ),
+              const SizedBox(height: 10),
+              Obx(
+                () => c.currentUserSessionMessage.value >=
+                        c.maxNumberOfAiResponsesPerSession
+                    ? Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 8.0),
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Get.off(PracticeResultSreen(
+                              result: c.resultModel!,
+                            ));
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Theme.of(context).primaryColor,
+                            minimumSize: const Size(double.infinity, 50),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
                             ),
-                            child: Text(
-                              "View Results",
-                              style: TextStyle(
-                                fontWeight: FontWeight.w600,
-                                fontSize: 18,
-                              ),
+                          ),
+                          child: const Text(
+                            "View Results",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                              color: Colors.white,
                             ),
-                          )
-                          : ChatScreenBottomBar(),
-                ),
-              ],
-            ),
+                          ),
+                        ),
+                      )
+                    : ChatScreenBottomBar(),
+              ),
+            ],
           ),
         ),
       ),
