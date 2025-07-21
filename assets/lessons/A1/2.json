@@ -5,36 +5,101 @@
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "one", "meaning": "the number 1" },
-      { "word": "two", "meaning": "the number 2" },
-      { "word": "three", "meaning": "the number 3" },
-      { "word": "four", "meaning": "the number 4" },
-      { "word": "five", "meaning": "the number 5" },
-      { "word": "count", "meaning": "to say numbers in order" },
-      { "word": "number", "meaning": "a symbol or word for an amount" }
+      {
+        "word": "Counting",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "the number 1",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "I have one pen.",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      },
+      {
+        "word": "two",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "the number 2",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "There are two cats.",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      },
+      {
+        "word": "three",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "the number 3",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "There are three apples.",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      },
+      {
+        "word": "four",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "the number 4",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "There are four students.",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      },
+      {
+        "word": "five",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "the number 5",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "She has five dogs.",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      },
+      {
+        "word": "count",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "to say numbers in order",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "She can count to ten.",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      },
+      {
+        "word": "number",
+        "word_translation": { "Hindi": "", "Japanese": "" },
+        "meaning": "a symbol or word for an amount",
+        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "examples": [
+          {
+            "sentence": "What number is this?",
+            "translation": { "Hindi": "", "Japanese": "" }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
         "title": "How to use numbers in sentences",
-        "explanation": "Numbers can come before nouns. Example: I have two books."
+        "explanation": "Numbers can come before nouns. Example: I have two books.",
+        "explanation_translation": { "Hindi": "", "Japanese": "" }
       },
       {
         "title": "Singular and plural with numbers",
-        "explanation": "Use a plural noun after numbers greater than one. Example: Three cats."
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "There are four apples.",
-        "translation": ""
-      },
-      {
-        "sentence": "I have one pen.",
-        "translation": ""
-      },
-      {
-        "sentence": "She can count to ten.",
-        "translation": ""
+        "explanation": "Use a plural noun after numbers greater than one. Example: Three cats.",
+        "explanation_translation": { "Hindi": "", "Japanese": "" }
       }
     ]
   },
@@ -44,6 +109,7 @@
         "id": "vocab1",
         "type": "multipleChoice",
         "question": "What number comes after two?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["Three", "One", "Four"],
         "answer": 0
       },
@@ -51,6 +117,7 @@
         "id": "vocab2",
         "type": "fillInTheBlanks",
         "question": "I have ___ apples. (3)",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["one", "three", "five"],
         "answer": 1
       },
@@ -58,6 +125,7 @@
         "id": "vocab3",
         "type": "multipleChoice",
         "question": "Which word means the number 5?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["Two", "Five", "Four"],
         "answer": 1
       },
@@ -65,6 +133,7 @@
         "id": "vocab4",
         "type": "trueFalse",
         "question": "The word 'count' means to say numbers in order.",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["True", "False"],
         "answer": 0
       },
@@ -72,6 +141,7 @@
         "id": "vocab5",
         "type": "multipleChoice",
         "question": "Which is a number?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["Apple", "Four", "Dog"],
         "answer": 1
       }
@@ -81,6 +151,7 @@
         "id": "sent1",
         "type": "fillInTheBlanks",
         "question": "I have ___ dogs. (2)",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["one", "two", "three"],
         "answer": 1
       },
@@ -88,6 +159,7 @@
         "id": "sent2",
         "type": "fillInTheBlanks",
         "question": "There are ___ students in the class. (5)",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["five", "two", "one"],
         "answer": 0
       },
@@ -95,6 +167,7 @@
         "id": "sent3",
         "type": "sentenceRearranging",
         "question": "Arrange: [have, I, books, three]",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["have", "I", "books", "three"],
         "answer": ["I", "have", "three", "books"]
       },
@@ -102,6 +175,7 @@
         "id": "sent4",
         "type": "fillInTheBlanks",
         "question": "He can ___ to ten.",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["sing", "count", "jump"],
         "answer": 1
       },
@@ -109,6 +183,7 @@
         "id": "sent5",
         "type": "sentenceRearranging",
         "question": "Arrange: [four, cats, are, There]",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": ["four", "cats", "are", "There"],
         "answer": ["There", "are", "four", "cats"]
       }
@@ -117,35 +192,45 @@
       {
         "id": "listen1",
         "type": "listening",
-        "question": "How many apples did the speaker say? (Audio: 'There are three apples.')",
+        "question": "How many apples did the speaker say?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
+        "audio_text": "There are three apples.",
         "options": ["One", "Three", "Five"],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "listening",
-        "question": "What number did the speaker say? (Audio: 'Five')",
+        "question": "What number did the speaker say?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
+        "audio_text": "Five",
         "options": ["Two", "Five", "Four"],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "listening",
-        "question": "What can the person do? (Audio: 'I can count to four.')",
+        "question": "What can the person do?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
+        "audio_text": "I can count to four.",
         "options": ["Jump", "Sing", "Count"],
         "answer": 2
       },
       {
         "id": "listen4",
         "type": "listening",
-        "question": "How many pens does she have? (Audio: 'She has one pen.')",
+        "question": "How many pens does she have?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
+        "audio_text": "She has one pen.",
         "options": ["One", "Two", "Four"],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "listening",
-        "question": "How many children are there? (Audio: 'There are two children.')",
+        "question": "How many children are there?",
+        "question_translation": { "Hindi": "", "Japanese": "" },
+        "audio_text": "There are two children.",
         "options": ["One", "Two", "Three"],
         "answer": 1
       }
@@ -155,6 +240,7 @@
         "id": "speak1",
         "type": "speaking",
         "question": "Say: 'I have two books.'",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": [],
         "answer": "I have two books."
       },
@@ -162,6 +248,7 @@
         "id": "speak2",
         "type": "speaking",
         "question": "Say: 'There are five dogs.'",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": [],
         "answer": "There are five dogs."
       },
@@ -169,6 +256,7 @@
         "id": "speak3",
         "type": "speaking",
         "question": "Say: 'He can count to ten.'",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": [],
         "answer": "He can count to ten."
       },
@@ -176,6 +264,7 @@
         "id": "speak4",
         "type": "speaking",
         "question": "Say: 'One, two, three, four, five.'",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": [],
         "answer": "One, two, three, four, five."
       },
@@ -183,6 +272,7 @@
         "id": "speak5",
         "type": "speaking",
         "question": "Say: 'I have one pen.'",
+        "question_translation": { "Hindi": "", "Japanese": "" },
         "options": [],
         "answer": "I have one pen."
       }

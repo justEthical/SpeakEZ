@@ -13,6 +13,8 @@ class LessonIntroScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
+    c.currentQuestionIndex.value = 0;
+    
     c.startWhisperIsolate();
     return Scaffold(
       appBar: AppBar(

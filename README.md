@@ -1,56 +1,114 @@
-# SpeakEZ
 
-SpeakEZ is a Flutter-based mobile application designed to help users improve their English speaking skills. The app provides a variety of lessons and practice exercises, and it uses AI to provide feedback on users' pronunciation and fluency.
+# SpeakEZ - AI English Learning Partner
 
-## Features
+SpeakEZ is a Flutter-based mobile application designed to help users improve their English speaking skills through interactive, AI-powered conversations and structured lessons. The app provides a safe and engaging environment for users to practice speaking in various real-life scenarios and receive instant feedback.
 
-- **User Authentication:** Users can sign up and log in using their email address or Google account.
-- **Onboarding:** New users are taken through an onboarding process to personalize their learning experience.
-- **Lessons:** The app provides a variety of lessons on different topics, such as daily routines, job interviews, and making friends.
-- **Practice Exercises:** Users can practice their speaking skills with a variety of exercises, including role-playing and sentence completion.
-- **AI-Powered Feedback:** The app uses AI to provide feedback on users' pronunciation, fluency, grammar, and vocabulary.
-- **Personalized Learning:** The app tracks users' progress and provides personalized recommendations for improvement.
-- **Gamification:** The app uses gamification to motivate users to keep learning.
+## ✨ Key Features
 
-## Setup
+- **AI Conversation Partner:** Practice speaking with "Natasha," an AI coach, in a variety of real-world scenarios (e.g., job interviews, ordering food).
+- **Structured Lessons:** Follow a curriculum based on CEFR levels (A1-C2), including vocabulary, grammar, and quizzes.
+- **Instant Feedback:** Receive detailed analysis of your speaking performance, including scores for fluency, grammar, vocabulary, and pronunciation.
+- **On-Device Speech Recognition:** Utilizes an offline Whisper model for fast and private speech-to-text transcription.
+- **Personalized Experience:** Onboarding questions tailor the learning path to the user's goals, confidence level, and native language.
+- **Progress Tracking:** Monitor your learning journey with statistics on your current streak and words learned.
+- **Cross-Platform:** Built with Flutter for a consistent experience on both Android and iOS.
 
-To get started with the project, you'll need to have Flutter installed on your machine. You can find instructions on how to install Flutter [here](https://flutter.dev/docs/get-started/install).
+## 🛠️ Tech Stack & Architecture
 
-Once you have Flutter installed, you can clone the project from GitHub and run it on your device or emulator.
+The application is built with a modern tech stack, emphasizing a clean, scalable architecture.
 
-```bash
-git clone https://github.com/your-username/speakez.git
-cd speakez
-flutter run
+- **Framework:** Flutter
+- **Architecture:** MVC-like pattern with clear separation of concerns (Models, Views, Controllers).
+- **State Management:** GetX for dependency injection, route management, and state management.
+- **Backend & Services:**
+  - **Firebase:** Used for authentication (Email/Password, Google Sign-In) and as a database (Cloud Firestore) for user profiles.
+  - **Gemini API:** Powers the AI conversation partner and generates performance feedback.
+- **Speech-to-Text:** Sherpa/ONNX with a Whisper model for efficient on-device transcription.
+- **Key Libraries:**
+  - `dio`: For making network requests to the Gemini API.
+  - `lottie`: For engaging animations.
+  - `permission_handler`: To handle device permissions (microphone).
+  - `record`, `flutter_tts`: For audio recording and text-to-speech capabilities.
+  - `shared_preferences`: For local data persistence.
+
+## 🚀 Getting Started
+
+Follow these instructions to get the project up and running on your local machine.
+
+### Prerequisites
+
+- Flutter SDK (version 3.7.2 or higher)
+- An IDE like VS Code or Android Studio
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/SpeakEZ.git
+    cd SpeakEZ
+    ```
+
+2.  **Set up Firebase:**
+    - Create a new project on the [Firebase Console](https://console.firebase.google.com/).
+    - Add an Android application to your Firebase project with the package name `com.english.learning.speakez.ai`.
+    - Download the `google-services.json` file and place it in the `android/app/` directory.
+
+3.  **Configure Android Signing:**
+    - For release builds, you need to create a `key.properties` file in the `android/` directory with the following content:
+      ```properties
+      storePassword=<YOUR_STORE_PASSWORD>
+      keyPassword=<YOUR_KEY_PASSWORD>
+      keyAlias=<YOUR_KEY_ALIAS>
+      storeFile=<PATH_TO_YOUR_KEYSTORE_FILE>
+      ```
+
+4.  **Install dependencies:**
+    ```sh
+    flutter pub get
+    ```
+
+### Running the Application
+
+- **Run in Debug Mode:**
+  ```sh
+  flutter run
+  ```
+- **Run in Release Mode:**
+  ```sh
+  flutter run --release
+  ```
+
+## 📂 Project Structure
+
+The project is organized into the following main directories:
+
+```
+lib/
+├── Constants/      # App-wide constants (assets, colors, strings)
+├── Controllers/    # GetX controllers for managing state and business logic
+├── Models/         # Data models (UserProfile, Lesson, etc.)
+├── Screens/        # UI screens for different parts of the app
+├── Services/       # Services for auth, database, and network calls
+└── Utils/          # Helper classes and utility functions
+assets/
+├── audio/          # Audio files for lessons
+├── images/         # SVG and PNG images
+├── lessons/        # JSON files defining lesson content
+└── lottie/         # Lottie animation files
 ```
 
-## Dependencies
+## 📦 Building for Production
 
-The project uses the following dependencies:
+To build the application for production, use the following Flutter CLI commands:
 
-- `get` for state management
-- `firebase_core` and `firebase_auth` for user authentication
-- `google_sign_in` for Google sign-in
-- `sherpa_onnx` for speech recognition
-- `flutter_sound` and `record` for audio recording
-- `permission_handler` for requesting permissions
-- `smooth_page_indicator` for onboarding screens
-- `lottie` for animations
-- `shared_preferences` for storing user preferences
-- `url_launcher` for opening URLs
-- `flutter_svg` for using SVG images
-- `google_fonts` for custom fonts
-- `package_info_plus` for getting app information
-- `cached_network_image` for caching network images
-- `flutter_tts` for text-to-speech
-- `flame_audio` for playing audio
-- `speech_to_text` for speech-to-text
-- `archive` for working with zip files
-- `dio` for making HTTP requests
-- `share_plus` for sharing content
-- `scroll_screenshot` for taking screenshots of scrollable content
-- `cloud_firestore` for storing data in the cloud
+- **Android (App Bundle):**
+  ```sh
+  flutter build appbundle --release
+  ```
 
-## Contributing
+- **Android (APK):**
+  ```sh
+  flutter build apk --release
+  ```
 
-Contributions are welcome! If you have any ideas for how to improve the app, please open an issue or submit a pull request.
+Make sure your signing configuration in `android/app/build.gradle.kts` and the `key.properties` file are set up correctly before building.

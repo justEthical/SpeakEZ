@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -15,129 +16,155 @@ class ResultScreen extends StatelessWidget {
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     c.updateLesssonProgress();
+
     return Scaffold(
-      body: SafeArea(
-        child: Stack(
-          children: [
-            SizedBox(
-              width: Get.width,
-              height: Get.height,
-              child: Lottie.asset(
-                AppAssets.confetti,
-                decoder: globalController.customDecoder,
-                repeat: false,
-                fit: BoxFit.cover,
+      body: Stack(
+        children: [
+          // Confetti background animation
+          Lottie.asset(
+            AppAssets.confetti,
+            width: Get.width,
+            height: Get.height,
+            decoder: globalController.customDecoder,
+            repeat: false,
+            fit: BoxFit.cover,
+          ),
+
+          // Main content
+          SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  const Spacer(flex: 2),
+                  _buildHeaderText(),
+                  const SizedBox(height: 16),
+                  _buildResultText(c, accuracy),
+                  const Spacer(flex: 1),
+                  _buildSuccessAnimation(),
+                  const Spacer(flex: 2),
+                  _buildAccuracyCard(context, accuracy),
+                  const SizedBox(height: 24),
+                  _buildDoneButton(),
+                  const Spacer(flex: 1),
+                ],
               ),
             ),
+          ),
+        ],
+      ),
+    );
+  }
 
-            Positioned(
-              bottom: 20,
-              left: 15,
-              child: SafeArea(
-                child: SizedBox(
-                  height: Get.height,
-                  child: Column(
-                    children: [
-                      Spacer(flex: 10),
-                      Text(
-                        "Lesson Completed",
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w800,
-                          color: Colors.black,
-                        ),
-                      ),
-                      Spacer(flex: 10),
-                      SizedBox(
-                        width: Get.width - 30,
-                        child: Text(
-                          c.getResultScreenText(accuracy),
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 17,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                      ),
-                      Spacer(flex: 5),
-                      SizedBox(
-                        width: 200,
-                        height: 200,
-                        child: Lottie.asset(
-                          AppAssets.resultSuccess,
-                          decoder: globalController.customDecoder,
-                          repeat: true,
-                        ),
-                      ),
-                      Spacer(flex: 10),
-                      Container(
-                        width: Get.width - 30,
-                        height: 110,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(
-                            color: Colors.deepPurple,
-                            width: 2,
-                          ),
-                        ),
-                        child: Column(
-                          children: [
-                            Spacer(),
+  Widget _buildHeaderText() {
+    return Text(
+      "Lesson Completed",
+      textAlign: TextAlign.center,
+      style: GoogleFonts.nunito(
+        fontSize: 28,
+        fontWeight: FontWeight.w800,
+        color: Colors.black87,
+      ),
+    );
+  }
 
-                            Text(
-                              "$accuracy%",
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 20,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                            Spacer(),
-                            Container(
-                              width: Get.width - 30,
-                              height: 50,
-                              decoration: BoxDecoration(
-                                color: Colors.deepPurple,
-                                borderRadius: BorderRadius.only(
-                                  bottomLeft: Radius.circular(18),
-                                  bottomRight: Radius.circular(18),
-                                ),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  "YourAccuracy",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      SizedBox(height: 20),
-                      ElevatedButton(
-                        onPressed: () => Get.offAll(() => const TabBarScreen()),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.black,
-                          fixedSize: Size(Get.width - 30, 55),
-                        ),
-                        child: Text(
-                          "Done",
-                          style: TextStyle(color: Colors.white),
-                        ),
-                      ),
-                    ],
+  Widget _buildResultText(QuestionOptionsController c, double accuracy) {
+    return Text(
+      c.getResultScreenText(accuracy),
+      textAlign: TextAlign.center,
+      style: GoogleFonts.nunito(
+        color: Colors.black54,
+        fontSize: 18,
+        fontWeight: FontWeight.w600,
+      ),
+    );
+  }
+
+  Widget _buildSuccessAnimation() {
+    return SizedBox(
+      width: 180,
+      height: 180,
+      child: Lottie.asset(
+        AppAssets.resultSuccess,
+        decoder: globalController.customDecoder,
+        repeat: true,
+      ),
+    );
+  }
+
+  Widget _buildAccuracyCard(BuildContext context, double accuracy) {
+    return Card(
+      elevation: 8,
+      shadowColor: Colors.deepPurple.withOpacity(0.3),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: Container(
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: Colors.deepPurple.withOpacity(0.5),
+              width: 1,
+            ),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 24.0),
+                child: Text(
+                  "${accuracy.toStringAsFixed(0)}%",
+                  style: GoogleFonts.nunito(
+                    color: Colors.deepPurple,
+                    fontSize: 36,
+                    fontWeight: FontWeight.w900,
                   ),
                 ),
               ),
-            ),
-          ],
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                decoration: const BoxDecoration(
+                  color: Colors.deepPurple,
+                ),
+                child: Center(
+                  child: Text(
+                    "Accuracy",
+                    style: GoogleFonts.nunito(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildDoneButton() {
+    return ElevatedButton(
+      onPressed: () => Get.offAll(() => const TabBarScreen()),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.black,
+        fixedSize: const Size(double.infinity, 55),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(15),
+        ),
+        textStyle: GoogleFonts.nunito(
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      child: const Text(
+        "Done",
+        style: TextStyle(color: Colors.white),
       ),
     );
   }

@@ -208,6 +208,7 @@ var isBottomSheetOpen = false;
 
   void buildQnaList(Lesson lesson) {
     final tmpArray = [];
+    currentQuestionList.clear();
     while (tmpArray.length < 3) {
       final random = Random();
       int randomNumber = random.nextInt(5);

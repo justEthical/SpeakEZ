@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 
 class CurrentLessonProgress extends StatelessWidget {
   const CurrentLessonProgress({super.key});
 
   @override
-  Widget build(BuildContext context) {    return Stack(
+  Widget build(BuildContext context) {
+    return Stack(
       children: [
         Container(
           height: 10,
@@ -23,8 +25,16 @@ class CurrentLessonProgress extends StatelessWidget {
             duration: Duration(milliseconds: 300),
             width:
                 (Get.width - 54) /
-                5 *
-                (globalController.userProfile.value.currentEnglishLevelProgress),
+                AppData
+                    .lessonNames[globalController
+                        .userProfile
+                        .value
+                        .currentEnglishLevel]!
+                    .length *
+                (globalController
+                    .userProfile
+                    .value
+                    .currentEnglishLevelProgress),
 
             height: 10,
             decoration: BoxDecoration(

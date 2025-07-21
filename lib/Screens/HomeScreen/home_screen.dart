@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
@@ -83,7 +84,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     title: "Current Streak",
                     icon: AppAssets.flame,
                     iconColor: Colors.deepOrange,
-                    progress: "${globalController.userProfile.value.currentStreak} days",
+                    progress:
+                        "${globalController.userProfile.value.currentStreak} days",
                   ),
                   SizedBox(width: 20),
                   SteakAndProgressCard(
@@ -136,7 +138,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         Spacer(),
-                        Text("${ globalController.userProfile.value.currentEnglishLevelProgress/5 * 100}%"),
+                        Text(
+                          "${globalController.userProfile.value.currentEnglishLevelProgress / AppData.lessonNames[globalController.userProfile.value.currentEnglishLevel]!.length * 100}%",
+                        ),
                       ],
                     ),
 
@@ -149,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         CustomLoader.showLoader();
                         final lesson = await c.setCurrentLesson();
                         CustomLoader.hideLoader();
-                        Get.to(LessonIntroScreen(lesson: lesson,));
+                        Get.to(LessonIntroScreen(lesson: lesson));
                       },
                       style: ElevatedButton.styleFrom(
                         fixedSize: Size(Get.width, 50),
