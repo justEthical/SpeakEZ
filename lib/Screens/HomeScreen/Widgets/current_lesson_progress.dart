@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 
@@ -8,42 +7,20 @@ class CurrentLessonProgress extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          height: 10,
-          width: Get.width - 54,
-          decoration: BoxDecoration(
-            color: Color.fromARGB(255, 232, 196, 255),
-            borderRadius: BorderRadius.circular(15),
-          ),
-        ),
-        Positioned(
-          top: 0,
-          left: 0,
-          child: AnimatedContainer(
-            duration: Duration(milliseconds: 300),
-            width:
-                (Get.width - 54) /
-                AppData
-                    .lessonNames[globalController
-                        .userProfile
-                        .value
-                        .currentEnglishLevel]!
-                    .length *
-                (globalController
-                    .userProfile
-                    .value
-                    .currentEnglishLevelProgress),
+    final userProfile = globalController.userProfile.value;
+    final lessonNames = AppData.lessonNames[userProfile.currentEnglishLevel] ?? [];
+    final progress = lessonNames.isNotEmpty
+        ? (userProfile.currentEnglishLevelProgress / lessonNames.length)
+        : 0.0;
 
-            height: 10,
-            decoration: BoxDecoration(
-              color: Color.fromARGB(255, 75, 10, 120),
-              borderRadius: BorderRadius.circular(15),
-            ),
-          ),
-        ),
-      ],
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(10),
+      child: LinearProgressIndicator(
+        value: progress,
+        minHeight: 10,
+        backgroundColor: Colors.white.withOpacity(0.2),
+        valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
+      ),
     );
   }
 }
