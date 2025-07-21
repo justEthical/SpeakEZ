@@ -112,7 +112,7 @@ class AuthService {
     return null;
   }
 
-  static Future<void> signOutGoogle() async {
+  static Future<void> logout() async {
     try {
       await _googleSignIn.signOut();
       await _auth.signOut();

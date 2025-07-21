@@ -28,7 +28,7 @@ class CustomDialogs {
               children: [
                 ElevatedButton(
                   onPressed: () async{
-                    AuthService.signOutGoogle();
+                    AuthService.logout();
                     await globalController.prefs?.clear();
                     globalController.prefs?.setString(
                       AppStrings.userAuthState,

@@ -10,11 +10,6 @@ class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
 
   @override
-  /// A widget that displays a result screen.
-  /// The widget contains a stack with confetti at the background.
-  /// There is a text with the result at the top, and a column
-  /// at the bottom with an owl animation, a container with a
-  /// percentage and a button at the end.
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
@@ -70,7 +65,7 @@ class ResultScreen extends StatelessWidget {
                         width: 200,
                         height: 200,
                         child: Lottie.asset(
-                          AppAssets.owl,
+                          AppAssets.resultSuccess,
                           decoder: globalController.customDecoder,
                           repeat: true,
                         ),

@@ -8,7 +8,7 @@ class AppAssets {
   static String get onboaring3 => _getFullLottiePath("second.lottie");
   static String get exitAlert => _getFullLottiePath("exit_alert.lottie");
   static String get confetti => _getFullLottiePath("confetti.lottie");
-  static String get owl => _getFullLottiePath("owl.lottie");
+  static String get resultSuccess => _getFullLottiePath("success.lottie");
   static String get correctAnswer => _getFullLottiePath("correct.lottie");
   static String get wrongAnswer => _getFullLottiePath("wrong.lottie");
   static String get chatting => _getFullLottiePath("chating.lottie");
