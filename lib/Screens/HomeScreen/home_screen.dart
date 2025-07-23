@@ -96,15 +96,7 @@ class _ProgressSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            "Your Progress",
-            style: GoogleFonts.nunito(
-              fontSize: 20,
-              fontWeight: FontWeight.w700,
-              color: Colors.black.withOpacity(0.7),
-            ),
-          ),
-          const SizedBox(height: 15),
+
           Obx(() => Row(
                 children: [
                   _buildProgressCard(
@@ -327,7 +319,7 @@ class _LearnByLevelSection extends StatelessWidget {
         ),
         const SizedBox(height: 15),
         SizedBox(
-          height: 150, // Give a fixed height to the horizontal list
+          height: 120, // Give a fixed height to the horizontal list
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: levels.length,

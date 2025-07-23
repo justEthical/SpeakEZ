@@ -22,7 +22,7 @@ class EnglishLevelContainer extends StatelessWidget {
     return InkWell(
       onTap: isLocked ? null : () => Get.to(() => const ListOfLessons()),
       child: Container(
-        width: 120, // Fixed width for horizontal scrolling
+        width: 100, // Fixed width for horizontal scrolling
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           gradient: LinearGradient(
