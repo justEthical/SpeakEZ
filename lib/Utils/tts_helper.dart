@@ -20,6 +20,7 @@ class TextToSpeechService {
   });
 
   await _tts.speak(text);
+  print("Heloooooooooo");
   await completer.future;
 }
 

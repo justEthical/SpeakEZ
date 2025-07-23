@@ -28,7 +28,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
   var transcriptionText = "".obs;
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = 5;
+  var maxNumberOfAiResponsesPerSession = 1;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -263,6 +263,7 @@ class PracticeController extends GetxController {
     recorder.stop();
     _timer?.cancel();
     isRecordingInProgress.value = false;
+    isSpeaking.value = true; // just to disable mic button while transcribing
     currentChats.remove(currentChats.last);
     transcriptionText.value = "";
     remainingSeconds.value = 30;
