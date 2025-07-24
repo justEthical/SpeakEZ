@@ -1,105 +1,219 @@
 {
-  "id": "lesson_numbers_counting_001",
-  "lesson_name": "Numbers & Counting",
+  "id": "lesson_numbers_all_001",
+  "lesson_name": "Numbers & Counting (Complete)",
   "purpose": "All",
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
       {
-        "word": "Counting",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "the number 1",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "counting from 1 to 10",
+        "word_translation": {
+          "Hindi": "१ से १० तक गिनती",
+          "Japanese": "1から10まで数えること"
+        },
+        "meaning": "Saying numbers in order from one to ten.",
+        "meaning_translation": {
+          "Hindi": "एक से दस तक संख्याओं को क्रम में बोलना।",
+          "Japanese": "1から10まで順番に数字を言うこと。"
+        },
         "examples": [
           {
-            "sentence": "I have one pen.",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "Let's count from one to ten:\n\n one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10.",
+            "translation": {
+              "Hindi": "आओ एक से दस तक गिनती करें:\n\n एक: 1, दो: 2, तीन: 3, चार: 4, पाँच: 5, छह: 6, सात: 7, आठ: 8, नौ: 9, दस: 10।",
+              "Japanese": "1から10まで数えましょう:\n\n 1: one, 2: two, 3: three, 4: four, 5: five, 6: six, 7: seven, 8: eight, 9: nine, 10: ten。"
+            }
           }
         ]
       },
       {
-        "word": "two",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "the number 2",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "Counting From 11 to 12",
+        "word_translation": {
+          "Hindi": "११ से २० तक गिनती",
+          "Japanese": "11から20まで数えること"
+        },
+        "meaning": "Let's count from eleven to twenty: eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20",
+        "meaning_translation": {
+          "Hindi": "आइए ग्यारह से बीस तक गिनती करें: ग्यारह: 11, बारह: 12, तेरह: 13, चौदह: 14, पंद्रह: 15, सोलह: 16, सत्रह: 17, अठारह: 18, उन्नीस: 19, बीस: 20।",
+          "Japanese": "11から20まで数えましょう：11: eleven, 12: twelve, 13: thirteen, 14: fourteen, 15: fifteen, 16: sixteen, 17: seventeen, 18: eighteen, 19: nineteen, 20: twenty。"
+        },
         "examples": [
           {
-            "sentence": "There are two cats.",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "She is eleven years old.",
+            "translation": {
+              "Hindi": "वह ग्यारह साल की है।",
+              "Japanese": "彼女は11歳です。"
+            }
           }
         ]
       },
       {
-        "word": "three",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "the number 3",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "Counting by Tens: 10 to 100",
+        "word_translation": {
+          "Hindi": "दशकों में गिनना: 10 से 100",
+          "Japanese": "10から100まで10ずつ数えること"
+        },
+        "meaning": "Let's count by tens: ten: 10, twenty: 20, thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90, one hundred: 100.",
+        "meaning_translation": {
+          "Hindi": "आइए दस-दस करके गिनती करें: दस: 10, बीस: 20, तीस: 30, चालीस: 40, पचास: 50, साठ: 60, सत्तर: 70, अस्सी: 80, नब्बे: 90, सौ: 100।",
+          "Japanese": "10ずつ数えましょう：10: ten, 20: twenty, 30: thirty, 40: forty, 50: fifty, 60: sixty, 70: seventy, 80: eighty, 90: ninety, 100: one hundred。"
+        },
         "examples": [
           {
-            "sentence": "There are three apples.",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "We count by tens: ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred.",
+            "translation": {
+              "Hindi": "हम दस-दस करके गिनते हैं: दस, बीस, तीस, चालीस, पचास, साठ, सत्तर, अस्सी, नब्बे, सौ।",
+              "Japanese": "10ずつ数えます: ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred。"
+            }
           }
         ]
       },
       {
-        "word": "four",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "the number 4",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "thousand",
+        "word_translation": {
+          "Hindi": "हज़ार",
+          "Japanese": "千"
+        },
+        "meaning": "the number 1,000",
+        "meaning_translation": {
+          "Hindi": "संख्या 1,000",
+          "Japanese": "数 1,000"
+        },
         "examples": [
           {
-            "sentence": "There are four students.",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "The city has one thousand houses.",
+            "translation": {
+              "Hindi": "शहर में एक हज़ार घर हैं।",
+              "Japanese": "その都市には千の家があります。"
+            }
           }
         ]
       },
       {
-        "word": "five",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "the number 5",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "million",
+        "word_translation": {
+          "Hindi": "दस लाख",
+          "Japanese": "百万"
+        },
+        "meaning": "the number 1,000,000",
+        "meaning_translation": {
+          "Hindi": "संख्या 1,000,000",
+          "Japanese": "数 1,000,000"
+        },
         "examples": [
           {
-            "sentence": "She has five dogs.",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "One million people live in this city.",
+            "translation": {
+              "Hindi": "इस शहर में दस लाख लोग रहते हैं।",
+              "Japanese": "この都市には100万人が住んでいます。"
+            }
           }
         ]
       },
       {
-        "word": "count",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "to say numbers in order",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "billion",
+        "word_translation": {
+          "Hindi": "एक अरब",
+          "Japanese": "十億"
+        },
+        "meaning": "the number 1,000,000,000",
+        "meaning_translation": {
+          "Hindi": "संख्या 1,000,000,000",
+          "Japanese": "数 1,000,000,000"
+        },
         "examples": [
           {
-            "sentence": "She can count to ten.",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "The world has over seven billion people.",
+            "translation": {
+              "Hindi": "दुनिया में सात अरब से अधिक लोग हैं।",
+              "Japanese": "世界には70億人以上がいます。"
+            }
           }
         ]
       },
       {
-        "word": "number",
-        "word_translation": { "Hindi": "", "Japanese": "" },
-        "meaning": "a symbol or word for an amount",
-        "meaning_translation": { "Hindi": "", "Japanese": "" },
+        "word": "some",
+        "word_translation": {
+          "Hindi": "कुछ",
+          "Japanese": "いくつかの"
+        },
+        "meaning": "an unspecified amount or number of things",
+        "meaning_translation": {
+          "Hindi": "अस्पष्ट संख्या या मात्रा",
+          "Japanese": "不特定の量または数のもの"
+        },
         "examples": [
           {
-            "sentence": "What number is this?",
-            "translation": { "Hindi": "", "Japanese": "" }
+            "sentence": "I have some apples.",
+            "translation": {
+              "Hindi": "मेरे पास कुछ सेब हैं।",
+              "Japanese": "私はいくつかのリンゴを持っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "many",
+        "word_translation": {
+          "Hindi": "बहुत",
+          "Japanese": "たくさんの"
+        },
+        "meaning": "a large number of",
+        "meaning_translation": {
+          "Hindi": "बहुत अधिक संख्या",
+          "Japanese": "多くの数"
+        },
+        "examples": [
+          {
+            "sentence": "There are many students in the class.",
+            "translation": {
+              "Hindi": "कक्षा में बहुत छात्र हैं।",
+              "Japanese": "クラスには多くの生徒がいます。"
+            }
           }
         ]
       }
     ],
     "grammar_tips": [
       {
-        "title": "How to use numbers in sentences",
-        "explanation": "Numbers can come before nouns. Example: I have two books.",
-        "explanation_translation": { "Hindi": "", "Japanese": "" }
+        "title": "Counting from 1 to 20",
+        "explanation": "The numbers from 1 to 20 are: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.",
+        "explanation_translation": {
+          "Hindi": "1 से 20 तक की संख्याएँ हैं: एक, दो, तीन, चार, पाँच, छह, सात, आठ, नौ, दस, ग्यारह, बारह, तेरह, चौदह, पंद्रह, सोलह, सत्रह, अठारह, उन्नीस, बीस।",
+          "Japanese": "1から20までの数字は: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twentyです。"
+        }
       },
       {
-        "title": "Singular and plural with numbers",
-        "explanation": "Use a plural noun after numbers greater than one. Example: Three cats.",
-        "explanation_translation": { "Hindi": "", "Japanese": "" }
+        "title": "Tens and Units (21–99)",
+        "explanation": "Numbers from 21 to 99 are made by saying the tens word, then the unit word. Example: 21 = twenty-one, 46 = forty-six.",
+        "explanation_translation": {
+          "Hindi": "21 से 99 तक की संख्याएँ दशकों के शब्द के बाद इकाई के शब्द को बोलकर बनाई जाती हैं। उदाहरण: 21 = इक्कीस, 46 = छियालीस।",
+          "Japanese": "21から99までの数字は、十の単語の後に一の単語を言って作られます。例：21 = twenty-one、46 = forty-six。"
+        }
+      },
+      {
+        "title": "Hundreds, Thousands, Millions",
+        "explanation": "For large numbers, say the number of hundreds, thousands, or millions, then the rest. Example: 120 = one hundred twenty; 1,300 = one thousand three hundred.",
+        "explanation_translation": {
+          "Hindi": "बड़ी संख्याओं के लिए, पहले सैकड़ों, हज़ारों, या लाखों की संख्या बोलें, फिर बाकी। उदाहरण: 120 = एक सौ बीस; 1,300 = एक हज़ार तीन सौ।",
+          "Japanese": "大きな数字の場合、最初に百、千、または百万の数を言い、その後残りを言います。例：120 = one hundred twenty、1,300 = one thousand three hundred。"
+        }
+      },
+      {
+        "title": "Quantifiers",
+        "explanation": "Use quantifiers like 'some' and 'many' to talk about amounts when you do not want to give a specific number.",
+        "explanation_translation": {
+          "Hindi": "'कुछ' और 'बहुत' जैसे क्वांटिफायर का उपयोग उस समय करें जब आप कोई विशिष्ट संख्या नहीं देना चाहते।",
+          "Japanese": "特定の数を言いたくないときは、「some」や「many」などの量詞を使います。"
+        }
+      },
+      {
+        "title": "How to Read Large Numbers",
+        "explanation": "Break large numbers into groups. Example: 1024 = one thousand twenty-four; 111,000 = one hundred eleven thousand.",
+        "explanation_translation": {
+          "Hindi": "बड़ी संख्याओं को समूहों में विभाजित करें। उदाहरण: 1024 = एक हज़ार चौबीस; 111,000 = एक लाख ग्यारह हज़ार।",
+          "Japanese": "大きな数字はグループに分けて読みます。例：1024 = one thousand twenty-four、111,000 = one hundred eleven thousand。"
+        }
       }
     ]
   },
@@ -108,173 +222,310 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "What number comes after two?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["Three", "One", "Four"],
+        "question": "Which word means the number 100?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 100 की संख्या का अर्थ है?",
+          "Japanese": "どの単語が数字100を意味しますか？"
+        },
+        "options": [
+          "Hundred",
+          "Million",
+          "Thousand"
+        ],
         "answer": 0
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "I have ___ apples. (3)",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["one", "three", "five"],
-        "answer": 1
+        "question": "There are ___ days in a week.",
+        "question_translation": {
+          "Hindi": "एक सप्ताह में ___ दिन होते हैं।",
+          "Japanese": "1週間に___日あります。"
+        },
+        "options": [
+          "seven",
+          "ten",
+          "twelve"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means the number 5?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["Two", "Five", "Four"],
-        "answer": 1
+        "type": "trueFalse",
+        "question": "The number after nine is ten.",
+        "question_translation": {
+          "Hindi": "नौ के बाद की संख्या दस है।",
+          "Japanese": "9の次の数字は10です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab4",
-        "type": "trueFalse",
-        "question": "The word 'count' means to say numbers in order.",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["True", "False"],
+        "type": "multipleChoice",
+        "question": "Which of these is a quantifier?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन एक क्वांटिफायर (मात्रा सूचक) है?",
+          "Japanese": "これらのうち、どれが量詞ですか？"
+        },
+        "options": [
+          "Many",
+          "Twenty",
+          "Million"
+        ],
         "answer": 0
       },
       {
         "id": "vocab5",
         "type": "multipleChoice",
-        "question": "Which is a number?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["Apple", "Four", "Dog"],
-        "answer": 1
+        "question": "How do you say '12' in English?",
+        "question_translation": {
+          "Hindi": "'12' को अंग्रेज़ी में कैसे कहते हैं?",
+          "Japanese": "「12」は英語で何と言いますか？"
+        },
+        "options": [
+          "Twelve",
+          "Twentieth",
+          "Twice"
+        ],
+        "answer": 0
       }
     ],
     "sentence": [
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "I have ___ dogs. (2)",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["one", "two", "three"],
-        "answer": 1
-      },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "There are ___ students in the class. (5)",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["five", "two", "one"],
+        "question": "There are ___ months in a year.",
+        "question_translation": {
+          "Hindi": "एक साल में ___ महीने होते हैं।",
+          "Japanese": "1年に___ヶ月あります。"
+        },
+        "options": [
+          "twelve",
+          "twenty",
+          "ten"
+        ],
         "answer": 0
       },
       {
-        "id": "sent3",
+        "id": "sent2",
         "type": "sentenceRearranging",
-        "question": "Arrange: [have, I, books, three]",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["have", "I", "books", "three"],
-        "answer": ["I", "have", "three", "books"]
+        "question": "Arrange the words: [books, many, I, have]",
+        "question_translation": {
+          "Hindi": "शब्दों को सही क्रम में लगाएँ: [books, many, I, have]",
+          "Japanese": "単語を並び替えてください: [books, many, I, have]"
+        },
+        "options": [
+          "books",
+          "many",
+          "I",
+          "have"
+        ],
+        "answer": [
+          "I",
+          "have",
+          "many",
+          "books"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "My sister is ___ years old. (eleven)",
+        "question_translation": {
+          "Hindi": "मेरी बहन ___ वर्ष की है। (ग्यारह)",
+          "Japanese": "私の妹は___歳です。（11）"
+        },
+        "options": [
+          "eleven",
+          "one",
+          "hundred"
+        ],
+        "answer": 0
       },
       {
         "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "He can ___ to ten.",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["sing", "count", "jump"],
-        "answer": 1
+        "type": "sentenceRearranging",
+        "question": "Arrange the words: [are, in, people, city, million, the, one]",
+        "question_translation": {
+          "Hindi": "शब्दों को सही क्रम में लगाएँ: [are, in, people, city, million, the, one]",
+          "Japanese": "単語を並び替えてください: [are, in, people, city, million, the, one]"
+        },
+        "options": [
+          "are",
+          "in",
+          "people",
+          "city",
+          "million",
+          "the",
+          "one"
+        ],
+        "answer": [
+          "One",
+          "million",
+          "people",
+          "are",
+          "in",
+          "the",
+          "city"
+        ]
       },
       {
         "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [four, cats, are, There]",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "options": ["four", "cats", "are", "There"],
-        "answer": ["There", "are", "four", "cats"]
+        "type": "fillInTheBlanks",
+        "question": "I see ___ stars in the sky. (many)",
+        "question_translation": {
+          "Hindi": "मैं आकाश में ___ सितारे देखता हूँ। (बहुत)",
+          "Japanese": "私は空に___個の星が見えます。（たくさん）"
+        },
+        "options": [
+          "many",
+          "seven",
+          "hundred"
+        ],
+        "answer": 0
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "How many apples did the speaker say?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "audio_text": "There are three apples.",
-        "options": ["One", "Three", "Five"],
-        "answer": 1
+        "question_translation": {
+          "Hindi": "वक्ता ने कितने सेब बताए?",
+          "Japanese": "話者はリンゴがいくつあると言いましたか？"
+        },
+        "audio_text": "There are fourteen apples.",
+        "options": [
+          "Fourteen",
+          "Forty",
+          "Four"
+        ],
+        "answer": 0
       },
       {
         "id": "listen2",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "What number did the speaker say?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "audio_text": "Five",
-        "options": ["Two", "Five", "Four"],
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा नंबर बताया?",
+          "Japanese": "話者は何番を言いましたか？"
+        },
+        "audio_text": "Seventy-six",
+        "options": [
+          "Sixteen",
+          "Seventy-six",
+          "Sixty-seven"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "What can the person do?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "audio_text": "I can count to four.",
-        "options": ["Jump", "Sing", "Count"],
-        "answer": 2
-      },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "How many pens does she have?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "audio_text": "She has one pen.",
-        "options": ["One", "Two", "Four"],
+        "question_translation": {
+          "Hindi": "व्यक्ति क्या कर सकता है?",
+          "Japanese": "その人は何ができますか？"
+        },
+        "audio_text": "I can count to ninety.",
+        "options": [
+          "Count",
+          "Run",
+          "Jump"
+        ],
         "answer": 0
       },
       {
-        "id": "listen5",
-        "type": "listening",
-        "question": "How many children are there?",
-        "question_translation": { "Hindi": "", "Japanese": "" },
-        "audio_text": "There are two children.",
-        "options": ["One", "Two", "Three"],
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How many students are in the hall?",
+        "question_translation": {
+          "Hindi": "हॉल में कितने छात्र हैं?",
+          "Japanese": "ホールに生徒は何人いますか？"
+        },
+        "audio_text": "There are one hundred students.",
+        "options": [
+          "One thousand",
+          "One hundred",
+          "One million"
+        ],
         "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "How many people live in this city?",
+        "question_translation": {
+          "Hindi": "इस शहर में कितने लोग रहते हैं?",
+          "Japanese": "この都市には何人住んでいますか？"
+        },
+        "audio_text": "One million people live in this city.",
+        "options": [
+          "One thousand",
+          "One hundred",
+          "One million"
+        ],
+        "answer": 2
       }
     ],
     "speaking": [
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'I have two books.'",
-        "question_translation": { "Hindi": "", "Japanese": "" },
+        "question": "Say: 'I have twenty books.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे पास बीस किताबें हैं।'",
+          "Japanese": "「私は二十冊の本を持っています」と言ってください。"
+        },
         "options": [],
-        "answer": "I have two books."
+        "answer": "I have twenty books."
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Say: 'There are five dogs.'",
-        "question_translation": { "Hindi": "", "Japanese": "" },
+        "question": "Say: 'There are twelve students in the class.'",
+        "question_translation": {
+          "Hindi": "कहें: 'कक्षा में बारह छात्र हैं।'",
+          "Japanese": "「クラスには12人の生徒がいます」と言ってください。"
+        },
         "options": [],
-        "answer": "There are five dogs."
+        "answer": "There are twelve students in the class."
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'He can count to ten.'",
-        "question_translation": { "Hindi": "", "Japanese": "" },
+        "question": "Say: 'My friend is eleven years old.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा दोस्त ग्यारह साल का है।'",
+          "Japanese": "「私の友達は11歳です」と言ってください。"
+        },
         "options": [],
-        "answer": "He can count to ten."
+        "answer": "My friend is eleven years old."
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Say: 'One, two, three, four, five.'",
-        "question_translation": { "Hindi": "", "Japanese": "" },
+        "question": "Say: 'We see many birds on the tree.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम पेड़ पर कई पक्षी देखते हैं।'",
+          "Japanese": "「私たちは木の上にたくさんの鳥を見ます」と言ってください。"
+        },
         "options": [],
-        "answer": "One, two, three, four, five."
+        "answer": "We see many birds on the tree."
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Say: 'I have one pen.'",
-        "question_translation": { "Hindi": "", "Japanese": "" },
+        "question": "Say: 'There are one hundred houses in this town.'",
+        "question_translation": {
+          "Hindi": "कहें: 'इस नगर में सौ घर हैं।'",
+          "Japanese": "「この町には100軒の家があります」と言ってください。"
+        },
         "options": [],
-        "answer": "I have one pen."
+        "answer": "There are one hundred houses in this town."
       }
     ]
   }

@@ -1,4 +1,473 @@
 {
-  "id": 12,
-  "message": "This is file number 12"
+  "id": "lesson_rooms_furniture_001",
+  "lesson_name": "Rooms & Furniture",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "living room",
+        "word_translation": {
+          "Hindi": "बैठक कक्ष",
+          "Japanese": "居間"
+        },
+        "meaning": "the room where you relax and talk with family or guests",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप परिवार या मेहमानों के साथ आराम करते हैं",
+          "Japanese": "家族やゲストとくつろぐ部屋"
+        },
+        "examples": [
+          {
+            "sentence": "There is a sofa in the living room.",
+            "translation": {
+              "Hindi": "बैठक कक्ष में एक सोफ़ा है।",
+              "Japanese": "居間にソファがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bedroom",
+        "word_translation": {
+          "Hindi": "शयनकक्ष",
+          "Japanese": "寝室"
+        },
+        "meaning": "the room where you sleep",
+        "meaning_translation": {
+          "Hindi": "वह कमरा जहाँ आप सोते हैं",
+          "Japanese": "寝る部屋"
+        },
+        "examples": [
+          {
+            "sentence": "My bed is in the bedroom.",
+            "translation": {
+              "Hindi": "मेरा बिस्तर शयनकक्ष में है।",
+              "Japanese": "ベッドは寝室にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "kitchen",
+        "word_translation": {
+          "Hindi": "रसोईघर",
+          "Japanese": "台所"
+        },
+        "meaning": "the room where you cook and prepare food",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप खाना बनाते हैं",
+          "Japanese": "料理を作る部屋"
+        },
+        "examples": [
+          {
+            "sentence": "The fridge is in the kitchen.",
+            "translation": {
+              "Hindi": "फ्रिज रसोईघर में है।",
+              "Japanese": "冷蔵庫は台所にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bathroom",
+        "word_translation": {
+          "Hindi": "बाथरूम",
+          "Japanese": "お風呂場"
+        },
+        "meaning": "the room where you wash and shower",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप नहाते या साफ-सफाई करते हैं",
+          "Japanese": "体を洗う部屋"
+        },
+        "examples": [
+          {
+            "sentence": "There is a mirror in the bathroom.",
+            "translation": {
+              "Hindi": "बाथरूम में एक आईना है।",
+              "Japanese": "お風呂場に鏡があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sofa",
+        "word_translation": {
+          "Hindi": "सोफ़ा",
+          "Japanese": "ソファ"
+        },
+        "meaning": "a large, soft seat for two or more people",
+        "meaning_translation": {
+          "Hindi": "दो या अधिक लोगों के बैठने के लिए बड़ा, मुलायम सीट",
+          "Japanese": "2人以上が座れる柔らかい椅子"
+        },
+        "examples": [
+          {
+            "sentence": "We watch TV on the sofa.",
+            "translation": {
+              "Hindi": "हम सोफ़ा पर टीवी देखते हैं।",
+              "Japanese": "私たちはソファでテレビを見ます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bed",
+        "word_translation": {
+          "Hindi": "बिस्तर",
+          "Japanese": "ベッド"
+        },
+        "meaning": "a piece of furniture you sleep on",
+        "meaning_translation": {
+          "Hindi": "जिस पर आप सोते हैं वह फर्नीचर",
+          "Japanese": "寝るための家具"
+        },
+        "examples": [
+          {
+            "sentence": "The bed is soft and comfortable.",
+            "translation": {
+              "Hindi": "बिस्तर नरम और आरामदायक है।",
+              "Japanese": "ベッドは柔らかくて気持ちいいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "table",
+        "word_translation": {
+          "Hindi": "मेज़",
+          "Japanese": "テーブル"
+        },
+        "meaning": "a piece of furniture with a flat top and legs",
+        "meaning_translation": {
+          "Hindi": "एक समतल ऊपरी सतह और पैरों वाली वस्तु",
+          "Japanese": "平らな天板と足のある家具"
+        },
+        "examples": [
+          {
+            "sentence": "We eat dinner at the table.",
+            "translation": {
+              "Hindi": "हम मेज़ पर रात का खाना खाते हैं।",
+              "Japanese": "私たちはテーブルで夕食を食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "chair",
+        "word_translation": {
+          "Hindi": "कुर्सी",
+          "Japanese": "椅子"
+        },
+        "meaning": "a seat for one person, usually with a back",
+        "meaning_translation": {
+          "Hindi": "एक व्यक्ति के बैठने के लिए पीठ वाली सीट",
+          "Japanese": "背もたれ付きの一人用の座席"
+        },
+        "examples": [
+          {
+            "sentence": "There are four chairs around the table.",
+            "translation": {
+              "Hindi": "मेज़ के चारों ओर चार कुर्सियाँ हैं।",
+              "Japanese": "テーブルの周りに椅子が4つあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wardrobe",
+        "word_translation": {
+          "Hindi": "अलमारी",
+          "Japanese": "たんす"
+        },
+        "meaning": "a large piece of furniture for storing clothes",
+        "meaning_translation": {
+          "Hindi": "कपड़े रखने के लिए बड़ी अलमारी",
+          "Japanese": "服をしまうための大きな家具"
+        },
+        "examples": [
+          {
+            "sentence": "My clothes are in the wardrobe.",
+            "translation": {
+              "Hindi": "मेरे कपड़े अलमारी में हैं।",
+              "Japanese": "私の服はたんすに入っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lamp",
+        "word_translation": {
+          "Hindi": "लैंप",
+          "Japanese": "ランプ"
+        },
+        "meaning": "an electric light that you can move and put on a table",
+        "meaning_translation": {
+          "Hindi": "एक विद्युत लैंप जिसे आप मेज़ पर रख सकते हैं",
+          "Japanese": "テーブルに置ける電気のライト"
+        },
+        "examples": [
+          {
+            "sentence": "There is a lamp beside my bed.",
+            "translation": {
+              "Hindi": "मेरे बिस्तर के पास एक लैंप है।",
+              "Japanese": "ベッドのそばにランプがあります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'There is/There are' for rooms and furniture",
+        "explanation": "Use 'There is' for one thing, and 'There are' for more than one. Example: 'There is a sofa in the living room.' 'There are two chairs at the table.'",
+        "explanation_translation": {
+          "Hindi": "'There is' का उपयोग एक के लिए और 'There are' का उपयोग एक से अधिक के लिए करें। उदाहरण: 'बैठक कक्ष में एक सोफ़ा है।' 'मेज़ पर दो कुर्सियाँ हैं।'",
+          "Japanese": "一つの場合は「There is」、複数は「There are」を使います。例: '居間にソファがあります。' 'テーブルに椅子が2つあります。'"
+        }
+      },
+      {
+        "title": "Describing furniture location",
+        "explanation": "Use 'in', 'on', 'under', 'beside', or 'between' to say where something is. Example: 'The bed is in the bedroom.' 'The lamp is beside the sofa.'",
+        "explanation_translation": {
+          "Hindi": "'in', 'on', 'under', 'beside', या 'between' का उपयोग चीजों की जगह बताने के लिए करें। उदाहरण: 'बिस्तर शयनकक्ष में है।' 'लैंप सोफ़ा के पास है।'",
+          "Japanese": "物の位置を表すには 'in', 'on', 'under', 'beside', 'between' を使います。例: 'ベッドは寝室にあります。' 'ランプはソファのそばにあります。'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Where do you sleep?",
+        "question_translation": {
+          "Hindi": "आप कहाँ सोते हैं?",
+          "Japanese": "どこで寝ますか？"
+        },
+        "options": ["Living room", "Bedroom", "Kitchen"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "There is a ___ on the table.",
+        "question_translation": {
+          "Hindi": "मेज़ पर एक ___ है।",
+          "Japanese": "テーブルの上に___があります。"
+        },
+        "options": ["chair", "lamp", "bed"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which room do you cook in?",
+        "question_translation": {
+          "Hindi": "आप किस कमरे में खाना बनाते हैं?",
+          "Japanese": "どの部屋で料理をしますか？"
+        },
+        "options": ["Bedroom", "Kitchen", "Bathroom"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Where do you keep your clothes?",
+        "question_translation": {
+          "Hindi": "आप अपने कपड़े कहाँ रखते हैं?",
+          "Japanese": "服はどこにしまいますか？"
+        },
+        "options": ["Table", "Wardrobe", "Sofa"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "You can sleep on a sofa.",
+        "question_translation": {
+          "Hindi": "क्या आप सोफ़ा पर सो सकते हैं?",
+          "Japanese": "ソファで寝ることができますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "There are two ___ in the kitchen. (chairs)",
+        "question_translation": {
+          "Hindi": "रसोईघर में दो ___ हैं।",
+          "Japanese": "台所に___が二つあります。"
+        },
+        "options": ["beds", "chairs", "tables"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is beside my bed. (lamp)",
+        "question_translation": {
+          "Hindi": "लैंप मेरे बिस्तर के पास है।",
+          "Japanese": "ランプは私のベッドのそばにあります。"
+        },
+        "options": ["sofa", "wardrobe", "lamp"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, living room, a, is, sofa, the]",
+        "question_translation": {
+          "Hindi": "[in, living room, a, is, sofa, the] को सही क्रम में लगाएं।",
+          "Japanese": "[in, living room, a, is, sofa, the]を並び替えましょう。"
+        },
+        "options": ["in", "living room", "a", "is", "sofa", "the"],
+        "answer": ["There", "is", "a", "sofa", "in", "the", "living room"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "I put my clothes in the ___.",
+        "question_translation": {
+          "Hindi": "मैं अपने कपड़े ___ में रखता हूँ।",
+          "Japanese": "私は服を___にしまいます。"
+        },
+        "options": ["wardrobe", "kitchen", "bed"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, table, the, room, in, dining, the]",
+        "question_translation": {
+          "Hindi": "[is, table, the, room, in, dining, the] को सही क्रम में लगाएं।",
+          "Japanese": "[is, table, the, room, in, dining, the]を並び替えましょう。"
+        },
+        "options": ["is", "table", "the", "room", "in", "dining", "the"],
+        "answer": ["The", "table", "is", "in", "the", "dining", "room"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Which furniture is near the bed? (Audio: 'There is a lamp beside the bed.')",
+        "audio_text": "There is a lamp beside the bed.",
+        "question_translation": {
+          "Hindi": "बिस्तर के पास कौन सा फर्नीचर है?",
+          "Japanese": "ベッドのそばにある家具は何ですか？"
+        },
+        "options": ["Lamp", "Sofa", "Table"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Which room has a fridge? (Audio: 'The fridge is in the kitchen.')",
+        "audio_text": "The fridge is in the kitchen.",
+        "question_translation": {
+          "Hindi": "किस कमरे में फ्रिज है?",
+          "Japanese": "冷蔵庫はどの部屋にありますか？"
+        },
+        "options": ["Living room", "Kitchen", "Bedroom"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where do we eat dinner? (Audio: 'We eat dinner at the table.')",
+        "audio_text": "We eat dinner at the table.",
+        "question_translation": {
+          "Hindi": "हम रात का खाना कहाँ खाते हैं?",
+          "Japanese": "どこで夕食を食べますか？"
+        },
+        "options": ["Bed", "Sofa", "Table"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Where do you sit in the living room? (Audio: 'We sit on the sofa in the living room.')",
+        "audio_text": "We sit on the sofa in the living room.",
+        "question_translation": {
+          "Hindi": "बैठक कक्ष में आप कहाँ बैठते हैं?",
+          "Japanese": "居間ではどこに座りますか？"
+        },
+        "options": ["Chair", "Bed", "Sofa"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What do you use to see yourself? (Audio: 'There is a mirror in the bathroom.')",
+        "audio_text": "There is a mirror in the bathroom.",
+        "question_translation": {
+          "Hindi": "आप खुद को देखने के लिए क्या उपयोग करते हैं?",
+          "Japanese": "自分を見るために使うものは何ですか？"
+        },
+        "options": ["Chair", "Lamp", "Mirror"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'There is a sofa in the living room.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बैठक कक्ष में एक सोफ़ा है।'",
+          "Japanese": "「居間にソファがあります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "There is a sofa in the living room."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The bed is in the bedroom.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बिस्तर शयनकक्ष में है।'",
+          "Japanese": "「ベッドは寝室にあります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The bed is in the bedroom."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'There are four chairs around the table.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेज़ के चारों ओर चार कुर्सियाँ हैं।'",
+          "Japanese": "「テーブルの周りに椅子が4つあります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "There are four chairs around the table."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'My clothes are in the wardrobe.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे कपड़े अलमारी में हैं।'",
+          "Japanese": "「私の服はたんすに入っています。」と言ってください。"
+        },
+        "options": [],
+        "answer": "My clothes are in the wardrobe."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'There is a lamp beside my bed.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे बिस्तर के पास एक लैंप है।'",
+          "Japanese": "「ベッドのそばにランプがあります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "There is a lamp beside my bed."
+      }
+    ]
+  }
 }

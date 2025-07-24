@@ -5,32 +5,144 @@
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "father", "meaning": "your dad" },
-      { "word": "mother", "meaning": "your mom" },
-      { "word": "brother", "meaning": "your male sibling" },
-      { "word": "sister", "meaning": "your female sibling" },
-      { "word": "grandfather", "meaning": "your father's or mother's father" },
-      { "word": "grandmother", "meaning": "your father's or mother's mother" },
-      { "word": "parents", "meaning": "your father and mother" },
-      { "word": "family", "meaning": "all your relatives" },
-      { "word": "uncle", "meaning": "your father's or mother's brother" },
-      { "word": "aunt", "meaning": "your father's or mother's sister" }
+      {
+        "word": "father",
+        "word_translation": { "Hindi": "पिता", "Japanese": "お父さん" },
+        "meaning": "Your dad. The male parent in your family.",
+        "meaning_translation": { "Hindi": "आपके पिता। आपके परिवार में पुरुष अभिभावक।", "Japanese": "あなたのお父さん。家族の男性の親です。" },
+        "examples": [
+          {
+            "sentence": "My father is a teacher.",
+            "translation": { "Hindi": "मेरे पिता एक शिक्षक हैं।", "Japanese": "私の父は先生です。" }
+          }
+        ]
+      },
+      {
+        "word": "mother",
+        "word_translation": { "Hindi": "माता", "Japanese": "お母さん" },
+        "meaning": "Your mom. The female parent in your family.",
+        "meaning_translation": { "Hindi": "आपकी माँ। आपके परिवार में महिला अभिभावक।", "Japanese": "あなたのお母さん。家族の女性の親です。" },
+        "examples": [
+          {
+            "sentence": "My mother is very kind.",
+            "translation": { "Hindi": "मेरी माँ बहुत दयालु हैं।", "Japanese": "私の母はとても優しいです。" }
+          }
+        ]
+      },
+      {
+        "word": "brother",
+        "word_translation": { "Hindi": "भाई", "Japanese": "兄・弟" },
+        "meaning": "Your male sibling. A boy or man who has the same parents as you.",
+        "meaning_translation": { "Hindi": "आपका पुरुष भाई। वही माता-पिता वाला लड़का या पुरुष।", "Japanese": "あなたの兄または弟。同じ親を持つ男の兄弟です。" },
+        "examples": [
+          {
+            "sentence": "I have one brother.",
+            "translation": { "Hindi": "मेरा एक भाई है।", "Japanese": "私は兄（または弟）が一人います。" }
+          }
+        ]
+      },
+      {
+        "word": "sister",
+        "word_translation": { "Hindi": "बहन", "Japanese": "姉・妹" },
+        "meaning": "Your female sibling. A girl or woman who has the same parents as you.",
+        "meaning_translation": { "Hindi": "आपकी महिला बहन। वही माता-पिता वाली लड़की या महिला।", "Japanese": "あなたの姉または妹。同じ親を持つ女の兄弟です。" },
+        "examples": [
+          {
+            "sentence": "I have one sister.",
+            "translation": { "Hindi": "मेरी एक बहन है।", "Japanese": "私は姉（または妹）が一人います。" }
+          }
+        ]
+      },
+      {
+        "word": "grandfather",
+        "word_translation": { "Hindi": "दादा/नाना", "Japanese": "おじいさん" },
+        "meaning": "Your father's or mother's father.",
+        "meaning_translation": { "Hindi": "आपके पिता या माँ के पिता।", "Japanese": "あなたのお父さんまたはお母さんのお父さんです。" },
+        "examples": [
+          {
+            "sentence": "My grandfather tells me stories.",
+            "translation": { "Hindi": "मेरे दादा/नाना मुझे कहानियाँ सुनाते हैं।", "Japanese": "私の祖父は私にお話をしてくれます。" }
+          }
+        ]
+      },
+      {
+        "word": "grandmother",
+        "word_translation": { "Hindi": "दादी/नानी", "Japanese": "おばあさん" },
+        "meaning": "Your father's or mother's mother.",
+        "meaning_translation": { "Hindi": "आपके पिता या माँ की माता।", "Japanese": "あなたのお父さんまたはお母さんのお母さんです。" },
+        "examples": [
+          {
+            "sentence": "My grandmother is very kind.",
+            "translation": { "Hindi": "मेरी दादी/नानी बहुत दयालु हैं।", "Japanese": "私の祖母はとても優しいです。" }
+          }
+        ]
+      },
+      {
+        "word": "parents",
+        "word_translation": { "Hindi": "माता-पिता", "Japanese": "両親" },
+        "meaning": "Your father and mother together.",
+        "meaning_translation": { "Hindi": "आपके पिता और माँ दोनों मिलकर माता-पिता कहलाते हैं।", "Japanese": "あなたのお父さんとお母さんを合わせて両親と言います。" },
+        "examples": [
+          {
+            "sentence": "My parents help me with my homework.",
+            "translation": { "Hindi": "मेरे माता-पिता मेरी गृहकार्य में मदद करते हैं।", "Japanese": "私の両親は宿題を手伝ってくれます。" }
+          }
+        ]
+      },
+      {
+        "word": "family",
+        "word_translation": { "Hindi": "परिवार", "Japanese": "家族" },
+        "meaning": "All your relatives. Your parents, brothers, sisters, and more.",
+        "meaning_translation": { "Hindi": "आपके सभी रिश्तेदार। माता-पिता, भाई-बहन और अन्य।", "Japanese": "あなたのすべての親戚。両親、兄弟姉妹など。" },
+        "examples": [
+          {
+            "sentence": "Our family is big.",
+            "translation": { "Hindi": "हमारा परिवार बड़ा है।", "Japanese": "私たちの家族は大きいです。" }
+          }
+        ]
+      },
+      {
+        "word": "uncle",
+        "word_translation": { "Hindi": "चाचा/मामा", "Japanese": "おじさん" },
+        "meaning": "Your father's or mother's brother.",
+        "meaning_translation": { "Hindi": "आपके पिता या माँ के भाई।", "Japanese": "あなたのお父さんまたはお母さんの兄弟です。" },
+        "examples": [
+          {
+            "sentence": "My uncle visits us on holidays.",
+            "translation": { "Hindi": "मेरे चाचा/मामा छुट्टियों में हमारे पास आते हैं।", "Japanese": "私のおじさんは休みに私たちの家に来ます。" }
+          }
+        ]
+      },
+      {
+        "word": "aunt",
+        "word_translation": { "Hindi": "चाची/मामी", "Japanese": "おばさん" },
+        "meaning": "Your father's or mother's sister.",
+        "meaning_translation": { "Hindi": "आपके पिता या माँ की बहन।", "Japanese": "あなたのお父さんまたはお母さんの姉妹です。" },
+        "examples": [
+          {
+            "sentence": "My aunt is a doctor.",
+            "translation": { "Hindi": "मेरी चाची/मामी डॉक्टर हैं।", "Japanese": "私のおばさんは医者です。" }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
         "title": "Using 'my' to show family",
-        "explanation": "Use 'my' to talk about your family. Example: My mother is kind."
+        "explanation": "Use 'my' to talk about your family. Example: My mother is kind.",
+        "explanation_translation": {
+          "Hindi": "अपने परिवार के बारे में बात करने के लिए 'my' का उपयोग करें। उदाहरण: My mother is kind.",
+          "Japanese": "家族について話す時、「my」を使います。例：My mother is kind."
+        }
       },
       {
         "title": "Plural family members",
-        "explanation": "Add 's' for more than one. Example: brothers, sisters."
+        "explanation": "Add 's' for more than one. Example: brothers, sisters.",
+        "explanation_translation": {
+          "Hindi": "एक से अधिक के लिए शब्द के अंत में 's' जोड़ें। उदाहरण: brothers, sisters।",
+          "Japanese": "複数の場合は語尾に「s」を付けます。例：brothers, sisters。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "My father is a teacher.", "translation": "" },
-      { "sentence": "I have one brother and one sister.", "translation": "" },
-      { "sentence": "My grandparents live with us.", "translation": "" },
-      { "sentence": "Our family is big.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -39,6 +151,10 @@
         "id": "vocab1",
         "type": "multipleChoice",
         "question": "Who is your father's father?",
+        "question_translation": {
+          "Hindi": "आपके पिता के पिता कौन हैं?",
+          "Japanese": "あなたのお父さんのお父さんは誰ですか？"
+        },
         "options": ["Brother", "Grandfather", "Uncle"],
         "answer": 1
       },
@@ -46,6 +162,10 @@
         "id": "vocab2",
         "type": "fillInTheBlanks",
         "question": "Your mother's daughter is your ___.",
+        "question_translation": {
+          "Hindi": "आपकी माँ की बेटी आपकी ___ है।",
+          "Japanese": "あなたのお母さんの娘はあなたの___です。"
+        },
         "options": ["sister", "aunt", "grandmother"],
         "answer": 0
       },
@@ -53,6 +173,10 @@
         "id": "vocab3",
         "type": "trueFalse",
         "question": "Your aunt is your father's or mother's sister.",
+        "question_translation": {
+          "Hindi": "आपकी चाची/मामी आपके पिता या माँ की बहन हैं।",
+          "Japanese": "あなたのおばさんはあなたのお父さんまたはお母さんの姉妹です。"
+        },
         "options": ["True", "False"],
         "answer": 0
       },
@@ -60,6 +184,10 @@
         "id": "vocab4",
         "type": "multipleChoice",
         "question": "Who are your parents?",
+        "question_translation": {
+          "Hindi": "आपके माता-पिता कौन हैं?",
+          "Japanese": "あなたの両親は誰ですか？"
+        },
         "options": ["Father and mother", "Sister and brother", "Uncle and aunt"],
         "answer": 0
       },
@@ -67,6 +195,10 @@
         "id": "vocab5",
         "type": "multipleChoice",
         "question": "What do you call all your relatives?",
+        "question_translation": {
+          "Hindi": "आप अपने सभी रिश्तेदारों को क्या कहते हैं?",
+          "Japanese": "あなたのすべての親戚を何と呼びますか？"
+        },
         "options": ["Family", "Friends", "School"],
         "answer": 0
       }
@@ -76,6 +208,10 @@
         "id": "sent1",
         "type": "fillInTheBlanks",
         "question": "I have two ___. (brothers)",
+        "question_translation": {
+          "Hindi": "मेरे दो ___ हैं। (brothers)",
+          "Japanese": "私は___が二人います。（brothers）"
+        },
         "options": ["sisters", "brothers", "uncles"],
         "answer": 1
       },
@@ -83,6 +219,10 @@
         "id": "sent2",
         "type": "fillInTheBlanks",
         "question": "My ___ is very kind. (mother)",
+        "question_translation": {
+          "Hindi": "मेरी ___ बहुत दयालु हैं। (mother)",
+          "Japanese": "私の___はとても優しいです。（mother）"
+        },
         "options": ["aunt", "mother", "grandmother"],
         "answer": 1
       },
@@ -90,6 +230,10 @@
         "id": "sent3",
         "type": "sentenceRearranging",
         "question": "Arrange: [is, My, teacher, father, a]",
+        "question_translation": {
+          "Hindi": "क्रम लगाएँ: [is, My, teacher, father, a]",
+          "Japanese": "並べ替えてください: [is, My, teacher, father, a]"
+        },
         "options": ["is", "My", "teacher", "father", "a"],
         "answer": ["My", "father", "is", "a", "teacher"]
       },
@@ -97,6 +241,10 @@
         "id": "sent4",
         "type": "sentenceRearranging",
         "question": "Arrange: [have, one, I, sister]",
+        "question_translation": {
+          "Hindi": "क्रम लगाएँ: [have, one, I, sister]",
+          "Japanese": "並べ替えてください: [have, one, I, sister]"
+        },
         "options": ["have", "one", "I", "sister"],
         "answer": ["I", "have", "one", "sister"]
       },
@@ -104,6 +252,10 @@
         "id": "sent5",
         "type": "fillInTheBlanks",
         "question": "My grandparents ___ with us.",
+        "question_translation": {
+          "Hindi": "मेरे दादा-दादी हमारे साथ ___ हैं।",
+          "Japanese": "私の祖父母は私たちと一緒に___。"
+        },
         "options": ["live", "go", "eat"],
         "answer": 0
       }
@@ -112,35 +264,60 @@
       {
         "id": "listen1",
         "type": "listening",
-        "question": "Who is speaking? (Audio: 'My name is Anna. I have one brother.')",
+        "question": "Who is speaking?",
+        "question_translation": {
+          "Hindi": "कौन बोल रहा है?",
+          "Japanese": "誰が話していますか？"
+        },
+        "audio_text": "My name is Anna. I have one brother.",
         "options": ["Brother", "Sister", "Anna"],
         "answer": 2
       },
       {
         "id": "listen2",
         "type": "listening",
-        "question": "How many sisters does the speaker have? (Audio: 'I have two sisters.')",
+        "question": "How many sisters does the speaker have?",
+        "question_translation": {
+          "Hindi": "वक्ता की कितनी बहनें हैं?",
+          "Japanese": "話者には何人姉妹がいますか？"
+        },
+        "audio_text": "I have two sisters.",
         "options": ["One", "Two", "Three"],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "listening",
-        "question": "Who is the oldest family member? (Audio: 'My grandfather is the oldest.')",
+        "question": "Who is the oldest family member?",
+        "question_translation": {
+          "Hindi": "सबसे बड़े परिवार सदस्य कौन हैं?",
+          "Japanese": "一番年上の家族は誰ですか？"
+        },
+        "audio_text": "My grandfather is the oldest.",
         "options": ["Father", "Sister", "Grandfather"],
         "answer": 2
       },
       {
         "id": "listen4",
         "type": "listening",
-        "question": "Who is your mother's mother? (Audio: 'My grandmother is kind.')",
+        "question": "Who is your mother's mother?",
+        "question_translation": {
+          "Hindi": "आपकी माँ की माँ कौन हैं?",
+          "Japanese": "あなたのお母さんのお母さんは誰ですか？"
+        },
+        "audio_text": "My grandmother is kind.",
         "options": ["Grandmother", "Mother", "Aunt"],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "listening",
-        "question": "How many brothers does the speaker have? (Audio: 'I have no brothers.')",
+        "question": "How many brothers does the speaker have?",
+        "question_translation": {
+          "Hindi": "वक्ता के कितने भाई हैं?",
+          "Japanese": "話者には何人兄弟がいますか？"
+        },
+        "audio_text": "I have no brothers.",
         "options": ["One", "Two", "None"],
         "answer": 2
       }
@@ -150,6 +327,10 @@
         "id": "speak1",
         "type": "speaking",
         "question": "Say: 'My father is a teacher.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे पिता एक शिक्षक हैं।'",
+          "Japanese": "「私の父は先生です」と言ってください。"
+        },
         "options": [],
         "answer": "My father is a teacher."
       },
@@ -157,6 +338,10 @@
         "id": "speak2",
         "type": "speaking",
         "question": "Say: 'I have one brother and one sister.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा एक भाई और एक बहन है।'",
+          "Japanese": "「私は兄（弟）が一人と姉（妹）が一人います」と言ってください。"
+        },
         "options": [],
         "answer": "I have one brother and one sister."
       },
@@ -164,6 +349,10 @@
         "id": "speak3",
         "type": "speaking",
         "question": "Say: 'Our family is big.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमारा परिवार बड़ा है।'",
+          "Japanese": "「私たちの家族は大きいです」と言ってください。"
+        },
         "options": [],
         "answer": "Our family is big."
       },
@@ -171,6 +360,10 @@
         "id": "speak4",
         "type": "speaking",
         "question": "Say: 'My grandparents live with us.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे दादा-दादी हमारे साथ रहते हैं।'",
+          "Japanese": "「私の祖父母は私たちと一緒に住んでいます」と言ってください。"
+        },
         "options": [],
         "answer": "My grandparents live with us."
       },
@@ -178,6 +371,10 @@
         "id": "speak5",
         "type": "speaking",
         "question": "Say: 'My mother is very kind.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरी माँ बहुत दयालु हैं।'",
+          "Japanese": "「私の母はとても優しいです」と言ってください。"
+        },
         "options": [],
         "answer": "My mother is very kind."
       }

@@ -1,4 +1,473 @@
 {
-  "id": 20,
-  "message": "This is file number 20"
+  "id": "lesson_sports_001",
+  "lesson_name": "Sports",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "football",
+        "word_translation": {
+          "Hindi": "फुटबॉल",
+          "Japanese": "サッカー"
+        },
+        "meaning": "a game played by kicking a ball to score goals",
+        "meaning_translation": {
+          "Hindi": "गेंद को लात मारकर गोल करने वाला खेल",
+          "Japanese": "ボールを蹴ってゴールを決めるスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "They play football in the park.",
+            "translation": {
+              "Hindi": "वे पार्क में फुटबॉल खेलते हैं।",
+              "Japanese": "彼らは公園でサッカーをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cricket",
+        "word_translation": {
+          "Hindi": "क्रिकेट",
+          "Japanese": "クリケット"
+        },
+        "meaning": "a bat-and-ball game played between two teams",
+        "meaning_translation": {
+          "Hindi": "दो टीमों के बीच खेले जाने वाला बल्ले और गेंद का खेल",
+          "Japanese": "バットとボールを使い、2チームで行うスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "India is famous for cricket.",
+            "translation": {
+              "Hindi": "भारत क्रिकेट के लिए प्रसिद्ध है।",
+              "Japanese": "インドはクリケットで有名です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "basketball",
+        "word_translation": {
+          "Hindi": "बास्केटबॉल",
+          "Japanese": "バスケットボール"
+        },
+        "meaning": "a game where players try to throw a ball into a high net",
+        "meaning_translation": {
+          "Hindi": "खिलाड़ी गेंद को ऊँचे जाल में फेंकने का प्रयास करते हैं",
+          "Japanese": "選手がボールを高いネットに投げ入れるスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "Basketball is popular in the USA.",
+            "translation": {
+              "Hindi": "बास्केटबॉल अमेरिका में लोकप्रिय है।",
+              "Japanese": "バスケットボールはアメリカで人気です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tennis",
+        "word_translation": {
+          "Hindi": "टेनिस",
+          "Japanese": "テニス"
+        },
+        "meaning": "a sport where players hit a ball over a net using a racket",
+        "meaning_translation": {
+          "Hindi": "खिलाड़ी रैकेट से गेंद को जाल के ऊपर मारते हैं",
+          "Japanese": "ラケットでボールをネットの向こうに打ち合うスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "She plays tennis every Sunday.",
+            "translation": {
+              "Hindi": "वह हर रविवार टेनिस खेलती है।",
+              "Japanese": "彼女は毎週日曜日にテニスをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "swimming",
+        "word_translation": {
+          "Hindi": "तैराकी",
+          "Japanese": "水泳"
+        },
+        "meaning": "moving through water using your arms and legs",
+        "meaning_translation": {
+          "Hindi": "अपने हाथ और पैरों से पानी में आगे बढ़ना",
+          "Japanese": "手足を使って水の中を進むこと"
+        },
+        "examples": [
+          {
+            "sentence": "Swimming is good exercise.",
+            "translation": {
+              "Hindi": "तैराकी अच्छा व्यायाम है।",
+              "Japanese": "水泳は良い運動です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "running",
+        "word_translation": {
+          "Hindi": "दौड़ना",
+          "Japanese": "走ること"
+        },
+        "meaning": "moving fast on your feet",
+        "meaning_translation": {
+          "Hindi": "अपने पैरों से तेज़ चलना",
+          "Japanese": "足で速く動くこと"
+        },
+        "examples": [
+          {
+            "sentence": "He goes running every morning.",
+            "translation": {
+              "Hindi": "वह हर सुबह दौड़ने जाता है।",
+              "Japanese": "彼は毎朝走りに行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "badminton",
+        "word_translation": {
+          "Hindi": "बैडमिंटन",
+          "Japanese": "バドミントン"
+        },
+        "meaning": "a game where players hit a shuttlecock over a net",
+        "meaning_translation": {
+          "Hindi": "खिलाड़ी नेट के ऊपर शटलकोक को मारते हैं",
+          "Japanese": "選手がシャトルをネットの向こうに打ち合うスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "I play badminton with my sister.",
+            "translation": {
+              "Hindi": "मैं अपनी बहन के साथ बैडमिंटन खेलता हूँ।",
+              "Japanese": "私は妹とバドミントンをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "table tennis",
+        "word_translation": {
+          "Hindi": "टेबल टेनिस",
+          "Japanese": "卓球"
+        },
+        "meaning": "a game like tennis but played on a table with small bats",
+        "meaning_translation": {
+          "Hindi": "टेनिस जैसा खेल, लेकिन मेज पर छोटे बल्ले से खेला जाता है",
+          "Japanese": "テニスに似ているが、テーブルの上で小さなラケットを使って行うスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "Table tennis is fast and fun.",
+            "translation": {
+              "Hindi": "टेबल टेनिस तेज़ और मज़ेदार है।",
+              "Japanese": "卓球は速くて楽しいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "volleyball",
+        "word_translation": {
+          "Hindi": "वॉलीबॉल",
+          "Japanese": "バレーボール"
+        },
+        "meaning": "a game where players hit a ball over a high net with their hands",
+        "meaning_translation": {
+          "Hindi": "खिलाड़ी अपने हाथों से गेंद को ऊँचे जाल के ऊपर मारते हैं",
+          "Japanese": "選手が手で高いネットの向こうにボールを打ち合うスポーツ"
+        },
+        "examples": [
+          {
+            "sentence": "We play volleyball on the beach.",
+            "translation": {
+              "Hindi": "हम समुद्र किनारे वॉलीबॉल खेलते हैं।",
+              "Japanese": "私たちはビーチでバレーボールをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "yoga",
+        "word_translation": {
+          "Hindi": "योग",
+          "Japanese": "ヨガ"
+        },
+        "meaning": "a physical activity with exercises and breathing for health",
+        "meaning_translation": {
+          "Hindi": "व्यायाम और साँस लेने के अभ्यास के साथ एक शारीरिक गतिविधि",
+          "Japanese": "運動と呼吸法を組み合わせた健康のための活動"
+        },
+        "examples": [
+          {
+            "sentence": "My mother does yoga every morning.",
+            "translation": {
+              "Hindi": "मेरी माँ हर सुबह योग करती हैं।",
+              "Japanese": "私の母は毎朝ヨガをします。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about what you play or do",
+        "explanation": "Use 'play' with ball games (play football, play cricket). Use 'go' with activities (go running, go swimming). Use 'do' with exercise (do yoga).",
+        "explanation_translation": {
+          "Hindi": "'play' का उपयोग बॉल खेलों के लिए, 'go' का उपयोग गतिविधियों के लिए और 'do' का उपयोग व्यायाम के लिए करें।",
+          "Japanese": "ボールを使うスポーツには 'play'、活動には 'go'、運動には 'do' を使います。"
+        }
+      },
+      {
+        "title": "Describing frequency: every, always, sometimes",
+        "explanation": "Use words like 'every day', 'always', and 'sometimes' to show how often you do a sport. Example: 'I play cricket every Sunday.'",
+        "explanation_translation": {
+          "Hindi": "'every day', 'always', 'sometimes' का उपयोग यह बताने के लिए करें कि आप खेल कितनी बार खेलते हैं। उदाहरण: 'I play cricket every Sunday.'",
+          "Japanese": "どれくらいの頻度でスポーツをするかには 'every day'、'always'、'sometimes' などを使います。例: 'I play cricket every Sunday.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which sport uses a racket?",
+        "question_translation": {
+          "Hindi": "कौन सा खेल रैकेट से खेला जाता है?",
+          "Japanese": "どのスポーツでラケットを使いますか？"
+        },
+        "options": ["Football", "Tennis", "Cricket"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "They play ___ on the beach. (volleyball)",
+        "question_translation": {
+          "Hindi": "वे समुद्र किनारे ___ खेलते हैं।",
+          "Japanese": "彼らはビーチで___をします。"
+        },
+        "options": ["badminton", "cricket", "volleyball"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which sport is played in water?",
+        "question_translation": {
+          "Hindi": "कौन सा खेल पानी में खेला जाता है?",
+          "Japanese": "どのスポーツは水の中で行いますか？"
+        },
+        "options": ["Swimming", "Basketball", "Running"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which game is famous in India?",
+        "question_translation": {
+          "Hindi": "भारत में कौन सा खेल प्रसिद्ध है?",
+          "Japanese": "インドで有名なスポーツはどれですか？"
+        },
+        "options": ["Football", "Cricket", "Volleyball"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Yoga is a kind of sport.",
+        "question_translation": {
+          "Hindi": "क्या योग एक प्रकार का खेल है?",
+          "Japanese": "ヨガはスポーツの一種ですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She plays ___ every Sunday. (tennis)",
+        "question_translation": {
+          "Hindi": "वह हर रविवार ___ खेलती है।",
+          "Japanese": "彼女は毎週日曜日に___をします。"
+        },
+        "options": ["yoga", "tennis", "football"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___ is popular in the USA. (basketball)",
+        "question_translation": {
+          "Hindi": "___ अमेरिका में लोकप्रिय है।",
+          "Japanese": "___はアメリカで人気です。"
+        },
+        "options": ["Cricket", "Basketball", "Volleyball"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, every, goes, running, he, morning]",
+        "question_translation": {
+          "Hindi": "[in, every, goes, running, he, morning] को सही क्रम में लगाएं।",
+          "Japanese": "[in, every, goes, running, he, morning]を並べ替えましょう。"
+        },
+        "options": ["in", "every", "goes", "running", "he", "morning"],
+        "answer": ["He", "goes", "running", "every", "morning"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ is fast and fun. (table tennis)",
+        "question_translation": {
+          "Hindi": "___ तेज़ और मज़ेदार है।",
+          "Japanese": "___は速くて楽しいです。"
+        },
+        "options": ["Yoga", "Table tennis", "Badminton"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [mother, my, every, yoga, morning, does]",
+        "question_translation": {
+          "Hindi": "[mother, my, every, yoga, morning, does] को सही क्रम में लगाएं।",
+          "Japanese": "[mother, my, every, yoga, morning, does]を並べ替えましょう。"
+        },
+        "options": ["mother", "my", "every", "yoga", "morning", "does"],
+        "answer": ["My", "mother", "does", "yoga", "every", "morning"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Which sport did the speaker mention? (Audio: 'They play football in the park.')",
+        "audio_text": "They play football in the park.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा खेल बताया?",
+          "Japanese": "話者はどのスポーツについて言いましたか？"
+        },
+        "options": ["Football", "Basketball", "Cricket"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Which sport is good exercise? (Audio: 'Swimming is good exercise.')",
+        "audio_text": "Swimming is good exercise.",
+        "question_translation": {
+          "Hindi": "कौन सा खेल अच्छा व्यायाम है?",
+          "Japanese": "どのスポーツが良い運動ですか？"
+        },
+        "options": ["Badminton", "Swimming", "Yoga"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does my mother do every morning? (Audio: 'My mother does yoga every morning.')",
+        "audio_text": "My mother does yoga every morning.",
+        "question_translation": {
+          "Hindi": "मेरी माँ हर सुबह क्या करती हैं?",
+          "Japanese": "私の母は毎朝何をしますか？"
+        },
+        "options": ["Yoga", "Running", "Tennis"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Which game is played with a shuttlecock? (Audio: 'I play badminton with my sister.')",
+        "audio_text": "I play badminton with my sister.",
+        "question_translation": {
+          "Hindi": "कौन सा खेल शटलकोक से खेला जाता है?",
+          "Japanese": "どのスポーツがシャトルを使いますか？"
+        },
+        "options": ["Football", "Badminton", "Basketball"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Which sport is fast and fun? (Audio: 'Table tennis is fast and fun.')",
+        "audio_text": "Table tennis is fast and fun.",
+        "question_translation": {
+          "Hindi": "कौन सा खेल तेज़ और मज़ेदार है?",
+          "Japanese": "どのスポーツが速くて楽しいですか？"
+        },
+        "options": ["Table tennis", "Cricket", "Volleyball"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'They play football in the park.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वे पार्क में फुटबॉल खेलते हैं।'",
+          "Japanese": "「彼らは公園でサッカーをします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "They play football in the park."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'India is famous for cricket.'",
+        "question_translation": {
+          "Hindi": "कहें: 'भारत क्रिकेट के लिए प्रसिद्ध है।'",
+          "Japanese": "「インドはクリケットで有名です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "India is famous for cricket."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Swimming is good exercise.'",
+        "question_translation": {
+          "Hindi": "कहें: 'तैराकी अच्छा व्यायाम है।'",
+          "Japanese": "「水泳は良い運動です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Swimming is good exercise."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We play volleyball on the beach.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम समुद्र किनारे वॉलीबॉल खेलते हैं।'",
+          "Japanese": "「私たちはビーチでバレーボールをします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We play volleyball on the beach."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'My mother does yoga every morning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरी माँ हर सुबह योग करती हैं।'",
+          "Japanese": "「私の母は毎朝ヨガをします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "My mother does yoga every morning."
+      }
+    ]
+  }
 }

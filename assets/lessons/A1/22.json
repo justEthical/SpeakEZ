@@ -1,4 +1,473 @@
 {
-  "id": 22,
-  "message": "This is file number 22"
+  "id": "lesson_telling_the_time_001",
+  "lesson_name": "Telling the Time",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "clock",
+        "word_translation": {
+          "Hindi": "घड़ी",
+          "Japanese": "時計"
+        },
+        "meaning": "a device that shows what time it is",
+        "meaning_translation": {
+          "Hindi": "वह यंत्र जो समय बताता है",
+          "Japanese": "時間を示す道具"
+        },
+        "examples": [
+          {
+            "sentence": "There is a clock on the wall.",
+            "translation": {
+              "Hindi": "दीवार पर एक घड़ी है।",
+              "Japanese": "壁に時計があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "watch",
+        "word_translation": {
+          "Hindi": "घड़ी (हाथ की)",
+          "Japanese": "腕時計"
+        },
+        "meaning": "a small clock you wear on your wrist",
+        "meaning_translation": {
+          "Hindi": "छोटी घड़ी जो हाथ में पहनी जाती है",
+          "Japanese": "手首につける小さな時計"
+        },
+        "examples": [
+          {
+            "sentence": "She wears a watch on her left hand.",
+            "translation": {
+              "Hindi": "वह अपने बाएँ हाथ में घड़ी पहनती है।",
+              "Japanese": "彼女は左手に腕時計をしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "minute",
+        "word_translation": {
+          "Hindi": "मिनट",
+          "Japanese": "分"
+        },
+        "meaning": "a unit of time, 60 minutes make one hour",
+        "meaning_translation": {
+          "Hindi": "समय की इकाई, 60 मिनट में 1 घंटा होता है",
+          "Japanese": "時間の単位、60分で1時間"
+        },
+        "examples": [
+          {
+            "sentence": "There are sixty minutes in one hour.",
+            "translation": {
+              "Hindi": "एक घंटे में साठ मिनट होते हैं।",
+              "Japanese": "1時間は60分です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hour",
+        "word_translation": {
+          "Hindi": "घंटा",
+          "Japanese": "時間"
+        },
+        "meaning": "a period of 60 minutes",
+        "meaning_translation": {
+          "Hindi": "60 मिनट की अवधि",
+          "Japanese": "60分の時間"
+        },
+        "examples": [
+          {
+            "sentence": "School starts at 8 o’clock in the morning.",
+            "translation": {
+              "Hindi": "स्कूल सुबह 8 बजे शुरू होता है।",
+              "Japanese": "学校は朝8時に始まります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "half past",
+        "word_translation": {
+          "Hindi": "साढ़े",
+          "Japanese": "～時半"
+        },
+        "meaning": "30 minutes after the hour",
+        "meaning_translation": {
+          "Hindi": "घंटे के बाद 30 मिनट",
+          "Japanese": "～時から30分後"
+        },
+        "examples": [
+          {
+            "sentence": "It is half past nine.",
+            "translation": {
+              "Hindi": "यह साढ़े नौ बजे हैं।",
+              "Japanese": "今は9時半です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "quarter past",
+        "word_translation": {
+          "Hindi": "सवा",
+          "Japanese": "～時15分過ぎ"
+        },
+        "meaning": "15 minutes after the hour",
+        "meaning_translation": {
+          "Hindi": "घंटे के बाद 15 मिनट",
+          "Japanese": "～時から15分後"
+        },
+        "examples": [
+          {
+            "sentence": "It is quarter past seven.",
+            "translation": {
+              "Hindi": "यह सवा सात बजे हैं।",
+              "Japanese": "今は7時15分です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "quarter to",
+        "word_translation": {
+          "Hindi": "पौने",
+          "Japanese": "～時15分前"
+        },
+        "meaning": "15 minutes before the next hour",
+        "meaning_translation": {
+          "Hindi": "अगले घंटे से 15 मिनट कम",
+          "Japanese": "次の時刻の15分前"
+        },
+        "examples": [
+          {
+            "sentence": "It is quarter to ten.",
+            "translation": {
+              "Hindi": "यह पौने दस बजे हैं।",
+              "Japanese": "今は10時15分前です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "o’clock",
+        "word_translation": {
+          "Hindi": "बजे",
+          "Japanese": "～時"
+        },
+        "meaning": "used to say the time when it is an exact hour",
+        "meaning_translation": {
+          "Hindi": "जब समय पूरे घंटे का हो तो 'बजे' कहा जाता है",
+          "Japanese": "ちょうどの時刻を言う時に使う"
+        },
+        "examples": [
+          {
+            "sentence": "It is eight o’clock.",
+            "translation": {
+              "Hindi": "यह आठ बजे हैं।",
+              "Japanese": "今は8時です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "morning",
+        "word_translation": {
+          "Hindi": "सुबह",
+          "Japanese": "朝"
+        },
+        "meaning": "the early part of the day, before 12 o'clock",
+        "meaning_translation": {
+          "Hindi": "दिन का आरंभिक भाग, 12 बजे से पहले",
+          "Japanese": "1日の始まり、午前12時前"
+        },
+        "examples": [
+          {
+            "sentence": "I go to school in the morning.",
+            "translation": {
+              "Hindi": "मैं सुबह स्कूल जाता हूँ।",
+              "Japanese": "私は朝に学校へ行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evening",
+        "word_translation": {
+          "Hindi": "शाम",
+          "Japanese": "夕方"
+        },
+        "meaning": "the time after the afternoon and before night",
+        "meaning_translation": {
+          "Hindi": "दोपहर के बाद और रात से पहले का समय",
+          "Japanese": "午後の後、夜の前の時間"
+        },
+        "examples": [
+          {
+            "sentence": "We have dinner in the evening.",
+            "translation": {
+              "Hindi": "हम शाम को खाना खाते हैं।",
+              "Japanese": "私たちは夕方に夕食を食べます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking the time",
+        "explanation": "Say 'What time is it?' or 'Do you have the time?'",
+        "explanation_translation": {
+          "Hindi": "'What time is it?' या 'Do you have the time?' पूछ सकते हैं।",
+          "Japanese": "時間を聞く時は「What time is it?」「Do you have the time?」と言います。"
+        }
+      },
+      {
+        "title": "Saying the time",
+        "explanation": "Say 'It is eight o’clock.', 'It is half past nine.', 'It is quarter to five.', 'It is quarter past seven.'",
+        "explanation_translation": {
+          "Hindi": "समय बताने के लिए 'It is eight o’clock.', 'It is half past nine.' आदि कहें।",
+          "Japanese": "時間を言うときは「It is eight o’clock.」「It is half past nine.」などと言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What device shows you the time?",
+        "question_translation": {
+          "Hindi": "कौन सा यंत्र समय दिखाता है?",
+          "Japanese": "どの道具が時間を教えてくれますか？"
+        },
+        "options": ["Clock", "Table", "Chair"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A ___ has sixty minutes.",
+        "question_translation": {
+          "Hindi": "एक ___ में साठ मिनट होते हैं।",
+          "Japanese": "1___は60分です。"
+        },
+        "options": ["minute", "hour", "morning"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you wear on your wrist to know the time?",
+        "question_translation": {
+          "Hindi": "समय जानने के लिए आप अपने हाथ में क्या पहनते हैं?",
+          "Japanese": "時間を見るために手首につけるものは？"
+        },
+        "options": ["Watch", "Pencil", "Ring"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What does 'half past eight' mean?",
+        "question_translation": {
+          "Hindi": "'साढ़े आठ' का क्या मतलब है?",
+          "Japanese": "「half past eight」は何時ですか？"
+        },
+        "options": ["8:15", "8:30", "9:30"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "'Quarter to ten' means 9:45.",
+        "question_translation": {
+          "Hindi": "'पौने दस' का मतलब 9:45 होता है।",
+          "Japanese": "「quarter to ten」は9時45分の意味です。"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "It is ___ o’clock. (eight)",
+        "question_translation": {
+          "Hindi": "यह ___ बजे हैं।",
+          "Japanese": "今は___時です。"
+        },
+        "options": ["seven", "eight", "nine"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "It is ___ past nine. (half)",
+        "question_translation": {
+          "Hindi": "यह नौ ___ बजे हैं।",
+          "Japanese": "今は9時___です。"
+        },
+        "options": ["half", "quarter", "minute"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [what, is, it, time]",
+        "question_translation": {
+          "Hindi": "[what, is, it, time] को सही क्रम में लगाएं।",
+          "Japanese": "[what, is, it, time]を並べ替えましょう。"
+        },
+        "options": ["what", "is", "it", "time"],
+        "answer": ["What", "time", "is", "it"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "School starts at ___ o’clock. (eight)",
+        "question_translation": {
+          "Hindi": "स्कूल ___ बजे शुरू होता है।",
+          "Japanese": "学校は___時に始まります。"
+        },
+        "options": ["seven", "eight", "nine"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [it, is, quarter, past, seven]",
+        "question_translation": {
+          "Hindi": "[it, is, quarter, past, seven] को सही क्रम में लगाएं।",
+          "Japanese": "[it, is, quarter, past, seven]を並べ替えましょう。"
+        },
+        "options": ["it", "is", "quarter", "past", "seven"],
+        "answer": ["It", "is", "quarter", "past", "seven"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What time is it? (Audio: 'It is half past six.')",
+        "audio_text": "It is half past six.",
+        "question_translation": {
+          "Hindi": "कितने बजे हैं?",
+          "Japanese": "今は何時ですか？"
+        },
+        "options": ["6:30", "7:30", "5:30"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What time does the speaker say? (Audio: 'It is quarter to nine.')",
+        "audio_text": "It is quarter to nine.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सा समय बता रहा है?",
+          "Japanese": "話者は何時と言っていますか？"
+        },
+        "options": ["9:15", "8:45", "9:45"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does 'o’clock' mean? (Audio: 'It is seven o’clock.')",
+        "audio_text": "It is seven o’clock.",
+        "question_translation": {
+          "Hindi": "'बजे' का क्या मतलब है?",
+          "Japanese": "「o’clock」はどういう意味ですか？"
+        },
+        "options": ["Exact hour", "Half hour", "Quarter hour"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "When does school start? (Audio: 'School starts at eight o’clock.')",
+        "audio_text": "School starts at eight o’clock.",
+        "question_translation": {
+          "Hindi": "स्कूल कब शुरू होता है?",
+          "Japanese": "学校はいつ始まりますか？"
+        },
+        "options": ["Nine o’clock", "Seven o’clock", "Eight o’clock"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What time is it? (Audio: 'It is quarter past seven.')",
+        "audio_text": "It is quarter past seven.",
+        "question_translation": {
+          "Hindi": "कितने बजे हैं?",
+          "Japanese": "今は何時ですか？"
+        },
+        "options": ["7:15", "7:45", "8:15"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'It is eight o’clock.'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह आठ बजे हैं।'",
+          "Japanese": "「今は8時です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "It is eight o’clock."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'It is half past nine.'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह साढ़े नौ बजे हैं।'",
+          "Japanese": "「今は9時半です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "It is half past nine."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'It is quarter to ten.'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह पौने दस बजे हैं।'",
+          "Japanese": "「今は10時15分前です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "It is quarter to ten."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'There is a clock on the wall.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दीवार पर एक घड़ी है।'",
+          "Japanese": "「壁に時計があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "There is a clock on the wall."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'School starts at eight o’clock.'",
+        "question_translation": {
+          "Hindi": "कहें: 'स्कूल आठ बजे शुरू होता है।'",
+          "Japanese": "「学校は8時に始まります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "School starts at eight o’clock."
+      }
+    ]
+  }
 }

@@ -5,32 +5,144 @@
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "red", "meaning": "the color of apples or tomatoes" },
-      { "word": "blue", "meaning": "the color of the sky" },
-      { "word": "green", "meaning": "the color of grass" },
-      { "word": "yellow", "meaning": "the color of the sun or bananas" },
-      { "word": "black", "meaning": "the color of night" },
-      { "word": "white", "meaning": "the color of milk or snow" },
-      { "word": "orange", "meaning": "the color of an orange fruit" },
-      { "word": "brown", "meaning": "the color of chocolate or wood" },
-      { "word": "pink", "meaning": "a light red color" },
-      { "word": "purple", "meaning": "the color of some grapes" }
+      {
+        "word": "red",
+        "word_translation": { "Hindi": "लाल", "Japanese": "赤" },
+        "meaning": "The color of apples or tomatoes.",
+        "meaning_translation": { "Hindi": "सेब या टमाटर का रंग।", "Japanese": "りんごやトマトの色。" },
+        "examples": [
+          {
+            "sentence": "I like red apples.",
+            "translation": { "Hindi": "मुझे लाल सेब पसंद हैं।", "Japanese": "私は赤いりんごが好きです。" }
+          }
+        ]
+      },
+      {
+        "word": "blue",
+        "word_translation": { "Hindi": "नीला", "Japanese": "青" },
+        "meaning": "The color of the sky.",
+        "meaning_translation": { "Hindi": "आसमान का रंग।", "Japanese": "空の色。" },
+        "examples": [
+          {
+            "sentence": "The sky is blue.",
+            "translation": { "Hindi": "आसमान नीला है।", "Japanese": "空は青いです。" }
+          }
+        ]
+      },
+      {
+        "word": "green",
+        "word_translation": { "Hindi": "हरा", "Japanese": "緑" },
+        "meaning": "The color of grass.",
+        "meaning_translation": { "Hindi": "घास का रंग।", "Japanese": "草の色。" },
+        "examples": [
+          {
+            "sentence": "The grass is green.",
+            "translation": { "Hindi": "घास हरी है।", "Japanese": "草は緑です。" }
+          }
+        ]
+      },
+      {
+        "word": "yellow",
+        "word_translation": { "Hindi": "पीला", "Japanese": "黄色" },
+        "meaning": "The color of the sun or bananas.",
+        "meaning_translation": { "Hindi": "सूरज या केले का रंग।", "Japanese": "太陽やバナナの色。" },
+        "examples": [
+          {
+            "sentence": "Bananas are yellow.",
+            "translation": { "Hindi": "केले पीले हैं।", "Japanese": "バナナは黄色です。" }
+          }
+        ]
+      },
+      {
+        "word": "black",
+        "word_translation": { "Hindi": "काला", "Japanese": "黒" },
+        "meaning": "The color of night.",
+        "meaning_translation": { "Hindi": "रात का रंग।", "Japanese": "夜の色。" },
+        "examples": [
+          {
+            "sentence": "The night is black.",
+            "translation": { "Hindi": "रात काली है।", "Japanese": "夜は黒いです。" }
+          }
+        ]
+      },
+      {
+        "word": "white",
+        "word_translation": { "Hindi": "सफेद", "Japanese": "白" },
+        "meaning": "The color of milk or snow.",
+        "meaning_translation": { "Hindi": "दूध या बर्फ का रंग।", "Japanese": "牛乳や雪の色。" },
+        "examples": [
+          {
+            "sentence": "Milk is white.",
+            "translation": { "Hindi": "दूध सफेद है।", "Japanese": "牛乳は白いです。" }
+          }
+        ]
+      },
+      {
+        "word": "orange",
+        "word_translation": { "Hindi": "नारंगी", "Japanese": "オレンジ" },
+        "meaning": "The color of an orange fruit.",
+        "meaning_translation": { "Hindi": "संतरे का रंग।", "Japanese": "オレンジの色。" },
+        "examples": [
+          {
+            "sentence": "Oranges are orange.",
+            "translation": { "Hindi": "संतरे नारंगी हैं।", "Japanese": "オレンジはオレンジ色です。" }
+          }
+        ]
+      },
+      {
+        "word": "brown",
+        "word_translation": { "Hindi": "भूरा", "Japanese": "茶色" },
+        "meaning": "The color of chocolate or wood.",
+        "meaning_translation": { "Hindi": "चॉकलेट या लकड़ी का रंग।", "Japanese": "チョコレートや木の色。" },
+        "examples": [
+          {
+            "sentence": "Chocolate is brown.",
+            "translation": { "Hindi": "चॉकलेट भूरी होती है।", "Japanese": "チョコレートは茶色です。" }
+          }
+        ]
+      },
+      {
+        "word": "pink",
+        "word_translation": { "Hindi": "गुलाबी", "Japanese": "ピンク" },
+        "meaning": "A light red color.",
+        "meaning_translation": { "Hindi": "हल्का लाल रंग।", "Japanese": "明るい赤色。" },
+        "examples": [
+          {
+            "sentence": "She likes pink flowers.",
+            "translation": { "Hindi": "उसे गुलाबी फूल पसंद हैं।", "Japanese": "彼女はピンクの花が好きです。" }
+          }
+        ]
+      },
+      {
+        "word": "purple",
+        "word_translation": { "Hindi": "बैंगनी", "Japanese": "紫" },
+        "meaning": "The color of some grapes.",
+        "meaning_translation": { "Hindi": "कुछ अंगूर का रंग।", "Japanese": "ぶどうの色。" },
+        "examples": [
+          {
+            "sentence": "Grapes can be purple.",
+            "translation": { "Hindi": "अंगूर बैंगनी हो सकते हैं।", "Japanese": "ぶどうは紫色のこともあります。" }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
         "title": "Adjectives before nouns",
-        "explanation": "Put color words before the thing. Example: red apple, blue sky."
+        "explanation": "Put color words before the thing. Example: red apple, blue sky.",
+        "explanation_translation": {
+          "Hindi": "रंग के शब्द हमेशा वस्तु से पहले आते हैं। उदाहरण: लाल सेब, नीला आकाश।",
+          "Japanese": "色の単語は名詞の前に置きます。例：赤いりんご、青い空。"
+        }
       },
       {
         "title": "Using 'is' for color",
-        "explanation": "Use 'is' to tell the color of one thing. Example: The apple is red."
+        "explanation": "Use 'is' to tell the color of one thing. Example: The apple is red.",
+        "explanation_translation": {
+          "Hindi": "किसी एक चीज़ का रंग बताने के लिए 'is' का प्रयोग करें। उदाहरण: The apple is red.",
+          "Japanese": "1つの物の色を言う時は「is」を使います。例：The apple is red."
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "The sky is blue.", "translation": "" },
-      { "sentence": "Bananas are yellow.", "translation": "" },
-      { "sentence": "My shirt is white.", "translation": "" },
-      { "sentence": "She likes pink flowers.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -39,6 +151,10 @@
         "id": "vocab1",
         "type": "multipleChoice",
         "question": "Which color is the sky?",
+        "question_translation": {
+          "Hindi": "आसमान किस रंग का है?",
+          "Japanese": "空は何色ですか？"
+        },
         "options": ["Blue", "Red", "Green"],
         "answer": 0
       },
@@ -46,6 +162,10 @@
         "id": "vocab2",
         "type": "fillInTheBlanks",
         "question": "Chocolate is ___.",
+        "question_translation": {
+          "Hindi": "चॉकलेट ___ है।",
+          "Japanese": "チョコレートは___です。"
+        },
         "options": ["brown", "pink", "black"],
         "answer": 0
       },
@@ -53,6 +173,10 @@
         "id": "vocab3",
         "type": "multipleChoice",
         "question": "Which color is a banana?",
+        "question_translation": {
+          "Hindi": "केला किस रंग का होता है?",
+          "Japanese": "バナナは何色ですか？"
+        },
         "options": ["Purple", "Yellow", "Blue"],
         "answer": 1
       },
@@ -60,6 +184,10 @@
         "id": "vocab4",
         "type": "trueFalse",
         "question": "Grass is usually green.",
+        "question_translation": {
+          "Hindi": "घास आमतौर पर हरी होती है।",
+          "Japanese": "草は普通緑色です。"
+        },
         "options": ["True", "False"],
         "answer": 0
       },
@@ -67,6 +195,10 @@
         "id": "vocab5",
         "type": "multipleChoice",
         "question": "Which color is made by mixing red and white?",
+        "question_translation": {
+          "Hindi": "लाल और सफेद मिलाने से कौन सा रंग बनता है?",
+          "Japanese": "赤と白を混ぜると何色になりますか？"
+        },
         "options": ["Pink", "Orange", "Brown"],
         "answer": 0
       }
@@ -76,6 +208,10 @@
         "id": "sent1",
         "type": "fillInTheBlanks",
         "question": "The ___ is black. (night)",
+        "question_translation": {
+          "Hindi": "___ काली है। (रात)",
+          "Japanese": "___は黒いです。（夜）"
+        },
         "options": ["apple", "sky", "night"],
         "answer": 2
       },
@@ -83,6 +219,10 @@
         "id": "sent2",
         "type": "fillInTheBlanks",
         "question": "She has a ___ dress. (red)",
+        "question_translation": {
+          "Hindi": "उसकी ___ ड्रेस है। (लाल)",
+          "Japanese": "彼女は___ドレスを持っています。（赤）"
+        },
         "options": ["red", "blue", "green"],
         "answer": 0
       },
@@ -90,6 +230,10 @@
         "id": "sent3",
         "type": "sentenceRearranging",
         "question": "Arrange: [is, white, Milk]",
+        "question_translation": {
+          "Hindi": "क्रम लगाएँ: [is, white, Milk]",
+          "Japanese": "並べ替えてください: [is, white, Milk]"
+        },
         "options": ["is", "white", "Milk"],
         "answer": ["Milk", "is", "white"]
       },
@@ -97,6 +241,10 @@
         "id": "sent4",
         "type": "fillInTheBlanks",
         "question": "Oranges are ___.",
+        "question_translation": {
+          "Hindi": "संतरे ___ हैं।",
+          "Japanese": "オレンジは___です。"
+        },
         "options": ["orange", "purple", "brown"],
         "answer": 0
       },
@@ -104,6 +252,10 @@
         "id": "sent5",
         "type": "sentenceRearranging",
         "question": "Arrange: [are, green, Leaves]",
+        "question_translation": {
+          "Hindi": "क्रम लगाएँ: [are, green, Leaves]",
+          "Japanese": "並べ替えてください: [are, green, Leaves]"
+        },
         "options": ["are", "green", "Leaves"],
         "answer": ["Leaves", "are", "green"]
       }
@@ -112,35 +264,60 @@
       {
         "id": "listen1",
         "type": "listening",
-        "question": "What color did the speaker say? (Audio: 'The sky is blue.')",
+        "question": "What color is the sky?",
+        "question_translation": {
+          "Hindi": "आसमान किस रंग का है?",
+          "Japanese": "空は何色ですか？"
+        },
+        "audio_text": "The sky is blue.",
         "options": ["Blue", "Red", "Yellow"],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "listening",
-        "question": "Which fruit is yellow? (Audio: 'Bananas are yellow.')",
+        "question": "Which fruit is yellow?",
+        "question_translation": {
+          "Hindi": "कौन सा फल पीला होता है?",
+          "Japanese": "どの果物が黄色ですか？"
+        },
+        "audio_text": "Bananas are yellow.",
         "options": ["Banana", "Apple", "Grape"],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "listening",
-        "question": "What color is the flower? (Audio: 'She likes pink flowers.')",
+        "question": "What color are the flowers she likes?",
+        "question_translation": {
+          "Hindi": "उसे कौन से रंग के फूल पसंद हैं?",
+          "Japanese": "彼女が好きな花は何色ですか？"
+        },
+        "audio_text": "She likes pink flowers.",
         "options": ["Pink", "White", "Brown"],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "listening",
-        "question": "What color is chocolate? (Audio: 'Chocolate is brown.')",
+        "question": "What color is chocolate?",
+        "question_translation": {
+          "Hindi": "चॉकलेट किस रंग की होती है?",
+          "Japanese": "チョコレートは何色ですか？"
+        },
+        "audio_text": "Chocolate is brown.",
         "options": ["Pink", "Brown", "Orange"],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "listening",
-        "question": "What is the color of milk? (Audio: 'Milk is white.')",
+        "question": "What is the color of milk?",
+        "question_translation": {
+          "Hindi": "दूध किस रंग का है?",
+          "Japanese": "牛乳は何色ですか？"
+        },
+        "audio_text": "Milk is white.",
         "options": ["White", "Green", "Red"],
         "answer": 0
       }
@@ -150,6 +327,10 @@
         "id": "speak1",
         "type": "speaking",
         "question": "Say: 'The sky is blue.'",
+        "question_translation": {
+          "Hindi": "कहें: 'आसमान नीला है।'",
+          "Japanese": "「空は青いです」と言ってください。"
+        },
         "options": [],
         "answer": "The sky is blue."
       },
@@ -157,6 +338,10 @@
         "id": "speak2",
         "type": "speaking",
         "question": "Say: 'My shirt is white.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरी शर्ट सफेद है।'",
+          "Japanese": "「私のシャツは白いです」と言ってください。"
+        },
         "options": [],
         "answer": "My shirt is white."
       },
@@ -164,6 +349,10 @@
         "id": "speak3",
         "type": "speaking",
         "question": "Say: 'Bananas are yellow.'",
+        "question_translation": {
+          "Hindi": "कहें: 'केले पीले हैं।'",
+          "Japanese": "「バナナは黄色です」と言ってください。"
+        },
         "options": [],
         "answer": "Bananas are yellow."
       },
@@ -171,6 +360,10 @@
         "id": "speak4",
         "type": "speaking",
         "question": "Say: 'I like red apples.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे लाल सेब पसंद हैं।'",
+          "Japanese": "「私は赤いりんごが好きです」と言ってください。"
+        },
         "options": [],
         "answer": "I like red apples."
       },
@@ -178,6 +371,10 @@
         "id": "speak5",
         "type": "speaking",
         "question": "Say: 'She likes pink flowers.'",
+        "question_translation": {
+          "Hindi": "कहें: 'उसे गुलाबी फूल पसंद हैं।'",
+          "Japanese": "「彼女はピンクの花が好きです」と言ってください。"
+        },
         "options": [],
         "answer": "She likes pink flowers."
       }

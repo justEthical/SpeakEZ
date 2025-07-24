@@ -358,7 +358,7 @@
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
+        "type": "multipleChoice",
 
         "question": "What did the speaker say?",
         "audio_text": "Hello",
@@ -375,7 +375,7 @@
       },
       {
         "id": "listen2",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "Which greeting did you hear?",
         "audio_text": "Good morning",
         "question_translation": {
@@ -391,7 +391,7 @@
       },
       {
         "id": "listen3",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "What is the person's name?",
         "audio_text": "My name is Mark.",
         "question_translation": {
@@ -407,7 +407,7 @@
       },
       {
         "id": "listen4",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "Did the speaker say 'Nice to meet you'?",
         "audio_text": "Nice to meet you",
         "question_translation": {
@@ -423,7 +423,7 @@
       },
       {
         "id": "listen5",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "What time of day was the greeting?",
         "audio_text":"Good morning",
         "question_translation": {

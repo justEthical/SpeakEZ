@@ -5,32 +5,234 @@
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "house", "meaning": "a place where you live" },
-      { "word": "home", "meaning": "the place you live with your family" },
-      { "word": "room", "meaning": "a part of a house" },
-      { "word": "kitchen", "meaning": "the room where you cook food" },
-      { "word": "bedroom", "meaning": "the room where you sleep" },
-      { "word": "bathroom", "meaning": "the room where you wash" },
-      { "word": "living room", "meaning": "the room where you sit and talk" },
-      { "word": "garden", "meaning": "an area with plants near your house" },
-      { "word": "window", "meaning": "an opening in the wall to let in light" },
-      { "word": "door", "meaning": "the part you open to go in or out" }
+      {
+        "word": "house",
+        "word_translation": {
+          "Hindi": "मकान",
+          "Japanese": "家"
+        },
+        "meaning": "a building where people live, usually a family",
+        "meaning_translation": {
+          "Hindi": "एक इमारत जहाँ लोग (अक्सर परिवार) रहते हैं",
+          "Japanese": "人が住む建物、たいてい家族"
+        },
+        "examples": [
+          {
+            "sentence": "Our house is near the park.",
+            "translation": {
+              "Hindi": "हमारा घर पार्क के पास है।",
+              "Japanese": "私たちの家は公園の近くにあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "home",
+        "word_translation": {
+          "Hindi": "घर",
+          "Japanese": "ホーム"
+        },
+        "meaning": "the place where you live and feel comfortable",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप रहते हैं और अपनेपन का अनुभव करते हैं",
+          "Japanese": "あなたが住んでいて、安心できる場所"
+        },
+        "examples": [
+          {
+            "sentence": "I love my home.",
+            "translation": {
+              "Hindi": "मुझे अपना घर पसंद है।",
+              "Japanese": "私は自分の家が大好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "room",
+        "word_translation": {
+          "Hindi": "कमरा",
+          "Japanese": "部屋"
+        },
+        "meaning": "a space in a house with walls, such as a bedroom or kitchen",
+        "meaning_translation": {
+          "Hindi": "घर का एक हिस्सा जिसमें दीवारें होती हैं, जैसे शयनकक्ष या रसोई",
+          "Japanese": "壁に囲まれた空間（寝室や台所など）"
+        },
+        "examples": [
+          {
+            "sentence": "My room is big and bright.",
+            "translation": {
+              "Hindi": "मेरा कमरा बड़ा और रोशन है।",
+              "Japanese": "私の部屋は広くて明るいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "kitchen",
+        "word_translation": {
+          "Hindi": "रसोईघर",
+          "Japanese": "台所"
+        },
+        "meaning": "the room where you cook and prepare food",
+        "meaning_translation": {
+          "Hindi": "वह कमरा जहाँ खाना बनाते हैं",
+          "Japanese": "食事を作る部屋"
+        },
+        "examples": [
+          {
+            "sentence": "There is a fridge in the kitchen.",
+            "translation": {
+              "Hindi": "रसोईघर में एक फ्रिज है।",
+              "Japanese": "台所には冷蔵庫があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bedroom",
+        "word_translation": {
+          "Hindi": "शयनकक्ष",
+          "Japanese": "寝室"
+        },
+        "meaning": "the room where you sleep",
+        "meaning_translation": {
+          "Hindi": "वह कमरा जहाँ आप सोते हैं",
+          "Japanese": "寝る部屋"
+        },
+        "examples": [
+          {
+            "sentence": "My bedroom has a soft bed.",
+            "translation": {
+              "Hindi": "मेरे शयनकक्ष में एक नरम बिस्तर है।",
+              "Japanese": "私の寝室には柔らかいベッドがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bathroom",
+        "word_translation": {
+          "Hindi": "बाथरूम",
+          "Japanese": "お風呂場"
+        },
+        "meaning": "the room where you wash, shower, or bathe",
+        "meaning_translation": {
+          "Hindi": "वह कमरा जहाँ आप नहाते या साफ-सफाई करते हैं",
+          "Japanese": "体を洗ったりシャワーを浴びたりする部屋"
+        },
+        "examples": [
+          {
+            "sentence": "The bathroom is clean and small.",
+            "translation": {
+              "Hindi": "बाथरूम साफ और छोटा है।",
+              "Japanese": "お風呂場はきれいで小さいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "living room",
+        "word_translation": {
+          "Hindi": "बैठक कक्ष",
+          "Japanese": "居間"
+        },
+        "meaning": "the room where you sit, relax, or talk with others",
+        "meaning_translation": {
+          "Hindi": "वह कमरा जहाँ आप बैठते, आराम करते या बातचीत करते हैं",
+          "Japanese": "くつろいだり話をしたりする部屋"
+        },
+        "examples": [
+          {
+            "sentence": "We watch TV in the living room.",
+            "translation": {
+              "Hindi": "हम बैठक कक्ष में टीवी देखते हैं।",
+              "Japanese": "私たちは居間でテレビを見ます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "garden",
+        "word_translation": {
+          "Hindi": "बगीचा",
+          "Japanese": "庭"
+        },
+        "meaning": "an outdoor area with plants, flowers, or trees near your house",
+        "meaning_translation": {
+          "Hindi": "आपके घर के पास पौधों या फूलों का क्षेत्र",
+          "Japanese": "家のそばの植物や花のある場所"
+        },
+        "examples": [
+          {
+            "sentence": "There are flowers in our garden.",
+            "translation": {
+              "Hindi": "हमारे बगीचे में फूल हैं।",
+              "Japanese": "私たちの庭には花があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "window",
+        "word_translation": {
+          "Hindi": "खिड़की",
+          "Japanese": "窓"
+        },
+        "meaning": "an opening in the wall with glass, to let in light and air",
+        "meaning_translation": {
+          "Hindi": "दीवार में बनी हुई काँच वाली जगह, जिससे प्रकाश और हवा आती है",
+          "Japanese": "光や空気を入れるための壁の開口部"
+        },
+        "examples": [
+          {
+            "sentence": "I open the window in the morning.",
+            "translation": {
+              "Hindi": "मैं सुबह में खिड़की खोलता हूँ।",
+              "Japanese": "私は朝、窓を開けます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "door",
+        "word_translation": {
+          "Hindi": "दरवाज़ा",
+          "Japanese": "ドア"
+        },
+        "meaning": "a part of the wall you open to go in or out",
+        "meaning_translation": {
+          "Hindi": "दीवार का वह हिस्सा जिसे आप अंदर-बाहर जाने के लिए खोलते हैं",
+          "Japanese": "部屋に出入りするために開ける部分"
+        },
+        "examples": [
+          {
+            "sentence": "Please close the door.",
+            "translation": {
+              "Hindi": "कृपया दरवाज़ा बंद करें।",
+              "Japanese": "ドアを閉めてください。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
         "title": "Using 'There is/There are'",
-        "explanation": "Use 'There is' for one thing and 'There are' for many. Example: There is a kitchen. There are two windows."
+        "explanation": "Use 'There is' for one thing and 'There are' for more than one. Example: 'There is a kitchen in my house.' 'There are two windows in the room.'",
+        "explanation_translation": {
+          "Hindi": "'There is' का उपयोग एक के लिए और 'There are' का उपयोग एक से अधिक के लिए करें। उदाहरण: 'मेरे घर में एक रसोईघर है।' 'कक्ष में दो खिड़कियाँ हैं।'",
+          "Japanese": "一つの場合は「There is」、複数は「There are」を使います。例: 'There is a kitchen.' 'There are two windows.'"
+        }
       },
       {
         "title": "Using 'my' for things you have",
-        "explanation": "Use 'my' to talk about your house. Example: My house is big. My room is blue."
+        "explanation": "Use 'my' to show something belongs to you. Example: 'My house is big.' 'My bedroom is blue.'",
+        "explanation_translation": {
+          "Hindi": "'my' का उपयोग दिखाने के लिए कि चीज़ आपकी है। उदाहरण: 'मेरा घर बड़ा है।' 'मेरा शयनकक्ष नीला है।'",
+          "Japanese": "「my」は自分のものを表すときに使います。例: 'My house is big.' 'My bedroom is blue.'"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "My house has three rooms.", "translation": "मेरे घर में तीन कमरे हैं।" },
-      { "sentence": "There is a kitchen in my house.", "translation": "मेरे घर में एक रसोईघर है।" },
-      { "sentence": "The bathroom is small.", "translation": "बाथरूम छोटा है।" },
-      { "sentence": "We sit in the living room.", "translation": "हम बैठक कक्ष में बैठते हैं।" }
     ]
   },
   "question_pools": {
@@ -39,6 +241,10 @@
         "id": "vocab1",
         "type": "multipleChoice",
         "question": "Which room do you sleep in?",
+        "question_translation": {
+          "Hindi": "आप किस कमरे में सोते हैं?",
+          "Japanese": "どの部屋で寝ますか？"
+        },
         "options": ["Kitchen", "Bedroom", "Bathroom"],
         "answer": 1
       },
@@ -46,6 +252,10 @@
         "id": "vocab2",
         "type": "fillInTheBlanks",
         "question": "You cook food in the ___.",
+        "question_translation": {
+          "Hindi": "आप ___ में खाना बनाते हैं।",
+          "Japanese": "___で料理をします。"
+        },
         "options": ["kitchen", "garden", "window"],
         "answer": 0
       },
@@ -53,6 +263,10 @@
         "id": "vocab3",
         "type": "multipleChoice",
         "question": "Which part do you open to go in or out?",
+        "question_translation": {
+          "Hindi": "अंदर या बाहर जाने के लिए आप किस चीज़ को खोलते हैं?",
+          "Japanese": "出入りする時に開けるものは何ですか？"
+        },
         "options": ["Door", "Room", "Window"],
         "answer": 0
       },
@@ -60,6 +274,10 @@
         "id": "vocab4",
         "type": "trueFalse",
         "question": "A garden is usually inside the house.",
+        "question_translation": {
+          "Hindi": "क्या बगीचा आमतौर पर घर के अंदर होता है?",
+          "Japanese": "庭は普通家の中にありますか？"
+        },
         "options": ["True", "False"],
         "answer": 1
       },
@@ -67,6 +285,10 @@
         "id": "vocab5",
         "type": "multipleChoice",
         "question": "Where do you wash?",
+        "question_translation": {
+          "Hindi": "आप कहाँ नहाते या साफ-सफाई करते हैं?",
+          "Japanese": "どこで体を洗いますか？"
+        },
         "options": ["Bedroom", "Bathroom", "Living room"],
         "answer": 1
       }
@@ -75,14 +297,22 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "My house has two ___. (bathrooms)",
+        "question": "My house has two ___.",
+        "question_translation": {
+          "Hindi": "मेरे घर में दो ___ हैं।",
+          "Japanese": "私の家には___が二つあります。"
+        },
         "options": ["kitchens", "bedrooms", "bathrooms"],
         "answer": 2
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "There is a ___ in my house. (garden)",
+        "question": "There is a ___ in my house.",
+        "question_translation": {
+          "Hindi": "मेरे घर में एक ___ है।",
+          "Japanese": "私の家には___があります。"
+        },
         "options": ["room", "kitchen", "garden"],
         "answer": 2
       },
@@ -90,6 +320,10 @@
         "id": "sent3",
         "type": "sentenceRearranging",
         "question": "Arrange: [my, is, blue, room]",
+        "question_translation": {
+          "Hindi": "[my, is, blue, room] को क्रम में लगाएं।",
+          "Japanese": "[my, is, blue, room]を並べ替えましょう。"
+        },
         "options": ["my", "is", "blue", "room"],
         "answer": ["My", "room", "is", "blue"]
       },
@@ -97,6 +331,10 @@
         "id": "sent4",
         "type": "fillInTheBlanks",
         "question": "We sit in the ___.",
+        "question_translation": {
+          "Hindi": "हम ___ में बैठते हैं।",
+          "Japanese": "私たちは___で座ります。"
+        },
         "options": ["living room", "bathroom", "garden"],
         "answer": 0
       },
@@ -104,6 +342,10 @@
         "id": "sent5",
         "type": "sentenceRearranging",
         "question": "Arrange: [has, My, rooms, three, house]",
+        "question_translation": {
+          "Hindi": "[has, My, rooms, three, house] को क्रम में लगाएं।",
+          "Japanese": "[has, My, rooms, three, house]を並べ替えましょう。"
+        },
         "options": ["has", "My", "rooms", "three", "house"],
         "answer": ["My", "house", "has", "three", "rooms"]
       }
@@ -111,36 +353,61 @@
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "Which room did the speaker mention? (Audio: 'The kitchen is big.')",
+        "type": "multipleChoice",
+        "question": "Which room did the speaker mention?",
+        "audio_text": "The kitchen is big.",
+        "question_translation": {
+          "Hindi": "वक्ता ने किस कमरे का उल्लेख किया?",
+          "Japanese": "話者はどの部屋について言いましたか？"
+        },
         "options": ["Kitchen", "Bedroom", "Bathroom"],
         "answer": 0
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "How many rooms are in the house? (Audio: 'My house has three rooms.')",
+        "type": "multipleChoice",
+        "question": "How many rooms are in the house?",
+        "audio_text": "My house has three rooms.",
+        "question_translation": {
+          "Hindi": "घर में कितने कमरे हैं?",
+          "Japanese": "家には部屋がいくつありますか？"
+        },
         "options": ["Two", "Three", "Four"],
         "answer": 1
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "Where do we sit? (Audio: 'We sit in the living room.')",
+        "type": "multipleChoice",
+        "question": "Where do we sit?",
+        "audio_text": "We sit in the living room.",
+        "question_translation": {
+          "Hindi": "हम कहाँ बैठते हैं?",
+          "Japanese": "どこで座りますか？"
+        },
         "options": ["Living room", "Bathroom", "Garden"],
         "answer": 0
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "Which part lets in light? (Audio: 'There are two windows in my house.')",
+        "type": "multipleChoice",
+        "question": "Which part lets in light?",
+        "audio_text": "There are two windows in my house.",
+        "question_translation": {
+          "Hindi": "कौन सी चीज़ घर में प्रकाश लाती है?",
+          "Japanese": "家に光を入れるものは何ですか？"
+        },
         "options": ["Door", "Window", "Room"],
         "answer": 1
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "Which room is small? (Audio: 'The bathroom is small.')",
+        "type": "multipleChoice",
+        "question": "Which room is small?",
+        "audio_text": "The bathroom is small.",
+        "question_translation": {
+          "Hindi": "कौन सा कमरा छोटा है?",
+          "Japanese": "どの部屋が小さいですか？"
+        },
         "options": ["Kitchen", "Bedroom", "Bathroom"],
         "answer": 2
       }
@@ -150,36 +417,56 @@
         "id": "speak1",
         "type": "speaking",
         "question": "Say: 'My house has three rooms.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे घर में तीन कमरे हैं।'",
+          "Japanese": "「My house has three rooms.」と言ってください。"
+        },
         "options": [],
-        "answer": "My house has three rooms."
+        "answer": "My house has three rooms"
       },
       {
         "id": "speak2",
         "type": "speaking",
         "question": "Say: 'There is a kitchen in my house.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे घर में एक रसोईघर है।'",
+          "Japanese": "「There is a kitchen in my house.」と言ってください。"
+        },
         "options": [],
-        "answer": "There is a kitchen in my house."
+        "answer": "There is a kitchen in my house"
       },
       {
         "id": "speak3",
         "type": "speaking",
         "question": "Say: 'We sit in the living room.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम बैठक कक्ष में बैठते हैं।'",
+          "Japanese": "「We sit in the living room.」と言ってください。"
+        },
         "options": [],
-        "answer": "We sit in the living room."
+        "answer": "We sit in the living room"
       },
       {
         "id": "speak4",
         "type": "speaking",
         "question": "Say: 'The bathroom is small.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बाथरूम छोटा है।'",
+          "Japanese": "「The bathroom is small.」と言ってください。"
+        },
         "options": [],
-        "answer": "The bathroom is small."
+        "answer": "The bathroom is small"
       },
       {
         "id": "speak5",
         "type": "speaking",
         "question": "Say: 'My room is blue.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा कमरा नीला है।'",
+          "Japanese": "「My room is blue.」と言ってください。"
+        },
         "options": [],
-        "answer": "My room is blue."
+        "answer": "My room is blue"
       }
     ]
   }

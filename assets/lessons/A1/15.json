@@ -1,4 +1,473 @@
 {
-  "id": 15,
-  "message": "This is file number 15"
+  "id": "lesson_animals_pets_farm_001",
+  "lesson_name": "Animals (Pets & Farm)",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "dog",
+        "word_translation": {
+          "Hindi": "कुत्ता",
+          "Japanese": "犬"
+        },
+        "meaning": "a common pet animal that barks",
+        "meaning_translation": {
+          "Hindi": "एक आम पालतू जानवर जो भौंकता है",
+          "Japanese": "よく飼われている、ほえる動物"
+        },
+        "examples": [
+          {
+            "sentence": "The dog runs in the garden.",
+            "translation": {
+              "Hindi": "कुत्ता बगीचे में दौड़ता है।",
+              "Japanese": "犬は庭を走ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cat",
+        "word_translation": {
+          "Hindi": "बिल्ली",
+          "Japanese": "猫"
+        },
+        "meaning": "a small pet animal with soft fur that says 'meow'",
+        "meaning_translation": {
+          "Hindi": "छोटा पालतू जानवर जिसके मुलायम बाल होते हैं और 'म्याऊं' बोलता है",
+          "Japanese": "柔らかい毛のある小さい動物、「ニャー」と鳴く"
+        },
+        "examples": [
+          {
+            "sentence": "The cat sleeps on the sofa.",
+            "translation": {
+              "Hindi": "बिल्ली सोफ़ा पर सोती है।",
+              "Japanese": "猫はソファで寝ます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cow",
+        "word_translation": {
+          "Hindi": "गाय",
+          "Japanese": "牛"
+        },
+        "meaning": "a large farm animal that gives milk",
+        "meaning_translation": {
+          "Hindi": "एक बड़ा पालतू जानवर जो दूध देता है",
+          "Japanese": "大きくてミルクをくれる家畜"
+        },
+        "examples": [
+          {
+            "sentence": "The cow eats grass in the field.",
+            "translation": {
+              "Hindi": "गाय खेत में घास खाती है।",
+              "Japanese": "牛は野原で草を食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "goat",
+        "word_translation": {
+          "Hindi": "बकरी",
+          "Japanese": "やぎ"
+        },
+        "meaning": "a farm animal with horns that eats grass",
+        "meaning_translation": {
+          "Hindi": "एक सींगों वाला पालतू जानवर जो घास खाता है",
+          "Japanese": "角があって草を食べる家畜"
+        },
+        "examples": [
+          {
+            "sentence": "The goat jumps over the rock.",
+            "translation": {
+              "Hindi": "बकरी पत्थर के ऊपर कूदती है।",
+              "Japanese": "やぎは石の上を飛び越えます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sheep",
+        "word_translation": {
+          "Hindi": "भेड़",
+          "Japanese": "ひつじ"
+        },
+        "meaning": "a farm animal with thick wool",
+        "meaning_translation": {
+          "Hindi": "मोटी ऊन वाला पालतू जानवर",
+          "Japanese": "厚い毛（ウール）のある家畜"
+        },
+        "examples": [
+          {
+            "sentence": "Sheep give us wool.",
+            "translation": {
+              "Hindi": "भेड़ हमें ऊन देती हैं।",
+              "Japanese": "ひつじはウールをくれます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "horse",
+        "word_translation": {
+          "Hindi": "घोड़ा",
+          "Japanese": "馬"
+        },
+        "meaning": "a large animal that people can ride",
+        "meaning_translation": {
+          "Hindi": "एक बड़ा जानवर जिस पर लोग सवारी करते हैं",
+          "Japanese": "人が乗れる大きな動物"
+        },
+        "examples": [
+          {
+            "sentence": "The horse runs very fast.",
+            "translation": {
+              "Hindi": "घोड़ा बहुत तेज दौड़ता है।",
+              "Japanese": "馬はとても速く走ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hen",
+        "word_translation": {
+          "Hindi": "मुर्गी",
+          "Japanese": "めんどり"
+        },
+        "meaning": "a farm bird that lays eggs",
+        "meaning_translation": {
+          "Hindi": "एक पक्षी जो अंडे देती है",
+          "Japanese": "卵を産む家畜の鳥"
+        },
+        "examples": [
+          {
+            "sentence": "The hen lays eggs.",
+            "translation": {
+              "Hindi": "मुर्गी अंडे देती है।",
+              "Japanese": "めんどりは卵を産みます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "duck",
+        "word_translation": {
+          "Hindi": "बत्तख",
+          "Japanese": "あひる"
+        },
+        "meaning": "a water bird with a flat beak and webbed feet",
+        "meaning_translation": {
+          "Hindi": "एक जल पक्षी जिसकी चौड़ी चोंच और झिल्लीदार पैर होते हैं",
+          "Japanese": "平たいくちばしと水かきの足を持つ鳥"
+        },
+        "examples": [
+          {
+            "sentence": "The duck swims in the pond.",
+            "translation": {
+              "Hindi": "बत्तख तालाब में तैरती है।",
+              "Japanese": "あひるは池で泳ぎます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rabbit",
+        "word_translation": {
+          "Hindi": "खरगोश",
+          "Japanese": "うさぎ"
+        },
+        "meaning": "a small animal with long ears and soft fur",
+        "meaning_translation": {
+          "Hindi": "लंबे कान और मुलायम बालों वाला जानवर",
+          "Japanese": "長い耳と柔らかい毛のある小さい動物"
+        },
+        "examples": [
+          {
+            "sentence": "The rabbit eats carrots.",
+            "translation": {
+              "Hindi": "खरगोश गाजर खाता है।",
+              "Japanese": "うさぎはにんじんを食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parrot",
+        "word_translation": {
+          "Hindi": "तोता",
+          "Japanese": "オウム"
+        },
+        "meaning": "a colorful bird that can talk or repeat sounds",
+        "meaning_translation": {
+          "Hindi": "रंगीन पक्षी जो बोल सकता है या आवाज़ दोहरा सकता है",
+          "Japanese": "しゃべったり音をまねたりできるカラフルな鳥"
+        },
+        "examples": [
+          {
+            "sentence": "The parrot is green and red.",
+            "translation": {
+              "Hindi": "तोता हरा और लाल होता है।",
+              "Japanese": "オウムは緑と赤です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about animals: has/have",
+        "explanation": "Use 'has' for he/she/it and 'have' for I/you/we/they. Example: 'The dog has a tail.' 'We have two cats.'",
+        "explanation_translation": {
+          "Hindi": "'he/she/it' के लिए 'has' और 'I/you/we/they' के लिए 'have' का उपयोग करें। उदाहरण: 'The dog has a tail.' 'We have two cats.'",
+          "Japanese": "he/she/it には 'has'、I/you/we/they には 'have' を使います。例: 'The dog has a tail.' 'We have two cats.'"
+        }
+      },
+      {
+        "title": "Describing animal sounds",
+        "explanation": "Different animals make different sounds. Example: 'Dogs bark.' 'Cats meow.' 'Cows moo.'",
+        "explanation_translation": {
+          "Hindi": "अलग-अलग जानवर अलग आवाज़ निकालते हैं। उदाहरण: 'Dogs bark.' 'Cats meow.' 'Cows moo.'",
+          "Japanese": "動物によって鳴き声が違います。例: 'Dogs bark.' 'Cats meow.' 'Cows moo.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which animal gives us milk?",
+        "question_translation": {
+          "Hindi": "कौन सा जानवर हमें दूध देता है?",
+          "Japanese": "どの動物が牛乳をくれますか？"
+        },
+        "options": ["Cow", "Rabbit", "Dog"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ barks.",
+        "question_translation": {
+          "Hindi": "___ भौंकता है।",
+          "Japanese": "___はほえます。"
+        },
+        "options": ["dog", "cat", "parrot"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which one is a pet animal?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन पालतू जानवर है?",
+          "Japanese": "どれがペットですか？"
+        },
+        "options": ["Goat", "Dog", "Sheep"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which animal lives in water and on land?",
+        "question_translation": {
+          "Hindi": "कौन सा जानवर पानी और जमीन दोनों में रहता है?",
+          "Japanese": "どの動物が水にも陸にも住んでいますか？"
+        },
+        "options": ["Duck", "Cat", "Horse"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A rabbit can fly.",
+        "question_translation": {
+          "Hindi": "क्या खरगोश उड़ सकता है?",
+          "Japanese": "うさぎは飛べますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ lays eggs. (hen)",
+        "question_translation": {
+          "Hindi": "___ अंडे देती है।",
+          "Japanese": "___は卵を産みます。"
+        },
+        "options": ["goat", "hen", "cat"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Sheep give us ___. (wool)",
+        "question_translation": {
+          "Hindi": "भेड़ हमें ___ देती हैं।",
+          "Japanese": "ひつじは___をくれます。"
+        },
+        "options": ["milk", "wool", "meat"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [barks, the, at, dog, night]",
+        "question_translation": {
+          "Hindi": "[barks, the, at, dog, night] को सही क्रम में लगाएं।",
+          "Japanese": "[barks, the, at, dog, night]を並べ替えましょう。"
+        },
+        "options": ["barks", "the", "at", "dog", "night"],
+        "answer": ["The", "dog", "barks", "at", "night"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The ___ eats carrots. (rabbit)",
+        "question_translation": {
+          "Hindi": "___ गाजर खाता है।",
+          "Japanese": "___はにんじんを食べます。"
+        },
+        "options": ["horse", "dog", "rabbit"],
+        "answer": 2
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [cat, the, on, sofa, sleeps, the]",
+        "question_translation": {
+          "Hindi": "[cat, the, on, sofa, sleeps, the] को सही क्रम में लगाएं।",
+          "Japanese": "[cat, the, on, sofa, sleeps, the]を並び替えましょう。"
+        },
+        "options": ["cat", "the", "on", "sofa", "sleeps", "the"],
+        "answer": ["The", "cat", "sleeps", "on", "the", "sofa"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Which animal did the speaker mention? (Audio: 'The dog runs in the garden.')",
+        "audio_text": "The dog runs in the garden.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा जानवर बताया?",
+          "Japanese": "話者はどの動物について言いましたか？"
+        },
+        "options": ["Cat", "Dog", "Cow"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the hen do? (Audio: 'The hen lays eggs.')",
+        "audio_text": "The hen lays eggs.",
+        "question_translation": {
+          "Hindi": "मुर्गी क्या करती है?",
+          "Japanese": "めんどりは何をしますか？"
+        },
+        "options": ["Lays eggs", "Drinks milk", "Runs fast"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where does the duck swim? (Audio: 'The duck swims in the pond.')",
+        "audio_text": "The duck swims in the pond.",
+        "question_translation": {
+          "Hindi": "बत्तख कहाँ तैरती है?",
+          "Japanese": "あひるはどこで泳ぎますか？"
+        },
+        "options": ["River", "Pond", "Field"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What does the rabbit eat? (Audio: 'The rabbit eats carrots.')",
+        "audio_text": "The rabbit eats carrots.",
+        "question_translation": {
+          "Hindi": "खरगोश क्या खाता है?",
+          "Japanese": "うさぎは何を食べますか？"
+        },
+        "options": ["Grass", "Carrots", "Fish"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the color of the parrot? (Audio: 'The parrot is green and red.')",
+        "audio_text": "The parrot is green and red.",
+        "question_translation": {
+          "Hindi": "तोता किस रंग का है?",
+          "Japanese": "オウムは何色ですか？"
+        },
+        "options": ["Yellow and blue", "Green and red", "Black and white"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The cat sleeps on the sofa.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बिल्ली सोफ़ा पर सोती है।'",
+          "Japanese": "「猫はソファで寝ます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The cat sleeps on the sofa."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The dog has a tail.'",
+        "question_translation": {
+          "Hindi": "कहें: 'कुत्ते की पूंछ होती है।'",
+          "Japanese": "「犬にはしっぽがあります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The dog has a tail."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The cow gives us milk.'",
+        "question_translation": {
+          "Hindi": "कहें: 'गाय हमें दूध देती है।'",
+          "Japanese": "「牛は私たちにミルクをくれます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The cow gives us milk."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The hen lays eggs.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुर्गी अंडे देती है।'",
+          "Japanese": "「めんどりは卵を産みます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The hen lays eggs."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Sheep give us wool.'",
+        "question_translation": {
+          "Hindi": "कहें: 'भेड़ हमें ऊन देती हैं।'",
+          "Japanese": "「ひつじはウールをくれます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Sheep give us wool."
+      }
+    ]
+  }
 }
