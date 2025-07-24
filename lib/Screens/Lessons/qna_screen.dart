@@ -51,6 +51,7 @@ class QnaScreen extends StatelessWidget {
                   itemCount: c.currentQuestionList.length,
                   itemBuilder: (ctx, i) {
                     final question = c.currentQuestionList[i];
+                    question.audioText != null ? c.ttsHelper.speak(question.audioText!) : null; 
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -70,7 +71,8 @@ class QnaScreen extends StatelessWidget {
                                   .questionTranslation!["Hindi"]
                                   .toString(),
                         ),
-                        question.type == QuestionType.listening
+                        SizedBox(height: 10),
+                        question.audioText != null 
                             ? ElevatedButton(
                               style:  ElevatedButton.styleFrom(
                                 backgroundColor: Colors.deepPurple

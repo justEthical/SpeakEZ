@@ -8,6 +8,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
@@ -64,14 +65,23 @@ class GlobalController extends GetxController {
   }
 
   void showSnackbarWithGetX(String title, String message) {
-    Future.delayed(Duration(microseconds: 100), () => Get.snackbar(
-      title,
-      message,
-      backgroundColor: Colors.black,
-      colorText: Colors.white,
-      snackPosition: SnackPosition.BOTTOM,
-    ));
-    
+    Future.delayed(
+      Duration(microseconds: 100),
+      () => Get.snackbar(
+        title,
+        message,
+        backgroundColor: Colors.black,
+        colorText: Colors.white,
+        snackPosition: SnackPosition.BOTTOM,
+      ),
+    );
+  }
+
+  Future<void> openUrl(String urlString) async {
+    final Uri url = Uri.parse(urlString);
+    if (!await launchUrl(url)) {
+      throw Exception('Could not launch $url');
+    }
   }
 }
 

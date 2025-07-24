@@ -140,10 +140,11 @@ class SettingScreens extends StatelessWidget {
               children: [
                 SettingsOptionTile(
                   onTap: () {
+                    globalController.openUrl(AppStrings.privacyPolicyUrl);
                     // Get.to(AboutUsAndPrivacy());
                   },
                   heading: "Help",
-                  content: "About Us & Privacy Policy",
+                  content: "Privacy Policy",
                   icon: AppAssets.helpCircle,
                 ),
                 SettingsOptionTile(
