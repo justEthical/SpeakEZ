@@ -109,9 +109,9 @@ class _ProgressSection extends StatelessWidget {
                   const SizedBox(width: 20),
                   _buildProgressCard(
                     context,
-                    title: "Words Learned",
+                    title: "Coming soon",
                     icon: AppAssets.medal,
-                    progress: "120", // Hardcoded value
+                    progress: "0", // Hardcoded value
                     color: Colors.deepPurple,
                   ),
                 ],

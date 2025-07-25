@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Models/questions_model.dart';
@@ -81,63 +82,68 @@ class _ListOfLessonsState extends State<ListOfLessons> {
             ),
             SizedBox(height: 15),
             Expanded(
-              child: Obx(
-                () => ListView.builder(
-                  itemCount: c.currentLessonNameList.length,
-                  itemBuilder:
-                      (ctx, i) => Container(
-                        width: Get.width - 40,
-                        height: 80,
-                        padding: const EdgeInsets.all(10),
-                        margin: EdgeInsets.only(bottom: 10),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 60,
-                              height: 60,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                color: Colors.deepPurple,
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black45,
-                                    spreadRadius: 1,
-                                    blurRadius: 5,
-                                    offset: Offset(0, 5),
-                                  ),
-                                ],
-                              ),
-                              child: Center(
-                                child: Text(
-                                  (i + 1).toString(),
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.w700,
-                                    fontSize: 20,
-                                  ),
+              child: ListView.builder(
+                itemCount:
+                    AppData
+                        .lessonNames[c.currenEnglishLessonLevel.value]!
+                        .length,
+                itemBuilder:
+                    (ctx, i) => Container(
+                      width: Get.width - 40,
+                      height: 80,
+                      padding: const EdgeInsets.all(10),
+                      margin: EdgeInsets.only(bottom: 10),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 60,
+                            height: 60,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.deepPurple,
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black45,
+                                  spreadRadius: 1,
+                                  blurRadius: 5,
+                                  offset: Offset(0, 5),
                                 ),
-                              ),
-                            ),
-                            SizedBox(width: 10),
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  c.currentLessonNameList[i].toString(),
-                                  style: TextStyle(fontWeight: FontWeight.w700),
-                                ),
-                                Text(c.currenEnglishLessonLevel.value),
                               ],
                             ),
-                          ],
-                        ),
+                            child: Center(
+                              child: Text(
+                                (i + 1).toString(),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 10),
+                          Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                AppData
+                                    .lessonNames[c
+                                        .currenEnglishLessonLevel
+                                        .value]![i]
+                                    .toString(),
+                                style: TextStyle(fontWeight: FontWeight.w700),
+                              ),
+                              Text(c.currenEnglishLessonLevel.value),
+                            ],
+                          ),
+                        ],
                       ),
-                ),
+                    ),
               ),
             ),
           ],
@@ -145,5 +151,4 @@ class _ListOfLessonsState extends State<ListOfLessons> {
       ),
     );
   }
-
 }
