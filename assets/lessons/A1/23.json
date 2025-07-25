@@ -396,7 +396,7 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What is the weather like? (Audio: 'It is windy today.')",
+        "question": "What is the weather like?",
         "audio_text": "It is windy today.",
         "question_translation": {
           "Hindi": "मौसम कैसा है?",
@@ -408,7 +408,7 @@
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Which season is beautiful? (Audio: 'Spring is a beautiful season.')",
+        "question": "Which season is beautiful?",
         "audio_text": "Spring is a beautiful season.",
         "question_translation": {
           "Hindi": "कौन सी ऋतु सुंदर है?",
@@ -420,7 +420,7 @@
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do you use on rainy days? (Audio: 'I use an umbrella on rainy days.')",
+        "question": "What do you use on rainy days?",
         "audio_text": "I use an umbrella on rainy days.",
         "question_translation": {
           "Hindi": "बरसात में आप क्या इस्तेमाल करते हैं?",
@@ -432,7 +432,7 @@
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "When do we eat ice cream? (Audio: 'We eat ice cream in summer.')",
+        "question": "When do we eat ice cream?",
         "audio_text": "We eat ice cream in summer.",
         "question_translation": {
           "Hindi": "हम आइसक्रीम कब खाते हैं?",
@@ -444,7 +444,7 @@
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "When do we wear warm clothes? (Audio: 'We wear warm clothes in winter.')",
+        "question": "When do we wear warm clothes?",
         "audio_text": "We wear warm clothes in winter.",
         "question_translation": {
           "Hindi": "हम गर्म कपड़े कब पहनते हैं?",

@@ -71,10 +71,8 @@ class QuestionOptionsController extends GetxController {
 
   updateLesssonProgress() {
     globalController.userProfile.value.currentEnglishLevelProgress++;
-    if (globalController.userProfile.value.lastActive
-            .difference(DateTime.now())
-            .inDays !=
-        0) {
+    if (globalController.userProfile.value.lastActive.day !=
+        DateTime.now().day) {
       globalController.userProfile.value.currentStreak++;
     }
     globalController.userProfile.value.lastActive = DateTime.now();
@@ -119,7 +117,6 @@ class QuestionOptionsController extends GetxController {
   }
 
   void stopRecording() {
-    
     _timer?.cancel();
     recorder.stop(isFromLesson: true);
     isAudioProcessing.value = true;
@@ -128,8 +125,8 @@ class QuestionOptionsController extends GetxController {
         print(transcriptionText.value);
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
         transcriptionText.value = removeBracketedWords(transcriptionText.value);
-        // removing non alphabet characters like !, @, #, %, comma (,) etc 
-        print(transcriptionText.value); 
+        // removing non alphabet characters like !, @, #, %, comma (,) etc
+        print(transcriptionText.value);
         transcriptionText.value = removeNonAlphabet(transcriptionText.value);
         print(transcriptionText.value);
 
@@ -168,8 +165,7 @@ Mistakes are your secret weapon to get better. 💥
 💡 Keep practicing, and you’ll be surprised how fast you improve!''';
   }
 
-
-var isBottomSheetOpen = false;
+  var isBottomSheetOpen = false;
   void showExitBottomSheet(context) {
     showModalBottomSheet(
       context: context,
@@ -277,11 +273,11 @@ var isBottomSheetOpen = false;
     return (match / correctAnswerList.length) * 100;
   }
 
-String removeNonAlphabet(String input) {
-  return input.replaceAll(RegExp(r'[^a-zA-Z\s]'), '');
-}
+  String removeNonAlphabet(String input) {
+    return input.replaceAll(RegExp(r'[^a-zA-Z\s]'), '');
+  }
 
-  bool isSpeakingQuestionAccurate(double accuracy){
+  bool isSpeakingQuestionAccurate(double accuracy) {
     switch (globalController.userProfile.value.currentEnglishLevel) {
       case "A1":
         return accuracy >= 50;
