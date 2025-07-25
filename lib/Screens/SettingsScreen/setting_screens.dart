@@ -111,20 +111,6 @@ class SettingScreens extends StatelessWidget {
                               ),
                             ),
                           ),
-
-                          // ElevatedButton(
-                          //   onPressed: () {},
-                          //   style: ElevatedButton.styleFrom(
-                          //     backgroundColor: Colors.black,
-                          //     fixedSize: Size(100, 30),
-                          //     padding: EdgeInsets.zero,
-                          //     minimumSize: Size(0, 0),
-                          //   ),
-                          //   child: Text(
-                          //     "Edit",
-                          //     style: TextStyle(color: Colors.white),
-                          //   ),
-                          // ),
                         ],
                       ),
                     ],
