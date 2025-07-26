@@ -19,6 +19,7 @@ class PracticeResultSreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = Get.find<PracticeController>();
     final theme = Theme.of(context);
+    c.updateLesssonProgress();
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,

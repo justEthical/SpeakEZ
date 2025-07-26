@@ -6,13 +6,10 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
-import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
-import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
-import 'package:speak_ez/Utils/custom_loader.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
 

@@ -17,6 +17,7 @@ import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
+import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -241,6 +242,28 @@ class PracticeController extends GetxController {
     });
   }
 
+updateLesssonProgress() {
+    globalController.userProfile.value.currentEnglishLevelProgress++;
+    final lastActive = globalController.userProfile.value.lastActive;
+    final now = DateTime.now();
+    if (!(lastActive.year == now.year &&
+        lastActive.month == now.month &&
+        lastActive.day == now.day)) {
+      globalController.userProfile.value.currentStreak++;
+    }
+
+    
+    globalController.userProfile.value.lastActive = DateTime.now();
+
+    // updating user profile in local storage
+    globalController.prefs?.setString(
+      AppStrings.userProfile,
+      jsonEncode(globalController.userProfile.value.toMap()),
+    );
+
+    // updating user profile in firestore
+    FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
+  }
   void addLastMessage() {
     currentChats.add(
       ChatModel(
