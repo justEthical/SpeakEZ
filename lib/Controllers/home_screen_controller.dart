@@ -5,6 +5,7 @@ import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
+import 'package:speak_ez/Services/firestore_helper.dart';
 
 class HomeScreenController extends GetxController {
   var currenEnglishLessonLevel = "A1".obs;
@@ -49,6 +50,27 @@ class HomeScreenController extends GetxController {
     currenEnglishLessonLevel.value = level;
   }
 
+  void calculateStreak() {
+    final lastActive = globalController.userProfile.value.lastActive;
+    final now = DateTime.now();
+    if (DateTime(now.year, now.month, now.day)
+            .difference(
+              DateTime(lastActive.year, lastActive.month, lastActive.day),
+            )
+            .inDays >
+        1) {
+      globalController.userProfile.value.currentStreak = 0;
+      // updating user profile in local storage
+      globalController.prefs?.setString(
+        AppStrings.userProfile,
+        jsonEncode(globalController.userProfile.value.toMap()),
+      );
+      FirestoreHelper.updateUserField(
+        globalController.userProfile.value.toMap(),
+      );
+    }
+  }
+
   final lessonListPath = {
     'A1': 'assets/lessons/a1.json',
     'A2': 'assets/lessons/a2.json',
@@ -71,5 +93,6 @@ class HomeScreenController extends GetxController {
     globalController.userProfile.value = UserProfileModel.fromMap(
       jsonDecode(profileData!),
     );
+    calculateStreak();
   }
 }

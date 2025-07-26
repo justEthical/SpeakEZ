@@ -43,6 +43,8 @@ class QuestionOptionsController extends GetxController {
   var isLastChunkTranscribed = false.obs;
   late StreamSubscription<bool> sub;
 
+  late Lesson currentLessonModel;
+
   var lessonList = [
     "assets/questions/A1/Greetings & Introductions.json",
     "assets/questions/A1/Talking About Yourself.json",
@@ -71,10 +73,16 @@ class QuestionOptionsController extends GetxController {
 
   updateLesssonProgress() {
     globalController.userProfile.value.currentEnglishLevelProgress++;
-    if (globalController.userProfile.value.lastActive.day !=
-        DateTime.now().day) {
+    final lastActive = globalController.userProfile.value.lastActive;
+    final now = DateTime.now();
+    if (!(lastActive.year == now.year &&
+        lastActive.month == now.month &&
+        lastActive.day == now.day)) {
       globalController.userProfile.value.currentStreak++;
     }
+
+    globalController.userProfile.value.wordLearned +=
+        currentLessonModel.lessonIntro.vocabulary.length;
     globalController.userProfile.value.lastActive = DateTime.now();
 
     // updating user profile in local storage

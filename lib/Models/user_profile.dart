@@ -3,7 +3,7 @@ class UserProfileModel {
   final String currentEnglishLevel;
   int currentEnglishLevelProgress;
   int currentStreak;
-  final int wordLearned;
+  int wordLearned;
   final String displayName;
 
   final String? photoUrl;
