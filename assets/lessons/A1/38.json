@@ -1,4 +1,473 @@
 {
-  "id": 38,
-  "message": "This is file number 38"
+  "id": "lesson_at_the_park_001",
+  "lesson_name": "At the Park",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "park",
+        "word_translation": {
+          "Hindi": "पार्क",
+          "Japanese": "公園"
+        },
+        "meaning": "a place with trees and grass where people relax or play",
+        "meaning_translation": {
+          "Hindi": "पेड़-पौधों और घास वाली जगह जहाँ लोग घूमते या खेलते हैं",
+          "Japanese": "木や草があって、みんなが遊んだり休んだりする場所"
+        },
+        "examples": [
+          {
+            "sentence": "We walk in the park every morning.",
+            "translation": {
+              "Hindi": "हम हर सुबह पार्क में घूमते हैं।",
+              "Japanese": "私たちは毎朝公園を歩きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bench",
+        "word_translation": {
+          "Hindi": "बेंच",
+          "Japanese": "ベンチ"
+        },
+        "meaning": "a long seat for several people",
+        "meaning_translation": {
+          "Hindi": "एक लंबी सीट जिसमें कई लोग बैठ सकते हैं",
+          "Japanese": "何人かで座れる長い椅子"
+        },
+        "examples": [
+          {
+            "sentence": "They sit on the bench.",
+            "translation": {
+              "Hindi": "वे बेंच पर बैठते हैं।",
+              "Japanese": "彼らはベンチに座ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "playground",
+        "word_translation": {
+          "Hindi": "खेल का मैदान",
+          "Japanese": "遊び場"
+        },
+        "meaning": "an area for children to play",
+        "meaning_translation": {
+          "Hindi": "बच्चों के खेलने की जगह",
+          "Japanese": "子どもが遊ぶ場所"
+        },
+        "examples": [
+          {
+            "sentence": "The children play in the playground.",
+            "translation": {
+              "Hindi": "बच्चे खेल के मैदान में खेलते हैं।",
+              "Japanese": "子どもたちは遊び場で遊びます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "swing",
+        "word_translation": {
+          "Hindi": "झूला",
+          "Japanese": "ブランコ"
+        },
+        "meaning": "a seat hanging by ropes for swinging",
+        "meaning_translation": {
+          "Hindi": "रस्सियों से लटकता हुआ झूला",
+          "Japanese": "ロープで吊るされた座って揺れる遊具"
+        },
+        "examples": [
+          {
+            "sentence": "She is on the swing.",
+            "translation": {
+              "Hindi": "वह झूले पर है।",
+              "Japanese": "彼女はブランコに乗っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "slide",
+        "word_translation": {
+          "Hindi": "फिसलपट्टी",
+          "Japanese": "すべり台"
+        },
+        "meaning": "a smooth surface to slide down for fun",
+        "meaning_translation": {
+          "Hindi": "जिस पर बच्चे फिसलते हैं और मज़ा करते हैं",
+          "Japanese": "滑って楽しむ遊具"
+        },
+        "examples": [
+          {
+            "sentence": "Children love the slide.",
+            "translation": {
+              "Hindi": "बच्चों को फिसलपट्टी पसंद है।",
+              "Japanese": "子どもたちはすべり台が大好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "grass",
+        "word_translation": {
+          "Hindi": "घास",
+          "Japanese": "草"
+        },
+        "meaning": "small green plants covering the ground",
+        "meaning_translation": {
+          "Hindi": "जमीन को ढंकने वाली हरी-हरी घास",
+          "Japanese": "地面を覆う緑の草"
+        },
+        "examples": [
+          {
+            "sentence": "We sit on the grass.",
+            "translation": {
+              "Hindi": "हम घास पर बैठते हैं।",
+              "Japanese": "私たちは草の上に座ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tree",
+        "word_translation": {
+          "Hindi": "पेड़",
+          "Japanese": "木"
+        },
+        "meaning": "a large plant with a trunk and branches",
+        "meaning_translation": {
+          "Hindi": "एक बड़ा पौधा जिसमें तना और शाखाएँ होती हैं",
+          "Japanese": "幹と枝がある大きな植物"
+        },
+        "examples": [
+          {
+            "sentence": "There are many trees in the park.",
+            "translation": {
+              "Hindi": "पार्क में कई पेड़ हैं।",
+              "Japanese": "公園にはたくさんの木があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lake",
+        "word_translation": {
+          "Hindi": "झील",
+          "Japanese": "池"
+        },
+        "meaning": "a large area of water in the park",
+        "meaning_translation": {
+          "Hindi": "पार्क में पानी का बड़ा क्षेत्र",
+          "Japanese": "公園の中の大きな水たまり"
+        },
+        "examples": [
+          {
+            "sentence": "There are ducks in the lake.",
+            "translation": {
+              "Hindi": "झील में बतख हैं।",
+              "Japanese": "池にはカモがいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "picnic",
+        "word_translation": {
+          "Hindi": "पिकनिक",
+          "Japanese": "ピクニック"
+        },
+        "meaning": "a meal you eat outside, often on the grass",
+        "meaning_translation": {
+          "Hindi": "खुले में, अक्सर घास पर बैठकर खाया गया खाना",
+          "Japanese": "外で草の上などに座って食べる食事"
+        },
+        "examples": [
+          {
+            "sentence": "We have a picnic in the park.",
+            "translation": {
+              "Hindi": "हम पार्क में पिकनिक मनाते हैं।",
+              "Japanese": "私たちは公園でピクニックをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "walk",
+        "word_translation": {
+          "Hindi": "चलना",
+          "Japanese": "歩く"
+        },
+        "meaning": "to move at a slow pace on foot",
+        "meaning_translation": {
+          "Hindi": "पैरों से धीरे-धीरे आगे बढ़ना",
+          "Japanese": "ゆっくり歩くこと"
+        },
+        "examples": [
+          {
+            "sentence": "I walk with my friends in the park.",
+            "translation": {
+              "Hindi": "मैं अपने दोस्तों के साथ पार्क में चलता हूँ।",
+              "Japanese": "私は友達と公園を歩きます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Describing actions in the park",
+        "explanation": "Use present continuous tense: 'I am walking.' 'She is playing on the swing.'",
+        "explanation_translation": {
+          "Hindi": "पार्क में हो रही क्रिया के लिए 'I am walking.' या 'She is playing on the swing.' कहें।",
+          "Japanese": "公園での行動は「I am walking.」「She is playing on the swing.」など現在進行形を使います。"
+        }
+      },
+      {
+        "title": "Talking about places in the park",
+        "explanation": "Use 'There is/are': 'There is a playground.' 'There are many trees.'",
+        "explanation_translation": {
+          "Hindi": "'There is/are' का उपयोग करें: 'There is a playground.' 'There are many trees.'",
+          "Japanese": "公園の場所について「There is/are」を使います。「There is a playground.」「There are many trees.」"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Where do children play in the park?",
+        "question_translation": {
+          "Hindi": "बच्चे पार्क में कहाँ खेलते हैं?",
+          "Japanese": "子どもたちは公園のどこで遊びますか？"
+        },
+        "options": ["bench", "playground", "lake"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We sit on the ___. (grass)",
+        "question_translation": {
+          "Hindi": "हम ___ पर बैठते हैं।",
+          "Japanese": "私たちは___の上に座ります。"
+        },
+        "options": ["lake", "grass", "tree"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you call a seat hanging by ropes?",
+        "question_translation": {
+          "Hindi": "रस्सी से लटकने वाली सीट को क्या कहते हैं?",
+          "Japanese": "ロープで吊るされた座る遊具は何ですか？"
+        },
+        "options": ["swing", "slide", "bench"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Where do you find ducks in the park?",
+        "question_translation": {
+          "Hindi": "पार्क में बतख कहाँ मिलती हैं?",
+          "Japanese": "公園のどこにカモがいますか？"
+        },
+        "options": ["lake", "bench", "slide"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A picnic is a meal eaten outside.",
+        "question_translation": {
+          "Hindi": "क्या पिकनिक का मतलब है बाहर खाना खाना?",
+          "Japanese": "ピクニックは外で食べる食事ですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Children love the ___. (slide)",
+        "question_translation": {
+          "Hindi": "बच्चों को ___ पसंद है।",
+          "Japanese": "子どもたちは___が好きです。"
+        },
+        "options": ["slide", "bench", "lake"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We walk in the ___. (park)",
+        "question_translation": {
+          "Hindi": "हम ___ में चलते हैं।",
+          "Japanese": "私たちは___を歩きます。"
+        },
+        "options": ["tree", "lake", "park"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [are, the, trees, many, park, in]",
+        "question_translation": {
+          "Hindi": "[are, the, trees, many, park, in] को सही क्रम में लगाएं।",
+          "Japanese": "[are, the, trees, many, park, in]を並べ替えましょう。"
+        },
+        "options": ["are", "the", "trees", "many", "park", "in"],
+        "answer": ["There", "are", "many", "trees", "in", "the", "park"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "They sit on the ___. (bench)",
+        "question_translation": {
+          "Hindi": "वे ___ पर बैठते हैं।",
+          "Japanese": "彼らは___に座ります。"
+        },
+        "options": ["bench", "tree", "swing"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, a, we, picnic, park, the, in]",
+        "question_translation": {
+          "Hindi": "[have, a, we, picnic, park, the, in] को सही क्रम में लगाएं।",
+          "Japanese": "[have, a, we, picnic, park, the, in]を並べ替えましょう。"
+        },
+        "options": ["have", "a", "we", "picnic", "park", "the", "in"],
+        "answer": ["We", "have", "a", "picnic", "in", "the", "park"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Where do we walk every morning? (Audio: 'We walk in the park every morning.')",
+        "audio_text": "We walk in the park every morning.",
+        "question_translation": {
+          "Hindi": "हम हर सुबह कहाँ घूमते हैं?",
+          "Japanese": "私たちは毎朝どこを歩きますか？"
+        },
+        "options": ["playground", "park", "lake"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What is she on? (Audio: 'She is on the swing.')",
+        "audio_text": "She is on the swing.",
+        "question_translation": {
+          "Hindi": "वह किस पर है?",
+          "Japanese": "彼女は何に乗っていますか？"
+        },
+        "options": ["bench", "slide", "swing"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where are there ducks? (Audio: 'There are ducks in the lake.')",
+        "audio_text": "There are ducks in the lake.",
+        "question_translation": {
+          "Hindi": "बतख कहाँ हैं?",
+          "Japanese": "カモはどこにいますか？"
+        },
+        "options": ["grass", "lake", "slide"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What do children love? (Audio: 'Children love the slide.')",
+        "audio_text": "Children love the slide.",
+        "question_translation": {
+          "Hindi": "बच्चों को क्या पसंद है?",
+          "Japanese": "子どもたちは何が好きですか？"
+        },
+        "options": ["lake", "tree", "slide"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What do we do in the park? (Audio: 'We have a picnic in the park.')",
+        "audio_text": "We have a picnic in the park.",
+        "question_translation": {
+          "Hindi": "हम पार्क में क्या करते हैं?",
+          "Japanese": "私たちは公園で何をしますか？"
+        },
+        "options": ["walk", "picnic", "swing"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'We walk in the park every morning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम हर सुबह पार्क में घूमते हैं।'",
+          "Japanese": "「私たちは毎朝公園を歩きます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We walk in the park every morning."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Children love the slide.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बच्चों को फिसलपट्टी पसंद है।'",
+          "Japanese": "「子どもたちはすべり台が大好きです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Children love the slide."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'There are many trees in the park.'",
+        "question_translation": {
+          "Hindi": "कहें: 'पार्क में कई पेड़ हैं।'",
+          "Japanese": "「公園にはたくさんの木があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "There are many trees in the park."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We have a picnic in the park.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम पार्क में पिकनिक मनाते हैं।'",
+          "Japanese": "「私たちは公園でピクニックをします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We have a picnic in the park."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'They sit on the bench.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वे बेंच पर बैठते हैं।'",
+          "Japanese": "「彼らはベンチに座ります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "They sit on the bench."
+      }
+    ]
+  }
 }

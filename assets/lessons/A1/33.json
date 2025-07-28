@@ -1,4 +1,473 @@
 {
-  "id": 33,
-  "message": "This is file number 33"
+  "id": "lesson_languages_001",
+  "lesson_name": "Languages",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "language",
+        "word_translation": {
+          "Hindi": "भाषा",
+          "Japanese": "言語"
+        },
+        "meaning": "the words and grammar people use to talk or write",
+        "meaning_translation": {
+          "Hindi": "लोगों द्वारा बात करने या लिखने के लिए इस्तेमाल किए जाने वाले शब्द और व्याकरण",
+          "Japanese": "話したり書いたりするときに使う言葉と文法"
+        },
+        "examples": [
+          {
+            "sentence": "English is a language.",
+            "translation": {
+              "Hindi": "अंग्रेज़ी एक भाषा है।",
+              "Japanese": "英語は言語です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "speak",
+        "word_translation": {
+          "Hindi": "बोलना",
+          "Japanese": "話す"
+        },
+        "meaning": "to use your voice to say words",
+        "meaning_translation": {
+          "Hindi": "शब्दों को बोलना",
+          "Japanese": "声を使って言葉を話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "I speak English and Hindi.",
+            "translation": {
+              "Hindi": "मैं अंग्रेज़ी और हिंदी बोलता हूँ।",
+              "Japanese": "私は英語と日本語を話します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "read",
+        "word_translation": {
+          "Hindi": "पढ़ना",
+          "Japanese": "読む"
+        },
+        "meaning": "to look at and understand written words",
+        "meaning_translation": {
+          "Hindi": "लिखे हुए शब्दों को देखना और समझना",
+          "Japanese": "書いてある言葉を見て理解すること"
+        },
+        "examples": [
+          {
+            "sentence": "He can read Japanese.",
+            "translation": {
+              "Hindi": "वह जापानी पढ़ सकता है।",
+              "Japanese": "彼は日本語が読めます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "write",
+        "word_translation": {
+          "Hindi": "लिखना",
+          "Japanese": "書く"
+        },
+        "meaning": "to make words on paper or a screen",
+        "meaning_translation": {
+          "Hindi": "कागज़ या स्क्रीन पर शब्द बनाना",
+          "Japanese": "紙や画面に言葉を書くこと"
+        },
+        "examples": [
+          {
+            "sentence": "She can write in English.",
+            "translation": {
+              "Hindi": "वह अंग्रेज़ी में लिख सकती है।",
+              "Japanese": "彼女は英語で書けます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "understand",
+        "word_translation": {
+          "Hindi": "समझना",
+          "Japanese": "理解する"
+        },
+        "meaning": "to know what something means",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का मतलब जानना",
+          "Japanese": "何かの意味がわかること"
+        },
+        "examples": [
+          {
+            "sentence": "Do you understand French?",
+            "translation": {
+              "Hindi": "क्या आप फ्रेंच समझते हैं?",
+              "Japanese": "フランス語が分かりますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "translate",
+        "word_translation": {
+          "Hindi": "अनुवाद करना",
+          "Japanese": "翻訳する"
+        },
+        "meaning": "to change words from one language to another",
+        "meaning_translation": {
+          "Hindi": "किसी भाषा के शब्दों को दूसरी भाषा में बदलना",
+          "Japanese": "ある言語から別の言語に言葉を変えること"
+        },
+        "examples": [
+          {
+            "sentence": "He can translate Japanese to English.",
+            "translation": {
+              "Hindi": "वह जापानी से अंग्रेज़ी में अनुवाद कर सकता है।",
+              "Japanese": "彼は日本語を英語に翻訳できます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bilingual",
+        "word_translation": {
+          "Hindi": "दो भाषाएँ बोलने वाला",
+          "Japanese": "バイリンガル"
+        },
+        "meaning": "able to speak two languages",
+        "meaning_translation": {
+          "Hindi": "जो दो भाषाएँ बोल सकता है",
+          "Japanese": "二つの言語が話せること"
+        },
+        "examples": [
+          {
+            "sentence": "She is bilingual. She speaks Spanish and English.",
+            "translation": {
+              "Hindi": "वह द्विभाषी है। वह स्पैनिश और अंग्रेज़ी बोलती है।",
+              "Japanese": "彼女はバイリンガルです。スペイン語と英語を話します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dictionary",
+        "word_translation": {
+          "Hindi": "शब्दकोश",
+          "Japanese": "辞書"
+        },
+        "meaning": "a book or app that gives meanings of words",
+        "meaning_translation": {
+          "Hindi": "शब्दों का अर्थ बताने वाली किताब या ऐप",
+          "Japanese": "言葉の意味を説明する本やアプリ"
+        },
+        "examples": [
+          {
+            "sentence": "I use a dictionary to learn new words.",
+            "translation": {
+              "Hindi": "मैं नए शब्द सीखने के लिए शब्दकोश का इस्तेमाल करता हूँ।",
+              "Japanese": "私は新しい言葉を学ぶために辞書を使います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fluently",
+        "word_translation": {
+          "Hindi": "फ्लूएंटली (धाराप्रवाह)",
+          "Japanese": "流暢に"
+        },
+        "meaning": "speaking a language easily and well",
+        "meaning_translation": {
+          "Hindi": "किसी भाषा को आसानी से और अच्छी तरह बोलना",
+          "Japanese": "言語をうまく、すらすらと話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "He speaks English fluently.",
+            "translation": {
+              "Hindi": "वह अंग्रेज़ी धाराप्रवाह बोलता है।",
+              "Japanese": "彼は英語を流暢に話します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "native language",
+        "word_translation": {
+          "Hindi": "मातृभाषा",
+          "Japanese": "母語"
+        },
+        "meaning": "the first language you learn at home",
+        "meaning_translation": {
+          "Hindi": "वह भाषा जो आप सबसे पहले घर पर सीखते हैं",
+          "Japanese": "家で最初に学ぶ言葉"
+        },
+        "examples": [
+          {
+            "sentence": "Hindi is my native language.",
+            "translation": {
+              "Hindi": "हिंदी मेरी मातृभाषा है।",
+              "Japanese": "日本語は私の母語です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about languages",
+        "explanation": "Use 'I speak...', 'I read...', or 'I understand...' to say what you can do.",
+        "explanation_translation": {
+          "Hindi": "'I speak...', 'I read...', या 'I understand...' का इस्तेमाल करें।",
+          "Japanese": "「I speak...」「I read...」「I understand...」を使いましょう。"
+        }
+      },
+      {
+        "title": "Asking about languages",
+        "explanation": "Say 'Can you speak English?' or 'Do you understand Hindi?'",
+        "explanation_translation": {
+          "Hindi": "'Can you speak English?' या 'Do you understand Hindi?' कहें।",
+          "Japanese": "「Can you speak English?」「Do you understand Japanese?」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'to use your voice to say words'?",
+        "question_translation": {
+          "Hindi": "'शब्दों को बोलना' के लिए कौन सा शब्द है?",
+          "Japanese": "「声を使って言葉を話す」はどれですか？"
+        },
+        "options": ["write", "speak", "read"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "She can ___ in English. (write)",
+        "question_translation": {
+          "Hindi": "वह अंग्रेज़ी में ___ सकती है।",
+          "Japanese": "彼女は英語で___ことができます。"
+        },
+        "options": ["read", "write", "speak"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "A person who speaks two languages is called...",
+        "question_translation": {
+          "Hindi": "दो भाषाएँ बोलने वाले व्यक्ति को क्या कहते हैं?",
+          "Japanese": "2つの言語を話す人を何と言いますか？"
+        },
+        "options": ["bilingual", "translator", "teacher"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What do you use to find the meaning of words?",
+        "question_translation": {
+          "Hindi": "शब्दों का अर्थ जानने के लिए आप क्या इस्तेमाल करते हैं?",
+          "Japanese": "言葉の意味を調べるのに何を使いますか？"
+        },
+        "options": ["translate", "dictionary", "native language"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Hindi can be a native language.",
+        "question_translation": {
+          "Hindi": "क्या हिंदी किसी की मातृभाषा हो सकती है?",
+          "Japanese": "ヒンディー語は母語になれますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "He speaks English ___. (fluently)",
+        "question_translation": {
+          "Hindi": "वह अंग्रेज़ी ___ बोलता है।",
+          "Japanese": "彼は英語を___話します。"
+        },
+        "options": ["bilingual", "fluently", "read"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I use a ___ to learn new words. (dictionary)",
+        "question_translation": {
+          "Hindi": "मैं नए शब्द सीखने के लिए ___ का इस्तेमाल करता हूँ।",
+          "Japanese": "私は新しい言葉を学ぶために___を使います。"
+        },
+        "options": ["translate", "dictionary", "language"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [Japanese, can, he, translate, English, to]",
+        "question_translation": {
+          "Hindi": "[Japanese, can, he, translate, English, to] को सही क्रम में लगाएं।",
+          "Japanese": "[Japanese, can, he, translate, English, to]を並べ替えましょう。"
+        },
+        "options": ["Japanese", "can", "he", "translate", "English", "to"],
+        "answer": ["He", "can", "translate", "Japanese", "to", "English"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ is my native language. (Hindi)",
+        "question_translation": {
+          "Hindi": "___ मेरी मातृभाषा है।",
+          "Japanese": "___は私の母語です。"
+        },
+        "options": ["English", "Hindi", "read"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [speak, I, and, English, Hindi]",
+        "question_translation": {
+          "Hindi": "[speak, I, and, English, Hindi] को सही क्रम में लगाएं।",
+          "Japanese": "[speak, I, and, English, Hindi]を並べ替えましょう。"
+        },
+        "options": ["speak", "I", "and", "English", "Hindi"],
+        "answer": ["I", "speak", "English", "and", "Hindi"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What can he do? (Audio: 'He can read Japanese.')",
+        "audio_text": "He can read Japanese.",
+        "question_translation": {
+          "Hindi": "वह क्या कर सकता है?",
+          "Japanese": "彼は何ができますか？"
+        },
+        "options": ["Read Japanese", "Speak Hindi", "Write French"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does she do? (Audio: 'She can write in English.')",
+        "audio_text": "She can write in English.",
+        "question_translation": {
+          "Hindi": "वह क्या कर सकती है?",
+          "Japanese": "彼女は何ができますか？"
+        },
+        "options": ["Speak French", "Read Hindi", "Write in English"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is English? (Audio: 'English is a language.')",
+        "audio_text": "English is a language.",
+        "question_translation": {
+          "Hindi": "अंग्रेज़ी क्या है?",
+          "Japanese": "英語は何ですか？"
+        },
+        "options": ["A language", "A country", "A book"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What does he do well? (Audio: 'He speaks English fluently.')",
+        "audio_text": "He speaks English fluently.",
+        "question_translation": {
+          "Hindi": "वह क्या अच्छी तरह करता है?",
+          "Japanese": "彼は何をうまくやりますか？"
+        },
+        "options": ["Read Hindi", "Write English", "Speak English"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "How many languages does she speak? (Audio: 'She is bilingual. She speaks Spanish and English.')",
+        "audio_text": "She is bilingual. She speaks Spanish and English.",
+        "question_translation": {
+          "Hindi": "वह कितनी भाषाएँ बोलती है?",
+          "Japanese": "彼女は何カ国語話しますか？"
+        },
+        "options": ["One", "Two", "Three"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I speak English and Hindi.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं अंग्रेज़ी और हिंदी बोलता हूँ।'",
+          "Japanese": "「私は英語と日本語を話します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I speak English and Hindi."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She can write in English.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह अंग्रेज़ी में लिख सकती है।'",
+          "Japanese": "「彼女は英語で書けます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "She can write in English."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Hindi is my native language.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हिंदी मेरी मातृभाषा है।'",
+          "Japanese": "「日本語は私の母語です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Hindi is my native language."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He speaks English fluently.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह अंग्रेज़ी धाराप्रवाह बोलता है।'",
+          "Japanese": "「彼は英語を流暢に話します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He speaks English fluently."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She is bilingual. She speaks Spanish and English.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह द्विभाषी है। वह स्पैनिश और अंग्रेज़ी बोलती है।'",
+          "Japanese": "「彼女はバイリンガルです。スペイン語と英語を話します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "She is bilingual. She speaks Spanish and English."
+      }
+    ]
+  }
 }

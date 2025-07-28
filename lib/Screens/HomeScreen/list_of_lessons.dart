@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_colors.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
@@ -17,60 +19,63 @@ class _ListOfLessonsState extends State<ListOfLessons> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         elevation: 0,
         title: const Text(
           "Lessons",
           style: TextStyle(
             color: Colors.black,
-            fontSize: 20,
+            fontSize: 24,
             fontFamily: AppStrings.nunitoFont,
-            fontWeight: FontWeight.w700,
+            fontWeight: FontWeight.bold,
           ),
         ),
         leading: IconButton(
           onPressed: () {
             Get.back();
           },
-          icon: Icon(Icons.arrow_back_ios),
+          icon: const Icon(Icons.arrow_back_ios, color: Colors.black),
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.only(top: 15.0, right: 15, left: 15),
+        padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const SizedBox(height: 10),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
                   ...List.generate(
                     CEFRLevel.values.length,
-                    (index) => InkWell(
-                      onTap: () async {
-                        // c.currentLessonNameList.value = await c
-                        //     .loadLessonsFromJson(CEFRLevel.values[index].name);
-                        // c.currenEnglishLessonLevel.value =
-                        //     CEFRLevel.values[index].name;
-                      },
-                      child: Container(
-                        width: 70,
-                        height: 40,
-                        margin: EdgeInsets.only(right: 10),
-                        decoration: BoxDecoration(
-                          color:
-                              c.currenEnglishLessonLevel.value ==
-                                      CEFRLevel.values[index].name
-                                  ? Colors.black
-                                  : Colors.grey,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Center(
+                    (index) => Obx(
+                      () => GestureDetector(
+                        onTap: () {
+                          c.currenEnglishLessonLevel.value =
+                              CEFRLevel.values[index].name;
+                        },
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20, vertical: 10),
+                          margin: const EdgeInsets.only(right: 10),
+                          decoration: BoxDecoration(
+                            color: c.currenEnglishLessonLevel.value ==
+                                    CEFRLevel.values[index].name
+                                ? AppColors.primaryColor
+                                : Colors.grey[200],
+                            borderRadius: BorderRadius.circular(20),
+                          ),
                           child: Text(
                             CEFRLevel.values[index].name,
                             style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700,
+                              color: c.currenEnglishLessonLevel.value ==
+                                      CEFRLevel.values[index].name
+                                  ? Colors.white
+                                  : Colors.black,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                         ),
@@ -80,70 +85,61 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                 ],
               ),
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 20),
             Expanded(
-              child: ListView.builder(
-                itemCount:
-                    AppData
-                        .lessonNames[c.currenEnglishLessonLevel.value]!
-                        .length,
-                itemBuilder:
-                    (ctx, i) => Container(
-                      width: Get.width - 40,
-                      height: 80,
-                      padding: const EdgeInsets.all(10),
-                      margin: EdgeInsets.only(bottom: 10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: Row(
-                        children: [
-                          Container(
-                            width: 60,
-                            height: 60,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              color: Colors.deepPurple,
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.black45,
-                                  spreadRadius: 1,
-                                  blurRadius: 5,
-                                  offset: Offset(0, 5),
-                                ),
-                              ],
-                            ),
-                            child: Center(
-                              child: Text(
-                                (i + 1).toString(),
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.w700,
-                                  fontSize: 20,
-                                ),
-                              ),
-                            ),
-                          ),
-                          SizedBox(width: 10),
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                AppData
-                                    .lessonNames[c
-                                        .currenEnglishLessonLevel
-                                        .value]![i]
-                                    .toString(),
-                                style: TextStyle(fontWeight: FontWeight.w700),
-                              ),
-                              Text(c.currenEnglishLessonLevel.value),
-                            ],
-                          ),
+              child: Obx(
+                () => ListView.builder(
+                  itemCount: AppData
+                      .lessonNames[c.currenEnglishLessonLevel.value]!.length,
+                  itemBuilder: (ctx, i) => Container(
+                    margin: const EdgeInsets.only(bottom: 15),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      gradient: LinearGradient(
+                        colors: [
+                          AppColors.primaryColor.withOpacity(0.05),
+                          Colors.white,
                         ],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
                       ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.2),
+                          spreadRadius: 1,
+                          blurRadius: 5,
+                          offset: const Offset(0, 3),
+                        ),
+                      ],
                     ),
+                    child: ListTile(
+                      contentPadding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 15),
+                      leading: CircleAvatar(
+                        backgroundColor: AppColors.primaryColor.withOpacity(0.1),
+                        child: Text(
+                          (i + 1).toString(),
+                          style: const TextStyle(
+                            color: AppColors.primaryColor,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      title: Text(
+                        AppData.lessonNames[
+                                c.currenEnglishLessonLevel.value]![i]
+                            .toString(),
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                      subtitle: Text(c.currenEnglishLessonLevel.value),
+                      trailing: const Icon(Icons.arrow_forward_ios,
+                          color: Colors.grey, size: 16),
+                    ),
+                  ),
+                ),
               ),
             ),
           ],

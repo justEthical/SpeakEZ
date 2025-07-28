@@ -1,4 +1,473 @@
 {
-  "id": 49,
-  "message": "This is file number 49"
+  "id": "lesson_public_transport_001",
+  "lesson_name": "Public Transport",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "bus",
+        "word_translation": {
+          "Hindi": "बस",
+          "Japanese": "バス"
+        },
+        "meaning": "a large vehicle that carries many people",
+        "meaning_translation": {
+          "Hindi": "कई लोगों को ले जाने वाला बड़ा वाहन",
+          "Japanese": "多くの人を運ぶ大きな乗り物"
+        },
+        "examples": [
+          {
+            "sentence": "I take the bus to school.",
+            "translation": {
+              "Hindi": "मैं स्कूल जाने के लिए बस लेता हूँ।",
+              "Japanese": "私は学校へバスで行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "train",
+        "word_translation": {
+          "Hindi": "ट्रेन",
+          "Japanese": "電車"
+        },
+        "meaning": "a long vehicle that runs on tracks",
+        "meaning_translation": {
+          "Hindi": "पटरी पर चलने वाला लंबा वाहन",
+          "Japanese": "線路の上を走る長い乗り物"
+        },
+        "examples": [
+          {
+            "sentence": "We travel to the city by train.",
+            "translation": {
+              "Hindi": "हम शहर जाने के लिए ट्रेन से यात्रा करते हैं।",
+              "Japanese": "私たちは電車で町へ行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "metro",
+        "word_translation": {
+          "Hindi": "मेट्रो",
+          "Japanese": "地下鉄"
+        },
+        "meaning": "an underground train in big cities",
+        "meaning_translation": {
+          "Hindi": "बड़े शहरों में चलने वाली भूमिगत ट्रेन",
+          "Japanese": "大きな町の地下を走る電車"
+        },
+        "examples": [
+          {
+            "sentence": "The metro is fast and clean.",
+            "translation": {
+              "Hindi": "मेट्रो तेज़ और साफ़ है।",
+              "Japanese": "地下鉄は速くてきれいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ticket",
+        "word_translation": {
+          "Hindi": "टिकट",
+          "Japanese": "切符"
+        },
+        "meaning": "a piece of paper that lets you travel",
+        "meaning_translation": {
+          "Hindi": "यात्रा करने के लिए जरूरी कागज़",
+          "Japanese": "乗るために必要な紙"
+        },
+        "examples": [
+          {
+            "sentence": "You need a ticket for the train.",
+            "translation": {
+              "Hindi": "आपको ट्रेन के लिए टिकट चाहिए।",
+              "Japanese": "電車に乗るには切符が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "station",
+        "word_translation": {
+          "Hindi": "स्टेशन",
+          "Japanese": "駅"
+        },
+        "meaning": "a place where trains or buses stop",
+        "meaning_translation": {
+          "Hindi": "जहाँ ट्रेन या बस रुकती है",
+          "Japanese": "電車やバスが止まる場所"
+        },
+        "examples": [
+          {
+            "sentence": "We wait at the bus station.",
+            "translation": {
+              "Hindi": "हम बस स्टेशन पर इंतजार करते हैं।",
+              "Japanese": "私たちはバス停で待ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "platform",
+        "word_translation": {
+          "Hindi": "प्लेटफॉर्म",
+          "Japanese": "ホーム"
+        },
+        "meaning": "the area where you get on a train at the station",
+        "meaning_translation": {
+          "Hindi": "स्टेशन पर जहाँ से ट्रेन में चढ़ते हैं",
+          "Japanese": "駅で電車に乗る場所"
+        },
+        "examples": [
+          {
+            "sentence": "The train leaves from platform 3.",
+            "translation": {
+              "Hindi": "ट्रेन प्लेटफॉर्म 3 से जाती है।",
+              "Japanese": "電車は3番ホームから出発します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conductor",
+        "word_translation": {
+          "Hindi": "कंडक्टर",
+          "Japanese": "車掌"
+        },
+        "meaning": "a person who checks tickets on a bus or train",
+        "meaning_translation": {
+          "Hindi": "जो बस या ट्रेन में टिकट देखता है",
+          "Japanese": "バスや電車で切符をチェックする人"
+        },
+        "examples": [
+          {
+            "sentence": "The conductor asked for my ticket.",
+            "translation": {
+              "Hindi": "कंडक्टर ने मुझसे टिकट मांगा।",
+              "Japanese": "車掌さんが切符を見せてと言いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fare",
+        "word_translation": {
+          "Hindi": "किराया",
+          "Japanese": "運賃"
+        },
+        "meaning": "the money you pay to travel",
+        "meaning_translation": {
+          "Hindi": "यात्रा करने के लिए दिया गया पैसा",
+          "Japanese": "乗るために払うお金"
+        },
+        "examples": [
+          {
+            "sentence": "The fare for the bus is 10 rupees.",
+            "translation": {
+              "Hindi": "बस का किराया 10 रुपये है।",
+              "Japanese": "バスの運賃は10ルピーです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "route",
+        "word_translation": {
+          "Hindi": "रूट / मार्ग",
+          "Japanese": "路線"
+        },
+        "meaning": "the way the bus or train goes",
+        "meaning_translation": {
+          "Hindi": "बस या ट्रेन जिस रास्ते से जाती है",
+          "Japanese": "バスや電車の行き先"
+        },
+        "examples": [
+          {
+            "sentence": "What is the route of this bus?",
+            "translation": {
+              "Hindi": "इस बस का रूट क्या है?",
+              "Japanese": "このバスの路線は何ですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "crowded",
+        "word_translation": {
+          "Hindi": "भीड़-भाड़ वाला",
+          "Japanese": "混んでいる"
+        },
+        "meaning": "when there are many people in one place",
+        "meaning_translation": {
+          "Hindi": "जब बहुत सारे लोग एक साथ हों",
+          "Japanese": "人がたくさんいる状態"
+        },
+        "examples": [
+          {
+            "sentence": "The metro is crowded in the morning.",
+            "translation": {
+              "Hindi": "सुबह मेट्रो में भीड़ होती है।",
+              "Japanese": "朝は地下鉄が混んでいます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about how you travel",
+        "explanation": "Use 'by' for means of transport: 'I go to school by bus.' 'She travels by train.'",
+        "explanation_translation": {
+          "Hindi": "'by' का इस्तेमाल करें: 'I go to school by bus.' 'She travels by train.'",
+          "Japanese": "交通手段には「by」を使います：「I go to school by bus.」「She travels by train.」"
+        }
+      },
+      {
+        "title": "Asking for a ticket or fare",
+        "explanation": "Say: 'How much is the fare?' or 'Can I have a ticket to the station?'",
+        "explanation_translation": {
+          "Hindi": "पूछें: 'किराया कितना है?' या 'मुझे स्टेशन के लिए टिकट चाहिए।'",
+          "Japanese": "「運賃はいくらですか？」「駅までの切符をください。」などと聞きます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you need to travel on a train?",
+        "question_translation": {
+          "Hindi": "ट्रेन में यात्रा करने के लिए क्या चाहिए?",
+          "Japanese": "電車に乗るには何が必要ですか？"
+        },
+        "options": ["fare", "ticket", "platform"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The metro is ___ and clean.",
+        "question_translation": {
+          "Hindi": "मेट्रो ___ और साफ है।",
+          "Japanese": "地下鉄は___できれいです。"
+        },
+        "options": ["slow", "crowded", "fast"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Where do you wait for a bus or train?",
+        "question_translation": {
+          "Hindi": "बस या ट्रेन के लिए कहाँ इंतजार करते हैं?",
+          "Japanese": "バスや電車をどこで待ちますか？"
+        },
+        "options": ["platform", "station", "route"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Who checks tickets on the bus?",
+        "question_translation": {
+          "Hindi": "बस में टिकट कौन देखता है?",
+          "Japanese": "バスで切符をチェックする人は？"
+        },
+        "options": ["driver", "passenger", "conductor"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A route is the way the bus or train goes.",
+        "question_translation": {
+          "Hindi": "क्या रूट वह रास्ता है जिससे बस या ट्रेन जाती है?",
+          "Japanese": "路線はバスや電車の行き先ですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The train leaves from ___ 3.",
+        "question_translation": {
+          "Hindi": "ट्रेन ___ 3 से जाती है।",
+          "Japanese": "電車は___3から出発します。"
+        },
+        "options": ["station", "platform", "route"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "How much is the ___ for the bus?",
+        "question_translation": {
+          "Hindi": "बस का ___ कितना है?",
+          "Japanese": "バスの___はいくらですか？"
+        },
+        "options": ["conductor", "fare", "metro"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [school, bus, to, I, go, by]",
+        "question_translation": {
+          "Hindi": "[school, bus, to, I, go, by] को सही क्रम में लगाएं।",
+          "Japanese": "[school, bus, to, I, go, by]を並べ替えましょう。"
+        },
+        "options": ["school", "bus", "to", "I", "go", "by"],
+        "answer": ["I", "go", "to", "school", "by", "bus"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is crowded in the morning.",
+        "question_translation": {
+          "Hindi": "सुबह ___ में भीड़ होती है।",
+          "Japanese": "朝___が混んでいます。"
+        },
+        "options": ["fare", "metro", "route"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [ticket, asked, for, conductor, my, the]",
+        "question_translation": {
+          "Hindi": "[ticket, asked, for, conductor, my, the] को सही क्रम में लगाएं।",
+          "Japanese": "[ticket, asked, for, conductor, my, the]を並べ替えましょう。"
+        },
+        "options": ["ticket", "asked", "for", "conductor", "my", "the"],
+        "answer": ["The", "conductor", "asked", "for", "my", "ticket"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What do I take to school? (Audio: 'I take the bus to school.')",
+        "audio_text": "I take the bus to school.",
+        "question_translation": {
+          "Hindi": "मैं स्कूल किससे जाता हूँ?",
+          "Japanese": "私は学校へ何で行きますか？"
+        },
+        "options": ["train", "bus", "metro"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "How do we travel to the city? (Audio: 'We travel to the city by train.')",
+        "audio_text": "We travel to the city by train.",
+        "question_translation": {
+          "Hindi": "हम शहर कैसे जाते हैं?",
+          "Japanese": "私たちは町へどうやって行きますか？"
+        },
+        "options": ["bus", "train", "platform"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is the fare for the bus? (Audio: 'The fare for the bus is 10 rupees.')",
+        "audio_text": "The fare for the bus is 10 rupees.",
+        "question_translation": {
+          "Hindi": "बस का किराया कितना है?",
+          "Japanese": "バスの運賃はいくらですか？"
+        },
+        "options": ["10 rupees", "5 rupees", "20 rupees"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who checks the tickets? (Audio: 'The conductor asked for my ticket.')",
+        "audio_text": "The conductor asked for my ticket.",
+        "question_translation": {
+          "Hindi": "टिकट कौन देखता है?",
+          "Japanese": "誰が切符をチェックしますか？"
+        },
+        "options": ["driver", "conductor", "passenger"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Where do we wait for the bus? (Audio: 'We wait at the bus station.')",
+        "audio_text": "We wait at the bus station.",
+        "question_translation": {
+          "Hindi": "हम बस का इंतजार कहाँ करते हैं?",
+          "Japanese": "私たちはバスをどこで待ちますか？"
+        },
+        "options": ["platform", "bus station", "metro"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I take the bus to school.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं स्कूल जाने के लिए बस लेता हूँ।'",
+          "Japanese": "「私は学校へバスで行きます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I take the bus to school."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The train leaves from platform 3.'",
+        "question_translation": {
+          "Hindi": "कहें: 'ट्रेन प्लेटफॉर्म 3 से जाती है।'",
+          "Japanese": "「電車は3番ホームから出発します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The train leaves from platform 3."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'How much is the fare?'",
+        "question_translation": {
+          "Hindi": "कहें: 'किराया कितना है?'",
+          "Japanese": "「運賃はいくらですか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "How much is the fare?"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The metro is fast and clean.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेट्रो तेज़ और साफ़ है।'",
+          "Japanese": "「地下鉄は速くてきれいです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The metro is fast and clean."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The conductor asked for my ticket.'",
+        "question_translation": {
+          "Hindi": "कहें: 'कंडक्टर ने मुझसे टिकट मांगा।'",
+          "Japanese": "「車掌さんが切符を見せてと言いました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The conductor asked for my ticket."
+      }
+    ]
+  }
 }

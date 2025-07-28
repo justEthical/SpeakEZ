@@ -1,4 +1,473 @@
 {
-  "id": 39,
-  "message": "This is file number 39"
+  "id": "lesson_making_plans_001",
+  "lesson_name": "Making Plans",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "plan",
+        "word_translation": {
+          "Hindi": "योजना",
+          "Japanese": "計画"
+        },
+        "meaning": "an idea about what you will do",
+        "meaning_translation": {
+          "Hindi": "क्या करना है इसकी सोच",
+          "Japanese": "何をするかの考え"
+        },
+        "examples": [
+          {
+            "sentence": "We have a plan to visit the zoo.",
+            "translation": {
+              "Hindi": "हमारा चिड़ियाघर जाने का प्लान है।",
+              "Japanese": "私たちは動物園に行く計画があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "meet",
+        "word_translation": {
+          "Hindi": "मिलना",
+          "Japanese": "会う"
+        },
+        "meaning": "to come together with someone",
+        "meaning_translation": {
+          "Hindi": "किसी से मिलना",
+          "Japanese": "誰かと会うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Let's meet at the park.",
+            "translation": {
+              "Hindi": "चलो पार्क में मिलते हैं।",
+              "Japanese": "公園で会いましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "invite",
+        "word_translation": {
+          "Hindi": "आमंत्रित करना",
+          "Japanese": "招待する"
+        },
+        "meaning": "to ask someone to join or come",
+        "meaning_translation": {
+          "Hindi": "किसी को बुलाना",
+          "Japanese": "誰かを呼ぶこと"
+        },
+        "examples": [
+          {
+            "sentence": "I invite my friends to my house.",
+            "translation": {
+              "Hindi": "मैं अपने दोस्तों को घर बुलाता हूँ।",
+              "Japanese": "私は友達を家に招待します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "time",
+        "word_translation": {
+          "Hindi": "समय",
+          "Japanese": "時間"
+        },
+        "meaning": "when something happens",
+        "meaning_translation": {
+          "Hindi": "किसी काम का होने का समय",
+          "Japanese": "何かが起こるとき"
+        },
+        "examples": [
+          {
+            "sentence": "What time shall we meet?",
+            "translation": {
+              "Hindi": "हम कितने बजे मिलें?",
+              "Japanese": "何時に会いましょうか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "place",
+        "word_translation": {
+          "Hindi": "जगह",
+          "Japanese": "場所"
+        },
+        "meaning": "where something happens",
+        "meaning_translation": {
+          "Hindi": "जहाँ कुछ होता है",
+          "Japanese": "何かが起こるところ"
+        },
+        "examples": [
+          {
+            "sentence": "Let's choose a place to meet.",
+            "translation": {
+              "Hindi": "मिलने के लिए जगह चुनते हैं।",
+              "Japanese": "会う場所を決めましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "appointment",
+        "word_translation": {
+          "Hindi": "नियुक्ति / अपॉइंटमेंट",
+          "Japanese": "予約"
+        },
+        "meaning": "a set time to meet someone",
+        "meaning_translation": {
+          "Hindi": "किसी से मिलने का तय समय",
+          "Japanese": "会うために決めた時間"
+        },
+        "examples": [
+          {
+            "sentence": "I have an appointment with the doctor.",
+            "translation": {
+              "Hindi": "मेरी डॉक्टर से मुलाकात का समय तय है।",
+              "Japanese": "私は医者と予約があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "suggest",
+        "word_translation": {
+          "Hindi": "सुझाव देना",
+          "Japanese": "提案する"
+        },
+        "meaning": "to give an idea about what to do",
+        "meaning_translation": {
+          "Hindi": "क्या करें इसका विचार बताना",
+          "Japanese": "何をするかのアイデアを出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Can you suggest a good restaurant?",
+            "translation": {
+              "Hindi": "क्या आप कोई अच्छा रेस्टोरेंट सुझा सकते हैं?",
+              "Japanese": "良いレストランを提案できますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cancel",
+        "word_translation": {
+          "Hindi": "रद्द करना",
+          "Japanese": "キャンセルする"
+        },
+        "meaning": "to say a plan will not happen",
+        "meaning_translation": {
+          "Hindi": "कहना कि योजना अब नहीं होगी",
+          "Japanese": "計画がなくなったと伝えること"
+        },
+        "examples": [
+          {
+            "sentence": "I have to cancel our meeting.",
+            "translation": {
+              "Hindi": "मुझे हमारी मीटिंग रद्द करनी है।",
+              "Japanese": "私は会う約束をキャンセルしないといけません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "confirm",
+        "word_translation": {
+          "Hindi": "पुष्टि करना",
+          "Japanese": "確認する"
+        },
+        "meaning": "to say something is sure or agreed",
+        "meaning_translation": {
+          "Hindi": "कहना कि कुछ निश्चित है",
+          "Japanese": "何かが確実だと伝えること"
+        },
+        "examples": [
+          {
+            "sentence": "Can you confirm the time?",
+            "translation": {
+              "Hindi": "क्या आप समय की पुष्टि कर सकते हैं?",
+              "Japanese": "時間を確認できますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "together",
+        "word_translation": {
+          "Hindi": "साथ में",
+          "Japanese": "一緒に"
+        },
+        "meaning": "with each other",
+        "meaning_translation": {
+          "Hindi": "एक-दूसरे के साथ",
+          "Japanese": "お互いと一緒に"
+        },
+        "examples": [
+          {
+            "sentence": "We can study together.",
+            "translation": {
+              "Hindi": "हम साथ में पढ़ सकते हैं।",
+              "Japanese": "私たちは一緒に勉強できます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Making suggestions",
+        "explanation": "Use 'Let's...' or 'Shall we...?' to make plans. Example: 'Let's meet tomorrow.' 'Shall we go to the park?'",
+        "explanation_translation": {
+          "Hindi": "'Let's...' या 'Shall we...?' से सुझाव दें। जैसे: 'Let's meet tomorrow.' 'Shall we go to the park?'",
+          "Japanese": "提案する時は「Let's...」「Shall we...?」を使います。例：「Let's meet tomorrow.」「Shall we go to the park?」"
+        }
+      },
+      {
+        "title": "Agreeing on time and place",
+        "explanation": "Say 'What time?' or 'Where shall we meet?' to decide details.",
+        "explanation_translation": {
+          "Hindi": "समय और जगह तय करने के लिए 'What time?' या 'Where shall we meet?' कहें।",
+          "Japanese": "時間や場所を決めるには「What time?」「Where shall we meet?」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you call an idea about what you will do?",
+        "question_translation": {
+          "Hindi": "क्या करना है इसकी सोच को क्या कहते हैं?",
+          "Japanese": "何をするかの考えは何ですか？"
+        },
+        "options": ["place", "plan", "meet"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Let's ___ at the café. (meet)",
+        "question_translation": {
+          "Hindi": "चलो कैफे में ___।",
+          "Japanese": "カフェで___しましょう。"
+        },
+        "options": ["invite", "meet", "cancel"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you do when you ask someone to come?",
+        "question_translation": {
+          "Hindi": "जब आप किसी को बुलाते हैं तो क्या करते हैं?",
+          "Japanese": "誰かを呼ぶとき何をしますか？"
+        },
+        "options": ["invite", "confirm", "suggest"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "If you cannot go, what do you have to do?",
+        "question_translation": {
+          "Hindi": "अगर आप नहीं जा सकते तो क्या करना होता है?",
+          "Japanese": "行けない時は何をしますか？"
+        },
+        "options": ["plan", "cancel", "meet"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "An appointment is a set time to meet.",
+        "question_translation": {
+          "Hindi": "क्या अपॉइंटमेंट मिलने का तय समय होता है?",
+          "Japanese": "予約は会うために決めた時間ですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Can you ___ the time? (confirm)",
+        "question_translation": {
+          "Hindi": "क्या आप समय ___ सकते हैं?",
+          "Japanese": "時間を___できますか？"
+        },
+        "options": ["confirm", "invite", "suggest"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I have to ___ our meeting. (cancel)",
+        "question_translation": {
+          "Hindi": "मुझे हमारी मीटिंग ___ करनी है।",
+          "Japanese": "私は会う約束を___しないといけません。"
+        },
+        "options": ["plan", "cancel", "place"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [we, zoo, plan, visit, to, the]",
+        "question_translation": {
+          "Hindi": "[we, zoo, plan, visit, to, the] को सही क्रम में लगाएं।",
+          "Japanese": "[we, zoo, plan, visit, to, the]を並べ替えましょう。"
+        },
+        "options": ["we", "zoo", "plan", "visit", "to", "the"],
+        "answer": ["We", "plan", "to", "visit", "the", "zoo"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Can you ___ a good restaurant? (suggest)",
+        "question_translation": {
+          "Hindi": "क्या आप कोई अच्छा रेस्टोरेंट ___ सकते हैं?",
+          "Japanese": "良いレストランを___できますか？"
+        },
+        "options": ["suggest", "meet", "invite"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [study, together, can, we]",
+        "question_translation": {
+          "Hindi": "[study, together, can, we] को सही क्रम में लगाएं।",
+          "Japanese": "[study, together, can, we]を並べ替えましょう。"
+        },
+        "options": ["study", "together", "can", "we"],
+        "answer": ["We", "can", "study", "together"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What do we have? (Audio: 'We have a plan to visit the zoo.')",
+        "audio_text": "We have a plan to visit the zoo.",
+        "question_translation": {
+          "Hindi": "हमारे पास क्या है?",
+          "Japanese": "私たちは何を持っていますか？"
+        },
+        "options": ["a place", "a plan", "an appointment"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Where shall we meet? (Audio: 'Let's meet at the park.')",
+        "audio_text": "Let's meet at the park.",
+        "question_translation": {
+          "Hindi": "हम कहाँ मिलें?",
+          "Japanese": "どこで会いましょうか？"
+        },
+        "options": ["school", "park", "restaurant"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Who do I invite? (Audio: 'I invite my friends to my house.')",
+        "audio_text": "I invite my friends to my house.",
+        "question_translation": {
+          "Hindi": "मैं किसे बुलाता हूँ?",
+          "Japanese": "私は誰を招待しますか？"
+        },
+        "options": ["family", "friends", "teacher"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What do we do together? (Audio: 'We can study together.')",
+        "audio_text": "We can study together.",
+        "question_translation": {
+          "Hindi": "हम साथ में क्या कर सकते हैं?",
+          "Japanese": "私たちは一緒に何ができますか？"
+        },
+        "options": ["play", "read", "study"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What happens if you can't go? (Audio: 'I have to cancel our meeting.')",
+        "audio_text": "I have to cancel our meeting.",
+        "question_translation": {
+          "Hindi": "अगर आप नहीं जा सकते तो क्या करना पड़ता है?",
+          "Japanese": "行けない時は何をしますか？"
+        },
+        "options": ["meet", "plan", "cancel"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Let's meet tomorrow.'",
+        "question_translation": {
+          "Hindi": "कहें: 'चलो कल मिलते हैं।'",
+          "Japanese": "「明日会いましょう。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Let's meet tomorrow."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Can you confirm the time?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप समय की पुष्टि कर सकते हैं?'",
+          "Japanese": "「時間を確認できますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Can you confirm the time?"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I have to cancel our meeting.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे हमारी मीटिंग रद्द करनी है।'",
+          "Japanese": "「会う約束をキャンセルしないといけません。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I have to cancel our meeting."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Can you suggest a good restaurant?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप कोई अच्छा रेस्टोरेंट सुझा सकते हैं?'",
+          "Japanese": "「良いレストランを提案できますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Can you suggest a good restaurant?"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We can study together.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम साथ में पढ़ सकते हैं।'",
+          "Japanese": "「私たちは一緒に勉強できます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We can study together."
+      }
+    ]
+  }
 }

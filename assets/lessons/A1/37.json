@@ -1,4 +1,473 @@
 {
-  "id": 37,
-  "message": "This is file number 37"
+  "id": "lesson_at_the_supermarket_001",
+  "lesson_name": "At the Supermarket",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "supermarket",
+        "word_translation": {
+          "Hindi": "सुपरमार्केट",
+          "Japanese": "スーパーマーケット"
+        },
+        "meaning": "a large shop where you buy food and things for your home",
+        "meaning_translation": {
+          "Hindi": "बड़ी दुकान जहाँ आप खाने-पीने की और घर की चीज़ें खरीदते हैं",
+          "Japanese": "食べ物や日用品を買う大きなお店"
+        },
+        "examples": [
+          {
+            "sentence": "We go to the supermarket every week.",
+            "translation": {
+              "Hindi": "हम हर हफ्ते सुपरमार्केट जाते हैं।",
+              "Japanese": "私たちは毎週スーパーマーケットに行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cart",
+        "word_translation": {
+          "Hindi": "ट्रॉली/कार्ट",
+          "Japanese": "カート"
+        },
+        "meaning": "a basket on wheels you push to carry your shopping",
+        "meaning_translation": {
+          "Hindi": "चीज़ें रखने और ले जाने के लिए पहियों वाली टोकरी",
+          "Japanese": "買い物を入れて押す車付きのかご"
+        },
+        "examples": [
+          {
+            "sentence": "He puts milk in the cart.",
+            "translation": {
+              "Hindi": "वह ट्रॉली में दूध रखता है।",
+              "Japanese": "彼はカートに牛乳を入れます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "basket",
+        "word_translation": {
+          "Hindi": "टोकरी",
+          "Japanese": "バスケット"
+        },
+        "meaning": "a container you carry to hold shopping",
+        "meaning_translation": {
+          "Hindi": "खरीदारी रखने के लिए उठाने वाली टोकरी",
+          "Japanese": "買い物を入れて持つかご"
+        },
+        "examples": [
+          {
+            "sentence": "She carries a basket for fruit.",
+            "translation": {
+              "Hindi": "वह फल के लिए टोकरी ले जाती है।",
+              "Japanese": "彼女は果物用のバスケットを持っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cashier",
+        "word_translation": {
+          "Hindi": "कैशियर",
+          "Japanese": "レジ係"
+        },
+        "meaning": "the person who takes your money at the counter",
+        "meaning_translation": {
+          "Hindi": "जो काउंटर पर पैसे लेता है",
+          "Japanese": "レジでお金を受け取る人"
+        },
+        "examples": [
+          {
+            "sentence": "The cashier gives change.",
+            "translation": {
+              "Hindi": "कैशियर पैसे लौटाता है।",
+              "Japanese": "レジ係がおつりを渡します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "receipt",
+        "word_translation": {
+          "Hindi": "रसीद",
+          "Japanese": "レシート"
+        },
+        "meaning": "a piece of paper that shows what you bought and the price",
+        "meaning_translation": {
+          "Hindi": "क्या-क्या खरीदा और कितने में, यह दिखाने वाली पर्ची",
+          "Japanese": "何を買っていくら払ったか書かれた紙"
+        },
+        "examples": [
+          {
+            "sentence": "She keeps the receipt.",
+            "translation": {
+              "Hindi": "वह रसीद रखती है।",
+              "Japanese": "彼女はレシートを取っておきます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sale",
+        "word_translation": {
+          "Hindi": "छूट / सेल",
+          "Japanese": "セール"
+        },
+        "meaning": "when things are sold at a lower price",
+        "meaning_translation": {
+          "Hindi": "जब चीज़ें कम दाम में मिलती हैं",
+          "Japanese": "安く売られているとき"
+        },
+        "examples": [
+          {
+            "sentence": "There is a big sale on fruits.",
+            "translation": {
+              "Hindi": "फलों पर बड़ी छूट है।",
+              "Japanese": "果物がセール中です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "price",
+        "word_translation": {
+          "Hindi": "कीमत",
+          "Japanese": "値段"
+        },
+        "meaning": "how much something costs",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की लागत",
+          "Japanese": "いくらかかるか"
+        },
+        "examples": [
+          {
+            "sentence": "What is the price of milk?",
+            "translation": {
+              "Hindi": "दूध की कीमत क्या है?",
+              "Japanese": "牛乳はいくらですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "shelf",
+        "word_translation": {
+          "Hindi": "शेल्फ",
+          "Japanese": "棚"
+        },
+        "meaning": "a flat board in the shop where things are kept",
+        "meaning_translation": {
+          "Hindi": "दुकान में सामान रखने के लिए सपाट पट्टी",
+          "Japanese": "物が置かれている平らな板"
+        },
+        "examples": [
+          {
+            "sentence": "The bread is on the shelf.",
+            "translation": {
+              "Hindi": "रोटी शेल्फ पर है।",
+              "Japanese": "パンは棚の上にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "queue",
+        "word_translation": {
+          "Hindi": "कतार",
+          "Japanese": "列"
+        },
+        "meaning": "a line of people waiting for something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का इंतजार करने वाले लोगों की लाइन",
+          "Japanese": "何かを待っている人の列"
+        },
+        "examples": [
+          {
+            "sentence": "We stand in a queue at the counter.",
+            "translation": {
+              "Hindi": "हम काउंटर पर कतार में खड़े होते हैं।",
+              "Japanese": "私たちはレジで列に並びます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "checkout",
+        "word_translation": {
+          "Hindi": "चेकआउट",
+          "Japanese": "レジ"
+        },
+        "meaning": "the place where you pay for what you buy",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप खरीदी का पैसा चुकाते हैं",
+          "Japanese": "お金を払う場所"
+        },
+        "examples": [
+          {
+            "sentence": "Please go to the checkout to pay.",
+            "translation": {
+              "Hindi": "कृपया पैसे देने के लिए चेकआउट जाएँ।",
+              "Japanese": "支払いのためにレジに行ってください。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking for price",
+        "explanation": "Say 'How much is this?' or 'What is the price of...?'",
+        "explanation_translation": {
+          "Hindi": "कीमत पूछने के लिए 'How much is this?' या 'What is the price of...?' कहें।",
+          "Japanese": "値段を聞く時「How much is this?」「What is the price of...?」と言います。"
+        }
+      },
+      {
+        "title": "Asking for help",
+        "explanation": "Say 'Can you help me?' or 'Where can I find...?'",
+        "explanation_translation": {
+          "Hindi": "मदद माँगने के लिए 'Can you help me?' या 'Where can I find...?' कहें।",
+          "Japanese": "手伝いを頼むとき「Can you help me?」「Where can I find...?」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Who takes your money at the counter?",
+        "question_translation": {
+          "Hindi": "काउंटर पर आपका पैसा कौन लेता है?",
+          "Japanese": "レジでお金を受け取るのは誰ですか？"
+        },
+        "options": ["cashier", "customer", "manager"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "He puts bread on the ___. (shelf)",
+        "question_translation": {
+          "Hindi": "वह रोटी ___ पर रखता है।",
+          "Japanese": "彼はパンを___に置きます。"
+        },
+        "options": ["cart", "shelf", "queue"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Where do you pay for your shopping?",
+        "question_translation": {
+          "Hindi": "आप अपनी खरीदारी का भुगतान कहाँ करते हैं?",
+          "Japanese": "どこで買い物の支払いをしますか？"
+        },
+        "options": ["checkout", "queue", "basket"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "A piece of paper showing what you bought is called...",
+        "question_translation": {
+          "Hindi": "खरीदी हुई चीज़ों की सूची वाली पर्ची को क्या कहते हैं?",
+          "Japanese": "買ったものと値段が書かれた紙は何ですか？"
+        },
+        "options": ["receipt", "cart", "sale"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A cart has wheels.",
+        "question_translation": {
+          "Hindi": "क्या ट्रॉली/कार्ट में पहिए होते हैं?",
+          "Japanese": "カートには車輪がありますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She keeps the ___. (receipt)",
+        "question_translation": {
+          "Hindi": "वह ___ रखती है।",
+          "Japanese": "彼女は___を取っておきます。"
+        },
+        "options": ["sale", "cart", "receipt"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "There is a big ___ on fruits. (sale)",
+        "question_translation": {
+          "Hindi": "फलों पर बड़ी ___ है।",
+          "Japanese": "果物が___中です。"
+        },
+        "options": ["price", "queue", "sale"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [cart, milk, puts, in, he, the]",
+        "question_translation": {
+          "Hindi": "[cart, milk, puts, in, he, the] को सही क्रम में लगाएं।",
+          "Japanese": "[cart, milk, puts, in, he, the]を並べ替えましょう。"
+        },
+        "options": ["cart", "milk", "puts", "in", "he", "the"],
+        "answer": ["He", "puts", "milk", "in", "the", "cart"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We stand in a ___ at the counter. (queue)",
+        "question_translation": {
+          "Hindi": "हम काउंटर पर ___ में खड़े होते हैं।",
+          "Japanese": "私たちはレジで___に並びます。"
+        },
+        "options": ["queue", "basket", "checkout"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [week, supermarket, go, the, we, every, to]",
+        "question_translation": {
+          "Hindi": "[week, supermarket, go, the, we, every, to] को सही क्रम में लगाएं।",
+          "Japanese": "[week, supermarket, go, the, we, every, to]を並べ替えましょう。"
+        },
+        "options": ["week", "supermarket", "go", "the", "we", "every", "to"],
+        "answer": ["We", "go", "to", "the", "supermarket", "every", "week"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Where do we shop? (Audio: 'We go to the supermarket every week.')",
+        "audio_text": "We go to the supermarket every week.",
+        "question_translation": {
+          "Hindi": "हम कहाँ खरीदारी करते हैं?",
+          "Japanese": "私たちはどこで買い物をしますか？"
+        },
+        "options": ["supermarket", "school", "bank"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What do you carry for fruit? (Audio: 'She carries a basket for fruit.')",
+        "audio_text": "She carries a basket for fruit.",
+        "question_translation": {
+          "Hindi": "वह फल के लिए क्या लेकर जाती है?",
+          "Japanese": "果物用に何を持っていますか？"
+        },
+        "options": ["receipt", "basket", "queue"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Who gives you change? (Audio: 'The cashier gives change.')",
+        "audio_text": "The cashier gives change.",
+        "question_translation": {
+          "Hindi": "पैसे कौन लौटाता है?",
+          "Japanese": "おつりをくれるのは誰ですか？"
+        },
+        "options": ["cashier", "customer", "manager"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Where is the bread? (Audio: 'The bread is on the shelf.')",
+        "audio_text": "The bread is on the shelf.",
+        "question_translation": {
+          "Hindi": "रोटी कहाँ है?",
+          "Japanese": "パンはどこにありますか？"
+        },
+        "options": ["cart", "shelf", "queue"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What do you do at the checkout? (Audio: 'Please go to the checkout to pay.')",
+        "audio_text": "Please go to the checkout to pay.",
+        "question_translation": {
+          "Hindi": "चेकआउट पर आप क्या करते हैं?",
+          "Japanese": "レジで何をしますか？"
+        },
+        "options": ["pay", "shop", "queue"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'How much is this?'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह कितने का है?'",
+          "Japanese": "「これはいくらですか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "How much is this?"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Can you help me?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप मेरी मदद कर सकते हैं?'",
+          "Japanese": "「手伝ってくれますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Can you help me?"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We go to the supermarket every week.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम हर हफ्ते सुपरमार्केट जाते हैं।'",
+          "Japanese": "「私たちは毎週スーパーマーケットに行きます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We go to the supermarket every week."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He puts milk in the cart.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह ट्रॉली में दूध रखता है।'",
+          "Japanese": "「彼はカートに牛乳を入れます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He puts milk in the cart."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Please go to the checkout to pay.'",
+        "question_translation": {
+          "Hindi": "कहें: 'कृपया पैसे देने के लिए चेकआउट जाएँ।'",
+          "Japanese": "「支払いのためにレジに行ってください。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Please go to the checkout to pay."
+      }
+    ]
+  }
 }

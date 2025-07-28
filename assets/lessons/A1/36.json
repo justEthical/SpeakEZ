@@ -1,4 +1,473 @@
 {
-  "id": 36,
-  "message": "This is file number 36"
+  "id": "lesson_at_the_restaurant_001",
+  "lesson_name": "At the Restaurant",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "restaurant",
+        "word_translation": {
+          "Hindi": "रेस्टोरेंट",
+          "Japanese": "レストラン"
+        },
+        "meaning": "a place where you can eat food",
+        "meaning_translation": {
+          "Hindi": "वह जगह जहाँ आप खाना खाते हैं",
+          "Japanese": "食事ができる場所"
+        },
+        "examples": [
+          {
+            "sentence": "We eat at a restaurant.",
+            "translation": {
+              "Hindi": "हम रेस्टोरेंट में खाना खाते हैं।",
+              "Japanese": "私たちはレストランで食事します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "menu",
+        "word_translation": {
+          "Hindi": "मेन्यू",
+          "Japanese": "メニュー"
+        },
+        "meaning": "a list of food and drinks you can order",
+        "meaning_translation": {
+          "Hindi": "खाने-पीने की चीज़ों की सूची",
+          "Japanese": "注文できる料理や飲み物のリスト"
+        },
+        "examples": [
+          {
+            "sentence": "The menu has many dishes.",
+            "translation": {
+              "Hindi": "मेन्यू में कई व्यंजन हैं।",
+              "Japanese": "メニューにはたくさんの料理があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "waiter",
+        "word_translation": {
+          "Hindi": "वेटर",
+          "Japanese": "ウェイター"
+        },
+        "meaning": "a person who brings you food and drinks",
+        "meaning_translation": {
+          "Hindi": "जो आपको खाना-पीना लाता है",
+          "Japanese": "料理や飲み物を運ぶ人"
+        },
+        "examples": [
+          {
+            "sentence": "The waiter takes our order.",
+            "translation": {
+              "Hindi": "वेटर हमारा ऑर्डर लेता है।",
+              "Japanese": "ウェイターが注文を取ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "order",
+        "word_translation": {
+          "Hindi": "ऑर्डर",
+          "Japanese": "注文"
+        },
+        "meaning": "to ask for food or drinks",
+        "meaning_translation": {
+          "Hindi": "खाना या पीना मँगवाना",
+          "Japanese": "料理や飲み物を頼むこと"
+        },
+        "examples": [
+          {
+            "sentence": "We order rice and curry.",
+            "translation": {
+              "Hindi": "हमने चावल और करी ऑर्डर किया।",
+              "Japanese": "私たちはご飯とカレーを注文します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bill",
+        "word_translation": {
+          "Hindi": "बिल",
+          "Japanese": "会計"
+        },
+        "meaning": "a piece of paper that shows how much you have to pay",
+        "meaning_translation": {
+          "Hindi": "पैसे चुकाने के लिए दी जाने वाली पर्ची",
+          "Japanese": "支払い金額が書かれた紙"
+        },
+        "examples": [
+          {
+            "sentence": "Can I have the bill, please?",
+            "translation": {
+              "Hindi": "कृपया बिल दीजिए।",
+              "Japanese": "お会計をお願いします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dish",
+        "word_translation": {
+          "Hindi": "व्यंजन",
+          "Japanese": "料理"
+        },
+        "meaning": "a type of food prepared in a particular way",
+        "meaning_translation": {
+          "Hindi": "विशेष तरीके से तैयार किया गया खाना",
+          "Japanese": "特別な方法で作られた食べ物"
+        },
+        "examples": [
+          {
+            "sentence": "My favorite dish is pizza.",
+            "translation": {
+              "Hindi": "मेरा पसंदीदा व्यंजन पिज़्ज़ा है।",
+              "Japanese": "私の好きな料理はピザです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reservation",
+        "word_translation": {
+          "Hindi": "आरक्षण",
+          "Japanese": "予約"
+        },
+        "meaning": "to book a table before you go",
+        "meaning_translation": {
+          "Hindi": "पहले से टेबल बुक करना",
+          "Japanese": "事前にテーブルを予約すること"
+        },
+        "examples": [
+          {
+            "sentence": "We have a reservation for two.",
+            "translation": {
+              "Hindi": "हमने दो लोगों के लिए आरक्षण किया है।",
+              "Japanese": "2人分の予約があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tip",
+        "word_translation": {
+          "Hindi": "बख्शीश",
+          "Japanese": "チップ"
+        },
+        "meaning": "extra money you give the waiter for good service",
+        "meaning_translation": {
+          "Hindi": "अच्छी सेवा के लिए वेटर को दी गई अतिरिक्त राशि",
+          "Japanese": "良いサービスをしたウェイターに渡すお金"
+        },
+        "examples": [
+          {
+            "sentence": "We left a tip for the waiter.",
+            "translation": {
+              "Hindi": "हमने वेटर को बख्शीश दी।",
+              "Japanese": "ウェイターにチップを渡しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fork",
+        "word_translation": {
+          "Hindi": "कांटा",
+          "Japanese": "フォーク"
+        },
+        "meaning": "a tool you use to eat food",
+        "meaning_translation": {
+          "Hindi": "खाना खाने के लिए उपयोग में आने वाला औज़ार",
+          "Japanese": "食べ物を食べるための道具"
+        },
+        "examples": [
+          {
+            "sentence": "I eat noodles with a fork.",
+            "translation": {
+              "Hindi": "मैं कांटे से नूडल्स खाता हूँ।",
+              "Japanese": "私はフォークで麺を食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "glass",
+        "word_translation": {
+          "Hindi": "गिलास",
+          "Japanese": "コップ"
+        },
+        "meaning": "a container you use to drink water or juice",
+        "meaning_translation": {
+          "Hindi": "जिससे आप पानी या जूस पीते हैं",
+          "Japanese": "水やジュースを飲む容器"
+        },
+        "examples": [
+          {
+            "sentence": "She drinks water from a glass.",
+            "translation": {
+              "Hindi": "वह गिलास से पानी पीती है।",
+              "Japanese": "彼女はコップで水を飲みます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Ordering food",
+        "explanation": "Say 'I would like...' or 'Can I have...?' to order food.",
+        "explanation_translation": {
+          "Hindi": "खाना मंगवाने के लिए 'I would like...' या 'Can I have...?' कहें।",
+          "Japanese": "料理を頼む時「I would like...」「Can I have...?」と言います。"
+        }
+      },
+      {
+        "title": "Asking for the bill",
+        "explanation": "Say 'Can I have the bill, please?'",
+        "explanation_translation": {
+          "Hindi": "'Can I have the bill, please?' कहें।",
+          "Japanese": "「お会計をお願いします。」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Who brings food to your table?",
+        "question_translation": {
+          "Hindi": "आपकी टेबल पर खाना कौन लाता है?",
+          "Japanese": "誰がテーブルに料理を持ってきますか？"
+        },
+        "options": ["waiter", "chef", "guest"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We read the ___ to choose our food. (menu)",
+        "question_translation": {
+          "Hindi": "हम खाने के लिए ___ पढ़ते हैं।",
+          "Japanese": "料理を選ぶために___を見ます。"
+        },
+        "options": ["order", "menu", "bill"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you use to drink water?",
+        "question_translation": {
+          "Hindi": "आप पानी पीने के लिए क्या इस्तेमाल करते हैं?",
+          "Japanese": "水を飲むのに何を使いますか？"
+        },
+        "options": ["fork", "glass", "bill"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What do you leave for good service?",
+        "question_translation": {
+          "Hindi": "अच्छी सेवा के लिए आप क्या छोड़ते हैं?",
+          "Japanese": "良いサービスの時に何を渡しますか？"
+        },
+        "options": ["menu", "tip", "dish"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A reservation means booking a table before you go.",
+        "question_translation": {
+          "Hindi": "आरक्षण का मतलब है कि पहले से टेबल बुक करना।",
+          "Japanese": "予約は事前にテーブルを予約することですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My favorite ___ is pizza. (dish)",
+        "question_translation": {
+          "Hindi": "मेरा पसंदीदा ___ पिज़्ज़ा है।",
+          "Japanese": "私の好きな___はピザです。"
+        },
+        "options": ["menu", "dish", "glass"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Can I have the ___, please? (bill)",
+        "question_translation": {
+          "Hindi": "कृपया ___ दीजिए।",
+          "Japanese": "___をお願いします。"
+        },
+        "options": ["order", "menu", "bill"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [order, rice, we, curry, and]",
+        "question_translation": {
+          "Hindi": "[order, rice, we, curry, and] को सही क्रम में लगाएं।",
+          "Japanese": "[order, rice, we, curry, and]を並べ替えましょう。"
+        },
+        "options": ["order", "rice", "we", "curry", "and"],
+        "answer": ["We", "order", "rice", "and", "curry"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We left a ___ for the waiter. (tip)",
+        "question_translation": {
+          "Hindi": "हमने वेटर को ___ दी।",
+          "Japanese": "ウェイターに___を渡しました。"
+        },
+        "options": ["dish", "tip", "fork"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, dishes, menu, on, many, has]",
+        "question_translation": {
+          "Hindi": "[the, dishes, menu, on, many, has] को सही क्रम में लगाएं।",
+          "Japanese": "[the, dishes, menu, on, many, has]を並べ替えましょう。"
+        },
+        "options": ["the", "dishes", "menu", "on", "many", "has"],
+        "answer": ["The", "menu", "has", "many", "dishes"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Where do we eat? (Audio: 'We eat at a restaurant.')",
+        "audio_text": "We eat at a restaurant.",
+        "question_translation": {
+          "Hindi": "हम कहाँ खाते हैं?",
+          "Japanese": "私たちはどこで食事しますか？"
+        },
+        "options": ["restaurant", "school", "home"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Who brings the food? (Audio: 'The waiter takes our order.')",
+        "audio_text": "The waiter takes our order.",
+        "question_translation": {
+          "Hindi": "खाना कौन लाता है?",
+          "Japanese": "誰が料理を運びますか？"
+        },
+        "options": ["waiter", "guest", "menu"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What do we do with a menu? (Audio: 'The menu has many dishes.')",
+        "audio_text": "The menu has many dishes.",
+        "question_translation": {
+          "Hindi": "हम मेन्यू से क्या करते हैं?",
+          "Japanese": "メニューで何をしますか？"
+        },
+        "options": ["order", "read", "write"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What do you use to eat noodles? (Audio: 'I eat noodles with a fork.')",
+        "audio_text": "I eat noodles with a fork.",
+        "question_translation": {
+          "Hindi": "नूडल्स खाने के लिए आप क्या इस्तेमाल करते हैं?",
+          "Japanese": "麺を食べるのに何を使いますか？"
+        },
+        "options": ["glass", "fork", "bill"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Why do we leave a tip? (Audio: 'We left a tip for the waiter.')",
+        "audio_text": "We left a tip for the waiter.",
+        "question_translation": {
+          "Hindi": "हम बख्शीश क्यों छोड़ते हैं?",
+          "Japanese": "なぜチップを渡しますか？"
+        },
+        "options": ["good service", "bad food", "reservation"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Can I have the bill, please?'",
+        "question_translation": {
+          "Hindi": "कहें: 'कृपया बिल दीजिए।'",
+          "Japanese": "「お会計をお願いします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Can I have the bill, please?"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'We have a reservation for two.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमने दो लोगों के लिए आरक्षण किया है।'",
+          "Japanese": "「2人分の予約があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We have a reservation for two."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I would like rice and curry.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे चावल और करी चाहिए।'",
+          "Japanese": "「ご飯とカレーをお願いします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I would like rice and curry."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The menu has many dishes.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेन्यू में कई व्यंजन हैं।'",
+          "Japanese": "「メニューにはたくさんの料理があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The menu has many dishes."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We left a tip for the waiter.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमने वेटर को बख्शीश दी।'",
+          "Japanese": "「ウェイターにチップを渡しました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We left a tip for the waiter."
+      }
+    ]
+  }
 }

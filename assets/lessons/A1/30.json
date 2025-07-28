@@ -1,4 +1,473 @@
 {
-  "id": 30,
-  "message": "This is file number 30"
+  "id": "lesson_money_prices_001",
+  "lesson_name": "Money & Prices",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "money",
+        "word_translation": {
+          "Hindi": "पैसे",
+          "Japanese": "お金"
+        },
+        "meaning": "what you use to buy things",
+        "meaning_translation": {
+          "Hindi": "वह जिससे आप चीज़ें खरीदते हैं",
+          "Japanese": "物を買うために使うもの"
+        },
+        "examples": [
+          {
+            "sentence": "I have some money in my wallet.",
+            "translation": {
+              "Hindi": "मेरे बटुए में कुछ पैसे हैं।",
+              "Japanese": "財布にお金があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "price",
+        "word_translation": {
+          "Hindi": "कीमत",
+          "Japanese": "値段"
+        },
+        "meaning": "how much something costs",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की लागत",
+          "Japanese": "いくらかかるか"
+        },
+        "examples": [
+          {
+            "sentence": "The price of milk is thirty rupees.",
+            "translation": {
+              "Hindi": "दूध की कीमत तीस रुपये है।",
+              "Japanese": "牛乳の値段は30ルピーです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "coin",
+        "word_translation": {
+          "Hindi": "सिक्का",
+          "Japanese": "コイン"
+        },
+        "meaning": "a small, round piece of money made of metal",
+        "meaning_translation": {
+          "Hindi": "धातु से बनी छोटी गोल मुद्रा",
+          "Japanese": "金属でできた小さくて丸いお金"
+        },
+        "examples": [
+          {
+            "sentence": "She has many coins in her pocket.",
+            "translation": {
+              "Hindi": "उसकी जेब में कई सिक्के हैं।",
+              "Japanese": "彼女のポケットにはコインがたくさんあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "note",
+        "word_translation": {
+          "Hindi": "नोट",
+          "Japanese": "紙幣"
+        },
+        "meaning": "a piece of paper money",
+        "meaning_translation": {
+          "Hindi": "कागज़ के टुकड़े के रूप में मुद्रा",
+          "Japanese": "紙でできたお金"
+        },
+        "examples": [
+          {
+            "sentence": "He gives a ten rupee note.",
+            "translation": {
+              "Hindi": "वह दस रुपये का नोट देता है।",
+              "Japanese": "彼は10ルピー札を渡します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wallet",
+        "word_translation": {
+          "Hindi": "बटुआ",
+          "Japanese": "財布"
+        },
+        "meaning": "a small case for holding money",
+        "meaning_translation": {
+          "Hindi": "पैसे रखने के लिए छोटा केस",
+          "Japanese": "お金を入れる小さいケース"
+        },
+        "examples": [
+          {
+            "sentence": "My wallet is in my bag.",
+            "translation": {
+              "Hindi": "मेरा बटुआ मेरे बैग में है।",
+              "Japanese": "財布はバッグの中にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cheap",
+        "word_translation": {
+          "Hindi": "सस्ता",
+          "Japanese": "安い"
+        },
+        "meaning": "not expensive",
+        "meaning_translation": {
+          "Hindi": "महँगा नहीं",
+          "Japanese": "高くない"
+        },
+        "examples": [
+          {
+            "sentence": "Bananas are cheap at the market.",
+            "translation": {
+              "Hindi": "बाजार में केले सस्ते हैं।",
+              "Japanese": "バナナは市場で安いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expensive",
+        "word_translation": {
+          "Hindi": "महँगा",
+          "Japanese": "高い"
+        },
+        "meaning": "costs a lot of money",
+        "meaning_translation": {
+          "Hindi": "बहुत पैसे में आता है",
+          "Japanese": "お金がたくさんかかる"
+        },
+        "examples": [
+          {
+            "sentence": "That car is expensive.",
+            "translation": {
+              "Hindi": "वह कार महँगी है।",
+              "Japanese": "その車は高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "buy",
+        "word_translation": {
+          "Hindi": "खरीदना",
+          "Japanese": "買う"
+        },
+        "meaning": "to get something by paying money",
+        "meaning_translation": {
+          "Hindi": "पैसे देकर कुछ लेना",
+          "Japanese": "お金を払って物を手に入れる"
+        },
+        "examples": [
+          {
+            "sentence": "We buy milk from the shop.",
+            "translation": {
+              "Hindi": "हम दुकान से दूध खरीदते हैं।",
+              "Japanese": "私たちはお店で牛乳を買います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sell",
+        "word_translation": {
+          "Hindi": "बेचना",
+          "Japanese": "売る"
+        },
+        "meaning": "to give something for money",
+        "meaning_translation": {
+          "Hindi": "पैसे लेकर कुछ देना",
+          "Japanese": "お金をもらって物を渡す"
+        },
+        "examples": [
+          {
+            "sentence": "The shopkeeper sells fruits.",
+            "translation": {
+              "Hindi": "दुकानदार फल बेचता है।",
+              "Japanese": "店主は果物を売っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cost",
+        "word_translation": {
+          "Hindi": "लागत",
+          "Japanese": "かかる"
+        },
+        "meaning": "the amount of money needed to buy something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को खरीदने में लगने वाला पैसा",
+          "Japanese": "物を買うのに必要なお金"
+        },
+        "examples": [
+          {
+            "sentence": "How much does this cost?",
+            "translation": {
+              "Hindi": "यह कितने का है?",
+              "Japanese": "これはいくらかかりますか？"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about prices",
+        "explanation": "Use 'cost' and 'price': 'How much does it cost?' 'What is the price?'",
+        "explanation_translation": {
+          "Hindi": "'cost' और 'price' का प्रयोग करें: 'How much does it cost?' 'What is the price?'",
+          "Japanese": "値段やコストを話すときは「cost」「price」を使います。"
+        }
+      },
+      {
+        "title": "Buying and selling",
+        "explanation": "Say 'I buy...' when you get something, and 'I sell...' when you give something for money.",
+        "explanation_translation": {
+          "Hindi": "कुछ खरीदते समय 'I buy...', और बेचते समय 'I sell...' कहें।",
+          "Japanese": "物を買う時は「I buy...」、売る時は「I sell...」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you use to buy things?",
+        "question_translation": {
+          "Hindi": "आप चीज़ें खरीदने के लिए क्या इस्तेमाल करते हैं?",
+          "Japanese": "物を買うのに使うものは何ですか？"
+        },
+        "options": ["money", "bag", "note"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "She has many ___ in her pocket. (coins)",
+        "question_translation": {
+          "Hindi": "उसकी जेब में कई ___ हैं।",
+          "Japanese": "彼女のポケットにはたくさんの___があります。"
+        },
+        "options": ["notes", "coins", "prices"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you call paper money?",
+        "question_translation": {
+          "Hindi": "कागज के पैसे को क्या कहते हैं?",
+          "Japanese": "紙のお金は何と言いますか？"
+        },
+        "options": ["coin", "cost", "note"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "If something costs a lot, it is...",
+        "question_translation": {
+          "Hindi": "अगर किसी चीज़ की कीमत बहुत ज़्यादा है तो वह...",
+          "Japanese": "値段が高いときは..."
+        },
+        "options": ["cheap", "expensive", "wallet"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "We buy things from the shop.",
+        "question_translation": {
+          "Hindi": "हम दुकान से चीज़ें खरीदते हैं।",
+          "Japanese": "お店で物を買いますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I have some ___ in my wallet. (money)",
+        "question_translation": {
+          "Hindi": "मेरे बटुए में कुछ ___ हैं।",
+          "Japanese": "財布に___があります。"
+        },
+        "options": ["price", "money", "bag"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He gives a ten rupee ___. (note)",
+        "question_translation": {
+          "Hindi": "वह दस रुपये का ___ देता है।",
+          "Japanese": "彼は10ルピーの___を渡します。"
+        },
+        "options": ["note", "coin", "price"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [buy, from, we, the, shop, milk]",
+        "question_translation": {
+          "Hindi": "[buy, from, we, the, shop, milk] को सही क्रम में लगाएं।",
+          "Japanese": "[buy, from, we, the, shop, milk]を並べ替えましょう。"
+        },
+        "options": ["buy", "from", "we", "the", "shop", "milk"],
+        "answer": ["We", "buy", "milk", "from", "the", "shop"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Bananas are ___ at the market. (cheap)",
+        "question_translation": {
+          "Hindi": "बाजार में केले ___ हैं।",
+          "Japanese": "バナナは市場で___です。"
+        },
+        "options": ["expensive", "cheap", "wallet"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [how, much, this, does, cost]",
+        "question_translation": {
+          "Hindi": "[how, much, this, does, cost] को सही क्रम में लगाएं।",
+          "Japanese": "[how, much, this, does, cost]を並べ替えましょう。"
+        },
+        "options": ["how", "much", "this", "does", "cost"],
+        "answer": ["How", "much", "does", "this", "cost"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is in my wallet? (Audio: 'I have some money in my wallet.')",
+        "audio_text": "I have some money in my wallet.",
+        "question_translation": {
+          "Hindi": "मेरे बटुए में क्या है?",
+          "Japanese": "財布に何がありますか？"
+        },
+        "options": ["Price", "Money", "Note"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does she have in her pocket? (Audio: 'She has many coins in her pocket.')",
+        "audio_text": "She has many coins in her pocket.",
+        "question_translation": {
+          "Hindi": "उसकी जेब में क्या है?",
+          "Japanese": "彼女のポケットには何がありますか？"
+        },
+        "options": ["Coins", "Notes", "Cost"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does he give? (Audio: 'He gives a ten rupee note.')",
+        "audio_text": "He gives a ten rupee note.",
+        "question_translation": {
+          "Hindi": "वह क्या देता है?",
+          "Japanese": "彼は何を渡しますか？"
+        },
+        "options": ["Note", "Coin", "Wallet"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Where are bananas cheap? (Audio: 'Bananas are cheap at the market.')",
+        "audio_text": "Bananas are cheap at the market.",
+        "question_translation": {
+          "Hindi": "केले कहाँ सस्ते हैं?",
+          "Japanese": "バナナはどこで安いですか？"
+        },
+        "options": ["Shop", "Market", "Bank"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What does the shopkeeper sell? (Audio: 'The shopkeeper sells fruits.')",
+        "audio_text": "The shopkeeper sells fruits.",
+        "question_translation": {
+          "Hindi": "दुकानदार क्या बेचता है?",
+          "Japanese": "店主は何を売っていますか？"
+        },
+        "options": ["Fruits", "Wallets", "Notes"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'How much does this cost?'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह कितने का है?'",
+          "Japanese": "「これはいくらかかりますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "How much does this cost?"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I have some money in my wallet.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे बटुए में कुछ पैसे हैं।'",
+          "Japanese": "「財布にお金があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I have some money in my wallet."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He gives a ten rupee note.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह दस रुपये का नोट देता है।'",
+          "Japanese": "「彼は10ルピー札を渡します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He gives a ten rupee note."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The price of milk is thirty rupees.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दूध की कीमत तीस रुपये है।'",
+          "Japanese": "「牛乳の値段は30ルピーです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The price of milk is thirty rupees."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The shopkeeper sells fruits.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दुकानदार फल बेचता है।'",
+          "Japanese": "「店主は果物を売っています。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The shopkeeper sells fruits."
+      }
+    ]
+  }
 }

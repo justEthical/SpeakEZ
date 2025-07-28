@@ -1,4 +1,473 @@
 {
-  "id": 43,
-  "message": "This is file number 43"
+  "id": "lesson_talking_with_friends_001",
+  "lesson_name": "Talking with Friends",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "friend",
+        "word_translation": {
+          "Hindi": "दोस्त",
+          "Japanese": "友達"
+        },
+        "meaning": "a person you like and spend time with",
+        "meaning_translation": {
+          "Hindi": "जिसके साथ आप समय बिताते हैं और जिसे आप पसंद करते हैं",
+          "Japanese": "一緒に時間を過ごす好きな人"
+        },
+        "examples": [
+          {
+            "sentence": "My friend lives near me.",
+            "translation": {
+              "Hindi": "मेरा दोस्त मेरे पास रहता है।",
+              "Japanese": "私の友達は近くに住んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "chat",
+        "word_translation": {
+          "Hindi": "बातचीत करना",
+          "Japanese": "おしゃべりする"
+        },
+        "meaning": "to talk in a friendly way",
+        "meaning_translation": {
+          "Hindi": "मिलकर आराम से बात करना",
+          "Japanese": "楽しく話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "We chat after school.",
+            "translation": {
+              "Hindi": "हम स्कूल के बाद बातें करते हैं।",
+              "Japanese": "私たちは学校の後におしゃべりします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "laugh",
+        "word_translation": {
+          "Hindi": "हँसना",
+          "Japanese": "笑う"
+        },
+        "meaning": "to smile and make happy sounds",
+        "meaning_translation": {
+          "Hindi": "मुस्कुराकर खुशी से आवाज़ करना",
+          "Japanese": "にっこり笑って楽しく声を出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "They laugh at funny jokes.",
+            "translation": {
+              "Hindi": "वे मज़ेदार जोक्स पर हँसते हैं।",
+              "Japanese": "彼らは面白いジョークで笑います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "share",
+        "word_translation": {
+          "Hindi": "साझा करना",
+          "Japanese": "分け合う"
+        },
+        "meaning": "to give some of what you have to others",
+        "meaning_translation": {
+          "Hindi": "जो आपके पास है उसमें से थोड़ा दूसरों को देना",
+          "Japanese": "持っているものを他の人に分ける"
+        },
+        "examples": [
+          {
+            "sentence": "We share snacks with friends.",
+            "translation": {
+              "Hindi": "हम दोस्तों के साथ स्नैक्स साझा करते हैं।",
+              "Japanese": "私たちは友達とお菓子を分け合います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "help",
+        "word_translation": {
+          "Hindi": "मदद करना",
+          "Japanese": "助ける"
+        },
+        "meaning": "to make something easier for someone",
+        "meaning_translation": {
+          "Hindi": "किसी का काम आसान करना",
+          "Japanese": "誰かのために何かを簡単にする"
+        },
+        "examples": [
+          {
+            "sentence": "I help my friend with homework.",
+            "translation": {
+              "Hindi": "मैं अपने दोस्त की होमवर्क में मदद करता हूँ।",
+              "Japanese": "私は友達の宿題を手伝います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "secret",
+        "word_translation": {
+          "Hindi": "राज़ / सीक्रेट",
+          "Japanese": "秘密"
+        },
+        "meaning": "something you tell only to close friends",
+        "meaning_translation": {
+          "Hindi": "ऐसी बात जो आप सिर्फ खास दोस्तों को बताते हैं",
+          "Japanese": "親しい友達だけに話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "I tell my secret to my best friend.",
+            "translation": {
+              "Hindi": "मैं अपना राज़ अपने सबसे अच्छे दोस्त को बताता हूँ।",
+              "Japanese": "私は親友に秘密を話します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "greet",
+        "word_translation": {
+          "Hindi": "नमस्ते कहना / अभिवादन करना",
+          "Japanese": "挨拶する"
+        },
+        "meaning": "to say hello",
+        "meaning_translation": {
+          "Hindi": "'हैलो' कहना",
+          "Japanese": "「こんにちは」と言うこと"
+        },
+        "examples": [
+          {
+            "sentence": "We greet each other every day.",
+            "translation": {
+              "Hindi": "हम रोज़ एक-दूसरे को नमस्ते कहते हैं।",
+              "Japanese": "私たちは毎日挨拶します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "argue",
+        "word_translation": {
+          "Hindi": "बहस करना",
+          "Japanese": "けんかする"
+        },
+        "meaning": "to talk in an angry way, not agree",
+        "meaning_translation": {
+          "Hindi": "गुस्से में किसी से न सहमत होकर बोलना",
+          "Japanese": "怒って話すこと、同意しないこと"
+        },
+        "examples": [
+          {
+            "sentence": "Sometimes friends argue.",
+            "translation": {
+              "Hindi": "कभी-कभी दोस्त बहस भी करते हैं।",
+              "Japanese": "時々友達はけんかします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "invite",
+        "word_translation": {
+          "Hindi": "निमंत्रण देना",
+          "Japanese": "招待する"
+        },
+        "meaning": "to ask someone to join you",
+        "meaning_translation": {
+          "Hindi": "किसी को साथ आने के लिए कहना",
+          "Japanese": "一緒に来てと頼むこと"
+        },
+        "examples": [
+          {
+            "sentence": "I invite my friend to my house.",
+            "translation": {
+              "Hindi": "मैं अपने दोस्त को घर बुलाता हूँ।",
+              "Japanese": "私は友達を家に招待します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "call",
+        "word_translation": {
+          "Hindi": "कॉल करना / फोन करना",
+          "Japanese": "電話する"
+        },
+        "meaning": "to talk to someone on the phone",
+        "meaning_translation": {
+          "Hindi": "किसी से फोन पर बात करना",
+          "Japanese": "電話で話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "I call my friend every night.",
+            "translation": {
+              "Hindi": "मैं हर रात अपने दोस्त को कॉल करता हूँ।",
+              "Japanese": "私は毎晩友達に電話します。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about actions with friends",
+        "explanation": "Use present simple: 'We chat after school.' 'They laugh at jokes.'",
+        "explanation_translation": {
+          "Hindi": "दोस्तों के साथ की जाने वाली क्रियाओं के लिए present simple का इस्तेमाल करें: 'We chat after school.' 'They laugh at jokes.'",
+          "Japanese": "友達とする行動には現在形を使います。例：「We chat after school.」「They laugh at jokes.」"
+        }
+      },
+      {
+        "title": "Asking and answering about friends",
+        "explanation": "Ask: 'Who is your best friend?' Answer: 'My best friend is Sam.'",
+        "explanation_translation": {
+          "Hindi": "पूछें: 'Who is your best friend?' उत्तर दें: 'My best friend is Sam.'",
+          "Japanese": "「Who is your best friend?」と聞いて「My best friend is Sam.」と答えます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you call a person you like and spend time with?",
+        "question_translation": {
+          "Hindi": "जिसे आप पसंद करते हैं और समय बिताते हैं उसे क्या कहते हैं?",
+          "Japanese": "好きで一緒に時間を過ごす人は何と言いますか？"
+        },
+        "options": ["friend", "teacher", "call"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We ___ after school. (chat)",
+        "question_translation": {
+          "Hindi": "हम स्कूल के बाद ___ करते हैं।",
+          "Japanese": "私たちは学校の後___します。"
+        },
+        "options": ["laugh", "chat", "argue"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you do when something is funny?",
+        "question_translation": {
+          "Hindi": "अगर कुछ मज़ेदार हो तो आप क्या करते हैं?",
+          "Japanese": "面白い時は何をしますか？"
+        },
+        "options": ["help", "laugh", "call"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "If you have snacks, what can you do with friends?",
+        "question_translation": {
+          "Hindi": "अगर आपके पास स्नैक्स हैं, तो दोस्तों के साथ क्या कर सकते हैं?",
+          "Japanese": "お菓子があったら友達と何ができますか？"
+        },
+        "options": ["share", "argue", "call"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "To greet means to say hello.",
+        "question_translation": {
+          "Hindi": "क्या greet का मतलब है 'हैलो' कहना?",
+          "Japanese": "Greetは「こんにちは」と言うことですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I ___ my friend every night. (call)",
+        "question_translation": {
+          "Hindi": "मैं हर रात अपने दोस्त को ___ करता हूँ।",
+          "Japanese": "私は毎晩友達に___します。"
+        },
+        "options": ["argue", "call", "share"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Sometimes friends ___. (argue)",
+        "question_translation": {
+          "Hindi": "कभी-कभी दोस्त ___ करते हैं।",
+          "Japanese": "時々友達は___します。"
+        },
+        "options": ["invite", "greet", "argue"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [snacks, friends, with, share, we]",
+        "question_translation": {
+          "Hindi": "[snacks, friends, with, share, we] को सही क्रम में लगाएं।",
+          "Japanese": "[snacks, friends, with, share, we]を並べ替えましょう。"
+        },
+        "options": ["snacks", "friends", "with", "share", "we"],
+        "answer": ["We", "share", "snacks", "with", "friends"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "We greet each other ___ day. (every)",
+        "question_translation": {
+          "Hindi": "हम एक-दूसरे को ___ दिन नमस्ते कहते हैं।",
+          "Japanese": "私たちは___日挨拶します。"
+        },
+        "options": ["last", "every", "same"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [my, secret, to, I, best, tell, friend]",
+        "question_translation": {
+          "Hindi": "[my, secret, to, I, best, tell, friend] को सही क्रम में लगाएं।",
+          "Japanese": "[my, secret, to, I, best, tell, friend]を並べ替えましょう。"
+        },
+        "options": ["my", "secret", "to", "I", "best", "tell", "friend"],
+        "answer": ["I", "tell", "my", "secret", "to", "my", "best", "friend"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Who lives near me? (Audio: 'My friend lives near me.')",
+        "audio_text": "My friend lives near me.",
+        "question_translation": {
+          "Hindi": "मेरे पास कौन रहता है?",
+          "Japanese": "私の近くに誰が住んでいますか？"
+        },
+        "options": ["friend", "teacher", "sister"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "When do we chat? (Audio: 'We chat after school.')",
+        "audio_text": "We chat after school.",
+        "question_translation": {
+          "Hindi": "हम कब बातें करते हैं?",
+          "Japanese": "私たちはいつおしゃべりしますか？"
+        },
+        "options": ["before school", "after school", "at night"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What do we do with friends? (Audio: 'We share snacks with friends.')",
+        "audio_text": "We share snacks with friends.",
+        "question_translation": {
+          "Hindi": "हम दोस्तों के साथ क्या साझा करते हैं?",
+          "Japanese": "私たちは友達と何を分け合いますか？"
+        },
+        "options": ["books", "snacks", "homework"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who do I help with homework? (Audio: 'I help my friend with homework.')",
+        "audio_text": "I help my friend with homework.",
+        "question_translation": {
+          "Hindi": "मैं किसकी होमवर्क में मदद करता हूँ?",
+          "Japanese": "私は誰の宿題を手伝いますか？"
+        },
+        "options": ["sister", "friend", "teacher"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Who do I tell my secret to? (Audio: 'I tell my secret to my best friend.')",
+        "audio_text": "I tell my secret to my best friend.",
+        "question_translation": {
+          "Hindi": "मैं अपना राज़ किसको बताता हूँ?",
+          "Japanese": "私は誰に秘密を話しますか？"
+        },
+        "options": ["teacher", "parent", "best friend"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'We chat after school.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम स्कूल के बाद बातें करते हैं।'",
+          "Japanese": "「私たちは学校の後におしゃべりします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We chat after school."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I call my friend every night.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं हर रात अपने दोस्त को कॉल करता हूँ।'",
+          "Japanese": "「私は毎晩友達に電話します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I call my friend every night."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We greet each other every day.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम रोज़ एक-दूसरे को नमस्ते कहते हैं।'",
+          "Japanese": "「私たちは毎日挨拶します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We greet each other every day."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I help my friend with homework.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं अपने दोस्त की होमवर्क में मदद करता हूँ।'",
+          "Japanese": "「私は友達の宿題を手伝います。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I help my friend with homework."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We share snacks with friends.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम दोस्तों के साथ स्नैक्स साझा करते हैं।'",
+          "Japanese": "「私たちは友達とお菓子を分け合います。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We share snacks with friends."
+      }
+    ]
+  }
 }

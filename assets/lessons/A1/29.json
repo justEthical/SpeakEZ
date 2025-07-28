@@ -1,4 +1,473 @@
 {
-  "id": 29,
-  "message": "This is file number 29"
+  "id": "lesson_shopping_001",
+  "lesson_name": "Shopping",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "shop",
+        "word_translation": {
+          "Hindi": "दुकान",
+          "Japanese": "お店"
+        },
+        "meaning": "a place where you buy things",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप चीज़ें खरीदते हैं",
+          "Japanese": "物を買う場所"
+        },
+        "examples": [
+          {
+            "sentence": "We go to the shop to buy bread.",
+            "translation": {
+              "Hindi": "हम रोटी खरीदने दुकान जाते हैं।",
+              "Japanese": "私たちはパンを買いにお店に行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "price",
+        "word_translation": {
+          "Hindi": "कीमत",
+          "Japanese": "値段"
+        },
+        "meaning": "how much something costs",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की लागत",
+          "Japanese": "いくらかかるか"
+        },
+        "examples": [
+          {
+            "sentence": "What is the price of this shirt?",
+            "translation": {
+              "Hindi": "इस शर्ट की कीमत क्या है?",
+              "Japanese": "このシャツの値段はいくらですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cheap",
+        "word_translation": {
+          "Hindi": "सस्ता",
+          "Japanese": "安い"
+        },
+        "meaning": "not expensive",
+        "meaning_translation": {
+          "Hindi": "महँगा नहीं",
+          "Japanese": "高くない"
+        },
+        "examples": [
+          {
+            "sentence": "This apple is cheap.",
+            "translation": {
+              "Hindi": "यह सेब सस्ता है।",
+              "Japanese": "このりんごは安いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expensive",
+        "word_translation": {
+          "Hindi": "महँगा",
+          "Japanese": "高い"
+        },
+        "meaning": "costs a lot of money",
+        "meaning_translation": {
+          "Hindi": "जिसकी कीमत ज़्यादा है",
+          "Japanese": "お金がたくさんかかる"
+        },
+        "examples": [
+          {
+            "sentence": "The shoes are expensive.",
+            "translation": {
+              "Hindi": "जूते महंगे हैं।",
+              "Japanese": "その靴は高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cash",
+        "word_translation": {
+          "Hindi": "नकद",
+          "Japanese": "現金"
+        },
+        "meaning": "money in the form of coins or notes",
+        "meaning_translation": {
+          "Hindi": "सिक्के या नोट के रूप में पैसे",
+          "Japanese": "お札やコインのお金"
+        },
+        "examples": [
+          {
+            "sentence": "He pays with cash.",
+            "translation": {
+              "Hindi": "वह नकद से भुगतान करता है।",
+              "Japanese": "彼は現金で支払います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "discount",
+        "word_translation": {
+          "Hindi": "छूट",
+          "Japanese": "割引"
+        },
+        "meaning": "a lower price than usual",
+        "meaning_translation": {
+          "Hindi": "सामान्य से कम कीमत",
+          "Japanese": "普通より安い値段"
+        },
+        "examples": [
+          {
+            "sentence": "The shop is offering a discount today.",
+            "translation": {
+              "Hindi": "दुकान आज छूट दे रही है।",
+              "Japanese": "お店は今日割引をしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "change",
+        "word_translation": {
+          "Hindi": "बचत पैसे",
+          "Japanese": "おつり"
+        },
+        "meaning": "money you get back when you pay more than the price",
+        "meaning_translation": {
+          "Hindi": "जब आप कीमत से ज़्यादा देते हैं, तो वापस मिलने वाले पैसे",
+          "Japanese": "お金を多く払った時にもらうおつり"
+        },
+        "examples": [
+          {
+            "sentence": "Don't forget your change.",
+            "translation": {
+              "Hindi": "अपना बचत पैसा लेना न भूलें।",
+              "Japanese": "おつりを忘れないでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bag",
+        "word_translation": {
+          "Hindi": "थैला",
+          "Japanese": "袋"
+        },
+        "meaning": "something you carry things in",
+        "meaning_translation": {
+          "Hindi": "जिसमें आप चीज़ें रखते हैं",
+          "Japanese": "物を入れて運ぶもの"
+        },
+        "examples": [
+          {
+            "sentence": "Would you like a bag?",
+            "translation": {
+              "Hindi": "क्या आपको एक थैला चाहिए?",
+              "Japanese": "袋は要りますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "receipt",
+        "word_translation": {
+          "Hindi": "रसीद",
+          "Japanese": "レシート"
+        },
+        "meaning": "a piece of paper that shows you paid",
+        "meaning_translation": {
+          "Hindi": "भुगतान की पर्ची",
+          "Japanese": "支払ったことを証明する紙"
+        },
+        "examples": [
+          {
+            "sentence": "Here is your receipt.",
+            "translation": {
+              "Hindi": "यह आपकी रसीद है।",
+              "Japanese": "こちらがレシートです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "shopkeeper",
+        "word_translation": {
+          "Hindi": "दुकानदार",
+          "Japanese": "店主"
+        },
+        "meaning": "a person who owns or works in a shop",
+        "meaning_translation": {
+          "Hindi": "जो दुकान चलाता या वहाँ काम करता है",
+          "Japanese": "お店を持っている人、またはお店で働く人"
+        },
+        "examples": [
+          {
+            "sentence": "The shopkeeper is helpful.",
+            "translation": {
+              "Hindi": "दुकानदार मददगार है।",
+              "Japanese": "店主は親切です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking for the price",
+        "explanation": "Say 'How much is this?' or 'What is the price?'",
+        "explanation_translation": {
+          "Hindi": "कीमत पूछने के लिए: 'How much is this?' या 'What is the price?' कहें।",
+          "Japanese": "値段を聞く時は「How much is this?」「What is the price?」と言います。"
+        }
+      },
+      {
+        "title": "Shopping questions",
+        "explanation": "Ask 'Do you have...?' or 'Can I have...?' Example: 'Do you have apples?' 'Can I have a bag?'",
+        "explanation_translation": {
+          "Hindi": "खरीदारी के लिए पूछें: 'Do you have...?' या 'Can I have...?' जैसे: 'Do you have apples?' 'Can I have a bag?'",
+          "Japanese": "「Do you have...?」「Can I have...?」と聞きます。例：「Do you have apples?」「Can I have a bag?」"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'not expensive'?",
+        "question_translation": {
+          "Hindi": "'महँगा नहीं' के लिए कौन सा शब्द है?",
+          "Japanese": "「高くない」はどれですか？"
+        },
+        "options": ["expensive", "cheap", "cash"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "He pays with ___. (cash)",
+        "question_translation": {
+          "Hindi": "वह ___ से भुगतान करता है।",
+          "Japanese": "彼は___で支払います。"
+        },
+        "options": ["change", "receipt", "cash"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you call a piece of paper showing you paid?",
+        "question_translation": {
+          "Hindi": "भुगतान की पर्ची को क्या कहते हैं?",
+          "Japanese": "支払い証明の紙は何と言いますか？"
+        },
+        "options": ["receipt", "bag", "discount"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Who sells things in the shop?",
+        "question_translation": {
+          "Hindi": "दुकान में सामान कौन बेचता है?",
+          "Japanese": "お店で物を売るのは誰ですか？"
+        },
+        "options": ["customer", "shopkeeper", "driver"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "If something costs a lot, it is expensive.",
+        "question_translation": {
+          "Hindi": "अगर कोई चीज़ बहुत महँगी है तो वह महँगी कहलाती है।",
+          "Japanese": "お金がたくさんかかるものは高いですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "What is the ___ of this shirt? (price)",
+        "question_translation": {
+          "Hindi": "इस शर्ट की ___ क्या है?",
+          "Japanese": "このシャツの___はいくらですか？"
+        },
+        "options": ["bag", "price", "change"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Don't forget your ___. (change)",
+        "question_translation": {
+          "Hindi": "अपना ___ लेना न भूलें।",
+          "Japanese": "___を忘れないでください。"
+        },
+        "options": ["discount", "receipt", "change"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, the, shop, go, bread, to, buy, to]",
+        "question_translation": {
+          "Hindi": "[I, the, shop, go, bread, to, buy, to] को सही क्रम में लगाएं।",
+          "Japanese": "[I, the, shop, go, bread, to, buy, to]を並べ替えましょう。"
+        },
+        "options": ["I", "the", "shop", "go", "bread", "to", "buy", "to"],
+        "answer": ["I", "go", "to", "the", "shop", "to", "buy", "bread"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The shop is offering a ___. (discount)",
+        "question_translation": {
+          "Hindi": "दुकान ___ दे रही है।",
+          "Japanese": "お店は___をしています。"
+        },
+        "options": ["discount", "bag", "price"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [this, how, is, much]",
+        "question_translation": {
+          "Hindi": "[this, how, is, much] को सही क्रम में लगाएं।",
+          "Japanese": "[this, how, is, much]を並べ替えましょう。"
+        },
+        "options": ["this", "how", "is", "much"],
+        "answer": ["How", "much", "is", "this"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "How does he pay? (Audio: 'He pays with cash.')",
+        "audio_text": "He pays with cash.",
+        "question_translation": {
+          "Hindi": "वह भुगतान कैसे करता है?",
+          "Japanese": "彼はどうやって支払いますか？"
+        },
+        "options": ["Cash", "Discount", "Receipt"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What is the apple? (Audio: 'This apple is cheap.')",
+        "audio_text": "This apple is cheap.",
+        "question_translation": {
+          "Hindi": "सेब कैसा है?",
+          "Japanese": "りんごはどうですか？"
+        },
+        "options": ["Cheap", "Expensive", "Change"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What do you get at the shop? (Audio: 'We go to the shop to buy bread.')",
+        "audio_text": "We go to the shop to buy bread.",
+        "question_translation": {
+          "Hindi": "आप दुकान में क्या खरीदते हैं?",
+          "Japanese": "お店で何を買いますか？"
+        },
+        "options": ["Shoes", "Bread", "Bag"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who is helpful? (Audio: 'The shopkeeper is helpful.')",
+        "audio_text": "The shopkeeper is helpful.",
+        "question_translation": {
+          "Hindi": "कौन मददगार है?",
+          "Japanese": "誰が親切ですか？"
+        },
+        "options": ["Shopkeeper", "Cash", "Discount"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is this? (Audio: 'Here is your receipt.')",
+        "audio_text": "Here is your receipt.",
+        "question_translation": {
+          "Hindi": "यह क्या है?",
+          "Japanese": "これは何ですか？"
+        },
+        "options": ["Bag", "Discount", "Receipt"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'How much is this?'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह कितने का है?'",
+          "Japanese": "「これはいくらですか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "How much is this?"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Do you have apples?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आपके पास सेब हैं?'",
+          "Japanese": "「りんごはありますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Do you have apples?"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He pays with cash.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह नकद से भुगतान करता है।'",
+          "Japanese": "「彼は現金で支払います。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He pays with cash."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Don't forget your change.'",
+        "question_translation": {
+          "Hindi": "कहें: 'अपना बचत पैसा लेना न भूलें।'",
+          "Japanese": "「おつりを忘れないでください。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Don't forget your change."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The shopkeeper is helpful.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दुकानदार मददगार है।'",
+          "Japanese": "「店主は親切です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The shopkeeper is helpful."
+      }
+    ]
+  }
 }

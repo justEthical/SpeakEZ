@@ -112,7 +112,7 @@ class CurrentLessonProgressCard extends StatelessWidget {
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-                child: const Text("Continue Learning"),
+                child: Text( progress ==  0.0 ? "Start Learning" : "Continue Learning"),
               ),
             ],
           );

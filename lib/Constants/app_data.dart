@@ -43,7 +43,7 @@ class AppData {
     "Invitations & Replies",
     "Likes & Dislikes",
     "Describing Objects",
-    "My Best Friend",
+    "Talking with friends",
     "Simple Past Actions",
     "My City / Village",
     "On Holiday / Vacations",
