@@ -207,10 +207,10 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "I have two ___. (brothers)",
+        "question": "I have two ___.",
         "question_translation": {
-          "Hindi": "मेरे दो ___ हैं। (brothers)",
-          "Japanese": "私は___が二人います。（brothers）"
+          "Hindi": "मेरे दो ___ हैं।",
+          "Japanese": "私は___が二人います。"
         },
         "options": ["sisters", "brothers", "uncles"],
         "answer": 1
@@ -218,10 +218,10 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "My ___ is very kind. (mother)",
+        "question": "My ___ is very kind.",
         "question_translation": {
-          "Hindi": "मेरी ___ बहुत दयालु हैं। (mother)",
-          "Japanese": "私の___はとても優しいです。（mother）"
+          "Hindi": "मेरी ___ बहुत दयालु हैं।",
+          "Japanese": "私の___はとても優しいです。"
         },
         "options": ["aunt", "mother", "grandmother"],
         "answer": 1

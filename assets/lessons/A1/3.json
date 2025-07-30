@@ -256,9 +256,10 @@
       {
         "id": "listen1",
         "type": "listening",
+        "audio_text": "Today is Thursday.",
         "question": "What day did the speaker say?",
         "question_translation": {
-          "Hindi": "वक्ता ने कौन सा दिन बताया? (ऑडियो: 'आज गुरुवार है।')",
+          "Hindi": "वक्ता ने कौन सा दिन बताया?",
           "Japanese": "話者は何曜日と言いましたか？（音声：「今日は木曜日です。」）"
         },
         "options": ["Monday", "Thursday", "Saturday"],
@@ -267,10 +268,11 @@
       {
         "id": "listen2",
         "type": "listening",
+        "audio_text": "Satuarday and Sunday are weekends.",
         "question": "What days are the weekend?",
         "question_translation": {
-          "Hindi": "सप्ताहांत कौन से दिन होते हैं? (ऑडियो: 'शनिवार और रविवार सप्ताहांत हैं।')",
-          "Japanese": "週末は何曜日ですか？（音声：「土曜日と日曜日は週末です。」）"
+          "Hindi": "सप्ताहांत कौन से दिन होते हैं?",
+          "Japanese": "週末は何曜日ですか？"
         },
         "options": ["Monday and Friday", "Saturday and Sunday", "Tuesday and Thursday"],
         "answer": 1
@@ -278,10 +280,11 @@
       {
         "id": "listen3",
         "type": "listening",
+        "audio_text": "Tuesday comes after Monday.", 
         "question": "What day comes after Monday?",
         "question_translation": {
-          "Hindi": "सोमवार के बाद कौन सा दिन आता है? (ऑडियो: 'सोमवार के बाद मंगलवार आता है।')",
-          "Japanese": "月曜日の次の日は何ですか？（音声：「火曜日は月曜日の次です。」）"
+          "Hindi": "सोमवार के बाद कौन सा दिन आता है?",
+          "Japanese": "月曜日の次の日は何ですか？"
         },
         "options": ["Sunday", "Tuesday", "Wednesday"],
         "answer": 1
@@ -289,10 +292,11 @@
       {
         "id": "listen4",
         "type": "listening",
+        "audio_text": "The first day of the week is Monday.",
         "question": "What is the first day of the week?",
         "question_translation": {
-          "Hindi": "सप्ताह का पहला दिन कौन सा है? (ऑडियो: 'पहला दिन सोमवार है।')",
-          "Japanese": "週の最初の日は何ですか？（音声：「最初の日は月曜日です。」）"
+          "Hindi": "सप्ताह का पहला दिन कौन सा है?",
+          "Japanese": "週の最初の日は何ですか？"
         },
         "options": ["Monday", "Saturday", "Friday"],
         "answer": 0
@@ -300,10 +304,11 @@
       {
         "id": "listen5",
         "type": "listening",
+        "audio_text": "Today is Sunday.",
         "question": "What day is it?",
         "question_translation": {
-          "Hindi": "आज कौन सा दिन है? (ऑडियो: 'आज रविवार है।')",
-          "Japanese": "今日は何曜日ですか？（音声：「今日は日曜日です。」）"
+          "Hindi": "आज कौन सा दिन है? ",
+          "Japanese": "今日は何曜日ですか？"
         },
         "options": ["Sunday", "Wednesday", "Friday"],
         "answer": 0

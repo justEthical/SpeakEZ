@@ -207,12 +207,12 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "This is my ___. (desk)",
+        "question": "This is my ___.",
         "question_translation": {
-          "Hindi": "यह मेरी ___ है। (मेज़)",
-          "Japanese": "これは私の___です。（机）"
+          "Hindi": "यह मेरी ___ है।",
+          "Japanese": "これは私の___です。"
         },
-        "options": ["chair", "desk", "board"],
+        "options": [ "Monday", "desk", "many"],
         "answer": 1
       },
       {

@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lottie/lottie.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
@@ -51,17 +48,17 @@ class _SpeakOptionState extends State<SpeakOption> {
                             width: 0.4,
                           ),
                         ),
-                        child:   Lottie.asset(
-                          c.isAudioProcessing.value ? AppAssets.loader : AppAssets.recording,
-                          height: 60,
-                          width: 60,
-                          decoder: globalController.customDecoder,
+                        child: Container(
+                          padding: const EdgeInsets.all(10.0),
+                          decoration: BoxDecoration(color: Colors.red),
                         ),
                       ),
                     ),
                     SizedBox(height: 5),
                     Text(
-                      c.isAudioProcessing.value ? "Processing..." :  "Listening...",
+                      c.isAudioProcessing.value
+                          ? "Processing..."
+                          : "Listening...",
                       style: TextStyle(
                         color: Colors.deepPurple,
                         fontSize: 12,
@@ -93,5 +90,4 @@ class _SpeakOptionState extends State<SpeakOption> {
       ),
     );
   }
-
 }

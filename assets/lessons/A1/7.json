@@ -207,10 +207,10 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "The ___ is black. (night)",
+        "question": "The ___ is black.",
         "question_translation": {
-          "Hindi": "___ काली है। (रात)",
-          "Japanese": "___は黒いです。（夜）"
+          "Hindi": "___ काली है।",
+          "Japanese": "___は黒いです。"
         },
         "options": ["apple", "sky", "night"],
         "answer": 2
@@ -218,12 +218,12 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "She has a ___ dress. (red)",
+        "question": "She has a ___ dress.",
         "question_translation": {
-          "Hindi": "उसकी ___ ड्रेस है। (लाल)",
-          "Japanese": "彼女は___ドレスを持っています。（赤）"
+          "Hindi": "उसकी ___ ड्रेस है।",
+          "Japanese": "彼女は___ドレスを持っています。"
         },
-        "options": ["red", "blue", "green"],
+        "options": ["red", "billion", "today"],
         "answer": 0
       },
       {
