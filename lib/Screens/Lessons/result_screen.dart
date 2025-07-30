@@ -16,6 +16,7 @@ class ResultScreen extends StatelessWidget {
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     c.updateLesssonProgress();
+    final timeTookForQna = c.qnaStartTime.difference(DateTime.now());
 
     return Scaffold(
       body: Stack(
@@ -45,7 +46,13 @@ class ResultScreen extends StatelessWidget {
                   const Spacer(flex: 1),
                   _buildSuccessAnimation(),
                   const Spacer(flex: 2),
-                  _buildAccuracyCard(context, accuracy),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      _buildResultAnalyticCard(context, "${accuracy.toStringAsFixed(0)}%", "Accuracy", Colors.green),
+                      _buildResultAnalyticCard(context, timeTookForQna.inMinutes.toString(), "Time Taken", Colors.blue),
+                    ],
+                  ),
                   const SizedBox(height: 24),
                   _buildDoneButton(),
                   const Spacer(flex: 1),
@@ -93,55 +100,58 @@ class ResultScreen extends StatelessWidget {
       ),
     );
   }
-
-  Widget _buildAccuracyCard(BuildContext context, double accuracy) {
-    return Card(
-      elevation: 8,
-      shadowColor: Colors.deepPurple.withOpacity(0.3),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(20),
-        child: Container(
-          decoration: BoxDecoration(
-            border: Border.all(
-              color: Colors.deepPurple.withOpacity(0.5),
-              width: 1,
-            ),
-            borderRadius: BorderRadius.circular(20),
-          ),
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 24.0),
-                child: Text(
-                  "${accuracy.toStringAsFixed(0)}%",
-                  style: GoogleFonts.nunito(
-                    color: Colors.deepPurple,
-                    fontSize: 36,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
+ 
+  Widget _buildResultAnalyticCard(BuildContext context, String analytics, String analyticsTitle, Color color) {
+    return SizedBox(
+      width: Get.width * 0.5 - 30,
+      child: Card(
+        elevation: 8,
+        shadowColor: color.withOpacity(0.3),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(20),
+          child: Container(
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: color.withOpacity(0.5),
+                width: 1,
               ),
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.symmetric(vertical: 16),
-                decoration: const BoxDecoration(
-                  color: Colors.deepPurple,
-                ),
-                child: Center(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 14.0),
                   child: Text(
-                    "Accuracy",
+                    analytics,
                     style: GoogleFonts.nunito(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w700,
+                      color: color,
+                      fontSize: 25,
+                      fontWeight: FontWeight.w900,
                     ),
                   ),
                 ),
-              ),
-            ],
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  decoration: BoxDecoration(
+                    color: color,
+                  ),
+                  child: Center(
+                    child: Text(
+                      analyticsTitle,
+                      style: GoogleFonts.nunito(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

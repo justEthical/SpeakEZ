@@ -168,6 +168,7 @@ class GrammerTipsScreen extends StatelessWidget {
               c.currentGrammerTipIndex.value++;
             } else {
               c.buildQnaList(lesson);
+              c.qnaStartTime = DateTime.now();
               Get.off(QnaScreen(lesson: lesson));
             }
           },

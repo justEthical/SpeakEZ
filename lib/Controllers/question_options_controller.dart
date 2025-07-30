@@ -32,6 +32,7 @@ class QuestionOptionsController extends GetxController {
   var transcriptionText = "".obs;
   var currentWordMeaningIndex = 0.obs;
   var currentGrammerTipIndex = 0.obs;
+  var qnaStartTime = DateTime.now();
 
   var speakingQuestionAccuracy = 0.0;
 
