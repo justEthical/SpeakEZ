@@ -32,11 +32,26 @@ class _SpeakOptionState extends State<SpeakOption> {
             c.isListeningLessonAnswer.value
                 ? Column(
                   children: [
+                    c.isListeningLessonAnswer.value ? Text(
+                      "Tap to stop",
+                      style: TextStyle(
+                        color: Colors.deepPurple,
+                        fontSize: 12,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ) : SizedBox(),
+                    const SizedBox(height: 10),
                     InkWell(
                       onTap: () {
                         c.stopRecording();
+                        c.isListeningLessonAnswer.value =
+                            !c.isListeningLessonAnswer.value;
                       },
                       child: Container(
+                        width: 60,
+                        height: 60,
+                        padding: const EdgeInsets.all(18.0),
                         decoration: BoxDecoration(
                           color:
                               c.isListeningLessonAnswer.value
@@ -49,8 +64,10 @@ class _SpeakOptionState extends State<SpeakOption> {
                           ),
                         ),
                         child: Container(
-                          padding: const EdgeInsets.all(10.0),
-                          decoration: BoxDecoration(color: Colors.red),
+                          decoration: BoxDecoration(
+                            color: Colors.red,
+                            borderRadius: BorderRadius.circular(5),
+                          ),
                         ),
                       ),
                     ),
