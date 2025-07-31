@@ -72,6 +72,12 @@ class QuestionOptionsController extends GetxController {
     return Lesson.fromJson(jsonString);
   }
 
+  String formatSecondsToMinutes(int timeInSeconds) {
+    final minutes = (timeInSeconds ~/ 60).toString().padLeft(2, '0');
+    final seconds = (timeInSeconds % 60).toString().padLeft(2, '0');
+    return '$minutes:$seconds';
+  }
+
   updateLesssonProgress() {
     globalController.userProfile.value.currentEnglishLevelProgress++;
     final lastActive = globalController.userProfile.value.lastActive;

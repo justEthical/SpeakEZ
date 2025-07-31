@@ -16,8 +16,10 @@ class ResultScreen extends StatelessWidget {
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     c.updateLesssonProgress();
-    final timeTookForQna = c.qnaStartTime.difference(DateTime.now());
-
+    final timeTookForQnaInSeconds = DateTime.now().difference(c.qnaStartTime).inSeconds; 
+    final timeTookForQna = c.formatSecondsToMinutes(timeTookForQnaInSeconds);
+    c.whisperSendPort.send('stop');
+    c.isWhisperInitialized.value = false;
     return Scaffold(
       body: Stack(
         children: [
@@ -50,7 +52,7 @@ class ResultScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       _buildResultAnalyticCard(context, "${accuracy.toStringAsFixed(0)}%", "Accuracy", Colors.green),
-                      _buildResultAnalyticCard(context, timeTookForQna.inMinutes.toString(), "Time Taken", Colors.blue),
+                      _buildResultAnalyticCard(context, timeTookForQna, "Time Taken", Colors.blue),
                     ],
                   ),
                   const SizedBox(height: 24),
