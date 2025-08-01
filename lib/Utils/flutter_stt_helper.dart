@@ -6,15 +6,19 @@ class SpeechService {
   bool isListening = false;
   String recognizedText = '';
 
-  Future<void> startListening(Function(String) onResult) async {
+  Future<void> startListening(Function(String) onResult, Function(bool) isListeningState) async {
     bool available = await _speech.initialize(
       onStatus: (status) {
         print("Status: $status");
         if (status == "done" || status == "notListening") {
           isListening = false;
+          isListeningState(false);
         } 
       },
-      onError: (error) => print('Error: $error'),
+      onError: (error) {
+        print("Error: $error");
+        isListeningState(false);
+      },
     );
 
     if (available) {

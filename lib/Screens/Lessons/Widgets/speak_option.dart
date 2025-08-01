@@ -124,7 +124,11 @@ class _SpeakOptionState extends State<SpeakOption> {
                       final micPermission =
                           await Permission.microphone.request();
                       if (micPermission.isGranted) {
-                        c.startRecording();
+                        if(globalController.isAiModelDownloaded.value){
+                          c.startRecording();
+                        }else{
+                          c.googleSpeechToText();
+                        }
                       }
                     },
                     icon: Icon(Icons.mic, color: Colors.white, size: 40),

@@ -13,6 +13,7 @@ import 'package:speak_ez/Screens/Lessons/Widgets/lessons_exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
+import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
@@ -45,14 +46,6 @@ class QuestionOptionsController extends GetxController {
   late StreamSubscription<bool> sub;
 
   late Lesson currentLessonModel;
-
-  var lessonList = [
-    "assets/questions/A1/Greetings & Introductions.json",
-    "assets/questions/A1/Talking About Yourself.json",
-    "assets/questions/A1/Family Members.json",
-    "assets/questions/A1/Numbers and Counting.json",
-    "assets/questions/A1/Days of the Week.json",
-  ];
 
   var isContinueButtonEnabled = false.obs;
   var isMicOn = false.obs;
@@ -125,10 +118,27 @@ class QuestionOptionsController extends GetxController {
         stopRecording();
         print("Timer stopped");
       } else {
-        // print("Timmer running ${remainingSeconds.value}");
         remainingSeconds.value--;
       }
     });
+  }
+
+  void googleSpeechToText() {
+    final SpeechService stt = SpeechService();
+    isListeningLessonAnswer.value = true;
+    stt.startListening(
+      (result) {
+        transcriptionText.value = result;
+        print(transcriptionText.value);
+      },
+      (isListening) {
+        isListeningLessonAnswer.value = isListening;
+        // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc  
+        transcriptionText.value = removeBracketedWords(transcriptionText.value);
+        // removing non alphabet characters like !, @, #, %, comma (,) etc
+        transcriptionText.value = removeNonAlphabet(transcriptionText.value);
+      },
+    );
   }
 
   void stopRecording() {
