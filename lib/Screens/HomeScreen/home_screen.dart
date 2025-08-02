@@ -10,6 +10,7 @@ import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
 
@@ -27,6 +28,9 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     c.fetchUserDetails();
+    WhisperHelper.isModelAvailable().then((isAvailable) {
+      globalController.isAiModelDownloaded.value = isAvailable;
+    });
   }
 
   @override

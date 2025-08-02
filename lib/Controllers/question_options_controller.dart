@@ -56,6 +56,8 @@ class QuestionOptionsController extends GetxController {
   var sttResult = "".obs;
   var isAudioProcessing = false.obs;
 
+  final SpeechService stt = SpeechService();
+
   Future<Lesson> setCurrentLesson() async {
     final profile = globalController.userProfile.value;
     final data = await rootBundle.loadString(
@@ -124,7 +126,6 @@ class QuestionOptionsController extends GetxController {
   }
 
   void googleSpeechToText() {
-    final SpeechService stt = SpeechService();
     isListeningLessonAnswer.value = true;
     stt.startListening(
       (result) {
@@ -133,10 +134,13 @@ class QuestionOptionsController extends GetxController {
       },
       (isListening) {
         isListeningLessonAnswer.value = isListening;
-        // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc  
+        // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
         transcriptionText.value = removeBracketedWords(transcriptionText.value);
         // removing non alphabet characters like !, @, #, %, comma (,) etc
         transcriptionText.value = removeNonAlphabet(transcriptionText.value);
+        if (transcriptionText.value.isNotEmpty) {
+          isContinueButtonEnabled.value = true;
+        }
       },
     );
   }
@@ -162,6 +166,7 @@ class QuestionOptionsController extends GetxController {
         sub.cancel();
       }
     });
+    stt.cancelListening();
   }
 
   String removeBracketedWords(String text) {
