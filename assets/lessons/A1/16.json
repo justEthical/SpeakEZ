@@ -1,4 +1,473 @@
 {
-  "id": 16,
-  "message": "This is file number 16"
+  "id": "lesson_wild_animals_001",
+  "lesson_name": "Wild Animals",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "lion",
+        "word_translation": {
+          "Hindi": "शेर",
+          "Japanese": "ライオン"
+        },
+        "meaning": "a large wild animal called the king of the jungle",
+        "meaning_translation": {
+          "Hindi": "जंगल का राजा, बड़ा जंगली जानवर",
+          "Japanese": "ジャングルの王様、大きな野生動物"
+        },
+        "examples": [
+          {
+            "sentence": "The lion roars loudly.",
+            "translation": {
+              "Hindi": "शेर ज़ोर से दहाड़ता है।",
+              "Japanese": "ライオンは大きな声でほえます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tiger",
+        "word_translation": {
+          "Hindi": "बाघ",
+          "Japanese": "トラ"
+        },
+        "meaning": "a big wild cat with orange fur and black stripes",
+        "meaning_translation": {
+          "Hindi": "नारंगी रंग और काली धारियों वाला बड़ा जंगली बिल्ली",
+          "Japanese": "オレンジ色に黒いしま模様の大きなネコ科動物"
+        },
+        "examples": [
+          {
+            "sentence": "The tiger lives in the forest.",
+            "translation": {
+              "Hindi": "बाघ जंगल में रहता है।",
+              "Japanese": "トラは森に住んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "elephant",
+        "word_translation": {
+          "Hindi": "हाथी",
+          "Japanese": "ゾウ"
+        },
+        "meaning": "the largest land animal with a long trunk",
+        "meaning_translation": {
+          "Hindi": "सबसे बड़ा स्थलीय जानवर, जिसकी लंबी सूंड होती है",
+          "Japanese": "一番大きな陸の動物、長い鼻を持つ"
+        },
+        "examples": [
+          {
+            "sentence": "The elephant has big ears.",
+            "translation": {
+              "Hindi": "हाथी के बड़े कान होते हैं।",
+              "Japanese": "ゾウには大きな耳があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "monkey",
+        "word_translation": {
+          "Hindi": "बंदर",
+          "Japanese": "さる"
+        },
+        "meaning": "a clever animal that climbs trees and eats fruits",
+        "meaning_translation": {
+          "Hindi": "चतुर जानवर जो पेड़ों पर चढ़ता है और फल खाता है",
+          "Japanese": "木に登り、果物を食べる賢い動物"
+        },
+        "examples": [
+          {
+            "sentence": "The monkey swings from tree to tree.",
+            "translation": {
+              "Hindi": "बंदर पेड़ से पेड़ पर झूलता है।",
+              "Japanese": "さるは木から木へとぶら下がります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bear",
+        "word_translation": {
+          "Hindi": "भालू",
+          "Japanese": "くま"
+        },
+        "meaning": "a large wild animal with thick fur that eats plants and fish",
+        "meaning_translation": {
+          "Hindi": "मोटे बालों वाला बड़ा जंगली जानवर, जो पौधे और मछली खाता है",
+          "Japanese": "太い毛のある大きな動物、植物や魚を食べる"
+        },
+        "examples": [
+          {
+            "sentence": "The bear catches fish in the river.",
+            "translation": {
+              "Hindi": "भालू नदी में मछली पकड़ता है।",
+              "Japanese": "くまは川で魚をとります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wolf",
+        "word_translation": {
+          "Hindi": "भेड़िया",
+          "Japanese": "オオカミ"
+        },
+        "meaning": "a wild animal that looks like a big dog and hunts in groups",
+        "meaning_translation": {
+          "Hindi": "कुत्ते जैसा दिखने वाला जंगली जानवर, जो झुंड में शिकार करता है",
+          "Japanese": "大きな犬のような野生動物、群れで狩りをする"
+        },
+        "examples": [
+          {
+            "sentence": "The wolf howls at night.",
+            "translation": {
+              "Hindi": "भेड़िया रात को हुआं करता है।",
+              "Japanese": "オオカミは夜に遠吠えします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deer",
+        "word_translation": {
+          "Hindi": "हिरण",
+          "Japanese": "鹿"
+        },
+        "meaning": "a wild animal with long legs and antlers",
+        "meaning_translation": {
+          "Hindi": "लंबी टाँगों और सींग वाला जंगली जानवर",
+          "Japanese": "長い足と角のある動物"
+        },
+        "examples": [
+          {
+            "sentence": "The deer runs very fast.",
+            "translation": {
+              "Hindi": "हिरण बहुत तेज दौड़ता है।",
+              "Japanese": "鹿はとても速く走ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fox",
+        "word_translation": {
+          "Hindi": "लोमड़ी",
+          "Japanese": "きつね"
+        },
+        "meaning": "a small wild animal with a bushy tail and sharp face",
+        "meaning_translation": {
+          "Hindi": "झबरीली पूँछ और तीखा मुँह वाला छोटा जंगली जानवर",
+          "Japanese": "ふさふさのしっぽととがった顔の小さい野生動物"
+        },
+        "examples": [
+          {
+            "sentence": "The fox is very clever.",
+            "translation": {
+              "Hindi": "लोमड़ी बहुत चालाक होती है।",
+              "Japanese": "きつねはとても賢いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "giraffe",
+        "word_translation": {
+          "Hindi": "जिराफ़",
+          "Japanese": "キリン"
+        },
+        "meaning": "a very tall animal with a long neck",
+        "meaning_translation": {
+          "Hindi": "बहुत लंबी गर्दन वाला ऊँचा जानवर",
+          "Japanese": "首がとても長い背の高い動物"
+        },
+        "examples": [
+          {
+            "sentence": "The giraffe eats leaves from tall trees.",
+            "translation": {
+              "Hindi": "जिराफ़ ऊँचे पेड़ों की पत्तियाँ खाता है।",
+              "Japanese": "キリンは高い木の葉を食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "zebra",
+        "word_translation": {
+          "Hindi": "ज़ेब्रा",
+          "Japanese": "シマウマ"
+        },
+        "meaning": "a wild animal like a horse, with black and white stripes",
+        "meaning_translation": {
+          "Hindi": "काले और सफेद धारी वाला, घोड़े जैसा जंगली जानवर",
+          "Japanese": "黒と白のしま模様を持つ、馬に似た動物"
+        },
+        "examples": [
+          {
+            "sentence": "The zebra has black and white stripes.",
+            "translation": {
+              "Hindi": "ज़ेब्रा के काले और सफेद धारी होते हैं।",
+              "Japanese": "シマウマは黒と白のしま模様があります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about habitats: lives in/on/under",
+        "explanation": "Use 'lives in' for places (The lion lives in the jungle), 'lives on' for surfaces (The monkey lives on trees), 'lives under' for things like water or ground.",
+        "explanation_translation": {
+          "Hindi": "'lives in' स्थान के लिए, 'lives on' सतह के लिए, 'lives under' के लिए नीचे के लिए उपयोग करें। उदाहरण: 'The lion lives in the jungle.' 'The monkey lives on trees.'",
+          "Japanese": "'lives in'は場所に使います（The lion lives in the jungle）。'lives on'は表面や上に使います（The monkey lives on trees）。"
+        }
+      },
+      {
+        "title": "Describing wild animals",
+        "explanation": "Use 'has' to talk about body parts (The elephant has a trunk). Use 'can' for abilities (The deer can run fast).",
+        "explanation_translation": {
+          "Hindi": "'has' अंगों के लिए और 'can' क्षमताओं के लिए। उदाहरण: 'The elephant has a trunk.' 'The deer can run fast.'",
+          "Japanese": "'has'は体の部分、'can'はできることを言う時に使います。例: 'The elephant has a trunk.' 'The deer can run fast.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which animal has black stripes?",
+        "question_translation": {
+          "Hindi": "किस जानवर की काली धारियाँ होती हैं?",
+          "Japanese": "どの動物に黒いしま模様がありますか？"
+        },
+        "options": ["Zebra", "Monkey", "Bear"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is called the king of the jungle.",
+        "question_translation": {
+          "Hindi": "___ को जंगल का राजा कहा जाता है।",
+          "Japanese": "___はジャングルの王様と呼ばれます。"
+        },
+        "options": ["lion", "giraffe", "fox"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which animal has a long neck?",
+        "question_translation": {
+          "Hindi": "किस जानवर की गर्दन लंबी होती है?",
+          "Japanese": "どの動物の首が長いですか？"
+        },
+        "options": ["Bear", "Giraffe", "Wolf"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which animal can climb trees?",
+        "question_translation": {
+          "Hindi": "कौन सा जानवर पेड़ पर चढ़ सकता है?",
+          "Japanese": "どの動物が木に登れますか？"
+        },
+        "options": ["Lion", "Elephant", "Monkey"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Elephants have trunks.",
+        "question_translation": {
+          "Hindi": "हाथियों की सूंड होती है।",
+          "Japanese": "ゾウには鼻があります。"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ can run very fast. (deer)",
+        "question_translation": {
+          "Hindi": "___ बहुत तेज दौड़ सकता है।",
+          "Japanese": "___はとても速く走れます。"
+        },
+        "options": ["bear", "deer", "fox"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ roars loudly. (lion)",
+        "question_translation": {
+          "Hindi": "___ ज़ोर से दहाड़ता है।",
+          "Japanese": "___は大きな声でほえます。"
+        },
+        "options": ["wolf", "lion", "zebra"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [lives, in, the, forest, tiger, the]",
+        "question_translation": {
+          "Hindi": "[lives, in, the, forest, tiger, the] को सही क्रम में लगाएं।",
+          "Japanese": "[lives, in, the, forest, tiger, the]を並べ替えましょう。"
+        },
+        "options": ["lives", "in", "the", "forest", "tiger", "the"],
+        "answer": ["The", "tiger", "lives", "in", "the", "forest"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is very clever. (fox)",
+        "question_translation": {
+          "Hindi": "___ बहुत चालाक है।",
+          "Japanese": "___はとても賢いです。"
+        },
+        "options": ["zebra", "bear", "fox"],
+        "answer": 2
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [ears, big, has, the, elephant]",
+        "question_translation": {
+          "Hindi": "[ears, big, has, the, elephant] को सही क्रम में लगाएं।",
+          "Japanese": "[ears, big, has, the, elephant]を並べ替えましょう。"
+        },
+        "options": ["ears", "big", "has", "the", "elephant"],
+        "answer": ["The", "elephant", "has", "big", "ears"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Which animal did the speaker mention?)",
+        "audio_text": "The lion roars loudly.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा जानवर बताया?",
+          "Japanese": "話者はどの動物について言いましたか？"
+        },
+        "options": ["Lion", "Deer", "Fox"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the bear catch?",
+        "audio_text": "The bear catches fish in the river.",
+        "question_translation": {
+          "Hindi": "भालू क्या पकड़ता है?",
+          "Japanese": "くまは何をとりますか？"
+        },
+        "options": ["Fish", "Fruit", "Grass"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does the giraffe eat?",
+        "audio_text": "The giraffe eats leaves from tall trees.",
+        "question_translation": {
+          "Hindi": "जिराफ़ क्या खाता है?",
+          "Japanese": "キリンは何を食べますか？"
+        },
+        "options": ["Fruit", "Leaves", "Meat"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Which animal is very fast?",
+        "audio_text": "The deer runs very fast.",
+        "question_translation": {
+          "Hindi": "कौन सा जानवर बहुत तेज दौड़ता है?",
+          "Japanese": "どの動物がとても速く走りますか？"
+        },
+        "options": ["Bear", "Wolf", "Deer"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What color are the zebra's stripes?",
+        "audio_text": "The zebra has black and white stripes.",
+        "question_translation": {
+          "Hindi": "ज़ेब्रा की धारियाँ किस रंग की होती हैं?",
+          "Japanese": "シマウマのしま模様は何色ですか？"
+        },
+        "options": ["Black and white", "Brown and white", "Red and yellow"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The lion roars loudly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'शेर ज़ोर से दहाड़ता है।'",
+          "Japanese": "「ライオンは大きな声でほえます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The lion roars loudly."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The elephant has a long trunk.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हाथी की सूंड लंबी होती है।'",
+          "Japanese": "「ゾウには長い鼻があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The elephant has a long trunk."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The tiger lives in the forest.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बाघ जंगल में रहता है।'",
+          "Japanese": "「トラは森に住んでいます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The tiger lives in the forest."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The monkey climbs trees.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बंदर पेड़ पर चढ़ता है।'",
+          "Japanese": "「さるは木に登ります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The monkey climbs trees."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The fox is very clever.'",
+        "question_translation": {
+          "Hindi": "कहें: 'लोमड़ी बहुत चालाक है।'",
+          "Japanese": "「きつねはとても賢いです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The fox is very clever."
+      }
+    ]
+  }
 }

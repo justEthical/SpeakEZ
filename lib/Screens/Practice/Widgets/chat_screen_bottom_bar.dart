@@ -16,16 +16,8 @@ class ChatScreenBottomBar extends StatelessWidget {
       width: Get.width,
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: Colors.white,
         borderRadius: BorderRadius.circular(10),
-        boxShadow: [
-          BoxShadow(
-            color: const Color(0x33000000),
-            spreadRadius: 5,
-            blurRadius: 7,
-            offset: const Offset(0, 3),
-          ),
-        ],
+       
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

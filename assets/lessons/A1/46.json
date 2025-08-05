@@ -1,4 +1,473 @@
 {
-  "id": 46,
-  "message": "This is file number 46"
+  "id": "lesson_on_holiday_vacations_001",
+  "lesson_name": "On Holiday / Vacations",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "holiday",
+        "word_translation": {
+          "Hindi": "छुट्टी",
+          "Japanese": "休日 / 休み"
+        },
+        "meaning": "a special day when you do not go to work or school",
+        "meaning_translation": {
+          "Hindi": "ऐसा दिन जब आप स्कूल या काम पर नहीं जाते",
+          "Japanese": "学校や仕事が休みの日"
+        },
+        "examples": [
+          {
+            "sentence": "We went to the beach on holiday.",
+            "translation": {
+              "Hindi": "हम छुट्टियों में समुद्र तट गए।",
+              "Japanese": "休みに海に行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "vacation",
+        "word_translation": {
+          "Hindi": "अवकाश / छुट्टियाँ",
+          "Japanese": "バケーション / 休暇"
+        },
+        "meaning": "a time when you travel or rest away from home",
+        "meaning_translation": {
+          "Hindi": "जब आप घर से बाहर घूमने या आराम करने जाते हैं",
+          "Japanese": "家を離れて旅行や休む時"
+        },
+        "examples": [
+          {
+            "sentence": "Our family went on vacation to Goa.",
+            "translation": {
+              "Hindi": "हमारा परिवार गोवा छुट्टियाँ मनाने गया।",
+              "Japanese": "家族でゴアに休暇に行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "beach",
+        "word_translation": {
+          "Hindi": "समुद्र तट",
+          "Japanese": "ビーチ / 海辺"
+        },
+        "meaning": "a sandy place next to the sea",
+        "meaning_translation": {
+          "Hindi": "समुद्र के पास रेत वाली जगह",
+          "Japanese": "海のそばの砂浜"
+        },
+        "examples": [
+          {
+            "sentence": "We swam at the beach.",
+            "translation": {
+              "Hindi": "हमने समुद्र तट पर तैरा।",
+              "Japanese": "ビーチで泳ぎました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hotel",
+        "word_translation": {
+          "Hindi": "होटल",
+          "Japanese": "ホテル"
+        },
+        "meaning": "a place where you stay and sleep when traveling",
+        "meaning_translation": {
+          "Hindi": "घूमने के दौरान जहाँ आप ठहरते और सोते हैं",
+          "Japanese": "旅行中に泊まる場所"
+        },
+        "examples": [
+          {
+            "sentence": "We stayed in a hotel.",
+            "translation": {
+              "Hindi": "हम होटल में ठहरे।",
+              "Japanese": "ホテルに泊まりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "travel",
+        "word_translation": {
+          "Hindi": "यात्रा करना",
+          "Japanese": "旅行する"
+        },
+        "meaning": "to go to different places",
+        "meaning_translation": {
+          "Hindi": "अलग-अलग जगह जाना",
+          "Japanese": "色々な場所に行くこと"
+        },
+        "examples": [
+          {
+            "sentence": "They love to travel.",
+            "translation": {
+              "Hindi": "उन्हें यात्रा करना पसंद है।",
+              "Japanese": "彼らは旅行が好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "souvenir",
+        "word_translation": {
+          "Hindi": "स्मृति चिन्ह",
+          "Japanese": "お土産"
+        },
+        "meaning": "something you buy to remember a place",
+        "meaning_translation": {
+          "Hindi": "कोई वस्तु जो आप याद के लिए खरीदते हैं",
+          "Japanese": "思い出に買うもの"
+        },
+        "examples": [
+          {
+            "sentence": "I bought a souvenir from the market.",
+            "translation": {
+              "Hindi": "मैंने बाज़ार से एक स्मृति चिन्ह खरीदा।",
+              "Japanese": "市場でお土産を買いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sightseeing",
+        "word_translation": {
+          "Hindi": "दर्शनीय स्थल देखना",
+          "Japanese": "観光する"
+        },
+        "meaning": "visiting interesting places",
+        "meaning_translation": {
+          "Hindi": "रोचक या प्रसिद्ध जगहें देखना",
+          "Japanese": "面白い場所を見て回ること"
+        },
+        "examples": [
+          {
+            "sentence": "We went sightseeing in the city.",
+            "translation": {
+              "Hindi": "हमने शहर में दर्शनीय स्थल देखे।",
+              "Japanese": "市内を観光しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "trip",
+        "word_translation": {
+          "Hindi": "यात्रा / ट्रिप",
+          "Japanese": "旅行"
+        },
+        "meaning": "a journey from one place to another",
+        "meaning_translation": {
+          "Hindi": "एक जगह से दूसरी जगह जाने की यात्रा",
+          "Japanese": "ある場所から別の場所への旅行"
+        },
+        "examples": [
+          {
+            "sentence": "Our school trip was fun.",
+            "translation": {
+              "Hindi": "हमारी स्कूल ट्रिप मज़ेदार थी।",
+              "Japanese": "私たちの学校旅行は楽しかったです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "relax",
+        "word_translation": {
+          "Hindi": "आराम करना",
+          "Japanese": "リラックスする"
+        },
+        "meaning": "to rest and not work",
+        "meaning_translation": {
+          "Hindi": "आराम करना और काम न करना",
+          "Japanese": "休んで仕事しないこと"
+        },
+        "examples": [
+          {
+            "sentence": "We relax on the beach.",
+            "translation": {
+              "Hindi": "हम समुद्र तट पर आराम करते हैं।",
+              "Japanese": "私たちはビーチでリラックスします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "passport",
+        "word_translation": {
+          "Hindi": "पासपोर्ट",
+          "Japanese": "パスポート"
+        },
+        "meaning": "an official document needed to travel to other countries",
+        "meaning_translation": {
+          "Hindi": "दूसरे देश जाने के लिए जरूरी दस्तावेज़",
+          "Japanese": "他の国へ行くために必要な書類"
+        },
+        "examples": [
+          {
+            "sentence": "You need a passport to travel abroad.",
+            "translation": {
+              "Hindi": "विदेश यात्रा के लिए पासपोर्ट चाहिए।",
+              "Japanese": "海外旅行にはパスポートが必要です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about your holidays",
+        "explanation": "Use simple past tense: 'We went to the beach.' 'I stayed in a hotel.'",
+        "explanation_translation": {
+          "Hindi": "अपनी छुट्टियों के बारे में बात करते समय simple past का इस्तेमाल करें: 'We went to the beach.' 'I stayed in a hotel.'",
+          "Japanese": "休みについて話す時は過去形を使います。例：「We went to the beach.」「I stayed in a hotel.」"
+        }
+      },
+      {
+        "title": "Saying where you went and what you did",
+        "explanation": "Use 'to' for places: 'I went to Goa.' 'We traveled to the mountains.'",
+        "explanation_translation": {
+          "Hindi": "कहाँ गए और क्या किया, यह बताने के लिए 'to' का प्रयोग करें: 'I went to Goa.' 'We traveled to the mountains.'",
+          "Japanese": "どこに行ったか言う時は「to」を使います。例：「I went to Goa.」「We traveled to the mountains.」"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is a special day when you do not go to school?",
+        "question_translation": {
+          "Hindi": "ऐसा कौन सा दिन है जब आप स्कूल नहीं जाते?",
+          "Japanese": "学校に行かない特別な日は何ですか？"
+        },
+        "options": ["beach", "holiday", "hotel"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We stayed in a ___. (hotel)",
+        "question_translation": {
+          "Hindi": "हम ___ में ठहरे।",
+          "Japanese": "私たちは___に泊まりました。"
+        },
+        "options": ["beach", "hotel", "trip"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you need to travel to another country?",
+        "question_translation": {
+          "Hindi": "दूसरे देश जाने के लिए क्या चाहिए?",
+          "Japanese": "外国へ行くのに必要なものは何ですか？"
+        },
+        "options": ["ticket", "passport", "souvenir"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What is a journey from one place to another called?",
+        "question_translation": {
+          "Hindi": "एक जगह से दूसरी जगह जाने को क्या कहते हैं?",
+          "Japanese": "ある場所から別の場所への旅行を何と言いますか？"
+        },
+        "options": ["trip", "beach", "hotel"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A souvenir is something you buy to remember a place.",
+        "question_translation": {
+          "Hindi": "क्या स्मृति चिन्ह वो चीज़ है जो आप जगह याद रखने के लिए खरीदते हैं?",
+          "Japanese": "お土産は場所を思い出すために買うものですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "We went to the ___ on holiday. (beach)",
+        "question_translation": {
+          "Hindi": "हम छुट्टियों में ___ गए।",
+          "Japanese": "休みに___に行きました。"
+        },
+        "options": ["hotel", "beach", "souvenir"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I bought a ___ from the market. (souvenir)",
+        "question_translation": {
+          "Hindi": "मैंने बाज़ार से ___ खरीदी।",
+          "Japanese": "市場で___を買いました。"
+        },
+        "options": ["trip", "souvenir", "passport"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [hotel, in, we, a, stayed]",
+        "question_translation": {
+          "Hindi": "[hotel, in, we, a, stayed] को सही क्रम में लगाएं।",
+          "Japanese": "[hotel, in, we, a, stayed]を並べ替えましょう。"
+        },
+        "options": ["hotel", "in", "we", "a", "stayed"],
+        "answer": ["We", "stayed", "in", "a", "hotel"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "They love to ___. (travel)",
+        "question_translation": {
+          "Hindi": "उन्हें ___ करना पसंद है।",
+          "Japanese": "彼らは___が好きです。"
+        },
+        "options": ["relax", "travel", "stay"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [city, the, sightseeing, in, went, we]",
+        "question_translation": {
+          "Hindi": "[city, the, sightseeing, in, went, we] को सही क्रम में लगाएं।",
+          "Japanese": "[city, the, sightseeing, in, went, we]を並べ替えましょう。"
+        },
+        "options": ["city", "the", "sightseeing", "in", "went", "we"],
+        "answer": ["We", "went", "sightseeing", "in", "the", "city"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Where did we go on holiday? (Audio: 'We went to the beach on holiday.')",
+        "audio_text": "We went to the beach on holiday.",
+        "question_translation": {
+          "Hindi": "हम छुट्टियों में कहाँ गए?",
+          "Japanese": "休みにどこへ行きましたか？"
+        },
+        "options": ["market", "hotel", "beach"],
+        "answer": 2
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Where did our family go on vacation? (Audio: 'Our family went on vacation to Goa.')",
+        "audio_text": "Our family went on vacation to Goa.",
+        "question_translation": {
+          "Hindi": "हमारा परिवार छुट्टियों में कहाँ गया?",
+          "Japanese": "家族は休みにどこへ行きましたか？"
+        },
+        "options": ["Goa", "Delhi", "Mumbai"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where did we stay? (Audio: 'We stayed in a hotel.')",
+        "audio_text": "We stayed in a hotel.",
+        "question_translation": {
+          "Hindi": "हम कहाँ ठहरे?",
+          "Japanese": "どこに泊まりましたか？"
+        },
+        "options": ["hotel", "market", "beach"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What do you need to travel abroad? (Audio: 'You need a passport to travel abroad.')",
+        "audio_text": "You need a passport to travel abroad.",
+        "question_translation": {
+          "Hindi": "विदेश जाने के लिए आपको क्या चाहिए?",
+          "Japanese": "海外旅行に必要なものは何ですか？"
+        },
+        "options": ["souvenir", "passport", "ticket"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What did I buy from the market? (Audio: 'I bought a souvenir from the market.')",
+        "audio_text": "I bought a souvenir from the market.",
+        "question_translation": {
+          "Hindi": "मैंने बाज़ार से क्या खरीदा?",
+          "Japanese": "市場で何を買いましたか？"
+        },
+        "options": ["ticket", "hotel", "souvenir"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'We went to the beach on holiday.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम छुट्टियों में समुद्र तट गए।'",
+          "Japanese": "「休みに海に行きました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We went to the beach on holiday."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Our family went on vacation to Goa.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमारा परिवार गोवा छुट्टियाँ मनाने गया।'",
+          "Japanese": "「家族でゴアに休暇に行きました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Our family went on vacation to Goa."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We stayed in a hotel.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम होटल में ठहरे।'",
+          "Japanese": "「ホテルに泊まりました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We stayed in a hotel."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I bought a souvenir from the market.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैंने बाज़ार से स्मृति चिन्ह खरीदा।'",
+          "Japanese": "「市場でお土産を買いました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I bought a souvenir from the market."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We went sightseeing in the city.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमने शहर में दर्शनीय स्थल देखे।'",
+          "Japanese": "「市内を観光しました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We went sightseeing in the city."
+      }
+    ]
+  }
 }

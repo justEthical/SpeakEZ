@@ -1,4 +1,473 @@
 {
-  "id": 24,
-  "message": "This is file number 24"
+  "id": "lesson_feelings_emotions_001",
+  "lesson_name": "Feelings & Emotions",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "happy",
+        "word_translation": {
+          "Hindi": "खुश",
+          "Japanese": "うれしい"
+        },
+        "meaning": "feeling good and smiling",
+        "meaning_translation": {
+          "Hindi": "अच्छा महसूस करना और मुस्कुराना",
+          "Japanese": "いい気分で笑っていること"
+        },
+        "examples": [
+          {
+            "sentence": "She is happy with her new toy.",
+            "translation": {
+              "Hindi": "वह अपने नए खिलौने से खुश है।",
+              "Japanese": "彼女は新しいおもちゃにうれしいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sad",
+        "word_translation": {
+          "Hindi": "उदास",
+          "Japanese": "かなしい"
+        },
+        "meaning": "not happy; feeling bad or wanting to cry",
+        "meaning_translation": {
+          "Hindi": "खुश न होना; बुरा लगना या रोने का मन होना",
+          "Japanese": "うれしくない、泣きたくなる気分"
+        },
+        "examples": [
+          {
+            "sentence": "He is sad because it is raining.",
+            "translation": {
+              "Hindi": "वह उदास है क्योंकि बारिश हो रही है।",
+              "Japanese": "彼は雨でかなしいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "angry",
+        "word_translation": {
+          "Hindi": "गुस्से में",
+          "Japanese": "おこっている"
+        },
+        "meaning": "feeling mad or upset",
+        "meaning_translation": {
+          "Hindi": "नाराज़ या परेशान महसूस करना",
+          "Japanese": "腹が立つ・イライラする気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "He gets angry when he loses the game.",
+            "translation": {
+              "Hindi": "जब वह खेल हारता है तो गुस्से में आ जाता है।",
+              "Japanese": "彼はゲームで負けるとおこります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "excited",
+        "word_translation": {
+          "Hindi": "उत्साहित",
+          "Japanese": "わくわくしている"
+        },
+        "meaning": "feeling very happy and looking forward to something",
+        "meaning_translation": {
+          "Hindi": "बहुत खुश महसूस करना और किसी चीज़ का इंतजार करना",
+          "Japanese": "とても楽しくて、何かを楽しみにしている気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "The children are excited for the picnic.",
+            "translation": {
+              "Hindi": "बच्चे पिकनिक के लिए उत्साहित हैं।",
+              "Japanese": "子どもたちはピクニックを楽しみにしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "scared",
+        "word_translation": {
+          "Hindi": "डरना",
+          "Japanese": "こわい"
+        },
+        "meaning": "feeling afraid",
+        "meaning_translation": {
+          "Hindi": "डर महसूस करना",
+          "Japanese": "怖がっていること"
+        },
+        "examples": [
+          {
+            "sentence": "She is scared of the dark.",
+            "translation": {
+              "Hindi": "वह अंधेरे से डरती है।",
+              "Japanese": "彼女は暗闇がこわいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bored",
+        "word_translation": {
+          "Hindi": "ऊबना",
+          "Japanese": "たいくつ"
+        },
+        "meaning": "not interested or having nothing to do",
+        "meaning_translation": {
+          "Hindi": "रुचि न होना या कुछ करने को न होना",
+          "Japanese": "興味がなくてやることがないこと"
+        },
+        "examples": [
+          {
+            "sentence": "He is bored in the long class.",
+            "translation": {
+              "Hindi": "लंबी कक्षा में वह ऊब गया है।",
+              "Japanese": "長い授業で彼はたいくつしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "surprised",
+        "word_translation": {
+          "Hindi": "आश्चर्यचकित",
+          "Japanese": "おどろいている"
+        },
+        "meaning": "feeling something new or unexpected",
+        "meaning_translation": {
+          "Hindi": "कुछ नया या अचानक होने पर महसूस करना",
+          "Japanese": "新しいことや予想外のことを感じること"
+        },
+        "examples": [
+          {
+            "sentence": "She was surprised to see the gift.",
+            "translation": {
+              "Hindi": "तोहफा देखकर वह आश्चर्यचकित हो गई।",
+              "Japanese": "プレゼントを見ておどろきました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tired",
+        "word_translation": {
+          "Hindi": "थका हुआ",
+          "Japanese": "つかれた"
+        },
+        "meaning": "feeling like you need to rest or sleep",
+        "meaning_translation": {
+          "Hindi": "आराम या नींद की जरूरत महसूस होना",
+          "Japanese": "休んだり寝たりしたくなる気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "She is tired after running.",
+            "translation": {
+              "Hindi": "दौड़ने के बाद वह थक गई है।",
+              "Japanese": "走った後で彼女はつかれました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nervous",
+        "word_translation": {
+          "Hindi": "घबराया हुआ",
+          "Japanese": "きんちょうしている"
+        },
+        "meaning": "worried or a little scared before something happens",
+        "meaning_translation": {
+          "Hindi": "कुछ होने से पहले चिंता या थोड़ा डर लगना",
+          "Japanese": "何かの前に不安や少し怖い気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "He feels nervous before the test.",
+            "translation": {
+              "Hindi": "वह परीक्षा से पहले घबराता है।",
+              "Japanese": "テストの前はきんちょうします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "proud",
+        "word_translation": {
+          "Hindi": "गर्वित",
+          "Japanese": "ほこりに思う"
+        },
+        "meaning": "feeling good about something you or someone did",
+        "meaning_translation": {
+          "Hindi": "अपने या किसी और के अच्छे काम पर अच्छा महसूस करना",
+          "Japanese": "自分や誰かのいいことに満足している気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "The teacher is proud of her students.",
+            "translation": {
+              "Hindi": "शिक्षिका अपने छात्रों पर गर्व करती हैं।",
+              "Japanese": "先生は生徒たちをほこりに思っています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'feel' for emotions",
+        "explanation": "Use 'feel' + adjective: 'I feel happy.' 'She feels sad.'",
+        "explanation_translation": {
+          "Hindi": "'feel' के बाद भाव बताने वाला शब्द: 'I feel happy.' 'She feels sad.'",
+          "Japanese": "'feel'の後に気持ちの言葉をつけます。例: 'I feel happy.' 'She feels sad.'"
+        }
+      },
+      {
+        "title": "Describing how you are",
+        "explanation": "Say 'I am' + feeling: 'I am excited.' 'I am tired.'",
+        "explanation_translation": {
+          "Hindi": "अपने भाव बताने के लिए 'I am' के साथ भाव: 'I am excited.' 'I am tired.'",
+          "Japanese": "'I am'のあとに気持ちをつけます。例: 'I am excited.' 'I am tired.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'feeling good and smiling'?",
+        "question_translation": {
+          "Hindi": "'अच्छा महसूस करना और मुस्कुराना' के लिए कौन सा शब्द है?",
+          "Japanese": "「いい気分で笑っている」という気持ちは？"
+        },
+        "options": ["sad", "angry", "happy"],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "He is ___ because it is raining. (sad)",
+        "question_translation": {
+          "Hindi": "वह ___ है क्योंकि बारिश हो रही है।",
+          "Japanese": "雨が降っているので彼は___です。"
+        },
+        "options": ["excited", "sad", "proud"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you feel when you want to rest?",
+        "question_translation": {
+          "Hindi": "आराम करना हो तो आप कैसा महसूस करते हैं?",
+          "Japanese": "休みたいときはどんな気持ちですか？"
+        },
+        "options": ["tired", "happy", "surprised"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which feeling means you are afraid?",
+        "question_translation": {
+          "Hindi": "कौन सा भाव डर दर्शाता है?",
+          "Japanese": "「怖い」という気持ちはどれですか？"
+        },
+        "options": ["excited", "scared", "proud"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "You feel bored when you have nothing to do.",
+        "question_translation": {
+          "Hindi": "जब करने को कुछ नहीं होता तो आप ऊबते हैं।",
+          "Japanese": "やることがないとき、たいくつです。"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She is ___ with her new toy.",
+        "question_translation": {
+          "Hindi": "वह अपने नए खिलौने से ___ है।",
+          "Japanese": "彼女は新しいおもちゃに___です。"
+        },
+        "options": ["sad", "bored", "happy"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The children are ___ for the picnic.",
+        "question_translation": {
+          "Hindi": "बच्चे पिकनिक के लिए ___ हैं।",
+          "Japanese": "子どもたちはピクニックを___にしています。"
+        },
+        "options": ["tired", "excited", "proud"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [he, loses, the, gets, angry, game]",
+        "question_translation": {
+          "Hindi": "[he, loses, the, gets, angry, game] को सही क्रम में लगाएं।",
+          "Japanese": "[he, loses, the, gets, angry, game]を並べ替えましょう。"
+        },
+        "options": ["he", "loses", "the", "gets", "angry", "game"],
+        "answer": ["He", "gets", "angry", "when", "he", "loses", "the", "game"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "She is ___ of the dark. (scared)",
+        "question_translation": {
+          "Hindi": "वह अंधेरे से ___ है।",
+          "Japanese": "彼女は暗闇が___です。"
+        },
+        "options": ["scared", "surprised", "tired"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [after, she, tired, running, is]",
+        "question_translation": {
+          "Hindi": "[after, she, tired, running, is] को सही क्रम में लगाएं।",
+          "Japanese": "[after, she, tired, running, is]を並べ替えましょう。"
+        },
+        "options": ["after", "she", "tired", "running", "is"],
+        "answer": ["She", "is", "tired", "after", "running"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "How does she feel?",
+        "audio_text": "She is happy with her new toy.",
+        "question_translation": {
+          "Hindi": "वह कैसी महसूस कर रही है?",
+          "Japanese": "彼女はどんな気持ちですか？"
+        },
+        "options": ["Sad", "Happy", "Nervous"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "How does he feel?",
+        "audio_text": "He gets angry when he loses the game.",
+        "question_translation": {
+          "Hindi": "वह कैसा महसूस करता है?",
+          "Japanese": "彼はどんな気持ちですか？"
+        },
+        "options": ["Proud", "Excited", "Angry"],
+        "answer": 2
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does she feel in the dark?",
+        "audio_text": "She is scared of the dark.",
+        "question_translation": {
+          "Hindi": "अंधेरे में वह कैसी महसूस करती है?",
+          "Japanese": "暗闇で彼女はどんな気持ちですか？"
+        },
+        "options": ["Scared", "Bored", "Happy"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How do the children feel about the picnic?",
+        "audio_text": "The children are excited for the picnic.",
+        "question_translation": {
+          "Hindi": "बच्चे पिकनिक के बारे में कैसा महसूस करते हैं?",
+          "Japanese": "子どもたちはピクニックについてどう感じていますか？"
+        },
+        "options": ["Excited", "Sad", "Tired"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "How does he feel in the long class?",
+        "audio_text": "He is bored in the long class.",
+        "question_translation": {
+          "Hindi": "लंबी कक्षा में वह कैसा महसूस करता है?",
+          "Japanese": "長い授業で彼はどんな気持ちですか？"
+        },
+        "options": ["Bored", "Proud", "Happy"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I feel happy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे खुशी है।'",
+          "Japanese": "「私はうれしいです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I feel happy."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She is sad because it is raining.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह उदास है क्योंकि बारिश हो रही है।'",
+          "Japanese": "「彼女は雨でかなしいです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "She is sad because it is raining."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He feels nervous before the test.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह परीक्षा से पहले घबराता है।'",
+          "Japanese": "「彼はテストの前はきんちょうします。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He feels nervous before the test."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'She is tired after running.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दौड़ने के बाद वह थक गई है।'",
+          "Japanese": "「走った後で彼女はつかれました。」と言ってください。"
+        },
+        "options": [],
+        "answer": "She is tired after running."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The teacher is proud of her students.'",
+        "question_translation": {
+          "Hindi": "कहें: 'शिक्षिका अपने छात्रों पर गर्व करती हैं।'",
+          "Japanese": "「先生は生徒たちをほこりに思っています。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The teacher is proud of her students."
+      }
+    ]
+  }
 }

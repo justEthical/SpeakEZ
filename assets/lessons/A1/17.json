@@ -1,4 +1,473 @@
 {
-  "id": 17,
-  "message": "This is file number 17"
+  "id": "lesson_fruits_vegetables_001",
+  "lesson_name": "Fruits & Vegetables",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "apple",
+        "word_translation": {
+          "Hindi": "सेब",
+          "Japanese": "りんご"
+        },
+        "meaning": "a round, sweet fruit that is red, green, or yellow",
+        "meaning_translation": {
+          "Hindi": "गोल और मीठा फल जो लाल, हरा या पीला होता है",
+          "Japanese": "赤・緑・黄色の丸い甘い果物"
+        },
+        "examples": [
+          {
+            "sentence": "She eats an apple every day.",
+            "translation": {
+              "Hindi": "वह हर दिन एक सेब खाती है।",
+              "Japanese": "彼女は毎日りんごを食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "banana",
+        "word_translation": {
+          "Hindi": "केला",
+          "Japanese": "バナナ"
+        },
+        "meaning": "a long, yellow fruit that is soft and sweet inside",
+        "meaning_translation": {
+          "Hindi": "लंबा, पीला और अंदर से मुलायम-मीठा फल",
+          "Japanese": "長くて黄色い、柔らかくて甘い果物"
+        },
+        "examples": [
+          {
+            "sentence": "Bananas are good for health.",
+            "translation": {
+              "Hindi": "केले सेहत के लिए अच्छे हैं।",
+              "Japanese": "バナナは健康に良いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "orange",
+        "word_translation": {
+          "Hindi": "संतरा",
+          "Japanese": "オレンジ"
+        },
+        "meaning": "a round, orange fruit with juicy segments inside",
+        "meaning_translation": {
+          "Hindi": "गोल और नारंगी रंग का फल, जिसमें रसदार फाँकें होती हैं",
+          "Japanese": "丸くてオレンジ色、中にジューシーな房がある果物"
+        },
+        "examples": [
+          {
+            "sentence": "Orange juice is tasty.",
+            "translation": {
+              "Hindi": "संतरे का रस स्वादिष्ट होता है।",
+              "Japanese": "オレンジジュースはおいしいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "grapes",
+        "word_translation": {
+          "Hindi": "अंगूर",
+          "Japanese": "ぶどう"
+        },
+        "meaning": "small round fruit, green or purple, that grow in bunches",
+        "meaning_translation": {
+          "Hindi": "छोटे गोल फल, हरे या बैंगनी, जो गुच्छों में लगते हैं",
+          "Japanese": "小さくて丸い、緑または紫の果物、房でなる"
+        },
+        "examples": [
+          {
+            "sentence": "Grapes are sweet and juicy.",
+            "translation": {
+              "Hindi": "अंगूर मीठे और रसदार होते हैं।",
+              "Japanese": "ぶどうは甘くてジューシーです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mango",
+        "word_translation": {
+          "Hindi": "आम",
+          "Japanese": "マンゴー"
+        },
+        "meaning": "a large, sweet tropical fruit with yellow or orange flesh",
+        "meaning_translation": {
+          "Hindi": "बड़ा, मीठा, पीला या नारंगी गूदा वाला फल",
+          "Japanese": "大きくて甘い、黄色やオレンジ色の南国の果物"
+        },
+        "examples": [
+          {
+            "sentence": "Mango is called the king of fruits.",
+            "translation": {
+              "Hindi": "आम को फलों का राजा कहते हैं।",
+              "Japanese": "マンゴーは果物の王様と呼ばれます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "carrot",
+        "word_translation": {
+          "Hindi": "गाजर",
+          "Japanese": "にんじん"
+        },
+        "meaning": "a long, orange vegetable that grows under the ground",
+        "meaning_translation": {
+          "Hindi": "लंबी, नारंगी सब्ज़ी जो ज़मीन के नीचे उगती है",
+          "Japanese": "長くてオレンジ色、土の下で育つ野菜"
+        },
+        "examples": [
+          {
+            "sentence": "Rabbits eat carrots.",
+            "translation": {
+              "Hindi": "खरगोश गाजर खाते हैं।",
+              "Japanese": "うさぎはにんじんを食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "potato",
+        "word_translation": {
+          "Hindi": "आलू",
+          "Japanese": "じゃがいも"
+        },
+        "meaning": "a round or oval vegetable that grows under the ground",
+        "meaning_translation": {
+          "Hindi": "गोल या अंडाकार सब्ज़ी जो ज़मीन के नीचे उगती है",
+          "Japanese": "丸いか楕円形、土の下で育つ野菜"
+        },
+        "examples": [
+          {
+            "sentence": "French fries are made from potatoes.",
+            "translation": {
+              "Hindi": "फ्रेंच फ्राइज आलू से बनती हैं।",
+              "Japanese": "フライドポテトはじゃがいもから作ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tomato",
+        "word_translation": {
+          "Hindi": "टमाटर",
+          "Japanese": "トマト"
+        },
+        "meaning": "a soft, round red or yellow fruit often used as a vegetable",
+        "meaning_translation": {
+          "Hindi": "मुलायम, गोल, लाल या पीला फल, अक्सर सब्ज़ी के रूप में इस्तेमाल",
+          "Japanese": "柔らかくて丸い、赤や黄色の果物、野菜として使うことが多い"
+        },
+        "examples": [
+          {
+            "sentence": "Tomatoes are used in salads.",
+            "translation": {
+              "Hindi": "सलाद में टमाटर डाले जाते हैं।",
+              "Japanese": "サラダにトマトを入れます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "onion",
+        "word_translation": {
+          "Hindi": "प्याज",
+          "Japanese": "たまねぎ"
+        },
+        "meaning": "a round vegetable with many layers, usually white or purple",
+        "meaning_translation": {
+          "Hindi": "गोल, परतों वाली, आमतौर पर सफेद या बैंगनी सब्ज़ी",
+          "Japanese": "層が多い、白または紫の丸い野菜"
+        },
+        "examples": [
+          {
+            "sentence": "Onions make you cry.",
+            "translation": {
+              "Hindi": "प्याज काटने से आँसू आते हैं।",
+              "Japanese": "たまねぎを切ると涙が出ます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cabbage",
+        "word_translation": {
+          "Hindi": "पत्ता गोभी",
+          "Japanese": "キャベツ"
+        },
+        "meaning": "a round, green leafy vegetable",
+        "meaning_translation": {
+          "Hindi": "गोल, हरी पत्तियों वाली सब्ज़ी",
+          "Japanese": "丸くて緑の葉がある野菜"
+        },
+        "examples": [
+          {
+            "sentence": "Cabbage is used in salads and curries.",
+            "translation": {
+              "Hindi": "पत्ता गोभी सलाद और सब्ज़ी में डाली जाती है।",
+              "Japanese": "キャベツはサラダやカレーに使います。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'a', 'an', and plurals",
+        "explanation": "Use 'a' before words that start with a consonant (a banana), 'an' before vowels (an apple), and add 's' for many (apples, carrots).",
+        "explanation_translation": {
+          "Hindi": "'a' व्यंजन से शुरू होने वाले शब्दों के लिए, 'an' स्वर से शुरू होने वाले शब्दों के लिए, और 's' बहुवचन के लिए जोड़ें।",
+          "Japanese": "子音で始まる単語の前に 'a'（a banana）、母音で始まる単語の前に 'an'（an apple）、複数形は 's' をつけます（apples, carrots）。"
+        }
+      },
+      {
+        "title": "Talking about likes and dislikes",
+        "explanation": "Say 'I like apples.' or 'I don’t like onions.' to talk about food you like or dislike.",
+        "explanation_translation": {
+          "Hindi": "'I like apples.' या 'I don’t like onions.' का उपयोग पसंद या नापसंद बताने के लिए करें।",
+          "Japanese": "好きな物や苦手な物は'I like apples.'や'I don’t like onions.'と言いましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which fruit is yellow and long?",
+        "question_translation": {
+          "Hindi": "कौन सा फल पीला और लंबा है?",
+          "Japanese": "どの果物が黄色くて長いですか？"
+        },
+        "options": ["Apple", "Banana", "Grapes"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We use ___ in salads. (tomato)",
+        "question_translation": {
+          "Hindi": "हम सलाद में ___ डालते हैं।",
+          "Japanese": "サラダに___を使います。"
+        },
+        "options": ["mango", "onion", "tomato"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which one grows under the ground?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन ज़मीन के नीचे उगता है?",
+          "Japanese": "どれが土の下で育ちますか？"
+        },
+        "options": ["Carrot", "Apple", "Grapes"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which vegetable has many layers?",
+        "question_translation": {
+          "Hindi": "कौन सी सब्ज़ी में कई परतें होती हैं?",
+          "Japanese": "どの野菜に層がたくさんありますか？"
+        },
+        "options": ["Cabbage", "Mango", "Onion"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Grapes grow in bunches.",
+        "question_translation": {
+          "Hindi": "क्या अंगूर गुच्छों में लगते हैं?",
+          "Japanese": "ぶどうは房でなりますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She eats an ___ every day. (apple)",
+        "question_translation": {
+          "Hindi": "वह हर दिन ___ खाती है।",
+          "Japanese": "彼女は毎日___を食べます。"
+        },
+        "options": ["banana", "apple", "grapes"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___ are sweet and juicy. (grapes)",
+        "question_translation": {
+          "Hindi": "___ मीठे और रसदार होते हैं।",
+          "Japanese": "___は甘くてジューシーです。"
+        },
+        "options": ["Bananas", "Grapes", "Potatoes"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [likes, carrots, he]",
+        "question_translation": {
+          "Hindi": "[likes, carrots, he] को सही क्रम में लगाएं।",
+          "Japanese": "[likes, carrots, he]を並べ替えましょう。"
+        },
+        "options": ["likes", "carrots", "he"],
+        "answer": ["He", "likes", "carrots"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "French fries are made from ___. (potatoes)",
+        "question_translation": {
+          "Hindi": "फ्रेंच फ्राइज ___ से बनती हैं।",
+          "Japanese": "フライドポテトは___から作ります。"
+        },
+        "options": ["mangoes", "potatoes", "onions"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [are, mango, fruit, king, of, the]",
+        "question_translation": {
+          "Hindi": "[are, mango, fruit, king, of, the] को सही क्रम में लगाएं।",
+          "Japanese": "[are, mango, fruit, king, of, the]を並べ替えましょう。"
+        },
+        "options": ["are", "mango", "fruit", "king", "of", "the"],
+        "answer": ["Mango", "is", "the", "king", "of", "fruit"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Which fruit did the speaker mention?",
+        "audio_text": "She eats an apple every day.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा फल बताया?",
+          "Japanese": "話者はどの果物について言いましたか？"
+        },
+        "options": ["Banana", "Apple", "Mango"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Which vegetable do rabbits like?",
+        "audio_text": "Rabbits eat carrots.",
+        "question_translation": {
+          "Hindi": "खरगोश कौन सी सब्ज़ी खाते हैं?",
+          "Japanese": "うさぎはどの野菜を食べますか？"
+        },
+        "options": ["Carrot", "Tomato", "Cabbage"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Which fruit is called the king of fruits?",
+        "audio_text": "Mango is called the king of fruits.",
+        "question_translation": {
+          "Hindi": "कौन सा फल फलों का राजा कहलाता है?",
+          "Japanese": "どの果物が果物の王様と呼ばれますか？"
+        },
+        "options": ["Grapes", "Mango", "Apple"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What do onions do?",
+        "audio_text": "Onions make you cry.",
+        "question_translation": {
+          "Hindi": "प्याज क्या करती है?",
+          "Japanese": "たまねぎは何をしますか？"
+        },
+        "options": ["Make you cry", "Make you laugh", "Are yellow"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Which fruit grows in bunches?",
+        "audio_text": "Grapes are sweet and juicy.",
+        "question_translation": {
+          "Hindi": "कौन सा फल गुच्छों में लगता है?",
+          "Japanese": "どの果物が房でなりますか？"
+        },
+        "options": ["Grapes", "Mango", "Banana"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Bananas are good for health.'",
+        "question_translation": {
+          "Hindi": "कहें: 'केले सेहत के लिए अच्छे हैं।'",
+          "Japanese": "「バナナは健康に良いです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Bananas are good for health."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Grapes are sweet and juicy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'अंगूर मीठे और रसदार होते हैं।'",
+          "Japanese": "「ぶどうは甘くてジューシーです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Grapes are sweet and juicy."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'French fries are made from potatoes.'",
+        "question_translation": {
+          "Hindi": "कहें: 'फ्रेंच फ्राइज आलू से बनती हैं।'",
+          "Japanese": "「フライドポテトはじゃがいもから作ります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "French fries are made from potatoes."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Mango is the king of fruit.'",
+        "question_translation": {
+          "Hindi": "कहें: 'आम फलों का राजा है।'",
+          "Japanese": "「マンゴーは果物の王様です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Mango is the king of fruit."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Onions make you cry.'",
+        "question_translation": {
+          "Hindi": "कहें: 'प्याज काटने से आँसू आते हैं।'",
+          "Japanese": "「たまねぎを切ると涙が出ます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Onions make you cry."
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@ class ScoreBar extends StatelessWidget {
           height: 10,
           width: ((Get.width - 60) / 100) * score,
           decoration: BoxDecoration(
-            color: Colors.deepPurple,
+            color: Colors.white,
             borderRadius: BorderRadius.circular(10),
           ),
         ),

@@ -1,4 +1,473 @@
 {
-  "id": 50,
-  "message": "This is file number 50"
+  "id": "lesson_asking_for_help_001",
+  "lesson_name": "Asking for Help",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "help",
+        "word_translation": {
+          "Hindi": "मदद",
+          "Japanese": "助け"
+        },
+        "meaning": "to do something for someone",
+        "meaning_translation": {
+          "Hindi": "किसी के लिए कुछ करना",
+          "Japanese": "誰かのために何かをすること"
+        },
+        "examples": [
+          {
+            "sentence": "Can you help me?",
+            "translation": {
+              "Hindi": "क्या आप मेरी मदद कर सकते हैं?",
+              "Japanese": "手伝ってくれますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "please",
+        "word_translation": {
+          "Hindi": "कृपया",
+          "Japanese": "お願いします"
+        },
+        "meaning": "used to make a request polite",
+        "meaning_translation": {
+          "Hindi": "निवेदन को विनम्र बनाने के लिए",
+          "Japanese": "お願いを丁寧にする言葉"
+        },
+        "examples": [
+          {
+            "sentence": "Please help me.",
+            "translation": {
+              "Hindi": "कृपया मेरी मदद करें।",
+              "Japanese": "手伝ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "excuse me",
+        "word_translation": {
+          "Hindi": "माफ़ कीजिए",
+          "Japanese": "すみません"
+        },
+        "meaning": "used to get someone's attention or to be polite",
+        "meaning_translation": {
+          "Hindi": "किसी का ध्यान पाने या विनम्र होने के लिए",
+          "Japanese": "相手の注意を引いたり丁寧に話す時"
+        },
+        "examples": [
+          {
+            "sentence": "Excuse me, can you show me the way?",
+            "translation": {
+              "Hindi": "माफ़ कीजिए, क्या आप रास्ता बता सकते हैं?",
+              "Japanese": "すみません、道を教えてくれますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "problem",
+        "word_translation": {
+          "Hindi": "समस्या",
+          "Japanese": "問題"
+        },
+        "meaning": "something that is difficult",
+        "meaning_translation": {
+          "Hindi": "कोई कठिन बात",
+          "Japanese": "困ったこと"
+        },
+        "examples": [
+          {
+            "sentence": "I have a problem with my phone.",
+            "translation": {
+              "Hindi": "मेरे फोन में समस्या है।",
+              "Japanese": "携帯に問題があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lost",
+        "word_translation": {
+          "Hindi": "खो जाना",
+          "Japanese": "迷う／なくす"
+        },
+        "meaning": "not knowing where you are",
+        "meaning_translation": {
+          "Hindi": "नहीं पता कि कहाँ हैं",
+          "Japanese": "どこにいるか分からない"
+        },
+        "examples": [
+          {
+            "sentence": "I am lost. Can you help me?",
+            "translation": {
+              "Hindi": "मैं खो गया हूँ। क्या आप मेरी मदद करेंगे?",
+              "Japanese": "道に迷いました。助けてくれますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emergency",
+        "word_translation": {
+          "Hindi": "आपातकाल",
+          "Japanese": "緊急事態"
+        },
+        "meaning": "a serious or dangerous situation",
+        "meaning_translation": {
+          "Hindi": "गंभीर या खतरनाक स्थिति",
+          "Japanese": "大変な・危険な状況"
+        },
+        "examples": [
+          {
+            "sentence": "Call this number in an emergency.",
+            "translation": {
+              "Hindi": "आपातकाल में इस नंबर पर कॉल करें।",
+              "Japanese": "緊急時はこの番号に電話してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "call",
+        "word_translation": {
+          "Hindi": "कॉल करना",
+          "Japanese": "電話する"
+        },
+        "meaning": "to use the phone to talk to someone",
+        "meaning_translation": {
+          "Hindi": "फोन पर बात करना",
+          "Japanese": "電話で話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Can you call a taxi for me?",
+            "translation": {
+              "Hindi": "क्या आप मेरे लिए टैक्सी बुला सकते हैं?",
+              "Japanese": "タクシーを呼んでもらえますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "show",
+        "word_translation": {
+          "Hindi": "दिखाना",
+          "Japanese": "見せる／教える"
+        },
+        "meaning": "to let someone see or know something",
+        "meaning_translation": {
+          "Hindi": "किसी को कुछ बताना या दिखाना",
+          "Japanese": "誰かに何かを見せたり教えたりする"
+        },
+        "examples": [
+          {
+            "sentence": "Can you show me how to do this?",
+            "translation": {
+              "Hindi": "क्या आप मुझे यह करना दिखा सकते हैं?",
+              "Japanese": "これのやり方を教えてくれますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "find",
+        "word_translation": {
+          "Hindi": "ढूंढना",
+          "Japanese": "見つける"
+        },
+        "meaning": "to look for and see where something is",
+        "meaning_translation": {
+          "Hindi": "खोज करना और देखना कि कुछ कहाँ है",
+          "Japanese": "探してどこにあるか知る"
+        },
+        "examples": [
+          {
+            "sentence": "Can you help me find my bag?",
+            "translation": {
+              "Hindi": "क्या आप मेरा बैग ढूंढने में मदद करेंगे?",
+              "Japanese": "カバンを探すのを手伝ってくれますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fix",
+        "word_translation": {
+          "Hindi": "ठीक करना",
+          "Japanese": "直す"
+        },
+        "meaning": "to make something work again",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को फिर से ठीक करना",
+          "Japanese": "壊れたものを直す"
+        },
+        "examples": [
+          {
+            "sentence": "Can you fix this problem?",
+            "translation": {
+              "Hindi": "क्या आप इस समस्या को ठीक कर सकते हैं?",
+              "Japanese": "この問題を直せますか？"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "How to ask for help",
+        "explanation": "Use polite requests: 'Can you help me, please?' or 'Could you show me the way?'",
+        "explanation_translation": {
+          "Hindi": "सहायता माँगने के लिए विनम्रता से पूछें: 'Can you help me, please?' या 'Could you show me the way?'",
+          "Japanese": "助けを頼む時は丁寧に：'Can you help me, please?'や'Could you show me the way?'"
+        }
+      },
+      {
+        "title": "Explaining your problem",
+        "explanation": "Say what you need: 'I am lost.' 'I have a problem.' 'I need a doctor.'",
+        "explanation_translation": {
+          "Hindi": "अपनी समस्या बताने के लिए: 'I am lost.' 'I have a problem.' 'I need a doctor.'",
+          "Japanese": "困ったことを言いましょう：'I am lost.' 'I have a problem.' 'I need a doctor.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What word means to do something for someone?",
+        "question_translation": {
+          "Hindi": "किसी के लिए कुछ करने को क्या कहते हैं?",
+          "Japanese": "誰かのために何かをすることは何ですか？"
+        },
+        "options": ["help", "problem", "find"],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ me, can you show me the way?",
+        "question_translation": {
+          "Hindi": "___ me, क्या आप रास्ता बता सकते हैं?",
+          "Japanese": "___ me、道を教えてくれますか？"
+        },
+        "options": ["Please", "Excuse", "Call"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "If you do not know where you are, you are...",
+        "question_translation": {
+          "Hindi": "अगर आपको नहीं पता कि आप कहाँ हैं, तो आप...",
+          "Japanese": "どこにいるかわからない時は…"
+        },
+        "options": ["lost", "fix", "call"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What word means to make something work again?",
+        "question_translation": {
+          "Hindi": "फिर से काम करने के लिए किस शब्द का प्रयोग करते हैं?",
+          "Japanese": "壊れたものを直すことを何と言いますか？"
+        },
+        "options": ["show", "help", "fix"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "An emergency is a serious or dangerous situation.",
+        "question_translation": {
+          "Hindi": "क्या emergency एक गंभीर या खतरनाक स्थिति है?",
+          "Japanese": "緊急事態は大変な・危険な状況ですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Can you ___ me, please?",
+        "question_translation": {
+          "Hindi": "क्या आप मेरी ___ कर सकते हैं?",
+          "Japanese": "___ me, お願いします。"
+        },
+        "options": ["help", "call", "show"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I have a ___ with my phone.",
+        "question_translation": {
+          "Hindi": "मेरे फोन में ___ है।",
+          "Japanese": "携帯に___があります。"
+        },
+        "options": ["fix", "problem", "help"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [lost, am, I]",
+        "question_translation": {
+          "Hindi": "[lost, am, I] को सही क्रम में लगाएं।",
+          "Japanese": "[lost, am, I]を並べ替えましょう。"
+        },
+        "options": ["lost", "am", "I"],
+        "answer": ["I", "am", "lost"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Can you ___ a taxi for me?",
+        "question_translation": {
+          "Hindi": "क्या आप मेरे लिए टैक्सी ___ सकते हैं?",
+          "Japanese": "私のためにタクシーを___くれますか？"
+        },
+        "options": ["call", "fix", "find"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [me, help, you, can]",
+        "question_translation": {
+          "Hindi": "[me, help, you, can] को सही क्रम में लगाएं।",
+          "Japanese": "[me, help, you, can]を並べ替えましょう。"
+        },
+        "options": ["me", "help", "you", "can"],
+        "answer": ["Can", "you", "help", "me"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the person ask for? (Audio: 'Can you help me?')",
+        "audio_text": "Can you help me?",
+        "question_translation": {
+          "Hindi": "व्यक्ति ने क्या माँगा?",
+          "Japanese": "その人は何を頼みましたか？"
+        },
+        "options": ["help", "call", "problem"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the person need? (Audio: 'I have a problem with my phone.')",
+        "audio_text": "I have a problem with my phone.",
+        "question_translation": {
+          "Hindi": "व्यक्ति को किस चीज़ में समस्या है?",
+          "Japanese": "その人は何に困っていますか？"
+        },
+        "options": ["phone", "taxi", "show"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What did the person say? (Audio: 'I am lost. Can you help me?')",
+        "audio_text": "I am lost. Can you help me?",
+        "question_translation": {
+          "Hindi": "व्यक्ति ने क्या कहा?",
+          "Japanese": "その人は何と言いましたか？"
+        },
+        "options": ["found", "lost", "fix"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What should you do in an emergency? (Audio: 'Call this number in an emergency.')",
+        "audio_text": "Call this number in an emergency.",
+        "question_translation": {
+          "Hindi": "आपातकाल में क्या करना चाहिए?",
+          "Japanese": "緊急時はどうすればいいですか？"
+        },
+        "options": ["show the way", "call the number", "find help"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the polite way to ask for help? (Audio: 'Excuse me, can you show me the way?')",
+        "audio_text": "Excuse me, can you show me the way?",
+        "question_translation": {
+          "Hindi": "मदद मांगने का विनम्र तरीका क्या है?",
+          "Japanese": "助けを頼む丁寧な方法は？"
+        },
+        "options": ["Excuse me", "Please", "Call"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Can you help me, please?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप मेरी मदद कर सकते हैं?'",
+          "Japanese": "「手伝ってくれますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Can you help me, please?"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Excuse me, can you show me the way?'",
+        "question_translation": {
+          "Hindi": "कहें: 'माफ़ कीजिए, क्या आप रास्ता बता सकते हैं?'",
+          "Japanese": "「すみません、道を教えてくれますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Excuse me, can you show me the way?"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I have a problem with my phone.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे फोन में समस्या है।'",
+          "Japanese": "「携帯に問題があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I have a problem with my phone."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Can you fix this problem?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप इस समस्या को ठीक कर सकते हैं?'",
+          "Japanese": "「この問題を直せますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "Can you fix this problem?"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I am lost. Can you help me?'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं खो गया हूँ। क्या आप मेरी मदद करेंगे?'",
+          "Japanese": "「道に迷いました。助けてくれますか？」と言ってください。"
+        },
+        "options": [],
+        "answer": "I am lost. Can you help me?"
+      }
+    ]
+  }
 }

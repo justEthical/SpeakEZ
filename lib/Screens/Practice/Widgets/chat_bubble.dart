@@ -13,9 +13,10 @@ class ChatBubble extends StatelessWidget {
   Widget build(BuildContext context) {
     if (chatModel.isAI) {
       return Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          SizedBox(
+          Container(
+            margin: EdgeInsets.only(bottom: 10)  ,
             width: 45,
             height: 45,
             child: ClipRRect(

@@ -28,7 +28,7 @@ class CustomDialogs {
               children: [
                 ElevatedButton(
                   onPressed: () async{
-                    AuthService.signOutGoogle();
+                    AuthService.logout();
                     await globalController.prefs?.clear();
                     globalController.prefs?.setString(
                       AppStrings.userAuthState,
@@ -126,7 +126,7 @@ class CustomDialogs {
                     final res = await FirestoreHelper.deleteCurrentUser();
                     if (res) {
                       globalController.prefs?.setString(
-                        AppStrings.userProfile,
+                        AppStrings.userAuthState,
                         "loggedOut",
                       );
                       Get.offAll(() => const LoginSignUp());

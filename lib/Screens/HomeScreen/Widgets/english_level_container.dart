@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
 
 class EnglishLevelContainer extends StatelessWidget {
@@ -7,6 +8,7 @@ class EnglishLevelContainer extends StatelessWidget {
   final int lessons;
   final Color color;
   final bool isLocked;
+
   const EnglishLevelContainer({
     super.key,
     required this.level,
@@ -18,40 +20,54 @@ class EnglishLevelContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {
-        if (!isLocked) {
-          Get.to(ListOfLessons());
-        }
-      },
+      onTap: isLocked ? null : () => Get.to(() => const ListOfLessons()),
       child: Container(
-        width: Get.width / 3 - 20,
-        // height: 60,
-        padding: EdgeInsets.all(10),
+        width: 100, // Fixed width for horizontal scrolling
+        padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: color,
-          borderRadius: BorderRadius.circular(10),
+          gradient: LinearGradient(
+            colors: [
+              color.withOpacity(0.8),
+              color,
+            ],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            if (!isLocked)
+              BoxShadow(
+                color: color.withOpacity(0.4),
+                blurRadius: 10,
+                offset: const Offset(0, 4),
+              ),
+          ],
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   level,
-                  style: TextStyle(
-                    color: isLocked ? Colors.grey : Colors.white,
+                  style: GoogleFonts.nunito(
+                    color: Colors.white,
+                    fontSize: 24,
                     fontWeight: FontWeight.w900,
                   ),
                 ),
-                isLocked ? SizedBox(width: 5) : SizedBox(),
-                isLocked
-                    ? const Icon(Icons.lock, color: Colors.white, size: 15)
-                    : SizedBox(),
+                if (isLocked)
+                  const Icon(Icons.lock, color: Colors.white70, size: 20),
               ],
             ),
             Text(
-              "Lessons $lessons",
-              style: TextStyle(color: isLocked ? Colors.grey : Colors.white),
+              "$lessons Lessons",
+              style: GoogleFonts.nunito(
+                color: Colors.white.withOpacity(0.9),
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ],
         ),

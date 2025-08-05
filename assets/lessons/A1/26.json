@@ -1,4 +1,473 @@
 {
-  "id": 26,
-  "message": "This is file number 26"
+  "id": "lesson_places_in_town_001",
+  "lesson_name": "Places in Town",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "school",
+        "word_translation": {
+          "Hindi": "स्कूल",
+          "Japanese": "学校"
+        },
+        "meaning": "a place where children learn",
+        "meaning_translation": {
+          "Hindi": "जहाँ बच्चे पढ़ते हैं",
+          "Japanese": "子どもたちが学ぶ場所"
+        },
+        "examples": [
+          {
+            "sentence": "Children go to school every day.",
+            "translation": {
+              "Hindi": "बच्चे हर दिन स्कूल जाते हैं।",
+              "Japanese": "子どもたちは毎日学校へ行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hospital",
+        "word_translation": {
+          "Hindi": "अस्पताल",
+          "Japanese": "病院"
+        },
+        "meaning": "a place where people go when they are sick",
+        "meaning_translation": {
+          "Hindi": "जहाँ बीमार लोग जाते हैं",
+          "Japanese": "病気のときに行く場所"
+        },
+        "examples": [
+          {
+            "sentence": "My mother works at the hospital.",
+            "translation": {
+              "Hindi": "मेरी माँ अस्पताल में काम करती हैं।",
+              "Japanese": "私の母は病院で働いています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "library",
+        "word_translation": {
+          "Hindi": "पुस्तकालय",
+          "Japanese": "図書館"
+        },
+        "meaning": "a place with many books to read or borrow",
+        "meaning_translation": {
+          "Hindi": "जहाँ बहुत सारी किताबें पढ़ने या उधार लेने के लिए मिलती हैं",
+          "Japanese": "本を読んだり借りたりできる場所"
+        },
+        "examples": [
+          {
+            "sentence": "I study at the library.",
+            "translation": {
+              "Hindi": "मैं पुस्तकालय में पढ़ाई करता हूँ।",
+              "Japanese": "私は図書館で勉強します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "post office",
+        "word_translation": {
+          "Hindi": "डाकघर",
+          "Japanese": "郵便局"
+        },
+        "meaning": "a place where you send letters and parcels",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप चिट्ठी और पैकेट भेजते हैं",
+          "Japanese": "手紙や荷物を送る場所"
+        },
+        "examples": [
+          {
+            "sentence": "We post letters at the post office.",
+            "translation": {
+              "Hindi": "हम डाकघर में पत्र डालते हैं।",
+              "Japanese": "私たちは郵便局で手紙を出します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bank",
+        "word_translation": {
+          "Hindi": "बैंक",
+          "Japanese": "銀行"
+        },
+        "meaning": "a place to keep or get money",
+        "meaning_translation": {
+          "Hindi": "जहाँ पैसे जमा या निकाले जाते हैं",
+          "Japanese": "お金を預けたりおろしたりする場所"
+        },
+        "examples": [
+          {
+            "sentence": "My father works at the bank.",
+            "translation": {
+              "Hindi": "मेरे पिताजी बैंक में काम करते हैं।",
+              "Japanese": "私の父は銀行で働いています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "supermarket",
+        "word_translation": {
+          "Hindi": "सुपरमार्केट",
+          "Japanese": "スーパー"
+        },
+        "meaning": "a big shop to buy food and things",
+        "meaning_translation": {
+          "Hindi": "खाने-पीने और चीज़ें खरीदने की बड़ी दुकान",
+          "Japanese": "食べ物や物を買う大きなお店"
+        },
+        "examples": [
+          {
+            "sentence": "We buy vegetables at the supermarket.",
+            "translation": {
+              "Hindi": "हम सुपरमार्केट से सब्ज़ियाँ खरीदते हैं।",
+              "Japanese": "私たちはスーパーで野菜を買います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pharmacy",
+        "word_translation": {
+          "Hindi": "दवा दुकान",
+          "Japanese": "薬局"
+        },
+        "meaning": "a shop where you get medicine",
+        "meaning_translation": {
+          "Hindi": "जहाँ से दवाइयाँ मिलती हैं",
+          "Japanese": "薬を買うお店"
+        },
+        "examples": [
+          {
+            "sentence": "We get medicine at the pharmacy.",
+            "translation": {
+              "Hindi": "हम दवा दुकान से दवा लेते हैं।",
+              "Japanese": "私たちは薬局で薬を買います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "restaurant",
+        "word_translation": {
+          "Hindi": "रेस्तरां",
+          "Japanese": "レストラン"
+        },
+        "meaning": "a place where you eat food outside your home",
+        "meaning_translation": {
+          "Hindi": "जहाँ घर के बाहर खाना खाते हैं",
+          "Japanese": "家の外で食事をする場所"
+        },
+        "examples": [
+          {
+            "sentence": "We eat pizza at the restaurant.",
+            "translation": {
+              "Hindi": "हम रेस्तरां में पिज़्ज़ा खाते हैं।",
+              "Japanese": "私たちはレストランでピザを食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "park",
+        "word_translation": {
+          "Hindi": "पार्क",
+          "Japanese": "公園"
+        },
+        "meaning": "a place with grass and trees to play and walk",
+        "meaning_translation": {
+          "Hindi": "खेलने और घूमने के लिए घास और पेड़ वाला स्थान",
+          "Japanese": "遊んだり散歩したりできる、草や木のある場所"
+        },
+        "examples": [
+          {
+            "sentence": "Children play in the park.",
+            "translation": {
+              "Hindi": "बच्चे पार्क में खेलते हैं।",
+              "Japanese": "子どもたちは公園で遊びます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "police station",
+        "word_translation": {
+          "Hindi": "पुलिस स्टेशन",
+          "Japanese": "警察署"
+        },
+        "meaning": "a place where police officers work",
+        "meaning_translation": {
+          "Hindi": "जहाँ पुलिस काम करती है",
+          "Japanese": "警察官が働く場所"
+        },
+        "examples": [
+          {
+            "sentence": "The police station is near the bank.",
+            "translation": {
+              "Hindi": "पुलिस स्टेशन बैंक के पास है।",
+              "Japanese": "警察署は銀行の近くです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about places",
+        "explanation": "Use 'There is' or 'There are' to talk about places. Example: 'There is a hospital in my town.'",
+        "explanation_translation": {
+          "Hindi": "किसी स्थान के बारे में बताने के लिए 'There is' या 'There are' का प्रयोग करें। उदाहरण: 'There is a hospital in my town.'",
+          "Japanese": "場所について話すときは「There is」「There are」を使います。例：「There is a hospital in my town.」"
+        }
+      },
+      {
+        "title": "Asking where places are",
+        "explanation": "Say 'Where is the library?' or 'Where are the restaurants?'",
+        "explanation_translation": {
+          "Hindi": "'Library कहाँ है?' या 'Restaurants कहाँ हैं?' ऐसे पूछें।",
+          "Japanese": "場所を聞くときは「Where is the library?」「Where are the restaurants?」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Where do people go when they are sick?",
+        "question_translation": {
+          "Hindi": "बीमार लोग कहाँ जाते हैं?",
+          "Japanese": "病気のときどこへ行きますか？"
+        },
+        "options": ["Park", "Hospital", "Library"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We buy vegetables at the ___.",
+        "question_translation": {
+          "Hindi": "हम ___ से सब्ज़ियाँ खरीदते हैं।",
+          "Japanese": "私たちは___で野菜を買います。"
+        },
+        "options": ["bank", "restaurant", "supermarket"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which place has many books?",
+        "question_translation": {
+          "Hindi": "कौन से स्थान में बहुत सारी किताबें होती हैं?",
+          "Japanese": "たくさん本がある場所はどこですか？"
+        },
+        "options": ["Library", "Police station", "Post office"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Where do you eat pizza outside your home?",
+        "question_translation": {
+          "Hindi": "घर के बाहर आप पिज्जा कहाँ खाते हैं?",
+          "Japanese": "家の外でピザを食べる場所はどこですか？"
+        },
+        "options": ["School", "Pharmacy", "Restaurant"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Children play in the park.",
+        "question_translation": {
+          "Hindi": "क्या बच्चे पार्क में खेलते हैं?",
+          "Japanese": "子どもたちは公園で遊びますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My father works at the ___. (bank)",
+        "question_translation": {
+          "Hindi": "मेरे पिताजी ___ में काम करते हैं।",
+          "Japanese": "私の父は___で働いています。"
+        },
+        "options": ["hospital", "bank", "school"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We post letters at the ___. (post office)",
+        "question_translation": {
+          "Hindi": "हम ___ में पत्र डालते हैं।",
+          "Japanese": "私たちは___で手紙を出します。"
+        },
+        "options": ["pharmacy", "post office", "restaurant"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, at, I, study, library]",
+        "question_translation": {
+          "Hindi": "[the, at, I, study, library] को सही क्रम में लगाएं।",
+          "Japanese": "[the, at, I, study, library]を並べ替えましょう。"
+        },
+        "options": ["the", "at", "I", "study", "library"],
+        "answer": ["I", "study", "at", "the", "library"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Children play in the ___. (park)",
+        "question_translation": {
+          "Hindi": "बच्चे ___ में खेलते हैं।",
+          "Japanese": "子どもたちは___で遊びます。"
+        },
+        "options": ["school", "park", "hospital"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [supermarket, buy, at, vegetables, we]",
+        "question_translation": {
+          "Hindi": "[supermarket, buy, at, vegetables, we] को सही क्रम में लगाएं।",
+          "Japanese": "[supermarket, buy, at, vegetables, we]を並べ替えましょう。"
+        },
+        "options": ["supermarket", "buy", "at", "vegetables", "we"],
+        "answer": ["We", "buy", "vegetables", "at", "supermarket"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Where does my mother work? (Audio: 'My mother works at the hospital.')",
+        "audio_text": "My mother works at the hospital.",
+        "question_translation": {
+          "Hindi": "मेरी माँ कहाँ काम करती हैं?",
+          "Japanese": "私の母はどこで働いていますか？"
+        },
+        "options": ["Bank", "Hospital", "School"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Where do you buy medicine? (Audio: 'We get medicine at the pharmacy.')",
+        "audio_text": "We get medicine at the pharmacy.",
+        "question_translation": {
+          "Hindi": "दवा आप कहाँ से खरीदते हैं?",
+          "Japanese": "薬はどこで買いますか？"
+        },
+        "options": ["Pharmacy", "Library", "Restaurant"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where do children go every day? (Audio: 'Children go to school every day.')",
+        "audio_text": "Children go to school every day.",
+        "question_translation": {
+          "Hindi": "बच्चे हर दिन कहाँ जाते हैं?",
+          "Japanese": "子どもたちは毎日どこへ行きますか？"
+        },
+        "options": ["Bank", "School", "Park"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Where do you buy food? (Audio: 'We buy vegetables at the supermarket.')",
+        "audio_text": "We buy vegetables at the supermarket.",
+        "question_translation": {
+          "Hindi": "खाने की चीज़ें कहाँ से खरीदी जाती हैं?",
+          "Japanese": "食べ物はどこで買いますか？"
+        },
+        "options": ["Supermarket", "Restaurant", "Police station"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Where do you read or borrow books? (Audio: 'I study at the library.')",
+        "audio_text": "I study at the library.",
+        "question_translation": {
+          "Hindi": "आप किताबें कहाँ पढ़ते या उधार लेते हैं?",
+          "Japanese": "本を読む・借りるのはどこですか？"
+        },
+        "options": ["Library", "Hospital", "Bank"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Children play in the park.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बच्चे पार्क में खेलते हैं।'",
+          "Japanese": "「子どもたちは公園で遊びます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Children play in the park."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My mother works at the hospital.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरी माँ अस्पताल में काम करती हैं।'",
+          "Japanese": "「私の母は病院で働いています。」と言ってください。"
+        },
+        "options": [],
+        "answer": "My mother works at the hospital."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We buy vegetables at the supermarket.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम सुपरमार्केट से सब्ज़ियाँ खरीदते हैं।'",
+          "Japanese": "「私たちはスーパーで野菜を買います。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We buy vegetables at the supermarket."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The police station is near the bank.'",
+        "question_translation": {
+          "Hindi": "कहें: 'पुलिस स्टेशन बैंक के पास है।'",
+          "Japanese": "「警察署は銀行の近くです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The police station is near the bank."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I study at the library.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं पुस्तकालय में पढ़ाई करता हूँ।'",
+          "Japanese": "「私は図書館で勉強します。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I study at the library."
+      }
+    ]
+  }
 }

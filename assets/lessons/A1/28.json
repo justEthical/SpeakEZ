@@ -1,4 +1,473 @@
 {
-  "id": 28,
-  "message": "This is file number 28"
+  "id": "lesson_jobs_occupations_001",
+  "lesson_name": "Jobs & Occupations",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "teacher",
+        "word_translation": {
+          "Hindi": "शिक्षक",
+          "Japanese": "先生"
+        },
+        "meaning": "a person who teaches students",
+        "meaning_translation": {
+          "Hindi": "जो छात्रों को पढ़ाता है",
+          "Japanese": "生徒に教える人"
+        },
+        "examples": [
+          {
+            "sentence": "My mother is a teacher.",
+            "translation": {
+              "Hindi": "मेरी माँ एक शिक्षिका हैं।",
+              "Japanese": "私の母は先生です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "doctor",
+        "word_translation": {
+          "Hindi": "डॉक्टर",
+          "Japanese": "医者"
+        },
+        "meaning": "a person who helps sick people",
+        "meaning_translation": {
+          "Hindi": "जो बीमार लोगों का इलाज करता है",
+          "Japanese": "病気の人を助ける人"
+        },
+        "examples": [
+          {
+            "sentence": "The doctor works at the hospital.",
+            "translation": {
+              "Hindi": "डॉक्टर अस्पताल में काम करता है।",
+              "Japanese": "医者は病院で働いています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nurse",
+        "word_translation": {
+          "Hindi": "नर्स",
+          "Japanese": "看護師"
+        },
+        "meaning": "a person who helps doctors and takes care of patients",
+        "meaning_translation": {
+          "Hindi": "जो डॉक्टर की मदद करता है और मरीजों की देखभाल करता है",
+          "Japanese": "医者を助けて患者の世話をする人"
+        },
+        "examples": [
+          {
+            "sentence": "The nurse is kind to patients.",
+            "translation": {
+              "Hindi": "नर्स मरीजों के प्रति दयालु है।",
+              "Japanese": "看護師は患者にやさしいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "police officer",
+        "word_translation": {
+          "Hindi": "पुलिस अधिकारी",
+          "Japanese": "警察官"
+        },
+        "meaning": "a person who keeps people safe",
+        "meaning_translation": {
+          "Hindi": "जो लोगों की सुरक्षा करता है",
+          "Japanese": "人々を安全に守る人"
+        },
+        "examples": [
+          {
+            "sentence": "The police officer helps people.",
+            "translation": {
+              "Hindi": "पुलिस अधिकारी लोगों की मदद करता है।",
+              "Japanese": "警察官は人々を助けます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "driver",
+        "word_translation": {
+          "Hindi": "ड्राइवर",
+          "Japanese": "運転手"
+        },
+        "meaning": "a person who drives a vehicle",
+        "meaning_translation": {
+          "Hindi": "जो वाहन चलाता है",
+          "Japanese": "乗り物を運転する人"
+        },
+        "examples": [
+          {
+            "sentence": "The bus driver is friendly.",
+            "translation": {
+              "Hindi": "बस ड्राइवर दोस्ताना है।",
+              "Japanese": "バスの運転手は親切です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "shopkeeper",
+        "word_translation": {
+          "Hindi": "दुकानदार",
+          "Japanese": "店主"
+        },
+        "meaning": "a person who sells things in a shop",
+        "meaning_translation": {
+          "Hindi": "जो दुकान में सामान बेचता है",
+          "Japanese": "お店で物を売る人"
+        },
+        "examples": [
+          {
+            "sentence": "The shopkeeper sells fruits and vegetables.",
+            "translation": {
+              "Hindi": "दुकानदार फल और सब्ज़ियाँ बेचता है।",
+              "Japanese": "店主は果物や野菜を売っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "farmer",
+        "word_translation": {
+          "Hindi": "किसान",
+          "Japanese": "農家"
+        },
+        "meaning": "a person who grows crops or keeps animals",
+        "meaning_translation": {
+          "Hindi": "जो फसलें उगाता है या जानवर पालता है",
+          "Japanese": "作物を育てたり動物を飼ったりする人"
+        },
+        "examples": [
+          {
+            "sentence": "The farmer works in the field.",
+            "translation": {
+              "Hindi": "किसान खेत में काम करता है।",
+              "Japanese": "農家は畑で働きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "chef",
+        "word_translation": {
+          "Hindi": "रसोइया / शेफ",
+          "Japanese": "シェフ"
+        },
+        "meaning": "a person who cooks in a restaurant",
+        "meaning_translation": {
+          "Hindi": "जो रेस्तरां में खाना बनाता है",
+          "Japanese": "レストランで料理をする人"
+        },
+        "examples": [
+          {
+            "sentence": "The chef cooks delicious food.",
+            "translation": {
+              "Hindi": "शेफ स्वादिष्ट खाना बनाता है।",
+              "Japanese": "シェフはおいしい料理を作ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "engineer",
+        "word_translation": {
+          "Hindi": "इंजीनियर",
+          "Japanese": "エンジニア"
+        },
+        "meaning": "a person who designs or builds things",
+        "meaning_translation": {
+          "Hindi": "जो चीजें डिजाइन या बनाता है",
+          "Japanese": "物を設計したり作ったりする人"
+        },
+        "examples": [
+          {
+            "sentence": "My uncle is an engineer.",
+            "translation": {
+              "Hindi": "मेरे चाचा इंजीनियर हैं।",
+              "Japanese": "私のおじはエンジニアです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "student",
+        "word_translation": {
+          "Hindi": "विद्यार्थी",
+          "Japanese": "学生"
+        },
+        "meaning": "a person who studies, usually at school or college",
+        "meaning_translation": {
+          "Hindi": "जो पढ़ाई करता है, आमतौर पर स्कूल या कॉलेज में",
+          "Japanese": "学校や大学で勉強する人"
+        },
+        "examples": [
+          {
+            "sentence": "I am a student.",
+            "translation": {
+              "Hindi": "मैं विद्यार्थी हूँ।",
+              "Japanese": "私は学生です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking about jobs",
+        "explanation": "Say 'What do you do?' or 'What is your job?' to ask about someone’s occupation.",
+        "explanation_translation": {
+          "Hindi": "किसी का पेशा पूछने के लिए: 'What do you do?' या 'What is your job?' कहें।",
+          "Japanese": "職業を聞くときは「What do you do?」「What is your job?」と言います。"
+        }
+      },
+      {
+        "title": "Describing someone’s job",
+        "explanation": "Say 'He is a doctor.' or 'She is a teacher.'",
+        "explanation_translation": {
+          "Hindi": "किसी का पेशा बताने के लिए: 'He is a doctor.' या 'She is a teacher.' कहें।",
+          "Japanese": "職業を説明するときは「He is a doctor.」「She is a teacher.」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Who helps sick people?",
+        "question_translation": {
+          "Hindi": "बीमार लोगों की मदद कौन करता है?",
+          "Japanese": "病気の人を助けるのは誰ですか？"
+        },
+        "options": ["Teacher", "Doctor", "Chef"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ sells things in a shop. (shopkeeper)",
+        "question_translation": {
+          "Hindi": "दुकान में सामान ___ बेचता है।",
+          "Japanese": "お店で物を売るのは___です。"
+        },
+        "options": ["engineer", "shopkeeper", "student"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Who teaches students at school?",
+        "question_translation": {
+          "Hindi": "स्कूल में छात्रों को कौन पढ़ाता है?",
+          "Japanese": "学校で生徒に教えるのは誰ですか？"
+        },
+        "options": ["Teacher", "Chef", "Farmer"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Who works in the field?",
+        "question_translation": {
+          "Hindi": "खेत में कौन काम करता है?",
+          "Japanese": "畑で働くのは誰ですか？"
+        },
+        "options": ["Student", "Farmer", "Police officer"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A chef cooks in a restaurant.",
+        "question_translation": {
+          "Hindi": "क्या शेफ रेस्तरां में खाना बनाता है?",
+          "Japanese": "シェフはレストランで料理をしますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The ___ works at the hospital. (doctor)",
+        "question_translation": {
+          "Hindi": "___ अस्पताल में काम करता है।",
+          "Japanese": "___は病院で働いています。"
+        },
+        "options": ["teacher", "doctor", "engineer"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "My uncle is an ___. (engineer)",
+        "question_translation": {
+          "Hindi": "मेरे चाचा ___ हैं।",
+          "Japanese": "私のおじは___です。"
+        },
+        "options": ["engineer", "driver", "nurse"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, field, works, farmer, in]",
+        "question_translation": {
+          "Hindi": "[the, field, works, farmer, in] को सही क्रम में लगाएं।",
+          "Japanese": "[the, field, works, farmer, in]を並べ替えましょう。"
+        },
+        "options": ["the", "field", "works", "farmer", "in"],
+        "answer": ["The", "farmer", "works", "in", "the", "field"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "She is a ___. (student)",
+        "question_translation": {
+          "Hindi": "वह एक ___ है।",
+          "Japanese": "彼女は___です。"
+        },
+        "options": ["student", "driver", "chef"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [helps, people, the, officer, police]",
+        "question_translation": {
+          "Hindi": "[helps, people, the, officer, police] को सही क्रम में लगाएं।",
+          "Japanese": "[helps, people, the, officer, police]を並べ替えましょう。"
+        },
+        "options": ["helps", "people", "the", "officer", "police"],
+        "answer": ["The", "police", "officer", "helps", "people"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Who is kind to patients? (Audio: 'The nurse is kind to patients.')",
+        "audio_text": "The nurse is kind to patients.",
+        "question_translation": {
+          "Hindi": "मरीजों के प्रति कौन दयालु है?",
+          "Japanese": "患者にやさしいのは誰ですか？"
+        },
+        "options": ["Driver", "Nurse", "Engineer"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Who drives a vehicle? (Audio: 'The bus driver is friendly.')",
+        "audio_text": "The bus driver is friendly.",
+        "question_translation": {
+          "Hindi": "वाहन कौन चलाता है?",
+          "Japanese": "乗り物を運転するのは誰ですか？"
+        },
+        "options": ["Bus driver", "Farmer", "Chef"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Who works in a restaurant? (Audio: 'The chef cooks delicious food.')",
+        "audio_text": "The chef cooks delicious food.",
+        "question_translation": {
+          "Hindi": "रेस्तरां में कौन काम करता है?",
+          "Japanese": "レストランで働くのは誰ですか？"
+        },
+        "options": ["Doctor", "Chef", "Student"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who grows crops or keeps animals? (Audio: 'The farmer works in the field.')",
+        "audio_text": "The farmer works in the field.",
+        "question_translation": {
+          "Hindi": "कौन फसलें उगाता या जानवर पालता है?",
+          "Japanese": "作物を育てたり動物を飼ったりするのは誰ですか？"
+        },
+        "options": ["Engineer", "Farmer", "Teacher"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Who sells things in a shop? (Audio: 'The shopkeeper sells fruits and vegetables.')",
+        "audio_text": "The shopkeeper sells fruits and vegetables.",
+        "question_translation": {
+          "Hindi": "दुकान में सामान कौन बेचता है?",
+          "Japanese": "お店で物を売るのは誰ですか？"
+        },
+        "options": ["Chef", "Shopkeeper", "Student"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My mother is a teacher.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरी माँ एक शिक्षिका हैं।'",
+          "Japanese": "「私の母は先生です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "My mother is a teacher."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The doctor works at the hospital.'",
+        "question_translation": {
+          "Hindi": "कहें: 'डॉक्टर अस्पताल में काम करता है।'",
+          "Japanese": "「医者は病院で働いています。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The doctor works at the hospital."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The bus driver is friendly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बस ड्राइवर दोस्ताना है।'",
+          "Japanese": "「バスの運転手は親切です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The bus driver is friendly."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The police officer helps people.'",
+        "question_translation": {
+          "Hindi": "कहें: 'पुलिस अधिकारी लोगों की मदद करता है।'",
+          "Japanese": "「警察官は人々を助けます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The police officer helps people."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The shopkeeper sells fruits and vegetables.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दुकानदार फल और सब्ज़ियाँ बेचता है।'",
+          "Japanese": "「店主は果物や野菜を売っています。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The shopkeeper sells fruits and vegetables."
+      }
+    ]
+  }
 }

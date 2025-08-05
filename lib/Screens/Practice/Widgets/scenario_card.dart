@@ -1,13 +1,13 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 
 class ScenarioCard extends StatelessWidget {
   final ScenarioModel scenarioModel;
+
   const ScenarioCard({
     super.key,
     required this.scenarioModel,
@@ -15,83 +15,79 @@ class ScenarioCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final c = Get.find<PracticeController>();
+    final PracticeController c = Get.find<PracticeController>();
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
-      padding: EdgeInsets.all(10),
-      width: Get.width - 40,
-      height: 218,
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.grey.shade200, width: 1),
         boxShadow: [
           BoxShadow(
-            color: const Color.fromARGB(57, 0, 0, 0),
-            spreadRadius: 0,
-            blurRadius: 5,
-            offset: const Offset(0, 3),
+            color: Colors.grey.withOpacity(0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 5),
           ),
         ],
       ),
       child: Column(
         children: [
           Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                width: 130,
-                height: 130,
+                width: 80,
+                height: 80,
+                padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.deepPurple.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(15),
                 ),
                 child: SvgPicture.asset(scenarioModel.imagePath),
               ),
-              const SizedBox(width: 10),
-              SizedBox(
-                height: 130,
+              const SizedBox(width: 16),
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Spacer(),
                     Text(
                       scenarioModel.title,
-                      style: const TextStyle(
+                      style: GoogleFonts.nunito(
                         fontSize: 18,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    SizedBox(
-                      width: Get.width - 220,
-                      child: Text(
-                        scenarioModel.description,
-                        maxLines: 10,
-                        style: const TextStyle(
-                          fontSize: 14,
-                          color: Colors.grey,
-                        ),
+                    const SizedBox(height: 6),
+                    Text(
+                      scenarioModel.description,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: GoogleFonts.nunito(
+                        fontSize: 14,
+                        color: Colors.black54,
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
-                    const Spacer(),
                   ],
                 ),
               ),
             ],
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 16),
           ElevatedButton(
-            onPressed: () async {
-              c.getMicrophonePermission(scenarioModel);
-            },
+            onPressed: () => c.getMicrophonePermission(scenarioModel),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.black,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
+              backgroundColor: Colors.deepPurple,
+              foregroundColor: Colors.white,
               minimumSize: const Size(double.infinity, 50),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15),
+              ),
+              textStyle: GoogleFonts.nunito(
+                fontSize: 16,
+                fontWeight: FontWeight.w800,
+              ),
             ),
-            child: Text("Start", style: TextStyle(color: Colors.white)),
+            child: const Text("Start Practice"),
           ),
         ],
       ),

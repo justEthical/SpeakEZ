@@ -1,7 +1,12 @@
+import 'dart:async';
+
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
@@ -16,10 +21,20 @@ import 'Controllers/global_controller.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  unawaited(MobileAds.instance.initialize());
+
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
+  FlutterError.onError = (errorDetails) {
+    FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
+  };
+  // Pass all uncaught asynchronous errors that aren't handled by the Flutter framework to Crashlytics
+  PlatformDispatcher.instance.onError = (error, stack) {
+    FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
+    return true;
+  };
   runApp(const AppEntry());
 }
 
@@ -27,7 +42,6 @@ class AppEntry extends StatelessWidget {
   const AppEntry({super.key});
 
   @override
-
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
@@ -39,17 +53,7 @@ class AppEntry extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.light, // 👈 auto switch based on OS
-      home: const Wrapper()// PracticeResultSreen(result: EvaluationResult(
-  // score: 80,
-  // fluency: FeedbackCategory(rating: 6, feedback: "feedback"),
-  // grammar: FeedbackCategory(rating: 6, feedback: "feedback"),
-  // vocabulary: FeedbackCategory(rating: 6, feedback: "feedback"),
-  // pronunciation: FeedbackCategory(rating: 6, feedback: "feedback"),
-  // motivation: "motivation",
-  // suggestion: "suggestion",
-  // correction: ["I'm good, how about you?", "I went to the market today."],
-// )
-// ) ,
+      home: const Wrapper(),
     );
   }
 }
@@ -72,8 +76,9 @@ class _WrapperState extends State<Wrapper> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white  ,
-      body: Center(child: CircularProgressIndicator()));
+      backgroundColor: Colors.white,
+      body: Center(child: CircularProgressIndicator()),
+    );
   }
 
   getSharePrefsAndRouteUser() async {

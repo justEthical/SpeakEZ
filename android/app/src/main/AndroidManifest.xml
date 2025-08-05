@@ -3,6 +3,7 @@
 
     <!-- ✅ Moved outside <application> -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
     <application
         android:label="SpeakEZ"
@@ -32,6 +33,10 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5948017215945465~5969898938"/>
     </application>
 
     <queries>

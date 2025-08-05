@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -16,128 +17,175 @@ class PracticeSpeaking extends StatefulWidget {
 }
 
 class _PracticeSpeakingState extends State<PracticeSpeaking> {
-  final c = Get.put(PracticeController());
-  
+  final PracticeController c = Get.put(PracticeController());
+
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      Future.delayed(Duration.zero, () async {
-        globalController.isAiModelDownloaded.value =
-            await WhisperHelper.isModelAvailable();
-      });
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!globalController.isAiModelDownloaded.value) {
+        WhisperHelper.isModelAvailable().then((isAvailable) {
+          globalController.isAiModelDownloaded.value = isAvailable;
+        });
+      }
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFF5F6FA),
       body: SafeArea(
-        child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Text(
-                "Speaking Practice",
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900),
-              ),
-              SizedBox(height: 20),
-              Container(
-                width: Get.width - 40,
-                // height: (Get.width - 40) / 2,
-                padding: EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: const Color.fromARGB(43, 143, 43, 225),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 50,
-                      height: 50,
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 143, 43, 225),
-                        borderRadius: BorderRadius.circular(25),
-                      ),
-                      child: Center(
-                        child: Icon(Icons.rocket, color: Colors.white),
-                      ),
-                    ),
-                    SizedBox(width: 10),
-                    SizedBox(
-                      width: Get.width - 124,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Text(
-                            "Practice with Natasha your AI learning partner",
-                            maxLines: 2,
-                            style: TextStyle(
-                              fontWeight: FontWeight.w700,
-                              fontSize: 20,
-                            ),
-                          ),
-                          SizedBox(height: 5),
-                          Text(
-                            "Select a scenario to start practice",
-                            maxLines: 2,
-                            style: TextStyle(
-                              fontWeight: FontWeight.normal,
-                              fontSize: 15,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              SizedBox(height: 20),
-              Obx(
-                () =>
-                    globalController.isAiModelDownloaded.value
-                        ? Expanded(
-                          child: ListView.builder(
-                            itemCount: scenarios.length,
-                            itemBuilder: (ctx, i) {
-                              return ScenarioCard(
-                                scenarioModel: scenarios[i],
-                              );
-                            },
-                          ),
-                        )
-                        : Expanded(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Lottie.asset(
-                                AppAssets.downloading,
-                                width: Get.width * 0.5,
-                                height: Get.width * 0.5,
-                                decoder: globalController.customDecoder,
-                              ),
-                              Center(
-                                child: Text(
-                                  "Downloading Natasha AI… (${globalController.aiModelDownloadProgress.value}%)\nThe download is about 60 MB. Please keep the app open until it’s finished.",
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-              ),
-            ],
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const _Header(),
+            const SizedBox(height: 20),
+            Expanded(
+              child: Obx(() => globalController.isAiModelDownloaded.value
+                  ? const _ScenarioList()
+                  : const _DownloadingState()),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _Header extends StatelessWidget {
+  const _Header();
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            "Speaking Practice",
+            style: GoogleFonts.nunito(
+              fontSize: 28,
+              fontWeight: FontWeight.w800,
+              color: Colors.black87,
+            ),
           ),
+          const SizedBox(height: 15),
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15),
+              color: Colors.deepPurple.withOpacity(0.1),
+            ),
+            child: Row(
+              children: [
+                CircleAvatar(
+                  radius: 25,
+                  backgroundColor: Colors.deepPurple,
+                  child: const Icon(Icons.rocket_launch_rounded, color: Colors.white),
+                ),
+                const SizedBox(width: 15),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Practice with Natasha",
+                        style: GoogleFonts.nunito(
+                          fontWeight: FontWeight.w700,
+                          fontSize: 18,
+                          color: Colors.deepPurple,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        "Select a scenario to start practicing.",
+                        style: GoogleFonts.nunito(
+                          fontWeight: FontWeight.w600,
+                          fontSize: 14,
+                          color: Colors.black54,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ScenarioList extends StatelessWidget {
+  const _ScenarioList();
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      itemCount: scenarios.length,
+      itemBuilder: (ctx, i) {
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 15.0),
+          child: ScenarioCard(
+            scenarioModel: scenarios[i],
+          ),
+        );
+      },
+    );
+  }
+}
+
+class _DownloadingState extends StatelessWidget {
+  const _DownloadingState();
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Lottie.asset(
+              AppAssets.downloading,
+              width: Get.width * 0.4,
+              height: Get.width * 0.4,
+              decoder: globalController.customDecoder,
+            ),
+            const SizedBox(height: 20),
+            Text(
+              "Downloading Natasha AI…",
+              textAlign: TextAlign.center,
+              style: GoogleFonts.nunito(
+                color: Colors.black87,
+                fontSize: 20,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Obx(() => Text(
+                  "The download is about 60 MB. Please keep the app open. (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.nunito(
+                    color: Colors.black54,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                  ),
+                )),
+            const SizedBox(height: 20),
+            Obx(() => Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 30.0),
+                  child: LinearProgressIndicator(
+                    value: globalController.aiModelDownloadProgress.value / 100,
+                    backgroundColor: Colors.grey.shade300,
+                    valueColor: const AlwaysStoppedAnimation<Color>(Colors.deepPurple),
+                  ),
+                )),
+          ],
         ),
       ),
     );
