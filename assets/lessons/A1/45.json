@@ -1,4 +1,473 @@
 {
-  "id": 45,
-  "message": "This is file number 45"
+  "id": "lesson_my_city_village_001",
+  "lesson_name": "My City / Village",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "city",
+        "word_translation": {
+          "Hindi": "शहर",
+          "Japanese": "都市"
+        },
+        "meaning": "a large place with many people, buildings, and roads",
+        "meaning_translation": {
+          "Hindi": "बहुत लोगों, इमारतों और सड़कों वाला बड़ा स्थान",
+          "Japanese": "たくさんの人や建物、道がある大きな場所"
+        },
+        "examples": [
+          {
+            "sentence": "Mumbai is a big city.",
+            "translation": {
+              "Hindi": "मुंबई एक बड़ा शहर है।",
+              "Japanese": "ムンバイは大きな都市です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "village",
+        "word_translation": {
+          "Hindi": "गाँव",
+          "Japanese": "村"
+        },
+        "meaning": "a small place with few people, usually in the countryside",
+        "meaning_translation": {
+          "Hindi": "कम लोग और खेतों के पास छोटा स्थान",
+          "Japanese": "人が少なく田舎にある小さな場所"
+        },
+        "examples": [
+          {
+            "sentence": "My grandparents live in a village.",
+            "translation": {
+              "Hindi": "मेरे दादा-दादी गाँव में रहते हैं।",
+              "Japanese": "私の祖父母は村に住んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "building",
+        "word_translation": {
+          "Hindi": "इमारत",
+          "Japanese": "建物"
+        },
+        "meaning": "a place with walls and a roof, like a house or office",
+        "meaning_translation": {
+          "Hindi": "दीवार और छत वाली जगह, जैसे घर या ऑफिस",
+          "Japanese": "壁や屋根のある場所（家やオフィスなど）"
+        },
+        "examples": [
+          {
+            "sentence": "There are many tall buildings in my city.",
+            "translation": {
+              "Hindi": "मेरे शहर में कई ऊँची इमारतें हैं।",
+              "Japanese": "私の町には高い建物がたくさんあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "market",
+        "word_translation": {
+          "Hindi": "बाज़ार",
+          "Japanese": "市場"
+        },
+        "meaning": "a place where people buy and sell things",
+        "meaning_translation": {
+          "Hindi": "जहाँ लोग सामान खरीदते और बेचते हैं",
+          "Japanese": "人々が物を買ったり売ったりする場所"
+        },
+        "examples": [
+          {
+            "sentence": "The market is busy in the morning.",
+            "translation": {
+              "Hindi": "सुबह के समय बाज़ार में भीड़ होती है।",
+              "Japanese": "朝、市場はにぎやかです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "park",
+        "word_translation": {
+          "Hindi": "पार्क / उद्यान",
+          "Japanese": "公園"
+        },
+        "meaning": "an open place with grass and trees for everyone",
+        "meaning_translation": {
+          "Hindi": "घास और पेड़ों वाली खुली जगह, सभी के लिए",
+          "Japanese": "草や木がある広場、みんなのための場所"
+        },
+        "examples": [
+          {
+            "sentence": "Children play in the park.",
+            "translation": {
+              "Hindi": "बच्चे पार्क में खेलते हैं।",
+              "Japanese": "子どもたちは公園で遊びます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "road",
+        "word_translation": {
+          "Hindi": "सड़क",
+          "Japanese": "道"
+        },
+        "meaning": "a way for cars and people to go from one place to another",
+        "meaning_translation": {
+          "Hindi": "कारों और लोगों के चलने का रास्ता",
+          "Japanese": "車や人が通るための道"
+        },
+        "examples": [
+          {
+            "sentence": "The roads are wide in the city.",
+            "translation": {
+              "Hindi": "शहर में सड़कें चौड़ी हैं।",
+              "Japanese": "町の道は広いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "temple",
+        "word_translation": {
+          "Hindi": "मंदिर",
+          "Japanese": "寺"
+        },
+        "meaning": "a place where people go to pray",
+        "meaning_translation": {
+          "Hindi": "जहाँ लोग पूजा करते हैं",
+          "Japanese": "人々が祈る場所"
+        },
+        "examples": [
+          {
+            "sentence": "There is a temple near my house.",
+            "translation": {
+              "Hindi": "मेरे घर के पास एक मंदिर है।",
+              "Japanese": "私の家の近くに寺があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "field",
+        "word_translation": {
+          "Hindi": "खेत",
+          "Japanese": "畑"
+        },
+        "meaning": "open land, often for growing crops",
+        "meaning_translation": {
+          "Hindi": "खुली ज़मीन, अक्सर फसल उगाने के लिए",
+          "Japanese": "作物を育てるための広い土地"
+        },
+        "examples": [
+          {
+            "sentence": "Farmers work in the fields.",
+            "translation": {
+              "Hindi": "किसान खेतों में काम करते हैं।",
+              "Japanese": "農家は畑で働きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bus stop",
+        "word_translation": {
+          "Hindi": "बस स्टॉप",
+          "Japanese": "バス停"
+        },
+        "meaning": "a place where people wait for the bus",
+        "meaning_translation": {
+          "Hindi": "जहाँ लोग बस का इंतजार करते हैं",
+          "Japanese": "人々がバスを待つ場所"
+        },
+        "examples": [
+          {
+            "sentence": "I stand at the bus stop every morning.",
+            "translation": {
+              "Hindi": "मैं हर सुबह बस स्टॉप पर खड़ा होता हूँ।",
+              "Japanese": "私は毎朝バス停に立っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "clean",
+        "word_translation": {
+          "Hindi": "स्वच्छ",
+          "Japanese": "きれい"
+        },
+        "meaning": "not dirty",
+        "meaning_translation": {
+          "Hindi": "जो गंदा न हो",
+          "Japanese": "汚れていない"
+        },
+        "examples": [
+          {
+            "sentence": "My village is very clean.",
+            "translation": {
+              "Hindi": "मेरा गाँव बहुत साफ है।",
+              "Japanese": "私の村はとてもきれいです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about your city or village",
+        "explanation": "Use 'There is/are' to describe places: 'There is a park.' 'There are many shops.'",
+        "explanation_translation": {
+          "Hindi": "'There is/are' से जगहों का वर्णन करें: 'There is a park.' 'There are many shops.'",
+          "Japanese": "場所を説明する時は「There is/are」を使います。例：「There is a park.」「There are many shops.」"
+        }
+      },
+      {
+        "title": "Describing where something is",
+        "explanation": "Use 'near', 'next to', or 'in' to say where things are: 'The school is near my house.'",
+        "explanation_translation": {
+          "Hindi": "'near', 'next to', या 'in' से किसी स्थान का पता बताएं: 'The school is near my house.'",
+          "Japanese": "「near」「next to」「in」で場所を伝えます。例：「The school is near my house.」"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you call a large place with many people and buildings?",
+        "question_translation": {
+          "Hindi": "बहुत लोगों और इमारतों वाले बड़े स्थान को क्या कहते हैं?",
+          "Japanese": "たくさんの人と建物がある大きな場所は何ですか？"
+        },
+        "options": ["village", "market", "city"],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "My grandparents live in a ___. (village)",
+        "question_translation": {
+          "Hindi": "मेरे दादा-दादी ___ में रहते हैं।",
+          "Japanese": "私の祖父母は___に住んでいます。"
+        },
+        "options": ["city", "village", "market"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Where do children play?",
+        "question_translation": {
+          "Hindi": "बच्चे कहाँ खेलते हैं?",
+          "Japanese": "子どもたちはどこで遊びますか？"
+        },
+        "options": ["temple", "park", "bus stop"],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Where do people buy and sell things?",
+        "question_translation": {
+          "Hindi": "लोग सामान कहाँ खरीदते और बेचते हैं?",
+          "Japanese": "人々が物を買ったり売ったりする場所はどこですか？"
+        },
+        "options": ["road", "field", "market"],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A bus stop is a place to wait for the bus.",
+        "question_translation": {
+          "Hindi": "क्या बस स्टॉप बस के इंतजार करने की जगह है?",
+          "Japanese": "バス停はバスを待つ場所ですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "There is a ___ near my house. (temple)",
+        "question_translation": {
+          "Hindi": "मेरे घर के पास एक ___ है।",
+          "Japanese": "私の家の近くに___があります。"
+        },
+        "options": ["market", "field", "temple"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ are wide in the city. (roads)",
+        "question_translation": {
+          "Hindi": "शहर में ___ चौड़ी हैं।",
+          "Japanese": "町の___は広いです。"
+        },
+        "options": ["parks", "roads", "buildings"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [city, my, is, clean]",
+        "question_translation": {
+          "Hindi": "[city, my, is, clean] को सही क्रम में लगाएं।",
+          "Japanese": "[city, my, is, clean]を並べ替えましょう。"
+        },
+        "options": ["city", "my", "is", "clean"],
+        "answer": ["My", "city", "is", "clean"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Farmers work in the ___. (fields)",
+        "question_translation": {
+          "Hindi": "किसान ___ में काम करते हैं।",
+          "Japanese": "農家は___で働きます。"
+        },
+        "options": ["fields", "buildings", "roads"],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [stand, morning, I, stop, bus, at, every]",
+        "question_translation": {
+          "Hindi": "[stand, morning, I, stop, bus, at, every] को सही क्रम में लगाएं।",
+          "Japanese": "[stand, morning, I, stop, bus, at, every]を並べ替えましょう。"
+        },
+        "options": ["stand", "morning", "I", "stop", "bus", "at", "every"],
+        "answer": ["I", "stand", "at", "the", "bus", "stop", "every", "morning"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is Mumbai? (Audio: 'Mumbai is a big city.')",
+        "audio_text": "Mumbai is a big city.",
+        "question_translation": {
+          "Hindi": "मुंबई क्या है?",
+          "Japanese": "ムンバイは何ですか？"
+        },
+        "options": ["village", "market", "city"],
+        "answer": 2
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Where do my grandparents live? (Audio: 'My grandparents live in a village.')",
+        "audio_text": "My grandparents live in a village.",
+        "question_translation": {
+          "Hindi": "मेरे दादा-दादी कहाँ रहते हैं?",
+          "Japanese": "私の祖父母はどこに住んでいますか？"
+        },
+        "options": ["city", "village", "field"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where do people buy things? (Audio: 'The market is busy in the morning.')",
+        "audio_text": "The market is busy in the morning.",
+        "question_translation": {
+          "Hindi": "लोग सामान कहाँ खरीदते हैं?",
+          "Japanese": "人々はどこで物を買いますか？"
+        },
+        "options": ["market", "road", "field"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who plays in the park? (Audio: 'Children play in the park.')",
+        "audio_text": "Children play in the park.",
+        "question_translation": {
+          "Hindi": "पार्क में कौन खेलता है?",
+          "Japanese": "公園で誰が遊びますか？"
+        },
+        "options": ["adults", "children", "farmers"],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is very clean? (Audio: 'My village is very clean.')",
+        "audio_text": "My village is very clean.",
+        "question_translation": {
+          "Hindi": "क्या बहुत साफ है?",
+          "Japanese": "何がとてもきれいですか？"
+        },
+        "options": ["city", "building", "village"],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Mumbai is a big city.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुंबई एक बड़ा शहर है।'",
+          "Japanese": "「ムンバイは大きな都市です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Mumbai is a big city."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My village is very clean.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा गाँव बहुत साफ है।'",
+          "Japanese": "「私の村はとてもきれいです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "My village is very clean."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'There is a temple near my house.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे घर के पास एक मंदिर है।'",
+          "Japanese": "「私の家の近くに寺があります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "There is a temple near my house."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Children play in the park.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बच्चे पार्क में खेलते हैं।'",
+          "Japanese": "「子どもたちは公園で遊びます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Children play in the park."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The market is busy in the morning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'सुबह के समय बाज़ार में भीड़ होती है।'",
+          "Japanese": "「朝、市場はにぎやかです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The market is busy in the morning."
+      }
+    ]
+  }
 }

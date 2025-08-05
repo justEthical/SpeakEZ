@@ -1,4 +1,473 @@
 {
-  "id": 34,
-  "message": "This is file number 34"
+  "id": "lesson_body_health_001",
+  "lesson_name": "My Body & Health",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "body",
+        "word_translation": {
+          "Hindi": "शरीर",
+          "Japanese": "体"
+        },
+        "meaning": "all the parts that make a person or animal",
+        "meaning_translation": {
+          "Hindi": "व्यक्ति या जानवर के सभी हिस्से",
+          "Japanese": "人や動物のすべての部分"
+        },
+        "examples": [
+          {
+            "sentence": "My body is healthy.",
+            "translation": {
+              "Hindi": "मेरा शरीर स्वस्थ है।",
+              "Japanese": "私の体は健康です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "head",
+        "word_translation": {
+          "Hindi": "सिर",
+          "Japanese": "頭"
+        },
+        "meaning": "the top part of your body with your eyes, ears, nose, and mouth",
+        "meaning_translation": {
+          "Hindi": "शरीर का ऊपरी हिस्सा, जिसमें आंखें, कान, नाक और मुँह होते हैं",
+          "Japanese": "目・耳・鼻・口がある体の上の部分"
+        },
+        "examples": [
+          {
+            "sentence": "She has a headache.",
+            "translation": {
+              "Hindi": "उसके सिर में दर्द है।",
+              "Japanese": "彼女は頭が痛いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hand",
+        "word_translation": {
+          "Hindi": "हाथ",
+          "Japanese": "手"
+        },
+        "meaning": "the part at the end of your arm for holding things",
+        "meaning_translation": {
+          "Hindi": "बांह का वह हिस्सा जिससे आप चीज़ें पकड़ते हैं",
+          "Japanese": "物を持つための腕の先の部分"
+        },
+        "examples": [
+          {
+            "sentence": "He raises his hand.",
+            "translation": {
+              "Hindi": "वह अपना हाथ उठाता है।",
+              "Japanese": "彼は手を挙げます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "leg",
+        "word_translation": {
+          "Hindi": "पैर",
+          "Japanese": "足"
+        },
+        "meaning": "the part of your body you use to walk and run",
+        "meaning_translation": {
+          "Hindi": "शरीर का वह हिस्सा जिससे आप चलते और दौड़ते हैं",
+          "Japanese": "歩いたり走ったりする体の部分"
+        },
+        "examples": [
+          {
+            "sentence": "He has long legs.",
+            "translation": {
+              "Hindi": "उसके पैर लंबे हैं।",
+              "Japanese": "彼は足が長いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "eye",
+        "word_translation": {
+          "Hindi": "आँख",
+          "Japanese": "目"
+        },
+        "meaning": "the part you use to see",
+        "meaning_translation": {
+          "Hindi": "जिससे आप देख सकते हैं",
+          "Japanese": "見るための部分"
+        },
+        "examples": [
+          {
+            "sentence": "She has blue eyes.",
+            "translation": {
+              "Hindi": "उसकी आँखें नीली हैं।",
+              "Japanese": "彼女の目は青いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mouth",
+        "word_translation": {
+          "Hindi": "मुँह",
+          "Japanese": "口"
+        },
+        "meaning": "the part of your face you use to eat and speak",
+        "meaning_translation": {
+          "Hindi": "चेहरे का वह हिस्सा जिससे आप खाते और बोलते हैं",
+          "Japanese": "食べたり話したりする顔の部分"
+        },
+        "examples": [
+          {
+            "sentence": "Open your mouth, please.",
+            "translation": {
+              "Hindi": "कृपया अपना मुँह खोलें।",
+              "Japanese": "口を開けてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ear",
+        "word_translation": {
+          "Hindi": "कान",
+          "Japanese": "耳"
+        },
+        "meaning": "the part you use to hear",
+        "meaning_translation": {
+          "Hindi": "जिससे आप सुन सकते हैं",
+          "Japanese": "聞くための部分"
+        },
+        "examples": [
+          {
+            "sentence": "He has small ears.",
+            "translation": {
+              "Hindi": "उसके कान छोटे हैं।",
+              "Japanese": "彼は耳が小さいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nose",
+        "word_translation": {
+          "Hindi": "नाक",
+          "Japanese": "鼻"
+        },
+        "meaning": "the part of your face you use to smell and breathe",
+        "meaning_translation": {
+          "Hindi": "चेहरे का वह हिस्सा जिससे आप सूँघते और सांस लेते हैं",
+          "Japanese": "においをかいだり息をしたりする顔の部分"
+        },
+        "examples": [
+          {
+            "sentence": "She touches her nose.",
+            "translation": {
+              "Hindi": "वह अपनी नाक छूती है।",
+              "Japanese": "彼女は鼻に触ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "healthy",
+        "word_translation": {
+          "Hindi": "स्वस्थ",
+          "Japanese": "健康な"
+        },
+        "meaning": "feeling well and not sick",
+        "meaning_translation": {
+          "Hindi": "अच्छा महसूस करना, बीमार न होना",
+          "Japanese": "元気で病気でないこと"
+        },
+        "examples": [
+          {
+            "sentence": "He eats fruits to stay healthy.",
+            "translation": {
+              "Hindi": "वह स्वस्थ रहने के लिए फल खाता है।",
+              "Japanese": "彼は健康のために果物を食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sick",
+        "word_translation": {
+          "Hindi": "बीमार",
+          "Japanese": "病気"
+        },
+        "meaning": "not feeling well",
+        "meaning_translation": {
+          "Hindi": "अच्छा महसूस न होना",
+          "Japanese": "元気でないこと"
+        },
+        "examples": [
+          {
+            "sentence": "She is sick today.",
+            "translation": {
+              "Hindi": "वह आज बीमार है।",
+              "Japanese": "彼女は今日病気です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about body parts",
+        "explanation": "Use 'my', 'your', etc.: 'My head hurts.' 'Wash your hands.'",
+        "explanation_translation": {
+          "Hindi": "शरीर के हिस्सों के लिए 'my', 'your' आदि का उपयोग करें: 'My head hurts.' 'Wash your hands.'",
+          "Japanese": "体の部分について話す時「my」「your」などを使います。「My head hurts.」「Wash your hands.」"
+        }
+      },
+      {
+        "title": "Describing health",
+        "explanation": "Say 'I am healthy.' or 'She is sick.'",
+        "explanation_translation": {
+          "Hindi": "'I am healthy.' या 'She is sick.' का प्रयोग करें।",
+          "Japanese": "健康については「I am healthy.」「She is sick.」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which part do you use to see?",
+        "question_translation": {
+          "Hindi": "आप किस हिस्से से देखते हैं?",
+          "Japanese": "見るために使う部分はどれですか？"
+        },
+        "options": ["ear", "eye", "mouth"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "He has long ___. (legs)",
+        "question_translation": {
+          "Hindi": "उसके लंबे ___ हैं।",
+          "Japanese": "彼は___が長いです。"
+        },
+        "options": ["hands", "legs", "ears"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you use to eat?",
+        "question_translation": {
+          "Hindi": "आप खाने के लिए क्या इस्तेमाल करते हैं?",
+          "Japanese": "食べるのに使うのはどれですか？"
+        },
+        "options": ["mouth", "hand", "nose"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "If you are not well, you are...",
+        "question_translation": {
+          "Hindi": "अगर आप अच्छा महसूस नहीं कर रहे हैं तो आप...",
+          "Japanese": "元気でない時は..."
+        },
+        "options": ["healthy", "sick", "head"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "You use your nose to smell.",
+        "question_translation": {
+          "Hindi": "आप सूँघने के लिए अपनी नाक का इस्तेमाल करते हैं।",
+          "Japanese": "においをかぐために鼻を使いますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "My ___ is healthy. (body)",
+        "question_translation": {
+          "Hindi": "मेरा ___ स्वस्थ है।",
+          "Japanese": "私の___は健康です。"
+        },
+        "options": ["body", "hand", "eye"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She has blue ___. (eyes)",
+        "question_translation": {
+          "Hindi": "उसकी ___ नीली हैं।",
+          "Japanese": "彼女の___は青いです。"
+        },
+        "options": ["eyes", "ears", "legs"],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [his, he, hand, raises]",
+        "question_translation": {
+          "Hindi": "[his, he, hand, raises] को सही क्रम में लगाएं।",
+          "Japanese": "[his, he, hand, raises]を並べ替えましょう。"
+        },
+        "options": ["his", "he", "hand", "raises"],
+        "answer": ["He", "raises", "his", "hand"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "He eats fruits to stay ___. (healthy)",
+        "question_translation": {
+          "Hindi": "वह ___ रहने के लिए फल खाता है।",
+          "Japanese": "彼は___ために果物を食べます。"
+        },
+        "options": ["sick", "healthy", "body"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [mouth, your, open, please]",
+        "question_translation": {
+          "Hindi": "[mouth, your, open, please] को सही क्रम में लगाएं।",
+          "Japanese": "[mouth, your, open, please]を並べ替えましょう。"
+        },
+        "options": ["mouth", "your", "open", "please"],
+        "answer": ["Please", "open", "your", "mouth"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is healthy? (Audio: 'My body is healthy.')",
+        "audio_text": "My body is healthy.",
+        "question_translation": {
+          "Hindi": "क्या स्वस्थ है?",
+          "Japanese": "何が健康ですか？"
+        },
+        "options": ["Leg", "Body", "Head"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What hurts? (Audio: 'She has a headache.')",
+        "audio_text": "She has a headache.",
+        "question_translation": {
+          "Hindi": "किसमें दर्द है?",
+          "Japanese": "どこが痛いですか？"
+        },
+        "options": ["Head", "Hand", "Nose"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does he raise? (Audio: 'He raises his hand.')",
+        "audio_text": "He raises his hand.",
+        "question_translation": {
+          "Hindi": "वह क्या उठाता है?",
+          "Japanese": "彼は何を挙げますか？"
+        },
+        "options": ["Leg", "Mouth", "Hand"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What does she touch? (Audio: 'She touches her nose.')",
+        "audio_text": "She touches her nose.",
+        "question_translation": {
+          "Hindi": "वह क्या छूती है?",
+          "Japanese": "彼女は何に触りますか？"
+        },
+        "options": ["Ear", "Eye", "Nose"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Why does he eat fruits? (Audio: 'He eats fruits to stay healthy.')",
+        "audio_text": "He eats fruits to stay healthy.",
+        "question_translation": {
+          "Hindi": "वह फल क्यों खाता है?",
+          "Japanese": "彼はなぜ果物を食べますか？"
+        },
+        "options": ["To stay healthy", "To see better", "To run fast"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My body is healthy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा शरीर स्वस्थ है।'",
+          "Japanese": "「私の体は健康です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "My body is healthy."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She has a headache.'",
+        "question_translation": {
+          "Hindi": "कहें: 'उसके सिर में दर्द है।'",
+          "Japanese": "「彼女は頭が痛いです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "She has a headache."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'He raises his hand.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह अपना हाथ उठाता है।'",
+          "Japanese": "「彼は手を挙げます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He raises his hand."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He eats fruits to stay healthy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह स्वस्थ रहने के लिए फल खाता है।'",
+          "Japanese": "「彼は健康のために果物を食べます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "He eats fruits to stay healthy."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Please open your mouth.'",
+        "question_translation": {
+          "Hindi": "कहें: 'कृपया अपना मुँह खोलें।'",
+          "Japanese": "「口を開けてください。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Please open your mouth."
+      }
+    ]
+  }
 }

@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Screens/SettingsScreen/Widgets/reauthentication_bottom_sheet.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
 import 'package:speak_ez/Utils/common_widgets.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
@@ -110,20 +111,6 @@ class SettingScreens extends StatelessWidget {
                               ),
                             ),
                           ),
-
-                          // ElevatedButton(
-                          //   onPressed: () {},
-                          //   style: ElevatedButton.styleFrom(
-                          //     backgroundColor: Colors.black,
-                          //     fixedSize: Size(100, 30),
-                          //     padding: EdgeInsets.zero,
-                          //     minimumSize: Size(0, 0),
-                          //   ),
-                          //   child: Text(
-                          //     "Edit",
-                          //     style: TextStyle(color: Colors.white),
-                          //   ),
-                          // ),
                         ],
                       ),
                     ],
@@ -139,10 +126,11 @@ class SettingScreens extends StatelessWidget {
               children: [
                 SettingsOptionTile(
                   onTap: () {
+                    globalController.openUrl(AppStrings.privacyPolicyUrl);
                     // Get.to(AboutUsAndPrivacy());
                   },
                   heading: "Help",
-                  content: "About Us & Privacy Policy",
+                  content: "Privacy Policy",
                   icon: AppAssets.helpCircle,
                 ),
                 SettingsOptionTile(
@@ -169,7 +157,12 @@ class SettingScreens extends StatelessWidget {
                 ),
                 SettingsOptionTile(
                   onTap: () async {
-                    Get.dialog(CustomDialogs.deleteConfirmationDialog());
+                    // Get.dialog(CustomDialogs.deleteConfirmationDialog());
+                    showModalBottomSheet(context: context,
+                    isScrollControlled: true,
+                     builder: (ctx){
+                      return ReauthenticationBottomSheet();
+                    });
                   },
                   icon: AppAssets.deleteIcon,
                   heading: 'Delete Account',

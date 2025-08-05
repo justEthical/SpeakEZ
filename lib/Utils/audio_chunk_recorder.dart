@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
+import 'package:speak_ez/Controllers/question_options_controller.dart';
 
 class AudioChunkRecorder {
   final _recorder = AudioRecorder();
@@ -17,11 +18,19 @@ class AudioChunkRecorder {
     bitRate: 128000,
   );
 
-  Future<void> startAutoRecording() async {
+  Future<void> startAutoRecording({bool isFromLesson = false}) async {
     final dir = await getApplicationDocumentsDirectory();
     _shouldStop = false; // reset flag
-    Get.find<PracticeController>().transcriptionText.value = "";
-    Get.find<PracticeController>().isLastChunkTranscribed.value = false;
+
+    if (isFromLesson) {
+      Get.find<QuestionOptionsController>().transcriptionText.value = "";
+      Get.find<QuestionOptionsController>().isLastChunkTranscribed.value =
+          false;
+    } else {
+      Get.find<PracticeController>().transcriptionText.value = "";
+      Get.find<PracticeController>().isLastChunkTranscribed.value = false;
+    }
+
     try {
       await _recorder.stop();
       print("Reached permission check"); // <-- add this
@@ -56,7 +65,7 @@ class AudioChunkRecorder {
             recording = false;
 
             await _recorder.stop();
-            transcribeWithPersistentIsolate(path);
+            transcribeWithPersistentIsolate(path, isFromLesson);
             break;
           }
         }
@@ -68,7 +77,7 @@ class AudioChunkRecorder {
     }
   }
 
-  Future<void> stop() async {
+  Future<void> stop({bool isFromLesson = false}) async {
     _shouldStop = true;
     recording = false;
     if (await _recorder.isRecording()) {
@@ -78,19 +87,32 @@ class AudioChunkRecorder {
     final dir = await getApplicationDocumentsDirectory();
     final lastRecordingChunkPath = '${dir.path}/${_fileIndex - 1}.wav';
     print("heerree");
-    await transcribeWithPersistentIsolate(lastRecordingChunkPath);
+    await transcribeWithPersistentIsolate(lastRecordingChunkPath, isFromLesson);
     try {
-      Get.find<PracticeController>().isLastChunkTranscribed.value = true;
+      if (isFromLesson) {
+        Get.find<QuestionOptionsController>().isLastChunkTranscribed.value =
+            true;
+      } else {
+        Get.find<PracticeController>().isLastChunkTranscribed.value = true;
+      }
     } catch (e) {
       print(e.toString());
     }
     print("last recording transcribed");
   }
 
-  Future<void> transcribeWithPersistentIsolate(String filePath) async {
+  Future<void> transcribeWithPersistentIsolate(
+    String filePath,
+    bool isFromLesson,
+  ) async {
     if (File(filePath).existsSync()) {
       print('file exists');
-      final c = Get.find<PracticeController>();
+      var c;
+      if (isFromLesson) {
+        c = Get.find<QuestionOptionsController>();
+      } else {
+        c = Get.find<PracticeController>();
+      }
       final ReceivePort responsePort = ReceivePort();
 
       c.whisperSendPort.send({

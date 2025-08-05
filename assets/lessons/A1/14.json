@@ -1,4 +1,473 @@
 {
-  "id": 14,
-  "message": "This is file number 14"
+  "id": "lesson_in_the_kitchen_001",
+  "lesson_name": "In the Kitchen",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "kitchen",
+        "word_translation": {
+          "Hindi": "रसोईघर",
+          "Japanese": "台所"
+        },
+        "meaning": "the room where you cook food",
+        "meaning_translation": {
+          "Hindi": "जहाँ आप खाना बनाते हैं",
+          "Japanese": "料理をする部屋"
+        },
+        "examples": [
+          {
+            "sentence": "The kitchen is clean.",
+            "translation": {
+              "Hindi": "रसोईघर साफ है।",
+              "Japanese": "台所はきれいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stove",
+        "word_translation": {
+          "Hindi": "चूल्हा / स्टोव",
+          "Japanese": "コンロ"
+        },
+        "meaning": "a device you use to cook food with heat",
+        "meaning_translation": {
+          "Hindi": "जिससे आप गर्मी से खाना बनाते हैं",
+          "Japanese": "熱で料理をするための道具"
+        },
+        "examples": [
+          {
+            "sentence": "She cooks rice on the stove.",
+            "translation": {
+              "Hindi": "वह चूल्हे पर चावल पकाती है।",
+              "Japanese": "彼女はコンロでご飯を作ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fridge",
+        "word_translation": {
+          "Hindi": "फ्रिज",
+          "Japanese": "冷蔵庫"
+        },
+        "meaning": "a machine that keeps food cold",
+        "meaning_translation": {
+          "Hindi": "एक मशीन जो भोजन को ठंडा रखती है",
+          "Japanese": "食べ物を冷やす機械"
+        },
+        "examples": [
+          {
+            "sentence": "Milk is in the fridge.",
+            "translation": {
+              "Hindi": "दूध फ्रिज में है।",
+              "Japanese": "牛乳は冷蔵庫にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sink",
+        "word_translation": {
+          "Hindi": "सिंक",
+          "Japanese": "流し台"
+        },
+        "meaning": "a bowl with a tap to wash dishes or hands",
+        "meaning_translation": {
+          "Hindi": "जिसमें आप बर्तन या हाथ धोते हैं",
+          "Japanese": "皿や手を洗う場所"
+        },
+        "examples": [
+          {
+            "sentence": "Wash the plates in the sink.",
+            "translation": {
+              "Hindi": "प्लेट्स को सिंक में धोएं।",
+              "Japanese": "流し台でお皿を洗います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "spoon",
+        "word_translation": {
+          "Hindi": "चम्मच",
+          "Japanese": "スプーン"
+        },
+        "meaning": "a small tool you use to eat or stir food",
+        "meaning_translation": {
+          "Hindi": "एक छोटा उपकरण जिससे आप खाते या हिलाते हैं",
+          "Japanese": "食べたり混ぜたりする道具"
+        },
+        "examples": [
+          {
+            "sentence": "I need a spoon for soup.",
+            "translation": {
+              "Hindi": "मुझे सूप के लिए चम्मच चाहिए।",
+              "Japanese": "スープにスプーンが必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fork",
+        "word_translation": {
+          "Hindi": "कांटा",
+          "Japanese": "フォーク"
+        },
+        "meaning": "a tool with points, used to eat food",
+        "meaning_translation": {
+          "Hindi": "नुकीला उपकरण जिससे आप खाना खाते हैं",
+          "Japanese": "先が分かれている食べる道具"
+        },
+        "examples": [
+          {
+            "sentence": "He eats salad with a fork.",
+            "translation": {
+              "Hindi": "वह कांटे से सलाद खाता है।",
+              "Japanese": "彼はフォークでサラダを食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "knife",
+        "word_translation": {
+          "Hindi": "चाकू",
+          "Japanese": "ナイフ"
+        },
+        "meaning": "a sharp tool to cut food",
+        "meaning_translation": {
+          "Hindi": "भोजन काटने के लिए तेज़ उपकरण",
+          "Japanese": "食べ物を切るための鋭い道具"
+        },
+        "examples": [
+          {
+            "sentence": "Cut the apple with a knife.",
+            "translation": {
+              "Hindi": "सेब को चाकू से काटें।",
+              "Japanese": "ナイフでりんごを切ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plate",
+        "word_translation": {
+          "Hindi": "थाली / प्लेट",
+          "Japanese": "皿"
+        },
+        "meaning": "a flat dish you eat food from",
+        "meaning_translation": {
+          "Hindi": "एक समतल बर्तन जिससे आप खाना खाते हैं",
+          "Japanese": "食べ物をのせる平らな皿"
+        },
+        "examples": [
+          {
+            "sentence": "Put the food on the plate.",
+            "translation": {
+              "Hindi": "खाना प्लेट में रखें।",
+              "Japanese": "皿に食べ物をのせます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cup",
+        "word_translation": {
+          "Hindi": "कप",
+          "Japanese": "カップ"
+        },
+        "meaning": "a small container for drinking, usually with a handle",
+        "meaning_translation": {
+          "Hindi": "पीने के लिए छोटा बर्तन, अक्सर हैंडल वाला",
+          "Japanese": "飲み物用の小さな容器（取っ手付き）"
+        },
+        "examples": [
+          {
+            "sentence": "She drinks tea in a cup.",
+            "translation": {
+              "Hindi": "वह कप में चाय पीती है।",
+              "Japanese": "彼女はカップでお茶を飲みます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pan",
+        "word_translation": {
+          "Hindi": "पैन / तवा",
+          "Japanese": "フライパン"
+        },
+        "meaning": "a round metal dish used for cooking on the stove",
+        "meaning_translation": {
+          "Hindi": "चूल्हे पर खाना बनाने के लिए गोल धातु का बर्तन",
+          "Japanese": "コンロで使う丸い金属の鍋"
+        },
+        "examples": [
+          {
+            "sentence": "We fry eggs in a pan.",
+            "translation": {
+              "Hindi": "हम पैन में अंडे तलते हैं।",
+              "Japanese": "フライパンで卵を焼きます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'some' and 'any' for food and utensils",
+        "explanation": "Use 'some' in positive sentences (I need some plates). Use 'any' in questions and negative sentences (Do you have any spoons? I don’t have any cups).",
+        "explanation_translation": {
+          "Hindi": "सकारात्मक वाक्य में 'some' और प्रश्न या नकारात्मक वाक्य में 'any' का उपयोग करें। उदाहरण: 'I need some plates.' 'Do you have any spoons?' 'I don’t have any cups.'",
+          "Japanese": "肯定文では 'some' を使い、疑問文や否定文では 'any' を使います。例: 'I need some plates.' 'Do you have any spoons?' 'I don’t have any cups.'"
+        }
+      },
+      {
+        "title": "Imperative sentences for instructions",
+        "explanation": "Use the verb without 'to' for instructions: 'Wash the plates.' 'Cut the apple.'",
+        "explanation_translation": {
+          "Hindi": "निर्देशों के लिए क्रिया को बिना 'to' के इस्तेमाल करें। जैसे: 'प्लेट्स धोएं।' 'सेब काटें।'",
+          "Japanese": "指示には動詞の原形を使います。例: 'Wash the plates.' 'Cut the apple.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you use to eat soup?",
+        "question_translation": {
+          "Hindi": "आप सूप पीने के लिए किसका उपयोग करते हैं?",
+          "Japanese": "スープを食べるとき何を使いますか？"
+        },
+        "options": ["Fork", "Knife", "Spoon"],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We keep food cold in the ___.",
+        "question_translation": {
+          "Hindi": "हम खाना ___ में ठंडा रखते हैं।",
+          "Japanese": "食べ物を冷やすのはどこですか？"
+        },
+        "options": ["fridge", "pan", "sink"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "Which utensil is sharp?",
+        "question_translation": {
+          "Hindi": "कौन सा बर्तन तेज़ है?",
+          "Japanese": "どの道具が鋭いですか？"
+        },
+        "options": ["Plate", "Cup", "Knife"],
+        "answer": 2
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Where do you wash your hands in the kitchen?",
+        "question_translation": {
+          "Hindi": "रसोई में आप हाथ कहाँ धोते हैं?",
+          "Japanese": "台所でどこで手を洗いますか？"
+        },
+        "options": ["Sink", "Stove", "Pan"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "You use a pan to cook eggs.",
+        "question_translation": {
+          "Hindi": "क्या आप अंडे पकाने के लिए पैन का उपयोग करते हैं?",
+          "Japanese": "卵を料理するのにフライパンを使いますか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She cooks rice on the ___. (stove)",
+        "question_translation": {
+          "Hindi": "वह ___ पर चावल पकाती है।",
+          "Japanese": "彼女は___でご飯を作ります。"
+        },
+        "options": ["sink", "stove", "fridge"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Put the food on the ___. (plate)",
+        "question_translation": {
+          "Hindi": "खाना ___ पर रखें।",
+          "Japanese": "食べ物を___にのせてください。"
+        },
+        "options": ["cup", "pan", "plate"],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, clean, is, kitchen]",
+        "question_translation": {
+          "Hindi": "[the, clean, is, kitchen] को सही क्रम में लगाएं।",
+          "Japanese": "[the, clean, is, kitchen]を並び替えましょう。"
+        },
+        "options": ["the", "clean", "is", "kitchen"],
+        "answer": ["The", "kitchen", "is", "clean"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "He eats salad with a ___. (fork)",
+        "question_translation": {
+          "Hindi": "वह ___ से सलाद खाता है।",
+          "Japanese": "彼は___でサラダを食べます。"
+        },
+        "options": ["spoon", "fork", "knife"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, is, milk, fridge, the]",
+        "question_translation": {
+          "Hindi": "[in, is, milk, fridge, the] को सही क्रम में लगाएं।",
+          "Japanese": "[in, is, milk, fridge, the]を並び替えましょう。"
+        },
+        "options": ["in", "is", "milk", "fridge", "the"],
+        "answer": ["The", "milk", "is", "in", "the", "fridge"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is used for frying eggs?",
+        "audio_text": "We fry eggs in a pan.",
+        "question_translation": {
+          "Hindi": "अंडे तलने के लिए किसका उपयोग होता है?",
+          "Japanese": "卵を焼くとき何を使いますか？"
+        },
+        "options": ["Pan", "Knife", "Plate"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Where do you keep the milk?",
+        "audio_text": "Milk is in the fridge.",
+        "question_translation": {
+          "Hindi": "दूध कहाँ रखा है?",
+          "Japanese": "牛乳はどこにありますか？"
+        },
+        "options": ["Pan", "Fridge", "Cup"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What do you need for soup?",
+        "audio_text": "I need a spoon for soup.",
+        "question_translation": {
+          "Hindi": "सूप के लिए आपको क्या चाहिए?",
+          "Japanese": "スープを食べるとき何が必要ですか？"
+        },
+        "options": ["Fork", "Knife", "Spoon"],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Where do you wash plates?",
+        "audio_text": "Wash the plates in the sink.",
+        "question_translation": {
+          "Hindi": "प्लेट्स कहाँ धोते हैं?",
+          "Japanese": "皿はどこで洗いますか？"
+        },
+        "options": ["Sink", "Stove", "Fridge"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What do you cut apples with?",
+        "audio_text": "Cut the apple with a knife.",
+        "question_translation": {
+          "Hindi": "सेब किससे काटते हैं?",
+          "Japanese": "りんごは何で切りますか？"
+        },
+        "options": ["Knife", "Pan", "Cup"],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The kitchen is clean.'",
+        "question_translation": {
+          "Hindi": "कहें: 'रसोईघर साफ है।'",
+          "Japanese": "「台所はきれいです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The kitchen is clean."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Milk is in the fridge.'",
+        "question_translation": {
+          "Hindi": "कहें: 'दूध फ्रिज में है।'",
+          "Japanese": "「牛乳は冷蔵庫にあります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Milk is in the fridge."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Wash the plates in the sink.'",
+        "question_translation": {
+          "Hindi": "कहें: 'प्लेट्स को सिंक में धोएं।'",
+          "Japanese": "「流し台でお皿を洗います。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Wash the plates in the sink."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'She cooks rice on the stove.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह चूल्हे पर चावल पकाती है।'",
+          "Japanese": "「彼女はコンロでご飯を作ります。」と言ってください。"
+        },
+        "options": [],
+        "answer": "She cooks rice on the stove."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I need a spoon for soup.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे सूप के लिए चम्मच चाहिए।'",
+          "Japanese": "「スープにスプーンが必要です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "I need a spoon for soup."
+      }
+    ]
+  }
 }

@@ -80,7 +80,7 @@ class _ResultTileState extends State<ResultTile> {
                             ),
                         const SizedBox(height: 5),
                         SizedBox(
-                          width: Get.width - 130,
+                          width: Get.width - 132,
                           child: Text(
                             widget.content,
                             style: const TextStyle(

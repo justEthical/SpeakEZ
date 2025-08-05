@@ -5,40 +5,191 @@
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "Hello", "meaning": "A word you say to greet someone" },
-      { "word": "Hi", "meaning": "A short and friendly greeting" },
-      { "word": "Good morning", "meaning": "A greeting used in the morning" },
-      { "word": "Good afternoon", "meaning": "A greeting used in the afternoon" },
-      { "word": "Good evening", "meaning": "A greeting used in the evening" },
-      { "word": "Nice to meet you", "meaning": "A polite phrase to say when meeting someone for the first time" },
-      { "word": "My name is...", "meaning": "A way to tell someone your name" }
+      {
+        "word": "Hello",
+        "word_translation": {
+          "Hindi": "नमस्ते",
+          "Japanese": "こんにちは"
+        },
+        "meaning": "A word you say to greet someone",
+        "meaning_translation": {
+          "Hindi": "वह शब्द जो आप किसी का अभिवादन करने के लिए कहते हैं",
+          "Japanese": "誰かに挨拶するときに言う言葉"
+        },
+        "examples": [
+          {
+            "sentence": "Hello! My name is Anna.",
+            "translation": {
+              "Hindi": "नमस्ते! मेरा नाम अन्ना है।",
+              "Japanese": "こんにちは！私の名前はアンナです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Hi",
+        "word_translation": {
+          "Hindi": "नमस्ते",
+          "Japanese": "やあ"
+        },
+        "meaning": "A short and friendly greeting",
+        "meaning_translation": {
+          "Hindi": "एक छोटा और दोस्ताना अभिवादन",
+          "Japanese": "短くてフレンドリーな挨拶"
+        },
+        "examples": [
+          {
+            "sentence": "Hi, I am David.",
+            "translation": {
+              "Hindi": "नमस्ते, मैं डेविड हूँ।",
+              "Japanese": "やあ、私はデイビッドです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Good morning",
+        "word_translation": {
+          "Hindi": "सुप्रभात",
+          "Japanese": "おはようございます"
+        },
+        "meaning": "A greeting used in the morning",
+        "meaning_translation": {
+          "Hindi": "सुबह में इस्तेमाल किया जाने वाला अभिवादन",
+          "Japanese": "朝に使う挨拶"
+        },
+        "examples": [
+          {
+            "sentence": "Good morning! How are you?",
+            "translation": {
+              "Hindi": "सुप्रभात! आप कैसे हैं?",
+              "Japanese": "おはようございます！お元気ですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Good afternoon",
+        "word_translation": {
+          "Hindi": "शुभ दोपहर",
+          "Japanese": "こんにちは"
+        },
+        "meaning": "A greeting used in the afternoon",
+        "meaning_translation": {
+          "Hindi": "दोपहर में इस्तेमाल किया जाने वाला अभिवादन",
+          "Japanese": "午後に使う挨拶"
+        },
+        "examples": [
+          {
+            "sentence": "Good afternoon! Welcome.",
+            "translation": {
+              "Hindi": "शुभ दोपहर! स्वागत है।",
+              "Japanese": "こんにちは！ようこそ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Good evening",
+        "word_translation": {
+          "Hindi": "शुभ संध्या",
+          "Japanese": "こんばんは"
+        },
+        "meaning": "A greeting used in the evening",
+        "meaning_translation": {
+          "Hindi": "शाम में इस्तेमाल किया जाने वाला अभिवादन",
+          "Japanese": "夕方に使う挨拶"
+        },
+        "examples": [
+          {
+            "sentence": "Good evening! How was your day?",
+            "translation": {
+              "Hindi": "शुभ संध्या! आपका दिन कैसा था?",
+              "Japanese": "こんばんは！今日はどうでしたか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Good night",
+        "word_translation": {
+          "Hindi": "शुभ रात्रि",
+          "Japanese": "おやすみなさい"
+        },
+        "meaning": "A phrase used to say goodbye before going to sleep",
+        "meaning_translation": {
+          "Hindi": "सोने से पहले अलविदा कहने के लिए उपयोग किया जाने वाला वाक्यांश",
+          "Japanese": "寝る前に別れを告げるときに使う表現"
+        },
+        "examples": [
+          {
+            "sentence": "Good night! See you tomorrow.",
+            "translation": {
+              "Hindi": "शुभ रात्रि! कल मिलते हैं।",
+              "Japanese": "おやすみなさい！また明日。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Nice to meet you",
+        "word_translation": {
+          "Hindi": "आपसे मिलकर खुशी हुई",
+          "Japanese": "はじめまして"
+        },
+        "meaning": "A polite phrase to say when meeting someone for the first time",
+        "meaning_translation": {
+          "Hindi": "किसी से पहली बार मिलने पर कहने के लिए एक विनम्र वाक्यांश",
+          "Japanese": "初めて会うときに使う丁寧な表現"
+        },
+        "examples": [
+          {
+            "sentence": "Nice to meet you!",
+            "translation": {
+              "Hindi": "आपसे मिलकर खुशी हुई!",
+              "Japanese": "はじめまして！"
+            }
+          }
+        ]
+      },
+      {
+        "word": "My name is...",
+        "word_translation": {
+          "Hindi": "मेरा नाम ... है",
+          "Japanese": "私の名前は..."
+        },
+        "meaning": "A way to tell someone your name",
+        "meaning_translation": {
+          "Hindi": "किसी को अपना नाम बताने का तरीका",
+          "Japanese": "自分の名前を伝える方法"
+        },
+        "examples": [
+          {
+            "sentence": "My name is Alex.",
+            "translation": {
+              "Hindi": "मेरा नाम एलेक्स है।",
+              "Japanese": "私の名前はアレックスです。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
         "title": "Introducing Yourself",
-        "explanation": "Use 'My name is...' to tell your name. Example: My name is John."
+        "explanation": "Use 'My name is...' to tell your name. Example: My name is John.",
+        "explanation_translation": {
+          "Hindi": "'My name is...' का उपयोग अपना नाम बताने के लिए करें। उदाहरण: My name is John.",
+          "Japanese": "「My name is...」を使って自分の名前を伝えます。例: My name is John."
+        }
       },
       {
         "title": "Greeting at Different Times",
-        "explanation": "Say 'Good morning' before noon, 'Good afternoon' after 12 pm, and 'Good evening' after 5 pm."
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "Hello! My name is Anna.",
-        "translation": ""
-      },
-      {
-        "sentence": "Good morning! How are you?",
-        "translation": ""
-      },
-      {
-        "sentence": "Hi, I am David.",
-        "translation": ""
-      },
-      {
-        "sentence": "Nice to meet you!",
-        "translation": ""
+        "explanation": "Say 'Good morning' before noon, 'Good afternoon' after 12 pm, and 'Good evening' after 5 pm.",
+        "explanation_translation": {
+          "Hindi": "दोपहर से पहले 'Good morning', 12 बजे के बाद 'Good afternoon', और 5 बजे के बाद 'Good evening' कहें।",
+          "Japanese": "正午まで「Good morning」、12時以降は「Good afternoon」、17時以降は「Good evening」と言います。"
+        }
       }
     ]
   },
@@ -48,35 +199,74 @@
         "id": "vocab1",
         "type": "multipleChoice",
         "question": "What do you say when you meet someone in the morning?",
-        "options": ["Good night", "Good morning", "Goodbye"],
+        "question_translation": {
+          "Hindi": "जब आप सुबह किसी से मिलते हैं तो आप क्या कहते हैं?",
+          "Japanese": "朝誰かに会ったとき、何と言いますか？"
+        },
+        "options": [
+          "Good night",
+          "Good morning",
+          "Goodbye"
+        ],
         "answer": 1
       },
       {
         "id": "vocab2",
         "type": "multipleChoice",
         "question": "Which word is a greeting?",
-        "options": ["Hello", "Table", "Apple"],
+        "question_translation": {
+          "Hindi": "इनमें से कौन सा शब्द अभिवादन है?",
+          "Japanese": "どの単語が挨拶ですか？"
+        },
+        "options": [
+          "Hello",
+          "Table",
+          "Apple"
+        ],
         "answer": 0
       },
       {
         "id": "vocab3",
         "type": "fillInTheBlanks",
         "question": "___ to meet you!",
-        "options": ["Good", "Nice", "Happy"],
+        "question_translation": {
+          "Hindi": "आपसे मिलकर ___!",
+          "Japanese": "___ to meet you!"
+        },
+        "options": [
+          "Good",
+          "Nice",
+          "Happy"
+        ],
         "answer": 1
       },
       {
         "id": "vocab4",
         "type": "trueFalse",
         "question": "We say 'Hi' when greeting someone.",
-        "options": ["True", "False"],
+        "question_translation": {
+          "Hindi": "हम किसी का अभिवादन करते समय 'Hi' कहते हैं।",
+          "Japanese": "挨拶するときに「Hi」と言います。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "vocab5",
         "type": "multipleChoice",
         "question": "Which greeting do you use at night?",
-        "options": ["Good morning", "Good evening", "Good afternoon"],
+        "question_translation": {
+          "Hindi": "रात में आप कौन सा अभिवादन इस्तेमाल करते हैं?",
+          "Japanese": "夜にはどの挨拶を使いますか？"
+        },
+        "options": [
+          "Good morning",
+          "Good evening",
+          "Good afternoon"
+        ],
         "answer": 1
       }
     ],
@@ -85,72 +275,166 @@
         "id": "sent1",
         "type": "fillInTheBlanks",
         "question": "My name ___ Alex.",
-        "options": ["is", "are", "am"],
+        "question_translation": {
+          "Hindi": "My name ___ Alex.",
+          "Japanese": "My name ___ Alex."
+        },
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
         "answer": 0
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
         "question": "___ to meet you.",
-        "options": ["Nice", "Hi", "Good"],
+        "question_translation": {
+          "Hindi": "___ to meet you.",
+          "Japanese": "___ to meet you."
+        },
+        "options": [
+          "Nice",
+          "Hi",
+          "Good"
+        ],
         "answer": 0
       },
       {
         "id": "sent3",
         "type": "sentenceRearranging",
         "question": "Arrange: [Hello, am, I, Peter]",
-        "options": ["Hello", "am", "I", "Peter"],
-        "answer": ["Hello", "I", "am", "Peter"]
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [Hello, am, I, Peter]",
+          "Japanese": "並べ替え: [Hello, am, I, Peter]"
+        },
+        "options": [
+          "Hello",
+          "am",
+          "I",
+          "Peter"
+        ],
+        "answer": [
+          "Hello",
+          "I",
+          "am",
+          "Peter"
+        ]
       },
       {
         "id": "sent4",
         "type": "sentenceRearranging",
         "question": "Arrange: [Good, morning]",
-        "options": ["Good", "morning"],
-        "answer": ["Good", "morning"]
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [Good, morning]",
+          "Japanese": "並べ替え: [Good, morning]"
+        },
+        "options": [
+          "Good",
+          "morning"
+        ],
+        "answer": [
+          "Good",
+          "morning"
+        ]
       },
       {
         "id": "sent5",
         "type": "fillInTheBlanks",
         "question": "___ afternoon!",
-        "options": ["Good", "Nice", "Happy"],
+        "question_translation": {
+          "Hindi": "___ afternoon!",
+          "Japanese": "___ afternoon!"
+        },
+        "options": [
+          "Good",
+          "Nice",
+          "Happy"
+        ],
         "answer": 0
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
+        "type": "multipleChoice",
+
         "question": "What did the speaker say?",
-        "options": ["Hello", "Goodbye", "Sorry"],
+        "audio_text": "Hello",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या कहा?",
+          "Japanese": "話者は何と言いましたか？"
+        },
+        "options": [
+          "Hello",
+          "Goodbye",
+          "Sorry"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
-        "type": "listening",
+        "type": "multipleChoice",
         "question": "Which greeting did you hear?",
-        "options": ["Good morning", "Good night", "Thank you"],
+        "audio_text": "Good morning",
+        "question_translation": {
+          "Hindi": "आपने कौन सा अभिवादन सुना?",
+          "Japanese": "どの挨拶を聞きましたか？"
+        },
+        "options": [
+          "Good morning",
+          "Good night",
+          "Thank you"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "What is the person's name? (Audio: 'My name is Mark.')",
-        "options": ["Alex", "Mark", "John"],
+        "type": "multipleChoice",
+        "question": "What is the person's name?",
+        "audio_text": "My name is Mark.",
+        "question_translation": {
+          "Hindi": "उस व्यक्ति का नाम क्या है?",
+          "Japanese": "その人の名前は何ですか?"
+        },
+        "options": [
+          "Alex",
+          "Mark",
+          "John"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "Did the speaker say 'Hi'?",
-        "options": ["Yes", "No", "Not sure"],
+        "type": "multipleChoice",
+        "question": "Did the speaker say 'Nice to meet you'?",
+        "audio_text": "Nice to meet you",
+        "question_translation": {
+          "Hindi": "क्या वक्ता ने 'Nice to meet you' कहा?",
+          "Japanese": "話者は「Nice to meet you」と言いましたか？"
+        },
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "What time of day was the greeting? (Audio: 'Good evening!')",
-        "options": ["Morning", "Afternoon", "Evening"],
+        "type": "multipleChoice",
+        "question": "What time of day was the greeting?",
+        "audio_text":"Good morning",
+        "question_translation": {
+          "Hindi": "अभिवादन किस समय का था?",
+          "Japanese": "挨拶はどの時間帯でしたか？"
+        },
+        "options": [
+          "Morning",
+          "Afternoon",
+          "Evening"
+        ],
         "answer": 2
       }
     ],
@@ -158,37 +442,57 @@
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'Hello! My name is Anna.'",
+        "question": "Say: 'Hello! My name is Ravi.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Hello! My name is Ravi.'",
+          "Japanese": "言ってください: 'Hello! My name is Ravi.'"
+        },
         "options": [],
-        "answer": "Hello! My name is Anna."
+        "answer": "hello my name is Ravi"
       },
       {
         "id": "speak2",
         "type": "speaking",
         "question": "Say: 'Good morning!'",
+        "question_translation": {
+          "Hindi": "कहें: 'Good morning!'",
+          "Japanese": "言ってください: 'Good morning!'"
+        },
         "options": [],
-        "answer": "Good morning!"
+        "answer": "good morning"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'Hi, I am David.'",
+        "question": "Say: 'Hi, I am Neha.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Hi, I am Neha.'",
+          "Japanese": "言ってください: 'Hi, I am Neha.'"
+        },
         "options": [],
-        "answer": "Hi, I am David."
+        "answer": "hi i am neha"
       },
       {
         "id": "speak4",
         "type": "speaking",
         "question": "Say: 'Nice to meet you.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Nice to meet you.'",
+          "Japanese": "言ってください: 'Nice to meet you.'"
+        },
         "options": [],
-        "answer": "Nice to meet you."
+        "answer": "nice to meet you"
       },
       {
         "id": "speak5",
         "type": "speaking",
         "question": "Say: 'Good evening!'",
+        "question_translation": {
+          "Hindi": "कहें: 'Good evening!'",
+          "Japanese": "言ってください: 'Good evening!'"
+        },
         "options": [],
-        "answer": "Good evening!"
+        "answer": "good evening"
       }
     ]
   }

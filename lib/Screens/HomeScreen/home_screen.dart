@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
-import 'package:speak_ez/Controllers/question_options_controller.dart';
-import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress.dart';
+import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
-import 'package:speak_ez/Screens/HomeScreen/Widgets/steak_and_progress_card.dart';
-import 'package:speak_ez/Screens/Questions/question_and_option_screen.dart';
+import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
-import 'package:speak_ez/Utils/custom_loader.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
 
@@ -23,233 +22,183 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final c = Get.put(HomeScreenController());
+  final HomeScreenController c = Get.put(HomeScreenController());
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     c.fetchUserDetails();
+    WhisperHelper.isModelAvailable().then((isAvailable) {
+      globalController.isAiModelDownloaded.value = isAvailable;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        title: Text(
-          "Hi, ${globalController.userProfile.value.displayName}!",
-          style: TextStyle(
-            color: Colors.white,
-            fontFamily: AppStrings.nunitoFont,
-            fontWeight: FontWeight.w700,
-          ),
-        ),
-        actions: [
-          InkWell(
-            child: Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: const Color.fromARGB(255, 74, 42, 165),
-              ),
-              child: SvgPicture.asset(AppAssets.settings, color: Colors.white),
-            ),
-            onTap: () {
-              Get.to(() => SettingScreens());
-            },
-          ),
-          SizedBox(width: 10),
-        ],
-      ),
+      backgroundColor: const Color(0xFFF5F6FA),
+      appBar: const _HomeAppBar(),
       body: SingleChildScrollView(
-        child: Container(
-          padding: EdgeInsets.only(top: 15, left: 15, right: 15),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 15.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                "Your Progress",
-                style: TextStyle(
-                  fontFamily: AppStrings.nunitoFont,
-                  fontSize: 24,
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-              SizedBox(height: 10),
-              Row(
-                children: [
-                  SteakAndProgressCard(
-                    title: "Current Streak",
-                    icon: AppAssets.flame,
-                    iconColor: Colors.deepOrange,
-                    progress: "${globalController.userProfile.value.currentStreak} days",
-                  ),
-                  SizedBox(width: 20),
-                  SteakAndProgressCard(
-                    title: "Words Learned",
-                    icon: AppAssets.medal,
-                    iconColor: Colors.deepPurple,
-                    progress: "120",
-                  ),
-                ],
-              ),
-
-              SizedBox(height: 20),
-
-              Container(
-                width: Get.width - 30,
-                // height: 100,
-                padding: EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(12),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: 0,
-                      blurRadius: 5,
-                      offset: const Offset(0, 3),
-                    ),
-                  ],
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "Current Level Progress",
-                      style: TextStyle(
-                        fontFamily: AppStrings.nunitoFont,
-                        fontSize: 18,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Row(
-                      children: [
-                        Text(
-                          "Introduction",
-                          style: TextStyle(
-                            fontFamily: AppStrings.nunitoFont,
-                            fontSize: 14,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Spacer(),
-                        Text("${ globalController.userProfile.value.currentEnglishLevelProgress/5 * 100}%"),
-                      ],
-                    ),
-
-                    SizedBox(height: 8),
-                    CurrentLessonProgress(),
-                    SizedBox(height: 15),
-                    ElevatedButton(
-                      onPressed: () async {
-                        final c = Get.put(QuestionOptionsController());
-                        CustomLoader.showLoader();
-                        await c.setCurrentLesson();
-                        CustomLoader.hideLoader();
-                        Get.to(QuestionAndOptionScreen());
-                      },
-                      style: ElevatedButton.styleFrom(
-                        fixedSize: Size(Get.width, 50),
-                        backgroundColor: Colors.deepPurple,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                      child: Text(
-                        "Continue Learning",
-                        style: TextStyle(
-                          fontFamily: AppStrings.nunitoFont,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              SizedBox(height: 20),
-              Row(
-                children: [
-                  Text(
-                    "Learn by level",
-                    style: TextStyle(
-                      fontFamily: AppStrings.nunitoFont,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      showModalBottomSheet(
-                        context: context,
-                        showDragHandle: true, // ✅ Native drag handle!
-                        backgroundColor: Colors.white,
-                        isScrollControlled: true,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.vertical(
-                            top: Radius.circular(20),
-                          ),
-                        ),
-                        builder: (context) => LevelBottomSheet(),
-                      );
-                    },
-                    icon: Icon(Icons.help, color: Colors.deepPurple, size: 20),
-                  ),
-                ],
-              ),
-              SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  EnglishLevelContainer(
-                    level: 'A1',
-                    lessons: 19,
-                    color: const Color.fromARGB(255, 43, 154, 219),
-                  ),
-                  EnglishLevelContainer(
-                    level: 'B1',
-                    lessons: 19,
-                    color: const Color.fromARGB(255, 224, 148, 34),
-                    isLocked: true,
-                  ),
-                  EnglishLevelContainer(
-                    level: 'C1',
-                    lessons: 19,
-                    color: const Color.fromARGB(255, 220, 81, 21),
-                    isLocked: true,
-                  ),
-                ],
-              ),
-              SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  EnglishLevelContainer(
-                    level: 'A2',
-                    lessons: 19,
-                    color: const Color.fromARGB(255, 21, 84, 121),
-                    isLocked: true,
-                  ),
-                  EnglishLevelContainer(
-                    level: 'B2',
-                    lessons: 19,
-                    color: const Color.fromARGB(255, 174, 106, 3),
-                    isLocked: true,
-                  ),
-                  EnglishLevelContainer(
-                    level: 'C2',
-                    lessons: 19,
-                    color: const Color.fromARGB(255, 158, 55, 11),
-                    isLocked: true,
-                  ),
-                ],
-              ),
+              const StreakAndWordCountSection(),
+              const SizedBox(height: 30),
+              const CurrentLessonProgressCard(),
+              const SizedBox(height: 30),
+              _LearnByLevelSection(),
             ],
           ),
         ),
       ),
+    );
+  }
+}
+
+class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const _HomeAppBar();
+
+  @override
+  Widget build(BuildContext context) {
+    return AppBar(
+      backgroundColor: const Color(0xFFF5F6FA), // Match body background
+      elevation: 0,
+      title: Obx(
+        () => Text(
+          "Hi, ${globalController.userProfile.value.displayName}!",
+          style: GoogleFonts.nunito(
+            color: Colors.black87,
+            fontWeight: FontWeight.w800,
+            fontSize: 22,
+          ),
+        ),
+      ),
+      actions: [
+        Padding(
+          padding: const EdgeInsets.only(right: 10.0),
+          child: IconButton(
+            onPressed: () => Get.to(() => const SettingScreens()),
+            icon: SvgPicture.asset(AppAssets.settings, color: Colors.black54),
+          ),
+        ),
+      ],
+    );
+  }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+}
+
+class _LearnByLevelSection extends StatelessWidget {
+  _LearnByLevelSection();
+
+  final List<Map<String, dynamic>> levels = [
+    {
+      'level': 'A1',
+      'lessons': AppData.lessonNames['A1']!.length,
+      'color': const Color.fromARGB(255, 43, 154, 219),
+      'isLocked': false,
+    },
+    {
+      'level': 'A2',
+      'lessons': AppData.lessonNames['A2']!.length,
+      'color': const Color.fromARGB(255, 21, 84, 121),
+      'isLocked': true,
+    },
+    {
+      'level': 'B1',
+      'lessons': AppData.lessonNames['B1']!.length,
+      'color': const Color.fromARGB(255, 224, 148, 34),
+      'isLocked': true,
+    },
+    {
+      'level': 'B2',
+      'lessons': AppData.lessonNames['B2']!.length,
+      'color': const Color.fromARGB(255, 174, 106, 3),
+      'isLocked': true,
+    },
+    {
+      'level': 'C1',
+      'lessons': AppData.lessonNames['C1']!.length,
+      'color': const Color.fromARGB(255, 220, 81, 21),
+      'isLocked': true,
+    },
+    {
+      'level': 'C2',
+      'lessons': AppData.lessonNames['C2']!.length,
+      'color': const Color.fromARGB(255, 158, 55, 11),
+      'isLocked': true,
+    },
+  ];
+
+  void _showLevelInfoSheet(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      showDragHandle: true,
+      backgroundColor: Colors.white,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (context) => const LevelBottomSheet(),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          child: Row(
+            children: [
+              Text(
+                "Learn by level",
+                style: GoogleFonts.nunito(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                  color: Colors.black.withOpacity(0.7),
+                ),
+              ),
+              const Spacer(),
+              TextButton(
+                onPressed: () => _showLevelInfoSheet(context),
+                child: const Text(
+                  "See all",
+                  style: TextStyle(
+                    color: Colors.deepPurple,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 15),
+        SizedBox(
+          height: 120, // Give a fixed height to the horizontal list
+          child: ListView.builder(
+            scrollDirection: Axis.horizontal,
+            itemCount: levels.length,
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            itemBuilder: (context, index) {
+              final item = levels[index];
+              return Padding(
+                padding: const EdgeInsets.only(right: 15.0),
+                child: EnglishLevelContainer(
+                  level: item['level'],
+                  lessons: item['lessons'],
+                  color: item['color'],
+                  isLocked: item['isLocked'],
+                ),
+              );
+            },
+          ),
+        ),
+      ],
     );
   }
 }

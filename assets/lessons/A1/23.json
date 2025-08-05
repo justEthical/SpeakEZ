@@ -1,4 +1,515 @@
 {
-  "id": 23,
-  "message": "This is file number 23"
+  "id": "lesson_weather_seasons_001",
+  "lesson_name": "Weather & Seasons",
+  "purpose": "All",
+  "cefrLevel": "A1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "weather",
+        "word_translation": {
+          "Hindi": "मौसम",
+          "Japanese": "天気"
+        },
+        "meaning": "how hot, cold, rainy, or windy it is outside",
+        "meaning_translation": {
+          "Hindi": "बाहर का तापमान, ठंडा, गर्म, बारिश या हवा का हाल",
+          "Japanese": "外の暑さ、寒さ、雨、風などの状態"
+        },
+        "examples": [
+          {
+            "sentence": "The weather is sunny today.",
+            "translation": {
+              "Hindi": "आज मौसम धूप वाला है।",
+              "Japanese": "今日は天気が晴れです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sunny",
+        "word_translation": {
+          "Hindi": "धूप वाला",
+          "Japanese": "晴れ"
+        },
+        "meaning": "when the sun is shining and there are no clouds",
+        "meaning_translation": {
+          "Hindi": "जब सूरज चमक रहा हो और बादल न हों",
+          "Japanese": "太陽が出ていて雲がない"
+        },
+        "examples": [
+          {
+            "sentence": "It is sunny in the afternoon.",
+            "translation": {
+              "Hindi": "दोपहर में धूप है।",
+              "Japanese": "午後は晴れです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rainy",
+        "word_translation": {
+          "Hindi": "बरसात वाला",
+          "Japanese": "雨"
+        },
+        "meaning": "when it is raining",
+        "meaning_translation": {
+          "Hindi": "जब बारिश हो रही हो",
+          "Japanese": "雨が降っている"
+        },
+        "examples": [
+          {
+            "sentence": "I use an umbrella on rainy days.",
+            "translation": {
+              "Hindi": "बरसात के दिनों में मैं छाता इस्तेमाल करता हूँ।",
+              "Japanese": "雨の日は傘を使います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cloudy",
+        "word_translation": {
+          "Hindi": "बादल वाला",
+          "Japanese": "くもり"
+        },
+        "meaning": "when the sky is full of clouds",
+        "meaning_translation": {
+          "Hindi": "जब आसमान में बादल हों",
+          "Japanese": "空が雲でいっぱいのとき"
+        },
+        "examples": [
+          {
+            "sentence": "It is cloudy but not raining.",
+            "translation": {
+              "Hindi": "बादल हैं लेकिन बारिश नहीं हो रही।",
+              "Japanese": "くもりですが雨は降っていません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "windy",
+        "word_translation": {
+          "Hindi": "हवादार",
+          "Japanese": "風が強い"
+        },
+        "meaning": "when the wind is blowing a lot",
+        "meaning_translation": {
+          "Hindi": "जब बहुत हवा चल रही हो",
+          "Japanese": "風がたくさん吹いている"
+        },
+        "examples": [
+          {
+            "sentence": "It is windy today.",
+            "translation": {
+              "Hindi": "आज हवा तेज़ है।",
+              "Japanese": "今日は風が強いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hot",
+        "word_translation": {
+          "Hindi": "गरम",
+          "Japanese": "暑い"
+        },
+        "meaning": "when the temperature is high",
+        "meaning_translation": {
+          "Hindi": "जब तापमान ज़्यादा हो",
+          "Japanese": "気温が高いとき"
+        },
+        "examples": [
+          {
+            "sentence": "It is hot in summer.",
+            "translation": {
+              "Hindi": "गर्मी में गरमी होती है।",
+              "Japanese": "夏は暑いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cold",
+        "word_translation": {
+          "Hindi": "ठंडा",
+          "Japanese": "寒い"
+        },
+        "meaning": "when the temperature is low",
+        "meaning_translation": {
+          "Hindi": "जब तापमान कम हो",
+          "Japanese": "気温が低いとき"
+        },
+        "examples": [
+          {
+            "sentence": "It is cold in winter.",
+            "translation": {
+              "Hindi": "सर्दी में ठंड होती है।",
+              "Japanese": "冬は寒いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "season",
+        "word_translation": {
+          "Hindi": "ऋतु",
+          "Japanese": "季節"
+        },
+        "meaning": "one of the four parts of the year with different weather",
+        "meaning_translation": {
+          "Hindi": "साल के चार भाग जिनका मौसम अलग होता है",
+          "Japanese": "一年を4つに分けたそれぞれの気候"
+        },
+        "examples": [
+          {
+            "sentence": "There are four seasons in a year.",
+            "translation": {
+              "Hindi": "एक साल में चार ऋतुएँ होती हैं।",
+              "Japanese": "1年に四つの季節があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "summer",
+        "word_translation": {
+          "Hindi": "गर्मी",
+          "Japanese": "夏"
+        },
+        "meaning": "the hottest season of the year",
+        "meaning_translation": {
+          "Hindi": "साल का सबसे गरम मौसम",
+          "Japanese": "一年で最も暑い季節"
+        },
+        "examples": [
+          {
+            "sentence": "We eat ice cream in summer.",
+            "translation": {
+              "Hindi": "गर्मी में हम आइसक्रीम खाते हैं।",
+              "Japanese": "夏はアイスクリームを食べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "winter",
+        "word_translation": {
+          "Hindi": "सर्दी",
+          "Japanese": "冬"
+        },
+        "meaning": "the coldest season of the year",
+        "meaning_translation": {
+          "Hindi": "साल का सबसे ठंडा मौसम",
+          "Japanese": "一年で最も寒い季節"
+        },
+        "examples": [
+          {
+            "sentence": "We wear warm clothes in winter.",
+            "translation": {
+              "Hindi": "सर्दी में हम गर्म कपड़े पहनते हैं।",
+              "Japanese": "冬は暖かい服を着ます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "spring",
+        "word_translation": {
+          "Hindi": "बसंत",
+          "Japanese": "春"
+        },
+        "meaning": "the season when flowers bloom",
+        "meaning_translation": {
+          "Hindi": "जब फूल खिलते हैं",
+          "Japanese": "花が咲く季節"
+        },
+        "examples": [
+          {
+            "sentence": "Spring is a beautiful season.",
+            "translation": {
+              "Hindi": "बसंत एक सुंदर ऋतु है।",
+              "Japanese": "春はきれいな季節です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "autumn",
+        "word_translation": {
+          "Hindi": "पतझड़",
+          "Japanese": "秋"
+        },
+        "meaning": "the season when leaves fall from trees",
+        "meaning_translation": {
+          "Hindi": "जब पेड़ों से पत्ते गिरते हैं",
+          "Japanese": "木から葉が落ちる季節"
+        },
+        "examples": [
+          {
+            "sentence": "Leaves fall in autumn.",
+            "translation": {
+              "Hindi": "पतझड़ में पत्ते गिरते हैं।",
+              "Japanese": "秋には葉が落ちます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about the weather",
+        "explanation": "Use 'It is' for weather: 'It is sunny.', 'It is rainy today.'",
+        "explanation_translation": {
+          "Hindi": "'It is' का उपयोग मौसम के लिए करें: 'It is sunny.', 'It is rainy today.'",
+          "Japanese": "天気について話すときは 'It is' を使います。例：'It is sunny.'、'It is rainy today.'"
+        }
+      },
+      {
+        "title": "Asking about the weather",
+        "explanation": "Say 'What is the weather like today?'",
+        "explanation_translation": {
+          "Hindi": "'आज मौसम कैसा है?' पूछने के लिए कहें।",
+          "Japanese": "天気を聞くときは「What is the weather like today?」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'the hottest season'?",
+        "question_translation": {
+          "Hindi": "सबसे गरम ऋतु के लिए कौन सा शब्द है?",
+          "Japanese": "「一番暑い季節」はどれですか？"
+        },
+        "options": ["Winter", "Summer", "Spring"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We eat ice cream in ___. (summer)",
+        "question_translation": {
+          "Hindi": "हम ___ में आइसक्रीम खाते हैं।",
+          "Japanese": "私たちは___にアイスクリームを食べます。"
+        },
+        "options": ["winter", "autumn", "summer"],
+        "answer": 2
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What do you use on rainy days?",
+        "question_translation": {
+          "Hindi": "बरसात के दिनों में आप क्या इस्तेमाल करते हैं?",
+          "Japanese": "雨の日は何を使いますか？"
+        },
+        "options": ["Umbrella", "Hat", "Scarf"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "When do leaves fall from trees?",
+        "question_translation": {
+          "Hindi": "पेड़ों से पत्ते कब गिरते हैं?",
+          "Japanese": "木から葉が落ちるのはいつですか？"
+        },
+        "options": ["Spring", "Autumn", "Summer"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "It is cold in winter.",
+        "question_translation": {
+          "Hindi": "क्या सर्दी में ठंड होती है?",
+          "Japanese": "冬は寒いですか？"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "The weather is ___. (sunny)",
+        "question_translation": {
+          "Hindi": "मौसम ___ है।",
+          "Japanese": "天気は___です。"
+        },
+        "options": ["rainy", "windy", "sunny"],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We wear warm clothes in ___. (winter)",
+        "question_translation": {
+          "Hindi": "हम ___ में गर्म कपड़े पहनते हैं।",
+          "Japanese": "私たちは___に暖かい服を着ます。"
+        },
+        "options": ["summer", "winter", "spring"],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, spring, bloom, flowers]",
+        "question_translation": {
+          "Hindi": "[in, spring, bloom, flowers] को सही क्रम में लगाएं।",
+          "Japanese": "[in, spring, bloom, flowers]を並べ替えましょう。"
+        },
+        "options": ["in", "spring", "bloom", "flowers"],
+        "answer": ["Flowers", "bloom", "in", "spring"]
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "It is ___ today. (cloudy)",
+        "question_translation": {
+          "Hindi": "आज ___ है।",
+          "Japanese": "今日は___です。"
+        },
+        "options": ["windy", "cloudy", "hot"],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, autumn, fall, leaves]",
+        "question_translation": {
+          "Hindi": "[in, autumn, fall, leaves] को सही क्रम में लगाएं।",
+          "Japanese": "[in, autumn, fall, leaves]を並べ替えましょう。"
+        },
+        "options": ["in", "autumn", "fall", "leaves"],
+        "answer": ["Leaves", "fall", "in", "autumn"]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the weather like?",
+        "audio_text": "It is windy today.",
+        "question_translation": {
+          "Hindi": "मौसम कैसा है?",
+          "Japanese": "天気はどうですか？"
+        },
+        "options": ["Windy", "Rainy", "Cloudy"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Which season is beautiful?",
+        "audio_text": "Spring is a beautiful season.",
+        "question_translation": {
+          "Hindi": "कौन सी ऋतु सुंदर है?",
+          "Japanese": "どの季節がきれいですか？"
+        },
+        "options": ["Winter", "Spring", "Autumn"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What do you use on rainy days?",
+        "audio_text": "I use an umbrella on rainy days.",
+        "question_translation": {
+          "Hindi": "बरसात में आप क्या इस्तेमाल करते हैं?",
+          "Japanese": "雨の日は何を使いますか？"
+        },
+        "options": ["Umbrella", "Hat", "Scarf"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "When do we eat ice cream?",
+        "audio_text": "We eat ice cream in summer.",
+        "question_translation": {
+          "Hindi": "हम आइसक्रीम कब खाते हैं?",
+          "Japanese": "アイスクリームはいつ食べますか？"
+        },
+        "options": ["Winter", "Spring", "Summer"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "When do we wear warm clothes?",
+        "audio_text": "We wear warm clothes in winter.",
+        "question_translation": {
+          "Hindi": "हम गर्म कपड़े कब पहनते हैं?",
+          "Japanese": "暖かい服はいつ着ますか？"
+        },
+        "options": ["Summer", "Winter", "Spring"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The weather is sunny today.'",
+        "question_translation": {
+          "Hindi": "कहें: 'आज मौसम धूप वाला है।'",
+          "Japanese": "「今日は天気が晴れです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "The weather is sunny today."
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'It is cold in winter.'",
+        "question_translation": {
+          "Hindi": "कहें: 'सर्दी में ठंड होती है।'",
+          "Japanese": "「冬は寒いです。」と言ってください。"
+        },
+        "options": [],
+        "answer": "It is cold in winter."
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Leaves fall in autumn.'",
+        "question_translation": {
+          "Hindi": "कहें: 'पतझड़ में पत्ते गिरते हैं।'",
+          "Japanese": "「秋には葉が落ちます。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Leaves fall in autumn."
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We use an umbrella on rainy days.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बरसात के दिनों में हम छाता इस्तेमाल करते हैं।'",
+          "Japanese": "「雨の日は傘を使います。」と言ってください。"
+        },
+        "options": [],
+        "answer": "We use an umbrella on rainy days."
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Spring is a beautiful season.'",
+        "question_translation": {
+          "Hindi": "कहें: 'बसंत एक सुंदर ऋतु है।'",
+          "Japanese": "「春はきれいな季節です。」と言ってください。"
+        },
+        "options": [],
+        "answer": "Spring is a beautiful season."
+      }
+    ]
+  }
 }
