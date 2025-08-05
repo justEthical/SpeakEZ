@@ -57,7 +57,8 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("release")
             // NDK configuration using Kotlin DSL
-      the<com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension>().nativeSymbolUploadEnabled = true
+            the<com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension>().nativeSymbolUploadEnabled = true
+            the<com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension>().unstrippedNativeLibsDir = file("/Users/ash/47/SpeakEZ/build/app/intermediates/merged_native_libs/release/mergeReleaseNativeLibs/out/lib/")
 
 
         }
