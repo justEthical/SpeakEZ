@@ -46,4 +46,8 @@ Reply only in this JSON format:
   // Shared Preferences
   static const String userAuthState = "user_auth_state";
   static const String userProfile = "user_profile";
+
+  static const String appWriteProjectId = "68922bff001e5c2efef0";
+  static const String appWriteEndPointUrl = "https://nyc.cloud.appwrite.io/v1";
+  static const String appStorageBuckerId = "689233a2002934deb1b4";
 }
