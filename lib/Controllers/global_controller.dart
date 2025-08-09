@@ -26,6 +26,8 @@ class GlobalController extends GetxController {
 
   var aiModelDownloadProgress = 0.0.obs;
   var isAiModelDownloaded = false.obs;
+  final currentLessonsVersion = "1.0.0";
+  var remoteConfig = {}; 
 
   @override
   void onReady() {

@@ -6,7 +6,6 @@ import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/reauthentication_bottom_sheet.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
-import 'package:speak_ez/Services/appwrite_service.dart';
 import 'package:speak_ez/Utils/common_widgets.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 
@@ -141,8 +140,8 @@ class SettingScreens extends StatelessWidget {
                   icon: AppAssets.starIcon,
                 ),
                 SettingsOptionTile(
-                  onTap: () {
-                    AppwriteService().getLessons(level: 'A1');  
+                  onTap: () async{
+
                   },
                   heading: "Refer to Friend",
                   content: "Share karo apne dosto ko",

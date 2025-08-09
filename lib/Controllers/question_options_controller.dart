@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:io';
 import 'dart:isolate';
 import 'dart:math';
 
@@ -60,9 +61,17 @@ class QuestionOptionsController extends GetxController {
 
   Future<Lesson> setCurrentLesson() async {
     final profile = globalController.userProfile.value;
-    final data = await rootBundle.loadString(
-      "assets/lessons/${profile.currentEnglishLevel}/${profile.currentEnglishLevelProgress + 1}.json",
-    );
+    final corePath =
+        "/lessons/${profile.currentEnglishLevel}/${profile.currentEnglishLevelProgress + 1}.json";
+    final appDocDirectoryPathForLesson =
+        globalController.appDocDirectoryPath + corePath;
+    final lessonJsonPath =
+        (Directory(appDocDirectoryPathForLesson).existsSync()
+            ? globalController.appDocDirectoryPath
+            : "assets") +
+        corePath;
+
+    final data = await rootBundle.loadString(lessonJsonPath);
     final jsonString = jsonDecode(data.toString());
     return Lesson.fromJson(jsonString);
   }
