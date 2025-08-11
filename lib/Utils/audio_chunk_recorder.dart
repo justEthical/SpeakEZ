@@ -1,10 +1,8 @@
 import 'dart:io';
 import 'dart:isolate';
-import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
-import 'package:speak_ez/Controllers/practice_controller.dart';
-import 'package:speak_ez/Controllers/question_options_controller.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 
 class AudioChunkRecorder {
   final _recorder = AudioRecorder();
@@ -22,14 +20,8 @@ class AudioChunkRecorder {
     final dir = await getApplicationDocumentsDirectory();
     _shouldStop = false; // reset flag
 
-    if (isFromLesson) {
-      Get.find<QuestionOptionsController>().transcriptionText.value = "";
-      Get.find<QuestionOptionsController>().isLastChunkTranscribed.value =
-          false;
-    } else {
-      Get.find<PracticeController>().transcriptionText.value = "";
-      Get.find<PracticeController>().isLastChunkTranscribed.value = false;
-    }
+    globalController.transcriptionText.value = "";
+    globalController.isLastChunkTranscribed.value = false;
 
     try {
       await _recorder.stop();
@@ -88,16 +80,7 @@ class AudioChunkRecorder {
     final lastRecordingChunkPath = '${dir.path}/${_fileIndex - 1}.wav';
     print("heerree");
     await transcribeWithPersistentIsolate(lastRecordingChunkPath, isFromLesson);
-    try {
-      if (isFromLesson) {
-        Get.find<QuestionOptionsController>().isLastChunkTranscribed.value =
-            true;
-      } else {
-        Get.find<PracticeController>().isLastChunkTranscribed.value = true;
-      }
-    } catch (e) {
-      print(e.toString());
-    }
+    globalController.isLastChunkTranscribed.value = true;
     print("last recording transcribed");
   }
 
@@ -107,22 +90,17 @@ class AudioChunkRecorder {
   ) async {
     if (File(filePath).existsSync()) {
       print('file exists');
-      var c;
-      if (isFromLesson) {
-        c = Get.find<QuestionOptionsController>();
-      } else {
-        c = Get.find<PracticeController>();
-      }
+      
       final ReceivePort responsePort = ReceivePort();
 
-      c.whisperSendPort.send({
+      globalController.whisperSendPort.send({
         'file': filePath,
         'replyTo': responsePort.sendPort,
       });
 
       final result = await responsePort.first;
       print('TRANSCRIBED: $result');
-      c.transcriptionText.value += result;
+      globalController.transcriptionText.value += result;
     }
   }
 }

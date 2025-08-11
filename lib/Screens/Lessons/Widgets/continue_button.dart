@@ -2,6 +2,7 @@ import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart'
     show QuestionOptionsController;
 import 'package:speak_ez/Models/lesson_model.dart';
@@ -37,7 +38,7 @@ class ContinueButton extends StatelessWidget {
                         );
                         break;
                       case QuestionType.speaking:
-                      final speakingAccuracy = c.calculateAccuracy(question.answer, c.transcriptionText.value.trim());
+                      final speakingAccuracy = c.calculateAccuracy(question.answer, globalController.transcriptionText.value.trim());
                       _playAudio(c.isSpeakingQuestionAccurate(speakingAccuracy), c);  
                         c.showAnswerResultBottomSheet(
                             isAnswerCorrect: c.isSpeakingQuestionAccurate(speakingAccuracy),

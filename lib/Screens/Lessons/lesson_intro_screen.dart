@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/vocalbulary_screen.dart';
@@ -15,7 +16,7 @@ class LessonIntroScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     c.currentQuestionIndex.value = 0;
     
-    c.startWhisperIsolate();
+    globalController.startWhisperIsolate();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,

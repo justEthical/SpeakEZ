@@ -124,7 +124,7 @@ class _SpeakOptionState extends State<SpeakOption> {
                       final micPermission =
                           await Permission.microphone.request();
                       if (micPermission.isGranted) {
-                        if(c.isWhisperInitialized.value){
+                        if(globalController.isWhisperInitialized.value){
                           c.startRecording();
                         }else{
                           // used when whisper model is not initialized or not present

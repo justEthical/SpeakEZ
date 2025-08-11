@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'dart:isolate';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -16,7 +15,6 @@ import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import '../Models/lesson_model.dart';
 
@@ -31,7 +29,7 @@ class QuestionOptionsController extends GetxController {
   final ttsHelper = TextToSpeechService();
   var correctAnswer = 0.obs;
   Timer? _timer;
-  var transcriptionText = "".obs;
+
   var currentWordMeaningIndex = 0.obs;
   var currentGrammerTipIndex = 0.obs;
   var qnaStartTime = DateTime.now();
@@ -43,7 +41,6 @@ class QuestionOptionsController extends GetxController {
 
   var isListeningLessonAnswer = false.obs; // for lessons answers speech to text
   final AudioChunkRecorder recorder = AudioChunkRecorder();
-  var isLastChunkTranscribed = false.obs;
   late StreamSubscription<bool> sub;
 
   late Lesson currentLessonModel;
@@ -51,8 +48,6 @@ class QuestionOptionsController extends GetxController {
   var isContinueButtonEnabled = false.obs;
   var isMicOn = false.obs;
   var currenSpeakingText = "".obs;
-  late SendPort whisperSendPort;
-  var isWhisperInitialized = false.obs;
   var remainingSeconds = 10.obs;
   var sttResult = "".obs;
   var isAudioProcessing = false.obs;
@@ -106,21 +101,6 @@ class QuestionOptionsController extends GetxController {
     FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
   }
 
-  Future<void> startWhisperIsolate() async {
-    final ReceivePort onMainReceive = ReceivePort();
-
-    final RootIsolateToken token = RootIsolateToken.instance!;
-    await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
-      onMainReceive.sendPort,
-      globalController.appDocDirectoryPath,
-      token,
-    ]);
-
-    whisperSendPort = await onMainReceive.first;
-    isWhisperInitialized.value = true;
-    print('Whisper isolate started $whisperSendPort');
-  }
-
   void startRecording() {
     isListeningLessonAnswer.value = true;
     recorder.startAutoRecording(isFromLesson: true);
@@ -135,19 +115,19 @@ class QuestionOptionsController extends GetxController {
   }
 
   void googleSpeechToText() {
-    isListeningLessonAnswer.value = true;
+    // globalController.isLastChunkTranscribed.value = true;
     stt.startListening(
       (result) {
-        transcriptionText.value = result;
-        print(transcriptionText.value);
+        globalController.transcriptionText.value = result;
+        print(globalController.transcriptionText.value);
       },
       (isListening) {
-        isListeningLessonAnswer.value = isListening;
+        globalController.isLastChunkTranscribed.value = isListening;
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
-        transcriptionText.value = removeBracketedWords(transcriptionText.value);
+        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
         // removing non alphabet characters like !, @, #, %, comma (,) etc
-        transcriptionText.value = removeNonAlphabet(transcriptionText.value);
-        if (transcriptionText.value.isNotEmpty) {
+        globalController.transcriptionText.value = removeNonAlphabet(globalController.transcriptionText.value);
+        if (globalController.transcriptionText.value.isNotEmpty) {
           isContinueButtonEnabled.value = true;
         }
       },
@@ -158,15 +138,15 @@ class QuestionOptionsController extends GetxController {
     _timer?.cancel();
     recorder.stop(isFromLesson: true);
     isAudioProcessing.value = true;
-    sub = isLastChunkTranscribed.listen((val) {
+    sub = globalController.isLastChunkTranscribed.listen((val) {
       if (val) {
-        print(transcriptionText.value);
+        print(globalController.transcriptionText.value);
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
-        transcriptionText.value = removeBracketedWords(transcriptionText.value);
+        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
         // removing non alphabet characters like !, @, #, %, comma (,) etc
-        print(transcriptionText.value);
-        transcriptionText.value = removeNonAlphabet(transcriptionText.value);
-        print(transcriptionText.value);
+        print(globalController.transcriptionText.value);
+        globalController.transcriptionText.value = removeNonAlphabet(globalController.transcriptionText.value);
+        print(globalController.transcriptionText.value);
 
         isContinueButtonEnabled.value = true;
         isAudioProcessing.value = false;
