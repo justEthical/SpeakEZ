@@ -18,38 +18,9 @@ class HomeScreenController extends GetxController {
   void onReady() {
     // TODO: implement onReady
     super.onReady();
-    // Future.delayed(Duration.zero, () async {
-    //   currentLessonNameList.value = await loadLessonsFromJson("A1");
-    // });
   }
 
   void changeEnglishLevel(String level) async {
-    // switch (level) {
-    //   case "A1":
-    //     currenEnglishLessonLevel.value = "A1";
-    //     loadLessonsFromJson('assets/lessons/a1.json');
-    //     break;
-    //   case "A2":
-    //     currenEnglishLessonLevel.value = "A2";
-    //     loadLessonsFromJson('assets/lessons/a2.json');
-    //     break;
-    //   case "B1":
-    //     currenEnglishLessonLevel.value = "B1";
-    //     loadLessonsFromJson('assets/lessons/b1.json');
-    //     break;
-    //   case "B2":
-    //     currenEnglishLessonLevel.value = "B2";
-    //     loadLessonsFromJson('assets/lessons/b2.json');
-    //     break;
-    //   case "C1":
-    //     currenEnglishLessonLevel.value = "C1";
-    //     loadLessonsFromJson('assets/lessons/c1.json');
-    //     break;
-    //   case "C2":
-    //     currenEnglishLessonLevel.value = "C2";
-    //     loadLessonsFromJson('assets/lessons/c2.json');
-    //     break;
-    // }
     currenEnglishLessonLevel.value = level;
   }
 
@@ -74,22 +45,6 @@ class HomeScreenController extends GetxController {
     }
   }
 
-  final lessonListPath = {
-    'A1': 'assets/lessons/a1.json',
-    'A2': 'assets/lessons/a2.json',
-    'B1': 'assets/lessons/b1.json',
-    'B2': 'assets/lessons/b2.json',
-    'C1': 'assets/lessons/c1.json',
-    'C2': 'assets/lessons/c2.json',
-  };
-
-  // Future<List<LessonModel>> loadLessonsFromJson(String englishLevel) async {
-  //   final content = await rootBundle.loadString(lessonListPath[englishLevel]!);
-  //   final jsonString = jsonDecode(content.toString());
-  //   final lessonsList =
-  //       (jsonString as List).map((e) => LessonModel.fromJson(e)).toList();
-  //   return lessonsList;
-  // }
 
   void fetchUserDetails() {
     var profileData = globalController.prefs?.getString(AppStrings.userProfile);
@@ -100,6 +55,7 @@ class HomeScreenController extends GetxController {
   }
 
   void fetchRemoteConfig() async {
+    globalController.prefs?.remove(AppStrings.remoteConfig);
     final config = await FirestoreHelper.fetchRemoteConfig();
     if (config != null) {
       globalController.remoteConfig = config;
@@ -120,11 +76,13 @@ class HomeScreenController extends GetxController {
             "${globalController.appDocDirectoryPath}/lessons/${key}_${config[key]}.zip",
             "${globalController.appDocDirectoryPath}/lessons/",
           );
+          await renameDirectory(key: key, version: config[key]);
           await File(
             "${globalController.appDocDirectoryPath}/lessons/${key}_${config[key]}.zip",
           ).delete();
         }
       }
+printDirectoryContents("${globalController.appDocDirectoryPath}/lessons/"); 
 
       globalController.prefs?.setString(
         AppStrings.remoteConfig,
@@ -186,4 +144,23 @@ class HomeScreenController extends GetxController {
       print('Error unzipping file: $e');
     }
   }
+
+  Future<void> renameDirectory({required String key, required String version})async{
+    final dir = Directory("${globalController.appDocDirectoryPath}/lessons/${key}_$version");
+    if (await dir.exists()) {
+      await dir.rename("${globalController.appDocDirectoryPath}/lessons/$key");
+    }
+  }
+
+  void printDirectoryContents(String path) async {
+  final dir = Directory(path);
+
+  if (await dir.exists()) {
+    await for (var entity in dir.list(recursive: false, followLinks: false)) {
+      print(entity.path);
+    }
+  } else {
+    print('Directory does not exist: $path');
+  }
+}
 }

@@ -53,21 +53,54 @@ class QuestionOptionsController extends GetxController {
 
   final SpeechService stt = SpeechService();
 
-  Future<Lesson> setCurrentLesson() async {
-    final profile = globalController.userProfile.value;
-    final corePath =
-        "/lessons/${profile.currentEnglishLevel}/${profile.currentEnglishLevelProgress + 1}.json";
-    final appDocDirectoryPathForLesson =
-        globalController.appDocDirectoryPath + corePath;
-    final lessonJsonPath =
-        (Directory(appDocDirectoryPathForLesson).existsSync()
-            ? globalController.appDocDirectoryPath
-            : "assets") +
-        corePath;
+  
+Future<Lesson> setCurrentLesson() async {
+  final profile = globalController.userProfile.value;
 
-    final data = await rootBundle.loadString(lessonJsonPath);
-    final jsonString = jsonDecode(data.toString());
-    return Lesson.fromJson(jsonString);
+  // Build the relative core path once (e.g., /lessons/A1/14.json)
+  final nextLessonIndex = profile.currentEnglishLevelProgress + 1;
+  final corePath = "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
+
+  // Absolute file path in app's documents dir
+  final storagePath = "${globalController.appDocDirectoryPath}$corePath";
+  final storageFile = File(storagePath);
+
+  try {
+    // 1) Try app storage override first
+    if (await storageFile.exists()) {
+      final text = await storageFile.readAsString();
+      final map = jsonDecode(text) as Map<String, dynamic>;
+      return Lesson.fromJson(map);
+    }
+
+    // 2) Fall back to bundled asset
+    final assetPath = "assets$corePath";
+    final text = await rootBundle.loadString(assetPath);
+    final map = jsonDecode(text) as Map<String, dynamic>;
+    return Lesson.fromJson(map);
+  } on FormatException catch (e) {
+    // JSON malformed
+    throw Exception("Invalid lesson JSON at $corePath: ${e.message}");
+  } on FileSystemException catch (e) {
+    // IO errors (permissions, missing file when expected, etc.)
+    throw Exception("File error while loading lesson at $storagePath: ${e.message}");
+  } catch (e) {
+    // Anything else
+    throw Exception("Unexpected error loading lesson $corePath: $e");
+  }
+}
+
+  void printDirectoryContents(String path) async {
+    final dir = Directory(path);
+
+    if (await dir.exists()) {
+      print("Directory exits");
+      await for (var entity in dir.list(recursive: false, followLinks: false)) {
+        print(entity.path);
+      }
+    } else {
+      print('Directory does not exist: $path');
+    }
   }
 
   String formatSecondsToMinutes(int timeInSeconds) {
@@ -123,9 +156,13 @@ class QuestionOptionsController extends GetxController {
       (isListening) {
         globalController.isLastChunkTranscribed.value = isListening;
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
-        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
+        globalController.transcriptionText.value = removeBracketedWords(
+          globalController.transcriptionText.value,
+        );
         // removing non alphabet characters like !, @, #, %, comma (,) etc
-        globalController.transcriptionText.value = removeNonAlphabet(globalController.transcriptionText.value);
+        globalController.transcriptionText.value = removeNonAlphabet(
+          globalController.transcriptionText.value,
+        );
         if (globalController.transcriptionText.value.isNotEmpty) {
           isContinueButtonEnabled.value = true;
         }
@@ -141,10 +178,14 @@ class QuestionOptionsController extends GetxController {
       if (val) {
         print(globalController.transcriptionText.value);
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
-        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
+        globalController.transcriptionText.value = removeBracketedWords(
+          globalController.transcriptionText.value,
+        );
         // removing non alphabet characters like !, @, #, %, comma (,) etc
         print(globalController.transcriptionText.value);
-        globalController.transcriptionText.value = removeNonAlphabet(globalController.transcriptionText.value);
+        globalController.transcriptionText.value = removeNonAlphabet(
+          globalController.transcriptionText.value,
+        );
         print(globalController.transcriptionText.value);
 
         isContinueButtonEnabled.value = true;
