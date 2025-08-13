@@ -1,6 +1,7 @@
 import 'dart:isolate';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -8,12 +9,17 @@ import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:speak_ez/Utils/whisper_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
   SharedPreferences? prefs;
   late SendPort whisperSendPort; // send port to whisper isolate
+  var isWhisperInitialized = false.obs;
+  var transcriptionText = "".obs;
+  var isLastChunkTranscribed = false.obs;
+
   var userProfile = UserProfileModel.fromMap({}).obs;
   final cutomTabBarController = PageController(initialPage: 0);
   String appDocDirectoryPath = "";
@@ -26,6 +32,8 @@ class GlobalController extends GetxController {
 
   var aiModelDownloadProgress = 0.0.obs;
   var isAiModelDownloaded = false.obs;
+  final currentLessonsVersion = "1.0.0";
+  var remoteConfig = {};
 
   @override
   void onReady() {
@@ -33,6 +41,26 @@ class GlobalController extends GetxController {
     super.onReady();
     loadVersion();
     getAppDocDirectoryPath();
+  }
+
+  Future<void> startWhisperIsolate() async {
+    if (isWhisperInitialized.value) {
+      print("Whisper already initialized");
+      whisperSendPort.send('stop');
+    } else {
+      final ReceivePort onMainReceive = ReceivePort();
+
+      final RootIsolateToken token = RootIsolateToken.instance!;
+      await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+        onMainReceive.sendPort,
+        globalController.appDocDirectoryPath,
+        token,
+      ]);
+
+      whisperSendPort = await onMainReceive.first;
+      isWhisperInitialized.value = true;
+      print('Whisper isolate started $whisperSendPort');
+    }
   }
 
   Future<void> getAppDocDirectoryPath() async {

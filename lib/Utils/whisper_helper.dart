@@ -33,8 +33,10 @@ class WhisperHelper {
       } else if (message is Map &&
           message.containsKey('file') &&
           message.containsKey('replyTo')) {
-        final filePath = message['file'] as String;
-        final SendPort replyTo = message['replyTo'] as SendPort;
+            final SendPort replyTo = message['replyTo'] as SendPort;
+        try {
+          final filePath = message['file'] as String;
+        
 
         final bytes = await File(filePath).readAsBytes();
         final samples = downmixAndNormalizeWav(bytes);
@@ -45,7 +47,10 @@ class WhisperHelper {
         final result = recognizer.getResult(stream);
         stream.free();
 
-        replyTo.send(result.text); // send back transcription
+        replyTo.send(result.text);// send back transcription
+        } catch (e) {
+          replyTo.send(e.toString());
+        }
       }
     }
 

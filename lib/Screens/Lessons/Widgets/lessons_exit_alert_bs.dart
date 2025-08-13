@@ -50,6 +50,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
             onTap: () {
               Get.back();
               Get.back();
+              // Get.find<QuestionOptionsController>().ttsHelper.stop();
             },
             child: Text(
               "Close and discard",

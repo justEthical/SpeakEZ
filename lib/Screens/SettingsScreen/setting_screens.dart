@@ -140,7 +140,9 @@ class SettingScreens extends StatelessWidget {
                   icon: AppAssets.starIcon,
                 ),
                 SettingsOptionTile(
-                  onTap: () {},
+                  onTap: () async{
+
+                  },
                   heading: "Refer to Friend",
                   content: "Share karo apne dosto ko",
                   icon: AppAssets.giftIcon,

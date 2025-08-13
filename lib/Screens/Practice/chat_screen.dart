@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/ResultScreen/practice_result_screen.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_screen_bottom_bar.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 
 import 'Widgets/progress_bar.dart';
 
@@ -26,7 +28,7 @@ class _ChatScreenState extends State<ChatScreen> {
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       c.currentScenarioModel = widget.scenarioModel;
       c.addInitialMessage();
-      c.startWhisperIsolate();
+      globalController.startWhisperIsolate();
     });
   }
 
@@ -34,10 +36,12 @@ class _ChatScreenState extends State<ChatScreen> {
   void dispose() {
     // TODO: implement dispose
     super.dispose();
-    c.whisperSendPort.send('stop');
-    c.isWhisperInitialized.value = false;
+    if (globalController.isWhisperInitialized.value) {
+      globalController.whisperSendPort.send('stop');
+      globalController.isWhisperInitialized.value = false;
+    }
     c.currentUserSessionMessage.value = 0;
-    c.tts.stop();
+    ttsHelper.stop();
     print("dissposed");
   }
 
@@ -46,7 +50,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return PopScope(
       canPop: isBottomSheetOpen,
       onPopInvokedWithResult: (a, _) {
-        if(!isBottomSheetOpen){
+        if (!isBottomSheetOpen) {
           isBottomSheetOpen = true;
           c.showExitBottomSheet(context);
         }
@@ -64,7 +68,10 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
           ),
           leading: IconButton(
-            icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black54),
+            icon: const Icon(
+              Icons.arrow_back_ios_new_rounded,
+              color: Colors.black54,
+            ),
             onPressed: () {
               isBottomSheetOpen = true;
               c.showExitBottomSheet(context);
@@ -94,34 +101,35 @@ class _ChatScreenState extends State<ChatScreen> {
               ),
               const SizedBox(height: 10),
               Obx(
-                () => c.currentUserSessionMessage.value >=
-                        c.maxNumberOfAiResponsesPerSession
-                    ? Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 8.0),
-                        child: ElevatedButton(
-                          onPressed: () {
-                            Get.off(PracticeResultSreen(
-                              result: c.resultModel!,
-                            ));
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Theme.of(context).primaryColor,
-                            minimumSize: const Size(double.infinity, 50),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(12),
+                () =>
+                    c.currentUserSessionMessage.value >=
+                            c.maxNumberOfAiResponsesPerSession
+                        ? Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8.0),
+                          child: ElevatedButton(
+                            onPressed: () {
+                              Get.off(
+                                PracticeResultSreen(result: c.resultModel!),
+                              );
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Theme.of(context).primaryColor,
+                              minimumSize: const Size(double.infinity, 50),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                            child: const Text(
+                              "View Results",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
-                          child: const Text(
-                            "View Results",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
-                      )
-                    : ChatScreenBottomBar(),
+                        )
+                        : ChatScreenBottomBar(),
               ),
             ],
           ),

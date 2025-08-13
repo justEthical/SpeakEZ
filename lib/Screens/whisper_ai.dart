@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:sherpa_onnx/sherpa_onnx.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 // import 'package:speak_ez/Utils/load_model_helper.dart';
@@ -55,7 +56,7 @@ class _WhisperAiState extends State<WhisperAi> {
             ),
             const Spacer(),
 
-            Obx(() => Text(c.transcriptionText.value)),
+            Obx(() => Text(globalController.transcriptionText.value)),
             ElevatedButton(
               onPressed: () async {
                 // final now = DateTime.now().millisecondsSinceEpoch;
