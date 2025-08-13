@@ -20,10 +20,6 @@ class HomeScreenController extends GetxController {
     super.onReady();
   }
 
-  void changeEnglishLevel(String level) async {
-    currenEnglishLessonLevel.value = level;
-  }
-
   void calculateStreak() {
     final lastActive = globalController.userProfile.value.lastActive;
     final now = DateTime.now();
