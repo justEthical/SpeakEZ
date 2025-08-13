@@ -90,19 +90,6 @@ Future<Lesson> setCurrentLesson() async {
   }
 }
 
-  void printDirectoryContents(String path) async {
-    final dir = Directory(path);
-
-    if (await dir.exists()) {
-      print("Directory exits");
-      await for (var entity in dir.list(recursive: false, followLinks: false)) {
-        print(entity.path);
-      }
-    } else {
-      print('Directory does not exist: $path');
-    }
-  }
-
   String formatSecondsToMinutes(int timeInSeconds) {
     final minutes = (timeInSeconds ~/ 60).toString().padLeft(2, '0');
     final seconds = (timeInSeconds % 60).toString().padLeft(2, '0');

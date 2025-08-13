@@ -55,7 +55,6 @@ class HomeScreenController extends GetxController {
   }
 
   void fetchRemoteConfig() async {
-    globalController.prefs?.remove(AppStrings.remoteConfig);
     final config = await FirestoreHelper.fetchRemoteConfig();
     if (config != null) {
       globalController.remoteConfig = config;
@@ -82,7 +81,6 @@ class HomeScreenController extends GetxController {
           ).delete();
         }
       }
-printDirectoryContents("${globalController.appDocDirectoryPath}/lessons/"); 
 
       globalController.prefs?.setString(
         AppStrings.remoteConfig,
@@ -151,16 +149,4 @@ printDirectoryContents("${globalController.appDocDirectoryPath}/lessons/");
       await dir.rename("${globalController.appDocDirectoryPath}/lessons/$key");
     }
   }
-
-  void printDirectoryContents(String path) async {
-  final dir = Directory(path);
-
-  if (await dir.exists()) {
-    await for (var entity in dir.list(recursive: false, followLinks: false)) {
-      print(entity.path);
-    }
-  } else {
-    print('Directory does not exist: $path');
-  }
-}
 }
