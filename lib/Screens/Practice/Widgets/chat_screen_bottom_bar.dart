@@ -41,16 +41,16 @@ class ChatScreenBottomBar extends StatelessWidget {
                       onTap: () => c.addChatCellTranscriptionData(),
                       child: AnimatedDoughnut())
                     : Opacity(
-                      opacity: c.isSpeaking.value || !c.isWhisperInitialized.value ? 0.4 : 1,
+                      opacity: c.isSpeaking.value || !globalController.isWhisperInitialized.value ? 0.4 : 1,
                       child: InkWell(
                         onTap: () {
-                          if(!c.isSpeaking.value && c.isWhisperInitialized.value){
+                          if(!c.isSpeaking.value && globalController.isWhisperInitialized.value){
                             c.startRecording();
                           }
                         } ,
                         child: Lottie.asset(
                           AppAssets.mic,
-                          animate: !(c.isSpeaking.value || !c.isWhisperInitialized.value),
+                          animate: !(c.isSpeaking.value || !globalController.isWhisperInitialized.value),
                           width: 100,
                           height: 100,
                           decoder: globalController.customDecoder,

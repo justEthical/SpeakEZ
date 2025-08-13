@@ -1,10 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'dart:isolate';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -21,15 +20,14 @@ import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import '../Utils/audio_chunk_recorder.dart';
 
 class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
-  var transcriptionText = "".obs;
+  
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = 1;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 1 : 10;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -40,29 +38,11 @@ class PracticeController extends GetxController {
   EvaluationResult? resultModel;
   Timer? _timer;
   var currentChats = <ChatModel>[].obs;
-  var isLastChunkTranscribed = false.obs;
   late Worker isLastChunkWorker;
   late StreamSubscription<bool> sub;
-  late SendPort whisperSendPort;
-  var isWhisperInitialized = false.obs;
+  
   ScenarioModel? currentScenarioModel;
-  final tts = TextToSpeechService();
   var isSpeaking = false.obs;
-
-  Future<void> startWhisperIsolate() async {
-    final ReceivePort onMainReceive = ReceivePort();
-
-    final RootIsolateToken token = RootIsolateToken.instance!;
-    await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
-      onMainReceive.sendPort,
-      globalController.appDocDirectoryPath,
-      token,
-    ]);
-
-    whisperSendPort = await onMainReceive.first;
-    isWhisperInitialized.value = true;
-    print('Whisper isolate started $whisperSendPort');
-  }
 
   void startRecording() {
     recorder.startAutoRecording();
@@ -112,14 +92,14 @@ class PracticeController extends GetxController {
     _scrollToBottom();
     print('listener hashcode: $hashCode');
 
-    sub = isLastChunkTranscribed.listen((val) {
+    sub = globalController.isLastChunkTranscribed.listen((val) {
       print("Listener called: $val");
       if (val) {
         currentChats.remove(currentChats.last);
-        transcriptionText.value = removeBracketedWords(transcriptionText.value);
+        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
         currentChats.add(
           ChatModel(
-            message: transcriptionText.value,
+            message: globalController.transcriptionText.value,
             time: "time",
             isAI: false,
             messageDuration: 30 - remainingSeconds.value,
@@ -146,7 +126,7 @@ class PracticeController extends GetxController {
       }
       remainingSeconds.value = 30;
       sub.cancel();
-      isLastChunkTranscribed.value = false;
+      globalController.isLastChunkTranscribed.value = false;
     });
   }
 
@@ -200,7 +180,7 @@ class PracticeController extends GetxController {
 
   getAiResponse() async {
     var response = await NetworkService.getAiReposne(
-      transcriptionText.value,
+      globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
       pastConversation: getPastConversation(),
     );
@@ -218,7 +198,7 @@ class PracticeController extends GetxController {
 
       _scrollToBottom();
       isSpeaking.value = true;
-      await tts.speakAndWait(response);
+      await ttsHelper.speakAndWait(response);
       isSpeaking.value = false;
     }
   }
@@ -237,7 +217,7 @@ class PracticeController extends GetxController {
     _scrollToBottom();
     Future.delayed(const Duration(seconds: 0), () async {
       isSpeaking.value = true;
-      await tts.speakAndWait(currentScenarioModel!.intro);
+      await ttsHelper.speakAndWait(currentScenarioModel!.intro);
       isSpeaking.value = false;
     });
   }
@@ -277,7 +257,7 @@ updateLesssonProgress() {
     _scrollToBottom();
     Future.delayed(const Duration(seconds: 0), () async {
       isSpeaking.value = true;
-      await tts.speakAndWait(AppStrings.outroMessage);
+      await ttsHelper.speakAndWait(AppStrings.outroMessage);
       isSpeaking.value = false;
     });
   }
@@ -288,7 +268,7 @@ updateLesssonProgress() {
     isRecordingInProgress.value = false;
     isSpeaking.value = true; // just to disable mic button while transcribing
     currentChats.remove(currentChats.last);
-    transcriptionText.value = "";
+    globalController.transcriptionText.value = "";
     remainingSeconds.value = 30;
   }
 

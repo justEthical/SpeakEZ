@@ -6,6 +6,7 @@ import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/continue_button.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/option_builder.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 import './Widgets/progress_bar.dart';
 
 class QnaScreen extends StatelessWidget {
@@ -51,7 +52,7 @@ class QnaScreen extends StatelessWidget {
                   itemCount: c.currentQuestionList.length,
                   itemBuilder: (ctx, i) {
                     final question = c.currentQuestionList[i];
-                    question.audioText != null ? c.ttsHelper.speak(question.audioText!) : null; 
+                    question.audioText != null ? ttsHelper.speak(question.audioText!) : null; 
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -78,7 +79,7 @@ class QnaScreen extends StatelessWidget {
                                 backgroundColor: Colors.deepPurple
                               ),
                               onPressed: () {
-                                c.ttsHelper.speak(
+                                ttsHelper.speak(
                                   question.audioText!,
                                 );
                               },

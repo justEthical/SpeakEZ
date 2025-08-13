@@ -83,4 +83,19 @@ class FirestoreHelper {
   }
   return false; 
 }
+
+static Future<Map?> fetchRemoteConfig()async{
+  final doc =
+        await FirebaseFirestore.instance
+            .collection('config')
+            .doc('lesson_versions')
+            .get();
+
+    if (doc.exists && doc.data() != null) {
+      return doc.data()!;
+    } else {
+      // Return null or throw an exception if you prefer
+      return null;
+    }
+}
 }

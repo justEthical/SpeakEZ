@@ -16,10 +16,14 @@ class ResultScreen extends StatelessWidget {
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     c.updateLesssonProgress();
-    final timeTookForQnaInSeconds = DateTime.now().difference(c.qnaStartTime).inSeconds; 
+    final timeTookForQnaInSeconds =
+        DateTime.now().difference(c.qnaStartTime).inSeconds;
     final timeTookForQna = c.formatSecondsToMinutes(timeTookForQnaInSeconds);
-    c.whisperSendPort.send('stop');
-    c.isWhisperInitialized.value = false;
+    if (globalController.isWhisperInitialized.value) {
+      globalController.whisperSendPort.send('stop');
+      globalController.isWhisperInitialized.value = false;
+    }
+    // c.ttsHelper.stop(); 
     return Scaffold(
       body: Stack(
         children: [
@@ -51,8 +55,18 @@ class ResultScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      _buildResultAnalyticCard(context, "${accuracy.toStringAsFixed(0)}%", "Accuracy", Colors.green),
-                      _buildResultAnalyticCard(context, timeTookForQna, "Time Taken", Colors.blue),
+                      _buildResultAnalyticCard(
+                        context,
+                        "${accuracy.toStringAsFixed(0)}%",
+                        "Accuracy",
+                        Colors.green,
+                      ),
+                      _buildResultAnalyticCard(
+                        context,
+                        timeTookForQna,
+                        "Time Taken",
+                        Colors.blue,
+                      ),
                     ],
                   ),
                   const SizedBox(height: 24),
@@ -102,24 +116,24 @@ class ResultScreen extends StatelessWidget {
       ),
     );
   }
- 
-  Widget _buildResultAnalyticCard(BuildContext context, String analytics, String analyticsTitle, Color color) {
+
+  Widget _buildResultAnalyticCard(
+    BuildContext context,
+    String analytics,
+    String analyticsTitle,
+    Color color,
+  ) {
     return SizedBox(
       width: Get.width * 0.5 - 30,
       child: Card(
         elevation: 8,
         shadowColor: color.withOpacity(0.3),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(
             decoration: BoxDecoration(
-              border: Border.all(
-                color: color.withOpacity(0.5),
-                width: 1,
-              ),
+              border: Border.all(color: color.withOpacity(0.5), width: 1),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Column(
@@ -138,9 +152,7 @@ class ResultScreen extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.symmetric(vertical: 16),
-                  decoration: BoxDecoration(
-                    color: color,
-                  ),
+                  decoration: BoxDecoration(color: color),
                   child: Center(
                     child: Text(
                       analyticsTitle,
@@ -166,18 +178,13 @@ class ResultScreen extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.black,
         fixedSize: const Size(double.infinity, 55),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
         textStyle: GoogleFonts.nunito(
           fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
       ),
-      child: const Text(
-        "Done",
-        style: TextStyle(color: Colors.white),
-      ),
+      child: const Text("Done", style: TextStyle(color: Colors.white)),
     );
   }
 }

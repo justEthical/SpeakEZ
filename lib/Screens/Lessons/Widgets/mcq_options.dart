@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 
 class McqOptions extends StatefulWidget {
   final Question question;
@@ -30,7 +31,7 @@ class _McqOptionsState extends State<McqOptions> {
         ...List.generate(widget.question.options!.length, (i) {
           return Obx(() => InkWell(
                       onTap: () {
-                        c.ttsHelper.speak(widget.question.options![i]);
+                        ttsHelper.speak(widget.question.options![i]);
                         c.currentSelectedOptionIndex.value = i;
                         c.shouldEnableContinueButton(widget.question.type);
                         

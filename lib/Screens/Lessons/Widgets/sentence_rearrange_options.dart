@@ -101,8 +101,8 @@ class _SentenceRearrangeOptionsState extends State<SentenceRearrangeOptions> {
             ) {
               return InkWell(
                 onTap: () {
-                  final tts = TextToSpeechService();
-                  tts.speak(c.sentenceRearrangeOptionList[index]);
+                  
+                  ttsHelper.speak(c.sentenceRearrangeOptionList[index]);
                   c.sentenceRearrangeTempList.add(
                     c.sentenceRearrangeOptionList[index],
                   );

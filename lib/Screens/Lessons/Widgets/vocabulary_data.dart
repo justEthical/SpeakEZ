@@ -30,9 +30,8 @@ class VocabularyData extends StatelessWidget {
               ),
               SizedBox(width: 10),
               GestureDetector(
-                onTap: () {
-                  final tts = TextToSpeechService();
-                  tts.speak(vocabularyItem.word);
+                onTap: () {                 
+                  ttsHelper.speak(vocabularyItem.word);
                 },
                 child: Container(
                   padding: EdgeInsets.all(5),
