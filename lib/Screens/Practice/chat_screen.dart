@@ -6,6 +6,7 @@ import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/ResultScreen/practice_result_screen.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_screen_bottom_bar.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 
 import 'Widgets/progress_bar.dart';
 
@@ -40,7 +41,7 @@ class _ChatScreenState extends State<ChatScreen> {
       globalController.isWhisperInitialized.value = false;
     }
     c.currentUserSessionMessage.value = 0;
-    c.tts.stop();
+    ttsHelper.stop();
     print("dissposed");
   }
 

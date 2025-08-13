@@ -14,7 +14,6 @@ import 'package:speak_ez/Screens/Lessons/result_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
-import 'package:speak_ez/Utils/tts_helper.dart';
 
 import '../Models/lesson_model.dart';
 
@@ -26,7 +25,7 @@ class QuestionOptionsController extends GetxController {
   var currentQuestionList = <Question>[].obs;
   var sentenceRearrangeTempList = <String>[].obs;
   var sentenceRearrangeOptionList = <String>[].obs;
-  final ttsHelper = TextToSpeechService();
+  // final ttsHelper = TextToSpeechService();
   var correctAnswer = 0.obs;
   Timer? _timer;
 

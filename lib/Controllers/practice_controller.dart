@@ -42,7 +42,6 @@ class PracticeController extends GetxController {
   late StreamSubscription<bool> sub;
   
   ScenarioModel? currentScenarioModel;
-  final tts = TextToSpeechService();
   var isSpeaking = false.obs;
 
   void startRecording() {
@@ -199,7 +198,7 @@ class PracticeController extends GetxController {
 
       _scrollToBottom();
       isSpeaking.value = true;
-      await tts.speakAndWait(response);
+      await ttsHelper.speakAndWait(response);
       isSpeaking.value = false;
     }
   }
@@ -218,7 +217,7 @@ class PracticeController extends GetxController {
     _scrollToBottom();
     Future.delayed(const Duration(seconds: 0), () async {
       isSpeaking.value = true;
-      await tts.speakAndWait(currentScenarioModel!.intro);
+      await ttsHelper.speakAndWait(currentScenarioModel!.intro);
       isSpeaking.value = false;
     });
   }
@@ -258,7 +257,7 @@ updateLesssonProgress() {
     _scrollToBottom();
     Future.delayed(const Duration(seconds: 0), () async {
       isSpeaking.value = true;
-      await tts.speakAndWait(AppStrings.outroMessage);
+      await ttsHelper.speakAndWait(AppStrings.outroMessage);
       isSpeaking.value = false;
     });
   }

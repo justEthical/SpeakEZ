@@ -23,6 +23,7 @@ class ResultScreen extends StatelessWidget {
       globalController.whisperSendPort.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
+    // c.ttsHelper.stop(); 
     return Scaffold(
       body: Stack(
         children: [
