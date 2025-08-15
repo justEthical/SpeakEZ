@@ -294,9 +294,12 @@ Mistakes are your secret weapon to get better. 💥
       ),
       isScrollControlled: true,
       builder:
-          (context) => AnswerResultBottomSheet(
-            isAnswerCorrect: isAnswerCorrect,
-            correctAnswer: correctAnswer,
+          (context) => PopScope(
+            canPop: false,
+            child: AnswerResultBottomSheet(
+              isAnswerCorrect: isAnswerCorrect,
+              correctAnswer: correctAnswer,
+            ),
           ),
     );
   }
