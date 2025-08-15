@@ -47,7 +47,7 @@ class GlobalController extends GetxController {
     if (isWhisperInitialized.value) {
       print("Whisper already initialized");
       whisperSendPort.send('stop');
-    } else {
+    } else if(isAiModelDownloaded.value) {
       final ReceivePort onMainReceive = ReceivePort();
 
       final RootIsolateToken token = RootIsolateToken.instance!;
