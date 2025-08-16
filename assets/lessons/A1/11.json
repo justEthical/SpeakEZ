@@ -90,6 +90,27 @@
         ]
       },
       {
+        "word": "mirror",
+        "word_translation": {
+          "Hindi": "आईना",
+          "Japanese": "鏡"
+        },
+        "meaning": "a piece of glass that reflects your image",
+        "meaning_translation": {
+          "Hindi": "एक काँच जिसमें आपकी छवि दिखाई देती है",
+          "Japanese": "自分の姿を映すガラス"
+        },
+        "examples": [
+          {
+            "sentence": "There is a mirror in the bathroom.",
+            "translation": {
+              "Hindi": "बाथरूम में एक आईना है।",
+              "Japanese": "お風呂場に鏡があります。"
+            }
+          }
+        ]
+      },
+      {
         "word": "sofa",
         "word_translation": {
           "Hindi": "सोफ़ा",
@@ -245,19 +266,27 @@
           "Hindi": "आप कहाँ सोते हैं?",
           "Japanese": "どこで寝ますか？"
         },
-        "options": ["Living room", "Bedroom", "Kitchen"],
+        "options": [
+          "Living room",
+          "Bedroom",
+          "Kitchen"
+        ],
         "answer": 1
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "There is a ___ on the table.",
+        "question": "There is a ___ beside the bed.",
         "question_translation": {
-          "Hindi": "मेज़ पर एक ___ है।",
-          "Japanese": "テーブルの上に___があります。"
+          "Hindi": "बिस्तर के पास एक ___ है।",
+          "Japanese": "ベッドのそばに___があります。"
         },
-        "options": ["chair", "lamp", "bed"],
-        "answer": 1
+        "options": [
+          "lamp",
+          "table",
+          "wardrobe"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab3",
@@ -267,7 +296,11 @@
           "Hindi": "आप किस कमरे में खाना बनाते हैं?",
           "Japanese": "どの部屋で料理をしますか？"
         },
-        "options": ["Bedroom", "Kitchen", "Bathroom"],
+        "options": [
+          "Bedroom",
+          "Kitchen",
+          "Bathroom"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +311,11 @@
           "Hindi": "आप अपने कपड़े कहाँ रखते हैं?",
           "Japanese": "服はどこにしまいますか？"
         },
-        "options": ["Table", "Wardrobe", "Sofa"],
+        "options": [
+          "Table",
+          "Wardrobe",
+          "Sofa"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +326,10 @@
           "Hindi": "क्या आप सोफ़ा पर सो सकते हैं?",
           "Japanese": "ソファで寝ることができますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +342,11 @@
           "Hindi": "रसोईघर में दो ___ हैं।",
           "Japanese": "台所に___が二つあります。"
         },
-        "options": ["beds", "chairs", "tables"],
+        "options": [
+          "beds",
+          "chairs",
+          "tables"
+        ],
         "answer": 1
       },
       {
@@ -313,19 +357,39 @@
           "Hindi": "लैंप मेरे बिस्तर के पास है।",
           "Japanese": "ランプは私のベッドのそばにあります。"
         },
-        "options": ["sofa", "wardrobe", "lamp"],
+        "options": [
+          "sofa",
+          "wardrobe",
+          "lamp"
+        ],
         "answer": 2
       },
       {
         "id": "sent3",
         "type": "sentenceRearranging",
-        "question": "Arrange: [in, living room, a, is, sofa, the]",
+        "question": "Arrange: [in, living room, a, There, is, sofa, the]",
         "question_translation": {
-          "Hindi": "[in, living room, a, is, sofa, the] को सही क्रम में लगाएं।",
-          "Japanese": "[in, living room, a, is, sofa, the]を並び替えましょう。"
+          "Hindi": "[in, living room, a, There, is, sofa, the] को सही क्रम में लगाएं।",
+          "Japanese": "[in, living room, a, There, is, sofa, the]を並び替えましょう।"
         },
-        "options": ["in", "living room", "a", "is", "sofa", "the"],
-        "answer": ["There", "is", "a", "sofa", "in", "the", "living room"]
+        "options": [
+          "in",
+          "living room",
+          "a",
+          "There",
+          "is",
+          "sofa",
+          "the"
+        ],
+        "answer": [
+          "There",
+          "is",
+          "a",
+          "sofa",
+          "in",
+          "the",
+          "living room"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +399,11 @@
           "Hindi": "मैं अपने कपड़े ___ में रखता हूँ।",
           "Japanese": "私は服を___にしまいます。"
         },
-        "options": ["wardrobe", "kitchen", "bed"],
+        "options": [
+          "wardrobe",
+          "kitchen",
+          "bed"
+        ],
         "answer": 0
       },
       {
@@ -346,8 +414,24 @@
           "Hindi": "[is, table, the, room, in, dining, the] को सही क्रम में लगाएं।",
           "Japanese": "[is, table, the, room, in, dining, the]を並び替えましょう。"
         },
-        "options": ["is", "table", "the", "room", "in", "dining", "the"],
-        "answer": ["The", "table", "is", "in", "the", "dining", "room"]
+        "options": [
+          "is",
+          "table",
+          "the",
+          "room",
+          "in",
+          "dining",
+          "the"
+        ],
+        "answer": [
+          "The",
+          "table",
+          "is",
+          "in",
+          "the",
+          "dining",
+          "room"
+        ]
       }
     ],
     "listening": [
@@ -360,7 +444,11 @@
           "Hindi": "बिस्तर के पास कौन सा फर्नीचर है?",
           "Japanese": "ベッドのそばにある家具は何ですか？"
         },
-        "options": ["Lamp", "Sofa", "Table"],
+        "options": [
+          "Lamp",
+          "Sofa",
+          "Table"
+        ],
         "answer": 0
       },
       {
@@ -372,7 +460,11 @@
           "Hindi": "किस कमरे में फ्रिज है?",
           "Japanese": "冷蔵庫はどの部屋にありますか？"
         },
-        "options": ["Living room", "Kitchen", "Bedroom"],
+        "options": [
+          "Living room",
+          "Kitchen",
+          "Bedroom"
+        ],
         "answer": 1
       },
       {
@@ -384,7 +476,11 @@
           "Hindi": "हम रात का खाना कहाँ खाते हैं?",
           "Japanese": "どこで夕食を食べますか？"
         },
-        "options": ["Bed", "Sofa", "Table"],
+        "options": [
+          "Bed",
+          "Sofa",
+          "Table"
+        ],
         "answer": 2
       },
       {
@@ -396,7 +492,11 @@
           "Hindi": "बैठक कक्ष में आप कहाँ बैठते हैं?",
           "Japanese": "居間ではどこに座りますか？"
         },
-        "options": ["Chair", "Bed", "Sofa"],
+        "options": [
+          "Chair",
+          "Bed",
+          "Sofa"
+        ],
         "answer": 2
       },
       {
@@ -408,7 +508,11 @@
           "Hindi": "आप खुद को देखने के लिए क्या उपयोग करते हैं?",
           "Japanese": "自分を見るために使うものは何ですか？"
         },
-        "options": ["Chair", "Lamp", "Mirror"],
+        "options": [
+          "Chair",
+          "Lamp",
+          "Mirror"
+        ],
         "answer": 2
       }
     ],
