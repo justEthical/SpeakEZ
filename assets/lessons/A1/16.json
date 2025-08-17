@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "The ___ can run very fast. (deer)",
+        "question": "The ___ can run very fast.",
         "question_translation": {
           "Hindi": "___ बहुत तेज दौड़ सकता है।",
           "Japanese": "___はとても速く走れます。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "The ___ roars loudly. (lion)",
+        "question": "The ___ roars loudly.",
         "question_translation": {
           "Hindi": "___ ज़ोर से दहाड़ता है।",
           "Japanese": "___は大きな声でほえます。"
@@ -330,7 +330,7 @@
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "The ___ is very clever. (fox)",
+        "question": "The ___ is very clever.",
         "question_translation": {
           "Hindi": "___ बहुत चालाक है।",
           "Japanese": "___はとても賢いです。"
@@ -354,7 +354,7 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Which animal did the speaker mention?)",
+        "question": "Which animal did the speaker mention?",
         "audio_text": "The lion roars loudly.",
         "question_translation": {
           "Hindi": "वक्ता ने कौन सा जानवर बताया?",

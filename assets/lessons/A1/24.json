@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "He is ___ because it is raining. (sad)",
+        "question": "He is ___ because it is raining.",
         "question_translation": {
           "Hindi": "वह ___ है क्योंकि बारिश हो रही है।",
           "Japanese": "雨が降っているので彼は___です。"
@@ -319,18 +319,18 @@
       {
         "id": "sent3",
         "type": "sentenceRearranging",
-        "question": "Arrange: [he, loses, the, gets, angry, game]",
+        "question": "Arrange: [he, loses, the, gets, angry, game, when]",
         "question_translation": {
-          "Hindi": "[he, loses, the, gets, angry, game] को सही क्रम में लगाएं।",
-          "Japanese": "[he, loses, the, gets, angry, game]を並べ替えましょう。"
+          "Hindi": "[he, loses, the, gets, angry, game, when] को सही क्रम में लगाएं।",
+          "Japanese": "[he, loses, the, gets, angry, game, when]を並べ替えましょう。"
         },
-        "options": ["he", "loses", "the", "gets", "angry", "game"],
+        "options": ["he", "loses", "the", "gets", "angry", "game", "when"],
         "answer": ["He", "gets", "angry", "when", "he", "loses", "the", "game"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "She is ___ of the dark. (scared)",
+        "question": "She is ___ of the dark.",
         "question_translation": {
           "Hindi": "वह अंधेरे से ___ है।",
           "Japanese": "彼女は暗闇が___です。"

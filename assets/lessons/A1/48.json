@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "The school is ___ of the park. (north)",
+        "question": "The school is ___ of the park.",
         "question_translation": {
           "Hindi": "स्कूल पार्क के ___ में है।",
           "Japanese": "学校は公園の___にあります。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "The market is ___ of the school. (west)",
+        "question": "The market is ___ of the school.",
         "question_translation": {
           "Hindi": "बाज़ार स्कूल के ___ में है।",
           "Japanese": "市場は学校の___にあります。"
@@ -330,7 +330,7 @@
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "Use the ___ to understand the map. (key)",
+        "question": "Use the ___ to understand the map.",
         "question_translation": {
           "Hindi": "नक्शा समझने के लिए ___ देखें।",
           "Japanese": "地図を理解するために___を見てください。"

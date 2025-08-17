@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "We read the ___ to choose our food. (menu)",
+        "question": "We read the ___ to choose our food.",
         "question_translation": {
           "Hindi": "हम खाने के लिए ___ पढ़ते हैं।",
           "Japanese": "料理を選ぶために___を見ます。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "My favorite ___ is pizza. (dish)",
+        "question": "My favorite ___ is pizza.",
         "question_translation": {
           "Hindi": "मेरा पसंदीदा ___ पिज़्ज़ा है।",
           "Japanese": "私の好きな___はピザです。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "Can I have the ___, please? (bill)",
+        "question": "Can I have the ___, please?",
         "question_translation": {
           "Hindi": "कृपया ___ दीजिए।",
           "Japanese": "___をお願いします。"
@@ -330,7 +330,7 @@
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "We left a ___ for the waiter. (tip)",
+        "question": "We left a ___ for the waiter.",
         "question_translation": {
           "Hindi": "हमने वेटर को ___ दी।",
           "Japanese": "ウェイターに___を渡しました。"

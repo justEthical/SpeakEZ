@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "We use ___ in salads. (tomato)",
+        "question": "We use ___ in salads.",
         "question_translation": {
           "Hindi": "हम सलाद में ___ डालते हैं।",
           "Japanese": "サラダに___を使います。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "She eats an ___ every day. (apple)",
+        "question": "She eats an ___ every day.",
         "question_translation": {
           "Hindi": "वह हर दिन ___ खाती है।",
           "Japanese": "彼女は毎日___を食べます。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "___ are sweet and juicy. (grapes)",
+        "question": "___ are sweet and juicy.",
         "question_translation": {
           "Hindi": "___ मीठे और रसदार होते हैं।",
           "Japanese": "___は甘くてジューシーです。"
@@ -330,7 +330,7 @@
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "French fries are made from ___. (potatoes)",
+        "question": "French fries are made from ___.",
         "question_translation": {
           "Hindi": "फ्रेंच फ्राइज ___ से बनती हैं।",
           "Japanese": "フライドポテトは___から作ります。"
@@ -341,12 +341,12 @@
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: [are, mango, fruit, king, of, the]",
+        "question": "Arrange: [is, mango, fruit, king, of, the]",
         "question_translation": {
           "Hindi": "[are, mango, fruit, king, of, the] को सही क्रम में लगाएं।",
           "Japanese": "[are, mango, fruit, king, of, the]を並べ替えましょう。"
         },
-        "options": ["are", "mango", "fruit", "king", "of", "the"],
+        "options": ["is", "mango", "fruit", "king", "of", "the"],
         "answer": ["Mango", "is", "the", "king", "of", "fruit"]
       }
     ],

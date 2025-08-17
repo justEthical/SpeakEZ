@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "Children ride their ___ in the park. (bicycles)",
+        "question": "Children ride their ___ in the park.",
         "question_translation": {
           "Hindi": "बच्चे पार्क में ___ चलाते हैं।",
           "Japanese": "子どもたちは公園で___に乗ります。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "We go to school by ___. (bus)",
+        "question": "We go to school by ___.",
         "question_translation": {
           "Hindi": "हम ___ से स्कूल जाते हैं।",
           "Japanese": "私たちは___で学校へ行きます。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "My uncle rides a ___. (motorcycle)",
+        "question": "My uncle rides a ___.",
         "question_translation": {
           "Hindi": "मेरे चाचा ___ चलाते हैं।",
           "Japanese": "おじは___に乗ります。"
@@ -319,18 +319,18 @@
       {
         "id": "sent3",
         "type": "sentenceRearranging",
-        "question": "Arrange: [the, at, we, supermarket, food, by, truck, carry]",
+        "question": "Arrange: [the, at, we, supermarket, food, by, truck, carry, to]",
         "question_translation": {
-          "Hindi": "[the, at, we, supermarket, food, by, truck, carry] को सही क्रम में लगाएं।",
-          "Japanese": "[the, at, we, supermarket, food, by, truck, carry]を並べ替えましょう。"
+          "Hindi": "[the, at, we, supermarket, food, by, truck, carry, to] को सही क्रम में लगाएं।",
+          "Japanese": "[the, at, we, supermarket, food, by, truck, carry, to]を並べ替えましょう。"
         },
-        "options": ["the", "at", "we", "supermarket", "food", "by", "truck", "carry"],
+        "options": ["the", "at", "we", "supermarket", "food", "by", "truck", "carry", "to"],
         "answer": ["We", "carry", "food", "to", "the", "supermarket", "by", "truck"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "We travel to Mumbai by ___. (train)",
+        "question": "We travel to Mumbai by ___.",
         "question_translation": {
           "Hindi": "हम ___ से मुंबई जाते हैं।",
           "Japanese": "私たちは___でムンバイへ行きます。"
