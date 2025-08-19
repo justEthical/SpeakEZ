@@ -1,4 +1,544 @@
 {
-  "id": 23,
-  "message": "This is file number 23"
+  "id": "lesson_trainstation_001",
+  "lesson_name": "At the Train Station",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Platform",
+        "word_translation": {
+          "Hindi": "प्लेटफार्म",
+          "Japanese": "プラットホーム"
+        },
+        "meaning": "The area where passengers wait for the train",
+        "meaning_translation": {
+          "Hindi": "वह स्थान जहाँ यात्री ट्रेन का इंतज़ार करते हैं",
+          "Japanese": "乗客が電車を待つ場所"
+        },
+        "examples": [
+          {
+            "sentence": "The train will arrive at platform 5.",
+            "translation": {
+              "Hindi": "ट्रेन प्लेटफार्म 5 पर आएगी।",
+              "Japanese": "電車は5番ホームに到着します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Ticket counter",
+        "word_translation": {
+          "Hindi": "टिकट खिड़की",
+          "Japanese": "切符売り場"
+        },
+        "meaning": "The place where you buy tickets",
+        "meaning_translation": {
+          "Hindi": "वह स्थान जहाँ आप टिकट खरीदते हैं",
+          "Japanese": "切符を買う場所"
+        },
+        "examples": [
+          {
+            "sentence": "I bought a ticket at the counter.",
+            "translation": {
+              "Hindi": "मैंने खिड़की से टिकट खरीदी।",
+              "Japanese": "切符売り場で切符を買いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Timetable",
+        "word_translation": {
+          "Hindi": "समय सारणी",
+          "Japanese": "時刻表"
+        },
+        "meaning": "A list of train times",
+        "meaning_translation": {
+          "Hindi": "ट्रेन समयों की सूची",
+          "Japanese": "電車の時刻を示す表"
+        },
+        "examples": [
+          {
+            "sentence": "Check the timetable for the next train.",
+            "translation": {
+              "Hindi": "अगली ट्रेन के लिए समय सारणी देखें।",
+              "Japanese": "次の電車の時刻表を確認してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Reservation",
+        "word_translation": {
+          "Hindi": "आरक्षण",
+          "Japanese": "予約"
+        },
+        "meaning": "A booking for a seat or ticket",
+        "meaning_translation": {
+          "Hindi": "सीट या टिकट की बुकिंग",
+          "Japanese": "座席や切符の予約"
+        },
+        "examples": [
+          {
+            "sentence": "I made a reservation for tomorrow’s train.",
+            "translation": {
+              "Hindi": "मैंने कल की ट्रेन के लिए आरक्षण किया।",
+              "Japanese": "明日の電車を予約しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Departure",
+        "word_translation": {
+          "Hindi": "प्रस्थान",
+          "Japanese": "出発"
+        },
+        "meaning": "When a train leaves",
+        "meaning_translation": {
+          "Hindi": "जब ट्रेन निकलती है",
+          "Japanese": "電車が出発すること"
+        },
+        "examples": [
+          {
+            "sentence": "The departure time is 8:15.",
+            "translation": {
+              "Hindi": "प्रस्थान का समय 8:15 है।",
+              "Japanese": "出発時間は8時15分です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Arrival",
+        "word_translation": {
+          "Hindi": "आगमन",
+          "Japanese": "到着"
+        },
+        "meaning": "When a train comes to the station",
+        "meaning_translation": {
+          "Hindi": "जब ट्रेन स्टेशन पर आती है",
+          "Japanese": "電車が駅に到着すること"
+        },
+        "examples": [
+          {
+            "sentence": "The arrival of the train was delayed.",
+            "translation": {
+              "Hindi": "ट्रेन का आगमन विलंबित हुआ।",
+              "Japanese": "電車の到着が遅れました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Passenger",
+        "word_translation": {
+          "Hindi": "यात्री",
+          "Japanese": "乗客"
+        },
+        "meaning": "A person traveling on a train",
+        "meaning_translation": {
+          "Hindi": "एक व्यक्ति जो ट्रेन से यात्रा करता है",
+          "Japanese": "電車で旅行する人"
+        },
+        "examples": [
+          {
+            "sentence": "The passengers boarded the train quickly.",
+            "translation": {
+              "Hindi": "यात्रियों ने जल्दी से ट्रेन में सवार हो गए।",
+              "Japanese": "乗客は素早く電車に乗り込みました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Conductor",
+        "word_translation": {
+          "Hindi": "कंडक्टर",
+          "Japanese": "車掌"
+        },
+        "meaning": "The person who checks tickets on the train",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो ट्रेन में टिकट जांचता है",
+          "Japanese": "電車で切符を確認する人"
+        },
+        "examples": [
+          {
+            "sentence": "The conductor checked my ticket.",
+            "translation": {
+              "Hindi": "कंडक्टर ने मेरा टिकट जाँचा।",
+              "Japanese": "車掌が私の切符を確認しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Train fare",
+        "word_translation": {
+          "Hindi": "ट्रेन किराया",
+          "Japanese": "電車料金"
+        },
+        "meaning": "The price of a train ticket",
+        "meaning_translation": {
+          "Hindi": "ट्रेन टिकट की कीमत",
+          "Japanese": "電車の切符の値段"
+        },
+        "examples": [
+          {
+            "sentence": "The train fare to Delhi is 500 rupees.",
+            "translation": {
+              "Hindi": "दिल्ली का ट्रेन किराया 500 रुपये है।",
+              "Japanese": "デリーまでの電車料金は500ルピーです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Overhead luggage rack",
+        "word_translation": {
+          "Hindi": "ऊपर का सामान रैक",
+          "Japanese": "頭上の荷物棚"
+        },
+        "meaning": "A place above the seats to keep bags",
+        "meaning_translation": {
+          "Hindi": "सीटों के ऊपर बैग रखने की जगह",
+          "Japanese": "座席の上に荷物を置く場所"
+        },
+        "examples": [
+          {
+            "sentence": "Put your bag in the overhead luggage rack.",
+            "translation": {
+              "Hindi": "अपना बैग ऊपर वाले रैक में रखें।",
+              "Japanese": "バッグを頭上の荷物棚に置いてください。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking Questions at the Station",
+        "explanation": "Use 'When does the train leave?' or 'Which platform is it?' to ask questions.",
+        "explanation_translation": {
+          "Hindi": "'When does the train leave?' या 'Which platform is it?' का उपयोग प्रश्न पूछने के लिए करें।",
+          "Japanese": "質問するとき「When does the train leave?」「Which platform is it?」を使います。"
+        }
+      },
+      {
+        "title": "Using 'by train'",
+        "explanation": "Say 'I am traveling by train', not 'with train'.",
+        "explanation_translation": {
+          "Hindi": "कहें 'I am traveling by train', न कि 'with train'.",
+          "Japanese": "「with train」ではなく「I am traveling by train」と言います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Where do you buy tickets?",
+        "question_translation": {
+          "Hindi": "आप टिकट कहाँ खरीदते हैं?",
+          "Japanese": "切符はどこで買いますか？"
+        },
+        "options": [
+          "Platform",
+          "Ticket counter",
+          "Timetable"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The train leaves at the time shown on the ___.",
+        "question_translation": {
+          "Hindi": "ट्रेन ___ में दिखाए गए समय पर निकलती है।",
+          "Japanese": "電車は___に示された時間に出発します。"
+        },
+        "options": [
+          "fare",
+          "timetable",
+          "reservation"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A conductor checks the tickets.",
+        "question_translation": {
+          "Hindi": "कंडक्टर टिकट की जाँच करता है।",
+          "Japanese": "車掌は切符を確認します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What do we call the price of a train ticket?",
+        "question_translation": {
+          "Hindi": "ट्रेन टिकट की कीमत को क्या कहते हैं?",
+          "Japanese": "電車の切符の値段を何と言いますか？"
+        },
+        "options": [
+          "Train fare",
+          "Reservation",
+          "Arrival"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Passengers are people who work on the train.",
+        "question_translation": {
+          "Hindi": "यात्री वे लोग होते हैं जो ट्रेन पर काम करते हैं।",
+          "Japanese": "乗客は電車で働く人です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Which ___ is the train leaving from?",
+        "question_translation": {
+          "Hindi": "ट्रेन किस ___ से निकल रही है?",
+          "Japanese": "電車はどの___から出発しますか？"
+        },
+        "options": [
+          "conductor",
+          "platform",
+          "passenger"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, checked, conductor, tickets]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [the, checked, conductor, tickets]",
+          "Japanese": "並べ替え: [the, checked, conductor, tickets]"
+        },
+        "options": [
+          "the",
+          "checked",
+          "conductor",
+          "tickets"
+        ],
+        "answer": [
+          "The",
+          "conductor",
+          "checked",
+          "tickets"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The ___ hall was full of people.",
+        "question_translation": {
+          "Hindi": "___ हॉल लोगों से भरा हुआ था।",
+          "Japanese": "___ホールは人でいっぱいでした。"
+        },
+        "options": [
+          "arrival",
+          "ticket",
+          "fare"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "I am traveling ___ train.",
+        "question_translation": {
+          "Hindi": "मैं ट्रेन ___ यात्रा कर रहा हूँ।",
+          "Japanese": "私は電車___旅行しています。"
+        },
+        "options": [
+          "with",
+          "by",
+          "on"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [leaves, at, the, train, 6:30]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [leaves, at, the, train, 6:30]",
+          "Japanese": "並べ替え: [leaves, at, the, train, 6:30]"
+        },
+        "options": [
+          "leaves",
+          "at",
+          "the",
+          "train",
+          "6:30"
+        ],
+        "answer": [
+          "The",
+          "train",
+          "leaves",
+          "at",
+          "6:30"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker mention?",
+        "audio_text": "Platform 4",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या कहा?",
+          "Japanese": "話者は何と言いましたか？"
+        },
+        "options": [
+          "Platform 2",
+          "Platform 4",
+          "Platform 6"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What time did the speaker say?",
+        "audio_text": "The train leaves at 7:15.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा समय बताया?",
+          "Japanese": "話者は何時と言いましたか？"
+        },
+        "options": [
+          "6:15",
+          "7:15",
+          "8:15"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Who checked the tickets?",
+        "audio_text": "The conductor checked the tickets.",
+        "question_translation": {
+          "Hindi": "टिकट किसने जाँचे?",
+          "Japanese": "切符を誰が確認しましたか？"
+        },
+        "options": [
+          "Passenger",
+          "Conductor",
+          "Driver"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The speaker said: 'I made a reservation.'",
+        "audio_text": "I made a reservation.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'मैंने आरक्षण किया।'",
+          "Japanese": "話者は「予約をしました」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Where did the speaker put the bag?",
+        "audio_text": "I put my bag in the overhead luggage rack.",
+        "question_translation": {
+          "Hindi": "वक्ता ने बैग कहाँ रखा?",
+          "Japanese": "話者はバッグをどこに置きましたか？"
+        },
+        "options": [
+          "Under the seat",
+          "Overhead luggage rack",
+          "Ticket counter"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Which platform is the train on?'",
+        "question_translation": {
+          "Hindi": "कहें: 'Which platform is the train on?'",
+          "Japanese": "言ってください: 'Which platform is the train on?'"
+        },
+        "options": [],
+        "answer": "which platform is the train on"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I bought a ticket at the counter.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I bought a ticket at the counter.'",
+          "Japanese": "言ってください: 'I bought a ticket at the counter.'"
+        },
+        "options": [],
+        "answer": "i bought a ticket at the counter"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The train leaves at 6:30.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The train leaves at 6:30.'",
+          "Japanese": "言ってください: 'The train leaves at 6:30.'"
+        },
+        "options": [],
+        "answer": "the train leaves at 6:30"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The conductor checked my ticket.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The conductor checked my ticket.'",
+          "Japanese": "言ってください: 'The conductor checked my ticket.'"
+        },
+        "options": [],
+        "answer": "the conductor checked my ticket"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I am traveling by train.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am traveling by train.'",
+          "Japanese": "言ってください: 'I am traveling by train.'"
+        },
+        "options": [],
+        "answer": "i am traveling by train"
+      }
+    ]
+  }
 }

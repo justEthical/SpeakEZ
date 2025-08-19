@@ -1,4 +1,568 @@
 {
-  "id": 26,
-  "message": "This is file number 26"
+  "id": "lesson_country_001",
+  "lesson_name": "Talking About Your Country",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "country",
+        "word_translation": {
+          "Hindi": "देश",
+          "Japanese": "国"
+        },
+        "meaning": "A nation or land where people live",
+        "meaning_translation": {
+          "Hindi": "एक राष्ट्र या भूमि जहाँ लोग रहते हैं",
+          "Japanese": "人々が住む国や土地"
+        },
+        "examples": [
+          {
+            "sentence": "India is my country.",
+            "translation": {
+              "Hindi": "भारत मेरा देश है।",
+              "Japanese": "インドは私の国です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "capital city",
+        "word_translation": {
+          "Hindi": "राजधानी",
+          "Japanese": "首都"
+        },
+        "meaning": "The main city where the government is located",
+        "meaning_translation": {
+          "Hindi": "वह मुख्य शहर जहाँ सरकार स्थित होती है",
+          "Japanese": "政府がある主要な都市"
+        },
+        "examples": [
+          {
+            "sentence": "New Delhi is the capital city of India.",
+            "translation": {
+              "Hindi": "नई दिल्ली भारत की राजधानी है।",
+              "Japanese": "ニューデリーはインドの首都です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nationality",
+        "word_translation": {
+          "Hindi": "राष्ट्रीयता",
+          "Japanese": "国籍"
+        },
+        "meaning": "The country you belong to",
+        "meaning_translation": {
+          "Hindi": "वह देश जिससे आप संबंधित हैं",
+          "Japanese": "自分が属する国"
+        },
+        "examples": [
+          {
+            "sentence": "My nationality is Japanese.",
+            "translation": {
+              "Hindi": "मेरी राष्ट्रीयता जापानी है।",
+              "Japanese": "私の国籍は日本です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "population",
+        "word_translation": {
+          "Hindi": "जनसंख्या",
+          "Japanese": "人口"
+        },
+        "meaning": "The number of people living in a place",
+        "meaning_translation": {
+          "Hindi": "किसी स्थान पर रहने वाले लोगों की संख्या",
+          "Japanese": "ある場所に住む人の数"
+        },
+        "examples": [
+          {
+            "sentence": "The population of India is very large.",
+            "translation": {
+              "Hindi": "भारत की जनसंख्या बहुत बड़ी है।",
+              "Japanese": "インドの人口はとても多いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "language",
+        "word_translation": {
+          "Hindi": "भाषा",
+          "Japanese": "言語"
+        },
+        "meaning": "The words people use to communicate",
+        "meaning_translation": {
+          "Hindi": "वह शब्द जिनसे लोग संवाद करते हैं",
+          "Japanese": "人々がコミュニケーションに使う言葉"
+        },
+        "examples": [
+          {
+            "sentence": "The English language is spoken worldwide.",
+            "translation": {
+              "Hindi": "अंग्रेज़ी भाषा पूरी दुनिया में बोली जाती है।",
+              "Japanese": "英語は世界中で話されています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "flag",
+        "word_translation": {
+          "Hindi": "झंडा",
+          "Japanese": "国旗"
+        },
+        "meaning": "A symbol of a country",
+        "meaning_translation": {
+          "Hindi": "किसी देश का प्रतीक",
+          "Japanese": "国のシンボル"
+        },
+        "examples": [
+          {
+            "sentence": "The Indian flag has three colors.",
+            "translation": {
+              "Hindi": "भारतीय झंडे में तीन रंग हैं।",
+              "Japanese": "インドの国旗は三色です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tradition",
+        "word_translation": {
+          "Hindi": "परंपरा",
+          "Japanese": "伝統"
+        },
+        "meaning": "A way of life or custom passed down",
+        "meaning_translation": {
+          "Hindi": "जीवन शैली या रिवाज जो पीढ़ियों से चलता है",
+          "Japanese": "世代から受け継がれる生活様式や習慣"
+        },
+        "examples": [
+          {
+            "sentence": "Festivals are part of Indian traditions.",
+            "translation": {
+              "Hindi": "त्योहार भारतीय परंपराओं का हिस्सा हैं।",
+              "Japanese": "祭りはインドの伝統の一部です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "culture",
+        "word_translation": {
+          "Hindi": "संस्कृति",
+          "Japanese": "文化"
+        },
+        "meaning": "The way of life, food, and art of a country",
+        "meaning_translation": {
+          "Hindi": "किसी देश का जीवन, भोजन और कला",
+          "Japanese": "国の生活様式、食べ物、芸術"
+        },
+        "examples": [
+          {
+            "sentence": "Japanese culture is very unique.",
+            "translation": {
+              "Hindi": "जापानी संस्कृति बहुत विशिष्ट है।",
+              "Japanese": "日本の文化はとてもユニークです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "famous",
+        "word_translation": {
+          "Hindi": "प्रसिद्ध",
+          "Japanese": "有名な"
+        },
+        "meaning": "Known by many people",
+        "meaning_translation": {
+          "Hindi": "जो बहुत से लोग जानते हैं",
+          "Japanese": "多くの人に知られていること"
+        },
+        "examples": [
+          {
+            "sentence": "The Taj Mahal is a famous monument.",
+            "translation": {
+              "Hindi": "ताजमहल एक प्रसिद्ध स्मारक है।",
+              "Japanese": "タージ・マハルは有名な建造物です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "continent",
+        "word_translation": {
+          "Hindi": "महाद्वीप",
+          "Japanese": "大陸"
+        },
+        "meaning": "One of the large land areas of the world",
+        "meaning_translation": {
+          "Hindi": "दुनिया के बड़े भूभागों में से एक",
+          "Japanese": "世界の大きな陸地の一つ"
+        },
+        "examples": [
+          {
+            "sentence": "Asia is the largest continent.",
+            "translation": {
+              "Hindi": "एशिया सबसे बड़ा महाद्वीप है।",
+              "Japanese": "アジアは最大の大陸です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "neighboring country",
+        "word_translation": {
+          "Hindi": "पड़ोसी देश",
+          "Japanese": "隣の国"
+        },
+        "meaning": "A country that is next to another country",
+        "meaning_translation": {
+          "Hindi": "एक देश जो किसी दूसरे देश के पास है",
+          "Japanese": "他の国の隣にある国"
+        },
+        "examples": [
+          {
+            "sentence": "Nepal is a neighboring country of India.",
+            "translation": {
+              "Hindi": "नेपाल भारत का पड़ोसी देश है।",
+              "Japanese": "ネパールはインドの隣の国です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking about nationality",
+        "explanation": "Use 'I am + nationality'. Example: I am Indian. I am Japanese.",
+        "explanation_translation": {
+          "Hindi": "'I am + nationality' का उपयोग करें। उदाहरण: I am Indian. I am Japanese.",
+          "Japanese": "「I am + nationality」を使います。例: I am Indian. I am Japanese."
+        }
+      },
+      {
+        "title": "Using 'is' for facts",
+        "explanation": "Use 'is' to talk about your country. Example: The capital city is Tokyo. The population is large.",
+        "explanation_translation": {
+          "Hindi": "अपने देश के बारे में बताने के लिए 'is' का प्रयोग करें। उदाहरण: The capital city is Tokyo. The population is large.",
+          "Japanese": "自分の国について話すとき「is」を使います。例: The capital city is Tokyo. The population is large."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'the main city of a country'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'देश का मुख्य शहर' दर्शाता है?",
+          "Japanese": "「国の主要な都市」を意味する単語はどれですか？"
+        },
+        "options": [
+          "flag",
+          "capital city",
+          "continent"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "A flag is a symbol of a country.",
+        "question_translation": {
+          "Hindi": "झंडा किसी देश का प्रतीक होता है।",
+          "Japanese": "国旗は国のシンボルです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "The ___ of Japan is Tokyo.",
+        "question_translation": {
+          "Hindi": "जापान की ___ टोक्यो है।",
+          "Japanese": "日本の___は東京です。"
+        },
+        "options": [
+          "flag",
+          "capital city",
+          "culture"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'a country next to yours'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'आपके देश के पास का देश' दर्शाता है?",
+          "Japanese": "「自分の国の隣の国」を意味する単語はどれですか？"
+        },
+        "options": [
+          "tradition",
+          "neighboring country",
+          "population"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word means 'the number of people in a place'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'किसी स्थान पर लोगों की संख्या' दर्शाता है?",
+          "Japanese": "「ある場所の人口」を意味する単語はどれですか？"
+        },
+        "options": [
+          "nationality",
+          "population",
+          "language"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I am ___ (Indian/Japanese).",
+        "question_translation": {
+          "Hindi": "मैं ___ (भारतीय/जापानी) हूँ।",
+          "Japanese": "私は___（インド人/日本人）です。"
+        },
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, the, Delhi, capital, city]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [is, the, Delhi, capital, city]",
+          "Japanese": "並べ替え: [is, the, Delhi, capital, city]"
+        },
+        "options": [
+          "is",
+          "the",
+          "Delhi",
+          "capital",
+          "city"
+        ],
+        "answer": [
+          "Delhi",
+          "is",
+          "the",
+          "capital",
+          "city"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The official ___ of France is French.",
+        "question_translation": {
+          "Hindi": "फ्रांस की आधिकारिक ___ फ्रेंच है।",
+          "Japanese": "フランスの公用___はフランス語です。"
+        },
+        "options": [
+          "language",
+          "flag",
+          "population"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The Taj Mahal is a ___ monument.",
+        "question_translation": {
+          "Hindi": "ताजमहल एक ___ स्मारक है।",
+          "Japanese": "タージ・マハルは___な建造物です。"
+        },
+        "options": [
+          "famous",
+          "neighboring",
+          "capital"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [culture, Indian, rich, very, is]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [culture, Indian, rich, very, is]",
+          "Japanese": "並べ替え: [culture, Indian, rich, very, is]"
+        },
+        "options": [
+          "culture",
+          "Indian",
+          "rich",
+          "very",
+          "is"
+        ],
+        "answer": [
+          "Indian",
+          "culture",
+          "is",
+          "very",
+          "rich"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the person’s country?",
+        "audio_text": "My country is India.",
+        "question_translation": {
+          "Hindi": "उस व्यक्ति का देश क्या है?",
+          "Japanese": "その人の国は何ですか？"
+        },
+        "options": [
+          "India",
+          "Japan",
+          "France"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What is the nationality?",
+        "audio_text": "I am Chinese.",
+        "question_translation": {
+          "Hindi": "राष्ट्रीयता क्या है?",
+          "Japanese": "国籍は何ですか？"
+        },
+        "options": [
+          "Indian",
+          "Chinese",
+          "American"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker said: 'Tokyo is the capital city of Japan.'",
+        "audio_text": "Tokyo is the capital city of Japan.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'टोक्यो जापान की राजधानी है।'",
+          "Japanese": "話者は「東京は日本の首都です」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is the population like?",
+        "audio_text": "The population is very large.",
+        "question_translation": {
+          "Hindi": "जनसंख्या कैसी है?",
+          "Japanese": "人口はどんな感じですか？"
+        },
+        "options": [
+          "Small",
+          "Large",
+          "Average"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What symbol is described?",
+        "audio_text": "Our flag has three colors.",
+        "question_translation": {
+          "Hindi": "कौन सा प्रतीक वर्णित है?",
+          "Japanese": "どのシンボルが説明されていますか？"
+        },
+        "options": [
+          "Culture",
+          "Flag",
+          "Tradition"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My country is India.'",
+        "question_translation": {
+          "Hindi": "कहें: 'My country is India.'",
+          "Japanese": "言ってください: 'My country is India.'"
+        },
+        "options": [],
+        "answer": "my country is india"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The capital city is New Delhi.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The capital city is New Delhi.'",
+          "Japanese": "言ってください: 'The capital city is New Delhi.'"
+        },
+        "options": [],
+        "answer": "the capital city is new delhi"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I am Japanese.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am Japanese.'",
+          "Japanese": "言ってください: 'I am Japanese.'"
+        },
+        "options": [],
+        "answer": "i am japanese"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Our flag is very beautiful.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Our flag is very beautiful.'",
+          "Japanese": "言ってください: 'Our flag is very beautiful.'"
+        },
+        "options": [],
+        "answer": "our flag is very beautiful"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Indian culture is very rich.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Indian culture is very rich.'",
+          "Japanese": "言ってください: 'Indian culture is very rich.'"
+        },
+        "options": [],
+        "answer": "indian culture is very rich"
+      }
+    ]
+  }
 }

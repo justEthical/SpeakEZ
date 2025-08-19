@@ -1,4 +1,471 @@
 {
-  "id": 37,
-  "message": "This is file number 37"
+  "id": "lesson_using_social_media_001",
+  "lesson_name": "Using Social Media",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "post",
+        "word_translation": { "Hindi": "पोस्ट करना", "Japanese": "投稿する" },
+        "meaning": "To share text, photos, or videos online",
+        "meaning_translation": {
+          "Hindi": "ऑनलाइन टेक्स्ट, फोटो या वीडियो साझा करना",
+          "Japanese": "オンラインで文章や写真、動画をシェアすること"
+        },
+        "examples": [
+          {
+            "sentence": "She posted a photo on Instagram.",
+            "translation": {
+              "Hindi": "उसने इंस्टाग्राम पर एक फोटो पोस्ट की।",
+              "Japanese": "彼女はインスタグラムに写真を投稿しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "comment",
+        "word_translation": { "Hindi": "टिप्पणी", "Japanese": "コメント" },
+        "meaning": "A reply or opinion on a post",
+        "meaning_translation": {
+          "Hindi": "पोस्ट पर उत्तर या राय",
+          "Japanese": "投稿への返信や意見"
+        },
+        "examples": [
+          {
+            "sentence": "He left a funny comment on my video.",
+            "translation": {
+              "Hindi": "उसने मेरी वीडियो पर मजेदार टिप्पणी लिखी।",
+              "Japanese": "彼は私の動画に面白いコメントを書きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "like",
+        "word_translation": { "Hindi": "पसंद करना", "Japanese": "いいねする" },
+        "meaning": "To show you enjoy a post by clicking a button",
+        "meaning_translation": {
+          "Hindi": "एक बटन दबाकर दिखाना कि आपको पोस्ट पसंद है",
+          "Japanese": "ボタンを押して投稿を楽しんでいると示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Many people liked her new post.",
+            "translation": {
+              "Hindi": "कई लोगों ने उसकी नई पोस्ट को पसंद किया।",
+              "Japanese": "多くの人が彼女の新しい投稿にいいねしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "share",
+        "word_translation": { "Hindi": "साझा करना", "Japanese": "シェアする" },
+        "meaning": "To send a post to others online",
+        "meaning_translation": {
+          "Hindi": "ऑनलाइन किसी पोस्ट को दूसरों को भेजना",
+          "Japanese": "投稿を他の人に送ること"
+        },
+        "examples": [
+          {
+            "sentence": "I shared the video with my friends.",
+            "translation": {
+              "Hindi": "मैंने अपने दोस्तों के साथ वीडियो साझा किया।",
+              "Japanese": "私は友達にその動画をシェアしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "profile",
+        "word_translation": { "Hindi": "प्रोफ़ाइल", "Japanese": "プロフィール" },
+        "meaning": "Your personal page with information and photos",
+        "meaning_translation": {
+          "Hindi": "आपका व्यक्तिगत पृष्ठ जिसमें जानकारी और तस्वीरें होती हैं",
+          "Japanese": "自分の情報や写真がある個人ページ"
+        },
+        "examples": [
+          {
+            "sentence": "I updated my profile picture today.",
+            "translation": {
+              "Hindi": "मैंने आज अपनी प्रोफ़ाइल तस्वीर बदली।",
+              "Japanese": "私は今日プロフィール写真を更新しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "followers",
+        "word_translation": { "Hindi": "अनुयायी", "Japanese": "フォロワー" },
+        "meaning": "People who follow your account",
+        "meaning_translation": {
+          "Hindi": "लोग जो आपके खाते को फॉलो करते हैं",
+          "Japanese": "あなたのアカウントをフォローしている人"
+        },
+        "examples": [
+          {
+            "sentence": "She has 500 followers on Twitter.",
+            "translation": {
+              "Hindi": "उसके ट्विटर पर 500 अनुयायी हैं।",
+              "Japanese": "彼女はツイッターで500人のフォロワーがいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "trending",
+        "word_translation": { "Hindi": "ट्रेंडिंग", "Japanese": "流行している" },
+        "meaning": "Something that is very popular online now",
+        "meaning_translation": {
+          "Hindi": "कुछ जो अभी ऑनलाइन बहुत लोकप्रिय है",
+          "Japanese": "今オンラインでとても人気のあるもの"
+        },
+        "examples": [
+          {
+            "sentence": "That song is trending on social media.",
+            "translation": {
+              "Hindi": "वह गाना सोशल मीडिया पर ट्रेंड कर रहा है।",
+              "Japanese": "その歌はSNSで流行しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "message",
+        "word_translation": { "Hindi": "संदेश", "Japanese": "メッセージ" },
+        "meaning": "A private text sent online",
+        "meaning_translation": {
+          "Hindi": "ऑनलाइन भेजा गया निजी टेक्स्ट",
+          "Japanese": "オンラインで送る個人的な文章"
+        },
+        "examples": [
+          {
+            "sentence": "I sent her a message on Facebook.",
+            "translation": {
+              "Hindi": "मैंने उसे फेसबुक पर संदेश भेजा।",
+              "Japanese": "私は彼女にフェイスブックでメッセージを送りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "notification",
+        "word_translation": { "Hindi": "सूचना", "Japanese": "通知" },
+        "meaning": "An alert that shows activity on your account",
+        "meaning_translation": {
+          "Hindi": "आपके खाते की गतिविधि दिखाने वाली अलर्ट",
+          "Japanese": "自分のアカウントの動きを知らせるアラート"
+        },
+        "examples": [
+          {
+            "sentence": "I got a notification about a new comment.",
+            "translation": {
+              "Hindi": "मुझे नई टिप्पणी की सूचना मिली।",
+              "Japanese": "新しいコメントの通知を受け取りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tag",
+        "word_translation": { "Hindi": "टैग करना", "Japanese": "タグ付けする" },
+        "meaning": "To mention someone in a post",
+        "meaning_translation": {
+          "Hindi": "किसी को पोस्ट में उल्लेख करना",
+          "Japanese": "投稿に誰かの名前を入れること"
+        },
+        "examples": [
+          {
+            "sentence": "She tagged me in a photo.",
+            "translation": {
+              "Hindi": "उसने मुझे एक फोटो में टैग किया।",
+              "Japanese": "彼女は私を写真にタグ付けしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "block",
+        "word_translation": { "Hindi": "ब्लॉक करना", "Japanese": "ブロックする" },
+        "meaning": "To stop someone from contacting you online",
+        "meaning_translation": {
+          "Hindi": "किसी को ऑनलाइन आपसे संपर्क करने से रोकना",
+          "Japanese": "誰かが自分にオンラインで連絡するのを止めること"
+        },
+        "examples": [
+          {
+            "sentence": "He blocked the spam account.",
+            "translation": {
+              "Hindi": "उसने स्पैम खाते को ब्लॉक कर दिया।",
+              "Japanese": "彼はスパムアカウントをブロックしました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Continuous for current actions",
+        "explanation": "We use 'am/is/are + verb-ing' for actions happening now. Example: 'She is posting a photo.'",
+        "explanation_translation": {
+          "Hindi": "हम 'am/is/are + verb-ing' का उपयोग उन कार्यों के लिए करते हैं जो अभी हो रहे हैं। उदाहरण: 'She is posting a photo.'",
+          "Japanese": "『am/is/are + 動詞-ing』は今起きている行動に使います。例: 'She is posting a photo.'"
+        }
+      },
+      {
+        "title": "Using 'going to' for future plans",
+        "explanation": "We use 'going to' for plans or intentions. Example: 'I am going to share a new video tomorrow.'",
+        "explanation_translation": {
+          "Hindi": "हम 'going to' का उपयोग योजनाओं या इरादों के लिए करते हैं। उदाहरण: 'I am going to share a new video tomorrow.'",
+          "Japanese": "『going to』は予定や意図を表します。例: 'I am going to share a new video tomorrow.'"
+        }
+      }
+    ]
+  },
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What do we call writing your opinion on a post?",
+      "question_translation": {
+        "hindi": "हम पोस्ट पर अपनी राय लिखने को क्या कहते हैं?",
+        "japanese": "投稿に自分の意見を書くことを何と呼びますか？"
+      },
+      "options": ["like", "comment", "share"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "A profile is your personal page online.",
+      "question_translation": {
+        "hindi": "प्रोफ़ाइल आपका व्यक्तिगत ऑनलाइन पेज है।",
+        "japanese": "プロフィールはあなたの個人のオンラインページです。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "She ___ me in her photo.",
+      "question_translation": {
+        "hindi": "उसने अपनी तस्वीर में मुझे ___ किया।",
+        "japanese": "彼女は自分の写真に私を___しました。"
+      },
+      "options": ["blocked", "tagged", "posted"],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means people who follow your account?",
+      "question_translation": {
+        "hindi": "कौन सा शब्द उन लोगों के लिए है जो आपका अकाउंट फॉलो करते हैं?",
+        "japanese": "あなたのアカウントをフォローする人を意味する言葉はどれですか？"
+      },
+      "options": ["followers", "notifications", "messages"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "Blocking means allowing someone to contact you.",
+      "question_translation": {
+        "hindi": "ब्लॉक करना मतलब किसी को आपसे संपर्क करने की अनुमति देना है।",
+        "japanese": "ブロックとは誰かがあなたに連絡できるようにすることです。"
+      },
+      "options": ["True", "False"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "She ___ posting a video now.",
+      "question_translation": {
+        "hindi": "वह अभी वीडियो ___ कर रही है।",
+        "japanese": "彼女は今ビデオを___しています。"
+      },
+      "options": ["is", "are", "am"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "multipleChoice",
+      "question": "Which is correct?",
+      "question_translation": {
+        "hindi": "कौन सा सही है?",
+        "japanese": "どれが正しいですか？"
+      },
+      "options": [
+        "He posting a comment.",
+        "He is posting a comment.",
+        "He posts a comment now."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "trueFalse",
+      "question": "We use 'going to' for things happening now.",
+      "question_translation": {
+        "hindi": "हम 'going to' का उपयोग अभी हो रही चीज़ों के लिए करते हैं।",
+        "japanese": "「going to」は今起こっていることに使います。"
+      },
+      "options": ["True", "False"],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "I am going to ___ a new photo tomorrow.",
+      "question_translation": {
+        "hindi": "मैं कल एक नई फोटो ___ करने जा रहा हूँ।",
+        "japanese": "私は明日新しい写真を___つもりです。"
+      },
+      "options": ["post", "posted", "posting"],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "multipleChoice",
+      "question": "Choose the correct sentence:",
+      "question_translation": {
+        "hindi": "सही वाक्य चुनें:",
+        "japanese": "正しい文を選んでください："
+      },
+      "options": [
+        "They are share a video.",
+        "They sharing a video.",
+        "They are sharing a video."
+      ],
+      "answer": 2
+    }
+  ],
+"listening": [
+  {
+    "id": "listen1",
+    "type": "listening",
+    "question": "What is she doing?",
+    "question_translation": {
+      "hindi": "वह क्या कर रही है?",
+      "japanese": "彼女は何をしていますか？"
+    },
+    "audio_text": "She is posting a new picture.",
+    "options": ["Commenting", "Posting", "Liking"],
+    "answer": 1
+  },
+  {
+    "id": "listen2",
+    "type": "listening",
+    "question": "What is the plan?",
+    "question_translation": {
+      "hindi": "योजना क्या है?",
+      "japanese": "計画は何ですか？"
+    },
+    "audio_text": "I am going to share this video tomorrow.",
+    "options": ["Share video tomorrow", "Watch video now", "Block someone"],
+    "answer": 0
+  },
+  {
+    "id": "listen3",
+    "type": "listening",
+    "question": "What did he do?",
+    "question_translation": {
+      "hindi": "उसने क्या किया?",
+      "japanese": "彼は何をしましたか？"
+    },
+    "audio_text": "He blocked the account.",
+    "options": ["Followed someone", "Stopped someone", "Posted something"],
+    "answer": 1
+  },
+  {
+    "id": "listen4",
+    "type": "listening",
+    "question": "What did she do?",
+    "question_translation": {
+      "hindi": "उसने क्या किया?",
+      "japanese": "彼女は何をしましたか？"
+    },
+    "audio_text": "She liked my comment.",
+    "options": ["Shared a post", "Liked the comment", "Tagged a friend"],
+    "answer": 1
+  },
+  {
+    "id": "listen5",
+    "type": "listening",
+    "question": "What did the person get?",
+    "question_translation": {
+      "hindi": "उस व्यक्ति को क्या मिला?",
+      "japanese": "その人は何を得ましたか？"
+    },
+    "audio_text": "I got 10 new followers today.",
+    "options": ["Comments", "Followers", "Posts"],
+    "answer": 1
+  }
+]
+,
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I am posting a photo now.'",
+      "question_translation": {
+        "hindi": "कहो: 'मैं अभी एक फोटो पोस्ट कर रहा हूँ।'",
+        "japanese": "言ってください：「私は今写真を投稿しています。」"
+      },
+      "options": [],
+      "answer": "i am posting a photo now"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'She is going to share a video tomorrow.'",
+      "question_translation": {
+        "hindi": "कहो: 'वह कल एक वीडियो शेयर करने जा रही है।'",
+        "japanese": "言ってください：「彼女は明日ビデオをシェアするつもりです。」"
+      },
+      "options": [],
+      "answer": "she is going to share a video tomorrow"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'He blocked the spam account.'",
+      "question_translation": {
+        "hindi": "कहो: 'उसने स्पैम अकाउंट को ब्लॉक किया।'",
+        "japanese": "言ってください：「彼はスパムアカウントをブロックしました。」"
+      },
+      "options": [],
+      "answer": "he blocked the spam account"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I got a notification today.'",
+      "question_translation": {
+        "hindi": "कहो: 'मुझे आज एक नोटिफिकेशन मिला।'",
+        "japanese": "言ってください：「私は今日通知を受け取りました。」"
+      },
+      "options": [],
+      "answer": "i got a notification today"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'They are commenting on my post.'",
+      "question_translation": {
+        "hindi": "कहो: 'वे मेरी पोस्ट पर टिप्पणी कर रहे हैं।'",
+        "japanese": "言ってください：「彼らは私の投稿にコメントしています。」"
+      },
+      "options": [],
+      "answer": "they are commenting on my post"
+    }
+  ]
+}
+
 }

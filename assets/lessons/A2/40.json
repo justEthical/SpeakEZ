@@ -1,4 +1,511 @@
 {
-  "id": 40,
-  "message": "This is file number 40"
+  "id": "lesson_likes_dislikes_001",
+  "lesson_name": "Expressing Likes, Dislikes, Preferences",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "like",
+        "word_translation": {
+          "Hindi": "पसंद करना",
+          "Japanese": "好き"
+        },
+        "meaning": "To enjoy or find something good",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का आनंद लेना या उसे अच्छा मानना",
+          "Japanese": "楽しむ、良いと思う"
+        },
+        "examples": [
+          {
+            "sentence": "I like reading books.",
+            "translation": {
+              "Hindi": "मुझे किताबें पढ़ना पसंद है।",
+              "Japanese": "私は本を読むのが好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dislike",
+        "word_translation": {
+          "Hindi": "नापसंद करना",
+          "Japanese": "嫌い"
+        },
+        "meaning": "To not enjoy or find something unpleasant",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को नापसंद करना या अप्रिय पाना",
+          "Japanese": "楽しめない、嫌だと思う"
+        },
+        "examples": [
+          {
+            "sentence": "She dislikes noisy places.",
+            "translation": {
+              "Hindi": "उसे शोरगुल वाली जगहें नापसंद हैं।",
+              "Japanese": "彼女はうるさい場所が嫌いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prefer",
+        "word_translation": {
+          "Hindi": "प्राथमिकता देना",
+          "Japanese": "好む／優先する"
+        },
+        "meaning": "To like one thing more than another",
+        "meaning_translation": {
+          "Hindi": "एक चीज़ को दूसरी से ज्यादा पसंद करना",
+          "Japanese": "他のものよりも一つを好む"
+        },
+        "examples": [
+          {
+            "sentence": "I prefer tea to coffee.",
+            "translation": {
+              "Hindi": "मैं कॉफी से ज्यादा चाय पसंद करता हूँ।",
+              "Japanese": "私はコーヒーよりもお茶を好みます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "enjoy",
+        "word_translation": {
+          "Hindi": "आनंद लेना",
+          "Japanese": "楽しむ"
+        },
+        "meaning": "To get pleasure from something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ से खुशी पाना",
+          "Japanese": "何かから楽しみを得る"
+        },
+        "examples": [
+          {
+            "sentence": "They enjoy playing football.",
+            "translation": {
+              "Hindi": "उन्हें फुटबॉल खेलना अच्छा लगता है।",
+              "Japanese": "彼らはサッカーを楽しみます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "favorite",
+        "word_translation": {
+          "Hindi": "पसंदीदा",
+          "Japanese": "お気に入り"
+        },
+        "meaning": "The thing you like the most",
+        "meaning_translation": {
+          "Hindi": "वह चीज़ जो आपको सबसे ज्यादा पसंद है",
+          "Japanese": "最も好きなもの"
+        },
+        "examples": [
+          {
+            "sentence": "Pizza is my favorite food.",
+            "translation": {
+              "Hindi": "पिज़्ज़ा मेरा पसंदीदा भोजन है।",
+              "Japanese": "ピザは私のお気に入りの食べ物です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hate",
+        "word_translation": {
+          "Hindi": "घृणा करना",
+          "Japanese": "大嫌い"
+        },
+        "meaning": "To strongly dislike something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को बहुत नापसंद करना",
+          "Japanese": "強く嫌う"
+        },
+        "examples": [
+          {
+            "sentence": "He hates waiting in line.",
+            "translation": {
+              "Hindi": "उसे लाइन में इंतज़ार करना नफरत है।",
+              "Japanese": "彼は列に並ぶのが大嫌いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "interested",
+        "word_translation": {
+          "Hindi": "रुचि रखना",
+          "Japanese": "興味がある"
+        },
+        "meaning": "Wanting to know or learn more about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में अधिक जानना चाहना",
+          "Japanese": "何かについてもっと知りたいと思う"
+        },
+        "examples": [
+          {
+            "sentence": "I am interested in art.",
+            "translation": {
+              "Hindi": "मुझे कला में रुचि है।",
+              "Japanese": "私は美術に興味があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bored",
+        "word_translation": {
+          "Hindi": "उबाऊ लगना",
+          "Japanese": "退屈"
+        },
+        "meaning": "Not interested, feeling tired of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ में रुचि न होना, थकान महसूस करना",
+          "Japanese": "興味がなく、飽きること"
+        },
+        "examples": [
+          {
+            "sentence": "The students are bored in class.",
+            "translation": {
+              "Hindi": "छात्र कक्षा में बोर हो रहे हैं।",
+              "Japanese": "生徒たちは授業で退屈しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "choice",
+        "word_translation": {
+          "Hindi": "चयन",
+          "Japanese": "選択"
+        },
+        "meaning": "A decision between two or more things",
+        "meaning_translation": {
+          "Hindi": "दो या अधिक चीज़ों में से निर्णय",
+          "Japanese": "二つ以上の中からの決定"
+        },
+        "examples": [
+          {
+            "sentence": "She made a good choice.",
+            "translation": {
+              "Hindi": "उसने अच्छा चयन किया।",
+              "Japanese": "彼女は良い選択をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "taste",
+        "word_translation": {
+          "Hindi": "स्वाद / रुचि",
+          "Japanese": "好み／味"
+        },
+        "meaning": "A person's preference in food, music, etc.",
+        "meaning_translation": {
+          "Hindi": "किसी की भोजन, संगीत आदि में रुचि",
+          "Japanese": "食べ物、音楽などに対する好み"
+        },
+        "examples": [
+          {
+            "sentence": "He has a good taste in music.",
+            "translation": {
+              "Hindi": "उसकी संगीत में अच्छी रुचि है।",
+              "Japanese": "彼は音楽のセンスが良いです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'like' + verb-ing",
+        "explanation": "We often say 'like' followed by a verb with -ing. Example: 'I like swimming.'",
+        "explanation_translation": {
+          "Hindi": "हम 'like' के बाद अक्सर क्रिया + ing लगाते हैं। उदाहरण: 'I like swimming.'",
+          "Japanese": "『like』の後に動詞＋ingをよく使います。例: 'I like swimming.'"
+        }
+      },
+      {
+        "title": "Using 'prefer ... to ...'",
+        "explanation": "We use 'prefer' to compare. Example: 'I prefer tea to coffee.'",
+        "explanation_translation": {
+          "Hindi": "हम तुलना के लिए 'prefer ... to ...' का प्रयोग करते हैं। उदाहरण: 'I prefer tea to coffee.'",
+          "Japanese": "比較には『prefer ... to ...』を使います。例: 'I prefer tea to coffee.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means to enjoy or find something good?",
+        "question_translation": {
+          "hindi": "कौन सा शब्द कुछ अच्छा लगने या आनंद लेने का मतलब है?",
+          "japanese": "楽しんだり、何か良いと感じたりする言葉はどれですか？"
+        },
+        "options": [
+          "like",
+          "hate",
+          "bored"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Dislike means to enjoy something.",
+        "question_translation": {
+          "hindi": "Dislike का मतलब कुछ आनंद लेना होता है।",
+          "japanese": "Dislikeは何かを楽しむという意味です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "I ___ pizza to pasta.",
+        "question_translation": {
+          "hindi": "मैं पास्ता की तुलना में पिज़्ज़ा को ___ करता हूँ।",
+          "japanese": "私はパスタよりピザを___します。"
+        },
+        "options": [
+          "prefer",
+          "hate",
+          "enjoy"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word is the opposite of 'interested'?",
+        "question_translation": {
+          "hindi": "'interested' का विपरीत शब्द कौन सा है?",
+          "japanese": "「interested」の反対の言葉はどれですか？"
+        },
+        "options": [
+          "choice",
+          "bored",
+          "taste"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Favorite means the thing you like the most.",
+        "question_translation": {
+          "hindi": "Favorite का मतलब वह चीज़ है जो आपको सबसे ज़्यादा पसंद है।",
+          "japanese": "Favoriteは最も好きなものという意味です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She ___ watching movies on weekends.",
+        "question_translation": {
+          "hindi": "वह सप्ताहांत में फ़िल्में देखना ___ करती है।",
+          "japanese": "彼女は週末に映画を見るのが___です。"
+        },
+        "options": [
+          "likes",
+          "dislikes",
+          "bored"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "hindi": "इनमें से कौन सा वाक्य सही है?",
+          "japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "I like play football.",
+          "I like playing football.",
+          "I like to playing football."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "trueFalse",
+        "question": "We use 'prefer ... to ...' to compare two things.",
+        "question_translation": {
+          "hindi": "हम दो चीज़ों की तुलना करने के लिए 'prefer ... to ...' का उपयोग करते हैं।",
+          "japanese": "2つの物を比較するのに「prefer ... to ...」を使います。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "He ___ noisy environments.",
+        "question_translation": {
+          "hindi": "वह शोरगुल वाले माहौल को ___ करता है।",
+          "japanese": "彼は騒がしい環境が___です。"
+        },
+        "options": [
+          "likes",
+          "dislikes",
+          "enjoys"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "multipleChoice",
+        "question": "Choose the polite way to say preference:",
+        "question_translation": {
+          "hindi": "पसंद व्यक्त करने का विनम्र तरीका चुनें:",
+          "japanese": "好みを丁寧に言う方法を選んでください："
+        },
+        "options": [
+          "I hate coffee.",
+          "I prefer tea to coffee.",
+          "Coffee is bad."
+        ],
+        "answer": 1
+      }
+    ],
+"listening": [
+  {
+    "id": "listen1",
+    "type": "listening",
+    "question": "What does the speaker like?",
+    "question_translation": {
+      "hindi": "वक्ता को क्या पसंद है?",
+      "japanese": "話者は何が好きですか？"
+    },
+    "audio_text": "I like listening to music.",
+    "options": ["Listening to music", "Playing football", "Cooking"],
+    "answer": 0
+  },
+  {
+    "id": "listen2",
+    "type": "listening",
+    "question": "What does she dislike?",
+    "question_translation": {
+      "hindi": "उसे क्या पसंद नहीं है?",
+      "japanese": "彼女は何が嫌いですか？"
+    },
+    "audio_text": "She dislikes spicy food.",
+    "options": ["Spicy food", "Sweet food", "Cold drinks"],
+    "answer": 0
+  },
+  {
+    "id": "listen3",
+    "type": "listening",
+    "question": "What does he prefer?",
+    "question_translation": {
+      "hindi": "वह किसे पसंद करता है?",
+      "japanese": "彼は何を好みますか？"
+    },
+    "audio_text": "He prefers cats to dogs.",
+    "options": ["Cats", "Dogs", "Both"],
+    "answer": 0
+  },
+  {
+    "id": "listen4",
+    "type": "listening",
+    "question": "What is the favorite subject?",
+    "question_translation": {
+      "hindi": "पसंदीदा विषय क्या है?",
+      "japanese": "好きな教科は何ですか？"
+    },
+    "audio_text": "My favorite subject is English.",
+    "options": ["Math", "Science", "English"],
+    "answer": 2
+  },
+  {
+    "id": "listen5",
+    "type": "listening",
+    "question": "What does the speaker hate?",
+    "question_translation": {
+      "hindi": "वक्ता को क्या नापसंद है?",
+      "japanese": "話者は何が嫌いですか？"
+    },
+    "audio_text": "I hate getting up early.",
+    "options": ["Sleeping late", "Getting up early", "Going to bed"],
+    "answer": 1
+  }
+]
+,
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I like reading books.'",
+        "question_translation": {
+          "hindi": "'I like reading books.' कहें।",
+          "japanese": "「I like reading books.」と言ってください。"
+        },
+        "options": [],
+        "answer": "i like reading books"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I dislike noisy places.'",
+        "question_translation": {
+          "hindi": "'I dislike noisy places.' कहें।",
+          "japanese": "「I dislike noisy places.」と言ってください。"
+        },
+        "options": [],
+        "answer": "i dislike noisy places"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I prefer tea to coffee.'",
+        "question_translation": {
+          "hindi": "'I prefer tea to coffee.' कहें।",
+          "japanese": "「I prefer tea to coffee.」と言ってください。"
+        },
+        "options": [],
+        "answer": "i prefer tea to coffee"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Pizza is my favorite food.'",
+        "question_translation": {
+          "hindi": "'Pizza is my favorite food.' कहें।",
+          "japanese": "「Pizza is my favorite food.」と言ってください。"
+        },
+        "options": [],
+        "answer": "pizza is my favorite food"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I enjoy playing football.'",
+        "question_translation": {
+          "hindi": "'I enjoy playing football.' कहें।",
+          "japanese": "「I enjoy playing football.」と言ってください。"
+        },
+        "options": [],
+        "answer": "i enjoy playing football"
+      }
+    ]
+  }
 }

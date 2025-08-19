@@ -1,4 +1,530 @@
 {
-  "id": 29,
-  "message": "This is file number 29"
+  "id": "lesson_making_suggestions_001",
+  "lesson_name": "Making Suggestions",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "suggestion",
+        "word_translation": {
+          "Hindi": "सुझाव",
+          "Japanese": "提案"
+        },
+        "meaning": "An idea about what someone should do",
+        "meaning_translation": {
+          "Hindi": "किसी को क्या करना चाहिए इसके बारे में विचार",
+          "Japanese": "誰かが何をすべきかについての考え"
+        },
+        "examples": [
+          {
+            "sentence": "He gave me a good suggestion for dinner.",
+            "translation": {
+              "Hindi": "उसने रात के खाने के लिए मुझे एक अच्छा सुझाव दिया।",
+              "Japanese": "彼は夕食に良い提案をしてくれました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recommend",
+        "word_translation": {
+          "Hindi": "सिफारिश करना",
+          "Japanese": "勧める"
+        },
+        "meaning": "To say that something is good and worth trying",
+        "meaning_translation": {
+          "Hindi": "कहना कि कुछ अच्छा है और उसे आज़माना चाहिए",
+          "Japanese": "良いもので試す価値があると言うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Can you recommend a good restaurant?",
+            "translation": {
+              "Hindi": "क्या आप एक अच्छा रेस्टोरेंट सुझा सकते हैं?",
+              "Japanese": "良いレストランを勧めてもらえますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "advise",
+        "word_translation": {
+          "Hindi": "सलाह देना",
+          "Japanese": "助言する"
+        },
+        "meaning": "To tell someone what you think they should do",
+        "meaning_translation": {
+          "Hindi": "किसी को बताना कि उसे क्या करना चाहिए",
+          "Japanese": "誰かにすべきことを伝える"
+        },
+        "examples": [
+          {
+            "sentence": "I advise you to study for the test.",
+            "translation": {
+              "Hindi": "मैं तुम्हें सलाह देता हूँ कि परीक्षा के लिए पढ़ाई करो।",
+              "Japanese": "テストのために勉強するよう助言します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "let’s",
+        "word_translation": {
+          "Hindi": "चलो",
+          "Japanese": "〜しよう"
+        },
+        "meaning": "Used to make a suggestion you will do together",
+        "meaning_translation": {
+          "Hindi": "ऐसा सुझाव जो आप साथ में करेंगे",
+          "Japanese": "一緒に何かをすることを提案する表現"
+        },
+        "examples": [
+          {
+            "sentence": "Let’s watch a movie tonight.",
+            "translation": {
+              "Hindi": "चलो आज रात एक फिल्म देखते हैं।",
+              "Japanese": "今夜映画を見よう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "shall we",
+        "word_translation": {
+          "Hindi": "क्या हम",
+          "Japanese": "〜しましょうか"
+        },
+        "meaning": "Used to politely suggest doing something",
+        "meaning_translation": {
+          "Hindi": "कुछ करने का विनम्र सुझाव",
+          "Japanese": "丁寧に提案するときに使う表現"
+        },
+        "examples": [
+          {
+            "sentence": "Shall we go for a walk?",
+            "translation": {
+              "Hindi": "क्या हम टहलने जाएँ?",
+              "Japanese": "散歩に行きましょうか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "why don’t we",
+        "word_translation": {
+          "Hindi": "क्यों न हम",
+          "Japanese": "〜しませんか"
+        },
+        "meaning": "Another way to make a suggestion",
+        "meaning_translation": {
+          "Hindi": "सुझाव देने का एक और तरीका",
+          "Japanese": "提案をする別の言い方"
+        },
+        "examples": [
+          {
+            "sentence": "Why don’t we try that new café?",
+            "translation": {
+              "Hindi": "क्यों न हम उस नए कैफ़े को आज़माएँ?",
+              "Japanese": "新しいカフェに行ってみませんか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "could",
+        "word_translation": {
+          "Hindi": "सकता है",
+          "Japanese": "〜できる"
+        },
+        "meaning": "Used to suggest a possible action",
+        "meaning_translation": {
+          "Hindi": "संभव कार्य का सुझाव देने के लिए",
+          "Japanese": "可能な行動を提案するときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "We could go to the park tomorrow.",
+            "translation": {
+              "Hindi": "हम कल पार्क जा सकते हैं।",
+              "Japanese": "明日公園に行くこともできます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "should",
+        "word_translation": {
+          "Hindi": "चाहिए",
+          "Japanese": "〜すべき"
+        },
+        "meaning": "Used to suggest something as the best choice",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को सबसे अच्छा विकल्प बताने के लिए",
+          "Japanese": "最も良い選択を提案するときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "You should see that movie. It’s great!",
+            "translation": {
+              "Hindi": "तुम्हें वह फिल्म देखनी चाहिए। वह शानदार है!",
+              "Japanese": "その映画を見るべきです。素晴らしいですよ！"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plan",
+        "word_translation": {
+          "Hindi": "योजना",
+          "Japanese": "計画"
+        },
+        "meaning": "An idea about what you will do",
+        "meaning_translation": {
+          "Hindi": "आप क्या करेंगे इसके बारे में विचार",
+          "Japanese": "何をするかの考え"
+        },
+        "examples": [
+          {
+            "sentence": "Our plan is to go hiking on Sunday.",
+            "translation": {
+              "Hindi": "हमारी योजना रविवार को ट्रेकिंग पर जाने की है।",
+              "Japanese": "日曜日にハイキングに行く計画です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "maybe",
+        "word_translation": {
+          "Hindi": "शायद",
+          "Japanese": "たぶん"
+        },
+        "meaning": "Used to suggest something in a less direct way",
+        "meaning_translation": {
+          "Hindi": "कुछ कम सीधे तरीके से सुझाव देने के लिए",
+          "Japanese": "あまり直接的でない形で提案するときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Maybe we could try cooking together.",
+            "translation": {
+              "Hindi": "शायद हम साथ में खाना पकाने की कोशिश कर सकते हैं।",
+              "Japanese": "一緒に料理してみませんか？"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'Let’s' and 'Shall We'",
+        "explanation": "We use 'Let’s' and 'Shall we' to suggest doing something together. Example: Let’s go shopping. / Shall we meet tomorrow?",
+        "explanation_translation": {
+          "Hindi": "हम 'Let’s' और 'Shall we' का उपयोग किसी काम को साथ करने का सुझाव देने के लिए करते हैं। उदाहरण: Let’s go shopping. / Shall we meet tomorrow?",
+          "Japanese": "「Let’s」「Shall we」は一緒に行動することを提案するときに使います。例: Let’s go shopping. / Shall we meet tomorrow?"
+        }
+      },
+      {
+        "title": "Using 'Could' and 'Why Don’t We'",
+        "explanation": "We use 'Could' or 'Why don’t we' to give polite suggestions. Example: We could try a new restaurant. / Why don’t we play football?",
+        "explanation_translation": {
+          "Hindi": "'Could' या 'Why don’t we' का प्रयोग शिष्टतापूर्वक सुझाव देने के लिए करते हैं। उदाहरण: We could try a new restaurant. / Why don’t we play football?",
+          "Japanese": "「Could」や「Why don’t we」は丁寧に提案するときに使います。例: We could try a new restaurant. / Why don’t we play football?"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase means 'Let’s go together'?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश 'चलो साथ चलें' का अर्थ है?",
+          "Japanese": "「一緒に行こう」という意味のフレーズはどれですか？"
+        },
+        "options": [
+          "shall we",
+          "could",
+          "plan"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "‘Suggestion’ means an idea about what to do.",
+        "question_translation": {
+          "Hindi": "‘सुझाव’ का मतलब है क्या करना है इस बारे में एक विचार।",
+          "Japanese": "「提案」とは、何をするかについてのアイデアです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "___ we try that new pizza place?",
+        "question_translation": {
+          "Hindi": "___ हम उस नए पिज़्ज़ा स्थान को आज़माएँ?",
+          "Japanese": "新しいピザ屋を試してみ___？"
+        },
+        "options": [
+          "Why don’t",
+          "Plan",
+          "Maybe"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word is used to recommend something strongly?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द किसी चीज़ की दृढ़ता से सिफारिश करने के लिए प्रयोग होता है?",
+          "Japanese": "何かを強く勧めるときに使う単語はどれですか？"
+        },
+        "options": [
+          "could",
+          "should",
+          "maybe"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "‘Maybe’ makes a suggestion less direct.",
+        "question_translation": {
+          "Hindi": "‘शायद’ सुझाव को कम सीधा बनाता है।",
+          "Japanese": "「Maybe」は提案を控えめにします。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Let’s ___ a walk in the park.",
+        "question_translation": {
+          "Hindi": "आइए पार्क में ___ टहलें।",
+          "Japanese": "公園で___散歩しましょう。"
+        },
+        "options": [
+          "take",
+          "took",
+          "taking"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "multipleChoice",
+        "question": "Which is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "We should goes home now.",
+          "We should go home now.",
+          "We should going home now."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "trueFalse",
+        "question": "We use 'Shall we' for polite suggestions.",
+        "question_translation": {
+          "Hindi": "हम 'Shall we' का उपयोग विनम्र सुझावों के लिए करते हैं।",
+          "Japanese": "「Shall we」は丁寧な提案に使います。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "___ we meet at 7 pm?",
+        "question_translation": {
+          "Hindi": "क्या हम शाम 7 बजे ___?",
+          "Japanese": "午後7時に___会いましょうか？"
+        },
+        "options": [
+          "Shall",
+          "Let’s",
+          "Could"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "multipleChoice",
+        "question": "Choose the best suggestion:",
+        "question_translation": {
+          "Hindi": "सबसे अच्छा सुझाव चुनें:",
+          "Japanese": "最適な提案を選んでください:"
+        },
+        "options": [
+          "You must watch that movie.",
+          "You should watch that movie.",
+          "You watching that movie."
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the suggestion?",
+        "audio_text": "Let’s go for a walk.",
+        "question_translation": {
+          "Hindi": "सुझाव क्या है?",
+          "Japanese": "提案は何ですか？"
+        },
+        "options": [
+          "Go for a walk",
+          "Stay at home",
+          "Go shopping"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What could they do?",
+        "audio_text": "We could watch a film tonight.",
+        "question_translation": {
+          "Hindi": "वे क्या कर सकते हैं?",
+          "Japanese": "彼らは何ができますか？"
+        },
+        "options": [
+          "Watch a film",
+          "Cook dinner",
+          "Play football"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is suggested?",
+        "audio_text": "Why don’t we meet tomorrow?",
+        "question_translation": {
+          "Hindi": "क्या सुझाव दिया गया है?",
+          "Japanese": "何が提案されましたか？"
+        },
+        "options": [
+          "Meet tomorrow",
+          "Meet today",
+          "Not meet"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is suggested?",
+        "audio_text": "Shall we eat out?",
+        "question_translation": {
+          "Hindi": "क्या सुझाव दिया गया है?",
+          "Japanese": "何が提案されましたか？"
+        },
+        "options": [
+          "Eat at home",
+          "Eat out",
+          "Cook together"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is advised?",
+        "audio_text": "You should call your friend.",
+        "question_translation": {
+          "Hindi": "क्या सलाह दी गई है?",
+          "Japanese": "何を勧められていますか？"
+        },
+        "options": [
+          "Call your friend",
+          "Ignore your friend",
+          "Meet a stranger"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Let’s play football this evening.'",
+        "question_translation": {
+          "Hindi": "कहें: 'आज शाम फुटबॉल खेलते हैं।'",
+          "Japanese": "言ってください: '今晩サッカーをしましょう。'"
+        },
+        "options": [],
+        "answer": "let’s play football this evening"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Shall we go to the park?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या हम पार्क चलें?'",
+          "Japanese": "言ってください: '公園に行きましょうか？'"
+        },
+        "options": [],
+        "answer": "shall we go to the park"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Why don’t we try that new restaurant?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्यों न हम उस नए रेस्तरां को आज़माएँ?'",
+          "Japanese": "言ってください: 'あの新しいレストランを試してみませんか？'"
+        },
+        "options": [],
+        "answer": "why don’t we try that new restaurant"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We could watch a movie tonight.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम आज रात एक फिल्म देख सकते हैं।'",
+          "Japanese": "言ってください: '今夜映画を見てもいいですね。'"
+        },
+        "options": [],
+        "answer": "we could watch a movie tonight"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'You should visit the museum.'",
+        "question_translation": {
+          "Hindi": "कहें: 'आपको संग्रहालय जाना चाहिए।'",
+          "Japanese": "言ってください: '博物館に行くべきです。'"
+        },
+        "options": [],
+        "answer": "you should visit the museum"
+      }
+    ]
+  }
 }

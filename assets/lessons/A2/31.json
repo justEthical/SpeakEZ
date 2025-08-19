@@ -1,4 +1,551 @@
 {
-  "id": 31,
-  "message": "This is file number 31"
+  "id": "lesson_health_problems_remedies_001",
+  "lesson_name": "Health Problems & Remedies",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "headache",
+        "word_translation": {
+          "Hindi": "सिरदर्द",
+          "Japanese": "頭痛"
+        },
+        "meaning": "Pain in the head",
+        "meaning_translation": {
+          "Hindi": "सिर में दर्द",
+          "Japanese": "頭の痛み"
+        },
+        "examples": [
+          {
+            "sentence": "I have a headache, so I need some rest.",
+            "translation": {
+              "Hindi": "मुझे सिरदर्द है, इसलिए मुझे आराम चाहिए।",
+              "Japanese": "頭痛があるので休みが必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stomachache",
+        "word_translation": {
+          "Hindi": "पेट दर्द",
+          "Japanese": "腹痛"
+        },
+        "meaning": "Pain in the stomach",
+        "meaning_translation": {
+          "Hindi": "पेट में दर्द",
+          "Japanese": "お腹の痛み"
+        },
+        "examples": [
+          {
+            "sentence": "She didn’t go to school because of a stomachache.",
+            "translation": {
+              "Hindi": "वह पेट दर्द की वजह से स्कूल नहीं गई।",
+              "Japanese": "腹痛のため彼女は学校に行きませんでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cold",
+        "word_translation": {
+          "Hindi": "जुकाम",
+          "Japanese": "風邪"
+        },
+        "meaning": "A common illness with a runny nose and cough",
+        "meaning_translation": {
+          "Hindi": "एक सामान्य बीमारी जिसमें नाक बहती है और खाँसी होती है",
+          "Japanese": "鼻水や咳が出る一般的な病気"
+        },
+        "examples": [
+          {
+            "sentence": "I caught a cold after getting wet in the rain.",
+            "translation": {
+              "Hindi": "बारिश में भीगने के बाद मुझे जुकाम हो गया।",
+              "Japanese": "雨に濡れて風邪をひきました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fever",
+        "word_translation": {
+          "Hindi": "बुखार",
+          "Japanese": "熱"
+        },
+        "meaning": "High body temperature",
+        "meaning_translation": {
+          "Hindi": "शरीर का तापमान बढ़ना",
+          "Japanese": "体温が高いこと"
+        },
+        "examples": [
+          {
+            "sentence": "He stayed home because he had a fever.",
+            "translation": {
+              "Hindi": "वह घर पर रहा क्योंकि उसे बुखार था।",
+              "Japanese": "熱があったので彼は家にいました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cough",
+        "word_translation": {
+          "Hindi": "खाँसी",
+          "Japanese": "咳"
+        },
+        "meaning": "A sudden sound from the throat when you are ill",
+        "meaning_translation": {
+          "Hindi": "बीमारी के समय गले से निकलने वाली आवाज़",
+          "Japanese": "病気のときに喉から出る音"
+        },
+        "examples": [
+          {
+            "sentence": "He has a bad cough and needs medicine.",
+            "translation": {
+              "Hindi": "उसे बहुत खाँसी है और दवा चाहिए।",
+              "Japanese": "ひどい咳があるので薬が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "toothache",
+        "word_translation": {
+          "Hindi": "दाँत दर्द",
+          "Japanese": "歯痛"
+        },
+        "meaning": "Pain in a tooth",
+        "meaning_translation": {
+          "Hindi": "दाँत में दर्द",
+          "Japanese": "歯の痛み"
+        },
+        "examples": [
+          {
+            "sentence": "She went to the dentist because of a toothache.",
+            "translation": {
+              "Hindi": "वह दाँत दर्द के कारण दंत चिकित्सक के पास गई।",
+              "Japanese": "歯痛で歯医者に行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "medicine",
+        "word_translation": {
+          "Hindi": "दवा",
+          "Japanese": "薬"
+        },
+        "meaning": "Something you take to feel better when sick",
+        "meaning_translation": {
+          "Hindi": "बीमारी में अच्छा महसूस करने के लिए ली जाने वाली चीज़",
+          "Japanese": "病気のときに飲むもの"
+        },
+        "examples": [
+          {
+            "sentence": "You should take your medicine after meals.",
+            "translation": {
+              "Hindi": "आपको भोजन के बाद दवा लेनी चाहिए।",
+              "Japanese": "食後に薬を飲むべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rest",
+        "word_translation": {
+          "Hindi": "आराम",
+          "Japanese": "休み"
+        },
+        "meaning": "Time when you stop working to recover",
+        "meaning_translation": {
+          "Hindi": "काम रोकने और ठीक होने का समय",
+          "Japanese": "体を回復させるために休むこと"
+        },
+        "examples": [
+          {
+            "sentence": "Take some rest to feel better.",
+            "translation": {
+              "Hindi": "अच्छा महसूस करने के लिए थोड़ा आराम करो।",
+              "Japanese": "気分を良くするために休んでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "doctor",
+        "word_translation": {
+          "Hindi": "डॉक्टर",
+          "Japanese": "医者"
+        },
+        "meaning": "A person who treats sick people",
+        "meaning_translation": {
+          "Hindi": "बीमार लोगों का इलाज करने वाला व्यक्ति",
+          "Japanese": "病気の人を治す人"
+        },
+        "examples": [
+          {
+            "sentence": "If you feel sick, go to the doctor.",
+            "translation": {
+              "Hindi": "अगर आप बीमार महसूस करते हैं, तो डॉक्टर के पास जाएँ।",
+              "Japanese": "体調が悪ければ医者に行ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "clinic",
+        "word_translation": {
+          "Hindi": "क्लिनिक",
+          "Japanese": "クリニック"
+        },
+        "meaning": "A place where doctors treat patients",
+        "meaning_translation": {
+          "Hindi": "जहाँ डॉक्टर मरीजों का इलाज करते हैं",
+          "Japanese": "医者が患者を診る場所"
+        },
+        "examples": [
+          {
+            "sentence": "She went to the clinic for her check-up.",
+            "translation": {
+              "Hindi": "वह अपनी जांच के लिए क्लिनिक गई।",
+              "Japanese": "彼女は検査のためにクリニックに行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "healthy",
+        "word_translation": {
+          "Hindi": "स्वस्थ",
+          "Japanese": "健康的"
+        },
+        "meaning": "In good condition; not ill",
+        "meaning_translation": {
+          "Hindi": "अच्छी स्थिति में; बीमार नहीं",
+          "Japanese": "良い状態で、病気でない"
+        },
+        "examples": [
+          {
+            "sentence": "Eating fruits and vegetables keeps you healthy.",
+            "translation": {
+              "Hindi": "फल और सब्जियाँ खाने से आप स्वस्थ रहते हैं।",
+              "Japanese": "果物や野菜を食べると健康でいられます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'should' for advice",
+        "explanation": "We use 'should' to give advice. Example: You should drink more water.",
+        "explanation_translation": {
+          "Hindi": "हम सलाह देने के लिए 'should' का प्रयोग करते हैं। उदाहरण: You should drink more water.",
+          "Japanese": "アドバイスをするとき「should」を使います。例: You should drink more water."
+        }
+      },
+      {
+        "title": "Using 'must' for necessity",
+        "explanation": "We use 'must' for something very important or necessary. Example: You must see a doctor.",
+        "explanation_translation": {
+          "Hindi": "हम 'must' का प्रयोग किसी बहुत जरूरी चीज़ के लिए करते हैं। उदाहरण: You must see a doctor.",
+          "Japanese": "とても大事なことに「must」を使います。例: You must see a doctor."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'pain in the head'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'सिरदर्द' का अर्थ है?",
+          "Japanese": "「頭の痛み」を意味する単語はどれですか？"
+        },
+        "options": [
+          "cough",
+          "headache",
+          "toothache"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "A fever means a low body temperature.",
+        "question_translation": {
+          "Hindi": "बुखार का मतलब शरीर का कम तापमान होता है।",
+          "Japanese": "熱は体温が低いことを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "You should take your ___ after meals.",
+        "question_translation": {
+          "Hindi": "आपको भोजन के बाद अपनी ___ लेनी चाहिए।",
+          "Japanese": "食後に___を飲むべきです。"
+        },
+        "options": [
+          "medicine",
+          "rest",
+          "doctor"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Where do you go if you feel sick?",
+        "question_translation": {
+          "Hindi": "यदि आप बीमार महसूस करते हैं तो आप कहाँ जाते हैं?",
+          "Japanese": "具合が悪いときはどこに行きますか？"
+        },
+        "options": [
+          "park",
+          "clinic",
+          "library"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "‘Healthy’ means not ill.",
+        "question_translation": {
+          "Hindi": "‘स्वस्थ’ का मतलब है बीमार न होना।",
+          "Japanese": "「Healthy」は病気でないことを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "You ___ see a doctor if you have a high fever.",
+        "question_translation": {
+          "Hindi": "यदि आपको तेज बुखार है तो आपको डॉक्टर को ___ देखना चाहिए।",
+          "Japanese": "高熱があるときは医者に___べきです。"
+        },
+        "options": [
+          "should",
+          "must",
+          "maybe"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "multipleChoice",
+        "question": "Choose the correct sentence:",
+        "question_translation": {
+          "Hindi": "सही वाक्य चुनें:",
+          "Japanese": "正しい文を選んでください:"
+        },
+        "options": [
+          "I should eat medicine.",
+          "I should take medicine.",
+          "I should drink medicine."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "trueFalse",
+        "question": "‘You must drink water’ is advice, not a strong rule.",
+        "question_translation": {
+          "Hindi": "‘You must drink water’ सलाह है, कोई सख्त नियम नहीं।",
+          "Japanese": "「You must drink water」は助言であり、強い規則ではありません。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "If you are tired, you should take some ___.",
+        "question_translation": {
+          "Hindi": "यदि आप थके हुए हैं, तो आपको थोड़ा ___ लेना चाहिए।",
+          "Japanese": "疲れているなら、少し___を取るべきです。"
+        },
+        "options": [
+          "rest",
+          "medicine",
+          "doctor"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "multipleChoice",
+        "question": "What is the best advice for a cold?",
+        "question_translation": {
+          "Hindi": "जुकाम के लिए सबसे अच्छी सलाह क्या है?",
+          "Japanese": "風邪に一番良いアドバイスは何ですか？"
+        },
+        "options": [
+          "You should sleep well.",
+          "You must eat sweets.",
+          "You should run outside."
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the person feel?",
+        "audio_text": "I have a headache.",
+        "question_translation": {
+          "Hindi": "व्यक्ति क्या महसूस कर रहा है?",
+          "Japanese": "その人は何を感じていますか？"
+        },
+        "options": [
+          "Toothache",
+          "Headache",
+          "Cold"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What is this?",
+        "audio_text": "You should see a doctor.",
+        "question_translation": {
+          "Hindi": "यह क्या है?",
+          "Japanese": "これは何ですか？"
+        },
+        "options": [
+          "An order",
+          "Advice",
+          "A refusal"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What problem does he have?",
+        "audio_text": "He has a fever and needs medicine.",
+        "question_translation": {
+          "Hindi": "उसे क्या समस्या है?",
+          "Japanese": "彼にはどんな問題がありますか？"
+        },
+        "options": [
+          "Fever",
+          "Cough",
+          "Stomachache"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Why did she go to the dentist?",
+        "audio_text": "She went to the dentist.",
+        "question_translation": {
+          "Hindi": "वह दंत चिकित्सक के पास क्यों गई?",
+          "Japanese": "彼女はなぜ歯医者に行きましたか？"
+        },
+        "options": [
+          "Headache",
+          "Toothache",
+          "Fever"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is this?",
+        "audio_text": "Drink more water and take some rest.",
+        "question_translation": {
+          "Hindi": "यह क्या है?",
+          "Japanese": "これは何ですか？"
+        },
+        "options": [
+          "Advice",
+          "Invitation",
+          "Refusal"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I have a headache.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे सिरदर्द है।'",
+          "Japanese": "言ってください: '頭が痛いです。'"
+        },
+        "options": [],
+        "answer": "i have a headache"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'You should take medicine.'",
+        "question_translation": {
+          "Hindi": "कहें: 'आपको दवा लेनी चाहिए।'",
+          "Japanese": "言ってください: '薬を飲んだ方がいいです。'"
+        },
+        "options": [],
+        "answer": "you should take medicine"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I must see a doctor.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे डॉक्टर को दिखाना ज़रूरी है।'",
+          "Japanese": "言ってください: '医者に行かなければなりません。'"
+        },
+        "options": [],
+        "answer": "i must see a doctor"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'She has a fever.'",
+        "question_translation": {
+          "Hindi": "कहें: 'उसे बुखार है।'",
+          "Japanese": "言ってください: '彼女は熱があります。'"
+        },
+        "options": [],
+        "answer": "she has a fever"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Take some rest.'",
+        "question_translation": {
+          "Hindi": "कहें: 'थोड़ा आराम करो।'",
+          "Japanese": "言ってください: '少し休んでください。'"
+        },
+        "options": [],
+        "answer": "take some rest"
+      }
+    ]
+  }
 }

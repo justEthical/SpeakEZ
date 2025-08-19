@@ -1,4 +1,426 @@
 {
-  "id": 20,
-  "message": "This is file number 20"
+  "id": "lesson_describing_places_001",
+  "lesson_name": "Describing Places (city, countryside, neighborhood)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Lively",
+        "word_translation": {
+          "Hindi": "जीवंत",
+          "Japanese": "にぎやか"
+        },
+        "meaning": "Full of activity and energy",
+        "meaning_translation": {
+          "Hindi": "गतिशील और ऊर्जा से भरा",
+          "Japanese": "活気に満ちた"
+        },
+        "examples": [
+          {
+            "sentence": "The city center is lively at night.",
+            "translation": {
+              "Hindi": "शहर का केंद्र रात में जीवंत होता है।",
+              "Japanese": "夜は街の中心がにぎやかです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Quiet",
+        "word_translation": {
+          "Hindi": "शांत",
+          "Japanese": "静か"
+        },
+        "meaning": "Not noisy",
+        "meaning_translation": {
+          "Hindi": "जहां शोर नहीं है",
+          "Japanese": "騒がしくない"
+        },
+        "examples": [
+          {
+            "sentence": "The countryside is very quiet.",
+            "translation": {
+              "Hindi": "ग्रामीण इलाका बहुत शांत होता है।",
+              "Japanese": "田舎はとても静かです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Crowded",
+        "word_translation": {
+          "Hindi": "भीड़भाड़ वाला",
+          "Japanese": "混雑した"
+        },
+        "meaning": "Full of people",
+        "meaning_translation": {
+          "Hindi": "लोगों से भरा हुआ",
+          "Japanese": "人が多い"
+        },
+        "examples": [
+          {
+            "sentence": "The market is always crowded on weekends.",
+            "translation": {
+              "Hindi": "बाजार सप्ताहांत में हमेशा भीड़भाड़ वाला होता है।",
+              "Japanese": "週末は市場がいつも混んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Peaceful",
+        "word_translation": {
+          "Hindi": "शांतिपूर्ण",
+          "Japanese": "平和な"
+        },
+        "meaning": "Calm and quiet",
+        "meaning_translation": {
+          "Hindi": "शांत और सुकून भरा",
+          "Japanese": "静かで落ち着いた"
+        },
+        "examples": [
+          {
+            "sentence": "I enjoy walking in peaceful neighborhoods.",
+            "translation": {
+              "Hindi": "मुझे शांत मोहल्लों में चलना पसंद है।",
+              "Japanese": "静かな地域を歩くのが好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Modern",
+        "word_translation": {
+          "Hindi": "आधुनिक",
+          "Japanese": "現代的な"
+        },
+        "meaning": "Using the latest technology or design",
+        "meaning_translation": {
+          "Hindi": "नवीनतम तकनीक या डिज़ाइन वाला",
+          "Japanese": "最新の技術やデザインを使った"
+        },
+        "examples": [
+          {
+            "sentence": "The city has many modern buildings.",
+            "translation": {
+              "Hindi": "शहर में कई आधुनिक इमारतें हैं।",
+              "Japanese": "都市には多くの現代的な建物があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Traditional",
+        "word_translation": {
+          "Hindi": "पारंपरिक",
+          "Japanese": "伝統的な"
+        },
+        "meaning": "Related to old customs and culture",
+        "meaning_translation": {
+          "Hindi": "पुरानी परंपराओं और संस्कृति से जुड़ा",
+          "Japanese": "昔ながらの文化や習慣に関する"
+        },
+        "examples": [
+          {
+            "sentence": "The village has many traditional houses.",
+            "translation": {
+              "Hindi": "गाँव में कई पारंपरिक घर हैं।",
+              "Japanese": "村には多くの伝統的な家があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Greenery",
+        "word_translation": {
+          "Hindi": "हरियाली",
+          "Japanese": "緑"
+        },
+        "meaning": "Green plants or trees in an area",
+        "meaning_translation": {
+          "Hindi": "किसी क्षेत्र में हरियाली या पौधे",
+          "Japanese": "植物や木が多いこと"
+        },
+        "examples": [
+          {
+            "sentence": "There is a lot of greenery in the park.",
+            "translation": {
+              "Hindi": "पार्क में बहुत हरियाली है।",
+              "Japanese": "公園には緑がたくさんあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Friendly",
+        "word_translation": {
+          "Hindi": "मिलनसार",
+          "Japanese": "親切な"
+        },
+        "meaning": "Kind and nice to others",
+        "meaning_translation": {
+          "Hindi": "दूसरों के प्रति अच्छा और दयालु",
+          "Japanese": "他人に優しい"
+        },
+        "examples": [
+          {
+            "sentence": "The people in my neighborhood are friendly.",
+            "translation": {
+              "Hindi": "मेरे मोहल्ले के लोग मिलनसार हैं।",
+              "Japanese": "私の地域の人々は親切です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Adjectives for Places",
+        "explanation": "Use adjectives like 'quiet', 'lively', 'crowded' to describe places.",
+        "explanation_translation": {
+          "Hindi": "'quiet', 'lively', 'crowded' जैसे विशेषण का उपयोग स्थानों का वर्णन करने के लिए करें।",
+          "Japanese": "「quiet」「lively」「crowded」などの形容詞を使って場所を説明します。"
+        }
+      },
+      {
+        "title": "There is / There are",
+        "explanation": "Use 'there is' for singular and 'there are' for plural things in a place.",
+        "explanation_translation": {
+          "Hindi": "'There is' का उपयोग एकवचन के लिए और 'there are' बहुवचन के लिए करें।",
+          "Japanese": "単数形には「there is」、複数形には「there are」を使います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'full of activity'?",
+        "question_translation": {
+          "Hindi": "'full of activity' का अर्थ किस शब्द से है?",
+          "Japanese": "「full of activity」に合う単語は？"
+        },
+        "options": ["Peaceful", "Quiet", "Lively"],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "'Greenery' means noisy and crowded.",
+        "question_translation": {
+          "Hindi": "'Greenery' का मतलब शोरगुल और भीड़ से है।",
+          "Japanese": "「Greenery」は騒がしいという意味です。"
+        },
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "My town is very ___ during festivals.",
+        "question_translation": {
+          "Hindi": "त्योहारों के दौरान मेरा शहर बहुत ___ होता है।",
+          "Japanese": "祭りの時、私の町はとても___です。"
+        },
+        "options": ["lively", "quiet", "empty"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word is the opposite of modern?",
+        "question_translation": {
+          "Hindi": "Modern का विपरीत शब्द कौन सा है?",
+          "Japanese": "「modern」の反対語は？"
+        },
+        "options": ["Traditional", "Friendly", "Peaceful"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The ___ streets were filled with people.",
+        "question_translation": {
+          "Hindi": "___ सड़कों पर लोग भरे हुए थे।",
+          "Japanese": "___通りは人でいっぱいでした。"
+        },
+        "options": ["crowded", "peaceful", "quiet"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "There ___ many shops in my neighborhood.",
+        "question_translation": {
+          "Hindi": "मेरे मोहल्ले में बहुत सी दुकानें ___।",
+          "Japanese": "私の地域にはたくさんのお店___。"
+        },
+        "options": ["is", "are", "be"],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, a, peaceful, place, It]",
+        "question_translation": {
+          "Hindi": "क्रम लगाएं: [is, a, peaceful, place, It]",
+          "Japanese": "並べ替え: [is, a, peaceful, place, It]"
+        },
+        "options": ["It", "is", "a", "peaceful", "place"],
+        "answer": ["It", "is", "a", "peaceful", "place"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "There ___ a park near my house.",
+        "question_translation": {
+          "Hindi": "मेरे घर के पास एक पार्क ___।",
+          "Japanese": "家の近くに公園が___。"
+        },
+        "options": ["are", "is", "have"],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [lively, a, city, is, Tokyo]",
+        "question_translation": {
+          "Hindi": "क्रम लगाएं: [lively, a, city, is, Tokyo]",
+          "Japanese": "並べ替え: [lively, a, city, is, Tokyo]"
+        },
+        "options": ["Tokyo", "is", "a", "lively", "city"],
+        "answer": ["Tokyo", "is", "a", "lively", "city"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The village has many ___ houses.",
+        "question_translation": {
+          "Hindi": "गांव में कई ___ घर हैं।",
+          "Japanese": "村には多くの___家があります。"
+        },
+        "options": ["modern", "traditional", "greenery"],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What word was used to describe the city?",
+        "audio_text": "The city is very lively.",
+        "question_translation": {
+          "Hindi": "शहर का वर्णन किस शब्द से किया गया?",
+          "Japanese": "都市はどのように表現されましたか？"
+        },
+        "options": ["Quiet", "Lively", "Greenery"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the speaker say?",
+        "audio_text": "There are many traditional houses.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या कहता है?",
+          "Japanese": "話し手は何と言っていますか？"
+        },
+        "options": ["Modern houses", "Traditional houses", "Tall buildings"],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is near the speaker’s home?",
+        "audio_text": "There is a peaceful park near my house.",
+        "question_translation": {
+          "Hindi": "वक्ता के घर के पास क्या है?",
+          "Japanese": "話し手の家の近くには何がありますか？"
+        },
+        "options": ["Lively park", "Peaceful park", "Noisy street"],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How are the people described?",
+        "audio_text": "People in my neighborhood are friendly.",
+        "question_translation": {
+          "Hindi": "लोगों का वर्णन कैसे किया गया?",
+          "Japanese": "人々はどのように表現されましたか？"
+        },
+        "options": ["Rude", "Quiet", "Friendly"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Where is there a lot of greenery?",
+        "audio_text": "There is a lot of greenery in the countryside.",
+        "question_translation": {
+          "Hindi": "कहां पर बहुत हरियाली है?",
+          "Japanese": "どこに緑が多いですか？"
+        },
+        "options": ["City", "Countryside", "Market"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'There is a park near my house.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरे घर के पास एक पार्क है।'",
+          "Japanese": "言ってください: '家の近くに公園があります。'"
+        },
+        "answer": "there is a park near my house"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My neighborhood is peaceful and friendly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा मोहल्ला शांत और मिलनसार है।'",
+          "Japanese": "言ってください: '私の地域は静かで親切です。'"
+        },
+        "answer": "my neighborhood is peaceful and friendly"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'There are many shops in the city.'",
+        "question_translation": {
+          "Hindi": "कहें: 'शहर में कई दुकानें हैं।'",
+          "Japanese": "言ってください: '都市にはたくさんの店があります。'"
+        },
+        "answer": "there are many shops in the city"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The village has traditional houses.'",
+        "question_translation": {
+          "Hindi": "कहें: 'गांव में पारंपरिक घर हैं।'",
+          "Japanese": "言ってください: '村には伝統的な家があります。'"
+        },
+        "answer": "the village has traditional houses"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I love the greenery around me.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मुझे मेरे आस-पास की हरियाली पसंद है।'",
+          "Japanese": "言ってください: '私は周りの緑が大好きです。'"
+        },
+        "answer": "i love the greenery around me"
+      }
+    ]
+  }
 }
