@@ -395,69 +395,88 @@
         "answer": 0
       }
     ],
-"listening": [
-  {
-    "id": "listen1",
-    "type": "listening",
-    "question": "What is the speaker giving?",
-    "question_translation": {
-      "hindi": "वक्ता क्या दे रहा है?",
-      "japanese": "話者は何を述べていますか？"
-    },
-    "audio_text": "In my opinion, online classes are convenient.",
-    "options": ["A fact", "An opinion", "A warning"],
-    "answer": 1
-  },
-  {
-    "id": "listen2",
-    "type": "listening",
-    "question": "Why does the speaker agree?",
-    "question_translation": {
-      "hindi": "वक्ता क्यों सहमत है?",
-      "japanese": "話者が同意する理由は？"
-    },
-    "audio_text": "I agree because the results are clear.",
-    "options": ["No reason", "The results are clear", "They are unsure"],
-    "answer": 1
-  },
-  {
-    "id": "listen3",
-    "type": "listening",
-    "question": "What does the speaker show?",
-    "question_translation": {
-      "hindi": "वक्ता क्या दर्शाता है?",
-      "japanese": "話者は何を示していますか？"
-    },
-    "audio_text": "I’m not sure I agree.",
-    "options": ["Strong agreement", "Polite doubt", "Excitement"],
-    "answer": 1
-  },
-  {
-    "id": "listen4",
-    "type": "listening",
-    "question": "What does 'I think' show?",
-    "question_translation": {
-      "hindi": "'I think' क्या दिखाता है?",
-      "japanese": "「I think」は何を示しますか？"
-    },
-    "audio_text": "I think we should compare more options.",
-    "options": ["A command", "An opinion", "A past event"],
-    "answer": 1
-  },
-  {
-    "id": "listen5",
-    "type": "listening",
-    "question": "What is the speaker doing?",
-    "question_translation": {
-      "hindi": "वक्ता क्या कर रहा है?",
-      "japanese": "話者は何をしていますか？"
-    },
-    "audio_text": "I recommend trying this app.",
-    "options": ["Giving a recommendation", "Disagreeing strongly", "Making an apology"],
-    "answer": 0
-  }
-]
-,
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "listening",
+        "question": "What is the speaker giving?",
+        "question_translation": {
+          "hindi": "वक्ता क्या दे रहा है?",
+          "japanese": "話者は何を述べていますか？"
+        },
+        "audio_text": "In my opinion, online classes are convenient.",
+        "options": [
+          "A fact",
+          "An opinion",
+          "A warning"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "listening",
+        "question": "Why does the speaker agree?",
+        "question_translation": {
+          "hindi": "वक्ता क्यों सहमत है?",
+          "japanese": "話者が同意する理由は？"
+        },
+        "audio_text": "I agree because the results are clear.",
+        "options": [
+          "No reason",
+          "The results are clear",
+          "They are unsure"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "listening",
+        "question": "What does the speaker show?",
+        "question_translation": {
+          "hindi": "वक्ता क्या दर्शाता है?",
+          "japanese": "話者は何を示していますか？"
+        },
+        "audio_text": "I’m not sure I agree.",
+        "options": [
+          "Strong agreement",
+          "Polite doubt",
+          "Excitement"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "listening",
+        "question": "What does 'I think' show?",
+        "question_translation": {
+          "hindi": "'I think' क्या दिखाता है?",
+          "japanese": "「I think」は何を示しますか？"
+        },
+        "audio_text": "I think we should compare more options.",
+        "options": [
+          "A command",
+          "An opinion",
+          "A past event"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "listening",
+        "question": "What is the speaker doing?",
+        "question_translation": {
+          "hindi": "वक्ता क्या कर रहा है?",
+          "japanese": "話者は何をしていますか？"
+        },
+        "audio_text": "I recommend trying this app.",
+        "options": [
+          "Giving a recommendation",
+          "Disagreeing strongly",
+          "Making an apology"
+        ],
+        "answer": 0
+      }
+    ],
     "speaking": [
       {
         "id": "speak1",

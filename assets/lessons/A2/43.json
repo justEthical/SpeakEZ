@@ -1,17 +1,377 @@
 {
-  "id": "lesson_describing_actions_progress_001",
-  "lesson_name": "Describing Actions in Progress (present continuous)",
+  "id": "lesson_present_continuous_001",
+  "lesson_name": "Describing Actions in Progress (Present Continuous)",
   "purpose": "All",
   "cefrLevel": "A2",
   "lesson_intro": {
-    "vocabulary": [],
-    "grammar_tips": [],
-    "example_sentences": []
+    "vocabulary": [
+      {
+        "word": "reading",
+        "word_translation": {
+          "Hindi": "पढ़ रहा/रही है",
+          "Japanese": "読んでいる"
+        },
+        "meaning": "Looking at and understanding written words",
+        "meaning_translation": {
+          "Hindi": "लिखे हुए शब्दों को देखना और समझना",
+          "Japanese": "書かれた言葉を見て理解すること"
+        },
+        "examples": [
+          {
+            "sentence": "She is reading a book.",
+            "translation": {
+              "Hindi": "वह एक किताब पढ़ रही है।",
+              "Japanese": "彼女は本を読んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "writing",
+        "word_translation": {
+          "Hindi": "लिख रहा/रही है",
+          "Japanese": "書いている"
+        },
+        "meaning": "Making words or symbols with a pen, pencil, or keyboard",
+        "meaning_translation": {
+          "Hindi": "कलम, पेंसिल या कीबोर्ड से शब्द या चिन्ह बनाना",
+          "Japanese": "ペンやキーボードで言葉や記号を書くこと"
+        },
+        "examples": [
+          {
+            "sentence": "I am writing an email.",
+            "translation": {
+              "Hindi": "मैं एक ईमेल लिख रहा हूँ।",
+              "Japanese": "私はメールを書いています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "eating",
+        "word_translation": {
+          "Hindi": "खा रहा/रही है",
+          "Japanese": "食べている"
+        },
+        "meaning": "Putting food into your mouth and swallowing it",
+        "meaning_translation": {
+          "Hindi": "भोजन को मुँह में डालकर निगलना",
+          "Japanese": "食べ物を口に入れて飲み込むこと"
+        },
+        "examples": [
+          {
+            "sentence": "They are eating dinner.",
+            "translation": {
+              "Hindi": "वे रात का खाना खा रहे हैं।",
+              "Japanese": "彼らは夕食を食べています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "playing",
+        "word_translation": {
+          "Hindi": "खेल रहा/रही है",
+          "Japanese": "遊んでいる"
+        },
+        "meaning": "Doing an activity for fun, such as a sport or a game",
+        "meaning_translation": {
+          "Hindi": "मज़े के लिए कोई गतिविधि करना, जैसे खेल",
+          "Japanese": "スポーツやゲームなどを楽しむこと"
+        },
+        "examples": [
+          {
+            "sentence": "The children are playing football.",
+            "translation": {
+              "Hindi": "बच्चे फुटबॉल खेल रहे हैं।",
+              "Japanese": "子どもたちはサッカーをしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "working",
+        "word_translation": {
+          "Hindi": "काम कर रहा/रही है",
+          "Japanese": "働いている"
+        },
+        "meaning": "Doing a job or task",
+        "meaning_translation": {
+          "Hindi": "कोई काम या कार्य करना",
+          "Japanese": "仕事や作業をしていること"
+        },
+        "examples": [
+          {
+            "sentence": "He is working in the office.",
+            "translation": {
+              "Hindi": "वह दफ़्तर में काम कर रहा है।",
+              "Japanese": "彼はオフィスで働いています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Forming Present Continuous",
+        "explanation": "Use 'am/is/are + verb + ing'. Example: I am reading.",
+        "explanation_translation": {
+          "Hindi": "'am/is/are + verb + ing' का उपयोग करें। उदाहरण: I am reading.",
+          "Japanese": "「am/is/are + 動詞 + ing」を使います。例: I am reading."
+        }
+      },
+      {
+        "title": "When to Use",
+        "explanation": "Use present continuous to describe actions happening now. Example: She is eating lunch.",
+        "explanation_translation": {
+          "Hindi": "वर्तमान में हो रही क्रियाओं के लिए Present Continuous का उपयोग करें। उदाहरण: She is eating lunch.",
+          "Japanese": "今起こっている動作を表すときに使います。例: She is eating lunch."
+        }
+      },
+      {
+        "title": "Short Answers",
+        "explanation": "Use Yes/No + subject + am/is/are. Example: Are you working? Yes, I am.",
+        "explanation_translation": {
+          "Hindi": "हाँ/ना उत्तर के लिए Yes/No + subject + am/is/are का उपयोग करें। उदाहरण: Are you working? Yes, I am.",
+          "Japanese": "はい/いいえの答えには「Yes/No + 主語 + am/is/are」を使います。例: Are you working? Yes, I am."
+        }
+      }
+    ]
   },
-  "question_pools": {
-    "vocabulary": [],
-    "sentence": [],
-    "listening": [],
-    "speaking": []
-  }
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'looking at and understanding written words'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'लिखे हुए शब्दों को देखना और समझना' का अर्थ है?",
+        "Japanese": "「書かれた言葉を見て理解すること」を意味する単語はどれですか？"
+      },
+      "options": ["reading", "eating", "working"],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "‘Playing’ means doing something for fun.",
+      "question_translation": {
+        "Hindi": "'Playing' का मतलब मज़े के लिए कुछ करना है।",
+        "Japanese": "「Playing」は楽しみのために何かをすることを意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "She is ___ an email.",
+      "question_translation": {
+        "Hindi": "वह एक ईमेल ___ रही है।",
+        "Japanese": "彼女はメールを___。"
+      },
+      "options": ["eating", "reading", "writing"],
+      "answer": 2
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means 'putting food into your mouth and swallowing'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'भोजन को मुँह में डालकर निगलना' का अर्थ है?",
+        "Japanese": "「食べ物を口に入れて飲み込むこと」を意味する単語はどれですか？"
+      },
+      "options": ["eating", "writing", "reading"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "‘Working’ means doing a job or task.",
+      "question_translation": {
+        "Hindi": "'Working' का मतलब नौकरी या कार्य करना है।",
+        "Japanese": "「Working」は仕事や作業をすることを意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I ___ reading a book now.",
+      "question_translation": {
+        "Hindi": "मैं अभी एक किताब ___ पढ़ रहा हूँ।",
+        "Japanese": "私は今本を___。"
+      },
+      "options": ["am", "is", "are"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [is, lunch, eating, she]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [is, lunch, eating, she]",
+        "Japanese": "並べ替え: [is, lunch, eating, she]"
+      },
+      "options": ["is", "lunch", "eating", "she"],
+      "answer": ["She", "is", "eating", "lunch"]
+    },
+    {
+      "id": "sent3",
+      "type": "fillInTheBlanks",
+      "question": "They ___ playing football in the park.",
+      "question_translation": {
+        "Hindi": "वे पार्क में फुटबॉल ___ खेल रहे हैं।",
+        "Japanese": "彼らは公園でサッカーを___。"
+      },
+      "options": ["is", "are", "am"],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [working, am, office, I, in, the]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [working, am, office, I, in, the]",
+        "Japanese": "並べ替え: [working, am, office, I, in, the]"
+      },
+      "options": ["working", "am", "office", "I", "in", "the"],
+      "answer": ["I", "am", "working", "in", "the", "office"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "He ___ writing a letter.",
+      "question_translation": {
+        "Hindi": "वह एक पत्र ___ लिख रहा है।",
+        "Japanese": "彼は手紙を___。"
+      },
+      "options": ["is", "are", "am"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker doing?",
+      "audio_text": "I am writing a message.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या कर रहा है?",
+        "Japanese": "話者は何をしていますか？"
+      },
+      "options": ["Reading", "Writing", "Eating"],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker said: 'They are playing football.'",
+      "audio_text": "They are playing football.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कहा: 'वे फुटबॉल खेल रहे हैं।'",
+        "Japanese": "話者は「彼らはサッカーをしています」と言いました。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Where is she working?",
+      "audio_text": "She is working in the library.",
+      "question_translation": {
+        "Hindi": "वह कहाँ काम कर रही है?",
+        "Japanese": "彼女はどこで働いていますか？"
+      },
+      "options": ["Office", "Library", "Park"],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The speaker said: 'He is eating an apple.'",
+      "audio_text": "He is eating an apple.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कहा: 'वह एक सेब खा रहा है।'",
+        "Japanese": "話者は「彼はリンゴを食べています」と言いました。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What are they doing?",
+      "audio_text": "They are reading newspapers.",
+      "question_translation": {
+        "Hindi": "वे क्या कर रहे हैं?",
+        "Japanese": "彼らは何をしていますか？"
+      },
+      "options": ["Writing", "Reading", "Working"],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I am reading a book.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I am reading a book.'",
+        "Japanese": "言ってください: 'I am reading a book.'"
+      },
+      "options": [],
+      "answer": "i am reading a book"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'She is writing an email.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She is writing an email.'",
+        "Japanese": "言ってください: 'She is writing an email.'"
+      },
+      "options": [],
+      "answer": "she is writing an email"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'They are playing football.'",
+      "question_translation": {
+        "Hindi": "कहें: 'They are playing football.'",
+        "Japanese": "言ってください: 'They are playing football.'"
+      },
+      "options": [],
+      "answer": "they are playing football"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'He is eating lunch.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He is eating lunch.'",
+        "Japanese": "言ってください: 'He is eating lunch.'"
+      },
+      "options": [],
+      "answer": "he is eating lunch"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I am working in the office.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I am working in the office.'",
+        "Japanese": "言ってください: 'I am working in the office.'"
+      },
+      "options": [],
+      "answer": "i am working in the office"
+    }
+  ]
+}
+
 }

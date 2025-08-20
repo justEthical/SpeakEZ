@@ -4,14 +4,618 @@
   "purpose": "All",
   "cefrLevel": "A2",
   "lesson_intro": {
-    "vocabulary": [],
-    "grammar_tips": [],
-    "example_sentences": []
+    "vocabulary": [
+      {
+        "word": "accident",
+        "word_translation": {
+          "Hindi": "दुर्घटना",
+          "Japanese": "事故"
+        },
+        "meaning": "An unexpected bad event that causes harm or damage",
+        "meaning_translation": {
+          "Hindi": "एक अप्रत्याशित घटना जो नुकसान या चोट पहुँचाती है",
+          "Japanese": "思いがけない出来事で害や損害を引き起こすこと"
+        },
+        "examples": [
+          {
+            "sentence": "There was an accident on the road.",
+            "translation": {
+              "Hindi": "सड़क पर एक दुर्घटना हुई।",
+              "Japanese": "道路で事故がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emergency",
+        "word_translation": {
+          "Hindi": "आपातकाल",
+          "Japanese": "緊急事態"
+        },
+        "meaning": "A serious situation that needs quick help",
+        "meaning_translation": {
+          "Hindi": "एक गंभीर स्थिति जिसमें तुरंत मदद की आवश्यकता होती है",
+          "Japanese": "早急な助けが必要な深刻な状況"
+        },
+        "examples": [
+          {
+            "sentence": "Call 112 in an emergency.",
+            "translation": {
+              "Hindi": "आपातकाल में 112 पर कॉल करें।",
+              "Japanese": "緊急時は112に電話してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "injury",
+        "word_translation": {
+          "Hindi": "चोट",
+          "Japanese": "けが"
+        },
+        "meaning": "Physical harm to the body",
+        "meaning_translation": {
+          "Hindi": "शरीर को हुआ नुकसान",
+          "Japanese": "体への損傷"
+        },
+        "examples": [
+          {
+            "sentence": "He has a leg injury.",
+            "translation": {
+              "Hindi": "उसके पैर में चोट है।",
+              "Japanese": "彼は足をけがしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wound",
+        "word_translation": {
+          "Hindi": "घाव",
+          "Japanese": "傷"
+        },
+        "meaning": "A cut or break in the skin",
+        "meaning_translation": {
+          "Hindi": "त्वचा पर कट या फट जाना",
+          "Japanese": "皮膚にできた切り傷や裂け目"
+        },
+        "examples": [
+          {
+            "sentence": "Clean the wound with water.",
+            "translation": {
+              "Hindi": "घाव को पानी से साफ करें।",
+              "Japanese": "傷を水で洗ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bleeding",
+        "word_translation": {
+          "Hindi": "खून बहना",
+          "Japanese": "出血"
+        },
+        "meaning": "Blood coming out from a wound",
+        "meaning_translation": {
+          "Hindi": "घाव से खून निकलना",
+          "Japanese": "傷口から血が出ること"
+        },
+        "examples": [
+          {
+            "sentence": "The cut is bleeding a lot.",
+            "translation": {
+              "Hindi": "कट से बहुत खून बह रहा है।",
+              "Japanese": "切り傷からたくさん出血しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fracture",
+        "word_translation": {
+          "Hindi": "हड्डी टूटना",
+          "Japanese": "骨折"
+        },
+        "meaning": "A broken bone",
+        "meaning_translation": {
+          "Hindi": "हड्डी का टूट जाना",
+          "Japanese": "骨が折れること"
+        },
+        "examples": [
+          {
+            "sentence": "She has a wrist fracture.",
+            "translation": {
+              "Hindi": "उसकी कलाई की हड्डी टूट गई है।",
+              "Japanese": "彼女は手首を骨折しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "faint",
+        "word_translation": {
+          "Hindi": "बेहोश होना",
+          "Japanese": "気を失う"
+        },
+        "meaning": "To lose consciousness for a short time",
+        "meaning_translation": {
+          "Hindi": "कुछ समय के लिए होश खो देना",
+          "Japanese": "短時間意識を失うこと"
+        },
+        "examples": [
+          {
+            "sentence": "He felt dizzy and almost fainted.",
+            "translation": {
+              "Hindi": "उसे चक्कर आया और वह लगभग बेहोश हो गया।",
+              "Japanese": "彼はめまいがして、倒れそうになりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "unconscious",
+        "word_translation": {
+          "Hindi": "अचेत",
+          "Japanese": "意識不明"
+        },
+        "meaning": "Not awake and not aware of things",
+        "meaning_translation": {
+          "Hindi": "न जागरूक और न ही होश में",
+          "Japanese": "目が覚めておらず周囲がわからない状態"
+        },
+        "examples": [
+          {
+            "sentence": "The patient is unconscious.",
+            "translation": {
+              "Hindi": "मरीज़ अचेत है।",
+              "Japanese": "患者は意識不明です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "burn",
+        "word_translation": {
+          "Hindi": "जलना",
+          "Japanese": "やけど"
+        },
+        "meaning": "Injury caused by heat, fire, or hot liquid",
+        "meaning_translation": {
+          "Hindi": "गर्मी, आग या गरम तरल से होने वाली चोट",
+          "Japanese": "熱や火、熱い液体によるけが"
+        },
+        "examples": [
+          {
+            "sentence": "Run cool water over a small burn.",
+            "translation": {
+              "Hindi": "छोटे जलने पर ठंडा पानी डालें।",
+              "Japanese": "軽いやけどには流水をかけます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ambulance",
+        "word_translation": {
+          "Hindi": "एंबुलेंस",
+          "Japanese": "救急車"
+        },
+        "meaning": "A vehicle that takes sick or injured people to hospital",
+        "meaning_translation": {
+          "Hindi": "बीमार या घायल लोगों को अस्पताल ले जाने वाला वाहन",
+          "Japanese": "病人やけが人を病院へ運ぶ車"
+        },
+        "examples": [
+          {
+            "sentence": "Call an ambulance immediately.",
+            "translation": {
+              "Hindi": "तुरंत एंबुलेंस बुलाएँ।",
+              "Japanese": "すぐに救急車を呼んでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "first aid",
+        "word_translation": {
+          "Hindi": "प्राथमिक उपचार",
+          "Japanese": "応急手当"
+        },
+        "meaning": "Basic help given before a doctor arrives",
+        "meaning_translation": {
+          "Hindi": "डॉक्टर के आने से पहले दिया जाने वाला प्रारंभिक इलाज",
+          "Japanese": "医師が来る前に行う基本的な手当"
+        },
+        "examples": [
+          {
+            "sentence": "She gave first aid to the injured man.",
+            "translation": {
+              "Hindi": "उसने घायल व्यक्ति को प्राथमिक उपचार दिया।",
+              "Japanese": "彼女はけが人に応急手当をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "allergy",
+        "word_translation": {
+          "Hindi": "एलर्जी",
+          "Japanese": "アレルギー"
+        },
+        "meaning": "A bad reaction to food, medicine, or other things",
+        "meaning_translation": {
+          "Hindi": "भोजन, दवा या अन्य चीज़ों से होने वाली खराब प्रतिक्रिया",
+          "Japanese": "食べ物や薬などに対する体のよくない反応"
+        },
+        "examples": [
+          {
+            "sentence": "He has a peanut allergy.",
+            "translation": {
+              "Hindi": "उसे मूंगफली से एलर्जी है।",
+              "Japanese": "彼はピーナッツアレルギーがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pain",
+        "word_translation": {
+          "Hindi": "दर्द",
+          "Japanese": "痛み"
+        },
+        "meaning": "An uncomfortable or hurting feeling in the body",
+        "meaning_translation": {
+          "Hindi": "शरीर में असहज या चुभने जैसा एहसास",
+          "Japanese": "体に感じる不快感や苦しさ"
+        },
+        "examples": [
+          {
+            "sentence": "She feels pain in her back.",
+            "translation": {
+              "Hindi": "उसे पीठ में दर्द हो रहा है।",
+              "Japanese": "彼女は背中に痛みを感じています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Describing past events with past simple",
+        "explanation": "Use past simple to tell what happened. Example: I fell off my bike. He broke his arm.",
+        "explanation_translation": {
+          "Hindi": "घटी हुई घटनाएँ बताने के लिए साधारण भूतकाल का उपयोग करें। उदाहरण: I fell off my bike. He broke his arm.",
+          "Japanese": "起きた出来事を伝えるときは過去形を使います。例: I fell off my bike. He broke his arm."
+        }
+      },
+      {
+        "title": "Saying where it hurts with 'have' and 'in/on'",
+        "explanation": "Use 'I have pain in…' or 'My … hurts.' Example: I have pain in my chest. My head hurts.",
+        "explanation_translation": {
+          "Hindi": "'I have pain in…' या 'My … hurts.' का प्रयोग करें। उदाहरण: I have pain in my chest. My head hurts.",
+          "Japanese": "『I have pain in …』『My … hurts.』を使います。例: I have pain in my chest. My head hurts."
+        }
+      },
+      {
+        "title": "Asking for help in emergencies",
+        "explanation": "Use short urgent requests: 'Call an ambulance!', 'Help, please!', 'I need a doctor.'",
+        "explanation_translation": {
+          "Hindi": "आपात स्थिति में छोटे, तात्कालिक वाक्य प्रयोग करें: 'Call an ambulance!', 'Help, please!', 'I need a doctor.'",
+          "Japanese": "緊急時は短くはっきり頼みます：'Call an ambulance!'、'Help, please!'、'I need a doctor.'"
+        }
+      },
+      {
+        "title": "Giving immediate advice with should/shouldn't",
+        "explanation": "Use 'should'/'shouldn't' for simple first aid advice. Example: You should press the wound. You shouldn't move him.",
+        "explanation_translation": {
+          "Hindi": "सरल प्राथमिक उपचार सलाह के लिए 'should'/'shouldn't' का उपयोग करें। उदाहरण: You should press the wound. You shouldn't move him.",
+          "Japanese": "簡単な応急手当の助言には 'should' / 'shouldn't' を使います。例: You should press the wound. You shouldn't move him."
+        }
+      }
+    ]
   },
   "question_pools": {
-    "vocabulary": [],
-    "sentence": [],
-    "listening": [],
-    "speaking": []
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means an unexpected event that causes harm?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द एक अप्रत्याशित घटना को दर्शाता है जो नुकसान पहुँचाती है?",
+          "Japanese": "害を引き起こす思いがけない出来事を意味する言葉はどれですか？"
+        },
+        "options": [
+          "injury",
+          "accident",
+          "pain"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "He has a leg ___.",
+        "question_translation": {
+          "Hindi": "उसके पैर में ___ है।",
+          "Japanese": "彼は足に___があります。"
+        },
+        "options": [
+          "fracture",
+          "injury",
+          "wound"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "An ambulance takes sick or injured people to hospital.",
+        "question_translation": {
+          "Hindi": "एंबुलेंस बीमार या घायल लोगों को अस्पताल ले जाती है।",
+          "Japanese": "救急車は病人やけが人を病院に運びます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means losing consciousness for a short time?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द थोड़े समय के लिए होश खोने का अर्थ है?",
+          "Japanese": "短時間意識を失うことを意味する言葉はどれですか？"
+        },
+        "options": [
+          "bleeding",
+          "faint",
+          "burn"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "She gave ___ to the injured man.",
+        "question_translation": {
+          "Hindi": "उसने घायल व्यक्ति को ___ दिया।",
+          "Japanese": "彼女はけが人に___をしました。"
+        },
+        "options": [
+          "first aid",
+          "ambulance",
+          "allergy"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I ___ off my bike yesterday.",
+        "question_translation": {
+          "Hindi": "मैं कल अपनी साइकिल से ___।",
+          "Japanese": "私は昨日自転車から___。"
+        },
+        "options": [
+          "fall",
+          "fell",
+          "fallen"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [hurt, my, head, I]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [hurt, my, head, I]",
+          "Japanese": "並べ替え: [hurt, my, head, I]"
+        },
+        "options": [
+          "hurt",
+          "my",
+          "head",
+          "I"
+        ],
+        "answer": [
+          "I",
+          "hurt",
+          "my",
+          "head"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "My arm ___ after the accident.",
+        "question_translation": {
+          "Hindi": "दुर्घटना के बाद मेरी बाँह ___।",
+          "Japanese": "事故の後、私の腕が___。"
+        },
+        "options": [
+          "hurts",
+          "hurt",
+          "is hurting"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "You ___ press the wound to stop bleeding.",
+        "question_translation": {
+          "Hindi": "खून रोकने के लिए आपको घाव पर दबाव ___।",
+          "Japanese": "出血を止めるために傷を押さえるべき___。"
+        },
+        "options": [
+          "should",
+          "shouldn't",
+          "am"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [call, an, ambulance, immediately]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [call, an, ambulance, immediately]",
+          "Japanese": "並べ替え: [call, an, ambulance, immediately]"
+        },
+        "options": [
+          "call",
+          "an",
+          "ambulance",
+          "immediately"
+        ],
+        "answer": [
+          "Call",
+          "an",
+          "ambulance",
+          "immediately"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What happened to the speaker?",
+        "audio_text": "I broke my leg in an accident.",
+        "question_translation": {
+          "Hindi": "वक्ता के साथ क्या हुआ?",
+          "Japanese": "話者に何が起きましたか？"
+        },
+        "options": [
+          "He broke his leg",
+          "He fainted",
+          "He burned his hand"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker said: 'She is unconscious.'",
+        "audio_text": "She is unconscious.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'वह अचेत है।'",
+          "Japanese": "話者は「彼女は意識不明です」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What advice did the speaker give?",
+        "audio_text": "You should put cool water on the burn.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या सलाह दी?",
+          "Japanese": "話者はどんな助言をしましたか？"
+        },
+        "options": [
+          "Call a doctor",
+          "Put cool water on the burn",
+          "Press the wound"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is the problem?",
+        "audio_text": "He is bleeding from his arm.",
+        "question_translation": {
+          "Hindi": "समस्या क्या है?",
+          "Japanese": "問題は何ですか？"
+        },
+        "options": [
+          "fracture",
+          "bleeding",
+          "allergy"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker said: 'I need a doctor.'",
+        "audio_text": "I need a doctor.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'मुझे डॉक्टर चाहिए।'",
+          "Japanese": "話者は「私は医者が必要です」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'There was an accident on the road.'",
+        "question_translation": {
+          "Hindi": "कहें: 'There was an accident on the road.'",
+          "Japanese": "言ってください: 'There was an accident on the road.'"
+        },
+        "options": [],
+        "answer": "there was an accident on the road"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'He is bleeding a lot.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He is bleeding a lot.'",
+          "Japanese": "言ってください: 'He is bleeding a lot.'"
+        },
+        "options": [],
+        "answer": "he is bleeding a lot"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Call an ambulance immediately.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Call an ambulance immediately.'",
+          "Japanese": "言ってください: 'Call an ambulance immediately.'"
+        },
+        "options": [],
+        "answer": "call an ambulance immediately"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I have pain in my chest.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I have pain in my chest.'",
+          "Japanese": "言ってください: 'I have pain in my chest.'"
+        },
+        "options": [],
+        "answer": "i have pain in my chest"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'You should press the wound.'",
+        "question_translation": {
+          "Hindi": "कहें: 'You should press the wound.'",
+          "Japanese": "言ってください: 'You should press the wound.'"
+        },
+        "options": [],
+        "answer": "you should press the wound"
+      }
+    ]
   }
 }

@@ -4,14 +4,601 @@
   "purpose": "All",
   "cefrLevel": "A2",
   "lesson_intro": {
-    "vocabulary": [],
-    "grammar_tips": [],
-    "example_sentences": []
+    "vocabulary": [
+      {
+        "word": "intersection",
+        "word_translation": {
+          "Hindi": "चौराहा",
+          "Japanese": "交差点"
+        },
+        "meaning": "A place where two or more roads meet",
+        "meaning_translation": {
+          "Hindi": "एक स्थान जहाँ दो या अधिक सड़कें मिलती हैं",
+          "Japanese": "2本以上の道が交わる場所"
+        },
+        "examples": [
+          {
+            "sentence": "Turn left at the intersection.",
+            "translation": {
+              "Hindi": "चौराहे पर बाएँ मुड़ें।",
+              "Japanese": "交差点で左に曲がってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "roundabout",
+        "word_translation": {
+          "Hindi": "घूमघेरा / गोल चक्कर",
+          "Japanese": "ロータリー"
+        },
+        "meaning": "A circular road where traffic moves around a central island",
+        "meaning_translation": {
+          "Hindi": "एक गोल सड़क जहाँ यातायात केंद्रीय द्वीप के चारों ओर चलता है",
+          "Japanese": "中央の島の周りを車が回る円形の道路"
+        },
+        "examples": [
+          {
+            "sentence": "Go straight through the roundabout.",
+            "translation": {
+              "Hindi": "गोल चक्कर से सीधे आगे बढ़ें।",
+              "Japanese": "ロータリーをまっすぐ進んでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "opposite",
+        "word_translation": {
+          "Hindi": "सामने",
+          "Japanese": "向かい"
+        },
+        "meaning": "On the other side of the road or area",
+        "meaning_translation": {
+          "Hindi": "सड़क या क्षेत्र के दूसरी ओर",
+          "Japanese": "道路や場所の反対側"
+        },
+        "examples": [
+          {
+            "sentence": "The bank is opposite the hospital.",
+            "translation": {
+              "Hindi": "बैंक अस्पताल के सामने है।",
+              "Japanese": "銀行は病院の向かいにあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "next to",
+        "word_translation": {
+          "Hindi": "के बगल में",
+          "Japanese": "隣に"
+        },
+        "meaning": "Very close to something, at the side of it",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बिल्कुल पास, उसके बगल में",
+          "Japanese": "何かのすぐ隣に"
+        },
+        "examples": [
+          {
+            "sentence": "The pharmacy is next to the supermarket.",
+            "translation": {
+              "Hindi": "फार्मेसी सुपरमार्केट के बगल में है।",
+              "Japanese": "薬局はスーパーの隣にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "across from",
+        "word_translation": {
+          "Hindi": "के पार",
+          "Japanese": "向かい側に"
+        },
+        "meaning": "Directly on the other side of a road",
+        "meaning_translation": {
+          "Hindi": "सीधे सड़क के दूसरी ओर",
+          "Japanese": "道の向かい側に"
+        },
+        "examples": [
+          {
+            "sentence": "The café is across from the library.",
+            "translation": {
+              "Hindi": "कैफ़े लाइब्रेरी के सामने है।",
+              "Japanese": "カフェは図書館の向かい側にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "traffic lights",
+        "word_translation": {
+          "Hindi": "ट्रैफिक सिग्नल",
+          "Japanese": "信号機"
+        },
+        "meaning": "Red, yellow, and green lights that control traffic",
+        "meaning_translation": {
+          "Hindi": "लाल, पीली और हरी बत्तियाँ जो यातायात को नियंत्रित करती हैं",
+          "Japanese": "赤・黄・緑の光で交通を制御する装置"
+        },
+        "examples": [
+          {
+            "sentence": "Turn right at the traffic lights.",
+            "translation": {
+              "Hindi": "ट्रैफिक सिग्नल पर दाएँ मुड़ें।",
+              "Japanese": "信号機で右に曲がってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pedestrian crossing",
+        "word_translation": {
+          "Hindi": "पैदल पार पथ",
+          "Japanese": "横断歩道"
+        },
+        "meaning": "A place where people can cross the road safely",
+        "meaning_translation": {
+          "Hindi": "एक स्थान जहाँ लोग सुरक्षित रूप से सड़क पार कर सकते हैं",
+          "Japanese": "人が安全に道路を渡れる場所"
+        },
+        "examples": [
+          {
+            "sentence": "Stop at the pedestrian crossing.",
+            "translation": {
+              "Hindi": "पैदल पार पथ पर रुकें।",
+              "Japanese": "横断歩道で止まってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "block",
+        "word_translation": {
+          "Hindi": "गली / ब्लॉक",
+          "Japanese": "ブロック"
+        },
+        "meaning": "The distance between two streets",
+        "meaning_translation": {
+          "Hindi": "दो सड़कों के बीच की दूरी",
+          "Japanese": "2つの通りの間の距離"
+        },
+        "examples": [
+          {
+            "sentence": "Walk two blocks straight ahead.",
+            "translation": {
+              "Hindi": "सीधे दो ब्लॉक चलें।",
+              "Japanese": "まっすぐ2ブロック歩いてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "corner",
+        "word_translation": {
+          "Hindi": "कोना",
+          "Japanese": "角"
+        },
+        "meaning": "The place where two streets meet at an angle",
+        "meaning_translation": {
+          "Hindi": "जहाँ दो सड़कें एक कोण पर मिलती हैं",
+          "Japanese": "2つの通りが角で交わる場所"
+        },
+        "examples": [
+          {
+            "sentence": "The shop is on the corner.",
+            "translation": {
+              "Hindi": "दुकान कोने पर है।",
+              "Japanese": "店は角にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "straight ahead",
+        "word_translation": {
+          "Hindi": "सीधे आगे",
+          "Japanese": "まっすぐ進む"
+        },
+        "meaning": "To continue without turning left or right",
+        "meaning_translation": {
+          "Hindi": "बिना बाएँ या दाएँ मुड़े आगे बढ़ना",
+          "Japanese": "左や右に曲がらずに進むこと"
+        },
+        "examples": [
+          {
+            "sentence": "Go straight ahead for three blocks.",
+            "translation": {
+              "Hindi": "तीन ब्लॉक तक सीधे आगे जाएँ।",
+              "Japanese": "3ブロックまっすぐ進んでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "along",
+        "word_translation": {
+          "Hindi": "के साथ-साथ",
+          "Japanese": "〜に沿って"
+        },
+        "meaning": "Moving in a line next to something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के पास-पास रेखा में आगे बढ़ना",
+          "Japanese": "何かに沿って移動すること"
+        },
+        "examples": [
+          {
+            "sentence": "Walk along the river until you see the bridge.",
+            "translation": {
+              "Hindi": "नदी के साथ-साथ चलें जब तक आपको पुल न दिखे।",
+              "Japanese": "橋が見えるまで川に沿って歩いてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "behind",
+        "word_translation": {
+          "Hindi": "पीछे",
+          "Japanese": "後ろに"
+        },
+        "meaning": "At the back of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के पीछे",
+          "Japanese": "何かの後ろに"
+        },
+        "examples": [
+          {
+            "sentence": "The parking lot is behind the building.",
+            "translation": {
+              "Hindi": "पार्किंग स्थल इमारत के पीछे है।",
+              "Japanese": "駐車場は建物の後ろにあります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Imperatives for giving directions",
+        "explanation": "Use the base verb to give instructions. Example: Turn left. Go straight. Stop at the lights.",
+        "explanation_translation": {
+          "Hindi": "निर्देश देने के लिए क्रिया के मूल रूप का उपयोग करें। उदाहरण: Turn left. Go straight. Stop at the lights.",
+          "Japanese": "道案内には動詞の原形を使います。例: Turn left. Go straight. Stop at the lights."
+        }
+      },
+      {
+        "title": "Prepositions of place",
+        "explanation": "Use prepositions like 'next to', 'opposite', 'behind', 'across from' to describe location. Example: The bank is next to the post office.",
+        "explanation_translation": {
+          "Hindi": "स्थान बताने के लिए 'next to', 'opposite', 'behind', 'across from' जैसे पूर्वसर्गों का उपयोग करें। उदाहरण: The bank is next to the post office.",
+          "Japanese": "場所を説明するには 'next to', 'opposite', 'behind', 'across from' などの前置詞を使います。例: The bank is next to the post office."
+        }
+      },
+      {
+        "title": "Sequencing with 'then' and 'after that'",
+        "explanation": "Use words like 'then' and 'after that' to connect steps in directions. Example: Go straight, then turn right at the corner.",
+        "explanation_translation": {
+          "Hindi": "दिशाओं के चरण जोड़ने के लिए 'then' और 'after that' का उपयोग करें। उदाहरण: Go straight, then turn right at the corner.",
+          "Japanese": "道順の手順をつなげるときに 'then' や 'after that' を使います。例: Go straight, then turn right at the corner."
+        }
+      },
+      {
+        "title": "Using landmarks in directions",
+        "explanation": "Use well-known places (library, park, hospital) as reference points. Example: The school is next to the hospital.",
+        "explanation_translation": {
+          "Hindi": "निर्देशों में प्रसिद्ध स्थानों (लाइब्रेरी, पार्क, अस्पताल) का उपयोग करें। उदाहरण: The school is next to the hospital.",
+          "Japanese": "道案内では有名な場所（図書館、公園、病院など）を目印に使います。例: The school is next to the hospital."
+        }
+      }
+    ]
   },
   "question_pools": {
-    "vocabulary": [],
-    "sentence": [],
-    "listening": [],
-    "speaking": []
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means a place where two roads meet?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द उस स्थान का अर्थ है जहाँ दो सड़कें मिलती हैं?",
+          "Japanese": "2つの道が交わる場所を意味する言葉はどれですか？"
+        },
+        "options": [
+          "intersection",
+          "roundabout",
+          "corner"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The pharmacy is ___ the supermarket.",
+        "question_translation": {
+          "Hindi": "फार्मेसी सुपरमार्केट ___ है।",
+          "Japanese": "薬局はスーパーの___にあります。"
+        },
+        "options": [
+          "next to",
+          "opposite",
+          "behind"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A roundabout is a straight road.",
+        "question_translation": {
+          "Hindi": "गोल चक्कर एक सीधी सड़क है।",
+          "Japanese": "ロータリーはまっすぐな道路です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which phrase means directly on the other side of a road?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश सड़क के ठीक दूसरी ओर का अर्थ है?",
+          "Japanese": "道の反対側にあることを意味する言葉はどれですか？"
+        },
+        "options": [
+          "across from",
+          "along",
+          "corner"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The bank is ___ the hospital.",
+        "question_translation": {
+          "Hindi": "बैंक अस्पताल ___ है।",
+          "Japanese": "銀行は病院の___にあります。"
+        },
+        "options": [
+          "opposite",
+          "next to",
+          "behind"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ left at the traffic lights.",
+        "question_translation": {
+          "Hindi": "ट्रैफिक सिग्नल पर ___ बाएँ।",
+          "Japanese": "信号機で___左に曲がってください。"
+        },
+        "options": [
+          "Turn",
+          "Go",
+          "Walk"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [straight, go, ahead]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [straight, go, ahead]",
+          "Japanese": "並べ替え: [straight, go, ahead]"
+        },
+        "options": [
+          "straight",
+          "go",
+          "ahead"
+        ],
+        "answer": [
+          "Go",
+          "straight",
+          "ahead"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The school is ___ the post office.",
+        "question_translation": {
+          "Hindi": "स्कूल डाकघर ___ है।",
+          "Japanese": "学校は郵便局の___にあります。"
+        },
+        "options": [
+          "next to",
+          "block",
+          "corner"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "Walk two ___ and then turn right.",
+        "question_translation": {
+          "Hindi": "दो ___ चलें और फिर दाएँ मुड़ें।",
+          "Japanese": "2ブロック歩いてから右に曲がってください。"
+        },
+        "options": [
+          "corners",
+          "blocks",
+          "roundabouts"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, the, corner, shop, on, the]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [is, the, corner, shop, on, the]",
+          "Japanese": "並べ替え: [is, the, corner, shop, on, the]"
+        },
+        "options": [
+          "is",
+          "the",
+          "corner",
+          "shop",
+          "on",
+          "the"
+        ],
+        "answer": [
+          "The",
+          "shop",
+          "is",
+          "on",
+          "the",
+          "corner"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Where did the speaker say to turn?",
+        "audio_text": "Turn right at the intersection.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहाँ मुड़ने को कहा?",
+          "Japanese": "話者はどこで曲がるように言いましたか？"
+        },
+        "options": [
+          "left at the corner",
+          "right at the intersection",
+          "straight ahead"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker said: 'Go straight through the roundabout.'",
+        "audio_text": "Go straight through the roundabout.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'गोल चक्कर से सीधे आगे बढ़ें।'",
+          "Japanese": "話者は「ロータリーをまっすぐ進んでください」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is next to the supermarket according to the speaker?",
+        "audio_text": "The pharmacy is next to the supermarket.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार सुपरमार्केट के बगल में क्या है?",
+          "Japanese": "話者によるとスーパーの隣には何がありますか？"
+        },
+        "options": [
+          "hospital",
+          "pharmacy",
+          "bank"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is behind the building?",
+        "audio_text": "The parking lot is behind the building.",
+        "question_translation": {
+          "Hindi": "इमारत के पीछे क्या है?",
+          "Japanese": "建物の後ろには何がありますか？"
+        },
+        "options": [
+          "park",
+          "parking lot",
+          "café"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker said: 'The bank is opposite the hospital.'",
+        "audio_text": "The bank is opposite the hospital.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'बैंक अस्पताल के सामने है।'",
+          "Japanese": "話者は「銀行は病院の向かいにあります」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Turn left at the traffic lights.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Turn left at the traffic lights.'",
+          "Japanese": "言ってください: 'Turn left at the traffic lights.'"
+        },
+        "options": [],
+        "answer": "turn left at the traffic lights"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Go straight for two blocks.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Go straight for two blocks.'",
+          "Japanese": "言ってください: 'Go straight for two blocks.'"
+        },
+        "options": [],
+        "answer": "go straight for two blocks"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The café is across from the library.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The café is across from the library.'",
+          "Japanese": "言ってください: 'The café is across from the library.'"
+        },
+        "options": [],
+        "answer": "the café is across from the library"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The parking lot is behind the building.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The parking lot is behind the building.'",
+          "Japanese": "言ってください: 'The parking lot is behind the building.'"
+        },
+        "options": [],
+        "answer": "the parking lot is behind the building"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The pharmacy is next to the supermarket.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The pharmacy is next to the supermarket.'",
+          "Japanese": "言ってください: 'The pharmacy is next to the supermarket.'"
+        },
+        "options": [],
+        "answer": "the pharmacy is next to the supermarket"
+      }
+    ]
   }
+
+
 }
