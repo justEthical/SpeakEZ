@@ -245,7 +245,11 @@
           "Hindi": "जिसे आप पसंद करते हैं और समय बिताते हैं उसे क्या कहते हैं?",
           "Japanese": "好きで一緒に時間を過ごす人は何と言いますか？"
         },
-        "options": ["friend", "teacher", "call"],
+        "options": [
+          "friend",
+          "teacher",
+          "call"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम स्कूल के बाद ___ करते हैं।",
           "Japanese": "私たちは学校の後___します。"
         },
-        "options": ["laugh", "chat", "argue"],
+        "options": [
+          "laugh",
+          "chat",
+          "argue"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "अगर कुछ मज़ेदार हो तो आप क्या करते हैं?",
           "Japanese": "面白い時は何をしますか？"
         },
-        "options": ["help", "laugh", "call"],
+        "options": [
+          "help",
+          "laugh",
+          "call"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "अगर आपके पास स्नैक्स हैं, तो दोस्तों के साथ क्या कर सकते हैं?",
           "Japanese": "お菓子があったら友達と何ができますか？"
         },
-        "options": ["share", "argue", "call"],
+        "options": [
+          "share",
+          "argue",
+          "call"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या greet का मतलब है 'हैलो' कहना?",
           "Japanese": "Greetは「こんにちは」と言うことですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मैं हर रात अपने दोस्त को ___ करता हूँ।",
           "Japanese": "私は毎晩友達に___します。"
         },
-        "options": ["argue", "call", "share"],
+        "options": [
+          "argue",
+          "call",
+          "share"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "कभी-कभी दोस्त ___ करते हैं।",
           "Japanese": "時々友達は___します。"
         },
-        "options": ["invite", "greet", "argue"],
+        "options": [
+          "invite",
+          "greet",
+          "argue"
+        ],
         "answer": 2
       },
       {
@@ -324,8 +351,20 @@
           "Hindi": "[snacks, friends, with, share, we] को सही क्रम में लगाएं।",
           "Japanese": "[snacks, friends, with, share, we]を並べ替えましょう。"
         },
-        "options": ["snacks", "friends", "with", "share", "we"],
-        "answer": ["we", "share", "snacks", "with", "friends"]
+        "options": [
+          "snacks",
+          "friends",
+          "with",
+          "share",
+          "we"
+        ],
+        "answer": [
+          "we",
+          "share",
+          "snacks",
+          "with",
+          "friends"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +374,11 @@
           "Hindi": "हम एक-दूसरे को ___ दिन नमस्ते कहते हैं।",
           "Japanese": "私たちは___日挨拶します。"
         },
-        "options": ["last", "every", "same"],
+        "options": [
+          "last",
+          "every",
+          "same"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +389,107 @@
           "Hindi": "[my, secret, to, I, best, tell, friend] को सही क्रम में लगाएं।",
           "Japanese": "[my, secret, to, I, best, tell, friend]を並べ替えましょう。"
         },
-        "options": ["my", "secret", "to", "I", "best", "tell", "friend", "my"],
-        "answer": ["I", "tell", "my", "secret", "to", "my", "best", "friend"]
+        "options": [
+          "my",
+          "secret",
+          "to",
+          "I",
+          "best",
+          "tell",
+          "friend",
+          "my"
+        ],
+        "answer": [
+          "I",
+          "tell",
+          "my",
+          "secret",
+          "to",
+          "my",
+          "best",
+          "friend"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Who lives near me? (Audio: 'My friend lives near me.')",
+        "question": "Who lives near me?",
         "audio_text": "My friend lives near me.",
         "question_translation": {
           "Hindi": "मेरे पास कौन रहता है?",
           "Japanese": "私の近くに誰が住んでいますか？"
         },
-        "options": ["friend", "teacher", "sister"],
+        "options": [
+          "friend",
+          "teacher",
+          "sister"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "When do we chat? (Audio: 'We chat after school.')",
+        "question": "When do we chat?",
         "audio_text": "We chat after school.",
         "question_translation": {
           "Hindi": "हम कब बातें करते हैं?",
           "Japanese": "私たちはいつおしゃべりしますか？"
         },
-        "options": ["before school", "after school", "at night"],
+        "options": [
+          "before school",
+          "after school",
+          "at night"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do we do with friends? (Audio: 'We share snacks with friends.')",
+        "question": "What do we do with friends?",
         "audio_text": "We share snacks with friends.",
         "question_translation": {
           "Hindi": "हम दोस्तों के साथ क्या साझा करते हैं?",
           "Japanese": "私たちは友達と何を分け合いますか？"
         },
-        "options": ["books", "snacks", "homework"],
+        "options": [
+          "books",
+          "snacks",
+          "homework"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Who do I help with homework? (Audio: 'I help my friend with homework.')",
+        "question": "Who do I help with homework?",
         "audio_text": "I help my friend with homework.",
         "question_translation": {
           "Hindi": "मैं किसकी होमवर्क में मदद करता हूँ?",
           "Japanese": "私は誰の宿題を手伝いますか？"
         },
-        "options": ["sister", "friend", "teacher"],
+        "options": [
+          "sister",
+          "friend",
+          "teacher"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Who do I tell my secret to? (Audio: 'I tell my secret to my best friend.')",
+        "question": "Who do I tell my secret to?",
         "audio_text": "I tell my secret to my best friend.",
         "question_translation": {
           "Hindi": "मैं अपना राज़ किसको बताता हूँ?",
           "Japanese": "私は誰に秘密を話しますか？"
         },
-        "options": ["teacher", "parent", "best friend"],
+        "options": [
+          "teacher",
+          "parent",
+          "best friend"
+        ],
         "answer": 2
       }
     ],

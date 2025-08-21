@@ -245,7 +245,11 @@
           "Hindi": "आप किस हिस्से से देखते हैं?",
           "Japanese": "見るために使う部分はどれですか？"
         },
-        "options": ["ear", "eye", "mouth"],
+        "options": [
+          "ear",
+          "eye",
+          "mouth"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "उसके लंबे ___ हैं।",
           "Japanese": "彼は___が長いです。"
         },
-        "options": ["hands", "legs", "ears"],
+        "options": [
+          "hands",
+          "legs",
+          "ears"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "आप खाने के लिए क्या इस्तेमाल करते हैं?",
           "Japanese": "食べるのに使うのはどれですか？"
         },
-        "options": ["mouth", "hand", "nose"],
+        "options": [
+          "mouth",
+          "hand",
+          "nose"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "अगर आप अच्छा महसूस नहीं कर रहे हैं तो आप...",
           "Japanese": "元気でない時は..."
         },
-        "options": ["healthy", "sick", "head"],
+        "options": [
+          "healthy",
+          "sick",
+          "head"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "आप सूँघने के लिए अपनी नाक का इस्तेमाल करते हैं।",
           "Japanese": "においをかぐために鼻を使いますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरा ___ स्वस्थ है।",
           "Japanese": "私の___は健康です。"
         },
-        "options": ["body", "hand", "eye"],
+        "options": [
+          "body",
+          "hand",
+          "eye"
+        ],
         "answer": 0
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "उसकी ___ नीली हैं।",
           "Japanese": "彼女の___は青いです。"
         },
-        "options": ["eyes", "ears", "legs"],
+        "options": [
+          "eyes",
+          "ears",
+          "legs"
+        ],
         "answer": 0
       },
       {
@@ -324,8 +351,18 @@
           "Hindi": "[his, he, hand, raises] को सही क्रम में लगाएं।",
           "Japanese": "[his, he, hand, raises]を並べ替えましょう。"
         },
-        "options": ["his", "he", "hand", "raises"],
-        "answer": ["he", "raises", "his", "hand"]
+        "options": [
+          "his",
+          "he",
+          "hand",
+          "raises"
+        ],
+        "answer": [
+          "he",
+          "raises",
+          "his",
+          "hand"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +372,11 @@
           "Hindi": "वह ___ रहने के लिए फल खाता है।",
           "Japanese": "彼は___ために果物を食べます。"
         },
-        "options": ["sick", "healthy", "body"],
+        "options": [
+          "sick",
+          "healthy",
+          "body"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +387,99 @@
           "Hindi": "[mouth, your, open, please] को सही क्रम में लगाएं।",
           "Japanese": "[mouth, your, open, please]を並べ替えましょう。"
         },
-        "options": ["mouth", "your", "open", "please"],
-        "answer": ["please", "open", "your", "mouth"]
+        "options": [
+          "mouth",
+          "your",
+          "open",
+          "please"
+        ],
+        "answer": [
+          "please",
+          "open",
+          "your",
+          "mouth"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What is healthy? (Audio: 'My body is healthy.')",
+        "question": "What is healthy?",
         "audio_text": "My body is healthy.",
         "question_translation": {
           "Hindi": "क्या स्वस्थ है?",
           "Japanese": "何が健康ですか？"
         },
-        "options": ["Leg", "Body", "Head"],
+        "options": [
+          "Leg",
+          "Body",
+          "Head"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What hurts? (Audio: 'She has a headache.')",
+        "question": "What hurts?",
         "audio_text": "She has a headache.",
         "question_translation": {
           "Hindi": "किसमें दर्द है?",
           "Japanese": "どこが痛いですか？"
         },
-        "options": ["Head", "Hand", "Nose"],
+        "options": [
+          "Head",
+          "Hand",
+          "Nose"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What does he raise? (Audio: 'He raises his hand.')",
+        "question": "What does he raise?",
         "audio_text": "He raises his hand.",
         "question_translation": {
           "Hindi": "वह क्या उठाता है?",
           "Japanese": "彼は何を挙げますか？"
         },
-        "options": ["Leg", "Mouth", "Hand"],
+        "options": [
+          "Leg",
+          "Mouth",
+          "Hand"
+        ],
         "answer": 2
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What does she touch? (Audio: 'She touches her nose.')",
+        "question": "What does she touch?",
         "audio_text": "She touches her nose.",
         "question_translation": {
           "Hindi": "वह क्या छूती है?",
           "Japanese": "彼女は何に触りますか？"
         },
-        "options": ["Ear", "Eye", "Nose"],
+        "options": [
+          "Ear",
+          "Eye",
+          "Nose"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Why does he eat fruits? (Audio: 'He eats fruits to stay healthy.')",
+        "question": "Why does he eat fruits?",
         "audio_text": "He eats fruits to stay healthy.",
         "question_translation": {
           "Hindi": "वह फल क्यों खाता है?",
           "Japanese": "彼はなぜ果物を食べますか？"
         },
-        "options": ["To stay healthy", "To see better", "To run fast"],
+        "options": [
+          "To stay healthy",
+          "To see better",
+          "To run fast"
+        ],
         "answer": 0
       }
     ],

@@ -245,7 +245,11 @@
           "Hindi": "'महँगा नहीं' के लिए कौन सा शब्द है?",
           "Japanese": "「高くない」はどれですか？"
         },
-        "options": ["expensive", "cheap", "cash"],
+        "options": [
+          "expensive",
+          "cheap",
+          "cash"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वह ___ से भुगतान करता है।",
           "Japanese": "彼は___で支払います。"
         },
-        "options": ["change", "receipt", "cash"],
+        "options": [
+          "change",
+          "receipt",
+          "cash"
+        ],
         "answer": 2
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "भुगतान की पर्ची को क्या कहते हैं?",
           "Japanese": "支払い証明の紙は何と言いますか？"
         },
-        "options": ["receipt", "bag", "discount"],
+        "options": [
+          "receipt",
+          "bag",
+          "discount"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "दुकान में सामान कौन बेचता है?",
           "Japanese": "お店で物を売るのは誰ですか？"
         },
-        "options": ["customer", "shopkeeper", "driver"],
+        "options": [
+          "customer",
+          "shopkeeper",
+          "driver"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "अगर कोई चीज़ बहुत महँगी है तो वह महँगी कहलाती है।",
           "Japanese": "お金がたくさんかかるものは高いですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "इस शर्ट की ___ क्या है?",
           "Japanese": "このシャツの___はいくらですか？"
         },
-        "options": ["bag", "price", "change"],
+        "options": [
+          "bag",
+          "price",
+          "change"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "अपना ___ लेना न भूलें।",
           "Japanese": "___を忘れないでください。"
         },
-        "options": ["discount", "receipt", "change"],
+        "options": [
+          "discount",
+          "receipt",
+          "change"
+        ],
         "answer": 2
       },
       {
@@ -324,8 +351,26 @@
           "Hindi": "[I, the, shop, go, bread, to, buy, to] को सही क्रम में लगाएं।",
           "Japanese": "[I, the, shop, go, bread, to, buy, to]を並べ替えましょう。"
         },
-        "options": ["I", "the", "shop", "go", "bread", "to", "buy", "to"],
-        "answer": ["I", "go", "to", "the", "shop", "to", "buy", "bread"]
+        "options": [
+          "I",
+          "the",
+          "shop",
+          "go",
+          "bread",
+          "to",
+          "buy",
+          "to"
+        ],
+        "answer": [
+          "I",
+          "go",
+          "to",
+          "the",
+          "shop",
+          "to",
+          "buy",
+          "bread"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +380,11 @@
           "Hindi": "दुकान ___ दे रही है।",
           "Japanese": "お店は___をしています。"
         },
-        "options": ["discount", "bag", "price"],
+        "options": [
+          "discount",
+          "bag",
+          "price"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +395,99 @@
           "Hindi": "[this, how, is, much] को सही क्रम में लगाएं।",
           "Japanese": "[this, how, is, much]を並べ替えましょう。"
         },
-        "options": ["this", "how", "is", "much"],
-        "answer": ["How", "much", "is", "this"]
+        "options": [
+          "this",
+          "how",
+          "is",
+          "much"
+        ],
+        "answer": [
+          "How",
+          "much",
+          "is",
+          "this"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "How does he pay? (Audio: 'He pays with cash.')",
+        "question": "How does he pay?",
         "audio_text": "He pays with cash.",
         "question_translation": {
           "Hindi": "वह भुगतान कैसे करता है?",
           "Japanese": "彼はどうやって支払いますか？"
         },
-        "options": ["Cash", "Discount", "Receipt"],
+        "options": [
+          "Cash",
+          "Discount",
+          "Receipt"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What is the apple? (Audio: 'This apple is cheap.')",
+        "question": "What is the apple?",
         "audio_text": "This apple is cheap.",
         "question_translation": {
           "Hindi": "सेब कैसा है?",
           "Japanese": "りんごはどうですか？"
         },
-        "options": ["Cheap", "Expensive", "Change"],
+        "options": [
+          "Cheap",
+          "Expensive",
+          "Change"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do you get at the shop? (Audio: 'We go to the shop to buy bread.')",
+        "question": "What do you get at the shop?",
         "audio_text": "We go to the shop to buy bread.",
         "question_translation": {
           "Hindi": "आप दुकान में क्या खरीदते हैं?",
           "Japanese": "お店で何を買いますか？"
         },
-        "options": ["Shoes", "Bread", "Bag"],
+        "options": [
+          "Shoes",
+          "Bread",
+          "Bag"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Who is helpful? (Audio: 'The shopkeeper is helpful.')",
+        "question": "Who is helpful?",
         "audio_text": "The shopkeeper is helpful.",
         "question_translation": {
           "Hindi": "कौन मददगार है?",
           "Japanese": "誰が親切ですか？"
         },
-        "options": ["Shopkeeper", "Cash", "Discount"],
+        "options": [
+          "Shopkeeper",
+          "Cash",
+          "Discount"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What is this? (Audio: 'Here is your receipt.')",
+        "question": "What is this?",
         "audio_text": "Here is your receipt.",
         "question_translation": {
           "Hindi": "यह क्या है?",
           "Japanese": "これは何ですか？"
         },
-        "options": ["Bag", "Discount", "Receipt"],
+        "options": [
+          "Bag",
+          "Discount",
+          "Receipt"
+        ],
         "answer": 2
       }
     ],

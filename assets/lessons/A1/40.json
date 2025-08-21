@@ -245,7 +245,11 @@
           "Hindi": "जब आप किसी को अपनी पार्टी में बुलाते हैं तो आप क्या करते हैं?",
           "Japanese": "パーティーに誰かを呼ぶ時は何をしますか？"
         },
-        "options": ["invite", "accept", "decline"],
+        "options": [
+          "invite",
+          "accept",
+          "decline"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वह मेरा निमंत्रण ___ करती है।",
           "Japanese": "彼女は私の招待を___ます。"
         },
-        "options": ["accepts", "declines", "replies"],
+        "options": [
+          "accepts",
+          "declines",
+          "replies"
+        ],
         "answer": 0
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "आभार प्रकट करने के लिए आप क्या कहते हैं?",
           "Japanese": "感謝を伝えるために何と言いますか？"
         },
-        "options": ["welcome", "thanks", "event"],
+        "options": [
+          "welcome",
+          "thanks",
+          "event"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "जो मेहमानों का स्वागत करता है वह कौन है?",
           "Japanese": "お客さんを迎える人は誰ですか？"
         },
-        "options": ["host", "reply", "decline"],
+        "options": [
+          "host",
+          "reply",
+          "decline"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "निमंत्रण अस्वीकार करने का मतलब है 'ना' कहना।",
           "Japanese": "招待を断るとは「いいえ」と言うことですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मुझे ___ करने के लिए धन्यवाद।",
           "Japanese": "___してくれてありがとう。"
         },
-        "options": ["accepting", "declining", "inviting"],
+        "options": [
+          "accepting",
+          "declining",
+          "inviting"
+        ],
         "answer": 2
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "माफ़ कीजिए, मैं ___ नहीं सकता।",
           "Japanese": "ごめんなさい、___できません。"
         },
-        "options": ["come", "celebrate", "invite"],
+        "options": [
+          "come",
+          "celebrate",
+          "invite"
+        ],
         "answer": 0
       },
       {
@@ -324,8 +351,26 @@
           "Hindi": "[like, would, you, party, my, to, come] को सही क्रम में लगाएं।",
           "Japanese": "[like, would, you, party, my, to, come]を並べ替えましょう。"
         },
-        "options": ["like", "would", "you", "party", "my", "to", "come", "to"],
-        "answer": ["Would", "you", "like", "to", "come", "to", "my", "party"]
+        "options": [
+          "like",
+          "would",
+          "you",
+          "party",
+          "my",
+          "to",
+          "come",
+          "to"
+        ],
+        "answer": [
+          "Would",
+          "you",
+          "like",
+          "to",
+          "come",
+          "to",
+          "my",
+          "party"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +380,11 @@
           "Hindi": "चलो तुम्हारा जन्मदिन ___।",
           "Japanese": "あなたの誕生日を___ましょう。"
         },
-        "options": ["celebrate", "accept", "invite"],
+        "options": [
+          "celebrate",
+          "accept",
+          "invite"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +395,105 @@
           "Hindi": "[the, host, of, party, he, is, the] को सही क्रम में लगाएं।",
           "Japanese": "[the, host, of, party, he, is, the]を並べ替えましょう。"
         },
-        "options": ["the", "host", "of", "party", "he", "is", "the"],
-        "answer": ["he", "is", "the", "host", "of", "the", "party"]
+        "options": [
+          "the",
+          "host",
+          "of",
+          "party",
+          "he",
+          "is",
+          "the"
+        ],
+        "answer": [
+          "he",
+          "is",
+          "the",
+          "host",
+          "of",
+          "the",
+          "party"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Who accepts the invitation? (Audio: 'She accepts my invitation.')",
+        "question": "Who accepts the invitation?",
         "audio_text": "She accepts my invitation.",
         "question_translation": {
           "Hindi": "निमंत्रण कौन स्वीकार करता है?",
           "Japanese": "招待を受け入れるのは誰ですか？"
         },
-        "options": ["He", "She", "I"],
+        "options": [
+          "He",
+          "She",
+          "I"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Who is the host of the party? (Audio: 'He is the host of the party.')",
+        "question": "Who is the host of the party?",
         "audio_text": "He is the host of the party.",
         "question_translation": {
           "Hindi": "पार्टी का आयोजक कौन है?",
           "Japanese": "パーティーの主催者は誰ですか？"
         },
-        "options": ["He", "She", "You"],
+        "options": [
+          "He",
+          "She",
+          "You"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do you say to show you are grateful? (Audio: 'Thanks for inviting me.')",
+        "question": "What do you say to show you are grateful?",
         "audio_text": "Thanks for inviting me.",
         "question_translation": {
           "Hindi": "आभार प्रकट करने के लिए क्या कहते हैं?",
           "Japanese": "感謝を伝えるために何と言いますか？"
         },
-        "options": ["welcome", "thanks", "maybe"],
+        "options": [
+          "welcome",
+          "thanks",
+          "maybe"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do you do if you can't come? (Audio: 'Sorry, I can't come.')",
+        "question": "What do you do if you can't come?",
         "audio_text": "Sorry, I can't come.",
         "question_translation": {
           "Hindi": "अगर आप नहीं आ सकते तो आप क्या करेंगे?",
           "Japanese": "行けない時は何をしますか？"
         },
-        "options": ["accept", "decline", "celebrate"],
+        "options": [
+          "accept",
+          "decline",
+          "celebrate"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What do you do at a birthday? (Audio: 'Let's celebrate your birthday!')",
+        "question": "What do you do at a birthday?",
         "audio_text": "Let's celebrate your birthday!",
         "question_translation": {
           "Hindi": "जन्मदिन पर आप क्या करते हैं?",
           "Japanese": "誕生日には何をしますか？"
         },
-        "options": ["decline", "celebrate", "invite"],
+        "options": [
+          "decline",
+          "celebrate",
+          "invite"
+        ],
         "answer": 1
       }
     ],

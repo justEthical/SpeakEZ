@@ -245,7 +245,11 @@
           "Hindi": "कौन सा वाहन आसमान में उड़ता है?",
           "Japanese": "空を飛ぶ乗り物はどれですか？"
         },
-        "options": ["Train", "Airplane", "Boat"],
+        "options": [
+          "Train",
+          "Airplane",
+          "Boat"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "बच्चे पार्क में ___ चलाते हैं।",
           "Japanese": "子どもたちは公園で___に乗ります。"
         },
-        "options": ["buses", "bicycles", "cars"],
+        "options": [
+          "buses",
+          "bicycles",
+          "cars"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "ज़मीन के नीचे चलने वाली ट्रेन कौन सी है?",
           "Japanese": "地下を走る電車はどれですか？"
         },
-        "options": ["Taxi", "Truck", "Subway"],
+        "options": [
+          "Taxi",
+          "Truck",
+          "Subway"
+        ],
         "answer": 2
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "किस वाहन में ड्राइवर को पैसे देते हैं?",
           "Japanese": "運転手にお金を払う乗り物はどれですか？"
         },
-        "options": ["Taxi", "Bicycle", "Bus"],
+        "options": [
+          "Taxi",
+          "Bicycle",
+          "Bus"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या नाव पानी पर चलती है?",
           "Japanese": "ボートは水の上を進みますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "हम ___ से स्कूल जाते हैं।",
           "Japanese": "私たちは___で学校へ行きます。"
         },
-        "options": ["bus", "boat", "bicycle"],
+        "options": [
+          "bus",
+          "boat",
+          "bicycle"
+        ],
         "answer": 0
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मेरे चाचा ___ चलाते हैं।",
           "Japanese": "おじは___に乗ります。"
         },
-        "options": ["motorcycle", "car", "subway"],
+        "options": [
+          "motorcycle",
+          "car",
+          "subway"
+        ],
         "answer": 0
       },
       {
@@ -324,8 +351,26 @@
           "Hindi": "[the, at, we, supermarket, food, by, truck, carry, to] को सही क्रम में लगाएं।",
           "Japanese": "[the, at, we, supermarket, food, by, truck, carry, to]を並べ替えましょう。"
         },
-        "options": ["the", "we", "supermarket", "food", "by", "truck", "carry", "to"],
-        "answer": ["We", "carry", "food", "to", "the", "supermarket", "by", "truck"]
+        "options": [
+          "the",
+          "we",
+          "supermarket",
+          "food",
+          "by",
+          "truck",
+          "carry",
+          "to"
+        ],
+        "answer": [
+          "We",
+          "carry",
+          "food",
+          "to",
+          "the",
+          "supermarket",
+          "by",
+          "truck"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +380,11 @@
           "Hindi": "हम ___ से मुंबई जाते हैं।",
           "Japanese": "私たちは___でムンバイへ行きます。"
         },
-        "options": ["train", "airplane", "car"],
+        "options": [
+          "train",
+          "airplane",
+          "car"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +395,103 @@
           "Hindi": "[school, go, I, to, by, bicycle] को सही क्रम में लगाएं।",
           "Japanese": "[school, go, I, to, by, bicycle]を並べ替えましょう。"
         },
-        "options": ["school", "go", "I", "to", "by", "bicycle"],
-        "answer": ["I", "go", "to", "school", "by", "bicycle"]
+        "options": [
+          "school",
+          "go",
+          "I",
+          "to",
+          "by",
+          "bicycle"
+        ],
+        "answer": [
+          "I",
+          "go",
+          "to",
+          "school",
+          "by",
+          "bicycle"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "How do we go to school? (Audio: 'We go to school by bus.')",
+        "question": "How do we go to school?",
         "audio_text": "We go to school by bus.",
         "question_translation": {
           "Hindi": "हम स्कूल कैसे जाते हैं?",
           "Japanese": "どうやって学校へ行きますか？"
         },
-        "options": ["By car", "By train", "By bus"],
+        "options": [
+          "By car",
+          "By train",
+          "By bus"
+        ],
         "answer": 2
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Who rides a motorcycle? (Audio: 'My uncle rides a motorcycle.')",
+        "question": "Who rides a motorcycle?",
         "audio_text": "My uncle rides a motorcycle.",
         "question_translation": {
           "Hindi": "मोटरसाइकिल कौन चलाता है?",
           "Japanese": "バイクに乗るのは誰ですか？"
         },
-        "options": ["My uncle", "My father", "My teacher"],
+        "options": [
+          "My uncle",
+          "My father",
+          "My teacher"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Where do children ride bicycles? (Audio: 'Children ride their bicycles in the park.')",
+        "question": "Where do children ride bicycles?",
         "audio_text": "Children ride their bicycles in the park.",
         "question_translation": {
           "Hindi": "बच्चे साइकिल कहाँ चलाते हैं?",
           "Japanese": "子どもたちはどこで自転車に乗りますか？"
         },
-        "options": ["School", "Park", "Home"],
+        "options": [
+          "School",
+          "Park",
+          "Home"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "How do we go to Delhi? (Audio: 'We go to Delhi by airplane.')",
+        "question": "How do we go to Delhi?",
         "audio_text": "We go to Delhi by airplane.",
         "question_translation": {
           "Hindi": "हम दिल्ली कैसे जाते हैं?",
           "Japanese": "どうやってデリーへ行きますか？"
         },
-        "options": ["By bus", "By airplane", "By truck"],
+        "options": [
+          "By bus",
+          "By airplane",
+          "By truck"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What carries food to the supermarket? (Audio: 'The truck carries food to the supermarket.')",
+        "question": "What carries food to the supermarket?",
         "audio_text": "The truck carries food to the supermarket.",
         "question_translation": {
           "Hindi": "सुपरमार्केट में सामान कौन ले जाता है?",
           "Japanese": "スーパーに食べ物を運ぶのは何ですか？"
         },
-        "options": ["Truck", "Train", "Boat"],
+        "options": [
+          "Truck",
+          "Train",
+          "Boat"
+        ],
         "answer": 0
       }
     ],

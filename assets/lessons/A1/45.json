@@ -245,7 +245,11 @@
           "Hindi": "बहुत लोगों और इमारतों वाले बड़े स्थान को क्या कहते हैं?",
           "Japanese": "たくさんの人と建物がある大きな場所は何ですか？"
         },
-        "options": ["village", "market", "city"],
+        "options": [
+          "village",
+          "market",
+          "city"
+        ],
         "answer": 2
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "मेरे दादा-दादी ___ में रहते हैं।",
           "Japanese": "私の祖父母は___に住んでいます。"
         },
-        "options": ["city", "village", "market"],
+        "options": [
+          "city",
+          "village",
+          "market"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "बच्चे कहाँ खेलते हैं?",
           "Japanese": "子どもたちはどこで遊びますか？"
         },
-        "options": ["temple", "park", "bus stop"],
+        "options": [
+          "temple",
+          "park",
+          "bus stop"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "लोग सामान कहाँ खरीदते और बेचते हैं?",
           "Japanese": "人々が物を買ったり売ったりする場所はどこですか？"
         },
-        "options": ["road", "field", "market"],
+        "options": [
+          "road",
+          "field",
+          "market"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या बस स्टॉप बस के इंतजार करने की जगह है?",
           "Japanese": "バス停はバスを待つ場所ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरे घर के पास एक ___ है।",
           "Japanese": "私の家の近くに___があります。"
         },
-        "options": ["market", "field", "temple"],
+        "options": [
+          "market",
+          "field",
+          "temple"
+        ],
         "answer": 2
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "शहर में ___ चौड़ी हैं।",
           "Japanese": "町の___は広いです。"
         },
-        "options": ["parks", "roads", "buildings"],
+        "options": [
+          "parks",
+          "roads",
+          "buildings"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,18 @@
           "Hindi": "[city, my, is, clean] को सही क्रम में लगाएं।",
           "Japanese": "[city, my, is, clean]を並べ替えましょう。"
         },
-        "options": ["city", "my", "is", "clean"],
-        "answer": ["my", "city", "is", "clean"]
+        "options": [
+          "city",
+          "my",
+          "is",
+          "clean"
+        ],
+        "answer": [
+          "my",
+          "city",
+          "is",
+          "clean"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +372,11 @@
           "Hindi": "किसान ___ में काम करते हैं।",
           "Japanese": "農家は___で働きます。"
         },
-        "options": ["fields", "buildings", "roads"],
+        "options": [
+          "fields",
+          "buildings",
+          "roads"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +387,107 @@
           "Hindi": "[stand, morning, I, stop, bus, at, every] को सही क्रम में लगाएं।",
           "Japanese": "[stand, morning, I, stop, bus, at, every]を並べ替えましょう。"
         },
-        "options": ["stand", "morning", "I", "stop", "bus", "at", "every", "the"],
-        "answer": ["I", "stand", "at", "the", "bus", "stop", "every", "morning"]
+        "options": [
+          "stand",
+          "morning",
+          "I",
+          "stop",
+          "bus",
+          "at",
+          "every",
+          "the"
+        ],
+        "answer": [
+          "I",
+          "stand",
+          "at",
+          "the",
+          "bus",
+          "stop",
+          "every",
+          "morning"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What is Mumbai? (Audio: 'Mumbai is a big city.')",
+        "question": "What is Mumbai?",
         "audio_text": "Mumbai is a big city.",
         "question_translation": {
           "Hindi": "मुंबई क्या है?",
           "Japanese": "ムンバイは何ですか？"
         },
-        "options": ["village", "market", "city"],
+        "options": [
+          "village",
+          "market",
+          "city"
+        ],
         "answer": 2
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Where do my grandparents live? (Audio: 'My grandparents live in a village.')",
+        "question": "Where do my grandparents live?",
         "audio_text": "My grandparents live in a village.",
         "question_translation": {
           "Hindi": "मेरे दादा-दादी कहाँ रहते हैं?",
           "Japanese": "私の祖父母はどこに住んでいますか？"
         },
-        "options": ["city", "village", "field"],
+        "options": [
+          "city",
+          "village",
+          "field"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Where do people buy things? (Audio: 'The market is busy in the morning.')",
+        "question": "Where do people buy things?",
         "audio_text": "The market is busy in the morning.",
         "question_translation": {
           "Hindi": "लोग सामान कहाँ खरीदते हैं?",
           "Japanese": "人々はどこで物を買いますか？"
         },
-        "options": ["market", "road", "field"],
+        "options": [
+          "market",
+          "road",
+          "field"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Who plays in the park? (Audio: 'Children play in the park.')",
+        "question": "Who plays in the park?",
         "audio_text": "Children play in the park.",
         "question_translation": {
           "Hindi": "पार्क में कौन खेलता है?",
           "Japanese": "公園で誰が遊びますか？"
         },
-        "options": ["adults", "children", "farmers"],
+        "options": [
+          "adults",
+          "children",
+          "farmers"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What is very clean? (Audio: 'My village is very clean.')",
+        "question": "What is very clean?",
         "audio_text": "My village is very clean.",
         "question_translation": {
           "Hindi": "क्या बहुत साफ है?",
           "Japanese": "何がとてもきれいですか？"
         },
-        "options": ["city", "building", "village"],
+        "options": [
+          "city",
+          "building",
+          "village"
+        ],
         "answer": 2
       }
     ],

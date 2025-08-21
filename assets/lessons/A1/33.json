@@ -245,7 +245,11 @@
           "Hindi": "'शब्दों को बोलना' के लिए कौन सा शब्द है?",
           "Japanese": "「声を使って言葉を話す」はどれですか？"
         },
-        "options": ["write", "speak", "read"],
+        "options": [
+          "write",
+          "speak",
+          "read"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वह अंग्रेज़ी में ___ सकती है।",
           "Japanese": "彼女は英語で___ことができます。"
         },
-        "options": ["read", "write", "speak"],
+        "options": [
+          "read",
+          "write",
+          "speak"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "दो भाषाएँ बोलने वाले व्यक्ति को क्या कहते हैं?",
           "Japanese": "2つの言語を話す人を何と言いますか？"
         },
-        "options": ["bilingual", "translator", "teacher"],
+        "options": [
+          "bilingual",
+          "translator",
+          "teacher"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "शब्दों का अर्थ जानने के लिए आप क्या इस्तेमाल करते हैं?",
           "Japanese": "言葉の意味を調べるのに何を使いますか？"
         },
-        "options": ["translate", "dictionary", "native language"],
+        "options": [
+          "translate",
+          "dictionary",
+          "native language"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या हिंदी किसी की मातृभाषा हो सकती है?",
           "Japanese": "ヒンディー語は母語になれますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "वह अंग्रेज़ी ___ बोलता है।",
           "Japanese": "彼は英語を___話します。"
         },
-        "options": ["bilingual", "fluently", "read"],
+        "options": [
+          "bilingual",
+          "fluently",
+          "read"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मैं नए शब्द सीखने के लिए ___ का इस्तेमाल करता हूँ।",
           "Japanese": "私は新しい言葉を学ぶために___を使います。"
         },
-        "options": ["translate", "dictionary", "language"],
+        "options": [
+          "translate",
+          "dictionary",
+          "language"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[Japanese, can, he, translate, English, to] को सही क्रम में लगाएं।",
           "Japanese": "[Japanese, can, he, translate, English, to]を並べ替えましょう。"
         },
-        "options": ["Japanese", "can", "he", "translate", "English", "to"],
-        "answer": ["he", "can", "translate", "Japanese", "to", "English"]
+        "options": [
+          "Japanese",
+          "can",
+          "he",
+          "translate",
+          "English",
+          "to"
+        ],
+        "answer": [
+          "he",
+          "can",
+          "translate",
+          "Japanese",
+          "to",
+          "English"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "___ मेरी मातृभाषा है।",
           "Japanese": "___は私の母語です。"
         },
-        "options": ["English", "Hindi", "read"],
+        "options": [
+          "English",
+          "Hindi",
+          "read"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +391,101 @@
           "Hindi": "[speak, I, and, English, Hindi] को सही क्रम में लगाएं।",
           "Japanese": "[speak, I, and, English, Hindi]を並べ替えましょう。"
         },
-        "options": ["speak", "I", "and", "English", "Hindi"],
-        "answer": ["I", "speak", "English", "and", "Hindi"]
+        "options": [
+          "speak",
+          "I",
+          "and",
+          "English",
+          "Hindi"
+        ],
+        "answer": [
+          "I",
+          "speak",
+          "English",
+          "and",
+          "Hindi"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What can he do? (Audio: 'He can read Japanese.')",
+        "question": "What can he do?",
         "audio_text": "He can read Japanese.",
         "question_translation": {
           "Hindi": "वह क्या कर सकता है?",
           "Japanese": "彼は何ができますか？"
         },
-        "options": ["Read Japanese", "Speak Hindi", "Write French"],
+        "options": [
+          "Read Japanese",
+          "Speak Hindi",
+          "Write French"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What does she do? (Audio: 'She can write in English.')",
+        "question": "What does she do?",
         "audio_text": "She can write in English.",
         "question_translation": {
           "Hindi": "वह क्या कर सकती है?",
           "Japanese": "彼女は何ができますか？"
         },
-        "options": ["Speak French", "Read Hindi", "Write in English"],
+        "options": [
+          "Speak French",
+          "Read Hindi",
+          "Write in English"
+        ],
         "answer": 2
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What is English? (Audio: 'English is a language.')",
+        "question": "What is English?",
         "audio_text": "English is a language.",
         "question_translation": {
           "Hindi": "अंग्रेज़ी क्या है?",
           "Japanese": "英語は何ですか？"
         },
-        "options": ["A language", "A country", "A book"],
+        "options": [
+          "A language",
+          "A country",
+          "A book"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What does he do well? (Audio: 'He speaks English fluently.')",
+        "question": "What does he do well?",
         "audio_text": "He speaks English fluently.",
         "question_translation": {
           "Hindi": "वह क्या अच्छी तरह करता है?",
           "Japanese": "彼は何をうまくやりますか？"
         },
-        "options": ["Read Hindi", "Write English", "Speak English"],
+        "options": [
+          "Read Hindi",
+          "Write English",
+          "Speak English"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "How many languages does she speak? (Audio: 'She is bilingual. She speaks Spanish and English.')",
+        "question": "How many languages does she speak?",
         "audio_text": "She is bilingual. She speaks Spanish and English.",
         "question_translation": {
           "Hindi": "वह कितनी भाषाएँ बोलती है?",
           "Japanese": "彼女は何カ国語話しますか？"
         },
-        "options": ["One", "Two", "Three"],
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ],
         "answer": 1
       }
     ],

@@ -245,7 +245,11 @@
           "Hindi": "जगहों और सड़कों को दिखाने वाली चित्र क्या है?",
           "Japanese": "場所や道を表す絵は何ですか？"
         },
-        "options": ["route", "map", "key"],
+        "options": [
+          "route",
+          "map",
+          "key"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "नक्शे पर पार्क दिखाने के लिए पेड़ का ___ होता है।",
           "Japanese": "地図で公園を表すのは木の___です。"
         },
-        "options": ["symbol", "route", "key"],
+        "options": [
+          "symbol",
+          "route",
+          "key"
+        ],
         "answer": 0
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "चिह्नों का मतलब जानने के लिए क्या देखना चाहिए?",
           "Japanese": "記号の意味を知るには何を見ますか？"
         },
-        "options": ["map", "key", "direction"],
+        "options": [
+          "map",
+          "key",
+          "direction"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "नक्शे के ऊपर कौन सी दिशा होती है?",
           "Japanese": "地図の上はどの方角ですか？"
         },
-        "options": ["north", "south", "west"],
+        "options": [
+          "north",
+          "south",
+          "west"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या route वो रास्ता है जिससे आप कहीं पहुँचते हैं?",
           "Japanese": "ルートはどこかに行くための道順ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "स्कूल पार्क के ___ में है।",
           "Japanese": "学校は公園の___にあります。"
         },
-        "options": ["south", "north", "west"],
+        "options": [
+          "south",
+          "north",
+          "west"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "बाज़ार स्कूल के ___ में है।",
           "Japanese": "市場は学校の___にあります。"
         },
-        "options": ["east", "west", "north"],
+        "options": [
+          "east",
+          "west",
+          "north"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[map, the, on, find, location, your] को सही क्रम में लगाएं।",
           "Japanese": "[map, the, on, find, location, your]を並べ替えましょう。"
         },
-        "options": ["map", "the", "on", "find", "location", "your"],
-        "answer": ["Find", "your", "location", "on", "the", "map"]
+        "options": [
+          "map",
+          "the",
+          "on",
+          "find",
+          "location",
+          "your"
+        ],
+        "answer": [
+          "Find",
+          "your",
+          "location",
+          "on",
+          "the",
+          "map"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "नक्शा समझने के लिए ___ देखें।",
           "Japanese": "地図を理解するために___を見てください。"
         },
-        "options": ["key", "route", "direction"],
+        "options": [
+          "key",
+          "route",
+          "direction"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +391,105 @@
           "Hindi": "[followed, route, we, map, the, on, the] को सही क्रम में लगाएं।",
           "Japanese": "[followed, route, we, map, the, on, the]を並べ替えましょう。"
         },
-        "options": ["followed", "route", "we", "map", "the", "on", "the"],
-        "answer": ["We", "followed", "the", "route", "on", "the", "map"]
+        "options": [
+          "followed",
+          "route",
+          "we",
+          "map",
+          "the",
+          "on",
+          "the"
+        ],
+        "answer": [
+          "We",
+          "followed",
+          "the",
+          "route",
+          "on",
+          "the",
+          "map"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What does this map show? (Audio: 'This map shows our city.')",
+        "question": "What does this map show?",
         "audio_text": "This map shows our city.",
         "question_translation": {
           "Hindi": "यह नक्शा क्या दिखाता है?",
           "Japanese": "この地図は何を示していますか？"
         },
-        "options": ["city", "route", "symbol"],
+        "options": [
+          "city",
+          "route",
+          "symbol"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Where is the river? (Audio: 'The river is to the east of the village.')",
+        "question": "Where is the river?",
         "audio_text": "The river is to the east of the village.",
         "question_translation": {
           "Hindi": "नदी गाँव के किस तरफ है?",
           "Japanese": "川は村のどちら側ですか？"
         },
-        "options": ["west", "north", "east"],
+        "options": [
+          "west",
+          "north",
+          "east"
+        ],
         "answer": 2
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What is a tree symbol used for? (Audio: 'A tree symbol shows a park.')",
+        "question": "What is a tree symbol used for?",
         "audio_text": "A tree symbol shows a park.",
         "question_translation": {
           "Hindi": "पेड़ का चिह्न किसके लिए है?",
           "Japanese": "木の記号は何を示しますか？"
         },
-        "options": ["market", "school", "park"],
+        "options": [
+          "market",
+          "school",
+          "park"
+        ],
         "answer": 2
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do you use to know the meaning of symbols? (Audio: 'Use the key to understand the map.')",
+        "question": "What do you use to know the meaning of symbols?",
         "audio_text": "Use the key to understand the map.",
         "question_translation": {
           "Hindi": "नक्शे के चिह्नों का मतलब जानने के लिए क्या देखते हैं?",
           "Japanese": "記号の意味を知るために何を見ますか？"
         },
-        "options": ["direction", "route", "key"],
+        "options": [
+          "direction",
+          "route",
+          "key"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What is the path called? (Audio: 'We followed the route on the map.')",
+        "question": "What is the path called?",
         "audio_text": "We followed the route on the map.",
         "question_translation": {
           "Hindi": "रास्ते को क्या कहते हैं?",
           "Japanese": "道順を何と言いますか？"
         },
-        "options": ["route", "location", "map"],
+        "options": [
+          "route",
+          "location",
+          "map"
+        ],
         "answer": 0
       }
     ],
