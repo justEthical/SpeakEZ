@@ -1,216 +1,111 @@
 {
-  "id": "lesson_rooms_furniture_001",
-  "lesson_name": "Rooms & Furniture",
+  "id": "lesson_clothes_accessories_001",
+  "lesson_name": "Clothes & Accessories",
   "purpose": "All",
   "cefrLevel": "A1",
   "lesson_intro": {
     "vocabulary": [
       {
-        "word": "living room",
+        "word": "shirt",
         "word_translation": {
-          "Hindi": "बैठक कक्ष",
-          "Japanese": "居間"
+          "Hindi": "कमीज़",
+          "Japanese": "シャツ"
         },
-        "meaning": "the room where you relax and talk with family or guests",
+        "meaning": "A piece of clothing worn on the upper body",
         "meaning_translation": {
-          "Hindi": "जहाँ आप परिवार या मेहमानों के साथ आराम करते हैं",
-          "Japanese": "家族やゲストとくつろぐ部屋"
+          "Hindi": "ऊपरी शरीर पर पहना जाने वाला वस्त्र",
+          "Japanese": "上半身に着る服"
         },
         "examples": [
           {
-            "sentence": "There is a sofa in the living room.",
+            "sentence": "I am wearing a blue shirt.",
             "translation": {
-              "Hindi": "बैठक कक्ष में एक सोफ़ा है।",
-              "Japanese": "居間にソファがあります。"
+              "Hindi": "मैं नीली कमीज़ पहन रहा हूँ।",
+              "Japanese": "私は青いシャツを着ています。"
             }
           }
         ]
       },
       {
-        "word": "bedroom",
+        "word": "pants",
         "word_translation": {
-          "Hindi": "शयनकक्ष",
-          "Japanese": "寝室"
+          "Hindi": "पतलून",
+          "Japanese": "ズボン"
         },
-        "meaning": "the room where you sleep",
+        "meaning": "Clothes worn on the legs",
         "meaning_translation": {
-          "Hindi": "वह कमरा जहाँ आप सोते हैं",
-          "Japanese": "寝る部屋"
+          "Hindi": "पैरों पर पहने जाने वाले कपड़े",
+          "Japanese": "足に履く服"
         },
         "examples": [
           {
-            "sentence": "My bed is in the bedroom.",
+            "sentence": "He bought black pants.",
             "translation": {
-              "Hindi": "मेरा बिस्तर शयनकक्ष में है।",
-              "Japanese": "ベッドは寝室にあります。"
+              "Hindi": "उसने काली पतलून खरीदी।",
+              "Japanese": "彼は黒いズボンを買いました。"
             }
           }
         ]
       },
       {
-        "word": "kitchen",
+        "word": "shoes",
         "word_translation": {
-          "Hindi": "रसोईघर",
-          "Japanese": "台所"
+          "Hindi": "जूते",
+          "Japanese": "靴"
         },
-        "meaning": "the room where you cook and prepare food",
+        "meaning": "Something you wear on your feet",
         "meaning_translation": {
-          "Hindi": "जहाँ आप खाना बनाते हैं",
-          "Japanese": "料理を作る部屋"
+          "Hindi": "पैरों में पहनी जाने वाली वस्तु",
+          "Japanese": "足に履くもの"
         },
         "examples": [
           {
-            "sentence": "The fridge is in the kitchen.",
+            "sentence": "My shoes are white.",
             "translation": {
-              "Hindi": "फ्रिज रसोईघर में है।",
-              "Japanese": "冷蔵庫は台所にあります。"
+              "Hindi": "मेरे जूते सफेद हैं।",
+              "Japanese": "私の靴は白です。"
             }
           }
         ]
       },
       {
-        "word": "bathroom",
+        "word": "hat",
         "word_translation": {
-          "Hindi": "बाथरूम",
-          "Japanese": "お風呂場"
+          "Hindi": "टोपी",
+          "Japanese": "帽子"
         },
-        "meaning": "the room where you wash and shower",
+        "meaning": "Something you wear on your head",
         "meaning_translation": {
-          "Hindi": "जहाँ आप नहाते या साफ-सफाई करते हैं",
-          "Japanese": "体を洗う部屋"
+          "Hindi": "सिर पर पहनी जाने वाली वस्तु",
+          "Japanese": "頭にかぶるもの"
         },
         "examples": [
           {
-            "sentence": "There is a mirror in the bathroom.",
+            "sentence": "She is wearing a red hat.",
             "translation": {
-              "Hindi": "बाथरूम में एक आईना है।",
-              "Japanese": "お風呂場に鏡があります。"
+              "Hindi": "वह लाल टोपी पहन रही है।",
+              "Japanese": "彼女は赤い帽子をかぶっています。"
             }
           }
         ]
       },
       {
-        "word": "sofa",
+        "word": "bag",
         "word_translation": {
-          "Hindi": "सोफ़ा",
-          "Japanese": "ソファ"
+          "Hindi": "बैग",
+          "Japanese": "かばん"
         },
-        "meaning": "a large, soft seat for two or more people",
+        "meaning": "Something used to carry things",
         "meaning_translation": {
-          "Hindi": "दो या अधिक लोगों के बैठने के लिए बड़ा, मुलायम सीट",
-          "Japanese": "2人以上が座れる柔らかい椅子"
+          "Hindi": "चीज़ें रखने और ले जाने के लिए उपयोग की जाने वाली वस्तु",
+          "Japanese": "物を持ち運ぶために使うもの"
         },
         "examples": [
           {
-            "sentence": "We watch TV on the sofa.",
+            "sentence": "This is my school bag.",
             "translation": {
-              "Hindi": "हम सोफ़ा पर टीवी देखते हैं।",
-              "Japanese": "私たちはソファでテレビを見ます。"
-            }
-          }
-        ]
-      },
-      {
-        "word": "bed",
-        "word_translation": {
-          "Hindi": "बिस्तर",
-          "Japanese": "ベッド"
-        },
-        "meaning": "a piece of furniture you sleep on",
-        "meaning_translation": {
-          "Hindi": "जिस पर आप सोते हैं वह फर्नीचर",
-          "Japanese": "寝るための家具"
-        },
-        "examples": [
-          {
-            "sentence": "The bed is soft and comfortable.",
-            "translation": {
-              "Hindi": "बिस्तर नरम और आरामदायक है।",
-              "Japanese": "ベッドは柔らかくて気持ちいいです。"
-            }
-          }
-        ]
-      },
-      {
-        "word": "table",
-        "word_translation": {
-          "Hindi": "मेज़",
-          "Japanese": "テーブル"
-        },
-        "meaning": "a piece of furniture with a flat top and legs",
-        "meaning_translation": {
-          "Hindi": "एक समतल ऊपरी सतह और पैरों वाली वस्तु",
-          "Japanese": "平らな天板と足のある家具"
-        },
-        "examples": [
-          {
-            "sentence": "We eat dinner at the table.",
-            "translation": {
-              "Hindi": "हम मेज़ पर रात का खाना खाते हैं।",
-              "Japanese": "私たちはテーブルで夕食を食べます。"
-            }
-          }
-        ]
-      },
-      {
-        "word": "chair",
-        "word_translation": {
-          "Hindi": "कुर्सी",
-          "Japanese": "椅子"
-        },
-        "meaning": "a seat for one person, usually with a back",
-        "meaning_translation": {
-          "Hindi": "एक व्यक्ति के बैठने के लिए पीठ वाली सीट",
-          "Japanese": "背もたれ付きの一人用の座席"
-        },
-        "examples": [
-          {
-            "sentence": "There are four chairs around the table.",
-            "translation": {
-              "Hindi": "मेज़ के चारों ओर चार कुर्सियाँ हैं।",
-              "Japanese": "テーブルの周りに椅子が4つあります。"
-            }
-          }
-        ]
-      },
-      {
-        "word": "wardrobe",
-        "word_translation": {
-          "Hindi": "अलमारी",
-          "Japanese": "たんす"
-        },
-        "meaning": "a large piece of furniture for storing clothes",
-        "meaning_translation": {
-          "Hindi": "कपड़े रखने के लिए बड़ी अलमारी",
-          "Japanese": "服をしまうための大きな家具"
-        },
-        "examples": [
-          {
-            "sentence": "My clothes are in the wardrobe.",
-            "translation": {
-              "Hindi": "मेरे कपड़े अलमारी में हैं।",
-              "Japanese": "私の服はたんすに入っています。"
-            }
-          }
-        ]
-      },
-      {
-        "word": "lamp",
-        "word_translation": {
-          "Hindi": "लैंप",
-          "Japanese": "ランプ"
-        },
-        "meaning": "an electric light that you can move and put on a table",
-        "meaning_translation": {
-          "Hindi": "एक विद्युत लैंप जिसे आप मेज़ पर रख सकते हैं",
-          "Japanese": "テーブルに置ける電気のライト"
-        },
-        "examples": [
-          {
-            "sentence": "There is a lamp beside my bed.",
-            "translation": {
-              "Hindi": "मेरे बिस्तर के पास एक लैंप है।",
-              "Japanese": "ベッドのそばにランプがあります。"
+              "Hindi": "यह मेरा स्कूल बैग है।",
+              "Japanese": "これは私の学校のかばんです。"
             }
           }
         ]
@@ -218,19 +113,19 @@
     ],
     "grammar_tips": [
       {
-        "title": "Using 'There is/There are' for rooms and furniture",
-        "explanation": "Use 'There is' for one thing, and 'There are' for more than one. Example: 'There is a sofa in the living room.' 'There are two chairs at the table.'",
+        "title": "Using 'wearing'",
+        "explanation": "Use 'I am wearing...' to say what clothes you have on. Example: I am wearing a shirt.",
         "explanation_translation": {
-          "Hindi": "'There is' का उपयोग एक के लिए और 'There are' का उपयोग एक से अधिक के लिए करें। उदाहरण: 'बैठक कक्ष में एक सोफ़ा है।' 'मेज़ पर दो कुर्सियाँ हैं।'",
-          "Japanese": "一つの場合は「There is」、複数は「There are」を使います。例: '居間にソファがあります。' 'テーブルに椅子が2つあります。'"
+          "Hindi": "'I am wearing...' का उपयोग यह बताने के लिए करें कि आप कौन से कपड़े पहने हुए हैं। उदाहरण: I am wearing a shirt.",
+          "Japanese": "「I am wearing...」を使って、着ている服を言います。例: I am wearing a shirt."
         }
       },
       {
-        "title": "Describing furniture location",
-        "explanation": "Use 'in', 'on', 'under', 'beside', or 'between' to say where something is. Example: 'The bed is in the bedroom.' 'The lamp is beside the sofa.'",
+        "title": "Using colors with clothes",
+        "explanation": "Say the color before the clothing word. Example: a red hat, blue pants.",
         "explanation_translation": {
-          "Hindi": "'in', 'on', 'under', 'beside', या 'between' का उपयोग चीजों की जगह बताने के लिए करें। उदाहरण: 'बिस्तर शयनकक्ष में है।' 'लैंप सोफ़ा के पास है।'",
-          "Japanese": "物の位置を表すには 'in', 'on', 'under', 'beside', 'between' を使います。例: 'ベッドは寝室にあります。' 'ランプはソファのそばにあります。'"
+          "Hindi": "कपड़ों से पहले रंग का प्रयोग करें। उदाहरण: a red hat, blue pants.",
+          "Japanese": "服の前に色を言います。例: a red hat, blue pants."
         }
       }
     ]
@@ -240,56 +135,56 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "Where do you sleep?",
+        "question": "What do you wear on your feet?",
         "question_translation": {
-          "Hindi": "आप कहाँ सोते हैं?",
-          "Japanese": "どこで寝ますか？"
+          "Hindi": "आप अपने पैरों में क्या पहनते हैं?",
+          "Japanese": "足に何を履きますか？"
         },
-        "options": ["Living room", "Bedroom", "Kitchen"],
-        "answer": 1
+        "options": ["shirt", "pants", "shoes"],
+        "answer": 2
       },
       {
         "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "There is a ___ on the table.",
+        "type": "multipleChoice",
+        "question": "Which word means something you carry things in?",
         "question_translation": {
-          "Hindi": "मेज़ पर एक ___ है।",
-          "Japanese": "テーブルの上に___があります。"
+          "Hindi": "कौन सा शब्द उस वस्तु का अर्थ है जिसमें आप चीजें रखते हैं?",
+          "Japanese": "物を入れて運ぶものはどれですか？"
         },
-        "options": ["chair", "lamp", "bed"],
-        "answer": 1
+        "options": ["bag", "hat", "shoes"],
+        "answer": 0
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which room do you cook in?",
+        "type": "fillInTheBlanks",
+        "question": "She is wearing a red ___.",
         "question_translation": {
-          "Hindi": "आप किस कमरे में खाना बनाते हैं?",
-          "Japanese": "どの部屋で料理をしますか？"
+          "Hindi": "वह लाल ___ पहन रही है।",
+          "Japanese": "彼女は赤い___をかぶっています。"
         },
-        "options": ["Bedroom", "Kitchen", "Bathroom"],
+        "options": ["shirt", "hat", "bag"],
         "answer": 1
       },
       {
         "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Where do you keep your clothes?",
+        "type": "trueFalse",
+        "question": "Pants are worn on the legs.",
         "question_translation": {
-          "Hindi": "आप अपने कपड़े कहाँ रखते हैं?",
-          "Japanese": "服はどこにしまいますか？"
+          "Hindi": "पतलून पैरों पर पहनी जाती है।",
+          "Japanese": "ズボンは足に履きます。"
         },
-        "options": ["Table", "Wardrobe", "Sofa"],
-        "answer": 1
+        "options": ["True", "False"],
+        "answer": 0
       },
       {
         "id": "vocab5",
-        "type": "trueFalse",
-        "question": "You can sleep on a sofa.",
+        "type": "multipleChoice",
+        "question": "What do you wear on your upper body?",
         "question_translation": {
-          "Hindi": "क्या आप सोफ़ा पर सो सकते हैं?",
-          "Japanese": "ソファで寝ることができますか？"
+          "Hindi": "आप अपने ऊपरी शरीर पर क्या पहनते हैं?",
+          "Japanese": "上半身に何を着ますか？"
         },
-        "options": ["True", "False"],
+        "options": ["shirt", "pants", "shoes"],
         "answer": 0
       }
     ],
@@ -297,176 +192,176 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "There are two ___ in the kitchen. (chairs)",
+        "question": "I am wearing a blue ___.",
         "question_translation": {
-          "Hindi": "रसोईघर में दो ___ हैं।",
-          "Japanese": "台所に___が二つあります。"
+          "Hindi": "मैं नीली ___ पहन रहा हूँ।",
+          "Japanese": "私は青い___を着ています。"
         },
-        "options": ["beds", "chairs", "tables"],
-        "answer": 1
+        "options": ["shirt", "pants", "bag"],
+        "answer": 0
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "The ___ is beside my bed. (lamp)",
+        "question": "He bought black ___.",
         "question_translation": {
-          "Hindi": "लैंप मेरे बिस्तर के पास है।",
-          "Japanese": "ランプは私のベッドのそばにあります。"
+          "Hindi": "उसने काली ___ खरीदी।",
+          "Japanese": "彼は黒い___を買いました。"
         },
-        "options": ["sofa", "wardrobe", "lamp"],
-        "answer": 2
+        "options": ["pants", "shoes", "hat"],
+        "answer": 0
       },
       {
         "id": "sent3",
         "type": "sentenceRearranging",
-        "question": "Arrange: [in, living room, a, is, sofa, the]",
+        "question": "Arrange: [is, She, hat, wearing, a]",
         "question_translation": {
-          "Hindi": "[in, living room, a, is, sofa, the] को सही क्रम में लगाएं।",
-          "Japanese": "[in, living room, a, is, sofa, the]を並び替えましょう。"
+          "Hindi": "क्रम में लगाएं: [is, She, hat, wearing, a]",
+          "Japanese": "並べ替え: [is, She, hat, wearing, a]"
         },
-        "options": ["in", "living room", "a", "is", "sofa", "the"],
-        "answer": ["There", "is", "a", "sofa", "in", "the", "living room"]
+        "options": ["is", "She", "hat", "wearing", "a"],
+        "answer": ["She", "is", "wearing", "a", "hat"]
       },
       {
         "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "I put my clothes in the ___.",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [bag, my, This, is]",
         "question_translation": {
-          "Hindi": "मैं अपने कपड़े ___ में रखता हूँ।",
-          "Japanese": "私は服を___にしまいます。"
+          "Hindi": "क्रम में लगाएं: [bag, my, This, is]",
+          "Japanese": "並べ替え: [bag, my, This, is]"
         },
-        "options": ["wardrobe", "kitchen", "bed"],
-        "answer": 0
+        "options": ["bag", "my", "This", "is"],
+        "answer": ["This", "is", "my", "bag"]
       },
       {
         "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, table, the, room, in, dining, the]",
+        "type": "fillInTheBlanks",
+        "question": "My ___ are white.",
         "question_translation": {
-          "Hindi": "[is, table, the, room, in, dining, the] को सही क्रम में लगाएं।",
-          "Japanese": "[is, table, the, room, in, dining, the]を並び替えましょう。"
+          "Hindi": "मेरे ___ सफेद हैं।",
+          "Japanese": "私の___は白です。"
         },
-        "options": ["is", "table", "the", "room", "in", "dining", "the"],
-        "answer": ["The", "table", "is", "in", "the", "dining", "room"]
+        "options": ["shoes", "pants", "hat"],
+        "answer": 0
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Which furniture is near the bed?",
-        "audio_text": "There is a lamp beside the bed.",
+        "question": "What did the speaker say?",
+        "audio_text": "I am wearing a shirt.",
         "question_translation": {
-          "Hindi": "बिस्तर के पास कौन सा फर्नीचर है?",
-          "Japanese": "ベッドのそばにある家具は何ですか？"
+          "Hindi": "वक्ता ने क्या कहा?",
+          "Japanese": "話者は何と言いましたか？"
         },
-        "options": ["Lamp", "Sofa", "Table"],
+        "options": ["I am wearing a shirt.", "I am wearing pants.", "I am wearing a hat."],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Which room has a fridge?",
-        "audio_text": "The fridge is in the kitchen.",
+        "question": "What color are the shoes?",
+        "audio_text": "My shoes are white.",
         "question_translation": {
-          "Hindi": "किस कमरे में फ्रिज है?",
-          "Japanese": "冷蔵庫はどの部屋にありますか？"
+          "Hindi": "जूते किस रंग के हैं?",
+          "Japanese": "靴は何色ですか？"
         },
-        "options": ["Living room", "Kitchen", "Bedroom"],
+        "options": ["Black", "White", "Blue"],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Where do we eat dinner?",
-        "audio_text": "We eat dinner at the table.",
+        "question": "What is the person carrying?",
+        "audio_text": "This is my bag.",
         "question_translation": {
-          "Hindi": "हम रात का खाना कहाँ खाते हैं?",
-          "Japanese": "どこで夕食を食べますか？"
+          "Hindi": "व्यक्ति क्या ले जा रहा है?",
+          "Japanese": "その人は何を持っていますか？"
         },
-        "options": ["Bed", "Sofa", "Table"],
+        "options": ["Shoes", "Hat", "Bag"],
         "answer": 2
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Where do you sit in the living room?",
-        "audio_text": "We sit on the sofa in the living room.",
+        "question": "What is on her head?",
+        "audio_text": "She is wearing a hat.",
         "question_translation": {
-          "Hindi": "बैठक कक्ष में आप कहाँ बैठते हैं?",
-          "Japanese": "居間ではどこに座りますか？"
+          "Hindi": "उसके सिर पर क्या है?",
+          "Japanese": "彼女の頭には何がありますか？"
         },
-        "options": ["Chair", "Bed", "Sofa"],
-        "answer": 2
+        "options": ["Shoes", "Hat", "Shirt"],
+        "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What do you use to see yourself?",
-        "audio_text": "There is a mirror in the bathroom.",
+        "question": "What did he buy?",
+        "audio_text": "He bought black pants.",
         "question_translation": {
-          "Hindi": "आप खुद को देखने के लिए क्या उपयोग करते हैं?",
-          "Japanese": "自分を見るために使うものは何ですか？"
+          "Hindi": "उसने क्या खरीदा?",
+          "Japanese": "彼は何を買いましたか？"
         },
-        "options": ["Chair", "Lamp", "Mirror"],
-        "answer": 2
+        "options": ["Pants", "Shirt", "Bag"],
+        "answer": 0
       }
     ],
     "speaking": [
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'There is a sofa in the living room.'",
+        "question": "Say: 'I am wearing a blue shirt.'",
         "question_translation": {
-          "Hindi": "कहें: 'बैठक कक्ष में एक सोफ़ा है।'",
-          "Japanese": "「居間にソファがあります。」と言ってください。"
+          "Hindi": "कहें: 'I am wearing a blue shirt.'",
+          "Japanese": "言ってください: 'I am wearing a blue shirt.'"
         },
         "options": [],
-        "answer": "There is a sofa in the living room."
+        "answer": "i am wearing a blue shirt"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Say: 'The bed is in the bedroom.'",
+        "question": "Say: 'My shoes are white.'",
         "question_translation": {
-          "Hindi": "कहें: 'बिस्तर शयनकक्ष में है।'",
-          "Japanese": "「ベッドは寝室にあります。」と言ってください。"
+          "Hindi": "कहें: 'My shoes are white.'",
+          "Japanese": "言ってください: 'My shoes are white.'"
         },
         "options": [],
-        "answer": "The bed is in the bedroom."
+        "answer": "my shoes are white"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'There are four chairs around the table.'",
+        "question": "Say: 'She is wearing a hat.'",
         "question_translation": {
-          "Hindi": "कहें: 'मेज़ के चारों ओर चार कुर्सियाँ हैं।'",
-          "Japanese": "「テーブルの周りに椅子が4つあります。」と言ってください。"
+          "Hindi": "कहें: 'She is wearing a hat.'",
+          "Japanese": "言ってください: 'She is wearing a hat.'"
         },
         "options": [],
-        "answer": "There are four chairs around the table."
+        "answer": "she is wearing a hat"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Say: 'My clothes are in the wardrobe.'",
+        "question": "Say: 'This is my bag.'",
         "question_translation": {
-          "Hindi": "कहें: 'मेरे कपड़े अलमारी में हैं।'",
-          "Japanese": "「私の服はたんすに入っています。」と言ってください。"
+          "Hindi": "कहें: 'This is my bag.'",
+          "Japanese": "言ってください: 'This is my bag.'"
         },
         "options": [],
-        "answer": "My clothes are in the wardrobe."
+        "answer": "this is my bag"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Say: 'There is a lamp beside my bed.'",
+        "question": "Say: 'He bought black pants.'",
         "question_translation": {
-          "Hindi": "कहें: 'मेरे बिस्तर के पास एक लैंप है।'",
-          "Japanese": "「ベッドのそばにランプがあります。」と言ってください。"
+          "Hindi": "कहें: 'He bought black pants.'",
+          "Japanese": "言ってください: 'He bought black pants.'"
         },
         "options": [],
-        "answer": "There is a lamp beside my bed."
+        "answer": "he bought black pants"
       }
     ]
   }

@@ -1,4 +1,531 @@
 {
-  "id": 45,
-  "message": "This is file number 45"
+  "id": "lesson_food_recipes_001",
+  "lesson_name": "Describing Food & Recipes",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "ingredient",
+        "word_translation": {
+          "Hindi": "सामग्री",
+          "Japanese": "材料"
+        },
+        "meaning": "One of the foods used to make a dish",
+        "meaning_translation": {
+          "Hindi": "किसी पकवान को बनाने में इस्तेमाल होने वाला एक पदार्थ",
+          "Japanese": "料理を作るために使う一つ一つの食材"
+        },
+        "examples": [
+          {
+            "sentence": "Tomatoes are the main ingredient in this soup.",
+            "translation": {
+              "Hindi": "इस सूप में टमाटर मुख्य सामग्री हैं।",
+              "Japanese": "このスープの主な材料はトマトです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recipe",
+        "word_translation": {
+          "Hindi": "रेसिपी / विधि",
+          "Japanese": "レシピ"
+        },
+        "meaning": "Instructions for cooking a dish",
+        "meaning_translation": {
+          "Hindi": "किसी पकवान को बनाने के निर्देश",
+          "Japanese": "料理の作り方の手順"
+        },
+        "examples": [
+          {
+            "sentence": "I followed a simple recipe for pasta.",
+            "translation": {
+              "Hindi": "मैंने पास्ता के लिए एक आसान रेसिपी का पालन किया।",
+              "Japanese": "パスタの簡単なレシピに従いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "spicy",
+        "word_translation": {
+          "Hindi": "मसालेदार / तीखा",
+          "Japanese": "辛い"
+        },
+        "meaning": "Having a strong, hot taste from spices or chili",
+        "meaning_translation": {
+          "Hindi": "मसालों या मिर्च से बना तेज़/तीखा स्वाद",
+          "Japanese": "香辛料や唐辛子でピリッとした味があること"
+        },
+        "examples": [
+          {
+            "sentence": "This curry is very spicy.",
+            "translation": {
+              "Hindi": "यह करी बहुत तीखी है।",
+              "Japanese": "このカレーはとても辛いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sweet",
+        "word_translation": {
+          "Hindi": "मीठा",
+          "Japanese": "甘い"
+        },
+        "meaning": "Tasting like sugar or honey",
+        "meaning_translation": {
+          "Hindi": "चीनी या शहद जैसा स्वाद",
+          "Japanese": "砂糖や蜂蜜のような味"
+        },
+        "examples": [
+          {
+            "sentence": "The cake is sweet and soft.",
+            "translation": {
+              "Hindi": "केक मीठा और मुलायम है।",
+              "Japanese": "そのケーキは甘くてやわらかいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sour",
+        "word_translation": {
+          "Hindi": "खट्टा",
+          "Japanese": "酸っぱい"
+        },
+        "meaning": "Having a sharp taste like lemon or yogurt",
+        "meaning_translation": {
+          "Hindi": "नींबू या दही जैसा तेज़ खट्टा स्वाद",
+          "Japanese": "レモンやヨーグルトのような酸味がある味"
+        },
+        "examples": [
+          {
+            "sentence": "Lemon juice is sour.",
+            "translation": {
+              "Hindi": "नींबू का रस खट्टा होता है।",
+              "Japanese": "レモン汁は酸っぱいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "salty",
+        "word_translation": {
+          "Hindi": "नमकीन",
+          "Japanese": "しょっぱい"
+        },
+        "meaning": "Tasting of salt",
+        "meaning_translation": {
+          "Hindi": "नमक जैसा स्वाद होना",
+          "Japanese": "塩の味がすること"
+        },
+        "examples": [
+          {
+            "sentence": "The soup is a bit too salty.",
+            "translation": {
+              "Hindi": "सूप थोड़ा ज़्यादा नमकीन है।",
+              "Japanese": "そのスープは少ししょっぱすぎます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "savory",
+        "word_translation": {
+          "Hindi": "चटपटा / उमामी स्वाद",
+          "Japanese": "うま味のある / 香ばしい"
+        },
+        "meaning": "Pleasant, rich taste that is not sweet",
+        "meaning_translation": {
+          "Hindi": "मीठा नहीं, बल्कि सुखद और गाढ़ा स्वाद",
+          "Japanese": "甘くない、うま味のある濃い味"
+        },
+        "examples": [
+          {
+            "sentence": "This soup has a rich, savory flavor.",
+            "translation": {
+              "Hindi": "इस सूप में गहरा, चटपटा स्वाद है।",
+              "Japanese": "このスープはコクのあるうま味がします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "boil",
+        "word_translation": {
+          "Hindi": "उबालना",
+          "Japanese": "茹でる / 沸かす"
+        },
+        "meaning": "To cook something in hot, bubbling water",
+        "meaning_translation": {
+          "Hindi": "गर्म, उबलते पानी में पकाना",
+          "Japanese": "沸騰した湯で調理すること"
+        },
+        "examples": [
+          {
+            "sentence": "Boil the potatoes for ten minutes.",
+            "translation": {
+              "Hindi": "आलू को दस मिनट उबालें।",
+              "Japanese": "じゃがいもを10分茹でてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fry",
+        "word_translation": {
+          "Hindi": "तलना / भूनना",
+          "Japanese": "炒める / 揚げる"
+        },
+        "meaning": "To cook food in hot oil",
+        "meaning_translation": {
+          "Hindi": "गर्म तेल में खाना पकाना",
+          "Japanese": "熱い油で調理すること"
+        },
+        "examples": [
+          {
+            "sentence": "Fry the onions until golden.",
+            "translation": {
+              "Hindi": "प्याज़ को सुनहरा होने तक भूनें।",
+              "Japanese": "玉ねぎがきつね色になるまで炒めてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bake",
+        "word_translation": {
+          "Hindi": "बेक करना / ओवन में पकाना",
+          "Japanese": "オーブンで焼く"
+        },
+        "meaning": "To cook food in an oven",
+        "meaning_translation": {
+          "Hindi": "ओवन में खाना पकाना",
+          "Japanese": "オーブンで調理すること"
+        },
+        "examples": [
+          {
+            "sentence": "Bake the bread for 25 minutes.",
+            "translation": {
+              "Hindi": "ब्रेड को 25 मिनट तक बेक करें।",
+              "Japanese": "パンを25分焼いてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "chop",
+        "word_translation": {
+          "Hindi": "काटना / बारीक काटना",
+          "Japanese": "刻む / みじん切りにする"
+        },
+        "meaning": "To cut food into small pieces",
+        "meaning_translation": {
+          "Hindi": "खाने की चीज़ों को छोटे टुकड़ों में काटना",
+          "Japanese": "食材を小さく切ること"
+        },
+        "examples": [
+          {
+            "sentence": "Chop the tomatoes finely.",
+            "translation": {
+              "Hindi": "टमाटरों को बारीक काटें।",
+              "Japanese": "トマトを細かく刻んでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mix",
+        "word_translation": {
+          "Hindi": "मिलाना",
+          "Japanese": "混ぜる"
+        },
+        "meaning": "To combine ingredients together",
+        "meaning_translation": {
+          "Hindi": "सामग्रियों को एक साथ मिलाना",
+          "Japanese": "材料を混ぜ合わせること"
+        },
+        "examples": [
+          {
+            "sentence": "Mix the flour with water.",
+            "translation": {
+              "Hindi": "आटे को पानी के साथ मिलाएँ।",
+              "Japanese": "小麦粉と水を混ぜてください。"
+            }
+          }
+        ]
+      }],
+    "grammar_tips": [
+      {
+        "title": "Using Quantities and Measures",
+        "explanation": "Use phrases like 'a cup of', 'a teaspoon of', 'a pinch of' to show amounts. Example: Add a pinch of salt.",
+        "explanation_translation": {
+          "Hindi": "'a cup of', 'a teaspoon of', 'a pinch of' जैसे वाक्यांश मात्रा बताने के लिए उपयोग करें। उदाहरण: Add a pinch of salt.",
+          "Japanese": "量を表すときは「a cup of」「a teaspoon of」「a pinch of」などを使います。例: Add a pinch of salt."
+        }
+      },
+      {
+        "title": "Sequencing Steps",
+        "explanation": "Use 'first', 'then', 'next', 'finally' to order steps. Example: First chop the onions, then fry them.",
+        "explanation_translation": {
+          "Hindi": "कदमों का क्रम बताने के लिए 'first', 'then', 'next', 'finally' का उपयोग करें। उदाहरण: First chop the onions, then fry them.",
+          "Japanese": "手順の順番には「first」「then」「next」「finally」を使います。例: First chop the onions, then fry them."
+        }
+      },
+      {
+        "title": "Imperatives for Instructions",
+        "explanation": "Use the base verb to give instructions: 'Cut', 'Mix', 'Bake'. Example: Bake at 180°C.",
+        "explanation_translation": {
+          "Hindi": "निर्देश देने के लिए मूल क्रिया का प्रयोग करें: 'Cut', 'Mix', 'Bake'। उदाहरण: Bake at 180°C.",
+          "Japanese": "指示には動詞の原形を使います（Cut, Mix, Bake）。例: Bake at 180°C."
+        }
+      },
+      {
+        "title": "Taste Adjustments with 'too' and 'not enough'",
+        "explanation": "Use 'too + adjective' and 'not + adjective + enough' to describe taste. Example: The soup is too salty. It is not sweet enough.",
+        "explanation_translation": {
+          "Hindi": "स्वाद बताने के लिए 'too + adjective' और 'not + adjective + enough' का उपयोग करें। उदाहरण: The soup is too salty. It is not sweet enough.",
+          "Japanese": "味の表現に「too + 形容詞」「not + 形容詞 + enough」を使います。例: The soup is too salty. It is not sweet enough."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'instructions for cooking a dish'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'किसी पकवान को बनाने के निर्देश' का अर्थ है?",
+        "Japanese": "「料理の作り方」を意味する単語はどれですか？"
+      },
+      "options": ["ingredient", "recipe", "mix"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "‘Spicy’ means having a sweet taste.",
+      "question_translation": {
+        "Hindi": "'Spicy' का मतलब मीठा स्वाद होता है।",
+        "Japanese": "「Spicy」は甘い味を意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "Lemon juice is ___.",
+      "question_translation": {
+        "Hindi": "नींबू का रस ___ होता है।",
+        "Japanese": "レモン汁は___です。"
+      },
+      "options": ["sweet", "sour", "salty"],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which cooking method means 'to cook food in hot oil'?",
+      "question_translation": {
+        "Hindi": "कौन सा पकाने का तरीका 'गर्म तेल में खाना पकाना' का अर्थ है?",
+        "Japanese": "「熱い油で料理する」ことを意味する調理法はどれですか？"
+      },
+      "options": ["boil", "fry", "bake"],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "‘Chop’ means to cut food into small pieces.",
+      "question_translation": {
+        "Hindi": "'Chop' का मतलब खाने की चीज़ों को छोटे टुकड़ों में काटना है।",
+        "Japanese": "「Chop」は食材を小さく切ることを意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "First ___ the onions, then fry them.",
+      "question_translation": {
+        "Hindi": "पहले प्याज़ को ___, फिर उन्हें भूनें।",
+        "Japanese": "まず玉ねぎを___、それから炒めます。"
+      },
+      "options": ["chop", "mix", "boil"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [water, boil, minutes, ten, for]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [water, boil, minutes, ten, for]",
+        "Japanese": "並べ替え: [water, boil, minutes, ten, for]"
+      },
+      "options": ["water", "boil", "minutes", "ten", "for"],
+      "answer": ["Boil", "water", "for", "ten", "minutes"]
+    },
+    {
+      "id": "sent3",
+      "type": "fillInTheBlanks",
+      "question": "This soup is too ___.",
+      "question_translation": {
+        "Hindi": "यह सूप बहुत ___ है।",
+        "Japanese": "このスープはとても___です。"
+      },
+      "options": ["salty", "sweet", "sour"],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "Add a ___ of salt.",
+      "question_translation": {
+        "Hindi": "नमक की एक ___ डालें।",
+        "Japanese": "塩を少し___。"
+      },
+      "options": ["pinch", "cup", "liter"],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [bake, at, bread, 25, minutes]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [bake, at, bread, 25, minutes]",
+        "Japanese": "並べ替え: [bake, at, bread, 25, minutes]"
+      },
+      "options": ["bake", "at", "bread", "25", "minutes"],
+      "answer": ["Bake", "bread", "at", "25", "minutes"]
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the main ingredient?",
+      "audio_text": "The main ingredient is rice.",
+      "question_translation": {
+        "Hindi": "मुख्य सामग्री क्या है?",
+        "Japanese": "主な材料は何ですか？"
+      },
+      "options": ["Rice", "Sugar", "Onion"],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker said: 'Add sugar to the tea.'",
+      "audio_text": "Add sugar to the tea.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कहा: 'चाय में चीनी डालें।'",
+        "Japanese": "話者は「紅茶に砂糖を入れてください」と言いました。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "How should the potatoes be cooked?",
+      "audio_text": "Boil the potatoes for fifteen minutes.",
+      "question_translation": {
+        "Hindi": "आलू कैसे पकाना चाहिए?",
+        "Japanese": "じゃがいもはどう調理しますか？"
+      },
+      "options": ["Bake", "Fry", "Boil"],
+      "answer": 2
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The speaker said: 'Chop the onions finely.'",
+      "audio_text": "Chop the onions finely.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कहा: 'प्याज़ को बारीक काटें।'",
+        "Japanese": "話者は「玉ねぎを細かく刻んでください」と言いました。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What taste is described?",
+      "audio_text": "The lemonade is very sour.",
+      "question_translation": {
+        "Hindi": "कौन सा स्वाद बताया गया है?",
+        "Japanese": "どんな味が説明されていますか？"
+      },
+      "options": ["Sweet", "Sour", "Salty"],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The soup is too salty.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The soup is too salty.'",
+        "Japanese": "言ってください: 'The soup is too salty.'"
+      },
+      "options": [],
+      "answer": "the soup is too salty"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Add a pinch of salt.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Add a pinch of salt.'",
+        "Japanese": "言ってください: 'Add a pinch of salt.'"
+      },
+      "options": [],
+      "answer": "add a pinch of salt"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Chop the tomatoes finely.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Chop the tomatoes finely.'",
+        "Japanese": "言ってください: 'Chop the tomatoes finely.'"
+      },
+      "options": [],
+      "answer": "chop the tomatoes finely"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Bake the cake for 30 minutes.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Bake the cake for 30 minutes.'",
+        "Japanese": "言ってください: 'Bake the cake for 30 minutes.'"
+      },
+      "options": [],
+      "answer": "bake the cake for 30 minutes"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'This curry is very spicy.'",
+      "question_translation": {
+        "Hindi": "कहें: 'This curry is very spicy.'",
+        "Japanese": "言ってください: 'This curry is very spicy.'"
+      },
+      "options": [],
+      "answer": "this curry is very spicy"
+    }
+  ]
+}
+
 }

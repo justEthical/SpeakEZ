@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "He has long ___. (legs)",
+        "question": "He has long ___.",
         "question_translation": {
           "Hindi": "उसके लंबे ___ हैं।",
           "Japanese": "彼は___が長いです。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "My ___ is healthy. (body)",
+        "question": "My ___ is healthy.",
         "question_translation": {
           "Hindi": "मेरा ___ स्वस्थ है।",
           "Japanese": "私の___は健康です。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "She has blue ___. (eyes)",
+        "question": "She has blue ___.",
         "question_translation": {
           "Hindi": "उसकी ___ नीली हैं।",
           "Japanese": "彼女の___は青いです。"
@@ -325,12 +325,12 @@
           "Japanese": "[his, he, hand, raises]を並べ替えましょう。"
         },
         "options": ["his", "he", "hand", "raises"],
-        "answer": ["He", "raises", "his", "hand"]
+        "answer": ["he", "raises", "his", "hand"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "He eats fruits to stay ___. (healthy)",
+        "question": "He eats fruits to stay ___.",
         "question_translation": {
           "Hindi": "वह ___ रहने के लिए फल खाता है।",
           "Japanese": "彼は___ために果物を食べます。"
@@ -347,7 +347,7 @@
           "Japanese": "[mouth, your, open, please]を並べ替えましょう。"
         },
         "options": ["mouth", "your", "open", "please"],
-        "answer": ["Please", "open", "your", "mouth"]
+        "answer": ["please", "open", "your", "mouth"]
       }
     ],
     "listening": [

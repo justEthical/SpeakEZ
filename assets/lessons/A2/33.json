@@ -1,4 +1,496 @@
 {
-  "id": 33,
-  "message": "This is file number 33"
+  "id": "lesson_describing_events_001",
+  "lesson_name": "Describing Events (Parties, Concerts, Meetings)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "event",
+        "word_translation": {
+          "Hindi": "कार्यक्रम",
+          "Japanese": "イベント"
+        },
+        "meaning": "An occasion like a party, concert, or meeting",
+        "meaning_translation": {
+          "Hindi": "एक अवसर जैसे पार्टी, कॉन्सर्ट या बैठक",
+          "Japanese": "パーティー、コンサート、会議などの出来事"
+        },
+        "examples": [
+          {
+            "sentence": "The music festival was a big event in the city.",
+            "translation": {
+              "Hindi": "संगीत महोत्सव शहर का एक बड़ा कार्यक्रम था।",
+              "Japanese": "音楽祭は街の大きなイベントでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "celebration",
+        "word_translation": {
+          "Hindi": "उत्सव",
+          "Japanese": "お祝い"
+        },
+        "meaning": "A joyful occasion for a special reason",
+        "meaning_translation": {
+          "Hindi": "एक विशेष कारण के लिए खुशियों का अवसर",
+          "Japanese": "特別な理由での楽しい集まり"
+        },
+        "examples": [
+          {
+            "sentence": "We had a celebration for her birthday.",
+            "translation": {
+              "Hindi": "हमने उसके जन्मदिन के लिए उत्सव मनाया।",
+              "Japanese": "私たちは彼女の誕生日をお祝いしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concert",
+        "word_translation": {
+          "Hindi": "संगीत समारोह",
+          "Japanese": "コンサート"
+        },
+        "meaning": "A live performance of music",
+        "meaning_translation": {
+          "Hindi": "संगीत का लाइव प्रदर्शन",
+          "Japanese": "音楽のライブ公演"
+        },
+        "examples": [
+          {
+            "sentence": "We went to a rock concert last night.",
+            "translation": {
+              "Hindi": "हम कल रात एक रॉक कॉन्सर्ट में गए।",
+              "Japanese": "私たちは昨夜ロックコンサートに行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "party",
+        "word_translation": {
+          "Hindi": "पार्टी",
+          "Japanese": "パーティー"
+        },
+        "meaning": "A social gathering with fun and food",
+        "meaning_translation": {
+          "Hindi": "मिलन समारोह जिसमें मज़ा और खाना होता है",
+          "Japanese": "食べ物や楽しみがある社交的な集まり"
+        },
+        "examples": [
+          {
+            "sentence": "They organized a party for the new year.",
+            "translation": {
+              "Hindi": "उन्होंने नए साल के लिए पार्टी आयोजित की।",
+              "Japanese": "彼らは新年のためにパーティーを開きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "meeting",
+        "word_translation": {
+          "Hindi": "बैठक",
+          "Japanese": "会議"
+        },
+        "meaning": "A planned discussion with people",
+        "meaning_translation": {
+          "Hindi": "लोगों के साथ योजनाबद्ध चर्चा",
+          "Japanese": "人々との計画された話し合い"
+        },
+        "examples": [
+          {
+            "sentence": "There was an important meeting at the office.",
+            "translation": {
+              "Hindi": "ऑफिस में एक महत्वपूर्ण बैठक थी।",
+              "Japanese": "会社で重要な会議がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "crowd",
+        "word_translation": {
+          "Hindi": "भीड़",
+          "Japanese": "人ごみ"
+        },
+        "meaning": "A large number of people together",
+        "meaning_translation": {
+          "Hindi": "बहुत सारे लोग एक साथ",
+          "Japanese": "大勢の人々"
+        },
+        "examples": [
+          {
+            "sentence": "A big crowd waited outside the concert hall.",
+            "translation": {
+              "Hindi": "एक बड़ी भीड़ कॉन्सर्ट हॉल के बाहर इंतजार कर रही थी।",
+              "Japanese": "大きな人ごみがコンサートホールの外で待っていました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "performance",
+        "word_translation": {
+          "Hindi": "प्रदर्शन",
+          "Japanese": "パフォーマンス"
+        },
+        "meaning": "The act of entertaining people by music, acting, etc.",
+        "meaning_translation": {
+          "Hindi": "लोगों का मनोरंजन करने का कार्य, जैसे संगीत, अभिनय",
+          "Japanese": "音楽や演技などで人々を楽しませる行為"
+        },
+        "examples": [
+          {
+            "sentence": "The performance was amazing and full of energy.",
+            "translation": {
+              "Hindi": "प्रदर्शन अद्भुत और ऊर्जा से भरपूर था।",
+              "Japanese": "パフォーマンスは素晴らしく、活気に満ちていました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "atmosphere",
+        "word_translation": {
+          "Hindi": "माहौल",
+          "Japanese": "雰囲気"
+        },
+        "meaning": "The feeling or mood of a place or event",
+        "meaning_translation": {
+          "Hindi": "किसी जगह या कार्यक्रम का भाव या माहौल",
+          "Japanese": "場所やイベントの感じや雰囲気"
+        },
+        "examples": [
+          {
+            "sentence": "The party had a very friendly atmosphere.",
+            "translation": {
+              "Hindi": "पार्टी का माहौल बहुत दोस्ताना था।",
+              "Japanese": "パーティーはとてもフレンドリーな雰囲気でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "enjoyable",
+        "word_translation": {
+          "Hindi": "आनंददायक",
+          "Japanese": "楽しい"
+        },
+        "meaning": "Something that gives pleasure",
+        "meaning_translation": {
+          "Hindi": "कुछ जो आनंद देता है",
+          "Japanese": "楽しさを与えるもの"
+        },
+        "examples": [
+          {
+            "sentence": "The concert was enjoyable and exciting.",
+            "translation": {
+              "Hindi": "कॉन्सर्ट आनंददायक और रोमांचक था।",
+              "Japanese": "コンサートは楽しくてワクワクしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "boring",
+        "word_translation": {
+          "Hindi": "उबाऊ",
+          "Japanese": "退屈な"
+        },
+        "meaning": "Not interesting",
+        "meaning_translation": {
+          "Hindi": "जिसमें रुचि न हो",
+          "Japanese": "面白くない"
+        },
+        "examples": [
+          {
+            "sentence": "The meeting was long and boring.",
+            "translation": {
+              "Hindi": "बैठक लंबी और उबाऊ थी।",
+              "Japanese": "会議は長くて退屈でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "exciting",
+        "word_translation": {
+          "Hindi": "रोमांचक",
+          "Japanese": "わくわくする"
+        },
+        "meaning": "Causing strong feelings of interest and enthusiasm",
+        "meaning_translation": {
+          "Hindi": "जोरदार रुचि और उत्साह पैदा करने वाला",
+          "Japanese": "強い関心や熱意を生むこと"
+        },
+        "examples": [
+          {
+            "sentence": "It was an exciting football match.",
+            "translation": {
+              "Hindi": "वह एक रोमांचक फुटबॉल मैच था।",
+              "Japanese": "それはわくわくするサッカーの試合でした。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Past Simple for Events",
+        "explanation": "We use past simple tense to describe events that already happened. Example: 'I went to a concert last night.'",
+        "explanation_translation": {
+          "Hindi": "हम Past Simple Tense का प्रयोग उन घटनाओं को बताने के लिए करते हैं जो पहले हो चुकी हैं। उदाहरण: 'I went to a concert last night.'",
+          "Japanese": "すでに起こった出来事を説明するときは過去形を使います。例: 'I went to a concert last night.'"
+        }
+      },
+      {
+        "title": "Adjectives of Experience",
+        "explanation": "We use adjectives like 'exciting', 'boring', 'enjoyable' to describe how an event felt.",
+        "explanation_translation": {
+          "Hindi": "हम 'exciting', 'boring', 'enjoyable' जैसे विशेषणों का प्रयोग घटना के अनुभव को बताने के लिए करते हैं।",
+          "Japanese": "イベントの体験を説明するために 'exciting', 'boring', 'enjoyable' などの形容詞を使います。"
+        }
+      }
+    ]
+  },
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a live music show'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'एक लाइव संगीत कार्यक्रम' का अर्थ है?",
+        "Japanese": "どの言葉が「ライブ音楽ショー」を意味しますか？"
+      },
+      "options": ["meeting", "concert", "party"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "A celebration is usually a happy event.",
+      "question_translation": {
+        "Hindi": "एक उत्सव आमतौर पर एक खुशी का अवसर होता है।",
+        "Japanese": "お祝いは通常、楽しいイベントです。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "The ___ was very crowded and noisy.",
+      "question_translation": {
+        "Hindi": "___ बहुत भीड़भाड़ और शोरगुल वाला था।",
+        "Japanese": "その___はとても混雑していて騒がしかったです。"
+      },
+      "options": ["concert", "boring", "meeting"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word describes something not interesting?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी उबाऊ चीज़ का वर्णन करता है?",
+        "Japanese": "どの言葉が面白くないものを表しますか？"
+      },
+      "options": ["boring", "exciting", "enjoyable"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "Atmosphere means the food at the event.",
+      "question_translation": {
+        "Hindi": "वातावरण का मतलब कार्यक्रम में भोजन होता है।",
+        "Japanese": "「雰囲気」とはイベントでの食べ物を意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I ___ to a birthday party last Saturday.",
+      "question_translation": {
+        "Hindi": "मैं पिछले शनिवार एक जन्मदिन की पार्टी में ___।",
+        "Japanese": "私は先週の土曜日に誕生日パーティーに___。"
+      },
+      "options": ["go", "went", "going"],
+      "answer": 1
+    },
+    {
+      "id": "sent2",
+      "type": "multipleChoice",
+      "question": "Choose the correct sentence:",
+      "question_translation": {
+        "Hindi": "सही वाक्य चुनें:",
+        "Japanese": "正しい文を選んでください："
+      },
+      "options": ["The meeting was boring.", "The meeting were boring.", "The meeting is boring yesterday."],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "trueFalse",
+      "question": "We use past simple to describe finished events.",
+      "question_translation": {
+        "Hindi": "हम समाप्त घटनाओं का वर्णन करने के लिए past simple का उपयोग करते हैं।",
+        "Japanese": "完了した出来事を説明するために過去形を使います。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "The concert was very ___ and enjoyable.",
+      "question_translation": {
+        "Hindi": "संगीत कार्यक्रम बहुत ___ और आनंददायक था।",
+        "Japanese": "そのコンサートはとても___で楽しかったです。"
+      },
+      "options": ["boring", "exciting", "late"],
+      "answer": 1
+    },
+    {
+      "id": "sent5",
+      "type": "multipleChoice",
+      "question": "Which is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा सही है?",
+        "Japanese": "どれが正しいですか？"
+      },
+      "options": ["We enjoyed the party.", "We enjoy the party yesterday.", "We enjoys the party last night."],
+      "answer": 0
+    }
+  ],
+  "listening": [
+  {
+    "id": "listen1",
+    "type": "listening",
+    "question": "What day was the meeting?",
+    "question_translation": {
+      "Hindi": "बैठक किस दिन थी?",
+      "Japanese": "会議は何曜日でしたか？"
+    },
+    "audio_text": "We had a meeting yesterday.",
+    "options": ["Today", "Tomorrow", "Yesterday"],
+    "answer": 2
+  },
+  {
+    "id": "listen2",
+    "type": "listening",
+    "question": "How was it?",
+    "question_translation": {
+      "Hindi": "यह कैसा था?",
+      "Japanese": "それはどうでしたか？"
+    },
+    "audio_text": "The performance was amazing.",
+    "options": ["Bad", "Okay", "Amazing"],
+    "answer": 2
+  },
+  {
+    "id": "listen3",
+    "type": "listening",
+    "question": "What does this mean?",
+    "question_translation": {
+      "Hindi": "इसका क्या मतलब है?",
+      "Japanese": "これはどういう意味ですか？"
+    },
+    "audio_text": "The concert was boring.",
+    "options": ["It was exciting", "It was not interesting", "It was enjoyable"],
+    "answer": 1
+  },
+  {
+    "id": "listen4",
+    "type": "listening",
+    "question": "What was there?",
+    "question_translation": {
+      "Hindi": "वहाँ क्या था?",
+      "Japanese": "何がありましたか？"
+    },
+    "audio_text": "There was a big crowd at the festival.",
+    "options": ["A few people", "A big group of people", "No people"],
+    "answer": 1
+  },
+  {
+    "id": "listen5",
+    "type": "listening",
+    "question": "What kind of event was it?",
+    "question_translation": {
+      "Hindi": "यह किस प्रकार का कार्यक्रम था?",
+      "Japanese": "それはどんなイベントでしたか？"
+    },
+    "audio_text": "We went to a birthday celebration.",
+    "options": ["Concert", "Meeting", "Party"],
+    "answer": 2
+  }
+]
+,
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I went to a concert last night.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मैं कल रात एक संगीत कार्यक्रम में गया था।'",
+        "Japanese": "言ってください：「私は昨夜コンサートに行きました。」"
+      },
+      "options": [],
+      "answer": "i went to a concert last night"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The party was exciting and fun.'",
+      "question_translation": {
+        "Hindi": "कहें: 'पार्टी रोमांचक और मजेदार थी।'",
+        "Japanese": "言ってください：「そのパーティーは楽しくてワクワクしました。」"
+      },
+      "options": [],
+      "answer": "the party was exciting and fun"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The meeting was boring.'",
+      "question_translation": {
+        "Hindi": "कहें: 'बैठक उबाऊ थी।'",
+        "Japanese": "言ってください：「その会議は退屈でした。」"
+      },
+      "options": [],
+      "answer": "the meeting was boring"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'There was a big crowd at the festival.'",
+      "question_translation": {
+        "Hindi": "कहें: 'त्योहार में बहुत बड़ी भीड़ थी।'",
+        "Japanese": "言ってください：「祭りには大勢の人がいました。」"
+      },
+      "options": [],
+      "answer": "there was a big crowd at the festival"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The performance was enjoyable.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रदर्शन आनंददायक था।'",
+        "Japanese": "言ってください：「そのパフォーマンスは楽しかったです。」"
+      },
+      "options": [],
+      "answer": "the performance was enjoyable"
+    }
+  ]
+}
+
 }

@@ -1,4 +1,415 @@
 {
-  "id": 14,
-  "message": "This is file number 14"
+  "id": "lesson_shopping_clothes_001",
+  "lesson_name": "Shopping for Clothes",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "size",
+        "word_translation": {
+          "Hindi": "आकार",
+          "Japanese": "サイズ"
+        },
+        "meaning": "how big or small something is",
+        "meaning_translation": {
+          "Hindi": "किसी वस्तु का बड़ा या छोटा होना",
+          "Japanese": "物の大きさ"
+        },
+        "examples": [
+          {
+            "sentence": "What size do you wear?",
+            "translation": {
+              "Hindi": "आप कौन सा आकार पहनते हैं?",
+              "Japanese": "あなたのサイズは何ですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fit",
+        "word_translation": {
+          "Hindi": "फिट होना",
+          "Japanese": "合う"
+        },
+        "meaning": "how well clothes match your body",
+        "meaning_translation": {
+          "Hindi": "कपड़े आपके शरीर पर कितने अच्छे से आते हैं",
+          "Japanese": "服が体にどれくらい合っているか"
+        },
+        "examples": [
+          {
+            "sentence": "This shirt fits me well.",
+            "translation": {
+              "Hindi": "यह शर्ट मुझे अच्छी तरह फिट होती है।",
+              "Japanese": "このシャツはぴったりです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "changing room",
+        "word_translation": {
+          "Hindi": "बदलने का कमरा",
+          "Japanese": "試着室"
+        },
+        "meaning": "a room where you try on clothes",
+        "meaning_translation": {
+          "Hindi": "जहां आप कपड़े पहनकर देख सकते हैं",
+          "Japanese": "服を試着する部屋"
+        },
+        "examples": [
+          {
+            "sentence": "The changing room is at the back.",
+            "translation": {
+              "Hindi": "बदलने का कमरा पीछे है।",
+              "Japanese": "試着室は奥にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "price tag",
+        "word_translation": {
+          "Hindi": "कीमत का टैग",
+          "Japanese": "値札"
+        },
+        "meaning": "a label that shows the cost of an item",
+        "meaning_translation": {
+          "Hindi": "किसी वस्तु की कीमत दिखाने वाला टैग",
+          "Japanese": "商品の価格が書かれたラベル"
+        },
+        "examples": [
+          {
+            "sentence": "The price tag says 999 rupees.",
+            "translation": {
+              "Hindi": "कीमत के टैग पर 999 रुपये लिखा है।",
+              "Japanese": "値札には999ルピーと書いてあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cashier",
+        "word_translation": {
+          "Hindi": "कैशियर",
+          "Japanese": "レジ係"
+        },
+        "meaning": "a person who takes money in a store",
+        "meaning_translation": {
+          "Hindi": "जो दुकान में पैसे लेता है",
+          "Japanese": "店でお金を受け取る人"
+        },
+        "examples": [
+          {
+            "sentence": "Please pay at the cashier.",
+            "translation": {
+              "Hindi": "कृपया कैशियर के पास भुगतान करें।",
+              "Japanese": "レジでお支払いください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "receipt",
+        "word_translation": {
+          "Hindi": "रसीद",
+          "Japanese": "領収書"
+        },
+        "meaning": "a paper that shows you paid",
+        "meaning_translation": {
+          "Hindi": "भुगतान का प्रमाण देने वाला कागज",
+          "Japanese": "支払いを証明する紙"
+        },
+        "examples": [
+          {
+            "sentence": "Here is your receipt.",
+            "translation": {
+              "Hindi": "यह आपकी रसीद है।",
+              "Japanese": "こちらが領収書です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "on sale",
+        "word_translation": {
+          "Hindi": "छूट पर",
+          "Japanese": "セール中"
+        },
+        "meaning": "available at a lower price",
+        "meaning_translation": {
+          "Hindi": "कम कीमत पर उपलब्ध",
+          "Japanese": "割引価格で販売中"
+        },
+        "examples": [
+          {
+            "sentence": "These jeans are on sale.",
+            "translation": {
+              "Hindi": "ये जीन्स छूट पर हैं।",
+              "Japanese": "このジーンズはセール中です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expensive",
+        "word_translation": {
+          "Hindi": "महंगा",
+          "Japanese": "高い"
+        },
+        "meaning": "costing a lot of money",
+        "meaning_translation": {
+          "Hindi": "जिसकी कीमत अधिक हो",
+          "Japanese": "お金がかかる"
+        },
+        "examples": [
+          {
+            "sentence": "This jacket is very expensive.",
+            "translation": {
+              "Hindi": "यह जैकेट बहुत महंगी है।",
+              "Japanese": "このジャケットはとても高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cheap",
+        "word_translation": {
+          "Hindi": "सस्ता",
+          "Japanese": "安い"
+        },
+        "meaning": "not costing much money",
+        "meaning_translation": {
+          "Hindi": "जिसकी कीमत कम हो",
+          "Japanese": "値段が安い"
+        },
+        "examples": [
+          {
+            "sentence": "I bought a cheap t-shirt.",
+            "translation": {
+              "Hindi": "मैंने एक सस्ती टी-शर्ट खरीदी।",
+              "Japanese": "安いTシャツを買いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "try on",
+        "word_translation": {
+          "Hindi": "पहनकर देखना",
+          "Japanese": "試着する"
+        },
+        "meaning": "to put on clothes to see if they fit",
+        "meaning_translation": {
+          "Hindi": "देखने के लिए कपड़े पहनना कि वे फिट हैं या नहीं",
+          "Japanese": "サイズや見た目を確認するために服を着てみること"
+        },
+        "examples": [
+          {
+            "sentence": "Can I try on this jacket?",
+            "translation": {
+              "Hindi": "क्या मैं यह जैकेट पहनकर देख सकता हूँ?",
+              "Japanese": "このジャケットを試着してもいいですか？"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using adjectives for clothes",
+        "explanation": "Use adjectives like 'expensive', 'cheap', 'comfortable' before the noun. Example: a cheap dress.",
+        "explanation_translation": {
+          "Hindi": "'expensive', 'cheap', 'comfortable' जैसे विशेषणों का प्रयोग संज्ञा से पहले करें। जैसे: एक सस्ती ड्रेस।",
+          "Japanese": "形容詞（expensive, cheap, comfortableなど）は名詞の前に置きます。例：a cheap dress"
+        }
+      },
+      {
+        "title": "Asking questions politely",
+        "explanation": "Use 'Can I try...?' or 'Do you have...?' to ask in stores.",
+        "explanation_translation": {
+          "Hindi": "दुकान में पूछने के लिए 'Can I try...?' या 'Do you have...?' का प्रयोग करें।",
+          "Japanese": "店で聞くときは 'Can I try...?' や 'Do you have...?' を使います。"
+        }
+      }
+    ]
+  },
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which item is worn on your feet?",
+      "question_translation": { "Hindi": "कौन सी चीज़ पैरों में पहनी जाती है?", "Japanese": "足に履くものはどれですか？" },
+      "options": ["shirt", "shoes", "scarf"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "A ___ is worn around your neck in winter.",
+      "question_translation": { "Hindi": "सर्दियों में गर्दन पर ___ पहना जाता है।", "Japanese": "冬に首に巻くものは___です。" },
+      "options": ["scarf", "t-shirt", "belt"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Jeans are a type of pants usually made of denim.",
+      "question_translation": { "Hindi": "जीन्स एक प्रकार की पैंट है जो आमतौर पर डेनिम की बनी होती है।", "Japanese": "ジーンズは通常デニムで作られたズボンの一種です。" },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which is usually worn in summer?",
+      "question_translation": { "Hindi": "गर्मी में आमतौर पर कौन सा कपड़ा पहना जाता है?", "Japanese": "夏によく着るものはどれですか？" },
+      "options": ["jacket", "t-shirt", "sweater"],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "A ___ is worn to keep your pants in place.",
+      "question_translation": { "Hindi": "पैंट को सही जगह पर रखने के लिए ___ पहना जाता है।", "Japanese": "ズボンを固定するために使うのは___です。" },
+      "options": ["hat", "belt", "gloves"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I want to buy a new ___. (dress)",
+      "question_translation": { "Hindi": "मैं एक नई ___ खरीदना चाहता हूँ। (ड्रेस)", "Japanese": "新しい___を買いたいです。（ドレス）" },
+      "options": ["dress", "scarf", "shoes"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "These ___ are too tight. (jeans)",
+      "question_translation": { "Hindi": "ये ___ बहुत टाइट हैं। (जीन्स)", "Japanese": "この___はきつすぎます。（ジーンズ）" },
+      "options": ["shoes", "jeans", "hat"],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [this, try, can, on, I, shirt]",
+      "question_translation": { "Hindi": "व्यवस्थित करें: [यह, पहनकर, सकता, मैं, शर्ट]", "Japanese": "並べ替え: [this, try, can, on, I, shirt]" },
+      "options": ["this", "try", "can", "on", "I", "shirt"],
+      "answer": ["Can", "I", "try", "on", "this", "shirt"]
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "Do you have this in ___ size?",
+      "question_translation": { "Hindi": "क्या आपके पास यह ___ साइज में है?", "Japanese": "これは___サイズがありますか？" },
+      "options": ["color", "jeans", "my"],
+      "answer": 2
+    },
+    {
+      "id": "sent5",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [much, is, how, it]",
+      "question_translation": { "Hindi": "व्यवस्थित करें: [कितना, है, यह]", "Japanese": "並べ替え: [much, is, how, it]" },
+      "options": ["much", "is", "how", "it"],
+      "answer": ["How", "much", "is", "it"]
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "listening",
+      "question": "What does the person want to try on? (Audio: 'I’d like to try on this jacket.')",
+      "question_translation": { "Hindi": "व्यक्ति क्या पहनकर देखना चाहता है?", "Japanese": "その人は何を試着したいですか？" },
+      "options": ["Jacket", "Shoes", "Dress"],
+      "answer": 0,
+      "audio_text": "I’d like to try on this jacket."
+    },
+    {
+      "id": "listen2",
+      "type": "listening",
+      "question": "What size is the customer asking for? (Audio: 'Do you have this in medium?')",
+      "question_translation": { "Hindi": "ग्राहक कौन सा साइज मांग रहा है?", "Japanese": "お客様が聞いているサイズは何ですか？" },
+      "options": ["Small", "Medium", "Large"],
+      "answer": 1,
+      "audio_text": "Do you have this in medium?"
+    },
+    {
+      "id": "listen3",
+      "type": "listening",
+      "question": "What item is the person buying? (Audio: 'I'll take the red sweater.')",
+      "question_translation": { "Hindi": "व्यक्ति कौन सी वस्तु खरीद रहा है?", "Japanese": "その人が買っているものは何ですか？" },
+      "options": ["Sweater", "Jeans", "T-shirt"],
+      "answer": 0,
+      "audio_text": "I'll take the red sweater."
+    },
+    {
+      "id": "listen4",
+      "type": "listening",
+      "question": "What color are the shoes? (Audio: 'These black shoes are really nice.')",
+      "question_translation": { "Hindi": "जूते किस रंग के हैं?", "Japanese": "靴の色は何ですか？" },
+      "options": ["Black", "White", "Brown"],
+      "answer": 0,
+      "audio_text": "These black shoes are really nice."
+    },
+    {
+      "id": "listen5",
+      "type": "listening",
+      "question": "What is the price? (Audio: 'That will be 25 dollars.')",
+      "question_translation": { "Hindi": "कीमत क्या है?", "Japanese": "値段はいくらですか？" },
+      "options": ["15 dollars", "25 dollars", "30 dollars"],
+      "answer": 1,
+      "audio_text": "That will be 25 dollars."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Can I try on this shirt?'",
+      "question_translation": { "Hindi": "कहें: 'क्या मैं यह शर्ट पहनकर देख सकता हूँ?'", "Japanese": "言ってください: 'Can I try on this shirt?'" },
+      "options": [],
+      "answer": "can i try on this shirt"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'How much is this dress?'",
+      "question_translation": { "Hindi": "कहें: 'यह ड्रेस कितने की है?'", "Japanese": "言ってください: 'How much is this dress?'" },
+      "options": [],
+      "answer": "how much is this dress"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Do you have this in small size?'",
+      "question_translation": { "Hindi": "कहें: 'क्या आपके पास यह छोटे साइज में है?'", "Japanese": "言ってください: 'Do you have this in small size?'" },
+      "options": [],
+      "answer": "do you have this in small size"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I’m looking for a pair of jeans.'",
+      "question_translation": { "Hindi": "कहें: 'मैं एक जीन्स की तलाश कर रहा हूँ।'", "Japanese": "言ってください: 'I’m looking for a pair of jeans.'" },
+      "options": [],
+      "answer": "i’m looking for a pair of jeans"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I'll take the red sweater.'",
+      "question_translation": { "Hindi": "कहें: 'मैं लाल स्वेटर लूंगा।'", "Japanese": "言ってください: 'I'll take the red sweater.'" },
+      "options": [],
+      "answer": "i'll take the red sweater"
+    }
+  ]
+}
+
+
 }

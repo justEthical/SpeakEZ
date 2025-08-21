@@ -1,4 +1,592 @@
 {
-  "id": 49,
-  "message": "This is file number 49"
+  "id": "lesson_public_services_001",
+  "lesson_name": "Public Services (post office, police, bank)",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "post office",
+        "word_translation": {
+          "Hindi": "डाकघर",
+          "Japanese": "郵便局"
+        },
+        "meaning": "A place where you can send letters or parcels",
+        "meaning_translation": {
+          "Hindi": "एक स्थान जहाँ आप पत्र या पार्सल भेज सकते हैं",
+          "Japanese": "手紙や小包を送る場所"
+        },
+        "examples": [
+          {
+            "sentence": "I went to the post office to send a letter.",
+            "translation": {
+              "Hindi": "मैं पत्र भेजने के लिए डाकघर गया।",
+              "Japanese": "私は手紙を送るために郵便局へ行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "police station",
+        "word_translation": {
+          "Hindi": "पुलिस स्टेशन",
+          "Japanese": "警察署"
+        },
+        "meaning": "A place where police officers work",
+        "meaning_translation": {
+          "Hindi": "एक स्थान जहाँ पुलिस अधिकारी काम करते हैं",
+          "Japanese": "警察官が働く場所"
+        },
+        "examples": [
+          {
+            "sentence": "The police station is near the park.",
+            "translation": {
+              "Hindi": "पुलिस स्टेशन पार्क के पास है।",
+              "Japanese": "警察署は公園の近くにあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bank",
+        "word_translation": {
+          "Hindi": "बैंक",
+          "Japanese": "銀行"
+        },
+        "meaning": "A place where you can keep or borrow money",
+        "meaning_translation": {
+          "Hindi": "एक स्थान जहाँ आप पैसा जमा या उधार ले सकते हैं",
+          "Japanese": "お金を預けたり借りたりできる場所"
+        },
+        "examples": [
+          {
+            "sentence": "I opened an account at the bank.",
+            "translation": {
+              "Hindi": "मैंने बैंक में खाता खोला।",
+              "Japanese": "私は銀行に口座を開きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ATM",
+        "word_translation": {
+          "Hindi": "एटीएम",
+          "Japanese": "ATM"
+        },
+        "meaning": "A machine where you can withdraw or deposit money",
+        "meaning_translation": {
+          "Hindi": "एक मशीन जहाँ आप पैसे निकाल या जमा कर सकते हैं",
+          "Japanese": "お金を引き出したり預けたりできる機械"
+        },
+        "examples": [
+          {
+            "sentence": "I used the ATM to withdraw cash.",
+            "translation": {
+              "Hindi": "मैंने नकद निकालने के लिए एटीएम का उपयोग किया।",
+              "Japanese": "現金を引き出すためにATMを使いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parcel",
+        "word_translation": {
+          "Hindi": "पार्सल",
+          "Japanese": "小包"
+        },
+        "meaning": "A package that is sent or delivered",
+        "meaning_translation": {
+          "Hindi": "एक पैकेज जिसे भेजा या वितरित किया जाता है",
+          "Japanese": "送られたり届けられたりする荷物"
+        },
+        "examples": [
+          {
+            "sentence": "I received a parcel from my friend.",
+            "translation": {
+              "Hindi": "मुझे मेरे दोस्त से एक पार्सल मिला।",
+              "Japanese": "友達から小包を受け取りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "account",
+        "word_translation": {
+          "Hindi": "खाता",
+          "Japanese": "口座"
+        },
+        "meaning": "A record of money you keep in a bank",
+        "meaning_translation": {
+          "Hindi": "बैंक में रखा गया आपके पैसे का रिकॉर्ड",
+          "Japanese": "銀行にあるお金の記録"
+        },
+        "examples": [
+          {
+            "sentence": "She opened a savings account.",
+            "translation": {
+              "Hindi": "उसने एक बचत खाता खोला।",
+              "Japanese": "彼女は貯金口座を開きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deposit",
+        "word_translation": {
+          "Hindi": "जमा करना",
+          "Japanese": "預ける"
+        },
+        "meaning": "To put money into a bank account",
+        "meaning_translation": {
+          "Hindi": "बैंक खाते में पैसा डालना",
+          "Japanese": "銀行口座にお金を入れること"
+        },
+        "examples": [
+          {
+            "sentence": "I need to deposit money in the bank.",
+            "translation": {
+              "Hindi": "मुझे बैंक में पैसे जमा करने हैं।",
+              "Japanese": "私は銀行にお金を預ける必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "withdraw",
+        "word_translation": {
+          "Hindi": "निकालना",
+          "Japanese": "引き出す"
+        },
+        "meaning": "To take money out of a bank account",
+        "meaning_translation": {
+          "Hindi": "बैंक खाते से पैसा निकालना",
+          "Japanese": "銀行口座からお金を引き出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "He went to withdraw cash from the ATM.",
+            "translation": {
+              "Hindi": "वह एटीएम से नकद निकालने गया।",
+              "Japanese": "彼はATMから現金を引き出しに行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stamp",
+        "word_translation": {
+          "Hindi": "डाक टिकट",
+          "Japanese": "切手"
+        },
+        "meaning": "A small piece of paper you put on a letter before sending it",
+        "meaning_translation": {
+          "Hindi": "एक छोटा कागज का टुकड़ा जिसे पत्र भेजने से पहले उस पर लगाया जाता है",
+          "Japanese": "手紙を送る前に貼る小さな紙"
+        },
+        "examples": [
+          {
+            "sentence": "I bought a stamp to post the letter.",
+            "translation": {
+              "Hindi": "मैंने पत्र भेजने के लिए डाक टिकट खरीदा।",
+              "Japanese": "私は手紙を出すために切手を買いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "complaint",
+        "word_translation": {
+          "Hindi": "शिकायत",
+          "Japanese": "苦情 / 申告"
+        },
+        "meaning": "A statement that something is wrong or not good",
+        "meaning_translation": {
+          "Hindi": "एक बयान कि कुछ गलत है या अच्छा नहीं है",
+          "Japanese": "何かが悪い、良くないと伝えること"
+        },
+        "examples": [
+          {
+            "sentence": "She filed a complaint at the police station.",
+            "translation": {
+              "Hindi": "उसने पुलिस स्टेशन में शिकायत दर्ज की।",
+              "Japanese": "彼女は警察署に苦情を申し立てました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "service",
+        "word_translation": {
+          "Hindi": "सेवा",
+          "Japanese": "サービス"
+        },
+        "meaning": "Help or work done for people",
+        "meaning_translation": {
+          "Hindi": "लोगों के लिए किया गया काम या मदद",
+          "Japanese": "人々のために行われる仕事や助け"
+        },
+        "examples": [
+          {
+            "sentence": "The bank provides many services.",
+            "translation": {
+              "Hindi": "बैंक कई सेवाएँ प्रदान करता है।",
+              "Japanese": "銀行はいろいろなサービスを提供します。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Asking for services",
+        "explanation": "Use 'I would like to...' or 'Can I...' when requesting services. Example: I would like to open an account. Can I send a parcel?",
+        "explanation_translation": {
+          "Hindi": "सेवा माँगने के लिए 'I would like to...' या 'Can I...' का उपयोग करें। उदाहरण: I would like to open an account. Can I send a parcel?",
+          "Japanese": "サービスをお願いするときは 'I would like to...' や 'Can I...' を使います。例: I would like to open an account. Can I send a parcel?"
+        }
+      },
+      {
+        "title": "Polite questions",
+        "explanation": "Use 'Could you please...' or 'Would you mind...' for polite requests. Example: Could you please help me fill this form?",
+        "explanation_translation": {
+          "Hindi": "विनम्र अनुरोध करने के लिए 'Could you please...' या 'Would you mind...' का उपयोग करें। उदाहरण: Could you please help me fill this form?",
+          "Japanese": "丁寧にお願いするときは 'Could you please...' や 'Would you mind...' を使います。例: Could you please help me fill this form?"
+        }
+      },
+      {
+        "title": "Present continuous for actions",
+        "explanation": "Use 'am/is/are + -ing' for actions happening now. Example: I am depositing money. She is waiting at the bank.",
+        "explanation_translation": {
+          "Hindi": "अब हो रही क्रियाओं के लिए 'am/is/are + -ing' का उपयोग करें। उदाहरण: I am depositing money. She is waiting at the bank.",
+          "Japanese": "今行っている動作には 'am/is/are + -ing' を使います。例: I am depositing money. She is waiting at the bank."
+        }
+      },
+      {
+        "title": "Past tense for reports",
+        "explanation": "Use past tense when telling what happened. Example: I lost my wallet. I filed a complaint at the police station.",
+        "explanation_translation": {
+          "Hindi": "घटनाओं के बारे में बताने के लिए भूतकाल का उपयोग करें। उदाहरण: I lost my wallet. I filed a complaint at the police station.",
+          "Japanese": "出来事を伝えるときは過去形を使います。例: I lost my wallet. I filed a complaint at the police station."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Where do you go to send a letter or parcel?",
+        "question_translation": {
+          "Hindi": "पत्र या पार्सल भेजने के लिए आप कहाँ जाते हैं?",
+          "Japanese": "手紙や小包を送るにはどこへ行きますか？"
+        },
+        "options": [
+          "bank",
+          "police station",
+          "post office"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "I want to ___ cash from the ATM.",
+        "question_translation": {
+          "Hindi": "मैं एटीएम से नकद ___ चाहता/चाहती हूँ।",
+          "Japanese": "ATMから現金を___したいです。"
+        },
+        "options": [
+          "deposit",
+          "withdraw",
+          "open"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A stamp is needed to post a letter.",
+        "question_translation": {
+          "Hindi": "पत्र भेजने के लिए डाक टिकट की आवश्यकता होती है।",
+          "Japanese": "手紙を出すには切手が必要です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means a record you keep in a bank?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द बैंक में रखे आपके रिकॉर्ड का अर्थ है?",
+          "Japanese": "銀行にあるお金の記録を表す言葉はどれですか？"
+        },
+        "options": [
+          "account",
+          "service",
+          "parcel"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "She filed a ___ at the police station.",
+        "question_translation": {
+          "Hindi": "उसने पुलिस स्टेशन में एक ___ दर्ज की।",
+          "Japanese": "彼女は警察署に___を提出しました。"
+        },
+        "options": [
+          "service",
+          "complaint",
+          "stamp"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I would like to ___ an account.",
+        "question_translation": {
+          "Hindi": "मैं एक खाता ___ चाहता/चाहती हूँ।",
+          "Japanese": "口座を___したいです。"
+        },
+        "options": [
+          "open",
+          "withdraw",
+          "stamp"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [a, at, letter, post, the, I, office]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [a, at, letter, post, the, I, office]",
+          "Japanese": "並べ替え: [a, at, letter, post, the, I, office]"
+        },
+        "options": [
+          "a",
+          "at",
+          "letter",
+          "post",
+          "the",
+          "I",
+          "office"
+        ],
+        "answer": [
+          "I",
+          "post",
+          "a",
+          "letter",
+          "at",
+          "the",
+          "office"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "Could you please help me ___ this form?",
+        "question_translation": {
+          "Hindi": "क्या आप कृपया मुझे यह फॉर्म ___ में मदद करेंगे?",
+          "Japanese": "この用紙を___するのを手伝っていただけますか？"
+        },
+        "options": [
+          "fill",
+          "withdraw",
+          "complaint"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "I am ___ money at the bank right now.",
+        "question_translation": {
+          "Hindi": "मैं अभी बैंक में पैसा ___ रहा/रही हूँ।",
+          "Japanese": "私は今、銀行でお金を___しています。"
+        },
+        "options": [
+          "depositing",
+          "deposit",
+          "deposit"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [lost, I, my, wallet, reported, and, it]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [lost, I, my, wallet, reported, and, it]",
+          "Japanese": "並べ替え: [lost, I, my, wallet, reported, and, it]"
+        },
+        "options": [
+          "lost",
+          "I",
+          "my",
+          "wallet",
+          "reported",
+          "and",
+          "it"
+        ],
+        "answer": [
+          "I",
+          "lost",
+          "my",
+          "wallet",
+          "and",
+          "reported",
+          "it"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What service does the speaker want?",
+        "audio_text": "I would like to open a savings account.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी सेवा चाहता/चाहती है?",
+          "Japanese": "話者はどのサービスを望んでいますか？"
+        },
+        "options": [
+          "send a parcel",
+          "open an account",
+          "file a complaint"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker said: 'I need to buy a stamp.'",
+        "audio_text": "I need to buy a stamp.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'मुझे एक डाक टिकट खरीदना है।'",
+          "Japanese": "話者は「切手を買う必要があります」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where is the speaker going?",
+        "audio_text": "I am going to the police station to file a complaint.",
+        "question_translation": {
+          "Hindi": "वक्ता कहाँ जा रहा/रही है?",
+          "Japanese": "話者はどこへ行きますか？"
+        },
+        "options": [
+          "bank",
+          "post office",
+          "police station"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What action is the speaker doing at the bank?",
+        "audio_text": "I am depositing money right now.",
+        "question_translation": {
+          "Hindi": "वक्ता बैंक में क्या कर रहा/रही है?",
+          "Japanese": "話者は銀行で何をしていますか？"
+        },
+        "options": [
+          "withdrawing money",
+          "depositing money",
+          "opening an account"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker said: 'I used the ATM to withdraw cash.'",
+        "audio_text": "I used the ATM to withdraw cash.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'मैंने नकद निकालने के लिए एटीएम का उपयोग किया।'",
+          "Japanese": "話者は「現金を引き出すためにATMを使いました」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I would like to open an account.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I would like to open an account.'",
+          "Japanese": "言ってください: 'I would like to open an account.'"
+        },
+        "options": [],
+        "answer": "i would like to open an account"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Could you please help me fill this form?'",
+        "question_translation": {
+          "Hindi": "कहें: 'Could you please help me fill this form?'",
+          "Japanese": "言ってください: 'Could you please help me fill this form?'"
+        },
+        "options": [],
+        "answer": "could you please help me fill this form"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I need to buy a stamp.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I need to buy a stamp.'",
+          "Japanese": "言ってください: 'I need to buy a stamp.'"
+        },
+        "options": [],
+        "answer": "i need to buy a stamp"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I am depositing money at the bank.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am depositing money at the bank.'",
+          "Japanese": "言ってください: 'I am depositing money at the bank.'"
+        },
+        "options": [],
+        "answer": "i am depositing money at the bank"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I filed a complaint at the police station.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I filed a complaint at the police station.'",
+          "Japanese": "言ってください: 'I filed a complaint at the police station.'"
+        },
+        "options": [],
+        "answer": "i filed a complaint at the police station"
+      }
+    ]
+  }
+
 }

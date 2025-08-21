@@ -1,4 +1,550 @@
 {
-  "id": 27,
-  "message": "This is file number 27"
+  "id": "lesson_festivals_celebrations_001",
+  "lesson_name": "Festivals and Celebrations",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "festival",
+        "word_translation": {
+          "Hindi": "त्यौहार",
+          "Japanese": "祭り"
+        },
+        "meaning": "A special day or period of celebration",
+        "meaning_translation": {
+          "Hindi": "मनाने का विशेष दिन या अवधि",
+          "Japanese": "特別なお祝いの日や期間"
+        },
+        "examples": [
+          {
+            "sentence": "Diwali is a famous festival in India.",
+            "translation": {
+              "Hindi": "दीवाली भारत में एक प्रसिद्ध त्यौहार है।",
+              "Japanese": "ディワリはインドの有名なお祭りです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "celebration",
+        "word_translation": {
+          "Hindi": "समारोह",
+          "Japanese": "お祝い"
+        },
+        "meaning": "A happy event where people enjoy and honor something",
+        "meaning_translation": {
+          "Hindi": "खुशी का कार्यक्रम जिसमें लोग आनंद लेते हैं",
+          "Japanese": "人々が楽しむ特別なイベント"
+        },
+        "examples": [
+          {
+            "sentence": "We had a big celebration for New Year.",
+            "translation": {
+              "Hindi": "हमने नए साल के लिए बड़ा समारोह किया।",
+              "Japanese": "新年に大きなお祝いをしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parade",
+        "word_translation": {
+          "Hindi": "जुलूस",
+          "Japanese": "パレード"
+        },
+        "meaning": "A large group of people marching to celebrate",
+        "meaning_translation": {
+          "Hindi": "लोगों का जुलूस जो जश्न मनाने के लिए निकलता है",
+          "Japanese": "祝うために行進する人々の集まり"
+        },
+        "examples": [
+          {
+            "sentence": "The parade was full of music and colors.",
+            "translation": {
+              "Hindi": "जुलूस संगीत और रंगों से भरा था।",
+              "Japanese": "パレードは音楽と色でいっぱいでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tradition",
+        "word_translation": {
+          "Hindi": "परंपरा",
+          "Japanese": "伝統"
+        },
+        "meaning": "A custom passed from one generation to another",
+        "meaning_translation": {
+          "Hindi": "पीढ़ी दर पीढ़ी चली आ रही प्रथा",
+          "Japanese": "世代から世代へ受け継がれる習慣"
+        },
+        "examples": [
+          {
+            "sentence": "Lighting lamps is a tradition in Diwali.",
+            "translation": {
+              "Hindi": "दीवाली में दीप जलाना एक परंपरा है।",
+              "Japanese": "ディワリではランプを灯すのが伝統です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fireworks",
+        "word_translation": {
+          "Hindi": "पटाखे",
+          "Japanese": "花火"
+        },
+        "meaning": "Bright lights and sounds in the sky during celebrations",
+        "meaning_translation": {
+          "Hindi": "उत्सव के दौरान आकाश में चमक और आवाज़ें",
+          "Japanese": "お祝いのときに空に打ち上げる光と音"
+        },
+        "examples": [
+          {
+            "sentence": "We watched fireworks on New Year’s Eve.",
+            "translation": {
+              "Hindi": "हमने नए साल की पूर्व संध्या पर पटाखे देखे।",
+              "Japanese": "大晦日に花火を見ました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "costume",
+        "word_translation": {
+          "Hindi": "पोशाक",
+          "Japanese": "衣装"
+        },
+        "meaning": "Special clothes worn for festivals or performances",
+        "meaning_translation": {
+          "Hindi": "त्यौहार या प्रदर्शन के लिए पहने जाने वाले विशेष कपड़े",
+          "Japanese": "祭りや演技のために着る特別な服"
+        },
+        "examples": [
+          {
+            "sentence": "Children wore costumes for the festival.",
+            "translation": {
+              "Hindi": "बच्चों ने त्यौहार के लिए पोशाकें पहनीं।",
+              "Japanese": "子供たちはお祭りのために衣装を着ました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "religious",
+        "word_translation": {
+          "Hindi": "धार्मिक",
+          "Japanese": "宗教的な"
+        },
+        "meaning": "Related to religion or faith",
+        "meaning_translation": {
+          "Hindi": "धर्म या आस्था से संबंधित",
+          "Japanese": "宗教に関すること"
+        },
+        "examples": [
+          {
+            "sentence": "Christmas is a religious festival for Christians.",
+            "translation": {
+              "Hindi": "क्रिसमस ईसाइयों के लिए धार्मिक त्यौहार है।",
+              "Japanese": "クリスマスはキリスト教徒にとって宗教的なお祭りです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cultural",
+        "word_translation": {
+          "Hindi": "सांस्कृतिक",
+          "Japanese": "文化的な"
+        },
+        "meaning": "Related to culture, arts, and traditions",
+        "meaning_translation": {
+          "Hindi": "संस्कृति, कला और परंपराओं से जुड़ा हुआ",
+          "Japanese": "文化、芸術、伝統に関する"
+        },
+        "examples": [
+          {
+            "sentence": "We attended a cultural festival in Japan.",
+            "translation": {
+              "Hindi": "हमने जापान में एक सांस्कृतिक उत्सव में भाग लिया।",
+              "Japanese": "日本で文化祭に参加しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "public holiday",
+        "word_translation": {
+          "Hindi": "सार्वजनिक अवकाश",
+          "Japanese": "祝日"
+        },
+        "meaning": "A day when schools and offices are closed for celebration",
+        "meaning_translation": {
+          "Hindi": "वह दिन जब उत्सव के लिए स्कूल और कार्यालय बंद रहते हैं",
+          "Japanese": "学校や会社が休みになるお祝いの日"
+        },
+        "examples": [
+          {
+            "sentence": "Independence Day is a public holiday.",
+            "translation": {
+              "Hindi": "स्वतंत्रता दिवस एक सार्वजनिक अवकाश है।",
+              "Japanese": "独立記念日は祝日です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "decorate",
+        "word_translation": {
+          "Hindi": "सजाना",
+          "Japanese": "飾る"
+        },
+        "meaning": "To make something look beautiful for celebration",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को सुंदर बनाने के लिए सजाना",
+          "Japanese": "何かをきれいに飾ること"
+        },
+        "examples": [
+          {
+            "sentence": "We decorated the house with lights.",
+            "translation": {
+              "Hindi": "हमने घर को लाइटों से सजाया।",
+              "Japanese": "家をライトで飾りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "gift",
+        "word_translation": {
+          "Hindi": "उपहार",
+          "Japanese": "プレゼント"
+        },
+        "meaning": "Something given to someone during celebrations",
+        "meaning_translation": {
+          "Hindi": "उत्सव के दौरान किसी को दी जाने वाली वस्तु",
+          "Japanese": "お祝いのときに誰かに贈るもの"
+        },
+        "examples": [
+          {
+            "sentence": "She gave me a gift on my birthday.",
+            "translation": {
+              "Hindi": "उसने मुझे मेरे जन्मदिन पर उपहार दिया।",
+              "Japanese": "彼女は私の誕生日にプレゼントをくれました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Talking About Festivals",
+        "explanation": "Use the present simple tense to describe festivals. Example: People celebrate Holi in March.",
+        "explanation_translation": {
+          "Hindi": "त्यौहारों का वर्णन करने के लिए Present Simple का उपयोग करें। उदाहरण: लोग मार्च में होली मनाते हैं।",
+          "Japanese": "祭りを説明するときは現在形を使います。例: People celebrate Holi in March."
+        }
+      },
+      {
+        "title": "Using 'on' and 'at' for Festivals",
+        "explanation": "Use 'on' with days and 'at' with occasions. Example: We celebrate Christmas on December 25. We meet friends at Diwali.",
+        "explanation_translation": {
+          "Hindi": "दिनों के लिए 'on' और अवसरों के लिए 'at' का उपयोग करें। उदाहरण: We celebrate Christmas on December 25. We meet friends at Diwali.",
+          "Japanese": "日付には 'on' を使い、行事には 'at' を使います。例: We celebrate Christmas on December 25. We meet friends at Diwali."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means a special day of celebration?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द उत्सव का विशेष दिन दर्शाता है?",
+          "Japanese": "祝日の特別な日を意味する単語はどれですか？"
+        },
+        "options": [
+          "parade",
+          "festival",
+          "gift"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Fireworks are used in many festivals.",
+        "question_translation": {
+          "Hindi": "कई त्योहारों में आतिशबाज़ी का उपयोग किया जाता है।",
+          "Japanese": "多くの祭りで花火が使われます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Christmas is a ___ festival.",
+        "question_translation": {
+          "Hindi": "क्रिसमस एक ___ त्योहार है।",
+          "Japanese": "クリスマスは___祭りです。"
+        },
+        "options": [
+          "cultural",
+          "religious",
+          "public holiday"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means to make something beautiful for a celebration?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द किसी उत्सव के लिए कुछ सुंदर बनाने का अर्थ है?",
+          "Japanese": "祝いのために何かを美しくすることを意味する単語はどれですか？"
+        },
+        "options": [
+          "decorate",
+          "tradition",
+          "celebration"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "A public holiday means offices and schools are open.",
+        "question_translation": {
+          "Hindi": "सार्वजनिक अवकाश का मतलब है कि दफ्तर और स्कूल खुले रहते हैं।",
+          "Japanese": "祝日は会社や学校が開いているという意味です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "People ___ Holi with colors and sweets.",
+        "question_translation": {
+          "Hindi": "लोग होली को रंगों और मिठाइयों के साथ ___।",
+          "Japanese": "人々はホーリーを色とお菓子で___。"
+        },
+        "options": [
+          "celebrate",
+          "decorate",
+          "wear"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "multipleChoice",
+        "question": "We celebrate Independence Day ___ August 15.",
+        "question_translation": {
+          "Hindi": "हम स्वतंत्रता दिवस ___ 15 अगस्त को मनाते हैं।",
+          "Japanese": "私たちは独立記念日を8月15日に祝います。"
+        },
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "trueFalse",
+        "question": "Traditions are customs passed from one generation to another.",
+        "question_translation": {
+          "Hindi": "परंपराएँ वे रीति-रिवाज हैं जो एक पीढ़ी से दूसरी पीढ़ी तक जाती हैं।",
+          "Japanese": "伝統は世代から世代へ受け継がれる習慣です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "On my birthday, I received a ___ from my friend.",
+        "question_translation": {
+          "Hindi": "मेरे जन्मदिन पर मुझे अपने दोस्त से एक ___ मिला।",
+          "Japanese": "誕生日に友達から___をもらいました。"
+        },
+        "options": [
+          "gift",
+          "parade",
+          "fireworks"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "multipleChoice",
+        "question": "Which is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "We celebrate Diwali on November.",
+          "We celebrate Diwali in November.",
+          "We celebrate Diwali at November."
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What do people watch in the sky during New Year?",
+        "audio_text": "People watch fireworks in the sky during New Year.",
+        "question_translation": {
+          "Hindi": "नए साल पर लोग आसमान में क्या देखते हैं?",
+          "Japanese": "新年に人々は空で何を見ますか？"
+        },
+        "options": [
+          "parade",
+          "fireworks",
+          "gift"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "People decorate their homes with lights. What do they do?",
+        "audio_text": "People decorate their homes with lights.",
+        "question_translation": {
+          "Hindi": "लोग अपने घरों को रोशनी से सजाते हैं। वे क्या कर रहे हैं?",
+          "Japanese": "人々は家をライトで飾ります。彼らは何をしていますか？"
+        },
+        "options": [
+          "celebrate",
+          "decorate",
+          "wear"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "Diwali is a cultural festival. True or False?",
+        "audio_text": "Diwali is a cultural festival.",
+        "question_translation": {
+          "Hindi": "क्या दिवाली एक सांस्कृतिक त्योहार है?",
+          "Japanese": "ディワリは文化的なお祭りですか？"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Holi is celebrated with colors. Which festival is it?",
+        "audio_text": "Holi is celebrated with colors.",
+        "question_translation": {
+          "Hindi": "कौन सा त्योहार रंगों के साथ मनाया जाता है?",
+          "Japanese": "色で祝われる祭りはどれですか？"
+        },
+        "options": [
+          "Holi",
+          "Christmas",
+          "Eid"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "fillInTheBlanks",
+        "question": "'People wear ___ during the carnival.'",
+        "audio_text": "People wear costumes during the carnival.",
+        "question_translation": {
+          "Hindi": "लोग कार्निवल में ___ पहनते हैं।",
+          "Japanese": "人々はカーニバルで___を着ます。"
+        },
+        "options": [
+          "costumes",
+          "gifts",
+          "traditions"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'We celebrate Diwali with lights and sweets.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हम दिवाली को रोशनी और मिठाइयों के साथ मनाते हैं।'",
+          "Japanese": "言ってください: '私たちは光とお菓子でディワリを祝います。'"
+        },
+        "options": [],
+        "answer": "we celebrate diwali with lights and sweets"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Christmas is on December 25.'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्रिसमस 25 दिसंबर को है।'",
+          "Japanese": "言ってください: 'クリスマスは12月25日です。'"
+        },
+        "options": [],
+        "answer": "christmas is on december 25"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Our tradition is to share gifts.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमारी परंपरा उपहार साझा करने की है।'",
+          "Japanese": "言ってください: '私たちの伝統は贈り物を分け合うことです。'"
+        },
+        "options": [],
+        "answer": "our tradition is to share gifts"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The parade was amazing.'",
+        "question_translation": {
+          "Hindi": "कहें: 'परेड शानदार थी।'",
+          "Japanese": "言ってください: 'パレードは素晴らしかった。'"
+        },
+        "options": [],
+        "answer": "the parade was amazing"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We watched fireworks at night.'",
+        "question_translation": {
+          "Hindi": "कहें: 'हमने रात में आतिशबाज़ी देखी।'",
+          "Japanese": "言ってください: '私たちは夜に花火を見ました。'"
+        },
+        "options": [],
+        "answer": "we watched fireworks at night"
+      }
+    ]
+  }
 }

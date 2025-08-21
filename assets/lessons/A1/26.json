@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "My father works at the ___. (bank)",
+        "question": "My father works at the ___.",
         "question_translation": {
           "Hindi": "मेरे पिताजी ___ में काम करते हैं।",
           "Japanese": "私の父は___で働いています。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "We post letters at the ___. (post office)",
+        "question": "We post letters at the ___.",
         "question_translation": {
           "Hindi": "हम ___ में पत्र डालते हैं।",
           "Japanese": "私たちは___で手紙を出します。"
@@ -330,7 +330,7 @@
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "Children play in the ___. (park)",
+        "question": "Children play in the ___.",
         "question_translation": {
           "Hindi": "बच्चे ___ में खेलते हैं।",
           "Japanese": "子どもたちは___で遊びます。"
@@ -341,13 +341,13 @@
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: [supermarket, buy, at, vegetables, we]",
+        "question": "Arrange: [supermarket, buy, at, vegetables, we, the]",
         "question_translation": {
-          "Hindi": "[supermarket, buy, at, vegetables, we] को सही क्रम में लगाएं।",
-          "Japanese": "[supermarket, buy, at, vegetables, we]を並べ替えましょう。"
+          "Hindi": "[supermarket, buy, at, vegetables, we, the] को सही क्रम में लगाएं।",
+          "Japanese": "[supermarket, buy, at, vegetables, we, the]を並べ替えましょう。"
         },
-        "options": ["supermarket", "buy", "at", "vegetables", "we"],
-        "answer": ["We", "buy", "vegetables", "at", "supermarket"]
+        "options": ["supermarket", "buy", "at", "vegetables", "we", "the"],
+        "answer": ["We", "buy", "vegetables", "at", "the", "supermarket"]
       }
     ],
     "listening": [

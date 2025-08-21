@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "She ___ my invitation. (accepts)",
+        "question": "She ___ my invitation.",
         "question_translation": {
           "Hindi": "वह मेरा निमंत्रण ___ करती है।",
           "Japanese": "彼女は私の招待を___ます。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "Thanks for ___ me. (inviting)",
+        "question": "Thanks for ___ me.",
         "question_translation": {
           "Hindi": "मुझे ___ करने के लिए धन्यवाद।",
           "Japanese": "___してくれてありがとう。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "Sorry, I can't ___. (come)",
+        "question": "Sorry, I can't ___.",
         "question_translation": {
           "Hindi": "माफ़ कीजिए, मैं ___ नहीं सकता।",
           "Japanese": "ごめんなさい、___できません。"
@@ -324,13 +324,13 @@
           "Hindi": "[like, would, you, party, my, to, come] को सही क्रम में लगाएं।",
           "Japanese": "[like, would, you, party, my, to, come]を並べ替えましょう。"
         },
-        "options": ["like", "would", "you", "party", "my", "to", "come"],
+        "options": ["like", "would", "you", "party", "my", "to", "come", "to"],
         "answer": ["Would", "you", "like", "to", "come", "to", "my", "party"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "Let's ___ your birthday! (celebrate)",
+        "question": "Let's ___ your birthday!",
         "question_translation": {
           "Hindi": "चलो तुम्हारा जन्मदिन ___।",
           "Japanese": "あなたの誕生日を___ましょう。"
@@ -347,7 +347,7 @@
           "Japanese": "[the, host, of, party, he, is, the]を並べ替えましょう。"
         },
         "options": ["the", "host", "of", "party", "he", "is", "the"],
-        "answer": ["He", "is", "the", "host", "of", "the", "party"]
+        "answer": ["he", "is", "the", "host", "of", "the", "party"]
       }
     ],
     "listening": [

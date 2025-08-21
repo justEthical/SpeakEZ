@@ -1,4 +1,490 @@
 {
-  "id": 46,
-  "message": "This is file number 46"
+  "id": "lesson_films_books_001",
+  "lesson_name": "Describing Films and Books",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "novel",
+        "word_translation": {
+          "Hindi": "उपन्यास",
+          "Japanese": "小説"
+        },
+        "meaning": "A long written story, usually in book form",
+        "meaning_translation": {
+          "Hindi": "एक लंबी लिखी हुई कहानी, आमतौर पर किताब के रूप में",
+          "Japanese": "本の形で書かれた長い物語"
+        },
+        "examples": [
+          {
+            "sentence": "She is reading a famous novel.",
+            "translation": {
+              "Hindi": "वह एक प्रसिद्ध उपन्यास पढ़ रही है।",
+              "Japanese": "彼女は有名な小説を読んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "author",
+        "word_translation": {
+          "Hindi": "लेखक",
+          "Japanese": "著者"
+        },
+        "meaning": "The person who writes a book",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो किताब लिखता है",
+          "Japanese": "本を書く人"
+        },
+        "examples": [
+          {
+            "sentence": "J.K. Rowling is the author of Harry Potter.",
+            "translation": {
+              "Hindi": "जे. के. रोलिंग हैरी पॉटर की लेखिका हैं।",
+              "Japanese": "J.K.ローリングはハリー・ポッターの著者です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plot",
+        "word_translation": {
+          "Hindi": "कहानी / कथानक",
+          "Japanese": "筋 / プロット"
+        },
+        "meaning": "The main story of a film or book",
+        "meaning_translation": {
+          "Hindi": "किसी फ़िल्म या किताब की मुख्य कहानी",
+          "Japanese": "映画や本の主な物語"
+        },
+        "examples": [
+          {
+            "sentence": "The plot of the movie was very exciting.",
+            "translation": {
+              "Hindi": "फ़िल्म की कहानी बहुत रोमांचक थी।",
+              "Japanese": "その映画のプロットはとてもワクワクしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "character",
+        "word_translation": {
+          "Hindi": "पात्र / किरदार",
+          "Japanese": "登場人物"
+        },
+        "meaning": "A person or figure in a book or film",
+        "meaning_translation": {
+          "Hindi": "किताब या फ़िल्म का कोई व्यक्ति या किरदार",
+          "Japanese": "本や映画に出てくる人物"
+        },
+        "examples": [
+          {
+            "sentence": "Harry Potter is the main character in the series.",
+            "translation": {
+              "Hindi": "हैरी पॉटर इस श्रृंखला का मुख्य पात्र है।",
+              "Japanese": "ハリー・ポッターはシリーズの主人公です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "director",
+        "word_translation": {
+          "Hindi": "निर्देशक",
+          "Japanese": "監督"
+        },
+        "meaning": "The person who makes a film",
+        "meaning_translation": {
+          "Hindi": "फ़िल्म बनाने वाला व्यक्ति",
+          "Japanese": "映画を作る人"
+        },
+        "examples": [
+          {
+            "sentence": "Steven Spielberg is a famous director.",
+            "translation": {
+              "Hindi": "स्टीवन स्पीलबर्ग एक प्रसिद्ध निर्देशक हैं।",
+              "Japanese": "スティーヴン・スピルバーグは有名な監督です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "genre",
+        "word_translation": {
+          "Hindi": "शैली",
+          "Japanese": "ジャンル"
+        },
+        "meaning": "A type of film or book, such as comedy, romance, or thriller",
+        "meaning_translation": {
+          "Hindi": "फ़िल्म या किताब की प्रकार, जैसे कॉमेडी, रोमांस या थ्रिलर",
+          "Japanese": "映画や本の種類（コメディ、恋愛、スリラーなど）"
+        },
+        "examples": [
+          {
+            "sentence": "My favorite genre is science fiction.",
+            "translation": {
+              "Hindi": "मेरा पसंदीदा शैली विज्ञान कथा है।",
+              "Japanese": "私の好きなジャンルはSFです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "review",
+        "word_translation": {
+          "Hindi": "समीक्षा",
+          "Japanese": "レビュー / 批評"
+        },
+        "meaning": "An opinion about a book or film",
+        "meaning_translation": {
+          "Hindi": "किसी किताब या फ़िल्म के बारे में राय",
+          "Japanese": "本や映画についての意見"
+        },
+        "examples": [
+          {
+            "sentence": "I read a review before watching the movie.",
+            "translation": {
+              "Hindi": "मैंने फ़िल्म देखने से पहले समीक्षा पढ़ी।",
+              "Japanese": "映画を見る前にレビューを読みました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "boring",
+        "word_translation": {
+          "Hindi": "उबाऊ",
+          "Japanese": "退屈な"
+        },
+        "meaning": "Not interesting",
+        "meaning_translation": {
+          "Hindi": "दिलचस्प नहीं",
+          "Japanese": "面白くない"
+        },
+        "examples": [
+          {
+            "sentence": "The book was boring, so I stopped reading.",
+            "translation": {
+              "Hindi": "किताब उबाऊ थी, इसलिए मैंने पढ़ना बंद कर दिया।",
+              "Japanese": "その本は退屈だったので読むのをやめました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "exciting",
+        "word_translation": {
+          "Hindi": "रोमांचक",
+          "Japanese": "ワクワクする"
+        },
+        "meaning": "Very interesting and making you feel happy or nervous",
+        "meaning_translation": {
+          "Hindi": "बहुत दिलचस्प और आपको खुश या उत्साहित करने वाला",
+          "Japanese": "とても面白くてワクワクするもの"
+        },
+        "examples": [
+          {
+            "sentence": "The film was exciting from beginning to end.",
+            "translation": {
+              "Hindi": "फ़िल्म शुरू से अंत तक रोमांचक थी।",
+              "Japanese": "その映画は最初から最後までワクワクしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "chapter",
+        "word_translation": {
+          "Hindi": "अध्याय",
+          "Japanese": "章"
+        },
+        "meaning": "A part of a book",
+        "meaning_translation": {
+          "Hindi": "किताब का एक हिस्सा",
+          "Japanese": "本の一部"
+        },
+        "examples": [
+          {
+            "sentence": "I finished the first chapter of the novel.",
+            "translation": {
+              "Hindi": "मैंने उपन्यास का पहला अध्याय पूरा कर लिया।",
+              "Japanese": "私は小説の最初の章を読み終えました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Adjectives to Describe",
+        "explanation": "Use adjectives like 'exciting', 'boring', 'funny', 'romantic' to describe films and books.",
+        "explanation_translation": {
+          "Hindi": "फ़िल्मों और किताबों का वर्णन करने के लिए 'exciting', 'boring', 'funny', 'romantic' जैसे विशेषणों का उपयोग करें।",
+          "Japanese": "映画や本を表現するときに「exciting」「boring」「funny」「romantic」などの形容詞を使います。"
+        }
+      },
+      {
+        "title": "Talking About the Plot",
+        "explanation": "Use 'The story is about…' or 'The plot tells…' to describe the main story.",
+        "explanation_translation": {
+          "Hindi": "'The story is about…' या 'The plot tells…' का उपयोग मुख्य कहानी बताने के लिए करें।",
+          "Japanese": "物語を説明するときは「The story is about…」「The plot tells…」を使います。"
+        }
+      },
+      {
+        "title": "Expressing Opinions",
+        "explanation": "Use 'I think', 'In my opinion', or 'I liked/didn't like' to share your views. Example: I think the film was exciting.",
+        "explanation_translation": {
+          "Hindi": "अपनी राय बताने के लिए 'I think', 'In my opinion' या 'I liked/didn't like' का उपयोग करें। उदाहरण: I think the film was exciting.",
+          "Japanese": "自分の意見を言うときは「I think」「In my opinion」「I liked/didn't like」を使います。例: I think the film was exciting."
+        }
+      },
+      {
+        "title": "Talking About the Author or Director",
+        "explanation": "Use 'The book was written by…' or 'The film was directed by…'.",
+        "explanation_translation": {
+          "Hindi": "'The book was written by…' या 'The film was directed by…' का प्रयोग करें।",
+          "Japanese": "「The book was written by…」や「The film was directed by…」を使います。"
+        }
+      }
+    ]
+  }
+  ,"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'the main story of a film or book'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'फ़िल्म या किताब की मुख्य कहानी' का अर्थ है?",
+        "Japanese": "「映画や本の主な物語」を意味する単語はどれですか？"
+      },
+      "options": ["author", "plot", "chapter"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "‘Novel’ means a long written story.",
+      "question_translation": {
+        "Hindi": "'Novel' का मतलब एक लंबी लिखी हुई कहानी है।",
+        "Japanese": "「Novel」は長い物語を意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "J.K. Rowling is the ___ of Harry Potter.",
+      "question_translation": {
+        "Hindi": "जे. के. रोलिंग हैरी पॉटर की ___ हैं।",
+        "Japanese": "J.K.ローリングはハリー・ポッターの___です。"
+      },
+      "options": ["director", "author", "character"],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means 'a type of film or book like comedy or romance'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द फ़िल्म या किताब के प्रकार जैसे कॉमेडी या रोमांस को दर्शाता है?",
+        "Japanese": "映画や本の種類（コメディや恋愛など）を表す単語はどれですか？"
+      },
+      "options": ["genre", "review", "chapter"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "‘Character’ means the person or figure in a story.",
+      "question_translation": {
+        "Hindi": "'Character' का मतलब कहानी में व्यक्ति या किरदार होता है।",
+        "Japanese": "「Character」は物語に登場する人物を意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "The story is ___ a young wizard.",
+      "question_translation": {
+        "Hindi": "कहानी एक युवा जादूगर ___ है।",
+        "Japanese": "物語は若い魔法使い___です。"
+      },
+      "options": ["about", "by", "with"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [the, was, film, exciting]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [the, was, film, exciting]",
+        "Japanese": "並べ替え: [the, was, film, exciting]"
+      },
+      "options": ["the", "was", "film", "exciting"],
+      "answer": ["The", "film", "was", "exciting"]
+    },
+    {
+      "id": "sent3",
+      "type": "fillInTheBlanks",
+      "question": "In my ___, the book was boring.",
+      "question_translation": {
+        "Hindi": "मेरी ___ में, किताब उबाऊ थी।",
+        "Japanese": "私の___では、その本は退屈でした。"
+      },
+      "options": ["opinion", "character", "plot"],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [was, directed, film, by, the, Spielberg]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [was, directed, film, by, the, Spielberg]",
+        "Japanese": "並べ替え: [was, directed, film, by, the, Spielberg]"
+      },
+      "options": ["was", "directed", "film", "by", "the", "Spielberg"],
+      "answer": ["The", "film", "was", "directed", "by", "Spielberg"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "I read the first ___ of the novel yesterday.",
+      "question_translation": {
+        "Hindi": "मैंने कल उपन्यास का पहला ___ पढ़ा।",
+        "Japanese": "私は昨日小説の最初の___を読みました。"
+      },
+      "options": ["chapter", "plot", "genre"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Who is the main character?",
+      "audio_text": "The main character is Alice.",
+      "question_translation": {
+        "Hindi": "मुख्य पात्र कौन है?",
+        "Japanese": "主人公は誰ですか？"
+      },
+      "options": ["Alice", "Harry", "Tom"],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker said: 'The film was boring.'",
+      "audio_text": "The film was boring.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कहा: 'फ़िल्म उबाऊ थी।'",
+        "Japanese": "話者は「その映画は退屈だった」と言いました。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What did the review say?",
+      "audio_text": "The review said the plot was exciting.",
+      "question_translation": {
+        "Hindi": "समीक्षा ने क्या कहा?",
+        "Japanese": "レビューは何と言いましたか？"
+      },
+      "options": ["Boring plot", "Exciting plot", "Bad director"],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The speaker said: 'I finished the first chapter.'",
+      "audio_text": "I finished the first chapter.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कहा: 'मैंने पहला अध्याय पूरा कर लिया।'",
+        "Japanese": "話者は「最初の章を読み終えた」と言いました。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What genre was mentioned?",
+      "audio_text": "My favorite genre is comedy.",
+      "question_translation": {
+        "Hindi": "कौन सी शैली का उल्लेख किया गया?",
+        "Japanese": "どのジャンルが言及されましたか？"
+      },
+      "options": ["Romance", "Comedy", "Thriller"],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The story is about a young hero.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The story is about a young hero.'",
+        "Japanese": "言ってください: 'The story is about a young hero.'"
+      },
+      "options": [],
+      "answer": "the story is about a young hero"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The book was boring.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The book was boring.'",
+        "Japanese": "言ってください: 'The book was boring.'"
+      },
+      "options": [],
+      "answer": "the book was boring"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The film was exciting.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The film was exciting.'",
+        "Japanese": "言ってください: 'The film was exciting.'"
+      },
+      "options": [],
+      "answer": "the film was exciting"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The book was written by a famous author.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The book was written by a famous author.'",
+        "Japanese": "言ってください: 'The book was written by a famous author.'"
+      },
+      "options": [],
+      "answer": "the book was written by a famous author"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The film was directed by Steven Spielberg.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The film was directed by Steven Spielberg.'",
+        "Japanese": "言ってください: 'The film was directed by Steven Spielberg.'"
+      },
+      "options": [],
+      "answer": "the film was directed by steven spielberg"
+    }
+  ]
+}
+
 }

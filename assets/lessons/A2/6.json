@@ -1,186 +1,403 @@
 {
-  "id": "lesson_describing_people_character_001",
+  "id": "lesson_describing_people_001",
   "lesson_name": "Describing People (character/personality)",
   "purpose": "All",
   "cefrLevel": "A2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "friendly", "meaning": "kind and pleasant to others" },
-      { "word": "honest", "meaning": "always tells the truth" },
-      { "word": "hardworking", "meaning": "works a lot and does not give up" },
-      { "word": "polite", "meaning": "has good manners" },
-      { "word": "funny", "meaning": "makes people laugh" },
-      { "word": "brave", "meaning": "not afraid to do difficult things" },
-      { "word": "shy", "meaning": "quiet and not confident with new people" },
-      { "word": "selfish", "meaning": "thinks only about himself/herself" },
-      { "word": "generous", "meaning": "likes to give and share" },
-      { "word": "lazy", "meaning": "does not like to work or do much" }
+      {
+        "word": "Friendly",
+        "word_translation": {
+          "Hindi": "मिलनसार",
+          "Japanese": "親しみやすい"
+        },
+        "meaning": "Acting in a kind and helpful way",
+        "meaning_translation": {
+          "Hindi": "दयालु और सहायक तरीके से व्यवहार करना",
+          "Japanese": "親切で助けになる方法で振る舞うこと"
+        },
+        "examples": [
+          {
+            "sentence": "She is very friendly to everyone.",
+            "translation": {
+              "Hindi": "वह सभी के साथ बहुत मिलनसार है।",
+              "Japanese": "彼女はみんなにとても親切です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Shy",
+        "word_translation": {
+          "Hindi": "शर्मीला",
+          "Japanese": "内気な"
+        },
+        "meaning": "Nervous and uncomfortable around people",
+        "meaning_translation": {
+          "Hindi": "लोगों के आस-पास घबराहट और असहजता महसूस करना",
+          "Japanese": "人前で緊張し不安になること"
+        },
+        "examples": [
+          {
+            "sentence": "Tom is a shy boy in class.",
+            "translation": {
+              "Hindi": "टॉम कक्षा में एक शर्मीला लड़का है।",
+              "Japanese": "トムはクラスで内気な男の子です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Talkative",
+        "word_translation": {
+          "Hindi": "बातूनी",
+          "Japanese": "おしゃべりな"
+        },
+        "meaning": "Someone who talks a lot",
+        "meaning_translation": {
+          "Hindi": "जो बहुत ज्यादा बात करता है",
+          "Japanese": "たくさん話す人"
+        },
+        "examples": [
+          {
+            "sentence": "My sister is very talkative.",
+            "translation": {
+              "Hindi": "मेरी बहन बहुत बातूनी है।",
+              "Japanese": "私の妹はとてもおしゃべりです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Honest",
+        "word_translation": {
+          "Hindi": "ईमानदार",
+          "Japanese": "正直な"
+        },
+        "meaning": "Telling the truth and not lying",
+        "meaning_translation": {
+          "Hindi": "सच बोलना और झूठ न बोलना",
+          "Japanese": "嘘をつかず、真実を話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "He is an honest police officer.",
+            "translation": {
+              "Hindi": "वह एक ईमानदार पुलिस अधिकारी है।",
+              "Japanese": "彼は正直な警察官です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Lazy",
+        "word_translation": {
+          "Hindi": "आलसी",
+          "Japanese": "怠け者の"
+        },
+        "meaning": "Not liking to work or use energy",
+        "meaning_translation": {
+          "Hindi": "काम करना या ऊर्जा का उपयोग करना पसंद न करना",
+          "Japanese": "働いたりエネルギーを使ったりするのが嫌いなこと"
+        },
+        "examples": [
+          {
+            "sentence": "He is too lazy to clean his room.",
+            "translation": {
+              "Hindi": "वह अपना कमरा साफ करने के लिए बहुत आलसी है।",
+              "Japanese": "彼は自分の部屋を掃除するのがとても面倒です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Kind",
+        "word_translation": {
+          "Hindi": "दयालु",
+          "Japanese": "親切な"
+        },
+        "meaning": "Caring about others and helping them",
+        "meaning_translation": {
+          "Hindi": "दूसरों की परवाह करना और उनकी मदद करना",
+          "Japanese": "他人を思いやり、助けること"
+        },
+        "examples": [
+          {
+            "sentence": "My grandmother is very kind to animals.",
+            "translation": {
+              "Hindi": "मेरी दादी जानवरों के प्रति बहुत दयालु हैं।",
+              "Japanese": "私の祖母は動物にとても親切です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Funny",
+        "word_translation": {
+          "Hindi": "हास्यपूर्ण",
+          "Japanese": "面白い"
+        },
+        "meaning": "Causing people to laugh",
+        "meaning_translation": {
+          "Hindi": "लोगों को हँसाने वाला",
+          "Japanese": "人を笑わせること"
+        },
+        "examples": [
+          {
+            "sentence": "He tells very funny jokes.",
+            "translation": {
+              "Hindi": "वह बहुत मजेदार चुटकुले सुनाता है।",
+              "Japanese": "彼はとても面白いジョークを言います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Hardworking",
+        "word_translation": {
+          "Hindi": "मेहनती",
+          "Japanese": "勤勉な"
+        },
+        "meaning": "Always doing your job with effort and care",
+        "meaning_translation": {
+          "Hindi": "हमेशा मेहनत और ध्यान से काम करना",
+          "Japanese": "いつも努力して仕事をすること"
+        },
+        "examples": [
+          {
+            "sentence": "She is a hardworking student.",
+            "translation": {
+              "Hindi": "वह एक मेहनती छात्रा है।",
+              "Japanese": "彼女は勤勉な学生です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Rude",
+        "word_translation": {
+          "Hindi": "असभ्य",
+          "Japanese": "失礼な"
+        },
+        "meaning": "Not polite or respectful",
+        "meaning_translation": {
+          "Hindi": "विनम्र या सम्मानजनक नहीं",
+          "Japanese": "礼儀正しくない、失礼なこと"
+        },
+        "examples": [
+          {
+            "sentence": "It is rude to interrupt someone.",
+            "translation": {
+              "Hindi": "किसी की बात काटना असभ्य होता है।",
+              "Japanese": "人の話をさえぎるのは失礼です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Confident",
+        "word_translation": {
+          "Hindi": "आत्मविश्वासी",
+          "Japanese": "自信のある"
+        },
+        "meaning": "Believing in yourself and your abilities",
+        "meaning_translation": {
+          "Hindi": "अपने आप और अपनी क्षमताओं पर विश्वास रखना",
+          "Japanese": "自分と自分の能力を信じること"
+        },
+        "examples": [
+          {
+            "sentence": "He is confident when he speaks in public.",
+            "translation": {
+              "Hindi": "वह सार्वजनिक रूप से बोलते समय आत्मविश्वासी होता है।",
+              "Japanese": "彼は人前で話すときに自信があります。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using 'is' and 'are' with adjectives",
-        "explanation": "Use 'is' for one person and 'are' for many. Example: She is polite. They are hardworking."
+        "title": "Using 'is' and 'are' to describe people",
+        "explanation": "Use 'is' for singular and 'are' for plural: 'He is friendly', 'They are kind.'",
+        "explanation_translation": {
+          "Hindi": "'is' का उपयोग एकवचन के लिए और 'are' का बहुवचन के लिए करें: 'He is friendly', 'They are kind.'",
+          "Japanese": "単数形には「is」、複数形には「are」を使います: 'He is friendly'、'They are kind.'"
+        }
       },
       {
-        "title": "Describing yourself and others",
-        "explanation": "Use 'I am', 'He is', 'She is', 'They are' + adjective. Example: I am honest."
+        "title": "Using adjectives after 'be' verbs",
+        "explanation": "Adjectives like 'shy', 'funny', and 'honest' come after the verb: 'She is shy.'",
+        "explanation_translation": {
+          "Hindi": "'shy', 'funny', 'honest' जैसे विशेषण 'is', 'are' के बाद आते हैं: 'She is shy.'",
+          "Japanese": "'shy'、'funny'、'honest'のような形容詞は動詞の後に来ます: 'She is shy.'"
+        }
+      },
+      {
+        "title": "Negative forms: 'not' with 'be'",
+        "explanation": "To say someone does not have a trait, use 'not': 'He is not lazy.'",
+        "explanation_translation": {
+          "Hindi": "किसी में कोई गुण नहीं है यह कहने के लिए 'not' का प्रयोग करें: 'He is not lazy.'",
+          "Japanese": "その性格がないことを言いたい時は「not」を使います: 'He is not lazy.'"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "My brother is very funny.", "translation": "" },
-      { "sentence": "She is a hardworking student.", "translation": "" },
-      { "sentence": "They are always friendly to everyone.", "translation": "" },
-      { "sentence": "I am honest and polite.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "Which word means 'makes people laugh'?",
-        "options": ["shy", "funny", "brave"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word describes a person who likes to help others?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द उस व्यक्ति का वर्णन करता है जो दूसरों की मदद करना पसंद करता है?",
+        "Japanese": "他の人を助けるのが好きな人を表す単語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "Someone who always tells the truth is ___.",
-        "options": ["honest", "lazy", "friendly"],
-        "answer": 0
+      "options": ["shy", "kind", "lazy"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "A 'friendly' person is easy to talk to.",
+      "question_translation": {
+        "Hindi": "'Friendly' व्यक्ति से बात करना आसान होता है।",
+        "Japanese": "「Friendly」な人とは話しやすいです。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "A generous person likes to share.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "He is very ___; he never talks to anyone.",
+      "question_translation": {
+        "Hindi": "वह बहुत ___ है; वह कभी किसी से बात नहीं करता।",
+        "Japanese": "彼はとても___です；誰とも話しません。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Who is not afraid to do difficult things?",
-        "options": ["brave", "shy", "selfish"],
-        "answer": 0
+      "options": ["shy", "friendly", "confident"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which adjective means the opposite of 'lazy'?",
+      "question_translation": {
+        "Hindi": "'Lazy' का विपरीत विशेषण कौन सा है?",
+        "Japanese": "「Lazy」の反対の形容詞はどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which word means 'does not like to work'?",
-        "options": ["polite", "lazy", "honest"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "My teacher is very ___. (polite)",
-        "options": ["polite", "lazy", "shy"],
-        "answer": 0
+      "options": ["clever", "hardworking", "quiet"],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "A 'funny' person is someone who makes people laugh.",
+      "question_translation": {
+        "Hindi": "'Funny' व्यक्ति वह होता है जो लोगों को हँसाता है।",
+        "Japanese": "「Funny」な人は人を笑わせる人です。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "He is a ___ boy. (hardworking)",
-        "options": ["funny", "hardworking", "selfish"],
-        "answer": 1
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "She is very ___ and always smiles.",
+      "question_translation": {
+        "Hindi": "वह बहुत ___ है और हमेशा मुस्कुराती है।",
+        "Japanese": "彼女はとても___で、いつも笑顔です。"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, generous, She]",
-        "options": ["is", "generous", "She"],
-        "answer": ["She", "is", "generous"]
+      "options": ["kind", "angry", "serious"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [is, John, clever, very]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [is, John, clever, very]",
+        "Japanese": "並べ替え: [is, John, clever, very]"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "They are always ___. (friendly)",
-        "options": ["brave", "friendly", "lazy"],
-        "answer": 1
+      "options": ["is", "John", "clever", "very"],
+      "answer": ["John", "is", "very", "clever"]
+    },
+    {
+      "id": "sent3",
+      "type": "fillInTheBlanks",
+      "question": "Tom is not ___, he always works hard.",
+      "question_translation": {
+        "Hindi": "टॉम ___ नहीं है, वह हमेशा कड़ी मेहनत करता है।",
+        "Japanese": "トムは___ではありません。彼はいつも一生懸命働きます。"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [I, and, honest, polite, am]",
-        "options": ["I", "and", "honest", "polite", "am"],
-        "answer": ["I", "am", "honest", "and", "polite"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "How is the person's brother? (Audio: 'My brother is very funny.')",
-        "options": ["Brave", "Funny", "Lazy"],
-        "answer": 1
+      "options": ["lazy", "funny", "polite"],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [a, is, polite, person, he]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [a, is, polite, person, he]",
+        "Japanese": "並べ替え: [a, is, polite, person, he]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What is the student like? (Audio: 'She is a hardworking student.')",
-        "options": ["Lazy", "Selfish", "Hardworking"],
-        "answer": 2
+      "options": ["a", "is", "polite", "person", "he"],
+      "answer": ["He", "is", "a", "polite", "person"]
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What word did the speaker use?",
+      "audio_text": "He is very confident.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कौन सा शब्द इस्तेमाल किया?",
+        "Japanese": "話者はどの単語を使いましたか？"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "How are they to everyone? (Audio: 'They are always friendly to everyone.')",
-        "options": ["Friendly", "Brave", "Polite"],
-        "answer": 0
+      "options": ["lazy", "confident", "shy"],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "How does she describe her friend?",
+      "audio_text": "My friend is kind and friendly.",
+      "question_translation": {
+        "Hindi": "वह अपनी दोस्त को कैसे वर्णित करती है?",
+        "Japanese": "彼女は友達をどのように説明していますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "How does the speaker describe themselves? (Audio: 'I am honest and polite.')",
-        "options": ["Brave and shy", "Honest and polite", "Lazy and selfish"],
-        "answer": 1
+      "options": ["kind and friendly", "serious and shy", "lazy and funny"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'My friend is very funny and kind.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मेरा दोस्त बहुत मजाकिया और दयालु है।'",
+        "Japanese": "言ってください: 「私の友達はとても面白くて親切です。」"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "Who likes to give and share? (Audio: 'She is generous.')",
-        "options": ["Polite", "Generous", "Hardworking"],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'My brother is very funny.'",
-        "options": [],
-        "answer": "My brother is very funny."
+      "options": [],
+      "answer": "my friend is very funny and kind"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'He is hardworking and polite.'",
+      "question_translation": {
+        "Hindi": "कहें: 'वह मेहनती और विनम्र है।'",
+        "Japanese": "言ってください: 「彼は勤勉で礼儀正しいです。」"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'She is a hardworking student.'",
-        "options": [],
-        "answer": "She is a hardworking student."
-      },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'They are always friendly to everyone.'",
-        "options": [],
-        "answer": "They are always friendly to everyone."
-      },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'I am honest and polite.'",
-        "options": [],
-        "answer": "I am honest and polite."
-      },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'She is generous.'",
-        "options": [],
-        "answer": "She is generous."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "he is hardworking and polite"
+    }
+  ]
+}
+
+  
 }

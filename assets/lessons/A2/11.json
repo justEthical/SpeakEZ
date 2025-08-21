@@ -1,4 +1,453 @@
 {
-  "id": 11,
-  "message": "This is file number 11"
+  "id": "lesson_weekend_001",
+  "lesson_name": "Talking About Your Weekend",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "weekend",
+        "word_translation": { "Hindi": "सप्ताहांत", "Japanese": "週末" },
+        "meaning": "Saturday and Sunday",
+        "meaning_translation": {
+          "Hindi": "शनिवार और रविवार",
+          "Japanese": "土曜日と日曜日"
+        },
+        "examples": [
+          {
+            "sentence": "I relax on the weekend.",
+            "translation": {
+              "Hindi": "मैं सप्ताहांत में आराम करता हूँ।",
+              "Japanese": "週末はリラックスします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "went",
+        "word_translation": { "Hindi": "गया/गई", "Japanese": "行った" },
+        "meaning": "past form of 'go'",
+        "meaning_translation": {
+          "Hindi": "'go' का भूतकाल",
+          "Japanese": "'go'の過去形"
+        },
+        "examples": [
+          {
+            "sentence": "I went to the market.",
+            "translation": {
+              "Hindi": "मैं बाज़ार गया।",
+              "Japanese": "市場に行きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "watched",
+        "word_translation": { "Hindi": "देखा", "Japanese": "見た" },
+        "meaning": "past form of 'watch'",
+        "meaning_translation": {
+          "Hindi": "'watch' का भूतकाल",
+          "Japanese": "'watch'の過去形"
+        },
+        "examples": [
+          {
+            "sentence": "We watched a movie.",
+            "translation": {
+              "Hindi": "हमने एक फिल्म देखी।",
+              "Japanese": "映画を見ました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "visited",
+        "word_translation": { "Hindi": "मुलाकात की", "Japanese": "訪れた" },
+        "meaning": "past form of 'visit'",
+        "meaning_translation": {
+          "Hindi": "'visit' का भूतकाल",
+          "Japanese": "'visit'の過去形"
+        },
+        "examples": [
+          {
+            "sentence": "She visited her grandparents.",
+            "translation": {
+              "Hindi": "उसने अपने दादा-दादी से मुलाकात की।",
+              "Japanese": "彼女は祖父母を訪ねました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "relaxed",
+        "word_translation": { "Hindi": "आराम किया", "Japanese": "リラックスした" },
+        "meaning": "past form of 'relax'",
+        "meaning_translation": {
+          "Hindi": "'relax' का भूतकाल",
+          "Japanese": "'relax'の過去形"
+        },
+        "examples": [
+          {
+            "sentence": "I relaxed at home.",
+            "translation": {
+              "Hindi": "मैं घर पर आराम किया।",
+              "Japanese": "家でリラックスしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hung out",
+        "word_translation": { "Hindi": "समय बिताया", "Japanese": "遊んだ" },
+        "meaning": "spent time with friends",
+        "meaning_translation": {
+          "Hindi": "दोस्तों के साथ समय बिताना",
+          "Japanese": "友達と過ごすこと"
+        },
+        "examples": [
+          {
+            "sentence": "I hung out with friends.",
+            "translation": {
+              "Hindi": "मैंने दोस्तों के साथ समय बिताया।",
+              "Japanese": "友達と遊びました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cooked",
+        "word_translation": { "Hindi": "खाना बनाया", "Japanese": "料理した" },
+        "meaning": "past form of 'cook'",
+        "meaning_translation": {
+          "Hindi": "'cook' का भूतकाल",
+          "Japanese": "'cook'の過去形"
+        },
+        "examples": [
+          {
+            "sentence": "We cooked dinner together.",
+            "translation": {
+              "Hindi": "हमने साथ में डिनर बनाया।",
+              "Japanese": "一緒に夕食を作りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "slept in",
+        "word_translation": { "Hindi": "देर तक सोया", "Japanese": "寝坊した" },
+        "meaning": "to sleep longer than usual",
+        "meaning_translation": {
+          "Hindi": "आम दिनों से ज़्यादा देर तक सोना",
+          "Japanese": "いつもより遅くまで寝ること"
+        },
+        "examples": [
+          {
+            "sentence": "I slept in on Sunday.",
+            "translation": {
+              "Hindi": "मैं रविवार को देर तक सोया।",
+              "Japanese": "日曜日は寝坊しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "did homework",
+        "word_translation": { "Hindi": "होमवर्क किया", "Japanese": "宿題をした" },
+        "meaning": "completed school tasks",
+        "meaning_translation": {
+          "Hindi": "स्कूल का काम पूरा करना",
+          "Japanese": "学校の課題を終えること"
+        },
+        "examples": [
+          {
+            "sentence": "I did my homework on Saturday.",
+            "translation": {
+              "Hindi": "मैंने शनिवार को होमवर्क किया।",
+              "Japanese": "土曜日に宿題をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cleaned",
+        "word_translation": { "Hindi": "साफ़ किया", "Japanese": "掃除した" },
+        "meaning": "past form of 'clean'",
+        "meaning_translation": {
+          "Hindi": "'clean' का भूतकाल",
+          "Japanese": "'clean'の過去形"
+        },
+        "examples": [
+          {
+            "sentence": "I cleaned my room.",
+            "translation": {
+              "Hindi": "मैंने अपना कमरा साफ़ किया।",
+              "Japanese": "部屋を掃除しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Simple Past",
+        "explanation": "Use past tense verbs to talk about your weekend. Example: I watched a movie.",
+        "explanation_translation": {
+          "Hindi": "अपने सप्ताहांत के बारे में बात करने के लिए भूतकाल का प्रयोग करें।",
+          "Japanese": "週末について話すときは過去形を使います。"
+        }
+      },
+      {
+        "title": "Time expressions for past",
+        "explanation": "Use 'yesterday', 'last weekend', or 'on Saturday' to show time.",
+        "explanation_translation": {
+          "Hindi": "समय दिखाने के लिए 'कल', 'पिछले सप्ताहांत', 'शनिवार को' जैसे शब्दों का प्रयोग करें।",
+          "Japanese": "'昨日', '先週末', '土曜日に' などの語を使って時間を示します。"
+        }
+      },
+      {
+        "title": "Irregular verbs in past",
+        "explanation": "Some verbs don’t follow the -ed rule. Example: go → went, eat → ate",
+        "explanation_translation": {
+          "Hindi": "कुछ क्रियाएँ -ed नियम का पालन नहीं करतीं।",
+          "Japanese": "不規則動詞には-edを使いません。"
+        }
+      }
+    ]
+  },
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means a short trip or outing?",
+      "question_translation": {
+        "hindi": "कौन सा शब्द एक छोटी यात्रा या सैर का मतलब है?",
+        "japanese": "短い旅行やお出かけを意味する言葉はどれですか？"
+      },
+      "options": ["weekend", "picnic", "routine"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "On Sunday, we had a family ___.",
+      "question_translation": {
+        "hindi": "रविवार को हमने एक पारिवारिक ___ किया।",
+        "japanese": "日曜日に家族で___をしました。"
+      },
+      "options": ["picnic", "project", "meeting"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A weekend includes Saturday and Sunday.",
+      "question_translation": {
+        "hindi": "Weekend में शनिवार और रविवार शामिल होते हैं।",
+        "japanese": "週末には土曜日と日曜日が含まれます。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "If you went hiking, what did you do?",
+      "question_translation": {
+        "hindi": "अगर आप hiking पर गए, तो आपने क्या किया?",
+        "japanese": "ハイキングに行ったなら、何をしましたか？"
+      },
+      "options": ["walked in nature", "ate at a restaurant", "watched TV"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which of these is something fun to do on a weekend?",
+      "question_translation": {
+        "hindi": "इनमें से कौन सी चीज़ सप्ताहांत में करने में मज़ेदार है?",
+        "japanese": "週末に楽しいことはどれですか？"
+      },
+      "options": ["commute", "relax", "study timetable"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I ___ to the park on Saturday. (went)",
+      "question_translation": {
+        "hindi": "मैं शनिवार को पार्क ___। (went)",
+        "japanese": "私は土曜日に公園に___。（went）"
+      },
+      "options": ["go", "gone", "went"],
+      "answer": 2
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "We ___ a movie on Sunday evening.",
+      "question_translation": {
+        "hindi": "हमने रविवार शाम को एक फिल्म ___।",
+        "japanese": "私たちは日曜日の夜に映画を___。"
+      },
+      "options": ["watch", "watched", "watching"],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [had, I, great, weekend, a]",
+      "question_translation": {
+        "hindi": "वाक्य को सही क्रम में लगाइए: [had, I, great, weekend, a]",
+        "japanese": "文を正しい順番に並べ替えてください: [had, I, great, weekend, a]"
+      },
+      "options": ["had", "I", "great", "weekend", "a"],
+      "answer": ["I", "had", "a", "great", "weekend"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [played, friends, I, with, games]",
+      "question_translation": {
+        "hindi": "वाक्य को सही क्रम में लगाइए: [played, friends, I, with, games]",
+        "japanese": "文を正しい順番に並べ替えてください: [played, friends, I, with, games]"
+      },
+      "options": ["played", "friends", "I", "with", "games"],
+      "answer": ["I", "played", "games", "with", "friends"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "On the weekend, I like to ___ and relax.",
+      "question_translation": {
+        "hindi": "सप्ताहांत में मुझे ___ और आराम करना पसंद है।",
+        "japanese": "週末には___してリラックスするのが好きです。"
+      },
+      "options": ["rest", "study", "work"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "listening",
+      "question": "What did she do on Saturday?",
+      "question_translation": {
+        "hindi": "उसने शनिवार को क्या किया?",
+        "japanese": "彼女は土曜日に何をしましたか？"
+      },
+      "audio_text": "On Saturday, I visited my grandparents.",
+      "options": ["Visited grandparents", "Went shopping", "Watched a movie"],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "listening",
+      "question": "Where did he go?",
+      "question_translation": {
+        "hindi": "वह कहाँ गया?",
+        "japanese": "彼はどこに行きましたか？"
+      },
+      "audio_text": "I went to the beach with my family.",
+      "options": ["Beach", "Mountains", "Cinema"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "listening",
+      "question": "What did they do in the evening?",
+      "question_translation": {
+        "hindi": "उन्होंने शाम को क्या किया?",
+        "japanese": "彼らは夕方に何をしましたか？"
+      },
+      "audio_text": "We watched a movie in the evening.",
+      "options": ["Played games", "Watched a movie", "Went shopping"],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "listening",
+      "question": "What kind of food did he eat?",
+      "question_translation": {
+        "hindi": "उसने किस तरह का खाना खाया?",
+        "japanese": "彼はどんな食べ物を食べましたか？"
+      },
+      "audio_text": "I ate pizza and ice cream for dinner.",
+      "options": ["Pasta", "Pizza and ice cream", "Soup"],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "listening",
+      "question": "Who did she meet?",
+      "question_translation": {
+        "hindi": "वह किससे मिली?",
+        "japanese": "彼女は誰に会いましたか？"
+      },
+      "audio_text": "I met my school friends at the mall.",
+      "options": ["Cousins", "Neighbors", "School friends"],
+      "answer": 2
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I went to the park on Saturday.'",
+      "question_translation": {
+        "hindi": "'I went to the park on Saturday.' कहें।",
+        "japanese": "「I went to the park on Saturday.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i went to the park on saturday"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'We watched a movie in the evening.'",
+      "question_translation": {
+        "hindi": "'We watched a movie in the evening.' कहें।",
+        "japanese": "「We watched a movie in the evening.」と言ってください。"
+      },
+      "options": [],
+      "answer": "we watched a movie in the evening"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I had a great weekend.'",
+      "question_translation": {
+        "hindi": "'I had a great weekend.' कहें।",
+        "japanese": "「I had a great weekend.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i had a great weekend"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I met my friends and we played games.'",
+      "question_translation": {
+        "hindi": "'I met my friends and we played games.' कहें।",
+        "japanese": "「I met my friends and we played games.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i met my friends and we played games"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I relaxed and listened to music.'",
+      "question_translation": {
+        "hindi": "'I relaxed and listened to music.' कहें।",
+        "japanese": "「I relaxed and listened to music.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i relaxed and listened to music"
+    }
+  ]
+}
+
+
 }

@@ -1,4 +1,564 @@
 {
-  "id": 24,
-  "message": "This is file number 24"
+  "id": "lesson_travel_transport_001",
+  "lesson_name": "Travel and Transport",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "word_translation": {
+          "Hindi": "टिकट",
+          "Japanese": "切符"
+        },
+        "meaning": "A piece of paper that shows you paid for travel",
+        "meaning_translation": {
+          "Hindi": "एक कागज़ जो दिखाता है कि आपने यात्रा के लिए भुगतान किया है",
+          "Japanese": "旅行の料金を支払ったことを示す紙"
+        },
+        "examples": [
+          {
+            "sentence": "I bought a train ticket.",
+            "translation": {
+              "Hindi": "मैंने ट्रेन का टिकट खरीदा।",
+              "Japanese": "電車の切符を買いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bus stop",
+        "word_translation": {
+          "Hindi": "बस स्टॉप",
+          "Japanese": "バス停"
+        },
+        "meaning": "The place where you wait for a bus",
+        "meaning_translation": {
+          "Hindi": "वह स्थान जहाँ आप बस का इंतजार करते हैं",
+          "Japanese": "バスを待つ場所"
+        },
+        "examples": [
+          {
+            "sentence": "The bus stop is near my house.",
+            "translation": {
+              "Hindi": "बस स्टॉप मेरे घर के पास है।",
+              "Japanese": "バス停は私の家の近くにあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "station",
+        "word_translation": {
+          "Hindi": "स्टेशन",
+          "Japanese": "駅"
+        },
+        "meaning": "A place where trains or buses start and stop",
+        "meaning_translation": {
+          "Hindi": "वह स्थान जहाँ ट्रेनें या बसें रुकती और चलती हैं",
+          "Japanese": "電車やバスが止まったり出発したりする場所"
+        },
+        "examples": [
+          {
+            "sentence": "I arrived at the station early.",
+            "translation": {
+              "Hindi": "मैं स्टेशन पर जल्दी पहुँच गया।",
+              "Japanese": "私は早く駅に到着しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "journey",
+        "word_translation": {
+          "Hindi": "यात्रा",
+          "Japanese": "旅行"
+        },
+        "meaning": "The act of traveling from one place to another",
+        "meaning_translation": {
+          "Hindi": "एक स्थान से दूसरे स्थान तक यात्रा करना",
+          "Japanese": "ある場所から別の場所へ移動すること"
+        },
+        "examples": [
+          {
+            "sentence": "The journey took three hours.",
+            "translation": {
+              "Hindi": "यात्रा में तीन घंटे लगे।",
+              "Japanese": "旅は3時間かかりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "luggage",
+        "word_translation": {
+          "Hindi": "सामान",
+          "Japanese": "荷物"
+        },
+        "meaning": "Bags and suitcases you take when traveling",
+        "meaning_translation": {
+          "Hindi": "बैग और सूटकेस जो आप यात्रा में ले जाते हैं",
+          "Japanese": "旅行に持っていくバッグやスーツケース"
+        },
+        "examples": [
+          {
+            "sentence": "She carried a lot of luggage.",
+            "translation": {
+              "Hindi": "उसने बहुत सारा सामान उठाया।",
+              "Japanese": "彼女はたくさんの荷物を持っていました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "driver",
+        "word_translation": {
+          "Hindi": "चालक",
+          "Japanese": "運転手"
+        },
+        "meaning": "A person who drives a vehicle",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो वाहन चलाता है",
+          "Japanese": "車を運転する人"
+        },
+        "examples": [
+          {
+            "sentence": "The driver opened the bus door.",
+            "translation": {
+              "Hindi": "चालक ने बस का दरवाज़ा खोला।",
+              "Japanese": "運転手がバスのドアを開けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "destination",
+        "word_translation": {
+          "Hindi": "गंतव्य",
+          "Japanese": "目的地"
+        },
+        "meaning": "The place where someone is going",
+        "meaning_translation": {
+          "Hindi": "वह स्थान जहाँ कोई जा रहा है",
+          "Japanese": "誰かが向かっている場所"
+        },
+        "examples": [
+          {
+            "sentence": "Paris was our final destination.",
+            "translation": {
+              "Hindi": "पेरिस हमारा अंतिम गंतव्य था।",
+              "Japanese": "パリが私たちの最終目的地でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fare",
+        "word_translation": {
+          "Hindi": "किराया",
+          "Japanese": "運賃"
+        },
+        "meaning": "The money you pay for a bus, train, or taxi ride",
+        "meaning_translation": {
+          "Hindi": "वह पैसा जो आप बस, ट्रेन या टैक्सी की सवारी के लिए देते हैं",
+          "Japanese": "バス、電車、タクシーの料金"
+        },
+        "examples": [
+          {
+            "sentence": "The taxi fare was expensive.",
+            "translation": {
+              "Hindi": "टैक्सी का किराया महंगा था।",
+              "Japanese": "タクシー料金は高かったです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "traffic",
+        "word_translation": {
+          "Hindi": "यातायात",
+          "Japanese": "交通"
+        },
+        "meaning": "Cars, buses, and other vehicles on the road",
+        "meaning_translation": {
+          "Hindi": "सड़क पर कारें, बसें और अन्य वाहन",
+          "Japanese": "道路上の車、バス、その他の車両"
+        },
+        "examples": [
+          {
+            "sentence": "There was heavy traffic this morning.",
+            "translation": {
+              "Hindi": "आज सुबह भारी यातायात था।",
+              "Japanese": "今朝は交通が混んでいました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "map",
+        "word_translation": {
+          "Hindi": "नक्शा",
+          "Japanese": "地図"
+        },
+        "meaning": "A drawing that shows roads, cities, and places",
+        "meaning_translation": {
+          "Hindi": "एक चित्र जो सड़कों, शहरों और स्थानों को दिखाता है",
+          "Japanese": "道路、都市、場所を示す絵"
+        },
+        "examples": [
+          {
+            "sentence": "I used a map to find the hotel.",
+            "translation": {
+              "Hindi": "मैंने होटल खोजने के लिए नक्शा इस्तेमाल किया।",
+              "Japanese": "ホテルを探すのに地図を使いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "suitcase",
+        "word_translation": {
+          "Hindi": "सूटकेस",
+          "Japanese": "スーツケース"
+        },
+        "meaning": "A large case for carrying clothes and things when traveling",
+        "meaning_translation": {
+          "Hindi": "एक बड़ा केस जिसमें यात्रा करते समय कपड़े और सामान ले जाते हैं",
+          "Japanese": "旅行のときに服や物を入れる大きなケース"
+        },
+        "examples": [
+          {
+            "sentence": "His suitcase was very heavy.",
+            "translation": {
+              "Hindi": "उसका सूटकेस बहुत भारी था।",
+              "Japanese": "彼のスーツケースはとても重かったです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'go by' transport",
+        "explanation": "Say 'I go by bus' or 'I travel by train', not 'with bus'.",
+        "explanation_translation": {
+          "Hindi": "कहें 'I go by bus' या 'I travel by train', न कि 'with bus'.",
+          "Japanese": "「with bus」ではなく「I go by bus」「I travel by train」と言います。"
+        }
+      },
+      {
+        "title": "Asking about travel",
+        "explanation": "Use 'How do you go to...?' to ask about transport. Example: How do you go to school?",
+        "explanation_translation": {
+          "Hindi": "'How do you go to...?' का उपयोग यात्रा के साधन पूछने के लिए करें। उदाहरण: How do you go to school?",
+          "Japanese": "移動手段を尋ねるとき「How do you go to...?」を使います。例: How do you go to school?"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What do you call the money you pay for a bus ride?",
+        "question_translation": {
+          "Hindi": "बस यात्रा के लिए दिए गए पैसे को क्या कहते हैं?",
+          "Japanese": "バス料金を何と言いますか？"
+        },
+        "options": [
+          "ticket",
+          "fare",
+          "map"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ is very crowded in the morning.",
+        "question_translation": {
+          "Hindi": "सुबह ___ बहुत भीड़भाड़ वाला होता है।",
+          "Japanese": "朝は___がとても混んでいます。"
+        },
+        "options": [
+          "traffic",
+          "station",
+          "driver"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A suitcase is a type of ticket.",
+        "question_translation": {
+          "Hindi": "सूटकेस टिकट का एक प्रकार है।",
+          "Japanese": "スーツケースは切符の一種です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means your final place when traveling?",
+        "question_translation": {
+          "Hindi": "यात्रा में आपके अंतिम स्थान को कौन सा शब्द दर्शाता है?",
+          "Japanese": "旅行で最終的に行く場所を表す単語はどれですか？"
+        },
+        "options": [
+          "destination",
+          "station",
+          "journey"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Where do you wait for a bus?",
+        "question_translation": {
+          "Hindi": "आप बस का इंतजार कहाँ करते हैं?",
+          "Japanese": "バスをどこで待ちますか？"
+        },
+        "options": [
+          "station",
+          "bus stop",
+          "driver"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I usually go to work ___ train.",
+        "question_translation": {
+          "Hindi": "मैं आमतौर पर काम पर ___ ट्रेन जाता हूँ।",
+          "Japanese": "私は普段仕事に___電車で行きます。"
+        },
+        "options": [
+          "with",
+          "by",
+          "on"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [ticket, a, I, bought]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [ticket, a, I, bought]",
+          "Japanese": "並べ替え: [ticket, a, I, bought]"
+        },
+        "options": [
+          "ticket",
+          "a",
+          "I",
+          "bought"
+        ],
+        "answer": [
+          "I",
+          "bought",
+          "a",
+          "ticket"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "The bus ___ was 50 rupees.",
+        "question_translation": {
+          "Hindi": "बस ___ 50 रुपये था।",
+          "Japanese": "バス___は50ルピーでした。"
+        },
+        "options": [
+          "stop",
+          "fare",
+          "map"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "The ___ drove us safely to the city.",
+        "question_translation": {
+          "Hindi": "___ ने हमें सुरक्षित रूप से शहर पहुँचाया।",
+          "Japanese": "___が安全に私たちを街へ運転しました。"
+        },
+        "options": [
+          "driver",
+          "map",
+          "traffic"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [journey, long, the, was]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [journey, long, the, was]",
+          "Japanese": "並べ替え: [journey, long, the, was]"
+        },
+        "options": [
+          "journey",
+          "long",
+          "the",
+          "was"
+        ],
+        "answer": [
+          "The",
+          "journey",
+          "was",
+          "long"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker buy?",
+        "audio_text": "I bought a bus ticket.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या खरीदा?",
+          "Japanese": "話者は何を買いましたか？"
+        },
+        "options": [
+          "Map",
+          "Ticket",
+          "Suitcase"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Where was the speaker waiting?",
+        "audio_text": "I waited at the bus stop.",
+        "question_translation": {
+          "Hindi": "वक्ता कहाँ इंतजार कर रहा था?",
+          "Japanese": "話者はどこで待っていましたか？"
+        },
+        "options": [
+          "Station",
+          "Bus stop",
+          "Traffic"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker said: 'The traffic was heavy.'",
+        "audio_text": "The traffic was heavy.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'यातायात भारी था।'",
+          "Japanese": "話者は「交通が混んでいました」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What was the final place?",
+        "audio_text": "London was our destination.",
+        "question_translation": {
+          "Hindi": "अंतिम स्थान क्या था?",
+          "Japanese": "最終目的地はどこでしたか？"
+        },
+        "options": [
+          "Paris",
+          "London",
+          "New York"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What did the driver do?",
+        "audio_text": "The driver opened the door.",
+        "question_translation": {
+          "Hindi": "चालक ने क्या किया?",
+          "Japanese": "運転手は何をしましたか？"
+        },
+        "options": [
+          "Opened the door",
+          "Paid the fare",
+          "Carried the suitcase"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I go to school by bus.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I go to school by bus.'",
+          "Japanese": "言ってください: 'I go to school by bus.'"
+        },
+        "options": [],
+        "answer": "i go to school by bus"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The taxi fare was high.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The taxi fare was high.'",
+          "Japanese": "言ってください: 'The taxi fare was high.'"
+        },
+        "options": [],
+        "answer": "the taxi fare was high"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'There was heavy traffic.'",
+        "question_translation": {
+          "Hindi": "कहें: 'There was heavy traffic.'",
+          "Japanese": "言ってください: 'There was heavy traffic.'"
+        },
+        "options": [],
+        "answer": "there was heavy traffic"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'My suitcase is very heavy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'My suitcase is very heavy.'",
+          "Japanese": "言ってください: 'My suitcase is very heavy.'"
+        },
+        "options": [],
+        "answer": "my suitcase is very heavy"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Our destination is Paris.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Our destination is Paris.'",
+          "Japanese": "言ってください: 'Our destination is Paris.'"
+        },
+        "options": [],
+        "answer": "our destination is paris"
+      }
+    ]
+  }
 }
