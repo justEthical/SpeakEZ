@@ -134,7 +134,7 @@ Future<Lesson> setCurrentLesson() async {
   }
 
   void googleSpeechToText() {
-    // globalController.isLastChunkTranscribed.value = true;
+    isListeningLessonAnswer.value = true;
     stt.startListening(
       (result) {
         globalController.transcriptionText.value = result;
@@ -152,6 +152,9 @@ Future<Lesson> setCurrentLesson() async {
         );
         if (globalController.transcriptionText.value.isNotEmpty) {
           isContinueButtonEnabled.value = true;
+        }
+        if(!isListening){
+          isListeningLessonAnswer.value = false;
         }
       },
     );

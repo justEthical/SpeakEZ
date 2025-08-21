@@ -5,6 +5,7 @@ class AppStrings {
       "https://docs.google.com/document/d/11FvxDJvzon4p8jY-JtANv_UGw1U4cvYb7peQpRSz7RI/edit?usp=sharing";
   static const String privacyPolicyUrl =
       "https://docs.google.com/document/d/1JZ3ysesz4XjXubRnxb_FaPu_E3PoYSHXQ76VJC35P6s/edit?usp=sharing";
+  static const String appPlayStoreUrl = "https://play.google.com/store/apps/details?id=com.english.learning.speakez.ai";
 
   static const String initialMessage =
       "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
@@ -42,6 +43,11 @@ Reply only in this JSON format:
   ]
 }
 ''';
+
+static const appShareMessage = '''Unlock Your Confidence with SpeakEZ AI 🎙️✨ – Your Pocket English Coach!
+Whether you're a beginner 📘 or polishing your fluency 🚀, SpeakEZ AI helps you practice speaking English anytime, anywhere 🌍. Get instant feedback on pronunciation 🔊, grammar ✍️, and fluency 💬—just like a personal tutor in your pocket 🎒.
+Build a strong vocabulary 📚 with daily exercises 📝, word games 🎮, and mini-quizzes ✅. Enjoy engaging, bite-sized lessons on real-life topics 🛫💼☕ designed for real speaking practice.
+Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
 
   // Shared Preferences
   static const String userAuthState = "user_auth_state";
