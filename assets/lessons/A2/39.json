@@ -1,4 +1,510 @@
 {
-  "id": 39,
-  "message": "This is file number 39"
+  "id": "lesson_hopes_dreams_001",
+  "lesson_name": "Talking About Hopes and Dreams",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "hope",
+        "word_translation": {
+          "Hindi": "आशा",
+          "Japanese": "希望"
+        },
+        "meaning": "A feeling that something good will happen",
+        "meaning_translation": {
+          "Hindi": "यह भावना कि कुछ अच्छा होगा",
+          "Japanese": "良いことが起こるという気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "I hope to travel next year.",
+            "translation": {
+              "Hindi": "मैं अगले साल यात्रा करने की आशा करता हूँ।",
+              "Japanese": "私は来年旅行したいと希望しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dream",
+        "word_translation": {
+          "Hindi": "सपना",
+          "Japanese": "夢"
+        },
+        "meaning": "Something you want to do or achieve in the future",
+        "meaning_translation": {
+          "Hindi": "कुछ जो आप भविष्य में करना या पाना चाहते हैं",
+          "Japanese": "将来やりたいことや達成したいこと"
+        },
+        "examples": [
+          {
+            "sentence": "Her dream is to become a doctor.",
+            "translation": {
+              "Hindi": "उसका सपना डॉक्टर बनने का है।",
+              "Japanese": "彼女の夢は医者になることです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "goal",
+        "word_translation": {
+          "Hindi": "लक्ष्य",
+          "Japanese": "目標"
+        },
+        "meaning": "Something you work to achieve",
+        "meaning_translation": {
+          "Hindi": "कुछ जिसे पाने के लिए आप मेहनत करते हैं",
+          "Japanese": "達成するために努力するもの"
+        },
+        "examples": [
+          {
+            "sentence": "My goal is to learn English well.",
+            "translation": {
+              "Hindi": "मेरा लक्ष्य अच्छी तरह से अंग्रेज़ी सीखना है।",
+              "Japanese": "私の目標は英語を上手に学ぶことです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wish",
+        "word_translation": {
+          "Hindi": "इच्छा",
+          "Japanese": "願い"
+        },
+        "meaning": "A strong feeling of wanting something",
+        "meaning_translation": {
+          "Hindi": "कुछ पाने की प्रबल इच्छा",
+          "Japanese": "何かを強く望む気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "I wish I could fly an airplane.",
+            "translation": {
+              "Hindi": "काश मैं हवाई जहाज़ उड़ा सकता।",
+              "Japanese": "飛行機を操縦できたらいいのにと思います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "future",
+        "word_translation": {
+          "Hindi": "भविष्य",
+          "Japanese": "未来"
+        },
+        "meaning": "The time that is coming after now",
+        "meaning_translation": {
+          "Hindi": "समय जो अभी के बाद आएगा",
+          "Japanese": "これから来る時間"
+        },
+        "examples": [
+          {
+            "sentence": "In the future, I want to live abroad.",
+            "translation": {
+              "Hindi": "भविष्य में, मैं विदेश में रहना चाहता हूँ।",
+              "Japanese": "将来、私は海外に住みたいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plan",
+        "word_translation": {
+          "Hindi": "योजना",
+          "Japanese": "計画"
+        },
+        "meaning": "A decision about what to do in the future",
+        "meaning_translation": {
+          "Hindi": "भविष्य में क्या करना है उसका निर्णय",
+          "Japanese": "将来何をするかの決定"
+        },
+        "examples": [
+          {
+            "sentence": "She has a plan to study abroad.",
+            "translation": {
+              "Hindi": "उसकी विदेश में पढ़ाई करने की योजना है।",
+              "Japanese": "彼女は留学する計画があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "success",
+        "word_translation": {
+          "Hindi": "सफलता",
+          "Japanese": "成功"
+        },
+        "meaning": "Achieving something you wanted",
+        "meaning_translation": {
+          "Hindi": "कुछ पाना जो आप चाहते थे",
+          "Japanese": "望んでいたことを達成すること"
+        },
+        "examples": [
+          {
+            "sentence": "Hard work brings success.",
+            "translation": {
+              "Hindi": "कड़ी मेहनत सफलता लाती है।",
+              "Japanese": "努力は成功をもたらします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "achieve",
+        "word_translation": {
+          "Hindi": "प्राप्त करना",
+          "Japanese": "達成する"
+        },
+        "meaning": "To succeed in doing something",
+        "meaning_translation": {
+          "Hindi": "कुछ करने में सफल होना",
+          "Japanese": "何かをやり遂げること"
+        },
+        "examples": [
+          {
+            "sentence": "He worked hard to achieve his dream.",
+            "translation": {
+              "Hindi": "उसने अपने सपने को पाने के लिए मेहनत की।",
+              "Japanese": "彼は夢を達成するために一生懸命働きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "career",
+        "word_translation": {
+          "Hindi": "कैरियर",
+          "Japanese": "キャリア"
+        },
+        "meaning": "The job or profession you do in life",
+        "meaning_translation": {
+          "Hindi": "वह काम या पेशा जो आप जीवन में करते हैं",
+          "Japanese": "人生で行う仕事や職業"
+        },
+        "examples": [
+          {
+            "sentence": "She wants a career in medicine.",
+            "translation": {
+              "Hindi": "वह चिकित्सा में करियर चाहती है।",
+              "Japanese": "彼女は医療のキャリアを望んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "believe",
+        "word_translation": {
+          "Hindi": "विश्वास करना",
+          "Japanese": "信じる"
+        },
+        "meaning": "To think something is true or possible",
+        "meaning_translation": {
+          "Hindi": "सोचना कि कुछ सच है या संभव है",
+          "Japanese": "何かが本当または可能だと思うこと"
+        },
+        "examples": [
+          {
+            "sentence": "I believe I can reach my goals.",
+            "translation": {
+              "Hindi": "मुझे विश्वास है कि मैं अपने लक्ष्य पा सकता हूँ।",
+              "Japanese": "私は自分の目標を達成できると信じています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'want to' vs 'would like to'",
+        "explanation": "'Want to' is direct, 'would like to' is more polite. Example: 'I want to be a doctor.' / 'I would like to be a doctor.'",
+        "explanation_translation": {
+          "Hindi": "'Want to' सीधा है, 'would like to' अधिक विनम्र है। उदाहरण: 'I want to be a doctor.' / 'I would like to be a doctor.'",
+          "Japanese": "『want to』は直接的、『would like to』はより丁寧です。例: 'I want to be a doctor.' / 'I would like to be a doctor.'"
+        }
+      },
+      {
+        "title": "Using 'hope' with present and future",
+        "explanation": "We use 'hope' with the present or future to show our wishes. Example: 'I hope she is happy.' / 'I hope to travel soon.'",
+        "explanation_translation": {
+          "Hindi": "हम 'hope' का प्रयोग वर्तमान या भविष्य के साथ अपनी इच्छाएँ दिखाने के लिए करते हैं। उदाहरण: 'I hope she is happy.' / 'I hope to travel soon.'",
+          "Japanese": "『hope』は現在や未来と一緒に希望を表すのに使います。例: 'I hope she is happy.' / 'I hope to travel soon.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means something you want to do in the future?",
+        "question_translation": {
+          "hindi": "कौन सा शब्द उस चीज़ का मतलब है जो आप भविष्य में करना चाहते हैं?",
+          "japanese": "将来やりたいことを意味する言葉はどれですか？"
+        },
+        "options": [
+          "goal",
+          "dream",
+          "wish"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "A career is the same as a dream.",
+        "question_translation": {
+          "hindi": "करियर एक सपना के समान है।",
+          "japanese": "キャリアは夢と同じです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "She has a ___ to study abroad.",
+        "question_translation": {
+          "hindi": "उसके पास विदेश में पढ़ाई करने की ___ है।",
+          "japanese": "彼女には留学する___があります。"
+        },
+        "options": [
+          "plan",
+          "hope",
+          "career"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means to succeed in doing something?",
+        "question_translation": {
+          "hindi": "कौन सा शब्द किसी काम को सफलतापूर्वक करने का मतलब है?",
+          "japanese": "何かを成し遂げることを意味する言葉はどれですか？"
+        },
+        "options": [
+          "believe",
+          "achieve",
+          "wish"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Success comes only by luck, not hard work.",
+        "question_translation": {
+          "hindi": "सफलता केवल भाग्य से आती है, मेहनत से नहीं।",
+          "japanese": "成功は努力ではなく運だけで得られる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I ___ to become a teacher in the future.",
+        "question_translation": {
+          "hindi": "मैं भविष्य में शिक्षक बनने की ___ करता हूँ।",
+          "japanese": "私は将来教師になることを___します。"
+        },
+        "options": [
+          "wish",
+          "plan",
+          "hope"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "sent2",
+        "type": "multipleChoice",
+        "question": "Choose the polite way:",
+        "question_translation": {
+          "hindi": "विनम्र तरीका चुनें:",
+          "japanese": "丁寧な言い方を選んでください："
+        },
+        "options": [
+          "I want to be a doctor.",
+          "I would like to be a doctor."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "trueFalse",
+        "question": "We use 'hope' to talk about our future wishes.",
+        "question_translation": {
+          "hindi": "हम अपने भविष्य की इच्छाओं के बारे में बात करने के लिए 'hope' का उपयोग करते हैं।",
+          "japanese": "私たちは将来の願いについて話すとき「hope」を使います。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "He worked hard to ___ his dream.",
+        "question_translation": {
+          "hindi": "उसने अपने सपने को ___ करने के लिए कड़ी मेहनत की।",
+          "japanese": "彼は夢を___するために一生懸命働きました。"
+        },
+        "options": [
+          "achieve",
+          "believe",
+          "wish"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "hindi": "कौन सा वाक्य सही है?",
+          "japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "She hopes travel abroad.",
+          "She hopes to travel abroad.",
+          "She hope to travels abroad."
+        ],
+        "answer": 1
+      }
+    ],
+"listening": [
+  {
+    "id": "listen1",
+    "type": "listening",
+    "question": "What is his dream?",
+    "question_translation": {
+      "hindi": "उसका सपना क्या है?",
+      "japanese": "彼の夢は何ですか？"
+    },
+    "audio_text": "My dream is to become a pilot.",
+    "options": ["To become a teacher", "To become a pilot", "To travel abroad"],
+    "answer": 1
+  },
+  {
+    "id": "listen2",
+    "type": "listening",
+    "question": "What is his goal?",
+    "question_translation": {
+      "hindi": "उसका लक्ष्य क्या है?",
+      "japanese": "彼の目標は何ですか？"
+    },
+    "audio_text": "He has a goal to finish his studies this year.",
+    "options": ["To get a job", "To finish studies", "To travel"],
+    "answer": 1
+  },
+  {
+    "id": "listen3",
+    "type": "listening",
+    "question": "What does she believe?",
+    "question_translation": {
+      "hindi": "वह क्या मानती है?",
+      "japanese": "彼女は何を信じていますか？"
+    },
+    "audio_text": "She believes she can pass the exam.",
+    "options": ["She will fail", "She can pass", "She doesn't care"],
+    "answer": 1
+  },
+  {
+    "id": "listen4",
+    "type": "listening",
+    "question": "What is their plan?",
+    "question_translation": {
+      "hindi": "उनकी योजना क्या है?",
+      "japanese": "彼らの計画は何ですか？"
+    },
+    "audio_text": "They plan to start a business.",
+    "options": ["To get a job", "To start a business", "To study abroad"],
+    "answer": 1
+  },
+  {
+    "id": "listen5",
+    "type": "listening",
+    "question": "What did he achieve?",
+    "question_translation": {
+      "hindi": "उसने क्या हासिल किया?",
+      "japanese": "彼は何を達成しましたか？"
+    },
+    "audio_text": "He achieved success after years of hard work.",
+    "options": ["Failure", "Success", "A dream"],
+    "answer": 1
+  }
+]
+,
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I hope to travel abroad one day.'",
+        "question_translation": {
+          "hindi": "कहें: 'मुझे उम्मीद है कि एक दिन मैं विदेश जाऊँगा।'",
+          "japanese": "言ってください：「いつか海外に行きたいです。」"
+        },
+        "options": [],
+        "answer": "i hope to travel abroad one day"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'My dream is to become a teacher.'",
+        "question_translation": {
+          "hindi": "कहें: 'मेरा सपना शिक्षक बनने का है।'",
+          "japanese": "言ってください：「私の夢は教師になることです。」"
+        },
+        "options": [],
+        "answer": "my dream is to become a teacher"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I would like to be a doctor.'",
+        "question_translation": {
+          "hindi": "कहें: 'मैं डॉक्टर बनना चाहता हूँ।'",
+          "japanese": "言ってください：「私は医者になりたいです。」"
+        },
+        "options": [],
+        "answer": "i would like to be a doctor"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He achieved his goal.'",
+        "question_translation": {
+          "hindi": "कहें: 'उसने अपना लक्ष्य हासिल किया।'",
+          "japanese": "言ってください：「彼は目標を達成しました。」"
+        },
+        "options": [],
+        "answer": "he achieved his goal"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I believe in my dreams.'",
+        "question_translation": {
+          "hindi": "कहें: 'मैं अपने सपनों पर विश्वास करता हूँ।'",
+          "japanese": "言ってください：「私は自分の夢を信じています。」"
+        },
+        "options": [],
+        "answer": "i believe in my dreams"
+      }
+    ]
+  }
 }

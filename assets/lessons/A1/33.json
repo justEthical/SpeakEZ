@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "She can ___ in English. (write)",
+        "question": "She can ___ in English.",
         "question_translation": {
           "Hindi": "वह अंग्रेज़ी में ___ सकती है।",
           "Japanese": "彼女は英語で___ことができます。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "He speaks English ___. (fluently)",
+        "question": "He speaks English ___.",
         "question_translation": {
           "Hindi": "वह अंग्रेज़ी ___ बोलता है।",
           "Japanese": "彼は英語を___話します。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "I use a ___ to learn new words. (dictionary)",
+        "question": "I use a ___ to learn new words.",
         "question_translation": {
           "Hindi": "मैं नए शब्द सीखने के लिए ___ का इस्तेमाल करता हूँ।",
           "Japanese": "私は新しい言葉を学ぶために___を使います。"
@@ -325,12 +325,12 @@
           "Japanese": "[Japanese, can, he, translate, English, to]を並べ替えましょう。"
         },
         "options": ["Japanese", "can", "he", "translate", "English", "to"],
-        "answer": ["He", "can", "translate", "Japanese", "to", "English"]
+        "answer": ["he", "can", "translate", "Japanese", "to", "English"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "___ is my native language. (Hindi)",
+        "question": "___ is my native language.",
         "question_translation": {
           "Hindi": "___ मेरी मातृभाषा है।",
           "Japanese": "___は私の母語です。"

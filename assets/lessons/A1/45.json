@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "My grandparents live in a ___. (village)",
+        "question": "My grandparents live in a ___.",
         "question_translation": {
           "Hindi": "मेरे दादा-दादी ___ में रहते हैं।",
           "Japanese": "私の祖父母は___に住んでいます。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "There is a ___ near my house. (temple)",
+        "question": "There is a ___ near my house.",
         "question_translation": {
           "Hindi": "मेरे घर के पास एक ___ है।",
           "Japanese": "私の家の近くに___があります。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "The ___ are wide in the city. (roads)",
+        "question": "The ___ are wide in the city.",
         "question_translation": {
           "Hindi": "शहर में ___ चौड़ी हैं।",
           "Japanese": "町の___は広いです。"
@@ -325,12 +325,12 @@
           "Japanese": "[city, my, is, clean]を並べ替えましょう。"
         },
         "options": ["city", "my", "is", "clean"],
-        "answer": ["My", "city", "is", "clean"]
+        "answer": ["my", "city", "is", "clean"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "Farmers work in the ___. (fields)",
+        "question": "Farmers work in the ___.",
         "question_translation": {
           "Hindi": "किसान ___ में काम करते हैं।",
           "Japanese": "農家は___で働きます。"
@@ -346,7 +346,7 @@
           "Hindi": "[stand, morning, I, stop, bus, at, every] को सही क्रम में लगाएं।",
           "Japanese": "[stand, morning, I, stop, bus, at, every]を並べ替えましょう。"
         },
-        "options": ["stand", "morning", "I", "stop", "bus", "at", "every"],
+        "options": ["stand", "morning", "I", "stop", "bus", "at", "every", "the"],
         "answer": ["I", "stand", "at", "the", "bus", "stop", "every", "morning"]
       }
     ],

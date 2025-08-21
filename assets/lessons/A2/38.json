@@ -1,4 +1,471 @@
 {
-  "id": 38,
-  "message": "This is file number 38"
+  "id": "lesson_writing_emails_messages_001",
+  "lesson_name": "Writing Emails and Messages",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "subject",
+        "word_translation": { "Hindi": "विषय", "Japanese": "件名" },
+        "meaning": "The main title or topic of an email",
+        "meaning_translation": {
+          "Hindi": "ईमेल का मुख्य शीर्षक या विषय",
+          "Japanese": "メールの主なタイトルやテーマ"
+        },
+        "examples": [
+          {
+            "sentence": "Please write a clear subject for the email.",
+            "translation": {
+              "Hindi": "कृपया ईमेल के लिए स्पष्ट विषय लिखें।",
+              "Japanese": "メールにはっきりした件名を書いてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "greeting",
+        "word_translation": { "Hindi": "अभिवादन", "Japanese": "挨拶" },
+        "meaning": "The opening line of an email or message",
+        "meaning_translation": {
+          "Hindi": "ईमेल या संदेश की शुरुआती पंक्ति",
+          "Japanese": "メールやメッセージの最初の一文"
+        },
+        "examples": [
+          {
+            "sentence": "The email started with the greeting 'Dear Sir'.",
+            "translation": {
+              "Hindi": "ईमेल 'प्रिय महोदय' से शुरू हुआ।",
+              "Japanese": "メールは「親愛なる〜」で始まりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "signature",
+        "word_translation": { "Hindi": "हस्ताक्षर", "Japanese": "署名" },
+        "meaning": "Your name and details at the end of an email",
+        "meaning_translation": {
+          "Hindi": "ईमेल के अंत में आपका नाम और विवरण",
+          "Japanese": "メールの最後に書く自分の名前や詳細"
+        },
+        "examples": [
+          {
+            "sentence": "He added his phone number in the signature.",
+            "translation": {
+              "Hindi": "उसने हस्ताक्षर में अपना फोन नंबर जोड़ा।",
+              "Japanese": "彼は署名に電話番号を入れました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formal",
+        "word_translation": { "Hindi": "औपचारिक", "Japanese": "フォーマル" },
+        "meaning": "Polite and professional style of writing",
+        "meaning_translation": {
+          "Hindi": "शिष्ट और पेशेवर शैली का लेखन",
+          "Japanese": "丁寧でプロフェッショナルな書き方"
+        },
+        "examples": [
+          {
+            "sentence": "She wrote a formal email to her teacher.",
+            "translation": {
+              "Hindi": "उसने अपने शिक्षक को औपचारिक ईमेल लिखा।",
+              "Japanese": "彼女は先生にフォーマルなメールを書きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "informal",
+        "word_translation": { "Hindi": "अनौपचारिक", "Japanese": "カジュアル" },
+        "meaning": "Friendly and casual style of writing",
+        "meaning_translation": {
+          "Hindi": "दोस्ताना और सामान्य शैली का लेखन",
+          "Japanese": "友達のような気軽な書き方"
+        },
+        "examples": [
+          {
+            "sentence": "He sent an informal message to his friend.",
+            "translation": {
+              "Hindi": "उसने अपने दोस्त को अनौपचारिक संदेश भेजा।",
+              "Japanese": "彼は友達にカジュアルなメッセージを送りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "attachment",
+        "word_translation": { "Hindi": "संलग्नक", "Japanese": "添付ファイル" },
+        "meaning": "A file sent with an email",
+        "meaning_translation": {
+          "Hindi": "ईमेल के साथ भेजी गई फ़ाइल",
+          "Japanese": "メールと一緒に送るファイル"
+        },
+        "examples": [
+          {
+            "sentence": "I forgot to add the attachment to my email.",
+            "translation": {
+              "Hindi": "मैंने अपनी ईमेल में संलग्नक जोड़ना भूल गया।",
+              "Japanese": "メールに添付ファイルを入れ忘れました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reply",
+        "word_translation": { "Hindi": "उत्तर देना", "Japanese": "返信する" },
+        "meaning": "To answer an email or message",
+        "meaning_translation": {
+          "Hindi": "ईमेल या संदेश का उत्तर देना",
+          "Japanese": "メールやメッセージに答えること"
+        },
+        "examples": [
+          {
+            "sentence": "I will reply to her message later.",
+            "translation": {
+              "Hindi": "मैं उसके संदेश का बाद में उत्तर दूंगा।",
+              "Japanese": "私は後で彼女のメッセージに返信します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "inbox",
+        "word_translation": { "Hindi": "इनबॉक्स", "Japanese": "受信トレイ" },
+        "meaning": "The folder where new emails arrive",
+        "meaning_translation": {
+          "Hindi": "वह फ़ोल्डर जहाँ नई ईमेल आती हैं",
+          "Japanese": "新しいメールが届くフォルダ"
+        },
+        "examples": [
+          {
+            "sentence": "My inbox is full of unread messages.",
+            "translation": {
+              "Hindi": "मेरा इनबॉक्स अपठित संदेशों से भरा है।",
+              "Japanese": "受信トレイが未読メッセージでいっぱいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "draft",
+        "word_translation": { "Hindi": "मसौदा", "Japanese": "下書き" },
+        "meaning": "An unfinished email saved to complete later",
+        "meaning_translation": {
+          "Hindi": "एक अधूरी ईमेल जिसे बाद में पूरा करने के लिए सहेजा जाता है",
+          "Japanese": "後で完成させるために保存した未完成のメール"
+        },
+        "examples": [
+          {
+            "sentence": "She saved her email as a draft.",
+            "translation": {
+              "Hindi": "उसने अपनी ईमेल मसौदे के रूप में सहेजी।",
+              "Japanese": "彼女はメールを下書きとして保存しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "forward",
+        "word_translation": { "Hindi": "फॉरवर्ड करना", "Japanese": "転送する" },
+        "meaning": "To send an email you received to another person",
+        "meaning_translation": {
+          "Hindi": "आपको प्राप्त ईमेल किसी और को भेजना",
+          "Japanese": "受け取ったメールを別の人に送ること"
+        },
+        "examples": [
+          {
+            "sentence": "I will forward this email to my manager.",
+            "translation": {
+              "Hindi": "मैं यह ईमेल अपने मैनेजर को फॉरवर्ड करूंगा।",
+              "Japanese": "私はこのメールを上司に転送します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "polite",
+        "word_translation": { "Hindi": "विनम्र", "Japanese": "丁寧な" },
+        "meaning": "Showing respect and good manners in writing",
+        "meaning_translation": {
+          "Hindi": "लेखन में सम्मान और अच्छे व्यवहार को दिखाना",
+          "Japanese": "書き方で敬意や礼儀正しさを示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Always use polite language in formal emails.",
+            "translation": {
+              "Hindi": "हमेशा औपचारिक ईमेल में विनम्र भाषा का प्रयोग करें।",
+              "Japanese": "フォーマルなメールでは常に丁寧な言葉を使いましょう。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'could' and 'would' for polite requests",
+        "explanation": "In emails, we often use 'Could you...' or 'Would you...' to ask politely. Example: 'Could you send me the file?'",
+        "explanation_translation": {
+          "Hindi": "ईमेल में हम अक्सर 'Could you...' या 'Would you...' का उपयोग विनम्रता से पूछने के लिए करते हैं। उदाहरण: 'Could you send me the file?'",
+          "Japanese": "メールでは丁寧に頼むために『Could you...』や『Would you...』をよく使います。例: 'Could you send me the file?'"
+        }
+      },
+      {
+        "title": "Formal vs Informal greetings",
+        "explanation": "Formal emails use greetings like 'Dear Sir/Madam', while informal messages use 'Hi' or 'Hello'.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक ईमेल में 'Dear Sir/Madam' जैसे अभिवादन का उपयोग होता है, जबकि अनौपचारिक संदेशों में 'Hi' या 'Hello'।",
+          "Japanese": "フォーマルなメールでは『Dear Sir/Madam』を使い、カジュアルなメッセージでは『Hi』や『Hello』を使います。"
+        }
+      }
+    ]
+  },
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means the title of an email?",
+      "question_translation": {
+        "hindi": "कौन सा शब्द ईमेल के शीर्षक को दर्शाता है?",
+        "japanese": "メールのタイトルを意味する言葉はどれですか？"
+      },
+      "options": ["greeting", "subject", "signature"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "An attachment is a picture inside the email text.",
+      "question_translation": {
+        "hindi": "एक अटैचमेंट ईमेल के पाठ के अंदर की एक तस्वीर है।",
+        "japanese": "添付ファイルはメール本文の中の画像です。"
+      },
+      "options": ["True", "False"],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "She saved the email as a ___.",
+      "question_translation": {
+        "hindi": "उसने ईमेल को ___ के रूप में सहेजा।",
+        "japanese": "彼女はメールを___として保存しました。"
+      },
+      "options": ["draft", "inbox", "forward"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which is a friendly way to start an informal message?",
+      "question_translation": {
+        "hindi": "अनौपचारिक संदेश शुरू करने का एक दोस्ताना तरीका कौन सा है?",
+        "japanese": "カジュアルなメッセージを始めるフレンドリーな方法はどれですか？"
+      },
+      "options": ["Dear Sir", "Hello", "Yours faithfully"],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "A signature usually comes at the end of an email.",
+      "question_translation": {
+        "hindi": "हस्ताक्षर आमतौर पर ईमेल के अंत में आते हैं।",
+        "japanese": "署名は通常、メールの最後に入ります。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "___ you please send me the report?",
+      "question_translation": {
+        "hindi": "क्या आप कृपया मुझे रिपोर्ट भेज सकते हैं?",
+        "japanese": "レポートを送っていただけますか？"
+      },
+      "options": ["Could", "Can", "Do"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "multipleChoice",
+      "question": "Choose the polite request:",
+      "question_translation": {
+        "hindi": "विनम्र अनुरोध चुनें:",
+        "japanese": "丁寧な依頼文を選んでください："
+      },
+      "options": [
+        "Send me the file now.",
+        "Could you send me the file?",
+        "You send file."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "trueFalse",
+      "question": "‘Would you…’ is a polite way to ask in emails.",
+      "question_translation": {
+        "hindi": "'Would you...' ईमेल में पूछने का एक विनम्र तरीका है।",
+        "japanese": "「Would you…」はメールで丁寧にお願いする表現です。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "Formal greeting: ___ Sir/Madam",
+      "question_translation": {
+        "hindi": "औपचारिक अभिवादन: ___ महोदय/महोदया",
+        "japanese": "フォーマルな挨拶：___ 様"
+      },
+      "options": ["Hello", "Dear", "Hi"],
+      "answer": 1
+    },
+    {
+      "id": "sent5",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "hindi": "कौन सा वाक्य सही है?",
+        "japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "He reply to email yesterday.",
+        "He replied to the email yesterday.",
+        "He replying email yesterday."
+      ],
+      "answer": 1
+    }
+  ],
+"listening": [
+  {
+    "id": "listen1",
+    "type": "listening",
+    "question": "What is being asked?",
+    "question_translation": {
+      "hindi": "क्या पूछा जा रहा है?",
+      "japanese": "何を頼まれていますか？"
+    },
+    "audio_text": "Could you please send me the file?",
+    "options": ["A command", "A polite request", "A greeting"],
+    "answer": 1
+  },
+  {
+    "id": "listen2",
+    "type": "listening",
+    "question": "What did he do?",
+    "question_translation": {
+      "hindi": "उसने क्या किया?",
+      "japanese": "彼は何をしましたか？"
+    },
+    "audio_text": "He forwarded the email to his manager.",
+    "options": ["Sent email to another person", "Replied to the email", "Deleted the email"],
+    "answer": 0
+  },
+  {
+    "id": "listen3",
+    "type": "listening",
+    "question": "What is full?",
+    "question_translation": {
+      "hindi": "क्या भरा हुआ है?",
+      "japanese": "何がいっぱいですか？"
+    },
+    "audio_text": "She has many unread emails in her inbox.",
+    "options": ["Drafts", "Inbox", "Outbox"],
+    "answer": 1
+  },
+  {
+    "id": "listen4",
+    "type": "listening",
+    "question": "What is 'Dear Mr. Smith'?",
+    "question_translation": {
+      "hindi": "'Dear Mr. Smith' क्या है?",
+      "japanese": "『Dear Mr. Smith』は何ですか？"
+    },
+    "audio_text": "The greeting in the letter is Dear Mr. Smith.",
+    "options": ["Subject", "Greeting", "Signature"],
+    "answer": 1
+  },
+  {
+    "id": "listen5",
+    "type": "listening",
+    "question": "What did she add?",
+    "question_translation": {
+      "hindi": "उसने क्या जोड़ा?",
+      "japanese": "彼女は何を追加しましたか？"
+    },
+    "audio_text": "She attached a photo to the email.",
+    "options": ["Signature", "Attachment", "Reply"],
+    "answer": 1
+  }
+]
+,
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Could you please send me the report?'",
+      "question_translation": {
+        "hindi": "कहें: 'क्या आप कृपया मुझे रिपोर्ट भेज सकते हैं?'",
+        "japanese": "言ってください：「レポートを送っていただけますか？」"
+      },
+      "options": [],
+      "answer": "could you please send me the report"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Dear Sir, I am writing to ask about the meeting.'",
+      "question_translation": {
+        "hindi": "कहें: 'प्रिय सर, मैं बैठक के बारे में पूछने के लिए लिख रहा हूँ।'",
+        "japanese": "言ってください：「拝啓、会議について伺いたく書いております。」"
+      },
+      "options": [],
+      "answer": "dear sir i am writing to ask about the meeting"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I will reply to your email tomorrow.'",
+      "question_translation": {
+        "hindi": "कहें: 'मैं आपके ईमेल का उत्तर कल दूंगा।'",
+        "japanese": "言ってください：「明日あなたのメールに返事します。」"
+      },
+      "options": [],
+      "answer": "i will reply to your email tomorrow"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'She forgot to add the attachment.'",
+      "question_translation": {
+        "hindi": "कहें: 'वह अटैचमेंट जोड़ना भूल गई।'",
+        "japanese": "言ってください：「彼女は添付ファイルを付け忘れました。」"
+      },
+      "options": [],
+      "answer": "she forgot to add the attachment"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Best regards, John.'",
+      "question_translation": {
+        "hindi": "कहें: 'सादर, जॉन।'",
+        "japanese": "言ってください：「よろしくお願いします、ジョン。」"
+      },
+      "options": [],
+      "answer": "best regards john"
+    }
+  ]
+}
+
 }

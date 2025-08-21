@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "A ball is ___ in shape. (round)",
+        "question": "A ball is ___ in shape.",
         "question_translation": {
           "Hindi": "गेंद का आकार ___ है।",
           "Japanese": "ボールは___形です。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "This bag is very ___. (light)",
+        "question": "This bag is very ___.",
         "question_translation": {
           "Hindi": "यह बैग बहुत ___ है।",
           "Japanese": "このバッグはとても___です。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "My pencil is ___. (short)",
+        "question": "My pencil is ___.",
         "question_translation": {
           "Hindi": "मेरा पेंसिल ___ है।",
           "Japanese": "私の鉛筆は___です。"
@@ -325,12 +325,12 @@
           "Japanese": "[round, is, ball, the]を並べ替えましょう。"
         },
         "options": ["round", "is", "ball", "the"],
-        "answer": ["The", "ball", "is", "round"]
+        "answer": ["the", "ball", "is", "round"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "The wall has a ___ texture. (rough)",
+        "question": "The wall has a ___ texture.",
         "question_translation": {
           "Hindi": "दीवार की बनावट ___ है।",
           "Japanese": "壁は___手触りです。"
@@ -347,7 +347,7 @@
           "Japanese": "[table, the, of, wood, is, made]を並べ替えましょう。"
         },
         "options": ["table", "the", "of", "wood", "is", "made"],
-        "answer": ["The", "table", "is", "made", "of", "wood"]
+        "answer": ["the", "table", "is", "made", "of", "wood"]
       }
     ],
     "listening": [

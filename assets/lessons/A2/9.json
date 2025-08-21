@@ -1,186 +1,402 @@
 {
-  "id": "lesson_talking_about_experiences_001",
+  "id": "lesson_talking_experiences_001",
   "lesson_name": "Talking About Experiences",
   "purpose": "All",
   "cefrLevel": "A2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "experience", "meaning": "something you did or felt" },
-      { "word": "ever", "meaning": "at any time in your life" },
-      { "word": "never", "meaning": "not at any time" },
-      { "word": "try", "meaning": "to do something for the first time" },
-      { "word": "visit", "meaning": "to go and see a place or person" },
-      { "word": "travel", "meaning": "to go to another place" },
-      { "word": "eat", "meaning": "to put food in your mouth and swallow" },
-      { "word": "see", "meaning": "to look at something" },
-      { "word": "meet", "meaning": "to see someone for the first time" },
-      { "word": "enjoy", "meaning": "to like doing something" }
+      {
+        "word": "experience",
+        "word_translation": {
+          "Hindi": "अनुभव",
+          "Japanese": "経験"
+        },
+        "meaning": "something you have done or lived through",
+        "meaning_translation": {
+          "Hindi": "कुछ जो आपने किया है या झेला है",
+          "Japanese": "あなたが行ったことや体験したこと"
+        },
+        "examples": [
+          {
+            "sentence": "I had a great experience at the zoo.",
+            "translation": {
+              "Hindi": "मुझे चिड़ियाघर में एक शानदार अनुभव हुआ।",
+              "Japanese": "動物園で素晴らしい経験をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "travel",
+        "word_translation": {
+          "Hindi": "यात्रा करना",
+          "Japanese": "旅行する"
+        },
+        "meaning": "to go from one place to another",
+        "meaning_translation": {
+          "Hindi": "एक स्थान से दूसरे स्थान पर जाना",
+          "Japanese": "ある場所から別の場所へ行くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Have you ever traveled to Japan?",
+            "translation": {
+              "Hindi": "क्या आपने कभी जापान की यात्रा की है?",
+              "Japanese": "日本に旅行したことがありますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "try",
+        "word_translation": {
+          "Hindi": "कोशिश करना / आज़माना",
+          "Japanese": "試す"
+        },
+        "meaning": "to do or taste something new",
+        "meaning_translation": {
+          "Hindi": "कुछ नया करना या चखना",
+          "Japanese": "新しいことをする、または味わう"
+        },
+        "examples": [
+          {
+            "sentence": "I tried sushi for the first time.",
+            "translation": {
+              "Hindi": "मैंने पहली बार सुशी खाई।",
+              "Japanese": "初めて寿司を食べました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "visit",
+        "word_translation": {
+          "Hindi": "भ्रमण करना",
+          "Japanese": "訪れる"
+        },
+        "meaning": "to go and spend time at a place",
+        "meaning_translation": {
+          "Hindi": "किसी स्थान पर जाकर समय बिताना",
+          "Japanese": "ある場所に行って時間を過ごす"
+        },
+        "examples": [
+          {
+            "sentence": "We visited the Taj Mahal last year.",
+            "translation": {
+              "Hindi": "हमने पिछले साल ताज महल का भ्रमण किया।",
+              "Japanese": "去年タージ・マハルを訪れました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "have you ever",
+        "word_translation": {
+          "Hindi": "क्या आपने कभी",
+          "Japanese": "～したことがありますか？"
+        },
+        "meaning": "used to ask about life experiences",
+        "meaning_translation": {
+          "Hindi": "जीवन के अनुभवों के बारे में पूछने के लिए",
+          "Japanese": "経験について尋ねる時に使う"
+        },
+        "examples": [
+          {
+            "sentence": "Have you ever eaten octopus?",
+            "translation": {
+              "Hindi": "क्या आपने कभी ऑक्टोपस खाया है?",
+              "Japanese": "タコを食べたことがありますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "never",
+        "word_translation": {
+          "Hindi": "कभी नहीं",
+          "Japanese": "一度もない"
+        },
+        "meaning": "not even once",
+        "meaning_translation": {
+          "Hindi": "एक बार भी नहीं",
+          "Japanese": "一度もないこと"
+        },
+        "examples": [
+          {
+            "sentence": "I’ve never been to Europe.",
+            "translation": {
+              "Hindi": "मैं कभी यूरोप नहीं गया।",
+              "Japanese": "ヨーロッパに行ったことがありません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ride",
+        "word_translation": {
+          "Hindi": "सवारी करना",
+          "Japanese": "乗る"
+        },
+        "meaning": "to sit on and control a bike, horse, etc.",
+        "meaning_translation": {
+          "Hindi": "साइकिल, घोड़ा आदि की सवारी करना",
+          "Japanese": "自転車や馬などに乗ること"
+        },
+        "examples": [
+          {
+            "sentence": "I have ridden a horse once.",
+            "translation": {
+              "Hindi": "मैंने एक बार घोड़े की सवारी की है।",
+              "Japanese": "一度馬に乗ったことがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "see",
+        "word_translation": {
+          "Hindi": "देखना",
+          "Japanese": "見る"
+        },
+        "meaning": "to notice with your eyes",
+        "meaning_translation": {
+          "Hindi": "अपनी आंखों से देखना",
+          "Japanese": "目で気づくこと"
+        },
+        "examples": [
+          {
+            "sentence": "Have you ever seen snow?",
+            "translation": {
+              "Hindi": "क्या आपने कभी बर्फ देखी है?",
+              "Japanese": "雪を見たことがありますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "eat out",
+        "word_translation": {
+          "Hindi": "बाहर खाना खाना",
+          "Japanese": "外食する"
+        },
+        "meaning": "to eat at a restaurant",
+        "meaning_translation": {
+          "Hindi": "रेस्तरां में खाना खाना",
+          "Japanese": "レストランで食事すること"
+        },
+        "examples": [
+          {
+            "sentence": "We eat out every Saturday.",
+            "translation": {
+              "Hindi": "हम हर शनिवार बाहर खाना खाते हैं।",
+              "Japanese": "私たちは毎週土曜日に外食します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "climb",
+        "word_translation": {
+          "Hindi": "चढ़ना",
+          "Japanese": "登る"
+        },
+        "meaning": "to go up a mountain or structure",
+        "meaning_translation": {
+          "Hindi": "पहाड़ या किसी ऊँची जगह पर चढ़ना",
+          "Japanese": "山や構造物に登る"
+        },
+        "examples": [
+          {
+            "sentence": "He climbed a tall hill last summer.",
+            "translation": {
+              "Hindi": "उसने पिछले गर्मियों में एक ऊँची पहाड़ी पर चढ़ाई की।",
+              "Japanese": "彼は去年の夏に高い丘に登りました。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using 'have you ever...?'",
-        "explanation": "Use 'Have you ever' + past participle to ask about experiences. Example: Have you ever visited Delhi?"
+        "title": "Present Perfect for Experiences",
+        "explanation": "Use 'have/has + past participle' to talk about life experiences.",
+        "explanation_translation": {
+          "Hindi": "जीवन के अनुभवों के बारे में बात करने के लिए 'have/has + past participle' का प्रयोग करें।",
+          "Japanese": "経験について話す時は 'have/has + 過去分詞' を使います。"
+        }
       },
       {
-        "title": "Talking about things you have never done",
-        "explanation": "Use 'I have never' + past participle. Example: I have never eaten sushi."
+        "title": "Using 'ever' and 'never'",
+        "explanation": "'Ever' is used in questions, 'never' in negative answers.",
+        "explanation_translation": {
+          "Hindi": "'Ever' सवालों में और 'never' नकारात्मक उत्तरों में उपयोग होता है।",
+          "Japanese": "'Ever' は質問で使い、'never' は否定文で使います。"
+        }
+      },
+      {
+        "title": "Short answers",
+        "explanation": "Use 'Yes, I have.' or 'No, I haven't.' to answer experience questions.",
+        "explanation_translation": {
+          "Hindi": "'Yes, I have.' या 'No, I haven't.' का उपयोग अनुभव वाले प्रश्नों का उत्तर देने के लिए करें।",
+          "Japanese": "経験についての質問には 'Yes, I have.' または 'No, I haven't.' と答えます。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "Have you ever visited another country?", "translation": "" },
-      { "sentence": "I have never tried Italian food.", "translation": "" },
-      { "sentence": "She has met many famous people.", "translation": "" },
-      { "sentence": "We have seen that movie twice.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "Which word means 'something you did or felt'?",
-        "options": ["experience", "travel", "see"],
-        "answer": 0
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means something you have done or felt in life?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द आपके जीवन में की गई या महसूस की गई चीज को दर्शाता है?",
+        "Japanese": "人生で経験したことや感じたことを表す言葉はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "If you have not done something at any time, you say ___.",
-        "options": ["ever", "never", "enjoy"],
-        "answer": 1
+      "options": ["memory", "experience", "travel"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "‘Have you ever’ is used to ask about life experiences.",
+      "question_translation": {
+        "Hindi": "'Have you ever' का उपयोग जीवन के अनुभवों के बारे में पूछने के लिए किया जाता है।",
+        "Japanese": "「Have you ever」は経験について尋ねるときに使います。"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means 'to go to another place'?",
-        "options": ["meet", "visit", "travel"],
-        "answer": 2
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "I have never ___ sushi before.",
+      "question_translation": {
+        "Hindi": "मैंने पहले कभी ___ सुशी नहीं खाई।",
+        "Japanese": "私は今までに___寿司を食べたことがありません。"
       },
-      {
-        "id": "vocab4",
-        "type": "trueFalse",
-        "question": "'Enjoy' means to like doing something.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": ["eat", "eaten", "eating"],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word fits: 'I have ___ to Japan'?",
+      "question_translation": {
+        "Hindi": "'I have ___ to Japan' में कौन सा शब्द सही है?",
+        "Japanese": "「I have ___ to Japan」に当てはまる言葉はどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What do you say when you do something for the first time?",
-        "options": ["visit", "try", "eat"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "___ you ever visited another country?",
-        "options": ["Did", "Have", "Do"],
-        "answer": 1
+      "options": ["go", "went", "been"],
+      "answer": 2
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "‘Never’ means you have done it many times.",
+      "question_translation": {
+        "Hindi": "'Never' का मतलब है कि आपने इसे कई बार किया है।",
+        "Japanese": "「Never」は何度もやったという意味です。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "I have ___ tried Japanese food.",
-        "options": ["ever", "never", "meet"],
-        "answer": 1
+      "options": ["True", "False"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "Have you ever ___ a concert?",
+      "question_translation": {
+        "Hindi": "क्या आपने कभी कोई कॉन्सर्ट ___ किया है?",
+        "Japanese": "今までにコンサートに___ことがありますか？"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [met, people, famous, has, many, She]",
-        "options": ["met", "people", "famous", "has", "many", "She"],
-        "answer": ["She", "has", "met", "many", "famous", "people"]
+      "options": ["see", "seen", "saw"],
+      "answer": 1
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "I have ___ a horse once.",
+      "question_translation": {
+        "Hindi": "मैंने एक बार घोड़े की सवारी ___ की है।",
+        "Japanese": "一度だけ馬に___ことがあります。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "We have ___ that movie twice.",
-        "options": ["eat", "see", "seen"],
-        "answer": 2
+      "options": ["ride", "riding", "ridden"],
+      "answer": 2
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [never, have, sushi, I, eaten]",
+      "question_translation": {
+        "Hindi": "क्रम लगाएं: [never, have, sushi, I, eaten]",
+        "Japanese": "並べ替え: [never, have, sushi, I, eaten]"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [visited, have, Delhi, I]",
-        "options": ["visited", "have", "Delhi", "I"],
-        "answer": ["I", "have", "visited", "Delhi"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "What does the speaker ask? (Audio: 'Have you ever visited another country?')",
-        "options": ["Visited another country", "Tried new food", "Met a friend"],
-        "answer": 0
+      "options": ["never", "have", "sushi", "I", "eaten"],
+      "answer": ["I", "have", "never", "eaten", "sushi"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [have, ever, traveled, you, abroad]",
+      "question_translation": {
+        "Hindi": "क्रम लगाएं: [have, ever, traveled, you, abroad]",
+        "Japanese": "並べ替え: [have, ever, traveled, you, abroad]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What has the speaker never tried? (Audio: 'I have never tried Italian food.')",
-        "options": ["Italian food", "Chinese food", "Mexican food"],
-        "answer": 0
+      "options": ["have", "ever", "traveled", "you", "abroad"],
+      "answer": ["Have", "you", "ever", "traveled", "abroad"]
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What has she done?",
+      "audio_text": "I have visited the Eiffel Tower.",
+      "question_translation": {
+        "Hindi": "उसने क्या किया है?",
+        "Japanese": "彼女は何をしましたか？"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Who has she met? (Audio: 'She has met many famous people.')",
-        "options": ["Many famous people", "Her family", "A teacher"],
-        "answer": 0
+      "options": ["Visited Paris", "Visited the Eiffel Tower", "Visited London"],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "Has he ever been to the USA?",
+      "audio_text": "No, I have never been to the USA.",
+      "question_translation": {
+        "Hindi": "क्या वह कभी USA गया है?",
+        "Japanese": "彼はアメリカに行ったことがありますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "How many times have they seen the movie? (Audio: 'We have seen that movie twice.')",
-        "options": ["Once", "Twice", "Never"],
-        "answer": 1
+      "options": ["Yes", "No", "Maybe"],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I have never eaten sushi.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मैंने कभी सुशी नहीं खाई है।'",
+        "Japanese": "「寿司を食べたことがありません」と言ってください。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "What have you done? (Audio: 'I have visited Delhi.')",
-        "options": ["Visited Delhi", "Tried pizza", "Seen a movie"],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'Have you ever visited another country?'",
-        "options": [],
-        "answer": "Have you ever visited another country?"
+      "options": [],
+      "answer": "i have never eaten sushi"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Have you ever traveled to another country?'",
+      "question_translation": {
+        "Hindi": "कहें: 'क्या आपने कभी किसी दूसरे देश की यात्रा की है?'",
+        "Japanese": "「他の国へ旅行したことがありますか？」と言ってください。"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'I have never tried Italian food.'",
-        "options": [],
-        "answer": "I have never tried Italian food."
-      },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'She has met many famous people.'",
-        "options": [],
-        "answer": "She has met many famous people."
-      },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'We have seen that movie twice.'",
-        "options": [],
-        "answer": "We have seen that movie twice."
-      },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'I have visited Delhi.'",
-        "options": [],
-        "answer": "I have visited Delhi."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "have you ever traveled to another country"
+    }
+  ]
+}
+
 }

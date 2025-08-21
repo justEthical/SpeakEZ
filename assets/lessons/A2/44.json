@@ -1,4 +1,517 @@
 {
-  "id": 44,
-  "message": "This is file number 44"
+  "id": "lesson_weekend_plans_001",
+  "lesson_name": "Making Plans for the Weekend",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "plan",
+        "word_translation": {
+          "Hindi": "योजना",
+          "Japanese": "計画"
+        },
+        "meaning": "An idea about what you will do",
+        "meaning_translation": {
+          "Hindi": "आप क्या करेंगे उसकी योजना",
+          "Japanese": "これから何をするかの考え"
+        },
+        "examples": [
+          {
+            "sentence": "We have a plan to visit the park.",
+            "translation": {
+              "Hindi": "हमारे पास पार्क जाने की योजना है।",
+              "Japanese": "私たちは公園に行く計画があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "movie",
+        "word_translation": {
+          "Hindi": "फ़िल्म",
+          "Japanese": "映画"
+        },
+        "meaning": "A story shown on a screen in a theater or at home",
+        "meaning_translation": {
+          "Hindi": "थियेटर या घर पर दिखाई जाने वाली कहानी",
+          "Japanese": "スクリーンに映される物語"
+        },
+        "examples": [
+          {
+            "sentence": "I am watching a movie this Saturday.",
+            "translation": {
+              "Hindi": "मैं इस शनिवार एक फ़िल्म देख रहा हूँ।",
+              "Japanese": "私は今週の土曜日に映画を見ます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "picnic",
+        "word_translation": {
+          "Hindi": "पिकनिक",
+          "Japanese": "ピクニック"
+        },
+        "meaning": "A meal eaten outside, usually in a park",
+        "meaning_translation": {
+          "Hindi": "बाहर खाया जाने वाला भोजन, आमतौर पर पार्क में",
+          "Japanese": "外で食べる食事、通常は公園で"
+        },
+        "examples": [
+          {
+            "sentence": "We are having a picnic on Sunday.",
+            "translation": {
+              "Hindi": "हम रविवार को पिकनिक मना रहे हैं।",
+              "Japanese": "私たちは日曜日にピクニックをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "shopping",
+        "word_translation": {
+          "Hindi": "खरीदारी",
+          "Japanese": "買い物"
+        },
+        "meaning": "The activity of buying things",
+        "meaning_translation": {
+          "Hindi": "चीज़ें खरीदने की गतिविधि",
+          "Japanese": "物を買うこと"
+        },
+        "examples": [
+          {
+            "sentence": "She is going shopping with her friends.",
+            "translation": {
+              "Hindi": "वह अपने दोस्तों के साथ खरीदारी करने जा रही है।",
+              "Japanese": "彼女は友達と買い物に行きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "weekend",
+        "word_translation": {
+          "Hindi": "सप्ताहांत",
+          "Japanese": "週末"
+        },
+        "meaning": "Saturday and Sunday",
+        "meaning_translation": {
+          "Hindi": "शनिवार और रविवार",
+          "Japanese": "土曜日と日曜日"
+        },
+        "examples": [
+          {
+            "sentence": "What are you doing this weekend?",
+            "translation": {
+              "Hindi": "आप इस सप्ताहांत क्या कर रहे हैं?",
+              "Japanese": "今週末は何をしますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "invite",
+        "word_translation": {
+          "Hindi": "निमंत्रण देना",
+          "Japanese": "招待する"
+        },
+        "meaning": "To ask someone to join you",
+        "meaning_translation": {
+          "Hindi": "किसी को आपके साथ जुड़ने के लिए कहना",
+          "Japanese": "誰かを誘うこと"
+        },
+        "examples": [
+          {
+            "sentence": "I will invite my cousin to the party.",
+            "translation": {
+              "Hindi": "मैं अपने चचेरे भाई को पार्टी में बुलाऊँगा।",
+              "Japanese": "私はいとこをパーティーに招待します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "travel",
+        "word_translation": {
+          "Hindi": "यात्रा",
+          "Japanese": "旅行する"
+        },
+        "meaning": "To go to another place",
+        "meaning_translation": {
+          "Hindi": "किसी और जगह पर जाना",
+          "Japanese": "別の場所に行くこと"
+        },
+        "examples": [
+          {
+            "sentence": "They will travel to Goa this weekend.",
+            "translation": {
+              "Hindi": "वे इस सप्ताहांत गोवा की यात्रा करेंगे।",
+              "Japanese": "彼らは今週末ゴアに旅行します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "restaurant",
+        "word_translation": {
+          "Hindi": "रेस्तरां",
+          "Japanese": "レストラン"
+        },
+        "meaning": "A place where you can buy and eat meals",
+        "meaning_translation": {
+          "Hindi": "एक जगह जहाँ आप भोजन खरीद और खा सकते हैं",
+          "Japanese": "食事を買って食べられる場所"
+        },
+        "examples": [
+          {
+            "sentence": "We are going to a restaurant tonight.",
+            "translation": {
+              "Hindi": "हम आज रात एक रेस्तरां जा रहे हैं।",
+              "Japanese": "私たちは今夜レストランに行きます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'going to' for Plans",
+        "explanation": "We use 'going to' to talk about weekend plans. Example: I am going to watch a movie.",
+        "explanation_translation": {
+          "Hindi": "सप्ताहांत की योजनाओं के लिए 'going to' का उपयोग करें। उदाहरण: I am going to watch a movie.",
+          "Japanese": "週末の予定を話すとき「going to」を使います。例: I am going to watch a movie."
+        }
+      },
+      {
+        "title": "Asking About Plans",
+        "explanation": "Use 'What are you going to do?' to ask. Example: What are you going to do this Sunday?",
+        "explanation_translation": {
+          "Hindi": "'What are you going to do?' का उपयोग करके पूछें। उदाहरण: What are you going to do this Sunday?",
+          "Japanese": "予定を尋ねるとき「What are you going to do?」を使います。例: What are you going to do this Sunday?"
+        }
+      },
+      {
+        "title": "Answering with 'going to'",
+        "explanation": "Answer with 'I am going to…' Example: I am going to visit my friend.",
+        "explanation_translation": {
+          "Hindi": "'I am going to…' का उपयोग करके उत्तर दें। उदाहरण: I am going to visit my friend.",
+          "Japanese": "「I am going to…」で答えます。例: I am going to visit my friend."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a meal outside in a park'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'पार्क में बाहर भोजन' का अर्थ है?",
+          "Japanese": "「公園での食事」を意味する単語はどれですか？"
+        },
+        "options": [
+          "movie",
+          "picnic",
+          "travel"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "A restaurant is a place to buy and eat meals.",
+        "question_translation": {
+          "Hindi": "रेस्तरां एक जगह है जहाँ भोजन खरीदा और खाया जाता है।",
+          "Japanese": "レストランは食事を買って食べる場所です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "We are going to the ___ to watch a film.",
+        "question_translation": {
+          "Hindi": "हम फ़िल्म देखने के लिए ___ जा रहे हैं।",
+          "Japanese": "私たちは映画を見るために___に行きます。"
+        },
+        "options": [
+          "restaurant",
+          "cinema",
+          "picnic"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'to ask someone to join you'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'किसी को आपके साथ जुड़ने के लिए कहना' का अर्थ है?",
+          "Japanese": "「誰かを誘う」を意味する単語はどれですか？"
+        },
+        "options": [
+          "plan",
+          "invite",
+          "shopping"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Weekend means Saturday and Sunday.",
+        "question_translation": {
+          "Hindi": "सप्ताहांत का मतलब शनिवार और रविवार होता है।",
+          "Japanese": "週末とは土曜日と日曜日のことです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I am going to ___ a movie.",
+        "question_translation": {
+          "Hindi": "मैं एक फ़िल्म ___ जा रहा हूँ।",
+          "Japanese": "私は映画を___つもりです。"
+        },
+        "options": [
+          "watch",
+          "eat",
+          "play"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [to, picnic, are, a, we, going]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [to, picnic, are, a, we, going]",
+          "Japanese": "並べ替え: [to, picnic, are, a, we, going]"
+        },
+        "options": [
+          "to",
+          "picnic",
+          "are",
+          "a",
+          "we",
+          "going"
+        ],
+        "answer": [
+          "We",
+          "are",
+          "going",
+          "to",
+          "a",
+          "picnic"
+        ]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "She is going to ___ shopping.",
+        "question_translation": {
+          "Hindi": "वह खरीदारी करने ___ जा रही है।",
+          "Japanese": "彼女は買い物に___。"
+        },
+        "options": [
+          "go",
+          "eat",
+          "play"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [this, going, I, am, weekend, travel, to]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [this, going, I, am, weekend, travel, to]",
+          "Japanese": "並べ替え: [this, going, I, am, weekend, travel, to]"
+        },
+        "options": [
+          "this",
+          "going",
+          "I",
+          "am",
+          "weekend",
+          "travel",
+          "to"
+        ],
+        "answer": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "travel",
+          "this",
+          "weekend"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "We are going to ___ dinner at a restaurant.",
+        "question_translation": {
+          "Hindi": "हम एक रेस्तरां में रात का खाना ___ जा रहे हैं।",
+          "Japanese": "私たちはレストランで夕食を___つもりです。"
+        },
+        "options": [
+          "watch",
+          "eat",
+          "invite"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the speaker going to do?",
+        "audio_text": "I am going to watch a movie on Saturday.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या करने जा रहा है?",
+          "Japanese": "話者は何をするつもりですか？"
+        },
+        "options": [
+          "Watch a movie",
+          "Go shopping",
+          "Travel"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker said: 'We are going to a restaurant.'",
+        "audio_text": "We are going to a restaurant.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'हम एक रेस्तरां जा रहे हैं।'",
+          "Japanese": "話者は「私たちはレストランに行きます」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Where are they going?",
+        "audio_text": "We are going to the park for a picnic.",
+        "question_translation": {
+          "Hindi": "वे कहाँ जा रहे हैं?",
+          "Japanese": "彼らはどこに行きますか？"
+        },
+        "options": [
+          "Park",
+          "Restaurant",
+          "Cinema"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The speaker said: 'I am going to travel this weekend.'",
+        "audio_text": "I am going to travel this weekend.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कहा: 'मैं इस सप्ताहांत यात्रा पर जा रहा हूँ।'",
+          "Japanese": "話者は「私は今週末旅行に行きます」と言いました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the speaker going to do?",
+        "audio_text": "I am going shopping with my friends.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या करने जा रहा है?",
+          "Japanese": "話者は何をするつもりですか？"
+        },
+        "options": [
+          "Shopping",
+          "Movie",
+          "Dinner"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I am going to watch a movie this weekend.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am going to watch a movie this weekend.'",
+          "Japanese": "言ってください: 'I am going to watch a movie this weekend.'"
+        },
+        "options": [],
+        "answer": "i am going to watch a movie this weekend"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'We are going to have a picnic.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We are going to have a picnic.'",
+          "Japanese": "言ってください: 'We are going to have a picnic.'"
+        },
+        "options": [],
+        "answer": "we are going to have a picnic"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I am going shopping on Sunday.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am going shopping on Sunday.'",
+          "Japanese": "言ってください: 'I am going shopping on Sunday.'"
+        },
+        "options": [],
+        "answer": "i am going shopping on sunday"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'They are going to travel to Goa this weekend.'",
+        "question_translation": {
+          "Hindi": "कहें: 'They are going to travel to Goa this weekend.'",
+          "Japanese": "言ってください: 'They are going to travel to Goa this weekend.'"
+        },
+        "options": [],
+        "answer": "they are going to travel to goa this weekend"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I am going to eat dinner at a restaurant.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am going to eat dinner at a restaurant.'",
+          "Japanese": "言ってください: 'I am going to eat dinner at a restaurant.'"
+        },
+        "options": [],
+        "answer": "i am going to eat dinner at a restaurant"
+      }
+    ]
+  }
 }

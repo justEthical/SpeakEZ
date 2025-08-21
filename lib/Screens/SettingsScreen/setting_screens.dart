@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -99,7 +100,7 @@ class SettingScreens extends StatelessWidget {
                           ),
                           SizedBox(height: 5),
                           SizedBox(
-                            width: Get.width - 140, 
+                            width: Get.width - 140,
                             child: Text(
                               globalController.userProfile.value.email,
                               overflow: TextOverflow.ellipsis,
@@ -127,24 +128,30 @@ class SettingScreens extends StatelessWidget {
                 SettingsOptionTile(
                   onTap: () {
                     globalController.openUrl(AppStrings.privacyPolicyUrl);
-                    // Get.to(AboutUsAndPrivacy());
                   },
                   heading: "Help",
                   content: "Privacy Policy",
                   icon: AppAssets.helpCircle,
                 ),
                 SettingsOptionTile(
-                  onTap: () {},
+                  onTap: () {
+                    globalController.openUrl(AppStrings.appPlayStoreUrl);
+                  },
                   heading: "Rate Us",
                   content: "Rate us on Google play",
                   icon: AppAssets.starIcon,
                 ),
                 SettingsOptionTile(
-                  onTap: () async{
-
+                  onTap: () async {
+                    await SharePlus.instance.share(
+                      ShareParams(
+                        text:
+                            '${AppStrings.appShareMessage}\n${AppStrings.appPlayStoreUrl}',
+                      ),
+                    );
                   },
                   heading: "Refer to Friend",
-                  content: "Share karo apne dosto ko",
+                  content: "Share it with your friends",
                   icon: AppAssets.giftIcon,
                 ),
                 SettingsOptionTile(
@@ -160,11 +167,13 @@ class SettingScreens extends StatelessWidget {
                 SettingsOptionTile(
                   onTap: () async {
                     // Get.dialog(CustomDialogs.deleteConfirmationDialog());
-                    showModalBottomSheet(context: context,
-                    isScrollControlled: true,
-                     builder: (ctx){
-                      return ReauthenticationBottomSheet();
-                    });
+                    showModalBottomSheet(
+                      context: context,
+                      isScrollControlled: true,
+                      builder: (ctx) {
+                        return ReauthenticationBottomSheet();
+                      },
+                    );
                   },
                   icon: AppAssets.deleteIcon,
                   heading: 'Delete Account',

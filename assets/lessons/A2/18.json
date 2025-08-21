@@ -1,4 +1,363 @@
 {
-  "id": 18,
-  "message": "This is file number 18"
+  "id": "lesson_making_requests_001",
+  "lesson_name": "Making Requests",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Could you...?",
+        "word_translation": {
+          "Hindi": "क्या आप... कर सकते हैं?",
+          "Japanese": "〜していただけますか？"
+        },
+        "meaning": "A polite way to ask someone to do something",
+        "meaning_translation": {
+          "Hindi": "किसी से कुछ करने के लिए विनम्र अनुरोध",
+          "Japanese": "丁寧な依頼表現"
+        },
+        "examples": [
+          {
+            "sentence": "Could you help me with this task?",
+            "translation": {
+              "Hindi": "क्या आप मेरी इस कार्य में मदद कर सकते हैं?",
+              "Japanese": "この作業を手伝っていただけますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Would you mind...?",
+        "word_translation": {
+          "Hindi": "क्या आपको बुरा लगेगा अगर...?",
+          "Japanese": "〜してもいいですか？"
+        },
+        "meaning": "Used to ask for something politely",
+        "meaning_translation": {
+          "Hindi": "विनम्रता से कुछ माँगने के लिए प्रयोग होता है",
+          "Japanese": "丁寧にお願いする表現"
+        },
+        "examples": [
+          {
+            "sentence": "Would you mind opening the window?",
+            "translation": {
+              "Hindi": "क्या आपको खिड़की खोलने में बुरा लगेगा?",
+              "Japanese": "窓を開けてもいいですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Can you...?",
+        "word_translation": {
+          "Hindi": "क्या आप... कर सकते हैं?",
+          "Japanese": "〜できますか？"
+        },
+        "meaning": "A common way to ask someone to do something",
+        "meaning_translation": {
+          "Hindi": "किसी से कुछ करने का सामान्य तरीका",
+          "Japanese": "依頼する一般的な言い方"
+        },
+        "examples": [
+          {
+            "sentence": "Can you pass me the salt?",
+            "translation": {
+              "Hindi": "क्या आप मुझे नमक पास कर सकते हैं?",
+              "Japanese": "塩を取ってくれますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Would it be possible to...?",
+        "word_translation": {
+          "Hindi": "क्या यह संभव होगा कि...?",
+          "Japanese": "〜することは可能ですか？"
+        },
+        "meaning": "A very polite and formal way to make a request",
+        "meaning_translation": {
+          "Hindi": "बहुत विनम्र और औपचारिक अनुरोध करने का तरीका",
+          "Japanese": "非常に丁寧な依頼の方法"
+        },
+        "examples": [
+          {
+            "sentence": "Would it be possible to reschedule our meeting?",
+            "translation": {
+              "Hindi": "क्या हमारी मीटिंग को फिर से तय करना संभव होगा?",
+              "Japanese": "会議の日程を変更することは可能ですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "I was wondering if you could...",
+        "word_translation": {
+          "Hindi": "मैं सोच रहा था कि क्या आप... कर सकते हैं?",
+          "Japanese": "〜していただけるかと思いまして"
+        },
+        "meaning": "Very polite and indirect way to make a request",
+        "meaning_translation": {
+          "Hindi": "बहुत विनम्र और अप्रत्यक्ष अनुरोध करने का तरीका",
+          "Japanese": "非常に丁寧で間接的な依頼の言い方"
+        },
+        "examples": [
+          {
+            "sentence": "I was wondering if you could explain that again.",
+            "translation": {
+              "Hindi": "मैं सोच रहा था कि क्या आप उसे फिर से समझा सकते हैं?",
+              "Japanese": "もう一度説明していただけますか？"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Modal Verbs for Requests",
+        "explanation": "'Can', 'Could', and 'Would' are modal verbs commonly used to make polite requests.",
+        "explanation_translation": {
+          "Hindi": "'Can', 'Could', और 'Would' को विनम्र अनुरोधों के लिए प्रयोग किया जाता है।",
+          "Japanese": "「Can」「Could」「Would」は丁寧な依頼をする際によく使われる助動詞です。"
+        }
+      },
+      {
+        "title": "Indirect Requests",
+        "explanation": "Phrases like 'Would you mind...' and 'I was wondering if...' make requests sound softer and more polite.",
+        "explanation_translation": {
+          "Hindi": "'Would you mind...' और 'I was wondering if...' जैसे वाक्यांश अनुरोध को अधिक विनम्र बनाते हैं।",
+          "Japanese": "「Would you mind...」や「I was wondering if...」のような表現は依頼をより丁寧にします。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase is the most polite request?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन सा वाक्यांश सबसे अधिक विनम्र अनुरोध है?",
+          "Japanese": "最も丁寧な依頼表現はどれですか？"
+        },
+        "options": ["Can you...?", "Could you...?", "Give me that!"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ you pass me the notebook?",
+        "question_translation": {
+          "Hindi": "क्या आप मुझे नोटबुक पास ___ सकते हैं?",
+          "Japanese": "ノートを___くれますか？"
+        },
+        "options": ["Would", "Could", "Might"],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "‘Would you mind...?’ is more formal than ‘Can you...?’",
+        "question_translation": {
+          "Hindi": "‘Would you mind...?’ ‘Can you...?’ से अधिक औपचारिक है।",
+          "Japanese": "「Would you mind...?」は「Can you...?」よりもフォーマルです。"
+        },
+        "options": ["True", "False"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which is a direct request?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन सा एक सीधा अनुरोध है?",
+          "Japanese": "どれが直接的な依頼ですか？"
+        },
+        "options": ["Could you help me?", "I was wondering if you could help.", "Help me now!"],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "Would it be ___ to call you later?",
+        "question_translation": {
+          "Hindi": "क्या यह ___ होगा अगर मैं बाद में कॉल करूं?",
+          "Japanese": "後で電話しても___ですか？"
+        },
+        "options": ["possible", "okay", "nice"],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ you close the door, please?",
+        "question_translation": {
+          "Hindi": "क्या आप दरवाज़ा बंद ___ करेंगे?",
+          "Japanese": "ドアを___くれますか？"
+        },
+        "options": ["Can", "Must", "Should"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [you, Could, help, me]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [you, Could, help, me]",
+          "Japanese": "並び替え: [you, Could, help, me]"
+        },
+        "options": ["you", "Could", "help", "me"],
+        "answer": ["Could", "you", "help", "me"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "I was ___ if you could come early.",
+        "question_translation": {
+          "Hindi": "मैं सोच ___ था कि क्या आप जल्दी आ सकते हैं।",
+          "Japanese": "早く来ていただけるか___いました。"
+        },
+        "options": ["asking", "saying", "wondering"],
+        "answer": 2
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [Would, the, open, you, window]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [Would, the, open, you, window]",
+          "Japanese": "並び替え: [Would, the, open, you, window]"
+        },
+        "options": ["Would", "the", "open", "you", "window"],
+        "answer": ["Would", "you", "open", "the", "window"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Would you mind ___ your phone?",
+        "question_translation": {
+          "Hindi": "क्या आपको अपने फ़ोन ___ में बुरा लगेगा?",
+          "Japanese": "携帯電話を___のはいやですか？"
+        },
+        "options": ["sharing", "borrowing", "using"],
+        "answer": 2
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker ask?",
+        "audio_text": "Could you open the window?",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या पूछा?",
+          "Japanese": "話者は何を頼みましたか？"
+        },
+        "options": ["To close the window", "To open the window", "To clean the window"],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What kind of tone was used?",
+        "audio_text": "Would it be possible to meet tomorrow?",
+        "question_translation": {
+          "Hindi": "किस तरह का स्वर प्रयोग किया गया?",
+          "Japanese": "どんなトーンが使われましたか？"
+        },
+        "options": ["Polite", "Angry", "Excited"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is the request?",
+        "audio_text": "Can you help me move this box?",
+        "question_translation": {
+          "Hindi": "अनुरोध क्या है?",
+          "Japanese": "どんな依頼ですか？"
+        },
+        "options": ["To lift a box", "To open a door", "To call someone"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What word signals the request?",
+        "audio_text": "Could you call me later?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द अनुरोध को दर्शाता है?",
+          "Japanese": "どの単語が依頼を示していますか？"
+        },
+        "options": ["Later", "Call", "Could"],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What does the speaker want?",
+        "audio_text": "Would you mind turning off the light?",
+        "question_translation": {
+          "Hindi": "वक्ता क्या चाहता है?",
+          "Japanese": "話者は何をしてほしいですか？"
+        },
+        "options": ["To turn on the light", "To turn off the light", "To fix the light"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Could you help me with my homework?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप मेरी होमवर्क में मदद कर सकते हैं?'",
+          "Japanese": "言ってください: 'Could you help me with my homework?'"
+        },
+        "answer": "could you help me with my homework"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Would you mind closing the door?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आपको दरवाज़ा बंद करने में बुरा लगेगा?'",
+          "Japanese": "言ってください: 'Would you mind closing the door?'"
+        },
+        "answer": "would you mind closing the door"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Can you explain this again?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या आप इसे फिर से समझा सकते हैं?'",
+          "Japanese": "言ってください: 'Can you explain this again?'"
+        },
+        "answer": "can you explain this again"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I was wondering if you could send me the file.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं सोच रहा था कि क्या आप मुझे फ़ाइल भेज सकते हैं।'",
+          "Japanese": "言ってください: 'I was wondering if you could send me the file.'"
+        },
+        "answer": "i was wondering if you could send me the file"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Would it be possible to call later?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या बाद में कॉल करना संभव होगा?'",
+          "Japanese": "言ってください: 'Would it be possible to call later?'"
+        },
+        "answer": "would it be possible to call later"
+      }
+    ]
+  }
 }

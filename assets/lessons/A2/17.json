@@ -1,4 +1,368 @@
 {
-  "id": 17,
-  "message": "This is file number 17"
+  "id": "lesson_asking_permission_001",
+  "lesson_name": "Asking for Permission",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Can I...?",
+        "word_translation": {
+          "Hindi": "क्या मैं...?",
+          "Japanese": "〜してもいいですか？"
+        },
+        "meaning": "Used to ask for permission",
+        "meaning_translation": {
+          "Hindi": "अनुमति माँगने के लिए उपयोग किया जाता है",
+          "Japanese": "許可を求めるときに使う表現"
+        },
+        "examples": [
+          {
+            "sentence": "Can I use your phone?",
+            "translation": {
+              "Hindi": "क्या मैं आपका फ़ोन उपयोग कर सकता हूँ?",
+              "Japanese": "あなたの電話を使ってもいいですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "May I...?",
+        "word_translation": {
+          "Hindi": "क्या मुझे...?",
+          "Japanese": "〜してもよろしいですか？"
+        },
+        "meaning": "A more polite way to ask for permission",
+        "meaning_translation": {
+          "Hindi": "अनुमति माँगने का एक अधिक विनम्र तरीका",
+          "Japanese": "より丁寧な許可の求め方"
+        },
+        "examples": [
+          {
+            "sentence": "May I come in?",
+            "translation": {
+              "Hindi": "क्या मैं अंदर आ सकता हूँ?",
+              "Japanese": "入ってもよろしいですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Is it okay if I...?",
+        "word_translation": {
+          "Hindi": "क्या यह ठीक है अगर मैं...?",
+          "Japanese": "〜してもいいですか？"
+        },
+        "meaning": "Used to seek approval for an action",
+        "meaning_translation": {
+          "Hindi": "किसी कार्य के लिए स्वीकृति माँगने हेतु प्रयोग",
+          "Japanese": "行動の承認を求めるときに使う表現"
+        },
+        "examples": [
+          {
+            "sentence": "Is it okay if I sit here?",
+            "translation": {
+              "Hindi": "क्या यह ठीक है अगर मैं यहाँ बैठूं?",
+              "Japanese": "ここに座ってもいいですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Sure",
+        "word_translation": {
+          "Hindi": "ज़रूर",
+          "Japanese": "もちろん"
+        },
+        "meaning": "A way to give permission",
+        "meaning_translation": {
+          "Hindi": "अनुमति देने का तरीका",
+          "Japanese": "許可を与える表現"
+        },
+        "examples": [
+          {
+            "sentence": "Sure, you can borrow my book.",
+            "translation": {
+              "Hindi": "ज़रूर, आप मेरी किताब उधार ले सकते हैं।",
+              "Japanese": "もちろん、私の本を借りてもいいですよ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "No problem",
+        "word_translation": {
+          "Hindi": "कोई बात नहीं",
+          "Japanese": "問題ありません"
+        },
+        "meaning": "Used to say that permission is granted",
+        "meaning_translation": {
+          "Hindi": "यह बताने के लिए उपयोग किया जाता है कि अनुमति दी गई है",
+          "Japanese": "許可を与えるときに使う表現"
+        },
+        "examples": [
+          {
+            "sentence": "No problem, go ahead.",
+            "translation": {
+              "Hindi": "कोई बात नहीं, आगे बढ़ें।",
+              "Japanese": "問題ありません、どうぞ。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'Can I' vs 'May I'",
+        "explanation": "'Can I' is commonly used in casual settings. 'May I' is more polite and formal.",
+        "explanation_translation": {
+          "Hindi": "'Can I' आमतौर पर अनौपचारिक स्थितियों में उपयोग होता है। 'May I' अधिक औपचारिक और विनम्र होता है।",
+          "Japanese": "「Can I」はカジュアルな場面でよく使われます。「May I」はより丁寧でフォーマルです。"
+        }
+      },
+      {
+        "title": "Giving Permission",
+        "explanation": "Phrases like 'Sure', 'No problem', and 'Of course' are used to say yes to a permission request.",
+        "explanation_translation": {
+          "Hindi": "'Sure', 'No problem', और 'Of course' जैसे वाक्यांश अनुमति देने के लिए उपयोग होते हैं।",
+          "Japanese": "「Sure」「No problem」「Of course」などのフレーズは許可を与えるときに使います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase is used to ask for permission?",
+        "question_translation": {
+          "Hindi": "अनुमति माँगने के लिए कौन सा वाक्यांश उपयोग होता है?",
+          "Japanese": "許可を求める表現はどれですか？"
+        },
+        "options": ["Sure", "Can I...?", "No problem"],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ I use your pen?",
+        "question_translation": {
+          "Hindi": "___ मैं आपका पेन उपयोग कर सकता हूँ?",
+          "Japanese": "___ あなたのペンを使ってもいいですか？"
+        },
+        "options": ["May", "Must", "Have"],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "multipleChoice",
+        "question": "What is a polite way to ask to enter a room?",
+        "question_translation": {
+          "Hindi": "किसी कमरे में प्रवेश करने के लिए विनम्र तरीका क्या है?",
+          "Japanese": "部屋に入るときの丁寧な表現はどれですか？"
+        },
+        "options": ["May I come in?", "Go out!", "Sit down!"],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "'No problem' means you deny permission.",
+        "question_translation": {
+          "Hindi": "'No problem' का मतलब है कि आप अनुमति नहीं देते।",
+          "Japanese": "「No problem」は許可を拒否する意味です。"
+        },
+        "options": ["True", "False"],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which phrase is more formal?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन सा वाक्यांश अधिक औपचारिक है?",
+          "Japanese": "どのフレーズがよりフォーマルですか？"
+        },
+        "options": ["Can I", "May I", "Is it okay if I"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "___ I go to the bathroom?",
+        "question_translation": {
+          "Hindi": "___ मैं बाथरूम जा सकता हूँ?",
+          "Japanese": "___ トイレに行ってもいいですか？"
+        },
+        "options": ["Can", "Should", "Will"],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, your, Can, use, phone]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [I, your, Can, use, phone]",
+          "Japanese": "並べ替え: [I, your, Can, use, phone]"
+        },
+        "options": ["I", "your", "Can", "use", "phone"],
+        "answer": ["Can", "I", "use", "your", "phone"]
+      },
+      {
+        "id": "sent3",
+        "type": "fillInTheBlanks",
+        "question": "Is it ___ if I leave early?",
+        "question_translation": {
+          "Hindi": "अगर मैं जल्दी निकल जाऊँ तो क्या यह ___ है?",
+          "Japanese": "早く帰っても___ですか？"
+        },
+        "options": ["bad", "okay", "great"],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [in, come, May, I]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [in, come, May, I]",
+          "Japanese": "並べ替え: [in, come, May, I]"
+        },
+        "options": ["in", "come", "May", "I"],
+        "answer": ["May", "I", "come", "in"]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "No ___, go ahead.",
+        "question_translation": {
+          "Hindi": "कोई ___ नहीं, आगे बढ़िए।",
+          "Japanese": "___ありません、どうぞ。"
+        },
+        "options": ["help", "problem", "question"],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker say?",
+        "audio_text": "Can I borrow your book?",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या कहा?",
+          "Japanese": "話者は何と言いましたか？"
+        },
+        "options": ["Can I borrow your book?", "Can I read the news?", "Can I write a letter?"],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What permission is being asked?",
+        "audio_text": "May I come in?",
+        "question_translation": {
+          "Hindi": "कौन सी अनुमति माँगी जा रही है?",
+          "Japanese": "どんな許可を求めていますか？"
+        },
+        "options": ["Come in", "Go out", "Sit down"],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Did the speaker give permission?",
+        "audio_text": "Sure, no problem.",
+        "question_translation": {
+          "Hindi": "क्या वक्ता ने अनुमति दी?",
+          "Japanese": "話者は許可しましたか？"
+        },
+        "options": ["Yes", "No", "Not sure"],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How polite was the request?",
+        "audio_text": "Is it okay if I sit here?",
+        "question_translation": {
+          "Hindi": "अनुरोध कितना विनम्र था?",
+          "Japanese": "そのリクエストはどれくらい丁寧でしたか？"
+        },
+        "options": ["Casual", "Very polite", "Rude"],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the speaker asking?",
+        "audio_text": "Can I open the window?",
+        "question_translation": {
+          "Hindi": "वक्ता क्या पूछ रहा है?",
+          "Japanese": "話者は何を尋ねていますか？"
+        },
+        "options": ["To close the window", "To open the window", "To shut the door"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Can I use your phone?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या मैं आपका फ़ोन उपयोग कर सकता हूँ?'",
+          "Japanese": "言ってください: 'Can I use your phone?'"
+        },
+        "options": [],
+        "answer": "can i use your phone"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'May I come in?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या मैं अंदर आ सकता हूँ?'",
+          "Japanese": "言ってください: 'May I come in?'"
+        },
+        "options": [],
+        "answer": "may i come in"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Is it okay if I leave now?'",
+        "question_translation": {
+          "Hindi": "कहें: 'क्या यह ठीक है अगर मैं अब चला जाऊं?'",
+          "Japanese": "言ってください: 'Is it okay if I leave now?'"
+        },
+        "options": [],
+        "answer": "is it okay if i leave now"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Sure, go ahead.'",
+        "question_translation": {
+          "Hindi": "कहें: 'ज़रूर, आगे बढ़िए।'",
+          "Japanese": "言ってください: 'Sure, go ahead.'"
+        },
+        "options": [],
+        "answer": "sure go ahead"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'No problem.'",
+        "question_translation": {
+          "Hindi": "कहें: 'कोई बात नहीं।'",
+          "Japanese": "言ってください: 'No problem.'"
+        },
+        "options": [],
+        "answer": "no problem"
+      }
+    ]
+  }
 }

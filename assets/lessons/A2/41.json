@@ -1,4 +1,512 @@
 {
-  "id": 41,
-  "message": "This is file number 41"
+  "id": "lesson_agree_disagree_001",
+  "lesson_name": "Agreeing and Disagreeing",
+  "purpose": "All",
+  "cefrLevel": "A2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "agree",
+        "word_translation": {
+          "Hindi": "सहमत होना",
+          "Japanese": "同意する"
+        },
+        "meaning": "To have the same opinion as someone",
+        "meaning_translation": {
+          "Hindi": "किसी की राय से सहमत होना",
+          "Japanese": "誰かと同じ意見を持つこと"
+        },
+        "examples": [
+          {
+            "sentence": "I agree with you.",
+            "translation": {
+              "Hindi": "मैं आपसे सहमत हूँ।",
+              "Japanese": "あなたに同意します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "disagree",
+        "word_translation": {
+          "Hindi": "असहमत होना",
+          "Japanese": "反対する"
+        },
+        "meaning": "To not have the same opinion",
+        "meaning_translation": {
+          "Hindi": "किसी की राय से असहमत होना",
+          "Japanese": "同じ意見を持たないこと"
+        },
+        "examples": [
+          {
+            "sentence": "She disagrees with his idea.",
+            "translation": {
+              "Hindi": "वह उसके विचार से असहमत है।",
+              "Japanese": "彼女は彼の考えに反対しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "strongly",
+        "word_translation": {
+          "Hindi": "दृढ़ता से",
+          "Japanese": "強く"
+        },
+        "meaning": "In a powerful or definite way",
+        "meaning_translation": {
+          "Hindi": "दृढ़ और निश्चित रूप से",
+          "Japanese": "はっきりと強く"
+        },
+        "examples": [
+          {
+            "sentence": "I strongly agree with that point.",
+            "translation": {
+              "Hindi": "मैं उस बात से दृढ़ता से सहमत हूँ।",
+              "Japanese": "その点に強く同意します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "partly",
+        "word_translation": {
+          "Hindi": "आंशिक रूप से",
+          "Japanese": "部分的に"
+        },
+        "meaning": "Not completely; only to some degree",
+        "meaning_translation": {
+          "Hindi": "पूरी तरह नहीं; केवल कुछ हद तक",
+          "Japanese": "完全ではなく、部分的に"
+        },
+        "examples": [
+          {
+            "sentence": "I partly agree with her opinion.",
+            "translation": {
+              "Hindi": "मैं उसकी राय से आंशिक रूप से सहमत हूँ।",
+              "Japanese": "私は彼女の意見に部分的に同意します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "opinion",
+        "word_translation": {
+          "Hindi": "राय",
+          "Japanese": "意見"
+        },
+        "meaning": "What you think about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में आपका विचार",
+          "Japanese": "何かについての考え"
+        },
+        "examples": [
+          {
+            "sentence": "Everyone has their own opinion.",
+            "translation": {
+              "Hindi": "हर किसी की अपनी राय होती है।",
+              "Japanese": "誰もが自分の意見を持っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "statement",
+        "word_translation": {
+          "Hindi": "वक्तव्य",
+          "Japanese": "発言／声明"
+        },
+        "meaning": "Something said or written that gives information",
+        "meaning_translation": {
+          "Hindi": "कुछ कहा या लिखा गया जो जानकारी देता है",
+          "Japanese": "情報を伝える発言や文章"
+        },
+        "examples": [
+          {
+            "sentence": "I disagree with that statement.",
+            "translation": {
+              "Hindi": "मैं उस वक्तव्य से असहमत हूँ।",
+              "Japanese": "私はその発言に反対します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "discussion",
+        "word_translation": {
+          "Hindi": "चर्चा",
+          "Japanese": "議論"
+        },
+        "meaning": "A talk about something to share ideas",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में विचार साझा करने की बातचीत",
+          "Japanese": "意見を共有するための話し合い"
+        },
+        "examples": [
+          {
+            "sentence": "We had a discussion about the project.",
+            "translation": {
+              "Hindi": "हमने परियोजना के बारे में चर्चा की।",
+              "Japanese": "私たちはプロジェクトについて議論しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "agree with",
+        "word_translation": {
+          "Hindi": "से सहमत होना",
+          "Japanese": "に同意する"
+        },
+        "meaning": "To share the same opinion as someone",
+        "meaning_translation": {
+          "Hindi": "किसी की राय से सहमत होना",
+          "Japanese": "誰かと同じ意見を持つこと"
+        },
+        "examples": [
+          {
+            "sentence": "Do you agree with me?",
+            "translation": {
+              "Hindi": "क्या आप मुझसे सहमत हैं?",
+              "Japanese": "私に同意しますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "respectfully",
+        "word_translation": {
+          "Hindi": "सम्मानपूर्वक",
+          "Japanese": "敬意を持って"
+        },
+        "meaning": "In a polite and respectful way",
+        "meaning_translation": {
+          "Hindi": "शिष्ट और आदरपूर्ण तरीके से",
+          "Japanese": "丁寧で敬意を持って"
+        },
+        "examples": [
+          {
+            "sentence": "You can disagree respectfully.",
+            "translation": {
+              "Hindi": "आप सम्मानपूर्वक असहमत हो सकते हैं।",
+              "Japanese": "敬意を持って反対することができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "debate",
+        "word_translation": {
+          "Hindi": "वाद-विवाद",
+          "Japanese": "討論"
+        },
+        "meaning": "A formal discussion about different opinions",
+        "meaning_translation": {
+          "Hindi": "विभिन्न विचारों पर औपचारिक चर्चा",
+          "Japanese": "異なる意見に関する正式な議論"
+        },
+        "examples": [
+          {
+            "sentence": "The students had a debate on climate change.",
+            "translation": {
+              "Hindi": "छात्रों ने जलवायु परिवर्तन पर वाद-विवाद किया।",
+              "Japanese": "生徒たちは気候変動について討論しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Agreeing with statements",
+        "explanation": "We often use 'I agree', 'That’s right', 'Exactly' to show agreement.",
+        "explanation_translation": {
+          "Hindi": "हम सहमत होने के लिए 'I agree', 'That’s right', 'Exactly' का प्रयोग करते हैं।",
+          "Japanese": "同意を示すために『I agree』『That’s right』『Exactly』を使います。"
+        }
+      },
+      {
+        "title": "Disagreeing politely",
+        "explanation": "To disagree politely, we use phrases like 'I’m not sure I agree', 'I see your point, but…'.",
+        "explanation_translation": {
+          "Hindi": "शिष्ट तरीके से असहमत होने के लिए हम कहते हैं: 'I’m not sure I agree', 'I see your point, but…'",
+          "Japanese": "丁寧に反対するために『I’m not sure I agree』『I see your point, but…』を使います。"
+        }
+      }
+    ]
+  },
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'to have the same opinion'?",
+      "question_translation": {
+        "hindi": "कौन सा शब्द 'एक ही राय रखना' का अर्थ है?",
+        "japanese": "「同じ意見を持つ」という意味の言葉はどれですか？"
+      },
+      "options": [
+        "disagree",
+        "agree",
+        "debate"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "Disagree means to share the same opinion.",
+      "question_translation": {
+        "hindi": "Disagree का मतलब एक ही राय साझा करना होता है।",
+        "japanese": "Disagreeは同じ意見を共有するという意味です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "I ___ with your idea.",
+      "question_translation": {
+        "hindi": "मैं आपके विचार से ___ करता हूँ।",
+        "japanese": "私はあなたの考えに___します。"
+      },
+      "options": [
+        "agree",
+        "debate",
+        "statement"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means 'a talk about something to share ideas'?",
+      "question_translation": {
+        "hindi": "कौन सा शब्द 'विचार साझा करने के लिए बातचीत' का अर्थ है?",
+        "japanese": "「意見を共有するための会話」を意味する言葉はどれですか？"
+      },
+      "options": [
+        "discussion",
+        "opinion",
+        "respectfully"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "trueFalse",
+      "question": "Debate means a casual chat about any topic.",
+      "question_translation": {
+        "hindi": "Debate का मतलब किसी भी विषय पर साधारण बातचीत होता है।",
+        "japanese": "Debateはどんな話題についても気軽なおしゃべりを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "She ___ with his opinion.",
+      "question_translation": {
+        "hindi": "वह उसकी राय से ___ करती है।",
+        "japanese": "彼女は彼の意見に___します。"
+      },
+      "options": [
+        "disagrees",
+        "agree",
+        "discussion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "multipleChoice",
+      "question": "Which sentence is polite disagreement?",
+      "question_translation": {
+        "hindi": "कौन सा वाक्य विनम्र असहमति दिखाता है?",
+        "japanese": "どの文が丁寧な反対意見を表していますか？"
+      },
+      "options": [
+        "I don’t like your idea at all.",
+        "I see your point, but I disagree.",
+        "That’s a bad idea."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "trueFalse",
+      "question": "We can say 'Exactly!' to agree with someone.",
+      "question_translation": {
+        "hindi": "हम 'Exactly!' कहकर किसी से सहमत हो सकते हैं।",
+        "japanese": "誰かに同意するとき「Exactly!」と言えます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "I ___ agree with your statement.",
+      "question_translation": {
+        "hindi": "मैं आपके कथन से ___ सहमत हूँ।",
+        "japanese": "私はあなたの意見に___同意します。"
+      },
+      "options": [
+        "strongly",
+        "respectfully",
+        "debate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "multipleChoice",
+      "question": "Which is an example of partial agreement?",
+      "question_translation": {
+        "hindi": "आंशिक सहमति का उदाहरण कौन सा है?",
+        "japanese": "部分的な同意の例はどれですか？"
+      },
+      "options": [
+        "I partly agree with you.",
+        "I completely agree with you.",
+        "I don’t agree at all."
+      ],
+      "answer": 0
+    }
+  ],
+"listening": [
+  {
+    "id": "listen1",
+    "type": "listening",
+    "question": "What is the speaker doing?",
+    "question_translation": {
+      "hindi": "वक्ता क्या कर रहा है?",
+      "japanese": "話者は何をしていますか？"
+    },
+    "audio_text": "I agree with your point.",
+    "options": ["Disagreeing", "Agreeing", "Debating"],
+    "answer": 1
+  },
+  {
+    "id": "listen2",
+    "type": "listening",
+    "question": "What is the speaker showing?",
+    "question_translation": {
+      "hindi": "वक्ता क्या दिखा रहा है?",
+      "japanese": "話者は何を示していますか？"
+    },
+    "audio_text": "I see your point, but I’m not sure I agree.",
+    "options": ["Polite disagreement", "Strong agreement", "Silence"],
+    "answer": 0
+  },
+  {
+    "id": "listen3",
+    "type": "listening",
+    "question": "What does the speaker mean?",
+    "question_translation": {
+      "hindi": "वक्ता का क्या मतलब है?",
+      "japanese": "話者は何を意味していますか？"
+    },
+    "audio_text": "Exactly!",
+    "options": ["They disagree", "They strongly agree", "They are asking a question"],
+    "answer": 1
+  },
+  {
+    "id": "listen4",
+    "type": "listening",
+    "question": "What is the speaker expressing?",
+    "question_translation": {
+      "hindi": "वक्ता क्या व्यक्त कर रहा है?",
+      "japanese": "話者は何を表していますか？"
+    },
+    "audio_text": "I disagree with that statement.",
+    "options": ["Agreement", "Disagreement", "Discussion"],
+    "answer": 1
+  },
+  {
+    "id": "listen5",
+    "type": "listening",
+    "question": "What does this mean?",
+    "question_translation": {
+      "hindi": "इसका क्या मतलब है?",
+      "japanese": "これはどういう意味ですか？"
+    },
+    "audio_text": "We had a debate about the issue.",
+    "options": ["They played a game", "They had a formal discussion", "They agreed silently"],
+    "answer": 1
+  }
+]
+,
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I agree with you.'",
+      "question_translation": {
+        "hindi": "'I agree with you.' कहें।",
+        "japanese": "「I agree with you.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i agree with you"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'I disagree with your opinion.'",
+      "question_translation": {
+        "hindi": "'I disagree with your opinion.' कहें।",
+        "japanese": "「I disagree with your opinion.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i disagree with your opinion"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I partly agree with that.'",
+      "question_translation": {
+        "hindi": "'I partly agree with that.' कहें।",
+        "japanese": "「I partly agree with that.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i partly agree with that"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I see your point, but I’m not sure I agree.'",
+      "question_translation": {
+        "hindi": "'I see your point, but I’m not sure I agree.' कहें।",
+        "japanese": "「I see your point, but I’m not sure I agree.」と言ってください。"
+      },
+      "options": [],
+      "answer": "i see your point but i'm not sure i agree"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Exactly!'",
+      "question_translation": {
+        "hindi": "'Exactly!' कहें।",
+        "japanese": "「Exactly!」と言ってください。"
+      },
+      "options": [],
+      "answer": "exactly"
+    }
+  ]
+}
+
 }

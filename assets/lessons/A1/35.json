@@ -251,7 +251,7 @@
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "The nurse gives me ___. (medicine)",
+        "question": "The nurse gives me ___.",
         "question_translation": {
           "Hindi": "नर्स मुझे ___ देती है।",
           "Japanese": "看護師が私に___をくれます。"
@@ -297,7 +297,7 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "I have a doctor's ___. (appointment)",
+        "question": "I have a doctor's ___.",
         "question_translation": {
           "Hindi": "मेरी डॉक्टर से ___ है।",
           "Japanese": "私は医者の___があります。"
@@ -308,7 +308,7 @@
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "He has a high ___. (fever)",
+        "question": "He has a high ___.",
         "question_translation": {
           "Hindi": "उसे तेज ___ है।",
           "Japanese": "彼は高い___があります。"
@@ -325,12 +325,12 @@
           "Japanese": "[nurse, the, medicine, gives, me]を並べ替えましょう。"
         },
         "options": ["nurse", "the", "medicine", "gives", "me"],
-        "answer": ["The", "nurse", "gives", "me", "medicine"]
+        "answer": ["the", "nurse", "gives", "me", "medicine"]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "She has a sore ___. (throat)",
+        "question": "She has a sore ___.",
         "question_translation": {
           "Hindi": "उसे ___ में दर्द है।",
           "Japanese": "彼女は___が痛いです。"
