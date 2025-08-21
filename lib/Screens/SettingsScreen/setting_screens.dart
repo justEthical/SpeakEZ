@@ -151,7 +151,7 @@ class SettingScreens extends StatelessWidget {
                     );
                   },
                   heading: "Refer to Friend",
-                  content: "Share karo apne dosto ko",
+                  content: "Share it with your friends",
                   icon: AppAssets.giftIcon,
                 ),
                 SettingsOptionTile(
