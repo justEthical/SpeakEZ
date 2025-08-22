@@ -6,6 +6,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
@@ -53,42 +54,44 @@ class QuestionOptionsController extends GetxController {
 
   final SpeechService stt = SpeechService();
 
-  
-Future<Lesson> setCurrentLesson() async {
-  final profile = globalController.userProfile.value;
+  Future<Lesson> setCurrentLesson() async {
+    final profile = globalController.userProfile.value;
 
-  // Build the relative core path once (e.g., /lessons/A1/14.json)
-  final nextLessonIndex = profile.currentEnglishLevelProgress + 1;
-  final corePath = "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
+    // Build the relative core path once (e.g., /lessons/A1/14.json)
+    final nextLessonIndex = profile.currentEnglishLevelProgress + 1;
+    final corePath =
+        "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
 
-  // Absolute file path in app's documents dir
-  final storagePath = "${globalController.appDocDirectoryPath}$corePath";
-  final storageFile = File(storagePath);
+    // Absolute file path in app's documents dir
+    final storagePath = "${globalController.appDocDirectoryPath}$corePath";
+    final storageFile = File(storagePath);
 
-  try {
-    // 1) Try app storage override first
-    if (await storageFile.exists()) {
-      final text = await storageFile.readAsString();
+    try {
+      // 1) Try app storage override first
+      if (await storageFile.exists()) {
+        final text = await storageFile.readAsString();
+        final map = jsonDecode(text) as Map<String, dynamic>;
+        return Lesson.fromJson(map);
+      }
+
+      // 2) Fall back to bundled asset
+      final assetPath = "assets$corePath";
+      final text = await rootBundle.loadString(assetPath);
       final map = jsonDecode(text) as Map<String, dynamic>;
       return Lesson.fromJson(map);
+    } on FormatException catch (e) {
+      // JSON malformed
+      throw Exception("Invalid lesson JSON at $corePath: ${e.message}");
+    } on FileSystemException catch (e) {
+      // IO errors (permissions, missing file when expected, etc.)
+      throw Exception(
+        "File error while loading lesson at $storagePath: ${e.message}",
+      );
+    } catch (e) {
+      // Anything else
+      throw Exception("Unexpected error loading lesson $corePath: $e");
     }
-
-    // 2) Fall back to bundled asset
-    final assetPath = "assets$corePath";
-    final text = await rootBundle.loadString(assetPath);
-    final map = jsonDecode(text) as Map<String, dynamic>;
-    return Lesson.fromJson(map);
-  } on FormatException catch (e) {
-    // JSON malformed
-    throw Exception("Invalid lesson JSON at $corePath: ${e.message}");
-  } on FileSystemException catch (e) {
-    // IO errors (permissions, missing file when expected, etc.)
-    throw Exception("File error while loading lesson at $storagePath: ${e.message}");
-  } catch (e) {
-    // Anything else
-    throw Exception("Unexpected error loading lesson $corePath: $e");
   }
-}
 
   String formatSecondsToMinutes(int timeInSeconds) {
     final minutes = (timeInSeconds ~/ 60).toString().padLeft(2, '0');
@@ -96,19 +99,28 @@ Future<Lesson> setCurrentLesson() async {
     return '$minutes:$seconds';
   }
 
-  updateLesssonProgress() {
-    globalController.userProfile.value.currentEnglishLevelProgress++;
-    final lastActive = globalController.userProfile.value.lastActive;
-    final now = DateTime.now();
-    if (!(lastActive.year == now.year &&
-        lastActive.month == now.month &&
-        lastActive.day == now.day)) {
-      globalController.userProfile.value.currentStreak++;
-    }
+  void updateLesssonProgress() {
+    if (globalController.userProfile.value.currentEnglishLevelProgress >= 49) {
+      final currentEnglishLevelIndex = AppData.englishLevel.indexOf(
+        globalController.userProfile.value.currentEnglishLevel,
+      );
+      globalController.userProfile.value.currentEnglishLevel =
+          AppData.englishLevel[currentEnglishLevelIndex + 1];
+      globalController.userProfile.value.currentEnglishLevelProgress = 0;
+    } else {
+      globalController.userProfile.value.currentEnglishLevelProgress++;
+      final lastActive = globalController.userProfile.value.lastActive;
+      final now = DateTime.now();
+      if (!(lastActive.year == now.year &&
+          lastActive.month == now.month &&
+          lastActive.day == now.day)) {
+        globalController.userProfile.value.currentStreak++;
+      }
 
-    globalController.userProfile.value.wordLearned +=
-        currentLessonModel.lessonIntro.vocabulary.length;
-    globalController.userProfile.value.lastActive = DateTime.now();
+      globalController.userProfile.value.wordLearned +=
+          currentLessonModel.lessonIntro.vocabulary.length;
+      globalController.userProfile.value.lastActive = DateTime.now();
+    }
 
     // updating user profile in local storage
     globalController.prefs?.setString(
@@ -153,7 +165,7 @@ Future<Lesson> setCurrentLesson() async {
         if (globalController.transcriptionText.value.isNotEmpty) {
           isContinueButtonEnabled.value = true;
         }
-        if(!isListening){
+        if (!isListening) {
           isListeningLessonAnswer.value = false;
         }
       },

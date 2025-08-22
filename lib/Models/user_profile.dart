@@ -1,6 +1,6 @@
 class UserProfileModel {
   String uid;
-  final String currentEnglishLevel;
+  String currentEnglishLevel;
   int currentEnglishLevelProgress;
   int currentStreak;
   int wordLearned;
