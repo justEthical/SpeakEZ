@@ -245,7 +245,11 @@
           "Hindi": "'आपके बाएँ हाथ की ओर' के लिए कौन सा शब्द है?",
           "Japanese": "「自分の左側」はどれですか？"
         },
-        "options": ["Left", "Right", "Between"],
+        "options": [
+          "Left",
+          "Right",
+          "Between"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "ट्रैफिक लाइट पर ___ मुड़ें।",
           "Japanese": "信号で___に曲がってください。"
         },
-        "options": ["straight", "right", "between"],
+        "options": [
+          "straight",
+          "right",
+          "between"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "'पास' का मतलब है...",
           "Japanese": "「近い」はどういう意味？"
         },
-        "options": ["far away", "close", "opposite"],
+        "options": [
+          "far away",
+          "close",
+          "opposite"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "ज़ेब्रा क्रॉसिंग पर आप क्या करते हैं?",
           "Japanese": "横断歩道で何をしますか？"
         },
-        "options": ["Turn", "Stop", "Cross"],
+        "options": [
+          "Turn",
+          "Stop",
+          "Cross"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "पार्क स्कूल के सामने है यानी वह उसी ओर है।",
           "Japanese": "公園が学校の向かいなら同じ側にありますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 1
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "बैंक डाकघर के ___ है।",
           "Japanese": "銀行は郵便局の___です。"
         },
-        "options": ["near", "far", "opposite"],
+        "options": [
+          "near",
+          "far",
+          "opposite"
+        ],
         "answer": 0
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "दुकान ___ पर है।",
           "Japanese": "お店は___にあります。"
         },
-        "options": ["corner", "left", "between"],
+        "options": [
+          "corner",
+          "left",
+          "between"
+        ],
         "answer": 0
       },
       {
@@ -324,8 +351,24 @@
           "Hindi": "[to, how, I, get, do, the, library] को सही क्रम में लगाएं।",
           "Japanese": "[to, how, I, get, do, the, library]を並べ替えましょう。"
         },
-        "options": ["to", "how", "I", "get", "do", "the", "library"],
-        "answer": ["How", "do", "I", "get", "to", "the", "library"]
+        "options": [
+          "to",
+          "how",
+          "I",
+          "get",
+          "do",
+          "the",
+          "library"
+        ],
+        "answer": [
+          "How",
+          "do",
+          "I",
+          "get",
+          "to",
+          "the",
+          "library"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +378,11 @@
           "Hindi": "फार्मेसी सुपरमार्केट के ___ है।",
           "Japanese": "薬局はスーパーの___です。"
         },
-        "options": ["opposite", "next to", "between"],
+        "options": [
+          "opposite",
+          "next to",
+          "between"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +393,103 @@
           "Hindi": "[cross, street, the, zebra, at, crossing] को सही क्रम में लगाएं।",
           "Japanese": "[cross, street, the, zebra, at, crossing]を並べ替えましょう。"
         },
-        "options": ["cross", "street", "the", "zebra", "at", "crossing"],
-        "answer": ["Cross", "the", "street", "at", "zebra", "crossing"]
+        "options": [
+          "cross",
+          "street",
+          "the",
+          "zebra",
+          "at",
+          "crossing"
+        ],
+        "answer": [
+          "Cross",
+          "the",
+          "street",
+          "at",
+          "zebra",
+          "crossing"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where should you turn? (Audio: 'Turn left at the corner.')",
+        "question": "Where should you turn?",
         "audio_text": "Turn left at the corner.",
         "question_translation": {
           "Hindi": "आपको कहाँ मुड़ना चाहिए?",
           "Japanese": "どこで曲がりますか？"
         },
-        "options": ["Left", "Right", "Straight"],
+        "options": [
+          "Left",
+          "Right",
+          "Straight"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What should you do at the traffic light? (Audio: 'Turn right at the traffic light.')",
+        "question": "What should you do at the traffic light?",
         "audio_text": "Turn right at the traffic light.",
         "question_translation": {
           "Hindi": "ट्रैफिक लाइट पर आपको क्या करना चाहिए?",
           "Japanese": "信号でどうしますか？"
         },
-        "options": ["Go straight", "Turn left", "Turn right"],
+        "options": [
+          "Go straight",
+          "Turn left",
+          "Turn right"
+        ],
         "answer": 2
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do you do at the zebra crossing? (Audio: 'Cross the street at the zebra crossing.')",
+        "question": "What do you do at the zebra crossing?",
         "audio_text": "Cross the street at the zebra crossing.",
         "question_translation": {
           "Hindi": "ज़ेब्रा क्रॉसिंग पर आप क्या करते हैं?",
           "Japanese": "横断歩道で何をしますか？"
         },
-        "options": ["Turn", "Cross", "Stop"],
+        "options": [
+          "Turn",
+          "Cross",
+          "Stop"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Where is the pharmacy? (Audio: 'The pharmacy is next to the supermarket.')",
+        "question": "Where is the pharmacy?",
         "audio_text": "The pharmacy is next to the supermarket.",
         "question_translation": {
           "Hindi": "फार्मेसी कहाँ है?",
           "Japanese": "薬局はどこにありますか？"
         },
-        "options": ["Next to the supermarket", "Far from the supermarket", "On the corner"],
+        "options": [
+          "Next to the supermarket",
+          "Far from the supermarket",
+          "On the corner"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Where is the park? (Audio: 'The park is opposite the school.')",
+        "question": "Where is the park?",
         "audio_text": "The park is opposite the school.",
         "question_translation": {
           "Hindi": "पार्क कहाँ है?",
           "Japanese": "公園はどこにありますか？"
         },
-        "options": ["Next to the school", "Opposite the school", "Between two banks"],
+        "options": [
+          "Next to the school",
+          "Opposite the school",
+          "Between two banks"
+        ],
         "answer": 1
       }
     ],

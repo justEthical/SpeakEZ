@@ -245,7 +245,11 @@
           "Hindi": "आप चीज़ें खरीदने के लिए क्या इस्तेमाल करते हैं?",
           "Japanese": "物を買うのに使うものは何ですか？"
         },
-        "options": ["money", "bag", "note"],
+        "options": [
+          "money",
+          "bag",
+          "note"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "उसकी जेब में कई ___ हैं।",
           "Japanese": "彼女のポケットにはたくさんの___があります。"
         },
-        "options": ["notes", "coins", "prices"],
+        "options": [
+          "notes",
+          "coins",
+          "prices"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "कागज के पैसे को क्या कहते हैं?",
           "Japanese": "紙のお金は何と言いますか？"
         },
-        "options": ["coin", "cost", "note"],
+        "options": [
+          "coin",
+          "cost",
+          "note"
+        ],
         "answer": 2
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "अगर किसी चीज़ की कीमत बहुत ज़्यादा है तो वह...",
           "Japanese": "値段が高いときは..."
         },
-        "options": ["cheap", "expensive", "wallet"],
+        "options": [
+          "cheap",
+          "expensive",
+          "wallet"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "हम दुकान से चीज़ें खरीदते हैं।",
           "Japanese": "お店で物を買いますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरे बटुए में कुछ ___ हैं।",
           "Japanese": "財布に___があります。"
         },
-        "options": ["price", "money", "bag"],
+        "options": [
+          "price",
+          "money",
+          "bag"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "वह दस रुपये का ___ देता है।",
           "Japanese": "彼は10ルピーの___を渡します。"
         },
-        "options": ["note", "coin", "price"],
+        "options": [
+          "note",
+          "coin",
+          "price"
+        ],
         "answer": 0
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[buy, from, we, the, shop, milk] को सही क्रम में लगाएं।",
           "Japanese": "[buy, from, we, the, shop, milk]を並べ替えましょう。"
         },
-        "options": ["buy", "from", "we", "the", "shop", "milk"],
-        "answer": ["We", "buy", "milk", "from", "the", "shop"]
+        "options": [
+          "buy",
+          "from",
+          "we",
+          "the",
+          "shop",
+          "milk"
+        ],
+        "answer": [
+          "We",
+          "buy",
+          "milk",
+          "from",
+          "the",
+          "shop"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "बाजार में केले ___ हैं।",
           "Japanese": "バナナは市場で___です。"
         },
-        "options": ["expensive", "cheap", "wallet"],
+        "options": [
+          "expensive",
+          "cheap",
+          "wallet"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +391,101 @@
           "Hindi": "[how, much, this, does, cost] को सही क्रम में लगाएं।",
           "Japanese": "[how, much, this, does, cost]を並べ替えましょう。"
         },
-        "options": ["how", "much", "this", "does", "cost"],
-        "answer": ["How", "much", "does", "this", "cost"]
+        "options": [
+          "how",
+          "much",
+          "this",
+          "does",
+          "cost"
+        ],
+        "answer": [
+          "How",
+          "much",
+          "does",
+          "this",
+          "cost"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What is in my wallet? (Audio: 'I have some money in my wallet.')",
+        "question": "What is in my wallet?",
         "audio_text": "I have some money in my wallet.",
         "question_translation": {
           "Hindi": "मेरे बटुए में क्या है?",
           "Japanese": "財布に何がありますか？"
         },
-        "options": ["Price", "Money", "Note"],
+        "options": [
+          "Price",
+          "Money",
+          "Note"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What does she have in her pocket? (Audio: 'She has many coins in her pocket.')",
+        "question": "What does she have in her pocket?",
         "audio_text": "She has many coins in her pocket.",
         "question_translation": {
           "Hindi": "उसकी जेब में क्या है?",
           "Japanese": "彼女のポケットには何がありますか？"
         },
-        "options": ["Coins", "Notes", "Cost"],
+        "options": [
+          "Coins",
+          "Notes",
+          "Cost"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What does he give? (Audio: 'He gives a ten rupee note.')",
+        "question": "What does he give?",
         "audio_text": "He gives a ten rupee note.",
         "question_translation": {
           "Hindi": "वह क्या देता है?",
           "Japanese": "彼は何を渡しますか？"
         },
-        "options": ["Note", "Coin", "Wallet"],
+        "options": [
+          "Note",
+          "Coin",
+          "Wallet"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Where are bananas cheap? (Audio: 'Bananas are cheap at the market.')",
+        "question": "Where are bananas cheap?",
         "audio_text": "Bananas are cheap at the market.",
         "question_translation": {
           "Hindi": "केले कहाँ सस्ते हैं?",
           "Japanese": "バナナはどこで安いですか？"
         },
-        "options": ["Shop", "Market", "Bank"],
+        "options": [
+          "Shop",
+          "Market",
+          "Bank"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What does the shopkeeper sell? (Audio: 'The shopkeeper sells fruits.')",
+        "question": "What does the shopkeeper sell?",
         "audio_text": "The shopkeeper sells fruits.",
         "question_translation": {
           "Hindi": "दुकानदार क्या बेचता है?",
           "Japanese": "店主は何を売っていますか？"
         },
-        "options": ["Fruits", "Wallets", "Notes"],
+        "options": [
+          "Fruits",
+          "Wallets",
+          "Notes"
+        ],
         "answer": 0
       }
     ],

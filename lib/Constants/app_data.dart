@@ -19,6 +19,7 @@
       "Animals (pets & farm)",
       "Wild Animals",
       "Fruits & Vegetables",
+      "Body Parts",
       "Hobbies & Free-time Activities",
       "Sports",
       "Daily Routine",
@@ -51,8 +52,7 @@
       "Reading a Simple Map",
       "Public Transport",
       "Asking for Help",
-      "Saying Goodbye & Good Luck"
-    ], 
+    ],
     "A2": [
       "Personal Information",
       "Describing Feelings & Emotions",
@@ -103,7 +103,7 @@
       "Talking About the Environment",
       "Giving Directions (more complex)",
       "Public Services (post office, police, bank)",
-      "Describing Accidents & Emergencies"
+      "Describing Accidents & Emergencies",
     ],
     "B1": [
       "Describing Life Experiences",
@@ -156,7 +156,7 @@
       "Writing Formal & Informal Emails",
       "Explaining Procedures (step by step)",
       "Talking About Art, Music, & Literature",
-      "Making Arrangements for Meetings"
+      "Making Arrangements for Meetings",
     ],
     "B2": [
       "Debating Social Issues",
@@ -260,7 +260,7 @@
       "Facilitating Group Discussions",
       "Critiquing Academic Literature",
       "Understanding Patent and Copyright Law",
-      "Discussing International Development"
+      "Discussing International Development",
     ],
     "C2": [
       "Analyzing Philosophical Texts",
@@ -312,7 +312,9 @@
       "Developing Educational Curricula",
       "Interpreting International Law",
       "Writing Opinion Pieces for National Media",
-      "Engaging in High-level Mediation"
-    ]
-  }; 
-  }
+      "Engaging in High-level Mediation",
+    ],
+  };
+
+  static List<String> englishLevel = ["A1", "A2", "B1", "B2", "C1", "C2"];
+}

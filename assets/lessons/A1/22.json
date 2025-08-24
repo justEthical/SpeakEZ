@@ -245,7 +245,11 @@
           "Hindi": "कौन सा यंत्र समय दिखाता है?",
           "Japanese": "どの道具が時間を教えてくれますか？"
         },
-        "options": ["Clock", "Table", "Chair"],
+        "options": [
+          "Clock",
+          "Table",
+          "Chair"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "एक ___ में साठ मिनट होते हैं।",
           "Japanese": "1___は60分です。"
         },
-        "options": ["minute", "hour", "morning"],
+        "options": [
+          "minute",
+          "hour",
+          "morning"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "समय जानने के लिए आप अपने हाथ में क्या पहनते हैं?",
           "Japanese": "時間を見るために手首につけるものは？"
         },
-        "options": ["Watch", "Pencil", "Ring"],
+        "options": [
+          "Watch",
+          "Pencil",
+          "Ring"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "'साढ़े आठ' का क्या मतलब है?",
           "Japanese": "「half past eight」は何時ですか？"
         },
-        "options": ["8:15", "8:30", "9:30"],
+        "options": [
+          "8:15",
+          "8:30",
+          "9:30"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "'पौने दस' का मतलब 9:45 होता है।",
           "Japanese": "「quarter to ten」は9時45分の意味です。"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "यह ___ बजे हैं।",
           "Japanese": "今は___時です。"
         },
-        "options": ["seven", "eight", "nine"],
+        "options": [
+          "seven",
+          "eight",
+          "nine"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "यह नौ ___ बजे हैं।",
           "Japanese": "今は9時___です。"
         },
-        "options": ["half", "quarter", "minute"],
+        "options": [
+          "half",
+          "quarter",
+          "minute"
+        ],
         "answer": 0
       },
       {
@@ -324,8 +351,18 @@
           "Hindi": "[what, is, it, time] को सही क्रम में लगाएं।",
           "Japanese": "[what, is, it, time]を並べ替えましょう。"
         },
-        "options": ["what", "is", "it", "time"],
-        "answer": ["What", "time", "is", "it"]
+        "options": [
+          "what",
+          "is",
+          "it",
+          "time"
+        ],
+        "answer": [
+          "What",
+          "time",
+          "is",
+          "it"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +372,11 @@
           "Hindi": "स्कूल ___ बजे शुरू होता है।",
           "Japanese": "学校は___時に始まります。"
         },
-        "options": ["seven", "eight", "nine"],
+        "options": [
+          "seven",
+          "eight",
+          "nine"
+        ],
         "answer": 1
       },
       {
@@ -346,8 +387,20 @@
           "Hindi": "[it, is, quarter, past, seven] को सही क्रम में लगाएं।",
           "Japanese": "[it, is, quarter, past, seven]を並べ替えましょう。"
         },
-        "options": ["it", "is", "quarter", "past", "seven"],
-        "answer": ["It", "is", "quarter", "past", "seven"]
+        "options": [
+          "it",
+          "is",
+          "quarter",
+          "past",
+          "seven"
+        ],
+        "answer": [
+          "It",
+          "is",
+          "quarter",
+          "past",
+          "seven"
+        ]
       }
     ],
     "listening": [
@@ -360,7 +413,11 @@
           "Hindi": "कितने बजे हैं?",
           "Japanese": "今は何時ですか？"
         },
-        "options": ["6:30", "7:30", "5:30"],
+        "options": [
+          "6:30",
+          "7:30",
+          "5:30"
+        ],
         "answer": 0
       },
       {
@@ -372,7 +429,11 @@
           "Hindi": "वक्ता कौन सा समय बता रहा है?",
           "Japanese": "話者は何時と言っていますか？"
         },
-        "options": ["9:15", "8:45", "9:45"],
+        "options": [
+          "9:15",
+          "8:45",
+          "9:45"
+        ],
         "answer": 1
       },
       {
@@ -384,19 +445,27 @@
           "Hindi": "'बजे' का क्या मतलब है?",
           "Japanese": "「o’clock」はどういう意味ですか？"
         },
-        "options": ["Exact hour", "Half hour", "Quarter hour"],
+        "options": [
+          "Exact hour",
+          "Half hour",
+          "Quarter hour"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "When does school start? ",
+        "question": "When does school start?",
         "audio_text": "School starts at eight o’clock.",
         "question_translation": {
           "Hindi": "स्कूल कब शुरू होता है?",
           "Japanese": "学校はいつ始まりますか？"
         },
-        "options": ["Nine o’clock", "Seven o’clock", "Eight o’clock"],
+        "options": [
+          "Nine o’clock",
+          "Seven o’clock",
+          "Eight o’clock"
+        ],
         "answer": 2
       },
       {
@@ -408,7 +477,11 @@
           "Hindi": "कितने बजे हैं?",
           "Japanese": "今は何時ですか？"
         },
-        "options": ["7:15", "7:45", "8:15"],
+        "options": [
+          "7:15",
+          "7:45",
+          "8:15"
+        ],
         "answer": 0
       }
     ],

@@ -245,7 +245,11 @@
           "Hindi": "खुशियों के लिए खास दिन को क्या कहते हैं?",
           "Japanese": "お祝いの日を何と言いますか？"
         },
-        "options": ["festival", "gift", "cake"],
+        "options": [
+          "festival",
+          "gift",
+          "cake"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम जन्मदिन पर ___ काटते हैं।",
           "Japanese": "誕生日に___を切ります。"
         },
-        "options": ["cake", "gift", "party"],
+        "options": [
+          "cake",
+          "gift",
+          "party"
+        ],
         "answer": 0
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "पार्टी में बुलाने के लिए क्या भेजते हैं?",
           "Japanese": "パーティーに友達を呼ぶために送るものは？"
         },
-        "options": ["gift", "invitation", "fireworks"],
+        "options": [
+          "gift",
+          "invitation",
+          "fireworks"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "नए साल पर हम क्या करते हैं?",
           "Japanese": "新年に何をしますか？"
         },
-        "options": ["eat cake", "give gifts", "watch fireworks"],
+        "options": [
+          "eat cake",
+          "give gifts",
+          "watch fireworks"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या आतिशबाज़ी खुशियों के लिए इस्तेमाल होती है?",
           "Japanese": "花火はお祝いに使いますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरा ___ अगस्त में है।",
           "Japanese": "私の___は8月です。"
         },
-        "options": ["gift", "birthday", "party"],
+        "options": [
+          "gift",
+          "birthday",
+          "party"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "हम घर को लाइट्स से ___।",
           "Japanese": "私たちは家をライトで___。"
         },
-        "options": ["eat", "decorate", "invite"],
+        "options": [
+          "eat",
+          "decorate",
+          "invite"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,20 @@
           "Hindi": "[with, we, gifts, give, love] को सही क्रम में लगाएं।",
           "Japanese": "[with, we, gifts, give, love]を並べ替えましょう。"
         },
-        "options": ["with", "we", "gifts", "give", "love"],
-        "answer": ["We", "give", "gifts", "with", "love"]
+        "options": [
+          "with",
+          "we",
+          "gifts",
+          "give",
+          "love"
+        ],
+        "answer": [
+          "We",
+          "give",
+          "gifts",
+          "with",
+          "love"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +374,11 @@
           "Hindi": "हम होली ___ से खेलकर मनाते हैं।",
           "Japanese": "私たちは___で遊んでホーリーを祝います。"
         },
-        "options": ["lights", "colors", "gifts"],
+        "options": [
+          "lights",
+          "colors",
+          "gifts"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +389,103 @@
           "Hindi": "[a, party, had, we, Christmas, for] को सही क्रम में लगाएं।",
           "Japanese": "[a, party, had, we, Christmas, for]を並べ替えましょう。"
         },
-        "options": ["a", "party", "had", "we", "Christmas", "for"],
-        "answer": ["We", "had", "a", "party", "for", "Christmas"]
+        "options": [
+          "a",
+          "party",
+          "had",
+          "we",
+          "Christmas",
+          "for"
+        ],
+        "answer": [
+          "We",
+          "had",
+          "a",
+          "party",
+          "for",
+          "Christmas"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What is Diwali? (Audio: 'Diwali is a famous festival in India.')",
+        "question": "What is Diwali?",
         "audio_text": "Diwali is a famous festival in India.",
         "question_translation": {
           "Hindi": "दिवाली क्या है?",
           "Japanese": "ディワリは何ですか？"
         },
-        "options": ["cake", "birthday", "festival"],
+        "options": [
+          "cake",
+          "birthday",
+          "festival"
+        ],
         "answer": 2
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What do we cut on birthdays? (Audio: 'We cut a cake on my birthday.')",
+        "question": "What do we cut on birthdays?",
         "audio_text": "We cut a cake on my birthday.",
         "question_translation": {
           "Hindi": "हम जन्मदिन पर क्या काटते हैं?",
           "Japanese": "誕生日に何を切りますか？"
         },
-        "options": ["cake", "gift", "party"],
+        "options": [
+          "cake",
+          "gift",
+          "party"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do we watch on New Year? (Audio: 'We watch fireworks on New Year.')",
+        "question": "What do we watch on New Year?",
         "audio_text": "We watch fireworks on New Year.",
         "question_translation": {
           "Hindi": "नए साल पर हम क्या देखते हैं?",
           "Japanese": "新年に何を見ますか？"
         },
-        "options": ["fireworks", "cake", "gifts"],
+        "options": [
+          "fireworks",
+          "cake",
+          "gifts"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do we do with the house? (Audio: 'We decorate the house with lights.')",
+        "question": "What do we do with the house?",
         "audio_text": "We decorate the house with lights.",
         "question_translation": {
           "Hindi": "हम घर के साथ क्या करते हैं?",
           "Japanese": "家に何をしますか？"
         },
-        "options": ["invite", "decorate", "celebrate"],
+        "options": [
+          "invite",
+          "decorate",
+          "celebrate"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Who did I give a gift to? (Audio: 'I gave my friend a gift on her birthday.')",
+        "question": "Who did I give a gift to?",
         "audio_text": "I gave my friend a gift on her birthday.",
         "question_translation": {
           "Hindi": "मैंने किसे उपहार दिया?",
           "Japanese": "私は誰にプレゼントをあげましたか？"
         },
-        "options": ["friend", "teacher", "parent"],
+        "options": [
+          "friend",
+          "teacher",
+          "parent"
+        ],
         "answer": 0
       }
     ],

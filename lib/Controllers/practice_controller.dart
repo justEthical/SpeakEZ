@@ -27,7 +27,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
   
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 1 : 10;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 2 : 10;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -132,7 +132,7 @@ class PracticeController extends GetxController {
 
   getConversationAiFeedbackResult() async {
     final pastConversation = getPastConversation();
-    final res = await NetworkService.getConversationAiFeedbackResult(
+    final res = await NetworkService.getConversationAiFeedbackResultFromGroq(
       pastConversation,
     );
     if (res != null) {
@@ -179,8 +179,8 @@ class PracticeController extends GetxController {
   }
 
   getAiResponse() async {
-    var response = await NetworkService.getAiReposne(
-      globalController.transcriptionText.value,
+    var response = await NetworkService.getAiResponseFromGroq(
+      userPrompt:  globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
       pastConversation: getPastConversation(),
     );

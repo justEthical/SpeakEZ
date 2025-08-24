@@ -245,7 +245,11 @@
           "Hindi": "छूने पर कैसा लगता है उसे क्या कहते हैं?",
           "Japanese": "触った時の感触は何と言いますか？"
         },
-        "options": ["weight", "texture", "material"],
+        "options": [
+          "weight",
+          "texture",
+          "material"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "गेंद का आकार ___ है।",
           "Japanese": "ボールは___形です。"
         },
-        "options": ["round", "square", "short"],
+        "options": [
+          "round",
+          "square",
+          "short"
+        ],
         "answer": 0
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "निम्न में से रंग कौन सा है?",
           "Japanese": "次のうち色はどれですか？"
         },
-        "options": ["blue", "long", "wood"],
+        "options": [
+          "blue",
+          "long",
+          "wood"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "जो आप देख या छू सकते हैं वह क्या है?",
           "Japanese": "見たり触ったりできるものは何ですか？"
         },
-        "options": ["object", "material", "size"],
+        "options": [
+          "object",
+          "material",
+          "size"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या कुर्सी लकड़ी की बनी हो सकती है?",
           "Japanese": "椅子は木でできていますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "यह बैग बहुत ___ है।",
           "Japanese": "このバッグはとても___です。"
         },
-        "options": ["long", "light", "rough"],
+        "options": [
+          "long",
+          "light",
+          "rough"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मेरा पेंसिल ___ है।",
           "Japanese": "私の鉛筆は___です。"
         },
-        "options": ["short", "big", "new"],
+        "options": [
+          "short",
+          "big",
+          "new"
+        ],
         "answer": 0
       },
       {
@@ -335,7 +362,11 @@
           "Hindi": "दीवार की बनावट ___ है।",
           "Japanese": "壁は___手触りです。"
         },
-        "options": ["smooth", "rough", "light"],
+        "options": [
+          "smooth",
+          "rough",
+          "light"
+        ],
         "answer": 1
       },
       {
@@ -354,61 +385,81 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What is the color of the apple? (Audio: 'The apple is red in color.')",
+        "question": "What is the color of the apple?",
         "audio_text": "The apple is red in color.",
         "question_translation": {
           "Hindi": "सेब का रंग क्या है?",
           "Japanese": "りんごは何色ですか？"
         },
-        "options": ["red", "green", "blue"],
+        "options": [
+          "red",
+          "green",
+          "blue"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What is made of wood? (Audio: 'The table is made of wood.')",
+        "question": "What is made of wood?",
         "audio_text": "The table is made of wood.",
         "question_translation": {
           "Hindi": "लकड़ी से क्या बना है?",
           "Japanese": "木でできているものは何ですか？"
         },
-        "options": ["pencil", "table", "wall"],
+        "options": [
+          "pencil",
+          "table",
+          "wall"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "How is the wall? (Audio: 'The wall has a rough texture.')",
+        "question": "How is the wall?",
         "audio_text": "The wall has a rough texture.",
         "question_translation": {
           "Hindi": "दीवार कैसी है?",
           "Japanese": "壁はどんな感じですか？"
         },
-        "options": ["smooth", "rough", "light"],
+        "options": [
+          "smooth",
+          "rough",
+          "light"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "How is the bag? (Audio: 'The bag is very light.')",
+        "question": "How is the bag?",
         "audio_text": "The bag is very light.",
         "question_translation": {
           "Hindi": "बैग कैसा है?",
           "Japanese": "バッグはどうですか？"
         },
-        "options": ["heavy", "short", "light"],
+        "options": [
+          "heavy",
+          "short",
+          "light"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What shape does the ball have? (Audio: 'A ball has a round shape.')",
+        "question": "What shape does the ball have?",
         "audio_text": "A ball has a round shape.",
         "question_translation": {
           "Hindi": "गेंद का आकार कैसा है?",
           "Japanese": "ボールはどんな形ですか？"
         },
-        "options": ["square", "long", "round"],
+        "options": [
+          "square",
+          "long",
+          "round"
+        ],
         "answer": 2
       }
     ],

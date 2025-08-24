@@ -245,7 +245,11 @@
           "Hindi": "क्या करना है इसकी सोच को क्या कहते हैं?",
           "Japanese": "何をするかの考えは何ですか？"
         },
-        "options": ["place", "plan", "meet"],
+        "options": [
+          "place",
+          "plan",
+          "meet"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "चलो कैफे में ___।",
           "Japanese": "カフェで___しましょう。"
         },
-        "options": ["invite", "meet", "cancel"],
+        "options": [
+          "invite",
+          "meet",
+          "cancel"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "जब आप किसी को बुलाते हैं तो क्या करते हैं?",
           "Japanese": "誰かを呼ぶとき何をしますか？"
         },
-        "options": ["invite", "confirm", "suggest"],
+        "options": [
+          "invite",
+          "confirm",
+          "suggest"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "अगर आप नहीं जा सकते तो क्या करना होता है?",
           "Japanese": "行けない時は何をしますか？"
         },
-        "options": ["plan", "cancel", "meet"],
+        "options": [
+          "plan",
+          "cancel",
+          "meet"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या अपॉइंटमेंट मिलने का तय समय होता है?",
           "Japanese": "予約は会うために決めた時間ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "क्या आप समय ___ सकते हैं?",
           "Japanese": "時間を___できますか？"
         },
-        "options": ["confirm", "invite", "suggest"],
+        "options": [
+          "confirm",
+          "invite",
+          "suggest"
+        ],
         "answer": 0
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मुझे हमारी मीटिंग ___ करनी है।",
           "Japanese": "私は会う約束を___しないといけません。"
         },
-        "options": ["plan", "cancel", "place"],
+        "options": [
+          "plan",
+          "cancel",
+          "place"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[we, zoo, plan, visit, to, the] को सही क्रम में लगाएं।",
           "Japanese": "[we, zoo, plan, visit, to, the]を並べ替えましょう。"
         },
-        "options": ["we", "zoo", "plan", "visit", "to", "the"],
-        "answer": ["We", "plan", "to", "visit", "the", "zoo"]
+        "options": [
+          "we",
+          "zoo",
+          "plan",
+          "visit",
+          "to",
+          "the"
+        ],
+        "answer": [
+          "We",
+          "plan",
+          "to",
+          "visit",
+          "the",
+          "zoo"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "क्या आप कोई अच्छा रेस्टोरेंट ___ सकते हैं?",
           "Japanese": "良いレストランを___できますか？"
         },
-        "options": ["suggest", "meet", "invite"],
+        "options": [
+          "suggest",
+          "meet",
+          "invite"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +391,99 @@
           "Hindi": "[study, together, can, we] को सही क्रम में लगाएं।",
           "Japanese": "[study, together, can, we]を並べ替えましょう。"
         },
-        "options": ["study", "together", "can", "we"],
-        "answer": ["We", "can", "study", "together"]
+        "options": [
+          "study",
+          "together",
+          "can",
+          "we"
+        ],
+        "answer": [
+          "We",
+          "can",
+          "study",
+          "together"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What do we have? (Audio: 'We have a plan to visit the zoo.')",
+        "question": "What do we have?",
         "audio_text": "We have a plan to visit the zoo.",
         "question_translation": {
           "Hindi": "हमारे पास क्या है?",
           "Japanese": "私たちは何を持っていますか？"
         },
-        "options": ["a place", "a plan", "an appointment"],
+        "options": [
+          "a place",
+          "a plan",
+          "an appointment"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Where shall we meet? (Audio: 'Let's meet at the park.')",
+        "question": "Where shall we meet?",
         "audio_text": "Let's meet at the park.",
         "question_translation": {
           "Hindi": "हम कहाँ मिलें?",
           "Japanese": "どこで会いましょうか？"
         },
-        "options": ["school", "park", "restaurant"],
+        "options": [
+          "school",
+          "park",
+          "restaurant"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Who do I invite? (Audio: 'I invite my friends to my house.')",
+        "question": "Who do I invite?",
         "audio_text": "I invite my friends to my house.",
         "question_translation": {
           "Hindi": "मैं किसे बुलाता हूँ?",
           "Japanese": "私は誰を招待しますか？"
         },
-        "options": ["family", "friends", "teacher"],
+        "options": [
+          "family",
+          "friends",
+          "teacher"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do we do together? (Audio: 'We can study together.')",
+        "question": "What do we do together?",
         "audio_text": "We can study together.",
         "question_translation": {
           "Hindi": "हम साथ में क्या कर सकते हैं?",
           "Japanese": "私たちは一緒に何ができますか？"
         },
-        "options": ["play", "read", "study"],
+        "options": [
+          "play",
+          "read",
+          "study"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What happens if you can't go? (Audio: 'I have to cancel our meeting.')",
+        "question": "What happens if you can't go?",
         "audio_text": "I have to cancel our meeting.",
         "question_translation": {
           "Hindi": "अगर आप नहीं जा सकते तो क्या करना पड़ता है?",
           "Japanese": "行けない時は何をしますか？"
         },
-        "options": ["meet", "plan", "cancel"],
+        "options": [
+          "meet",
+          "plan",
+          "cancel"
+        ],
         "answer": 2
       }
     ],

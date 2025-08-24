@@ -245,7 +245,11 @@
           "Hindi": "बच्चे पार्क में कहाँ खेलते हैं?",
           "Japanese": "子どもたちは公園のどこで遊びますか？"
         },
-        "options": ["bench", "playground", "lake"],
+        "options": [
+          "bench",
+          "playground",
+          "lake"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम ___ पर बैठते हैं।",
           "Japanese": "私たちは___の上に座ります。"
         },
-        "options": ["lake", "grass", "tree"],
+        "options": [
+          "lake",
+          "grass",
+          "tree"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "रस्सी से लटकने वाली सीट को क्या कहते हैं?",
           "Japanese": "ロープで吊るされた座る遊具は何ですか？"
         },
-        "options": ["swing", "slide", "bench"],
+        "options": [
+          "swing",
+          "slide",
+          "bench"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "पार्क में बतख कहाँ मिलती हैं?",
           "Japanese": "公園のどこにカモがいますか？"
         },
-        "options": ["lake", "bench", "slide"],
+        "options": [
+          "lake",
+          "bench",
+          "slide"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या पिकनिक का मतलब है बाहर खाना खाना?",
           "Japanese": "ピクニックは外で食べる食事ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "बच्चों को ___ पसंद है।",
           "Japanese": "子どもたちは___が好きです。"
         },
-        "options": ["slide", "bench", "lake"],
+        "options": [
+          "slide",
+          "bench",
+          "lake"
+        ],
         "answer": 0
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "हम ___ में चलते हैं।",
           "Japanese": "私たちは___を歩きます。"
         },
-        "options": ["tree", "lake", "park"],
+        "options": [
+          "tree",
+          "lake",
+          "park"
+        ],
         "answer": 2
       },
       {
@@ -335,7 +362,11 @@
           "Hindi": "वे ___ पर बैठते हैं।",
           "Japanese": "彼らは___に座ります。"
         },
-        "options": ["bench", "tree", "swing"],
+        "options": [
+          "bench",
+          "tree",
+          "swing"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +377,105 @@
           "Hindi": "[have, a, we, picnic, park, the, in] को सही क्रम में लगाएं।",
           "Japanese": "[have, a, we, picnic, park, the, in]を並べ替えましょう。"
         },
-        "options": ["have", "a", "we", "picnic", "park", "the", "in"],
-        "answer": ["We", "have", "a", "picnic", "in", "the", "park"]
+        "options": [
+          "have",
+          "a",
+          "we",
+          "picnic",
+          "park",
+          "the",
+          "in"
+        ],
+        "answer": [
+          "We",
+          "have",
+          "a",
+          "picnic",
+          "in",
+          "the",
+          "park"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where do we walk every morning? (Audio: 'We walk in the park every morning.')",
+        "question": "Where do we walk every morning?",
         "audio_text": "We walk in the park every morning.",
         "question_translation": {
           "Hindi": "हम हर सुबह कहाँ घूमते हैं?",
           "Japanese": "私たちは毎朝どこを歩きますか？"
         },
-        "options": ["playground", "park", "lake"],
+        "options": [
+          "playground",
+          "park",
+          "lake"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What is she on? (Audio: 'She is on the swing.')",
+        "question": "What is she on?",
         "audio_text": "She is on the swing.",
         "question_translation": {
           "Hindi": "वह किस पर है?",
           "Japanese": "彼女は何に乗っていますか？"
         },
-        "options": ["bench", "slide", "swing"],
+        "options": [
+          "bench",
+          "slide",
+          "swing"
+        ],
         "answer": 2
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Where are there ducks? (Audio: 'There are ducks in the lake.')",
+        "question": "Where are there ducks?",
         "audio_text": "There are ducks in the lake.",
         "question_translation": {
           "Hindi": "बतख कहाँ हैं?",
           "Japanese": "カモはどこにいますか？"
         },
-        "options": ["grass", "lake", "slide"],
+        "options": [
+          "grass",
+          "lake",
+          "slide"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do children love? (Audio: 'Children love the slide.')",
+        "question": "What do children love?",
         "audio_text": "Children love the slide.",
         "question_translation": {
           "Hindi": "बच्चों को क्या पसंद है?",
           "Japanese": "子どもたちは何が好きですか？"
         },
-        "options": ["lake", "tree", "slide"],
+        "options": [
+          "lake",
+          "tree",
+          "slide"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What do we do in the park? (Audio: 'We have a picnic in the park.')",
+        "question": "What do we do in the park?",
         "audio_text": "We have a picnic in the park.",
         "question_translation": {
           "Hindi": "हम पार्क में क्या करते हैं?",
           "Japanese": "私たちは公園で何をしますか？"
         },
-        "options": ["walk", "picnic", "swing"],
+        "options": [
+          "walk",
+          "picnic",
+          "swing"
+        ],
         "answer": 1
       }
     ],
