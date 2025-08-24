@@ -245,7 +245,11 @@
           "Hindi": "ट्रेन में यात्रा करने के लिए क्या चाहिए?",
           "Japanese": "電車に乗るには何が必要ですか？"
         },
-        "options": ["fare", "ticket", "platform"],
+        "options": [
+          "fare",
+          "ticket",
+          "platform"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "मेट्रो ___ और साफ है।",
           "Japanese": "地下鉄は___できれいです。"
         },
-        "options": ["slow", "crowded", "fast"],
+        "options": [
+          "slow",
+          "crowded",
+          "fast"
+        ],
         "answer": 2
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "बस या ट्रेन के लिए कहाँ इंतजार करते हैं?",
           "Japanese": "バスや電車をどこで待ちますか？"
         },
-        "options": ["platform", "station", "route"],
+        "options": [
+          "platform",
+          "station",
+          "route"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "बस में टिकट कौन देखता है?",
           "Japanese": "バスで切符をチェックする人は？"
         },
-        "options": ["driver", "passenger", "conductor"],
+        "options": [
+          "driver",
+          "passenger",
+          "conductor"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या रूट वह रास्ता है जिससे बस या ट्रेन जाती है?",
           "Japanese": "路線はバスや電車の行き先ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "ट्रेन ___ 3 से जाती है।",
           "Japanese": "電車は___3から出発します。"
         },
-        "options": ["station", "platform", "route"],
+        "options": [
+          "station",
+          "platform",
+          "route"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "बस का ___ कितना है?",
           "Japanese": "バスの___はいくらですか？"
         },
-        "options": ["conductor", "fare", "metro"],
+        "options": [
+          "conductor",
+          "fare",
+          "metro"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[school, bus, to, I, go, by] को सही क्रम में लगाएं।",
           "Japanese": "[school, bus, to, I, go, by]を並べ替えましょう。"
         },
-        "options": ["school", "bus", "to", "I", "go", "by"],
-        "answer": ["I", "go", "to", "school", "by", "bus"]
+        "options": [
+          "school",
+          "bus",
+          "to",
+          "I",
+          "go",
+          "by"
+        ],
+        "answer": [
+          "I",
+          "go",
+          "to",
+          "school",
+          "by",
+          "bus"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "सुबह ___ में भीड़ होती है।",
           "Japanese": "朝___が混んでいます。"
         },
-        "options": ["fare", "metro", "route"],
+        "options": [
+          "fare",
+          "metro",
+          "route"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +391,103 @@
           "Hindi": "[ticket, asked, for, conductor, my, the] को सही क्रम में लगाएं।",
           "Japanese": "[ticket, asked, for, conductor, my, the]を並べ替えましょう。"
         },
-        "options": ["ticket", "asked", "for", "conductor", "my", "the"],
-        "answer": ["The", "conductor", "asked", "for", "my", "ticket"]
+        "options": [
+          "ticket",
+          "asked",
+          "for",
+          "conductor",
+          "my",
+          "the"
+        ],
+        "answer": [
+          "The",
+          "conductor",
+          "asked",
+          "for",
+          "my",
+          "ticket"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What do I take to school? (Audio: 'I take the bus to school.')",
+        "question": "What do I take to school?",
         "audio_text": "I take the bus to school.",
         "question_translation": {
           "Hindi": "मैं स्कूल किससे जाता हूँ?",
           "Japanese": "私は学校へ何で行きますか？"
         },
-        "options": ["train", "bus", "metro"],
+        "options": [
+          "train",
+          "bus",
+          "metro"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "How do we travel to the city? (Audio: 'We travel to the city by train.')",
+        "question": "How do we travel to the city?",
         "audio_text": "We travel to the city by train.",
         "question_translation": {
           "Hindi": "हम शहर कैसे जाते हैं?",
           "Japanese": "私たちは町へどうやって行きますか？"
         },
-        "options": ["bus", "train", "platform"],
+        "options": [
+          "bus",
+          "train",
+          "platform"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What is the fare for the bus? (Audio: 'The fare for the bus is 10 rupees.')",
+        "question": "What is the fare for the bus?",
         "audio_text": "The fare for the bus is 10 rupees.",
         "question_translation": {
           "Hindi": "बस का किराया कितना है?",
           "Japanese": "バスの運賃はいくらですか？"
         },
-        "options": ["10 rupees", "5 rupees", "20 rupees"],
+        "options": [
+          "10 rupees",
+          "5 rupees",
+          "20 rupees"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Who checks the tickets? (Audio: 'The conductor asked for my ticket.')",
+        "question": "Who checks the tickets?",
         "audio_text": "The conductor asked for my ticket.",
         "question_translation": {
           "Hindi": "टिकट कौन देखता है?",
           "Japanese": "誰が切符をチェックしますか？"
         },
-        "options": ["driver", "conductor", "passenger"],
+        "options": [
+          "driver",
+          "conductor",
+          "passenger"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Where do we wait for the bus? (Audio: 'We wait at the bus station.')",
+        "question": "Where do we wait for the bus?",
         "audio_text": "We wait at the bus station.",
         "question_translation": {
           "Hindi": "हम बस का इंतजार कहाँ करते हैं?",
           "Japanese": "私たちはバスをどこで待ちますか？"
         },
-        "options": ["platform", "bus station", "metro"],
+        "options": [
+          "platform",
+          "bus station",
+          "metro"
+        ],
         "answer": 1
       }
     ],

@@ -245,7 +245,11 @@
           "Hindi": "काउंटर पर आपका पैसा कौन लेता है?",
           "Japanese": "レジでお金を受け取るのは誰ですか？"
         },
-        "options": ["cashier", "customer", "manager"],
+        "options": [
+          "cashier",
+          "customer",
+          "manager"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वह रोटी ___ पर रखता है।",
           "Japanese": "彼はパンを___に置きます。"
         },
-        "options": ["cart", "shelf", "queue"],
+        "options": [
+          "cart",
+          "shelf",
+          "queue"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "आप अपनी खरीदारी का भुगतान कहाँ करते हैं?",
           "Japanese": "どこで買い物の支払いをしますか？"
         },
-        "options": ["checkout", "queue", "basket"],
+        "options": [
+          "checkout",
+          "queue",
+          "basket"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "खरीदी हुई चीज़ों की सूची वाली पर्ची को क्या कहते हैं?",
           "Japanese": "買ったものと値段が書かれた紙は何ですか？"
         },
-        "options": ["receipt", "cart", "sale"],
+        "options": [
+          "receipt",
+          "cart",
+          "sale"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या ट्रॉली/कार्ट में पहिए होते हैं?",
           "Japanese": "カートには車輪がありますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "वह ___ रखती है।",
           "Japanese": "彼女は___を取っておきます。"
         },
-        "options": ["sale", "cart", "receipt"],
+        "options": [
+          "sale",
+          "cart",
+          "receipt"
+        ],
         "answer": 2
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "फलों पर बड़ी ___ है।",
           "Japanese": "果物が___中です。"
         },
-        "options": ["price", "queue", "sale"],
+        "options": [
+          "price",
+          "queue",
+          "sale"
+        ],
         "answer": 2
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[cart, milk, puts, in, he, the] को सही क्रम में लगाएं।",
           "Japanese": "[cart, milk, puts, in, he, the]を並べ替えましょう。"
         },
-        "options": ["cart", "milk", "puts", "in", "he", "the"],
-        "answer": ["He", "puts", "milk", "in", "the", "cart"]
+        "options": [
+          "cart",
+          "milk",
+          "puts",
+          "in",
+          "he",
+          "the"
+        ],
+        "answer": [
+          "He",
+          "puts",
+          "milk",
+          "in",
+          "the",
+          "cart"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "हम काउंटर पर ___ में खड़े होते हैं।",
           "Japanese": "私たちはレジで___に並びます。"
         },
-        "options": ["queue", "basket", "checkout"],
+        "options": [
+          "queue",
+          "basket",
+          "checkout"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +391,105 @@
           "Hindi": "[week, supermarket, go, the, we, every, to] को सही क्रम में लगाएं।",
           "Japanese": "[week, supermarket, go, the, we, every, to]を並べ替えましょう。"
         },
-        "options": ["week", "supermarket", "go", "the", "we", "every", "to"],
-        "answer": ["We", "go", "to", "the", "supermarket", "every", "week"]
+        "options": [
+          "week",
+          "supermarket",
+          "go",
+          "the",
+          "we",
+          "every",
+          "to"
+        ],
+        "answer": [
+          "We",
+          "go",
+          "to",
+          "the",
+          "supermarket",
+          "every",
+          "week"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where do we shop? (Audio: 'We go to the supermarket every week.')",
+        "question": "Where do we shop?",
         "audio_text": "We go to the supermarket every week.",
         "question_translation": {
           "Hindi": "हम कहाँ खरीदारी करते हैं?",
           "Japanese": "私たちはどこで買い物をしますか？"
         },
-        "options": ["supermarket", "school", "bank"],
+        "options": [
+          "supermarket",
+          "school",
+          "bank"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What do you carry for fruit? (Audio: 'She carries a basket for fruit.')",
+        "question": "What do you carry for fruit?",
         "audio_text": "She carries a basket for fruit.",
         "question_translation": {
           "Hindi": "वह फल के लिए क्या लेकर जाती है?",
           "Japanese": "果物用に何を持っていますか？"
         },
-        "options": ["receipt", "basket", "queue"],
+        "options": [
+          "receipt",
+          "basket",
+          "queue"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Who gives you change? (Audio: 'The cashier gives change.')",
+        "question": "Who gives you change?",
         "audio_text": "The cashier gives change.",
         "question_translation": {
           "Hindi": "पैसे कौन लौटाता है?",
           "Japanese": "おつりをくれるのは誰ですか？"
         },
-        "options": ["cashier", "customer", "manager"],
+        "options": [
+          "cashier",
+          "customer",
+          "manager"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Where is the bread? (Audio: 'The bread is on the shelf.')",
+        "question": "Where is the bread?",
         "audio_text": "The bread is on the shelf.",
         "question_translation": {
           "Hindi": "रोटी कहाँ है?",
           "Japanese": "パンはどこにありますか？"
         },
-        "options": ["cart", "shelf", "queue"],
+        "options": [
+          "cart",
+          "shelf",
+          "queue"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What do you do at the checkout? (Audio: 'Please go to the checkout to pay.')",
+        "question": "What do you do at the checkout?",
         "audio_text": "Please go to the checkout to pay.",
         "question_translation": {
           "Hindi": "चेकआउट पर आप क्या करते हैं?",
           "Japanese": "レジで何をしますか？"
         },
-        "options": ["pay", "shop", "queue"],
+        "options": [
+          "pay",
+          "shop",
+          "queue"
+        ],
         "answer": 0
       }
     ],

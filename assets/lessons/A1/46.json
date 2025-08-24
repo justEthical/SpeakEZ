@@ -245,7 +245,11 @@
           "Hindi": "ऐसा कौन सा दिन है जब आप स्कूल नहीं जाते?",
           "Japanese": "学校に行かない特別な日は何ですか？"
         },
-        "options": ["beach", "holiday", "hotel"],
+        "options": [
+          "beach",
+          "holiday",
+          "hotel"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम ___ में ठहरे।",
           "Japanese": "私たちは___に泊まりました。"
         },
-        "options": ["beach", "hotel", "trip"],
+        "options": [
+          "beach",
+          "hotel",
+          "trip"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "दूसरे देश जाने के लिए क्या चाहिए?",
           "Japanese": "外国へ行くのに必要なものは何ですか？"
         },
-        "options": ["ticket", "passport", "souvenir"],
+        "options": [
+          "ticket",
+          "passport",
+          "souvenir"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "एक जगह से दूसरी जगह जाने को क्या कहते हैं?",
           "Japanese": "ある場所から別の場所への旅行を何と言いますか？"
         },
-        "options": ["trip", "beach", "hotel"],
+        "options": [
+          "trip",
+          "beach",
+          "hotel"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या स्मृति चिन्ह वो चीज़ है जो आप जगह याद रखने के लिए खरीदते हैं?",
           "Japanese": "お土産は場所を思い出すために買うものですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "हम छुट्टियों में ___ गए।",
           "Japanese": "休みに___に行きました。"
         },
-        "options": ["hotel", "beach", "souvenir"],
+        "options": [
+          "hotel",
+          "beach",
+          "souvenir"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मैंने बाज़ार से ___ खरीदी।",
           "Japanese": "市場で___を買いました。"
         },
-        "options": ["trip", "souvenir", "passport"],
+        "options": [
+          "trip",
+          "souvenir",
+          "passport"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,20 @@
           "Hindi": "[hotel, in, we, a, stayed] को सही क्रम में लगाएं।",
           "Japanese": "[hotel, in, we, a, stayed]を並べ替えましょう。"
         },
-        "options": ["hotel", "in", "we", "a", "stayed"],
-        "answer": ["We", "stayed", "in", "a", "hotel"]
+        "options": [
+          "hotel",
+          "in",
+          "we",
+          "a",
+          "stayed"
+        ],
+        "answer": [
+          "We",
+          "stayed",
+          "in",
+          "a",
+          "hotel"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +374,11 @@
           "Hindi": "उन्हें ___ करना पसंद है।",
           "Japanese": "彼らは___が好きです。"
         },
-        "options": ["relax", "travel", "stay"],
+        "options": [
+          "relax",
+          "travel",
+          "stay"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +389,103 @@
           "Hindi": "[city, the, sightseeing, in, went, we] को सही क्रम में लगाएं।",
           "Japanese": "[city, the, sightseeing, in, went, we]を並べ替えましょう。"
         },
-        "options": ["city", "the", "sightseeing", "in", "went", "we"],
-        "answer": ["We", "went", "sightseeing", "in", "the", "city"]
+        "options": [
+          "city",
+          "the",
+          "sightseeing",
+          "in",
+          "went",
+          "we"
+        ],
+        "answer": [
+          "We",
+          "went",
+          "sightseeing",
+          "in",
+          "the",
+          "city"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where did we go on holiday? (Audio: 'We went to the beach on holiday.')",
+        "question": "Where did we go on holiday?",
         "audio_text": "We went to the beach on holiday.",
         "question_translation": {
           "Hindi": "हम छुट्टियों में कहाँ गए?",
           "Japanese": "休みにどこへ行きましたか？"
         },
-        "options": ["market", "hotel", "beach"],
+        "options": [
+          "market",
+          "hotel",
+          "beach"
+        ],
         "answer": 2
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Where did our family go on vacation? (Audio: 'Our family went on vacation to Goa.')",
+        "question": "Where did our family go on vacation?",
         "audio_text": "Our family went on vacation to Goa.",
         "question_translation": {
           "Hindi": "हमारा परिवार छुट्टियों में कहाँ गया?",
           "Japanese": "家族は休みにどこへ行きましたか？"
         },
-        "options": ["Goa", "Delhi", "Mumbai"],
+        "options": [
+          "Goa",
+          "Delhi",
+          "Mumbai"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Where did we stay? (Audio: 'We stayed in a hotel.')",
+        "question": "Where did we stay?",
         "audio_text": "We stayed in a hotel.",
         "question_translation": {
           "Hindi": "हम कहाँ ठहरे?",
           "Japanese": "どこに泊まりましたか？"
         },
-        "options": ["hotel", "market", "beach"],
+        "options": [
+          "hotel",
+          "market",
+          "beach"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do you need to travel abroad? (Audio: 'You need a passport to travel abroad.')",
+        "question": "What do you need to travel abroad?",
         "audio_text": "You need a passport to travel abroad.",
         "question_translation": {
           "Hindi": "विदेश जाने के लिए आपको क्या चाहिए?",
           "Japanese": "海外旅行に必要なものは何ですか？"
         },
-        "options": ["souvenir", "passport", "ticket"],
+        "options": [
+          "souvenir",
+          "passport",
+          "ticket"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What did I buy from the market? (Audio: 'I bought a souvenir from the market.')",
+        "question": "What did I buy from the market?",
         "audio_text": "I bought a souvenir from the market.",
         "question_translation": {
           "Hindi": "मैंने बाज़ार से क्या खरीदा?",
           "Japanese": "市場で何を買いましたか？"
         },
-        "options": ["ticket", "hotel", "souvenir"],
+        "options": [
+          "ticket",
+          "hotel",
+          "souvenir"
+        ],
         "answer": 2
       }
     ],

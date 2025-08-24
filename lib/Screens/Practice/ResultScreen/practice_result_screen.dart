@@ -52,30 +52,38 @@ class PracticeResultSreen extends StatelessWidget {
         ],
       ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16.0),
-        child: RepaintBoundary(
-          key: globalKey,
-          child: Container(
-            color: theme.scaffoldBackgroundColor,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                _buildScoreCard(context, c, theme),
-                const SizedBox(height: 24),
-                _buildMotivationCard(context, theme),
-                const SizedBox(height: 24),
-                _buildFeedbackSection(c),
-                const SizedBox(height: 24),
-                _buildDoneButton(context, theme),
-              ],
+        child: Column(
+          children: [
+            RepaintBoundary(
+              key: globalKey,
+              child: Container(
+                padding: const EdgeInsets.all(16.0),
+                color: theme.scaffoldBackgroundColor,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    _buildScoreCard(context, c, theme),
+                    const SizedBox(height: 24),
+                    _buildMotivationCard(context, theme),
+                    const SizedBox(height: 24),
+                    _buildFeedbackSection(c),
+                  ],
+                ),
+              ),
             ),
-          ),
+            _buildDoneButton(context, theme),
+            const SizedBox(height: 16),
+          ],
         ),
       ),
     );
   }
 
-  Widget _buildScoreCard(BuildContext context, PracticeController c, ThemeData theme) {
+  Widget _buildScoreCard(
+    BuildContext context,
+    PracticeController c,
+    ThemeData theme,
+  ) {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
@@ -179,21 +187,24 @@ class PracticeResultSreen extends StatelessWidget {
   }
 
   Widget _buildDoneButton(BuildContext context, ThemeData theme) {
-    return ElevatedButton(
-      onPressed: () => Get.back(),
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.black,
-        minimumSize: const Size(double.infinity, 55),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: ElevatedButton(
+        onPressed: () => Get.back(),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.black,
+          minimumSize: const Size(double.infinity, 55),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+          ),
         ),
-      ),
-      child: Text(
-        "Done",
-        style: GoogleFonts.nunito(
-          color: Colors.white,
-          fontWeight: FontWeight.w800,
-          fontSize: 18,
+        child: Text(
+          "Done",
+          style: GoogleFonts.nunito(
+            color: Colors.white,
+            fontWeight: FontWeight.w800,
+            fontSize: 18,
+          ),
         ),
       ),
     );

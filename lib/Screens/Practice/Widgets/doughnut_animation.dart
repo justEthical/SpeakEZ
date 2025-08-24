@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'dart:math';
-import 'package:lottie/lottie.dart';
-import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 
 class AnimatedDoughnut extends StatefulWidget {
@@ -29,10 +26,7 @@ class _AnimatedDoughnutState extends State<AnimatedDoughnut>
       vsync: this,
       duration: const Duration(seconds: 30),
     );
-    c.lottieAnimationcontroller = AnimationController(
-      vsync: this,
-
-    );
+    c.lottieAnimationcontroller = AnimationController(vsync: this);
 
     _animation = Tween<double>(
       begin: 1.0,
@@ -60,18 +54,26 @@ class _AnimatedDoughnutState extends State<AnimatedDoughnut>
           painter: DoughnutPainter(progress: _animation.value),
           size: const Size(80, 80),
         ),
-        Lottie.asset(
-          AppAssets.recording,
-          controller: c.lottieAnimationcontroller,
-          onLoaded: (composition) {
-            c.lottieAnimationcontroller
-              ..duration = composition.duration
-              ..repeat(); // or .forward()
-          },
-          width: 65,
-          height: 65,
-          repeat: true,
-          decoder: globalController.customDecoder,
+        Container(
+          width: 60,
+          height: 60,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(100),
+            border: Border.all(
+              color: const Color.fromARGB(255, 74, 72, 78),
+              width: 0.4,
+            ),
+          ),
+          child: Container(
+            width: 20,
+            height: 20,
+            margin: EdgeInsets.all(18),
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(2.5),
+            ),
+          ),
         ),
       ],
     );
@@ -86,7 +88,7 @@ class DoughnutPainter extends CustomPainter {
   DoughnutPainter({
     required this.progress,
     this.backgroundColor = Colors.grey,
-    this.fillColor = Colors.blue,
+    this.fillColor = Colors.deepPurple,
   });
 
   @override

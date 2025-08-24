@@ -245,7 +245,11 @@
           "Hindi": "जापान से आने वाले व्यक्ति को क्या कहते हैं?",
           "Japanese": "日本出身の人は何と呼ばれますか？"
         },
-        "options": ["Japanese", "Chinese", "French"],
+        "options": [
+          "Japanese",
+          "Chinese",
+          "French"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वह ___ है।",
           "Japanese": "彼女は___です。"
         },
-        "options": ["Russian", "French", "Indian"],
+        "options": [
+          "Russian",
+          "French",
+          "Indian"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "किसी देश में इस्तेमाल होने वाली भाषा और व्याकरण को क्या कहते हैं?",
           "Japanese": "国で使われる言葉と文法を何と言いますか？"
         },
-        "options": ["Country", "Nationality", "Language"],
+        "options": [
+          "Country",
+          "Nationality",
+          "Language"
+        ],
         "answer": 2
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "भारत से आने वाला व्यक्ति...",
           "Japanese": "インド出身の人は..."
         },
-        "options": ["German", "Indian", "American"],
+        "options": [
+          "German",
+          "Indian",
+          "American"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "रूसी एक राष्ट्रीयता है।",
           "Japanese": "ロシア人は国籍ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरे शिक्षक ___ हैं।",
           "Japanese": "私の先生は___です。"
         },
-        "options": ["American", "Japanese", "German"],
+        "options": [
+          "American",
+          "Japanese",
+          "German"
+        ],
         "answer": 2
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "___ एक भाषा है।",
           "Japanese": "___は言語です。"
         },
-        "options": ["French", "Japanese", "Russian"],
+        "options": [
+          "French",
+          "Japanese",
+          "Russian"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,18 @@
           "Hindi": "[from, is, John, America] को सही क्रम में लगाएं।",
           "Japanese": "[from, is, John, America]を並べ替えましょう。"
         },
-        "options": ["from", "is", "John", "America"],
-        "answer": ["John", "is", "from", "America"]
+        "options": [
+          "from",
+          "is",
+          "John",
+          "America"
+        ],
+        "answer": [
+          "John",
+          "is",
+          "from",
+          "America"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +372,11 @@
           "Hindi": "मेरी राष्ट्रीयता ___ है।",
           "Japanese": "私の国籍は___です。"
         },
-        "options": ["Japanese", "French", "Indian"],
+        "options": [
+          "Japanese",
+          "French",
+          "Indian"
+        ],
         "answer": 2
       },
       {
@@ -346,69 +387,101 @@
           "Hindi": "[country, a, India, is, big] को सही क्रम में लगाएं।",
           "Japanese": "[country, a, India, is, big]を並べ替えましょう。"
         },
-        "options": ["country", "a", "India", "is", "big"],
-        "answer": ["India", "is", "a", "big", "country"]
+        "options": [
+          "country",
+          "a",
+          "India",
+          "is",
+          "big"
+        ],
+        "answer": [
+          "India",
+          "is",
+          "a",
+          "big",
+          "country"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where is Marie from? (Audio: 'Marie is French.')",
+        "question": "Where is Marie from?",
         "audio_text": "Marie is French.",
         "question_translation": {
           "Hindi": "मैरी कहाँ से है?",
           "Japanese": "マリーはどこ出身ですか？"
         },
-        "options": ["France", "India", "Russia"],
+        "options": [
+          "France",
+          "India",
+          "Russia"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What is his nationality? (Audio: 'He is Japanese.')",
+        "question": "What is his nationality?",
         "audio_text": "He is Japanese.",
         "question_translation": {
           "Hindi": "उसकी राष्ट्रीयता क्या है?",
           "Japanese": "彼の国籍は何ですか？"
         },
-        "options": ["Chinese", "Japanese", "Indian"],
+        "options": [
+          "Chinese",
+          "Japanese",
+          "Indian"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What is a language? (Audio: 'Japanese is a language.')",
+        "question": "What is a language?",
         "audio_text": "Japanese is a language.",
         "question_translation": {
           "Hindi": "एक भाषा क्या है?",
           "Japanese": "言語とは何ですか？"
         },
-        "options": ["Country", "Nationality", "Language"],
+        "options": [
+          "Country",
+          "Nationality",
+          "Language"
+        ],
         "answer": 2
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Where is John from? (Audio: 'John is American.')",
+        "question": "Where is John from?",
         "audio_text": "John is American.",
         "question_translation": {
           "Hindi": "जॉन कहाँ से है?",
           "Japanese": "ジョンはどこ出身ですか？"
         },
-        "options": ["America", "Japan", "Germany"],
+        "options": [
+          "America",
+          "Japan",
+          "Germany"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What is her nationality? (Audio: 'She is Chinese.')",
+        "question": "What is her nationality?",
         "audio_text": "She is Chinese.",
         "question_translation": {
           "Hindi": "उसकी राष्ट्रीयता क्या है?",
           "Japanese": "彼女の国籍は何ですか？"
         },
-        "options": ["Chinese", "German", "Indian"],
+        "options": [
+          "Chinese",
+          "German",
+          "Indian"
+        ],
         "answer": 0
       }
     ],

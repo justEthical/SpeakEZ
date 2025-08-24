@@ -245,7 +245,11 @@
           "Hindi": "बीमार लोगों की मदद कौन करता है?",
           "Japanese": "病気の人を助けるのは誰ですか？"
         },
-        "options": ["Teacher", "Doctor", "Chef"],
+        "options": [
+          "Teacher",
+          "Doctor",
+          "Chef"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "दुकान में सामान ___ बेचता है।",
           "Japanese": "お店で物を売るのは___です。"
         },
-        "options": ["engineer", "shopkeeper", "student"],
+        "options": [
+          "engineer",
+          "shopkeeper",
+          "student"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "स्कूल में छात्रों को कौन पढ़ाता है?",
           "Japanese": "学校で生徒に教えるのは誰ですか？"
         },
-        "options": ["Teacher", "Chef", "Farmer"],
+        "options": [
+          "Teacher",
+          "Chef",
+          "Farmer"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "खेत में कौन काम करता है?",
           "Japanese": "畑で働くのは誰ですか？"
         },
-        "options": ["Student", "Farmer", "Police officer"],
+        "options": [
+          "Student",
+          "Farmer",
+          "Police officer"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या शेफ रेस्तरां में खाना बनाता है?",
           "Japanese": "シェフはレストランで料理をしますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "___ अस्पताल में काम करता है।",
           "Japanese": "___は病院で働いています。"
         },
-        "options": ["teacher", "doctor", "engineer"],
+        "options": [
+          "teacher",
+          "doctor",
+          "engineer"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मेरे चाचा ___ हैं।",
           "Japanese": "私のおじは___です。"
         },
-        "options": ["engineer", "driver", "nurse"],
+        "options": [
+          "engineer",
+          "driver",
+          "nurse"
+        ],
         "answer": 0
       },
       {
@@ -335,7 +362,11 @@
           "Hindi": "वह एक ___ है।",
           "Japanese": "彼女は___です。"
         },
-        "options": ["student", "driver", "chef"],
+        "options": [
+          "student",
+          "driver",
+          "chef"
+        ],
         "answer": 0
       },
       {
@@ -346,69 +377,101 @@
           "Hindi": "[helps, people, the, officer, police] को सही क्रम में लगाएं।",
           "Japanese": "[helps, people, the, officer, police]を並べ替えましょう。"
         },
-        "options": ["helps", "people", "the", "officer", "police"],
-        "answer": ["The", "police", "officer", "helps", "people"]
+        "options": [
+          "helps",
+          "people",
+          "the",
+          "officer",
+          "police"
+        ],
+        "answer": [
+          "The",
+          "police",
+          "officer",
+          "helps",
+          "people"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Who is kind to patients? (Audio: 'The nurse is kind to patients.')",
+        "question": "Who is kind to patients?",
         "audio_text": "The nurse is kind to patients.",
         "question_translation": {
           "Hindi": "मरीजों के प्रति कौन दयालु है?",
           "Japanese": "患者にやさしいのは誰ですか？"
         },
-        "options": ["Driver", "Nurse", "Engineer"],
+        "options": [
+          "Driver",
+          "Nurse",
+          "Engineer"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Who drives a vehicle? (Audio: 'The bus driver is friendly.')",
+        "question": "Who drives a vehicle?",
         "audio_text": "The bus driver is friendly.",
         "question_translation": {
           "Hindi": "वाहन कौन चलाता है?",
           "Japanese": "乗り物を運転するのは誰ですか？"
         },
-        "options": ["Bus driver", "Farmer", "Chef"],
+        "options": [
+          "Bus driver",
+          "Farmer",
+          "Chef"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Who works in a restaurant? (Audio: 'The chef cooks delicious food.')",
+        "question": "Who works in a restaurant?",
         "audio_text": "The chef cooks delicious food.",
         "question_translation": {
           "Hindi": "रेस्तरां में कौन काम करता है?",
           "Japanese": "レストランで働くのは誰ですか？"
         },
-        "options": ["Doctor", "Chef", "Student"],
+        "options": [
+          "Doctor",
+          "Chef",
+          "Student"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Who grows crops or keeps animals? (Audio: 'The farmer works in the field.')",
+        "question": "Who grows crops or keeps animals?",
         "audio_text": "The farmer works in the field.",
         "question_translation": {
           "Hindi": "कौन फसलें उगाता या जानवर पालता है?",
           "Japanese": "作物を育てたり動物を飼ったりするのは誰ですか？"
         },
-        "options": ["Engineer", "Farmer", "Teacher"],
+        "options": [
+          "Engineer",
+          "Farmer",
+          "Teacher"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Who sells things in a shop? (Audio: 'The shopkeeper sells fruits and vegetables.')",
+        "question": "Who sells things in a shop?",
         "audio_text": "The shopkeeper sells fruits and vegetables.",
         "question_translation": {
           "Hindi": "दुकान में सामान कौन बेचता है?",
           "Japanese": "お店で物を売るのは誰ですか？"
         },
-        "options": ["Chef", "Shopkeeper", "Student"],
+        "options": [
+          "Chef",
+          "Shopkeeper",
+          "Student"
+        ],
         "answer": 1
       }
     ],

@@ -245,7 +245,11 @@
           "Hindi": "किसी के लिए कुछ करने को क्या कहते हैं?",
           "Japanese": "誰かのために何かをすることは何ですか？"
         },
-        "options": ["help", "problem", "find"],
+        "options": [
+          "help",
+          "problem",
+          "find"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "___ me, क्या आप रास्ता बता सकते हैं?",
           "Japanese": "___ me、道を教えてくれますか？"
         },
-        "options": ["Please", "Excuse", "Call"],
+        "options": [
+          "Please",
+          "Excuse",
+          "Call"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "अगर आपको नहीं पता कि आप कहाँ हैं, तो आप...",
           "Japanese": "どこにいるかわからない時は…"
         },
-        "options": ["lost", "fix", "call"],
+        "options": [
+          "lost",
+          "fix",
+          "call"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "फिर से काम करने के लिए किस शब्द का प्रयोग करते हैं?",
           "Japanese": "壊れたものを直すことを何と言いますか？"
         },
-        "options": ["show", "help", "fix"],
+        "options": [
+          "show",
+          "help",
+          "fix"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या emergency एक गंभीर या खतरनाक स्थिति है?",
           "Japanese": "緊急事態は大変な・危険な状況ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "क्या आप मेरी ___ कर सकते हैं?",
           "Japanese": "___ me, お願いします。"
         },
-        "options": ["help", "call", "show"],
+        "options": [
+          "help",
+          "call",
+          "show"
+        ],
         "answer": 0
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मेरे फोन में ___ है।",
           "Japanese": "携帯に___があります。"
         },
-        "options": ["fix", "problem", "help"],
+        "options": [
+          "fix",
+          "problem",
+          "help"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,16 @@
           "Hindi": "[lost, am, I] को सही क्रम में लगाएं।",
           "Japanese": "[lost, am, I]を並べ替えましょう。"
         },
-        "options": ["lost", "am", "I"],
-        "answer": ["I", "am", "lost"]
+        "options": [
+          "lost",
+          "am",
+          "I"
+        ],
+        "answer": [
+          "I",
+          "am",
+          "lost"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +370,11 @@
           "Hindi": "क्या आप मेरे लिए टैक्सी ___ सकते हैं?",
           "Japanese": "私のためにタクシーを___くれますか？"
         },
-        "options": ["call", "fix", "find"],
+        "options": [
+          "call",
+          "fix",
+          "find"
+        ],
         "answer": 0
       },
       {
@@ -354,61 +393,81 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What did the person ask for? (Audio: 'Can you help me?')",
+        "question": "What did the person ask for?",
         "audio_text": "Can you help me?",
         "question_translation": {
           "Hindi": "व्यक्ति ने क्या माँगा?",
           "Japanese": "その人は何を頼みましたか？"
         },
-        "options": ["help", "call", "problem"],
+        "options": [
+          "help",
+          "call",
+          "problem"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What does the person need? (Audio: 'I have a problem with my phone.')",
+        "question": "What does the person need?",
         "audio_text": "I have a problem with my phone.",
         "question_translation": {
           "Hindi": "व्यक्ति को किस चीज़ में समस्या है?",
           "Japanese": "その人は何に困っていますか？"
         },
-        "options": ["phone", "taxi", "show"],
+        "options": [
+          "phone",
+          "taxi",
+          "show"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What did the person say? (Audio: 'I am lost. Can you help me?')",
+        "question": "What did the person say?",
         "audio_text": "I am lost. Can you help me?",
         "question_translation": {
           "Hindi": "व्यक्ति ने क्या कहा?",
           "Japanese": "その人は何と言いましたか？"
         },
-        "options": ["found", "lost", "fix"],
+        "options": [
+          "found",
+          "lost",
+          "fix"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What should you do in an emergency? (Audio: 'Call this number in an emergency.')",
+        "question": "What should you do in an emergency?",
         "audio_text": "Call this number in an emergency.",
         "question_translation": {
           "Hindi": "आपातकाल में क्या करना चाहिए?",
           "Japanese": "緊急時はどうすればいいですか？"
         },
-        "options": ["show the way", "call the number", "find help"],
+        "options": [
+          "show the way",
+          "call the number",
+          "find help"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What is the polite way to ask for help? (Audio: 'Excuse me, can you show me the way?')",
+        "question": "What is the polite way to ask for help?",
         "audio_text": "Excuse me, can you show me the way?",
         "question_translation": {
           "Hindi": "मदद मांगने का विनम्र तरीका क्या है?",
           "Japanese": "助けを頼む丁寧な方法は？"
         },
-        "options": ["Excuse me", "Please", "Call"],
+        "options": [
+          "Excuse me",
+          "Please",
+          "Call"
+        ],
         "answer": 0
       }
     ],

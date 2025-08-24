@@ -245,7 +245,11 @@
           "Hindi": "जो सबसे ज़्यादा पसंद है उसे क्या कहते हैं?",
           "Japanese": "一番好きなものは何ですか？"
         },
-        "options": ["favorite", "dislike", "bored"],
+        "options": [
+          "favorite",
+          "dislike",
+          "bored"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "मुझे चाय कॉफी से ज़्यादा ___ है।",
           "Japanese": "私はコーヒーよりお茶が___。"
         },
-        "options": ["enjoy", "prefer", "hate"],
+        "options": [
+          "enjoy",
+          "prefer",
+          "hate"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "जो आपको खुश करता है उसे क्या कहते हैं?",
           "Japanese": "あなたを楽しくするものは何ですか？"
         },
-        "options": ["fun", "bored", "hate"],
+        "options": [
+          "fun",
+          "bored",
+          "hate"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "अगर आपको किसी चीज़ में रुचि है, तो आप क्या करना चाहते हैं?",
           "Japanese": "何かに興味があればどうしたいですか？"
         },
-        "options": ["forget", "learn", "taste"],
+        "options": [
+          "forget",
+          "learn",
+          "taste"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "'Hate' का मतलब है कुछ बहुत पसंद करना।",
           "Japanese": "Hateはとても好きという意味ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 1
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरा ___ रंग नीला है।",
           "Japanese": "私の___色は青です。"
         },
-        "options": ["fun", "favorite", "like"],
+        "options": [
+          "fun",
+          "favorite",
+          "like"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मुझे जल्दी उठना ___ है।",
           "Japanese": "私は早起きが___です。"
         },
-        "options": ["like", "hate", "prefer"],
+        "options": [
+          "like",
+          "hate",
+          "prefer"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,16 @@
           "Hindi": "[like, I, apples] को सही क्रम में लगाएं।",
           "Japanese": "[like, I, apples]を並べ替えましょう。"
         },
-        "options": ["like", "I", "apples"],
-        "answer": ["I", "like", "apples"]
+        "options": [
+          "like",
+          "I",
+          "apples"
+        ],
+        "answer": [
+          "I",
+          "like",
+          "apples"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +370,11 @@
           "Hindi": "उसे इतिहास में ___ है।",
           "Japanese": "彼は歴史に___です。"
         },
-        "options": ["enjoy", "bored", "interested"],
+        "options": [
+          "enjoy",
+          "bored",
+          "interested"
+        ],
         "answer": 2
       },
       {
@@ -346,69 +385,99 @@
           "Hindi": "[fun, games, is, playing] को सही क्रम में लगाएं।",
           "Japanese": "[fun, games, is, playing]を並べ替えましょう。"
         },
-        "options": ["fun", "games", "is", "playing"],
-        "answer": ["Playing", "games", "is", "fun"]
+        "options": [
+          "fun",
+          "games",
+          "is",
+          "playing"
+        ],
+        "answer": [
+          "Playing",
+          "games",
+          "is",
+          "fun"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "What does she dislike? (Audio: 'She dislikes loud music.')",
+        "question": "What does she dislike?",
         "audio_text": "She dislikes loud music.",
         "question_translation": {
           "Hindi": "उसे क्या पसंद नहीं है?",
           "Japanese": "彼女は何が嫌いですか？"
         },
-        "options": ["loud music", "apples", "tea"],
+        "options": [
+          "loud music",
+          "apples",
+          "tea"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What sport is his favorite? (Audio: 'My favorite sport is football.')",
+        "question": "What sport is his favorite?",
         "audio_text": "My favorite sport is football.",
         "question_translation": {
           "Hindi": "उसका पसंदीदा खेल कौन सा है?",
           "Japanese": "彼の好きなスポーツは何ですか？"
         },
-        "options": ["football", "swimming", "cricket"],
+        "options": [
+          "football",
+          "swimming",
+          "cricket"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do we enjoy? (Audio: 'We enjoy swimming.')",
+        "question": "What do we enjoy?",
         "audio_text": "We enjoy swimming.",
         "question_translation": {
           "Hindi": "हमें क्या पसंद है?",
           "Japanese": "私たちは何を楽しみますか？"
         },
-        "options": ["swimming", "music", "movies"],
+        "options": [
+          "swimming",
+          "music",
+          "movies"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What does he prefer? (Audio: 'I prefer tea to coffee.')",
+        "question": "What does he prefer?",
         "audio_text": "I prefer tea to coffee.",
         "question_translation": {
           "Hindi": "वह क्या ज़्यादा पसंद करता है?",
           "Japanese": "彼は何がより好きですか？"
         },
-        "options": ["tea", "coffee", "juice"],
+        "options": [
+          "tea",
+          "coffee",
+          "juice"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What taste does he like? (Audio: 'I like the taste of chocolate.')",
+        "question": "What taste does he like?",
         "audio_text": "I like the taste of chocolate.",
         "question_translation": {
           "Hindi": "उसे किस स्वाद का पसंद है?",
           "Japanese": "彼はどんな味が好きですか？"
         },
-        "options": ["chocolate", "vanilla", "banana"],
+        "options": [
+          "chocolate",
+          "vanilla",
+          "banana"
+        ],
         "answer": 0
       }
     ],

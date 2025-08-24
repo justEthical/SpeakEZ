@@ -245,7 +245,11 @@
           "Hindi": "दूर के लोगों से बात करने के लिए आप क्या इस्तेमाल करते हैं?",
           "Japanese": "遠くの人と話すために何を使いますか？"
         },
-        "options": ["phone", "bag", "battery"],
+        "options": [
+          "phone",
+          "bag",
+          "battery"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वह अपने दोस्त को ___ भेजती है।",
           "Japanese": "彼女は友だちに___を送ります。"
         },
-        "options": ["battery", "message", "note"],
+        "options": [
+          "battery",
+          "message",
+          "note"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "फ़ोन में ऊर्जा कौन से हिस्से में जमा होती है?",
           "Japanese": "電話のどの部分が電気をためますか？"
         },
-        "options": ["screen", "battery", "camera"],
+        "options": [
+          "screen",
+          "battery",
+          "camera"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "तस्वीरें लेने के लिए आप क्या इस्तेमाल करते हैं?",
           "Japanese": "写真を撮るのに何を使いますか？"
         },
-        "options": ["screen", "camera", "call"],
+        "options": [
+          "screen",
+          "camera",
+          "call"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "इंटरनेट दुनिया भर के कंप्यूटरों को जोड़ता है।",
           "Japanese": "インターネットは世界中のコンピュータをつなぎますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरा ___ मेरे बैग में है।",
           "Japanese": "私の___はバッグの中にあります。"
         },
-        "options": ["camera", "mobile", "screen"],
+        "options": [
+          "camera",
+          "mobile",
+          "screen"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "मुझे अपना फ़ोन ___ करना है।",
           "Japanese": "私は電話を___しなければなりません。"
         },
-        "options": ["charge", "screen", "call"],
+        "options": [
+          "charge",
+          "screen",
+          "call"
+        ],
         "answer": 0
       },
       {
@@ -335,7 +362,11 @@
           "Hindi": "वह अपने ___ से फोटो खींचता है।",
           "Japanese": "彼は___で写真を撮ります。"
         },
-        "options": ["battery", "camera", "computer"],
+        "options": [
+          "battery",
+          "camera",
+          "computer"
+        ],
         "answer": 1
       },
       {
@@ -354,61 +385,81 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where is her mobile? (Audio: 'My mobile is in my bag.')",
+        "question": "Where is her mobile?",
         "audio_text": "My mobile is in my bag.",
         "question_translation": {
           "Hindi": "उसका मोबाइल कहाँ है?",
           "Japanese": "彼女の携帯電話はどこにありますか？"
         },
-        "options": ["Bag", "Table", "Hand"],
+        "options": [
+          "Bag",
+          "Table",
+          "Hand"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What does she do on the phone? (Audio: 'She talks to her friend on the phone.')",
+        "question": "What does she do on the phone?",
         "audio_text": "She talks to her friend on the phone.",
         "question_translation": {
           "Hindi": "वह फ़ोन पर क्या करती है?",
           "Japanese": "彼女は電話で何をしますか？"
         },
-        "options": ["Calls", "Studies", "Plays"],
+        "options": [
+          "Calls",
+          "Studies",
+          "Plays"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do we use to find information? (Audio: 'We use the internet to find information.')",
+        "question": "What do we use to find information?",
         "audio_text": "We use the internet to find information.",
         "question_translation": {
           "Hindi": "हम जानकारी पाने के लिए क्या इस्तेमाल करते हैं?",
           "Japanese": "情報を探すのに何を使いますか？"
         },
-        "options": ["Camera", "Internet", "Screen"],
+        "options": [
+          "Camera",
+          "Internet",
+          "Screen"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What does he need to do? (Audio: 'I need to charge my phone.')",
+        "question": "What does he need to do?",
         "audio_text": "I need to charge my phone.",
         "question_translation": {
           "Hindi": "उसे क्या करना है?",
           "Japanese": "彼は何をしなければなりませんか？"
         },
-        "options": ["Call", "Charge the phone", "Take a photo"],
+        "options": [
+          "Call",
+          "Charge the phone",
+          "Take a photo"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What is low? (Audio: 'The battery is low.')",
+        "question": "What is low?",
         "audio_text": "The battery is low.",
         "question_translation": {
           "Hindi": "क्या कम है?",
           "Japanese": "何が少ないですか？"
         },
-        "options": ["Screen", "Battery", "Mobile"],
+        "options": [
+          "Screen",
+          "Battery",
+          "Mobile"
+        ],
         "answer": 1
       }
     ],

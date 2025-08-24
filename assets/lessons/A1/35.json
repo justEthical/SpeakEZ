@@ -245,7 +245,11 @@
           "Hindi": "बीमार होने पर आपकी मदद कौन करता है?",
           "Japanese": "病気のとき誰が助けてくれますか？"
         },
-        "options": ["doctor", "patient", "clinic"],
+        "options": [
+          "doctor",
+          "patient",
+          "clinic"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "नर्स मुझे ___ देती है।",
           "Japanese": "看護師が私に___をくれます。"
         },
-        "options": ["checkup", "medicine", "prescription"],
+        "options": [
+          "checkup",
+          "medicine",
+          "prescription"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "डॉक्टर को दिखाने के लिए आप कहाँ जाते हैं?",
           "Japanese": "医者に会うにはどこに行きますか？"
         },
-        "options": ["clinic", "appointment", "fever"],
+        "options": [
+          "clinic",
+          "appointment",
+          "fever"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "दवा लेने के लिए डॉक्टर की दी गई पर्ची को क्या कहते हैं?",
           "Japanese": "薬をもらうための医者の紙は何ですか？"
         },
-        "options": ["prescription", "checkup", "patient"],
+        "options": [
+          "prescription",
+          "checkup",
+          "patient"
+        ],
         "answer": 0
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "जाँच यह देखने के लिए होती है कि आप स्वस्थ हैं या नहीं।",
           "Japanese": "検診は健康かどうかを見るためのものですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरी डॉक्टर से ___ है।",
           "Japanese": "私は医者の___があります。"
         },
-        "options": ["clinic", "appointment", "medicine"],
+        "options": [
+          "clinic",
+          "appointment",
+          "medicine"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "उसे तेज ___ है।",
           "Japanese": "彼は高い___があります。"
         },
-        "options": ["checkup", "fever", "doctor"],
+        "options": [
+          "checkup",
+          "fever",
+          "doctor"
+        ],
         "answer": 1
       },
       {
@@ -335,7 +362,11 @@
           "Hindi": "उसे ___ में दर्द है।",
           "Japanese": "彼女は___が痛いです。"
         },
-        "options": ["nose", "throat", "ear"],
+        "options": [
+          "nose",
+          "throat",
+          "ear"
+        ],
         "answer": 1
       },
       {
@@ -346,69 +377,101 @@
           "Hindi": "[for, a, checkup, I, go] को सही क्रम में लगाएं।",
           "Japanese": "[for, a, checkup, I, go]を並べ替えましょう。"
         },
-        "options": ["for", "a", "checkup", "I", "go"],
-        "answer": ["I", "go", "for", "a", "checkup"]
+        "options": [
+          "for",
+          "a",
+          "checkup",
+          "I",
+          "go"
+        ],
+        "answer": [
+          "I",
+          "go",
+          "for",
+          "a",
+          "checkup"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Who gives you a prescription? (Audio: 'The doctor gives me a prescription.')",
+        "question": "Who gives you a prescription?",
         "audio_text": "The doctor gives me a prescription.",
         "question_translation": {
           "Hindi": "आपको पर्ची कौन देता है?",
           "Japanese": "誰が処方箋をくれますか？"
         },
-        "options": ["Patient", "Doctor", "Nurse"],
+        "options": [
+          "Patient",
+          "Doctor",
+          "Nurse"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "What does the nurse do? (Audio: 'The nurse gives me medicine.')",
+        "question": "What does the nurse do?",
         "audio_text": "The nurse gives me medicine.",
         "question_translation": {
           "Hindi": "नर्स क्या देती है?",
           "Japanese": "看護師は何をくれますか？"
         },
-        "options": ["Checkup", "Medicine", "Appointment"],
+        "options": [
+          "Checkup",
+          "Medicine",
+          "Appointment"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Why do you go to the clinic? (Audio: 'We go to the clinic when we are sick.')",
+        "question": "Why do you go to the clinic?",
         "audio_text": "We go to the clinic when we are sick.",
         "question_translation": {
           "Hindi": "आप क्लिनिक क्यों जाते हैं?",
           "Japanese": "なぜクリニックに行きますか？"
         },
-        "options": ["To buy food", "When sick", "For a party"],
+        "options": [
+          "To buy food",
+          "When sick",
+          "For a party"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do you get at checkup? (Audio: 'I go for a checkup every year.')",
+        "question": "What do you get at checkup?",
         "audio_text": "I go for a checkup every year.",
         "question_translation": {
           "Hindi": "आप चेकअप पर क्यों जाते हैं?",
           "Japanese": "なぜ検診に行きますか？"
         },
-        "options": ["To check health", "To get medicine", "To see friends"],
+        "options": [
+          "To check health",
+          "To get medicine",
+          "To see friends"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "What problem does she have? (Audio: 'She has a sore throat.')",
+        "question": "What problem does she have?",
         "audio_text": "She has a sore throat.",
         "question_translation": {
           "Hindi": "उसे क्या समस्या है?",
           "Japanese": "彼女はどんな問題がありますか？"
         },
-        "options": ["Fever", "Sore throat", "Appointment"],
+        "options": [
+          "Fever",
+          "Sore throat",
+          "Appointment"
+        ],
         "answer": 1
       }
     ],

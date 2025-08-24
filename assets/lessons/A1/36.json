@@ -245,7 +245,11 @@
           "Hindi": "आपकी टेबल पर खाना कौन लाता है?",
           "Japanese": "誰がテーブルに料理を持ってきますか？"
         },
-        "options": ["waiter", "chef", "guest"],
+        "options": [
+          "waiter",
+          "chef",
+          "guest"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम खाने के लिए ___ पढ़ते हैं।",
           "Japanese": "料理を選ぶために___を見ます。"
         },
-        "options": ["order", "menu", "bill"],
+        "options": [
+          "order",
+          "menu",
+          "bill"
+        ],
         "answer": 1
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "आप पानी पीने के लिए क्या इस्तेमाल करते हैं?",
           "Japanese": "水を飲むのに何を使いますか？"
         },
-        "options": ["fork", "glass", "bill"],
+        "options": [
+          "fork",
+          "glass",
+          "bill"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "अच्छी सेवा के लिए आप क्या छोड़ते हैं?",
           "Japanese": "良いサービスの時に何を渡しますか？"
         },
-        "options": ["menu", "tip", "dish"],
+        "options": [
+          "menu",
+          "tip",
+          "dish"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "आरक्षण का मतलब है कि पहले से टेबल बुक करना।",
           "Japanese": "予約は事前にテーブルを予約することですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरा पसंदीदा ___ पिज़्ज़ा है।",
           "Japanese": "私の好きな___はピザです。"
         },
-        "options": ["menu", "dish", "glass"],
+        "options": [
+          "menu",
+          "dish",
+          "glass"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "कृपया ___ दीजिए।",
           "Japanese": "___をお願いします。"
         },
-        "options": ["order", "menu", "bill"],
+        "options": [
+          "order",
+          "menu",
+          "bill"
+        ],
         "answer": 2
       },
       {
@@ -324,8 +351,20 @@
           "Hindi": "[order, rice, we, curry, and] को सही क्रम में लगाएं।",
           "Japanese": "[order, rice, we, curry, and]を並べ替えましょう。"
         },
-        "options": ["order", "rice", "we", "curry", "and"],
-        "answer": ["We", "order", "rice", "and", "curry"]
+        "options": [
+          "order",
+          "rice",
+          "we",
+          "curry",
+          "and"
+        ],
+        "answer": [
+          "We",
+          "order",
+          "rice",
+          "and",
+          "curry"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +374,11 @@
           "Hindi": "हमने वेटर को ___ दी।",
           "Japanese": "ウェイターに___を渡しました。"
         },
-        "options": ["dish", "tip", "fork"],
+        "options": [
+          "dish",
+          "tip",
+          "fork"
+        ],
         "answer": 1
       },
       {
@@ -354,61 +397,81 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where do we eat? (Audio: 'We eat at a restaurant.')",
+        "question": "Where do we eat?",
         "audio_text": "We eat at a restaurant.",
         "question_translation": {
           "Hindi": "हम कहाँ खाते हैं?",
           "Japanese": "私たちはどこで食事しますか？"
         },
-        "options": ["restaurant", "school", "home"],
+        "options": [
+          "restaurant",
+          "school",
+          "home"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Who brings the food? (Audio: 'The waiter takes our order.')",
+        "question": "Who brings the food?",
         "audio_text": "The waiter takes our order.",
         "question_translation": {
           "Hindi": "खाना कौन लाता है?",
           "Japanese": "誰が料理を運びますか？"
         },
-        "options": ["waiter", "guest", "menu"],
+        "options": [
+          "waiter",
+          "guest",
+          "menu"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "What do we do with a menu? (Audio: 'The menu has many dishes.')",
+        "question": "What do we do with a menu?",
         "audio_text": "The menu has many dishes.",
         "question_translation": {
           "Hindi": "हम मेन्यू से क्या करते हैं?",
           "Japanese": "メニューで何をしますか？"
         },
-        "options": ["order", "read", "write"],
+        "options": [
+          "order",
+          "read",
+          "write"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "What do you use to eat noodles? (Audio: 'I eat noodles with a fork.')",
+        "question": "What do you use to eat noodles?",
         "audio_text": "I eat noodles with a fork.",
         "question_translation": {
           "Hindi": "नूडल्स खाने के लिए आप क्या इस्तेमाल करते हैं?",
           "Japanese": "麺を食べるのに何を使いますか？"
         },
-        "options": ["glass", "fork", "bill"],
+        "options": [
+          "glass",
+          "fork",
+          "bill"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Why do we leave a tip? (Audio: 'We left a tip for the waiter.')",
+        "question": "Why do we leave a tip?",
         "audio_text": "We left a tip for the waiter.",
         "question_translation": {
           "Hindi": "हम बख्शीश क्यों छोड़ते हैं?",
           "Japanese": "なぜチップを渡しますか？"
         },
-        "options": ["good service", "bad food", "reservation"],
+        "options": [
+          "good service",
+          "bad food",
+          "reservation"
+        ],
         "answer": 0
       }
     ],

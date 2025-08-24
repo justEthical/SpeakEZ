@@ -245,7 +245,11 @@
           "Hindi": "बीमार लोग कहाँ जाते हैं?",
           "Japanese": "病気のときどこへ行きますか？"
         },
-        "options": ["Park", "Hospital", "Library"],
+        "options": [
+          "Park",
+          "Hospital",
+          "Library"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम ___ से सब्ज़ियाँ खरीदते हैं।",
           "Japanese": "私たちは___で野菜を買います。"
         },
-        "options": ["bank", "restaurant", "supermarket"],
+        "options": [
+          "bank",
+          "restaurant",
+          "supermarket"
+        ],
         "answer": 2
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "कौन से स्थान में बहुत सारी किताबें होती हैं?",
           "Japanese": "たくさん本がある場所はどこですか？"
         },
-        "options": ["Library", "Police station", "Post office"],
+        "options": [
+          "Library",
+          "Police station",
+          "Post office"
+        ],
         "answer": 0
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "घर के बाहर आप पिज्जा कहाँ खाते हैं?",
           "Japanese": "家の外でピザを食べる場所はどこですか？"
         },
-        "options": ["School", "Pharmacy", "Restaurant"],
+        "options": [
+          "School",
+          "Pharmacy",
+          "Restaurant"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या बच्चे पार्क में खेलते हैं?",
           "Japanese": "子どもたちは公園で遊びますか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,7 +321,11 @@
           "Hindi": "मेरे पिताजी ___ में काम करते हैं।",
           "Japanese": "私の父は___で働いています。"
         },
-        "options": ["hospital", "bank", "school"],
+        "options": [
+          "hospital",
+          "bank",
+          "school"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "हम ___ में पत्र डालते हैं।",
           "Japanese": "私たちは___で手紙を出します。"
         },
-        "options": ["pharmacy", "post office", "restaurant"],
+        "options": [
+          "pharmacy",
+          "post office",
+          "restaurant"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,20 @@
           "Hindi": "[the, at, I, study, library] को सही क्रम में लगाएं।",
           "Japanese": "[the, at, I, study, library]を並べ替えましょう。"
         },
-        "options": ["the", "at", "I", "study", "library"],
-        "answer": ["I", "study", "at", "the", "library"]
+        "options": [
+          "the",
+          "at",
+          "I",
+          "study",
+          "library"
+        ],
+        "answer": [
+          "I",
+          "study",
+          "at",
+          "the",
+          "library"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +374,11 @@
           "Hindi": "बच्चे ___ में खेलते हैं।",
           "Japanese": "子どもたちは___で遊びます。"
         },
-        "options": ["school", "park", "hospital"],
+        "options": [
+          "school",
+          "park",
+          "hospital"
+        ],
         "answer": 1
       },
       {
@@ -354,61 +397,81 @@
       {
         "id": "listen1",
         "type": "multipleChoice",
-        "question": "Where does my mother work? (Audio: 'My mother works at the hospital.')",
+        "question": "Where does my mother work?",
         "audio_text": "My mother works at the hospital.",
         "question_translation": {
           "Hindi": "मेरी माँ कहाँ काम करती हैं?",
           "Japanese": "私の母はどこで働いていますか？"
         },
-        "options": ["Bank", "Hospital", "School"],
+        "options": [
+          "Bank",
+          "Hospital",
+          "School"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
         "type": "multipleChoice",
-        "question": "Where do you buy medicine? (Audio: 'We get medicine at the pharmacy.')",
+        "question": "Where do you buy medicine?",
         "audio_text": "We get medicine at the pharmacy.",
         "question_translation": {
           "Hindi": "दवा आप कहाँ से खरीदते हैं?",
           "Japanese": "薬はどこで買いますか？"
         },
-        "options": ["Pharmacy", "Library", "Restaurant"],
+        "options": [
+          "Pharmacy",
+          "Library",
+          "Restaurant"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
         "type": "multipleChoice",
-        "question": "Where do children go every day? (Audio: 'Children go to school every day.')",
+        "question": "Where do children go every day?",
         "audio_text": "Children go to school every day.",
         "question_translation": {
           "Hindi": "बच्चे हर दिन कहाँ जाते हैं?",
           "Japanese": "子どもたちは毎日どこへ行きますか？"
         },
-        "options": ["Bank", "School", "Park"],
+        "options": [
+          "Bank",
+          "School",
+          "Park"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
         "type": "multipleChoice",
-        "question": "Where do you buy food? (Audio: 'We buy vegetables at the supermarket.')",
+        "question": "Where do you buy food?",
         "audio_text": "We buy vegetables at the supermarket.",
         "question_translation": {
           "Hindi": "खाने की चीज़ें कहाँ से खरीदी जाती हैं?",
           "Japanese": "食べ物はどこで買いますか？"
         },
-        "options": ["Supermarket", "Restaurant", "Police station"],
+        "options": [
+          "Supermarket",
+          "Restaurant",
+          "Police station"
+        ],
         "answer": 0
       },
       {
         "id": "listen5",
         "type": "multipleChoice",
-        "question": "Where do you read or borrow books? (Audio: 'I study at the library.')",
+        "question": "Where do you read or borrow books?",
         "audio_text": "I study at the library.",
         "question_translation": {
           "Hindi": "आप किताबें कहाँ पढ़ते या उधार लेते हैं?",
           "Japanese": "本を読む・借りるのはどこですか？"
         },
-        "options": ["Library", "Hospital", "Bank"],
+        "options": [
+          "Library",
+          "Hospital",
+          "Bank"
+        ],
         "answer": 0
       }
     ],
