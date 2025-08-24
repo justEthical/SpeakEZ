@@ -351,18 +351,8 @@
           "Hindi": "[city, my, is, clean] को सही क्रम में लगाएं।",
           "Japanese": "[city, my, is, clean]を並べ替えましょう。"
         },
-        "options": [
-          "city",
-          "my",
-          "is",
-          "clean"
-        ],
-        "answer": [
-          "my",
-          "city",
-          "is",
-          "clean"
-        ]
+        "options": ["city", "my", "is", "clean"],
+        "answer": ["my", "city", "is", "clean"]
       },
       {
         "id": "sent4",
@@ -387,26 +377,8 @@
           "Hindi": "[stand, morning, I, stop, bus, at, every] को सही क्रम में लगाएं।",
           "Japanese": "[stand, morning, I, stop, bus, at, every]を並べ替えましょう。"
         },
-        "options": [
-          "stand",
-          "morning",
-          "I",
-          "stop",
-          "bus",
-          "at",
-          "every",
-          "the"
-        ],
-        "answer": [
-          "I",
-          "stand",
-          "at",
-          "the",
-          "bus",
-          "stop",
-          "every",
-          "morning"
-        ]
+        "options": ["stand", "morning", "I", "stop", "bus", "at", "every", "the"],
+        "answer": ["I", "stand", "at", "the", "bus", "stop", "every", "morning"]
       }
     ],
     "listening": [

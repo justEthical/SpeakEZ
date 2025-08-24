@@ -351,20 +351,8 @@
           "Hindi": "[nurse, the, medicine, gives, me] को सही क्रम में लगाएं।",
           "Japanese": "[nurse, the, medicine, gives, me]を並べ替えましょう。"
         },
-        "options": [
-          "nurse",
-          "the",
-          "medicine",
-          "gives",
-          "me"
-        ],
-        "answer": [
-          "the",
-          "nurse",
-          "gives",
-          "me",
-          "medicine"
-        ]
+        "options": ["nurse", "the", "medicine", "gives", "me"],
+        "answer": ["the", "nurse", "gives", "me", "medicine"]
       },
       {
         "id": "sent4",

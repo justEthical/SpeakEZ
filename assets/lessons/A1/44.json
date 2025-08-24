@@ -351,18 +351,8 @@
           "Hindi": "[played, children, football, the] को सही क्रम में लगाएं।",
           "Japanese": "[played, children, football, the]を並べ替えましょう。"
         },
-        "options": [
-          "played",
-          "children",
-          "football",
-          "the"
-        ],
-        "answer": [
-          "the",
-          "children",
-          "played",
-          "football"
-        ]
+        "options": ["played", "children", "football", "the"],
+        "answer": ["the", "children", "played", "football"]
       },
       {
         "id": "sent4",

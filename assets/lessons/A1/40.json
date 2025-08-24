@@ -351,26 +351,8 @@
           "Hindi": "[like, would, you, party, my, to, come] को सही क्रम में लगाएं।",
           "Japanese": "[like, would, you, party, my, to, come]を並べ替えましょう。"
         },
-        "options": [
-          "like",
-          "would",
-          "you",
-          "party",
-          "my",
-          "to",
-          "come",
-          "to"
-        ],
-        "answer": [
-          "Would",
-          "you",
-          "like",
-          "to",
-          "come",
-          "to",
-          "my",
-          "party"
-        ]
+        "options": ["like", "would", "you", "party", "my", "to", "come", "to"],
+        "answer": ["Would", "you", "like", "to", "come", "to", "my", "party"]
       },
       {
         "id": "sent4",
@@ -395,24 +377,8 @@
           "Hindi": "[the, host, of, party, he, is, the] को सही क्रम में लगाएं।",
           "Japanese": "[the, host, of, party, he, is, the]を並べ替えましょう。"
         },
-        "options": [
-          "the",
-          "host",
-          "of",
-          "party",
-          "he",
-          "is",
-          "the"
-        ],
-        "answer": [
-          "he",
-          "is",
-          "the",
-          "host",
-          "of",
-          "the",
-          "party"
-        ]
+        "options": ["the", "host", "of", "party", "he", "is", "the"],
+        "answer": ["he", "is", "the", "host", "of", "the", "party"]
       }
     ],
     "listening": [

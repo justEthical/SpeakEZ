@@ -351,20 +351,8 @@
           "Hindi": "[snacks, friends, with, share, we] को सही क्रम में लगाएं।",
           "Japanese": "[snacks, friends, with, share, we]を並べ替えましょう。"
         },
-        "options": [
-          "snacks",
-          "friends",
-          "with",
-          "share",
-          "we"
-        ],
-        "answer": [
-          "we",
-          "share",
-          "snacks",
-          "with",
-          "friends"
-        ]
+        "options": ["snacks", "friends", "with", "share", "we"],
+        "answer": ["we", "share", "snacks", "with", "friends"]
       },
       {
         "id": "sent4",
@@ -389,26 +377,8 @@
           "Hindi": "[my, secret, to, I, best, tell, friend] को सही क्रम में लगाएं।",
           "Japanese": "[my, secret, to, I, best, tell, friend]を並べ替えましょう。"
         },
-        "options": [
-          "my",
-          "secret",
-          "to",
-          "I",
-          "best",
-          "tell",
-          "friend",
-          "my"
-        ],
-        "answer": [
-          "I",
-          "tell",
-          "my",
-          "secret",
-          "to",
-          "my",
-          "best",
-          "friend"
-        ]
+        "options": ["my", "secret", "to", "I", "best", "tell", "friend", "my"],
+        "answer": ["I", "tell", "my", "secret", "to", "my", "best", "friend"]
       }
     ],
     "listening": [

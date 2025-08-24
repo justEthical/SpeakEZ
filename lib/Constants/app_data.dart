@@ -1,5 +1,6 @@
-class AppData {
-  static const Map<String, List<String>> lessonNames = {
+
+  class AppData {
+    static const Map<String, List<String>>  lessonNames = {
     "A1": [
       "Greetings & Introductions",
       "Numbers & Counting",
@@ -207,7 +208,7 @@ class AppData {
       "Describing Personal Beliefs and Values",
       "Analyzing Case Studies",
       "Participating in Panel Discussions",
-      "Handling Cultural Misunderstandings",
+      "Handling Cultural Misunderstandings"
     ],
     "C1": [
       "Evaluating and Synthesizing Arguments",

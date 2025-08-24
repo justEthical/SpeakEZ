@@ -351,24 +351,8 @@
           "Hindi": "[calls, mother, her, she, phone, on, the] को सही क्रम में लगाएं।",
           "Japanese": "[calls, mother, her, she, phone, on, the]を並べ替えましょう。"
         },
-        "options": [
-          "calls",
-          "mother",
-          "her",
-          "she",
-          "phone",
-          "on",
-          "the"
-        ],
-        "answer": [
-          "she",
-          "calls",
-          "her",
-          "mother",
-          "on",
-          "the",
-          "phone"
-        ]
+        "options": ["calls", "mother", "her", "she", "phone", "on", "the"],
+        "answer": ["she", "calls", "her", "mother", "on", "the", "phone"]
       },
       {
         "id": "sent4",
@@ -393,20 +377,8 @@
           "Hindi": "[computer, we, on, study, the] को सही क्रम में लगाएं।",
           "Japanese": "[computer, we, on, study, the]を並べ替えましょう。"
         },
-        "options": [
-          "computer",
-          "we",
-          "on",
-          "study",
-          "the"
-        ],
-        "answer": [
-          "we",
-          "study",
-          "on",
-          "the",
-          "computer"
-        ]
+        "options": ["computer", "we", "on", "study", "the"],
+        "answer": ["we", "study", "on", "the", "computer"]
       }
     ],
     "listening": [

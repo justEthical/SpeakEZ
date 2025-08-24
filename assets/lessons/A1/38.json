@@ -351,24 +351,8 @@
           "Hindi": "[are, the, trees, many, park, in] को सही क्रम में लगाएं।",
           "Japanese": "[are, the, trees, many, park, in]を並べ替えましょう。"
         },
-        "options": [
-          "are",
-          "the",
-          "trees",
-          "many",
-          "park",
-          "in",
-          "there"
-        ],
-        "answer": [
-          "There",
-          "are",
-          "many",
-          "trees",
-          "in",
-          "the",
-          "park"
-        ]
+        "options": ["are", "the", "trees", "many", "park", "in", "there"],
+        "answer": ["There", "are", "many", "trees", "in", "the", "park"]
       },
       {
         "id": "sent4",

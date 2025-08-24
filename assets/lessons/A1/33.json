@@ -351,22 +351,8 @@
           "Hindi": "[Japanese, can, he, translate, English, to] को सही क्रम में लगाएं।",
           "Japanese": "[Japanese, can, he, translate, English, to]を並べ替えましょう。"
         },
-        "options": [
-          "Japanese",
-          "can",
-          "he",
-          "translate",
-          "English",
-          "to"
-        ],
-        "answer": [
-          "he",
-          "can",
-          "translate",
-          "Japanese",
-          "to",
-          "English"
-        ]
+        "options": ["Japanese", "can", "he", "translate", "English", "to"],
+        "answer": ["he", "can", "translate", "Japanese", "to", "English"]
       },
       {
         "id": "sent4",
