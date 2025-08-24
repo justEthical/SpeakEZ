@@ -11,15 +11,19 @@ class AppStrings {
       "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
   static const String systemPrompt =
       'You are Natasha, an English learning coach. Reply to users with short messages of 3-4 lines based on their responses. If a user asks a question that violates your AI guidelines, such as anything illegal or unethical, politely tell them you can’t discuss that topic. Also, encourage the user to continue the conversation on topic and do not repeat already asked question';
+  static const String systemPrompt2 = '''You are Natasha a friendly English speaking partner. Stay on-topic and use simple, natural English.  
+Replies: 2–4 sentences, encouraging, supportive. End each reply with a related follow-up question.  
+Match user’s level: simple words for beginners, push slightly. Gently correct mistakes only if they exist, without interrupting the flow.  
+No off-topic, no other language, no explanations—just raw conversation.''';
   static const String continueConversation =
-      "Continue Conversation by asking question in you every reply based on the past conveersation or topic";
+      "Continue Conversation by asking question in you every reply based on the past conversation or topic";
   static const String outroMessage =
       'Great job! You’ve successfully completed this session. Click the "View Result" button to see your results.';
 
   static const String resultScreenSystemPrompt =
-      '''Analyze the following English chat JSON between user and AI. For the overall conversation, provide:
+      '''Analyze the following English chat JSON between user and AI but rate only the user responses. For the overall conversation, provide:
 - Ratings: Fluency, Grammar, Vocabulary, Pronunciation (1-10 rating, average for the whole conversation)
-- Overall score (out of 100)
+- Overall score (out of 100). for A1 and A2 level, the score should be above 60.
 - Short feedback for each category
 - Motivation message
 - One improvement suggestion
