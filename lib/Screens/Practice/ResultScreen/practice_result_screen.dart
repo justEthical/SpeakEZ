@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
+import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 
 import 'Widgets/result_title.dart';
@@ -19,7 +22,7 @@ class PracticeResultSreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = Get.find<PracticeController>();
     final theme = Theme.of(context);
-    c.updateLesssonProgress();
+    c.updatePracticeProgress();
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
@@ -190,7 +193,22 @@ class PracticeResultSreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: ElevatedButton(
-        onPressed: () => Get.back(),
+        onPressed: () {
+          Get.back();
+          final completedSessions =
+              globalController.prefs?.getInt(
+                AppStrings.completedPracticeSessions,
+              ) ??
+              0;
+          final isItTimeToShowCustomReview = completedSessions % 5;
+          if ((isItTimeToShowCustomReview == 1) &&
+              !globalController
+                  .userProfile
+                  .value
+                  .isShownCustomReviewDialogOnce) {
+            Get.to(() => const CustomReviewScreen());
+          }
+        },
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.black,
           minimumSize: const Size(double.infinity, 55),

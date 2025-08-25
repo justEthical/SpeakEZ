@@ -7,12 +7,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
-import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/lessons_exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
-import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 
@@ -122,14 +120,7 @@ class QuestionOptionsController extends GetxController {
       globalController.userProfile.value.lastActive = DateTime.now();
     }
 
-    // updating user profile in local storage
-    globalController.prefs?.setString(
-      AppStrings.userProfile,
-      jsonEncode(globalController.userProfile.value.toMap()),
-    );
-
-    // updating user profile in firestore
-    FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
+    globalController.updateProfile();
   }
 
   void startRecording() {

@@ -16,7 +16,6 @@ import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
-import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -25,7 +24,7 @@ import '../Utils/audio_chunk_recorder.dart';
 
 class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
-  
+
   var currentUserSessionMessage = 0.obs;
   var maxNumberOfAiResponsesPerSession = kDebugMode ? 2 : 10;
   final chatScrollController = ScrollController();
@@ -40,7 +39,7 @@ class PracticeController extends GetxController {
   var currentChats = <ChatModel>[].obs;
   late Worker isLastChunkWorker;
   late StreamSubscription<bool> sub;
-  
+
   ScenarioModel? currentScenarioModel;
   var isSpeaking = false.obs;
 
@@ -59,7 +58,6 @@ class PracticeController extends GetxController {
   }
 
   _addRecordingChatCell() {
-    
     isRecordingInProgress.value = true;
     isRecordingPaused.value = false;
     currentChats.add(
@@ -96,7 +94,9 @@ class PracticeController extends GetxController {
       print("Listener called: $val");
       if (val) {
         currentChats.remove(currentChats.last);
-        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
+        globalController.transcriptionText.value = removeBracketedWords(
+          globalController.transcriptionText.value,
+        );
         currentChats.add(
           ChatModel(
             message: globalController.transcriptionText.value,
@@ -180,7 +180,7 @@ class PracticeController extends GetxController {
 
   getAiResponse() async {
     var response = await NetworkService.getAiResponseFromGroq(
-      userPrompt:  globalController.transcriptionText.value,
+      userPrompt: globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
       pastConversation: getPastConversation(),
     );
@@ -222,8 +222,17 @@ class PracticeController extends GetxController {
     });
   }
 
-updateLesssonProgress() {
-    globalController.userProfile.value.currentEnglishLevelProgress++;
+  void updatePracticeProgress() {
+      final completedSessions =
+          globalController.prefs?.getInt(
+            AppStrings.completedPracticeSessions,
+          ) ??
+          0;
+      globalController.prefs?.setInt(
+        AppStrings.completedPracticeSessions,
+        completedSessions + 1,
+      );
+
     final lastActive = globalController.userProfile.value.lastActive;
     final now = DateTime.now();
     if (!(lastActive.year == now.year &&
@@ -232,18 +241,12 @@ updateLesssonProgress() {
       globalController.userProfile.value.currentStreak++;
     }
 
-    
     globalController.userProfile.value.lastActive = DateTime.now();
 
-    // updating user profile in local storage
-    globalController.prefs?.setString(
-      AppStrings.userProfile,
-      jsonEncode(globalController.userProfile.value.toMap()),
-    );
-
-    // updating user profile in firestore
-    FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
+    
+    globalController.updateProfile();
   }
+
   void addLastMessage() {
     currentChats.add(
       ChatModel(

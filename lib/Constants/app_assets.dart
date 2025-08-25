@@ -16,6 +16,7 @@ class AppAssets {
   static String get downloading => _getFullLottiePath("downloading.lottie");
   static String get mic => _getFullLottiePath("mic.lottie");
   static String get loader => _getFullLottiePath("loader.lottie");
+  static String get rating => _getFullLottiePath("rating.lottie");  
 
   //Audio files
   static String get correct => "correct.mp3";

@@ -19,6 +19,7 @@ No off-topic, no other language, no explanations—just raw conversation.''';
       "Continue Conversation by asking question in you every reply based on the past conversation or topic";
   static const String outroMessage =
       'Great job! You’ve successfully completed this session. Click the "View Result" button to see your results.';
+  static const String reviewRequest = "✨ “I’m also a student learning English, and I built this app to help friends like us. Your 1-minute review will mean a lot and inspire me to keep improving. 🙏💜”";
 
   static const String resultScreenSystemPrompt =
       '''Analyze the following English chat JSON between user and AI but rate only the user responses. For the overall conversation, provide:
@@ -57,6 +58,7 @@ Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
   static const String userAuthState = "user_auth_state";
   static const String userProfile = "user_profile";
   static const String remoteConfig = "remote_config";
+  static const String completedPracticeSessions = "completed_practice_sessions";
 
   static const String appWriteProjectId = "68922bff001e5c2efef0";
   static const String appWriteEndPointUrl = "https://nyc.cloud.appwrite.io/v1";

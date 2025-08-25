@@ -191,6 +191,7 @@ class OnboardingController extends GetxController {
       confidence: onboardingQuestionAnswerMap['confidence'] ?? '',
       preferredPractice: onboardingQuestionAnswerMap['preferredPractice'] ?? '',
       motherTongue: onboardingQuestionAnswerMap['motherTongue'] ?? '',
+      isShownCustomReviewDialogOnce: false,
     );
     globalController.userProfile.value = userProfile;
     globalController.prefs?.setString(

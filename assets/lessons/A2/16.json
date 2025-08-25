@@ -243,150 +243,240 @@
       }
     ]
   },
-  "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What do you say when someone asks for help?",
-        "question_translation": {
-          "Hindi": "जब कोई मदद माँगता है तो आप क्या कहते हैं?",
-          "Japanese": "誰かが助けを求めたとき、何と言いますか？"
-        },
-        "options": [
-          "How old are you?",
-          "You should try this.",
-          "Let’s go shopping."
-        ],
-        "answer": 1
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What do you say when someone asks for help?",
+      "question_translation": {
+        "Hindi": "जब कोई मदद माँगता है तो आप क्या कहते हैं?",
+        "Japanese": "誰かが助けを求めたとき、何と言いますか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "You ___ see a doctor.",
-        "question_translation": {
-          "Hindi": "तुम्हें ___ डॉक्टर को दिखाना चाहिए।",
-          "Japanese": "あなたは医者に___べきです。"
-        },
-        "options": [
-          "would",
-          "should",
-          "can"
-        ],
-        "answer": 1
+      "options": ["How old are you?", "You should try this.", "Let’s go shopping."],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "You ___ see a doctor.",
+      "question_translation": {
+        "Hindi": "तुम्हें ___ डॉक्टर को दिखाना चाहिए।",
+        "Japanese": "あなたは医者に___べきです。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "'Why don’t you talk to her?' is a way of giving advice.",
-        "question_translation": {
-          "Hindi": "'Why don’t you talk to her?' सलाह देने का एक तरीका है।",
-          "Japanese": "「Why don’t you talk to her?」はアドバイスの表現です。"
-        },
-        "options": [
-          "True",
-          "False"
-        ],
-        "answer": 0
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "If you have a cold, you ___ rest.",
-        "question_translation": {
-          "Hindi": "अगर आपको सर्दी है, तो आपको ___ करना चाहिए।",
-          "Japanese": "風邪を引いているなら、___すべきです。"
-        },
-        "options": [
-          "should",
-          "could",
-          "will"
-        ],
-        "answer": 0
+      "options": ["would", "should", "can"],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "'Why don’t you talk to her?' is a way of giving advice.",
+      "question_translation": {
+        "Hindi": "'Why don’t you talk to her?' सलाह देने का एक तरीका है।",
+        "Japanese": "「Why don’t you talk to her?」はアドバイスの表現です。"
       },
-      {
-        "id": "sent2",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [see, You, a, should, dentist]",
-        "question_translation": {
-          "Hindi": "क्रम में लगाएं: [see, You, a, should, dentist]",
-          "Japanese": "並べ替え: [see, You, a, should, dentist]"
-        },
-        "options": [
-          "You",
-          "should",
-          "see",
-          "a",
-          "dentist"
-        ],
-        "answer": [
-          "You",
-          "should",
-          "see",
-          "a",
-          "dentist"
-        ]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "multipleChoice",
-        "question": "What advice did the speaker give?",
-        "audio_text": "You should drink more water.",
-        "question_translation": {
-          "Hindi": "वक्ता ने क्या सलाह दी?",
-          "Japanese": "話者はどんなアドバイスをしましたか？"
-        },
-        "options": [
-          "Drink more water",
-          "Go to the gym",
-          "Eat more candy"
-        ],
-        "answer": 0
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase is formal advice?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य औपचारिक सलाह है?",
+        "Japanese": "どの表現が形式的なアドバイスですか？"
       },
-      {
-        "id": "listen2",
-        "type": "multipleChoice",
-        "question": "What does the speaker suggest?",
-        "audio_text": "Why don’t you talk to your teacher?",
-        "question_translation": {
-          "Hindi": "वक्ता क्या सुझाव दे रहा है?",
-          "Japanese": "話者は何を提案していますか？"
-        },
-        "options": [
-          "Talk to your teacher",
-          "Do your homework",
-          "Skip class"
-        ],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'You should eat healthy food.'",
-        "question_translation": {
-          "Hindi": "कहें: 'You should eat healthy food.'",
-          "Japanese": "言ってください: 'You should eat healthy food.'"
-        },
-        "options": [],
-        "answer": "you should eat healthy food"
+      "options": ["You ought to study harder.", "Take it easy!", "Why don’t you relax?"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "I ___ recommend this restaurant.",
+      "question_translation": {
+        "Hindi": "मैं इस रेस्तरां की ___ करता हूँ।",
+        "Japanese": "私はこのレストランを___します。"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'Why don’t you call him?'",
-        "question_translation": {
-          "Hindi": "कहें: 'Why don’t you call him?'",
-          "Japanese": "言ってください: 'Why don’t you call him?'"
-        },
-        "options": [],
-        "answer": "why don’t you call him"
-      }
-    ]
-  }
+      "options": ["seek", "recommend", "ought"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "If you have a cold, you ___ rest.",
+      "question_translation": {
+        "Hindi": "अगर आपको सर्दी है, तो आपको ___ करना चाहिए।",
+        "Japanese": "風邪を引いているなら、___すべきです。"
+      },
+      "options": ["should", "could", "will"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [see, You, a, should, dentist]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [see, You, a, should, dentist]",
+        "Japanese": "並べ替え: [see, You, a, should, dentist]"
+      },
+      "options": ["You", "should", "see", "a", "dentist"],
+      "answer": ["You", "should", "see", "a", "dentist"]
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence gives advice?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सलाह देता है?",
+        "Japanese": "どの文がアドバイスをしていますか？"
+      },
+      "options": ["I like apples.", "You should sleep more.", "He is my friend."],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "You ___ not be late for the interview.",
+      "question_translation": {
+        "Hindi": "आपको इंटरव्यू के लिए देर नहीं ___।",
+        "Japanese": "面接には遅れて___ません。"
+      },
+      "options": ["should", "could", "may"],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "trueFalse",
+      "question": "‘Ought to’ is stronger and more formal than ‘should’.",
+      "question_translation": {
+        "Hindi": "'Ought to' 'should' से अधिक औपचारिक है।",
+        "Japanese": "「ought to」は「should」よりも形式的です。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What advice did the speaker give?",
+      "audio_text": "You should drink more water.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या सलाह दी?",
+        "Japanese": "話者はどんなアドバイスをしましたか？"
+      },
+      "options": ["Drink more water", "Go to the gym", "Eat more candy"],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What does the speaker suggest?",
+      "audio_text": "Why don’t you talk to your teacher?",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सुझाव दे रहा है?",
+        "Japanese": "話者は何を提案していますか？"
+      },
+      "options": ["Talk to your teacher", "Do your homework", "Skip class"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What does the speaker recommend?",
+      "audio_text": "I recommend reading this book.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सिफारिश कर रहा है?",
+        "Japanese": "話者は何を勧めていますか？"
+      },
+      "options": ["Watching TV", "Reading this book", "Sleeping early"],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What should the listener do?",
+      "audio_text": "You ought to see a doctor soon.",
+      "question_translation": {
+        "Hindi": "श्रोता को क्या करना चाहिए?",
+        "Japanese": "聞き手は何をすべきですか？"
+      },
+      "options": ["Go shopping", "See a doctor", "Play football"],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What advice does the speaker give?",
+      "audio_text": "Take it easy and don’t worry too much.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सलाह देता है?",
+        "Japanese": "話者はどんなアドバイスをしましたか？"
+      },
+      "options": ["Work harder", "Take it easy", "Run faster"],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'You should eat healthy food.'",
+      "question_translation": {
+        "Hindi": "कहें: 'You should eat healthy food.'",
+        "Japanese": "言ってください: 'You should eat healthy food.'"
+      },
+      "options": [],
+      "answer": "you should eat healthy food"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Why don’t you call him?'",
+      "question_translation": {
+        "Hindi": "कहें: 'Why don’t you call him?'",
+        "Japanese": "言ってください: 'Why don’t you call him?'"
+      },
+      "options": [],
+      "answer": "why don’t you call him"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I recommend trying yoga.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मैं योग आज़माने की सिफारिश करता हूँ।'",
+        "Japanese": "言ってください:「ヨガを試してみることを勧めます。」"
+      },
+      "options": [],
+      "answer": "i recommend trying yoga"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'You ought to apologize.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आपको माफ़ी माँगनी चाहिए।'",
+        "Japanese": "言ってください:「謝るべきです。」"
+      },
+      "options": [],
+      "answer": "you ought to apologize"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Take it easy and relax.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आराम करो और चिंता मत करो।'",
+        "Japanese": "言ってください:「気楽にしてリラックスしてください。」"
+      },
+      "options": [],
+      "answer": "take it easy and relax"
+    }
+  ]
+}
+
 }
