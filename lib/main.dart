@@ -14,7 +14,6 @@ import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
-import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Utils/theme.dart';
 
