@@ -102,7 +102,7 @@ class NetworkService {
   }) async {
     final pastConversationEncoded = jsonEncode(pastConversation);
     final systemPrompt =
-        "${AppStrings.systemPrompt2} . TOPIC: $topic. PAST CONVERSATION: $pastConversationEncoded.\n English level: ${globalController.userProfile.value.currentEnglishLevel}.";
+        "${AppStrings.systemPrompt} . TOPIC: $topic. PAST CONVERSATION: $pastConversationEncoded.\n English level: ${globalController.userProfile.value.currentEnglishLevel}.";
     try {
       final body = getBodyForGroq(systemPrompt, userPrompt);
       Response response = await dio.post(
@@ -127,23 +127,28 @@ class NetworkService {
     return null;
   }
 
-  static Map getBodyForGroq(systemPrompt, userPrompt, {String responseMimeType = "text", maxToken = 80}) {
-    return {
+  static Map getBodyForGroq(systemPrompt, userPrompt, { bool isfromResultGeneration = false}) {
+    final response = {
       "messages": [
         {"role": "system", "content": systemPrompt},
         {"role": "user", "content": userPrompt},
       ],
       "model": "llama-3.1-8b-instant",
       "temperature": 1,
-      "max_completion_tokens": maxToken,
-      "response_format": {
-           "type": responseMimeType
-      },
+      "max_completion_tokens": 80,
       "top_p": 1,
       "stream": false,
       "stop": null,
     };
+    if(isfromResultGeneration){
+      response['model'] = 'openai/gpt-oss-20b';
+      response['max_completion_tokens'] = 1000;
+      response['reasoning_effort'] = 'medium';
+      response['response_format'] = {'type': 'json_object'};
+    }
+    return response;
   }
+
 
 static Future<String?> getConversationAiFeedbackResultFromGroq(
     List<Map<String, dynamic>> pastConversation,
@@ -152,7 +157,7 @@ static Future<String?> getConversationAiFeedbackResultFromGroq(
     final systemPrompt =
         "${AppStrings.resultScreenSystemPrompt} user english level: ${globalController.userProfile.value.currentEnglishLevel}";
     try {
-      final body = getBodyForGroq(systemPrompt, pastConversationEncoded, responseMimeType: "json_object", maxToken: 1000);
+      final body = getBodyForGroq(systemPrompt, pastConversationEncoded, isfromResultGeneration: true);
       Response response = await dio.post(
         groqBaseUrl,
         options: Options(
