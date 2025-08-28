@@ -5,6 +5,8 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class TabBarScreen extends StatefulWidget {
   const TabBarScreen({super.key});
@@ -51,6 +53,15 @@ class _TabBarScreenState extends State<TabBarScreen> {
         bottomNavigationBar: Obx(
           () => BottomNavigationBar(
             onTap: (value) {
+              final tabName = value == 0 ? 'progress' : 'practice';
+              PostHogService.instance.capture(
+                PostHogEvents.tabChanged,
+                properties: {
+                  'tab_name': tabName,
+                  'tab_index': value,
+                  'screen_name': 'tab_bar_screen',
+                },
+              );
               globalController.currentTabIndex.value = value;
               globalController.cutomTabBarController.animateToPage(
                 value,

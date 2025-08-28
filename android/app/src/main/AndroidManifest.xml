@@ -45,6 +45,7 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5948017215945465~5969898938"/>
+        <meta-data android:name="com.posthog.posthog.AUTO_INIT" android:value="false" />
     </application>
 
     <queries>

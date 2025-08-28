@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class SettingsOptionTile extends StatefulWidget {
   final String icon;
   final String heading;
   final String content;
-  final onTap;
+  final VoidCallback? onTap;
   const SettingsOptionTile({
     super.key,
     this.heading = "",
@@ -25,7 +27,16 @@ class _SettingsOptionTileState extends State<SettingsOptionTile> {
       children: [
         // const Divider(thickness: 1, color: Colors.grey),
         InkWell(
-          onTap: widget.onTap,
+          onTap: () {
+            PostHogService.instance.capture(
+              PostHogEvents.settingsOptionClicked,
+              properties: {
+                'option_name': widget.content,
+                'option_heading': widget.heading,
+              },
+            );
+            widget.onTap?.call();
+          },
           child: Container(
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(

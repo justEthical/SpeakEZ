@@ -5,6 +5,8 @@ import 'dart:convert';
 
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class NetworkService {
   static final dio = Dio();
@@ -39,8 +41,20 @@ class NetworkService {
         return response.data['candidates'][0]['content']['parts'][0]['text'];
       }
     } on DioException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.apiCallFailed,
+        errorMessage: 'Dio error: ${e.message}',
+        location: 'NetworkService.getAiReposne',
+        additionalProperties: {'api': 'gemini', 'topic': topic},
+      );
       print('Dio error: ${e.message}');
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.networkError,
+        errorMessage: 'Other error: $e',
+        location: 'NetworkService.getAiReposne',
+        additionalProperties: {'api': 'gemini', 'topic': topic},
+      );
       print('Other error: $e');
     }
     return null;
@@ -61,8 +75,20 @@ class NetworkService {
         return response.data['candidates'][0]['content']['parts'][0]['text'];
       }
     } on DioException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.apiCallFailed,
+        errorMessage: 'Dio error: ${e.message}',
+        location: 'NetworkService.getConversationAiFeedbackResult',
+        additionalProperties: {'api': 'gemini'},
+      );
       print('Dio error: ${e.message}');
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.networkError,
+        errorMessage: 'Other error: $e',
+        location: 'NetworkService.getConversationAiFeedbackResult',
+        additionalProperties: {'api': 'gemini'},
+      );
       print('Other error: $e');
     }
     return null;
@@ -120,8 +146,20 @@ class NetworkService {
         return response.data['choices'][0]['message']['content'];
       }
     } on DioException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.apiCallFailed,
+        errorMessage: 'Dio error: ${e.message}',
+        location: 'NetworkService.getAiResponseFromGroq',
+        additionalProperties: {'api': 'groq', 'topic': topic},
+      );
       print('Dio error: ${e.message}');
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.networkError,
+        errorMessage: 'Other error: $e',
+        location: 'NetworkService.getAiResponseFromGroq',
+        additionalProperties: {'api': 'groq', 'topic': topic},
+      );
       print('Other error: $e');
     }
     return null;
@@ -173,8 +211,20 @@ static Future<String?> getConversationAiFeedbackResultFromGroq(
         return response.data['choices'][0]['message']['content'];
       }
     } on DioException catch (e) { 
+      PostHogService.instance.captureError(
+        PostHogEvents.apiCallFailed,
+        errorMessage: 'Dio error: ${e.message}',
+        location: 'NetworkService.getConversationAiFeedbackResultFromGroq',
+        additionalProperties: {'api': 'groq'},
+      );
       print('Dio error: ${e.message}'); 
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.networkError,
+        errorMessage: 'Other error: $e',
+        location: 'NetworkService.getConversationAiFeedbackResultFromGroq',
+        additionalProperties: {'api': 'groq'},
+      );
       print('Other error: $e'); 
     }
      return null;

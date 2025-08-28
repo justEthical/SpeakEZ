@@ -7,6 +7,8 @@ import 'package:speak_ez/Screens/Practice/ResultScreen/practice_result_screen.da
 import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_screen_bottom_bar.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 import 'Widgets/progress_bar.dart';
 
@@ -23,8 +25,20 @@ class _ChatScreenState extends State<ChatScreen> {
   var isBottomSheetOpen = false;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
+    PostHogService.instance.captureScreenView(
+      'practice_chat_screen',
+      properties: {
+        'scenario_title': widget.scenarioModel.title,
+        'scenario_description': widget.scenarioModel.description,
+      },
+    );
+    PostHogService.instance.capture(
+      PostHogEvents.practiceStarted,
+      properties: {
+        'scenario_title': widget.scenarioModel.title,
+      },
+    );
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       c.currentScenarioModel = widget.scenarioModel;
       c.addInitialMessage();
@@ -34,8 +48,14 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
+    PostHogService.instance.capture(
+      PostHogEvents.practiceExited,
+      properties: {
+        'scenario_title': widget.scenarioModel.title,
+        'messages_count': c.currentUserSessionMessage.value,
+      },
+    );
     if (globalController.isWhisperInitialized.value) {
       globalController.whisperSendPort.send('stop');
       globalController.isWhisperInitialized.value = false;
