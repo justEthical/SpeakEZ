@@ -179,9 +179,9 @@ class NetworkService {
       "stop": null,
     };
     if(isfromResultGeneration){
-      response['model'] = 'openai/gpt-oss-20b';
+      response['model'] = 'gemma2-9b-it';
       response['max_completion_tokens'] = 1000;
-      response['reasoning_effort'] = 'medium';
+      // response['reasoning_effort'] = 'medium';
       response['response_format'] = {'type': 'json_object'};
     }
     return response;

@@ -26,7 +26,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
 
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 10 : 10;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 5;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
