@@ -19,12 +19,9 @@ class PostHogService {
     try {
       final apiKey = dotenv.env['POSTHOG_API_KEY']??'';
       final config = PostHogConfig(apiKey);
-      config.host = 'https://us.i.posthog.com';
-      config.debug = true; //!kReleaseMode;
+      config.host = dotenv.env['POSTHOG_HOST']??'';
+      config.debug = !kReleaseMode;
       config.captureApplicationLifecycleEvents = true;
-      // check https://posthog.com/docs/session-replay/installation?tab=Flutter
-      // for more config and to learn about how we capture sessions on mobile
-      // and what to expect
       config.sessionReplay = true;
       // choose whether to mask images or text
       config.sessionReplayConfig.maskAllTexts = false;
