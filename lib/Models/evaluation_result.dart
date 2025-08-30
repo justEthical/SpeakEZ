@@ -6,7 +6,7 @@ class EvaluationResult {
   final FeedbackCategory pronunciation;
   final String motivation;
   final String suggestion;
-  final List<String> correction;
+
 
   EvaluationResult({
     required this.score,
@@ -16,7 +16,7 @@ class EvaluationResult {
     required this.pronunciation,
     required this.motivation,
     required this.suggestion,
-    required this.correction,
+
   });
 
   factory EvaluationResult.fromJson(Map<String, dynamic> json) {
@@ -28,7 +28,6 @@ class EvaluationResult {
       pronunciation: FeedbackCategory.fromJson(json['pronunciation']),
       motivation: json['motivation'],
       suggestion: json['suggestion'],
-      correction: List<String>.from(json['correction']),
     );
   }
 
@@ -41,7 +40,6 @@ class EvaluationResult {
       'pronunciation': pronunciation.toJson(),
       'motivation': motivation,
       'suggestion': suggestion,
-      'correction': correction,
     };
   }
 }

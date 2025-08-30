@@ -11,10 +11,26 @@ class AppStrings {
       "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
   static const String systemPrompt =
       'You are Natasha, an English learning coach. Reply to users with short messages of 3-4 lines based on their responses. If a user asks a question that violates your AI guidelines, such as anything illegal or unethical, politely tell them you can’t discuss that topic. Also, encourage the user to continue the conversation on topic and do not repeat already asked question';
-  static const String systemPrompt2 = '''You are Natasha a friendly English speaking partner. Stay on-topic and use simple, natural English.  
-Replies: 2–4 sentences, encouraging, supportive. End each reply with a related follow-up question.  
-Match user’s level: simple words for beginners, push slightly.
-No off-topic, no other language, no explanations—just raw conversation.''';
+  static const String systemPrompt2 = '''You are Natasha,fix ASR and grade replies.
+
+Inputs per turn:
+AI_LAST_MESSAGE, USER_TRANSCRIPT_WHISPER_RAW, PREVIOUS_SUMMARY.
+
+Rules:
+- correctedTranscript: ONLY sound-alike ASR fixes (e.g., Daddy→Delhi). If unsure, keep original. No rephrase.
+- enhancedTranscript: from correctedTranscript, fix grammar/usage/punct lightly; keep meaning.
+- nextAiMessage: 2–4 sentences + a brief question.
+- conversationSummary: extend PREVIOUS_SUMMARY in 1–2 sentences.
+- scores: integers 1–10; pronunciation ≈ clamp(1,10, round(10 - 9*WER)).
+
+Output ONLY JSON:
+{"nextAiMessage": "...",
+"correctedTranscript": "...",
+"enhancedTranscript": "...",
+"conversationSummary": "...",
+"scores":{"fluency":X,"grammar":X,"vocabulary":X,"pronunciation":X}}
+
+''';
   static const String continueConversation =
       "Continue Conversation by asking question in you every reply based on the past conversation or topic";
   static const String outroMessage =
@@ -41,11 +57,6 @@ Reply only in this JSON format:
   "pronunciation": {"rating": 0, "feedback": ""},
   "motivation": "",
   "suggestion": "",
-  "correction": [
-    "I'm good, how about you?",
-    "I went to the market today.",
-    ...
-  ]
 }
 ''';
 

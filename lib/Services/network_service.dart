@@ -122,15 +122,16 @@ class NetworkService {
   
 
   static Future<String?> getAiResponseFromGroq({
-    required String userPrompt,
+    required String userReply,
     required String topic,
-    required List<Map<String, dynamic>> pastConversation,
+    required  String lastAiMessage, // test also after removing it
+    required  String summary
   }) async {
-    final pastConversationEncoded = jsonEncode(pastConversation);
+    final pastConversationEncoded = jsonEncode({'ai': lastAiMessage, 'user': userReply});
     final systemPrompt =
-        "${AppStrings.systemPrompt} . TOPIC: $topic. PAST CONVERSATION: $pastConversationEncoded.\n English level: ${globalController.userProfile.value.currentEnglishLevel}.";
+        "${AppStrings.systemPrompt2} . TOPIC: $topic.\n English level: ${globalController.userProfile.value.currentEnglishLevel}. SUMMARY: $summary";
     try {
-      final body = getBodyForGroq(systemPrompt, userPrompt);
+      final body = getBodyForGroq(systemPrompt, pastConversationEncoded);
       Response response = await dio.post(
         groqBaseUrl,
         options: Options(
@@ -171,12 +172,13 @@ class NetworkService {
         {"role": "system", "content": systemPrompt},
         {"role": "user", "content": userPrompt},
       ],
-      "model": "llama-3.1-8b-instant",
+      "model": "gemma2-9b-it",
       "temperature": 1,
-      "max_completion_tokens": 80,
+      "max_completion_tokens": 500,
       "top_p": 1,
       "stream": false,
       "stop": null,
+      "response_format": {'type': 'json_object'}
     };
     if(isfromResultGeneration){
       response['model'] = 'gemma2-9b-it';

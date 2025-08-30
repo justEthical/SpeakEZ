@@ -41,6 +41,8 @@ class _ChatScreenState extends State<ChatScreen> {
     );
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       c.currentScenarioModel = widget.scenarioModel;
+      c.currentConversationSummary = '';
+      c.aiResponseList.clear();
       c.addInitialMessage();
       globalController.startWhisperIsolate();
     });
