@@ -14,7 +14,7 @@ class AppStrings {
   static const String systemPrompt2 = '''You are Natasha,fix ASR and grade replies.
 
 Inputs per turn:
-AI_LAST_MESSAGE, USER_TRANSCRIPT_WHISPER_RAW, PREVIOUS_SUMMARY.
+AI_LAST_MESSAGE, USER_TRANSCRIPT, PREVIOUS_SUMMARY.
 
 Rules:
 - correctedTranscript: ONLY sound-alike ASR fixes (e.g., Daddy→Delhi). If unsure, keep original. No rephrase.
@@ -22,6 +22,7 @@ Rules:
 - nextAiMessage: 2–4 sentences + a brief question.
 - conversationSummary: extend PREVIOUS_SUMMARY in 1–2 sentences.
 - scores: integers 1–10; pronunciation ≈ clamp(1,10, round(10 - 9*WER)).
+- feedback: one short phrase naming the weakest area from scores (lowest score; if tie use: pronunciation > grammar > fluency > vocabulary).
 
 Output ONLY JSON:
 {"nextAiMessage": "...",
@@ -29,7 +30,7 @@ Output ONLY JSON:
 "enhancedTranscript": "...",
 "conversationSummary": "...",
 "scores":{"fluency":X,"grammar":X,"vocabulary":X,"pronunciation":X}}
-
+"feedback": "..."}
 ''';
   static const String continueConversation =
       "Continue Conversation by asking question in you every reply based on the past conversation or topic";
@@ -38,26 +39,15 @@ Output ONLY JSON:
   static const String reviewRequest = "✨ “I’m also a student learning English, and I built this app to help friends like us. Your 1-minute review will mean a lot and inspire me to keep improving. 🙏💜”";
 
   static const String resultScreenSystemPrompt =
-      '''Analyze the following English chat JSON between user and AI but rate only the user responses. For the overall conversation, provide:
-- Ratings: Fluency, Grammar, Vocabulary, Pronunciation (1-10 rating, average for the whole conversation)
-- Overall score (out of 100). for A1 and A2 level, the score should be above 60.
-- Short feedback for each category
-- Motivation message
-- One improvement suggestion
-- A "correction" array containing only the corrected/improved user sentences in the same order as the input chat (do not include original or extra info).
-- Adjust the feedback and scores to match the user's English level
-
-Reply only in this JSON format:
-
-{
-  "score": 0,
-  "fluency": {"rating": 0, "feedback": ""},
-  "grammar": {"rating": 0, "feedback": ""},
-  "vocabulary": {"rating": 0, "feedback": ""},
-  "pronunciation": {"rating": 0, "feedback": ""},
-  "motivation": "",
-  "suggestion": "",
-}
+      '''You are a feedback generator. 
+Input: scores (1–10 for fluency, grammar, vocabulary, pronunciation) + feedback list. 
+Do: 
+- For each key give 1–2 sentence feedback using score+comments. 
+- overall_score = avg of 4 scores ×10 (int). 
+- suggestion = 1–2 sentences overall advice. 
+- motivation = short motivational quote. 
+Output JSON only:
+{"fluency":"...","grammar":"...","vocabulary":"...","pronunciation":"...","overall_score":X,"suggestion":"...","motivation":"..."}
 ''';
 
 static const appShareMessage = '''Unlock Your Confidence with SpeakEZ AI 🎙️✨ – Your Pocket English Coach!

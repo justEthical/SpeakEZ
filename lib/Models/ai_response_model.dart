@@ -7,6 +7,7 @@ class AIResponseModel {
   final String enhancedTranscript;
   final String conversationSummary;
   final Scores scores;
+  final String feedback;
 
   const AIResponseModel({
     required this.nextAiMessage,
@@ -14,6 +15,7 @@ class AIResponseModel {
     required this.enhancedTranscript,
     required this.conversationSummary,
     required this.scores,
+    required this.feedback,
   });
 
   /// Create from a decoded Map (e.g., jsonDecode response).
@@ -24,6 +26,7 @@ class AIResponseModel {
       enhancedTranscript: map['enhancedTranscript'] as String? ?? '',
       conversationSummary: map['conversationSummary'] as String? ?? '',
       scores: Scores.fromMap(map['scores'] as Map<String, dynamic>),
+      feedback: map['feedback'] as String? ?? '',
     );
   }
 
@@ -38,6 +41,7 @@ class AIResponseModel {
         'enhancedTranscript': enhancedTranscript,
         'conversationSummary': conversationSummary,
         'scores': scores.toMap(),
+        'feedback': feedback
       };
 
   /// Convert to a JSON string.
@@ -57,6 +61,7 @@ class AIResponseModel {
       enhancedTranscript: enhancedTranscript ?? this.enhancedTranscript,
       conversationSummary: conversationSummary ?? this.conversationSummary,
       scores: scores ?? this.scores,
+      feedback: feedback
     );
   }
 

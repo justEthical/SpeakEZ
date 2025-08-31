@@ -13,7 +13,7 @@ import 'Widgets/result_title.dart';
 import 'Widgets/score_bar.dart';
 
 class PracticeResultSreen extends StatelessWidget {
-  final EvaluationResult result;
+  final FeedbackResult result;
   PracticeResultSreen({super.key, required this.result});
 
   final GlobalKey globalKey = GlobalKey();
@@ -116,7 +116,7 @@ class PracticeResultSreen extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
-            "Score: ${result.score}/100",
+            "Score: ${result.overallScore}/100",
             style: GoogleFonts.nunito(
               fontSize: 36,
               color: Colors.white,
@@ -124,7 +124,7 @@ class PracticeResultSreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
-          ScoreBar(score: result.score),
+          ScoreBar(score: result.overallScore),
         ],
       ),
     );
@@ -152,26 +152,33 @@ class PracticeResultSreen extends StatelessWidget {
   }
 
   Widget _buildFeedbackSection(PracticeController c) {
+    final [scoreMap, feedbackList] = c.getAverageScoreAndFeedback();
     return Column(
       children: [
         ResultTile(
           onTap: () {},
           icon: AppAssets.fluency,
-          heading: 'Fluency (${result.fluency.rating}/10)',
-          content: result.fluency.feedback,
+          heading: 'Fluency (${scoreMap['fluency']}/10)',
+          content: result.fluency,
           padding: 10,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.grammar,
-          heading: 'Grammar (${result.grammar.rating}/10)',
-          content: result.grammar.feedback,
+          heading: 'Grammar (${scoreMap['grammar']}/10)',
+          content: result.grammar,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.vocabulary,
-          heading: 'Vocabulary (${result.vocabulary.rating}/10)',
-          content: result.vocabulary.feedback,
+          heading: 'Vocabulary (${scoreMap['vocabulary']}/10)',
+          content: result.vocabulary,
+        ),
+        ResultTile(
+          onTap: () {},
+          icon: AppAssets.prononciation,
+          heading: 'Pronunciation (${scoreMap['pronunciation']}/10)',
+          content: result.pronunciation,
         ),
         ResultTile(
           onTap: () {},

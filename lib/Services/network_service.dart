@@ -166,7 +166,7 @@ class NetworkService {
     return null;
   }
 
-  static Map getBodyForGroq(systemPrompt, userPrompt, { bool isfromResultGeneration = false}) {
+  static Map getBodyForGroq(systemPrompt, userPrompt) {
     final response = {
       "messages": [
         {"role": "system", "content": systemPrompt},
@@ -180,24 +180,18 @@ class NetworkService {
       "stop": null,
       "response_format": {'type': 'json_object'}
     };
-    if(isfromResultGeneration){
-      response['model'] = 'gemma2-9b-it';
-      response['max_completion_tokens'] = 1000;
-      // response['reasoning_effort'] = 'medium';
-      response['response_format'] = {'type': 'json_object'};
-    }
     return response;
   }
 
 
 static Future<String?> getConversationAiFeedbackResultFromGroq(
-    List<Map<String, dynamic>> pastConversation,
+   {required Map scoreMap, required List<String> feedbackList}
   ) async {
-    final pastConversationEncoded = jsonEncode(pastConversation);
+    final userPrompt = jsonEncode({'scoreMap': scoreMap, 'feedbackList': feedbackList});
     final systemPrompt =
         "${AppStrings.resultScreenSystemPrompt} user english level: ${globalController.userProfile.value.currentEnglishLevel}";
     try {
-      final body = getBodyForGroq(systemPrompt, pastConversationEncoded, isfromResultGeneration: true);
+      final body = getBodyForGroq(systemPrompt, userPrompt);
       Response response = await dio.post(
         groqBaseUrl,
         options: Options(
