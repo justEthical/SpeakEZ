@@ -6,6 +6,7 @@ import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
+import 'package:speak_ez/Screens/Practice/ResultScreen/detailed_result.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 
@@ -28,20 +29,7 @@ class PracticeResultSreen extends StatelessWidget {
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
         backgroundColor: theme.scaffoldBackgroundColor,
-        elevation: 0,
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black54),
-          onPressed: () => Get.back(),
-        ),
-        title: Text(
-          "Result",
-          style: GoogleFonts.nunito(
-            fontSize: 22,
-            fontWeight: FontWeight.w800,
-            color: Colors.black87,
-          ),
-        ),
-        centerTitle: true,
+        
         actions: [
           IconButton(
             icon: Icon(Icons.share_outlined, color: Colors.black54),
@@ -187,7 +175,9 @@ class PracticeResultSreen extends StatelessWidget {
           content: '${c.formatDuration(c.totalSpeakingTime)} Minutes',
         ),
         ResultTile(
-          onTap: () {},
+          onTap: () {
+            Get.to(() => const DetailedResult());
+          },
           icon: AppAssets.tip,
           heading: 'Suggestion',
           content: result.suggestion,

@@ -1,0 +1,49 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
+import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
+
+class DetailedResult extends StatelessWidget {
+  const DetailedResult({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final c = Get.find<PracticeController>();
+    final theme = Theme.of(context);
+    return Scaffold(
+      backgroundColor: theme.scaffoldBackgroundColor,
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black54),
+          onPressed: () => Get.back(),
+        ),
+        title: Text(
+          "Corrections",
+          style: GoogleFonts.nunito(
+            fontSize: 22,
+            fontWeight: FontWeight.w800,
+            color: Colors.black87,
+          ),
+        ),
+        centerTitle: true,
+      ),
+      body: Container(
+        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
+        child: ListView.builder(
+          controller: c.chatScrollController,
+          itemCount: c.currentChats.length,
+          itemBuilder: (ctx, index) {
+            final aiResponseIndex = (((index + 1)/2).toInt() -1).abs();
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 12.0),
+              child: ChatBubble(chatModel: c.currentChats[index], aiResponseModel: c.aiResponseList[aiResponseIndex],),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
