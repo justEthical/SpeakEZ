@@ -21,7 +21,7 @@ class DetailedResult extends StatelessWidget {
           onPressed: () => Get.back(),
         ),
         title: Text(
-          "Corrections",
+          "Detailed Feedback",
           style: GoogleFonts.nunito(
             fontSize: 22,
             fontWeight: FontWeight.w800,

@@ -96,7 +96,7 @@ class PracticeController extends GetxController {
     sub = globalController.isLastChunkTranscribed.listen((val) {
       print("Listener called: $val");
       if (val) {
-        currentChats.remove(currentChats.last);
+        // currentChats.remove(currentChats.last);
         globalController.transcriptionText.value = removeBracketedWords(
           globalController.transcriptionText.value,
         );
@@ -109,7 +109,6 @@ class PracticeController extends GetxController {
         //     chatType: ChatType.normalChatMesssage,
         //   ),
         // );
-        currentUserSessionMessage.value++;
         // currentChats.add(
         //   ChatModel(
         //     message: "getting AI response",
@@ -199,18 +198,6 @@ class PracticeController extends GetxController {
     return cleaned.replaceAll(RegExp(r'\s+'), ' ').trim();
   }
 
-  // List<Map<String, dynamic>> getPastConversation() {
-  //   List<Map<String, dynamic>> pastConversation = [];
-  //   pastConversation.add({"AI": currentChats[currentChats.length - 3].message});
-  //   pastConversation.add({
-  //     "User": currentChats[currentChats.length - 2].message,
-  //   });
-
-  //    totalSpeakingTime+= currentChats[currentChats.length - 2].messageDuration;
-
-  //   return pastConversation;
-  // }
-
   String getLastAiMessage() {
     for(int i = currentChats.length - 1; i >= 0; i--) {
       if(currentChats[i].isAI) {
@@ -230,11 +217,12 @@ class PracticeController extends GetxController {
     if (response != null) {
       AIResponseModel aiResponse = AIResponseModel.fromJson(response);
       aiResponseList.add(aiResponse);
+      currentUserSessionMessage.value++;
       currentConversationSummary = aiResponse.conversationSummary.trim();
-      // currentChats.remove(currentChats.last);
+      currentChats.remove(currentChats.last); // for removing transcribing(... animation) message
       currentChats.add(
           ChatModel(
-            message: aiResponse.correctedTranscript.trim(),
+            message: aiResponse.correctedTranscript.trim(), // globalController.transcriptionText.value, //
             time: "time",
             isAI: false,
             messageDuration: 30 - remainingSeconds.value,

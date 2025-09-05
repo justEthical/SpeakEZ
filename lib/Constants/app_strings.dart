@@ -17,7 +17,7 @@ Inputs per turn:
 AI_LAST_MESSAGE, USER_TRANSCRIPT, PREVIOUS_SUMMARY.
 
 Rules:
-- correctedTranscript: ONLY sound-alike ASR fixes (e.g., Daddy→Delhi). If unsure, keep original. No rephrase.
+- correctedTranscript: ONLY sound-alike ASR fixes according to context of conversation. If unsure, keep original. No rephrase.
 - enhancedTranscript: from correctedTranscript, fix grammar/usage/punct lightly; keep meaning.
 - nextAiMessage: 2–4 sentences + a brief question.
 - conversationSummary: extend PREVIOUS_SUMMARY in 1–2 sentences.

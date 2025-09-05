@@ -3,8 +3,8 @@ import 'dart:convert';
 /// Root model for the LLM evaluation/response.
 class AIResponseModel {
   final String nextAiMessage;
-  final String correctedTranscript;
-  final String enhancedTranscript;
+  final String correctedTranscript; // corrected ASR
+  final String enhancedTranscript; // corrected grammer
   final String conversationSummary;
   final Scores scores;
   final String feedback;

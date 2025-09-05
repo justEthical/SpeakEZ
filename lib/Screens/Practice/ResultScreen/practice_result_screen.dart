@@ -29,7 +29,7 @@ class PracticeResultSreen extends StatelessWidget {
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
         backgroundColor: theme.scaffoldBackgroundColor,
-        
+
         actions: [
           IconButton(
             icon: Icon(Icons.share_outlined, color: Colors.black54),
@@ -175,12 +175,24 @@ class PracticeResultSreen extends StatelessWidget {
           content: '${c.formatDuration(c.totalSpeakingTime)} Minutes',
         ),
         ResultTile(
-          onTap: () {
-            Get.to(() => const DetailedResult());
-          },
+          onTap: () {},
           icon: AppAssets.tip,
           heading: 'Suggestion',
           content: result.suggestion,
+        ),
+        InkWell(
+          onTap: () {
+            Get.to(() => const DetailedResult());
+          },
+          child: Container(
+            margin: EdgeInsets.only(bottom: 10),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10),
+            ),
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
+            child: Center(child: Text('Detailed Feedback')),
+          ),
         ),
       ],
     );
