@@ -63,6 +63,7 @@ class _ChatScreenState extends State<ChatScreen> {
       globalController.isWhisperInitialized.value = false;
     }
     c.currentUserSessionMessage.value = 0;
+    c.isChatResultReady.value = false; 
     ttsHelper.stop();
     print("dissposed");
   }
@@ -124,8 +125,7 @@ class _ChatScreenState extends State<ChatScreen> {
               const SizedBox(height: 10),
               Obx(
                 () =>
-                    c.currentUserSessionMessage.value >=
-                            c.maxNumberOfAiResponsesPerSession
+                    c.isChatResultReady.value
                         ? Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(

@@ -45,6 +45,7 @@ class PracticeController extends GetxController {
   var isSpeaking = false.obs;
   var currentConversationSummary = "";
   List<AIResponseModel> aiResponseList = [];
+  var isChatResultReady = false.obs;
 
   void startRecording() {
     recorder.startAutoRecording();
@@ -169,6 +170,7 @@ class PracticeController extends GetxController {
       resultModel = FeedbackResult.fromJson(jsonDecode(res));
       print(res);
       currentChats.remove(currentChats.last);
+      isChatResultReady.value = true;
       addLastMessage();
     }
   }
