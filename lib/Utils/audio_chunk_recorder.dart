@@ -27,9 +27,6 @@ class AudioChunkRecorder {
 
     try {
       await _recorder.stop();
-      print("Reached permission check"); // <-- add this
-      final hasPermission = await _recorder.hasPermission();
-      print(hasPermission);
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.audioError,
@@ -39,7 +36,6 @@ class AudioChunkRecorder {
       print(e.toString());
     }
     final hasPermission = await _recorder.hasPermission();
-    print(hasPermission);
     if (hasPermission) {
       while (!_shouldStop) {
         final path = '${dir.path}/${_fileIndex++}.wav';

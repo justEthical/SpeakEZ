@@ -20,7 +20,7 @@ class PostHogService {
       final apiKey = dotenv.env['POSTHOG_API_KEY']??'';
       final config = PostHogConfig(apiKey);
       config.host = dotenv.env['POSTHOG_HOST']??'';
-      config.debug = !kReleaseMode;
+      config.debug = false;
       config.captureApplicationLifecycleEvents = true;
       config.sessionReplay = true;
       // choose whether to mask images or text

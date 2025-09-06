@@ -72,7 +72,7 @@ class NetworkService {
         ),
         data: jsonEncode(body),
       );
-      print(response.data);
+      // print(response.data);
       if (response.statusCode == 200) {
         return response.data['choices'][0]['message']['content'];
       }

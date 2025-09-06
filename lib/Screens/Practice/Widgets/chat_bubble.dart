@@ -122,7 +122,8 @@ class ChatBubble extends StatelessWidget {
                     style: TextStyle(color: Colors.black, fontSize: 15),
                   ),
                   Divider(),
-                  
+                  Text(aiResponseModel!.correctedTranscript, style: TextStyle(color: Colors.red, fontSize: 15, fontWeight: FontWeight.bold),),
+                  Divider(),
                   Text(
                   aiResponseModel!.enhancedTranscript,
                     style: TextStyle(color: Colors.green, fontSize: 15, fontWeight: FontWeight.bold),

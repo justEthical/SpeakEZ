@@ -27,7 +27,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
 
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 10 : 10;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 10;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -87,8 +87,8 @@ class PracticeController extends GetxController {
         message: "🎙️ Recording stopped",
         time: "time",
         isAI: false,
-        messageDuration: 0,
-        chatType: ChatType.transcribing,
+        messageDuration: 0, 
+        chatType: ChatType.transcribing, // transcribing animation
       ),
     );
     _scrollToBottom();
@@ -97,6 +97,7 @@ class PracticeController extends GetxController {
     sub = globalController.isLastChunkTranscribed.listen((val) {
       print("Listener called: $val");
       if (val) {
+        print("transcription done");
         // currentChats.remove(currentChats.last);
         globalController.transcriptionText.value = removeBracketedWords(
           globalController.transcriptionText.value,
@@ -208,12 +209,15 @@ class PracticeController extends GetxController {
   }
 
   Future<void> getAiResponse() async {
+    final time = DateTime.now().millisecondsSinceEpoch;
+    print("getting ai response");
     var response = await NetworkService.getAiResponse(
       userReply: globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
       lastAiMessage: getLastAiMessage(),
       summary: currentConversationSummary,
     );
+    print("got the ai response, time taook: ${DateTime.now().millisecondsSinceEpoch - time}");
     if (response != null) {
       AIResponseModel aiResponse = AIResponseModel.fromJson(response);
       aiResponseList.add(aiResponse);
@@ -222,7 +226,7 @@ class PracticeController extends GetxController {
       currentChats.remove(currentChats.last); // for removing transcribing(... animation) message
       currentChats.add(
           ChatModel(
-            message: aiResponse.correctedTranscript.trim(), // globalController.transcriptionText.value, //
+            message: globalController.transcriptionText.value, // aiResponse.correctedTranscript.trim(), //
             time: "time",
             isAI: false,
             messageDuration: 30 - remainingSeconds.value,
