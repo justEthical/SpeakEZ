@@ -24,7 +24,7 @@ import 'package:speak_ez/Utils/tts_helper.dart';
 import '../Utils/audio_chunk_recorder.dart';
 
 class PracticeController extends GetxController {
-  final AudioChunkRecorder recorder = AudioChunkRecorder();
+  late AudioChunkRecorder recorder;
 
   var currentUserSessionMessage = 0.obs;
   var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 10;
@@ -48,6 +48,7 @@ class PracticeController extends GetxController {
   var isChatResultReady = false.obs;
 
   void startRecording() {
+    recorder = AudioChunkRecorder();
     recorder.startAutoRecording();
     _addRecordingChatCell();
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
