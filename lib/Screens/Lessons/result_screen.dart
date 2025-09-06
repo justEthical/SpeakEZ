@@ -5,6 +5,7 @@ import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
+import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 
 class ResultScreen extends StatelessWidget {
@@ -23,7 +24,7 @@ class ResultScreen extends StatelessWidget {
       globalController.whisperSendPort.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
-    // c.ttsHelper.stop(); 
+    // c.ttsHelper.stop();
     return Scaffold(
       body: Stack(
         children: [
@@ -174,7 +175,15 @@ class ResultScreen extends StatelessWidget {
 
   Widget _buildDoneButton() {
     return ElevatedButton(
-      onPressed: () => Get.offAll(() => const TabBarScreen()),
+      onPressed: () {
+        Get.offAll(() => const TabBarScreen());
+        final isItTimeToShowCustomReview =
+            globalController.userProfile.value.currentEnglishLevelProgress % 5;
+        if ((isItTimeToShowCustomReview == 2) &&
+            !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
+          Get.to(() => const CustomReviewScreen());
+        }
+      },
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.black,
         fixedSize: const Size(double.infinity, 55),

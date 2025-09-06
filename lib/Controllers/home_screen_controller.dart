@@ -8,6 +8,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
 
 class HomeScreenController extends GetxController {
   var currenEnglishLessonLevel = "A1".obs;
@@ -57,6 +58,12 @@ class HomeScreenController extends GetxController {
         await dir.delete(recursive: true);
         print('Deleted folder: $folderPath');
       } catch (e) {
+        PostHogService.instance.captureError(
+          'file_system_error',
+          errorMessage: 'Error deleting folder: $e',
+          location: 'HomeScreenController.deleteFolder',
+          additionalProperties: {'folder_path': folderPath},
+        );
         print('Error deleting folder: $e');
       }
     } else {
@@ -99,6 +106,15 @@ class HomeScreenController extends GetxController {
 
       print('Unzipped to $destinationDirectory');
     } catch (e) {
+      PostHogService.instance.captureError(
+        'file_system_error',
+        errorMessage: 'Error unzipping file: $e',
+        location: 'HomeScreenController.unzipFile',
+        additionalProperties: {
+          'source_file': zipFilePath,
+          'destination': destinationDirectory,
+        },
+      );
       print('Error unzipping file: $e');
     }
   }

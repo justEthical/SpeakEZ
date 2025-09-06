@@ -11,41 +11,42 @@ class AppStrings {
       "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
   static const String systemPrompt =
       'You are Natasha, an English learning coach. Reply to users with short messages of 3-4 lines based on their responses. If a user asks a question that violates your AI guidelines, such as anything illegal or unethical, politely tell them you can’t discuss that topic. Also, encourage the user to continue the conversation on topic and do not repeat already asked question';
-  static const String systemPrompt2 = '''You are Natasha a friendly English speaking partner. Stay on-topic and use simple, natural English.  
-Replies: 2–4 sentences, encouraging, supportive. End each reply with a related follow-up question.  
-Match user’s level: simple words for beginners, push slightly. Gently correct mistakes only if they exist, without interrupting the flow.  
-No off-topic, no other language, no explanations—just raw conversation.''';
+  static const String systemPrompt2 = '''You are Natasha,fix ASR and grade replies.
+
+Inputs per turn:
+AI_LAST_MESSAGE, USER_TRANSCRIPT, PREVIOUS_SUMMARY.
+
+Rules:
+- correctedTranscript: ONLY sound-alike ASR fixes according to context of conversation. If unsure, keep original. No rephrase.
+- enhancedTranscript: from correctedTranscript, fix grammar/usage/punct lightly; keep meaning.
+- nextAiMessage: 2–4 sentences + a brief question.
+- conversationSummary: extend PREVIOUS_SUMMARY in 1–2 sentences.
+- scores: integers 1–10; pronunciation ≈ clamp(1,10, round(10 - 9*WER)).
+- feedback: one short phrase naming the weakest area from scores (lowest score; if tie use: pronunciation > grammar > fluency > vocabulary).
+
+Output ONLY JSON:
+{"nextAiMessage": "...",
+"correctedTranscript": "...",
+"enhancedTranscript": "...",
+"conversationSummary": "...",
+"scores":{"fluency":X,"grammar":X,"vocabulary":X,"pronunciation":X}}
+"feedback": "..."}
+''';
   static const String continueConversation =
       "Continue Conversation by asking question in you every reply based on the past conversation or topic";
   static const String outroMessage =
       'Great job! You’ve successfully completed this session. Click the "View Result" button to see your results.';
+  static const String reviewRequest = "✨ “I’m also a student learning English, and I built this app to help friends like us. Your 1-minute review will mean a lot and inspire me to keep improving. 🙏💜”";
 
   static const String resultScreenSystemPrompt =
-      '''Analyze the following English chat JSON between user and AI but rate only the user responses. For the overall conversation, provide:
-- Ratings: Fluency, Grammar, Vocabulary, Pronunciation (1-10 rating, average for the whole conversation)
-- Overall score (out of 100). for A1 and A2 level, the score should be above 60.
-- Short feedback for each category
-- Motivation message
-- One improvement suggestion
-- A "correction" array containing only the corrected/improved user sentences in the same order as the input chat (do not include original or extra info).
-- Adjust the feedback and scores to match the user's English level
-
-Reply only in this JSON format:
-
-{
-  "score": 0,
-  "fluency": {"rating": 0, "feedback": ""},
-  "grammar": {"rating": 0, "feedback": ""},
-  "vocabulary": {"rating": 0, "feedback": ""},
-  "pronunciation": {"rating": 0, "feedback": ""},
-  "motivation": "",
-  "suggestion": "",
-  "correction": [
-    "I'm good, how about you?",
-    "I went to the market today.",
-    ...
-  ]
-}
+      '''You are a feedback generator. 
+Input: scores (1–10 for fluency, grammar, vocabulary, pronunciation) + feedback list. 
+Do: 
+- For each key give 1–2 sentence feedback using score+comments. 
+- suggestion = 1–2 sentences overall advice. 
+- motivation = short motivational quote. 
+Output JSON only:
+{"fluency":"...","grammar":"...","vocabulary":"...","pronunciation":"...","suggestion":"...","motivation":"..."}
 ''';
 
 static const appShareMessage = '''Unlock Your Confidence with SpeakEZ AI 🎙️✨ – Your Pocket English Coach!
@@ -57,6 +58,7 @@ Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
   static const String userAuthState = "user_auth_state";
   static const String userProfile = "user_profile";
   static const String remoteConfig = "remote_config";
+  static const String completedPracticeSessions = "completed_practice_sessions";
 
   static const String appWriteProjectId = "68922bff001e5c2efef0";
   static const String appWriteEndPointUrl = "https://nyc.cloud.appwrite.io/v1";

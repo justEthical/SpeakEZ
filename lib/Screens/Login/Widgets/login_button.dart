@@ -3,16 +3,25 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class SubmitButton extends StatelessWidget {
   final String title;
-  final onTap;
+  final VoidCallback? onTap;
   const SubmitButton({super.key, this.title = "Login", required this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: onTap,
+      onPressed: () {
+        PostHogService.instance.captureClick(
+          title,
+          elementType: 'submit_button',
+          screenName: 'login_screen',
+        );
+        onTap?.call();
+      },
       style: ElevatedButton.styleFrom(
         fixedSize: Size(Get.width - 40, 50),
         shape: RoundedRectangleBorder(
@@ -42,6 +51,14 @@ class GoogleLoginButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () async {
+        PostHogService.instance.capture(
+          PostHogEvents.buttonClicked,
+          properties: {
+            'button_name': 'google_login',
+            'element_type': 'google_login_button',
+            'screen_name': 'login_screen',
+          },
+        );
         final OnboardingController c = Get.find<OnboardingController>();
         await c.googleLogin();
       },

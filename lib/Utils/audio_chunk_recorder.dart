@@ -3,6 +3,8 @@ import 'dart:isolate';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class AudioChunkRecorder {
   final _recorder = AudioRecorder();
@@ -25,14 +27,15 @@ class AudioChunkRecorder {
 
     try {
       await _recorder.stop();
-      print("Reached permission check"); // <-- add this
-      final hasPermission = await _recorder.hasPermission();
-      print(hasPermission);
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.audioError,
+        errorMessage: e.toString(),
+        location: 'AudioChunkRecorder.startWhisperRecording',
+      );
       print(e.toString());
     }
     final hasPermission = await _recorder.hasPermission();
-    print(hasPermission);
     if (hasPermission) {
       while (!_shouldStop) {
         final path = '${dir.path}/${_fileIndex++}.wav';

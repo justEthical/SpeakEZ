@@ -11,12 +11,12 @@ import 'package:scroll_screenshot/scroll_screenshot.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Models/ai_response_model.dart';
 import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
-import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -24,10 +24,10 @@ import 'package:speak_ez/Utils/tts_helper.dart';
 import '../Utils/audio_chunk_recorder.dart';
 
 class PracticeController extends GetxController {
-  final AudioChunkRecorder recorder = AudioChunkRecorder();
-  
+  late AudioChunkRecorder recorder;
+
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 2 : 10;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 10;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -35,16 +35,20 @@ class PracticeController extends GetxController {
   var totalSpeakingTime = 0;
   late AnimationController recordingAnimationcontroller;
   late AnimationController lottieAnimationcontroller;
-  EvaluationResult? resultModel;
+  FeedbackResult? resultModel;
   Timer? _timer;
   var currentChats = <ChatModel>[].obs;
   late Worker isLastChunkWorker;
   late StreamSubscription<bool> sub;
-  
+
   ScenarioModel? currentScenarioModel;
   var isSpeaking = false.obs;
+  var currentConversationSummary = "";
+  List<AIResponseModel> aiResponseList = [];
+  var isChatResultReady = false.obs;
 
   void startRecording() {
+    recorder = AudioChunkRecorder();
     recorder.startAutoRecording();
     _addRecordingChatCell();
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
@@ -59,7 +63,6 @@ class PracticeController extends GetxController {
   }
 
   _addRecordingChatCell() {
-    
     isRecordingInProgress.value = true;
     isRecordingPaused.value = false;
     currentChats.add(
@@ -79,14 +82,14 @@ class PracticeController extends GetxController {
     _timer?.cancel();
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
-
+    totalSpeakingTime += (30 - remainingSeconds.value);
     currentChats.add(
       ChatModel(
         message: "🎙️ Recording stopped",
         time: "time",
         isAI: false,
         messageDuration: 0,
-        chatType: ChatType.transcribing,
+        chatType: ChatType.transcribing, // transcribing animation
       ),
     );
     _scrollToBottom();
@@ -95,33 +98,38 @@ class PracticeController extends GetxController {
     sub = globalController.isLastChunkTranscribed.listen((val) {
       print("Listener called: $val");
       if (val) {
-        currentChats.remove(currentChats.last);
-        globalController.transcriptionText.value = removeBracketedWords(globalController.transcriptionText.value);
-        currentChats.add(
-          ChatModel(
-            message: globalController.transcriptionText.value,
-            time: "time",
-            isAI: false,
-            messageDuration: 30 - remainingSeconds.value,
-            chatType: ChatType.normalChatMesssage,
-          ),
+        print("transcription done");
+        // currentChats.remove(currentChats.last);
+        globalController.transcriptionText.value = removeBracketedWords(
+          globalController.transcriptionText.value,
         );
-        currentUserSessionMessage.value++;
-        currentChats.add(
-          ChatModel(
-            message: "getting AI response",
-            time: "time",
-            isAI: true,
-            messageDuration: 0,
-            chatType: ChatType.gettingAIResponse,
-          ),
-        );
-        if (currentUserSessionMessage.value <
-            maxNumberOfAiResponsesPerSession) {
-          getAiResponse();
-        } else {
-          getConversationAiFeedbackResult();
-        }
+        // currentChats.add(
+        //   ChatModel(
+        //     message: globalController.transcriptionText.value,
+        //     time: "time",
+        //     isAI: false,
+        //     messageDuration: 30 - remainingSeconds.value,
+        //     chatType: ChatType.normalChatMesssage,
+        //   ),
+        // );
+        // currentChats.add(
+        //   ChatModel(
+        //     message: "getting AI response",
+        //     time: "time",
+        //     isAI: true,
+        //     messageDuration: 0,
+        //     chatType: ChatType.gettingAIResponse,
+        //   ),
+        // );
+        getAiResponse();
+        // if (currentUserSessionMessage.value <=
+        //     maxNumberOfAiResponsesPerSession) {
+        //   getAiResponse();
+        // }
+        // if(currentUserSessionMessage.value >=
+        //     maxNumberOfAiResponsesPerSession) {
+        //   getConversationAiFeedbackResult();
+        // }
         _scrollToBottom();
       }
       remainingSeconds.value = 30;
@@ -130,15 +138,40 @@ class PracticeController extends GetxController {
     });
   }
 
-  getConversationAiFeedbackResult() async {
-    final pastConversation = getPastConversation();
-    final res = await NetworkService.getConversationAiFeedbackResultFromGroq(
-      pastConversation,
+  List getAverageScoreAndFeedback() {
+    var fluency = 0;
+    var grammar = 0;
+    var vocabulary = 0;
+    var pronunciation = 0;
+    List<String> feedbackList = [];
+    for (var i in aiResponseList) {
+      fluency += i.scores.fluency;
+      grammar += i.scores.grammar;
+      vocabulary += i.scores.vocabulary;
+      pronunciation += i.scores.pronunciation;
+      feedbackList.add(i.feedback);
+    }
+    Map scoreMap = {
+      "fluency": fluency / aiResponseList.length,
+      "grammar": grammar / aiResponseList.length,
+      "vocabulary": vocabulary / aiResponseList.length,
+      "pronunciation": pronunciation / aiResponseList.length,
+    };
+    return [scoreMap, feedbackList];
+  }
+
+  Future<void> getConversationAiFeedbackResult() async {
+    final [scoreMap, feedbackList] = getAverageScoreAndFeedback();
+
+    final res = await NetworkService.getConversationAiFeedbackResult(
+      scoreMap: scoreMap,
+      feedbackList: feedbackList,
     );
     if (res != null) {
-      resultModel = EvaluationResult.fromJson(jsonDecode(res));
+      resultModel = FeedbackResult.fromJson(jsonDecode(res));
       print(res);
       currentChats.remove(currentChats.last);
+      isChatResultReady.value = true;
       addLastMessage();
     }
   }
@@ -166,39 +199,76 @@ class PracticeController extends GetxController {
     return cleaned.replaceAll(RegExp(r'\s+'), ' ').trim();
   }
 
-  List<Map<String, dynamic>> getPastConversation() {
-    List<Map<String, dynamic>> pastConversation = [];
-    pastConversation.add({"AI": currentChats[currentChats.length - 3].message});
-    pastConversation.add({
-      "User": currentChats[currentChats.length - 2].message,
-    });
-
-    totalSpeakingTime += currentChats[currentChats.length - 2].messageDuration;
-
-    return pastConversation;
+  String getLastAiMessage() {
+    for (int i = currentChats.length - 1; i >= 0; i--) {
+      if (currentChats[i].isAI) {
+        return currentChats[i].message;
+      }
+    }
+    return '';
   }
 
-  getAiResponse() async {
-    var response = await NetworkService.getAiResponseFromGroq(
-      userPrompt:  globalController.transcriptionText.value,
+  Future<void> getAiResponse() async {
+    final time = DateTime.now().millisecondsSinceEpoch;
+    print("getting ai response");
+    var response = await NetworkService.getAiResponse(
+      userReply: globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
-      pastConversation: getPastConversation(),
+      lastAiMessage: getLastAiMessage(),
+      summary: currentConversationSummary,
+    );
+    print(
+      "got the ai response, time taook: ${DateTime.now().millisecondsSinceEpoch - time}",
     );
     if (response != null) {
-      currentChats.remove(currentChats.last);
+      AIResponseModel aiResponse = AIResponseModel.fromJson(response);
+      aiResponseList.add(aiResponse);
+      currentUserSessionMessage.value++;
+      currentConversationSummary = aiResponse.conversationSummary.trim();
+      currentChats.remove(
+        currentChats.last,
+      ); // for removing transcribing(... animation) message
       currentChats.add(
         ChatModel(
-          message: response.trim(),
+          message:
+              aiResponse.correctedTranscript
+                  .trim(), // globalController.transcriptionText.value, //
           time: "time",
-          isAI: true,
-          messageDuration: 0,
+          isAI: false,
+          messageDuration: 30 - remainingSeconds.value,
           chatType: ChatType.normalChatMesssage,
         ),
       );
+      final isLastMessage =
+          currentUserSessionMessage.value == maxNumberOfAiResponsesPerSession;
+      if (isLastMessage) {
+        currentChats.add(
+          ChatModel(
+            message: "getting AI response",
+            time: "time",
+            isAI: true,
+            messageDuration: 0,
+            chatType: ChatType.gettingAIResponse,
+          ),
+        );
+        getConversationAiFeedbackResult();
+      } else {
+        currentChats.add(
+          ChatModel(
+            message: aiResponse.nextAiMessage.trim(),
+            time: "time",
+            isAI: true,
+            messageDuration: 0,
+            chatType: ChatType.normalChatMesssage,
+          ),
+        );
+      }
 
       _scrollToBottom();
       isSpeaking.value = true;
-      await ttsHelper.speakAndWait(response);
+      if (!isLastMessage) {
+        await ttsHelper.speakAndWait(aiResponse.nextAiMessage.trim());
+      }
       isSpeaking.value = false;
     }
   }
@@ -222,8 +292,15 @@ class PracticeController extends GetxController {
     });
   }
 
-updateLesssonProgress() {
-    globalController.userProfile.value.currentEnglishLevelProgress++;
+  void updatePracticeProgress() {
+    final completedSessions =
+        globalController.prefs?.getInt(AppStrings.completedPracticeSessions) ??
+        0;
+    globalController.prefs?.setInt(
+      AppStrings.completedPracticeSessions,
+      completedSessions + 1,
+    );
+
     final lastActive = globalController.userProfile.value.lastActive;
     final now = DateTime.now();
     if (!(lastActive.year == now.year &&
@@ -232,18 +309,11 @@ updateLesssonProgress() {
       globalController.userProfile.value.currentStreak++;
     }
 
-    
     globalController.userProfile.value.lastActive = DateTime.now();
 
-    // updating user profile in local storage
-    globalController.prefs?.setString(
-      AppStrings.userProfile,
-      jsonEncode(globalController.userProfile.value.toMap()),
-    );
-
-    // updating user profile in firestore
-    FirestoreHelper.updateUserField(globalController.userProfile.value.toMap());
+    globalController.updateProfile();
   }
+
   void addLastMessage() {
     currentChats.add(
       ChatModel(
@@ -387,5 +457,16 @@ updateLesssonProgress() {
         files: [XFile(file.path)],
       ),
     );
+  }
+
+  int getOverAllScore(FeedbackResult result) {
+    double overAllScore = 0;
+    final [scoreMap, feedbackList] = getAverageScoreAndFeedback();
+    overAllScore += scoreMap['fluency'];
+    overAllScore += scoreMap['grammar'];
+    overAllScore += scoreMap['vocabulary'];
+    overAllScore += scoreMap['pronunciation'];
+    overAllScore = (overAllScore / 4) * 10;  
+    return overAllScore.toInt();
   }
 }
