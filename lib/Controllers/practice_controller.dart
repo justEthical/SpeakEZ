@@ -227,7 +227,7 @@ class PracticeController extends GetxController {
       currentChats.remove(currentChats.last); // for removing transcribing(... animation) message
       currentChats.add(
           ChatModel(
-            message: globalController.transcriptionText.value, // aiResponse.correctedTranscript.trim(), //
+            message: aiResponse.correctedTranscript.trim(), // globalController.transcriptionText.value, //
             time: "time",
             isAI: false,
             messageDuration: 30 - remainingSeconds.value,
