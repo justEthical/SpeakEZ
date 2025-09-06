@@ -7,7 +7,6 @@ import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
-import 'package:speak_ez/Services/appwrite_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 
 class HomeScreenController extends GetxController {
@@ -48,41 +47,6 @@ class HomeScreenController extends GetxController {
       jsonDecode(profileData!),
     );
     calculateStreak();
-  }
-
-  void fetchRemoteConfig() async {
-    final config = await FirestoreHelper.fetchRemoteConfig();
-    if (config != null) {
-      globalController.remoteConfig = config;
-      final storedConfig = globalController.prefs?.getString(
-        AppStrings.remoteConfig,
-      );
-
-      for (final key in config.keys) {
-        if (storedConfig == null ||
-            config[key] != jsonDecode(storedConfig)[key]) {
-          await AppwriteService().getLessons(
-            fileName: "${key}_${config[key]}.zip",
-          );
-          await deleteFolderRecursively(
-            "${globalController.appDocDirectoryPath}/lessons/$key",
-          );
-          await unzipFile(
-            "${globalController.appDocDirectoryPath}/lessons/${key}_${config[key]}.zip",
-            "${globalController.appDocDirectoryPath}/lessons/",
-          );
-          await renameDirectory(key: key, version: config[key]);
-          await File(
-            "${globalController.appDocDirectoryPath}/lessons/${key}_${config[key]}.zip",
-          ).delete();
-        }
-      }
-
-      globalController.prefs?.setString(
-        AppStrings.remoteConfig,
-        jsonEncode(config),
-      );
-    }
   }
 
   Future<void> deleteFolderRecursively(String folderPath) async {
