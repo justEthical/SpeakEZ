@@ -28,7 +28,6 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     c.fetchUserDetails();
-    c.fetchRemoteConfig();
     WhisperHelper.isModelAvailable().then((isAvailable) {
       globalController.isAiModelDownloaded.value = isAvailable;
     });
