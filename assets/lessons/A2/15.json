@@ -264,197 +264,244 @@
       }
     ]
   },
-  "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "Which item would you buy at a grocery store?",
-        "question_translation": {
-          "Hindi": "आप किराने की दुकान से कौन सी वस्तु खरीदेंगे?",
-          "Japanese": "食料品店で買うものはどれですか？"
-        },
-        "options": [
-          "Shampoo",
-          "Bread",
-          "Shirt"
-        ],
-        "answer": 1
+"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which item would you buy at a grocery store?",
+      "question_translation": {
+        "Hindi": "आप किराने की दुकान से कौन सी वस्तु खरीदेंगे?",
+        "Japanese": "食料品店で買うものはどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "I need to buy some ___ and milk.",
-        "question_translation": {
-          "Hindi": "मुझे कुछ ___ और दूध खरीदना है।",
-          "Japanese": "___と牛乳を買う必要があります。"
-        },
-        "options": [
-          "cheese",
-          "clothes",
-          "soap"
-        ],
-        "answer": 0
+      "options": ["Shampoo", "Bread", "Shirt"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "I need to buy some ___ and milk.",
+      "question_translation": {
+        "Hindi": "मुझे कुछ ___ और दूध खरीदना है।",
+        "Japanese": "___と牛乳を買う必要があります。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "You can buy apples at a grocery store.",
-        "question_translation": {
-          "Hindi": "आप किराने की दुकान से सेब खरीद सकते हैं।",
-          "Japanese": "食料品店でりんごを買うことができます。"
-        },
-        "options": [
-          "True",
-          "False"
-        ],
-        "answer": 0
+      "options": ["cheese", "clothes", "soap"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "You can buy apples at a grocery store.",
+      "question_translation": {
+        "Hindi": "आप किराने की दुकान से सेब खरीद सकते हैं।",
+        "Japanese": "食料品店でりんごを買うことができます。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "What is a 'cart' used for in a grocery store?",
-        "question_translation": {
-          "Hindi": "किराने की दुकान में 'cart' का उपयोग किस लिए किया जाता है?",
-          "Japanese": "食料品店で「カート」は何に使われますか？"
-        },
-        "options": [
-          "Carrying food",
-          "Paying money",
-          "Reading labels"
-        ],
-        "answer": 0
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "What is a 'cart' used for in a grocery store?",
+      "question_translation": {
+        "Hindi": "किराने की दुकान में 'cart' का उपयोग किस लिए किया जाता है?",
+        "Japanese": "食料品店で「カート」は何に使われますか？"
       },
-      {
-        "id": "vocab5",
-        "type": "fillInTheBlanks",
-        "question": "We need a ___ of eggs.",
-        "question_translation": {
-          "Hindi": "हमें ___ अंडों की ज़रूरत है।",
-          "Japanese": "卵の___が必要です。"
-        },
-        "options": [
-          "box",
-          "dozen",
-          "bag"
-        ],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "I usually buy vegetables ___ the market.",
-        "question_translation": {
-          "Hindi": "मैं आमतौर पर सब्जियाँ ___ बाज़ार से खरीदता हूँ।",
-          "Japanese": "私は通常、野菜を市場___で買います。"
-        },
-        "options": [
-          "at",
-          "on",
-          "in"
-        ],
-        "answer": 0
+      "options": ["Carrying food", "Paying money", "Reading labels"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "We need a ___ of eggs.",
+      "question_translation": {
+        "Hindi": "हमें ___ अंडों की ज़रूरत है।",
+        "Japanese": "卵の___が必要です。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "She ___ some rice yesterday.",
-        "question_translation": {
-          "Hindi": "उसने कल कुछ चावल ___।",
-          "Japanese": "彼女は昨日、米を___。"
-        },
-        "options": [
-          "buys",
-          "bought",
-          "buy"
-        ],
-        "answer": 1
+      "options": ["box", "dozen", "bag"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I usually buy vegetables ___ the market.",
+      "question_translation": {
+        "Hindi": "मैं आमतौर पर सब्जियाँ ___ बाज़ार से खरीदता हूँ।",
+        "Japanese": "私は通常、市場で野菜を買います。"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [a, I, bread, bought, loaf, of]",
-        "question_translation": {
-          "Hindi": "क्रम में लगाएं: [a, I, bread, bought, loaf, of]",
-          "Japanese": "並べ替え: [a, I, bread, bought, loaf, of]"
-        },
-        "options": [
-          "I",
-          "bought",
-          "a",
-          "loaf",
-          "of",
-          "bread"
-        ],
-        "answer": [
-          "I",
-          "bought",
-          "a",
-          "loaf",
-          "of",
-          "bread"
-        ]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "multipleChoice",
-        "question": "What did the speaker buy?",
-        "audio_text": "I bought some apples and oranges.",
-        "question_translation": {
-          "Hindi": "वक्ता ने क्या खरीदा?",
-          "Japanese": "話者は何を買いましたか？"
-        },
-        "options": [
-          "Bananas and grapes",
-          "Apples and oranges",
-          "Milk and bread"
-        ],
-        "answer": 1
+      "options": ["at", "on", "in"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "She ___ some rice yesterday.",
+      "question_translation": {
+        "Hindi": "उसने कल कुछ चावल ___।",
+        "Japanese": "彼女は昨日、米を___。"
       },
-      {
-        "id": "listen2",
-        "type": "multipleChoice",
-        "question": "Where did the speaker go?",
-        "audio_text": "I went to the grocery store.",
-        "question_translation": {
-          "Hindi": "वक्ता कहाँ गया?",
-          "Japanese": "話者はどこに行きましたか？"
-        },
-        "options": [
-          "Hospital",
-          "Grocery store",
-          "Library"
-        ],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'I need to buy some vegetables.'",
-        "question_translation": {
-          "Hindi": "कहें: 'मुझे कुछ सब्जियाँ खरीदनी हैं।'",
-          "Japanese": "言ってください:「私は野菜を買う必要があります。」"
-        },
-        "options": [],
-        "answer": "i need to buy some vegetables"
+      "options": ["buys", "bought", "buy"],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [a, I, bread, bought, loaf, of]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [a, I, bread, bought, loaf, of]",
+        "Japanese": "並べ替え: [a, I, bread, bought, loaf, of]"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'Do you have fresh bread?'",
-        "question_translation": {
-          "Hindi": "कहें: 'क्या आपके पास ताज़ा ब्रेड है?'",
-          "Japanese": "言ってください:「新鮮なパンはありますか？」"
-        },
-        "options": [],
-        "answer": "do you have fresh bread"
-      }
-    ]
-  }
+      "options": ["I", "bought", "a", "loaf", "of", "bread"],
+      "answer": ["I", "bought", "a", "loaf", "of", "bread"]
+    },
+    {
+      "id": "sent4",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "There is two apples on the table.",
+        "There are two apples on the table.",
+        "There are a milk in the glass."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent5",
+      "type": "trueFalse",
+      "question": "We say 'How much are the bananas?' when asking the price of bananas.",
+      "question_translation": {
+        "Hindi": "जब हम केले की कीमत पूछते हैं तो हम कहते हैं 'How much are the bananas?'",
+        "Japanese": "バナナの値段を聞くとき「How much are the bananas?」と言います。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker buy?",
+      "audio_text": "I bought some apples and oranges.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या खरीदा?",
+        "Japanese": "話者は何を買いましたか？"
+      },
+      "options": ["Bananas and grapes", "Apples and oranges", "Milk and bread"],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "Where did the speaker go?",
+      "audio_text": "I went to the grocery store.",
+      "question_translation": {
+        "Hindi": "वक्ता कहाँ गया?",
+        "Japanese": "話者はどこに行きましたか？"
+      },
+      "options": ["Hospital", "Grocery store", "Library"],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is fresh today?",
+      "audio_text": "The bread is fresh today.",
+      "question_translation": {
+        "Hindi": "आज क्या ताज़ा है?",
+        "Japanese": "今日新鮮なのは何ですか？"
+      },
+      "options": ["Rice", "Bread", "Juice"],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "How much did the speaker pay?",
+      "audio_text": "I paid 200 rupees for the vegetables.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कितना भुगतान किया?",
+        "Japanese": "話者はいくら支払いましたか？"
+      },
+      "options": ["100 rupees", "200 rupees", "300 rupees"],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What does the speaker need to buy?",
+      "audio_text": "I need to buy some rice and sugar.",
+      "question_translation": {
+        "Hindi": "वक्ता को क्या खरीदना है?",
+        "Japanese": "話者は何を買う必要がありますか？"
+      },
+      "options": ["Rice and sugar", "Milk and bread", "Soap and shampoo"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I need to buy some vegetables.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मुझे कुछ सब्जियाँ खरीदनी हैं।'",
+        "Japanese": "言ってください:「私は野菜を買う必要があります。」"
+      },
+      "options": [],
+      "answer": "i need to buy some vegetables"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Do you have fresh bread?'",
+      "question_translation": {
+        "Hindi": "कहें: 'क्या आपके पास ताज़ा ब्रेड है?'",
+        "Japanese": "言ってください:「新鮮なパンはありますか？」"
+      },
+      "options": [],
+      "answer": "do you have fresh bread"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'How much are these apples?'",
+      "question_translation": {
+        "Hindi": "कहें: 'ये सेब कितने के हैं?'",
+        "Japanese": "言ってください:「これらのリンゴはいくらですか？」"
+      },
+      "options": [],
+      "answer": "how much are these apples"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I would like a bag of rice.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मुझे चावल का एक थैला चाहिए।'",
+        "Japanese": "言ってください:「お米を一袋ください。」"
+      },
+      "options": [],
+      "answer": "i would like a bag of rice"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Can I pay by card?'",
+      "question_translation": {
+        "Hindi": "कहें: 'क्या मैं कार्ड से भुगतान कर सकता हूँ?'",
+        "Japanese": "言ってください:「カードで払えますか？」"
+      },
+      "options": [],
+      "answer": "can i pay by card"
+    }
+  ]
+}
+
 }

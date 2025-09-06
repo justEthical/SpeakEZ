@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:isolate';
 
 import 'package:flutter/material.dart';
@@ -7,8 +8,10 @@ import 'package:lottie/lottie.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -105,6 +108,16 @@ class GlobalController extends GetxController {
     );
   }
 
+void updateProfile()async{
+  
+  // updating user profile in local storage
+  globalController.prefs?.setString(
+    AppStrings.userProfile,
+    jsonEncode(userProfile.value.toMap()),
+  );
+  // updating user profile in firestore
+  FirestoreHelper.updateUserField(userProfile.value.toMap()); 
+}
   Future<void> openUrl(String urlString) async {
     final Uri url = Uri.parse(urlString);
     if (!await launchUrl(url)) {

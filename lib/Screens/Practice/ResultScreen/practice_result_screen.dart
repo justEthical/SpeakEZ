@@ -2,15 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
+import 'package:speak_ez/Screens/Practice/ResultScreen/detailed_result.dart';
+import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 
 import 'Widgets/result_title.dart';
 import 'Widgets/score_bar.dart';
 
 class PracticeResultSreen extends StatelessWidget {
-  final EvaluationResult result;
+  final FeedbackResult result;
   PracticeResultSreen({super.key, required this.result});
 
   final GlobalKey globalKey = GlobalKey();
@@ -19,26 +23,13 @@ class PracticeResultSreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = Get.find<PracticeController>();
     final theme = Theme.of(context);
-    c.updateLesssonProgress();
+    c.updatePracticeProgress();
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
         backgroundColor: theme.scaffoldBackgroundColor,
-        elevation: 0,
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black54),
-          onPressed: () => Get.back(),
-        ),
-        title: Text(
-          "Result",
-          style: GoogleFonts.nunito(
-            fontSize: 22,
-            fontWeight: FontWeight.w800,
-            color: Colors.black87,
-          ),
-        ),
-        centerTitle: true,
+
         actions: [
           IconButton(
             icon: Icon(Icons.share_outlined, color: Colors.black54),
@@ -113,7 +104,7 @@ class PracticeResultSreen extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
-            "Score: ${result.score}/100",
+            "Score: ${c.getOverAllScore(result)}/100",
             style: GoogleFonts.nunito(
               fontSize: 36,
               color: Colors.white,
@@ -121,7 +112,7 @@ class PracticeResultSreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
-          ScoreBar(score: result.score),
+          ScoreBar(score: c.getOverAllScore(result)),
         ],
       ),
     );
@@ -149,26 +140,33 @@ class PracticeResultSreen extends StatelessWidget {
   }
 
   Widget _buildFeedbackSection(PracticeController c) {
+    final [scoreMap, feedbackList] = c.getAverageScoreAndFeedback();
     return Column(
       children: [
         ResultTile(
           onTap: () {},
           icon: AppAssets.fluency,
-          heading: 'Fluency (${result.fluency.rating}/10)',
-          content: result.fluency.feedback,
+          heading: 'Fluency (${scoreMap['fluency']}/10)',
+          content: result.fluency,
           padding: 10,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.grammar,
-          heading: 'Grammar (${result.grammar.rating}/10)',
-          content: result.grammar.feedback,
+          heading: 'Grammar (${scoreMap['grammar']}/10)',
+          content: result.grammar,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.vocabulary,
-          heading: 'Vocabulary (${result.vocabulary.rating}/10)',
-          content: result.vocabulary.feedback,
+          heading: 'Vocabulary (${scoreMap['vocabulary']}/10)',
+          content: result.vocabulary,
+        ),
+        ResultTile(
+          onTap: () {},
+          icon: AppAssets.prononciation,
+          heading: 'Pronunciation (${scoreMap['pronunciation']}/10)',
+          content: result.pronunciation,
         ),
         ResultTile(
           onTap: () {},
@@ -182,6 +180,41 @@ class PracticeResultSreen extends StatelessWidget {
           heading: 'Suggestion',
           content: result.suggestion,
         ),
+        InkWell(
+          onTap: () {
+            Get.to(() => const DetailedResult());
+          },
+          child: Container(
+            height: 50,
+            margin: EdgeInsets.only(bottom: 10),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.black, width: 1),
+            ),
+
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Detailed Feedback',
+                  style: TextStyle(
+                    color: Colors.deepPurple,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Icon(
+                  Icons.arrow_forward_ios,
+                  color: Colors.deepPurple,
+                  size: 16,
+                ),
+              ],
+            ),
+          ),
+        ),
       ],
     );
   }
@@ -190,7 +223,22 @@ class PracticeResultSreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: ElevatedButton(
-        onPressed: () => Get.back(),
+        onPressed: () {
+          Get.back();
+          final completedSessions =
+              globalController.prefs?.getInt(
+                AppStrings.completedPracticeSessions,
+              ) ??
+              0;
+          final isItTimeToShowCustomReview = completedSessions % 5;
+          if ((isItTimeToShowCustomReview == 1) &&
+              !globalController
+                  .userProfile
+                  .value
+                  .isShownCustomReviewDialogOnce) {
+            Get.to(() => const CustomReviewScreen());
+          }
+        },
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.black,
           minimumSize: const Size(double.infinity, 55),

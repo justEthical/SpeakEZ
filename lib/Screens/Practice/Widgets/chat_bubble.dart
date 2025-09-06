@@ -3,11 +3,13 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Models/ai_response_model.dart';
 import 'package:speak_ez/Models/chat_model.dart';
 
 class ChatBubble extends StatelessWidget {
+  final AIResponseModel? aiResponseModel;
   final ChatModel chatModel;
-  const ChatBubble({super.key, required this.chatModel});
+  const ChatBubble({super.key, required this.chatModel, this.aiResponseModel});
 
   @override
   Widget build(BuildContext context) {
@@ -73,7 +75,7 @@ class ChatBubble extends StatelessWidget {
               AppAssets.chatting,
               decoder: globalController.customDecoder,
             ),
-          ) : ConstrainedBox(
+          ) : ( aiResponseModel == null ? ConstrainedBox(
             constraints: BoxConstraints(maxWidth: Get.width - 120),
             child: Container(
               margin: EdgeInsets.only(bottom: 10),
@@ -98,7 +100,37 @@ class ChatBubble extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 15),
               ),
             ),
-          )
+          ) : ConstrainedBox(
+            constraints: BoxConstraints(maxWidth: Get.width - 120),
+            child: Container(
+              margin: EdgeInsets.only(bottom: 10),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(10),
+                  topRight: Radius.circular(10),
+                  bottomLeft: Radius.circular(10),
+                ),
+                border: Border.all(color: Colors.deepPurple),
+              ),
+              padding: const EdgeInsets.all(10),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                  chatModel.message,
+                    style: TextStyle(color: Colors.black, fontSize: 15),
+                  ),
+                  Divider(),
+                  Text(
+                  aiResponseModel!.enhancedTranscript,
+                    style: TextStyle(color: Colors.green, fontSize: 15, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              
+            ),
+          ))
         ],
       );
     }

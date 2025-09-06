@@ -8,6 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:posthog_flutter/posthog_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
@@ -15,6 +16,7 @@ import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Utils/theme.dart';
 
 import 'Controllers/global_controller.dart';
@@ -23,20 +25,34 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   unawaited(MobileAds.instance.initialize());
-  dotenv.load(fileName: ".env");
+  await dotenv.load(fileName: ".env");
+  
+  await PostHogService.instance.initialize();
+  
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
   FlutterError.onError = (errorDetails) {
     FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
+    PostHogService.instance.captureError(
+      'flutter_error',
+      errorMessage: errorDetails.exception.toString(),
+      stackTrace: errorDetails.stack.toString(),
+    );
   };
   // Pass all uncaught asynchronous errors that aren't handled by the Flutter framework to Crashlytics
   PlatformDispatcher.instance.onError = (error, stack) {
     FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
+    PostHogService.instance.captureError(
+      'platform_error',
+      errorMessage: error.toString(),
+      stackTrace: stack.toString(),
+    );
     return true;
   };
-  runApp(const AppEntry());
+  runApp(const AppEntry()
+  );
 }
 
 class AppEntry extends StatelessWidget {
@@ -44,17 +60,20 @@ class AppEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      defaultTransition: Transition.cupertino,
-      initialBinding: BindingsBuilder(() {
-        Get.put(GlobalController());
-        Get.put(OnboardingController());
-      }),
-      theme: lightTheme,
-      darkTheme: darkTheme,
-      themeMode: ThemeMode.light, // 👈 auto switch based on OS
-      home: const Wrapper(),
+    return PostHogWidget(
+      child: GetMaterialApp(
+        debugShowCheckedModeBanner: false,
+        defaultTransition: Transition.cupertino,
+        initialBinding: BindingsBuilder(() {
+          Get.put(GlobalController());
+          Get.put(OnboardingController());
+        }),
+        navigatorObservers: [PosthogObserver()],
+        theme: lightTheme,
+        darkTheme: darkTheme,
+        themeMode: ThemeMode.light, // 👈 auto switch based on OS
+        home: const Wrapper(),
+      ),
     );
   }
 }

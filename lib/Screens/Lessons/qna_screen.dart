@@ -7,6 +7,8 @@ import 'package:speak_ez/Screens/Lessons/Widgets/continue_button.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/option_builder.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 import './Widgets/progress_bar.dart';
 
 class QnaScreen extends StatelessWidget {
@@ -16,6 +18,14 @@ class QnaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
+    PostHogService.instance.captureScreenView(
+      'qna_screen',
+      properties: {'lesson_id': lesson.id},
+    );
+    PostHogService.instance.capture(
+      PostHogEvents.lessonQnaStarted,
+      properties: {'lesson_id': lesson.id, 'lesson_name': lesson.lessonName},
+    );
     return PopScope(
       canPop: c.isBottomSheetOpen,
       onPopInvokedWithResult: (res, k){
@@ -79,6 +89,15 @@ class QnaScreen extends StatelessWidget {
                                 backgroundColor: Colors.deepPurple
                               ),
                               onPressed: () {
+                                PostHogService.instance.captureClick(
+                                  'listen_audio',
+                                  elementType: 'button',
+                                  screenName: 'qna_screen',
+                                  additionalProperties: {
+                                    'question_index': i,
+                                    'lesson_id': lesson.id,
+                                  },
+                                );
                                 ttsHelper.speak(
                                   question.audioText!,
                                 );

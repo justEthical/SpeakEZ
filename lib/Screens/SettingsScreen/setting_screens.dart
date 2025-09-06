@@ -9,12 +9,16 @@ import 'package:speak_ez/Screens/SettingsScreen/Widgets/reauthentication_bottom_
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
 import 'package:speak_ez/Utils/common_widgets.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class SettingScreens extends StatelessWidget {
   const SettingScreens({super.key});
 
   @override
   Widget build(BuildContext context) {
+    PostHogService.instance.captureScreenView('settings_screen');
+    PostHogService.instance.capture(PostHogEvents.settingsOpened);
     return Scaffold(
       body: Column(
         children: [
@@ -47,7 +51,14 @@ class SettingScreens extends StatelessWidget {
                       ),
                       Spacer(),
                       InkWell(
-                        onTap: () => Get.back(),
+                        onTap: () {
+                          PostHogService.instance.captureClick(
+                            'settings_close',
+                            elementType: 'button',
+                            screenName: 'settings_screen',
+                          );
+                          Get.back();
+                        },
                         child: Container(
                           padding: const EdgeInsets.all(5),
                           decoration: BoxDecoration(

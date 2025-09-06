@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class AuthService {
   static final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -33,6 +35,11 @@ class AuthService {
       // Return the authenticated user
       return userCredential;
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Error during Google sign-in: $e',
+        location: 'AuthService.signInWithGoogle',
+      );
       globalController.showSnackbarWithGetX(
         'Error',
         'Error during Google sign-in: $e',
@@ -53,6 +60,12 @@ class AuthService {
       print('Signup successful: ${userCredential.user?.email}');
       return userCredential;
     } on FirebaseAuthException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Signup error: ${e.code} - ${e.message}',
+        location: 'AuthService.signUpWithEmail',
+        additionalProperties: {'error_code': e.code},
+      );
       if (e.code == 'weak-password') {
         globalController.showSnackbarWithGetX(
           'Error',
@@ -73,6 +86,11 @@ class AuthService {
         print('Signup error: ${e.message}');
       }
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Unexpected error: $e',
+        location: 'AuthService.signUpWithEmail',
+      );
       globalController.showSnackbarWithGetX('Error', 'Unexpected error: $e');
       print('Unexpected error: $e');
     }
@@ -90,6 +108,12 @@ class AuthService {
       print('Login successful: ${userCredential.user?.email}');
       return userCredential;
     } on FirebaseAuthException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Login error: ${e.code} - ${e.message}',
+        location: 'AuthService.loginWithEmail',
+        additionalProperties: {'error_code': e.code},
+      );
       if (e.code == 'user-not-found') {
         globalController.showSnackbarWithGetX(
           'Error',
@@ -106,6 +130,11 @@ class AuthService {
         print('Login error: ${e.message}');
       }
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Unexpected error: $e',
+        location: 'AuthService.loginWithEmail',
+      );
       globalController.showSnackbarWithGetX('Error', 'Unexpected error: $e');
       print('Unexpected error: $e');
     }
@@ -117,6 +146,11 @@ class AuthService {
       await _googleSignIn.signOut();
       await _auth.signOut();
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Error during Google sign-out: $e',
+        location: 'AuthService.logout',
+      );
       print("Error during Google sign-out: $e");
     }
   }
@@ -161,6 +195,11 @@ class AuthService {
       print("Reauthentication successful.");
       return true;
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Reauthentication failed: $e',
+        location: 'AuthService.reAuthenticateGoogleLogin',
+      );
       globalController.showSnackbarWithGetX(
         'Error',
         'Reauthentication failed: $e',
@@ -199,6 +238,12 @@ class AuthService {
       print("Reauthentication successful.");
       return true;
     } on FirebaseAuthException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Reauthentication failed: ${e.code} - ${e.message}',
+        location: 'AuthService.reAuthenticateWithEmail',
+        additionalProperties: {'error_code': e.code},
+      );
       globalController.showSnackbarWithGetX(
         "Error",
         "Reauthentication failed: ${e.message}",
@@ -206,6 +251,11 @@ class AuthService {
       print("FirebaseAuthException: ${e.code} - ${e.message}");
       // Handle error: wrong-password, user-mismatch, etc.
     } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.authenticationError,
+        errorMessage: 'Error during reauthentication: $e',
+        location: 'AuthService.reAuthenticateWithEmail',
+      );
       globalController.showSnackbarWithGetX(
         "Error",
         "Error during reauthentication: $e",

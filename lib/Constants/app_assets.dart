@@ -16,6 +16,7 @@ class AppAssets {
   static String get downloading => _getFullLottiePath("downloading.lottie");
   static String get mic => _getFullLottiePath("mic.lottie");
   static String get loader => _getFullLottiePath("loader.lottie");
+  static String get rating => _getFullLottiePath("rating.lottie");  
 
   //Audio files
   static String get correct => "correct.mp3";
@@ -77,6 +78,7 @@ class AppAssets {
   static String get fluency => _getFullImagePath("fluency.svg");
   static String get grammar => _getFullImagePath("grammer.svg");
   static String get vocabulary => _getFullImagePath("vocabulary.svg");
+  static String get prononciation => _getFullImagePath("prononciation.svg");
   static String get totalSpeakingTime =>
       _getFullImagePath("total_speaking_time.svg");
   static String get tip => _getFullImagePath("tip.svg");

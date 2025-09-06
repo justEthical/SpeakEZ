@@ -7,6 +7,8 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Models/onboarding_view_model.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -14,6 +16,8 @@ class OnboardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final OnboardingController c = Get.put(OnboardingController());
+    PostHogService.instance.captureScreenView('onboarding_screen');
+    PostHogService.instance.capture(PostHogEvents.onboardingStarted);
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -88,6 +92,11 @@ class OnboardingScreen extends StatelessWidget {
                                 minimumSize: const Size(100, 40),
                               ),
                               onPressed: () {
+                                PostHogService.instance.captureClick(
+                                  'onboarding_back',
+                                  elementType: 'button',
+                                  screenName: 'onboarding_screen',
+                                );
                                 c.currentOnboardingIndex.value--;
                                 c.onboardingPageIndicator
                                     .previousPage(
@@ -111,11 +120,20 @@ class OnboardingScreen extends StatelessWidget {
                       minimumSize: const Size(100, 40),
                     ),
                     onPressed: () {
+                      PostHogService.instance.captureClick(
+                        'onboarding_next',
+                        elementType: 'button',
+                        screenName: 'onboarding_screen',
+                        additionalProperties: {
+                          'page_index': c.currentOnboardingIndex.value,
+                        },
+                      );
                       c.onboardingPageIndicator.nextPage(
                         duration: const Duration(milliseconds: 500),
                         curve: Curves.easeIn,
                       );
                       if (c.currentOnboardingIndex.value == 2) {
+                        PostHogService.instance.capture(PostHogEvents.onboardingCompleted);
                         globalController.prefs?.setString(AppStrings.userAuthState, "loggedOut");
                         Get.offAll(() => const LoginSignUp());
                       }

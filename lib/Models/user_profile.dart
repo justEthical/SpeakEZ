@@ -5,6 +5,7 @@ class UserProfileModel {
   int currentStreak;
   int wordLearned;
   final String displayName;
+  bool isShownCustomReviewDialogOnce;
 
   final String? photoUrl;
   final String email;
@@ -31,6 +32,7 @@ class UserProfileModel {
     required this.confidence,
     required this.preferredPractice,
     required this.motherTongue,
+    required this.isShownCustomReviewDialogOnce,
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -52,6 +54,7 @@ class UserProfileModel {
       confidence: map['confidence'] ?? '',
       preferredPractice: map['preferredPractice'] ?? '',
       motherTongue: map['motherTongue'] ?? '',
+      isShownCustomReviewDialogOnce: map['isShownCustomReviewDialogOnce'] ?? false,
     );
   }
 
@@ -72,6 +75,7 @@ class UserProfileModel {
       'confidence': confidence,
       'preferredPractice': preferredPractice,
       'motherTongue': motherTongue,
+      'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce
     };
   }
 }

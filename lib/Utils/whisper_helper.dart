@@ -49,6 +49,7 @@ class WhisperHelper {
 
         replyTo.send(result.text);// send back transcription
         } catch (e) {
+          // Note: Cannot use PostHogService in isolate
           replyTo.send(e.toString());
         }
       }
@@ -160,11 +161,13 @@ class WhisperHelper {
             await file.delete();
           }
         } catch (e) {
+          // Note: Cannot use PostHogService in isolate
           print('Error deleting file: $e');
         }
 
         replyTo.send('✅ Done');
       } catch (e) {
+        // Note: Cannot use PostHogService in isolate
         print('[Error] $e');
         replyTo.send('❌ Failed');
       }
