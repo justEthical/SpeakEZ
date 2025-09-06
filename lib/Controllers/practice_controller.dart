@@ -27,7 +27,7 @@ class PracticeController extends GetxController {
   final AudioChunkRecorder recorder = AudioChunkRecorder();
 
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 10;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 10 : 10;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -118,8 +118,7 @@ class PracticeController extends GetxController {
         //     chatType: ChatType.gettingAIResponse,
         //   ),
         // );
-        getAiResponse(currentUserSessionMessage.value ==
-            maxNumberOfAiResponsesPerSession);
+        getAiResponse();
         // if (currentUserSessionMessage.value <=
         //     maxNumberOfAiResponsesPerSession) {
         //   getAiResponse();
@@ -159,11 +158,10 @@ class PracticeController extends GetxController {
   }
 
   Future<void>  getConversationAiFeedbackResult() async {
-    // final pastConversation = getPastConversation();
     
     final [scoreMap, feedbackList] = getAverageScoreAndFeedback();  
 
-    final res = await NetworkService.getConversationAiFeedbackResultFromGroq(
+    final res = await NetworkService.getConversationAiFeedbackResult(
       scoreMap: scoreMap,
       feedbackList: feedbackList,
     );
@@ -207,8 +205,8 @@ class PracticeController extends GetxController {
     return '';
   }
 
-  Future<void> getAiResponse(isLastMessage) async {
-    var response = await NetworkService.getAiResponseFromGroq(
+  Future<void> getAiResponse() async {
+    var response = await NetworkService.getAiResponse(
       userReply: globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
       lastAiMessage: getLastAiMessage(),
@@ -229,7 +227,8 @@ class PracticeController extends GetxController {
             chatType: ChatType.normalChatMesssage,
           ),
         );
-
+      final isLastMessage = currentUserSessionMessage.value ==
+            maxNumberOfAiResponsesPerSession;
       if(isLastMessage) {
         currentChats.add(
           ChatModel(

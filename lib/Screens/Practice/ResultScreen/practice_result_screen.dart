@@ -185,13 +185,34 @@ class PracticeResultSreen extends StatelessWidget {
             Get.to(() => const DetailedResult());
           },
           child: Container(
+            height: 50,
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.black, width: 1),
             ),
+
             padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
-            child: Center(child: Text('Detailed Feedback')),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Detailed Feedback',
+                  style: TextStyle(
+                    color: Colors.deepPurple,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Icon(
+                  Icons.arrow_forward_ios,
+                  color: Colors.deepPurple,
+                  size: 16,
+                ),
+              ],
+            ),
           ),
         ),
       ],

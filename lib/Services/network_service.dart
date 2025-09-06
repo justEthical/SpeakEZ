@@ -1,6 +1,5 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 import 'package:speak_ez/Constants/app_strings.dart';
@@ -10,118 +9,49 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 
 class NetworkService {
   static final dio = Dio();
-  static final groqBaseUrl = "https://api.groq.com/openai/v1/chat/completions";
   static final baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyBcc-zdYdnImr7fk5PJJvYjizsSkScrOKs';
+      'https://api.deepinfra.com/v1/openai/chat/completions';
   static Future<String> getUserCountryFromIP() async {
-    final response = await http.get(Uri.parse("https://ipwho.is/"));
-    if (response.statusCode == 200) {
-      final data = json.decode(response.body);
-      print(data);
-      return data["country_code"]; // e.g., "IN"
-    } else {
+    try {
+      final response = await dio.get("https://ipwho.is/");
+
+      if (response.statusCode == 200) {
+        final data = response.data is String
+            ? json.decode(response.data)
+            : response.data; // Dio may already parse JSON
+
+        print(data);
+        return data["country_code"] ?? "IN"; // e.g., "IN"
+      } else {
+        return "IN";
+      }
+    } catch (e) {
+      print("Error fetching country: $e");
       return "Unknown";
     }
   }
 
-  static Future<String?> getAiReposne(
-    String userPrompt, {
-    required String topic,
-    required List<Map<String, dynamic>> pastConversation,
-  }) async {
-    final pastConversationSring = jsonEncode(
-      pastConversation.reversed.toList(),
-    );
-    final systemPrompt =
-        "${AppStrings.systemPrompt} : $topic. PAST CONVERSATION: $pastConversationSring. ${AppStrings.continueConversation}";
-    try {
-      final body = getBody(systemPrompt, userPrompt);
-      Response response = await dio.post(baseUrl, data: jsonEncode(body));
-      if (response.statusCode == 200) {
-        return response.data['candidates'][0]['content']['parts'][0]['text'];
-      }
-    } on DioException catch (e) {
-      PostHogService.instance.captureError(
-        PostHogEvents.apiCallFailed,
-        errorMessage: 'Dio error: ${e.message}',
-        location: 'NetworkService.getAiReposne',
-        additionalProperties: {'api': 'gemini', 'topic': topic},
-      );
-      print('Dio error: ${e.message}');
-    } catch (e) {
-      PostHogService.instance.captureError(
-        PostHogEvents.networkError,
-        errorMessage: 'Other error: $e',
-        location: 'NetworkService.getAiReposne',
-        additionalProperties: {'api': 'gemini', 'topic': topic},
-      );
-      print('Other error: $e');
-    }
-    return null;
-  }
-
-  static Future<String?> getConversationAiFeedbackResult(
-    List<Map<String, dynamic>> pastConversation,
-  ) async {
-    try {
-      final text = jsonEncode(pastConversation);
-      final body = getBody(
-        "${AppStrings.resultScreenSystemPrompt} user english level: ${globalController.userProfile.value.currentEnglishLevel}",
-        text,
-        responseMimeType: "application/json",
-      );
-      Response response = await dio.post(baseUrl, data: jsonEncode(body));
-      if (response.statusCode == 200) {
-        return response.data['candidates'][0]['content']['parts'][0]['text'];
-      }
-    } on DioException catch (e) {
-      PostHogService.instance.captureError(
-        PostHogEvents.apiCallFailed,
-        errorMessage: 'Dio error: ${e.message}',
-        location: 'NetworkService.getConversationAiFeedbackResult',
-        additionalProperties: {'api': 'gemini'},
-      );
-      print('Dio error: ${e.message}');
-    } catch (e) {
-      PostHogService.instance.captureError(
-        PostHogEvents.networkError,
-        errorMessage: 'Other error: $e',
-        location: 'NetworkService.getConversationAiFeedbackResult',
-        additionalProperties: {'api': 'gemini'},
-      );
-      print('Other error: $e');
-    }
-    return null;
-  }
 
   static Map getBody(
     String systemPrompt,
-    String userPrompt, {
-    String responseMimeType = "text/plain",
-  }) {
+    String userPrompt) {
     return {
-      "system_instruction": {
-        "parts": [
-          {"text": systemPrompt},
-        ],
-      },
-      "contents": [
+      "model": "google/gemma-3-12b-it",
+      "messages": [
         {
-          "parts": [
-            {"text": userPrompt},
-          ],
+            "role": 'system',
+            "content": systemPrompt,
+        },
+        {
+          "role": "user",
+          "content": userPrompt
         },
       ],
-      "generationConfig": {
-        "temperature": 1.0,
-        "responseMimeType": responseMimeType,
-      },
+      "response_format": { "type": "json_object" }
     };
   }
 
-  
-
-  static Future<String?> getAiResponseFromGroq({
+  static Future<String?> getAiResponse({
     required String userReply,
     required String topic,
     required  String lastAiMessage, // test also after removing it
@@ -131,12 +61,12 @@ class NetworkService {
     final systemPrompt =
         "${AppStrings.systemPrompt2} . TOPIC: $topic.\n English level: ${globalController.userProfile.value.currentEnglishLevel}. SUMMARY: $summary";
     try {
-      final body = getBodyForGroq(systemPrompt, pastConversationEncoded);
+      final body = getBody(systemPrompt, pastConversationEncoded);
       Response response = await dio.post(
-        groqBaseUrl,
+        baseUrl,
         options: Options(
           headers: {
-            'Authorization': 'Bearer ${dotenv.env['GROQ_API_KEY']??''}',
+            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY']??''}',
             'Content-Type': 'application/json',
           },
         ),
@@ -166,37 +96,19 @@ class NetworkService {
     return null;
   }
 
-  static Map getBodyForGroq(systemPrompt, userPrompt) {
-    final response = {
-      "messages": [
-        {"role": "system", "content": systemPrompt},
-        {"role": "user", "content": userPrompt},
-      ],
-      "model": "gemma2-9b-it",
-      "temperature": 1,
-      "max_completion_tokens": 500,
-      "top_p": 1,
-      "stream": false,
-      "stop": null,
-      "response_format": {'type': 'json_object'}
-    };
-    return response;
-  }
-
-
-static Future<String?> getConversationAiFeedbackResultFromGroq(
+static Future<String?> getConversationAiFeedbackResult(
    {required Map scoreMap, required List<String> feedbackList}
   ) async {
     final userPrompt = jsonEncode({'scoreMap': scoreMap, 'feedbackList': feedbackList});
     final systemPrompt =
         "${AppStrings.resultScreenSystemPrompt} user english level: ${globalController.userProfile.value.currentEnglishLevel}";
     try {
-      final body = getBodyForGroq(systemPrompt, userPrompt);
+      final body = getBody(systemPrompt, userPrompt);
       Response response = await dio.post(
-        groqBaseUrl,
+        baseUrl,
         options: Options(
           headers: {
-            'Authorization': 'Bearer ${dotenv.env['GROQ_API_KEY']??''}',
+            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY']??''}',
             'Content-Type': 'application/json',
           },
         ),
@@ -225,5 +137,4 @@ static Future<String?> getConversationAiFeedbackResultFromGroq(
     }
      return null;
   }
-
 }

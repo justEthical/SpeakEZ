@@ -32,16 +32,45 @@ class DetailedResult extends StatelessWidget {
       ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
-        child: ListView.builder(
-          controller: c.chatScrollController,
-          itemCount: c.currentChats.length,
-          itemBuilder: (ctx, index) {
-            final aiResponseIndex = (((index + 1)/2).toInt() -1).abs();
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 12.0),
-              child: ChatBubble(chatModel: c.currentChats[index], aiResponseModel: c.aiResponseList[aiResponseIndex],),
-            );
-          },
+        child: Column(
+          children: [
+            Expanded(
+              child: ListView.builder(
+                controller: c.chatScrollController,
+                itemCount: c.currentChats.length,
+                itemBuilder: (ctx, index) {
+                  final aiResponseIndex = (((index + 1) / 2).toInt() - 1).abs();
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 12.0),
+                    child: ChatBubble(
+                      chatModel: c.currentChats[index],
+                      aiResponseModel: c.aiResponseList[aiResponseIndex],
+                    ),
+                  );
+                },
+              ),
+            ),
+            SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: () => Get.back(),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.black,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                minimumSize: Size(Get.width, 50),
+              ),
+              child: Text(
+                "Done",
+                style: GoogleFonts.nunito(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 18,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
