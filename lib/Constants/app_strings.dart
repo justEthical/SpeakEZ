@@ -43,11 +43,10 @@ Output ONLY JSON:
 Input: scores (1–10 for fluency, grammar, vocabulary, pronunciation) + feedback list. 
 Do: 
 - For each key give 1–2 sentence feedback using score+comments. 
-- overall_score = avg of 4 scores ×10 (int). 
 - suggestion = 1–2 sentences overall advice. 
 - motivation = short motivational quote. 
 Output JSON only:
-{"fluency":"...","grammar":"...","vocabulary":"...","pronunciation":"...","overall_score":X,"suggestion":"...","motivation":"..."}
+{"fluency":"...","grammar":"...","vocabulary":"...","pronunciation":"...","suggestion":"...","motivation":"..."}
 ''';
 
 static const appShareMessage = '''Unlock Your Confidence with SpeakEZ AI 🎙️✨ – Your Pocket English Coach!

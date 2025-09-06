@@ -104,7 +104,7 @@ class PracticeResultSreen extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
-            "Score: ${result.overallScore}/100",
+            "Score: ${c.getOverAllScore(result)}/100",
             style: GoogleFonts.nunito(
               fontSize: 36,
               color: Colors.white,
@@ -112,7 +112,7 @@ class PracticeResultSreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
-          ScoreBar(score: result.overallScore),
+          ScoreBar(score: c.getOverAllScore(result)),
         ],
       ),
     );

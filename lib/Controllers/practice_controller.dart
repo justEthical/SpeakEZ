@@ -88,7 +88,7 @@ class PracticeController extends GetxController {
         message: "🎙️ Recording stopped",
         time: "time",
         isAI: false,
-        messageDuration: 0, 
+        messageDuration: 0,
         chatType: ChatType.transcribing, // transcribing animation
       ),
     );
@@ -125,7 +125,7 @@ class PracticeController extends GetxController {
         // if (currentUserSessionMessage.value <=
         //     maxNumberOfAiResponsesPerSession) {
         //   getAiResponse();
-        // } 
+        // }
         // if(currentUserSessionMessage.value >=
         //     maxNumberOfAiResponsesPerSession) {
         //   getConversationAiFeedbackResult();
@@ -139,30 +139,29 @@ class PracticeController extends GetxController {
   }
 
   List getAverageScoreAndFeedback() {
-    var fluency = 0;  
+    var fluency = 0;
     var grammar = 0;
-    var vocabulary = 0; 
+    var vocabulary = 0;
     var pronunciation = 0;
     List<String> feedbackList = [];
-    for(var i in aiResponseList){
-      fluency += i.scores.fluency;  
+    for (var i in aiResponseList) {
+      fluency += i.scores.fluency;
       grammar += i.scores.grammar;
-      vocabulary += i.scores.vocabulary; 
-      pronunciation += i.scores.pronunciation;  
+      vocabulary += i.scores.vocabulary;
+      pronunciation += i.scores.pronunciation;
       feedbackList.add(i.feedback);
     }
     Map scoreMap = {
-      "fluency": fluency/aiResponseList.length,
-      "grammar": grammar/aiResponseList.length,
-      "vocabulary": vocabulary/aiResponseList.length,
-      "pronunciation": pronunciation/aiResponseList.length, 
+      "fluency": fluency / aiResponseList.length,
+      "grammar": grammar / aiResponseList.length,
+      "vocabulary": vocabulary / aiResponseList.length,
+      "pronunciation": pronunciation / aiResponseList.length,
     };
-    return [scoreMap, feedbackList];  
+    return [scoreMap, feedbackList];
   }
 
-  Future<void>  getConversationAiFeedbackResult() async {
-    
-    final [scoreMap, feedbackList] = getAverageScoreAndFeedback();  
+  Future<void> getConversationAiFeedbackResult() async {
+    final [scoreMap, feedbackList] = getAverageScoreAndFeedback();
 
     final res = await NetworkService.getConversationAiFeedbackResult(
       scoreMap: scoreMap,
@@ -201,8 +200,8 @@ class PracticeController extends GetxController {
   }
 
   String getLastAiMessage() {
-    for(int i = currentChats.length - 1; i >= 0; i--) {
-      if(currentChats[i].isAI) {
+    for (int i = currentChats.length - 1; i >= 0; i--) {
+      if (currentChats[i].isAI) {
         return currentChats[i].message;
       }
     }
@@ -218,25 +217,31 @@ class PracticeController extends GetxController {
       lastAiMessage: getLastAiMessage(),
       summary: currentConversationSummary,
     );
-    print("got the ai response, time taook: ${DateTime.now().millisecondsSinceEpoch - time}");
+    print(
+      "got the ai response, time taook: ${DateTime.now().millisecondsSinceEpoch - time}",
+    );
     if (response != null) {
       AIResponseModel aiResponse = AIResponseModel.fromJson(response);
       aiResponseList.add(aiResponse);
       currentUserSessionMessage.value++;
       currentConversationSummary = aiResponse.conversationSummary.trim();
-      currentChats.remove(currentChats.last); // for removing transcribing(... animation) message
+      currentChats.remove(
+        currentChats.last,
+      ); // for removing transcribing(... animation) message
       currentChats.add(
-          ChatModel(
-            message: aiResponse.correctedTranscript.trim(), // globalController.transcriptionText.value, //
-            time: "time",
-            isAI: false,
-            messageDuration: 30 - remainingSeconds.value,
-            chatType: ChatType.normalChatMesssage,
-          ),
-        );
-      final isLastMessage = currentUserSessionMessage.value ==
-            maxNumberOfAiResponsesPerSession;
-      if(isLastMessage) {
+        ChatModel(
+          message:
+              aiResponse.correctedTranscript
+                  .trim(), // globalController.transcriptionText.value, //
+          time: "time",
+          isAI: false,
+          messageDuration: 30 - remainingSeconds.value,
+          chatType: ChatType.normalChatMesssage,
+        ),
+      );
+      final isLastMessage =
+          currentUserSessionMessage.value == maxNumberOfAiResponsesPerSession;
+      if (isLastMessage) {
         currentChats.add(
           ChatModel(
             message: "getting AI response",
@@ -247,21 +252,21 @@ class PracticeController extends GetxController {
           ),
         );
         getConversationAiFeedbackResult();
-      }else{
+      } else {
         currentChats.add(
-        ChatModel(
-          message: aiResponse.nextAiMessage.trim(),
-          time: "time",
-          isAI: true,
-          messageDuration: 0,
-          chatType: ChatType.normalChatMesssage,
-        ),
-      );
+          ChatModel(
+            message: aiResponse.nextAiMessage.trim(),
+            time: "time",
+            isAI: true,
+            messageDuration: 0,
+            chatType: ChatType.normalChatMesssage,
+          ),
+        );
       }
 
       _scrollToBottom();
       isSpeaking.value = true;
-      if(!isLastMessage) {
+      if (!isLastMessage) {
         await ttsHelper.speakAndWait(aiResponse.nextAiMessage.trim());
       }
       isSpeaking.value = false;
@@ -288,15 +293,13 @@ class PracticeController extends GetxController {
   }
 
   void updatePracticeProgress() {
-      final completedSessions =
-          globalController.prefs?.getInt(
-            AppStrings.completedPracticeSessions,
-          ) ??
-          0;
-      globalController.prefs?.setInt(
-        AppStrings.completedPracticeSessions,
-        completedSessions + 1,
-      );
+    final completedSessions =
+        globalController.prefs?.getInt(AppStrings.completedPracticeSessions) ??
+        0;
+    globalController.prefs?.setInt(
+      AppStrings.completedPracticeSessions,
+      completedSessions + 1,
+    );
 
     final lastActive = globalController.userProfile.value.lastActive;
     final now = DateTime.now();
@@ -308,7 +311,6 @@ class PracticeController extends GetxController {
 
     globalController.userProfile.value.lastActive = DateTime.now();
 
-    
     globalController.updateProfile();
   }
 
@@ -455,5 +457,16 @@ class PracticeController extends GetxController {
         files: [XFile(file.path)],
       ),
     );
+  }
+
+  int getOverAllScore(FeedbackResult result) {
+    double overAllScore = 0;
+    final [scoreMap, feedbackList] = getAverageScoreAndFeedback();
+    overAllScore += scoreMap['fluency'];
+    overAllScore += scoreMap['grammar'];
+    overAllScore += scoreMap['vocabulary'];
+    overAllScore += scoreMap['pronunciation'];
+    overAllScore = (overAllScore / 4) * 10;  
+    return overAllScore.toInt();
   }
 }
