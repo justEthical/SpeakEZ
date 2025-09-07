@@ -1,14 +1,19 @@
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_colors.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
-import 'package:speak_ez/Models/questions_model.dart';
 
 class ListOfLessons extends StatefulWidget {
-  const ListOfLessons({super.key});
+  final String englishLevel;
+  final bool isLessonLocked;
+  const ListOfLessons({
+    super.key,
+    this.isLessonLocked = false,
+    required this.englishLevel,
+  });
 
   @override
   State<ListOfLessons> createState() => _ListOfLessonsState();
@@ -19,7 +24,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
@@ -44,65 +49,67 @@ class _ListOfLessonsState extends State<ListOfLessons> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 10),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: [
-                  ...List.generate(
-                    CEFRLevel.values.length,
-                    (index) => Obx(
-                      () => GestureDetector(
-                        onTap: () {
-                          c.currenEnglishLessonLevel.value =
-                              CEFRLevel.values[index].name;
-                        },
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 20, vertical: 10),
-                          margin: const EdgeInsets.only(right: 10),
-                          decoration: BoxDecoration(
-                            color: c.currenEnglishLessonLevel.value ==
-                                    CEFRLevel.values[index].name
-                                ? AppColors.primaryColor
-                                : Colors.grey[200],
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          child: Text(
-                            CEFRLevel.values[index].name,
-                            style: TextStyle(
-                              color: c.currenEnglishLessonLevel.value ==
-                                      CEFRLevel.values[index].name
-                                  ? Colors.white
-                                  : Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            // const SizedBox(height: 10),
+            // SingleChildScrollView(
+            //   scrollDirection: Axis.horizontal,
+            //   child: Row(
+            //     children: [
+            //       ...List.generate(
+            //         CEFRLevel.values.length,
+            //         (index) => Obx(
+            //           () => GestureDetector(
+            //             onTap: () {
+            //               c.currenEnglishLessonLevel.value =
+            //                   CEFRLevel.values[index].name;
+            //             },
+            //             child: Container(
+            //               padding: const EdgeInsets.symmetric(
+            //                 horizontal: 20,
+            //                 vertical: 10,
+            //               ),
+            //               margin: const EdgeInsets.only(right: 10),
+            //               decoration: BoxDecoration(
+            //                 color:
+            //                     c.currenEnglishLessonLevel.value ==
+            //                             CEFRLevel.values[index].name
+            //                         ? AppColors.primaryColor
+            //                         : Colors.grey[200],
+            //                 borderRadius: BorderRadius.circular(20),
+            //               ),
+            //               child: Text(
+            //                 CEFRLevel.values[index].name,
+            //                 style: TextStyle(
+            //                   color:
+            //                       c.currenEnglishLessonLevel.value ==
+            //                               CEFRLevel.values[index].name
+            //                           ? Colors.white
+            //                           : Colors.black,
+            //                   fontWeight: FontWeight.bold,
+            //                 ),
+            //               ),
+            //             ),
+            //           ),
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
             const SizedBox(height: 20),
             Expanded(
-              child: Obx(
-                () => ListView.builder(
-                  itemCount: AppData
-                      .lessonNames[c.currenEnglishLessonLevel.value]!.length,
-                  itemBuilder: (ctx, i) => Container(
+              child: ListView.builder(
+                itemCount: AppData.lessonNames[widget.englishLevel]!.length,
+                itemBuilder: (ctx, i) {
+                  final islessonCompleted =
+                      (i <
+                      globalController
+                          .userProfile
+                          .value
+                          .currentEnglishLevelProgress) && !widget.isLessonLocked;
+                  return Container(
                     margin: const EdgeInsets.only(bottom: 15),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
-                      gradient: LinearGradient(
-                        colors: [
-                          AppColors.primaryColor.withOpacity(0.05),
-                          Colors.white,
-                        ],
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                      ),
+                      color: Colors.white,
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey.withOpacity(0.2),
@@ -114,9 +121,13 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                     ),
                     child: ListTile(
                       contentPadding: const EdgeInsets.symmetric(
-                          vertical: 10, horizontal: 15),
+                        vertical: 10,
+                        horizontal: 15,
+                      ),
                       leading: CircleAvatar(
-                        backgroundColor: AppColors.primaryColor.withOpacity(0.1),
+                        backgroundColor: AppColors.primaryColor.withOpacity(
+                          0.1,
+                        ),
                         child: Text(
                           (i + 1).toString(),
                           style: const TextStyle(
@@ -126,20 +137,34 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                         ),
                       ),
                       title: Text(
-                        AppData.lessonNames[
-                                c.currenEnglishLessonLevel.value]![i]
+                        AppData
+                            .lessonNames[widget.englishLevel]![i]
                             .toString(),
                         style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
                         ),
                       ),
-                      subtitle: Text(c.currenEnglishLessonLevel.value),
-                      trailing: const Icon(Icons.arrow_forward_ios,
-                          color: Colors.grey, size: 16),
+                      subtitle: Text(widget.englishLevel),
+                      trailing: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(
+                            islessonCompleted ? Icons.check_circle : Icons.lock,
+                            color:
+                                islessonCompleted ? Colors.green : Colors.grey,
+                            size: 20,
+                          ),
+                          const Icon(
+                            Icons.arrow_forward_ios,
+                            color: Colors.grey,
+                            size: 20,
+                          ),
+                        ],
+                      ),
                     ),
-                  ),
-                ),
+                  );
+                },
               ),
             ),
           ],
