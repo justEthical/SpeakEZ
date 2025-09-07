@@ -82,16 +82,16 @@ class NetworkService {
       PostHogService.instance.captureError(
         PostHogEvents.apiCallFailed,
         errorMessage: 'Dio error: ${e.message}',
-        location: 'NetworkService.getAiResponseFromGroq',
-        additionalProperties: {'api': 'groq', 'topic': topic},
+        location: 'NetworkService.getAiResponse',
+        additionalProperties: {'api': 'DeepInfra', 'topic': topic},
       );
       print('Dio error: ${e.message}');
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.networkError,
         errorMessage: 'Other error: $e',
-        location: 'NetworkService.getAiResponseFromGroq',
-        additionalProperties: {'api': 'groq', 'topic': topic},
+        location: 'NetworkService.getAiResponse',
+        additionalProperties: {'api': 'DeepInfra', 'topic': topic},
       );
       print('Other error: $e');
     }
@@ -124,16 +124,16 @@ static Future<String?> getConversationAiFeedbackResult(
       PostHogService.instance.captureError(
         PostHogEvents.apiCallFailed,
         errorMessage: 'Dio error: ${e.message}',
-        location: 'NetworkService.getConversationAiFeedbackResultFromGroq',
-        additionalProperties: {'api': 'groq'},
+        location: 'NetworkService.getAiResponse',
+        additionalProperties: {'api': 'DeepInfra'},
       );
       print('Dio error: ${e.message}'); 
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.networkError,
         errorMessage: 'Other error: $e',
-        location: 'NetworkService.getConversationAiFeedbackResultFromGroq',
-        additionalProperties: {'api': 'groq'},
+        location: 'NetworkService.getAiResponse',
+        additionalProperties: {'api': 'DeepInfra'},
       );
       print('Other error: $e'); 
     }
