@@ -28,8 +28,8 @@ class _ListOfLessonsState extends State<ListOfLessons> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        title: const Text(
-          "Lessons",
+        title: Text(
+          "${widget.englishLevel} Level Lessons",
           style: TextStyle(
             color: Colors.black,
             fontSize: 24,
@@ -101,10 +101,11 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                 itemBuilder: (ctx, i) {
                   final islessonCompleted =
                       (i <
-                      globalController
-                          .userProfile
-                          .value
-                          .currentEnglishLevelProgress) && !widget.isLessonLocked;
+                          globalController
+                              .userProfile
+                              .value
+                              .currentEnglishLevelProgress) &&
+                      !widget.isLessonLocked;
                   return Container(
                     margin: const EdgeInsets.only(bottom: 15),
                     decoration: BoxDecoration(
@@ -137,24 +138,32 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                         ),
                       ),
                       title: Text(
-                        AppData
-                            .lessonNames[widget.englishLevel]![i]
-                            .toString(),
+                        AppData.lessonNames[widget.englishLevel]![i].toString(),
                         style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
                         ),
                       ),
-                      subtitle: Text(widget.englishLevel),
-                      trailing: Row(
+                      subtitle:
+                          islessonCompleted
+                              ? Row(
+                                children: [
+                                  Text("Completed "),
+                                  SizedBox(width: 8),
+                                  Icon(Icons.check_circle, color: Colors.green, size: 16,),
+                                ],
+                              )
+                              : SizedBox(),
+                      trailing: islessonCompleted ? ElevatedButton(onPressed: (){}, 
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.deepPurple,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),)
+                      ),
+                       child: Text('RETEST', style: TextStyle(color: Colors.white, fontSize: 12))) : Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          Icon(
-                            islessonCompleted ? Icons.check_circle : Icons.lock,
-                            color:
-                                islessonCompleted ? Colors.green : Colors.grey,
-                            size: 20,
-                          ),
+                          Icon(Icons.lock, color: Colors.grey, size: 20),
                           const Icon(
                             Icons.arrow_forward_ios,
                             color: Colors.grey,
