@@ -46,6 +46,8 @@ class GlobalController extends GetxController {
     getAppDocDirectoryPath();
   }
 
+  
+
   Future<void> startWhisperIsolate() async {
     if (isWhisperInitialized.value) {
       print("Whisper already initialized");
@@ -122,6 +124,17 @@ void updateProfile()async{
     final Uri url = Uri.parse(urlString);
     if (!await launchUrl(url)) {
       throw Exception('Could not launch $url');
+    }
+  }
+
+  String removeTicksJson(String text) {
+    if(text.startsWith('```') && text.endsWith('```')) { 
+      text = text.replaceAll('json', '');
+      text = text.replaceAll('```', '');
+      text = text.trim();
+      return text;
+    } else {
+      return text;
     }
   }
 }
