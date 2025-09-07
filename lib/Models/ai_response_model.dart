@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:speak_ez/Controllers/global_controller.dart';
+
 /// Root model for the LLM evaluation/response.
 class AIResponseModel {
   final String nextAiMessage;
@@ -32,7 +34,7 @@ class AIResponseModel {
 
   /// Create from a JSON string.
   factory AIResponseModel.fromJson(String source) =>
-      AIResponseModel.fromMap(jsonDecode(source) as Map<String, dynamic>);
+      AIResponseModel.fromMap(jsonDecode(globalController.removeTicksJson(source)) as Map<String, dynamic>);
 
   /// Convert to a Map suitable for jsonEncode.
   Map<String, dynamic> toMap() => {
