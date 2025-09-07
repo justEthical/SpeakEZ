@@ -19,7 +19,7 @@ AI_LAST_MESSAGE, USER_TRANSCRIPT, PREVIOUS_SUMMARY.
 Rules:
 - correctedTranscript: ONLY sound-alike ASR fixes according to context of conversation. If unsure, keep original. No rephrase.
 - enhancedTranscript: from correctedTranscript, fix grammar/usage/punct lightly; keep meaning.
-- nextAiMessage: 2–4 sentences + a brief question.
+- nextAiMessage: 2–4 sentences + a brief question based on correctedTranscript.
 - conversationSummary: extend PREVIOUS_SUMMARY in 1–2 sentences.
 - scores: integers 1–10; pronunciation ≈ clamp(1,10, round(10 - 9*WER)).
 - feedback: one short phrase naming the weakest area from scores (lowest score; if tie use: pronunciation > grammar > fluency > vocabulary).
