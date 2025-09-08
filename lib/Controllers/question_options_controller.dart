@@ -51,6 +51,8 @@ class QuestionOptionsController extends GetxController {
   var sttResult = "".obs;
   var isAudioProcessing = false.obs;
 
+  var isFromRetest = false;
+
   final SpeechService stt = SpeechService();
 
   Future<Lesson> setCurrentLesson({int? lessonIndex, String? englishLevel}) async {
