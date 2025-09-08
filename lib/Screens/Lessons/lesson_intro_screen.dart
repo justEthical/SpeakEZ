@@ -2,27 +2,45 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/vocalbulary_screen.dart';
 
-class LessonIntroScreen extends StatelessWidget {
-  final Lesson lesson;
-  const LessonIntroScreen({super.key, required this.lesson});
+class LessonIntroScreen extends StatefulWidget {
+  final int? lessonIndex;
+  final String? englishLevel;  
+  const LessonIntroScreen({super.key, this.lessonIndex, this.englishLevel});
 
   @override
-  Widget build(BuildContext context) {
-    final c = Get.find<QuestionOptionsController>();
-    c.currentQuestionIndex.value = 0;
-    
-    globalController.startWhisperIsolate();
+  State<LessonIntroScreen> createState() => _LessonIntroScreenState();
+}
+
+class _LessonIntroScreenState extends State<LessonIntroScreen> {
+  
+  final c = Get.put(QuestionOptionsController(), permanent: true);
+  Lesson? lesson;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+      lesson = await c.setCurrentLesson(lessonIndex: widget.lessonIndex, englishLevel: widget.englishLevel); 
+      setState(() {
+        
+      });
+      c.currentLessonModel = lesson!;
+      c.currentQuestionIndex.value = 0;
+    });
+  }
+  @override
+  Widget build(BuildContext context) { 
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         leading: InkWell(
           onTap: () {
             Get.back(); 
+            Get.delete<QuestionOptionsController>(force: true);
           },
           child: Container(
             margin: EdgeInsets.all(10),
@@ -34,7 +52,7 @@ class LessonIntroScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Column(
+      body: lesson == null ? Center(child: CircularProgressIndicator(),) :   Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -54,7 +72,7 @@ class LessonIntroScreen extends StatelessWidget {
           ),
           SizedBox(height: 10,),
           Text(
-            lesson.lessonName,
+            lesson!.lessonName,
             style: GoogleFonts.poppins(
               fontSize: 20,
               fontWeight: FontWeight.w600,
@@ -64,7 +82,7 @@ class LessonIntroScreen extends StatelessWidget {
           Spacer(),
           ElevatedButton(
             onPressed: () {
-              Get.off(VocalbularyScreen(lesson: lesson));
+              Get.off(VocalbularyScreen(lesson: lesson!));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.deepPurple,

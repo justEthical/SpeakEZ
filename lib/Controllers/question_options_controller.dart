@@ -53,25 +53,30 @@ class QuestionOptionsController extends GetxController {
 
   final SpeechService stt = SpeechService();
 
-  Future<Lesson> setCurrentLesson() async {
+  Future<Lesson> setCurrentLesson({int? lessonIndex, String? englishLevel}) async {
     final profile = globalController.userProfile.value;
 
     // Build the relative core path once (e.g., /lessons/A1/14.json)
     final nextLessonIndex = profile.currentEnglishLevelProgress + 1;
-    final corePath =
-        "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
+    String corePath = '';
+    if(lessonIndex != null){
+      corePath = "/lessons/$englishLevel/$lessonIndex.json";
+    }else{
+      corePath = "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
+    }
+        
 
     // Absolute file path in app's documents dir
-    final storagePath = "${globalController.appDocDirectoryPath}$corePath";
-    final storageFile = File(storagePath);
+    // final storagePath = "${globalController.appDocDirectoryPath}$corePath";
+    // final storageFile = File(storagePath);
 
     try {
-      // 1) Try app storage override first
-      if (await storageFile.exists()) {
-        final text = await storageFile.readAsString();
-        final map = jsonDecode(text) as Map<String, dynamic>;
-        return Lesson.fromJson(map);
-      }
+      // // 1) Try app storage override first
+      // if (await storageFile.exists()) {
+      //   final text = await storageFile.readAsString();
+      //   final map = jsonDecode(text) as Map<String, dynamic>;
+      //   return Lesson.fromJson(map);
+      // }
 
       // 2) Fall back to bundled asset
       final assetPath = "assets$corePath";
@@ -91,12 +96,11 @@ class QuestionOptionsController extends GetxController {
       // IO errors (permissions, missing file when expected, etc.)
       PostHogService.instance.captureError(
         'lesson_load_error',
-        errorMessage: "File error while loading lesson at $storagePath: ${e.message}",
+        errorMessage: "File error while loading lesson: ${e.message}",
         location: 'QuestionOptionsController.loadLessonFromStorageOrAsset',
-        additionalProperties: {'path': storagePath},
       );
       throw Exception(
-        "File error while loading lesson at $storagePath: ${e.message}",
+        "File error while loading lesson: ${e.message}",
       );
     } catch (e) {
       // Anything else

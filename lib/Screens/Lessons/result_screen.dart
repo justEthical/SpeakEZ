@@ -24,7 +24,6 @@ class ResultScreen extends StatelessWidget {
       globalController.whisperSendPort.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
-    // c.ttsHelper.stop();
     return Scaffold(
       body: Stack(
         children: [
@@ -183,6 +182,7 @@ class ResultScreen extends StatelessWidget {
             !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
           Get.to(() => const CustomReviewScreen());
         }
+        Get.delete<QuestionOptionsController>(force: true);
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.black,

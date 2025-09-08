@@ -5,6 +5,7 @@ import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
+import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 
 class ListOfLessons extends StatefulWidget {
   final String englishLevel;
@@ -49,51 +50,6 @@ class _ListOfLessonsState extends State<ListOfLessons> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // const SizedBox(height: 10),
-            // SingleChildScrollView(
-            //   scrollDirection: Axis.horizontal,
-            //   child: Row(
-            //     children: [
-            //       ...List.generate(
-            //         CEFRLevel.values.length,
-            //         (index) => Obx(
-            //           () => GestureDetector(
-            //             onTap: () {
-            //               c.currenEnglishLessonLevel.value =
-            //                   CEFRLevel.values[index].name;
-            //             },
-            //             child: Container(
-            //               padding: const EdgeInsets.symmetric(
-            //                 horizontal: 20,
-            //                 vertical: 10,
-            //               ),
-            //               margin: const EdgeInsets.only(right: 10),
-            //               decoration: BoxDecoration(
-            //                 color:
-            //                     c.currenEnglishLessonLevel.value ==
-            //                             CEFRLevel.values[index].name
-            //                         ? AppColors.primaryColor
-            //                         : Colors.grey[200],
-            //                 borderRadius: BorderRadius.circular(20),
-            //               ),
-            //               child: Text(
-            //                 CEFRLevel.values[index].name,
-            //                 style: TextStyle(
-            //                   color:
-            //                       c.currenEnglishLessonLevel.value ==
-            //                               CEFRLevel.values[index].name
-            //                           ? Colors.white
-            //                           : Colors.black,
-            //                   fontWeight: FontWeight.bold,
-            //                 ),
-            //               ),
-            //             ),
-            //           ),
-            //         ),
-            //       ),
-            //     ],
-            //   ),
-            // ),
             const SizedBox(height: 20),
             Expanded(
               child: ListView.builder(
@@ -150,27 +106,55 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                                 children: [
                                   Text("Completed "),
                                   SizedBox(width: 8),
-                                  Icon(Icons.check_circle, color: Colors.green, size: 16,),
+                                  Icon(
+                                    Icons.check_circle,
+                                    color: Colors.green,
+                                    size: 16,
+                                  ),
                                 ],
                               )
                               : SizedBox(),
-                      trailing: islessonCompleted ? ElevatedButton(onPressed: (){}, 
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.deepPurple,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),)
-                      ),
-                       child: Text('RETEST', style: TextStyle(color: Colors.white, fontSize: 12))) : Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Icon(Icons.lock, color: Colors.grey, size: 20),
-                          const Icon(
-                            Icons.arrow_forward_ios,
-                            color: Colors.grey,
-                            size: 20,
-                          ),
-                        ],
-                      ),
+                      trailing:
+                          islessonCompleted
+                              ? ElevatedButton(
+                                onPressed: () {
+                                  Get.to(
+                                    () => LessonIntroScreen(
+                                      lessonIndex: i + 1,
+                                      englishLevel: widget.englishLevel,
+                                    ),
+                                    
+                                  );
+                                },
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.deepPurple,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                ),
+                                child: Text(
+                                  'RETEST',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 12,
+                                  ),
+                                ),
+                              )
+                              : Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Icon(
+                                    Icons.lock,
+                                    color: Colors.grey,
+                                    size: 20,
+                                  ),
+                                  const Icon(
+                                    Icons.arrow_forward_ios,
+                                    color: Colors.grey,
+                                    size: 20,
+                                  ),
+                                ],
+                              ),
                     ),
                   );
                 },
