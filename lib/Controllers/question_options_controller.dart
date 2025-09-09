@@ -52,6 +52,7 @@ class QuestionOptionsController extends GetxController {
   var isAudioProcessing = false.obs;
 
   var isFromRetest = false;
+  var isAutoSpeakVocabularyOn = true.obs;
 
   final SpeechService stt = SpeechService();
 
