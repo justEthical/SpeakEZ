@@ -198,6 +198,10 @@ class CustomDialogs {
                 ElevatedButton(
                   onPressed: () {
                     Get.back();
+                    globalController.showSnackbarWithGetX(
+                      "This feature is coming soon..",
+                      "Thanks for your patience!",
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,

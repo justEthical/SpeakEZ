@@ -24,7 +24,7 @@ import 'package:speak_ez/Utils/tts_helper.dart';
 import '../Utils/audio_chunk_recorder.dart';
 
 class PracticeController extends GetxController {
-  late AudioChunkRecorder recorder;
+  AudioChunkRecorder? recorder;
 
   var currentUserSessionMessage = 0.obs;
   var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 10;
@@ -49,7 +49,7 @@ class PracticeController extends GetxController {
 
   void startRecording() {
     recorder = AudioChunkRecorder();
-    recorder.startAutoRecording();
+    recorder?.startAutoRecording();
     _addRecordingChatCell();
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {
@@ -78,7 +78,7 @@ class PracticeController extends GetxController {
   }
 
   void addChatCellTranscriptionData() {
-    recorder.stop();
+    recorder?.stop();
     _timer?.cancel();
     isRecordingInProgress.value = false;
     currentChats.remove(currentChats.last);
@@ -168,7 +168,9 @@ class PracticeController extends GetxController {
       feedbackList: feedbackList,
     );
     if (res != null) {
-      resultModel = FeedbackResult.fromJson(jsonDecode(res));
+      resultModel = FeedbackResult.fromJson(
+        jsonDecode(globalController.removeTicksJson(res)),
+      );
       print(res);
       currentChats.remove(currentChats.last);
       isChatResultReady.value = true;
@@ -466,7 +468,7 @@ class PracticeController extends GetxController {
     overAllScore += scoreMap['grammar'];
     overAllScore += scoreMap['vocabulary'];
     overAllScore += scoreMap['pronunciation'];
-    overAllScore = (overAllScore / 4) * 10;  
+    overAllScore = (overAllScore / 4) * 10;
     return overAllScore.toInt();
   }
 }
