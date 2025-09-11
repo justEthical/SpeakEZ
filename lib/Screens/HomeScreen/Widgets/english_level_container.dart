@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 
 class EnglishLevelContainer extends StatelessWidget {
   final String level;
@@ -20,7 +21,13 @@ class EnglishLevelContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: isLocked ? null : () => Get.to(() => const ListOfLessons()),
+      onTap: (){
+        if(!isLocked){
+          Get.to(() => ListOfLessons(englishLevel: level,));
+        }else{
+          showDialog(context: context, builder: (ctx)=> CustomDialogs.levelIsLockedDialog(level, isLocked));
+        }
+      },
       child: Container(
         width: 100, // Fixed width for horizontal scrolling
         padding: const EdgeInsets.all(16),

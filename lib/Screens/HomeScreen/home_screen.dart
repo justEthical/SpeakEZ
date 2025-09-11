@@ -101,37 +101,31 @@ class _LearnByLevelSection extends StatelessWidget {
       'level': 'A1',
       'lessons': AppData.lessonNames['A1']!.length,
       'color': const Color.fromARGB(255, 43, 154, 219),
-      'isLocked': false,
     },
     {
       'level': 'A2',
       'lessons': AppData.lessonNames['A2']!.length,
       'color': const Color.fromARGB(255, 21, 84, 121),
-      'isLocked': true,
     },
     {
       'level': 'B1',
       'lessons': AppData.lessonNames['B1']!.length,
       'color': const Color.fromARGB(255, 224, 148, 34),
-      'isLocked': true,
     },
     {
       'level': 'B2',
       'lessons': AppData.lessonNames['B2']!.length,
       'color': const Color.fromARGB(255, 174, 106, 3),
-      'isLocked': true,
     },
     {
       'level': 'C1',
       'lessons': AppData.lessonNames['C1']!.length,
       'color': const Color.fromARGB(255, 220, 81, 21),
-      'isLocked': true,
     },
     {
       'level': 'C2',
       'lessons': AppData.lessonNames['C2']!.length,
       'color': const Color.fromARGB(255, 158, 55, 11),
-      'isLocked': true,
     },
   ];
 
@@ -188,13 +182,15 @@ class _LearnByLevelSection extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             itemBuilder: (context, index) {
               final item = levels[index];
+              final englishLevelIndex = AppData.englishLevel.indexOf(globalController.userProfile.value.currentEnglishLevel);
+              final isLevelLocked = index > englishLevelIndex;
               return Padding(
                 padding: const EdgeInsets.only(right: 15.0),
                 child: EnglishLevelContainer(
                   level: item['level'],
                   lessons: item['lessons'],
                   color: item['color'],
-                  isLocked: item['isLocked'],
+                  isLocked: isLevelLocked,
                 ),
               );
             },

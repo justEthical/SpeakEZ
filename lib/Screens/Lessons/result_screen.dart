@@ -16,7 +16,9 @@ class ResultScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
-    c.updateLesssonProgress();
+    if (!c.isFromRetest) {
+      c.updateLesssonProgress();
+    }
     final timeTookForQnaInSeconds =
         DateTime.now().difference(c.qnaStartTime).inSeconds;
     final timeTookForQna = c.formatSecondsToMinutes(timeTookForQnaInSeconds);
@@ -24,7 +26,6 @@ class ResultScreen extends StatelessWidget {
       globalController.whisperSendPort.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
-    // c.ttsHelper.stop();
     return Scaffold(
       body: Stack(
         children: [
@@ -176,6 +177,7 @@ class ResultScreen extends StatelessWidget {
   Widget _buildDoneButton() {
     return ElevatedButton(
       onPressed: () {
+        Get.find<QuestionOptionsController>().isFromRetest = false;
         Get.offAll(() => const TabBarScreen());
         final isItTimeToShowCustomReview =
             globalController.userProfile.value.currentEnglishLevelProgress % 5;
@@ -183,6 +185,7 @@ class ResultScreen extends StatelessWidget {
             !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
           Get.to(() => const CustomReviewScreen());
         }
+        Get.delete<QuestionOptionsController>(force: true);
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.black,
