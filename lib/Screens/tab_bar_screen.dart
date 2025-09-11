@@ -16,7 +16,6 @@ class TabBarScreen extends StatefulWidget {
 }
 
 class _TabBarScreenState extends State<TabBarScreen> {
-  final c = Get.put(GlobalController());
   var backButtonCount = 0;
 
   @override

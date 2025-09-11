@@ -7,22 +7,46 @@ import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/vocalbulary_screen.dart';
 
-class LessonIntroScreen extends StatelessWidget {
-  final Lesson lesson;
-  const LessonIntroScreen({super.key, required this.lesson});
+class LessonIntroScreen extends StatefulWidget {
+  final int? lessonIndex;
+  final String? englishLevel;
+  const LessonIntroScreen({super.key, this.lessonIndex, this.englishLevel});
+
+  @override
+  State<LessonIntroScreen> createState() => _LessonIntroScreenState();
+}
+
+class _LessonIntroScreenState extends State<LessonIntroScreen> {
+  final c = Get.put(QuestionOptionsController(), permanent: true);
+  Lesson? lesson;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+      lesson = await c.setCurrentLesson(
+        lessonIndex: widget.lessonIndex,
+        englishLevel: widget.englishLevel,
+      );
+      setState(() {});
+      c.currentLessonModel = lesson!;
+      c.currentQuestionIndex.value = 0;
+      if(widget.lessonIndex != null){
+        c.isFromRetest = true;
+      }
+      globalController.startWhisperIsolate();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    final c = Get.find<QuestionOptionsController>();
-    c.currentQuestionIndex.value = 0;
-    
-    globalController.startWhisperIsolate();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         leading: InkWell(
           onTap: () {
-            Get.back(); 
+            Get.back();
+            Get.delete<QuestionOptionsController>(force: true);
           },
           child: Container(
             margin: EdgeInsets.all(10),
@@ -34,56 +58,59 @@ class LessonIntroScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Spacer(),
-          SizedBox(
-            width: Get.width * 0.5,
-            height: Get.width * 0.5,
-            child: Image.asset(AppAssets.cat),
-          ),
-          SizedBox(width: Get.width, height: 20),
-          Text(
-            "Welcome to the lesson",
-            style: GoogleFonts.poppins(
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
-            ),
-          ),
-          SizedBox(height: 10,),
-          Text(
-            lesson.lessonName,
-            style: GoogleFonts.poppins(
-              fontSize: 20,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-          SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
-          Spacer(),
-          ElevatedButton(
-            onPressed: () {
-              Get.off(VocalbularyScreen(lesson: lesson));
-            },
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.deepPurple,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12),
+      body:
+          lesson == null
+              ? Center(child: CircularProgressIndicator())
+              : Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Spacer(),
+                  SizedBox(
+                    width: Get.width * 0.5,
+                    height: Get.width * 0.5,
+                    child: Image.asset(AppAssets.cat),
+                  ),
+                  SizedBox(width: Get.width, height: 20),
+                  Text(
+                    "Welcome to the lesson",
+                    style: GoogleFonts.poppins(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Text(
+                    lesson!.lessonName,
+                    style: GoogleFonts.poppins(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
+                  Spacer(),
+                  ElevatedButton(
+                    onPressed: () {
+                      Get.off(VocalbularyScreen(lesson: lesson!));
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      fixedSize: Size(Get.width - 30, 50),
+                    ),
+                    child: Text(
+                      "Start",
+                      style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 20),
+                ],
               ),
-              fixedSize: Size(Get.width - 30, 50),
-            ),
-            child: Text(
-              "Start",
-              style: GoogleFonts.poppins(
-                color: Colors.white,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ),
-          SizedBox(height: 20,)
-        ],
-      ),
     );
   }
 }

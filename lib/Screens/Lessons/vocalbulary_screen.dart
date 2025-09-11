@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/vocabulary_data.dart';
 import 'package:speak_ez/Screens/Lessons/grammer_tips_screen.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 
 import '../../Models/lesson_model.dart' show Lesson;
 
@@ -18,10 +19,10 @@ class VocalbularyScreen extends StatelessWidget {
     c.isBottomSheetOpen = false;
     return PopScope(
       canPop: c.isBottomSheetOpen,
-      onPopInvokedWithResult: (res, k){
-        if(!c.isBottomSheetOpen){
+      onPopInvokedWithResult: (res, k) {
+        if (!c.isBottomSheetOpen) {
           c.isBottomSheetOpen = true;
-          c.showExitBottomSheet(context); 
+          c.showExitBottomSheet(context);
         }
       },
       child: Scaffold(
@@ -36,8 +37,24 @@ class VocalbularyScreen extends StatelessWidget {
           ),
           title: Text(
             "Vocalbulary",
-            style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
+            style: GoogleFonts.poppins(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
           ),
+          actions: [
+            Transform.scale(
+              scale: 0.8,
+              child: Obx(
+                () => Switch(
+                  value: c.isAutoSpeakVocabularyOn.value,
+                  onChanged: (val) {
+                    c.isAutoSpeakVocabularyOn.value = val;
+                  },
+                ),
+              ),
+            ),
+          ],
         ),
         body: Container(
           width: Get.width,
@@ -95,8 +112,12 @@ class VocalbularyScreen extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemCount: lesson.lessonIntro.vocabulary.length,
         itemBuilder: (ctx, i) {
+          final vocabularyModel = lesson.lessonIntro.vocabulary[i];
+          if(c.isAutoSpeakVocabularyOn.value){
+            ttsHelper.speak(vocabularyModel.word);
+          }
           return VocabularyData(
-            vocabularyItem: lesson.lessonIntro.vocabulary[i],
+            vocabularyItem: vocabularyModel,
           );
         },
       ),

@@ -7,8 +7,8 @@ class AppStrings {
       "https://docs.google.com/document/d/1JZ3ysesz4XjXubRnxb_FaPu_E3PoYSHXQ76VJC35P6s/edit?usp=sharing";
   static const String appPlayStoreUrl = "https://play.google.com/store/apps/details?id=com.english.learning.speakez.ai";
 
-  static const String initialMessage =
-      "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
+  // static const String initialMessage =
+  //     "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
   static const String systemPrompt =
       'You are Natasha, an English learning coach. Reply to users with short messages of 3-4 lines based on their responses. If a user asks a question that violates your AI guidelines, such as anything illegal or unethical, politely tell them you can’t discuss that topic. Also, encourage the user to continue the conversation on topic and do not repeat already asked question';
   static const String systemPrompt2 = '''You are Natasha,fix ASR and grade replies.
@@ -19,8 +19,8 @@ AI_LAST_MESSAGE, USER_TRANSCRIPT, PREVIOUS_SUMMARY.
 Rules:
 - correctedTranscript: ONLY sound-alike ASR fixes according to context of conversation. If unsure, keep original. No rephrase.
 - enhancedTranscript: from correctedTranscript, fix grammar/usage/punct lightly; keep meaning.
-- nextAiMessage: 2–4 sentences + a brief question.
-- conversationSummary: extend PREVIOUS_SUMMARY in 1–2 sentences.
+- nextAiMessage: 2–4 sentences + a brief question based on correctedTranscript.
+- conversationSummary: create or extend PREVIOUS_SUMMARY to avoid question repetition and keep context.
 - scores: integers 1–10; pronunciation ≈ clamp(1,10, round(10 - 9*WER)).
 - feedback: one short phrase naming the weakest area from scores (lowest score; if tie use: pronunciation > grammar > fluency > vocabulary).
 

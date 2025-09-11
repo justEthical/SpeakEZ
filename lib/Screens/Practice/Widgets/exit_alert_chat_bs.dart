@@ -26,7 +26,7 @@ class ExitAlertChatBottomSheet extends StatelessWidget {
             ),
           ),
           Text(
-            "Are you sure you want to exit and End this converesatiion",
+            "Are you sure you want to exit and End this conversation",
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,

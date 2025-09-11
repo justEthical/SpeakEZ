@@ -3,9 +3,7 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
-import 'package:speak_ez/Utils/custom_loader.dart';
 
 class CurrentLessonProgressCard extends StatelessWidget {
   const CurrentLessonProgressCard({super.key});
@@ -93,12 +91,7 @@ class CurrentLessonProgressCard extends StatelessWidget {
               const SizedBox(height: 25),
               ElevatedButton(
                 onPressed: () async {
-                  final c = Get.put(QuestionOptionsController());
-                  CustomLoader.showLoader();
-                  final lesson = await c.setCurrentLesson();
-                  c.currentLessonModel = lesson;
-                  CustomLoader.hideLoader();
-                  Get.to(() => LessonIntroScreen(lesson: lesson));
+                  Get.to(() => LessonIntroScreen());
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
@@ -112,7 +105,9 @@ class CurrentLessonProgressCard extends StatelessWidget {
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-                child: Text( progress ==  0.0 ? "Start Learning" : "Continue Learning"),
+                child: Text(
+                  progress == 0.0 ? "Start Learning" : "Continue Learning",
+                ),
               ),
             ],
           );

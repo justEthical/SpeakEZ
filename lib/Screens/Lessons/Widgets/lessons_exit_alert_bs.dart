@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/question_options_controller.dart';
 
 class LessonsExitAlertBottomSheet extends StatelessWidget {
   const LessonsExitAlertBottomSheet({super.key});
@@ -50,7 +51,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
             onTap: () {
               Get.back();
               Get.back();
-              // Get.find<QuestionOptionsController>().ttsHelper.stop();
+              Get.delete<QuestionOptionsController>(force: true);
             },
             child: Text(
               "Close and discard",
