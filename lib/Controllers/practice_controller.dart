@@ -335,7 +335,7 @@ class PracticeController extends GetxController {
   }
 
   void stopRecording() {
-    recorder.stop();
+    recorder?.stop();
     _timer?.cancel();
     isRecordingInProgress.value = false;
     isSpeaking.value = true; // just to disable mic button while transcribing
@@ -345,7 +345,7 @@ class PracticeController extends GetxController {
   }
 
   void pauseRecording() {
-    recorder.stop();
+    recorder?.stop();
     _timer!.cancel();
     currentChats.remove(currentChats.last);
     isRecordingPaused.value = true;
