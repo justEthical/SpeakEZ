@@ -72,7 +72,6 @@ class AnswerResultBottomSheet extends StatelessWidget {
                 Get.back();
                 c.isContinueButtonEnabled.value = false;
                 c.moveToNextQuestion();
-
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.black,

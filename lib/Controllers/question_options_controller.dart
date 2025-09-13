@@ -204,10 +204,14 @@ class QuestionOptionsController extends GetxController {
   }
 
   void updateEnglishLevel() {
-    globalController.userProfile.value.currentEnglishLevelProgress = 0;
+    final accuracy =
+        (correctAnswer.value / currentQuestionList.length) * 100;
     globalController.updateProfile();
     if(englishLevel != null){
-      globalController.userProfile.value.currentEnglishLevel = englishLevel!;
+      if(accuracy >= 70){
+        globalController.userProfile.value.currentEnglishLevel = englishLevel!;
+        globalController.userProfile.value.currentEnglishLevelProgress = 0;
+      }
       updateStreak();
       globalController.updateProfile();
       globalController.userProfile.value.lastActive = DateTime.now();
