@@ -16,8 +16,11 @@ class ResultScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
-    if (!c.isFromRetest) {
+    if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
+    }
+    if (c.isUnlockTest){
+      c.updateEnglishLevel();
     }
     final timeTookForQnaInSeconds =
         DateTime.now().difference(c.qnaStartTime).inSeconds;

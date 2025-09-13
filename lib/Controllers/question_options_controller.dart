@@ -53,8 +53,11 @@ class QuestionOptionsController extends GetxController {
 
   var isFromRetest = false;
   var isAutoSpeakVocabularyOn = true.obs;
+  bool isUnlockTest = false;
+  String? englishLevel;
 
   final SpeechService stt = SpeechService();
+  Lesson? lessonModel;
 
   Future<Lesson> setCurrentLesson({int? lessonIndex, String? englishLevel}) async {
     final profile = globalController.userProfile.value;
@@ -116,7 +119,61 @@ class QuestionOptionsController extends GetxController {
       throw Exception("Unexpected error loading lesson $corePath: $e");
     }
   }
+  
+  // New method to load unlock tests
+  Future<Lesson> setUnlockTest(String currentLevel) async {
+    // Map current level to unlock test file
+    
+    final fileName = 'Unlock_$currentLevel.json';
+    
+    final corePath = "/lessons/UnlockLevel/$fileName";
+    
+    try {
+      final assetPath = "assets$corePath";
+      final text = await rootBundle.loadString(assetPath);
+      final map = jsonDecode(text) as Map<String, dynamic>;
+      final lessonModel = Lesson.fromJson(map);
+      addQuestionRandomly(lessonModel);
+      return lessonModel;
+    } on FormatException catch (e) {
+      PostHogService.instance.captureError(
+        'unlock_test_load_error',
+        errorMessage: "Invalid unlock test JSON at $corePath: ${e.message}",
+        location: 'QuestionOptionsController.setUnlockTest',
+        additionalProperties: {'path': corePath},
+      );
+      throw Exception("Invalid unlock test JSON at $corePath: ${e.message}");
+    } catch (e) {
+      PostHogService.instance.captureError(
+        'unlock_test_load_error',
+        errorMessage: "Unexpected error loading unlock test $corePath: $e",
+        location: 'QuestionOptionsController.setUnlockTest',
+        additionalProperties: {'path': corePath},
+      );
+      throw Exception("Unexpected error loading unlock test $corePath: $e");
+    }
+  }
 
+  void addQuestionRandomly(Lesson unlockTest){
+    var randomIndexList = [];
+    currentQuestionList.clear();
+    // generate random index
+    while (randomIndexList.length < 4) {
+      final random = Random();
+      final randomIndex = random.nextInt(20);
+      if (!randomIndexList.contains(randomIndex)) {
+        randomIndexList.add(randomIndex);
+      }
+    }
+    for(int i = 0; i < randomIndexList.length; i++){
+      currentQuestionList.add(unlockTest.questionPools.vocabulary[randomIndexList[i]]);
+      currentQuestionList.add(unlockTest.questionPools.grammar![randomIndexList[i]]);
+      currentQuestionList.add( unlockTest.questionPools.sentence[randomIndexList[i]]);
+      currentQuestionList.add( unlockTest.questionPools.listening[randomIndexList[i]]);
+      currentQuestionList.add(unlockTest.questionPools.speaking[randomIndexList[i]]);
+    }
+    
+  }
   String formatSecondsToMinutes(int timeInSeconds) {
     final minutes = (timeInSeconds ~/ 60).toString().padLeft(2, '0');
     final seconds = (timeInSeconds % 60).toString().padLeft(2, '0');
@@ -133,20 +190,38 @@ class QuestionOptionsController extends GetxController {
       globalController.userProfile.value.currentEnglishLevelProgress = 0;
     } else {
       globalController.userProfile.value.currentEnglishLevelProgress++;
-      final lastActive = globalController.userProfile.value.lastActive;
+      updateStreak();
+
+      // Only update word count for regular lessons that have intro
+      if (currentLessonModel.lessonIntro != null) {
+        globalController.userProfile.value.wordLearned +=
+            currentLessonModel.lessonIntro!.vocabulary.length;
+      }
+      globalController.userProfile.value.lastActive = DateTime.now();
+    }
+
+    globalController.updateProfile();
+  }
+
+  void updateEnglishLevel() {
+    globalController.userProfile.value.currentEnglishLevelProgress = 0;
+    globalController.updateProfile();
+    if(englishLevel != null){
+      globalController.userProfile.value.currentEnglishLevel = englishLevel!;
+      updateStreak();
+      globalController.updateProfile();
+      globalController.userProfile.value.lastActive = DateTime.now();
+    }
+  }
+
+  void updateStreak(){
+    final lastActive = globalController.userProfile.value.lastActive;
       final now = DateTime.now();
       if (!(lastActive.year == now.year &&
           lastActive.month == now.month &&
           lastActive.day == now.day)) {
         globalController.userProfile.value.currentStreak++;
       }
-
-      globalController.userProfile.value.wordLearned +=
-          currentLessonModel.lessonIntro.vocabulary.length;
-      globalController.userProfile.value.lastActive = DateTime.now();
-    }
-
-    globalController.updateProfile();
   }
 
   void startRecording() {

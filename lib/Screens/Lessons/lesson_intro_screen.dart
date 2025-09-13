@@ -6,11 +6,18 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/vocalbulary_screen.dart';
+import 'package:speak_ez/Screens/Lessons/qna_screen.dart';
 
 class LessonIntroScreen extends StatefulWidget {
   final int? lessonIndex;
   final String? englishLevel;
-  const LessonIntroScreen({super.key, this.lessonIndex, this.englishLevel});
+  final bool isUnlockTest;
+  const LessonIntroScreen({
+    super.key, 
+    this.lessonIndex, 
+    this.englishLevel,
+    this.isUnlockTest = false,
+  });
 
   @override
   State<LessonIntroScreen> createState() => _LessonIntroScreenState();
@@ -18,24 +25,43 @@ class LessonIntroScreen extends StatefulWidget {
 
 class _LessonIntroScreenState extends State<LessonIntroScreen> {
   final c = Get.put(QuestionOptionsController(), permanent: true);
-  Lesson? lesson;
+  
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
-      lesson = await c.setCurrentLesson(
-        lessonIndex: widget.lessonIndex,
-        englishLevel: widget.englishLevel,
-      );
+      if (widget.isUnlockTest) {
+        // Load unlock test from UnlockLevel folder
+        c.lessonModel = await c.setUnlockTest(widget.englishLevel ?? 'A1');
+      } else {
+        c.lessonModel = await c.setCurrentLesson(
+          lessonIndex: widget.lessonIndex,
+          englishLevel: widget.englishLevel,
+        );
+      }
+      c.isUnlockTest = widget.isUnlockTest;
+      c.englishLevel = widget.englishLevel;
       setState(() {});
-      c.currentLessonModel = lesson!;
+      c.currentLessonModel = c.lessonModel!;
       c.currentQuestionIndex.value = 0;
       if(widget.lessonIndex != null){
         c.isFromRetest = true;
       }
       globalController.startWhisperIsolate();
+      
+      
     });
+  }
+  
+  void _navigateToQuestions() {
+    if (c.lessonModel!.lessonType == LessonType.unlockTest) {
+      // unlock lesson test flow
+      Get.off(QnaScreen(lesson: c.lessonModel!));
+    } else {
+      // Regular lesson flow
+      Get.off(VocalbularyScreen(lesson: c.lessonModel!));
+    }
   }
 
   @override
@@ -59,7 +85,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
         ),
       ),
       body:
-          lesson == null
+          c.lessonModel == null
               ? Center(child: CircularProgressIndicator())
               : Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -73,7 +99,9 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                   ),
                   SizedBox(width: Get.width, height: 20),
                   Text(
-                    "Welcome to the lesson",
+                    c.lessonModel!.lessonType == LessonType.unlockTest 
+                        ? "Level Unlock Test"
+                        : "Welcome to the lesson",
                     style: GoogleFonts.poppins(
                       fontSize: 16,
                       fontWeight: FontWeight.w400,
@@ -81,7 +109,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    lesson!.lessonName,
+                    c.lessonModel!.lessonName,
                     style: GoogleFonts.poppins(
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
@@ -90,9 +118,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                   SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
                   Spacer(),
                   ElevatedButton(
-                    onPressed: () {
-                      Get.off(VocalbularyScreen(lesson: lesson!));
-                    },
+                    onPressed: _navigateToQuestions,
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.deepPurple,
                       shape: RoundedRectangleBorder(

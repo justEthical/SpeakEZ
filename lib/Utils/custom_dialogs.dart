@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
+import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
@@ -198,10 +199,10 @@ class CustomDialogs {
                 ElevatedButton(
                   onPressed: () {
                     Get.back();
-                    globalController.showSnackbarWithGetX(
-                      "This feature is coming soon..",
-                      "Thanks for your patience!",
-                    );
+                    Get.to(() => LessonIntroScreen(
+                      englishLevel: englishLevel,
+                      isUnlockTest: true,
+                    ));
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,

@@ -45,7 +45,7 @@ class QnaScreen extends StatelessWidget {
             icon: const Icon(Icons.arrow_back_ios_new_rounded),
           ),
           title: Text(
-            "Test Your Knowledge",
+            c.isUnlockTest ? lesson.lessonName : "Test Your Knowledge",
             style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
           ),
         ),
