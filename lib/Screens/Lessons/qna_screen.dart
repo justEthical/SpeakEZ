@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/continue_button.dart';
@@ -26,6 +27,11 @@ class QnaScreen extends StatelessWidget {
       PostHogEvents.lessonQnaStarted,
       properties: {'lesson_id': lesson.id, 'lesson_name': lesson.lessonName},
     );
+
+    if (c.isUnlockTest) {
+      globalController.userProfile.value.unlockTestLastTime = DateTime.now();
+      globalController.updateProfile();
+    }
     return PopScope(
       canPop: c.isBottomSheetOpen,
       onPopInvokedWithResult: (res, k){
@@ -45,7 +51,7 @@ class QnaScreen extends StatelessWidget {
             icon: const Icon(Icons.arrow_back_ios_new_rounded),
           ),
           title: Text(
-            "Test Your Knowledge",
+            c.isUnlockTest ? lesson.lessonName : "Test Your Knowledge",
             style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
           ),
         ),

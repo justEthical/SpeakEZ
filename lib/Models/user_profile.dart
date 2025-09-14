@@ -16,6 +16,7 @@ class UserProfileModel {
   String confidence;
   String preferredPractice;
   String motherTongue;
+  DateTime? unlockTestLastTime;
 
   UserProfileModel({
     required this.uid,
@@ -33,6 +34,7 @@ class UserProfileModel {
     required this.preferredPractice,
     required this.motherTongue,
     required this.isShownCustomReviewDialogOnce,
+    this.unlockTestLastTime,  
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -55,6 +57,7 @@ class UserProfileModel {
       preferredPractice: map['preferredPractice'] ?? '',
       motherTongue: map['motherTongue'] ?? '',
       isShownCustomReviewDialogOnce: map['isShownCustomReviewDialogOnce'] ?? false,
+      unlockTestLastTime: map['unlockTestLastTime'] != null ? DateTime.fromMillisecondsSinceEpoch(map['unlockTestLastTime']) : null
     );
   }
 
@@ -75,7 +78,9 @@ class UserProfileModel {
       'confidence': confidence,
       'preferredPractice': preferredPractice,
       'motherTongue': motherTongue,
-      'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce
+      'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce,
+      'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch  
     };
   }
 }
+

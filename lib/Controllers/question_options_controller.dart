@@ -53,21 +53,27 @@ class QuestionOptionsController extends GetxController {
 
   var isFromRetest = false;
   var isAutoSpeakVocabularyOn = true.obs;
+  bool isUnlockTest = false;
+  String? englishLevel;
 
   final SpeechService stt = SpeechService();
+  Lesson? lessonModel;
 
-  Future<Lesson> setCurrentLesson({int? lessonIndex, String? englishLevel}) async {
+  Future<Lesson> setCurrentLesson({
+    int? lessonIndex,
+    String? englishLevel,
+  }) async {
     final profile = globalController.userProfile.value;
 
     // Build the relative core path once (e.g., /lessons/A1/14.json)
     final nextLessonIndex = profile.currentEnglishLevelProgress + 1;
     String corePath = '';
-    if(lessonIndex != null){
+    if (lessonIndex != null) {
       corePath = "/lessons/$englishLevel/$lessonIndex.json";
-    }else{
-      corePath = "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
+    } else {
+      corePath =
+          "/lessons/${profile.currentEnglishLevel}/$nextLessonIndex.json";
     }
-        
 
     // Absolute file path in app's documents dir
     // final storagePath = "${globalController.appDocDirectoryPath}$corePath";
@@ -102,9 +108,7 @@ class QuestionOptionsController extends GetxController {
         errorMessage: "File error while loading lesson: ${e.message}",
         location: 'QuestionOptionsController.loadLessonFromStorageOrAsset',
       );
-      throw Exception(
-        "File error while loading lesson: ${e.message}",
-      );
+      throw Exception("File error while loading lesson: ${e.message}");
     } catch (e) {
       // Anything else
       PostHogService.instance.captureError(
@@ -114,6 +118,70 @@ class QuestionOptionsController extends GetxController {
         additionalProperties: {'path': corePath},
       );
       throw Exception("Unexpected error loading lesson $corePath: $e");
+    }
+  }
+
+  // New method to load unlock tests
+  Future<Lesson> setUnlockTest(String currentLevel) async {
+    // Map current level to unlock test file
+
+    final fileName = 'Unlock_$currentLevel.json';
+
+    final corePath = "/lessons/UnlockLevel/$fileName";
+
+    try {
+      final assetPath = "assets$corePath";
+      final text = await rootBundle.loadString(assetPath);
+      final map = jsonDecode(text) as Map<String, dynamic>;
+      final lessonModel = Lesson.fromJson(map);
+      addQuestionRandomly(lessonModel);
+      return lessonModel;
+    } on FormatException catch (e) {
+      PostHogService.instance.captureError(
+        'unlock_test_load_error',
+        errorMessage: "Invalid unlock test JSON at $corePath: ${e.message}",
+        location: 'QuestionOptionsController.setUnlockTest',
+        additionalProperties: {'path': corePath},
+      );
+      throw Exception("Invalid unlock test JSON at $corePath: ${e.message}");
+    } catch (e) {
+      PostHogService.instance.captureError(
+        'unlock_test_load_error',
+        errorMessage: "Unexpected error loading unlock test $corePath: $e",
+        location: 'QuestionOptionsController.setUnlockTest',
+        additionalProperties: {'path': corePath},
+      );
+      throw Exception("Unexpected error loading unlock test $corePath: $e");
+    }
+  }
+
+  void addQuestionRandomly(Lesson unlockTest) {
+    var randomIndexList = [];
+    currentQuestionList.clear();
+    // generate random index
+    while (randomIndexList.length < 4) {
+      final random = Random();
+      final randomIndex = random.nextInt(20);
+      if (!randomIndexList.contains(randomIndex)) {
+        randomIndexList.add(randomIndex);
+      }
+    }
+    for (int i = 0; i < randomIndexList.length; i++) {
+      currentQuestionList.add(
+        unlockTest.questionPools.vocabulary[randomIndexList[i]],
+      );
+      currentQuestionList.add(
+        unlockTest.questionPools.grammar![randomIndexList[i]],
+      );
+      currentQuestionList.add(
+        unlockTest.questionPools.sentence[randomIndexList[i]],
+      );
+      currentQuestionList.add(
+        unlockTest.questionPools.listening[randomIndexList[i]],
+      );
+      currentQuestionList.add(
+        unlockTest.questionPools.speaking[randomIndexList[i]],
+      );
     }
   }
 
@@ -133,20 +201,41 @@ class QuestionOptionsController extends GetxController {
       globalController.userProfile.value.currentEnglishLevelProgress = 0;
     } else {
       globalController.userProfile.value.currentEnglishLevelProgress++;
-      final lastActive = globalController.userProfile.value.lastActive;
-      final now = DateTime.now();
-      if (!(lastActive.year == now.year &&
-          lastActive.month == now.month &&
-          lastActive.day == now.day)) {
-        globalController.userProfile.value.currentStreak++;
-      }
+      updateStreak();
 
-      globalController.userProfile.value.wordLearned +=
-          currentLessonModel.lessonIntro.vocabulary.length;
+      // Only update word count for regular lessons that have intro
+      if (currentLessonModel.lessonIntro != null) {
+        globalController.userProfile.value.wordLearned +=
+            currentLessonModel.lessonIntro!.vocabulary.length;
+      }
       globalController.userProfile.value.lastActive = DateTime.now();
     }
 
     globalController.updateProfile();
+  }
+
+  void updateEnglishLevel() {
+    final accuracy = (correctAnswer.value / currentQuestionList.length) * 100;
+    globalController.updateProfile();
+    if (englishLevel != null) {
+      if (accuracy >= 80) {
+        globalController.userProfile.value.currentEnglishLevel = englishLevel!;
+        globalController.userProfile.value.currentEnglishLevelProgress = 0;
+      }
+      updateStreak();
+      globalController.updateProfile();
+      globalController.userProfile.value.lastActive = DateTime.now();
+    }
+  }
+
+  void updateStreak() {
+    final lastActive = globalController.userProfile.value.lastActive;
+    final now = DateTime.now();
+    if (!(lastActive.year == now.year &&
+        lastActive.month == now.month &&
+        lastActive.day == now.day)) {
+      globalController.userProfile.value.currentStreak++;
+    }
   }
 
   void startRecording() {
@@ -229,6 +318,13 @@ class QuestionOptionsController extends GetxController {
   }
 
   String getResultScreenText(double accuracy) {
+    if (isUnlockTest) {
+      if (accuracy > 80) {
+        return "Congratulations! You have completed the unlock test successfully. Now you can proceed with $englishLevel lessons.";
+      } else {
+        return "Nice try! You have completed the unlock test but you need to improve your accuracy to unlock $englishLevel lessons.";
+      }
+    }
     if (accuracy > 80) {
       return '''🎉 Amazing job! You nailed it with over 80% accuracy — you’re on fire! 🔥
 Your English skills are leveling up fast — keep shining, language champ! 🌟
@@ -273,12 +369,21 @@ Mistakes are your secret weapon to get better. 💥
   }
 
   bool comparing2Lists(List<String> list1, List<dynamic> list2) {
-    List<String> list3 = list2.map((e) => e.toString()).toList();
-    bool areEqual =
-        list1.length == list3.length &&
-        list1.asMap().entries.every((entry) => entry.value == list3[entry.key]);
-    return areEqual;
+  // If lengths don't match, they can’t be equal
+  if (list1.length != list2.length) {
+    return false;
   }
+
+  // Compare each element one by one
+  for (int i = 0; i < list1.length; i++) {
+    if (list1[i].toLowerCase() != list2[i].toString().toLowerCase()) {
+      return false; // mismatch found
+    }
+  }
+
+  return true; // all matched
+}
+
 
   void buildQnaList(Lesson lesson) {
     final tmpArray = [];

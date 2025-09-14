@@ -1,0 +1,1187 @@
+{
+  "id": "unlock_b2_to_c1",
+  "purpose": "LevelUnlockTest",
+  "lesson_name": "Unlock C1 Level",
+  "cefrLevel": "B2",
+  "question_pools": {
+    "vocabulary": [
+  {
+    "id": "b2_vocab1",
+    "type": "multipleChoice",
+    "question": "Which word means 'an unfair opinion about someone without knowing them well'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'किसी को अच्छी तरह से न जानते हुए भी उसके बारे में अनुचित राय' का अर्थ है?",
+      "Japanese": "「よく知らないのに誰かについて持つ不公平な意見」を意味する語はどれですか？"
+    },
+    "options": ["Prejudice", "Justice", "Tradition", "Respect"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab2",
+    "type": "fillInTheBlanks",
+    "question": "The company is focusing on ___ solutions to reduce pollution.",
+    "question_translation": {
+      "Hindi": "कंपनी प्रदूषण कम करने के लिए ___ समाधान पर ध्यान केंद्रित कर रही है।",
+      "Japanese": "会社は汚染を減らすための___解決策に取り組んでいます。"
+    },
+    "options": ["sustainable", "temporary", "fragile", "unfair"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab3",
+    "type": "multipleChoice",
+    "question": "Which word describes 'a detailed examination of something'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'किसी चीज़ की विस्तृत जांच' का वर्णन करता है?",
+      "Japanese": "「何かの詳細な調査」を表す語はどれですか？"
+    },
+    "options": ["Analysis", "Prediction", "Tradition", "Memory"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab4",
+    "type": "trueFalse",
+    "question": "‘Globalization’ means the world becoming more connected.",
+    "question_translation": {
+      "Hindi": "'Globalization' का अर्थ है दुनिया का अधिक जुड़ना।",
+      "Japanese": "「globalization」は世界がよりつながることを意味します。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab5",
+    "type": "multipleChoice",
+    "question": "Which word means 'a formal written plan for discussion or action'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'चर्चा या कार्रवाई के लिए एक औपचारिक लिखित योजना' का अर्थ है?",
+      "Japanese": "「議論や行動のための正式な書面による計画」を意味する語はどれですか？"
+    },
+    "options": ["Agenda", "Review", "Interview", "Complaint"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab6",
+    "type": "fillInTheBlanks",
+    "question": "The lawyer presented strong ___ to support her case.",
+    "question_translation": {
+      "Hindi": "वकील ने अपने मामले का समर्थन करने के लिए मजबूत ___ प्रस्तुत किया।",
+      "Japanese": "弁護士は自分の主張を支持する強い___を提示しました。"
+    },
+    "options": ["evidence", "emotion", "story", "habit"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab7",
+    "type": "multipleChoice",
+    "question": "Which word means 'a short part of a book, speech, or film'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'किताब, भाषण या फिल्म का एक छोटा हिस्सा' का अर्थ है?",
+      "Japanese": "「本、スピーチ、映画の短い部分」を意味する語はどれですか？"
+    },
+    "options": ["Excerpt", "Chapter", "Summary", "Article"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab8",
+    "type": "trueFalse",
+    "question": "‘Ethics’ refers to moral principles about right and wrong.",
+    "question_translation": {
+      "Hindi": "'Ethics' का संबंध सही और गलत के नैतिक सिद्धांतों से है।",
+      "Japanese": "「ethics」は善悪に関する道徳的原則を指します。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab9",
+    "type": "multipleChoice",
+    "question": "Which word means 'to officially say something is not allowed'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'आधिकारिक रूप से यह कहना कि कुछ अनुमति नहीं है' का अर्थ है?",
+      "Japanese": "「公式に何かを許可しないと言う」ことを意味する語はどれですか？"
+    },
+    "options": ["Ban", "Accept", "Develop", "Permit"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab10",
+    "type": "fillInTheBlanks",
+    "question": "The scientist made an important ___ about climate change.",
+    "question_translation": {
+      "Hindi": "वैज्ञानिक ने जलवायु परिवर्तन के बारे में एक महत्वपूर्ण ___ किया।",
+      "Japanese": "科学者は気候変動について重要な___をしました。"
+    },
+    "options": ["discovery", "holiday", "tradition", "song"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab11",
+    "type": "multipleChoice",
+    "question": "Which word means 'to explain something clearly and in detail'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'किसी चीज़ को स्पष्ट और विस्तार से समझाना' का अर्थ है?",
+      "Japanese": "「何かを明確かつ詳細に説明する」を意味する語はどれですか？"
+    },
+    "options": ["Explain", "Confuse", "Hide", "Predict"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab12",
+    "type": "trueFalse",
+    "question": "‘Entrepreneurship’ is about starting and managing businesses.",
+    "question_translation": {
+      "Hindi": "'Entrepreneurship' का अर्थ है व्यवसाय शुरू करना और प्रबंधित करना।",
+      "Japanese": "「entrepreneurship」とは、ビジネスを始めて経営することです。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab13",
+    "type": "multipleChoice",
+    "question": "Which word means 'to carefully judge the value or quality of something'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'किसी चीज़ के मूल्य या गुणवत्ता का सावधानी से आकलन करना' का अर्थ है?",
+      "Japanese": "「何かの価値や質を慎重に判断する」を意味する語はどれですか？"
+    },
+    "options": ["Evaluate", "Guess", "Complain", "Forget"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab14",
+    "type": "fillInTheBlanks",
+    "question": "The article gave a critical ___ of the new film.",
+    "question_translation": {
+      "Hindi": "लेख ने नई फिल्म की एक आलोचनात्मक ___ दी।",
+      "Japanese": "その記事は新しい映画について批判的な___を与えました。"
+    },
+    "options": ["review", "compliment", "tradition", "chapter"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab15",
+    "type": "multipleChoice",
+    "question": "Which word means 'the act of moving to live in a new country'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'एक नए देश में रहने के लिए जाने की क्रिया' का अर्थ है?",
+      "Japanese": "「新しい国に住むために移動する行為」を意味する語はどれですか？"
+    },
+    "options": ["Immigration", "Integration", "Population", "Globalization"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab16",
+    "type": "trueFalse",
+    "question": "‘Negotiation’ is a process in which two sides try to reach an agreement.",
+    "question_translation": {
+      "Hindi": "'Negotiation' एक प्रक्रिया है जिसमें दो पक्ष एक समझौते तक पहुँचने की कोशिश करते हैं।",
+      "Japanese": "「negotiation」は二つの側が合意に達しようとする過程です。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab17",
+    "type": "multipleChoice",
+    "question": "Which word means 'a short speech that tries to persuade people'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'एक छोटा भाषण जो लोगों को समझाने की कोशिश करता है' का अर्थ है?",
+      "Japanese": "「人々を説得しようとする短いスピーチ」を意味する語はどれですか？"
+    },
+    "options": ["Proposal", "Pitch", "Lecture", "Complaint"],
+    "answer": 1
+  },
+  {
+    "id": "b2_vocab18",
+    "type": "fillInTheBlanks",
+    "question": "The city government is trying to reduce traffic ___.",
+    "question_translation": {
+      "Hindi": "शहर सरकार ट्रैफिक ___ को कम करने की कोशिश कर रही है।",
+      "Japanese": "市政府は交通___を減らそうとしています。"
+    },
+    "options": ["congestion", "solution", "balance", "law"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab19",
+    "type": "multipleChoice",
+    "question": "Which word means 'a written document giving details about your education and work experience'?",
+    "question_translation": {
+      "Hindi": "कौन सा शब्द 'आपकी शिक्षा और कार्य अनुभव का विवरण देने वाला लिखित दस्तावेज़' का अर्थ है?",
+      "Japanese": "「学歴や職務経験の詳細を記載した文書」を意味する語はどれですか？"
+    },
+    "options": ["CV", "Agenda", "Review", "Evidence"],
+    "answer": 0
+  },
+  {
+    "id": "b2_vocab20",
+    "type": "trueFalse",
+    "question": "‘Hypothetical’ describes a situation that is imagined, not real.",
+    "question_translation": {
+      "Hindi": "'Hypothetical' एक ऐसी स्थिति का वर्णन करता है जो कल्पित है, वास्तविक नहीं।",
+      "Japanese": "「hypothetical」は現実ではなく想像上の状況を表します。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  }
+]
+,
+    "grammar": [
+  {
+    "id": "b2_gram1",
+    "type": "multipleChoice",
+    "question": "Choose the correct sentence.",
+    "question_translation": {
+      "Hindi": "सही वाक्य चुनें।",
+      "Japanese": "正しい文を選んでください。"
+    },
+    "options": [
+      "If I studied harder, I will pass.",
+      "If I had studied harder, I would have passed.",
+      "If I study harder, I would pass."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_gram2",
+    "type": "fillInTheBlanks",
+    "question": "He ___ have forgotten the meeting; he always writes it in his calendar. (deduction)",
+    "question_translation": {
+      "Hindi": "वह मीटिंग भूल ___; वह हमेशा इसे अपने कैलेंडर में लिखता है। (अनुमान)",
+      "Japanese": "彼は会議を忘れ___。彼はいつもカレンダーに書いている。(推測)"
+    },
+    "options": ["must", "can’t", "might", "should"],
+    "answer": 1
+  },
+  {
+    "id": "b2_gram3",
+    "type": "multipleChoice",
+    "question": "Which is correct passive form?",
+    "question_translation": {
+      "Hindi": "सही passive रूप कौन सा है?",
+      "Japanese": "正しい受動態はどれですか？"
+    },
+    "options": [
+      "The book has been written by her.",
+      "The book has wrote by her.",
+      "The book has writing by her."
+    ],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram4",
+    "type": "trueFalse",
+    "question": "‘Whereas’ is used to contrast two ideas.",
+    "question_translation": {
+      "Hindi": "'Whereas' का उपयोग दो विचारों की तुलना करने के लिए किया जाता है।",
+      "Japanese": "「whereas」は二つの考えを対比するために使われます。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram5",
+    "type": "fillInTheBlanks",
+    "question": "By the time we arrived, the film ___ already started.",
+    "question_translation": {
+      "Hindi": "जब तक हम पहुँचे, फिल्म पहले ही ___ शुरू हो चुकी थी।",
+      "Japanese": "私たちが到着した時、映画はすでに___始まっていました。"
+    },
+    "options": ["had", "has", "was", "have"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram6",
+    "type": "multipleChoice",
+    "question": "Choose the correct reported question: He asked, 'Where are you going?'",
+    "question_translation": {
+      "Hindi": "सही रिपोर्टेड प्रश्न चुनें: He asked, 'Where are you going?'",
+      "Japanese": "正しい間接疑問文を選んでください: He asked, 'Where are you going?'"
+    },
+    "options": [
+      "He asked where I was going.",
+      "He asked where am I going.",
+      "He asked where was I going."
+    ],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram7",
+    "type": "trueFalse",
+    "question": "‘In spite of’ and ‘despite’ can be used in similar ways.",
+    "question_translation": {
+      "Hindi": "'In spite of' और 'Despite' का उपयोग समान तरीकों से किया जा सकता है।",
+      "Japanese": "「in spite of」と「despite」は同じように使えます。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram8",
+    "type": "fillInTheBlanks",
+    "question": "She ___ working here for three years when she got promoted.",
+    "question_translation": {
+      "Hindi": "जब उसे पदोन्नति मिली तब वह यहाँ तीन साल से ___ काम कर रही थी।",
+      "Japanese": "彼女が昇進したとき、ここで3年間___働いていました。"
+    },
+    "options": ["has been", "had been", "was", "is"],
+    "answer": 1
+  },
+  {
+    "id": "b2_gram9",
+    "type": "multipleChoice",
+    "question": "Which sentence shows a mixed conditional?",
+    "question_translation": {
+      "Hindi": "कौन सा वाक्य mixed conditional दर्शाता है?",
+      "Japanese": "どの文が混合仮定法を示していますか？"
+    },
+    "options": [
+      "If she had studied, she would have passed.",
+      "If she had studied, she would be successful now.",
+      "If she studies, she will pass."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_gram10",
+    "type": "fillInTheBlanks",
+    "question": "He said he ___ finished the report by Friday.",
+    "question_translation": {
+      "Hindi": "उसने कहा कि वह शुक्रवार तक रिपोर्ट ___ करेगा।",
+      "Japanese": "彼は金曜日までにレポートを___と言いました。"
+    },
+    "options": ["would have", "will have", "would", "will"],
+    "answer": 2
+  },
+  {
+    "id": "b2_gram11",
+    "type": "multipleChoice",
+    "question": "Choose the correct modal of deduction: 'It’s 10 p.m. He ___ be at work now.'",
+    "question_translation": {
+      "Hindi": "सही modal चुनें: 'रात 10 बजे हैं। वह अब काम पर ___।'",
+      "Japanese": "正しい推測助動詞を選んでください: 「午後10時です。彼は今仕事に___。」"
+    },
+    "options": ["must", "can’t", "might", "should"],
+    "answer": 1
+  },
+  {
+    "id": "b2_gram12",
+    "type": "trueFalse",
+    "question": "The passive voice can be used in all tenses.",
+    "question_translation": {
+      "Hindi": "Passive voice का उपयोग सभी tenses में किया जा सकता है।",
+      "Japanese": "受動態はすべての時制で使うことができます。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram13",
+    "type": "fillInTheBlanks",
+    "question": "Not only ___ she intelligent, but she also works very hard.",
+    "question_translation": {
+      "Hindi": "वह न केवल ___ बुद्धिमान है, बल्कि वह बहुत मेहनत भी करती है।",
+      "Japanese": "彼女は___頭が良いだけでなく、とても努力家です。"
+    },
+    "options": ["is", "was", "has", "did"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram14",
+    "type": "multipleChoice",
+    "question": "Which is correct?",
+    "question_translation": {
+      "Hindi": "कौन सा सही है?",
+      "Japanese": "どれが正しいですか？"
+    },
+    "options": [
+      "Despite the fact it was raining, we went out.",
+      "In spite it was raining, we went out.",
+      "Although of the rain, we went out."
+    ],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram15",
+    "type": "fillInTheBlanks",
+    "question": "By 2025, they ___ working on this project for ten years.",
+    "question_translation": {
+      "Hindi": "2025 तक, वे इस प्रोजेक्ट पर दस साल से ___ काम कर रहे होंगे।",
+      "Japanese": "2025年までに、彼らはこのプロジェクトに10年間___取り組んでいることになります。"
+    },
+    "options": ["will have been", "have been", "had been", "will be"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram16",
+    "type": "multipleChoice",
+    "question": "Which sentence uses a third conditional?",
+    "question_translation": {
+      "Hindi": "कौन सा वाक्य third conditional का उपयोग करता है?",
+      "Japanese": "どの文が第三条件文を使っていますか？"
+    },
+    "options": [
+      "If he had studied, he would have passed.",
+      "If he studies, he passes.",
+      "If he studied, he will pass."
+    ],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram17",
+    "type": "fillInTheBlanks",
+    "question": "He ___ have seen the message; it was clearly written.",
+    "question_translation": {
+      "Hindi": "उसने संदेश जरूर ___ होगा; यह स्पष्ट रूप से लिखा हुआ था।",
+      "Japanese": "彼はメッセージを___はずです。はっきり書いてありました。"
+    },
+    "options": ["must", "might", "should", "can’t"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram18",
+    "type": "trueFalse",
+    "question": "‘Nevertheless’ and ‘however’ can both show contrast.",
+    "question_translation": {
+      "Hindi": "'Nevertheless' और 'However' दोनों ही contrast दिखा सकते हैं।",
+      "Japanese": "「Nevertheless」と「However」はどちらも対比を示すことができます。"
+    },
+    "options": ["True", "False"],
+    "answer": 0
+  },
+  {
+    "id": "b2_gram19",
+    "type": "multipleChoice",
+    "question": "Choose the correct sentence.",
+    "question_translation": {
+      "Hindi": "सही वाक्य चुनें।",
+      "Japanese": "正しい文を選んでください。"
+    },
+    "options": [
+      "If I would know, I will tell you.",
+      "If I knew, I would tell you.",
+      "If I knowing, I would tell you."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_gram20",
+    "type": "fillInTheBlanks",
+    "question": "She said she ___ attend the meeting if she finished her work early.",
+    "question_translation": {
+      "Hindi": "उसने कहा कि अगर वह अपना काम जल्दी खत्म कर ले, तो वह मीटिंग में ___।",
+      "Japanese": "彼女は仕事を早く終えれば会議に___と言いました。"
+    },
+    "options": ["will", "would", "can", "should"],
+    "answer": 1
+  }
+]
+,
+    "sentence": [
+  {
+    "id": "b2_sent1",
+    "type": "fillInTheBlanks",
+    "question": "I regret that I ___ not study harder for the exam.",
+    "question_translation": {
+      "Hindi": "मुझे अफसोस है कि मैंने परीक्षा के लिए और मेहनत से ___ नहीं किया।",
+      "Japanese": "試験のためにもっと一生懸命___なかったことを後悔しています。"
+    },
+    "options": ["do", "did", "have", "did not"],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent2",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [had, would, more, studied, he, he, successful, been]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [अधिक, उसने, पढ़ाई, की होती, वह, सफल, रहा होता]",
+      "Japanese": "並べ替え: [had, would, more, studied, he, he, successful, been]"
+    },
+    "options": ["had", "would", "more", "studied", "he", "he", "successful", "been"],
+    "answer": ["If", "he", "had", "studied", "more", "he", "would", "have", "been", "successful"]
+  },
+  {
+    "id": "b2_sent3",
+    "type": "multipleChoice",
+    "question": "Choose the correct sentence.",
+    "question_translation": {
+      "Hindi": "सही वाक्य चुनें।",
+      "Japanese": "正しい文を選んでください。"
+    },
+    "options": [
+      "Despite of being tired, she finished the report.",
+      "Despite being tired, she finished the report.",
+      "Although of being tired, she finished the report."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent4",
+    "type": "fillInTheBlanks",
+    "question": "She asked me where I ___ been the day before.",
+    "question_translation": {
+      "Hindi": "उसने मुझसे पूछा कि मैं पिछले दिन कहाँ ___ था।",
+      "Japanese": "彼女は私に、前の日どこに___いたのか聞きました。"
+    },
+    "options": ["was", "have", "had", "am"],
+    "answer": 2
+  },
+  {
+    "id": "b2_sent5",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [speech, an, gave, persuasive, he, conference, the, at]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [भाषण, एक, दिया, प्रभावशाली, उसने, सम्मेलन, में]",
+      "Japanese": "並べ替え: [speech, an, gave, persuasive, he, conference, the, at]"
+    },
+    "options": ["speech", "an", "gave", "persuasive", "he", "conference", "the", "at"],
+    "answer": ["He", "gave", "a", "persuasive", "speech", "at", "the", "conference"]
+  },
+  {
+    "id": "b2_sent6",
+    "type": "multipleChoice",
+    "question": "Which is correct?",
+    "question_translation": {
+      "Hindi": "कौन सा सही है?",
+      "Japanese": "どれが正しいですか？"
+    },
+    "options": [
+      "The report has been writing yesterday.",
+      "The report was written yesterday.",
+      "The report was writing yesterday."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent7",
+    "type": "fillInTheBlanks",
+    "question": "If I ___ known about the traffic, I would have left earlier.",
+    "question_translation": {
+      "Hindi": "अगर मुझे ट्रैफिक के बारे में ___ होता, तो मैं पहले निकल जाता।",
+      "Japanese": "交通について___いたら、もっと早く出発していたでしょう。"
+    },
+    "options": ["had", "have", "was", "has"],
+    "answer": 0
+  },
+  {
+    "id": "b2_sent8",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [been, studying, have, they, months, six, for]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [वे, छह, महीनों, से, पढ़ रहे हैं]",
+      "Japanese": "並べ替え: [been, studying, have, they, months, six, for]"
+    },
+    "options": ["been", "studying", "have", "they", "months", "six", "for"],
+    "answer": ["They", "have", "been", "studying", "for", "six", "months"]
+  },
+  {
+    "id": "b2_sent9",
+    "type": "multipleChoice",
+    "question": "Choose the correct connector: 'He worked hard; ___, he didn’t succeed.'",
+    "question_translation": {
+      "Hindi": "सही connector चुनें: 'उसने कड़ी मेहनत की; ___, वह सफल नहीं हुआ।'",
+      "Japanese": "正しい接続詞を選んでください: 「彼は一生懸命働いた; ___成功しなかった。」"
+    },
+    "options": ["nevertheless", "because", "so", "although"],
+    "answer": 0
+  },
+  {
+    "id": "b2_sent10",
+    "type": "fillInTheBlanks",
+    "question": "By the time she arrived, the meeting ___ already started.",
+    "question_translation": {
+      "Hindi": "जब तक वह पहुँची, बैठक पहले ही ___ शुरू हो चुकी थी।",
+      "Japanese": "彼女が到着したとき、会議はすでに___始まっていました。"
+    },
+    "options": ["was", "had", "is", "has"],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent11",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [law, new, government, introduced, the, last, year, a]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [नया, कानून, सरकार, ने, पिछले, साल, पेश किया]",
+      "Japanese": "並べ替え: [law, new, government, introduced, the, last, year, a]"
+    },
+    "options": ["law", "new", "government", "introduced", "the", "last", "year", "a"],
+    "answer": ["The", "government", "introduced", "a", "new", "law", "last", "year"]
+  },
+  {
+    "id": "b2_sent12",
+    "type": "multipleChoice",
+    "question": "Which sentence is correct?",
+    "question_translation": {
+      "Hindi": "कौन सा वाक्य सही है?",
+      "Japanese": "どの文が正しいですか？"
+    },
+    "options": [
+      "She asked me what time does the train leave.",
+      "She asked me what time the train left.",
+      "She asked me what time did the train leave."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent13",
+    "type": "fillInTheBlanks",
+    "question": "Not only ___ she intelligent, but also very kind.",
+    "question_translation": {
+      "Hindi": "वह न केवल ___ बुद्धिमान है बल्कि बहुत दयालु भी है।",
+      "Japanese": "彼女は___頭が良いだけでなく、とても優しいです。"
+    },
+    "options": ["is", "was", "has", "did"],
+    "answer": 0
+  },
+  {
+    "id": "b2_sent14",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [been, never, have, I, abroad]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [कभी, विदेश, नहीं, गया, मैं]",
+      "Japanese": "並べ替え: [been, never, have, I, abroad]"
+    },
+    "options": ["been", "never", "have", "I", "abroad"],
+    "answer": ["I", "have", "never", "been", "abroad"]
+  },
+  {
+    "id": "b2_sent15",
+    "type": "multipleChoice",
+    "question": "Choose the correct sentence.",
+    "question_translation": {
+      "Hindi": "सही वाक्य चुनें।",
+      "Japanese": "正しい文を選んでください。"
+    },
+    "options": [
+      "The project will have finished by next week.",
+      "The project will have been finished by next week.",
+      "The project will finished by next week."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent16",
+    "type": "fillInTheBlanks",
+    "question": "They promised they ___ help us with the proposal.",
+    "question_translation": {
+      "Hindi": "उन्होंने वादा किया कि वे हमें प्रस्ताव में ___ मदद करेंगे।",
+      "Japanese": "彼らは提案で私たちを___と約束しました。"
+    },
+    "options": ["will", "would", "can", "have"],
+    "answer": 1
+  },
+  {
+    "id": "b2_sent17",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [conference, attended, last, international, the, we, month]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [सम्मेलन, में, हमने, भाग लिया, अंतर्राष्ट्रीय, पिछले, महीने]",
+      "Japanese": "並べ替え: [conference, attended, last, international, the, we, month]"
+    },
+    "options": ["conference", "attended", "last", "international", "the", "we", "month"],
+    "answer": ["We", "attended", "the", "international", "conference", "last", "month"]
+  },
+  {
+    "id": "b2_sent18",
+    "type": "multipleChoice",
+    "question": "Which connector is correct? 'She didn’t get the job, ___ she was very qualified.'",
+    "question_translation": {
+      "Hindi": "सही connector कौन सा है? 'उसे नौकरी नहीं मिली, ___ वह बहुत योग्य थी।'",
+      "Japanese": "正しい接続詞はどれですか？「彼女は非常に資格があったのに、仕事を得られませんでした。」"
+    },
+    "options": ["although", "because", "so", "and"],
+    "answer": 0
+  },
+  {
+    "id": "b2_sent19",
+    "type": "fillInTheBlanks",
+    "question": "He ___ working here since he graduated from university.",
+    "question_translation": {
+      "Hindi": "वह विश्वविद्यालय से स्नातक होने के बाद से यहाँ ___ काम कर रहा है।",
+      "Japanese": "彼は大学を卒業して以来、ここで___働いています。"
+    },
+    "options": ["has been", "had been", "was", "is"],
+    "answer": 0
+  },
+  {
+    "id": "b2_sent20",
+    "type": "sentenceRearranging",
+    "question": "Arrange: [review, critical, film, a, wrote, she, the, of]",
+    "question_translation": {
+      "Hindi": "क्रम में लगाएं: [समीक्षा, आलोचनात्मक, फिल्म, की, उसने, लिखी]",
+      "Japanese": "並べ替え: [review, critical, film, a, wrote, she, the, of]"
+    },
+    "options": ["review", "critical", "film", "a", "wrote", "she", "the", "of"],
+    "answer": ["She", "wrote", "a", "critical", "review", "of", "the", "film"]
+  }
+]
+,
+    "listening": [
+  {
+    "id": "b2_listen1",
+    "type": "multipleChoice",
+    "question": "What is the speaker’s main point?",
+    "audio_text": "Although social media connects people worldwide, it also spreads misinformation quickly.",
+    "question_translation": {
+      "Hindi": "वक्ता का मुख्य बिंदु क्या है?",
+      "Japanese": "話者の主なポイントは何ですか？"
+    },
+    "options": ["Social media only helps people", "It spreads misinformation too", "It is useless", "It should be banned"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen2",
+    "type": "multipleChoice",
+    "question": "Why is the speaker worried?",
+    "audio_text": "I’m worried because if the economy doesn’t improve, many small businesses may close.",
+    "question_translation": {
+      "Hindi": "वक्ता क्यों चिंतित है?",
+      "Japanese": "話者が心配している理由は何ですか？"
+    },
+    "options": ["Economy is weak", "Weather is bad", "No workers available", "Taxes increased"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen3",
+    "type": "multipleChoice",
+    "question": "What solution does the speaker suggest?",
+    "audio_text": "To reduce pollution, governments should invest more in renewable energy sources.",
+    "question_translation": {
+      "Hindi": "वक्ता कौन सा समाधान सुझाता है?",
+      "Japanese": "話者はどんな解決策を提案していますか？"
+    },
+    "options": ["Use more oil", "Invest in renewables", "Ban cars", "Close schools"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen4",
+    "type": "multipleChoice",
+    "question": "What does the speaker think about globalization?",
+    "audio_text": "Globalization has improved trade opportunities but has also increased inequality.",
+    "question_translation": {
+      "Hindi": "वैश्वीकरण के बारे में वक्ता क्या सोचता है?",
+      "Japanese": "グローバリゼーションについて話者はどう思っていますか？"
+    },
+    "options": ["Only positive", "Only negative", "Both positive and negative", "No effect"],
+    "answer": 2
+  },
+  {
+    "id": "b2_listen5",
+    "type": "multipleChoice",
+    "question": "What happened yesterday?",
+    "audio_text": "Yesterday our train was delayed for two hours due to technical problems.",
+    "question_translation": {
+      "Hindi": "कल क्या हुआ?",
+      "Japanese": "昨日何が起こりましたか？"
+    },
+    "options": ["Train delayed", "Train cancelled", "Train on time", "No trains running"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen6",
+    "type": "multipleChoice",
+    "question": "What does the speaker suggest about education?",
+    "audio_text": "Education systems should focus not only on exams but also on creativity and problem-solving.",
+    "question_translation": {
+      "Hindi": "शिक्षा के बारे में वक्ता क्या सुझाव देता है?",
+      "Japanese": "教育について話者は何を提案していますか？"
+    },
+    "options": ["Focus only on exams", "Focus on creativity too", "Stop problem-solving", "Close schools"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen7",
+    "type": "multipleChoice",
+    "question": "What is the speaker describing?",
+    "audio_text": "First, we collected data from surveys, then analyzed the results using graphs and charts.",
+    "question_translation": {
+      "Hindi": "वक्ता क्या वर्णन कर रहा है?",
+      "Japanese": "話者は何を説明していますか？"
+    },
+    "options": ["Data analysis process", "A football match", "A holiday trip", "Cooking"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen8",
+    "type": "multipleChoice",
+    "question": "What problem does the speaker mention?",
+    "audio_text": "Many cities suffer from traffic congestion, which causes air pollution and stress.",
+    "question_translation": {
+      "Hindi": "वक्ता किस समस्या का उल्लेख करता है?",
+      "Japanese": "話者はどんな問題を述べていますか？"
+    },
+    "options": ["Traffic congestion", "Crime", "Unemployment", "Lack of parks"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen9",
+    "type": "multipleChoice",
+    "question": "What did the speaker read?",
+    "audio_text": "I read a report about the impact of technology on future jobs.",
+    "question_translation": {
+      "Hindi": "वक्ता ने क्या पढ़ा?",
+      "Japanese": "話者は何を読みましたか？"
+    },
+    "options": ["Sports article", "Report about jobs", "Book on history", "Travel guide"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen10",
+    "type": "multipleChoice",
+    "question": "What is the speaker’s opinion on art?",
+    "audio_text": "Art is important because it reflects culture and challenges the way we think.",
+    "question_translation": {
+      "Hindi": "कला पर वक्ता की राय क्या है?",
+      "Japanese": "芸術について話者の意見は？"
+    },
+    "options": ["Art is not useful", "Art is only for fun", "Art reflects culture", "Art is dangerous"],
+    "answer": 2
+  },
+  {
+    "id": "b2_listen11",
+    "type": "multipleChoice",
+    "question": "What prediction does the speaker make?",
+    "audio_text": "I believe artificial intelligence will transform healthcare in the next decade.",
+    "question_translation": {
+      "Hindi": "वक्ता कौन सी भविष्यवाणी करता है?",
+      "Japanese": "話者はどんな予測をしていますか？"
+    },
+    "options": ["AI will change healthcare", "AI will disappear", "Healthcare will stop", "AI has no role"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen12",
+    "type": "multipleChoice",
+    "question": "What happened at the event?",
+    "audio_text": "During the conference, several experts gave presentations on climate change.",
+    "question_translation": {
+      "Hindi": "कार्यक्रम में क्या हुआ?",
+      "Japanese": "イベントで何が起こりましたか？"
+    },
+    "options": ["Experts gave presentations", "Conference cancelled", "Only one person spoke", "No one attended"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen13",
+    "type": "multipleChoice",
+    "question": "What advice did the speaker give?",
+    "audio_text": "When writing a CV, always highlight your skills and achievements clearly.",
+    "question_translation": {
+      "Hindi": "वक्ता ने क्या सलाह दी?",
+      "Japanese": "話者はどんなアドバイスをしましたか？"
+    },
+    "options": ["Hide achievements", "Highlight skills", "Don’t write a CV", "Write very short"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen14",
+    "type": "multipleChoice",
+    "question": "What problem does the speaker describe?",
+    "audio_text": "The main issue with our housing system is that prices are too high for young people.",
+    "question_translation": {
+      "Hindi": "वक्ता किस समस्या का वर्णन करता है?",
+      "Japanese": "話者はどんな問題を説明していますか？"
+    },
+    "options": ["High housing prices", "Not enough schools", "No internet", "Too many jobs"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen15",
+    "type": "multipleChoice",
+    "question": "What is the speaker complaining about?",
+    "audio_text": "The service was very slow, and nobody responded to my emails.",
+    "question_translation": {
+      "Hindi": "वक्ता किस बारे में शिकायत कर रहा है?",
+      "Japanese": "話者は何について苦情を言っていますか？"
+    },
+    "options": ["Fast service", "Slow service", "Good service", "Free service"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen16",
+    "type": "multipleChoice",
+    "question": "What is the speaker describing?",
+    "audio_text": "First, I’ll explain the background, then I’ll present the results, and finally we’ll discuss possible solutions.",
+    "question_translation": {
+      "Hindi": "वक्ता क्या वर्णन कर रहा है?",
+      "Japanese": "話者は何を説明していますか？"
+    },
+    "options": ["Presentation structure", "Holiday plan", "Cooking recipe", "Film review"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen17",
+    "type": "multipleChoice",
+    "question": "What does the speaker think about work-life balance?",
+    "audio_text": "I believe people should spend more time with family instead of working long hours.",
+    "question_translation": {
+      "Hindi": "काम और जीवन के संतुलन के बारे में वक्ता क्या सोचता है?",
+      "Japanese": "ワークライフバランスについて話者はどう思っていますか？"
+    },
+    "options": ["Work longer hours", "Spend more time with family", "Work is more important", "Family is not important"],
+    "answer": 1
+  },
+  {
+    "id": "b2_listen18",
+    "type": "multipleChoice",
+    "question": "What concern does the speaker mention?",
+    "audio_text": "I’m concerned that young people spend too much time on their phones instead of socializing in person.",
+    "question_translation": {
+      "Hindi": "वक्ता किस चिंता का उल्लेख करता है?",
+      "Japanese": "話者はどんな懸念を述べていますか？"
+    },
+    "options": ["Too much phone use", "Not enough school", "Too much reading", "No social media"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen19",
+    "type": "multipleChoice",
+    "question": "What is the speaker describing?",
+    "audio_text": "During the protest, people carried signs and shouted slogans about climate action.",
+    "question_translation": {
+      "Hindi": "वक्ता क्या वर्णन कर रहा है?",
+      "Japanese": "話者は何を説明していますか？"
+    },
+    "options": ["A protest", "A wedding", "A party", "A class"],
+    "answer": 0
+  },
+  {
+    "id": "b2_listen20",
+    "type": "multipleChoice",
+    "question": "What does the speaker predict?",
+    "audio_text": "I think renewable energy will replace fossil fuels within the next 30 years.",
+    "question_translation": {
+      "Hindi": "वक्ता क्या भविष्यवाणी करता है?",
+      "Japanese": "話者はどんな予測をしていますか？"
+    },
+    "options": ["Renewables will replace fossil fuels", "Fossil fuels will grow", "No change in energy", "Energy will disappear"],
+    "answer": 0
+  }
+]
+,
+    "speaking": [
+  {
+    "id": "b2_speak1",
+    "type": "speaking",
+    "question": "Say: 'Although globalization has benefits, it also creates challenges.'",
+    "question_translation": {
+      "Hindi": "कहें: 'हालाँकि वैश्वीकरण के फायदे हैं, यह चुनौतियाँ भी पैदा करता है।'",
+      "Japanese": "言ってください: 'グローバリゼーションには利点があるが、課題も生み出します。'"
+    },
+    "options": [],
+    "answer": "although globalization has benefits it also creates challenges"
+  },
+  {
+    "id": "b2_speak2",
+    "type": "speaking",
+    "question": "Say: 'If I had studied law, I would be working as a lawyer now.'",
+    "question_translation": {
+      "Hindi": "कहें: 'अगर मैंने क़ानून पढ़ा होता, तो मैं अब वकील के रूप में काम कर रहा होता।'",
+      "Japanese": "言ってください: 'もし法律を勉強していたら、今は弁護士として働いているでしょう。'"
+    },
+    "options": [],
+    "answer": "if i had studied law i would be working as a lawyer now"
+  },
+  {
+    "id": "b2_speak3",
+    "type": "speaking",
+    "question": "Say: 'The report was written to highlight environmental problems.'",
+    "question_translation": {
+      "Hindi": "कहें: 'यह रिपोर्ट पर्यावरणीय समस्याओं को उजागर करने के लिए लिखी गई थी।'",
+      "Japanese": "言ってください: 'この報告書は環境問題を強調するために書かれました。'"
+    },
+    "options": [],
+    "answer": "the report was written to highlight environmental problems"
+  },
+  {
+    "id": "b2_speak4",
+    "type": "speaking",
+    "question": "Say: 'I strongly believe education should focus on creativity as well as exams.'",
+    "question_translation": {
+      "Hindi": "कहें: 'मेरा दृढ़ विश्वास है कि शिक्षा को परीक्षाओं के साथ-साथ रचनात्मकता पर भी ध्यान देना चाहिए।'",
+      "Japanese": "言ってください: '教育は試験だけでなく創造性にも焦点を当てるべきだと強く信じています。'"
+    },
+    "options": [],
+    "answer": "i strongly believe education should focus on creativity as well as exams"
+  },
+  {
+    "id": "b2_speak5",
+    "type": "speaking",
+    "question": "Say: 'In my opinion, renewable energy is the key to our future.'",
+    "question_translation": {
+      "Hindi": "कहें: 'मेरे विचार में, नवीकरणीय ऊर्जा हमारा भविष्य है।'",
+      "Japanese": "言ってください: '私の意見では、再生可能エネルギーが私たちの未来の鍵です。'"
+    },
+    "options": [],
+    "answer": "in my opinion renewable energy is the key to our future"
+  },
+  {
+    "id": "b2_speak6",
+    "type": "speaking",
+    "question": "Say: 'She asked me where I had been the previous day.'",
+    "question_translation": {
+      "Hindi": "कहें: 'उसने मुझसे पूछा कि मैं पिछले दिन कहाँ था।'",
+      "Japanese": "言ってください: '彼女は私に前の日どこにいたのか尋ねました。'"
+    },
+    "options": [],
+    "answer": "she asked me where i had been the previous day"
+  },
+  {
+    "id": "b2_speak7",
+    "type": "speaking",
+    "question": "Say: 'Despite the difficulties, we completed the project successfully.'",
+    "question_translation": {
+      "Hindi": "कहें: 'कठिनाइयों के बावजूद, हमने परियोजना को सफलतापूर्वक पूरा किया।'",
+      "Japanese": "言ってください: '困難にもかかわらず、私たちはプロジェクトを成功裏に完了しました。'"
+    },
+    "options": [],
+    "answer": "despite the difficulties we completed the project successfully"
+  },
+  {
+    "id": "b2_speak8",
+    "type": "speaking",
+    "question": "Say: 'I think technology will transform the way we communicate in the future.'",
+    "question_translation": {
+      "Hindi": "कहें: 'मेरा मानना है कि तकनीक भविष्य में हमारे संवाद करने के तरीके को बदल देगी।'",
+      "Japanese": "言ってください: '技術は将来、私たちのコミュニケーションの仕方を変えると思います。'"
+    },
+    "options": [],
+    "answer": "i think technology will transform the way we communicate in the future"
+  },
+  {
+    "id": "b2_speak9",
+    "type": "speaking",
+    "question": "Say: 'If people recycled more, the world would be cleaner.'",
+    "question_translation": {
+      "Hindi": "कहें: 'अगर लोग ज्यादा रीसायकल करें, तो दुनिया साफ होगी।'",
+      "Japanese": "言ってください: 'もっとリサイクルすれば、世界はもっときれいになるでしょう。'"
+    },
+    "options": [],
+    "answer": "if people recycled more the world would be cleaner"
+  },
+  {
+    "id": "b2_speak10",
+    "type": "speaking",
+    "question": "Say: 'The scientist discovered a new method to store energy.'",
+    "question_translation": {
+      "Hindi": "कहें: 'वैज्ञानिक ने ऊर्जा संग्रहित करने का एक नया तरीका खोजा।'",
+      "Japanese": "言ってください: '科学者はエネルギーを蓄える新しい方法を発見しました。'"
+    },
+    "options": [],
+    "answer": "the scientist discovered a new method to store energy"
+  },
+  {
+    "id": "b2_speak11",
+    "type": "speaking",
+    "question": "Say: 'Even though the data was complex, the professor explained it clearly.'",
+    "question_translation": {
+      "Hindi": "कहें: 'हालांकि डेटा जटिल था, प्रोफेसर ने इसे स्पष्ट रूप से समझाया।'",
+      "Japanese": "言ってください: 'データは複雑だったが、教授はそれを明確に説明しました。'"
+    },
+    "options": [],
+    "answer": "even though the data was complex the professor explained it clearly"
+  },
+  {
+    "id": "b2_speak12",
+    "type": "speaking",
+    "question": "Say: 'The debate helped me understand different points of view.'",
+    "question_translation": {
+      "Hindi": "कहें: 'बहस ने मुझे विभिन्न दृष्टिकोणों को समझने में मदद की।'",
+      "Japanese": "言ってください: '討論は私にさまざまな視点を理解させてくれました。'"
+    },
+    "options": [],
+    "answer": "the debate helped me understand different points of view"
+  },
+  {
+    "id": "b2_speak13",
+    "type": "speaking",
+    "question": "Say: 'I would rather read a book than watch television.'",
+    "question_translation": {
+      "Hindi": "कहें: 'मैं टेलीविजन देखने के बजाय किताब पढ़ना पसंद करूंगा।'",
+      "Japanese": "言ってください: 'テレビを見るより本を読む方がいいです。'"
+    },
+    "options": [],
+    "answer": "i would rather read a book than watch television"
+  },
+  {
+    "id": "b2_speak14",
+    "type": "speaking",
+    "question": "Say: 'In spite of the rain, the concert continued outdoors.'",
+    "question_translation": {
+      "Hindi": "कहें: 'बारिश के बावजूद, कॉन्सर्ट बाहर जारी रहा।'",
+      "Japanese": "言ってください: '雨にもかかわらず、コンサートは屋外で続きました。'"
+    },
+    "options": [],
+    "answer": "in spite of the rain the concert continued outdoors"
+  },
+  {
+    "id": "b2_speak15",
+    "type": "speaking",
+    "question": "Say: 'The politician promised that taxes would not increase.'",
+    "question_translation": {
+      "Hindi": "कहें: 'राजनीतिज्ञ ने वादा किया कि कर नहीं बढ़ेंगे।'",
+      "Japanese": "言ってください: '政治家は税金が上がらないと約束しました。'"
+    },
+    "options": [],
+    "answer": "the politician promised that taxes would not increase"
+  },
+  {
+    "id": "b2_speak16",
+    "type": "speaking",
+    "question": "Say: 'My teacher encouraged me to apply for the scholarship.'",
+    "question_translation": {
+      "Hindi": "कहें: 'मेरे शिक्षक ने मुझे छात्रवृत्ति के लिए आवेदन करने के लिए प्रोत्साहित किया।'",
+      "Japanese": "言ってください: '先生は私に奨学金に応募するよう勧めました。'"
+    },
+    "options": [],
+    "answer": "my teacher encouraged me to apply for the scholarship"
+  },
+  {
+    "id": "b2_speak17",
+    "type": "speaking",
+    "question": "Say: 'I enjoy discussing social issues with my friends.'",
+    "question_translation": {
+      "Hindi": "कहें: 'मुझे अपने दोस्तों के साथ सामाजिक मुद्दों पर चर्चा करना अच्छा लगता है।'",
+      "Japanese": "言ってください: '友達と社会問題について議論するのが好きです。'"
+    },
+    "options": [],
+    "answer": "i enjoy discussing social issues with my friends"
+  },
+  {
+    "id": "b2_speak18",
+    "type": "speaking",
+    "question": "Say: 'She can’t have forgotten the appointment; I reminded her yesterday.'",
+    "question_translation": {
+      "Hindi": "कहें: 'वह अपॉइंटमेंट भूल नहीं सकती; मैंने उसे कल याद दिलाया था।'",
+      "Japanese": "言ってください: '彼女が予約を忘れたはずがない。昨日思い出させたから。'"
+    },
+    "options": [],
+    "answer": "she cant have forgotten the appointment i reminded her yesterday"
+  },
+  {
+    "id": "b2_speak19",
+    "type": "speaking",
+    "question": "Say: 'The journalist analyzed the article to find the main argument.'",
+    "question_translation": {
+      "Hindi": "कहें: 'पत्रकार ने मुख्य तर्क खोजने के लिए लेख का विश्लेषण किया।'",
+      "Japanese": "言ってください: 'ジャーナリストは主な論点を見つけるために記事を分析しました。'"
+    },
+    "options": [],
+    "answer": "the journalist analyzed the article to find the main argument"
+  },
+  {
+    "id": "b2_speak20",
+    "type": "speaking",
+    "question": "Say: 'See you tomorrow at the panel discussion.'",
+    "question_translation": {
+      "Hindi": "कहें: 'कल पैनल चर्चा में मिलते हैं।'",
+      "Japanese": "言ってください: '明日のパネルディスカッションで会いましょう。'"
+    },
+    "options": [],
+    "answer": "see you tomorrow at the panel discussion"
+  }
+]
+
+  }
+}

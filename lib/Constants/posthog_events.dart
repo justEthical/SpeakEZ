@@ -22,6 +22,7 @@ class PostHogEvents {
   static const String mcqOptionSelected = 'mcq_option_selected';
   static const String speakOptionUsed = 'speak_option_used';
   static const String sentenceRearranged = 'sentence_rearranged';
+  static const String unlockEnglishLevelTestStarted = 'unlock_english_level_test_started';
   
   static const String practiceStarted = 'practice_started';
   static const String practiceCompleted = 'practice_completed';
