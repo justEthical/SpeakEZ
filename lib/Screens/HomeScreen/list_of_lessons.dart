@@ -56,12 +56,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                 itemCount: AppData.lessonNames[widget.englishLevel]!.length,
                 itemBuilder: (ctx, i) {
                   final islessonCompleted =
-                      (i <
-                          globalController
-                              .userProfile
-                              .value
-                              .currentEnglishLevelProgress) &&
-                      !widget.isLessonLocked;
+                      _islessonCompleted(i);
                   return Container(
                     margin: const EdgeInsets.only(bottom: 15),
                     decoration: BoxDecoration(
@@ -165,5 +160,20 @@ class _ListOfLessonsState extends State<ListOfLessons> {
         ),
       ),
     );
+  }
+
+  bool _islessonCompleted(int index){
+    if(widget.isLessonLocked){
+      return false; 
+    }
+    final indexOfCurrentLesson = AppData.englishLevel.indexOf(globalController.userProfile.value.currentEnglishLevel);
+    final englishLevelIndex = AppData.englishLevel.indexOf(widget.englishLevel);
+    if(indexOfCurrentLesson > englishLevelIndex){
+      return true;
+    }
+    if(indexOfCurrentLesson == englishLevelIndex){
+      return globalController.userProfile.value.currentEnglishLevelProgress > index;
+    }
+    return false;
   }
 }
