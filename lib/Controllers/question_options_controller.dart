@@ -218,7 +218,7 @@ class QuestionOptionsController extends GetxController {
     final accuracy = (correctAnswer.value / currentQuestionList.length) * 100;
     globalController.updateProfile();
     if (englishLevel != null) {
-      if (accuracy >= 70) {
+      if (accuracy >= 80) {
         globalController.userProfile.value.currentEnglishLevel = englishLevel!;
         globalController.userProfile.value.currentEnglishLevelProgress = 0;
       }
@@ -319,7 +319,7 @@ class QuestionOptionsController extends GetxController {
 
   String getResultScreenText(double accuracy) {
     if (isUnlockTest) {
-      if (accuracy > 70) {
+      if (accuracy > 80) {
         return "Congratulations! You have completed the unlock test successfully. Now you can proceed with $englishLevel lessons.";
       } else {
         return "Nice try! You have completed the unlock test but you need to improve your accuracy to unlock $englishLevel lessons.";

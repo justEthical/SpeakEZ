@@ -33,7 +33,7 @@ class ResultScreen extends StatelessWidget {
       body: Stack(
         children: [
           // Confetti background animation
-          (accuracy >= 70  || !c.isUnlockTest)? Lottie.asset(
+          (accuracy >= 80  || !c.isUnlockTest)? Lottie.asset(
             AppAssets.confetti,
             width: Get.width,
             height: Get.height,
@@ -113,7 +113,7 @@ class ResultScreen extends StatelessWidget {
   Widget _buildCenterAnimation(accuracy) {
     final c = Get.find<QuestionOptionsController>();
     if(c.isUnlockTest){
-      if( accuracy >= 70){
+      if( accuracy >= 80){
         return SizedBox(
           width: 180,
           height: 180,
