@@ -209,19 +209,19 @@ class CustomDialogs {
                                   .unlockTestLastTime!,
                             )
                             .inHours : 25;
-                    // if (timeDifference > 24) {
+                    if (timeDifference > 24) {
                       Get.to(
                         () => LessonIntroScreen(
                           englishLevel: englishLevel,
                           isUnlockTest: true,
                         ),
                       );
-                    // } else {
-                    //   globalController.showSnackbarWithGetX(
-                    //     "Unlock test",
-                    //     "You can unlock this level in ${24 - timeDifference} hours.",
-                    //   );
-                    // }
+                    } else {
+                      globalController.showSnackbarWithGetX(
+                        "Unlock test",
+                        "You can unlock this level in ${24 - timeDifference} hours.",
+                      );
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,

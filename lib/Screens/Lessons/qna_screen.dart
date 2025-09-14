@@ -30,6 +30,7 @@ class QnaScreen extends StatelessWidget {
 
     if (c.isUnlockTest) {
       globalController.userProfile.value.unlockTestLastTime = DateTime.now();
+      globalController.updateProfile();
     }
     return PopScope(
       canPop: c.isBottomSheetOpen,

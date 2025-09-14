@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -33,14 +34,14 @@ class ResultScreen extends StatelessWidget {
       body: Stack(
         children: [
           // Confetti background animation
-          Lottie.asset(
+          (accuracy >= 70  || !c.isUnlockTest)? Lottie.asset(
             AppAssets.confetti,
             width: Get.width,
             height: Get.height,
             decoder: globalController.customDecoder,
             repeat: false,
             fit: BoxFit.cover,
-          ),
+          ): SizedBox(),
 
           // Main content
           SafeArea(
@@ -55,7 +56,7 @@ class ResultScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   _buildResultText(c, accuracy),
                   const Spacer(flex: 1),
-                  _buildSuccessAnimation(),
+                  _buildCenterAnimation(accuracy), // Center animation(),
                   const Spacer(flex: 2),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -110,7 +111,27 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSuccessAnimation() {
+  Widget _buildCenterAnimation(accuracy) {
+    final c = Get.find<QuestionOptionsController>();
+    if(c.isUnlockTest){
+      if( accuracy >= 70){
+        return SizedBox(
+          width: 180,
+          height: 180,
+          child: Lottie.asset(
+            AppAssets.unlock,
+            decoder: globalController.customDecoder,
+            repeat: true,
+          ),
+        );
+      }else{
+        return SizedBox(
+          width: 180,
+          height: 180,
+          child: Icon(Icons.lock, size: 180, color: Colors.red,),
+        );
+      }
+    }
     return SizedBox(
       width: 180,
       height: 180,
