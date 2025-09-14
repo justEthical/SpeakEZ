@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
+import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
@@ -183,7 +184,7 @@ class CustomDialogs {
                 Spacer(),
                 InkWell(
                   onTap: () => Get.back(),
-                  child: Icon(Icons.close, size: 18,),
+                  child: Icon(Icons.close, size: 18),
                 ),
               ],
             ),
@@ -198,10 +199,29 @@ class CustomDialogs {
                 ElevatedButton(
                   onPressed: () {
                     Get.back();
-                    globalController.showSnackbarWithGetX(
-                      "This feature is coming soon..",
-                      "Thanks for your patience!",
-                    );
+                    final timeDifference = globalController
+                            .userProfile.value.unlockTestLastTime != null ?
+                        DateTime.now()
+                            .difference(
+                              globalController
+                                  .userProfile
+                                  .value
+                                  .unlockTestLastTime!,
+                            )
+                            .inHours : 25;
+                    if (timeDifference > 24) {
+                      Get.to(
+                        () => LessonIntroScreen(
+                          englishLevel: englishLevel,
+                          isUnlockTest: true,
+                        ),
+                      );
+                    } else {
+                      globalController.showSnackbarWithGetX(
+                        "Unlock test",
+                        "You can unlock this level in ${24 - timeDifference} hours.",
+                      );
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,
@@ -219,14 +239,19 @@ class CustomDialogs {
                 ElevatedButton(
                   onPressed: () {
                     Get.back();
-                    Get.to(() => ListOfLessons(englishLevel: englishLevel, isLessonLocked: isLocked ));
+                    Get.to(
+                      () => ListOfLessons(
+                        englishLevel: englishLevel,
+                        isLessonLocked: isLocked,
+                      ),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.deepPurple,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    fixedSize: const Size(106, 40)
+                    fixedSize: const Size(106, 40),
                   ),
                   child: const Text(
                     'View',
@@ -240,4 +265,6 @@ class CustomDialogs {
       ),
     );
   }
+
+
 }

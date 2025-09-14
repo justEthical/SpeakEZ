@@ -10,6 +10,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final c = Get.find<QuestionOptionsController>();
     return Container(
       padding: EdgeInsets.all(15),
       color: Colors.white,
@@ -25,7 +26,9 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
             ),
           ),
           Text(
-            "Are you sure you want to exit and discard your current lessson's progress?",
+            c.isUnlockTest
+                ? "⚠️ Exiting will immediately end this test. You will not be able to attempt any questions UNLOCK LEVEL TEST again until 24 hours have passed. Do you still want to Exit?"
+                : "Are you sure you want to exit and discard your current lessson's progress?",
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,
@@ -42,7 +45,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
               fixedSize: Size(Get.width, 45),
             ),
             child: Text(
-              "Continue learning",
+              c.isUnlockTest ?  "Continue Test" : "Continue learning",
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -54,7 +57,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
               Get.delete<QuestionOptionsController>(force: true);
             },
             child: Text(
-              "Close and discard",
+              "Exit and Discard",
               style: TextStyle(color: Colors.red),
             ),
           ),

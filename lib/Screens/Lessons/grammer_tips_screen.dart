@@ -51,17 +51,20 @@ class GrammerTipsScreen extends StatelessWidget {
 
   Widget _progressIndicator() {
     final c = Get.find<QuestionOptionsController>();
+    final grammarTips = lesson.lessonIntro?.grammarTips ?? [];
+    if (grammarTips.isEmpty) return const SizedBox.shrink();
+    
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         ...List.generate(
-          lesson.lessonIntro.grammarTips.length,
+          grammarTips.length,
           (e) => GestureDetector(
             onTap: () {},
             child: Obx(
               () => Container(
                 width:
-                    ((Get.width - 30) / lesson.lessonIntro.grammarTips.length) -
+                    ((Get.width - 30) / grammarTips.length) -
                     10,
                 height: 4,
                 decoration: BoxDecoration(
@@ -82,18 +85,30 @@ class GrammerTipsScreen extends StatelessWidget {
 
   Widget _content() {
     final c = Get.find<QuestionOptionsController>();
+    final grammarTips = lesson.lessonIntro?.grammarTips ?? [];
+    if (grammarTips.isEmpty) {
+      return const Expanded(
+        child: Center(
+          child: Text('No grammar tips available'),
+        ),
+      );
+    }
+    
     return Expanded(
       child: PageView.builder(
         physics: const NeverScrollableScrollPhysics(),
         controller: c.grammerTipPageController,
-        itemCount: lesson.lessonIntro.grammarTips.length,
+        itemCount: grammarTips.length,
         itemBuilder: (ctx, i) {
+          final tip = grammarTips[i];
+          final hindiTranslation = tip.explanationTranslation?["Hindi"] ?? "";
+          
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(height: 18),
               Text(
-                lesson.lessonIntro.grammarTips[i].title,
+                tip.title,
                 style: GoogleFonts.poppins(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
@@ -101,21 +116,17 @@ class GrammerTipsScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                lesson.lessonIntro.grammarTips[i].explanation,
+                tip.explanation,
                 style: GoogleFonts.poppins(
                   fontSize: 16,
                   fontWeight: FontWeight.w500,
                 ),
               ),
               SizedBox(height: 10),
-              TranslationTextView(
-                text:
-                    lesson
-                        .lessonIntro
-                        .grammarTips[i]
-                        .explanationTranslation!["Hindi"]
-                        .toString(),
-              ),
+              if (hindiTranslation.isNotEmpty)
+                TranslationTextView(
+                  text: hindiTranslation,
+                ),
             ],
           );
         },
@@ -125,6 +136,8 @@ class GrammerTipsScreen extends StatelessWidget {
 
   Widget _bottomButtons() {
     final c = Get.find<QuestionOptionsController>();
+    final grammarTips = lesson.lessonIntro?.grammarTips ?? [];
+    
     return Row(
       children: [
         Obx(
@@ -159,8 +172,8 @@ class GrammerTipsScreen extends StatelessWidget {
         Spacer(),
         ElevatedButton(
           onPressed: () {
-            if (c.currentGrammerTipIndex.value <
-                lesson.lessonIntro.grammarTips.length - 1) {
+            if (grammarTips.isNotEmpty && 
+                c.currentGrammerTipIndex.value < grammarTips.length - 1) {
               c.grammerTipPageController.nextPage(
                 duration: const Duration(milliseconds: 300),
                 curve: Curves.linear,
@@ -181,8 +194,8 @@ class GrammerTipsScreen extends StatelessWidget {
           ),
           child: Obx(
             () => Text(
-              c.currentGrammerTipIndex.value ==
-                      lesson.lessonIntro.grammarTips.length - 1
+              grammarTips.isNotEmpty &&
+                      c.currentGrammerTipIndex.value == grammarTips.length - 1
                   ? "Done"
                   : "Next",
               style: TextStyle(

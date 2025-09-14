@@ -16,8 +16,11 @@ class ResultScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
-    if (!c.isFromRetest) {
+    if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
+    }
+    if (c.isUnlockTest){
+      c.updateEnglishLevel();
     }
     final timeTookForQnaInSeconds =
         DateTime.now().difference(c.qnaStartTime).inSeconds;
@@ -30,14 +33,14 @@ class ResultScreen extends StatelessWidget {
       body: Stack(
         children: [
           // Confetti background animation
-          Lottie.asset(
+          (accuracy >= 80  || !c.isUnlockTest)? Lottie.asset(
             AppAssets.confetti,
             width: Get.width,
             height: Get.height,
             decoder: globalController.customDecoder,
             repeat: false,
             fit: BoxFit.cover,
-          ),
+          ): SizedBox(),
 
           // Main content
           SafeArea(
@@ -52,7 +55,7 @@ class ResultScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   _buildResultText(c, accuracy),
                   const Spacer(flex: 1),
-                  _buildSuccessAnimation(),
+                  _buildCenterAnimation(accuracy), // Center animation(),
                   const Spacer(flex: 2),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -107,7 +110,31 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSuccessAnimation() {
+  Widget _buildCenterAnimation(accuracy) {
+    final c = Get.find<QuestionOptionsController>();
+    if(c.isUnlockTest){
+      if( accuracy >= 80){
+        return SizedBox(
+          width: 180,
+          height: 180,
+          child: Lottie.asset(
+            AppAssets.unlock,
+            decoder: globalController.customDecoder,
+            repeat: true,
+          ),
+        );
+      }else{
+        return SizedBox(
+          width: 180,
+          height: 180,
+          child: Lottie.asset(
+            AppAssets.locked,
+            decoder: globalController.customDecoder,
+            repeat: false,
+          ),
+        );
+      }
+    }
     return SizedBox(
       width: 180,
       height: 180,

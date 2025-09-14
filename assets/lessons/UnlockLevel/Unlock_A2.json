@@ -1,0 +1,1565 @@
+{
+    "id": "unlock_a1_to_a2",
+    "purpose": "LevelUnlockTest",
+    "lesson_name": "Unlock A2 Level",
+    "cefrLevel": "A1",
+    "question_pools": {
+        "vocabulary": [
+            {
+                "id": "vocab1",
+                "type": "multipleChoice",
+                "question": "Which word means 'father’s brother'?",
+                "question_translation": {
+                    "Hindi": "'पिता के भाई' को क्या कहते हैं?",
+                    "Japanese": "「父の兄弟」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "Uncle",
+                    "Aunt",
+                    "Cousin",
+                    "Brother"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab2",
+                "type": "fillInTheBlanks",
+                "question": "The sun is ___ in the morning.",
+                "question_translation": {
+                    "Hindi": "सुबह सूरज ___ होता है।",
+                    "Japanese": "朝、太陽は___です。"
+                },
+                "options": [
+                    "Hot",
+                    "Cold",
+                    "Bright",
+                    "Dark"
+                ],
+                "answer": 2
+            },
+            {
+                "id": "vocab3",
+                "type": "trueFalse",
+                "question": "‘Carrot’ is a fruit.",
+                "question_translation": {
+                    "Hindi": "'गाजर' एक फल है।",
+                    "Japanese": "「Carrot」は果物です。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab4",
+                "type": "multipleChoice",
+                "question": "Which word means 'a place where you buy food and things'?",
+                "question_translation": {
+                    "Hindi": "कौन सा शब्द 'जहाँ आप खाना और सामान खरीदते हैं' को दर्शाता है?",
+                    "Japanese": "「食べ物や物を買う場所」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "School",
+                    "Supermarket",
+                    "Hospital",
+                    "Bank"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab5",
+                "type": "multipleChoice",
+                "question": "What is the opposite of 'cheap'?",
+                "question_translation": {
+                    "Hindi": "'सस्ता' का विपरीत क्या है?",
+                    "Japanese": "「安い」の反対は何ですか？"
+                },
+                "options": [
+                    "Expensive",
+                    "Small",
+                    "Big",
+                    "Long"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab6",
+                "type": "fillInTheBlanks",
+                "question": "I need a ___ to call my friend.",
+                "question_translation": {
+                    "Hindi": "मुझे अपने दोस्त को फोन करने के लिए ___ चाहिए।",
+                    "Japanese": "友達に電話するために___が必要です。"
+                },
+                "options": [
+                    "Book",
+                    "Phone",
+                    "Chair",
+                    "Key"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab7",
+                "type": "multipleChoice",
+                "question": "Which word means 'not happy'?",
+                "question_translation": {
+                    "Hindi": "'खुश नहीं' का अर्थ कौन सा शब्द है?",
+                    "Japanese": "「happyではない」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "Sad",
+                    "Glad",
+                    "Angry",
+                    "Fine"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab8",
+                "type": "trueFalse",
+                "question": "‘Shirt’ is a kind of clothes.",
+                "question_translation": {
+                    "Hindi": "'Shirt' कपड़ों का एक प्रकार है।",
+                    "Japanese": "「Shirt」は衣服の一種です。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab9",
+                "type": "fillInTheBlanks",
+                "question": "At night, we can see the ___ in the sky.",
+                "question_translation": {
+                    "Hindi": "रात में हम आसमान में ___ देख सकते हैं।",
+                    "Japanese": "夜、空に___を見ることができます。"
+                },
+                "options": [
+                    "Sun",
+                    "Stars",
+                    "Clouds",
+                    "Rain"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab10",
+                "type": "multipleChoice",
+                "question": "Which word means 'a place where children study'?",
+                "question_translation": {
+                    "Hindi": "कौन सा शब्द 'जहाँ बच्चे पढ़ते हैं' को दर्शाता है?",
+                    "Japanese": "「子どもたちが勉強する場所」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "School",
+                    "Market",
+                    "Park",
+                    "Station"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab11",
+                "type": "multipleChoice",
+                "question": "Which is a drink?",
+                "question_translation": {
+                    "Hindi": "कौन सा पेय है?",
+                    "Japanese": "飲み物はどれですか？"
+                },
+                "options": [
+                    "Juice",
+                    "Table",
+                    "Bag",
+                    "Pen"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab12",
+                "type": "trueFalse",
+                "question": "‘Winter’ is the hottest season.",
+                "question_translation": {
+                    "Hindi": "'सर्दी' सबसे गर्म मौसम है।",
+                    "Japanese": "「Winter」は最も暑い季節です。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab13",
+                "type": "fillInTheBlanks",
+                "question": "We play ___ like football and cricket.",
+                "question_translation": {
+                    "Hindi": "हम ___ खेलते हैं जैसे फुटबॉल और क्रिकेट।",
+                    "Japanese": "私たちはサッカーやクリケットのような___をします。"
+                },
+                "options": [
+                    "Sports",
+                    "Jobs",
+                    "Books",
+                    "Cars"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab14",
+                "type": "multipleChoice",
+                "question": "Which word means 'a vehicle that runs on tracks'?",
+                "question_translation": {
+                    "Hindi": "कौन सा शब्द 'पटरियों पर चलने वाला वाहन' को दर्शाता है?",
+                    "Japanese": "「線路を走る乗り物」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "Bus",
+                    "Train",
+                    "Taxi",
+                    "Car"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab15",
+                "type": "multipleChoice",
+                "question": "Which is a vegetable?",
+                "question_translation": {
+                    "Hindi": "कौन सी सब्जी है?",
+                    "Japanese": "野菜はどれですか？"
+                },
+                "options": [
+                    "Potato",
+                    "Apple",
+                    "Milk",
+                    "Bread"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab16",
+                "type": "fillInTheBlanks",
+                "question": "She wears a ___ on her head.",
+                "question_translation": {
+                    "Hindi": "वह अपने सिर पर ___ पहनती है।",
+                    "Japanese": "彼女は頭に___をかぶります。"
+                },
+                "options": [
+                    "Hat",
+                    "Shoe",
+                    "Shirt",
+                    "Book"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab17",
+                "type": "multipleChoice",
+                "question": "Which word means 'a person who teaches in school'?",
+                "question_translation": {
+                    "Hindi": "कौन सा शब्द 'स्कूल में पढ़ाने वाले व्यक्ति' को दर्शाता है?",
+                    "Japanese": "「学校で教える人」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "Doctor",
+                    "Teacher",
+                    "Farmer",
+                    "Driver"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "vocab18",
+                "type": "trueFalse",
+                "question": "‘Bus’ is used for transport.",
+                "question_translation": {
+                    "Hindi": "'Bus' परिवहन के लिए प्रयोग होता है।",
+                    "Japanese": "「Bus」は交通に使われます。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab19",
+                "type": "fillInTheBlanks",
+                "question": "A ___ is used to tell the time.",
+                "question_translation": {
+                    "Hindi": "समय बताने के लिए ___ का उपयोग किया जाता है।",
+                    "Japanese": "時間を知るために___を使います。"
+                },
+                "options": [
+                    "Clock",
+                    "Book",
+                    "Ball",
+                    "Table"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "vocab20",
+                "type": "multipleChoice",
+                "question": "Which word means 'celebration day like Diwali or Christmas'?",
+                "question_translation": {
+                    "Hindi": "कौन सा शब्द 'दीवाली या क्रिसमस जैसे उत्सव के दिन' को दर्शाता है?",
+                    "Japanese": "「ディワリやクリスマスのようなお祝いの日」を意味する言葉はどれですか？"
+                },
+                "options": [
+                    "Festival",
+                    "Lesson",
+                    "Market",
+                    "Station"
+                ],
+                "answer": 0
+            }
+        ],
+        "grammar": [
+            {
+                "id": "gram1",
+                "type": "multipleChoice",
+                "question": "Choose the correct sentence.",
+                "question_translation": {
+                    "Hindi": "सही वाक्य चुनें।",
+                    "Japanese": "正しい文を選んでください。"
+                },
+                "options": [
+                    "He go to school every day.",
+                    "He goes to school every day.",
+                    "He going to school every day.",
+                    "He is go to school every day."
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram2",
+                "type": "fillInTheBlanks",
+                "question": "They ___ football on Sundays.",
+                "question_translation": {
+                    "Hindi": "वे रविवार को फुटबॉल ___।",
+                    "Japanese": "彼らは日曜日にサッカーを___。"
+                },
+                "options": [
+                    "play",
+                    "plays",
+                    "is playing",
+                    "playing"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "gram3",
+                "type": "trueFalse",
+                "question": "‘She don’t like apples’ is correct English.",
+                "question_translation": {
+                    "Hindi": "'She don’t like apples' सही अंग्रेज़ी है।",
+                    "Japanese": "「She don’t like apples」は正しい英語です。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram4",
+                "type": "multipleChoice",
+                "question": "Choose the correct negative form.",
+                "question_translation": {
+                    "Hindi": "सही नकारात्मक रूप चुनें।",
+                    "Japanese": "正しい否定文を選んでください。"
+                },
+                "options": [
+                    "He not like tea.",
+                    "He doesn’t like tea.",
+                    "He don’t likes tea.",
+                    "He isn’t likes tea."
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram5",
+                "type": "fillInTheBlanks",
+                "question": "There ___ a book on the table.",
+                "question_translation": {
+                    "Hindi": "मेज़ पर एक किताब ___ है।",
+                    "Japanese": "テーブルの上に本___あります。"
+                },
+                "options": [
+                    "is",
+                    "are",
+                    "am",
+                    "be"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "gram6",
+                "type": "multipleChoice",
+                "question": "Which is correct?",
+                "question_translation": {
+                    "Hindi": "कौन सा सही है?",
+                    "Japanese": "どれが正しいですか？"
+                },
+                "options": [
+                    "She are my sister.",
+                    "She is my sister.",
+                    "She am my sister.",
+                    "She be my sister."
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram7",
+                "type": "fillInTheBlanks",
+                "question": "We ___ at home yesterday.",
+                "question_translation": {
+                    "Hindi": "हम कल घर पर ___।",
+                    "Japanese": "私たちは昨日家に___。"
+                },
+                "options": [
+                    "was",
+                    "were",
+                    "are",
+                    "be"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram8",
+                "type": "multipleChoice",
+                "question": "Choose the correct question.",
+                "question_translation": {
+                    "Hindi": "सही प्रश्न चुनें।",
+                    "Japanese": "正しい疑問文を選んでください。"
+                },
+                "options": [
+                    "Where you live?",
+                    "Where do you live?",
+                    "Where are you live?",
+                    "Where you are live?"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram9",
+                "type": "trueFalse",
+                "question": "‘Childs’ is the correct plural of ‘Child’.",
+                "question_translation": {
+                    "Hindi": "'Childs' 'Child' का सही बहुवचन है।",
+                    "Japanese": "「Childs」は「Child」の正しい複数形です。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram10",
+                "type": "fillInTheBlanks",
+                "question": "I ___ a new car last year.",
+                "question_translation": {
+                    "Hindi": "मैंने पिछले साल एक नई कार ___।",
+                    "Japanese": "私は昨年、新しい車を___。"
+                },
+                "options": [
+                    "buy",
+                    "buys",
+                    "bought",
+                    "buyed"
+                ],
+                "answer": 2
+            },
+            {
+                "id": "gram11",
+                "type": "multipleChoice",
+                "question": "Which article is correct? ‘___ apple a day keeps the doctor away.’",
+                "question_translation": {
+                    "Hindi": "कौन सा आर्टिकल सही है? '___ apple a day keeps the doctor away.'",
+                    "Japanese": "正しい冠詞はどれですか？「___ apple a day keeps the doctor away.」"
+                },
+                "options": [
+                    "A",
+                    "An",
+                    "The",
+                    "No article"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram12",
+                "type": "fillInTheBlanks",
+                "question": "He ___ watching TV now.",
+                "question_translation": {
+                    "Hindi": "वह अभी टीवी ___।",
+                    "Japanese": "彼は今テレビを___。"
+                },
+                "options": [
+                    "is",
+                    "are",
+                    "am",
+                    "be"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "gram13",
+                "type": "multipleChoice",
+                "question": "Which preposition is correct? ‘The cat is ___ the table.’",
+                "question_translation": {
+                    "Hindi": "सही प्रीपोज़िशन कौन सा है? 'The cat is ___ the table.'",
+                    "Japanese": "正しい前置詞はどれですか？「The cat is ___ the table.」"
+                },
+                "options": [
+                    "in",
+                    "on",
+                    "at",
+                    "to"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram14",
+                "type": "trueFalse",
+                "question": "‘I goed to school yesterday’ is correct.",
+                "question_translation": {
+                    "Hindi": "'I goed to school yesterday' सही है।",
+                    "Japanese": "「I goed to school yesterday」は正しいです。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram15",
+                "type": "multipleChoice",
+                "question": "Choose the correct comparative form: ‘big’ → ?",
+                "question_translation": {
+                    "Hindi": "सही तुलनात्मक रूप चुनें: 'big' → ?",
+                    "Japanese": "正しい比較級を選んでください：「big」→？"
+                },
+                "options": [
+                    "bigger",
+                    "more big",
+                    "biggest",
+                    "big"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "gram16",
+                "type": "fillInTheBlanks",
+                "question": "She ___ to the park every morning.",
+                "question_translation": {
+                    "Hindi": "वह हर सुबह पार्क ___ जाती है।",
+                    "Japanese": "彼女は毎朝公園に___。"
+                },
+                "options": [
+                    "go",
+                    "goes",
+                    "going",
+                    "gone"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram17",
+                "type": "multipleChoice",
+                "question": "Which sentence is correct?",
+                "question_translation": {
+                    "Hindi": "कौन सा वाक्य सही है?",
+                    "Japanese": "どの文が正しいですか？"
+                },
+                "options": [
+                    "She can sings well.",
+                    "She cans sing well.",
+                    "She can sing well.",
+                    "She sing can well."
+                ],
+                "answer": 2
+            },
+            {
+                "id": "gram18",
+                "type": "trueFalse",
+                "question": "‘We was at school yesterday’ is correct.",
+                "question_translation": {
+                    "Hindi": "'We was at school yesterday' सही है।",
+                    "Japanese": "「We was at school yesterday」は正しいです。"
+                },
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "gram19",
+                "type": "fillInTheBlanks",
+                "question": "___ you like ice cream?",
+                "question_translation": {
+                    "Hindi": "क्या आपको आइसक्रीम ___?",
+                    "Japanese": "あなたはアイスクリームが___？"
+                },
+                "options": [
+                    "Do",
+                    "Does",
+                    "Is",
+                    "Are"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "gram20",
+                "type": "multipleChoice",
+                "question": "Which sentence is correct?",
+                "question_translation": {
+                    "Hindi": "कौन सा वाक्य सही है?",
+                    "Japanese": "どの文が正しいですか？"
+                },
+                "options": [
+                    "I have two childs.",
+                    "I has two children.",
+                    "I have two children.",
+                    "I having two children."
+                ],
+                "answer": 2
+            }
+        ],
+        "sentence": [
+            {
+                "id": "sent1",
+                "type": "fillInTheBlanks",
+                "question": "My name ___ Sara.",
+                "question_translation": {
+                    "Hindi": "मेरा नाम ___ सारा है।",
+                    "Japanese": "私の名前は___サラです。"
+                },
+                "options": [
+                    "is",
+                    "are",
+                    "am"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "sent2",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [morning, in, get, I, up]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [सुबह, में, उठता, मैं]",
+                    "Japanese": "並べ替え: [morning, in, get, I, up]"
+                },
+                "options": [
+                    "morning",
+                    "in",
+                    "get",
+                    "I",
+                    "up"
+                ],
+                "answer": [
+                    "I",
+                    "get",
+                    "up",
+                    "in",
+                    "morning"
+                ]
+            },
+            {
+                "id": "sent3",
+                "type": "fillInTheBlanks",
+                "question": "We ___ in Mumbai.",
+                "question_translation": {
+                    "Hindi": "हम मुंबई में ___।",
+                    "Japanese": "私たちはムンバイに___。"
+                },
+                "options": [
+                    "live",
+                    "lives",
+                    "living"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "sent4",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [to, school, goes, he, bus, by]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [स्कूल, जाता है, वह, बस से]",
+                    "Japanese": "並べ替え: [to, school, goes, he, bus, by]"
+                },
+                "options": [
+                    "to",
+                    "school",
+                    "goes",
+                    "he",
+                    "bus",
+                    "by"
+                ],
+                "answer": [
+                    "He",
+                    "goes",
+                    "to",
+                    "school",
+                    "by",
+                    "bus"
+                ]
+            },
+            {
+                "id": "sent5",
+                "type": "fillInTheBlanks",
+                "question": "She ___ not like coffee.",
+                "question_translation": {
+                    "Hindi": "वह कॉफी ___ पसंद करती।",
+                    "Japanese": "彼女はコーヒーが___好きではありません。"
+                },
+                "options": [
+                    "do",
+                    "does",
+                    "is"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent6",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [yesterday, went, I, park, to, the]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [कल, गया, मैं, पार्क, को]",
+                    "Japanese": "並べ替え: [yesterday, went, I, park, to, the]"
+                },
+                "options": [
+                    "yesterday",
+                    "went",
+                    "I",
+                    "park",
+                    "to",
+                    "the"
+                ],
+                "answer": [
+                    "I",
+                    "went",
+                    "to",
+                    "the",
+                    "park",
+                    "yesterday"
+                ]
+            },
+            {
+                "id": "sent7",
+                "type": "fillInTheBlanks",
+                "question": "It ___ raining now.",
+                "question_translation": {
+                    "Hindi": "अभी बारिश ___।",
+                    "Japanese": "今雨が___。"
+                },
+                "options": [
+                    "is",
+                    "are",
+                    "am"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "sent8",
+                "type": "multipleChoice",
+                "question": "Choose the correct sentence.",
+                "question_translation": {
+                    "Hindi": "सही वाक्य चुनें।",
+                    "Japanese": "正しい文を選んでください。"
+                },
+                "options": [
+                    "She can sings.",
+                    "She can sing.",
+                    "She cans sing."
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent9",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [book, is, this, my]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [किताब, है, यह, मेरी]",
+                    "Japanese": "並べ替え: [book, is, this, my]"
+                },
+                "options": [
+                    "book",
+                    "is",
+                    "this",
+                    "my"
+                ],
+                "answer": [
+                    "This",
+                    "is",
+                    "my",
+                    "book"
+                ]
+            },
+            {
+                "id": "sent10",
+                "type": "fillInTheBlanks",
+                "question": "He ___ to music every evening.",
+                "question_translation": {
+                    "Hindi": "वह हर शाम संगीत ___।",
+                    "Japanese": "彼は毎晩音楽を___。"
+                },
+                "options": [
+                    "listen",
+                    "listens",
+                    "listening"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent11",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [Sunday, on, market, the, open]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [रविवार, को, खुलता है, बाजार]",
+                    "Japanese": "並べ替え: [Sunday, on, market, the, open]"
+                },
+                "options": [
+                    "Sunday",
+                    "on",
+                    "market",
+                    "the",
+                    "open"
+                ],
+                "answer": [
+                    "The",
+                    "market",
+                    "open",
+                    "on",
+                    "Sunday"
+                ]
+            },
+            {
+                "id": "sent12",
+                "type": "fillInTheBlanks",
+                "question": "They ___ English every day.",
+                "question_translation": {
+                    "Hindi": "वे रोज़ अंग्रेज़ी ___।",
+                    "Japanese": "彼らは毎日英語を___。"
+                },
+                "options": [
+                    "study",
+                    "studies",
+                    "studying"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "sent13",
+                "type": "multipleChoice",
+                "question": "Which is correct?",
+                "question_translation": {
+                    "Hindi": "कौन सा सही है?",
+                    "Japanese": "どれが正しいですか？"
+                },
+                "options": [
+                    "He have two brothers.",
+                    "He has two brothers.",
+                    "He haves two brothers."
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent14",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [at, work, starts, 9, my]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [काम, शुरू होता है, मेरा, 9 बजे]",
+                    "Japanese": "並べ替え: [at, work, starts, 9, my]"
+                },
+                "options": [
+                    "at",
+                    "work",
+                    "starts",
+                    "9",
+                    "my"
+                ],
+                "answer": [
+                    "My",
+                    "work",
+                    "starts",
+                    "at",
+                    "9"
+                ]
+            },
+            {
+                "id": "sent15",
+                "type": "fillInTheBlanks",
+                "question": "There ___ many students in the class.",
+                "question_translation": {
+                    "Hindi": "कक्षा में कई विद्यार्थी ___ हैं।",
+                    "Japanese": "クラスには多くの学生が___。"
+                },
+                "options": [
+                    "is",
+                    "are",
+                    "am"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent16",
+                "type": "multipleChoice",
+                "question": "Choose the correct question.",
+                "question_translation": {
+                    "Hindi": "सही प्रश्न चुनें।",
+                    "Japanese": "正しい疑問文を選んでください。"
+                },
+                "options": [
+                    "Do you can swim?",
+                    "Can you swim?",
+                    "You can swim?"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent17",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [India, from, am, I]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [भारत, से, हूँ, मैं]",
+                    "Japanese": "並べ替え: [India, from, am, I]"
+                },
+                "options": [
+                    "India",
+                    "from",
+                    "am",
+                    "I"
+                ],
+                "answer": [
+                    "I",
+                    "am",
+                    "from",
+                    "India"
+                ]
+            },
+            {
+                "id": "sent18",
+                "type": "fillInTheBlanks",
+                "question": "We ___ a new teacher this week.",
+                "question_translation": {
+                    "Hindi": "हमें इस सप्ताह एक नया शिक्षक ___।",
+                    "Japanese": "今週私たちは新しい先生を___。"
+                },
+                "options": [
+                    "have",
+                    "has",
+                    "having"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "sent19",
+                "type": "multipleChoice",
+                "question": "Which sentence is correct?",
+                "question_translation": {
+                    "Hindi": "कौन सा वाक्य सही है?",
+                    "Japanese": "どの文が正しいですか？"
+                },
+                "options": [
+                    "She like pizza.",
+                    "She likes pizza.",
+                    "She liking pizza."
+                ],
+                "answer": 1
+            },
+            {
+                "id": "sent20",
+                "type": "sentenceRearranging",
+                "question": "Arrange: [reading, is, she, book, a]",
+                "question_translation": {
+                    "Hindi": "क्रम में लगाएं: [पढ़ रही है, वह, किताब, एक]",
+                    "Japanese": "並べ替え: [reading, is, she, book, a]"
+                },
+                "options": [
+                    "reading",
+                    "is",
+                    "she",
+                    "book",
+                    "a"
+                ],
+                "answer": [
+                    "She",
+                    "is",
+                    "reading",
+                    "a",
+                    "book"
+                ]
+            }
+        ],
+        "listening": [
+            {
+                "id": "listen1",
+                "type": "multipleChoice",
+                "question": "What number did you hear?",
+                "audio_text": "Twenty-five",
+                "question_translation": {
+                    "Hindi": "आपने कौन सा नंबर सुना?",
+                    "Japanese": "何という数字を聞きましたか？"
+                },
+                "options": [
+                    "15",
+                    "25",
+                    "50",
+                    "35"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen2",
+                "type": "multipleChoice",
+                "question": "What greeting did the speaker say?",
+                "audio_text": "Good evening",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा अभिवादन कहा?",
+                    "Japanese": "話者はどの挨拶を言いましたか？"
+                },
+                "options": [
+                    "Good morning",
+                    "Good evening",
+                    "Good night"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen3",
+                "type": "multipleChoice",
+                "question": "What time did the speaker say?",
+                "audio_text": "It’s half past three.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा समय कहा?",
+                    "Japanese": "話者は何時と言いましたか？"
+                },
+                "options": [
+                    "3:30",
+                    "2:30",
+                    "4:30",
+                    "3:00"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "listen4",
+                "type": "multipleChoice",
+                "question": "What food did the speaker order?",
+                "audio_text": "I’d like a sandwich.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा खाना ऑर्डर किया?",
+                    "Japanese": "話者はどんな食べ物を注文しましたか？"
+                },
+                "options": [
+                    "Pizza",
+                    "Sandwich",
+                    "Rice",
+                    "Soup"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen5",
+                "type": "multipleChoice",
+                "question": "What word did you hear?",
+                "audio_text": "Teacher",
+                "question_translation": {
+                    "Hindi": "आपने कौन सा शब्द सुना?",
+                    "Japanese": "どの単語を聞きましたか？"
+                },
+                "options": [
+                    "Doctor",
+                    "Teacher",
+                    "Farmer",
+                    "Driver"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen6",
+                "type": "multipleChoice",
+                "question": "Where does the speaker want to go?",
+                "audio_text": "Excuse me, where is the bank?",
+                "question_translation": {
+                    "Hindi": "वक्ता कहाँ जाना चाहता है?",
+                    "Japanese": "話者はどこへ行きたいですか？"
+                },
+                "options": [
+                    "Hospital",
+                    "Bank",
+                    "Park",
+                    "School"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen7",
+                "type": "multipleChoice",
+                "question": "What season did the speaker say?",
+                "audio_text": "It’s winter.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा मौसम कहा?",
+                    "Japanese": "話者はどの季節を言いましたか？"
+                },
+                "options": [
+                    "Summer",
+                    "Winter",
+                    "Spring",
+                    "Autumn"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen8",
+                "type": "multipleChoice",
+                "question": "What transport did the speaker mention?",
+                "audio_text": "I go to work by bus.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा परिवहन बताया?",
+                    "Japanese": "話者はどの交通手段を言いましたか？"
+                },
+                "options": [
+                    "Car",
+                    "Bus",
+                    "Train",
+                    "Bike"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen9",
+                "type": "multipleChoice",
+                "question": "What family member did the speaker say?",
+                "audio_text": "This is my sister.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा परिवार का सदस्य बताया?",
+                    "Japanese": "話者はどの家族を言いましたか？"
+                },
+                "options": [
+                    "Brother",
+                    "Sister",
+                    "Mother",
+                    "Father"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen10",
+                "type": "multipleChoice",
+                "question": "What drink did the speaker ask for?",
+                "audio_text": "Can I have some tea?",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा पेय माँगा?",
+                    "Japanese": "話者はどの飲み物を頼みましたか？"
+                },
+                "options": [
+                    "Coffee",
+                    "Juice",
+                    "Tea",
+                    "Milk"
+                ],
+                "answer": 2
+            },
+            {
+                "id": "listen11",
+                "type": "multipleChoice",
+                "question": "What place is the speaker talking about?",
+                "audio_text": "I am at the supermarket.",
+                "question_translation": {
+                    "Hindi": "वक्ता किस जगह की बात कर रहा है?",
+                    "Japanese": "話者はどこにいますか？"
+                },
+                "options": [
+                    "School",
+                    "Supermarket",
+                    "Bank",
+                    "Park"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen12",
+                "type": "multipleChoice",
+                "question": "What day did the speaker say?",
+                "audio_text": "Today is Friday.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा दिन कहा?",
+                    "Japanese": "話者は何曜日と言いましたか？"
+                },
+                "options": [
+                    "Monday",
+                    "Friday",
+                    "Sunday",
+                    "Wednesday"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen13",
+                "type": "multipleChoice",
+                "question": "What animal did the speaker mention?",
+                "audio_text": "I have a cat.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा जानवर बताया?",
+                    "Japanese": "話者はどの動物を言いましたか？"
+                },
+                "options": [
+                    "Dog",
+                    "Cat",
+                    "Bird",
+                    "Horse"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen14",
+                "type": "multipleChoice",
+                "question": "What country did the speaker say?",
+                "audio_text": "I am from India.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा देश कहा?",
+                    "Japanese": "話者はどの国から来ましたか？"
+                },
+                "options": [
+                    "India",
+                    "Japan",
+                    "USA",
+                    "China"
+                ],
+                "answer": 0
+            },
+            {
+                "id": "listen15",
+                "type": "multipleChoice",
+                "question": "What did the speaker buy?",
+                "audio_text": "I bought some bread.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने क्या खरीदा?",
+                    "Japanese": "話者は何を買いましたか？"
+                },
+                "options": [
+                    "Rice",
+                    "Bread",
+                    "Milk",
+                    "Eggs"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen16",
+                "type": "multipleChoice",
+                "question": "What is the weather like?",
+                "audio_text": "It’s raining.",
+                "question_translation": {
+                    "Hindi": "मौसम कैसा है?",
+                    "Japanese": "天気はどうですか？"
+                },
+                "options": [
+                    "Sunny",
+                    "Rainy",
+                    "Snowy",
+                    "Windy"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen17",
+                "type": "multipleChoice",
+                "question": "What did the speaker say?",
+                "audio_text": "I am fine, thank you.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने क्या कहा?",
+                    "Japanese": "話者は何と言いましたか？"
+                },
+                "options": [
+                    "I am hungry",
+                    "I am fine, thank you",
+                    "I am busy",
+                    "I am tired"
+                ],
+                "answer": 1
+            },
+            {
+                "id": "listen18",
+                "type": "multipleChoice",
+                "question": "What time of day did the speaker mention?",
+                "audio_text": "Good night!",
+                "question_translation": {
+                    "Hindi": "वक्ता ने दिन का कौन सा समय बताया?",
+                    "Japanese": "話者は一日のどの時間帯について言いましたか？"
+                },
+                "options": [
+                    "Morning",
+                    "Afternoon",
+                    "Evening",
+                    "Night"
+                ],
+                "answer": 3
+            },
+            {
+                "id": "listen19",
+                "type": "multipleChoice",
+                "question": "What object did the speaker mention?",
+                "audio_text": "This is my bag.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सी वस्तु बताई?",
+                    "Japanese": "話者はどの物を言いましたか？"
+                },
+                "options": [
+                    "Pen",
+                    "Table",
+                    "Bag",
+                    "Book"
+                ],
+                "answer": 2
+            },
+            {
+                "id": "listen20",
+                "type": "multipleChoice",
+                "question": "What sport did the speaker say?",
+                "audio_text": "I like football.",
+                "question_translation": {
+                    "Hindi": "वक्ता ने कौन सा खेल कहा?",
+                    "Japanese": "話者はどのスポーツを言いましたか？"
+                },
+                "options": [
+                    "Cricket",
+                    "Football",
+                    "Tennis",
+                    "Basketball"
+                ],
+                "answer": 1
+            }
+        ],
+        "speaking": [
+            {
+                "id": "speak1",
+                "type": "speaking",
+                "question": "Say: 'Hello! My name is Rohan.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'Hello! My name is Rohan.'",
+                    "Japanese": "言ってください: 'Hello! My name is Rohan.'"
+                },
+                "options": [],
+                "answer": "hello my name is rohan"
+            },
+            {
+                "id": "speak2",
+                "type": "speaking",
+                "question": "Say: 'Good morning! How are you?'",
+                "question_translation": {
+                    "Hindi": "कहें: 'Good morning! How are you?'",
+                    "Japanese": "言ってください: 'Good morning! How are you?'"
+                },
+                "options": [],
+                "answer": "good morning how are you"
+            },
+            {
+                "id": "speak3",
+                "type": "speaking",
+                "question": "Say: 'I live in Delhi.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'I live in Delhi.'",
+                    "Japanese": "言ってください: 'I live in Delhi.'"
+                },
+                "options": [],
+                "answer": "i live in delhi"
+            },
+            {
+                "id": "speak4",
+                "type": "speaking",
+                "question": "Say: 'This is my mother.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'This is my mother.'",
+                    "Japanese": "言ってください: 'This is my mother.'"
+                },
+                "options": [],
+                "answer": "this is my mother"
+            },
+            {
+                "id": "speak5",
+                "type": "speaking",
+                "question": "Say: 'I have two brothers.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'I have two brothers.'",
+                    "Japanese": "言ってください: 'I have two brothers.'"
+                },
+                "options": [],
+                "answer": "i have two brothers"
+            },
+            {
+                "id": "speak6",
+                "type": "speaking",
+                "question": "Say: 'I like apples.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'I like apples.'",
+                    "Japanese": "言ってください: 'I like apples.'"
+                },
+                "options": [],
+                "answer": "i like apples"
+            },
+            {
+                "id": "speak7",
+                "type": "speaking",
+                "question": "Say: 'I don’t like coffee.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'I don’t like coffee.'",
+                    "Japanese": "言ってください: 'I don’t like coffee.'"
+                },
+                "options": [],
+                "answer": "i don't like coffee"
+            },
+            {
+                "id": "speak8",
+                "type": "speaking",
+                "question": "Say: 'It is raining today.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'आज बारिश हो रही है।'",
+                    "Japanese": "言ってください: 'It is raining today.'"
+                },
+                "options": [],
+                "answer": "it is raining today"
+            },
+            {
+                "id": "speak9",
+                "type": "speaking",
+                "question": "Say: 'I am a student.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'मैं छात्र हूँ।'",
+                    "Japanese": "言ってください: 'I am a student.'"
+                },
+                "options": [],
+                "answer": "i am a student"
+            },
+            {
+                "id": "speak10",
+                "type": "speaking",
+                "question": "Say: 'What is your name?'",
+                "question_translation": {
+                    "Hindi": "कहें: 'आपका नाम क्या है?'",
+                    "Japanese": "言ってください: 'What is your name?'"
+                },
+                "options": [],
+                "answer": "what is your name"
+            },
+            {
+                "id": "speak11",
+                "type": "speaking",
+                "question": "Say: 'I am fine, thank you.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'मैं ठीक हूँ, धन्यवाद।'",
+                    "Japanese": "言ってください: 'I am fine, thank you.'"
+                },
+                "options": [],
+                "answer": "i am fine thank you"
+            },
+            {
+                "id": "speak12",
+                "type": "speaking",
+                "question": "Say: 'This is my house.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'यह मेरा घर है।'",
+                    "Japanese": "言ってください: 'This is my house.'"
+                },
+                "options": [],
+                "answer": "this is my house"
+            },
+            {
+                "id": "speak13",
+                "type": "speaking",
+                "question": "Say: 'Where is the bus stop?'",
+                "question_translation": {
+                    "Hindi": "कहें: 'बस स्टॉप कहाँ है?'",
+                    "Japanese": "言ってください: 'Where is the bus stop?'"
+                },
+                "options": [],
+                "answer": "where is the bus stop"
+            },
+            {
+                "id": "speak14",
+                "type": "speaking",
+                "question": "Say: 'I am from Japan.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'मैं जापान से हूँ।'",
+                    "Japanese": "言ってください: 'I am from Japan.'"
+                },
+                "options": [],
+                "answer": "i am from japan"
+            },
+            {
+                "id": "speak15",
+                "type": "speaking",
+                "question": "Say: 'Can you help me?'",
+                "question_translation": {
+                    "Hindi": "कहें: 'क्या आप मेरी मदद कर सकते हैं?'",
+                    "Japanese": "言ってください: 'Can you help me?'"
+                },
+                "options": [],
+                "answer": "can you help me"
+            },
+            {
+                "id": "speak16",
+                "type": "speaking",
+                "question": "Say: 'I am ten years old.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'मैं दस साल का हूँ।'",
+                    "Japanese": "言ってください: 'I am ten years old.'"
+                },
+                "options": [],
+                "answer": "i am ten years old"
+            },
+            {
+                "id": "speak17",
+                "type": "speaking",
+                "question": "Say: 'This is my book.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'यह मेरी किताब है।'",
+                    "Japanese": "言ってください: 'This is my book.'"
+                },
+                "options": [],
+                "answer": "this is my book"
+            },
+            {
+                "id": "speak18",
+                "type": "speaking",
+                "question": "Say: 'I am hungry.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'मुझे भूख लगी है।'",
+                    "Japanese": "言ってください: 'I am hungry.'"
+                },
+                "options": [],
+                "answer": "i am hungry"
+            },
+            {
+                "id": "speak19",
+                "type": "speaking",
+                "question": "Say: 'We are friends.'",
+                "question_translation": {
+                    "Hindi": "कहें: 'हम दोस्त हैं।'",
+                    "Japanese": "言ってください: 'We are friends.'"
+                },
+                "options": [],
+                "answer": "we are friends"
+            },
+            {
+                "id": "speak20",
+                "type": "speaking",
+                "question": "Say: 'See you tomorrow!'",
+                "question_translation": {
+                    "Hindi": "कहें: 'कल मिलते हैं!'",
+                    "Japanese": "言ってください: 'See you tomorrow!'"
+                },
+                "options": [],
+                "answer": "see you tomorrow"
+            }
+        ]
+    }
+}

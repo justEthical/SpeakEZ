@@ -75,16 +75,19 @@ class VocalbularyScreen extends StatelessWidget {
 
   Widget _progressIndicator() {
     final c = Get.find<QuestionOptionsController>();
+    final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
+    if (vocabulary.isEmpty) return const SizedBox.shrink();
+    
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         ...List.generate(
-          lesson.lessonIntro.vocabulary.length,
+          vocabulary.length,
           (e) => GestureDetector(
             onTap: () {},
             child: Obx(
               () => Container(
-                width: (Get.width / lesson.lessonIntro.vocabulary.length) - 10,
+                width: (Get.width / vocabulary.length) - 10,
                 height: 4,
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.grey, width: 0.4),
@@ -104,15 +107,26 @@ class VocalbularyScreen extends StatelessWidget {
 
   Widget _content() {
     final c = Get.find<QuestionOptionsController>();
+    final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
+    
+    if (vocabulary.isEmpty) {
+      return const Expanded(
+        flex: 10,
+        child: Center(
+          child: Text('No vocabulary items available'),
+        ),
+      );
+    }
+    
     return Expanded(
       flex: 10,
       child: PageView.builder(
         controller: c.wordMeaningPageController,
         physics: const NeverScrollableScrollPhysics(),
         scrollDirection: Axis.horizontal,
-        itemCount: lesson.lessonIntro.vocabulary.length,
+        itemCount: vocabulary.length,
         itemBuilder: (ctx, i) {
-          final vocabularyModel = lesson.lessonIntro.vocabulary[i];
+          final vocabularyModel = vocabulary[i];
           if(c.isAutoSpeakVocabularyOn.value){
             ttsHelper.speak(vocabularyModel.word);
           }
@@ -126,6 +140,8 @@ class VocalbularyScreen extends StatelessWidget {
 
   Widget _bottomButtons() {
     final c = Get.find<QuestionOptionsController>();
+    final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
+    
     return Row(
       children: [
         Obx(
@@ -160,8 +176,8 @@ class VocalbularyScreen extends StatelessWidget {
         Spacer(),
         ElevatedButton(
           onPressed: () {
-            if (c.currentWordMeaningIndex.value <
-                lesson.lessonIntro.vocabulary.length - 1) {
+            if (vocabulary.isNotEmpty &&
+                c.currentWordMeaningIndex.value < vocabulary.length - 1) {
               c.wordMeaningPageController.nextPage(
                 duration: const Duration(milliseconds: 300),
                 curve: Curves.linear,
@@ -180,8 +196,8 @@ class VocalbularyScreen extends StatelessWidget {
           ),
           child: Obx(
             () => Text(
-              c.currentWordMeaningIndex.value ==
-                      lesson.lessonIntro.vocabulary.length - 1
+              vocabulary.isNotEmpty &&
+                      c.currentWordMeaningIndex.value == vocabulary.length - 1
                   ? "Done"
                   : "Next",
               style: TextStyle(
