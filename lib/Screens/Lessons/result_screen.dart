@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -128,7 +127,11 @@ class ResultScreen extends StatelessWidget {
         return SizedBox(
           width: 180,
           height: 180,
-          child: Icon(Icons.lock, size: 180, color: Colors.red,),
+          child: Lottie.asset(
+            AppAssets.locked,
+            decoder: globalController.customDecoder,
+            repeat: false,
+          ),
         );
       }
     }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
@@ -13,8 +14,8 @@ class LessonIntroScreen extends StatefulWidget {
   final String? englishLevel;
   final bool isUnlockTest;
   const LessonIntroScreen({
-    super.key, 
-    this.lessonIndex, 
+    super.key,
+    this.lessonIndex,
     this.englishLevel,
     this.isUnlockTest = false,
   });
@@ -25,7 +26,6 @@ class LessonIntroScreen extends StatefulWidget {
 
 class _LessonIntroScreenState extends State<LessonIntroScreen> {
   final c = Get.put(QuestionOptionsController(), permanent: true);
-  
 
   @override
   void initState() {
@@ -45,15 +45,13 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
       setState(() {});
       c.currentLessonModel = c.lessonModel!;
       c.currentQuestionIndex.value = 0;
-      if(widget.lessonIndex != null){
+      if (widget.lessonIndex != null) {
         c.isFromRetest = true;
       }
       globalController.startWhisperIsolate();
-      
-      
     });
   }
-  
+
   void _navigateToQuestions() {
     if (c.lessonModel!.lessonType == LessonType.unlockTest) {
       // unlock lesson test flow
@@ -92,14 +90,23 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Spacer(),
-                  SizedBox(
-                    width: Get.width * 0.5,
-                    height: Get.width * 0.5,
-                    child: Image.asset(AppAssets.cat),
-                  ),
+                  widget.isUnlockTest
+                      ? SizedBox(
+                        width: 200,
+                        height: 200,
+                        child: Lottie.asset(
+                          AppAssets.key,
+                          decoder: globalController.customDecoder,
+                        ),
+                      )
+                      : SizedBox(
+                        width: Get.width * 0.5,
+                        height: Get.width * 0.5,
+                        child: Image.asset(AppAssets.cat),
+                      ),
                   SizedBox(width: Get.width, height: 20),
                   Text(
-                    c.lessonModel!.lessonType == LessonType.unlockTest 
+                    c.lessonModel!.lessonType == LessonType.unlockTest
                         ? "Level Unlock Test"
                         : "Welcome to the lesson",
                     style: GoogleFonts.poppins(
@@ -113,6 +120,18 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                     style: GoogleFonts.poppins(
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 10),
+                    child: Text(
+                      "You have to score more than 80% to unlock the ${widget.englishLevel} level",
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.poppins(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ),
                   SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
