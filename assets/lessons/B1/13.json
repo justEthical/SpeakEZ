@@ -1,4 +1,460 @@
 {
-  "id": 13,
-  "message": "This is file number 13"
+  "id": "lesson_problems_solutions_b1",
+  "lesson_name": "Explaining Problems with Solutions",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Problem",
+        "word_translation": {
+          "Hindi": "समस्या",
+          "Japanese": "問題"
+        },
+        "meaning": "Something that is difficult or causes trouble",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो कठिनाई या परेशानी पैदा करता है",
+          "Japanese": "難しいことやトラブルを引き起こすもの"
+        },
+        "examples": [
+          {
+            "sentence": "The main problem is lack of time.",
+            "translation": {
+              "Hindi": "मुख्य समस्या समय की कमी है।",
+              "Japanese": "主な問題は時間不足です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Issue",
+        "word_translation": {
+          "Hindi": "मुद्दा",
+          "Japanese": "課題"
+        },
+        "meaning": "A subject or difficulty that needs attention",
+        "meaning_translation": {
+          "Hindi": "एक विषय या कठिनाई जिस पर ध्यान देने की आवश्यकता है",
+          "Japanese": "注意を必要とする課題や難しさ"
+        },
+        "examples": [
+          {
+            "sentence": "There are several issues with the project.",
+            "translation": {
+              "Hindi": "प्रोजेक्ट में कई मुद्दे हैं।",
+              "Japanese": "プロジェクトにはいくつかの課題があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Solution",
+        "word_translation": {
+          "Hindi": "समाधान",
+          "Japanese": "解決策"
+        },
+        "meaning": "The way to fix a problem",
+        "meaning_translation": {
+          "Hindi": "समस्या को हल करने का तरीका",
+          "Japanese": "問題を解決する方法"
+        },
+        "examples": [
+          {
+            "sentence": "The solution is to improve communication.",
+            "translation": {
+              "Hindi": "समाधान है कि संचार को बेहतर बनाया जाए।",
+              "Japanese": "解決策はコミュニケーションを改善することです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Cause",
+        "word_translation": {
+          "Hindi": "कारण",
+          "Japanese": "原因"
+        },
+        "meaning": "The reason why something happens",
+        "meaning_translation": {
+          "Hindi": "कुछ क्यों होता है इसका कारण",
+          "Japanese": "何かが起こる理由"
+        },
+        "examples": [
+          {
+            "sentence": "Stress is a common cause of illness.",
+            "translation": {
+              "Hindi": "तनाव बीमारी का एक आम कारण है।",
+              "Japanese": "ストレスは病気の一般的な原因です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Effect",
+        "word_translation": {
+          "Hindi": "प्रभाव",
+          "Japanese": "影響"
+        },
+        "meaning": "The result of something happening",
+        "meaning_translation": {
+          "Hindi": "कुछ होने का परिणाम",
+          "Japanese": "何かが起こった結果"
+        },
+        "examples": [
+          {
+            "sentence": "The new policy had a good effect.",
+            "translation": {
+              "Hindi": "नई नीति का अच्छा प्रभाव पड़ा।",
+              "Japanese": "新しい政策は良い影響を与えました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Fix",
+        "word_translation": {
+          "Hindi": "सुधारना",
+          "Japanese": "直す"
+        },
+        "meaning": "To repair or make something work again",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को ठीक करना या फिर से काम करना",
+          "Japanese": "修理する、再び機能させる"
+        },
+        "examples": [
+          {
+            "sentence": "The technician fixed the computer problem.",
+            "translation": {
+              "Hindi": "तकनीशियन ने कंप्यूटर की समस्या ठीक की।",
+              "Japanese": "技術者はコンピューターの問題を修理しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Suggest",
+        "word_translation": {
+          "Hindi": "सुझाव देना",
+          "Japanese": "提案する"
+        },
+        "meaning": "To offer an idea for solving a problem",
+        "meaning_translation": {
+          "Hindi": "समस्या को हल करने के लिए एक विचार देना",
+          "Japanese": "問題を解決するためのアイデアを出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "I suggest we take a break to relax.",
+            "translation": {
+              "Hindi": "मैं सुझाव देता हूँ कि हम आराम करने के लिए एक ब्रेक लें।",
+              "Japanese": "休憩を取ってリラックスすることを提案します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Improve",
+        "word_translation": {
+          "Hindi": "सुधारना",
+          "Japanese": "改善する"
+        },
+        "meaning": "To make something better",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को बेहतर बनाना",
+          "Japanese": "何かを良くすること"
+        },
+        "examples": [
+          {
+            "sentence": "We need to improve our study habits.",
+            "translation": {
+              "Hindi": "हमें अपनी पढ़ाई की आदतों को सुधारने की जरूरत है।",
+              "Japanese": "勉強の習慣を改善する必要があります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'The problem is…'",
+        "explanation": "Say 'The problem is…' to clearly state an issue. Example: The problem is we don’t have enough time.",
+        "explanation_translation": {
+          "Hindi": "'The problem is…' कहकर समस्या साफ़ बताएं। उदाहरण: The problem is we don’t have enough time.",
+          "Japanese": "問題をはっきり言うとき「The problem is…」を使います。例: The problem is we don’t have enough time."
+        }
+      },
+      {
+        "title": "Using 'The solution is…'",
+        "explanation": "Say 'The solution is…' to introduce how to fix the problem. Example: The solution is better planning.",
+        "explanation_translation": {
+          "Hindi": "'The solution is…' कहकर समाधान बताएं। उदाहरण: The solution is better planning.",
+          "Japanese": "解決策を言うとき「The solution is…」を使います。例: The solution is better planning."
+        }
+      },
+      {
+        "title": "Using 'because' for causes",
+        "explanation": "Say 'This happened because…' to explain a reason. Example: We were late because the bus broke down.",
+        "explanation_translation": {
+          "Hindi": "कारण बताने के लिए 'because' कहें। उदाहरण: We were late because the bus broke down.",
+          "Japanese": "理由を説明するとき「because」を使います。例: We were late because the bus broke down."
+        }
+      },
+      {
+        "title": "Using 'so' for effects",
+        "explanation": "Say '…so…' to explain a result. Example: It rained, so the match was canceled.",
+        "explanation_translation": {
+          "Hindi": "परिणाम बताने के लिए 'so' कहें। उदाहरण: It rained, so the match was canceled.",
+          "Japanese": "結果を説明するとき「so」を使います。例: It rained, so the match was canceled."
+        }
+      },
+      {
+        "title": "Using 'I suggest…' for giving ideas",
+        "explanation": "Say 'I suggest…' to give advice or an idea. Example: I suggest we talk to the teacher.",
+        "explanation_translation": {
+          "Hindi": "सलाह या विचार देने के लिए 'I suggest…' कहें। उदाहरण: I suggest we talk to the teacher.",
+          "Japanese": "アドバイスやアイデアを言うとき「I suggest…」を使います。例: I suggest we talk to the teacher."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'the way to fix a problem'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'समस्या को हल करने का तरीका' का अर्थ है?",
+        "Japanese": "「問題を解決する方法」という意味の単語はどれですか？"
+      },
+      "options": ["Problem", "Solution", "Cause"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "multipleChoice",
+      "question": "Which word means 'the reason why something happens'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'कुछ क्यों होता है इसका कारण' का अर्थ है?",
+        "Japanese": "「何かが起こる理由」という意味の単語はどれですか？"
+      },
+      "options": ["Effect", "Cause", "Fix"],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "The new policy had a good ___.",
+      "question_translation": {
+        "Hindi": "नई नीति का अच्छा ___ पड़ा।",
+        "Japanese": "新しい政策は良い___を与えました。"
+      },
+      "options": ["effect", "problem", "issue"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "trueFalse",
+      "question": "Suggest means to offer an idea for solving a problem.",
+      "question_translation": {
+        "Hindi": "Suggest का अर्थ है समस्या हल करने के लिए एक विचार देना।",
+        "Japanese": "Suggest は問題を解決するためのアイデアを出すことを意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which word means 'to repair or make something work again'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'किसी चीज़ को ठीक करना या फिर से काम करना' का अर्थ है?",
+        "Japanese": "「修理する、再び機能させる」という意味の単語はどれですか？"
+      },
+      "options": ["Improve", "Fix", "Cause"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "The problem ___ we don’t have enough money.",
+      "question_translation": {
+        "Hindi": "समस्या ___ कि हमारे पास पर्याप्त पैसे नहीं हैं।",
+        "Japanese": "問題___お金が足りないことです。"
+      },
+      "options": ["is", "are", "was"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The solution ___ better communication.",
+      "question_translation": {
+        "Hindi": "समाधान ___ बेहतर संचार है।",
+        "Japanese": "解決策___より良いコミュニケーションです。"
+      },
+      "options": ["is", "are", "be"],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [because, bus, late, we, broke, were, the, down]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [because, bus, late, we, broke, were, the, down]",
+        "Japanese": "並べ替え: [because, bus, late, we, broke, were, the, down]"
+      },
+      "options": ["because", "bus", "late", "we", "broke", "were", "the", "down"],
+      "answer": ["we", "were", "late", "because", "the", "bus", "broke", "down"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [so, It, match, canceled, the, was, rained]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [so, It, match, canceled, the, was, rained]",
+        "Japanese": "並べ替え: [so, It, match, canceled, the, was, rained]"
+      },
+      "options": ["so", "It", "match", "canceled", "the", "was", "rained"],
+      "answer": ["It", "rained", "so", "the", "match", "was", "canceled"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "I suggest we ___ a short break.",
+      "question_translation": {
+        "Hindi": "मैं सुझाव देता हूँ कि हम एक छोटा ब्रेक ___।",
+        "Japanese": "私は短い休憩を___ことを提案します。"
+      },
+      "options": ["take", "took", "taking"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker say?",
+      "audio_text": "The problem is we don’t have enough time.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या कहा?",
+        "Japanese": "話者は何と言いましたか？"
+      },
+      "options": [
+        "The problem is we don’t have enough time.",
+        "The solution is we don’t have enough time.",
+        "The effect is we don’t have enough time."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What solution was given?",
+      "audio_text": "The solution is better planning.",
+      "question_translation": {
+        "Hindi": "कौन सा समाधान दिया गया?",
+        "Japanese": "どんな解決策が言われましたか？"
+      },
+      "options": ["Better planning", "More problems", "No solution"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Why were they late?",
+      "audio_text": "We were late because the bus broke down.",
+      "question_translation": {
+        "Hindi": "वे देर से क्यों पहुँचे?",
+        "Japanese": "なぜ彼らは遅れましたか？"
+      },
+      "options": ["Because the bus broke down", "Because they slept", "Because of rain"],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What happened because it rained?",
+      "audio_text": "It rained, so the match was canceled.",
+      "question_translation": {
+        "Hindi": "बारिश होने के कारण क्या हुआ?",
+        "Japanese": "雨が降ったので何が起こりましたか？"
+      },
+      "options": ["The match was canceled", "The bus broke down", "They took a break"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What suggestion did the speaker make?",
+      "audio_text": "I suggest we talk to the teacher.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या सुझाव दिया?",
+        "Japanese": "話者はどんな提案をしましたか？"
+      },
+      "options": ["Talk to the teacher", "Take a break", "Fix the computer"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The problem is we don’t have enough time.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The problem is we don’t have enough time.'",
+        "Japanese": "言ってください: 'The problem is we don’t have enough time.'"
+      },
+      "options": [],
+      "answer": "the problem is we don’t have enough time"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The solution is better planning.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The solution is better planning.'",
+        "Japanese": "言ってください: 'The solution is better planning.'"
+      },
+      "options": [],
+      "answer": "the solution is better planning"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'We were late because the bus broke down.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We were late because the bus broke down.'",
+        "Japanese": "言ってください: 'We were late because the bus broke down.'"
+      },
+      "options": [],
+      "answer": "we were late because the bus broke down"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'It rained, so the match was canceled.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It rained, so the match was canceled.'",
+        "Japanese": "言ってください: 'It rained, so the match was canceled.'"
+      },
+      "options": [],
+      "answer": "it rained so the match was canceled"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I suggest we talk to the teacher.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I suggest we talk to the teacher.'",
+        "Japanese": "言ってください: 'I suggest we talk to the teacher.'"
+      },
+      "options": [],
+      "answer": "i suggest we talk to the teacher"
+    }
+  ]
+}
+
 }

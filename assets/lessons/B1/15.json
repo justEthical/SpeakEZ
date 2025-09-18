@@ -1,4 +1,456 @@
 {
-  "id": 15,
-  "message": "This is file number 15"
+  "id": "lesson_describing_process_b1",
+  "lesson_name": "Describing a Process (How to…)",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Process",
+        "word_translation": {
+          "Hindi": "प्रक्रिया",
+          "Japanese": "プロセス"
+        },
+        "meaning": "A series of actions to achieve something",
+        "meaning_translation": {
+          "Hindi": "कुछ प्राप्त करने के लिए किए गए कार्यों की श्रृंखला",
+          "Japanese": "何かを達成するための一連の行動"
+        },
+        "examples": [
+          {
+            "sentence": "The process of baking a cake takes time.",
+            "translation": {
+              "Hindi": "केक बनाने की प्रक्रिया में समय लगता है।",
+              "Japanese": "ケーキを焼くプロセスには時間がかかります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Step",
+        "word_translation": {
+          "Hindi": "कदम",
+          "Japanese": "ステップ"
+        },
+        "meaning": "One part of a process",
+        "meaning_translation": {
+          "Hindi": "प्रक्रिया का एक हिस्सा",
+          "Japanese": "プロセスの一部"
+        },
+        "examples": [
+          {
+            "sentence": "The first step is to mix the ingredients.",
+            "translation": {
+              "Hindi": "पहला कदम है सामग्री को मिलाना।",
+              "Japanese": "最初のステップは材料を混ぜることです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Instruction",
+        "word_translation": {
+          "Hindi": "निर्देश",
+          "Japanese": "指示"
+        },
+        "meaning": "Information that tells you what to do",
+        "meaning_translation": {
+          "Hindi": "जानकारी जो आपको बताती है कि क्या करना है",
+          "Japanese": "何をするべきかを教える情報"
+        },
+        "examples": [
+          {
+            "sentence": "Follow the instructions carefully.",
+            "translation": {
+              "Hindi": "निर्देशों का ध्यान से पालन करें।",
+              "Japanese": "指示に注意深く従ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Method",
+        "word_translation": {
+          "Hindi": "तरीका",
+          "Japanese": "方法"
+        },
+        "meaning": "A particular way of doing something",
+        "meaning_translation": {
+          "Hindi": "कुछ करने का विशेष तरीका",
+          "Japanese": "何かをする特定のやり方"
+        },
+        "examples": [
+          {
+            "sentence": "This is a simple method for solving the problem.",
+            "translation": {
+              "Hindi": "यह समस्या को हल करने का एक आसान तरीका है।",
+              "Japanese": "これは問題を解決する簡単な方法です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Sequence",
+        "word_translation": {
+          "Hindi": "क्रम",
+          "Japanese": "順序"
+        },
+        "meaning": "The order in which things happen",
+        "meaning_translation": {
+          "Hindi": "वह क्रम जिसमें चीजें होती हैं",
+          "Japanese": "物事が起こる順序"
+        },
+        "examples": [
+          {
+            "sentence": "The steps must be done in the correct sequence.",
+            "translation": {
+              "Hindi": "कदम सही क्रम में किए जाने चाहिए।",
+              "Japanese": "手順は正しい順序で行う必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Explain",
+        "word_translation": {
+          "Hindi": "समझाना",
+          "Japanese": "説明する"
+        },
+        "meaning": "To make something clear so others understand",
+        "meaning_translation": {
+          "Hindi": "कुछ स्पष्ट करना ताकि दूसरे समझ सकें",
+          "Japanese": "他の人が理解できるようにすること"
+        },
+        "examples": [
+          {
+            "sentence": "She explained how to use the app.",
+            "translation": {
+              "Hindi": "उसने बताया कि ऐप कैसे इस्तेमाल करना है।",
+              "Japanese": "彼女はアプリの使い方を説明しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Tool",
+        "word_translation": {
+          "Hindi": "औज़ार",
+          "Japanese": "道具"
+        },
+        "meaning": "An object used to do a task",
+        "meaning_translation": {
+          "Hindi": "कोई काम करने के लिए इस्तेमाल की जाने वाली वस्तु",
+          "Japanese": "作業を行うために使うもの"
+        },
+        "examples": [
+          {
+            "sentence": "You need the right tools to fix the chair.",
+            "translation": {
+              "Hindi": "कुर्सी ठीक करने के लिए आपको सही औज़ार चाहिए।",
+              "Japanese": "椅子を直すには正しい道具が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Result",
+        "word_translation": {
+          "Hindi": "परिणाम",
+          "Japanese": "結果"
+        },
+        "meaning": "What happens at the end of a process",
+        "meaning_translation": {
+          "Hindi": "प्रक्रिया के अंत में जो होता है",
+          "Japanese": "プロセスの最後に起こること"
+        },
+        "examples": [
+          {
+            "sentence": "The result of the process was a delicious cake.",
+            "translation": {
+              "Hindi": "प्रक्रिया का परिणाम एक स्वादिष्ट केक था।",
+              "Japanese": "プロセスの結果はおいしいケーキでした。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Starting with 'First…'",
+        "explanation": "Say 'First…' to begin describing a process. Example: First, boil the water.",
+        "explanation_translation": {
+          "Hindi": "'First…' कहकर प्रक्रिया की शुरुआत करें। उदाहरण: First, boil the water.",
+          "Japanese": "プロセスを始めるとき「First…」を使います。例: First, boil the water."
+        }
+      },
+      {
+        "title": "Using 'Then…'",
+        "explanation": "Say 'Then…' to describe the next step. Example: Then, add the sugar.",
+        "explanation_translation": {
+          "Hindi": "अगले कदम के लिए 'Then…' कहें। उदाहरण: Then, add the sugar.",
+          "Japanese": "次のステップを言うとき「Then…」を使います。例: Then, add the sugar."
+        }
+      },
+      {
+        "title": "Using 'After that…'",
+        "explanation": "Say 'After that…' for another step in the process. Example: After that, mix everything well.",
+        "explanation_translation": {
+          "Hindi": "किसी और कदम के लिए 'After that…' कहें। उदाहरण: After that, mix everything well.",
+          "Japanese": "別のステップを言うとき「After that…」を使います。例: After that, mix everything well."
+        }
+      },
+      {
+        "title": "Using 'Finally…'",
+        "explanation": "Say 'Finally…' to describe the last step. Example: Finally, bake the cake.",
+        "explanation_translation": {
+          "Hindi": "अंतिम कदम के लिए 'Finally…' कहें। उदाहरण: Finally, bake the cake.",
+          "Japanese": "最後のステップを言うとき「Finally…」を使います。例: Finally, bake the cake."
+        }
+      },
+      {
+        "title": "Explaining with 'This results in…'",
+        "explanation": "Say 'This results in…' to describe the outcome. Example: This results in a tasty meal.",
+        "explanation_translation": {
+          "Hindi": "परिणाम बताने के लिए 'This results in…' कहें। उदाहरण: This results in a tasty meal.",
+          "Japanese": "結果を言うとき「This results in…」を使います。例: This results in a tasty meal."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a series of actions to achieve something'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'कुछ प्राप्त करने के लिए किए गए कार्यों की श्रृंखला' का अर्थ है?",
+        "Japanese": "「何かを達成するための一連の行動」という意味の単語はどれですか？"
+      },
+      "options": ["Step", "Process", "Method"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "multipleChoice",
+      "question": "Which word means 'the order in which things happen'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'वह क्रम जिसमें चीजें होती हैं' का अर्थ है?",
+        "Japanese": "「物事が起こる順序」という意味の単語はどれですか？"
+      },
+      "options": ["Sequence", "Instruction", "Result"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "The first ___ is to wash your hands.",
+      "question_translation": {
+        "Hindi": "पहला ___ है अपने हाथ धोना।",
+        "Japanese": "最初の___は手を洗うことです。"
+      },
+      "options": ["method", "step", "tool"],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "trueFalse",
+      "question": "Instruction means information that tells you what to do.",
+      "question_translation": {
+        "Hindi": "Instruction का अर्थ है वह जानकारी जो आपको बताती है कि क्या करना है।",
+        "Japanese": "Instruction は何をするべきかを教える情報という意味です。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which word means 'what happens at the end of a process'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'प्रक्रिया के अंत में जो होता है' का अर्थ है?",
+        "Japanese": "「プロセスの最後に起こること」という意味の単語はどれですか？"
+      },
+      "options": ["Explain", "Result", "Tool"],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "___, boil the water.",
+      "question_translation": {
+        "Hindi": "___, पानी उबालें।",
+        "Japanese": "___、水を沸かします。"
+      },
+      "options": ["First", "After that", "Finally"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "___, add the sugar.",
+      "question_translation": {
+        "Hindi": "___, चीनी डालें।",
+        "Japanese": "___、砂糖を加えます。"
+      },
+      "options": ["Then", "Result", "Explain"],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [the, After, mix, that, ingredients]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [the, After, mix, that, ingredients]",
+        "Japanese": "並べ替え: [the, After, mix, that, ingredients]"
+      },
+      "options": ["the", "After", "mix", "that", "ingredients"],
+      "answer": ["After", "that", "mix", "the", "ingredients"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [cake, Finally, bake, the]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [cake, Finally, bake, the]",
+        "Japanese": "並べ替え: [cake, Finally, bake, the]"
+      },
+      "options": ["cake", "Finally", "bake", "the"],
+      "answer": ["Finally", "bake", "the", "cake"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "This ___ in a tasty meal.",
+      "question_translation": {
+        "Hindi": "यह एक स्वादिष्ट भोजन में ___।",
+        "Japanese": "これはおいしい食事に___。"
+      },
+      "options": ["tools", "results", "steps"],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What was the first step?",
+      "audio_text": "First, wash the vegetables carefully.",
+      "question_translation": {
+        "Hindi": "पहला कदम क्या था?",
+        "Japanese": "最初のステップは何でしたか？"
+      },
+      "options": ["Wash the vegetables", "Boil the water", "Add the rice"],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What happened after boiling the water?",
+      "audio_text": "Then, add the pasta.",
+      "question_translation": {
+        "Hindi": "पानी उबालने के बाद क्या हुआ?",
+        "Japanese": "水を沸かした後に何をしましたか？"
+      },
+      "options": ["Add the pasta", "Mix the ingredients", "Bake the cake"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What step came after mixing?",
+      "audio_text": "After that, pour the mixture into a pan.",
+      "question_translation": {
+        "Hindi": "मिलाने के बाद कौन सा कदम आया?",
+        "Japanese": "混ぜた後に何をしましたか？"
+      },
+      "options": ["Pour into a pan", "Bake the cake", "Wash the vegetables"],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What was the last step?",
+      "audio_text": "Finally, bake the cake for 30 minutes.",
+      "question_translation": {
+        "Hindi": "अंतिम कदम क्या था?",
+        "Japanese": "最後のステップは何でしたか？"
+      },
+      "options": ["Bake the cake", "Add sugar", "Boil the water"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What was the result?",
+      "audio_text": "This results in a delicious cake.",
+      "question_translation": {
+        "Hindi": "परिणाम क्या था?",
+        "Japanese": "結果は何でしたか？"
+      },
+      "options": ["A delicious cake", "A tasty meal", "A clean kitchen"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'First, boil the water.'",
+      "question_translation": {
+        "Hindi": "कहें: 'First, boil the water.'",
+        "Japanese": "言ってください: 'First, boil the water.'"
+      },
+      "options": [],
+      "answer": "first boil the water"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Then, add the sugar.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Then, add the sugar.'",
+        "Japanese": "言ってください: 'Then, add the sugar.'"
+      },
+      "options": [],
+      "answer": "then add the sugar"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'After that, mix everything well.'",
+      "question_translation": {
+        "Hindi": "कहें: 'After that, mix everything well.'",
+        "Japanese": "言ってください: 'After that, mix everything well.'"
+      },
+      "options": [],
+      "answer": "after that mix everything well"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Finally, bake the cake.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Finally, bake the cake.'",
+        "Japanese": "言ってください: 'Finally, bake the cake.'"
+      },
+      "options": [],
+      "answer": "finally bake the cake"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'This results in a tasty meal.'",
+      "question_translation": {
+        "Hindi": "कहें: 'This results in a tasty meal.'",
+        "Japanese": "言ってください: 'This results in a tasty meal.'"
+      },
+      "options": [],
+      "answer": "this results in a tasty meal"
+    }
+  ]
+}
+
 }

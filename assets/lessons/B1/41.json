@@ -1,4 +1,520 @@
 {
-  "id": 41,
-  "message": "This is file number 41"
+  "id": "lesson_comparisons_001",
+  "lesson_name": "Making Comparisons (people, places, things)",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "similar",
+        "word_translation": {
+          "Hindi": "समान",
+          "Japanese": "似ている"
+        },
+        "meaning": "Having qualities in common; alike",
+        "meaning_translation": {
+          "Hindi": "समान गुण होना; एक जैसा",
+          "Japanese": "共通の特徴を持つこと、似ていること"
+        },
+        "examples": [
+          {
+            "sentence": "These two cities are similar in size.",
+            "translation": {
+              "Hindi": "ये दोनों शहर आकार में समान हैं।",
+              "Japanese": "この二つの都市は大きさが似ています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "different",
+        "word_translation": {
+          "Hindi": "अलग",
+          "Japanese": "違う"
+        },
+        "meaning": "Not the same as another",
+        "meaning_translation": {
+          "Hindi": "दूसरे से समान नहीं",
+          "Japanese": "他のものと同じではないこと"
+        },
+        "examples": [
+          {
+            "sentence": "Her opinion is different from mine.",
+            "translation": {
+              "Hindi": "उसकी राय मेरी राय से अलग है।",
+              "Japanese": "彼女の意見は私の意見と違います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bigger",
+        "word_translation": {
+          "Hindi": "बड़ा",
+          "Japanese": "大きい"
+        },
+        "meaning": "Comparative form of 'big'; more large",
+        "meaning_translation": {
+          "Hindi": "'बड़ा' का तुलनात्मक रूप; अधिक बड़ा",
+          "Japanese": "「big」の比較級、より大きいこと"
+        },
+        "examples": [
+          {
+            "sentence": "My house is bigger than yours.",
+            "translation": {
+              "Hindi": "मेरा घर तुम्हारे घर से बड़ा है।",
+              "Japanese": "私の家はあなたの家より大きいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "smaller",
+        "word_translation": {
+          "Hindi": "छोटा",
+          "Japanese": "小さい"
+        },
+        "meaning": "Comparative form of 'small'; less large",
+        "meaning_translation": {
+          "Hindi": "'छोटा' का तुलनात्मक रूप; अधिक छोटा",
+          "Japanese": "「small」の比較級、より小さいこと"
+        },
+        "examples": [
+          {
+            "sentence": "This phone is smaller than the old one.",
+            "translation": {
+              "Hindi": "यह फोन पुराने वाले से छोटा है।",
+              "Japanese": "この携帯電話は古いものより小さいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cheaper",
+        "word_translation": {
+          "Hindi": "सस्ता",
+          "Japanese": "安い"
+        },
+        "meaning": "Comparative form of 'cheap'; costing less",
+        "meaning_translation": {
+          "Hindi": "'सस्ता' का तुलनात्मक रूप; कम लागत वाला",
+          "Japanese": "「cheap」の比較級、より安いこと"
+        },
+        "examples": [
+          {
+            "sentence": "This shirt is cheaper than that one.",
+            "translation": {
+              "Hindi": "यह शर्ट उस शर्ट से सस्ती है।",
+              "Japanese": "このシャツはあのシャツより安いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "more interesting",
+        "word_translation": {
+          "Hindi": "और अधिक रोचक",
+          "Japanese": "もっと面白い"
+        },
+        "meaning": "Something that catches your attention more",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो आपका ध्यान अधिक आकर्षित करता है",
+          "Japanese": "より注意を引くもの"
+        },
+        "examples": [
+          {
+            "sentence": "This book is more interesting than the film.",
+            "translation": {
+              "Hindi": "यह किताब फिल्म से अधिक रोचक है।",
+              "Japanese": "この本は映画より面白いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "as...as",
+        "word_translation": {
+          "Hindi": "जितना...उतना",
+          "Japanese": "～と同じくらい"
+        },
+        "meaning": "Used to say two things are equal in some way",
+        "meaning_translation": {
+          "Hindi": "यह बताने के लिए उपयोग किया जाता है कि दो चीजें किसी तरह से समान हैं",
+          "Japanese": "二つのものがある点で同じであることを示す"
+        },
+        "examples": [
+          {
+            "sentence": "She is as tall as her brother.",
+            "translation": {
+              "Hindi": "वह अपने भाई जितनी लंबी है।",
+              "Japanese": "彼女は兄と同じくらい背が高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "than",
+        "word_translation": {
+          "Hindi": "से",
+          "Japanese": "より"
+        },
+        "meaning": "Used to compare two things",
+        "meaning_translation": {
+          "Hindi": "दो चीज़ों की तुलना करने के लिए उपयोग होता है",
+          "Japanese": "二つのものを比較するときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Tokyo is bigger than Kyoto.",
+            "translation": {
+              "Hindi": "टोक्यो क्योटो से बड़ा है।",
+              "Japanese": "東京は京都より大きいです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Comparative adjectives",
+        "explanation": "We add '-er' or use 'more' to compare two things. Example: taller, smaller, more expensive.",
+        "explanation_translation": {
+          "Hindi": "हम दो चीजों की तुलना करने के लिए '-er' जोड़ते हैं या 'more' का उपयोग करते हैं। उदाहरण: taller, smaller, more expensive.",
+          "Japanese": "二つのものを比較するために「-er」を付けたり「more」を使います。例: taller, smaller, more expensive."
+        }
+      },
+      {
+        "title": "Superlative adjectives",
+        "explanation": "We use '-est' or 'most' to show the highest degree. Example: tallest, smallest, most beautiful.",
+        "explanation_translation": {
+          "Hindi": "हम सर्वोच्च डिग्री दिखाने के लिए '-est' या 'most' का उपयोग करते हैं। उदाहरण: tallest, smallest, most beautiful.",
+          "Japanese": "最上級を示すために「-est」や「most」を使います。例: tallest, smallest, most beautiful."
+        }
+      },
+      {
+        "title": "Using 'as...as'",
+        "explanation": "We use 'as + adjective + as' to show equality. Example: He is as smart as his friend.",
+        "explanation_translation": {
+          "Hindi": "हम समानता दिखाने के लिए 'as + adjective + as' का उपयोग करते हैं। उदाहरण: He is as smart as his friend.",
+          "Japanese": "「as + 形容詞 + as」で同等であることを示します。例: He is as smart as his friend."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'having qualities in common'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'समान गुण होना' का अर्थ है?",
+          "Japanese": "「共通の特徴を持つ」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "similar",
+          "different",
+          "bigger"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "My house is ___ than yours.",
+        "question_translation": {
+          "Hindi": "मेरा घर तुम्हारे घर से ___ है।",
+          "Japanese": "私の家はあなたの家より___です。"
+        },
+        "options": [
+          "smaller",
+          "bigger",
+          "different"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "‘Than’ is used to compare two things.",
+        "question_translation": {
+          "Hindi": "'Than' का उपयोग दो चीजों की तुलना करने के लिए किया जाता है।",
+          "Japanese": "「Than」は二つのものを比較するのに使います。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which phrase shows equality between two things?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश दो चीज़ों के बीच समानता दिखाता है?",
+          "Japanese": "二つのものの間の平等を示すフレーズはどれですか？"
+        },
+        "options": [
+          "as...as",
+          "than",
+          "cheaper"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "This book is ___ interesting than the film.",
+        "question_translation": {
+          "Hindi": "यह किताब फिल्म से ___ रोचक है।",
+          "Japanese": "この本は映画より___面白いです。"
+        },
+        "options": [
+          "more",
+          "most",
+          "as"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [my, is, car, than, faster, yours]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [my, is, car, than, faster, yours]",
+          "Japanese": "並べ替え: [my, is, car, than, faster, yours]"
+        },
+        "options": [
+          "my",
+          "is",
+          "car",
+          "than",
+          "faster",
+          "yours"
+        ],
+        "answer": [
+          "my",
+          "car",
+          "is",
+          "faster",
+          "than",
+          "yours"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She is as tall ___ her brother.",
+        "question_translation": {
+          "Hindi": "वह अपने भाई जितनी लंबी ___।",
+          "Japanese": "彼女は兄と同じくらい背が高い___。"
+        },
+        "options": [
+          "as",
+          "than",
+          "more"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "My phone is more small than yours.",
+          "My phone is smaller than yours.",
+          "My phone smaller is than yours."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [interesting, is, this, than, more, movie, book]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [interesting, is, this, than, more, movie, book]",
+          "Japanese": "並べ替え: [interesting, is, this, than, more, movie, book]"
+        },
+        "options": [
+          "interesting",
+          "is",
+          "this",
+          "than",
+          "more",
+          "movie",
+          "book"
+        ],
+        "answer": [
+          "this",
+          "book",
+          "is",
+          "more",
+          "interesting",
+          "than",
+          "movie"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "This shirt is ___ than that one.",
+        "question_translation": {
+          "Hindi": "यह शर्ट उस शर्ट से ___ है।",
+          "Japanese": "このシャツはあのシャツより___です。"
+        },
+        "options": [
+          "cheaper",
+          "different",
+          "similar"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What comparison does the speaker make?",
+        "audio_text": "New York is bigger than Boston.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी तुलना करता है?",
+          "Japanese": "話者はどんな比較をしていますか？"
+        },
+        "options": [
+          "New York is bigger",
+          "Boston is bigger",
+          "They are the same size"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says two cities are similar.",
+        "audio_text": "These two cities are similar in culture.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि दो शहर संस्कृति में समान हैं।",
+          "Japanese": "話者はこの二つの都市は文化的に似ていると言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is more interesting according to the speaker?",
+        "audio_text": "This documentary is more interesting than the movie.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार क्या अधिक रोचक है?",
+          "Japanese": "話者によると、どちらがより面白いですか？"
+        },
+        "options": [
+          "The movie",
+          "The documentary",
+          "Both are the same"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who is taller?",
+        "audio_text": "My brother is taller than me.",
+        "question_translation": {
+          "Hindi": "कौन लंबा है?",
+          "Japanese": "誰の方が背が高いですか？"
+        },
+        "options": [
+          "The speaker",
+          "The brother",
+          "Both are equal"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says the new phone is cheaper.",
+        "audio_text": "This new phone is cheaper than the old one.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि नया फोन सस्ता है।",
+          "Japanese": "話者は新しい携帯電話は安いと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My house is bigger than yours.'",
+        "question_translation": {
+          "Hindi": "कहें: 'My house is bigger than yours.'",
+          "Japanese": "言ってください: 'My house is bigger than yours.'"
+        },
+        "options": [],
+        "answer": "my house is bigger than yours"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'This phone is smaller than the old one.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This phone is smaller than the old one.'",
+          "Japanese": "言ってください: 'This phone is smaller than the old one.'"
+        },
+        "options": [],
+        "answer": "this phone is smaller than the old one"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She is as tall as her brother.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She is as tall as her brother.'",
+          "Japanese": "言ってください: 'She is as tall as her brother.'"
+        },
+        "options": [],
+        "answer": "she is as tall as her brother"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'This book is more interesting than the film.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This book is more interesting than the film.'",
+          "Japanese": "言ってください: 'This book is more interesting than the film.'"
+        },
+        "options": [],
+        "answer": "this book is more interesting than the film"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Tokyo is bigger than Kyoto.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Tokyo is bigger than Kyoto.'",
+          "Japanese": "言ってください: 'Tokyo is bigger than Kyoto.'"
+        },
+        "options": [],
+        "answer": "tokyo is bigger than kyoto"
+      }
+    ]
+  }
+
+
 }

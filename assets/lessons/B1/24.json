@@ -1,4 +1,526 @@
 {
-  "id": 24,
-  "message": "This is file number 24"
+  "id": "lesson_describing_accommodation_001",
+  "lesson_name": "Describing Accommodation (houses, apartments)",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "apartment",
+        "word_translation": {
+          "Hindi": "फ्लैट/अपार्टमेंट",
+          "Japanese": "アパート"
+        },
+        "meaning": "A set of rooms in a building for someone to live in",
+        "meaning_translation": {
+          "Hindi": "एक इमारत में रहने के लिए बनाए गए कमरों का सेट",
+          "Japanese": "建物内にある住むための部屋の集まり"
+        },
+        "examples": [
+          {
+            "sentence": "She lives in a small apartment in the city.",
+            "translation": {
+              "Hindi": "वह शहर में एक छोटे अपार्टमेंट में रहती है।",
+              "Japanese": "彼女は街の小さなアパートに住んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "balcony",
+        "word_translation": {
+          "Hindi": "बालकनी",
+          "Japanese": "バルコニー"
+        },
+        "meaning": "A platform with a railing outside a room",
+        "meaning_translation": {
+          "Hindi": "कमरे के बाहर रेलिंग वाला प्लेटफार्म",
+          "Japanese": "部屋の外にある手すり付きの台"
+        },
+        "examples": [
+          {
+            "sentence": "The apartment has a balcony with a great view.",
+            "translation": {
+              "Hindi": "उस अपार्टमेंट में शानदार दृश्य वाली बालकनी है।",
+              "Japanese": "そのアパートには素晴らしい眺めのバルコニーがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "furniture",
+        "word_translation": {
+          "Hindi": "फर्नीचर",
+          "Japanese": "家具"
+        },
+        "meaning": "Objects like tables, chairs, or beds used in a house",
+        "meaning_translation": {
+          "Hindi": "वस्तुएं जैसे टेबल, कुर्सियां या बिस्तर जो घर में उपयोग होते हैं",
+          "Japanese": "家で使う机、椅子、ベッドなどの物"
+        },
+        "examples": [
+          {
+            "sentence": "The living room has modern furniture.",
+            "translation": {
+              "Hindi": "बैठक कक्ष में आधुनिक फर्नीचर है।",
+              "Japanese": "リビングにはモダンな家具があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rent",
+        "word_translation": {
+          "Hindi": "किराया",
+          "Japanese": "家賃"
+        },
+        "meaning": "The money you pay to live in a house or apartment",
+        "meaning_translation": {
+          "Hindi": "वह पैसा जो आप घर या अपार्टमेंट में रहने के लिए देते हैं",
+          "Japanese": "家やアパートに住むために払うお金"
+        },
+        "examples": [
+          {
+            "sentence": "The rent is higher in the city center.",
+            "translation": {
+              "Hindi": "शहर के केंद्र में किराया अधिक है।",
+              "Japanese": "市内中心部の家賃は高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "spacious",
+        "word_translation": {
+          "Hindi": "खुला/विस्तृत",
+          "Japanese": "広々とした"
+        },
+        "meaning": "Having a lot of space inside",
+        "meaning_translation": {
+          "Hindi": "अंदर बहुत जगह होना",
+          "Japanese": "中にたくさんのスペースがあること"
+        },
+        "examples": [
+          {
+            "sentence": "Their house is spacious and comfortable.",
+            "translation": {
+              "Hindi": "उनका घर खुला और आरामदायक है।",
+              "Japanese": "彼らの家は広々として快適です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "neighborhood",
+        "word_translation": {
+          "Hindi": "पड़ोस",
+          "Japanese": "近所"
+        },
+        "meaning": "The area around where someone lives",
+        "meaning_translation": {
+          "Hindi": "वह इलाका जहाँ कोई रहता है",
+          "Japanese": "誰かが住んでいる周辺の地域"
+        },
+        "examples": [
+          {
+            "sentence": "It’s a quiet neighborhood with friendly people.",
+            "translation": {
+              "Hindi": "यह एक शांत पड़ोस है जहाँ दोस्ताना लोग रहते हैं।",
+              "Japanese": "そこは静かで親しみやすい人々が住む地域です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "move in",
+        "word_translation": {
+          "Hindi": "शिफ्ट होना",
+          "Japanese": "引っ越す"
+        },
+        "meaning": "To begin living in a new house or apartment",
+        "meaning_translation": {
+          "Hindi": "नए घर या अपार्टमेंट में रहना शुरू करना",
+          "Japanese": "新しい家やアパートに住み始めること"
+        },
+        "examples": [
+          {
+            "sentence": "They will move in next week.",
+            "translation": {
+              "Hindi": "वे अगले सप्ताह शिफ्ट होंगे।",
+              "Japanese": "彼らは来週引っ越します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "landlord",
+        "word_translation": {
+          "Hindi": "मकान मालिक",
+          "Japanese": "大家"
+        },
+        "meaning": "A person who owns a house or apartment and rents it out",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो घर या अपार्टमेंट का मालिक है और उसे किराए पर देता है",
+          "Japanese": "家やアパートを所有して貸している人"
+        },
+        "examples": [
+          {
+            "sentence": "The landlord fixed the broken window.",
+            "translation": {
+              "Hindi": "मकान मालिक ने टूटी हुई खिड़की को ठीक किया।",
+              "Japanese": "大家は壊れた窓を直しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "There is/There are",
+        "explanation": "Use 'There is' for singular and 'There are' for plural when describing rooms or features. Example: There is a balcony. There are three bedrooms.",
+        "explanation_translation": {
+          "Hindi": "एकवचन के लिए 'There is' और बहुवचन के लिए 'There are' का उपयोग करें। उदाहरण: There is a balcony. There are three bedrooms.",
+          "Japanese": "部屋や特徴を説明するとき、単数には「There is」、複数には「There are」を使います。例：There is a balcony. There are three bedrooms."
+        }
+      },
+      {
+        "title": "Has/Have for Features",
+        "explanation": "Use 'has/have' to talk about what a house or apartment includes. Example: The apartment has a big kitchen.",
+        "explanation_translation": {
+          "Hindi": "घर या अपार्टमेंट में क्या-क्या है यह बताने के लिए 'has/have' का उपयोग करें। उदाहरण: The apartment has a big kitchen.",
+          "Japanese": "家やアパートに何があるかを言うとき「has/have」を使います。例：The apartment has a big kitchen."
+        }
+      },
+      {
+        "title": "Prepositions of Place",
+        "explanation": "Use prepositions like 'next to, near, in front of' to describe location. Example: The house is near the park.",
+        "explanation_translation": {
+          "Hindi": "स्थान का वर्णन करने के लिए 'next to, near, in front of' का उपयोग करें। उदाहरण: The house is near the park.",
+          "Japanese": "場所を説明するとき「next to, near, in front of」などを使います。例：The house is near the park."
+        }
+      },
+      {
+        "title": "Adjectives for Description",
+        "explanation": "Use adjectives like 'spacious, modern, cozy' to describe accommodation. Example: It’s a modern apartment.",
+        "explanation_translation": {
+          "Hindi": "आवास का वर्णन करने के लिए 'spacious, modern, cozy' जैसे विशेषणों का उपयोग करें। उदाहरण: It’s a modern apartment.",
+          "Japanese": "住まいを説明するとき「spacious, modern, cozy」などの形容詞を使います。例：It’s a modern apartment."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a set of rooms in a building for someone to live in'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'एक इमारत में रहने के लिए बनाए गए कमरों के सेट' का अर्थ देता है?",
+          "Japanese": "「建物内にある住むための部屋の集まり」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "balcony",
+          "apartment",
+          "furniture"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The living room has modern ___.",
+        "question_translation": {
+          "Hindi": "बैठक कक्ष में आधुनिक ___ है।",
+          "Japanese": "リビングにはモダンな___があります。"
+        },
+        "options": [
+          "furniture",
+          "rent",
+          "landlord"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A landlord is the person who owns a house or apartment and rents it out.",
+        "question_translation": {
+          "Hindi": "मकान मालिक वह व्यक्ति है जो घर या अपार्टमेंट का मालिक होता है और उसे किराए पर देता है।",
+          "Japanese": "大家は家やアパートを所有して貸す人です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'the money you pay to live in a house or apartment'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'वह पैसा जो आप घर या अपार्टमेंट में रहने के लिए देते हैं' का अर्थ देता है?",
+          "Japanese": "「家やアパートに住むために払うお金」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "rent",
+          "move in",
+          "balcony"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "Their house is very ___ and comfortable.",
+        "question_translation": {
+          "Hindi": "उनका घर बहुत ___ और आरामदायक है।",
+          "Japanese": "彼らの家はとても___で快適です。"
+        },
+        "options": [
+          "spacious",
+          "tiny",
+          "broken"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, house, the, near, park, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [is, house, the, near, park, the]",
+          "Japanese": "並べ替え: [is, house, the, near, park, the]"
+        },
+        "options": [
+          "is",
+          "house",
+          "the",
+          "near",
+          "park",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "house",
+          "is",
+          "near",
+          "the",
+          "park"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "There ___ two bedrooms in the apartment.",
+        "question_translation": {
+          "Hindi": "अपार्टमेंट में दो बेडरूम ___ हैं।",
+          "Japanese": "アパートには2つの寝室___。"
+        },
+        "options": [
+          "is",
+          "are",
+          "has"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "The apartment have a balcony.",
+          "The apartment has a balcony.",
+          "The apartment are balcony."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [move, week, will, in, next, we]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [move, week, will, in, next, we]",
+          "Japanese": "並べ替え: [move, week, will, in, next, we]"
+        },
+        "options": [
+          "move",
+          "week",
+          "will",
+          "in",
+          "next",
+          "we"
+        ],
+        "answer": [
+          "we",
+          "will",
+          "move",
+          "in",
+          "next",
+          "week"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The apartment is in a quiet ___.",
+        "question_translation": {
+          "Hindi": "अपार्टमेंट एक शांत ___ में है।",
+          "Japanese": "アパートは静かな___にあります。"
+        },
+        "options": [
+          "neighborhood",
+          "balcony",
+          "furniture"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker say about the house?",
+        "audio_text": "The house is spacious and has a garden.",
+        "question_translation": {
+          "Hindi": "वक्ता घर के बारे में क्या कहता है?",
+          "Japanese": "話者は家について何と言っていますか？"
+        },
+        "options": [
+          "It is small and noisy",
+          "It is spacious and has a garden",
+          "It has no garden"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The apartment has three bedrooms.",
+        "audio_text": "The apartment has three bedrooms.",
+        "question_translation": {
+          "Hindi": "अपार्टमेंट में तीन बेडरूम हैं।",
+          "Japanese": "アパートには3つの寝室があります。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What did the landlord do?",
+        "audio_text": "The landlord fixed the broken window.",
+        "question_translation": {
+          "Hindi": "मकान मालिक ने क्या किया?",
+          "Japanese": "大家は何をしましたか？"
+        },
+        "options": [
+          "He painted the house",
+          "He fixed the broken window",
+          "He cleaned the balcony"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The rent is cheaper in the city center.",
+        "audio_text": "The rent is higher in the city center.",
+        "question_translation": {
+          "Hindi": "शहर के केंद्र में किराया सस्ता है।",
+          "Japanese": "市内中心部の家賃は安いです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "When will they move in?",
+        "audio_text": "They will move in next week.",
+        "question_translation": {
+          "Hindi": "वे कब शिफ्ट होंगे?",
+          "Japanese": "彼らはいつ引っ越しますか？"
+        },
+        "options": [
+          "This week",
+          "Next week",
+          "Last week"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The apartment has a big kitchen.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The apartment has a big kitchen.'",
+          "Japanese": "言ってください: 'The apartment has a big kitchen.'"
+        },
+        "options": [],
+        "answer": "the apartment has a big kitchen"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'There are two bathrooms in the house.'",
+        "question_translation": {
+          "Hindi": "कहें: 'There are two bathrooms in the house.'",
+          "Japanese": "言ってください: 'There are two bathrooms in the house.'"
+        },
+        "options": [],
+        "answer": "there are two bathrooms in the house"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We live in a quiet neighborhood.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We live in a quiet neighborhood.'",
+          "Japanese": "言ってください: 'We live in a quiet neighborhood.'"
+        },
+        "options": [],
+        "answer": "we live in a quiet neighborhood"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The landlord is very helpful.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The landlord is very helpful.'",
+          "Japanese": "言ってください: 'The landlord is very helpful.'"
+        },
+        "options": [],
+        "answer": "the landlord is very helpful"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We will move in next week.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We will move in next week.'",
+          "Japanese": "言ってください: 'We will move in next week.'"
+        },
+        "options": [],
+        "answer": "we will move in next week"
+      }
+    ]
+  }
+
+
 }

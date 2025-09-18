@@ -5,32 +5,200 @@
   "cefrLevel": "B1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "subject", "meaning": "a topic studied at school or college" },
-      { "word": "exam", "meaning": "a formal test" },
-      { "word": "degree", "meaning": "a qualification from a university" },
-      { "word": "assignment", "meaning": "work given by a teacher to be done at home" },
-      { "word": "lecture", "meaning": "a talk given to students" },
-      { "word": "research", "meaning": "to study something in detail" },
-      { "word": "enroll", "meaning": "to officially join a course or school" },
-      { "word": "graduate", "meaning": "to finish school or university successfully" },
-      { "word": "semester", "meaning": "half of a school or university year" },
-      { "word": "presentation", "meaning": "a talk about a topic, often in class" }
+      {
+        "word": "degree",
+        "word_translation": {
+          "Hindi": "डिग्री",
+          "Japanese": "学位"
+        },
+        "meaning": "A qualification awarded by a university or college after completing a course of study",
+        "meaning_translation": {
+          "Hindi": "अध्ययन का एक कोर्स पूरा करने के बाद विश्वविद्यालय या कॉलेज द्वारा दी जाने वाली योग्यता",
+          "Japanese": "大学や短大で学習コースを修了した後に授与される資格"
+        },
+        "examples": [
+          {
+            "sentence": "She has a degree in business administration.",
+            "translation": {
+              "Hindi": "उसके पास बिजनेस एडमिनिस्ट्रेशन में डिग्री है।",
+              "Japanese": "彼女は経営管理の学位を持っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "curriculum",
+        "word_translation": {
+          "Hindi": "पाठ्यक्रम",
+          "Japanese": "カリキュラム"
+        },
+        "meaning": "The subjects and courses taught in a school or college",
+        "meaning_translation": {
+          "Hindi": "स्कूल या कॉलेज में पढ़ाए जाने वाले विषय और कोर्स",
+          "Japanese": "学校や大学で教えられる科目とコース"
+        },
+        "examples": [
+          {
+            "sentence": "The curriculum includes both theoretical and practical subjects.",
+            "translation": {
+              "Hindi": "पाठ्यक्रम में सैद्धांतिक और व्यावहारिक दोनों विषय शामिल हैं।",
+              "Japanese": "カリキュラムには理論的科目と実践的科目の両方が含まれています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "scholarship",
+        "word_translation": {
+          "Hindi": "छात्रवृत्ति",
+          "Japanese": "奨学金"
+        },
+        "meaning": "Money given to students to help pay for their education",
+        "meaning_translation": {
+          "Hindi": "छात्रों को उनकी शिक्षा के लिए भुगतान में मदद करने के लिए दिया गया पैसा",
+          "Japanese": "学生が教育費を払うのを助けるために与えられるお金"
+        },
+        "examples": [
+          {
+            "sentence": "He received a scholarship to study at Harvard University.",
+            "translation": {
+              "Hindi": "उसे हार्वर्ड विश्वविद्यालय में अध्ययन करने के लिए छात्रवृत्ति मिली।",
+              "Japanese": "彼はハーバード大学で学ぶための奨学金を受けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assignment",
+        "word_translation": {
+          "Hindi": "असाइनमेंट",
+          "Japanese": "課題"
+        },
+        "meaning": "A task or piece of work given to students as part of their studies",
+        "meaning_translation": {
+          "Hindi": "छात्रों को उनके अध्ययन के हिस्से के रूप में दिया गया कार्य या काम",
+          "Japanese": "学習の一部として学生に与えられる課題や作業"
+        },
+        "examples": [
+          {
+            "sentence": "I have to submit my assignment by Friday.",
+            "translation": {
+              "Hindi": "मुझे शुक्रवार तक अपना असाइनमेंट जमा करना है।",
+              "Japanese": "金曜日までに課題を提出しなければなりません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "semester",
+        "word_translation": {
+          "Hindi": "सेमेस्टर",
+          "Japanese": "学期"
+        },
+        "meaning": "Half of an academic year, typically lasting about 4-5 months",
+        "meaning_translation": {
+          "Hindi": "शैक्षणिक वर्ष का आधा हिस्सा, आमतौर पर लगभग 4-5 महीने तक चलता है",
+          "Japanese": "学年の半分、通常約4-5ヶ月続く期間"
+        },
+        "examples": [
+          {
+            "sentence": "This semester I'm taking five different courses.",
+            "translation": {
+              "Hindi": "इस सेमेस्टर में मैं पांच अलग-अलग कोर्स ले रहा हूं।",
+              "Japanese": "今学期は5つの異なるコースを取っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "research",
+        "word_translation": {
+          "Hindi": "अनुसंधान",
+          "Japanese": "研究"
+        },
+        "meaning": "A detailed study of a subject to discover new information",
+        "meaning_translation": {
+          "Hindi": "नई जानकारी खोजने के लिए किसी विषय का विस्तृत अध्ययन",
+          "Japanese": "新しい情報を発見するための主題の詳細な研究"
+        },
+        "examples": [
+          {
+            "sentence": "She is doing research on climate change.",
+            "translation": {
+              "Hindi": "वह जलवायु परिवर्तन पर अनुसंधान कर रही है।",
+              "Japanese": "彼女は気候変動について研究をしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "graduation",
+        "word_translation": {
+          "Hindi": "स्नातक",
+          "Japanese": "卒業"
+        },
+        "meaning": "The ceremony at which degrees or diplomas are awarded",
+        "meaning_translation": {
+          "Hindi": "वह समारोह जिसमें डिग्री या डिप्लोमा दिए जाते हैं",
+          "Japanese": "学位や卒業証書が授与される式典"
+        },
+        "examples": [
+          {
+            "sentence": "My graduation ceremony will be held next month.",
+            "translation": {
+              "Hindi": "मेरा स्नातक समारोह अगले महीने होगा।",
+              "Japanese": "私の卒業式は来月行われます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tuition",
+        "word_translation": {
+          "Hindi": "शिक्षण शुल्क",
+          "Japanese": "授業料"
+        },
+        "meaning": "Money paid to a school or college for teaching",
+        "meaning_translation": {
+          "Hindi": "शिक्षण के लिए स्कूल या कॉलेज को दिया जाने वाला पैसा",
+          "Japanese": "学校や大学に教育のために支払われるお金"
+        },
+        "examples": [
+          {
+            "sentence": "The tuition fees have increased this year.",
+            "translation": {
+              "Hindi": "इस साल शिक्षण शुल्क बढ़ गया है।",
+              "Japanese": "今年授業料が上がりました。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Talking about past studies",
-        "explanation": "Use the simple past for completed studies. Example: I studied biology last year."
+        "title": "Present Perfect Continuous for Studies",
+        "explanation": "Use 'have/has been + -ing' for actions that started in the past and continue now. Example: I have been studying English for three years.",
+        "explanation_translation": {
+          "Hindi": "अतीत में शुरू हुई और अब भी जारी क्रियाओं के लिए 'have/has been + -ing' का उपयोग करें। उदाहरण: I have been studying English for three years.",
+          "Japanese": "過去に始まって今も続いている行動には「have/has been + -ing」を使います。例：I have been studying English for three years."
+        }
       },
       {
-        "title": "Present Perfect for recent achievements",
-        "explanation": "Use 'have/has + past participle' for recent events. Example: I have just finished my assignment."
+        "title": "Future Plans with 'Going to'",
+        "explanation": "Use 'going to' for future plans and intentions. Example: I'm going to major in computer science.",
+        "explanation_translation": {
+          "Hindi": "भविष्य की योजनाओं और इरादों के लिए 'going to' का उपयोग करें। उदाहरण: I'm going to major in computer science.",
+          "Japanese": "将来の計画や意図には「going to」を使います。例：I'm going to major in computer science."
+        }
+      },
+      {
+        "title": "Conditional Sentences for Academic Situations",
+        "explanation": "Use 'if' clauses to talk about possibilities. Example: If I pass the exam, I will graduate next year.",
+        "explanation_translation": {
+          "Hindi": "संभावनाओं के बारे में बात करने के लिए 'if' क्लॉज का उपयोग करें। उदाहरण: If I pass the exam, I will graduate next year.",
+          "Japanese": "可能性について話すには「if」節を使います。例：If I pass the exam, I will graduate next year."
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "I am enrolled in a degree course.", "translation": "" },
-      { "sentence": "He passed his final exam last week.", "translation": "" },
-      { "sentence": "She has completed all her assignments.", "translation": "" },
-      { "sentence": "Our teacher gave a lecture on chemistry.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -38,148 +206,315 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "Which word means 'a qualification from a university'?",
-        "options": ["lecture", "degree", "subject"],
+        "question": "What is a qualification awarded by a university called?",
+        "question_translation": {
+          "Hindi": "विश्वविद्यालय द्वारा दी जाने वाली योग्यता को क्या कहते हैं?",
+          "Japanese": "大学が授与する資格を何と呼びますか？"
+        },
+        "options": [
+          "assignment",
+          "degree",
+          "semester"
+        ],
         "answer": 1
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "A ___ is work given by a teacher to do at home.",
-        "options": ["degree", "assignment", "exam"],
-        "answer": 1
+        "question": "He received a ___ to study abroad.",
+        "question_translation": {
+          "Hindi": "उसे विदेश में अध्ययन करने के लिए ___ मिली।",
+          "Japanese": "彼は海外で学ぶための___を受けました。"
+        },
+        "options": [
+          "scholarship",
+          "assignment",
+          "semester"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means 'to officially join a course'?",
-        "options": ["graduate", "research", "enroll"],
-        "answer": 2
+        "type": "trueFalse",
+        "question": "Research means a detailed study to discover new information.",
+        "question_translation": {
+          "Hindi": "रिसर्च का मतलब नई जानकारी खोजने के लिए विस्तृत अध्ययन है।",
+          "Japanese": "研究とは新しい情報を発見するための詳細な調査を意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab4",
-        "type": "trueFalse",
-        "question": "A presentation is a talk about a topic in class.",
-        "options": ["True", "False"],
+        "type": "multipleChoice",
+        "question": "What do you call the subjects taught in a school?",
+        "question_translation": {
+          "Hindi": "स्कूल में पढ़ाए जाने वाले विषयों को आप क्या कहते हैं?",
+          "Japanese": "学校で教えられる科目を何と呼びますか？"
+        },
+        "options": [
+          "curriculum",
+          "tuition",
+          "graduation"
+        ],
         "answer": 0
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which word means 'half of a school year'?",
-        "options": ["semester", "subject", "lecture"],
+        "type": "fillInTheBlanks",
+        "question": "I need to submit my ___ before the deadline.",
+        "question_translation": {
+          "Hindi": "मुझे समय सीमा से पहले अपना ___ जमा करना होगा।",
+          "Japanese": "締切前に___を提出する必要があります。"
+        },
+        "options": [
+          "assignment",
+          "scholarship",
+          "graduation"
+        ],
         "answer": 0
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "She has ___ all her assignments.",
-        "options": ["completed", "enrolled", "graduated"],
-        "answer": 0
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, studying, been, I, English, for, years, three]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [have, studying, been, I, English, for, years, three]",
+          "Japanese": "並べ替え: [have, studying, been, I, English, for, years, three]"
+        },
+        "options": [
+          "have",
+          "studying",
+          "been",
+          "I",
+          "English",
+          "for",
+          "years",
+          "three"
+        ],
+        "answer": [
+          "I",
+          "have",
+          "been",
+          "studying",
+          "English",
+          "for",
+          "three",
+          "years"
+        ]
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "He ___ his final exam last week.",
-        "options": ["passes", "passed", "passing"],
-        "answer": 1
-      },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [degree, in, am, a, I, enrolled, course]",
-        "options": ["degree", "in", "am", "a", "I", "enrolled", "course"],
-        "answer": ["I", "am", "enrolled", "in", "a", "degree", "course"]
-      },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "Our teacher gave a ___ on chemistry.",
-        "options": ["lecture", "semester", "research"],
+        "question": "If I ___ the exam, I will get my degree.",
+        "question_translation": {
+          "Hindi": "यदि मैं परीक्षा ___, तो मुझे अपनी डिग्री मिल जाएगी।",
+          "Japanese": "もし私が試験に___なら、学位を取得します。"
+        },
+        "options": [
+          "pass",
+          "fail",
+          "study"
+        ],
         "answer": 0
       },
       {
-        "id": "sent5",
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows future intention?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य भविष्य की मंशा दिखाता है?",
+          "Japanese": "将来の意図を示す文はどれですか？"
+        },
+        "options": [
+          "I studied mathematics last year.",
+          "I'm going to major in biology.",
+          "I have been learning French."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
         "type": "sentenceRearranging",
-        "question": "Arrange: [her, has, graduated, she, university, from]",
-        "options": ["her", "has", "graduated", "she", "university", "from"],
-        "answer": ["She", "has", "graduated", "from", "her", "university"]
+        "question": "Arrange: [going, to, I'm, graduate, next, year]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [going, to, I'm, graduate, next, year]",
+          "Japanese": "並べ替え: [going, to, I'm, graduate, next, year]"
+        },
+        "options": [
+          "going",
+          "to",
+          "I'm",
+          "graduate",
+          "next",
+          "year"
+        ],
+        "answer": [
+          "I'm",
+          "going",
+          "to",
+          "graduate",
+          "next",
+          "year"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "She ___ been working on her thesis for six months.",
+        "question_translation": {
+          "Hindi": "वह छह महीने से अपनी थीसिस पर काम कर ___ है।",
+          "Japanese": "彼女は6ヶ月間論文に取り組ん___います。"
+        },
+        "options": [
+          "has",
+          "have",
+          "is"
+        ],
+        "answer": 0
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "What is the speaker enrolled in? (Audio: 'I am enrolled in a degree course.')",
-        "options": ["A degree course", "A lecture", "A semester"],
-        "answer": 0
-      },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What did he do last week? (Audio: 'He passed his final exam last week.')",
-        "options": ["Completed assignments", "Passed his final exam", "Started a new semester"],
+        "type": "multipleChoice",
+        "question": "What is the student studying?",
+        "audio_text": "I'm studying computer science at the university.",
+        "question_translation": {
+          "Hindi": "छात्र क्या पढ़ रहा है?",
+          "Japanese": "その学生は何を勉強していますか？"
+        },
+        "options": [
+          "Mathematics",
+          "Computer science",
+          "Biology"
+        ],
         "answer": 1
       },
       {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "How long has she been studying English?",
+        "audio_text": "I have been studying English for five years.",
+        "question_translation": {
+          "Hindi": "वह कितने समय से अंग्रेजी पढ़ रही है?",
+          "Japanese": "彼女はどのくらい英語を学んでいますか？"
+        },
+        "options": [
+          "Three years",
+          "Four years",
+          "Five years"
+        ],
+        "answer": 2
+      },
+      {
         "id": "listen3",
-        "type": "listening",
-        "question": "What has she completed? (Audio: 'She has completed all her assignments.')",
-        "options": ["All her assignments", "A degree", "Research"],
+        "type": "trueFalse",
+        "question": "The speaker received a scholarship.",
+        "audio_text": "I was lucky to receive a scholarship for my master's degree.",
+        "question_translation": {
+          "Hindi": "वक्ता को छात्रवृत्ति मिली।",
+          "Japanese": "話者は奨学金を受けました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "What did the teacher give? (Audio: 'Our teacher gave a lecture on chemistry.')",
-        "options": ["An exam", "A presentation", "A lecture"],
+        "type": "multipleChoice",
+        "question": "When is the assignment due?",
+        "audio_text": "The assignment is due next Wednesday.",
+        "question_translation": {
+          "Hindi": "असाइनमेंट कब तक देना है?",
+          "Japanese": "課題の締切はいつですか？"
+        },
+        "options": [
+          "Next Monday",
+          "Next Tuesday",
+          "Next Wednesday"
+        ],
         "answer": 2
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "What has she done? (Audio: 'She has graduated from her university.')",
-        "options": ["Graduated", "Enrolled", "Given a lecture"],
-        "answer": 0
+        "type": "multipleChoice",
+        "question": "What will happen if she passes the exam?",
+        "audio_text": "If I pass this exam, I will graduate in June.",
+        "question_translation": {
+          "Hindi": "यदि वह परीक्षा पास कर जाती है तो क्या होगा?",
+          "Japanese": "もし彼女が試験に合格したら何が起こりますか？"
+        },
+        "options": [
+          "She will study more",
+          "She will graduate in June",
+          "She will take another exam"
+        ],
+        "answer": 1
       }
     ],
     "speaking": [
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'I am enrolled in a degree course.'",
+        "question": "Say: 'I have been studying at this university for two years.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I have been studying at this university for two years.'",
+          "Japanese": "言ってください: 'I have been studying at this university for two years.'"
+        },
         "options": [],
-        "answer": "I am enrolled in a degree course."
+        "answer": "i have been studying at this university for two years"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Say: 'He passed his final exam last week.'",
+        "question": "Say: 'I'm going to major in engineering.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I'm going to major in engineering.'",
+          "Japanese": "言ってください: 'I'm going to major in engineering.'"
+        },
         "options": [],
-        "answer": "He passed his final exam last week."
+        "answer": "i am going to major in engineering"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'She has completed all her assignments.'",
+        "question": "Say: 'I received a scholarship to study abroad.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I received a scholarship to study abroad.'",
+          "Japanese": "言ってください: 'I received a scholarship to study abroad.'"
+        },
         "options": [],
-        "answer": "She has completed all her assignments."
+        "answer": "i received a scholarship to study abroad"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Say: 'Our teacher gave a lecture on chemistry.'",
+        "question": "Say: 'My assignment is due tomorrow.'",
+        "question_translation": {
+          "Hindi": "कहें: 'My assignment is due tomorrow.'",
+          "Japanese": "言ってください: 'My assignment is due tomorrow.'"
+        },
         "options": [],
-        "answer": "Our teacher gave a lecture on chemistry."
+        "answer": "my assignment is due tomorrow"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Say: 'She has graduated from her university.'",
+        "question": "Say: 'If I pass the exam, I will get my degree.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If I pass the exam, I will get my degree.'",
+          "Japanese": "言ってください: 'If I pass the exam, I will get my degree.'"
+        },
         "options": [],
-        "answer": "She has graduated from her university."
+        "answer": "if i pass the exam i will get my degree"
       }
     ]
   }

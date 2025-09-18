@@ -1,4 +1,521 @@
 {
-  "id": 36,
-  "message": "This is file number 36"
+  "id": "lesson_changes_over_time_001",
+  "lesson_name": "Describing Changes Over Time",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "develop",
+        "word_translation": {
+          "Hindi": "विकसित होना",
+          "Japanese": "発展する"
+        },
+        "meaning": "To grow or change into something more advanced",
+        "meaning_translation": {
+          "Hindi": "कुछ अधिक उन्नत में बढ़ना या बदलना",
+          "Japanese": "より進んだものに成長・変化すること"
+        },
+        "examples": [
+          {
+            "sentence": "The small town developed into a busy city.",
+            "translation": {
+              "Hindi": "छोटा शहर एक व्यस्त शहर में विकसित हो गया।",
+              "Japanese": "その小さな町はにぎやかな都市に発展しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "decline",
+        "word_translation": {
+          "Hindi": "गिरावट",
+          "Japanese": "減少する"
+        },
+        "meaning": "To become weaker, fewer, or less important",
+        "meaning_translation": {
+          "Hindi": "कमज़ोर, कम या कम महत्वपूर्ण होना",
+          "Japanese": "弱くなる、少なくなる、重要性が減ること"
+        },
+        "examples": [
+          {
+            "sentence": "The number of factories in the area declined over the years.",
+            "translation": {
+              "Hindi": "सालों में क्षेत्र में कारखानों की संख्या में गिरावट आई।",
+              "Japanese": "その地域の工場の数は年月とともに減少しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transform",
+        "word_translation": {
+          "Hindi": "बदल देना",
+          "Japanese": "変化させる"
+        },
+        "meaning": "To change completely in form, appearance, or character",
+        "meaning_translation": {
+          "Hindi": "पूरी तरह से रूप, रूपरेखा या चरित्र बदल देना",
+          "Japanese": "形・外見・性質を完全に変えること"
+        },
+        "examples": [
+          {
+            "sentence": "Technology has transformed the way we communicate.",
+            "translation": {
+              "Hindi": "प्रौद्योगिकी ने हमारे संचार के तरीके को बदल दिया है।",
+              "Japanese": "技術は私たちのコミュニケーションの方法を変えました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "progress",
+        "word_translation": {
+          "Hindi": "प्रगति",
+          "Japanese": "進歩"
+        },
+        "meaning": "Movement toward improvement or a higher stage",
+        "meaning_translation": {
+          "Hindi": "सुधार या उच्च स्तर की ओर बढ़ना",
+          "Japanese": "改善やより高い段階への前進"
+        },
+        "examples": [
+          {
+            "sentence": "There has been great progress in medicine over the last decade.",
+            "translation": {
+              "Hindi": "पिछले दशक में चिकित्सा में बड़ी प्रगति हुई है।",
+              "Japanese": "過去10年間で医学は大きな進歩を遂げました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "modernize",
+        "word_translation": {
+          "Hindi": "आधुनिकीकरण करना",
+          "Japanese": "近代化する"
+        },
+        "meaning": "To make something more modern by using new methods or ideas",
+        "meaning_translation": {
+          "Hindi": "नई विधियों या विचारों का उपयोग करके किसी चीज़ को और आधुनिक बनाना",
+          "Japanese": "新しい方法や考え方を使って何かをより現代的にすること"
+        },
+        "examples": [
+          {
+            "sentence": "The company modernized its equipment to increase efficiency.",
+            "translation": {
+              "Hindi": "कंपनी ने दक्षता बढ़ाने के लिए अपने उपकरणों का आधुनिकीकरण किया।",
+              "Japanese": "会社は効率を上げるために設備を近代化しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evolve",
+        "word_translation": {
+          "Hindi": "विकसित होना",
+          "Japanese": "進化する"
+        },
+        "meaning": "To gradually change and develop over time",
+        "meaning_translation": {
+          "Hindi": "धीरे-धीरे समय के साथ बदलना और विकसित होना",
+          "Japanese": "時間をかけて徐々に変化し発展すること"
+        },
+        "examples": [
+          {
+            "sentence": "Languages evolve as cultures change.",
+            "translation": {
+              "Hindi": "संस्कृतियों के बदलने के साथ भाषाएँ विकसित होती हैं।",
+              "Japanese": "文化の変化に伴い言語は進化します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "shift",
+        "word_translation": {
+          "Hindi": "परिवर्तन",
+          "Japanese": "変化／移行"
+        },
+        "meaning": "A change in position, direction, or way of thinking",
+        "meaning_translation": {
+          "Hindi": "स्थिति, दिशा या सोचने के तरीके में परिवर्तन",
+          "Japanese": "立場・方向・考え方の変化"
+        },
+        "examples": [
+          {
+            "sentence": "There has been a major shift in people’s eating habits.",
+            "translation": {
+              "Hindi": "लोगों की खाने की आदतों में बड़ा परिवर्तन आया है।",
+              "Japanese": "人々の食習慣に大きな変化がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "trend",
+        "word_translation": {
+          "Hindi": "रुझान",
+          "Japanese": "傾向"
+        },
+        "meaning": "A general direction in which something is changing or developing",
+        "meaning_translation": {
+          "Hindi": "वह सामान्य दिशा जिसमें कुछ बदल या विकसित हो रहा है",
+          "Japanese": "何かが変化・発展している全体的な方向性"
+        },
+        "examples": [
+          {
+            "sentence": "There is a growing trend toward using renewable energy.",
+            "translation": {
+              "Hindi": "नवीकरणीय ऊर्जा के उपयोग की ओर बढ़ता रुझान है।",
+              "Japanese": "再生可能エネルギーの使用に向かう傾向があります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Present Perfect for Changes",
+        "explanation": "Use present perfect to describe changes that started in the past and continue now. Example: The city has developed quickly in the last ten years.",
+        "explanation_translation": {
+          "Hindi": "ऐसे परिवर्तनों का वर्णन करने के लिए present perfect का उपयोग करें जो अतीत में शुरू हुए और अब तक जारी हैं। उदाहरण: The city has developed quickly in the last ten years.",
+          "Japanese": "過去に始まり今も続いている変化を説明するときは現在完了形を使います。例: The city has developed quickly in the last ten years."
+        }
+      },
+      {
+        "title": "Using 'used to' for Past States",
+        "explanation": "Use 'used to' to describe something that was true in the past but not now. Example: People used to write letters, but now they send emails.",
+        "explanation_translation": {
+          "Hindi": "'used to' का उपयोग किसी ऐसी चीज़ के लिए करें जो पहले सच थी लेकिन अब नहीं। उदाहरण: People used to write letters, but now they send emails.",
+          "Japanese": "以前は真実だったが今はそうではないことを説明するのに「used to」を使います。例: People used to write letters, but now they send emails."
+        }
+      },
+      {
+        "title": "Using Comparatives for Change",
+        "explanation": "Use comparatives to show how something is different now compared to the past. Example: The city is bigger now than it was before.",
+        "explanation_translation": {
+          "Hindi": "किसी चीज़ की अब और पहले की तुलना दिखाने के लिए तुलनात्मक शब्दों का प्रयोग करें। उदाहरण: The city is bigger now than it was before.",
+          "Japanese": "今と以前を比較するときに比較級を使います。例: The city is bigger now than it was before."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'to grow or change into something more advanced'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'कुछ अधिक उन्नत में बढ़ना या बदलना' का अर्थ देता है?",
+          "Japanese": "「より進んだものに成長・変化すること」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "develop",
+          "decline",
+          "shift"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The number of shops in the town has ___ over the years.",
+        "question_translation": {
+          "Hindi": "सालों में शहर में दुकानों की संख्या ___ गई है।",
+          "Japanese": "その町の店の数は年々___しました。"
+        },
+        "options": [
+          "declined",
+          "progressed",
+          "modernized"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "To transform means to change completely in form, appearance, or character.",
+        "question_translation": {
+          "Hindi": "Transform का अर्थ है रूप, रूपरेखा या चरित्र को पूरी तरह बदल देना।",
+          "Japanese": "transformとは、形・外見・性質を完全に変えることを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word refers to 'a general direction in which something is changing or developing'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'वह सामान्य दिशा जिसमें कुछ बदल या विकसित हो रहा है' को संदर्भित करता है?",
+          "Japanese": "「何かが変化・発展している全体的な方向性」を表す言葉はどれですか？"
+        },
+        "options": [
+          "progress",
+          "trend",
+          "evolve"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The company decided to ___ its systems to keep up with technology.",
+        "question_translation": {
+          "Hindi": "कंपनी ने तकनीक के साथ तालमेल रखने के लिए अपनी प्रणालियों को ___ करने का निर्णय लिया।",
+          "Japanese": "会社は技術に追いつくためにシステムを___することを決めました。"
+        },
+        "options": [
+          "modernize",
+          "decline",
+          "shift"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [city, developed, has, quickly, the, ten, years, last]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [city, developed, has, quickly, the, ten, years, last]",
+          "Japanese": "並べ替え: [city, developed, has, quickly, the, ten, years, last]"
+        },
+        "options": [
+          "city",
+          "developed",
+          "has",
+          "quickly",
+          "the",
+          "ten",
+          "years",
+          "last"
+        ],
+        "answer": [
+          "the",
+          "city",
+          "has",
+          "developed",
+          "quickly",
+          "in",
+          "the",
+          "last",
+          "ten",
+          "years"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "People ___ to write letters, but now they send emails.",
+        "question_translation": {
+          "Hindi": "लोग पहले पत्र ___ थे, लेकिन अब वे ईमेल भेजते हैं।",
+          "Japanese": "人々は以前は手紙を___が、今はメールを送ります。"
+        },
+        "options": [
+          "used",
+          "use",
+          "using"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is grammatically correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य व्याकरणिक रूप से सही है?",
+          "Japanese": "文法的に正しい文はどれですか？"
+        },
+        "options": [
+          "The city more bigger now than before.",
+          "The city is bigger now than before.",
+          "The city is biggest now than before."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [languages, evolve, cultures, change, as]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [languages, evolve, cultures, change, as]",
+          "Japanese": "並べ替え: [languages, evolve, cultures, change, as]"
+        },
+        "options": [
+          "languages",
+          "evolve",
+          "cultures",
+          "change",
+          "as"
+        ],
+        "answer": [
+          "languages",
+          "evolve",
+          "as",
+          "cultures",
+          "change"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "There has been a major ___ in eating habits.",
+        "question_translation": {
+          "Hindi": "खाने की आदतों में बड़ा ___ आया है।",
+          "Japanese": "食習慣に大きな___がありました。"
+        },
+        "options": [
+          "shift",
+          "progress",
+          "trend"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What happened to the small town?",
+        "audio_text": "The small town developed into a busy city.",
+        "question_translation": {
+          "Hindi": "छोटे शहर के साथ क्या हुआ?",
+          "Japanese": "その小さな町はどうなりましたか？"
+        },
+        "options": [
+          "It declined",
+          "It developed into a city",
+          "It modernized into farmland"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What declined over the years?",
+        "audio_text": "The number of factories in the area declined over the years.",
+        "question_translation": {
+          "Hindi": "सालों में किसमें गिरावट आई?",
+          "Japanese": "年々何が減少しましたか？"
+        },
+        "options": [
+          "Factories",
+          "Shops",
+          "Schools"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "Technology has transformed the way we communicate.",
+        "audio_text": "Technology has transformed the way we communicate.",
+        "question_translation": {
+          "Hindi": "प्रौद्योगिकी ने हमारे संचार के तरीके को बदल दिया है।",
+          "Japanese": "技術は私たちのコミュニケーションの方法を変えました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What has there been great progress in?",
+        "audio_text": "There has been great progress in medicine over the last decade.",
+        "question_translation": {
+          "Hindi": "पिछले दशक में किसमें बड़ी प्रगति हुई है?",
+          "Japanese": "過去10年間で何に大きな進歩がありましたか？"
+        },
+        "options": [
+          "Medicine",
+          "Education",
+          "Sports"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What do languages do as cultures change?",
+        "audio_text": "Languages evolve as cultures change.",
+        "question_translation": {
+          "Hindi": "संस्कृतियों के बदलने पर भाषाएँ क्या करती हैं?",
+          "Japanese": "文化が変化するとき、言語はどうなりますか？"
+        },
+        "options": [
+          "They decline",
+          "They evolve",
+          "They modernize"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The city has developed quickly in the last ten years.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The city has developed quickly in the last ten years.'",
+          "Japanese": "言ってください: 'The city has developed quickly in the last ten years.'"
+        },
+        "options": [],
+        "answer": "the city has developed quickly in the last ten years"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'People used to write letters, but now they send emails.'",
+        "question_translation": {
+          "Hindi": "कहें: 'People used to write letters, but now they send emails.'",
+          "Japanese": "言ってください: 'People used to write letters, but now they send emails.'"
+        },
+        "options": [],
+        "answer": "people used to write letters but now they send emails"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Technology has transformed the way we communicate.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Technology has transformed the way we communicate.'",
+          "Japanese": "言ってください: 'Technology has transformed the way we communicate.'"
+        },
+        "options": [],
+        "answer": "technology has transformed the way we communicate"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'There has been great progress in medicine.'",
+        "question_translation": {
+          "Hindi": "कहें: 'There has been great progress in medicine.'",
+          "Japanese": "言ってください: 'There has been great progress in medicine.'"
+        },
+        "options": [],
+        "answer": "there has been great progress in medicine"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Languages evolve as cultures change.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Languages evolve as cultures change.'",
+          "Japanese": "言ってください: 'Languages evolve as cultures change.'"
+        },
+        "options": [],
+        "answer": "languages evolve as cultures change"
+      }
+    ]
+  }
 }

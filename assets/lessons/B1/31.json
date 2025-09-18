@@ -1,4 +1,498 @@
 {
-  "id": 31,
-  "message": "This is file number 31"
+  "id": "lesson_complaints_001",
+  "lesson_name": "Making and Responding to Complaints",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "complaint",
+        "word_translation": {
+          "Hindi": "शिकायत",
+          "Japanese": "苦情"
+        },
+        "meaning": "A statement that something is wrong or not satisfactory",
+        "meaning_translation": {
+          "Hindi": "एक कथन कि कुछ गलत है या संतोषजनक नहीं है",
+          "Japanese": "何かが間違っている、または満足できないという表明"
+        },
+        "examples": [
+          {
+            "sentence": "She made a complaint about the noisy neighbors.",
+            "translation": {
+              "Hindi": "उसने शोरगुल वाले पड़ोसियों के बारे में शिकायत की।",
+              "Japanese": "彼女はうるさい隣人について苦情を言いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "service",
+        "word_translation": {
+          "Hindi": "सेवा",
+          "Japanese": "サービス"
+        },
+        "meaning": "Help or work provided, especially in business or public use",
+        "meaning_translation": {
+          "Hindi": "सहायता या कार्य, विशेषकर व्यापार या सार्वजनिक उपयोग में प्रदान की गई",
+          "Japanese": "特にビジネスや公共利用で提供される援助や仕事"
+        },
+        "examples": [
+          {
+            "sentence": "The restaurant has excellent customer service.",
+            "translation": {
+              "Hindi": "रेस्तरां में उत्कृष्ट ग्राहक सेवा है।",
+              "Japanese": "そのレストランは素晴らしい顧客サービスがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "refund",
+        "word_translation": {
+          "Hindi": "वापसी",
+          "Japanese": "払い戻し"
+        },
+        "meaning": "Money that is given back after a customer complains or returns a product",
+        "meaning_translation": {
+          "Hindi": "ग्राहक की शिकायत या उत्पाद वापस करने पर लौटाई गई राशि",
+          "Japanese": "顧客が苦情を言ったり商品を返品したときに返されるお金"
+        },
+        "examples": [
+          {
+            "sentence": "I asked for a refund because the shoes were damaged.",
+            "translation": {
+              "Hindi": "मैंने वापसी की माँग की क्योंकि जूते खराब थे।",
+              "Japanese": "靴が壊れていたので払い戻しを求めました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "apologize",
+        "word_translation": {
+          "Hindi": "माफी माँगना",
+          "Japanese": "謝る"
+        },
+        "meaning": "To say sorry for something wrong or inconvenient",
+        "meaning_translation": {
+          "Hindi": "किसी गलत या असुविधाजनक चीज़ के लिए माफी माँगना",
+          "Japanese": "何か間違いや不便に対して謝ること"
+        },
+        "examples": [
+          {
+            "sentence": "The company apologized for the delay in delivery.",
+            "translation": {
+              "Hindi": "कंपनी ने डिलीवरी में देरी के लिए माफी माँगी।",
+              "Japanese": "会社は配達の遅れについて謝罪しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "responsibility",
+        "word_translation": {
+          "Hindi": "जिम्मेदारी",
+          "Japanese": "責任"
+        },
+        "meaning": "A duty or obligation to deal with something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ से निपटने का कर्तव्य या दायित्व",
+          "Japanese": "何かに対処する義務や責任"
+        },
+        "examples": [
+          {
+            "sentence": "It is the manager’s responsibility to handle complaints.",
+            "translation": {
+              "Hindi": "शिकायतों को संभालना प्रबंधक की जिम्मेदारी है।",
+              "Japanese": "苦情に対応するのはマネージャーの責任です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dissatisfied",
+        "word_translation": {
+          "Hindi": "असंतुष्ट",
+          "Japanese": "不満な"
+        },
+        "meaning": "Not happy or pleased with something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ से खुश या संतुष्ट न होना",
+          "Japanese": "何かに満足していない状態"
+        },
+        "examples": [
+          {
+            "sentence": "The customer was dissatisfied with the slow service.",
+            "translation": {
+              "Hindi": "ग्राहक धीमी सेवा से असंतुष्ट था।",
+              "Japanese": "顧客は遅いサービスに不満でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "resolve",
+        "word_translation": {
+          "Hindi": "सुलझाना",
+          "Japanese": "解決する"
+        },
+        "meaning": "To find a solution to a problem or complaint",
+        "meaning_translation": {
+          "Hindi": "किसी समस्या या शिकायत का समाधान खोजना",
+          "Japanese": "問題や苦情に対する解決策を見つけること"
+        },
+        "examples": [
+          {
+            "sentence": "The company resolved the issue by giving a discount.",
+            "translation": {
+              "Hindi": "कंपनी ने छूट देकर समस्या का समाधान किया।",
+              "Japanese": "会社は割引を提供して問題を解決しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Polite Requests for Complaints",
+        "explanation": "When making a complaint, use polite requests. Example: Could you please check my order?",
+        "explanation_translation": {
+          "Hindi": "शिकायत करते समय शिष्ट अनुरोधों का प्रयोग करें। उदाहरण: Could you please check my order?",
+          "Japanese": "苦情を言うときは丁寧な依頼を使います。例: Could you please check my order?"
+        }
+      },
+      {
+        "title": "Using 'sorry' to Respond",
+        "explanation": "When responding to a complaint, begin with an apology. Example: I am sorry for the inconvenience.",
+        "explanation_translation": {
+          "Hindi": "शिकायत का उत्तर देते समय माफी से शुरू करें। उदाहरण: I am sorry for the inconvenience.",
+          "Japanese": "苦情に応えるときは謝罪から始めます。例: I am sorry for the inconvenience."
+        }
+      },
+      {
+        "title": "Using 'will' for Promises",
+        "explanation": "Use 'will' to show how you plan to solve the problem. Example: We will send you a replacement.",
+        "explanation_translation": {
+          "Hindi": "समस्या को कैसे सुलझाएँगे यह बताने के लिए 'will' का प्रयोग करें। उदाहरण: We will send you a replacement.",
+          "Japanese": "問題をどのように解決するかを示すとき「will」を使います。例: We will send you a replacement."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a statement that something is wrong'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'एक कथन कि कुछ गलत है' का अर्थ देता है?",
+          "Japanese": "「何かが間違っているという表明」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "complaint",
+          "service",
+          "refund"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The customer asked for a ___ because the item was broken.",
+        "question_translation": {
+          "Hindi": "ग्राहक ने ___ माँगा क्योंकि सामान टूटा हुआ था।",
+          "Japanese": "商品が壊れていたので、顧客は___を求めました。"
+        },
+        "options": [
+          "refund",
+          "service",
+          "resolve"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "To apologize means to say sorry for something wrong.",
+        "question_translation": {
+          "Hindi": "माफी माँगने का अर्थ है किसी गलती के लिए 'sorry' कहना।",
+          "Japanese": "apologizeとは、間違いに対して「sorry」と言うことです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word describes the duty to handle something?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द किसी चीज़ को संभालने के कर्तव्य को दर्शाता है?",
+          "Japanese": "何かを処理する義務を表す言葉はどれですか？"
+        },
+        "options": [
+          "responsibility",
+          "dissatisfied",
+          "complaint"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The company tried to ___ the problem by offering a discount.",
+        "question_translation": {
+          "Hindi": "कंपनी ने छूट देकर समस्या को ___ की कोशिश की।",
+          "Japanese": "会社は割引を提供して問題を___しようとしました。"
+        },
+        "options": [
+          "resolve",
+          "apologize",
+          "refund"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [my, order, check, please, could, you]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [my, order, check, please, could, you]",
+          "Japanese": "並べ替え: [my, order, check, please, could, you]"
+        },
+        "options": [
+          "my",
+          "order",
+          "check",
+          "please",
+          "could",
+          "you"
+        ],
+        "answer": [
+          "could",
+          "you",
+          "please",
+          "check",
+          "my",
+          "order"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I am ___ for the inconvenience caused.",
+        "question_translation": {
+          "Hindi": "मैं हुई असुविधा के लिए ___ हूँ।",
+          "Japanese": "ご不便をおかけして___。"
+        },
+        "options": [
+          "sorry",
+          "happy",
+          "angry"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "We will sending you a refund.",
+          "We will send you a refund.",
+          "We will sended you a refund."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [dissatisfied, was, customer, the, service, with]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [dissatisfied, was, customer, the, service, with]",
+          "Japanese": "並べ替え: [dissatisfied, was, customer, the, service, with]"
+        },
+        "options": [
+          "dissatisfied",
+          "was",
+          "customer",
+          "the",
+          "service",
+          "with"
+        ],
+        "answer": [
+          "the",
+          "customer",
+          "was",
+          "dissatisfied",
+          "with",
+          "service"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "It is the manager’s ___ to handle complaints.",
+        "question_translation": {
+          "Hindi": "शिकायतों को संभालना प्रबंधक की ___ है।",
+          "Japanese": "苦情に対応するのはマネージャーの___です。"
+        },
+        "options": [
+          "responsibility",
+          "apology",
+          "complaint"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the customer ask for?",
+        "audio_text": "I would like a refund for this damaged product.",
+        "question_translation": {
+          "Hindi": "ग्राहक ने क्या माँगा?",
+          "Japanese": "顧客は何を求めましたか？"
+        },
+        "options": [
+          "A replacement",
+          "A refund",
+          "An apology"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "How did the company respond?",
+        "audio_text": "We are sorry for the delay and will send your order tomorrow.",
+        "question_translation": {
+          "Hindi": "कंपनी ने कैसे उत्तर दिया?",
+          "Japanese": "会社はどのように対応しましたか？"
+        },
+        "options": [
+          "They ignored the problem",
+          "They apologized and promised delivery",
+          "They gave no answer"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker is making a complaint about poor service.",
+        "audio_text": "I am very dissatisfied with the slow internet service.",
+        "question_translation": {
+          "Hindi": "वक्ता खराब सेवा के बारे में शिकायत कर रहा है।",
+          "Japanese": "話者は悪いサービスについて苦情を言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What promise does the speaker make?",
+        "audio_text": "We will resolve this issue by sending you a new product.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या वादा किया?",
+          "Japanese": "話者はどんな約束をしましたか？"
+        },
+        "options": [
+          "They will refund the money",
+          "They will resolve the issue with a new product",
+          "They will close the complaint"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the customer unhappy about?",
+        "audio_text": "I am not satisfied with the quality of this food.",
+        "question_translation": {
+          "Hindi": "ग्राहक किससे नाखुश है?",
+          "Japanese": "顧客は何に不満ですか？"
+        },
+        "options": [
+          "The service",
+          "The food quality",
+          "The delivery time"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I would like to make a complaint.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I would like to make a complaint.'",
+          "Japanese": "言ってください: 'I would like to make a complaint.'"
+        },
+        "options": [],
+        "answer": "i would like to make a complaint"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I am sorry for the inconvenience.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am sorry for the inconvenience.'",
+          "Japanese": "言ってください: 'I am sorry for the inconvenience.'"
+        },
+        "options": [],
+        "answer": "i am sorry for the inconvenience"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Could you please check my order?'",
+        "question_translation": {
+          "Hindi": "कहें: 'Could you please check my order?'",
+          "Japanese": "言ってください: 'Could you please check my order?'"
+        },
+        "options": [],
+        "answer": "could you please check my order"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We will resolve the problem quickly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We will resolve the problem quickly.'",
+          "Japanese": "言ってください: 'We will resolve the problem quickly.'"
+        },
+        "options": [],
+        "answer": "we will resolve the problem quickly"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I am dissatisfied with the service.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am dissatisfied with the service.'",
+          "Japanese": "言ってください: 'I am dissatisfied with the service.'"
+        },
+        "options": [],
+        "answer": "i am dissatisfied with the service"
+      }
+    ]
+  }
+
+
 }
