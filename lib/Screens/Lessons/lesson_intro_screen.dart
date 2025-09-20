@@ -123,7 +123,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                     ),
                   ),
                   SizedBox(height: 10),
-                  Container(
+                  c.isUnlockTest ?   Container(
                     margin: EdgeInsets.symmetric(horizontal: 10),
                     child: Text(
                       "You have to score more than 80% to unlock the ${widget.englishLevel} level",
@@ -133,7 +133,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                  ),
+                  ) : SizedBox(),
                   SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
                   Spacer(),
                   ElevatedButton(

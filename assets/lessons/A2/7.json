@@ -244,159 +244,315 @@
     ]
   },
   "question_pools": {
-  "vocabulary": [
-    {
-      "id": "vocab1",
-      "type": "multipleChoice",
-      "question": "Which word means 'more tall'?",
-      "question_translation": {
-        "Hindi": "कौन सा शब्द 'अधिक लंबा' का अर्थ है?",
-        "Japanese": "「より背が高い」という意味の単語はどれですか？"
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'more tall'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'अधिक लंबा' का अर्थ है?",
+          "Japanese": "「より背が高い」という意味の単語はどれですか？"
+        },
+        "options": [
+          "shorter",
+          "taller",
+          "small"
+        ],
+        "answer": 1
       },
-      "options": ["shorter", "taller", "small"],
-      "answer": 1
-    },
-    {
-      "id": "vocab2",
-      "type": "trueFalse",
-      "question": "‘Smarter’ is the comparative form of ‘smart’.",
-      "question_translation": {
-        "Hindi": "'Smarter' 'smart' का तुलनात्मक रूप है।",
-        "Japanese": "「Smarter」は「smart」の比較級です。"
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "‘Smarter’ is the comparative form of ‘smart’.",
+        "question_translation": {
+          "Hindi": "'Smarter' 'smart' का तुलनात्मक रूप है।",
+          "Japanese": "「Smarter」は「smart」の比較級です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
-      "options": ["True", "False"],
-      "answer": 0
-    },
-    {
-      "id": "vocab3",
-      "type": "fillInTheBlanks",
-      "question": "This bag is ___ than that one.",
-      "question_translation": {
-        "Hindi": "यह बैग उस बैग से ___ है।",
-        "Japanese": "このかばんはあのかばんより___です。"
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "This bag is ___ than that one.",
+        "question_translation": {
+          "Hindi": "यह बैग उस बैग से ___ है।",
+          "Japanese": "このかばんはあのかばんより___です。"
+        },
+        "options": [
+          "cheap",
+          "cheaper",
+          "cheapest"
+        ],
+        "answer": 1
       },
-      "options": ["cheap", "cheaper", "cheapest"],
-      "answer": 1
-    },
-    {
-      "id": "vocab4",
-      "type": "multipleChoice",
-      "question": "What is the opposite of 'faster'?",
-      "question_translation": {
-        "Hindi": "'Faster' का विलोम शब्द क्या है?",
-        "Japanese": "「Faster」の反対語は何ですか？"
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What is the opposite of 'faster'?",
+        "question_translation": {
+          "Hindi": "'Faster' का विलोम शब्द क्या है?",
+          "Japanese": "「Faster」の反対語は何ですか？"
+        },
+        "options": [
+          "slower",
+          "quicker",
+          "smaller"
+        ],
+        "answer": 0
       },
-      "options": ["slower", "quicker", "smaller"],
-      "answer": 0
-    },
-    {
-      "id": "vocab5",
-      "type": "trueFalse",
-      "question": "‘More expensive’ is used for longer adjectives.",
-      "question_translation": {
-        "Hindi": "'More expensive' लंबे विशेषणों के लिए प्रयोग होता है।",
-        "Japanese": "「More expensive」は長い形容詞に使われます。"
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "‘More expensive’ is used for longer adjectives.",
+        "question_translation": {
+          "Hindi": "'More expensive' लंबे विशेषणों के लिए प्रयोग होता है।",
+          "Japanese": "「More expensive」は長い形容詞に使われます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "Tom is ___ than Jack. (tall)",
+        "question_translation": {
+          "Hindi": "टॉम जैक से ___ है। (लंबा)",
+          "Japanese": "トムはジャックより___です。(背が高い)"
+        },
+        "options": [
+          "tall",
+          "taller",
+          "tallest"
+        ],
+        "answer": 1
       },
-      "options": ["True", "False"],
-      "answer": 0
-    }
-  ],
-  "sentence": [
-    {
-      "id": "sent1",
-      "type": "fillInTheBlanks",
-      "question": "Tom is ___ than Jack. (tall)",
-      "question_translation": {
-        "Hindi": "टॉम जैक से ___ है। (लंबा)",
-        "Japanese": "トムはジャックより___です。(背が高い)"
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "This book is ___ than the last one. (interesting)",
+        "question_translation": {
+          "Hindi": "यह किताब पिछली से ___ है। (रोचक)",
+          "Japanese": "この本は前の本より___です。(面白い)"
+        },
+        "options": [
+          "more interesting",
+          "interestinger",
+          "interested"
+        ],
+        "answer": 0
       },
-      "options": ["tall", "taller", "tallest"],
-      "answer": 1
-    },
-    {
-      "id": "sent2",
-      "type": "fillInTheBlanks",
-      "question": "This book is ___ than the last one. (interesting)",
-      "question_translation": {
-        "Hindi": "यह किताब पिछली से ___ है। (रोचक)",
-        "Japanese": "この本は前の本より___です。(面白い)"
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, faster, a, than, bike, car]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [is, faster, a, than, bike, car]",
+          "Japanese": "並べ替え: [is, faster, a, than, bike, car]"
+        },
+        "options": [
+          "is",
+          "faster",
+          "a",
+          "than",
+          "bike",
+          "car",
+          "A"
+        ],
+        "answer": [
+          "A",
+          "car",
+          "is",
+          "faster",
+          "than",
+          "a",
+          "bike"
+        ]
       },
-      "options": ["more interesting", "interestinger", "interested"],
-      "answer": 0
-    },
-    {
-      "id": "sent3",
-      "type": "sentenceRearranging",
-      "question": "Arrange: [is, faster, a, than, bike, car]",
-      "question_translation": {
-        "Hindi": "क्रम में लगाएं: [is, faster, a, than, bike, car]",
-        "Japanese": "並べ替え: [is, faster, a, than, bike, car]"
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [is, more, this, expensive, dress]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [is, more, this, expensive, dress]",
+          "Japanese": "並べ替え: [is, more, this, expensive, dress]"
+        },
+        "options": [
+          "is",
+          "more",
+          "this",
+          "expensive",
+          "dress"
+        ],
+        "answer": [
+          "This",
+          "dress",
+          "is",
+          "more",
+          "expensive"
+        ]
       },
-      "options": ["is", "faster", "a", "than", "bike", "car", "A"],
-      "answer": ["A", "car", "is", "faster", "than", "a", "bike"]
-    },
-    {
-      "id": "sent4",
-      "type": "sentenceRearranging",
-      "question": "Arrange: [is, more, this, expensive, dress]",
-      "question_translation": {
-        "Hindi": "क्रम में लगाएं: [is, more, this, expensive, dress]",
-        "Japanese": "並べ替え: [is, more, this, expensive, dress]"
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Today is ___ than yesterday. (cold)",
+        "question_translation": {
+          "Hindi": "आज कल की तुलना में ___ है। (ठंडा)",
+          "Japanese": "今日は昨日より___です。(寒い)"
+        },
+        "options": [
+          "cold",
+          "colder",
+          "coldest"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker say?",
+        "audio_text": "My phone is faster than yours.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या कहा?",
+          "Japanese": "話者は何と言いましたか？"
+        },
+        "options": [
+          "My phone is smaller than yours.",
+          "My phone is faster than yours.",
+          "My phone is broken."
+        ],
+        "answer": 1
       },
-      "options": ["is", "more", "this", "expensive", "dress"],
-      "answer": ["This", "dress", "is", "more", "expensive"]
-    }
-  ],
-  "listening": [
-    {
-      "id": "listen1",
-      "type": "multipleChoice",
-      "question": "What did the speaker say?",
-      "audio_text": "My phone is faster than yours.",
-      "question_translation": {
-        "Hindi": "वक्ता ने क्या कहा?",
-        "Japanese": "話者は何と言いましたか？"
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Which item is cheaper?",
+        "audio_text": "The blue shirt is cheaper than the red one.",
+        "question_translation": {
+          "Hindi": "कौन सा आइटम सस्ता है?",
+          "Japanese": "どの商品がより安いですか？"
+        },
+        "options": [
+          "Red shirt",
+          "Blue shirt",
+          "Both same"
+        ],
+        "answer": 1
       },
-      "options": ["My phone is smaller than yours.", "My phone is faster than yours.", "My phone is broken."],
-      "answer": 1
-    },
-    {
-      "id": "listen2",
-      "type": "multipleChoice",
-      "question": "Which item is cheaper?",
-      "audio_text": "The blue shirt is cheaper than the red one.",
-      "question_translation": {
-        "Hindi": "कौन सा आइटम सस्ता है?",
-        "Japanese": "どの商品がより安いですか？"
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker thinks the car is more expensive than the bike.",
+        "audio_text": "The car is more expensive than the bike.",
+        "question_translation": {
+          "Hindi": "वक्ता सोचता है कि कार बाइक से महंगी है।",
+          "Japanese": "話者は車がバイクより高いと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
-      "options": ["Red shirt", "Blue shirt", "Both same"],
-      "answer": 1
-    }
-  ],
-  "speaking": [
-    {
-      "id": "speak1",
-      "type": "speaking",
-      "question": "Say: 'My brother is taller than me.'",
-      "question_translation": {
-        "Hindi": "कहें: 'मेरा भाई मुझसे लंबा है।'",
-        "Japanese": "言ってください：「私の兄は私より背が高いです。」"
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Which city does the speaker find more beautiful?",
+        "audio_text": "Kyoto is more beautiful than Osaka to me.",
+        "question_translation": {
+          "Hindi": "वक्ता किस शहर को अधिक सुंदर मानता/मानती है?",
+          "Japanese": "話者はどの都市の方が美しいと思っていますか？"
+        },
+        "options": [
+          "Osaka",
+          "Kyoto",
+          "Both are the same"
+        ],
+        "answer": 1
       },
-      "options": [],
-      "answer": "my brother is taller than me"
-    },
-    {
-      "id": "speak2",
-      "type": "speaking",
-      "question": "Say: 'This laptop is more expensive.'",
-      "question_translation": {
-        "Hindi": "कहें: 'यह लैपटॉप ज्यादा महंगा है।'",
-        "Japanese": "言ってください：「このノートパソコンはもっと高いです。」"
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is stronger according to the speaker?",
+        "audio_text": "This coffee is stronger than tea.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार क्या अधिक स्ट्रॉन्ग है?",
+          "Japanese": "話者によるとどちらが強いですか？"
+        },
+        "options": [
+          "Tea",
+          "Water",
+          "Coffee"
+        ],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'My brother is taller than me.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरा भाई मुझसे लंबा है।'",
+          "Japanese": "言ってください：「私の兄は私より背が高いです。」"
+        },
+        "options": [],
+        "answer": "my brother is taller than me"
       },
-      "options": [],
-      "answer": "this laptop is more expensive"
-    }
-  ]
-}
-
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'This laptop is more expensive.'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह लैपटॉप ज्यादा महंगा है।'",
+          "Japanese": "言ってください：「このノートパソコンはもっと高いです。」"
+        },
+        "options": [],
+        "answer": "this laptop is more expensive"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'My bike is faster than my old one.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मेरी बाइक मेरी पुरानी बाइक से तेज है।'",
+          "Japanese": "言ってください：「私の自転車は前のより速いです。」"
+        },
+        "options": [],
+        "answer": "my bike is faster than my old one"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Winter is colder than autumn.'",
+        "question_translation": {
+          "Hindi": "कहें: 'सर्दी पतझड़ से ज्यादा ठंडी होती है।'",
+          "Japanese": "言ってください：「冬は秋より寒いです。」"
+        },
+        "options": [],
+        "answer": "winter is colder than autumn"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'This movie is more interesting than the last one.'",
+        "question_translation": {
+          "Hindi": "कहें: 'यह फिल्म पिछली से अधिक रोचक है।'",
+          "Japanese": "言ってください：「この映画は前のより面白いです。」"
+        },
+        "options": [],
+        "answer": "this movie is more interesting than the last one"
+      }
+    ]
+  }
 }

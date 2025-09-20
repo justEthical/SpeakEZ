@@ -160,217 +160,313 @@
     ]
   },
   "question_pools": {
-  "vocabulary": [
-    {
-      "id": "vocab1",
-      "type": "multipleChoice",
-      "question": "Which word means 'a person you work with'?",
-      "question_translation": {
-        "Hindi": "कौन सा शब्द 'वह व्यक्ति जिसके साथ आप काम करते हैं' का अर्थ है?",
-        "Japanese": "「一緒に働いている人」という意味の単語はどれですか？"
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a person you work with'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'वह व्यक्ति जिसके साथ आप काम करते हैं' का अर्थ है?",
+          "Japanese": "「一緒に働いている人」という意味の単語はどれですか？"
+        },
+        "options": [
+          "Colleague",
+          "Career",
+          "Experience"
+        ],
+        "answer": 0
       },
-      "options": ["Colleague", "Career", "Experience"],
-      "answer": 0
-    },
-    {
-      "id": "vocab2",
-      "type": "multipleChoice",
-      "question": "What do we call the balance between job and personal life?",
-      "question_translation": {
-        "Hindi": "नौकरी और व्यक्तिगत जीवन के बीच संतुलन को क्या कहते हैं?",
-        "Japanese": "仕事と私生活のバランスを何と言いますか？"
+      {
+        "id": "vocab2",
+        "type": "multipleChoice",
+        "question": "What do we call the balance between job and personal life?",
+        "question_translation": {
+          "Hindi": "नौकरी और व्यक्तिगत जीवन के बीच संतुलन को क्या कहते हैं?",
+          "Japanese": "仕事と私生活のバランスを何と言いますか？"
+        },
+        "options": [
+          "Responsibilities",
+          "Work-life balance",
+          "Profession"
+        ],
+        "answer": 1
       },
-      "options": ["Responsibilities", "Work-life balance", "Profession"],
-      "answer": 1
-    },
-    {
-      "id": "vocab3",
-      "type": "fillInTheBlanks",
-      "question": "She has five years of work ___ in banking.",
-      "question_translation": {
-        "Hindi": "उसके पास बैंकिंग में पाँच वर्षों का कार्य ___ है।",
-        "Japanese": "彼女は銀行業務で5年の仕事の___があります。"
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "She has five years of work ___ in banking.",
+        "question_translation": {
+          "Hindi": "उसके पास बैंकिंग में पाँच वर्षों का कार्य ___ है।",
+          "Japanese": "彼女は銀行業務で5年の仕事の___があります。"
+        },
+        "options": [
+          "career",
+          "experience",
+          "responsibility"
+        ],
+        "answer": 1
       },
-      "options": ["career", "experience", "responsibility"],
-      "answer": 1
-    },
-    {
-      "id": "vocab4",
-      "type": "trueFalse",
-      "question": "The word 'profession' means the same as 'hobby'.",
-      "question_translation": {
-        "Hindi": "'Profession' शब्द का अर्थ 'hobby' के समान है।",
-        "Japanese": "「Profession」という単語は「hobby」と同じ意味です。"
+      {
+        "id": "vocab4",
+        "type": "trueFalse",
+        "question": "The word 'profession' means the same as 'hobby'.",
+        "question_translation": {
+          "Hindi": "'Profession' शब्द का अर्थ 'hobby' के समान है।",
+          "Japanese": "「Profession」という単語は「hobby」と同じ意味です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
       },
-      "options": ["True", "False"],
-      "answer": 1
-    }
-  ],
-  "sentence": [
-    {
-      "id": "sent1",
-      "type": "fillInTheBlanks",
-      "question": "I ___ as a software engineer.",
-      "question_translation": {
-        "Hindi": "मैं एक सॉफ्टवेयर इंजीनियर ___ करता हूँ।",
-        "Japanese": "私はソフトウェアエンジニアとして___。"
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which word refers to tasks or duties expected in a job?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द नौकरी में अपेक्षित कार्यों या कर्तव्यों को दर्शाता है?",
+          "Japanese": "仕事で期待される業務や義務を表す語はどれですか？"
+        },
+        "options": [
+          "Responsibilities",
+          "Career",
+          "Colleague"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "I ___ as a software engineer.",
+        "question_translation": {
+          "Hindi": "मैं एक सॉफ्टवेयर इंजीनियर ___ करता हूँ।",
+          "Japanese": "私はソフトウェアエンジニアとして___。"
+        },
+        "options": [
+          "work",
+          "works",
+          "am working"
+        ],
+        "answer": 0
       },
-      "options": ["work", "works", "am working"],
-      "answer": 0
-    },
-    {
-      "id": "sent2",
-      "type": "fillInTheBlanks",
-      "question": "I have ___ in customer service for two years.",
-      "question_translation": {
-        "Hindi": "मुझे ग्राहक सेवा में दो साल का ___ है।",
-        "Japanese": "私は2年間、カスタマーサービスの___があります。"
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I have ___ in customer service for two years.",
+        "question_translation": {
+          "Hindi": "मुझे ग्राहक सेवा में दो साल का ___ है।",
+          "Japanese": "私は2年間、カスタマーサービスの___があります。"
+        },
+        "options": [
+          "experience",
+          "career",
+          "responsibility"
+        ],
+        "answer": 0
       },
-      "options": ["experience", "career", "responsibility"],
-      "answer": 0
-    },
-    {
-      "id": "sent3",
-      "type": "sentenceRearranging",
-      "question": "Arrange: [manages, She, the, team]",
-      "question_translation": {
-        "Hindi": "क्रम में लगाएं: [manages, She, the, team]",
-        "Japanese": "並べ替え: [manages, She, the, team]"
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [manages, She, the, team]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [manages, She, the, team]",
+          "Japanese": "並べ替え: [manages, She, the, team]"
+        },
+        "options": [
+          "manages",
+          "She",
+          "the",
+          "team"
+        ],
+        "answer": [
+          "She",
+          "manages",
+          "the",
+          "team"
+        ]
       },
-      "options": ["manages", "She", "the", "team"],
-      "answer": ["She", "manages", "the", "team"]
-    },
-    {
-      "id": "sent4",
-      "type": "sentenceRearranging",
-      "question": "Arrange: [worked, years, has, He, for, five]",
-      "question_translation": {
-        "Hindi": "क्रम में लगाएं: [worked, years, has, He, for, five]",
-        "Japanese": "並べ替え: [worked, years, has, He, for, five]"
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [worked, years, has, He, for, five]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [worked, years, has, He, for, five]",
+          "Japanese": "並べ替え: [worked, years, has, He, for, five]"
+        },
+        "options": [
+          "worked",
+          "years",
+          "has",
+          "He",
+          "for",
+          "five"
+        ],
+        "answer": [
+          "He",
+          "has",
+          "worked",
+          "for",
+          "five",
+          "years"
+        ]
       },
-      "options": ["worked", "years", "has", "He", "for", "five"],
-      "answer": ["He", "has", "worked", "for", "five", "years"]
-    }
-  ],
-  "listening": [
-    {
-      "id": "listen1",
-      "type": "multipleChoice",
-      "question": "What did the speaker say?",
-      "audio_text": "I work as a doctor.",
-      "question_translation": {
-        "Hindi": "वक्ता ने क्या कहा?",
-        "Japanese": "話者は何と言いましたか？"
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Her responsibilities ___ client communication.",
+        "question_translation": {
+          "Hindi": "उसकी जिम्मेदारियों में ग्राहक संचार ___।",
+          "Japanese": "彼女の責任には顧客との連絡が___。"
+        },
+        "options": [
+          "include",
+          "includes",
+          "included"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker say?",
+        "audio_text": "I work as a doctor.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या कहा?",
+          "Japanese": "話者は何と言いましたか？"
+        },
+        "options": [
+          "I work as a doctor.",
+          "I study medicine.",
+          "I want to be a doctor."
+        ],
+        "answer": 0
       },
-      "options": ["I work as a doctor.", "I study medicine.", "I want to be a doctor."],
-      "answer": 0
-    },
-    {
-      "id": "listen2",
-      "type": "multipleChoice",
-      "question": "What does the speaker talk about?",
-      "audio_text": "My colleagues are very helpful.",
-      "question_translation": {
-        "Hindi": "वक्ता किस बारे में बात कर रहा है?",
-        "Japanese": "話者は何について話していますか？"
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the speaker talk about?",
+        "audio_text": "My colleagues are very helpful.",
+        "question_translation": {
+          "Hindi": "वक्ता किस बारे में बात कर रहा है?",
+          "Japanese": "話者は何について話していますか？"
+        },
+        "options": [
+          "Colleagues",
+          "Responsibilities",
+          "Career"
+        ],
+        "answer": 0
       },
-      "options": ["Colleagues", "Responsibilities", "Career"],
-      "answer": 0
-    },
-    {
-      "id": "listen3",
-      "type": "multipleChoice",
-      "question": "How long has the speaker worked in sales?",
-      "audio_text": "I have worked in sales for three years.",
-      "question_translation": {
-        "Hindi": "वक्ता कितने समय से बिक्री में काम कर रहा है?",
-        "Japanese": "話者は何年間セールスで働いていますか？"
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "How long has the speaker worked in sales?",
+        "audio_text": "I have worked in sales for three years.",
+        "question_translation": {
+          "Hindi": "वक्ता कितने समय से बिक्री में काम कर रहा है?",
+          "Japanese": "話者は何年間セールスで働いていますか？"
+        },
+        "options": [
+          "Two years",
+          "Three years",
+          "Five years"
+        ],
+        "answer": 1
       },
-      "options": ["Two years", "Three years", "Five years"],
-      "answer": 1
-    },
-    {
-      "id": "listen4",
-      "type": "multipleChoice",
-      "question": "What does the speaker mention?",
-      "audio_text": "Work-life balance is very important to me.",
-      "question_translation": {
-        "Hindi": "वक्ता क्या उल्लेख करता है?",
-        "Japanese": "話者は何について言及していますか？"
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What does the speaker mention?",
+        "audio_text": "Work-life balance is very important to me.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या उल्लेख करता है?",
+          "Japanese": "話者は何について言及していますか？"
+        },
+        "options": [
+          "Responsibilities",
+          "Work-life balance",
+          "Career goals"
+        ],
+        "answer": 1
       },
-      "options": ["Responsibilities", "Work-life balance", "Career goals"],
-      "answer": 1
-    },
-    {
-      "id": "listen5",
-      "type": "multipleChoice",
-      "question": "What responsibility does the speaker have?",
-      "audio_text": "I manage the office accounts.",
-      "question_translation": {
-        "Hindi": "वक्ता की क्या जिम्मेदारी है?",
-        "Japanese": "話者はどんな責任を持っていますか？"
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What responsibility does the speaker have?",
+        "audio_text": "I manage the office accounts.",
+        "question_translation": {
+          "Hindi": "वक्ता की क्या जिम्मेदारी है?",
+          "Japanese": "話者はどんな責任を持っていますか？"
+        },
+        "options": [
+          "Managing the office accounts",
+          "Teaching students",
+          "Designing websites"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I work as an engineer.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I work as an engineer.'",
+          "Japanese": "言ってください: 'I work as an engineer.'"
+        },
+        "options": [],
+        "answer": "i work as an engineer"
       },
-      "options": ["Managing the office accounts", "Teaching students", "Designing websites"],
-      "answer": 0
-    }
-  ],
-  "speaking": [
-    {
-      "id": "speak1",
-      "type": "speaking",
-      "question": "Say: 'I work as an engineer.'",
-      "question_translation": {
-        "Hindi": "कहें: 'I work as an engineer.'",
-        "Japanese": "言ってください: 'I work as an engineer.'"
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I have five years of experience in teaching.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I have five years of experience in teaching.'",
+          "Japanese": "言ってください: 'I have five years of experience in teaching.'"
+        },
+        "options": [],
+        "answer": "i have five years of experience in teaching"
       },
-      "options": [],
-      "answer": "i work as an engineer"
-    },
-    {
-      "id": "speak2",
-      "type": "speaking",
-      "question": "Say: 'I have five years of experience in teaching.'",
-      "question_translation": {
-        "Hindi": "कहें: 'I have five years of experience in teaching.'",
-        "Japanese": "言ってください: 'I have five years of experience in teaching.'"
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'My colleagues are very supportive.'",
+        "question_translation": {
+          "Hindi": "कहें: 'My colleagues are very supportive.'",
+          "Japanese": "言ってください: 'My colleagues are very supportive.'"
+        },
+        "options": [],
+        "answer": "my colleagues are very supportive"
       },
-      "options": [],
-      "answer": "i have five years of experience in teaching"
-    },
-    {
-      "id": "speak3",
-      "type": "speaking",
-      "question": "Say: 'My colleagues are very supportive.'",
-      "question_translation": {
-        "Hindi": "कहें: 'My colleagues are very supportive.'",
-        "Japanese": "言ってください: 'My colleagues are very supportive.'"
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'She manages the team responsibilities.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She manages the team responsibilities.'",
+          "Japanese": "言ってください: 'She manages the team responsibilities.'"
+        },
+        "options": [],
+        "answer": "she manages the team responsibilities"
       },
-      "options": [],
-      "answer": "my colleagues are very supportive"
-    },
-    {
-      "id": "speak4",
-      "type": "speaking",
-      "question": "Say: 'She manages the team responsibilities.'",
-      "question_translation": {
-        "Hindi": "कहें: 'She manages the team responsibilities.'",
-        "Japanese": "言ってください: 'She manages the team responsibilities.'"
-      },
-      "options": [],
-      "answer": "she manages the team responsibilities"
-    },
-    {
-      "id": "speak5",
-      "type": "speaking",
-      "question": "Say: 'Work-life balance is important for me.'",
-      "question_translation": {
-        "Hindi": "कहें: 'Work-life balance is important for me.'",
-        "Japanese": "言ってください: 'Work-life balance is important for me.'"
-      },
-      "options": [],
-      "answer": "work life balance is important for me"
-    }
-  ]
-}
-
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Work-life balance is important for me.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Work-life balance is important for me.'",
+          "Japanese": "言ってください: 'Work-life balance is important for me.'"
+        },
+        "options": [],
+        "answer": "work life balance is important for me"
+      }
+    ]
+  }
 }
