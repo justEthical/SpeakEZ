@@ -1,4 +1,548 @@
 {
-  "id": 45,
-  "message": "This is file number 45"
+  "id": "lesson_register_001",
+  "lesson_name": "Register: Semi-formal vs. Informal",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "informal",
+        "word_translation": {
+          "Hindi": "अनौपचारिक",
+          "Japanese": "インフォーマル / くだけた"
+        },
+        "meaning": "Casual style of communication used with friends, family, or in relaxed settings",
+        "meaning_translation": {
+          "Hindi": "दोस्तों, परिवार या आरामदायक वातावरण में प्रयोग होने वाली सामान्य शैली",
+          "Japanese": "友人や家族、くだけた場面で使うカジュアルな話し方"
+        },
+        "examples": [
+          {
+            "sentence": "Hey! What’s up?",
+            "translation": {
+              "Hindi": "अरे! क्या हाल है?",
+              "Japanese": "やあ！元気？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "semi-formal",
+        "word_translation": {
+          "Hindi": "अर्ध-औपचारिक",
+          "Japanese": "セミフォーマル"
+        },
+        "meaning": "Polite and respectful style, less formal than business/professional language",
+        "meaning_translation": {
+          "Hindi": "शिष्ट और सम्मानजनक शैली, व्यावसायिक भाषा से कम औपचारिक",
+          "Japanese": "ビジネスや公式の言葉より少しカジュアルだが礼儀正しい言い方"
+        },
+        "examples": [
+          {
+            "sentence": "Hello, how are you doing?",
+            "translation": {
+              "Hindi": "नमस्ते, आप कैसे हैं?",
+              "Japanese": "こんにちは、お元気ですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "slang",
+        "word_translation": {
+          "Hindi": "बोलचाल की भाषा / स्लैंग",
+          "Japanese": "俗語 / スラング"
+        },
+        "meaning": "Very informal words and expressions, often used by particular groups",
+        "meaning_translation": {
+          "Hindi": "बहुत ही अनौपचारिक शब्द और अभिव्यक्तियाँ, अक्सर विशेष समूहों द्वारा उपयोग",
+          "Japanese": "非常にくだけた表現で、特定の集団が使うことが多い"
+        },
+        "examples": [
+          {
+            "sentence": "That movie was lit!",
+            "translation": {
+              "Hindi": "वह फिल्म जबरदस्त थी!",
+              "Japanese": "その映画は最高だった！"
+            }
+          }
+        ]
+      },
+      {
+        "word": "polite expressions",
+        "word_translation": {
+          "Hindi": "विनम्र अभिव्यक्तियाँ",
+          "Japanese": "丁寧な表現"
+        },
+        "meaning": "Expressions used to show respect and courtesy in semi-formal situations",
+        "meaning_translation": {
+          "Hindi": "अर्ध-औपचारिक परिस्थितियों में सम्मान और शिष्टाचार दिखाने के लिए उपयोग",
+          "Japanese": "セミフォーマルな状況で礼儀や丁寧さを示す表現"
+        },
+        "examples": [
+          {
+            "sentence": "Could you please send me the details?",
+            "translation": {
+              "Hindi": "क्या आप कृपया मुझे विवरण भेज सकते हैं?",
+              "Japanese": "詳細を送っていただけますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contractions",
+        "word_translation": {
+          "Hindi": "संक्षिप्त रूप",
+          "Japanese": "短縮形"
+        },
+        "meaning": "Shortened forms of words common in informal English",
+        "meaning_translation": {
+          "Hindi": "अनौपचारिक अंग्रेज़ी में सामान्यतः प्रयोग किए जाने वाले शब्दों के संक्षिप्त रूप",
+          "Japanese": "インフォーマルな英語でよく使われる短縮形"
+        },
+        "examples": [
+          {
+            "sentence": "I’m going out now.",
+            "translation": {
+              "Hindi": "मैं अभी बाहर जा रहा हूँ।",
+              "Japanese": "今出かけます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "greetings",
+        "word_translation": {
+          "Hindi": "नमस्कार/अभिवादन",
+          "Japanese": "挨拶"
+        },
+        "meaning": "Different ways of starting a conversation depending on register",
+        "meaning_translation": {
+          "Hindi": "बातचीत शुरू करने के अलग-अलग तरीके जो रजिस्टर पर निर्भर करते हैं",
+          "Japanese": "会話を始めるときの挨拶、話し方のスタイルによって異なる"
+        },
+        "examples": [
+          {
+            "sentence": "Informal: Hi! Semi-formal: Good morning.",
+            "translation": {
+              "Hindi": "अनौपचारिक: हाय! अर्ध-औपचारिक: शुभ प्रभात।",
+              "Japanese": "インフォーマル: Hi! セミフォーマル: Good morning."
+            }
+          }
+        ]
+      },
+      {
+        "word": "farewells",
+        "word_translation": {
+          "Hindi": "विदाई",
+          "Japanese": "別れの挨拶"
+        },
+        "meaning": "Ways of ending a conversation depending on register",
+        "meaning_translation": {
+          "Hindi": "बातचीत खत्म करने के अलग-अलग तरीके, रजिस्टर पर निर्भर करते हैं",
+          "Japanese": "会話を終えるときの表現、話し方のスタイルによって異なる"
+        },
+        "examples": [
+          {
+            "sentence": "Informal: See ya! Semi-formal: Goodbye, take care.",
+            "translation": {
+              "Hindi": "अनौपचारिक: फिर मिलते हैं! अर्ध-औपचारिक: अलविदा, ध्यान रखें।",
+              "Japanese": "インフォーマル: See ya! セミフォーマル: Goodbye, take care."
+            }
+          }
+        ]
+      },
+      {
+        "word": "requests",
+        "word_translation": {
+          "Hindi": "अनुरोध",
+          "Japanese": "依頼"
+        },
+        "meaning": "Phrases to ask for something in different registers",
+        "meaning_translation": {
+          "Hindi": "कुछ माँगने के लिए अलग-अलग रजिस्टर में वाक्यांश",
+          "Japanese": "何かを頼むときの表現、話し方のスタイルによって異なる"
+        },
+        "examples": [
+          {
+            "sentence": "Informal: Can you give me that? Semi-formal: Could you please give me that?",
+            "translation": {
+              "Hindi": "अनौपचारिक: क्या तुम मुझे वह दे सकते हो? अर्ध-औपचारिक: क्या आप कृपया मुझे वह दे सकते हैं?",
+              "Japanese": "インフォーマル: Can you give me that? セミフォーマル: Could you please give me that?"
+            }
+          }
+        ]
+      },
+      {
+        "word": "apologies",
+        "word_translation": {
+          "Hindi": "माफ़ी",
+          "Japanese": "謝罪"
+        },
+        "meaning": "Different ways to apologize in informal vs semi-formal registers",
+        "meaning_translation": {
+          "Hindi": "अनौपचारिक बनाम अर्ध-औपचारिक रजिस्टर में माफ़ी माँगने के अलग-अलग तरीके",
+          "Japanese": "インフォーマルとセミフォーマルでの謝罪の仕方"
+        },
+        "examples": [
+          {
+            "sentence": "Informal: Sorry! Semi-formal: I apologize for the delay.",
+            "translation": {
+              "Hindi": "अनौपचारिक: सॉरी! अर्ध-औपचारिक: देरी के लिए मैं माफ़ी चाहता हूँ।",
+              "Japanese": "インフォーマル: Sorry! セミフォーマル: I apologize for the delay."
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Use of Contractions",
+        "explanation": "Contractions (I’m, don’t, can’t) are more common in informal English, while semi-formal English often avoids them.",
+        "explanation_translation": {
+          "Hindi": "संक्षिप्त रूप (I’m, don’t, can’t) अनौपचारिक अंग्रेज़ी में अधिक सामान्य हैं, जबकि अर्ध-औपचारिक अंग्रेज़ी में इनसे बचा जाता है।",
+          "Japanese": "短縮形（I’m, don’t, can’t）はインフォーマルな英語でよく使われますが、セミフォーマルな英語では避けられることが多いです。"
+        }
+      },
+      {
+        "title": "Choice of Vocabulary",
+        "explanation": "Semi-formal register uses polite and neutral words, while informal register uses casual, sometimes slang expressions.",
+        "explanation_translation": {
+          "Hindi": "अर्ध-औपचारिक रजिस्टर शिष्ट और सामान्य शब्दों का प्रयोग करता है, जबकि अनौपचारिक रजिस्टर साधारण या स्लैंग शब्दों का प्रयोग करता है।",
+          "Japanese": "セミフォーマルな言葉は丁寧で中立的な単語を使い、インフォーマルな言葉はカジュアルで時にスラングを使います。"
+        }
+      },
+      {
+        "title": "Politeness Strategies",
+        "explanation": "In semi-formal register, requests and apologies are phrased more politely (Could you… / I apologize…), while informal register is direct (Can you… / Sorry!).",
+        "explanation_translation": {
+          "Hindi": "अर्ध-औपचारिक रजिस्टर में अनुरोध और माफ़ी अधिक शिष्ट रूप में व्यक्त की जाती हैं (Could you… / I apologize…), जबकि अनौपचारिक रजिस्टर सीधा होता है (Can you… / Sorry!).",
+          "Japanese": "セミフォーマルでは依頼や謝罪をより丁寧に表現します（Could you… / I apologize…）。インフォーマルでは直接的です（Can you… / Sorry!）。"
+        }
+      },
+      {
+        "title": "Greetings and Closings",
+        "explanation": "Semi-formal English prefers full greetings and closings (Good morning, Sincerely), while informal English often uses short phrases (Hi, Bye).",
+        "explanation_translation": {
+          "Hindi": "अर्ध-औपचारिक अंग्रेज़ी में पूरे अभिवादन और विदाई (Good morning, Sincerely) पसंद किए जाते हैं, जबकि अनौपचारिक अंग्रेज़ी में छोटे वाक्यांश (Hi, Bye) का प्रयोग होता है।",
+          "Japanese": "セミフォーマルでは完全な挨拶や結び（Good morning, Sincerely）を使い、インフォーマルでは短いフレーズ（Hi, Bye）がよく使われます。"
+        }
+      },
+      {
+        "title": "Grammar and Sentence Length",
+        "explanation": "Semi-formal register often uses complete sentences and avoids very short forms, while informal register allows ellipsis and short forms.",
+        "explanation_translation": {
+          "Hindi": "अर्ध-औपचारिक रजिस्टर में पूर्ण वाक्यों का प्रयोग होता है और बहुत छोटे रूपों से बचा जाता है, जबकि अनौपचारिक रजिस्टर में छोटे रूप और अधूरे वाक्य स्वीकार्य हैं।",
+          "Japanese": "セミフォーマルでは完全な文を使い、省略を避けます。インフォーマルでは省略や短い形が許されます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which register is more likely to use slang?",
+      "question_translation": {
+        "Hindi": "कौन सा रजिस्टर स्लैंग का अधिक उपयोग करता है?",
+        "Japanese": "どちらのレジスターがスラングを使いやすいですか？"
+      },
+      "options": [
+        "Semi-formal",
+        "Informal",
+        "Formal"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "___, could you please send me the report?",
+      "question_translation": {
+        "Hindi": "___, क्या आप कृपया मुझे रिपोर्ट भेज सकते हैं?",
+        "Japanese": "___、レポートを送っていただけますか？"
+      },
+      "options": [
+        "Hey",
+        "Hi",
+        "Hello"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Contractions like 'I’m' and 'don’t' are more common in informal English.",
+      "question_translation": {
+        "Hindi": "'I’m' और 'don’t' जैसी संक्षिप्तियाँ अनौपचारिक अंग्रेज़ी में अधिक सामान्य हैं।",
+        "Japanese": "「I’m」や「don’t」のような短縮形はインフォーマルな英語でよく使われます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which farewell is semi-formal?",
+      "question_translation": {
+        "Hindi": "कौन सा विदाई वाक्यांश अर्ध-औपचारिक है?",
+        "Japanese": "どの別れの挨拶がセミフォーマルですか？"
+      },
+      "options": [
+        "See ya!",
+        "Catch you later!",
+        "Goodbye, take care."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Informal: Sorry! Semi-formal: I ___ for the mistake.",
+      "question_translation": {
+        "Hindi": "अनौपचारिक: Sorry! अर्ध-औपचारिक: I ___ for the mistake.",
+        "Japanese": "インフォーマル: Sorry! セミフォーマル: I ___ for the mistake."
+      },
+      "options": [
+        "apologize",
+        "regret",
+        "say sorry"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange (semi-formal): [details, please, me, could, you, the, send]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें (अर्ध-औपचारिक): [details, please, me, could, you, the, send]",
+        "Japanese": "並べ替え（セミフォーマル）: [details, please, me, could, you, the, send]"
+      },
+      "options": [
+        "details",
+        "please",
+        "me",
+        "could",
+        "you",
+        "the",
+        "send"
+      ],
+      "answer": [
+        "Could",
+        "you",
+        "please",
+        "send",
+        "me",
+        "the",
+        "details"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Informal: Can you give me that? Semi-formal: ___ you please give me that?",
+      "question_translation": {
+        "Hindi": "अनौपचारिक: Can you give me that? अर्ध-औपचारिक: ___ you please give me that?",
+        "Japanese": "インフォーマル: Can you give me that? セミフォーマル: ___ you please give me that?"
+      },
+      "options": [
+        "Can",
+        "Could",
+        "Will"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which greeting is more suitable for semi-formal writing?",
+      "question_translation": {
+        "Hindi": "कौन सा अभिवादन अर्ध-औपचारिक लेखन के लिए अधिक उपयुक्त है?",
+        "Japanese": "どの挨拶がセミフォーマルな文章により適していますか？"
+      },
+      "options": [
+        "Hi there!",
+        "Hey!",
+        "Good morning,"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange (informal): [up, what’s]?",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें (अनौपचारिक): [up, what’s]?",
+        "Japanese": "並べ替え（インフォーマル）: [up, what’s]?"
+      },
+      "options": [
+        "up",
+        "what’s"
+      ],
+      "answer": [
+        "What’s",
+        "up"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Semi-formal: I look forward to your reply. Informal: ___ me back soon!",
+      "question_translation": {
+        "Hindi": "अर्ध-औपचारिक: I look forward to your reply. अनौपचारिक: ___ me back soon!",
+        "Japanese": "セミフォーマル: I look forward to your reply. インフォーマル: ___ me back soon!"
+      },
+      "options": [
+        "Reply",
+        "Text",
+        "Mail"
+      ],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What register is the speaker using?",
+      "audio_text": "Hi, can you send me that file now?",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सा रजिस्टर प्रयोग कर रहा है?",
+        "Japanese": "話者はどのレジスターを使っていますか？"
+      },
+      "options": [
+        "Semi-formal",
+        "Informal",
+        "Formal"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The phrase 'I apologize for the inconvenience' is semi-formal.",
+      "audio_text": "I apologize for the inconvenience.",
+      "question_translation": {
+        "Hindi": "वाक्यांश 'I apologize for the inconvenience' अर्ध-औपचारिक है।",
+        "Japanese": "「I apologize for the inconvenience」という表現はセミフォーマルです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which intention does the speaker show?",
+      "audio_text": "Could you please join us for the meeting tomorrow?",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सा इरादा दिखाता है?",
+        "Japanese": "話者はどんな意図を示していますか？"
+      },
+      "options": [
+        "Semi-formal invitation",
+        "Informal invitation",
+        "Formal rejection"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Which register matches the phrase: 'Catch you later!'?",
+      "audio_text": "Catch you later!",
+      "question_translation": {
+        "Hindi": "कौन सा रजिस्टर 'Catch you later!' वाक्यांश से मेल खाता है?",
+        "Japanese": "「Catch you later!」という表現はどのレジスターに当たりますか？"
+      },
+      "options": [
+        "Formal",
+        "Semi-formal",
+        "Informal"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The sentence 'Good morning, I hope you are doing well.' is semi-formal.",
+      "audio_text": "Good morning, I hope you are doing well.",
+      "question_translation": {
+        "Hindi": "वाक्य 'Good morning, I hope you are doing well.' अर्ध-औपचारिक है।",
+        "Japanese": "「Good morning, I hope you are doing well.」という文はセミフォーマルです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Could you please help me with this?' (semi-formal)",
+      "question_translation": {
+        "Hindi": "कहें: 'Could you please help me with this?' (अर्ध-औपचारिक)",
+        "Japanese": "言ってください: 'Could you please help me with this?'（セミフォーマル）"
+      },
+      "options": [],
+      "answer": "could you please help me with this"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Can you help me with this?' (informal)",
+      "question_translation": {
+        "Hindi": "कहें: 'Can you help me with this?' (अनौपचारिक)",
+        "Japanese": "言ってください: 'Can you help me with this?'（インフォーマル）"
+      },
+      "options": [],
+      "answer": "can you help me with this"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I apologize for the delay.' (semi-formal)",
+      "question_translation": {
+        "Hindi": "कहें: 'I apologize for the delay.' (अर्ध-औपचारिक)",
+        "Japanese": "言ってください: 'I apologize for the delay.'（セミフォーマル）"
+      },
+      "options": [],
+      "answer": "i apologize for the delay"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Sorry, I’m late!' (informal)",
+      "question_translation": {
+        "Hindi": "कहें: 'Sorry, I’m late!' (अनौपचारिक)",
+        "Japanese": "言ってください: 'Sorry, I’m late!'（インフォーマル）"
+      },
+      "options": [],
+      "answer": "sorry im late"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Goodbye, take care.' (semi-formal)",
+      "question_translation": {
+        "Hindi": "कहें: 'Goodbye, take care.' (अर्ध-औपचारिक)",
+        "Japanese": "言ってください: 'Goodbye, take care.'（セミフォーマル）"
+      },
+      "options": [],
+      "answer": "goodbye take care"
+    }
+  ]
+}
+
 }

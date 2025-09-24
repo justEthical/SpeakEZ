@@ -1,4 +1,571 @@
 {
-  "id": 46,
-  "message": "This is file number 46"
+  "id": "lesson_quantifiers_001",
+  "lesson_name": "Precision with Quantifiers & Approximators",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "exactly",
+        "word_translation": {
+          "Hindi": "बिल्कुल",
+          "Japanese": "正確に"
+        },
+        "meaning": "Used to show something is precise or correct",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को सटीक या सही दिखाने के लिए प्रयोग होता है",
+          "Japanese": "何かが正確または正しいことを示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "There are exactly 20 students in the class.",
+            "translation": {
+              "Hindi": "कक्षा में बिल्कुल 20 छात्र हैं।",
+              "Japanese": "クラスには正確に20人の学生がいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "approximately",
+        "word_translation": {
+          "Hindi": "लगभग",
+          "Japanese": "およそ"
+        },
+        "meaning": "Used to show that something is almost, but not completely, accurate",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो पूरी तरह सटीक नहीं है, पर लगभग सही है",
+          "Japanese": "完全ではないが、おおよそ正しいことを示す"
+        },
+        "examples": [
+          {
+            "sentence": "The journey takes approximately two hours.",
+            "translation": {
+              "Hindi": "यात्रा में लगभग दो घंटे लगते हैं।",
+              "Japanese": "旅はおよそ2時間かかります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "around",
+        "word_translation": {
+          "Hindi": "आसपास",
+          "Japanese": "だいたい"
+        },
+        "meaning": "Used to indicate an inexact but close number or time",
+        "meaning_translation": {
+          "Hindi": "एक अनुमानित लेकिन क़रीबी संख्या या समय बताने के लिए प्रयोग",
+          "Japanese": "正確ではないが近い数や時間を示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "There were around 50 people at the party.",
+            "translation": {
+              "Hindi": "पार्टी में लगभग 50 लोग थे।",
+              "Japanese": "パーティーにはだいたい50人いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "roughly",
+        "word_translation": {
+          "Hindi": "करीब-करीब",
+          "Japanese": "おおよそ"
+        },
+        "meaning": "Similar to 'approximately', used to show an estimate",
+        "meaning_translation": {
+          "Hindi": "'लगभग' के समान, अनुमान दिखाने के लिए प्रयोग",
+          "Japanese": "「およそ」と同じで、推定を示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "The book costs roughly $15.",
+            "translation": {
+              "Hindi": "पुस्तक की कीमत करीब-करीब 15 डॉलर है।",
+              "Japanese": "その本はおおよそ15ドルです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "more or less",
+        "word_translation": {
+          "Hindi": "कमोबेश",
+          "Japanese": "ほぼ"
+        },
+        "meaning": "Means 'almost', used when something is mostly true",
+        "meaning_translation": {
+          "Hindi": "'लगभग' का अर्थ, जब कुछ ज्यादातर सच हो",
+          "Japanese": "「ほぼ」と同じ意味で、大体正しいときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "We’re more or less finished with the project.",
+            "translation": {
+              "Hindi": "हम कमोबेश परियोजना समाप्त कर चुके हैं।",
+              "Japanese": "私たちはほぼプロジェクトを終えました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "about",
+        "word_translation": {
+          "Hindi": "लगभग / बारे में",
+          "Japanese": "約"
+        },
+        "meaning": "Often used like 'around' to give an approximate number",
+        "meaning_translation": {
+          "Hindi": "'आसपास' की तरह प्रयोग होता है किसी अनुमानित संख्या के लिए",
+          "Japanese": "「around」と同じで、おおよその数を示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "I waited for about 10 minutes.",
+            "translation": {
+              "Hindi": "मैंने लगभग 10 मिनट इंतज़ार किया।",
+              "Japanese": "私は約10分待ちました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "exact figure",
+        "word_translation": {
+          "Hindi": "सटीक संख्या",
+          "Japanese": "正確な数値"
+        },
+        "meaning": "A precise number without estimation",
+        "meaning_translation": {
+          "Hindi": "बिना अनुमान के एक सटीक संख्या",
+          "Japanese": "推定ではなく正確な数字"
+        },
+        "examples": [
+          {
+            "sentence": "The exact figure is 12,457 people.",
+            "translation": {
+              "Hindi": "सटीक संख्या 12,457 लोग है।",
+              "Japanese": "正確な数は12,457人です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "give or take",
+        "word_translation": {
+          "Hindi": "कुछ कम या ज़्यादा",
+          "Japanese": "前後"
+        },
+        "meaning": "Used after a number to show it may be slightly more or less",
+        "meaning_translation": {
+          "Hindi": "किसी संख्या के बाद प्रयोग, जो थोड़ी कम या ज़्यादा हो सकती है",
+          "Japanese": "数字の後に使い、多少の誤差があることを示す"
+        },
+        "examples": [
+          {
+            "sentence": "It’s 100 kilometers, give or take a few.",
+            "translation": {
+              "Hindi": "यह 100 किलोमीटर है, कुछ कम या ज़्यादा।",
+              "Japanese": "100キロ前後です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "almost",
+        "word_translation": {
+          "Hindi": "लगभग",
+          "Japanese": "ほとんど"
+        },
+        "meaning": "Very close to something but not completely",
+        "meaning_translation": {
+          "Hindi": "कुछ के बहुत क़रीब लेकिन पूरी तरह नहीं",
+          "Japanese": "ほとんど完全だが、完全ではない"
+        },
+        "examples": [
+          {
+            "sentence": "It’s almost midnight.",
+            "translation": {
+              "Hindi": "लगभग आधी रात हो गई है।",
+              "Japanese": "ほとんど真夜中です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "practically",
+        "word_translation": {
+          "Hindi": "व्यावहारिक रूप से / लगभग",
+          "Japanese": "事実上"
+        },
+        "meaning": "Used to emphasize that something is nearly true",
+        "meaning_translation": {
+          "Hindi": "ज़ोर देने के लिए प्रयोग कि कुछ लगभग सच है",
+          "Japanese": "ほとんど正しいことを強調するときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "The instructions were practically impossible to follow.",
+            "translation": {
+              "Hindi": "निर्देशों का पालन करना लगभग असंभव था।",
+              "Japanese": "指示に従うのは事実上不可能でした。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Quantifiers vs. Approximators",
+        "explanation": "Quantifiers (all, many, a few, exactly) express specific amounts. Approximators (about, around, roughly) express inexact amounts.",
+        "explanation_translation": {
+          "Hindi": "क्वांटिफ़ायर्स (all, many, a few, exactly) विशिष्ट मात्रा बताते हैं। एप्रॉक्सिमेटर्स (about, around, roughly) अनुमानित मात्रा बताते हैं।",
+          "Japanese": "数量詞（all, many, a few, exactly）は具体的な量を示し、近似語（about, around, roughly）は不正確な量を示します。"
+        }
+      },
+      {
+        "title": "Precision",
+        "explanation": "Use words like 'exactly' or 'the exact figure' when accuracy is important.",
+        "explanation_translation": {
+          "Hindi": "जब सटीकता महत्वपूर्ण हो तो 'exactly' या 'the exact figure' जैसे शब्दों का प्रयोग करें।",
+          "Japanese": "正確さが重要なときは「exactly」や「the exact figure」を使います。"
+        }
+      },
+      {
+        "title": "Approximation",
+        "explanation": "Use words like 'around', 'about', 'roughly', or 'give or take' when giving estimates.",
+        "explanation_translation": {
+          "Hindi": "अनुमान देते समय 'around', 'about', 'roughly', या 'give or take' जैसे शब्दों का प्रयोग करें।",
+          "Japanese": "推定を述べるときは「around」「about」「roughly」「give or take」を使います。"
+        }
+      },
+      {
+        "title": "Formality",
+        "explanation": "In formal contexts, 'approximately' and 'approximately 100' are preferred; in informal speech, 'about 100' or 'around 100' is common.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक संदर्भों में 'approximately' और 'approximately 100' पसंद किए जाते हैं; अनौपचारिक भाषण में 'about 100' या 'around 100' सामान्य है।",
+          "Japanese": "フォーマルな場面では「approximately」「approximately 100」が好まれ、インフォーマルでは「about 100」「around 100」がよく使われます。"
+        }
+      },
+      {
+        "title": "Near Completeness",
+        "explanation": "Words like 'almost' and 'practically' emphasize that something is nearly but not completely true.",
+        "explanation_translation": {
+          "Hindi": "'almost' और 'practically' जैसे शब्द ज़ोर देते हैं कि कुछ लगभग सच है लेकिन पूरी तरह नहीं।",
+          "Japanese": "「almost」「practically」は、完全ではないがほとんど正しいことを強調します。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word shows complete precision?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द पूरी सटीकता दिखाता है?",
+        "Japanese": "どの単語が完全な正確さを示しますか？"
+      },
+      "options": [
+        "exactly",
+        "around",
+        "roughly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The trip will take ___ three hours, not more.",
+      "question_translation": {
+        "Hindi": "यात्रा में ___ तीन घंटे लगेंगे, इससे अधिक नहीं।",
+        "Japanese": "旅行は___3時間かかります、それ以上ではありません。"
+      },
+      "options": [
+        "approximately",
+        "exactly",
+        "around"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "'Roughly' and 'approximately' can both be used for estimates.",
+      "question_translation": {
+        "Hindi": "'Roughly' और 'approximately' दोनों का प्रयोग अनुमान के लिए किया जा सकता है।",
+        "Japanese": "「roughly」と「approximately」は両方とも推定に使えます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase suggests slight flexibility in numbers?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश संख्या में थोड़ी लचीलापन दर्शाता है?",
+        "Japanese": "どのフレーズが数に多少の幅を持たせていますか？"
+      },
+      "options": [
+        "give or take",
+        "exact figure",
+        "precisely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The stadium holds ___ 40,000 people.",
+      "question_translation": {
+        "Hindi": "स्टेडियम में ___ 40,000 लोग बैठ सकते हैं।",
+        "Japanese": "スタジアムには___4万人入ります。"
+      },
+      "options": [
+        "about",
+        "exactly",
+        "practically"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [students, there, exactly, 30, are]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [students, there, exactly, 30, are]",
+        "Japanese": "並べ替え: [students, there, exactly, 30, are]"
+      },
+      "options": [
+        "students",
+        "there",
+        "exactly",
+        "30",
+        "are"
+      ],
+      "answer": [
+        "There",
+        "are",
+        "exactly",
+        "30",
+        "students"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The show starts at ___ 8 p.m.",
+      "question_translation": {
+        "Hindi": "कार्यक्रम ___ रात 8 बजे शुरू होगा।",
+        "Japanese": "ショーは___午後8時に始まります。"
+      },
+      "options": [
+        "around",
+        "exactly",
+        "roughly"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どれが正しい文ですか？"
+      },
+      "options": [
+        "There are give or take 50 chairs.",
+        "There are 50 chairs, give or take a few.",
+        "There give or take are 50 chairs."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [roughly, $10, costs, the, meal]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [roughly, $10, costs, the, meal]",
+        "Japanese": "並べ替え: [roughly, $10, costs, the, meal]"
+      },
+      "options": [
+        "roughly",
+        "$10",
+        "costs",
+        "the",
+        "meal"
+      ],
+      "answer": [
+        "The",
+        "meal",
+        "costs",
+        "roughly",
+        "$10"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "We’re ___ finished with the project; just a few tasks left.",
+      "question_translation": {
+        "Hindi": "हम परियोजना लगभग समाप्त कर चुके हैं; बस कुछ कार्य बाकी हैं।",
+        "Japanese": "私たちはプロジェクトを___終えました。あと少しだけ残っています。"
+      },
+      "options": [
+        "more or less",
+        "exactly",
+        "precisely"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What number does the speaker mention?",
+      "audio_text": "There are approximately 200 people in the hall.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी संख्या का उल्लेख करता है?",
+        "Japanese": "話者はどの数を言いましたか？"
+      },
+      "options": [
+        "200",
+        "250",
+        "150"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker gives an exact figure.",
+      "audio_text": "The exact figure is 1,235 visitors this week.",
+      "question_translation": {
+        "Hindi": "वक्ता ने एक सटीक संख्या दी है।",
+        "Japanese": "話者は正確な数字を示しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "How long will the journey take?",
+      "audio_text": "It will take about 5 hours, give or take.",
+      "question_translation": {
+        "Hindi": "यात्रा में कितना समय लगेगा?",
+        "Japanese": "旅にはどのくらい時間がかかりますか？"
+      },
+      "options": [
+        "5 hours exactly",
+        "About 5 hours",
+        "Less than 5 hours"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Which meaning best fits 'almost midnight'?",
+      "audio_text": "It’s almost midnight.",
+      "question_translation": {
+        "Hindi": "'लगभग आधी रात' का सबसे उपयुक्त अर्थ कौन सा है?",
+        "Japanese": "「almost midnight」に最も合う意味はどれですか？"
+      },
+      "options": [
+        "It is exactly midnight.",
+        "It is close to midnight.",
+        "It is far from midnight."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker uses an approximator.",
+      "audio_text": "There were around 50 people at the event.",
+      "question_translation": {
+        "Hindi": "वक्ता ने एप्रॉक्सिमेटर का प्रयोग किया है।",
+        "Japanese": "話者は近似表現を使っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'There are exactly 10 books on the table.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मेज़ पर बिल्कुल 10 किताबें हैं।'",
+        "Japanese": "言ってください: 'テーブルの上に正確に10冊の本があります。'"
+      },
+      "options": [],
+      "answer": "there are exactly 10 books on the table"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The meeting lasted approximately two hours.'",
+      "question_translation": {
+        "Hindi": "कहें: 'बैठक लगभग दो घंटे चली।'",
+        "Japanese": "言ってください: '会議はおよそ2時間続きました。'"
+      },
+      "options": [],
+      "answer": "the meeting lasted approximately two hours"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'There were around 100 guests at the wedding.'",
+      "question_translation": {
+        "Hindi": "कहें: 'शादी में लगभग 100 मेहमान थे।'",
+        "Japanese": "言ってください: '結婚式にはだいたい100人の客がいました。'"
+      },
+      "options": [],
+      "answer": "there were around 100 guests at the wedding"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'It’s almost time to leave.'",
+      "question_translation": {
+        "Hindi": "कहें: 'लगभग जाने का समय हो गया है।'",
+        "Japanese": "言ってください: 'そろそろ出発の時間です。'"
+      },
+      "options": [],
+      "answer": "its almost time to leave"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The distance is 200 kilometers, give or take a few.'",
+      "question_translation": {
+        "Hindi": "कहें: 'दूरी 200 किलोमीटर है, कुछ कम या ज़्यादा।'",
+        "Japanese": "言ってください: '距離は200キロです、多少の誤差があります。'"
+      },
+      "options": [],
+      "answer": "the distance is 200 kilometers give or take a few"
+    }
+  ]
+}
+
 }

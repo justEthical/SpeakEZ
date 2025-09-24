@@ -1,4 +1,546 @@
 {
-  "id": 23,
-  "message": "This is file number 23"
+  "id": "lesson_vocab_opinion_001",
+  "lesson_name": "Nuanced Vocabulary: Opinion & Evaluation",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "perspective",
+        "word_translation": {
+          "Hindi": "दृष्टिकोण",
+          "Japanese": "視点"
+        },
+        "meaning": "A particular way of thinking about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में सोचने का एक विशेष तरीका",
+          "Japanese": "物事を考える特定の方法"
+        },
+        "examples": [
+          {
+            "sentence": "Her perspective on the issue was very different from mine.",
+            "translation": {
+              "Hindi": "इस मुद्दे पर उसका दृष्टिकोण मेरे से बहुत अलग था।",
+              "Japanese": "その問題に対する彼女の視点は私のものとは大きく異なっていました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "judgment",
+        "word_translation": {
+          "Hindi": "निर्णय / विवेक",
+          "Japanese": "判断"
+        },
+        "meaning": "An opinion formed after careful thought",
+        "meaning_translation": {
+          "Hindi": "सावधानीपूर्वक विचार के बाद बनाई गई राय",
+          "Japanese": "慎重に考えた後の意見"
+        },
+        "examples": [
+          {
+            "sentence": "The teacher’s judgment of the essay was fair.",
+            "translation": {
+              "Hindi": "शिक्षक का निबंध पर निर्णय उचित था।",
+              "Japanese": "教師のエッセイに対する判断は公正でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bias",
+        "word_translation": {
+          "Hindi": "पक्षपात",
+          "Japanese": "偏見"
+        },
+        "meaning": "An unfair preference or dislike for something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के प्रति अनुचित पसंद या नापसंद",
+          "Japanese": "何かに対する不公平な好みや嫌悪"
+        },
+        "examples": [
+          {
+            "sentence": "The report showed a clear bias towards the company.",
+            "translation": {
+              "Hindi": "रिपोर्ट ने कंपनी के प्रति स्पष्ट पक्षपात दिखाया।",
+              "Japanese": "その報告書は会社に対する明らかな偏見を示していました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critique",
+        "word_translation": {
+          "Hindi": "आलोचना",
+          "Japanese": "批評"
+        },
+        "meaning": "A detailed analysis and judgment of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का विस्तृत विश्लेषण और मूल्यांकन",
+          "Japanese": "何かの詳細な分析と評価"
+        },
+        "examples": [
+          {
+            "sentence": "The film received a thoughtful critique from reviewers.",
+            "translation": {
+              "Hindi": "फिल्म को समीक्षकों से विचारशील आलोचना मिली।",
+              "Japanese": "その映画は評論家から思慮深い批評を受けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "valid",
+        "word_translation": {
+          "Hindi": "वैध / उचित",
+          "Japanese": "妥当な"
+        },
+        "meaning": "Reasonable and based on good evidence",
+        "meaning_translation": {
+          "Hindi": "तर्कसंगत और अच्छे प्रमाण पर आधारित",
+          "Japanese": "合理的で十分な証拠に基づいていること"
+        },
+        "examples": [
+          {
+            "sentence": "She made a valid point during the discussion.",
+            "translation": {
+              "Hindi": "उसने चर्चा के दौरान एक उचित बात कही।",
+              "Japanese": "彼女は議論の中で妥当な意見を述べました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "constructive",
+        "word_translation": {
+          "Hindi": "सकारात्मक / रचनात्मक",
+          "Japanese": "建設的な"
+        },
+        "meaning": "Helpful and intended to improve something",
+        "meaning_translation": {
+          "Hindi": "सहायक और किसी चीज़ को सुधारने के उद्देश्य से",
+          "Japanese": "役立ち、何かを改善することを目的とした"
+        },
+        "examples": [
+          {
+            "sentence": "He gave constructive feedback on my presentation.",
+            "translation": {
+              "Hindi": "उसने मेरी प्रस्तुति पर रचनात्मक प्रतिक्रिया दी।",
+              "Japanese": "彼は私のプレゼンテーションに建設的なフィードバックをしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "subjective",
+        "word_translation": {
+          "Hindi": "व्यक्तिपरक",
+          "Japanese": "主観的な"
+        },
+        "meaning": "Based on personal feelings rather than facts",
+        "meaning_translation": {
+          "Hindi": "तथ्यों की बजाय व्यक्तिगत भावनाओं पर आधारित",
+          "Japanese": "事実よりも個人の感情に基づいていること"
+        },
+        "examples": [
+          {
+            "sentence": "Artistic taste is often subjective.",
+            "translation": {
+              "Hindi": "कलात्मक रुचि अक्सर व्यक्तिपरक होती है।",
+              "Japanese": "芸術的な好みはしばしば主観的です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "objective",
+        "word_translation": {
+          "Hindi": "निष्पक्ष",
+          "Japanese": "客観的な"
+        },
+        "meaning": "Not influenced by personal feelings; based on facts",
+        "meaning_translation": {
+          "Hindi": "व्यक्तिगत भावनाओं से प्रभावित नहीं; तथ्यों पर आधारित",
+          "Japanese": "個人的な感情に影響されず、事実に基づいていること"
+        },
+        "examples": [
+          {
+            "sentence": "The judge must remain objective during the trial.",
+            "translation": {
+              "Hindi": "न्यायाधीश को मुकदमे के दौरान निष्पक्ष रहना चाहिए।",
+              "Japanese": "裁判中、裁判官は客観的でなければなりません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evaluate",
+        "word_translation": {
+          "Hindi": "मूल्यांकन करना",
+          "Japanese": "評価する"
+        },
+        "meaning": "To carefully examine something and judge its value",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की सावधानीपूर्वक जांच करना और उसके मूल्य का निर्णय लेना",
+          "Japanese": "何かを慎重に調べて、その価値を判断すること"
+        },
+        "examples": [
+          {
+            "sentence": "We need to evaluate the results before making a decision.",
+            "translation": {
+              "Hindi": "निर्णय लेने से पहले हमें परिणामों का मूल्यांकन करना चाहिए।",
+              "Japanese": "決定を下す前に結果を評価する必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assertion",
+        "word_translation": {
+          "Hindi": "दावा",
+          "Japanese": "主張"
+        },
+        "meaning": "A confident statement of opinion or belief",
+        "meaning_translation": {
+          "Hindi": "किसी राय या विश्वास का आत्मविश्वास से किया गया कथन",
+          "Japanese": "意見や信念を自信を持って述べること"
+        },
+        "examples": [
+          {
+            "sentence": "His assertion was supported by strong evidence.",
+            "translation": {
+              "Hindi": "उसका दावा मजबूत प्रमाणों से समर्थित था।",
+              "Japanese": "彼の主張は強い証拠によって裏付けられました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'Opinion' vs 'Judgment'",
+        "explanation": "An 'opinion' is a personal belief, while a 'judgment' is usually based on deeper evaluation and reasoning.",
+        "explanation_translation": {
+          "Hindi": "'opinion' एक व्यक्तिगत विश्वास है, जबकि 'judgment' गहन मूल्यांकन और तर्क पर आधारित होता है।",
+          "Japanese": "「opinion」は個人的な信念であり、「judgment」は通常より深い評価や推論に基づきます。"
+        }
+      },
+      {
+        "title": "Objective vs Subjective",
+        "explanation": "'Objective' means fact-based and unbiased, while 'Subjective' is influenced by personal feelings or opinions.",
+        "explanation_translation": {
+          "Hindi": "'Objective' का अर्थ है तथ्यों पर आधारित और निष्पक्ष, जबकि 'Subjective' व्यक्तिगत भावनाओं या राय से प्रभावित होता है।",
+          "Japanese": "「Objective」は事実に基づき偏りがないことを意味し、「Subjective」は個人的な感情や意見に影響されることを意味します。"
+        }
+      }
+    ]
+  },"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'an unfair preference or dislike'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'अनुचित पसंद या नापसंद' का अर्थ देता है?",
+        "Japanese": "「不公平な好みや嫌悪」を意味する単語はどれですか？"
+      },
+      "options": [
+        "bias",
+        "judgment",
+        "valid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Her essay received a detailed ___ from the professor.",
+      "question_translation": {
+        "Hindi": "उसके निबंध को प्रोफेसर से एक विस्तृत ___ मिला।",
+        "Japanese": "彼女のエッセイは教授から詳細な___を受けました。"
+      },
+      "options": [
+        "critique",
+        "assertion",
+        "bias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Subjective’ means based on personal feelings rather than facts.",
+      "question_translation": {
+        "Hindi": "‘Subjective’ का अर्थ है तथ्यों की बजाय व्यक्तिगत भावनाओं पर आधारित।",
+        "Japanese": "「Subjective」とは、事実ではなく個人の感情に基づくことを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word describes a confident statement of opinion?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी राय का आत्मविश्वासपूर्ण कथन दर्शाता है?",
+        "Japanese": "意見を自信を持って述べることを表す単語はどれですか？"
+      },
+      "options": [
+        "assertion",
+        "evaluation",
+        "perspective"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "We must carefully ___ the evidence before making a decision.",
+      "question_translation": {
+        "Hindi": "निर्णय लेने से पहले हमें सबूतों का सावधानीपूर्वक ___ करना चाहिए।",
+        "Japanese": "決定を下す前に、証拠を慎重に___必要があります。"
+      },
+      "options": [
+        "evaluate",
+        "bias",
+        "share"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [different, perspectives, two, had, they]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [different, perspectives, two, had, they]",
+        "Japanese": "並べ替え: [different, perspectives, two, had, they]"
+      },
+      "options": [
+        "different",
+        "perspectives",
+        "two",
+        "had",
+        "they"
+      ],
+      "answer": [
+        "they",
+        "had",
+        "two",
+        "different",
+        "perspectives"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The judge remained ___ throughout the trial.",
+      "question_translation": {
+        "Hindi": "न्यायाधीश पूरे मुकदमे के दौरान ___ रहे।",
+        "Japanese": "裁判中、裁判官はずっと___でした。"
+      },
+      "options": [
+        "objective",
+        "subjective",
+        "biased"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "Her feedback was constructive and helpful.",
+        "Her feedback constructive and helpful was.",
+        "Her feedbacks were constructives."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [valid, point, made, she, a]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [valid, point, made, she, a]",
+        "Japanese": "並べ替え: [valid, point, made, she, a]"
+      },
+      "options": [
+        "valid",
+        "point",
+        "made",
+        "she",
+        "a"
+      ],
+      "answer": [
+        "she",
+        "made",
+        "a",
+        "valid",
+        "point"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The article shows clear ___ against the candidate.",
+      "question_translation": {
+        "Hindi": "लेख उम्मीदवार के खिलाफ स्पष्ट ___ दिखाता है।",
+        "Japanese": "記事は候補者に対する明らかな___を示しています。"
+      },
+      "options": [
+        "bias",
+        "evaluation",
+        "critique"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker give?",
+      "audio_text": "He gave a constructive critique of my report.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या दिया?",
+        "Japanese": "話者は何を与えましたか？"
+      },
+      "options": [
+        "A constructive critique",
+        "A biased opinion",
+        "An assertion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker remained objective.",
+      "audio_text": "During the debate, she remained completely objective.",
+      "question_translation": {
+        "Hindi": "वक्ता निष्पक्ष रहे।",
+        "Japanese": "話者は客観的であり続けました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What did the speaker do?",
+      "audio_text": "I need to evaluate the results before giving my opinion.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या किया?",
+        "Japanese": "話者は何をする必要がありますか？"
+      },
+      "options": [
+        "Evaluate the results",
+        "Show bias",
+        "Break the news"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is described about art?",
+      "audio_text": "Art is highly subjective and depends on personal taste.",
+      "question_translation": {
+        "Hindi": "कला के बारे में क्या बताया गया है?",
+        "Japanese": "芸術について何が説明されていますか？"
+      },
+      "options": [
+        "Art is subjective",
+        "Art is objective",
+        "Art is valid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker made a valid assertion.",
+      "audio_text": "Her assertion was valid and supported by facts.",
+      "question_translation": {
+        "Hindi": "वक्ता ने एक उचित दावा किया।",
+        "Japanese": "話者の主張は妥当で事実に裏付けられていました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Her perspective is different from mine.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Her perspective is different from mine.'",
+        "Japanese": "言ってください: 'Her perspective is different from mine.'"
+      },
+      "options": [],
+      "answer": "her perspective is different from mine"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The teacher’s judgment was fair.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The teacher’s judgment was fair.'",
+        "Japanese": "言ってください: 'The teacher’s judgment was fair.'"
+      },
+      "options": [],
+      "answer": "the teachers judgment was fair"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The report shows clear bias.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The report shows clear bias.'",
+        "Japanese": "言ってください: 'The report shows clear bias.'"
+      },
+      "options": [],
+      "answer": "the report shows clear bias"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'We need to evaluate the evidence.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We need to evaluate the evidence.'",
+        "Japanese": "言ってください: 'We need to evaluate the evidence.'"
+      },
+      "options": [],
+      "answer": "we need to evaluate the evidence"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Her assertion was supported by facts.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Her assertion was supported by facts.'",
+        "Japanese": "言ってください: 'Her assertion was supported by facts.'"
+      },
+      "options": [],
+      "answer": "her assertion was supported by facts"
+    }
+  ]
+}
+
 }

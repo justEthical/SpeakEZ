@@ -1,4 +1,559 @@
 {
-  "id": 40,
-  "message": "This is file number 40"
+  "id": "lesson_project_updates_001",
+  "lesson_name": "Project Updates & Status Reports",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "update",
+        "word_translation": {
+          "Hindi": "अद्यतन",
+          "Japanese": "最新情報"
+        },
+        "meaning": "The latest information about progress or changes",
+        "meaning_translation": {
+          "Hindi": "प्रगति या परिवर्तनों के बारे में नवीनतम जानकारी",
+          "Japanese": "進捗や変更に関する最新の情報"
+        },
+        "examples": [
+          {
+            "sentence": "The manager gave an update on the project.",
+            "translation": {
+              "Hindi": "प्रबंधक ने परियोजना पर एक अद्यतन दिया।",
+              "Japanese": "マネージャーがプロジェクトの最新情報を伝えました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "status report",
+        "word_translation": {
+          "Hindi": "स्थिति रिपोर्ट",
+          "Japanese": "進捗報告"
+        },
+        "meaning": "A summary of the current situation or progress",
+        "meaning_translation": {
+          "Hindi": "वर्तमान स्थिति या प्रगति का सारांश",
+          "Japanese": "現在の状況や進捗の要約"
+        },
+        "examples": [
+          {
+            "sentence": "The team submits a weekly status report.",
+            "translation": {
+              "Hindi": "टीम साप्ताहिक स्थिति रिपोर्ट प्रस्तुत करती है।",
+              "Japanese": "チームは毎週進捗報告を提出します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deadline",
+        "word_translation": {
+          "Hindi": "अंतिम तिथि",
+          "Japanese": "締め切り"
+        },
+        "meaning": "The final date or time when something must be completed",
+        "meaning_translation": {
+          "Hindi": "वह अंतिम तिथि या समय जब कुछ पूरा होना चाहिए",
+          "Japanese": "何かを完了しなければならない最終日や時刻"
+        },
+        "examples": [
+          {
+            "sentence": "We need to finish the project before the deadline.",
+            "translation": {
+              "Hindi": "हमें अंतिम तिथि से पहले परियोजना पूरी करनी होगी।",
+              "Japanese": "私たちは締め切り前にプロジェクトを終えなければなりません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "milestone",
+        "word_translation": {
+          "Hindi": "मील का पत्थर",
+          "Japanese": "節目"
+        },
+        "meaning": "An important stage or achievement in a project",
+        "meaning_translation": {
+          "Hindi": "परियोजना में एक महत्वपूर्ण चरण या उपलब्धि",
+          "Japanese": "プロジェクトにおける重要な段階や成果"
+        },
+        "examples": [
+          {
+            "sentence": "Completing the first draft was a major milestone.",
+            "translation": {
+              "Hindi": "पहला मसौदा पूरा करना एक बड़ा मील का पत्थर था।",
+              "Japanese": "最初の草案を完成させることは大きな節目でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "progress",
+        "word_translation": {
+          "Hindi": "प्रगति",
+          "Japanese": "進捗"
+        },
+        "meaning": "The process of improving or moving forward",
+        "meaning_translation": {
+          "Hindi": "बेहतर होने या आगे बढ़ने की प्रक्रिया",
+          "Japanese": "改善したり前進したりする過程"
+        },
+        "examples": [
+          {
+            "sentence": "The project is making good progress.",
+            "translation": {
+              "Hindi": "परियोजना अच्छी प्रगति कर रही है।",
+              "Japanese": "プロジェクトは順調に進んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk",
+        "word_translation": {
+          "Hindi": "जोखिम",
+          "Japanese": "リスク"
+        },
+        "meaning": "The possibility of something going wrong",
+        "meaning_translation": {
+          "Hindi": "कुछ गलत होने की संभावना",
+          "Japanese": "何かがうまくいかない可能性"
+        },
+        "examples": [
+          {
+            "sentence": "The report identified a risk of delay due to weather.",
+            "translation": {
+              "Hindi": "रिपोर्ट ने मौसम के कारण देरी के जोखिम की पहचान की।",
+              "Japanese": "報告書は天候による遅延のリスクを特定しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deliverable",
+        "word_translation": {
+          "Hindi": "प्रस्तुत करने योग्य वस्तु",
+          "Japanese": "成果物"
+        },
+        "meaning": "A specific result or product that must be completed",
+        "meaning_translation": {
+          "Hindi": "एक विशिष्ट परिणाम या उत्पाद जिसे पूरा करना आवश्यक है",
+          "Japanese": "完成させるべき具体的な成果や製品"
+        },
+        "examples": [
+          {
+            "sentence": "The final report is a key deliverable of the project.",
+            "translation": {
+              "Hindi": "अंतिम रिपोर्ट परियोजना की एक प्रमुख प्रस्तुत करने योग्य वस्तु है।",
+              "Japanese": "最終報告書はプロジェクトの重要な成果物です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "obstacle",
+        "word_translation": {
+          "Hindi": "बाधा",
+          "Japanese": "障害"
+        },
+        "meaning": "Something that makes progress difficult",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो प्रगति को कठिन बनाता है",
+          "Japanese": "進捗を困難にするもの"
+        },
+        "examples": [
+          {
+            "sentence": "Lack of resources is an obstacle to success.",
+            "translation": {
+              "Hindi": "संसाधनों की कमी सफलता के लिए एक बाधा है।",
+              "Japanese": "リソース不足は成功への障害です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "on track",
+        "word_translation": {
+          "Hindi": "सही रास्ते पर",
+          "Japanese": "順調に進んでいる"
+        },
+        "meaning": "Progressing as planned or expected",
+        "meaning_translation": {
+          "Hindi": "योजना या अपेक्षा के अनुसार प्रगति करना",
+          "Japanese": "計画通りまたは予想通りに進んでいる"
+        },
+        "examples": [
+          {
+            "sentence": "The project is on track to meet its deadline.",
+            "translation": {
+              "Hindi": "परियोजना अपनी अंतिम तिथि को पूरा करने के लिए सही रास्ते पर है।",
+              "Japanese": "プロジェクトは締め切りに向けて順調に進んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stakeholder",
+        "word_translation": {
+          "Hindi": "हितधारक",
+          "Japanese": "利害関係者"
+        },
+        "meaning": "A person or group with an interest in a project",
+        "meaning_translation": {
+          "Hindi": "कोई व्यक्ति या समूह जिसका किसी परियोजना में हित हो",
+          "Japanese": "プロジェクトに関心を持つ人物やグループ"
+        },
+        "examples": [
+          {
+            "sentence": "Stakeholders must be informed of project progress.",
+            "translation": {
+              "Hindi": "हितधारकों को परियोजना की प्रगति के बारे में सूचित किया जाना चाहिए।",
+              "Japanese": "ステークホルダーにはプロジェクトの進捗を知らせる必要があります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Present Continuous for Ongoing Projects",
+        "explanation": "Use 'is/are + verb-ing' to describe current actions. Example: We are working on the final report.",
+        "explanation_translation": {
+          "Hindi": "वर्तमान कार्यों का वर्णन करने के लिए 'is/are + verb-ing' का उपयोग करें। उदाहरण: We are working on the final report.",
+          "Japanese": "現在進行中の行動を説明するには 'is/are + 動詞-ing' を使います。例: We are working on the final report."
+        }
+      },
+      {
+        "title": "Using Future Forms for Deadlines",
+        "explanation": "Use 'will' or 'going to' for talking about plans or deadlines. Example: The project will be finished by next month.",
+        "explanation_translation": {
+          "Hindi": "योजनाओं या अंतिम तिथियों के बारे में बात करने के लिए 'will' या 'going to' का उपयोग करें। उदाहरण: The project will be finished by next month.",
+          "Japanese": "計画や締め切りについて話すには 'will' や 'going to' を使います。例: The project will be finished by next month."
+        }
+      },
+      {
+        "title": "Using Passive Voice in Reports",
+        "explanation": "Passive voice is often used in formal reports. Example: The milestone was completed last week.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक रिपोर्टों में अक्सर passive voice का उपयोग किया जाता है। उदाहरण: The milestone was completed last week.",
+          "Japanese": "形式的な報告では受動態がよく使われます。例: The milestone was completed last week."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'the latest information about progress or changes'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'प्रगति या परिवर्तनों के बारे में नवीनतम जानकारी' का अर्थ है?",
+        "Japanese": "『進捗や変更に関する最新の情報』を意味する言葉はどれですか？"
+      },
+      "options": [
+        "update",
+        "obstacle",
+        "risk"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The team submits a weekly ___ report.",
+      "question_translation": {
+        "Hindi": "टीम साप्ताहिक ___ रिपोर्ट प्रस्तुत करती है।",
+        "Japanese": "チームは毎週___報告を提出します。"
+      },
+      "options": [
+        "progress",
+        "status",
+        "stakeholder"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A milestone is an important stage or achievement in a project.",
+      "question_translation": {
+        "Hindi": "मील का पत्थर परियोजना में एक महत्वपूर्ण चरण या उपलब्धि है।",
+        "Japanese": "マイルストーンはプロジェクトにおける重要な段階や成果です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term means 'a specific result or product that must be completed'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'एक विशिष्ट परिणाम या उत्पाद जिसे पूरा करना आवश्यक है' का अर्थ है?",
+        "Japanese": "『完成させるべき具体的な成果や製品』を意味する言葉はどれですか？"
+      },
+      "options": [
+        "deliverable",
+        "stakeholder",
+        "deadline"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The project is ___ track to meet its deadline.",
+      "question_translation": {
+        "Hindi": "परियोजना अपनी अंतिम तिथि को पूरा करने के लिए ___ रास्ते पर है।",
+        "Japanese": "プロジェクトは締め切りに向けて___に進んでいます。"
+      },
+      "options": [
+        "on",
+        "off",
+        "beyond"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [was, milestone, completed, last, week, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [was, milestone, completed, last, week, the]",
+        "Japanese": "並べ替え: [was, milestone, completed, last, week, the]"
+      },
+      "options": [
+        "was",
+        "milestone",
+        "completed",
+        "last",
+        "week",
+        "the"
+      ],
+      "answer": [
+        "the",
+        "milestone",
+        "was",
+        "completed",
+        "last",
+        "week"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The report identified a ___ of delay due to weather.",
+      "question_translation": {
+        "Hindi": "रिपोर्ट ने मौसम के कारण देरी के ___ की पहचान की।",
+        "Japanese": "報告書は天候による遅延の___を特定しました。"
+      },
+      "options": [
+        "progress",
+        "risk",
+        "stakeholder"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "The deadline going to met tomorrow.",
+        "The deadline will be met tomorrow.",
+        "The deadline met tomorrow."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [the, report, final, submitted, was, yesterday]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [the, report, final, submitted, was, yesterday]",
+        "Japanese": "並べ替え: [the, report, final, submitted, was, yesterday]"
+      },
+      "options": [
+        "the",
+        "report",
+        "final",
+        "submitted",
+        "was",
+        "yesterday"
+      ],
+      "answer": [
+        "the",
+        "final",
+        "report",
+        "was",
+        "submitted",
+        "yesterday"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Stakeholders must be ___ of project progress.",
+      "question_translation": {
+        "Hindi": "हितधारकों को परियोजना की प्रगति के बारे में ___ किया जाना चाहिए।",
+        "Japanese": "ステークホルダーにはプロジェクトの進捗を___必要があります。"
+      },
+      "options": [
+        "informed",
+        "delayed",
+        "ignored"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the project status?",
+      "audio_text": "The project is on track and will be finished by next month.",
+      "question_translation": {
+        "Hindi": "परियोजना की स्थिति क्या है?",
+        "Japanese": "プロジェクトの状況はどうですか？"
+      },
+      "options": [
+        "It is delayed",
+        "It is on track",
+        "It is cancelled"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says the deadline was missed.",
+      "audio_text": "The team met the deadline successfully.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि अंतिम तिथि छूट गई।",
+        "Japanese": "話者は締め切りを逃したと言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What obstacle is mentioned?",
+      "audio_text": "One obstacle is the lack of resources.",
+      "question_translation": {
+        "Hindi": "कौन सी बाधा का उल्लेख किया गया है?",
+        "Japanese": "どの障害が言及されていますか？"
+      },
+      "options": [
+        "Weather",
+        "Resources",
+        "Stakeholders"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The final report is a key ___ of the project.",
+      "audio_text": "The final report is a key deliverable of the project.",
+      "question_translation": {
+        "Hindi": "अंतिम रिपोर्ट परियोजना की एक प्रमुख ___ है।",
+        "Japanese": "最終報告書はプロジェクトの重要な___です。"
+      },
+      "options": [
+        "deliverable",
+        "milestone",
+        "update"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker says stakeholders must be informed.",
+      "audio_text": "Stakeholders must be informed of project progress.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि हितधारकों को सूचित किया जाना चाहिए।",
+        "Japanese": "話者はステークホルダーに知らせる必要があると言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The manager gave an update on the project.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रबंधक ने परियोजना पर एक अद्यतन दिया।'",
+        "Japanese": "言ってください: 'マネージャーがプロジェクトの最新情報を伝えました。'"
+      },
+      "options": [],
+      "answer": "the manager gave an update on the project"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'We need to finish the project before the deadline.'",
+      "question_translation": {
+        "Hindi": "कहें: 'हमें अंतिम तिथि से पहले परियोजना पूरी करनी होगी।'",
+        "Japanese": "言ってください: '私たちは締め切り前にプロジェクトを終えなければなりません。'"
+      },
+      "options": [],
+      "answer": "we need to finish the project before the deadline"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Completing the first draft was a major milestone.'",
+      "question_translation": {
+        "Hindi": "कहें: 'पहला मसौदा पूरा करना एक बड़ा मील का पत्थर था।'",
+        "Japanese": "言ってください: '最初の草案を完成させることは大きな節目でした。'"
+      },
+      "options": [],
+      "answer": "completing the first draft was a major milestone"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The project is on track to meet its deadline.'",
+      "question_translation": {
+        "Hindi": "कहें: 'परियोजना अपनी अंतिम तिथि को पूरा करने के लिए सही रास्ते पर है।'",
+        "Japanese": "言ってください: 'プロジェクトは締め切りに向けて順調に進んでいます。'"
+      },
+      "options": [],
+      "answer": "the project is on track to meet its deadline"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Stakeholders must be informed of project progress.'",
+      "question_translation": {
+        "Hindi": "कहें: 'हितधारकों को परियोजना की प्रगति के बारे में सूचित किया जाना चाहिए।'",
+        "Japanese": "言ってください: 'ステークホルダーにはプロジェクトの進捗を知らせる必要があります。'"
+      },
+      "options": [],
+      "answer": "stakeholders must be informed of project progress"
+    }
+  ]
+}
+
 }

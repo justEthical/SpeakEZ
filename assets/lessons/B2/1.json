@@ -1,55 +1,269 @@
 {
-  "id": "b2_debating_social_issues_01",
-  "lesson_name": "Debating Social Issues",
+  "id": "lesson_second_conditional_b2_001",
+  "lesson_name": "Second Conditional (Hypothetical Presents)",
   "purpose": "All",
   "cefrLevel": "B2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "controversial", "meaning": "causing strong disagreement or discussion" },
-      { "word": "inequality", "meaning": "unfair difference in how people are treated" },
-      { "word": "perspective", "meaning": "a particular way of thinking about something" },
-      { "word": "advocate", "meaning": "to support or argue for something" },
-      { "word": "opponent", "meaning": "someone who disagrees or argues against" },
-      { "word": "compromise", "meaning": "an agreement where both sides give up something" },
-      { "word": "evidence", "meaning": "facts or information supporting an idea" },
-      { "word": "policy", "meaning": "a rule or plan made by an organization or government" },
-      { "word": "impact", "meaning": "the effect or influence of something" },
-      { "word": "raise awareness", "meaning": "to help more people know about something important" }
+      {
+        "word": "hypothetical",
+        "word_translation": {
+          "Hindi": "काल्पनिक",
+          "Japanese": "仮定の"
+        },
+        "meaning": "Imagined rather than real; used to discuss unreal situations",
+        "meaning_translation": {
+          "Hindi": "वास्तविक नहीं, कल्पना पर आधारित; अवास्तविक स्थितियों पर चर्चा करने के लिए",
+          "Japanese": "現実ではなく想像上の；非現実的な状況について話すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "If I had more free time, I would learn guitar. (This is a hypothetical situation.)",
+            "translation": {
+              "Hindi": "अगर मेरे पास अधिक खाली समय होता, तो मैं गिटार सीखता। (यह एक काल्पनिक स्थिति है।)",
+              "Japanese": "もし自由な時間がもっとあれば、ギターを習うだろう。（これは仮定の状況です）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "unlikely",
+        "word_translation": {
+          "Hindi": "असंभव-सा / कम संभावित",
+          "Japanese": "起こりそうにない"
+        },
+        "meaning": "Not expected to happen or be true",
+        "meaning_translation": {
+          "Hindi": "जिसके होने या सत्य होने की संभावना कम हो",
+          "Japanese": "起こる・本当である可能性が低いこと"
+        },
+        "examples": [
+          {
+            "sentence": "If she won the lottery—though it’s unlikely—she would donate to charity.",
+            "translation": {
+              "Hindi": "यदि वह लॉटरी जीतती—हालाँकि यह कम संभावित है—तो वह दान करती।",
+              "Japanese": "もし彼女が宝くじに当たったら—可能性は低いが—慈善団体に寄付するだろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "condition",
+        "word_translation": {
+          "Hindi": "शर्त",
+          "Japanese": "条件"
+        },
+        "meaning": "Something that must happen first for something else to happen",
+        "meaning_translation": {
+          "Hindi": "वह बात जो किसी अन्य बात के होने से पहले पूरी होनी चाहिए",
+          "Japanese": "別のことが起こるために先に満たされるべき事柄"
+        },
+        "examples": [
+          {
+            "sentence": "If you studied harder, that condition would improve your results.",
+            "translation": {
+              "Hindi": "यदि तुम अधिक मेहनत से पढ़ते, तो वह शर्त तुम्हारे परिणाम सुधारती।",
+              "Japanese": "もっと勉強したなら、その条件によって成績は良くなるだろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "result",
+        "word_translation": {
+          "Hindi": "परिणाम",
+          "Japanese": "結果"
+        },
+        "meaning": "What happens because of something else",
+        "meaning_translation": {
+          "Hindi": "किसी अन्य कारण से होने वाली घटना",
+          "Japanese": "他の出来事によって引き起こされること"
+        },
+        "examples": [
+          {
+            "sentence": "If I were taller, the result would be that I could reach the top shelf.",
+            "translation": {
+              "Hindi": "यदि मैं लंबा होता, तो परिणाम यह होता कि मैं ऊपरी शेल्फ तक पहुँच पाता।",
+              "Japanese": "もし私がもっと背が高ければ、上の棚に手が届くだろうという結果になる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "if-clause",
+        "word_translation": {
+          "Hindi": "if-खंड / यदि-उपवाक्य",
+          "Japanese": "if節"
+        },
+        "meaning": "The part of a conditional sentence that states the condition (usually with 'if')",
+        "meaning_translation": {
+          "Hindi": "शर्त बताने वाला वाक्यांश, सामान्यतः 'if' से शुरू होता है",
+          "Japanese": "条件を述べる文の部分（通常 “if” で始まる）"
+        },
+        "examples": [
+          {
+            "sentence": "If I had a car, I would drive to work. (\"If I had a car\" is the if-clause.)",
+            "translation": {
+              "Hindi": "यदि मेरे पास कार होती, तो मैं काम पर कार से जाता। (\"If I had a car\" if-खंड है।)",
+              "Japanese": "もし車があれば、通勤に運転するだろう。（\"If I had a car\" が if節）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "main clause",
+        "word_translation": {
+          "Hindi": "मुख्य उपवाक्य",
+          "Japanese": "主節"
+        },
+        "meaning": "The part of the sentence that shows the result (often with 'would')",
+        "meaning_translation": {
+          "Hindi": "वाक्य का वह भाग जो परिणाम दिखाता है (अक्सर 'would' के साथ)",
+          "Japanese": "結果を示す文の部分（多くは “would” を含む）"
+        },
+        "examples": [
+          {
+            "sentence": "If we lived by the sea, we would swim every morning. (\"we would swim every morning\" is the main clause.)",
+            "translation": {
+              "Hindi": "यदि हम समुद्र के पास रहते, तो हम हर सुबह तैरते। (\"we would swim every morning\" मुख्य उपवाक्य है।)",
+              "Japanese": "もし海辺に住んでいたら、毎朝泳ぐだろう。（\"we would swim every morning\" が主節）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "were (subjunctive)",
+        "word_translation": {
+          "Hindi": "were (वाच्य/कल्पित रूप)",
+          "Japanese": "were（仮定法）"
+        },
+        "meaning": "A special form used after all subjects in unreal if-clauses (e.g., If I were you...)",
+        "meaning_translation": {
+          "Hindi": "अवास्तविक if-उपवाक्यों में सभी कर्ताओं के साथ प्रयुक्त विशेष रूप (जैसे, If I were you...)",
+          "Japanese": "非現実の if 節で主語に関わらず用いる特別な形（例：If I were you...）"
+        },
+        "examples": [
+          {
+            "sentence": "If I were you, I would apologize.",
+            "translation": {
+              "Hindi": "अगर मैं तुम्हारी जगह होता, तो माफी मांगता।",
+              "Japanese": "もし私が君なら、謝るだろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "suppose",
+        "word_translation": {
+          "Hindi": "मान लो / कल्पना करो",
+          "Japanese": "仮に〜としたら"
+        },
+        "meaning": "Used to invite someone to imagine an unreal situation",
+        "meaning_translation": {
+          "Hindi": "किसी अवास्तविक स्थिति की कल्पना करने के लिए प्रयुक्त",
+          "Japanese": "非現実的な状況を想像させるために使う"
+        },
+        "examples": [
+          {
+            "sentence": "Suppose you lost your phone—what would you do?",
+            "translation": {
+              "Hindi": "मान लो तुम्हारा फोन खो गया—तुम क्या करते?",
+              "Japanese": "仮に携帯をなくしたとしたら—どうする？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "inversion",
+        "word_translation": {
+          "Hindi": "उलटाव (वाक्य-विन्यास)",
+          "Japanese": "倒置"
+        },
+        "meaning": "A formal structure where 'if' is dropped and the auxiliary comes before the subject",
+        "meaning_translation": {
+          "Hindi": "औपचारिक ढांचा जिसमें 'if' हटाकर सहायक क्रिया कर्ता से पहले आती है",
+          "Japanese": "“if” を省き、助動詞が主語の前に来る形式的な構文"
+        },
+        "examples": [
+          {
+            "sentence": "Were I rich, I would start a foundation.",
+            "translation": {
+              "Hindi": "यदि मैं अमीर होता, तो एक फाउंडेशन शुरू करता।",
+              "Japanese": "もし裕福であれば、基金を設立するだろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "unless (in hypotheticals)",
+        "word_translation": {
+          "Hindi": "जब तक नहीं / यदि नहीं",
+          "Japanese": "〜でない限り"
+        },
+        "meaning": "Used to express conditions meaning 'if not' (less common in second conditional but possible)",
+        "meaning_translation": {
+          "Hindi": "'यदि नहीं' के अर्थ में प्रयुक्त (सेकंड कंडीशनल में कम सामान्य, पर संभव)",
+          "Japanese": "「もし〜でなければ」の条件を表す（第二条件法ではやや珍しいが可能）"
+        },
+        "examples": [
+          {
+            "sentence": "I wouldn’t go out unless it were urgent.",
+            "translation": {
+              "Hindi": "मैं बाहर नहीं जाता जब तक कि वह जरूरी न होता।",
+              "Japanese": "緊急でない限り、外出しないだろう。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Expressing Opinions",
-        "explanation": "Use phrases like 'I believe', 'In my opinion', 'From my perspective': 'I believe that education should be free for everyone.'"
+        "title": "Core Form",
+        "explanation": "Second conditional describes unreal or unlikely situations in the present or future. Structure: If + past simple, would + base verb. Example: If I had a scooter, I would commute faster.",
+        "explanation_translation": {
+          "Hindi": "सेकंड कंडीशनल वर्तमान/भविष्य की अवास्तविक या कम संभावित स्थितियों के लिए होता है। संरचना: If + past simple, would + क्रिया का मूल रूप। उदाहरण: If I had a scooter, I would commute faster.",
+          "Japanese": "第2条件法は現在・未来の非現実的または起こりにくい状況を表す。構文：If + 過去形，would + 動詞の原形。例：If I had a scooter, I would commute faster."
+        }
       },
       {
-        "title": "Conceding a Point",
-        "explanation": "Use phrases like 'Although', 'While I agree', 'It is true that' to show understanding of the other side: 'Although some people argue that..., I think...'"
+        "title": "‘Were’ for All Subjects",
+        "explanation": "In unreal if-clauses, use 'were' after any subject (I/he/she/it). Example: If he were here, we would ask him.",
+        "explanation_translation": {
+          "Hindi": "अवास्तविक if-उपवाक्य में किसी भी कर्ता के बाद 'were' का उपयोग करें। उदाहरण: If he were here, we would ask him.",
+          "Japanese": "非現実の if 節では主語に関係なく “were” を使う。例：If he were here, we would ask him."
+        }
       },
       {
-        "title": "Using Modals for Debate",
-        "explanation": "Use modals like 'should', 'must', 'could', 'might' for suggestions or necessity: 'Governments should do more to reduce inequality.'"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "I believe that climate change is the most important social issue today.",
-        "translation": ""
+        "title": "Comma and Clause Order",
+        "explanation": "Add a comma when the if-clause comes first: If I knew the answer, I would tell you. No comma when the main clause comes first: I would tell you if I knew the answer.",
+        "explanation_translation": {
+          "Hindi": "यदि if-उपवाक्य पहले आता है तो कॉमा लगाएँ: If I knew the answer, I would tell you. मुख्य उपवाक्य पहले हो तो कॉमा नहीं: I would tell you if I knew the answer.",
+          "Japanese": "if節が先ならカンマ：If I knew the answer, I would tell you. 主節が先ならカンマ不要：I would tell you if I knew the answer."
+        }
       },
       {
-        "sentence": "There is a lot of inequality in access to healthcare.",
-        "translation": ""
+        "title": "Meaning vs. First Conditional",
+        "explanation": "Use second conditional for unreal/remote possibilities (If I won the lottery...). Use first conditional for real, likely results (If it rains, I will stay home).",
+        "explanation_translation": {
+          "Hindi": "अवास्तविक/दूर की संभावना के लिए सेकंड कंडीशनल (If I won the lottery...)। वास्तविक, संभावित परिणाम के लिए फर्स्ट कंडीशनल (If it rains, I will stay home).",
+          "Japanese": "非現実・可能性が低い場合は第2条件法（If I won the lottery...）。現実的で起こりそうな場合は第1条件法（If it rains, I will stay home）。"
+        }
       },
       {
-        "sentence": "My opponent argued that this policy would have a negative impact.",
-        "translation": ""
+        "title": "Polite Advice with ‘If I were you’",
+        "explanation": "For gentle advice, say: If I were you, I would + base verb. Example: If I were you, I would back up my files.",
+        "explanation_translation": {
+          "Hindi": "शिष्ट सलाह के लिए: If I were you, I would + क्रिया। उदाहरण: If I were you, I would back up my files.",
+          "Japanese": "丁寧な助言には：If I were you, I would + 動詞原形。例：If I were you, I would back up my files."
+        }
       },
       {
-        "sentence": "We need more evidence before making a decision.",
-        "translation": ""
-      },
-      {
-        "sentence": "It is important to raise awareness about mental health.",
-        "translation": ""
+        "title": "Formal Inversion (Advanced Option)",
+        "explanation": "In formal style, drop 'if' and invert: Were it less noisy, I would concentrate. Keep this for writing and formal speech.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक शैली में 'if' हटाकर उलटाव करें: Were it less noisy, I would concentrate. इसे लेखन व औपचारिक बोलचाल के लिए रखें।",
+          "Japanese": "形式的な文体では if を省略して倒置：Were it less noisy, I would concentrate. 文章やフォーマルな場面で使う。"
+        }
       }
     ]
   },
@@ -58,148 +272,316 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "What does 'controversial' mean?",
-        "options": ["Popular with everyone", "Causing strong disagreement", "Something easy to decide"],
-        "answer": 1
+        "question": "Which word means 'imagined, not real'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'कल्पित, वास्तविक नहीं' का अर्थ रखता है?",
+          "Japanese": "「想像上で、現実ではない」という意味の単語はどれですか？"
+        },
+        "options": [
+          "hypothetical",
+          "realistic",
+          "practical"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "A person who disagrees with you in a debate is your _____.",
-        "options": ["advocate", "opponent", "impact"],
-        "answer": 1
+        "question": "If he were taller, the ___ would be that he could reach the shelf.",
+        "question_translation": {
+          "Hindi": "यदि वह लंबा होता, तो ___ यह होता कि वह शेल्फ तक पहुँच पाता।",
+          "Japanese": "もし彼がもっと背が高ければ、___ は棚に届くことだろう。"
+        },
+        "options": [
+          "result",
+          "condition",
+          "cause"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab3",
         "type": "trueFalse",
-        "question": "'Raise awareness' means to help more people know about something.",
-        "options": ["True", "False"],
-        "answer": 0
+        "question": "The if-clause shows the result of the condition.",
+        "question_translation": {
+          "Hindi": "if-उपवाक्य शर्त के परिणाम को दिखाता है।",
+          "Japanese": "if節は条件の結果を示す。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
       },
       {
         "id": "vocab4",
         "type": "multipleChoice",
-        "question": "What is a 'compromise'?",
-        "options": ["A strong opinion", "An agreement where both sides give up something", "Evidence for an argument"],
+        "question": "Which form is used in unreal if-clauses for all subjects?",
+        "question_translation": {
+          "Hindi": "अवास्तविक if-उपवाक्यों में सभी कर्ताओं के लिए कौन सा रूप प्रयोग किया जाता है?",
+          "Japanese": "非現実のif節で全ての主語に使う形はどれですか？"
+        },
+        "options": [
+          "was",
+          "were",
+          "will"
+        ],
         "answer": 1
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What does 'policy' mean?",
-        "options": ["A type of debate", "A rule or plan made by a government", "An example from history"],
-        "answer": 1
+        "type": "fillInTheBlanks",
+        "question": "___ you lost your keys, what would you do?",
+        "question_translation": {
+          "Hindi": "___ तुम्हारी चाबियाँ खो जातीं, तो तुम क्या करते?",
+          "Japanese": "___ 鍵をなくしたとしたら、どうしますか？"
+        },
+        "options": [
+          "Suppose",
+          "Because",
+          "Although"
+        ],
+        "answer": 0
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "In my _____ (opinion/evidence), this is not fair.",
-        "options": ["opinion", "evidence"],
-        "answer": 0
+        "type": "sentenceRearranging",
+        "question": "Arrange: [had, I, if, car, a, would, I, drive]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [had, I, if, car, a, would, I, drive]",
+          "Japanese": "並べ替え: [had, I, if, car, a, would, I, drive]"
+        },
+        "options": [
+          "had",
+          "I",
+          "if",
+          "car",
+          "a",
+          "would",
+          "I",
+          "drive"
+        ],
+        "answer": [
+          "if",
+          "I",
+          "had",
+          "a",
+          "car",
+          "I",
+          "would",
+          "drive"
+        ]
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "We need more _____ (impact/evidence) to support our view.",
-        "options": ["impact", "evidence"],
-        "answer": 1
+        "question": "If she ___ more confident, she would apply for the job.",
+        "question_translation": {
+          "Hindi": "यदि वह अधिक आत्मविश्वासी ___, तो वह नौकरी के लिए आवेदन करती।",
+          "Japanese": "もし彼女がもっと自信が___、その仕事に応募するだろう。"
+        },
+        "options": [
+          "is",
+          "was",
+          "were"
+        ],
+        "answer": 2
       },
       {
         "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: believe / must / take / I / action / we",
-        "options": ["I believe we must take action."],
-        "answer": [0]
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "If I know her, I would invite her.",
+          "If I knew her, I would invite her.",
+          "If I knowing her, I would invite her."
+        ],
+        "answer": 1
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "The new policy will _____ (impact/compromise) students' lives.",
-        "options": ["impact", "compromise"],
+        "question": "Were I rich, I ___ travel the world.",
+        "question_translation": {
+          "Hindi": "यदि मैं अमीर होता, तो मैं ___ पूरी दुनिया घूमता।",
+          "Japanese": "もし私が裕福なら、世界を___ だろう。"
+        },
+        "options": [
+          "would",
+          "will",
+          "can"
+        ],
         "answer": 0
       },
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: awareness / to / need / mental health / raise / we / about",
-        "options": ["We need to raise awareness about mental health."],
-        "answer": [0]
+        "question": "Arrange: [go, unless, urgent, it, I, were, wouldn’t]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [go, unless, urgent, it, I, were, wouldn’t]",
+          "Japanese": "並べ替え: [go, unless, urgent, it, I, were, wouldn’t]"
+        },
+        "options": [
+          "go",
+          "unless",
+          "urgent",
+          "it",
+          "I",
+          "were",
+          "wouldn’t"
+        ],
+        "answer": [
+          "I",
+          "wouldn’t",
+          "go",
+          "unless",
+          "it",
+          "were",
+          "urgent"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "Listen: What is the controversial issue being discussed?",
-        "options": ["Climate change", "Sports", "Travel"],
-        "answer": 0
+        "type": "multipleChoice",
+        "question": "What would the speaker do if they had a car?",
+        "audio_text": "If I had a car, I would drive to work every day.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या करता यदि उसके पास कार होती?",
+          "Japanese": "車があったら、話者は何をするでしょうか？"
+        },
+        "options": [
+          "Take the bus",
+          "Drive to work",
+          "Work from home"
+        ],
+        "answer": 1
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "Listen: What does the speaker believe is needed?",
-        "options": ["More evidence", "A new policy", "A stronger opponent"],
-        "answer": 0
+        "type": "trueFalse",
+        "question": "The speaker says: 'If I were rich, I would buy a house.' This describes a real situation.",
+        "audio_text": "If I were rich, I would buy a house.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है: 'अगर मैं अमीर होता, तो घर खरीदता।' यह एक वास्तविक स्थिति को दर्शाता है।",
+          "Japanese": "「もし裕福なら、家を買うだろう」と話者は言っている。これは現実の状況を表している。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "Listen: What solution does the speaker suggest?",
-        "options": ["Ignore the issue", "Make a compromise", "Raise taxes"],
+        "type": "multipleChoice",
+        "question": "What would the speaker do if it rained tomorrow?",
+        "audio_text": "If it rained tomorrow, I would stay home and read.",
+        "question_translation": {
+          "Hindi": "अगर कल बारिश होती, तो वक्ता क्या करता?",
+          "Japanese": "もし明日雨が降ったら、話者は何をするでしょうか？"
+        },
+        "options": [
+          "Go outside",
+          "Stay home and read",
+          "Visit a friend"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "Listen: What impact does the policy have?",
-        "options": ["Positive", "Negative", "No impact"],
+        "type": "multipleChoice",
+        "question": "What advice does the speaker give?",
+        "audio_text": "If I were you, I would take a break.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या सलाह देता है?",
+          "Japanese": "話者はどんな助言をしていますか？"
+        },
+        "options": [
+          "Work harder",
+          "Take a break",
+          "Go shopping"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "Listen: Who is the speaker's opponent?",
-        "options": ["Someone who agrees", "Someone who disagrees", "A member of the public"],
-        "answer": 1
+        "type": "trueFalse",
+        "question": "The speaker uses inversion instead of 'if'.",
+        "audio_text": "Were it quieter, I would study more effectively.",
+        "question_translation": {
+          "Hindi": "वक्ता 'if' की जगह उलटाव का उपयोग करता है।",
+          "Japanese": "話者は「if」の代わりに倒置を使っている。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       }
     ],
     "speaking": [
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "State your opinion on a controversial issue in your country.",
+        "question": "Say: 'If I had more time, I would travel abroad.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If I had more time, I would travel abroad.'",
+          "Japanese": "言ってください: 'If I had more time, I would travel abroad.'"
+        },
         "options": [],
-        "answer": "In my opinion, reducing pollution should be the top priority."
+        "answer": "if i had more time i would travel abroad"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Explain why evidence is important in a debate.",
+        "question": "Say: 'If she were here, she would help us.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If she were here, she would help us.'",
+          "Japanese": "言ってください: 'If she were here, she would help us.'"
+        },
         "options": [],
-        "answer": "Evidence is important because it helps to prove your point and makes your argument stronger."
+        "answer": "if she were here she would help us"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Present an argument for or against a social policy.",
+        "question": "Say: 'Were I rich, I would donate to charity.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Were I rich, I would donate to charity.'",
+          "Japanese": "言ってください: 'Were I rich, I would donate to charity.'"
+        },
         "options": [],
-        "answer": "I advocate for free education because it gives everyone a fair chance."
+        "answer": "were i rich i would donate to charity"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Describe a time when you had to compromise in a discussion.",
+        "question": "Say: 'If it rained, we would stay indoors.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If it rained, we would stay indoors.'",
+          "Japanese": "言ってください: 'If it rained, we would stay indoors.'"
+        },
         "options": [],
-        "answer": "Last year, my classmates and I compromised on where to go for our school trip."
+        "answer": "if it rained we would stay indoors"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Discuss the impact of social media on raising awareness.",
+        "question": "Say: 'If I were you, I would study harder.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If I were you, I would study harder.'",
+          "Japanese": "言ってください: 'If I were you, I would study harder.'"
+        },
         "options": [],
-        "answer": "Social media can raise awareness quickly and reach many people."
+        "answer": "if i were you i would study harder"
       }
     ]
   }

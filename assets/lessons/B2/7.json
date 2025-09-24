@@ -1,36 +1,262 @@
 {
-  "id": "lesson_advanced_technology_001",
-  "lesson_name": "Talking About Advanced Technology",
+  "id": "lesson_causatives_b2_007",
+  "lesson_name": "Causatives: Have/Get Something Done",
   "purpose": "All",
   "cefrLevel": "B2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "artificial intelligence", "meaning": "technology that can think and learn like humans" },
-      { "word": "innovation", "meaning": "a new idea, device, or method" },
-      { "word": "robotics", "meaning": "the science of making and using robots" },
-      { "word": "automation", "meaning": "using machines to do work automatically" },
-      { "word": "virtual reality", "meaning": "a computer-made world you can experience" },
-      { "word": "algorithm", "meaning": "a set of rules a computer follows" },
-      { "word": "breakthrough", "meaning": "an important new discovery or development" },
-      { "word": "digital", "meaning": "using computers or electronics" },
-      { "word": "network", "meaning": "a system that connects computers or people" },
-      { "word": "device", "meaning": "a piece of electronic equipment" }
+      {
+        "word": "causative",
+        "word_translation": {
+          "Hindi": "कारणवाचक",
+          "Japanese": "使役構文"
+        },
+        "meaning": "A construction used to show that someone arranges for another person to do something",
+        "meaning_translation": {
+          "Hindi": "वह संरचना जो दर्शाती है कि कोई व्यक्ति किसी और से कुछ कराता है",
+          "Japanese": "誰かが他の人に何かをさせることを示す構文"
+        },
+        "examples": [
+          {
+            "sentence": "I had my hair cut yesterday.",
+            "translation": {
+              "Hindi": "मैंने कल अपने बाल कटवाए।",
+              "Japanese": "昨日、髪を切ってもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "have something done",
+        "word_translation": {
+          "Hindi": "कुछ करवाना",
+          "Japanese": "～してもらう"
+        },
+        "meaning": "Using 'have' to express that you arrange for another person to perform a service",
+        "meaning_translation": {
+          "Hindi": "'have' का उपयोग यह व्यक्त करने के लिए कि आप किसी और से सेवा कराते हैं",
+          "Japanese": "他の人にサービスをしてもらうことを表すために 'have' を使う"
+        },
+        "examples": [
+          {
+            "sentence": "She had her house cleaned by professionals.",
+            "translation": {
+              "Hindi": "उसने अपने घर की सफाई पेशेवरों से करवाई।",
+              "Japanese": "彼女は専門業者に家を掃除してもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "get something done",
+        "word_translation": {
+          "Hindi": "कुछ करवाना",
+          "Japanese": "～してもらう (get)"
+        },
+        "meaning": "An informal way of saying that you arrange for another person to do something",
+        "meaning_translation": {
+          "Hindi": "अनौपचारिक रूप से यह बताने का तरीका कि आप किसी और से कुछ करवाते हैं",
+          "Japanese": "他の人に何かをしてもらうことをカジュアルに言う方法"
+        },
+        "examples": [
+          {
+            "sentence": "I need to get my car repaired.",
+            "translation": {
+              "Hindi": "मुझे अपनी कार की मरम्मत करवानी है।",
+              "Japanese": "車を修理してもらう必要がある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "service action",
+        "word_translation": {
+          "Hindi": "सेवा कार्य",
+          "Japanese": "サービス行為"
+        },
+        "meaning": "An action typically performed by someone as a service",
+        "meaning_translation": {
+          "Hindi": "ऐसा कार्य जो आमतौर पर किसी और द्वारा सेवा के रूप में किया जाता है",
+          "Japanese": "通常、他人によってサービスとして行われる行為"
+        },
+        "examples": [
+          {
+            "sentence": "They had the documents delivered by courier.",
+            "translation": {
+              "Hindi": "उन्होंने दस्तावेज़ों को कुरियर द्वारा डिलीवर करवाया।",
+              "Japanese": "彼らは書類を宅配便で届けてもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "arrange",
+        "word_translation": {
+          "Hindi": "व्यवस्था करना",
+          "Japanese": "手配する"
+        },
+        "meaning": "To organize for something to happen, often through someone else",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के होने की व्यवस्था करना, अक्सर किसी और के माध्यम से",
+          "Japanese": "誰かを通して何かが起こるように手配すること"
+        },
+        "examples": [
+          {
+            "sentence": "He arranged to have the report typed.",
+            "translation": {
+              "Hindi": "उसने रिपोर्ट टाइप करवाने की व्यवस्था की।",
+              "Japanese": "彼はレポートをタイプしてもらう手配をした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "repair",
+        "word_translation": {
+          "Hindi": "मरम्मत करना",
+          "Japanese": "修理する"
+        },
+        "meaning": "To fix something that is broken",
+        "meaning_translation": {
+          "Hindi": "किसी टूटी हुई चीज़ को ठीक करना",
+          "Japanese": "壊れたものを直すこと"
+        },
+        "examples": [
+          {
+            "sentence": "I had my phone repaired last week.",
+            "translation": {
+              "Hindi": "मैंने पिछले हफ्ते अपना फोन ठीक करवाया।",
+              "Japanese": "先週、携帯電話を修理してもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cut",
+        "word_translation": {
+          "Hindi": "काटना",
+          "Japanese": "切る"
+        },
+        "meaning": "To trim or shorten something, often used with hair or fabric",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को छोटा या ट्रिम करना, अक्सर बाल या कपड़े",
+          "Japanese": "何かを短くすること。髪や布によく使う。"
+        },
+        "examples": [
+          {
+            "sentence": "She had her dress cut shorter.",
+            "translation": {
+              "Hindi": "उसने अपनी ड्रेस को छोटा करवाया।",
+              "Japanese": "彼女はドレスを短くしてもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fix",
+        "word_translation": {
+          "Hindi": "ठीक करना",
+          "Japanese": "直す"
+        },
+        "meaning": "To repair or adjust something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की मरम्मत या समायोजन करना",
+          "Japanese": "何かを修理・調整すること"
+        },
+        "examples": [
+          {
+            "sentence": "He got his bike fixed before the trip.",
+            "translation": {
+              "Hindi": "उसने यात्रा से पहले अपनी साइकिल ठीक करवाई।",
+              "Japanese": "彼は旅行の前に自転車を直してもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "decorate",
+        "word_translation": {
+          "Hindi": "सजाना",
+          "Japanese": "飾る"
+        },
+        "meaning": "To make something look more attractive by adding things to it",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को और आकर्षक बनाने के लिए उसे सजाना",
+          "Japanese": "何かをより魅力的に見せるために飾ること"
+        },
+        "examples": [
+          {
+            "sentence": "They had their house decorated for the festival.",
+            "translation": {
+              "Hindi": "उन्होंने त्योहार के लिए अपने घर को सजवाया।",
+              "Japanese": "彼らは祭りのために家を飾ってもらった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "translation service",
+        "word_translation": {
+          "Hindi": "अनुवाद सेवा",
+          "Japanese": "翻訳サービス"
+        },
+        "meaning": "A service where text is translated from one language to another",
+        "meaning_translation": {
+          "Hindi": "एक सेवा जिसमें पाठ को एक भाषा से दूसरी भाषा में अनुवादित किया जाता है",
+          "Japanese": "文章をある言語から別の言語に翻訳するサービス"
+        },
+        "examples": [
+          {
+            "sentence": "We got the contract translated into English.",
+            "translation": {
+              "Hindi": "हमने अनुबंध का अंग्रेज़ी में अनुवाद करवाया।",
+              "Japanese": "私たちは契約書を英語に翻訳してもらった。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Describing Processes",
-        "explanation": "Use passive voice to explain how technology is used. Example: Data is collected by sensors."
+        "title": "Have Something Done",
+        "explanation": "Use 'have + object + past participle' to express that someone arranges for another person to do something. Example: I had my car washed.",
+        "explanation_translation": {
+          "Hindi": "'have + object + past participle' का उपयोग तब करें जब कोई व्यक्ति किसी और से कुछ करवाता है। उदाहरण: I had my car washed.",
+          "Japanese": "'have + object + 過去分詞' を使って、誰かに何かをしてもらったことを表す。例：I had my car washed."
+        }
       },
       {
-        "title": "Speculating About the Future",
-        "explanation": "Use 'will', 'might', or 'could' to talk about future technology. Example: Robots might replace many jobs."
+        "title": "Get Something Done",
+        "explanation": "Use 'get + object + past participle' in informal contexts. Example: She got her phone repaired.",
+        "explanation_translation": {
+          "Hindi": "अनौपचारिक संदर्भों में 'get + object + past participle' का उपयोग करें। उदाहरण: She got her phone repaired.",
+          "Japanese": "カジュアルな場面では 'get + object + 過去分詞' を使う。例：She got her phone repaired."
+        }
+      },
+      {
+        "title": "Focus on Service, Not Performer",
+        "explanation": "Causatives emphasize the service/action, not the person who performs it. Example: I had my laptop fixed. (Focus on action, not the technician).",
+        "explanation_translation": {
+          "Hindi": "कारणवाचक संरचनाएँ सेवा/क्रिया पर जोर देती हैं, करने वाले व्यक्ति पर नहीं। उदाहरण: I had my laptop fixed.",
+          "Japanese": "使役構文は行為やサービスに焦点を当て、行為者には焦点を当てない。例：I had my laptop fixed."
+        }
+      },
+      {
+        "title": "Tense Changes in Causatives",
+        "explanation": "Causatives can be used in different tenses: Present: I have my car cleaned weekly. Past: I had my car cleaned yesterday. Future: I will have my car cleaned tomorrow.",
+        "explanation_translation": {
+          "Hindi": "कारणवाचक संरचनाएँ अलग-अलग कालों में उपयोग हो सकती हैं। वर्तमान: I have my car cleaned weekly. भूतकाल: I had my car cleaned yesterday. भविष्य: I will have my car cleaned tomorrow.",
+          "Japanese": "使役構文は異なる時制で使える。現在: I have my car cleaned weekly. 過去: I had my car cleaned yesterday. 未来: I will have my car cleaned tomorrow."
+        }
+      },
+      {
+        "title": "Common Services in Causatives",
+        "explanation": "Causatives are often used for services like repairing, cleaning, cutting, decorating, or translating.",
+        "explanation_translation": {
+          "Hindi": "कारणवाचक संरचनाएँ अक्सर मरम्मत, सफाई, कटाई, सजावट या अनुवाद जैसी सेवाओं के लिए उपयोग होती हैं।",
+          "Japanese": "使役構文は修理、掃除、カット、装飾、翻訳などのサービスによく使われる。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "Artificial intelligence is changing many industries.", "translation": "" },
-      { "sentence": "A new breakthrough was made in robotics last year.", "translation": "" },
-      { "sentence": "Automation can increase efficiency in factories.", "translation": "" },
-      { "sentence": "People use virtual reality to experience new worlds.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -38,110 +264,248 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "Which word means 'technology that can think and learn like humans'?",
-        "options": ["robotics", "automation", "artificial intelligence"],
-        "answer": 2
+        "question": "Which sentence uses 'have something done' correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य 'have something done' का सही उपयोग करता है?",
+          "Japanese": "どの文が 'have something done' を正しく使っていますか？"
+        },
+        "options": [
+          "I have my car wash yesterday.",
+          "I had my car washed yesterday.",
+          "I was have my car washed yesterday."
+        ],
+        "answer": 1
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "A set of rules a computer follows is called an ___.",
-        "options": ["algorithm", "breakthrough", "device"],
-        "answer": 0
+        "question": "She got her phone ___ last week.",
+        "question_translation": {
+          "Hindi": "उसने पिछले हफ्ते अपना फोन ___ करवाया।",
+          "Japanese": "彼女は先週携帯電話を___してもらった。"
+        },
+        "options": [
+          "repair",
+          "repaired",
+          "repairing"
+        ],
+        "answer": 1
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means 'a computer-made world you can experience'?",
-        "options": ["virtual reality", "network", "automation"],
+        "type": "trueFalse",
+        "question": "Causatives focus on the service, not the person doing it.",
+        "question_translation": {
+          "Hindi": "कारणवाचक संरचनाएँ सेवा पर केंद्रित होती हैं, न कि करने वाले व्यक्ति पर।",
+          "Japanese": "使役構文は行為者ではなくサービスに焦点を当てる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "vocab4",
-        "type": "trueFalse",
-        "question": "'Breakthrough' means an important new discovery or development.",
-        "options": ["True", "False"],
-        "answer": 0
+        "type": "multipleChoice",
+        "question": "Which verb is often used in informal causatives?",
+        "question_translation": {
+          "Hindi": "अनौपचारिक कारणवाचक संरचनाओं में कौन सी क्रिया अक्सर उपयोग होती है?",
+          "Japanese": "カジュアルな使役構文でよく使われる動詞はどれですか？"
+        },
+        "options": [
+          "make",
+          "get",
+          "do"
+        ],
+        "answer": 1
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which word means 'a system that connects computers or people'?",
-        "options": ["device", "network", "innovation"],
+        "type": "fillInTheBlanks",
+        "question": "We had the documents ___ into English.",
+        "question_translation": {
+          "Hindi": "हमने दस्तावेज़ों को अंग्रेज़ी में ___ करवाया।",
+          "Japanese": "私たちは書類を英語に___してもらった。"
+        },
+        "options": [
+          "translate",
+          "translated",
+          "translating"
+        ],
         "answer": 1
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "___ is changing many industries.",
-        "options": ["Artificial intelligence", "Device", "Automation"],
-        "answer": 0
+        "type": "sentenceRearranging",
+        "question": "Arrange: [my, repaired, I, bike, had]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [my, repaired, I, bike, had]",
+          "Japanese": "並べ替え: [my, repaired, I, bike, had]"
+        },
+        "options": [
+          "my",
+          "repaired",
+          "I",
+          "bike",
+          "had"
+        ],
+        "answer": [
+          "I",
+          "had",
+          "my",
+          "bike",
+          "repaired"
+        ]
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "A new ___ was made in robotics last year.",
-        "options": ["algorithm", "breakthrough", "network"],
+        "question": "He ___ his house painted every year.",
+        "question_translation": {
+          "Hindi": "वह हर साल अपने घर को रंगवाता ___।",
+          "Japanese": "彼は毎年家を塗ってもらう___。"
+        },
+        "options": [
+          "have",
+          "has",
+          "having"
+        ],
         "answer": 1
       },
       {
         "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [increase, automation, can, efficiency, factories, in]",
-        "options": ["increase", "automation", "can", "efficiency", "factories", "in"],
-        "answer": ["Automation", "can", "increase", "efficiency", "in", "factories"]
+        "type": "multipleChoice",
+        "question": "Which is the correct causative construction?",
+        "question_translation": {
+          "Hindi": "कौन सा सही कारणवाचक संरचना है?",
+          "Japanese": "正しい使役構文はどれですか？"
+        },
+        "options": [
+          "She got her dress make.",
+          "She got her dress made.",
+          "She got make her dress."
+        ],
+        "answer": 1
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "People use ___ to experience new worlds.",
-        "options": ["digital", "virtual reality", "robotics"],
+        "question": "I will ___ my car washed tomorrow.",
+        "question_translation": {
+          "Hindi": "मैं कल अपनी कार धुलवाऊँगा।",
+          "Japanese": "明日車を洗って___。"
+        },
+        "options": [
+          "had",
+          "have",
+          "having"
+        ],
         "answer": 1
       },
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: [data, by, sensors, collected, is]",
-        "options": ["data", "by", "sensors", "collected", "is"],
-        "answer": ["Data", "is", "collected", "by", "sensors"]
+        "question": "Arrange: [decorated, had, their, house, they]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [decorated, had, their, house, they]",
+          "Japanese": "並べ替え: [decorated, had, their, house, they]"
+        },
+        "options": [
+          "decorated",
+          "had",
+          "their",
+          "house",
+          "they"
+        ],
+        "answer": [
+          "they",
+          "had",
+          "their",
+          "house",
+          "decorated"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "What is changing many industries? (Audio: 'Artificial intelligence is changing many industries.')",
-        "options": ["Artificial intelligence", "Automation", "Device"],
+        "type": "multipleChoice",
+        "question": "What service was arranged?",
+        "audio_text": "I had my laptop fixed yesterday.",
+        "question_translation": {
+          "Hindi": "कौन सी सेवा की व्यवस्था की गई थी?",
+          "Japanese": "どのサービスが手配されましたか？"
+        },
+        "options": [
+          "Laptop repair",
+          "Laptop cleaning",
+          "Laptop buying"
+        ],
         "answer": 0
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "What was made in robotics last year? (Audio: 'A new breakthrough was made in robotics last year.')",
-        "options": ["A device", "A breakthrough", "A network"],
-        "answer": 1
+        "type": "trueFalse",
+        "question": "The sentence 'She got her hair cut' is a causative construction.",
+        "audio_text": "She got her hair cut.",
+        "question_translation": {
+          "Hindi": "वाक्य 'She got her hair cut' एक कारणवाचक संरचना है।",
+          "Japanese": "文 'She got her hair cut' は使役構文である。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "What can increase efficiency in factories? (Audio: 'Automation can increase efficiency in factories.')",
-        "options": ["Automation", "Network", "Virtual reality"],
+        "type": "multipleChoice",
+        "question": "Which object was affected?",
+        "audio_text": "We had the documents translated into French.",
+        "question_translation": {
+          "Hindi": "कौन सी वस्तु प्रभावित हुई?",
+          "Japanese": "どの目的語が影響を受けましたか？"
+        },
+        "options": [
+          "Documents",
+          "French language",
+          "Service provider"
+        ],
         "answer": 0
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "What do people use to experience new worlds? (Audio: 'People use virtual reality to experience new worlds.')",
-        "options": ["Automation", "Virtual reality", "Innovation"],
-        "answer": 1
+        "type": "multipleChoice",
+        "question": "What tense is the causative here?",
+        "audio_text": "I will have my suit cleaned tomorrow.",
+        "question_translation": {
+          "Hindi": "यहाँ कारणवाचक किस काल में है?",
+          "Japanese": "ここでの使役構文は何時制ですか？"
+        },
+        "options": [
+          "Present simple",
+          "Past simple",
+          "Future simple"
+        ],
+        "answer": 2
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "How is data collected? (Audio: 'Data is collected by sensors.')",
-        "options": ["By sensors", "By robots", "By devices"],
+        "type": "trueFalse",
+        "question": "The speaker is describing a past event: 'He had his phone repaired.'",
+        "audio_text": "He had his phone repaired.",
+        "question_translation": {
+          "Hindi": "वक्ता एक भूतकालीन घटना का वर्णन कर रहा है: 'He had his phone repaired.'",
+          "Japanese": "話者は過去の出来事を説明している: 'He had his phone repaired.'"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -149,37 +513,57 @@
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'Artificial intelligence is changing many industries.'",
+        "question": "Say: 'I had my car washed yesterday.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I had my car washed yesterday.'",
+          "Japanese": "言ってください: 'I had my car washed yesterday.'"
+        },
         "options": [],
-        "answer": "Artificial intelligence is changing many industries."
+        "answer": "i had my car washed yesterday"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Say: 'A new breakthrough was made in robotics last year.'",
+        "question": "Say: 'She got her hair cut last week.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She got her hair cut last week.'",
+          "Japanese": "言ってください: 'She got her hair cut last week.'"
+        },
         "options": [],
-        "answer": "A new breakthrough was made in robotics last year."
+        "answer": "she got her hair cut last week"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'Automation can increase efficiency in factories.'",
+        "question": "Say: 'We had the house decorated for the festival.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We had the house decorated for the festival.'",
+          "Japanese": "言ってください: 'We had the house decorated for the festival.'"
+        },
         "options": [],
-        "answer": "Automation can increase efficiency in factories."
+        "answer": "we had the house decorated for the festival"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Say: 'People use virtual reality to experience new worlds.'",
+        "question": "Say: 'I will have my suit cleaned tomorrow.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I will have my suit cleaned tomorrow.'",
+          "Japanese": "言ってください: 'I will have my suit cleaned tomorrow.'"
+        },
         "options": [],
-        "answer": "People use virtual reality to experience new worlds."
+        "answer": "i will have my suit cleaned tomorrow"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Say: 'Data is collected by sensors.'",
+        "question": "Say: 'He had his phone repaired.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He had his phone repaired.'",
+          "Japanese": "言ってください: 'He had his phone repaired.'"
+        },
         "options": [],
-        "answer": "Data is collected by sensors."
+        "answer": "he had his phone repaired"
       }
     ]
   }

@@ -1,4 +1,555 @@
 {
-  "id": 39,
-  "message": "This is file number 39"
+  "id": "lesson_workplace_conflicts_001",
+  "lesson_name": "Workplace Scenarios: Conflicts & Feedback",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "conflict",
+        "word_translation": {
+          "Hindi": "संघर्ष",
+          "Japanese": "対立"
+        },
+        "meaning": "A serious disagreement or argument",
+        "meaning_translation": {
+          "Hindi": "एक गंभीर असहमति या विवाद",
+          "Japanese": "深刻な意見の相違や争い"
+        },
+        "examples": [
+          {
+            "sentence": "There was a conflict between two team members.",
+            "translation": {
+              "Hindi": "दो टीम सदस्यों के बीच संघर्ष हुआ।",
+              "Japanese": "二人のチームメンバーの間に対立がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "feedback",
+        "word_translation": {
+          "Hindi": "प्रतिक्रिया",
+          "Japanese": "フィードバック"
+        },
+        "meaning": "Information or advice about how someone is doing something",
+        "meaning_translation": {
+          "Hindi": "किसी के काम करने के तरीके के बारे में जानकारी या सलाह",
+          "Japanese": "誰かの行動や仕事に関する情報や助言"
+        },
+        "examples": [
+          {
+            "sentence": "She gave me useful feedback on my presentation.",
+            "translation": {
+              "Hindi": "उसने मेरी प्रस्तुति पर मुझे उपयोगी प्रतिक्रिया दी।",
+              "Japanese": "彼女は私のプレゼンテーションに役立つフィードバックをくれました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "misunderstanding",
+        "word_translation": {
+          "Hindi": "गलतफहमी",
+          "Japanese": "誤解"
+        },
+        "meaning": "A failure to understand something correctly",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को सही तरीके से न समझने की स्थिति",
+          "Japanese": "何かを正しく理解できないこと"
+        },
+        "examples": [
+          {
+            "sentence": "The conflict was caused by a simple misunderstanding.",
+            "translation": {
+              "Hindi": "संघर्ष एक साधारण गलतफहमी के कारण हुआ।",
+              "Japanese": "その対立は単なる誤解が原因でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mediation",
+        "word_translation": {
+          "Hindi": "मध्यस्थता",
+          "Japanese": "仲裁"
+        },
+        "meaning": "A process where a neutral person helps resolve a conflict",
+        "meaning_translation": {
+          "Hindi": "एक प्रक्रिया जिसमें एक तटस्थ व्यक्ति संघर्ष को हल करने में मदद करता है",
+          "Japanese": "中立的な人が対立解決を助けるプロセス"
+        },
+        "examples": [
+          {
+            "sentence": "Mediation helped the employees reach an agreement.",
+            "translation": {
+              "Hindi": "मध्यस्थता ने कर्मचारियों को एक समझौते तक पहुँचने में मदद की।",
+              "Japanese": "仲裁が従業員たちの合意に役立ちました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "constructive",
+        "word_translation": {
+          "Hindi": "रचनात्मक",
+          "Japanese": "建設的な"
+        },
+        "meaning": "Helpful and intended to improve something",
+        "meaning_translation": {
+          "Hindi": "सहायक और किसी चीज़ को सुधारने के लिए किया गया",
+          "Japanese": "役立ち、改善を目的とした"
+        },
+        "examples": [
+          {
+            "sentence": "He gave me constructive criticism to improve my work.",
+            "translation": {
+              "Hindi": "उसने मेरे काम को सुधारने के लिए मुझे रचनात्मक आलोचना दी।",
+              "Japanese": "彼は私の仕事を改善するために建設的な批判をくれました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "escalate",
+        "word_translation": {
+          "Hindi": "बढ़ना",
+          "Japanese": "悪化する"
+        },
+        "meaning": "To make a problem or conflict more serious",
+        "meaning_translation": {
+          "Hindi": "किसी समस्या या संघर्ष को और गंभीर बनाना",
+          "Japanese": "問題や対立をさらに深刻にすること"
+        },
+        "examples": [
+          {
+            "sentence": "The argument escalated into a major conflict.",
+            "translation": {
+              "Hindi": "बहस एक बड़े संघर्ष में बदल गई।",
+              "Japanese": "議論は大きな対立に発展しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "compromise",
+        "word_translation": {
+          "Hindi": "समझौता",
+          "Japanese": "妥協"
+        },
+        "meaning": "An agreement where each side gives up part of what they want",
+        "meaning_translation": {
+          "Hindi": "एक समझौता जिसमें प्रत्येक पक्ष अपनी कुछ इच्छाओं को छोड़ देता है",
+          "Japanese": "双方が望みの一部を譲ることで成立する合意"
+        },
+        "examples": [
+          {
+            "sentence": "They reached a compromise after the meeting.",
+            "translation": {
+              "Hindi": "बैठक के बाद वे एक समझौते पर पहुँचे।",
+              "Japanese": "会議の後、彼らは妥協に達しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assertive",
+        "word_translation": {
+          "Hindi": "आत्मविश्वासी",
+          "Japanese": "自己主張が強い"
+        },
+        "meaning": "Expressing your opinions clearly and respectfully",
+        "meaning_translation": {
+          "Hindi": "अपने विचारों को स्पष्ट और सम्मानपूर्वक व्यक्त करना",
+          "Japanese": "自分の意見を明確かつ丁寧に表現すること"
+        },
+        "examples": [
+          {
+            "sentence": "Being assertive helps prevent workplace conflicts.",
+            "translation": {
+              "Hindi": "आत्मविश्वासी होना कार्यस्थल पर संघर्षों को रोकने में मदद करता है।",
+              "Japanese": "自己主張をすることは職場での対立を防ぐのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "collaboration",
+        "word_translation": {
+          "Hindi": "सहयोग",
+          "Japanese": "協力"
+        },
+        "meaning": "Working together to achieve a common goal",
+        "meaning_translation": {
+          "Hindi": "एक सामान्य लक्ष्य प्राप्त करने के लिए मिलकर काम करना",
+          "Japanese": "共通の目標を達成するために一緒に働くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Good collaboration reduces the chances of conflict.",
+            "translation": {
+              "Hindi": "अच्छा सहयोग संघर्ष की संभावनाओं को कम करता है।",
+              "Japanese": "良い協力は対立の可能性を減らします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "resolution",
+        "word_translation": {
+          "Hindi": "समाधान",
+          "Japanese": "解決"
+        },
+        "meaning": "The act of solving or ending a conflict or problem",
+        "meaning_translation": {
+          "Hindi": "संघर्ष या समस्या को हल करने या समाप्त करने की क्रिया",
+          "Japanese": "対立や問題を解決する行為"
+        },
+        "examples": [
+          {
+            "sentence": "The HR department supported the resolution of the issue.",
+            "translation": {
+              "Hindi": "एचआर विभाग ने समस्या के समाधान का समर्थन किया।",
+              "Japanese": "人事部はその問題の解決を支援しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Modals for Suggestions",
+        "explanation": "Use 'should', 'could', or 'might want to' when suggesting solutions in workplace conflicts. Example: You should talk to your colleague directly.",
+        "explanation_translation": {
+          "Hindi": "कार्यस्थल के संघर्षों में समाधान सुझाते समय 'should', 'could', या 'might want to' का उपयोग करें। उदाहरण: You should talk to your colleague directly.",
+          "Japanese": "職場の対立で解決策を提案するときは 'should'、'could'、'might want to' を使います。例: You should talk to your colleague directly."
+        }
+      },
+      {
+        "title": "Polite Expressions for Feedback",
+        "explanation": "Use phrases like 'I suggest...', 'It might be better if...', or 'Have you considered...' to give constructive feedback politely.",
+        "explanation_translation": {
+          "Hindi": "शिष्टतापूर्वक रचनात्मक प्रतिक्रिया देने के लिए 'I suggest...', 'It might be better if...', या 'Have you considered...' जैसे वाक्यांशों का उपयोग करें।",
+          "Japanese": "建設的なフィードバックを丁寧に与えるには 'I suggest...' や 'It might be better if...'、'Have you considered...' を使います。"
+        }
+      },
+      {
+        "title": "Passive Voice for Neutrality",
+        "explanation": "Use passive forms to keep feedback or conflict resolution neutral. Example: The issue was resolved through mediation.",
+        "explanation_translation": {
+          "Hindi": "प्रतिक्रिया या संघर्ष समाधान को तटस्थ बनाए रखने के लिए passive form का उपयोग करें। उदाहरण: The issue was resolved through mediation.",
+          "Japanese": "フィードバックや対立解決を中立的に保つために受動態を使います。例: The issue was resolved through mediation."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a serious disagreement or argument'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'एक गंभीर असहमति या विवाद' का अर्थ है?",
+        "Japanese": "『深刻な意見の相違や争い』を意味する言葉はどれですか？"
+      },
+      "options": [
+        "feedback",
+        "conflict",
+        "resolution"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "She gave me useful ___ on my presentation.",
+      "question_translation": {
+        "Hindi": "उसने मेरी प्रस्तुति पर मुझे उपयोगी ___ दी।",
+        "Japanese": "彼女は私のプレゼンテーションに役立つ___をくれました。"
+      },
+      "options": [
+        "feedback",
+        "compromise",
+        "mediation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Mediation involves a neutral person helping resolve a conflict.",
+      "question_translation": {
+        "Hindi": "मध्यस्थता में एक तटस्थ व्यक्ति संघर्ष को हल करने में मदद करता है।",
+        "Japanese": "仲裁では中立的な人が対立解決を助けます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means 'an agreement where each side gives up part of what they want'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'एक समझौता जिसमें प्रत्येक पक्ष अपनी कुछ इच्छाओं को छोड़ देता है' का अर्थ है?",
+        "Japanese": "『双方が望みの一部を譲ることで成立する合意』を意味する言葉はどれですか？"
+      },
+      "options": [
+        "assertive",
+        "compromise",
+        "collaboration"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Good ___ reduces the chances of conflict.",
+      "question_translation": {
+        "Hindi": "अच्छा ___ संघर्ष की संभावनाओं को कम करता है।",
+        "Japanese": "良い___は対立の可能性を減らします。"
+      },
+      "options": [
+        "collaboration",
+        "escalation",
+        "misunderstanding"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [helped, agreement, mediation, the, reach]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [helped, agreement, mediation, the, reach]",
+        "Japanese": "並べ替え: [helped, agreement, mediation, the, reach]"
+      },
+      "options": [
+        "helped",
+        "agreement",
+        "mediation",
+        "the",
+        "reach"
+      ],
+      "answer": [
+        "mediation",
+        "helped",
+        "reach",
+        "the",
+        "agreement"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The conflict was caused by a simple ___.",
+      "question_translation": {
+        "Hindi": "संघर्ष एक साधारण ___ के कारण हुआ।",
+        "Japanese": "その対立は単なる___が原因でした。"
+      },
+      "options": [
+        "resolution",
+        "misunderstanding",
+        "feedback"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows escalation?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य बढ़ते हुए संघर्ष को दिखाता है?",
+        "Japanese": "どの文が対立の悪化を示していますか？"
+      },
+      "options": [
+        "The issue was resolved quickly.",
+        "The argument escalated into a major conflict.",
+        "They reached a compromise after the meeting."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [gave, constructive, feedback, she, me]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [gave, constructive, feedback, she, me]",
+        "Japanese": "並べ替え: [gave, constructive, feedback, she, me]"
+      },
+      "options": [
+        "gave",
+        "constructive",
+        "feedback",
+        "she",
+        "me"
+      ],
+      "answer": [
+        "she",
+        "gave",
+        "me",
+        "constructive",
+        "feedback"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The HR department supported the ___ of the issue.",
+      "question_translation": {
+        "Hindi": "एचआर विभाग ने समस्या के ___ का समर्थन किया।",
+        "Japanese": "人事部は問題の___を支援しました。"
+      },
+      "options": [
+        "resolution",
+        "escalation",
+        "conflict"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What caused the conflict?",
+      "audio_text": "The conflict was caused by a misunderstanding.",
+      "question_translation": {
+        "Hindi": "संघर्ष का कारण क्या था?",
+        "Japanese": "対立の原因は何でしたか？"
+      },
+      "options": [
+        "Feedback",
+        "Misunderstanding",
+        "Compromise"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says mediation resolved the issue.",
+      "audio_text": "Mediation helped resolve the issue between the colleagues.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि मध्यस्थता ने समस्या का समाधान किया।",
+        "Japanese": "話者は仲裁が同僚間の問題を解決したと言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What did the HR department support?",
+      "audio_text": "The HR department supported the resolution of the conflict.",
+      "question_translation": {
+        "Hindi": "एचआर विभाग ने किसका समर्थन किया?",
+        "Japanese": "人事部は何を支援しましたか？"
+      },
+      "options": [
+        "Escalation",
+        "Resolution",
+        "Misunderstanding"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "He gave me ___ criticism to improve my work.",
+      "audio_text": "He gave me constructive criticism to improve my work.",
+      "question_translation": {
+        "Hindi": "उसने मेरे काम को सुधारने के लिए मुझे ___ आलोचना दी।",
+        "Japanese": "彼は私の仕事を改善するために___批判をくれました。"
+      },
+      "options": [
+        "constructive",
+        "assertive",
+        "collaborative"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker believes assertiveness helps prevent workplace conflicts.",
+      "audio_text": "Being assertive helps prevent workplace conflicts.",
+      "question_translation": {
+        "Hindi": "वक्ता का मानना है कि आत्मविश्वासी होना कार्यस्थल के संघर्षों को रोकने में मदद करता है।",
+        "Japanese": "話者は自己主張をすることが職場の対立を防ぐのに役立つと考えています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'There was a conflict between two colleagues.'",
+      "question_translation": {
+        "Hindi": "कहें: 'दो सहकर्मियों के बीच एक संघर्ष था।'",
+        "Japanese": "言ってください: '二人の同僚の間に対立がありました。'"
+      },
+      "options": [],
+      "answer": "there was a conflict between two colleagues"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Mediation helped resolve the issue.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मध्यस्थता ने समस्या का समाधान किया।'",
+        "Japanese": "言ってください: '仲裁が問題を解決しました。'"
+      },
+      "options": [],
+      "answer": "mediation helped resolve the issue"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'She gave me constructive feedback.'",
+      "question_translation": {
+        "Hindi": "कहें: 'उसने मुझे रचनात्मक प्रतिक्रिया दी।'",
+        "Japanese": "言ってください: '彼女は私に建設的なフィードバックをくれました。'"
+      },
+      "options": [],
+      "answer": "she gave me constructive feedback"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'They reached a compromise after the meeting.'",
+      "question_translation": {
+        "Hindi": "कहें: 'बैठक के बाद वे एक समझौते पर पहुँचे।'",
+        "Japanese": "言ってください: '会議の後、彼らは妥協に達しました。'"
+      },
+      "options": [],
+      "answer": "they reached a compromise after the meeting"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Being assertive helps prevent conflicts.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आत्मविश्वासी होना संघर्षों को रोकने में मदद करता है।'",
+        "Japanese": "言ってください: '自己主張をすることは対立を防ぐのに役立ちます。'"
+      },
+      "options": [],
+      "answer": "being assertive helps prevent conflicts"
+    }
+  ]
+}
+
 }

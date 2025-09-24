@@ -5,7 +5,7 @@ Commands:
 
 If I give lesson name only → output JSON without question_pools.
 
-If I say “pool” → output JSON with only question_pools.
+If I say “pool” → output JSON with only question_pools without outer {} but with question_pools key.
 
 Always follow this structure (keys exact):
 
@@ -528,12 +528,12 @@ Always follow this structure (keys exact):
 
 Rules:
 
-Vocabulary: word, translations (Hindi/Japanese), meaning + translations, 1+ example with translations.
+Vocabulary: ≥10 word, translations (Hindi/Japanese), meaning + translations, 1+ example with translations.
 
 Grammar tips: title, explanation, translations.
 
 Question pools: ≥5 per section. Each Q has id, type, question, question_translation, options, answer. Speaking Qs → return answer as lowercase sentence.
 
-Use clear English suitable for B1 CEFR level.
+Use clear English suitable for C1 CEFR level.
 
-Output must be valid JSON only, no extra text.
+Output must be valid ```JSON only, no extra text.

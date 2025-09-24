@@ -1,4 +1,460 @@
 {
-  "id": 17,
-  "message": "This is file number 17"
+  "id": "lesson_concession_hedging_007",
+  "lesson_name": "Concession & Hedging (Even though/Kind of)",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "concession",
+        "word_translation": {
+          "Hindi": "स्वीकारोक्ति",
+          "Japanese": "譲歩"
+        },
+        "meaning": "Acknowledging a contrasting or opposing idea while still maintaining your point",
+        "meaning_translation": {
+          "Hindi": "किसी विरोधी विचार को स्वीकार करना लेकिन फिर भी अपनी बात रखना",
+          "Japanese": "対立する考えを認めつつ自分の主張を維持すること"
+        },
+        "examples": [
+          {
+            "sentence": "Even though it was expensive, I bought the phone.",
+            "translation": {
+              "Hindi": "हालाँकि यह महँगा था, मैंने फोन खरीदा।",
+              "Japanese": "高かったけれども、その電話を買った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hedging",
+        "word_translation": {
+          "Hindi": "अनिश्चितता व्यक्त करना",
+          "Japanese": "曖昧にすること"
+        },
+        "meaning": "Using cautious or less direct language to soften a statement",
+        "meaning_translation": {
+          "Hindi": "किसी कथन को नरम बनाने के लिए सतर्क या कम सीधे शब्दों का उपयोग करना",
+          "Japanese": "発言を和らげるために控えめまたは間接的な言葉を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "It’s kind of difficult to explain.",
+            "translation": {
+              "Hindi": "इसे समझाना थोड़ा मुश्किल है।",
+              "Japanese": "説明するのはちょっと難しい。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "even though",
+        "word_translation": {
+          "Hindi": "भले ही",
+          "Japanese": "〜であるにもかかわらず"
+        },
+        "meaning": "Strong linker to express concession or contrast",
+        "meaning_translation": {
+          "Hindi": "विरोधाभास या concession व्यक्त करने के लिए एक मजबूत linker",
+          "Japanese": "譲歩や対比を表す強い接続詞"
+        },
+        "examples": [
+          {
+            "sentence": "Even though he was tired, he went to the gym.",
+            "translation": {
+              "Hindi": "भले ही वह थका हुआ था, वह जिम गया।",
+              "Japanese": "彼は疲れていたが、それでもジムに行った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "kind of",
+        "word_translation": {
+          "Hindi": "कुछ हद तक",
+          "Japanese": "ちょっと〜な"
+        },
+        "meaning": "A hedging expression used to make statements softer or less direct",
+        "meaning_translation": {
+          "Hindi": "एक hedging अभिव्यक्ति जो कथनों को नरम या कम प्रत्यक्ष बनाती है",
+          "Japanese": "発言を和らげたり、あまり直接的でなくする表現"
+        },
+        "examples": [
+          {
+            "sentence": "I’m kind of nervous about the test.",
+            "translation": {
+              "Hindi": "मैं परीक्षा के बारे में कुछ हद तक घबराया हुआ हूँ।",
+              "Japanese": "試験についてちょっと緊張している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "might",
+        "word_translation": {
+          "Hindi": "शायद",
+          "Japanese": "〜かもしれない"
+        },
+        "meaning": "A modal verb often used for hedging or expressing uncertainty",
+        "meaning_translation": {
+          "Hindi": "एक modal verb जो अक्सर hedging या अनिश्चितता व्यक्त करने के लिए उपयोग होता है",
+          "Japanese": "曖昧さや不確実性を表すのによく使われる助動詞"
+        },
+        "examples": [
+          {
+            "sentence": "We might be late if traffic is heavy.",
+            "translation": {
+              "Hindi": "अगर ट्रैफ़िक भारी रहा तो हम देर से पहुँच सकते हैं।",
+              "Japanese": "交通が混んでいれば、私たちは遅れるかもしれない。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Concession",
+        "explanation": "Concession markers like 'even though', 'although', and 'while' show contrast between two ideas. Example: Even though he studied, he didn’t pass.",
+        "explanation_translation": {
+          "Hindi": "'even though', 'although', और 'while' जैसे concession markers दो विचारों के बीच विरोधाभास दिखाते हैं। उदाहरण: Even though he studied, he didn’t pass.",
+          "Japanese": "「even though」「although」「while」などの譲歩表現は二つの考えの対比を示します。例：Even though he studied, he didn’t pass."
+        }
+      },
+      {
+        "title": "Using Hedging",
+        "explanation": "Hedging softens statements and avoids sounding too direct or absolute. Common words: kind of, might, maybe, seems. Example: It seems difficult to answer.",
+        "explanation_translation": {
+          "Hindi": "Hedging कथनों को नरम करता है और बहुत प्रत्यक्ष या पूर्ण न लगने देता है। सामान्य शब्द: kind of, might, maybe, seems। उदाहरण: It seems difficult to answer.",
+          "Japanese": "曖昧表現は発言を和らげ、強すぎたり断定的に聞こえないようにします。一般的な語：kind of, might, maybe, seems。例：It seems difficult to answer."
+        }
+      },
+      {
+        "title": "Concession vs. Hedging",
+        "explanation": "Concession accepts contrast but continues the argument. Hedging reduces certainty to make speech softer. Example: Concession – Even though it rained, we went out. Hedging – It might rain later.",
+        "explanation_translation": {
+          "Hindi": "Concession विरोधाभास को स्वीकार करता है लेकिन तर्क जारी रखता है। Hedging निश्चितता को कम करता है ताकि बोलना नरम हो। उदाहरण: Concession – Even though it rained, we went out. Hedging – It might rain later.",
+          "Japanese": "譲歩は対立を認めつつ議論を続けます。曖昧表現は確実性を弱め、柔らかい言い方にします。例：Concession – Even though it rained, we went out. Hedging – It might rain later."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which linker is used to strongly express concession?",
+      "question_translation": {
+        "Hindi": "कौन सा linker concession को मजबूती से व्यक्त करने के लिए उपयोग होता है?",
+        "Japanese": "譲歩を強く表すために使われる接続詞はどれですか？"
+      },
+      "options": [
+        "kind of",
+        "even though",
+        "might"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "I’m ___ nervous about the interview.",
+      "question_translation": {
+        "Hindi": "मैं साक्षात्कार के बारे में ___ घबराया हुआ हूँ।",
+        "Japanese": "私は面接について___緊張しています。"
+      },
+      "options": [
+        "even though",
+        "kind of",
+        "due to"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Hedging is used to make statements less direct and less certain.",
+      "question_translation": {
+        "Hindi": "Hedging का उपयोग कथनों को कम प्रत्यक्ष और कम निश्चित बनाने के लिए किया जाता है।",
+        "Japanese": "曖昧表現は発言をあまり直接的・確実でないものにするために使われます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which modal verb is commonly used for hedging?",
+      "question_translation": {
+        "Hindi": "कौन सा modal verb आमतौर पर hedging के लिए उपयोग किया जाता है?",
+        "Japanese": "曖昧表現によく使われる助動詞はどれですか？"
+      },
+      "options": [
+        "must",
+        "might",
+        "shall"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "___ it was expensive, she bought the dress.",
+      "question_translation": {
+        "Hindi": "यह महँगा ___ उसने ड्रेस खरीदी।",
+        "Japanese": "高かった___彼女はドレスを買った。"
+      },
+      "options": [
+        "Even though",
+        "Kind of",
+        "Because"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [went, though, even, he, gym, the, was, tired, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [went, though, even, he, gym, the, was, tired, to]",
+        "Japanese": "並べ替え: [went, though, even, he, gym, the, was, tired, to]"
+      },
+      "options": [
+        "went",
+        "though",
+        "even",
+        "he",
+        "gym",
+        "the",
+        "was",
+        "tired",
+        "to"
+      ],
+      "answer": [
+        "Even",
+        "though",
+        "he",
+        "was",
+        "tired",
+        "he",
+        "went",
+        "to",
+        "the",
+        "gym"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "She said it ___ be a good idea to wait.",
+      "question_translation": {
+        "Hindi": "उसने कहा कि इंतज़ार करना ___ अच्छा विचार हो सकता है।",
+        "Japanese": "彼女は待つのは良い考え___と言った。"
+      },
+      "options": [
+        "must",
+        "might",
+        "kind of"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows hedging?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य hedging दिखाता है?",
+        "Japanese": "どの文が曖昧表現を示していますか？"
+      },
+      "options": [
+        "It will rain tomorrow.",
+        "It might rain tomorrow.",
+        "It rains tomorrow."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [kind, I, nervous, of, am]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [kind, I, nervous, of, am]",
+        "Japanese": "並べ替え: [kind, I, nervous, of, am]"
+      },
+      "options": [
+        "kind",
+        "I",
+        "nervous",
+        "of",
+        "am"
+      ],
+      "answer": [
+        "I",
+        "am",
+        "kind",
+        "of",
+        "nervous"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "___ he studied hard, he didn’t pass the exam.",
+      "question_translation": {
+        "Hindi": "उसने बहुत पढ़ाई की ___, वह परीक्षा पास नहीं कर पाया।",
+        "Japanese": "彼は一生懸命勉強した___試験に合格できなかった。"
+      },
+      "options": [
+        "Even though",
+        "Kind of",
+        "Might"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What contrast is shown?",
+      "audio_text": "Even though it was raining, they played football.",
+      "question_translation": {
+        "Hindi": "कौन सा विरोधाभास दिखाया गया है?",
+        "Japanese": "どんな対比が示されていますか？"
+      },
+      "options": [
+        "They canceled the game because of rain",
+        "They played despite the rain",
+        "They waited for the rain to stop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What hedging device is used?",
+      "audio_text": "It might snow later today.",
+      "question_translation": {
+        "Hindi": "कौन सा hedging device उपयोग हुआ है?",
+        "Japanese": "どんな曖昧表現が使われていますか？"
+      },
+      "options": [
+        "must",
+        "might",
+        "although"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The speaker is completely certain.",
+      "audio_text": "I kind of agree with you on that point.",
+      "question_translation": {
+        "Hindi": "वक्ता पूरी तरह से निश्चित है।",
+        "Japanese": "話者は完全に確信している。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What feeling is expressed?",
+      "audio_text": "I’m kind of nervous about the presentation.",
+      "question_translation": {
+        "Hindi": "कौन सी भावना व्यक्त की गई है?",
+        "Japanese": "どんな気持ちが表現されていますか？"
+      },
+      "options": [
+        "Confidence",
+        "Uncertainty",
+        "Relaxation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Why is this a concession?",
+      "audio_text": "Even though she was sick, she went to work.",
+      "question_translation": {
+        "Hindi": "यह concession क्यों है?",
+        "Japanese": "なぜこれは譲歩表現ですか？"
+      },
+      "options": [
+        "Because it gives a reason",
+        "Because it accepts a contrast",
+        "Because it shows certainty"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Even though it was cold, we went swimming.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Even though it was cold, we went swimming.'",
+        "Japanese": "言ってください: 'Even though it was cold, we went swimming.'"
+      },
+      "options": [],
+      "answer": "even though it was cold we went swimming"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'It might rain later.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It might rain later.'",
+        "Japanese": "言ってください: 'It might rain later.'"
+      },
+      "options": [],
+      "answer": "it might rain later"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I’m kind of nervous about the exam.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I’m kind of nervous about the exam.'",
+        "Japanese": "言ってください: 'I’m kind of nervous about the exam.'"
+      },
+      "options": [],
+      "answer": "i'm kind of nervous about the exam"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Even though he was tired, he finished the work.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Even though he was tired, he finished the work.'",
+        "Japanese": "言ってください: 'Even though he was tired, he finished the work.'"
+      },
+      "options": [],
+      "answer": "even though he was tired he finished the work"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'It seems kind of difficult to decide.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It seems kind of difficult to decide.'",
+        "Japanese": "言ってください: 'It seems kind of difficult to decide.'"
+      },
+      "options": [],
+      "answer": "it seems kind of difficult to decide"
+    }
+  ]
+}
+
 }

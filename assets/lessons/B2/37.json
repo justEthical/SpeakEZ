@@ -1,4 +1,556 @@
 {
-  "id": 37,
-  "message": "This is file number 37"
+  "id": "lesson_technology_ethics_001",
+  "lesson_name": "Technology Ethics (Pros, Cons, Trade-offs)",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "ethics",
+        "word_translation": {
+          "Hindi": "नैतिकता",
+          "Japanese": "倫理"
+        },
+        "meaning": "Moral principles that guide behavior and decision-making",
+        "meaning_translation": {
+          "Hindi": "व्यवहार और निर्णय लेने का मार्गदर्शन करने वाले नैतिक सिद्धांत",
+          "Japanese": "行動や意思決定を導く道徳的な原則"
+        },
+        "examples": [
+          {
+            "sentence": "Ethics are important when developing new technologies.",
+            "translation": {
+              "Hindi": "नई तकनीक विकसित करते समय नैतिकता महत्वपूर्ण होती है।",
+              "Japanese": "新しい技術を開発する際には倫理が重要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pros",
+        "word_translation": {
+          "Hindi": "फायदे",
+          "Japanese": "利点"
+        },
+        "meaning": "The positive aspects or advantages of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के सकारात्मक पहलू या लाभ",
+          "Japanese": "何かの肯定的な側面や利点"
+        },
+        "examples": [
+          {
+            "sentence": "One of the pros of smartphones is easy access to information.",
+            "translation": {
+              "Hindi": "स्मार्टफोन का एक फायदा है जानकारी तक आसान पहुंच।",
+              "Japanese": "スマートフォンの利点の一つは情報への簡単なアクセスです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cons",
+        "word_translation": {
+          "Hindi": "नुकसान",
+          "Japanese": "欠点"
+        },
+        "meaning": "The negative aspects or disadvantages of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के नकारात्मक पहलू या हानियाँ",
+          "Japanese": "何かの否定的な側面や欠点"
+        },
+        "examples": [
+          {
+            "sentence": "One of the cons of social media is addiction.",
+            "translation": {
+              "Hindi": "सोशल मीडिया का एक नुकसान है लत लगना।",
+              "Japanese": "ソーシャルメディアの欠点の一つは依存です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "trade-off",
+        "word_translation": {
+          "Hindi": "समझौता",
+          "Japanese": "トレードオフ"
+        },
+        "meaning": "A situation where gaining one benefit means losing another",
+        "meaning_translation": {
+          "Hindi": "ऐसी स्थिति जहां एक लाभ पाने का मतलब दूसरा खोना हो",
+          "Japanese": "一つの利益を得る代わりに別のものを失う状況"
+        },
+        "examples": [
+          {
+            "sentence": "There is a trade-off between convenience and privacy in technology.",
+            "translation": {
+              "Hindi": "तकनीक में सुविधा और गोपनीयता के बीच एक समझौता है।",
+              "Japanese": "技術には利便性とプライバシーの間にトレードオフがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "privacy",
+        "word_translation": {
+          "Hindi": "गोपनीयता",
+          "Japanese": "プライバシー"
+        },
+        "meaning": "The right to keep personal information secure and private",
+        "meaning_translation": {
+          "Hindi": "व्यक्तिगत जानकारी को सुरक्षित और निजी रखने का अधिकार",
+          "Japanese": "個人情報を安全かつ非公開に保つ権利"
+        },
+        "examples": [
+          {
+            "sentence": "Data collection raises concerns about privacy.",
+            "translation": {
+              "Hindi": "डेटा संग्रहण गोपनीयता के बारे में चिंताएँ उठाता है।",
+              "Japanese": "データ収集はプライバシーに関する懸念を引き起こします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "surveillance",
+        "word_translation": {
+          "Hindi": "निगरानी",
+          "Japanese": "監視"
+        },
+        "meaning": "The act of watching or monitoring people’s activities",
+        "meaning_translation": {
+          "Hindi": "लोगों की गतिविधियों की निगरानी या उन पर नजर रखना",
+          "Japanese": "人々の活動を監視すること"
+        },
+        "examples": [
+          {
+            "sentence": "Mass surveillance is a controversial issue in technology ethics.",
+            "translation": {
+              "Hindi": "जन निगरानी तकनीकी नैतिकता में एक विवादास्पद मुद्दा है।",
+              "Japanese": "大規模監視は技術倫理における論争的な問題です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "accountability",
+        "word_translation": {
+          "Hindi": "जवाबदेही",
+          "Japanese": "説明責任"
+        },
+        "meaning": "Responsibility for decisions, actions, and their consequences",
+        "meaning_translation": {
+          "Hindi": "निर्णयों, कार्यों और उनके परिणामों की जिम्मेदारी",
+          "Japanese": "意思決定や行動、その結果に対する責任"
+        },
+        "examples": [
+          {
+            "sentence": "AI companies must take accountability for their products.",
+            "translation": {
+              "Hindi": "एआई कंपनियों को अपने उत्पादों के लिए जवाबदेही लेनी चाहिए।",
+              "Japanese": "AI企業は自社製品に対して説明責任を持つべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bias",
+        "word_translation": {
+          "Hindi": "पक्षपात",
+          "Japanese": "偏り"
+        },
+        "meaning": "Unfair preference or prejudice that influences decisions",
+        "meaning_translation": {
+          "Hindi": "अनुचित पसंद या पूर्वाग्रह जो निर्णयों को प्रभावित करता है",
+          "Japanese": "意思決定に影響する不公平な好みや偏見"
+        },
+        "examples": [
+          {
+            "sentence": "AI algorithms can reflect human bias.",
+            "translation": {
+              "Hindi": "एआई एल्गोरिदम मानव पक्षपात को दर्शा सकते हैं।",
+              "Japanese": "AIアルゴリズムは人間の偏りを反映する可能性があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "innovation",
+        "word_translation": {
+          "Hindi": "नवाचार",
+          "Japanese": "革新"
+        },
+        "meaning": "The introduction of new ideas, methods, or devices",
+        "meaning_translation": {
+          "Hindi": "नए विचारों, तरीकों या उपकरणों का परिचय",
+          "Japanese": "新しいアイデアや方法、装置の導入"
+        },
+        "examples": [
+          {
+            "sentence": "Innovation drives technological progress.",
+            "translation": {
+              "Hindi": "नवाचार तकनीकी प्रगति को बढ़ावा देता है।",
+              "Japanese": "革新は技術の進歩を促進します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "regulation",
+        "word_translation": {
+          "Hindi": "नियमन",
+          "Japanese": "規制"
+        },
+        "meaning": "Rules made by authorities to control how things are done",
+        "meaning_translation": {
+          "Hindi": "नियम जो प्राधिकरण द्वारा यह नियंत्रित करने के लिए बनाए जाते हैं कि चीजें कैसे की जाती हैं",
+          "Japanese": "物事の行い方を制御するために当局によって作られた規則"
+        },
+        "examples": [
+          {
+            "sentence": "Regulation is necessary to prevent misuse of technology.",
+            "translation": {
+              "Hindi": "तकनीक के दुरुपयोग को रोकने के लिए नियमन आवश्यक है।",
+              "Japanese": "技術の悪用を防ぐには規制が必要です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Expressing Pros and Cons",
+        "explanation": "Use phrases like 'One advantage is...' or 'A disadvantage is...' to discuss pros and cons.",
+        "explanation_translation": {
+          "Hindi": "'One advantage is...' या 'A disadvantage is...' जैसे वाक्यांशों का उपयोग फायदे और नुकसान पर चर्चा करने के लिए करें।",
+          "Japanese": "利点や欠点を議論するには 'One advantage is...' や 'A disadvantage is...' のような表現を使います。"
+        }
+      },
+      {
+        "title": "Using 'However' for Contrast",
+        "explanation": "Use 'however' to show contrast between positive and negative points. Example: Technology makes life easier; however, it raises privacy concerns.",
+        "explanation_translation": {
+          "Hindi": "सकारात्मक और नकारात्मक बिंदुओं के बीच अंतर दिखाने के लिए 'however' का उपयोग करें। उदाहरण: तकनीक जीवन को आसान बनाती है; हालांकि, यह गोपनीयता संबंधी चिंताएँ बढ़ाती है।",
+          "Japanese": "肯定的な点と否定的な点の対比を示すには 'however' を使います。例: 技術は生活を便利にします。しかし、プライバシーの懸念を引き起こします。"
+        }
+      },
+      {
+        "title": "Describing Trade-offs",
+        "explanation": "Use 'there is a trade-off between X and Y' to describe balancing different aspects. Example: There is a trade-off between innovation and regulation.",
+        "explanation_translation": {
+          "Hindi": "विभिन्न पहलुओं के बीच संतुलन का वर्णन करने के लिए 'there is a trade-off between X and Y' का उपयोग करें। उदाहरण: नवाचार और नियमन के बीच एक समझौता है।",
+          "Japanese": "異なる側面のバランスを説明するには 'there is a trade-off between X and Y' を使います。例: 革新と規制の間にはトレードオフがあります。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'moral principles that guide behavior and decision-making'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द उन नैतिक सिद्धांतों का अर्थ है जो व्यवहार और निर्णय लेने का मार्गदर्शन करते हैं?",
+        "Japanese": "行動や意思決定を導く道徳的な原則を意味する言葉はどれですか？"
+      },
+      "options": [
+        "ethics",
+        "innovation",
+        "regulation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "One of the ___ of smartphones is easy access to information.",
+      "question_translation": {
+        "Hindi": "स्मार्टफोन का एक ___ है जानकारी तक आसान पहुंच।",
+        "Japanese": "スマートフォンの___の一つは情報への簡単なアクセスです。"
+      },
+      "options": [
+        "pros",
+        "cons",
+        "bias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A trade-off means gaining one benefit often requires losing another.",
+      "question_translation": {
+        "Hindi": "ट्रेड-ऑफ का मतलब है कि एक लाभ पाने के लिए अक्सर दूसरा खोना पड़ता है।",
+        "Japanese": "トレードオフとは、一つの利益を得るために別のものを失うことを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word refers to 'the right to keep personal information secure and private'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'व्यक्तिगत जानकारी को सुरक्षित और निजी रखने के अधिकार' को संदर्भित करता है?",
+        "Japanese": "『個人情報を安全かつ非公開に保つ権利』を指す言葉はどれですか？"
+      },
+      "options": [
+        "privacy",
+        "surveillance",
+        "accountability"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "AI algorithms can reflect human ___.",
+      "question_translation": {
+        "Hindi": "एआई एल्गोरिदम मानव ___ को दर्शा सकते हैं।",
+        "Japanese": "AIアルゴリズムは人間の___を反映する可能性があります。"
+      },
+      "options": [
+        "bias",
+        "innovation",
+        "regulation"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [privacy, technology, raises, about, concerns]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [privacy, technology, raises, about, concerns]",
+        "Japanese": "並べ替え: [privacy, technology, raises, about, concerns]"
+      },
+      "options": [
+        "privacy",
+        "technology",
+        "raises",
+        "about",
+        "concerns"
+      ],
+      "answer": [
+        "technology",
+        "raises",
+        "concerns",
+        "about",
+        "privacy"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "There is a ___ between convenience and privacy in modern apps.",
+      "question_translation": {
+        "Hindi": "आधुनिक ऐप्स में सुविधा और गोपनीयता के बीच एक ___ है।",
+        "Japanese": "現代のアプリには利便性とプライバシーの間に___があります。"
+      },
+      "options": [
+        "trade-off",
+        "bias",
+        "pro"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows a disadvantage (con) of technology?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य तकनीक का एक नुकसान (con) दिखाता है?",
+        "Japanese": "どの文が技術の欠点 (con) を示していますか？"
+      },
+      "options": [
+        "AI makes tasks faster.",
+        "Social media can cause addiction.",
+        "Smartphones provide instant communication."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [must, accountability, companies, take, AI]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [must, accountability, companies, take, AI]",
+        "Japanese": "並べ替え: [must, accountability, companies, take, AI]"
+      },
+      "options": [
+        "must",
+        "accountability",
+        "companies",
+        "take",
+        "AI"
+      ],
+      "answer": [
+        "AI",
+        "companies",
+        "must",
+        "take",
+        "accountability"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Proper government ___ can prevent misuse of technology.",
+      "question_translation": {
+        "Hindi": "उचित सरकारी ___ तकनीक के दुरुपयोग को रोक सकता है।",
+        "Japanese": "適切な政府の___は技術の悪用を防ぐことができます。"
+      },
+      "options": [
+        "regulation",
+        "innovation",
+        "surveillance"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What concern does the speaker mention?",
+      "audio_text": "Data collection raises concerns about privacy.",
+      "question_translation": {
+        "Hindi": "वक्ता किस चिंता का उल्लेख करता है?",
+        "Japanese": "話者はどんな懸念を述べていますか？"
+      },
+      "options": [
+        "Innovation",
+        "Privacy",
+        "Accountability"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says mass surveillance is uncontroversial.",
+      "audio_text": "Mass surveillance is a controversial issue in technology ethics.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि जन निगरानी विवादास्पद नहीं है।",
+        "Japanese": "話者は大規模監視は論争的ではないと言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is described as a trade-off?",
+      "audio_text": "There is a trade-off between convenience and privacy in technology.",
+      "question_translation": {
+        "Hindi": "किसे एक समझौते (ट्रेड-ऑफ) के रूप में वर्णित किया गया है?",
+        "Japanese": "技術におけるトレードオフとして何が説明されていますか？"
+      },
+      "options": [
+        "Innovation and bias",
+        "Convenience and privacy",
+        "Pros and cons"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "AI companies must take ___.",
+      "audio_text": "AI companies must take accountability.",
+      "question_translation": {
+        "Hindi": "एआई कंपनियों को ___ लेनी चाहिए।",
+        "Japanese": "AI企業は___を持つべきです。"
+      },
+      "options": [
+        "privacy",
+        "accountability",
+        "bias"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What drives technological progress?",
+      "audio_text": "Innovation drives technological progress.",
+      "question_translation": {
+        "Hindi": "तकनीकी प्रगति को क्या बढ़ावा देता है?",
+        "Japanese": "技術の進歩を促進するものは何ですか？"
+      },
+      "options": [
+        "Regulation",
+        "Bias",
+        "Innovation"
+      ],
+      "answer": 2
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'There are pros and cons to every technology.'",
+      "question_translation": {
+        "Hindi": "कहें: 'हर तकनीक के फायदे और नुकसान होते हैं।'",
+        "Japanese": "言ってください: 'すべての技術には利点と欠点があります。'"
+      },
+      "options": [],
+      "answer": "there are pros and cons to every technology"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'There is a trade-off between convenience and privacy.'",
+      "question_translation": {
+        "Hindi": "कहें: 'सुविधा और गोपनीयता के बीच एक समझौता है।'",
+        "Japanese": "言ってください: '利便性とプライバシーの間にはトレードオフがあります。'"
+      },
+      "options": [],
+      "answer": "there is a trade off between convenience and privacy"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'AI companies must take accountability.'",
+      "question_translation": {
+        "Hindi": "कहें: 'एआई कंपनियों को जवाबदेही लेनी चाहिए।'",
+        "Japanese": "言ってください: 'AI企業は説明責任を持つべきです。'"
+      },
+      "options": [],
+      "answer": "ai companies must take accountability"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Innovation drives technological progress.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नवाचार तकनीकी प्रगति को बढ़ावा देता है।'",
+        "Japanese": "言ってください: '革新は技術の進歩を促進します。'"
+      },
+      "options": [],
+      "answer": "innovation drives technological progress"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Regulation prevents misuse of technology.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नियमन तकनीक के दुरुपयोग को रोकता है।'",
+        "Japanese": "言ってください: '規制は技術の悪用を防ぎます。'"
+      },
+      "options": [],
+      "answer": "regulation prevents misuse of technology"
+    }
+  ]
+}
+
 }

@@ -1,4 +1,451 @@
 {
-  "id": 12,
-  "message": "This is file number 12"
+  "id": "lesson_modals_obligation_002",
+  "lesson_name": "Modals of Obligation & Advice (Must/Have to/Should)",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "must",
+        "word_translation": {
+          "Hindi": "ज़रूर करना है",
+          "Japanese": "〜しなければならない"
+        },
+        "meaning": "Expresses strong obligation, rules, or necessity",
+        "meaning_translation": {
+          "Hindi": "मजबूत कर्तव्य, नियम या आवश्यकता को व्यक्त करता है",
+          "Japanese": "強い義務や規則、必要性を表す"
+        },
+        "examples": [
+          {
+            "sentence": "You must wear a helmet while riding a bike.",
+            "translation": {
+              "Hindi": "बाइक चलाते समय आपको हेलमेट पहनना ज़रूरी है।",
+              "Japanese": "自転車に乗るときはヘルメットを着用しなければならない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "have to",
+        "word_translation": {
+          "Hindi": "करना पड़ता है",
+          "Japanese": "〜しなければならない"
+        },
+        "meaning": "Expresses necessity, often due to external rules or circumstances",
+        "meaning_translation": {
+          "Hindi": "आवश्यकता को व्यक्त करता है, अक्सर बाहरी नियमों या परिस्थितियों के कारण",
+          "Japanese": "外部の規則や状況による必要性を表す"
+        },
+        "examples": [
+          {
+            "sentence": "I have to finish this report by tomorrow.",
+            "translation": {
+              "Hindi": "मुझे यह रिपोर्ट कल तक पूरी करनी पड़ती है।",
+              "Japanese": "私はこのレポートを明日までに終えなければならない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "should",
+        "word_translation": {
+          "Hindi": "चाहिए",
+          "Japanese": "〜すべきだ"
+        },
+        "meaning": "Expresses advice, recommendation, or mild obligation",
+        "meaning_translation": {
+          "Hindi": "सलाह, सिफारिश या हल्की बाध्यता को व्यक्त करता है",
+          "Japanese": "助言や推奨、軽い義務を表す"
+        },
+        "examples": [
+          {
+            "sentence": "You should drink more water every day.",
+            "translation": {
+              "Hindi": "आपको रोज़ाना अधिक पानी पीना चाहिए।",
+              "Japanese": "毎日もっと水を飲むべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prohibited",
+        "word_translation": {
+          "Hindi": "निषिद्ध",
+          "Japanese": "禁止された"
+        },
+        "meaning": "Something that is not allowed or forbidden",
+        "meaning_translation": {
+          "Hindi": "कुछ जो अनुमति नहीं है या मना किया गया है",
+          "Japanese": "許されていない、禁止されていること"
+        },
+        "examples": [
+          {
+            "sentence": "Smoking is prohibited in this area.",
+            "translation": {
+              "Hindi": "इस क्षेत्र में धूम्रपान निषिद्ध है।",
+              "Japanese": "このエリアでは喫煙は禁止されています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recommended",
+        "word_translation": {
+          "Hindi": "अनुशंसित",
+          "Japanese": "推奨される"
+        },
+        "meaning": "Something suggested as useful or good to do",
+        "meaning_translation": {
+          "Hindi": "कुछ जो उपयोगी या अच्छा करने के लिए सुझाया गया है",
+          "Japanese": "役立つ、または良いとされること"
+        },
+        "examples": [
+          {
+            "sentence": "It is recommended to get enough sleep every night.",
+            "translation": {
+              "Hindi": "हर रात पर्याप्त नींद लेना अनुशंसित है।",
+              "Japanese": "毎晩十分な睡眠をとることが推奨されています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Difference between 'Must' and 'Have to'",
+        "explanation": "'Must' often shows personal obligation or rules, while 'Have to' usually refers to external rules or necessity. Example: You must study harder (my advice). You have to wear a seatbelt (law).",
+        "explanation_translation": {
+          "Hindi": "'Must' अक्सर व्यक्तिगत बाध्यता या नियम दिखाता है, जबकि 'Have to' आमतौर पर बाहरी नियमों या आवश्यकताओं को संदर्भित करता है। उदाहरण: You must study harder (मेरी सलाह)। You have to wear a seatbelt (कानून)।",
+          "Japanese": "「must」は個人的な義務や規則を表し、「have to」は通常外部の規則や必要性を表します。例：You must study harder（私の助言）。You have to wear a seatbelt（法律）。"
+        }
+      },
+      {
+        "title": "Using 'Should' for Advice",
+        "explanation": "Use 'should' to give advice or recommendations, not strict rules. Example: You should eat more vegetables.",
+        "explanation_translation": {
+          "Hindi": "'Should' का उपयोग सलाह या सिफारिश देने के लिए करें, कठोर नियमों के लिए नहीं। उदाहरण: You should eat more vegetables.",
+          "Japanese": "「should」は助言や推奨を与えるときに使い、厳しい規則には使いません。例：You should eat more vegetables."
+        }
+      },
+      {
+        "title": "Negative Forms",
+        "explanation": "Use 'must not' or 'can't' to show prohibition. Use 'don’t have to' to show lack of necessity. Example: You must not park here. You don’t have to come if you’re busy.",
+        "explanation_translation": {
+          "Hindi": "'Must not' या 'can't' का उपयोग निषेध दिखाने के लिए करें। 'Don’t have to' का उपयोग आवश्यकता न होने को दिखाने के लिए करें। उदाहरण: You must not park here. You don’t have to come if you’re busy.",
+          "Japanese": "「must not」や「can't」は禁止を表します。「don’t have to」は必要がないことを表します。例：You must not park here. You don’t have to come if you’re busy."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which modal expresses strong obligation?",
+      "question_translation": {
+        "Hindi": "कौन सा modal मजबूत बाध्यता व्यक्त करता है?",
+        "Japanese": "強い義務を表すモーダルはどれですか？"
+      },
+      "options": [
+        "should",
+        "must",
+        "might"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "You ___ wear a seatbelt when driving.",
+      "question_translation": {
+        "Hindi": "गाड़ी चलाते समय आपको सीटबेल्ट ___ पहननी है।",
+        "Japanese": "運転中はシートベルトを___着用しなければならない。"
+      },
+      "options": [
+        "must",
+        "might",
+        "could"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "'Should' is used for giving advice, not strict rules.",
+      "question_translation": {
+        "Hindi": "'Should' का उपयोग सलाह देने के लिए किया जाता है, सख्त नियमों के लिए नहीं।",
+        "Japanese": "「should」は厳しい規則ではなく、助言を与えるときに使います。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase shows prohibition?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश निषेध दर्शाता है?",
+        "Japanese": "禁止を示す表現はどれですか？"
+      },
+      "options": [
+        "must not",
+        "have to",
+        "should"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "I ___ finish my project today; the deadline is tomorrow.",
+      "question_translation": {
+        "Hindi": "मुझे आज अपना प्रोजेक्ट ___ पूरा करना है; डेडलाइन कल है।",
+        "Japanese": "締め切りが明日なので、私は今日プロジェクトを___。"
+      },
+      "options": [
+        "must",
+        "might",
+        "should"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [submit, must, assignment, your, you]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [submit, must, assignment, your, you]",
+        "Japanese": "並べ替え: [submit, must, assignment, your, you]"
+      },
+      "options": [
+        "submit",
+        "must",
+        "assignment",
+        "your",
+        "you"
+      ],
+      "answer": [
+        "you",
+        "must",
+        "submit",
+        "your",
+        "assignment"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "You ___ eat more vegetables to stay healthy.",
+      "question_translation": {
+        "Hindi": "स्वस्थ रहने के लिए आपको अधिक सब्जियाँ ___ खानी चाहिए।",
+        "Japanese": "健康のためにもっと野菜を___食べるべきです。"
+      },
+      "options": [
+        "should",
+        "must",
+        "might"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "正しい文はどれですか？"
+      },
+      "options": [
+        "He musts go to school every day.",
+        "He must go to school every day.",
+        "He must to go school every day."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [have, I, early, to, wake]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [have, I, early, to, wake]",
+        "Japanese": "並べ替え: [have, I, early, to, wake]"
+      },
+      "options": [
+        "have",
+        "I",
+        "early",
+        "to",
+        "wake"
+      ],
+      "answer": [
+        "I",
+        "have",
+        "to",
+        "wake",
+        "early"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "You ___ park here. It’s prohibited.",
+      "question_translation": {
+        "Hindi": "आप यहाँ ___ पार्क नहीं कर सकते। यह निषिद्ध है।",
+        "Japanese": "ここに駐車___。禁止されています。"
+      },
+      "options": [
+        "must not",
+        "should",
+        "have to"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker’s obligation?",
+      "audio_text": "I have to finish my homework before dinner.",
+      "question_translation": {
+        "Hindi": "वक्ता का दायित्व क्या है?",
+        "Japanese": "話者の義務は何ですか？"
+      },
+      "options": [
+        "Finish homework",
+        "Eat dinner",
+        "Go shopping"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What advice is given?",
+      "audio_text": "You should drink more water during the day.",
+      "question_translation": {
+        "Hindi": "क्या सलाह दी गई है?",
+        "Japanese": "どんな助言が与えられましたか？"
+      },
+      "options": [
+        "Drink coffee",
+        "Drink more water",
+        "Drink less water"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The speaker expresses prohibition.",
+      "audio_text": "You must not touch that machine; it’s dangerous.",
+      "question_translation": {
+        "Hindi": "वक्ता निषेध व्यक्त करता है।",
+        "Japanese": "話者は禁止を表しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What does the speaker suggest?",
+      "audio_text": "You should see a doctor about your cough.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सुझाव देता है?",
+        "Japanese": "話者は何を提案していますか？"
+      },
+      "options": [
+        "See a doctor",
+        "Stay at home",
+        "Go shopping"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What rule is mentioned?",
+      "audio_text": "All passengers must wear seatbelts during take-off.",
+      "question_translation": {
+        "Hindi": "कौन सा नियम बताया गया है?",
+        "Japanese": "どの規則が述べられていますか？"
+      },
+      "options": [
+        "Passengers can sit anywhere",
+        "Passengers must wear seatbelts",
+        "Passengers should bring food"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'You must wear a helmet.'",
+      "question_translation": {
+        "Hindi": "कहें: 'You must wear a helmet.'",
+        "Japanese": "言ってください: 'You must wear a helmet.'"
+      },
+      "options": [],
+      "answer": "you must wear a helmet"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'I have to work tomorrow.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I have to work tomorrow.'",
+        "Japanese": "言ってください: 'I have to work tomorrow.'"
+      },
+      "options": [],
+      "answer": "i have to work tomorrow"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'You should eat more vegetables.'",
+      "question_translation": {
+        "Hindi": "कहें: 'You should eat more vegetables.'",
+        "Japanese": "言ってください: 'You should eat more vegetables.'"
+      },
+      "options": [],
+      "answer": "you should eat more vegetables"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'You must not park here.'",
+      "question_translation": {
+        "Hindi": "कहें: 'You must not park here.'",
+        "Japanese": "言ってください: 'You must not park here.'"
+      },
+      "options": [],
+      "answer": "you must not park here"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'We have to submit the project by Friday.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We have to submit the project by Friday.'",
+        "Japanese": "言ってください: 'We have to submit the project by Friday.'"
+      },
+      "options": [],
+      "answer": "we have to submit the project by friday"
+    }
+  ]
+}
+
 }
