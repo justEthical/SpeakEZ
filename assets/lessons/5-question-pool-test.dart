@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 /// ====== CONFIG ======
-const String folderPath = '/Users/ash/47/SpeakEZ/assets/lessons/B1'; // <- change if needed
+const String folderPath = '/Users/ash/47/SpeakEZ/assets/lessons/B2'; // <- change if needed
 const int minPerPool = 5;
 
 /// If you want to enforce certain pool names exist, list them here.
