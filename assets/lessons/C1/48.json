@@ -1,4 +1,321 @@
 {
-  "id": 48,
-  "message": "This is file number 48"
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which aspect shows an action that started in the past and continues to the present?",
+        "question_translation": {
+          "Hindi": "कौन सा पक्ष दिखाता है कि कोई क्रिया अतीत में शुरू हुई और वर्तमान तक जारी है?",
+          "Japanese": "過去に始まり現在まで続いている動作を示す相はどれですか？"
+        },
+        "options": [
+          "Perfect Progressive",
+          "Retrospective",
+          "Prospective"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "The progressive aspect shows an ongoing action.",
+        "question_translation": {
+          "Hindi": "प्रगतिशील पक्ष एक जारी क्रिया को दिखाता है।",
+          "Japanese": "進行相は進行中の動作を示します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "He had finished the report before the meeting ______.",
+        "question_translation": {
+          "Hindi": "उसने बैठक शुरू होने से पहले रिपोर्ट पूरी कर ली थी।",
+          "Japanese": "彼は会議が始まる前にレポートを終えて______。"
+        },
+        "options": [
+          "started",
+          "starts",
+          "start"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which phrase indicates a future-in-the-past action?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश अतीत में भविष्य की क्रिया को दर्शाता है?",
+          "Japanese": "過去における未来の動作を示すフレーズはどれですか？"
+        },
+        "options": [
+          "was about to",
+          "have been",
+          "had finished"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Temporal adverbials help signal time frame changes in writing.",
+        "question_translation": {
+          "Hindi": "कालगत क्रियाविशेषणीय लेखन में समय फ्रेम के बदलाव को संकेत करने में मदद करते हैं।",
+          "Japanese": "時間状況語は文章内の時間枠の変化を示すのに役立ちます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [been, working, five, have, I, years, for]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [been, working, five, have, I, years, for]",
+          "Japanese": "並べ替え: [been, working, five, have, I, years, for]"
+        },
+        "options": [
+          "been",
+          "working",
+          "five",
+          "have",
+          "I",
+          "years",
+          "for"
+        ],
+        "answer": [
+          "I",
+          "have",
+          "been",
+          "working",
+          "for",
+          "five",
+          "years"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "By next month, they will ______ completed the project.",
+        "question_translation": {
+          "Hindi": "अगले महीने तक वे परियोजना को ______ कर चुके होंगे।",
+          "Japanese": "来月までに彼らはプロジェクトを______しているでしょう。"
+        },
+        "options": [
+          "have",
+          "had",
+          "has"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows perfect progressive aspect?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य पूर्ण प्रगतिशील पक्ष दिखाता है?",
+          "Japanese": "どの文が完了進行相を示していますか？"
+        },
+        "options": [
+          "I have been reading this book all week.",
+          "I read this book last year.",
+          "I will read this book tomorrow."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [she, leave, was, when, to, about, call, the, came]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [she, leave, was, when, to, about, call, the, came]",
+          "Japanese": "並べ替え: [she, leave, was, when, to, about, call, the, came]"
+        },
+        "options": [
+          "she",
+          "leave",
+          "was",
+          "when",
+          "to",
+          "about",
+          "call",
+          "the",
+          "came"
+        ],
+        "answer": [
+          "she",
+          "was",
+          "about",
+          "to",
+          "leave",
+          "when",
+          "the",
+          "call",
+          "came"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "She ______ worked there for years before moving abroad.",
+        "question_translation": {
+          "Hindi": "विदेश जाने से पहले वह वर्षों तक वहाँ ______ काम करती रही।",
+          "Japanese": "海外に移る前に彼女は何年もそこで______働いていました。"
+        },
+        "options": [
+          "had",
+          "has",
+          "have"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker indicate? Audio: 'I have been studying English for ten years.'",
+        "audio_text": "I have been studying English for ten years.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या संकेत कर रहा है?",
+          "Japanese": "話者は何を示していますか？"
+        },
+        "options": [
+          "An action started in the past and continues",
+          "A completed action with no present link",
+          "A planned future action"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "‘Was about to’ shows a future-in-the-past event.",
+        "audio_text": "She was about to present when the power went out.",
+        "question_translation": {
+          "Hindi": "'Was about to' अतीत में भविष्य की घटना को दिखाता है।",
+          "Japanese": "「was about to」は過去における未来の出来事を示します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Which aspect is shown? Audio: 'He had finished before we arrived.'",
+        "audio_text": "He had finished before we arrived.",
+        "question_translation": {
+          "Hindi": "कौन सा पक्ष दिखाया गया है?",
+          "Japanese": "どの相が示されていますか？"
+        },
+        "options": [
+          "Retrospective (past perfect)",
+          "Progressive",
+          "Prospective"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "When will the graduation happen? Audio: 'By next year, we will have graduated.'",
+        "audio_text": "By next year, we will have graduated.",
+        "question_translation": {
+          "Hindi": "स्नातक कब होगा?",
+          "Japanese": "卒業はいつですか？"
+        },
+        "options": [
+          "Next year (before it ends)",
+          "Already completed",
+          "In the distant future"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Habitual aspect shows actions done regularly over time.",
+        "audio_text": "He would visit his grandparents every summer.",
+        "question_translation": {
+          "Hindi": "आदतन पक्ष समय के साथ नियमित रूप से की जाने वाली क्रियाओं को दिखाता है।",
+          "Japanese": "習慣相は長期間にわたって定期的に行われる動作を示します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I have been working here for five years.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I have been working here for five years.'",
+          "Japanese": "言ってください: 'I have been working here for five years.'"
+        },
+        "options": [],
+        "answer": "i have been working here for five years"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'By next year, we will have graduated.'",
+        "question_translation": {
+          "Hindi": "कहें: 'By next year, we will have graduated.'",
+          "Japanese": "言ってください: 'By next year, we will have graduated.'"
+        },
+        "options": [],
+        "answer": "by next year we will have graduated"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She was about to leave when the call came.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She was about to leave when the call came.'",
+          "Japanese": "言ってください: 'She was about to leave when the call came.'"
+        },
+        "options": [],
+        "answer": "she was about to leave when the call came"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He had finished the report before the meeting started.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He had finished the report before the meeting started.'",
+          "Japanese": "言ってください: 'He had finished the report before the meeting started.'"
+        },
+        "options": [],
+        "answer": "he had finished the report before the meeting started"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She would visit us every summer.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She would visit us every summer.'",
+          "Japanese": "言ってください: 'She would visit us every summer.'"
+        },
+        "options": [],
+        "answer": "she would visit us every summer"
+      }
+    ]
+  }
 }

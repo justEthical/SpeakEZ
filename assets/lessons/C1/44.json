@@ -1,4 +1,570 @@
 {
-  "id": 44,
-  "message": "This is file number 44"
+  "id": "lesson_fluency_chunking_formulaic_sequences_c1",
+  "lesson_name": "Fluency: Chunking & Formulaic Sequences",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "fluency",
+        "word_translation": {
+          "Hindi": "धाराप्रवाहता",
+          "Japanese": "流暢さ"
+        },
+        "meaning": "The ability to speak or write smoothly without unnecessary pauses",
+        "meaning_translation": {
+          "Hindi": "बिना अनावश्यक रुकावट के आसानी से बोलने या लिखने की क्षमता",
+          "Japanese": "不要な間を挟まずに滑らかに話したり書いたりする能力"
+        },
+        "examples": [
+          {
+            "sentence": "Fluency improves with practice and exposure to natural speech.",
+            "translation": {
+              "Hindi": "धाराप्रवाहता अभ्यास और प्राकृतिक भाषण के संपर्क से बेहतर होती है।",
+              "Japanese": "流暢さは練習と自然な会話への接触で向上します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "chunking",
+        "word_translation": {
+          "Hindi": "खंडन",
+          "Japanese": "チャンク化"
+        },
+        "meaning": "Grouping words or ideas together to process or speak more easily",
+        "meaning_translation": {
+          "Hindi": "शब्दों या विचारों को समूहित करना ताकि उन्हें आसानी से बोल या समझ सकें",
+          "Japanese": "言葉やアイデアをまとめて処理・発話しやすくすること"
+        },
+        "examples": [
+          {
+            "sentence": "Good chunking helps you sound more natural when speaking English.",
+            "translation": {
+              "Hindi": "अच्छा खंडन आपको अंग्रेज़ी बोलते समय अधिक स्वाभाविक बनाता है।",
+              "Japanese": "適切なチャンク化は英語を話すときにより自然に聞こえるようにします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formulaic sequence",
+        "word_translation": {
+          "Hindi": "स्थिर वाक्यांश",
+          "Japanese": "定型表現"
+        },
+        "meaning": "A pre-assembled phrase or expression often used in everyday speech",
+        "meaning_translation": {
+          "Hindi": "एक पहले से तैयार किया गया वाक्यांश या अभिव्यक्ति जो आम बोलचाल में अक्सर उपयोग होती है",
+          "Japanese": "日常会話でよく使われるあらかじめ組み立てられたフレーズや表現"
+        },
+        "examples": [
+          {
+            "sentence": "‘How are you doing?’ is a common formulaic sequence.",
+            "translation": {
+              "Hindi": "'How are you doing?' एक सामान्य स्थिर वाक्यांश है।",
+              "Japanese": "「How are you doing?」は一般的な定型表現です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "collocation",
+        "word_translation": {
+          "Hindi": "सहप्रयोग",
+          "Japanese": "コロケーション"
+        },
+        "meaning": "A natural combination of words that often appear together",
+        "meaning_translation": {
+          "Hindi": "शब्दों का प्राकृतिक संयोजन जो अक्सर साथ में आता है",
+          "Japanese": "よく一緒に使われる単語の自然な組み合わせ"
+        },
+        "examples": [
+          {
+            "sentence": "Make a decision is a strong collocation in English.",
+            "translation": {
+              "Hindi": "'Make a decision' अंग्रेज़ी में एक सामान्य सहप्रयोग है।",
+              "Japanese": "英語では「make a decision」は自然なコロケーションです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prefabricated chunks",
+        "word_translation": {
+          "Hindi": "पूर्वनिर्मित खंड",
+          "Japanese": "あらかじめ作られたチャンク"
+        },
+        "meaning": "Ready-made word groups learned as a whole rather than individual words",
+        "meaning_translation": {
+          "Hindi": "तैयार शब्द समूह जो व्यक्तिगत शब्दों के बजाय पूरे के रूप में सीखे जाते हैं",
+          "Japanese": "個々の単語ではなくまとまりとして習得された定型句"
+        },
+        "examples": [
+          {
+            "sentence": "Using prefabricated chunks speeds up speech production.",
+            "translation": {
+              "Hindi": "पूर्वनिर्मित खंडों का उपयोग बोलने की गति को तेज करता है।",
+              "Japanese": "あらかじめ作られたチャンクを使うと発話が速くなります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "discourse marker",
+        "word_translation": {
+          "Hindi": "वाक्यचिह्न",
+          "Japanese": "談話標識"
+        },
+        "meaning": "Words or phrases used to organize or manage conversation flow",
+        "meaning_translation": {
+          "Hindi": "बातचीत को व्यवस्थित या नियंत्रित करने के लिए उपयोग किए गए शब्द या वाक्यांश",
+          "Japanese": "会話の流れを整理したり管理したりするための語句"
+        },
+        "examples": [
+          {
+            "sentence": "Words like ‘well’, ‘so’, and ‘actually’ are discourse markers.",
+            "translation": {
+              "Hindi": "'Well', 'so', और 'actually' जैसे शब्द वाक्यचिह्न हैं।",
+              "Japanese": "「well」「so」「actually」などは談話標識です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fluency device",
+        "word_translation": {
+          "Hindi": "धाराप्रवाहता उपकरण",
+          "Japanese": "流暢さデバイス"
+        },
+        "meaning": "Any language feature that helps maintain smooth speech, such as fillers or set phrases",
+        "meaning_translation": {
+          "Hindi": "कोई भी भाषा उपकरण जो सहज भाषण बनाए रखने में मदद करता है, जैसे भराव शब्द या तैयार वाक्यांश",
+          "Japanese": "発話を途切れさせないためのフィラーや決まり文句などの言語的手段"
+        },
+        "examples": [
+          {
+            "sentence": "‘You know’ is often used as a fluency device.",
+            "translation": {
+              "Hindi": "'You know' अक्सर धाराप्रवाहता उपकरण के रूप में उपयोग होता है।",
+              "Japanese": "「You know」は流暢さを保つためによく使われます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hesitation filler",
+        "word_translation": {
+          "Hindi": "हिचकिचाहट भराव",
+          "Japanese": "ためらいフィラー"
+        },
+        "meaning": "A sound or word like ‘um’ or ‘well’ used while thinking",
+        "meaning_translation": {
+          "Hindi": "सोचते समय उपयोग किया जाने वाला ध्वनि या शब्द जैसे 'um' या 'well'",
+          "Japanese": "考えている間に使う「えーと」や「well」などの音や単語"
+        },
+        "examples": [
+          {
+            "sentence": "Hesitation fillers give you time to plan what to say next.",
+            "translation": {
+              "Hindi": "हिचकिचाहट भराव आपको अगला क्या कहना है यह सोचने का समय देते हैं।",
+              "Japanese": "ためらいフィラーは次に何を言うか考える時間を与えます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "automaticity",
+        "word_translation": {
+          "Hindi": "स्वचालितता",
+          "Japanese": "自動性"
+        },
+        "meaning": "The ability to produce language quickly and without conscious effort",
+        "meaning_translation": {
+          "Hindi": "भाषा को तेजी से और बिना अधिक सोच के उपयोग करने की क्षमता",
+          "Japanese": "意識的な努力なしに素早く言語を産出できる能力"
+        },
+        "examples": [
+          {
+            "sentence": "Automaticity develops when you practice speaking in real contexts.",
+            "translation": {
+              "Hindi": "स्वचालितता वास्तविक संदर्भों में बोलने का अभ्यास करने से विकसित होती है।",
+              "Japanese": "自動性は実際の場面で話す練習をすることで発達します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "speech rhythm",
+        "word_translation": {
+          "Hindi": "भाषण लय",
+          "Japanese": "発話リズム"
+        },
+        "meaning": "The natural pattern of stressed and unstressed syllables in fluent speech",
+        "meaning_translation": {
+          "Hindi": "सुगम भाषण में बलयुक्त और अबल वर्णों का प्राकृतिक पैटर्न",
+          "Japanese": "流暢な発話における強勢と弱勢音節の自然なパターン"
+        },
+        "examples": [
+          {
+            "sentence": "Chunking improves your speech rhythm and helps listeners follow easily.",
+            "translation": {
+              "Hindi": "खंडन आपकी भाषण लय को बेहतर बनाता है और श्रोताओं को समझने में मदद करता है।",
+              "Japanese": "チャンク化は発話リズムを改善し、聞き手が理解しやすくなります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Learning Chunks as Whole Units",
+        "explanation": "Practice common phrases and collocations as ready-made blocks to increase fluency.",
+        "explanation_translation": {
+          "Hindi": "प्रचलित वाक्यांशों और सहप्रयोगों को तैयार ब्लॉकों की तरह सीखें ताकि धाराप्रवाहता बढ़े।",
+          "Japanese": "よく使うフレーズやコロケーションをまとまりとして練習すると流暢さが向上します。"
+        }
+      },
+      {
+        "title": "Using Discourse Markers for Flow",
+        "explanation": "Insert markers like ‘well’, ‘so’, or ‘actually’ to keep speech natural and organized.",
+        "explanation_translation": {
+          "Hindi": "'Well', 'so', या 'actually' जैसे चिह्न जोड़ें ताकि भाषण स्वाभाविक और व्यवस्थित रहे।",
+          "Japanese": "「well」「so」「actually」などの談話標識を使うと自然で整理された発話になります。"
+        }
+      },
+      {
+        "title": "Reducing Hesitation with Formulaic Sequences",
+        "explanation": "Memorized expressions help avoid long pauses and keep your speech fluent.",
+        "explanation_translation": {
+          "Hindi": "याद किए गए वाक्यांश लंबे विराम से बचने और भाषण को धाराप्रवाह रखने में मदद करते हैं।",
+          "Japanese": "暗記した表現は長い間を避け、発話を流暢に保ちます。"
+        }
+      },
+      {
+        "title": "Chunking Ideas by Meaning",
+        "explanation": "Group words that belong together semantically to sound more coherent.",
+        "explanation_translation": {
+          "Hindi": "अर्थ से जुड़े शब्दों को एक साथ समूहित करें ताकि अधिक सुसंगत सुनाई दें।",
+          "Japanese": "意味的に関連する語をまとめると、より一貫性のある話し方になります。"
+        }
+      },
+      {
+        "title": "Practicing Automaticity",
+        "explanation": "Repeat useful sequences until you can produce them without thinking.",
+        "explanation_translation": {
+          "Hindi": "उपयोगी वाक्यांशों को तब तक दोहराएँ जब तक आप उन्हें बिना सोचे बोल न सकें।",
+          "Japanese": "便利な表現を繰り返して練習し、考えずに言えるようにします。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is chunking in speech?",
+        "question_translation": {
+          "Hindi": "भाषण में खंडन क्या है?",
+          "Japanese": "スピーチにおけるチャンク化とは何ですか？"
+        },
+        "options": [
+          "Pausing after every word",
+          "Grouping words or ideas for easier speaking",
+          "Changing pitch to show emotion"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Formulaic sequences are pre-assembled expressions used often in everyday language.",
+        "question_translation": {
+          "Hindi": "स्थिर वाक्यांश पहले से तैयार अभिव्यक्तियाँ हैं जो रोज़मर्रा की भाषा में अक्सर उपयोग होती हैं।",
+          "Japanese": "定型表現は日常言語でよく使われるあらかじめ組み立てられた表現です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Words like ‘make a decision’ are examples of ______.",
+        "question_translation": {
+          "Hindi": "'Make a decision' जैसे शब्द ______ के उदाहरण हैं।",
+          "Japanese": "「make a decision」のような言葉は______の例です。"
+        },
+        "options": [
+          "collocation",
+          "intonation",
+          "hesitation fillers"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which helps maintain smooth speech and fill pauses?",
+        "question_translation": {
+          "Hindi": "कौन सा सहज भाषण बनाए रखने और विराम भरने में मदद करता है?",
+          "Japanese": "どれがスムーズな発話を維持し、間を埋めるのに役立ちますか？"
+        },
+        "options": [
+          "Hesitation fillers",
+          "Grammar markers",
+          "Sentence stress"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Automaticity in language means:",
+        "question_translation": {
+          "Hindi": "भाषा में स्वचालितता का क्या अर्थ है:",
+          "Japanese": "言語の自動性とは何を意味しますか？"
+        },
+        "options": [
+          "Speaking with no vocabulary",
+          "Producing language quickly without conscious effort",
+          "Focusing only on grammar"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [chunks, speaking, improves, fluency, using]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [chunks, speaking, improves, fluency, using]",
+          "Japanese": "並べ替え: [chunks, speaking, improves, fluency, using]"
+        },
+        "options": [
+          "chunks",
+          "speaking",
+          "improves",
+          "fluency",
+          "using"
+        ],
+        "answer": [
+          "using",
+          "chunks",
+          "improves",
+          "speaking",
+          "fluency"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Discourse markers like ‘well’ and ‘so’ help keep speech ______.",
+        "question_translation": {
+          "Hindi": "'Well' और 'so' जैसे वाक्यचिह्न भाषण को ______ बनाए रखते हैं।",
+          "Japanese": "「well」や「so」などの談話標識は発話を______に保ちます。"
+        },
+        "options": [
+          "organized",
+          "monotone",
+          "silent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows a prefabricated chunk?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य पूर्वनिर्मित खंड दिखाता है?",
+          "Japanese": "どの文があらかじめ作られたチャンクを示していますか？"
+        },
+        "options": [
+          "I would like to thank you for your help.",
+          "I am making word by word now.",
+          "She reads each word slowly."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [speaking, fillers, give, hesitation, time]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [speaking, fillers, give, hesitation, time]",
+          "Japanese": "並べ替え: [speaking, fillers, give, hesitation, time]"
+        },
+        "options": [
+          "speaking",
+          "fillers",
+          "give",
+          "hesitation",
+          "time"
+        ],
+        "answer": [
+          "hesitation",
+          "fillers",
+          "give",
+          "speaking",
+          "time"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Practice ready-made phrases to build ______ faster.",
+        "question_translation": {
+          "Hindi": "तैयार वाक्यांशों का अभ्यास करें ताकि ______ तेजी से बने।",
+          "Japanese": "決まり文句を練習して______を早く構築しましょう。"
+        },
+        "options": [
+          "fluency",
+          "grammar rules",
+          "intonation"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker highlight? Audio: 'Using chunks helps you speak more naturally.'",
+        "audio_text": "Using chunks helps you speak more naturally.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या बता रहा है?",
+          "Japanese": "話者は何を強調していますか？"
+        },
+        "options": [
+          "Grammar rules",
+          "Using chunks for natural speech",
+          "Slowing down speech"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Formulaic sequences can reduce hesitation when speaking.",
+        "audio_text": "Formulaic sequences can reduce hesitation when speaking.",
+        "question_translation": {
+          "Hindi": "स्थिर वाक्यांश बोलते समय हिचकिचाहट को कम कर सकते हैं।",
+          "Japanese": "定型表現は話すときのためらいを減らすことができます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is the main idea? Audio: 'Discourse markers help keep your conversation organized.'",
+        "audio_text": "Discourse markers help keep your conversation organized.",
+        "question_translation": {
+          "Hindi": "मुख्य विचार क्या है?",
+          "Japanese": "主なアイデアは何ですか？"
+        },
+        "options": [
+          "Discourse markers help organize conversation",
+          "Hesitation fillers are unnecessary",
+          "Automaticity is unhelpful"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Which feature is mentioned? Audio: 'Automaticity lets you speak without thinking about each word.'",
+        "audio_text": "Automaticity lets you speak without thinking about each word.",
+        "question_translation": {
+          "Hindi": "कौन सा गुण उल्लेख किया गया है?",
+          "Japanese": "どの特徴が言及されていますか？"
+        },
+        "options": [
+          "Chunking",
+          "Automaticity",
+          "Grammar correction"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Hesitation fillers like ‘um’ can help you think while speaking.",
+        "audio_text": "Hesitation fillers like ‘um’ can help you think while speaking.",
+        "question_translation": {
+          "Hindi": "'Um' जैसे हिचकिचाहट भराव बोलते समय सोचने में मदद कर सकते हैं।",
+          "Japanese": "「um」などのためらいフィラーは話しながら考えるのに役立ちます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Chunking helps me speak more fluently.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Chunking helps me speak more fluently.'",
+          "Japanese": "言ってください: 'Chunking helps me speak more fluently.'"
+        },
+        "options": [],
+        "answer": "chunking helps me speak more fluently"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Formulaic sequences reduce hesitation.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Formulaic sequences reduce hesitation.'",
+          "Japanese": "言ってください: 'Formulaic sequences reduce hesitation.'"
+        },
+        "options": [],
+        "answer": "formulaic sequences reduce hesitation"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Discourse markers keep my speech organized.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Discourse markers keep my speech organized.'",
+          "Japanese": "言ってください: 'Discourse markers keep my speech organized.'"
+        },
+        "options": [],
+        "answer": "discourse markers keep my speech organized"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Automaticity helps me speak without pausing.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Automaticity helps me speak without pausing.'",
+          "Japanese": "言ってください: 'Automaticity helps me speak without pausing.'"
+        },
+        "options": [],
+        "answer": "automaticity helps me speak without pausing"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Using chunks makes my speech natural.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Using chunks makes my speech natural.'",
+          "Japanese": "言ってください: 'Using chunks makes my speech natural.'"
+        },
+        "options": [],
+        "answer": "using chunks makes my speech natural"
+      }
+    ]
+  }
 }

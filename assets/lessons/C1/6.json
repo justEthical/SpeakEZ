@@ -1,187 +1,584 @@
 {
-  "id": "lesson_international_relations_c1_001",
-  "lesson_name": "Discussing International Relations",
+  "id": "lesson_concession_contrast_whereas_while_c1",
+  "lesson_name": "Concession & Contrast at Scale (Whereas/While)",
   "purpose": "All",
   "cefrLevel": "C1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "diplomacy", "meaning": "managing relationships between countries" },
-      { "word": "treaty", "meaning": "a formal agreement between countries" },
-      { "word": "sanction", "meaning": "a penalty imposed to influence behavior" },
-      { "word": "sovereignty", "meaning": "the right of a country to govern itself" },
-      { "word": "negotiation", "meaning": "discussing to reach an agreement" },
-      { "word": "alliance", "meaning": "a partnership between countries for mutual benefit" },
-      { "word": "embargo", "meaning": "a ban on trade with a country" },
-      { "word": "multilateral", "meaning": "involving several countries" },
-      { "word": "mediation", "meaning": "helping two sides reach agreement" },
-      { "word": "conflict resolution", "meaning": "methods to solve disagreements peacefully" }
+      {
+        "word": "concession",
+        "word_translation": {
+          "Hindi": "स्वीकारोक्ति",
+          "Japanese": "譲歩"
+        },
+        "meaning": "Acknowledging an opposing idea while maintaining your main point",
+        "meaning_translation": {
+          "Hindi": "किसी विरोधी विचार को स्वीकार करना लेकिन अपना मुख्य बिंदु बनाए रखना",
+          "Japanese": "反対意見を認めつつ、自分の主張を維持すること"
+        },
+        "examples": [
+          {
+            "sentence": "While it is true that exams are stressful, they also encourage preparation.",
+            "translation": {
+              "Hindi": "हालाँकि यह सच है कि परीक्षाएँ तनावपूर्ण होती हैं, वे तैयारी को भी प्रोत्साहित करती हैं।",
+              "Japanese": "試験がストレスになるのは事実だが、準備を促す効果もある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contrast",
+        "word_translation": {
+          "Hindi": "विरोध",
+          "Japanese": "対比"
+        },
+        "meaning": "Showing the difference between two or more things",
+        "meaning_translation": {
+          "Hindi": "दो या अधिक चीज़ों के बीच अंतर दिखाना",
+          "Japanese": "2つ以上のものの違いを示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Whereas the north is very cold, the south enjoys mild winters.",
+            "translation": {
+              "Hindi": "जहाँ उत्तर बहुत ठंडा है, वहीं दक्षिण में हल्की सर्दियाँ होती हैं।",
+              "Japanese": "北部はとても寒いのに対して、南部は穏やかな冬を楽しむ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "whereas",
+        "word_translation": {
+          "Hindi": "जबकि",
+          "Japanese": "一方で"
+        },
+        "meaning": "Used to contrast two ideas or facts",
+        "meaning_translation": {
+          "Hindi": "दो विचारों या तथ्यों की तुलना करने के लिए प्रयोग किया जाता है",
+          "Japanese": "2つの考えや事実を対比するために使われる"
+        },
+        "examples": [
+          {
+            "sentence": "She prefers tea, whereas her brother likes coffee.",
+            "translation": {
+              "Hindi": "उसे चाय पसंद है, जबकि उसके भाई को कॉफी पसंद है।",
+              "Japanese": "彼女はお茶が好きだが、彼の兄はコーヒーが好きだ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "while (contrast)",
+        "word_translation": {
+          "Hindi": "जबकि",
+          "Japanese": "〜である一方"
+        },
+        "meaning": "Introduces a contrast between two ideas, often in academic or formal contexts",
+        "meaning_translation": {
+          "Hindi": "दो विचारों के बीच अंतर प्रस्तुत करने के लिए प्रयोग किया जाता है, अक्सर शैक्षणिक या औपचारिक संदर्भों में",
+          "Japanese": "2つの考えの対比を導入するために使われる。しばしば学術的または形式的な文脈で用いられる"
+        },
+        "examples": [
+          {
+            "sentence": "While urban areas face pollution, rural areas struggle with poor infrastructure.",
+            "translation": {
+              "Hindi": "जहाँ शहरी क्षेत्रों को प्रदूषण का सामना करना पड़ता है, वहीं ग्रामीण क्षेत्रों को खराब ढांचे से जूझना पड़ता है।",
+              "Japanese": "都市部が汚染に直面している一方、農村部はインフラの不備に苦しんでいる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concessive clause",
+        "word_translation": {
+          "Hindi": "स्वीकारोक्ति उपवाक्य",
+          "Japanese": "譲歩節"
+        },
+        "meaning": "A subordinate clause that contrasts with the main clause but doesn’t cancel it",
+        "meaning_translation": {
+          "Hindi": "एक आश्रित उपवाक्य जो मुख्य वाक्य के विपरीत होता है लेकिन उसे निरस्त नहीं करता",
+          "Japanese": "主節と対比するが、それを無効にしない従属節"
+        },
+        "examples": [
+          {
+            "sentence": "While I understand your concerns, I must disagree.",
+            "translation": {
+              "Hindi": "मैं आपकी चिंताओं को समझता हूँ, जबकि मुझे असहमत होना पड़ेगा।",
+              "Japanese": "あなたの懸念は理解しますが、同意することはできません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "antithesis",
+        "word_translation": {
+          "Hindi": "विरोधाभास",
+          "Japanese": "対句"
+        },
+        "meaning": "A rhetorical device that emphasizes contrast in parallel structures",
+        "meaning_translation": {
+          "Hindi": "एक अलंकारिक उपकरण जो समानांतर संरचनाओं में विरोध को उजागर करता है",
+          "Japanese": "並行構造で対比を強調する修辞技法"
+        },
+        "examples": [
+          {
+            "sentence": "Whereas wealth brings comfort, poverty teaches resilience.",
+            "translation": {
+              "Hindi": "जहाँ धन आराम लाता है, वहीं गरीबी सहनशीलता सिखाती है।",
+              "Japanese": "富は快適さをもたらす一方、貧困は忍耐を教える。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "juxtaposition",
+        "word_translation": {
+          "Hindi": "समीपस्थापन",
+          "Japanese": "並置"
+        },
+        "meaning": "Placing two ideas side by side for contrast",
+        "meaning_translation": {
+          "Hindi": "तुलना के लिए दो विचारों को साथ-साथ रखना",
+          "Japanese": "対比のために2つの考えを並べること"
+        },
+        "examples": [
+          {
+            "sentence": "While the city thrives, the countryside declines.",
+            "translation": {
+              "Hindi": "जहाँ शहर फल-फूल रहा है, वहीं ग्रामीण क्षेत्र पतन की ओर हैं।",
+              "Japanese": "都市が繁栄する一方、田舎は衰退している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "scale contrast",
+        "word_translation": {
+          "Hindi": "पैमाने पर विरोध",
+          "Japanese": "規模の対比"
+        },
+        "meaning": "Comparing differences in size, degree, or extent between two situations",
+        "meaning_translation": {
+          "Hindi": "दो स्थितियों के बीच आकार, डिग्री या सीमा के अंतर की तुलना करना",
+          "Japanese": "2つの状況の大きさ、程度、範囲の違いを比較すること"
+        },
+        "examples": [
+          {
+            "sentence": "Whereas a village may have one school, a city has dozens.",
+            "translation": {
+              "Hindi": "जहाँ एक गाँव में एक ही स्कूल हो सकता है, वहीं एक शहर में दर्जनों होते हैं।",
+              "Japanese": "村には学校が1つしかないかもしれないが、都市には何十もの学校がある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "subordinate contrast",
+        "word_translation": {
+          "Hindi": "आश्रित विरोध",
+          "Japanese": "従属的対比"
+        },
+        "meaning": "Contrast where one idea depends grammatically on another",
+        "meaning_translation": {
+          "Hindi": "विरोध जहाँ एक विचार व्याकरणिक रूप से दूसरे पर निर्भर करता है",
+          "Japanese": "一方の考えが文法的に他方に依存している対比"
+        },
+        "examples": [
+          {
+            "sentence": "While I agree with the plan, improvements are still needed.",
+            "translation": {
+              "Hindi": "यद्यपि मैं योजना से सहमत हूँ, सुधार अभी भी आवश्यक हैं।",
+              "Japanese": "その計画に賛成する一方、改善は依然として必要だ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "adversative connector",
+        "word_translation": {
+          "Hindi": "विरोधी संयोजक",
+          "Japanese": "逆接詞"
+        },
+        "meaning": "Words like 'but', 'whereas', 'while' that express contrast",
+        "meaning_translation": {
+          "Hindi": "'but', 'whereas', 'while' जैसे शब्द जो विरोध व्यक्त करते हैं",
+          "Japanese": "「but」「whereas」「while」など対比を表す語"
+        },
+        "examples": [
+          {
+            "sentence": "He is very sociable, whereas his sister is shy.",
+            "translation": {
+              "Hindi": "वह बहुत मिलनसार है, जबकि उसकी बहन शर्मीली है।",
+              "Japanese": "彼はとても社交的だが、彼の妹は内気だ。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Reporting Verbs in Diplomacy",
-        "explanation": "Use verbs like 'stated', 'announced', 'claimed', and 'argued' to report what others say. Example: 'The ambassador stated that the talks were productive.'"
+        "title": "Using 'Whereas'",
+        "explanation": "'Whereas' is often used in formal writing to contrast two facts. Example: 'Whereas A focuses on cost, B emphasizes quality.'",
+        "explanation_translation": {
+          "Hindi": "'Whereas' का प्रयोग अक्सर औपचारिक लेखन में दो तथ्यों की तुलना करने के लिए किया जाता है। उदाहरण: 'Whereas A focuses on cost, B emphasizes quality.'",
+          "Japanese": "「Whereas」はしばしば形式的な文で2つの事実を対比するために使われる。例：'Whereas A focuses on cost, B emphasizes quality.'"
+        }
       },
       {
-        "title": "Conditional Sentences in International Relations",
-        "explanation": "Use conditionals to discuss possible results. Example: 'If the treaty is signed, sanctions will be lifted.'"
+        "title": "Using 'While' for Concession",
+        "explanation": "'While' can acknowledge one fact but introduce a contrast. Example: 'While it is important, it is not urgent.'",
+        "explanation_translation": {
+          "Hindi": "'While' एक तथ्य को स्वीकार कर सकता है लेकिन एक विरोध प्रस्तुत कर सकता है। उदाहरण: 'While it is important, it is not urgent.'",
+          "Japanese": "「While」は1つの事実を認めつつ、対比を導入できる。例：'While it is important, it is not urgent.'"
+        }
+      },
+      {
+        "title": "Formal vs Informal Use",
+        "explanation": "'Whereas' is more formal; 'while' is flexible and can be used in both spoken and written English.",
+        "explanation_translation": {
+          "Hindi": "'Whereas' अधिक औपचारिक है; 'while' अधिक लचीला है और इसे बोले और लिखित अंग्रेज़ी दोनों में इस्तेमाल किया जा सकता है।",
+          "Japanese": "「Whereas」はより形式的で、「while」は柔軟で話し言葉と書き言葉の両方で使える。"
+        }
+      },
+      {
+        "title": "Concession at Scale",
+        "explanation": "Use 'whereas' and 'while' to highlight differences in scale, such as size, degree, or frequency. Example: 'While small firms struggle, large corporations thrive.'",
+        "explanation_translation": {
+          "Hindi": "'Whereas' और 'while' का उपयोग पैमाने में अंतर (आकार, डिग्री, या आवृत्ति) को उजागर करने के लिए करें। उदाहरण: 'While small firms struggle, large corporations thrive.'",
+          "Japanese": "「Whereas」と「while」は規模（大きさ、程度、頻度）の違いを強調するために使う。例：'While small firms struggle, large corporations thrive.'"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "Diplomacy is crucial for maintaining peace.", "translation": "" },
-      { "sentence": "The two countries signed a historic treaty.", "translation": "" },
-      { "sentence": "Sanctions were imposed after the incident.", "translation": "" },
-      { "sentence": "If both nations cooperate, the conflict can be resolved.", "translation": "" },
-      { "sentence": "Mediation often leads to a peaceful solution.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What is a treaty?",
-        "options": ["A penalty", "A formal agreement", "A type of conflict"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which connector is more formal in expressing contrast?",
+      "question_translation": {
+        "Hindi": "विरोध व्यक्त करने में कौन सा संयोजक अधिक औपचारिक है?",
+        "Japanese": "対比を表す際により形式的なのはどの接続詞ですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "___ is when one country bans trade with another.",
-        "options": ["Embargo", "Alliance", "Sovereignty"],
-        "answer": 0
+      "options": [
+        "whereas",
+        "while",
+        "but"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "She enjoys classical music, ___ her brother prefers jazz.",
+      "question_translation": {
+        "Hindi": "उसे शास्त्रीय संगीत पसंद है, ___ उसका भाई जैज़ पसंद करता है।",
+        "Japanese": "彼女はクラシック音楽が好きだが、彼の兄はジャズを好む。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "Diplomacy helps maintain peaceful relationships between countries.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "whereas",
+        "while",
+        "but"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "The word 'while' can be used for both time and contrast depending on context.",
+      "question_translation": {
+        "Hindi": "'while' शब्द का प्रयोग संदर्भ के अनुसार समय और विरोध दोनों के लिए किया जा सकता है।",
+        "Japanese": "「while」という語は文脈によって時間と対比の両方に使える。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which word means 'the right of a country to govern itself'?",
-        "options": ["Negotiation", "Mediation", "Sovereignty"],
-        "answer": 2
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which sentence best shows concession?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य स्वीकारोक्ति को सबसे अच्छी तरह दिखाता है?",
+        "Japanese": "どの文が譲歩を最もよく示していますか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which term describes a partnership between countries?",
-        "options": ["Sanction", "Alliance", "Embargo"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The countries reached an ___ after long negotiations.",
-        "options": ["embargo", "agreement", "penalty"],
-        "answer": 1
+      "options": [
+        "While it is expensive, the product is worth buying.",
+        "She likes tea, whereas he likes coffee.",
+        "The weather is hot, but the sky is clear."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "___ smaller firms face challenges, multinational companies expand rapidly.",
+      "question_translation": {
+        "Hindi": "___ छोटे फर्म चुनौतियों का सामना करते हैं, बहुराष्ट्रीय कंपनियाँ तेजी से फैलती हैं।",
+        "Japanese": "___小規模企業が課題に直面する一方、多国籍企業は急速に拡大している。"
       },
-      {
-        "id": "sent2",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [signed, treaty, the, leaders, yesterday]",
-        "options": ["signed", "treaty", "the", "leaders", "yesterday"],
-        "answer": ["The", "leaders", "signed", "the", "treaty", "yesterday"]
+      "options": [
+        "Whereas",
+        "While",
+        "Because"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [is, enjoys, she, music, classical, whereas, brother, her, jazz, prefers]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [is, enjoys, she, music, classical, whereas, brother, her, jazz, prefers]",
+        "Japanese": "並べ替え: [is, enjoys, she, music, classical, whereas, brother, her, jazz, prefers]"
       },
-      {
-        "id": "sent3",
-        "type": "fillInTheBlanks",
-        "question": "If both sides cooperate, ___ will be easier.",
-        "options": ["negotiation", "conflict resolution", "sanction"],
-        "answer": 1
+      "options": [
+        "is",
+        "enjoys",
+        "she",
+        "music",
+        "classical",
+        "whereas",
+        "brother",
+        "her",
+        "jazz",
+        "prefers"
+      ],
+      "answer": [
+        "She",
+        "enjoys",
+        "classical",
+        "music",
+        "whereas",
+        "her",
+        "brother",
+        "prefers",
+        "jazz"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "___ urban areas face pollution, rural areas lack infrastructure.",
+      "question_translation": {
+        "Hindi": "___ शहरी क्षेत्रों को प्रदूषण का सामना करना पड़ता है, ग्रामीण क्षेत्रों में ढांचा नहीं है।",
+        "Japanese": "___都市部が汚染に直面する一方、農村部はインフラが不足している。"
       },
-      {
-        "id": "sent4",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [relations, international, important, are, stability, for]",
-        "options": ["relations", "international", "important", "are", "stability", "for"],
-        "answer": ["International", "relations", "are", "important", "for", "stability"]
+      "options": [
+        "While",
+        "Because",
+        "Although"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is the correct contrast sentence?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही विरोध वाक्य है?",
+        "Japanese": "正しい対比文はどれですか？"
       },
-      {
-        "id": "sent5",
-        "type": "fillInTheBlanks",
-        "question": "The UN often acts as a ___ in conflicts.",
-        "options": ["mediation", "treaty", "sanction"],
-        "answer": 0
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "If you hear about 'sanctions', what is being discussed?",
-        "options": ["A peace agreement", "A penalty to influence behavior", "A celebration"],
-        "answer": 1
+      "options": [
+        "She enjoys tea, whereas he coffee likes.",
+        "She enjoys tea, whereas he likes coffee.",
+        "She enjoys tea, he likes coffee whereas."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [true, exams, stressful, are, it, while, is, they, preparation, encourage]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [true, exams, stressful, are, it, while, is, they, preparation, encourage]",
+        "Japanese": "並べ替え: [true, exams, stressful, are, it, while, is, they, preparation, encourage]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "If a news report says, 'The two countries formed an alliance,' what does it mean?",
-        "options": ["They are in conflict", "They will trade", "They agreed to work together"],
-        "answer": 2
+      "options": [
+        "true",
+        "exams",
+        "stressful",
+        "are",
+        "it",
+        "while",
+        "is",
+        "they",
+        "preparation",
+        "encourage"
+      ],
+      "answer": [
+        "While",
+        "it",
+        "is",
+        "true",
+        "that",
+        "exams",
+        "are",
+        "stressful",
+        "they",
+        "encourage",
+        "preparation"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Whereas the north is cold, the south ___ mild winters.",
+      "question_translation": {
+        "Hindi": "जहाँ उत्तर ठंडा है, वहीं दक्षिण में ___ हल्की सर्दियाँ होती हैं।",
+        "Japanese": "北部が寒いのに対して、南部は___穏やかな冬を楽しむ。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "When someone says 'multilateral talks,' how many countries are likely involved?",
-        "options": ["One", "Two", "Several"],
-        "answer": 2
+      "options": [
+        "enjoys",
+        "enjoy",
+        "enjoyed"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is contrasted in the sentence?",
+      "audio_text": "Whereas the old system was inefficient, the new system saves time.",
+      "question_translation": {
+        "Hindi": "वाक्य में किसका विरोध किया गया है?",
+        "Japanese": "文で対比されているのは何ですか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "Which of these best describes 'sovereignty'?",
-        "options": ["Country's independence", "A trade ban", "A negotiation"],
-        "answer": 0
+      "options": [
+        "Old vs new system",
+        "Time vs money",
+        "Efficiency vs laziness"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The word 'while' can introduce concession.",
+      "audio_text": "While the movie was entertaining, it was too long.",
+      "question_translation": {
+        "Hindi": "'while' शब्द स्वीकारोक्ति शुरू कर सकता है।",
+        "Japanese": "「while」という語は譲歩を導入できる。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "If you hear, 'The nations are in negotiation,' what is happening?",
-        "options": ["They are discussing to reach an agreement", "They are celebrating", "They are fighting"],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'Diplomacy plays a vital role in international relations.'",
-        "options": [],
-        "answer": "Diplomacy plays a vital role in international relations."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What problem do rural areas face in this example?",
+      "audio_text": "While urban areas face pollution, rural areas struggle with poor infrastructure.",
+      "question_translation": {
+        "Hindi": "इस उदाहरण में ग्रामीण क्षेत्रों को किस समस्या का सामना करना पड़ता है?",
+        "Japanese": "この例で農村部が直面している問題は何ですか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'The countries agreed to lift the embargo.'",
-        "options": [],
-        "answer": "The countries agreed to lift the embargo."
+      "options": [
+        "Lack of infrastructure",
+        "Pollution",
+        "Overpopulation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The speaker says: 'Whereas a village may have one school, a city has ___.'",
+      "audio_text": "Whereas a village may have one school, a city has dozens.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'जहाँ एक गाँव में एक स्कूल हो सकता है, वहीं शहर में ___ होते हैं।'",
+        "Japanese": "話者は「村には学校が1つしかないかもしれないが、都市には___ある」と言います。"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'Sanctions were imposed to encourage peaceful negotiations.'",
-        "options": [],
-        "answer": "Sanctions were imposed to encourage peaceful negotiations."
+      "options": [
+        "dozens",
+        "hundreds",
+        "none"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which is the concessive clause in the sentence?",
+      "audio_text": "While I understand your concerns, I must continue with the plan.",
+      "question_translation": {
+        "Hindi": "वाक्य में कौन सा स्वीकारोक्ति उपवाक्य है?",
+        "Japanese": "文で譲歩節はどれですか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'Sovereignty is essential for a nation's independence.'",
-        "options": [],
-        "answer": "Sovereignty is essential for a nation's independence."
+      "options": [
+        "While I understand your concerns",
+        "I must continue with the plan",
+        "The whole sentence"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'She likes tea, whereas her brother likes coffee.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She likes tea, whereas her brother likes coffee.'",
+        "Japanese": "言ってください: 'She likes tea, whereas her brother likes coffee.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'The alliance helped maintain peace in the region.'",
-        "options": [],
-        "answer": "The alliance helped maintain peace in the region."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "she likes tea whereas her brother likes coffee"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'While it is important, it is not urgent.'",
+      "question_translation": {
+        "Hindi": "कहें: 'While it is important, it is not urgent.'",
+        "Japanese": "言ってください: 'While it is important, it is not urgent.'"
+      },
+      "options": [],
+      "answer": "while it is important it is not urgent"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Whereas the north is cold, the south enjoys mild winters.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Whereas the north is cold, the south enjoys mild winters.'",
+        "Japanese": "言ってください: 'Whereas the north is cold, the south enjoys mild winters.'"
+      },
+      "options": [],
+      "answer": "whereas the north is cold the south enjoys mild winters"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'While urban areas face pollution, rural areas lack infrastructure.'",
+      "question_translation": {
+        "Hindi": "कहें: 'While urban areas face pollution, rural areas lack infrastructure.'",
+        "Japanese": "言ってください: 'While urban areas face pollution, rural areas lack infrastructure.'"
+      },
+      "options": [],
+      "answer": "while urban areas face pollution rural areas lack infrastructure"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Whereas a village may have one school, a city has dozens.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Whereas a village may have one school, a city has dozens.'",
+        "Japanese": "言ってください: 'Whereas a village may have one school, a city has dozens.'"
+      },
+      "options": [],
+      "answer": "whereas a village may have one school a city has dozens"
+    }
+  ]
+}
+
 }

@@ -1,4 +1,574 @@
 {
-  "id": 37,
-  "message": "This is file number 37"
+  "id": "lesson_health_policy_public_communication_c1",
+  "lesson_name": "Health Policy & Public Communication",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "public health",
+        "word_translation": {
+          "Hindi": "सार्वजनिक स्वास्थ्य",
+          "Japanese": "公衆衛生"
+        },
+        "meaning": "The science of protecting and improving the health of communities",
+        "meaning_translation": {
+          "Hindi": "समुदायों के स्वास्थ्य की रक्षा और सुधार करने का विज्ञान",
+          "Japanese": "地域社会の健康を保護・改善する科学"
+        },
+        "examples": [
+          {
+            "sentence": "Public health campaigns promote vaccination and healthy lifestyles.",
+            "translation": {
+              "Hindi": "सार्वजनिक स्वास्थ्य अभियान टीकाकरण और स्वस्थ जीवनशैली को बढ़ावा देते हैं।",
+              "Japanese": "公衆衛生活動は予防接種や健康的な生活習慣を促進します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "health policy",
+        "word_translation": {
+          "Hindi": "स्वास्थ्य नीति",
+          "Japanese": "保健政策"
+        },
+        "meaning": "Decisions and actions taken to achieve specific healthcare goals in a society",
+        "meaning_translation": {
+          "Hindi": "समाज में विशिष्ट स्वास्थ्य देखभाल लक्ष्यों को प्राप्त करने के लिए लिए गए निर्णय और कार्य",
+          "Japanese": "社会において特定の医療目標を達成するための決定や行動"
+        },
+        "examples": [
+          {
+            "sentence": "Government health policy focuses on universal access to care.",
+            "translation": {
+              "Hindi": "सरकारी स्वास्थ्य नीति देखभाल की सार्वभौमिक पहुँच पर केंद्रित होती है।",
+              "Japanese": "政府の保健政策は医療への普遍的アクセスに焦点を当てています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk communication",
+        "word_translation": {
+          "Hindi": "जोखिम संचार",
+          "Japanese": "リスクコミュニケーション"
+        },
+        "meaning": "Sharing information about potential health risks clearly and effectively",
+        "meaning_translation": {
+          "Hindi": "संभावित स्वास्थ्य जोखिमों के बारे में स्पष्ट और प्रभावी रूप से जानकारी साझा करना",
+          "Japanese": "潜在的な健康リスクに関する情報を明確かつ効果的に共有すること"
+        },
+        "examples": [
+          {
+            "sentence": "Risk communication during a pandemic helps reduce panic.",
+            "translation": {
+              "Hindi": "महामारी के दौरान जोखिम संचार घबराहट को कम करने में मदद करता है।",
+              "Japanese": "パンデミック中のリスクコミュニケーションはパニックを減らすのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "health literacy",
+        "word_translation": {
+          "Hindi": "स्वास्थ्य साक्षरता",
+          "Japanese": "健康リテラシー"
+        },
+        "meaning": "The ability to understand and use health information to make decisions",
+        "meaning_translation": {
+          "Hindi": "स्वास्थ्य संबंधी जानकारी को समझने और निर्णय लेने के लिए उपयोग करने की क्षमता",
+          "Japanese": "健康情報を理解し意思決定に活用する能力"
+        },
+        "examples": [
+          {
+            "sentence": "Improving health literacy empowers people to manage their own care.",
+            "translation": {
+              "Hindi": "स्वास्थ्य साक्षरता में सुधार लोगों को अपनी देखभाल प्रबंधित करने में सक्षम बनाता है।",
+              "Japanese": "健康リテラシーの向上は人々が自分のケアを管理する力を高めます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "misinformation",
+        "word_translation": {
+          "Hindi": "ग़लत जानकारी",
+          "Japanese": "誤情報"
+        },
+        "meaning": "False or inaccurate information spread unintentionally or intentionally",
+        "meaning_translation": {
+          "Hindi": "झूठी या गलत जानकारी जो जानबूझकर या अनजाने में फैलाई जाती है",
+          "Japanese": "意図的または偶然に広まる虚偽または不正確な情報"
+        },
+        "examples": [
+          {
+            "sentence": "Misinformation about vaccines can harm public trust.",
+            "translation": {
+              "Hindi": "टीकों के बारे में ग़लत जानकारी सार्वजनिक भरोसे को नुकसान पहुँचा सकती है।",
+              "Japanese": "ワクチンに関する誤情報は公衆の信頼を損なう可能性があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "policy advocacy",
+        "word_translation": {
+          "Hindi": "नीति समर्थन",
+          "Japanese": "政策提言"
+        },
+        "meaning": "Efforts to influence policy decisions to improve public health outcomes",
+        "meaning_translation": {
+          "Hindi": "सार्वजनिक स्वास्थ्य परिणामों में सुधार के लिए नीति निर्णयों को प्रभावित करने के प्रयास",
+          "Japanese": "公衆衛生の成果を改善するために政策決定に影響を与える取り組み"
+        },
+        "examples": [
+          {
+            "sentence": "Doctors engage in policy advocacy to improve healthcare funding.",
+            "translation": {
+              "Hindi": "डॉक्टर स्वास्थ्य देखभाल निधि में सुधार के लिए नीति समर्थन में शामिल होते हैं।",
+              "Japanese": "医師たちは医療資金を改善するために政策提言を行います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stakeholder engagement",
+        "word_translation": {
+          "Hindi": "हितधारक सहभागिता",
+          "Japanese": "利害関係者の関与"
+        },
+        "meaning": "Including all relevant groups in health planning and decision-making",
+        "meaning_translation": {
+          "Hindi": "स्वास्थ्य योजना और निर्णय लेने में सभी प्रासंगिक समूहों को शामिल करना",
+          "Japanese": "健康計画や意思決定に関連するすべてのグループを含めること"
+        },
+        "examples": [
+          {
+            "sentence": "Stakeholder engagement leads to better-informed health policies.",
+            "translation": {
+              "Hindi": "हितधारक सहभागिता बेहतर-सूचित स्वास्थ्य नीतियों की ओर ले जाती है।",
+              "Japanese": "利害関係者の関与はより適切な保健政策につながります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "regulation",
+        "word_translation": {
+          "Hindi": "नियमन",
+          "Japanese": "規制"
+        },
+        "meaning": "Rules or laws made to control certain health-related activities",
+        "meaning_translation": {
+          "Hindi": "स्वास्थ्य संबंधी कुछ गतिविधियों को नियंत्रित करने के लिए बनाए गए नियम या कानून",
+          "Japanese": "健康関連の活動を管理するために作られた規則や法律"
+        },
+        "examples": [
+          {
+            "sentence": "Regulation of tobacco advertising protects public health.",
+            "translation": {
+              "Hindi": "तंबाकू विज्ञापन का नियमन सार्वजनिक स्वास्थ्य की रक्षा करता है।",
+              "Japanese": "たばこの広告規制は公衆衛生を守ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "outbreak management",
+        "word_translation": {
+          "Hindi": "प्रकोप प्रबंधन",
+          "Japanese": "感染拡大管理"
+        },
+        "meaning": "Coordinated response to control and reduce the spread of disease",
+        "meaning_translation": {
+          "Hindi": "रोग के प्रसार को नियंत्रित और कम करने के लिए समन्वित प्रतिक्रिया",
+          "Japanese": "病気の拡大を抑えるための調整された対応"
+        },
+        "examples": [
+          {
+            "sentence": "Effective outbreak management prevents health crises.",
+            "translation": {
+              "Hindi": "प्रभावी प्रकोप प्रबंधन स्वास्थ्य संकटों को रोकता है।",
+              "Japanese": "効果的な感染拡大管理は健康危機を防ぎます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evidence-based policy",
+        "word_translation": {
+          "Hindi": "साक्ष्य-आधारित नीति",
+          "Japanese": "エビデンスに基づく政策"
+        },
+        "meaning": "Health policies guided by reliable data and scientific research",
+        "meaning_translation": {
+          "Hindi": "स्वास्थ्य नीतियां जो विश्वसनीय डेटा और वैज्ञानिक शोध द्वारा निर्देशित होती हैं",
+          "Japanese": "信頼できるデータと科学的研究に基づく保健政策"
+        },
+        "examples": [
+          {
+            "sentence": "Evidence-based policy improves vaccination strategies.",
+            "translation": {
+              "Hindi": "साक्ष्य-आधारित नीति टीकाकरण रणनीतियों में सुधार करती है।",
+              "Japanese": "エビデンスに基づく政策はワクチン接種戦略を改善します。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Passive Voice in Policy Reports",
+        "explanation": "Passive voice keeps focus on action rather than who performed it (e.g., 'The policy was implemented').",
+        "explanation_translation": {
+          "Hindi": "निष्क्रिय वाक्य क्रिया पर ध्यान केंद्रित रखता है न कि उसे किसने किया (जैसे 'The policy was implemented')।",
+          "Japanese": "受動態は誰が行ったかではなく行為そのものに焦点を当てます（例：「The policy was implemented」）。"
+        }
+      },
+      {
+        "title": "Reporting Recommendations Clearly",
+        "explanation": "Use reporting verbs like 'recommend', 'suggest', or 'propose' to state health advice.",
+        "explanation_translation": {
+          "Hindi": "'recommend', 'suggest' या 'propose' जैसे रिपोर्टिंग क्रियाओं का उपयोग स्वास्थ्य सलाह देने के लिए करें।",
+          "Japanese": "健康に関する助言を述べる際は「recommend」「suggest」「propose」などの動詞を使いましょう。"
+        }
+      },
+      {
+        "title": "Expressing Obligation in Policies",
+        "explanation": "Use modals like 'must', 'should', and 'are required to' for mandatory rules.",
+        "explanation_translation": {
+          "Hindi": "अनिवार्य नियमों के लिए 'must', 'should' और 'are required to' जैसे मोडल का उपयोग करें।",
+          "Japanese": "義務的なルールを述べる際は「must」「should」「are required to」などを使います。"
+        }
+      },
+      {
+        "title": "Hedging When Presenting Evidence",
+        "explanation": "Use phrases like 'research suggests', 'may indicate', or 'appears to' when evidence is not absolute.",
+        "explanation_translation": {
+          "Hindi": "जब साक्ष्य पूर्ण नहीं हो, तो 'research suggests', 'may indicate' या 'appears to' जैसे वाक्यांशों का उपयोग करें।",
+          "Japanese": "証拠が完全でない場合は「research suggests」「may indicate」「appears to」などの表現を使います。"
+        }
+      },
+      {
+        "title": "Clarity in Public Health Messaging",
+        "explanation": "Use simple present tense and direct language for clear instructions (e.g., 'Wash your hands often').",
+        "explanation_translation": {
+          "Hindi": "स्पष्ट निर्देशों के लिए साधारण वर्तमान काल और सीधे शब्दों का उपयोग करें (जैसे 'Wash your hands often')।",
+          "Japanese": "明確な指示をするために現在形と直接的な言葉を使いましょう（例：「Wash your hands often」）。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'risk communication' mean?",
+        "question_translation": {
+          "Hindi": "'जोखिम संचार' का क्या अर्थ है?",
+          "Japanese": "「リスクコミュニケーション」とは何を意味しますか？"
+        },
+        "options": [
+          "Sharing information about potential health risks clearly",
+          "Spreading fear to encourage compliance",
+          "Making laws about health policy"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Misinformation can reduce public trust in health campaigns.",
+        "question_translation": {
+          "Hindi": "ग़लत जानकारी स्वास्थ्य अभियानों में जनता के भरोसे को कम कर सकती है।",
+          "Japanese": "誤情報は健康キャンペーンへの公衆の信頼を低下させる可能性があります。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Doctors often engage in policy ______ to improve funding.",
+        "question_translation": {
+          "Hindi": "डॉक्टर अक्सर वित्त पोषण में सुधार के लिए नीति ______ में शामिल होते हैं।",
+          "Japanese": "医師は資金改善のために政策______に関わることが多いです。"
+        },
+        "options": [
+          "advocacy",
+          "literacy",
+          "regulation"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What is 'health literacy'?",
+        "question_translation": {
+          "Hindi": "'स्वास्थ्य साक्षरता' क्या है?",
+          "Japanese": "「健康リテラシー」とは何ですか？"
+        },
+        "options": [
+          "Ability to understand and use health information",
+          "A government health policy",
+          "A type of hospital management"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which term means rules or laws controlling health activities?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द स्वास्थ्य गतिविधियों को नियंत्रित करने वाले नियमों या कानूनों को दर्शाता है?",
+          "Japanese": "健康関連の活動を管理する規則や法律を指す用語はどれですか？"
+        },
+        "options": [
+          "Regulation",
+          "Advocacy",
+          "Engagement"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [implemented, was, the, policy, new, successfully]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [implemented, was, the, policy, new, successfully]",
+          "Japanese": "並べ替え: [implemented, was, the, policy, new, successfully]"
+        },
+        "options": [
+          "implemented",
+          "was",
+          "the",
+          "policy",
+          "new",
+          "successfully"
+        ],
+        "answer": [
+          "the",
+          "new",
+          "policy",
+          "was",
+          "successfully",
+          "implemented"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Health experts ______ that people should get vaccinated.",
+        "question_translation": {
+          "Hindi": "स्वास्थ्य विशेषज्ञ ______ कि लोगों को टीका लगवाना चाहिए।",
+          "Japanese": "健康の専門家は人々にワクチン接種を受けるべきだと______します。"
+        },
+        "options": [
+          "recommend",
+          "ignore",
+          "forget"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses hedging correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य हेजिंग का सही उपयोग करता है?",
+          "Japanese": "どの文が正しくヘッジングを使用していますか？"
+        },
+        "options": [
+          "Research suggests the policy may reduce infection rates.",
+          "The policy absolutely prevents all infections.",
+          "Policy reduce infection."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [required, are, masks, public, in, spaces]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [required, are, masks, public, in, spaces]",
+          "Japanese": "並べ替え: [required, are, masks, public, in, spaces]"
+        },
+        "options": [
+          "required",
+          "are",
+          "masks",
+          "public",
+          "in",
+          "spaces"
+        ],
+        "answer": [
+          "masks",
+          "are",
+          "required",
+          "in",
+          "public",
+          "spaces"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Effective outbreak ______ prevents large-scale health crises.",
+        "question_translation": {
+          "Hindi": "प्रभावी प्रकोप ______ बड़े पैमाने के स्वास्थ्य संकट को रोकता है।",
+          "Japanese": "効果的な感染拡大______は大規模な健康危機を防ぎます。"
+        },
+        "options": [
+          "management",
+          "misinformation",
+          "literacy"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the main point? Audio: 'Public health policies aim to protect entire populations.'",
+        "audio_text": "Public health policies aim to protect entire populations.",
+        "question_translation": {
+          "Hindi": "मुख्य बिंदु क्या है?",
+          "Japanese": "主なポイントは何ですか？"
+        },
+        "options": [
+          "Public health protects individuals only",
+          "Public health aims to protect populations",
+          "Public health focuses on private hospitals"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Policy advocacy means influencing decisions for better health outcomes.",
+        "audio_text": "Policy advocacy means influencing decisions for better health outcomes.",
+        "question_translation": {
+          "Hindi": "नीति समर्थन का मतलब बेहतर स्वास्थ्य परिणामों के लिए निर्णयों को प्रभावित करना है।",
+          "Japanese": "政策提言とは、より良い健康成果のために意思決定に影響を与えることです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What is advised? Audio: 'Verify health information to avoid misinformation.'",
+        "audio_text": "Verify health information to avoid misinformation.",
+        "question_translation": {
+          "Hindi": "क्या सलाह दी गई है?",
+          "Japanese": "どのような助言がされていますか？"
+        },
+        "options": [
+          "Share all health posts quickly",
+          "Verify health information first",
+          "Ignore health news entirely"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What should communicators ensure? Audio: 'Messages must be clear and easy to understand.'",
+        "audio_text": "Messages must be clear and easy to understand.",
+        "question_translation": {
+          "Hindi": "संचारकर्ताओं को क्या सुनिश्चित करना चाहिए?",
+          "Japanese": "コミュニケーターは何を確実にするべきですか？"
+        },
+        "options": [
+          "Use complex academic language",
+          "Keep messages clear and simple",
+          "Avoid giving any instructions"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Stakeholder engagement helps create better health policies.",
+        "audio_text": "Stakeholder engagement helps create better health policies.",
+        "question_translation": {
+          "Hindi": "हितधारक सहभागिता बेहतर स्वास्थ्य नीतियां बनाने में मदद करती है।",
+          "Japanese": "利害関係者の関与はより良い保健政策の策定に役立ちます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Public health protects communities through prevention.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Public health protects communities through prevention.'",
+          "Japanese": "言ってください: 'Public health protects communities through prevention.'"
+        },
+        "options": [],
+        "answer": "public health protects communities through prevention"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Misinformation can harm trust in health campaigns.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Misinformation can harm trust in health campaigns.'",
+          "Japanese": "言ってください: 'Misinformation can harm trust in health campaigns.'"
+        },
+        "options": [],
+        "answer": "misinformation can harm trust in health campaigns"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Risk communication should reduce fear and panic.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Risk communication should reduce fear and panic.'",
+          "Japanese": "言ってください: 'Risk communication should reduce fear and panic.'"
+        },
+        "options": [],
+        "answer": "risk communication should reduce fear and panic"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Evidence-based policy uses data to guide decisions.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Evidence-based policy uses data to guide decisions.'",
+          "Japanese": "言ってください: 'Evidence-based policy uses data to guide decisions.'"
+        },
+        "options": [],
+        "answer": "evidence based policy uses data to guide decisions"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Stakeholders must work together for better health outcomes.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Stakeholders must work together for better health outcomes.'",
+          "Japanese": "言ってください: 'Stakeholders must work together for better health outcomes.'"
+        },
+        "options": [],
+        "answer": "stakeholders must work together for better health outcomes"
+      }
+    ]
+  }
 }

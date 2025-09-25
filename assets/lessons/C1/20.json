@@ -1,4 +1,555 @@
 {
-  "id": 20,
-  "message": "This is file number 20"
+  "id": "lesson_counterarguments_rebuttals_c1",
+  "lesson_name": "Counter-Arguments & Rebuttals",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "counter-argument",
+        "word_translation": {
+          "Hindi": "प्रतिवाद",
+          "Japanese": "反論"
+        },
+        "meaning": "An opposing viewpoint that challenges your main argument",
+        "meaning_translation": {
+          "Hindi": "एक विरोधी दृष्टिकोण जो आपके मुख्य तर्क को चुनौती देता है",
+          "Japanese": "自分の主張に挑戦する反対の意見"
+        },
+        "examples": [
+          {
+            "sentence": "A common counter-argument is that renewable energy is too expensive.",
+            "translation": {
+              "Hindi": "एक सामान्य प्रतिवाद यह है कि नवीकरणीय ऊर्जा बहुत महंगी है।",
+              "Japanese": "再生可能エネルギーは高すぎるというのが一般的な反論である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rebuttal",
+        "word_translation": {
+          "Hindi": "खंडन",
+          "Japanese": "反駁"
+        },
+        "meaning": "A response to a counter-argument that defends your position",
+        "meaning_translation": {
+          "Hindi": "प्रतिवाद का जवाब जो आपकी स्थिति का बचाव करता है",
+          "Japanese": "反論に応じて自分の立場を守ること"
+        },
+        "examples": [
+          {
+            "sentence": "Her rebuttal emphasized falling costs of solar technology.",
+            "translation": {
+              "Hindi": "उसके खंडन ने सौर तकनीक की गिरती लागत पर जोर दिया।",
+              "Japanese": "彼女の反駁は太陽光技術の低下するコストを強調した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "refutation",
+        "word_translation": {
+          "Hindi": "खंडन",
+          "Japanese": "論駁"
+        },
+        "meaning": "Disproving or invalidating an opposing argument",
+        "meaning_translation": {
+          "Hindi": "विरोधी तर्क को असत्य या अमान्य साबित करना",
+          "Japanese": "反対意見を誤りまたは無効と証明すること"
+        },
+        "examples": [
+          {
+            "sentence": "The refutation showed that the study’s data was flawed.",
+            "translation": {
+              "Hindi": "खंडन ने दिखाया कि अध्ययन का डेटा त्रुटिपूर्ण था।",
+              "Japanese": "その論駁は研究のデータが誤っていたことを示した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "anticipate",
+        "word_translation": {
+          "Hindi": "पूर्वानुमान करना",
+          "Japanese": "予測する"
+        },
+        "meaning": "To expect and prepare for a counter-argument before it is raised",
+        "meaning_translation": {
+          "Hindi": "किसी प्रतिवाद के उठने से पहले उसका अनुमान लगाना और तैयारी करना",
+          "Japanese": "反論が出る前に予測して準備すること"
+        },
+        "examples": [
+          {
+            "sentence": "Good writers anticipate objections to strengthen their case.",
+            "translation": {
+              "Hindi": "अच्छे लेखक अपने मामले को मजबूत करने के लिए आपत्तियों का अनुमान लगाते हैं।",
+              "Japanese": "良い書き手は自分の主張を強めるために異論を予測する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concede",
+        "word_translation": {
+          "Hindi": "स्वीकार करना",
+          "Japanese": "認める"
+        },
+        "meaning": "To admit part of the opposing view is valid while maintaining your position",
+        "meaning_translation": {
+          "Hindi": "विरोधी दृष्टिकोण के किसी हिस्से को मानना, जबकि अपनी स्थिति बनाए रखना",
+          "Japanese": "反対意見の一部を認めつつ自分の立場を維持すること"
+        },
+        "examples": [
+          {
+            "sentence": "The writer conceded that implementation costs were high but argued long-term savings.",
+            "translation": {
+              "Hindi": "लेखक ने स्वीकार किया कि कार्यान्वयन लागत अधिक थी, लेकिन दीर्घकालिक बचत का तर्क दिया।",
+              "Japanese": "著者は導入コストが高いことを認めたが、長期的な節約を主張した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "validity",
+        "word_translation": {
+          "Hindi": "वैधता",
+          "Japanese": "妥当性"
+        },
+        "meaning": "The extent to which an argument is logically sound and acceptable",
+        "meaning_translation": {
+          "Hindi": "किसी तर्क की तार्किकता और स्वीकृति की सीमा",
+          "Japanese": "議論が論理的に正しく受け入れられる程度"
+        },
+        "examples": [
+          {
+            "sentence": "The professor questioned the validity of the counter-argument.",
+            "translation": {
+              "Hindi": "प्रोफेसर ने प्रतिवाद की वैधता पर सवाल उठाया।",
+              "Japanese": "教授は反論の妥当性に疑問を呈した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "logical fallacy",
+        "word_translation": {
+          "Hindi": "तार्किक त्रुटि",
+          "Japanese": "論理的誤謬"
+        },
+        "meaning": "A mistake in reasoning that weakens an argument",
+        "meaning_translation": {
+          "Hindi": "तर्क में गलती जो किसी तर्क को कमजोर करती है",
+          "Japanese": "議論を弱める推論の誤り"
+        },
+        "examples": [
+          {
+            "sentence": "The rebuttal pointed out a logical fallacy in the opponent’s claim.",
+            "translation": {
+              "Hindi": "खंडन ने प्रतिद्वंद्वी के दावे में तार्किक त्रुटि की ओर इशारा किया।",
+              "Japanese": "反駁は相手の主張に論理的誤謬があることを指摘した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "persuasive strategy",
+        "word_translation": {
+          "Hindi": "प्रभावी रणनीति",
+          "Japanese": "説得戦略"
+        },
+        "meaning": "A planned approach to influence the audience’s opinion",
+        "meaning_translation": {
+          "Hindi": "दर्शकों की राय को प्रभावित करने के लिए योजनाबद्ध दृष्टिकोण",
+          "Japanese": "聴衆の意見に影響を与えるための計画的な方法"
+        },
+        "examples": [
+          {
+            "sentence": "Using evidence is a key persuasive strategy in rebuttals.",
+            "translation": {
+              "Hindi": "साक्ष्य का उपयोग खंडनों में एक प्रमुख प्रभावी रणनीति है।",
+              "Japanese": "証拠を使うことは反駁における重要な説得戦略である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "address",
+        "word_translation": {
+          "Hindi": "निपटना",
+          "Japanese": "対処する"
+        },
+        "meaning": "To deal directly with a counter-argument in your writing",
+        "meaning_translation": {
+          "Hindi": "अपने लेखन में किसी प्रतिवाद से सीधे निपटना",
+          "Japanese": "文章で反論に直接対処すること"
+        },
+        "examples": [
+          {
+            "sentence": "The essay addresses critics who argue against globalization.",
+            "translation": {
+              "Hindi": "निबंध उन आलोचकों से निपटता है जो वैश्वीकरण के खिलाफ तर्क देते हैं।",
+              "Japanese": "そのエッセイはグローバリゼーションに反対する批評家に対処している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "acknowledge",
+        "word_translation": {
+          "Hindi": "स्वीकार करना",
+          "Japanese": "認識する"
+        },
+        "meaning": "To recognize and mention an opposing viewpoint",
+        "meaning_translation": {
+          "Hindi": "किसी विरोधी दृष्टिकोण को पहचानना और उसका उल्लेख करना",
+          "Japanese": "反対意見を認識して言及すること"
+        },
+        "examples": [
+          {
+            "sentence": "She acknowledged the counter-argument but provided strong evidence against it.",
+            "translation": {
+              "Hindi": "उसने प्रतिवाद को स्वीकार किया लेकिन उसके खिलाफ ठोस साक्ष्य प्रस्तुत किए।",
+              "Japanese": "彼女は反論を認めたが、それに対して強い証拠を示した。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Concessive Structures",
+        "explanation": "Phrases like 'Although some argue that…' or 'While it is true that…' help introduce counter-arguments effectively.",
+        "explanation_translation": {
+          "Hindi": "'Although some argue that…' या 'While it is true that…' जैसे वाक्यांश प्रतिवाद को प्रभावी ढंग से प्रस्तुत करने में मदद करते हैं।",
+          "Japanese": "「Although some argue that…」や「While it is true that…」のような表現は反論を効果的に導入するのに役立つ。"
+        }
+      },
+      {
+        "title": "Framing Rebuttals",
+        "explanation": "Use phrases like 'However, evidence shows…' or 'On the contrary…' to shift back to your stance.",
+        "explanation_translation": {
+          "Hindi": "'However, evidence shows…' या 'On the contrary…' जैसे वाक्यांशों का उपयोग अपनी स्थिति पर लौटने के लिए करें।",
+          "Japanese": "「However, evidence shows…」や「On the contrary…」のような表現を使って自分の立場に戻す。"
+        }
+      },
+      {
+        "title": "Strengthening Arguments",
+        "explanation": "Anticipating counter-arguments and addressing them makes your reasoning stronger and more credible.",
+        "explanation_translation": {
+          "Hindi": "प्रतिवादों का अनुमान लगाना और उनसे निपटना आपके तर्क को मजबूत और अधिक विश्वसनीय बनाता है।",
+          "Japanese": "反論を予測して対処することで、議論がより強固で信頼性の高いものになる。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word describes an opposing viewpoint that challenges your main argument?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द आपके मुख्य तर्क को चुनौती देने वाले विरोधी दृष्टिकोण को दर्शाता है?",
+        "Japanese": "自分の主張に挑戦する反対意見を表す言葉はどれですか？"
+      },
+      "options": [
+        "rebuttal",
+        "counter-argument",
+        "conclusion"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "A ___ provides a direct response to a counter-argument.",
+      "question_translation": {
+        "Hindi": "एक ___ प्रतिवाद का सीधा उत्तर प्रदान करता है।",
+        "Japanese": "___は反論に直接応答する。"
+      },
+      "options": [
+        "refutation",
+        "rebuttal",
+        "acknowledgement"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Conceding means admitting some validity in an opposing view while keeping your stance.",
+      "question_translation": {
+        "Hindi": "Conceding का मतलब है कि आप अपनी स्थिति बनाए रखते हुए विरोधी दृष्टिकोण में कुछ वैधता स्वीकार करते हैं।",
+        "Japanese": "Concedingとは、自分の立場を維持しながら反対意見にある程度の妥当性を認めることです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term refers to disproving an opposing argument?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द विरोधी तर्क को असत्य साबित करने को संदर्भित करता है?",
+        "Japanese": "反対意見を誤りだと証明することを指す用語はどれですか？"
+      },
+      "options": [
+        "acknowledge",
+        "refutation",
+        "anticipation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The debater ___ the opponent’s argument by showing factual errors.",
+      "question_translation": {
+        "Hindi": "वक्ता ने तथ्यात्मक त्रुटियों को दिखाकर प्रतिद्वंद्वी के तर्क को ___ किया।",
+        "Japanese": "討論者は事実の誤りを示して相手の議論を___した。"
+      },
+      "options": [
+        "addressed",
+        "rebutted",
+        "ignored"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [counter-argument, strong, presented, the, was]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [counter-argument, strong, presented, the, was]",
+        "Japanese": "並べ替え: [counter-argument, strong, presented, the, was]"
+      },
+      "options": [
+        "counter-argument",
+        "strong",
+        "presented",
+        "the",
+        "was"
+      ],
+      "answer": [
+        "the",
+        "counter-argument",
+        "was",
+        "presented",
+        "strong"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Although critics argue this method is costly, the ___ shows long-term savings.",
+      "question_translation": {
+        "Hindi": "हालांकि आलोचक तर्क देते हैं कि यह तरीका महंगा है, ___ दीर्घकालिक बचत दिखाता है।",
+        "Japanese": "批評家はこの方法は高価だと主張するが、___は長期的な節約を示す。"
+      },
+      "options": [
+        "conclusion",
+        "rebuttal",
+        "concession"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence best shows concession?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य concession (स्वीकार) को सबसे अच्छा दिखाता है?",
+        "Japanese": "どの文が譲歩を最もよく示していますか？"
+      },
+      "options": [
+        "It is true that costs are high, but the benefits outweigh them.",
+        "The costs are high and therefore unacceptable.",
+        "I refuse to admit any validity to the opposing view."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [fallacy, logical, argument, weakened, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [fallacy, logical, argument, weakened, the]",
+        "Japanese": "並べ替え: [fallacy, logical, argument, weakened, the]"
+      },
+      "options": [
+        "fallacy",
+        "logical",
+        "argument",
+        "weakened",
+        "the"
+      ],
+      "answer": [
+        "the",
+        "logical",
+        "fallacy",
+        "weakened",
+        "argument"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Writers should ___ counter-arguments to strengthen their reasoning.",
+      "question_translation": {
+        "Hindi": "लेखकों को अपने तर्क को मजबूत करने के लिए प्रतिवादों को ___ करना चाहिए।",
+        "Japanese": "書き手は自分の推論を強化するために反論を___すべきである。"
+      },
+      "options": [
+        "ignore",
+        "address",
+        "avoid"
+      ],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker doing here?",
+      "audio_text": "Although it is true that renewable energy requires high initial investment, evidence shows costs are falling rapidly.",
+      "question_translation": {
+        "Hindi": "यहां वक्ता क्या कर रहा है?",
+        "Japanese": "話者はここで何をしていますか？"
+      },
+      "options": [
+        "conceding then rebutting",
+        "ignoring",
+        "refuting without evidence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker is acknowledging a counter-argument.",
+      "audio_text": "Critics often argue that online education lacks interaction.",
+      "question_translation": {
+        "Hindi": "वक्ता एक प्रतिवाद को स्वीकार कर रहा है।",
+        "Japanese": "話者は反論を認めている。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which strategy is being used by the speaker?",
+      "audio_text": "On the contrary, data from multiple studies shows the opposite trend.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी रणनीति का उपयोग कर रहा है?",
+        "Japanese": "話者はどの戦略を使用していますか？"
+      },
+      "options": [
+        "anticipation",
+        "rebuttal",
+        "concession"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The speaker is strengthening their argument by addressing an objection.",
+      "audio_text": "Some argue that the policy is ineffective, but recent results prove otherwise.",
+      "question_translation": {
+        "Hindi": "वक्ता एक आपत्ति को संबोधित करके अपने तर्क को मजबूत कर रहा है।",
+        "Japanese": "話者は反論に対処することで議論を強めている。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What error does the rebuttal highlight?",
+      "audio_text": "The opponent claims correlation proves causation, which is a mistake in reasoning.",
+      "question_translation": {
+        "Hindi": "खंडन किस त्रुटि को उजागर करता है?",
+        "Japanese": "反駁はどの誤りを指摘していますか？"
+      },
+      "options": [
+        "logical fallacy",
+        "validity",
+        "persuasive strategy"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'A common counter-argument is that this policy is too costly.'",
+      "question_translation": {
+        "Hindi": "कहें: 'एक सामान्य प्रतिवाद यह है कि यह नीति बहुत महंगी है।'",
+        "Japanese": "言ってください: '一般的な反論は、この政策が高すぎるということです。'"
+      },
+      "options": [],
+      "answer": "a common counter argument is that this policy is too costly"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'However, evidence shows the benefits outweigh the costs.'",
+      "question_translation": {
+        "Hindi": "कहें: 'हालांकि, साक्ष्य दिखाते हैं कि लाभ लागत से अधिक हैं।'",
+        "Japanese": "言ってください: 'しかし、証拠は利益が費用を上回ることを示している。'"
+      },
+      "options": [],
+      "answer": "however evidence shows the benefits outweigh the costs"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The opponent’s argument contains a logical fallacy.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रतिद्वंद्वी का तर्क एक तार्किक त्रुटि शामिल करता है।'",
+        "Japanese": "言ってください: '相手の議論には論理的誤謬が含まれている。'"
+      },
+      "options": [],
+      "answer": "the opponents argument contains a logical fallacy"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'It is true that costs are high, but the savings are long-term.'",
+      "question_translation": {
+        "Hindi": "कहें: 'यह सच है कि लागत अधिक है, लेकिन बचत दीर्घकालिक है।'",
+        "Japanese": "言ってください: '確かに費用は高いが、節約は長期的である。'"
+      },
+      "options": [],
+      "answer": "it is true that costs are high but the savings are long term"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Addressing objections makes arguments stronger.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आपत्तियों का सामना करना तर्कों को मजबूत बनाता है।'",
+        "Japanese": "言ってください: '異論に対処することで議論は強くなる。'"
+      },
+      "options": [],
+      "answer": "addressing objections makes arguments stronger"
+    }
+  ]
+}
+
 }

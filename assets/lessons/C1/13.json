@@ -1,4 +1,563 @@
 {
-  "id": 13,
-  "message": "This is file number 13"
+  "id": "lesson_metaphor_figurative_c1",
+  "lesson_name": "Metaphor & Figurative Language in Opinion",
+  "purpose": "Academic/Creative",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "metaphor",
+        "word_translation": {
+          "Hindi": "रूपक",
+          "Japanese": "隠喩"
+        },
+        "meaning": "A figure of speech comparing two unlike things without using 'like' or 'as'",
+        "meaning_translation": {
+          "Hindi": "'जैसा' या 'जैसे' शब्दों का प्रयोग किए बिना दो असमान चीज़ों की तुलना करने वाला अलंकार",
+          "Japanese": "「like」や「as」を使わずに異なるものを比較する修辞法"
+        },
+        "examples": [
+          {
+            "sentence": "Time is a thief that steals our moments.",
+            "translation": {
+              "Hindi": "समय एक चोर है जो हमारे क्षण चुरा लेता है।",
+              "Japanese": "時間は私たちの瞬間を盗む泥棒です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "simile",
+        "word_translation": {
+          "Hindi": "उपमा",
+          "Japanese": "直喩"
+        },
+        "meaning": "A comparison using 'like' or 'as'",
+        "meaning_translation": {
+          "Hindi": "'जैसा' या 'जैसे' का प्रयोग कर तुलना करना",
+          "Japanese": "「like」や「as」を使って比較する修辞法"
+        },
+        "examples": [
+          {
+            "sentence": "Her smile was as bright as the sun.",
+            "translation": {
+              "Hindi": "उसकी मुस्कान सूरज जितनी चमकीली थी।",
+              "Japanese": "彼女の笑顔は太陽のように明るかった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "personification",
+        "word_translation": {
+          "Hindi": "मानवीकरण",
+          "Japanese": "擬人法"
+        },
+        "meaning": "Giving human qualities to non-human things",
+        "meaning_translation": {
+          "Hindi": "गैर-मानव वस्तुओं को मानवीय गुण देना",
+          "Japanese": "人間でないものに人間の性質を与えること"
+        },
+        "examples": [
+          {
+            "sentence": "The wind whispered secrets through the trees.",
+            "translation": {
+              "Hindi": "हवा ने पेड़ों के बीच रहस्य फुसफुसाए।",
+              "Japanese": "風が木々を通して秘密をささやきました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hyperbole",
+        "word_translation": {
+          "Hindi": "अतिशयोक्ति",
+          "Japanese": "誇張法"
+        },
+        "meaning": "Exaggerated statements not meant to be taken literally",
+        "meaning_translation": {
+          "Hindi": "बढ़ा-चढ़ा कर कही गई बातें जिन्हें शाब्दिक रूप से नहीं लिया जाता",
+          "Japanese": "文字通りに受け取られるべきではない誇張された表現"
+        },
+        "examples": [
+          {
+            "sentence": "I've told you a million times.",
+            "translation": {
+              "Hindi": "मैंने तुम्हें लाखों बार बताया है।",
+              "Japanese": "百万回も言ったよ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "imagery",
+        "word_translation": {
+          "Hindi": "चित्रात्मकता",
+          "Japanese": "イメージ表現"
+        },
+        "meaning": "Language that appeals to the senses and creates vivid pictures",
+        "meaning_translation": {
+          "Hindi": "ऐसी भाषा जो इंद्रियों को आकर्षित करती है और जीवंत चित्र बनाती है",
+          "Japanese": "感覚に訴えて鮮やかなイメージを生み出す表現"
+        },
+        "examples": [
+          {
+            "sentence": "The aroma of fresh bread filled the air like a warm hug.",
+            "translation": {
+              "Hindi": "ताज़ी रोटी की खुशबू ने वातावरण को एक गर्म आलिंगन की तरह भर दिया।",
+              "Japanese": "焼きたてのパンの香りが温かい抱擁のように空気を満たした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "allusion",
+        "word_translation": {
+          "Hindi": "संकेत",
+          "Japanese": "暗示／典拠"
+        },
+        "meaning": "A reference to a well-known work, person, or event",
+        "meaning_translation": {
+          "Hindi": "किसी प्रसिद्ध कृति, व्यक्ति या घटना का संदर्भ",
+          "Japanese": "よく知られている作品・人物・出来事への言及"
+        },
+        "examples": [
+          {
+            "sentence": "His strength was his Achilles' heel.",
+            "translation": {
+              "Hindi": "उसकी ताकत उसका अकिलीस की एड़ी थी।",
+              "Japanese": "彼の強さは彼のアキレス腱だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "analogy",
+        "word_translation": {
+          "Hindi": "समानता",
+          "Japanese": "類推"
+        },
+        "meaning": "A comparison to explain something complex through something familiar",
+        "meaning_translation": {
+          "Hindi": "किसी जटिल चीज़ को किसी परिचित चीज़ के माध्यम से समझाने के लिए तुलना",
+          "Japanese": "複雑なものを身近なものにたとえて説明する比較"
+        },
+        "examples": [
+          {
+            "sentence": "Explaining grammar rules is like building the framework of a house.",
+            "translation": {
+              "Hindi": "व्याकरण नियम समझाना घर की रूपरेखा बनाने जैसा है।",
+              "Japanese": "文法規則を説明するのは家の骨組みを作るようなものです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "symbolism",
+        "word_translation": {
+          "Hindi": "प्रतीकात्मकता",
+          "Japanese": "象徴"
+        },
+        "meaning": "Using symbols to represent ideas or concepts",
+        "meaning_translation": {
+          "Hindi": "विचारों या अवधारणाओं को दर्शाने के लिए प्रतीकों का उपयोग",
+          "Japanese": "アイデアや概念を象徴として表すこと"
+        },
+        "examples": [
+          {
+            "sentence": "A dove often symbolizes peace.",
+            "translation": {
+              "Hindi": "कबूतर अक्सर शांति का प्रतीक होता है।",
+              "Japanese": "ハトはしばしば平和を象徴します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "irony",
+        "word_translation": {
+          "Hindi": "विडंबना",
+          "Japanese": "皮肉"
+        },
+        "meaning": "A situation or expression where the opposite of what is expected happens",
+        "meaning_translation": {
+          "Hindi": "ऐसी स्थिति या अभिव्यक्ति जिसमें अपेक्षित के विपरीत होता है",
+          "Japanese": "予想と反対のことが起こる状況や表現"
+        },
+        "examples": [
+          {
+            "sentence": "It was ironic that the fire station burned down.",
+            "translation": {
+              "Hindi": "विडंबना यह थी कि फायर स्टेशन ही जल गया।",
+              "Japanese": "消防署が燃えたのは皮肉でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tone",
+        "word_translation": {
+          "Hindi": "लहजा",
+          "Japanese": "語調／トーン"
+        },
+        "meaning": "The writer’s attitude expressed through figurative language",
+        "meaning_translation": {
+          "Hindi": "लेखक का दृष्टिकोण जो अलंकारिक भाषा के माध्यम से व्यक्त होता है",
+          "Japanese": "修辞的な言語を通じて表現される書き手の態度"
+        },
+        "examples": [
+          {
+            "sentence": "Her sarcastic tone showed her real feelings.",
+            "translation": {
+              "Hindi": "उसके व्यंग्यात्मक लहजे ने उसकी वास्तविक भावनाओं को दिखाया।",
+              "Japanese": "彼女の皮肉な口調は彼女の本当の気持ちを示しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Metaphors in Opinion Writing",
+        "explanation": "Metaphors make opinions more persuasive by connecting abstract ideas with vivid images. Example: Education is the key to unlocking opportunity.",
+        "explanation_translation": {
+          "Hindi": "रूपक विचारों को अधिक प्रभावी बनाते हैं क्योंकि वे अमूर्त विचारों को जीवंत चित्रों से जोड़ते हैं। उदाहरण: शिक्षा अवसर खोलने की चाबी है।",
+          "Japanese": "隠喩は抽象的な考えを鮮やかなイメージに結びつけ、意見をより説得力のあるものにします。例：教育は機会を開く鍵です。"
+        }
+      },
+      {
+        "title": "Distinguishing Between Simile and Metaphor",
+        "explanation": "Similes use 'like' or 'as'; metaphors do not. Both add richness to opinion writing.",
+        "explanation_translation": {
+          "Hindi": "उपमा में 'जैसा/जैसे' का प्रयोग होता है; रूपक में नहीं। दोनों विचार लेखन को समृद्ध करते हैं।",
+          "Japanese": "直喩は「like」や「as」を使い、隠喩は使いません。どちらも意見文を豊かにします。"
+        }
+      },
+      {
+        "title": "Avoiding Overuse",
+        "explanation": "Too many figurative devices can confuse the reader. Use sparingly to strengthen opinions.",
+        "explanation_translation": {
+          "Hindi": "बहुत अधिक अलंकार पाठक को भ्रमित कर सकते हैं। इन्हें संयम से प्रयोग करें ताकि विचार मज़बूत हों।",
+          "Japanese": "比喩表現を使いすぎると読者を混乱させる可能性があります。意見を強めるために控えめに使いましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which figure of speech compares two unlike things without using 'like' or 'as'?",
+      "question_translation": {
+        "Hindi": "कौन सा अलंकार दो असमान चीज़ों की तुलना करता है बिना 'जैसा/जैसे' का प्रयोग किए?",
+        "Japanese": "「like」や「as」を使わずに二つの異なるものを比較する修辞法はどれですか？"
+      },
+      "options": [
+        "simile",
+        "metaphor",
+        "irony"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Her smile was as bright ___ the sun.",
+      "question_translation": {
+        "Hindi": "उसकी मुस्कान सूरज ___ चमकीली थी।",
+        "Japanese": "彼女の笑顔は太陽___明るかった。"
+      },
+      "options": [
+        "like",
+        "as",
+        "than"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Personification gives human qualities to non-human things.",
+      "question_translation": {
+        "Hindi": "मानवीकरण गैर-मानव वस्तुओं को मानवीय गुण देता है।",
+        "Japanese": "擬人法は人間でないものに人間の性質を与えます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which device is being used? 'I've told you a million times.'",
+      "question_translation": {
+        "Hindi": "'मैंने तुम्हें लाखों बार बताया है।' – इसमें कौन सा अलंकार प्रयोग हुआ है?",
+        "Japanese": "「百万回も言ったよ」― どの修辞法が使われていますか？"
+      },
+      "options": [
+        "symbolism",
+        "hyperbole",
+        "allusion"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "A dove often ___ peace.",
+      "question_translation": {
+        "Hindi": "कबूतर अक्सर शांति का ___ होता है।",
+        "Japanese": "ハトはしばしば平和を___。"
+      },
+      "options": [
+        "symbolizes",
+        "imagines",
+        "denies"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [a, thief, is, time, moments, steals, our]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [a, thief, is, time, moments, steals, our]",
+        "Japanese": "並べ替え: [a, thief, is, time, moments, steals, our]"
+      },
+      "options": [
+        "a",
+        "thief",
+        "is",
+        "time",
+        "moments",
+        "steals",
+        "our"
+      ],
+      "answer": [
+        "time",
+        "is",
+        "a",
+        "thief",
+        "that",
+        "steals",
+        "our",
+        "moments"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The wind ___ secrets through the trees.",
+      "question_translation": {
+        "Hindi": "हवा ने पेड़ों के बीच रहस्य ___।",
+        "Japanese": "風が木々を通して秘密を___。"
+      },
+      "options": [
+        "whispered",
+        "cried",
+        "burned"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is an example of irony?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य विडंबना का उदाहरण है?",
+        "Japanese": "どの文が皮肉の例ですか？"
+      },
+      "options": [
+        "The fire station burned down.",
+        "The dove symbolizes peace.",
+        "The aroma of bread filled the air."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [tone, sarcastic, her, true, feelings, revealed]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [tone, sarcastic, her, true, feelings, revealed]",
+        "Japanese": "並べ替え: [tone, sarcastic, her, true, feelings, revealed]"
+      },
+      "options": [
+        "tone",
+        "sarcastic",
+        "her",
+        "true",
+        "feelings",
+        "revealed"
+      ],
+      "answer": [
+        "her",
+        "sarcastic",
+        "tone",
+        "revealed",
+        "her",
+        "true",
+        "feelings"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "His strength was his Achilles' ___.",
+      "question_translation": {
+        "Hindi": "उसकी ताकत उसका अकिलीस की ___ थी।",
+        "Japanese": "彼の強さは彼のアキレスの___だった。"
+      },
+      "options": [
+        "shield",
+        "heel",
+        "sword"
+      ],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which device is used in the audio?",
+      "audio_text": "Her voice was music to my ears.",
+      "question_translation": {
+        "Hindi": "ऑडियो में कौन सा अलंकार प्रयोग हुआ है?",
+        "Japanese": "音声ではどの修辞法が使われていますか？"
+      },
+      "options": [
+        "metaphor",
+        "hyperbole",
+        "irony"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The phrase 'as cold as ice' is a simile.",
+      "audio_text": "He was as cold as ice when he spoke to me.",
+      "question_translation": {
+        "Hindi": "'as cold as ice' एक उपमा है।",
+        "Japanese": "「as cold as ice」は直喩です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What sense does the imagery appeal to?",
+      "audio_text": "The aroma of coffee filled the small café.",
+      "question_translation": {
+        "Hindi": "यह चित्रात्मकता किस इंद्रिय को आकर्षित करती है?",
+        "Japanese": "このイメージ表現はどの感覚に訴えていますか？"
+      },
+      "options": [
+        "Sight",
+        "Smell",
+        "Touch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The audio shows exaggeration: 'I waited forever for the bus.'",
+      "audio_text": "I waited forever for the bus.",
+      "question_translation": {
+        "Hindi": "ऑडियो अतिशयोक्ति दिखाता है: 'मैंने बस के लिए हमेशा इंतजार किया।'",
+        "Japanese": "音声は誇張を示しています：「バスを永遠に待った」。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What literary device is used here?",
+      "audio_text": "The classroom was a zoo.",
+      "question_translation": {
+        "Hindi": "यहाँ कौन सा साहित्यिक अलंकार प्रयोग हुआ है?",
+        "Japanese": "ここで使われている修辞法はどれですか？"
+      },
+      "options": [
+        "personification",
+        "metaphor",
+        "allusion"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Time is a thief that steals our moments.'",
+      "question_translation": {
+        "Hindi": "कहें: 'समय एक चोर है जो हमारे क्षण चुरा लेता है।'",
+        "Japanese": "言ってください: '時間は私たちの瞬間を盗む泥棒です。'"
+      },
+      "options": [],
+      "answer": "time is a thief that steals our moments"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Her smile was as bright as the sun.'",
+      "question_translation": {
+        "Hindi": "कहें: 'उसकी मुस्कान सूरज जितनी चमकीली थी।'",
+        "Japanese": "言ってください: '彼女の笑顔は太陽のように明るかった。'"
+      },
+      "options": [],
+      "answer": "her smile was as bright as the sun"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The wind whispered secrets through the trees.'",
+      "question_translation": {
+        "Hindi": "कहें: 'हवा ने पेड़ों के बीच रहस्य फुसफुसाए।'",
+        "Japanese": "言ってください: '風が木々を通して秘密をささやきました。'"
+      },
+      "options": [],
+      "answer": "the wind whispered secrets through the trees"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'It was ironic that the fire station burned down.'",
+      "question_translation": {
+        "Hindi": "कहें: 'विडंबना यह थी कि फायर स्टेशन ही जल गया।'",
+        "Japanese": "言ってください: '消防署が燃えたのは皮肉でした。'"
+      },
+      "options": [],
+      "answer": "it was ironic that the fire station burned down"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'A dove symbolizes peace.'",
+      "question_translation": {
+        "Hindi": "कहें: 'कबूतर शांति का प्रतीक है।'",
+        "Japanese": "言ってください: 'ハトは平和を象徴します。'"
+      },
+      "options": [],
+      "answer": "a dove symbolizes peace"
+    }
+  ]
+}
+
 }

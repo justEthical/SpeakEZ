@@ -1,4 +1,573 @@
 {
-  "id": 50,
-  "message": "This is file number 50"
+  "id": "lesson_exam_strategies_synthesis_evaluation_c1",
+  "lesson_name": "Exam Strategies: Synthesis & Evaluation Tasks",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "synthesis",
+        "word_translation": {
+          "Hindi": "संश्लेषण",
+          "Japanese": "統合 / シンセシス"
+        },
+        "meaning": "Combining different ideas or information to create a new understanding",
+        "meaning_translation": {
+          "Hindi": "विभिन्न विचारों या जानकारी को मिलाकर नई समझ बनाना",
+          "Japanese": "異なるアイデアや情報を組み合わせて新しい理解を作り出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Good essays show synthesis of multiple sources.",
+            "translation": {
+              "Hindi": "अच्छे निबंध कई स्रोतों का संश्लेषण दिखाते हैं।",
+              "Japanese": "良いエッセイは複数の資料の統合を示します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evaluation",
+        "word_translation": {
+          "Hindi": "मूल्यांकन",
+          "Japanese": "評価"
+        },
+        "meaning": "Judging the value, quality, or significance of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का मूल्य, गुणवत्ता या महत्व का आकलन करना",
+          "Japanese": "物事の価値、質、重要性を判断すること"
+        },
+        "examples": [
+          {
+            "sentence": "Critical evaluation is key to strong academic writing.",
+            "translation": {
+              "Hindi": "आलोचनात्मक मूल्यांकन मजबूत शैक्षणिक लेखन की कुंजी है।",
+              "Japanese": "批判的評価は強力な学術的文章の鍵です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "thesis statement",
+        "word_translation": {
+          "Hindi": "थीसिस कथन",
+          "Japanese": "主張 / テーシスステートメント"
+        },
+        "meaning": "A sentence that states the main argument or point of an essay",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य जो निबंध का मुख्य तर्क या बिंदु बताता है",
+          "Japanese": "エッセイの主要な主張や論点を述べる文"
+        },
+        "examples": [
+          {
+            "sentence": "A strong thesis statement guides the entire essay.",
+            "translation": {
+              "Hindi": "एक मजबूत थीसिस कथन पूरे निबंध का मार्गदर्शन करता है।",
+              "Japanese": "強い主張文はエッセイ全体を導きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critical thinking",
+        "word_translation": {
+          "Hindi": "आलोचनात्मक सोच",
+          "Japanese": "批判的思考"
+        },
+        "meaning": "Carefully analyzing and questioning ideas instead of accepting them blindly",
+        "meaning_translation": {
+          "Hindi": "विचारों को अंधाधुंध स्वीकारने के बजाय सावधानी से विश्लेषण और प्रश्न करना",
+          "Japanese": "アイデアを盲目的に受け入れるのではなく注意深く分析・質問すること"
+        },
+        "examples": [
+          {
+            "sentence": "Critical thinking helps you evaluate evidence effectively.",
+            "translation": {
+              "Hindi": "आलोचनात्मक सोच आपको साक्ष्य का प्रभावी मूल्यांकन करने में मदद करती है।",
+              "Japanese": "批判的思考は証拠を効果的に評価するのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "compare and contrast",
+        "word_translation": {
+          "Hindi": "तुलना और विरोधाभास",
+          "Japanese": "比較と対比"
+        },
+        "meaning": "Examining similarities and differences between ideas or things",
+        "meaning_translation": {
+          "Hindi": "विचारों या चीजों के बीच समानताओं और भिन्नताओं की जाँच करना",
+          "Japanese": "アイデアや物事の類似点と相違点を調べること"
+        },
+        "examples": [
+          {
+            "sentence": "Many exam tasks ask you to compare and contrast theories.",
+            "translation": {
+              "Hindi": "कई परीक्षा कार्य आपसे सिद्धांतों की तुलना और विरोधाभास करने के लिए कहते हैं।",
+              "Japanese": "多くの試験課題では理論を比較・対比することが求められます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evidence-based argument",
+        "word_translation": {
+          "Hindi": "साक्ष्य-आधारित तर्क",
+          "Japanese": "証拠に基づく主張"
+        },
+        "meaning": "An argument supported by reliable data or examples",
+        "meaning_translation": {
+          "Hindi": "एक ऐसा तर्क जो विश्वसनीय डेटा या उदाहरणों से समर्थित हो",
+          "Japanese": "信頼できるデータや例に基づいて支えられた議論"
+        },
+        "examples": [
+          {
+            "sentence": "Examiners look for evidence-based arguments in essays.",
+            "translation": {
+              "Hindi": "परीक्षक निबंधों में साक्ष्य-आधारित तर्क ढूँढते हैं।",
+              "Japanese": "試験官はエッセイの中に証拠に基づく議論を探します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "synthesize",
+        "word_translation": {
+          "Hindi": "संश्लेषित करना",
+          "Japanese": "統合する / シンセサイズする"
+        },
+        "meaning": "To combine information from different sources to make a new idea",
+        "meaning_translation": {
+          "Hindi": "विभिन्न स्रोतों से जानकारी को जोड़कर नया विचार बनाना",
+          "Japanese": "さまざまな情報源を統合して新しいアイデアを作ること"
+        },
+        "examples": [
+          {
+            "sentence": "Good answers synthesize readings and lectures.",
+            "translation": {
+              "Hindi": "अच्छे उत्तर पठन सामग्री और व्याख्यान को संश्लेषित करते हैं।",
+              "Japanese": "良い回答は読書と講義を統合します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rubric",
+        "word_translation": {
+          "Hindi": "मूल्यांकन मानदंड",
+          "Japanese": "採点基準"
+        },
+        "meaning": "A guide that explains how an exam or assignment will be graded",
+        "meaning_translation": {
+          "Hindi": "एक मार्गदर्शक जो बताता है कि परीक्षा या असाइनमेंट को कैसे ग्रेड किया जाएगा",
+          "Japanese": "試験や課題がどのように採点されるかを説明するガイド"
+        },
+        "examples": [
+          {
+            "sentence": "Check the rubric to know what the examiner expects.",
+            "translation": {
+              "Hindi": "परीक्षक क्या अपेक्षा करता है यह जानने के लिए मूल्यांकन मानदंड देखें।",
+              "Japanese": "採点基準を確認して試験官の期待を知りましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critical review",
+        "word_translation": {
+          "Hindi": "आलोचनात्मक समीक्षा",
+          "Japanese": "批判的レビュー"
+        },
+        "meaning": "An evaluation of a text or work with reasoned judgment",
+        "meaning_translation": {
+          "Hindi": "किसी पाठ या कार्य का तर्कसंगत मूल्यांकन",
+          "Japanese": "文章や作品を理由付けをして評価すること"
+        },
+        "examples": [
+          {
+            "sentence": "A critical review balances strengths and weaknesses.",
+            "translation": {
+              "Hindi": "एक आलोचनात्मक समीक्षा ताकत और कमजोरियों के बीच संतुलन बनाती है।",
+              "Japanese": "批判的レビューは長所と短所のバランスを取ります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "higher-order thinking",
+        "word_translation": {
+          "Hindi": "उच्च-स्तरीय सोच",
+          "Japanese": "高次思考"
+        },
+        "meaning": "Skills such as analyzing, evaluating, and creating beyond memorization",
+        "meaning_translation": {
+          "Hindi": "विश्लेषण, मूल्यांकन और रचनात्मकता जैसी कौशल जो रटने से परे हैं",
+          "Japanese": "暗記を超えて分析・評価・創造するスキル"
+        },
+        "examples": [
+          {
+            "sentence": "Synthesis and evaluation require higher-order thinking.",
+            "translation": {
+              "Hindi": "संश्लेषण और मूल्यांकन के लिए उच्च-स्तरीय सोच की आवश्यकता होती है।",
+              "Japanese": "統合と評価には高次思考が必要です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Use Complex Sentences for Synthesis",
+        "explanation": "Combine related ideas using clauses (e.g., although, while) to show relationships.",
+        "explanation_translation": {
+          "Hindi": "संबंधित विचारों को जोड़ने के लिए उपवाक्यों (जैसे although, while) का उपयोग करें।",
+          "Japanese": "関連するアイデアを結ぶために従属節（although、whileなど）を使用します。"
+        }
+      },
+      {
+        "title": "Evaluate with Hedging",
+        "explanation": "Use hedging phrases like ‘may suggest’ or ‘appears to’ to give balanced evaluations.",
+        "explanation_translation": {
+          "Hindi": "'may suggest' या 'appears to' जैसे वाक्यांशों का प्रयोग संतुलित मूल्यांकन के लिए करें।",
+          "Japanese": "「may suggest」「appears to」などの表現を使ってバランスの取れた評価をします。"
+        }
+      },
+      {
+        "title": "Use Active Verbs for Arguments",
+        "explanation": "Use verbs like ‘argue’, ‘demonstrate’, ‘contend’ instead of weak forms like ‘is about’.",
+        "explanation_translation": {
+          "Hindi": "'argue', 'demonstrate', 'contend' जैसे क्रियाओं का प्रयोग करें, 'is about' जैसी कमजोर संरचनाओं से बचें।",
+          "Japanese": "「argue」「demonstrate」「contend」などの動詞を使い、「is about」のような弱い表現を避けます。"
+        }
+      },
+      {
+        "title": "Signal Contrast and Agreement",
+        "explanation": "Use linking phrases (however, in contrast, similarly) to compare and evaluate ideas.",
+        "explanation_translation": {
+          "Hindi": "विचारों की तुलना और मूल्यांकन करने के लिए 'however', 'in contrast', 'similarly' जैसे जोड़ने वाले वाक्यांशों का प्रयोग करें।",
+          "Japanese": "アイデアを比較・評価するために「however」「in contrast」「similarly」などを使いましょう。"
+        }
+      },
+      {
+        "title": "Support with Evidence",
+        "explanation": "Always back evaluation with facts, data, or citations to show credibility.",
+        "explanation_translation": {
+          "Hindi": "विश्वसनीयता दिखाने के लिए मूल्यांकन को हमेशा तथ्यों, डेटा या उद्धरणों से समर्थन करें।",
+          "Japanese": "評価は常に事実・データ・引用で裏付けて信頼性を示しましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which term means combining ideas from different sources to form a new understanding?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द विभिन्न स्रोतों से विचारों को मिलाकर नई समझ बनाने का अर्थ देता है?",
+          "Japanese": "異なる情報源からアイデアを統合して新しい理解を作ることを意味する用語はどれですか？"
+        },
+        "options": [
+          "Synthesis",
+          "Evaluation",
+          "Nominalization"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Evaluation means judging the value or quality of something.",
+        "question_translation": {
+          "Hindi": "मूल्यांकन का अर्थ है किसी चीज़ के मूल्य या गुणवत्ता का आकलन करना।",
+          "Japanese": "評価とは、物事の価値や質を判断することを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "A strong ______ statement guides the entire essay.",
+        "question_translation": {
+          "Hindi": "एक मजबूत ______ कथन पूरे निबंध का मार्गदर्शन करता है।",
+          "Japanese": "強い______文がエッセイ全体を導きます。"
+        },
+        "options": [
+          "thesis",
+          "rubric",
+          "review"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which skill involves analyzing, evaluating, and creating beyond memorization?",
+        "question_translation": {
+          "Hindi": "कौन सी कौशल रटने से परे विश्लेषण, मूल्यांकन और रचनात्मकता को शामिल करती है?",
+          "Japanese": "暗記を超えて分析・評価・創造を行うスキルはどれですか？"
+        },
+        "options": [
+          "Higher-order thinking",
+          "Nominalization",
+          "Redundancy"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "An evidence-based argument is supported by reliable data or examples.",
+        "question_translation": {
+          "Hindi": "साक्ष्य-आधारित तर्क विश्वसनीय डेटा या उदाहरणों से समर्थित होता है।",
+          "Japanese": "証拠に基づく議論は信頼できるデータや例に支えられています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [requires, higher-order, synthesis, and, evaluation, thinking]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [requires, higher-order, synthesis, and, evaluation, thinking]",
+          "Japanese": "並べ替え: [requires, higher-order, synthesis, and, evaluation, thinking]"
+        },
+        "options": [
+          "requires",
+          "higher-order",
+          "synthesis",
+          "and",
+          "evaluation",
+          "thinking"
+        ],
+        "answer": [
+          "synthesis",
+          "and",
+          "evaluation",
+          "require",
+          "higher-order",
+          "thinking"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Students should always support their evaluation with ______.",
+        "question_translation": {
+          "Hindi": "छात्रों को हमेशा अपने मूल्यांकन का समर्थन ______ से करना चाहिए।",
+          "Japanese": "学生は常に自分の評価を______で裏付けるべきです。"
+        },
+        "options": [
+          "evidence",
+          "nominalization",
+          "redundancy"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows hedging for balanced evaluation?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य संतुलित मूल्यांकन के लिए हेजिंग दिखाता है?",
+          "Japanese": "どの文がバランスの取れた評価のための曖昧表現（ヘッジング）を示していますか？"
+        },
+        "options": [
+          "The results may suggest a link between the variables.",
+          "The results prove the link beyond doubt.",
+          "The link is obvious and unquestionable."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [should, clear, statement, thesis, be, your]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [should, clear, statement, thesis, be, your]",
+          "Japanese": "並べ替え: [should, clear, statement, thesis, be, your]"
+        },
+        "options": [
+          "should",
+          "clear",
+          "statement",
+          "thesis",
+          "be",
+          "your"
+        ],
+        "answer": [
+          "your",
+          "thesis",
+          "statement",
+          "should",
+          "be",
+          "clear"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Exam tasks often ask you to compare and ______ theories.",
+        "question_translation": {
+          "Hindi": "परीक्षा कार्य अक्सर आपसे सिद्धांतों की तुलना और ______ करने के लिए कहते हैं।",
+          "Japanese": "試験課題では理論を比較し______するよう求められることが多いです。"
+        },
+        "options": [
+          "contrast",
+          "evaluate",
+          "nominalize"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the speaker advising? Audio: 'Always check the rubric to understand what is expected.'",
+        "audio_text": "Always check the rubric to understand what is expected.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या सलाह दे रहा है?",
+          "Japanese": "話者は何をアドバイスしていますか？"
+        },
+        "options": [
+          "Understand grading criteria",
+          "Use more nominalizations",
+          "Memorize without thinking"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Synthesis involves combining ideas from multiple sources.",
+        "audio_text": "Good exam answers synthesize information from lectures and readings.",
+        "question_translation": {
+          "Hindi": "संश्लेषण में कई स्रोतों से विचारों को जोड़ना शामिल है।",
+          "Japanese": "統合は複数の情報源からアイデアを組み合わせることを含みます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Which skill is described? Audio: 'Evaluation means carefully judging the value of an idea.'",
+        "audio_text": "Evaluation means carefully judging the value of an idea.",
+        "question_translation": {
+          "Hindi": "कौन सा कौशल वर्णित है?",
+          "Japanese": "どのスキルが説明されていますか？"
+        },
+        "options": [
+          "Evaluation",
+          "Synthesis",
+          "Memorization"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What must you do according to the speaker? Audio: 'Support your arguments with credible evidence.'",
+        "audio_text": "Support your arguments with credible evidence.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार आपको क्या करना चाहिए?",
+          "Japanese": "話者によると何をしなければなりませんか？"
+        },
+        "options": [
+          "Provide reliable support for your claims",
+          "Memorize definitions",
+          "Avoid using any sources"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Critical thinking is not needed for synthesis tasks.",
+        "audio_text": "Synthesis tasks require critical thinking to connect ideas effectively.",
+        "question_translation": {
+          "Hindi": "संश्लेषण कार्यों के लिए आलोचनात्मक सोच की आवश्यकता नहीं होती है।",
+          "Japanese": "統合課題には批判的思考は必要ない。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Good synthesis combines ideas from multiple sources.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Good synthesis combines ideas from multiple sources.'",
+          "Japanese": "言ってください: 'Good synthesis combines ideas from multiple sources.'"
+        },
+        "options": [],
+        "answer": "good synthesis combines ideas from multiple sources"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Evaluation requires critical thinking and evidence.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Evaluation requires critical thinking and evidence.'",
+          "Japanese": "言ってください: 'Evaluation requires critical thinking and evidence.'"
+        },
+        "options": [],
+        "answer": "evaluation requires critical thinking and evidence"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Check the rubric to understand expectations.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Check the rubric to understand expectations.'",
+          "Japanese": "言ってください: 'Check the rubric to understand expectations.'"
+        },
+        "options": [],
+        "answer": "check the rubric to understand expectations"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Support your arguments with credible evidence.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Support your arguments with credible evidence.'",
+          "Japanese": "言ってください: 'Support your arguments with credible evidence.'"
+        },
+        "options": [],
+        "answer": "support your arguments with credible evidence"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Compare and contrast ideas before evaluating them.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Compare and contrast ideas before evaluating them.'",
+          "Japanese": "言ってください: 'Compare and contrast ideas before evaluating them.'"
+        },
+        "options": [],
+        "answer": "compare and contrast ideas before evaluating them"
+      }
+    ]
+  }
 }

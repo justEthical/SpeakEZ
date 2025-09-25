@@ -1,4 +1,557 @@
 {
-  "id": 17,
-  "message": "This is file number 17"
+  "id": "lesson_ellipsis_parallelism_c1",
+  "lesson_name": "Ellipsis & Parallelism in Writing",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "ellipsis",
+        "word_translation": {
+          "Hindi": "लोप",
+          "Japanese": "省略"
+        },
+        "meaning": "The omission of words that are understood from the context",
+        "meaning_translation": {
+          "Hindi": "ऐसे शब्दों का लोप जो संदर्भ से समझे जा सकते हैं",
+          "Japanese": "文脈から理解できる語を省くこと"
+        },
+        "examples": [
+          {
+            "sentence": "She likes coffee; he [likes] tea.",
+            "translation": {
+              "Hindi": "उसे कॉफी पसंद है; उसे [पसंद है] चाय।",
+              "Japanese": "彼女はコーヒーが好きだ。彼は[好きなのは]お茶。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parallelism",
+        "word_translation": {
+          "Hindi": "समानांतर संरचना",
+          "Japanese": "並列構造"
+        },
+        "meaning": "Using similar grammatical structures to create rhythm and balance",
+        "meaning_translation": {
+          "Hindi": "लय और संतुलन बनाने के लिए समान व्याकरणिक संरचनाओं का प्रयोग",
+          "Japanese": "リズムとバランスを生み出すために類似した文法構造を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "She likes reading, writing, and painting.",
+            "translation": {
+              "Hindi": "उसे पढ़ना, लिखना और पेंटिंग करना पसंद है।",
+              "Japanese": "彼女は読むこと、書くこと、絵を描くことが好きだ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "syntactic balance",
+        "word_translation": {
+          "Hindi": "वाक्यविन्यास संतुलन",
+          "Japanese": "統語的バランス"
+        },
+        "meaning": "Maintaining structural symmetry within a sentence",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य के भीतर संरचनात्मक समरूपता बनाए रखना",
+          "Japanese": "文の中で構造的な対称性を保つこと"
+        },
+        "examples": [
+          {
+            "sentence": "To succeed is to persevere.",
+            "translation": {
+              "Hindi": "सफल होना धैर्य रखने के समान है।",
+              "Japanese": "成功することは忍耐することだ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cohesion",
+        "word_translation": {
+          "Hindi": "सामंजस्य",
+          "Japanese": "結束性"
+        },
+        "meaning": "The way words and sentences link together smoothly",
+        "meaning_translation": {
+          "Hindi": "शब्दों और वाक्यों के सहज रूप से जुड़ने का तरीका",
+          "Japanese": "単語や文が滑らかにつながる方法"
+        },
+        "examples": [
+          {
+            "sentence": "Parallelism contributes to cohesion in writing.",
+            "translation": {
+              "Hindi": "समानांतर संरचना लेखन में सामंजस्य लाती है।",
+              "Japanese": "並列構造は文章の結束性に貢献する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rhetorical effect",
+        "word_translation": {
+          "Hindi": "आलंकारिक प्रभाव",
+          "Japanese": "修辞効果"
+        },
+        "meaning": "The stylistic impact created by specific choices like ellipsis or parallelism",
+        "meaning_translation": {
+          "Hindi": "विशिष्ट विकल्पों जैसे लोप या समानांतर संरचना द्वारा उत्पन्न शैलीगत प्रभाव",
+          "Japanese": "省略や並列構造などの特定の選択によって生じる文体的効果"
+        },
+        "examples": [
+          {
+            "sentence": "The speech used parallelism for rhetorical effect.",
+            "translation": {
+              "Hindi": "भाषण ने आलंकारिक प्रभाव के लिए समानांतर संरचना का उपयोग किया।",
+              "Japanese": "その演説は修辞効果のために並列構造を用いた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "asyndeton",
+        "word_translation": {
+          "Hindi": "समुच्चयबोधक लोप",
+          "Japanese": "接続詞省略"
+        },
+        "meaning": "Omitting conjunctions between parts of a sentence",
+        "meaning_translation": {
+          "Hindi": "वाक्य के भागों के बीच संयोजकों को छोड़ना",
+          "Japanese": "文の部分の間で接続詞を省くこと"
+        },
+        "examples": [
+          {
+            "sentence": "I came, I saw, I conquered.",
+            "translation": {
+              "Hindi": "मैं आया, मैंने देखा, मैंने जीत लिया।",
+              "Japanese": "来た、見た、征服した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "polysyndeton",
+        "word_translation": {
+          "Hindi": "अधिक संयोजक प्रयोग",
+          "Japanese": "多接続法"
+        },
+        "meaning": "Using more conjunctions than necessary for emphasis",
+        "meaning_translation": {
+          "Hindi": "ज़ोर देने के लिए आवश्यकता से अधिक संयोजकों का प्रयोग",
+          "Japanese": "強調のために必要以上の接続詞を用いること"
+        },
+        "examples": [
+          {
+            "sentence": "He laughed and cried and danced and sang.",
+            "translation": {
+              "Hindi": "वह हंसा और रोया और नाचा और गाया।",
+              "Japanese": "彼は笑い、泣き、踊り、歌った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "structural repetition",
+        "word_translation": {
+          "Hindi": "संरचनात्मक पुनरावृत्ति",
+          "Japanese": "構造的反復"
+        },
+        "meaning": "Repetition of grammatical forms for emphasis and clarity",
+        "meaning_translation": {
+          "Hindi": "ज़ोर और स्पष्टता के लिए व्याकरणिक रूपों की पुनरावृत्ति",
+          "Japanese": "強調と明確さのために文法形式を繰り返すこと"
+        },
+        "examples": [
+          {
+            "sentence": "The more we share, the more we grow.",
+            "translation": {
+              "Hindi": "जितना अधिक हम साझा करते हैं, उतना अधिक हम बढ़ते हैं।",
+              "Japanese": "私たちが共有すればするほど、成長する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "omission",
+        "word_translation": {
+          "Hindi": "छोड़ना",
+          "Japanese": "省略"
+        },
+        "meaning": "Leaving out a word or phrase while keeping the meaning clear",
+        "meaning_translation": {
+          "Hindi": "किसी शब्द या वाक्यांश को छोड़ना जबकि अर्थ स्पष्ट रहता है",
+          "Japanese": "意味を明確に保ちながら語や句を省くこと"
+        },
+        "examples": [
+          {
+            "sentence": "She can play the violin; her brother [can play] the piano.",
+            "translation": {
+              "Hindi": "वह वायलिन बजा सकती है; उसका भाई [बजा सकता है] पियानो।",
+              "Japanese": "彼女はバイオリンを弾ける。彼の兄は[弾けるのは]ピアノ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stylistic device",
+        "word_translation": {
+          "Hindi": "शैलीगत उपकरण",
+          "Japanese": "文体的手法"
+        },
+        "meaning": "A technique used to improve the style and impact of writing",
+        "meaning_translation": {
+          "Hindi": "लेखन की शैली और प्रभाव को बेहतर बनाने के लिए प्रयुक्त तकनीक",
+          "Japanese": "文章のスタイルと影響を高めるための技法"
+        },
+        "examples": [
+          {
+            "sentence": "Ellipsis and parallelism are stylistic devices in academic writing.",
+            "translation": {
+              "Hindi": "लोप और समानांतर संरचना शैक्षणिक लेखन में शैलीगत उपकरण हैं।",
+              "Japanese": "省略と並列構造は学術的文章における文体的手法である。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Ellipsis",
+        "explanation": "Ellipsis helps avoid repetition and creates conciseness, but the meaning must remain clear from the context.",
+        "explanation_translation": {
+          "Hindi": "लोप दोहराव से बचाता है और संक्षिप्तता पैदा करता है, लेकिन अर्थ संदर्भ से स्पष्ट रहना चाहिए।",
+          "Japanese": "省略は繰り返しを避け、簡潔さを生みますが、意味は文脈から明確でなければなりません。"
+        }
+      },
+      {
+        "title": "Achieving Parallelism",
+        "explanation": "Parallelism improves clarity and flow by using consistent grammatical patterns in lists and comparisons.",
+        "explanation_translation": {
+          "Hindi": "समानांतर संरचना सूचियों और तुलना में समान व्याकरणिक पैटर्न का उपयोग करके स्पष्टता और प्रवाह में सुधार करती है।",
+          "Japanese": "並列構造は、リストや比較において一貫した文法パターンを使うことで明確さと流れを改善します。"
+        }
+      },
+      {
+        "title": "Combining Ellipsis and Parallelism",
+        "explanation": "Ellipsis and parallelism often work together: ellipsis reduces repetition while parallelism maintains balance.",
+        "explanation_translation": {
+          "Hindi": "लोप और समानांतर संरचना अक्सर साथ काम करते हैं: लोप दोहराव घटाता है जबकि समानांतर संरचना संतुलन बनाए रखती है।",
+          "Japanese": "省略と並列構造はしばしば一緒に機能します。省略は繰り返しを減らし、並列構造はバランスを保ちます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which device refers to the omission of words understood from context?",
+      "question_translation": {
+        "Hindi": "कौन सा उपकरण उन शब्दों के लोप को संदर्भित करता है जो संदर्भ से समझे जाते हैं?",
+        "Japanese": "文脈から理解できる語を省略する手法はどれですか？"
+      },
+      "options": [
+        "ellipsis",
+        "parallelism",
+        "cohesion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "She enjoys reading, writing, and ___.",
+      "question_translation": {
+        "Hindi": "उसे पढ़ना, लिखना और ___ पसंद है।",
+        "Japanese": "彼女は読むこと、書くこと、そして___が好きだ。"
+      },
+      "options": [
+        "swim",
+        "painting",
+        "beautiful"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Parallelism creates balance and rhythm in writing.",
+      "question_translation": {
+        "Hindi": "समानांतर संरचना लेखन में संतुलन और लय पैदा करती है।",
+        "Japanese": "並列構造は文章にバランスとリズムを生み出す。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term describes using too many conjunctions for emphasis?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द जोर देने के लिए बहुत अधिक संयोजक प्रयोग करने को वर्णित करता है?",
+        "Japanese": "強調のために接続詞を過剰に使うことを表す用語はどれですか？"
+      },
+      "options": [
+        "asyndeton",
+        "polysyndeton",
+        "ellipsis"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "I came, I saw, I ___.",
+      "question_translation": {
+        "Hindi": "मैं आया, मैंने देखा, मैंने ___.",
+        "Japanese": "来た、見た、___。"
+      },
+      "options": [
+        "conquered",
+        "danced",
+        "slept"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [reading, painting, enjoys, and, she, writing]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [reading, painting, enjoys, and, she, writing]",
+        "Japanese": "並べ替え: [reading, painting, enjoys, and, she, writing]"
+      },
+      "options": [
+        "reading",
+        "painting",
+        "enjoys",
+        "and",
+        "she",
+        "writing"
+      ],
+      "answer": [
+        "she",
+        "enjoys",
+        "reading",
+        "writing",
+        "and",
+        "painting"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "She likes coffee; he ___ tea.",
+      "question_translation": {
+        "Hindi": "उसे कॉफी पसंद है; उसे ___ चाय।",
+        "Japanese": "彼女はコーヒーが好きだ。彼は___お茶。"
+      },
+      "options": [
+        "likes",
+        "enjoy",
+        "beautiful"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence demonstrates parallelism?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य समानांतर संरचना को प्रदर्शित करता है?",
+        "Japanese": "どの文が並列構造を示していますか？"
+      },
+      "options": [
+        "She likes running, to swim, and reading.",
+        "She likes running, swimming, and reading.",
+        "She likes to run, swimming, and read."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [persevere, to, succeed, is, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [persevere, to, succeed, is, to]",
+        "Japanese": "並べ替え: [persevere, to, succeed, is, to]"
+      },
+      "options": [
+        "persevere",
+        "to",
+        "succeed",
+        "is",
+        "to"
+      ],
+      "answer": [
+        "to",
+        "succeed",
+        "is",
+        "to",
+        "persevere"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "She can play the violin; her brother ___ the piano.",
+      "question_translation": {
+        "Hindi": "वह वायलिन बजा सकती है; उसका भाई ___ पियानो।",
+        "Japanese": "彼女はバイオリンを弾ける。彼の兄は___ピアノ。"
+      },
+      "options": [
+        "can play",
+        "plays",
+        "is"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which device is demonstrated?",
+      "audio_text": "She can play the guitar, and her sister can too.",
+      "question_translation": {
+        "Hindi": "कौन सा उपकरण प्रदर्शित किया गया है?",
+        "Japanese": "どの手法が示されていますか？"
+      },
+      "options": [
+        "ellipsis",
+        "parallelism",
+        "polysyndeton"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The sentence 'He laughed and cried and danced' shows polysyndeton.",
+      "audio_text": "He laughed and cried and danced and sang.",
+      "question_translation": {
+        "Hindi": "वाक्य 'He laughed and cried and danced' polysyndeton दिखाता है।",
+        "Japanese": "「He laughed and cried and danced」は多接続法を示している。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which structure shows balance?",
+      "audio_text": "The more we share, the more we grow.",
+      "question_translation": {
+        "Hindi": "कौन सी संरचना संतुलन दिखाती है?",
+        "Japanese": "どの構造がバランスを示していますか？"
+      },
+      "options": [
+        "ellipsis",
+        "parallelism",
+        "asyndeton"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "Ellipsis helps create conciseness in writing.",
+      "audio_text": "She likes coffee, and he [likes] tea.",
+      "question_translation": {
+        "Hindi": "लोप लेखन में संक्षिप्तता बनाने में मदद करता है।",
+        "Japanese": "省略は文章の簡潔さを生み出すのに役立つ。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which stylistic device is used here?",
+      "audio_text": "I came, I saw, I conquered.",
+      "question_translation": {
+        "Hindi": "यहाँ कौन सा शैलीगत उपकरण उपयोग हुआ है?",
+        "Japanese": "ここで使われている文体的手法はどれですか？"
+      },
+      "options": [
+        "asyndeton",
+        "parallelism",
+        "ellipsis"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'She likes reading, writing, and painting.'",
+      "question_translation": {
+        "Hindi": "कहें: 'उसे पढ़ना, लिखना और पेंटिंग करना पसंद है।'",
+        "Japanese": "言ってください: '彼女は読むこと、書くこと、絵を描くことが好きだ。'"
+      },
+      "options": [],
+      "answer": "she likes reading writing and painting"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'She likes coffee; he likes tea.'",
+      "question_translation": {
+        "Hindi": "कहें: 'उसे कॉफी पसंद है; उसे चाय पसंद है।'",
+        "Japanese": "言ってください: '彼女はコーヒーが好きだ。彼はお茶が好きだ。'"
+      },
+      "options": [],
+      "answer": "she likes coffee he likes tea"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'He laughed and cried and danced and sang.'",
+      "question_translation": {
+        "Hindi": "कहें: 'वह हंसा और रोया और नाचा और गाया।'",
+        "Japanese": "言ってください: '彼は笑い泣き踊り歌った。'"
+      },
+      "options": [],
+      "answer": "he laughed and cried and danced and sang"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The more we share, the more we grow.'",
+      "question_translation": {
+        "Hindi": "कहें: 'जितना अधिक हम साझा करते हैं, उतना अधिक हम बढ़ते हैं।'",
+        "Japanese": "言ってください: '私たちが共有すればするほど、成長する。'"
+      },
+      "options": [],
+      "answer": "the more we share the more we grow"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I came, I saw, I conquered.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मैं आया, मैंने देखा, मैंने जीत लिया।'",
+        "Japanese": "言ってください: '来た、見た、征服した。'"
+      },
+      "options": [],
+      "answer": "i came i saw i conquered"
+    }
+  ]
+}
+
 }

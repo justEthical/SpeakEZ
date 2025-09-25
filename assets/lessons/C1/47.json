@@ -1,4 +1,570 @@
 {
-  "id": 47,
-  "message": "This is file number 47"
+  "id": "lesson_preposition_patterns_academic_english_c1",
+  "lesson_name": "Preposition Patterns in Academic English",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "prepositional phrase",
+        "word_translation": {
+          "Hindi": "पूर्वसर्गीय वाक्यांश",
+          "Japanese": "前置詞句"
+        },
+        "meaning": "A group of words starting with a preposition and usually ending with a noun or pronoun",
+        "meaning_translation": {
+          "Hindi": "शब्दों का समूह जो एक पूर्वसर्ग से शुरू होकर आमतौर पर संज्ञा या सर्वनाम पर समाप्त होता है",
+          "Japanese": "前置詞で始まり、通常は名詞または代名詞で終わる語句"
+        },
+        "examples": [
+          {
+            "sentence": "In conclusion, the results support the hypothesis.",
+            "translation": {
+              "Hindi": "निष्कर्ष में, परिणाम परिकल्पना का समर्थन करते हैं।",
+              "Japanese": "結論として、結果は仮説を支持しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "collocation",
+        "word_translation": {
+          "Hindi": "सहप्रयोग",
+          "Japanese": "コロケーション"
+        },
+        "meaning": "Words that naturally go together, such as certain verbs and prepositions",
+        "meaning_translation": {
+          "Hindi": "ऐसे शब्द जो स्वाभाविक रूप से एक साथ उपयोग होते हैं, जैसे कुछ क्रियाएँ और पूर्वसर्ग",
+          "Japanese": "特定の動詞や前置詞など、自然に一緒に使われる語の組み合わせ"
+        },
+        "examples": [
+          {
+            "sentence": "This paper focuses on climate change.",
+            "translation": {
+              "Hindi": "यह पेपर जलवायु परिवर्तन पर केंद्रित है।",
+              "Japanese": "この論文は気候変動に焦点を当てています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dependent preposition",
+        "word_translation": {
+          "Hindi": "निर्भर पूर्वसर्ग",
+          "Japanese": "従属前置詞"
+        },
+        "meaning": "A preposition that is required by a particular verb, adjective, or noun",
+        "meaning_translation": {
+          "Hindi": "एक ऐसा पूर्वसर्ग जिसकी आवश्यकता किसी विशेष क्रिया, विशेषण या संज्ञा द्वारा होती है",
+          "Japanese": "特定の動詞・形容詞・名詞が必要とする前置詞"
+        },
+        "examples": [
+          {
+            "sentence": "We are interested in data analysis.",
+            "translation": {
+              "Hindi": "हम डेटा विश्लेषण में रुचि रखते हैं।",
+              "Japanese": "私たちはデータ分析に興味があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "account for",
+        "word_translation": {
+          "Hindi": "स्पष्टीकरण देना / कारण बताना",
+          "Japanese": "説明する・理由を述べる"
+        },
+        "meaning": "To explain the reason for something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के कारण को स्पष्ट करना",
+          "Japanese": "何かの理由を説明すること"
+        },
+        "examples": [
+          {
+            "sentence": "These results account for the unexpected findings.",
+            "translation": {
+              "Hindi": "ये परिणाम अप्रत्याशित निष्कर्षों के लिए कारण बताते हैं।",
+              "Japanese": "これらの結果は予期しない発見を説明しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contribute to",
+        "word_translation": {
+          "Hindi": "योगदान देना",
+          "Japanese": "貢献する"
+        },
+        "meaning": "To help cause or bring about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ में मदद करना या उसका कारण बनना",
+          "Japanese": "何かを引き起こすことに貢献する"
+        },
+        "examples": [
+          {
+            "sentence": "Innovation contributes to economic growth.",
+            "translation": {
+              "Hindi": "नवाचार आर्थिक विकास में योगदान देता है।",
+              "Japanese": "イノベーションは経済成長に貢献します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rely on",
+        "word_translation": {
+          "Hindi": "निर्भर होना",
+          "Japanese": "頼る"
+        },
+        "meaning": "To depend on someone or something",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति या चीज़ पर निर्भर होना",
+          "Japanese": "誰かや何かに依存すること"
+        },
+        "examples": [
+          {
+            "sentence": "The study relies on previously published data.",
+            "translation": {
+              "Hindi": "अध्ययन पहले से प्रकाशित डेटा पर निर्भर करता है।",
+              "Japanese": "この研究は以前に発表されたデータに依存しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "base on",
+        "word_translation": {
+          "Hindi": "आधारित होना",
+          "Japanese": "〜に基づく"
+        },
+        "meaning": "To use something as a foundation or starting point",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को आधार या शुरुआती बिंदु के रूप में उपयोग करना",
+          "Japanese": "何かを基盤や出発点として使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "This conclusion is based on the survey results.",
+            "translation": {
+              "Hindi": "यह निष्कर्ष सर्वेक्षण के परिणामों पर आधारित है।",
+              "Japanese": "この結論は調査結果に基づいています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "consistent with",
+        "word_translation": {
+          "Hindi": "संगत होना",
+          "Japanese": "一致している"
+        },
+        "meaning": "In agreement with or matching something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ से सहमत या मेल खाना",
+          "Japanese": "何かと一致していること"
+        },
+        "examples": [
+          {
+            "sentence": "The results are consistent with previous research.",
+            "translation": {
+              "Hindi": "परिणाम पिछले शोध के अनुरूप हैं।",
+              "Japanese": "結果は以前の研究と一致しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concerned with",
+        "word_translation": {
+          "Hindi": "संबंधित होना",
+          "Japanese": "関係している"
+        },
+        "meaning": "To be about or related to something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में होना या उससे संबंधित होना",
+          "Japanese": "何かに関係している、または何かについてのものであること"
+        },
+        "examples": [
+          {
+            "sentence": "This article is concerned with policy reforms.",
+            "translation": {
+              "Hindi": "यह लेख नीति सुधारों से संबंधित है।",
+              "Japanese": "この記事は政策改革に関係しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "engage in",
+        "word_translation": {
+          "Hindi": "शामिल होना / भाग लेना",
+          "Japanese": "従事する・参加する"
+        },
+        "meaning": "To take part in an activity",
+        "meaning_translation": {
+          "Hindi": "किसी गतिविधि में भाग लेना",
+          "Japanese": "ある活動に参加すること"
+        },
+        "examples": [
+          {
+            "sentence": "Researchers engage in interdisciplinary collaboration.",
+            "translation": {
+              "Hindi": "शोधकर्ता अंतःविषय सहयोग में शामिल होते हैं।",
+              "Japanese": "研究者は学際的な協力に従事しています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Verb + Preposition Collocations",
+        "explanation": "Certain academic verbs require fixed prepositions (e.g., rely on, base on, account for). Learn them as chunks.",
+        "explanation_translation": {
+          "Hindi": "कुछ अकादमिक क्रियाओं के लिए निश्चित पूर्वसर्ग आवश्यक होते हैं (जैसे, rely on, base on, account for)। इन्हें वाक्यांश के रूप में सीखें।",
+          "Japanese": "学術動詞には固定の前置詞が必要なものがあります（例: rely on, base on, account for）。チャンクとして覚えましょう。"
+        }
+      },
+      {
+        "title": "Noun + Preposition Patterns",
+        "explanation": "Academic nouns often take certain prepositions (e.g., a contribution to, a basis for).",
+        "explanation_translation": {
+          "Hindi": "अकादमिक संज्ञाएँ अक्सर विशेष पूर्वसर्ग लेती हैं (जैसे, a contribution to, a basis for)।",
+          "Japanese": "学術名詞は特定の前置詞と一緒に使われることが多いです（例: a contribution to, a basis for）。"
+        }
+      },
+      {
+        "title": "Preposition Choice Changes Meaning",
+        "explanation": "Changing the preposition can alter meaning (e.g., interested in ≠ interested for).",
+        "explanation_translation": {
+          "Hindi": "पूर्वसर्ग बदलने से अर्थ बदल सकता है (जैसे, interested in ≠ interested for)।",
+          "Japanese": "前置詞を変えると意味が変わることがあります（例: interested in ≠ interested for）。"
+        }
+      },
+      {
+        "title": "Consistency in Academic Register",
+        "explanation": "Use precise prepositions to maintain academic clarity and formality.",
+        "explanation_translation": {
+          "Hindi": "शैक्षणिक स्पष्टता और औपचारिकता बनाए रखने के लिए सटीक पूर्वसर्गों का प्रयोग करें।",
+          "Japanese": "学術的な明確さとフォーマルさを維持するために正確な前置詞を使いましょう。"
+        }
+      },
+      {
+        "title": "Avoid Overgeneralization",
+        "explanation": "Do not assume one preposition fits all contexts; check collocations in reliable academic sources.",
+        "explanation_translation": {
+          "Hindi": "यह न मानें कि एक ही पूर्वसर्ग सभी संदर्भों में काम करेगा; विश्वसनीय अकादमिक स्रोतों में सहप्रयोग जाँचें।",
+          "Japanese": "すべての文脈で同じ前置詞が使えると思わず、信頼できる学術資料でコロケーションを確認しましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase means 'to explain the reason for something'?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश 'किसी चीज़ के कारण को स्पष्ट करना' का अर्थ रखता है?",
+          "Japanese": "「何かの理由を説明する」という意味のフレーズはどれですか？"
+        },
+        "options": [
+          "account for",
+          "engage in",
+          "contribute to"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "‘Rely on’ means to depend on something or someone.",
+        "question_translation": {
+          "Hindi": "'Rely on' का मतलब है किसी पर निर्भर होना।",
+          "Japanese": "「rely on」は何かや誰かに依存することを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Innovation ______ to economic growth.",
+        "question_translation": {
+          "Hindi": "नवाचार आर्थिक विकास में ______।",
+          "Japanese": "イノベーションは経済成長に______。"
+        },
+        "options": [
+          "contributes",
+          "accounts",
+          "relies"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which is a dependent preposition pattern?",
+        "question_translation": {
+          "Hindi": "कौन सा एक निर्भर पूर्वसर्ग पैटर्न है?",
+          "Japanese": "どれが従属前置詞パターンですか？"
+        },
+        "options": [
+          "interested in",
+          "fast run",
+          "quickly analyze"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "‘Consistent with’ means matching or agreeing with something.",
+        "question_translation": {
+          "Hindi": "'Consistent with' का मतलब है किसी चीज़ के साथ मेल खाना या सहमत होना।",
+          "Japanese": "「consistent with」は何かと一致する、または同意することを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [based, results, survey, on, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [based, results, survey, on, the]",
+          "Japanese": "並べ替え: [based, results, survey, on, the]"
+        },
+        "options": [
+          "based",
+          "results",
+          "survey",
+          "on",
+          "the"
+        ],
+        "answer": [
+          "based",
+          "on",
+          "the",
+          "survey",
+          "results"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "This paper is ______ policy reforms.",
+        "question_translation": {
+          "Hindi": "यह पेपर नीति सुधारों से ______ है।",
+          "Japanese": "この論文は政策改革に______。"
+        },
+        "options": [
+          "concerned with",
+          "accounted for",
+          "rely on"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses an academic preposition pattern correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य शैक्षणिक पूर्वसर्ग पैटर्न का सही उपयोग करता है?",
+          "Japanese": "どの文が学術的な前置詞パターンを正しく使っていますか？"
+        },
+        "options": [
+          "The research contributes to understanding climate change.",
+          "The research contributes at understanding climate change.",
+          "The research contributes for understanding climate change."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [engage, researchers, collaboration, in, interdisciplinary]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [engage, researchers, collaboration, in, interdisciplinary]",
+          "Japanese": "並べ替え: [engage, researchers, collaboration, in, interdisciplinary]"
+        },
+        "options": [
+          "engage",
+          "researchers",
+          "collaboration",
+          "in",
+          "interdisciplinary"
+        ],
+        "answer": [
+          "researchers",
+          "engage",
+          "in",
+          "interdisciplinary",
+          "collaboration"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The results are ______ previous studies.",
+        "question_translation": {
+          "Hindi": "परिणाम पिछले अध्ययनों के साथ ______।",
+          "Japanese": "結果は以前の研究と______。"
+        },
+        "options": [
+          "consistent with",
+          "rely on",
+          "account for"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the speaker explaining? Audio: 'These findings account for the discrepancy in earlier data.'",
+        "audio_text": "These findings account for the discrepancy in earlier data.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या समझा रहा है?",
+          "Japanese": "話者は何を説明していますか？"
+        },
+        "options": [
+          "The findings explain the earlier data differences.",
+          "The findings depend on earlier data.",
+          "The findings ignore earlier data."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "‘Engage in’ means to participate in an activity.",
+        "audio_text": "Students should engage in collaborative research.",
+        "question_translation": {
+          "Hindi": "'Engage in' का मतलब है किसी गतिविधि में भाग लेना।",
+          "Japanese": "「engage in」は活動に参加することを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does the speaker rely on? Audio: 'This study relies on previously collected data.'",
+        "audio_text": "This study relies on previously collected data.",
+        "question_translation": {
+          "Hindi": "वक्ता किस पर निर्भर करता है?",
+          "Japanese": "話者は何に依存していますか？"
+        },
+        "options": [
+          "Previously collected data",
+          "Newly invented theories",
+          "No external sources"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is the topic of the article? Audio: 'This article is concerned with educational reforms.'",
+        "audio_text": "This article is concerned with educational reforms.",
+        "question_translation": {
+          "Hindi": "लेख का विषय क्या है?",
+          "Japanese": "この記事のテーマは何ですか？"
+        },
+        "options": [
+          "Educational reforms",
+          "Economic growth",
+          "Environmental policies"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "‘Base on’ means to ignore supporting evidence.",
+        "audio_text": "The conclusion is based on the experiment results.",
+        "question_translation": {
+          "Hindi": "'Base on' का मतलब है सहायक साक्ष्य को अनदेखा करना।",
+          "Japanese": "「base on」は裏付けとなる証拠を無視することを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'These results account for the unexpected findings.'",
+        "question_translation": {
+          "Hindi": "कहें: 'These results account for the unexpected findings.'",
+          "Japanese": "言ってください: 'These results account for the unexpected findings.'"
+        },
+        "options": [],
+        "answer": "these results account for the unexpected findings"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The study relies on previously published data.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The study relies on previously published data.'",
+          "Japanese": "言ってください: 'The study relies on previously published data.'"
+        },
+        "options": [],
+        "answer": "the study relies on previously published data"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Innovation contributes to economic growth.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Innovation contributes to economic growth.'",
+          "Japanese": "言ってください: 'Innovation contributes to economic growth.'"
+        },
+        "options": [],
+        "answer": "innovation contributes to economic growth"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The article is concerned with climate policy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The article is concerned with climate policy.'",
+          "Japanese": "言ってください: 'The article is concerned with climate policy.'"
+        },
+        "options": [],
+        "answer": "the article is concerned with climate policy"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Our conclusion is based on the latest evidence.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Our conclusion is based on the latest evidence.'",
+          "Japanese": "言ってください: 'Our conclusion is based on the latest evidence.'"
+        },
+        "options": [],
+        "answer": "our conclusion is based on the latest evidence"
+      }
+    ]
+  }
+
 }

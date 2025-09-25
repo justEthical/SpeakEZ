@@ -1,4 +1,552 @@
 {
-  "id": 43,
-  "message": "This is file number 43"
+  "id": "lesson_prosody_intonation_for_attitude_c1",
+  "lesson_name": "Prosody: Intonation for Attitude",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "prosody",
+        "word_translation": {
+          "Hindi": "स्वर-संगति",
+          "Japanese": "プロソディー"
+        },
+        "meaning": "The patterns of stress, rhythm, and intonation in speech",
+        "meaning_translation": {
+          "Hindi": "भाषण में बल, लय और स्वराघात के पैटर्न",
+          "Japanese": "話し言葉におけるストレス、リズム、イントネーションのパターン"
+        },
+        "examples": [
+          {
+            "sentence": "Prosody helps convey emotion and naturalness in speech.",
+            "translation": {
+              "Hindi": "स्वर-संगति भाषण में भावनाएँ और स्वाभाविकता व्यक्त करने में मदद करती है।",
+              "Japanese": "プロソディーは発話で感情や自然さを伝えるのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intonation",
+        "word_translation": {
+          "Hindi": "स्वराघात",
+          "Japanese": "イントネーション"
+        },
+        "meaning": "The rise and fall of pitch in spoken language",
+        "meaning_translation": {
+          "Hindi": "बोली जाने वाली भाषा में स्वर की ऊँचाई का उठना और गिरना",
+          "Japanese": "話し言葉における声の高さの上昇と下降"
+        },
+        "examples": [
+          {
+            "sentence": "Intonation can change a statement into a question.",
+            "translation": {
+              "Hindi": "स्वराघात एक कथन को प्रश्न में बदल सकता है।",
+              "Japanese": "イントネーションは平叙文を質問に変えることができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "attitudinal meaning",
+        "word_translation": {
+          "Hindi": "भावनात्मक अर्थ",
+          "Japanese": "態度的意味"
+        },
+        "meaning": "The speaker’s feelings or attitude expressed through tone and pitch",
+        "meaning_translation": {
+          "Hindi": "स्वर और पिच के माध्यम से व्यक्त वक्ता की भावनाएँ या दृष्टिकोण",
+          "Japanese": "話者の気持ちや態度を声のトーンやピッチで表すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Attitudinal meaning can signal enthusiasm, doubt, or sarcasm.",
+            "translation": {
+              "Hindi": "भावनात्मक अर्थ उत्साह, संदेह या व्यंग्य का संकेत दे सकता है।",
+              "Japanese": "態度的意味は熱意、疑い、皮肉を示すことができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "falling intonation",
+        "word_translation": {
+          "Hindi": "गिरता स्वराघात",
+          "Japanese": "下降イントネーション"
+        },
+        "meaning": "Pitch goes down at the end, often used for statements or finality",
+        "meaning_translation": {
+          "Hindi": "अंत में पिच नीचे जाती है, अक्सर कथनों या अंतिमता के लिए उपयोग की जाती है",
+          "Japanese": "文末でピッチが下がるイントネーション。陳述や終わりを示すときによく使われます。"
+        },
+        "examples": [
+          {
+            "sentence": "We’re leaving now. (falling intonation shows certainty)",
+            "translation": {
+              "Hindi": "हम अब जा रहे हैं। (गिरता स्वराघात निश्चितता दिखाता है)",
+              "Japanese": "私たちは今出発します。（下降イントネーションが確信を示す）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rising intonation",
+        "word_translation": {
+          "Hindi": "चढ़ता स्वराघात",
+          "Japanese": "上昇イントネーション"
+        },
+        "meaning": "Pitch goes up at the end, often showing questions or uncertainty",
+        "meaning_translation": {
+          "Hindi": "अंत में पिच ऊपर जाती है, अक्सर प्रश्न या अनिश्चितता दिखाने के लिए",
+          "Japanese": "文末でピッチが上がるイントネーション。質問や不確かさを示すことが多いです。"
+        },
+        "examples": [
+          {
+            "sentence": "You’re coming with us? (rising intonation shows a question)",
+            "translation": {
+              "Hindi": "तुम हमारे साथ आ रहे हो? (चढ़ता स्वराघात प्रश्न दिखाता है)",
+              "Japanese": "一緒に来るの？（上昇イントネーションが質問を示す）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fall-rise intonation",
+        "word_translation": {
+          "Hindi": "गिरता-चढ़ता स्वराघात",
+          "Japanese": "下降上昇イントネーション"
+        },
+        "meaning": "Pitch falls and then rises, often showing reservation or uncertainty",
+        "meaning_translation": {
+          "Hindi": "पिच गिरती है और फिर उठती है, अक्सर संकोच या अनिश्चितता दिखाती है",
+          "Japanese": "ピッチが下がってから上がるイントネーション。ためらいや不確かさを示すことが多いです。"
+        },
+        "examples": [
+          {
+            "sentence": "It’s… interesting. (fall-rise shows hesitation or mixed feelings)",
+            "translation": {
+              "Hindi": "यह... रोचक है। (गिरता-चढ़ता स्वराघात संकोच या मिश्रित भावनाएँ दिखाता है)",
+              "Japanese": "それは…面白いですね。（下降上昇イントネーションがためらいを示す）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sarcastic intonation",
+        "word_translation": {
+          "Hindi": "व्यंग्यात्मक स्वराघात",
+          "Japanese": "皮肉なイントネーション"
+        },
+        "meaning": "A tone that indicates irony or mockery, often with exaggerated pitch changes",
+        "meaning_translation": {
+          "Hindi": "एक स्वर जो विडंबना या उपहास को दर्शाता है, अक्सर अतिरंजित पिच बदलाव के साथ",
+          "Japanese": "皮肉や嘲笑を示すトーンで、しばしば大げさなピッチの変化を伴う"
+        },
+        "examples": [
+          {
+            "sentence": "Oh GREAT job… (sarcastic intonation changes meaning to irony)",
+            "translation": {
+              "Hindi": "ओह बहुत बढ़िया काम… (व्यंग्यात्मक स्वर अर्थ को व्यंग्य में बदल देता है)",
+              "Japanese": "ああ、すご〜い仕事だね…（皮肉なイントネーションが意味を反転させる）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "neutral intonation",
+        "word_translation": {
+          "Hindi": "तटस्थ स्वराघात",
+          "Japanese": "中立的イントネーション"
+        },
+        "meaning": "A flat or even pitch pattern showing no strong attitude",
+        "meaning_translation": {
+          "Hindi": "एक सपाट या समान पिच पैटर्न जो कोई मजबूत भाव नहीं दिखाता",
+          "Japanese": "強い態度を示さない平坦または均一なピッチパターン"
+        },
+        "examples": [
+          {
+            "sentence": "He said he would arrive at six. (neutral tone shows no extra feeling)",
+            "translation": {
+              "Hindi": "उसने कहा कि वह छह बजे आएगा। (तटस्थ स्वर कोई अतिरिक्त भाव नहीं दिखाता)",
+              "Japanese": "彼は6時に到着すると言った。（中立的なトーンは感情を示さない）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expressive intonation",
+        "word_translation": {
+          "Hindi": "अभिव्यंजक स्वराघात",
+          "Japanese": "表現的イントネーション"
+        },
+        "meaning": "Using pitch variation to show feelings such as excitement, doubt, or surprise",
+        "meaning_translation": {
+          "Hindi": "उत्साह, संदेह या आश्चर्य जैसी भावनाएँ दिखाने के लिए पिच में बदलाव करना",
+          "Japanese": "興奮、疑い、驚きなどの感情を表すためのピッチの変化"
+        },
+        "examples": [
+          {
+            "sentence": "Wow! That’s amazing! (expressive intonation shows excitement)",
+            "translation": {
+              "Hindi": "वाह! यह अद्भुत है! (अभिव्यंजक स्वर उत्साह दिखाता है)",
+              "Japanese": "わあ！それはすごい！（表現的イントネーションが興奮を示す）"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Falling Intonation for Statements",
+        "explanation": "Use a falling pitch at the end of sentences to signal certainty or completion.",
+        "explanation_translation": {
+          "Hindi": "वाक्यों के अंत में गिरता स्वर प्रयोग करें ताकि निश्चितता या पूर्णता दिखाई दे।",
+          "Japanese": "文末でピッチを下げて確信や完結を示します。"
+        }
+      },
+      {
+        "title": "Using Rising Intonation for Questions",
+        "explanation": "A rising pitch can turn a statement into a yes/no question or show uncertainty.",
+        "explanation_translation": {
+          "Hindi": "चढ़ता स्वर किसी कथन को हाँ/ना प्रश्न में बदल सकता है या अनिश्चितता दिखा सकता है।",
+          "Japanese": "上昇ピッチは平叙文をはい/いいえの質問に変えたり、不確かさを示します。"
+        }
+      },
+      {
+        "title": "Signaling Attitude with Fall-Rise",
+        "explanation": "Use a fall-rise pitch to show reservation, hesitation, or mixed feelings.",
+        "explanation_translation": {
+          "Hindi": "संकोच, हिचकिचाहट या मिश्रित भावनाएँ दिखाने के लिए गिरता-चढ़ता स्वर प्रयोग करें।",
+          "Japanese": "ためらい、躊躇、複雑な気持ちを示すために下降上昇イントネーションを使います。"
+        }
+      },
+      {
+        "title": "Avoiding Flat Delivery",
+        "explanation": "Keep your pitch varied to avoid sounding bored or uninterested when speaking English.",
+        "explanation_translation": {
+          "Hindi": "अंग्रेज़ी बोलते समय ऊब या उदासीन न लगने के लिए पिच में विविधता रखें।",
+          "Japanese": "英語を話すときに退屈そうに聞こえないようにピッチに変化を持たせましょう。"
+        }
+      },
+      {
+        "title": "Matching Intonation to Emotion",
+        "explanation": "Practice aligning pitch movement with the emotion you want to express — excitement rises, certainty falls.",
+        "explanation_translation": {
+          "Hindi": "जिस भावना को व्यक्त करना चाहते हैं उसके अनुसार पिच को समायोजित करें — उत्साह में पिच चढ़ती है, निश्चितता में गिरती है।",
+          "Japanese": "表したい感情に合わせてピッチの動きを練習しましょう。興奮は上がり、確信は下がります。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is prosody?",
+        "question_translation": {
+          "Hindi": "स्वर-संगति क्या है?",
+          "Japanese": "プロソディーとは何ですか？"
+        },
+        "options": [
+          "The study of grammar rules",
+          "Patterns of stress, rhythm, and intonation in speech",
+          "Writing with formal vocabulary"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Intonation is the rise and fall of pitch in speech.",
+        "question_translation": {
+          "Hindi": "स्वराघात भाषण में पिच का उठना और गिरना है।",
+          "Japanese": "イントネーションは話し言葉のピッチの上昇と下降です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "A ______ pitch often signals statements and certainty.",
+        "question_translation": {
+          "Hindi": "एक ______ पिच अक्सर कथनों और निश्चितता को दर्शाती है।",
+          "Japanese": "______なピッチはしばしば陳述と確信を示します。"
+        },
+        "options": [
+          "falling",
+          "rising",
+          "neutral"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which intonation pattern usually shows hesitation or mixed feelings?",
+        "question_translation": {
+          "Hindi": "कौन सा स्वराघात पैटर्न अक्सर हिचकिचाहट या मिश्रित भावनाएँ दिखाता है?",
+          "Japanese": "どのイントネーションパターンがためらいや複雑な感情を示すことが多いですか？"
+        },
+        "options": [
+          "Falling intonation",
+          "Rising intonation",
+          "Fall-rise intonation"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does sarcastic intonation often indicate?",
+        "question_translation": {
+          "Hindi": "व्यंग्यात्मक स्वराघात अक्सर क्या दर्शाता है?",
+          "Japanese": "皮肉なイントネーションはしばしば何を示しますか？"
+        },
+        "options": [
+          "Sincerity",
+          "Irony or mockery",
+          "Politeness"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [shows, attitude, intonation, speaker’s]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [shows, attitude, intonation, speaker’s]",
+          "Japanese": "並べ替え: [shows, attitude, intonation, speaker’s]"
+        },
+        "options": [
+          "shows",
+          "attitude",
+          "intonation",
+          "speaker’s"
+        ],
+        "answer": [
+          "intonation",
+          "shows",
+          "speaker’s",
+          "attitude"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Use a ______ pitch to turn a statement into a yes/no question.",
+        "question_translation": {
+          "Hindi": "किसी कथन को हाँ/ना प्रश्न में बदलने के लिए ______ पिच का उपयोग करें।",
+          "Japanese": "平叙文をはい/いいえの質問にするには______ピッチを使います。"
+        },
+        "options": [
+          "falling",
+          "rising",
+          "flat"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence could use fall-rise intonation to sound unsure?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य अनिश्चित दिखाने के लिए गिरता-चढ़ता स्वराघात ले सकता है?",
+          "Japanese": "どの文が不確かに聞こえるために下降上昇イントネーションを使うことができますか？"
+        },
+        "options": [
+          "It’s okay… I guess.",
+          "I am very sure about this.",
+          "We are leaving now."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [use, avoid, flat, to, sounding, bored, pitch]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [use, avoid, flat, to, sounding, bored, pitch]",
+          "Japanese": "並べ替え: [use, avoid, flat, to, sounding, bored, pitch]"
+        },
+        "options": [
+          "use",
+          "avoid",
+          "flat",
+          "to",
+          "sounding",
+          "bored",
+          "pitch"
+        ],
+        "answer": [
+          "avoid",
+          "flat",
+          "pitch",
+          "to",
+          "avoid",
+          "sounding",
+          "bored"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Expressive intonation helps show ______ like excitement or surprise.",
+        "question_translation": {
+          "Hindi": "अभिव्यंजक स्वराघात उत्साह या आश्चर्य जैसी ______ दिखाने में मदद करता है।",
+          "Japanese": "表現的イントネーションは興奮や驚きなどの______を示すのに役立ちます。"
+        },
+        "options": [
+          "grammar",
+          "emotion",
+          "formality"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What intonation is used? Audio: 'We’re leaving now.' (said with falling pitch)",
+        "audio_text": "We’re leaving now.",
+        "question_translation": {
+          "Hindi": "कौन सा स्वराघात प्रयोग किया गया है?",
+          "Japanese": "どのイントネーションが使われていますか？"
+        },
+        "options": [
+          "Falling intonation",
+          "Rising intonation",
+          "Flat intonation"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Rising pitch often shows uncertainty or a yes/no question.",
+        "audio_text": "You’re coming with us?",
+        "question_translation": {
+          "Hindi": "चढ़ता स्वर अक्सर अनिश्चितता या हाँ/ना प्रश्न दिखाता है।",
+          "Japanese": "上昇ピッチはしばしば不確かさやはい/いいえの質問を示します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What feeling does fall-rise intonation express here? Audio: 'It’s… interesting.'",
+        "audio_text": "It’s… interesting.",
+        "question_translation": {
+          "Hindi": "यहाँ गिरता-चढ़ता स्वराघात कौन सी भावना दिखाता है?",
+          "Japanese": "ここで下降上昇イントネーションが表す感情は何ですか？"
+        },
+        "options": [
+          "Certainty",
+          "Hesitation or mixed feelings",
+          "Excitement"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What attitude does sarcastic intonation convey? Audio: 'Oh GREAT job…'",
+        "audio_text": "Oh GREAT job…",
+        "question_translation": {
+          "Hindi": "व्यंग्यात्मक स्वराघात कौन सा रवैया दर्शाता है?",
+          "Japanese": "皮肉なイントネーションはどんな態度を伝えていますか？"
+        },
+        "options": [
+          "Politeness",
+          "Irony or mockery",
+          "Gratitude"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Neutral intonation shows no strong feelings.",
+        "audio_text": "He said he would arrive at six.",
+        "question_translation": {
+          "Hindi": "तटस्थ स्वर कोई मजबूत भावना नहीं दिखाता।",
+          "Japanese": "中立的なイントネーションは強い感情を示しません。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Prosody helps express emotion in speech.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Prosody helps express emotion in speech.'",
+          "Japanese": "言ってください: 'Prosody helps express emotion in speech.'"
+        },
+        "options": [],
+        "answer": "prosody helps express emotion in speech"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Use rising intonation for yes/no questions.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Use rising intonation for yes/no questions.'",
+          "Japanese": "言ってください: 'Use rising intonation for yes/no questions.'"
+        },
+        "options": [],
+        "answer": "use rising intonation for yes no questions"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Fall-rise intonation can show hesitation.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Fall-rise intonation can show hesitation.'",
+          "Japanese": "言ってください: 'Fall-rise intonation can show hesitation.'"
+        },
+        "options": [],
+        "answer": "fall rise intonation can show hesitation"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Avoid flat pitch to sound interested.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Avoid flat pitch to sound interested.'",
+          "Japanese": "言ってください: 'Avoid flat pitch to sound interested.'"
+        },
+        "options": [],
+        "answer": "avoid flat pitch to sound interested"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Sarcastic intonation can change meaning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Sarcastic intonation can change meaning.'",
+          "Japanese": "言ってください: 'Sarcastic intonation can change meaning.'"
+        },
+        "options": [],
+        "answer": "sarcastic intonation can change meaning"
+      }
+    ]
+  }
+
 }

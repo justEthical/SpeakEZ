@@ -1,4 +1,561 @@
 {
-  "id": 26,
-  "message": "This is file number 26"
+  "id": "lesson_professional_emails_c1",
+  "lesson_name": "Professional Emails: Persuasion & Politeness",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "persuasive",
+        "word_translation": {
+          "Hindi": "प्रभावशाली",
+          "Japanese": "説得力のある"
+        },
+        "meaning": "Able to convince someone through reasoning or appeal",
+        "meaning_translation": {
+          "Hindi": "तर्क या अपील के माध्यम से किसी को समझाने में सक्षम",
+          "Japanese": "論理や訴えによって誰かを納得させることができる"
+        },
+        "examples": [
+          {
+            "sentence": "She wrote a persuasive email requesting a meeting.",
+            "translation": {
+              "Hindi": "उसने बैठक का अनुरोध करते हुए एक प्रभावशाली ईमेल लिखा।",
+              "Japanese": "彼女は会議を要請する説得力のあるメールを書いた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "courteous",
+        "word_translation": {
+          "Hindi": "विनम्र",
+          "Japanese": "礼儀正しい"
+        },
+        "meaning": "Polite and respectful in communication",
+        "meaning_translation": {
+          "Hindi": "संचार में विनम्र और सम्मानजनक",
+          "Japanese": "コミュニケーションにおいて丁寧で敬意を払う"
+        },
+        "examples": [
+          {
+            "sentence": "Her email was clear, professional, and courteous.",
+            "translation": {
+              "Hindi": "उसका ईमेल स्पष्ट, पेशेवर और विनम्र था।",
+              "Japanese": "彼女のメールは明確で、プロフェッショナルで、礼儀正しかった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tone",
+        "word_translation": {
+          "Hindi": "लहजा",
+          "Japanese": "口調"
+        },
+        "meaning": "The attitude or style of communication expressed in writing",
+        "meaning_translation": {
+          "Hindi": "लेखन में व्यक्त संचार का रवैया या शैली",
+          "Japanese": "文章に表れるコミュニケーションの姿勢やスタイル"
+        },
+        "examples": [
+          {
+            "sentence": "Maintain a professional tone even when making requests.",
+            "translation": {
+              "Hindi": "अनुरोध करते समय भी एक पेशेवर लहजा बनाए रखें।",
+              "Japanese": "依頼をするときもプロフェッショナルな口調を保つ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concession",
+        "word_translation": {
+          "Hindi": "रियायत",
+          "Japanese": "譲歩"
+        },
+        "meaning": "Acknowledging another person’s viewpoint while presenting your own",
+        "meaning_translation": {
+          "Hindi": "अपना दृष्टिकोण प्रस्तुत करते समय किसी अन्य व्यक्ति के दृष्टिकोण को स्वीकार करना",
+          "Japanese": "自分の見解を提示すると同時に相手の見解を認めること"
+        },
+        "examples": [
+          {
+            "sentence": "She made a concession before presenting her main argument.",
+            "translation": {
+              "Hindi": "उसने अपना मुख्य तर्क प्रस्तुत करने से पहले एक रियायत दी।",
+              "Japanese": "彼女は自分の主張を述べる前に譲歩をした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "empathy",
+        "word_translation": {
+          "Hindi": "सहानुभूति",
+          "Japanese": "共感"
+        },
+        "meaning": "The ability to understand and share another person’s feelings",
+        "meaning_translation": {
+          "Hindi": "किसी अन्य व्यक्ति की भावनाओं को समझने और साझा करने की क्षमता",
+          "Japanese": "他者の感情を理解し共感する能力"
+        },
+        "examples": [
+          {
+            "sentence": "Empathy in emails helps build rapport with the reader.",
+            "translation": {
+              "Hindi": "ईमेल में सहानुभूति पाठक के साथ संबंध बनाने में मदद करती है।",
+              "Japanese": "メールでの共感は読み手との関係構築に役立つ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "call to action",
+        "word_translation": {
+          "Hindi": "कार्यवाही के लिए आह्वान",
+          "Japanese": "行動喚起"
+        },
+        "meaning": "A clear instruction encouraging the reader to take action",
+        "meaning_translation": {
+          "Hindi": "एक स्पष्ट निर्देश जो पाठक को कार्यवाही करने के लिए प्रोत्साहित करता है",
+          "Japanese": "読み手に行動を促す明確な指示"
+        },
+        "examples": [
+          {
+            "sentence": "The email ended with a strong call to action to register.",
+            "translation": {
+              "Hindi": "ईमेल का अंत पंजीकरण के लिए एक मजबूत कार्यवाही आह्वान के साथ हुआ।",
+              "Japanese": "メールは登録を呼びかける強い行動喚起で締めくくられた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formality",
+        "word_translation": {
+          "Hindi": "औपचारिकता",
+          "Japanese": "形式性"
+        },
+        "meaning": "The level of politeness and structure in communication",
+        "meaning_translation": {
+          "Hindi": "संचार में शिष्टाचार और संरचना का स्तर",
+          "Japanese": "コミュニケーションにおける礼儀や構造の度合い"
+        },
+        "examples": [
+          {
+            "sentence": "The level of formality depends on the recipient of the email.",
+            "translation": {
+              "Hindi": "औपचारिकता का स्तर ईमेल के प्राप्तकर्ता पर निर्भर करता है।",
+              "Japanese": "形式性の度合いはメールの受信者によって異なる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "politeness strategy",
+        "word_translation": {
+          "Hindi": "विनम्रता रणनीति",
+          "Japanese": "丁寧さの戦略"
+        },
+        "meaning": "A technique used to show respect and maintain positive relationships",
+        "meaning_translation": {
+          "Hindi": "सम्मान दिखाने और सकारात्मक संबंध बनाए रखने के लिए उपयोग की जाने वाली तकनीक",
+          "Japanese": "敬意を示し、良好な関係を維持するために使われる技法"
+        },
+        "examples": [
+          {
+            "sentence": "Using politeness strategies prevents miscommunication in emails.",
+            "translation": {
+              "Hindi": "विनम्रता रणनीतियों का उपयोग ईमेल में गलतफहमी से बचाता है।",
+              "Japanese": "丁寧さの戦略を使うことでメールでの誤解を防ぐ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "persuasive appeal",
+        "word_translation": {
+          "Hindi": "प्रभावी अपील",
+          "Japanese": "説得的アピール"
+        },
+        "meaning": "The use of logic, credibility, or emotion to convince the reader",
+        "meaning_translation": {
+          "Hindi": "पाठक को समझाने के लिए तर्क, विश्वसनीयता या भावना का उपयोग",
+          "Japanese": "読者を納得させるために論理、信頼性、感情を用いること"
+        },
+        "examples": [
+          {
+            "sentence": "Her persuasive appeal combined evidence with emotional empathy.",
+            "translation": {
+              "Hindi": "उसकी प्रभावी अपील ने साक्ष्य को भावनात्मक सहानुभूति के साथ जोड़ा।",
+              "Japanese": "彼女の説得的アピールは証拠と感情的な共感を組み合わせた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rapport",
+        "word_translation": {
+          "Hindi": "सौहार्द",
+          "Japanese": "信頼関係"
+        },
+        "meaning": "A positive relationship built on trust and respect",
+        "meaning_translation": {
+          "Hindi": "विश्वास और सम्मान पर आधारित एक सकारात्मक संबंध",
+          "Japanese": "信頼と尊敬に基づいて築かれる良好な関係"
+        },
+        "examples": [
+          {
+            "sentence": "Polite language builds rapport with business partners.",
+            "translation": {
+              "Hindi": "विनम्र भाषा व्यापारिक साझेदारों के साथ सौहार्द बनाती है।",
+              "Japanese": "丁寧な言葉はビジネスパートナーとの信頼関係を築く。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Modals for Polite Requests",
+        "explanation": "Use 'could,' 'would,' or 'may' instead of 'can' for polite professional emails.",
+        "explanation_translation": {
+          "Hindi": "विनम्र पेशेवर ईमेल के लिए 'can' की बजाय 'could,' 'would,' या 'may' का उपयोग करें।",
+          "Japanese": "丁寧なビジネスメールでは「can」の代わりに「could」「would」「may」を使う。"
+        }
+      },
+      {
+        "title": "Softening Persuasion",
+        "explanation": "Use hedging expressions like 'perhaps,' 'it might be helpful if,' or 'you may wish to consider' to reduce forcefulness.",
+        "explanation_translation": {
+          "Hindi": "'perhaps,' 'it might be helpful if,' या 'you may wish to consider' जैसी अभिव्यक्तियों का उपयोग कठोरता को कम करने के लिए करें।",
+          "Japanese": "強引さを減らすために「perhaps」「it might be helpful if」「you may wish to consider」などの表現を使う。"
+        }
+      },
+      {
+        "title": "Politeness Markers",
+        "explanation": "Include phrases like 'please,' 'thank you,' and 'I appreciate' to signal courtesy.",
+        "explanation_translation": {
+          "Hindi": "'please,' 'thank you,' और 'I appreciate' जैसे वाक्यांशों को शामिल करें ताकि शिष्टाचार का संकेत मिले।",
+          "Japanese": "「please」「thank you」「I appreciate」といったフレーズを含めて丁寧さを示す。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word describes communication that convinces through reasoning or appeal?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द उस संचार का वर्णन करता है जो तर्क या अपील के माध्यम से समझाता है?",
+        "Japanese": "論理や訴えを通して説得するコミュニケーションを表す言葉はどれですか？"
+      },
+      "options": [
+        "courteous",
+        "persuasive",
+        "formal"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Maintaining a professional ___ is essential in emails.",
+      "question_translation": {
+        "Hindi": "ईमेल में पेशेवर ___ बनाए रखना आवश्यक है।",
+        "Japanese": "メールではプロフェッショナルな___を保つことが重要です。"
+      },
+      "options": [
+        "tone",
+        "rapport",
+        "concession"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A call to action is a vague statement without a clear purpose.",
+      "question_translation": {
+        "Hindi": "‘Call to action’ एक अस्पष्ट कथन है जिसका कोई स्पष्ट उद्देश्य नहीं होता।",
+        "Japanese": "行動喚起とは目的のない曖昧な表現である。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term means showing respect and maintaining positive relationships?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द सम्मान दिखाने और सकारात्मक संबंध बनाए रखने का अर्थ है?",
+        "Japanese": "敬意を示し、良好な関係を維持することを意味する用語はどれですか？"
+      },
+      "options": [
+        "empathy",
+        "politeness strategy",
+        "formality"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Building ___ with colleagues can make emails more effective.",
+      "question_translation": {
+        "Hindi": "सहकर्मियों के साथ ___ बनाना ईमेल को अधिक प्रभावी बना सकता है।",
+        "Japanese": "同僚との___を築くことでメールがより効果的になる。"
+      },
+      "options": [
+        "rapport",
+        "formality",
+        "appeal"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [meeting, you, could, please, confirm, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [meeting, you, could, please, confirm, the]",
+        "Japanese": "並べ替え: [meeting, you, could, please, confirm, the]"
+      },
+      "options": [
+        "meeting",
+        "you",
+        "could",
+        "please",
+        "confirm",
+        "the"
+      ],
+      "answer": [
+        "could",
+        "you",
+        "please",
+        "confirm",
+        "the",
+        "meeting"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "I ___ appreciate it if you could share the report by Friday.",
+      "question_translation": {
+        "Hindi": "यदि आप शुक्रवार तक रिपोर्ट साझा कर सकें तो मैं ___ सराहना करूंगा।",
+        "Japanese": "金曜日までに報告書を共有していただけると___感謝します。"
+      },
+      "options": [
+        "would",
+        "will",
+        "might"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence softens persuasion appropriately?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य उपयुक्त रूप से प्रभाव को नरम करता है?",
+        "Japanese": "どの文が適切に説得を和らげていますか？"
+      },
+      "options": [
+        "You must do this immediately.",
+        "Perhaps it might be helpful if you reviewed the file.",
+        "Do it now without delay."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [thank, your, much, very, you, support, for]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [thank, your, much, very, you, support, for]",
+        "Japanese": "並べ替え: [thank, your, much, very, you, support, for]"
+      },
+      "options": [
+        "thank",
+        "your",
+        "much",
+        "very",
+        "you",
+        "support",
+        "for"
+      ],
+      "answer": [
+        "thank",
+        "you",
+        "very",
+        "much",
+        "for",
+        "your",
+        "support"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "It ___ be useful to schedule a follow-up call.",
+      "question_translation": {
+        "Hindi": "एक फॉलो-अप कॉल निर्धारित करना ___ उपयोगी हो सकता है।",
+        "Japanese": "フォローアップの電話を予定することは___役立つかもしれない。"
+      },
+      "options": [
+        "might",
+        "must",
+        "will"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the purpose of the email?",
+      "audio_text": "I am writing to kindly request your feedback on the proposal.",
+      "question_translation": {
+        "Hindi": "ईमेल का उद्देश्य क्या है?",
+        "Japanese": "メールの目的は何ですか？"
+      },
+      "options": [
+        "To complain",
+        "To request feedback",
+        "To give instructions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The tone of the speaker is polite.",
+      "audio_text": "Could you please confirm your availability for the meeting?",
+      "question_translation": {
+        "Hindi": "वक्ता का लहजा विनम्र है।",
+        "Japanese": "話者の口調は丁寧です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which politeness strategy is used?",
+      "audio_text": "I would greatly appreciate your assistance with this task.",
+      "question_translation": {
+        "Hindi": "कौन सी विनम्रता रणनीति का उपयोग किया गया है?",
+        "Japanese": "どの丁寧さの戦略が使われていますか？"
+      },
+      "options": [
+        "gratitude",
+        "command",
+        "direct order"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The email contains a clear call to action.",
+      "audio_text": "Please complete the registration form by Monday.",
+      "question_translation": {
+        "Hindi": "ईमेल में एक स्पष्ट कार्यवाही आह्वान है।",
+        "Japanese": "メールには明確な行動喚起が含まれている。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What persuasive appeal is used?",
+      "audio_text": "Studies show that adopting this system will save costs significantly.",
+      "question_translation": {
+        "Hindi": "कौन सा प्रभावी अपील उपयोग किया गया है?",
+        "Japanese": "どの説得的アピールが使われていますか？"
+      },
+      "options": [
+        "emotional",
+        "logical",
+        "personal"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Could you please confirm your attendance?'",
+      "question_translation": {
+        "Hindi": "कहें: 'क्या आप कृपया अपनी उपस्थिति की पुष्टि कर सकते हैं?'",
+        "Japanese": "言ってください: '出席をご確認いただけますか？'"
+      },
+      "options": [],
+      "answer": "could you please confirm your attendance"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'I would greatly appreciate your support.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मैं आपके समर्थन की बहुत सराहना करूंगा।'",
+        "Japanese": "言ってください: 'ご支援いただけると大変ありがたいです。'"
+      },
+      "options": [],
+      "answer": "i would greatly appreciate your support"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Please let me know if you have any questions.'",
+      "question_translation": {
+        "Hindi": "कहें: 'कृपया बताएं यदि आपके कोई प्रश्न हैं।'",
+        "Japanese": "言ってください: 'ご質問があればお知らせください。'"
+      },
+      "options": [],
+      "answer": "please let me know if you have any questions"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'It might be helpful if we schedule a follow-up meeting.'",
+      "question_translation": {
+        "Hindi": "कहें: 'यदि हम एक फॉलो-अप बैठक निर्धारित करें तो यह सहायक हो सकता है।'",
+        "Japanese": "言ってください: 'フォローアップ会議を予定すると役立つかもしれません。'"
+      },
+      "options": [],
+      "answer": "it might be helpful if we schedule a follow up meeting"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Thank you very much for your time and support.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आपके समय और समर्थन के लिए बहुत धन्यवाद।'",
+        "Japanese": "言ってください: 'お時間とご支援に心から感謝します。'"
+      },
+      "options": [],
+      "answer": "thank you very much for your time and support"
+    }
+  ]
+}
+
 }

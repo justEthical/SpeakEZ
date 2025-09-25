@@ -1,4 +1,570 @@
 {
-  "id": 45,
-  "message": "This is file number 45"
+  "id": "lesson_idiomaticity_professional_contexts_c1",
+  "lesson_name": "Idiomaticity in Professional Contexts",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "idiomaticity",
+        "word_translation": {
+          "Hindi": "मुहावरेदारी",
+          "Japanese": "イディオマティシティ"
+        },
+        "meaning": "The natural use of idioms and fixed expressions in a language",
+        "meaning_translation": {
+          "Hindi": "किसी भाषा में मुहावरों और स्थिर अभिव्यक्तियों का स्वाभाविक प्रयोग",
+          "Japanese": "言語で慣用句や定型表現を自然に使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Idiomaticity is essential for sounding natural in professional English.",
+            "translation": {
+              "Hindi": "पेशेवर अंग्रेज़ी में स्वाभाविक लगने के लिए मुहावरेदारी आवश्यक है।",
+              "Japanese": "専門的な英語で自然に聞こえるにはイディオマティシティが不可欠です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "idiom",
+        "word_translation": {
+          "Hindi": "मुहावरा",
+          "Japanese": "慣用句"
+        },
+        "meaning": "A phrase whose meaning cannot be understood from the individual words",
+        "meaning_translation": {
+          "Hindi": "ऐसा वाक्यांश जिसका अर्थ उसके व्यक्तिगत शब्दों से समझा नहीं जा सकता",
+          "Japanese": "単語の意味からは理解できない意味を持つ句"
+        },
+        "examples": [
+          {
+            "sentence": "‘Think outside the box’ is a common business idiom.",
+            "translation": {
+              "Hindi": "'Think outside the box' एक सामान्य व्यावसायिक मुहावरा है।",
+              "Japanese": "「Think outside the box」は一般的なビジネス慣用句です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "corporate jargon",
+        "word_translation": {
+          "Hindi": "कॉर्पोरेट शब्दावली",
+          "Japanese": "企業用語"
+        },
+        "meaning": "Specialized expressions used in business environments",
+        "meaning_translation": {
+          "Hindi": "व्यावसायिक वातावरण में उपयोग किए जाने वाले विशेष अभिव्यक्तियाँ",
+          "Japanese": "ビジネス環境で使われる専門的な表現"
+        },
+        "examples": [
+          {
+            "sentence": "Terms like ‘leverage’ and ‘synergy’ are corporate jargon.",
+            "translation": {
+              "Hindi": "'Leverage' और 'Synergy' जैसे शब्द कॉर्पोरेट शब्दावली हैं।",
+              "Japanese": "「leverage」や「synergy」などの用語は企業用語です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fixed expression",
+        "word_translation": {
+          "Hindi": "स्थिर अभिव्यक्ति",
+          "Japanese": "定型表現"
+        },
+        "meaning": "A phrase used in a set form with little or no variation",
+        "meaning_translation": {
+          "Hindi": "ऐसा वाक्यांश जिसे स्थिर रूप में प्रयोग किया जाता है और जिसमें बहुत कम या कोई बदलाव नहीं होता",
+          "Japanese": "ほとんど変化しない決まりきった形で使われる表現"
+        },
+        "examples": [
+          {
+            "sentence": "‘As per our discussion’ is a fixed expression in business writing.",
+            "translation": {
+              "Hindi": "'As per our discussion' व्यावसायिक लेखन में एक स्थिर अभिव्यक्ति है।",
+              "Japanese": "「As per our discussion」はビジネス文書で使われる定型表現です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "buzzword",
+        "word_translation": {
+          "Hindi": "चलन में शब्द",
+          "Japanese": "流行語"
+        },
+        "meaning": "A trendy term used frequently in professional settings",
+        "meaning_translation": {
+          "Hindi": "एक प्रचलित शब्द जो पेशेवर वातावरण में बार-बार उपयोग होता है",
+          "Japanese": "専門的な場面でよく使われる流行りの用語"
+        },
+        "examples": [
+          {
+            "sentence": "‘Blockchain’ became a buzzword in tech industries.",
+            "translation": {
+              "Hindi": "'Blockchain' तकनीकी उद्योग में एक चलन में शब्द बन गया।",
+              "Japanese": "「Blockchain」は技術業界で流行語となりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "collocation",
+        "word_translation": {
+          "Hindi": "सहप्रयोग",
+          "Japanese": "コロケーション"
+        },
+        "meaning": "Words that often appear together naturally in a language",
+        "meaning_translation": {
+          "Hindi": "ऐसे शब्द जो किसी भाषा में स्वाभाविक रूप से साथ आते हैं",
+          "Japanese": "自然に一緒に使われることが多い単語の組み合わせ"
+        },
+        "examples": [
+          {
+            "sentence": "‘Meet a deadline’ is a common professional collocation.",
+            "translation": {
+              "Hindi": "'Meet a deadline' एक सामान्य व्यावसायिक सहप्रयोग है।",
+              "Japanese": "「meet a deadline」はよく使われるビジネスのコロケーションです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "register",
+        "word_translation": {
+          "Hindi": "शैली स्तर",
+          "Japanese": "レジスター"
+        },
+        "meaning": "The level of formality or style used in communication",
+        "meaning_translation": {
+          "Hindi": "संचार में उपयोग की जाने वाली औपचारिकता या शैली का स्तर",
+          "Japanese": "コミュニケーションで使われる形式さやスタイルのレベル"
+        },
+        "examples": [
+          {
+            "sentence": "Idioms must fit the appropriate register for professional contexts.",
+            "translation": {
+              "Hindi": "व्यावसायिक संदर्भों में मुहावरे उचित शैली स्तर में फिट होने चाहिए।",
+              "Japanese": "プロの場面では慣用句は適切なレジスターに合う必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "metaphorical language",
+        "word_translation": {
+          "Hindi": "रूपक भाषा",
+          "Japanese": "比喩的な言語"
+        },
+        "meaning": "Using metaphors or symbolic expressions to describe abstract ideas",
+        "meaning_translation": {
+          "Hindi": "सार विचारों का वर्णन करने के लिए रूपकों या प्रतीकात्मक अभिव्यक्तियों का उपयोग",
+          "Japanese": "抽象的な概念を表すための比喩や象徴的な表現"
+        },
+        "examples": [
+          {
+            "sentence": "‘Climb the corporate ladder’ is metaphorical business language.",
+            "translation": {
+              "Hindi": "'Climb the corporate ladder' एक रूपक व्यावसायिक अभिव्यक्ति है।",
+              "Japanese": "「Climb the corporate ladder」は比喩的なビジネス表現です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plain English",
+        "word_translation": {
+          "Hindi": "साधारण अंग्रेज़ी",
+          "Japanese": "わかりやすい英語"
+        },
+        "meaning": "Clear and simple language avoiding jargon or complex idioms",
+        "meaning_translation": {
+          "Hindi": "स्पष्ट और सरल भाषा जो जार्गन या जटिल मुहावरों से बचती है",
+          "Japanese": "専門用語や複雑な慣用句を避けたわかりやすい英語"
+        },
+        "examples": [
+          {
+            "sentence": "Many companies now prefer plain English in reports.",
+            "translation": {
+              "Hindi": "कई कंपनियाँ अब रिपोर्ट में साधारण अंग्रेज़ी को प्राथमिकता देती हैं।",
+              "Japanese": "多くの企業がレポートでわかりやすい英語を好むようになっています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cultural appropriateness",
+        "word_translation": {
+          "Hindi": "सांस्कृतिक उपयुक्तता",
+          "Japanese": "文化的適切さ"
+        },
+        "meaning": "Suitability of language choices for a particular cultural or professional context",
+        "meaning_translation": {
+          "Hindi": "किसी विशेष सांस्कृतिक या पेशेवर संदर्भ में भाषा विकल्पों की उपयुक्तता",
+          "Japanese": "特定の文化的または専門的な状況における言語選択の適切さ"
+        },
+        "examples": [
+          {
+            "sentence": "Check cultural appropriateness before using idioms internationally.",
+            "translation": {
+              "Hindi": "अंतरराष्ट्रीय स्तर पर मुहावरे प्रयोग करने से पहले सांस्कृतिक उपयुक्तता जाँचें।",
+              "Japanese": "国際的に慣用句を使う前に文化的適切さを確認してください。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Choosing Idioms Carefully",
+        "explanation": "Use idioms only when they fit the professional tone and are widely understood.",
+        "explanation_translation": {
+          "Hindi": "मुहावरों का प्रयोग तभी करें जब वे पेशेवर स्वर के अनुरूप हों और व्यापक रूप से समझे जाएँ।",
+          "Japanese": "慣用句は専門的なトーンに合い、広く理解される場合にのみ使いましょう。"
+        }
+      },
+      {
+        "title": "Balancing Idiomatic and Plain English",
+        "explanation": "Mix idioms with clear language to avoid confusion and keep communication effective.",
+        "explanation_translation": {
+          "Hindi": "मुहावरों को स्पष्ट भाषा के साथ मिलाएँ ताकि भ्रम से बचा जा सके और संचार प्रभावी रहे।",
+          "Japanese": "混乱を避けて効果的なコミュニケーションを保つために、慣用句とわかりやすい英語を組み合わせましょう。"
+        }
+      },
+      {
+        "title": "Adapting Register to Audience",
+        "explanation": "Consider the listener’s background before using informal idioms in professional speech.",
+        "explanation_translation": {
+          "Hindi": "पेशेवर भाषण में अनौपचारिक मुहावरे प्रयोग करने से पहले श्रोता की पृष्ठभूमि पर विचार करें।",
+          "Japanese": "専門的な場面でくだけた慣用句を使う前に、聞き手の背景を考慮してください。"
+        }
+      },
+      {
+        "title": "Using Collocations for Naturalness",
+        "explanation": "Learning business collocations helps sound more fluent and professional.",
+        "explanation_translation": {
+          "Hindi": "व्यावसायिक सहप्रयोग सीखने से अधिक धाराप्रवाह और पेशेवर लगने में मदद मिलती है।",
+          "Japanese": "ビジネスのコロケーションを学ぶことで、より流暢で専門的に聞こえます。"
+        }
+      },
+      {
+        "title": "Checking Cultural Fit",
+        "explanation": "Ensure the idioms you use make sense across different cultures and don’t offend.",
+        "explanation_translation": {
+          "Hindi": "सुनिश्चित करें कि आपके द्वारा उपयोग किए गए मुहावरे विभिन्न संस्कृतियों में समझ में आते हैं और अपमानजनक नहीं हैं।",
+          "Japanese": "使う慣用句が異なる文化でも理解され、失礼にならないことを確認してください。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is idiomaticity?",
+        "question_translation": {
+          "Hindi": "मुहावरेदारी क्या है?",
+          "Japanese": "イディオマティシティとは何ですか？"
+        },
+        "options": [
+          "Using very formal academic words",
+          "The natural use of idioms and fixed expressions",
+          "Avoiding any cultural references"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "An idiom’s meaning is usually clear from the individual words it contains.",
+        "question_translation": {
+          "Hindi": "किसी मुहावरे का अर्थ आमतौर पर उसके व्यक्तिगत शब्दों से स्पष्ट होता है।",
+          "Japanese": "慣用句の意味は通常、その中の単語から明らかです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Terms like ‘leverage’ and ‘synergy’ are examples of corporate ______.",
+        "question_translation": {
+          "Hindi": "'Leverage' और 'Synergy' जैसे शब्द कॉर्पोरेट ______ के उदाहरण हैं।",
+          "Japanese": "「leverage」や「synergy」などの用語は企業の______の例です。"
+        },
+        "options": [
+          "grammar",
+          "jargon",
+          "register"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "What does the term ‘buzzword’ mean?",
+        "question_translation": {
+          "Hindi": "'Buzzword' शब्द का क्या अर्थ है?",
+          "Japanese": "「buzzword」という用語は何を意味しますか？"
+        },
+        "options": [
+          "A trendy professional term",
+          "A type of sentence structure",
+          "A formal government document"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "Which phrase shows metaphorical business language?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश रूपक व्यावसायिक भाषा को दर्शाता है?",
+          "Japanese": "どのフレーズが比喩的なビジネス言語を示していますか？"
+        },
+        "options": [
+          "Climb the corporate ladder",
+          "Send an email",
+          "Write a report"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [be, careful, idioms, with, using]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [be, careful, idioms, with, using]",
+          "Japanese": "並べ替え: [be, careful, idioms, with, using]"
+        },
+        "options": [
+          "be",
+          "careful",
+          "idioms",
+          "with",
+          "using"
+        ],
+        "answer": [
+          "be",
+          "careful",
+          "with",
+          "using",
+          "idioms"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Always check cultural ______ before using idioms internationally.",
+        "question_translation": {
+          "Hindi": "अंतरराष्ट्रीय स्तर पर मुहावरे इस्तेमाल करने से पहले हमेशा सांस्कृतिक ______ जाँचें।",
+          "Japanese": "国際的に慣用句を使う前に必ず文化的______を確認してください。"
+        },
+        "options": [
+          "appropriateness",
+          "grammar",
+          "intonation"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses an appropriate fixed expression for business email?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य व्यावसायिक ईमेल के लिए उपयुक्त स्थिर अभिव्यक्ति का उपयोग करता है?",
+          "Japanese": "どの文がビジネスメールに適した定型表現を使っていますか？"
+        },
+        "options": [
+          "As per our discussion, I’m sending the report.",
+          "Yo, here’s the file dude.",
+          "Hey buddy, check this out."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [natural, collocations, using, sound, more]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [natural, collocations, using, sound, more]",
+          "Japanese": "並べ替え: [natural, collocations, using, sound, more]"
+        },
+        "options": [
+          "natural",
+          "collocations",
+          "using",
+          "sound",
+          "more"
+        ],
+        "answer": [
+          "using",
+          "natural",
+          "collocations",
+          "sound",
+          "more"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Mix idioms with clear language to keep communication ______.",
+        "question_translation": {
+          "Hindi": "मुहावरों को स्पष्ट भाषा के साथ मिलाएँ ताकि संचार ______ रहे।",
+          "Japanese": "慣用句をわかりやすい言葉と混ぜて、コミュニケーションを______に保ちます。"
+        },
+        "options": [
+          "effective",
+          "hidden",
+          "complex"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker mean? Audio: 'We need to think outside the box.'",
+        "audio_text": "We need to think outside the box.",
+        "question_translation": {
+          "Hindi": "वक्ता का क्या मतलब है?",
+          "Japanese": "話者は何を意味していますか？"
+        },
+        "options": [
+          "Use creative and unconventional ideas",
+          "Stay strictly within company rules",
+          "Avoid all risky thinking"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Plain English avoids jargon and complex idioms.",
+        "audio_text": "Plain English avoids jargon and complex idioms.",
+        "question_translation": {
+          "Hindi": "साधारण अंग्रेज़ी जार्गन और जटिल मुहावरों से बचती है।",
+          "Japanese": "わかりやすい英語は専門用語や複雑な慣用句を避けます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What kind of language is ‘climb the corporate ladder’? Audio: 'He wants to climb the corporate ladder quickly.'",
+        "audio_text": "He wants to climb the corporate ladder quickly.",
+        "question_translation": {
+          "Hindi": "'Climb the corporate ladder' किस प्रकार की भाषा है?",
+          "Japanese": "「climb the corporate ladder」はどんな表現ですか？"
+        },
+        "options": [
+          "Metaphorical idiom",
+          "Plain English",
+          "Grammar marker"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Why should you check cultural appropriateness? Audio: 'Some idioms may confuse or offend international colleagues.'",
+        "audio_text": "Some idioms may confuse or offend international colleagues.",
+        "question_translation": {
+          "Hindi": "सांस्कृतिक उपयुक्तता क्यों जाँचनी चाहिए?",
+          "Japanese": "文化的適切さを確認するべき理由は何ですか？"
+        },
+        "options": [
+          "Idioms are always polite",
+          "Idioms may confuse or offend across cultures",
+          "Idioms increase grammar accuracy"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Corporate jargon like ‘synergy’ is always clear to everyone.",
+        "audio_text": "Corporate jargon like ‘synergy’ is always clear to everyone.",
+        "question_translation": {
+          "Hindi": "'Synergy' जैसी कॉर्पोरेट शब्दावली हमेशा सभी के लिए स्पष्ट होती है।",
+          "Japanese": "「synergy」などの企業用語は誰にでも常に明確です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Idiomaticity makes professional English sound natural.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Idiomaticity makes professional English sound natural.'",
+          "Japanese": "言ってください: 'Idiomaticity makes professional English sound natural.'"
+        },
+        "options": [],
+        "answer": "idiomaticity makes professional english sound natural"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Think outside the box to solve problems creatively.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Think outside the box to solve problems creatively.'",
+          "Japanese": "言ってください: 'Think outside the box to solve problems creatively.'"
+        },
+        "options": [],
+        "answer": "think outside the box to solve problems creatively"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Use collocations to sound more professional.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Use collocations to sound more professional.'",
+          "Japanese": "言ってください: 'Use collocations to sound more professional.'"
+        },
+        "options": [],
+        "answer": "use collocations to sound more professional"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Always check cultural appropriateness of idioms.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Always check cultural appropriateness of idioms.'",
+          "Japanese": "言ってください: 'Always check cultural appropriateness of idioms.'"
+        },
+        "options": [],
+        "answer": "always check cultural appropriateness of idioms"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Mix idioms with plain English for clarity.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Mix idioms with plain English for clarity.'",
+          "Japanese": "言ってください: 'Mix idioms with plain English for clarity.'"
+        },
+        "options": [],
+        "answer": "mix idioms with plain english for clarity"
+      }
+    ]
+  }
 }
