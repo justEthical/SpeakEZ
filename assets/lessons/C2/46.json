@@ -1,4 +1,540 @@
 {
-  "id": 46,
-  "message": "This is file number 46"
+  "id": "lesson_summarize_synthesize_critique_001",
+  "lesson_name": "Summarize vs. Synthesize vs. Critique",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "summarize",
+        "word_translation": {
+          "Hindi": "सारांश बनाना",
+          "Japanese": "要約する"
+        },
+        "meaning": "To briefly present the main points of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के मुख्य बिंदुओं को संक्षेप में प्रस्तुत करना",
+          "Japanese": "何かの要点を簡潔に示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Students must summarize each chapter for the report.",
+            "translation": {
+              "Hindi": "छात्रों को रिपोर्ट के लिए प्रत्येक अध्याय का सारांश बनाना चाहिए।",
+              "Japanese": "学生はレポートのために各章を要約しなければならない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "synthesize",
+        "word_translation": {
+          "Hindi": "संश्लेषित करना",
+          "Japanese": "統合する"
+        },
+        "meaning": "To combine ideas from different sources to form a new whole",
+        "meaning_translation": {
+          "Hindi": "विभिन्न स्रोतों से विचारों को मिलाकर एक नई संपूर्ण अवधारणा बनाना",
+          "Japanese": "さまざまな情報源からのアイデアを統合して新しい全体像を作ること"
+        },
+        "examples": [
+          {
+            "sentence": "The literature review synthesizes multiple studies.",
+            "translation": {
+              "Hindi": "साहित्य समीक्षा कई अध्ययनों को संश्लेषित करती है।",
+              "Japanese": "文献レビューは複数の研究を統合している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critique",
+        "word_translation": {
+          "Hindi": "आलोचना करना",
+          "Japanese": "批評する"
+        },
+        "meaning": "To evaluate something, highlighting strengths and weaknesses",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का मूल्यांकन करना, ताकत और कमजोरियों को उजागर करना",
+          "Japanese": "何かを評価し、長所と短所を指摘すること"
+        },
+        "examples": [
+          {
+            "sentence": "Scholars often critique each other’s research methods.",
+            "translation": {
+              "Hindi": "विद्वान अक्सर एक-दूसरे की शोध पद्धतियों की आलोचना करते हैं।",
+              "Japanese": "学者たちは互いの研究方法を批評することが多い。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "objective summary",
+        "word_translation": {
+          "Hindi": "निष्पक्ष सारांश",
+          "Japanese": "客観的な要約"
+        },
+        "meaning": "A summary that avoids personal opinion and stays factual",
+        "meaning_translation": {
+          "Hindi": "एक सारांश जो व्यक्तिगत राय से बचता है और तथ्यात्मक रहता है",
+          "Japanese": "個人的な意見を避け、事実に基づく要約"
+        },
+        "examples": [
+          {
+            "sentence": "Write an objective summary without adding judgment.",
+            "translation": {
+              "Hindi": "कोई निर्णय जोड़े बिना निष्पक्ष सारांश लिखें।",
+              "Japanese": "判断を加えず客観的な要約を書いてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "integration",
+        "word_translation": {
+          "Hindi": "एकीकरण",
+          "Japanese": "統合"
+        },
+        "meaning": "The act of combining different elements into a coherent whole",
+        "meaning_translation": {
+          "Hindi": "विभिन्न तत्वों को मिलाकर एक सुसंगत संपूर्ण बनाना",
+          "Japanese": "異なる要素を統合して一貫した全体を作ること"
+        },
+        "examples": [
+          {
+            "sentence": "Effective synthesis requires clear integration of sources.",
+            "translation": {
+              "Hindi": "प्रभावी संश्लेषण के लिए स्रोतों का स्पष्ट एकीकरण आवश्यक है।",
+              "Japanese": "効果的な統合には情報源の明確な統合が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evaluation",
+        "word_translation": {
+          "Hindi": "मूल्यांकन",
+          "Japanese": "評価"
+        },
+        "meaning": "A judgment about the value, quality, or significance of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के मूल्य, गुणवत्ता या महत्व का निर्णय",
+          "Japanese": "何かの価値、質、重要性に関する判断"
+        },
+        "examples": [
+          {
+            "sentence": "Critique involves careful evaluation of arguments.",
+            "translation": {
+              "Hindi": "आलोचना में तर्कों का सावधानीपूर्वक मूल्यांकन शामिल होता है।",
+              "Japanese": "批評には議論の慎重な評価が含まれる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "analytical depth",
+        "word_translation": {
+          "Hindi": "विश्लेषणात्मक गहराई",
+          "Japanese": "分析の深さ"
+        },
+        "meaning": "The thoroughness and insight in examining a topic",
+        "meaning_translation": {
+          "Hindi": "किसी विषय की जांच में गहराई और अंतर्दृष्टि",
+          "Japanese": "テーマを調査する際の徹底さと洞察"
+        },
+        "examples": [
+          {
+            "sentence": "Critiques require analytical depth beyond a summary.",
+            "translation": {
+              "Hindi": "आलोचनाओं के लिए सारांश से परे विश्लेषणात्मक गहराई की आवश्यकता होती है।",
+              "Japanese": "批評には要約を超えた分析の深さが必要である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "perspective merging",
+        "word_translation": {
+          "Hindi": "दृष्टिकोणों का संयोजन",
+          "Japanese": "視点の統合"
+        },
+        "meaning": "Combining different viewpoints into one cohesive argument",
+        "meaning_translation": {
+          "Hindi": "विभिन्न दृष्टिकोणों को एक सुसंगत तर्क में मिलाना",
+          "Japanese": "異なる視点を一つのまとまりのある議論に統合すること"
+        },
+        "examples": [
+          {
+            "sentence": "Synthesis often requires perspective merging across studies.",
+            "translation": {
+              "Hindi": "संश्लेषण में अक्सर विभिन्न अध्ययनों के दृष्टिकोणों का संयोजन आवश्यक होता है।",
+              "Japanese": "統合にはしばしば複数の研究の視点の統合が必要になる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "balanced judgment",
+        "word_translation": {
+          "Hindi": "संतुलित निर्णय",
+          "Japanese": "バランスの取れた判断"
+        },
+        "meaning": "A fair evaluation that considers both strengths and weaknesses",
+        "meaning_translation": {
+          "Hindi": "एक निष्पक्ष मूल्यांकन जो ताकत और कमजोरियों दोनों पर विचार करता है",
+          "Japanese": "長所と短所の両方を考慮した公正な評価"
+        },
+        "examples": [
+          {
+            "sentence": "Critiques should show balanced judgment, not bias.",
+            "translation": {
+              "Hindi": "आलोचनाओं को पक्षपात नहीं बल्कि संतुलित निर्णय दिखाना चाहिए।",
+              "Japanese": "批評は偏りではなくバランスの取れた判断を示すべきだ。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Neutral Voice in Summaries",
+        "explanation": "Use simple present and avoid personal pronouns when summarizing.",
+        "explanation_translation": {
+          "Hindi": "सारांश बनाते समय सरल वर्तमान काल का प्रयोग करें और व्यक्तिगत सर्वनामों से बचें।",
+          "Japanese": "要約するときは現在形を使い、一人称などを避けましょう。"
+        }
+      },
+      {
+        "title": "Linking Ideas for Synthesis",
+        "explanation": "Use connectors like 'however', 'similarly', and 'overall' to merge ideas.",
+        "explanation_translation": {
+          "Hindi": "विचारों को जोड़ने के लिए 'however', 'similarly', और 'overall' जैसे संयोजकों का उपयोग करें।",
+          "Japanese": "アイデアをつなぐために「however」「similarly」「overall」などの接続詞を使いましょう。"
+        }
+      },
+      {
+        "title": "Evaluative Language in Critiques",
+        "explanation": "Use verbs like 'demonstrates', 'fails to', and 'overlooks' to evaluate.",
+        "explanation_translation": {
+          "Hindi": "मूल्यांकन करने के लिए 'demonstrates', 'fails to', और 'overlooks' जैसे क्रियाओं का प्रयोग करें।",
+          "Japanese": "評価するために「demonstrates」「fails to」「overlooks」などの動詞を使いましょう。"
+        }
+      },
+      {
+        "title": "Avoid Overgeneralization",
+        "explanation": "Be precise; do not make sweeping claims without evidence.",
+        "explanation_translation": {
+          "Hindi": "सटीक रहें; बिना प्रमाण के व्यापक दावे न करें।",
+          "Japanese": "正確であるようにし、証拠なしに大げさな主張をしないようにしましょう。"
+        }
+      },
+      {
+        "title": "Balanced Hedging",
+        "explanation": "Use phrases like 'appears to', 'may suggest' for careful critique.",
+        "explanation_translation": {
+          "Hindi": "'appears to', 'may suggest' जैसे वाक्यांशों का उपयोग सावधानीपूर्वक आलोचना के लिए करें।",
+          "Japanese": "慎重な批評のために「appears to」「may suggest」などの表現を使いましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means to briefly present the main points of something?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी चीज़ के मुख्य बिंदुओं को संक्षेप में प्रस्तुत करने का अर्थ देता है?",
+        "Japanese": "何かの要点を簡潔に示すことを意味する単語はどれですか？"
+      },
+      "options": [
+        "summarize",
+        "synthesize",
+        "critique"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Writers ___ ideas from multiple sources to create new understanding.",
+      "question_translation": {
+        "Hindi": "लेखक नई समझ बनाने के लिए कई स्रोतों से विचारों को ___ करते हैं।",
+        "Japanese": "作家は新しい理解を作るために複数の情報源からアイデアを___します。"
+      },
+      "options": [
+        "summarize",
+        "synthesize",
+        "critique"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Critique means evaluating something by discussing its strengths and weaknesses.",
+      "question_translation": {
+        "Hindi": "Critique का मतलब किसी चीज़ का मूल्यांकन करना और उसकी ताकत और कमजोरियों पर चर्चा करना है।",
+        "Japanese": "批評とは、何かを評価し、その長所と短所を議論することを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term refers to combining different ideas into a cohesive whole?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द विभिन्न विचारों को मिलाकर एक सुसंगत संपूर्ण बनाने को दर्शाता है?",
+        "Japanese": "異なるアイデアを統合して一貫した全体を作ることを指す用語はどれですか？"
+      },
+      "options": [
+        "integration",
+        "evaluation",
+        "summarize"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "A good critique shows ___ judgment, not bias.",
+      "question_translation": {
+        "Hindi": "एक अच्छी आलोचना ___ निर्णय दिखाती है, पक्षपात नहीं।",
+        "Japanese": "良い批評は偏りではなく___判断を示します。"
+      },
+      "options": [
+        "balanced",
+        "harsh",
+        "quick"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "multipleChoice",
+      "question": "Which sentence is an objective summary?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य एक निष्पक्ष सारांश है?",
+        "Japanese": "どの文が客観的な要約ですか？"
+      },
+      "options": [
+        "The study shows positive results and I think it’s amazing.",
+        "The study investigates climate change impacts and reports temperature rise.",
+        "I dislike how the study was conducted; it seems flawed."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "To merge perspectives from several papers, a researcher must ___ them.",
+      "question_translation": {
+        "Hindi": "कई शोध पत्रों से दृष्टिकोणों को जोड़ने के लिए, शोधकर्ता को उन्हें ___ करना होगा।",
+        "Japanese": "複数の論文の視点を統合するには、研究者はそれらを___する必要があります。"
+      },
+      "options": [
+        "synthesize",
+        "critique",
+        "summarize"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [requires, critique, analytical, depth]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [requires, critique, analytical, depth]",
+        "Japanese": "並べ替え: [requires, critique, analytical, depth]"
+      },
+      "options": [
+        "requires",
+        "critique",
+        "analytical",
+        "depth"
+      ],
+      "answer": [
+        "critique",
+        "requires",
+        "analytical",
+        "depth"
+      ]
+    },
+    {
+      "id": "sent4",
+      "type": "multipleChoice",
+      "question": "Which sentence shows synthesis rather than summary?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सारांश के बजाय संश्लेषण दिखाता है?",
+        "Japanese": "どの文が要約ではなく統合を示していますか？"
+      },
+      "options": [
+        "Study A reports higher rainfall. Study B shows drought effects.",
+        "Combining Study A’s climate data and Study B’s economic analysis shows how rainfall changes affect food prices.",
+        "Study A talks about climate; Study B talks about economy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Good critiques avoid overgeneralization and provide ___ analysis.",
+      "question_translation": {
+        "Hindi": "अच्छी आलोचनाएँ अत्यधिक सामान्यीकरण से बचती हैं और ___ विश्लेषण प्रदान करती हैं।",
+        "Japanese": "良い批評は過度な一般化を避け、___な分析を提供します。"
+      },
+      "options": [
+        "balanced",
+        "random",
+        "biased"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker describe?",
+      "audio_text": "Summarizing involves presenting key points without adding opinion.",
+      "question_translation": {
+        "Hindi": "वक्ता किसका वर्णन कर रहा है?",
+        "Japanese": "話者は何を説明していますか？"
+      },
+      "options": [
+        "Summarizing",
+        "Synthesizing",
+        "Critiquing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says synthesis requires merging ideas from different texts.",
+      "audio_text": "Synthesis means combining different ideas to form a new perspective.",
+      "question_translation": {
+        "Hindi": "वक्ता कहता है कि संश्लेषण विभिन्न पाठों से विचारों को जोड़ने की आवश्यकता होती है।",
+        "Japanese": "話者は統合が異なるテキストからアイデアをまとめる必要があると言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is the focus of a critique?",
+      "audio_text": "Critiquing requires evaluating both strengths and weaknesses of a work.",
+      "question_translation": {
+        "Hindi": "आलोचना का ध्यान किस पर होता है?",
+        "Japanese": "批評の焦点は何ですか？"
+      },
+      "options": [
+        "Listing facts",
+        "Evaluating strengths and weaknesses",
+        "Merging perspectives"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What should summaries avoid according to the speaker?",
+      "audio_text": "A good summary avoids personal judgment and bias.",
+      "question_translation": {
+        "Hindi": "वक्ता के अनुसार सारांश को क्या से बचना चाहिए?",
+        "Japanese": "話者によると要約は何を避けるべきですか？"
+      },
+      "options": [
+        "Adding opinion",
+        "Listing facts",
+        "Using present tense"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker says synthesis can create new insights by merging sources.",
+      "audio_text": "By synthesizing research, writers often generate new insights.",
+      "question_translation": {
+        "Hindi": "वक्ता कहता है कि संश्लेषण स्रोतों को मिलाकर नए दृष्टिकोण पैदा कर सकता है।",
+        "Japanese": "話者は、統合によって新しい洞察が生まれると言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Summaries must stay neutral and factual.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Summaries must stay neutral and factual.'",
+        "Japanese": "言ってください: 'Summaries must stay neutral and factual.'"
+      },
+      "options": [],
+      "answer": "summaries must stay neutral and factual"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Synthesizing research can reveal new insights.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Synthesizing research can reveal new insights.'",
+        "Japanese": "言ってください: 'Synthesizing research can reveal new insights.'"
+      },
+      "options": [],
+      "answer": "synthesizing research can reveal new insights"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'A critique evaluates strengths and weaknesses.'",
+      "question_translation": {
+        "Hindi": "कहें: 'A critique evaluates strengths and weaknesses.'",
+        "Japanese": "言ってください: 'A critique evaluates strengths and weaknesses.'"
+      },
+      "options": [],
+      "answer": "a critique evaluates strengths and weaknesses"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Integration is vital for synthesis.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Integration is vital for synthesis.'",
+        "Japanese": "言ってください: 'Integration is vital for synthesis.'"
+      },
+      "options": [],
+      "answer": "integration is vital for synthesis"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Balanced judgment makes a critique fair.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Balanced judgment makes a critique fair.'",
+        "Japanese": "言ってください: 'Balanced judgment makes a critique fair.'"
+      },
+      "options": [],
+      "answer": "balanced judgment makes a critique fair"
+    }
+  ]
+}
+
 }

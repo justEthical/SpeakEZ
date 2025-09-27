@@ -1,215 +1,577 @@
 {
-  "id": "lesson_exploring_theories_of_consciousness_c2_001",
-  "lesson_name": "Exploring Theories of Consciousness",
-  "purpose": "Academic, Philosophy, Psychology",
+  "id": "lesson_register_mastery_001",
+  "lesson_name": "Register Mastery: Legal/Academic/Journalistic",
+  "purpose": "All",
   "cefrLevel": "C2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "qualia", "meaning": "the subjective qualities of conscious experience" },
-      { "word": "phenomenology", "meaning": "the study of conscious experience from the first-person perspective" },
-      { "word": "dualism", "meaning": "the theory that mind and body are separate" },
-      { "word": "panpsychism", "meaning": "the view that consciousness is a universal feature of all things" },
-      { "word": "emergentism", "meaning": "the idea that consciousness arises from complex physical processes" },
-      { "word": "materialism", "meaning": "the belief that only physical matter exists and mind is a product of it" },
-      { "word": "subjectivity", "meaning": "the quality of experiences being unique to the individual" },
-      { "word": "introspection", "meaning": "examining one's own conscious thoughts and feelings" },
-      { "word": "hard problem", "meaning": "the challenge of explaining how and why we have subjective experiences" },
-      { "word": "neural correlates", "meaning": "the brain processes that correspond with conscious states" }
+      {
+        "word": "register",
+        "word_translation": {
+          "Hindi": "भाषा स्तर / शैली",
+          "Japanese": "レジスター（言語の様式）"
+        },
+        "meaning": "A level or style of language used in a particular social or professional setting",
+        "meaning_translation": {
+          "Hindi": "किसी विशेष सामाजिक या पेशेवर संदर्भ में उपयोग की जाने वाली भाषा का स्तर या शैली",
+          "Japanese": "特定の社会的または専門的な場面で使われる言語の水準や様式"
+        },
+        "examples": [
+          {
+            "sentence": "Legal register is more formal than everyday speech.",
+            "translation": {
+              "Hindi": "कानूनी शैली रोजमर्रा की बातचीत से अधिक औपचारिक होती है।",
+              "Japanese": "法律のレジスターは日常会話よりも形式的です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "legalese",
+        "word_translation": {
+          "Hindi": "कानूनी भाषा",
+          "Japanese": "法律用語体"
+        },
+        "meaning": "Formal and often complex language used in legal documents",
+        "meaning_translation": {
+          "Hindi": "कानूनी दस्तावेज़ों में प्रयुक्त औपचारिक और अक्सर जटिल भाषा",
+          "Japanese": "法律文書で使われる形式的で複雑な言葉遣い"
+        },
+        "examples": [
+          {
+            "sentence": "The contract was full of legalese like 'hereinafter referred to as'.",
+            "translation": {
+              "Hindi": "अनुबंध में 'यहां बाद में संदर्भित किया जाएगा' जैसी कानूनी भाषा भरी हुई थी।",
+              "Japanese": "契約書には「以下本契約書」といった法律用語が多く含まれていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "academic register",
+        "word_translation": {
+          "Hindi": "शैक्षणिक भाषा शैली",
+          "Japanese": "学術的レジスター"
+        },
+        "meaning": "Formal, precise, and objective language used in scholarly writing",
+        "meaning_translation": {
+          "Hindi": "औपचारिक, सटीक और निष्पक्ष भाषा जो शैक्षणिक लेखन में प्रयोग की जाती है",
+          "Japanese": "学術的な文章で使われる形式的で正確かつ客観的な言葉遣い"
+        },
+        "examples": [
+          {
+            "sentence": "The study demonstrates a significant correlation between the variables.",
+            "translation": {
+              "Hindi": "अध्ययन चर के बीच एक महत्वपूर्ण सहसंबंध प्रदर्शित करता है।",
+              "Japanese": "この研究は変数間に有意な相関があることを示している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "journalistic register",
+        "word_translation": {
+          "Hindi": "पत्रकारीय भाषा शैली",
+          "Japanese": "ジャーナリスティック・レジスター"
+        },
+        "meaning": "Clear, concise, and engaging language used in news writing",
+        "meaning_translation": {
+          "Hindi": "समाचार लेखन में प्रयुक्त स्पष्ट, संक्षिप्त और आकर्षक भाषा",
+          "Japanese": "ニュース記事で使われる明確で簡潔かつ読者を引きつける言葉遣い"
+        },
+        "examples": [
+          {
+            "sentence": "Officials announced a new policy to improve safety in schools.",
+            "translation": {
+              "Hindi": "अधिकारियों ने स्कूलों में सुरक्षा में सुधार के लिए नई नीति की घोषणा की।",
+              "Japanese": "当局は学校の安全性向上のための新しい政策を発表した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "objectivity",
+        "word_translation": {
+          "Hindi": "वस्तुनिष्ठता",
+          "Japanese": "客観性"
+        },
+        "meaning": "The quality of being neutral and fact-based",
+        "meaning_translation": {
+          "Hindi": "तटस्थ और तथ्यों पर आधारित होने की गुणवत्ता",
+          "Japanese": "中立的で事実に基づいている性質"
+        },
+        "examples": [
+          {
+            "sentence": "Academic writing strives for objectivity.",
+            "translation": {
+              "Hindi": "शैक्षणिक लेखन वस्तुनिष्ठता की ओर प्रयास करता है।",
+              "Japanese": "学術的な文章は客観性を目指します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formality",
+        "word_translation": {
+          "Hindi": "औपचारिकता",
+          "Japanese": "形式性"
+        },
+        "meaning": "The degree of seriousness and adherence to conventions in language",
+        "meaning_translation": {
+          "Hindi": "भाषा में गंभीरता और परंपराओं के पालन की डिग्री",
+          "Japanese": "言語における厳粛さと慣習への従順の度合い"
+        },
+        "examples": [
+          {
+            "sentence": "Legal writing requires a high level of formality.",
+            "translation": {
+              "Hindi": "कानूनी लेखन में उच्च स्तर की औपचारिकता की आवश्यकता होती है।",
+              "Japanese": "法律文書には高度な形式性が求められます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "headline style",
+        "word_translation": {
+          "Hindi": "शीर्षक शैली",
+          "Japanese": "見出しスタイル"
+        },
+        "meaning": "A short and impactful way of writing, typical of journalism headlines",
+        "meaning_translation": {
+          "Hindi": "संक्षिप्त और प्रभावशाली लेखन शैली, जो पत्रकारिता शीर्षकों में आम है",
+          "Japanese": "短くインパクトのある書き方で、ニュースの見出しに典型的です"
+        },
+        "examples": [
+          {
+            "sentence": "Government Approves New Tax Policy.",
+            "translation": {
+              "Hindi": "सरकार ने नई कर नीति को मंजूरी दी।",
+              "Japanese": "政府が新しい税制を承認。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "citation",
+        "word_translation": {
+          "Hindi": "संदर्भ",
+          "Japanese": "引用"
+        },
+        "meaning": "A reference to a source used in academic or legal texts",
+        "meaning_translation": {
+          "Hindi": "शैक्षणिक या कानूनी पाठों में प्रयुक्त स्रोत का उल्लेख",
+          "Japanese": "学術または法律文書で使用する情報源の参照"
+        },
+        "examples": [
+          {
+            "sentence": "The article included citations to previous research.",
+            "translation": {
+              "Hindi": "लेख में पिछले शोध के संदर्भ शामिल थे।",
+              "Japanese": "その記事には先行研究への引用が含まれていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "neutral tone",
+        "word_translation": {
+          "Hindi": "तटस्थ स्वर",
+          "Japanese": "中立的なトーン"
+        },
+        "meaning": "A way of writing that avoids strong emotions or bias",
+        "meaning_translation": {
+          "Hindi": "ऐसा लेखन जो मजबूत भावनाओं या पक्षपात से बचता है",
+          "Japanese": "強い感情や偏見を避けた書き方"
+        },
+        "examples": [
+          {
+            "sentence": "Academic papers usually keep a neutral tone.",
+            "translation": {
+              "Hindi": "शैक्षणिक पत्र आमतौर पर तटस्थ स्वर बनाए रखते हैं।",
+              "Japanese": "学術論文は通常中立的なトーンを保ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "informative style",
+        "word_translation": {
+          "Hindi": "सूचनात्मक शैली",
+          "Japanese": "情報提供型スタイル"
+        },
+        "meaning": "A clear way of writing that aims to inform the audience",
+        "meaning_translation": {
+          "Hindi": "एक स्पष्ट लेखन शैली जो दर्शकों को सूचित करने का उद्देश्य रखती है",
+          "Japanese": "読者に情報を提供することを目的とした明確な書き方"
+        },
+        "examples": [
+          {
+            "sentence": "Journalistic writing uses an informative style to report facts.",
+            "translation": {
+              "Hindi": "पत्रकारीय लेखन तथ्यों की रिपोर्ट करने के लिए सूचनात्मक शैली का उपयोग करता है।",
+              "Japanese": "ジャーナリズムの文章は事実を報告するために情報提供型スタイルを用います。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Nominalization in Academic Writing",
-        "explanation": "Turn verbs or adjectives into nouns for formality: 'to perceive' → 'perception'."
+        "title": "Match Register to Audience",
+        "explanation": "Use formal legal language for contracts, academic style for research, and clear concise language for news.",
+        "explanation_translation": {
+          "Hindi": "अनुबंधों के लिए औपचारिक कानूनी भाषा, शोध के लिए शैक्षणिक शैली और समाचार के लिए स्पष्ट संक्षिप्त भाषा का उपयोग करें।",
+          "Japanese": "契約には正式な法律用語、研究には学術的スタイル、ニュースには明確で簡潔な言葉を使いましょう。"
+        }
       },
       {
-        "title": "Complex Conditional Structures",
-        "explanation": "Use advanced conditionals: 'If consciousness were fully understood, many debates would cease.'"
+        "title": "Avoid Legalese in Non-Legal Contexts",
+        "explanation": "Outside of law, overly complex legal terms can confuse readers.",
+        "explanation_translation": {
+          "Hindi": "कानून के बाहर, अत्यधिक जटिल कानूनी शब्द पाठकों को भ्रमित कर सकते हैं।",
+          "Japanese": "法律以外の場面では、複雑すぎる法律用語は読者を混乱させる可能性があります。"
+        }
+      },
+      {
+        "title": "Keep Academic Writing Objective",
+        "explanation": "Use cautious language and cite sources to maintain credibility.",
+        "explanation_translation": {
+          "Hindi": "विश्वसनीयता बनाए रखने के लिए सावधानीपूर्ण भाषा का उपयोग करें और स्रोतों को उद्धृत करें।",
+          "Japanese": "信頼性を保つために慎重な言葉を使い、出典を引用しましょう。"
+        }
+      },
+      {
+        "title": "Use Headline Style for Impact",
+        "explanation": "Journalistic writing benefits from short, powerful headlines that grab attention.",
+        "explanation_translation": {
+          "Hindi": "पत्रकारीय लेखन में छोटे और प्रभावशाली शीर्षक का उपयोग ध्यान आकर्षित करने के लिए करें।",
+          "Japanese": "ジャーナリズムでは短く力強い見出しが注目を集めるのに役立ちます。"
+        }
+      },
+      {
+        "title": "Balance Formality and Clarity",
+        "explanation": "High formality should not sacrifice clarity; adapt register to context.",
+        "explanation_translation": {
+          "Hindi": "अत्यधिक औपचारिकता से स्पष्टता नहीं घटनी चाहिए; संदर्भ के अनुसार शैली अपनाएँ।",
+          "Japanese": "高い形式性でも明確さを失わないようにし、文脈に合わせてレジスターを調整しましょう。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "The hard problem of consciousness remains unsolved despite advances in neuroscience.", "translation": "" },
-      { "sentence": "Dualism posits a fundamental difference between mind and body.", "translation": "" },
-      { "sentence": "Phenomenology prioritizes first-person accounts of experience.", "translation": "" },
-      { "sentence": "Panpsychism challenges the traditional materialist perspective.", "translation": "" },
-      { "sentence": "Introspection is often used as a tool in the study of consciousness.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What does 'qualia' refer to?",
-        "options": [
-          "Objective measurements",
-          "The subjective qualities of experience",
-          "A type of neural process"
-        ],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term means the style or level of language used in a specific context?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी विशेष संदर्भ में प्रयुक्त भाषा की शैली या स्तर को दर्शाता है?",
+        "Japanese": "特定の状況で使われる言語の様式や水準を指す用語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "___ is the theory that mind and body are separate.",
-        "options": ["Emergentism", "Dualism", "Materialism"],
-        "answer": 1
+      "options": [
+        "Register",
+        "Headline style",
+        "Citation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Complex legal documents often use ___.",
+      "question_translation": {
+        "Hindi": "जटिल कानूनी दस्तावेज़ अक्सर ___ का उपयोग करते हैं।",
+        "Japanese": "複雑な法律文書ではしばしば___が使われます。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "Panpsychism claims that consciousness is present in all things.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "legalese",
+        "headline style",
+        "journalistic register"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Academic writing usually tries to be objective and precise.",
+      "question_translation": {
+        "Hindi": "शैक्षणिक लेखन आमतौर पर वस्तुनिष्ठ और सटीक होने की कोशिश करता है।",
+        "Japanese": "学術的な文章は通常、客観的かつ正確であろうとします。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which term describes the brain activity linked to conscious states?",
-        "options": [
-          "Subjectivity",
-          "Neural correlates",
-          "Phenomenology"
-        ],
-        "answer": 1
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which style is most common in news articles?",
+      "question_translation": {
+        "Hindi": "समाचार लेखों में कौन सी शैली सबसे आम है?",
+        "Japanese": "ニュース記事で最も一般的なスタイルはどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "fillInTheBlanks",
-        "question": "The ___ problem refers to the challenge of explaining subjective experience.",
-        "options": ["easy", "hard", "neural"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "___ involves examining one's own conscious thoughts.",
-        "options": ["Emergentism", "Introspection", "Dualism"],
-        "answer": 1
+      "options": [
+        "Journalistic register",
+        "Legalese",
+        "Academic register"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Academic papers require proper source ___.",
+      "question_translation": {
+        "Hindi": "शैक्षणिक पत्रों में उचित स्रोत ___ की आवश्यकता होती है।",
+        "Japanese": "学術論文には適切な出典の___が必要です。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "___ prioritizes first-person accounts of experience.",
-        "options": ["Materialism", "Phenomenology", "Panpsychism"],
-        "answer": 1
+      "options": [
+        "citation",
+        "headline",
+        "formality"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [study, significant, a, found, correlation]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [study, significant, a, found, correlation]",
+        "Japanese": "並べ替え: [study, significant, a, found, correlation]"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [remains, of, the, a, consciousness, hard, problem, unresolved]",
-        "options": ["remains", "of", "the", "a", "consciousness", "hard", "problem", "unresolved"],
-        "answer": ["The", "hard", "problem", "of", "consciousness", "remains", "unresolved"]
+      "options": [
+        "study",
+        "significant",
+        "a",
+        "found",
+        "correlation"
+      ],
+      "answer": [
+        "A",
+        "study",
+        "found",
+        "a",
+        "significant",
+        "correlation"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Journalistic writing often uses a ___ style to attract readers.",
+      "question_translation": {
+        "Hindi": "पत्रकारीय लेखन अक्सर पाठकों को आकर्षित करने के लिए ___ शैली का उपयोग करता है।",
+        "Japanese": "ジャーナリズムの文章は読者を引きつけるためにしばしば___スタイルを使います。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "Materialism argues that only ___ matter exists.",
-        "options": ["physical", "spiritual", "subjective"],
-        "answer": 0
+      "options": [
+        "headline",
+        "neutral",
+        "legalese"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence fits academic register?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य शैक्षणिक शैली में फिट बैठता है?",
+        "Japanese": "どの文が学術的なレジスターに当てはまりますか？"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [from, arises, complex, emergentism, physical, that, processes, suggests, consciousness]",
-        "options": ["from", "arises", "complex", "emergentism", "physical", "that", "processes", "suggests", "consciousness"],
-        "answer": ["Emergentism", "suggests", "that", "consciousness", "arises", "from", "complex", "physical", "processes"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "Which theory states that the mind and body are fundamentally different?",
-        "options": [
-          "Dualism",
-          "Materialism",
-          "Emergentism"
-        ],
-        "answer": 0
+      "options": [
+        "This research demonstrates a notable impact on the economy.",
+        "We saw a big effect on the economy.",
+        "The economy got really affected."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [policy, safety, to, improve, aims, new, The]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [policy, safety, to, improve, aims, new, The]",
+        "Japanese": "並べ替え: [policy, safety, to, improve, aims, new, The]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What is the focus of phenomenology?",
-        "options": [
-          "Neural activity",
-          "First-person conscious experience",
-          "Objective behavior"
-        ],
-        "answer": 1
+      "options": [
+        "policy",
+        "safety",
+        "to",
+        "improve",
+        "aims",
+        "new",
+        "The"
+      ],
+      "answer": [
+        "The",
+        "new",
+        "policy",
+        "aims",
+        "to",
+        "improve",
+        "safety"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Legal contracts demand high levels of ___.",
+      "question_translation": {
+        "Hindi": "कानूनी अनुबंधों में उच्च स्तर की ___ की आवश्यकता होती है।",
+        "Japanese": "法的契約には高度な___が求められます。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Which problem asks why we have subjective experience?",
-        "options": [
-          "Easy problem",
-          "Hard problem",
-          "Practical problem"
-        ],
-        "answer": 1
+      "options": [
+        "formality",
+        "neutrality",
+        "headline"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which register is the speaker using: 'The party of the first part agrees to...'?",
+      "audio_text": "The party of the first part agrees to fulfill the obligations herein.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी शैली का उपयोग कर रहा है: 'The party of the first part agrees to...'?",
+        "Japanese": "「The party of the first part agrees to...」はどのレジスターですか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "Which theory suggests consciousness is a property of all matter?",
-        "options": [
-          "Materialism",
-          "Dualism",
-          "Panpsychism"
-        ],
-        "answer": 2
+      "options": [
+        "Legal register",
+        "Academic register",
+        "Journalistic register"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "Which style: 'The study provides evidence supporting the hypothesis'?",
+      "audio_text": "The study provides evidence supporting the hypothesis.",
+      "question_translation": {
+        "Hindi": "'The study provides evidence supporting the hypothesis' किस शैली में है?",
+        "Japanese": "「The study provides evidence supporting the hypothesis」はどのスタイルですか？"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "What are neural correlates of consciousness?",
-        "options": [
-          "Subjective experiences",
-          "Brain activities related to consciousness",
-          "First-person reports"
-        ],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Compare materialism and dualism as theories of consciousness.",
-        "options": [],
-        "answer": "Materialism claims mind is a product of matter, while dualism argues mind and body are distinct substances."
+      "options": [
+        "Academic register",
+        "Legalese",
+        "Journalistic headline"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "Journalistic register tends to be engaging and easy to read.",
+      "audio_text": "Journalistic register tends to be engaging and easy to read.",
+      "question_translation": {
+        "Hindi": "पत्रकारीय शैली आकर्षक और पढ़ने में आसान होती है।",
+        "Japanese": "ジャーナリスティックなレジスターは魅力的で読みやすい傾向があります。"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Explain the 'hard problem' of consciousness in your own words.",
-        "options": [],
-        "answer": "The 'hard problem' concerns why and how subjective experiences arise from brain processes."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is the tone of: 'Government passes new education bill to boost literacy'?",
+      "audio_text": "Government passes new education bill to boost literacy.",
+      "question_translation": {
+        "Hindi": "'Government passes new education bill to boost literacy' का स्वर क्या है?",
+        "Japanese": "「Government passes new education bill to boost literacy」のトーンは何ですか？"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Describe a critique of panpsychism.",
-        "options": [],
-        "answer": "A critique of panpsychism is that it is difficult to test or provide evidence for consciousness in all matter."
+      "options": [
+        "Journalistic",
+        "Legal",
+        "Academic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which register avoids emotion and uses formal citation?",
+      "audio_text": "According to Smith (2021), economic reforms increased productivity.",
+      "question_translation": {
+        "Hindi": "कौन सी शैली भावनाओं से बचती है और औपचारिक संदर्भ का उपयोग करती है?",
+        "Japanese": "感情を避け、正式な引用を使うのはどのレジスターですか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Summarize the importance of introspection in the study of consciousness.",
-        "options": [],
-        "answer": "Introspection allows researchers to access personal, subjective experiences that are central to consciousness studies."
+      "options": [
+        "Academic register",
+        "Journalistic",
+        "Legalese"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The undersigned agrees to the terms stated herein.' (legal)",
+      "question_translation": {
+        "Hindi": "कहें: 'The undersigned agrees to the terms stated herein.' (कानूनी)",
+        "Japanese": "言ってください: 'The undersigned agrees to the terms stated herein.'（法律文体）"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Discuss how emergentism addresses the complexity of conscious experience.",
-        "options": [],
-        "answer": "Emergentism suggests that consciousness results from complex interactions among physical systems, not reducible to simpler elements."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "the undersigned agrees to the terms stated herein"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'This research demonstrates a significant link between the factors.' (academic)",
+      "question_translation": {
+        "Hindi": "कहें: 'This research demonstrates a significant link between the factors.' (शैक्षणिक)",
+        "Japanese": "言ってください: 'This research demonstrates a significant link between the factors.'（学術的）"
+      },
+      "options": [],
+      "answer": "this research demonstrates a significant link between the factors"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'New policy announced to improve workplace safety.' (journalistic)",
+      "question_translation": {
+        "Hindi": "कहें: 'New policy announced to improve workplace safety.' (पत्रकारीय)",
+        "Japanese": "言ってください: 'New policy announced to improve workplace safety.'（ジャーナリズム）"
+      },
+      "options": [],
+      "answer": "new policy announced to improve workplace safety"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'According to the evidence presented, the claim is valid.' (academic)",
+      "question_translation": {
+        "Hindi": "कहें: 'According to the evidence presented, the claim is valid.' (शैक्षणिक)",
+        "Japanese": "言ってください: 'According to the evidence presented, the claim is valid.'（学術的）"
+      },
+      "options": [],
+      "answer": "according to the evidence presented the claim is valid"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Hereinafter, the party shall be referred to as the Contractor.' (legal)",
+      "question_translation": {
+        "Hindi": "कहें: 'Hereinafter, the party shall be referred to as the Contractor.' (कानूनी)",
+        "Japanese": "言ってください: 'Hereinafter, the party shall be referred to as the Contractor.'（法律文体）"
+      },
+      "options": [],
+      "answer": "hereinafter the party shall be referred to as the contractor"
+    }
+  ]
+}
+
 }

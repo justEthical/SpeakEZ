@@ -1,4 +1,575 @@
 {
-  "id": 38,
-  "message": "This is file number 38"
+  "id": "lesson_crisis_communication_reputation_c2",
+  "lesson_name": "Crisis Communication & Reputation",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "crisis communication",
+        "word_translation": {
+          "Hindi": "संकट संचार",
+          "Japanese": "危機対応コミュニケーション"
+        },
+        "meaning": "Strategic messaging during a sudden, threatening situation to protect an organization’s image",
+        "meaning_translation": {
+          "Hindi": "किसी संगठन की छवि की रक्षा के लिए अचानक और खतरे की स्थिति में रणनीतिक संदेश देना",
+          "Japanese": "組織のイメージを守るために突発的で危機的な状況で行う戦略的なメッセージ伝達"
+        },
+        "examples": [
+          {
+            "sentence": "The company’s crisis communication plan minimized public backlash.",
+            "translation": {
+              "Hindi": "कंपनी की संकट संचार योजना ने सार्वजनिक विरोध को कम कर दिया।",
+              "Japanese": "その会社の危機対応コミュニケーション計画は世論の反発を最小限に抑えました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reputation management",
+        "word_translation": {
+          "Hindi": "प्रतिष्ठा प्रबंधन",
+          "Japanese": "評判管理"
+        },
+        "meaning": "The practice of shaping and maintaining how an organization or person is perceived",
+        "meaning_translation": {
+          "Hindi": "किसी संगठन या व्यक्ति की धारणा को आकार देने और बनाए रखने की प्रक्रिया",
+          "Japanese": "組織や個人のイメージを形成・維持する取り組み"
+        },
+        "examples": [
+          {
+            "sentence": "Reputation management is vital after a public scandal.",
+            "translation": {
+              "Hindi": "किसी सार्वजनिक घोटाले के बाद प्रतिष्ठा प्रबंधन महत्वपूर्ण होता है।",
+              "Japanese": "評判管理は公のスキャンダルの後に不可欠です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stakeholder",
+        "word_translation": {
+          "Hindi": "हितधारक",
+          "Japanese": "利害関係者"
+        },
+        "meaning": "Anyone with an interest in an organization’s actions, such as customers, investors, or employees",
+        "meaning_translation": {
+          "Hindi": "ऐसा व्यक्ति जिसका किसी संगठन की गतिविधियों में हित हो, जैसे ग्राहक, निवेशक या कर्मचारी",
+          "Japanese": "顧客、投資家、従業員など、組織の行動に利害を持つ人"
+        },
+        "examples": [
+          {
+            "sentence": "Clear communication with stakeholders is crucial during a crisis.",
+            "translation": {
+              "Hindi": "संकट के दौरान हितधारकों के साथ स्पष्ट संचार महत्वपूर्ण है।",
+              "Japanese": "危機の際には利害関係者との明確なコミュニケーションが重要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "public perception",
+        "word_translation": {
+          "Hindi": "सार्वजनिक धारणा",
+          "Japanese": "世間の認識"
+        },
+        "meaning": "The way the general public views a person or organization",
+        "meaning_translation": {
+          "Hindi": "सामान्य जनता किसी व्यक्ति या संगठन को कैसे देखती है",
+          "Japanese": "一般の人々が個人や組織をどのように見ているか"
+        },
+        "examples": [
+          {
+            "sentence": "Public perception shifted positively after the company’s apology.",
+            "translation": {
+              "Hindi": "कंपनी की माफ़ी के बाद सार्वजनिक धारणा सकारात्मक हो गई।",
+              "Japanese": "会社の謝罪後、世間の認識は前向きに変わりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "damage control",
+        "word_translation": {
+          "Hindi": "नुकसान नियंत्रण",
+          "Japanese": "被害の最小化"
+        },
+        "meaning": "Actions taken to limit the harm to reputation after a crisis",
+        "meaning_translation": {
+          "Hindi": "संकट के बाद प्रतिष्ठा को नुकसान से बचाने के लिए उठाए गए कदम",
+          "Japanese": "危機の後、評判への被害を最小限にするための行動"
+        },
+        "examples": [
+          {
+            "sentence": "Quick damage control saved the brand from losing customers.",
+            "translation": {
+              "Hindi": "त्वरित नुकसान नियंत्रण ने ब्रांड को ग्राहकों को खोने से बचाया।",
+              "Japanese": "迅速な被害の最小化がブランドを顧客喪失から救いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transparency",
+        "word_translation": {
+          "Hindi": "पारदर्शिता",
+          "Japanese": "透明性"
+        },
+        "meaning": "Openly sharing truthful information, even when it’s difficult",
+        "meaning_translation": {
+          "Hindi": "सच को खुले तौर पर साझा करना, भले ही यह कठिन हो",
+          "Japanese": "たとえ難しくても真実をオープンに共有すること"
+        },
+        "examples": [
+          {
+            "sentence": "Transparency during a crisis builds long-term trust.",
+            "translation": {
+              "Hindi": "संकट के दौरान पारदर्शिता दीर्घकालिक विश्वास बनाती है।",
+              "Japanese": "危機の際の透明性は長期的な信頼を築きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "press release",
+        "word_translation": {
+          "Hindi": "प्रेस विज्ञप्ति",
+          "Japanese": "プレスリリース"
+        },
+        "meaning": "An official statement issued to the media to share important information",
+        "meaning_translation": {
+          "Hindi": "महत्वपूर्ण जानकारी साझा करने के लिए मीडिया को जारी किया गया आधिकारिक बयान",
+          "Japanese": "重要な情報をメディアに提供するための公式声明"
+        },
+        "examples": [
+          {
+            "sentence": "The CEO issued a press release addressing the data breach.",
+            "translation": {
+              "Hindi": "सीईओ ने डेटा चोरी पर एक प्रेस विज्ञप्ति जारी की।",
+              "Japanese": "CEOはデータ漏洩に関するプレスリリースを発表しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "apology strategy",
+        "word_translation": {
+          "Hindi": "माफी रणनीति",
+          "Japanese": "謝罪戦略"
+        },
+        "meaning": "A planned approach to saying sorry and rebuilding trust after a mistake",
+        "meaning_translation": {
+          "Hindi": "गलती के बाद माफी मांगने और विश्वास बहाल करने के लिए बनाई गई रणनीति",
+          "Japanese": "失敗後に謝罪し、信頼を取り戻すための計画的な方法"
+        },
+        "examples": [
+          {
+            "sentence": "The company’s apology strategy focused on empathy and solutions.",
+            "translation": {
+              "Hindi": "कंपनी की माफी रणनीति सहानुभूति और समाधान पर केंद्रित थी।",
+              "Japanese": "会社の謝罪戦略は共感と解決策に焦点を当てていました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "social listening",
+        "word_translation": {
+          "Hindi": "सोशल मीडिया निगरानी",
+          "Japanese": "ソーシャルリスニング"
+        },
+        "meaning": "Monitoring social media to understand public opinion and respond quickly",
+        "meaning_translation": {
+          "Hindi": "सोशल मीडिया पर नज़र रखना ताकि सार्वजनिक राय को समझा जा सके और जल्दी प्रतिक्रिया दी जा सके",
+          "Japanese": "世論を理解し迅速に対応するためにソーシャルメディアを監視すること"
+        },
+        "examples": [
+          {
+            "sentence": "Social listening revealed customers’ main concerns after the incident.",
+            "translation": {
+              "Hindi": "सोशल मीडिया निगरानी ने घटना के बाद ग्राहकों की मुख्य चिंताओं का पता लगाया।",
+              "Japanese": "ソーシャルリスニングにより事件後の顧客の主な懸念が明らかになりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "brand resilience",
+        "word_translation": {
+          "Hindi": "ब्रांड की लचीलापन",
+          "Japanese": "ブランドのレジリエンス"
+        },
+        "meaning": "The ability of a brand to recover and maintain trust after a crisis",
+        "meaning_translation": {
+          "Hindi": "संकट के बाद विश्वास बनाए रखने और पुनः स्थापित करने की ब्रांड की क्षमता",
+          "Japanese": "危機後に信頼を維持・回復するブランドの能力"
+        },
+        "examples": [
+          {
+            "sentence": "Strong brand resilience helped the company recover from the scandal.",
+            "translation": {
+              "Hindi": "मजबूत ब्रांड लचीलापन ने कंपनी को घोटाले से उबरने में मदद की।",
+              "Japanese": "強いブランドのレジリエンスがその会社のスキャンダルからの回復を支えました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Passive Voice in Crisis Statements",
+        "explanation": "Passive voice can de-emphasize blame and focus on actions taken. Example: 'The issue has been addressed.'",
+        "explanation_translation": {
+          "Hindi": "निष्क्रिय वाक्य रचना दोषारोपण को कम कर सकती है और उठाए गए कदमों पर ध्यान केंद्रित कर सकती है। उदाहरण: 'The issue has been addressed.'",
+          "Japanese": "受動態は非難を和らげ、取られた行動に焦点を当てられます。例：'The issue has been addressed.'"
+        }
+      },
+      {
+        "title": "Using Hedging for Uncertain Situations",
+        "explanation": "Phrases like 'currently investigating' or 'may be affected' can show caution without sounding evasive.",
+        "explanation_translation": {
+          "Hindi": "'currently investigating' या 'may be affected' जैसे वाक्यांश सतर्कता दिखाते हैं बिना टालमटोल लगे।",
+          "Japanese": "「currently investigating」や「may be affected」などの表現は、逃げている印象を与えずに慎重さを示せます。"
+        }
+      },
+      {
+        "title": "Balancing Empathy and Professionalism",
+        "explanation": "Combine sincere apologies with clear next steps to maintain credibility.",
+        "explanation_translation": {
+          "Hindi": "ईमानदार माफी के साथ स्पष्ट अगले कदम जोड़ें ताकि विश्वसनीयता बनी रहे।",
+          "Japanese": "誠実な謝罪と明確な次のステップを組み合わせて信頼性を維持します。"
+        }
+      },
+      {
+        "title": "Using Strong Modal Verbs for Action",
+        "explanation": "Modal verbs like 'will', 'must', and 'should' convey commitment to solving issues.",
+        "explanation_translation": {
+          "Hindi": "'will', 'must', और 'should' जैसे शब्द समस्या सुलझाने के प्रति प्रतिबद्धता दिखाते हैं।",
+          "Japanese": "「will」「must」「should」などのモーダル動詞は、問題解決への取り組みを示します。"
+        }
+      },
+      {
+        "title": "Avoiding Overgeneralization",
+        "explanation": "Be precise in crisis messages; avoid vague statements like 'things are under control' without details.",
+        "explanation_translation": {
+          "Hindi": "संकट संदेशों में सटीक रहें; 'things are under control' जैसे अस्पष्ट कथनों से बचें।",
+          "Japanese": "危機時のメッセージは正確にし、「things are under control」のような曖昧な表現は避けましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrase means strategic messaging during a sudden, threatening situation?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश अचानक और खतरनाक स्थिति के दौरान रणनीतिक संदेश देने को दर्शाता है?",
+        "Japanese": "突発的で危機的な状況における戦略的メッセージ伝達を意味するフレーズはどれですか？"
+      },
+      "options": [
+        "damage control",
+        "crisis communication",
+        "social listening"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Actions taken to limit harm to reputation after a crisis are called damage ___.",
+      "question_translation": {
+        "Hindi": "संकट के बाद प्रतिष्ठा को नुकसान से बचाने के लिए उठाए गए कदमों को नुकसान ___ कहा जाता है।",
+        "Japanese": "危機後に評判への被害を最小限にするための行動はdamage___と呼ばれます。"
+      },
+      "options": [
+        "control",
+        "prevention",
+        "strategy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Transparency during a crisis helps build long-term trust.",
+      "question_translation": {
+        "Hindi": "संकट के दौरान पारदर्शिता दीर्घकालिक विश्वास बनाने में मदद करती है।",
+        "Japanese": "危機の際の透明性は長期的な信頼を築くのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term means monitoring social media to understand public opinion?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द सोशल मीडिया पर नज़र रखने और सार्वजनिक राय समझने को दर्शाता है?",
+        "Japanese": "世論を理解するためにソーシャルメディアを監視することを意味する用語はどれですか？"
+      },
+      "options": [
+        "brand resilience",
+        "public perception",
+        "social listening"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "A planned approach to saying sorry and rebuilding trust is an apology ___.",
+      "question_translation": {
+        "Hindi": "माफी मांगने और विश्वास बहाल करने के लिए बनाई गई योजना को माफी ___ कहा जाता है।",
+        "Japanese": "謝罪と信頼回復のための計画的なアプローチはapology___と呼ばれます。"
+      },
+      "options": [
+        "plan",
+        "strategy",
+        "release"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [clear, stakeholders, communication, with, is, crucial]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [clear, stakeholders, communication, with, is, crucial]",
+        "Japanese": "並べ替え: [clear, stakeholders, communication, with, is, crucial]"
+      },
+      "options": [
+        "clear",
+        "communication",
+        "with",
+        "stakeholders",
+        "is",
+        "crucial"
+      ],
+      "answer": [
+        "clear",
+        "communication",
+        "with",
+        "stakeholders",
+        "is",
+        "crucial"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Public ___ can change quickly during a crisis if communication is poor.",
+      "question_translation": {
+        "Hindi": "यदि संचार खराब हो तो संकट के दौरान सार्वजनिक ___ जल्दी बदल सकती है।",
+        "Japanese": "危機の際、コミュニケーションが不十分だと世間の___はすぐに変わる可能性があります。"
+      },
+      "options": [
+        "perception",
+        "management",
+        "resilience"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses passive voice to reduce blame?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य दोषारोपण को कम करने के लिए निष्क्रिय वाक्य रचना का उपयोग करता है?",
+        "Japanese": "どの文が非難を和らげるために受動態を使っていますか？"
+      },
+      "options": [
+        "We made a mistake that caused the outage.",
+        "The issue has been addressed and resolved.",
+        "You failed to inform customers."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [issued, a, CEO, release, press, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [issued, a, CEO, release, press, the]",
+        "Japanese": "並べ替え: [issued, a, CEO, release, press, the]"
+      },
+      "options": [
+        "the",
+        "CEO",
+        "issued",
+        "a",
+        "press",
+        "release"
+      ],
+      "answer": [
+        "the",
+        "CEO",
+        "issued",
+        "a",
+        "press",
+        "release"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Brand ___ helps a company recover and maintain trust after a crisis.",
+      "question_translation": {
+        "Hindi": "ब्रांड ___ कंपनी को संकट के बाद पुनः स्थापित होने और विश्वास बनाए रखने में मदद करता है।",
+        "Japanese": "ブランドの___は危機後に回復し信頼を維持するのに役立ちます。"
+      },
+      "options": [
+        "resilience",
+        "control",
+        "damage"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker say about transparency in a crisis?",
+      "audio_text": "Transparency builds trust and prevents rumors during difficult times.",
+      "question_translation": {
+        "Hindi": "वक्ता संकट में पारदर्शिता के बारे में क्या कहते हैं?",
+        "Japanese": "話者は危機における透明性について何と言っていますか？"
+      },
+      "options": [
+        "It builds trust and prevents rumors.",
+        "It makes people distrust the organization.",
+        "It should be avoided in difficult times."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "Social listening helps companies react quickly to public concerns.",
+      "audio_text": "Social listening allows companies to track public opinion and respond fast to concerns.",
+      "question_translation": {
+        "Hindi": "सोशल मीडिया निगरानी कंपनियों को सार्वजनिक चिंताओं पर जल्दी प्रतिक्रिया करने में मदद करती है।",
+        "Japanese": "ソーシャルリスニングは企業が世論を追跡し、懸念に迅速に対応するのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is the goal of damage control?",
+      "audio_text": "Damage control aims to reduce harm to reputation and calm public reaction.",
+      "question_translation": {
+        "Hindi": "नुकसान नियंत्रण का उद्देश्य क्या है?",
+        "Japanese": "被害の最小化の目的は何ですか？"
+      },
+      "options": [
+        "To increase publicity",
+        "To reduce harm and calm public reaction",
+        "To avoid responsibility completely"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What should companies balance in apology strategies?",
+      "audio_text": "A strong apology strategy balances empathy with clear next steps.",
+      "question_translation": {
+        "Hindi": "माफी रणनीतियों में कंपनियों को क्या संतुलित करना चाहिए?",
+        "Japanese": "謝罪戦略で企業がバランスを取るべきことは何ですか？"
+      },
+      "options": [
+        "Empathy and clear next steps",
+        "Blame and denial",
+        "Silence and secrecy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Reputation management only matters before a crisis happens.",
+      "audio_text": "Reputation management is crucial before, during, and after a crisis.",
+      "question_translation": {
+        "Hindi": "प्रतिष्ठा प्रबंधन केवल संकट होने से पहले ही महत्वपूर्ण है।",
+        "Japanese": "評判管理は危機が起こる前だけ重要です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Crisis communication protects an organization’s image.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संकट संचार किसी संगठन की छवि की रक्षा करता है।'",
+        "Japanese": "言ってください: 'Crisis communication protects an organization’s image.'"
+      },
+      "options": [],
+      "answer": "crisis communication protects an organization’s image"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Transparency builds trust during a crisis.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संकट के दौरान पारदर्शिता विश्वास बनाती है।'",
+        "Japanese": "言ってください: 'Transparency builds trust during a crisis.'"
+      },
+      "options": [],
+      "answer": "transparency builds trust during a crisis"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Social listening helps us understand public opinion.'",
+      "question_translation": {
+        "Hindi": "कहें: 'सोशल मीडिया निगरानी हमें सार्वजनिक राय समझने में मदद करती है।'",
+        "Japanese": "言ってください: 'Social listening helps us understand public opinion.'"
+      },
+      "options": [],
+      "answer": "social listening helps us understand public opinion"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Damage control can reduce harm to reputation.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नुकसान नियंत्रण प्रतिष्ठा को होने वाले नुकसान को कम कर सकता है।'",
+        "Japanese": "言ってください: 'Damage control can reduce harm to reputation.'"
+      },
+      "options": [],
+      "answer": "damage control can reduce harm to reputation"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Brand resilience helps companies recover from scandals.'",
+      "question_translation": {
+        "Hindi": "कहें: 'ब्रांड की लचीलापन कंपनियों को घोटालों से उबरने में मदद करता है।'",
+        "Japanese": "言ってください: 'Brand resilience helps companies recover from scandals.'"
+      },
+      "options": [],
+      "answer": "brand resilience helps companies recover from scandals"
+    }
+  ]
+}
+
 }

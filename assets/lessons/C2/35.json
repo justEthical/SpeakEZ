@@ -1,4 +1,569 @@
 {
-  "id": 35,
-  "message": "This is file number 35"
+  "id": "lesson_peer_review_professional_feedback_c2",
+  "lesson_name": "Peer Review & Professional Feedback",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "peer review",
+        "word_translation": {
+          "Hindi": "सहकर्मी समीक्षा",
+          "Japanese": "査読 / ピアレビュー"
+        },
+        "meaning": "Evaluation of work by others in the same field to ensure quality and accuracy",
+        "meaning_translation": {
+          "Hindi": "गुणवत्ता और सटीकता सुनिश्चित करने के लिए समान क्षेत्र के अन्य लोगों द्वारा कार्य का मूल्यांकन",
+          "Japanese": "同じ分野の他の人による仕事の質と正確さを確認する評価"
+        },
+        "examples": [
+          {
+            "sentence": "The research article went through a rigorous peer review process.",
+            "translation": {
+              "Hindi": "अनुसंधान लेख ने कठोर सहकर्मी समीक्षा प्रक्रिया से गुजरा।",
+              "Japanese": "その研究論文は厳格な査読プロセスを経ました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "constructive feedback",
+        "word_translation": {
+          "Hindi": "रचनात्मक प्रतिक्रिया",
+          "Japanese": "建設的なフィードバック"
+        },
+        "meaning": "Helpful comments intended to improve someone’s work rather than criticize harshly",
+        "meaning_translation": {
+          "Hindi": "किसी के काम को बेहतर बनाने के लिए सहायक टिप्पणियां, कठोर आलोचना करने के बजाय",
+          "Japanese": "誰かの仕事を厳しく批判するのではなく改善を意図した有益なコメント"
+        },
+        "examples": [
+          {
+            "sentence": "She gave constructive feedback on my presentation slides.",
+            "translation": {
+              "Hindi": "उसने मेरी प्रस्तुति स्लाइड्स पर रचनात्मक प्रतिक्रिया दी।",
+              "Japanese": "彼女は私のプレゼンテーションスライドに建設的なフィードバックをくれました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critique",
+        "word_translation": {
+          "Hindi": "आलोचना / समालोचना",
+          "Japanese": "批評"
+        },
+        "meaning": "A detailed analysis and evaluation of something, especially a creative or academic work",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का विस्तृत विश्लेषण और मूल्यांकन, विशेष रूप से रचनात्मक या शैक्षणिक कार्य का",
+          "Japanese": "特に創作や学術作品の詳細な分析と評価"
+        },
+        "examples": [
+          {
+            "sentence": "The professor offered a thoughtful critique of my research paper.",
+            "translation": {
+              "Hindi": "प्रोफेसर ने मेरे शोध पत्र की विचारशील समालोचना प्रस्तुत की।",
+              "Japanese": "教授は私の研究論文に対して深い批評をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "objective",
+        "word_translation": {
+          "Hindi": "निष्पक्ष",
+          "Japanese": "客観的な"
+        },
+        "meaning": "Not influenced by personal feelings; based on facts",
+        "meaning_translation": {
+          "Hindi": "व्यक्तिगत भावनाओं से प्रभावित नहीं; तथ्यों पर आधारित",
+          "Japanese": "個人的な感情に左右されず、事実に基づく"
+        },
+        "examples": [
+          {
+            "sentence": "Peer reviewers should be objective and fair.",
+            "translation": {
+              "Hindi": "सहकर्मी समीक्षकों को निष्पक्ष और न्यायसंगत होना चाहिए।",
+              "Japanese": "査読者は客観的かつ公平であるべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "subjective",
+        "word_translation": {
+          "Hindi": "व्यक्तिपरक",
+          "Japanese": "主観的な"
+        },
+        "meaning": "Influenced by personal feelings or opinions rather than facts",
+        "meaning_translation": {
+          "Hindi": "तथ्यों की बजाय व्यक्तिगत भावनाओं या राय से प्रभावित",
+          "Japanese": "事実ではなく個人的な感情や意見に影響される"
+        },
+        "examples": [
+          {
+            "sentence": "Avoid overly subjective comments in professional feedback.",
+            "translation": {
+              "Hindi": "व्यावसायिक प्रतिक्रिया में अत्यधिक व्यक्तिपरक टिप्पणियों से बचें।",
+              "Japanese": "専門的なフィードバックでは過度に主観的なコメントを避けましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "revision",
+        "word_translation": {
+          "Hindi": "संशोधन",
+          "Japanese": "改訂"
+        },
+        "meaning": "The process of making changes to improve a piece of work",
+        "meaning_translation": {
+          "Hindi": "किसी कार्य को बेहतर बनाने के लिए परिवर्तन करने की प्रक्रिया",
+          "Japanese": "作品を改善するために変更を加えるプロセス"
+        },
+        "examples": [
+          {
+            "sentence": "The author revised the article after receiving reviewer comments.",
+            "translation": {
+              "Hindi": "लेखक ने समीक्षक की टिप्पणियाँ प्राप्त करने के बाद लेख को संशोधित किया।",
+              "Japanese": "著者は査読者のコメントを受けて記事を改訂しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evaluation criteria",
+        "word_translation": {
+          "Hindi": "मूल्यांकन मानदंड",
+          "Japanese": "評価基準"
+        },
+        "meaning": "Standards or rules used to judge the quality of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की गुणवत्ता का आकलन करने के लिए उपयोग किए गए मानक या नियम",
+          "Japanese": "何かの質を判断するために使用される基準やルール"
+        },
+        "examples": [
+          {
+            "sentence": "Clear evaluation criteria help reviewers stay objective.",
+            "translation": {
+              "Hindi": "स्पष्ट मूल्यांकन मानदंड समीक्षकों को निष्पक्ष रहने में मदद करते हैं।",
+              "Japanese": "明確な評価基準は査読者が客観的でいられるように役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "professional tone",
+        "word_translation": {
+          "Hindi": "पेशेवर स्वर",
+          "Japanese": "専門的なトーン"
+        },
+        "meaning": "Polite, respectful, and formal style of communication",
+        "meaning_translation": {
+          "Hindi": "विनम्र, सम्मानजनक और औपचारिक संचार शैली",
+          "Japanese": "礼儀正しく、敬意を持ち、正式なコミュニケーションスタイル"
+        },
+        "examples": [
+          {
+            "sentence": "Keep a professional tone even when giving critical feedback.",
+            "translation": {
+              "Hindi": "आलोचनात्मक प्रतिक्रिया देते समय भी एक पेशेवर स्वर बनाए रखें।",
+              "Japanese": "批判的なフィードバックをするときでも専門的なトーンを保ちましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "blind review",
+        "word_translation": {
+          "Hindi": "गोपनीय समीक्षा",
+          "Japanese": "ブラインドレビュー"
+        },
+        "meaning": "A review process where the reviewer doesn’t know the author’s identity",
+        "meaning_translation": {
+          "Hindi": "एक समीक्षा प्रक्रिया जिसमें समीक्षक लेखक की पहचान नहीं जानता",
+          "Japanese": "査読者が著者の身元を知らない状態で行うレビュー"
+        },
+        "examples": [
+          {
+            "sentence": "Blind review reduces bias in academic publishing.",
+            "translation": {
+              "Hindi": "गोपनीय समीक्षा अकादमिक प्रकाशन में पक्षपात को कम करती है।",
+              "Japanese": "ブラインドレビューは学術出版における偏りを減らします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "actionable suggestion",
+        "word_translation": {
+          "Hindi": "कार्यान्वित करने योग्य सुझाव",
+          "Japanese": "実行可能な提案"
+        },
+        "meaning": "Feedback that gives clear and practical advice for improvement",
+        "meaning_translation": {
+          "Hindi": "ऐसी प्रतिक्रिया जो सुधार के लिए स्पष्ट और व्यावहारिक सलाह देती है",
+          "Japanese": "改善のための明確で実用的なアドバイスを与えるフィードバック"
+        },
+        "examples": [
+          {
+            "sentence": "Reviewers should provide actionable suggestions instead of vague criticism.",
+            "translation": {
+              "Hindi": "समीक्षकों को अस्पष्ट आलोचना के बजाय कार्यान्वित करने योग्य सुझाव प्रदान करना चाहिए।",
+              "Japanese": "査読者は漠然とした批判ではなく実行可能な提案をするべきです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Hedging Language",
+        "explanation": "When giving feedback, soften statements with phrases like 'might benefit from' or 'could be improved.'",
+        "explanation_translation": {
+          "Hindi": "प्रतिक्रिया देते समय, 'might benefit from' या 'could be improved' जैसे वाक्यांशों से कथनों को नरम करें।",
+          "Japanese": "フィードバックを与える際は、「might benefit from」や「could be improved」などの表現で発言を和らげます。"
+        }
+      },
+      {
+        "title": "Balancing Praise and Criticism",
+        "explanation": "Begin with positive comments before moving to areas needing improvement.",
+        "explanation_translation": {
+          "Hindi": "सुधार की आवश्यकता वाले क्षेत्रों पर जाने से पहले सकारात्मक टिप्पणियों से शुरू करें।",
+          "Japanese": "改善が必要な部分に進む前にポジティブなコメントから始めます。"
+        }
+      },
+      {
+        "title": "Using Passive Voice in Formal Reviews",
+        "explanation": "Passive voice can make feedback sound more objective. Example: 'The argument could be clarified further.'",
+        "explanation_translation": {
+          "Hindi": "निष्क्रिय वाक्य रचना प्रतिक्रिया को अधिक निष्पक्ष बना सकती है। उदाहरण: 'The argument could be clarified further.'",
+          "Japanese": "受動態を使うとフィードバックがより客観的に聞こえます。例：'The argument could be clarified further.'"
+        }
+      },
+      {
+        "title": "Modal Verbs for Suggestions",
+        "explanation": "Use 'should', 'might', or 'could' when recommending improvements.",
+        "explanation_translation": {
+          "Hindi": "सुधार की सिफारिश करते समय 'should', 'might' या 'could' का उपयोग करें।",
+          "Japanese": "改善を提案するときは「should」「might」「could」を使います。"
+        }
+      },
+      {
+        "title": "Clarity with Parallelism in Comments",
+        "explanation": "Use similar sentence structures when listing feedback points for clarity. Example: 'Clarify the introduction, expand the results, refine the conclusion.'",
+        "explanation_translation": {
+          "Hindi": "स्पष्टता के लिए प्रतिक्रिया बिंदुओं को सूचीबद्ध करते समय समान वाक्य संरचनाओं का उपयोग करें। उदाहरण: 'Clarify the introduction, expand the results, refine the conclusion.'",
+          "Japanese": "フィードバックのポイントを列挙する際は明確にするため同じ文構造を使います。例：'Clarify the introduction, expand the results, refine the conclusion.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term refers to evaluation of work by others in the same field?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द समान क्षेत्र के अन्य लोगों द्वारा कार्य के मूल्यांकन को संदर्भित करता है?",
+        "Japanese": "同じ分野の他の人による仕事の評価を指す用語はどれですか？"
+      },
+      "options": [
+        "peer review",
+        "critique",
+        "revision"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Good reviewers provide clear and ___ suggestions for improvement.",
+      "question_translation": {
+        "Hindi": "अच्छे समीक्षक सुधार के लिए स्पष्ट और ___ सुझाव प्रदान करते हैं।",
+        "Japanese": "良い査読者は改善のために明確で___な提案を提供します。"
+      },
+      "options": [
+        "actionable",
+        "subjective",
+        "biased"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Blind review means the reviewer does not know the author’s identity.",
+      "question_translation": {
+        "Hindi": "गोपनीय समीक्षा का मतलब है कि समीक्षक लेखक की पहचान नहीं जानता।",
+        "Japanese": "ブラインドレビューとは、査読者が著者の身元を知らないことを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means giving helpful comments instead of harsh criticism?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द कठोर आलोचना के बजाय सहायक टिप्पणियाँ देने का अर्थ है?",
+        "Japanese": "厳しい批判ではなく有益なコメントを与えることを意味する単語はどれですか？"
+      },
+      "options": [
+        "constructive feedback",
+        "subjective opinion",
+        "evaluation criteria"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Clear ___ help reviewers stay fair and focused.",
+      "question_translation": {
+        "Hindi": "स्पष्ट ___ समीक्षकों को निष्पक्ष और केंद्रित रहने में मदद करते हैं।",
+        "Japanese": "明確な___は査読者が公平かつ集中できるようにします。"
+      },
+      "options": [
+        "evaluation criteria",
+        "bias",
+        "tone"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [feedback, constructive, provide, should, reviewers]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [feedback, constructive, provide, should, reviewers]",
+        "Japanese": "並べ替え: [feedback, constructive, provide, should, reviewers]"
+      },
+      "options": [
+        "reviewers",
+        "should",
+        "provide",
+        "constructive",
+        "feedback"
+      ],
+      "answer": [
+        "reviewers",
+        "should",
+        "provide",
+        "constructive",
+        "feedback"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Feedback ___ be polite, even when critical.",
+      "question_translation": {
+        "Hindi": "प्रतिक्रिया ___ विनम्र होनी चाहिए, भले ही वह आलोचनात्मक हो।",
+        "Japanese": "フィードバックは批判的であっても___であるべきです。"
+      },
+      "options": [
+        "should",
+        "must not",
+        "ignores"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses hedging language appropriately?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य उपयुक्त रूप से नरम भाषा (hedging language) का उपयोग करता है?",
+        "Japanese": "どの文が適切に婉曲表現（ヘッジング）を使用していますか？"
+      },
+      "options": [
+        "Your argument is weak and should be rewritten completely.",
+        "The argument might benefit from clearer examples.",
+        "You failed to support your claims."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [be, objective, reviewers, should]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [be, objective, reviewers, should]",
+        "Japanese": "並べ替え: [be, objective, reviewers, should]"
+      },
+      "options": [
+        "reviewers",
+        "should",
+        "be",
+        "objective"
+      ],
+      "answer": [
+        "reviewers",
+        "should",
+        "be",
+        "objective"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "A ___ tone is essential when giving professional feedback.",
+      "question_translation": {
+        "Hindi": "व्यावसायिक प्रतिक्रिया देते समय एक ___ स्वर आवश्यक है।",
+        "Japanese": "専門的なフィードバックを与える際には___なトーンが不可欠です。"
+      },
+      "options": [
+        "professional",
+        "biased",
+        "subjective"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker say about constructive feedback?",
+      "audio_text": "Constructive feedback should highlight strengths and give clear steps for improvement.",
+      "question_translation": {
+        "Hindi": "वक्ता रचनात्मक प्रतिक्रिया के बारे में क्या कहते हैं?",
+        "Japanese": "話者は建設的なフィードバックについて何と言っていますか？"
+      },
+      "options": [
+        "It should only point out flaws.",
+        "It should highlight strengths and give clear improvement steps.",
+        "It should be strictly critical."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "Peer review helps maintain quality and accuracy in academic work.",
+      "audio_text": "Peer review ensures quality and accuracy by having experts evaluate the work.",
+      "question_translation": {
+        "Hindi": "सहकर्मी समीक्षा शैक्षणिक कार्य में गुणवत्ता और सटीकता बनाए रखने में मदद करती है।",
+        "Japanese": "査読は専門家による評価を通じて学術作品の質と正確さを確保します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Why is blind review important?",
+      "audio_text": "Blind review prevents personal bias by hiding the author’s identity.",
+      "question_translation": {
+        "Hindi": "गोपनीय समीक्षा क्यों महत्वपूर्ण है?",
+        "Japanese": "ブラインドレビューが重要な理由は何ですか？"
+      },
+      "options": [
+        "It allows personal preferences to influence feedback.",
+        "It prevents personal bias.",
+        "It makes reviews faster but less accurate."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What should reviewers avoid according to the speaker?",
+      "audio_text": "Reviewers should avoid overly subjective or emotional language.",
+      "question_translation": {
+        "Hindi": "वक्ता के अनुसार समीक्षकों को किससे बचना चाहिए?",
+        "Japanese": "話者によると、査読者は何を避けるべきですか？"
+      },
+      "options": [
+        "Objective reasoning",
+        "Subjective or emotional language",
+        "Offering actionable suggestions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Professional tone means being overly casual and friendly.",
+      "audio_text": "Professional tone is formal, respectful, and clear—not overly casual.",
+      "question_translation": {
+        "Hindi": "व्यावसायिक स्वर का मतलब अत्यधिक अनौपचारिक और दोस्ताना होना है।",
+        "Japanese": "プロフェッショナルなトーンとは、過度にカジュアルでフレンドリーであることを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Peer review improves the quality of academic work.'",
+      "question_translation": {
+        "Hindi": "कहें: 'सहकर्मी समीक्षा शैक्षणिक कार्य की गुणवत्ता में सुधार करती है।'",
+        "Japanese": "言ってください: 'Peer review improves the quality of academic work.'"
+      },
+      "options": [],
+      "answer": "peer review improves the quality of academic work"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Constructive feedback helps people grow.'",
+      "question_translation": {
+        "Hindi": "कहें: 'रचनात्मक प्रतिक्रिया लोगों को बढ़ने में मदद करती है।'",
+        "Japanese": "言ってください: 'Constructive feedback helps people grow.'"
+      },
+      "options": [],
+      "answer": "constructive feedback helps people grow"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Reviewers should remain objective and fair.'",
+      "question_translation": {
+        "Hindi": "कहें: 'समीक्षकों को निष्पक्ष और न्यायसंगत रहना चाहिए।'",
+        "Japanese": "言ってください: 'Reviewers should remain objective and fair.'"
+      },
+      "options": [],
+      "answer": "reviewers should remain objective and fair"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Professional tone is important in giving feedback.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रतिक्रिया देते समय व्यावसायिक स्वर महत्वपूर्ण है।'",
+        "Japanese": "言ってください: 'Professional tone is important in giving feedback.'"
+      },
+      "options": [],
+      "answer": "professional tone is important in giving feedback"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Actionable suggestions make feedback more useful.'",
+      "question_translation": {
+        "Hindi": "कहें: 'कार्यान्वित करने योग्य सुझाव प्रतिक्रिया को अधिक उपयोगी बनाते हैं।'",
+        "Japanese": "言ってください: 'Actionable suggestions make feedback more useful.'"
+      },
+      "options": [],
+      "answer": "actionable suggestions make feedback more useful"
+    }
+  ]
+}
+
 }

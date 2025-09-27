@@ -1,4 +1,554 @@
 {
-  "id": 21,
-  "message": "This is file number 21"
+  "id": "lesson_clefting_pseudo_001",
+  "lesson_name": "Clefting & Pseudo-Clefts for Focus",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "cleft sentence",
+        "word_translation": {
+          "Hindi": "क्लीफ्ट वाक्य",
+          "Japanese": "分裂文"
+        },
+        "meaning": "A sentence split to emphasize a particular part (e.g., 'It was John who called').",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य जिसे किसी विशेष भाग पर जोर देने के लिए विभाजित किया जाता है (जैसे, 'It was John who called').",
+          "Japanese": "特定の部分を強調するために分けられた文（例：It was John who called）。"
+        },
+        "examples": [
+          {
+            "sentence": "It was my teacher who encouraged me to write.",
+            "translation": {
+              "Hindi": "यह मेरे शिक्षक थे जिन्होंने मुझे लिखने के लिए प्रोत्साहित किया।",
+              "Japanese": "私を執筆に励ましてくれたのは先生でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pseudo-cleft",
+        "word_translation": {
+          "Hindi": "छद्म-क्लीफ्ट",
+          "Japanese": "疑似分裂文"
+        },
+        "meaning": "A sentence using a clause to highlight the focus (e.g., 'What I need is a break').",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य जो किसी भाग पर जोर देने के लिए उपवाक्य का उपयोग करता है (जैसे, 'What I need is a break').",
+          "Japanese": "焦点を強調するために節を使う文（例：What I need is a break）。"
+        },
+        "examples": [
+          {
+            "sentence": "What she loves is reading historical novels.",
+            "translation": {
+              "Hindi": "वह जो प्यार करती है वह ऐतिहासिक उपन्यास पढ़ना है।",
+              "Japanese": "彼女が好きなのは歴史小説を読むことです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "information focus",
+        "word_translation": {
+          "Hindi": "सूचना फोकस",
+          "Japanese": "情報焦点"
+        },
+        "meaning": "The part of the sentence that carries the most important new information.",
+        "meaning_translation": {
+          "Hindi": "वाक्य का वह भाग जो सबसे महत्वपूर्ण नई जानकारी रखता है।",
+          "Japanese": "文の中で最も重要な新しい情報を担う部分。"
+        },
+        "examples": [
+          {
+            "sentence": "In 'It was Sarah who solved the puzzle', Sarah is the information focus.",
+            "translation": {
+              "Hindi": "'It was Sarah who solved the puzzle' में, Sarah सूचना फोकस है।",
+              "Japanese": "「It was Sarah who solved the puzzle」ではSarahが情報焦点です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphatic structure",
+        "word_translation": {
+          "Hindi": "जोरदार संरचना",
+          "Japanese": "強調構造"
+        },
+        "meaning": "A sentence form that gives extra emphasis to a particular element.",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य संरचना जो किसी विशेष तत्व को अतिरिक्त जोर देती है।",
+          "Japanese": "特定の要素を強調するための文の構造。"
+        },
+        "examples": [
+          {
+            "sentence": "It was only after midnight that they arrived.",
+            "translation": {
+              "Hindi": "वे आधी रात के बाद ही पहुंचे।",
+              "Japanese": "彼らが到着したのは真夜中を過ぎてからでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wh-cleft",
+        "word_translation": {
+          "Hindi": "wh-क्लीफ्ट",
+          "Japanese": "wh分裂文"
+        },
+        "meaning": "A pseudo-cleft using a wh-word (what, where, who).",
+        "meaning_translation": {
+          "Hindi": "एक छद्म-क्लीफ्ट जो wh-शब्दों (what, where, who) का उपयोग करता है।",
+          "Japanese": "wh語（what, where, whoなど）を使う疑似分裂文。"
+        },
+        "examples": [
+          {
+            "sentence": "What impressed me most was her honesty.",
+            "translation": {
+              "Hindi": "जिसने मुझे सबसे अधिक प्रभावित किया वह उसकी ईमानदारी थी।",
+              "Japanese": "私が最も感銘を受けたのは彼女の誠実さでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contrastive focus",
+        "word_translation": {
+          "Hindi": "विरोधी फोकस",
+          "Japanese": "対比焦点"
+        },
+        "meaning": "Highlighting one element in contrast to others.",
+        "meaning_translation": {
+          "Hindi": "अन्य तत्वों के विपरीत एक तत्व को उजागर करना।",
+          "Japanese": "他の要素と対比して一つの要素を強調すること。"
+        },
+        "examples": [
+          {
+            "sentence": "It was not John but Mary who solved the issue.",
+            "translation": {
+              "Hindi": "समस्या को हल करने वाला जॉन नहीं बल्कि मैरी थी।",
+              "Japanese": "問題を解決したのはジョンではなくメアリーでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "extraposition",
+        "word_translation": {
+          "Hindi": "बहिर्स्थापन",
+          "Japanese": "後置構文"
+        },
+        "meaning": "Moving a clause to the end of the sentence for emphasis or clarity.",
+        "meaning_translation": {
+          "Hindi": "जोर देने या स्पष्टता के लिए उपवाक्य को वाक्य के अंत में स्थानांतरित करना।",
+          "Japanese": "強調や明確化のために節を文末に移動させること。"
+        },
+        "examples": [
+          {
+            "sentence": "It is surprising that they agreed so quickly.",
+            "translation": {
+              "Hindi": "यह आश्चर्यजनक है कि उन्होंने इतनी जल्दी सहमति व्यक्त की।",
+              "Japanese": "彼らがそんなに早く同意したのは驚きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphasis shift",
+        "word_translation": {
+          "Hindi": "जोर स्थानांतरण",
+          "Japanese": "強調の移動"
+        },
+        "meaning": "Changing sentence structure to highlight a different element.",
+        "meaning_translation": {
+          "Hindi": "विभिन्न तत्व को उजागर करने के लिए वाक्य संरचना को बदलना।",
+          "Japanese": "別の要素を強調するために文構造を変更すること。"
+        },
+        "examples": [
+          {
+            "sentence": "It was after the speech that the protest began.",
+            "translation": {
+              "Hindi": "भाषण के बाद ही विरोध शुरू हुआ।",
+              "Japanese": "抗議が始まったのは演説の後でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stylistic emphasis",
+        "word_translation": {
+          "Hindi": "शैलीगत जोर",
+          "Japanese": "文体的強調"
+        },
+        "meaning": "Using specific sentence patterns to make writing formal or dramatic.",
+        "meaning_translation": {
+          "Hindi": "लेखन को औपचारिक या नाटकीय बनाने के लिए विशिष्ट वाक्य पैटर्न का उपयोग करना।",
+          "Japanese": "文章をフォーマルまたは劇的にするための特定の文パターンを使うこと。"
+        },
+        "examples": [
+          {
+            "sentence": "What really matters is trust.",
+            "translation": {
+              "Hindi": "जो वास्तव में मायने रखता है वह विश्वास है।",
+              "Japanese": "本当に重要なのは信頼です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sentence focus",
+        "word_translation": {
+          "Hindi": "वाक्य फोकस",
+          "Japanese": "文の焦点"
+        },
+        "meaning": "The element of a sentence that the speaker wants to highlight for meaning or effect.",
+        "meaning_translation": {
+          "Hindi": "वाक्य का वह तत्व जिसे वक्ता अर्थ या प्रभाव के लिए उजागर करना चाहता है।",
+          "Japanese": "話者が意味や効果のために強調したい文の要素。"
+        },
+        "examples": [
+          {
+            "sentence": "It was yesterday that the decision was made.",
+            "translation": {
+              "Hindi": "निर्णय कल ही लिया गया था।",
+              "Japanese": "決定がなされたのは昨日でした。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Cleft Sentences for Emphasis",
+        "explanation": "Start with 'It is/was' followed by the element you want to emphasize and a relative clause. Example: 'It was the policy change that triggered protests.'",
+        "explanation_translation": {
+          "Hindi": "'It is/was' से शुरू करें और उसके बाद उस तत्व को जोड़ें जिसे आप जोर देना चाहते हैं, फिर एक relative clause जोड़ें। उदाहरण: 'It was the policy change that triggered protests.'",
+          "Japanese": "「It is/was」で始め、強調したい要素と関係節を続けます。例：It was the policy change that triggered protests."
+        }
+      },
+      {
+        "title": "Wh-Clefts (Pseudo-Clefts)",
+        "explanation": "Use clauses starting with 'what', 'where', or 'who' to bring focus. Example: 'What matters most is fairness.'",
+        "explanation_translation": {
+          "Hindi": "'what', 'where' या 'who' से शुरू होने वाले उपवाक्यों का उपयोग करके फोकस लाएं। उदाहरण: 'What matters most is fairness.'",
+          "Japanese": "「what」「where」「who」で始まる節を使って焦点を当てます。例：What matters most is fairness."
+        }
+      },
+      {
+        "title": "Shifting Information Focus",
+        "explanation": "Reorganize the sentence to move the important element to the front or end for emphasis. Example: 'It was after the storm that we realized the damage.'",
+        "explanation_translation": {
+          "Hindi": "महत्वपूर्ण तत्व को जोर देने के लिए वाक्य को पुनर्गठित करें और उसे शुरुआत या अंत में रखें। उदाहरण: 'It was after the storm that we realized the damage.'",
+          "Japanese": "重要な要素を強調するために文を再構成し、冒頭または末尾に置きます。例：It was after the storm that we realized the damage."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which sentence is a cleft construction?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य क्लीफ्ट निर्माण है?",
+          "Japanese": "どの文が分裂文ですか？"
+        },
+        "options": [
+          "It was John who fixed the computer.",
+          "John fixed the computer.",
+          "The computer was fixed by John."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "___ I need right now is a good cup of coffee.",
+        "question_translation": {
+          "Hindi": "मुझे अभी जो ___ चाहिए वह है एक अच्छी कप कॉफी।",
+          "Japanese": "今私に___必要なのはおいしいコーヒーです。"
+        },
+        "options": [
+          "What",
+          "It",
+          "Who"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A pseudo-cleft often begins with a wh-word like 'what' or 'who'.",
+        "question_translation": {
+          "Hindi": "छद्म-क्लीफ्ट अक्सर 'what' या 'who' जैसे wh-शब्द से शुरू होता है।",
+          "Japanese": "疑似分裂文はしばしば「what」や「who」などのwh語で始まります。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which phrase shows contrastive focus?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश विरोधी फोकस को दर्शाता है?",
+          "Japanese": "どの表現が対比焦点を示していますか？"
+        },
+        "options": [
+          "It was not Tom but Alice who solved the puzzle.",
+          "It is sunny today.",
+          "They went to the park."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "___ surprised everyone was his sudden resignation.",
+        "question_translation": {
+          "Hindi": "जिसने सभी को ___ वह उसका अचानक इस्तीफा था।",
+          "Japanese": "皆を___のは彼の突然の辞任でした。"
+        },
+        "options": [
+          "What",
+          "It",
+          "Who"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [who, it, invited, was, Mary]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [who, it, invited, was, Mary]",
+          "Japanese": "並べ替え: [who, it, invited, was, Mary]"
+        },
+        "options": [
+          "who",
+          "it",
+          "invited",
+          "was",
+          "Mary"
+        ],
+        "answer": [
+          "it",
+          "was",
+          "Mary",
+          "who",
+          "invited"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "It was after the rain ___ we saw the rainbow.",
+        "question_translation": {
+          "Hindi": "बारिश के बाद ही ___ हमने इंद्रधनुष देखा।",
+          "Japanese": "雨の後___私たちは虹を見ました。"
+        },
+        "options": [
+          "that",
+          "who",
+          "when"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which is the most formal cleft sentence?",
+        "question_translation": {
+          "Hindi": "सबसे औपचारिक क्लीफ्ट वाक्य कौन सा है?",
+          "Japanese": "最もフォーマルな分裂文はどれですか？"
+        },
+        "options": [
+          "It was after midnight that they arrived.",
+          "They arrived after midnight.",
+          "After midnight they arrived."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [matters, most, is, what, trust]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [matters, most, is, what, trust]",
+          "Japanese": "並べ替え: [matters, most, is, what, trust]"
+        },
+        "options": [
+          "matters",
+          "most",
+          "is",
+          "what",
+          "trust"
+        ],
+        "answer": [
+          "what",
+          "matters",
+          "most",
+          "is",
+          "trust"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "It was only later ___ I realized the mistake.",
+        "question_translation": {
+          "Hindi": "केवल बाद में ही ___ मुझे गलती का एहसास हुआ।",
+          "Japanese": "後になって初めて___私はその間違いに気づきました。"
+        },
+        "options": [
+          "that",
+          "who",
+          "when"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is being emphasized?",
+        "audio_text": "It was my best friend who saved me that day.",
+        "question_translation": {
+          "Hindi": "यहाँ क्या जोर दिया जा रहा है?",
+          "Japanese": "ここで強調されているのは何ですか？"
+        },
+        "options": [
+          "The action of saving",
+          "The identity of who saved",
+          "The day itself"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Pseudo-clefts can focus on reasons or results.",
+        "audio_text": "What caused the delay was the heavy traffic.",
+        "question_translation": {
+          "Hindi": "छद्म-क्लीफ्ट कारणों या परिणामों पर ध्यान केंद्रित कर सकते हैं।",
+          "Japanese": "疑似分裂文は理由や結果に焦点を当てることができます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What type of sentence is this?",
+        "audio_text": "It was in Paris that they first met.",
+        "question_translation": {
+          "Hindi": "यह किस प्रकार का वाक्य है?",
+          "Japanese": "これはどのタイプの文ですか？"
+        },
+        "options": [
+          "Cleft",
+          "Simple",
+          "Question"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Which part is the focus?",
+        "audio_text": "What surprised us most was the ending of the film.",
+        "question_translation": {
+          "Hindi": "कौन सा भाग फोकस है?",
+          "Japanese": "どの部分が焦点ですか？"
+        },
+        "options": [
+          "The ending of the film",
+          "Us",
+          "Surprised"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Clefting always requires a relative clause.",
+        "audio_text": "It was after the party that we discovered the truth.",
+        "question_translation": {
+          "Hindi": "क्लीफ्टिंग हमेशा एक relative clause की आवश्यकता होती है।",
+          "Japanese": "分裂文は常に関係節を必要とします。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'It was my brother who taught me to swim.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It was my brother who taught me to swim.'",
+          "Japanese": "言ってください: 'It was my brother who taught me to swim.'"
+        },
+        "options": [],
+        "answer": "it was my brother who taught me to swim"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'What I need most is time.'",
+        "question_translation": {
+          "Hindi": "कहें: 'What I need most is time.'",
+          "Japanese": "言ってください: 'What I need most is time.'"
+        },
+        "options": [],
+        "answer": "what i need most is time"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'It was after the exam that we celebrated.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It was after the exam that we celebrated.'",
+          "Japanese": "言ってください: 'It was after the exam that we celebrated.'"
+        },
+        "options": [],
+        "answer": "it was after the exam that we celebrated"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'What surprised everyone was her decision.'",
+        "question_translation": {
+          "Hindi": "कहें: 'What surprised everyone was her decision.'",
+          "Japanese": "言ってください: 'What surprised everyone was her decision.'"
+        },
+        "options": [],
+        "answer": "what surprised everyone was her decision"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'It was not luck but hard work that led to success.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It was not luck but hard work that led to success.'",
+          "Japanese": "言ってください: 'It was not luck but hard work that led to success.'"
+        },
+        "options": [],
+        "answer": "it was not luck but hard work that led to success"
+      }
+    ]
+  }
 }

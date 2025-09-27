@@ -1,4 +1,555 @@
 {
-  "id": 20,
-  "message": "This is file number 20"
+  "id": "lesson_advanced_passives_001",
+  "lesson_name": "Advanced Passives & Agent Suppression",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "agent suppression",
+        "word_translation": {
+          "Hindi": "कर्ता दमन",
+          "Japanese": "行為者の省略"
+        },
+        "meaning": "The omission of the doer of the action in a passive construction",
+        "meaning_translation": {
+          "Hindi": "निष्क्रिय वाक्य में क्रिया करने वाले को छोड़ देना",
+          "Japanese": "受動態で行為者を省略すること"
+        },
+        "examples": [
+          {
+            "sentence": "Mistakes were made — an example of agent suppression.",
+            "translation": {
+              "Hindi": "गलतियाँ की गईं — कर्ता दमन का एक उदाहरण।",
+              "Japanese": "間違いが犯された — 行為者省略の例です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "agent",
+        "word_translation": {
+          "Hindi": "कर्ता",
+          "Japanese": "行為者"
+        },
+        "meaning": "The person or thing performing an action",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति या चीज़ जो कोई कार्य करता है",
+          "Japanese": "行動を行う人またはもの"
+        },
+        "examples": [
+          {
+            "sentence": "In 'The book was written by Orwell', Orwell is the agent.",
+            "translation": {
+              "Hindi": "'The book was written by Orwell' में, Orwell कर्ता है।",
+              "Japanese": "'The book was written by Orwell' では、Orwell が行為者です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "passive construction",
+        "word_translation": {
+          "Hindi": "निष्क्रिय संरचना",
+          "Japanese": "受動態構文"
+        },
+        "meaning": "A sentence where the subject receives the action instead of performing it",
+        "meaning_translation": {
+          "Hindi": "ऐसा वाक्य जहाँ कर्ता कार्य को करता नहीं बल्कि प्राप्त करता है",
+          "Japanese": "主語が行動を行うのではなく受ける文"
+        },
+        "examples": [
+          {
+            "sentence": "The decision was made yesterday.",
+            "translation": {
+              "Hindi": "निर्णय कल लिया गया था।",
+              "Japanese": "その決定は昨日なされました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "impersonal passive",
+        "word_translation": {
+          "Hindi": "निष्प्राण निष्क्रिय",
+          "Japanese": "非人称受動態"
+        },
+        "meaning": "A passive form with no specific subject, often using 'it' or no agent",
+        "meaning_translation": {
+          "Hindi": "एक निष्क्रिय रूप जिसमें कोई विशिष्ट कर्ता नहीं होता, अक्सर 'it' या कोई कर्ता नहीं होता",
+          "Japanese": "特定の主語がなく、「it」や行為者なしで使われる受動態"
+        },
+        "examples": [
+          {
+            "sentence": "It is said that the policy will change.",
+            "translation": {
+              "Hindi": "कहा जाता है कि नीति बदल जाएगी।",
+              "Japanese": "その政策は変わると言われています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "passive reporting",
+        "word_translation": {
+          "Hindi": "निष्क्रिय रिपोर्टिंग",
+          "Japanese": "受動態報告"
+        },
+        "meaning": "Using the passive voice to report information without naming the source",
+        "meaning_translation": {
+          "Hindi": "स्रोत का नाम लिए बिना जानकारी रिपोर्ट करने के लिए निष्क्रिय वाक्य का उपयोग करना",
+          "Japanese": "情報源を示さずに情報を報告するために受動態を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "It was announced that new laws would be introduced.",
+            "translation": {
+              "Hindi": "घोषणा की गई कि नए कानून लागू किए जाएंगे।",
+              "Japanese": "新しい法律が導入されると発表されました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formal register",
+        "word_translation": {
+          "Hindi": "औपचारिक शैली",
+          "Japanese": "フォーマルな文体"
+        },
+        "meaning": "Language style used in serious or official contexts",
+        "meaning_translation": {
+          "Hindi": "भाषा की शैली जो गंभीर या आधिकारिक संदर्भों में उपयोग की जाती है",
+          "Japanese": "公式や真面目な場面で使われる言語のスタイル"
+        },
+        "examples": [
+          {
+            "sentence": "Agentless passives are common in a formal register.",
+            "translation": {
+              "Hindi": "औपचारिक शैली में कर्ता रहित निष्क्रिय वाक्य आम हैं।",
+              "Japanese": "フォーマルな文体では行為者のない受動態がよく使われます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nominalization",
+        "word_translation": {
+          "Hindi": "संज्ञाकरण",
+          "Japanese": "名詞化"
+        },
+        "meaning": "Turning verbs into nouns to sound more formal and abstract",
+        "meaning_translation": {
+          "Hindi": "क्रियाओं को संज्ञाओं में बदलना ताकि अधिक औपचारिक और अमूर्त लगे",
+          "Japanese": "動詞を名詞に変えて、よりフォーマルで抽象的にすること"
+        },
+        "examples": [
+          {
+            "sentence": "The introduction of new measures was announced.",
+            "translation": {
+              "Hindi": "नई उपायों की शुरुआत की घोषणा की गई।",
+              "Japanese": "新しい施策の導入が発表されました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "by-phrase",
+        "word_translation": {
+          "Hindi": "द्वारा वाक्यांश",
+          "Japanese": "by句"
+        },
+        "meaning": "The part of a passive sentence that shows who did the action",
+        "meaning_translation": {
+          "Hindi": "निष्क्रिय वाक्य का वह भाग जो बताता है कि कार्य किसने किया",
+          "Japanese": "受動態の文で誰が行動をしたかを示す部分"
+        },
+        "examples": [
+          {
+            "sentence": "The painting was created by an unknown artist.",
+            "translation": {
+              "Hindi": "चित्र एक अज्ञात कलाकार द्वारा बनाया गया था।",
+              "Japanese": "その絵は無名の画家によって描かれました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "passive infinitive",
+        "word_translation": {
+          "Hindi": "निष्क्रिय infinitive",
+          "Japanese": "受動態不定詞"
+        },
+        "meaning": "Using 'to be + past participle' to express a passive action in infinitive form",
+        "meaning_translation": {
+          "Hindi": "'to be + past participle' का उपयोग करके निष्क्रिय क्रिया को infinitive रूप में व्यक्त करना",
+          "Japanese": "受動態の動作を不定詞で表す「to be + 過去分詞」の形"
+        },
+        "examples": [
+          {
+            "sentence": "The report is to be submitted tomorrow.",
+            "translation": {
+              "Hindi": "रिपोर्ट कल प्रस्तुत की जानी है।",
+              "Japanese": "その報告書は明日提出されることになっています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "passive causative",
+        "word_translation": {
+          "Hindi": "निष्क्रिय कार्यकारक",
+          "Japanese": "受動態使役"
+        },
+        "meaning": "A passive structure where someone causes something to be done (e.g., 'had it repaired')",
+        "meaning_translation": {
+          "Hindi": "एक निष्क्रिय संरचना जिसमें कोई व्यक्ति किसी कार्य को करवाता है (जैसे, 'had it repaired')",
+          "Japanese": "誰かが何かをさせることを示す受動態の構造（例：had it repaired）"
+        },
+        "examples": [
+          {
+            "sentence": "She had the document signed by the director.",
+            "translation": {
+              "Hindi": "उसने दस्तावेज़ को निदेशक से हस्ताक्षरित करवाया।",
+              "Japanese": "彼女はその書類に監督の署名をさせた。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Agentless Passive for Formal Objectivity",
+        "explanation": "Use the passive without a 'by-phrase' to sound objective or avoid naming responsibility. Example: 'It was decided to postpone the meeting.'",
+        "explanation_translation": {
+          "Hindi": "वस्तुनिष्ठ दिखने या जिम्मेदारी का नाम लेने से बचने के लिए 'by-phrase' के बिना निष्क्रिय का उपयोग करें। उदाहरण: 'It was decided to postpone the meeting.'",
+          "Japanese": "客観的に聞こえるように、または責任者を明示しないためにby句なしの受動態を使います。例：It was decided to postpone the meeting."
+        }
+      },
+      {
+        "title": "Impersonal Passive with Reporting Verbs",
+        "explanation": "Combine verbs like 'say', 'believe', 'report' with passive for formal statements. Example: 'It is believed that the policy will fail.'",
+        "explanation_translation": {
+          "Hindi": "'say', 'believe', 'report' जैसे क्रियाओं को निष्क्रिय के साथ मिलाकर औपचारिक कथन बनाएं। उदाहरण: 'It is believed that the policy will fail.'",
+          "Japanese": "「say」「believe」「report」などの動詞を受動態と組み合わせてフォーマルな表現にします。例：It is believed that the policy will fail."
+        }
+      },
+      {
+        "title": "Nominalization with Passive Forms",
+        "explanation": "Transform verbs into nouns to combine with passive, making statements formal and dense. Example: 'The implementation was delayed.'",
+        "explanation_translation": {
+          "Hindi": "क्रियाओं को संज्ञाओं में बदलकर निष्क्रिय के साथ जोड़ें ताकि कथन औपचारिक और गहन लगें। उदाहरण: 'The implementation was delayed.'",
+          "Japanese": "動詞を名詞に変えて受動態と組み合わせることで、文をフォーマルで重厚にします。例：The implementation was delayed."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which term refers to leaving out the doer in a passive sentence?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द निष्क्रिय वाक्य में क्रिया करने वाले को छोड़ने को संदर्भित करता है?",
+          "Japanese": "受動態の文で行為者を省略することを指す用語はどれですか？"
+        },
+        "options": [
+          "agent suppression",
+          "passive causative",
+          "nominalization"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Mistakes were ___ during the process — the agent is not mentioned.",
+        "question_translation": {
+          "Hindi": "प्रक्रिया के दौरान गलतियाँ ___ — कर्ता का उल्लेख नहीं किया गया है।",
+          "Japanese": "過程で間違いが___された — 行為者は言及されていません。"
+        },
+        "options": [
+          "made",
+          "making",
+          "make"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Impersonal passives often use 'it' to avoid specifying who acts.",
+        "question_translation": {
+          "Hindi": "निष्प्राण निष्क्रिय अक्सर 'it' का उपयोग करते हैं ताकि यह न बताया जाए कि कौन कार्य कर रहा है।",
+          "Japanese": "非人称受動態は誰が行動しているかを特定しないために「it」を使うことがよくあります。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which structure expresses a passive action in infinitive form?",
+        "question_translation": {
+          "Hindi": "कौन सी संरचना निष्क्रिय क्रिया को infinitive रूप में व्यक्त करती है?",
+          "Japanese": "どの構造が不定詞で受動態の動作を表しますか？"
+        },
+        "options": [
+          "passive infinitive",
+          "passive causative",
+          "agent suppression"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The document was signed ___ the director.",
+        "question_translation": {
+          "Hindi": "दस्तावेज़ पर निदेशक ___ हस्ताक्षर किए गए।",
+          "Japanese": "その書類は監督___署名されました。"
+        },
+        "options": [
+          "by",
+          "from",
+          "to"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [was, delayed, implementation, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [was, delayed, implementation, the]",
+          "Japanese": "並べ替え: [was, delayed, implementation, the]"
+        },
+        "options": [
+          "was",
+          "delayed",
+          "implementation",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "implementation",
+          "was",
+          "delayed"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "It was ___ that the company would merge next year.",
+        "question_translation": {
+          "Hindi": "यह ___ गया कि कंपनी अगले साल विलय करेगी।",
+          "Japanese": "会社が来年合併すると___されました。"
+        },
+        "options": [
+          "announced",
+          "announce",
+          "announcing"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Select the most formal sentence using agent suppression:",
+        "question_translation": {
+          "Hindi": "कर्ता दमन का उपयोग करते हुए सबसे औपचारिक वाक्य चुनें:",
+          "Japanese": "行為者省略を使った最もフォーマルな文を選んでください:"
+        },
+        "options": [
+          "It was decided to close the factory.",
+          "We decided to close the factory.",
+          "They closed the factory."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [to, submitted, be, tomorrow, report, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [to, submitted, be, tomorrow, report, the]",
+          "Japanese": "並べ替え: [to, submitted, be, tomorrow, report, the]"
+        },
+        "options": [
+          "to",
+          "submitted",
+          "be",
+          "tomorrow",
+          "report",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "report",
+          "is",
+          "to",
+          "be",
+          "submitted",
+          "tomorrow"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The machine was ___ by a skilled technician.",
+        "question_translation": {
+          "Hindi": "मशीन को एक कुशल तकनीशियन द्वारा ___ गया।",
+          "Japanese": "その機械は熟練した技術者によって___されました。"
+        },
+        "options": [
+          "repaired",
+          "repairing",
+          "repair"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What passive construction is used here?",
+        "audio_text": "It is believed that the plan will succeed.",
+        "question_translation": {
+          "Hindi": "यहाँ किस प्रकार का निष्क्रिय निर्माण उपयोग किया गया है?",
+          "Japanese": "ここで使われている受動態の構造はどれですか？"
+        },
+        "options": [
+          "Impersonal passive",
+          "Passive causative",
+          "By-phrase passive"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The sentence avoids naming the agent.",
+        "audio_text": "The policy was changed yesterday.",
+        "question_translation": {
+          "Hindi": "वाक्य कर्ता का नाम लेने से बचता है।",
+          "Japanese": "その文は行為者の名前を避けています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does 'had the document signed' show?",
+        "audio_text": "She had the document signed by the lawyer.",
+        "question_translation": {
+          "Hindi": "'had the document signed' क्या दर्शाता है?",
+          "Japanese": "「had the document signed」は何を示していますか？"
+        },
+        "options": [
+          "Passive causative",
+          "Agent suppression",
+          "Impersonal passive"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What feature is shown in 'Mistakes were made'?",
+        "audio_text": "Mistakes were made during the operation.",
+        "question_translation": {
+          "Hindi": "'Mistakes were made' में कौन सी विशेषता दिखाई गई है?",
+          "Japanese": "「Mistakes were made」に示されている特徴は何ですか？"
+        },
+        "options": [
+          "Agent suppression",
+          "By-phrase",
+          "Passive infinitive"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Passive infinitives can describe future planned actions.",
+        "audio_text": "The new system is to be implemented next month.",
+        "question_translation": {
+          "Hindi": "निष्क्रिय infinitive भविष्य की योजनाबद्ध क्रियाओं को व्यक्त कर सकते हैं।",
+          "Japanese": "受動態不定詞は将来の予定された行動を表すことができます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'It was decided to postpone the meeting.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It was decided to postpone the meeting.'",
+          "Japanese": "言ってください: 'It was decided to postpone the meeting.'"
+        },
+        "options": [],
+        "answer": "it was decided to postpone the meeting"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The report is to be submitted tomorrow.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The report is to be submitted tomorrow.'",
+          "Japanese": "言ってください: 'The report is to be submitted tomorrow.'"
+        },
+        "options": [],
+        "answer": "the report is to be submitted tomorrow"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'It is believed that the policy will change.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It is believed that the policy will change.'",
+          "Japanese": "言ってください: 'It is believed that the policy will change.'"
+        },
+        "options": [],
+        "answer": "it is believed that the policy will change"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Mistakes were made during the process.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Mistakes were made during the process.'",
+          "Japanese": "言ってください: 'Mistakes were made during the process.'"
+        },
+        "options": [],
+        "answer": "mistakes were made during the process"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She had the document signed by the director.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She had the document signed by the director.'",
+          "Japanese": "言ってください: 'She had the document signed by the director.'"
+        },
+        "options": [],
+        "answer": "she had the document signed by the director"
+      }
+    ]
+  }
 }

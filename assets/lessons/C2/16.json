@@ -1,4 +1,563 @@
 {
-  "id": 16,
-  "message": "This is file number 16"
+  "id": "lesson_hedging_boosting_001",
+  "lesson_name": "Hedging vs. Boosting: Strategic Choice",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "hedge",
+        "word_translation": {
+          "Hindi": "सावधानी से कहना",
+          "Japanese": "ぼかして言う"
+        },
+        "meaning": "To use language that makes a statement less definite or forceful",
+        "meaning_translation": {
+          "Hindi": "ऐसी भाषा का प्रयोग करना जो कथन को कम निश्चित या कम कठोर बनाती है",
+          "Japanese": "発言をあいまいにしたり、断定的でなくすること"
+        },
+        "examples": [
+          {
+            "sentence": "Scientists often hedge their claims with phrases like 'it seems' or 'it appears'.",
+            "translation": {
+              "Hindi": "वैज्ञानिक अक्सर 'ऐसा लगता है' या 'ऐसा प्रतीत होता है' जैसे वाक्यांशों से अपने दावों को सावधानी से कहते हैं।",
+              "Japanese": "科学者は「〜のようだ」「〜と思われる」などの表現で主張をぼかすことがよくあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "boost",
+        "word_translation": {
+          "Hindi": "मज़बूती देना",
+          "Japanese": "強める"
+        },
+        "meaning": "To use language that makes a statement stronger or more confident",
+        "meaning_translation": {
+          "Hindi": "ऐसी भाषा का प्रयोग करना जो कथन को अधिक शक्तिशाली या आत्मविश्वासी बनाती है",
+          "Japanese": "発言をより強く、自信を持って言うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Writers may boost arguments with phrases like 'undoubtedly' or 'clearly'.",
+            "translation": {
+              "Hindi": "लेखक 'निस्संदेह' या 'स्पष्ट रूप से' जैसे वाक्यांशों से तर्क को मज़बूत कर सकते हैं।",
+              "Japanese": "作家は「間違いなく」「明らかに」などの表現で議論を強めることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tentative",
+        "word_translation": {
+          "Hindi": "अस्थायी / सावधान",
+          "Japanese": "仮の、控えめな"
+        },
+        "meaning": "Not certain or confident",
+        "meaning_translation": {
+          "Hindi": "निश्चित या आत्मविश्वासी नहीं",
+          "Japanese": "確信がなく自信のないこと"
+        },
+        "examples": [
+          {
+            "sentence": "His conclusions were tentative due to limited data.",
+            "translation": {
+              "Hindi": "सीमित डेटा के कारण उसके निष्कर्ष अस्थायी थे।",
+              "Japanese": "限られたデータのため、彼の結論は控えめでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assertive",
+        "word_translation": {
+          "Hindi": "दृढ़ / आत्मविश्वासी",
+          "Japanese": "断定的な、自信のある"
+        },
+        "meaning": "Expressing opinions strongly and confidently",
+        "meaning_translation": {
+          "Hindi": "विचारों को दृढ़ता और आत्मविश्वास से व्यक्त करना",
+          "Japanese": "意見を強く自信を持って述べること"
+        },
+        "examples": [
+          {
+            "sentence": "Good leaders are assertive but not aggressive.",
+            "translation": {
+              "Hindi": "अच्छे नेता दृढ़ होते हैं लेकिन आक्रामक नहीं।",
+              "Japanese": "優れたリーダーは断定的ですが攻撃的ではありません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "undoubtedly",
+        "word_translation": {
+          "Hindi": "निस्संदेह",
+          "Japanese": "間違いなく"
+        },
+        "meaning": "Used to emphasize that something is certainly true",
+        "meaning_translation": {
+          "Hindi": "इस पर ज़ोर देने के लिए कि कुछ निश्चित रूप से सत्य है",
+          "Japanese": "何かが確かに真実であることを強調する表現"
+        },
+        "examples": [
+          {
+            "sentence": "This is undoubtedly one of the best books on the subject.",
+            "translation": {
+              "Hindi": "यह निस्संदेह इस विषय पर सबसे अच्छी पुस्तकों में से एक है।",
+              "Japanese": "これは間違いなくこのテーマに関する最高の本の一つです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "possibly",
+        "word_translation": {
+          "Hindi": "संभवतः",
+          "Japanese": "おそらく、ひょっとすると"
+        },
+        "meaning": "Used when something might be true but is uncertain",
+        "meaning_translation": {
+          "Hindi": "जब कुछ सच हो सकता है लेकिन निश्चित नहीं है तब इस्तेमाल किया जाता है",
+          "Japanese": "何かが真実かもしれないが確実ではない場合に使う"
+        },
+        "examples": [
+          {
+            "sentence": "The meeting could possibly be delayed due to traffic.",
+            "translation": {
+              "Hindi": "ट्रैफिक के कारण बैठक संभवतः देर हो सकती है।",
+              "Japanese": "交通のため会議が遅れる可能性があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "clearly",
+        "word_translation": {
+          "Hindi": "स्पष्ट रूप से",
+          "Japanese": "明らかに"
+        },
+        "meaning": "Used to express that something is obvious or easy to see",
+        "meaning_translation": {
+          "Hindi": "इस बात को व्यक्त करने के लिए कि कुछ स्पष्ट या आसानी से दिखने योग्य है",
+          "Japanese": "何かが明らかまたは容易にわかることを示す"
+        },
+        "examples": [
+          {
+            "sentence": "Clearly, more research is needed before making a conclusion.",
+            "translation": {
+              "Hindi": "स्पष्ट रूप से, निष्कर्ष पर पहुँचने से पहले अधिक शोध की आवश्यकता है।",
+              "Japanese": "明らかに、結論を出す前にさらなる研究が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "arguably",
+        "word_translation": {
+          "Hindi": "तर्कसंगत रूप से कहा जा सकता है",
+          "Japanese": "おそらく、議論の余地はあるが"
+        },
+        "meaning": "Used to state that something can be supported with reasoning but is not absolute",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का तर्क के साथ समर्थन किया जा सकता है लेकिन यह पूर्ण नहीं है",
+          "Japanese": "何かが理屈で支持できるが絶対ではないと述べるときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "He is arguably the best player on the team.",
+            "translation": {
+              "Hindi": "वह तर्कसंगत रूप से कहा जा सकता है कि टीम का सबसे अच्छा खिलाड़ी है।",
+              "Japanese": "彼はおそらくチームで最高の選手だと言えるでしょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evidently",
+        "word_translation": {
+          "Hindi": "स्पष्ट रूप से दिखाई देने वाला",
+          "Japanese": "明白に、明らかに"
+        },
+        "meaning": "Used to show something is clearly seen or proven",
+        "meaning_translation": {
+          "Hindi": "यह दिखाने के लिए उपयोग किया जाता है कि कुछ स्पष्ट रूप से दिखाई देता है या सिद्ध है",
+          "Japanese": "何かが明白であることを示すために使う"
+        },
+        "examples": [
+          {
+            "sentence": "She was evidently upset by the news.",
+            "translation": {
+              "Hindi": "वह स्पष्ट रूप से खबर से परेशान थी।",
+              "Japanese": "彼女はその知らせに明らかに動揺していました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "may well",
+        "word_translation": {
+          "Hindi": "हो सकता है कि वास्तव में",
+          "Japanese": "十分に〜かもしれない"
+        },
+        "meaning": "Used to suggest that something is likely or reasonable",
+        "meaning_translation": {
+          "Hindi": "यह सुझाने के लिए कि कुछ संभावित या उचित है",
+          "Japanese": "何かが起こりそうまたは合理的であることを示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "This approach may well solve the existing problem.",
+            "translation": {
+              "Hindi": "यह दृष्टिकोण मौजूदा समस्या को हल कर सकता है।",
+              "Japanese": "このアプローチは十分に現状の問題を解決するかもしれません。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Strategic Hedging",
+        "explanation": "Use words like 'possibly', 'may well', 'arguably' to soften claims when evidence is limited or when you want to sound cautious.",
+        "explanation_translation": {
+          "Hindi": "जब साक्ष्य सीमित हो या आप सतर्क लगना चाहते हों, तो 'possibly', 'may well', 'arguably' जैसे शब्दों का उपयोग करके दावों को नरम बनाएं।",
+          "Japanese": "証拠が限られている場合や慎重に聞こえたいときは、「possibly」「may well」「arguably」などを使って主張を和らげましょう。"
+        }
+      },
+      {
+        "title": "Effective Boosting",
+        "explanation": "When evidence is strong or persuasion is needed, use boosters like 'clearly', 'undoubtedly', 'evidently' to emphasize certainty.",
+        "explanation_translation": {
+          "Hindi": "जब साक्ष्य मजबूत हो या मनाना आवश्यक हो, तो 'clearly', 'undoubtedly', 'evidently' जैसे बूस्टर का उपयोग करके निश्चितता पर जोर दें।",
+          "Japanese": "証拠が強い場合や説得が必要な場合は、「clearly」「undoubtedly」「evidently」などを使って確実性を強調しましょう。"
+        }
+      },
+      {
+        "title": "Mixing Hedging and Boosting",
+        "explanation": "Combine cautious and confident language for nuanced argumentation (e.g., 'It may well be effective, and it is clearly worth trying').",
+        "explanation_translation": {
+          "Hindi": "सूक्ष्म तर्क के लिए सतर्क और आत्मविश्वासी भाषा को मिलाएं (उदा: 'It may well be effective, and it is clearly worth trying')।",
+          "Japanese": "微妙な議論のために慎重な言葉と自信のある言葉を組み合わせましょう（例：「It may well be effective, and it is clearly worth trying」）。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase is typically used for hedging a claim?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश आमतौर पर एक दावे को सावधानीपूर्वक कहने के लिए उपयोग किया जाता है?",
+          "Japanese": "どの表現が主張をぼかすために一般的に使われますか？"
+        },
+        "options": [
+          "possibly",
+          "clearly",
+          "undoubtedly"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "It is ___ true that the new method will save time, but more testing is needed.",
+        "question_translation": {
+          "Hindi": "यह ___ सच है कि नई विधि समय बचाएगी, लेकिन अधिक परीक्षण की आवश्यकता है।",
+          "Japanese": "新しい方法が時間を節約するのは___真実ですが、さらなるテストが必要です。"
+        },
+        "options": [
+          "arguably",
+          "clearly",
+          "evidently"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "‘Undoubtedly’ is used to make a statement sound more certain and strong.",
+        "question_translation": {
+          "Hindi": "'Undoubtedly' का उपयोग कथन को अधिक निश्चित और मजबूत बनाने के लिए किया जाता है।",
+          "Japanese": "「Undoubtedly」は発言をより確実で強いものにするために使われます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which of the following words suggests strong confidence?",
+        "question_translation": {
+          "Hindi": "निम्नलिखित में से कौन सा शब्द मजबूत आत्मविश्वास को दर्शाता है?",
+          "Japanese": "次のうち、強い自信を示す単語はどれですか？"
+        },
+        "options": [
+          "clearly",
+          "may well",
+          "possibly"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "This approach ___ solve the issue if applied carefully.",
+        "question_translation": {
+          "Hindi": "यदि सावधानी से लागू किया जाए तो यह दृष्टिकोण समस्या को ___ हल कर सकता है।",
+          "Japanese": "このアプローチは慎重に適用すれば問題を___解決するかもしれません。"
+        },
+        "options": [
+          "may well",
+          "undoubtedly",
+          "clearly"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [arguably, the, best, player, team, in, is, he]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [arguably, the, best, player, team, in, is, he]",
+          "Japanese": "並べ替え: [arguably, the, best, player, team, in, is, he]"
+        },
+        "options": [
+          "arguably",
+          "the",
+          "best",
+          "player",
+          "team",
+          "in",
+          "is",
+          "he"
+        ],
+        "answer": [
+          "he",
+          "is",
+          "arguably",
+          "the",
+          "best",
+          "player",
+          "in",
+          "the",
+          "team"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___, the evidence suggests that the treatment is effective.",
+        "question_translation": {
+          "Hindi": "___, साक्ष्य सुझाव देते हैं कि उपचार प्रभावी है।",
+          "Japanese": "___、証拠はその治療が効果的であることを示しています。"
+        },
+        "options": [
+          "Evidently",
+          "Possibly",
+          "May well"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Choose the correctly hedged sentence:",
+        "question_translation": {
+          "Hindi": "सही ढंग से सावधानीपूर्वक कही गई वाक्य चुनें:",
+          "Japanese": "適切にぼかされた文を選んでください:"
+        },
+        "options": [
+          "It may well be that the plan will succeed.",
+          "It clearly be that the plan will succeed.",
+          "It undoubtedly may be that the plan succeed."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [undoubtedly, this, book, is, best, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [undoubtedly, this, book, is, best, the]",
+          "Japanese": "並べ替え: [undoubtedly, this, book, is, best, the]"
+        },
+        "options": [
+          "undoubtedly",
+          "this",
+          "book",
+          "is",
+          "best",
+          "the"
+        ],
+        "answer": [
+          "this",
+          "book",
+          "is",
+          "undoubtedly",
+          "the",
+          "best"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "He was ___ cautious in presenting his findings to avoid overclaiming.",
+        "question_translation": {
+          "Hindi": "वह अपने निष्कर्ष प्रस्तुत करते समय ___ सावधान था ताकि अति-दावा न कर सके।",
+          "Japanese": "彼は過大な主張を避けるために結果を提示する際___慎重でした。"
+        },
+        "options": [
+          "tentatively",
+          "clearly",
+          "undoubtedly"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "How did the speaker describe the possibility of success?",
+        "audio_text": "It may well succeed if we apply the right strategy.",
+        "question_translation": {
+          "Hindi": "वक्ता ने सफलता की संभावना को कैसे वर्णित किया?",
+          "Japanese": "話者は成功の可能性をどのように説明しましたか？"
+        },
+        "options": [
+          "May well succeed",
+          "Undoubtedly succeed",
+          "Clearly succeed"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker boosted their claim with the word 'undoubtedly'.",
+        "audio_text": "This is undoubtedly the most efficient solution.",
+        "question_translation": {
+          "Hindi": "वक्ता ने 'undoubtedly' शब्द का उपयोग करके अपने दावे को मज़बूत किया।",
+          "Japanese": "話者は「undoubtedly」という言葉で主張を強めました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Which word shows cautious language?",
+        "audio_text": "The plan could possibly work if resources are available.",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द सतर्क भाषा को दर्शाता है?",
+          "Japanese": "どの言葉が慎重な表現を示していますか？"
+        },
+        "options": [
+          "Possibly",
+          "Clearly",
+          "Undoubtedly"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How did the speaker emphasize certainty?",
+        "audio_text": "Clearly, this approach is better than the previous one.",
+        "question_translation": {
+          "Hindi": "वक्ता ने निश्चितता को कैसे जोर दिया?",
+          "Japanese": "話者はどのように確実性を強調しましたか？"
+        },
+        "options": [
+          "By saying 'clearly'",
+          "By saying 'possibly'",
+          "By saying 'may well'"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker was hedging by using the word 'arguably'.",
+        "audio_text": "He is arguably the best candidate for the position.",
+        "question_translation": {
+          "Hindi": "वक्ता ने 'arguably' शब्द का उपयोग करके सावधानीपूर्वक बयान दिया।",
+          "Japanese": "話者は「arguably」という言葉を使ってぼかした表現をしました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'It may well be the right decision.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It may well be the right decision.'",
+          "Japanese": "言ってください: 'It may well be the right decision.'"
+        },
+        "options": [],
+        "answer": "it may well be the right decision"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'This is undoubtedly the best solution.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This is undoubtedly the best solution.'",
+          "Japanese": "言ってください: 'This is undoubtedly the best solution.'"
+        },
+        "options": [],
+        "answer": "this is undoubtedly the best solution"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Clearly, we need more data before deciding.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Clearly, we need more data before deciding.'",
+          "Japanese": "言ってください: 'Clearly, we need more data before deciding.'"
+        },
+        "options": [],
+        "answer": "clearly we need more data before deciding"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He is arguably the most qualified person here.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He is arguably the most qualified person here.'",
+          "Japanese": "言ってください: 'He is arguably the most qualified person here.'"
+        },
+        "options": [],
+        "answer": "he is arguably the most qualified person here"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Possibly, the project will finish early.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Possibly, the project will finish early.'",
+          "Japanese": "言ってください: 'Possibly, the project will finish early.'"
+        },
+        "options": [],
+        "answer": "possibly the project will finish early"
+      }
+    ]
+  }
 }

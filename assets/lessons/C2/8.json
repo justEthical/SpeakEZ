@@ -1,215 +1,546 @@
 {
-  "id": "lesson_evaluating_supreme_court_decisions_c2_001",
-  "lesson_name": "Evaluating Supreme Court Decisions",
-  "purpose": "Academic, Law, Advanced Citizenship",
+  "id": "lesson_irony_hyperbole_001",
+  "lesson_name": "Irony, Understatement, and Hyperbole",
+  "purpose": "All",
   "cefrLevel": "C2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "precedent", "meaning": "an earlier decision that guides future cases" },
-      { "word": "dissent", "meaning": "disagreement with the majority opinion" },
-      { "word": "majority opinion", "meaning": "the official decision agreed upon by most judges" },
-      { "word": "judicial review", "meaning": "the court's power to decide if laws are constitutional" },
-      { "word": "statutory interpretation", "meaning": "judging what a law means" },
-      { "word": "constitutional", "meaning": "allowed by the constitution" },
-      { "word": "remand", "meaning": "send a case back to a lower court" },
-      { "word": "jurisprudence", "meaning": "the theory or philosophy of law" },
-      { "word": "plaintiff", "meaning": "the person who brings a case to court" },
-      { "word": "landmark decision", "meaning": "a very important and influential court ruling" }
+      {
+        "word": "irony",
+        "word_translation": {
+          "Hindi": "विडंबना",
+          "Japanese": "皮肉"
+        },
+        "meaning": "A figure of speech where the intended meaning is different from the literal meaning",
+        "meaning_translation": {
+          "Hindi": "एक अलंकार जहाँ आशयित अर्थ शब्दों के शाब्दिक अर्थ से भिन्न होता है",
+          "Japanese": "言葉の文字通りの意味とは異なる意図的な意味を持つ表現"
+        },
+        "examples": [
+          {
+            "sentence": "Oh great, another traffic jam when I’m late!",
+            "translation": {
+              "Hindi": "ओह बढ़िया, जब मैं देर से हूँ तब एक और ट्रैफिक जाम!",
+              "Japanese": "ああ素晴らしい、遅れているときにまた渋滞だ！"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sarcasm",
+        "word_translation": {
+          "Hindi": "व्यंग्य",
+          "Japanese": "嫌味"
+        },
+        "meaning": "A sharp and often mocking form of irony used to criticize or show contempt",
+        "meaning_translation": {
+          "Hindi": "विडंबना का तीखा और अक्सर उपहासपूर्ण रूप, जिसका उपयोग आलोचना या तिरस्कार दिखाने के लिए किया जाता है",
+          "Japanese": "皮肉の鋭く嘲笑的な形で、批判や軽蔑を示すために使われる"
+        },
+        "examples": [
+          {
+            "sentence": "Nice job breaking the vase!",
+            "translation": {
+              "Hindi": "गज़ब का काम, तुमने फूलदान तोड़ दिया!",
+              "Japanese": "花瓶を壊すなんていい仕事だね！"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hyperbole",
+        "word_translation": {
+          "Hindi": "अतिशयोक्ति",
+          "Japanese": "誇張表現"
+        },
+        "meaning": "An exaggerated way of saying something for emphasis or effect",
+        "meaning_translation": {
+          "Hindi": "किसी बात को जोर देने या प्रभाव के लिए बढ़ा-चढ़ा कर कहना",
+          "Japanese": "強調や効果のために物事を大げさに表現すること"
+        },
+        "examples": [
+          {
+            "sentence": "I’ve told you a million times to clean your room.",
+            "translation": {
+              "Hindi": "मैंने तुमसे लाखों बार कहा है कि अपना कमरा साफ करो।",
+              "Japanese": "部屋を片付けろって何百万回も言ったよ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "understatement",
+        "word_translation": {
+          "Hindi": "कम करके कहना",
+          "Japanese": "控えめな表現"
+        },
+        "meaning": "Presenting something as smaller or less important than it really is",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को वास्तव में जितना है उससे छोटा या कम महत्वपूर्ण दिखाना",
+          "Japanese": "実際よりも小さく、または重要でないように表現すること"
+        },
+        "examples": [
+          {
+            "sentence": "It’s just a scratch, said about a big dent on the car.",
+            "translation": {
+              "Hindi": "यह तो बस खरोंच है — कार पर बड़े डेंट के बारे में कहा गया।",
+              "Japanese": "大きなへこみを見て「ちょっとした傷だよ」と言う。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "litotes",
+        "word_translation": {
+          "Hindi": "नकारात्मक कम कहना",
+          "Japanese": "緩叙法"
+        },
+        "meaning": "An understatement that uses double negatives or negation to soften a statement",
+        "meaning_translation": {
+          "Hindi": "ऐसा कम करके कहना जिसमें दोहरी नकारात्मकता या नकार का उपयोग करके कथन को हल्का किया जाता है",
+          "Japanese": "二重否定や否定を使って発言を和らげる控えめな表現"
+        },
+        "examples": [
+          {
+            "sentence": "She’s not bad at singing.",
+            "translation": {
+              "Hindi": "वह गाने में बुरी नहीं है।",
+              "Japanese": "彼女は歌が下手ではない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deadpan delivery",
+        "word_translation": {
+          "Hindi": "भावशून्य प्रस्तुति",
+          "Japanese": "無表情な言い方"
+        },
+        "meaning": "Saying something ironic or funny with no change in facial expression or tone",
+        "meaning_translation": {
+          "Hindi": "कुछ विडंबनापूर्ण या मजाकिया बातें बिना किसी चेहरे के भाव या स्वर के परिवर्तन के कहना",
+          "Japanese": "表情や声のトーンを変えずに皮肉や面白いことを言うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Wow, what an exciting day, he said flatly after hours of boredom.",
+            "translation": {
+              "Hindi": "वाह, क्या रोमांचक दिन है, उसने घंटों की ऊब के बाद बिना भाव के कहा।",
+              "Japanese": "「わあ、なんて刺激的な一日だ」と何時間も退屈した後で無表情に言った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "self-deprecating humor",
+        "word_translation": {
+          "Hindi": "स्वयं का मजाक",
+          "Japanese": "自虐的ユーモア"
+        },
+        "meaning": "Making jokes that gently mock oneself",
+        "meaning_translation": {
+          "Hindi": "ऐसा मजाक जो स्वयं का हल्का-फुल्का उपहास करता है",
+          "Japanese": "自分を軽くからかうユーモア"
+        },
+        "examples": [
+          {
+            "sentence": "I’m so bad at cooking I could burn water.",
+            "translation": {
+              "Hindi": "मैं खाना बनाने में इतना खराब हूँ कि पानी भी जला सकता हूँ।",
+              "Japanese": "私は料理が下手すぎて水さえ焦がすかもしれない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "overstatement",
+        "word_translation": {
+          "Hindi": "अत्यधिक कहना",
+          "Japanese": "大げさな表現"
+        },
+        "meaning": "Saying something is bigger or more important than it really is",
+        "meaning_translation": {
+          "Hindi": "किसी बात को वास्तव में जितना है उससे बड़ा या अधिक महत्वपूर्ण बताना",
+          "Japanese": "実際よりも大きく重要だと述べること"
+        },
+        "examples": [
+          {
+            "sentence": "This is the best meal anyone has ever cooked in the entire world.",
+            "translation": {
+              "Hindi": "यह पूरी दुनिया में किसी ने अब तक बनाया हुआ सबसे अच्छा भोजन है।",
+              "Japanese": "これは世界中で誰かが作った中で最高の食事だ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "comic effect",
+        "word_translation": {
+          "Hindi": "हास्य प्रभाव",
+          "Japanese": "滑稽な効果"
+        },
+        "meaning": "The humorous impact created by irony, understatement, or hyperbole",
+        "meaning_translation": {
+          "Hindi": "विडंबना, कम करके कहना या अतिशयोक्ति से उत्पन्न हास्य प्रभाव",
+          "Japanese": "皮肉・控えめな表現・誇張によって生まれるユーモラスな効果"
+        },
+        "examples": [
+          {
+            "sentence": "He said he was 'slightly tired' after running a marathon.",
+            "translation": {
+              "Hindi": "उसने मैराथन दौड़ने के बाद कहा कि वह 'थोड़ा थका' हुआ है।",
+              "Japanese": "マラソンを走った後で「少し疲れた」と言った。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Passive Voice for Legal Analysis",
-        "explanation": "Use the passive voice to highlight the action or result, e.g., 'The law was overturned by the Court.'"
+        "title": "Spotting Irony",
+        "explanation": "Irony often says the opposite of what is meant. Look for context clues and tone.",
+        "explanation_translation": {
+          "Hindi": "विडंबना अक्सर वही कहती है जिसका मतलब विपरीत होता है। संदर्भ और स्वर पर ध्यान दें।",
+          "Japanese": "皮肉はしばしば意味と逆のことを言います。文脈とトーンを手がかりにしましょう。"
+        }
       },
       {
-        "title": "Using Complex Sentences for Arguments",
-        "explanation": "Link ideas using clauses: 'Although the dissent was persuasive, the majority opinion prevailed.'"
-      }
-    ],
-    "example_sentences": [
-      { "sentence": "The Supreme Court established a new precedent in its latest ruling.", "translation": "" },
-      { "sentence": "The majority opinion found the law to be unconstitutional.", "translation": "" },
-      { "sentence": "The dissent argued that the statute was interpreted too narrowly.", "translation": "" },
-      { "sentence": "The case was remanded to the lower court for further proceedings.", "translation": "" },
-      { "sentence": "Judicial review allows courts to evaluate the validity of legislation.", "translation": "" }
-    ]
-  },
-  "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What is a 'precedent'?",
-        "options": [
-          "A law made by Congress",
-          "A previous court decision that guides future cases",
-          "A court disagreement"
-        ],
-        "answer": 1
+        "title": "Using Hyperbole Effectively",
+        "explanation": "Use hyperbole to add humor or emphasis, but avoid confusing or misleading the reader.",
+        "explanation_translation": {
+          "Hindi": "हास्य या जोर देने के लिए अतिशयोक्ति का उपयोग करें, लेकिन पाठक को भ्रमित करने से बचें।",
+          "Japanese": "ユーモアや強調のために誇張を使いましょう。ただし、読者を混乱させないようにします。"
+        }
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "A ___ opinion is written by a judge who disagrees with the majority.",
-        "options": ["landmark", "majority", "dissent"],
-        "answer": 2
+        "title": "Mastering Understatement",
+        "explanation": "Understatement can create subtle humor or politeness by downplaying strong feelings.",
+        "explanation_translation": {
+          "Hindi": "कम करके कहना मजबूत भावनाओं को हल्का करके सूक्ष्म हास्य या विनम्रता पैदा कर सकता है।",
+          "Japanese": "控えめな表現は強い感情を和らげて微妙なユーモアや丁寧さを生みます。"
+        }
       },
       {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "Judicial review means the court can decide if laws are constitutional.",
-        "options": ["True", "False"],
-        "answer": 0
+        "title": "Tone Matters",
+        "explanation": "Deadpan delivery can make irony or understatement funnier by using a neutral tone.",
+        "explanation_translation": {
+          "Hindi": "भावशून्य प्रस्तुति विडंबना या कम करके कहने को तटस्थ स्वर में मज़ेदार बना सकती है।",
+          "Japanese": "無表情な言い方は皮肉や控えめな表現をより面白くします。"
+        }
       },
       {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Who is the 'plaintiff' in a Supreme Court case?",
-        "options": [
-          "The government",
-          "The judge",
-          "The person bringing the case"
-        ],
-        "answer": 2
-      },
-      {
-        "id": "vocab5",
-        "type": "fillInTheBlanks",
-        "question": "A ___ decision changes how future cases are decided.",
-        "options": ["landmark", "remand", "statutory"],
-        "answer": 0
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The law was declared ___ by the Supreme Court.",
-        "options": ["plaintiff", "constitutional", "dissent"],
-        "answer": 1
-      },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "The case was ___ to the lower court.",
-        "options": ["remand", "remanded", "remanding"],
-        "answer": 1
-      },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [the, was, decision, controversial, highly]",
-        "options": ["the", "was", "decision", "controversial", "highly"],
-        "answer": ["The", "decision", "was", "highly", "controversial"]
-      },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "___ interpretation is the process of deciding what a law means.",
-        "options": ["Statutory", "Majority", "Plaintiff"],
-        "answer": 0
-      },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [court, set, a, The, new, precedent]",
-        "options": ["court", "set", "a", "The", "new", "precedent"],
-        "answer": ["The", "court", "set", "a", "new", "precedent"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "What does a dissenting opinion express?",
-        "options": [
-          "Agreement with the majority",
-          "Disagreement with the majority",
-          "A summary of the case"
-        ],
-        "answer": 1
-      },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What is the function of judicial review?",
-        "options": [
-          "To enforce laws",
-          "To make laws",
-          "To check if laws are constitutional"
-        ],
-        "answer": 2
-      },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Why is a landmark decision important?",
-        "options": [
-          "It applies only to one person",
-          "It changes future legal practice",
-          "It is always unanimous"
-        ],
-        "answer": 1
-      },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "Who writes the majority opinion?",
-        "options": [
-          "The judge with the most experience",
-          "Any judge who agrees with the main decision",
-          "The judge who brought the case"
-        ],
-        "answer": 1
-      },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "What is statutory interpretation?",
-        "options": [
-          "Enforcing a law",
-          "Deciding what a law means",
-          "Repealing a law"
-        ],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Summarize the reasoning behind a Supreme Court majority opinion of your choice.",
-        "options": [],
-        "answer": "The majority opinion in this case was based on the interpretation of constitutional rights and prior precedents."
-      },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Present arguments supporting or opposing a dissenting opinion in a major decision.",
-        "options": [],
-        "answer": "I support the dissent because it provides a more balanced view of the statute's intent."
-      },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Explain the impact of a landmark Supreme Court decision on society.",
-        "options": [],
-        "answer": "This landmark decision fundamentally changed civil rights protections in the country."
-      },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Discuss the importance of judicial review in maintaining checks and balances.",
-        "options": [],
-        "answer": "Judicial review is essential because it ensures that laws respect the constitution."
-      },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Debate the role of precedent in guiding future Supreme Court decisions.",
-        "options": [],
-        "answer": "Precedent helps maintain consistency in the law, but can also hinder necessary change."
+        "title": "Context is Key",
+        "explanation": "Irony and understatement only work if the listener understands the real situation.",
+        "explanation_translation": {
+          "Hindi": "विडंबना और कम करके कहना तभी काम करते हैं जब श्रोता वास्तविक स्थिति को समझता है।",
+          "Japanese": "皮肉や控えめな表現は、聞き手が本当の状況を理解しているときにのみ効果的です。"
+        }
       }
     ]
-  }
+  },"question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term means saying the opposite of what you really mean?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द वास्तव में जो आप कहना चाहते हैं उसका उल्टा कहने को दर्शाता है?",
+        "Japanese": "本当に言いたいことの逆を言うことを指す用語はどれですか？"
+      },
+      "options": [
+        "Irony",
+        "Hyperbole",
+        "Litotes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Saying 'I’m starving' when you’re just a little hungry is an example of ___.",
+      "question_translation": {
+        "Hindi": "थोड़ी भूख लगी हो और आप कहें 'मैं भूख से मर रहा हूँ' — यह ___ का उदाहरण है।",
+        "Japanese": "少しお腹が空いているときに「死ぬほどお腹が空いた」と言うのは___の例です。"
+      },
+      "options": [
+        "hyperbole",
+        "understatement",
+        "irony"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Understatement makes something seem less serious than it is.",
+      "question_translation": {
+        "Hindi": "कम करके कहना किसी चीज़ को वास्तव में जितना गंभीर है उससे कम गंभीर दिखाता है।",
+        "Japanese": "控えめな表現は物事を実際よりも軽く見せます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which device uses double negatives to soften a statement?",
+      "question_translation": {
+        "Hindi": "कौन सा उपकरण किसी कथन को नरम बनाने के लिए दोहरी नकारात्मकता का उपयोग करता है?",
+        "Japanese": "二重否定を使って発言を和らげる表現はどれですか？"
+      },
+      "options": [
+        "Litotes",
+        "Sarcasm",
+        "Hyperbole"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "A ___ tone can make irony or understatement funnier.",
+      "question_translation": {
+        "Hindi": "एक ___ स्वर विडंबना या कम करके कहने को और मजेदार बना सकता है।",
+        "Japanese": "___なトーンは皮肉や控えめな表現をより面白くします。"
+      },
+      "options": [
+        "deadpan",
+        "angry",
+        "loud"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [starving, am, I, literally]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [starving, am, I, literally]",
+        "Japanese": "並べ替え: [starving, am, I, literally]"
+      },
+      "options": [
+        "starving",
+        "am",
+        "I",
+        "literally"
+      ],
+      "answer": [
+        "I",
+        "am",
+        "literally",
+        "starving"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Saying 'It’s not bad' to mean 'It’s good' is an example of ___.",
+      "question_translation": {
+        "Hindi": "'यह बुरा नहीं है' कहकर 'यह अच्छा है' का मतलब लेना ___ का उदाहरण है।",
+        "Japanese": "「悪くない」と言って「良い」という意味にするのは___の例です。"
+      },
+      "options": [
+        "litotes",
+        "hyperbole",
+        "sarcasm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows sarcasm?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य व्यंग्य को दर्शाता है?",
+        "Japanese": "どの文が嫌味を示していますか？"
+      },
+      "options": [
+        "Oh perfect, another delay!",
+        "The sky is blue today.",
+        "I might be a bit late."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [day, exciting, what, an]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [day, exciting, what, an]",
+        "Japanese": "並べ替え: [day, exciting, what, an]"
+      },
+      "options": [
+        "day",
+        "exciting",
+        "what",
+        "an"
+      ],
+      "answer": [
+        "what",
+        "an",
+        "exciting",
+        "day"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Calling a hurricane 'a bit of wind' is an extreme ___.",
+      "question_translation": {
+        "Hindi": "एक तूफान को 'थोड़ी सी हवा' कहना एक चरम ___ है।",
+        "Japanese": "ハリケーンを「少し風が吹いている」と言うのは極端な___です。"
+      },
+      "options": [
+        "understatement",
+        "hyperbole",
+        "sarcasm"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What device is used: 'Best day ever!' after something bad happens?",
+      "audio_text": "Best day ever!",
+      "question_translation": {
+        "Hindi": "जब कुछ बुरा हो जाने के बाद 'Best day ever!' कहा जाए तो कौन सा उपकरण है?",
+        "Japanese": "悪いことが起きた後に「最高の一日だ！」と言うのはどの表現ですか？"
+      },
+      "options": [
+        "Irony",
+        "Hyperbole",
+        "Understatement"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "Which device is in: 'I could sleep for a thousand years'?",
+      "audio_text": "I could sleep for a thousand years.",
+      "question_translation": {
+        "Hindi": "'I could sleep for a thousand years' में कौन सा उपकरण है?",
+        "Japanese": "「千年眠れそうだ」という表現はどの修辞ですか？"
+      },
+      "options": [
+        "Hyperbole",
+        "Irony",
+        "Litotes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "Understatement can be polite or humorous.",
+      "audio_text": "Understatement can be polite or humorous.",
+      "question_translation": {
+        "Hindi": "कम करके कहना शिष्ट या हास्यपूर्ण हो सकता है।",
+        "Japanese": "控えめな表現は丁寧だったりユーモラスだったりすることがあります。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is shown: 'She’s not bad at singing'?",
+      "audio_text": "She's not bad at singing.",
+      "question_translation": {
+        "Hindi": "'She's not bad at singing' किसका उदाहरण है?",
+        "Japanese": "「彼女は歌が下手ではない」は何の例ですか？"
+      },
+      "options": [
+        "Litotes",
+        "Hyperbole",
+        "Sarcasm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which device makes humor by saying much less than the truth?",
+      "audio_text": "It’s just a scratch, he said, looking at a huge dent.",
+      "question_translation": {
+        "Hindi": "कौन सा उपकरण सच्चाई से बहुत कम कहकर हास्य उत्पन्न करता है?",
+        "Japanese": "本当のことをはるかに控えめに言うことでユーモアを生む表現はどれですか？"
+      },
+      "options": [
+        "Understatement",
+        "Irony",
+        "Hyperbole"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Oh great, another traffic jam!' (irony)",
+      "question_translation": {
+        "Hindi": "कहें: 'Oh great, another traffic jam!' (विडंबना)",
+        "Japanese": "言ってください: 'Oh great, another traffic jam!'（皮肉）"
+      },
+      "options": [],
+      "answer": "oh great another traffic jam"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'I’m freezing!' when it’s just slightly cold. (hyperbole)",
+      "question_translation": {
+        "Hindi": "कहें: 'I’m freezing!' जब बस थोड़ी ठंड हो। (अतिशयोक्ति)",
+        "Japanese": "少し寒いときに「凍えそう」と言ってください。（誇張）"
+      },
+      "options": [],
+      "answer": "i’m freezing"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'It’s not the worst idea.' (litotes)",
+      "question_translation": {
+        "Hindi": "कहें: 'It’s not the worst idea.' (नकारात्मक कम कहना)",
+        "Japanese": "言ってください: 'It’s not the worst idea.'（緩叙法）"
+      },
+      "options": [],
+      "answer": "it’s not the worst idea"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Well, that’s just fantastic…' after bad news. (sarcasm)",
+      "question_translation": {
+        "Hindi": "कहें: 'Well, that’s just fantastic…' बुरी खबर मिलने के बाद। (व्यंग्य)",
+        "Japanese": "悪い知らせを聞いた後に「それは素晴らしい…」と言ってください。（嫌味）"
+      },
+      "options": [],
+      "answer": "well that’s just fantastic"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'It’s just a scratch.' about a big dent. (understatement)",
+      "question_translation": {
+        "Hindi": "कहें: 'It’s just a scratch.' बड़े डेंट के बारे में। (कम करके कहना)",
+        "Japanese": "大きなへこみについて「ちょっとした傷です」と言ってください。（控えめな表現）"
+      },
+      "options": [],
+      "answer": "it’s just a scratch"
+    }
+  ]
+}
+
 }

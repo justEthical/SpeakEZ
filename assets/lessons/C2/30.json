@@ -1,4 +1,567 @@
 {
-  "id": 30,
-  "message": "This is file number 30"
+  "id": "lesson_reasoning_uncertainty_probability_c2",
+  "lesson_name": "Reasoning with Uncertainty & Probability",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "uncertainty",
+        "word_translation": {
+          "Hindi": "अनिश्चितता",
+          "Japanese": "不確実性"
+        },
+        "meaning": "The state of being unsure or not having complete knowledge about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में पूरी जानकारी न होने या सुनिश्चित न होने की स्थिति",
+          "Japanese": "何かについて完全な知識がなく確信が持てない状態"
+        },
+        "examples": [
+          {
+            "sentence": "Investors dislike uncertainty in the market.",
+            "translation": {
+              "Hindi": "निवेशकों को बाजार में अनिश्चितता पसंद नहीं होती।",
+              "Japanese": "投資家は市場の不確実性を嫌います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "probability",
+        "word_translation": {
+          "Hindi": "संभाव्यता",
+          "Japanese": "確率"
+        },
+        "meaning": "A measure of how likely something is to happen",
+        "meaning_translation": {
+          "Hindi": "किसी घटना के घटित होने की संभावना का माप",
+          "Japanese": "何かが起こる可能性の度合い"
+        },
+        "examples": [
+          {
+            "sentence": "The probability of rain today is high.",
+            "translation": {
+              "Hindi": "आज बारिश होने की संभावना अधिक है।",
+              "Japanese": "今日は雨が降る確率が高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "likelihood",
+        "word_translation": {
+          "Hindi": "संभावना",
+          "Japanese": "可能性"
+        },
+        "meaning": "The chance that something might happen",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के होने की संभावना",
+          "Japanese": "何かが起こる可能性"
+        },
+        "examples": [
+          {
+            "sentence": "There is a strong likelihood of success if we prepare well.",
+            "translation": {
+              "Hindi": "यदि हम अच्छी तरह से तैयारी करें तो सफलता की प्रबल संभावना है।",
+              "Japanese": "十分に準備すれば成功の可能性が高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk",
+        "word_translation": {
+          "Hindi": "जोखिम",
+          "Japanese": "リスク"
+        },
+        "meaning": "The chance of loss or danger",
+        "meaning_translation": {
+          "Hindi": "हानि या खतरे की संभावना",
+          "Japanese": "損失や危険の可能性"
+        },
+        "examples": [
+          {
+            "sentence": "Investing always involves some risk.",
+            "translation": {
+              "Hindi": "निवेश में हमेशा कुछ जोखिम होता है।",
+              "Japanese": "投資には常にいくらかのリスクが伴います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "unclear",
+        "word_translation": {
+          "Hindi": "अस्पष्ट",
+          "Japanese": "不明確な"
+        },
+        "meaning": "Not easy to understand or define",
+        "meaning_translation": {
+          "Hindi": "समझने या परिभाषित करने में आसान नहीं",
+          "Japanese": "理解しにくい、定義しにくい"
+        },
+        "examples": [
+          {
+            "sentence": "The outcome of the experiment is still unclear.",
+            "translation": {
+              "Hindi": "प्रयोग का परिणाम अभी भी अस्पष्ट है।",
+              "Japanese": "実験の結果はまだ不明確です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "estimate",
+        "word_translation": {
+          "Hindi": "अनुमान लगाना",
+          "Japanese": "見積もる"
+        },
+        "meaning": "To make a judgment or guess about a number or amount",
+        "meaning_translation": {
+          "Hindi": "किसी संख्या या मात्रा के बारे में निर्णय या अनुमान लगाना",
+          "Japanese": "数量や数値について推測や判断をする"
+        },
+        "examples": [
+          {
+            "sentence": "Scientists estimate the probability of an earthquake in the region.",
+            "translation": {
+              "Hindi": "वैज्ञानिक क्षेत्र में भूकंप की संभावना का अनुमान लगाते हैं।",
+              "Japanese": "科学者たちは地域の地震の確率を見積もっています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assumption",
+        "word_translation": {
+          "Hindi": "अनुमान / धारणा",
+          "Japanese": "仮定"
+        },
+        "meaning": "Something that you accept as true without proof",
+        "meaning_translation": {
+          "Hindi": "कुछ जिसे आप बिना प्रमाण के सच मानते हैं",
+          "Japanese": "証拠なしに真実だと受け入れること"
+        },
+        "examples": [
+          {
+            "sentence": "The plan is based on the assumption that funding will continue.",
+            "translation": {
+              "Hindi": "योजना इस धारणा पर आधारित है कि फंडिंग जारी रहेगी।",
+              "Japanese": "この計画は資金が継続するという仮定に基づいています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "predictive",
+        "word_translation": {
+          "Hindi": "भविष्यवाणी करने वाला",
+          "Japanese": "予測的な"
+        },
+        "meaning": "Relating to making predictions about the future",
+        "meaning_translation": {
+          "Hindi": "भविष्य के बारे में भविष्यवाणी करने से संबंधित",
+          "Japanese": "未来を予測することに関連する"
+        },
+        "examples": [
+          {
+            "sentence": "Predictive models help in understanding uncertain outcomes.",
+            "translation": {
+              "Hindi": "भविष्यवाणी मॉडल अनिश्चित परिणामों को समझने में मदद करते हैं।",
+              "Japanese": "予測モデルは不確実な結果を理解するのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bias",
+        "word_translation": {
+          "Hindi": "पक्षपात",
+          "Japanese": "バイアス"
+        },
+        "meaning": "A tendency to favor one thing over another, sometimes unfairly",
+        "meaning_translation": {
+          "Hindi": "एक चीज़ को दूसरी पर प्राथमिकता देने की प्रवृत्ति, कभी-कभी अनुचित रूप से",
+          "Japanese": "あるものを他のものよりも不当に優遇する傾向"
+        },
+        "examples": [
+          {
+            "sentence": "Confirmation bias affects how we interpret uncertain evidence.",
+            "translation": {
+              "Hindi": "पुष्टि पक्षपात इस बात को प्रभावित करता है कि हम अनिश्चित साक्ष्यों की व्याख्या कैसे करते हैं।",
+              "Japanese": "確証バイアスは私たちが不確実な証拠を解釈する方法に影響します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "confidence level",
+        "word_translation": {
+          "Hindi": "विश्वास स्तर",
+          "Japanese": "信頼水準"
+        },
+        "meaning": "A statistical measure showing how sure we are about a result",
+        "meaning_translation": {
+          "Hindi": "एक सांख्यिकीय माप जो दिखाता है कि हम किसी परिणाम के बारे में कितने आश्वस्त हैं",
+          "Japanese": "結果についてどの程度確信があるかを示す統計的な尺度"
+        },
+        "examples": [
+          {
+            "sentence": "The study reported a 95% confidence level in its predictions.",
+            "translation": {
+              "Hindi": "अध्ययन ने अपनी भविष्यवाणियों में 95% विश्वास स्तर की रिपोर्ट दी।",
+              "Japanese": "この研究は予測に95％の信頼水準を報告しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Modal Verbs for Probability",
+        "explanation": "Use modals like 'might', 'could', and 'may' to express uncertain outcomes. Example: It might rain later.",
+        "explanation_translation": {
+          "Hindi": "अनिश्चित परिणाम व्यक्त करने के लिए 'might', 'could' और 'may' जैसे मॉडलों का उपयोग करें। उदाहरण: It might rain later.",
+          "Japanese": "不確実な結果を表すときに「might」「could」「may」などの助動詞を使います。例：It might rain later."
+        }
+      },
+      {
+        "title": "Adverbs of Certainty",
+        "explanation": "Words like 'probably', 'likely', 'possibly', and 'certainly' help indicate the level of confidence. Example: She will probably come.",
+        "explanation_translation": {
+          "Hindi": "'probably', 'likely', 'possibly', और 'certainly' जैसे शब्द आत्मविश्वास के स्तर को दर्शाने में मदद करते हैं। उदाहरण: She will probably come.",
+          "Japanese": "「probably」「likely」「possibly」「certainly」などの副詞は確信の度合いを示すのに役立ちます。例：She will probably come."
+        }
+      },
+      {
+        "title": "Conditional Sentences for Hypothetical Outcomes",
+        "explanation": "Use conditionals to reason about uncertain futures. Example: If the data changes, our conclusion might change.",
+        "explanation_translation": {
+          "Hindi": "अनिश्चित भविष्य के बारे में तर्क करने के लिए शर्तीय वाक्यों का उपयोग करें। उदाहरण: If the data changes, our conclusion might change.",
+          "Japanese": "不確実な未来について推論するには条件文を使います。例：If the data changes, our conclusion might change."
+        }
+      },
+      {
+        "title": "Using Quantifiers with Probability",
+        "explanation": "Phrases like 'a high chance', 'a small likelihood', and 'an even probability' make statements more precise.",
+        "explanation_translation": {
+          "Hindi": "'a high chance', 'a small likelihood' और 'an even probability' जैसी अभिव्यक्तियाँ कथनों को अधिक सटीक बनाती हैं।",
+          "Japanese": "「a high chance」「a small likelihood」「an even probability」などの表現は発言をより正確にします。"
+        }
+      },
+      {
+        "title": "Reporting Probabilistic Findings",
+        "explanation": "When sharing uncertain results, use phrases like 'the evidence suggests', 'data indicates', or 'there is a possibility'.",
+        "explanation_translation": {
+          "Hindi": "अनिश्चित परिणाम साझा करते समय 'the evidence suggests', 'data indicates' या 'there is a possibility' जैसे वाक्यांशों का उपयोग करें।",
+          "Japanese": "不確実な結果を共有するときは「the evidence suggests」「data indicates」「there is a possibility」などの表現を使います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'the chance that something might happen'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'किसी चीज़ के होने की संभावना' का अर्थ है?",
+        "Japanese": "「何かが起こる可能性」を意味する言葉はどれですか？"
+      },
+      "options": [
+        "assumption",
+        "likelihood",
+        "bias"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Scientists often ___ the probability of an event happening.",
+      "question_translation": {
+        "Hindi": "वैज्ञानिक अक्सर किसी घटना के होने की संभावना का ___ करते हैं।",
+        "Japanese": "科学者たちはしばしば出来事が起こる確率を___します。"
+      },
+      "options": [
+        "estimate",
+        "assume",
+        "ignore"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A confidence level shows how sure we are about a result.",
+      "question_translation": {
+        "Hindi": "विश्वास स्तर यह दिखाता है कि हम किसी परिणाम के बारे में कितने आश्वस्त हैं।",
+        "Japanese": "信頼水準は結果についてどのくらい確信があるかを示します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word describes the state of not being sure?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द निश्चित न होने की स्थिति का वर्णन करता है?",
+        "Japanese": "確信がない状態を表す言葉はどれですか？"
+      },
+      "options": [
+        "certainty",
+        "uncertainty",
+        "confidence"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Confirmation ___ can affect how we interpret uncertain evidence.",
+      "question_translation": {
+        "Hindi": "पुष्टि ___ इस बात को प्रभावित कर सकता है कि हम अनिश्चित साक्ष्य की व्याख्या कैसे करते हैं।",
+        "Japanese": "確証___は私たちが不確実な証拠をどう解釈するかに影響します。"
+      },
+      "options": [
+        "bias",
+        "level",
+        "model"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [might, it, rain, later]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [might, it, rain, later]",
+        "Japanese": "並べ替え: [might, it, rain, later]"
+      },
+      "options": [
+        "might",
+        "it",
+        "rain",
+        "later"
+      ],
+      "answer": [
+        "it",
+        "might",
+        "rain",
+        "later"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "She will ___ arrive because of the weather.",
+      "question_translation": {
+        "Hindi": "मौसम के कारण वह ___ पहुंचेगी।",
+        "Japanese": "天候のため彼女は___到着するでしょう。"
+      },
+      "options": [
+        "probably",
+        "never",
+        "clearly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows a conditional about an uncertain future?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य एक अनिश्चित भविष्य के बारे में शर्त दिखाता है?",
+        "Japanese": "どの文が不確実な未来について条件を示していますか？"
+      },
+      "options": [
+        "If the data changes, our conclusion might change.",
+        "She is definitely coming tomorrow.",
+        "We went to the market yesterday."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [there, is, possibility, a]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [there, is, possibility, a]",
+        "Japanese": "並べ替え: [there, is, possibility, a]"
+      },
+      "options": [
+        "there",
+        "is",
+        "possibility",
+        "a"
+      ],
+      "answer": [
+        "there",
+        "is",
+        "a",
+        "possibility"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The model ___ the likelihood of rain tomorrow.",
+      "question_translation": {
+        "Hindi": "मॉडल कल बारिश की संभावना को ___ करता है।",
+        "Japanese": "そのモデルは明日の雨の可能性を___します。"
+      },
+      "options": [
+        "predicts",
+        "predictive",
+        "prediction"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker uncertain about?",
+      "audio_text": "I might not be able to finish the report on time.",
+      "question_translation": {
+        "Hindi": "वक्ता किस बारे में अनिश्चित है?",
+        "Japanese": "話者は何について不確かですか？"
+      },
+      "options": [
+        "Finishing the report on time",
+        "Attending the meeting",
+        "Writing the report"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker expresses a high probability of success.",
+      "audio_text": "There’s a strong likelihood that our plan will work.",
+      "question_translation": {
+        "Hindi": "वक्ता सफलता की उच्च संभावना व्यक्त करता है।",
+        "Japanese": "話者は成功の高い可能性を示しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which term describes the speaker’s statement?",
+      "audio_text": "The evidence suggests that the project might face some risks.",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द वक्ता के कथन का वर्णन करता है?",
+        "Japanese": "話者の発言を表す言葉はどれですか？"
+      },
+      "options": [
+        "certainty",
+        "probability",
+        "risk"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What does the speaker estimate?",
+      "audio_text": "We estimate a 60% chance of success in this experiment.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या अनुमान लगाता है?",
+        "Japanese": "話者は何を見積もっていますか？"
+      },
+      "options": [
+        "Cost of the experiment",
+        "Chance of success",
+        "Number of participants"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker is certain about the outcome.",
+      "audio_text": "It’s possible that the market will change next month.",
+      "question_translation": {
+        "Hindi": "वक्ता परिणाम के बारे में निश्चित है।",
+        "Japanese": "話者は結果について確信しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'There is a high probability of rain tomorrow.'",
+      "question_translation": {
+        "Hindi": "कहें: 'There is a high probability of rain tomorrow.'",
+        "Japanese": "言ってください: 'There is a high probability of rain tomorrow.'"
+      },
+      "options": [],
+      "answer": "there is a high probability of rain tomorrow"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'We might face some risks in this plan.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We might face some risks in this plan.'",
+        "Japanese": "言ってください: 'We might face some risks in this plan.'"
+      },
+      "options": [],
+      "answer": "we might face some risks in this plan"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'It’s uncertain whether the experiment will succeed.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It’s uncertain whether the experiment will succeed.'",
+        "Japanese": "言ってください: 'It’s uncertain whether the experiment will succeed.'"
+      },
+      "options": [],
+      "answer": "it’s uncertain whether the experiment will succeed"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'There is a possibility that the data is biased.'",
+      "question_translation": {
+        "Hindi": "कहें: 'There is a possibility that the data is biased.'",
+        "Japanese": "言ってください: 'There is a possibility that the data is biased.'"
+      },
+      "options": [],
+      "answer": "there is a possibility that the data is biased"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'We can estimate the likelihood of success.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We can estimate the likelihood of success.'",
+        "Japanese": "言ってください: 'We can estimate the likelihood of success.'"
+      },
+      "options": [],
+      "answer": "we can estimate the likelihood of success"
+    }
+  ]
+}
+
 }

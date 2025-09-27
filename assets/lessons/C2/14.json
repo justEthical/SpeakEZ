@@ -1,4 +1,572 @@
 {
-  "id": 14,
-  "message": "This is file number 14"
+  "id": "lesson_metaphor_clusters_001",
+  "lesson_name": "Metaphor Clusters in Abstract Topics",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "pillar of strength",
+        "word_translation": {
+          "Hindi": "मजबूती का स्तंभ",
+          "Japanese": "支えとなる柱"
+        },
+        "meaning": "Someone who provides strong and reliable support",
+        "meaning_translation": {
+          "Hindi": "कोई जो मजबूत और भरोसेमंद समर्थन प्रदान करता है",
+          "Japanese": "強く頼れる支えとなる人"
+        },
+        "examples": [
+          {
+            "sentence": "My mentor has been a pillar of strength throughout my career.",
+            "translation": {
+              "Hindi": "मेरे मेंटर मेरे पूरे करियर में मजबूती का स्तंभ रहे हैं।",
+              "Japanese": "私のメンターはキャリアを通して支えとなる柱でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bedrock principle",
+        "word_translation": {
+          "Hindi": "मूलभूत सिद्धांत",
+          "Japanese": "基盤となる原則"
+        },
+        "meaning": "A fundamental idea or principle",
+        "meaning_translation": {
+          "Hindi": "एक मौलिक विचार या सिद्धांत",
+          "Japanese": "基本的な考え方や原則"
+        },
+        "examples": [
+          {
+            "sentence": "Integrity is the bedrock principle of good leadership.",
+            "translation": {
+              "Hindi": "निष्ठा अच्छे नेतृत्व का मूलभूत सिद्धांत है।",
+              "Japanese": "誠実さは良いリーダーシップの基盤となる原則です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "foundation of trust",
+        "word_translation": {
+          "Hindi": "विश्वास की नींव",
+          "Japanese": "信頼の土台"
+        },
+        "meaning": "The basic support or basis for mutual confidence",
+        "meaning_translation": {
+          "Hindi": "पारस्परिक विश्वास का मूल आधार",
+          "Japanese": "相互の信頼を支える基盤"
+        },
+        "examples": [
+          {
+            "sentence": "Open communication builds a strong foundation of trust.",
+            "translation": {
+              "Hindi": "खुला संवाद विश्वास की एक मजबूत नींव बनाता है।",
+              "Japanese": "オープンなコミュニケーションが強固な信頼の土台を築きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bridge the gap",
+        "word_translation": {
+          "Hindi": "फासला पाटना",
+          "Japanese": "隔たりを埋める"
+        },
+        "meaning": "To reduce differences or bring two sides closer together",
+        "meaning_translation": {
+          "Hindi": "अंतर को कम करना या दो पक्षों को करीब लाना",
+          "Japanese": "違いを減らしたり、二つの側を近づけること"
+        },
+        "examples": [
+          {
+            "sentence": "Education can help bridge the gap between rich and poor.",
+            "translation": {
+              "Hindi": "शिक्षा अमीर और गरीब के बीच का फासला पाटने में मदद कर सकती है।",
+              "Japanese": "教育は裕福層と貧困層の隔たりを埋めるのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "torchbearer of change",
+        "word_translation": {
+          "Hindi": "परिवर्तन का मशालधारी",
+          "Japanese": "変革の旗手"
+        },
+        "meaning": "A person who leads or inspires transformation",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो परिवर्तन का नेतृत्व या प्रेरणा देता है",
+          "Japanese": "変革を先導し、鼓舞する人"
+        },
+        "examples": [
+          {
+            "sentence": "She became a torchbearer of change in the industry.",
+            "translation": {
+              "Hindi": "वह उद्योग में परिवर्तन की मशालधारी बन गई।",
+              "Japanese": "彼女は業界で変革の旗手となりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "storm of criticism",
+        "word_translation": {
+          "Hindi": "आलोचना का तूफान",
+          "Japanese": "批判の嵐"
+        },
+        "meaning": "A large amount of disapproval or blame expressed at once",
+        "meaning_translation": {
+          "Hindi": "एक साथ बहुत अधिक अस्वीकृति या दोषारोपण",
+          "Japanese": "一度に表される多くの非難や反対"
+        },
+        "examples": [
+          {
+            "sentence": "The new policy faced a storm of criticism.",
+            "translation": {
+              "Hindi": "नई नीति को आलोचना का तूफान झेलना पड़ा।",
+              "Japanese": "新しい政策は批判の嵐に直面しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ray of hope",
+        "word_translation": {
+          "Hindi": "आशा की किरण",
+          "Japanese": "希望の光"
+        },
+        "meaning": "A small sign of improvement or optimism",
+        "meaning_translation": {
+          "Hindi": "सुधार या आशावाद का छोटा संकेत",
+          "Japanese": "改善や楽観の小さな兆し"
+        },
+        "examples": [
+          {
+            "sentence": "The vaccine brought a ray of hope during the crisis.",
+            "translation": {
+              "Hindi": "टीके ने संकट के दौरान आशा की किरण लाई।",
+              "Japanese": "ワクチンは危機の中で希望の光をもたらしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "anchor of stability",
+        "word_translation": {
+          "Hindi": "स्थिरता का लंगर",
+          "Japanese": "安定の錨"
+        },
+        "meaning": "Someone or something that keeps a situation steady",
+        "meaning_translation": {
+          "Hindi": "कोई जो स्थिति को स्थिर बनाए रखता है",
+          "Japanese": "状況を安定させる人または物"
+        },
+        "examples": [
+          {
+            "sentence": "The constitution is an anchor of stability for the nation.",
+            "translation": {
+              "Hindi": "संविधान राष्ट्र के लिए स्थिरता का लंगर है।",
+              "Japanese": "憲法は国にとって安定の錨です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mirror society",
+        "word_translation": {
+          "Hindi": "समाज का दर्पण",
+          "Japanese": "社会を映す鏡"
+        },
+        "meaning": "To reflect or represent the state of society",
+        "meaning_translation": {
+          "Hindi": "समाज की स्थिति को प्रतिबिंबित या दर्शाना",
+          "Japanese": "社会の状態を映し出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Art often mirrors society’s values and struggles.",
+            "translation": {
+              "Hindi": "कला अक्सर समाज के मूल्यों और संघर्षों को दर्शाती है।",
+              "Japanese": "芸術はしばしば社会の価値観や葛藤を映し出します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "path to enlightenment",
+        "word_translation": {
+          "Hindi": "ज्ञानोदय का मार्ग",
+          "Japanese": "悟りへの道"
+        },
+        "meaning": "The process of gaining deep understanding or wisdom",
+        "meaning_translation": {
+          "Hindi": "गहन समझ या ज्ञान प्राप्त करने की प्रक्रिया",
+          "Japanese": "深い理解や知恵を得る過程"
+        },
+        "examples": [
+          {
+            "sentence": "Meditation is often seen as a path to enlightenment.",
+            "translation": {
+              "Hindi": "ध्यान को अक्सर ज्ञानोदय का मार्ग माना जाता है।",
+              "Japanese": "瞑想はしばしば悟りへの道と見なされます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Extended Metaphor Chains",
+        "explanation": "In academic and persuasive writing, extend a metaphor across a paragraph (e.g., ‘foundation’, ‘pillar’, ‘bedrock’ for stability).",
+        "explanation_translation": {
+          "Hindi": "शैक्षिक और प्रेरक लेखन में, एक अनुच्छेद में एक रूपक को विस्तारित करें (जैसे: स्थिरता के लिए 'foundation', 'pillar', 'bedrock')।",
+          "Japanese": "学術的・説得的な文章では、段落全体でメタファーを拡張しましょう（例：安定性のための「foundation」「pillar」「bedrock」）。"
+        }
+      },
+      {
+        "title": "Mixing Conceptual Metaphors",
+        "explanation": "Avoid confusing readers by mixing too many metaphorical domains (e.g., don’t combine construction and travel metaphors randomly).",
+        "explanation_translation": {
+          "Hindi": "बहुत सारे रूपक क्षेत्रों को मिलाकर पाठकों को भ्रमित करने से बचें (जैसे: निर्माण और यात्रा रूपकों को यादृच्छिक रूप से न मिलाएं)।",
+          "Japanese": "複数のメタファー領域を混ぜすぎて読者を混乱させないようにしましょう（例：建築と旅行のメタファーを無作為に混ぜない）。"
+        }
+      },
+      {
+        "title": "Abstract Topics with Concrete Imagery",
+        "explanation": "Use concrete metaphors (e.g., ‘storm of criticism’, ‘ray of hope’) to make abstract issues vivid and relatable.",
+        "explanation_translation": {
+          "Hindi": "अमूर्त मुद्दों को जीवंत और संबंधित बनाने के लिए ठोस रूपकों का उपयोग करें (जैसे: 'storm of criticism', 'ray of hope')।",
+          "Japanese": "抽象的な問題を生き生きと身近にするために具体的なメタファーを使いましょう（例：「storm of criticism」「ray of hope」）。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase means 'a person who inspires or leads transformation'?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश उस व्यक्ति को दर्शाता है जो परिवर्तन को प्रेरित या नेतृत्व करता है?",
+          "Japanese": "変革を鼓舞または先導する人を意味する表現はどれですか？"
+        },
+        "options": [
+          "torchbearer of change",
+          "pillar of strength",
+          "storm of criticism"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Integrity is the ___ principle of great leadership.",
+        "question_translation": {
+          "Hindi": "ईमानदारी महान नेतृत्व का ___ सिद्धांत है।",
+          "Japanese": "誠実さは偉大なリーダーシップの___原則です。"
+        },
+        "options": [
+          "bedrock",
+          "ray of hope",
+          "anchor of stability"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "‘Bridge the gap’ means to widen differences between two sides.",
+        "question_translation": {
+          "Hindi": "'Bridge the gap' का अर्थ दो पक्षों के बीच अंतर को बढ़ाना है।",
+          "Japanese": "「Bridge the gap」は二つの側の違いを広げることを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which metaphor means 'a strong source of support'?",
+        "question_translation": {
+          "Hindi": "कौन सा रूपक 'मजबूत सहारे का स्रोत' का अर्थ देता है?",
+          "Japanese": "「強い支えの源」を意味するメタファーはどれですか？"
+        },
+        "options": [
+          "pillar of strength",
+          "ray of hope",
+          "mirror society"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The artist’s work often ___ society’s values.",
+        "question_translation": {
+          "Hindi": "कलाकार का कार्य अक्सर समाज के मूल्यों को ___ करता है।",
+          "Japanese": "その芸術家の作品はしばしば社会の価値観を___します。"
+        },
+        "options": [
+          "mirrors",
+          "anchors",
+          "torches"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [pillar, she, of, my, career, has, strength, been]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [pillar, she, of, my, career, has, strength, been]",
+          "Japanese": "並べ替え: [pillar, she, of, my, career, has, strength, been]"
+        },
+        "options": [
+          "pillar",
+          "she",
+          "of",
+          "my",
+          "career",
+          "has",
+          "strength",
+          "been"
+        ],
+        "answer": [
+          "she",
+          "has",
+          "been",
+          "a",
+          "pillar",
+          "of",
+          "strength",
+          "in",
+          "my",
+          "career"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The new reform sparked a ___ of criticism.",
+        "question_translation": {
+          "Hindi": "नए सुधार ने आलोचना का एक ___ भड़काया।",
+          "Japanese": "新しい改革は批判の___を引き起こしました。"
+        },
+        "options": [
+          "storm",
+          "ray",
+          "mirror"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Choose the correct sentence:",
+        "question_translation": {
+          "Hindi": "सही वाक्य चुनें:",
+          "Japanese": "正しい文を選んでください:"
+        },
+        "options": [
+          "Education can help bridge the gap between communities.",
+          "Education can help gap bridge the communities.",
+          "Education can bridging the gap between communities."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [anchor, the, constitution, is, nation, of, stability, the, for]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [anchor, the, constitution, is, nation, of, stability, the, for]",
+          "Japanese": "並べ替え: [anchor, the, constitution, is, nation, of, stability, the, for]"
+        },
+        "options": [
+          "anchor",
+          "the",
+          "constitution",
+          "is",
+          "nation",
+          "of",
+          "stability",
+          "the",
+          "for"
+        ],
+        "answer": [
+          "the",
+          "constitution",
+          "is",
+          "the",
+          "anchor",
+          "of",
+          "stability",
+          "for",
+          "the",
+          "nation"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Meditation is often seen as a ___ to enlightenment.",
+        "question_translation": {
+          "Hindi": "ध्यान को अक्सर ज्ञान प्राप्ति के ___ के रूप में देखा जाता है।",
+          "Japanese": "瞑想はしばしば悟りへの___と見なされます。"
+        },
+        "options": [
+          "path",
+          "pillar",
+          "bridge"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is described as a foundation?",
+        "audio_text": "Trust is the foundation of any strong relationship.",
+        "question_translation": {
+          "Hindi": "किसे आधार के रूप में वर्णित किया गया है?",
+          "Japanese": "何があらゆる強い関係の土台として説明されていますか？"
+        },
+        "options": [
+          "Trust",
+          "Criticism",
+          "Hope"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says the new policy created a storm of criticism.",
+        "audio_text": "The new policy faced a storm of criticism from the public.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि नई नीति ने आलोचना का तूफान पैदा किया।",
+          "Japanese": "話者は、新しい政策が批判の嵐を引き起こしたと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Who is the torchbearer of change according to the speaker?",
+        "audio_text": "She became the torchbearer of change in her company.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार परिवर्तन की मशालधारी कौन बनी?",
+          "Japanese": "話者によると、誰が会社の変革の旗手となりましたか？"
+        },
+        "options": [
+          "She",
+          "The company",
+          "The policy"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What brought a ray of hope?",
+        "audio_text": "The new discovery brought a ray of hope to patients.",
+        "question_translation": {
+          "Hindi": "किसने आशा की किरण लाई?",
+          "Japanese": "何が患者たちに希望の光をもたらしましたか？"
+        },
+        "options": [
+          "The new discovery",
+          "The criticism",
+          "The constitution"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says art mirrors society’s struggles.",
+        "audio_text": "Art often mirrors society’s struggles and triumphs.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि कला समाज के संघर्षों को दर्शाती है।",
+          "Japanese": "話者は芸術が社会の苦闘を映し出すと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'She is a pillar of strength in our team.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She is a pillar of strength in our team.'",
+          "Japanese": "言ってください: 'She is a pillar of strength in our team.'"
+        },
+        "options": [],
+        "answer": "she is a pillar of strength in our team"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'We must bridge the gap between generations.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We must bridge the gap between generations.'",
+          "Japanese": "言ってください: 'We must bridge the gap between generations.'"
+        },
+        "options": [],
+        "answer": "we must bridge the gap between generations"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She became a torchbearer of change.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She became a torchbearer of change.'",
+          "Japanese": "言ってください: 'She became a torchbearer of change.'"
+        },
+        "options": [],
+        "answer": "she became a torchbearer of change"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The policy faced a storm of criticism.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The policy faced a storm of criticism.'",
+          "Japanese": "言ってください: 'The policy faced a storm of criticism.'"
+        },
+        "options": [],
+        "answer": "the policy faced a storm of criticism"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Trust is the foundation of strong relationships.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Trust is the foundation of strong relationships.'",
+          "Japanese": "言ってください: 'Trust is the foundation of strong relationships.'"
+        },
+        "options": [],
+        "answer": "trust is the foundation of strong relationships"
+      }
+    ]
+  }
+
 }
