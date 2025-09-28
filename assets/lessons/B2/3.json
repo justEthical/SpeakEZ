@@ -1,55 +1,261 @@
 {
-  "id": "b2_discussing_globalization_01",
-  "lesson_name": "Discussing Globalization",
+  "id": "lesson_mixed_conditionals_b2_003",
+  "lesson_name": "Mixed Conditionals (Time Shifts)",
   "purpose": "All",
   "cefrLevel": "B2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "globalization", "meaning": "the process of countries becoming more connected" },
-      { "word": "multinational", "meaning": "a company that operates in many countries" },
-      { "word": "trade", "meaning": "buying and selling goods between countries" },
-      { "word": "outsourcing", "meaning": "sending work to another country to save costs" },
-      { "word": "diversity", "meaning": "having many different types of people or things" },
-      { "word": "cultural exchange", "meaning": "sharing ideas and traditions between countries" },
-      { "word": "economy", "meaning": "the system of money and trade in a country" },
-      { "word": "inequality", "meaning": "an unfair difference between people or groups" },
-      { "word": "integration", "meaning": "combining different parts into a whole" },
-      { "word": "standardization", "meaning": "making things the same in many places" }
+      {
+        "word": "time shift",
+        "word_translation": {
+          "Hindi": "समय परिवर्तन",
+          "Japanese": "時制のずれ"
+        },
+        "meaning": "When the time of the condition and the result are different",
+        "meaning_translation": {
+          "Hindi": "जब शर्त और परिणाम का समय अलग होता है",
+          "Japanese": "条件と結果の時制が異なる場合"
+        },
+        "examples": [
+          {
+            "sentence": "If I had studied medicine, I would be a doctor now. (Past condition → present result)",
+            "translation": {
+              "Hindi": "अगर मैंने चिकित्सा पढ़ी होती, तो मैं अब डॉक्टर होता। (अतीत की शर्त → वर्तमान परिणाम)",
+              "Japanese": "医学を勉強していたら、今医者だろう。（過去の条件 → 現在の結果）"
+            }
+          }
+        ]
+      },
+      {
+        "word": "present result",
+        "word_translation": {
+          "Hindi": "वर्तमान परिणाम",
+          "Japanese": "現在の結果"
+        },
+        "meaning": "The outcome that exists now because of a past event",
+        "meaning_translation": {
+          "Hindi": "एक अतीत की घटना के कारण वर्तमान में मौजूद परिणाम",
+          "Japanese": "過去の出来事のせいで今ある結果"
+        },
+        "examples": [
+          {
+            "sentence": "If he had trained harder, he would be in the team now.",
+            "translation": {
+              "Hindi": "अगर उसने अधिक अभ्यास किया होता, तो वह अब टीम में होता।",
+              "Japanese": "もっと練習していたら、今チームに入っていただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "past result",
+        "word_translation": {
+          "Hindi": "अतीत का परिणाम",
+          "Japanese": "過去の結果"
+        },
+        "meaning": "The outcome that would have happened in the past if the present or general condition had been different",
+        "meaning_translation": {
+          "Hindi": "वह परिणाम जो अतीत में हुआ होता यदि वर्तमान या सामान्य शर्त अलग होती",
+          "Japanese": "現在または一般的な条件が異なっていたら過去に起きていた結果"
+        },
+        "examples": [
+          {
+            "sentence": "If I were more confident, I would have spoken in the meeting.",
+            "translation": {
+              "Hindi": "अगर मैं अधिक आत्मविश्वासी होता, तो मैंने बैठक में बात की होती।",
+              "Japanese": "もっと自信があれば、会議で発言していただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mixed structure",
+        "word_translation": {
+          "Hindi": "मिश्रित संरचना",
+          "Japanese": "混合構文"
+        },
+        "meaning": "Combining different tenses in conditionals to match meaning",
+        "meaning_translation": {
+          "Hindi": "अर्थ मिलाने के लिए कंडीशनल्स में अलग-अलग कालों का संयोजन",
+          "Japanese": "意味に合わせて条件文で異なる時制を組み合わせること"
+        },
+        "examples": [
+          {
+            "sentence": "If I had slept earlier, I wouldn’t be so tired now.",
+            "translation": {
+              "Hindi": "अगर मैं पहले सोया होता, तो मैं अब इतना थका हुआ नहीं होता।",
+              "Japanese": "もっと早く寝ていたら、今こんなに疲れていないだろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cause-effect",
+        "word_translation": {
+          "Hindi": "कारण-प्रभाव",
+          "Japanese": "原因と結果"
+        },
+        "meaning": "Relationship where a past action affects the present or vice versa",
+        "meaning_translation": {
+          "Hindi": "ऐसा संबंध जहाँ अतीत की क्रिया वर्तमान को प्रभावित करती है या उल्टा",
+          "Japanese": "過去の行動が現在に影響する、またはその逆の関係"
+        },
+        "examples": [
+          {
+            "sentence": "If she were more careful, she wouldn’t have broken the vase.",
+            "translation": {
+              "Hindi": "अगर वह अधिक सावधान होती, तो उसने फूलदान नहीं तोड़ा होता।",
+              "Japanese": "もっと注意深ければ、花瓶を壊さなかっただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ongoing state",
+        "word_translation": {
+          "Hindi": "चलती हुई अवस्था",
+          "Japanese": "継続状態"
+        },
+        "meaning": "A condition that is true now but linked to a past result",
+        "meaning_translation": {
+          "Hindi": "एक स्थिति जो अब सही है लेकिन अतीत के परिणाम से जुड़ी है",
+          "Japanese": "現在真実だが過去の結果に関連する状態"
+        },
+        "examples": [
+          {
+            "sentence": "If I weren’t allergic, I would have tried that dish.",
+            "translation": {
+              "Hindi": "अगर मुझे एलर्जी नहीं होती, तो मैंने वह डिश चखी होती।",
+              "Japanese": "アレルギーでなければ、その料理を試していただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "counterfactual present",
+        "word_translation": {
+          "Hindi": "प्रतिवास्तविक वर्तमान",
+          "Japanese": "反事実の現在"
+        },
+        "meaning": "A present situation imagined differently from reality",
+        "meaning_translation": {
+          "Hindi": "वर्तमान की स्थिति को वास्तविकता से अलग कल्पना करना",
+          "Japanese": "現実とは異なる現在の状況を想像すること"
+        },
+        "examples": [
+          {
+            "sentence": "If I had moved abroad, I would be living in Spain now.",
+            "translation": {
+              "Hindi": "अगर मैं विदेश चला गया होता, तो अब मैं स्पेन में रह रहा होता।",
+              "Japanese": "もし海外に引っ越していたら、今スペインに住んでいるだろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "counterfactual past",
+        "word_translation": {
+          "Hindi": "प्रतिवास्तविक अतीत",
+          "Japanese": "反事実の過去"
+        },
+        "meaning": "A past situation imagined differently from reality",
+        "meaning_translation": {
+          "Hindi": "अतीत की स्थिति को वास्तविकता से अलग कल्पना करना",
+          "Japanese": "現実とは異なる過去の状況を想像すること"
+        },
+        "examples": [
+          {
+            "sentence": "If I were more patient, I would have finished the project.",
+            "translation": {
+              "Hindi": "अगर मैं अधिक धैर्यवान होता, तो मैंने परियोजना पूरी कर ली होती।",
+              "Japanese": "もっと忍耐強ければ、プロジェクトを終えていただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "present condition",
+        "word_translation": {
+          "Hindi": "वर्तमान शर्त",
+          "Japanese": "現在の条件"
+        },
+        "meaning": "A condition about now that could change a past result",
+        "meaning_translation": {
+          "Hindi": "अब की एक शर्त जो अतीत के परिणाम को बदल सकती थी",
+          "Japanese": "現在の条件が過去の結果を変えていた可能性があるもの"
+        },
+        "examples": [
+          {
+            "sentence": "If I were taller, I would have played basketball in school.",
+            "translation": {
+              "Hindi": "अगर मैं लंबा होता, तो मैंने स्कूल में बास्केटबॉल खेला होता।",
+              "Japanese": "もっと背が高ければ、学校でバスケットボールをしていただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "past condition",
+        "word_translation": {
+          "Hindi": "अतीत की शर्त",
+          "Japanese": "過去の条件"
+        },
+        "meaning": "A condition in the past that affects a present result",
+        "meaning_translation": {
+          "Hindi": "अतीत की शर्त जो वर्तमान परिणाम को प्रभावित करती है",
+          "Japanese": "現在の結果に影響する過去の条件"
+        },
+        "examples": [
+          {
+            "sentence": "If I had saved more money, I would be richer now.",
+            "translation": {
+              "Hindi": "अगर मैंने अधिक पैसे बचाए होते, तो मैं अब अधिक अमीर होता।",
+              "Japanese": "もっとお金を貯めていたら、今もっと裕福だろう。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Expressing Causes and Effects",
-        "explanation": "Use 'because', 'due to', 'as a result', and 'therefore' to connect ideas. Example: 'Outsourcing is popular because it reduces costs.'"
+        "title": "Core Concept",
+        "explanation": "Mixed conditionals show different times for condition and result. Example: If I had studied harder (past), I would be successful now (present).",
+        "explanation_translation": {
+          "Hindi": "मिक्स्ड कंडीशनल्स में शर्त और परिणाम का समय अलग होता है। उदाहरण: If I had studied harder (अतीत), I would be successful now (वर्तमान)।",
+          "Japanese": "混合条件法は条件と結果の時制が異なる。例：If I had studied harder（過去）、I would be successful now（現在）。"
+        }
       },
       {
-        "title": "Making Comparisons",
-        "explanation": "Use 'more/less...than', 'the most/least', and comparative forms: 'Trade is easier now than before.'"
+        "title": "Past → Present",
+        "explanation": "Use past perfect in if-clause + would + base verb in main clause. Example: If I had moved to London, I would live there now.",
+        "explanation_translation": {
+          "Hindi": "If-खंड में past perfect + मुख्य वाक्य में would + base verb। उदाहरण: If I had moved to London, I would live there now.",
+          "Japanese": "if節で過去完了＋主節でwould + 動詞原形。例：If I had moved to London, I would live there now."
+        }
       },
       {
-        "title": "Using Passive Voice",
-        "explanation": "Use the passive to focus on the action: 'Jobs are outsourced to other countries.'"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "Globalization has led to greater cultural exchange.",
-        "translation": ""
+        "title": "Present → Past",
+        "explanation": "Use simple past in if-clause + would have + past participle in main clause. Example: If I were taller, I would have played basketball.",
+        "explanation_translation": {
+          "Hindi": "If-खंड में simple past + मुख्य वाक्य में would have + past participle। उदाहरण: If I were taller, I would have played basketball.",
+          "Japanese": "if節で過去形＋主節でwould have + 過去分詞。例：If I were taller, I would have played basketball."
+        }
       },
       {
-        "sentence": "Many multinational companies have offices around the world.",
-        "translation": ""
+        "title": "Cause-Effect Across Time",
+        "explanation": "Mixed conditionals highlight how different times connect. Example: If she had listened (past), she wouldn’t be in trouble now (present).",
+        "explanation_translation": {
+          "Hindi": "मिक्स्ड कंडीशनल्स दिखाते हैं कि अलग-अलग समय कैसे जुड़े हैं। उदाहरण: If she had listened (अतीत), she wouldn’t be in trouble now (वर्तमान)।",
+          "Japanese": "混合条件法は異なる時制のつながりを強調する。例：If she had listened（過去）、she wouldn’t be in trouble now（現在）。"
+        }
       },
       {
-        "sentence": "Outsourcing is used by businesses to lower costs.",
-        "translation": ""
-      },
-      {
-        "sentence": "Some people believe that globalization increases inequality.",
-        "translation": ""
-      },
-      {
-        "sentence": "Standardization makes products similar in many countries.",
-        "translation": ""
+        "title": "Common Use Cases",
+        "explanation": "They are often used for regrets, imagined alternate realities, or explaining how the past affects the present.",
+        "explanation_translation": {
+          "Hindi": "इनका उपयोग अक्सर पछतावे, वैकल्पिक कल्पनाओं, या यह समझाने के लिए किया जाता है कि अतीत वर्तमान को कैसे प्रभावित करता है।",
+          "Japanese": "後悔や仮想の別の現実、過去が現在にどう影響しているかを説明するのによく使われる。"
+        }
       }
     ]
   },
@@ -58,110 +264,267 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "What does 'multinational' mean?",
-        "options": ["A company in one country", "A company in many countries", "A type of trade"],
-        "answer": 1
+        "question": "Which structure shows a past condition with a present result?",
+        "question_translation": {
+          "Hindi": "कौन सा ढांचा अतीत की शर्त को वर्तमान परिणाम के साथ दिखाता है?",
+          "Japanese": "過去の条件と現在の結果を示す構文はどれですか？"
+        },
+        "options": [
+          "If + past perfect → would + base verb",
+          "If + present simple → will + base verb",
+          "If + past simple → would + base verb"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "_____ means buying and selling goods between countries.",
-        "options": ["Trade", "Outsourcing", "Diversity"],
+        "question": "If I ___ saved more money, I would be richer now.",
+        "question_translation": {
+          "Hindi": "अगर मैंने अधिक पैसे ___ बचाए होते, तो मैं अब अधिक अमीर होता।",
+          "Japanese": "もっとお金を___貯めていたら、今もっと裕福だろう。"
+        },
+        "options": [
+          "had",
+          "was",
+          "have"
+        ],
         "answer": 0
       },
       {
         "id": "vocab3",
         "type": "trueFalse",
-        "question": "'Cultural exchange' is about sharing ideas between countries.",
-        "options": ["True", "False"],
+        "question": "Mixed conditionals can describe present conditions with past results.",
+        "question_translation": {
+          "Hindi": "मिक्स्ड कंडीशनल्स वर्तमान शर्तों को अतीत के परिणामों के साथ वर्णित कर सकते हैं।",
+          "Japanese": "混合条件法は現在の条件と過去の結果を表すことができる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "vocab4",
         "type": "multipleChoice",
-        "question": "What is 'outsourcing'?",
-        "options": ["Sending work to another country", "Having a diverse workplace", "Making laws"],
+        "question": "Which term describes 'different times in if-clause and main clause'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'if-खंड और मुख्य वाक्य में अलग-अलग समय' को दर्शाता है?",
+          "Japanese": "if節と主節の時制が異なることを表す用語はどれですか？"
+        },
+        "options": [
+          "time shift",
+          "counterfactual",
+          "cause-effect"
+        ],
         "answer": 0
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What does 'standardization' refer to?",
-        "options": ["Making things the same", "Increasing diversity", "Trading goods"],
-        "answer": 0
+        "type": "fillInTheBlanks",
+        "question": "If she were more confident, she ___ spoken in the meeting.",
+        "question_translation": {
+          "Hindi": "अगर वह अधिक आत्मविश्वासी होती, तो उसने बैठक में ___ बात की होती।",
+          "Japanese": "もっと自信があれば、会議で___発言していただろう。"
+        },
+        "options": [
+          "would",
+          "would have",
+          "will have"
+        ],
+        "answer": 1
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "Globalization has _____ (increased/reduced) cultural exchange.",
-        "options": ["increased", "reduced"],
-        "answer": 0
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, had, abroad, If, moved, would, be, now, living]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [I, had, abroad, If, moved, would, be, now, living]",
+          "Japanese": "並べ替え: [I, had, abroad, If, moved, would, be, now, living]"
+        },
+        "options": [
+          "I",
+          "had",
+          "abroad",
+          "If",
+          "moved",
+          "would",
+          "be",
+          "now",
+          "living"
+        ],
+        "answer": [
+          "If",
+          "I",
+          "had",
+          "moved",
+          "abroad",
+          "I",
+          "would",
+          "be",
+          "living",
+          "now"
+        ]
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "Jobs are _____ (outsourced/traded) to other countries to save money.",
-        "options": ["outsourced", "traded"],
-        "answer": 0
+        "question": "If I ___ taller, I would have played basketball in school.",
+        "question_translation": {
+          "Hindi": "अगर मैं ___ लंबा होता, तो मैंने स्कूल में बास्केटबॉल खेला होता।",
+          "Japanese": "もっと___背が高ければ、学校でバスケットボールをしていただろう。"
+        },
+        "options": [
+          "was",
+          "were",
+          "had been"
+        ],
+        "answer": 1
       },
       {
         "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: economy / the / globalization / affected / has",
-        "options": ["Globalization has affected the economy."],
-        "answer": [0]
+        "type": "multipleChoice",
+        "question": "Which sentence is a mixed conditional?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य मिश्रित कंडीशनल है?",
+          "Japanese": "どの文が混合条件法ですか？"
+        },
+        "options": [
+          "If it rains, I will stay home.",
+          "If I had studied, I would have passed.",
+          "If I had studied harder, I would be successful now."
+        ],
+        "answer": 2
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "_____ (Integration/Diversity) combines different cultures.",
-        "options": ["Integration", "Diversity"],
-        "answer": 0
+        "question": "If you ___ more careful, you wouldn’t have broken the vase.",
+        "question_translation": {
+          "Hindi": "अगर तुम अधिक सावधान ___, तो तुमने फूलदान नहीं तोड़ा होता।",
+          "Japanese": "もっと注意深く___なら、花瓶を壊さなかっただろう。"
+        },
+        "options": [
+          "are",
+          "were",
+          "had been"
+        ],
+        "answer": 1
       },
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: standardization / makes / products / similar / many / countries / in",
-        "options": ["Standardization makes products similar in many countries."],
-        "answer": [0]
+        "question": "Arrange: [be, wouldn’t, If, so, I, tired, had, I, slept, earlier]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [be, wouldn’t, If, so, I, tired, had, I, slept, earlier]",
+          "Japanese": "並べ替え: [be, wouldn’t, If, so, I, tired, had, I, slept, earlier]"
+        },
+        "options": [
+          "be",
+          "wouldn’t",
+          "If",
+          "so",
+          "I",
+          "tired",
+          "had",
+          "I",
+          "slept",
+          "earlier"
+        ],
+        "answer": [
+          "If",
+          "I",
+          "had",
+          "slept",
+          "earlier",
+          "I",
+          "wouldn’t",
+          "be",
+          "so",
+          "tired"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "Listen: What is one effect of globalization mentioned?",
-        "options": ["Lower diversity", "More cultural exchange", "Less trade"],
+        "type": "multipleChoice",
+        "question": "What result does the speaker describe?",
+        "audio_text": "If I had gone to art school, I would be a painter now.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सा परिणाम बताता है?",
+          "Japanese": "話者はどんな結果を述べていますか？"
+        },
+        "options": [
+          "He is a painter now",
+          "He would be a painter now",
+          "He was a painter in the past"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "Listen: Why do companies use outsourcing?",
-        "options": ["To increase costs", "To lower costs", "To reduce diversity"],
-        "answer": 1
+        "type": "trueFalse",
+        "question": "The speaker says: 'If I were healthier, I would have finished the race.' This is present → past mixed conditional.",
+        "audio_text": "If I were healthier, I would have finished the race.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है: 'अगर मैं स्वस्थ होता, तो मैंने दौड़ पूरी की होती।' यह वर्तमान → अतीत मिश्रित कंडीशनल है।",
+          "Japanese": "「もし健康なら、レースを完走していただろう」と話者は言っている。これは現在→過去の混合条件法である。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "Listen: What does standardization do?",
-        "options": ["Makes things different", "Makes things the same", "Increases trade"],
+        "type": "multipleChoice",
+        "question": "What is the speaker imagining?",
+        "audio_text": "If she had taken the job, she would be living in New York now.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या कल्पना कर रहा है?",
+          "Japanese": "話者は何を想像していますか？"
+        },
+        "options": [
+          "She lives in New York",
+          "She didn’t take the job",
+          "She worked in New York before"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "Listen: What is a negative effect of globalization mentioned?",
-        "options": ["More jobs", "Increased inequality", "More integration"],
+        "type": "multipleChoice",
+        "question": "What would have changed if he were more confident?",
+        "audio_text": "If he were more confident, he would have spoken in the meeting.",
+        "question_translation": {
+          "Hindi": "अगर वह अधिक आत्मविश्वासी होता, तो क्या बदल जाता?",
+          "Japanese": "もっと自信があれば、何が変わっていたでしょうか？"
+        },
+        "options": [
+          "He spoke already",
+          "He didn’t speak",
+          "He will speak later"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "Listen: What do multinational companies do?",
-        "options": ["Operate in many countries", "Work in only one place", "Focus only on local trade"],
+        "type": "trueFalse",
+        "question": "The sentence 'If I had eaten breakfast, I wouldn’t be hungry now' connects past with present.",
+        "audio_text": "If I had eaten breakfast, I wouldn’t be hungry now.",
+        "question_translation": {
+          "Hindi": "वाक्य 'अगर मैंने नाश्ता किया होता, तो मैं अब भूखा नहीं होता' अतीत को वर्तमान से जोड़ता है।",
+          "Japanese": "「朝食を食べていたら、今お腹がすいていないだろう」という文は過去と現在をつなげている。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -169,38 +532,59 @@
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Explain what globalization means in your own words.",
+        "question": "Say: 'If I had worked harder, I would be more successful now.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If I had worked harder, I would be more successful now.'",
+          "Japanese": "言ってください: 'If I had worked harder, I would be more successful now.'"
+        },
         "options": [],
-        "answer": "Globalization is when countries and people around the world become more connected through trade and culture."
+        "answer": "if i had worked harder i would be more successful now"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Give one positive effect of globalization.",
+        "question": "Say: 'If she were kinder, she would have forgiven me.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If she were kinder, she would have forgiven me.'",
+          "Japanese": "言ってください: 'If she were kinder, she would have forgiven me.'"
+        },
         "options": [],
-        "answer": "A positive effect is that people can experience new cultures and ideas."
+        "answer": "if she were kinder she would have forgiven me"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Describe a negative impact of globalization.",
+        "question": "Say: 'If I had taken the job, I would be living abroad now.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If I had taken the job, I would be living abroad now.'",
+          "Japanese": "言ってください: 'If I had taken the job, I would be living abroad now.'"
+        },
         "options": [],
-        "answer": "One negative impact is that it can increase inequality between countries."
+        "answer": "if i had taken the job i would be living abroad now"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Discuss how multinational companies influence local cultures.",
+        "question": "Say: 'If you were more careful, you wouldn’t have broken it.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If you were more careful, you wouldn’t have broken it.'",
+          "Japanese": "言ってください: 'If you were more careful, you wouldn’t have broken it.'"
+        },
         "options": [],
-        "answer": "Multinational companies can influence local cultures by bringing new products and changing local traditions."
+        "answer": "if you were more careful you wouldnt have broken it"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Suggest one way to balance the benefits and drawbacks of globalization.",
+        "question": "Say: 'If I had learned Spanish, I would be fluent now.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If I had learned Spanish, I would be fluent now.'",
+          "Japanese": "言ってください: 'If I had learned Spanish, I would be fluent now.'"
+        },
         "options": [],
-        "answer": "Countries can create fair trade rules to help both workers and businesses benefit."
+        "answer": "if i had learned spanish i would be fluent now"
       }
     ]
   }
+
 }

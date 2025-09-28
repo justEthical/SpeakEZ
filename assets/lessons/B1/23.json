@@ -1,4 +1,523 @@
 {
-  "id": 23,
-  "message": "This is file number 23"
+  "id": "lesson_food_cooking_eatingout_001",
+  "lesson_name": "Describing Food, Cooking, & Eating Out",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "delicious",
+        "word_translation": {
+          "Hindi": "स्वादिष्ट",
+          "Japanese": "おいしい"
+        },
+        "meaning": "Tasting very good",
+        "meaning_translation": {
+          "Hindi": "बहुत अच्छा स्वाद होना",
+          "Japanese": "とてもおいしいこと"
+        },
+        "examples": [
+          {
+            "sentence": "The cake was absolutely delicious.",
+            "translation": {
+              "Hindi": "केक बिल्कुल स्वादिष्ट था।",
+              "Japanese": "ケーキは本当においしかったです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "flavor",
+        "word_translation": {
+          "Hindi": "स्वाद",
+          "Japanese": "風味"
+        },
+        "meaning": "The taste of food or drink",
+        "meaning_translation": {
+          "Hindi": "खाने या पीने का स्वाद",
+          "Japanese": "食べ物や飲み物の味"
+        },
+        "examples": [
+          {
+            "sentence": "This soup has a strong garlic flavor.",
+            "translation": {
+              "Hindi": "इस सूप में लहसुन का तेज स्वाद है।",
+              "Japanese": "このスープには強いニンニクの風味があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recipe",
+        "word_translation": {
+          "Hindi": "विधि",
+          "Japanese": "レシピ"
+        },
+        "meaning": "A set of instructions for preparing a dish",
+        "meaning_translation": {
+          "Hindi": "किसी व्यंजन को बनाने के निर्देश",
+          "Japanese": "料理を作るための手順"
+        },
+        "examples": [
+          {
+            "sentence": "She followed a recipe to bake the bread.",
+            "translation": {
+              "Hindi": "उसने ब्रेड बेक करने के लिए विधि का पालन किया।",
+              "Japanese": "彼女はパンを焼くためにレシピに従いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ingredient",
+        "word_translation": {
+          "Hindi": "सामग्री",
+          "Japanese": "材料"
+        },
+        "meaning": "One of the foods that you use to make a dish",
+        "meaning_translation": {
+          "Hindi": "वह खाद्य पदार्थ जिसे आप व्यंजन बनाने में उपयोग करते हैं",
+          "Japanese": "料理を作るときに使う食材の一つ"
+        },
+        "examples": [
+          {
+            "sentence": "Tomatoes are the main ingredient in this salad.",
+            "translation": {
+              "Hindi": "टमाटर इस सलाद की मुख्य सामग्री हैं।",
+              "Japanese": "このサラダの主な材料はトマトです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "spicy",
+        "word_translation": {
+          "Hindi": "मसालेदार",
+          "Japanese": "辛い"
+        },
+        "meaning": "Having a strong taste because of spices",
+        "meaning_translation": {
+          "Hindi": "मसालों के कारण तीखा स्वाद होना",
+          "Japanese": "香辛料が効いている味"
+        },
+        "examples": [
+          {
+            "sentence": "I love eating spicy Indian food.",
+            "translation": {
+              "Hindi": "मुझे मसालेदार भारतीय खाना खाना पसंद है।",
+              "Japanese": "私は辛いインド料理を食べるのが大好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "serve",
+        "word_translation": {
+          "Hindi": "परोसना",
+          "Japanese": "出す"
+        },
+        "meaning": "To give food or drink to someone",
+        "meaning_translation": {
+          "Hindi": "किसी को खाना या पेय देना",
+          "Japanese": "誰かに食べ物や飲み物を出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "The waiter served the food quickly.",
+            "translation": {
+              "Hindi": "वेटर ने जल्दी से खाना परोसा।",
+              "Japanese": "ウェイターはすぐに料理を出しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "menu",
+        "word_translation": {
+          "Hindi": "मेनू",
+          "Japanese": "メニュー"
+        },
+        "meaning": "A list of food available in a restaurant",
+        "meaning_translation": {
+          "Hindi": "रेस्टोरेंट में उपलब्ध खाने की सूची",
+          "Japanese": "レストランで提供される料理の一覧"
+        },
+        "examples": [
+          {
+            "sentence": "Can I see the menu, please?",
+            "translation": {
+              "Hindi": "क्या मैं मेनू देख सकता हूँ?",
+              "Japanese": "メニューを見せてもらえますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reservation",
+        "word_translation": {
+          "Hindi": "आरक्षण",
+          "Japanese": "予約"
+        },
+        "meaning": "An arrangement to have a table, room, etc. kept for you",
+        "meaning_translation": {
+          "Hindi": "टेबल, कमरा आदि आपके लिए बुक करने की व्यवस्था",
+          "Japanese": "テーブルや部屋などを確保する予約"
+        },
+        "examples": [
+          {
+            "sentence": "We made a reservation at the Italian restaurant.",
+            "translation": {
+              "Hindi": "हमने इटालियन रेस्टोरेंट में आरक्षण किया।",
+              "Japanese": "私たちはイタリアンレストランを予約しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "There is/There are for Food",
+        "explanation": "Use 'There is/There are' to describe food items. Example: There are many dishes on the table.",
+        "explanation_translation": {
+          "Hindi": "खाद्य पदार्थों का वर्णन करने के लिए 'There is/There are' का उपयोग करें। उदाहरण: There are many dishes on the table.",
+          "Japanese": "食べ物を説明するとき「There is/There are」を使います。例：There are many dishes on the table."
+        }
+      },
+      {
+        "title": "Some/Any with Food",
+        "explanation": "Use 'some' for positive statements and 'any' for negatives/questions. Example: Do you have any rice?",
+        "explanation_translation": {
+          "Hindi": "सकारात्मक वाक्यों के लिए 'some' और नकारात्मक/प्रश्नवाचक वाक्यों के लिए 'any' का उपयोग करें। उदाहरण: Do you have any rice?",
+          "Japanese": "肯定文には「some」、否定文や疑問文には「any」を使います。例：Do you have any rice?"
+        }
+      },
+      {
+        "title": "Would like for Ordering",
+        "explanation": "Use 'would like' to order food politely. Example: I would like a pizza, please.",
+        "explanation_translation": {
+          "Hindi": "खाना विनम्रता से ऑर्डर करने के लिए 'would like' का उपयोग करें। उदाहरण: I would like a pizza, please.",
+          "Japanese": "食べ物を丁寧に注文するとき「would like」を使います。例：I would like a pizza, please."
+        }
+      },
+      {
+        "title": "Adjectives for Taste",
+        "explanation": "Use adjectives like 'sweet, salty, sour, spicy' to describe food. Example: The soup is salty.",
+        "explanation_translation": {
+          "Hindi": "खाने का वर्णन करने के लिए 'sweet, salty, sour, spicy' जैसे विशेषणों का उपयोग करें। उदाहरण: The soup is salty.",
+          "Japanese": "食べ物を説明するとき「sweet, salty, sour, spicy」などの形容詞を使います。例：The soup is salty."
+        }
+      }
+    ]
+  },
+
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a set of instructions for preparing a dish'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'किसी व्यंजन को बनाने के निर्देश' का अर्थ देता है?",
+          "Japanese": "「料理を作るための手順」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "recipe",
+          "menu",
+          "reservation"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "This curry is very ___.",
+        "question_translation": {
+          "Hindi": "यह करी बहुत ___ है।",
+          "Japanese": "このカレーはとても___です。"
+        },
+        "options": [
+          "spicy",
+          "salty",
+          "sweet"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A menu is a list of food available in a restaurant.",
+        "question_translation": {
+          "Hindi": "मेनू रेस्टोरेंट में उपलब्ध खाने की सूची है।",
+          "Japanese": "メニューはレストランで提供される料理の一覧です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word is used for 'foods you use to make a dish'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'वे खाद्य पदार्थ जिन्हें आप व्यंजन बनाने में उपयोग करते हैं' के लिए प्रयोग होता है?",
+          "Japanese": "「料理を作るときに使う食材」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "ingredient",
+          "reservation",
+          "flavor"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The waiter will ___ your food soon.",
+        "question_translation": {
+          "Hindi": "वेटर जल्द ही आपका खाना ___ करेगा।",
+          "Japanese": "ウェイターはすぐに料理を___します。"
+        },
+        "options": [
+          "serve",
+          "book",
+          "arrange"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [delicious, pizza, is, this]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [delicious, pizza, is, this]",
+          "Japanese": "並べ替え: [delicious, pizza, is, this]"
+        },
+        "options": [
+          "delicious",
+          "pizza",
+          "is",
+          "this"
+        ],
+        "answer": [
+          "this",
+          "pizza",
+          "is",
+          "delicious"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "There ___ many dishes on the table.",
+        "question_translation": {
+          "Hindi": "मेज़ पर बहुत सारी डिशें ___ हैं।",
+          "Japanese": "テーブルの上にたくさんの料理___。"
+        },
+        "options": [
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "I would like a pasta, please.",
+          "I would like pasta please.",
+          "Both are correct"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [garlic, soup, strong, flavor, has]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [garlic, soup, strong, flavor, has]",
+          "Japanese": "並べ替え: [garlic, soup, strong, flavor, has]"
+        },
+        "options": [
+          "garlic",
+          "soup",
+          "strong",
+          "flavor",
+          "has"
+        ],
+        "answer": [
+          "this",
+          "soup",
+          "has",
+          "a",
+          "strong",
+          "garlic",
+          "flavor"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Do you have ___ rice?",
+        "question_translation": {
+          "Hindi": "क्या आपके पास ___ चावल हैं?",
+          "Japanese": "ご飯は___ありますか？"
+        },
+        "options": [
+          "some",
+          "any",
+          "many"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker say about the food?",
+        "audio_text": "This pizza is really delicious.",
+        "question_translation": {
+          "Hindi": "वक्ता खाने के बारे में क्या कहता है?",
+          "Japanese": "話者は食べ物について何と言っていますか？"
+        },
+        "options": [
+          "It is delicious",
+          "It is spicy",
+          "It is salty"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker is asking for the menu.",
+        "audio_text": "Can I see the menu, please?",
+        "question_translation": {
+          "Hindi": "वक्ता मेनू मांग रहा है।",
+          "Japanese": "話者はメニューを求めています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does the soup taste like?",
+        "audio_text": "This soup has a strong garlic flavor.",
+        "question_translation": {
+          "Hindi": "सूप का स्वाद कैसा है?",
+          "Japanese": "スープはどんな味ですか？"
+        },
+        "options": [
+          "Sweet",
+          "Garlic",
+          "Spicy"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The speaker made a reservation at a restaurant.",
+        "audio_text": "We made a reservation at the Italian restaurant.",
+        "question_translation": {
+          "Hindi": "वक्ता ने रेस्टोरेंट में आरक्षण किया।",
+          "Japanese": "話者はレストランを予約しました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the speaker asking for?",
+        "audio_text": "I would like a glass of water, please.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या माँग रहा है?",
+          "Japanese": "話者は何を頼んでいますか？"
+        },
+        "options": [
+          "A pizza",
+          "A glass of water",
+          "A reservation"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'This cake is delicious.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This cake is delicious.'",
+          "Japanese": "言ってください: 'This cake is delicious.'"
+        },
+        "options": [],
+        "answer": "this cake is delicious"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Can I see the menu, please?'",
+        "question_translation": {
+          "Hindi": "कहें: 'Can I see the menu, please?'",
+          "Japanese": "言ってください: 'Can I see the menu, please?'"
+        },
+        "options": [],
+        "answer": "can i see the menu please"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'This soup has a strong flavor.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This soup has a strong flavor.'",
+          "Japanese": "言ってください: 'This soup has a strong flavor.'"
+        },
+        "options": [],
+        "answer": "this soup has a strong flavor"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I would like some rice, please.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I would like some rice, please.'",
+          "Japanese": "言ってください: 'I would like some rice, please.'"
+        },
+        "options": [],
+        "answer": "i would like some rice please"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We made a reservation at the restaurant.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We made a reservation at the restaurant.'",
+          "Japanese": "言ってください: 'We made a reservation at the restaurant.'"
+        },
+        "options": [],
+        "answer": "we made a reservation at the restaurant"
+      }
+    ]
+  }
+
+
 }

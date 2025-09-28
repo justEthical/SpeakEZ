@@ -1,207 +1,570 @@
 {
-  "id": "lesson_advanced_scientific_research_c2_001",
-  "lesson_name": "Conducting Advanced Scientific Research",
-  "purpose": "Academic, Research, Professional Development",
+  "id": "lesson_dense_nominal_001",
+  "lesson_name": "Dense Nominal Style vs. Plain English",
+  "purpose": "All",
   "cefrLevel": "C2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "hypothesis", "meaning": "a proposed explanation for a phenomenon" },
-      { "word": "empirical", "meaning": "based on observation or experience" },
-      { "word": "methodology", "meaning": "system of methods used in research" },
-      { "word": "meta-analysis", "meaning": "a study that combines data from multiple studies" },
-      { "word": "longitudinal", "meaning": "study that collects data over a long period" },
-      { "word": "randomized controlled trial", "meaning": "an experiment with random allocation to groups" },
-      { "word": "statistical significance", "meaning": "measure of whether results are likely due to chance" },
-      { "word": "replicability", "meaning": "ability to repeat results in another study" },
-      { "word": "confounding variable", "meaning": "factor that distorts the true relationship between variables" },
-      { "word": "systematic review", "meaning": "summary of all available evidence on a topic" }
+      {
+        "word": "nominalization",
+        "word_translation": {
+          "Hindi": "संज्ञाकरण",
+          "Japanese": "名詞化"
+        },
+        "meaning": "Turning verbs or adjectives into nouns to create a more abstract style",
+        "meaning_translation": {
+          "Hindi": "क्रियाओं या विशेषणों को संज्ञा में बदलना जिससे अधिक अमूर्त शैली बनती है",
+          "Japanese": "動詞や形容詞を名詞に変えてより抽象的な文体を作ること"
+        },
+        "examples": [
+          {
+            "sentence": "The implementation of the plan took months.",
+            "translation": {
+              "Hindi": "योजना के कार्यान्वयन में महीनों लगे।",
+              "Japanese": "計画の実施には数か月かかった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dense nominal style",
+        "word_translation": {
+          "Hindi": "घना संज्ञात्मक शैली",
+          "Japanese": "名詞過多の文体"
+        },
+        "meaning": "Writing heavily packed with abstract nouns, often making it complex or formal",
+        "meaning_translation": {
+          "Hindi": "अत्यधिक संज्ञाओं से भरा लेखन जो अक्सर जटिल या औपचारिक लगता है",
+          "Japanese": "抽象名詞を多用して複雑かつ形式的に感じさせる文体"
+        },
+        "examples": [
+          {
+            "sentence": "The facilitation of communication strategies resulted in optimization.",
+            "translation": {
+              "Hindi": "संचार रणनीतियों की सुविधा ने अनुकूलन का परिणाम दिया।",
+              "Japanese": "コミュニケーション戦略の促進が最適化をもたらした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plain English",
+        "word_translation": {
+          "Hindi": "सरल अंग्रेज़ी",
+          "Japanese": "平易な英語"
+        },
+        "meaning": "Clear, direct, and easily understood writing without unnecessary complexity",
+        "meaning_translation": {
+          "Hindi": "स्पष्ट, सीधा और आसानी से समझ में आने वाला लेखन जिसमें अनावश्यक जटिलता नहीं होती",
+          "Japanese": "不必要な複雑さを避けた明確で分かりやすい文章"
+        },
+        "examples": [
+          {
+            "sentence": "We improved how people talk to each other.",
+            "translation": {
+              "Hindi": "हमने लोगों के एक-दूसरे से बात करने के तरीके में सुधार किया।",
+              "Japanese": "私たちは人々の会話の仕方を改善した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "abstraction",
+        "word_translation": {
+          "Hindi": "अमूर्तता",
+          "Japanese": "抽象化"
+        },
+        "meaning": "Making ideas less concrete and more conceptual, often through nouns",
+        "meaning_translation": {
+          "Hindi": "विचारों को कम ठोस और अधिक वैचारिक बनाना, अक्सर संज्ञाओं के माध्यम से",
+          "Japanese": "アイデアを具体的でなく概念的にすること、しばしば名詞によって行う"
+        },
+        "examples": [
+          {
+            "sentence": "There was an improvement in efficiency.",
+            "translation": {
+              "Hindi": "दक्षता में सुधार हुआ।",
+              "Japanese": "効率性の向上があった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reader processing load",
+        "word_translation": {
+          "Hindi": "पाठक का प्रसंस्करण भार",
+          "Japanese": "読者の処理負荷"
+        },
+        "meaning": "The mental effort needed to understand a text",
+        "meaning_translation": {
+          "Hindi": "किसी पाठ को समझने के लिए आवश्यक मानसिक प्रयास",
+          "Japanese": "テキストを理解するために必要な認知的負荷"
+        },
+        "examples": [
+          {
+            "sentence": "Dense nominal style increases reader processing load.",
+            "translation": {
+              "Hindi": "घनी संज्ञात्मक शैली पाठक के प्रसंस्करण भार को बढ़ाती है।",
+              "Japanese": "名詞過多の文体は読者の処理負荷を増加させる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "agentless construction",
+        "word_translation": {
+          "Hindi": "कर्त्ता रहित संरचना",
+          "Japanese": "行為者のない構文"
+        },
+        "meaning": "A sentence where the actor is hidden or removed, often through nominalization",
+        "meaning_translation": {
+          "Hindi": "ऐसा वाक्य जिसमें कार्य करने वाला छिपा या हटाया गया हो, अक्सर संज्ञाकरण के कारण",
+          "Japanese": "名詞化により行為者が隠されるまたは削除される文"
+        },
+        "examples": [
+          {
+            "sentence": "The decision was made to terminate the program.",
+            "translation": {
+              "Hindi": "कार्यक्रम को समाप्त करने का निर्णय लिया गया।",
+              "Japanese": "プログラムを終了する決定がなされた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "clarity",
+        "word_translation": {
+          "Hindi": "स्पष्टता",
+          "Japanese": "明確さ"
+        },
+        "meaning": "The quality of being easily understood",
+        "meaning_translation": {
+          "Hindi": "आसानी से समझ में आने की गुणवत्ता",
+          "Japanese": "簡単に理解できること"
+        },
+        "examples": [
+          {
+            "sentence": "Plain English improves clarity for readers.",
+            "translation": {
+              "Hindi": "सरल अंग्रेज़ी पाठकों के लिए स्पष्टता में सुधार करती है।",
+              "Japanese": "平易な英語は読者の明確さを高める。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "syntactic complexity",
+        "word_translation": {
+          "Hindi": "वाक्यविन्यास जटिलता",
+          "Japanese": "統語的複雑さ"
+        },
+        "meaning": "The degree to which sentence structure is complicated",
+        "meaning_translation": {
+          "Hindi": "वाक्य संरचना कितनी जटिल है इसका स्तर",
+          "Japanese": "文の構造がどの程度複雑であるか"
+        },
+        "examples": [
+          {
+            "sentence": "Dense nominal style often increases syntactic complexity.",
+            "translation": {
+              "Hindi": "घनी संज्ञात्मक शैली अक्सर वाक्यविन्यास जटिलता को बढ़ाती है।",
+              "Japanese": "名詞過多の文体はしばしば統語的複雑さを増す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reader-centered writing",
+        "word_translation": {
+          "Hindi": "पाठक-केंद्रित लेखन",
+          "Japanese": "読者中心の文章"
+        },
+        "meaning": "Writing that prioritizes reader understanding and ease of reading",
+        "meaning_translation": {
+          "Hindi": "ऐसा लेखन जो पाठक की समझ और पढ़ने में आसानी को प्राथमिकता देता है",
+          "Japanese": "読者の理解と読みやすさを優先する書き方"
+        },
+        "examples": [
+          {
+            "sentence": "Plain English is an example of reader-centered writing.",
+            "translation": {
+              "Hindi": "सरल अंग्रेज़ी पाठक-केंद्रित लेखन का एक उदाहरण है।",
+              "Japanese": "平易な英語は読者中心の文章の一例です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "verbal style",
+        "word_translation": {
+          "Hindi": "क्रियात्मक शैली",
+          "Japanese": "動詞中心の文体"
+        },
+        "meaning": "Writing that uses more verbs and actions instead of abstract nouns",
+        "meaning_translation": {
+          "Hindi": "ऐसा लेखन जो अमूर्त संज्ञाओं के बजाय अधिक क्रियाओं और क्रियाओं का उपयोग करता है",
+          "Japanese": "抽象名詞の代わりに動詞や行為を多く用いる文体"
+        },
+        "examples": [
+          {
+            "sentence": "Verbal style makes sentences more direct and active.",
+            "translation": {
+              "Hindi": "क्रियात्मक शैली वाक्यों को अधिक प्रत्यक्ष और सक्रिय बनाती है।",
+              "Japanese": "動詞中心の文体は文をより直接的で活動的にする。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Nominalization in Academic Writing",
-        "explanation": "Turn verbs into nouns for formal style. E.g., 'to analyze' becomes 'analysis': 'The analysis was conducted…'"
+        "title": "Prefer Verbs Over Nouns",
+        "explanation": "Use actions instead of heavy nominalizations when possible to keep sentences clear.",
+        "explanation_translation": {
+          "Hindi": "जहाँ संभव हो भारी संज्ञाकरण के बजाय क्रियाओं का प्रयोग करें ताकि वाक्य स्पष्ट रहें।",
+          "Japanese": "可能な限り名詞化を避けて動詞を使うと文が明確になります。"
+        }
       },
       {
-        "title": "Complex Conditionals",
-        "explanation": "Use complex conditionals to express research scenarios: 'If the sample size had been larger, the results might have differed.'"
+        "title": "Identify Hidden Agents",
+        "explanation": "Check if a nominalized phrase hides who is acting; make it explicit for clarity.",
+        "explanation_translation": {
+          "Hindi": "देखें कि क्या संज्ञाकरण कार्य करने वाले को छुपा रहा है; स्पष्टता के लिए उसे स्पष्ट करें।",
+          "Japanese": "名詞化された表現が行為者を隠していないか確認し、明確にすると分かりやすくなります。"
+        }
+      },
+      {
+        "title": "Reduce Processing Load",
+        "explanation": "Shorter, verb-driven sentences lower cognitive effort for the reader.",
+        "explanation_translation": {
+          "Hindi": "छोटे, क्रियाओं पर आधारित वाक्य पाठक के लिए संज्ञानात्मक प्रयास को कम करते हैं।",
+          "Japanese": "短く動詞主体の文は読者の認知的負荷を減らします。"
+        }
+      },
+      {
+        "title": "Balance Formality and Clarity",
+        "explanation": "Nominal style adds formality but can obscure meaning; adjust depending on audience.",
+        "explanation_translation": {
+          "Hindi": "संज्ञात्मक शैली औपचारिकता जोड़ती है लेकिन अर्थ को अस्पष्ट कर सकती है; श्रोताओं के अनुसार समायोजित करें।",
+          "Japanese": "名詞中心の文体は形式的になりますが意味を曖昧にすることがあります。読者に合わせて調整してください。"
+        }
+      },
+      {
+        "title": "Check for Overpacking",
+        "explanation": "Avoid cramming too many abstract nouns and prepositional phrases in one sentence.",
+        "explanation_translation": {
+          "Hindi": "एक ही वाक्य में बहुत अधिक अमूर्त संज्ञाएँ और पूर्वसर्गीय वाक्यांश न भरें।",
+          "Japanese": "1つの文に抽象名詞や前置詞句を詰め込みすぎないようにしましょう。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "A robust methodology is crucial for replicability.", "translation": "" },
-      { "sentence": "Meta-analyses provide comprehensive insights by synthesizing existing studies.", "translation": "" },
-      { "sentence": "The findings achieved statistical significance.", "translation": "" },
-      { "sentence": "Confounding variables must be carefully controlled.", "translation": "" },
-      { "sentence": "Longitudinal studies track changes over extended periods.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What does 'empirical' mean in research?",
-        "options": ["Based on theory", "Based on observation", "Based on opinion"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term refers to turning verbs or adjectives into nouns?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द क्रियाओं या विशेषणों को संज्ञा में बदलने को संदर्भित करता है?",
+        "Japanese": "動詞や形容詞を名詞に変えることを指す用語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "A ___ is a proposed explanation that can be tested.",
-        "options": ["hypothesis", "confounding variable", "review"],
-        "answer": 0
+      "options": [
+        "Nominalization",
+        "Plain English",
+        "Verbal style"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Dense nominal style often increases ___ complexity.",
+      "question_translation": {
+        "Hindi": "घनी संज्ञात्मक शैली अक्सर ___ जटिलता को बढ़ाती है।",
+        "Japanese": "名詞過多の文体はしばしば___の複雑さを増す。"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "What is a meta-analysis?",
-        "options": [
-          "A single experiment",
-          "A review of unrelated books",
-          "A study combining data from multiple studies"
-        ],
-        "answer": 2
+      "options": [
+        "syntactic",
+        "clarity",
+        "reader-centered"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Plain English usually lowers reader processing load.",
+      "question_translation": {
+        "Hindi": "सरल अंग्रेज़ी आमतौर पर पाठक के प्रसंस्करण भार को कम करती है।",
+        "Japanese": "平易な英語は通常、読者の処理負荷を減らします。"
       },
-      {
-        "id": "vocab4",
-        "type": "trueFalse",
-        "question": "Randomized controlled trials use random allocation to groups.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which writing style focuses on reader understanding and ease?",
+      "question_translation": {
+        "Hindi": "कौन सी लेखन शैली पाठक की समझ और पढ़ने में आसानी पर केंद्रित होती है?",
+        "Japanese": "読者の理解と読みやすさを重視する文章スタイルはどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What must be controlled to avoid bias?",
-        "options": ["Abstract", "Confounding variable", "Methodology"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The results were not ___ significant.",
-        "options": ["statistically", "methodologically", "randomly"],
-        "answer": 0
+      "options": [
+        "Reader-centered writing",
+        "Dense nominal style",
+        "Abstraction"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Using more verbs and actions creates a ___ style.",
+      "question_translation": {
+        "Hindi": "अधिक क्रियाओं और कार्यों का उपयोग ___ शैली बनाता है।",
+        "Japanese": "より多くの動詞や行動を使うと___な文体になります。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "A ___ study follows subjects for many years.",
-        "options": ["systematic", "longitudinal", "empirical"],
-        "answer": 1
+      "options": [
+        "verbal",
+        "nominal",
+        "dense"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [implementation, The, successful, was]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [implementation, The, successful, was]",
+        "Japanese": "並べ替え: [implementation, The, successful, was]"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [variable, confounding, must, controlled, be]",
-        "options": ["variable", "confounding", "must", "controlled", "be"],
-        "answer": ["Confounding", "variable", "must", "be", "controlled"]
+      "options": [
+        "implementation",
+        "The",
+        "successful",
+        "was"
+      ],
+      "answer": [
+        "The",
+        "implementation",
+        "was",
+        "successful"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "We should reduce the ___ of this sentence by using simpler verbs.",
+      "question_translation": {
+        "Hindi": "हमें सरल क्रियाओं का उपयोग करके इस वाक्य की ___ को कम करना चाहिए।",
+        "Japanese": "簡単な動詞を使ってこの文の___を減らすべきです。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "A ___ review summarizes all evidence on a topic.",
-        "options": ["randomized", "systematic", "empirical"],
-        "answer": 1
+      "options": [
+        "syntactic complexity",
+        "clarity",
+        "reader focus"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses plain English?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सरल अंग्रेज़ी का उपयोग करता है?",
+        "Japanese": "どの文が平易な英語を使っていますか？"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [analysis, meta-, is, a, data, synthesis, of]",
-        "options": ["analysis", "meta-", "is", "a", "data", "synthesis", "of"],
-        "answer": ["A", "meta-analysis", "is", "a", "synthesis", "of", "data"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "Which research design randomly assigns subjects to groups?",
-        "options": [
-          "Longitudinal study",
-          "Randomized controlled trial",
-          "Systematic review"
-        ],
-        "answer": 1
+      "options": [
+        "The facilitation of knowledge acquisition was achieved.",
+        "We helped people learn more easily.",
+        "Optimization of processes was undertaken."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [was, made, decision, The, quickly]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [was, made, decision, The, quickly]",
+        "Japanese": "並べ替え: [was, made, decision, The, quickly]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What does a systematic review provide?",
-        "options": [
-          "An opinion piece",
-          "A summary of research evidence",
-          "A single experiment"
-        ],
-        "answer": 1
+      "options": [
+        "was",
+        "made",
+        "decision",
+        "The",
+        "quickly"
+      ],
+      "answer": [
+        "The",
+        "decision",
+        "was",
+        "made",
+        "quickly"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Excessive nominalization can obscure the ___ in a sentence.",
+      "question_translation": {
+        "Hindi": "अत्यधिक संज्ञाकरण वाक्य में ___ को अस्पष्ट कर सकता है।",
+        "Japanese": "過度の名詞化は文の___を不明確にする可能性があります。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Which term refers to results that can be duplicated?",
-        "options": ["Empirical", "Replicability", "Confounding variable"],
-        "answer": 1
+      "options": [
+        "agent",
+        "clarity",
+        "reader"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which style is the speaker using: 'The initiation of the program led to the facilitation of cooperation'?",
+      "audio_text": "The initiation of the program led to the facilitation of cooperation.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी शैली का उपयोग कर रहा है: 'The initiation of the program led to the facilitation of cooperation'?",
+        "Japanese": "「The initiation of the program led to the facilitation of cooperation」という文で話者はどの文体を使っていますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "What is a hypothesis?",
-        "options": [
-          "A method of data collection",
-          "A proposed explanation for something",
-          "A published article"
-        ],
-        "answer": 1
+      "options": [
+        "Dense nominal style",
+        "Plain English",
+        "Verbal style"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "Which phrase shows plain English?",
+      "audio_text": "We started the program and helped people work together.",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश सरल अंग्रेज़ी दिखाता है?",
+        "Japanese": "どのフレーズが平易な英語を示していますか？"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "What does 'statistical significance' mean?",
-        "options": [
-          "Results are likely due to chance",
-          "Results are unlikely to be due to chance",
-          "Results are always correct"
-        ],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Explain how to ensure replicability in a scientific study.",
-        "options": [],
-        "answer": "Replicability is ensured by providing detailed methodology and making data available for other researchers."
+      "options": [
+        "Started the program and helped people work together",
+        "Initiation of the program led to facilitation",
+        "Optimization of cooperative processes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "Dense nominal style can increase reader processing load.",
+      "audio_text": "Dense nominal style can increase reader processing load.",
+      "question_translation": {
+        "Hindi": "घनी संज्ञात्मक शैली पाठक के प्रसंस्करण भार को बढ़ा सकती है।",
+        "Japanese": "名詞過多の文体は読者の処理負荷を増やす可能性があります。"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Describe the process of conducting a meta-analysis.",
-        "options": [],
-        "answer": "A meta-analysis collects and combines data from several studies to identify overall trends."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is hidden in 'The decision was made to terminate the project'?",
+      "audio_text": "The decision was made to terminate the project.",
+      "question_translation": {
+        "Hindi": "'The decision was made to terminate the project' में क्या छिपा है?",
+        "Japanese": "「The decision was made to terminate the project」では何が隠されていますか？"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Discuss the importance of controlling confounding variables.",
-        "options": [],
-        "answer": "Controlling confounding variables ensures the research findings are accurate and unbiased."
+      "options": [
+        "The agent who made the decision",
+        "The timeline",
+        "The reason"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What does plain English prioritize?",
+      "audio_text": "Plain English focuses on clarity and easy understanding.",
+      "question_translation": {
+        "Hindi": "सरल अंग्रेज़ी किस चीज़ को प्राथमिकता देती है?",
+        "Japanese": "平易な英語は何を優先しますか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Summarize why longitudinal studies are valuable in science.",
-        "options": [],
-        "answer": "Longitudinal studies track changes over time and help identify patterns that short-term studies cannot."
+      "options": [
+        "Reader understanding",
+        "Formality",
+        "Abstract nouns"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'We improved communication between teams.' (plain English)",
+      "question_translation": {
+        "Hindi": "कहें: 'We improved communication between teams.' (सरल अंग्रेज़ी)",
+        "Japanese": "言ってください: 'We improved communication between teams.'（平易な英語）"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Give an example of using empirical evidence in research.",
-        "options": [],
-        "answer": "Collecting and analyzing real-world data to test a hypothesis is an example of using empirical evidence."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "we improved communication between teams"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The implementation of the strategy enhanced collaboration.' (dense nominal)",
+      "question_translation": {
+        "Hindi": "कहें: 'The implementation of the strategy enhanced collaboration.' (घनी संज्ञात्मक)",
+        "Japanese": "言ってください: 'The implementation of the strategy enhanced collaboration.'（名詞過多）"
+      },
+      "options": [],
+      "answer": "the implementation of the strategy enhanced collaboration"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'We decided to end the project.' (plain English)",
+      "question_translation": {
+        "Hindi": "कहें: 'We decided to end the project.' (सरल अंग्रेज़ी)",
+        "Japanese": "言ってください: 'We decided to end the project.'（平易な英語）"
+      },
+      "options": [],
+      "answer": "we decided to end the project"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The termination of the project was executed.' (dense nominal)",
+      "question_translation": {
+        "Hindi": "कहें: 'The termination of the project was executed.' (घनी संज्ञात्मक)",
+        "Japanese": "言ってください: 'The termination of the project was executed.'（名詞過多）"
+      },
+      "options": [],
+      "answer": "the termination of the project was executed"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Use verbs instead of abstract nouns.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Use verbs instead of abstract nouns.'",
+        "Japanese": "言ってください: 'Use verbs instead of abstract nouns.'"
+      },
+      "options": [],
+      "answer": "use verbs instead of abstract nouns"
+    }
+  ]
+}
+
 }

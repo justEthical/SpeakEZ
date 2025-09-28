@@ -1,4 +1,523 @@
 {
-  "id": 28,
-  "message": "This is file number 28"
+  "id": "lesson_films_tv_books_001",
+  "lesson_name": "Describing Films, TV, & Books in Detail",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "genre",
+        "word_translation": {
+          "Hindi": "शैली",
+          "Japanese": "ジャンル"
+        },
+        "meaning": "A category or type of film, book, or TV show",
+        "meaning_translation": {
+          "Hindi": "फिल्म, किताब या टीवी शो का प्रकार या श्रेणी",
+          "Japanese": "映画や本、テレビ番組の種類"
+        },
+        "examples": [
+          {
+            "sentence": "My favorite film genre is comedy.",
+            "translation": {
+              "Hindi": "मेरी पसंदीदा फिल्म शैली कॉमेडी है।",
+              "Japanese": "私の好きな映画のジャンルはコメディです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plot",
+        "word_translation": {
+          "Hindi": "कहानी",
+          "Japanese": "筋"
+        },
+        "meaning": "The main story of a film, book, or show",
+        "meaning_translation": {
+          "Hindi": "फिल्म, किताब या शो की मुख्य कहानी",
+          "Japanese": "映画や本、番組の主な物語"
+        },
+        "examples": [
+          {
+            "sentence": "The plot of the movie was very exciting.",
+            "translation": {
+              "Hindi": "फिल्म की कहानी बहुत रोमांचक थी।",
+              "Japanese": "映画の筋はとてもわくわくしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "character",
+        "word_translation": {
+          "Hindi": "पात्र",
+          "Japanese": "登場人物"
+        },
+        "meaning": "A person in a story, film, or play",
+        "meaning_translation": {
+          "Hindi": "कहानी, फिल्म या नाटक का व्यक्ति",
+          "Japanese": "物語、映画、劇に出てくる人物"
+        },
+        "examples": [
+          {
+            "sentence": "The main character is very brave.",
+            "translation": {
+              "Hindi": "मुख्य पात्र बहुत बहादुर है।",
+              "Japanese": "主人公はとても勇敢です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dialogue",
+        "word_translation": {
+          "Hindi": "संवाद",
+          "Japanese": "セリフ"
+        },
+        "meaning": "The conversations between characters in a story",
+        "meaning_translation": {
+          "Hindi": "कहानी में पात्रों के बीच की बातचीत",
+          "Japanese": "物語の登場人物同士の会話"
+        },
+        "examples": [
+          {
+            "sentence": "The dialogue in the film was funny and natural.",
+            "translation": {
+              "Hindi": "फिल्म में संवाद मजेदार और स्वाभाविक थे।",
+              "Japanese": "その映画のセリフは面白くて自然でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "review",
+        "word_translation": {
+          "Hindi": "समीक्षा",
+          "Japanese": "レビュー"
+        },
+        "meaning": "An opinion or judgment about a book, film, or TV show",
+        "meaning_translation": {
+          "Hindi": "किताब, फिल्म या टीवी शो के बारे में राय या मूल्यांकन",
+          "Japanese": "本、映画、テレビ番組についての意見や評価"
+        },
+        "examples": [
+          {
+            "sentence": "The book got excellent reviews from critics.",
+            "translation": {
+              "Hindi": "किताब को आलोचकों से बेहतरीन समीक्षाएँ मिलीं।",
+              "Japanese": "その本は批評家から高評価を得ました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "scene",
+        "word_translation": {
+          "Hindi": "दृश्य",
+          "Japanese": "シーン"
+        },
+        "meaning": "A part of a film, play, or book where action happens",
+        "meaning_translation": {
+          "Hindi": "फिल्म, नाटक या किताब का वह हिस्सा जहाँ घटनाएँ होती हैं",
+          "Japanese": "映画や劇、本で出来事が起こる部分"
+        },
+        "examples": [
+          {
+            "sentence": "The final scene was very emotional.",
+            "translation": {
+              "Hindi": "अंतिम दृश्य बहुत भावुक था।",
+              "Japanese": "最後のシーンはとても感動的でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "author",
+        "word_translation": {
+          "Hindi": "लेखक",
+          "Japanese": "著者"
+        },
+        "meaning": "The person who writes a book",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो किताब लिखता है",
+          "Japanese": "本を書く人"
+        },
+        "examples": [
+          {
+            "sentence": "J.K. Rowling is the author of Harry Potter.",
+            "translation": {
+              "Hindi": "जे.के. रोलिंग हैरी पॉटर की लेखिका हैं।",
+              "Japanese": "J.K.ローリングはハリー・ポッターの著者です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "episode",
+        "word_translation": {
+          "Hindi": "कड़ी",
+          "Japanese": "エピソード"
+        },
+        "meaning": "One part of a TV series",
+        "meaning_translation": {
+          "Hindi": "टीवी सीरीज का एक भाग",
+          "Japanese": "テレビシリーズの一部分"
+        },
+        "examples": [
+          {
+            "sentence": "I watched three episodes of the show last night.",
+            "translation": {
+              "Hindi": "मैंने कल रात शो की तीन कड़ियाँ देखीं।",
+              "Japanese": "昨夜、その番組を3話見ました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Present Simple for Descriptions",
+        "explanation": "Use present simple to describe what happens in films, books, or shows. Example: The story takes place in New York.",
+        "explanation_translation": {
+          "Hindi": "फिल्मों, किताबों या शो में क्या होता है यह बताने के लिए present simple का उपयोग करें। उदाहरण: The story takes place in New York.",
+          "Japanese": "映画や本、番組で何が起こるかを説明するとき現在形を使います。例：The story takes place in New York."
+        }
+      },
+      {
+        "title": "Using Past Simple for Reviews",
+        "explanation": "Use past simple to talk about what you saw or read. Example: I watched a great film yesterday.",
+        "explanation_translation": {
+          "Hindi": "आपने जो देखा या पढ़ा उसके बारे में बात करने के लिए past simple का उपयोग करें। उदाहरण: I watched a great film yesterday.",
+          "Japanese": "見たことや読んだことについて話すとき過去形を使います。例：I watched a great film yesterday."
+        }
+      },
+      {
+        "title": "Adjectives for Opinions",
+        "explanation": "Use adjectives like 'interesting, boring, exciting' to describe films, TV, or books. Example: The book was exciting.",
+        "explanation_translation": {
+          "Hindi": "फिल्मों, टीवी या किताबों का वर्णन करने के लिए 'interesting, boring, exciting' जैसे विशेषणों का उपयोग करें। उदाहरण: The book was exciting.",
+          "Japanese": "映画やテレビ、本を説明するとき「interesting, boring, exciting」などの形容詞を使います。例：The book was exciting."
+        }
+      },
+      {
+        "title": "Sequencing Words for Storytelling",
+        "explanation": "Use words like 'first, then, finally' to explain the story. Example: First the hero meets the villain, then they fight, and finally the hero wins.",
+        "explanation_translation": {
+          "Hindi": "कहानी समझाने के लिए 'first, then, finally' जैसे शब्दों का उपयोग करें। उदाहरण: First the hero meets the villain, then they fight, and finally the hero wins.",
+          "Japanese": "物語を説明するとき「first, then, finally」などを使います。例：First the hero meets the villain, then they fight, and finally the hero wins."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'the main story of a film, book, or show'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'फिल्म, किताब या शो की मुख्य कहानी' का अर्थ देता है?",
+          "Japanese": "「映画や本、番組の主な物語」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "genre",
+          "plot",
+          "scene"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The ___ of the movie was very exciting.",
+        "question_translation": {
+          "Hindi": "फिल्म की ___ बहुत रोमांचक थी।",
+          "Japanese": "その映画の___はとてもわくわくしました。"
+        },
+        "options": [
+          "plot",
+          "dialogue",
+          "review"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "An author is the person who writes a book.",
+        "question_translation": {
+          "Hindi": "लेखक वह व्यक्ति है जो किताब लिखता है।",
+          "Japanese": "著者とは本を書く人です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'a category or type of film, book, or TV show'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'फिल्म, किताब या टीवी शो का प्रकार या श्रेणी' का अर्थ देता है?",
+          "Japanese": "「映画や本、テレビ番組の種類」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "episode",
+          "character",
+          "genre"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The final ___ was very emotional.",
+        "question_translation": {
+          "Hindi": "अंतिम ___ बहुत भावुक था।",
+          "Japanese": "最後の___はとても感動的でした。"
+        },
+        "options": [
+          "scene",
+          "dialogue",
+          "episode"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [takes, place, story, the, in, London]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [takes, place, story, the, in, London]",
+          "Japanese": "並べ替え: [takes, place, story, the, in, London]"
+        },
+        "options": [
+          "takes",
+          "place",
+          "story",
+          "the",
+          "in",
+          "London"
+        ],
+        "answer": [
+          "the",
+          "story",
+          "takes",
+          "place",
+          "in",
+          "London"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I ___ a great film yesterday.",
+        "question_translation": {
+          "Hindi": "मैंने कल एक बेहतरीन फिल्म ___।",
+          "Japanese": "私は昨日素晴らしい映画を___。"
+        },
+        "options": [
+          "watch",
+          "watched",
+          "watching"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "The characters was interesting.",
+          "The characters were interesting.",
+          "The characters is interesting."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [funny, dialogue, was, the, very]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [funny, dialogue, was, the, very]",
+          "Japanese": "並べ替え: [funny, dialogue, was, the, very]"
+        },
+        "options": [
+          "funny",
+          "dialogue",
+          "was",
+          "the",
+          "very"
+        ],
+        "answer": [
+          "the",
+          "dialogue",
+          "was",
+          "very",
+          "funny"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "I read three ___ of the series last week.",
+        "question_translation": {
+          "Hindi": "मैंने पिछले हफ्ते इस सीरीज़ की तीन ___ पढ़ीं।",
+          "Japanese": "私は先週このシリーズの3つの___を読みました。"
+        },
+        "options": [
+          "scenes",
+          "episodes",
+          "reviews"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the speaker’s favorite genre?",
+        "audio_text": "My favorite film genre is comedy.",
+        "question_translation": {
+          "Hindi": "वक्ता की पसंदीदा शैली कौन सी है?",
+          "Japanese": "話者の好きなジャンルは何ですか？"
+        },
+        "options": [
+          "Comedy",
+          "Action",
+          "Drama"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says the final scene was emotional.",
+        "audio_text": "The final scene was very emotional.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि अंतिम दृश्य भावुक था।",
+          "Japanese": "話者は最後のシーンが感動的だったと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What did the critics give?",
+        "audio_text": "The book got excellent reviews from critics.",
+        "question_translation": {
+          "Hindi": "आलोचकों ने क्या दिया?",
+          "Japanese": "批評家は何を与えましたか？"
+        },
+        "options": [
+          "Bad reviews",
+          "Excellent reviews",
+          "No reviews"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The speaker watched three episodes of the show.",
+        "audio_text": "I watched three episodes of the show last night.",
+        "question_translation": {
+          "Hindi": "वक्ता ने शो की तीन कड़ियाँ देखीं।",
+          "Japanese": "話者は昨夜番組を3話見ました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Who is J.K. Rowling?",
+        "audio_text": "J.K. Rowling is the author of Harry Potter.",
+        "question_translation": {
+          "Hindi": "जे.के. रोलिंग कौन हैं?",
+          "Japanese": "J.K.ローリングは誰ですか？"
+        },
+        "options": [
+          "A character",
+          "An author",
+          "A reviewer"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The story takes place in New York.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The story takes place in New York.'",
+          "Japanese": "言ってください: 'The story takes place in New York.'"
+        },
+        "options": [],
+        "answer": "the story takes place in new york"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I watched a great film yesterday.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I watched a great film yesterday.'",
+          "Japanese": "言ってください: 'I watched a great film yesterday.'"
+        },
+        "options": [],
+        "answer": "i watched a great film yesterday"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The characters were interesting.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The characters were interesting.'",
+          "Japanese": "言ってください: 'The characters were interesting.'"
+        },
+        "options": [],
+        "answer": "the characters were interesting"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The dialogue was very funny.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The dialogue was very funny.'",
+          "Japanese": "言ってください: 'The dialogue was very funny.'"
+        },
+        "options": [],
+        "answer": "the dialogue was very funny"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The book got excellent reviews.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The book got excellent reviews.'",
+          "Japanese": "言ってください: 'The book got excellent reviews.'"
+        },
+        "options": [],
+        "answer": "the book got excellent reviews"
+      }
+    ]
+  }
+
 }

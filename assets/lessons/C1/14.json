@@ -1,4 +1,565 @@
 {
-  "id": 14,
-  "message": "This is file number 14"
+  "id": "lesson_advanced_collocations_c1",
+  "lesson_name": "Advanced Collocations (Academic & Business)",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "make a contribution",
+        "word_translation": {
+          "Hindi": "योगदान देना",
+          "Japanese": "貢献する"
+        },
+        "meaning": "To give or add something valuable to a discussion, project, or field",
+        "meaning_translation": {
+          "Hindi": "किसी चर्चा, परियोजना या क्षेत्र में कुछ मूल्यवान देना या जोड़ना",
+          "Japanese": "議論・プロジェクト・分野に価値あるものを与える／加えること"
+        },
+        "examples": [
+          {
+            "sentence": "She made a significant contribution to the research paper.",
+            "translation": {
+              "Hindi": "उसने शोधपत्र में महत्वपूर्ण योगदान दिया।",
+              "Japanese": "彼女は研究論文に大きな貢献をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conduct research",
+        "word_translation": {
+          "Hindi": "अनुसंधान करना",
+          "Japanese": "研究を行う"
+        },
+        "meaning": "To carry out a systematic investigation into a subject",
+        "meaning_translation": {
+          "Hindi": "किसी विषय पर व्यवस्थित जांच करना",
+          "Japanese": "あるテーマについて体系的に調査を行うこと"
+        },
+        "examples": [
+          {
+            "sentence": "The university is conducting research on climate change.",
+            "translation": {
+              "Hindi": "विश्वविद्यालय जलवायु परिवर्तन पर अनुसंधान कर रहा है।",
+              "Japanese": "大学は気候変動について研究を行っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reach a consensus",
+        "word_translation": {
+          "Hindi": "सहमति तक पहुँचना",
+          "Japanese": "合意に達する"
+        },
+        "meaning": "To come to an agreement that is accepted by everyone in the group",
+        "meaning_translation": {
+          "Hindi": "ऐसी सहमति पर पहुँचना जिसे समूह के सभी लोग स्वीकार करें",
+          "Japanese": "グループ全員が受け入れる合意に至ること"
+        },
+        "examples": [
+          {
+            "sentence": "The board reached a consensus on the new policy.",
+            "translation": {
+              "Hindi": "बोर्ड नई नीति पर सहमति तक पहुँचा।",
+              "Japanese": "取締役会は新しい方針について合意に達しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "raise an objection",
+        "word_translation": {
+          "Hindi": "आपत्ति उठाना",
+          "Japanese": "異議を唱える"
+        },
+        "meaning": "To express disapproval or disagreement with something formally",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ से औपचारिक रूप से असहमति या अस्वीकृति व्यक्त करना",
+          "Japanese": "何かに対して正式に反対や不承認を表明すること"
+        },
+        "examples": [
+          {
+            "sentence": "Several members raised objections to the proposed plan.",
+            "translation": {
+              "Hindi": "कई सदस्यों ने प्रस्तावित योजना पर आपत्तियाँ उठाईं।",
+              "Japanese": "数名のメンバーが提案された計画に異議を唱えました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "meet expectations",
+        "word_translation": {
+          "Hindi": "अपेक्षाओं को पूरा करना",
+          "Japanese": "期待に応える"
+        },
+        "meaning": "To achieve the standard or level that people hoped for",
+        "meaning_translation": {
+          "Hindi": "उस मानक या स्तर को प्राप्त करना जिसकी लोगों ने आशा की थी",
+          "Japanese": "人々が期待していた基準やレベルに達すること"
+        },
+        "examples": [
+          {
+            "sentence": "The new product failed to meet expectations in the market.",
+            "translation": {
+              "Hindi": "नया उत्पाद बाजार में अपेक्षाओं पर खरा नहीं उतरा।",
+              "Japanese": "新製品は市場で期待に応えられませんでした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "draw a conclusion",
+        "word_translation": {
+          "Hindi": "निष्कर्ष निकालना",
+          "Japanese": "結論を導く"
+        },
+        "meaning": "To decide something after considering evidence or facts",
+        "meaning_translation": {
+          "Hindi": "साक्ष्यों या तथ्यों पर विचार करने के बाद कुछ तय करना",
+          "Japanese": "証拠や事実を考慮して何かを決定すること"
+        },
+        "examples": [
+          {
+            "sentence": "From the data, we can draw the conclusion that sales are rising.",
+            "translation": {
+              "Hindi": "डेटा से हम निष्कर्ष निकाल सकते हैं कि बिक्री बढ़ रही है।",
+              "Japanese": "データから売上が伸びていると結論づけることができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "gain insight",
+        "word_translation": {
+          "Hindi": "अंतर्दृष्टि प्राप्त करना",
+          "Japanese": "洞察を得る"
+        },
+        "meaning": "To develop a deeper understanding of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ की गहरी समझ विकसित करना",
+          "Japanese": "何かについてより深い理解を得ること"
+        },
+        "examples": [
+          {
+            "sentence": "Interviews helped the team gain insight into customer needs.",
+            "translation": {
+              "Hindi": "साक्षात्कारों ने टीम को ग्राहक की आवश्यकताओं की अंतर्दृष्टि प्राप्त करने में मदद की।",
+              "Japanese": "インタビューによってチームは顧客のニーズに関する洞察を得ました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "address an issue",
+        "word_translation": {
+          "Hindi": "किसी समस्या का समाधान करना",
+          "Japanese": "問題に対処する"
+        },
+        "meaning": "To deal with or give attention to a problem",
+        "meaning_translation": {
+          "Hindi": "किसी समस्या से निपटना या उस पर ध्यान देना",
+          "Japanese": "問題に取り組む、または注意を向けること"
+        },
+        "examples": [
+          {
+            "sentence": "The manager addressed the issue of staff shortages.",
+            "translation": {
+              "Hindi": "प्रबंधक ने कर्मचारियों की कमी की समस्या को संबोधित किया।",
+              "Japanese": "マネージャーは人員不足の問題に対処しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "exert influence",
+        "word_translation": {
+          "Hindi": "प्रभाव डालना",
+          "Japanese": "影響を及ぼす"
+        },
+        "meaning": "To use power or authority to affect decisions or actions",
+        "meaning_translation": {
+          "Hindi": "निर्णयों या कार्यों को प्रभावित करने के लिए शक्ति या अधिकार का उपयोग करना",
+          "Japanese": "決定や行動に影響を与えるために権力や権威を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "The company exerted influence over government policy.",
+            "translation": {
+              "Hindi": "कंपनी ने सरकारी नीति पर प्रभाव डाला।",
+              "Japanese": "その会社は政府の政策に影響を及ぼしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pursue an objective",
+        "word_translation": {
+          "Hindi": "लक्ष्य का पीछा करना",
+          "Japanese": "目標を追求する"
+        },
+        "meaning": "To try to achieve a specific goal",
+        "meaning_translation": {
+          "Hindi": "किसी विशेष लक्ष्य को प्राप्त करने की कोशिश करना",
+          "Japanese": "特定の目標を達成しようとすること"
+        },
+        "examples": [
+          {
+            "sentence": "The firm is pursuing the objective of international expansion.",
+            "translation": {
+              "Hindi": "कंपनी अंतरराष्ट्रीय विस्तार के लक्ष्य का पीछा कर रही है।",
+              "Japanese": "その企業は国際的な拡大という目標を追求しています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Verb + Noun Collocations",
+        "explanation": "In academic and business English, verbs often collocate with specific nouns. For example: 'conduct research', not 'do research'.",
+        "explanation_translation": {
+          "Hindi": "शैक्षणिक और व्यावसायिक अंग्रेज़ी में, क्रियाएँ अक्सर विशिष्ट संज्ञाओं के साथ प्रयोग होती हैं। उदाहरण: 'conduct research', न कि 'do research'.",
+          "Japanese": "学術やビジネス英語では、動詞は特定の名詞と共起することが多いです。例：「conduct research」であり「do research」ではありません。"
+        }
+      },
+      {
+        "title": "Consistency in Register",
+        "explanation": "Use formal collocations in professional contexts. Example: 'reach a consensus' sounds more formal than 'agree together'.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक संदर्भों में औपचारिक कोलोकेशन्स का उपयोग करें। उदाहरण: 'reach a consensus' 'agree together' से अधिक औपचारिक लगता है।",
+          "Japanese": "専門的な文脈では、フォーマルなコロケーションを使いましょう。例：「reach a consensus」は「agree together」よりも形式的に聞こえます。"
+        }
+      },
+      {
+        "title": "Precision in Meaning",
+        "explanation": "Collocations carry specific nuances. For example, 'exert influence' implies deliberate action, while 'have influence' is more general.",
+        "explanation_translation": {
+          "Hindi": "कोलोकेशन्स विशिष्ट अर्थ और सूक्ष्मताएँ रखते हैं। उदाहरण: 'exert influence' जानबूझकर की गई क्रिया को दर्शाता है, जबकि 'have influence' अधिक सामान्य है।",
+          "Japanese": "コロケーションには特有のニュアンスがあります。例：「exert influence」は意図的な行動を示し、「have influence」はより一般的です。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which collocation means 'to carry out a systematic investigation'?",
+      "question_translation": {
+        "Hindi": "कौन सा कोलोकेशन 'व्यवस्थित जांच करना' का अर्थ रखता है?",
+        "Japanese": "「体系的な調査を行う」という意味のコロケーションはどれですか？"
+      },
+      "options": [
+        "make a contribution",
+        "conduct research",
+        "draw a conclusion"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The board members finally ___ a consensus after hours of debate.",
+      "question_translation": {
+        "Hindi": "घंटों की बहस के बाद बोर्ड सदस्यों ने अंततः ___।",
+        "Japanese": "数時間の議論の後、取締役会はついに___。"
+      },
+      "options": [
+        "reached",
+        "raised",
+        "gained"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "The phrase 'raise an objection' means to express disapproval or disagreement.",
+      "question_translation": {
+        "Hindi": "'raise an objection' का अर्थ अस्वीकृति या असहमति व्यक्त करना है।",
+        "Japanese": "「raise an objection」は不承認や反対を表すことを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which collocation best fits: 'The product launch did not ___ expectations'?",
+      "question_translation": {
+        "Hindi": "कौन सा कोलोकेशन इस वाक्य में सबसे अच्छा फिट बैठता है: 'उत्पाद लॉन्च ने अपेक्षाओं को ___ नहीं किया'?",
+        "Japanese": "「製品の発売は期待に___なかった」に最も適したコロケーションはどれですか？"
+      },
+      "options": [
+        "meet",
+        "draw",
+        "exert"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The manager promised to ___ the issue of budget cuts immediately.",
+      "question_translation": {
+        "Hindi": "प्रबंधक ने बजट कटौती की समस्या को तुरंत ___ करने का वादा किया।",
+        "Japanese": "マネージャーは予算削減の問題に直ちに___と約束しました。"
+      },
+      "options": [
+        "address",
+        "gain",
+        "exert"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [research, is, conducting, university, climate, change, on, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [research, is, conducting, university, climate, change, on, the]",
+        "Japanese": "並べ替え: [research, is, conducting, university, climate, change, on, the]"
+      },
+      "options": [
+        "research",
+        "is",
+        "conducting",
+        "university",
+        "climate",
+        "change",
+        "on",
+        "the"
+      ],
+      "answer": [
+        "the",
+        "university",
+        "is",
+        "conducting",
+        "research",
+        "on",
+        "climate",
+        "change"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The professor asked students to ___ a conclusion based on the data.",
+      "question_translation": {
+        "Hindi": "प्रोफेसर ने छात्रों से डेटा के आधार पर ___ निकालने को कहा।",
+        "Japanese": "教授は学生にデータに基づいて___するよう求めました。"
+      },
+      "options": [
+        "draw",
+        "make",
+        "gain"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which collocation is more formal in business English?",
+      "question_translation": {
+        "Hindi": "कौन सा कोलोकेशन व्यावसायिक अंग्रेज़ी में अधिक औपचारिक है?",
+        "Japanese": "ビジネス英語でよりフォーマルなコロケーションはどれですか？"
+      },
+      "options": [
+        "agree together",
+        "reach a consensus",
+        "talk about agreement"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [influence, exerted, the, company, over, policy, government]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [influence, exerted, the, company, over, policy, government]",
+        "Japanese": "並べ替え: [influence, exerted, the, company, over, policy, government]"
+      },
+      "options": [
+        "influence",
+        "exerted",
+        "the",
+        "company",
+        "over",
+        "policy",
+        "government"
+      ],
+      "answer": [
+        "the",
+        "company",
+        "exerted",
+        "influence",
+        "over",
+        "government",
+        "policy"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The organization continues to ___ its objective of sustainability.",
+      "question_translation": {
+        "Hindi": "संगठन स्थिरता के अपने लक्ष्य को ___ करता रहता है।",
+        "Japanese": "その組織は持続可能性という目標を___し続けています。"
+      },
+      "options": [
+        "pursue",
+        "meet",
+        "raise"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What academic activity is the speaker describing?",
+      "audio_text": "The research team is conducting experiments to test the theory.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी शैक्षणिक गतिविधि का वर्णन कर रहा है?",
+        "Japanese": "話者はどの学術活動を説明していますか？"
+      },
+      "options": [
+        "conducting research",
+        "raising objections",
+        "meeting expectations"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The company met market expectations.",
+      "audio_text": "Unfortunately, the new smartphone did not meet expectations.",
+      "question_translation": {
+        "Hindi": "कंपनी ने बाजार की अपेक्षाएँ पूरी कीं।",
+        "Japanese": "その会社は市場の期待に応えた。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What did the participants do?",
+      "audio_text": "After long negotiations, both parties reached a consensus.",
+      "question_translation": {
+        "Hindi": "प्रतिभागियों ने क्या किया?",
+        "Japanese": "参加者たちは何をしましたか？"
+      },
+      "options": [
+        "Raised objections",
+        "Reached a consensus",
+        "Made a contribution"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The manager addressed the issue of late payments.",
+      "audio_text": "The manager addressed the issue of late payments during the meeting.",
+      "question_translation": {
+        "Hindi": "प्रबंधक ने देर से भुगतान की समस्या का समाधान किया।",
+        "Japanese": "マネージャーは会議で遅延支払いの問題に対処しました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What action is being described?",
+      "audio_text": "The CEO exerted influence over the decision-making process.",
+      "question_translation": {
+        "Hindi": "कौन सी क्रिया का वर्णन किया जा रहा है?",
+        "Japanese": "どの行為が説明されていますか？"
+      },
+      "options": [
+        "Drawing a conclusion",
+        "Exerting influence",
+        "Pursuing an objective"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'She made a significant contribution to the project.'",
+      "question_translation": {
+        "Hindi": "कहें: 'उसने परियोजना में महत्वपूर्ण योगदान दिया।'",
+        "Japanese": "言ってください: '彼女はプロジェクトに大きな貢献をしました。'"
+      },
+      "options": [],
+      "answer": "she made a significant contribution to the project"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The university is conducting research on climate change.'",
+      "question_translation": {
+        "Hindi": "कहें: 'विश्वविद्यालय जलवायु परिवर्तन पर अनुसंधान कर रहा है।'",
+        "Japanese": "言ってください: '大学は気候変動について研究を行っています。'"
+      },
+      "options": [],
+      "answer": "the university is conducting research on climate change"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The board reached a consensus on the new policy.'",
+      "question_translation": {
+        "Hindi": "कहें: 'बोर्ड नई नीति पर सहमति तक पहुँचा।'",
+        "Japanese": "言ってください: '取締役会は新しい方針について合意に達しました。'"
+      },
+      "options": [],
+      "answer": "the board reached a consensus on the new policy"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Several members raised objections to the plan.'",
+      "question_translation": {
+        "Hindi": "कहें: 'कई सदस्यों ने योजना पर आपत्तियाँ उठाईं।'",
+        "Japanese": "言ってください: '数名のメンバーが計画に異議を唱えました。'"
+      },
+      "options": [],
+      "answer": "several members raised objections to the plan"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The firm is pursuing the objective of international expansion.'",
+      "question_translation": {
+        "Hindi": "कहें: 'कंपनी अंतरराष्ट्रीय विस्तार के लक्ष्य का पीछा कर रही है।'",
+        "Japanese": "言ってください: 'その企業は国際的な拡大という目標を追求しています。'"
+      },
+      "options": [],
+      "answer": "the firm is pursuing the objective of international expansion"
+    }
+  ]
+}
+
 }

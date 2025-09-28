@@ -1,186 +1,456 @@
 {
-  "id": "lesson_personal_qualities_001",
+  "id": "lesson_personal_qualities_b1",
   "lesson_name": "Describing Personal Qualities",
   "purpose": "All",
   "cefrLevel": "B1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "honest", "meaning": "someone who always tells the truth" },
-      { "word": "creative", "meaning": "able to make new things or ideas" },
-      { "word": "generous", "meaning": "happy to give and share" },
-      { "word": "patient", "meaning": "able to wait calmly" },
-      { "word": "confident", "meaning": "sure about yourself" },
-      { "word": "reliable", "meaning": "can be trusted to do things well" },
-      { "word": "ambitious", "meaning": "wanting to be successful" },
-      { "word": "hardworking", "meaning": "putting a lot of effort into work" },
-      { "word": "friendly", "meaning": "kind and pleasant to others" },
-      { "word": "polite", "meaning": "showing good manners" }
+      {
+        "word": "Honest",
+        "word_translation": {
+          "Hindi": "ईमानदार",
+          "Japanese": "正直な"
+        },
+        "meaning": "Always telling the truth and not lying",
+        "meaning_translation": {
+          "Hindi": "हमेशा सच बोलना और झूठ न कहना",
+          "Japanese": "常に真実を話し、嘘をつかないこと"
+        },
+        "examples": [
+          {
+            "sentence": "She is an honest person who never cheats.",
+            "translation": {
+              "Hindi": "वह एक ईमानदार व्यक्ति है जो कभी धोखा नहीं देती।",
+              "Japanese": "彼女は決してごまかさない正直な人です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Confident",
+        "word_translation": {
+          "Hindi": "आत्मविश्वासी",
+          "Japanese": "自信のある"
+        },
+        "meaning": "Believing in yourself and your abilities",
+        "meaning_translation": {
+          "Hindi": "अपने आप और अपनी क्षमताओं पर विश्वास करना",
+          "Japanese": "自分自身と自分の能力を信じること"
+        },
+        "examples": [
+          {
+            "sentence": "He was confident during the presentation.",
+            "translation": {
+              "Hindi": "वह प्रस्तुति के दौरान आत्मविश्वासी था।",
+              "Japanese": "彼は発表のとき自信がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Generous",
+        "word_translation": {
+          "Hindi": "दयालु / उदार",
+          "Japanese": "寛大な"
+        },
+        "meaning": "Willing to share or give more than usual",
+        "meaning_translation": {
+          "Hindi": "साझा करने या देने के लिए हमेशा तैयार रहना",
+          "Japanese": "普通よりも多く与えたり分け合ったりすることを喜んでする"
+        },
+        "examples": [
+          {
+            "sentence": "She is generous with her time and money.",
+            "translation": {
+              "Hindi": "वह अपने समय और पैसे के साथ उदार है।",
+              "Japanese": "彼女は時間やお金に寛大です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Responsible",
+        "word_translation": {
+          "Hindi": "जिम्मेदार",
+          "Japanese": "責任感のある"
+        },
+        "meaning": "Able to take care of things and be trusted",
+        "meaning_translation": {
+          "Hindi": "चीज़ों की देखभाल करने और भरोसेमंद होने की क्षमता रखना",
+          "Japanese": "物事をきちんと世話でき、信頼されること"
+        },
+        "examples": [
+          {
+            "sentence": "He is responsible for looking after the children.",
+            "translation": {
+              "Hindi": "वह बच्चों की देखभाल करने के लिए जिम्मेदार है।",
+              "Japanese": "彼は子供の世話をする責任があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Polite",
+        "word_translation": {
+          "Hindi": "विनम्र",
+          "Japanese": "礼儀正しい"
+        },
+        "meaning": "Behaving in a way that is respectful and kind",
+        "meaning_translation": {
+          "Hindi": "ऐसा व्यवहार करना जो सम्मानजनक और दयालु हो",
+          "Japanese": "礼儀正しく親切に振る舞うこと"
+        },
+        "examples": [
+          {
+            "sentence": "It is polite to say 'thank you'.",
+            "translation": {
+              "Hindi": "‘धन्यवाद’ कहना विनम्रता है।",
+              "Japanese": "「ありがとう」と言うのは礼儀正しいことです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Creative",
+        "word_translation": {
+          "Hindi": "रचनात्मक",
+          "Japanese": "創造的な"
+        },
+        "meaning": "Able to think of new and original ideas",
+        "meaning_translation": {
+          "Hindi": "नई और मौलिक विचार सोचने में सक्षम",
+          "Japanese": "新しい独創的なアイデアを考えられること"
+        },
+        "examples": [
+          {
+            "sentence": "She is very creative in solving problems.",
+            "translation": {
+              "Hindi": "वह समस्याओं को हल करने में बहुत रचनात्मक है।",
+              "Japanese": "彼女は問題を解決するのにとても創造的です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Patient",
+        "word_translation": {
+          "Hindi": "धैर्यवान",
+          "Japanese": "我慢強い"
+        },
+        "meaning": "Able to stay calm when waiting or in a difficult situation",
+        "meaning_translation": {
+          "Hindi": "इंतजार करते समय या कठिन स्थिति में शांत रहना",
+          "Japanese": "待つときや困難な状況でも落ち着いていられること"
+        },
+        "examples": [
+          {
+            "sentence": "Teachers need to be patient with students.",
+            "translation": {
+              "Hindi": "शिक्षकों को छात्रों के साथ धैर्यवान होना चाहिए।",
+              "Japanese": "教師は生徒に対して忍耐強くある必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Ambitious",
+        "word_translation": {
+          "Hindi": "महत्वाकांक्षी",
+          "Japanese": "野心的な"
+        },
+        "meaning": "Having a strong desire to succeed or achieve something",
+        "meaning_translation": {
+          "Hindi": "सफल होने या कुछ हासिल करने की गहरी इच्छा रखना",
+          "Japanese": "成功や何かを達成したいという強い願望を持っていること"
+        },
+        "examples": [
+          {
+            "sentence": "He is ambitious and wants to become a doctor.",
+            "translation": {
+              "Hindi": "वह महत्वाकांक्षी है और डॉक्टर बनना चाहता है।",
+              "Japanese": "彼は野心的で医者になりたいと思っています。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using adjectives to describe people",
-        "explanation": "Put the adjective before the noun. Example: She is a creative person."
+        "title": "Using 'be' + adjective",
+        "explanation": "We use the verb 'be' (am, is, are) before adjectives to describe qualities. Example: She is honest.",
+        "explanation_translation": {
+          "Hindi": "गुणों का वर्णन करने के लिए हम 'be' (am, is, are) का उपयोग विशेषण से पहले करते हैं। उदाहरण: She is honest.",
+          "Japanese": "性格や特質を説明するときは形容詞の前に「be動詞 (am, is, are)」を使います。例: She is honest."
+        }
       },
       {
-        "title": "Using 'very' and 'quite' for emphasis",
-        "explanation": "Use 'very' or 'quite' before an adjective. Example: He is very hardworking."
+        "title": "Using 'very' to make qualities stronger",
+        "explanation": "Add 'very' before an adjective to make it stronger. Example: He is very patient.",
+        "explanation_translation": {
+          "Hindi": "विशेषण को अधिक मजबूत बनाने के लिए 'very' का प्रयोग करें। उदाहरण: He is very patient.",
+          "Japanese": "形容詞を強調するときは「very」を形容詞の前に付けます。例: He is very patient."
+        }
+      },
+      {
+        "title": "Using 'not' to show the opposite quality",
+        "explanation": "Add 'not' before 'be' to show the opposite. Example: She is not polite.",
+        "explanation_translation": {
+          "Hindi": "'be' से पहले 'not' जोड़कर विपरीत गुण दिखाएं। उदाहरण: She is not polite.",
+          "Japanese": "反対の性質を示すときは「be動詞」の後に「not」を付けます。例: She is not polite."
+        }
+      },
+      {
+        "title": "Using 'quite' for softer meaning",
+        "explanation": "Use 'quite' to describe a quality in a softer way. Example: She is quite creative.",
+        "explanation_translation": {
+          "Hindi": "'quite' का उपयोग किसी गुण को हल्के तरीके से बताने के लिए करें। उदाहरण: She is quite creative.",
+          "Japanese": "性質をやわらかく表すとき「quite」を使います。例: She is quite creative."
+        }
+      },
+      {
+        "title": "Using 'and' to combine qualities",
+        "explanation": "You can join two qualities with 'and'. Example: He is honest and responsible.",
+        "explanation_translation": {
+          "Hindi": "दो गुणों को जोड़ने के लिए 'and' का उपयोग करें। उदाहरण: He is honest and responsible.",
+          "Japanese": "2つの性質をつなげるとき「and」を使います。例: He is honest and responsible."
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "She is an honest and reliable friend.", "translation": "" },
-      { "sentence": "He is quite creative and friendly.", "translation": "" },
-      { "sentence": "My teacher is very patient.", "translation": "" },
-      { "sentence": "I want to be more confident.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "Which word means 'someone who always tells the truth'?",
-        "options": ["confident", "honest", "creative"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'always telling the truth'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'हमेशा सच बोलना' का अर्थ है?",
+        "Japanese": "「いつも真実を話す」という意味の単語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "A ___ person is happy to give and share.",
-        "options": ["hardworking", "generous", "ambitious"],
-        "answer": 1
+      "options": ["Honest", "Polite", "Creative"],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "multipleChoice",
+      "question": "Which quality means 'believing in yourself'?",
+      "question_translation": {
+        "Hindi": "कौन सा गुण 'अपने आप पर विश्वास करना' दर्शाता है?",
+        "Japanese": "「自分自身を信じる」という意味の性質はどれですか？"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means 'can be trusted to do things well'?",
-        "options": ["reliable", "polite", "patient"],
-        "answer": 0
+      "options": ["Confident", "Generous", "Patient"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "It is ___ to say 'thank you'.",
+      "question_translation": {
+        "Hindi": "‘धन्यवाद’ कहना ___ है।",
+        "Japanese": "「ありがとう」と言うのは___です。"
       },
-      {
-        "id": "vocab4",
-        "type": "trueFalse",
-        "question": "'Polite' means showing good manners.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": ["polite", "ambitious", "creative"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "trueFalse",
+      "question": "A generous person likes to share and give more than usual.",
+      "question_translation": {
+        "Hindi": "एक उदार व्यक्ति सामान्य से अधिक साझा करना और देना पसंद करता है।",
+        "Japanese": "寛大な人は普通より多く分け与えることが好きです。"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What does 'ambitious' mean?",
-        "options": ["Wanting to be successful", "Kind to others", "Always telling the truth"],
-        "answer": 0
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "She is an ___ and reliable friend.",
-        "options": ["honest", "polite", "ambitious"],
-        "answer": 0
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which quality means 'having a strong desire to succeed'?",
+      "question_translation": {
+        "Hindi": "कौन सा गुण 'सफल होने की गहरी इच्छा रखना' दर्शाता है?",
+        "Japanese": "「成功したいという強い願望を持つ」という意味の性質はどれですか？"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "He is ___ creative and friendly.",
-        "options": ["quite", "very", "too"],
-        "answer": 0
+      "options": ["Ambitious", "Patient", "Honest"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "She is ___ honest person.",
+      "question_translation": {
+        "Hindi": "वह एक ___ ईमानदार व्यक्ति है।",
+        "Japanese": "彼女は___正直な人です。"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [teacher, patient, very, my, is]",
-        "options": ["teacher", "patient", "very", "my", "is"],
-        "answer": ["My", "teacher", "is", "very", "patient"]
+      "options": ["an", "a", "the"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "He is ___ creative in solving problems.",
+      "question_translation": {
+        "Hindi": "वह समस्याओं को हल करने में ___ रचनात्मक है।",
+        "Japanese": "彼は問題を解決するのに___創造的です。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "I want to be more ___.",
-        "options": ["hardworking", "confident", "friendly"],
-        "answer": 1
+      "options": ["very", "not", "because"],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [honest, is, She, very]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [honest, is, She, very]",
+        "Japanese": "並べ替え: [honest, is, She, very]"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [honest, an, she, person, is]",
-        "options": ["honest", "an", "she", "person", "is"],
-        "answer": ["She", "is", "an", "honest", "person"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "Which two qualities does the speaker mention? (Audio: 'She is an honest and reliable friend.')",
-        "options": ["honest and reliable", "friendly and polite", "ambitious and patient"],
-        "answer": 0
+      "options": ["honest", "is", "She", "very"],
+      "answer": ["She", "is", "very", "honest"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [and, responsible, He, polite, is]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [and, responsible, He, polite, is]",
+        "Japanese": "並べ替え: [and, responsible, He, polite, is]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "How is he described? (Audio: 'He is quite creative and friendly.')",
-        "options": ["Very hardworking", "Quite creative and friendly", "Always patient"],
-        "answer": 1
+      "options": ["and", "responsible", "He", "polite", "is"],
+      "answer": ["He", "is", "polite", "and", "responsible"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "She is ___ patient with young children.",
+      "question_translation": {
+        "Hindi": "वह छोटे बच्चों के साथ ___ धैर्यवान है।",
+        "Japanese": "彼女は小さい子供に対して___忍耐強いです。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "What quality does the teacher have? (Audio: 'My teacher is very patient.')",
-        "options": ["polite", "patient", "hardworking"],
-        "answer": 1
+      "options": ["quite", "very", "not"],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker say?",
+      "audio_text": "She is an honest person.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या कहा?",
+        "Japanese": "話者は何と言いましたか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "What does the speaker want? (Audio: 'I want to be more confident.')",
-        "options": ["To be more confident", "To be more ambitious", "To be more polite"],
-        "answer": 0
+      "options": ["She is an honest person.", "She is a generous person.", "She is a polite person."],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What quality did the speaker describe?",
+      "audio_text": "He is very confident.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कौन सा गुण बताया?",
+        "Japanese": "話者はどんな性質を説明しましたか？"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "Who is polite? (Audio: 'He is a polite boy.')",
-        "options": ["He", "She", "I"],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'She is an honest and reliable friend.'",
-        "options": [],
-        "answer": "She is an honest and reliable friend."
+      "options": ["Patient", "Confident", "Ambitious"],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What quality is mentioned?",
+      "audio_text": "She is polite to everyone.",
+      "question_translation": {
+        "Hindi": "कौन सा गुण बताया गया है?",
+        "Japanese": "どんな性質が言及されましたか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'He is quite creative and friendly.'",
-        "options": [],
-        "answer": "He is quite creative and friendly."
+      "options": ["Polite", "Honest", "Generous"],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What does the speaker say?",
+      "audio_text": "My friend is ambitious and wants to be successful.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या कहता है?",
+        "Japanese": "話者は何と言いましたか？"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'My teacher is very patient.'",
-        "options": [],
-        "answer": "My teacher is very patient."
+      "options": ["My friend is ambitious.", "My friend is generous.", "My friend is patient."],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What two qualities did the speaker mention?",
+      "audio_text": "She is creative and responsible.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कौन से दो गुण बताए?",
+        "Japanese": "話者はどの2つの性質を言いましたか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'I want to be more confident.'",
-        "options": [],
-        "answer": "I want to be more confident."
+      "options": ["Creative and responsible", "Polite and honest", "Confident and patient"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'She is an honest person.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She is an honest person.'",
+        "Japanese": "言ってください: 'She is an honest person.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'She is an honest person.'",
-        "options": [],
-        "answer": "She is an honest person."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "she is an honest person"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'He is very confident.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He is very confident.'",
+        "Japanese": "言ってください: 'He is very confident.'"
+      },
+      "options": [],
+      "answer": "he is very confident"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'My friend is generous with her time.'",
+      "question_translation": {
+        "Hindi": "कहें: 'My friend is generous with her time.'",
+        "Japanese": "言ってください: 'My friend is generous with her time.'"
+      },
+      "options": [],
+      "answer": "my friend is generous with her time"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Teachers need to be patient.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Teachers need to be patient.'",
+        "Japanese": "言ってください: 'Teachers need to be patient.'"
+      },
+      "options": [],
+      "answer": "teachers need to be patient"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'He is polite and responsible.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He is polite and responsible.'",
+        "Japanese": "言ってください: 'He is polite and responsible.'"
+      },
+      "options": [],
+      "answer": "he is polite and responsible"
+    }
+  ]
+}
+
 }

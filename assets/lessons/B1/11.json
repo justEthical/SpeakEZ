@@ -1,4 +1,460 @@
 {
-  "id": 11,
-  "message": "This is file number 11"
+  "id": "lesson_social_media_b1",
+  "lesson_name": "Describing Social Media Habits",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "Post",
+        "word_translation": {
+          "Hindi": "पोस्ट करना",
+          "Japanese": "投稿する"
+        },
+        "meaning": "To share text, photos, or videos online",
+        "meaning_translation": {
+          "Hindi": "ऑनलाइन टेक्स्ट, फ़ोटो या वीडियो साझा करना",
+          "Japanese": "テキスト、写真、動画をオンラインで共有すること"
+        },
+        "examples": [
+          {
+            "sentence": "I posted a photo on Instagram.",
+            "translation": {
+              "Hindi": "मैंने इंस्टाग्राम पर एक फोटो पोस्ट की।",
+              "Japanese": "私はインスタグラムに写真を投稿しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Comment",
+        "word_translation": {
+          "Hindi": "टिप्पणी",
+          "Japanese": "コメント"
+        },
+        "meaning": "A message written under a post",
+        "meaning_translation": {
+          "Hindi": "पोस्ट के नीचे लिखा गया संदेश",
+          "Japanese": "投稿の下に書かれるメッセージ"
+        },
+        "examples": [
+          {
+            "sentence": "She left a nice comment on my video.",
+            "translation": {
+              "Hindi": "उसने मेरी वीडियो पर अच्छी टिप्पणी की।",
+              "Japanese": "彼女は私の動画に良いコメントを残しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Like",
+        "word_translation": {
+          "Hindi": "पसंद करना",
+          "Japanese": "いいね"
+        },
+        "meaning": "To show you enjoy a post by clicking a button",
+        "meaning_translation": {
+          "Hindi": "बटन दबाकर यह दिखाना कि आपको पोस्ट पसंद है",
+          "Japanese": "ボタンを押して投稿が気に入ったことを示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Many people liked my new post.",
+            "translation": {
+              "Hindi": "कई लोगों ने मेरी नई पोस्ट को पसंद किया।",
+              "Japanese": "多くの人が私の新しい投稿にいいねしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Share",
+        "word_translation": {
+          "Hindi": "साझा करना",
+          "Japanese": "シェアする"
+        },
+        "meaning": "To send a post to other people or groups",
+        "meaning_translation": {
+          "Hindi": "किसी पोस्ट को दूसरों को भेजना",
+          "Japanese": "投稿を他の人に送ること"
+        },
+        "examples": [
+          {
+            "sentence": "He shared the article with his friends.",
+            "translation": {
+              "Hindi": "उसने लेख अपने दोस्तों के साथ साझा किया।",
+              "Japanese": "彼はその記事を友達とシェアしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Follower",
+        "word_translation": {
+          "Hindi": "अनुयायी",
+          "Japanese": "フォロワー"
+        },
+        "meaning": "A person who subscribes to your social media updates",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो आपके सोशल मीडिया अपडेट देखता है",
+          "Japanese": "あなたのソーシャルメディアの更新を受け取る人"
+        },
+        "examples": [
+          {
+            "sentence": "She has over 10,000 followers on Twitter.",
+            "translation": {
+              "Hindi": "उसके ट्विटर पर 10,000 से अधिक अनुयायी हैं।",
+              "Japanese": "彼女はツイッターで1万人以上のフォロワーがいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Scroll",
+        "word_translation": {
+          "Hindi": "स्क्रॉल करना",
+          "Japanese": "スクロールする"
+        },
+        "meaning": "To move up or down on a screen to see more content",
+        "meaning_translation": {
+          "Hindi": "अधिक सामग्री देखने के लिए स्क्रीन पर ऊपर या नीचे जाना",
+          "Japanese": "もっと内容を見るために画面を上下に動かすこと"
+        },
+        "examples": [
+          {
+            "sentence": "I scrolled through my feed for an hour.",
+            "translation": {
+              "Hindi": "मैंने एक घंटे तक अपनी फ़ीड स्क्रॉल की।",
+              "Japanese": "私は1時間フィードをスクロールしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Addicted",
+        "word_translation": {
+          "Hindi": "आसक्त / लत लगना",
+          "Japanese": "中毒の"
+        },
+        "meaning": "Not able to stop doing something",
+        "meaning_translation": {
+          "Hindi": "कुछ करना बंद न कर पाना",
+          "Japanese": "やめられない状態"
+        },
+        "examples": [
+          {
+            "sentence": "Some teenagers are addicted to social media.",
+            "translation": {
+              "Hindi": "कुछ किशोर सोशल मीडिया के आदी हैं।",
+              "Japanese": "一部の十代の若者はソーシャルメディア中毒です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Privacy",
+        "word_translation": {
+          "Hindi": "गोपनीयता",
+          "Japanese": "プライバシー"
+        },
+        "meaning": "Keeping your personal information safe",
+        "meaning_translation": {
+          "Hindi": "अपनी व्यक्तिगत जानकारी को सुरक्षित रखना",
+          "Japanese": "自分の個人情報を安全に保つこと"
+        },
+        "examples": [
+          {
+            "sentence": "You should protect your privacy online.",
+            "translation": {
+              "Hindi": "आपको ऑनलाइन अपनी गोपनीयता की रक्षा करनी चाहिए।",
+              "Japanese": "オンラインでプライバシーを守るべきです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'I usually…' for habits",
+        "explanation": "Say 'I usually…' to describe regular social media actions. Example: I usually check my messages in the morning.",
+        "explanation_translation": {
+          "Hindi": "नियमित सोशल मीडिया क्रियाओं का वर्णन करने के लिए 'I usually…' कहें। उदाहरण: I usually check my messages in the morning.",
+          "Japanese": "ソーシャルメディアの習慣を言うとき「I usually…」を使います。例: I usually check my messages in the morning."
+        }
+      },
+      {
+        "title": "Using 'I spend… on…'",
+        "explanation": "Say 'I spend… on…' to talk about time on social media. Example: I spend two hours on Instagram.",
+        "explanation_translation": {
+          "Hindi": "सोशल मीडिया पर समय बताने के लिए 'I spend… on…' का उपयोग करें। उदाहरण: I spend two hours on Instagram.",
+          "Japanese": "SNSに使う時間を言うとき「I spend… on…」を使います。例: I spend two hours on Instagram."
+        }
+      },
+      {
+        "title": "Using 'too much/too many' for overuse",
+        "explanation": "Say 'too much' or 'too many' to show overuse. Example: I spend too much time scrolling.",
+        "explanation_translation": {
+          "Hindi": "अत्यधिक उपयोग दिखाने के लिए 'too much' या 'too many' का प्रयोग करें। उदाहरण: I spend too much time scrolling.",
+          "Japanese": "使いすぎを表すとき「too much」「too many」を使います。例: I spend too much time scrolling."
+        }
+      },
+      {
+        "title": "Using 'be addicted to…'",
+        "explanation": "Say 'I am addicted to…' to describe a bad habit. Example: I am addicted to social media.",
+        "explanation_translation": {
+          "Hindi": "बुरी आदत बताने के लिए 'I am addicted to…' कहें। उदाहरण: I am addicted to social media.",
+          "Japanese": "悪い習慣を説明するとき「I am addicted to…」を使います。例: I am addicted to social media."
+        }
+      },
+      {
+        "title": "Using 'be careful with…' for safety",
+        "explanation": "Say 'Be careful with…' to warn about privacy. Example: Be careful with your personal data online.",
+        "explanation_translation": {
+          "Hindi": "सुरक्षा के लिए 'Be careful with…' कहें। उदाहरण: Be careful with your personal data online.",
+          "Japanese": "安全のために「Be careful with…」を使います。例: Be careful with your personal data online."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a message written under a post'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'पोस्ट के नीचे लिखा गया संदेश' का अर्थ है?",
+        "Japanese": "「投稿の下に書かれるメッセージ」という意味の単語はどれですか？"
+      },
+      "options": ["Like", "Comment", "Privacy"],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "multipleChoice",
+      "question": "Which word means 'a person who subscribes to your social media updates'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'वह व्यक्ति जो आपके सोशल मीडिया अपडेट देखता है' का अर्थ है?",
+        "Japanese": "「あなたのSNS更新を受け取る人」という意味の単語はどれですか？"
+      },
+      "options": ["Follower", "Post", "Share"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "Many people ___ my new photo.",
+      "question_translation": {
+        "Hindi": "कई लोगों ने मेरी नई फोटो को ___।",
+        "Japanese": "多くの人が私の新しい写真に___しました。"
+      },
+      "options": ["liked", "posted", "scrolled"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "trueFalse",
+      "question": "Privacy means keeping your personal information safe.",
+      "question_translation": {
+        "Hindi": "Privacy का अर्थ है अपनी व्यक्तिगत जानकारी को सुरक्षित रखना।",
+        "Japanese": "Privacy は自分の個人情報を安全に保つことを意味します。"
+      },
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which word means 'not able to stop doing something'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'कुछ करना बंद न कर पाना' का अर्थ है?",
+        "Japanese": "「何かをやめられない状態」という意味の単語はどれですか？"
+      },
+      "options": ["Addicted", "Scroll", "Share"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I usually ___ my feed in the evening.",
+      "question_translation": {
+        "Hindi": "मैं आमतौर पर शाम को अपनी फ़ीड ___ करता हूँ।",
+        "Japanese": "私はたいてい夕方にフィードを___します。"
+      },
+      "options": ["scroll", "post", "like"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "I spend two hours ___ Instagram every day.",
+      "question_translation": {
+        "Hindi": "मैं हर दिन इंस्टाग्राम पर दो घंटे ___ करता हूँ।",
+        "Japanese": "私は毎日2時間インスタグラム___します。"
+      },
+      "options": ["on", "in", "to"],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [too, I, scrolling, spend, time, much]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [too, I, scrolling, spend, time, much]",
+        "Japanese": "並べ替え: [too, I, scrolling, spend, time, much]"
+      },
+      "options": ["too", "I", "scrolling", "spend", "time", "much"],
+      "answer": ["I", "spend", "too", "much", "time", "scrolling"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [to, addicted, am, I, media, social]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [to, addicted, am, I, media, social]",
+        "Japanese": "並べ替え: [to, addicted, am, I, media, social]"
+      },
+      "options": ["to", "addicted", "am", "I", "media", "social"],
+      "answer": ["I", "am", "addicted", "to", "social", "media"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Be careful ___ your personal data online.",
+      "question_translation": {
+        "Hindi": "ऑनलाइन अपनी व्यक्तिगत जानकारी के साथ ___ रहें।",
+        "Japanese": "オンラインで自分の個人情報に___注意してください。"
+      },
+      "options": ["with", "on", "at"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker say?",
+      "audio_text": "I posted a photo on Instagram.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या कहा?",
+        "Japanese": "話者は何と言いましたか？"
+      },
+      "options": [
+        "I posted a photo on Instagram.",
+        "I liked a photo on Instagram.",
+        "I shared a video on Instagram."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What action did the speaker do?",
+      "audio_text": "She left a nice comment on my video.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कौन सा कार्य किया?",
+        "Japanese": "話者はどんな行動をしましたか？"
+      },
+      "options": ["Liked the video", "Commented on the video", "Shared the video"],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What happened with the speaker’s post?",
+      "audio_text": "Many people liked my new post.",
+      "question_translation": {
+        "Hindi": "वक्ता की पोस्ट के साथ क्या हुआ?",
+        "Japanese": "話者の投稿に何が起こりましたか？"
+      },
+      "options": ["It was liked by many people", "It was shared", "It was ignored"],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What problem does the speaker talk about?",
+      "audio_text": "Some teenagers are addicted to social media.",
+      "question_translation": {
+        "Hindi": "वक्ता किस समस्या के बारे में बात कर रहा है?",
+        "Japanese": "話者はどんな問題について話していますか？"
+      },
+      "options": ["Addiction to social media", "Privacy settings", "Too many followers"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What advice did the speaker give?",
+      "audio_text": "Be careful with your personal data online.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या सलाह दी?",
+        "Japanese": "話者はどんなアドバイスをしましたか？"
+      },
+      "options": ["Protect your privacy", "Scroll less", "Get more followers"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I usually check my messages in the morning.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I usually check my messages in the morning.'",
+        "Japanese": "言ってください: 'I usually check my messages in the morning.'"
+      },
+      "options": [],
+      "answer": "i usually check my messages in the morning"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'I spend two hours on Instagram.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I spend two hours on Instagram.'",
+        "Japanese": "言ってください: 'I spend two hours on Instagram.'"
+      },
+      "options": [],
+      "answer": "i spend two hours on instagram"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I spend too much time scrolling.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I spend too much time scrolling.'",
+        "Japanese": "言ってください: 'I spend too much time scrolling.'"
+      },
+      "options": [],
+      "answer": "i spend too much time scrolling"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I am addicted to social media.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I am addicted to social media.'",
+        "Japanese": "言ってください: 'I am addicted to social media.'"
+      },
+      "options": [],
+      "answer": "i am addicted to social media"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Be careful with your personal data online.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Be careful with your personal data online.'",
+        "Japanese": "言ってください: 'Be careful with your personal data online.'"
+      },
+      "options": [],
+      "answer": "be careful with your personal data online"
+    }
+  ]
+}
+
 }

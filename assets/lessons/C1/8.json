@@ -1,187 +1,564 @@
 {
-  "id": "lesson_conducting_presenting_research_c1_001",
-  "lesson_name": "Conducting and Presenting Research",
+  "id": "lesson_hedging_caution_c1",
+  "lesson_name": "Hedging & Caution (Tend to/Relatively/Supposedly)",
   "purpose": "All",
   "cefrLevel": "C1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "methodology", "meaning": "the system of methods used in research" },
-      { "word": "hypothesis", "meaning": "an idea that you test through research" },
-      { "word": "data analysis", "meaning": "examining information to draw conclusions" },
-      { "word": "literature review", "meaning": "a summary of existing studies on a topic" },
-      { "word": "findings", "meaning": "results discovered from research" },
-      { "word": "implications", "meaning": "possible effects or outcomes of results" },
-      { "word": "references", "meaning": "sources of information used in your research" },
-      { "word": "abstract", "meaning": "a brief summary of a research paper" },
-      { "word": "variables", "meaning": "factors that can change in an experiment" },
-      { "word": "presentation", "meaning": "showing and explaining your work to others" }
+      {
+        "word": "hedging",
+        "word_translation": {
+          "Hindi": "संकोचपूर्ण अभिव्यक्ति",
+          "Japanese": "婉曲表現"
+        },
+        "meaning": "The use of cautious or less direct language to avoid being too definite",
+        "meaning_translation": {
+          "Hindi": "बहुत निश्चित होने से बचने के लिए सतर्क या कम प्रत्यक्ष भाषा का उपयोग",
+          "Japanese": "断定的になりすぎないように慎重または間接的な言葉を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Scientists tend to avoid absolute claims.",
+            "translation": {
+              "Hindi": "वैज्ञानिक पूर्ण दावों से बचने की प्रवृत्ति रखते हैं।",
+              "Japanese": "科学者は断定的な主張を避ける傾向がある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "caution",
+        "word_translation": {
+          "Hindi": "सावधानी",
+          "Japanese": "注意"
+        },
+        "meaning": "Care taken to avoid risks or mistakes",
+        "meaning_translation": {
+          "Hindi": "जोखिमों या गलतियों से बचने के लिए बरती जाने वाली देखभाल",
+          "Japanese": "リスクや誤りを避けるための注意"
+        },
+        "examples": [
+          {
+            "sentence": "Writers use hedging to show caution in their claims.",
+            "translation": {
+              "Hindi": "लेखक अपने दावों में सावधानी दिखाने के लिए हेजिंग का उपयोग करते हैं।",
+              "Japanese": "著者は主張に注意を示すために婉曲表現を使う。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tend to",
+        "word_translation": {
+          "Hindi": "अधिकतर करना",
+          "Japanese": "〜する傾向がある"
+        },
+        "meaning": "Used to show something happens usually but not always",
+        "meaning_translation": {
+          "Hindi": "यह दिखाने के लिए प्रयोग किया जाता है कि कुछ अक्सर होता है लेकिन हमेशा नहीं",
+          "Japanese": "常にではないが、通常起こることを示す表現"
+        },
+        "examples": [
+          {
+            "sentence": "People tend to underestimate the time needed for a project.",
+            "translation": {
+              "Hindi": "लोग अक्सर किसी प्रोजेक्ट के लिए आवश्यक समय को कम आंकते हैं।",
+              "Japanese": "人々はプロジェクトに必要な時間を過小評価する傾向がある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "relatively",
+        "word_translation": {
+          "Hindi": "सापेक्षतः",
+          "Japanese": "比較的"
+        },
+        "meaning": "To some degree when compared with something else",
+        "meaning_translation": {
+          "Hindi": "किसी और चीज़ की तुलना में किसी हद तक",
+          "Japanese": "他のものと比べてある程度"
+        },
+        "examples": [
+          {
+            "sentence": "This task is relatively simple compared to the last one.",
+            "translation": {
+              "Hindi": "यह कार्य पिछले की तुलना में सापेक्षतः आसान है।",
+              "Japanese": "この作業は前のものと比べて比較的簡単です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "supposedly",
+        "word_translation": {
+          "Hindi": "कथित रूप से",
+          "Japanese": "一応"
+        },
+        "meaning": "Used to say that something is claimed or believed to be true, though not certain",
+        "meaning_translation": {
+          "Hindi": "यह कहने के लिए उपयोग किया जाता है कि कुछ सच माना जाता है या दावा किया जाता है, हालांकि निश्चित नहीं है",
+          "Japanese": "本当だと信じられている、またはそう言われているが、確かではないときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "He is supposedly an expert, but I’m not convinced.",
+            "translation": {
+              "Hindi": "वह कथित रूप से विशेषज्ञ है, लेकिन मैं आश्वस्त नहीं हूँ।",
+              "Japanese": "彼は一応専門家だと言われているが、私は納得していない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "moderately",
+        "word_translation": {
+          "Hindi": "मध्यम रूप से",
+          "Japanese": "適度に"
+        },
+        "meaning": "To a certain extent, but not very much",
+        "meaning_translation": {
+          "Hindi": "कुछ हद तक, लेकिन बहुत अधिक नहीं",
+          "Japanese": "ある程度だが、それほど多くはない"
+        },
+        "examples": [
+          {
+            "sentence": "The lecture was moderately interesting.",
+            "translation": {
+              "Hindi": "व्याख्यान कुछ हद तक रोचक था।",
+              "Japanese": "その講義は適度に面白かった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "likely",
+        "word_translation": {
+          "Hindi": "संभावित",
+          "Japanese": "おそらく"
+        },
+        "meaning": "Probable or expected, but not guaranteed",
+        "meaning_translation": {
+          "Hindi": "संभावित या अपेक्षित, लेकिन निश्चित नहीं",
+          "Japanese": "起こる可能性が高いが、保証はされていない"
+        },
+        "examples": [
+          {
+            "sentence": "It is likely to rain tomorrow.",
+            "translation": {
+              "Hindi": "कल बारिश होने की संभावना है।",
+              "Japanese": "明日は雨が降る可能性が高い。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "uncertain",
+        "word_translation": {
+          "Hindi": "अनिश्चित",
+          "Japanese": "不確か"
+        },
+        "meaning": "Not known or not definite",
+        "meaning_translation": {
+          "Hindi": "निश्चित या ज्ञात नहीं",
+          "Japanese": "確かでない、はっきりしていない"
+        },
+        "examples": [
+          {
+            "sentence": "The outcome of the election is still uncertain.",
+            "translation": {
+              "Hindi": "चुनाव का परिणाम अभी भी अनिश्चित है।",
+              "Japanese": "選挙の結果はまだ不確かだ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "approximate",
+        "word_translation": {
+          "Hindi": "लगभग",
+          "Japanese": "おおよそ"
+        },
+        "meaning": "Close to the actual, but not exact",
+        "meaning_translation": {
+          "Hindi": "वास्तविक के करीब, लेकिन सटीक नहीं",
+          "Japanese": "正確ではないが実際に近い"
+        },
+        "examples": [
+          {
+            "sentence": "The repair will take an approximate cost of $200.",
+            "translation": {
+              "Hindi": "मरम्मत की लगभग लागत $200 होगी।",
+              "Japanese": "修理にはおおよそ200ドルかかる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tentative",
+        "word_translation": {
+          "Hindi": "अस्थायी",
+          "Japanese": "暫定的な"
+        },
+        "meaning": "Not definite; subject to change",
+        "meaning_translation": {
+          "Hindi": "निश्चित नहीं; परिवर्तन के अधीन",
+          "Japanese": "確定していない、変更される可能性がある"
+        },
+        "examples": [
+          {
+            "sentence": "The schedule is tentative and may be revised.",
+            "translation": {
+              "Hindi": "समय-सारणी अस्थायी है और संशोधित की जा सकती है।",
+              "Japanese": "予定は暫定的で、修正される可能性がある。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Nominalization in Academic Writing",
-        "explanation": "Use nouns instead of verbs to sound more formal. E.g., 'The analysis of data' instead of 'Analyzing data.'"
+        "title": "Using 'Tend to' for Generalization",
+        "explanation": "Use 'tend to' when describing behavior that is common but not universal. Example: 'People tend to check their phones often.'",
+        "explanation_translation": {
+          "Hindi": "'tend to' का प्रयोग उस व्यवहार के लिए करें जो सामान्य है लेकिन सार्वभौमिक नहीं। उदाहरण: 'People tend to check their phones often.'",
+          "Japanese": "「tend to」は一般的だが普遍的ではない行動を表すときに使う。例：'People tend to check their phones often.'"
+        }
       },
       {
-        "title": "Reporting Verbs",
-        "explanation": "Use verbs like 'suggests,' 'indicates,' and 'demonstrates' to report findings. Example: 'The study suggests that...'"
+        "title": "Using 'Relatively' for Comparisons",
+        "explanation": "Use 'relatively' to soften claims by comparing with another situation. Example: 'The exam was relatively easy.'",
+        "explanation_translation": {
+          "Hindi": "'relatively' का उपयोग दावों को नरम करने के लिए किसी अन्य स्थिति से तुलना करके करें। उदाहरण: 'The exam was relatively easy.'",
+          "Japanese": "「relatively」は別の状況と比較して主張を和らげるために使う。例：'The exam was relatively easy.'"
+        }
+      },
+      {
+        "title": "Using 'Supposedly' for Uncertain Claims",
+        "explanation": "Use 'supposedly' when mentioning something believed or claimed to be true, though you are not sure. Example: 'He is supposedly an expert in economics.'",
+        "explanation_translation": {
+          "Hindi": "'supposedly' का प्रयोग तब करें जब किसी ऐसी चीज़ का उल्लेख करना हो जिसे सच माना जाता है या दावा किया जाता है, लेकिन निश्चित नहीं है। उदाहरण: 'He is supposedly an expert in economics.'",
+          "Japanese": "「supposedly」は本当だと信じられている、またはそう言われているが確かではないときに使う。例：'He is supposedly an expert in economics.'"
+        }
+      },
+      {
+        "title": "Hedging in Academic Writing",
+        "explanation": "Writers use hedging to sound cautious and objective, avoiding overgeneralizations. Example: 'The results suggest a possible correlation.'",
+        "explanation_translation": {
+          "Hindi": "लेखक सावधानीपूर्वक और वस्तुनिष्ठ लगने के लिए हेजिंग का उपयोग करते हैं, अत्यधिक सामान्यीकरण से बचने के लिए। उदाहरण: 'The results suggest a possible correlation.'",
+          "Japanese": "著者は注意深く客観的に聞こえるために婉曲表現を使い、過度な一般化を避ける。例：'The results suggest a possible correlation.'"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "The methodology section explains how the research was conducted.", "translation": "" },
-      { "sentence": "The hypothesis was supported by the data analysis.", "translation": "" },
-      { "sentence": "A good literature review summarizes key previous studies.", "translation": "" },
-      { "sentence": "The findings show a clear trend in the results.", "translation": "" },
-      { "sentence": "Implications of this research may influence future studies.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What is a hypothesis?",
-        "options": ["A research method", "An idea to be tested", "A source of information"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrase indicates something usually happens but not always?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश यह दर्शाता है कि कुछ आमतौर पर होता है लेकिन हमेशा नहीं?",
+        "Japanese": "常にではないが通常起こることを示す表現はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "trueFalse",
-        "question": "An abstract is a short summary of a research paper.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "relatively",
+        "tend to",
+        "supposedly"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "This exercise is ___ easy compared to the previous one.",
+      "question_translation": {
+        "Hindi": "यह अभ्यास पिछले की तुलना में ___ आसान है।",
+        "Japanese": "この練習は前のものと比べて___簡単です。"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word refers to the section that explains how the study was done?",
-        "options": ["Methodology", "Findings", "References"],
-        "answer": 0
+      "options": [
+        "relatively",
+        "supposedly",
+        "uncertain"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "'Supposedly' means something is definitely true.",
+      "question_translation": {
+        "Hindi": "'Supposedly' का अर्थ है कि कुछ निश्चित रूप से सच है।",
+        "Japanese": "「Supposedly」は何かが確実に真実であることを意味する。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "What are variables in research?",
-        "options": ["A type of result", "Factors that can change", "Ways of presenting data"],
-        "answer": 1
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word is best for showing cautious comparison?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द सावधान तुलना दिखाने के लिए सबसे अच्छा है?",
+        "Japanese": "慎重な比較を示すのに最も適している語はどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "fillInTheBlanks",
-        "question": "A ___ review summarizes previous research on a topic.",
-        "options": ["methodology", "literature", "data"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The ___ section shows what was discovered.",
-        "options": ["introduction", "findings", "abstract"],
-        "answer": 1
+      "options": [
+        "relatively",
+        "likely",
+        "tentative"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "He is ___ an expert in physics, but I have doubts.",
+      "question_translation": {
+        "Hindi": "वह भौतिकी में ___ विशेषज्ञ है, लेकिन मुझे संदेह है।",
+        "Japanese": "彼は物理学の___専門家だと言われているが、私は疑っている。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "Research ___ can influence future studies.",
-        "options": ["variables", "implications", "references"],
-        "answer": 1
+      "options": [
+        "supposedly",
+        "relatively",
+        "evidently"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [tend, late, to, arrive, they]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [tend, late, to, arrive, they]",
+        "Japanese": "並べ替え: [tend, late, to, arrive, they]"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [data, analysis, the, supports, hypothesis, the]",
-        "options": ["data", "analysis", "the", "supports", "hypothesis", "the"],
-        "answer": ["The", "data", "analysis", "supports", "the", "hypothesis"]
+      "options": [
+        "tend",
+        "late",
+        "to",
+        "arrive",
+        "they"
+      ],
+      "answer": [
+        "They",
+        "tend",
+        "to",
+        "arrive",
+        "late"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The book is ___ useful for beginners, but not very advanced learners.",
+      "question_translation": {
+        "Hindi": "यह किताब शुरुआती लोगों के लिए ___ उपयोगी है, लेकिन बहुत उन्नत शिक्षार्थियों के लिए नहीं।",
+        "Japanese": "この本は初心者には___役立つが、上級学習者にはあまり役立たない。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "The ___ lists all the sources used in your research.",
-        "options": ["references", "abstract", "presentation"],
-        "answer": 0
+      "options": [
+        "relatively",
+        "supposedly",
+        "tentatively"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses 'supposedly' correctly?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य 'supposedly' का सही उपयोग करता है?",
+        "Japanese": "どの文が「supposedly」を正しく使っていますか？"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, summary, research, a, an, brief, of, abstract]",
-        "options": ["is", "summary", "research", "a", "an", "brief", "of", "abstract"],
-        "answer": ["An", "abstract", "is", "a", "brief", "summary", "of", "research"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "If you hear, 'Please include a literature review,' what should you add?",
-        "options": ["A summary of earlier research", "The main results", "The experiment details"],
-        "answer": 0
+      "options": [
+        "He is supposedly the manager, but nobody has confirmed it.",
+        "He is supposedly late every morning, which is certain.",
+        "He is supposedly very tall, and we measured him already."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [relatively, project, smooth, the, went]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [relatively, project, smooth, the, went]",
+        "Japanese": "並べ替え: [relatively, project, smooth, the, went]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What does 'data analysis' mean?",
-        "options": ["Describing the topic", "Examining information to draw conclusions", "Quoting sources"],
-        "answer": 1
+      "options": [
+        "relatively",
+        "project",
+        "smooth",
+        "the",
+        "went"
+      ],
+      "answer": [
+        "The",
+        "project",
+        "went",
+        "relatively",
+        "smooth"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "People ___ prefer easy solutions to complex problems.",
+      "question_translation": {
+        "Hindi": "लोग जटिल समस्याओं की तुलना में आसान समाधान को ___ पसंद करते हैं।",
+        "Japanese": "人々は複雑な問題よりも簡単な解決策を___好む傾向がある。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "If someone says, 'Show your findings,' what do you present?",
-        "options": ["Your opinion", "The research results", "A reference list"],
-        "answer": 1
+      "options": [
+        "tend to",
+        "supposedly",
+        "uncertain"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker suggest?",
+      "audio_text": "Students tend to study more before exams.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सुझाव देता है?",
+        "Japanese": "話者は何を示唆していますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "When presenting, what is an abstract?",
-        "options": ["A full research paper", "A short summary", "A list of references"],
-        "answer": 1
+      "options": [
+        "Students always study before exams",
+        "Students usually but not always study more before exams",
+        "Students never study before exams"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "'Relatively' shows absolute certainty.",
+      "audio_text": "The new course is relatively easy compared to the old one.",
+      "question_translation": {
+        "Hindi": "'Relatively' पूर्ण निश्चितता दिखाता है।",
+        "Japanese": "「relatively」は絶対的な確実性を示す。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "If your professor asks for the implications, what are you being asked for?",
-        "options": ["Possible effects of the research", "Background information", "Sources used"],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'The hypothesis was tested with several experiments.'",
-        "options": [],
-        "answer": "The hypothesis was tested with several experiments."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is uncertain in this statement?",
+      "audio_text": "He is supposedly working on the report.",
+      "question_translation": {
+        "Hindi": "इस कथन में क्या अनिश्चित है?",
+        "Japanese": "この文で不確かなことは何ですか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'The methodology explains the research process.'",
-        "options": [],
-        "answer": "The methodology explains the research process."
+      "options": [
+        "He is definitely working on the report",
+        "He may be working on the report, but it’s not confirmed",
+        "He is not working on the report at all"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The speaker says: 'The results were ___ positive.'",
+      "audio_text": "The results were relatively positive compared to last year.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'परिणाम ___ सकारात्मक थे।'",
+        "Japanese": "話者は「結果は___肯定的だった」と言っています。"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'I presented the findings clearly to the audience.'",
-        "options": [],
-        "answer": "I presented the findings clearly to the audience."
+      "options": [
+        "relatively",
+        "supposedly",
+        "absolutely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What cautious stance does the speaker take?",
+      "audio_text": "The plan will supposedly reduce costs.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सा सावधानीपूर्ण रुख अपनाता है?",
+        "Japanese": "話者はどのような慎重な立場を取っていますか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'A literature review is important for research.'",
-        "options": [],
-        "answer": "A literature review is important for research."
+      "options": [
+        "The plan is certain to reduce costs",
+        "It is believed the plan will reduce costs, but not confirmed",
+        "The plan will definitely fail"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'People tend to underestimate risks.'",
+      "question_translation": {
+        "Hindi": "कहें: 'People tend to underestimate risks.'",
+        "Japanese": "言ってください: 'People tend to underestimate risks.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'The implications of the study are significant.'",
-        "options": [],
-        "answer": "The implications of the study are significant."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "people tend to underestimate risks"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'This exam is relatively easy.'",
+      "question_translation": {
+        "Hindi": "कहें: 'This exam is relatively easy.'",
+        "Japanese": "言ってください: 'This exam is relatively easy.'"
+      },
+      "options": [],
+      "answer": "this exam is relatively easy"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'He is supposedly an expert in law.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He is supposedly an expert in law.'",
+        "Japanese": "言ってください: 'He is supposedly an expert in law.'"
+      },
+      "options": [],
+      "answer": "he is supposedly an expert in law"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The project went relatively smooth.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The project went relatively smooth.'",
+        "Japanese": "言ってください: 'The project went relatively smooth.'"
+      },
+      "options": [],
+      "answer": "the project went relatively smooth"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Students tend to study harder before exams.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Students tend to study harder before exams.'",
+        "Japanese": "言ってください: 'Students tend to study harder before exams.'"
+      },
+      "options": [],
+      "answer": "students tend to study harder before exams"
+    }
+  ]
+}
+
 }

@@ -22,8 +22,11 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   final HomeScreenController c = Get.put(HomeScreenController());
+
+  late AnimationController _staggerController;
+  late AnimationController _floatingController;
 
   @override
   void initState() {
@@ -33,24 +36,57 @@ class _HomeScreenState extends State<HomeScreen> {
     WhisperHelper.isModelAvailable().then((isAvailable) {
       globalController.isAiModelDownloaded.value = isAvailable;
     });
+
+    _staggerController = AnimationController(
+      duration: const Duration(milliseconds: 1500),
+      vsync: this,
+    );
+
+    _floatingController = AnimationController(
+      duration: const Duration(seconds: 3),
+      vsync: this,
+    )..repeat(reverse: true);
+
+    _staggerController.forward();
+  }
+
+  @override
+  void dispose() {
+    _staggerController.dispose();
+    _floatingController.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF5F6FA),
-      appBar: const _HomeAppBar(),
+      appBar: _HomeAppBar(animationController: _staggerController),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 15.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const StreakAndWordCountSection(),
+              _AnimatedSection(
+                delay: 0,
+                controller: _staggerController,
+                child: const StreakAndWordCountSection(),
+              ),
               const SizedBox(height: 30),
-              const CurrentLessonProgressCard(),
+              _AnimatedSection(
+                delay: 200,
+                controller: _staggerController,
+                child: CurrentLessonProgressCard(
+                  floatingController: _floatingController,
+                ),
+              ),
               const SizedBox(height: 30),
-              _LearnByLevelSection(),
+              _AnimatedSection(
+                delay: 400,
+                controller: _staggerController,
+                child: _LearnByLevelSection(),
+              ),
             ],
           ),
         ),
@@ -59,30 +95,120 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+class _AnimatedSection extends StatelessWidget {
+  final int delay;
+  final AnimationController controller;
+  final Widget child;
+
+  const _AnimatedSection({
+    required this.delay,
+    required this.controller,
+    required this.child,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: controller,
+      builder: (context, child) {
+        final animation = Tween<double>(
+          begin: 0.0,
+          end: 1.0,
+        ).animate(
+          CurvedAnimation(
+            parent: controller,
+            curve: Interval(
+              delay / 1500,
+              (delay + 800) / 1500,
+              curve: Curves.easeOutCubic,
+            ),
+          ),
+        );
+
+        return FadeTransition(
+          opacity: animation,
+          child: SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0, 0.2),
+              end: Offset.zero,
+            ).animate(animation),
+            child: child!,
+          ),
+        );
+      },
+      child: child,
+    );
+  }
+}
+
 class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const _HomeAppBar();
+  final AnimationController animationController;
+
+  const _HomeAppBar({required this.animationController});
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: const Color(0xFFF5F6FA), // Match body background
+      backgroundColor: const Color(0xFFF5F6FA),
       elevation: 0,
-      title: Obx(
-        () => Text(
-          "Hi, ${globalController.userProfile.value.displayName}!",
-          style: GoogleFonts.nunito(
-            color: Colors.black87,
-            fontWeight: FontWeight.w800,
-            fontSize: 22,
+      title: FadeTransition(
+        opacity: Tween<double>(
+          begin: 0.0,
+          end: 1.0,
+        ).animate(CurvedAnimation(
+          parent: animationController,
+          curve: const Interval(0.0, 0.5, curve: Curves.easeOut),
+        )),
+        child: SlideTransition(
+          position: Tween<Offset>(
+            begin: const Offset(-0.3, 0),
+            end: Offset.zero,
+          ).animate(CurvedAnimation(
+            parent: animationController,
+            curve: const Interval(0.0, 0.5, curve: Curves.easeOutCubic),
+          )),
+          child: Obx(
+            () => Text(
+              "Hi, ${globalController.userProfile.value.displayName}!",
+              style: GoogleFonts.nunito(
+                color: Colors.black87,
+                fontWeight: FontWeight.w800,
+                fontSize: 22,
+              ),
+            ),
           ),
         ),
       ),
       actions: [
         Padding(
           padding: const EdgeInsets.only(right: 10.0),
-          child: IconButton(
-            onPressed: () => Get.to(() => const SettingScreens()),
-            icon: SvgPicture.asset(AppAssets.settings, color: Colors.black54),
+          child: ScaleTransition(
+            scale: Tween<double>(
+              begin: 0.0,
+              end: 1.0,
+            ).animate(CurvedAnimation(
+              parent: animationController,
+              curve: const Interval(0.2, 0.7, curve: Curves.elasticOut),
+            )),
+            child: IconButton(
+              onPressed: () {
+                Get.to(() => const SettingScreens());
+              },
+              icon: TweenAnimationBuilder<double>(
+                duration: const Duration(milliseconds: 300),
+                tween: Tween(begin: 0.0, end: 1.0),
+                builder: (context, value, child) {
+                  return Transform.rotate(
+                    angle: value * 2 * 3.14159,
+                    child: child,
+                  );
+                },
+                child: SvgPicture.asset(
+                  AppAssets.settings,
+                  colorFilter: const ColorFilter.mode(Colors.black54, BlendMode.srcIn),
+                ),
+              ),
+            ),
           ),
         ),
       ],
@@ -156,7 +282,7 @@ class _LearnByLevelSection extends StatelessWidget {
                 style: GoogleFonts.nunito(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
-                  color: Colors.black.withOpacity(0.7),
+                  color: Colors.black.withValues(alpha: 0.7),
                 ),
               ),
               const Spacer(),

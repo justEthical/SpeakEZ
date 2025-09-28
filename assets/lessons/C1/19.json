@@ -1,4 +1,554 @@
 {
-  "id": 19,
-  "message": "This is file number 19"
+  "id": "lesson_summarizing_synthesizing_c1",
+  "lesson_name": "Summarizing & Synthesizing Sources",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "summary",
+        "word_translation": {
+          "Hindi": "सारांश",
+          "Japanese": "要約"
+        },
+        "meaning": "A shortened version of a text highlighting the main points",
+        "meaning_translation": {
+          "Hindi": "पाठ का संक्षिप्त संस्करण जो मुख्य बिंदुओं को उजागर करता है",
+          "Japanese": "主要なポイントを強調した文章の短縮版"
+        },
+        "examples": [
+          {
+            "sentence": "Her summary captured the key arguments of the article.",
+            "translation": {
+              "Hindi": "उसके सारांश ने लेख के मुख्य तर्कों को प्रस्तुत किया।",
+              "Japanese": "彼女の要約は記事の主要な議論を捉えていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "synthesis",
+        "word_translation": {
+          "Hindi": "संश्लेषण",
+          "Japanese": "総合"
+        },
+        "meaning": "Combining ideas from multiple sources to create a new perspective",
+        "meaning_translation": {
+          "Hindi": "कई स्रोतों से विचारों को मिलाकर एक नया दृष्टिकोण बनाना",
+          "Japanese": "複数の資料からの考えを組み合わせて新しい視点を生み出すこと"
+        },
+        "examples": [
+          {
+            "sentence": "The essay synthesizes research from sociology and psychology.",
+            "translation": {
+              "Hindi": "निबंध समाजशास्त्र और मनोविज्ञान से अनुसंधान का संश्लेषण करता है।",
+              "Japanese": "そのエッセイは社会学と心理学の研究を総合している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "paraphrase",
+        "word_translation": {
+          "Hindi": "पैराफ्रेज़",
+          "Japanese": "言い換え"
+        },
+        "meaning": "Restating information in your own words without changing the meaning",
+        "meaning_translation": {
+          "Hindi": "अर्थ बदले बिना अपने शब्दों में जानकारी दोहराना",
+          "Japanese": "意味を変えずに自分の言葉で情報を言い換えること"
+        },
+        "examples": [
+          {
+            "sentence": "She paraphrased the author's argument to simplify it.",
+            "translation": {
+              "Hindi": "उसने लेखक के तर्क को सरल बनाने के लिए उसे पैराफ्रेज़ किया।",
+              "Japanese": "彼女は著者の議論を簡単にするために言い換えた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conciseness",
+        "word_translation": {
+          "Hindi": "संक्षिप्तता",
+          "Japanese": "簡潔さ"
+        },
+        "meaning": "Expressing ideas clearly with as few words as possible",
+        "meaning_translation": {
+          "Hindi": "कम से कम शब्दों में विचारों को स्पष्ट रूप से व्यक्त करना",
+          "Japanese": "できるだけ少ない言葉で明確に考えを表現すること"
+        },
+        "examples": [
+          {
+            "sentence": "Summarizing requires conciseness to avoid unnecessary detail.",
+            "translation": {
+              "Hindi": "सारांश में अनावश्यक विवरण से बचने के लिए संक्षिप्तता आवश्यक है।",
+              "Japanese": "要約には不要な詳細を避けるために簡潔さが必要である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "integration",
+        "word_translation": {
+          "Hindi": "एकीकरण",
+          "Japanese": "統合"
+        },
+        "meaning": "The process of combining ideas from different sources into one argument",
+        "meaning_translation": {
+          "Hindi": "विभिन्न स्रोतों से विचारों को एक तर्क में मिलाने की प्रक्रिया",
+          "Japanese": "異なる資料からの考えを一つの議論に統合すること"
+        },
+        "examples": [
+          {
+            "sentence": "Integration of sources strengthens academic writing.",
+            "translation": {
+              "Hindi": "स्रोतों का एकीकरण अकादमिक लेखन को मजबूत करता है।",
+              "Japanese": "資料の統合は学術的文章を強化する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "comparative analysis",
+        "word_translation": {
+          "Hindi": "तुलनात्मक विश्लेषण",
+          "Japanese": "比較分析"
+        },
+        "meaning": "Examining similarities and differences across multiple sources",
+        "meaning_translation": {
+          "Hindi": "कई स्रोतों में समानताओं और अंतरों की जाँच करना",
+          "Japanese": "複数の資料間の類似点と相違点を調べること"
+        },
+        "examples": [
+          {
+            "sentence": "The researcher used comparative analysis of three studies.",
+            "translation": {
+              "Hindi": "शोधकर्ता ने तीन अध्ययनों का तुलनात्मक विश्लेषण किया।",
+              "Japanese": "研究者は三つの研究を比較分析した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evaluative stance",
+        "word_translation": {
+          "Hindi": "मूल्यांकनात्मक दृष्टिकोण",
+          "Japanese": "評価的立場"
+        },
+        "meaning": "The writer’s critical position when comparing and synthesizing sources",
+        "meaning_translation": {
+          "Hindi": "स्रोतों की तुलना और संश्लेषण करते समय लेखक की आलोचनात्मक स्थिति",
+          "Japanese": "資料を比較・総合するときの書き手の批判的立場"
+        },
+        "examples": [
+          {
+            "sentence": "An evaluative stance is key to synthesizing effectively.",
+            "translation": {
+              "Hindi": "प्रभावी संश्लेषण के लिए मूल्यांकनात्मक दृष्टिकोण महत्वपूर्ण है।",
+              "Japanese": "効果的に総合するためには評価的立場が重要である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plagiarism",
+        "word_translation": {
+          "Hindi": "साहित्यिक चोरी",
+          "Japanese": "盗用"
+        },
+        "meaning": "Using someone else’s work without proper citation",
+        "meaning_translation": {
+          "Hindi": "किसी और के कार्य का उचित संदर्भ दिए बिना उपयोग करना",
+          "Japanese": "他人の作品を適切な引用なしに使用すること"
+        },
+        "examples": [
+          {
+            "sentence": "Plagiarism undermines academic integrity.",
+            "translation": {
+              "Hindi": "साहित्यिक चोरी अकादमिक ईमानदारी को कमजोर करती है।",
+              "Japanese": "盗用は学術的誠実性を損なう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "citation",
+        "word_translation": {
+          "Hindi": "संदर्भ",
+          "Japanese": "引用"
+        },
+        "meaning": "A reference to the original source of information",
+        "meaning_translation": {
+          "Hindi": "जानकारी के मूल स्रोत का संदर्भ",
+          "Japanese": "情報の原典への参照"
+        },
+        "examples": [
+          {
+            "sentence": "Correct citation gives credit to the original author.",
+            "translation": {
+              "Hindi": "सही संदर्भ मूल लेखक को श्रेय देता है।",
+              "Japanese": "正しい引用は元の著者に敬意を示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "academic voice",
+        "word_translation": {
+          "Hindi": "शैक्षणिक स्वर",
+          "Japanese": "学術的文体"
+        },
+        "meaning": "The formal tone and style used in academic writing",
+        "meaning_translation": {
+          "Hindi": "शैक्षणिक लेखन में प्रयुक्त औपचारिक स्वर और शैली",
+          "Japanese": "学術的文章で用いられる形式的な語調と文体"
+        },
+        "examples": [
+          {
+            "sentence": "Maintaining academic voice is crucial when summarizing and synthesizing.",
+            "translation": {
+              "Hindi": "सारांश और संश्लेषण करते समय शैक्षणिक स्वर बनाए रखना महत्वपूर्ण है।",
+              "Japanese": "要約や総合を行う際には学術的文体を維持することが重要だ。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Summarizing Clearly",
+        "explanation": "Focus on main ideas, not details. Use your own words and maintain conciseness.",
+        "explanation_translation": {
+          "Hindi": "मुख्य विचारों पर ध्यान दें, विवरणों पर नहीं। अपने शब्दों का प्रयोग करें और संक्षिप्त रहें।",
+          "Japanese": "詳細ではなく主な考えに集中しましょう。自分の言葉を使い、簡潔に書きます。"
+        }
+      },
+      {
+        "title": "Synthesizing Sources",
+        "explanation": "Combine ideas from different texts, showing how they relate or contrast.",
+        "explanation_translation": {
+          "Hindi": "विभिन्न पाठों से विचारों को मिलाएँ और दिखाएँ कि वे कैसे संबंधित या विपरीत हैं।",
+          "Japanese": "異なる文献からの考えを組み合わせ、それらがどう関連または対照しているかを示しましょう。"
+        }
+      },
+      {
+        "title": "Avoiding Plagiarism",
+        "explanation": "Always cite sources when summarizing or synthesizing ideas that are not your own.",
+        "explanation_translation": {
+          "Hindi": "हमेशा उन विचारों का संदर्भ दें जो आपके नहीं हैं, जब आप उनका सारांश या संश्लेषण कर रहे हों।",
+          "Japanese": "自分のものではない考えを要約や総合するときは必ず出典を明記しましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term refers to combining ideas from multiple sources into one perspective?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द कई स्रोतों से विचारों को एक दृष्टिकोण में मिलाने को संदर्भित करता है?",
+        "Japanese": "複数の資料からの考えを一つの視点にまとめることを指す用語はどれですか？"
+      },
+      "options": [
+        "summary",
+        "synthesis",
+        "citation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "A good ___ highlights the key points without unnecessary detail.",
+      "question_translation": {
+        "Hindi": "एक अच्छा ___ अनावश्यक विवरण के बिना मुख्य बिंदुओं को उजागर करता है।",
+        "Japanese": "良い___は不要な詳細なしに重要なポイントを強調する。"
+      },
+      "options": [
+        "summary",
+        "integration",
+        "paraphrase"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Paraphrasing means restating ideas in your own words while keeping the meaning.",
+      "question_translation": {
+        "Hindi": "पैराफ्रेज़ करने का मतलब है अर्थ को रखते हुए अपने शब्दों में विचारों को दोहराना।",
+        "Japanese": "言い換えは意味を保ちながら自分の言葉で考えを述べ直すことを意味する。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which of the following is a serious academic offense?",
+      "question_translation": {
+        "Hindi": "निम्नलिखित में से कौन सा एक गंभीर शैक्षणिक अपराध है?",
+        "Japanese": "次のうち深刻な学術的不正はどれですか？"
+      },
+      "options": [
+        "citation",
+        "plagiarism",
+        "integration"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Correct ___ ensures proper credit is given to original authors.",
+      "question_translation": {
+        "Hindi": "सही ___ सुनिश्चित करता है कि मूल लेखकों को उचित श्रेय दिया जाए।",
+        "Japanese": "正しい___は元の著者に適切な敬意が払われることを保証する。"
+      },
+      "options": [
+        "synthesis",
+        "citation",
+        "evaluation"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [summarizing, conciseness, requires, effective]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [summarizing, conciseness, requires, effective]",
+        "Japanese": "並べ替え: [summarizing, conciseness, requires, effective]"
+      },
+      "options": [
+        "summarizing",
+        "conciseness",
+        "requires",
+        "effective"
+      ],
+      "answer": [
+        "effective",
+        "summarizing",
+        "requires",
+        "conciseness"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Writers must adopt an ___ stance when synthesizing sources.",
+      "question_translation": {
+        "Hindi": "स्रोतों का संश्लेषण करते समय लेखकों को एक ___ दृष्टिकोण अपनाना चाहिए।",
+        "Japanese": "資料を総合するとき、書き手は___立場を取らなければならない。"
+      },
+      "options": [
+        "evaluative",
+        "neutral",
+        "casual"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is the best sentence showing synthesis?",
+      "question_translation": {
+        "Hindi": "निम्न में से कौन सा वाक्य संश्लेषण को सबसे अच्छी तरह दिखाता है?",
+        "Japanese": "次のうち総合を最もよく示している文はどれですか？"
+      },
+      "options": [
+        "The article explains climate change causes.",
+        "Smith argues climate policy is weak, while Lee highlights strong reforms; together they reveal a divided approach.",
+        "Climate change is a global issue."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [sources, integration, academic, strengthens, writing]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [sources, integration, academic, strengthens, writing]",
+        "Japanese": "並べ替え: [sources, integration, academic, strengthens, writing]"
+      },
+      "options": [
+        "sources",
+        "integration",
+        "academic",
+        "strengthens",
+        "writing"
+      ],
+      "answer": [
+        "integration",
+        "of",
+        "sources",
+        "strengthens",
+        "academic",
+        "writing"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "A ___ analysis highlights similarities and differences across studies.",
+      "question_translation": {
+        "Hindi": "एक ___ विश्लेषण अध्ययनों में समानताओं और अंतरों को उजागर करता है।",
+        "Japanese": "___分析は研究間の類似点と相違点を強調する。"
+      },
+      "options": [
+        "comparative",
+        "descriptive",
+        "narrative"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What skill is the speaker demonstrating?",
+      "audio_text": "In conclusion, both studies agree that exercise improves mental health, though one emphasizes long-term effects while the other highlights immediate benefits.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सा कौशल दिखा रहा है?",
+        "Japanese": "話者はどのスキルを示していますか？"
+      },
+      "options": [
+        "summarizing",
+        "synthesizing",
+        "plagiarizing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker is giving a concise summary.",
+      "audio_text": "The book explains the causes, impacts, and possible solutions to climate change in a clear way.",
+      "question_translation": {
+        "Hindi": "वक्ता एक संक्षिप्त सारांश दे रहा है।",
+        "Japanese": "話者は簡潔な要約をしている。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What academic error must be avoided?",
+      "audio_text": "She copied sentences from the article without citation.",
+      "question_translation": {
+        "Hindi": "किस शैक्षणिक त्रुटि से बचना चाहिए?",
+        "Japanese": "避けるべき学術的な誤りは何ですか？"
+      },
+      "options": [
+        "paraphrasing",
+        "citation",
+        "plagiarism"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What quality does the speaker emphasize?",
+      "audio_text": "Effective summaries always focus on conciseness and clarity.",
+      "question_translation": {
+        "Hindi": "वक्ता किस गुण पर जोर दे रहा है?",
+        "Japanese": "話者はどの特徴を強調していますか？"
+      },
+      "options": [
+        "conciseness",
+        "evaluation",
+        "integration"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker demonstrates comparative analysis.",
+      "audio_text": "While Study A shows economic benefits, Study B stresses environmental gains.",
+      "question_translation": {
+        "Hindi": "वक्ता तुलनात्मक विश्लेषण प्रदर्शित कर रहा है।",
+        "Japanese": "話者は比較分析を示している。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'This summary captures only the key ideas.'",
+      "question_translation": {
+        "Hindi": "कहें: 'यह सारांश केवल मुख्य विचारों को प्रस्तुत करता है।'",
+        "Japanese": "言ってください: 'この要約は主要な考えだけを捉えている。'"
+      },
+      "options": [],
+      "answer": "this summary captures only the key ideas"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The synthesis combines different perspectives.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संश्लेषण विभिन्न दृष्टिकोणों को जोड़ता है।'",
+        "Japanese": "言ってください: '総合は異なる視点を組み合わせる。'"
+      },
+      "options": [],
+      "answer": "the synthesis combines different perspectives"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Paraphrasing helps avoid plagiarism.'",
+      "question_translation": {
+        "Hindi": "कहें: 'पैराफ्रेज़ करना साहित्यिक चोरी से बचने में मदद करता है।'",
+        "Japanese": "言ってください: '言い換えは盗用を避けるのに役立つ。'"
+      },
+      "options": [],
+      "answer": "paraphrasing helps avoid plagiarism"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Comparative analysis reveals similarities and differences.'",
+      "question_translation": {
+        "Hindi": "कहें: 'तुलनात्मक विश्लेषण समानताओं और अंतरों को उजागर करता है।'",
+        "Japanese": "言ってください: '比較分析は類似点と相違点を明らかにする。'"
+      },
+      "options": [],
+      "answer": "comparative analysis reveals similarities and differences"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Citations give credit to original authors.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संदर्भ मूल लेखकों को श्रेय देते हैं।'",
+        "Japanese": "言ってください: '引用は元の著者に敬意を示す。'"
+      },
+      "options": [],
+      "answer": "citations give credit to original authors"
+    }
+  ]
+}
+
 }

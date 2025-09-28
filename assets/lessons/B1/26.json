@@ -1,4 +1,531 @@
 {
-  "id": 26,
-  "message": "This is file number 26"
+  "id": "lesson_environmental_issues_001",
+  "lesson_name": "Discussing Environmental Issues",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "pollution",
+        "word_translation": {
+          "Hindi": "प्रदूषण",
+          "Japanese": "汚染"
+        },
+        "meaning": "The process of making air, water, or land dirty or harmful",
+        "meaning_translation": {
+          "Hindi": "हवा, पानी या भूमि को गंदा या हानिकारक बनाने की प्रक्रिया",
+          "Japanese": "空気、水、土地を汚したり有害にすること"
+        },
+        "examples": [
+          {
+            "sentence": "Air pollution is a big problem in many cities.",
+            "translation": {
+              "Hindi": "वायु प्रदूषण कई शहरों में एक बड़ी समस्या है।",
+              "Japanese": "大気汚染は多くの都市で大きな問題です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "climate change",
+        "word_translation": {
+          "Hindi": "जलवायु परिवर्तन",
+          "Japanese": "気候変動"
+        },
+        "meaning": "Long-term changes in the world's weather patterns",
+        "meaning_translation": {
+          "Hindi": "दुनिया के मौसम के पैटर्न में दीर्घकालिक बदलाव",
+          "Japanese": "世界の気候パターンの長期的な変化"
+        },
+        "examples": [
+          {
+            "sentence": "Climate change is causing rising sea levels.",
+            "translation": {
+              "Hindi": "जलवायु परिवर्तन समुद्र स्तर में वृद्धि कर रहा है।",
+              "Japanese": "気候変動は海面上昇を引き起こしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deforestation",
+        "word_translation": {
+          "Hindi": "वनों की कटाई",
+          "Japanese": "森林破壊"
+        },
+        "meaning": "The cutting down of forests for wood or land",
+        "meaning_translation": {
+          "Hindi": "लकड़ी या भूमि के लिए वनों की कटाई",
+          "Japanese": "木材や土地利用のために森林を伐採すること"
+        },
+        "examples": [
+          {
+            "sentence": "Deforestation affects animals and the environment.",
+            "translation": {
+              "Hindi": "वनों की कटाई जानवरों और पर्यावरण को प्रभावित करती है।",
+              "Japanese": "森林破壊は動物や環境に影響を与えます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recycle",
+        "word_translation": {
+          "Hindi": "पुनर्चक्रण करना",
+          "Japanese": "リサイクルする"
+        },
+        "meaning": "To process used materials so they can be used again",
+        "meaning_translation": {
+          "Hindi": "पुराने पदार्थों को इस तरह से प्रक्रिया करना कि वे फिर से उपयोग किए जा सकें",
+          "Japanese": "使用済みのものを再び利用できるように処理すること"
+        },
+        "examples": [
+          {
+            "sentence": "We should recycle plastic bottles.",
+            "translation": {
+              "Hindi": "हमें प्लास्टिक की बोतलों का पुनर्चक्रण करना चाहिए।",
+              "Japanese": "私たちはペットボトルをリサイクルするべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "renewable energy",
+        "word_translation": {
+          "Hindi": "नवीकरणीय ऊर्जा",
+          "Japanese": "再生可能エネルギー"
+        },
+        "meaning": "Energy that comes from natural sources like the sun or wind",
+        "meaning_translation": {
+          "Hindi": "ऊर्जा जो प्राकृतिक स्रोतों जैसे सूर्य या हवा से आती है",
+          "Japanese": "太陽や風などの自然の資源から得られるエネルギー"
+        },
+        "examples": [
+          {
+            "sentence": "Solar power is a form of renewable energy.",
+            "translation": {
+              "Hindi": "सौर ऊर्जा नवीकरणीय ऊर्जा का एक रूप है।",
+              "Japanese": "太陽光発電は再生可能エネルギーの一つです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "waste",
+        "word_translation": {
+          "Hindi": "कचरा",
+          "Japanese": "ごみ"
+        },
+        "meaning": "Unwanted or leftover material",
+        "meaning_translation": {
+          "Hindi": "अनचाही या बची हुई सामग्री",
+          "Japanese": "不要になったものや残り物"
+        },
+        "examples": [
+          {
+            "sentence": "We must reduce food waste at home.",
+            "translation": {
+              "Hindi": "हमें घर में भोजन का कचरा कम करना चाहिए।",
+              "Japanese": "家庭での食品廃棄物を減らすべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "greenhouse gases",
+        "word_translation": {
+          "Hindi": "ग्रीनहाउस गैसें",
+          "Japanese": "温室効果ガス"
+        },
+        "meaning": "Gases like carbon dioxide that trap heat in the atmosphere",
+        "meaning_translation": {
+          "Hindi": "गैसें जैसे कार्बन डाइऑक्साइड जो वातावरण में गर्मी को फँसाती हैं",
+          "Japanese": "二酸化炭素など、大気中に熱を閉じ込めるガス"
+        },
+        "examples": [
+          {
+            "sentence": "Cars produce greenhouse gases that affect the climate.",
+            "translation": {
+              "Hindi": "कारें ग्रीनहाउस गैसें उत्पन्न करती हैं जो जलवायु को प्रभावित करती हैं।",
+              "Japanese": "自動車は気候に影響を与える温室効果ガスを排出します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sustainable",
+        "word_translation": {
+          "Hindi": "सतत",
+          "Japanese": "持続可能な"
+        },
+        "meaning": "Able to be maintained for a long time without harming the environment",
+        "meaning_translation": {
+          "Hindi": "जिसे लंबे समय तक पर्यावरण को नुकसान पहुँचाए बिना बनाए रखा जा सके",
+          "Japanese": "環境を害さずに長期間維持できること"
+        },
+        "examples": [
+          {
+            "sentence": "We should adopt sustainable farming practices.",
+            "translation": {
+              "Hindi": "हमें सतत कृषि प्रथाओं को अपनाना चाहिए।",
+              "Japanese": "私たちは持続可能な農業を採用すべきです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'should' for Suggestions",
+        "explanation": "Use 'should' to suggest solutions. Example: We should recycle more.",
+        "explanation_translation": {
+          "Hindi": "समाधान सुझाने के लिए 'should' का उपयोग करें। उदाहरण: We should recycle more.",
+          "Japanese": "解決策を提案するとき「should」を使います。例：We should recycle more."
+        }
+      },
+      {
+        "title": "Cause and Effect with 'because'",
+        "explanation": "Use 'because' to explain reasons. Example: The air is dirty because of pollution.",
+        "explanation_translation": {
+          "Hindi": "कारण बताने के लिए 'because' का उपयोग करें। उदाहरण: The air is dirty because of pollution.",
+          "Japanese": "理由を説明するとき「because」を使います。例：The air is dirty because of pollution."
+        }
+      },
+      {
+        "title": "Comparatives for Impact",
+        "explanation": "Use comparatives to compare environmental issues. Example: Air pollution is worse than water pollution in this city.",
+        "explanation_translation": {
+          "Hindi": "पर्यावरणीय समस्याओं की तुलना करने के लिए comparatives का उपयोग करें। उदाहरण: Air pollution is worse than water pollution in this city.",
+          "Japanese": "環境問題を比較するとき比較級を使います。例：Air pollution is worse than water pollution in this city."
+        }
+      },
+      {
+        "title": "First Conditional for Future Consequences",
+        "explanation": "Use 'If + present, will + verb' to talk about results. Example: If we cut more trees, animals will lose their homes.",
+        "explanation_translation": {
+          "Hindi": "परिणामों के बारे में बात करने के लिए 'If + present, will + verb' का उपयोग करें। उदाहरण: If we cut more trees, animals will lose their homes.",
+          "Japanese": "結果について話すとき「If + 現在形, will + 動詞」を使います。例：If we cut more trees, animals will lose their homes."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'cutting down forests for wood or land'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'लकड़ी या भूमि के लिए वनों की कटाई' का अर्थ देता है?",
+          "Japanese": "「木材や土地利用のために森林を伐採すること」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "pollution",
+          "deforestation",
+          "waste"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "We should ___ plastic bottles to protect the environment.",
+        "question_translation": {
+          "Hindi": "हमें पर्यावरण की रक्षा के लिए प्लास्टिक की बोतलों का ___ करना चाहिए।",
+          "Japanese": "環境を守るためにペットボトルを___べきです。"
+        },
+        "options": [
+          "throw",
+          "recycle",
+          "burn"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Greenhouse gases trap heat in the atmosphere.",
+        "question_translation": {
+          "Hindi": "ग्रीनहाउस गैसें वातावरण में गर्मी को फँसाती हैं।",
+          "Japanese": "温室効果ガスは大気中に熱を閉じ込めます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term means 'energy from the sun, wind, or water'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'सूरज, हवा या पानी से मिलने वाली ऊर्जा' का अर्थ देता है?",
+          "Japanese": "「太陽、風、水から得られるエネルギー」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "renewable energy",
+          "waste",
+          "climate change"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "Food ___ is a serious issue in many countries.",
+        "question_translation": {
+          "Hindi": "भोजन का ___ कई देशों में एक गंभीर समस्या है।",
+          "Japanese": "食品___は多くの国で深刻な問題です。"
+        },
+        "options": [
+          "waste",
+          "recycle",
+          "pollution"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [pollution, is, problem, air, big, a]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [pollution, is, problem, air, big, a]",
+          "Japanese": "並べ替え: [pollution, is, problem, air, big, a]"
+        },
+        "options": [
+          "pollution",
+          "is",
+          "problem",
+          "air",
+          "big",
+          "a"
+        ],
+        "answer": [
+          "air",
+          "pollution",
+          "is",
+          "a",
+          "big",
+          "problem"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The air is dirty ___ of pollution.",
+        "question_translation": {
+          "Hindi": "हवा प्रदूषण ___ गंदी है।",
+          "Japanese": "大気は汚染___汚れています。"
+        },
+        "options": [
+          "because",
+          "but",
+          "and"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "We should protects the environment.",
+          "We should protect the environment.",
+          "We should protecting the environment."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [trees, cut, animals, will, homes, lose, their, if, we]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [trees, cut, animals, will, homes, lose, their, if, we]",
+          "Japanese": "並べ替え: [trees, cut, animals, will, homes, lose, their, if, we]"
+        },
+        "options": [
+          "trees",
+          "cut",
+          "animals",
+          "will",
+          "homes",
+          "lose",
+          "their",
+          "if",
+          "we"
+        ],
+        "answer": [
+          "if",
+          "we",
+          "cut",
+          "trees",
+          "animals",
+          "will",
+          "lose",
+          "their",
+          "homes"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Climate change is ___ than ever before.",
+        "question_translation": {
+          "Hindi": "जलवायु परिवर्तन पहले से ___ है।",
+          "Japanese": "気候変動はこれまでより___です。"
+        },
+        "options": [
+          "worse",
+          "worst",
+          "bad"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What problem does the speaker mention?",
+        "audio_text": "Air pollution is a serious problem in big cities.",
+        "question_translation": {
+          "Hindi": "वक्ता किस समस्या का उल्लेख करता है?",
+          "Japanese": "話者はどの問題について言及していますか？"
+        },
+        "options": [
+          "Deforestation",
+          "Air pollution",
+          "Recycling"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says climate change is causing sea levels to rise.",
+        "audio_text": "Climate change is causing sea levels to rise.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि जलवायु परिवर्तन समुद्र स्तर को बढ़ा रहा है।",
+          "Japanese": "話者は気候変動が海面上昇を引き起こしていると言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What action is suggested by the speaker?",
+        "audio_text": "We should recycle more paper and plastic.",
+        "question_translation": {
+          "Hindi": "वक्ता किस कार्य का सुझाव देता है?",
+          "Japanese": "話者はどの行動を提案していますか？"
+        },
+        "options": [
+          "Cut more trees",
+          "Recycle more",
+          "Produce more waste"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The speaker talks about using renewable energy.",
+        "audio_text": "Solar and wind power are forms of renewable energy.",
+        "question_translation": {
+          "Hindi": "वक्ता नवीकरणीय ऊर्जा के उपयोग के बारे में बात करता है।",
+          "Japanese": "話者は再生可能エネルギーの利用について話しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What do cars produce according to the speaker?",
+        "audio_text": "Cars produce greenhouse gases that affect the climate.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार कारें क्या उत्पन्न करती हैं?",
+          "Japanese": "話者によると車は何を排出しますか？"
+        },
+        "options": [
+          "Renewable energy",
+          "Greenhouse gases",
+          "Recycled materials"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Air pollution is a big problem.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Air pollution is a big problem.'",
+          "Japanese": "言ってください: 'Air pollution is a big problem.'"
+        },
+        "options": [],
+        "answer": "air pollution is a big problem"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'We should recycle more.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We should recycle more.'",
+          "Japanese": "言ってください: 'We should recycle more.'"
+        },
+        "options": [],
+        "answer": "we should recycle more"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Climate change is dangerous.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Climate change is dangerous.'",
+          "Japanese": "言ってください: 'Climate change is dangerous.'"
+        },
+        "options": [],
+        "answer": "climate change is dangerous"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'If we cut more trees, animals will lose their homes.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If we cut more trees, animals will lose their homes.'",
+          "Japanese": "言ってください: 'If we cut more trees, animals will lose their homes.'"
+        },
+        "options": [],
+        "answer": "if we cut more trees animals will lose their homes"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Solar power is renewable energy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Solar power is renewable energy.'",
+          "Japanese": "言ってください: 'Solar power is renewable energy.'"
+        },
+        "options": [],
+        "answer": "solar power is renewable energy"
+      }
+    ]
+  }
+
 }

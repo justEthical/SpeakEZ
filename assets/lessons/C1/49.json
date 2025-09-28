@@ -1,4 +1,570 @@
 {
-  "id": 49,
-  "message": "This is file number 49"
+  "id": "lesson_editing_clarity_concision_cohesion_c1",
+  "lesson_name": "Editing for Clarity, Concision, Cohesion",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "clarity",
+        "word_translation": {
+          "Hindi": "स्पष्टता",
+          "Japanese": "明確さ"
+        },
+        "meaning": "The quality of being easy to understand",
+        "meaning_translation": {
+          "Hindi": "आसानी से समझ में आने की गुणवत्ता",
+          "Japanese": "理解しやすいという性質"
+        },
+        "examples": [
+          {
+            "sentence": "Good clarity makes academic writing easier to read.",
+            "translation": {
+              "Hindi": "अच्छी स्पष्टता शैक्षणिक लेखन को पढ़ना आसान बनाती है।",
+              "Japanese": "明確さがあると学術的な文章が読みやすくなります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concision",
+        "word_translation": {
+          "Hindi": "संक्षिप्तता",
+          "Japanese": "簡潔さ"
+        },
+        "meaning": "Using no more words than necessary",
+        "meaning_translation": {
+          "Hindi": "आवश्यक से अधिक शब्दों का प्रयोग न करना",
+          "Japanese": "必要以上の言葉を使わないこと"
+        },
+        "examples": [
+          {
+            "sentence": "Effective concision removes redundant phrases.",
+            "translation": {
+              "Hindi": "प्रभावी संक्षिप्तता अनावश्यक वाक्यांशों को हटा देती है।",
+              "Japanese": "効果的な簡潔さは冗長なフレーズを取り除きます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cohesion",
+        "word_translation": {
+          "Hindi": "सामंजस्य / एकरूपता",
+          "Japanese": "結束性"
+        },
+        "meaning": "Logical connection and flow between sentences and ideas",
+        "meaning_translation": {
+          "Hindi": "वाक्यों और विचारों के बीच तार्किक जुड़ाव और प्रवाह",
+          "Japanese": "文やアイデアの間の論理的なつながりと流れ"
+        },
+        "examples": [
+          {
+            "sentence": "Transition words help maintain cohesion in a paragraph.",
+            "translation": {
+              "Hindi": "संकलन शब्द पैराग्राफ में सामंजस्य बनाए रखने में मदद करते हैं।",
+              "Japanese": "接続詞は段落内の結束性を保つのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "redundancy",
+        "word_translation": {
+          "Hindi": "अतिरिक्तता",
+          "Japanese": "冗長性"
+        },
+        "meaning": "Using more words than needed or repeating ideas",
+        "meaning_translation": {
+          "Hindi": "आवश्यक से अधिक शब्दों का उपयोग या विचारों की पुनरावृत्ति",
+          "Japanese": "必要以上の言葉やアイデアの繰り返しを使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Avoid redundancy by deleting repeated points.",
+            "translation": {
+              "Hindi": "दोहराए गए बिंदुओं को हटाकर अतिरिक्तता से बचें।",
+              "Japanese": "繰り返しのポイントを削除して冗長性を避けましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transition",
+        "word_translation": {
+          "Hindi": "संक्रमण",
+          "Japanese": "つなぎ / 遷移"
+        },
+        "meaning": "Words or phrases that connect ideas smoothly",
+        "meaning_translation": {
+          "Hindi": "शब्द या वाक्यांश जो विचारों को सहजता से जोड़ते हैं",
+          "Japanese": "アイデアをスムーズにつなぐ語や句"
+        },
+        "examples": [
+          {
+            "sentence": "Use transitions like 'however' or 'therefore' to connect ideas.",
+            "translation": {
+              "Hindi": "'however' या 'therefore' जैसे संक्रमण का उपयोग विचारों को जोड़ने के लिए करें।",
+              "Japanese": "「however」や「therefore」などのつなぎを使ってアイデアを結びます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parallelism",
+        "word_translation": {
+          "Hindi": "समानांतर संरचना",
+          "Japanese": "並列構造"
+        },
+        "meaning": "Using similar grammatical structures for balance and clarity",
+        "meaning_translation": {
+          "Hindi": "संतुलन और स्पष्टता के लिए समान व्याकरणिक संरचनाओं का उपयोग",
+          "Japanese": "バランスと明確さのために同じ文法構造を使用すること"
+        },
+        "examples": [
+          {
+            "sentence": "She likes reading, writing, and jogging — a parallel structure.",
+            "translation": {
+              "Hindi": "उसे पढ़ना, लिखना और जॉगिंग करना पसंद है — एक समानांतर संरचना।",
+              "Japanese": "彼女は読むこと、書くこと、ジョギングをすることが好きです — 並列構造です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prune",
+        "word_translation": {
+          "Hindi": "काट-छाँट करना",
+          "Japanese": "削る / 削減する"
+        },
+        "meaning": "To remove unnecessary or weak parts from writing",
+        "meaning_translation": {
+          "Hindi": "लेखन से अनावश्यक या कमजोर भागों को हटाना",
+          "Japanese": "文章から不要または弱い部分を取り除くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Prune long sentences to improve clarity.",
+            "translation": {
+              "Hindi": "लंबे वाक्यों को काट-छाँट कर स्पष्टता बढ़ाएँ।",
+              "Japanese": "長い文を削って明確さを向上させましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nominalization",
+        "word_translation": {
+          "Hindi": "संज्ञाकरण",
+          "Japanese": "名詞化"
+        },
+        "meaning": "Turning verbs or adjectives into nouns, often making text heavier",
+        "meaning_translation": {
+          "Hindi": "क्रियाओं या विशेषणों को संज्ञा में बदलना, जिससे पाठ भारी हो जाता है",
+          "Japanese": "動詞や形容詞を名詞に変えること。文章を重くしがちです。"
+        },
+        "examples": [
+          {
+            "sentence": "Avoid excessive nominalization to keep writing clear.",
+            "translation": {
+              "Hindi": "स्पष्टता बनाए रखने के लिए अत्यधिक संज्ञाकरण से बचें।",
+              "Japanese": "明確さを保つために過剰な名詞化を避けましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cohesive devices",
+        "word_translation": {
+          "Hindi": "सामंजस्य साधन",
+          "Japanese": "結束装置 / コヒージョンデバイス"
+        },
+        "meaning": "Words like pronouns, conjunctions, or synonyms that link sentences together",
+        "meaning_translation": {
+          "Hindi": "वे शब्द जैसे सर्वनाम, संयोजन या पर्याय जो वाक्यों को जोड़ते हैं",
+          "Japanese": "代名詞や接続詞、同義語など文をつなぐ言葉"
+        },
+        "examples": [
+          {
+            "sentence": "Pronouns act as cohesive devices to avoid repetition.",
+            "translation": {
+              "Hindi": "सर्वनाम दोहराव से बचने के लिए सामंजस्य साधन के रूप में काम करते हैं।",
+              "Japanese": "代名詞は繰り返しを避けるための結束装置として機能します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "flow",
+        "word_translation": {
+          "Hindi": "प्रवाह",
+          "Japanese": "流れ"
+        },
+        "meaning": "How smoothly ideas connect from one to the next",
+        "meaning_translation": {
+          "Hindi": "कैसे विचार एक से दूसरे में आसानी से जुड़ते हैं",
+          "Japanese": "アイデアがどれほどスムーズにつながっているか"
+        },
+        "examples": [
+          {
+            "sentence": "A good essay has a clear and logical flow.",
+            "translation": {
+              "Hindi": "एक अच्छा निबंध स्पष्ट और तार्किक प्रवाह रखता है।",
+              "Japanese": "良いエッセイは明確で論理的な流れを持っています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Cut Redundancy",
+        "explanation": "Avoid repeating the same idea or using wordy phrases. Replace ‘due to the fact that’ with ‘because’.",
+        "explanation_translation": {
+          "Hindi": "एक ही विचार को दोहराने या शब्दाडंबरपूर्ण वाक्यांशों से बचें। 'due to the fact that' को 'because' से बदलें।",
+          "Japanese": "同じアイデアの繰り返しや冗長な表現を避けましょう。「due to the fact that」を「because」に置き換えます。"
+        }
+      },
+      {
+        "title": "Use Parallel Structure",
+        "explanation": "Make lists and connected ideas grammatically similar for clarity and rhythm.",
+        "explanation_translation": {
+          "Hindi": "सूचियों और जुड़ी हुई विचारों को व्याकरणिक रूप से समान बनाएं ताकि स्पष्टता और लय बनी रहे।",
+          "Japanese": "リストや関連するアイデアを文法的にそろえて明確さとリズムを保ちましょう。"
+        }
+      },
+      {
+        "title": "Link Ideas with Cohesive Devices",
+        "explanation": "Use pronouns, synonyms, or conjunctions to connect sentences naturally.",
+        "explanation_translation": {
+          "Hindi": "वाक्यों को स्वाभाविक रूप से जोड़ने के लिए सर्वनाम, पर्यायवाची या संयोजन का उपयोग करें।",
+          "Japanese": "代名詞、同義語、接続詞を使って文を自然につなぎましょう。"
+        }
+      },
+      {
+        "title": "Prefer Verbs over Nominalizations",
+        "explanation": "Use active verbs instead of turning them into heavy nouns for clearer sentences.",
+        "explanation_translation": {
+          "Hindi": "स्पष्ट वाक्यों के लिए भारी संज्ञाओं के बजाय सक्रिय क्रियाओं का प्रयोग करें।",
+          "Japanese": "わかりやすい文にするために、重い名詞化よりも動詞を使いましょう。"
+        }
+      },
+      {
+        "title": "Use Transition Signals",
+        "explanation": "Words like ‘however’, ‘in addition’, and ‘therefore’ guide the reader through your logic.",
+        "explanation_translation": {
+          "Hindi": "'however', 'in addition', और 'therefore' जैसे शब्द पाठक को आपके तर्क के माध्यम से मार्गदर्शन करते हैं।",
+          "Japanese": "「however」「in addition」「therefore」などの語が読み手を論理に沿って導きます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which term refers to smooth connection and flow between ideas?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द विचारों के बीच सहज जुड़ाव और प्रवाह को दर्शाता है?",
+          "Japanese": "アイデア同士のスムーズなつながりと流れを表す用語はどれですか？"
+        },
+        "options": [
+          "cohesion",
+          "redundancy",
+          "nominalization"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Concision means using no more words than necessary.",
+        "question_translation": {
+          "Hindi": "संक्षिप्तता का मतलब है आवश्यक से अधिक शब्दों का उपयोग न करना।",
+          "Japanese": "簡潔さとは必要以上の言葉を使わないことを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Transition words help maintain ______ in a paragraph.",
+        "question_translation": {
+          "Hindi": "संक्रमण शब्द पैराग्राफ में ______ बनाए रखने में मदद करते हैं।",
+          "Japanese": "接続詞は段落内の______を保つのに役立ちます。"
+        },
+        "options": [
+          "cohesion",
+          "redundancy",
+          "nominalization"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which practice can make text unnecessarily heavy and unclear?",
+        "question_translation": {
+          "Hindi": "कौन सा अभ्यास पाठ को अनावश्यक रूप से भारी और अस्पष्ट बना सकता है?",
+          "Japanese": "どの行為が文章を不必要に重く不明瞭にすることがありますか？"
+        },
+        "options": [
+          "Nominalization",
+          "Parallelism",
+          "Transition use"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "Pruning sentences can help achieve clarity and concision.",
+        "question_translation": {
+          "Hindi": "वाक्यों को काट-छाँट करना स्पष्टता और संक्षिप्तता प्राप्त करने में मदद कर सकता है।",
+          "Japanese": "文を削ることで明確さと簡潔さを達成できます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [clear, concise, and, should, writing, be]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [clear, concise, and, should, writing, be]",
+          "Japanese": "並べ替え: [clear, concise, and, should, writing, be]"
+        },
+        "options": [
+          "clear",
+          "concise",
+          "and",
+          "should",
+          "writing",
+          "be"
+        ],
+        "answer": [
+          "writing",
+          "should",
+          "be",
+          "clear",
+          "and",
+          "concise"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She revised her essay to remove unnecessary ______.",
+        "question_translation": {
+          "Hindi": "उसने अपनी निबंध को अनावश्यक ______ हटाने के लिए संशोधित किया।",
+          "Japanese": "彼女は不要な______を削除するためにエッセイを改訂しました。"
+        },
+        "options": [
+          "redundancy",
+          "flow",
+          "transition"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows good parallelism?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य अच्छा समानांतरता दिखाता है?",
+          "Japanese": "どの文が良い並列構造を示していますか？"
+        },
+        "options": [
+          "She enjoys reading, to write, and jogs.",
+          "She enjoys reading, writing, and jogging.",
+          "She enjoys read, writing, and jogs."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [reader, guide, transitions, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [reader, guide, transitions, the]",
+          "Japanese": "並べ替え: [reader, guide, transitions, the]"
+        },
+        "options": [
+          "reader",
+          "guide",
+          "transitions",
+          "the"
+        ],
+        "answer": [
+          "transitions",
+          "guide",
+          "the",
+          "reader"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Good writing balances clarity and ______.",
+        "question_translation": {
+          "Hindi": "अच्छा लेखन स्पष्टता और ______ के बीच संतुलन बनाता है।",
+          "Japanese": "良い文章は明確さと______のバランスをとります。"
+        },
+        "options": [
+          "cohesion",
+          "redundancy",
+          "nominalization"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker improve? Audio: 'I removed unnecessary words to make the paragraph concise.'",
+        "audio_text": "I removed unnecessary words to make the paragraph concise.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या सुधार किया?",
+          "Japanese": "話者は何を改善しましたか？"
+        },
+        "options": [
+          "Concision",
+          "Redundancy",
+          "Nominalization"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Transitions help readers follow your argument.",
+        "audio_text": "Use transitions like 'however' to connect ideas clearly.",
+        "question_translation": {
+          "Hindi": "संक्रमण पाठकों को आपके तर्क का पालन करने में मदद करते हैं।",
+          "Japanese": "接続詞は読者があなたの議論を追いやすくします。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What writing issue is mentioned? Audio: 'Too much nominalization can make text heavy.'",
+        "audio_text": "Too much nominalization can make text heavy.",
+        "question_translation": {
+          "Hindi": "कौन सी लेखन समस्या का उल्लेख किया गया है?",
+          "Japanese": "どの文章の問題が言及されていますか？"
+        },
+        "options": [
+          "Nominalization",
+          "Clarity",
+          "Flow"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What advice is given? Audio: 'Prune long sentences to improve clarity.'",
+        "audio_text": "Prune long sentences to improve clarity.",
+        "question_translation": {
+          "Hindi": "क्या सलाह दी गई है?",
+          "Japanese": "どんなアドバイスがされていますか？"
+        },
+        "options": [
+          "Shorten sentences",
+          "Add more transitions",
+          "Use complex words"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Parallelism helps make writing balanced and clear.",
+        "audio_text": "Parallelism makes your writing balanced and easy to read.",
+        "question_translation": {
+          "Hindi": "समानांतरता लेखन को संतुलित और स्पष्ट बनाने में मदद करती है।",
+          "Japanese": "並列構造は文章をバランスよく明確にするのに役立ちます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Good writing should be clear and concise.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Good writing should be clear and concise.'",
+          "Japanese": "言ってください: 'Good writing should be clear and concise.'"
+        },
+        "options": [],
+        "answer": "good writing should be clear and concise"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Transitions guide the reader through ideas.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Transitions guide the reader through ideas.'",
+          "Japanese": "言ってください: 'Transitions guide the reader through ideas.'"
+        },
+        "options": [],
+        "answer": "transitions guide the reader through ideas"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Prune long sentences to improve clarity.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Prune long sentences to improve clarity.'",
+          "Japanese": "言ってください: 'Prune long sentences to improve clarity.'"
+        },
+        "options": [],
+        "answer": "prune long sentences to improve clarity"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Avoid redundancy to make your text concise.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Avoid redundancy to make your text concise.'",
+          "Japanese": "言ってください: 'Avoid redundancy to make your text concise.'"
+        },
+        "options": [],
+        "answer": "avoid redundancy to make your text concise"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Parallelism creates balance in writing.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Parallelism creates balance in writing.'",
+          "Japanese": "言ってください: 'Parallelism creates balance in writing.'"
+        },
+        "options": [],
+        "answer": "parallelism creates balance in writing"
+      }
+    ]
+  }
+
 }

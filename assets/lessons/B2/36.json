@@ -1,4 +1,558 @@
 {
-  "id": 36,
-  "message": "This is file number 36"
+  "id": "lesson_media_literacy_001",
+  "lesson_name": "Media Literacy: Fact vs. Opinion",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "fact",
+        "word_translation": {
+          "Hindi": "तथ्य",
+          "Japanese": "事実"
+        },
+        "meaning": "A statement that can be proven true or false",
+        "meaning_translation": {
+          "Hindi": "एक कथन जिसे सही या गलत साबित किया जा सकता है",
+          "Japanese": "真偽を証明できる文"
+        },
+        "examples": [
+          {
+            "sentence": "The Earth orbits the Sun is a fact.",
+            "translation": {
+              "Hindi": "पृथ्वी सूर्य की परिक्रमा करती है यह एक तथ्य है।",
+              "Japanese": "地球が太陽を公転しているのは事実です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "opinion",
+        "word_translation": {
+          "Hindi": "राय",
+          "Japanese": "意見"
+        },
+        "meaning": "A personal belief or judgment that cannot be proven",
+        "meaning_translation": {
+          "Hindi": "एक व्यक्तिगत विश्वास या निर्णय जिसे साबित नहीं किया जा सकता",
+          "Japanese": "証明できない個人的な信念や判断"
+        },
+        "examples": [
+          {
+            "sentence": "Chocolate ice cream is the best flavor is an opinion.",
+            "translation": {
+              "Hindi": "चॉकलेट आइसक्रीम सबसे अच्छा स्वाद है यह एक राय है।",
+              "Japanese": "チョコレートアイスクリームが一番美味しいというのは意見です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bias",
+        "word_translation": {
+          "Hindi": "पक्षपात",
+          "Japanese": "偏見"
+        },
+        "meaning": "A preference or prejudice that affects judgment",
+        "meaning_translation": {
+          "Hindi": "एक पसंद या पूर्वाग्रह जो निर्णय को प्रभावित करता है",
+          "Japanese": "判断に影響する好みや先入観"
+        },
+        "examples": [
+          {
+            "sentence": "The article showed bias in favor of one political party.",
+            "translation": {
+              "Hindi": "लेख ने एक राजनीतिक दल के पक्ष में पक्षपात दिखाया।",
+              "Japanese": "その記事は一つの政党を支持する偏見を示していました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "credibility",
+        "word_translation": {
+          "Hindi": "विश्वसनीयता",
+          "Japanese": "信頼性"
+        },
+        "meaning": "The quality of being trusted or believed",
+        "meaning_translation": {
+          "Hindi": "विश्वास या भरोसेमंद होने की गुणवत्ता",
+          "Japanese": "信頼される、信じられる性質"
+        },
+        "examples": [
+          {
+            "sentence": "Credibility of a source is important when reading news.",
+            "translation": {
+              "Hindi": "समाचार पढ़ते समय किसी स्रोत की विश्वसनीयता महत्वपूर्ण होती है।",
+              "Japanese": "ニュースを読むときには情報源の信頼性が重要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "misinformation",
+        "word_translation": {
+          "Hindi": "ग़लत जानकारी",
+          "Japanese": "誤報"
+        },
+        "meaning": "False or inaccurate information shared without intent to deceive",
+        "meaning_translation": {
+          "Hindi": "झूठी या गलत जानकारी जो धोखा देने के इरादे से नहीं साझा की गई",
+          "Japanese": "騙す意図なく共有される虚偽または不正確な情報"
+        },
+        "examples": [
+          {
+            "sentence": "The rumor was misinformation, not a fact.",
+            "translation": {
+              "Hindi": "अफवाह गलत जानकारी थी, तथ्य नहीं।",
+              "Japanese": "その噂は事実ではなく誤報でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "disinformation",
+        "word_translation": {
+          "Hindi": "भ्रामक जानकारी",
+          "Japanese": "偽情報"
+        },
+        "meaning": "False information shared deliberately to mislead",
+        "meaning_translation": {
+          "Hindi": "झूठी जानकारी जो जानबूझकर गुमराह करने के लिए साझा की गई",
+          "Japanese": "意図的に人を誤解させるために共有される虚偽情報"
+        },
+        "examples": [
+          {
+            "sentence": "The campaign spread disinformation to confuse voters.",
+            "translation": {
+              "Hindi": "अभियान ने मतदाताओं को भ्रमित करने के लिए भ्रामक जानकारी फैलाई।",
+              "Japanese": "そのキャンペーンは有権者を混乱させるために偽情報を広めました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "source",
+        "word_translation": {
+          "Hindi": "स्रोत",
+          "Japanese": "情報源"
+        },
+        "meaning": "The origin of information or where it comes from",
+        "meaning_translation": {
+          "Hindi": "जानकारी की उत्पत्ति या जहाँ से यह आती है",
+          "Japanese": "情報の出所、情報がどこから来るか"
+        },
+        "examples": [
+          {
+            "sentence": "Always check the source before sharing news.",
+            "translation": {
+              "Hindi": "समाचार साझा करने से पहले हमेशा स्रोत की जाँच करें।",
+              "Japanese": "ニュースを共有する前に必ず情報源を確認してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "perspective",
+        "word_translation": {
+          "Hindi": "दृष्टिकोण",
+          "Japanese": "視点"
+        },
+        "meaning": "A particular way of thinking about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में सोचने का एक विशेष तरीका",
+          "Japanese": "物事を考える特定の方法"
+        },
+        "examples": [
+          {
+            "sentence": "Different perspectives help us understand complex issues.",
+            "translation": {
+              "Hindi": "विभिन्न दृष्टिकोण हमें जटिल मुद्दों को समझने में मदद करते हैं।",
+              "Japanese": "異なる視点は私たちが複雑な問題を理解するのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "headline",
+        "word_translation": {
+          "Hindi": "शीर्षक",
+          "Japanese": "見出し"
+        },
+        "meaning": "The title of a news article that summarizes the main point",
+        "meaning_translation": {
+          "Hindi": "समाचार लेख का शीर्षक जो मुख्य बिंदु को संक्षेप में बताता है",
+          "Japanese": "記事の要点をまとめたニュースのタイトル"
+        },
+        "examples": [
+          {
+            "sentence": "Headlines can sometimes be misleading.",
+            "translation": {
+              "Hindi": "शीर्षक कभी-कभी भ्रामक हो सकते हैं।",
+              "Japanese": "見出しは時に誤解を招くことがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critical thinking",
+        "word_translation": {
+          "Hindi": "आलोचनात्मक सोच",
+          "Japanese": "批判的思考"
+        },
+        "meaning": "The ability to analyze and judge information carefully",
+        "meaning_translation": {
+          "Hindi": "जानकारी का सावधानीपूर्वक विश्लेषण और मूल्यांकन करने की क्षमता",
+          "Japanese": "情報を慎重に分析・判断する能力"
+        },
+        "examples": [
+          {
+            "sentence": "Critical thinking helps us distinguish between fact and opinion.",
+            "translation": {
+              "Hindi": "आलोचनात्मक सोच हमें तथ्य और राय के बीच अंतर करने में मदद करती है।",
+              "Japanese": "批判的思考は事実と意見を区別するのに役立ちます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'According to' for Sources",
+        "explanation": "Use 'According to + source' to show where information comes from. Example: According to scientists, the Earth is warming.",
+        "explanation_translation": {
+          "Hindi": "'According to + source' का उपयोग यह दिखाने के लिए करें कि जानकारी कहाँ से आई है। उदाहरण: According to scientists, the Earth is warming.",
+          "Japanese": "'According to + source' を使って情報の出所を示します。例: According to scientists, the Earth is warming."
+        }
+      },
+      {
+        "title": "Using 'In my opinion' for Personal Views",
+        "explanation": "Use 'In my opinion' or 'I believe' to introduce opinions. Example: In my opinion, education should be free.",
+        "explanation_translation": {
+          "Hindi": "'In my opinion' या 'I believe' का उपयोग राय प्रस्तुत करने के लिए करें। उदाहरण: In my opinion, education should be free.",
+          "Japanese": "'In my opinion' や 'I believe' を使って意見を述べます。例: In my opinion, education should be free."
+        }
+      },
+      {
+        "title": "Distinguishing Fact from Opinion",
+        "explanation": "Facts can be checked and proven; opinions cannot. Example: Fact: The Eiffel Tower is in Paris. Opinion: The Eiffel Tower is beautiful.",
+        "explanation_translation": {
+          "Hindi": "तथ्यों को जांचा और साबित किया जा सकता है; राय को नहीं। उदाहरण: तथ्य: एफिल टॉवर पेरिस में है। राय: एफिल टॉवर सुंदर है।",
+          "Japanese": "事実は確認でき、証明できます。意見はできません。例: 事実: エッフェル塔はパリにあります。意見: エッフェル塔は美しいです。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a statement that can be proven true or false'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द उस कथन का अर्थ है जिसे सही या गलत साबित किया जा सकता है?",
+        "Japanese": "真偽を証明できる文を意味する言葉はどれですか？"
+      },
+      "options": [
+        "fact",
+        "opinion",
+        "bias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Chocolate ice cream is the best flavor is an ___.",
+      "question_translation": {
+        "Hindi": "चॉकलेट आइसक्रीम सबसे अच्छा स्वाद है, यह एक ___ है।",
+        "Japanese": "チョコレートアイスクリームが一番美味しいというのは___です。"
+      },
+      "options": [
+        "opinion",
+        "fact",
+        "source"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Disinformation is false information shared deliberately to mislead.",
+      "question_translation": {
+        "Hindi": "भ्रामक जानकारी झूठी जानकारी है जो जानबूझकर गुमराह करने के लिए साझा की जाती है।",
+        "Japanese": "偽情報とは、人を誤解させるために意図的に共有される虚偽情報のことです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means 'the quality of being trusted or believed'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'विश्वास या भरोसेमंद होने की गुणवत्ता' को दर्शाता है?",
+        "Japanese": "『信頼される、信じられる性質』を意味する言葉はどれですか？"
+      },
+      "options": [
+        "credibility",
+        "headline",
+        "perspective"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Critical ___ helps us separate fact from opinion.",
+      "question_translation": {
+        "Hindi": "आलोचनात्मक ___ हमें तथ्य और राय को अलग करने में मदद करता है।",
+        "Japanese": "批判的___は事実と意見を区別するのに役立ちます。"
+      },
+      "options": [
+        "thinking",
+        "bias",
+        "source"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [Paris, fact, is, in, Eiffel Tower, a]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [Paris, fact, is, in, Eiffel Tower, a]",
+        "Japanese": "並べ替え: [Paris, fact, is, in, Eiffel Tower, a]"
+      },
+      "options": [
+        "Paris",
+        "fact",
+        "is",
+        "in",
+        "Eiffel Tower",
+        "a"
+      ],
+      "answer": [
+        "The",
+        "Eiffel Tower",
+        "is",
+        "in",
+        "Paris",
+        "a",
+        "fact"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "___ my opinion, social media has both advantages and disadvantages.",
+      "question_translation": {
+        "Hindi": "___ मेरी राय में, सोशल मीडिया के फायदे और नुकसान दोनों हैं।",
+        "Japanese": "___私の意見では、ソーシャルメディアには利点と欠点の両方があります。"
+      },
+      "options": [
+        "In",
+        "On",
+        "At"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows an opinion?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य एक राय दिखाता है?",
+        "Japanese": "どの文が意見を示していますか？"
+      },
+      "options": [
+        "The Pacific Ocean is the largest ocean on Earth.",
+        "In my opinion, the Pacific Ocean is the most beautiful.",
+        "The Pacific Ocean covers about one-third of the Earth's surface."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [can, headlines, misleading, be, sometimes]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [can, headlines, misleading, be, sometimes]",
+        "Japanese": "並べ替え: [can, headlines, misleading, be, sometimes]"
+      },
+      "options": [
+        "can",
+        "headlines",
+        "misleading",
+        "be",
+        "sometimes"
+      ],
+      "answer": [
+        "Headlines",
+        "can",
+        "sometimes",
+        "be",
+        "misleading"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "According ___ experts, climate change is accelerating.",
+      "question_translation": {
+        "Hindi": "विशेषज्ञों के ___ के अनुसार, जलवायु परिवर्तन तेज हो रहा है।",
+        "Japanese": "専門家___によると、気候変動は加速しています。"
+      },
+      "options": [
+        "with",
+        "by",
+        "to"
+      ],
+      "answer": 2
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What type of statement is this? 'The Earth revolves around the Sun.'",
+      "audio_text": "The Earth revolves around the Sun.",
+      "question_translation": {
+        "Hindi": "यह किस प्रकार का कथन है? 'पृथ्वी सूर्य की परिक्रमा करती है।'",
+        "Japanese": "これはどんな文ですか？『地球は太陽を公転している。』"
+      },
+      "options": [
+        "Fact",
+        "Opinion",
+        "Bias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What type of statement is this? 'In my opinion, reading is the best hobby.'",
+      "audio_text": "In my opinion, reading is the best hobby.",
+      "question_translation": {
+        "Hindi": "यह किस प्रकार का कथन है? 'मेरी राय में, पढ़ना सबसे अच्छा शौक है।'",
+        "Japanese": "これはどんな文ですか？『私の意見では、読書は最高の趣味です。』"
+      },
+      "options": [
+        "Fact",
+        "Opinion",
+        "Bias"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The speaker says misinformation is always deliberate.",
+      "audio_text": "Misinformation is false information but not always deliberate.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि गलत जानकारी हमेशा जानबूझकर होती है।",
+        "Japanese": "話者は誤報は常に意図的だと言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What should you always check before sharing news?",
+      "audio_text": "Always check the source before sharing news.",
+      "question_translation": {
+        "Hindi": "समाचार साझा करने से पहले आपको हमेशा क्या जांचना चाहिए?",
+        "Japanese": "ニュースを共有する前に必ず何を確認すべきですか？"
+      },
+      "options": [
+        "The source",
+        "The opinion",
+        "The headline only"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Critical thinking helps distinguish fact from opinion.",
+      "audio_text": "Critical thinking helps us distinguish fact from opinion.",
+      "question_translation": {
+        "Hindi": "आलोचनात्मक सोच तथ्य और राय के बीच अंतर करने में मदद करती है।",
+        "Japanese": "批判的思考は事実と意見を区別するのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The Earth is round is a fact.'",
+      "question_translation": {
+        "Hindi": "कहें: 'पृथ्वी गोल है यह एक तथ्य है।'",
+        "Japanese": "言ってください: '地球は丸いというのは事実です。'"
+      },
+      "options": [],
+      "answer": "the earth is round is a fact"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'In my opinion, movies are better than books.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मेरी राय में, फिल्में किताबों से बेहतर हैं।'",
+        "Japanese": "言ってください: '私の意見では、映画は本よりも良いです。'"
+      },
+      "options": [],
+      "answer": "in my opinion movies are better than books"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Always check the source before sharing news.'",
+      "question_translation": {
+        "Hindi": "कहें: 'समाचार साझा करने से पहले हमेशा स्रोत की जाँच करें।'",
+        "Japanese": "言ってください: 'ニュースを共有する前に必ず情報源を確認してください。'"
+      },
+      "options": [],
+      "answer": "always check the source before sharing news"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Misinformation is not always deliberate.'",
+      "question_translation": {
+        "Hindi": "कहें: 'गलत जानकारी हमेशा जानबूझकर नहीं होती।'",
+        "Japanese": "言ってください: '誤報は常に意図的ではありません。'"
+      },
+      "options": [],
+      "answer": "misinformation is not always deliberate"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Critical thinking separates fact from opinion.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आलोचनात्मक सोच तथ्य और राय को अलग करती है।'",
+        "Japanese": "言ってください: '批判的思考は事実と意見を区別します。'"
+      },
+      "options": [],
+      "answer": "critical thinking separates fact from opinion"
+    }
+  ]
+}
+
 }

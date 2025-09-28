@@ -1,4 +1,520 @@
 {
-  "id": 20,
-  "message": "This is file number 20"
+  "id": "lesson_future_predictions_001",
+  "lesson_name": "Talking About Future Predictions",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "predict",
+        "word_translation": {
+          "Hindi": "भविष्यवाणी करना",
+          "Japanese": "予測する"
+        },
+        "meaning": "To say what will happen in the future",
+        "meaning_translation": {
+          "Hindi": "भविष्य में क्या होगा यह बताना",
+          "Japanese": "未来に何が起こるかを言うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Scientists can predict the weather.",
+            "translation": {
+              "Hindi": "वैज्ञानिक मौसम की भविष्यवाणी कर सकते हैं।",
+              "Japanese": "科学者は天気を予測できます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "forecast",
+        "word_translation": {
+          "Hindi": "पूर्वानुमान",
+          "Japanese": "予報"
+        },
+        "meaning": "A statement about what is likely to happen in the future",
+        "meaning_translation": {
+          "Hindi": "भविष्य में क्या होने की संभावना है इसका बयान",
+          "Japanese": "将来何が起こる可能性があるかについての声明"
+        },
+        "examples": [
+          {
+            "sentence": "The weather forecast says it will rain tomorrow.",
+            "translation": {
+              "Hindi": "मौसम का पूर्वानुमान कहता है कि कल बारिश होगी।",
+              "Japanese": "天気予報では明日雨が降ると言っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "likely",
+        "word_translation": {
+          "Hindi": "संभावित",
+          "Japanese": "ありそうな"
+        },
+        "meaning": "Something that will probably happen",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो शायद होगा",
+          "Japanese": "おそらく起こること"
+        },
+        "examples": [
+          {
+            "sentence": "It is likely that she will pass the exam.",
+            "translation": {
+              "Hindi": "संभावना है कि वह परीक्षा पास कर लेगी।",
+              "Japanese": "彼女は試験に合格する可能性が高いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "unlikely",
+        "word_translation": {
+          "Hindi": "असंभावित",
+          "Japanese": "ありそうにない"
+        },
+        "meaning": "Not expected to happen",
+        "meaning_translation": {
+          "Hindi": "जो होने की उम्मीद नहीं है",
+          "Japanese": "起こりそうにないこと"
+        },
+        "examples": [
+          {
+            "sentence": "It is unlikely that they will arrive on time.",
+            "translation": {
+              "Hindi": "यह असंभावित है कि वे समय पर पहुंचेंगे।",
+              "Japanese": "彼らが時間通りに到着するのはありそうにないです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expect",
+        "word_translation": {
+          "Hindi": "उम्मीद करना",
+          "Japanese": "期待する"
+        },
+        "meaning": "To think something will happen",
+        "meaning_translation": {
+          "Hindi": "सोचना कि कुछ होगा",
+          "Japanese": "何かが起こると思うこと"
+        },
+        "examples": [
+          {
+            "sentence": "I expect that the movie will be interesting.",
+            "translation": {
+              "Hindi": "मुझे उम्मीद है कि फिल्म दिलचस्प होगी।",
+              "Japanese": "私はその映画が面白いと思います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "certain",
+        "word_translation": {
+          "Hindi": "निश्चित",
+          "Japanese": "確実な"
+        },
+        "meaning": "Completely sure about something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के बारे में पूरी तरह से सुनिश्चित",
+          "Japanese": "何かについて完全に確信していること"
+        },
+        "examples": [
+          {
+            "sentence": "I am certain that he will come.",
+            "translation": {
+              "Hindi": "मुझे निश्चित है कि वह आएगा।",
+              "Japanese": "私は彼が来ると確信しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "doubt",
+        "word_translation": {
+          "Hindi": "संदेह",
+          "Japanese": "疑い"
+        },
+        "meaning": "A feeling of not being sure",
+        "meaning_translation": {
+          "Hindi": "निश्चित न होने की भावना",
+          "Japanese": "確信が持てない気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "I doubt that it will snow tomorrow.",
+            "translation": {
+              "Hindi": "मुझे संदेह है कि कल बर्फबारी होगी।",
+              "Japanese": "明日雪が降るとは思いません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "possibility",
+        "word_translation": {
+          "Hindi": "संभावना",
+          "Japanese": "可能性"
+        },
+        "meaning": "Something that may happen or be true",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो हो सकता है या सच हो सकता है",
+          "Japanese": "起こるかもしれない、または本当かもしれないこと"
+        },
+        "examples": [
+          {
+            "sentence": "There is a possibility of rain this evening.",
+            "translation": {
+              "Hindi": "आज शाम बारिश की संभावना है।",
+              "Japanese": "今晩は雨の可能性があります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Will for Predictions",
+        "explanation": "Use 'will + verb' to make future predictions. Example: It will rain tomorrow.",
+        "explanation_translation": {
+          "Hindi": "भविष्य की भविष्यवाणी करने के लिए 'will + verb' का उपयोग करें। उदाहरण: It will rain tomorrow.",
+          "Japanese": "未来の予測をするとき「will + 動詞」を使います。例：It will rain tomorrow."
+        }
+      },
+      {
+        "title": "Might/May for Possibility",
+        "explanation": "Use 'might/may + verb' to show something is possible. Example: She might call later.",
+        "explanation_translation": {
+          "Hindi": "कुछ संभव होने को दिखाने के लिए 'might/may + verb' का उपयोग करें। उदाहरण: She might call later.",
+          "Japanese": "何かが可能であることを示すとき「might/may + 動詞」を使います。例：She might call later."
+        }
+      },
+      {
+        "title": "Going to for Likely Events",
+        "explanation": "Use 'be going to + verb' when something is likely to happen. Example: It is going to rain soon.",
+        "explanation_translation": {
+          "Hindi": "कुछ होने की संभावना दिखाने के लिए 'be going to + verb' का उपयोग करें। उदाहरण: It is going to rain soon.",
+          "Japanese": "何かが起こりそうなとき「be going to + 動詞」を使います。例：It is going to rain soon."
+        }
+      },
+      {
+        "title": "Adverbs of Certainty",
+        "explanation": "Use adverbs like 'probably, definitely, certainly' to show how sure you are. Example: He will probably be late.",
+        "explanation_translation": {
+          "Hindi": "आप कितने निश्चित हैं यह बताने के लिए 'probably, definitely, certainly' जैसे क्रियाविशेषणों का उपयोग करें। उदाहरण: He will probably be late.",
+          "Japanese": "どのくらい確信しているかを示すとき「probably, definitely, certainly」などの副詞を使います。例：He will probably be late."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'to say what will happen in the future'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'भविष्य में क्या होगा यह बताने' का अर्थ देता है?",
+          "Japanese": "「未来に何が起こるかを言う」という意味の言葉はどれですか？"
+        },
+        "options": [
+          "predict",
+          "doubt",
+          "enjoy"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The weather ___ says it will snow tomorrow.",
+        "question_translation": {
+          "Hindi": "मौसम का ___ कहता है कि कल बर्फबारी होगी।",
+          "Japanese": "天気___では明日雪が降ると言っています。"
+        },
+        "options": [
+          "forecast",
+          "expectation",
+          "possibility"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Unlikely means something is not expected to happen.",
+        "question_translation": {
+          "Hindi": "असंभावित का मतलब है कि कुछ होने की उम्मीद नहीं है।",
+          "Japanese": "「ありそうにない」とは、起こることが期待されないことを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word shows being completely sure about something?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द किसी चीज़ के बारे में पूरी तरह निश्चित होने को दर्शाता है?",
+          "Japanese": "何かについて完全に確信していることを示す言葉はどれですか？"
+        },
+        "options": [
+          "certain",
+          "likely",
+          "doubt"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "There is a ___ of heavy rain tonight.",
+        "question_translation": {
+          "Hindi": "आज रात भारी बारिश की ___ है।",
+          "Japanese": "今夜大雨の___があります。"
+        },
+        "options": [
+          "possibility",
+          "doubt",
+          "certainty"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [rain, will, it, tomorrow]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [rain, will, it, tomorrow]",
+          "Japanese": "並べ替え: [rain, will, it, tomorrow]"
+        },
+        "options": [
+          "rain",
+          "will",
+          "it",
+          "tomorrow"
+        ],
+        "answer": [
+          "it",
+          "will",
+          "rain",
+          "tomorrow"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "She ___ call me later. (possibility)",
+        "question_translation": {
+          "Hindi": "वह मुझे बाद में ___ फोन कर सकती है। (संभावना)",
+          "Japanese": "彼女は後で私に電話___かもしれません。（可能性）"
+        },
+        "options": [
+          "may",
+          "must",
+          "should"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "どの文が正しいですか？"
+        },
+        "options": [
+          "It going to rain soon.",
+          "It is going to rain soon.",
+          "It rains going to soon."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [will, late, he, probably, be]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [will, late, he, probably, be]",
+          "Japanese": "並べ替え: [will, late, he, probably, be]"
+        },
+        "options": [
+          "will",
+          "late",
+          "he",
+          "probably",
+          "be"
+        ],
+        "answer": [
+          "he",
+          "will",
+          "probably",
+          "be",
+          "late"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "I ___ that the movie will be amazing.",
+        "question_translation": {
+          "Hindi": "मुझे ___ है कि फिल्म शानदार होगी।",
+          "Japanese": "私はその映画が素晴らしいと___います。"
+        },
+        "options": [
+          "expect",
+          "doubt",
+          "prefer"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What prediction does the speaker make?",
+        "audio_text": "It will probably rain tomorrow.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी भविष्यवाणी करता है?",
+          "Japanese": "話者はどんな予測をしていますか？"
+        },
+        "options": [
+          "It will snow tomorrow.",
+          "It will probably rain tomorrow.",
+          "It will be sunny tomorrow."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker is certain about the event.",
+        "audio_text": "I am certain that she will come.",
+        "question_translation": {
+          "Hindi": "वक्ता घटना के बारे में निश्चित है।",
+          "Japanese": "話者はその出来事について確信しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does the speaker doubt?",
+        "audio_text": "I doubt that he will finish on time.",
+        "question_translation": {
+          "Hindi": "वक्ता को किस पर संदेह है?",
+          "Japanese": "話者は何を疑っていますか？"
+        },
+        "options": [
+          "That he will finish early",
+          "That he will finish on time",
+          "That he will finish tomorrow"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "trueFalse",
+        "question": "The speaker says it might snow tonight.",
+        "audio_text": "It might snow tonight.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि आज रात बर्फबारी हो सकती है।",
+          "Japanese": "話者は今夜雪が降るかもしれないと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the forecast for the weekend?",
+        "audio_text": "The forecast says it will be sunny this weekend.",
+        "question_translation": {
+          "Hindi": "सप्ताहांत के लिए पूर्वानुमान क्या है?",
+          "Japanese": "週末の予報は何ですか？"
+        },
+        "options": [
+          "Sunny",
+          "Rainy",
+          "Cloudy"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'It will rain tomorrow.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It will rain tomorrow.'",
+          "Japanese": "言ってください: 'It will rain tomorrow.'"
+        },
+        "options": [],
+        "answer": "it will rain tomorrow"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'She might call me later.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She might call me later.'",
+          "Japanese": "言ってください: 'She might call me later.'"
+        },
+        "options": [],
+        "answer": "she might call me later"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'It is going to rain soon.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It is going to rain soon.'",
+          "Japanese": "言ってください: 'It is going to rain soon.'"
+        },
+        "options": [],
+        "answer": "it is going to rain soon"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He will probably be late.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He will probably be late.'",
+          "Japanese": "言ってください: 'He will probably be late.'"
+        },
+        "options": [],
+        "answer": "he will probably be late"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I expect that the movie will be great.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I expect that the movie will be great.'",
+          "Japanese": "言ってください: 'I expect that the movie will be great.'"
+        },
+        "options": [],
+        "answer": "i expect that the movie will be great"
+      }
+    ]
+  }
+
+
 }

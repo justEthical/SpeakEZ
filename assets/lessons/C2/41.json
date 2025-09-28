@@ -1,4 +1,580 @@
 {
-  "id": 41,
-  "message": "This is file number 41"
+  "id": "lesson_cross_register_shifts_001",
+  "lesson_name": "Cross-Register Style Shifts On the Fly",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "register",
+        "word_translation": {
+          "Hindi": "शैली स्तर",
+          "Japanese": "レジスター（言語の使用域）"
+        },
+        "meaning": "A variety of language used for a particular purpose or in a particular social setting",
+        "meaning_translation": {
+          "Hindi": "विशिष्ट उद्देश्य या सामाजिक परिवेश में उपयोग की जाने वाली भाषा की शैली",
+          "Japanese": "特定の目的や社会的状況で使われる言語の種類"
+        },
+        "examples": [
+          {
+            "sentence": "Formal register is often required in academic writing.",
+            "translation": {
+              "Hindi": "शैक्षणिक लेखन में अक्सर औपचारिक शैली स्तर की आवश्यकता होती है।",
+              "Japanese": "学術的な文章では形式的なレジスターが必要とされることが多いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "code-switching",
+        "word_translation": {
+          "Hindi": "भाषा शैली बदलना",
+          "Japanese": "コードスイッチング"
+        },
+        "meaning": "The practice of alternating between two or more languages or styles in conversation",
+        "meaning_translation": {
+          "Hindi": "संवाद में दो या अधिक भाषाओं या शैलियों के बीच अदला-बदली करना",
+          "Japanese": "会話中に2つ以上の言語や話し方を切り替えること"
+        },
+        "examples": [
+          {
+            "sentence": "Professionals often engage in code-switching when moving from meetings to casual chats.",
+            "translation": {
+              "Hindi": "पेशेवर लोग अक्सर मीटिंग से अनौपचारिक बातचीत में जाते समय भाषा शैली बदलते हैं।",
+              "Japanese": "専門家は会議からカジュアルな会話に移る際によくコードスイッチングをします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tone-shifting",
+        "word_translation": {
+          "Hindi": "स्वर परिवर्तन",
+          "Japanese": "トーンシフト"
+        },
+        "meaning": "Changing the tone of speech or writing to match audience or context",
+        "meaning_translation": {
+          "Hindi": "श्रोताओं या संदर्भ के अनुसार भाषण या लेखन के स्वर को बदलना",
+          "Japanese": "聞き手や文脈に合わせて話し方や文章のトーンを変えること"
+        },
+        "examples": [
+          {
+            "sentence": "He quickly performed a tone-shifting from casual to diplomatic when the CEO entered.",
+            "translation": {
+              "Hindi": "सीईओ के प्रवेश करने पर उसने तुरंत अनौपचारिक से कूटनीतिक स्वर में परिवर्तन कर लिया।",
+              "Japanese": "CEOが入室したとき、彼はすぐにカジュアルなトーンから外交的なトーンに切り替えた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formality gradient",
+        "word_translation": {
+          "Hindi": "औपचारिकता का क्रमिक स्तर",
+          "Japanese": "フォーマリティの段階"
+        },
+        "meaning": "The scale or continuum from very informal to very formal language",
+        "meaning_translation": {
+          "Hindi": "बहुत अनौपचारिक से लेकर बहुत औपचारिक भाषा तक का क्रमिक स्तर",
+          "Japanese": "とてもカジュアルからとてもフォーマルまでの言語の連続的な段階"
+        },
+        "examples": [
+          {
+            "sentence": "Writers must understand the formality gradient when addressing mixed audiences.",
+            "translation": {
+              "Hindi": "लेखकों को मिश्रित श्रोताओं को संबोधित करते समय औपचारिकता के क्रमिक स्तर को समझना चाहिए।",
+              "Japanese": "執筆者は異なる聴衆に対応するときフォーマリティの段階を理解する必要がある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "situational appropriateness",
+        "word_translation": {
+          "Hindi": "परिस्थितिजन्य उपयुक्तता",
+          "Japanese": "状況適切さ"
+        },
+        "meaning": "Suitability of language style to the social or communicative context",
+        "meaning_translation": {
+          "Hindi": "सामाजिक या संचार संबंधी संदर्भ के अनुसार भाषा शैली की उपयुक्तता",
+          "Japanese": "社会的・コミュニケーション上の文脈に適した言語スタイル"
+        },
+        "examples": [
+          {
+            "sentence": "Good speakers adjust for situational appropriateness instinctively.",
+            "translation": {
+              "Hindi": "अच्छे वक्ता परिस्थितिजन्य उपयुक्तता के अनुसार सहज रूप से समायोजन करते हैं।",
+              "Japanese": "優れた話し手は状況に適した言語スタイルを本能的に調整する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "uptalk",
+        "word_translation": {
+          "Hindi": "वाक्य के अंत में उठता स्वर",
+          "Japanese": "アップトーク（語尾上昇）"
+        },
+        "meaning": "A rising intonation at the end of statements, making them sound like questions",
+        "meaning_translation": {
+          "Hindi": "वाक्य के अंत में स्वर ऊँचा करना जिससे वह प्रश्न जैसा लगे",
+          "Japanese": "平叙文の文末で声が上がり質問のように聞こえる話し方"
+        },
+        "examples": [
+          {
+            "sentence": "She used uptalk during the informal group discussion.",
+            "translation": {
+              "Hindi": "उसने अनौपचारिक समूह चर्चा के दौरान वाक्यों के अंत में स्वर ऊँचा किया।",
+              "Japanese": "彼女は非公式のグループディスカッションでアップトークを使った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hedging",
+        "word_translation": {
+          "Hindi": "संकोचपूर्वक बोलना",
+          "Japanese": "婉曲表現（ヘッジング）"
+        },
+        "meaning": "Using cautious or non-committal language to soften statements",
+        "meaning_translation": {
+          "Hindi": "बयानों को नरम करने के लिए सावधानीपूर्वक या अनिश्चित भाषा का प्रयोग करना",
+          "Japanese": "発言を和らげるために慎重または曖昧な表現を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Scientists often use hedging to avoid overgeneralization.",
+            "translation": {
+              "Hindi": "वैज्ञानिक अक्सर अत्यधिक सामान्यीकरण से बचने के लिए संकोचपूर्वक बोलते हैं।",
+              "Japanese": "科学者は過度な一般化を避けるためにヘッジングを使うことが多い。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sociolect",
+        "word_translation": {
+          "Hindi": "सामाजिक उपभाषा",
+          "Japanese": "社会方言（ソシオレクト）"
+        },
+        "meaning": "A language variety used by a particular social group",
+        "meaning_translation": {
+          "Hindi": "किसी विशेष सामाजिक समूह द्वारा प्रयुक्त भाषा की उपभाषा",
+          "Japanese": "特定の社会集団が使う言語変種"
+        },
+        "examples": [
+          {
+            "sentence": "She shifted her sociolect to fit in with her colleagues.",
+            "translation": {
+              "Hindi": "उसने अपने सहकर्मियों के साथ मेल खाने के लिए अपनी सामाजिक उपभाषा बदल ली।",
+              "Japanese": "彼女は同僚に合わせるためにソシオレクトを変えた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pragmatic competence",
+        "word_translation": {
+          "Hindi": "व्यावहारिक भाषा दक्षता",
+          "Japanese": "語用論的能力"
+        },
+        "meaning": "The ability to use language appropriately in different contexts",
+        "meaning_translation": {
+          "Hindi": "विभिन्न संदर्भों में भाषा का उपयुक्त रूप से उपयोग करने की क्षमता",
+          "Japanese": "さまざまな状況で適切に言語を使う能力"
+        },
+        "examples": [
+          {
+            "sentence": "Advanced speakers display pragmatic competence when adapting speech on the fly.",
+            "translation": {
+              "Hindi": "उन्नत वक्ता तत्काल भाषण को अनुकूलित करते समय व्यावहारिक भाषा दक्षता दिखाते हैं।",
+              "Japanese": "上級話者は即座に話し方を調整する際に語用論的能力を示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "metalinguistic awareness",
+        "word_translation": {
+          "Hindi": "भाषा-जागरूकता",
+          "Japanese": "メタ言語意識"
+        },
+        "meaning": "The ability to think about and reflect on language and its use",
+        "meaning_translation": {
+          "Hindi": "भाषा और उसके उपयोग के बारे में सोचने और चिंतन करने की क्षमता",
+          "Japanese": "言語とその使い方について考え、意識できる能力"
+        },
+        "examples": [
+          {
+            "sentence": "Metalinguistic awareness helps speakers adjust register quickly.",
+            "translation": {
+              "Hindi": "भाषा-जागरूकता वक्ताओं को जल्दी से शैली बदलने में मदद करती है।",
+              "Japanese": "メタ言語意識は話し手がすぐにレジスターを調整するのに役立つ。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Shifting Between Formal and Informal Registers",
+        "explanation": "Advanced speakers adjust pronouns, vocabulary, and sentence length to match social context (e.g., 'Hey, could you send me that?' vs. 'Would you be so kind as to provide that document?').",
+        "explanation_translation": {
+          "Hindi": "उन्नत वक्ता सामाजिक संदर्भ के अनुसार सर्वनाम, शब्दावली और वाक्य लंबाई को समायोजित करते हैं। (जैसे: 'Hey, could you send me that?' बनाम 'Would you be so kind as to provide that document?')",
+          "Japanese": "上級話者は社会的文脈に合わせて代名詞・語彙・文の長さを調整します（例：'Hey, could you send me that?' と 'Would you be so kind as to provide that document?'）"
+        }
+      },
+      {
+        "title": "Hedging and Boosting",
+        "explanation": "Use hedging ('might', 'perhaps') to soften or boosting ('clearly', 'definitely') to strengthen statements depending on formality and stance.",
+        "explanation_translation": {
+          "Hindi": "औपचारिकता और दृष्टिकोण के आधार पर बयानों को नरम करने के लिए हेजिंग ('might', 'perhaps') या मजबूत करने के लिए बूस्टिंग ('clearly', 'definitely') का उपयोग करें।",
+          "Japanese": "発言を和らげるには 'might', 'perhaps' のようなヘッジングを、強調するには 'clearly', 'definitely' のようなブースティングを使います。"
+        }
+      },
+      {
+        "title": "Lexical Density Control",
+        "explanation": "Formal speech tends to use higher lexical density (more content words). Casual speech uses more pronouns, contractions, and fillers.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक भाषण में आमतौर पर उच्च शब्द घनत्व होता है (अधिक सामग्री शब्द)। अनौपचारिक भाषण में अधिक सर्वनाम, संक्षिप्त रूप और भराव शब्द होते हैं।",
+          "Japanese": "形式的なスピーチでは語彙密度が高く（内容語が多い）、カジュアルな会話では代名詞・省略形・フィラーが多く使われます。"
+        }
+      },
+      {
+        "title": "Audience Design",
+        "explanation": "Adapt your style based on audience expertise, relationship, and expectations, a key pragmatic skill at C2 level.",
+        "explanation_translation": {
+          "Hindi": "श्रोताओं की विशेषज्ञता, संबंध और अपेक्षाओं के आधार पर अपनी शैली को अनुकूलित करें, यह C2 स्तर पर एक प्रमुख व्यावहारिक कौशल है।",
+          "Japanese": "聴衆の専門性・関係性・期待に基づいてスタイルを調整することはC2レベルで重要な語用論的スキルです。"
+        }
+      },
+      {
+        "title": "On-the-Fly Repair",
+        "explanation": "When you realize mid-sentence that the register is wrong, reframe instantly (e.g., switching from 'Guys, listen...' to 'Ladies and gentlemen, may I have your attention').",
+        "explanation_translation": {
+          "Hindi": "जब आपको वाक्य के बीच में पता चले कि शैली गलत है, तुरंत पुनः फ्रेम करें (जैसे: 'Guys, listen...' से 'Ladies and gentlemen, may I have your attention').",
+          "Japanese": "発話中にレジスターが不適切だと気づいたら即座に言い換えます（例：'Guys, listen...' から 'Ladies and gentlemen, may I have your attention' へ）。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term refers to the ability to use language appropriately in different contexts?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द विभिन्न संदर्भों में भाषा को उपयुक्त रूप से उपयोग करने की क्षमता को दर्शाता है?",
+        "Japanese": "さまざまな状況で適切に言語を使う能力を指す用語はどれですか？"
+      },
+      "options": [
+        "pragmatic competence",
+        "register",
+        "uptalk"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Professionals often engage in ___ when switching between formal and casual speech.",
+      "question_translation": {
+        "Hindi": "पेशेवर लोग औपचारिक और अनौपचारिक भाषण के बीच स्विच करते समय अक्सर ___ में संलग्न होते हैं।",
+        "Japanese": "専門家はフォーマルとカジュアルな話し方を切り替えるときによく___を行います。"
+      },
+      "options": [
+        "code-switching",
+        "hedging",
+        "uptalk"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Uptalk is a rising intonation at the end of statements, making them sound like questions.",
+      "question_translation": {
+        "Hindi": "अपटॉक बयानों के अंत में उठता स्वर है, जिससे वे प्रश्न जैसे लगते हैं।",
+        "Japanese": "アップトークは陳述文の文末で声を上げ、質問のように聞こえるようにすることです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which concept describes the scale from very informal to very formal language?",
+      "question_translation": {
+        "Hindi": "कौन सी अवधारणा बहुत अनौपचारिक से बहुत औपचारिक भाषा तक के पैमाने का वर्णन करती है?",
+        "Japanese": "とてもカジュアルからとてもフォーマルまでの言語の段階を説明する概念はどれですか？"
+      },
+      "options": [
+        "formality gradient",
+        "pragmatic competence",
+        "sociolect"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Scientists use ___ to avoid making overgeneralized statements.",
+      "question_translation": {
+        "Hindi": "वैज्ञानिक अत्यधिक सामान्यीकृत बयानों से बचने के लिए ___ का उपयोग करते हैं।",
+        "Japanese": "科学者は過度な一般化を避けるために___を使用します。"
+      },
+      "options": [
+        "hedging",
+        "code-switching",
+        "tone-shifting"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [adjust, speakers, formal, style, context, their, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [adjust, speakers, formal, style, context, their, to]",
+        "Japanese": "並べ替え: [adjust, speakers, formal, style, context, their, to]"
+      },
+      "options": [
+        "adjust",
+        "speakers",
+        "formal",
+        "style",
+        "context",
+        "their",
+        "to"
+      ],
+      "answer": [
+        "speakers",
+        "adjust",
+        "their",
+        "style",
+        "to",
+        "formal",
+        "context"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Advanced speakers display ___ when they adapt their language mid-conversation.",
+      "question_translation": {
+        "Hindi": "उन्नत वक्ता बातचीत के दौरान अपनी भाषा को अनुकूलित करते समय ___ प्रदर्शित करते हैं।",
+        "Japanese": "上級話者は会話中に言葉を適応させるとき___を示します。"
+      },
+      "options": [
+        "pragmatic competence",
+        "uptalk",
+        "hedging"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows a successful register shift?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सफल शैली परिवर्तन को दर्शाता है?",
+        "Japanese": "どの文がレジスターの切り替えに成功していることを示していますか？"
+      },
+      "options": [
+        "Hey, would you be so kind as to forward that file?",
+        "Yo, forward file.",
+        "Forward file now."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [adjust, must, speakers, audience, for, their, design]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [adjust, must, speakers, audience, for, their, design]",
+        "Japanese": "並べ替え: [adjust, must, speakers, audience, for, their, design]"
+      },
+      "options": [
+        "adjust",
+        "must",
+        "speakers",
+        "audience",
+        "for",
+        "their",
+        "design"
+      ],
+      "answer": [
+        "speakers",
+        "must",
+        "adjust",
+        "their",
+        "design",
+        "for",
+        "audience"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "When you realize mid-sentence that the register is wrong, you should ___ instantly.",
+      "question_translation": {
+        "Hindi": "जब आपको वाक्य के बीच में पता चलता है कि शैली गलत है, तो आपको तुरंत ___ करना चाहिए।",
+        "Japanese": "発話中にレジスターが不適切だと気づいたら、すぐに___すべきです。"
+      },
+      "options": [
+        "reframe",
+        "ignore",
+        "boost"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What register shift is the speaker demonstrating?",
+      "audio_text": "Ladies and gentlemen, may I have your attention — oh, hey team, let's get started casually.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सा शैली परिवर्तन प्रदर्शित कर रहा है?",
+        "Japanese": "話者はどのレジスターの切り替えを示していますか？"
+      },
+      "options": [
+        "Formal to casual",
+        "Casual to formal",
+        "Neutral to hedging"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What technique is the speaker using to soften the statement?",
+      "audio_text": "I might be wrong, but this approach seems problematic.",
+      "question_translation": {
+        "Hindi": "वक्ता कथन को नरम करने के लिए कौन सी तकनीक का उपयोग कर रहा है?",
+        "Japanese": "話者は発言を和らげるためにどの技術を使っていますか？"
+      },
+      "options": [
+        "Hedging",
+        "Boosting",
+        "Code-switching"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The speaker uses boosting to strengthen the claim.",
+      "audio_text": "This is clearly the most effective solution we have.",
+      "question_translation": {
+        "Hindi": "वक्ता दावा को मजबूत करने के लिए बूस्टिंग का उपयोग करता है।",
+        "Japanese": "話者は主張を強めるためにブースティングを使用しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What shift happens after the CEO enters?",
+      "audio_text": "Hey guys — Oh, good morning, Dr. Patel. Allow me to update you formally.",
+      "question_translation": {
+        "Hindi": "सीईओ के प्रवेश के बाद कौन सा परिवर्तन होता है?",
+        "Japanese": "CEOが入室した後、どのような変化が起こりますか？"
+      },
+      "options": [
+        "Casual to formal",
+        "Formal to casual",
+        "Neutral to hedging"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which skill allows the speaker to adapt mid-conversation?",
+      "audio_text": "Realizing the tone was too casual, I shifted to a formal apology.",
+      "question_translation": {
+        "Hindi": "कौन सा कौशल वक्ता को बातचीत के दौरान अनुकूलित करने की अनुमति देता है?",
+        "Japanese": "どのスキルが話者に会話中に適応させることを可能にしますか？"
+      },
+      "options": [
+        "Pragmatic competence",
+        "Hedging",
+        "Metalinguistic awareness"
+      ],
+      "answer": 2
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I can shift from formal to casual speech instantly.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I can shift from formal to casual speech instantly.'",
+        "Japanese": "言ってください: 'I can shift from formal to casual speech instantly.'"
+      },
+      "options": [],
+      "answer": "i can shift from formal to casual speech instantly"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Please allow me to reframe that more formally.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Please allow me to reframe that more formally.'",
+        "Japanese": "言ってください: 'Please allow me to reframe that more formally.'"
+      },
+      "options": [],
+      "answer": "please allow me to reframe that more formally"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I might be mistaken, but I think this solution works.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I might be mistaken, but I think this solution works.'",
+        "Japanese": "言ってください: 'I might be mistaken, but I think this solution works.'"
+      },
+      "options": [],
+      "answer": "i might be mistaken but i think this solution works"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Ladies and gentlemen, may I have your attention please.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Ladies and gentlemen, may I have your attention please.'",
+        "Japanese": "言ってください: 'Ladies and gentlemen, may I have your attention please.'"
+      },
+      "options": [],
+      "answer": "ladies and gentlemen may i have your attention please"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I use pragmatic competence to adapt my speech.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I use pragmatic competence to adapt my speech.'",
+        "Japanese": "言ってください: 'I use pragmatic competence to adapt my speech.'"
+      },
+      "options": [],
+      "answer": "i use pragmatic competence to adapt my speech"
+    }
+  ]
+}
+
 }

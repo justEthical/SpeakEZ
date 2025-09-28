@@ -1,4 +1,566 @@
 {
-  "id": 49,
-  "message": "This is file number 49"
+  "id": "lesson_exam_peak_synthesize_sources_001",
+  "lesson_name": "Exam Peak: Synthesize Multiple Sources",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "synthesize",
+        "word_translation": {
+          "Hindi": "संश्लेषित करना",
+          "Japanese": "統合する"
+        },
+        "meaning": "To combine ideas from different sources to create a new understanding",
+        "meaning_translation": {
+          "Hindi": "विभिन्न स्रोतों से विचारों को मिलाकर नई समझ बनाना",
+          "Japanese": "さまざまな情報源からのアイデアを統合して新しい理解を作ること"
+        },
+        "examples": [
+          {
+            "sentence": "Good essays synthesize research findings from many studies.",
+            "translation": {
+              "Hindi": "अच्छे निबंध कई अध्ययनों से अनुसंधान निष्कर्षों को संश्लेषित करते हैं।",
+              "Japanese": "優れたエッセイは多くの研究からの結果を統合する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cross-reference",
+        "word_translation": {
+          "Hindi": "पार-संदर्भ",
+          "Japanese": "相互参照"
+        },
+        "meaning": "To refer to another source to support or connect ideas",
+        "meaning_translation": {
+          "Hindi": "विचारों का समर्थन या जोड़ने के लिए किसी अन्य स्रोत का संदर्भ देना",
+          "Japanese": "アイデアを裏付けたりつなげたりするために別の情報源を参照すること"
+        },
+        "examples": [
+          {
+            "sentence": "Students should cross-reference key concepts across textbooks.",
+            "translation": {
+              "Hindi": "छात्रों को पाठ्यपुस्तकों में प्रमुख अवधारणाओं का पार-संदर्भ करना चाहिए।",
+              "Japanese": "学生は教科書の主要な概念を相互参照すべきだ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "integration",
+        "word_translation": {
+          "Hindi": "एकीकरण",
+          "Japanese": "統合"
+        },
+        "meaning": "Combining different elements into a coherent whole",
+        "meaning_translation": {
+          "Hindi": "विभिन्न तत्वों को मिलाकर एक सुसंगत संपूर्ण बनाना",
+          "Japanese": "異なる要素を統合して一貫した全体を作ること"
+        },
+        "examples": [
+          {
+            "sentence": "Effective synthesis depends on seamless integration of evidence.",
+            "translation": {
+              "Hindi": "प्रभावी संश्लेषण साक्ष्यों के सहज एकीकरण पर निर्भर करता है।",
+              "Japanese": "効果的な統合は証拠のスムーズな統合に依存する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "coherence",
+        "word_translation": {
+          "Hindi": "सुसंगति",
+          "Japanese": "一貫性"
+        },
+        "meaning": "Logical and consistent connection of ideas",
+        "meaning_translation": {
+          "Hindi": "विचारों का तार्किक और सुसंगत जुड़ाव",
+          "Japanese": "論理的かつ一貫したアイデアのつながり"
+        },
+        "examples": [
+          {
+            "sentence": "Your essay needs more coherence between paragraphs.",
+            "translation": {
+              "Hindi": "आपके निबंध में अनुच्छेदों के बीच अधिक सुसंगति की आवश्यकता है।",
+              "Japanese": "あなたのエッセイには段落間の一貫性がもっと必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critical synthesis",
+        "word_translation": {
+          "Hindi": "आलोचनात्मक संश्लेषण",
+          "Japanese": "批判的統合"
+        },
+        "meaning": "Combining sources while evaluating their strengths and weaknesses",
+        "meaning_translation": {
+          "Hindi": "स्रोतों को जोड़ना और उनकी ताकत और कमजोरियों का मूल्यांकन करना",
+          "Japanese": "情報源を統合しつつ、その長所と短所を評価すること"
+        },
+        "examples": [
+          {
+            "sentence": "A critical synthesis shows you understand and judge your sources.",
+            "translation": {
+              "Hindi": "आलोचनात्मक संश्लेषण दिखाता है कि आप अपने स्रोतों को समझते और मूल्यांकन करते हैं।",
+              "Japanese": "批判的統合は情報源を理解し評価していることを示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "thematic grouping",
+        "word_translation": {
+          "Hindi": "विषयगत समूह बनाना",
+          "Japanese": "テーマ別グループ化"
+        },
+        "meaning": "Organizing information by common themes across sources",
+        "meaning_translation": {
+          "Hindi": "स्रोतों के बीच सामान्य विषयों के अनुसार जानकारी व्यवस्थित करना",
+          "Japanese": "複数の情報源を共通のテーマで整理すること"
+        },
+        "examples": [
+          {
+            "sentence": "Thematic grouping helps manage large numbers of articles.",
+            "translation": {
+              "Hindi": "विषयगत समूह बनाना बड़ी संख्या में लेखों को प्रबंधित करने में मदद करता है।",
+              "Japanese": "テーマ別グループ化は多数の記事を整理するのに役立つ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "source triangulation",
+        "word_translation": {
+          "Hindi": "स्रोत त्रिकोणन",
+          "Japanese": "情報源の三角測量"
+        },
+        "meaning": "Verifying information by checking multiple independent sources",
+        "meaning_translation": {
+          "Hindi": "कई स्वतंत्र स्रोतों की जाँच करके जानकारी की पुष्टि करना",
+          "Japanese": "複数の独立した情報源を確認して情報を検証すること"
+        },
+        "examples": [
+          {
+            "sentence": "Source triangulation improves research credibility.",
+            "translation": {
+              "Hindi": "स्रोत त्रिकोणन शोध की विश्वसनीयता को बढ़ाता है।",
+              "Japanese": "情報源の三角測量は研究の信頼性を高める。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "meta-analysis",
+        "word_translation": {
+          "Hindi": "मेटा-विश्लेषण",
+          "Japanese": "メタ分析"
+        },
+        "meaning": "A study that combines results from many studies to find patterns",
+        "meaning_translation": {
+          "Hindi": "एक अध्ययन जो कई अध्ययनों के परिणामों को जोड़कर पैटर्न खोजता है",
+          "Japanese": "複数の研究結果を組み合わせてパターンを見つける研究"
+        },
+        "examples": [
+          {
+            "sentence": "Meta-analysis is common in medical research.",
+            "translation": {
+              "Hindi": "मेटा-विश्लेषण चिकित्सा अनुसंधान में आम है।",
+              "Japanese": "メタ分析は医療研究でよく使われる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "comparative evaluation",
+        "word_translation": {
+          "Hindi": "तुलनात्मक मूल्यांकन",
+          "Japanese": "比較評価"
+        },
+        "meaning": "Assessing how sources differ in quality or approach",
+        "meaning_translation": {
+          "Hindi": "स्रोतों की गुणवत्ता या दृष्टिकोण में अंतर का मूल्यांकन करना",
+          "Japanese": "情報源が質やアプローチでどのように異なるかを評価すること"
+        },
+        "examples": [
+          {
+            "sentence": "Comparative evaluation shows which source is most reliable.",
+            "translation": {
+              "Hindi": "तुलनात्मक मूल्यांकन दिखाता है कि कौन सा स्रोत सबसे विश्वसनीय है।",
+              "Japanese": "比較評価はどの情報源が最も信頼できるかを示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "synthesis matrix",
+        "word_translation": {
+          "Hindi": "संश्लेषण मैट्रिक्स",
+          "Japanese": "統合マトリックス"
+        },
+        "meaning": "A table used to organize and compare key ideas across sources",
+        "meaning_translation": {
+          "Hindi": "स्रोतों के बीच प्रमुख विचारों को व्यवस्थित और तुलना करने के लिए उपयोग की जाने वाली तालिका",
+          "Japanese": "情報源間の主要なアイデアを整理・比較するための表"
+        },
+        "examples": [
+          {
+            "sentence": "Using a synthesis matrix helps keep track of complex literature.",
+            "translation": {
+              "Hindi": "संश्लेषण मैट्रिक्स का उपयोग जटिल साहित्य का ट्रैक रखने में मदद करता है।",
+              "Japanese": "統合マトリックスを使うと複雑な文献を整理しやすくなる。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Use Reporting Verbs Accurately",
+        "explanation": "Use verbs like 'argues', 'claims', 'demonstrates' when referencing sources.",
+        "explanation_translation": {
+          "Hindi": "स्रोतों को संदर्भित करते समय 'argues', 'claims', 'demonstrates' जैसे क्रियाओं का उपयोग करें।",
+          "Japanese": "情報源を参照する際には「argues」「claims」「demonstrates」などの動詞を正確に使いましょう。"
+        }
+      },
+      {
+        "title": "Combine Ideas with Cohesive Devices",
+        "explanation": "Use connectors like 'in contrast', 'similarly', and 'as a result' to merge sources smoothly.",
+        "explanation_translation": {
+          "Hindi": "'in contrast', 'similarly', और 'as a result' जैसे संयोजकों का उपयोग करके स्रोतों को सहजता से मिलाएँ।",
+          "Japanese": "「in contrast」「similarly」「as a result」などの接続詞を使って情報源をスムーズに統合しましょう。"
+        }
+      },
+      {
+        "title": "Maintain Neutral Academic Tone",
+        "explanation": "Avoid personal bias and keep the synthesis formal and evidence-based.",
+        "explanation_translation": {
+          "Hindi": "व्यक्तिगत पूर्वाग्रह से बचें और संश्लेषण को औपचारिक और साक्ष्य-आधारित रखें।",
+          "Japanese": "個人的な偏りを避け、統合を形式的かつ証拠に基づくものに保ちましょう。"
+        }
+      },
+      {
+        "title": "Signal Source Agreement or Disagreement",
+        "explanation": "Use phrases like 'converge on', 'diverge from', or 'contradicts' to show relationships.",
+        "explanation_translation": {
+          "Hindi": "'converge on', 'diverge from', या 'contradicts' जैसे वाक्यांशों का उपयोग करके स्रोतों के संबंध दिखाएँ।",
+          "Japanese": "「converge on」「diverge from」「contradicts」などの表現で情報源の関係を示しましょう。"
+        }
+      },
+      {
+        "title": "Summarize Before Integrating",
+        "explanation": "Briefly summarize each source before combining it into the argument.",
+        "explanation_translation": {
+          "Hindi": "किसी स्रोत को तर्क में मिलाने से पहले उसका संक्षिप्त सारांश दें।",
+          "Japanese": "議論に統合する前に各情報源を簡潔に要約しましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What does it mean to synthesize information?",
+      "question_translation": {
+        "Hindi": "जानकारी को संश्लेषित करने का क्या अर्थ है?",
+        "Japanese": "情報を統合するとはどういう意味ですか？"
+      },
+      "options": [
+        "Combine ideas from different sources into a new understanding",
+        "Copy exactly what each source says",
+        "List sources without connecting them"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Creating a ___ helps organize key ideas across multiple sources.",
+      "question_translation": {
+        "Hindi": "एक ___ बनाना कई स्रोतों के बीच प्रमुख विचारों को व्यवस्थित करने में मदद करता है।",
+        "Japanese": "複数の情報源の主要なアイデアを整理するのに___を作ると役立ちます。"
+      },
+      "options": [
+        "synthesis matrix",
+        "personal opinion",
+        "summary list"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Source triangulation means verifying information using multiple independent sources.",
+      "question_translation": {
+        "Hindi": "स्रोत त्रिकोणन का अर्थ है कई स्वतंत्र स्रोतों का उपयोग करके जानकारी की पुष्टि करना।",
+        "Japanese": "情報源の三角測量は複数の独立した情報源を使って情報を検証することを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "What is critical synthesis?",
+      "question_translation": {
+        "Hindi": "आलोचनात्मक संश्लेषण क्या है?",
+        "Japanese": "批判的統合とは何ですか？"
+      },
+      "options": [
+        "Combining sources while evaluating their strengths and weaknesses",
+        "Summarizing sources without judgement",
+        "Using only one source for reliability"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Grouping articles by common topics is called ___ grouping.",
+      "question_translation": {
+        "Hindi": "सामान्य विषयों के अनुसार लेखों को समूहित करना ___ समूह बनाना कहलाता है।",
+        "Japanese": "共通のテーマごとに記事をまとめることを___グループ化と呼びます。"
+      },
+      "options": [
+        "thematic",
+        "critical",
+        "logical"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "multipleChoice",
+      "question": "Which sentence shows synthesis?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य संश्लेषण को दर्शाता है?",
+        "Japanese": "どの文が統合を示していますか？"
+      },
+      "options": [
+        "Smith (2019) argues X, while Lee (2020) expands it by adding Y, showing how both studies align.",
+        "Smith (2019) argues X. Lee (2020) argues Y.",
+        "Smith (2019) and Lee (2020) wrote about the same topic."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Before integrating a source, you should briefly ___ it.",
+      "question_translation": {
+        "Hindi": "किसी स्रोत को मिलाने से पहले आपको उसे संक्षेप में ___ करना चाहिए।",
+        "Japanese": "情報源を統合する前に、まず簡単に___するべきです。"
+      },
+      "options": [
+        "summarize",
+        "ignore",
+        "quote fully"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [sources, multiple, synthesizing, means, ideas, from]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [sources, multiple, synthesizing, means, ideas, from]",
+        "Japanese": "並べ替え: [sources, multiple, synthesizing, means, ideas, from]"
+      },
+      "options": [
+        "synthesizing",
+        "means",
+        "combining",
+        "ideas",
+        "from",
+        "multiple",
+        "sources"
+      ],
+      "answer": [
+        "synthesizing",
+        "means",
+        "combining",
+        "ideas",
+        "from",
+        "multiple",
+        "sources"
+      ]
+    },
+    {
+      "id": "sent4",
+      "type": "multipleChoice",
+      "question": "Which sentence signals disagreement between sources?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य स्रोतों के बीच असहमति दिखाता है?",
+        "Japanese": "どの文が情報源間の不一致を示していますか？"
+      },
+      "options": [
+        "While Brown (2021) supports this theory, White (2022) contradicts it with new evidence.",
+        "Brown (2021) and White (2022) both discuss this topic.",
+        "Brown (2021) explains the main points clearly."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Use reporting verbs like 'argues' and 'claims' to ___ sources accurately.",
+      "question_translation": {
+        "Hindi": "'argues' और 'claims' जैसे क्रियाओं का उपयोग करके स्रोतों को सटीक रूप से ___ करें।",
+        "Japanese": "「argues」や「claims」などの動詞を使って情報源を正確に___します。"
+      },
+      "options": [
+        "reference",
+        "dismiss",
+        "ignore"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker doing?",
+      "audio_text": "Johnson (2018) found a link between sleep and memory, and Lee (2021) expanded this by showing its effect on learning outcomes.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या कर रहा है?",
+        "Japanese": "話者は何をしていますか？"
+      },
+      "options": [
+        "Synthesizing sources",
+        "Quoting one study",
+        "Ignoring evidence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker summarizes before integrating ideas.",
+      "audio_text": "First, Smith (2020) argues that climate change affects migration. Building on this, Chen (2022) explains its impact on urban planning.",
+      "question_translation": {
+        "Hindi": "वक्ता विचारों को जोड़ने से पहले सारांश प्रस्तुत करता है।",
+        "Japanese": "話者はアイデアを統合する前に要約しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which strategy is used here?",
+      "audio_text": "Several studies converge on the idea that exercise improves mental health, although some diverge on the extent of benefits.",
+      "question_translation": {
+        "Hindi": "यहाँ कौन सी रणनीति उपयोग की गई है?",
+        "Japanese": "ここで使われている戦略はどれですか？"
+      },
+      "options": [
+        "Signal agreement and disagreement",
+        "Summarize only one source",
+        "Provide no evidence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What technique helps validate the claims mentioned?",
+      "audio_text": "I confirmed this finding through source triangulation: comparing three independent studies.",
+      "question_translation": {
+        "Hindi": "कौन सी तकनीक बताए गए दावों की पुष्टि करने में मदद करती है?",
+        "Japanese": "述べられた主張を検証するのに役立つ技術はどれですか？"
+      },
+      "options": [
+        "Source triangulation",
+        "Summarization",
+        "Paraphrasing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker uses a synthesis matrix to organize studies.",
+      "audio_text": "I created a synthesis matrix to compare the key findings across the 10 papers I read.",
+      "question_translation": {
+        "Hindi": "वक्ता अध्ययनों को व्यवस्थित करने के लिए संश्लेषण मैट्रिक्स का उपयोग करता है।",
+        "Japanese": "話者は研究を整理するために統合マトリックスを使っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I can synthesize key ideas from multiple studies.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I can synthesize key ideas from multiple studies.'",
+        "Japanese": "言ってください: 'I can synthesize key ideas from multiple studies.'"
+      },
+      "options": [],
+      "answer": "i can synthesize key ideas from multiple studies"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'A synthesis matrix helps organize information.'",
+      "question_translation": {
+        "Hindi": "कहें: 'A synthesis matrix helps organize information.'",
+        "Japanese": "言ってください: 'A synthesis matrix helps organize information.'"
+      },
+      "options": [],
+      "answer": "a synthesis matrix helps organize information"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I use source triangulation to confirm reliability.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I use source triangulation to confirm reliability.'",
+        "Japanese": "言ってください: 'I use source triangulation to confirm reliability.'"
+      },
+      "options": [],
+      "answer": "i use source triangulation to confirm reliability"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Critical synthesis means evaluating each source.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Critical synthesis means evaluating each source.'",
+        "Japanese": "言ってください: 'Critical synthesis means evaluating each source.'"
+      },
+      "options": [],
+      "answer": "critical synthesis means evaluating each source"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I group research by themes before writing.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I group research by themes before writing.'",
+        "Japanese": "言ってください: 'I group research by themes before writing.'"
+      },
+      "options": [],
+      "answer": "i group research by themes before writing"
+    }
+  ]
+}
 }

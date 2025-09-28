@@ -1,4 +1,576 @@
 {
-  "id": 50,
-  "message": "This is file number 50"
+  "id": "lesson_exam_skills_001",
+  "lesson_name": "Exam Skills: Paraphrasing & Reformulation",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "paraphrase",
+        "word_translation": {
+          "Hindi": "पुनर्लेखन",
+          "Japanese": "言い換え"
+        },
+        "meaning": "To restate something using different words without changing the meaning",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को अलग शब्दों में दोबारा कहना बिना अर्थ बदले",
+          "Japanese": "意味を変えずに異なる言葉で言い直すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Original: She is very intelligent. Paraphrase: She is extremely smart.",
+            "translation": {
+              "Hindi": "मूल: वह बहुत बुद्धिमान है। पुनर्लेखन: वह अत्यंत चतुर है।",
+              "Japanese": "元文: 彼女はとても賢い。言い換え: 彼女は非常に頭がいい。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reformulation",
+        "word_translation": {
+          "Hindi": "पुनः संरचना",
+          "Japanese": "再構成"
+        },
+        "meaning": "Expressing the same idea in a new way, often to clarify or simplify",
+        "meaning_translation": {
+          "Hindi": "उसी विचार को नए तरीके से व्यक्त करना, अक्सर स्पष्ट या सरल बनाने के लिए",
+          "Japanese": "同じ考えを新しい方法で表現すること。多くは明確化や簡略化のため。"
+        },
+        "examples": [
+          {
+            "sentence": "Original: Due to the fact that it rained, the match was canceled. Reformulation: The match was canceled because it rained.",
+            "translation": {
+              "Hindi": "मूल: बारिश के कारण मैच रद्द हुआ। पुनः संरचना: मैच इसलिए रद्द हुआ क्योंकि बारिश हुई।",
+              "Japanese": "元文: 雨が降ったため試合は中止された。再構成: 試合は雨のため中止された。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "synonym",
+        "word_translation": {
+          "Hindi": "पर्यायवाची",
+          "Japanese": "同義語"
+        },
+        "meaning": "A word with the same or nearly the same meaning as another word",
+        "meaning_translation": {
+          "Hindi": "वह शब्द जिसका अर्थ किसी अन्य शब्द के समान या लगभग समान होता है",
+          "Japanese": "別の単語と同じ、またはほぼ同じ意味を持つ単語"
+        },
+        "examples": [
+          {
+            "sentence": "Big and large are synonyms.",
+            "translation": {
+              "Hindi": "Big और Large पर्यायवाची हैं।",
+              "Japanese": "BigとLargeは同義語です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "word form change",
+        "word_translation": {
+          "Hindi": "शब्द रूप परिवर्तन",
+          "Japanese": "語形変化"
+        },
+        "meaning": "Changing the grammatical form of a word to paraphrase",
+        "meaning_translation": {
+          "Hindi": "पुनर्लेखन के लिए किसी शब्द के व्याकरणिक रूप को बदलना",
+          "Japanese": "言い換えのために単語の文法的形を変えること"
+        },
+        "examples": [
+          {
+            "sentence": "Original: He decided to study. Reformulation: His decision was to study.",
+            "translation": {
+              "Hindi": "मूल: उसने पढ़ाई करने का निश्चय किया। पुनर्लेखन: उसका निश्चय पढ़ाई करना था।",
+              "Japanese": "元文: 彼は勉強することを決めた。再構成: 彼の決断は勉強することだった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "passive voice",
+        "word_translation": {
+          "Hindi": "कर्मवाच्य",
+          "Japanese": "受動態"
+        },
+        "meaning": "A grammatical form where the subject receives the action",
+        "meaning_translation": {
+          "Hindi": "एक व्याकरणिक रूप जिसमें कर्ता क्रिया का कार्य प्राप्त करता है",
+          "Japanese": "主語が動作を受ける文法形"
+        },
+        "examples": [
+          {
+            "sentence": "Active: They built a bridge. Passive: A bridge was built.",
+            "translation": {
+              "Hindi": "कर्तृवाच्य: उन्होंने एक पुल बनाया। कर्मवाच्य: एक पुल बनाया गया।",
+              "Japanese": "能動態: 彼らが橋を建てた。受動態: 橋が建てられた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cohesion",
+        "word_translation": {
+          "Hindi": "संबद्धता",
+          "Japanese": "結束性"
+        },
+        "meaning": "The quality of sentences linking smoothly together",
+        "meaning_translation": {
+          "Hindi": "वाक्यों का एक-दूसरे से सहजता से जुड़ा होना",
+          "Japanese": "文同士が滑らかにつながる性質"
+        },
+        "examples": [
+          {
+            "sentence": "Paraphrasing improves cohesion in writing.",
+            "translation": {
+              "Hindi": "पुनर्लेखन लेखन में संबद्धता को बेहतर बनाता है।",
+              "Japanese": "言い換えは文章の結束性を高める。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conciseness",
+        "word_translation": {
+          "Hindi": "संक्षिप्तता",
+          "Japanese": "簡潔さ"
+        },
+        "meaning": "The quality of expressing ideas clearly with fewer words",
+        "meaning_translation": {
+          "Hindi": "कम शब्दों में स्पष्ट रूप से विचार व्यक्त करने की गुणवत्ता",
+          "Japanese": "少ない言葉で明確に考えを表現する性質"
+        },
+        "examples": [
+          {
+            "sentence": "Reformulation often increases conciseness.",
+            "translation": {
+              "Hindi": "पुनः संरचना अक्सर संक्षिप्तता को बढ़ाती है।",
+              "Japanese": "再構成はしばしば簡潔さを高める。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "summarize",
+        "word_translation": {
+          "Hindi": "सारांश बनाना",
+          "Japanese": "要約する"
+        },
+        "meaning": "To state the main points of something briefly",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के मुख्य बिंदुओं को संक्षेप में प्रस्तुत करना",
+          "Japanese": "ある内容の要点を簡潔に述べること"
+        },
+        "examples": [
+          {
+            "sentence": "He summarized the article in two sentences.",
+            "translation": {
+              "Hindi": "उसने लेख का सारांश दो वाक्यों में प्रस्तुत किया।",
+              "Japanese": "彼は記事を2文で要約した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lexical variety",
+        "word_translation": {
+          "Hindi": "शब्द विविधता",
+          "Japanese": "語彙の多様性"
+        },
+        "meaning": "Using different words to express similar ideas",
+        "meaning_translation": {
+          "Hindi": "समान विचार व्यक्त करने के लिए विभिन्न शब्दों का प्रयोग",
+          "Japanese": "同じ考えを表すのに異なる言葉を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Good paraphrasing shows lexical variety.",
+            "translation": {
+              "Hindi": "अच्छा पुनर्लेखन शब्द विविधता को दिखाता है।",
+              "Japanese": "良い言い換えは語彙の多様性を示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "redundancy",
+        "word_translation": {
+          "Hindi": "अनावश्यक पुनरावृत्ति",
+          "Japanese": "冗長性"
+        },
+        "meaning": "Using more words than necessary",
+        "meaning_translation": {
+          "Hindi": "आवश्यकता से अधिक शब्दों का प्रयोग करना",
+          "Japanese": "必要以上の言葉を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Paraphrasing helps avoid redundancy.",
+            "translation": {
+              "Hindi": "पुनर्लेखन अनावश्यक पुनरावृत्ति से बचाता है।",
+              "Japanese": "言い換えは冗長性を避けるのに役立つ。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Change Word Forms",
+        "explanation": "Paraphrase by changing nouns into verbs or adjectives into adverbs. Example: The explanation was clear → He explained clearly.",
+        "explanation_translation": {
+          "Hindi": "शब्द रूप बदलकर पुनर्लेखन करें, जैसे संज्ञा को क्रिया या विशेषण को क्रियाविशेषण में। उदाहरण: The explanation was clear → He explained clearly.",
+          "Japanese": "名詞を動詞に、形容詞を副詞に変えて言い換えます。例: The explanation was clear → He explained clearly."
+        }
+      },
+      {
+        "title": "Use Synonyms",
+        "explanation": "Replace key words with synonyms that fit the context. Example: Children like sweets → Children enjoy candy.",
+        "explanation_translation": {
+          "Hindi": "मुख्य शब्दों को उपयुक्त पर्यायवाची से बदलें। उदाहरण: Children like sweets → Children enjoy candy.",
+          "Japanese": "重要な単語を文脈に合った同義語に置き換えます。例: Children like sweets → Children enjoy candy."
+        }
+      },
+      {
+        "title": "Change the Structure",
+        "explanation": "Rearrange sentence parts or switch from active to passive voice. Example: They built a bridge → A bridge was built.",
+        "explanation_translation": {
+          "Hindi": "वाक्य संरचना बदलें या कर्तृवाच्य से कर्मवाच्य में बदलें। उदाहरण: They built a bridge → A bridge was built.",
+          "Japanese": "文の構造を変える、または能動態から受動態に変えます。例: They built a bridge → A bridge was built."
+        }
+      },
+      {
+        "title": "Use Different Connectors",
+        "explanation": "Replace linking words with alternatives. Example: Because it rained, the game was canceled → Due to the rain, the game was canceled.",
+        "explanation_translation": {
+          "Hindi": "संयोजक शब्दों को विकल्प से बदलें। उदाहरण: Because it rained, the game was canceled → Due to the rain, the game was canceled.",
+          "Japanese": "接続詞を別のものに置き換えます。例: Because it rained, the game was canceled → Due to the rain, the game was canceled."
+        }
+      },
+      {
+        "title": "Summarize When Needed",
+        "explanation": "Sometimes paraphrasing requires shortening the text into a summary. Example: He explained the topic in detail → He summarized the topic.",
+        "explanation_translation": {
+          "Hindi": "कभी-कभी पुनर्लेखन में पाठ को संक्षिप्त कर सारांश बनाना पड़ता है। उदाहरण: He explained the topic in detail → He summarized the topic.",
+          "Japanese": "時には言い換えで文章を短縮し要約する必要があります。例: He explained the topic in detail → He summarized the topic."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means expressing the same idea with different words?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द अलग शब्दों से वही विचार व्यक्त करने का अर्थ देता है?",
+        "Japanese": "どの言葉が異なる言葉で同じ考えを表現することを意味しますか？"
+      },
+      "options": [
+        "paraphrase",
+        "summarize",
+        "redundancy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Paraphrasing often uses ___ to replace key words.",
+      "question_translation": {
+        "Hindi": "पुनर्लेखन अक्सर मुख्य शब्दों को बदलने के लिए ___ का उपयोग करता है।",
+        "Japanese": "言い換えでは重要な単語を置き換えるために___をよく使います。"
+      },
+      "options": [
+        "synonyms",
+        "antonyms",
+        "redundancies"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Reformulation always makes sentences longer.",
+      "question_translation": {
+        "Hindi": "पुनः संरचना हमेशा वाक्यों को लंबा बना देती है।",
+        "Japanese": "再構成は常に文を長くします。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which grammar change is common in paraphrasing?",
+      "question_translation": {
+        "Hindi": "पुनर्लेखन में कौन सा व्याकरणिक परिवर्तन आम है?",
+        "Japanese": "言い換えでよく使われる文法的な変化はどれですか？"
+      },
+      "options": [
+        "Changing active to passive voice",
+        "Adding redundancy",
+        "Removing the subject"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Paraphrasing helps avoid ___ in writing.",
+      "question_translation": {
+        "Hindi": "पुनर्लेखन लेखन में ___ से बचने में मदद करता है।",
+        "Japanese": "言い換えは文章の中で___を避けるのに役立ちます。"
+      },
+      "options": [
+        "redundancy",
+        "clarity",
+        "cohesion"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [built, was, bridge, the, by, workers]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [built, was, bridge, the, by, workers]",
+        "Japanese": "並べ替え: [built, was, bridge, the, by, workers]"
+      },
+      "options": [
+        "built",
+        "was",
+        "bridge",
+        "the",
+        "by",
+        "workers"
+      ],
+      "answer": [
+        "The",
+        "bridge",
+        "was",
+        "built",
+        "by",
+        "workers"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Children enjoy candy. → Children ___ sweets.",
+      "question_translation": {
+        "Hindi": "बच्चों को कैंडी पसंद है। → बच्चों को ___ मिठाई पसंद है।",
+        "Japanese": "子どもたちはキャンディが好きです。→ 子どもたちは___お菓子が好きです。"
+      },
+      "options": [
+        "like",
+        "hate",
+        "avoid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is the best paraphrase of: 'He decided to leave early'?",
+      "question_translation": {
+        "Hindi": "'He decided to leave early' का सबसे अच्छा पुनर्लेखन कौन सा है?",
+        "Japanese": "「He decided to leave early」の最も良い言い換えはどれですか？"
+      },
+      "options": [
+        "He made a decision to leave early.",
+        "He leaving early decision.",
+        "He was decided leave early."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [was, because, match, canceled, rain, of, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [was, because, match, canceled, rain, of, the]",
+        "Japanese": "並べ替え: [was, because, match, canceled, rain, of, the]"
+      },
+      "options": [
+        "was",
+        "because",
+        "match",
+        "canceled",
+        "rain",
+        "of",
+        "the"
+      ],
+      "answer": [
+        "The",
+        "match",
+        "was",
+        "canceled",
+        "because",
+        "of",
+        "rain"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Paraphrase: 'He gave a clear explanation.' → He explained ___.",
+      "question_translation": {
+        "Hindi": "'He gave a clear explanation.' → उसने ___ समझाया।",
+        "Japanese": "「He gave a clear explanation.」→ 彼は___説明しました。"
+      },
+      "options": [
+        "clearly",
+        "clear",
+        "clarity"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the paraphrased meaning?",
+      "audio_text": "The exam was canceled due to the storm.",
+      "question_translation": {
+        "Hindi": "पुनर्लेखित अर्थ क्या है?",
+        "Japanese": "言い換えた意味は何ですか？"
+      },
+      "options": [
+        "The exam was canceled because of the storm.",
+        "The exam happened during the storm.",
+        "The exam was canceled after the storm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker’s sentence is a reformulation.",
+      "audio_text": "She didn’t attend the meeting because she was sick. → She missed the meeting due to illness.",
+      "question_translation": {
+        "Hindi": "वक्ता का वाक्य एक पुनः संरचना है।",
+        "Japanese": "話者の文は再構成です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which version is shorter but same meaning?",
+      "audio_text": "He explained the topic in detail. → He summarized the topic.",
+      "question_translation": {
+        "Hindi": "कौन सा संस्करण छोटा है लेकिन अर्थ वही है?",
+        "Japanese": "どのバージョンが短いが意味は同じですか？"
+      },
+      "options": [
+        "Summarized the topic",
+        "Explained in detail",
+        "Ignored the topic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Which paraphrase matches?",
+      "audio_text": "They built a bridge. → A bridge was built.",
+      "question_translation": {
+        "Hindi": "कौन सा पुनर्लेखन मेल खाता है?",
+        "Japanese": "どの言い換えが一致しますか？"
+      },
+      "options": [
+        "Passive voice",
+        "Active voice",
+        "Redundant sentence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker used synonyms to paraphrase.",
+      "audio_text": "He is very intelligent. → He is extremely smart.",
+      "question_translation": {
+        "Hindi": "वक्ता ने पुनर्लेखन के लिए पर्यायवाची का उपयोग किया।",
+        "Japanese": "話者は言い換えに同義語を使いました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'She is extremely smart.' (paraphrase of 'She is very intelligent.')",
+      "question_translation": {
+        "Hindi": "कहें: 'She is extremely smart.' ('She is very intelligent.' का पुनर्लेखन)",
+        "Japanese": "言ってください: 'She is extremely smart.'（「She is very intelligent.」の言い換え）"
+      },
+      "options": [],
+      "answer": "she is extremely smart"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The meeting was canceled because it rained.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The meeting was canceled because it rained.'",
+        "Japanese": "言ってください: 'The meeting was canceled because it rained.'"
+      },
+      "options": [],
+      "answer": "the meeting was canceled because it rained"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'A bridge was built.' (paraphrase of 'They built a bridge.')",
+      "question_translation": {
+        "Hindi": "कहें: 'A bridge was built.' ('They built a bridge.' का पुनर्लेखन)",
+        "Japanese": "言ってください: 'A bridge was built.'（「They built a bridge.」の言い換え）"
+      },
+      "options": [],
+      "answer": "a bridge was built"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'He summarized the article in two sentences.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He summarized the article in two sentences.'",
+        "Japanese": "言ってください: 'He summarized the article in two sentences.'"
+      },
+      "options": [],
+      "answer": "he summarized the article in two sentences"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'She missed the meeting due to illness.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She missed the meeting due to illness.'",
+        "Japanese": "言ってください: 'She missed the meeting due to illness.'"
+      },
+      "options": [],
+      "answer": "she missed the meeting due to illness"
+    }
+  ]
+}
 }

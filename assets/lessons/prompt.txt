@@ -1,83 +1,540 @@
-You are an expert English language content creator.
+system prompt:
+You are an expert English lesson creator.
+Topic will be given.
 
-Create a lesson on the topic: "Participating in Panel Debates" for CEFR level C2.
+Commands:
 
-Follow this JSON structure exactly:
+If I give lesson name only → output JSON without question_pools.
+
+If I say “pool” → output JSON with only question_pools without outer {} but with question_pools key.
+
+Always follow this structure (keys exact):
 
 {
-  "id": "<unique_lesson_id>",
-  "lesson_name": "<topic name>",
-  "purpose": "<purpose or user type, e.g., All, Travel, Business>",
-  "cefrLevel": "<CEFR level, e.g., A1>",
+  "id": "lesson_life_experiences_001",
+  "lesson_name": "Describing Life Experiences",
+  "purpose": "All",
+  "cefrLevel": "B1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "<word1>", "meaning": "<simple definition>" },
-      { "word": "<word2>", "meaning": "<simple definition>" }
-      // Add more as needed
+      {
+        "word": "experience",
+        "word_translation": {
+          "Hindi": "अनुभव",
+          "Japanese": "経験"
+        },
+        "meaning": "Something that happens to you that affects how you feel or what you know",
+        "meaning_translation": {
+          "Hindi": "आपके साथ घटित कुछ जो आपकी भावनाओं या ज्ञान को प्रभावित करता है",
+          "Japanese": "あなたの感情や知識に影響を与える出来事"
+        },
+        "examples": [
+          {
+            "sentence": "Traveling alone was an amazing experience for me.",
+            "translation": {
+              "Hindi": "अकेले यात्रा करना मेरे लिए एक अद्भुत अनुभव था।",
+              "Japanese": "一人旅は私にとって素晴らしい経験でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "memorable",
+        "word_translation": {
+          "Hindi": "यादगार",
+          "Japanese": "記憶に残る"
+        },
+        "meaning": "Worth remembering or easily remembered",
+        "meaning_translation": {
+          "Hindi": "याद रखने योग्य या आसानी से याद आने वाला",
+          "Japanese": "覚えておく価値がある、または簡単に思い出せる"
+        },
+        "examples": [
+          {
+            "sentence": "My graduation day was the most memorable event of my life.",
+            "translation": {
+              "Hindi": "मेरा स्नातक दिवस मेरे जीवन की सबसे यादगार घटना थी।",
+              "Japanese": "卒業式は私の人生で最も記憶に残る出来事でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "challenging",
+        "word_translation": {
+          "Hindi": "चुनौतीपूर्ण",
+          "Japanese": "挑戦的な"
+        },
+        "meaning": "Difficult in a way that tests your ability or determination",
+        "meaning_translation": {
+          "Hindi": "कठिन जो आपकी क्षमता या दृढ़ संकल्प की परीक्षा लेता है",
+          "Japanese": "あなたの能力や決意を試すような困難な"
+        },
+        "examples": [
+          {
+            "sentence": "Learning a new language has been challenging but rewarding.",
+            "translation": {
+              "Hindi": "एक नई भाषा सीखना चुनौतीपूर्ण लेकिन फायदेमंद रहा है।",
+              "Japanese": "新しい言語を学ぶことは挑戦的でしたが、やりがいがありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "achievement",
+        "word_translation": {
+          "Hindi": "उपलब्धि",
+          "Japanese": "達成"
+        },
+        "meaning": "Something good that you have done that was difficult",
+        "meaning_translation": {
+          "Hindi": "कुछ अच्छा जो आपने किया है जो कठिन था",
+          "Japanese": "困難だったが成し遂げた良いこと"
+        },
+        "examples": [
+          {
+            "sentence": "Getting my driver's license was a big achievement for me.",
+            "translation": {
+              "Hindi": "ड्राइविंग लाइसेंस प्राप्त करना मेरे लिए एक बड़ी उपलब्धि थी।",
+              "Japanese": "運転免許を取得したことは私にとって大きな達成でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "overcome",
+        "word_translation": {
+          "Hindi": "पार करना",
+          "Japanese": "克服する"
+        },
+        "meaning": "To successfully deal with or control a problem",
+        "meaning_translation": {
+          "Hindi": "किसी समस्या से सफलतापूर्वक निपटना या नियंत्रित करना",
+          "Japanese": "問題にうまく対処したり、コントロールしたりすること"
+        },
+        "examples": [
+          {
+            "sentence": "She overcame her fear of public speaking through practice.",
+            "translation": {
+              "Hindi": "उसने अभ्यास के माध्यम से सार्वजनिक बोलने के अपने डर को पार किया।",
+              "Japanese": "彼女は練習を通じて人前で話す恐怖を克服しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "milestone",
+        "word_translation": {
+          "Hindi": "मील का पत्थर",
+          "Japanese": "節目"
+        },
+        "meaning": "An important event in the development or history of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के विकास या इतिहास में एक महत्वपूर्ण घटना",
+          "Japanese": "何かの発展や歴史における重要な出来事"
+        },
+        "examples": [
+          {
+            "sentence": "Moving to a new country was a major milestone in my life.",
+            "translation": {
+              "Hindi": "एक नए देश में जाना मेरे जीवन में एक प्रमुख मील का पत्थर था।",
+              "Japanese": "新しい国に引っ越すことは私の人生の大きな節目でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "turning point",
+        "word_translation": {
+          "Hindi": "निर्णायक मोड़",
+          "Japanese": "転換点"
+        },
+        "meaning": "A time when an important change happens",
+        "meaning_translation": {
+          "Hindi": "वह समय जब कोई महत्वपूर्ण परिवर्तन होता है",
+          "Japanese": "重要な変化が起こる時"
+        },
+        "examples": [
+          {
+            "sentence": "Meeting my mentor was a turning point in my career.",
+            "translation": {
+              "Hindi": "अपने गुरु से मिलना मेरे करियर में एक निर्णायक मोड़ था।",
+              "Japanese": "メンターとの出会いは私のキャリアの転換点でした।"
+            }
+          }
+        ]
+      },
+      {
+        "word": "life-changing",
+        "word_translation": {
+          "Hindi": "जीवन बदलने वाला",
+          "Japanese": "人生を変える"
+        },
+        "meaning": "Having such a big effect that it changes someone's life",
+        "meaning_translation": {
+          "Hindi": "इतना बड़ा प्रभाव जो किसी के जीवन को बदल दे",
+          "Japanese": "誰かの人生を変えるほど大きな影響を持つ"
+        },
+        "examples": [
+          {
+            "sentence": "Studying abroad was a life-changing experience.",
+            "translation": {
+              "Hindi": "विदेश में अध्ययन करना जीवन बदलने वाला अनुभव था।",
+              "Japanese": "留学は人生を変える経験でした。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "<Short grammar tip title>",
-        "explanation": "<1-2 line explanation with a simple example>"
-      }
-      // Add more as needed
-    ],
-    "example_sentences": [
+        "title": "Present Perfect for Life Experiences",
+        "explanation": "Use 'have/has + past participle' to talk about experiences up to now. Example: I have traveled to many countries.",
+        "explanation_translation": {
+          "Hindi": "अब तक के अनुभवों के बारे में बात करने के लिए 'have/has + past participle' का उपयोग करें। उदाहरण: I have traveled to many countries.",
+          "Japanese": "今までの経験について話すときは「have/has + 過去分詞」を使います。例：I have traveled to many countries."
+        }
+      },
       {
-        "sentence": "<example sentence using lesson vocabulary/grammar>",
-        "translation": ""
+        "title": "Past Simple for Specific Past Events",
+        "explanation": "Use past simple when you mention when something happened. Example: I graduated in 2020.",
+        "explanation_translation": {
+          "Hindi": "जब आप बताते हैं कि कुछ कब हुआ तो past simple का उपयोग करें। उदाहरण: I graduated in 2020.",
+          "Japanese": "いつ起こったかを述べるときは過去形を使います。例：I graduated in 2020."
+        }
+      },
+      {
+        "title": "Used to for Past Habits",
+        "explanation": "Use 'used to + verb' for past habits or states that are no longer true. Example: I used to be shy, but now I'm confident.",
+        "explanation_translation": {
+          "Hindi": "अतीत की आदतों या स्थितियों के लिए 'used to + verb' का उपयोग करें जो अब सच नहीं हैं। उदाहरण: I used to be shy, but now I'm confident.",
+          "Japanese": "もはや真実ではない過去の習慣や状態には「used to + 動詞」を使います。例：I used to be shy, but now I'm confident."
+        }
       }
-      // Add more as needed
     ]
   },
   "question_pools": {
     "vocabulary": [
       {
-        "id": "<unique_question_id>",
-        "type": "multipleChoice" or "fillInTheBlanks" or "trueFalse",
-        "question": "<question text>",
-        "options": ["<option1>", "<option2>", "<option3>"],
-        "answer": <correct_option_index>
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What word describes something worth remembering?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द याद रखने योग्य चीज़ का वर्णन करता है?",
+          "Japanese": "覚えておく価値があることを表す言葉は何ですか？"
+        },
+        "options": [
+          "memorable",
+          "forgettable",
+          "ordinary"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Getting my degree was a major ___ in my life.",
+        "question_translation": {
+          "Hindi": "अपनी डिग्री प्राप्त करना मेरे जीवन में एक प्रमुख ___ था।",
+          "Japanese": "学位を取得することは私の人生の大きな___でした。"
+        },
+        "options": [
+          "mistake",
+          "milestone",
+          "problem"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "An achievement is something difficult that you have successfully done.",
+        "question_translation": {
+          "Hindi": "उपलब्धि वह कठिन चीज़ है जिसे आपने सफलतापूर्वक किया है।",
+          "Japanese": "達成とは、あなたが成功裏に成し遂げた困難なことです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which phrase means 'a time when an important change happens'?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश 'महत्वपूर्ण परिवर्तन का समय' का अर्थ है?",
+          "Japanese": "「重要な変化が起こる時」を意味するフレーズはどれですか？"
+        },
+        "options": [
+          "daily routine",
+          "turning point",
+          "free time"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "She ___ her fear of heights by climbing mountains.",
+        "question_translation": {
+          "Hindi": "उसने पहाड़ों पर चढ़कर अपने ऊंचाई के डर को ___।",
+          "Japanese": "彼女は山登りをして高所恐怖症を___。"
+        },
+        "options": [
+          "overcame",
+          "increased",
+          "ignored"
+        ],
+        "answer": 0
       }
-      // Add at least 5 questions for variety
     ],
     "sentence": [
       {
-        "id": "<unique_question_id>",
-        "type": "fillInTheBlanks" or "sentenceRearranging",
-        "question": "<question text or arrangement task>",
-        "options": ["<option1>", "<option2>", ...],
-        "answer": <correct_option_index or array>
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [have, I, many, traveled, to, countries]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [have, I, many, traveled, to, countries]",
+          "Japanese": "並べ替え: [have, I, many, traveled, to, countries]"
+        },
+        "options": [
+          "have",
+          "I",
+          "many",
+          "traveled",
+          "to",
+          "countries"
+        ],
+        "answer": [
+          "I",
+          "have",
+          "traveled",
+          "to",
+          "many",
+          "countries"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I ___ to be afraid of speaking in public.",
+        "question_translation": {
+          "Hindi": "मैं सार्वजनिक रूप से बोलने से ___ डरता था।",
+          "Japanese": "私は人前で話すのが___怖かった。"
+        },
+        "options": [
+          "used",
+          "use",
+          "using"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is grammatically correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य व्याकरणिक रूप से सही है?",
+          "Japanese": "文法的に正しい文はどれですか？"
+        },
+        "options": [
+          "I have graduated last year.",
+          "I graduated last year.",
+          "I am graduated last year."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [was, experience, it, life-changing, a]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [was, experience, it, life-changing, a]",
+          "Japanese": "並べ替え: [was, experience, it, life-changing, a]"
+        },
+        "options": [
+          "was",
+          "experience",
+          "it",
+          "life-changing",
+          "a"
+        ],
+        "answer": [
+          "it",
+          "was",
+          "a",
+          "life-changing",
+          "experience"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "That event ___ a turning point in my career.",
+        "question_translation": {
+          "Hindi": "वह घटना मेरे करियर में एक निर्णायक मोड़ ___।",
+          "Japanese": "その出来事は私のキャリアの転換点___。"
+        },
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": 0
       }
-      // Add at least 5 questions
     ],
     "listening": [
       {
-        "id": "<unique_question_id>",
-        "type": "listening",
-        "question": "<question prompt for listening>",
-        "options": ["<option1>", "<option2>", "<option3>"],
-        "answer": <correct_option_index>
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What experience is the speaker describing?",
+        "audio_text": "Moving to Japan was a life-changing experience for me.",
+        "question_translation": {
+          "Hindi": "वक्ता किस अनुभव का वर्णन कर रहा है?",
+          "Japanese": "話者はどのような経験を説明していますか？"
+        },
+        "options": [
+          "Moving to Japan",
+          "Learning Japanese",
+          "Visiting Japan"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What did the person overcome?",
+        "audio_text": "I finally overcame my fear of public speaking.",
+        "question_translation": {
+          "Hindi": "व्यक्ति ने किस चीज़ को पार किया?",
+          "Japanese": "その人は何を克服しましたか？"
+        },
+        "options": [
+          "Fear of heights",
+          "Fear of public speaking",
+          "Fear of traveling"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker mentions a challenging experience.",
+        "audio_text": "Starting my own business was challenging but rewarding.",
+        "question_translation": {
+          "Hindi": "वक्ता एक चुनौतीपूर्ण अनुभव का उल्लेख करता है।",
+          "Japanese": "話者は挑戦的な経験について言及しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "When did the speaker graduate?",
+        "audio_text": "I graduated from university in 2019.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कब स्नातक किया?",
+          "Japanese": "話者はいつ卒業しましたか？"
+        },
+        "options": [
+          "2018",
+          "2019",
+          "2020"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What was a turning point for the speaker?",
+        "audio_text": "Meeting my mentor was a turning point in my life.",
+        "question_translation": {
+          "Hindi": "वक्ता के लिए निर्णायक मोड़ क्या था?",
+          "Japanese": "話者にとっての転換点は何でしたか？"
+        },
+        "options": [
+          "Getting a job",
+          "Meeting a mentor",
+          "Going to school"
+        ],
+        "answer": 1
       }
-      // Add at least 5 questions
     ],
     "speaking": [
       {
-        "id": "<unique_question_id>",
+        "id": "speak1",
         "type": "speaking",
-        "question": "<prompt for the learner to say>",
+        "question": "Say: 'I have had many memorable experiences.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I have had many memorable experiences.'",
+          "Japanese": "言ってください: 'I have had many memorable experiences.'"
+        },
         "options": [],
-        "answer": "<target sentence to be spoken>"
+        "answer": "i have had many memorable experiences"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'It was a life-changing moment.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It was a life-changing moment.'",
+          "Japanese": "言ってください: 'It was a life-changing moment.'"
+        },
+        "options": [],
+        "answer": "it was a life changing moment"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I used to be very shy.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I used to be very shy.'",
+          "Japanese": "言ってください: 'I used to be very shy.'"
+        },
+        "options": [],
+        "answer": "i used to be very shy"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'That was a turning point in my career.'",
+        "question_translation": {
+          "Hindi": "कहें: 'That was a turning point in my career.'",
+          "Japanese": "言ってください: 'That was a turning point in my career.'"
+        },
+        "options": [],
+        "answer": "that was a turning point in my career"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I have overcome many challenges.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I have overcome many challenges.'",
+          "Japanese": "言ってください: 'I have overcome many challenges.'"
+        },
+        "options": [],
+        "answer": "i have overcome many challenges"
       }
-      // Add at least 5 prompts
     ]
   }
 }
 
-**Instructions:**
-- Make sure the vocabulary and questions are suitable for the given CEFR level.
-- Use simple, clear English.
-- Keep all field names and structure exactly as shown.
-- For options and answers, always keep the correct answer index accurate.
-- Fill all pools with at least 5 varied questions each.
-- Do NOT include any explanations outside the JSON—return only valid JSON.
+
+Rules:
+
+Vocabulary: ≥10 word, translations (Hindi/Japanese), meaning + translations, 1+ example with translations.
+
+Grammar tips: title, explanation, translations.
+
+Question pools: ≥5 per section. Each Q has id, type, question, question_translation, options, answer. Speaking Qs → return answer as lowercase sentence.
+
+Use clear English suitable for C2 CEFR level.
+
+Output must be valid ```JSON only, no extra text.

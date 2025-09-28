@@ -1,4 +1,547 @@
 {
-  "id": 26,
-  "message": "This is file number 26"
+  "id": "lesson_negotiation_001",
+  "lesson_name": "Negotiating & Reaching Agreements",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "compromise",
+        "word_translation": {
+          "Hindi": "समझौता",
+          "Japanese": "妥協"
+        },
+        "meaning": "An agreement where both sides give up part of what they want",
+        "meaning_translation": {
+          "Hindi": "एक ऐसा समझौता जिसमें दोनों पक्ष अपनी कुछ इच्छाएँ छोड़ते हैं",
+          "Japanese": "双方が一部を譲る合意"
+        },
+        "examples": [
+          {
+            "sentence": "They reached a compromise after hours of discussion.",
+            "translation": {
+              "Hindi": "घंटों की चर्चा के बाद वे एक समझौते पर पहुँचे।",
+              "Japanese": "数時間の議論の後、彼らは妥協に達しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concession",
+        "word_translation": {
+          "Hindi": "रियायत",
+          "Japanese": "譲歩"
+        },
+        "meaning": "Something you give up in order to reach an agreement",
+        "meaning_translation": {
+          "Hindi": "समझौते तक पहुँचने के लिए कुछ छोड़ना",
+          "Japanese": "合意に達するために譲ること"
+        },
+        "examples": [
+          {
+            "sentence": "The company made a concession to satisfy the union.",
+            "translation": {
+              "Hindi": "कंपनी ने यूनियन को संतुष्ट करने के लिए एक रियायत दी।",
+              "Japanese": "会社は組合を満足させるために譲歩しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mutual",
+        "word_translation": {
+          "Hindi": "आपसी",
+          "Japanese": "相互の"
+        },
+        "meaning": "Shared by two or more people or groups",
+        "meaning_translation": {
+          "Hindi": "दो या अधिक लोगों या समूहों द्वारा साझा किया गया",
+          "Japanese": "二人以上で共有されること"
+        },
+        "examples": [
+          {
+            "sentence": "They came to a mutual decision on the contract.",
+            "translation": {
+              "Hindi": "उन्होंने अनुबंध पर एक आपसी निर्णय लिया।",
+              "Japanese": "彼らは契約について相互の決定に達しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bargain",
+        "word_translation": {
+          "Hindi": "सौदा / मोलभाव करना",
+          "Japanese": "交渉する"
+        },
+        "meaning": "To try to reach a better deal through discussion",
+        "meaning_translation": {
+          "Hindi": "चर्चा के माध्यम से बेहतर सौदा करने की कोशिश करना",
+          "Japanese": "議論を通じてより良い取引を得ようとすること"
+        },
+        "examples": [
+          {
+            "sentence": "They bargained for a lower price on the car.",
+            "translation": {
+              "Hindi": "उन्होंने कार की कम कीमत के लिए मोलभाव किया।",
+              "Japanese": "彼らは車の値段を下げるために交渉しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "counteroffer",
+        "word_translation": {
+          "Hindi": "प्रति-प्रस्ताव",
+          "Japanese": "対案"
+        },
+        "meaning": "A new offer made in response to another offer",
+        "meaning_translation": {
+          "Hindi": "किसी प्रस्ताव के जवाब में दिया गया नया प्रस्ताव",
+          "Japanese": "他の提案に対して行われる新しい提案"
+        },
+        "examples": [
+          {
+            "sentence": "She rejected the offer and made a counteroffer.",
+            "translation": {
+              "Hindi": "उसने प्रस्ताव को अस्वीकार कर एक प्रति-प्रस्ताव दिया।",
+              "Japanese": "彼女は提案を拒否し、対案を出しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "settlement",
+        "word_translation": {
+          "Hindi": "निपटारा",
+          "Japanese": "解決"
+        },
+        "meaning": "An official agreement that ends an argument or dispute",
+        "meaning_translation": {
+          "Hindi": "एक आधिकारिक समझौता जो विवाद को समाप्त करता है",
+          "Japanese": "争いを終わらせる正式な合意"
+        },
+        "examples": [
+          {
+            "sentence": "The legal dispute ended with a financial settlement.",
+            "translation": {
+              "Hindi": "कानूनी विवाद का अंत एक वित्तीय निपटारे से हुआ।",
+              "Japanese": "法的紛争は金銭的な解決で終わりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "win-win",
+        "word_translation": {
+          "Hindi": "दोनों के लिए फायदेमंद",
+          "Japanese": "双方に有利な"
+        },
+        "meaning": "A situation where both sides benefit",
+        "meaning_translation": {
+          "Hindi": "एक स्थिति जिसमें दोनों पक्षों को लाभ होता है",
+          "Japanese": "双方に利益がある状況"
+        },
+        "examples": [
+          {
+            "sentence": "They looked for a win-win solution in the negotiation.",
+            "translation": {
+              "Hindi": "उन्होंने बातचीत में दोनों के लिए फायदेमंद समाधान खोजा।",
+              "Japanese": "彼らは交渉で双方に有利な解決策を探しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "agreement",
+        "word_translation": {
+          "Hindi": "समझौता",
+          "Japanese": "合意"
+        },
+        "meaning": "A shared decision made after discussion",
+        "meaning_translation": {
+          "Hindi": "चर्चा के बाद किया गया साझा निर्णय",
+          "Japanese": "議論の後に達した共同の決定"
+        },
+        "examples": [
+          {
+            "sentence": "Both companies signed an agreement to work together.",
+            "translation": {
+              "Hindi": "दोनों कंपनियों ने साथ काम करने के लिए एक समझौते पर हस्ताक्षर किए।",
+              "Japanese": "両社は協力するために合意に署名しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "negotiate",
+        "word_translation": {
+          "Hindi": "बातचीत करना",
+          "Japanese": "交渉する"
+        },
+        "meaning": "To discuss something formally in order to reach an agreement",
+        "meaning_translation": {
+          "Hindi": "समझौते तक पहुँचने के लिए औपचारिक रूप से चर्चा करना",
+          "Japanese": "合意に達するために正式に話し合うこと"
+        },
+        "examples": [
+          {
+            "sentence": "They negotiated the terms of the contract carefully.",
+            "translation": {
+              "Hindi": "उन्होंने अनुबंध की शर्तों पर सावधानीपूर्वक बातचीत की।",
+              "Japanese": "彼らは契約条件について慎重に交渉しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "consensus",
+        "word_translation": {
+          "Hindi": "सर्वसम्मति",
+          "Japanese": "合意・コンセンサス"
+        },
+        "meaning": "General agreement among a group",
+        "meaning_translation": {
+          "Hindi": "किसी समूह के बीच सामान्य सहमति",
+          "Japanese": "グループ間の一般的な合意"
+        },
+        "examples": [
+          {
+            "sentence": "The team reached a consensus on the new strategy.",
+            "translation": {
+              "Hindi": "टीम नई रणनीति पर सर्वसम्मति तक पहुँची।",
+              "Japanese": "チームは新しい戦略について合意に達しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Conditionals in Negotiation",
+        "explanation": "Use conditionals to suggest terms. Example: 'If you lower the price, we will buy more units.'",
+        "explanation_translation": {
+          "Hindi": "शर्तों का सुझाव देने के लिए conditionals का उपयोग करें। उदाहरण: 'If you lower the price, we will buy more units.'",
+          "Japanese": "条件を提案する際に条件文を使います。例: 'If you lower the price, we will buy more units.'"
+        }
+      },
+      {
+        "title": "Polite Modals for Agreements",
+        "explanation": "Use 'could', 'would', or 'might' to sound polite in negotiation. Example: 'We could consider your proposal.'",
+        "explanation_translation": {
+          "Hindi": "विनम्रता दिखाने के लिए 'could', 'would', या 'might' का उपयोग करें। उदाहरण: 'We could consider your proposal.'",
+          "Japanese": "丁寧さを示すために「could」「would」「might」を使います。例: 'We could consider your proposal.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'an agreement where both sides give up part of what they want'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'एक समझौता जिसमें दोनों पक्ष अपनी कुछ इच्छाएँ छोड़ते हैं' का अर्थ देता है?",
+        "Japanese": "双方が一部を譲る合意を意味する単語はどれですか？"
+      },
+      "options": [
+        "compromise",
+        "consensus",
+        "counteroffer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The union made a demand, and the company responded with a ___.",
+      "question_translation": {
+        "Hindi": "यूनियन ने मांग रखी, और कंपनी ने एक ___ के साथ जवाब दिया।",
+        "Japanese": "組合が要求を出し、会社は___で応じました。"
+      },
+      "options": [
+        "counteroffer",
+        "consensus",
+        "mutual"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Win-win’ means a solution where only one side benefits.",
+      "question_translation": {
+        "Hindi": "‘Win-win’ का अर्थ है एक ऐसा समाधान जिसमें केवल एक पक्ष को लाभ हो।",
+        "Japanese": "「Win-win」とは一方だけが利益を得る解決策を意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word refers to 'general agreement among a group'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'किसी समूह के बीच सामान्य सहमति' को संदर्भित करता है?",
+        "Japanese": "「グループ間の一般的な合意」を指す単語はどれですか？"
+      },
+      "options": [
+        "consensus",
+        "settlement",
+        "bargain"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "After weeks of talks, both sides finally reached a ___ on the issue.",
+      "question_translation": {
+        "Hindi": "सप्ताहों की बातचीत के बाद, दोनों पक्ष अंततः मुद्दे पर एक ___ पर पहुँचे।",
+        "Japanese": "数週間の協議の後、双方はついにその問題について___に達しました。"
+      },
+      "options": [
+        "agreement",
+        "bargain",
+        "compromise"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [reached, compromise, a, they]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [reached, compromise, a, they]",
+        "Japanese": "並べ替え: [reached, compromise, a, they]"
+      },
+      "options": [
+        "reached",
+        "compromise",
+        "a",
+        "they"
+      ],
+      "answer": [
+        "they",
+        "reached",
+        "a",
+        "compromise"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The lawyer advised his client to accept the financial ___.",
+      "question_translation": {
+        "Hindi": "वकील ने अपने मुवक्किल को वित्तीय ___ स्वीकार करने की सलाह दी।",
+        "Japanese": "弁護士は依頼人に金銭的な___を受け入れるよう助言しました。"
+      },
+      "options": [
+        "settlement",
+        "consensus",
+        "counteroffer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "They negotiated the contract terms carefully.",
+        "They negotiate the contract terms yesterday.",
+        "They negotiating the contract terms last week."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [looked, solution, for, win-win, they, a]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [looked, solution, for, win-win, they, a]",
+        "Japanese": "並べ替え: [looked, solution, for, win-win, they, a]"
+      },
+      "options": [
+        "looked",
+        "solution",
+        "for",
+        "win-win",
+        "they",
+        "a"
+      ],
+      "answer": [
+        "they",
+        "looked",
+        "for",
+        "a",
+        "win-win",
+        "solution"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Both sides made ___ to reach an agreement.",
+      "question_translation": {
+        "Hindi": "दोनों पक्षों ने समझौते तक पहुँचने के लिए ___ किए।",
+        "Japanese": "双方は合意に達するために___を行いました。"
+      },
+      "options": [
+        "concessions",
+        "agreements",
+        "offers"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What was the outcome of the talks?",
+      "audio_text": "After hours of negotiation, they reached a compromise.",
+      "question_translation": {
+        "Hindi": "बातचीत का परिणाम क्या था?",
+        "Japanese": "交渉の結果はどうなりましたか？"
+      },
+      "options": [
+        "They reached a compromise",
+        "They rejected all offers",
+        "They postponed the decision"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker mentions that both sides benefited equally.",
+      "audio_text": "It was a win-win solution for everyone involved.",
+      "question_translation": {
+        "Hindi": "वक्ता ने बताया कि दोनों पक्षों को समान लाभ हुआ।",
+        "Japanese": "話者は両者が同等に利益を得たと述べています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What did the company offer?",
+      "audio_text": "The company responded with a counteroffer to the union’s demand.",
+      "question_translation": {
+        "Hindi": "कंपनी ने क्या पेशकश की?",
+        "Japanese": "会社は何を提案しましたか？"
+      },
+      "options": [
+        "A consensus",
+        "A settlement",
+        "A counteroffer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "How was the dispute resolved?",
+      "audio_text": "The legal dispute ended with a financial settlement.",
+      "question_translation": {
+        "Hindi": "विवाद का समाधान कैसे हुआ?",
+        "Japanese": "法的紛争はどのように解決されましたか？"
+      },
+      "options": [
+        "With a settlement",
+        "With a compromise",
+        "With a bargain"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The team could not reach a consensus.",
+      "audio_text": "The team reached a consensus on the new plan.",
+      "question_translation": {
+        "Hindi": "टीम सर्वसम्मति तक नहीं पहुँच पाई।",
+        "Japanese": "チームは新しい計画について合意に達しませんでした。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'They reached a compromise after long discussions.'",
+      "question_translation": {
+        "Hindi": "कहें: 'They reached a compromise after long discussions.'",
+        "Japanese": "言ってください: 'They reached a compromise after long discussions.'"
+      },
+      "options": [],
+      "answer": "they reached a compromise after long discussions"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The company made a concession during the talks.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The company made a concession during the talks.'",
+        "Japanese": "言ってください: 'The company made a concession during the talks.'"
+      },
+      "options": [],
+      "answer": "the company made a concession during the talks"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Both parties signed the agreement.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Both parties signed the agreement.'",
+        "Japanese": "言ってください: 'Both parties signed the agreement.'"
+      },
+      "options": [],
+      "answer": "both parties signed the agreement"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The negotiation ended with a win-win solution.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The negotiation ended with a win-win solution.'",
+        "Japanese": "言ってください: 'The negotiation ended with a win-win solution.'"
+      },
+      "options": [],
+      "answer": "the negotiation ended with a win win solution"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The team reached a consensus on the new strategy.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The team reached a consensus on the new strategy.'",
+        "Japanese": "言ってください: 'The team reached a consensus on the new strategy.'"
+      },
+      "options": [],
+      "answer": "the team reached a consensus on the new strategy"
+    }
+  ]
+}
+
 }

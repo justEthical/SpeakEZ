@@ -1,187 +1,573 @@
 {
-  "id": "lesson_ethical_dilemmas_c1_001",
-  "lesson_name": "Debating Ethical Dilemmas",
+  "id": "lesson_inversion_emphasis_style_c1",
+  "lesson_name": "Inversion for Emphasis & Style",
   "purpose": "All",
   "cefrLevel": "C1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "ethical", "meaning": "related to moral principles of right and wrong" },
-      { "word": "dilemma", "meaning": "a situation where you must choose between two difficult options" },
-      { "word": "justify", "meaning": "to show or prove that something is right" },
-      { "word": "consequence", "meaning": "the result of an action or decision" },
-      { "word": "perspective", "meaning": "a point of view or way of seeing things" },
-      { "word": "controversial", "meaning": "causing disagreement or discussion" },
-      { "word": "morality", "meaning": "beliefs about what is right or wrong" },
-      { "word": "integrity", "meaning": "honesty and strong moral principles" },
-      { "word": "rationalize", "meaning": "to try to explain or justify with logical reasons" },
-      { "word": "principle", "meaning": "a basic rule or belief that guides actions" }
+      {
+        "word": "inversion",
+        "word_translation": {
+          "Hindi": "विलोम संरचना",
+          "Japanese": "倒置"
+        },
+        "meaning": "Reversing the normal word order (subject + verb) for emphasis or style",
+        "meaning_translation": {
+          "Hindi": "ज़ोर देने या शैली के लिए सामान्य शब्द क्रम (कर्त्ता + क्रिया) को उलटना",
+          "Japanese": "強調や文体のために通常の語順（主語＋動詞）を逆にすること"
+        },
+        "examples": [
+          {
+            "sentence": "Never have I seen such a beautiful sunset.",
+            "translation": {
+              "Hindi": "इतना सुंदर सूर्यास्त मैंने कभी नहीं देखा।",
+              "Japanese": "こんな美しい夕日を見たことがない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "negative adverbials",
+        "word_translation": {
+          "Hindi": "नकारात्मक क्रिया विशेषण",
+          "Japanese": "否定副詞"
+        },
+        "meaning": "Words like 'never', 'rarely', 'seldom' that trigger inversion when placed at the start",
+        "meaning_translation": {
+          "Hindi": "'never', 'rarely', 'seldom' जैसे शब्द जो वाक्य की शुरुआत में होने पर उलटफेर करते हैं",
+          "Japanese": "文頭に置かれると倒置を引き起こす「never」「rarely」「seldom」などの語"
+        },
+        "examples": [
+          {
+            "sentence": "Rarely had she felt so nervous before an exam.",
+            "translation": {
+              "Hindi": "कभी-कभी ही उसने परीक्षा से पहले इतना घबराहट महसूस किया था।",
+              "Japanese": "試験の前にこれほど緊張したことはめったにない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conditional inversion",
+        "word_translation": {
+          "Hindi": "शर्तीय उलटफेर",
+          "Japanese": "条件倒置"
+        },
+        "meaning": "Using inversion instead of 'if' in conditionals",
+        "meaning_translation": {
+          "Hindi": "शर्तीय वाक्यों में 'if' की जगह उलटफेर का उपयोग",
+          "Japanese": "条件文で「if」の代わりに倒置を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Had I known about the traffic, I would have left earlier.",
+            "translation": {
+              "Hindi": "अगर मुझे ट्रैफ़िक के बारे में पता होता, तो मैं पहले निकल जाता।",
+              "Japanese": "交通渋滞を知っていたら、もっと早く出発していただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "so + adjective inversion",
+        "word_translation": {
+          "Hindi": "इतना + विशेषण उलटफेर",
+          "Japanese": "so＋形容詞の倒置"
+        },
+        "meaning": "Inversion triggered by 'so + adjective + that…' constructions",
+        "meaning_translation": {
+          "Hindi": "'so + adjective + that…' संरचना द्वारा प्रेरित उलटफेर",
+          "Japanese": "「so＋形容詞＋that…」構文で倒置が起こる"
+        },
+        "examples": [
+          {
+            "sentence": "So difficult was the exam that many students failed.",
+            "translation": {
+              "Hindi": "परीक्षा इतनी कठिन थी कि कई छात्र असफल हो गए।",
+              "Japanese": "試験はあまりに難しかったので、多くの学生が落ちた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "not only... but also inversion",
+        "word_translation": {
+          "Hindi": "न केवल... बल्कि उलटफेर",
+          "Japanese": "not only... but also の倒置"
+        },
+        "meaning": "Inversion used with correlative structures for emphasis",
+        "meaning_translation": {
+          "Hindi": "ज़ोर देने के लिए युग्म संरचनाओं के साथ प्रयोग किया गया उलटफेर",
+          "Japanese": "強調のために相関構造と一緒に使う倒置"
+        },
+        "examples": [
+          {
+            "sentence": "Not only did he win the match, but he also broke the record.",
+            "translation": {
+              "Hindi": "उसने न केवल मैच जीता बल्कि रिकॉर्ड भी तोड़ा।",
+              "Japanese": "彼は試合に勝っただけでなく、記録も破った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "place/time inversion",
+        "word_translation": {
+          "Hindi": "स्थान/समय उलटफेर",
+          "Japanese": "場所・時間の倒置"
+        },
+        "meaning": "When adverbials of place/time come first, inversion can occur",
+        "meaning_translation": {
+          "Hindi": "जब स्थान/समय के क्रिया विशेषण पहले आते हैं, तब उलटफेर हो सकता है",
+          "Japanese": "場所や時間の副詞句が最初に来ると倒置が起こることがある"
+        },
+        "examples": [
+          {
+            "sentence": "At the end of the street stood an old oak tree.",
+            "translation": {
+              "Hindi": "सड़क के अंत में एक पुराना ओक का पेड़ खड़ा था।",
+              "Japanese": "通りの端に古いオークの木が立っていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphatic inversion",
+        "word_translation": {
+          "Hindi": "ज़ोरदार उलटफेर",
+          "Japanese": "強調の倒置"
+        },
+        "meaning": "Inversion used to give dramatic emphasis",
+        "meaning_translation": {
+          "Hindi": "नाटकीय ज़ोर देने के लिए उपयोग किया गया उलटफेर",
+          "Japanese": "劇的な強調のために使われる倒置"
+        },
+        "examples": [
+          {
+            "sentence": "Only then did I understand the meaning of her words.",
+            "translation": {
+              "Hindi": "तभी मैंने उसके शब्दों का अर्थ समझा।",
+              "Japanese": "その時初めて彼女の言葉の意味が分かった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "literary inversion",
+        "word_translation": {
+          "Hindi": "साहित्यिक उलटफेर",
+          "Japanese": "文語的倒置"
+        },
+        "meaning": "Inversion used in poetry or formal writing for stylistic effect",
+        "meaning_translation": {
+          "Hindi": "काव्य या औपचारिक लेखन में शैलीगत प्रभाव के लिए प्रयुक्त उलटफेर",
+          "Japanese": "詩や形式的な文章で文体効果のために用いられる倒置"
+        },
+        "examples": [
+          {
+            "sentence": "Gone are the days when people wrote letters by hand.",
+            "translation": {
+              "Hindi": "वे दिन चले गए जब लोग हाथ से पत्र लिखते थे।",
+              "Japanese": "人々が手紙を書いていた時代は過ぎ去った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fronting",
+        "word_translation": {
+          "Hindi": "सामने लाना",
+          "Japanese": "前置"
+        },
+        "meaning": "Placing an element at the beginning of a sentence for focus, sometimes causing inversion",
+        "meaning_translation": {
+          "Hindi": "ध्यान केंद्रित करने के लिए वाक्य की शुरुआत में किसी तत्व को रखना, जो कभी-कभी उलटफेर का कारण बनता है",
+          "Japanese": "焦点を当てるために要素を文頭に置くことで、倒置が起こることがある"
+        },
+        "examples": [
+          {
+            "sentence": "Such was his anger that everyone remained silent.",
+            "translation": {
+              "Hindi": "उसका गुस्सा ऐसा था कि सब चुप रहे।",
+              "Japanese": "彼の怒りはそれほど強かったので、皆黙っていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "scarcely... when inversion",
+        "word_translation": {
+          "Hindi": "जैसे ही... तभी उलटफेर",
+          "Japanese": "scarcely... when の倒置"
+        },
+        "meaning": "Used to express that one event happened immediately after another",
+        "meaning_translation": {
+          "Hindi": "यह व्यक्त करने के लिए प्रयोग किया जाता है कि एक घटना के तुरंत बाद दूसरी हुई",
+          "Japanese": "ある出来事の直後に別の出来事が起こったことを表す"
+        },
+        "examples": [
+          {
+            "sentence": "Scarcely had I sat down when the phone rang.",
+            "translation": {
+              "Hindi": "जैसे ही मैं बैठा, तभी फोन बजा।",
+              "Japanese": "腰を下ろした途端、電話が鳴った。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using Conditionals for Debates",
-        "explanation": "Use conditionals (if, unless) to discuss possible outcomes. Example: 'If everyone lied, trust would be impossible.'"
+        "title": "Negative Adverbials",
+        "explanation": "Place negative adverbs like 'never', 'rarely', 'seldom' at the start to trigger inversion. Example: 'Never have I seen such chaos.'",
+        "explanation_translation": {
+          "Hindi": "नकारात्मक क्रिया विशेषण जैसे 'never', 'rarely', 'seldom' को शुरुआत में रखें ताकि उलटफेर हो। उदाहरण: 'Never have I seen such chaos.'",
+          "Japanese": "否定副詞「never」「rarely」「seldom」を文頭に置くと倒置が起こる。例：'Never have I seen such chaos.'"
+        }
       },
       {
-        "title": "Expressing Opinions Politely",
-        "explanation": "Use phrases like 'I believe', 'In my view', or 'It seems to me' for respectful debate."
+        "title": "Conditional Inversion",
+        "explanation": "Replace 'if' with inversion for formality. Example: 'Had I known → If I had known'.",
+        "explanation_translation": {
+          "Hindi": "'if' को उलटफेर से बदलें औपचारिकता के लिए। उदाहरण: 'Had I known → If I had known'.",
+          "Japanese": "形式的にするために「if」を倒置に置き換える。例：'Had I known → If I had known'."
+        }
+      },
+      {
+        "title": "So/Such Inversion",
+        "explanation": "Use 'so' or 'such' at the start for emphasis. Example: 'So difficult was the task that many gave up.'",
+        "explanation_translation": {
+          "Hindi": "ज़ोर देने के लिए 'so' या 'such' का प्रयोग शुरुआत में करें। उदाहरण: 'So difficult was the task that many gave up.'",
+          "Japanese": "強調のために文頭に「so」や「such」を使う。例：'So difficult was the task that many gave up.'"
+        }
+      },
+      {
+        "title": "Scarcely/Hardly Inversion",
+        "explanation": "For events happening one after another, use 'scarcely/hardly + had + subject + past participle + when/before'.",
+        "explanation_translation": {
+          "Hindi": "लगातार होने वाली घटनाओं के लिए 'scarcely/hardly + had + subject + past participle + when/before' का प्रयोग करें।",
+          "Japanese": "出来事が立て続けに起こるとき「scarcely/hardly + had + 主語 + 過去分詞 + when/before」を使う。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "It's difficult to make the ethical choice when both options have consequences.", "translation": "" },
-      { "sentence": "Some dilemmas have no clear right or wrong answer.", "translation": "" },
-      { "sentence": "From her perspective, honesty is always the best policy.", "translation": "" },
-      { "sentence": "He tried to justify his decision with logical reasons.", "translation": "" },
-      { "sentence": "Integrity means doing the right thing even when no one is watching.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What does 'dilemma' mean?",
-        "options": ["A simple decision", "A difficult choice between two options", "A type of discussion"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which sentence demonstrates inversion with a negative adverb?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य नकारात्मक क्रिया विशेषण के साथ उलटफेर दर्शाता है?",
+        "Japanese": "否定副詞を伴う倒置を示す文はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "___ means honesty and strong moral principles.",
-        "options": ["consequence", "integrity", "perspective"],
-        "answer": 1
+      "options": [
+        "Never have I been so surprised.",
+        "I never have been so surprised.",
+        "I have never been so surprised."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "___ had I entered the room when the lights went out.",
+      "question_translation": {
+        "Hindi": "जैसे ही मैं कमरे में ___, रोशनी चली गई।",
+        "Japanese": "部屋に___途端、電気が消えた。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "A controversial issue always has a clear solution.",
-        "options": ["True", "False"],
-        "answer": 1
+      "options": [
+        "Scarcely",
+        "Always",
+        "Usually"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Conditional inversion can replace 'if' in formal writing.",
+      "question_translation": {
+        "Hindi": "औपचारिक लेखन में शर्तीय उलटफेर 'if' को बदल सकता है।",
+        "Japanese": "条件倒置は形式的な文章で「if」の代わりに使える。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which word means 'to show something is right'?",
-        "options": ["justify", "rationalize", "consequence"],
-        "answer": 0
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which sentence uses 'so + adjective' inversion?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य 'so + adjective' उलटफेर का उपयोग करता है?",
+        "Japanese": "「so＋形容詞」の倒置を使っている文はどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What is a 'principle'?",
-        "options": ["A type of argument", "A basic rule or belief", "A moral problem"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "If you value ___, you will try to be honest even in tough situations.",
-        "options": ["controversial", "integrity", "consequence"],
-        "answer": 1
+      "options": [
+        "So cold was the night that no one went outside.",
+        "The night was so cold that no one went outside.",
+        "It was cold, so no one went outside."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Not only ___ he finish the report, but he also presented it.",
+      "question_translation": {
+        "Hindi": "न केवल उसने रिपोर्ट ___, बल्कि उसने उसे प्रस्तुत भी किया।",
+        "Japanese": "彼はレポートを___だけでなく、それを発表もした。"
       },
-      {
-        "id": "sent2",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [often, are, ethical, dilemmas, controversial]",
-        "options": ["often", "are", "ethical", "dilemmas", "controversial"],
-        "answer": ["Ethical", "dilemmas", "are", "often", "controversial"]
+      "options": [
+        "did",
+        "he did",
+        "done"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [stood, the, tree, street, of, the, end, at]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [stood, the, tree, street, of, the, end, at]",
+        "Japanese": "並べ替え: [stood, the, tree, street, of, the, end, at]"
       },
-      {
-        "id": "sent3",
-        "type": "fillInTheBlanks",
-        "question": "We must consider the ___ of our decisions.",
-        "options": ["consequences", "perspectives", "justifications"],
-        "answer": 0
+      "options": [
+        "stood",
+        "the",
+        "tree",
+        "street",
+        "of",
+        "the",
+        "end",
+        "at"
+      ],
+      "answer": [
+        "At",
+        "the",
+        "end",
+        "of",
+        "the",
+        "street",
+        "stood",
+        "the",
+        "tree"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Only then ___ the truth become clear.",
+      "question_translation": {
+        "Hindi": "तभी सच ___ स्पष्ट हुआ।",
+        "Japanese": "その時初めて真実が___明らかになった。"
       },
-      {
-        "id": "sent4",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [his, tried, to, rationalize, he, mistake]",
-        "options": ["his", "tried", "to", "rationalize", "he", "mistake"],
-        "answer": ["He", "tried", "to", "rationalize", "his", "mistake"]
+      "options": [
+        "did",
+        "was",
+        "has"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is the inverted version of 'If I had known, I would have left early'?",
+      "question_translation": {
+        "Hindi": "'If I had known, I would have left early' का उलटा संस्करण कौन सा है?",
+        "Japanese": "「If I had known, I would have left early」の倒置形はどれですか？"
       },
-      {
-        "id": "sent5",
-        "type": "fillInTheBlanks",
-        "question": "___ is the study of what is right and wrong.",
-        "options": ["Morality", "Perspective", "Dilemma"],
-        "answer": 0
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "If someone says, 'It's not always easy to do the right thing,' what topic are they discussing?",
-        "options": ["entertainment", "ethical dilemmas", "weather"],
-        "answer": 1
+      "options": [
+        "Had I known, I would have left early.",
+        "Known I had, I would have left early.",
+        "If known had I, I would have left early."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [her, never, words, understood, I, have]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [her, never, words, understood, I, have]",
+        "Japanese": "並べ替え: [her, never, words, understood, I, have]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "Which phrase is used to express an opinion politely?",
-        "options": ["I believe", "You are wrong", "Never"],
-        "answer": 0
+      "options": [
+        "her",
+        "never",
+        "words",
+        "understood",
+        "I",
+        "have"
+      ],
+      "answer": [
+        "Never",
+        "have",
+        "I",
+        "understood",
+        "her",
+        "words"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Such ___ his determination that he never gave up.",
+      "question_translation": {
+        "Hindi": "उसका संकल्प इतना ___ था कि उसने कभी हार नहीं मानी।",
+        "Japanese": "彼の決意はそれほど___で、彼は決して諦めなかった。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "If a person says, 'If everyone cheated, there would be no trust,' what grammar structure do they use?",
-        "options": ["past tense", "conditional", "imperative"],
-        "answer": 1
+      "options": [
+        "was",
+        "is",
+        "has"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is emphasized in the sentence?",
+      "audio_text": "Never before had the city seen such a festival.",
+      "question_translation": {
+        "Hindi": "इस वाक्य में किस पर ज़ोर दिया गया है?",
+        "Japanese": "この文で強調されているのは何ですか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "What is the consequence in: 'If you lie, people may not trust you'?",
-        "options": ["People may not trust you", "Lying", "Perspective"],
-        "answer": 0
+      "options": [
+        "The uniqueness of the festival",
+        "The usuality of the festival",
+        "The small scale of the festival"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The phrase 'Had I known' is an example of conditional inversion.",
+      "audio_text": "Had I known about the problem, I would have called you earlier.",
+      "question_translation": {
+        "Hindi": "'Had I known' वाक्यांश शर्तीय उलटफेर का उदाहरण है।",
+        "Japanese": "「Had I known」という句は条件倒置の例である。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "Which word best fits: 'She always acts with ___'?",
-        "options": ["controversy", "integrity", "dilemma"],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'In my view, honesty is the most important principle.'",
-        "options": [],
-        "answer": "In my view, honesty is the most important principle."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What was so difficult according to the speaker?",
+      "audio_text": "So difficult was the exam that many students failed.",
+      "question_translation": {
+        "Hindi": "वक्ता के अनुसार इतना कठिन क्या था?",
+        "Japanese": "話者によると、何がそんなに難しかったのですか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'If everyone told the truth, the world would be a better place.'",
-        "options": [],
-        "answer": "If everyone told the truth, the world would be a better place."
+      "options": [
+        "The exam",
+        "The teacher",
+        "The homework"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The speaker says: 'Scarcely ___ I sat down when the phone rang.'",
+      "audio_text": "Scarcely had I sat down when the phone rang.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'Scarcely ___ I sat down when the phone rang.'",
+        "Japanese": "話者は「Scarcely ___ I sat down when the phone rang.」と言います。"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'Ethical dilemmas often have no simple solution.'",
-        "options": [],
-        "answer": "Ethical dilemmas often have no simple solution."
+      "options": [
+        "had",
+        "was",
+        "have"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which event happened first?",
+      "audio_text": "Hardly had she arrived when the meeting started.",
+      "question_translation": {
+        "Hindi": "कौन सी घटना पहले हुई?",
+        "Japanese": "どちらの出来事が先に起こりましたか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'We must consider the consequences before making a decision.'",
-        "options": [],
-        "answer": "We must consider the consequences before making a decision."
+      "options": [
+        "She arrived",
+        "The meeting started",
+        "They happened at the same time"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Never have I seen such beauty.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Never have I seen such beauty.'",
+        "Japanese": "言ってください: 'Never have I seen such beauty.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'He tried to justify his actions, but the morality was still questionable.'",
-        "options": [],
-        "answer": "He tried to justify his actions, but the morality was still questionable."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "never have i seen such beauty"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Had I known, I would have acted differently.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Had I known, I would have acted differently.'",
+        "Japanese": "言ってください: 'Had I known, I would have acted differently.'"
+      },
+      "options": [],
+      "answer": "had i known i would have acted differently"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'So strong was the storm that many trees fell.'",
+      "question_translation": {
+        "Hindi": "कहें: 'So strong was the storm that many trees fell.'",
+        "Japanese": "言ってください: 'So strong was the storm that many trees fell.'"
+      },
+      "options": [],
+      "answer": "so strong was the storm that many trees fell"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Not only did she win, but she also inspired others.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Not only did she win, but she also inspired others.'",
+        "Japanese": "言ってください: 'Not only did she win, but she also inspired others.'"
+      },
+      "options": [],
+      "answer": "not only did she win but she also inspired others"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Scarcely had I reached home when it started raining.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Scarcely had I reached home when it started raining.'",
+        "Japanese": "言ってください: 'Scarcely had I reached home when it started raining.'"
+      },
+      "options": [],
+      "answer": "scarcely had i reached home when it started raining"
+    }
+  ]
+}
+
 }

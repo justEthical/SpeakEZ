@@ -1,4 +1,539 @@
 {
-  "id": 47,
-  "message": "This is file number 47"
+  "id": "lesson_interpreting_ambiguity_polysemy_001",
+  "lesson_name": "Interpreting Ambiguity & Polysemy",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "ambiguity",
+        "word_translation": {
+          "Hindi": "अस्पष्टता",
+          "Japanese": "曖昧さ"
+        },
+        "meaning": "The quality of being open to more than one interpretation",
+        "meaning_translation": {
+          "Hindi": "एक से अधिक व्याख्या के लिए खुला होना",
+          "Japanese": "複数の解釈が可能なこと"
+        },
+        "examples": [
+          {
+            "sentence": "The sentence had ambiguity because it was poorly structured.",
+            "translation": {
+              "Hindi": "वाक्य में अस्पष्टता थी क्योंकि यह खराब संरचित था।",
+              "Japanese": "その文は構造が悪いため曖昧さがあった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "polysemy",
+        "word_translation": {
+          "Hindi": "अनेकार्थकता",
+          "Japanese": "多義性"
+        },
+        "meaning": "The coexistence of many possible meanings for a single word",
+        "meaning_translation": {
+          "Hindi": "एक शब्द के लिए कई संभावित अर्थों का सह-अस्तित्व",
+          "Japanese": "単一の単語に複数の意味が共存すること"
+        },
+        "examples": [
+          {
+            "sentence": "The word 'bank' shows polysemy because it can mean a riverbank or a financial institution.",
+            "translation": {
+              "Hindi": "'Bank' शब्द अनेकार्थकता दिखाता है क्योंकि इसका अर्थ नदी का किनारा या वित्तीय संस्था हो सकता है।",
+              "Japanese": "「bank」という単語は川岸や銀行を意味するため多義性を示している。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contextual disambiguation",
+        "word_translation": {
+          "Hindi": "संदर्भ आधारित अस्पष्टता हटाना",
+          "Japanese": "文脈による曖昧さ解消"
+        },
+        "meaning": "Using context to determine the intended meaning of a word or phrase",
+        "meaning_translation": {
+          "Hindi": "किसी शब्द या वाक्यांश का इच्छित अर्थ समझने के लिए संदर्भ का उपयोग करना",
+          "Japanese": "文脈を使って単語やフレーズの意図された意味を特定すること"
+        },
+        "examples": [
+          {
+            "sentence": "Contextual disambiguation helps interpret ambiguous headlines.",
+            "translation": {
+              "Hindi": "संदर्भ आधारित अस्पष्टता हटाना अस्पष्ट सुर्खियों को समझने में मदद करता है।",
+              "Japanese": "文脈による曖昧さ解消は曖昧な見出しを解釈するのに役立つ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "homonym",
+        "word_translation": {
+          "Hindi": "समनाम",
+          "Japanese": "同形異義語"
+        },
+        "meaning": "A word that is spelled and pronounced the same but has different meanings",
+        "meaning_translation": {
+          "Hindi": "एक ऐसा शब्द जो समान वर्तनी और उच्चारण रखता है लेकिन अर्थ अलग होते हैं",
+          "Japanese": "同じつづりと発音を持つが意味が異なる単語"
+        },
+        "examples": [
+          {
+            "sentence": "‘Bark’ as a dog sound and tree covering is a homonym.",
+            "translation": {
+              "Hindi": "‘Bark’ (कुत्ते की आवाज़ और पेड़ की छाल) एक समनाम है।",
+              "Japanese": "犬の鳴き声と木の皮の「bark」は同形異義語である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lexical ambiguity",
+        "word_translation": {
+          "Hindi": "शब्द अस्पष्टता",
+          "Japanese": "語彙の曖昧さ"
+        },
+        "meaning": "Ambiguity caused by a single word having multiple meanings",
+        "meaning_translation": {
+          "Hindi": "एक शब्द के कई अर्थ होने से उत्पन्न अस्पष्टता",
+          "Japanese": "一つの単語が複数の意味を持つことによる曖昧さ"
+        },
+        "examples": [
+          {
+            "sentence": "The word 'light' creates lexical ambiguity as it means 'not heavy' or 'illumination'.",
+            "translation": {
+              "Hindi": "'Light' शब्द शब्द अस्पष्टता उत्पन्न करता है क्योंकि इसका अर्थ 'हल्का' या 'प्रकाश' हो सकता है।",
+              "Japanese": "「light」という単語は「軽い」と「光」を意味するため語彙の曖昧さを生む。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "syntactic ambiguity",
+        "word_translation": {
+          "Hindi": "वाक्यगत अस्पष्टता",
+          "Japanese": "統語的曖昧さ"
+        },
+        "meaning": "Ambiguity caused by the structure or grammar of a sentence",
+        "meaning_translation": {
+          "Hindi": "वाक्य की संरचना या व्याकरण से उत्पन्न अस्पष्टता",
+          "Japanese": "文の構造や文法によって生じる曖昧さ"
+        },
+        "examples": [
+          {
+            "sentence": "‘I saw the man with the telescope’ shows syntactic ambiguity.",
+            "translation": {
+              "Hindi": "'I saw the man with the telescope' वाक्य वाक्यगत अस्पष्टता दिखाता है।",
+              "Japanese": "「I saw the man with the telescope」は統語的曖昧さを示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pragmatic inference",
+        "word_translation": {
+          "Hindi": "व्यावहारिक निष्कर्ष",
+          "Japanese": "語用論的推論"
+        },
+        "meaning": "Understanding meaning beyond literal words based on context and intent",
+        "meaning_translation": {
+          "Hindi": "संदर्भ और उद्देश्य के आधार पर शब्दशः से परे अर्थ को समझना",
+          "Japanese": "文脈や意図に基づいて文字通りを超えた意味を理解すること"
+        },
+        "examples": [
+          {
+            "sentence": "Pragmatic inference helps detect sarcasm in ambiguous sentences.",
+            "translation": {
+              "Hindi": "व्यावहारिक निष्कर्ष अस्पष्ट वाक्यों में व्यंग्य पहचानने में मदद करता है।",
+              "Japanese": "語用論的推論は曖昧な文で皮肉を見抜くのに役立つ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "semantic range",
+        "word_translation": {
+          "Hindi": "अर्थ क्षेत्र",
+          "Japanese": "意味範囲"
+        },
+        "meaning": "The set of possible meanings a word can have",
+        "meaning_translation": {
+          "Hindi": "किसी शब्द के संभावित अर्थों की सीमा",
+          "Japanese": "単語が持つ可能な意味の範囲"
+        },
+        "examples": [
+          {
+            "sentence": "A dictionary shows the semantic range of a term.",
+            "translation": {
+              "Hindi": "एक शब्दकोश किसी शब्द का अर्थ क्षेत्र दिखाता है।",
+              "Japanese": "辞書は単語の意味範囲を示す。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "interpretive clarity",
+        "word_translation": {
+          "Hindi": "व्याख्यात्मक स्पष्टता",
+          "Japanese": "解釈の明確さ"
+        },
+        "meaning": "The state of understanding meaning clearly and avoiding confusion",
+        "meaning_translation": {
+          "Hindi": "अर्थ को स्पष्ट रूप से समझने और भ्रम से बचने की स्थिति",
+          "Japanese": "意味を明確に理解し混乱を避ける状態"
+        },
+        "examples": [
+          {
+            "sentence": "Writers aim for interpretive clarity to avoid misreading.",
+            "translation": {
+              "Hindi": "लेखक गलत पढ़ने से बचने के लिए व्याख्यात्मक स्पष्टता का लक्ष्य रखते हैं।",
+              "Japanese": "著者は誤読を避けるために解釈の明確さを目指す。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Use Context Clues",
+        "explanation": "Look at surrounding words and sentences to disambiguate meaning.",
+        "explanation_translation": {
+          "Hindi": "अर्थ स्पष्ट करने के लिए आस-पास के शब्दों और वाक्यों को देखें।",
+          "Japanese": "意味を明確にするために周囲の単語や文を確認しましょう。"
+        }
+      },
+      {
+        "title": "Identify Word Class",
+        "explanation": "Check whether the ambiguous word is used as a noun, verb, or adjective.",
+        "explanation_translation": {
+          "Hindi": "जांचें कि अस्पष्ट शब्द संज्ञा, क्रिया या विशेषण के रूप में उपयोग हो रहा है।",
+          "Japanese": "曖昧な単語が名詞、動詞、形容詞のどれとして使われているか確認しましょう。"
+        }
+      },
+      {
+        "title": "Spot Syntactic Ambiguity",
+        "explanation": "Rearrange the sentence to test multiple possible structures.",
+        "explanation_translation": {
+          "Hindi": "विभिन्न संभावित संरचनाओं की जांच करने के लिए वाक्य को पुन: व्यवस्थित करें।",
+          "Japanese": "複数の可能な構造を確認するために文を並べ替えてみましょう。"
+        }
+      },
+      {
+        "title": "Understand Polysemy in Academic Texts",
+        "explanation": "Be aware that one technical term may have different meanings in different fields.",
+        "explanation_translation": {
+          "Hindi": "ध्यान दें कि एक तकनीकी शब्द विभिन्न क्षेत्रों में अलग अर्थ रख सकता है।",
+          "Japanese": "一つの専門用語が分野によって異なる意味を持つ場合があることを意識しましょう。"
+        }
+      },
+      {
+        "title": "Use Hedging When Interpreting",
+        "explanation": "Use phrases like 'likely means' or 'can be understood as' when unsure about meaning.",
+        "explanation_translation": {
+          "Hindi": "जब अर्थ के बारे में निश्चित न हों, तो 'likely means' या 'can be understood as' जैसे वाक्यांशों का प्रयोग करें।",
+          "Japanese": "意味が確かでないときは「likely means」や「can be understood as」などの表現を使いましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which term describes a word having several possible meanings?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द एक शब्द के कई संभावित अर्थों को दर्शाता है?",
+          "Japanese": "1つの単語が複数の意味を持つことを示す用語はどれですか？"
+        },
+        "options": [
+          "polysemy",
+          "ambiguity",
+          "homonym"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Writers use context for ___ to determine a word’s intended meaning.",
+        "question_translation": {
+          "Hindi": "लेखक किसी शब्द के इच्छित अर्थ को निर्धारित करने के लिए संदर्भ का उपयोग ___ में करते हैं।",
+          "Japanese": "作家は単語の意図された意味を決定するために文脈を___に使用します。"
+        },
+        "options": [
+          "contextual disambiguation",
+          "syntactic ambiguity",
+          "semantic range"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Syntactic ambiguity is caused by sentence structure.",
+        "question_translation": {
+          "Hindi": "वाक्यगत अस्पष्टता वाक्य संरचना के कारण होती है।",
+          "Japanese": "統語的曖昧さは文構造によって生じます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term means using context to clear up ambiguity?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द संदर्भ का उपयोग करके अस्पष्टता को दूर करने का अर्थ देता है?",
+          "Japanese": "文脈を使って曖昧さを解消することを意味する用語はどれですか？"
+        },
+        "options": [
+          "contextual disambiguation",
+          "pragmatic inference",
+          "interpretive clarity"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "A dictionary helps show the ___ of a term.",
+        "question_translation": {
+          "Hindi": "एक शब्दकोश किसी शब्द का ___ दिखाने में मदद करता है।",
+          "Japanese": "辞書は単語の___を示すのに役立ちます。"
+        },
+        "options": [
+          "semantic range",
+          "syntactic ambiguity",
+          "homonym"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "multipleChoice",
+        "question": "Which sentence shows lexical ambiguity?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य शब्द अस्पष्टता दिखाता है?",
+          "Japanese": "どの文が語彙の曖昧さを示していますか？"
+        },
+        "options": [
+          "He is looking for the right bank to fish from.",
+          "I know where the man is going.",
+          "She read the book quietly."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "‘I saw the man with the telescope’ is an example of ___ ambiguity.",
+        "question_translation": {
+          "Hindi": "‘I saw the man with the telescope’ ___ अस्पष्टता का उदाहरण है।",
+          "Japanese": "「I saw the man with the telescope」は___曖昧さの例です。"
+        },
+        "options": [
+          "syntactic",
+          "lexical",
+          "pragmatic"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [detect, pragmatic, inference, sarcasm]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [detect, pragmatic, inference, sarcasm]",
+          "Japanese": "並べ替え: [detect, pragmatic, inference, sarcasm]"
+        },
+        "options": [
+          "detect",
+          "pragmatic",
+          "inference",
+          "sarcasm"
+        ],
+        "answer": [
+          "pragmatic",
+          "inference",
+          "detect",
+          "sarcasm"
+        ]
+      },
+      {
+        "id": "sent4",
+        "type": "multipleChoice",
+        "question": "Which sentence demonstrates polysemy?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य अनेकार्थकता को दर्शाता है?",
+          "Japanese": "どの文が多義性を示していますか？"
+        },
+        "options": [
+          "He went to the bank to deposit money.",
+          "The word 'light' can mean illumination or not heavy.",
+          "She smiled at the child."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Writers aim for interpretive ___ to avoid confusion.",
+        "question_translation": {
+          "Hindi": "लेखक भ्रम से बचने के लिए व्याख्यात्मक ___ का लक्ष्य रखते हैं।",
+          "Japanese": "作家は混乱を避けるために解釈の___を目指します。"
+        },
+        "options": [
+          "clarity",
+          "ambiguity",
+          "polysemy"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker explain?",
+        "audio_text": "Polysemy occurs when a single word has several related meanings.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या समझा रहा है?",
+          "Japanese": "話者は何を説明していますか？"
+        },
+        "options": [
+          "Polysemy",
+          "Ambiguity",
+          "Pragmatic inference"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says syntactic ambiguity comes from sentence structure.",
+        "audio_text": "Syntactic ambiguity arises when a sentence can be parsed in more than one way.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि वाक्यगत अस्पष्टता वाक्य संरचना से आती है।",
+          "Japanese": "話者は統語的曖昧さが文構造から生じると言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What skill helps resolve ambiguity?",
+        "audio_text": "Contextual disambiguation uses nearby words to clarify meaning.",
+        "question_translation": {
+          "Hindi": "कौन सी कौशल अस्पष्टता को हल करने में मदद करता है?",
+          "Japanese": "どのスキルが曖昧さを解消するのに役立ちますか？"
+        },
+        "options": [
+          "Contextual disambiguation",
+          "Pragmatic inference",
+          "Homonym recognition"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Which example did the speaker use for polysemy?",
+        "audio_text": "For example, the word 'light' can mean bright or not heavy.",
+        "question_translation": {
+          "Hindi": "वक्ता ने अनेकार्थकता के लिए कौन सा उदाहरण दिया?",
+          "Japanese": "話者は多義性の例として何を挙げましたか？"
+        },
+        "options": [
+          "Bank",
+          "Light",
+          "Bark"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says pragmatic inference helps detect sarcasm.",
+        "audio_text": "Pragmatic inference helps readers pick up on sarcasm and indirect meaning.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि व्यावहारिक निष्कर्ष व्यंग्य पहचानने में मदद करता है।",
+          "Japanese": "話者は語用論的推論が皮肉を見抜くのに役立つと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Ambiguity can lead to multiple interpretations.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Ambiguity can lead to multiple interpretations.'",
+          "Japanese": "言ってください: 'Ambiguity can lead to multiple interpretations.'"
+        },
+        "options": [],
+        "answer": "ambiguity can lead to multiple interpretations"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Polysemy means one word has many meanings.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Polysemy means one word has many meanings.'",
+          "Japanese": "言ってください: 'Polysemy means one word has many meanings.'"
+        },
+        "options": [],
+        "answer": "polysemy means one word has many meanings"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Context helps disambiguate confusing words.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Context helps disambiguate confusing words.'",
+          "Japanese": "言ってください: 'Context helps disambiguate confusing words.'"
+        },
+        "options": [],
+        "answer": "context helps disambiguate confusing words"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Pragmatic inference goes beyond literal meaning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Pragmatic inference goes beyond literal meaning.'",
+          "Japanese": "言ってください: 'Pragmatic inference goes beyond literal meaning.'"
+        },
+        "options": [],
+        "answer": "pragmatic inference goes beyond literal meaning"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Writers aim for interpretive clarity.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Writers aim for interpretive clarity.'",
+          "Japanese": "言ってください: 'Writers aim for interpretive clarity.'"
+        },
+        "options": [],
+        "answer": "writers aim for interpretive clarity"
+      }
+    ]
+  }
 }

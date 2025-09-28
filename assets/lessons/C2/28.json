@@ -1,4 +1,556 @@
 {
-  "id": 28,
-  "message": "This is file number 28"
+  "id": "lesson_forensic_language_precision_caution_001",
+  "lesson_name": "Forensic Language: Precision & Caution",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "forensic",
+        "word_translation": {
+          "Hindi": "वैधानिक / न्यायालय संबंधी",
+          "Japanese": "法医学的・法廷の"
+        },
+        "meaning": "Relating to the use of language, evidence, or analysis in legal or investigative contexts.",
+        "meaning_translation": {
+          "Hindi": "भाषा, साक्ष्य या विश्लेषण का कानूनी या जाँच संदर्भ में उपयोग।",
+          "Japanese": "法律や捜査の文脈で言語・証拠・分析を扱うこと。"
+        },
+        "examples": [
+          {
+            "sentence": "Forensic linguistics examines how language is used as evidence in court.",
+            "translation": {
+              "Hindi": "फॉरेंसिक भाषाविज्ञान यह जांचता है कि अदालत में साक्ष्य के रूप में भाषा का कैसे उपयोग होता है।",
+              "Japanese": "法廷言語学は、言語が証拠としてどのように使われるかを調べます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "precision",
+        "word_translation": {
+          "Hindi": "सटीकता",
+          "Japanese": "正確さ"
+        },
+        "meaning": "The quality of being exact, accurate, and careful with details.",
+        "meaning_translation": {
+          "Hindi": "सटीक, सही और विवरणों में सावधानीपूर्वक होने की गुणवत्ता।",
+          "Japanese": "細部まで正確であること。"
+        },
+        "examples": [
+          {
+            "sentence": "Legal writing requires great precision to avoid ambiguity.",
+            "translation": {
+              "Hindi": "कानूनी लेखन में अस्पष्टता से बचने के लिए अत्यधिक सटीकता की आवश्यकता होती है।",
+              "Japanese": "法的文書には曖昧さを避けるための高い正確さが求められます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "caution",
+        "word_translation": {
+          "Hindi": "सावधानी",
+          "Japanese": "注意・慎重さ"
+        },
+        "meaning": "Care taken to avoid mistakes, risks, or misinterpretations.",
+        "meaning_translation": {
+          "Hindi": "गलतियों, जोखिमों या गलत व्याख्याओं से बचने के लिए की गई देखभाल।",
+          "Japanese": "誤りや誤解を避けるための慎重さ。"
+        },
+        "examples": [
+          {
+            "sentence": "Forensic experts speak with caution to avoid misleading statements.",
+            "translation": {
+              "Hindi": "फॉरेंसिक विशेषज्ञ भ्रामक बयान से बचने के लिए सावधानी से बोलते हैं।",
+              "Japanese": "法医学の専門家は誤解を招く発言を避けるため慎重に話します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hedge",
+        "word_translation": {
+          "Hindi": "सतर्क शब्दावली",
+          "Japanese": "ぼかし表現"
+        },
+        "meaning": "Words or phrases that limit certainty, such as 'likely', 'suggests', or 'appears to'.",
+        "meaning_translation": {
+          "Hindi": "वे शब्द या वाक्यांश जो निश्चितता को सीमित करते हैं, जैसे 'likely', 'suggests', 'appears to'।",
+          "Japanese": "「likely」「suggests」「appears to」など確実性を制限する表現。"
+        },
+        "examples": [
+          {
+            "sentence": "He used a hedge by saying the result 'appears to support' the theory.",
+            "translation": {
+              "Hindi": "उसने परिणाम को 'appears to support' कहकर सतर्क शब्दावली का प्रयोग किया।",
+              "Japanese": "彼は結果が「理論を支持しているようだ」と言ってぼかし表現を使いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "qualifier",
+        "word_translation": {
+          "Hindi": "परिभाषक शब्द",
+          "Japanese": "限定詞"
+        },
+        "meaning": "A word or phrase that changes or limits the meaning of another word.",
+        "meaning_translation": {
+          "Hindi": "ऐसा शब्द या वाक्यांश जो किसी अन्य शब्द के अर्थ को बदलता या सीमित करता है।",
+          "Japanese": "他の言葉の意味を修正・限定する語句。"
+        },
+        "examples": [
+          {
+            "sentence": "Words like 'somewhat' or 'potentially' act as qualifiers.",
+            "translation": {
+              "Hindi": "'somewhat' या 'potentially' जैसे शब्द परिभाषक शब्द होते हैं।",
+              "Japanese": "「somewhat」「potentially」などは限定詞として機能します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ambiguous",
+        "word_translation": {
+          "Hindi": "अस्पष्ट",
+          "Japanese": "曖昧な"
+        },
+        "meaning": "Having more than one possible meaning; not clear.",
+        "meaning_translation": {
+          "Hindi": "एक से अधिक संभावित अर्थ होना; स्पष्ट नहीं।",
+          "Japanese": "複数の意味があり、明確でないこと。"
+        },
+        "examples": [
+          {
+            "sentence": "Ambiguous wording can cause legal disputes.",
+            "translation": {
+              "Hindi": "अस्पष्ट शब्दावली कानूनी विवाद पैदा कर सकती है।",
+              "Japanese": "曖昧な表現は法的な争いを引き起こす可能性があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "probability language",
+        "word_translation": {
+          "Hindi": "संभावना सूचक भाषा",
+          "Japanese": "確率を示す言語"
+        },
+        "meaning": "Language that expresses likelihood, such as 'probably', 'unlikely', or 'almost certain'.",
+        "meaning_translation": {
+          "Hindi": "संभावना व्यक्त करने वाली भाषा, जैसे 'probably', 'unlikely', या 'almost certain'।",
+          "Japanese": "「probably」「unlikely」「almost certain」など確率を表す表現。"
+        },
+        "examples": [
+          {
+            "sentence": "Forensic reports often use probability language to express uncertainty.",
+            "translation": {
+              "Hindi": "फॉरेंसिक रिपोर्ट अक्सर अनिश्चितता व्यक्त करने के लिए संभावना सूचक भाषा का उपयोग करती हैं।",
+              "Japanese": "法医学報告では不確実性を表すために確率を示す表現をよく使います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "modality",
+        "word_translation": {
+          "Hindi": "भाववाचकता",
+          "Japanese": "モダリティ"
+        },
+        "meaning": "The use of modal verbs (may, might, must) to indicate degrees of certainty or obligation.",
+        "meaning_translation": {
+          "Hindi": "निश्चितता या कर्तव्य की डिग्री बताने के लिए भाववाचक क्रियाओं (may, might, must) का उपयोग।",
+          "Japanese": "確実性や義務の度合いを示すための助動詞の使用（may, might, must など）。"
+        },
+        "examples": [
+          {
+            "sentence": "Experts often choose modality carefully to avoid overstatement.",
+            "translation": {
+              "Hindi": "विशेषज्ञ अतिशयोक्ति से बचने के लिए भाववाचकता का सावधानी से चयन करते हैं।",
+              "Japanese": "専門家は誇張を避けるためにモダリティを慎重に選びます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tentative conclusion",
+        "word_translation": {
+          "Hindi": "अस्थायी निष्कर्ष",
+          "Japanese": "暫定的結論"
+        },
+        "meaning": "A conclusion stated with caution, acknowledging it may change with more evidence.",
+        "meaning_translation": {
+          "Hindi": "सावधानीपूर्वक बताया गया निष्कर्ष, जो अधिक साक्ष्य मिलने पर बदल सकता है।",
+          "Japanese": "追加の証拠によって変わる可能性があると認めた上で慎重に述べる結論。"
+        },
+        "examples": [
+          {
+            "sentence": "The investigator gave a tentative conclusion pending further tests.",
+            "translation": {
+              "Hindi": "जांचकर्ता ने आगे की जाँच के लंबित रहते हुए एक अस्थायी निष्कर्ष दिया।",
+              "Japanese": "調査官はさらなる検査を待って暫定的な結論を述べました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "overgeneralization",
+        "word_translation": {
+          "Hindi": "अत्यधिक सामान्यीकरण",
+          "Japanese": "過度の一般化"
+        },
+        "meaning": "A statement that is too broad and not supported by enough evidence.",
+        "meaning_translation": {
+          "Hindi": "ऐसा कथन जो बहुत व्यापक हो और पर्याप्त साक्ष्य द्वारा समर्थित न हो।",
+          "Japanese": "十分な証拠に支えられていない過度に広い主張。"
+        },
+        "examples": [
+          {
+            "sentence": "Avoid overgeneralization when describing witness behavior.",
+            "translation": {
+              "Hindi": "गवाह के व्यवहार का वर्णन करते समय अत्यधिक सामान्यीकरण से बचें।",
+              "Japanese": "証人の行動を説明するときは過度な一般化を避けましょう。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Hedges to Avoid Overstatement",
+        "explanation": "Use phrases like 'it appears that', 'likely', or 'suggests' when evidence is not absolute.",
+        "explanation_translation": {
+          "Hindi": "'it appears that', 'likely', या 'suggests' जैसे वाक्यांशों का उपयोग करें जब साक्ष्य पूर्ण न हो।",
+          "Japanese": "証拠が絶対でないときは「it appears that」「likely」「suggests」などの表現を使いましょう。"
+        }
+      },
+      {
+        "title": "Avoiding Ambiguity with Precise Modality",
+        "explanation": "Choose modal verbs carefully to show exact certainty: 'may' (possible), 'might' (less certain), 'must' (highly certain).",
+        "explanation_translation": {
+          "Hindi": "सटीक निश्चितता दिखाने के लिए भाववाचक क्रियाओं का सावधानीपूर्वक चयन करें: 'may' (संभावित), 'might' (कम निश्चित), 'must' (अत्यधिक निश्चित)।",
+          "Japanese": "正確な確実性を示すために助動詞を慎重に選びましょう：may（可能性あり）、might（やや不確実）、must（ほぼ確実）。"
+        }
+      },
+      {
+        "title": "Signaling Tentative Conclusions",
+        "explanation": "Use cautious phrases like 'based on current evidence' or 'pending further confirmation'.",
+        "explanation_translation": {
+          "Hindi": "'based on current evidence' या 'pending further confirmation' जैसे सतर्क वाक्यांशों का उपयोग करें।",
+          "Japanese": "「based on current evidence」「pending further confirmation」などの慎重な表現を使いましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'hedge' mean in forensic language?",
+        "question_translation": {
+          "Hindi": "फॉरेंसिक भाषा में 'hedge' का क्या अर्थ है?",
+          "Japanese": "法医学的な文脈で「hedge」は何を意味しますか？"
+        },
+        "options": [
+          "A word limiting certainty, like 'likely' or 'appears to'",
+          "A technical term for evidence collection",
+          "A type of legal cross-examination"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Experts often use ___ language to show levels of certainty, like 'probably' or 'unlikely'.",
+        "question_translation": {
+          "Hindi": "विशेषज्ञ अक्सर निश्चितता के स्तर दिखाने के लिए ___ भाषा का उपयोग करते हैं, जैसे 'probably' या 'unlikely'।",
+          "Japanese": "専門家は「probably」や「unlikely」のように確実性の度合いを示す___言語をよく使います。"
+        },
+        "options": [
+          "probability",
+          "casual",
+          "figurative"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A tentative conclusion is one stated with caution and may change with more evidence.",
+        "question_translation": {
+          "Hindi": "अस्थायी निष्कर्ष सावधानीपूर्वक दिया गया होता है और अधिक साक्ष्य मिलने पर बदल सकता है।",
+          "Japanese": "暫定的結論は慎重に述べられ、追加の証拠で変わる可能性があります。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term describes a statement that is too broad and unsupported?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द बहुत व्यापक और बिना समर्थन वाले कथन को दर्शाता है?",
+          "Japanese": "過度に広く、証拠に裏付けられていない主張を表す用語はどれですか？"
+        },
+        "options": [
+          "Overgeneralization",
+          "Precision",
+          "Qualifier"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "Using words like 'may' or 'might' shows careful use of ___.",
+        "question_translation": {
+          "Hindi": "'may' या 'might' जैसे शब्दों का उपयोग ___ के सावधानीपूर्वक उपयोग को दर्शाता है।",
+          "Japanese": "「may」や「might」などの言葉を使うことは___の慎重な使用を示します。"
+        },
+        "options": [
+          "modality",
+          "evidence",
+          "accuracy"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [avoid, ambiguity, to, use, precise, wording]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [avoid, ambiguity, to, use, precise, wording]",
+          "Japanese": "並べ替え: [avoid, ambiguity, to, use, precise, wording]"
+        },
+        "options": [
+          "avoid",
+          "ambiguity",
+          "to",
+          "use",
+          "precise",
+          "wording"
+        ],
+        "answer": [
+          "use",
+          "precise",
+          "wording",
+          "to",
+          "avoid",
+          "ambiguity"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The investigator used careful ___ to avoid overstating the evidence.",
+        "question_translation": {
+          "Hindi": "जांचकर्ता ने साक्ष्य को अधिक बढ़ा-चढ़ा कर पेश करने से बचने के लिए सावधानीपूर्वक ___ का उपयोग किया।",
+          "Japanese": "調査官は証拠を誇張しないよう慎重な___を使いました。"
+        },
+        "options": [
+          "hedging",
+          "exaggeration",
+          "certainty"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows a tentative conclusion?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य अस्थायी निष्कर्ष दर्शाता है?",
+          "Japanese": "どの文が暫定的結論を示していますか？"
+        },
+        "options": [
+          "Based on current evidence, the suspect may have been present at the scene.",
+          "The suspect was definitely present at the scene without any doubt.",
+          "Everyone agrees the suspect is guilty."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [experts, avoid, overgeneralization, in, reports]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [experts, avoid, overgeneralization, in, reports]",
+          "Japanese": "並べ替え: [experts, avoid, overgeneralization, in, reports]"
+        },
+        "options": [
+          "experts",
+          "avoid",
+          "overgeneralization",
+          "in",
+          "reports"
+        ],
+        "answer": [
+          "experts",
+          "avoid",
+          "overgeneralization",
+          "in",
+          "reports"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Legal writers use ___ to express caution and avoid misinterpretation.",
+        "question_translation": {
+          "Hindi": "कानूनी लेखक सावधानी व्यक्त करने और गलत व्याख्या से बचने के लिए ___ का उपयोग करते हैं।",
+          "Japanese": "法律文書の作成者は注意を示し誤解を避けるために___を使用します。"
+        },
+        "options": [
+          "qualifiers",
+          "slang",
+          "ambiguities"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the speaker doing?",
+        "audio_text": "Based on current evidence, the cause of death appears to be accidental.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या कर रहा है?",
+          "Japanese": "話者は何をしていますか？"
+        },
+        "options": [
+          "Hedging cautiously",
+          "Overgeneralizing",
+          "Giving absolute certainty"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The phrase 'pending further confirmation' signals a tentative conclusion.",
+        "audio_text": "Pending further confirmation, the report suggests a chemical reaction caused the fire.",
+        "question_translation": {
+          "Hindi": "'pending further confirmation' वाक्यांश एक अस्थायी निष्कर्ष का संकेत देता है।",
+          "Japanese": "「pending further confirmation」という表現は暫定的結論を示しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Which concept is being used?",
+        "audio_text": "It is highly probable, but not certain, that the sample was contaminated.",
+        "question_translation": {
+          "Hindi": "कौन सी अवधारणा का उपयोग की जा रही है?",
+          "Japanese": "どの概念が使われていますか？"
+        },
+        "options": [
+          "Probability language",
+          "Overgeneralization",
+          "Ambiguity"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How is the expert avoiding ambiguity?",
+        "audio_text": "The suspect might have been at the scene, but further analysis is required.",
+        "question_translation": {
+          "Hindi": "विशेषज्ञ अस्पष्टता से कैसे बच रहा है?",
+          "Japanese": "専門家はどのように曖昧さを避けていますか？"
+        },
+        "options": [
+          "By using careful modality",
+          "By making an absolute claim",
+          "By ignoring uncertainty"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Overgeneralization is encouraged in forensic reporting to simplify findings.",
+        "audio_text": "Experts avoid sweeping claims and generalizations in formal reports.",
+        "question_translation": {
+          "Hindi": "फॉरेंसिक रिपोर्टिंग में निष्कर्षों को सरल बनाने के लिए अत्यधिक सामान्यीकरण को प्रोत्साहित किया जाता है।",
+          "Japanese": "法医学報告では結果を単純化するために過度な一般化が推奨されます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Based on current evidence, the findings are likely accurate.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Based on current evidence, the findings are likely accurate.'",
+          "Japanese": "言ってください: 'Based on current evidence, the findings are likely accurate.'"
+        },
+        "options": [],
+        "answer": "based on current evidence the findings are likely accurate"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Pending further confirmation, we may conclude the material was defective.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Pending further confirmation, we may conclude the material was defective.'",
+          "Japanese": "言ってください: 'Pending further confirmation, we may conclude the material was defective.'"
+        },
+        "options": [],
+        "answer": "pending further confirmation we may conclude the material was defective"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'It appears that the witness statement was consistent with the evidence.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It appears that the witness statement was consistent with the evidence.'",
+          "Japanese": "言ってください: 'It appears that the witness statement was consistent with the evidence.'"
+        },
+        "options": [],
+        "answer": "it appears that the witness statement was consistent with the evidence"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'We must avoid overgeneralization when reporting findings.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We must avoid overgeneralization when reporting findings.'",
+          "Japanese": "言ってください: 'We must avoid overgeneralization when reporting findings.'"
+        },
+        "options": [],
+        "answer": "we must avoid overgeneralization when reporting findings"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'This conclusion is tentative and may change with further evidence.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This conclusion is tentative and may change with further evidence.'",
+          "Japanese": "言ってください: 'This conclusion is tentative and may change with further evidence.'"
+        },
+        "options": [],
+        "answer": "this conclusion is tentative and may change with further evidence"
+      }
+    ]
+  }
 }

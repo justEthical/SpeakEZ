@@ -1,4 +1,516 @@
 {
-  "id": 39,
-  "message": "This is file number 39"
+  "id": "lesson_technology_gadgets_001",
+  "lesson_name": "Talking About Technology & Gadgets",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "gadget",
+        "word_translation": {
+          "Hindi": "उपकरण",
+          "Japanese": "ガジェット"
+        },
+        "meaning": "A small tool or device that has a particular function",
+        "meaning_translation": {
+          "Hindi": "एक छोटा उपकरण या यंत्र जिसका एक विशेष कार्य होता है",
+          "Japanese": "特定の機能を持つ小さな道具や装置"
+        },
+        "examples": [
+          {
+            "sentence": "My phone is the most useful gadget I own.",
+            "translation": {
+              "Hindi": "मेरा फोन मेरे पास सबसे उपयोगी उपकरण है।",
+              "Japanese": "私が持っている中で最も便利なガジェットは携帯電話です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "device",
+        "word_translation": {
+          "Hindi": "डिवाइस",
+          "Japanese": "デバイス"
+        },
+        "meaning": "A piece of equipment made for a special purpose",
+        "meaning_translation": {
+          "Hindi": "एक उपकरण जो विशेष उद्देश्य के लिए बनाया गया है",
+          "Japanese": "特別な目的のために作られた機器"
+        },
+        "examples": [
+          {
+            "sentence": "Laptops are useful devices for students.",
+            "translation": {
+              "Hindi": "लैपटॉप छात्रों के लिए उपयोगी डिवाइस हैं।",
+              "Japanese": "ノートパソコンは学生にとって便利なデバイスです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "innovative",
+        "word_translation": {
+          "Hindi": "नवोन्मेषी",
+          "Japanese": "革新的な"
+        },
+        "meaning": "New and creative, introducing original ideas",
+        "meaning_translation": {
+          "Hindi": "नया और रचनात्मक, मौलिक विचारों को प्रस्तुत करने वाला",
+          "Japanese": "新しく創造的で、独自のアイデアを導入すること"
+        },
+        "examples": [
+          {
+            "sentence": "This smartwatch is very innovative.",
+            "translation": {
+              "Hindi": "यह स्मार्टवॉच बहुत नवोन्मेषी है।",
+              "Japanese": "このスマートウォッチはとても革新的です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "upgrade",
+        "word_translation": {
+          "Hindi": "उन्नयन",
+          "Japanese": "アップグレード"
+        },
+        "meaning": "To get a more modern or better version of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का और आधुनिक या बेहतर संस्करण प्राप्त करना",
+          "Japanese": "より新しく良いバージョンにすること"
+        },
+        "examples": [
+          {
+            "sentence": "I need to upgrade my phone to a newer model.",
+            "translation": {
+              "Hindi": "मुझे अपने फोन को नए मॉडल में अपग्रेड करने की आवश्यकता है।",
+              "Japanese": "私は携帯電話を新しいモデルにアップグレードする必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "application",
+        "word_translation": {
+          "Hindi": "ऐप्लिकेशन / ऐप",
+          "Japanese": "アプリケーション"
+        },
+        "meaning": "A computer program or software designed to do a job",
+        "meaning_translation": {
+          "Hindi": "एक कंप्यूटर प्रोग्राम या सॉफ्टवेयर जो किसी कार्य को करने के लिए बनाया गया है",
+          "Japanese": "ある作業を行うために設計されたコンピュータープログラムやソフトウェア"
+        },
+        "examples": [
+          {
+            "sentence": "WhatsApp is a popular messaging application.",
+            "translation": {
+              "Hindi": "व्हाट्सएप एक लोकप्रिय मैसेजिंग ऐप्लिकेशन है।",
+              "Japanese": "WhatsAppは人気のあるメッセージングアプリです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "digital",
+        "word_translation": {
+          "Hindi": "डिजिटल",
+          "Japanese": "デジタル"
+        },
+        "meaning": "Using computer technology or electronic systems",
+        "meaning_translation": {
+          "Hindi": "कंप्यूटर तकनीक या इलेक्ट्रॉनिक प्रणाली का उपयोग करने वाला",
+          "Japanese": "コンピュータ技術や電子システムを使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Digital books are easy to carry anywhere.",
+            "translation": {
+              "Hindi": "डिजिटल किताबें कहीं भी ले जाना आसान है।",
+              "Japanese": "デジタル本はどこへでも持ち運びやすいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "charge",
+        "word_translation": {
+          "Hindi": "चार्ज करना",
+          "Japanese": "充電する"
+        },
+        "meaning": "To put electricity into a battery",
+        "meaning_translation": {
+          "Hindi": "बैटरी में बिजली भरना",
+          "Japanese": "バッテリーに電気を入れること"
+        },
+        "examples": [
+          {
+            "sentence": "I need to charge my phone before going out.",
+            "translation": {
+              "Hindi": "मुझे बाहर जाने से पहले अपना फोन चार्ज करना है।",
+              "Japanese": "出かける前に携帯電話を充電する必要があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "portable",
+        "word_translation": {
+          "Hindi": "पोर्टेबल / आसानी से ले जाने योग्य",
+          "Japanese": "携帯できる"
+        },
+        "meaning": "Easy to carry or move around",
+        "meaning_translation": {
+          "Hindi": "जिसे आसानी से ले जाया या इधर-उधर किया जा सके",
+          "Japanese": "簡単に持ち運びができること"
+        },
+        "examples": [
+          {
+            "sentence": "A laptop is more portable than a desktop computer.",
+            "translation": {
+              "Hindi": "लैपटॉप डेस्कटॉप कंप्यूटर की तुलना में अधिक पोर्टेबल है।",
+              "Japanese": "ノートパソコンはデスクトップよりも携帯しやすいです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'can' for ability with technology",
+        "explanation": "We use 'can' to talk about what technology is able to do. Example: This phone can take great pictures.",
+        "explanation_translation": {
+          "Hindi": "'can' का उपयोग यह बताने के लिए किया जाता है कि तकनीक क्या कर सकती है। उदाहरण: This phone can take great pictures.",
+          "Japanese": "「can」は技術ができることを話すために使います。例: This phone can take great pictures."
+        }
+      },
+      {
+        "title": "Comparatives for gadgets",
+        "explanation": "We use comparatives to compare gadgets. Example: This laptop is faster than my old one.",
+        "explanation_translation": {
+          "Hindi": "हम उपकरणों की तुलना करने के लिए तुलनात्मक रूपों का उपयोग करते हैं। उदाहरण: This laptop is faster than my old one.",
+          "Japanese": "ガジェットを比較するときに比較級を使います。例: This laptop is faster than my old one."
+        }
+      },
+      {
+        "title": "Present Continuous for current use",
+        "explanation": "We use present continuous to describe using technology now. Example: I am using my tablet to read.",
+        "explanation_translation": {
+          "Hindi": "हम वर्तमान प्रगतिशील का उपयोग अभी तकनीक का उपयोग करने का वर्णन करने के लिए करते हैं। उदाहरण: I am using my tablet to read.",
+          "Japanese": "今技術を使っていることを表すために現在進行形を使います。例: I am using my tablet to read."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a small tool or device with a special function'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'एक छोटा उपकरण या यंत्र जिसका विशेष कार्य हो' का अर्थ है?",
+          "Japanese": "「特定の機能を持つ小さな道具や装置」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "gadget",
+          "application",
+          "digital"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "I need to ___ my phone before the battery dies.",
+        "question_translation": {
+          "Hindi": "बैटरी खत्म होने से पहले मुझे अपना फोन ___ करना है।",
+          "Japanese": "バッテリーが切れる前に携帯電話を___する必要があります。"
+        },
+        "options": [
+          "charge",
+          "upgrade",
+          "download"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Portable means easy to carry or move around.",
+        "question_translation": {
+          "Hindi": "पोर्टेबल का अर्थ है आसानी से ले जाने योग्य।",
+          "Japanese": "「Portable」は簡単に持ち運べるという意味です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word describes something new and creative?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द किसी नई और रचनात्मक चीज़ का वर्णन करता है?",
+          "Japanese": "新しくて創造的なものを表す言葉はどれですか？"
+        },
+        "options": [
+          "innovative",
+          "digital",
+          "device"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "WhatsApp is a popular messaging ___.",
+        "question_translation": {
+          "Hindi": "व्हाट्सएप एक लोकप्रिय मैसेजिंग ___ है।",
+          "Japanese": "WhatsAppは人気のあるメッセージ___です。"
+        },
+        "options": [
+          "application",
+          "device",
+          "gadget"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [using, tablet, I, my, am]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [using, tablet, I, my, am]",
+          "Japanese": "並べ替え: [using, tablet, I, my, am]"
+        },
+        "options": [
+          "using",
+          "tablet",
+          "I",
+          "my",
+          "am"
+        ],
+        "answer": [
+          "I",
+          "am",
+          "using",
+          "my",
+          "tablet"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "This laptop is ___ than my old one.",
+        "question_translation": {
+          "Hindi": "यह लैपटॉप मेरे पुराने वाले से ___ है।",
+          "Japanese": "このノートパソコンは私の古いものより___です。"
+        },
+        "options": [
+          "slower",
+          "faster",
+          "heavier"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "I can takes photos with my phone.",
+          "I can take photos with my phone.",
+          "I cans take photos with my phone."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "fillInTheBlanks",
+        "question": "I want to ___ my computer to a better version.",
+        "question_translation": {
+          "Hindi": "मैं अपने कंप्यूटर को एक बेहतर संस्करण में ___ चाहता हूँ।",
+          "Japanese": "私はコンピューターをより良いバージョンに___したいです。"
+        },
+        "options": [
+          "upgrade",
+          "charge",
+          "download"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent5",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [digital, books, carry, easy, are, to]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [digital, books, carry, easy, are, to]",
+          "Japanese": "並べ替え: [digital, books, carry, easy, are, to]"
+        },
+        "options": [
+          "digital",
+          "books",
+          "carry",
+          "easy",
+          "are",
+          "to"
+        ],
+        "answer": [
+          "digital",
+          "books",
+          "are",
+          "easy",
+          "to",
+          "carry"
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the speaker talking about?",
+        "audio_text": "This smartwatch can track my heart rate.",
+        "question_translation": {
+          "Hindi": "वक्ता किसके बारे में बात कर रहा है?",
+          "Japanese": "話者は何について話していますか？"
+        },
+        "options": [
+          "Smartwatch",
+          "Laptop",
+          "Tablet"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker is charging their phone.",
+        "audio_text": "I need to charge my phone before I leave the house.",
+        "question_translation": {
+          "Hindi": "वक्ता अपना फोन चार्ज कर रहा है।",
+          "Japanese": "話者は家を出る前に携帯電話を充電する必要があります。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What kind of application is mentioned?",
+        "audio_text": "Instagram is a popular social media application.",
+        "question_translation": {
+          "Hindi": "किस प्रकार का ऐप्लिकेशन उल्लेखित है?",
+          "Japanese": "どんな種類のアプリケーションが言及されていますか？"
+        },
+        "options": [
+          "Social media",
+          "Banking",
+          "Fitness"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What makes the laptop better?",
+        "audio_text": "This laptop is faster than my old one.",
+        "question_translation": {
+          "Hindi": "लैपटॉप को बेहतर क्या बनाता है?",
+          "Japanese": "このノートパソコンが優れているのはなぜですか？"
+        },
+        "options": [
+          "It is faster",
+          "It is bigger",
+          "It is cheaper"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says digital books are easy to carry.",
+        "audio_text": "Digital books are easy to carry anywhere.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि डिजिटल किताबें ले जाना आसान है।",
+          "Japanese": "話者はデジタル本は持ち運びが簡単だと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'This gadget is very useful.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This gadget is very useful.'",
+          "Japanese": "言ってください: 'This gadget is very useful.'"
+        },
+        "options": [],
+        "answer": "this gadget is very useful"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I am using my laptop right now.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am using my laptop right now.'",
+          "Japanese": "言ってください: 'I am using my laptop right now.'"
+        },
+        "options": [],
+        "answer": "i am using my laptop right now"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I need to charge my phone.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I need to charge my phone.'",
+          "Japanese": "言ってください: 'I need to charge my phone.'"
+        },
+        "options": [],
+        "answer": "i need to charge my phone"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'This tablet is more portable than my computer.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This tablet is more portable than my computer.'",
+          "Japanese": "言ってください: 'This tablet is more portable than my computer.'"
+        },
+        "options": [],
+        "answer": "this tablet is more portable than my computer"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'This phone can take great pictures.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This phone can take great pictures.'",
+          "Japanese": "言ってください: 'This phone can take great pictures.'"
+        },
+        "options": [],
+        "answer": "this phone can take great pictures"
+      }
+    ]
+  }
+
+
 }

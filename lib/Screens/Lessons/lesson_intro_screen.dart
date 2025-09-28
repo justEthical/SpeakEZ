@@ -47,6 +47,8 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
       c.currentQuestionIndex.value = 0;
       if (widget.lessonIndex != null) {
         c.isFromRetest = true;
+      }else{
+        c.isFromRetest = false;
       }
       globalController.startWhisperIsolate();
     });
@@ -85,76 +87,81 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
       body:
           c.lessonModel == null
               ? Center(child: CircularProgressIndicator())
-              : Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Spacer(),
-                  widget.isUnlockTest
-                      ? SizedBox(
-                        width: 200,
-                        height: 200,
-                        child: Lottie.asset(
-                          AppAssets.key,
-                          decoder: globalController.customDecoder,
+              : Container(
+                padding: EdgeInsets.all(16),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Spacer(),
+                    widget.isUnlockTest
+                        ? SizedBox(
+                          width: 200,
+                          height: 200,
+                          child: Lottie.asset(
+                            AppAssets.key,
+                            decoder: globalController.customDecoder,
+                          ),
+                        )
+                        : SizedBox(
+                          width: Get.width * 0.5,
+                          height: Get.width * 0.5,
+                          child: Image.asset(AppAssets.cat),
                         ),
-                      )
-                      : SizedBox(
-                        width: Get.width * 0.5,
-                        height: Get.width * 0.5,
-                        child: Image.asset(AppAssets.cat),
-                      ),
-                  SizedBox(width: Get.width, height: 20),
-                  Text(
-                    c.lessonModel!.lessonType == LessonType.unlockTest
-                        ? "Level Unlock Test"
-                        : "Welcome to the lesson",
-                    style: GoogleFonts.poppins(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w400,
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Text(
-                    c.lessonModel!.lessonName,
-                    style: GoogleFonts.poppins(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Container(
-                    margin: EdgeInsets.symmetric(horizontal: 10),
-                    child: Text(
-                      "You have to score more than 80% to unlock the ${widget.englishLevel} level",
-                      textAlign: TextAlign.center,
+                    SizedBox(width: Get.width, height: 20),
+                    Text(
+                      c.lessonModel!.lessonType == LessonType.unlockTest
+                          ? "Level Unlock Test"
+                          : "Welcome to the lesson",
+                          textAlign: TextAlign.center,
                       style: GoogleFonts.poppins(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                  ),
-                  SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
-                  Spacer(),
-                  ElevatedButton(
-                    onPressed: _navigateToQuestions,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurple,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      fixedSize: Size(Get.width - 30, 50),
-                    ),
-                    child: Text(
-                      "Start",
+                    SizedBox(height: 10),
+                    Text(
+                      c.lessonModel!.lessonName,
+                      textAlign: TextAlign.center,
                       style: GoogleFonts.poppins(
-                        color: Colors.white,
+                        fontSize: 20,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
-                  ),
-                  SizedBox(height: 20),
-                ],
+                    SizedBox(height: 10),
+                    c.isUnlockTest ?   Container(
+                      margin: EdgeInsets.symmetric(horizontal: 10),
+                      child: Text(
+                        "You have to score more than 80% to unlock the ${widget.englishLevel} level",
+                        textAlign: TextAlign.center,
+                        style: GoogleFonts.poppins(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                    ) : SizedBox(),
+                    SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
+                    Spacer(),
+                    ElevatedButton(
+                      onPressed: _navigateToQuestions,
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.deepPurple,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        fixedSize: Size(Get.width - 30, 50),
+                      ),
+                      child: Text(
+                        "Start",
+                        style: GoogleFonts.poppins(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                  ],
+                ),
               ),
     );
   }

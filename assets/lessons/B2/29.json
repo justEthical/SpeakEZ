@@ -1,4 +1,555 @@
 {
-  "id": 29,
-  "message": "This is file number 29"
+  "id": "lesson_email_tone_001",
+  "lesson_name": "Email Tone: Neutral-Formal Requests",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "request",
+        "word_translation": {
+          "Hindi": "अनुरोध",
+          "Japanese": "依頼"
+        },
+        "meaning": "An act of asking politely for something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के लिए विनम्रता से पूछने का कार्य",
+          "Japanese": "何かを丁寧に求める行為"
+        },
+        "examples": [
+          {
+            "sentence": "She made a request for more information in her email.",
+            "translation": {
+              "Hindi": "उसने अपने ईमेल में अधिक जानकारी के लिए अनुरोध किया।",
+              "Japanese": "彼女はメールでさらに情報を依頼しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "kindly",
+        "word_translation": {
+          "Hindi": "कृपया",
+          "Japanese": "どうぞ"
+        },
+        "meaning": "A polite word used to make requests softer",
+        "meaning_translation": {
+          "Hindi": "एक विनम्र शब्द जो अनुरोध को नरम बनाने के लिए उपयोग किया जाता है",
+          "Japanese": "依頼を和らげるために使われる丁寧な言葉"
+        },
+        "examples": [
+          {
+            "sentence": "Could you kindly send me the updated file?",
+            "translation": {
+              "Hindi": "क्या आप कृपया मुझे अद्यतन फ़ाइल भेज सकते हैं?",
+              "Japanese": "更新されたファイルを送っていただけますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "attach",
+        "word_translation": {
+          "Hindi": "संलग्न करना",
+          "Japanese": "添付する"
+        },
+        "meaning": "To include a file or document with an email",
+        "meaning_translation": {
+          "Hindi": "किसी ईमेल के साथ फ़ाइल या दस्तावेज़ जोड़ना",
+          "Japanese": "メールにファイルや文書を添付すること"
+        },
+        "examples": [
+          {
+            "sentence": "I have attached the report for your review.",
+            "translation": {
+              "Hindi": "मैंने आपकी समीक्षा के लिए रिपोर्ट संलग्न की है।",
+              "Japanese": "ご確認のためにレポートを添付しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "appreciate",
+        "word_translation": {
+          "Hindi": "आभार व्यक्त करना",
+          "Japanese": "感謝する"
+        },
+        "meaning": "To express gratitude or value for someone’s help",
+        "meaning_translation": {
+          "Hindi": "किसी की मदद के लिए आभार व्यक्त करना या उसे महत्व देना",
+          "Japanese": "誰かの助けに感謝すること"
+        },
+        "examples": [
+          {
+            "sentence": "I would appreciate your feedback on this matter.",
+            "translation": {
+              "Hindi": "मैं इस मामले पर आपकी प्रतिक्रिया की सराहना करूंगा।",
+              "Japanese": "この件に関するご意見をいただければ幸いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "further information",
+        "word_translation": {
+          "Hindi": "अधिक जानकारी",
+          "Japanese": "さらなる情報"
+        },
+        "meaning": "Additional details or clarification",
+        "meaning_translation": {
+          "Hindi": "अतिरिक्त विवरण या स्पष्टीकरण",
+          "Japanese": "追加の詳細や説明"
+        },
+        "examples": [
+          {
+            "sentence": "Please let me know if you need further information.",
+            "translation": {
+              "Hindi": "कृपया मुझे बताएं अगर आपको अधिक जानकारी चाहिए।",
+              "Japanese": "さらなる情報が必要でしたらお知らせください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deadline",
+        "word_translation": {
+          "Hindi": "समय सीमा",
+          "Japanese": "締め切り"
+        },
+        "meaning": "The final date or time something must be completed",
+        "meaning_translation": {
+          "Hindi": "अंतिम तारीख या समय जब कुछ पूरा होना चाहिए",
+          "Japanese": "何かを完了しなければならない最終日時"
+        },
+        "examples": [
+          {
+            "sentence": "The deadline for submitting the form is Friday.",
+            "translation": {
+              "Hindi": "फॉर्म जमा करने की अंतिम तिथि शुक्रवार है।",
+              "Japanese": "フォーム提出の締め切りは金曜日です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "applicable",
+        "word_translation": {
+          "Hindi": "लागू",
+          "Japanese": "適用可能な"
+        },
+        "meaning": "Relevant or suitable to a situation",
+        "meaning_translation": {
+          "Hindi": "किसी स्थिति से संबंधित या उपयुक्त",
+          "Japanese": "状況に関連する、適している"
+        },
+        "examples": [
+          {
+            "sentence": "This policy is applicable to all employees.",
+            "translation": {
+              "Hindi": "यह नीति सभी कर्मचारियों पर लागू होती है।",
+              "Japanese": "この方針はすべての従業員に適用されます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "acknowledge",
+        "word_translation": {
+          "Hindi": "स्वीकार करना / पुष्टि करना",
+          "Japanese": "承認する・受け取ったことを知らせる"
+        },
+        "meaning": "To confirm that something has been received or noted",
+        "meaning_translation": {
+          "Hindi": "यह पुष्टि करना कि कुछ प्राप्त हो गया है या नोट किया गया है",
+          "Japanese": "何かを受け取った、または確認したことを知らせる"
+        },
+        "examples": [
+          {
+            "sentence": "Please acknowledge receipt of this document.",
+            "translation": {
+              "Hindi": "कृपया इस दस्तावेज़ की प्राप्ति की पुष्टि करें।",
+              "Japanese": "この文書を受け取ったことをご確認ください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "enquiry",
+        "word_translation": {
+          "Hindi": "पूछताछ",
+          "Japanese": "問い合わせ"
+        },
+        "meaning": "A question you ask to get information",
+        "meaning_translation": {
+          "Hindi": "जानकारी प्राप्त करने के लिए पूछे गए प्रश्न",
+          "Japanese": "情報を得るための質問"
+        },
+        "examples": [
+          {
+            "sentence": "We received an enquiry regarding your services.",
+            "translation": {
+              "Hindi": "हमें आपकी सेवाओं के बारे में एक पूछताछ मिली।",
+              "Japanese": "私たちはあなたのサービスに関する問い合わせを受けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assistance",
+        "word_translation": {
+          "Hindi": "सहायता",
+          "Japanese": "支援"
+        },
+        "meaning": "Help or support given to someone",
+        "meaning_translation": {
+          "Hindi": "किसी को दी गई मदद या समर्थन",
+          "Japanese": "誰かに与えられる助けや支援"
+        },
+        "examples": [
+          {
+            "sentence": "Thank you for your assistance in this matter.",
+            "translation": {
+              "Hindi": "इस मामले में आपकी सहायता के लिए धन्यवाद।",
+              "Japanese": "この件でのご支援ありがとうございます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Polite Requests with Modals",
+        "explanation": "Use modals like 'could', 'would', and 'may' to make requests sound formal and polite. Example: 'Could you please confirm the schedule?'",
+        "explanation_translation": {
+          "Hindi": "औपचारिक और विनम्र अनुरोध करने के लिए 'could', 'would', और 'may' जैसे modals का उपयोग करें। उदाहरण: 'Could you please confirm the schedule?'",
+          "Japanese": "丁寧でフォーマルな依頼をするために「could」「would」「may」などの助動詞を使います。例: 'Could you please confirm the schedule?'"
+        }
+      },
+      {
+        "title": "Indirect Language for Softening",
+        "explanation": "Use indirect expressions to soften the request. Example: 'I would appreciate it if you could send me the report by Friday.'",
+        "explanation_translation": {
+          "Hindi": "अनुरोध को नरम बनाने के लिए अप्रत्यक्ष अभिव्यक्तियों का उपयोग करें। उदाहरण: 'I would appreciate it if you could send me the report by Friday.'",
+          "Japanese": "依頼を和らげるために間接的な表現を使います。例: 'I would appreciate it if you could send me the report by Friday.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'to confirm that something has been received or noted'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'यह पुष्टि करना कि कुछ प्राप्त हो गया है या नोट किया गया है' का अर्थ देता है?",
+        "Japanese": "「何かを受け取った、または確認したことを知らせる」を意味する単語はどれですか？"
+      },
+      "options": [
+        "acknowledge",
+        "attach",
+        "assist"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Please ___ the document to your email before sending it.",
+      "question_translation": {
+        "Hindi": "कृपया ईमेल भेजने से पहले दस्तावेज़ को ___ करें।",
+        "Japanese": "送信する前に文書をメールに___してください。"
+      },
+      "options": [
+        "attach",
+        "acknowledge",
+        "enquire"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Kindly’ is often used to make requests sound softer and more polite.",
+      "question_translation": {
+        "Hindi": "'Kindly' का उपयोग अक्सर अनुरोध को नरम और अधिक विनम्र बनाने के लिए किया जाता है।",
+        "Japanese": "「Kindly」は依頼を柔らかく丁寧に聞こえさせるためによく使われます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase means 'additional details or clarification'?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश 'अतिरिक्त विवरण या स्पष्टीकरण' का अर्थ देता है?",
+        "Japanese": "「追加の詳細や説明」を意味する表現はどれですか？"
+      },
+      "options": [
+        "deadline",
+        "further information",
+        "enquiry"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "We would greatly ___ your prompt response to this request.",
+      "question_translation": {
+        "Hindi": "हम आपके इस अनुरोध पर शीघ्र प्रतिक्रिया की बहुत ___ करेंगे।",
+        "Japanese": "この依頼に対する迅速なご回答を大いに___いたします。"
+      },
+      "options": [
+        "appreciate",
+        "acknowledge",
+        "attach"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [further, let, know, me, information, need, you, if]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [further, let, know, me, information, need, you, if]",
+        "Japanese": "並べ替え: [further, let, know, me, information, need, you, if]"
+      },
+      "options": [
+        "further",
+        "let",
+        "know",
+        "me",
+        "information",
+        "need",
+        "you",
+        "if"
+      ],
+      "answer": [
+        "let",
+        "me",
+        "know",
+        "if",
+        "you",
+        "need",
+        "further",
+        "information"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Could you please confirm the project ___ by next Monday?",
+      "question_translation": {
+        "Hindi": "क्या आप कृपया अगले सोमवार तक परियोजना की ___ की पुष्टि कर सकते हैं?",
+        "Japanese": "来週の月曜日までにプロジェクトの___を確認していただけますか？"
+      },
+      "options": [
+        "deadline",
+        "enquiry",
+        "assistance"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "I kindly request your assistance in this matter.",
+        "I kindly requesting your assistance in this matter.",
+        "I kindly requests your assistance in this matter."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [receipt, please, of, acknowledge, document, this]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [receipt, please, of, acknowledge, document, this]",
+        "Japanese": "並べ替え: [receipt, please, of, acknowledge, document, this]"
+      },
+      "options": [
+        "receipt",
+        "please",
+        "of",
+        "acknowledge",
+        "document",
+        "this"
+      ],
+      "answer": [
+        "please",
+        "acknowledge",
+        "receipt",
+        "of",
+        "this",
+        "document"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Thank you in advance for your ___ on this matter.",
+      "question_translation": {
+        "Hindi": "इस मामले में आपकी ___ के लिए पहले से धन्यवाद।",
+        "Japanese": "この件でのご___にあらかじめ感謝いたします。"
+      },
+      "options": [
+        "assistance",
+        "deadline",
+        "enquiry"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker request?",
+      "audio_text": "Could you kindly send me the updated report by Friday?",
+      "question_translation": {
+        "Hindi": "वक्ता क्या अनुरोध कर रहा है?",
+        "Japanese": "話者は何を依頼していますか？"
+      },
+      "options": [
+        "To send an updated report",
+        "To acknowledge receipt",
+        "To provide assistance"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker is asking for confirmation of a deadline.",
+      "audio_text": "Please confirm the deadline for the submission.",
+      "question_translation": {
+        "Hindi": "वक्ता समय सीमा की पुष्टि करने के लिए कह रहा है।",
+        "Japanese": "話者は提出の締め切りを確認するよう求めています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What does the speaker appreciate?",
+      "audio_text": "I would appreciate your feedback on this proposal.",
+      "question_translation": {
+        "Hindi": "वक्ता किस चीज़ की सराहना करेगा?",
+        "Japanese": "話者は何を感謝すると言っていますか？"
+      },
+      "options": [
+        "Feedback",
+        "Assistance",
+        "Deadline"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is the speaker asking?",
+      "audio_text": "Please acknowledge receipt of this document.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या मांग रहा है?",
+        "Japanese": "話者は何を求めていますか？"
+      },
+      "options": [
+        "To send an enquiry",
+        "To acknowledge receipt",
+        "To attach a document"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker is asking for more details.",
+      "audio_text": "Let me know if you need further information.",
+      "question_translation": {
+        "Hindi": "वक्ता अधिक विवरण पूछ रहा है।",
+        "Japanese": "話者はさらなる情報を求めています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Could you kindly send me the file by tomorrow?'",
+      "question_translation": {
+        "Hindi": "कहें: 'Could you kindly send me the file by tomorrow?'",
+        "Japanese": "言ってください: 'Could you kindly send me the file by tomorrow?'"
+      },
+      "options": [],
+      "answer": "could you kindly send me the file by tomorrow"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Please acknowledge receipt of this email.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Please acknowledge receipt of this email.'",
+        "Japanese": "言ってください: 'Please acknowledge receipt of this email.'"
+      },
+      "options": [],
+      "answer": "please acknowledge receipt of this email"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I would appreciate your prompt response.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I would appreciate your prompt response.'",
+        "Japanese": "言ってください: 'I would appreciate your prompt response.'"
+      },
+      "options": [],
+      "answer": "i would appreciate your prompt response"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Please let me know if you need further information.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Please let me know if you need further information.'",
+        "Japanese": "言ってください: 'Please let me know if you need further information.'"
+      },
+      "options": [],
+      "answer": "please let me know if you need further information"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Thank you for your assistance in this matter.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Thank you for your assistance in this matter.'",
+        "Japanese": "言ってください: 'Thank you for your assistance in this matter.'"
+      },
+      "options": [],
+      "answer": "thank you for your assistance in this matter"
+    }
+  ]
+}
+
 }

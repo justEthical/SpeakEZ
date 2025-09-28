@@ -1,187 +1,576 @@
 {
-  "id": "lesson_metaethics_moral_philosophy_c2_001",
-  "lesson_name": "Discussing Meta-ethics and Moral Philosophy",
-  "purpose": "Academic, Philosophy, Advanced Discussion",
+  "id": "lesson_advanced_inversion_001",
+  "lesson_name": "Advanced Inversion & Emphatic Structures",
+  "purpose": "All",
   "cefrLevel": "C2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "meta-ethics", "meaning": "the study of the nature and meaning of moral terms and judgments" },
-      { "word": "normativity", "meaning": "the quality of establishing standards or norms, especially for behavior" },
-      { "word": "moral realism", "meaning": "the view that moral facts exist independently of human opinion" },
-      { "word": "subjectivism", "meaning": "the view that moral judgments are based on personal feelings or perspectives" },
-      { "word": "non-cognitivism", "meaning": "the belief that moral statements do not express truths and cannot be true or false" },
-      { "word": "emotivism", "meaning": "the theory that moral statements express emotional reactions" },
-      { "word": "prescriptivism", "meaning": "the theory that moral statements are instructions or recommendations" },
-      { "word": "ethical naturalism", "meaning": "the belief that moral properties are reducible to natural properties" },
-      { "word": "moral anti-realism", "meaning": "the view that moral facts do not exist independently of our beliefs" },
-      { "word": "cognitivism", "meaning": "the view that moral statements can be true or false" }
+      {
+        "word": "inversion",
+        "word_translation": {
+          "Hindi": "उलटाव",
+          "Japanese": "倒置"
+        },
+        "meaning": "Changing the usual word order (often subject-verb) for emphasis or stylistic effect",
+        "meaning_translation": {
+          "Hindi": "जोर देने या शैलीगत प्रभाव के लिए सामान्य शब्द क्रम (अक्सर कर्ता-क्रिया) को बदलना",
+          "Japanese": "強調や文体効果のために通常の語順（しばしば主語と動詞）を変えること"
+        },
+        "examples": [
+          {
+            "sentence": "Never have I seen such beauty.",
+            "translation": {
+              "Hindi": "मैंने कभी इतनी सुंदरता नहीं देखी।",
+              "Japanese": "こんな美しさは見たことがない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphatic structure",
+        "word_translation": {
+          "Hindi": "जोरदार संरचना",
+          "Japanese": "強調構文"
+        },
+        "meaning": "A grammatical form used to give extra force or attention to a statement",
+        "meaning_translation": {
+          "Hindi": "किसी कथन को अतिरिक्त बल या ध्यान देने के लिए उपयोग की जाने वाली व्याकरणिक संरचना",
+          "Japanese": "文に特別な力や注意を与えるために使われる文法構造"
+        },
+        "examples": [
+          {
+            "sentence": "It was John who broke the vase.",
+            "translation": {
+              "Hindi": "वह जॉन ही था जिसने फूलदान तोड़ा।",
+              "Japanese": "花瓶を割ったのはジョンだった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fronting",
+        "word_translation": {
+          "Hindi": "सामने लाना",
+          "Japanese": "前置き"
+        },
+        "meaning": "Placing a word or phrase at the beginning of a sentence for emphasis",
+        "meaning_translation": {
+          "Hindi": "जोर देने के लिए किसी शब्द या वाक्यांश को वाक्य की शुरुआत में रखना",
+          "Japanese": "強調のために単語や句を文の先頭に置くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Excited about the trip, she could hardly sleep.",
+            "translation": {
+              "Hindi": "यात्रा के बारे में उत्साहित होकर, वह मुश्किल से सो पाई।",
+              "Japanese": "旅行に興奮して、彼女はほとんど眠れなかった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cleft sentence",
+        "word_translation": {
+          "Hindi": "विभक्त वाक्य",
+          "Japanese": "分裂文"
+        },
+        "meaning": "A structure that splits a sentence to emphasize a specific part (e.g., 'It is X that ...')",
+        "meaning_translation": {
+          "Hindi": "एक संरचना जो वाक्य को विभाजित करती है ताकि किसी विशेष भाग पर जोर दिया जा सके (जैसे, 'It is X that ...')",
+          "Japanese": "文を分けて特定の部分を強調する構造（例: 'It is X that ...'）"
+        },
+        "examples": [
+          {
+            "sentence": "It was in Paris that we first met.",
+            "translation": {
+              "Hindi": "यह पेरिस में था जहाँ हम पहली बार मिले।",
+              "Japanese": "私たちが初めて出会ったのはパリだった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "negative inversion",
+        "word_translation": {
+          "Hindi": "नकारात्मक उलटाव",
+          "Japanese": "否定倒置"
+        },
+        "meaning": "Moving an auxiliary verb before the subject after a negative adverbial for emphasis",
+        "meaning_translation": {
+          "Hindi": "नकारात्मक क्रिया विशेषण के बाद जोर देने के लिए सहायक क्रिया को कर्ता से पहले रखना",
+          "Japanese": "否定副詞の後で強調のために助動詞を主語の前に置くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Rarely had I felt so inspired.",
+            "translation": {
+              "Hindi": "कभी-कभी ही मैंने इतना प्रेरित महसूस किया है।",
+              "Japanese": "これほど感動したことはめったにない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conditional inversion",
+        "word_translation": {
+          "Hindi": "शर्तीय उलटाव",
+          "Japanese": "条件倒置"
+        },
+        "meaning": "An inverted form used in conditional sentences instead of 'if'",
+        "meaning_translation": {
+          "Hindi": "शर्तीय वाक्यों में 'if' के बजाय उपयोग की जाने वाली उलटी संरचना",
+          "Japanese": "条件文で「if」の代わりに使われる倒置形"
+        },
+        "examples": [
+          {
+            "sentence": "Had I known, I would have acted differently.",
+            "translation": {
+              "Hindi": "अगर मुझे पता होता, तो मैंने अलग तरीके से काम किया होता।",
+              "Japanese": "知っていれば、違う行動をしていただろう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "so/neither inversion",
+        "word_translation": {
+          "Hindi": "so/neither उलटाव",
+          "Japanese": "so/neither 倒置"
+        },
+        "meaning": "Using 'so' or 'neither' followed by an auxiliary and subject to agree or disagree",
+        "meaning_translation": {
+          "Hindi": "'so' या 'neither' का उपयोग सहायक क्रिया और कर्ता के साथ सहमति या असहमति व्यक्त करने के लिए करना",
+          "Japanese": "賛同や否定を示すために「so」や「neither」の後に助動詞と主語を使う構造"
+        },
+        "examples": [
+          {
+            "sentence": "So do I. / Neither have they.",
+            "translation": {
+              "Hindi": "मैं भी। / न ही उन्होंने।",
+              "Japanese": "私もそうです。／彼らもそうではない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphatic do",
+        "word_translation": {
+          "Hindi": "जोरदार 'do'",
+          "Japanese": "強調のdo"
+        },
+        "meaning": "Using 'do/does/did' to add emphasis to the verb in positive statements",
+        "meaning_translation": {
+          "Hindi": "सकारात्मक वाक्यों में क्रिया पर जोर देने के लिए 'do/does/did' का उपयोग करना",
+          "Japanese": "肯定文で動詞を強調するために「do/does/did」を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "I do appreciate your help.",
+            "translation": {
+              "Hindi": "मैं वास्तव में आपकी मदद की सराहना करता हूँ।",
+              "Japanese": "あなたの助けに本当に感謝しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphatic it-cleft",
+        "word_translation": {
+          "Hindi": "जोरदार it-cleft",
+          "Japanese": "強調のit-cleft"
+        },
+        "meaning": "Using 'It is/was' to highlight a particular part of the sentence",
+        "meaning_translation": {
+          "Hindi": "'It is/was' का उपयोग वाक्य के किसी विशेष भाग पर जोर देने के लिए करना",
+          "Japanese": "文の特定の部分を強調するために「It is/was」を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "It was my brother who solved the puzzle.",
+            "translation": {
+              "Hindi": "यह मेरा भाई था जिसने पहेली हल की।",
+              "Japanese": "パズルを解いたのは私の兄だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "only-phrase inversion",
+        "word_translation": {
+          "Hindi": "केवल वाक्यांश उलटाव",
+          "Japanese": "only句の倒置"
+        },
+        "meaning": "When an 'only' phrase at the beginning causes subject-auxiliary inversion",
+        "meaning_translation": {
+          "Hindi": "जब वाक्य की शुरुआत में 'only' वाक्यांश आता है और कर्ता-सहायक क्रिया उलट जाती है",
+          "Japanese": "文頭に「only句」が来ると主語と助動詞が倒置される構造"
+        },
+        "examples": [
+          {
+            "sentence": "Only then did she realize the truth.",
+            "translation": {
+              "Hindi": "तभी उसने सच्चाई को महसूस किया।",
+              "Japanese": "その時初めて彼女は真実に気づいた。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Complex Conditional Sentences",
-        "explanation": "Use 'if...then...' to discuss hypothetical ethical scenarios. E.g., 'If moral realism is correct, then objective values exist.'"
+        "title": "Negative Adverbials Trigger Inversion",
+        "explanation": "When a sentence begins with 'never', 'rarely', or 'seldom', invert the subject and auxiliary verb.",
+        "explanation_translation": {
+          "Hindi": "'never', 'rarely', या 'seldom' से शुरू होने पर विषय और सहायक क्रिया को उलट दें।",
+          "Japanese": "文が「never」「rarely」「seldom」で始まる場合、主語と助動詞を倒置します。"
+        }
       },
       {
-        "title": "Passive and Nominalization",
-        "explanation": "Use passive voice and nominalization to focus on processes or ideas, e.g., 'It is argued that...' or 'The justification of actions requires...' "
+        "title": "Conditional Inversion Instead of If",
+        "explanation": "Use 'Had I known', 'Were I to go', or 'Should you need' instead of 'If I had known'.",
+        "explanation_translation": {
+          "Hindi": "'If I had known' के बजाय 'Had I known', 'Were I to go', या 'Should you need' का प्रयोग करें।",
+          "Japanese": "「If I had known」の代わりに「Had I known」「Were I to go」「Should you need」を使います。"
+        }
+      },
+      {
+        "title": "Emphatic Do for Strong Affirmation",
+        "explanation": "Add 'do/does/did' in positive sentences to emphasize action. Example: 'I do understand your concern.'",
+        "explanation_translation": {
+          "Hindi": "सकारात्मक वाक्यों में क्रिया पर जोर देने के लिए 'do/does/did' जोड़ें। उदाहरण: 'I do understand your concern.'",
+          "Japanese": "肯定文で動作を強調するために「do/does/did」を追加します。例: 「I do understand your concern.」"
+        }
+      },
+      {
+        "title": "Cleft Sentences for Focus",
+        "explanation": "Use 'It is/was' to highlight a part of the sentence. Example: 'It was yesterday that she called.'",
+        "explanation_translation": {
+          "Hindi": "'It is/was' का उपयोग वाक्य के किसी हिस्से पर ध्यान केंद्रित करने के लिए करें। उदाहरण: 'It was yesterday that she called.'",
+          "Japanese": "「It is/was」を使って文の一部を強調します。例: 「It was yesterday that she called.」"
+        }
+      },
+      {
+        "title": "Fronting for Emphasis",
+        "explanation": "Move adverbials or objects to the start for stylistic emphasis. Example: 'In the garden stood a tall tree.'",
+        "explanation_translation": {
+          "Hindi": "शैलीगत जोर देने के लिए क्रिया विशेषण या वस्तु को शुरुआत में ले जाएँ। उदाहरण: 'In the garden stood a tall tree.'",
+          "Japanese": "文体的な強調のために副詞句や目的語を文頭に移動します。例: 「In the garden stood a tall tree.」"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "Meta-ethics explores the meaning of moral terms.", "translation": "" },
-      { "sentence": "Subjectivism suggests that right and wrong depend on personal perspectives.", "translation": "" },
-      { "sentence": "According to moral realism, moral facts exist independently of what we believe.", "translation": "" },
-      { "sentence": "Non-cognitivists argue that moral claims are not statements of fact.", "translation": "" },
-      { "sentence": "Emotivism holds that moral language is a reflection of our emotions.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What does meta-ethics study?",
-        "options": ["Practical ethical rules", "The meaning of moral language", "Historical ethics"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term means changing the usual subject-verb order for emphasis?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द जोर देने के लिए सामान्य कर्ता-क्रिया क्रम को बदलने का अर्थ है?",
+        "Japanese": "強調のために通常の主語と動詞の順序を変えることを指す用語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "___ is the theory that moral facts are independent of human opinions.",
-        "options": ["Moral realism", "Emotivism", "Subjectivism"],
-        "answer": 0
+      "options": [
+        "inversion",
+        "fronting",
+        "cleft sentence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "___ sentences like 'It was John who helped me' are used for emphasis.",
+      "question_translation": {
+        "Hindi": "'It was John who helped me' जैसे ___ वाक्य जोर देने के लिए उपयोग किए जाते हैं।",
+        "Japanese": "「It was John who helped me」のような___文は強調に使われます。"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which theory says moral statements only express feelings?",
-        "options": ["Prescriptivism", "Cognitivism", "Emotivism"],
-        "answer": 2
+      "options": [
+        "Cleft",
+        "Negative",
+        "Passive"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Using 'do/does/did' in positive statements can make them emphatic.",
+      "question_translation": {
+        "Hindi": "सकारात्मक वाक्यों में 'do/does/did' का उपयोग उन्हें जोरदार बना सकता है।",
+        "Japanese": "肯定文で「do/does/did」を使うと強調することができます。"
       },
-      {
-        "id": "vocab4",
-        "type": "trueFalse",
-        "question": "Subjectivism claims moral judgments are true for everyone.",
-        "options": ["True", "False"],
-        "answer": 1
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase at the start of a sentence can trigger inversion?",
+      "question_translation": {
+        "Hindi": "वाक्य की शुरुआत में कौन सा वाक्यांश उलटाव को ट्रिगर कर सकता है?",
+        "Japanese": "文頭に来ると倒置を引き起こす可能性があるフレーズはどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Non-cognitivism is the belief that...",
-        "options": ["Moral statements can be true or false", "Moral statements do not express facts", "Ethics is the same as science"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "According to ___, moral properties are natural properties.",
-        "options": ["ethical naturalism", "prescriptivism", "emotivism"],
-        "answer": 0
+      "options": [
+        "Only then",
+        "However",
+        "Because of"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Statements like 'Had I known, I would have acted differently' use ___ inversion.",
+      "question_translation": {
+        "Hindi": "'Had I known, I would have acted differently' जैसे वाक्य ___ उलटाव का उपयोग करते हैं।",
+        "Japanese": "「Had I known, I would have acted differently」のような文は___倒置を使っています。"
       },
-      {
-        "id": "sent2",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, normativity, moral, central, in, philosophy]",
-        "options": ["is", "normativity", "moral", "central", "in", "philosophy"],
-        "answer": ["Normativity", "is", "central", "in", "moral", "philosophy"]
+      "options": [
+        "conditional",
+        "negative",
+        "emphatic"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [never, experienced, I, have, such, chaos]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [never, experienced, I, have, such, chaos]",
+        "Japanese": "並べ替え: [never, experienced, I, have, such, chaos]"
       },
-      {
-        "id": "sent3",
-        "type": "fillInTheBlanks",
-        "question": "___ holds that moral language is a kind of command.",
-        "options": ["Prescriptivism", "Subjectivism", "Moral realism"],
-        "answer": 0
+      "options": [
+        "never",
+        "experienced",
+        "I",
+        "have",
+        "such",
+        "chaos"
+      ],
+      "answer": [
+        "never",
+        "have",
+        "I",
+        "experienced",
+        "such",
+        "chaos"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Only after the meeting ___ the problem become clear.",
+      "question_translation": {
+        "Hindi": "सिर्फ बैठक के बाद ही समस्या ___ स्पष्ट हुई।",
+        "Japanese": "会議の後になって初めて問題が___明らかになった。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "If you are a ___, you believe moral statements can be true or false.",
-        "options": ["cognitivist", "emotivist", "non-cognitivist"],
-        "answer": 0
+      "options": [
+        "did",
+        "has",
+        "was"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence correctly uses a cleft structure?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही तरीके से cleft संरचना का उपयोग करता है?",
+        "Japanese": "どの文が正しく分裂文を使っていますか？"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [questions, meta-ethics, about, nature, moral, asks, of]",
-        "options": ["questions", "meta-ethics", "about", "nature", "moral", "asks", "of"],
-        "answer": ["Meta-ethics", "asks", "questions", "about", "the", "nature", "of", "moral"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "What is non-cognitivism?",
-        "options": ["A belief in moral facts", "A denial that moral statements are factual", "A focus on historical morals"],
-        "answer": 1
+      "options": [
+        "It was Sarah who suggested the idea.",
+        "Sarah was suggested the idea by it.",
+        "Sarah it was suggested the idea."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [did, appreciate, I, really, your, help]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [did, appreciate, I, really, your, help]",
+        "Japanese": "並べ替え: [did, appreciate, I, really, your, help]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "What does prescriptivism claim?",
-        "options": ["Moral statements are commands", "Moral statements are always true", "Moral statements are facts"],
-        "answer": 0
+      "options": [
+        "did",
+        "appreciate",
+        "I",
+        "really",
+        "your",
+        "help"
+      ],
+      "answer": [
+        "I",
+        "did",
+        "really",
+        "appreciate",
+        "your",
+        "help"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "So ___ I, when she said she loved music.",
+      "question_translation": {
+        "Hindi": "तो ___ मैं भी, जब उसने कहा कि उसे संगीत पसंद है।",
+        "Japanese": "彼女が音楽が好きだと言ったとき、私もそう___。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Who thinks that morality is rooted in emotions?",
-        "options": ["Cognitivists", "Emotivists", "Realists"],
-        "answer": 1
+      "options": [
+        "do",
+        "did",
+        "am"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What structure is used in: 'Rarely had they seen such a storm'?",
+      "audio_text": "Rarely had they seen such a storm.",
+      "question_translation": {
+        "Hindi": "'Rarely had they seen such a storm' में कौन सी संरचना उपयोग की गई है?",
+        "Japanese": "「Rarely had they seen such a storm」ではどの構造が使われていますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "Which concept concerns the standards of right and wrong?",
-        "options": ["Normativity", "Anachronism", "Juxtaposition"],
-        "answer": 0
+      "options": [
+        "Negative inversion",
+        "Cleft sentence",
+        "Emphatic do"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "Which phrase shows a conditional inversion?",
+      "audio_text": "Had I known about the traffic, I would have left earlier.",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश शर्तीय उलटाव दिखाता है?",
+        "Japanese": "どのフレーズが条件倒置を示していますか？"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "What is the focus of meta-ethics?",
-        "options": ["Application of moral rules", "Study of moral language and concepts", "Study of law"],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Summarize the difference between moral realism and moral anti-realism.",
-        "options": [],
-        "answer": "Moral realism holds that moral facts exist independently; anti-realism denies this."
+      "options": [
+        "Had I known",
+        "I would have left",
+        "about the traffic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The sentence 'It was the teacher who praised me' is a cleft sentence.",
+      "audio_text": "It was the teacher who praised me.",
+      "question_translation": {
+        "Hindi": "'It was the teacher who praised me' एक विभक्त वाक्य है।",
+        "Japanese": "「It was the teacher who praised me」は分裂文である。"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Explain the main point of non-cognitivism in your own words.",
-        "options": [],
-        "answer": "Non-cognitivism says moral statements do not express facts and cannot be true or false."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Which structure is used in: 'Only then did he realize his mistake'?",
+      "audio_text": "Only then did he realize his mistake.",
+      "question_translation": {
+        "Hindi": "'Only then did he realize his mistake' में कौन सी संरचना उपयोग की गई है?",
+        "Japanese": "「Only then did he realize his mistake」ではどの構造が使われていますか？"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Give an example of how emotivism explains a moral statement.",
-        "options": [],
-        "answer": "According to emotivism, saying 'Stealing is wrong' means 'I disapprove of stealing.'"
+      "options": [
+        "Only-phrase inversion",
+        "Fronting",
+        "Passive voice"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What is the speaker doing in: 'I do value your opinion'?",
+      "audio_text": "I do value your opinion.",
+      "question_translation": {
+        "Hindi": "'I do value your opinion' में वक्ता क्या कर रहा है?",
+        "Japanese": "「I do value your opinion」で話者は何をしていますか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Discuss why normativity is important in moral philosophy.",
-        "options": [],
-        "answer": "Normativity is important because it sets standards for judging actions as right or wrong."
+      "options": [
+        "Using emphatic do",
+        "Creating a cleft",
+        "Forming a conditional inversion"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Never have I been so surprised.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Never have I been so surprised.'",
+        "Japanese": "言ってください: 'Never have I been so surprised.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Argue for or against ethical naturalism.",
-        "options": [],
-        "answer": "Ethical naturalism is convincing/unconvincing because it explains moral facts as part of nature."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "never have i been so surprised"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'It was my friend who invited me to the party.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It was my friend who invited me to the party.'",
+        "Japanese": "言ってください: 'It was my friend who invited me to the party.'"
+      },
+      "options": [],
+      "answer": "it was my friend who invited me to the party"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Had I studied more, I would have passed the exam.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Had I studied more, I would have passed the exam.'",
+        "Japanese": "言ってください: 'Had I studied more, I would have passed the exam.'"
+      },
+      "options": [],
+      "answer": "had i studied more i would have passed the exam"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Only then did she understand the truth.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Only then did she understand the truth.'",
+        "Japanese": "言ってください: 'Only then did she understand the truth.'"
+      },
+      "options": [],
+      "answer": "only then did she understand the truth"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I do enjoy challenging grammar topics.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I do enjoy challenging grammar topics.'",
+        "Japanese": "言ってください: 'I do enjoy challenging grammar topics.'"
+      },
+      "options": [],
+      "answer": "i do enjoy challenging grammar topics"
+    }
+  ]
+}
+
 }

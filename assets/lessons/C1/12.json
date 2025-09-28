@@ -1,4 +1,566 @@
 {
-  "id": 12,
-  "message": "This is file number 12"
+  "id": "lesson_reported_speech_verbs_c1",
+  "lesson_name": "Reported Speech: Nuanced Reporting Verbs",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "assert",
+        "word_translation": {
+          "Hindi": "दावा करना",
+          "Japanese": "断言する"
+        },
+        "meaning": "To state something confidently and firmly",
+        "meaning_translation": {
+          "Hindi": "किसी बात को आत्मविश्वास और दृढ़ता से कहना",
+          "Japanese": "自信を持って強く述べること"
+        },
+        "examples": [
+          {
+            "sentence": "She asserted that the data was accurate.",
+            "translation": {
+              "Hindi": "उसने दावा किया कि डेटा सही था।",
+              "Japanese": "彼女はデータが正確だと断言しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "claim",
+        "word_translation": {
+          "Hindi": "दावा करना",
+          "Japanese": "主張する"
+        },
+        "meaning": "To say something is true, often without proof",
+        "meaning_translation": {
+          "Hindi": "कुछ सच है कहना, अक्सर बिना सबूत के",
+          "Japanese": "証拠なしに何かが真実だと主張すること"
+        },
+        "examples": [
+          {
+            "sentence": "He claimed that he had never seen the document.",
+            "translation": {
+              "Hindi": "उसने दावा किया कि उसने कभी दस्तावेज़ नहीं देखा।",
+              "Japanese": "彼はその文書を見たことがないと主張しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deny",
+        "word_translation": {
+          "Hindi": "इनकार करना",
+          "Japanese": "否定する"
+        },
+        "meaning": "To say something is not true",
+        "meaning_translation": {
+          "Hindi": "यह कहना कि कुछ सच नहीं है",
+          "Japanese": "何かが真実でないと言うこと"
+        },
+        "examples": [
+          {
+            "sentence": "The suspect denied that he was involved.",
+            "translation": {
+              "Hindi": "संदिग्ध ने इनकार किया कि वह शामिल था।",
+              "Japanese": "容疑者は関与していたことを否定しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "admit",
+        "word_translation": {
+          "Hindi": "स्वीकार करना",
+          "Japanese": "認める"
+        },
+        "meaning": "To agree that something is true, often reluctantly",
+        "meaning_translation": {
+          "Hindi": "मान लेना कि कुछ सच है, अक्सर अनिच्छा से",
+          "Japanese": "何かが真実であると認めること（しぶしぶの場合が多い）"
+        },
+        "examples": [
+          {
+            "sentence": "She admitted that she had made a mistake.",
+            "translation": {
+              "Hindi": "उसने स्वीकार किया कि उसने गलती की थी।",
+              "Japanese": "彼女は自分が間違いをしたと認めました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "urge",
+        "word_translation": {
+          "Hindi": "जोर देना/प्रोत्साहित करना",
+          "Japanese": "促す／強く勧める"
+        },
+        "meaning": "To strongly encourage someone to do something",
+        "meaning_translation": {
+          "Hindi": "किसी को कुछ करने के लिए जोर देना या प्रोत्साहित करना",
+          "Japanese": "誰かに何かをするよう強く勧めること"
+        },
+        "examples": [
+          {
+            "sentence": "The doctor urged him to stop smoking.",
+            "translation": {
+              "Hindi": "डॉक्टर ने उसे धूम्रपान छोड़ने के लिए जोर दिया।",
+              "Japanese": "医者は彼に喫煙をやめるよう強く勧めました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "warn",
+        "word_translation": {
+          "Hindi": "चेतावनी देना",
+          "Japanese": "警告する"
+        },
+        "meaning": "To tell someone about a danger or risk",
+        "meaning_translation": {
+          "Hindi": "किसी को खतरे या जोखिम के बारे में बताना",
+          "Japanese": "危険やリスクについて誰かに知らせること"
+        },
+        "examples": [
+          {
+            "sentence": "She warned them not to enter the building.",
+            "translation": {
+              "Hindi": "उसने उन्हें इमारत में प्रवेश न करने की चेतावनी दी।",
+              "Japanese": "彼女は建物に入らないように彼らに警告しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assure",
+        "word_translation": {
+          "Hindi": "आश्वासन देना",
+          "Japanese": "保証する／安心させる"
+        },
+        "meaning": "To make someone feel certain about something",
+        "meaning_translation": {
+          "Hindi": "किसी को किसी बात के बारे में निश्चित महसूस कराना",
+          "Japanese": "誰かに確信を持たせること"
+        },
+        "examples": [
+          {
+            "sentence": "He assured us that the project would succeed.",
+            "translation": {
+              "Hindi": "उसने हमें आश्वस्त किया कि परियोजना सफल होगी।",
+              "Japanese": "彼はそのプロジェクトが成功するだろうと私たちに保証しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "remark",
+        "word_translation": {
+          "Hindi": "टिप्पणी करना",
+          "Japanese": "述べる／発言する"
+        },
+        "meaning": "To comment casually or briefly",
+        "meaning_translation": {
+          "Hindi": "अनौपचारिक या संक्षिप्त रूप से टिप्पणी करना",
+          "Japanese": "軽くあるいは簡単にコメントすること"
+        },
+        "examples": [
+          {
+            "sentence": "He remarked that the lecture was too long.",
+            "translation": {
+              "Hindi": "उसने टिप्पणी की कि व्याख्यान बहुत लंबा था।",
+              "Japanese": "彼は講義が長すぎると述べました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "insist",
+        "word_translation": {
+          "Hindi": "जोर देना",
+          "Japanese": "主張する"
+        },
+        "meaning": "To demand firmly that something be accepted or done",
+        "meaning_translation": {
+          "Hindi": "दृढ़ता से मांग करना कि कुछ स्वीकार या किया जाए",
+          "Japanese": "何かが受け入れられる／行われるよう強く求めること"
+        },
+        "examples": [
+          {
+            "sentence": "She insisted that the meeting be postponed.",
+            "translation": {
+              "Hindi": "उसने जोर दिया कि बैठक स्थगित की जाए।",
+              "Japanese": "彼女は会議が延期されるべきだと主張しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "confide",
+        "word_translation": {
+          "Hindi": "भरोसे में बताना",
+          "Japanese": "打ち明ける"
+        },
+        "meaning": "To tell someone a secret in trust",
+        "meaning_translation": {
+          "Hindi": "किसी को भरोसे में कोई रहस्य बताना",
+          "Japanese": "信頼して秘密を打ち明けること"
+        },
+        "examples": [
+          {
+            "sentence": "She confided to her friend that she was moving abroad.",
+            "translation": {
+              "Hindi": "उसने अपनी दोस्त को भरोसे में बताया कि वह विदेश जा रही है।",
+              "Japanese": "彼女は友人に海外に移住することを打ち明けました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Choice of Reporting Verb",
+        "explanation": "Different verbs add nuance: 'claim' suggests lack of evidence, 'assert' suggests confidence, 'admit' suggests reluctance.",
+        "explanation_translation": {
+          "Hindi": "विभिन्न क्रियाएँ अलग-अलग अर्थ जोड़ती हैं: 'claim' प्रमाण की कमी बताता है, 'assert' आत्मविश्वास दर्शाता है, 'admit' अनिच्छा दर्शाता है।",
+          "Japanese": "異なる動詞はニュアンスを加えます：「claim」は証拠の欠如を示し、「assert」は自信を示し、「admit」はしぶしぶ認めることを示します。"
+        }
+      },
+      {
+        "title": "Reporting with Caution",
+        "explanation": "Verbs like 'allege' or 'suggest' indicate uncertainty, while 'insist' and 'urge' indicate strong force.",
+        "explanation_translation": {
+          "Hindi": "'allege' या 'suggest' जैसी क्रियाएँ अनिश्चितता दिखाती हैं, जबकि 'insist' और 'urge' दृढ़ता और जोर दिखाती हैं।",
+          "Japanese": "「allege」や「suggest」は不確かさを示し、「insist」や「urge」は強い主張や力を示します。"
+        }
+      },
+      {
+        "title": "Changing Verb Forms",
+        "explanation": "When reporting, adjust tense and pronouns, but keep the reporting verb meaning accurate. Example: She warned them not to enter → She had warned them not to enter.",
+        "explanation_translation": {
+          "Hindi": "रिपोर्टिंग करते समय, काल और सर्वनाम बदलें, लेकिन रिपोर्टिंग क्रिया का सही अर्थ बनाए रखें। उदाहरण: She warned them not to enter → She had warned them not to enter.",
+          "Japanese": "報告する際には、時制や代名詞を調整しますが、報告動詞の意味を正確に保ちます。例：She warned them not to enter → She had warned them not to enter."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which reporting verb suggests speaking with confidence and firmness?",
+      "question_translation": {
+        "Hindi": "कौन सा रिपोर्टिंग क्रिया आत्मविश्वास और दृढ़ता से बोलने का सुझाव देता है?",
+        "Japanese": "自信と断固さを持って話すことを示す報告動詞はどれですか？"
+      },
+      "options": [
+        "claim",
+        "assert",
+        "deny"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The suspect ___ that he was involved in the crime.",
+      "question_translation": {
+        "Hindi": "संदिग्ध ने ___ कि वह अपराध में शामिल था।",
+        "Japanese": "容疑者は犯罪に関与していたことを___。"
+      },
+      "options": [
+        "denied",
+        "assured",
+        "urged"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "The verb 'urge' is used when strongly encouraging someone to do something.",
+      "question_translation": {
+        "Hindi": "'urge' क्रिया का प्रयोग किसी को कुछ करने के लिए दृढ़ता से प्रोत्साहित करने में किया जाता है।",
+        "Japanese": "「urge」という動詞は、誰かに何かを強く勧めるときに使われます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which verb means 'to give someone confidence something will succeed'?",
+      "question_translation": {
+        "Hindi": "कौन सा क्रिया 'किसी को विश्वास दिलाना कि कुछ सफल होगा' का अर्थ रखता है?",
+        "Japanese": "「何かが成功すると誰かに確信させる」意味を持つ動詞はどれですか？"
+      },
+      "options": [
+        "assure",
+        "remark",
+        "claim"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "She ___ her friend that she was moving abroad.",
+      "question_translation": {
+        "Hindi": "उसने अपनी दोस्त को ___ कि वह विदेश जा रही है।",
+        "Japanese": "彼女は友人に海外に引っ越すことを___。"
+      },
+      "options": [
+        "confided",
+        "urged",
+        "warned"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [that, accurate, asserted, was, the, she, data]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [that, accurate, asserted, was, the, she, data]",
+        "Japanese": "並べ替え: [that, accurate, asserted, was, the, she, data]"
+      },
+      "options": [
+        "that",
+        "accurate",
+        "asserted",
+        "was",
+        "the",
+        "she",
+        "data"
+      ],
+      "answer": [
+        "she",
+        "asserted",
+        "that",
+        "the",
+        "data",
+        "was",
+        "accurate"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The doctor ___ him to exercise regularly.",
+      "question_translation": {
+        "Hindi": "डॉक्टर ने उसे नियमित रूप से व्यायाम करने के लिए ___।",
+        "Japanese": "医者は彼に定期的に運動するよう___。"
+      },
+      "options": [
+        "urged",
+        "denied",
+        "confided"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which reported speech verb shows reluctance in admitting truth?",
+      "question_translation": {
+        "Hindi": "कौन सी रिपोर्टिंग क्रिया सच स्वीकार करने में अनिच्छा दर्शाती है?",
+        "Japanese": "真実をしぶしぶ認めることを示す報告動詞はどれですか？"
+      },
+      "options": [
+        "admit",
+        "warn",
+        "remark"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [that, warned, enter, not, building, the, she, them, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [that, warned, enter, not, building, the, she, them, to]",
+        "Japanese": "並べ替え: [that, warned, enter, not, building, the, she, them, to]"
+      },
+      "options": [
+        "that",
+        "warned",
+        "enter",
+        "not",
+        "building",
+        "the",
+        "she",
+        "them",
+        "to"
+      ],
+      "answer": [
+        "she",
+        "warned",
+        "them",
+        "not",
+        "to",
+        "enter",
+        "the",
+        "building"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "He ___ that the lecture was too long.",
+      "question_translation": {
+        "Hindi": "उसने ___ कि व्याख्यान बहुत लंबा था।",
+        "Japanese": "彼は講義が長すぎると___。"
+      },
+      "options": [
+        "remarked",
+        "assured",
+        "denied"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which reporting verb fits this audio?",
+      "audio_text": "He strongly stated that the plan would succeed.",
+      "question_translation": {
+        "Hindi": "इस ऑडियो के लिए कौन सा रिपोर्टिंग क्रिया उपयुक्त है?",
+        "Japanese": "この音声に適した報告動詞はどれですか？"
+      },
+      "options": [
+        "assured",
+        "asserted",
+        "claimed"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker used a verb showing reluctance to accept fault.",
+      "audio_text": "She admitted that she had forgotten the meeting.",
+      "question_translation": {
+        "Hindi": "वक्ता ने गलती स्वीकार करने में अनिच्छा दिखाने वाली क्रिया का उपयोग किया।",
+        "Japanese": "話者は自分の過ちをしぶしぶ認める動詞を使いました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which reporting verb is implied?",
+      "audio_text": "The police told people not to enter the dangerous area.",
+      "question_translation": {
+        "Hindi": "कौन सा रिपोर्टिंग क्रिया निहित है?",
+        "Japanese": "どの報告動詞が含意されていますか？"
+      },
+      "options": [
+        "warned",
+        "claimed",
+        "assured"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The audio is an example of confiding.",
+      "audio_text": "She told her best friend a personal secret.",
+      "question_translation": {
+        "Hindi": "यह ऑडियो भरोसे में बात बताने का उदाहरण है।",
+        "Japanese": "この音声は打ち明けの例です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which verb best matches the audio?",
+      "audio_text": "The suspect said he had never been at the scene.",
+      "question_translation": {
+        "Hindi": "कौन सा क्रिया इस ऑडियो से सबसे अच्छी मेल खाती है?",
+        "Japanese": "この音声に最も当てはまる動詞はどれですか？"
+      },
+      "options": [
+        "denied",
+        "asserted",
+        "admitted"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'She asserted that the data was accurate.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She asserted that the data was accurate.'",
+        "Japanese": "言ってください: 'She asserted that the data was accurate.'"
+      },
+      "options": [],
+      "answer": "she asserted that the data was accurate"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'He denied that he was involved.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He denied that he was involved.'",
+        "Japanese": "言ってください: 'He denied that he was involved.'"
+      },
+      "options": [],
+      "answer": "he denied that he was involved"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'She admitted that she had made a mistake.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She admitted that she had made a mistake.'",
+        "Japanese": "言ってください: 'She admitted that she had made a mistake.'"
+      },
+      "options": [],
+      "answer": "she admitted that she had made a mistake"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The doctor urged him to stop smoking.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The doctor urged him to stop smoking.'",
+        "Japanese": "言ってください: 'The doctor urged him to stop smoking.'"
+      },
+      "options": [],
+      "answer": "the doctor urged him to stop smoking"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'She warned them not to enter the building.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She warned them not to enter the building.'",
+        "Japanese": "言ってください: 'She warned them not to enter the building.'"
+      },
+      "options": [],
+      "answer": "she warned them not to enter the building"
+    }
+  ]
+}
+
 }

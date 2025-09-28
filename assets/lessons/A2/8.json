@@ -244,159 +244,238 @@
     ]
   },
   "question_pools": {
-  "vocabulary": [
-    {
-      "id": "vocab1",
-      "type": "multipleChoice",
-      "question": "Which word is used to give a reason?",
-      "question_translation": {
-        "Hindi": "कौन सा शब्द कारण बताने के लिए उपयोग होता है?",
-        "Japanese": "理由を言うために使う単語はどれですか？"
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word is used to give a reason?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द कारण बताने के लिए उपयोग होता है?",
+          "Japanese": "理由を言うために使う単語はどれですか？"
+        },
+        "options": ["so", "because", "and"],
+        "answer": 1
       },
-      "options": ["so", "because", "and"],
-      "answer": 1
-    },
-    {
-      "id": "vocab2",
-      "type": "trueFalse",
-      "question": "‘So’ is used to show a result.",
-      "question_translation": {
-        "Hindi": "'So' का उपयोग परिणाम दिखाने के लिए होता है।",
-        "Japanese": "「So」は結果を示すために使われます。"
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "‘So’ is used to show a result.",
+        "question_translation": {
+          "Hindi": "'So' का उपयोग परिणाम दिखाने के लिए होता है।",
+          "Japanese": "「So」は結果を示すために使われます。"
+        },
+        "options": ["True", "False"],
+        "answer": 0
       },
-      "options": ["True", "False"],
-      "answer": 0
-    },
-    {
-      "id": "vocab3",
-      "type": "fillInTheBlanks",
-      "question": "I stayed home ___ it was raining.",
-      "question_translation": {
-        "Hindi": "मैं घर पर रहा ___ बारिश हो रही थी।",
-        "Japanese": "雨が降っていた___家にいました。"
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "I stayed home ___ it was raining.",
+        "question_translation": {
+          "Hindi": "मैं घर पर रहा ___ बारिश हो रही थी।",
+          "Japanese": "雨が降っていた___家にいました。"
+        },
+        "options": ["so", "because", "but"],
+        "answer": 1
       },
-      "options": ["so", "because", "but"],
-      "answer": 1
-    },
-    {
-      "id": "vocab4",
-      "type": "multipleChoice",
-      "question": "Which word shows cause and effect?",
-      "question_translation": {
-        "Hindi": "कौन सा शब्द कारण और प्रभाव दर्शाता है?",
-        "Japanese": "因果関係を示す単語はどれですか？"
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word shows cause and effect?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द कारण और प्रभाव दर्शाता है?",
+          "Japanese": "因果関係を示す単語はどれですか？"
+        },
+        "options": ["but", "because", "with"],
+        "answer": 1
       },
-      "options": ["but", "because", "with"],
-      "answer": 1
-    },
-    {
-      "id": "vocab5",
-      "type": "trueFalse",
-      "question": "‘Because’ is used after the result.",
-      "question_translation": {
-        "Hindi": "'Because' का उपयोग परिणाम के बाद होता है।",
-        "Japanese": "「Because」は結果の後に使われます。"
+      {
+        "id": "vocab5",
+        "type": "trueFalse",
+        "question": "‘Because’ is used after the result.",
+        "question_translation": {
+          "Hindi": "'Because' का उपयोग परिणाम के बाद होता है।",
+          "Japanese": "「Because」は結果の後に使われます。"
+        },
+        "options": ["True", "False"],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "fillInTheBlanks",
+        "question": "She is tired, ___ she went to bed early.",
+        "question_translation": {
+          "Hindi": "वह थकी हुई थी, ___ वह जल्दी सोने चली गई।",
+          "Japanese": "彼女は疲れていた___早く寝ました。"
+        },
+        "options": ["because", "so", "but"],
+        "answer": 1
       },
-      "options": ["True", "False"],
-      "answer": 1
-    }
-  ],
-  "sentence": [
-    {
-      "id": "sent1",
-      "type": "fillInTheBlanks",
-      "question": "She is tired, ___ she went to bed early.",
-      "question_translation": {
-        "Hindi": "वह थकी हुई थी, ___ वह जल्दी सोने चली गई।",
-        "Japanese": "彼女は疲れていた___早く寝ました。"
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "We canceled the trip ___ it was snowing heavily.",
+        "question_translation": {
+          "Hindi": "हमने यात्रा रद्द कर दी ___ भारी बर्फबारी हो रही थी।",
+          "Japanese": "大雪だった___旅行をキャンセルしました。"
+        },
+        "options": ["so", "because", "and"],
+        "answer": 1
       },
-      "options": ["because", "so", "but"],
-      "answer": 1
-    },
-    {
-      "id": "sent2",
-      "type": "fillInTheBlanks",
-      "question": "We canceled the trip ___ it was snowing heavily.",
-      "question_translation": {
-        "Hindi": "हमने यात्रा रद्द कर दी ___ भारी बर्फबारी हो रही थी।",
-        "Japanese": "大雪だった___旅行をキャンセルしました。"
+      {
+        "id": "sent3",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [hungry, was, I, so, ate, I]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [hungry, was, I, so, ate, I]",
+          "Japanese": "並べ替え: [hungry, was, I, so, ate, I]"
+        },
+        "options": ["hungry", "was", "I", "so", "ate", "I"],
+        "answer": ["I", "was", "hungry", "so", "I", "ate"]
       },
-      "options": ["so", "because", "and"],
-      "answer": 1
-    },
-    {
-      "id": "sent3",
-      "type": "sentenceRearranging",
-      "question": "Arrange: [hungry, was, I, so, ate, I]",
-      "question_translation": {
-        "Hindi": "क्रम में लगाएं: [hungry, was, I, so, ate, I]",
-        "Japanese": "並べ替え: [hungry, was, I, so, ate, I]"
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, late, because, slept, I, was]",
+        "question_translation": {
+          "Hindi": "क्रम में लगाएं: [I, late, because, slept, I, was]",
+          "Japanese": "並べ替え: [I, late, because, slept, I, was]"
+        },
+        "options": ["I", "late", "because", "slept", "I", "was"],
+        "answer": ["I", "was", "late", "because", "I", "slept"]
       },
-      "options": ["hungry", "was", "I", "so", "ate", "I"],
-      "answer": ["I", "was", "hungry", "so", "I", "ate"]
-    },
-    {
-      "id": "sent4",
-      "type": "sentenceRearranging",
-      "question": "Arrange: [I, late, because, slept, I, was]",
-      "question_translation": {
-        "Hindi": "क्रम में लगाएं: [I, late, because, slept, I, was]",
-        "Japanese": "並べ替え: [I, late, because, slept, I, was]"
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "He was angry ___ his phone broke.",
+        "question_translation": {
+          "Hindi": "वह गुस्से में था ___ उसका फोन टूट गया।",
+          "Japanese": "彼は携帯が壊れた___怒っていました。"
+        },
+        "options": ["so", "because", "although"],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "Why did he miss the bus?",
+        "audio_text": "He missed the bus because he woke up late.",
+        "question_translation": {
+          "Hindi": "उसने बस क्यों मिस की?",
+          "Japanese": "なぜ彼はバスに乗り遅れましたか？"
+        },
+        "options": ["He was sick", "He woke up late", "He forgot"],
+        "answer": 1
       },
-      "options": ["I", "late", "because", "slept", "I", "was"],
-      "answer": ["I", "was", "late", "because", "I", "slept"]
-    }
-  ],
-  "listening": [
-    {
-      "id": "listen1",
-      "type": "multipleChoice",
-      "question": "Why did he miss the bus?",
-      "audio_text": "He missed the bus because he woke up late.",
-      "question_translation": {
-        "Hindi": "उसने बस क्यों मिस की?",
-        "Japanese": "なぜ彼はバスに乗り遅れましたか？"
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What happened as a result?",
+        "audio_text": "It was raining, so we stayed inside.",
+        "question_translation": {
+          "Hindi": "परिणामस्वरूप क्या हुआ?",
+          "Japanese": "結果として何が起こりましたか？"
+        },
+        "options": ["They went out", "They stayed inside", "They got wet"],
+        "answer": 1
       },
-      "options": ["He was sick", "He woke up late", "He forgot"],
-      "answer": 1
-    },
-    {
-      "id": "listen2",
-      "type": "multipleChoice",
-      "question": "What happened as a result?",
-      "audio_text": "It was raining, so we stayed inside.",
-      "question_translation": {
-        "Hindi": "परिणामस्वरूप क्या हुआ?",
-        "Japanese": "結果として何が起こりましたか？"
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The girl was happy because she passed the test.",
+        "audio_text": "She was happy because she passed the test.",
+        "question_translation": {
+          "Hindi": "लड़की खुश थी क्योंकि वह परीक्षा में पास हुई।",
+          "Japanese": "彼女はテストに合格したので嬉しかったです。"
+        },
+        "options": ["True", "False"],
+        "answer": 0
       },
-      "options": ["They went out", "They stayed inside", "They got wet"],
-      "answer": 1
-    }
-  ],
-  "speaking": [
-    {
-      "id": "speak1",
-      "type": "speaking",
-      "question": "Say: 'I was late because I missed the train.'",
-      "question_translation": {
-        "Hindi": "कहें: 'मैं देर से पहुंचा क्योंकि मैंने ट्रेन मिस कर दी।'",
-        "Japanese": "言ってください：「電車に乗り遅れたので遅れました。」"
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Why did she eat a sandwich?",
+        "audio_text": "She was hungry, so she ate a sandwich.",
+        "question_translation": {
+          "Hindi": "उसने सैंडविच क्यों खाया?",
+          "Japanese": "なぜ彼女はサンドイッチを食べましたか？"
+        },
+        "options": ["Because she was tired", "Because she was hungry", "Because she was late"],
+        "answer": 1
       },
-      "options": [],
-      "answer": "i was late because i missed the train"
-    },
-    {
-      "id": "speak2",
-      "type": "speaking",
-      "question": "Say: 'I studied hard, so I passed the test.'",
-      "question_translation": {
-        "Hindi": "कहें: 'मैंने मेहनत से पढ़ाई की, इसलिए मैं परीक्षा में पास हुआ।'",
-        "Japanese": "言ってください：「一生懸命勉強したのでテストに合格しました。」"
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "Why didn’t she come to school?",
+        "audio_text": "She didn’t come to school because she was sick.",
+        "question_translation": {
+          "Hindi": "वह स्कूल क्यों नहीं आई?",
+          "Japanese": "なぜ彼女は学校に来ませんでしたか？"
+        },
+        "options": ["Because she was late", "Because she was sick", "Because she was happy"],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I was late because I missed the train.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं देर से पहुंचा क्योंकि मैंने ट्रेन मिस कर दी।'",
+          "Japanese": "言ってください：「電車に乗り遅れたので遅れました。」"
+        },
+        "options": [],
+        "answer": "i was late because i missed the train"
       },
-      "options": [],
-      "answer": "i studied hard so i passed the test"
-    }
-  ]
-}
-
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I studied hard, so I passed the test.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैंने मेहनत से पढ़ाई की, इसलिए मैं परीक्षा में पास हुआ।'",
+          "Japanese": "言ってください：「一生懸命勉強したのでテストに合格しました。」"
+        },
+        "options": [],
+        "answer": "i studied hard so i passed the test"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I stayed home because it was raining.'",
+        "question_translation": {
+          "Hindi": "कहें: 'मैं घर पर रहा क्योंकि बारिश हो रही थी।'",
+          "Japanese": "言ってください：「雨が降っていたので家にいました。」"
+        },
+        "options": [],
+        "answer": "i stayed home because it was raining"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'It was cold, so I wore a jacket.'",
+        "question_translation": {
+          "Hindi": "कहें: 'ठंड थी, इसलिए मैंने जैकेट पहना।'",
+          "Japanese": "言ってください：「寒かったのでジャケットを着ました。」"
+        },
+        "options": [],
+        "answer": "it was cold so i wore a jacket"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'She didn’t come because she was sick.'",
+        "question_translation": {
+          "Hindi": "कहें: 'वह नहीं आई क्योंकि वह बीमार थी।'",
+          "Japanese": "言ってください：「彼女は病気だったので来ませんでした。」"
+        },
+        "options": [],
+        "answer": "she didnt come because she was sick"
+      }
+    ]
+  }
 }

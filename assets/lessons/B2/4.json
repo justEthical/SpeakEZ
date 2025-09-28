@@ -1,36 +1,262 @@
 {
-  "id": "lesson_analyzing_news_articles_001",
-  "lesson_name": "Analyzing News Articles",
+  "id": "lesson_reported_speech_b2_004",
+  "lesson_name": "Reported Speech: Statements & Questions",
   "purpose": "All",
   "cefrLevel": "B2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "headline", "meaning": "the title of a news article" },
-      { "word": "source", "meaning": "where information comes from" },
-      { "word": "bias", "meaning": "an unfair preference for or against something" },
-      { "word": "fact", "meaning": "something that is true and can be proven" },
-      { "word": "opinion", "meaning": "what someone thinks or believes" },
-      { "word": "reliable", "meaning": "can be trusted" },
-      { "word": "quotation", "meaning": "exact words from someone" },
-      { "word": "summary", "meaning": "a short description of the main points" },
-      { "word": "evidence", "meaning": "information that shows something is true" },
-      { "word": "perspective", "meaning": "a point of view" }
+      {
+        "word": "report",
+        "word_translation": {
+          "Hindi": "रिपोर्ट करना",
+          "Japanese": "報告する"
+        },
+        "meaning": "To tell someone what another person said",
+        "meaning_translation": {
+          "Hindi": "किसी को बताना कि किसी और ने क्या कहा",
+          "Japanese": "他の人が言ったことを伝える"
+        },
+        "examples": [
+          {
+            "sentence": "She reported that he was late.",
+            "translation": {
+              "Hindi": "उसने बताया कि वह देर से आया था।",
+              "Japanese": "彼女は彼が遅れたと報告した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reporting verb",
+        "word_translation": {
+          "Hindi": "रिपोर्टिंग क्रिया",
+          "Japanese": "伝達動詞"
+        },
+        "meaning": "A verb like 'say', 'tell', 'ask' used in reported speech",
+        "meaning_translation": {
+          "Hindi": "ऐसी क्रिया जैसे 'say', 'tell', 'ask' जो रिपोर्टेड स्पीच में प्रयोग होती है",
+          "Japanese": "伝達話法で使われる “say” “tell” “ask” などの動詞"
+        },
+        "examples": [
+          {
+            "sentence": "He said he was tired.",
+            "translation": {
+              "Hindi": "उसने कहा कि वह थका हुआ था।",
+              "Japanese": "彼は疲れていると言った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "backshift",
+        "word_translation": {
+          "Hindi": "काल परिवर्तन",
+          "Japanese": "時制の一致（後退）"
+        },
+        "meaning": "Changing verb tense when moving from direct to reported speech",
+        "meaning_translation": {
+          "Hindi": "प्रत्यक्ष से अप्रत्यक्ष वाक्य में बदलते समय क्रिया के काल को बदलना",
+          "Japanese": "直接話法から間接話法に変えるときに動詞の時制を変えること"
+        },
+        "examples": [
+          {
+            "sentence": "Direct: 'I am hungry.' Reported: He said he was hungry.",
+            "translation": {
+              "Hindi": "प्रत्यक्ष: 'I am hungry.' अप्रत्यक्ष: उसने कहा कि वह भूखा था।",
+              "Japanese": "直接: 'I am hungry.' 間接: 彼はお腹が空いていると言った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "statement",
+        "word_translation": {
+          "Hindi": "वाक्य/कथन",
+          "Japanese": "陳述文"
+        },
+        "meaning": "A sentence that gives information",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य जो जानकारी देता है",
+          "Japanese": "情報を与える文"
+        },
+        "examples": [
+          {
+            "sentence": "He said that he liked pizza.",
+            "translation": {
+              "Hindi": "उसने कहा कि उसे पिज़्ज़ा पसंद है।",
+              "Japanese": "彼はピザが好きだと言った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "question",
+        "word_translation": {
+          "Hindi": "प्रश्न",
+          "Japanese": "質問"
+        },
+        "meaning": "A sentence used to ask for information",
+        "meaning_translation": {
+          "Hindi": "जानकारी माँगने के लिए प्रयोग किया गया वाक्य",
+          "Japanese": "情報を求めるための文"
+        },
+        "examples": [
+          {
+            "sentence": "She asked if I was coming.",
+            "translation": {
+              "Hindi": "उसने पूछा कि क्या मैं आ रहा हूँ।",
+              "Japanese": "彼女は私が来るかどうか尋ねた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "yes/no question",
+        "word_translation": {
+          "Hindi": "हाँ/नहीं प्रश्न",
+          "Japanese": "はい・いいえの質問"
+        },
+        "meaning": "A question that can be answered with 'yes' or 'no'",
+        "meaning_translation": {
+          "Hindi": "ऐसा प्रश्न जिसका उत्तर 'हाँ' या 'नहीं' हो सकता है",
+          "Japanese": "はい/いいえで答えられる質問"
+        },
+        "examples": [
+          {
+            "sentence": "He asked if I liked coffee.",
+            "translation": {
+              "Hindi": "उसने पूछा कि क्या मुझे कॉफी पसंद है।",
+              "Japanese": "彼は私がコーヒーが好きかどうか尋ねた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "wh-question",
+        "word_translation": {
+          "Hindi": "wh-प्रश्न",
+          "Japanese": "wh疑問文"
+        },
+        "meaning": "A question starting with who, what, when, where, why, how",
+        "meaning_translation": {
+          "Hindi": "ऐसा प्रश्न जो who, what, when, where, why, how से शुरू होता है",
+          "Japanese": "who, what, when, where, why, how で始まる質問"
+        },
+        "examples": [
+          {
+            "sentence": "She asked where I lived.",
+            "translation": {
+              "Hindi": "उसने पूछा कि मैं कहाँ रहता हूँ।",
+              "Japanese": "彼女は私がどこに住んでいるか尋ねた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "that-clause",
+        "word_translation": {
+          "Hindi": "that-उपवाक्य",
+          "Japanese": "that節"
+        },
+        "meaning": "The clause used to report a statement",
+        "meaning_translation": {
+          "Hindi": "कथन को रिपोर्ट करने के लिए प्रयोग किया जाने वाला उपवाक्य",
+          "Japanese": "陳述を伝えるために使う節"
+        },
+        "examples": [
+          {
+            "sentence": "He said that he was tired.",
+            "translation": {
+              "Hindi": "उसने कहा कि वह थका हुआ था।",
+              "Japanese": "彼は疲れていると言った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intonation",
+        "word_translation": {
+          "Hindi": "स्वर",
+          "Japanese": "イントネーション"
+        },
+        "meaning": "The rise and fall of the voice; in reported speech, the meaning is conveyed without intonation changes",
+        "meaning_translation": {
+          "Hindi": "आवाज़ का उठना और गिरना; रिपोर्टेड स्पीच में अर्थ बिना स्वर परिवर्तन के व्यक्त किया जाता है",
+          "Japanese": "声の上げ下げ。間接話法ではイントネーションの変化なしで意味が伝わる"
+        },
+        "examples": [
+          {
+            "sentence": "Direct: 'Are you okay?' Reported: She asked if I was okay.",
+            "translation": {
+              "Hindi": "प्रत्यक्ष: 'क्या तुम ठीक हो?' अप्रत्यक्ष: उसने पूछा कि क्या मैं ठीक था।",
+              "Japanese": "直接: 'Are you okay?' 間接: 彼女は私が大丈夫か尋ねた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "politeness",
+        "word_translation": {
+          "Hindi": "शिष्टाचार",
+          "Japanese": "丁寧さ"
+        },
+        "meaning": "The way reported speech can make questions more polite",
+        "meaning_translation": {
+          "Hindi": "जिस प्रकार रिपोर्टेड स्पीच प्रश्नों को अधिक शिष्ट बना सकती है",
+          "Japanese": "間接話法が質問をより丁寧にする方法"
+        },
+        "examples": [
+          {
+            "sentence": "She asked if I could help her. (more polite than 'Can you help me?')",
+            "translation": {
+              "Hindi": "उसने पूछा कि क्या मैं उसकी मदद कर सकता हूँ। ('Can you help me?' से अधिक शिष्ट)",
+              "Japanese": "彼女は私に手伝えるか尋ねた。（'Can you help me?' より丁寧）"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Reporting Verbs",
-        "explanation": "Use verbs like 'report', 'state', 'claim', and 'argue' to show what the article says. Example: The article claims that the weather is changing."
+        "title": "Backshift in Reported Speech",
+        "explanation": "Present tense in direct speech usually changes to past in reported speech. Example: 'I am tired' → He said he was tired.",
+        "explanation_translation": {
+          "Hindi": "प्रत्यक्ष भाषण में वर्तमान काल अक्सर अप्रत्यक्ष भाषण में भूतकाल बन जाता है। उदाहरण: 'I am tired' → He said he was tired.",
+          "Japanese": "直接話法の現在形は間接話法で過去形になることが多い。例：'I am tired' → He said he was tired."
+        }
       },
       {
-        "title": "Passive Voice",
-        "explanation": "Use the passive to focus on the action, not the person. Example: It was reported that prices increased."
+        "title": "Reporting Statements",
+        "explanation": "Use a reporting verb (say, tell) + that-clause. Example: She said that she liked music.",
+        "explanation_translation": {
+          "Hindi": "रिपोर्टिंग क्रिया (say, tell) + that-उपवाक्य का उपयोग करें। उदाहरण: She said that she liked music.",
+          "Japanese": "伝達動詞（say, tell）＋that節を使う。例：She said that she liked music."
+        }
+      },
+      {
+        "title": "Reporting Yes/No Questions",
+        "explanation": "Use 'asked if/whether' + clause. Example: He asked if I wanted coffee.",
+        "explanation_translation": {
+          "Hindi": "'asked if/whether' + उपवाक्य का उपयोग करें। उदाहरण: He asked if I wanted coffee.",
+          "Japanese": "“asked if/whether”＋節を使う。例：He asked if I wanted coffee."
+        }
+      },
+      {
+        "title": "Reporting Wh-Questions",
+        "explanation": "Keep the wh-word and use statement word order. Example: She asked where I lived.",
+        "explanation_translation": {
+          "Hindi": "wh-शब्द बनाए रखें और कथन शब्द क्रम का उपयोग करें। उदाहरण: She asked where I lived.",
+          "Japanese": "wh語を残して陳述文の語順を使う。例：She asked where I lived."
+        }
+      },
+      {
+        "title": "No Backshift for General Truths",
+        "explanation": "When reporting general truths, keep the tense the same. Example: He said the earth is round.",
+        "explanation_translation": {
+          "Hindi": "सार्वभौमिक सत्यों को रिपोर्ट करते समय काल नहीं बदलें। उदाहरण: He said the earth is round.",
+          "Japanese": "普遍的真実を伝えるときは時制を変えない。例：He said the earth is round."
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "The headline says that prices are rising.", "translation": "" },
-      { "sentence": "According to the article, the source is reliable.", "translation": "" },
-      { "sentence": "The author argues that more evidence is needed.", "translation": "" },
-      { "sentence": "In my opinion, the article is balanced.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -38,148 +264,312 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "Which word means 'the title of a news article'?",
-        "options": ["headline", "opinion", "summary"],
+        "question": "Which verb is commonly used to report statements?",
+        "question_translation": {
+          "Hindi": "कौन सी क्रिया कथनों को रिपोर्ट करने के लिए सामान्य रूप से उपयोग की जाती है?",
+          "Japanese": "陳述を伝えるのによく使われる動詞はどれですか？"
+        },
+        "options": [
+          "say",
+          "go",
+          "do"
+        ],
         "answer": 0
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "A ___ is something that is true and can be proven.",
-        "options": ["fact", "bias", "source"],
-        "answer": 0
+        "question": "He said that he ___ tired.",
+        "question_translation": {
+          "Hindi": "उसने कहा कि वह ___ थका हुआ था।",
+          "Japanese": "彼は疲れていると___。"
+        },
+        "options": [
+          "is",
+          "was",
+          "be"
+        ],
+        "answer": 1
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means 'an unfair preference for or against something'?",
-        "options": ["bias", "evidence", "quotation"],
+        "type": "trueFalse",
+        "question": "In reported speech, 'I am happy' becomes 'He said he was happy'.",
+        "question_translation": {
+          "Hindi": "रिपोर्टेड स्पीच में, 'I am happy' 'He said he was happy' बन जाता है।",
+          "Japanese": "間接話法では、'I am happy' は 'He said he was happy' になる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "vocab4",
-        "type": "trueFalse",
-        "question": "'Quotation' means the exact words from someone.",
-        "options": ["True", "False"],
+        "type": "multipleChoice",
+        "question": "Which phrase is used to report yes/no questions?",
+        "question_translation": {
+          "Hindi": "हाँ/नहीं प्रश्नों को रिपोर्ट करने के लिए कौन सा वाक्यांश उपयोग किया जाता है?",
+          "Japanese": "はい・いいえ疑問文を伝えるのに使う表現はどれですか？"
+        },
+        "options": [
+          "asked if",
+          "said that",
+          "told to"
+        ],
         "answer": 0
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which word means 'can be trusted'?",
-        "options": ["summary", "reliable", "perspective"],
+        "type": "fillInTheBlanks",
+        "question": "She asked where I ___ living.",
+        "question_translation": {
+          "Hindi": "उसने पूछा कि मैं कहाँ ___ रह रहा हूँ।",
+          "Japanese": "彼女は私がどこに___住んでいるか尋ねた。"
+        },
+        "options": [
+          "am",
+          "was",
+          "were"
+        ],
         "answer": 1
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The ___ says that prices are rising.",
-        "options": ["headline", "source", "evidence"],
-        "answer": 0
+        "type": "sentenceRearranging",
+        "question": "Arrange: [he, said, music, liked, that, she]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [he, said, music, liked, that, she]",
+          "Japanese": "並べ替え: [he, said, music, liked, that, she]"
+        },
+        "options": [
+          "he",
+          "said",
+          "music",
+          "liked",
+          "that",
+          "she"
+        ],
+        "answer": [
+          "he",
+          "said",
+          "that",
+          "she",
+          "liked",
+          "music"
+        ]
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "According to the article, the ___ is reliable.",
-        "options": ["bias", "source", "summary"],
+        "question": "She asked me if I ___ coffee.",
+        "question_translation": {
+          "Hindi": "उसने मुझसे पूछा कि क्या मुझे ___ कॉफी पसंद है।",
+          "Japanese": "彼女は私にコーヒーが好きかどうか___。"
+        },
+        "options": [
+          "like",
+          "liked",
+          "likes"
+        ],
         "answer": 1
       },
       {
         "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, the, summary, points, of, article, main, the]",
-        "options": ["is", "the", "summary", "points", "of", "article", "main", "the"],
-        "answer": ["The", "summary", "is", "the", "main", "points", "of", "the", "article"]
+        "type": "multipleChoice",
+        "question": "Which is correct reported speech?",
+        "question_translation": {
+          "Hindi": "कौन सा सही रिपोर्टेड स्पीच है?",
+          "Japanese": "正しい間接話法はどれですか？"
+        },
+        "options": [
+          "He said he is tired.",
+          "He said he was tired.",
+          "He said he tired."
+        ],
+        "answer": 1
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "In my ___, the article is balanced.",
-        "options": ["evidence", "opinion", "headline"],
+        "question": "He asked me where I ___ going.",
+        "question_translation": {
+          "Hindi": "उसने मुझसे पूछा कि मैं कहाँ ___ जा रहा था।",
+          "Japanese": "彼は私にどこへ___行くのか尋ねた。"
+        },
+        "options": [
+          "am",
+          "was",
+          "were"
+        ],
         "answer": 1
       },
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: [that, the, argues, author, more, needed, evidence, is]",
-        "options": ["that", "the", "argues", "author", "more", "needed", "evidence", "is"],
-        "answer": ["The", "author", "argues", "that", "more", "evidence", "is", "needed"]
+        "question": "Arrange: [asked, me, she, was, if, fine, I]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [asked, me, she, was, if, fine, I]",
+          "Japanese": "並べ替え: [asked, me, she, was, if, fine, I]"
+        },
+        "options": [
+          "asked",
+          "me",
+          "she",
+          "was",
+          "if",
+          "fine",
+          "I"
+        ],
+        "answer": [
+          "she",
+          "asked",
+          "me",
+          "if",
+          "I",
+          "was",
+          "fine"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "What does the headline say? (Audio: 'The headline says that prices are rising.')",
-        "options": ["Prices are falling", "Prices are rising", "Prices are stable"],
+        "type": "multipleChoice",
+        "question": "What did the speaker report?",
+        "audio_text": "She said that she was busy.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या बताया?",
+          "Japanese": "話者は何を伝えましたか？"
+        },
+        "options": [
+          "She is busy",
+          "She was busy",
+          "She will be busy"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "Who is reliable according to the article? (Audio: 'According to the article, the source is reliable.')",
-        "options": ["The author", "The source", "The reader"],
+        "type": "trueFalse",
+        "question": "Reported speech always requires 'that'.",
+        "audio_text": "He said he was late.",
+        "question_translation": {
+          "Hindi": "रिपोर्टेड स्पीच में हमेशा 'that' की आवश्यकता होती है।",
+          "Japanese": "間接話法では必ず 'that' が必要である。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 1
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "What does the author argue? (Audio: 'The author argues that more evidence is needed.')",
-        "options": ["There is enough evidence", "More evidence is needed", "No evidence is needed"],
+        "type": "multipleChoice",
+        "question": "How was the yes/no question reported?",
+        "audio_text": "He asked if I liked football.",
+        "question_translation": {
+          "Hindi": "हाँ/नहीं प्रश्न को कैसे रिपोर्ट किया गया?",
+          "Japanese": "はい・いいえの質問はどのように伝えられましたか？"
+        },
+        "options": [
+          "Using 'that'",
+          "Using 'if'",
+          "Using 'where'"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "What is the speaker's opinion? (Audio: 'In my opinion, the article is balanced.')",
-        "options": ["It is unbalanced", "It is biased", "It is balanced"],
-        "answer": 2
+        "type": "multipleChoice",
+        "question": "What information was reported?",
+        "audio_text": "She asked where I lived.",
+        "question_translation": {
+          "Hindi": "कौन सी जानकारी रिपोर्ट की गई?",
+          "Japanese": "どんな情報が伝えられましたか？"
+        },
+        "options": [
+          "Where I live",
+          "How I live",
+          "Why I live"
+        ],
+        "answer": 0
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "What does 'quotation' mean? (Audio: 'A quotation is the exact words from someone.')",
-        "options": ["A summary", "A fact", "The exact words from someone"],
-        "answer": 2
+        "type": "trueFalse",
+        "question": "General truths change tense in reported speech.",
+        "audio_text": "He said the sun rises in the east.",
+        "question_translation": {
+          "Hindi": "सार्वभौमिक सत्य रिपोर्टेड स्पीच में काल बदलते हैं।",
+          "Japanese": "普遍的な真実は間接話法で時制が変わる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
       }
     ],
     "speaking": [
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'The headline says that prices are rising.'",
+        "question": "Say: 'He said that he was tired.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He said that he was tired.'",
+          "Japanese": "言ってください: 'He said that he was tired.'"
+        },
         "options": [],
-        "answer": "The headline says that prices are rising."
+        "answer": "he said that he was tired"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Say: 'According to the article, the source is reliable.'",
+        "question": "Say: 'She asked if I was fine.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She asked if I was fine.'",
+          "Japanese": "言ってください: 'She asked if I was fine.'"
+        },
         "options": [],
-        "answer": "According to the article, the source is reliable."
+        "answer": "she asked if i was fine"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'The author argues that more evidence is needed.'",
+        "question": "Say: 'He said that he liked music.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He said that he liked music.'",
+          "Japanese": "言ってください: 'He said that he liked music.'"
+        },
         "options": [],
-        "answer": "The author argues that more evidence is needed."
+        "answer": "he said that he liked music"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Say: 'In my opinion, the article is balanced.'",
+        "question": "Say: 'She asked where I lived.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She asked where I lived.'",
+          "Japanese": "言ってください: 'She asked where I lived.'"
+        },
         "options": [],
-        "answer": "In my opinion, the article is balanced."
+        "answer": "she asked where i lived"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Say: 'A quotation is the exact words from someone.'",
+        "question": "Say: 'He asked if I wanted coffee.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He asked if I wanted coffee.'",
+          "Japanese": "言ってください: 'He asked if I wanted coffee.'"
+        },
         "options": [],
-        "answer": "A quotation is the exact words from someone."
+        "answer": "he asked if i wanted coffee"
       }
     ]
   }

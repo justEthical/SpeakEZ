@@ -1,4 +1,564 @@
 {
-  "id": 11,
-  "message": "This is file number 11"
+  "id": "lesson_complex_conditionals_c1",
+  "lesson_name": "Complex Conditionals in Reasoning",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "conditional",
+        "word_translation": {
+          "Hindi": "शर्तीय वाक्य",
+          "Japanese": "条件文"
+        },
+        "meaning": "A sentence that expresses a situation and its result depending on a condition",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य जो स्थिति और उसके परिणाम को शर्त पर आधारित करता है",
+          "Japanese": "条件に基づいて状況とその結果を表す文"
+        },
+        "examples": [
+          {
+            "sentence": "If it rains, we will stay inside is a conditional sentence.",
+            "translation": {
+              "Hindi": "'अगर बारिश होती है तो हम अंदर रहेंगे' एक शर्तीय वाक्य है।",
+              "Japanese": "「雨が降れば私たちは中にいる」というのは条件文です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hypothetical",
+        "word_translation": {
+          "Hindi": "काल्पनिक",
+          "Japanese": "仮定の"
+        },
+        "meaning": "Based on an imagined situation rather than reality",
+        "meaning_translation": {
+          "Hindi": "वास्तविकता की बजाय कल्पना की गई स्थिति पर आधारित",
+          "Japanese": "現実ではなく想像された状況に基づく"
+        },
+        "examples": [
+          {
+            "sentence": "Suppose he were here, he would help us is a hypothetical idea.",
+            "translation": {
+              "Hindi": "मान लो वह यहां होता, तो वह हमारी मदद करता - यह एक काल्पनिक विचार है।",
+              "Japanese": "彼がここにいたら、私たちを助けていただろう、というのは仮定の考えです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "counterfactual",
+        "word_translation": {
+          "Hindi": "विपरीत तथ्यात्मक",
+          "Japanese": "反事実的な"
+        },
+        "meaning": "Describing what would have happened if a situation had been different",
+        "meaning_translation": {
+          "Hindi": "यह बताना कि यदि स्थिति अलग होती तो क्या होता",
+          "Japanese": "状況が異なっていた場合に何が起こったかを述べること"
+        },
+        "examples": [
+          {
+            "sentence": "If she had studied, she would have passed is a counterfactual statement.",
+            "translation": {
+              "Hindi": "'अगर उसने पढ़ाई की होती तो वह पास हो जाती' एक विपरीत तथ्यात्मक कथन है।",
+              "Japanese": "「彼女が勉強していたら合格していただろう」というのは反事実的な文です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mixed conditional",
+        "word_translation": {
+          "Hindi": "मिश्रित शर्तीय वाक्य",
+          "Japanese": "混合条件文"
+        },
+        "meaning": "A conditional combining two different time references",
+        "meaning_translation": {
+          "Hindi": "एक शर्तीय वाक्य जो दो अलग-अलग समय संदर्भों को जोड़ता है",
+          "Japanese": "二つの異なる時間の参照を組み合わせた条件文"
+        },
+        "examples": [
+          {
+            "sentence": "If I had worked harder, I would be successful now is a mixed conditional.",
+            "translation": {
+              "Hindi": "'अगर मैंने अधिक मेहनत की होती, तो मैं अब सफल होता' एक मिश्रित शर्तीय वाक्य है।",
+              "Japanese": "「もっと努力していたら、今成功しているだろう」というのは混合条件文です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "implication",
+        "word_translation": {
+          "Hindi": "निहितार्थ",
+          "Japanese": "含意"
+        },
+        "meaning": "A conclusion that can be drawn even if not explicitly stated",
+        "meaning_translation": {
+          "Hindi": "एक निष्कर्ष जो स्पष्ट रूप से न कहा गया हो पर निकाला जा सके",
+          "Japanese": "明示されていなくても導き出される結論"
+        },
+        "examples": [
+          {
+            "sentence": "If prices rise, the implication is that demand will fall.",
+            "translation": {
+              "Hindi": "अगर कीमतें बढ़ती हैं, तो निहितार्थ यह है कि मांग घटेगी।",
+              "Japanese": "価格が上昇すれば、需要が減少するという含意があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "logical necessity",
+        "word_translation": {
+          "Hindi": "तार्किक आवश्यकता",
+          "Japanese": "論理的必然性"
+        },
+        "meaning": "Something that must be true based on reasoning",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो तर्क पर आधारित होकर सच होना ही चाहिए",
+          "Japanese": "推論に基づいて必ず真でなければならないこと"
+        },
+        "examples": [
+          {
+            "sentence": "If A equals B and B equals C, then A must equal C is a logical necessity.",
+            "translation": {
+              "Hindi": "'अगर A = B और B = C है, तो A = C होना ही चाहिए' यह तार्किक आवश्यकता है।",
+              "Japanese": "A=B かつ B=C ならば A=C でなければならない、これは論理的必然性です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "predictive reasoning",
+        "word_translation": {
+          "Hindi": "पूर्वानुमानित तर्क",
+          "Japanese": "予測的推論"
+        },
+        "meaning": "Using conditionals to anticipate future outcomes",
+        "meaning_translation": {
+          "Hindi": "भविष्य के परिणामों की भविष्यवाणी करने के लिए शर्तीय वाक्यों का उपयोग करना",
+          "Japanese": "将来の結果を予測するために条件文を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "If global temperatures rise, sea levels will increase.",
+            "translation": {
+              "Hindi": "अगर वैश्विक तापमान बढ़ता है, तो समुद्र स्तर बढ़ जाएगा।",
+              "Japanese": "地球の気温が上昇すれば、海面も上昇します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deductive reasoning",
+        "word_translation": {
+          "Hindi": "निगमनात्मक तर्क",
+          "Japanese": "演繹推論"
+        },
+        "meaning": "Drawing conclusions from general principles using logic",
+        "meaning_translation": {
+          "Hindi": "तर्क का प्रयोग करके सामान्य सिद्धांतों से निष्कर्ष निकालना",
+          "Japanese": "論理を使って一般原理から結論を導くこと"
+        },
+        "examples": [
+          {
+            "sentence": "If all humans are mortal and Socrates is human, then Socrates must be mortal.",
+            "translation": {
+              "Hindi": "'अगर सभी मनुष्य नश्वर हैं और सुकरात मनुष्य है, तो सुकरात नश्वर होना चाहिए।'",
+              "Japanese": "すべての人間が死すべき存在であり、ソクラテスが人間であるなら、ソクラテスも死すべき存在です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "causality",
+        "word_translation": {
+          "Hindi": "कारण-परिणाम संबंध",
+          "Japanese": "因果関係"
+        },
+        "meaning": "The relationship between a cause and its effect",
+        "meaning_translation": {
+          "Hindi": "कारण और उसके परिणाम के बीच संबंध",
+          "Japanese": "原因とその結果の関係"
+        },
+        "examples": [
+          {
+            "sentence": "If you heat water to 100°C, it boils shows causality.",
+            "translation": {
+              "Hindi": "'अगर आप पानी को 100°C तक गर्म करते हैं, तो यह उबलता है' कारण-परिणाम दर्शाता है।",
+              "Japanese": "水を100°Cまで加熱すると沸騰する、これは因果関係を示します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "speculative",
+        "word_translation": {
+          "Hindi": "अनुमानित",
+          "Japanese": "推測的な"
+        },
+        "meaning": "Based on guesses or assumptions rather than evidence",
+        "meaning_translation": {
+          "Hindi": "साक्ष्य की बजाय अनुमान या धारणाओं पर आधारित",
+          "Japanese": "証拠ではなく推測や仮定に基づく"
+        },
+        "examples": [
+          {
+            "sentence": "If aliens exist, they might already have visited Earth is speculative.",
+            "translation": {
+              "Hindi": "'अगर एलियन मौजूद हैं, तो वे शायद पहले ही पृथ्वी पर आ चुके होंगे' अनुमानित है।",
+              "Japanese": "宇宙人が存在するなら、すでに地球を訪れているかもしれない、これは推測的です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Counterfactual Conditionals",
+        "explanation": "Use past perfect in the if-clause and 'would have + past participle' in the main clause. Example: If she had studied, she would have passed.",
+        "explanation_translation": {
+          "Hindi": "यदि वाक्य में past perfect और मुख्य वाक्य में 'would have + past participle' का प्रयोग करें। उदाहरण: If she had studied, she would have passed.",
+          "Japanese": "条件節に過去完了、主節に「would have + 過去分詞」を使います。例：If she had studied, she would have passed."
+        }
+      },
+      {
+        "title": "Mixed Conditionals",
+        "explanation": "Combine past condition with present result, or present condition with past result. Example: If I had slept earlier, I would not be tired now.",
+        "explanation_translation": {
+          "Hindi": "अतीत की शर्त को वर्तमान परिणाम के साथ या वर्तमान शर्त को अतीत परिणाम के साथ जोड़ें। उदाहरण: If I had slept earlier, I would not be tired now.",
+          "Japanese": "過去の条件と現在の結果、または現在の条件と過去の結果を組み合わせます。例：If I had slept earlier, I would not be tired now."
+        }
+      },
+      {
+        "title": "Conditional Reasoning in Logic",
+        "explanation": "Conditionals are often used in deductive and hypothetical reasoning, connecting premises with conclusions. Example: If all A are B, and C is A, then C is B.",
+        "explanation_translation": {
+          "Hindi": "शर्तीय वाक्य अक्सर निगमनात्मक और काल्पनिक तर्क में प्रयोग होते हैं, जो आधारों को निष्कर्षों से जोड़ते हैं। उदाहरण: If all A are B, and C is A, then C is B.",
+          "Japanese": "条件文はしばしば演繹的および仮定的推論に使われ、前提を結論に結びつけます。例：If all A are B, and C is A, then C is B."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word refers to a conditional combining two different time references?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द दो अलग-अलग समय संदर्भों को जोड़ने वाले शर्तीय वाक्य को संदर्भित करता है?",
+        "Japanese": "二つの異なる時間の参照を組み合わせた条件文を指す言葉はどれですか？"
+      },
+      "options": [
+        "counterfactual",
+        "mixed conditional",
+        "speculative"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "If she had studied harder, she ___ have passed the exam.",
+      "question_translation": {
+        "Hindi": "अगर उसने अधिक मेहनत की होती, तो वह परीक्षा ___ पास कर लेती।",
+        "Japanese": "彼女がもっと勉強していたら、試験に___合格していただろう。"
+      },
+      "options": [
+        "would",
+        "would have",
+        "will"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Counterfactual conditionals describe events that did not happen in reality.",
+      "question_translation": {
+        "Hindi": "विपरीत तथ्यात्मक शर्तीय वाक्य उन घटनाओं का वर्णन करते हैं जो वास्तविकता में नहीं हुईं।",
+        "Japanese": "反事実的条件文は現実には起こらなかった出来事を表します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word describes a conclusion that can be drawn even if not stated?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द उस निष्कर्ष का वर्णन करता है जिसे स्पष्ट रूप से न कहा गया हो लेकिन निकाला जा सकता हो?",
+        "Japanese": "明示されていなくても導き出せる結論を表す言葉はどれですか？"
+      },
+      "options": [
+        "implication",
+        "causality",
+        "necessity"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "If global temperatures rise, sea levels ___ increase.",
+      "question_translation": {
+        "Hindi": "अगर वैश्विक तापमान बढ़ता है, तो समुद्र स्तर ___ बढ़ेगा।",
+        "Japanese": "地球の気温が上昇すれば、海面は___上昇します。"
+      },
+      "options": [
+        "might",
+        "will",
+        "would have"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [have, would, I, successful, worked, harder, been]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [have, would, I, successful, worked, harder, been]",
+        "Japanese": "並べ替え: [have, would, I, successful, worked, harder, been]"
+      },
+      "options": [
+        "have",
+        "would",
+        "I",
+        "successful",
+        "worked",
+        "harder",
+        "been"
+      ],
+      "answer": [
+        "If",
+        "I",
+        "had",
+        "worked",
+        "harder,",
+        "I",
+        "would",
+        "have",
+        "been",
+        "successful"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "If I ___ gone to bed earlier, I would not be tired now.",
+      "question_translation": {
+        "Hindi": "अगर मैं पहले सोने ___ गया होता, तो मैं अब थका हुआ नहीं होता।",
+        "Japanese": "もし私がもっと早く寝に___行っていたら、今疲れていないだろう。"
+      },
+      "options": [
+        "had",
+        "have",
+        "has"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows a mixed conditional?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य मिश्रित शर्तीय वाक्य दर्शाता है?",
+        "Japanese": "混合条件文を示しているのはどの文ですか？"
+      },
+      "options": [
+        "If it rains, we will stay inside.",
+        "If I had studied more, I would be successful now.",
+        "If she studies, she passes."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [equal, if, must, all, be, humans, mortal]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [equal, if, must, all, be, humans, mortal]",
+        "Japanese": "並べ替え: [equal, if, must, all, be, humans, mortal]"
+      },
+      "options": [
+        "equal",
+        "if",
+        "must",
+        "all",
+        "be",
+        "humans",
+        "mortal"
+      ],
+      "answer": [
+        "if",
+        "all",
+        "humans",
+        "are",
+        "mortal"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "If aliens ___ exist, they might already have visited Earth.",
+      "question_translation": {
+        "Hindi": "अगर एलियन मौजूद ___, तो वे शायद पहले ही पृथ्वी पर आ चुके होंगे।",
+        "Japanese": "宇宙人が存在___なら、すでに地球を訪れているかもしれない。"
+      },
+      "options": [
+        "does",
+        "did",
+        "do"
+      ],
+      "answer": 2
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What situation does the speaker describe?",
+      "audio_text": "If I had prepared earlier, I would not be stressed now.",
+      "question_translation": {
+        "Hindi": "वक्ता किस स्थिति का वर्णन कर रहा है?",
+        "Japanese": "話者はどの状況を説明していますか？"
+      },
+      "options": [
+        "A present condition with a past result",
+        "A past condition with a present result",
+        "A future prediction"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The sentence 'If she had worked harder, she would have passed' is a counterfactual conditional.",
+      "audio_text": "If she had worked harder, she would have passed.",
+      "question_translation": {
+        "Hindi": "वाक्य 'अगर उसने अधिक मेहनत की होती, तो वह पास हो जाती' एक विपरीत तथ्यात्मक शर्तीय वाक्य है।",
+        "Japanese": "「もっと努力していたら、彼女は合格していただろう」という文は反事実的条件文です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What reasoning pattern does the audio show?",
+      "audio_text": "If all mammals need oxygen and whales are mammals, then whales need oxygen.",
+      "question_translation": {
+        "Hindi": "ऑडियो किस तर्क पैटर्न को दिखाता है?",
+        "Japanese": "音声はどの推論パターンを示していますか？"
+      },
+      "options": [
+        "Causality",
+        "Deductive reasoning",
+        "Speculative thinking"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The audio expresses a speculative idea.",
+      "audio_text": "If time travel were possible, we might meet future humans.",
+      "question_translation": {
+        "Hindi": "ऑडियो एक अनुमानित विचार व्यक्त करता है।",
+        "Japanese": "音声は推測的な考えを表しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What is implied in the statement?",
+      "audio_text": "If demand increases, prices will likely rise.",
+      "question_translation": {
+        "Hindi": "कथन में क्या निहितार्थ है?",
+        "Japanese": "この発言には何が含意されていますか？"
+      },
+      "options": [
+        "Price and demand are unrelated",
+        "Price may fall",
+        "Price is connected to demand"
+      ],
+      "answer": 2
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'If I had studied more, I would be successful now.'",
+      "question_translation": {
+        "Hindi": "कहें: 'अगर मैंने अधिक पढ़ाई की होती, तो मैं अब सफल होता।'",
+        "Japanese": "言ってください: 'もっと勉強していたら、今成功していただろう。'"
+      },
+      "options": [],
+      "answer": "if i had studied more i would be successful now"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'If she had worked harder, she would have passed.'",
+      "question_translation": {
+        "Hindi": "कहें: 'अगर उसने अधिक मेहनत की होती, तो वह पास हो जाती।'",
+        "Japanese": "言ってください: 'もっと努力していたら、彼女は合格していただろう。'"
+      },
+      "options": [],
+      "answer": "if she had worked harder she would have passed"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'If demand increases, prices will rise.'",
+      "question_translation": {
+        "Hindi": "कहें: 'अगर मांग बढ़ती है, तो कीमतें बढ़ेंगी।'",
+        "Japanese": "言ってください: '需要が増えれば、価格は上がる。'"
+      },
+      "options": [],
+      "answer": "if demand increases prices will rise"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'If I had gone to bed earlier, I would not be tired now.'",
+      "question_translation": {
+        "Hindi": "कहें: 'अगर मैं पहले सोने गया होता, तो अब थका हुआ नहीं होता।'",
+        "Japanese": "言ってください: 'もっと早く寝ていたら、今疲れていないだろう。'"
+      },
+      "options": [],
+      "answer": "if i had gone to bed earlier i would not be tired now"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'If time travel were possible, we might meet future humans.'",
+      "question_translation": {
+        "Hindi": "कहें: 'अगर समय यात्रा संभव होती, तो हम भविष्य के मनुष्यों से मिल सकते थे।'",
+        "Japanese": "言ってください: 'タイムトラベルが可能なら、未来の人間に会えるかもしれない。'"
+      },
+      "options": [],
+      "answer": "if time travel were possible we might meet future humans"
+    }
+  ]
+}
+
 }

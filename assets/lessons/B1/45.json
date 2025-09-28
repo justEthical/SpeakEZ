@@ -1,4 +1,516 @@
 {
-  "id": 45,
-  "message": "This is file number 45"
+  "id": "lesson_money_management_001",
+  "lesson_name": "Talking About Money Management",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "budget",
+        "word_translation": {
+          "Hindi": "बजट",
+          "Japanese": "予算"
+        },
+        "meaning": "A plan for how to spend and save money",
+        "meaning_translation": {
+          "Hindi": "पैसा खर्च और बचत करने की योजना",
+          "Japanese": "お金を使ったり貯めたりする計画"
+        },
+        "examples": [
+          {
+            "sentence": "I make a monthly budget to track my expenses.",
+            "translation": {
+              "Hindi": "मैं अपने खर्चों को ट्रैक करने के लिए मासिक बजट बनाता हूँ।",
+              "Japanese": "私は支出を記録するために毎月の予算を立てます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expense",
+        "word_translation": {
+          "Hindi": "खर्च",
+          "Japanese": "支出"
+        },
+        "meaning": "The money that you spend on something",
+        "meaning_translation": {
+          "Hindi": "वह पैसा जो आप किसी चीज़ पर खर्च करते हैं",
+          "Japanese": "何かに使うお金"
+        },
+        "examples": [
+          {
+            "sentence": "Rent is my biggest monthly expense.",
+            "translation": {
+              "Hindi": "किराया मेरा सबसे बड़ा मासिक खर्च है।",
+              "Japanese": "家賃は私の最大の毎月の支出です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "income",
+        "word_translation": {
+          "Hindi": "आय",
+          "Japanese": "収入"
+        },
+        "meaning": "Money that you earn from work or other sources",
+        "meaning_translation": {
+          "Hindi": "काम या अन्य स्रोतों से मिलने वाला पैसा",
+          "Japanese": "仕事や他の収入源から得るお金"
+        },
+        "examples": [
+          {
+            "sentence": "Her income is enough to cover all her expenses.",
+            "translation": {
+              "Hindi": "उसकी आय उसके सभी खर्चों को पूरा करने के लिए पर्याप्त है।",
+              "Japanese": "彼女の収入はすべての支出をまかなうのに十分です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "save",
+        "word_translation": {
+          "Hindi": "बचत करना",
+          "Japanese": "貯金する"
+        },
+        "meaning": "To keep money instead of spending it",
+        "meaning_translation": {
+          "Hindi": "पैसा खर्च करने की बजाय बचाना",
+          "Japanese": "お金を使わずに取っておくこと"
+        },
+        "examples": [
+          {
+            "sentence": "I try to save 20% of my salary every month.",
+            "translation": {
+              "Hindi": "मैं हर महीने अपनी सैलरी का 20% बचाने की कोशिश करता हूँ।",
+              "Japanese": "私は毎月給料の20％を貯金するようにしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "debt",
+        "word_translation": {
+          "Hindi": "ऋण",
+          "Japanese": "借金"
+        },
+        "meaning": "Money that you owe to someone or a bank",
+        "meaning_translation": {
+          "Hindi": "वह पैसा जो आपको किसी या बैंक को चुकाना है",
+          "Japanese": "誰かや銀行に返さなければならないお金"
+        },
+        "examples": [
+          {
+            "sentence": "He is trying to pay off his student debt.",
+            "translation": {
+              "Hindi": "वह अपने छात्र ऋण को चुकाने की कोशिश कर रहा है।",
+              "Japanese": "彼は学生ローンを返済しようとしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "loan",
+        "word_translation": {
+          "Hindi": "ऋण/कर्ज",
+          "Japanese": "ローン"
+        },
+        "meaning": "Money that you borrow and must pay back",
+        "meaning_translation": {
+          "Hindi": "पैसा जो आप उधार लेते हैं और वापस करना होता है",
+          "Japanese": "借りて返さなければならないお金"
+        },
+        "examples": [
+          {
+            "sentence": "He took a loan from the bank to buy a car.",
+            "translation": {
+              "Hindi": "उसने कार खरीदने के लिए बैंक से ऋण लिया।",
+              "Japanese": "彼は車を買うために銀行からローンを組みました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "interest",
+        "word_translation": {
+          "Hindi": "ब्याज",
+          "Japanese": "利息"
+        },
+        "meaning": "Extra money you pay when you borrow money",
+        "meaning_translation": {
+          "Hindi": "अतिरिक्त पैसा जो आप उधार लेने पर चुकाते हैं",
+          "Japanese": "お金を借りるときに追加で支払うお金"
+        },
+        "examples": [
+          {
+            "sentence": "The loan has a 7% interest rate.",
+            "translation": {
+              "Hindi": "ऋण पर 7% ब्याज दर है।",
+              "Japanese": "そのローンの利息は7％です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "invest",
+        "word_translation": {
+          "Hindi": "निवेश करना",
+          "Japanese": "投資する"
+        },
+        "meaning": "To put money into something to make a profit",
+        "meaning_translation": {
+          "Hindi": "लाभ कमाने के लिए किसी चीज़ में पैसा लगाना",
+          "Japanese": "利益を得るためにお金を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "He decided to invest in the stock market.",
+            "translation": {
+              "Hindi": "उसने शेयर बाजार में निवेश करने का फैसला किया।",
+              "Japanese": "彼は株式市場に投資することに決めました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'can' and 'should' for advice",
+        "explanation": "Use 'can' for possible actions and 'should' for giving advice. Example: You can save money by cooking at home. You should make a budget.",
+        "explanation_translation": {
+          "Hindi": "'can' का उपयोग संभावित कार्यों के लिए करें और 'should' का उपयोग सलाह देने के लिए करें। उदाहरण: You can save money by cooking at home. You should make a budget.",
+          "Japanese": "可能な行動には「can」を、アドバイスをするときには「should」を使います。例：You can save money by cooking at home. You should make a budget."
+        }
+      },
+      {
+        "title": "Comparatives for spending habits",
+        "explanation": "Use 'more/less + noun' or 'comparative adjectives' to compare spending. Example: I spend less money on clothes than on food.",
+        "explanation_translation": {
+          "Hindi": "खर्च की तुलना करने के लिए 'more/less + noun' या तुलनात्मक विशेषण का उपयोग करें। उदाहरण: I spend less money on clothes than on food.",
+          "Japanese": "支出を比較するときは「more/less + 名詞」または比較級を使います。例：I spend less money on clothes than on food."
+        }
+      },
+      {
+        "title": "First Conditional for financial planning",
+        "explanation": "Use 'If + present simple, will + verb' to talk about future money situations. Example: If I save enough, I will buy a new phone.",
+        "explanation_translation": {
+          "Hindi": "भविष्य की धन संबंधी स्थितियों के बारे में बात करने के लिए 'If + present simple, will + verb' का उपयोग करें। उदाहरण: If I save enough, I will buy a new phone.",
+          "Japanese": "将来のお金の状況について話すときは「If + 現在形, will + 動詞」を使います。例：If I save enough, I will buy a new phone."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What word means 'a plan for how to spend and save money'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'पैसा खर्च और बचत करने की योजना' का अर्थ है?",
+          "Japanese": "「お金を使ったり貯めたりする計画」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "income",
+          "budget",
+          "loan"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Paying rent is my biggest monthly ___.",
+        "question_translation": {
+          "Hindi": "किराया देना मेरा सबसे बड़ा मासिक ___ है।",
+          "Japanese": "家賃を払うことは私の最大の毎月の___です。"
+        },
+        "options": [
+          "income",
+          "expense",
+          "investment"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Debt is money you owe to someone or a bank.",
+        "question_translation": {
+          "Hindi": "ऋण वह पैसा है जो आपको किसी या बैंक को देना होता है।",
+          "Japanese": "借金は誰かや銀行に返さなければならないお金です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'extra money you pay when you borrow money'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'वह अतिरिक्त पैसा जो आप उधार लेने पर चुकाते हैं' का अर्थ है?",
+          "Japanese": "「お金を借りるときに追加で支払うお金」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "interest",
+          "income",
+          "budget"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "He decided to ___ in real estate to earn profits.",
+        "question_translation": {
+          "Hindi": "उसने लाभ कमाने के लिए रियल एस्टेट में ___ करने का फैसला किया।",
+          "Japanese": "彼は利益を得るために不動産に___することに決めました。"
+        },
+        "options": [
+          "invest",
+          "spend",
+          "borrow"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [a, budget, make, should, you]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [a, budget, make, should, you]",
+          "Japanese": "並べ替え: [a, budget, make, should, you]"
+        },
+        "options": [
+          "a",
+          "budget",
+          "make",
+          "should",
+          "you"
+        ],
+        "answer": [
+          "you",
+          "should",
+          "make",
+          "a",
+          "budget"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "If I save enough money, I ___ buy a new laptop.",
+        "question_translation": {
+          "Hindi": "अगर मैं पर्याप्त पैसा बचाता हूँ, तो मैं एक नया लैपटॉप ___।",
+          "Japanese": "もし十分にお金を貯めたら、新しいノートパソコンを___。"
+        },
+        "options": [
+          "will",
+          "would",
+          "can"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses 'should' correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य 'should' का सही उपयोग करता है?",
+          "Japanese": "「should」を正しく使っている文はどれですか？"
+        },
+        "options": [
+          "You should to save more money.",
+          "You should save more money.",
+          "You saving should more money."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [less, I, spend, food, on, money]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [less, I, spend, food, on, money]",
+          "Japanese": "並べ替え: [less, I, spend, food, on, money]"
+        },
+        "options": [
+          "less",
+          "I",
+          "spend",
+          "food",
+          "on",
+          "money"
+        ],
+        "answer": [
+          "I",
+          "spend",
+          "less",
+          "money",
+          "on",
+          "food"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "She ___ a loan from the bank last year.",
+        "question_translation": {
+          "Hindi": "उसने पिछले साल बैंक से ऋण ___।",
+          "Japanese": "彼女は昨年銀行からローンを___。"
+        },
+        "options": [
+          "take",
+          "took",
+          "taken"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker suggest?",
+        "audio_text": "You should save at least 10% of your income every month.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या सुझाव देता है?",
+          "Japanese": "話者は何を提案していますか？"
+        },
+        "options": [
+          "Spend more on food",
+          "Save 10% of income",
+          "Take a loan"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What is the speaker talking about?",
+        "audio_text": "My biggest expense each month is rent.",
+        "question_translation": {
+          "Hindi": "वक्ता किस बारे में बात कर रहा है?",
+          "Japanese": "話者は何について話していますか？"
+        },
+        "options": [
+          "Rent",
+          "Food",
+          "Salary"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker says he invested money in stocks.",
+        "audio_text": "I invested some money in the stock market last year.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि उसने शेयरों में पैसा निवेश किया।",
+          "Japanese": "話者は株にお金を投資したと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What does the speaker want to pay off?",
+        "audio_text": "I want to pay off my student debt as soon as possible.",
+        "question_translation": {
+          "Hindi": "वक्ता किसे चुकाना चाहता है?",
+          "Japanese": "話者は何を返済したいですか？"
+        },
+        "options": [
+          "Loan",
+          "Student debt",
+          "Rent"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What financial plan does the speaker have?",
+        "audio_text": "If I save enough money, I will buy a car next year.",
+        "question_translation": {
+          "Hindi": "वक्ता की वित्तीय योजना क्या है?",
+          "Japanese": "話者の経済計画は何ですか？"
+        },
+        "options": [
+          "Buy a car",
+          "Pay rent",
+          "Invest in stocks"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I make a budget every month.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I make a budget every month.'",
+          "Japanese": "言ってください: 'I make a budget every month.'"
+        },
+        "options": [],
+        "answer": "i make a budget every month"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Rent is my biggest expense.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Rent is my biggest expense.'",
+          "Japanese": "言ってください: 'Rent is my biggest expense.'"
+        },
+        "options": [],
+        "answer": "rent is my biggest expense"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I try to save money every month.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I try to save money every month.'",
+          "Japanese": "言ってください: 'I try to save money every month.'"
+        },
+        "options": [],
+        "answer": "i try to save money every month"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He took a loan from the bank.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He took a loan from the bank.'",
+          "Japanese": "言ってください: 'He took a loan from the bank.'"
+        },
+        "options": [],
+        "answer": "he took a loan from the bank"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I will invest in the stock market.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I will invest in the stock market.'",
+          "Japanese": "言ってください: 'I will invest in the stock market.'"
+        },
+        "options": [],
+        "answer": "i will invest in the stock market"
+      }
+    ]
+  }
+
 }

@@ -1,4 +1,516 @@
 {
-  "id": 20,
-  "message": "This is file number 20"
+  "id": "lesson_phrasal_verbs_relationships_emotions_b2",
+  "lesson_name": "Phrasal Verbs for Relationships & Emotions",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "get along (with)",
+        "word_translation": {
+          "Hindi": "मेलजोल रखना / साथ निभाना",
+          "Japanese": "仲良くする"
+        },
+        "meaning": "To have a friendly relationship with someone",
+        "meaning_translation": {
+          "Hindi": "किसी के साथ दोस्ताना संबंध रखना",
+          "Japanese": "誰かと良い関係を持つこと"
+        },
+        "examples": [
+          {
+            "sentence": "She gets along well with her coworkers.",
+            "translation": {
+              "Hindi": "वह अपने सहकर्मियों के साथ अच्छा मेलजोल रखती है।",
+              "Japanese": "彼女は同僚とうまくやっています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fall out (with)",
+        "word_translation": {
+          "Hindi": "झगड़ना / अनबन होना",
+          "Japanese": "仲たがいする"
+        },
+        "meaning": "To have an argument and stop being friendly",
+        "meaning_translation": {
+          "Hindi": "झगड़ा करना और दोस्ताना संबंध खत्म करना",
+          "Japanese": "口論して仲が悪くなること"
+        },
+        "examples": [
+          {
+            "sentence": "They fell out over money issues.",
+            "translation": {
+              "Hindi": "वे पैसों की वजह से झगड़ पड़े।",
+              "Japanese": "彼らはお金のことで仲たがいしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "make up",
+        "word_translation": {
+          "Hindi": "सुलह करना",
+          "Japanese": "仲直りする"
+        },
+        "meaning": "To become friends again after an argument",
+        "meaning_translation": {
+          "Hindi": "झगड़े के बाद फिर से दोस्त बनना",
+          "Japanese": "口論の後に仲直りすること"
+        },
+        "examples": [
+          {
+            "sentence": "After a week, they finally made up.",
+            "translation": {
+              "Hindi": "एक हफ्ते बाद वे आखिरकार सुलह कर लिए।",
+              "Japanese": "1週間後、彼らはついに仲直りしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "break up",
+        "word_translation": {
+          "Hindi": "रिश्ता तोड़ना",
+          "Japanese": "別れる"
+        },
+        "meaning": "To end a romantic relationship",
+        "meaning_translation": {
+          "Hindi": "रोमांटिक संबंध को खत्म करना",
+          "Japanese": "恋愛関係を終わらせること"
+        },
+        "examples": [
+          {
+            "sentence": "They decided to break up after three years together.",
+            "translation": {
+              "Hindi": "तीन साल साथ रहने के बाद उन्होंने रिश्ता तोड़ने का फैसला किया।",
+              "Japanese": "3年間一緒に過ごした後、彼らは別れることに決めました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cheer up",
+        "word_translation": {
+          "Hindi": "खुश करना / हिम्मत बढ़ाना",
+          "Japanese": "元気づける"
+        },
+        "meaning": "To make someone feel happier",
+        "meaning_translation": {
+          "Hindi": "किसी को अधिक खुश महसूस कराना",
+          "Japanese": "誰かを元気にさせること"
+        },
+        "examples": [
+          {
+            "sentence": "She bought him flowers to cheer him up.",
+            "translation": {
+              "Hindi": "उसे खुश करने के लिए उसने उसे फूल दिए।",
+              "Japanese": "彼を元気づけるために彼女は花を買いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "calm down",
+        "word_translation": {
+          "Hindi": "शांत होना",
+          "Japanese": "落ち着く"
+        },
+        "meaning": "To become less upset, excited, or angry",
+        "meaning_translation": {
+          "Hindi": "कम गुस्सा, परेशान या उत्साहित होना",
+          "Japanese": "怒りや興奮がおさまること"
+        },
+        "examples": [
+          {
+            "sentence": "He calmed down after talking to his friend.",
+            "translation": {
+              "Hindi": "अपने दोस्त से बात करने के बाद वह शांत हो गया।",
+              "Japanese": "彼は友達と話した後落ち着きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "open up",
+        "word_translation": {
+          "Hindi": "दिल खोलना / साझा करना",
+          "Japanese": "打ち明ける"
+        },
+        "meaning": "To talk about your feelings freely",
+        "meaning_translation": {
+          "Hindi": "अपनी भावनाओं के बारे में खुलकर बात करना",
+          "Japanese": "自分の気持ちを率直に話すこと"
+        },
+        "examples": [
+          {
+            "sentence": "She opened up about her worries to her best friend.",
+            "translation": {
+              "Hindi": "उसने अपनी चिंताओं के बारे में अपनी सबसे अच्छी दोस्त से साझा किया।",
+              "Japanese": "彼女は親友に悩みを打ち明けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bottle up",
+        "word_translation": {
+          "Hindi": "दबाकर रखना",
+          "Japanese": "感情を抑える"
+        },
+        "meaning": "To keep emotions inside without expressing them",
+        "meaning_translation": {
+          "Hindi": "भावनाओं को भीतर रखना और व्यक्त न करना",
+          "Japanese": "感情を抑えて表現しないこと"
+        },
+        "examples": [
+          {
+            "sentence": "It’s unhealthy to bottle up your emotions.",
+            "translation": {
+              "Hindi": "अपनी भावनाओं को दबाकर रखना अस्वस्थ है।",
+              "Japanese": "感情を抑えるのは健康によくありません。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Transitive vs. Intransitive Phrasal Verbs",
+        "explanation": "Some relationship phrasal verbs take an object (e.g., 'cheer up someone'), while others don’t (e.g., 'break up').",
+        "explanation_translation": {
+          "Hindi": "कुछ phrasal verbs object लेते हैं (जैसे 'cheer up someone'), जबकि अन्य नहीं लेते (जैसे 'break up')।",
+          "Japanese": "一部の句動詞は目的語を取ります（例：'cheer up someone'）、一方で取らないものもあります（例：'break up'）。"
+        }
+      },
+      {
+        "title": "Emotional Intensity",
+        "explanation": "Phrasal verbs often show different degrees of emotions. For example, 'calm down' suggests reducing intensity, while 'open up' suggests expressing feelings.",
+        "explanation_translation": {
+          "Hindi": "Phrasal verbs अक्सर भावनाओं की तीव्रता को दिखाते हैं। जैसे 'calm down' का अर्थ है तीव्रता कम करना, जबकि 'open up' का अर्थ है भावनाओं को व्यक्त करना।",
+          "Japanese": "句動詞は感情の強さを表すことがあります。例えば、「calm down」は強さを減らすことを意味し、「open up」は感情を表現することを意味します。"
+        }
+      },
+      {
+        "title": "Reflexive or Reciprocal Meanings",
+        "explanation": "Some phrasal verbs involve both people equally, e.g., 'make up' after a fight usually involves two people.",
+        "explanation_translation": {
+          "Hindi": "कुछ phrasal verbs दोनों व्यक्तियों को समान रूप से शामिल करते हैं, जैसे 'make up' आमतौर पर झगड़े के बाद दोनों के बीच होता है।",
+          "Japanese": "一部の句動詞は両者を同等に関わらせます。例えば、「make up」は喧嘩の後に二人で仲直りすることです。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrasal verb means 'to have a friendly relationship'?",
+      "question_translation": {
+        "Hindi": "कौन सा phrasal verb 'दोस्ताना संबंध रखना' का अर्थ है?",
+        "Japanese": "「友好的な関係を持つ」という意味の句動詞はどれですか？"
+      },
+      "options": [
+        "fall out",
+        "get along",
+        "bottle up"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "After the argument, they decided to ___ and be friends again.",
+      "question_translation": {
+        "Hindi": "झगड़े के बाद, उन्होंने फिर से दोस्त बनने के लिए ___ का निर्णय लिया।",
+        "Japanese": "口論の後、彼らは再び友達になるために___ことにしました。"
+      },
+      "options": [
+        "make up",
+        "break up",
+        "calm down"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Break up’ means to continue a relationship.",
+      "question_translation": {
+        "Hindi": "‘Break up’ का अर्थ है रिश्ते को जारी रखना।",
+        "Japanese": "「Break up」は関係を続けることを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrasal verb means 'to keep emotions inside without expressing them'?",
+      "question_translation": {
+        "Hindi": "कौन सा phrasal verb 'भावनाओं को भीतर रखना और व्यक्त न करना' का अर्थ है?",
+        "Japanese": "「感情を抑えて表現しない」という意味の句動詞はどれですか？"
+      },
+      "options": [
+        "open up",
+        "bottle up",
+        "cheer up"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "She bought chocolates to ___ her friend ___.",
+      "question_translation": {
+        "Hindi": "उसने अपनी दोस्त को ___ करने के लिए चॉकलेट खरीदी।",
+        "Japanese": "彼女は友達を___ためにチョコレートを買いました。"
+      },
+      "options": [
+        "calm / down",
+        "cheer / up",
+        "make / up"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [fell, with, they, over, out, money]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [fell, with, they, over, out, money]",
+        "Japanese": "並べ替え: [fell, with, they, over, out, money]"
+      },
+      "options": [
+        "fell",
+        "with",
+        "they",
+        "over",
+        "out",
+        "money"
+      ],
+      "answer": [
+        "they",
+        "fell",
+        "out",
+        "over",
+        "money"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "He needs to ___ before we continue the discussion.",
+      "question_translation": {
+        "Hindi": "चर्चा जारी रखने से पहले उसे ___ की आवश्यकता है।",
+        "Japanese": "話を続ける前に彼は___必要があります。"
+      },
+      "options": [
+        "open up",
+        "calm down",
+        "make up"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is grammatically correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य व्याकरणिक रूप से सही है?",
+        "Japanese": "文法的に正しい文はどれですか？"
+      },
+      "options": [
+        "They made up quickly after the fight.",
+        "They make up quickly after the fight yesterday.",
+        "They makes up quickly after the fight."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [bottle, up, emotions, your, not]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [bottle, up, emotions, your, not]",
+        "Japanese": "並べ替え: [bottle, up, emotions, your, not]"
+      },
+      "options": [
+        "bottle",
+        "up",
+        "emotions",
+        "your",
+        "not"
+      ],
+      "answer": [
+        "do",
+        "not",
+        "bottle",
+        "up",
+        "your",
+        "emotions"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "It’s easier to trust people when you ___ to them.",
+      "question_translation": {
+        "Hindi": "लोगों पर भरोसा करना आसान होता है जब आप उनसे ___।",
+        "Japanese": "人に対して___とき、信頼するのが簡単です。"
+      },
+      "options": [
+        "open up",
+        "fall out",
+        "break up"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What happened between the two friends?",
+      "audio_text": "They fell out because of a misunderstanding.",
+      "question_translation": {
+        "Hindi": "दो दोस्तों के बीच क्या हुआ?",
+        "Japanese": "2人の友達の間で何が起こりましたか？"
+      },
+      "options": [
+        "They fell out",
+        "They made up",
+        "They got along"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "How did the speaker feel after talking?",
+      "audio_text": "I calmed down after sharing my worries.",
+      "question_translation": {
+        "Hindi": "बात करने के बाद वक्ता को कैसा महसूस हुआ?",
+        "Japanese": "話した後、話者はどう感じましたか？"
+      },
+      "options": [
+        "More upset",
+        "Calm",
+        "Angry"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The speaker is talking about hiding emotions.",
+      "audio_text": "I tend to bottle up my feelings when I’m stressed.",
+      "question_translation": {
+        "Hindi": "वक्ता भावनाओं को छिपाने की बात कर रहा है।",
+        "Japanese": "話者は感情を隠すことについて話しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What made the person happier?",
+      "audio_text": "My sister cheered me up with a funny story.",
+      "question_translation": {
+        "Hindi": "किस चीज़ ने व्यक्ति को अधिक खुश किया?",
+        "Japanese": "何がその人をもっと元気にしましたか？"
+      },
+      "options": [
+        "A sad story",
+        "A funny story",
+        "An argument"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What did the couple decide?",
+      "audio_text": "After many arguments, they decided to break up.",
+      "question_translation": {
+        "Hindi": "उस जोड़े ने क्या निर्णय लिया?",
+        "Japanese": "そのカップルは何を決めましたか？"
+      },
+      "options": [
+        "To break up",
+        "To make up",
+        "To get along"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'They get along very well with each other.'",
+      "question_translation": {
+        "Hindi": "कहें: 'They get along very well with each other.'",
+        "Japanese": "言ってください: 'They get along very well with each other.'"
+      },
+      "options": [],
+      "answer": "they get along very well with each other"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'We fell out over a small issue.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We fell out over a small issue.'",
+        "Japanese": "言ってください: 'We fell out over a small issue.'"
+      },
+      "options": [],
+      "answer": "we fell out over a small issue"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'They made up after the argument.'",
+      "question_translation": {
+        "Hindi": "कहें: 'They made up after the argument.'",
+        "Japanese": "言ってください: 'They made up after the argument.'"
+      },
+      "options": [],
+      "answer": "they made up after the argument"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'He needs to calm down before making decisions.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He needs to calm down before making decisions.'",
+        "Japanese": "言ってください: 'He needs to calm down before making decisions.'"
+      },
+      "options": [],
+      "answer": "he needs to calm down before making decisions"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Don’t bottle up your feelings.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Don’t bottle up your feelings.'",
+        "Japanese": "言ってください: 'Don’t bottle up your feelings.'"
+      },
+      "options": [],
+      "answer": "dont bottle up your feelings"
+    }
+  ]
+}
+
 }

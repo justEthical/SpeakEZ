@@ -1,4 +1,576 @@
 {
-  "id": 49,
-  "message": "This is file number 49"
+  "id": "lesson_conditionals_polite_001",
+  "lesson_name": "Conditionals in Polite Offers & Suggestions",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "conditional",
+        "word_translation": {
+          "Hindi": "शर्तीय वाक्य",
+          "Japanese": "条件文"
+        },
+        "meaning": "A sentence structure that describes a condition and its possible result",
+        "meaning_translation": {
+          "Hindi": "एक वाक्य संरचना जो किसी शर्त और उसके संभावित परिणाम को बताती है",
+          "Japanese": "条件とその可能な結果を説明する文構造"
+        },
+        "examples": [
+          {
+            "sentence": "If it rains, we’ll stay inside.",
+            "translation": {
+              "Hindi": "अगर बारिश होगी, तो हम अंदर रहेंगे।",
+              "Japanese": "雨が降れば、私たちは中にいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "polite offer",
+        "word_translation": {
+          "Hindi": "शिष्ट प्रस्ताव",
+          "Japanese": "丁寧な申し出"
+        },
+        "meaning": "An offer made in a respectful and considerate way",
+        "meaning_translation": {
+          "Hindi": "सम्मानपूर्वक और विचारपूर्वक किया गया प्रस्ताव",
+          "Japanese": "敬意を持って配慮して行う申し出"
+        },
+        "examples": [
+          {
+            "sentence": "If you’d like, I can help you with that.",
+            "translation": {
+              "Hindi": "अगर आप चाहें, तो मैं आपकी मदद कर सकता हूँ।",
+              "Japanese": "もしよければ、それを手伝えますよ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "polite suggestion",
+        "word_translation": {
+          "Hindi": "शिष्ट सुझाव",
+          "Japanese": "丁寧な提案"
+        },
+        "meaning": "A recommendation given in a respectful way",
+        "meaning_translation": {
+          "Hindi": "सम्मानपूर्वक दिया गया सुझाव",
+          "Japanese": "敬意を持って行う提案"
+        },
+        "examples": [
+          {
+            "sentence": "If I were you, I’d talk to the teacher.",
+            "translation": {
+              "Hindi": "अगर मैं आपकी जगह होता, तो मैं शिक्षक से बात करता।",
+              "Japanese": "私があなただったら、先生に話します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "would",
+        "word_translation": {
+          "Hindi": "करता / करता था",
+          "Japanese": "〜するでしょう"
+        },
+        "meaning": "Modal verb used in conditional offers and suggestions",
+        "meaning_translation": {
+          "Hindi": "शर्तीय प्रस्ताव और सुझावों में प्रयुक्त सहायक क्रिया",
+          "Japanese": "条件付きの申し出や提案で使う助動詞"
+        },
+        "examples": [
+          {
+            "sentence": "Would you like some coffee?",
+            "translation": {
+              "Hindi": "क्या आप कुछ कॉफ़ी लेना चाहेंगे?",
+              "Japanese": "コーヒーはいかがですか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "if-clause",
+        "word_translation": {
+          "Hindi": "यदि-उपवाक्य",
+          "Japanese": "もし節"
+        },
+        "meaning": "The part of a conditional sentence that introduces the condition",
+        "meaning_translation": {
+          "Hindi": "शर्तीय वाक्य का वह हिस्सा जो शर्त प्रस्तुत करता है",
+          "Japanese": "条件文のうち、条件を導入する部分"
+        },
+        "examples": [
+          {
+            "sentence": "If you need help, let me know.",
+            "translation": {
+              "Hindi": "अगर आपको मदद चाहिए, तो मुझे बताएं।",
+              "Japanese": "助けが必要なら教えてください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "softening language",
+        "word_translation": {
+          "Hindi": "भाषा को नरम बनाना",
+          "Japanese": "柔らかい表現"
+        },
+        "meaning": "Language used to make an offer or suggestion sound less direct",
+        "meaning_translation": {
+          "Hindi": "ऐसी भाषा जो प्रस्ताव या सुझाव को कम सीधे ढंग से प्रस्तुत करती है",
+          "Japanese": "申し出や提案をあまり直接的に聞こえないようにする表現"
+        },
+        "examples": [
+          {
+            "sentence": "If you don’t mind, we could start earlier.",
+            "translation": {
+              "Hindi": "अगर आपको आपत्ति न हो, तो हम पहले शुरू कर सकते हैं।",
+              "Japanese": "もしよければ、早めに始めてもいいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tentative",
+        "word_translation": {
+          "Hindi": "अनिश्चित / सावधान",
+          "Japanese": "控えめな"
+        },
+        "meaning": "Careful or uncertain, used in polite conditionals",
+        "meaning_translation": {
+          "Hindi": "सावधानीपूर्ण या अनिश्चित, शिष्ट शर्तीय वाक्यों में प्रयुक्त",
+          "Japanese": "慎重または不確かな、丁寧な条件文で使う"
+        },
+        "examples": [
+          {
+            "sentence": "If I may, I’d like to suggest something.",
+            "translation": {
+              "Hindi": "अगर मैं कह सकूँ, तो मैं कुछ सुझाव देना चाहूँगा।",
+              "Japanese": "もしよければ、提案させていただきたいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "considerate",
+        "word_translation": {
+          "Hindi": "विचारशील",
+          "Japanese": "思いやりのある"
+        },
+        "meaning": "Showing care for other people’s feelings",
+        "meaning_translation": {
+          "Hindi": "दूसरों की भावनाओं का ध्यान रखना",
+          "Japanese": "他人の気持ちを配慮すること"
+        },
+        "examples": [
+          {
+            "sentence": "It would be considerate if you could call ahead.",
+            "translation": {
+              "Hindi": "अगर आप पहले कॉल कर सकें तो यह विचारशील होगा।",
+              "Japanese": "事前に電話していただければ思いやりがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recommendation",
+        "word_translation": {
+          "Hindi": "सिफारिश / सुझाव",
+          "Japanese": "提案・勧め"
+        },
+        "meaning": "Advice or suggestion about what to do",
+        "meaning_translation": {
+          "Hindi": "क्या करना है इस बारे में सलाह या सुझाव",
+          "Japanese": "何をすべきかについての助言や提案"
+        },
+        "examples": [
+          {
+            "sentence": "If I were you, I’d take a break.",
+            "translation": {
+              "Hindi": "अगर मैं आपकी जगह होता, तो मैं थोड़ा आराम करता।",
+              "Japanese": "私があなただったら、休憩します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "indirectness",
+        "word_translation": {
+          "Hindi": "अप्रत्यक्षता",
+          "Japanese": "間接的表現"
+        },
+        "meaning": "The quality of being less direct, often used for politeness",
+        "meaning_translation": {
+          "Hindi": "कम सीधेपन की विशेषता, अक्सर शिष्टाचार के लिए प्रयोग होती है",
+          "Japanese": "あまり直接的ではない性質、礼儀正しさのためによく使われる"
+        },
+        "examples": [
+          {
+            "sentence": "If you’d prefer, we could reschedule the meeting.",
+            "translation": {
+              "Hindi": "अगर आप चाहें, तो हम बैठक का समय बदल सकते हैं।",
+              "Japanese": "もしよろしければ、会議を延期できます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "If + Would for Polite Offers",
+        "explanation": "Use 'If you would like…' or 'If you’d prefer…' to make polite offers. Example: If you’d like, I can show you the way.",
+        "explanation_translation": {
+          "Hindi": "'If you would like…' या 'If you’d prefer…' का प्रयोग शिष्ट प्रस्ताव देने के लिए करें। उदाहरण: If you’d like, I can show you the way.",
+          "Japanese": "丁寧な申し出をするには「If you would like…」「If you’d prefer…」を使います。例: If you’d like, I can show you the way."
+        }
+      },
+      {
+        "title": "If I Were You for Suggestions",
+        "explanation": "Use 'If I were you, I’d…' to make polite suggestions. Example: If I were you, I’d apologize.",
+        "explanation_translation": {
+          "Hindi": "शिष्ट सुझाव देने के लिए 'If I were you, I’d…' का प्रयोग करें। उदाहरण: If I were you, I’d apologize.",
+          "Japanese": "丁寧な提案をするには「If I were you, I’d…」を使います。例: If I were you, I’d apologize."
+        }
+      },
+      {
+        "title": "Softening with Could/Would",
+        "explanation": "Use 'could' or 'would' in the main clause to make suggestions less direct. Example: We could leave earlier if you prefer.",
+        "explanation_translation": {
+          "Hindi": "सुझाव को कम सीधे बनाने के लिए मुख्य वाक्य में 'could' या 'would' का प्रयोग करें। उदाहरण: We could leave earlier if you prefer.",
+          "Japanese": "提案をあまり直接的にしないために、主節で「could」や「would」を使います。例: We could leave earlier if you prefer."
+        }
+      },
+      {
+        "title": "Using If You Don’t Mind",
+        "explanation": "Add 'if you don’t mind' to make an offer more polite. Example: If you don’t mind, I’d like to suggest something.",
+        "explanation_translation": {
+          "Hindi": "प्रस्ताव को और शिष्ट बनाने के लिए 'if you don’t mind' जोड़ें। उदाहरण: If you don’t mind, I’d like to suggest something.",
+          "Japanese": "申し出をより丁寧にするには「if you don’t mind」を加えます。例: If you don’t mind, I’d like to suggest something."
+        }
+      },
+      {
+        "title": "Avoiding Direct Imperatives",
+        "explanation": "Avoid direct commands for politeness. Instead of 'Do this,' use 'If you’d like, you could try this.'",
+        "explanation_translation": {
+          "Hindi": "शिष्टाचार के लिए सीधे आदेशों से बचें। 'Do this' की जगह 'If you’d like, you could try this.' कहें।",
+          "Japanese": "丁寧にするために直接的な命令を避けます。「Do this」の代わりに「If you’d like, you could try this.」を使います。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrase is often used for polite suggestions?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश अक्सर शिष्ट सुझावों के लिए प्रयोग होता है?",
+        "Japanese": "どのフレーズが丁寧な提案によく使われますか？"
+      },
+      "options": [
+        "If I were you",
+        "Do this now",
+        "Go immediately"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "If you ___ like, I can explain it again.",
+      "question_translation": {
+        "Hindi": "अगर आप ___ चाहें, तो मैं इसे फिर से समझा सकता हूँ।",
+        "Japanese": "もしあなたが___よければ、もう一度説明できます。"
+      },
+      "options": [
+        "would",
+        "will",
+        "shall"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Polite offers often use conditionals to soften the tone.",
+      "question_translation": {
+        "Hindi": "शिष्ट प्रस्ताव अक्सर टोन को नरम बनाने के लिए शर्तीय वाक्यों का प्रयोग करते हैं।",
+        "Japanese": "丁寧な申し出は口調を和らげるために条件文をよく使います。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which modal verb is commonly used in polite suggestions?",
+      "question_translation": {
+        "Hindi": "कौन सा सहायक क्रिया शब्द शिष्ट सुझावों में आमतौर पर प्रयोग होता है?",
+        "Japanese": "丁寧な提案によく使われる助動詞はどれですか？"
+      },
+      "options": [
+        "could",
+        "must",
+        "shall"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "It would be considerate if you ___ let me know in advance.",
+      "question_translation": {
+        "Hindi": "अगर आप मुझे पहले से बता ___ तो यह विचारशील होगा।",
+        "Japanese": "事前に知らせて___いただければ思いやりがあります。"
+      },
+      "options": [
+        "could",
+        "must",
+        "will"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [help, if, I, would, could, you]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [help, if, I, would, could, you]",
+        "Japanese": "並べ替え: [help, if, I, would, could, you]"
+      },
+      "options": [
+        "help",
+        "if",
+        "I",
+        "would",
+        "could",
+        "you"
+      ],
+      "answer": [
+        "I",
+        "could",
+        "help",
+        "you",
+        "if",
+        "I",
+        "would"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "If I ___ you, I’d take a break.",
+      "question_translation": {
+        "Hindi": "अगर मैं ___ आपकी जगह होता, तो मैं आराम करता।",
+        "Japanese": "もし私が___あなたなら、休憩します。"
+      },
+      "options": [
+        "were",
+        "was",
+        "am"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is the most polite suggestion?",
+      "question_translation": {
+        "Hindi": "सबसे शिष्ट सुझाव कौन सा है?",
+        "Japanese": "最も丁寧な提案はどれですか？"
+      },
+      "options": [
+        "Do this.",
+        "If I were you, I’d try this.",
+        "Try this now."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [mind, you, if, don’t, suggest, I]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [mind, you, if, don’t, suggest, I]",
+        "Japanese": "並べ替え: [mind, you, if, don’t, suggest, I]"
+      },
+      "options": [
+        "mind",
+        "you",
+        "if",
+        "don’t",
+        "suggest",
+        "I"
+      ],
+      "answer": [
+        "If",
+        "you",
+        "don’t",
+        "mind",
+        "I",
+        "suggest"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "If you ___ prefer, we could start later.",
+      "question_translation": {
+        "Hindi": "अगर आप ___ पसंद करें, तो हम बाद में शुरू कर सकते हैं।",
+        "Japanese": "もし___よろしければ、遅く始めてもいいです。"
+      },
+      "options": [
+        "would",
+        "will",
+        "can"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker offering?",
+      "audio_text": "If you’d like, I could give you a ride home.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या पेशकश कर रहा है?",
+        "Japanese": "話者は何を申し出ていますか？"
+      },
+      "options": [
+        "A ride home",
+        "Dinner",
+        "Money"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker is giving a direct command.",
+      "audio_text": "If I were you, I’d talk to her.",
+      "question_translation": {
+        "Hindi": "वक्ता एक सीधा आदेश दे रहा है।",
+        "Japanese": "話者は直接的な命令をしています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What condition does the speaker use?",
+      "audio_text": "If you don’t mind, we could start earlier.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी शर्त का प्रयोग कर रहा है?",
+        "Japanese": "話者はどの条件を使っていますか？"
+      },
+      "options": [
+        "If you don’t mind",
+        "If it rains",
+        "If you are ready"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What suggestion does the speaker make?",
+      "audio_text": "If I were you, I’d apply for the job.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सुझाव दे रहा है?",
+        "Japanese": "話者はどんな提案をしていますか？"
+      },
+      "options": [
+        "Not to apply",
+        "To apply for the job",
+        "To leave the job"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The sentence shows a polite offer.",
+      "audio_text": "If you’d like, I can carry that for you.",
+      "question_translation": {
+        "Hindi": "यह वाक्य एक शिष्ट प्रस्ताव दिखाता है।",
+        "Japanese": "この文は丁寧な申し出を表しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'If you’d like, I can help you.'",
+      "question_translation": {
+        "Hindi": "कहें: 'If you’d like, I can help you.'",
+        "Japanese": "言ってください: 'If you’d like, I can help you.'"
+      },
+      "options": [],
+      "answer": "if youd like i can help you"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'If I were you, I’d take a break.'",
+      "question_translation": {
+        "Hindi": "कहें: 'If I were you, I’d take a break.'",
+        "Japanese": "言ってください: 'If I were you, I’d take a break.'"
+      },
+      "options": [],
+      "answer": "if i were you id take a break"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'If you don’t mind, we could start earlier.'",
+      "question_translation": {
+        "Hindi": "कहें: 'If you don’t mind, we could start earlier.'",
+        "Japanese": "言ってください: 'If you don’t mind, we could start earlier.'"
+      },
+      "options": [],
+      "answer": "if you dont mind we could start earlier"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'It would be helpful if you could call ahead.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It would be helpful if you could call ahead.'",
+        "Japanese": "言ってください: 'It would be helpful if you could call ahead.'"
+      },
+      "options": [],
+      "answer": "it would be helpful if you could call ahead"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'If you’d prefer, we could meet tomorrow.'",
+      "question_translation": {
+        "Hindi": "कहें: 'If you’d prefer, we could meet tomorrow.'",
+        "Japanese": "言ってください: 'If you’d prefer, we could meet tomorrow.'"
+      },
+      "options": [],
+      "answer": "if youd prefer we could meet tomorrow"
+    }
+  ]
+}
+
 }

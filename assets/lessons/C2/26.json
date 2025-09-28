@@ -1,4 +1,562 @@
 {
-  "id": 26,
-  "message": "This is file number 26"
+  "id": "lesson_debate_refutation_pivoting_001",
+  "lesson_name": "Debate Masterclass: Refutation & Pivoting",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "refutation",
+        "word_translation": {
+          "Hindi": "खंडन",
+          "Japanese": "反駁"
+        },
+        "meaning": "The act of proving a statement or argument to be wrong or invalid.",
+        "meaning_translation": {
+          "Hindi": "किसी कथन या तर्क को गलत या अमान्य साबित करने की क्रिया।",
+          "Japanese": "ある主張や議論が誤っていることを証明すること。"
+        },
+        "examples": [
+          {
+            "sentence": "Her refutation of the opponent’s statistics was clear and convincing.",
+            "translation": {
+              "Hindi": "प्रतिद्वंद्वी के आँकड़ों का उसका खंडन स्पष्ट और प्रभावशाली था।",
+              "Japanese": "彼女の相手の統計に対する反駁は明確で説得力がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pivoting",
+        "word_translation": {
+          "Hindi": "मोड़ लेना",
+          "Japanese": "話の転換（ピボット）"
+        },
+        "meaning": "Skillfully changing the focus of discussion to strengthen your own argument.",
+        "meaning_translation": {
+          "Hindi": "चतुराई से चर्चा का फोकस बदलना ताकि अपने तर्क को मजबूत किया जा सके।",
+          "Japanese": "自分の議論を強化するために巧みに議論の焦点を変えること。"
+        },
+        "examples": [
+          {
+            "sentence": "He pivoted from the question about costs to emphasize long-term benefits.",
+            "translation": {
+              "Hindi": "उसने लागत के सवाल से हटकर दीर्घकालिक लाभों पर जोर दिया।",
+              "Japanese": "彼はコストの質問から話を切り替えて長期的な利益を強調しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "counterargument",
+        "word_translation": {
+          "Hindi": "विपरीत तर्क",
+          "Japanese": "反論"
+        },
+        "meaning": "An argument put forward to oppose another argument.",
+        "meaning_translation": {
+          "Hindi": "किसी अन्य तर्क का विरोध करने के लिए प्रस्तुत किया गया तर्क।",
+          "Japanese": "別の主張に反対するために提示される議論。"
+        },
+        "examples": [
+          {
+            "sentence": "She presented a strong counterargument against the policy proposal.",
+            "translation": {
+              "Hindi": "उसने नीति प्रस्ताव के खिलाफ एक मजबूत विपरीत तर्क प्रस्तुत किया।",
+              "Japanese": "彼女はその政策提案に対して強力な反論を提示しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rebuttal",
+        "word_translation": {
+          "Hindi": "खंडन उत्तर",
+          "Japanese": "反論（リバッタル）"
+        },
+        "meaning": "A direct response to an opponent’s argument, showing it is flawed.",
+        "meaning_translation": {
+          "Hindi": "प्रतिद्वंद्वी के तर्क के प्रति सीधा उत्तर, जिससे उसकी त्रुटि दिखाई जाती है।",
+          "Japanese": "相手の主張に直接応答し、その欠点を示すこと。"
+        },
+        "examples": [
+          {
+            "sentence": "His rebuttal exposed the weak evidence behind the claim.",
+            "translation": {
+              "Hindi": "उसके खंडन उत्तर ने दावे के पीछे के कमजोर साक्ष्य को उजागर किया।",
+              "Japanese": "彼のリバッタルはその主張の根拠が弱いことを明らかにしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "straw man",
+        "word_translation": {
+          "Hindi": "गलत प्रस्तुतिकरण तर्क",
+          "Japanese": "ストローマン論法"
+        },
+        "meaning": "Misrepresenting someone’s argument to make it easier to attack.",
+        "meaning_translation": {
+          "Hindi": "किसी के तर्क को गलत तरीके से प्रस्तुत करना ताकि उस पर हमला करना आसान हो।",
+          "Japanese": "相手の主張をわざと歪めて攻撃しやすくすること。"
+        },
+        "examples": [
+          {
+            "sentence": "Avoid using a straw man argument; respond to what was actually said.",
+            "translation": {
+              "Hindi": "गलत प्रस्तुतिकरण तर्क का उपयोग करने से बचें; जो वास्तव में कहा गया है, उसी का जवाब दें।",
+              "Japanese": "ストローマン論法を避け、実際に言われたことに答えましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "concession",
+        "word_translation": {
+          "Hindi": "स्वीकृति",
+          "Japanese": "譲歩"
+        },
+        "meaning": "Admitting part of an opposing view to appear fair and reasonable.",
+        "meaning_translation": {
+          "Hindi": "निष्पक्ष और तर्कसंगत दिखने के लिए विरोधी दृष्टिकोण के एक हिस्से को स्वीकार करना।",
+          "Japanese": "公正で合理的に見えるように相手の主張の一部を認めること。"
+        },
+        "examples": [
+          {
+            "sentence": "He began with a concession before refuting the main argument.",
+            "translation": {
+              "Hindi": "उसने मुख्य तर्क का खंडन करने से पहले एक स्वीकृति के साथ शुरुआत की।",
+              "Japanese": "彼は主要な議論を反駁する前に譲歩から始めました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transition phrase",
+        "word_translation": {
+          "Hindi": "संक्रमण वाक्यांश",
+          "Japanese": "転換句"
+        },
+        "meaning": "A phrase that smoothly moves from one point to another in debate.",
+        "meaning_translation": {
+          "Hindi": "एक वाक्यांश जो बहस में एक बिंदु से दूसरे पर सहजता से जाता है।",
+          "Japanese": "ディベートで一つのポイントから別のポイントに滑らかに移るフレーズ。"
+        },
+        "examples": [
+          {
+            "sentence": "‘However, let’s consider…’ is a useful transition phrase.",
+            "translation": {
+              "Hindi": "'However, let’s consider…' एक उपयोगी संक्रमण वाक्यांश है।",
+              "Japanese": "「However, let’s consider…」は有用な転換句です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "burden of proof",
+        "word_translation": {
+          "Hindi": "साक्ष्य का भार",
+          "Japanese": "立証責任"
+        },
+        "meaning": "The responsibility to provide evidence for a claim made.",
+        "meaning_translation": {
+          "Hindi": "किसी दावे के लिए साक्ष्य प्रदान करने की जिम्मेदारी।",
+          "Japanese": "主張を裏付ける証拠を提供する責任。"
+        },
+        "examples": [
+          {
+            "sentence": "The burden of proof lies with the person making the claim.",
+            "translation": {
+              "Hindi": "साक्ष्य का भार उस व्यक्ति पर होता है जो दावा करता है।",
+              "Japanese": "立証責任は主張する側にあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "preemptive strike",
+        "word_translation": {
+          "Hindi": "पूर्व-आक्रमण",
+          "Japanese": "先制攻撃"
+        },
+        "meaning": "Anticipating and addressing an opponent’s argument before they raise it.",
+        "meaning_translation": {
+          "Hindi": "प्रतिद्वंद्वी के तर्क को उठाने से पहले ही उसका अनुमान लगाकर संबोधित करना।",
+          "Japanese": "相手が主張をする前に先読みして対処すること。"
+        },
+        "examples": [
+          {
+            "sentence": "She launched a preemptive strike by addressing expected criticism early.",
+            "translation": {
+              "Hindi": "उसने अपेक्षित आलोचना को पहले ही संबोधित करके पूर्व-आक्रमण शुरू किया।",
+              "Japanese": "彼女は予想される批判に先に対応することで先制攻撃を行いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "logical fallacy",
+        "word_translation": {
+          "Hindi": "तार्किक त्रुटि",
+          "Japanese": "論理的誤謬"
+        },
+        "meaning": "A flaw in reasoning that weakens an argument.",
+        "meaning_translation": {
+          "Hindi": "तर्क में एक खामी जो तर्क को कमजोर करती है।",
+          "Japanese": "議論を弱める推論の欠陥。"
+        },
+        "examples": [
+          {
+            "sentence": "Pointing out a logical fallacy can undermine an opponent’s case.",
+            "translation": {
+              "Hindi": "एक तार्किक त्रुटि की ओर इशारा करना प्रतिद्वंद्वी के मामले को कमजोर कर सकता है।",
+              "Japanese": "論理的誤謬を指摘することで相手の主張を弱めることができます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Structuring Effective Refutation",
+        "explanation": "Begin with a concession, restate the opponent’s point fairly, then provide evidence or reasoning to refute it.",
+        "explanation_translation": {
+          "Hindi": "प्रभावी खंडन की संरचना: स्वीकृति से शुरू करें, विरोधी के बिंदु को निष्पक्ष रूप से दोहराएँ, फिर उसे खंडित करने के लिए साक्ष्य या तर्क दें।",
+          "Japanese": "効果的な反駁の構成：譲歩から始め、相手の主張を公平に言い換え、その後それを反駁する証拠や理由を示します。"
+        }
+      },
+      {
+        "title": "Pivoting with Transition Phrases",
+        "explanation": "Use phrases like 'while that may be true, let’s consider…' to smoothly shift to your own argument.",
+        "explanation_translation": {
+          "Hindi": "संक्रमण वाक्यांश जैसे 'while that may be true, let’s consider…' का उपयोग करके अपने तर्क पर सहजता से जाएँ।",
+          "Japanese": "「while that may be true, let’s consider…」のような転換句を使って自分の議論に滑らかに移りましょう。"
+        }
+      },
+      {
+        "title": "Preempting Opponent Points",
+        "explanation": "Address likely objections before your opponent raises them to control the debate direction.",
+        "explanation_translation": {
+          "Hindi": "बहस की दिशा को नियंत्रित करने के लिए प्रतिद्वंद्वी के उठाने से पहले संभावित आपत्तियों को संबोधित करें।",
+          "Japanese": "議論の流れをコントロールするために、相手が取り上げる前に予想される反論に対応しましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'pivoting' mean in a debate context?",
+        "question_translation": {
+          "Hindi": "बहस के संदर्भ में 'pivoting' का क्या अर्थ है?",
+          "Japanese": "ディベートの文脈で「pivoting」とは何を意味しますか？"
+        },
+        "options": [
+          "Skillfully changing focus to strengthen your own point",
+          "Repeating the opponent’s argument word for word",
+          "Asking the judge for clarification"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A good debater often starts with a ___ to appear fair before refuting.",
+        "question_translation": {
+          "Hindi": "एक अच्छा वादक खंडन करने से पहले निष्पक्ष दिखने के लिए अक्सर ___ से शुरू करता है।",
+          "Japanese": "優れたディベーターは反駁する前に公正に見せるためにしばしば___から始めます。"
+        },
+        "options": [
+          "concession",
+          "rebuttal",
+          "transition"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A straw man argument misrepresents an opponent’s view to make it easier to attack.",
+        "question_translation": {
+          "Hindi": "स्ट्रॉ मैन तर्क प्रतिद्वंद्वी के दृष्टिकोण को गलत तरीके से प्रस्तुत करता है ताकि उस पर हमला करना आसान हो जाए।",
+          "Japanese": "ストローマン論法は相手の主張を歪めて攻撃しやすくします。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which phrase shows a transition useful for pivoting?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश मोड़ (pivot) लेने के लिए उपयोगी संक्रमण दिखाता है?",
+          "Japanese": "どのフレーズがピボットに役立つ転換を示していますか？"
+        },
+        "options": [
+          "While that may be true, let’s consider…",
+          "I completely agree with everything said.",
+          "This debate is now over."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "Debaters who address a point before the opponent brings it up use a ___ strike.",
+        "question_translation": {
+          "Hindi": "जो वादक विरोधी के लाने से पहले किसी बिंदु को संबोधित करते हैं, वे ___ प्रहार का उपयोग करते हैं।",
+          "Japanese": "相手が取り上げる前にポイントに触れるディベーターは___ストライクを使っています。"
+        },
+        "options": [
+          "preemptive",
+          "logical",
+          "pivoting"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [the, lies, proof, of, with, burden]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [the, lies, proof, of, with, burden]",
+          "Japanese": "並べ替え: [the, lies, proof, of, with, burden]"
+        },
+        "options": [
+          "the",
+          "lies",
+          "proof",
+          "of",
+          "with",
+          "burden"
+        ],
+        "answer": [
+          "the",
+          "burden",
+          "of",
+          "proof",
+          "lies",
+          "with"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "His strong ___ exposed flaws in the opponent’s evidence.",
+        "question_translation": {
+          "Hindi": "उसके मजबूत ___ ने विरोधी के साक्ष्य में खामियां उजागर कर दीं।",
+          "Japanese": "彼の強力な___が相手の証拠の欠陥を明らかにしました。"
+        },
+        "options": [
+          "rebuttal",
+          "pivot",
+          "concession"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence demonstrates fair refutation?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य निष्पक्ष खंडन को दर्शाता है?",
+          "Japanese": "どの文が公正な反駁を示していますか？"
+        },
+        "options": [
+          "While I understand your concern about cost, the long-term savings outweigh the initial expense.",
+          "That’s wrong because I said so.",
+          "Your idea is stupid, and I won’t consider it."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [logical, fallacy, pointing, out, a, can, weaken, case]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [logical, fallacy, pointing, out, a, can, weaken, case]",
+          "Japanese": "並べ替え: [logical, fallacy, pointing, out, a, can, weaken, case]"
+        },
+        "options": [
+          "logical",
+          "fallacy",
+          "pointing",
+          "out",
+          "a",
+          "can",
+          "weaken",
+          "case"
+        ],
+        "answer": [
+          "pointing",
+          "out",
+          "a",
+          "logical",
+          "fallacy",
+          "can",
+          "weaken",
+          "case"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Starting with a ___ can make your refutation seem reasonable and balanced.",
+        "question_translation": {
+          "Hindi": "___ से शुरू करने से आपका खंडन उचित और संतुलित लग सकता है।",
+          "Japanese": "___から始めるとあなたの反駁が合理的でバランスの取れたものに見えます。"
+        },
+        "options": [
+          "concession",
+          "pivot",
+          "fallacy"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What debate skill is shown here?",
+        "audio_text": "While that may be true, let’s consider the broader impact of this policy.",
+        "question_translation": {
+          "Hindi": "यहाँ कौन सा बहस कौशल दिखाया गया है?",
+          "Japanese": "ここで示されているディベートスキルは何ですか？"
+        },
+        "options": [
+          "Pivoting",
+          "Concession",
+          "Straw man"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Preemptively addressing a likely objection can give you control of the debate flow.",
+        "audio_text": "Before you argue about cost, let me explain why investment saves money later.",
+        "question_translation": {
+          "Hindi": "संभावित आपत्तियों को पहले से संबोधित करना बहस के प्रवाह पर नियंत्रण दे सकता है।",
+          "Japanese": "予想される反論に先に対応することで議論の流れをコントロールできます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What error is the speaker pointing out?",
+        "audio_text": "That argument assumes what it’s trying to prove — that’s a circular reasoning fallacy.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी त्रुटि दिखा रहा है?",
+          "Japanese": "話者はどの誤りを指摘していますか？"
+        },
+        "options": [
+          "Logical fallacy",
+          "Concession",
+          "Pivoting"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What technique is used when a debater admits one point but challenges the main claim?",
+        "audio_text": "I agree the program costs money, but the benefits outweigh the expenses.",
+        "question_translation": {
+          "Hindi": "जब वादक एक बिंदु स्वीकार करता है लेकिन मुख्य दावे को चुनौती देता है, तो कौन सी तकनीक उपयोग की जाती है?",
+          "Japanese": "ある点を認めながらも主要な主張に異議を唱えるとき、どのテクニックが使われていますか？"
+        },
+        "options": [
+          "Concession",
+          "Straw man",
+          "Preemptive strike"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "A straw man argument strengthens your debate position by addressing the opponent’s real point.",
+        "audio_text": "He twisted the original statement into something easier to attack.",
+        "question_translation": {
+          "Hindi": "स्ट्रॉ मैन तर्क वास्तविक बिंदु को संबोधित करके आपकी स्थिति को मजबूत करता है।",
+          "Japanese": "ストローマン論法は相手の本当の主張に対処することで立場を強化します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'While that may be true, let’s consider the bigger picture.'",
+        "question_translation": {
+          "Hindi": "कहें: 'While that may be true, let’s consider the bigger picture.'",
+          "Japanese": "言ってください: 'While that may be true, let’s consider the bigger picture.'"
+        },
+        "options": [],
+        "answer": "while that may be true let’s consider the bigger picture"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I understand your concern, but here’s why it’s flawed.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I understand your concern, but here’s why it’s flawed.'",
+          "Japanese": "言ってください: 'I understand your concern, but here’s why it’s flawed.'"
+        },
+        "options": [],
+        "answer": "i understand your concern but here’s why it’s flawed"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Before you mention cost, let me explain long-term savings.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Before you mention cost, let me explain long-term savings.'",
+          "Japanese": "言ってください: 'Before you mention cost, let me explain long-term savings.'"
+        },
+        "options": [],
+        "answer": "before you mention cost let me explain long term savings"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'That’s a logical fallacy — circular reasoning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'That’s a logical fallacy — circular reasoning.'",
+          "Japanese": "言ってください: 'That’s a logical fallacy — circular reasoning.'"
+        },
+        "options": [],
+        "answer": "that’s a logical fallacy circular reasoning"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I concede one point but still oppose the conclusion.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I concede one point but still oppose the conclusion.'",
+          "Japanese": "言ってください: 'I concede one point but still oppose the conclusion.'"
+        },
+        "options": [],
+        "answer": "i concede one point but still oppose the conclusion"
+      }
+    ]
+  }
 }

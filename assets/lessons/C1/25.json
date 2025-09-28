@@ -1,4 +1,565 @@
 {
-  "id": 25,
-  "message": "This is file number 25"
+  "id": "lesson_policy_briefs_c1",
+  "lesson_name": "Policy Briefs: Recommendations & Risks",
+  "purpose": "Academic/Professional",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "policy brief",
+        "word_translation": {
+          "Hindi": "नीति सारांश",
+          "Japanese": "政策ブリーフ"
+        },
+        "meaning": "A short document that presents an issue, analysis, and recommendations for decision-makers",
+        "meaning_translation": {
+          "Hindi": "एक संक्षिप्त दस्तावेज जो किसी मुद्दे, विश्लेषण और नीति निर्माताओं के लिए सिफारिशें प्रस्तुत करता है",
+          "Japanese": "意思決定者に向けて課題、分析、提言を示す短い文書"
+        },
+        "examples": [
+          {
+            "sentence": "The policy brief outlined strategies for reducing air pollution.",
+            "translation": {
+              "Hindi": "नीति सारांश ने वायु प्रदूषण को कम करने की रणनीतियाँ बताईं।",
+              "Japanese": "政策ブリーフは大気汚染を減らす戦略を概説した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recommendation",
+        "word_translation": {
+          "Hindi": "सिफारिश",
+          "Japanese": "提言"
+        },
+        "meaning": "A suggested course of action based on analysis",
+        "meaning_translation": {
+          "Hindi": "विश्लेषण के आधार पर सुझाया गया कार्यपथ",
+          "Japanese": "分析に基づいて提案された行動"
+        },
+        "examples": [
+          {
+            "sentence": "The brief included recommendations for renewable energy investment.",
+            "translation": {
+              "Hindi": "सारांश में नवीकरणीय ऊर्जा निवेश के लिए सिफारिशें शामिल थीं।",
+              "Japanese": "ブリーフには再生可能エネルギー投資に関する提言が含まれていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk assessment",
+        "word_translation": {
+          "Hindi": "जोखिम मूल्यांकन",
+          "Japanese": "リスク評価"
+        },
+        "meaning": "The process of identifying and analyzing potential risks of a policy",
+        "meaning_translation": {
+          "Hindi": "किसी नीति के संभावित जोखिमों की पहचान और विश्लेषण की प्रक्रिया",
+          "Japanese": "政策の潜在的リスクを特定・分析するプロセス"
+        },
+        "examples": [
+          {
+            "sentence": "A risk assessment revealed financial challenges in implementation.",
+            "translation": {
+              "Hindi": "जोखिम मूल्यांकन ने क्रियान्वयन में वित्तीय चुनौतियों को उजागर किया।",
+              "Japanese": "リスク評価は実施における財政的課題を明らかにした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stakeholder",
+        "word_translation": {
+          "Hindi": "हितधारक",
+          "Japanese": "利害関係者"
+        },
+        "meaning": "A person or group affected by a policy decision",
+        "meaning_translation": {
+          "Hindi": "एक व्यक्ति या समूह जो किसी नीति निर्णय से प्रभावित होता है",
+          "Japanese": "政策決定の影響を受ける人や団体"
+        },
+        "examples": [
+          {
+            "sentence": "Stakeholder input was crucial for shaping the recommendations.",
+            "translation": {
+              "Hindi": "सिफारिशों को आकार देने के लिए हितधारकों का इनपुट महत्वपूर्ण था।",
+              "Japanese": "利害関係者の意見は提言を形成する上で重要だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "feasibility",
+        "word_translation": {
+          "Hindi": "व्यवहार्यता",
+          "Japanese": "実現可能性"
+        },
+        "meaning": "The practicality of implementing a recommendation",
+        "meaning_translation": {
+          "Hindi": "किसी सिफारिश को लागू करने की व्यावहारिकता",
+          "Japanese": "提言を実行する現実性"
+        },
+        "examples": [
+          {
+            "sentence": "The brief assessed the feasibility of carbon tax policies.",
+            "translation": {
+              "Hindi": "सारांश ने कार्बन कर नीतियों की व्यवहार्यता का मूल्यांकन किया।",
+              "Japanese": "ブリーフは炭素税政策の実現可能性を評価した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evidence-based",
+        "word_translation": {
+          "Hindi": "साक्ष्य-आधारित",
+          "Japanese": "証拠に基づく"
+        },
+        "meaning": "Supported by data, research, or factual information",
+        "meaning_translation": {
+          "Hindi": "डेटा, शोध या तथ्यात्मक जानकारी द्वारा समर्थित",
+          "Japanese": "データや研究、事実情報に基づいている"
+        },
+        "examples": [
+          {
+            "sentence": "Effective policy briefs are always evidence-based.",
+            "translation": {
+              "Hindi": "प्रभावी नीति सारांश हमेशा साक्ष्य-आधारित होते हैं।",
+              "Japanese": "効果的な政策ブリーフは常に証拠に基づいている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "trade-off",
+        "word_translation": {
+          "Hindi": "समझौता",
+          "Japanese": "トレードオフ"
+        },
+        "meaning": "A balance between two competing outcomes, often involving compromise",
+        "meaning_translation": {
+          "Hindi": "दो परस्पर विरोधी परिणामों के बीच संतुलन, अक्सर समझौते के साथ",
+          "Japanese": "二つの相反する結果の間のバランス、しばしば妥協を伴う"
+        },
+        "examples": [
+          {
+            "sentence": "The policy involves a trade-off between economic growth and sustainability.",
+            "translation": {
+              "Hindi": "नीति में आर्थिक विकास और स्थिरता के बीच समझौता शामिल है।",
+              "Japanese": "その政策は経済成長と持続可能性の間のトレードオフを伴う。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "executive tone",
+        "word_translation": {
+          "Hindi": "कार्यकारी शैली",
+          "Japanese": "エグゼクティブ調"
+        },
+        "meaning": "A formal, concise, and authoritative writing style",
+        "meaning_translation": {
+          "Hindi": "एक औपचारिक, संक्षिप्त और प्रामाणिक लेखन शैली",
+          "Japanese": "形式的で簡潔かつ権威のある文体"
+        },
+        "examples": [
+          {
+            "sentence": "Policy briefs are written in an executive tone for decision-makers.",
+            "translation": {
+              "Hindi": "नीति सारांश निर्णय निर्माताओं के लिए कार्यकारी शैली में लिखे जाते हैं।",
+              "Japanese": "政策ブリーフは意思決定者向けにエグゼクティブ調で書かれる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "implementation risk",
+        "word_translation": {
+          "Hindi": "क्रियान्वयन जोखिम",
+          "Japanese": "実施リスク"
+        },
+        "meaning": "The chance that a recommendation may fail during application",
+        "meaning_translation": {
+          "Hindi": "यह संभावना कि किसी सिफारिश का क्रियान्वयन के दौरान विफल हो सकता है",
+          "Japanese": "提言が実施中に失敗する可能性"
+        },
+        "examples": [
+          {
+            "sentence": "The report warned of implementation risks if funding was inadequate.",
+            "translation": {
+              "Hindi": "रिपोर्ट ने चेतावनी दी कि यदि वित्तपोषण अपर्याप्त रहा तो क्रियान्वयन जोखिम होंगे।",
+              "Japanese": "報告書は資金不足の場合の実施リスクを警告した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mitigation",
+        "word_translation": {
+          "Hindi": "शमन",
+          "Japanese": "緩和"
+        },
+        "meaning": "Steps taken to reduce or manage risks",
+        "meaning_translation": {
+          "Hindi": "जोखिमों को कम करने या प्रबंधित करने के लिए उठाए गए कदम",
+          "Japanese": "リスクを減らすまたは管理するための手段"
+        },
+        "examples": [
+          {
+            "sentence": "Mitigation measures were suggested to handle security risks.",
+            "translation": {
+              "Hindi": "सुरक्षा जोखिमों को संभालने के लिए शमन उपाय सुझाए गए।",
+              "Japanese": "安全リスクに対処するために緩和策が提案された。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Conciseness in Executive Writing",
+        "explanation": "Policy briefs use concise language to communicate key ideas quickly.",
+        "explanation_translation": {
+          "Hindi": "नीति सारांश प्रमुख विचारों को तेजी से संप्रेषित करने के लिए संक्षिप्त भाषा का उपयोग करते हैं।",
+          "Japanese": "政策ブリーフは主要な考えを迅速に伝えるために簡潔な言葉を使う。"
+        }
+      },
+      {
+        "title": "Framing Recommendations",
+        "explanation": "Use authoritative modal verbs like 'should,' 'must,' or 'ought to' to signal strength of recommendations.",
+        "explanation_translation": {
+          "Hindi": "सिफारिशों की ताकत को दिखाने के लिए 'should,' 'must,' या 'ought to' जैसे प्रामाणिक सहायक क्रियाओं का उपयोग करें।",
+          "Japanese": "提言の強さを示すために「should」「must」「ought to」といった権威的な助動詞を使う。"
+        }
+      },
+      {
+        "title": "Balancing Risks and Benefits",
+        "explanation": "Ensure that policy briefs present both opportunities and potential risks with mitigation strategies.",
+        "explanation_translation": {
+          "Hindi": "सुनिश्चित करें कि नीति सारांश अवसरों और संभावित जोखिमों दोनों को शमन रणनीतियों के साथ प्रस्तुत करें।",
+          "Japanese": "政策ブリーフは機会と潜在的リスクの両方を緩和策とともに提示するようにする。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term refers to a short document presenting issues, analysis, and recommendations?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द एक संक्षिप्त दस्तावेज़ को संदर्भित करता है जो मुद्दों, विश्लेषण और सिफारिशों को प्रस्तुत करता है?",
+        "Japanese": "課題、分析、提言を示す短い文書を指す用語はどれですか？"
+      },
+      "options": [
+        "policy brief",
+        "risk assessment",
+        "recommendation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The report included a detailed ___ of potential threats.",
+      "question_translation": {
+        "Hindi": "रिपोर्ट में संभावित खतरों का विस्तृत ___ शामिल था।",
+        "Japanese": "報告書には潜在的な脅威の詳細な___が含まれていた。"
+      },
+      "options": [
+        "mitigation",
+        "risk assessment",
+        "audience"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A trade-off means balancing between competing outcomes.",
+      "question_translation": {
+        "Hindi": "एक 'trade-off' का मतलब परस्पर विरोधी परिणामों के बीच संतुलन बनाना होता है।",
+        "Japanese": "トレードオフとは相反する結果の間のバランスを意味する。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means the practicality of applying a recommendation?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी सिफारिश को लागू करने की व्यवहारिकता को दर्शाता है?",
+        "Japanese": "提言を実行する現実性を意味する言葉はどれですか？"
+      },
+      "options": [
+        "stakeholder",
+        "feasibility",
+        "implementation risk"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The brief suggested ___ strategies to handle potential security risks.",
+      "question_translation": {
+        "Hindi": "सारांश ने संभावित सुरक्षा जोखिमों को संभालने के लिए ___ रणनीतियाँ सुझाईं।",
+        "Japanese": "ブリーフは潜在的な安全リスクに対処するために___戦略を提案した。"
+      },
+      "options": [
+        "mitigation",
+        "recommendation",
+        "evidence-based"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [recommended, should, government, subsidies, renewable, provide]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [recommended, should, government, subsidies, renewable, provide]",
+        "Japanese": "並べ替え: [recommended, should, government, subsidies, renewable, provide]"
+      },
+      "options": [
+        "recommended",
+        "should",
+        "government",
+        "subsidies",
+        "renewable",
+        "provide"
+      ],
+      "answer": [
+        "the",
+        "government",
+        "should",
+        "provide",
+        "renewable",
+        "subsidies",
+        "as",
+        "recommended"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "All ___ must be consulted before finalizing the policy.",
+      "question_translation": {
+        "Hindi": "नीति को अंतिम रूप देने से पहले सभी ___ से परामर्श करना चाहिए।",
+        "Japanese": "政策を最終決定する前にすべての___に相談する必要がある。"
+      },
+      "options": [
+        "stakeholders",
+        "recommendations",
+        "risks"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence maintains an executive tone?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य कार्यकारी शैली बनाए रखता है?",
+        "Japanese": "どの文がエグゼクティブ調を維持していますか？"
+      },
+      "options": [
+        "This policy is super cool and really amazing.",
+        "The brief outlines risks and proposes evidence-based solutions.",
+        "I think the government should maybe try this."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [funding, inadequate, risks, implementation, of, warned]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [funding, inadequate, risks, implementation, of, warned]",
+        "Japanese": "並べ替え: [funding, inadequate, risks, implementation, of, warned]"
+      },
+      "options": [
+        "funding",
+        "inadequate",
+        "risks",
+        "implementation",
+        "of",
+        "warned"
+      ],
+      "answer": [
+        "the",
+        "report",
+        "warned",
+        "of",
+        "implementation",
+        "risks",
+        "if",
+        "funding",
+        "was",
+        "inadequate"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Effective briefs are always ___ and supported by data.",
+      "question_translation": {
+        "Hindi": "प्रभावी सारांश हमेशा ___ और डेटा द्वारा समर्थित होते हैं।",
+        "Japanese": "効果的なブリーフは常に___であり、データによって裏付けられている。"
+      },
+      "options": [
+        "biased",
+        "evidence-based",
+        "subjective"
+      ],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What risk is mentioned?",
+      "audio_text": "The brief highlights implementation risks due to limited funding.",
+      "question_translation": {
+        "Hindi": "कौन सा जोखिम उल्लेखित है?",
+        "Japanese": "どのリスクが言及されていますか？"
+      },
+      "options": [
+        "lack of stakeholders",
+        "limited funding",
+        "poor writing style"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker recommends renewable energy subsidies.",
+      "audio_text": "We recommend that the government provide subsidies for renewable energy projects.",
+      "question_translation": {
+        "Hindi": "वक्ता नवीकरणीय ऊर्जा सब्सिडी की सिफारिश करता है।",
+        "Japanese": "話者は再生可能エネルギーの補助金を推奨している。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is the mitigation strategy mentioned?",
+      "audio_text": "Mitigation measures include strengthening cybersecurity protocols.",
+      "question_translation": {
+        "Hindi": "कौन सी शमन रणनीति का उल्लेख किया गया है?",
+        "Japanese": "どの緩和策が言及されていますか？"
+      },
+      "options": [
+        "cybersecurity protocols",
+        "trade-offs",
+        "audience awareness"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "trueFalse",
+      "question": "The policy brief is biased and not evidence-based.",
+      "audio_text": "The recommendations were evidence-based and supported by recent studies.",
+      "question_translation": {
+        "Hindi": "नीति सारांश पक्षपाती है और साक्ष्य-आधारित नहीं है।",
+        "Japanese": "政策ブリーフは偏っており、証拠に基づいていない。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which stakeholders are emphasized?",
+      "audio_text": "Stakeholders such as local communities and industry leaders were consulted.",
+      "question_translation": {
+        "Hindi": "कौन से हितधारकों पर जोर दिया गया है?",
+        "Japanese": "どの利害関係者が強調されていますか？"
+      },
+      "options": [
+        "students and teachers",
+        "local communities and industry leaders",
+        "tourists and visitors"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The policy brief presents clear recommendations.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नीति सारांश स्पष्ट सिफारिशें प्रस्तुत करता है।'",
+        "Japanese": "言ってください: '政策ブリーフは明確な提言を示している。'"
+      },
+      "options": [],
+      "answer": "the policy brief presents clear recommendations"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Risk assessment is essential in policymaking.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नीति निर्माण में जोखिम मूल्यांकन आवश्यक है।'",
+        "Japanese": "言ってください: '政策立案においてリスク評価は不可欠です。'"
+      },
+      "options": [],
+      "answer": "risk assessment is essential in policymaking"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Mitigation strategies reduce implementation risks.'",
+      "question_translation": {
+        "Hindi": "कहें: 'शमन रणनीतियाँ क्रियान्वयन जोखिमों को कम करती हैं।'",
+        "Japanese": "言ってください: '緩和策は実施リスクを減らす。'"
+      },
+      "options": [],
+      "answer": "mitigation strategies reduce implementation risks"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The feasibility of the policy must be evaluated.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नीति की व्यवहार्यता का मूल्यांकन करना चाहिए।'",
+        "Japanese": "言ってください: '政策の実現可能性を評価する必要がある。'"
+      },
+      "options": [],
+      "answer": "the feasibility of the policy must be evaluated"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Effective briefs are always evidence-based.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रभावी सारांश हमेशा साक्ष्य-आधारित होते हैं।'",
+        "Japanese": "言ってください: '効果的なブリーフは常に証拠に基づいている。'"
+      },
+      "options": [],
+      "answer": "effective briefs are always evidence based"
+    }
+  ]
+}
+
 }

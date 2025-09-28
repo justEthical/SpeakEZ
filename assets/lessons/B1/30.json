@@ -1,4 +1,524 @@
 {
-  "id": 30,
-  "message": "This is file number 30"
+  "id": "lesson_accidents_incidents_001",
+  "lesson_name": "Talking About Accidents & Incidents",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "accident",
+        "word_translation": {
+          "Hindi": "दुर्घटना",
+          "Japanese": "事故"
+        },
+        "meaning": "An unexpected event that causes damage or injury",
+        "meaning_translation": {
+          "Hindi": "एक अप्रत्याशित घटना जो नुकसान या चोट पहुँचाती है",
+          "Japanese": "損害やけがを引き起こす予期しない出来事"
+        },
+        "examples": [
+          {
+            "sentence": "There was a car accident on the highway this morning.",
+            "translation": {
+              "Hindi": "आज सुबह हाईवे पर एक कार दुर्घटना हुई।",
+              "Japanese": "今朝、高速道路で交通事故がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "incident",
+        "word_translation": {
+          "Hindi": "घटना",
+          "Japanese": "出来事 / 事件"
+        },
+        "meaning": "An event, often unusual or unpleasant, that happens",
+        "meaning_translation": {
+          "Hindi": "एक घटना, जो अक्सर असामान्य या अप्रिय होती है",
+          "Japanese": "しばしば異常または不快な出来事"
+        },
+        "examples": [
+          {
+            "sentence": "The school reported an incident near the gate.",
+            "translation": {
+              "Hindi": "स्कूल ने गेट के पास हुई एक घटना की रिपोर्ट की।",
+              "Japanese": "学校は門の近くで起きた出来事を報告しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "witness",
+        "word_translation": {
+          "Hindi": "प्रत्यक्षदर्शी",
+          "Japanese": "目撃者"
+        },
+        "meaning": "A person who sees something happen, especially an accident or crime",
+        "meaning_translation": {
+          "Hindi": "एक व्यक्ति जो किसी चीज़ को होते हुए देखता है, विशेषकर दुर्घटना या अपराध",
+          "Japanese": "特に事故や犯罪を実際に見た人"
+        },
+        "examples": [
+          {
+            "sentence": "The witness gave a statement to the police.",
+            "translation": {
+              "Hindi": "प्रत्यक्षदर्शी ने पुलिस को बयान दिया।",
+              "Japanese": "目撃者は警察に証言しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "injury",
+        "word_translation": {
+          "Hindi": "चोट",
+          "Japanese": "けが"
+        },
+        "meaning": "Physical harm or damage to someone's body",
+        "meaning_translation": {
+          "Hindi": "किसी के शरीर को शारीरिक नुकसान या क्षति",
+          "Japanese": "人の体への物理的な損傷"
+        },
+        "examples": [
+          {
+            "sentence": "He had a minor injury after falling off the bike.",
+            "translation": {
+              "Hindi": "साइकिल से गिरने के बाद उसे हल्की चोट लगी।",
+              "Japanese": "自転車から落ちて軽いけがをしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emergency",
+        "word_translation": {
+          "Hindi": "आपातकाल",
+          "Japanese": "緊急事態"
+        },
+        "meaning": "A serious and unexpected situation needing quick action",
+        "meaning_translation": {
+          "Hindi": "एक गंभीर और अप्रत्याशित स्थिति जिसमें तुरंत कार्यवाही की आवश्यकता होती है",
+          "Japanese": "迅速な対応が必要な深刻で予期しない状況"
+        },
+        "examples": [
+          {
+            "sentence": "Call 108 in case of a medical emergency in India.",
+            "translation": {
+              "Hindi": "भारत में चिकित्सा आपातकाल की स्थिति में 108 पर कॉल करें।",
+              "Japanese": "インドで医療緊急時は108に電話してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rescue",
+        "word_translation": {
+          "Hindi": "बचाव",
+          "Japanese": "救助"
+        },
+        "meaning": "The act of saving someone from danger or a difficult situation",
+        "meaning_translation": {
+          "Hindi": "किसी को खतरे या कठिन स्थिति से बचाने का कार्य",
+          "Japanese": "危険や困難な状況から人を助ける行為"
+        },
+        "examples": [
+          {
+            "sentence": "The firefighters carried out a rescue operation.",
+            "translation": {
+              "Hindi": "दमकल कर्मियों ने बचाव अभियान चलाया।",
+              "Japanese": "消防士が救助活動を行いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "collision",
+        "word_translation": {
+          "Hindi": "टक्कर",
+          "Japanese": "衝突"
+        },
+        "meaning": "When two or more things crash into each other",
+        "meaning_translation": {
+          "Hindi": "जब दो या अधिक चीजें एक-दूसरे से टकराती हैं",
+          "Japanese": "2つ以上のものが互いにぶつかること"
+        },
+        "examples": [
+          {
+            "sentence": "The collision between two buses caused traffic delays.",
+            "translation": {
+              "Hindi": "दो बसों के बीच हुई टक्कर से यातायात में देरी हुई।",
+              "Japanese": "2台のバスの衝突で交通が遅れました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "damage",
+        "word_translation": {
+          "Hindi": "नुकसान",
+          "Japanese": "損害"
+        },
+        "meaning": "Harm caused to something, making it less useful or valuable",
+        "meaning_translation": {
+          "Hindi": "किसी वस्तु को हुआ हानि, जिससे वह कम उपयोगी या मूल्यवान हो जाती है",
+          "Japanese": "何かに加えられた損害で、それを使いにくくまたは価値を下げること"
+        },
+        "examples": [
+          {
+            "sentence": "The storm caused serious damage to houses.",
+            "translation": {
+              "Hindi": "तूफान ने घरों को गंभीर नुकसान पहुँचाया।",
+              "Japanese": "嵐は家に深刻な被害をもたらしました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Past Continuous for Ongoing Actions",
+        "explanation": "Use past continuous (was/were + verb-ing) to describe what was happening when the accident occurred. Example: I was driving when the accident happened.",
+        "explanation_translation": {
+          "Hindi": "जब दुर्घटना हुई, तब क्या हो रहा था, यह बताने के लिए past continuous (was/were + verb-ing) का प्रयोग करें। उदाहरण: I was driving when the accident happened.",
+          "Japanese": "事故が起きたときに何をしていたかを説明するときに過去進行形を使います。例: I was driving when the accident happened."
+        }
+      },
+      {
+        "title": "Past Simple for Completed Events",
+        "explanation": "Use past simple for describing what exactly happened. Example: The car hit the tree.",
+        "explanation_translation": {
+          "Hindi": "क्या हुआ यह बताने के लिए past simple का प्रयोग करें। उदाहरण: The car hit the tree.",
+          "Japanese": "何が起こったかを述べるときは過去形を使います。例: The car hit the tree."
+        }
+      },
+      {
+        "title": "Using 'because' to Explain Cause",
+        "explanation": "Use 'because' to explain the reason for an accident. Example: The road was slippery because of the rain.",
+        "explanation_translation": {
+          "Hindi": "दुर्घटना का कारण बताने के लिए 'because' का प्रयोग करें। उदाहरण: The road was slippery because of the rain.",
+          "Japanese": "事故の理由を説明するときに「because」を使います。例: The road was slippery because of the rain."
+        }
+      }
+    ]
+  },
+  
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word describes an unexpected event that causes injury?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द एक अप्रत्याशित घटना को दर्शाता है जो चोट पहुँचाती है?",
+          "Japanese": "けがを引き起こす予期しない出来事を表す言葉はどれですか？"
+        },
+        "options": [
+          "incident",
+          "accident",
+          "damage"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The firefighter carried out a ___ to save the trapped man.",
+        "question_translation": {
+          "Hindi": "दमकलकर्मी ने फंसे हुए आदमी को बचाने के लिए ___ किया।",
+          "Japanese": "消防士は閉じ込められた男性を助けるために___を行いました。"
+        },
+        "options": [
+          "rescue",
+          "collision",
+          "injury"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A witness is someone who only hears about an accident but does not see it.",
+        "question_translation": {
+          "Hindi": "प्रत्यक्षदर्शी वह होता है जो केवल दुर्घटना के बारे में सुनता है, लेकिन उसे देखता नहीं है।",
+          "Japanese": "目撃者とは事故について聞いただけで見ていない人のことです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means physical harm to someone’s body?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द किसी के शरीर को शारीरिक नुकसान का अर्थ देता है?",
+          "Japanese": "誰かの体への物理的な損傷を意味する言葉はどれですか？"
+        },
+        "options": [
+          "injury",
+          "damage",
+          "emergency"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The two cars had a ___ on the busy street.",
+        "question_translation": {
+          "Hindi": "भीड़भाड़ वाली सड़क पर दो कारों की ___ हो गई।",
+          "Japanese": "混雑した通りで2台の車が___しました。"
+        },
+        "options": [
+          "collision",
+          "rescue",
+          "heritage"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [was, driving, I, the, accident, happened, when]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [was, driving, I, the, accident, happened, when]",
+          "Japanese": "並べ替え: [was, driving, I, the, accident, happened, when]"
+        },
+        "options": [
+          "was",
+          "driving",
+          "I",
+          "the",
+          "accident",
+          "happened",
+          "when"
+        ],
+        "answer": [
+          "I",
+          "was",
+          "driving",
+          "when",
+          "the",
+          "accident",
+          "happened"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The road was slippery ___ of the rain.",
+        "question_translation": {
+          "Hindi": "बारिश ___ सड़क फिसलन भरी थी।",
+          "Japanese": "雨___道が滑りやすかった。"
+        },
+        "options": [
+          "because",
+          "although",
+          "but"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "The car hitted the wall.",
+          "The car hit the wall.",
+          "The car hitting the wall."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [police, to, reported, incident, the, school, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [police, to, reported, incident, the, school, the]",
+          "Japanese": "並べ替え: [police, to, reported, incident, the, school, the]"
+        },
+        "options": [
+          "police",
+          "to",
+          "reported",
+          "incident",
+          "the",
+          "school",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "school",
+          "reported",
+          "the",
+          "incident",
+          "to",
+          "the",
+          "police"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "He had a minor ___ after falling from the bike.",
+        "question_translation": {
+          "Hindi": "साइकिल से गिरने के बाद उसे हल्की ___ लगी।",
+          "Japanese": "自転車から落ちて軽い___をしました。"
+        },
+        "options": [
+          "injury",
+          "collision",
+          "damage"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What happened on the highway?",
+        "audio_text": "There was a car accident on the highway this morning.",
+        "question_translation": {
+          "Hindi": "हाईवे पर क्या हुआ?",
+          "Japanese": "高速道路で何が起こりましたか？"
+        },
+        "options": [
+          "A car accident",
+          "A festival",
+          "A rescue drill"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What did the witness do?",
+        "audio_text": "The witness gave a statement to the police.",
+        "question_translation": {
+          "Hindi": "प्रत्यक्षदर्शी ने क्या किया?",
+          "Japanese": "目撃者は何をしましたか？"
+        },
+        "options": [
+          "Ignored the event",
+          "Gave a statement",
+          "Ran away"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker talks about an emergency.",
+        "audio_text": "Call 108 in case of a medical emergency in India.",
+        "question_translation": {
+          "Hindi": "वक्ता आपातकाल के बारे में बात करता है।",
+          "Japanese": "話者は緊急事態について話しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What caused the traffic delays?",
+        "audio_text": "The collision between two buses caused traffic delays.",
+        "question_translation": {
+          "Hindi": "यातायात में देरी का कारण क्या था?",
+          "Japanese": "交通の遅れの原因は何でしたか？"
+        },
+        "options": [
+          "A parade",
+          "A bus collision",
+          "A storm"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What caused serious damage?",
+        "audio_text": "The storm caused serious damage to houses.",
+        "question_translation": {
+          "Hindi": "गंभीर नुकसान किससे हुआ?",
+          "Japanese": "深刻な被害を引き起こしたのは何ですか？"
+        },
+        "options": [
+          "The storm",
+          "An accident",
+          "A fire"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'There was an accident on the highway.'",
+        "question_translation": {
+          "Hindi": "कहें: 'There was an accident on the highway.'",
+          "Japanese": "言ってください: 'There was an accident on the highway.'"
+        },
+        "options": [],
+        "answer": "there was an accident on the highway"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The police reported the incident.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The police reported the incident.'",
+          "Japanese": "言ってください: 'The police reported the incident.'"
+        },
+        "options": [],
+        "answer": "the police reported the incident"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The witness gave a statement.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The witness gave a statement.'",
+          "Japanese": "言ってください: 'The witness gave a statement.'"
+        },
+        "options": [],
+        "answer": "the witness gave a statement"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'He had a minor injury.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He had a minor injury.'",
+          "Japanese": "言ってください: 'He had a minor injury.'"
+        },
+        "options": [],
+        "answer": "he had a minor injury"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The firefighters carried out a rescue.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The firefighters carried out a rescue.'",
+          "Japanese": "言ってください: 'The firefighters carried out a rescue.'"
+        },
+        "options": [],
+        "answer": "the firefighters carried out a rescue"
+      }
+    ]
+  }
+
 }

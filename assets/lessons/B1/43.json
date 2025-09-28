@@ -1,4 +1,519 @@
 {
-  "id": 43,
-  "message": "This is file number 43"
+  "id": "lesson_handling_emergencies_001",
+  "lesson_name": "Handling Emergencies",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "emergency",
+        "word_translation": {
+          "Hindi": "आपातकाल",
+          "Japanese": "緊急事態"
+        },
+        "meaning": "A serious and unexpected situation that needs quick action",
+        "meaning_translation": {
+          "Hindi": "एक गंभीर और अप्रत्याशित स्थिति जिसमें तुरंत कार्यवाही की आवश्यकता होती है",
+          "Japanese": "迅速な対応が必要な深刻で予期しない状況"
+        },
+        "examples": [
+          {
+            "sentence": "Call 112 in case of an emergency.",
+            "translation": {
+              "Hindi": "आपातकाल की स्थिति में 112 पर कॉल करें।",
+              "Japanese": "緊急の場合は112に電話してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "first aid",
+        "word_translation": {
+          "Hindi": "प्राथमिक उपचार",
+          "Japanese": "応急処置"
+        },
+        "meaning": "Immediate care given to a sick or injured person before professional help arrives",
+        "meaning_translation": {
+          "Hindi": "बीमार या घायल व्यक्ति को पेशेवर मदद आने से पहले दी जाने वाली देखभाल",
+          "Japanese": "専門家が到着する前に病人やけが人に与える応急の処置"
+        },
+        "examples": [
+          {
+            "sentence": "She gave him first aid after the accident.",
+            "translation": {
+              "Hindi": "उसने दुर्घटना के बाद उसे प्राथमिक उपचार दिया।",
+              "Japanese": "彼女は事故の後に彼に応急処置をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "injury",
+        "word_translation": {
+          "Hindi": "चोट",
+          "Japanese": "けが"
+        },
+        "meaning": "Physical harm or damage to someone's body",
+        "meaning_translation": {
+          "Hindi": "किसी के शरीर को हुआ शारीरिक नुकसान या क्षति",
+          "Japanese": "誰かの体に起こる損傷や害"
+        },
+        "examples": [
+          {
+            "sentence": "He had a serious leg injury after falling.",
+            "translation": {
+              "Hindi": "गिरने के बाद उसे पैर में गंभीर चोट लगी।",
+              "Japanese": "彼は転んで足に重傷を負いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ambulance",
+        "word_translation": {
+          "Hindi": "एम्बुलेंस",
+          "Japanese": "救急車"
+        },
+        "meaning": "A vehicle used to take sick or injured people to the hospital",
+        "meaning_translation": {
+          "Hindi": "एक वाहन जो बीमार या घायल लोगों को अस्पताल ले जाता है",
+          "Japanese": "病人やけが人を病院に運ぶ車両"
+        },
+        "examples": [
+          {
+            "sentence": "The ambulance arrived within 10 minutes.",
+            "translation": {
+              "Hindi": "एम्बुलेंस 10 मिनट के भीतर आ गई।",
+              "Japanese": "救急車は10分以内に到着しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "firefighter",
+        "word_translation": {
+          "Hindi": "दमकलकर्मी",
+          "Japanese": "消防士"
+        },
+        "meaning": "A person whose job is to stop fires and save people",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जिसका काम आग बुझाना और लोगों को बचाना है",
+          "Japanese": "火を消して人々を救う仕事をする人"
+        },
+        "examples": [
+          {
+            "sentence": "Firefighters rescued the family from the burning house.",
+            "translation": {
+              "Hindi": "दमकलकर्मियों ने जलते हुए घर से परिवार को बचाया।",
+              "Japanese": "消防士が燃えている家から家族を救出しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evacuate",
+        "word_translation": {
+          "Hindi": "निकालना / खाली कराना",
+          "Japanese": "避難する"
+        },
+        "meaning": "To move people away from a dangerous place",
+        "meaning_translation": {
+          "Hindi": "लोगों को खतरनाक स्थान से दूर ले जाना",
+          "Japanese": "危険な場所から人々を移動させること"
+        },
+        "examples": [
+          {
+            "sentence": "People were evacuated from the building during the fire.",
+            "translation": {
+              "Hindi": "आग लगने के दौरान लोगों को इमारत से बाहर निकाला गया।",
+              "Japanese": "火事の間、人々は建物から避難しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "alert",
+        "word_translation": {
+          "Hindi": "चेतावनी देना",
+          "Japanese": "警告する / 注意する"
+        },
+        "meaning": "To warn someone of danger",
+        "meaning_translation": {
+          "Hindi": "किसी को खतरे के बारे में सचेत करना",
+          "Japanese": "危険を知らせること"
+        },
+        "examples": [
+          {
+            "sentence": "The alarm alerted everyone in the building.",
+            "translation": {
+              "Hindi": "अलार्म ने इमारत में सभी को सचेत किया।",
+              "Japanese": "警報が建物の中の全員に警告しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "safety",
+        "word_translation": {
+          "Hindi": "सुरक्षा",
+          "Japanese": "安全"
+        },
+        "meaning": "The state of being protected from danger or harm",
+        "meaning_translation": {
+          "Hindi": "खतरे या हानि से सुरक्षित होने की स्थिति",
+          "Japanese": "危険や害から守られている状態"
+        },
+        "examples": [
+          {
+            "sentence": "Your safety is the first priority in emergencies.",
+            "translation": {
+              "Hindi": "आपात स्थिति में आपकी सुरक्षा सबसे पहली प्राथमिकता है।",
+              "Japanese": "緊急時にはあなたの安全が第一の優先事項です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'must' for strong necessity",
+        "explanation": "We use 'must' when something is very important. Example: You must call an ambulance in an emergency.",
+        "explanation_translation": {
+          "Hindi": "'must' का उपयोग तब किया जाता है जब कुछ बहुत जरूरी होता है। उदाहरण: You must call an ambulance in an emergency.",
+          "Japanese": "非常に重要なときに「must」を使います。例: You must call an ambulance in an emergency."
+        }
+      },
+      {
+        "title": "Imperatives for instructions",
+        "explanation": "We use imperatives (base verb forms) to give direct instructions. Example: Stay calm. Call for help.",
+        "explanation_translation": {
+          "Hindi": "निर्देश देने के लिए हम imperative (क्रिया का मूल रूप) का उपयोग करते हैं। उदाहरण: Stay calm. Call for help.",
+          "Japanese": "指示を出すときに命令形（動詞の基本形）を使います。例: Stay calm. Call for help."
+        }
+      },
+      {
+        "title": "Using 'in case of' for conditions",
+        "explanation": "We use 'in case of + noun' to say what to do in a particular situation. Example: In case of fire, evacuate immediately.",
+        "explanation_translation": {
+          "Hindi": "'in case of + noun' का उपयोग यह बताने के लिए किया जाता है कि किसी विशेष स्थिति में क्या करना चाहिए। उदाहरण: In case of fire, evacuate immediately.",
+          "Japanese": "特定の状況で何をすべきかを言うとき「in case of + 名詞」を使います。例: In case of fire, evacuate immediately."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a serious and unexpected situation that needs quick action'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'एक गंभीर और अप्रत्याशित स्थिति जिसमें तुरंत कार्यवाही की आवश्यकता होती है' का अर्थ है?",
+          "Japanese": "「迅速な対応が必要な深刻で予期しない状況」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "emergency",
+          "injury",
+          "safety"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "She gave him ___ after the accident.",
+        "question_translation": {
+          "Hindi": "उसने दुर्घटना के बाद उसे ___ दिया।",
+          "Japanese": "彼女は事故の後、彼に___をしました。"
+        },
+        "options": [
+          "first aid",
+          "safety",
+          "recognition"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "An ambulance is used to take sick or injured people to the hospital.",
+        "question_translation": {
+          "Hindi": "एम्बुलेंस का उपयोग बीमार या घायल लोगों को अस्पताल ले जाने के लिए किया जाता है।",
+          "Japanese": "救急車は病人やけが人を病院に運ぶために使われます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'to move people away from a dangerous place'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'लोगों को खतरनाक स्थान से दूर ले जाना' का अर्थ है?",
+          "Japanese": "「危険な場所から人々を移動させる」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "evacuate",
+          "alert",
+          "injury"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The alarm ___ everyone in the building.",
+        "question_translation": {
+          "Hindi": "अलार्म ने इमारत में सभी को ___।",
+          "Japanese": "警報が建物の中の全員を___しました。"
+        },
+        "options": [
+          "alerted",
+          "injured",
+          "rescued"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [must, you, call, an, emergency, in, ambulance]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [must, you, call, an, emergency, in, ambulance]",
+          "Japanese": "並べ替え: [must, you, call, an, emergency, in, ambulance]"
+        },
+        "options": [
+          "must",
+          "you",
+          "call",
+          "an",
+          "emergency",
+          "in",
+          "ambulance"
+        ],
+        "answer": [
+          "you",
+          "must",
+          "call",
+          "an",
+          "ambulance",
+          "in",
+          "emergency"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "In case of fire, ___ immediately.",
+        "question_translation": {
+          "Hindi": "आग लगने की स्थिति में, तुरंत ___।",
+          "Japanese": "火事の場合は、すぐに___してください。"
+        },
+        "options": [
+          "evacuate",
+          "injury",
+          "help"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "You must stays calm in an emergency.",
+          "You must stay calm in an emergency.",
+          "You must stayed calm in an emergency."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [help, for, call, calm, stay, and]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [help, for, call, calm, stay, and]",
+          "Japanese": "並べ替え: [help, for, call, calm, stay, and]"
+        },
+        "options": [
+          "help",
+          "for",
+          "call",
+          "calm",
+          "stay",
+          "and"
+        ],
+        "answer": [
+          "stay",
+          "calm",
+          "and",
+          "call",
+          "for",
+          "help"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Your ___ is the first priority in emergencies.",
+        "question_translation": {
+          "Hindi": "आपात स्थिति में आपकी ___ सबसे पहली प्राथमिकता है।",
+          "Japanese": "緊急時にはあなたの___が第一の優先事項です。"
+        },
+        "options": [
+          "safety",
+          "injury",
+          "alert"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What should you do according to the speaker?",
+        "audio_text": "In case of fire, evacuate the building immediately.",
+        "question_translation": {
+          "Hindi": "वक्ता के अनुसार आपको क्या करना चाहिए?",
+          "Japanese": "話者によると、何をすべきですか？"
+        },
+        "options": [
+          "Stay inside",
+          "Evacuate the building",
+          "Call the police"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says to call for help.",
+        "audio_text": "If someone is injured, call for help right away.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि मदद के लिए कॉल करें।",
+          "Japanese": "話者はすぐに助けを呼ぶように言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What number does the speaker say to call?",
+        "audio_text": "Call 112 in case of an emergency.",
+        "question_translation": {
+          "Hindi": "वक्ता किस नंबर पर कॉल करने के लिए कहता है?",
+          "Japanese": "話者は緊急の場合にどの番号に電話するように言っていますか？"
+        },
+        "options": [
+          "110",
+          "112",
+          "100"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "Who arrives to stop the fire?",
+        "audio_text": "The firefighters arrived quickly to stop the fire.",
+        "question_translation": {
+          "Hindi": "आग बुझाने के लिए कौन जल्दी पहुंचा?",
+          "Japanese": "火を止めるために誰がすぐに到着しましたか？"
+        },
+        "options": [
+          "Police",
+          "Firefighters",
+          "Doctors"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says to stay calm during an emergency.",
+        "audio_text": "Stay calm and follow instructions during an emergency.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि आपातकाल में शांत रहें।",
+          "Japanese": "話者は緊急時に落ち着いて指示に従うようにと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Call 112 in case of an emergency.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Call 112 in case of an emergency.'",
+          "Japanese": "言ってください: 'Call 112 in case of an emergency.'"
+        },
+        "options": [],
+        "answer": "call 112 in case of an emergency"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Stay calm and call for help.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Stay calm and call for help.'",
+          "Japanese": "言ってください: 'Stay calm and call for help.'"
+        },
+        "options": [],
+        "answer": "stay calm and call for help"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'The ambulance arrived quickly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The ambulance arrived quickly.'",
+          "Japanese": "言ってください: 'The ambulance arrived quickly.'"
+        },
+        "options": [],
+        "answer": "the ambulance arrived quickly"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Firefighters rescued the family.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Firefighters rescued the family.'",
+          "Japanese": "言ってください: 'Firefighters rescued the family.'"
+        },
+        "options": [],
+        "answer": "firefighters rescued the family"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Your safety is the first priority.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Your safety is the first priority.'",
+          "Japanese": "言ってください: 'Your safety is the first priority.'"
+        },
+        "options": [],
+        "answer": "your safety is the first priority"
+      }
+    ]
+  }
+
 }

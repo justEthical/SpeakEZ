@@ -1,4 +1,553 @@
 {
-  "id": 33,
-  "message": "This is file number 33"
+  "id": "lesson_health_wellbeing_001",
+  "lesson_name": "Health & Well-Being (Advice & Risk)",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "well-being",
+        "word_translation": {
+          "Hindi": "कल्याण",
+          "Japanese": "幸福"
+        },
+        "meaning": "A state of being comfortable, healthy, or happy",
+        "meaning_translation": {
+          "Hindi": "आरामदायक, स्वस्थ या खुश रहने की स्थिति",
+          "Japanese": "快適で健康で幸せな状態"
+        },
+        "examples": [
+          {
+            "sentence": "Regular exercise is essential for mental well-being.",
+            "translation": {
+              "Hindi": "नियमित व्यायाम मानसिक कल्याण के लिए आवश्यक है।",
+              "Japanese": "定期的な運動は精神的な幸福に不可欠です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prevention",
+        "word_translation": {
+          "Hindi": "रोकथाम",
+          "Japanese": "予防"
+        },
+        "meaning": "The action of stopping something from happening",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को होने से रोकने की क्रिया",
+          "Japanese": "何かが起こるのを防ぐ行為"
+        },
+        "examples": [
+          {
+            "sentence": "Prevention is better than cure.",
+            "translation": {
+              "Hindi": "रोकथाम इलाज से बेहतर है।",
+              "Japanese": "予防は治療に勝る。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lifestyle",
+        "word_translation": {
+          "Hindi": "जीवन शैली",
+          "Japanese": "生活習慣"
+        },
+        "meaning": "The way in which a person lives, including habits and routines",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति के जीने का तरीका, जिसमें उसकी आदतें और दिनचर्या शामिल हैं",
+          "Japanese": "人の習慣や日課を含む生活の仕方"
+        },
+        "examples": [
+          {
+            "sentence": "A healthy lifestyle includes balanced diet and exercise.",
+            "translation": {
+              "Hindi": "एक स्वस्थ जीवन शैली में संतुलित आहार और व्यायाम शामिल हैं।",
+              "Japanese": "健康的な生活習慣にはバランスの取れた食事と運動が含まれます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stress",
+        "word_translation": {
+          "Hindi": "तनाव",
+          "Japanese": "ストレス"
+        },
+        "meaning": "Mental or emotional pressure",
+        "meaning_translation": {
+          "Hindi": "मानसिक या भावनात्मक दबाव",
+          "Japanese": "精神的または感情的な圧力"
+        },
+        "examples": [
+          {
+            "sentence": "Meditation can help reduce stress.",
+            "translation": {
+              "Hindi": "ध्यान तनाव कम करने में मदद कर सकता है।",
+              "Japanese": "瞑想はストレスを減らすのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nutrition",
+        "word_translation": {
+          "Hindi": "पोषण",
+          "Japanese": "栄養"
+        },
+        "meaning": "The process of taking in and using food for health and growth",
+        "meaning_translation": {
+          "Hindi": "स्वास्थ्य और विकास के लिए भोजन लेने और उपयोग करने की प्रक्रिया",
+          "Japanese": "健康と成長のために食物を摂取し利用する過程"
+        },
+        "examples": [
+          {
+            "sentence": "Good nutrition helps prevent many diseases.",
+            "translation": {
+              "Hindi": "अच्छा पोषण कई बीमारियों को रोकने में मदद करता है।",
+              "Japanese": "良い栄養は多くの病気を予防します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk factor",
+        "word_translation": {
+          "Hindi": "जोखिम कारक",
+          "Japanese": "危険因子"
+        },
+        "meaning": "Something that increases the chance of a negative outcome",
+        "meaning_translation": {
+          "Hindi": "ऐसा कुछ जो नकारात्मक परिणाम की संभावना को बढ़ाता है",
+          "Japanese": "悪い結果の可能性を高める要因"
+        },
+        "examples": [
+          {
+            "sentence": "Smoking is a major risk factor for heart disease.",
+            "translation": {
+              "Hindi": "धूम्रपान हृदय रोग के लिए एक प्रमुख जोखिम कारक है।",
+              "Japanese": "喫煙は心臓病の大きな危険因子です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "balanced diet",
+        "word_translation": {
+          "Hindi": "संतुलित आहार",
+          "Japanese": "バランスの取れた食事"
+        },
+        "meaning": "A diet that includes all necessary nutrients in the right amounts",
+        "meaning_translation": {
+          "Hindi": "ऐसा आहार जिसमें सभी आवश्यक पोषक तत्व सही मात्रा में शामिल हों",
+          "Japanese": "必要な栄養素を適量含む食事"
+        },
+        "examples": [
+          {
+            "sentence": "Eating a balanced diet improves overall health.",
+            "translation": {
+              "Hindi": "संतुलित आहार लेना समग्र स्वास्थ्य में सुधार करता है।",
+              "Japanese": "バランスの取れた食事は全体的な健康を改善します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "exercise",
+        "word_translation": {
+          "Hindi": "व्यायाम",
+          "Japanese": "運動"
+        },
+        "meaning": "Physical activity that improves health and fitness",
+        "meaning_translation": {
+          "Hindi": "शारीरिक गतिविधि जो स्वास्थ्य और फिटनेस को सुधारती है",
+          "Japanese": "健康と体力を向上させる身体活動"
+        },
+        "examples": [
+          {
+            "sentence": "Regular exercise reduces the risk of obesity.",
+            "translation": {
+              "Hindi": "नियमित व्यायाम मोटापे के जोखिम को कम करता है।",
+              "Japanese": "定期的な運動は肥満のリスクを減らします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "addiction",
+        "word_translation": {
+          "Hindi": "लत",
+          "Japanese": "依存症"
+        },
+        "meaning": "The inability to stop using harmful substances or behaviors",
+        "meaning_translation": {
+          "Hindi": "हानिकारक पदार्थों या व्यवहारों का उपयोग बंद न कर पाने की स्थिति",
+          "Japanese": "有害な物質や行動をやめられない状態"
+        },
+        "examples": [
+          {
+            "sentence": "Addiction to alcohol can damage the liver.",
+            "translation": {
+              "Hindi": "शराब की लत यकृत को नुकसान पहुंचा सकती है।",
+              "Japanese": "アルコール依存症は肝臓を損傷する可能性があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "advice",
+        "word_translation": {
+          "Hindi": "सलाह",
+          "Japanese": "助言"
+        },
+        "meaning": "Suggestions about what someone should do",
+        "meaning_translation": {
+          "Hindi": "किसी को क्या करना चाहिए इस बारे में सुझाव",
+          "Japanese": "誰かが何をすべきかについての提案"
+        },
+        "examples": [
+          {
+            "sentence": "Doctors give advice to patients about healthy habits.",
+            "translation": {
+              "Hindi": "डॉक्टर मरीजों को स्वस्थ आदतों के बारे में सलाह देते हैं।",
+              "Japanese": "医者は患者に健康的な習慣について助言します。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'should' for Advice",
+        "explanation": "Use 'should + verb' to give advice. Example: You should eat more vegetables.",
+        "explanation_translation": {
+          "Hindi": "'should + verb' का उपयोग सलाह देने के लिए करें। उदाहरण: You should eat more vegetables.",
+          "Japanese": "助言をするには 'should + 動詞' を使います。例: You should eat more vegetables."
+        }
+      },
+      {
+        "title": "Using 'must' for Strong Obligation",
+        "explanation": "Use 'must' to express something very necessary. Example: You must drink enough water.",
+        "explanation_translation": {
+          "Hindi": "'must' का उपयोग बहुत आवश्यक चीज़ को व्यक्त करने के लिए करें। उदाहरण: You must drink enough water.",
+          "Japanese": "非常に必要なことを表すには 'must' を使います。例: You must drink enough water."
+        }
+      },
+      {
+        "title": "Using 'at risk of' to Show Danger",
+        "explanation": "Use 'at risk of + noun/verb-ing' to describe possible dangers. Example: Smokers are at risk of developing cancer.",
+        "explanation_translation": {
+          "Hindi": "'at risk of + noun/verb-ing' का उपयोग संभावित खतरों को व्यक्त करने के लिए करें। उदाहरण: Smokers are at risk of developing cancer.",
+          "Japanese": "危険性を表すには 'at risk of + 名詞/動詞-ing' を使います。例: Smokers are at risk of developing cancer."
+        }
+      }
+    ]
+  },
+  "question_pools":{
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'the state of being comfortable, healthy, or happy'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द आरामदायक, स्वस्थ या खुश रहने की स्थिति को दर्शाता है?",
+        "Japanese": "快適で健康で幸せな状態を意味する言葉はどれですか？"
+      },
+      "options": [
+        "well-being",
+        "stress",
+        "addiction"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Smoking is a major ___ factor for heart disease.",
+      "question_translation": {
+        "Hindi": "धूम्रपान हृदय रोग के लिए एक प्रमुख ___ कारक है।",
+        "Japanese": "喫煙は心臓病の大きな___因子です。"
+      },
+      "options": [
+        "nutrition",
+        "risk",
+        "exercise"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A balanced diet includes all necessary nutrients in the right amounts.",
+      "question_translation": {
+        "Hindi": "संतुलित आहार में सभी आवश्यक पोषक तत्व सही मात्रा में शामिल होते हैं।",
+        "Japanese": "バランスの取れた食事には必要な栄養素が適量含まれています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word describes the inability to stop harmful behaviors?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द हानिकारक व्यवहारों को रोक न पाने की स्थिति का वर्णन करता है?",
+        "Japanese": "有害な行動をやめられない状態を表す言葉はどれですか？"
+      },
+      "options": [
+        "advice",
+        "addiction",
+        "lifestyle"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Doctors give ___ to patients about healthy habits.",
+      "question_translation": {
+        "Hindi": "डॉक्टर मरीजों को स्वस्थ आदतों के बारे में ___ देते हैं।",
+        "Japanese": "医者は患者に健康的な習慣について___を与えます。"
+      },
+      "options": [
+        "exercise",
+        "stress",
+        "advice"
+      ],
+      "answer": 2
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [eat, you, vegetables, more, should]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [eat, you, vegetables, more, should]",
+        "Japanese": "並べ替え: [eat, you, vegetables, more, should]"
+      },
+      "options": [
+        "eat",
+        "you",
+        "vegetables",
+        "more",
+        "should"
+      ],
+      "answer": [
+        "you",
+        "should",
+        "eat",
+        "more",
+        "vegetables"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "If you don’t sleep enough, you ___ be at risk of illness.",
+      "question_translation": {
+        "Hindi": "यदि आप पर्याप्त नींद नहीं लेते हैं, तो आप बीमारी के जोखिम में ___।",
+        "Japanese": "十分に眠らないと、病気の危険に___。"
+      },
+      "options": [
+        "will",
+        "would",
+        "was"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence gives advice correctly?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही तरीके से सलाह देता है?",
+        "Japanese": "どの文が正しく助言をしていますか？"
+      },
+      "options": [
+        "You must relaxing more.",
+        "You should relax more.",
+        "You at risk relax more."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [reduce, can, stress, meditation]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [reduce, can, stress, meditation]",
+        "Japanese": "並べ替え: [reduce, can, stress, meditation]"
+      },
+      "options": [
+        "reduce",
+        "can",
+        "stress",
+        "meditation"
+      ],
+      "answer": [
+        "meditation",
+        "can",
+        "reduce",
+        "stress"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Regular ___ helps improve physical and mental health.",
+      "question_translation": {
+        "Hindi": "नियमित ___ शारीरिक और मानसिक स्वास्थ्य को सुधारने में मदद करता है।",
+        "Japanese": "定期的な___は身体的および精神的健康の改善に役立ちます。"
+      },
+      "options": [
+        "exercise",
+        "addiction",
+        "stress"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker suggest?",
+      "audio_text": "You should drink at least 8 glasses of water every day.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सुझाव देता है?",
+        "Japanese": "話者は何を提案していますか？"
+      },
+      "options": [
+        "Drink less water",
+        "Drink 8 glasses of water daily",
+        "Avoid drinking water"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says prevention is better than cure.",
+      "audio_text": "Prevention is always better than cure.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि रोकथाम इलाज से बेहतर है।",
+        "Japanese": "話者は予防は治療に勝ると言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is the speaker warning against?",
+      "audio_text": "Smoking is a risk factor for many diseases.",
+      "question_translation": {
+        "Hindi": "वक्ता किस चीज़ के खिलाफ चेतावनी दे रहे हैं?",
+        "Japanese": "話者は何について警告していますか？"
+      },
+      "options": [
+        "Smoking",
+        "Exercise",
+        "Nutrition"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What does the speaker recommend for stress?",
+      "audio_text": "Meditation and deep breathing can help reduce stress.",
+      "question_translation": {
+        "Hindi": "वक्ता तनाव के लिए क्या सुझाव देता है?",
+        "Japanese": "話者はストレスに対して何を勧めていますか？"
+      },
+      "options": [
+        "Smoking",
+        "Meditation",
+        "Skipping meals"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker says that addiction improves well-being.",
+      "audio_text": "Addiction to harmful substances damages health.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि लत कल्याण को सुधारती है।",
+        "Japanese": "話者は依存症が幸福を改善すると言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'You should exercise regularly.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आपको नियमित रूप से व्यायाम करना चाहिए।'",
+        "Japanese": "言ってください: 'あなたは定期的に運動すべきです。'"
+      },
+      "options": [],
+      "answer": "you should exercise regularly"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Stress can affect your health.'",
+      "question_translation": {
+        "Hindi": "कहें: 'तनाव आपके स्वास्थ्य को प्रभावित कर सकता है।'",
+        "Japanese": "言ってください: 'ストレスは健康に影響を与える可能性があります。'"
+      },
+      "options": [],
+      "answer": "stress can affect your health"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'A balanced diet is important for well-being.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संतुलित आहार कल्याण के लिए महत्वपूर्ण है।'",
+        "Japanese": "言ってください: 'バランスの取れた食事は幸福にとって重要です。'"
+      },
+      "options": [],
+      "answer": "a balanced diet is important for well being"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Addiction is harmful to health.'",
+      "question_translation": {
+        "Hindi": "कहें: 'लत स्वास्थ्य के लिए हानिकारक है।'",
+        "Japanese": "言ってください: '依存症は健康に有害です。'"
+      },
+      "options": [],
+      "answer": "addiction is harmful to health"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Prevention is better than cure.'",
+      "question_translation": {
+        "Hindi": "कहें: 'रोकथाम इलाज से बेहतर है।'",
+        "Japanese": "言ってください: '予防は治療に勝る。'"
+      },
+      "options": [],
+      "answer": "prevention is better than cure"
+    }
+  ]
+}
+
 }

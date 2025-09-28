@@ -1,4 +1,573 @@
 {
-  "id": 42,
-  "message": "This is file number 42"
+  "id": "lesson_pronunciation_sentence_stress_prominence_c1",
+  "lesson_name": "Pronunciation: Sentence Stress & Prominence",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "sentence stress",
+        "word_translation": {
+          "Hindi": "वाक्य बलाघात",
+          "Japanese": "文のストレス"
+        },
+        "meaning": "The pattern of strong and weak syllables in a sentence",
+        "meaning_translation": {
+          "Hindi": "वाक्य में ज़ोरदार और कमजोर वर्णों का पैटर्न",
+          "Japanese": "文の中で強く発音される音節と弱く発音される音節のパターン"
+        },
+        "examples": [
+          {
+            "sentence": "Sentence stress helps listeners identify the most important words.",
+            "translation": {
+              "Hindi": "वाक्य बलाघात श्रोताओं को सबसे महत्वपूर्ण शब्द पहचानने में मदद करता है।",
+              "Japanese": "文のストレスは聞き手が最も重要な単語を理解するのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prominence",
+        "word_translation": {
+          "Hindi": "प्रमुखता",
+          "Japanese": "プロミネンス"
+        },
+        "meaning": "The emphasis placed on a word or syllable to make it stand out",
+        "meaning_translation": {
+          "Hindi": "किसी शब्द या वर्ण पर उसे प्रमुख बनाने के लिए डाला गया ज़ोर",
+          "Japanese": "単語や音節を目立たせるために置かれる強調"
+        },
+        "examples": [
+          {
+            "sentence": "We can change the meaning of a sentence by shifting prominence.",
+            "translation": {
+              "Hindi": "हम प्रमुखता बदलकर वाक्य का अर्थ बदल सकते हैं।",
+              "Japanese": "プロミネンスを変えることで文の意味を変えることができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "content words",
+        "word_translation": {
+          "Hindi": "सामग्री शब्द",
+          "Japanese": "内容語"
+        },
+        "meaning": "Words that carry meaning such as nouns, main verbs, adjectives, and adverbs",
+        "meaning_translation": {
+          "Hindi": "अर्थ वाले शब्द जैसे संज्ञा, मुख्य क्रिया, विशेषण और क्रियाविशेषण",
+          "Japanese": "名詞、主要動詞、形容詞、副詞など意味を持つ単語"
+        },
+        "examples": [
+          {
+            "sentence": "Content words are usually stressed in English sentences.",
+            "translation": {
+              "Hindi": "अंग्रेजी वाक्यों में आमतौर पर सामग्री शब्दों पर बल दिया जाता है।",
+              "Japanese": "英語の文では通常、内容語が強調されます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "function words",
+        "word_translation": {
+          "Hindi": "कार्य शब्द",
+          "Japanese": "機能語"
+        },
+        "meaning": "Words that have grammatical purposes, like articles, prepositions, and auxiliary verbs",
+        "meaning_translation": {
+          "Hindi": "व्याकरणिक उद्देश्य वाले शब्द, जैसे लेख, संबंधसूचक अव्यय और सहायक क्रियाएँ",
+          "Japanese": "冠詞、前置詞、助動詞など文法的な役割を持つ単語"
+        },
+        "examples": [
+          {
+            "sentence": "Function words are usually unstressed in English.",
+            "translation": {
+              "Hindi": "अंग्रेज़ी में कार्य शब्दों पर आमतौर पर ज़ोर नहीं दिया जाता।",
+              "Japanese": "英語では機能語は通常強調されません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nuclear stress",
+        "word_translation": {
+          "Hindi": "नाभिकीय बलाघात",
+          "Japanese": "核ストレス"
+        },
+        "meaning": "The main stress placed on the most important word in an intonation unit",
+        "meaning_translation": {
+          "Hindi": "स्वराघात इकाई में सबसे महत्वपूर्ण शब्द पर डाला गया मुख्य ज़ोर",
+          "Japanese": "イントネーションの単位の中で最も重要な単語に置かれる主要なストレス"
+        },
+        "examples": [
+          {
+            "sentence": "The nuclear stress usually falls near the end of the sentence.",
+            "translation": {
+              "Hindi": "नाभिकीय बलाघात आमतौर पर वाक्य के अंत के पास आता है।",
+              "Japanese": "核ストレスは通常文の終わり近くに置かれます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contrastive stress",
+        "word_translation": {
+          "Hindi": "विरोधात्मक बलाघात",
+          "Japanese": "対比的ストレス"
+        },
+        "meaning": "Emphasizing a word to show contrast or correction",
+        "meaning_translation": {
+          "Hindi": "किसी शब्द को ज़ोर देकर अंतर या सुधार दिखाना",
+          "Japanese": "対比や訂正を示すために単語を強調すること"
+        },
+        "examples": [
+          {
+            "sentence": "I said GREEN apples, not red apples.",
+            "translation": {
+              "Hindi": "मैंने हरे सेब कहा था, लाल नहीं।",
+              "Japanese": "私は赤いリンゴではなく緑のリンゴと言いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intonation",
+        "word_translation": {
+          "Hindi": "स्वराघात",
+          "Japanese": "イントネーション"
+        },
+        "meaning": "The rise and fall of voice pitch in speech",
+        "meaning_translation": {
+          "Hindi": "भाषण में आवाज़ की ऊँचाई का उठना और गिरना",
+          "Japanese": "話し声の音の高低の変化"
+        },
+        "examples": [
+          {
+            "sentence": "Intonation patterns help express attitudes and emotions.",
+            "translation": {
+              "Hindi": "स्वराघात पैटर्न दृष्टिकोण और भावनाओं को व्यक्त करने में मदद करते हैं।",
+              "Japanese": "イントネーションのパターンは態度や感情を表現するのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rhythm",
+        "word_translation": {
+          "Hindi": "लय",
+          "Japanese": "リズム"
+        },
+        "meaning": "The regular pattern of stressed and unstressed syllables in speech",
+        "meaning_translation": {
+          "Hindi": "भाषण में बलयुक्त और अबल वर्णों का नियमित पैटर्न",
+          "Japanese": "話し言葉における強勢音節と弱勢音節の規則的なパターン"
+        },
+        "examples": [
+          {
+            "sentence": "English rhythm is often stress-timed rather than syllable-timed.",
+            "translation": {
+              "Hindi": "अंग्रेजी की लय अक्सर वर्ण समयबद्ध के बजाय बल समयबद्ध होती है।",
+              "Japanese": "英語のリズムは音節ではなくストレスのタイミングに基づいています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "deaccenting",
+        "word_translation": {
+          "Hindi": "बल हटाना",
+          "Japanese": "脱強勢"
+        },
+        "meaning": "Removing stress from previously mentioned or predictable words",
+        "meaning_translation": {
+          "Hindi": "पहले बताए गए या अनुमानित शब्दों से बल हटाना",
+          "Japanese": "既に言及された、または予測可能な単語から強勢を外すこと"
+        },
+        "examples": [
+          {
+            "sentence": "We often deaccent given information in conversation.",
+            "translation": {
+              "Hindi": "हम बातचीत में पहले से ज्ञात जानकारी से बल हटा देते हैं।",
+              "Japanese": "会話では既知の情報の強勢を外すことがよくあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "prosody",
+        "word_translation": {
+          "Hindi": "स्वर-संगति",
+          "Japanese": "プロソディー"
+        },
+        "meaning": "The patterns of stress, rhythm, and intonation in speech",
+        "meaning_translation": {
+          "Hindi": "भाषण में बल, लय और स्वराघात के पैटर्न",
+          "Japanese": "発話におけるストレス、リズム、イントネーションのパターン"
+        },
+        "examples": [
+          {
+            "sentence": "Prosody plays a key role in sounding natural in English.",
+            "translation": {
+              "Hindi": "स्वर-संगति अंग्रेज़ी में स्वाभाविक लगने में महत्वपूर्ण भूमिका निभाती है।",
+              "Japanese": "プロソディーは英語を自然に聞こえさせる上で重要な役割を果たします。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Stressing Content Words",
+        "explanation": "In English, stress nouns, main verbs, adjectives, and adverbs to signal important meaning.",
+        "explanation_translation": {
+          "Hindi": "अंग्रेज़ी में संज्ञा, मुख्य क्रिया, विशेषण और क्रियाविशेषण पर ज़ोर दें ताकि मुख्य अर्थ स्पष्ट हो।",
+          "Japanese": "英語では名詞、主要動詞、形容詞、副詞にストレスを置いて重要な意味を示します。"
+        }
+      },
+      {
+        "title": "Reducing Function Words",
+        "explanation": "Articles, prepositions, and auxiliaries are usually unstressed or reduced in fast speech.",
+        "explanation_translation": {
+          "Hindi": "लेख, संबंधसूचक अव्यय और सहायक क्रियाएँ तेज़ बोलने में आमतौर पर बिना बल के या संक्षिप्त हो जाती हैं।",
+          "Japanese": "冠詞、前置詞、助動詞は速い会話では通常ストレスがなくなり短くなります。"
+        }
+      },
+      {
+        "title": "Using Contrastive Stress",
+        "explanation": "Shift stress to highlight a correction or emphasize a different word. Example: I wanted TEA, not coffee.",
+        "explanation_translation": {
+          "Hindi": "सुधार दिखाने या अलग शब्द पर जोर देने के लिए बल बदलें। उदाहरण: I wanted TEA, not coffee.",
+          "Japanese": "訂正や別の単語を強調するためにストレスを移します。例：I wanted TEA, not coffee."
+        }
+      },
+      {
+        "title": "Nuclear Stress Placement",
+        "explanation": "The main stress in a sentence usually comes near the end, on the most informative word.",
+        "explanation_translation": {
+          "Hindi": "वाक्य का मुख्य बल आमतौर पर अंत के पास सबसे जानकारीपूर्ण शब्द पर आता है।",
+          "Japanese": "文の主要なストレスは通常、終わり近くの最も情報量の多い単語に置かれます。"
+        }
+      },
+      {
+        "title": "Improving Prosody with Pauses",
+        "explanation": "Pausing before stressed words helps listeners understand and keeps speech natural.",
+        "explanation_translation": {
+          "Hindi": "ज़ोर दिए गए शब्दों से पहले विराम लेने से श्रोता बेहतर समझ पाते हैं और भाषण स्वाभाविक रहता है।",
+          "Japanese": "強調される単語の前で一時停止すると、聞き手が理解しやすくなり、自然な発話になります。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is sentence stress?",
+        "question_translation": {
+          "Hindi": "वाक्य बलाघात क्या है?",
+          "Japanese": "文のストレスとは何ですか？"
+        },
+        "options": [
+          "Changing pitch at the end of questions",
+          "The pattern of strong and weak syllables in a sentence",
+          "Pausing between every word while speaking"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Prominence is about making a word stand out in a sentence.",
+        "question_translation": {
+          "Hindi": "प्रमुखता वाक्य में किसी शब्द को उभारने के बारे में है।",
+          "Japanese": "プロミネンスは文中で単語を目立たせることに関するものです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Nouns and main verbs are usually ______ words in English.",
+        "question_translation": {
+          "Hindi": "संज्ञा और मुख्य क्रियाएँ आमतौर पर अंग्रेज़ी में ______ शब्द होते हैं।",
+          "Japanese": "英語では名詞や主要動詞は通常______単語です。"
+        },
+        "options": [
+          "content",
+          "function",
+          "reduced"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which type of stress shows contrast or correction?",
+        "question_translation": {
+          "Hindi": "किस प्रकार का बल विरोध या सुधार दिखाता है?",
+          "Japanese": "対比や訂正を示すストレスはどれですか？"
+        },
+        "options": [
+          "Nuclear stress",
+          "Contrastive stress",
+          "Sentence rhythm"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What does prosody include?",
+        "question_translation": {
+          "Hindi": "स्वर-संगति में क्या शामिल होता है?",
+          "Japanese": "プロソディーには何が含まれますか？"
+        },
+        "options": [
+          "Stress, rhythm, and intonation",
+          "Only vocabulary choice",
+          "Grammar and sentence structure"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [are, words, stressed, content, usually]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [are, words, stressed, content, usually]",
+          "Japanese": "並べ替え: [are, words, stressed, content, usually]"
+        },
+        "options": [
+          "are",
+          "words",
+          "stressed",
+          "content",
+          "usually"
+        ],
+        "answer": [
+          "content",
+          "words",
+          "are",
+          "usually",
+          "stressed"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Articles and prepositions are often ______ in fast speech.",
+        "question_translation": {
+          "Hindi": "लेख और संबंधसूचक अव्यय तेज़ भाषण में अक्सर ______ होते हैं।",
+          "Japanese": "冠詞や前置詞は速い会話ではしばしば______されます。"
+        },
+        "options": [
+          "stressed",
+          "reduced",
+          "highlighted"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows contrastive stress?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य विरोधात्मक बलाघात दिखाता है?",
+          "Japanese": "どの文が対比的ストレスを示していますか？"
+        },
+        "options": [
+          "I wanted TEA, not coffee.",
+          "We are going to the park today.",
+          "She speaks English fluently."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [falls, stress, the, nuclear, usually, end]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [falls, stress, the, nuclear, usually, end]",
+          "Japanese": "並べ替え: [falls, stress, the, nuclear, usually, end]"
+        },
+        "options": [
+          "falls",
+          "stress",
+          "the",
+          "nuclear",
+          "usually",
+          "end"
+        ],
+        "answer": [
+          "the",
+          "nuclear",
+          "stress",
+          "usually",
+          "falls",
+          "end"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Pausing before stressed words can improve ______.",
+        "question_translation": {
+          "Hindi": "ज़ोर वाले शब्दों से पहले विराम लेने से ______ में सुधार हो सकता है।",
+          "Japanese": "強調された単語の前で一時停止すると______が向上します。"
+        },
+        "options": [
+          "prosody",
+          "grammar",
+          "spelling"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is explained? Audio: 'Content words carry the main meaning and are stressed.'",
+        "audio_text": "Content words carry the main meaning and are stressed.",
+        "question_translation": {
+          "Hindi": "क्या समझाया गया है?",
+          "Japanese": "何が説明されていますか？"
+        },
+        "options": [
+          "Function words",
+          "Content words",
+          "Sentence endings"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Function words are usually stressed in English.",
+        "audio_text": "Function words are usually stressed in English.",
+        "question_translation": {
+          "Hindi": "कार्य शब्दों पर आमतौर पर अंग्रेज़ी में बल दिया जाता है।",
+          "Japanese": "英語では機能語が通常強調されます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does contrastive stress do? Audio: 'It highlights a correction or difference in meaning.'",
+        "audio_text": "It highlights a correction or difference in meaning.",
+        "question_translation": {
+          "Hindi": "विरोधात्मक बलाघात क्या करता है?",
+          "Japanese": "対比的ストレスは何をしますか？"
+        },
+        "options": [
+          "Shows emotion only",
+          "Highlights corrections or contrasts",
+          "Reduces speech speed"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is nuclear stress? Audio: 'It’s the main stress in a sentence, usually near the end.'",
+        "audio_text": "It’s the main stress in a sentence, usually near the end.",
+        "question_translation": {
+          "Hindi": "नाभिकीय बलाघात क्या है?",
+          "Japanese": "核ストレスとは何ですか？"
+        },
+        "options": [
+          "First word stress",
+          "Main stress usually at the end",
+          "No stress at all"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Prosody includes stress, rhythm, and intonation.",
+        "audio_text": "Prosody includes stress, rhythm, and intonation.",
+        "question_translation": {
+          "Hindi": "स्वर-संगति में बल, लय और स्वराघात शामिल होते हैं।",
+          "Japanese": "プロソディーにはストレス、リズム、イントネーションが含まれます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Content words are usually stressed.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Content words are usually stressed.'",
+          "Japanese": "言ってください: 'Content words are usually stressed.'"
+        },
+        "options": [],
+        "answer": "content words are usually stressed"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Function words are often reduced.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Function words are often reduced.'",
+          "Japanese": "言ってください: 'Function words are often reduced.'"
+        },
+        "options": [],
+        "answer": "function words are often reduced"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Use contrastive stress to correct meaning.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Use contrastive stress to correct meaning.'",
+          "Japanese": "言ってください: 'Use contrastive stress to correct meaning.'"
+        },
+        "options": [],
+        "answer": "use contrastive stress to correct meaning"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The nuclear stress is near the end of the sentence.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The nuclear stress is near the end of the sentence.'",
+          "Japanese": "言ってください: 'The nuclear stress is near the end of the sentence.'"
+        },
+        "options": [],
+        "answer": "the nuclear stress is near the end of the sentence"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Prosody makes speech sound natural.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Prosody makes speech sound natural.'",
+          "Japanese": "言ってください: 'Prosody makes speech sound natural.'"
+        },
+        "options": [],
+        "answer": "prosody makes speech sound natural"
+      }
+    ]
+  }
+
 }
