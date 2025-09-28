@@ -1,4 +1,573 @@
 {
-  "id": 39,
-  "message": "This is file number 39"
+  "id": "lesson_strategic_storytelling_leadership_c2",
+  "lesson_name": "Strategic Storytelling for Leadership",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "strategic storytelling",
+        "word_translation": {
+          "Hindi": "रणनीतिक कहानी कहने",
+          "Japanese": "戦略的ストーリーテリング"
+        },
+        "meaning": "Purposefully crafting and delivering stories to influence and inspire others",
+        "meaning_translation": {
+          "Hindi": "दूसरों को प्रभावित और प्रेरित करने के लिए जानबूझकर कहानियाँ बनाना और सुनाना",
+          "Japanese": "他者に影響を与え、鼓舞するために意図的に物語を構築し伝えること"
+        },
+        "examples": [
+          {
+            "sentence": "The CEO used strategic storytelling to rally the team around the new vision.",
+            "translation": {
+              "Hindi": "सीईओ ने नई दृष्टि के आसपास टीम को एकजुट करने के लिए रणनीतिक कहानी कहने का उपयोग किया।",
+              "Japanese": "CEOは新しいビジョンにチームを結集させるために戦略的ストーリーテリングを用いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "narrative arc",
+        "word_translation": {
+          "Hindi": "कथानक चाप",
+          "Japanese": "物語の弧"
+        },
+        "meaning": "The structured sequence of events in a story, typically including setup, conflict, and resolution",
+        "meaning_translation": {
+          "Hindi": "किसी कहानी की घटनाओं का संरचित क्रम, जिसमें सेटअप, संघर्ष और समाधान शामिल होते हैं",
+          "Japanese": "設定、対立、解決を含む物語の構造的な流れ"
+        },
+        "examples": [
+          {
+            "sentence": "A strong narrative arc keeps listeners engaged until the end.",
+            "translation": {
+              "Hindi": "एक मजबूत कथानक चाप श्रोताओं को अंत तक जोड़े रखता है।",
+              "Japanese": "強い物語の弧は聴衆を最後まで引き込みます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emotional resonance",
+        "word_translation": {
+          "Hindi": "भावनात्मक गूंज",
+          "Japanese": "感情的な共鳴"
+        },
+        "meaning": "The ability of a story to evoke strong feelings and connect with the audience emotionally",
+        "meaning_translation": {
+          "Hindi": "कहानी की वह क्षमता जिससे वह गहरी भावनाएँ उत्पन्न करे और श्रोताओं से भावनात्मक रूप से जुड़े",
+          "Japanese": "物語が強い感情を呼び起こし、聴衆と感情的に結びつく力"
+        },
+        "examples": [
+          {
+            "sentence": "Leaders use emotional resonance to inspire loyalty and trust.",
+            "translation": {
+              "Hindi": "नेता भावनात्मक गूंज का उपयोग वफादारी और विश्वास प्रेरित करने के लिए करते हैं।",
+              "Japanese": "リーダーは感情的な共鳴を利用して忠誠心と信頼を鼓舞します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "authenticity",
+        "word_translation": {
+          "Hindi": "प्रामाणिकता",
+          "Japanese": "真正性"
+        },
+        "meaning": "Being genuine and truthful, especially when sharing personal stories",
+        "meaning_translation": {
+          "Hindi": "सच्चा और ईमानदार होना, विशेषकर व्यक्तिगत कहानियों को साझा करते समय",
+          "Japanese": "特に個人的な物語を語るときに本物で正直であること"
+        },
+        "examples": [
+          {
+            "sentence": "Authenticity makes a leader’s story relatable and credible.",
+            "translation": {
+              "Hindi": "प्रामाणिकता एक नेता की कहानी को संबंधित और विश्वसनीय बनाती है।",
+              "Japanese": "真正性はリーダーの物語を共感しやすく、信頼できるものにします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "vision casting",
+        "word_translation": {
+          "Hindi": "दृष्टि प्रस्तुत करना",
+          "Japanese": "ビジョンの提示"
+        },
+        "meaning": "Communicating a compelling future vision to motivate and align people",
+        "meaning_translation": {
+          "Hindi": "एक आकर्षक भविष्य की दृष्टि साझा करना ताकि लोगों को प्रेरित और एकजुट किया जा सके",
+          "Japanese": "人々を動機づけ、方向性を合わせるために魅力的な未来像を伝えること"
+        },
+        "examples": [
+          {
+            "sentence": "Vision casting through storytelling helps employees see the bigger picture.",
+            "translation": {
+              "Hindi": "कहानी कहने के माध्यम से दृष्टि प्रस्तुत करना कर्मचारियों को बड़ी तस्वीर देखने में मदद करता है।",
+              "Japanese": "ストーリーテリングによるビジョンの提示は従業員に大局を見せるのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "anecdote",
+        "word_translation": {
+          "Hindi": "उपाख्यान",
+          "Japanese": "逸話"
+        },
+        "meaning": "A short personal story used to illustrate a point or engage listeners",
+        "meaning_translation": {
+          "Hindi": "किसी बिंदु को स्पष्ट करने या श्रोताओं को जोड़ने के लिए इस्तेमाल की गई छोटी व्यक्तिगत कहानी",
+          "Japanese": "ポイントを示したり聴衆を惹きつけたりするための短い個人的な話"
+        },
+        "examples": [
+          {
+            "sentence": "Leaders often begin speeches with an anecdote to capture attention.",
+            "translation": {
+              "Hindi": "नेता अक्सर भाषण की शुरुआत ध्यान आकर्षित करने के लिए एक उपाख्यान से करते हैं।",
+              "Japanese": "リーダーはしばしば注目を集めるために逸話でスピーチを始めます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "call to action",
+        "word_translation": {
+          "Hindi": "कार्रवाई के लिए आह्वान",
+          "Japanese": "行動喚起"
+        },
+        "meaning": "A clear directive that urges the audience to take specific action",
+        "meaning_translation": {
+          "Hindi": "एक स्पष्ट निर्देश जो श्रोताओं को विशेष कार्रवाई करने के लिए प्रेरित करता है",
+          "Japanese": "聴衆に特定の行動を促す明確な指示"
+        },
+        "examples": [
+          {
+            "sentence": "Every powerful story ends with a call to action.",
+            "translation": {
+              "Hindi": "हर प्रभावशाली कहानी कार्रवाई के लिए आह्वान के साथ समाप्त होती है।",
+              "Japanese": "すべての力強い物語は行動喚起で終わります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "leadership ethos",
+        "word_translation": {
+          "Hindi": "नेतृत्व नैतिकता",
+          "Japanese": "リーダーシップの信念"
+        },
+        "meaning": "The character, credibility, and values a leader projects through their actions and words",
+        "meaning_translation": {
+          "Hindi": "वह चरित्र, विश्वसनीयता और मूल्य जो एक नेता अपने कार्यों और शब्दों के माध्यम से दर्शाता है",
+          "Japanese": "リーダーが行動や言葉を通じて示す人格、信頼性、価値観"
+        },
+        "examples": [
+          {
+            "sentence": "A strong leadership ethos strengthens the impact of a story.",
+            "translation": {
+              "Hindi": "एक मजबूत नेतृत्व नैतिकता कहानी के प्रभाव को मजबूत करती है।",
+              "Japanese": "強いリーダーシップの信念は物語の影響力を高めます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "metaphor",
+        "word_translation": {
+          "Hindi": "रूपक",
+          "Japanese": "比喩"
+        },
+        "meaning": "A figure of speech comparing two unlike things to create vivid meaning",
+        "meaning_translation": {
+          "Hindi": "दो असमान चीजों की तुलना करने वाला अलंकार जिससे स्पष्ट और गहरा अर्थ निकलता है",
+          "Japanese": "異なるものを比較して鮮やかな意味を作り出す比喩表現"
+        },
+        "examples": [
+          {
+            "sentence": "The leader used a ship metaphor to describe navigating uncertainty.",
+            "translation": {
+              "Hindi": "नेता ने अनिश्चितता में दिशा खोजने को समझाने के लिए जहाज का रूपक इस्तेमाल किया।",
+              "Japanese": "リーダーは不確実性を航海に例える比喩を使いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transformational leadership",
+        "word_translation": {
+          "Hindi": "परिवर्तनकारी नेतृत्व",
+          "Japanese": "変革型リーダーシップ"
+        },
+        "meaning": "A leadership style that inspires change and innovation through vision and inspiration",
+        "meaning_translation": {
+          "Hindi": "एक नेतृत्व शैली जो दृष्टि और प्रेरणा के माध्यम से परिवर्तन और नवाचार को प्रेरित करती है",
+          "Japanese": "ビジョンとインスピレーションを通じて変革と革新を促すリーダーシップのスタイル"
+        },
+        "examples": [
+          {
+            "sentence": "Transformational leadership relies on compelling storytelling to spark action.",
+            "translation": {
+              "Hindi": "परिवर्तनकारी नेतृत्व कार्रवाई शुरू करने के लिए आकर्षक कहानी कहने पर निर्भर करता है।",
+              "Japanese": "変革型リーダーシップは行動を起こさせるために魅力的なストーリーテリングに依存します。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Past Simple vs. Present Perfect in Stories",
+        "explanation": "Use past simple for completed past events, and present perfect to connect past experiences to the present message.",
+        "explanation_translation": {
+          "Hindi": "पूरा हो चुका अतीत बताने के लिए past simple का उपयोग करें और वर्तमान संदेश से जुड़ने वाले अनुभवों के लिए present perfect का उपयोग करें।",
+          "Japanese": "完了した過去の出来事には過去形を、現在のメッセージにつながる経験には現在完了形を使います。"
+        }
+      },
+      {
+        "title": "Integrating Direct Speech for Engagement",
+        "explanation": "Including short quotes can make a story more vivid and authentic.",
+        "explanation_translation": {
+          "Hindi": "छोटे उद्धरण शामिल करने से कहानी अधिक जीवंत और प्रामाणिक हो जाती है।",
+          "Japanese": "短い引用を含めることで物語がより鮮明で本物らしくなります。"
+        }
+      },
+      {
+        "title": "Using Modals to Express Vision",
+        "explanation": "Use modals like 'will' and 'can' to inspire action and possibility.",
+        "explanation_translation": {
+          "Hindi": "'will' और 'can' जैसे शब्द कार्रवाई और संभावनाओं को प्रेरित करने के लिए उपयोग करें।",
+          "Japanese": "「will」や「can」などのモーダルを使って行動や可能性を鼓舞します。"
+        }
+      },
+      {
+        "title": "Parallelism for Rhythm and Impact",
+        "explanation": "Repeating sentence structures adds rhythm and makes a speech memorable.",
+        "explanation_translation": {
+          "Hindi": "वाक्य संरचना को दोहराने से लय जुड़ती है और भाषण यादगार बनता है।",
+          "Japanese": "文構造を繰り返すことでリズムが生まれ、スピーチが記憶に残ります。"
+        }
+      },
+      {
+        "title": "Metaphors to Simplify Complexity",
+        "explanation": "Metaphors make abstract leadership ideas concrete and relatable.",
+        "explanation_translation": {
+          "Hindi": "रूपक अमूर्त नेतृत्व विचारों को ठोस और संबंधित बनाते हैं।",
+          "Japanese": "比喩は抽象的なリーダーシップの概念を具体的で共感しやすいものにします。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrase means purposefully crafting and delivering stories to influence others?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश दूसरों को प्रभावित करने के लिए जानबूझकर कहानियाँ बनाने और सुनाने को दर्शाता है?",
+        "Japanese": "他者に影響を与えるために意図的に物語を構築し伝えることを意味するフレーズはどれですか？"
+      },
+      "options": [
+        "transformational leadership",
+        "strategic storytelling",
+        "emotional resonance"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "A clear ___ urges the audience to take specific action after a story.",
+      "question_translation": {
+        "Hindi": "एक स्पष्ट ___ श्रोताओं को कहानी के बाद विशेष कार्रवाई करने के लिए प्रेरित करता है।",
+        "Japanese": "明確な___は物語の後に聴衆に特定の行動を促します。"
+      },
+      "options": [
+        "call to action",
+        "metaphor",
+        "ethos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Authenticity makes a leader’s story more credible and relatable.",
+      "question_translation": {
+        "Hindi": "प्रामाणिकता एक नेता की कहानी को अधिक विश्वसनीय और संबंधित बनाती है।",
+        "Japanese": "真正性はリーダーの物語をより信頼できるものにし、共感しやすくします。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term describes the structured sequence of events in a story?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द कहानी में घटनाओं के संरचित क्रम को दर्शाता है?",
+        "Japanese": "物語における出来事の構造的な流れを表す用語はどれですか？"
+      },
+      "options": [
+        "vision casting",
+        "narrative arc",
+        "leadership ethos"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Leaders use emotional ___ to connect deeply with audiences.",
+      "question_translation": {
+        "Hindi": "नेता श्रोताओं से गहराई से जुड़ने के लिए भावनात्मक ___ का उपयोग करते हैं।",
+        "Japanese": "リーダーは聴衆と深くつながるために感情的な___を使用します。"
+      },
+      "options": [
+        "resonance",
+        "metaphor",
+        "casting"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [leaders, inspire, stories, powerful, through]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [leaders, inspire, stories, powerful, through]",
+        "Japanese": "並べ替え: [leaders, inspire, stories, powerful, through]"
+      },
+      "options": [
+        "leaders",
+        "inspire",
+        "through",
+        "powerful",
+        "stories"
+      ],
+      "answer": [
+        "leaders",
+        "inspire",
+        "through",
+        "powerful",
+        "stories"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "A strong narrative ___ keeps listeners engaged until the end.",
+      "question_translation": {
+        "Hindi": "एक मजबूत कथानक ___ श्रोताओं को अंत तक जोड़े रखता है।",
+        "Japanese": "強い物語の___は聴衆を最後まで引き込みます。"
+      },
+      "options": [
+        "arc",
+        "call",
+        "ethos"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows a clear call to action?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य एक स्पष्ट कार्रवाई के आह्वान को दर्शाता है?",
+        "Japanese": "どの文が明確な行動喚起を示していますか？"
+      },
+      "options": [
+        "Our company will grow in the future.",
+        "Join us today to shape the future of innovation.",
+        "Stories can inspire people."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [shared, authentic, story, an, leader, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [shared, authentic, story, an, leader, the]",
+        "Japanese": "並べ替え: [shared, authentic, story, an, leader, the]"
+      },
+      "options": [
+        "the",
+        "leader",
+        "shared",
+        "an",
+        "authentic",
+        "story"
+      ],
+      "answer": [
+        "the",
+        "leader",
+        "shared",
+        "an",
+        "authentic",
+        "story"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Transformational ___ often relies on compelling storytelling.",
+      "question_translation": {
+        "Hindi": "परिवर्तनकारी ___ अक्सर आकर्षक कहानी कहने पर निर्भर करता है।",
+        "Japanese": "変革型___はしばしば魅力的なストーリーテリングに依存します。"
+      },
+      "options": [
+        "leadership",
+        "ethos",
+        "metaphor"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker say about authenticity in leadership stories?",
+      "audio_text": "Authentic stories build credibility and help leaders connect deeply with their teams.",
+      "question_translation": {
+        "Hindi": "वक्ता नेतृत्व की कहानियों में प्रामाणिकता के बारे में क्या कहते हैं?",
+        "Japanese": "話者はリーダーシップの物語における真正性について何と言っていますか？"
+      },
+      "options": [
+        "They reduce credibility.",
+        "They build credibility and deep connection.",
+        "They make stories too emotional."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "A strong narrative arc helps maintain audience engagement.",
+      "audio_text": "A well-structured narrative arc keeps audiences engaged and inspired.",
+      "question_translation": {
+        "Hindi": "एक मजबूत कथानक चाप दर्शकों की रुचि बनाए रखने में मदद करता है।",
+        "Japanese": "強い物語の弧は聴衆の興味を保つのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is vision casting used for?",
+      "audio_text": "Vision casting inspires people by showing them a compelling future to work toward.",
+      "question_translation": {
+        "Hindi": "दृष्टि प्रस्तुत करना किसके लिए उपयोग किया जाता है?",
+        "Japanese": "ビジョンの提示は何のために使われますか？"
+      },
+      "options": [
+        "To share past experiences",
+        "To inspire people with a compelling future",
+        "To analyze past mistakes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Why do leaders use anecdotes in speeches?",
+      "audio_text": "Leaders use anecdotes to make abstract ideas relatable and to capture attention early.",
+      "question_translation": {
+        "Hindi": "नेता भाषणों में उपाख्यानों का उपयोग क्यों करते हैं?",
+        "Japanese": "リーダーがスピーチで逸話を使うのはなぜですか？"
+      },
+      "options": [
+        "To confuse listeners",
+        "To make ideas relatable and capture attention",
+        "To avoid emotional connection"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Metaphors can simplify complex leadership messages.",
+      "audio_text": "Metaphors help simplify complex ideas and make leadership messages relatable.",
+      "question_translation": {
+        "Hindi": "रूपक जटिल नेतृत्व संदेशों को सरल बना सकते हैं।",
+        "Japanese": "比喩は複雑なリーダーシップメッセージを簡単にできます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Strategic storytelling inspires teams to follow a vision.'",
+      "question_translation": {
+        "Hindi": "कहें: 'रणनीतिक कहानी कहने से टीमें दृष्टि का पालन करने के लिए प्रेरित होती हैं।'",
+        "Japanese": "言ってください: 'Strategic storytelling inspires teams to follow a vision.'"
+      },
+      "options": [],
+      "answer": "strategic storytelling inspires teams to follow a vision"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'A strong narrative arc keeps the audience engaged.'",
+      "question_translation": {
+        "Hindi": "कहें: 'एक मजबूत कथानक चाप दर्शकों को संलग्न रखता है।'",
+        "Japanese": "言ってください: 'A strong narrative arc keeps the audience engaged.'"
+      },
+      "options": [],
+      "answer": "a strong narrative arc keeps the audience engaged"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Authenticity makes leadership stories powerful.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रामाणिकता नेतृत्व की कहानियों को शक्तिशाली बनाती है।'",
+        "Japanese": "言ってください: 'Authenticity makes leadership stories powerful.'"
+      },
+      "options": [],
+      "answer": "authenticity makes leadership stories powerful"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Vision casting shows people a compelling future.'",
+      "question_translation": {
+        "Hindi": "कहें: 'दृष्टि प्रस्तुत करना लोगों को एक आकर्षक भविष्य दिखाता है।'",
+        "Japanese": "言ってください: 'Vision casting shows people a compelling future.'"
+      },
+      "options": [],
+      "answer": "vision casting shows people a compelling future"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Metaphors make complex ideas easier to understand.'",
+      "question_translation": {
+        "Hindi": "कहें: 'रूपक जटिल विचारों को समझना आसान बनाते हैं।'",
+        "Japanese": "言ってください: 'Metaphors make complex ideas easier to understand.'"
+      },
+      "options": [],
+      "answer": "metaphors make complex ideas easier to understand"
+    }
+  ]
+}
+
 }

@@ -1,4 +1,517 @@
 {
-  "id": 42,
-  "message": "This is file number 42"
+  "id": "lesson_personal_achievements_001",
+  "lesson_name": "Describing Personal Achievements",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "achievement",
+        "word_translation": {
+          "Hindi": "उपलब्धि",
+          "Japanese": "達成"
+        },
+        "meaning": "Something difficult that you succeed in doing",
+        "meaning_translation": {
+          "Hindi": "कुछ कठिन जो आप सफलतापूर्वक करते हैं",
+          "Japanese": "困難だが成し遂げたこと"
+        },
+        "examples": [
+          {
+            "sentence": "Graduating from university was a big achievement for me.",
+            "translation": {
+              "Hindi": "विश्वविद्यालय से स्नातक होना मेरे लिए एक बड़ी उपलब्धि थी।",
+              "Japanese": "大学を卒業することは私にとって大きな達成でした。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "success",
+        "word_translation": {
+          "Hindi": "सफलता",
+          "Japanese": "成功"
+        },
+        "meaning": "The accomplishment of a goal or purpose",
+        "meaning_translation": {
+          "Hindi": "किसी लक्ष्य या उद्देश्य की प्राप्ति",
+          "Japanese": "目標や目的の達成"
+        },
+        "examples": [
+          {
+            "sentence": "Her success in the competition made her parents proud.",
+            "translation": {
+              "Hindi": "प्रतियोगिता में उसकी सफलता ने उसके माता-पिता को गर्व महसूस कराया।",
+              "Japanese": "大会での彼女の成功は両親を誇りに思わせました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "goal",
+        "word_translation": {
+          "Hindi": "लक्ष्य",
+          "Japanese": "目標"
+        },
+        "meaning": "Something you aim to do or achieve",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जिसे आप करने या पाने का प्रयास करते हैं",
+          "Japanese": "達成しようと目指すもの"
+        },
+        "examples": [
+          {
+            "sentence": "My goal is to become a doctor.",
+            "translation": {
+              "Hindi": "मेरा लक्ष्य डॉक्टर बनना है।",
+              "Japanese": "私の目標は医者になることです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "proud",
+        "word_translation": {
+          "Hindi": "गर्वित",
+          "Japanese": "誇りに思う"
+        },
+        "meaning": "Feeling pleased because of something you did",
+        "meaning_translation": {
+          "Hindi": "कुछ करने पर खुशी और संतोष महसूस करना",
+          "Japanese": "自分がしたことに満足して誇りに思うこと"
+        },
+        "examples": [
+          {
+            "sentence": "I was proud of myself when I won the award.",
+            "translation": {
+              "Hindi": "पुरस्कार जीतने पर मुझे खुद पर गर्व हुआ।",
+              "Japanese": "賞を取ったとき、自分を誇りに思いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "recognition",
+        "word_translation": {
+          "Hindi": "मान्यता",
+          "Japanese": "認識 / 表彰"
+        },
+        "meaning": "Public appreciation or reward for your work",
+        "meaning_translation": {
+          "Hindi": "आपके काम के लिए सार्वजनिक प्रशंसा या पुरस्कार",
+          "Japanese": "自分の仕事に対する公の評価や賞"
+        },
+        "examples": [
+          {
+            "sentence": "She received recognition for her hard work.",
+            "translation": {
+              "Hindi": "उसे अपनी कड़ी मेहनत के लिए मान्यता मिली।",
+              "Japanese": "彼女は努力に対して表彰されました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "effort",
+        "word_translation": {
+          "Hindi": "प्रयास",
+          "Japanese": "努力"
+        },
+        "meaning": "Physical or mental energy used to do something",
+        "meaning_translation": {
+          "Hindi": "कुछ करने के लिए लगाया गया शारीरिक या मानसिक प्रयास",
+          "Japanese": "何かをするために使った体力や精神力"
+        },
+        "examples": [
+          {
+            "sentence": "Your effort in preparing for the exam is impressive.",
+            "translation": {
+              "Hindi": "परीक्षा की तैयारी में आपका प्रयास प्रभावशाली है।",
+              "Japanese": "試験の準備でのあなたの努力は素晴らしいです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hard work",
+        "word_translation": {
+          "Hindi": "कड़ी मेहनत",
+          "Japanese": "一生懸命の努力"
+        },
+        "meaning": "Working with a lot of effort to achieve something",
+        "meaning_translation": {
+          "Hindi": "कुछ हासिल करने के लिए बहुत प्रयास करना",
+          "Japanese": "何かを達成するために多くの努力をすること"
+        },
+        "examples": [
+          {
+            "sentence": "His hard work helped him achieve his goals.",
+            "translation": {
+              "Hindi": "उसकी कड़ी मेहनत ने उसे उसके लक्ष्य हासिल करने में मदद की।",
+              "Japanese": "彼の一生懸命の努力が目標達成に役立ちました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "award",
+        "word_translation": {
+          "Hindi": "पुरस्कार",
+          "Japanese": "賞"
+        },
+        "meaning": "A prize given for an achievement",
+        "meaning_translation": {
+          "Hindi": "किसी उपलब्धि के लिए दिया गया पुरस्कार",
+          "Japanese": "達成に対して与えられる賞"
+        },
+        "examples": [
+          {
+            "sentence": "He won an award for best student.",
+            "translation": {
+              "Hindi": "उसे सर्वश्रेष्ठ छात्र का पुरस्कार मिला।",
+              "Japanese": "彼は最優秀学生賞を受賞しました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Perfect for Achievements",
+        "explanation": "We use 'have/has + past participle' to talk about achievements. Example: I have completed my degree.",
+        "explanation_translation": {
+          "Hindi": "हम उपलब्धियों के बारे में बात करने के लिए 'have/has + past participle' का उपयोग करते हैं। उदाहरण: I have completed my degree.",
+          "Japanese": "達成について話すとき「have/has + 過去分詞」を使います。例: I have completed my degree."
+        }
+      },
+      {
+        "title": "Past Simple for Specific Achievements",
+        "explanation": "We use past simple to talk about achievements at a specific time. Example: I won the award last year.",
+        "explanation_translation": {
+          "Hindi": "हम किसी विशेष समय पर हुई उपलब्धियों के बारे में बात करने के लिए past simple का उपयोग करते हैं। उदाहरण: I won the award last year.",
+          "Japanese": "特定の時に起こった達成については過去形を使います。例: I won the award last year."
+        }
+      },
+      {
+        "title": "Using 'because of' to give reasons",
+        "explanation": "We use 'because of + noun' to explain reasons for achievements. Example: I succeeded because of my hard work.",
+        "explanation_translation": {
+          "Hindi": "हम उपलब्धियों के कारण बताने के लिए 'because of + noun' का उपयोग करते हैं। उदाहरण: I succeeded because of my hard work.",
+          "Japanese": "達成の理由を説明するとき「because of + 名詞」を使います。例: I succeeded because of my hard work."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'something difficult that you succeed in doing'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'कुछ कठिन जो आप सफलतापूर्वक करते हैं' का अर्थ है?",
+          "Japanese": "「困難だが成し遂げたこと」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "achievement",
+          "award",
+          "goal"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Graduating from college was a big ___.",
+        "question_translation": {
+          "Hindi": "कॉलेज से स्नातक होना एक बड़ी ___ थी।",
+          "Japanese": "大学を卒業することは大きな___でした。"
+        },
+        "options": [
+          "success",
+          "achievement",
+          "effort"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "‘Hard work’ means working with a lot of effort to achieve something.",
+        "question_translation": {
+          "Hindi": "'Hard work' का अर्थ है कुछ हासिल करने के लिए बहुत प्रयास करना।",
+          "Japanese": "「Hard work」とは、何かを達成するために多くの努力をすることです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'a prize given for an achievement'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'किसी उपलब्धि के लिए दिया गया पुरस्कार' का अर्थ है?",
+          "Japanese": "「達成に対して与えられる賞」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "award",
+          "goal",
+          "recognition"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "She received ___ for her hard work.",
+        "question_translation": {
+          "Hindi": "उसे अपनी कड़ी मेहनत के लिए ___ मिली।",
+          "Japanese": "彼女は努力に対して___を受けました。"
+        },
+        "options": [
+          "recognition",
+          "award",
+          "success"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [proud, very, I, was, myself, of]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [proud, very, I, was, myself, of]",
+          "Japanese": "並べ替え: [proud, very, I, was, myself, of]"
+        },
+        "options": [
+          "proud",
+          "very",
+          "I",
+          "was",
+          "myself",
+          "of"
+        ],
+        "answer": [
+          "I",
+          "was",
+          "very",
+          "proud",
+          "of",
+          "myself"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I have ___ my goal of learning English.",
+        "question_translation": {
+          "Hindi": "मैंने अंग्रेजी सीखने का अपना लक्ष्य ___ किया है।",
+          "Japanese": "私は英語を学ぶという目標を___しました。"
+        },
+        "options": [
+          "achieved",
+          "awarded",
+          "received"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "I have win an award.",
+          "I have won an award.",
+          "I have winning an award."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [hard, succeeded, of, work, because, I]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [hard, succeeded, of, work, because, I]",
+          "Japanese": "並べ替え: [hard, succeeded, of, work, because, I]"
+        },
+        "options": [
+          "hard",
+          "succeeded",
+          "of",
+          "work",
+          "because",
+          "I"
+        ],
+        "answer": [
+          "I",
+          "succeeded",
+          "because",
+          "of",
+          "hard",
+          "work"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "She felt ___ when she passed the exam.",
+        "question_translation": {
+          "Hindi": "जब उसने परीक्षा पास की तो वह ___ महसूस कर रही थी।",
+          "Japanese": "彼女は試験に合格したとき___と感じました。"
+        },
+        "options": [
+          "proud",
+          "goal",
+          "recognition"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What achievement is the speaker describing?",
+        "audio_text": "I completed my first marathon last year.",
+        "question_translation": {
+          "Hindi": "वक्ता किस उपलब्धि का वर्णन कर रहा है?",
+          "Japanese": "話者はどんな達成について説明していますか？"
+        },
+        "options": [
+          "Winning a prize",
+          "Completing a marathon",
+          "Graduating"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker is proud of winning an award.",
+        "audio_text": "I was proud when I won the best student award.",
+        "question_translation": {
+          "Hindi": "वक्ता एक पुरस्कार जीतने पर गर्व महसूस कर रहा है।",
+          "Japanese": "話者は最優秀学生賞を受賞したことを誇りに思っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What was the reason for the speaker’s success?",
+        "audio_text": "I succeeded because of my hard work and effort.",
+        "question_translation": {
+          "Hindi": "वक्ता की सफलता का कारण क्या था?",
+          "Japanese": "話者の成功の理由は何でしたか？"
+        },
+        "options": [
+          "Luck",
+          "Hard work",
+          "Recognition"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What goal did the speaker achieve?",
+        "audio_text": "I achieved my goal of learning how to play the guitar.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा लक्ष्य हासिल किया?",
+          "Japanese": "話者はどんな目標を達成しましたか？"
+        },
+        "options": [
+          "Learning guitar",
+          "Winning a medal",
+          "Writing a book"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says she received recognition for her work.",
+        "audio_text": "I received recognition for my project at school.",
+        "question_translation": {
+          "Hindi": "वक्ता कहती है कि उसे अपने काम के लिए मान्यता मिली।",
+          "Japanese": "話者は学校のプロジェクトで認められたと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I achieved my goal.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I achieved my goal.'",
+          "Japanese": "言ってください: 'I achieved my goal.'"
+        },
+        "options": [],
+        "answer": "i achieved my goal"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I am proud of my achievement.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I am proud of my achievement.'",
+          "Japanese": "言ってください: 'I am proud of my achievement.'"
+        },
+        "options": [],
+        "answer": "i am proud of my achievement"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'I won an award for my success.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I won an award for my success.'",
+          "Japanese": "言ってください: 'I won an award for my success.'"
+        },
+        "options": [],
+        "answer": "i won an award for my success"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I succeeded because of my hard work.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I succeeded because of my hard work.'",
+          "Japanese": "言ってください: 'I succeeded because of my hard work.'"
+        },
+        "options": [],
+        "answer": "i succeeded because of my hard work"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'My parents were proud of my success.'",
+        "question_translation": {
+          "Hindi": "कहें: 'My parents were proud of my success.'",
+          "Japanese": "言ってください: 'My parents were proud of my success.'"
+        },
+        "options": [],
+        "answer": "my parents were proud of my success"
+      }
+    ]
+  }
+
 }

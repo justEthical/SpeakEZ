@@ -1,186 +1,571 @@
 {
-  "id": "lesson_evaluating_synthesizing_arguments_c1_001",
-  "lesson_name": "Evaluating and Synthesizing Arguments",
+  "id": "lesson_advanced_passives_c1",
+  "lesson_name": "Advanced Passives (Reporting/Beliefs/It is said…)",
   "purpose": "All",
   "cefrLevel": "C1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "evaluate", "meaning": "to judge or assess the value or quality of something" },
-      { "word": "synthesize", "meaning": "to combine ideas or information to create something new" },
-      { "word": "premise", "meaning": "an idea or statement on which an argument is based" },
-      { "word": "counterargument", "meaning": "an opposing viewpoint or argument" },
-      { "word": "evidence", "meaning": "facts or information that support an idea" },
-      { "word": "bias", "meaning": "a personal preference that can affect judgment" },
-      { "word": "fallacy", "meaning": "a mistaken belief or error in reasoning" },
-      { "word": "rebuttal", "meaning": "a response to counter or disagree with an argument" },
-      { "word": "coherence", "meaning": "logical connection or consistency in ideas" },
-      { "word": "validity", "meaning": "being logically correct or sound" }
+      {
+        "word": "be believed to",
+        "word_translation": {
+          "Hindi": "माना जाता है कि",
+          "Japanese": "〜と信じられている"
+        },
+        "meaning": "Used in passive form to express general beliefs about someone or something",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति या चीज़ के बारे में सामान्य विश्वास व्यक्त करने के लिए निष्क्रिय रूप में प्रयोग किया जाता है",
+          "Japanese": "誰かや何かに関する一般的な信念を表すために受動態で使われる"
+        },
+        "examples": [
+          {
+            "sentence": "She is believed to be the most talented artist of her generation.",
+            "translation": {
+              "Hindi": "उसे अपनी पीढ़ी की सबसे प्रतिभाशाली कलाकार माना जाता है।",
+              "Japanese": "彼女は同世代で最も才能のある芸術家だと信じられている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be reported to",
+        "word_translation": {
+          "Hindi": "रिपोर्ट किया जाता है कि",
+          "Japanese": "〜と報告されている"
+        },
+        "meaning": "Passive structure used when information comes from news or official sources",
+        "meaning_translation": {
+          "Hindi": "जब जानकारी समाचार या आधिकारिक स्रोतों से आती है तो निष्क्रिय संरचना का उपयोग किया जाता है",
+          "Japanese": "情報がニュースや公式の情報源から来ているときに使う受動態の構造"
+        },
+        "examples": [
+          {
+            "sentence": "The company is reported to have made record profits this year.",
+            "translation": {
+              "Hindi": "कंपनी ने इस वर्ष रिकॉर्ड मुनाफा कमाया है, ऐसा रिपोर्ट किया गया है।",
+              "Japanese": "その会社は今年過去最高の利益を出したと報告されている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be said to",
+        "word_translation": {
+          "Hindi": "कहा जाता है कि",
+          "Japanese": "〜と言われている"
+        },
+        "meaning": "Used to show what people say or think, without naming who says it",
+        "meaning_translation": {
+          "Hindi": "लोग क्या कहते या सोचते हैं यह दिखाने के लिए प्रयोग किया जाता है, बिना यह बताए कि किसने कहा",
+          "Japanese": "誰が言ったのかを示さずに人々が言うことや考えを表す"
+        },
+        "examples": [
+          {
+            "sentence": "The book is said to be the best of its kind.",
+            "translation": {
+              "Hindi": "कहा जाता है कि यह किताब अपनी तरह की सबसे अच्छी है।",
+              "Japanese": "その本は同類の中で最も優れていると言われている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rumored",
+        "word_translation": {
+          "Hindi": "अफवाह है कि",
+          "Japanese": "噂されている"
+        },
+        "meaning": "Information that people say, often without confirmation",
+        "meaning_translation": {
+          "Hindi": "जानकारी जो लोग कहते हैं, अक्सर बिना पुष्टि के",
+          "Japanese": "人々が言う情報で、しばしば確認されていないもの"
+        },
+        "examples": [
+          {
+            "sentence": "He is rumored to be moving abroad next year.",
+            "translation": {
+              "Hindi": "अफवाह है कि वह अगले साल विदेश जा रहा है।",
+              "Japanese": "彼は来年海外に移住すると噂されている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be considered to",
+        "word_translation": {
+          "Hindi": "माना जाता है कि",
+          "Japanese": "〜と見なされている"
+        },
+        "meaning": "Used to express how people in general regard someone or something",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति या चीज़ को सामान्य रूप से लोग कैसे मानते हैं यह व्यक्त करने के लिए प्रयोग किया जाता है",
+          "Japanese": "誰かや何かを人々が一般的にどのように見なしているかを表す"
+        },
+        "examples": [
+          {
+            "sentence": "The painting is considered to be a masterpiece.",
+            "translation": {
+              "Hindi": "इस पेंटिंग को एक उत्कृष्ट कृति माना जाता है।",
+              "Japanese": "その絵画は傑作と見なされている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be thought to",
+        "word_translation": {
+          "Hindi": "सोचा जाता है कि",
+          "Japanese": "〜と思われている"
+        },
+        "meaning": "Shows a commonly held belief or assumption",
+        "meaning_translation": {
+          "Hindi": "एक आम धारणा या विश्वास को दर्शाता है",
+          "Japanese": "一般的に持たれている信念や推測を示す"
+        },
+        "examples": [
+          {
+            "sentence": "The site is thought to date back to the 12th century.",
+            "translation": {
+              "Hindi": "यह स्थल 12वीं सदी का माना जाता है।",
+              "Japanese": "その遺跡は12世紀にさかのぼると思われている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be alleged to",
+        "word_translation": {
+          "Hindi": "आरोप है कि",
+          "Japanese": "〜とされている"
+        },
+        "meaning": "Used for claims, often in legal or formal contexts, without proof",
+        "meaning_translation": {
+          "Hindi": "दावों के लिए प्रयोग किया जाता है, अक्सर कानूनी या औपचारिक संदर्भों में, बिना सबूत के",
+          "Japanese": "証拠なしでの主張に使われ、法的または正式な文脈でよく用いられる"
+        },
+        "examples": [
+          {
+            "sentence": "The politician is alleged to have accepted bribes.",
+            "translation": {
+              "Hindi": "राजनेता पर रिश्वत लेने का आरोप है।",
+              "Japanese": "その政治家は賄賂を受け取ったとされている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be expected to",
+        "word_translation": {
+          "Hindi": "उम्मीद है कि",
+          "Japanese": "〜と予想されている"
+        },
+        "meaning": "Used to indicate what is likely to happen",
+        "meaning_translation": {
+          "Hindi": "क्या होने की संभावना है यह दर्शाने के लिए प्रयोग किया जाता है",
+          "Japanese": "何が起こりそうかを示すために使われる"
+        },
+        "examples": [
+          {
+            "sentence": "The new law is expected to reduce carbon emissions.",
+            "translation": {
+              "Hindi": "नई कानून से कार्बन उत्सर्जन कम होने की उम्मीद है।",
+              "Japanese": "新しい法律は二酸化炭素排出量を減らすと予想されている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "impersonal passive (It is said…)",
+        "word_translation": {
+          "Hindi": "निर्जीव निष्क्रिय (कहा जाता है कि…)",
+          "Japanese": "非人称受動態（〜と言われている）"
+        },
+        "meaning": "Passive sentences starting with 'It is said/reported/thought' to avoid mentioning the subject",
+        "meaning_translation": {
+          "Hindi": "'It is said/reported/thought' से शुरू होने वाले निष्क्रिय वाक्य विषय का उल्लेख करने से बचने के लिए प्रयोग किए जाते हैं",
+          "Japanese": "主語を避けるために「It is said/reported/thought」で始まる受動態文"
+        },
+        "examples": [
+          {
+            "sentence": "It is said that the city is haunted.",
+            "translation": {
+              "Hindi": "कहा जाता है कि यह शहर प्रेतबाधित है।",
+              "Japanese": "その街は幽霊が出ると言われている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "be known to",
+        "word_translation": {
+          "Hindi": "जाना जाता है कि",
+          "Japanese": "〜で知られている"
+        },
+        "meaning": "Used to indicate widely recognized facts about a person or thing",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति या चीज़ के बारे में व्यापक रूप से ज्ञात तथ्यों को दर्शाने के लिए प्रयोग किया जाता है",
+          "Japanese": "人や物について広く知られている事実を示すために使われる"
+        },
+        "examples": [
+          {
+            "sentence": "The scientist is known to have discovered a new element.",
+            "translation": {
+              "Hindi": "यह वैज्ञानिक एक नए तत्व की खोज करने के लिए जाना जाता है।",
+              "Japanese": "その科学者は新しい元素を発見したことで知られている。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using Formal Connectors",
-        "explanation": "Use connectors like 'however', 'nevertheless', 'furthermore', and 'therefore' to link arguments. Example: The study is recent; however, its sample size is limited."
+        "title": "Reporting with Passive Infinitives",
+        "explanation": "Use structures like 'is said to', 'is believed to', 'is thought to' when reporting without naming the subject. Example: She is said to be very talented.",
+        "explanation_translation": {
+          "Hindi": "'is said to', 'is believed to', 'is thought to' जैसी संरचनाओं का उपयोग तब करें जब विषय का नाम न लेना हो। उदाहरण: She is said to be very talented.",
+          "Japanese": "主語を明示しないで報告するときは「is said to」「is believed to」「is thought to」などを使う。例：She is said to be very talented."
+        }
       },
       {
-        "title": "Passive Voice for Objectivity",
-        "explanation": "Passive voice helps keep arguments neutral. Example: The evidence was analyzed by the team."
+        "title": "Impersonal Passives",
+        "explanation": "Start with 'It is said/reported/thought' to make the statement neutral. Example: It is reported that the economy is improving.",
+        "explanation_translation": {
+          "Hindi": "'It is said/reported/thought' से शुरू करें ताकि कथन तटस्थ बने। उदाहरण: It is reported that the economy is improving.",
+          "Japanese": "「It is said/reported/thought」で始めると文は中立的になる。例：It is reported that the economy is improving."
+        }
+      },
+      {
+        "title": "Allegations and Formal Registers",
+        "explanation": "In legal or formal contexts, use 'is alleged to' or 'is rumored to'. Example: The minister is alleged to have misused funds.",
+        "explanation_translation": {
+          "Hindi": "कानूनी या औपचारिक संदर्भों में 'is alleged to' या 'is rumored to' का उपयोग करें। उदाहरण: The minister is alleged to have misused funds.",
+          "Japanese": "法的または正式な文脈では「is alleged to」や「is rumored to」を使う。例：The minister is alleged to have misused funds."
+        }
+      },
+      {
+        "title": "Using Different Passive Verbs",
+        "explanation": "Choose verbs like 'is expected to', 'is considered to', 'is known to' to convey nuance in reporting. Example: The policy is expected to reduce unemployment.",
+        "explanation_translation": {
+          "Hindi": "रिपोर्टिंग में बारीकी लाने के लिए 'is expected to', 'is considered to', 'is known to' जैसे क्रियाओं का उपयोग करें। उदाहरण: The policy is expected to reduce unemployment.",
+          "Japanese": "報告でニュアンスを表すために「is expected to」「is considered to」「is known to」などを使う。例：The policy is expected to reduce unemployment."
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "It is important to evaluate the credibility of each source.", "translation": "" },
-      { "sentence": "Her argument was strong because it included relevant evidence.", "translation": "" },
-      { "sentence": "A good essay synthesizes ideas from multiple texts.", "translation": "" },
-      { "sentence": "The author provided a convincing rebuttal to the counterargument.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "Which word means 'to combine ideas to create something new'?",
-        "options": ["evaluate", "synthesize", "rebuttal"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which structure is used to express a commonly held belief without naming the source?",
+      "question_translation": {
+        "Hindi": "कौन सी संरचना का उपयोग आम धारणा को बिना स्रोत का नाम लिए व्यक्त करने के लिए किया जाता है?",
+        "Japanese": "出典を示さずに一般的な信念を表すために使われる構造はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "A ___ is an opposing viewpoint or argument.",
-        "options": ["counterargument", "premise", "bias"],
-        "answer": 0
+      "options": [
+        "She believes that...",
+        "It is said that...",
+        "They told me that..."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The new product ___ to improve energy efficiency.",
+      "question_translation": {
+        "Hindi": "नई उत्पाद से ऊर्जा दक्षता बढ़ाने की ___ है।",
+        "Japanese": "新製品はエネルギー効率を改善すると___。"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word refers to 'facts or information that support an idea'?",
-        "options": ["fallacy", "evidence", "coherence"],
-        "answer": 1
+      "options": [
+        "is expected",
+        "expects",
+        "expect"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘He is alleged to have cheated’ means there is confirmed evidence of cheating.",
+      "question_translation": {
+        "Hindi": "'He is alleged to have cheated' का अर्थ है कि धोखाधड़ी के प्रमाण की पुष्टि हो गई है।",
+        "Japanese": "「He is alleged to have cheated」は不正の証拠が確認されたという意味です。"
       },
-      {
-        "id": "vocab4",
-        "type": "trueFalse",
-        "question": "'Validity' means being logically correct or sound.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase means 'people generally believe this'?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश 'लोग सामान्य रूप से यह मानते हैं' का अर्थ रखता है?",
+        "Japanese": "「人々が一般的にそう信じている」という意味のフレーズはどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What is a 'premise'?",
-        "options": ["A mistaken belief", "A supporting fact", "An idea an argument is based on"],
-        "answer": 2
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "It is important to ___ the credibility of each source.",
-        "options": ["rebuttal", "evaluate", "bias"],
-        "answer": 1
+      "options": [
+        "is thought to",
+        "is proven to",
+        "is ordered to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The policy ___ to reduce unemployment.",
+      "question_translation": {
+        "Hindi": "नीति से बेरोजगारी कम होने की ___ है।",
+        "Japanese": "その政策は失業率を減らすと___。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "A good essay ___ ideas from multiple texts.",
-        "options": ["synthesizes", "rebuttal", "fallacy"],
-        "answer": 0
+      "options": [
+        "is expected",
+        "is ignored",
+        "is denied"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [is, she, said, talented, to, be]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [is, she, said, talented, to, be]",
+        "Japanese": "並べ替え: [is, she, said, talented, to, be]"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [a, argument, provided, to, the, the, author, counterargument, rebuttal, convincing]",
-        "options": ["a", "argument", "provided", "to", "the", "the", "author", "counterargument", "rebuttal", "convincing"],
-        "answer": ["The", "author", "provided", "a", "convincing", "rebuttal", "to", "the", "counterargument"]
+      "options": [
+        "is",
+        "she",
+        "said",
+        "talented",
+        "to",
+        "be"
+      ],
+      "answer": [
+        "she",
+        "is",
+        "said",
+        "to",
+        "be",
+        "talented"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "It ___ that the company is launching a new project.",
+      "question_translation": {
+        "Hindi": "___ कि कंपनी एक नया प्रोजेक्ट शुरू कर रही है।",
+        "Japanese": "会社が新しいプロジェクトを開始すると___。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "Her argument was strong because it included relevant ___.",
-        "options": ["coherence", "evidence", "fallacy"],
-        "answer": 1
+      "options": [
+        "is said",
+        "say",
+        "saying"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses the passive reporting correctly?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य निष्क्रिय रिपोर्टिंग को सही तरीके से उपयोग करता है?",
+        "Japanese": "どの文が受動態の報告を正しく使っていますか？"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [logical, has, argument, coherence, the]",
-        "options": ["logical", "has", "argument", "coherence", "the"],
-        "answer": ["The", "argument", "has", "logical", "coherence"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "What is essential when judging the value of a source? (Audio: 'It is important to evaluate the credibility of each source.')",
-        "options": ["Premise", "Bias", "Evaluate"],
-        "answer": 2
+      "options": [
+        "She said to be talented.",
+        "She is said to be talented.",
+        "It said she is talented."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "fillInTheBlanks",
+      "question": "The minister is ___ to have resigned yesterday.",
+      "question_translation": {
+        "Hindi": "मंत्री ने कल इस्तीफा दिया है ऐसा ___ है।",
+        "Japanese": "大臣が昨日辞任したと___。"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "Why was her argument strong? (Audio: 'Her argument was strong because it included relevant evidence.')",
-        "options": ["It was long", "It included evidence", "It had a fallacy"],
-        "answer": 1
+      "options": [
+        "reported",
+        "reporting",
+        "report"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [expected, the, is, law, reduce, to, emissions]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [expected, the, is, law, reduce, to, emissions]",
+        "Japanese": "並べ替え: [expected, the, is, law, reduce, to, emissions]"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "What does a good essay do? (Audio: 'A good essay synthesizes ideas from multiple texts.')",
-        "options": ["Provides a rebuttal", "Synthesizes ideas", "States a fallacy"],
-        "answer": 1
+      "options": [
+        "expected",
+        "the",
+        "is",
+        "law",
+        "reduce",
+        "to",
+        "emissions"
+      ],
+      "answer": [
+        "the",
+        "law",
+        "is",
+        "expected",
+        "to",
+        "reduce",
+        "emissions"
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is reported about the company?",
+      "audio_text": "The company is reported to have expanded into Asia.",
+      "question_translation": {
+        "Hindi": "कंपनी के बारे में क्या रिपोर्ट किया गया है?",
+        "Japanese": "その会社について何が報告されていますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "What did the author provide to the counterargument? (Audio: 'The author provided a convincing rebuttal to the counterargument.')",
-        "options": ["Rebuttal", "Evidence", "Premise"],
-        "answer": 0
+      "options": [
+        "It closed offices.",
+        "It expanded into Asia.",
+        "It lost profits."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says: 'It is said that the city is haunted.' This is an impersonal passive.",
+      "audio_text": "It is said that the city is haunted.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'It is said that the city is haunted.' यह एक निर्जीव निष्क्रिय है।",
+        "Japanese": "話者は「It is said that the city is haunted.」と言います。これは非人称受動態です。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "Which word refers to a mistake in reasoning?",
-        "options": ["Premise", "Fallacy", "Validity"],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'It is important to evaluate the credibility of each source.'",
-        "options": [],
-        "answer": "It is important to evaluate the credibility of each source."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What belief is expressed about the scientist?",
+      "audio_text": "The scientist is believed to have found a cure.",
+      "question_translation": {
+        "Hindi": "वैज्ञानिक के बारे में कौन सा विश्वास व्यक्त किया गया है?",
+        "Japanese": "その科学者についてどのような信念が表されていますか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'Her argument was strong because it included relevant evidence.'",
-        "options": [],
-        "answer": "Her argument was strong because it included relevant evidence."
+      "options": [
+        "He is believed to have found a cure.",
+        "He has officially found a cure.",
+        "It is proven he found a cure."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The speaker says: 'The new law is ___ to reduce pollution.'",
+      "audio_text": "The new law is expected to reduce pollution.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'नई कानून प्रदूषण कम करने के लिए ___ है।'",
+        "Japanese": "話者は「新しい法律は汚染を減らすと___。」と言っています。"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'A good essay synthesizes ideas from multiple texts.'",
-        "options": [],
-        "answer": "A good essay synthesizes ideas from multiple texts."
+      "options": [
+        "expected",
+        "denied",
+        "ignored"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What rumor does the speaker mention?",
+      "audio_text": "He is rumored to be moving abroad.",
+      "question_translation": {
+        "Hindi": "वक्ता किस अफवाह का उल्लेख करता है?",
+        "Japanese": "話者はどんな噂について述べていますか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'The author provided a convincing rebuttal to the counterargument.'",
-        "options": [],
-        "answer": "The author provided a convincing rebuttal to the counterargument."
+      "options": [
+        "He is rumored to be moving abroad.",
+        "He has moved abroad.",
+        "He will not move abroad."
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'It is said that this city is very old.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It is said that this city is very old.'",
+        "Japanese": "言ってください: 'It is said that this city is very old.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'The argument has logical coherence.'",
-        "options": [],
-        "answer": "The argument has logical coherence."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "it is said that this city is very old"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'She is believed to be the best doctor in town.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She is believed to be the best doctor in town.'",
+        "Japanese": "言ってください: 'She is believed to be the best doctor in town.'"
+      },
+      "options": [],
+      "answer": "she is believed to be the best doctor in town"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The new policy is expected to reduce costs.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The new policy is expected to reduce costs.'",
+        "Japanese": "言ってください: 'The new policy is expected to reduce costs.'"
+      },
+      "options": [],
+      "answer": "the new policy is expected to reduce costs"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The minister is alleged to have resigned.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The minister is alleged to have resigned.'",
+        "Japanese": "言ってください: 'The minister is alleged to have resigned.'"
+      },
+      "options": [],
+      "answer": "the minister is alleged to have resigned"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'It is reported that the company is growing fast.'",
+      "question_translation": {
+        "Hindi": "कहें: 'It is reported that the company is growing fast.'",
+        "Japanese": "言ってください: 'It is reported that the company is growing fast.'"
+      },
+      "options": [],
+      "answer": "it is reported that the company is growing fast"
+    }
+  ]
+}
+
+
 }

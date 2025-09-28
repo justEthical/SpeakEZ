@@ -1,4 +1,551 @@
 {
-  "id": 31,
-  "message": "This is file number 31"
+  "id": "lesson_data_talk_001",
+  "lesson_name": "Data Talk: Describing Graphs & Trends",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "trend",
+        "word_translation": {
+          "Hindi": "प्रवृत्ति",
+          "Japanese": "傾向"
+        },
+        "meaning": "A general direction in which something is developing or changing",
+        "meaning_translation": {
+          "Hindi": "सामान्य दिशा जिसमें कुछ विकसित या बदल रहा हो",
+          "Japanese": "何かが発展または変化している全体的な方向"
+        },
+        "examples": [
+          {
+            "sentence": "The graph shows an upward trend in sales.",
+            "translation": {
+              "Hindi": "ग्राफ बिक्री में एक ऊपर की ओर प्रवृत्ति दिखाता है।",
+              "Japanese": "グラフは売上の上昇傾向を示しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "increase",
+        "word_translation": {
+          "Hindi": "वृद्धि",
+          "Japanese": "増加"
+        },
+        "meaning": "A rise in amount, number, or level",
+        "meaning_translation": {
+          "Hindi": "मात्रा, संख्या या स्तर में वृद्धि",
+          "Japanese": "数量、数、または水準の上昇"
+        },
+        "examples": [
+          {
+            "sentence": "There was a sharp increase in profits last year.",
+            "translation": {
+              "Hindi": "पिछले वर्ष लाभ में तेज वृद्धि हुई।",
+              "Japanese": "昨年は利益が急増しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "decrease",
+        "word_translation": {
+          "Hindi": "कमी",
+          "Japanese": "減少"
+        },
+        "meaning": "A reduction in amount, number, or level",
+        "meaning_translation": {
+          "Hindi": "मात्रा, संख्या या स्तर में कमी",
+          "Japanese": "数量、数、または水準の減少"
+        },
+        "examples": [
+          {
+            "sentence": "The chart indicates a steady decrease in demand.",
+            "translation": {
+              "Hindi": "चार्ट मांग में लगातार कमी दिखाता है।",
+              "Japanese": "図は需要の安定した減少を示しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fluctuate",
+        "word_translation": {
+          "Hindi": "उतार-चढ़ाव करना",
+          "Japanese": "変動する"
+        },
+        "meaning": "To change frequently between levels or values",
+        "meaning_translation": {
+          "Hindi": "स्तरों या मूल्यों के बीच बार-बार बदलना",
+          "Japanese": "水準や値の間で頻繁に変動すること"
+        },
+        "examples": [
+          {
+            "sentence": "Prices fluctuate depending on the season.",
+            "translation": {
+              "Hindi": "मूल्य मौसम के अनुसार उतार-चढ़ाव करते हैं।",
+              "Japanese": "価格は季節によって変動します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "peak",
+        "word_translation": {
+          "Hindi": "शिखर",
+          "Japanese": "頂点"
+        },
+        "meaning": "The highest point of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का सबसे ऊँचा बिंदु",
+          "Japanese": "何かの最高点"
+        },
+        "examples": [
+          {
+            "sentence": "Sales peaked in December.",
+            "translation": {
+              "Hindi": "दिसंबर में बिक्री अपने शिखर पर थी।",
+              "Japanese": "12月に売上がピークに達しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plateau",
+        "word_translation": {
+          "Hindi": "स्थिराव",
+          "Japanese": "横ばい"
+        },
+        "meaning": "A period when something does not increase or decrease",
+        "meaning_translation": {
+          "Hindi": "एक अवधि जब कुछ न बढ़ता है न घटता है",
+          "Japanese": "増加も減少もしていない期間"
+        },
+        "examples": [
+          {
+            "sentence": "After rapid growth, the market plateaued.",
+            "translation": {
+              "Hindi": "तेजी से वृद्धि के बाद, बाजार स्थिर हो गया।",
+              "Japanese": "急成長の後、市場は横ばいになりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "decline",
+        "word_translation": {
+          "Hindi": "गिरावट",
+          "Japanese": "低下"
+        },
+        "meaning": "A gradual loss or reduction",
+        "meaning_translation": {
+          "Hindi": "धीरे-धीरे ह्रास या कमी",
+          "Japanese": "徐々に減少すること"
+        },
+        "examples": [
+          {
+            "sentence": "There was a decline in productivity last quarter.",
+            "translation": {
+              "Hindi": "पिछली तिमाही में उत्पादकता में गिरावट आई।",
+              "Japanese": "前四半期には生産性の低下が見られました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sharp",
+        "word_translation": {
+          "Hindi": "तेज़",
+          "Japanese": "急激な"
+        },
+        "meaning": "Happening suddenly or intensely",
+        "meaning_translation": {
+          "Hindi": "अचानक या तीव्र रूप से घटित होना",
+          "Japanese": "突然または急激に起こること"
+        },
+        "examples": [
+          {
+            "sentence": "There was a sharp rise in internet users in 2020.",
+            "translation": {
+              "Hindi": "2020 में इंटरनेट उपयोगकर्ताओं में तेज वृद्धि हुई।",
+              "Japanese": "2020年にはインターネット利用者が急増しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "gradual",
+        "word_translation": {
+          "Hindi": "क्रमिक",
+          "Japanese": "徐々に"
+        },
+        "meaning": "Happening slowly over time",
+        "meaning_translation": {
+          "Hindi": "समय के साथ धीरे-धीरे होना",
+          "Japanese": "時間をかけてゆっくり起こること"
+        },
+        "examples": [
+          {
+            "sentence": "The company showed gradual growth over five years.",
+            "translation": {
+              "Hindi": "कंपनी ने पांच वर्षों में क्रमिक वृद्धि दिखाई।",
+              "Japanese": "その会社は5年間で徐々に成長を示しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "significant",
+        "word_translation": {
+          "Hindi": "महत्वपूर्ण",
+          "Japanese": "顕著な"
+        },
+        "meaning": "Large enough to be important or noticeable",
+        "meaning_translation": {
+          "Hindi": "इतना बड़ा कि महत्वपूर्ण या ध्यान देने योग्य हो",
+          "Japanese": "重要または目立つほど大きい"
+        },
+        "examples": [
+          {
+            "sentence": "There was a significant drop in attendance.",
+            "translation": {
+              "Hindi": "उपस्थिति में एक महत्वपूर्ण गिरावट आई।",
+              "Japanese": "出席率に顕著な低下が見られました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Comparative Forms",
+        "explanation": "Use comparative adjectives to describe changes: 'higher than', 'lower than'. Example: 'Profits were higher than last year.'",
+        "explanation_translation": {
+          "Hindi": "परिवर्तनों का वर्णन करने के लिए तुलनात्मक विशेषणों का उपयोग करें: 'higher than', 'lower than'। उदाहरण: 'Profits were higher than last year.'",
+          "Japanese": "変化を説明するために比較級を使います: 'higher than', 'lower than'。例: 'Profits were higher than last year.'"
+        }
+      },
+      {
+        "title": "Describing Trends with Adverbs",
+        "explanation": "Use adverbs like 'sharply', 'steadily', 'gradually' to describe how something changes. Example: 'The number of users increased steadily.'",
+        "explanation_translation": {
+          "Hindi": "यह बताने के लिए क्रिया विशेषणों का उपयोग करें कि कुछ कैसे बदलता है: 'sharply', 'steadily', 'gradually'। उदाहरण: 'The number of users increased steadily.'",
+          "Japanese": "変化の仕方を説明するために副詞を使います: 'sharply', 'steadily', 'gradually'。例: 'The number of users increased steadily.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'the highest point of something'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'किसी चीज़ का सबसे ऊँचा बिंदु' का अर्थ देता है?",
+        "Japanese": "「何かの最高点」を意味する単語はどれですか？"
+      },
+      "options": [
+        "decline",
+        "plateau",
+        "peak"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The graph shows a steady ___ in population over 10 years.",
+      "question_translation": {
+        "Hindi": "ग्राफ 10 वर्षों में जनसंख्या में लगातार ___ दिखाता है।",
+        "Japanese": "グラフは10年間で人口の安定した___を示しています。"
+      },
+      "options": [
+        "increase",
+        "fluctuation",
+        "decline"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Fluctuate’ means to remain constant without any changes.",
+      "question_translation": {
+        "Hindi": "'Fluctuate' का अर्थ है बिना किसी परिवर्तन के स्थिर रहना।",
+        "Japanese": "「Fluctuate」とは、変化せずに一定のままでいることを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word describes 'a period of no increase or decrease'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'न तो वृद्धि और न ही कमी की अवधि' का वर्णन करता है?",
+        "Japanese": "「増加も減少もしていない期間」を表す単語はどれですか？"
+      },
+      "options": [
+        "plateau",
+        "sharp",
+        "significant"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "There was a ___ decline in attendance last month.",
+      "question_translation": {
+        "Hindi": "पिछले महीने उपस्थिति में ___ गिरावट आई।",
+        "Japanese": "先月、出席率に___低下が見られました。"
+      },
+      "options": [
+        "gradual",
+        "fluctuating",
+        "plateau"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [increased, steadily, number, the, users, of]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [increased, steadily, number, the, users, of]",
+        "Japanese": "並べ替え: [increased, steadily, number, the, users, of]"
+      },
+      "options": [
+        "increased",
+        "steadily",
+        "number",
+        "the",
+        "users",
+        "of"
+      ],
+      "answer": [
+        "the",
+        "number",
+        "of",
+        "users",
+        "increased",
+        "steadily"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The company’s profits ___ sharply in 2020.",
+      "question_translation": {
+        "Hindi": "कंपनी का लाभ 2020 में ___ बढ़ गया।",
+        "Japanese": "会社の利益は2020年に急激に___しました。"
+      },
+      "options": [
+        "rose",
+        "fall",
+        "plateau"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "The sales was significant increased.",
+        "Sales increased significantly last year.",
+        "Sales significant increased last year."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [declined, attendance, steadily, years, three, over]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [declined, attendance, steadily, years, three, over]",
+        "Japanese": "並べ替え: [declined, attendance, steadily, years, three, over]"
+      },
+      "options": [
+        "declined",
+        "attendance",
+        "steadily",
+        "years",
+        "three",
+        "over"
+      ],
+      "answer": [
+        "attendance",
+        "declined",
+        "steadily",
+        "over",
+        "three",
+        "years"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "After months of growth, sales finally ___ and remained stable.",
+      "question_translation": {
+        "Hindi": "कई महीनों की वृद्धि के बाद, बिक्री अंततः ___ और स्थिर हो गई।",
+        "Japanese": "数か月の成長の後、売上は最終的に___し、安定しました。"
+      },
+      "options": [
+        "plateaued",
+        "declined",
+        "fluctuated"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker describe?",
+      "audio_text": "The chart shows a sharp increase in online purchases during the holiday season.",
+      "question_translation": {
+        "Hindi": "वक्ता किस चीज़ का वर्णन कर रहा है?",
+        "Japanese": "話者は何を説明していますか？"
+      },
+      "options": [
+        "A sharp increase in online purchases",
+        "A steady decline in online purchases",
+        "A plateau in online purchases"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker mentions a gradual rise in temperature.",
+      "audio_text": "Over the decade, there was a gradual rise in global temperatures.",
+      "question_translation": {
+        "Hindi": "वक्ता ने तापमान में क्रमिक वृद्धि का उल्लेख किया।",
+        "Japanese": "話者は気温の徐々な上昇について言及しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What happened to the population?",
+      "audio_text": "The population peaked in 2015 and then began to decline.",
+      "question_translation": {
+        "Hindi": "जनसंख्या के साथ क्या हुआ?",
+        "Japanese": "人口に何が起こりましたか？"
+      },
+      "options": [
+        "It peaked and then declined",
+        "It plateaued",
+        "It fluctuated steadily"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "How did prices behave?",
+      "audio_text": "The prices fluctuated throughout the year due to changing demand.",
+      "question_translation": {
+        "Hindi": "मूल्य कैसे व्यवहार कर रहे थे?",
+        "Japanese": "価格はどのように推移しましたか？"
+      },
+      "options": [
+        "They fluctuated",
+        "They plateaued",
+        "They declined"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The outcome was a significant decline in student enrollment.",
+      "audio_text": "The university experienced a significant decline in student enrollment.",
+      "question_translation": {
+        "Hindi": "परिणाम छात्रों के नामांकन में एक महत्वपूर्ण गिरावट था।",
+        "Japanese": "結果として学生の入学者数に顕著な減少が見られました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'The graph shows a steady increase over time.'",
+      "question_translation": {
+        "Hindi": "कहें: 'ग्राफ समय के साथ स्थिर वृद्धि दिखाता है।'",
+        "Japanese": "言ってください: 'The graph shows a steady increase over time.'"
+      },
+      "options": [],
+      "answer": "the graph shows a steady increase over time"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'There was a sharp decline in sales last month.'",
+      "question_translation": {
+        "Hindi": "कहें: 'पिछले महीने बिक्री में तेज गिरावट आई।'",
+        "Japanese": "言ってください: 'There was a sharp decline in sales last month.'"
+      },
+      "options": [],
+      "answer": "there was a sharp decline in sales last month"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The data indicates a gradual rise in demand.'",
+      "question_translation": {
+        "Hindi": "कहें: 'डेटा मांग में क्रमिक वृद्धि दिखाता है।'",
+        "Japanese": "言ってください: 'The data indicates a gradual rise in demand.'"
+      },
+      "options": [],
+      "answer": "the data indicates a gradual rise in demand"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Sales peaked in December and then fell.'",
+      "question_translation": {
+        "Hindi": "कहें: 'दिसंबर में बिक्री अपने शिखर पर थी और फिर गिर गई।'",
+        "Japanese": "言ってください: 'Sales peaked in December and then fell.'"
+      },
+      "options": [],
+      "answer": "sales peaked in december and then fell"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'After months of growth, the numbers plateaued.'",
+      "question_translation": {
+        "Hindi": "कहें: 'कई महीनों की वृद्धि के बाद, आंकड़े स्थिर हो गए।'",
+        "Japanese": "言ってください: 'After months of growth, the numbers plateaued.'"
+      },
+      "options": [],
+      "answer": "after months of growth the numbers plateaued"
+    }
+  ]
+}
+
 }

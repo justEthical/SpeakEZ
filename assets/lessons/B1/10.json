@@ -1,206 +1,459 @@
 {
-  "id": "b1_relationships_friendship_01",
+  "id": "lesson_relationships_friendship_b1",
   "lesson_name": "Talking About Relationships & Friendship",
   "purpose": "All",
   "cefrLevel": "B1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "friendship", "meaning": "the relationship between friends" },
-      { "word": "trust", "meaning": "to believe that someone is honest" },
-      { "word": "support", "meaning": "to help someone" },
-      { "word": "argue", "meaning": "to disagree or fight with words" },
-      { "word": "get along", "meaning": "to have a good relationship" },
-      { "word": "close", "meaning": "having a strong relationship" },
-      { "word": "acquaintance", "meaning": "a person you know, but not well" },
-      { "word": "share", "meaning": "to give something to others" },
-      { "word": "advice", "meaning": "ideas or suggestions about what someone should do" },
-      { "word": "loyal", "meaning": "always supporting your friend or partner" }
+      {
+        "word": "Friendship",
+        "word_translation": {
+          "Hindi": "दोस्ती",
+          "Japanese": "友情"
+        },
+        "meaning": "A close and trusting relationship between people",
+        "meaning_translation": {
+          "Hindi": "लोगों के बीच घनिष्ठ और भरोसेमंद संबंध",
+          "Japanese": "人々の間の親しい信頼関係"
+        },
+        "examples": [
+          {
+            "sentence": "Their friendship has lasted for many years.",
+            "translation": {
+              "Hindi": "उनकी दोस्ती कई सालों तक चली है।",
+              "Japanese": "彼らの友情は何年も続いています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Trust",
+        "word_translation": {
+          "Hindi": "विश्वास",
+          "Japanese": "信頼"
+        },
+        "meaning": "Believing someone is honest and reliable",
+        "meaning_translation": {
+          "Hindi": "यह मानना कि कोई ईमानदार और भरोसेमंद है",
+          "Japanese": "相手が正直で頼れると信じること"
+        },
+        "examples": [
+          {
+            "sentence": "Trust is important in every relationship.",
+            "translation": {
+              "Hindi": "हर रिश्ते में विश्वास महत्वपूर्ण होता है।",
+              "Japanese": "信頼はどんな関係にも大切です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Support",
+        "word_translation": {
+          "Hindi": "सहयोग / समर्थन",
+          "Japanese": "支援"
+        },
+        "meaning": "Helping someone in good or bad times",
+        "meaning_translation": {
+          "Hindi": "किसी की अच्छे या बुरे समय में मदद करना",
+          "Japanese": "良い時も悪い時も相手を助けること"
+        },
+        "examples": [
+          {
+            "sentence": "Good friends always support each other.",
+            "translation": {
+              "Hindi": "अच्छे दोस्त हमेशा एक-दूसरे का सहयोग करते हैं।",
+              "Japanese": "親友はいつもお互いを支えます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Argument",
+        "word_translation": {
+          "Hindi": "बहस / झगड़ा",
+          "Japanese": "口論"
+        },
+        "meaning": "A disagreement or fight with words",
+        "meaning_translation": {
+          "Hindi": "शब्दों के साथ असहमति या झगड़ा",
+          "Japanese": "言葉による意見の対立や口喧嘩"
+        },
+        "examples": [
+          {
+            "sentence": "They had an argument but became friends again.",
+            "translation": {
+              "Hindi": "उनकी बहस हुई लेकिन वे फिर से दोस्त बन गए।",
+              "Japanese": "彼らは口論したが、また友達に戻りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Respect",
+        "word_translation": {
+          "Hindi": "सम्मान",
+          "Japanese": "尊敬"
+        },
+        "meaning": "Feeling or showing admiration for someone",
+        "meaning_translation": {
+          "Hindi": "किसी के लिए प्रशंसा और आदर महसूस करना",
+          "Japanese": "誰かに対して敬意を持ち示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Respect is the base of a healthy relationship.",
+            "translation": {
+              "Hindi": "सम्मान एक स्वस्थ संबंध का आधार है।",
+              "Japanese": "尊敬は健全な関係の基盤です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Close friend",
+        "word_translation": {
+          "Hindi": "घनिष्ठ मित्र",
+          "Japanese": "親しい友達"
+        },
+        "meaning": "A very good and trusted friend",
+        "meaning_translation": {
+          "Hindi": "एक बहुत अच्छा और भरोसेमंद मित्र",
+          "Japanese": "とても良く信頼できる友達"
+        },
+        "examples": [
+          {
+            "sentence": "She is my closest friend since childhood.",
+            "translation": {
+              "Hindi": "वह बचपन से मेरी सबसे करीबी दोस्त है।",
+              "Japanese": "彼女は子供のころからの親友です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Stay in touch",
+        "word_translation": {
+          "Hindi": "संपर्क में रहना",
+          "Japanese": "連絡を取り続ける"
+        },
+        "meaning": "To continue communicating with someone",
+        "meaning_translation": {
+          "Hindi": "किसी के साथ संवाद जारी रखना",
+          "Japanese": "誰かと連絡を続けること"
+        },
+        "examples": [
+          {
+            "sentence": "We stayed in touch after college.",
+            "translation": {
+              "Hindi": "हमने कॉलेज के बाद भी संपर्क बनाए रखा।",
+              "Japanese": "私たちは大学卒業後も連絡を取り続けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Break up",
+        "word_translation": {
+          "Hindi": "रिश्ता तोड़ना",
+          "Japanese": "別れる"
+        },
+        "meaning": "To end a romantic relationship",
+        "meaning_translation": {
+          "Hindi": "एक प्रेम संबंध को खत्म करना",
+          "Japanese": "恋愛関係を終わらせること"
+        },
+        "examples": [
+          {
+            "sentence": "They decided to break up after many arguments.",
+            "translation": {
+              "Hindi": "कई झगड़ों के बाद उन्होंने रिश्ता तोड़ने का फैसला किया।",
+              "Japanese": "何度も口論した後、彼らは別れることに決めました。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Present Simple for Relationships",
-        "explanation": "Use the present simple to talk about your relationships: 'I trust my best friend.'"
+        "title": "Using 'I have a friend who…'",
+        "explanation": "Use this to describe your friend. Example: I have a friend who loves music.",
+        "explanation_translation": {
+          "Hindi": "अपने दोस्त का वर्णन करने के लिए इसका प्रयोग करें। उदाहरण: I have a friend who loves music.",
+          "Japanese": "友達を説明するときに使います。例: I have a friend who loves music."
+        }
       },
       {
-        "title": "Talking About Experiences",
-        "explanation": "Use the present perfect for life experiences: 'We have known each other for five years.'"
+        "title": "Using 'get along with…'",
+        "explanation": "Say 'I get along with…' to show you have a good relationship. Example: I get along with my classmates.",
+        "explanation_translation": {
+          "Hindi": "अच्छे संबंध दिखाने के लिए 'I get along with…' कहें। उदाहरण: I get along with my classmates.",
+          "Japanese": "良い関係を表すとき「I get along with…」を使います。例: I get along with my classmates."
+        }
       },
       {
-        "title": "Using 'get along' and 'get on'",
-        "explanation": "'Get along' or 'get on' means to have a good relationship: 'I get along with my classmates.'"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "She is my close friend. We share everything.",
-        "translation": ""
+        "title": "Using 'have an argument with…'",
+        "explanation": "Say 'I had an argument with…' to describe a fight or disagreement. Example: I had an argument with my brother.",
+        "explanation_translation": {
+          "Hindi": "लड़ाई या असहमति बताने के लिए 'I had an argument with…' कहें। उदाहरण: I had an argument with my brother.",
+          "Japanese": "口論や意見の不一致を言うとき「I had an argument with…」を使います。例: I had an argument with my brother."
+        }
       },
       {
-        "sentence": "It is important to trust and support each other.",
-        "translation": ""
+        "title": "Using 'stay in touch with…'",
+        "explanation": "Say 'I stay in touch with…' to talk about continuing communication. Example: I stay in touch with my old teacher.",
+        "explanation_translation": {
+          "Hindi": "संपर्क बनाए रखने के लिए 'stay in touch with…' कहें। उदाहरण: I stay in touch with my old teacher.",
+          "Japanese": "連絡を続けるとき「stay in touch with…」を使います。例: I stay in touch with my old teacher."
+        }
       },
       {
-        "sentence": "Sometimes friends argue, but they make up quickly.",
-        "translation": ""
-      },
-      {
-        "sentence": "He gave me good advice when I had a problem.",
-        "translation": ""
-      },
-      {
-        "sentence": "I get along well with my cousins.",
-        "translation": ""
+        "title": "Using 'respect' in sentences",
+        "explanation": "Say 'I respect…' to show admiration. Example: I respect my parents.",
+        "explanation_translation": {
+          "Hindi": "'I respect…' कहकर सम्मान दिखाएं। उदाहरण: I respect my parents.",
+          "Japanese": "敬意を示すとき「I respect…」を使います。例: I respect my parents."
+        }
       }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What does 'loyal' mean?",
-        "options": ["Always supporting your friend", "Fighting often", "Telling lies"],
-        "answer": 0
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'believing someone is honest and reliable'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'यह मानना कि कोई ईमानदार और भरोसेमंद है' का अर्थ है?",
+        "Japanese": "「相手が正直で頼れると信じること」という意味の単語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "An _____ is a person you know but not very well.",
-        "options": ["acquaintance", "advice", "support"],
-        "answer": 0
+      "options": ["Trust", "Respect", "Support"],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "multipleChoice",
+      "question": "Which phrase means 'to end a romantic relationship'?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश 'एक प्रेम संबंध को खत्म करना' का अर्थ है?",
+        "Japanese": "「恋愛関係を終わらせる」という意味の表現はどれですか？"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "'Argue' means to always agree.",
-        "options": ["True", "False"],
-        "answer": 1
+      "options": ["Break up", "Stay in touch", "Argument"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "Good friends always ___ each other.",
+      "question_translation": {
+        "Hindi": "अच्छे दोस्त हमेशा एक-दूसरे का ___ करते हैं।",
+        "Japanese": "親友はいつもお互いを___します。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "What is 'advice'?",
-        "options": ["A suggestion to help someone", "A secret", "A promise"],
-        "answer": 0
+      "options": ["support", "argue", "break"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "trueFalse",
+      "question": "Respect means showing admiration and value for someone.",
+      "question_translation": {
+        "Hindi": "Respect का अर्थ है किसी के लिए प्रशंसा और आदर दिखाना।",
+        "Japanese": "Respect は誰かに対して敬意や価値を示すことを意味します。"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which word means 'to have a good relationship'?",
-        "options": ["argue", "get along", "close"],
-        "answer": 1
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "My friend always _____ (trusts/supports) me.",
-        "options": ["trusts", "supports"],
-        "answer": 1
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which phrase means 'to continue communicating with someone'?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश 'किसी के साथ संवाद जारी रखना' का अर्थ है?",
+        "Japanese": "「誰かと連絡を続ける」という意味の表現はどれですか？"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "We have _____ (known/argued) each other for many years.",
-        "options": ["known", "argued"],
-        "answer": 0
+      "options": ["Stay in touch", "Close friend", "Argument"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "I have a friend ___ loves music.",
+      "question_translation": {
+        "Hindi": "मेरा एक दोस्त है ___ जिसे संगीत पसंद है।",
+        "Japanese": "音楽が好きな友達が___います。"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: good / get / classmates / I / along / my / with",
-        "options": ["I get along with my classmates."],
-        "answer": [0]
+      "options": ["who", "which", "where"],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "I get along ___ my classmates.",
+      "question_translation": {
+        "Hindi": "मैं अपने सहपाठियों के साथ ___ रहता हूँ।",
+        "Japanese": "私はクラスメートと___仲良くしています。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "It is important to _____ (share/argue) your feelings.",
-        "options": ["share", "argue"],
-        "answer": 0
+      "options": ["with", "to", "by"],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [with, had, an, I, argument, my, brother]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [with, had, an, I, argument, my, brother]",
+        "Japanese": "並べ替え: [with, had, an, I, argument, my, brother]"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: gives / advice / she / good / me",
-        "options": ["She gives me good advice."],
-        "answer": [0]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "Listen: Who does Tom get along with?",
-        "options": ["His classmates", "His teacher", "His parents"],
-        "answer": 0
+      "options": ["with", "had", "an", "I", "argument", "my", "brother"],
+      "answer": ["I", "had", "an", "argument", "with", "my", "brother"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [respect, I, my, parents]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [respect, I, my, parents]",
+        "Japanese": "並べ替え: [respect, I, my, parents]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "Listen: How long have Maria and Anna known each other?",
-        "options": ["One year", "Three years", "Five years"],
-        "answer": 2
+      "options": ["respect", "I", "my", "parents"],
+      "answer": ["I", "respect", "my", "parents"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "We decided to ___ up after many arguments.",
+      "question_translation": {
+        "Hindi": "कई झगड़ों के बाद हमने ___ up करने का फैसला किया।",
+        "Japanese": "何度も口論した後、私たちは___ upすることに決めました。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Listen: Why did John argue with his friend?",
-        "options": ["About a game", "About food", "About homework"],
-        "answer": 0
+      "options": ["break", "stay", "trust"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker say?",
+      "audio_text": "Trust is important in every relationship.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या कहा?",
+        "Japanese": "話者は何と言いましたか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "Listen: What advice did Sarah give?",
-        "options": ["To study harder", "To play more", "To make new friends"],
-        "answer": 0
+      "options": [
+        "Trust is important in every relationship.",
+        "Support is not needed in relationships.",
+        "Respect is not important."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What do good friends do?",
+      "audio_text": "Good friends always support each other.",
+      "question_translation": {
+        "Hindi": "अच्छे दोस्त क्या करते हैं?",
+        "Japanese": "親友は何をしますか？"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "Listen: What does Emily share with her friends?",
-        "options": ["Books", "Money", "Secrets"],
-        "answer": 2
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Describe your best friend.",
-        "options": [],
-        "answer": "My best friend is funny, loyal, and always supports me."
+      "options": ["Argue often", "Support each other", "Break up"],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What problem did the speaker mention?",
+      "audio_text": "They had an argument but became friends again.",
+      "question_translation": {
+        "Hindi": "वक्ता ने कौन सी समस्या का उल्लेख किया?",
+        "Japanese": "話者はどんな問題について言及しましたか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Talk about a time you helped a friend.",
-        "options": [],
-        "answer": "I helped my friend with homework when he did not understand it."
+      "options": ["They had an argument", "They broke up", "They lost respect"],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What kind of friend is described?",
+      "audio_text": "She is my closest friend since childhood.",
+      "question_translation": {
+        "Hindi": "किस प्रकार के दोस्त का वर्णन किया गया?",
+        "Japanese": "どんな友達が説明されましたか？"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Explain how you give advice to your friends.",
-        "options": [],
-        "answer": "I listen to my friends and then give advice if they need help."
+      "options": ["A close friend", "A stranger", "A classmate"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What did the speaker continue to do?",
+      "audio_text": "We stayed in touch after college.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या जारी रखा?",
+        "Japanese": "話者は何を続けましたか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Describe a time you argued with someone and made up.",
-        "options": [],
-        "answer": "Last week, I argued with my friend about a game, but we made up quickly."
+      "options": ["Stayed in touch", "Broke up", "Lost respect"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I have a friend who loves music.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I have a friend who loves music.'",
+        "Japanese": "言ってください: 'I have a friend who loves music.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say why trust is important in a relationship.",
-        "options": [],
-        "answer": "Trust is important because it helps people feel safe and happy together."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "i have a friend who loves music"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'I get along with my classmates.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I get along with my classmates.'",
+        "Japanese": "言ってください: 'I get along with my classmates.'"
+      },
+      "options": [],
+      "answer": "i get along with my classmates"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I had an argument with my brother.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I had an argument with my brother.'",
+        "Japanese": "言ってください: 'I had an argument with my brother.'"
+      },
+      "options": [],
+      "answer": "i had an argument with my brother"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'We stayed in touch after college.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We stayed in touch after college.'",
+        "Japanese": "言ってください: 'We stayed in touch after college.'"
+      },
+      "options": [],
+      "answer": "we stayed in touch after college"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'I respect my parents.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I respect my parents.'",
+        "Japanese": "言ってください: 'I respect my parents.'"
+      },
+      "options": [],
+      "answer": "i respect my parents"
+    }
+  ]
+}
 }

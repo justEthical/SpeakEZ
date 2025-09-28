@@ -1,4 +1,579 @@
 {
-  "id": 30,
-  "message": "This is file number 30"
+  "id": "lesson_register_shifts_formal_neutral_informal_c1",
+  "lesson_name": "Register Shifts: Formal, Neutral, Informal",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "register",
+        "word_translation": {
+          "Hindi": "भाषाई शैली",
+          "Japanese": "レジスター（言語の使用域）"
+        },
+        "meaning": "The level of formality or style of language used in a specific context",
+        "meaning_translation": {
+          "Hindi": "विशिष्ट संदर्भ में प्रयोग की जाने वाली भाषा की औपचारिकता या शैली का स्तर",
+          "Japanese": "特定の文脈で使われる言語の形式性やスタイルの度合い"
+        },
+        "examples": [
+          {
+            "sentence": "Academic writing usually requires a formal register.",
+            "translation": {
+              "Hindi": "शैक्षणिक लेखन आमतौर पर औपचारिक शैली की आवश्यकता होती है।",
+              "Japanese": "学術的な文章は通常、フォーマルなレジスターが求められます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formal",
+        "word_translation": {
+          "Hindi": "औपचारिक",
+          "Japanese": "フォーマル"
+        },
+        "meaning": "Polite and professional style of speaking or writing used in official or academic contexts",
+        "meaning_translation": {
+          "Hindi": "सरकारी या शैक्षणिक संदर्भों में प्रयोग की जाने वाली विनम्र और पेशेवर शैली",
+          "Japanese": "公式または学術的な場で使われる丁寧で専門的な話し方や書き方"
+        },
+        "examples": [
+          {
+            "sentence": "We regret to inform you that your application was unsuccessful.",
+            "translation": {
+              "Hindi": "हमें खेद है कि आपका आवेदन सफल नहीं हो पाया।",
+              "Japanese": "残念ながら、あなたの応募は不採用となりましたことをお知らせします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "neutral",
+        "word_translation": {
+          "Hindi": "तटस्थ",
+          "Japanese": "ニュートラル"
+        },
+        "meaning": "Language style that is neither too formal nor too casual, used in everyday communication",
+        "meaning_translation": {
+          "Hindi": "भाषा शैली जो न तो बहुत औपचारिक है न ही बहुत अनौपचारिक, दैनिक संचार में प्रयोग होती है",
+          "Japanese": "フォーマルすぎずカジュアルすぎない日常的なコミュニケーションのスタイル"
+        },
+        "examples": [
+          {
+            "sentence": "Could you send me the file later today?",
+            "translation": {
+              "Hindi": "क्या आप मुझे आज बाद में फ़ाइल भेज सकते हैं?",
+              "Japanese": "今日の後でそのファイルを送っていただけますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "informal",
+        "word_translation": {
+          "Hindi": "अनौपचारिक",
+          "Japanese": "インフォーマル"
+        },
+        "meaning": "Casual, friendly style of communication used with friends or in relaxed settings",
+        "meaning_translation": {
+          "Hindi": "मित्रों या आरामदायक माहौल में प्रयोग की जाने वाली अनौपचारिक और सहज भाषा शैली",
+          "Japanese": "友人やくつろいだ場で使われるカジュアルで親しみやすい話し方"
+        },
+        "examples": [
+          {
+            "sentence": "Hey, can you shoot me that file later?",
+            "translation": {
+              "Hindi": "अरे, क्या तुम बाद में वह फ़ाइल भेज सकते हो?",
+              "Japanese": "ねぇ、後でそのファイル送ってくれる？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contraction",
+        "word_translation": {
+          "Hindi": "संक्षेपण",
+          "Japanese": "短縮形"
+        },
+        "meaning": "A shortened form of a word or group of words used in informal speech or writing",
+        "meaning_translation": {
+          "Hindi": "अनौपचारिक बोलचाल या लेखन में प्रयोग होने वाला शब्दों का संक्षिप्त रूप",
+          "Japanese": "インフォーマルな話し言葉や文章で使われる単語や語句の短縮形"
+        },
+        "examples": [
+          {
+            "sentence": "‘Can't’ is a contraction of ‘cannot’.",
+            "translation": {
+              "Hindi": "'Can't' शब्द 'cannot' का संक्षेपण है।",
+              "Japanese": "「can't」は「cannot」の短縮形です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "colloquial",
+        "word_translation": {
+          "Hindi": "बोलचाल की भाषा",
+          "Japanese": "口語的"
+        },
+        "meaning": "Language used in casual conversation, often with slang or regional terms",
+        "meaning_translation": {
+          "Hindi": "साधारण बातचीत में प्रयोग की जाने वाली भाषा, जिसमें अक्सर स्लैंग या क्षेत्रीय शब्द शामिल होते हैं",
+          "Japanese": "カジュアルな会話で使われる、しばしばスラングや地域的な表現を含む言葉"
+        },
+        "examples": [
+          {
+            "sentence": "‘Gonna’ is a colloquial way of saying ‘going to’.",
+            "translation": {
+              "Hindi": "'Gonna' 'going to' कहने का बोलचाल का तरीका है।",
+              "Japanese": "「gonna」は「going to」を口語的に言う方法です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formality gradient",
+        "word_translation": {
+          "Hindi": "औपचारिकता का पैमाना",
+          "Japanese": "形式性の段階"
+        },
+        "meaning": "A scale that shows how language can move from highly formal to very casual",
+        "meaning_translation": {
+          "Hindi": "एक पैमाना जो दिखाता है कि भाषा कैसे अत्यधिक औपचारिक से बहुत अनौपचारिक तक बदल सकती है",
+          "Japanese": "言語が非常にフォーマルからカジュアルまで移行する度合いを示すスケール"
+        },
+        "examples": [
+          {
+            "sentence": "Writers often adjust their tone along the formality gradient.",
+            "translation": {
+              "Hindi": "लेखक अक्सर औपचारिकता के पैमाने के अनुसार अपनी शैली बदलते हैं।",
+              "Japanese": "書き手はしばしば形式性の段階に応じて文体を調整します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "slang",
+        "word_translation": {
+          "Hindi": "स्लैंग",
+          "Japanese": "スラング"
+        },
+        "meaning": "Informal, often playful or trendy language used by specific groups",
+        "meaning_translation": {
+          "Hindi": "विशिष्ट समूहों द्वारा प्रयोग की जाने वाली अनौपचारिक, प्रचलित या मज़ाकिया भाषा",
+          "Japanese": "特定の集団で使われる、カジュアルで流行的または遊び心のある表現"
+        },
+        "examples": [
+          {
+            "sentence": "‘Lit’ is slang for something exciting or excellent.",
+            "translation": {
+              "Hindi": "'Lit' किसी रोमांचक या बेहतरीन चीज़ के लिए प्रयोग होने वाला स्लैंग है।",
+              "Japanese": "「lit」は刺激的または素晴らしいものを指すスラングです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "jargon",
+        "word_translation": {
+          "Hindi": "तकनीकी शब्दावली",
+          "Japanese": "専門用語"
+        },
+        "meaning": "Specialized words used by a particular profession or group",
+        "meaning_translation": {
+          "Hindi": "किसी विशेष पेशे या समूह द्वारा उपयोग की जाने वाली विशेष शब्दावली",
+          "Japanese": "特定の職業や集団が使う専門的な用語"
+        },
+        "examples": [
+          {
+            "sentence": "Legal documents often contain complex legal jargon.",
+            "translation": {
+              "Hindi": "कानूनी दस्तावेज़ों में अक्सर जटिल कानूनी शब्दावली होती है।",
+              "Japanese": "法的な文書にはしばしば複雑な法的専門用語が含まれます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "tone",
+        "word_translation": {
+          "Hindi": "लहजा",
+          "Japanese": "トーン"
+        },
+        "meaning": "The general attitude or mood expressed by the speaker or writer",
+        "meaning_translation": {
+          "Hindi": "वक्ता या लेखक द्वारा व्यक्त किया गया सामान्य रवैया या मूड",
+          "Japanese": "話し手や書き手が表す全体的な態度や雰囲気"
+        },
+        "examples": [
+          {
+            "sentence": "Email tone can shift from formal to informal depending on the recipient.",
+            "translation": {
+              "Hindi": "ईमेल का लहजा प्राप्तकर्ता के आधार पर औपचारिक से अनौपचारिक हो सकता है।",
+              "Japanese": "メールのトーンは受信者によってフォーマルからインフォーマルに変わることがあります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Passive Voice in Formal Writing",
+        "explanation": "Formal contexts often use passive voice to focus on the action rather than the actor. Example: 'The report was submitted yesterday.'",
+        "explanation_translation": {
+          "Hindi": "औपचारिक संदर्भों में अक्सर निष्क्रिय वाक्य का उपयोग किया जाता है ताकि कर्ता की बजाय क्रिया पर ध्यान दिया जा सके। उदाहरण: 'The report was submitted yesterday.'",
+          "Japanese": "フォーマルな文脈では、行為者よりも行為自体に焦点を当てるために受動態がよく使われます。例: 'The report was submitted yesterday.'"
+        }
+      },
+      {
+        "title": "Avoiding Contractions in Formal Texts",
+        "explanation": "Formal writing usually avoids contractions like 'don't' or 'can't'; it uses 'do not' or 'cannot' instead.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक लेखन में आमतौर पर 'don't' या 'can't' जैसे संक्षेपण से बचा जाता है और 'do not' या 'cannot' का उपयोग किया जाता है।",
+          "Japanese": "フォーマルな文章では「don't」や「can't」などの短縮形を避け、「do not」や「cannot」を使います。"
+        }
+      },
+      {
+        "title": "Choosing Modal Verbs for Politeness",
+        "explanation": "Formal or neutral registers prefer modals like 'could', 'might', or 'would' instead of direct 'can' or 'will'.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक या तटस्थ शैली में सीधे 'can' या 'will' की बजाय 'could', 'might', या 'would' जैसे मोडल्स का प्रयोग किया जाता है।",
+          "Japanese": "フォーマルまたはニュートラルなレジスターでは、直接的な「can」や「will」より「could」「might」「would」を使うことが好まれます。"
+        }
+      },
+      {
+        "title": "Using Colloquialisms Only in Informal Settings",
+        "explanation": "Informal register allows colloquial expressions and slang, but these are avoided in academic or professional contexts.",
+        "explanation_translation": {
+          "Hindi": "अनौपचारिक शैली में बोलचाल की अभिव्यक्ति और स्लैंग की अनुमति होती है, लेकिन शैक्षणिक या पेशेवर संदर्भों में इनसे बचा जाता है।",
+          "Japanese": "インフォーマルな場では口語表現やスラングが許されますが、学術的または職業的な場では避けられます。"
+        }
+      },
+      {
+        "title": "Adjusting Greetings by Register",
+        "explanation": "Formal: 'Dear Sir/Madam'; Neutral: 'Hello'; Informal: 'Hey/Hi'. Greeting choice signals register shift.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक: 'Dear Sir/Madam'; तटस्थ: 'Hello'; अनौपचारिक: 'Hey/Hi'। अभिवादन का चयन शैली के बदलाव को दर्शाता है।",
+          "Japanese": "フォーマル: 'Dear Sir/Madam'、ニュートラル: 'Hello'、インフォーマル: 'Hey/Hi'。挨拶の選択がレジスターの変化を示します。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What does the term 'register' refer to in language?",
+      "question_translation": {
+        "Hindi": "भाषा में 'register' शब्द किसे संदर्भित करता है?",
+        "Japanese": "言語における「レジスター」は何を指しますか？"
+      },
+      "options": [
+        "The speed of speaking",
+        "The formality or style of language",
+        "The grammar rules of a language"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "Formal writing usually avoids contractions like 'can't'.",
+      "question_translation": {
+        "Hindi": "औपचारिक लेखन आमतौर पर 'can't' जैसी संक्षिप्तियों से बचता है।",
+        "Japanese": "フォーマルな文章では通常「can't」のような短縮形を避けます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "Slang is mostly used in ______ settings.",
+      "question_translation": {
+        "Hindi": "स्लैंग का उपयोग ज्यादातर ______ परिस्थितियों में किया जाता है।",
+        "Japanese": "スラングは主に______な場面で使われます。"
+      },
+      "options": [
+        "informal",
+        "formal",
+        "academic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which of the following is an example of a neutral request?",
+      "question_translation": {
+        "Hindi": "निम्नलिखित में से कौन सा तटस्थ अनुरोध का उदाहरण है?",
+        "Japanese": "次のうちニュートラルな依頼の例はどれですか？"
+      },
+      "options": [
+        "Would you kindly provide your feedback?",
+        "Can you send me the document?",
+        "Hey, shoot me the doc!"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which register is most likely used in academic papers?",
+      "question_translation": {
+        "Hindi": "शैक्षणिक लेखों में सबसे अधिक किस शैली का उपयोग किया जाता है?",
+        "Japanese": "学術論文ではどのレジスターが最も使われますか？"
+      },
+      "options": [
+        "Informal",
+        "Neutral",
+        "Formal"
+      ],
+      "answer": 2
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [would, appreciate, I, it, if, you, could, respond]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [would, appreciate, I, it, if, you, could, respond]",
+        "Japanese": "並べ替え: [would, appreciate, I, it, if, you, could, respond]"
+      },
+      "options": [
+        "would",
+        "appreciate",
+        "I",
+        "it",
+        "if",
+        "you",
+        "could",
+        "respond"
+      ],
+      "answer": [
+        "I",
+        "would",
+        "appreciate",
+        "it",
+        "if",
+        "you",
+        "could",
+        "respond"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "We regret to ______ you that the meeting is canceled.",
+      "question_translation": {
+        "Hindi": "हमें खेद है कि हम आपको सूचित ______ कि बैठक रद्द कर दी गई है।",
+        "Japanese": "会議がキャンセルされたことをお知らせすることを残念に思います。We regret to ______ you."
+      },
+      "options": [
+        "tell",
+        "inform",
+        "say"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is the most informal?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सबसे अधिक अनौपचारिक है?",
+        "Japanese": "どの文が最もインフォーマルですか？"
+      },
+      "options": [
+        "Would you mind sending me that report?",
+        "Could you send me that report?",
+        "Hey, send me that report!"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [forward, kindly, would, you, the, details]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [forward, kindly, would, you, the, details]",
+        "Japanese": "並べ替え: [forward, kindly, would, you, the, details]"
+      },
+      "options": [
+        "forward",
+        "kindly",
+        "would",
+        "you",
+        "the",
+        "details"
+      ],
+      "answer": [
+        "would",
+        "you",
+        "kindly",
+        "forward",
+        "the",
+        "details"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "In formal writing, it is better to avoid using ______ such as 'won't' or 'it's'.",
+      "question_translation": {
+        "Hindi": "औपचारिक लेखन में 'won't' या 'it's' जैसे ______ का उपयोग करने से बचना बेहतर है।",
+        "Japanese": "フォーマルな文章では「won't」や「it's」のような______を避けた方が良いです。"
+      },
+      "options": [
+        "contractions",
+        "jargon",
+        "passives"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which register is the speaker using? Audio: 'I would appreciate it if you could attend the meeting tomorrow.'",
+      "audio_text": "I would appreciate it if you could attend the meeting tomorrow.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी शैली का उपयोग कर रहा है?",
+        "Japanese": "話者はどのレジスターを使っていますか？"
+      },
+      "options": [
+        "Formal",
+        "Neutral",
+        "Informal"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The sentence 'Could you send me the slides later?' is neutral.",
+      "audio_text": "Could you send me the slides later?",
+      "question_translation": {
+        "Hindi": "वाक्य 'Could you send me the slides later?' तटस्थ है।",
+        "Japanese": "「Could you send me the slides later?」はニュートラルです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which word shows informality in the sentence? Audio: 'Hey, can you shoot me the report?'",
+      "audio_text": "Hey, can you shoot me the report?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द वाक्य में अनौपचारिकता दिखाता है?",
+        "Japanese": "この文でインフォーマルさを示す語はどれですか？"
+      },
+      "options": [
+        "shoot",
+        "report",
+        "you"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "The phrase 'We regret to inform you' signals which register?",
+      "audio_text": "We regret to inform you that your request cannot be approved.",
+      "question_translation": {
+        "Hindi": "'We regret to inform you' वाक्यांश किस शैली को दर्शाता है?",
+        "Japanese": "「We regret to inform you」はどのレジスターを示していますか？"
+      },
+      "options": [
+        "Informal",
+        "Formal",
+        "Neutral"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The phrase 'Gonna be late today' is formal.",
+      "audio_text": "Gonna be late today.",
+      "question_translation": {
+        "Hindi": "'Gonna be late today' औपचारिक है।",
+        "Japanese": "「Gonna be late today」はフォーマルです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I would appreciate it if you could send me the report.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I would appreciate it if you could send me the report.'",
+        "Japanese": "言ってください: 'I would appreciate it if you could send me the report.'"
+      },
+      "options": [],
+      "answer": "i would appreciate it if you could send me the report"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Please let me know if you need any assistance.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Please let me know if you need any assistance.'",
+        "Japanese": "言ってください: 'Please let me know if you need any assistance.'"
+      },
+      "options": [],
+      "answer": "please let me know if you need any assistance"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Hey, could you send me that file later?'",
+      "question_translation": {
+        "Hindi": "कहें: 'Hey, could you send me that file later?'",
+        "Japanese": "言ってください: 'Hey, could you send me that file later?'"
+      },
+      "options": [],
+      "answer": "hey could you send me that file later"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'We regret to inform you that the application has been declined.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We regret to inform you that the application has been declined.'",
+        "Japanese": "言ってください: 'We regret to inform you that the application has been declined.'"
+      },
+      "options": [],
+      "answer": "we regret to inform you that the application has been declined"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Could you please clarify your point?'",
+      "question_translation": {
+        "Hindi": "कहें: 'Could you please clarify your point?'",
+        "Japanese": "言ってください: 'Could you please clarify your point?'"
+      },
+      "options": [],
+      "answer": "could you please clarify your point"
+    }
+  ]
+}
+
 }

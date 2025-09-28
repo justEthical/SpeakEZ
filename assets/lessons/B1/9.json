@@ -1,206 +1,460 @@
 {
-  "id": "b1_cities_countryside_01",
+  "id": "lesson_cities_countryside_b1",
   "lesson_name": "Describing Cities & Countryside",
   "purpose": "All",
   "cefrLevel": "B1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "skyscraper", "meaning": "a very tall building" },
-      { "word": "suburb", "meaning": "an area on the edge of a city" },
-      { "word": "rural", "meaning": "connected to the countryside" },
-      { "word": "urban", "meaning": "related to a city" },
-      { "word": "crowded", "meaning": "full of people" },
-      { "word": "peaceful", "meaning": "quiet and calm" },
-      { "word": "traffic", "meaning": "many cars on the road" },
-      { "word": "landscape", "meaning": "the general view of a place" },
-      { "word": "village", "meaning": "a small group of houses in the countryside" },
-      { "word": "public transport", "meaning": "buses, trains, or trams that everyone can use" }
+      {
+        "word": "Crowded",
+        "word_translation": {
+          "Hindi": "भीड़भाड़ वाला",
+          "Japanese": "混雑した"
+        },
+        "meaning": "Full of people, very busy",
+        "meaning_translation": {
+          "Hindi": "लोगों से भरा हुआ, बहुत व्यस्त",
+          "Japanese": "人でいっぱいでとても忙しい"
+        },
+        "examples": [
+          {
+            "sentence": "The market was crowded on Sunday.",
+            "translation": {
+              "Hindi": "रविवार को बाजार भीड़भाड़ वाला था।",
+              "Japanese": "日曜日、市場は混雑していました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Skyscraper",
+        "word_translation": {
+          "Hindi": "गगनचुंबी इमारत",
+          "Japanese": "高層ビル"
+        },
+        "meaning": "A very tall building in a city",
+        "meaning_translation": {
+          "Hindi": "शहर में एक बहुत ऊँची इमारत",
+          "Japanese": "都市にあるとても高い建物"
+        },
+        "examples": [
+          {
+            "sentence": "New York has many skyscrapers.",
+            "translation": {
+              "Hindi": "न्यूयॉर्क में कई गगनचुंबी इमारतें हैं।",
+              "Japanese": "ニューヨークには高層ビルがたくさんあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Public transport",
+        "word_translation": {
+          "Hindi": "सार्वजनिक परिवहन",
+          "Japanese": "公共交通"
+        },
+        "meaning": "Buses, trains, and other transport used by the public",
+        "meaning_translation": {
+          "Hindi": "बस, ट्रेन और अन्य परिवहन जिनका उपयोग जनता करती है",
+          "Japanese": "人々が利用するバス、電車などの交通機関"
+        },
+        "examples": [
+          {
+            "sentence": "Public transport is fast in big cities.",
+            "translation": {
+              "Hindi": "बड़े शहरों में सार्वजनिक परिवहन तेज़ है।",
+              "Japanese": "大都市では公共交通は速いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Pollution",
+        "word_translation": {
+          "Hindi": "प्रदूषण",
+          "Japanese": "汚染"
+        },
+        "meaning": "Dirty air, water, or land caused by people",
+        "meaning_translation": {
+          "Hindi": "लोगों के कारण गंदी हवा, पानी या ज़मीन",
+          "Japanese": "人間によって汚された空気、水、土地"
+        },
+        "examples": [
+          {
+            "sentence": "Air pollution is a big problem in cities.",
+            "translation": {
+              "Hindi": "शहरों में वायु प्रदूषण एक बड़ी समस्या है।",
+              "Japanese": "都市では大気汚染が大きな問題です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Peaceful",
+        "word_translation": {
+          "Hindi": "शांतिपूर्ण",
+          "Japanese": "穏やかな"
+        },
+        "meaning": "Calm and quiet",
+        "meaning_translation": {
+          "Hindi": "शांत और सुकून भरा",
+          "Japanese": "静かで落ち着いた"
+        },
+        "examples": [
+          {
+            "sentence": "The countryside is peaceful at night.",
+            "translation": {
+              "Hindi": "ग्रामीण क्षेत्र रात में शांतिपूर्ण होता है।",
+              "Japanese": "田舎は夜になると穏やかです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Farm",
+        "word_translation": {
+          "Hindi": "खेत",
+          "Japanese": "農場"
+        },
+        "meaning": "Land where crops are grown or animals are kept",
+        "meaning_translation": {
+          "Hindi": "वह ज़मीन जहाँ फसलें उगाई जाती हैं या जानवर पाले जाते हैं",
+          "Japanese": "作物を育てたり動物を飼ったりする土地"
+        },
+        "examples": [
+          {
+            "sentence": "My grandparents live on a farm.",
+            "translation": {
+              "Hindi": "मेरे दादा-दादी खेत पर रहते हैं।",
+              "Japanese": "私の祖父母は農場に住んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Fresh air",
+        "word_translation": {
+          "Hindi": "शुद्ध हवा",
+          "Japanese": "新鮮な空気"
+        },
+        "meaning": "Clean air in the outdoors",
+        "meaning_translation": {
+          "Hindi": "बाहरी जगह की साफ हवा",
+          "Japanese": "屋外のきれいな空気"
+        },
+        "examples": [
+          {
+            "sentence": "We enjoyed the fresh air in the village.",
+            "translation": {
+              "Hindi": "हमने गाँव में शुद्ध हवा का आनंद लिया।",
+              "Japanese": "私たちは村で新鮮な空気を楽しみました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Traffic jam",
+        "word_translation": {
+          "Hindi": "यातायात जाम",
+          "Japanese": "交通渋滞"
+        },
+        "meaning": "A long line of cars that cannot move",
+        "meaning_translation": {
+          "Hindi": "गाड़ियों की लंबी कतार जो चल नहीं पाती",
+          "Japanese": "車が動けなくなる長い列"
+        },
+        "examples": [
+          {
+            "sentence": "There was a traffic jam during rush hour.",
+            "translation": {
+              "Hindi": "भीड़भाड़ के समय यातायात जाम था।",
+              "Japanese": "ラッシュアワーに交通渋滞がありました。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Comparatives and Superlatives",
-        "explanation": "Use '-er' or 'more' to compare: 'The city is busier than the village.' Use '-est' or 'most' for the highest degree: 'The countryside is the most peaceful place.'"
+        "title": "Using 'There is/There are…'",
+        "explanation": "Say 'There is…' for one thing and 'There are…' for many things. Example: There are many parks in the city.",
+        "explanation_translation": {
+          "Hindi": "एक चीज़ के लिए 'There is…' और कई चीज़ों के लिए 'There are…' कहें। उदाहरण: There are many parks in the city.",
+          "Japanese": "1つのものには「There is…」、複数のものには「There are…」を使います。例: There are many parks in the city."
+        }
       },
       {
-        "title": "There is / There are",
-        "explanation": "Use 'there is' for one thing and 'there are' for many: 'There is a park in my city. There are many farms in the countryside.'"
+        "title": "Using adjectives to describe places",
+        "explanation": "Use words like 'crowded', 'peaceful', 'polluted' before nouns. Example: It is a crowded street.",
+        "explanation_translation": {
+          "Hindi": "स्थान का वर्णन करने के लिए 'crowded', 'peaceful', 'polluted' जैसे शब्दों का प्रयोग करें। उदाहरण: It is a crowded street.",
+          "Japanese": "場所を説明するとき「crowded」「peaceful」「polluted」などを名詞の前に置きます。例: It is a crowded street."
+        }
       },
       {
-        "title": "Describing Places",
-        "explanation": "Use adjectives to describe: 'The streets are crowded.'"
-      }
-    ],
-    "example_sentences": [
-      {
-        "sentence": "The city is very crowded and noisy.",
-        "translation": ""
+        "title": "Using 'in the city/in the countryside'",
+        "explanation": "Say 'in the city' or 'in the countryside' to show location. Example: My grandparents live in the countryside.",
+        "explanation_translation": {
+          "Hindi": "'in the city' या 'in the countryside' कहकर स्थान दिखाएं। उदाहरण: My grandparents live in the countryside.",
+          "Japanese": "場所を示すとき「in the city」「in the countryside」を使います。例: My grandparents live in the countryside."
+        }
       },
       {
-        "sentence": "There are beautiful landscapes in the countryside.",
-        "translation": ""
+        "title": "Comparing city and countryside",
+        "explanation": "Use '…is busier than…' or '…is more peaceful than…'. Example: The city is busier than the countryside.",
+        "explanation_translation": {
+          "Hindi": "तुलना करने के लिए '…is busier than…' या '…is more peaceful than…' का प्रयोग करें। उदाहरण: The city is busier than the countryside.",
+          "Japanese": "比較するとき「…is busier than…」「…is more peaceful than…」を使います。例: The city is busier than the countryside."
+        }
       },
       {
-        "sentence": "My village is more peaceful than the city.",
-        "translation": ""
-      },
-      {
-        "sentence": "Many people use public transport in urban areas.",
-        "translation": ""
-      },
-      {
-        "sentence": "The suburb is quieter than the city center.",
-        "translation": ""
+        "title": "Using 'I like… because…'",
+        "explanation": "Say 'I like… because…' to explain your opinion. Example: I like the countryside because it is peaceful.",
+        "explanation_translation": {
+          "Hindi": "अपनी राय बताने के लिए 'I like… because…' का प्रयोग करें। उदाहरण: I like the countryside because it is peaceful.",
+          "Japanese": "自分の意見を言うとき「I like… because…」を使います。例: I like the countryside because it is peaceful."
+        }
       }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What does 'rural' mean?",
-        "options": ["Related to a city", "Connected to the countryside", "A type of building"],
-        "answer": 1
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a very tall building in a city'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'शहर में बहुत ऊँची इमारत' का अर्थ है?",
+        "Japanese": "「都市にあるとても高い建物」という意味の単語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "A _____ is a very tall building.",
-        "options": ["suburb", "village", "skyscraper"],
-        "answer": 2
+      "options": ["Skyscraper", "Farm", "Traffic jam"],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "multipleChoice",
+      "question": "Which phrase means 'clean air in the outdoors'?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश 'बाहरी जगह की साफ हवा' का अर्थ है?",
+        "Japanese": "「屋外のきれいな空気」という意味の表現はどれですか？"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "'Public transport' means cars that only one family uses.",
-        "options": ["True", "False"],
-        "answer": 1
+      "options": ["Fresh air", "Pollution", "Public transport"],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "There was a ___ on the road during rush hour.",
+      "question_translation": {
+        "Hindi": "भीड़भाड़ के समय सड़क पर ___ था।",
+        "Japanese": "ラッシュアワーに道路で___がありました。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which word means 'quiet and calm'?",
-        "options": ["crowded", "peaceful", "urban"],
-        "answer": 1
+      "options": ["traffic jam", "farm", "skyscraper"],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "trueFalse",
+      "question": "The countryside is usually more peaceful than the city.",
+      "question_translation": {
+        "Hindi": "ग्रामीण क्षेत्र आमतौर पर शहर से अधिक शांतिपूर्ण होता है।",
+        "Japanese": "田舎は通常、都市よりも穏やかです。"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "A small group of houses in the countryside is a _____.",
-        "options": ["village", "skyscraper", "traffic"],
-        "answer": 0
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The countryside is _____ (more/most) peaceful than the city.",
-        "options": ["more", "most"],
-        "answer": 0
+      "options": ["True", "False"],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which word means 'dirty air, water, or land caused by people'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'लोगों के कारण गंदी हवा, पानी या ज़मीन' का अर्थ है?",
+        "Japanese": "「人間によって汚された空気・水・土地」という意味の単語はどれですか？"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "There _____ (is/are) many shops in the city.",
-        "options": ["is", "are"],
-        "answer": 1
+      "options": ["Pollution", "Peaceful", "Farm"],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "fillInTheBlanks",
+      "question": "There ___ many skyscrapers in the city.",
+      "question_translation": {
+        "Hindi": "शहर में कई गगनचुंबी इमारतें ___।",
+        "Japanese": "都市には多くの高層ビル___。"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: in / there / tall / the / are / city / buildings",
-        "options": ["There are tall buildings in the city."],
-        "answer": [0]
+      "options": ["is", "are", "was"],
+      "answer": 1
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "It is a ___ street full of people.",
+      "question_translation": {
+        "Hindi": "यह लोगों से भरी हुई ___ सड़क है।",
+        "Japanese": "人でいっぱいの___通りです。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "Public transport is _____ (better/best) in urban areas.",
-        "options": ["better", "best"],
-        "answer": 0
+      "options": ["crowded", "farm", "peaceful"],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [in, live, the, My, countryside, grandparents]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [in, live, the, My, countryside, grandparents]",
+        "Japanese": "並べ替え: [in, live, the, My, countryside, grandparents]"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: peaceful / village / my / is / very",
-        "options": ["My village is very peaceful."],
-        "answer": [0]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "Listen: What is the city center like?",
-        "options": ["Quiet and empty", "Busy and crowded", "Full of farms"],
-        "answer": 1
+      "options": ["in", "live", "the", "My", "countryside", "grandparents"],
+      "answer": ["My", "grandparents", "live", "in", "the", "countryside"]
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [than, is, The, busier, the, city, countryside]",
+      "question_translation": {
+        "Hindi": "क्रम में लगाएं: [than, is, The, busier, the, city, countryside]",
+        "Japanese": "並べ替え: [than, is, The, busier, the, city, countryside]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "Listen: Where do most people use public transport?",
-        "options": ["In villages", "In urban areas", "In forests"],
-        "answer": 1
+      "options": ["than", "is", "The", "busier", "the", "city", "countryside"],
+      "answer": ["The", "city", "is", "busier", "than", "the", "countryside"]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "I like the countryside ___ it is peaceful.",
+      "question_translation": {
+        "Hindi": "मुझे ग्रामीण क्षेत्र पसंद है ___ यह शांतिपूर्ण है।",
+        "Japanese": "田舎が好きです___穏やかだからです。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Listen: What can you see in the countryside?",
-        "options": ["Skyscrapers", "Farms and fields", "Traffic jams"],
-        "answer": 1
+      "options": ["because", "but", "than"],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What did the speaker say?",
+      "audio_text": "The market was crowded on Sunday.",
+      "question_translation": {
+        "Hindi": "वक्ता ने क्या कहा?",
+        "Japanese": "話者は何と言いましたか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "Listen: How does the suburb compare to the city center?",
-        "options": ["Noisier", "Quieter", "More crowded"],
-        "answer": 1
+      "options": [
+        "The market was crowded on Sunday.",
+        "The market was peaceful on Sunday.",
+        "The market was closed on Sunday."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What does the speaker talk about?",
+      "audio_text": "New York has many skyscrapers.",
+      "question_translation": {
+        "Hindi": "वक्ता किस बारे में बात कर रहा है?",
+        "Japanese": "話者は何について話していますか？"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "Listen: What is the landscape like in the countryside?",
-        "options": ["Beautiful and green", "Full of tall buildings", "Busy with cars"],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Describe a city you have visited.",
-        "options": [],
-        "answer": "I visited Mumbai. It is a very busy city with many tall buildings and a lot of traffic."
+      "options": ["Skyscrapers", "Farms", "Fresh air"],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What problem is mentioned?",
+      "audio_text": "Air pollution is a big problem in cities.",
+      "question_translation": {
+        "Hindi": "कौन सी समस्या का उल्लेख किया गया है?",
+        "Japanese": "どんな問題が言及されましたか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Talk about what you like in the countryside.",
-        "options": [],
-        "answer": "I like the countryside because it is peaceful and there are beautiful landscapes."
+      "options": ["Pollution", "Fresh air", "Traffic jam"],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What place is described?",
+      "audio_text": "The countryside is peaceful at night.",
+      "question_translation": {
+        "Hindi": "कौन सी जगह का वर्णन किया गया है?",
+        "Japanese": "どの場所が説明されましたか？"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Explain the difference between a suburb and the city center.",
-        "options": [],
-        "answer": "The suburb is quieter and has more houses, while the city center is crowded and busy."
+      "options": ["Countryside", "City", "Market"],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What problem happened?",
+      "audio_text": "There was a traffic jam during rush hour.",
+      "question_translation": {
+        "Hindi": "कौन सी समस्या हुई?",
+        "Japanese": "どんな問題が起こりましたか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say why public transport is important in cities.",
-        "options": [],
-        "answer": "Public transport is important in cities because it helps people move quickly and reduces traffic."
+      "options": ["Traffic jam", "Farm work", "Peaceful night"],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'There are many parks in the city.'",
+      "question_translation": {
+        "Hindi": "कहें: 'There are many parks in the city.'",
+        "Japanese": "言ってください: 'There are many parks in the city.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Describe the landscape you see from your home.",
-        "options": [],
-        "answer": "From my home, I can see green fields and small houses. The landscape is very beautiful."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "there are many parks in the city"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The countryside is peaceful.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The countryside is peaceful.'",
+        "Japanese": "言ってください: 'The countryside is peaceful.'"
+      },
+      "options": [],
+      "answer": "the countryside is peaceful"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'There is a traffic jam in the morning.'",
+      "question_translation": {
+        "Hindi": "कहें: 'There is a traffic jam in the morning.'",
+        "Japanese": "言ってください: 'There is a traffic jam in the morning.'"
+      },
+      "options": [],
+      "answer": "there is a traffic jam in the morning"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I like the countryside because it is peaceful.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I like the countryside because it is peaceful.'",
+        "Japanese": "言ってください: 'I like the countryside because it is peaceful.'"
+      },
+      "options": [],
+      "answer": "i like the countryside because it is peaceful"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Public transport is fast in big cities.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Public transport is fast in big cities.'",
+        "Japanese": "言ってください: 'Public transport is fast in big cities.'"
+      },
+      "options": [],
+      "answer": "public transport is fast in big cities"
+    }
+  ]
+}
+
 }

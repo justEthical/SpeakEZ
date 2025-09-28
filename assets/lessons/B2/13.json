@@ -1,4 +1,464 @@
 {
-  "id": 13,
-  "message": "This is file number 13"
+  "id": "lesson_inversion_negative_adverbials_003",
+  "lesson_name": "Inversion with Negative Adverbials (Not until…)",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "not until",
+        "word_translation": {
+          "Hindi": "तब तक नहीं",
+          "Japanese": "〜するまで〜ない"
+        },
+        "meaning": "Used to emphasize the time when something finally happens",
+        "meaning_translation": {
+          "Hindi": "यह ज़ोर देने के लिए उपयोग किया जाता है कि कुछ कब अंततः हुआ",
+          "Japanese": "何かが最終的に起こる時を強調するために使う"
+        },
+        "examples": [
+          {
+            "sentence": "Not until the sun set did we stop working.",
+            "translation": {
+              "Hindi": "सूरज डूबने तक हमने काम करना बंद नहीं किया।",
+              "Japanese": "太陽が沈むまで私たちは働くのをやめなかった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "never",
+        "word_translation": {
+          "Hindi": "कभी नहीं",
+          "Japanese": "決して〜ない"
+        },
+        "meaning": "Used with inversion to stress that something has not happened at any time",
+        "meaning_translation": {
+          "Hindi": "किसी बात पर ज़ोर देने के लिए कि वह कभी नहीं हुआ",
+          "Japanese": "何かが一度も起こらなかったことを強調するために使う"
+        },
+        "examples": [
+          {
+            "sentence": "Never have I seen such a beautiful view.",
+            "translation": {
+              "Hindi": "मैंने कभी इतना सुंदर दृश्य नहीं देखा।",
+              "Japanese": "こんな美しい景色を見たことがない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rarely",
+        "word_translation": {
+          "Hindi": "कभी-कभार",
+          "Japanese": "めったに〜ない"
+        },
+        "meaning": "Used to emphasize that something happens infrequently",
+        "meaning_translation": {
+          "Hindi": "इस बात पर ज़ोर देने के लिए कि कुछ बहुत कम होता है",
+          "Japanese": "何かがめったに起こらないことを強調するために使う"
+        },
+        "examples": [
+          {
+            "sentence": "Rarely do we get the chance to meet famous people.",
+            "translation": {
+              "Hindi": "हमें शायद ही कभी मशहूर लोगों से मिलने का मौका मिलता है।",
+              "Japanese": "有名人に会う機会はめったにない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "only when",
+        "word_translation": {
+          "Hindi": "केवल जब",
+          "Japanese": "〜の時だけ"
+        },
+        "meaning": "Used to emphasize the condition under which something happens",
+        "meaning_translation": {
+          "Hindi": "इस बात पर ज़ोर देने के लिए कि कुछ किन परिस्थितियों में होता है",
+          "Japanese": "何かが起こる条件を強調するために使う"
+        },
+        "examples": [
+          {
+            "sentence": "Only when the exam ended did he relax.",
+            "translation": {
+              "Hindi": "केवल परीक्षा समाप्त होने पर ही वह आराम कर पाया।",
+              "Japanese": "試験が終わって初めて彼は安心した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "hardly",
+        "word_translation": {
+          "Hindi": "मुश्किल से",
+          "Japanese": "ほとんど〜ない"
+        },
+        "meaning": "Used with inversion to stress that something happened almost not at all",
+        "meaning_translation": {
+          "Hindi": "यह दिखाने के लिए कि कुछ बहुत मुश्किल से हुआ",
+          "Japanese": "何かがほとんど起こらなかったことを強調する"
+        },
+        "examples": [
+          {
+            "sentence": "Hardly had I arrived when it started raining.",
+            "translation": {
+              "Hindi": "जैसे ही मैं पहुँचा, बारिश शुरू हो गई।",
+              "Japanese": "到着した途端に雨が降り出した。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Inversion after Negative Adverbials",
+        "explanation": "When a negative or restrictive adverbial (e.g., 'Not until', 'Never', 'Rarely', 'Hardly') is placed at the beginning of a sentence, subject–auxiliary inversion is required. Example: Not until the end did he understand.",
+        "explanation_translation": {
+          "Hindi": "जब नकारात्मक या सीमित क्रियाविशेषण (जैसे 'Not until', 'Never', 'Rarely', 'Hardly') वाक्य की शुरुआत में होता है, तो subject–auxiliary inversion आवश्यक होता है। उदाहरण: Not until the end did he understand.",
+          "Japanese": "否定や制限の副詞（例: Not until, Never, Rarely, Hardly）が文頭に来ると、主語と助動詞の倒置が必要です。例：Not until the end did he understand."
+        }
+      },
+      {
+        "title": "Auxiliary Support in Inversion",
+        "explanation": "In inversion structures, use an auxiliary verb (do/does/did) if there is no other auxiliary. Example: Never did I imagine such success.",
+        "explanation_translation": {
+          "Hindi": "Inversion संरचना में, यदि कोई अन्य auxiliary verb नहीं है, तो 'do/does/did' का उपयोग करें। उदाहरण: Never did I imagine such success.",
+          "Japanese": "倒置構文では、他に助動詞がない場合「do/does/did」を使います。例：Never did I imagine such success."
+        }
+      },
+      {
+        "title": "Emphasis and Formality",
+        "explanation": "Inversion with negative adverbials is mainly used in formal or literary contexts to add emphasis and variety to sentence structure.",
+        "explanation_translation": {
+          "Hindi": "नकारात्मक क्रियाविशेषणों के साथ inversion मुख्य रूप से औपचारिक या साहित्यिक संदर्भों में ज़ोर और विविधता जोड़ने के लिए प्रयोग किया जाता है।",
+          "Japanese": "否定副詞との倒置は、主に正式または文学的な文脈で強調や文の多様性を加えるために使われます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrase emphasizes that something happens only after a specific time?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश यह ज़ोर देता है कि कुछ केवल किसी विशेष समय के बाद ही होता है?",
+        "Japanese": "特定の時の後にのみ何かが起こることを強調する表現はどれですか？"
+      },
+      "options": [
+        "not until",
+        "hardly",
+        "never"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "___ had we started the game when it began to rain.",
+      "question_translation": {
+        "Hindi": "जैसे ही हमने खेल शुरू किया ___ बारिश शुरू हो गई।",
+        "Japanese": "私たちが試合を始めた___雨が降り始めた。"
+      },
+      "options": [
+        "Hardly",
+        "Never",
+        "Not until"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Inversion is required after 'Not until' at the beginning of a sentence.",
+      "question_translation": {
+        "Hindi": "जब वाक्य की शुरुआत में 'Not until' होता है, तो inversion आवश्यक होता है।",
+        "Japanese": "文の最初に「Not until」が来ると、倒置が必要になる。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which negative adverbial means 'very rarely'?",
+      "question_translation": {
+        "Hindi": "कौन सा नकारात्मक क्रियाविशेषण 'बहुत कम' का अर्थ देता है?",
+        "Japanese": "「めったにない」という意味の否定副詞はどれですか？"
+      },
+      "options": [
+        "rarely",
+        "never",
+        "only when"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "___ did she realize the truth after hearing the whole story.",
+      "question_translation": {
+        "Hindi": "पूरी कहानी सुनने के बाद ही उसने सच्चाई को ___ समझा।",
+        "Japanese": "彼女は全ての話を聞いた後に___真実に気づいた。"
+      },
+      "options": [
+        "Not until",
+        "Never",
+        "Hardly"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [did, not until, he, arrive, the, party, start]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [did, not until, he, arrive, the, party, start]",
+        "Japanese": "並べ替え: [did, not until, he, arrive, the, party, start]"
+      },
+      "options": [
+        "did",
+        "not until",
+        "he",
+        "arrive",
+        "the",
+        "party",
+        "start"
+      ],
+      "answer": [
+        "Not until",
+        "he",
+        "arrived",
+        "did",
+        "the",
+        "party",
+        "start"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "___ have I seen such an incredible performance.",
+      "question_translation": {
+        "Hindi": "मैंने ऐसा अद्भुत प्रदर्शन ___ देखा है।",
+        "Japanese": "こんな素晴らしい演技を___見たことがない。"
+      },
+      "options": [
+        "Never",
+        "Hardly",
+        "Only when"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows correct inversion?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही inversion दिखाता है?",
+        "Japanese": "どの文が正しい倒置を示していますか？"
+      },
+      "options": [
+        "Not until I finished did I relax.",
+        "Not until I finished I did relax.",
+        "Not until I finished I relax did."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [had, hardly, the, she, news, heard, when, phone, rang]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [had, hardly, the, she, news, heard, when, phone, rang]",
+        "Japanese": "並べ替え: [had, hardly, the, she, news, heard, when, phone, rang]"
+      },
+      "options": [
+        "had",
+        "hardly",
+        "the",
+        "she",
+        "news",
+        "heard",
+        "when",
+        "phone",
+        "rang"
+      ],
+      "answer": [
+        "Hardly",
+        "had",
+        "she",
+        "heard",
+        "the",
+        "news",
+        "when",
+        "the",
+        "phone",
+        "rang"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Only when the rain stopped ___ we go outside.",
+      "question_translation": {
+        "Hindi": "केवल जब बारिश रुकी तब ही हम बाहर ___।",
+        "Japanese": "雨が止んで初めて私たちは外に___。"
+      },
+      "options": [
+        "did",
+        "were",
+        "had"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "When did the speaker stop worrying?",
+      "audio_text": "Not until the results arrived did I stop worrying.",
+      "question_translation": {
+        "Hindi": "वक्ता ने चिंता कब बंद की?",
+        "Japanese": "話者はいつ心配するのをやめましたか？"
+      },
+      "options": [
+        "Before the results arrived",
+        "After the results arrived",
+        "While waiting for the results"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What unusual event does the speaker mention?",
+      "audio_text": "Never have I seen snow in this city before.",
+      "question_translation": {
+        "Hindi": "वक्ता किस असामान्य घटना का उल्लेख करता है?",
+        "Japanese": "話者はどんな珍しい出来事について述べていますか？"
+      },
+      "options": [
+        "They always see snow here",
+        "They have never seen snow here",
+        "They saw snow last year"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "The speaker emphasizes rarity.",
+      "audio_text": "Rarely do I go to the cinema these days.",
+      "question_translation": {
+        "Hindi": "वक्ता दुर्लभता पर ज़ोर देता है।",
+        "Japanese": "話者は稀であることを強調しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What happened immediately after the speaker arrived?",
+      "audio_text": "Hardly had I arrived when the meeting started.",
+      "question_translation": {
+        "Hindi": "वक्ता के पहुँचने के तुरंत बाद क्या हुआ?",
+        "Japanese": "話者が到着してすぐに何が起こりましたか？"
+      },
+      "options": [
+        "The meeting had already ended",
+        "The meeting started",
+        "Nothing happened"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What condition is emphasized?",
+      "audio_text": "Only when the teacher entered did the students become quiet.",
+      "question_translation": {
+        "Hindi": "किस शर्त पर ज़ोर दिया गया है?",
+        "Japanese": "どの条件が強調されていますか？"
+      },
+      "options": [
+        "The students were always quiet",
+        "They became quiet when the teacher entered",
+        "They never became quiet"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Not until midnight did I finish my work.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Not until midnight did I finish my work.'",
+        "Japanese": "言ってください: 'Not until midnight did I finish my work.'"
+      },
+      "options": [],
+      "answer": "not until midnight did i finish my work"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Never have I heard such a story.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Never have I heard such a story.'",
+        "Japanese": "言ってください: 'Never have I heard such a story.'"
+      },
+      "options": [],
+      "answer": "never have i heard such a story"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Rarely do we see such kindness.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Rarely do we see such kindness.'",
+        "Japanese": "言ってください: 'Rarely do we see such kindness.'"
+      },
+      "options": [],
+      "answer": "rarely do we see such kindness"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Hardly had I spoken when she interrupted me.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Hardly had I spoken when she interrupted me.'",
+        "Japanese": "言ってください: 'Hardly had I spoken when she interrupted me.'"
+      },
+      "options": [],
+      "answer": "hardly had i spoken when she interrupted me"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Only when the show ended did we leave the theater.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Only when the show ended did we leave the theater.'",
+        "Japanese": "言ってください: 'Only when the show ended did we leave the theater.'"
+      },
+      "options": [],
+      "answer": "only when the show ended did we leave the theater"
+    }
+  ]
+}
+
 }

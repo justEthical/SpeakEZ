@@ -1,4 +1,550 @@
 {
-  "id": 43,
-  "message": "This is file number 43"
+  "id": "lesson_error_free_control_001",
+  "lesson_name": "Error-Free Control in High Stakes",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "precision",
+        "word_translation": {
+          "Hindi": "सटीकता",
+          "Japanese": "精密さ"
+        },
+        "meaning": "The quality of being exact and accurate",
+        "meaning_translation": {
+          "Hindi": "सटीक और सही होने की गुणवत्ता",
+          "Japanese": "正確であることの質"
+        },
+        "examples": [
+          {
+            "sentence": "Surgeons must work with extreme precision during operations.",
+            "translation": {
+              "Hindi": "सर्जनों को ऑपरेशन के दौरान अत्यधिक सटीकता से काम करना चाहिए।",
+              "Japanese": "外科医は手術中に極度の精密さで作業しなければならない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "meticulous",
+        "word_translation": {
+          "Hindi": "सूक्ष्म",
+          "Japanese": "几帳面な"
+        },
+        "meaning": "Showing great attention to detail; very careful and precise",
+        "meaning_translation": {
+          "Hindi": "विस्तार पर बहुत ध्यान देने वाला; अत्यंत सावधान और सटीक",
+          "Japanese": "細部にまで注意を払う、非常に慎重で正確な"
+        },
+        "examples": [
+          {
+            "sentence": "A meticulous plan can reduce the risk of failure.",
+            "translation": {
+              "Hindi": "एक सूक्ष्म योजना विफलता के जोखिम को कम कर सकती है।",
+              "Japanese": "几帳面な計画は失敗のリスクを減らすことができる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "flawless",
+        "word_translation": {
+          "Hindi": "निर्दोष",
+          "Japanese": "完璧な"
+        },
+        "meaning": "Without any mistakes or imperfections",
+        "meaning_translation": {
+          "Hindi": "बिना किसी गलती या खामी के",
+          "Japanese": "欠点や誤りがない"
+        },
+        "examples": [
+          {
+            "sentence": "Her presentation was flawless under pressure.",
+            "translation": {
+              "Hindi": "दबाव में भी उसकी प्रस्तुति निर्दोष थी।",
+              "Japanese": "彼女のプレゼンテーションはプレッシャーの中でも完璧だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "critical",
+        "word_translation": {
+          "Hindi": "महत्वपूर्ण",
+          "Japanese": "重大な"
+        },
+        "meaning": "Extremely important or essential, especially in a difficult situation",
+        "meaning_translation": {
+          "Hindi": "अत्यंत महत्वपूर्ण या आवश्यक, विशेषकर कठिन परिस्थितियों में",
+          "Japanese": "困難な状況で特に重要または不可欠な"
+        },
+        "examples": [
+          {
+            "sentence": "Timing is critical in emergency surgery.",
+            "translation": {
+              "Hindi": "आपातकालीन सर्जरी में समय अत्यंत महत्वपूर्ण है।",
+              "Japanese": "緊急手術ではタイミングが非常に重要である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "high-stakes",
+        "word_translation": {
+          "Hindi": "उच्च दांव",
+          "Japanese": "ハイリスクな"
+        },
+        "meaning": "Involving serious risks or important consequences",
+        "meaning_translation": {
+          "Hindi": "गंभीर जोखिम या महत्वपूर्ण परिणामों से जुड़ा हुआ",
+          "Japanese": "重大なリスクや重要な結果を伴う"
+        },
+        "examples": [
+          {
+            "sentence": "Pilots face high-stakes decisions during emergencies.",
+            "translation": {
+              "Hindi": "आपात स्थितियों में पायलटों को उच्च दांव वाले निर्णय लेने पड़ते हैं।",
+              "Japanese": "パイロットは緊急時にハイリスクな決断を迫られる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "accountability",
+        "word_translation": {
+          "Hindi": "जवाबदेही",
+          "Japanese": "説明責任"
+        },
+        "meaning": "Responsibility for one’s actions and their consequences",
+        "meaning_translation": {
+          "Hindi": "अपने कार्यों और उनके परिणामों की जिम्मेदारी",
+          "Japanese": "自分の行動やその結果に対する責任"
+        },
+        "examples": [
+          {
+            "sentence": "Leaders must take accountability for critical decisions.",
+            "translation": {
+              "Hindi": "नेताओं को महत्वपूर्ण निर्णयों की जवाबदेही लेनी चाहिए।",
+              "Japanese": "リーダーは重要な決定に対して説明責任を負わなければならない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contingency",
+        "word_translation": {
+          "Hindi": "आपात योजना",
+          "Japanese": "不測の事態"
+        },
+        "meaning": "A possible event that may happen and must be prepared for",
+        "meaning_translation": {
+          "Hindi": "संभावित घटना जो हो सकती है और जिसके लिए तैयारी करनी चाहिए",
+          "Japanese": "起こり得る事態で、備えておくべきもの"
+        },
+        "examples": [
+          {
+            "sentence": "Engineers always design contingency plans for system failures.",
+            "translation": {
+              "Hindi": "इंजीनियर हमेशा सिस्टम विफलताओं के लिए आपात योजनाएं बनाते हैं।",
+              "Japanese": "エンジニアはシステム障害に備えて常に不測の事態計画を立てる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rigorous",
+        "word_translation": {
+          "Hindi": "कठोर",
+          "Japanese": "厳格な"
+        },
+        "meaning": "Careful and thorough, following strict standards",
+        "meaning_translation": {
+          "Hindi": "सावधानीपूर्वक और संपूर्ण, कठोर मानकों का पालन करने वाला",
+          "Japanese": "慎重かつ徹底的で、厳しい基準に従う"
+        },
+        "examples": [
+          {
+            "sentence": "Rigorous testing ensures safety in high-stakes environments.",
+            "translation": {
+              "Hindi": "कठोर परीक्षण उच्च दांव वाले वातावरण में सुरक्षा सुनिश्चित करता है।",
+              "Japanese": "厳格なテストはハイリスクな環境での安全を確保する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "execution",
+        "word_translation": {
+          "Hindi": "कार्यान्वयन",
+          "Japanese": "実行"
+        },
+        "meaning": "The act of carrying out a plan or task successfully",
+        "meaning_translation": {
+          "Hindi": "किसी योजना या कार्य को सफलतापूर्वक पूरा करने की क्रिया",
+          "Japanese": "計画やタスクを成功裏に実行すること"
+        },
+        "examples": [
+          {
+            "sentence": "Flawless execution is vital in critical operations.",
+            "translation": {
+              "Hindi": "महत्वपूर्ण कार्यों में निर्दोष कार्यान्वयन महत्वपूर्ण है।",
+              "Japanese": "重要な作業では完璧な実行が不可欠である。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mitigate",
+        "word_translation": {
+          "Hindi": "कम करना",
+          "Japanese": "軽減する"
+        },
+        "meaning": "To make something less harmful or serious",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को कम हानिकारक या गंभीर बनाना",
+          "Japanese": "何かをより害が少なく、深刻さを減らすこと"
+        },
+        "examples": [
+          {
+            "sentence": "Backup systems help mitigate the risk of data loss.",
+            "translation": {
+              "Hindi": "बैकअप सिस्टम डेटा हानि के जोखिम को कम करने में मदद करते हैं।",
+              "Japanese": "バックアップシステムはデータ損失のリスクを軽減するのに役立つ。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Past Modals for Missed Obligations",
+        "explanation": "Use 'should have + past participle' to express something that was expected but didn’t happen. Example: The team should have prepared better for the crisis.",
+        "explanation_translation": {
+          "Hindi": "'should have + past participle' का उपयोग उस चीज़ के लिए करें जो अपेक्षित थी लेकिन नहीं हुई। उदाहरण: The team should have prepared better for the crisis.",
+          "Japanese": "起こるはずだったが起こらなかったことには「should have + 過去分詞」を使います。例：The team should have prepared better for the crisis."
+        }
+      },
+      {
+        "title": "Third Conditional for High-Stakes Outcomes",
+        "explanation": "Use 'if + past perfect, would have + past participle' to imagine different past results. Example: If the pilot had reacted faster, the accident would have been avoided.",
+        "explanation_translation": {
+          "Hindi": "अतीत में अलग परिणाम की कल्पना करने के लिए 'if + past perfect, would have + past participle' का उपयोग करें। उदाहरण: If the pilot had reacted faster, the accident would have been avoided.",
+          "Japanese": "過去に異なる結果を想像するには「if + 過去完了, would have + 過去分詞」を使います。例：If the pilot had reacted faster, the accident would have been avoided."
+        }
+      },
+      {
+        "title": "Nominalization in Formal Reports",
+        "explanation": "Turn verbs into nouns to make language formal and concise. Example: 'We analyzed the data' → 'The analysis of the data'.",
+        "explanation_translation": {
+          "Hindi": "भाषा को औपचारिक और संक्षिप्त बनाने के लिए क्रियाओं को संज्ञा में बदलें। उदाहरण: 'We analyzed the data' → 'The analysis of the data'.",
+          "Japanese": "言語を形式的かつ簡潔にするために動詞を名詞化します。例：'We analyzed the data' → 'The analysis of the data'."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'extreme accuracy and exactness'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'अत्यधिक सटीकता और सहीपन' का अर्थ देता है?",
+        "Japanese": "「極度の正確さと精密さ」を意味する単語はどれですか？"
+      },
+      "options": [
+        "precision",
+        "contingency",
+        "execution"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The engineer created a ___ plan to avoid any mistakes.",
+      "question_translation": {
+        "Hindi": "इंजीनियर ने किसी भी गलती से बचने के लिए एक ___ योजना बनाई।",
+        "Japanese": "エンジニアはミスを避けるために___計画を立てた。"
+      },
+      "options": [
+        "flawless",
+        "rigorous",
+        "meticulous"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "High-stakes situations always involve serious consequences.",
+      "question_translation": {
+        "Hindi": "उच्च दांव वाली स्थितियों में हमेशा गंभीर परिणाम शामिल होते हैं।",
+        "Japanese": "ハイリスクな状況には常に重大な結果が伴う。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term means 'responsibility for one’s actions'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'अपने कार्यों की जिम्मेदारी' का अर्थ देता है?",
+        "Japanese": "「自分の行動に対する責任」を意味する単語はどれですか？"
+      },
+      "options": [
+        "contingency",
+        "accountability",
+        "rigorous"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Backup systems help ___ the risk of failure.",
+      "question_translation": {
+        "Hindi": "बैकअप सिस्टम विफलता के जोखिम को ___ में मदद करते हैं।",
+        "Japanese": "バックアップシステムは失敗のリスクを___のに役立つ。"
+      },
+      "options": [
+        "mitigate",
+        "increase",
+        "ignore"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "multipleChoice",
+      "question": "Which sentence correctly uses a past modal for a missed obligation?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य छूटे हुए दायित्व के लिए सही past modal का उपयोग करता है?",
+        "Japanese": "どの文が果たされなかった義務に対して過去モーダルを正しく使っていますか？"
+      },
+      "options": [
+        "The pilot should have checked the system earlier.",
+        "The pilot should check the system earlier.",
+        "The pilot should checks the system earlier."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "If the team ___ (prepare) better, the crisis would have been avoided.",
+      "question_translation": {
+        "Hindi": "अगर टीम ने बेहतर ___ (prepare) किया होता, तो संकट टल जाता।",
+        "Japanese": "チームがもっとよく___（準備）していたら、危機は避けられただろう。"
+      },
+      "options": [
+        "prepared",
+        "had prepared",
+        "prepares"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [analysis, of, the, data, was, meticulous]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [analysis, of, the, data, was, meticulous]",
+        "Japanese": "並べ替え: [analysis, of, the, data, was, meticulous]"
+      },
+      "options": [
+        "analysis",
+        "of",
+        "the",
+        "data",
+        "was",
+        "meticulous"
+      ],
+      "answer": [
+        "The",
+        "analysis",
+        "of",
+        "the",
+        "data",
+        "was",
+        "meticulous"
+      ]
+    },
+    {
+      "id": "sent4",
+      "type": "multipleChoice",
+      "question": "Which sentence uses nominalization correctly?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य nominalization का सही उपयोग करता है?",
+        "Japanese": "どの文が名詞化を正しく使っていますか？"
+      },
+      "options": [
+        "We performed an analysis of the system.",
+        "We analyze the system performance.",
+        "We analyzing the system performance."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The operation was carried out with extreme ___ to avoid errors.",
+      "question_translation": {
+        "Hindi": "गलतियों से बचने के लिए ऑपरेशन को अत्यधिक ___ के साथ किया गया।",
+        "Japanese": "ミスを避けるために手術は極度の___で行われた。"
+      },
+      "options": [
+        "precision",
+        "contingency",
+        "rigorous"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker emphasize?",
+      "audio_text": "Flawless execution is essential in high-stakes medical procedures.",
+      "question_translation": {
+        "Hindi": "वक्ता किस पर ज़ोर दे रहा है?",
+        "Japanese": "話者は何を強調していますか？"
+      },
+      "options": [
+        "Flawless execution",
+        "Backup systems",
+        "Team motivation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says that accountability is critical in risky decisions.",
+      "audio_text": "In high-stakes operations, accountability for decisions is critical.",
+      "question_translation": {
+        "Hindi": "वक्ता कहता है कि जोखिम भरे निर्णयों में जवाबदेही महत्वपूर्ण है।",
+        "Japanese": "話者は、危険な決定では説明責任が重要だと言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What helps mitigate errors according to the speaker?",
+      "audio_text": "Meticulous planning helps mitigate potential errors during execution.",
+      "question_translation": {
+        "Hindi": "वक्ता के अनुसार, कौन सी चीज़ त्रुटियों को कम करने में मदद करती है?",
+        "Japanese": "話者によると、何が実行中のエラーを軽減しますか？"
+      },
+      "options": [
+        "Meticulous planning",
+        "Quick action",
+        "Ignoring risks"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is described as a contingency measure?",
+      "audio_text": "Having backup generators is a key contingency measure in hospitals.",
+      "question_translation": {
+        "Hindi": "कौन सी चीज़ को आपात उपाय के रूप में वर्णित किया गया है?",
+        "Japanese": "病院で重要な不測の事態対策として説明されているのは何ですか？"
+      },
+      "options": [
+        "Backup generators",
+        "Surgeons",
+        "Precise timing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker suggests that rigorous testing prevents accidents.",
+      "audio_text": "Rigorous testing is done to prevent accidents in high-risk fields.",
+      "question_translation": {
+        "Hindi": "वक्ता सुझाव देता है कि कठोर परीक्षण दुर्घटनाओं को रोकता है।",
+        "Japanese": "話者は、厳格なテストが事故を防ぐと示唆しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Precision is crucial in high-stakes missions.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Precision is crucial in high-stakes missions.'",
+        "Japanese": "言ってください: 'Precision is crucial in high-stakes missions.'"
+      },
+      "options": [],
+      "answer": "precision is crucial in high stakes missions"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'We should have prepared better for the crisis.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We should have prepared better for the crisis.'",
+        "Japanese": "言ってください: 'We should have prepared better for the crisis.'"
+      },
+      "options": [],
+      "answer": "we should have prepared better for the crisis"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Meticulous planning prevents costly errors.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Meticulous planning prevents costly errors.'",
+        "Japanese": "言ってください: 'Meticulous planning prevents costly errors.'"
+      },
+      "options": [],
+      "answer": "meticulous planning prevents costly errors"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Accountability matters in critical decisions.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Accountability matters in critical decisions.'",
+        "Japanese": "言ってください: 'Accountability matters in critical decisions.'"
+      },
+      "options": [],
+      "answer": "accountability matters in critical decisions"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'We mitigated the risk with contingency plans.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We mitigated the risk with contingency plans.'",
+        "Japanese": "言ってください: 'We mitigated the risk with contingency plans.'"
+      },
+      "options": [],
+      "answer": "we mitigated the risk with contingency plans"
+    }
+  ]
+}
+
 }

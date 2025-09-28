@@ -1,4 +1,564 @@
 {
-  "id": 49,
-  "message": "This is file number 49"
+  "id": "lesson_explaining_procedures_001",
+  "lesson_name": "Explaining Procedures (step by step)",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "procedure",
+        "word_translation": {
+          "Hindi": "प्रक्रिया",
+          "Japanese": "手順"
+        },
+        "meaning": "A set of steps that you follow to do something",
+        "meaning_translation": {
+          "Hindi": "किसी काम को करने के लिए अनुसरण किए जाने वाले चरणों का समूह",
+          "Japanese": "何かを行うために従う一連のステップ"
+        },
+        "examples": [
+          {
+            "sentence": "Follow the procedure to reset the router.",
+            "translation": {
+              "Hindi": "राउटर को रीसेट करने के लिए प्रक्रिया का पालन करें।",
+              "Japanese": "ルーターをリセットする手順に従ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "step",
+        "word_translation": {
+          "Hindi": "चरण",
+          "Japanese": "ステップ／段階"
+        },
+        "meaning": "One action in a series of actions",
+        "meaning_translation": {
+          "Hindi": "कार्यों की शृंखला में एक क्रिया",
+          "Japanese": "一連の作業の中の一つの行動"
+        },
+        "examples": [
+          {
+            "sentence": "There are four steps in this process.",
+            "translation": {
+              "Hindi": "इस प्रक्रिया में चार चरण हैं।",
+              "Japanese": "このプロセスには4つのステップがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sequence",
+        "word_translation": {
+          "Hindi": "क्रम",
+          "Japanese": "順序"
+        },
+        "meaning": "The order in which things should happen",
+        "meaning_translation": {
+          "Hindi": "वह क्रम जिसमें चीजें होनी चाहिए",
+          "Japanese": "物事が起こるべき順番"
+        },
+        "examples": [
+          {
+            "sentence": "Do the tasks in the correct sequence.",
+            "translation": {
+              "Hindi": "कार्यों को सही क्रम में करें।",
+              "Japanese": "作業は正しい順序で行ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "instruction",
+        "word_translation": {
+          "Hindi": "निर्देश",
+          "Japanese": "指示"
+        },
+        "meaning": "Information that tells you how to do something",
+        "meaning_translation": {
+          "Hindi": "कुछ करने का तरीका बताने वाली जानकारी",
+          "Japanese": "やり方を説明する情報"
+        },
+        "examples": [
+          {
+            "sentence": "Read the instructions carefully before you start.",
+            "translation": {
+              "Hindi": "शुरू करने से पहले निर्देशों को ध्यान से पढ़ें।",
+              "Japanese": "始める前に指示をよく読んでください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "checklist",
+        "word_translation": {
+          "Hindi": "चेकलिस्ट",
+          "Japanese": "チェックリスト"
+        },
+        "meaning": "A list of things you must do or check",
+        "meaning_translation": {
+          "Hindi": "वे चीज़ें जिनको करना या जाँचना आवश्यक हो, उनकी सूची",
+          "Japanese": "行う・確認するべき項目の一覧"
+        },
+        "examples": [
+          {
+            "sentence": "Use a checklist so you don’t miss any step.",
+            "translation": {
+              "Hindi": "कोई भी चरण छूट न जाए, इसके लिए चेकलिस्ट का उपयोग करें।",
+              "Japanese": "手順を漏らさないようにチェックリストを使いましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assemble",
+        "word_translation": {
+          "Hindi": "जोड़ना",
+          "Japanese": "組み立てる"
+        },
+        "meaning": "To put parts together to make something",
+        "meaning_translation": {
+          "Hindi": "भागों को जोड़कर कुछ बनाना",
+          "Japanese": "部品を組み合わせて作ること"
+        },
+        "examples": [
+          {
+            "sentence": "Assemble the parts as shown in the picture.",
+            "translation": {
+              "Hindi": "चित्र में दिखाए अनुसार भागों को जोड़ें।",
+              "Japanese": "図のとおりに部品を組み立ててください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "measure",
+        "word_translation": {
+          "Hindi": "मापना",
+          "Japanese": "測る"
+        },
+        "meaning": "To find the size, amount, or degree of something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का आकार, मात्रा या स्तर जानना",
+          "Japanese": "大きさ・量・程度を確認すること"
+        },
+        "examples": [
+          {
+            "sentence": "Measure 200 milliliters of water.",
+            "translation": {
+              "Hindi": "200 मिलीलीटर पानी मापें।",
+              "Japanese": "水を200ミリリットル測ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "preheat",
+        "word_translation": {
+          "Hindi": "पहले से गरम करना",
+          "Japanese": "予熱する"
+        },
+        "meaning": "To heat something, especially an oven, before using it",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ (विशेषकर ओवन) को उपयोग से पहले गरम करना",
+          "Japanese": "使用前に（特にオーブンを）温めておくこと"
+        },
+        "examples": [
+          {
+            "sentence": "Preheat the oven to 180°C.",
+            "translation": {
+              "Hindi": "ओवन को 180°C पर पहले से गरम करें।",
+              "Japanese": "オーブンを180℃に予熱してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "follow",
+        "word_translation": {
+          "Hindi": "पालन करना",
+          "Japanese": "従う"
+        },
+        "meaning": "To do something as it is explained or ordered",
+        "meaning_translation": {
+          "Hindi": "बताए गए या आदेशानुसार उसी तरह करना",
+          "Japanese": "説明や指示のとおりに行うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Follow the steps in order.",
+            "translation": {
+              "Hindi": "चरणों का क्रम में पालन करें।",
+              "Japanese": "順番どおりにステップに従ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "timer",
+        "word_translation": {
+          "Hindi": "टाइमर",
+          "Japanese": "タイマー"
+        },
+        "meaning": "A tool that measures time for a task",
+        "meaning_translation": {
+          "Hindi": "किसी कार्य के लिए समय मापने का उपकरण",
+          "Japanese": "作業の時間を計る道具"
+        },
+        "examples": [
+          {
+            "sentence": "Set a timer for ten minutes.",
+            "translation": {
+              "Hindi": "दस मिनट के लिए टाइमर सेट करें।",
+              "Japanese": "10分のタイマーを設定してください。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Sequencing words: first, next, then, after that, finally",
+        "explanation": "Use sequencing words to show order. Example: First, wash your hands. Next, dry them. Finally, start cooking.",
+        "explanation_translation": {
+          "Hindi": "क्रम दिखाने के लिए sequencing शब्दों का उपयोग करें। उदाहरण: First, wash your hands. Next, dry them. Finally, start cooking.",
+          "Japanese": "順序を示す語を使いましょう。例：First, wash your hands. Next, dry them. Finally, start cooking."
+        }
+      },
+      {
+        "title": "Imperatives for instructions (with 'Please' and negatives)",
+        "explanation": "Use the base verb for steps: 'Press the button.' Add 'Please' to be polite: 'Please press the button.' Use 'Don’t + verb' for warnings: 'Don’t touch the hot pan.'",
+        "explanation_translation": {
+          "Hindi": "कदम बताने के लिए क्रिया का मूल रूप प्रयोग करें: 'Press the button.' विनम्रता के लिए 'Please' जोड़ें: 'Please press the button.' चेतावनी के लिए 'Don’t + verb' प्रयोग करें: 'Don’t touch the hot pan.'",
+          "Japanese": "手順には動詞の原形を使います：'Press the button.' 丁寧にするには 'Please' を付けます：'Please press the button.' 注意には 'Don’t + 動詞'：'Don’t touch the hot pan.'"
+        }
+      },
+      {
+        "title": "Before/After + -ing to show order",
+        "explanation": "Use 'before/after + -ing' to connect steps. Example: Before starting the test, check the cables. After finishing, save your work.",
+        "explanation_translation": {
+          "Hindi": "'before/after + -ing' से चरण जोड़ें। उदाहरण: Before starting the test, check the cables. After finishing, save your work.",
+          "Japanese": "手順をつなぐには 'before/after + 動名詞' を使います。例：Before starting the test, check the cables. After finishing, save your work."
+        }
+      },
+      {
+        "title": "Using 'must / have to' vs 'should'",
+        "explanation": "Use 'must' or 'have to' for required steps. Use 'should' for advice. Example: You must wear gloves. You should label the samples.",
+        "explanation_translation": {
+          "Hindi": "ज़रूरी चरणों के लिए 'must' या 'have to' का उपयोग करें। सलाह के लिए 'should' का प्रयोग करें। उदाहरण: You must wear gloves. You should label the samples.",
+          "Japanese": "必須の手順には 'must' / 'have to'、助言には 'should' を使います。例：You must wear gloves. You should label the samples."
+        }
+      }
+    ]
+  },
+  
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a set of steps that you follow to do something'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'किसी काम को करने के लिए चरणों का समूह' का अर्थ है?",
+          "Japanese": "「何かを行うために従う一連のステップ」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "procedure",
+          "timer",
+          "checklist"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Do the tasks in the correct ___.",
+        "question_translation": {
+          "Hindi": "कार्यों को सही ___ में करें।",
+          "Japanese": "作業は正しい___で行ってください。"
+        },
+        "options": [
+          "step",
+          "sequence",
+          "instruction"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A checklist is a list of things you must do or check.",
+        "question_translation": {
+          "Hindi": "चेकलिस्ट उन चीजों की सूची है जिन्हें आपको करना या जांचना होता है।",
+          "Japanese": "チェックリストとは、行う・確認するべき項目の一覧です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'to put parts together to make something'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'भागों को जोड़कर कुछ बनाने' का अर्थ है?",
+          "Japanese": "「部品を組み合わせて作ること」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "measure",
+          "assemble",
+          "preheat"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "___ the oven to 180°C before baking the cake.",
+        "question_translation": {
+          "Hindi": "केक बेक करने से पहले ओवन को 180°C पर ___।",
+          "Japanese": "ケーキを焼く前にオーブンを180℃に___してください。"
+        },
+        "options": [
+          "Preheat",
+          "Measure",
+          "Follow"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [first, your, wash, hands]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [first, your, wash, hands]",
+          "Japanese": "並べ替え: [first, your, wash, hands]"
+        },
+        "options": [
+          "first",
+          "your",
+          "wash",
+          "hands"
+        ],
+        "answer": [
+          "first",
+          "wash",
+          "your",
+          "hands"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "___ starting the test, check the cables.",
+        "question_translation": {
+          "Hindi": "टेस्ट शुरू करने से ___ केबल्स की जाँच करें।",
+          "Japanese": "テストを始める___ケーブルを確認してください。"
+        },
+        "options": [
+          "Before",
+          "After",
+          "During"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence gives a polite instruction?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य एक विनम्र निर्देश देता है?",
+          "Japanese": "どの文が丁寧な指示ですか？"
+        },
+        "options": [
+          "Press the button.",
+          "Please press the button.",
+          "Don’t press the button."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [save, your, after, work, finishing]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [save, your, after, work, finishing]",
+          "Japanese": "並べ替え: [save, your, after, work, finishing]"
+        },
+        "options": [
+          "save",
+          "your",
+          "after",
+          "work",
+          "finishing"
+        ],
+        "answer": [
+          "after",
+          "finishing",
+          "your",
+          "work",
+          "save"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "You ___ wear gloves when handling chemicals.",
+        "question_translation": {
+          "Hindi": "जब रसायनों को संभालते हैं तो आपको दस्ताने ___ पहनने चाहिए।",
+          "Japanese": "化学薬品を扱うときは手袋を___着用しなければなりません。"
+        },
+        "options": [
+          "must",
+          "should",
+          "can"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is the first step the speaker mentions?",
+        "audio_text": "First, wash your hands with soap and water.",
+        "question_translation": {
+          "Hindi": "वक्ता द्वारा बताए गए पहले चरण क्या है?",
+          "Japanese": "話者が最初に言ったステップは何ですか？"
+        },
+        "options": [
+          "Wash your hands",
+          "Dry your hands",
+          "Wear gloves"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What should you do after finishing the experiment?",
+        "audio_text": "After finishing the experiment, clean the table with a cloth.",
+        "question_translation": {
+          "Hindi": "प्रयोग खत्म करने के बाद आपको क्या करना चाहिए?",
+          "Japanese": "実験を終えた後、何をすべきですか？"
+        },
+        "options": [
+          "Save your work",
+          "Clean the table",
+          "Switch off the timer"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker asks you to set a timer for 10 minutes.",
+        "audio_text": "Set a timer for ten minutes and wait.",
+        "question_translation": {
+          "Hindi": "वक्ता आपसे दस मिनट के लिए टाइमर सेट करने को कहता है।",
+          "Japanese": "話者は10分間のタイマーを設定するように言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What tool does the speaker ask you to use?",
+        "audio_text": "Measure 200 milliliters of water using a measuring cup.",
+        "question_translation": {
+          "Hindi": "वक्ता किस उपकरण का उपयोग करने को कहता है?",
+          "Japanese": "話者はどの道具を使うように言っていますか？"
+        },
+        "options": [
+          "A spoon",
+          "A checklist",
+          "A measuring cup"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What warning does the speaker give?",
+        "audio_text": "Don’t touch the hot pan without gloves.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी चेतावनी देता है?",
+          "Japanese": "話者はどんな警告をしていますか？"
+        },
+        "options": [
+          "Touch the hot pan",
+          "Don’t touch the hot pan",
+          "Wear a timer"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'First, wash your hands.'",
+        "question_translation": {
+          "Hindi": "कहें: 'First, wash your hands.'",
+          "Japanese": "言ってください: 'First, wash your hands.'"
+        },
+        "options": [],
+        "answer": "first wash your hands"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Next, measure 200 milliliters of water.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Next, measure 200 milliliters of water.'",
+          "Japanese": "言ってください: 'Next, measure 200 milliliters of water.'"
+        },
+        "options": [],
+        "answer": "next measure 200 milliliters of water"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Please follow the instructions carefully.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Please follow the instructions carefully.'",
+          "Japanese": "言ってください: 'Please follow the instructions carefully.'"
+        },
+        "options": [],
+        "answer": "please follow the instructions carefully"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'After finishing, save your work.'",
+        "question_translation": {
+          "Hindi": "कहें: 'After finishing, save your work.'",
+          "Japanese": "言ってください: 'After finishing, save your work.'"
+        },
+        "options": [],
+        "answer": "after finishing save your work"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'You must wear gloves during the experiment.'",
+        "question_translation": {
+          "Hindi": "कहें: 'You must wear gloves during the experiment.'",
+          "Japanese": "言ってください: 'You must wear gloves during the experiment.'"
+        },
+        "options": [],
+        "answer": "you must wear gloves during the experiment"
+      }
+    ]
+  }
+
+
 }

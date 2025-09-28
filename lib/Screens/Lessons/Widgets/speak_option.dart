@@ -124,12 +124,12 @@ class _SpeakOptionState extends State<SpeakOption> {
                       final micPermission =
                           await Permission.microphone.request();
                       if (micPermission.isGranted) {
-                        if(globalController.isWhisperInitialized.value){
+                        // if(globalController.isWhisperInitialized.value){
                           c.startRecording();
-                        }else{
+                        // }else{
                           // used when whisper model is not initialized or not present
-                          c.googleSpeechToText();
-                        }
+                          // c.googleSpeechToText();
+                        // }
                       }
                     },
                     icon: Icon(Icons.mic, color: Colors.white, size: 40),

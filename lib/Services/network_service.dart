@@ -36,7 +36,7 @@ class NetworkService {
     String systemPrompt,
     String userPrompt) {
     return {
-      "model": "mistralai/Mistral-Small-3.2-24B-Instruct-2506", // "google/gemma-3-12b-it", //
+      "model":  "google/gemma-3-12b-it", // "mistralai/Mistral-Small-3.2-24B-Instruct-2506", //
       "messages": [
         {
             "role": 'system',

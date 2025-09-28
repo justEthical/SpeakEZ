@@ -27,12 +27,12 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
           ),
           Text(
             c.isUnlockTest
-                ? "⚠️ Exiting will immediately end this test. You will not be able to attempt any questions UNLOCK LEVEL TEST again until 24 hours have passed. Do you still want to Exit?"
+                ? "⚠️ Exiting will immediately end this test. You will not be able to attempt any UNLOCK LEVEL TEST again until 24 hours have passed. Do you still want to Exit?"
                 : "Are you sure you want to exit and discard your current lessson's progress?",
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black,
-              fontSize: 20,
+              fontSize: c.isUnlockTest ? 16 : 20,
               fontWeight: FontWeight.w700,
             ),
           ),

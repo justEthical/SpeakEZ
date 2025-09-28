@@ -1,4 +1,575 @@
 {
-  "id": 34,
-  "message": "This is file number 34"
+  "id": "lesson_evaluating_evidence_source_quality_c1",
+  "lesson_name": "Evaluating Evidence & Source Quality",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "credible source",
+        "word_translation": {
+          "Hindi": "विश्वसनीय स्रोत",
+          "Japanese": "信頼できる情報源"
+        },
+        "meaning": "A source that is trustworthy, accurate, and reliable",
+        "meaning_translation": {
+          "Hindi": "एक ऐसा स्रोत जो भरोसेमंद, सटीक और विश्वसनीय हो",
+          "Japanese": "信頼できて正確かつ確実な情報源"
+        },
+        "examples": [
+          {
+            "sentence": "Peer-reviewed journals are credible sources for academic research.",
+            "translation": {
+              "Hindi": "समीक्षित जर्नल शैक्षणिक अनुसंधान के लिए विश्वसनीय स्रोत हैं।",
+              "Japanese": "査読付きの学術誌は学術研究において信頼できる情報源です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bias",
+        "word_translation": {
+          "Hindi": "पक्षपात",
+          "Japanese": "偏り・バイアス"
+        },
+        "meaning": "A tendency to favor one perspective or side unfairly",
+        "meaning_translation": {
+          "Hindi": "एक प्रवृत्ति जो किसी एक दृष्टिकोण या पक्ष का अनुचित समर्थन करती है",
+          "Japanese": "一方の視点や立場を不当に支持する傾向"
+        },
+        "examples": [
+          {
+            "sentence": "Be aware of bias when reading opinion-based articles.",
+            "translation": {
+              "Hindi": "मत-आधारित लेख पढ़ते समय पक्षपात से सावधान रहें।",
+              "Japanese": "意見ベースの記事を読むときは偏りに注意してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "peer-reviewed",
+        "word_translation": {
+          "Hindi": "समीक्षित",
+          "Japanese": "査読済み"
+        },
+        "meaning": "Evaluated by experts in the field before publication",
+        "meaning_translation": {
+          "Hindi": "प्रकाशन से पहले क्षेत्र के विशेषज्ञों द्वारा मूल्यांकन किया गया",
+          "Japanese": "発表前に専門家によって評価されたもの"
+        },
+        "examples": [
+          {
+            "sentence": "Peer-reviewed research is generally more reliable than blogs.",
+            "translation": {
+              "Hindi": "समीक्षित अनुसंधान आमतौर पर ब्लॉगों की तुलना में अधिक विश्वसनीय होता है।",
+              "Japanese": "査読済みの研究はブログよりも信頼性が高い傾向があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "anecdotal evidence",
+        "word_translation": {
+          "Hindi": "किस्सों पर आधारित साक्ष्य",
+          "Japanese": "逸話的証拠"
+        },
+        "meaning": "Evidence based on personal stories rather than facts or research",
+        "meaning_translation": {
+          "Hindi": "व्यक्तिगत कहानियों पर आधारित साक्ष्य, न कि तथ्यों या शोध पर",
+          "Japanese": "事実や研究ではなく個人的な体験談に基づく証拠"
+        },
+        "examples": [
+          {
+            "sentence": "Anecdotal evidence is weak for scientific arguments.",
+            "translation": {
+              "Hindi": "वैज्ञानिक तर्कों के लिए किस्सों पर आधारित साक्ष्य कमजोर होते हैं।",
+              "Japanese": "科学的な議論において逸話的証拠は弱いものです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "primary source",
+        "word_translation": {
+          "Hindi": "प्राथमिक स्रोत",
+          "Japanese": "一次資料"
+        },
+        "meaning": "Original material or evidence created at the time under study",
+        "meaning_translation": {
+          "Hindi": "अध्ययन किए जा रहे समय पर बनाया गया मूल सामग्री या साक्ष्य",
+          "Japanese": "研究対象の時期に作成された元の資料や証拠"
+        },
+        "examples": [
+          {
+            "sentence": "Diaries and original research papers are primary sources.",
+            "translation": {
+              "Hindi": "डायरी और मौलिक शोध पत्र प्राथमिक स्रोत हैं।",
+              "Japanese": "日記や原著論文は一次資料です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "secondary source",
+        "word_translation": {
+          "Hindi": "द्वितीयक स्रोत",
+          "Japanese": "二次資料"
+        },
+        "meaning": "Analysis, interpretation, or review of primary sources",
+        "meaning_translation": {
+          "Hindi": "प्राथमिक स्रोतों का विश्लेषण, व्याख्या या समीक्षा",
+          "Japanese": "一次資料の分析・解釈・レビュー"
+        },
+        "examples": [
+          {
+            "sentence": "Textbooks are secondary sources based on primary research.",
+            "translation": {
+              "Hindi": "पाठ्यपुस्तकें प्राथमिक शोध पर आधारित द्वितीयक स्रोत हैं।",
+              "Japanese": "教科書は一次研究を基にした二次資料です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "fact-checking",
+        "word_translation": {
+          "Hindi": "तथ्य-जाँच",
+          "Japanese": "ファクトチェック"
+        },
+        "meaning": "Verifying whether information is accurate and truthful",
+        "meaning_translation": {
+          "Hindi": "यह सुनिश्चित करना कि जानकारी सटीक और सत्य है",
+          "Japanese": "情報が正確かつ真実かどうかを確認すること"
+        },
+        "examples": [
+          {
+            "sentence": "Always perform fact-checking before citing statistics.",
+            "translation": {
+              "Hindi": "सांख्यिकी उद्धृत करने से पहले हमेशा तथ्य-जाँच करें।",
+              "Japanese": "統計を引用する前に必ずファクトチェックを行いましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reliability",
+        "word_translation": {
+          "Hindi": "विश्वसनीयता",
+          "Japanese": "信頼性"
+        },
+        "meaning": "The degree to which a source or information can be depended on",
+        "meaning_translation": {
+          "Hindi": "किस हद तक किसी स्रोत या जानकारी पर भरोसा किया जा सकता है",
+          "Japanese": "情報源や情報がどの程度信頼できるか"
+        },
+        "examples": [
+          {
+            "sentence": "Check the reliability of sources before using them in research.",
+            "translation": {
+              "Hindi": "शोध में उपयोग करने से पहले स्रोतों की विश्वसनीयता जाँचें।",
+              "Japanese": "研究で使用する前に情報源の信頼性を確認してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "currency",
+        "word_translation": {
+          "Hindi": "समकालीनता",
+          "Japanese": "最新性"
+        },
+        "meaning": "How up-to-date and timely the information is",
+        "meaning_translation": {
+          "Hindi": "जानकारी कितनी नवीन और समयानुसार है",
+          "Japanese": "情報がどの程度最新かつ適時であるか"
+        },
+        "examples": [
+          {
+            "sentence": "Always check the currency of data in fast-changing fields.",
+            "translation": {
+              "Hindi": "तेज़ी से बदलते क्षेत्रों में डेटा की समकालीनता अवश्य जाँचें।",
+              "Japanese": "急速に変化する分野ではデータの最新性を必ず確認してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "authority",
+        "word_translation": {
+          "Hindi": "प्राधिकरण / अधिकारिता",
+          "Japanese": "権威・信頼性"
+        },
+        "meaning": "The expertise or recognized status of the source’s creator",
+        "meaning_translation": {
+          "Hindi": "स्रोत के निर्माता की विशेषज्ञता या मान्यता प्राप्त स्थिति",
+          "Japanese": "情報源の作成者の専門性や認知された地位"
+        },
+        "examples": [
+          {
+            "sentence": "Articles written by field experts have high authority.",
+            "translation": {
+              "Hindi": "क्षेत्र के विशेषज्ञों द्वारा लिखे गए लेखों में उच्च अधिकारिता होती है।",
+              "Japanese": "専門家によって書かれた記事は高い権威性を持っています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Hedging for Critical Evaluation",
+        "explanation": "When evaluating evidence, use hedging phrases like 'appears to', 'may suggest', or 'seems to indicate' to show caution.",
+        "explanation_translation": {
+          "Hindi": "साक्ष्य का मूल्यांकन करते समय 'appears to', 'may suggest', या 'seems to indicate' जैसे हेजिंग वाक्यांशों का उपयोग सावधानी दिखाने के लिए करें।",
+          "Japanese": "証拠を評価するときは「appears to」「may suggest」「seems to indicate」などの表現を使って慎重さを示しましょう。"
+        }
+      },
+      {
+        "title": "Integrating Sources Smoothly",
+        "explanation": "Use reporting verbs such as 'argues', 'claims', or 'demonstrates' to introduce evidence clearly.",
+        "explanation_translation": {
+          "Hindi": "'argues', 'claims', या 'demonstrates' जैसे रिपोर्टिंग क्रियाओं का उपयोग साक्ष्य को स्पष्ट रूप से प्रस्तुत करने के लिए करें।",
+          "Japanese": "「argues」「claims」「demonstrates」などの動詞を使って証拠をわかりやすく紹介します。"
+        }
+      },
+      {
+        "title": "Citing Multiple Sources",
+        "explanation": "When several studies support an idea, cite them together using connectors like 'similarly', 'also', or 'as reported by'.",
+        "explanation_translation": {
+          "Hindi": "जब कई अध्ययन एक विचार का समर्थन करते हैं, तो 'similarly', 'also', या 'as reported by' जैसे संयोजक का उपयोग करके उन्हें एक साथ उद्धृत करें।",
+          "Japanese": "複数の研究が同じ考えを支持する場合、「similarly」「also」「as reported by」などを使ってまとめて引用します。"
+        }
+      },
+      {
+        "title": "Using Present Perfect for Ongoing Relevance",
+        "explanation": "Use the present perfect to show that past research still influences current knowledge.",
+        "explanation_translation": {
+          "Hindi": "वर्तमान ज्ञान को प्रभावित करने वाले पिछले शोध को दिखाने के लिए वर्तमान परिपूर्ण काल का उपयोग करें।",
+          "Japanese": "過去の研究が現在の知識に影響を与えていることを示すために現在完了形を使います。"
+        }
+      },
+      {
+        "title": "Avoiding Overgeneralization",
+        "explanation": "Be specific about evidence and avoid broad statements without support.",
+        "explanation_translation": {
+          "Hindi": "साक्ष्य के बारे में विशिष्ट रहें और समर्थन के बिना व्यापक कथनों से बचें।",
+          "Japanese": "証拠については具体的に述べ、裏付けのない一般化を避けましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term refers to a trustworthy and reliable source of information?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द विश्वसनीय और भरोसेमंद जानकारी के स्रोत को संदर्भित करता है?",
+        "Japanese": "信頼できる情報源を指す用語はどれですか？"
+      },
+      "options": [
+        "Credible source",
+        "Bias",
+        "Anecdotal evidence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "Bias means favoring one perspective unfairly.",
+      "question_translation": {
+        "Hindi": "पक्षपात का मतलब किसी एक दृष्टिकोण का अनुचित समर्थन करना है।",
+        "Japanese": "バイアスとは、一方の視点を不当に支持することを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "Blogs are usually not ______ sources compared to peer-reviewed journals.",
+      "question_translation": {
+        "Hindi": "ब्लॉग आमतौर पर समीक्षित जर्नल की तुलना में ______ स्रोत नहीं होते।",
+        "Japanese": "ブログは査読付きジャーナルと比べて通常______な情報源ではありません。"
+      },
+      "options": [
+        "credible",
+        "biased",
+        "primary"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which type of evidence is based on personal stories and weak for research?",
+      "question_translation": {
+        "Hindi": "कौन सा साक्ष्य व्यक्तिगत कहानियों पर आधारित होता है और शोध के लिए कमजोर होता है?",
+        "Japanese": "個人的な体験談に基づき研究には弱い証拠はどれですか？"
+      },
+      "options": [
+        "Anecdotal evidence",
+        "Peer-reviewed evidence",
+        "Fact-checking"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which criterion checks how up-to-date the information is?",
+      "question_translation": {
+        "Hindi": "कौन सा मानदंड यह जाँचता है कि जानकारी कितनी नवीन है?",
+        "Japanese": "情報がどの程度新しいかを確認する基準はどれですか？"
+      },
+      "options": [
+        "Currency",
+        "Authority",
+        "Reliability"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [peer-reviewed, reliable, more, research, than, blogs, is]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [peer-reviewed, reliable, more, research, than, blogs, is]",
+        "Japanese": "並べ替え: [peer-reviewed, reliable, more, research, than, blogs, is]"
+      },
+      "options": [
+        "peer-reviewed",
+        "reliable",
+        "more",
+        "research",
+        "than",
+        "blogs",
+        "is"
+      ],
+      "answer": [
+        "peer-reviewed",
+        "research",
+        "is",
+        "more",
+        "reliable",
+        "than",
+        "blogs"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Always check the ______ of the source to see if it is recent.",
+      "question_translation": {
+        "Hindi": "यह देखने के लिए कि स्रोत हालिया है या नहीं, हमेशा उसकी ______ जाँचें।",
+        "Japanese": "情報源が新しいかどうかを確認するために常にその______を確認してください。"
+      },
+      "options": [
+        "currency",
+        "authority",
+        "bias"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses hedging correctly?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य हेजिंग का सही उपयोग करता है?",
+        "Japanese": "どの文が正しくヘッジングを使っていますか？"
+      },
+      "options": [
+        "This study proves that all blogs are false.",
+        "This study may suggest that some blogs are unreliable.",
+        "This study shows blogs are never useful."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [authority, the, source, of, check]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [authority, the, source, of, check]",
+        "Japanese": "並べ替え: [authority, the, source, of, check]"
+      },
+      "options": [
+        "authority",
+        "the",
+        "source",
+        "of",
+        "check"
+      ],
+      "answer": [
+        "check",
+        "the",
+        "authority",
+        "of",
+        "source"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Textbooks are usually ______ sources because they analyze original research.",
+      "question_translation": {
+        "Hindi": "पाठ्यपुस्तकें आमतौर पर ______ स्रोत होती हैं क्योंकि वे मौलिक शोध का विश्लेषण करती हैं।",
+        "Japanese": "教科書は通常______情報源です。なぜなら一次研究を分析しているからです。"
+      },
+      "options": [
+        "secondary",
+        "primary",
+        "biased"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker advising? Audio: 'Check if the source is peer-reviewed before trusting it.'",
+      "audio_text": "Check if the source is peer-reviewed before trusting it.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या सलाह दे रहा है?",
+        "Japanese": "話者は何を助言していますか？"
+      },
+      "options": [
+        "Use anecdotal evidence",
+        "Check if the source is peer-reviewed",
+        "Trust all websites"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The phrase 'Look for authority and expertise in the author' encourages critical evaluation.",
+      "audio_text": "Look for authority and expertise in the author.",
+      "question_translation": {
+        "Hindi": "'लेखक में अधिकारिता और विशेषज्ञता खोजें' वाक्यांश आलोचनात्मक मूल्यांकन को प्रोत्साहित करता है।",
+        "Japanese": "「著者の権威と専門性を探す」というフレーズは批判的評価を促しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What factor is mentioned? Audio: 'Consider the currency of the information before using it.'",
+      "audio_text": "Consider the currency of the information before using it.",
+      "question_translation": {
+        "Hindi": "कौन सा कारक उल्लेखित है?",
+        "Japanese": "どの要素が言及されていますか？"
+      },
+      "options": [
+        "Bias",
+        "Currency",
+        "Anecdotes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is discouraged here? Audio: 'Do not rely on anecdotal evidence for scientific claims.'",
+      "audio_text": "Do not rely on anecdotal evidence for scientific claims.",
+      "question_translation": {
+        "Hindi": "यहाँ किस चीज़ को हतोत्साहित किया जा रहा है?",
+        "Japanese": "ここでは何を避けるように言っていますか？"
+      },
+      "options": [
+        "Using anecdotal evidence",
+        "Checking reliability",
+        "Citing primary sources"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Fact-checking helps ensure the accuracy of information.",
+      "audio_text": "Fact-checking helps ensure the accuracy of information.",
+      "question_translation": {
+        "Hindi": "तथ्य-जाँच जानकारी की सटीकता सुनिश्चित करने में मदद करती है।",
+        "Japanese": "ファクトチェックは情報の正確さを保証するのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Always check if a source is credible before using it.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Always check if a source is credible before using it.'",
+        "Japanese": "言ってください: 'Always check if a source is credible before using it.'"
+      },
+      "options": [],
+      "answer": "always check if a source is credible before using it"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Peer-reviewed journals are reliable sources.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Peer-reviewed journals are reliable sources.'",
+        "Japanese": "言ってください: 'Peer-reviewed journals are reliable sources.'"
+      },
+      "options": [],
+      "answer": "peer reviewed journals are reliable sources"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Avoid relying on anecdotal evidence for research.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Avoid relying on anecdotal evidence for research.'",
+        "Japanese": "言ってください: 'Avoid relying on anecdotal evidence for research.'"
+      },
+      "options": [],
+      "answer": "avoid relying on anecdotal evidence for research"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Always fact-check statistics before using them.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Always fact-check statistics before using them.'",
+        "Japanese": "言ってください: 'Always fact-check statistics before using them.'"
+      },
+      "options": [],
+      "answer": "always fact check statistics before using them"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Check the authority of the author before trusting the source.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Check the authority of the author before trusting the source.'",
+        "Japanese": "言ってください: 'Check the authority of the author before trusting the source.'"
+      },
+      "options": [],
+      "answer": "check the authority of the author before trusting the source"
+    }
+  ]
+}
+
 }

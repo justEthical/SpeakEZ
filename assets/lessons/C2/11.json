@@ -1,4 +1,578 @@
 {
-  "id": 11,
-  "message": "This is file number 11"
+  "id": "lesson_intertextuality_001",
+  "lesson_name": "Intertextuality & Allusion in Argument",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "intertextuality",
+        "word_translation": {
+          "Hindi": "अंतरपाठीयता",
+          "Japanese": "間テクスト性"
+        },
+        "meaning": "The relationship between texts where one references or builds upon another",
+        "meaning_translation": {
+          "Hindi": "पाठों के बीच का संबंध जहां एक पाठ दूसरे का संदर्भ देता है या उस पर आधारित होता है",
+          "Japanese": "あるテキストが他のテキストを参照または基づく関係"
+        },
+        "examples": [
+          {
+            "sentence": "The novel’s intertextuality includes clear references to Shakespeare.",
+            "translation": {
+              "Hindi": "उपन्यास की अंतरपाठीयता में शेक्सपियर के स्पष्ट संदर्भ शामिल हैं।",
+              "Japanese": "この小説の間テクスト性にはシェイクスピアへの明確な参照が含まれています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "allusion",
+        "word_translation": {
+          "Hindi": "संकेत / उल्लेख",
+          "Japanese": "言及・ほのめかし"
+        },
+        "meaning": "An indirect reference to a person, event, or text",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति, घटना या पाठ का अप्रत्यक्ष उल्लेख",
+          "Japanese": "人物、出来事、またはテキストへの間接的な参照"
+        },
+        "examples": [
+          {
+            "sentence": "The speech made an allusion to the Bible.",
+            "translation": {
+              "Hindi": "भाषण ने बाइबिल का संकेत दिया।",
+              "Japanese": "その演説は聖書への言及を含んでいた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reference",
+        "word_translation": {
+          "Hindi": "संदर्भ",
+          "Japanese": "参照"
+        },
+        "meaning": "Mentioning another text or idea explicitly",
+        "meaning_translation": {
+          "Hindi": "किसी अन्य पाठ या विचार का स्पष्ट उल्लेख",
+          "Japanese": "他のテキストやアイデアを明示的に言及すること"
+        },
+        "examples": [
+          {
+            "sentence": "The essay references several philosophers.",
+            "translation": {
+              "Hindi": "निबंध में कई दार्शनिकों का संदर्भ दिया गया है।",
+              "Japanese": "そのエッセイはいくつかの哲学者に言及しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "citation",
+        "word_translation": {
+          "Hindi": "उद्धरण",
+          "Japanese": "引用"
+        },
+        "meaning": "A formal way of crediting another text or author",
+        "meaning_translation": {
+          "Hindi": "किसी अन्य पाठ या लेखक को श्रेय देने का औपचारिक तरीका",
+          "Japanese": "他のテキストや著者にクレジットを与える正式な方法"
+        },
+        "examples": [
+          {
+            "sentence": "Proper citation strengthens an argument.",
+            "translation": {
+              "Hindi": "उचित उद्धरण किसी तर्क को मजबूत करता है।",
+              "Japanese": "適切な引用は議論を強化します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "echo",
+        "word_translation": {
+          "Hindi": "प्रतिध्वनि",
+          "Japanese": "反響・響き"
+        },
+        "meaning": "A subtle repetition or reflection of another text or idea",
+        "meaning_translation": {
+          "Hindi": "किसी अन्य पाठ या विचार की सूक्ष्म पुनरावृत्ति या प्रतिबिंब",
+          "Japanese": "他のテキストやアイデアの微妙な繰り返しや反映"
+        },
+        "examples": [
+          {
+            "sentence": "The novel’s themes echo ancient myths.",
+            "translation": {
+              "Hindi": "उपन्यास के विषय प्राचीन मिथकों की प्रतिध्वनि करते हैं।",
+              "Japanese": "その小説のテーマは古代神話を反映しています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "invocation",
+        "word_translation": {
+          "Hindi": "आह्वान",
+          "Japanese": "喚起・引用"
+        },
+        "meaning": "Calling upon an authority or tradition to support an argument",
+        "meaning_translation": {
+          "Hindi": "किसी तर्क को समर्थन देने के लिए प्राधिकरण या परंपरा का आह्वान करना",
+          "Japanese": "議論を支持するために権威や伝統を呼び起こすこと"
+        },
+        "examples": [
+          {
+            "sentence": "The lawyer’s argument included an invocation of constitutional rights.",
+            "translation": {
+              "Hindi": "वकील के तर्क में संवैधानिक अधिकारों का आह्वान शामिल था।",
+              "Japanese": "弁護士の主張には憲法上の権利の喚起が含まれていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parody",
+        "word_translation": {
+          "Hindi": "पैरोडी",
+          "Japanese": "パロディ"
+        },
+        "meaning": "Imitating another work for humorous or critical effect",
+        "meaning_translation": {
+          "Hindi": "हास्य या आलोचनात्मक प्रभाव के लिए किसी अन्य कार्य की नकल करना",
+          "Japanese": "ユーモアや批評のために他の作品を模倣すること"
+        },
+        "examples": [
+          {
+            "sentence": "The article parodied famous speeches to make a point.",
+            "translation": {
+              "Hindi": "लेख ने एक बिंदु स्पष्ट करने के लिए प्रसिद्ध भाषणों की पैरोडी की।",
+              "Japanese": "この記事は有名な演説をパロディ化して主張を示した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "precedent",
+        "word_translation": {
+          "Hindi": "नज़ीर",
+          "Japanese": "先例"
+        },
+        "meaning": "A past case or example used to justify a current argument",
+        "meaning_translation": {
+          "Hindi": "वर्तमान तर्क को सही ठहराने के लिए प्रयुक्त पिछला उदाहरण या मामला",
+          "Japanese": "現在の議論を正当化するために使われる過去の事例や例"
+        },
+        "examples": [
+          {
+            "sentence": "Courts often rely on legal precedents.",
+            "translation": {
+              "Hindi": "अदालतें अक्सर कानूनी नज़ीरों पर निर्भर करती हैं।",
+              "Japanese": "裁判所はしばしば法的先例に依拠します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "quotation",
+        "word_translation": {
+          "Hindi": "उद्धरण चिह्नित कथन",
+          "Japanese": "引用文"
+        },
+        "meaning": "Directly repeating someone else's exact words",
+        "meaning_translation": {
+          "Hindi": "किसी और के सटीक शब्दों को सीधे दोहराना",
+          "Japanese": "他人の正確な言葉を直接繰り返すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Her essay included a quotation from Aristotle.",
+            "translation": {
+              "Hindi": "उसके निबंध में अरस्तू का एक उद्धरण शामिल था।",
+              "Japanese": "彼女のエッセイにはアリストテレスの引用が含まれていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cultural touchstone",
+        "word_translation": {
+          "Hindi": "सांस्कृतिक प्रतीक / मानदंड",
+          "Japanese": "文化的指標"
+        },
+        "meaning": "A widely recognized work, event, or figure used as a reference point",
+        "meaning_translation": {
+          "Hindi": "एक व्यापक रूप से मान्यता प्राप्त कार्य, घटना या व्यक्ति जिसका संदर्भ के रूप में उपयोग किया जाता है",
+          "Japanese": "広く認知されている作品・出来事・人物を参照点として使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "The writer used Shakespeare as a cultural touchstone.",
+            "translation": {
+              "Hindi": "लेखक ने शेक्सपियर को एक सांस्कृतिक प्रतीक के रूप में उपयोग किया।",
+              "Japanese": "その作家はシェイクスピアを文化的指標として使った。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Introduce References Smoothly",
+        "explanation": "Use phrases like 'as noted by', 'according to', or 'drawing on' to connect texts clearly.",
+        "explanation_translation": {
+          "Hindi": "'as noted by', 'according to', या 'drawing on' जैसे वाक्यांशों का उपयोग करके पाठों को स्पष्ट रूप से जोड़ें।",
+          "Japanese": "「as noted by」「according to」「drawing on」などの表現を使ってテキストを明確に接続しましょう。"
+        }
+      },
+      {
+        "title": "Balance Originality and Citation",
+        "explanation": "Ensure your argument adds new insight while acknowledging sources.",
+        "explanation_translation": {
+          "Hindi": "स्रोतों को मान्यता देते हुए सुनिश्चित करें कि आपका तर्क नई अंतर्दृष्टि जोड़ता है।",
+          "Japanese": "出典を認めつつ、自分の議論に新しい洞察を加えましょう。"
+        }
+      },
+      {
+        "title": "Use Allusions for Subtle Persuasion",
+        "explanation": "Indirect cultural or literary references can enrich argumentation if readers understand them.",
+        "explanation_translation": {
+          "Hindi": "अप्रत्यक्ष सांस्कृतिक या साहित्यिक संदर्भ तर्क को समृद्ध कर सकते हैं यदि पाठक उन्हें समझें।",
+          "Japanese": "読者が理解できる場合、文化的・文学的なほのめかしは議論を豊かにします。"
+        }
+      },
+      {
+        "title": "Cite Authoritative Sources",
+        "explanation": "Legal and academic arguments gain strength from well-chosen authorities.",
+        "explanation_translation": {
+          "Hindi": "कानूनी और शैक्षणिक तर्क विश्वसनीय प्राधिकरणों से बल प्राप्त करते हैं।",
+          "Japanese": "法律・学術的な議論は適切な権威を引用することで強化されます。"
+        }
+      },
+      {
+        "title": "Signal Cultural Touchstones Clearly",
+        "explanation": "When referencing iconic works, make sure context helps readers catch the allusion.",
+        "explanation_translation": {
+          "Hindi": "प्रसिद्ध कृतियों का उल्लेख करते समय सुनिश्चित करें कि संदर्भ पाठकों को संकेत को समझने में मदद करे।",
+          "Japanese": "象徴的な作品を参照する際には、文脈で読者がその言及を理解できるようにしましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which term describes a text referencing or building upon another text?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द उस पाठ का वर्णन करता है जो किसी अन्य पाठ का संदर्भ देता है या उस पर आधारित होता है?",
+        "Japanese": "他のテキストを参照したり基づいたりするテキストを表す用語はどれですか？"
+      },
+      "options": [
+        "Intertextuality",
+        "Allusion",
+        "Citation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "An indirect reference to a famous event is called an ___.",
+      "question_translation": {
+        "Hindi": "किसी प्रसिद्ध घटना का अप्रत्यक्ष संदर्भ ___ कहलाता है।",
+        "Japanese": "有名な出来事への間接的な参照は___と呼ばれます。"
+      },
+      "options": [
+        "allusion",
+        "precedent",
+        "quotation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "A precedent is a past example used to justify a current argument.",
+      "question_translation": {
+        "Hindi": "नज़ीर एक पिछला उदाहरण है जिसका उपयोग वर्तमान तर्क को सही ठहराने के लिए किया जाता है।",
+        "Japanese": "先例は現在の議論を正当化するために使われる過去の例です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word means directly repeating someone’s exact words?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी के सटीक शब्दों को सीधे दोहराने का अर्थ रखता है?",
+        "Japanese": "他人の正確な言葉を直接繰り返すことを意味する言葉はどれですか？"
+      },
+      "options": [
+        "Quotation",
+        "Allusion",
+        "Echo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Referencing Shakespeare as a symbol of culture uses a cultural ___.",
+      "question_translation": {
+        "Hindi": "संस्कृति के प्रतीक के रूप में शेक्सपियर का संदर्भ देना एक सांस्कृतिक ___ का उपयोग करता है।",
+        "Japanese": "文化の象徴としてシェイクスピアを参照するのは文化的___を使っています。"
+      },
+      "options": [
+        "touchstone",
+        "invocation",
+        "parody"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [according, evidence, the, to, supports, claim, this]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [according, evidence, the, to, supports, claim, this]",
+        "Japanese": "並べ替え: [according, evidence, the, to, supports, claim, this]"
+      },
+      "options": [
+        "according",
+        "evidence",
+        "the",
+        "to",
+        "supports",
+        "claim",
+        "this"
+      ],
+      "answer": [
+        "According",
+        "to",
+        "the",
+        "evidence",
+        "this",
+        "supports",
+        "claim"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Her essay includes several direct ___ from Aristotle.",
+      "question_translation": {
+        "Hindi": "उसके निबंध में अरस्तू के कई सीधे ___ शामिल हैं।",
+        "Japanese": "彼女のエッセイにはアリストテレスからの直接の___がいくつか含まれています。"
+      },
+      "options": [
+        "quotations",
+        "allusions",
+        "echoes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses an allusion?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य एक संकेत (allusion) का उपयोग करता है?",
+        "Japanese": "どの文が暗示（allusion）を使っていますか？"
+      },
+      "options": [
+        "His rise was like Icarus flying too close to the sun.",
+        "The report includes five quotations.",
+        "The data strongly supports this claim."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [author, the, draws, tradition, classical, on]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [author, the, draws, tradition, classical, on]",
+        "Japanese": "並べ替え: [author, the, draws, tradition, classical, on]"
+      },
+      "options": [
+        "author",
+        "the",
+        "draws",
+        "tradition",
+        "classical",
+        "on"
+      ],
+      "answer": [
+        "The",
+        "author",
+        "draws",
+        "on",
+        "classical",
+        "tradition"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Lawyers often rely on legal ___ to build arguments.",
+      "question_translation": {
+        "Hindi": "वकील तर्क बनाने के लिए अक्सर कानूनी ___ पर निर्भर करते हैं।",
+        "Japanese": "弁護士は議論を組み立てるためにしばしば法的___に依拠します。"
+      },
+      "options": [
+        "precedents",
+        "echoes",
+        "touchstones"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "Which device is used: 'Like Achilles, he faced his downfall with pride'?",
+      "audio_text": "Like Achilles, he faced his downfall with pride.",
+      "question_translation": {
+        "Hindi": "'Achilles की तरह, उसने अपने पतन का सामना गर्व से किया' — कौन सा उपकरण उपयोग हुआ?",
+        "Japanese": "「アキレスのように、彼は誇りを持って破滅に立ち向かった」ではどの技法が使われていますか？"
+      },
+      "options": [
+        "Allusion",
+        "Citation",
+        "Parody"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "The phrase 'drawing on ancient myths' shows which concept?",
+      "audio_text": "Drawing on ancient myths, the author explores modern leadership.",
+      "question_translation": {
+        "Hindi": "'Drawing on ancient myths' किस अवधारणा को दर्शाता है?",
+        "Japanese": "「古代神話を引用して」はどの概念を示していますか？"
+      },
+      "options": [
+        "Intertextuality",
+        "Precedent",
+        "Quotation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "An echo can be a subtle reflection of earlier ideas.",
+      "audio_text": "An echo can be a subtle reflection of earlier ideas.",
+      "question_translation": {
+        "Hindi": "प्रतिध्वनि पहले के विचारों का सूक्ष्म प्रतिबिंब हो सकती है।",
+        "Japanese": "反響は以前のアイデアの微妙な反映であることがあります。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Which device: 'The Constitution grants us these rights'?",
+      "audio_text": "The Constitution grants us these rights.",
+      "question_translation": {
+        "Hindi": "'The Constitution grants us these rights' कौन सा उपकरण है?",
+        "Japanese": "「憲法はこれらの権利を私たちに与える」はどの技法ですか？"
+      },
+      "options": [
+        "Invocation",
+        "Allusion",
+        "Parody"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which concept is in: 'To quote Aristotle, virtue is a habit'?",
+      "audio_text": "To quote Aristotle, virtue is a habit.",
+      "question_translation": {
+        "Hindi": "'To quote Aristotle, virtue is a habit' में कौन सी अवधारणा है?",
+        "Japanese": "「アリストテレスを引用すると、徳は習慣である」という文はどの概念ですか？"
+      },
+      "options": [
+        "Quotation",
+        "Allusion",
+        "Cultural touchstone"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'According to the Constitution, freedom of speech is protected.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संविधान के अनुसार, अभिव्यक्ति की स्वतंत्रता सुरक्षित है।'",
+        "Japanese": "言ってください: '憲法によると、言論の自由は保護されています。'"
+      },
+      "options": [],
+      "answer": "according to the constitution freedom of speech is protected"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Like Prometheus, innovators bring fire to society.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Prometheus की तरह, नवप्रवर्तक समाज में आग लाते हैं।'",
+        "Japanese": "言ってください: 'プロメテウスのように、革新者は社会に火をもたらします。'"
+      },
+      "options": [],
+      "answer": "like prometheus innovators bring fire to society"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'This argument draws on historical precedent.'",
+      "question_translation": {
+        "Hindi": "कहें: 'यह तर्क ऐतिहासिक नज़ीर पर आधारित है।'",
+        "Japanese": "言ってください: 'この議論は歴史的先例に基づいています。'"
+      },
+      "options": [],
+      "answer": "this argument draws on historical precedent"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'To quote Shakespeare, brevity is the soul of wit.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Shakespeare के शब्दों में, संक्षिप्तता बुद्धि की आत्मा है।'",
+        "Japanese": "言ってください: 'シェイクスピアを引用すると、簡潔さは機知の魂である。'"
+      },
+      "options": [],
+      "answer": "to quote shakespeare brevity is the soul of wit"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The novel echoes themes from ancient myths.'",
+      "question_translation": {
+        "Hindi": "कहें: 'उपन्यास प्राचीन मिथकों की थीम की प्रतिध्वनि करता है।'",
+        "Japanese": "言ってください: 'その小説は古代神話のテーマを反映しています。'"
+      },
+      "options": [],
+      "answer": "the novel echoes themes from ancient myths"
+    }
+  ]
+}
+
 }

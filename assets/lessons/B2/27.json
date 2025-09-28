@@ -1,4 +1,547 @@
 {
-  "id": 27,
-  "message": "This is file number 27"
+  "id": "lesson_complaints_001",
+  "lesson_name": "Making Formal Complaints & Resolutions",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "complaint",
+        "word_translation": {
+          "Hindi": "शिकायत",
+          "Japanese": "苦情"
+        },
+        "meaning": "A statement that something is wrong or not satisfactory",
+        "meaning_translation": {
+          "Hindi": "एक कथन कि कुछ गलत है या संतोषजनक नहीं है",
+          "Japanese": "何かが間違っている、または満足できないという主張"
+        },
+        "examples": [
+          {
+            "sentence": "The customer filed a complaint about the poor service.",
+            "translation": {
+              "Hindi": "ग्राहक ने खराब सेवा के बारे में शिकायत दर्ज की।",
+              "Japanese": "顧客はサービスの悪さについて苦情を申し立てました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "resolve",
+        "word_translation": {
+          "Hindi": "सुलझाना",
+          "Japanese": "解決する"
+        },
+        "meaning": "To find a solution to a problem or difficulty",
+        "meaning_translation": {
+          "Hindi": "किसी समस्या या कठिनाई का समाधान खोजना",
+          "Japanese": "問題や困難に対して解決策を見つけること"
+        },
+        "examples": [
+          {
+            "sentence": "The company promised to resolve the issue within 24 hours.",
+            "translation": {
+              "Hindi": "कंपनी ने 24 घंटे के भीतर समस्या को सुलझाने का वादा किया।",
+              "Japanese": "会社は24時間以内に問題を解決すると約束しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "dissatisfaction",
+        "word_translation": {
+          "Hindi": "असंतोष",
+          "Japanese": "不満"
+        },
+        "meaning": "The feeling of not being happy with something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ से खुश न होने की भावना",
+          "Japanese": "何かに満足していない気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "She expressed dissatisfaction with the product quality.",
+            "translation": {
+              "Hindi": "उसने उत्पाद की गुणवत्ता से असंतोष व्यक्त किया।",
+              "Japanese": "彼女は製品の品質に不満を表明しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "escalate",
+        "word_translation": {
+          "Hindi": "बढ़ाना / ऊपर पहुँचाना",
+          "Japanese": "エスカレートする"
+        },
+        "meaning": "To make a complaint or problem more serious by reporting it to higher authority",
+        "meaning_translation": {
+          "Hindi": "शिकायत या समस्या को उच्च अधिकारी तक ले जाकर उसे अधिक गंभीर बनाना",
+          "Japanese": "苦情や問題を上位の権限者に報告して深刻化させること"
+        },
+        "examples": [
+          {
+            "sentence": "The complaint was escalated to the manager.",
+            "translation": {
+              "Hindi": "शिकायत को प्रबंधक तक पहुँचाया गया।",
+              "Japanese": "苦情はマネージャーにエスカレートされました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "remedy",
+        "word_translation": {
+          "Hindi": "उपाय",
+          "Japanese": "是正措置"
+        },
+        "meaning": "A solution or correction for a problem",
+        "meaning_translation": {
+          "Hindi": "किसी समस्या का समाधान या सुधार",
+          "Japanese": "問題に対する解決策や改善策"
+        },
+        "examples": [
+          {
+            "sentence": "A full refund was offered as a remedy for the mistake.",
+            "translation": {
+              "Hindi": "गलती के उपाय के रूप में पूर्ण धनवापसी की पेशकश की गई।",
+              "Japanese": "誤りの是正措置として全額返金が提供されました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "apology",
+        "word_translation": {
+          "Hindi": "माफी",
+          "Japanese": "謝罪"
+        },
+        "meaning": "A statement of regret for a mistake or problem",
+        "meaning_translation": {
+          "Hindi": "किसी गलती या समस्या के लिए खेद व्यक्त करने वाला वक्तव्य",
+          "Japanese": "誤りや問題に対する後悔の表明"
+        },
+        "examples": [
+          {
+            "sentence": "The company issued an apology for the inconvenience caused.",
+            "translation": {
+              "Hindi": "कंपनी ने हुई असुविधा के लिए माफी जारी की।",
+              "Japanese": "会社は不便をかけたことに謝罪しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rectify",
+        "word_translation": {
+          "Hindi": "सुधारना",
+          "Japanese": "訂正する"
+        },
+        "meaning": "To correct something that is wrong",
+        "meaning_translation": {
+          "Hindi": "किसी गलत चीज़ को सही करना",
+          "Japanese": "間違っていることを正すこと"
+        },
+        "examples": [
+          {
+            "sentence": "The supplier promised to rectify the billing error.",
+            "translation": {
+              "Hindi": "आपूर्तिकर्ता ने बिलिंग त्रुटि को सुधारने का वादा किया।",
+              "Japanese": "供給業者は請求ミスを訂正すると約束しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reimbursement",
+        "word_translation": {
+          "Hindi": "प्रतिपूर्ति",
+          "Japanese": "払い戻し"
+        },
+        "meaning": "The act of paying back money for expenses or losses",
+        "meaning_translation": {
+          "Hindi": "खर्चों या नुकसान के लिए पैसे वापस देने की क्रिया",
+          "Japanese": "費用や損失に対してお金を返すこと"
+        },
+        "examples": [
+          {
+            "sentence": "The customer received reimbursement for the damaged goods.",
+            "translation": {
+              "Hindi": "ग्राहक को क्षतिग्रस्त सामान के लिए प्रतिपूर्ति मिली।",
+              "Japanese": "顧客は損傷した商品の払い戻しを受けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "formal",
+        "word_translation": {
+          "Hindi": "औपचारिक",
+          "Japanese": "正式な"
+        },
+        "meaning": "Following official or traditional rules and procedures",
+        "meaning_translation": {
+          "Hindi": "आधिकारिक या पारंपरिक नियमों और प्रक्रियाओं का पालन करना",
+          "Japanese": "公式または伝統的な規則や手順に従うこと"
+        },
+        "examples": [
+          {
+            "sentence": "She wrote a formal letter of complaint to the manager.",
+            "translation": {
+              "Hindi": "उसने प्रबंधक को एक औपचारिक शिकायत पत्र लिखा।",
+              "Japanese": "彼女はマネージャーに正式な苦情の手紙を書きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "grievance",
+        "word_translation": {
+          "Hindi": "शिकायत / असंतोष",
+          "Japanese": "不平・苦情"
+        },
+        "meaning": "A complaint, especially about unfair treatment",
+        "meaning_translation": {
+          "Hindi": "एक शिकायत, विशेषकर अनुचित व्यवहार के बारे में",
+          "Japanese": "特に不公平な扱いに関する苦情"
+        },
+        "examples": [
+          {
+            "sentence": "Employees filed a grievance against unsafe working conditions.",
+            "translation": {
+              "Hindi": "कर्मचारियों ने असुरक्षित कार्य परिस्थितियों के खिलाफ शिकायत दर्ज की।",
+              "Japanese": "従業員は危険な労働条件に対して苦情を申し立てました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Polite Phrases for Complaints",
+        "explanation": "When making a formal complaint, use polite phrases like 'I am writing to express my dissatisfaction…' or 'I would like to bring to your attention…'.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक शिकायत करते समय, 'I am writing to express my dissatisfaction…' या 'I would like to bring to your attention…' जैसे विनम्र वाक्यांशों का उपयोग करें।",
+          "Japanese": "正式な苦情を述べる際には、「I am writing to express my dissatisfaction…」や「I would like to bring to your attention…」などの丁寧な表現を使います。"
+        }
+      },
+      {
+        "title": "Passive Voice in Resolutions",
+        "explanation": "Use passive voice to emphasize the action rather than the person. Example: 'The error has been rectified' sounds more formal than 'We rectified the error.'",
+        "explanation_translation": {
+          "Hindi": "कार्रवाई पर जोर देने के लिए passive voice का उपयोग करें। उदाहरण: 'The error has been rectified' 'We rectified the error' की तुलना में अधिक औपचारिक लगता है।",
+          "Japanese": "行為を強調するために受動態を使います。例：「The error has been rectified」は「We rectified the error」より正式です。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means 'a complaint, especially about unfair treatment'?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द 'शिकायत, विशेषकर अनुचित व्यवहार के बारे में' का अर्थ देता है?",
+        "Japanese": "「特に不公平な扱いに関する苦情」を意味する単語はどれですか？"
+      },
+      "options": [
+        "grievance",
+        "apology",
+        "remedy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "The company promised to ___ the issue immediately.",
+      "question_translation": {
+        "Hindi": "कंपनी ने तुरंत मुद्दे को ___ करने का वादा किया।",
+        "Japanese": "会社は問題をすぐに___すると約束しました。"
+      },
+      "options": [
+        "resolve",
+        "escalate",
+        "formal"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Reimbursement’ means giving money back for expenses or losses.",
+      "question_translation": {
+        "Hindi": "'Reimbursement' का अर्थ खर्चों या नुकसान के लिए पैसे वापस करना है।",
+        "Japanese": "「Reimbursement」とは費用や損失に対してお金を返すことを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which word is often used for making a complaint more serious by reporting it higher?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द शिकायत को और गंभीर बनाने के लिए उसे उच्च अधिकारी तक ले जाने के लिए उपयोग होता है?",
+        "Japanese": "苦情を上位の権限者に報告して深刻化させることを表す単語はどれですか？"
+      },
+      "options": [
+        "escalate",
+        "rectify",
+        "resolve"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The company issued an official ___ for the inconvenience caused.",
+      "question_translation": {
+        "Hindi": "कंपनी ने हुई असुविधा के लिए एक आधिकारिक ___ जारी किया।",
+        "Japanese": "会社は不便をかけたことについて正式な___を出しました。"
+      },
+      "options": [
+        "apology",
+        "grievance",
+        "complaint"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [filed, she, complaint, a, formal]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [filed, she, complaint, a, formal]",
+        "Japanese": "並べ替え: [filed, she, complaint, a, formal]"
+      },
+      "options": [
+        "filed",
+        "she",
+        "complaint",
+        "a",
+        "formal"
+      ],
+      "answer": [
+        "she",
+        "filed",
+        "a",
+        "formal",
+        "complaint"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "The manager promised to ___ the billing error.",
+      "question_translation": {
+        "Hindi": "प्रबंधक ने बिलिंग त्रुटि को ___ करने का वादा किया।",
+        "Japanese": "マネージャーは請求ミスを___すると約束しました。"
+      },
+      "options": [
+        "rectify",
+        "escalate",
+        "remedy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "The issue has been resolved by the support team.",
+        "The issue resolve by the support team.",
+        "The issue resolving by the support team."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [a, requested, reimbursement, customer, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [a, requested, reimbursement, customer, the]",
+        "Japanese": "並べ替え: [a, requested, reimbursement, customer, the]"
+      },
+      "options": [
+        "a",
+        "requested",
+        "reimbursement",
+        "customer",
+        "the"
+      ],
+      "answer": [
+        "the",
+        "customer",
+        "requested",
+        "a",
+        "reimbursement"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The employee submitted a ___ about unsafe working conditions.",
+      "question_translation": {
+        "Hindi": "कर्मचारी ने असुरक्षित कार्य स्थितियों के बारे में एक ___ दर्ज किया।",
+        "Japanese": "従業員は危険な労働条件について___を提出しました。"
+      },
+      "options": [
+        "grievance",
+        "apology",
+        "remedy"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What action did the company take?",
+      "audio_text": "The company issued a formal apology to all affected customers.",
+      "question_translation": {
+        "Hindi": "कंपनी ने क्या कार्रवाई की?",
+        "Japanese": "会社はどのような対応をしましたか？"
+      },
+      "options": [
+        "Issued an apology",
+        "Escalated the issue",
+        "Filed a grievance"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says the complaint was resolved quickly.",
+      "audio_text": "The complaint was resolved within a day.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं कि शिकायत जल्दी सुलझा ली गई थी।",
+        "Japanese": "話者は苦情がすぐに解決されたと言っています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What was offered as a remedy?",
+      "audio_text": "The shop offered a full refund as a remedy.",
+      "question_translation": {
+        "Hindi": "किसे उपाय के रूप में पेश किया गया?",
+        "Japanese": "どのような是正措置が提供されましたか？"
+      },
+      "options": [
+        "An apology",
+        "A refund",
+        "A discount"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What did the employee do?",
+      "audio_text": "The employee filed a grievance about unfair treatment.",
+      "question_translation": {
+        "Hindi": "कर्मचारी ने क्या किया?",
+        "Japanese": "従業員は何をしましたか？"
+      },
+      "options": [
+        "Filed a grievance",
+        "Escalated the complaint",
+        "Rectified the issue"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker escalated the issue to the manager.",
+      "audio_text": "I escalated the issue to my manager after no one responded.",
+      "question_translation": {
+        "Hindi": "वक्ता ने मुद्दा प्रबंधक तक पहुँचाया।",
+        "Japanese": "話者は返答がなかったためマネージャーに問題をエスカレートしました。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I would like to file a formal complaint.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I would like to file a formal complaint.'",
+        "Japanese": "言ってください: 'I would like to file a formal complaint.'"
+      },
+      "options": [],
+      "answer": "i would like to file a formal complaint"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'The company promised to resolve the issue quickly.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The company promised to resolve the issue quickly.'",
+        "Japanese": "言ってください: 'The company promised to resolve the issue quickly.'"
+      },
+      "options": [],
+      "answer": "the company promised to resolve the issue quickly"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The manager offered a remedy for the problem.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The manager offered a remedy for the problem.'",
+        "Japanese": "言ってください: 'The manager offered a remedy for the problem.'"
+      },
+      "options": [],
+      "answer": "the manager offered a remedy for the problem"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The company issued an official apology.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The company issued an official apology.'",
+        "Japanese": "言ってください: 'The company issued an official apology.'"
+      },
+      "options": [],
+      "answer": "the company issued an official apology"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'The employee filed a grievance about unfair treatment.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The employee filed a grievance about unfair treatment.'",
+        "Japanese": "言ってください: 'The employee filed a grievance about unfair treatment.'"
+      },
+      "options": [],
+      "answer": "the employee filed a grievance about unfair treatment"
+    }
+  ]
+}
+
 }

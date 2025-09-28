@@ -1,4 +1,563 @@
 {
-  "id": 50,
-  "message": "This is file number 50"
+  "id": "lesson_capstone_seminar_presentation_001",
+  "lesson_name": "Capstone: Long-Form Seminar Presentation",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "seminar",
+        "word_translation": {
+          "Hindi": "सेमिनार",
+          "Japanese": "セミナー"
+        },
+        "meaning": "A meeting for discussion or training on a specific subject",
+        "meaning_translation": {
+          "Hindi": "किसी विशेष विषय पर चर्चा या प्रशिक्षण के लिए बैठक",
+          "Japanese": "特定のテーマについて議論や学習を行う会合"
+        },
+        "examples": [
+          {
+            "sentence": "I attended a seminar on advanced biotechnology.",
+            "translation": {
+              "Hindi": "मैंने उन्नत जैव प्रौद्योगिकी पर एक सेमिनार में भाग लिया।",
+              "Japanese": "私は先端バイオテクノロジーのセミナーに参加しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "capstone project",
+        "word_translation": {
+          "Hindi": "समापन परियोजना",
+          "Japanese": "キャップストーンプロジェクト"
+        },
+        "meaning": "A final project that integrates knowledge from an entire course of study",
+        "meaning_translation": {
+          "Hindi": "एक अंतिम परियोजना जो पूरे अध्ययन से प्राप्त ज्ञान को एकीकृत करती है",
+          "Japanese": "学習全体で得た知識を統合する最終プロジェクト"
+        },
+        "examples": [
+          {
+            "sentence": "Our capstone project required presenting research to faculty.",
+            "translation": {
+              "Hindi": "हमारे समापन परियोजना में संकाय को शोध प्रस्तुत करना शामिल था।",
+              "Japanese": "私たちのキャップストーンプロジェクトでは教員への研究発表が求められました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "audience engagement",
+        "word_translation": {
+          "Hindi": "श्रोताओं की भागीदारी",
+          "Japanese": "聴衆の関与"
+        },
+        "meaning": "Techniques to keep the audience interested and involved",
+        "meaning_translation": {
+          "Hindi": "दर्शकों को रुचि और शामिल रखने की तकनीकें",
+          "Japanese": "聴衆の関心を維持し、参加を促す技術"
+        },
+        "examples": [
+          {
+            "sentence": "Using questions is a great way to increase audience engagement.",
+            "translation": {
+              "Hindi": "प्रश्न पूछना श्रोताओं की भागीदारी बढ़ाने का एक शानदार तरीका है।",
+              "Japanese": "質問をすることは聴衆の関与を高める素晴らしい方法です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "visual aid",
+        "word_translation": {
+          "Hindi": "दृश्य सहायक",
+          "Japanese": "視覚補助"
+        },
+        "meaning": "Tools such as slides or charts used to support a presentation",
+        "meaning_translation": {
+          "Hindi": "प्रस्तुति का समर्थन करने के लिए उपयोग किए जाने वाले स्लाइड या चार्ट जैसे उपकरण",
+          "Japanese": "プレゼンテーションを補助するためのスライドや図表などのツール"
+        },
+        "examples": [
+          {
+            "sentence": "Graphs and images make great visual aids in a seminar.",
+            "translation": {
+              "Hindi": "ग्राफ़ और छवियाँ सेमिनार में उत्कृष्ट दृश्य सहायक बनाते हैं।",
+              "Japanese": "グラフや画像はセミナーで優れた視覚補助になります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "time management",
+        "word_translation": {
+          "Hindi": "समय प्रबंधन",
+          "Japanese": "時間管理"
+        },
+        "meaning": "Planning and controlling how much time to spend on each part",
+        "meaning_translation": {
+          "Hindi": "प्रत्येक भाग पर कितना समय खर्च करना है इसकी योजना और नियंत्रण करना",
+          "Japanese": "各部分にかける時間を計画し管理すること"
+        },
+        "examples": [
+          {
+            "sentence": "Effective time management keeps presentations on schedule.",
+            "translation": {
+              "Hindi": "प्रभावी समय प्रबंधन प्रस्तुतियों को समय पर रखता है।",
+              "Japanese": "効果的な時間管理は発表を予定通りに進めます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rehearsal",
+        "word_translation": {
+          "Hindi": "अभ्यास",
+          "Japanese": "リハーサル"
+        },
+        "meaning": "Practicing a presentation before giving it to an audience",
+        "meaning_translation": {
+          "Hindi": "दर्शकों को देने से पहले प्रस्तुति का अभ्यास करना",
+          "Japanese": "聴衆の前で発表する前に練習すること"
+        },
+        "examples": [
+          {
+            "sentence": "I did several rehearsals before my capstone presentation.",
+            "translation": {
+              "Hindi": "मैंने अपनी समापन प्रस्तुति से पहले कई अभ्यास किए।",
+              "Japanese": "キャップストーン発表の前に何度もリハーサルをしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "signposting",
+        "word_translation": {
+          "Hindi": "दिशा सूचक संकेत",
+          "Japanese": "サインポスティング"
+        },
+        "meaning": "Using verbal cues to guide the audience through your talk",
+        "meaning_translation": {
+          "Hindi": "अपने भाषण के दौरान श्रोताओं को मार्गदर्शन करने के लिए मौखिक संकेतों का उपयोग करना",
+          "Japanese": "発表中に聴衆を案内するために口頭で合図をすること"
+        },
+        "examples": [
+          {
+            "sentence": "Use signposting like 'first, we’ll discuss…' to structure your talk.",
+            "translation": {
+              "Hindi": "'पहले हम चर्चा करेंगे…' जैसे संकेतों का उपयोग करके अपने भाषण को संरचित करें।",
+              "Japanese": "「まず〜について話します」などのサインポスティングを使って発表を構成しましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "Q&A session",
+        "word_translation": {
+          "Hindi": "प्रश्नोत्तर सत्र",
+          "Japanese": "質疑応答セッション"
+        },
+        "meaning": "A part of a seminar where the audience asks questions",
+        "meaning_translation": {
+          "Hindi": "सेमिनार का वह भाग जहां दर्शक प्रश्न पूछते हैं",
+          "Japanese": "聴衆が質問をするセミナーの一部"
+        },
+        "examples": [
+          {
+            "sentence": "Leave time at the end for a Q&A session.",
+            "translation": {
+              "Hindi": "अंत में प्रश्नोत्तर सत्र के लिए समय छोड़ें।",
+              "Japanese": "最後に質疑応答の時間を残しましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transitions",
+        "word_translation": {
+          "Hindi": "संक्रमण",
+          "Japanese": "移行"
+        },
+        "meaning": "Words or phrases that smoothly connect different sections of a presentation",
+        "meaning_translation": {
+          "Hindi": "प्रस्तुति के विभिन्न भागों को सहजता से जोड़ने वाले शब्द या वाक्यांश",
+          "Japanese": "プレゼンテーションの異なる部分を滑らかにつなぐ語句"
+        },
+        "examples": [
+          {
+            "sentence": "Strong transitions help maintain flow in long talks.",
+            "translation": {
+              "Hindi": "मजबूत संक्रमण लंबे भाषणों में प्रवाह बनाए रखने में मदद करते हैं।",
+              "Japanese": "強力な移行は長い発表の流れを保つのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "delivery",
+        "word_translation": {
+          "Hindi": "प्रस्तुति शैली",
+          "Japanese": "話し方"
+        },
+        "meaning": "The way a speaker presents content, including voice, body language, and pacing",
+        "meaning_translation": {
+          "Hindi": "वक्ता सामग्री को प्रस्तुत करने का तरीका, जिसमें आवाज, शारीरिक भाषा और गति शामिल है",
+          "Japanese": "声、ボディランゲージ、話す速度などを含む発表の仕方"
+        },
+        "examples": [
+          {
+            "sentence": "Confident delivery keeps the audience engaged.",
+            "translation": {
+              "Hindi": "आत्मविश्वासपूर्ण प्रस्तुति शैली दर्शकों को जुड़े रखती है।",
+              "Japanese": "自信のある話し方は聴衆を引きつけ続ける。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Use Future Tense for Structure",
+        "explanation": "When outlining your talk, use future tense: 'I will discuss three key points…'.",
+        "explanation_translation": {
+          "Hindi": "अपनी प्रस्तुति की रूपरेखा बताते समय भविष्य काल का उपयोग करें: 'मैं तीन मुख्य बिंदुओं पर चर्चा करूंगा…'।",
+          "Japanese": "発表の構成を述べるときは未来形を使いましょう：「私は3つの重要な点について話します」。"
+        }
+      },
+      {
+        "title": "Master Parallelism in Lists",
+        "explanation": "When listing points, keep grammatical forms consistent for clarity.",
+        "explanation_translation": {
+          "Hindi": "बिंदुओं की सूची बनाते समय व्याकरणिक रूप को समान रखें ताकि स्पष्टता बनी रहे।",
+          "Japanese": "ポイントを列挙するときは文法形式をそろえて明確さを保ちましょう。"
+        }
+      },
+      {
+        "title": "Employ Signposting Expressions",
+        "explanation": "Use phrases like 'First, let's examine…', 'Next, I’ll show…' to guide your audience.",
+        "explanation_translation": {
+          "Hindi": "'सबसे पहले, हम देखेंगे…', 'अगले, मैं दिखाऊंगा…' जैसे वाक्यांशों का उपयोग करें।",
+          "Japanese": "「まず〜を見てみましょう」「次に〜を示します」などの表現を使って聴衆を案内しましょう。"
+        }
+      },
+      {
+        "title": "Balance Formality with Engagement",
+        "explanation": "Use a formal tone but include occasional direct questions to keep listeners active.",
+        "explanation_translation": {
+          "Hindi": "औपचारिक स्वर बनाए रखें लेकिन श्रोताओं को सक्रिय रखने के लिए कभी-कभी सीधे प्रश्न शामिल करें।",
+          "Japanese": "フォーマルなトーンを保ちつつ、時々直接的な質問をして聴衆を引き込むようにしましょう。"
+        }
+      },
+      {
+        "title": "Frame Q&A Politely",
+        "explanation": "Use polite requests such as 'I’d be happy to take your questions now.'",
+        "explanation_translation": {
+          "Hindi": "'अब मैं आपके प्रश्न लेने में प्रसन्नता महसूस करूंगा' जैसी विनम्र अभिव्यक्तियों का उपयोग करें।",
+          "Japanese": "「ここで皆さんの質問をお受けしたいと思います」などの丁寧な表現を使いましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What is a capstone project?",
+      "question_translation": {
+        "Hindi": "कैपस्टोन परियोजना क्या है?",
+        "Japanese": "キャップストーンプロジェクトとは何ですか？"
+      },
+      "options": [
+        "A final project integrating knowledge from an entire course",
+        "A short weekly assignment",
+        "An informal group discussion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Good presenters use ___ to guide the audience through their talk.",
+      "question_translation": {
+        "Hindi": "अच्छे प्रस्तुतकर्ता अपने भाषण के दौरान श्रोताओं को मार्गदर्शन करने के लिए ___ का उपयोग करते हैं।",
+        "Japanese": "優れた発表者は発表中に聴衆を案内するために___を使います。"
+      },
+      "options": [
+        "signposting",
+        "rehearsal",
+        "delivery"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Time management helps keep a long seminar presentation on schedule.",
+      "question_translation": {
+        "Hindi": "समय प्रबंधन लंबी सेमिनार प्रस्तुति को समय पर रखने में मदद करता है।",
+        "Japanese": "時間管理は長いセミナー発表を予定通りに進めるのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term refers to practicing a presentation before the event?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द प्रस्तुति से पहले उसका अभ्यास करने को दर्शाता है?",
+        "Japanese": "発表の前に練習することを指す用語はどれですか？"
+      },
+      "options": [
+        "Rehearsal",
+        "Q&A session",
+        "Transition"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Slides and graphs are examples of ___ aids.",
+      "question_translation": {
+        "Hindi": "स्लाइड और ग्राफ़ ___ सहायक के उदाहरण हैं।",
+        "Japanese": "スライドやグラフは___補助の例です。"
+      },
+      "options": [
+        "visual",
+        "time",
+        "audience"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "multipleChoice",
+      "question": "Which sentence shows signposting?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य दिशा सूचक संकेत दिखाता है?",
+        "Japanese": "どの文がサインポスティングを示していますか？"
+      },
+      "options": [
+        "First, we’ll look at the research background before moving to the methods.",
+        "The research background is complex and detailed.",
+        "I am excited to share my findings today."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Polite speakers often say, 'I’d be happy to ___ your questions now.'",
+      "question_translation": {
+        "Hindi": "विनम्र वक्ता अक्सर कहते हैं, 'अब मैं आपके प्रश्नों को ___ करने में प्रसन्नता महसूस करूंगा।'",
+        "Japanese": "丁寧な発表者はよく「ここで皆さんの質問を___したいと思います」と言います。"
+      },
+      "options": [
+        "take",
+        "ignore",
+        "avoid"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [presentation, rehearsing, before, improves, confidence]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [presentation, rehearsing, before, improves, confidence]",
+        "Japanese": "並べ替え: [presentation, rehearsing, before, improves, confidence]"
+      },
+      "options": [
+        "rehearsing",
+        "before",
+        "presentation",
+        "improves",
+        "confidence"
+      ],
+      "answer": [
+        "rehearsing",
+        "before",
+        "presentation",
+        "improves",
+        "confidence"
+      ]
+    },
+    {
+      "id": "sent4",
+      "type": "multipleChoice",
+      "question": "Which sentence demonstrates good transition?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य अच्छा संक्रमण दिखाता है?",
+        "Japanese": "どの文が良い移行を示していますか？"
+      },
+      "options": [
+        "Now that we have discussed the introduction, let’s move to the methodology section.",
+        "The methodology is important.",
+        "Let’s continue."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Confident body language improves your presentation ___.",
+      "question_translation": {
+        "Hindi": "आत्मविश्वासपूर्ण शारीरिक भाषा आपकी प्रस्तुति ___ को बेहतर बनाती है।",
+        "Japanese": "自信のあるボディランゲージは発表の___を向上させます。"
+      },
+      "options": [
+        "delivery",
+        "time management",
+        "slides"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What is the speaker doing?",
+      "audio_text": "First, I will introduce the topic, then explain my methods, and finally share my results.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या कर रहा है?",
+        "Japanese": "話者は何をしていますか？"
+      },
+      "options": [
+        "Signposting structure",
+        "Answering questions",
+        "Ending the talk"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker is managing time by outlining the presentation sections.",
+      "audio_text": "This presentation will take about 30 minutes: 10 minutes for background, 15 for results, and 5 for Q&A.",
+      "question_translation": {
+        "Hindi": "वक्ता प्रस्तुति अनुभागों की रूपरेखा बनाकर समय प्रबंधन कर रहा है।",
+        "Japanese": "話者は発表の構成を説明して時間を管理しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which advice is the speaker giving?",
+      "audio_text": "Practice your seminar multiple times to build confidence and improve delivery.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सी सलाह दे रहा है?",
+        "Japanese": "話者はどのアドバイスをしていますか？"
+      },
+      "options": [
+        "Rehearsal is important",
+        "Slides must be colorful",
+        "Speak very fast"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is the speaker encouraging?",
+      "audio_text": "Remember to engage your audience by asking thought-provoking questions.",
+      "question_translation": {
+        "Hindi": "वक्ता किस बात के लिए प्रोत्साहित कर रहा है?",
+        "Japanese": "話者は何を勧めていますか？"
+      },
+      "options": [
+        "Audience engagement",
+        "Reading slides word for word",
+        "Skipping Q&A"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The speaker is giving tips on using visual aids effectively.",
+      "audio_text": "Use clear charts and images that support your key points without overcrowding slides.",
+      "question_translation": {
+        "Hindi": "वक्ता दृश्य सहायक का प्रभावी उपयोग करने के सुझाव दे रहा है।",
+        "Japanese": "話者は視覚補助を効果的に使うコツを教えています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I will outline my presentation in three main sections.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I will outline my presentation in three main sections.'",
+        "Japanese": "言ってください: 'I will outline my presentation in three main sections.'"
+      },
+      "options": [],
+      "answer": "i will outline my presentation in three main sections"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Thank you for your attention; I’m happy to take questions now.'",
+      "question_translation": {
+        "Hindi": "कहें: 'आपके ध्यान के लिए धन्यवाद; अब मैं आपके प्रश्न लेने के लिए तैयार हूँ।'",
+        "Japanese": "言ってください: 'ご清聴ありがとうございます。ここで皆さんの質問をお受けします。'"
+      },
+      "options": [],
+      "answer": "thank you for your attention i’m happy to take questions now"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Rehearsing before the seminar improves my delivery.'",
+      "question_translation": {
+        "Hindi": "कहें: 'सेमिनार से पहले अभ्यास करना मेरी प्रस्तुति को बेहतर बनाता है।'",
+        "Japanese": "言ってください: 'セミナーの前にリハーサルをすることで発表が上達します。'"
+      },
+      "options": [],
+      "answer": "rehearsing before the seminar improves my delivery"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'I use visual aids to support my key points.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मैं अपने मुख्य बिंदुओं को समर्थन देने के लिए दृश्य सहायक का उपयोग करता हूँ।'",
+        "Japanese": "言ってください: '重要なポイントを支えるために視覚補助を使います。'"
+      },
+      "options": [],
+      "answer": "i use visual aids to support my key points"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Effective time management keeps my seminar on track.'",
+      "question_translation": {
+        "Hindi": "कहें: 'प्रभावी समय प्रबंधन मेरी सेमिनार को सही दिशा में रखता है।'",
+        "Japanese": "言ってください: '効果的な時間管理は私のセミナーを予定通りに進めます。'"
+      },
+      "options": [],
+      "answer": "effective time management keeps my seminar on track"
+    }
+  ]
+}
+
 }

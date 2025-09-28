@@ -1,4 +1,525 @@
 {
-  "id": 44,
-  "message": "This is file number 44"
+  "id": "lesson_shopping_habits_001",
+  "lesson_name": "Discussing Shopping Habits",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "habit",
+        "word_translation": {
+          "Hindi": "आदत",
+          "Japanese": "習慣"
+        },
+        "meaning": "A regular way of doing things",
+        "meaning_translation": {
+          "Hindi": "कुछ करने का नियमित तरीका",
+          "Japanese": "物事を行う規則的な方法"
+        },
+        "examples": [
+          {
+            "sentence": "I have a habit of shopping online every weekend.",
+            "translation": {
+              "Hindi": "मेरी आदत है कि मैं हर सप्ताहांत ऑनलाइन खरीदारी करता हूँ।",
+              "Japanese": "私は毎週末にオンラインで買い物をする習慣があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "bargain",
+        "word_translation": {
+          "Hindi": "सौदा",
+          "Japanese": "掘り出し物 / 特価品"
+        },
+        "meaning": "Something bought cheaply or at a good price",
+        "meaning_translation": {
+          "Hindi": "कुछ सस्ते या अच्छे दाम पर खरीदा हुआ",
+          "Japanese": "安く、またはお得に買ったもの"
+        },
+        "examples": [
+          {
+            "sentence": "I found a great bargain at the market.",
+            "translation": {
+              "Hindi": "मुझे बाजार में एक बढ़िया सौदा मिला।",
+              "Japanese": "市場で素晴らしい掘り出し物を見つけました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "affordable",
+        "word_translation": {
+          "Hindi": "सस्ता / वहन योग्य",
+          "Japanese": "手頃な"
+        },
+        "meaning": "Something reasonably priced, not too expensive",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जिसकी कीमत उचित हो और बहुत महंगा न हो",
+          "Japanese": "価格が合理的で高すぎないもの"
+        },
+        "examples": [
+          {
+            "sentence": "This shop sells affordable clothes.",
+            "translation": {
+              "Hindi": "यह दुकान सस्ते कपड़े बेचती है।",
+              "Japanese": "この店は手頃な服を売っています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "brand",
+        "word_translation": {
+          "Hindi": "ब्रांड / कंपनी का नाम",
+          "Japanese": "ブランド"
+        },
+        "meaning": "A type of product made by a company with a special name",
+        "meaning_translation": {
+          "Hindi": "किसी कंपनी द्वारा विशेष नाम से बनाया गया उत्पाद",
+          "Japanese": "特別な名前で会社によって作られる製品"
+        },
+        "examples": [
+          {
+            "sentence": "Nike is my favorite sports brand.",
+            "translation": {
+              "Hindi": "नाइकी मेरा पसंदीदा खेल ब्रांड है।",
+              "Japanese": "ナイキは私のお気に入りのスポーツブランドです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "online shopping",
+        "word_translation": {
+          "Hindi": "ऑनलाइन खरीदारी",
+          "Japanese": "オンラインショッピング"
+        },
+        "meaning": "Buying products from the internet",
+        "meaning_translation": {
+          "Hindi": "इंटरनेट से उत्पाद खरीदना",
+          "Japanese": "インターネットで商品を買うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Online shopping is very popular nowadays.",
+            "translation": {
+              "Hindi": "आजकल ऑनलाइन खरीदारी बहुत लोकप्रिय है।",
+              "Japanese": "最近はオンラインショッピングがとても人気です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cash",
+        "word_translation": {
+          "Hindi": "नकद",
+          "Japanese": "現金"
+        },
+        "meaning": "Money in the form of notes and coins",
+        "meaning_translation": {
+          "Hindi": "नोट और सिक्कों के रूप में पैसा",
+          "Japanese": "紙幣や硬貨の形のお金"
+        },
+        "examples": [
+          {
+            "sentence": "I prefer to pay in cash at small shops.",
+            "translation": {
+              "Hindi": "मैं छोटी दुकानों में नकद भुगतान करना पसंद करता हूँ।",
+              "Japanese": "私は小さなお店では現金で支払うのが好きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "receipt",
+        "word_translation": {
+          "Hindi": "रसीद",
+          "Japanese": "レシート"
+        },
+        "meaning": "A paper that shows you have paid for something",
+        "meaning_translation": {
+          "Hindi": "एक कागज़ जो दिखाता है कि आपने किसी चीज़ के लिए भुगतान किया है",
+          "Japanese": "何かを支払ったことを示す紙"
+        },
+        "examples": [
+          {
+            "sentence": "Keep the receipt in case you need to return the item.",
+            "translation": {
+              "Hindi": "यदि आपको वस्तु वापस करनी पड़े तो रसीद संभालकर रखें।",
+              "Japanese": "返品が必要な場合に備えてレシートを取っておきましょう。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "customer",
+        "word_translation": {
+          "Hindi": "ग्राहक",
+          "Japanese": "顧客"
+        },
+        "meaning": "A person who buys goods or services",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो वस्तुएं या सेवाएं खरीदता है",
+          "Japanese": "商品やサービスを買う人"
+        },
+        "examples": [
+          {
+            "sentence": "The shop was full of customers.",
+            "translation": {
+              "Hindi": "दुकान ग्राहकों से भरी हुई थी।",
+              "Japanese": "店は客でいっぱいでした。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'like' and 'prefer' for shopping habits",
+        "explanation": "We use 'like' and 'prefer' to talk about shopping preferences. Example: I prefer online shopping to traditional shopping.",
+        "explanation_translation": {
+          "Hindi": "हम 'like' और 'prefer' का उपयोग खरीदारी की पसंद बताने के लिए करते हैं। उदाहरण: I prefer online shopping to traditional shopping.",
+          "Japanese": "買い物の好みについて話すとき「like」と「prefer」を使います。例: I prefer online shopping to traditional shopping."
+        }
+      },
+      {
+        "title": "Adverbs of frequency for habits",
+        "explanation": "We use words like 'always', 'usually', 'often', 'sometimes', and 'never' to describe shopping habits. Example: I usually shop on weekends.",
+        "explanation_translation": {
+          "Hindi": "हम 'always', 'usually', 'often', 'sometimes', और 'never' जैसे शब्दों का उपयोग खरीदारी की आदतें बताने के लिए करते हैं। उदाहरण: I usually shop on weekends.",
+          "Japanese": "買い物の習慣を説明するために「always」「usually」「often」「sometimes」「never」などを使います。例: I usually shop on weekends."
+        }
+      },
+      {
+        "title": "Using 'how often' questions",
+        "explanation": "We use 'How often do you...?' to ask about frequency. Example: How often do you go shopping?",
+        "explanation_translation": {
+          "Hindi": "हम 'How often do you...?' का उपयोग आवृत्ति पूछने के लिए करते हैं। उदाहरण: How often do you go shopping?",
+          "Japanese": "頻度を尋ねるとき「How often do you...?」を使います。例: How often do you go shopping?"
+        }
+      }
+    ]
+  },
+  
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'something bought cheaply or at a good price'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'कुछ सस्ते या अच्छे दाम पर खरीदा हुआ' का अर्थ है?",
+          "Japanese": "「安く、またはお得に買ったもの」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "habit",
+          "bargain",
+          "receipt"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "This shop sells ___ clothes.",
+        "question_translation": {
+          "Hindi": "यह दुकान ___ कपड़े बेचती है।",
+          "Japanese": "この店は___服を売っています。"
+        },
+        "options": [
+          "affordable",
+          "brand",
+          "receipt"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A receipt shows that you have paid for something.",
+        "question_translation": {
+          "Hindi": "रसीद दिखाती है कि आपने किसी चीज़ के लिए भुगतान किया है।",
+          "Japanese": "レシートは何かを支払ったことを示します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word describes a person who buys goods?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द उस व्यक्ति को वर्णित करता है जो सामान खरीदता है?",
+          "Japanese": "商品を買う人を表す言葉はどれですか？"
+        },
+        "options": [
+          "brand",
+          "customer",
+          "habit"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "I prefer ___ shopping because it is easy.",
+        "question_translation": {
+          "Hindi": "मैं ___ खरीदारी पसंद करता हूँ क्योंकि यह आसान है।",
+          "Japanese": "私は___ショッピングが好きです。簡単だからです。"
+        },
+        "options": [
+          "online",
+          "cash",
+          "bargain"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [shop, usually, I, weekends, on]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [shop, usually, I, weekends, on]",
+          "Japanese": "並べ替え: [shop, usually, I, weekends, on]"
+        },
+        "options": [
+          "shop",
+          "usually",
+          "I",
+          "weekends",
+          "on"
+        ],
+        "answer": [
+          "I",
+          "usually",
+          "shop",
+          "on",
+          "weekends"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "How often do you ___ shopping?",
+        "question_translation": {
+          "Hindi": "आप कितनी बार खरीदारी करने ___ जाते हैं?",
+          "Japanese": "あなたはどのくらいの頻度で買い物に___行きますか？"
+        },
+        "options": [
+          "go",
+          "went",
+          "gone"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "I prefers online shopping.",
+          "I prefer online shopping.",
+          "I preferring online shopping."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [receipt, the, keep, return, item, you, need, in, case]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [receipt, the, keep, return, item, you, need, in, case]",
+          "Japanese": "並べ替え: [receipt, the, keep, return, item, you, need, in, case]"
+        },
+        "options": [
+          "receipt",
+          "the",
+          "keep",
+          "return",
+          "item",
+          "you",
+          "need",
+          "in",
+          "case"
+        ],
+        "answer": [
+          "keep",
+          "the",
+          "receipt",
+          "in",
+          "case",
+          "you",
+          "need",
+          "to",
+          "return",
+          "the",
+          "item"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Many people like to buy popular ___.",
+        "question_translation": {
+          "Hindi": "कई लोग लोकप्रिय ___ खरीदना पसंद करते हैं।",
+          "Japanese": "多くの人は人気のある___を買うのが好きです。"
+        },
+        "options": [
+          "brands",
+          "cash",
+          "habits"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What kind of shopping does the speaker prefer?",
+        "audio_text": "I prefer online shopping because it saves time.",
+        "question_translation": {
+          "Hindi": "वक्ता किस प्रकार की खरीदारी पसंद करता है?",
+          "Japanese": "話者はどんな買い物が好きですか？"
+        },
+        "options": [
+          "Traditional shopping",
+          "Online shopping",
+          "Window shopping"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker says they usually shop on weekends.",
+        "audio_text": "I usually go shopping on weekends.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि वह आमतौर पर सप्ताहांत पर खरीदारी करता है।",
+          "Japanese": "話者は普段週末に買い物に行くと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What did the speaker find?",
+        "audio_text": "I found a great bargain at the market yesterday.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या पाया?",
+          "Japanese": "話者は何を見つけましたか？"
+        },
+        "options": [
+          "A brand",
+          "A bargain",
+          "A receipt"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "How does the speaker usually pay?",
+        "audio_text": "I usually pay in cash when I shop at small stores.",
+        "question_translation": {
+          "Hindi": "वक्ता आमतौर पर कैसे भुगतान करता है?",
+          "Japanese": "話者は普段どのように支払いますか？"
+        },
+        "options": [
+          "By card",
+          "By cash",
+          "By cheque"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "The speaker says clothes from this shop are affordable.",
+        "audio_text": "The clothes from this shop are affordable and good quality.",
+        "question_translation": {
+          "Hindi": "वक्ता कहता है कि इस दुकान के कपड़े सस्ते हैं।",
+          "Japanese": "話者はこの店の服は手頃だと言っています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I prefer online shopping to traditional shopping.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I prefer online shopping to traditional shopping.'",
+          "Japanese": "言ってください: 'I prefer online shopping to traditional shopping.'"
+        },
+        "options": [],
+        "answer": "i prefer online shopping to traditional shopping"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I usually shop on weekends.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I usually shop on weekends.'",
+          "Japanese": "言ってください: 'I usually shop on weekends.'"
+        },
+        "options": [],
+        "answer": "i usually shop on weekends"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'This shop sells affordable clothes.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This shop sells affordable clothes.'",
+          "Japanese": "言ってください: 'This shop sells affordable clothes.'"
+        },
+        "options": [],
+        "answer": "this shop sells affordable clothes"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I found a great bargain yesterday.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I found a great bargain yesterday.'",
+          "Japanese": "言ってください: 'I found a great bargain yesterday.'"
+        },
+        "options": [],
+        "answer": "i found a great bargain yesterday"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Please keep the receipt.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Please keep the receipt.'",
+          "Japanese": "言ってください: 'Please keep the receipt.'"
+        },
+        "options": [],
+        "answer": "please keep the receipt"
+      }
+    ]
+  }
+
+
 }

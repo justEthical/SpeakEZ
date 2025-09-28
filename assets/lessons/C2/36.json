@@ -1,4 +1,573 @@
 {
-  "id": 36,
-  "message": "This is file number 36"
+  "id": "lesson_cultural_literacy_allusive_language_c2",
+  "lesson_name": "Cultural Literacy & Allusive Language",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "allusion",
+        "word_translation": {
+          "Hindi": "संकेत / संदर्भ",
+          "Japanese": "言及 / 暗示"
+        },
+        "meaning": "A brief, indirect reference to something well-known, like a book, event, or figure",
+        "meaning_translation": {
+          "Hindi": "किसी प्रसिद्ध चीज़ (जैसे किताब, घटना, व्यक्ति) का संक्षिप्त और अप्रत्यक्ष संदर्भ",
+          "Japanese": "有名な本や出来事、人物などへの簡単で間接的な言及"
+        },
+        "examples": [
+          {
+            "sentence": "Her speech included an allusion to Shakespeare’s Hamlet.",
+            "translation": {
+              "Hindi": "उसके भाषण में शेक्सपीयर के हैमलेट का एक संकेत शामिल था।",
+              "Japanese": "彼女のスピーチにはシェイクスピアのハムレットへの言及が含まれていました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cultural literacy",
+        "word_translation": {
+          "Hindi": "सांस्कृतिक साक्षरता",
+          "Japanese": "文化的リテラシー"
+        },
+        "meaning": "Knowledge of shared references, symbols, and stories that allow effective communication in a culture",
+        "meaning_translation": {
+          "Hindi": "साझा संदर्भों, प्रतीकों और कहानियों का ज्ञान जो किसी संस्कृति में प्रभावी संचार की अनुमति देता है",
+          "Japanese": "文化内で効果的なコミュニケーションを可能にする共通の参照・象徴・物語の知識"
+        },
+        "examples": [
+          {
+            "sentence": "Cultural literacy helps you understand idioms and jokes in a foreign language.",
+            "translation": {
+              "Hindi": "सांस्कृतिक साक्षरता आपको किसी विदेशी भाषा में मुहावरों और चुटकुलों को समझने में मदद करती है।",
+              "Japanese": "文化的リテラシーは外国語での慣用句やジョークを理解するのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intertextuality",
+        "word_translation": {
+          "Hindi": "पाठों के बीच संबंध",
+          "Japanese": "間テクスト性"
+        },
+        "meaning": "The way one text refers to or is connected with another text",
+        "meaning_translation": {
+          "Hindi": "जिस तरीके से एक पाठ दूसरे पाठ से संदर्भित या जुड़ा होता है",
+          "Japanese": "あるテキストが別のテキストを参照したり関連したりすること"
+        },
+        "examples": [
+          {
+            "sentence": "The novel’s intertextuality makes it rich with literary references.",
+            "translation": {
+              "Hindi": "उपन्यास की पाठों के बीच संबंध इसे साहित्यिक संदर्भों से समृद्ध बनाता है।",
+              "Japanese": "その小説の間テクスト性が文学的な参照で豊かにしています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "archetype",
+        "word_translation": {
+          "Hindi": "मूल प्रतिरूप / आदर्श उदाहरण",
+          "Japanese": "原型 / アーキタイプ"
+        },
+        "meaning": "A very typical example of a person, story, or idea seen across cultures",
+        "meaning_translation": {
+          "Hindi": "एक व्यक्ति, कहानी या विचार का बहुत विशिष्ट उदाहरण जो विभिन्न संस्कृतियों में देखा जाता है",
+          "Japanese": "さまざまな文化に見られる人・物語・考えの典型的な例"
+        },
+        "examples": [
+          {
+            "sentence": "The hero’s journey is an archetype found in many myths.",
+            "translation": {
+              "Hindi": "नायक की यात्रा कई मिथकों में पाई जाने वाली एक आदर्श प्रतिरूप है।",
+              "Japanese": "ヒーローの旅は多くの神話に見られるアーキタイプです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "metaphorical reference",
+        "word_translation": {
+          "Hindi": "रूपकात्मक संदर्भ",
+          "Japanese": "比喩的な言及"
+        },
+        "meaning": "A figure of speech comparing something to another idea or story indirectly",
+        "meaning_translation": {
+          "Hindi": "एक अलंकार जो किसी चीज़ की तुलना किसी अन्य विचार या कहानी से अप्रत्यक्ष रूप से करता है",
+          "Japanese": "何かを他のアイデアや物語に間接的に例える表現"
+        },
+        "examples": [
+          {
+            "sentence": "Calling someone a ‘Good Samaritan’ is a metaphorical reference to a Bible story.",
+            "translation": {
+              "Hindi": "किसी को 'Good Samaritan' कहना बाइबिल की कहानी का एक रूपकात्मक संदर्भ है।",
+              "Japanese": "誰かを「良きサマリア人」と呼ぶのは聖書の物語への比喩的な言及です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "mythology",
+        "word_translation": {
+          "Hindi": "पौराणिक कथाएँ",
+          "Japanese": "神話"
+        },
+        "meaning": "A collection of myths or traditional stories belonging to a culture",
+        "meaning_translation": {
+          "Hindi": "किसी संस्कृति से संबंधित मिथकों या पारंपरिक कहानियों का संग्रह",
+          "Japanese": "ある文化に属する神話や伝統的な物語の集まり"
+        },
+        "examples": [
+          {
+            "sentence": "Greek mythology influences much of Western literature.",
+            "translation": {
+              "Hindi": "यूनानी पौराणिक कथाएँ पश्चिमी साहित्य के बड़े हिस्से को प्रभावित करती हैं।",
+              "Japanese": "ギリシャ神話は西洋文学に大きな影響を与えています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "idiomatic expression",
+        "word_translation": {
+          "Hindi": "मुहावरेदार अभिव्यक्ति",
+          "Japanese": "慣用表現"
+        },
+        "meaning": "A phrase with a figurative meaning different from its literal meaning",
+        "meaning_translation": {
+          "Hindi": "एक वाक्यांश जिसका आलंकारिक अर्थ उसके शाब्दिक अर्थ से अलग होता है",
+          "Japanese": "文字通りの意味とは異なる比喩的な意味を持つ表現"
+        },
+        "examples": [
+          {
+            "sentence": "‘Break the ice’ is an idiomatic expression meaning to start a friendly conversation.",
+            "translation": {
+              "Hindi": "'Break the ice' एक मुहावरेदार अभिव्यक्ति है जिसका अर्थ है दोस्ताना बातचीत शुरू करना।",
+              "Japanese": "「Break the ice」は友好的な会話を始めることを意味する慣用表現です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "connotation",
+        "word_translation": {
+          "Hindi": "निहितार्थ / भावार्थ",
+          "Japanese": "含意 / ニュアンス"
+        },
+        "meaning": "The emotional or cultural meaning that a word suggests beyond its literal meaning",
+        "meaning_translation": {
+          "Hindi": "किसी शब्द का शाब्दिक अर्थ से परे उसका भावनात्मक या सांस्कृतिक अर्थ",
+          "Japanese": "文字通りの意味を超えた単語の感情的・文化的な意味"
+        },
+        "examples": [
+          {
+            "sentence": "The word ‘home’ has warm, positive connotations.",
+            "translation": {
+              "Hindi": "'Home' शब्द में गर्मजोशी और सकारात्मक निहितार्थ होते हैं।",
+              "Japanese": "「home」という言葉には温かくポジティブな含意があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "eponym",
+        "word_translation": {
+          "Hindi": "नाम-प्रसूत शब्द",
+          "Japanese": "エポニム"
+        },
+        "meaning": "A word derived from the name of a person, place, or character",
+        "meaning_translation": {
+          "Hindi": "किसी व्यक्ति, स्थान या चरित्र के नाम से व्युत्पन्न शब्द",
+          "Japanese": "人名や地名、キャラクターの名前から派生した単語"
+        },
+        "examples": [
+          {
+            "sentence": "‘Sandwich’ is an eponym from the Earl of Sandwich.",
+            "translation": {
+              "Hindi": "'Sandwich' शब्द सैंडविच के अर्ल से आया है।",
+              "Japanese": "「サンドイッチ」はサンドイッチ伯爵から来たエポニムです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cultural reference",
+        "word_translation": {
+          "Hindi": "सांस्कृतिक संदर्भ",
+          "Japanese": "文化的参照"
+        },
+        "meaning": "A mention of something from shared cultural knowledge",
+        "meaning_translation": {
+          "Hindi": "साझा सांस्कृतिक ज्ञान से संबंधित किसी चीज़ का उल्लेख",
+          "Japanese": "共有された文化的知識からの言及"
+        },
+        "examples": [
+          {
+            "sentence": "The movie is full of cultural references to 1980s music.",
+            "translation": {
+              "Hindi": "फिल्म 1980 के दशक के संगीत के सांस्कृतिक संदर्भों से भरी है।",
+              "Japanese": "その映画は1980年代の音楽への文化的参照に満ちています。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Allusions Naturally",
+        "explanation": "Introduce allusions subtly, without over-explaining, so readers feel included but not lectured.",
+        "explanation_translation": {
+          "Hindi": "संकेतों को स्वाभाविक रूप से पेश करें, बिना अधिक समझाए, ताकि पाठक को जानकारी मिले लेकिन उपदेश न लगे।",
+          "Japanese": "暗示を過剰に説明せず自然に取り入れ、読者が教え込まれたと感じないようにします。"
+        }
+      },
+      {
+        "title": "Definite vs. Indefinite Articles with Cultural Items",
+        "explanation": "Use 'the' with well-known cultural symbols (the Eiffel Tower, the Bible) and 'a' for general references.",
+        "explanation_translation": {
+          "Hindi": "प्रसिद्ध सांस्कृतिक प्रतीकों के साथ 'the' का उपयोग करें (the Eiffel Tower, the Bible) और सामान्य संदर्भों के लिए 'a'।",
+          "Japanese": "有名な文化的象徴には「the」を使い（the Eiffel Tower, the Bible）、一般的な参照には「a」を使います。"
+        }
+      },
+      {
+        "title": "Capitalization of Proper Cultural References",
+        "explanation": "Proper nouns from culture (Greek Mythology, Shakespearean tragedy) are capitalized.",
+        "explanation_translation": {
+          "Hindi": "संस्कृति से संबंधित उचित संज्ञाओं (Greek Mythology, Shakespearean tragedy) को बड़े अक्षरों में लिखें।",
+          "Japanese": "文化に関する固有名詞（Greek Mythology, Shakespearean tragedy）は大文字で書きます。"
+        }
+      },
+      {
+        "title": "Quoting Sources Accurately",
+        "explanation": "When alluding to literature or famous lines, use correct quotation marks and original wording.",
+        "explanation_translation": {
+          "Hindi": "साहित्य या प्रसिद्ध पंक्तियों का संदर्भ देते समय सही उद्धरण चिह्न और मूल शब्दों का उपयोग करें।",
+          "Japanese": "文学や有名なセリフを言及するときは正確な引用符と元の言葉を使います。"
+        }
+      },
+      {
+        "title": "Avoiding Cultural Overload",
+        "explanation": "Too many obscure references can confuse readers. Balance familiar and less-known allusions.",
+        "explanation_translation": {
+          "Hindi": "बहुत अधिक अस्पष्ट संदर्भ पाठकों को भ्रमित कर सकते हैं। परिचित और कम ज्ञात संकेतों के बीच संतुलन बनाएँ।",
+          "Japanese": "難解な参照が多すぎると読者を混乱させます。親しみやすいものとそうでないもののバランスを取りましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means an indirect reference to something well-known?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द किसी प्रसिद्ध चीज़ के अप्रत्यक्ष संदर्भ को दर्शाता है?",
+        "Japanese": "よく知られているものへの間接的な言及を意味する単語はどれですか？"
+      },
+      "options": [
+        "allusion",
+        "connotation",
+        "eponym"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Knowledge of shared stories and symbols is called cultural ___.",
+      "question_translation": {
+        "Hindi": "साझा कहानियों और प्रतीकों का ज्ञान सांस्कृतिक ___ कहलाता है।",
+        "Japanese": "共有された物語や象徴の知識は文化的___と呼ばれます。"
+      },
+      "options": [
+        "literacy",
+        "reference",
+        "mythology"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "An idiomatic expression always means exactly what the words say literally.",
+      "question_translation": {
+        "Hindi": "एक मुहावरेदार अभिव्यक्ति हमेशा वही मतलब देती है जो शब्द शाब्दिक रूप से कहते हैं।",
+        "Japanese": "慣用表現は常に文字通りの意味を持ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "‘Achilles’ heel’ is an example of which concept?",
+      "question_translation": {
+        "Hindi": "'Achilles’ heel' किस अवधारणा का उदाहरण है?",
+        "Japanese": "「Achilles’ heel」はどの概念の例ですか？"
+      },
+      "options": [
+        "archetype",
+        "allusion",
+        "eponym"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "‘Sandwich’ is an example of an ___.",
+      "question_translation": {
+        "Hindi": "'Sandwich' एक ___ का उदाहरण है।",
+        "Japanese": "「Sandwich」は___の例です。"
+      },
+      "options": [
+        "eponym",
+        "archetype",
+        "metaphor"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [cultural, helps, idioms, literacy, understand]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [cultural, helps, idioms, literacy, understand]",
+        "Japanese": "並べ替え: [cultural, helps, idioms, literacy, understand]"
+      },
+      "options": [
+        "cultural",
+        "literacy",
+        "helps",
+        "understand",
+        "idioms"
+      ],
+      "answer": [
+        "cultural",
+        "literacy",
+        "helps",
+        "understand",
+        "idioms"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Writers often use ___ to connect their work to famous stories.",
+      "question_translation": {
+        "Hindi": "लेखक अक्सर अपनी रचना को प्रसिद्ध कहानियों से जोड़ने के लिए ___ का उपयोग करते हैं।",
+        "Japanese": "作家は自分の作品を有名な物語に結びつけるためによく___を使います。"
+      },
+      "options": [
+        "allusions",
+        "facts",
+        "equations"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence correctly uses an idiomatic expression?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य एक मुहावरेदार अभिव्यक्ति का सही उपयोग करता है?",
+        "Japanese": "どの文が慣用表現を正しく使っていますか？"
+      },
+      "options": [
+        "I broke the ice by telling a joke.",
+        "He literally broke ice in the freezer.",
+        "She is an ice breaker machine."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [intertextuality, text, connects, another, one, with]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [intertextuality, text, connects, another, one, with]",
+        "Japanese": "並べ替え: [intertextuality, text, connects, another, one, with]"
+      },
+      "options": [
+        "intertextuality",
+        "connects",
+        "one",
+        "text",
+        "with",
+        "another"
+      ],
+      "answer": [
+        "intertextuality",
+        "connects",
+        "one",
+        "text",
+        "with",
+        "another"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Writers should balance familiar and ___ references to avoid confusing readers.",
+      "question_translation": {
+        "Hindi": "लेखकों को पाठकों को भ्रमित करने से बचने के लिए परिचित और ___ संदर्भों में संतुलन बनाए रखना चाहिए।",
+        "Japanese": "作家は読者を混乱させないように、馴染みのある参照と___な参照のバランスを取るべきです。"
+      },
+      "options": [
+        "obscure",
+        "friendly",
+        "direct"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker say about cultural literacy?",
+      "audio_text": "Cultural literacy allows people to understand jokes, idioms, and historical references in a language.",
+      "question_translation": {
+        "Hindi": "वक्ता सांस्कृतिक साक्षरता के बारे में क्या कहते हैं?",
+        "Japanese": "話者は文化的リテラシーについて何と言っていますか？"
+      },
+      "options": [
+        "It helps understand idioms and references.",
+        "It is only about reading books.",
+        "It is not useful in communication."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "Allusion means directly explaining a cultural story in detail.",
+      "audio_text": "Allusion is an indirect reference to something well-known, not a detailed explanation.",
+      "question_translation": {
+        "Hindi": "संकेत का मतलब है किसी सांस्कृतिक कहानी को विस्तार से समझाना।",
+        "Japanese": "暗示とは文化的な物語を詳しく説明することを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which example shows an archetype?",
+      "audio_text": "The hero’s journey appears in many myths around the world.",
+      "question_translation": {
+        "Hindi": "कौन सा उदाहरण एक आदर्श प्रतिरूप (archetype) दिखाता है?",
+        "Japanese": "どの例がアーキタイプを示していますか？"
+      },
+      "options": [
+        "A new gadget",
+        "The hero’s journey",
+        "A random metaphor"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "Why is intertextuality important according to the speaker?",
+      "audio_text": "Intertextuality adds depth to writing by connecting it to other works and cultural stories.",
+      "question_translation": {
+        "Hindi": "वक्ता के अनुसार अंतरपाठीयता (intertextuality) क्यों महत्वपूर्ण है?",
+        "Japanese": "話者によると間テクスト性が重要なのはなぜですか？"
+      },
+      "options": [
+        "It makes texts confusing.",
+        "It adds depth by connecting to other works.",
+        "It avoids any cultural context."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Connotation is the cultural and emotional meaning beyond the literal definition.",
+      "audio_text": "Connotation refers to the feelings or cultural meaning a word carries in addition to its literal meaning.",
+      "question_translation": {
+        "Hindi": "निहितार्थ (connotation) का मतलब है शब्द के शाब्दिक अर्थ से परे उसका सांस्कृतिक और भावनात्मक अर्थ।",
+        "Japanese": "含意（connotation）は、単語の文字通りの意味を超えた文化的・感情的な意味を指します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Allusions make writing more meaningful for culturally aware readers.'",
+      "question_translation": {
+        "Hindi": "कहें: 'संकेत सांस्कृतिक रूप से जागरूक पाठकों के लिए लेखन को अधिक अर्थपूर्ण बनाते हैं।'",
+        "Japanese": "言ってください: 'Allusions make writing more meaningful for culturally aware readers.'"
+      },
+      "options": [],
+      "answer": "allusions make writing more meaningful for culturally aware readers"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Cultural literacy helps me understand jokes and idioms.'",
+      "question_translation": {
+        "Hindi": "कहें: 'सांस्कृतिक साक्षरता मुझे चुटकुले और मुहावरे समझने में मदद करती है।'",
+        "Japanese": "言ってください: 'Cultural literacy helps me understand jokes and idioms.'"
+      },
+      "options": [],
+      "answer": "cultural literacy helps me understand jokes and idioms"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The hero’s journey is a common archetype in world myths.'",
+      "question_translation": {
+        "Hindi": "कहें: 'नायक की यात्रा विश्व मिथकों में एक सामान्य आदर्श प्रतिरूप है।'",
+        "Japanese": "言ってください: 'The hero’s journey is a common archetype in world myths.'"
+      },
+      "options": [],
+      "answer": "the hero’s journey is a common archetype in world myths"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Idiomatic expressions don’t mean exactly what the words say.'",
+      "question_translation": {
+        "Hindi": "कहें: 'मुहावरेदार अभिव्यक्तियाँ हमेशा वही मतलब नहीं देतीं जो शब्द शाब्दिक रूप से कहते हैं।'",
+        "Japanese": "言ってください: 'Idiomatic expressions don’t mean exactly what the words say.'"
+      },
+      "options": [],
+      "answer": "idiomatic expressions don’t mean exactly what the words say"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Writers should avoid too many obscure cultural references.'",
+      "question_translation": {
+        "Hindi": "कहें: 'लेखकों को बहुत अधिक अस्पष्ट सांस्कृतिक संदर्भों से बचना चाहिए।'",
+        "Japanese": "言ってください: 'Writers should avoid too many obscure cultural references.'"
+      },
+      "options": [],
+      "answer": "writers should avoid too many obscure cultural references"
+    }
+  ]
+}
+
 }

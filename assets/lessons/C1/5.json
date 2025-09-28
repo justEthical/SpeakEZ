@@ -1,187 +1,568 @@
 {
-  "id": "lesson_literary_devices_c1_001",
-  "lesson_name": "Interpreting Literary Devices",
+  "id": "lesson_fronting_thematic_progression_c1",
+  "lesson_name": "Fronting & Thematic Progression",
   "purpose": "All",
   "cefrLevel": "C1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "metaphor", "meaning": "a comparison without using 'like' or 'as'" },
-      { "word": "simile", "meaning": "a comparison using 'like' or 'as'" },
-      { "word": "personification", "meaning": "giving human qualities to non-human things" },
-      { "word": "alliteration", "meaning": "repetition of consonant sounds at the beginning of words" },
-      { "word": "irony", "meaning": "using words to mean the opposite of what is expected" },
-      { "word": "hyperbole", "meaning": "an exaggerated statement not meant to be taken literally" },
-      { "word": "symbolism", "meaning": "using objects to represent ideas or concepts" },
-      { "word": "oxymoron", "meaning": "combining two opposite ideas in one phrase" },
-      { "word": "imagery", "meaning": "using descriptive language to create pictures in the reader's mind" },
-      { "word": "onomatopoeia", "meaning": "a word that imitates the sound it represents" }
+      {
+        "word": "fronting",
+        "word_translation": {
+          "Hindi": "सामने लाना",
+          "Japanese": "前置"
+        },
+        "meaning": "Placing a word or phrase at the beginning of a sentence for emphasis or cohesion",
+        "meaning_translation": {
+          "Hindi": "ज़ोर या सामंजस्य के लिए किसी शब्द या वाक्यांश को वाक्य की शुरुआत में रखना",
+          "Japanese": "強調や結束のために語や句を文頭に置くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Beautifully did she sing at the concert.",
+            "translation": {
+              "Hindi": "कितनी खूबसूरती से उसने संगीत कार्यक्रम में गाया।",
+              "Japanese": "彼女はコンサートで美しく歌った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "thematic progression",
+        "word_translation": {
+          "Hindi": "विषयगत प्रगति",
+          "Japanese": "主題展開"
+        },
+        "meaning": "The way information flows in a text from theme (known) to rheme (new)",
+        "meaning_translation": {
+          "Hindi": "एक पाठ में जानकारी का प्रवाह विषय (ज्ञात) से लेकर रेम (नया) तक",
+          "Japanese": "テキスト内で情報が主題（既知）から述題（新情報）へと流れる方法"
+        },
+        "examples": [
+          {
+            "sentence": "This book introduces the theory. The theory explains the process.",
+            "translation": {
+              "Hindi": "यह किताब सिद्धांत प्रस्तुत करती है। यह सिद्धांत प्रक्रिया को समझाता है।",
+              "Japanese": "この本は理論を紹介する。その理論が過程を説明する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "marked theme",
+        "word_translation": {
+          "Hindi": "चिह्नित विषय",
+          "Japanese": "標示された主題"
+        },
+        "meaning": "When something other than the subject is placed at the start for emphasis",
+        "meaning_translation": {
+          "Hindi": "जब कर्ता के अलावा किसी अन्य को ज़ोर देने के लिए शुरुआत में रखा जाता है",
+          "Japanese": "主語以外の要素を強調のために文頭に置くこと"
+        },
+        "examples": [
+          {
+            "sentence": "In the garden stood a tall statue.",
+            "translation": {
+              "Hindi": "बगीचे में एक लंबी मूर्ति खड़ी थी।",
+              "Japanese": "庭には高い像が立っていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "unmarked theme",
+        "word_translation": {
+          "Hindi": "अचिह्नित विषय",
+          "Japanese": "非標示された主題"
+        },
+        "meaning": "The normal sentence order where the subject is at the beginning",
+        "meaning_translation": {
+          "Hindi": "सामान्य वाक्य क्रम जहाँ कर्ता शुरुआत में होता है",
+          "Japanese": "主語が文頭にある通常の語順"
+        },
+        "examples": [
+          {
+            "sentence": "The statue stood in the garden.",
+            "translation": {
+              "Hindi": "मूर्ति बगीचे में खड़ी थी।",
+              "Japanese": "その像は庭に立っていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cohesion",
+        "word_translation": {
+          "Hindi": "सामंजस्य",
+          "Japanese": "結束"
+        },
+        "meaning": "The linking of ideas across sentences for clear flow",
+        "meaning_translation": {
+          "Hindi": "वाक्यों में विचारों का स्पष्ट प्रवाह के लिए जोड़",
+          "Japanese": "文同士のアイデアをつなげて明確な流れを作ること"
+        },
+        "examples": [
+          {
+            "sentence": "The company launched a new product. This product attracted many customers.",
+            "translation": {
+              "Hindi": "कंपनी ने एक नया उत्पाद लॉन्च किया। इस उत्पाद ने कई ग्राहकों को आकर्षित किया।",
+              "Japanese": "会社は新製品を発売した。この製品は多くの顧客を引き付けた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rheme",
+        "word_translation": {
+          "Hindi": "रेम (नया भाग)",
+          "Japanese": "述題"
+        },
+        "meaning": "The new or important information introduced in a sentence",
+        "meaning_translation": {
+          "Hindi": "वह नया या महत्वपूर्ण जानकारी जो वाक्य में प्रस्तुत की जाती है",
+          "Japanese": "文で導入される新しい、または重要な情報"
+        },
+        "examples": [
+          {
+            "sentence": "The new law (theme) will change business practices (rheme).",
+            "translation": {
+              "Hindi": "नया कानून (विषय) व्यापार प्रथाओं को बदलेगा (रेम)।",
+              "Japanese": "新しい法律（主題）がビジネスの慣行を変える（述題）。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "end-focus",
+        "word_translation": {
+          "Hindi": "अंत पर ध्यान",
+          "Japanese": "文末焦点"
+        },
+        "meaning": "Placing new information at the end of a sentence",
+        "meaning_translation": {
+          "Hindi": "नई जानकारी को वाक्य के अंत में रखना",
+          "Japanese": "新しい情報を文末に置くこと"
+        },
+        "examples": [
+          {
+            "sentence": "The most surprising result was the increase in profits.",
+            "translation": {
+              "Hindi": "सबसे चौंकाने वाला परिणाम मुनाफे में वृद्धि था।",
+              "Japanese": "最も驚くべき結果は利益の増加だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "theme reiteration",
+        "word_translation": {
+          "Hindi": "विषय पुनरावृत्ति",
+          "Japanese": "主題の反復"
+        },
+        "meaning": "Repeating the same theme across sentences for emphasis",
+        "meaning_translation": {
+          "Hindi": "ज़ोर देने के लिए वाक्यों में एक ही विषय की पुनरावृत्ति",
+          "Japanese": "強調のために複数の文で同じ主題を繰り返すこと"
+        },
+        "examples": [
+          {
+            "sentence": "Climate change is a major issue. Climate change affects millions worldwide.",
+            "translation": {
+              "Hindi": "जलवायु परिवर्तन एक बड़ा मुद्दा है। जलवायु परिवर्तन विश्वभर में लाखों को प्रभावित करता है।",
+              "Japanese": "気候変動は大きな問題だ。気候変動は世界中の何百万人にも影響を与えている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "linear progression",
+        "word_translation": {
+          "Hindi": "रेखीय प्रगति",
+          "Japanese": "線形展開"
+        },
+        "meaning": "When the rheme of one sentence becomes the theme of the next",
+        "meaning_translation": {
+          "Hindi": "जब एक वाक्य का रेम अगले वाक्य का विषय बन जाता है",
+          "Japanese": "ある文の述題が次の文の主題になること"
+        },
+        "examples": [
+          {
+            "sentence": "She bought a new laptop. The laptop has a powerful processor.",
+            "translation": {
+              "Hindi": "उसने नया लैपटॉप खरीदा। उस लैपटॉप में शक्तिशाली प्रोसेसर है।",
+              "Japanese": "彼女は新しいノートパソコンを買った。そのノートパソコンには強力なプロセッサーがある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "split theme",
+        "word_translation": {
+          "Hindi": "विभाजित विषय",
+          "Japanese": "分割主題"
+        },
+        "meaning": "When one theme leads to multiple rhemes across sentences",
+        "meaning_translation": {
+          "Hindi": "जब एक विषय कई रेम में विभाजित हो जाता है",
+          "Japanese": "1つの主題が複数の述題に分かれる場合"
+        },
+        "examples": [
+          {
+            "sentence": "The project involves two stages. The first stage is planning. The second stage is execution.",
+            "translation": {
+              "Hindi": "परियोजना में दो चरण होते हैं। पहला चरण योजना है। दूसरा चरण क्रियान्वयन है।",
+              "Japanese": "プロジェクトには2つの段階がある。第一段階は計画である。第二段階は実行である。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Interpreting Figurative Language",
-        "explanation": "Look for meanings beyond the literal words. Example: 'Time is a thief' does not mean time steals literally."
+        "title": "Fronting for Emphasis",
+        "explanation": "Fronting can highlight important information by moving it to the beginning. Example: 'In this town lives a famous poet.'",
+        "explanation_translation": {
+          "Hindi": "सामने लाना महत्वपूर्ण जानकारी को शुरुआत में रखकर उसे उजागर कर सकता है। उदाहरण: 'In this town lives a famous poet.'",
+          "Japanese": "前置は重要な情報を文頭に移して強調することができる。例：'In this town lives a famous poet.'"
+        }
       },
       {
-        "title": "Identifying Similes and Metaphors",
-        "explanation": "Similes use 'like' or 'as'; metaphors do not. Example: 'She is as brave as a lion' (simile). 'She is a lion' (metaphor)."
+        "title": "Theme and Rheme",
+        "explanation": "The theme is the starting point of a sentence, and the rheme carries the new information. Together they shape progression.",
+        "explanation_translation": {
+          "Hindi": "विषय वाक्य का प्रारंभिक भाग होता है, और रेम नई जानकारी को प्रस्तुत करता है। दोनों मिलकर प्रगति बनाते हैं।",
+          "Japanese": "主題は文の出発点であり、述題は新しい情報を担う。両者で展開を形作る。"
+        }
+      },
+      {
+        "title": "Types of Thematic Progression",
+        "explanation": "Progression can be reiteration (same theme repeated), linear (rheme → theme), or split (one theme → multiple rhemes).",
+        "explanation_translation": {
+          "Hindi": "प्रगति पुनरावृत्ति (एक ही विषय की पुनरावृत्ति), रेखीय (रेम → विषय), या विभाजित (एक विषय → कई रेम) हो सकती है।",
+          "Japanese": "展開は反復（同じ主題の繰り返し）、線形（述題→主題）、分割（1つの主題→複数の述題）がある。"
+        }
+      },
+      {
+        "title": "Avoiding Overuse",
+        "explanation": "Excessive fronting can make sentences unnatural. Use it for stylistic or academic emphasis only.",
+        "explanation_translation": {
+          "Hindi": "अत्यधिक सामने लाना वाक्यों को अप्राकृतिक बना सकता है। इसका उपयोग केवल शैलीगत या शैक्षणिक ज़ोर देने के लिए करें।",
+          "Japanese": "過度の前置は文を不自然にする。文体的または学術的な強調のためにのみ使う。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "The classroom was a zoo. (Metaphor)", "translation": "" },
-      { "sentence": "His words cut deeper than a knife. (Metaphor)", "translation": "" },
-      { "sentence": "She sang like an angel. (Simile)", "translation": "" },
-      { "sentence": "The wind whispered through the trees. (Personification)", "translation": "" },
-      { "sentence": "Boom! The fireworks exploded in the sky. (Onomatopoeia)", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What is a simile?",
-        "options": ["A comparison using 'like' or 'as'", "An exaggeration", "Giving human qualities to things"],
-        "answer": 0
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What is fronting in grammar?",
+      "question_translation": {
+        "Hindi": "व्याकरण में सामने लाना (fronting) क्या है?",
+        "Japanese": "文法における前置（fronting）とは何ですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "___ is when objects are used to represent ideas.",
-        "options": ["Hyperbole", "Symbolism", "Alliteration"],
-        "answer": 1
+      "options": [
+        "Placing information at the start of a sentence for emphasis",
+        "Changing verbs into nouns",
+        "Repeating the same theme across sentences"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "___ the garden stood a tall statue.",
+      "question_translation": {
+        "Hindi": "बगीचे ___ एक लंबी मूर्ति खड़ी थी।",
+        "Japanese": "庭___高い像が立っていた。"
       },
-      {
-        "id": "vocab3",
-        "type": "trueFalse",
-        "question": "Onomatopoeia is a word that sounds like its meaning.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "In",
+        "At",
+        "From"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Thematic progression describes how information flows from known to new across sentences.",
+      "question_translation": {
+        "Hindi": "विषयगत प्रगति यह बताती है कि वाक्यों में जानकारी ज्ञात से नए की ओर कैसे प्रवाहित होती है।",
+        "Japanese": "主題展開は情報が既知から新情報へと文の中で流れる方法を説明する。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which is an example of irony?",
-        "options": ["Saying 'What a beautiful day' during a storm", "Saying 'as busy as a bee'", "Calling the sun 'angry'"],
-        "answer": 0
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which is an example of linear progression?",
+      "question_translation": {
+        "Hindi": "रेखीय प्रगति का उदाहरण कौन सा है?",
+        "Japanese": "線形展開の例はどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "What does 'personification' do?",
-        "options": ["Gives human qualities to non-human things", "Repeats sounds", "Exaggerates statements"],
-        "answer": 0
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "She is as fast as a ___. (Choose: rabbit, car, turtle)",
-        "options": ["rabbit", "car", "turtle"],
-        "answer": 0
+      "options": [
+        "She bought a new car. The car is electric.",
+        "Climate change is a major issue. Climate change affects us all.",
+        "The project has two stages. The first stage is planning. The second stage is execution."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "Such ___ his influence that many followed him.",
+      "question_translation": {
+        "Hindi": "उसका प्रभाव इतना ___ था कि कई लोग उसका अनुसरण करते थे।",
+        "Japanese": "彼の影響力はそれほど___で、多くの人が彼に従った。"
       },
-      {
-        "id": "sent2",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [storm, a, was, the, classroom]",
-        "options": ["storm", "a", "was", "the", "classroom"],
-        "answer": ["The", "classroom", "was", "a", "storm"]
+      "options": [
+        "was",
+        "is",
+        "has"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [stood, the, statue, tall, in, garden, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [stood, the, statue, tall, in, garden, the]",
+        "Japanese": "並べ替え: [stood, the, statue, tall, in, garden, the]"
       },
-      {
-        "id": "sent3",
-        "type": "fillInTheBlanks",
-        "question": "The leaves ___ in the wind. (Choose: danced, ate, sang)",
-        "options": ["danced", "ate", "sang"],
-        "answer": 0
+      "options": [
+        "stood",
+        "the",
+        "statue",
+        "tall",
+        "in",
+        "garden",
+        "the"
+      ],
+      "answer": [
+        "In",
+        "the",
+        "garden",
+        "stood",
+        "a",
+        "tall",
+        "statue"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "___ did she sing at the concert, everyone applauded loudly.",
+      "question_translation": {
+        "Hindi": "उसने संगीत कार्यक्रम में इतनी खूबसूरती से ___ कि सभी ने ज़ोर से तालियाँ बजाईं।",
+        "Japanese": "彼女はコンサートであまりに美しく___ので、皆が大きな拍手をした。"
       },
-      {
-        "id": "sent4",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, golden, silence]",
-        "options": ["is", "golden", "silence"],
-        "answer": ["Silence", "is", "golden"]
+      "options": [
+        "So beautifully",
+        "Very beautifully",
+        "Too beautifully"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows theme reiteration?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य विषय पुनरावृत्ति दिखाता है?",
+        "Japanese": "どの文が主題の反復を示していますか？"
       },
-      {
-        "id": "sent5",
-        "type": "fillInTheBlanks",
-        "question": "His backpack was a ___ of bricks. (Choose: feather, pile, ton)",
-        "options": ["feather", "pile", "ton"],
-        "answer": 2
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "Which device is used if you hear 'The sky cried all night'?",
-        "options": ["Simile", "Personification", "Onomatopoeia"],
-        "answer": 1
+      "options": [
+        "Climate change is a threat. Climate change affects millions.",
+        "He bought a phone. The phone was expensive.",
+        "The project has two stages. Planning and execution follow."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [book, the, introduces, theory, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [book, the, introduces, theory, the]",
+        "Japanese": "並べ替え: [book, the, introduces, theory, the]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "If a speaker says, 'Buzz, buzz,' which device is this?",
-        "options": ["Alliteration", "Onomatopoeia", "Metaphor"],
-        "answer": 1
+      "options": [
+        "book",
+        "the",
+        "introduces",
+        "theory",
+        "the"
+      ],
+      "answer": [
+        "The",
+        "book",
+        "introduces",
+        "the",
+        "theory"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "At the end of the report ___ the final conclusion.",
+      "question_translation": {
+        "Hindi": "रिपोर्ट के अंत में ___ अंतिम निष्कर्ष था।",
+        "Japanese": "報告書の最後には___最終結論があった。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "If you hear 'Her voice was music to my ears', which device is used?",
-        "options": ["Metaphor", "Hyperbole", "Irony"],
-        "answer": 0
+      "options": [
+        "was",
+        "is",
+        "has"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What was emphasized by the speaker?",
+      "audio_text": "In the middle of the hall stood a grand piano.",
+      "question_translation": {
+        "Hindi": "वक्ता ने किस पर ज़ोर दिया?",
+        "Japanese": "話者は何を強調しましたか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "What literary device is in 'He ran faster than the wind'?",
-        "options": ["Simile", "Metaphor", "Hyperbole"],
-        "answer": 2
+      "options": [
+        "The location of the piano",
+        "The quality of the hall",
+        "The music being played"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The phrase 'She bought a new laptop. The laptop has a fast processor.' is an example of linear progression.",
+      "audio_text": "She bought a new laptop. The laptop has a fast processor.",
+      "question_translation": {
+        "Hindi": "'उसने नया लैपटॉप खरीदा। उस लैपटॉप में तेज़ प्रोसेसर है।' यह रेखीय प्रगति का उदाहरण है।",
+        "Japanese": "「彼女は新しいノートパソコンを買った。そのノートパソコンには速いプロセッサーがある。」は線形展開の例である。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "What does the sentence 'She is a night owl' mean?",
-        "options": ["She likes to stay up late", "She is a bird", "She is quiet"],
-        "answer": 0
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'The stars danced in the sky.'",
-        "options": [],
-        "answer": "The stars danced in the sky."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "Which type of progression is heard?",
+      "audio_text": "The project has two stages. The first is planning. The second is execution.",
+      "question_translation": {
+        "Hindi": "आपने किस प्रकार की प्रगति सुनी?",
+        "Japanese": "どの種類の展開を聞きましたか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'Life is a journey full of surprises.'",
-        "options": [],
-        "answer": "Life is a journey full of surprises."
+      "options": [
+        "Reiteration",
+        "Linear",
+        "Split"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The speaker says: 'Such ___ his determination that he never gave up.'",
+      "audio_text": "Such was his determination that he never gave up.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'उसका संकल्प इतना ___ था कि उसने कभी हार नहीं मानी।'",
+        "Japanese": "話者は「彼の決意はそれほど___で、決して諦めなかった」と言っています。"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'Her laughter was music to my ears.'",
-        "options": [],
-        "answer": "Her laughter was music to my ears."
+      "options": [
+        "was",
+        "is",
+        "has"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "What does thematic progression ensure in writing?",
+      "audio_text": "Thematic progression ensures that ideas flow logically from sentence to sentence.",
+      "question_translation": {
+        "Hindi": "विषयगत प्रगति लेखन में क्या सुनिश्चित करती है?",
+        "Japanese": "主題展開は文章で何を保証しますか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'Boom! The door slammed shut.'",
-        "options": [],
-        "answer": "Boom! The door slammed shut."
+      "options": [
+        "Logical flow of ideas",
+        "Repetition of the same words",
+        "Shorter sentences"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'In the garden stood a tall statue.'",
+      "question_translation": {
+        "Hindi": "कहें: 'In the garden stood a tall statue.'",
+        "Japanese": "言ってください: 'In the garden stood a tall statue.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'She is as wise as an owl.'",
-        "options": [],
-        "answer": "She is as wise as an owl."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "in the garden stood a tall statue"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Such was his anger that everyone fell silent.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Such was his anger that everyone fell silent.'",
+        "Japanese": "言ってください: 'Such was his anger that everyone fell silent.'"
+      },
+      "options": [],
+      "answer": "such was his anger that everyone fell silent"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'The book introduces the theory. The theory explains the process.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The book introduces the theory. The theory explains the process.'",
+        "Japanese": "言ってください: 'The book introduces the theory. The theory explains the process.'"
+      },
+      "options": [],
+      "answer": "the book introduces the theory the theory explains the process"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Beautifully did she sing at the concert.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Beautifully did she sing at the concert.'",
+        "Japanese": "言ってください: 'Beautifully did she sing at the concert.'"
+      },
+      "options": [],
+      "answer": "beautifully did she sing at the concert"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Climate change is a major issue. Climate change affects millions worldwide.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Climate change is a major issue. Climate change affects millions worldwide.'",
+        "Japanese": "言ってください: 'Climate change is a major issue. Climate change affects millions worldwide.'"
+      },
+      "options": [],
+      "answer": "climate change is a major issue climate change affects millions worldwide"
+    }
+  ]
+}
+
 }

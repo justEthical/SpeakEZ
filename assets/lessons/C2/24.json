@@ -1,4 +1,554 @@
 {
-  "id": 24,
-  "message": "This is file number 24"
+  "id": "lesson_rhythm_prosody_001",
+  "lesson_name": "Rhythm & Prosody for Persuasion",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "prosody",
+        "word_translation": {
+          "Hindi": "स्वर-संरचना",
+          "Japanese": "韻律"
+        },
+        "meaning": "The patterns of stress, intonation, and rhythm in spoken language.",
+        "meaning_translation": {
+          "Hindi": "बोली जाने वाली भाषा में बलाघात, स्वर और लय के पैटर्न।",
+          "Japanese": "話し言葉における強勢、イントネーション、リズムのパターン。"
+        },
+        "examples": [
+          {
+            "sentence": "Good prosody makes a speech engaging and easy to follow.",
+            "translation": {
+              "Hindi": "अच्छी स्वर-संरचना एक भाषण को आकर्षक और समझने में आसान बनाती है।",
+              "Japanese": "良い韻律はスピーチを魅力的で理解しやすくします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "rhythm",
+        "word_translation": {
+          "Hindi": "लय",
+          "Japanese": "リズム"
+        },
+        "meaning": "A regular, repeated pattern of sounds or beats in speech.",
+        "meaning_translation": {
+          "Hindi": "भाषण में ध्वनियों या बीट्स का नियमित दोहराया जाने वाला पैटर्न।",
+          "Japanese": "話し言葉における音やビートの規則的な繰り返しパターン。"
+        },
+        "examples": [
+          {
+            "sentence": "The rhythm of his speech kept the audience listening closely.",
+            "translation": {
+              "Hindi": "उसके भाषण की लय ने दर्शकों को ध्यान से सुनने के लिए बनाए रखा।",
+              "Japanese": "彼のスピーチのリズムは聴衆を引き付け続けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intonation",
+        "word_translation": {
+          "Hindi": "स्वराघात",
+          "Japanese": "イントネーション"
+        },
+        "meaning": "The rise and fall of the voice when speaking.",
+        "meaning_translation": {
+          "Hindi": "बोलते समय आवाज़ का ऊपर-नीचे होना।",
+          "Japanese": "話すときの声の上がり下がり。"
+        },
+        "examples": [
+          {
+            "sentence": "Persuasive speakers use intonation to highlight key points.",
+            "translation": {
+              "Hindi": "प्रभावी वक्ता मुख्य बिंदुओं को उजागर करने के लिए स्वराघात का उपयोग करते हैं।",
+              "Japanese": "説得力のある話し手は重要なポイントを強調するためにイントネーションを使います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cadence",
+        "word_translation": {
+          "Hindi": "स्वर-ताल",
+          "Japanese": "ケイデンス"
+        },
+        "meaning": "The rhythmic flow of speech, often used to create impact.",
+        "meaning_translation": {
+          "Hindi": "भाषण का लयबद्ध प्रवाह, जिसे अक्सर प्रभाव पैदा करने के लिए उपयोग किया जाता है।",
+          "Japanese": "影響を与えるために使われる、話のリズムの流れ。"
+        },
+        "examples": [
+          {
+            "sentence": "The slow, deliberate cadence made the speech powerful.",
+            "translation": {
+              "Hindi": "धीमी, सोच-समझकर बनाई गई स्वर-ताल ने भाषण को प्रभावशाली बना दिया।",
+              "Japanese": "ゆっくりと慎重なケイデンスがスピーチを力強いものにしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "emphasis",
+        "word_translation": {
+          "Hindi": "ज़ोर",
+          "Japanese": "強調"
+        },
+        "meaning": "Special stress placed on words to convey importance.",
+        "meaning_translation": {
+          "Hindi": "महत्व को व्यक्त करने के लिए शब्दों पर विशेष ज़ोर।",
+          "Japanese": "重要性を伝えるために特定の語に置かれる特別な強勢。"
+        },
+        "examples": [
+          {
+            "sentence": "She placed emphasis on the word 'freedom' to persuade listeners.",
+            "translation": {
+              "Hindi": "उसने 'freedom' शब्द पर ज़ोर देकर श्रोताओं को प्रभावित किया।",
+              "Japanese": "彼女は「自由」という言葉に強調を置いて聴衆を説得しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pause",
+        "word_translation": {
+          "Hindi": "ठहराव",
+          "Japanese": "ポーズ"
+        },
+        "meaning": "A brief silence used to create suspense or highlight a message.",
+        "meaning_translation": {
+          "Hindi": "सस्पेंस या संदेश को उजागर करने के लिए उपयोग किया जाने वाला छोटा सा विराम।",
+          "Japanese": "緊張感を生む、またはメッセージを強調するための短い沈黙。"
+        },
+        "examples": [
+          {
+            "sentence": "He paused before delivering the final message.",
+            "translation": {
+              "Hindi": "उसने अंतिम संदेश देने से पहले ठहराव लिया।",
+              "Japanese": "彼は最後のメッセージを伝える前に一瞬止まりました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "persuasive delivery",
+        "word_translation": {
+          "Hindi": "प्रभावशाली प्रस्तुति",
+          "Japanese": "説得力のある話し方"
+        },
+        "meaning": "Speaking in a way that convinces or influences the audience.",
+        "meaning_translation": {
+          "Hindi": "ऐसे तरीके से बोलना जो दर्शकों को मनाए या प्रभावित करे।",
+          "Japanese": "聴衆を納得させたり影響を与えるような話し方。"
+        },
+        "examples": [
+          {
+            "sentence": "Persuasive delivery often depends on rhythm and tone.",
+            "translation": {
+              "Hindi": "प्रभावशाली प्रस्तुति अक्सर लय और स्वर पर निर्भर करती है।",
+              "Japanese": "説得力のある話し方はしばしばリズムと声の調子に依存します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pitch variation",
+        "word_translation": {
+          "Hindi": "स्वर विविधता",
+          "Japanese": "音の高低の変化"
+        },
+        "meaning": "Changing the highness or lowness of your voice to keep listeners engaged.",
+        "meaning_translation": {
+          "Hindi": "श्रोताओं को जोड़े रखने के लिए अपनी आवाज़ की ऊंचाई या गहराई बदलना।",
+          "Japanese": "聴衆を引きつけるために声の高低を変えること。"
+        },
+        "examples": [
+          {
+            "sentence": "Pitch variation makes persuasive speech dynamic.",
+            "translation": {
+              "Hindi": "स्वर विविधता प्रभावी भाषण को गतिशील बनाती है।",
+              "Japanese": "音の高低の変化が説得力のあるスピーチをダイナミックにします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "parallelism",
+        "word_translation": {
+          "Hindi": "समानांतरता",
+          "Japanese": "並列構造"
+        },
+        "meaning": "Repeating the same grammatical structure for rhythm and emphasis.",
+        "meaning_translation": {
+          "Hindi": "लय और जोर के लिए एक ही व्याकरणिक संरचना को दोहराना।",
+          "Japanese": "リズムと強調のために同じ文法構造を繰り返すこと。"
+        },
+        "examples": [
+          {
+            "sentence": "We came, we saw, we conquered.",
+            "translation": {
+              "Hindi": "हम आए, हमने देखा, हमने विजय प्राप्त की।",
+              "Japanese": "我々は来た、見た、征服した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "climactic build-up",
+        "word_translation": {
+          "Hindi": "चरमोत्कर्ष निर्माण",
+          "Japanese": "クライマックスへの盛り上がり"
+        },
+        "meaning": "Gradually increasing intensity or importance to reach a persuasive peak.",
+        "meaning_translation": {
+          "Hindi": "धीरे-धीरे तीव्रता या महत्व बढ़ाना ताकि प्रभावशाली चरम पर पहुंचा जा सके।",
+          "Japanese": "徐々に強さや重要性を増して説得力のあるクライマックスに到達すること。"
+        },
+        "examples": [
+          {
+            "sentence": "His speech built to a powerful climax that moved the audience.",
+            "translation": {
+              "Hindi": "उसका भाषण एक शक्तिशाली चरमोत्कर्ष तक पहुंचा जिसने दर्शकों को प्रभावित किया।",
+              "Japanese": "彼のスピーチは強力なクライマックスに達し、聴衆を感動させました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Rhythm for Persuasion",
+        "explanation": "Repeat key phrases and use parallel structures to create a memorable flow. Example: 'We demand justice, we demand equality, we demand change.'",
+        "explanation_translation": {
+          "Hindi": "स्मरणीय प्रवाह बनाने के लिए प्रमुख वाक्यांशों को दोहराएं और समानांतर संरचनाओं का उपयोग करें। उदाहरण: 'We demand justice, we demand equality, we demand change.'",
+          "Japanese": "記憶に残る流れを作るために重要なフレーズを繰り返し、並列構造を使用します。例：We demand justice, we demand equality, we demand change."
+        }
+      },
+      {
+        "title": "Prosody and Emphasis",
+        "explanation": "Vary pitch and intonation to stress important words and keep listeners engaged. Example: rising pitch for excitement, falling pitch for certainty.",
+        "explanation_translation": {
+          "Hindi": "महत्वपूर्ण शब्दों पर जोर देने और श्रोताओं को जोड़े रखने के लिए पिच और स्वर में विविधता लाएं। उदाहरण: उत्साह के लिए उच्च स्वर, निश्चितता के लिए गिरता स्वर।",
+          "Japanese": "重要な語を強調し聴衆を引きつけるために音の高低やイントネーションを変えます。例：興奮には上昇ピッチ、確信には下降ピッチ。"
+        }
+      },
+      {
+        "title": "Strategic Pauses",
+        "explanation": "Use pauses before or after key points to give weight and allow reflection. Example: 'And the result... was freedom.'",
+        "explanation_translation": {
+          "Hindi": "महत्वपूर्ण बिंदुओं से पहले या बाद में ठहराव लें ताकि उनका महत्व बढ़े और सोचने का समय मिले। उदाहरण: 'And the result... was freedom.'",
+          "Japanese": "重要なポイントの前後に間を置くことで重みを与え、考える時間を作ります。例：And the result... was freedom."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'prosody' refer to in speech?",
+        "question_translation": {
+          "Hindi": "भाषण में 'prosody' किससे संबंधित है?",
+          "Japanese": "スピーチにおける「prosody」は何を指しますか？"
+        },
+        "options": [
+          "Patterns of rhythm and intonation",
+          "The choice of vocabulary",
+          "The speaker's body language"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "A well-planned ___ can make a speech memorable and persuasive.",
+        "question_translation": {
+          "Hindi": "एक अच्छी तरह से योजनाबद्ध ___ भाषण को यादगार और प्रभावी बना सकता है।",
+          "Japanese": "よく計画された___はスピーチを記憶に残る説得力のあるものにします。"
+        },
+        "options": [
+          "cadence",
+          "pause",
+          "topic"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Pitch variation keeps listeners engaged during a persuasive speech.",
+        "question_translation": {
+          "Hindi": "स्वर विविधता प्रभावी भाषण के दौरान श्रोताओं को जोड़े रखती है।",
+          "Japanese": "音の高低の変化は説得力のあるスピーチ中に聴衆を引きつけ続けます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term means 'gradually increasing intensity to reach a persuasive peak'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'धीरे-धीरे तीव्रता बढ़ाकर प्रभावशाली चरम तक पहुंचना' दर्शाता है?",
+          "Japanese": "徐々に強さを増して説得力のあるクライマックスに達することを意味する用語はどれですか？"
+        },
+        "options": [
+          "climactic build-up",
+          "parallelism",
+          "emphasis"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "He used a strategic ___ to let the audience reflect before the final point.",
+        "question_translation": {
+          "Hindi": "उसने अंतिम बिंदु से पहले दर्शकों को सोचने देने के लिए एक रणनीतिक ___ का उपयोग किया।",
+          "Japanese": "彼は最後のポイントの前に聴衆に考えさせるために戦略的な___を使った。"
+        },
+        "options": [
+          "pause",
+          "pitch",
+          "topic"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [demand, we, change, justice, equality, and]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [demand, we, change, justice, equality, and]",
+          "Japanese": "並べ替え: [demand, we, change, justice, equality, and]"
+        },
+        "options": [
+          "demand",
+          "we",
+          "change",
+          "justice",
+          "equality",
+          "and"
+        ],
+        "answer": [
+          "we",
+          "demand",
+          "justice",
+          "equality",
+          "and",
+          "change"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Use a rising ___ to show excitement and a falling one to show certainty.",
+        "question_translation": {
+          "Hindi": "उत्साह दिखाने के लिए एक चढ़ता ___ उपयोग करें और निश्चितता दिखाने के लिए गिरता हुआ।",
+          "Japanese": "興奮を示すために上昇する___を使い、確信を示すために下降するものを使います。"
+        },
+        "options": [
+          "intonation",
+          "pause",
+          "parallelism"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses parallelism effectively?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य समानांतरता का प्रभावी ढंग से उपयोग करता है?",
+          "Japanese": "どの文が並列構造を効果的に使っていますか？"
+        },
+        "options": [
+          "We came, we saw, we conquered.",
+          "He talked, and then he went to the store.",
+          "I like reading because it is fun."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [certainty, his, pitch, showed]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [certainty, his, pitch, showed]",
+          "Japanese": "並べ替え: [certainty, his, pitch, showed]"
+        },
+        "options": [
+          "certainty",
+          "his",
+          "pitch",
+          "showed"
+        ],
+        "answer": [
+          "his",
+          "pitch",
+          "showed",
+          "certainty"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "A deliberate ___ can make the audience wait and listen carefully.",
+        "question_translation": {
+          "Hindi": "एक जानबूझकर लिया गया ___ दर्शकों को इंतजार करने और ध्यान से सुनने के लिए मजबूर कर सकता है।",
+          "Japanese": "意図的な___は聴衆を待たせ、注意深く聞かせることができます。"
+        },
+        "options": [
+          "pause",
+          "climax",
+          "cadence"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What persuasive technique is being used here?",
+        "audio_text": "We will rise, we will fight, we will win!",
+        "question_translation": {
+          "Hindi": "यहाँ कौन सी प्रभावशाली तकनीक उपयोग की जा रही है?",
+          "Japanese": "ここで使われている説得技法は何ですか？"
+        },
+        "options": [
+          "Parallelism",
+          "Climactic build-up",
+          "Prosody"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "A slow, deliberate cadence can increase the impact of a speech.",
+        "audio_text": "His slow, steady voice captured attention.",
+        "question_translation": {
+          "Hindi": "धीमी, सोच-समझकर बनाई गई लय भाषण के प्रभाव को बढ़ा सकती है।",
+          "Japanese": "ゆっくりと慎重なケイデンスはスピーチの影響力を高めることができます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does the speaker use to keep the audience engaged?",
+        "audio_text": "He raises and lowers his pitch to emphasize points.",
+        "question_translation": {
+          "Hindi": "श्रोता को जोड़े रखने के लिए वक्ता क्या उपयोग कर रहा है?",
+          "Japanese": "聴衆を引きつけるために話者は何を使っていますか？"
+        },
+        "options": [
+          "Pitch variation",
+          "Parallelism",
+          "Long pauses"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What effect does a well-placed pause have?",
+        "audio_text": "And the result... was freedom.",
+        "question_translation": {
+          "Hindi": "अच्छे समय पर लिया गया ठहराव क्या प्रभाव डालता है?",
+          "Japanese": "適切なタイミングでのポーズはどのような効果がありますか？"
+        },
+        "options": [
+          "Adds weight and suspense",
+          "Speeds up delivery",
+          "Reduces attention"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "A flat, monotone voice helps make a speech persuasive.",
+        "audio_text": "He spoke in a flat tone throughout.",
+        "question_translation": {
+          "Hindi": "एक सपाट, एकस्वर आवाज़ भाषण को प्रभावशाली बनाने में मदद करती है।",
+          "Japanese": "平坦で単調な声はスピーチを説得力のあるものにします。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'We demand justice, we demand equality, we demand change.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We demand justice, we demand equality, we demand change.'",
+          "Japanese": "言ってください: 'We demand justice, we demand equality, we demand change.'"
+        },
+        "options": [],
+        "answer": "we demand justice we demand equality we demand change"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'And the result... was freedom.' (use a pause)",
+        "question_translation": {
+          "Hindi": "कहें: 'And the result... was freedom.' (ठहराव का उपयोग करें)",
+          "Japanese": "言ってください: 'And the result... was freedom.' （ポーズを使って）"
+        },
+        "options": [],
+        "answer": "and the result was freedom"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We will rise, we will fight, we will win!'",
+        "question_translation": {
+          "Hindi": "कहें: 'We will rise, we will fight, we will win!'",
+          "Japanese": "言ってください: 'We will rise, we will fight, we will win!'"
+        },
+        "options": [],
+        "answer": "we will rise we will fight we will win"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'His steady cadence made the message powerful.'",
+        "question_translation": {
+          "Hindi": "कहें: 'His steady cadence made the message powerful.'",
+          "Japanese": "言ってください: 'His steady cadence made the message powerful.'"
+        },
+        "options": [],
+        "answer": "his steady cadence made the message powerful"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Pitch variation keeps the audience engaged.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Pitch variation keeps the audience engaged.'",
+          "Japanese": "言ってください: 'Pitch variation keeps the audience engaged.'"
+        },
+        "options": [],
+        "answer": "pitch variation keeps the audience engaged"
+      }
+    ]
+  }
 }

@@ -1,4 +1,575 @@
 {
-  "id": 19,
-  "message": "This is file number 19"
+  "id": "lesson_complex_conditionals_001",
+  "lesson_name": "Complex Conditionals in Policy & Risk",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "policy framework",
+        "word_translation": {
+          "Hindi": "नीति ढांचा",
+          "Japanese": "政策枠組み"
+        },
+        "meaning": "A structured set of rules or guidelines that govern decisions",
+        "meaning_translation": {
+          "Hindi": "निर्णयों को नियंत्रित करने वाले नियमों या दिशानिर्देशों का संरचित सेट",
+          "Japanese": "意思決定を管理する規則や指針の体系的なセット"
+        },
+        "examples": [
+          {
+            "sentence": "A strong policy framework can reduce uncertainty in risk management.",
+            "translation": {
+              "Hindi": "एक मजबूत नीति ढांचा जोखिम प्रबंधन में अनिश्चितता को कम कर सकता है।",
+              "Japanese": "強固な政策枠組みはリスク管理の不確実性を減らせます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk mitigation",
+        "word_translation": {
+          "Hindi": "जोखिम शमन",
+          "Japanese": "リスク軽減"
+        },
+        "meaning": "Actions taken to reduce the severity or likelihood of risk",
+        "meaning_translation": {
+          "Hindi": "जोखिम की गंभीरता या संभावना को कम करने के लिए की गई कार्रवाइयाँ",
+          "Japanese": "リスクの深刻さや発生可能性を減らすための行動"
+        },
+        "examples": [
+          {
+            "sentence": "Effective risk mitigation requires forecasting potential outcomes.",
+            "translation": {
+              "Hindi": "प्रभावी जोखिम शमन के लिए संभावित परिणामों का पूर्वानुमान आवश्यक है।",
+              "Japanese": "効果的なリスク軽減には潜在的な結果の予測が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "regulatory uncertainty",
+        "word_translation": {
+          "Hindi": "नियामक अनिश्चितता",
+          "Japanese": "規制の不確実性"
+        },
+        "meaning": "Unpredictability about future laws or rules",
+        "meaning_translation": {
+          "Hindi": "भविष्य के कानूनों या नियमों के बारे में अप्रत्याशितता",
+          "Japanese": "将来の法律や規則に関する予測不可能性"
+        },
+        "examples": [
+          {
+            "sentence": "Investors often fear regulatory uncertainty when entering new markets.",
+            "translation": {
+              "Hindi": "निवेशक नए बाजारों में प्रवेश करते समय अक्सर नियामक अनिश्चितता से डरते हैं।",
+              "Japanese": "投資家は新しい市場に参入する際に規制の不確実性を恐れることが多いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk appetite",
+        "word_translation": {
+          "Hindi": "जोखिम स्वीकार्यता",
+          "Japanese": "リスク許容度"
+        },
+        "meaning": "The level of risk an organization or individual is willing to accept",
+        "meaning_translation": {
+          "Hindi": "जोखिम का वह स्तर जिसे कोई संगठन या व्यक्ति स्वीकार करने को तैयार हो",
+          "Japanese": "組織や個人が受け入れる意思のあるリスクの程度"
+        },
+        "examples": [
+          {
+            "sentence": "Policy makers must assess the public’s risk appetite when designing reforms.",
+            "translation": {
+              "Hindi": "नीति निर्माताओं को सुधारों को डिज़ाइन करते समय जनता की जोखिम स्वीकार्यता का आकलन करना चाहिए।",
+              "Japanese": "政策立案者は改革を設計する際に国民のリスク許容度を評価しなければなりません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "compliance",
+        "word_translation": {
+          "Hindi": "अनुपालन",
+          "Japanese": "遵守"
+        },
+        "meaning": "Following rules, laws, or policies",
+        "meaning_translation": {
+          "Hindi": "नियमों, कानूनों या नीतियों का पालन करना",
+          "Japanese": "規則、法律、または政策を守ること"
+        },
+        "examples": [
+          {
+            "sentence": "Strict compliance reduces the risk of legal penalties.",
+            "translation": {
+              "Hindi": "कड़ा अनुपालन कानूनी दंड के जोखिम को कम करता है।",
+              "Japanese": "厳格な遵守は法的制裁のリスクを減らします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contingency planning",
+        "word_translation": {
+          "Hindi": "आपात योजना",
+          "Japanese": "不測の事態への計画"
+        },
+        "meaning": "Preparing plans for unexpected risks or events",
+        "meaning_translation": {
+          "Hindi": "अप्रत्याशित जोखिमों या घटनाओं के लिए योजनाएँ बनाना",
+          "Japanese": "予期しないリスクや出来事に備える計画を立てること"
+        },
+        "examples": [
+          {
+            "sentence": "Contingency planning is essential when regulations might change suddenly.",
+            "translation": {
+              "Hindi": "जब नियम अचानक बदल सकते हैं, तो आपात योजना बनाना आवश्यक है।",
+              "Japanese": "規制が突然変わる可能性がある場合、不測の事態への計画は不可欠です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "risk cascade",
+        "word_translation": {
+          "Hindi": "जोखिम श्रृंखला प्रभाव",
+          "Japanese": "リスク連鎖"
+        },
+        "meaning": "A chain reaction where one risk triggers others",
+        "meaning_translation": {
+          "Hindi": "एक श्रृंखला प्रतिक्रिया जिसमें एक जोखिम अन्य जोखिमों को उत्पन्न करता है",
+          "Japanese": "一つのリスクが他のリスクを引き起こす連鎖反応"
+        },
+        "examples": [
+          {
+            "sentence": "Policy gaps can create a risk cascade across industries.",
+            "translation": {
+              "Hindi": "नीति की खामियाँ उद्योगों में जोखिम श्रृंखला प्रभाव पैदा कर सकती हैं।",
+              "Japanese": "政策の抜け穴が業界全体にリスク連鎖を引き起こす可能性があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "conditionality",
+        "word_translation": {
+          "Hindi": "शर्तबद्धता",
+          "Japanese": "条件付き"
+        },
+        "meaning": "The state of depending on specific conditions or requirements",
+        "meaning_translation": {
+          "Hindi": "विशिष्ट शर्तों या आवश्यकताओं पर निर्भर होने की स्थिति",
+          "Japanese": "特定の条件や要件に依存する状態"
+        },
+        "examples": [
+          {
+            "sentence": "Aid packages often come with strict conditionality.",
+            "translation": {
+              "Hindi": "सहायता पैकेज अक्सर सख्त शर्तबद्धता के साथ आते हैं।",
+              "Japanese": "支援パッケージはしばしば厳しい条件付きです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "policy leverage",
+        "word_translation": {
+          "Hindi": "नीति लाभ",
+          "Japanese": "政策レバレッジ"
+        },
+        "meaning": "Using policy tools to influence risk and outcomes",
+        "meaning_translation": {
+          "Hindi": "जोखिम और परिणामों को प्रभावित करने के लिए नीति उपकरणों का उपयोग करना",
+          "Japanese": "リスクや結果に影響を与えるために政策手段を活用すること"
+        },
+        "examples": [
+          {
+            "sentence": "Governments use tax incentives as policy leverage to reduce climate risk.",
+            "translation": {
+              "Hindi": "सरकारें जलवायु जोखिम को कम करने के लिए कर प्रोत्साहनों को नीति लाभ के रूप में उपयोग करती हैं।",
+              "Japanese": "政府は気候リスクを減らすために税制優遇を政策レバレッジとして活用します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "scenario modeling",
+        "word_translation": {
+          "Hindi": "परिदृश्य मॉडलिंग",
+          "Japanese": "シナリオモデリング"
+        },
+        "meaning": "Building and analyzing possible future situations for planning",
+        "meaning_translation": {
+          "Hindi": "योजना बनाने के लिए संभावित भविष्य की स्थितियों का निर्माण और विश्लेषण करना",
+          "Japanese": "計画のために将来の可能な状況を構築し分析すること"
+        },
+        "examples": [
+          {
+            "sentence": "Scenario modeling helps predict risks under different policy changes.",
+            "translation": {
+              "Hindi": "परिदृश्य मॉडलिंग विभिन्न नीति परिवर्तनों के तहत जोखिमों की भविष्यवाणी करने में मदद करता है।",
+              "Japanese": "シナリオモデリングは異なる政策変更下でのリスクを予測するのに役立ちます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Mixed Conditionals for Policy Implications",
+        "explanation": "Combine past conditions with present/future results (e.g., 'If the law had been enforced earlier, markets would be safer now').",
+        "explanation_translation": {
+          "Hindi": "अतीत की शर्तों को वर्तमान/भविष्य के परिणामों के साथ जोड़ें (उदा: 'यदि कानून पहले लागू किया गया होता, तो अब बाजार सुरक्षित होते')।",
+          "Japanese": "過去の条件を現在/未来の結果と組み合わせます（例：If the law had been enforced earlier, markets would be safer now）。"
+        }
+      },
+      {
+        "title": "Conditional Modality for Risk",
+        "explanation": "Use modals like 'might', 'could', 'would' in complex conditionals to express degrees of risk and uncertainty.",
+        "explanation_translation": {
+          "Hindi": "जोखिम और अनिश्चितता की डिग्री व्यक्त करने के लिए जटिल शर्तों में 'might', 'could', 'would' जैसे मॉडलों का उपयोग करें।",
+          "Japanese": "リスクや不確実性の度合いを表すために、複雑な条件文で「might」「could」「would」などの法助動詞を使いましょう。"
+        }
+      },
+      {
+        "title": "Layered If-Clauses",
+        "explanation": "Combine multiple if-clauses to represent cascading risks (e.g., 'If policy A fails and if market confidence drops, systemic risk would increase').",
+        "explanation_translation": {
+          "Hindi": "तरंगित जोखिमों को दर्शाने के लिए कई if-क्लॉज़ को संयोजित करें (उदा: 'यदि नीति A विफल होती है और यदि बाजार का विश्वास गिरता है, तो प्रणालीगत जोखिम बढ़ जाएगा')।",
+          "Japanese": "リスクの連鎖を表すために複数のif節を組み合わせます（例：If policy A fails and if market confidence drops, systemic risk would increase）。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which phrase describes preparing for unexpected risks or events?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्यांश अप्रत्याशित जोखिमों या घटनाओं के लिए तैयारी का वर्णन करता है?",
+          "Japanese": "予期しないリスクや出来事への備えを表すフレーズはどれですか？"
+        },
+        "options": [
+          "contingency planning",
+          "regulatory uncertainty",
+          "policy leverage"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "Strict ___ helps reduce the chance of legal penalties.",
+        "question_translation": {
+          "Hindi": "कड़ा ___ कानूनी दंड की संभावना को कम करने में मदद करता है।",
+          "Japanese": "厳格な___は法的制裁の可能性を減らすのに役立ちます。"
+        },
+        "options": [
+          "compliance",
+          "risk appetite",
+          "scenario modeling"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "A risk cascade refers to one risk triggering additional risks.",
+        "question_translation": {
+          "Hindi": "जोखिम श्रृंखला प्रभाव का अर्थ है कि एक जोखिम अन्य जोखिमों को उत्पन्न करता है।",
+          "Japanese": "リスク連鎖とは、一つのリスクが他のリスクを引き起こすことを指します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term refers to using policy tools to influence outcomes?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द परिणामों को प्रभावित करने के लिए नीति उपकरणों के उपयोग को दर्शाता है?",
+          "Japanese": "結果に影響を与えるために政策手段を活用することを指す用語はどれですか？"
+        },
+        "options": [
+          "policy leverage",
+          "risk appetite",
+          "conditionality"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "Aid packages often come with strict ___.",
+        "question_translation": {
+          "Hindi": "सहायता पैकेज अक्सर सख्त ___ के साथ आते हैं।",
+          "Japanese": "支援パッケージはしばしば厳しい___が付いています。"
+        },
+        "options": [
+          "conditionality",
+          "regulatory uncertainty",
+          "scenario modeling"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [would, now, safer, be, if, earlier, enforced, law, the, had]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [would, now, safer, be, if, earlier, enforced, law, the, had]",
+          "Japanese": "並べ替え: [would, now, safer, be, if, earlier, enforced, law, the, had]"
+        },
+        "options": [
+          "would",
+          "now",
+          "safer",
+          "be",
+          "if",
+          "earlier",
+          "enforced",
+          "law",
+          "the",
+          "had"
+        ],
+        "answer": [
+          "if",
+          "the",
+          "law",
+          "had",
+          "been",
+          "enforced",
+          "earlier",
+          "markets",
+          "would",
+          "be",
+          "safer",
+          "now"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "If policy A fails and market confidence drops, systemic risk ___ increase.",
+        "question_translation": {
+          "Hindi": "यदि नीति A विफल होती है और बाजार का विश्वास गिरता है, तो प्रणालीगत जोखिम ___ बढ़ेगा।",
+          "Japanese": "政策Aが失敗し市場の信頼が失われた場合、システミックリスクは___増加します。"
+        },
+        "options": [
+          "would",
+          "will",
+          "has"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Choose the sentence with correct conditional modality:",
+        "question_translation": {
+          "Hindi": "सही शर्तबद्धता वाला वाक्य चुनें:",
+          "Japanese": "正しい条件法の文を選んでください:"
+        },
+        "options": [
+          "If regulations change, companies must have prepared plans.",
+          "If regulations changed suddenly, companies could face compliance risks.",
+          "If regulations changes, companies might faces risk."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [be, risk, would, lower, had, been, if, better, policies]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [be, risk, would, lower, had, been, if, better, policies]",
+          "Japanese": "並べ替え: [be, risk, would, lower, had, been, if, better, policies]"
+        },
+        "options": [
+          "be",
+          "risk",
+          "would",
+          "lower",
+          "had",
+          "been",
+          "if",
+          "better",
+          "policies"
+        ],
+        "answer": [
+          "risk",
+          "would",
+          "be",
+          "lower",
+          "if",
+          "better",
+          "policies",
+          "had",
+          "been",
+          "implemented"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "If the public’s risk appetite were higher, policy makers ___ take bolder steps.",
+        "question_translation": {
+          "Hindi": "यदि जनता की जोखिम स्वीकार्यता अधिक होती, तो नीति निर्माता ___ साहसी कदम उठाते।",
+          "Japanese": "もし国民のリスク許容度が高ければ、政策立案者は___大胆な措置を取るだろう。"
+        },
+        "options": [
+          "might",
+          "must",
+          "had"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker suggest about sudden regulation changes?",
+        "audio_text": "If regulations were to change suddenly, companies could face severe compliance risks.",
+        "question_translation": {
+          "Hindi": "वक्ता अचानक नियामक परिवर्तनों के बारे में क्या सुझाव देता है?",
+          "Japanese": "話者は突然の規制変更について何を示唆していますか？"
+        },
+        "options": [
+          "Companies could face compliance risks",
+          "Companies would save costs",
+          "No impact would occur"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "The speaker describes a scenario of layered if-clauses.",
+        "audio_text": "If the first policy fails and if market trust declines, risk cascades would intensify.",
+        "question_translation": {
+          "Hindi": "वक्ता परतदार if-क्लॉज़ का एक परिदृश्य बताता है।",
+          "Japanese": "話者は入れ子になったif節のシナリオを説明しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What does scenario modeling help with?",
+        "audio_text": "Scenario modeling helps policymakers predict risks under different changes.",
+        "question_translation": {
+          "Hindi": "परिदृश्य मॉडलिंग किसमें मदद करती है?",
+          "Japanese": "シナリオモデリングは何に役立ちますか？"
+        },
+        "options": [
+          "Predicting risks under policy changes",
+          "Following strict compliance rules",
+          "Increasing risk appetite"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is the effect of strong contingency planning?",
+        "audio_text": "If firms have strong contingency planning, sudden regulatory shifts might not disrupt operations.",
+        "question_translation": {
+          "Hindi": "मजबूत आपात योजना का क्या प्रभाव होता है?",
+          "Japanese": "強力な不測の事態への計画にはどんな効果がありますか？"
+        },
+        "options": [
+          "It reduces operational disruption",
+          "It increases risk cascade",
+          "It causes regulatory uncertainty"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Policy leverage is used to influence risk and outcomes.",
+        "audio_text": "Governments often use tax incentives as policy leverage to guide market risk.",
+        "question_translation": {
+          "Hindi": "नीति लाभ का उपयोग जोखिम और परिणामों को प्रभावित करने के लिए किया जाता है।",
+          "Japanese": "政策レバレッジはリスクと結果に影響を与えるために使われます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'If the law had been enforced earlier, markets would be safer now.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If the law had been enforced earlier, markets would be safer now.'",
+          "Japanese": "言ってください: 'If the law had been enforced earlier, markets would be safer now.'"
+        },
+        "options": [],
+        "answer": "if the law had been enforced earlier markets would be safer now"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'If policy A fails and market confidence drops, risk would increase.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If policy A fails and market confidence drops, risk would increase.'",
+          "Japanese": "言ってください: 'If policy A fails and market confidence drops, risk would increase.'"
+        },
+        "options": [],
+        "answer": "if policy a fails and market confidence drops risk would increase"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Strong contingency planning reduces operational disruption.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Strong contingency planning reduces operational disruption.'",
+          "Japanese": "言ってください: 'Strong contingency planning reduces operational disruption.'"
+        },
+        "options": [],
+        "answer": "strong contingency planning reduces operational disruption"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Scenario modeling helps anticipate risk under policy change.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Scenario modeling helps anticipate risk under policy change.'",
+          "Japanese": "言ってください: 'Scenario modeling helps anticipate risk under policy change.'"
+        },
+        "options": [],
+        "answer": "scenario modeling helps anticipate risk under policy change"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'If the public’s risk appetite were higher, policymakers might act boldly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'If the public’s risk appetite were higher, policymakers might act boldly.'",
+          "Japanese": "言ってください: 'If the public’s risk appetite were higher, policymakers might act boldly.'"
+        },
+        "options": [],
+        "answer": "if the public’s risk appetite were higher policymakers might act boldly"
+      }
+    ]
+  }
 }

@@ -1,4 +1,534 @@
 {
-  "id": 50,
-  "message": "This is file number 50"
+  "id": "lesson_art_music_literature_001",
+  "lesson_name": "Talking About Art, Music, & Literature",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "painting",
+        "word_translation": {
+          "Hindi": "पेंटिंग",
+          "Japanese": "絵画"
+        },
+        "meaning": "A picture made using paint",
+        "meaning_translation": {
+          "Hindi": "रंगों से बनाई गई तस्वीर",
+          "Japanese": "絵の具を使って描かれた絵"
+        },
+        "examples": [
+          {
+            "sentence": "The museum has a famous painting by Picasso.",
+            "translation": {
+              "Hindi": "संग्रहालय में पिकासो की एक प्रसिद्ध पेंटिंग है।",
+              "Japanese": "美術館にはピカソの有名な絵画があります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sculpture",
+        "word_translation": {
+          "Hindi": "मूर्ति",
+          "Japanese": "彫刻"
+        },
+        "meaning": "A work of art made from stone, wood, or metal",
+        "meaning_translation": {
+          "Hindi": "पत्थर, लकड़ी या धातु से बनाई गई कलाकृति",
+          "Japanese": "石、木、金属で作られた芸術作品"
+        },
+        "examples": [
+          {
+            "sentence": "The sculpture in the park was made of bronze.",
+            "translation": {
+              "Hindi": "पार्क में लगी मूर्ति कांस्य की बनी थी।",
+              "Japanese": "公園の彫刻は青銅で作られました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "novel",
+        "word_translation": {
+          "Hindi": "उपन्यास",
+          "Japanese": "小説"
+        },
+        "meaning": "A long story in a book, usually about imaginary people and events",
+        "meaning_translation": {
+          "Hindi": "एक लंबी कहानी की किताब, जो अक्सर काल्पनिक लोगों और घटनाओं पर आधारित होती है",
+          "Japanese": "通常、架空の人物や出来事について書かれた本の長編物語"
+        },
+        "examples": [
+          {
+            "sentence": "I’m reading a novel about life in the 19th century.",
+            "translation": {
+              "Hindi": "मैं 19वीं सदी के जीवन पर आधारित एक उपन्यास पढ़ रहा हूँ।",
+              "Japanese": "私は19世紀の生活についての小説を読んでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "poetry",
+        "word_translation": {
+          "Hindi": "कविता",
+          "Japanese": "詩"
+        },
+        "meaning": "Writing that uses rhythm and style to express feelings and ideas",
+        "meaning_translation": {
+          "Hindi": "ऐसी रचना जो भावनाओं और विचारों को व्यक्त करने के लिए लय और शैली का उपयोग करती है",
+          "Japanese": "感情や考えを表現するためにリズムやスタイルを使う文章"
+        },
+        "examples": [
+          {
+            "sentence": "She enjoys reading poetry in her free time.",
+            "translation": {
+              "Hindi": "वह अपने खाली समय में कविता पढ़ना पसंद करती है।",
+              "Japanese": "彼女は自由時間に詩を読むのを楽しんでいます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "composer",
+        "word_translation": {
+          "Hindi": "संगीतकार",
+          "Japanese": "作曲家"
+        },
+        "meaning": "A person who writes music",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो संगीत लिखता है",
+          "Japanese": "音楽を書く人"
+        },
+        "examples": [
+          {
+            "sentence": "Beethoven is a famous classical composer.",
+            "translation": {
+              "Hindi": "बीथोवेन एक प्रसिद्ध शास्त्रीय संगीतकार हैं।",
+              "Japanese": "ベートーヴェンは有名なクラシック音楽の作曲家です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "lyrics",
+        "word_translation": {
+          "Hindi": "गीत के बोल",
+          "Japanese": "歌詞"
+        },
+        "meaning": "The words of a song",
+        "meaning_translation": {
+          "Hindi": "किसी गीत के शब्द",
+          "Japanese": "歌の言葉"
+        },
+        "examples": [
+          {
+            "sentence": "The lyrics of this song are very meaningful.",
+            "translation": {
+              "Hindi": "इस गीत के बोल बहुत सार्थक हैं।",
+              "Japanese": "この歌の歌詞はとても意味深いです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "performance",
+        "word_translation": {
+          "Hindi": "प्रदर्शन",
+          "Japanese": "公演"
+        },
+        "meaning": "An act of presenting music, drama, or another form of art to an audience",
+        "meaning_translation": {
+          "Hindi": "दर्शकों के सामने संगीत, नाटक या किसी अन्य कला का प्रस्तुतिकरण",
+          "Japanese": "観客に音楽、演劇、または他の芸術を披露すること"
+        },
+        "examples": [
+          {
+            "sentence": "The band gave an amazing performance last night.",
+            "translation": {
+              "Hindi": "बैंड ने कल रात शानदार प्रदर्शन किया।",
+              "Japanese": "バンドは昨夜素晴らしい公演をしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "criticism",
+        "word_translation": {
+          "Hindi": "आलोचना",
+          "Japanese": "批評"
+        },
+        "meaning": "An opinion about the good and bad parts of a piece of art, music, or literature",
+        "meaning_translation": {
+          "Hindi": "कला, संगीत या साहित्य के अच्छे और बुरे हिस्सों पर राय",
+          "Japanese": "芸術、音楽、文学の良い点や悪い点についての意見"
+        },
+        "examples": [
+          {
+            "sentence": "The book received a lot of positive criticism.",
+            "translation": {
+              "Hindi": "किताब को बहुत सी सकारात्मक आलोचनाएँ मिलीं।",
+              "Japanese": "その本は多くの好意的な批評を受けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "inspiration",
+        "word_translation": {
+          "Hindi": "प्रेरणा",
+          "Japanese": "インスピレーション"
+        },
+        "meaning": "A feeling or idea that helps you create something",
+        "meaning_translation": {
+          "Hindi": "ऐसा विचार या भावना जो आपको कुछ बनाने में मदद करे",
+          "Japanese": "何かを作る助けとなる感情やアイデア"
+        },
+        "examples": [
+          {
+            "sentence": "The artist took inspiration from nature.",
+            "translation": {
+              "Hindi": "कलाकार ने प्रकृति से प्रेरणा ली।",
+              "Japanese": "その芸術家は自然からインスピレーションを得ました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using adjectives to describe art and music",
+        "explanation": "Use adjectives like beautiful, moving, creative, or powerful to describe works of art. Example: The painting is very beautiful.",
+        "explanation_translation": {
+          "Hindi": "कला और संगीत का वर्णन करने के लिए beautiful, moving, creative, powerful जैसे विशेषणों का उपयोग करें। उदाहरण: The painting is very beautiful.",
+          "Japanese": "芸術や音楽を説明するときは「beautiful」「moving」「creative」「powerful」などの形容詞を使います。例：The painting is very beautiful."
+        }
+      },
+      {
+        "title": "Talking about preferences with 'like', 'love', 'enjoy'",
+        "explanation": "Use verbs like 'like', 'love', and 'enjoy' to express your opinion. Example: I enjoy listening to jazz music.",
+        "explanation_translation": {
+          "Hindi": "अपनी पसंद बताने के लिए 'like', 'love', और 'enjoy' का प्रयोग करें। उदाहरण: I enjoy listening to jazz music.",
+          "Japanese": "自分の好みを表現するときは「like」「love」「enjoy」を使います。例：I enjoy listening to jazz music."
+        }
+      },
+      {
+        "title": "Using 'because' and 'so' to explain opinions",
+        "explanation": "Use 'because' to give reasons and 'so' to show results. Example: I like this book because the story is exciting. The concert was great, so I want to go again.",
+        "explanation_translation": {
+          "Hindi": "'because' का उपयोग कारण बताने के लिए करें और 'so' का उपयोग परिणाम दिखाने के लिए। उदाहरण: I like this book because the story is exciting. The concert was great, so I want to go again.",
+          "Japanese": "理由を述べるときは「because」、結果を示すときは「so」を使います。例：I like this book because the story is exciting. The concert was great, so I want to go again."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a long story in a book, usually about imaginary people and events'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'किताब में लंबी कहानी, जो आमतौर पर काल्पनिक लोगों और घटनाओं के बारे में होती है' का अर्थ है?",
+          "Japanese": "「本の中の長い物語で、通常は架空の人物や出来事について書かれているもの」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "poetry",
+          "novel",
+          "lyrics"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The band gave an amazing __ last night.",
+        "question_translation": {
+          "Hindi": "बैंड ने कल रात एक शानदार __ दिया।",
+          "Japanese": "バンドは昨夜素晴らしい__をしました。"
+        },
+        "options": [
+          "performance",
+          "criticism",
+          "sculpture"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Lyrics are the words of a song.",
+        "question_translation": {
+          "Hindi": "गीत के बोल ही 'lyrics' होते हैं।",
+          "Japanese": "歌の言葉が「lyrics」です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'a work of art made from stone, wood, or metal'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'पत्थर, लकड़ी या धातु से बनी कलाकृति' का अर्थ है?",
+          "Japanese": "「石、木、金属で作られた芸術作品」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "sculpture",
+          "painting",
+          "poetry"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The artist took ___ from nature.",
+        "question_translation": {
+          "Hindi": "कलाकार ने प्रकृति से ___ ली।",
+          "Japanese": "芸術家は自然から___を得ました。"
+        },
+        "options": [
+          "criticism",
+          "inspiration",
+          "lyrics"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [beautiful, painting, is, the, very]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [beautiful, painting, is, the, very]",
+          "Japanese": "並べ替え: [beautiful, painting, is, the, very]"
+        },
+        "options": [
+          "beautiful",
+          "painting",
+          "is",
+          "the",
+          "very"
+        ],
+        "answer": [
+          "the",
+          "painting",
+          "is",
+          "very",
+          "beautiful"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I really ___ listening to jazz music.",
+        "question_translation": {
+          "Hindi": "मुझे जैज़ संगीत सुनना वास्तव में ___ है।",
+          "Japanese": "私は本当にジャズ音楽を聴くのを___。"
+        },
+        "options": [
+          "enjoy",
+          "enjoys",
+          "enjoyed"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses 'because' correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य 'because' का सही उपयोग करता है?",
+          "Japanese": "どの文が「because」を正しく使っていますか？"
+        },
+        "options": [
+          "I like this book because the story is exciting.",
+          "I like this book so the story is exciting.",
+          "Because I like this book, the story exciting."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [moving, was, very, performance, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [moving, was, very, performance, the]",
+          "Japanese": "並べ替え: [moving, was, very, performance, the]"
+        },
+        "options": [
+          "moving",
+          "was",
+          "very",
+          "performance",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "performance",
+          "was",
+          "very",
+          "moving"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "This novel is so interesting, ___ I can’t stop reading it.",
+        "question_translation": {
+          "Hindi": "यह उपन्यास इतना दिलचस्प है कि ___ मैं इसे पढ़ना बंद नहीं कर सकता।",
+          "Japanese": "この小説はとても面白いので、___読むのをやめられません。"
+        },
+        "options": [
+          "because",
+          "so",
+          "and"
+        ],
+        "answer": 1
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What kind of art is the speaker describing?",
+        "audio_text": "This sculpture was made from marble.",
+        "question_translation": {
+          "Hindi": "वक्ता किस प्रकार की कला का वर्णन कर रहा है?",
+          "Japanese": "話者はどのような芸術について説明していますか？"
+        },
+        "options": [
+          "Painting",
+          "Sculpture",
+          "Poetry"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the speaker enjoy?",
+        "audio_text": "I really enjoy listening to classical music.",
+        "question_translation": {
+          "Hindi": "वक्ता किसका आनंद लेता है?",
+          "Japanese": "話者は何を楽しんでいますか？"
+        },
+        "options": [
+          "Reading novels",
+          "Listening to classical music",
+          "Writing poetry"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker is talking about literature.",
+        "audio_text": "I’m reading a novel about life in the 19th century.",
+        "question_translation": {
+          "Hindi": "वक्ता साहित्य के बारे में बात कर रहा है।",
+          "Japanese": "話者は文学について話しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What inspired the artist?",
+        "audio_text": "The artist took inspiration from nature.",
+        "question_translation": {
+          "Hindi": "कलाकार को किससे प्रेरणा मिली?",
+          "Japanese": "芸術家は何からインスピレーションを得ましたか？"
+        },
+        "options": [
+          "Books",
+          "Nature",
+          "Music"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What does the speaker say about the performance?",
+        "audio_text": "The performance was very moving.",
+        "question_translation": {
+          "Hindi": "वक्ता प्रदर्शन के बारे में क्या कहता है?",
+          "Japanese": "話者は公演についてどう言っていますか？"
+        },
+        "options": [
+          "It was boring",
+          "It was very moving",
+          "It was too long"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The painting is very beautiful.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The painting is very beautiful.'",
+          "Japanese": "言ってください: 'The painting is very beautiful.'"
+        },
+        "options": [],
+        "answer": "the painting is very beautiful"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I enjoy listening to jazz music.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I enjoy listening to jazz music.'",
+          "Japanese": "言ってください: 'I enjoy listening to jazz music.'"
+        },
+        "options": [],
+        "answer": "i enjoy listening to jazz music"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'This novel is very interesting.'",
+        "question_translation": {
+          "Hindi": "कहें: 'This novel is very interesting.'",
+          "Japanese": "言ってください: 'This novel is very interesting.'"
+        },
+        "options": [],
+        "answer": "this novel is very interesting"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The artist took inspiration from nature.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The artist took inspiration from nature.'",
+          "Japanese": "言ってください: 'The artist took inspiration from nature.'"
+        },
+        "options": [],
+        "answer": "the artist took inspiration from nature"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'The performance was very moving.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The performance was very moving.'",
+          "Japanese": "言ってください: 'The performance was very moving.'"
+        },
+        "options": [],
+        "answer": "the performance was very moving"
+      }
+    ]
+  }
 }

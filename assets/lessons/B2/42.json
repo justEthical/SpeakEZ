@@ -1,4 +1,572 @@
 {
-  "id": 42,
-  "message": "This is file number 42"
+  "id": "lesson_future_past_001",
+  "lesson_name": "Future in the Past (Was going to / Would)",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "was going to",
+        "word_translation": {
+          "Hindi": "करने वाला था",
+          "Japanese": "〜するつもりだった"
+        },
+        "meaning": "A past plan or intention that often did not happen",
+        "meaning_translation": {
+          "Hindi": "एक पिछली योजना या इरादा जो अक्सर नहीं हुआ",
+          "Japanese": "過去に計画したが実現しなかった意図"
+        },
+        "examples": [
+          {
+            "sentence": "I was going to call you, but I forgot.",
+            "translation": {
+              "Hindi": "मैं तुम्हें कॉल करने वाला था, लेकिन मैं भूल गया।",
+              "Japanese": "電話するつもりだったが、忘れてしまった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "would",
+        "word_translation": {
+          "Hindi": "करता",
+          "Japanese": "〜するだろう"
+        },
+        "meaning": "Used to express future ideas from a past perspective",
+        "meaning_translation": {
+          "Hindi": "अतीत के दृष्टिकोण से भविष्य की बात करने के लिए प्रयोग किया जाता है",
+          "Japanese": "過去の視点から未来のことを表す"
+        },
+        "examples": [
+          {
+            "sentence": "He said he would help me with my homework.",
+            "translation": {
+              "Hindi": "उसने कहा कि वह मेरा होमवर्क करने में मदद करेगा।",
+              "Japanese": "彼は宿題を手伝うと言った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "was supposed to",
+        "word_translation": {
+          "Hindi": "करना था",
+          "Japanese": "〜するはずだった"
+        },
+        "meaning": "Something expected or intended but not always done",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो अपेक्षित था या इरादा था लेकिन हमेशा नहीं हुआ",
+          "Japanese": "予定されていたが必ずしも行われなかったこと"
+        },
+        "examples": [
+          {
+            "sentence": "I was supposed to finish the report yesterday.",
+            "translation": {
+              "Hindi": "मुझे कल रिपोर्ट पूरी करनी थी।",
+              "Japanese": "昨日報告書を終えるはずだった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "was about to",
+        "word_translation": {
+          "Hindi": "बस करने वाला था",
+          "Japanese": "まさに〜しようとしていた"
+        },
+        "meaning": "Indicates something that was just on the point of happening",
+        "meaning_translation": {
+          "Hindi": "कुछ ऐसा जो बस होने वाला था",
+          "Japanese": "まさに起こりそうだったこと"
+        },
+        "examples": [
+          {
+            "sentence": "I was about to leave when the phone rang.",
+            "translation": {
+              "Hindi": "जैसे ही मैं निकलने वाला था तभी फोन बजा।",
+              "Japanese": "出かけようとしたときに電話が鳴った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "anticipated",
+        "word_translation": {
+          "Hindi": "अनुमानित / प्रत्याशित",
+          "Japanese": "予想された"
+        },
+        "meaning": "Expected or looked forward to as happening in the future (from a past view)",
+        "meaning_translation": {
+          "Hindi": "अतीत से भविष्य में होने की उम्मीद या प्रत्याशा",
+          "Japanese": "過去の視点から未来に起こると期待されたこと"
+        },
+        "examples": [
+          {
+            "sentence": "They anticipated that the trip would be exciting.",
+            "translation": {
+              "Hindi": "उन्होंने अनुमान लगाया कि यात्रा रोमांचक होगी।",
+              "Japanese": "旅行は楽しいだろうと予想していた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "expected",
+        "word_translation": {
+          "Hindi": "अपेक्षित",
+          "Japanese": "期待された"
+        },
+        "meaning": "Believed something would happen in the future",
+        "meaning_translation": {
+          "Hindi": "विश्वास था कि कुछ भविष्य में होगा",
+          "Japanese": "未来に起こると信じられていたこと"
+        },
+        "examples": [
+          {
+            "sentence": "She expected that he would arrive on time.",
+            "translation": {
+              "Hindi": "उसने उम्मीद की कि वह समय पर पहुंचेगा।",
+              "Japanese": "彼は時間通りに来るだろうと彼女は思っていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "predicted",
+        "word_translation": {
+          "Hindi": "भविष्यवाणी की",
+          "Japanese": "予言した"
+        },
+        "meaning": "Said what would happen in the future based on knowledge or belief",
+        "meaning_translation": {
+          "Hindi": "ज्ञान या विश्वास के आधार पर बताया कि भविष्य में क्या होगा",
+          "Japanese": "知識や信念に基づいて未来に起こることを述べた"
+        },
+        "examples": [
+          {
+            "sentence": "The scientist predicted that the experiment would fail.",
+            "translation": {
+              "Hindi": "वैज्ञानिक ने भविष्यवाणी की कि प्रयोग असफल होगा।",
+              "Japanese": "科学者は実験が失敗すると予測した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "promised",
+        "word_translation": {
+          "Hindi": "वादा किया",
+          "Japanese": "約束した"
+        },
+        "meaning": "Said that someone would certainly do something",
+        "meaning_translation": {
+          "Hindi": "कहा कि कोई निश्चित रूप से कुछ करेगा",
+          "Japanese": "誰かが必ず何かをすると言った"
+        },
+        "examples": [
+          {
+            "sentence": "He promised that he would call me back.",
+            "translation": {
+              "Hindi": "उसने वादा किया कि वह मुझे वापस कॉल करेगा।",
+              "Japanese": "彼は折り返し電話すると約束した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intended",
+        "word_translation": {
+          "Hindi": "इरादा किया",
+          "Japanese": "意図した"
+        },
+        "meaning": "Planned or meant to do something",
+        "meaning_translation": {
+          "Hindi": "कुछ करने की योजना बनाई या इरादा किया",
+          "Japanese": "何かをする計画を持っていた"
+        },
+        "examples": [
+          {
+            "sentence": "I intended to visit her, but I was too busy.",
+            "translation": {
+              "Hindi": "मेरा उसे मिलने का इरादा था, लेकिन मैं बहुत व्यस्त था।",
+              "Japanese": "彼女を訪ねるつもりだったが、とても忙しかった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assumed",
+        "word_translation": {
+          "Hindi": "मान लिया",
+          "Japanese": "想定した"
+        },
+        "meaning": "Believed something would happen without proof",
+        "meaning_translation": {
+          "Hindi": "बिना प्रमाण के विश्वास किया कि कुछ होगा",
+          "Japanese": "証拠なしに何かが起こると信じた"
+        },
+        "examples": [
+          {
+            "sentence": "We assumed the train would arrive on time.",
+            "translation": {
+              "Hindi": "हमने मान लिया कि ट्रेन समय पर आएगी।",
+              "Japanese": "列車は時間通りに到着するだろうと想定した。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Was going to + Verb",
+        "explanation": "Use 'was/were going to + verb' for past plans or intentions that often did not happen. Example: I was going to study, but I fell asleep.",
+        "explanation_translation": {
+          "Hindi": "'was/were going to + verb' का प्रयोग अतीत की योजनाओं या इरादों के लिए करें जो अक्सर नहीं हुए। उदाहरण: I was going to study, but I fell asleep.",
+          "Japanese": "過去の計画や意図に「was/were going to + 動詞」を使います。例：I was going to study, but I fell asleep."
+        }
+      },
+      {
+        "title": "Would for Future in the Past",
+        "explanation": "Use 'would' to describe future events from a past viewpoint. Example: She knew he would arrive late.",
+        "explanation_translation": {
+          "Hindi": "अतीत के दृष्टिकोण से भविष्य की घटनाओं का वर्णन करने के लिए 'would' का उपयोग करें। उदाहरण: She knew he would arrive late.",
+          "Japanese": "過去の視点から未来の出来事を表すときに「would」を使います。例：She knew he would arrive late."
+        }
+      },
+      {
+        "title": "Was supposed to",
+        "explanation": "Use 'was/were supposed to' for expectations or duties in the past. Example: I was supposed to meet him at 5.",
+        "explanation_translation": {
+          "Hindi": "'was/were supposed to' का उपयोग अतीत की अपेक्षाओं या कर्तव्यों के लिए करें। उदाहरण: I was supposed to meet him at 5.",
+          "Japanese": "過去の期待や義務には「was/were supposed to」を使います。例：I was supposed to meet him at 5."
+        }
+      },
+      {
+        "title": "Reported Speech with Would",
+        "explanation": "In reported speech, 'will' changes to 'would' when reporting from the past. Example: He said he would call me.",
+        "explanation_translation": {
+          "Hindi": "Reported speech में, 'will' अतीत में रिपोर्ट करने पर 'would' में बदल जाता है। उदाहरण: He said he would call me.",
+          "Japanese": "過去の視点から報告するとき、'will' は 'would' に変わります。例：He said he would call me."
+        }
+      },
+      {
+        "title": "Was about to",
+        "explanation": "Use 'was/were about to' for something that was on the point of happening. Example: I was about to leave when you arrived.",
+        "explanation_translation": {
+          "Hindi": "'was/were about to' का प्रयोग किसी ऐसी चीज़ के लिए करें जो बस होने वाली थी। उदाहरण: I was about to leave when you arrived.",
+          "Japanese": "まさに起こりそうだったことには「was/were about to」を使います。例：I was about to leave when you arrived."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which phrase shows a past plan that often did not happen?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश एक पिछली योजना दिखाता है जो अक्सर नहीं हुआ?",
+        "Japanese": "実現しなかった過去の計画を表す表現はどれですか？"
+      },
+      "options": [
+        "was going to",
+        "used to",
+        "will"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "He said he ___ help me with the project.",
+      "question_translation": {
+        "Hindi": "उसने कहा कि वह परियोजना में मेरी मदद ___।",
+        "Japanese": "彼はそのプロジェクトを手伝うと___。"
+      },
+      "options": [
+        "will",
+        "would",
+        "was going"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "'Was supposed to' can express an expectation in the past.",
+      "question_translation": {
+        "Hindi": "'Was supposed to' अतीत में एक अपेक्षा व्यक्त कर सकता है।",
+        "Japanese": "「was supposed to」は過去の期待を表すことができる。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which phrase means 'just about to happen'?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्यांश 'बस होने वाला था' का अर्थ है?",
+        "Japanese": "「まさに起こりそうだった」を意味する表現はどれですか？"
+      },
+      "options": [
+        "was about to",
+        "would",
+        "used to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "They anticipated that the movie ___ be exciting.",
+      "question_translation": {
+        "Hindi": "उन्होंने अनुमान लगाया कि फिल्म रोमांचक ___।",
+        "Japanese": "その映画は面白いだろうと彼らは___。"
+      },
+      "options": [
+        "would",
+        "was going to",
+        "was"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [help, he, said, would, me]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [help, he, said, would, me]",
+        "Japanese": "並べ替え: [help, he, said, would, me]"
+      },
+      "options": [
+        "help",
+        "he",
+        "said",
+        "would",
+        "me"
+      ],
+      "answer": [
+        "He",
+        "said",
+        "he",
+        "would",
+        "help",
+        "me"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "I ___ to visit my friend, but I fell ill.",
+      "question_translation": {
+        "Hindi": "मैं अपने दोस्त से मिलने ___, लेकिन मैं बीमार हो गया।",
+        "Japanese": "友達を訪ねる___、病気になってしまった。"
+      },
+      "options": [
+        "was going",
+        "was going to",
+        "would"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा सही है?",
+        "Japanese": "正しい文はどれですか？"
+      },
+      "options": [
+        "She knew he will be late.",
+        "She knew he would be late.",
+        "She knew he was will late."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [leave, was, I, about, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [leave, was, I, about, to]",
+        "Japanese": "並べ替え: [leave, was, I, about, to]"
+      },
+      "options": [
+        "leave",
+        "was",
+        "I",
+        "about",
+        "to"
+      ],
+      "answer": [
+        "I",
+        "was",
+        "about",
+        "to",
+        "leave"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "He promised he ___ call me back.",
+      "question_translation": {
+        "Hindi": "उसने वादा किया कि वह मुझे वापस कॉल ___।",
+        "Japanese": "彼は折り返し電話すると___。"
+      },
+      "options": [
+        "will",
+        "would",
+        "was going"
+      ],
+      "answer": 1
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What was the speaker going to do?",
+      "audio_text": "I was going to apply for the job, but the deadline passed.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या करने वाला था?",
+        "Japanese": "話者は何をするつもりだった？"
+      },
+      "options": [
+        "Apply for a job",
+        "Quit a job",
+        "Miss a job"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker says: 'He said he would call me tomorrow.' Does this show 'future in the past'?",
+      "audio_text": "He said he would call me tomorrow.",
+      "question_translation": {
+        "Hindi": "वक्ता कहता है: 'उसने कहा कि वह मुझे कल कॉल करेगा।' क्या यह 'Future in the Past' दिखाता है?",
+        "Japanese": "話者は「彼は明日電話すると言った」と言っています。これは「Future in the Past」を示していますか？"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What was the speaker about to do?",
+      "audio_text": "I was about to leave the house when it started raining.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या करने वाला था?",
+        "Japanese": "話者は何をしようとしていた？"
+      },
+      "options": [
+        "Leave the house",
+        "Start raining",
+        "Make a call"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What did the scientist predict?",
+      "audio_text": "The scientist predicted that the test would fail.",
+      "question_translation": {
+        "Hindi": "वैज्ञानिक ने क्या भविष्यवाणी की?",
+        "Japanese": "科学者は何を予測しましたか？"
+      },
+      "options": [
+        "The test would fail",
+        "The test would succeed",
+        "The test would continue"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "The sentence 'I was supposed to meet her at 5' shows a past duty.",
+      "audio_text": "I was supposed to meet her at 5.",
+      "question_translation": {
+        "Hindi": "वाक्य 'I was supposed to meet her at 5' एक पिछला कर्तव्य दिखाता है।",
+        "Japanese": "「I was supposed to meet her at 5」という文は過去の義務を示しています。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'I was going to call you yesterday.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I was going to call you yesterday.'",
+        "Japanese": "言ってください: 'I was going to call you yesterday.'"
+      },
+      "options": [],
+      "answer": "i was going to call you yesterday"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'He said he would help me.'",
+      "question_translation": {
+        "Hindi": "कहें: 'He said he would help me.'",
+        "Japanese": "言ってください: 'He said he would help me.'"
+      },
+      "options": [],
+      "answer": "he said he would help me"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'I was about to leave when you called.'",
+      "question_translation": {
+        "Hindi": "कहें: 'I was about to leave when you called.'",
+        "Japanese": "言ってください: 'I was about to leave when you called.'"
+      },
+      "options": [],
+      "answer": "i was about to leave when you called"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'She was supposed to meet me at 6.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She was supposed to meet me at 6.'",
+        "Japanese": "言ってください: 'She was supposed to meet me at 6.'"
+      },
+      "options": [],
+      "answer": "she was supposed to meet me at 6"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'They predicted the game would be fun.'",
+      "question_translation": {
+        "Hindi": "कहें: 'They predicted the game would be fun.'",
+        "Japanese": "言ってください: 'They predicted the game would be fun.'"
+      },
+      "options": [],
+      "answer": "they predicted the game would be fun"
+    }
+  ]
+}
+
 }

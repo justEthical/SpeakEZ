@@ -1,4 +1,576 @@
 {
-  "id": 39,
-  "message": "This is file number 39"
+  "id": "lesson_media_discourses_bias_framing_c1",
+  "lesson_name": "Media Discourses: Bias & Framing",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "media bias",
+        "word_translation": {
+          "Hindi": "मीडिया पक्षपात",
+          "Japanese": "メディアの偏向"
+        },
+        "meaning": "A tendency of media to favor one perspective or agenda over others",
+        "meaning_translation": {
+          "Hindi": "मीडिया की प्रवृत्ति किसी एक दृष्टिकोण या एजेंडा को अन्य पर प्राथमिकता देना",
+          "Japanese": "メディアが特定の視点や議題を他より優先する傾向"
+        },
+        "examples": [
+          {
+            "sentence": "Media bias can influence how people perceive political issues.",
+            "translation": {
+              "Hindi": "मीडिया पक्षपात राजनीतिक मुद्दों को लोगों के देखने के तरीके को प्रभावित कर सकता है।",
+              "Japanese": "メディアの偏向は人々の政治問題の捉え方に影響を与えることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "framing",
+        "word_translation": {
+          "Hindi": "ढाँचा बनाना",
+          "Japanese": "フレーミング"
+        },
+        "meaning": "How media present and structure information to shape audience interpretation",
+        "meaning_translation": {
+          "Hindi": "मीडिया किस प्रकार जानकारी प्रस्तुत और संरचित करता है ताकि दर्शकों की व्याख्या को आकार दिया जा सके",
+          "Japanese": "メディアが情報を提示・構造化し、受け手の解釈を形成する方法"
+        },
+        "examples": [
+          {
+            "sentence": "Framing can turn the same event into a success or a crisis depending on wording.",
+            "translation": {
+              "Hindi": "शब्दों के आधार पर फ्रेमिंग एक ही घटना को सफलता या संकट बना सकती है।",
+              "Japanese": "フレーミングによって同じ出来事が成功にも危機にも見えることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "agenda setting",
+        "word_translation": {
+          "Hindi": "एजेंडा निर्धारण",
+          "Japanese": "アジェンダ設定"
+        },
+        "meaning": "Media's ability to influence what topics people consider important",
+        "meaning_translation": {
+          "Hindi": "मीडिया की वह क्षमता जिससे लोग किन विषयों को महत्वपूर्ण मानते हैं उस पर प्रभाव डालना",
+          "Japanese": "人々が何を重要だと考えるかに影響を与えるメディアの力"
+        },
+        "examples": [
+          {
+            "sentence": "Agenda setting can push climate change to the top of public debate.",
+            "translation": {
+              "Hindi": "एजेंडा निर्धारण जलवायु परिवर्तन को सार्वजनिक बहस में शीर्ष पर ला सकता है।",
+              "Japanese": "アジェンダ設定は気候変動を公の議論の中心に押し上げることができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "spin",
+        "word_translation": {
+          "Hindi": "घुमावदार प्रस्तुति",
+          "Japanese": "スピン（偏った解釈）"
+        },
+        "meaning": "Presenting information in a way that favors a particular viewpoint",
+        "meaning_translation": {
+          "Hindi": "जानकारी को इस तरह प्रस्तुत करना जो किसी विशेष दृष्टिकोण के पक्ष में हो",
+          "Japanese": "特定の視点を有利にするように情報を提示すること"
+        },
+        "examples": [
+          {
+            "sentence": "Politicians often use spin to make bad news seem positive.",
+            "translation": {
+              "Hindi": "राजनीतिज्ञ अक्सर खराब खबर को सकारात्मक दिखाने के लिए स्पिन का उपयोग करते हैं।",
+              "Japanese": "政治家は悪いニュースを良く見せるためにスピンを使うことがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "confirmation bias",
+        "word_translation": {
+          "Hindi": "पुष्टिकरण पक्षपात",
+          "Japanese": "確証バイアス"
+        },
+        "meaning": "The tendency to seek or interpret information in ways that confirm pre-existing beliefs",
+        "meaning_translation": {
+          "Hindi": "पूर्व-निर्धारित विश्वासों की पुष्टि करने वाले तरीकों से जानकारी खोजने या व्याख्या करने की प्रवृत्ति",
+          "Japanese": "自分の既存の信念を確認するような情報を探し解釈する傾向"
+        },
+        "examples": [
+          {
+            "sentence": "People with confirmation bias may only read news that supports their views.",
+            "translation": {
+              "Hindi": "पुष्टिकरण पक्षपात वाले लोग केवल वही समाचार पढ़ सकते हैं जो उनके विचारों का समर्थन करता है।",
+              "Japanese": "確証バイアスがある人は自分の意見を支持するニュースだけを読むかもしれません。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "loaded language",
+        "word_translation": {
+          "Hindi": "भावनात्मक भाषा",
+          "Japanese": "感情的な言葉"
+        },
+        "meaning": "Words with strong emotional implications used to influence audiences",
+        "meaning_translation": {
+          "Hindi": "ऐसे शब्द जिनके मजबूत भावनात्मक अर्थ होते हैं और जो दर्शकों को प्रभावित करने के लिए उपयोग किए जाते हैं",
+          "Japanese": "感情的な意味を持つ言葉を使って受け手に影響を与えること"
+        },
+        "examples": [
+          {
+            "sentence": "The article used loaded language like 'outrageous' to provoke anger.",
+            "translation": {
+              "Hindi": "लेख ने गुस्सा भड़काने के लिए 'outrageous' जैसी भावनात्मक भाषा का उपयोग किया।",
+              "Japanese": "その記事は「outrageous」のような感情的な言葉を使って怒りを引き起こしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "narrative framing",
+        "word_translation": {
+          "Hindi": "कथात्मक ढाँचा",
+          "Japanese": "物語的フレーミング"
+        },
+        "meaning": "Presenting facts as part of a story to shape understanding",
+        "meaning_translation": {
+          "Hindi": "तथ्यों को कहानी के हिस्से के रूप में प्रस्तुत करके समझ को आकार देना",
+          "Japanese": "事実を物語の一部として提示し理解を形成すること"
+        },
+        "examples": [
+          {
+            "sentence": "Narrative framing can make a policy debate sound like a moral struggle.",
+            "translation": {
+              "Hindi": "कथात्मक ढाँचा नीति बहस को नैतिक संघर्ष जैसा बना सकता है।",
+              "Japanese": "物語的フレーミングによって政策論争が道徳的な闘いのように聞こえることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "propaganda",
+        "word_translation": {
+          "Hindi": "प्रचार",
+          "Japanese": "プロパガンダ"
+        },
+        "meaning": "Information spread to promote a political cause or point of view, often biased or misleading",
+        "meaning_translation": {
+          "Hindi": "राजनीतिक कारण या दृष्टिकोण को बढ़ावा देने के लिए फैलाई गई जानकारी, अक्सर पक्षपाती या भ्रामक",
+          "Japanese": "政治的な目的や視点を推進するために広められる情報。しばしば偏っていたり誤解を招くもの"
+        },
+        "examples": [
+          {
+            "sentence": "Propaganda posters were used widely during wartime.",
+            "translation": {
+              "Hindi": "युद्ध के समय में प्रचार पोस्टर व्यापक रूप से उपयोग किए गए।",
+              "Japanese": "戦時中にはプロパガンダポスターが広く使われました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "objectivity",
+        "word_translation": {
+          "Hindi": "वस्तुनिष्ठता",
+          "Japanese": "客観性"
+        },
+        "meaning": "Reporting facts without personal or institutional bias",
+        "meaning_translation": {
+          "Hindi": "तथ्यों को व्यक्तिगत या संस्थागत पक्षपात के बिना रिपोर्ट करना",
+          "Japanese": "個人や組織の偏りなく事実を報道すること"
+        },
+        "examples": [
+          {
+            "sentence": "Good journalism strives for objectivity and balanced perspectives.",
+            "translation": {
+              "Hindi": "अच्छी पत्रकारिता वस्तुनिष्ठता और संतुलित दृष्टिकोण के लिए प्रयास करती है।",
+              "Japanese": "優れたジャーナリズムは客観性とバランスの取れた視点を目指します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sensationalism",
+        "word_translation": {
+          "Hindi": "सनसनीखेज़ी",
+          "Japanese": "扇情主義"
+        },
+        "meaning": "The use of shocking or exaggerated stories to attract attention",
+        "meaning_translation": {
+          "Hindi": "ध्यान आकर्षित करने के लिए चौंकाने वाली या बढ़ा-चढ़ा कर प्रस्तुत की गई कहानियों का उपयोग",
+          "Japanese": "注目を集めるためにショッキングまたは誇張した話を使うこと"
+        },
+        "examples": [
+          {
+            "sentence": "Sensationalism in headlines can mislead readers about actual facts.",
+            "translation": {
+              "Hindi": "शीर्षकों में सनसनीखेज़ी पाठकों को वास्तविक तथ्यों के बारे में गुमराह कर सकती है।",
+              "Japanese": "見出しの扇情主義は読者を実際の事実について誤解させることがあります。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Reporting with Neutral Verbs",
+        "explanation": "Use verbs like 'report', 'state', and 'explain' to maintain objectivity in media analysis.",
+        "explanation_translation": {
+          "Hindi": "'report', 'state' और 'explain' जैसे क्रियाओं का उपयोग मीडिया विश्लेषण में वस्तुनिष्ठता बनाए रखने के लिए करें।",
+          "Japanese": "メディア分析では「report」「state」「explain」などの動詞を使い客観性を保ちます。"
+        }
+      },
+      {
+        "title": "Avoiding Loaded Language",
+        "explanation": "Choose neutral adjectives and avoid emotionally charged words when describing news content.",
+        "explanation_translation": {
+          "Hindi": "समाचार सामग्री का वर्णन करते समय तटस्थ विशेषण चुनें और भावनात्मक शब्दों से बचें।",
+          "Japanese": "ニュースを説明する際は中立的な形容詞を選び、感情的な言葉を避けましょう。"
+        }
+      },
+      {
+        "title": "Using Passive Voice to Highlight Actions",
+        "explanation": "Passive voice can emphasize what happened rather than who acted. Example: 'The story was framed to show success.'",
+        "explanation_translation": {
+          "Hindi": "निष्क्रिय वाक्य यह बताने के लिए उपयोग किया जा सकता है कि क्या हुआ, न कि किसने किया। उदाहरण: 'The story was framed to show success.'",
+          "Japanese": "受動態を使うと誰が行ったかではなく何が起きたかを強調できます。例：「The story was framed to show success.」"
+        }
+      },
+      {
+        "title": "Hedging Opinions in Media Analysis",
+        "explanation": "Use 'appears to', 'seems', or 'may indicate' to avoid overgeneralization when discussing bias.",
+        "explanation_translation": {
+          "Hindi": "पक्षपात पर चर्चा करते समय अत्यधिक सामान्यीकरण से बचने के लिए 'appears to', 'seems' या 'may indicate' का उपयोग करें।",
+          "Japanese": "偏向を議論する際に過度な一般化を避けるために「appears to」「seems」「may indicate」を使いましょう。"
+        }
+      },
+      {
+        "title": "Quoting Sources Correctly",
+        "explanation": "Use quotation marks and reporting verbs when citing news or experts. Example: The editor said, 'The article was unbiased.'",
+        "explanation_translation": {
+          "Hindi": "समाचार या विशेषज्ञों का हवाला देते समय उद्धरण चिह्न और रिपोर्टिंग क्रियाओं का उपयोग करें। उदाहरण: The editor said, 'The article was unbiased.'",
+          "Japanese": "ニュースや専門家を引用する際は引用符と報告動詞を使いましょう。例：The editor said, 'The article was unbiased.'"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'media bias' mean?",
+        "question_translation": {
+          "Hindi": "'मीडिया पक्षपात' का क्या अर्थ है?",
+          "Japanese": "「メディアの偏向」とは何を意味しますか？"
+        },
+        "options": [
+          "Reporting facts without personal opinions",
+          "Favoring one perspective or agenda in reporting",
+          "Checking sources before publishing news"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "trueFalse",
+        "question": "Framing is how media shape understanding by presenting information in a certain way.",
+        "question_translation": {
+          "Hindi": "फ्रेमिंग वह है कि मीडिया किस तरह से जानकारी प्रस्तुत करके समझ को आकार देता है।",
+          "Japanese": "フレーミングとはメディアが情報の提示方法で理解を形成することです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "Media can influence what issues people think about through ______ setting.",
+        "question_translation": {
+          "Hindi": "मीडिया ______ निर्धारण के माध्यम से यह प्रभावित कर सकता है कि लोग किन मुद्दों के बारे में सोचते हैं।",
+          "Japanese": "メディアは______設定を通じて人々が何を考えるかに影響を与えることがあります。"
+        },
+        "options": [
+          "agenda",
+          "confirmation",
+          "loaded"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which term describes using emotional words to influence readers?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द भावनात्मक शब्दों का उपयोग करके पाठकों को प्रभावित करने का वर्णन करता है?",
+          "Japanese": "感情的な言葉を使って読者に影響を与えることを表す用語はどれですか？"
+        },
+        "options": [
+          "Loaded language",
+          "Objectivity",
+          "Spin"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "multipleChoice",
+        "question": "What is confirmation bias?",
+        "question_translation": {
+          "Hindi": "पुष्टिकरण पक्षपात क्या है?",
+          "Japanese": "確証バイアスとは何ですか？"
+        },
+        "options": [
+          "Seeking information that challenges beliefs",
+          "Only accepting information that supports existing beliefs",
+          "Reporting facts without opinions"
+        ],
+        "answer": 1
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [framed, was, the, story, political, as, success]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [framed, was, the, story, political, as, success]",
+          "Japanese": "並べ替え: [framed, was, the, story, political, as, success]"
+        },
+        "options": [
+          "framed",
+          "was",
+          "the",
+          "story",
+          "political",
+          "as",
+          "success"
+        ],
+        "answer": [
+          "the",
+          "story",
+          "was",
+          "framed",
+          "as",
+          "political",
+          "success"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "Journalists try to maintain ______ by avoiding personal opinions.",
+        "question_translation": {
+          "Hindi": "पत्रकार व्यक्तिगत राय से बचकर ______ बनाए रखने की कोशिश करते हैं।",
+          "Japanese": "ジャーナリストは個人的な意見を避けて______を保とうとします。"
+        },
+        "options": [
+          "objectivity",
+          "propaganda",
+          "spin"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses hedging correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही तरीके से हेजिंग का उपयोग करता है?",
+          "Japanese": "どの文が適切にヘッジングを使用していますか？"
+        },
+        "options": [
+          "The article may indicate subtle media bias.",
+          "The article definitely controls public opinion.",
+          "Media bias always exists everywhere."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [appears, news, to, biased, be, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [appears, news, to, biased, be, the]",
+          "Japanese": "並べ替え: [appears, news, to, biased, be, the]"
+        },
+        "options": [
+          "appears",
+          "news",
+          "to",
+          "biased",
+          "be",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "news",
+          "appears",
+          "to",
+          "be",
+          "biased"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "Sensationalism in headlines can ______ readers about real facts.",
+        "question_translation": {
+          "Hindi": "शीर्षकों में सनसनीखेज़ी पाठकों को वास्तविक तथ्यों के बारे में ______ कर सकती है।",
+          "Japanese": "見出しの扇情主義は読者を実際の事実について______する可能性があります。"
+        },
+        "options": [
+          "mislead",
+          "confirm",
+          "clarify"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What is explained? Audio: 'Agenda setting influences which topics people discuss.'",
+        "audio_text": "Agenda setting influences which topics people discuss.",
+        "question_translation": {
+          "Hindi": "क्या समझाया गया है?",
+          "Japanese": "何が説明されていますか？"
+        },
+        "options": [
+          "Agenda setting decides what people talk about",
+          "Agenda setting spreads fake news",
+          "Agenda setting avoids public opinion"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Framing can make the same event seem positive or negative.",
+        "audio_text": "Framing can make the same event seem positive or negative.",
+        "question_translation": {
+          "Hindi": "फ्रेमिंग एक ही घटना को सकारात्मक या नकारात्मक दिखा सकती है।",
+          "Japanese": "フレーミングは同じ出来事をポジティブにもネガティブにも見せることができます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "What should media analysts check? Audio: 'Look for loaded language that triggers emotion.'",
+        "audio_text": "Look for loaded language that triggers emotion.",
+        "question_translation": {
+          "Hindi": "मीडिया विश्लेषकों को क्या जाँचना चाहिए?",
+          "Japanese": "メディア分析者は何を確認するべきですか？"
+        },
+        "options": [
+          "Emotional or loaded language in articles",
+          "Number of pages in a report",
+          "Technical accuracy of statistics"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What is advised? Audio: 'Always verify claims to avoid propaganda.'",
+        "audio_text": "Always verify claims to avoid propaganda.",
+        "question_translation": {
+          "Hindi": "क्या सलाह दी गई है?",
+          "Japanese": "どのような助言がされていますか？"
+        },
+        "options": [
+          "Trust all news automatically",
+          "Verify claims to avoid propaganda",
+          "Ignore all media reports"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Objectivity means presenting facts without bias.",
+        "audio_text": "Objectivity means presenting facts without bias.",
+        "question_translation": {
+          "Hindi": "वस्तुनिष्ठता का मतलब है तथ्यों को बिना पक्षपात के प्रस्तुत करना।",
+          "Japanese": "客観性とは偏りなく事実を提示することを意味します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'Media bias can shape public opinion.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Media bias can shape public opinion.'",
+          "Japanese": "言ってください: 'Media bias can shape public opinion.'"
+        },
+        "options": [],
+        "answer": "media bias can shape public opinion"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Framing changes how people understand events.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Framing changes how people understand events.'",
+          "Japanese": "言ってください: 'Framing changes how people understand events.'"
+        },
+        "options": [],
+        "answer": "framing changes how people understand events"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Loaded language can manipulate readers’ emotions.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Loaded language can manipulate readers’ emotions.'",
+          "Japanese": "言ってください: 'Loaded language can manipulate readers’ emotions.'"
+        },
+        "options": [],
+        "answer": "loaded language can manipulate readers emotions"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'Objectivity is essential in journalism.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Objectivity is essential in journalism.'",
+          "Japanese": "言ってください: 'Objectivity is essential in journalism.'"
+        },
+        "options": [],
+        "answer": "objectivity is essential in journalism"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'We must verify claims to avoid propaganda.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We must verify claims to avoid propaganda.'",
+          "Japanese": "言ってください: 'We must verify claims to avoid propaganda.'"
+        },
+        "options": [],
+        "answer": "we must verify claims to avoid propaganda"
+      }
+    ]
+  }
 }

@@ -1,4 +1,579 @@
 {
-  "id": 33,
-  "message": "This is file number 33"
+  "id": "lesson_academic_integrity_paraphrase_citation_c1",
+  "lesson_name": "Academic Integrity: Paraphrase & Citation",
+  "purpose": "All",
+  "cefrLevel": "C1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "academic integrity",
+        "word_translation": {
+          "Hindi": "शैक्षणिक ईमानदारी",
+          "Japanese": "学問的誠実さ"
+        },
+        "meaning": "The commitment to honesty, trust, fairness, and responsibility in academic work",
+        "meaning_translation": {
+          "Hindi": "शैक्षणिक कार्य में ईमानदारी, विश्वास, निष्पक्षता और जिम्मेदारी के प्रति प्रतिबद्धता",
+          "Japanese": "学術的な仕事における正直さ、信頼、公平性、責任への取り組み"
+        },
+        "examples": [
+          {
+            "sentence": "Maintaining academic integrity means not cheating or plagiarizing.",
+            "translation": {
+              "Hindi": "शैक्षणिक ईमानदारी बनाए रखना धोखा न देना या साहित्यिक चोरी न करना है।",
+              "Japanese": "学問的誠実さを保つとは、カンニングや盗用をしないことを意味します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plagiarism",
+        "word_translation": {
+          "Hindi": "साहित्यिक चोरी",
+          "Japanese": "剽窃"
+        },
+        "meaning": "Using someone else's work or ideas without giving credit",
+        "meaning_translation": {
+          "Hindi": "किसी और के कार्य या विचारों का श्रेय दिए बिना उपयोग करना",
+          "Japanese": "他人の作品やアイデアを適切な引用なしに使用すること"
+        },
+        "examples": [
+          {
+            "sentence": "Copying text from an article without citation is plagiarism.",
+            "translation": {
+              "Hindi": "किसी लेख से बिना उद्धरण के पाठ की नकल करना साहित्यिक चोरी है।",
+              "Japanese": "引用せずに記事からテキストをコピーするのは剽窃です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "paraphrase",
+        "word_translation": {
+          "Hindi": "पैराफ़्रेज़ (पुनर्लेखन)",
+          "Japanese": "言い換え・パラフレーズ"
+        },
+        "meaning": "To restate someone’s ideas in your own words while keeping the original meaning",
+        "meaning_translation": {
+          "Hindi": "किसी के विचारों को अपने शब्दों में दोहराना जबकि मूल अर्थ बनाए रखना",
+          "Japanese": "元の意味を保ちながら他人の考えを自分の言葉で言い換えること"
+        },
+        "examples": [
+          {
+            "sentence": "Students should learn how to paraphrase to avoid plagiarism.",
+            "translation": {
+              "Hindi": "छात्रों को साहित्यिक चोरी से बचने के लिए पैराफ़्रेज़ करना सीखना चाहिए।",
+              "Japanese": "剽窃を避けるために学生は言い換えを学ぶべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "citation",
+        "word_translation": {
+          "Hindi": "उद्धरण",
+          "Japanese": "引用"
+        },
+        "meaning": "A reference to the source of information used in your work",
+        "meaning_translation": {
+          "Hindi": "आपके कार्य में उपयोग की गई जानकारी के स्रोत का संदर्भ",
+          "Japanese": "自分の作品で使用した情報源への参照"
+        },
+        "examples": [
+          {
+            "sentence": "APA style requires a citation with the author’s name and year.",
+            "translation": {
+              "Hindi": "एपीए शैली में लेखक का नाम और वर्ष के साथ उद्धरण आवश्यक है।",
+              "Japanese": "APAスタイルでは著者名と発行年を含む引用が必要です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reference list",
+        "word_translation": {
+          "Hindi": "संदर्भ सूची",
+          "Japanese": "参考文献一覧"
+        },
+        "meaning": "A list of all the sources cited in a piece of academic work",
+        "meaning_translation": {
+          "Hindi": "शैक्षणिक कार्य में उद्धृत सभी स्रोतों की सूची",
+          "Japanese": "学術作品で引用されたすべての資料の一覧"
+        },
+        "examples": [
+          {
+            "sentence": "Every academic paper ends with a reference list.",
+            "translation": {
+              "Hindi": "हर शैक्षणिक लेख के अंत में एक संदर्भ सूची होती है।",
+              "Japanese": "すべての学術論文は参考文献一覧で終わります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "in-text citation",
+        "word_translation": {
+          "Hindi": "पाठ्य उद्धरण",
+          "Japanese": "本文内引用"
+        },
+        "meaning": "A brief source reference within the body of your text",
+        "meaning_translation": {
+          "Hindi": "आपके पाठ के भीतर स्रोत का संक्षिप्त संदर्भ",
+          "Japanese": "本文中に挿入する簡単な出典の記述"
+        },
+        "examples": [
+          {
+            "sentence": "Use in-text citations whenever you paraphrase or quote.",
+            "translation": {
+              "Hindi": "जब भी आप पैराफ़्रेज़ करें या उद्धरण दें, पाठ्य उद्धरण का उपयोग करें।",
+              "Japanese": "言い換えや引用をするときは必ず本文内引用を使います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "quotation",
+        "word_translation": {
+          "Hindi": "उद्धरण चिह्नित कथन",
+          "Japanese": "引用文"
+        },
+        "meaning": "A group of words taken directly from a source and marked with quotation marks",
+        "meaning_translation": {
+          "Hindi": "किसी स्रोत से सीधे लिए गए शब्दों का समूह जिन्हें उद्धरण चिह्न से चिह्नित किया जाता है",
+          "Japanese": "情報源から直接引用した語句で、引用符で示されるもの"
+        },
+        "examples": [
+          {
+            "sentence": "Direct quotations should be used sparingly and cited properly.",
+            "translation": {
+              "Hindi": "प्रत्यक्ष उद्धरण का संयम से उपयोग करें और सही ढंग से उद्धृत करें।",
+              "Japanese": "直接引用は控えめに使用し、適切に引用するべきです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "original source",
+        "word_translation": {
+          "Hindi": "मूल स्रोत",
+          "Japanese": "原典"
+        },
+        "meaning": "The first place where the information or idea appeared",
+        "meaning_translation": {
+          "Hindi": "वह पहला स्थान जहाँ जानकारी या विचार प्रकट हुआ",
+          "Japanese": "情報やアイデアが最初に現れた場所"
+        },
+        "examples": [
+          {
+            "sentence": "Always cite the original source when possible.",
+            "translation": {
+              "Hindi": "संभव हो तो हमेशा मूल स्रोत का उद्धरण करें।",
+              "Japanese": "可能であれば常に原典を引用してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plagiarism checker",
+        "word_translation": {
+          "Hindi": "साहित्यिक चोरी जाँच उपकरण",
+          "Japanese": "剽窃チェッカー"
+        },
+        "meaning": "A tool that scans text for unoriginal content",
+        "meaning_translation": {
+          "Hindi": "एक उपकरण जो पाठ में मौलिक न होने वाली सामग्री को स्कैन करता है",
+          "Japanese": "文章をスキャンして盗用された内容を検出するツール"
+        },
+        "examples": [
+          {
+            "sentence": "Use a plagiarism checker before submitting your paper.",
+            "translation": {
+              "Hindi": "अपना लेख जमा करने से पहले साहित्यिक चोरी जाँच उपकरण का उपयोग करें।",
+              "Japanese": "論文を提出する前に剽窃チェッカーを使ってください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "academic misconduct",
+        "word_translation": {
+          "Hindi": "शैक्षणिक कदाचार",
+          "Japanese": "学術的不正行為"
+        },
+        "meaning": "Any dishonest or unethical behavior in academic work",
+        "meaning_translation": {
+          "Hindi": "शैक्षणिक कार्य में कोई भी बेईमान या अनैतिक आचरण",
+          "Japanese": "学術的な仕事における不正や不道徳な行為"
+        },
+        "examples": [
+          {
+            "sentence": "Submitting work you didn’t write yourself is academic misconduct.",
+            "translation": {
+              "Hindi": "जो कार्य आपने स्वयं नहीं लिखा उसे जमा करना शैक्षणिक कदाचार है।",
+              "Japanese": "自分で書いていない作品を提出するのは学術的不正行為です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Paraphrasing with Synonyms and Sentence Restructuring",
+        "explanation": "To paraphrase effectively, change sentence structure and replace key words with synonyms while keeping meaning intact.",
+        "explanation_translation": {
+          "Hindi": "प्रभावी पैराफ़्रेज़ करने के लिए वाक्य संरचना बदलें और मुख्य शब्दों को समानार्थक शब्दों से बदलें, जबकि अर्थ वही रखें।",
+          "Japanese": "効果的に言い換えるには、文の構造を変え、主要な単語を同義語に置き換えつつ意味を保ちます。"
+        }
+      },
+      {
+        "title": "Using Reporting Verbs",
+        "explanation": "Words like 'states', 'argues', 'explains' can introduce paraphrased ideas.",
+        "explanation_translation": {
+          "Hindi": "'कहता है', 'तर्क करता है', 'समझाता है' जैसे शब्द पैराफ़्रेज़ किए गए विचारों को प्रस्तुत कर सकते हैं।",
+          "Japanese": "「述べている」「主張している」「説明している」などの動詞で言い換えた内容を導入します。"
+        }
+      },
+      {
+        "title": "Proper In-text Citation Formats",
+        "explanation": "Follow citation styles such as APA (Author, Year) or MLA (Author Page) when referencing sources.",
+        "explanation_translation": {
+          "Hindi": "स्रोतों को संदर्भित करते समय एपीए (लेखक, वर्ष) या एमएलए (लेखक पृष्ठ) जैसे उद्धरण शैलियों का पालन करें।",
+          "Japanese": "情報源を参照する際はAPA（著者・年）やMLA（著者・ページ）などの形式を守ります。"
+        }
+      },
+      {
+        "title": "Quoting vs Paraphrasing",
+        "explanation": "Use quotation marks for exact words and paraphrasing for restating in your own words.",
+        "explanation_translation": {
+          "Hindi": "सटीक शब्दों के लिए उद्धरण चिह्नों का उपयोग करें और अपने शब्दों में दोहराने के लिए पैराफ़्रेज़ करें।",
+          "Japanese": "原文のまま使う場合は引用符を、言い換える場合はパラフレーズを使います。"
+        }
+      },
+      {
+        "title": "Avoiding Patchwriting",
+        "explanation": "Do not simply replace some words; fully restructure sentences to create original phrasing.",
+        "explanation_translation": {
+          "Hindi": "सिर्फ कुछ शब्दों को बदलने से बचें; वाक्यों को पूरी तरह से पुनर्गठित करें ताकि मौलिक अभिव्यक्ति बने।",
+          "Japanese": "単にいくつかの単語を置き換えるだけではなく、文全体を再構築して独自の表現を作りましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "What does 'academic integrity' mean?",
+      "question_translation": {
+        "Hindi": "'शैक्षणिक ईमानदारी' का क्या अर्थ है?",
+        "Japanese": "「学問的誠実さ」とは何を意味しますか？"
+      },
+      "options": [
+        "Following honesty and responsibility in academic work",
+        "Getting good grades without studying",
+        "Copying work to save time"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "trueFalse",
+      "question": "Plagiarism means using someone else’s work without credit.",
+      "question_translation": {
+        "Hindi": "साहित्यिक चोरी का मतलब है किसी और के काम का श्रेय दिए बिना उपयोग करना।",
+        "Japanese": "剽窃とは、他人の作品を出典を示さずに使用することを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "fillInTheBlanks",
+      "question": "To avoid plagiarism, students should learn to ______ ideas in their own words.",
+      "question_translation": {
+        "Hindi": "साहित्यिक चोरी से बचने के लिए छात्रों को विचारों को अपने शब्दों में ______ सीखना चाहिए।",
+        "Japanese": "剽窃を避けるために学生はアイデアを自分の言葉で______することを学ぶべきです。"
+      },
+      "options": [
+        "paraphrase",
+        "copy",
+        "quote"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "What is an in-text citation?",
+      "question_translation": {
+        "Hindi": "पाठ्य उद्धरण क्या है?",
+        "Japanese": "本文内引用とは何ですか？"
+      },
+      "options": [
+        "A long list of all references at the end",
+        "A short reference placed within the text",
+        "A type of plagiarism checker"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "multipleChoice",
+      "question": "Which of the following is academic misconduct?",
+      "question_translation": {
+        "Hindi": "निम्नलिखित में से कौन शैक्षणिक कदाचार है?",
+        "Japanese": "次のうち学術的不正行為はどれですか？"
+      },
+      "options": [
+        "Writing your own original essay",
+        "Submitting someone else's paper as your own",
+        "Using proper citation styles"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [integrity, academic, requires, honesty, and, fairness]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [integrity, academic, requires, honesty, and, fairness]",
+        "Japanese": "並べ替え: [integrity, academic, requires, honesty, and, fairness]"
+      },
+      "options": [
+        "integrity",
+        "academic",
+        "requires",
+        "honesty",
+        "and",
+        "fairness"
+      ],
+      "answer": [
+        "academic",
+        "integrity",
+        "requires",
+        "honesty",
+        "and",
+        "fairness"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Always include a ______ when quoting another author’s exact words.",
+      "question_translation": {
+        "Hindi": "किसी अन्य लेखक के सटीक शब्दों को उद्धृत करते समय हमेशा एक ______ शामिल करें।",
+        "Japanese": "他の著者の正確な言葉を引用するときは必ず______を含めてください。"
+      },
+      "options": [
+        "citation",
+        "summary",
+        "plagiarism"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows proper paraphrasing?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य उचित पैराफ़्रेज़िंग दिखाता है?",
+        "Japanese": "どの文が適切な言い換えを示していますか？"
+      },
+      "options": [
+        "The author states that honesty is vital in academic work. (Author, 2020)",
+        "Honesty is very important. (copied from Author, 2020 without change)",
+        "The author says honesty is important but no citation is needed."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [APA, style, uses, author, and, year, in, citations]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [APA, style, uses, author, and, year, in, citations]",
+        "Japanese": "並べ替え: [APA, style, uses, author, and, year, in, citations]"
+      },
+      "options": [
+        "APA",
+        "style",
+        "uses",
+        "author",
+        "and",
+        "year",
+        "in",
+        "citations"
+      ],
+      "answer": [
+        "APA",
+        "style",
+        "uses",
+        "author",
+        "and",
+        "year",
+        "in",
+        "citations"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Direct ______ should be used sparingly and must include quotation marks.",
+      "question_translation": {
+        "Hindi": "प्रत्यक्ष ______ का संयम से उपयोग करना चाहिए और उद्धरण चिह्न शामिल करने चाहिए।",
+        "Japanese": "直接______は控えめに使用し、引用符を含める必要があります。"
+      },
+      "options": [
+        "quotations",
+        "paraphrases",
+        "summaries"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker emphasize? Audio: 'Always credit the original source when you paraphrase.'",
+      "audio_text": "Always credit the original source when you paraphrase.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या ज़ोर देता है?",
+        "Japanese": "話者は何を強調していますか？"
+      },
+      "options": [
+        "Use quotations often",
+        "Credit the original source",
+        "Avoid writing your own words"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The phrase 'Citing sources shows academic honesty' promotes integrity.",
+      "audio_text": "Citing sources shows academic honesty.",
+      "question_translation": {
+        "Hindi": "'स्रोतों को उद्धृत करना शैक्षणिक ईमानदारी दिखाता है' वाक्यांश ईमानदारी को बढ़ावा देता है।",
+        "Japanese": "「出典を示すことは学問的誠実さを示す」というフレーズは誠実さを促進します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is the main advice? Audio: 'Avoid patchwriting; restructure sentences completely.'",
+      "audio_text": "Avoid patchwriting; restructure sentences completely.",
+      "question_translation": {
+        "Hindi": "मुख्य सलाह क्या है?",
+        "Japanese": "主なアドバイスは何ですか？"
+      },
+      "options": [
+        "Use direct quotes always",
+        "Change only a few words",
+        "Fully restructure when paraphrasing"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is being discussed? Audio: 'APA requires author and year in in-text citations.'",
+      "audio_text": "APA requires author and year in in-text citations.",
+      "question_translation": {
+        "Hindi": "यह किसके बारे में चर्चा कर रहा है?",
+        "Japanese": "これは何について話していますか？"
+      },
+      "options": [
+        "Quotation marks",
+        "APA citation format",
+        "Reference lists only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Using a plagiarism checker can help maintain academic integrity.",
+      "audio_text": "Using a plagiarism checker can help maintain academic integrity.",
+      "question_translation": {
+        "Hindi": "साहित्यिक चोरी जांच उपकरण का उपयोग शैक्षणिक ईमानदारी बनाए रखने में मदद कर सकता है।",
+        "Japanese": "剽窃チェッカーの使用は学問的誠実さを維持するのに役立ちます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Plagiarism is using someone else’s ideas without giving credit.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Plagiarism is using someone else’s ideas without giving credit.'",
+        "Japanese": "言ってください: 'Plagiarism is using someone else’s ideas without giving credit.'"
+      },
+      "options": [],
+      "answer": "plagiarism is using someone elses ideas without giving credit"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Always cite the original source when paraphrasing.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Always cite the original source when paraphrasing.'",
+        "Japanese": "言ってください: 'Always cite the original source when paraphrasing.'"
+      },
+      "options": [],
+      "answer": "always cite the original source when paraphrasing"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Academic integrity means honesty and fairness in research.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Academic integrity means honesty and fairness in research.'",
+        "Japanese": "言ってください: 'Academic integrity means honesty and fairness in research.'"
+      },
+      "options": [],
+      "answer": "academic integrity means honesty and fairness in research"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Use quotation marks when you copy exact words.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Use quotation marks when you copy exact words.'",
+        "Japanese": "言ってください: 'Use quotation marks when you copy exact words.'"
+      },
+      "options": [],
+      "answer": "use quotation marks when you copy exact words"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Plagiarism checkers help keep your work original.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Plagiarism checkers help keep your work original.'",
+        "Japanese": "言ってください: 'Plagiarism checkers help keep your work original.'"
+      },
+      "options": [],
+      "answer": "plagiarism checkers help keep your work original"
+    }
+  ]
+}
+
 }

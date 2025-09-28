@@ -1,4 +1,461 @@
 {
-  "id": 16,
-  "message": "This is file number 16"
+  "id": "lesson_linkers_contrast_reason_006",
+  "lesson_name": "Linkers for Contrast & Reason (Although/Despite)",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "although",
+        "word_translation": {
+          "Hindi": "हालाँकि",
+          "Japanese": "〜だけれども"
+        },
+        "meaning": "Used to show contrast between two ideas in the same sentence",
+        "meaning_translation": {
+          "Hindi": "एक ही वाक्य में दो विचारों के बीच अंतर दिखाने के लिए प्रयोग किया जाता है",
+          "Japanese": "同じ文で二つの考えの対比を示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Although it was raining, we went for a walk.",
+            "translation": {
+              "Hindi": "हालाँकि बारिश हो रही थी, हम टहलने गए।",
+              "Japanese": "雨が降っていたけれども、私たちは散歩に行った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "despite",
+        "word_translation": {
+          "Hindi": "के बावजूद",
+          "Japanese": "〜にもかかわらず"
+        },
+        "meaning": "Used before a noun or gerund to show contrast",
+        "meaning_translation": {
+          "Hindi": "संज्ञा या gerund से पहले विपरीतता दिखाने के लिए प्रयोग किया जाता है",
+          "Japanese": "名詞や動名詞の前に置き、対比を示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Despite the rain, we went for a walk.",
+            "translation": {
+              "Hindi": "बारिश के बावजूद, हम टहलने गए।",
+              "Japanese": "雨にもかかわらず、私たちは散歩に行った。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "because",
+        "word_translation": {
+          "Hindi": "क्योंकि",
+          "Japanese": "なぜなら"
+        },
+        "meaning": "Used to introduce a reason for something",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ का कारण बताने के लिए प्रयोग किया जाता है",
+          "Japanese": "理由を述べるときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "We stayed home because it was raining.",
+            "translation": {
+              "Hindi": "हम घर पर रहे क्योंकि बारिश हो रही थी।",
+              "Japanese": "雨が降っていたので、私たちは家にいた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "even though",
+        "word_translation": {
+          "Hindi": "भले ही",
+          "Japanese": "〜であるにもかかわらず"
+        },
+        "meaning": "Stronger form of 'although' to emphasize contrast",
+        "meaning_translation": {
+          "Hindi": "'although' का मजबूत रूप, अंतर पर ज़ोर देने के लिए",
+          "Japanese": "「although」より強調した対比を示すときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Even though he was tired, he finished the project.",
+            "translation": {
+              "Hindi": "भले ही वह थका हुआ था, उसने प्रोजेक्ट पूरा किया।",
+              "Japanese": "彼は疲れていたが、それでもプロジェクトを終えた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "due to",
+        "word_translation": {
+          "Hindi": "के कारण",
+          "Japanese": "〜のために"
+        },
+        "meaning": "Used before a noun phrase to explain a reason",
+        "meaning_translation": {
+          "Hindi": "कारण बताने के लिए संज्ञा वाक्यांश से पहले प्रयोग होता है",
+          "Japanese": "名詞句の前に置き、理由を説明するときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "The match was canceled due to heavy rain.",
+            "translation": {
+              "Hindi": "भारी बारिश के कारण मैच रद्द कर दिया गया।",
+              "Japanese": "大雨のため試合は中止された。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'Although' and 'Despite'",
+        "explanation": "'Although' is followed by a clause (subject + verb). 'Despite' is followed by a noun, pronoun, or gerund. Example: Although it was cold, we went swimming. Despite the cold, we went swimming.",
+        "explanation_translation": {
+          "Hindi": "'Although' के बाद clause (subject + verb) आता है। 'Despite' के बाद noun, pronoun या gerund आता है। उदाहरण: Although it was cold, we went swimming. Despite the cold, we went swimming.",
+          "Japanese": "「although」の後には節（主語＋動詞）が続きます。「despite」の後には名詞・代名詞・動名詞が続きます。例：Although it was cold, we went swimming. Despite the cold, we went swimming."
+        }
+      },
+      {
+        "title": "Contrast vs. Reason",
+        "explanation": "Use 'although', 'even though', 'despite' for contrast. Use 'because' and 'due to' for reasons.",
+        "explanation_translation": {
+          "Hindi": "विपरीतता दिखाने के लिए 'although', 'even though', 'despite' का उपयोग करें। कारण बताने के लिए 'because' और 'due to' का उपयोग करें।",
+          "Japanese": "対比を示すときは「although」「even though」「despite」を使います。理由を述べるときは「because」「due to」を使います。"
+        }
+      },
+      {
+        "title": "Formal vs. Informal Usage",
+        "explanation": "'Despite' and 'due to' are more formal, while 'although' and 'because' are commonly used in both spoken and written English.",
+        "explanation_translation": {
+          "Hindi": "'Despite' और 'due to' अधिक औपचारिक हैं, जबकि 'although' और 'because' बोलचाल और लेखन दोनों में सामान्य रूप से उपयोग होते हैं।",
+          "Japanese": "「despite」と「due to」はよりフォーマルで、「although」と「because」は話し言葉と書き言葉の両方でよく使われます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which linker is followed by a clause (subject + verb)?",
+      "question_translation": {
+        "Hindi": "कौन सा linker clause (subject + verb) के साथ आता है?",
+        "Japanese": "どの接続詞の後には節（主語＋動詞）が続きますか？"
+      },
+      "options": [
+        "despite",
+        "although",
+        "due to"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "___ the rain, the match continued.",
+      "question_translation": {
+        "Hindi": "बारिश ___ भी, मैच जारी रहा।",
+        "Japanese": "雨___試合は続いた。"
+      },
+      "options": [
+        "Although",
+        "Despite",
+        "Because"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "‘Due to’ is used before a noun phrase to explain a reason.",
+      "question_translation": {
+        "Hindi": "'Due to' का उपयोग कारण बताने के लिए संज्ञा वाक्यांश से पहले किया जाता है।",
+        "Japanese": "「due to」は理由を説明するために名詞句の前に使われます。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which linker is a stronger form of 'although'?",
+      "question_translation": {
+        "Hindi": "कौन सा linker 'although' का अधिक मजबूत रूप है?",
+        "Japanese": "「although」をより強調した形はどれですか？"
+      },
+      "options": [
+        "because",
+        "even though",
+        "despite"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The flight was canceled ___ bad weather.",
+      "question_translation": {
+        "Hindi": "खराब मौसम ___ उड़ान रद्द कर दी गई।",
+        "Japanese": "悪天候___フライトはキャンセルされた。"
+      },
+      "options": [
+        "because",
+        "due to",
+        "although"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [although, was, tired, he, continued, work, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [although, was, tired, he, continued, work, to]",
+        "Japanese": "並べ替え: [although, was, tired, he, continued, work, to]"
+      },
+      "options": [
+        "although",
+        "was",
+        "tired",
+        "he",
+        "continued",
+        "work",
+        "to"
+      ],
+      "answer": [
+        "Although",
+        "he",
+        "was",
+        "tired",
+        "he",
+        "continued",
+        "to",
+        "work"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "We stayed indoors ___ it was raining heavily.",
+      "question_translation": {
+        "Hindi": "हम अंदर ही रहे ___ तेज बारिश हो रही थी।",
+        "Japanese": "大雨が降っていた___私たちは家の中にいた。"
+      },
+      "options": [
+        "because",
+        "despite",
+        "although"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence is correct?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य सही है?",
+        "Japanese": "どの文が正しいですか？"
+      },
+      "options": [
+        "Despite he was late, we started the meeting.",
+        "Although he was late, we started the meeting.",
+        "Due to he was late, we started the meeting."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [was, match, canceled, due, heavy, rain, to]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [was, match, canceled, due, heavy, rain, to]",
+        "Japanese": "並べ替え: [was, match, canceled, due, heavy, rain, to]"
+      },
+      "options": [
+        "was",
+        "match",
+        "canceled",
+        "due",
+        "heavy",
+        "rain",
+        "to"
+      ],
+      "answer": [
+        "The",
+        "match",
+        "was",
+        "canceled",
+        "due",
+        "to",
+        "heavy",
+        "rain"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "___ his efforts, he couldn’t succeed.",
+      "question_translation": {
+        "Hindi": "उसके प्रयासों ___, वह सफल नहीं हो पाया।",
+        "Japanese": "彼の努力___成功できなかった。"
+      },
+      "options": [
+        "Despite",
+        "Although",
+        "Because"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What contrast is expressed?",
+      "audio_text": "Although it was late, the children were still playing outside.",
+      "question_translation": {
+        "Hindi": "कौन सा विरोधाभास व्यक्त किया गया है?",
+        "Japanese": "どんな対比が表現されていますか？"
+      },
+      "options": [
+        "It was late but they were still playing",
+        "It was late so they went to bed",
+        "It was late and they stopped playing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "multipleChoice",
+      "question": "What reason is given?",
+      "audio_text": "The concert was canceled due to heavy rain.",
+      "question_translation": {
+        "Hindi": "कौन सा कारण दिया गया है?",
+        "Japanese": "どんな理由が述べられていますか？"
+      },
+      "options": [
+        "The rain was heavy",
+        "The singer was sick",
+        "The concert was full"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "trueFalse",
+      "question": "‘Despite’ is followed by a clause in this example.",
+      "audio_text": "Despite the traffic, she arrived on time.",
+      "question_translation": {
+        "Hindi": "इस उदाहरण में 'Despite' के बाद clause आता है।",
+        "Japanese": "この例では「despite」の後に節が続いている。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What is emphasized?",
+      "audio_text": "Even though he was ill, he attended the meeting.",
+      "question_translation": {
+        "Hindi": "किस बात पर ज़ोर दिया गया है?",
+        "Japanese": "何が強調されていますか？"
+      },
+      "options": [
+        "He skipped the meeting",
+        "He was ill but still went",
+        "He recovered before the meeting"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Why did they stay home?",
+      "audio_text": "They stayed home because it was snowing.",
+      "question_translation": {
+        "Hindi": "उन्होंने घर पर क्यों रहे?",
+        "Japanese": "彼らはなぜ家にいたのですか？"
+      },
+      "options": [
+        "Because it was sunny",
+        "Because it was snowing",
+        "Because it was warm"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Although it was raining, we went for a walk.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Although it was raining, we went for a walk.'",
+        "Japanese": "言ってください: 'Although it was raining, we went for a walk.'"
+      },
+      "options": [],
+      "answer": "although it was raining we went for a walk"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Despite the traffic, she was on time.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Despite the traffic, she was on time.'",
+        "Japanese": "言ってください: 'Despite the traffic, she was on time.'"
+      },
+      "options": [],
+      "answer": "despite the traffic she was on time"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'We stayed home because it was raining.'",
+      "question_translation": {
+        "Hindi": "कहें: 'We stayed home because it was raining.'",
+        "Japanese": "言ってください: 'We stayed home because it was raining.'"
+      },
+      "options": [],
+      "answer": "we stayed home because it was raining"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'The flight was canceled due to bad weather.'",
+      "question_translation": {
+        "Hindi": "कहें: 'The flight was canceled due to bad weather.'",
+        "Japanese": "言ってください: 'The flight was canceled due to bad weather.'"
+      },
+      "options": [],
+      "answer": "the flight was canceled due to bad weather"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Even though he was tired, he finished the project.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Even though he was tired, he finished the project.'",
+        "Japanese": "言ってください: 'Even though he was tired, he finished the project.'"
+      },
+      "options": [],
+      "answer": "even though he was tired he finished the project"
+    }
+  ]
+}
+
 }

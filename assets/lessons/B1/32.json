@@ -1,4 +1,520 @@
 {
-  "id": 32,
-  "message": "This is file number 32"
+  "id": "lesson_difficult_conversations_001",
+  "lesson_name": "Handling Difficult Conversations",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "conflict",
+        "word_translation": {
+          "Hindi": "संघर्ष",
+          "Japanese": "対立"
+        },
+        "meaning": "A serious disagreement or argument",
+        "meaning_translation": {
+          "Hindi": "एक गंभीर असहमति या बहस",
+          "Japanese": "深刻な意見の相違や口論"
+        },
+        "examples": [
+          {
+            "sentence": "There was a conflict between two colleagues about the project.",
+            "translation": {
+              "Hindi": "प्रोजेक्ट के बारे में दो सहकर्मियों के बीच संघर्ष था।",
+              "Japanese": "プロジェクトについて2人の同僚の間に対立がありました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "respectful",
+        "word_translation": {
+          "Hindi": "सम्मानजनक",
+          "Japanese": "敬意を持った"
+        },
+        "meaning": "Showing politeness or consideration to others",
+        "meaning_translation": {
+          "Hindi": "दूसरों के प्रति शिष्टाचार या विचारशीलता दिखाना",
+          "Japanese": "他人に礼儀や配慮を示すこと"
+        },
+        "examples": [
+          {
+            "sentence": "It is important to stay respectful during arguments.",
+            "translation": {
+              "Hindi": "बहस के दौरान सम्मानजनक बने रहना महत्वपूर्ण है।",
+              "Japanese": "議論の間は敬意を持つことが大切です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "clarify",
+        "word_translation": {
+          "Hindi": "स्पष्ट करना",
+          "Japanese": "明確にする"
+        },
+        "meaning": "To make something easier to understand",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को समझने में आसान बनाना",
+          "Japanese": "何かを分かりやすくすること"
+        },
+        "examples": [
+          {
+            "sentence": "Could you clarify what you mean by that statement?",
+            "translation": {
+              "Hindi": "क्या आप स्पष्ट कर सकते हैं कि उस कथन से आपका क्या मतलब है?",
+              "Japanese": "その発言で何を意味しているのか明確にしていただけますか？"
+            }
+          }
+        ]
+      },
+      {
+        "word": "compromise",
+        "word_translation": {
+          "Hindi": "समझौता",
+          "Japanese": "妥協"
+        },
+        "meaning": "An agreement where both sides give up part of what they want",
+        "meaning_translation": {
+          "Hindi": "एक समझौता जिसमें दोनों पक्ष अपनी कुछ इच्छाएँ छोड़ते हैं",
+          "Japanese": "双方が一部の希望を譲る合意"
+        },
+        "examples": [
+          {
+            "sentence": "They reached a compromise after discussing their differences.",
+            "translation": {
+              "Hindi": "अपनी भिन्नताओं पर चर्चा करने के बाद वे एक समझौते पर पहुँचे।",
+              "Japanese": "意見の違いを話し合った後、彼らは妥協に達しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "frustration",
+        "word_translation": {
+          "Hindi": "निराशा",
+          "Japanese": "欲求不満"
+        },
+        "meaning": "A feeling of anger or disappointment when things do not go as expected",
+        "meaning_translation": {
+          "Hindi": "क्रोध या निराशा की भावना जब चीजें उम्मीद के अनुसार नहीं होतीं",
+          "Japanese": "物事が思った通りにいかないときの怒りや失望の気持ち"
+        },
+        "examples": [
+          {
+            "sentence": "He felt frustration when his ideas were ignored.",
+            "translation": {
+              "Hindi": "जब उसकी बातों को अनसुना किया गया तो उसे निराशा हुई।",
+              "Japanese": "彼の意見が無視されたとき、彼は欲求不満を感じました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "empathy",
+        "word_translation": {
+          "Hindi": "सहानुभूति",
+          "Japanese": "共感"
+        },
+        "meaning": "The ability to understand and share another person's feelings",
+        "meaning_translation": {
+          "Hindi": "दूसरे व्यक्ति की भावनाओं को समझने और साझा करने की क्षमता",
+          "Japanese": "他人の気持ちを理解し共有する能力"
+        },
+        "examples": [
+          {
+            "sentence": "Showing empathy can make conversations easier.",
+            "translation": {
+              "Hindi": "सहानुभूति दिखाने से बातचीत आसान हो सकती है।",
+              "Japanese": "共感を示すことで会話が楽になります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "misunderstanding",
+        "word_translation": {
+          "Hindi": "गलतफ़हमी",
+          "Japanese": "誤解"
+        },
+        "meaning": "A failure to understand something correctly",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ को सही ढंग से न समझ पाने की स्थिति",
+          "Japanese": "何かを正しく理解できないこと"
+        },
+        "examples": [
+          {
+            "sentence": "A small misunderstanding caused a big argument.",
+            "translation": {
+              "Hindi": "एक छोटी सी गलतफ़हमी ने बड़ी बहस को जन्म दिया।",
+              "Japanese": "小さな誤解が大きな口論を引き起こしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assertive",
+        "word_translation": {
+          "Hindi": "आत्मविश्वासी",
+          "Japanese": "自己主張する"
+        },
+        "meaning": "Being confident and clear in expressing your opinions",
+        "meaning_translation": {
+          "Hindi": "अपने विचार आत्मविश्वास से और स्पष्ट रूप से व्यक्त करना",
+          "Japanese": "自分の意見を自信を持ってはっきり述べること"
+        },
+        "examples": [
+          {
+            "sentence": "It is good to be assertive without being rude.",
+            "translation": {
+              "Hindi": "बदतमीज़ हुए बिना आत्मविश्वासी होना अच्छा है।",
+              "Japanese": "失礼にならずに自己主張することは良いことです。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using 'I' Statements",
+        "explanation": "When handling conflict, use 'I' statements instead of blaming others. Example: I feel upset when meetings start late.",
+        "explanation_translation": {
+          "Hindi": "संघर्ष संभालते समय दूसरों को दोष देने के बजाय 'I' वाक्यों का प्रयोग करें। उदाहरण: I feel upset when meetings start late.",
+          "Japanese": "対立を処理するときは、他人を非難する代わりに「I」を使った文を使います。例: I feel upset when meetings start late."
+        }
+      },
+      {
+        "title": "Polite Expressions for Disagreement",
+        "explanation": "Use polite phrases like 'I see your point, but…' or 'I’m not sure I agree' to disagree respectfully.",
+        "explanation_translation": {
+          "Hindi": "शिष्ट असहमति दिखाने के लिए 'I see your point, but…' या 'I’m not sure I agree' जैसे वाक्यों का प्रयोग करें।",
+          "Japanese": "丁寧に反対するには「I see your point, but…」や「I’m not sure I agree」などの表現を使います。"
+        }
+      },
+      {
+        "title": "Modal Verbs for Suggestions",
+        "explanation": "Use modals like 'could', 'might', or 'should' to make soft suggestions. Example: We could try another solution.",
+        "explanation_translation": {
+          "Hindi": "मुलायम सुझाव देने के लिए 'could', 'might' या 'should' जैसे modals का प्रयोग करें। उदाहरण: We could try another solution.",
+          "Japanese": "やわらかく提案するときは「could」「might」「should」などの助動詞を使います。例: We could try another solution."
+        }
+      }
+    ]
+  },
+  
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which word means 'a serious disagreement or argument'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द 'एक गंभीर असहमति या बहस' का अर्थ देता है?",
+          "Japanese": "「深刻な意見の相違や口論」を意味する言葉はどれですか？"
+        },
+        "options": [
+          "conflict",
+          "empathy",
+          "clarify"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "She tried to ___ her opinion so that everyone could understand.",
+        "question_translation": {
+          "Hindi": "उसने अपनी राय को ___ की कोशिश की ताकि हर कोई समझ सके।",
+          "Japanese": "彼女はみんなが理解できるように自分の意見を___しようとしました。"
+        },
+        "options": [
+          "clarify",
+          "compromise",
+          "conflict"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Empathy means understanding and sharing another person’s feelings.",
+        "question_translation": {
+          "Hindi": "सहानुभूति का अर्थ है दूसरे व्यक्ति की भावनाओं को समझना और साझा करना।",
+          "Japanese": "共感とは、他人の気持ちを理解し共有することです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'an agreement where both sides give up part of what they want'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द उस समझौते को दर्शाता है जिसमें दोनों पक्ष अपनी कुछ इच्छाएँ छोड़ते हैं?",
+          "Japanese": "双方が一部の希望を譲る合意を意味する言葉はどれですか？"
+        },
+        "options": [
+          "assertive",
+          "compromise",
+          "frustration"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "A small ___ led to a big argument between them.",
+        "question_translation": {
+          "Hindi": "एक छोटी ___ ने उनके बीच बड़ी बहस को जन्म दिया।",
+          "Japanese": "小さな___が彼らの間で大きな口論につながった。"
+        },
+        "options": [
+          "misunderstanding",
+          "conflict",
+          "clarify"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [I, feel, upset, when, ignored, am, I]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [I, feel, upset, when, ignored, am, I]",
+          "Japanese": "並べ替え: [I, feel, upset, when, ignored, am, I]"
+        },
+        "options": [
+          "I",
+          "feel",
+          "upset",
+          "when",
+          "ignored",
+          "am",
+          "I"
+        ],
+        "answer": [
+          "I",
+          "feel",
+          "upset",
+          "when",
+          "I",
+          "am",
+          "ignored"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "I see your point, ___ I don’t fully agree.",
+        "question_translation": {
+          "Hindi": "मैं आपकी बात समझता हूँ, ___ मैं पूरी तरह सहमत नहीं हूँ।",
+          "Japanese": "あなたの言うことは分かりますが、___完全には同意できません。"
+        },
+        "options": [
+          "but",
+          "and",
+          "because"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which is the most polite way to disagree?",
+        "question_translation": {
+          "Hindi": "सबसे शिष्ट असहमति व्यक्त करने का तरीका कौन सा है?",
+          "Japanese": "最も丁寧に反対する方法はどれですか？"
+        },
+        "options": [
+          "You are wrong.",
+          "I’m not sure I agree.",
+          "That’s nonsense."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [we, try, solution, could, another]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [we, try, solution, could, another]",
+          "Japanese": "並べ替え: [we, try, solution, could, another]"
+        },
+        "options": [
+          "we",
+          "try",
+          "solution",
+          "could",
+          "another"
+        ],
+        "answer": [
+          "we",
+          "could",
+          "try",
+          "another",
+          "solution"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "It is good to be ___ without being rude.",
+        "question_translation": {
+          "Hindi": "बदतमीज़ हुए बिना ___ होना अच्छा है।",
+          "Japanese": "失礼にならずに___であることは良いことです。"
+        },
+        "options": [
+          "assertive",
+          "conflict",
+          "frustration"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What feeling is the speaker expressing?",
+        "audio_text": "I feel frustration when my opinions are ignored.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी भावना व्यक्त कर रहा है?",
+          "Japanese": "話者はどんな気持ちを表していますか？"
+        },
+        "options": [
+          "Happiness",
+          "Frustration",
+          "Respect"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What does the speaker suggest?",
+        "audio_text": "We could try to find a compromise.",
+        "question_translation": {
+          "Hindi": "वक्ता क्या सुझाव देता है?",
+          "Japanese": "話者は何を提案していますか？"
+        },
+        "options": [
+          "Starting an argument",
+          "Finding a compromise",
+          "Ending the conversation"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker shows empathy.",
+        "audio_text": "I understand how you feel about this situation.",
+        "question_translation": {
+          "Hindi": "वक्ता सहानुभूति दिखाता है।",
+          "Japanese": "話者は共感を示しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What caused the disagreement?",
+        "audio_text": "There was a misunderstanding about the deadline.",
+        "question_translation": {
+          "Hindi": "असहमति का कारण क्या था?",
+          "Japanese": "対立の原因は何でしたか？"
+        },
+        "options": [
+          "A misunderstanding",
+          "A celebration",
+          "A holiday"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "How does the speaker respond?",
+        "audio_text": "I see your point, but I think we should try another approach.",
+        "question_translation": {
+          "Hindi": "वक्ता कैसे उत्तर देता है?",
+          "Japanese": "話者はどのように答えていますか？"
+        },
+        "options": [
+          "By agreeing completely",
+          "By disagreeing politely",
+          "By ending the talk"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I feel upset when I am ignored.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I feel upset when I am ignored.'",
+          "Japanese": "言ってください: 'I feel upset when I am ignored.'"
+        },
+        "options": [],
+        "answer": "i feel upset when i am ignored"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'I understand how you feel.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I understand how you feel.'",
+          "Japanese": "言ってください: 'I understand how you feel.'"
+        },
+        "options": [],
+        "answer": "i understand how you feel"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'We could try another solution.'",
+        "question_translation": {
+          "Hindi": "कहें: 'We could try another solution.'",
+          "Japanese": "言ってください: 'We could try another solution.'"
+        },
+        "options": [],
+        "answer": "we could try another solution"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'I see your point, but I disagree.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I see your point, but I disagree.'",
+          "Japanese": "言ってください: 'I see your point, but I disagree.'"
+        },
+        "options": [],
+        "answer": "i see your point but i disagree"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'It is good to be assertive without being rude.'",
+        "question_translation": {
+          "Hindi": "कहें: 'It is good to be assertive without being rude.'",
+          "Japanese": "言ってください: 'It is good to be assertive without being rude.'"
+        },
+        "options": [],
+        "answer": "it is good to be assertive without being rude"
+      }
+    ]
+  }
+
+
 }

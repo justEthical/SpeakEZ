@@ -1,4 +1,573 @@
 {
-  "id": 37,
-  "message": "This is file number 37"
+  "id": "lesson_humour_wit_pragmatic_boundaries_c2",
+  "lesson_name": "Humour & Wit: Pragmatic Boundaries",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "wit",
+        "word_translation": {
+          "Hindi": "चतुराई / बुद्धि",
+          "Japanese": "機知 / ウィット"
+        },
+        "meaning": "The ability to say things that are clever and funny",
+        "meaning_translation": {
+          "Hindi": "ऐसी बातें कहने की क्षमता जो चतुर और मजेदार हों",
+          "Japanese": "賢くて面白いことを言う能力"
+        },
+        "examples": [
+          {
+            "sentence": "Her wit always makes the conversation lively.",
+            "translation": {
+              "Hindi": "उसकी चतुराई हमेशा बातचीत को जीवंत बना देती है।",
+              "Japanese": "彼女の機知はいつも会話を生き生きとさせます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "humour",
+        "word_translation": {
+          "Hindi": "हास्य",
+          "Japanese": "ユーモア"
+        },
+        "meaning": "The quality of being amusing or entertaining",
+        "meaning_translation": {
+          "Hindi": "मनोरंजक या मजेदार होने की गुणवत्ता",
+          "Japanese": "面白く楽しませる特質"
+        },
+        "examples": [
+          {
+            "sentence": "He uses humour to ease tension in meetings.",
+            "translation": {
+              "Hindi": "वह बैठकों में तनाव को कम करने के लिए हास्य का उपयोग करता है।",
+              "Japanese": "彼は会議で緊張を和らげるためにユーモアを使います。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pragmatic boundary",
+        "word_translation": {
+          "Hindi": "व्यावहारिक सीमा",
+          "Japanese": "語用論的な境界"
+        },
+        "meaning": "The social limit of what is appropriate or acceptable in communication",
+        "meaning_translation": {
+          "Hindi": "संचार में क्या उपयुक्त या स्वीकार्य है, उसकी सामाजिक सीमा",
+          "Japanese": "コミュニケーションにおいて適切または許容されることの社会的な限界"
+        },
+        "examples": [
+          {
+            "sentence": "Knowing pragmatic boundaries helps avoid offensive jokes.",
+            "translation": {
+              "Hindi": "व्यावहारिक सीमाओं को जानना आपत्तिजनक चुटकुलों से बचने में मदद करता है।",
+              "Japanese": "語用論的な境界を知ることは不快なジョークを避けるのに役立ちます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sarcasm",
+        "word_translation": {
+          "Hindi": "व्यंग्य",
+          "Japanese": "皮肉 / サーカズム"
+        },
+        "meaning": "The use of irony to mock or convey contempt",
+        "meaning_translation": {
+          "Hindi": "मजाक उड़ाने या तिरस्कार व्यक्त करने के लिए व्यंग्य का उपयोग",
+          "Japanese": "嘲笑や軽蔑を伝えるための皮肉の使用"
+        },
+        "examples": [
+          {
+            "sentence": "His sarcasm sometimes hurts people’s feelings.",
+            "translation": {
+              "Hindi": "उसका व्यंग्य कभी-कभी लोगों की भावनाओं को ठेस पहुँचाता है।",
+              "Japanese": "彼の皮肉は時に人の気持ちを傷つけます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "satire",
+        "word_translation": {
+          "Hindi": "व्यंग्यात्मक लेखन",
+          "Japanese": "風刺 / サタイア"
+        },
+        "meaning": "Humour that criticizes people or society in a clever way",
+        "meaning_translation": {
+          "Hindi": "ऐसा हास्य जो लोगों या समाज की चतुराई से आलोचना करता है",
+          "Japanese": "人々や社会を巧みに批判するユーモア"
+        },
+        "examples": [
+          {
+            "sentence": "The play is a satire on modern politics.",
+            "translation": {
+              "Hindi": "यह नाटक आधुनिक राजनीति पर एक व्यंग्य है।",
+              "Japanese": "この劇は現代政治への風刺です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "self-deprecating humour",
+        "word_translation": {
+          "Hindi": "स्वयं का मजाक उड़ाने वाला हास्य",
+          "Japanese": "自虐的なユーモア"
+        },
+        "meaning": "Humour that makes fun of oneself in a light-hearted way",
+        "meaning_translation": {
+          "Hindi": "ऐसा हास्य जो हल्के-फुल्के तरीके से स्वयं का मजाक उड़ाता है",
+          "Japanese": "軽い気持ちで自分自身を笑いのネタにするユーモア"
+        },
+        "examples": [
+          {
+            "sentence": "Self-deprecating humour can make a speaker seem relatable.",
+            "translation": {
+              "Hindi": "स्वयं का मजाक उड़ाने वाला हास्य वक्ता को सहज बना सकता है।",
+              "Japanese": "自虐的なユーモアは話し手を親しみやすく見せることができます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "punchline",
+        "word_translation": {
+          "Hindi": "मुख्य मजेदार हिस्सा",
+          "Japanese": "オチ / パンチライン"
+        },
+        "meaning": "The final, funny part of a joke or story",
+        "meaning_translation": {
+          "Hindi": "किसी मजाक या कहानी का अंतिम और मजेदार हिस्सा",
+          "Japanese": "ジョークや物語の最後の面白い部分"
+        },
+        "examples": [
+          {
+            "sentence": "He paused for effect before delivering the punchline.",
+            "translation": {
+              "Hindi": "उसने पंचलाइन देने से पहले प्रभाव के लिए विराम लिया।",
+              "Japanese": "彼はオチを言う前に効果を出すために間を取りました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "double entendre",
+        "word_translation": {
+          "Hindi": "दोहरे अर्थ वाला वाक्यांश",
+          "Japanese": "ダブルミーニング / ダブル・オンタンドル"
+        },
+        "meaning": "A phrase with two meanings, one often humorous or risqué",
+        "meaning_translation": {
+          "Hindi": "एक ऐसा वाक्यांश जिसके दो अर्थ होते हैं, जिनमें से एक अक्सर हास्यपूर्ण या साहसिक होता है",
+          "Japanese": "2つの意味を持つ表現で、1つはユーモラスまたは挑発的な意味を含むことが多い"
+        },
+        "examples": [
+          {
+            "sentence": "The comedian used a clever double entendre to amuse the audience.",
+            "translation": {
+              "Hindi": "कॉमेडियन ने दर्शकों को हँसाने के लिए एक चतुर दोहरे अर्थ वाला वाक्यांश इस्तेमाल किया।",
+              "Japanese": "コメディアンは観客を楽しませるために巧妙なダブルミーニングを使いました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "off-colour joke",
+        "word_translation": {
+          "Hindi": "अशोभनीय मजाक",
+          "Japanese": "下品なジョーク"
+        },
+        "meaning": "A joke that is inappropriate or offensive",
+        "meaning_translation": {
+          "Hindi": "एक मजाक जो अनुपयुक्त या आपत्तिजनक हो",
+          "Japanese": "不適切または不快なジョーク"
+        },
+        "examples": [
+          {
+            "sentence": "Off-colour jokes can cross pragmatic boundaries and offend listeners.",
+            "translation": {
+              "Hindi": "अशोभनीय मजाक व्यावहारिक सीमाओं को पार कर सकता है और श्रोताओं को नाराज़ कर सकता है।",
+              "Japanese": "下品なジョークは語用論的な境界を越えて聴衆を不快にさせることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "timing",
+        "word_translation": {
+          "Hindi": "समय निर्धारण",
+          "Japanese": "タイミング"
+        },
+        "meaning": "The ability to say something at the perfect moment for the best effect",
+        "meaning_translation": {
+          "Hindi": "कुछ कहने का सही समय चुनने की क्षमता ताकि उसका अधिकतम प्रभाव पड़े",
+          "Japanese": "最も効果的な瞬間に何かを言う能力"
+        },
+        "examples": [
+          {
+            "sentence": "Great comedians have excellent timing when delivering jokes.",
+            "translation": {
+              "Hindi": "महान कॉमेडियन मजाक सुनाने में उत्कृष्ट समय निर्धारण रखते हैं।",
+              "Japanese": "優れたコメディアンはジョークを言うタイミングが絶妙です。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Modals for Soft Humour",
+        "explanation": "Words like ‘might’ and ‘could’ can soften humour to avoid sounding offensive.",
+        "explanation_translation": {
+          "Hindi": "‘might’ और ‘could’ जैसे शब्द हास्य को नरम कर सकते हैं ताकि आपत्तिजनक न लगे।",
+          "Japanese": "「might」や「could」などの語はユーモアを和らげ、攻撃的に聞こえないようにします。"
+        }
+      },
+      {
+        "title": "Tag Questions for Light Joking",
+        "explanation": "Adding tag questions (isn’t it?, right?) can make jokes feel playful rather than aggressive.",
+        "explanation_translation": {
+          "Hindi": "टैग प्रश्न जोड़ना (isn’t it?, right?) मजाक को आक्रामक के बजाय हल्का-फुल्का बना सकता है।",
+          "Japanese": "付加疑問（isn’t it?, right?）を加えると、ジョークが攻撃的ではなく遊び心のあるものになります。"
+        }
+      },
+      {
+        "title": "Avoiding Ambiguity in Sensitive Jokes",
+        "explanation": "Be clear when joking about sensitive topics to prevent misunderstanding.",
+        "explanation_translation": {
+          "Hindi": "संवेदनशील विषयों पर मजाक करते समय स्पष्ट रहें ताकि गलतफहमी से बचा जा सके।",
+          "Japanese": "デリケートな話題で冗談を言うときは誤解を防ぐために明確にします。"
+        }
+      },
+      {
+        "title": "Ellipsis for Comedic Effect",
+        "explanation": "Pausing or leaving something unsaid (…) can add humour by letting the audience infer the punchline.",
+        "explanation_translation": {
+          "Hindi": "विराम या कुछ अधूरा छोड़ना (…) हास्य जोड़ सकता है क्योंकि दर्शक पंचलाइन खुद समझ सकते हैं।",
+          "Japanese": "省略（…）を使うことで聴衆にオチを推測させ、ユーモアを加えることができます。"
+        }
+      },
+      {
+        "title": "Parallel Structure in Jokes",
+        "explanation": "Repeating sentence patterns builds rhythm and surprise, useful in witty humour.",
+        "explanation_translation": {
+          "Hindi": "वाक्य पैटर्न को दोहराना लय और आश्चर्य पैदा करता है, जो चतुर हास्य में उपयोगी है।",
+          "Japanese": "文の構造を繰り返すことでリズムと意外性を生み、機知に富んだユーモアに役立ちます。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word means the ability to say clever and funny things?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द चतुर और मजेदार बातें कहने की क्षमता को दर्शाता है?",
+        "Japanese": "賢くて面白いことを言う能力を意味する単語はどれですか？"
+      },
+      "options": [
+        "wit",
+        "sarcasm",
+        "timing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "Jokes that go beyond social limits can cross pragmatic ___.",
+      "question_translation": {
+        "Hindi": "जो चुटकुले सामाजिक सीमाओं से परे जाते हैं वे व्यावहारिक ___ को पार कर सकते हैं।",
+        "Japanese": "社会的な限界を超えるジョークは語用論的___を越えることがあります。"
+      },
+      "options": [
+        "boundaries",
+        "satire",
+        "punchlines"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "Self-deprecating humour means making fun of someone else in a harsh way.",
+      "question_translation": {
+        "Hindi": "स्वयं का मजाक उड़ाने वाला हास्य का मतलब है किसी और का कठोर तरीके से मजाक उड़ाना।",
+        "Japanese": "自虐的なユーモアは他人を厳しくからかうことを意味します。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which term refers to the final, funny part of a joke?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द मजाक के अंतिम और मजेदार हिस्से को दर्शाता है?",
+        "Japanese": "ジョークの最後の面白い部分を指す用語はどれですか？"
+      },
+      "options": [
+        "timing",
+        "punchline",
+        "double entendre"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "An inappropriate or offensive joke is called an ___ joke.",
+      "question_translation": {
+        "Hindi": "एक अनुपयुक्त या आपत्तिजनक मजाक को ___ मजाक कहा जाता है।",
+        "Japanese": "不適切または不快なジョークは___ジョークと呼ばれます。"
+      },
+      "options": [
+        "off-colour",
+        "clever",
+        "timed"
+      ],
+      "answer": 0
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [great, comedians, have, timing, excellent]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [great, comedians, have, timing, excellent]",
+        "Japanese": "並べ替え: [great, comedians, have, timing, excellent]"
+      },
+      "options": [
+        "great",
+        "comedians",
+        "have",
+        "excellent",
+        "timing"
+      ],
+      "answer": [
+        "great",
+        "comedians",
+        "have",
+        "excellent",
+        "timing"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "Humour ___ reduce tension in a difficult conversation.",
+      "question_translation": {
+        "Hindi": "हास्य कठिन बातचीत में तनाव को ___ सकता है।",
+        "Japanese": "ユーモアは難しい会話の緊張を___することができます。"
+      },
+      "options": [
+        "can",
+        "must not",
+        "ignores"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence shows proper understanding of pragmatic boundaries?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य व्यावहारिक सीमाओं की सही समझ दिखाता है?",
+        "Japanese": "どの文が語用論的な境界の正しい理解を示していますか？"
+      },
+      "options": [
+        "Always tell offensive jokes to make people laugh.",
+        "Know your audience before making sensitive jokes.",
+        "Timing doesn’t matter in humour."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [can, relatable, self-deprecating, humour, make, speakers]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [can, relatable, self-deprecating, humour, make, speakers]",
+        "Japanese": "並べ替え: [can, relatable, self-deprecating, humour, make, speakers]"
+      },
+      "options": [
+        "self-deprecating",
+        "humour",
+        "can",
+        "make",
+        "speakers",
+        "relatable"
+      ],
+      "answer": [
+        "self-deprecating",
+        "humour",
+        "can",
+        "make",
+        "speakers",
+        "relatable"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "Sarcasm ___ sound hurtful if not used carefully.",
+      "question_translation": {
+        "Hindi": "व्यंग्य सावधानी से उपयोग न करने पर आहतकारी ___ सकता है।",
+        "Japanese": "皮肉は注意して使わないと傷つけるように___ことがあります。"
+      },
+      "options": [
+        "can",
+        "never",
+        "must not"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker say about timing in humour?",
+      "audio_text": "Good timing makes jokes funnier and helps avoid awkward silences.",
+      "question_translation": {
+        "Hindi": "वक्ता हास्य में समय निर्धारण के बारे में क्या कहते हैं?",
+        "Japanese": "話者はユーモアにおけるタイミングについて何と言っていますか？"
+      },
+      "options": [
+        "It makes jokes funnier and avoids awkward silences.",
+        "It is not important in making people laugh.",
+        "It should always be ignored."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "Off-colour jokes are always safe in professional settings.",
+      "audio_text": "Off-colour jokes can offend people and cross professional boundaries.",
+      "question_translation": {
+        "Hindi": "अशोभनीय मजाक हमेशा पेशेवर माहौल में सुरक्षित होते हैं।",
+        "Japanese": "下品なジョークは職場環境では常に安全です。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is the purpose of self-deprecating humour according to the speaker?",
+      "audio_text": "Self-deprecating humour makes speakers seem approachable and relatable.",
+      "question_translation": {
+        "Hindi": "वक्ता के अनुसार स्वयं का मजाक उड़ाने वाले हास्य का उद्देश्य क्या है?",
+        "Japanese": "話者によると、自虐的なユーモアの目的は何ですか？"
+      },
+      "options": [
+        "To insult others",
+        "To seem relatable and approachable",
+        "To confuse the audience"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "multipleChoice",
+      "question": "What should speakers do when joking about sensitive topics?",
+      "audio_text": "Speakers should know their audience and avoid ambiguous or offensive jokes.",
+      "question_translation": {
+        "Hindi": "संवेदनशील विषयों पर मजाक करते समय वक्ताओं को क्या करना चाहिए?",
+        "Japanese": "デリケートな話題で冗談を言うとき、話者は何をすべきですか？"
+      },
+      "options": [
+        "Ignore the audience reaction",
+        "Know the audience and avoid offensive jokes",
+        "Use sarcasm freely"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen5",
+      "type": "trueFalse",
+      "question": "Satire often criticizes society in a clever way.",
+      "audio_text": "Satire uses humour to point out flaws in society or politics.",
+      "question_translation": {
+        "Hindi": "व्यंग्य अक्सर चतुराई से समाज की आलोचना करता है।",
+        "Japanese": "風刺は社会を巧みに批判することが多いです。"
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Timing is crucial for delivering a good joke.'",
+      "question_translation": {
+        "Hindi": "कहें: 'एक अच्छा मजाक सुनाने के लिए समय निर्धारण महत्वपूर्ण है।'",
+        "Japanese": "言ってください: 'Timing is crucial for delivering a good joke.'"
+      },
+      "options": [],
+      "answer": "timing is crucial for delivering a good joke"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'Self-deprecating humour can make you more relatable.'",
+      "question_translation": {
+        "Hindi": "कहें: 'स्वयं का मजाक उड़ाने वाला हास्य आपको अधिक जुड़ावपूर्ण बना सकता है।'",
+        "Japanese": "言ってください: 'Self-deprecating humour can make you more relatable.'"
+      },
+      "options": [],
+      "answer": "self deprecating humour can make you more relatable"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Pragmatic boundaries help us know what jokes are appropriate.'",
+      "question_translation": {
+        "Hindi": "कहें: 'व्यावहारिक सीमाएँ हमें यह जानने में मदद करती हैं कि कौन से मजाक उपयुक्त हैं।'",
+        "Japanese": "言ってください: 'Pragmatic boundaries help us know what jokes are appropriate.'"
+      },
+      "options": [],
+      "answer": "pragmatic boundaries help us know what jokes are appropriate"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Satire can criticize society while being humorous.'",
+      "question_translation": {
+        "Hindi": "कहें: 'व्यंग्य समाज की आलोचना कर सकता है और साथ ही हास्यपूर्ण भी रह सकता है।'",
+        "Japanese": "言ってください: 'Satire can criticize society while being humorous.'"
+      },
+      "options": [],
+      "answer": "satire can criticize society while being humorous"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Off-colour jokes can offend people and cross boundaries.'",
+      "question_translation": {
+        "Hindi": "कहें: 'अशोभनीय मजाक लोगों को आहत कर सकता है और सीमाएँ पार कर सकता है।'",
+        "Japanese": "言ってください: 'Off-colour jokes can offend people and cross boundaries.'"
+      },
+      "options": [],
+      "answer": "off colour jokes can offend people and cross boundaries"
+    }
+  ]
+}
+
 }

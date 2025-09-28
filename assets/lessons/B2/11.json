@@ -1,4 +1,513 @@
 {
-  "id": 11,
-  "message": "This is file number 11"
+  "id": "lesson_modals_deduction_001",
+  "lesson_name": "Modals of Deduction (Present & Past)",
+  "purpose": "All",
+  "cefrLevel": "B2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "must",
+        "word_translation": {
+          "Hindi": "ज़रूर",
+          "Japanese": "に違いない"
+        },
+        "meaning": "Used to say that something is almost certain based on evidence",
+        "meaning_translation": {
+          "Hindi": "किसी प्रमाण के आधार पर यह कहने के लिए कि कुछ लगभग निश्चित है",
+          "Japanese": "証拠に基づいて、ほぼ確実であると言うときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "She must be at work because her car is not outside.",
+            "translation": {
+              "Hindi": "वह ज़रूर काम पर होगी क्योंकि उसकी गाड़ी बाहर नहीं है।",
+              "Japanese": "彼女の車が外にないので、彼女は仕事中に違いない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "might",
+        "word_translation": {
+          "Hindi": "हो सकता है",
+          "Japanese": "かもしれない"
+        },
+        "meaning": "Used to say that something is possible but not certain",
+        "meaning_translation": {
+          "Hindi": "यह कहने के लिए उपयोग होता है कि कुछ संभव है लेकिन निश्चित नहीं",
+          "Japanese": "可能性はあるが確実ではないことを言うときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "He might be studying at the library right now.",
+            "translation": {
+              "Hindi": "वह अभी पुस्तकालय में पढ़ रहा हो सकता है।",
+              "Japanese": "彼は今図書館で勉強しているかもしれない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "can't",
+        "word_translation": {
+          "Hindi": "नहीं हो सकता",
+          "Japanese": "のはずがない"
+        },
+        "meaning": "Used to say that something is impossible based on evidence",
+        "meaning_translation": {
+          "Hindi": "प्रमाण के आधार पर यह कहने के लिए कि कुछ असंभव है",
+          "Japanese": "証拠に基づいて不可能だと言うときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "This can’t be true; I saw him leave earlier.",
+            "translation": {
+              "Hindi": "यह सच नहीं हो सकता; मैंने उसे पहले ही जाते हुए देखा।",
+              "Japanese": "これは本当のはずがない。彼が先に出て行くのを見たから。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "must have + past participle",
+        "word_translation": {
+          "Hindi": "ज़रूर किया होगा",
+          "Japanese": "〜したに違いない"
+        },
+        "meaning": "Used to express a strong deduction about the past",
+        "meaning_translation": {
+          "Hindi": "अतीत के बारे में मजबूत अनुमान व्यक्त करने के लिए",
+          "Japanese": "過去について強い推測を表す"
+        },
+        "examples": [
+          {
+            "sentence": "She must have forgotten the meeting because she didn’t come.",
+            "translation": {
+              "Hindi": "वह मीटिंग भूल गई होगी क्योंकि वह नहीं आई।",
+              "Japanese": "彼女が来なかったので、会議を忘れたに違いない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "might have + past participle",
+        "word_translation": {
+          "Hindi": "किया हो सकता था",
+          "Japanese": "〜したかもしれない"
+        },
+        "meaning": "Used to express a possibility about the past",
+        "meaning_translation": {
+          "Hindi": "अतीत की किसी संभावना को व्यक्त करने के लिए",
+          "Japanese": "過去の可能性を表す"
+        },
+        "examples": [
+          {
+            "sentence": "He might have taken the wrong train.",
+            "translation": {
+              "Hindi": "उसने गलत ट्रेन ली हो सकती थी।",
+              "Japanese": "彼は間違った電車に乗ったかもしれない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "can't have + past participle",
+        "word_translation": {
+          "Hindi": "नहीं किया होगा",
+          "Japanese": "〜したはずがない"
+        },
+        "meaning": "Used to say that something was impossible in the past",
+        "meaning_translation": {
+          "Hindi": "यह कहने के लिए कि अतीत में कुछ असंभव था",
+          "Japanese": "過去に不可能だったことを言うときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "They can’t have finished the project so quickly.",
+            "translation": {
+              "Hindi": "उन्होंने प्रोजेक्ट इतनी जल्दी पूरा नहीं किया होगा।",
+              "Japanese": "彼らがそんなに早くプロジェクトを終えたはずがない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "could have",
+        "word_translation": {
+          "Hindi": "हो सकता था",
+          "Japanese": "〜できたかもしれない"
+        },
+        "meaning": "Expresses a past possibility that did not actually happen",
+        "meaning_translation": {
+          "Hindi": "अतीत की वह संभावना जो वास्तव में नहीं हुई",
+          "Japanese": "実際には起こらなかった過去の可能性を表す"
+        },
+        "examples": [
+          {
+            "sentence": "We could have won the game if we had tried harder.",
+            "translation": {
+              "Hindi": "अगर हमने ज़्यादा मेहनत की होती तो हम खेल जीत सकते थे।",
+              "Japanese": "もっと頑張っていたら試合に勝てたかもしれない。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "can't have",
+        "word_translation": {
+          "Hindi": "नहीं हुआ होगा",
+          "Japanese": "〜したはずがない"
+        },
+        "meaning": "Expresses deduction that something in the past was impossible",
+        "meaning_translation": {
+          "Hindi": "अतीत में किसी चीज़ के असंभव होने का निष्कर्ष",
+          "Japanese": "過去に何かが不可能だったという推測を表す"
+        },
+        "examples": [
+          {
+            "sentence": "He can't have finished the exam so quickly.",
+            "translation": {
+              "Hindi": "उसने इतनी जल्दी परीक्षा पूरी नहीं की होगी।",
+              "Japanese": "彼がそんなに早く試験を終えたはずがない。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Present Modals of Deduction",
+        "explanation": "Use 'must', 'might', or 'can't' + base verb to make deductions about the present. Example: She must be tired after such a long day.",
+        "explanation_translation": {
+          "Hindi": "'must', 'might' या 'can't' + base verb का उपयोग वर्तमान में अनुमान लगाने के लिए करें। उदाहरण: She must be tired after such a long day.",
+          "Japanese": "現在について推測するときは「must」「might」「can't」+ 動詞の原形を使います。例：She must be tired after such a long day."
+        }
+      },
+      {
+        "title": "Past Modals of Deduction",
+        "explanation": "Use 'must have', 'might have', or 'can't have' + past participle to make deductions about the past. Example: He must have missed the bus.",
+        "explanation_translation": {
+          "Hindi": "अतीत के बारे में अनुमान लगाने के लिए 'must have', 'might have', या 'can't have' + past participle का उपयोग करें। उदाहरण: He must have missed the bus.",
+          "Japanese": "過去について推測するときは「must have」「might have」「can't have」+ 過去分詞を使います。例：He must have missed the bus."
+        }
+      },
+      {
+        "title": "Certainty vs. Possibility",
+        "explanation": "'Must' shows strong certainty, 'might' shows possibility, and 'can't' shows impossibility.",
+        "explanation_translation": {
+          "Hindi": "'Must' मजबूत निश्चितता दिखाता है, 'might' संभावना दिखाता है, और 'can't' असंभवता दिखाता है।",
+          "Japanese": "「must」は強い確信、「might」は可能性、「can't」は不可能性を表します。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "Which modal shows strong certainty about the present?",
+        "question_translation": {
+          "Hindi": "कौन सा modal वर्तमान के बारे में मजबूत निश्चितता दिखाता है?",
+          "Japanese": "現在について強い確信を示すモーダルはどれですか？"
+        },
+        "options": [
+          "might",
+          "must",
+          "can't"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "She ___ be at the office, her car is in the parking lot.",
+        "question_translation": {
+          "Hindi": "वह ___ ऑफिस में होगी, उसकी कार पार्किंग में है।",
+          "Japanese": "彼女の車が駐車場にあるので、彼女はオフィスに___。"
+        },
+        "options": [
+          "must",
+          "might",
+          "can't"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "‘Might have’ is used to express certainty about the past.",
+        "question_translation": {
+          "Hindi": "'Might have' का उपयोग अतीत के बारे में निश्चितता व्यक्त करने के लिए किया जाता है।",
+          "Japanese": "「might have」は過去についての確実性を表すために使われる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which modal of deduction expresses impossibility in the past?",
+        "question_translation": {
+          "Hindi": "कौन सा deduction modal अतीत में असंभवता व्यक्त करता है?",
+          "Japanese": "過去の不可能性を表す推測のモーダルはどれですか？"
+        },
+        "options": [
+          "must have",
+          "might have",
+          "can't have"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "He ___ taken the wrong train; that’s why he is late.",
+        "question_translation": {
+          "Hindi": "उसने गलत ट्रेन ___ ली होगी; इसलिए वह देर से आया है।",
+          "Japanese": "彼は間違った電車に___。だから遅れている。"
+        },
+        "options": [
+          "must have",
+          "might have",
+          "can't have"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [must, be, she, tired]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [must, be, she, tired]",
+          "Japanese": "並べ替え: [must, be, she, tired]"
+        },
+        "options": [
+          "must",
+          "be",
+          "she",
+          "tired"
+        ],
+        "answer": [
+          "she",
+          "must",
+          "be",
+          "tired"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "They ___ finished the exam so quickly.",
+        "question_translation": {
+          "Hindi": "उन्होंने परीक्षा इतनी जल्दी ___ खत्म की होगी।",
+          "Japanese": "彼らがそんなに早く試験を___。"
+        },
+        "options": [
+          "must have",
+          "might have",
+          "can't have"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य सही है?",
+          "Japanese": "正しい文はどれですか？"
+        },
+        "options": [
+          "She must forgot her keys.",
+          "She must have forgotten her keys.",
+          "She must has forgotten her keys."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [might, he, library, be, the, at]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [might, he, library, be, the, at]",
+          "Japanese": "並べ替え: [might, he, library, be, the, at]"
+        },
+        "options": [
+          "might",
+          "he",
+          "library",
+          "be",
+          "the",
+          "at"
+        ],
+        "answer": [
+          "he",
+          "might",
+          "be",
+          "at",
+          "the",
+          "library"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "She ___ forgotten to send the email yesterday.",
+        "question_translation": {
+          "Hindi": "वह कल ईमेल भेजना ___ भूल गई होगी।",
+          "Japanese": "彼女は昨日メールを送るのを___忘れたに違いない。"
+        },
+        "options": [
+          "must have",
+          "might have",
+          "can't have"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What does the speaker strongly believe?",
+        "audio_text": "She must be the new teacher, everyone is greeting her.",
+        "question_translation": {
+          "Hindi": "वक्ता को किस बात का मजबूत विश्वास है?",
+          "Japanese": "話者は何を強く信じていますか？"
+        },
+        "options": [
+          "She is definitely the new teacher",
+          "She might be a visitor",
+          "She can't be the teacher"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "What possibility does the speaker mention?",
+        "audio_text": "He might be working late in the office.",
+        "question_translation": {
+          "Hindi": "वक्ता कौन सी संभावना का उल्लेख करता है?",
+          "Japanese": "話者はどんな可能性を述べていますか？"
+        },
+        "options": [
+          "He is definitely at home",
+          "He might be at the office",
+          "He can't be at the office"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The speaker is certain about the past.",
+        "audio_text": "They might have left earlier.",
+        "question_translation": {
+          "Hindi": "वक्ता अतीत के बारे में निश्चित है।",
+          "Japanese": "話者は過去について確信している。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What does the speaker think about the past event?",
+        "audio_text": "She must have won the competition, everyone is congratulating her.",
+        "question_translation": {
+          "Hindi": "वक्ता अतीत की घटना के बारे में क्या सोचता है?",
+          "Japanese": "話者は過去の出来事についてどう思っていますか？"
+        },
+        "options": [
+          "She might have lost",
+          "She must have won",
+          "She can't have competed"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What does the speaker deny about the past?",
+        "audio_text": "He can’t have written this essay alone; it’s too advanced.",
+        "question_translation": {
+          "Hindi": "वक्ता अतीत के बारे में किस बात को नकारता है?",
+          "Japanese": "話者は過去について何を否定していますか？"
+        },
+        "options": [
+          "He must have written it",
+          "He might have written it alone",
+          "He can't have written it alone"
+        ],
+        "answer": 2
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'She must be very tired after the trip.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She must be very tired after the trip.'",
+          "Japanese": "言ってください: 'She must be very tired after the trip.'"
+        },
+        "options": [],
+        "answer": "she must be very tired after the trip"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'He might be working late today.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He might be working late today.'",
+          "Japanese": "言ってください: 'He might be working late today.'"
+        },
+        "options": [],
+        "answer": "he might be working late today"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'She must have forgotten the meeting.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She must have forgotten the meeting.'",
+          "Japanese": "言ってください: 'She must have forgotten the meeting.'"
+        },
+        "options": [],
+        "answer": "she must have forgotten the meeting"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'They can't have finished so quickly.'",
+        "question_translation": {
+          "Hindi": "कहें: 'They can't have finished so quickly.'",
+          "Japanese": "言ってください: 'They can't have finished so quickly.'"
+        },
+        "options": [],
+        "answer": "they can't have finished so quickly"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'He might have taken the wrong bus.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He might have taken the wrong bus.'",
+          "Japanese": "言ってください: 'He might have taken the wrong bus.'"
+        },
+        "options": [],
+        "answer": "he might have taken the wrong bus"
+      }
+    ]
+  }
 }

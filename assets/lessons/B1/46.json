@@ -1,4 +1,516 @@
 {
-  "id": 46,
-  "message": "This is file number 46"
+  "id": "lesson_news_stories_001",
+  "lesson_name": "Talking About News Stories",
+  "purpose": "All",
+  "cefrLevel": "B1",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "headline",
+        "word_translation": {
+          "Hindi": "शीर्षक",
+          "Japanese": "見出し"
+        },
+        "meaning": "The title of a news article, usually written in large letters",
+        "meaning_translation": {
+          "Hindi": "समाचार लेख का शीर्षक, जो आमतौर पर बड़े अक्षरों में लिखा जाता है",
+          "Japanese": "ニュース記事のタイトルで、通常大きな文字で書かれます"
+        },
+        "examples": [
+          {
+            "sentence": "The headline caught my attention immediately.",
+            "translation": {
+              "Hindi": "शीर्षक ने तुरंत मेरा ध्यान खींच लिया।",
+              "Japanese": "その見出しはすぐに私の注意を引きました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reporter",
+        "word_translation": {
+          "Hindi": "पत्रकार",
+          "Japanese": "記者"
+        },
+        "meaning": "A person who writes or talks about news stories",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो समाचार कहानियाँ लिखता या बताता है",
+          "Japanese": "ニュース記事を書く、または話す人"
+        },
+        "examples": [
+          {
+            "sentence": "The reporter interviewed the mayor about the new policy.",
+            "translation": {
+              "Hindi": "पत्रकार ने नई नीति के बारे में मेयर का साक्षात्कार लिया।",
+              "Japanese": "記者は新しい政策について市長にインタビューしました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "breaking news",
+        "word_translation": {
+          "Hindi": "ताज़ा खबर",
+          "Japanese": "速報"
+        },
+        "meaning": "News that is happening and being reported right now",
+        "meaning_translation": {
+          "Hindi": "समाचार जो अभी हो रहा है और तुरंत बताया जा रहा है",
+          "Japanese": "現在進行中でただいま報道されているニュース"
+        },
+        "examples": [
+          {
+            "sentence": "Breaking news: A storm is approaching the city.",
+            "translation": {
+              "Hindi": "ताज़ा खबर: एक तूफान शहर की ओर बढ़ रहा है।",
+              "Japanese": "速報: 嵐が市に近づいています。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "source",
+        "word_translation": {
+          "Hindi": "स्रोत",
+          "Japanese": "情報源"
+        },
+        "meaning": "The place or person that gives information",
+        "meaning_translation": {
+          "Hindi": "वह स्थान या व्यक्ति जो जानकारी देता है",
+          "Japanese": "情報を提供する場所や人"
+        },
+        "examples": [
+          {
+            "sentence": "Always check if the news source is reliable.",
+            "translation": {
+              "Hindi": "हमेशा देखें कि समाचार का स्रोत भरोसेमंद है या नहीं।",
+              "Japanese": "ニュースの情報源が信頼できるかどうか必ず確認してください。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "broadcast",
+        "word_translation": {
+          "Hindi": "प्रसारण",
+          "Japanese": "放送"
+        },
+        "meaning": "A program on TV, radio, or online that shares news",
+        "meaning_translation": {
+          "Hindi": "टीवी, रेडियो या ऑनलाइन पर समाचार साझा करने वाला कार्यक्रम",
+          "Japanese": "テレビ、ラジオ、またはオンラインでニュースを伝える番組"
+        },
+        "examples": [
+          {
+            "sentence": "The news was broadcast live on television.",
+            "translation": {
+              "Hindi": "समाचार का सीधा प्रसारण टेलीविज़न पर किया गया।",
+              "Japanese": "そのニュースはテレビで生放送されました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "editor",
+        "word_translation": {
+          "Hindi": "संपादक",
+          "Japanese": "編集者"
+        },
+        "meaning": "A person who decides what news stories will be published",
+        "meaning_translation": {
+          "Hindi": "वह व्यक्ति जो तय करता है कि कौन सी खबरें प्रकाशित होंगी",
+          "Japanese": "どのニュース記事を掲載するかを決める人"
+        },
+        "examples": [
+          {
+            "sentence": "The editor approved the article for tomorrow’s newspaper.",
+            "translation": {
+              "Hindi": "संपादक ने कल के अखबार के लिए लेख को मंजूरी दी।",
+              "Japanese": "編集者は明日の新聞にその記事を掲載することを承認しました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "coverage",
+        "word_translation": {
+          "Hindi": "कवरेज",
+          "Japanese": "報道"
+        },
+        "meaning": "The reporting of news in newspapers, TV, or online",
+        "meaning_translation": {
+          "Hindi": "समाचार का अखबारों, टीवी या ऑनलाइन में रिपोर्टिंग",
+          "Japanese": "新聞、テレビ、オンラインでのニュース報道"
+        },
+        "examples": [
+          {
+            "sentence": "The event received wide media coverage.",
+            "translation": {
+              "Hindi": "घटना को व्यापक मीडिया कवरेज मिला।",
+              "Japanese": "その出来事は幅広いメディア報道を受けました。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "journalism",
+        "word_translation": {
+          "Hindi": "पत्रकारिता",
+          "Japanese": "ジャーナリズム"
+        },
+        "meaning": "The work of collecting, writing, and reporting news",
+        "meaning_translation": {
+          "Hindi": "समाचार इकट्ठा करने, लिखने और रिपोर्ट करने का काम",
+          "Japanese": "ニュースを集め、書き、報道する仕事"
+        },
+        "examples": [
+          {
+            "sentence": "She studied journalism at university.",
+            "translation": {
+              "Hindi": "उसने विश्वविद्यालय में पत्रकारिता की पढ़ाई की।",
+              "Japanese": "彼女は大学でジャーナリズムを学びました。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Passive Voice in News",
+        "explanation": "News stories often use passive voice to focus on the event, not the person. Example: The law was passed yesterday.",
+        "explanation_translation": {
+          "Hindi": "समाचार कहानियों में अक्सर निष्क्रिय वाक्य का उपयोग घटना पर ध्यान केंद्रित करने के लिए किया जाता है, व्यक्ति पर नहीं। उदाहरण: The law was passed yesterday.",
+          "Japanese": "ニュース記事では人物ではなく出来事に焦点を当てるために受動態がよく使われます。例：The law was passed yesterday."
+        }
+      },
+      {
+        "title": "Reported Speech for Quoting",
+        "explanation": "Use reported speech when sharing what someone said. Example: The reporter said that the storm was dangerous.",
+        "explanation_translation": {
+          "Hindi": "किसी ने क्या कहा यह बताने के लिए reported speech का उपयोग करें। उदाहरण: The reporter said that the storm was dangerous.",
+          "Japanese": "誰かが言ったことを伝えるときに間接話法を使います。例：The reporter said that the storm was dangerous."
+        }
+      },
+      {
+        "title": "Using Time Expressions",
+        "explanation": "Use expressions like 'yesterday', 'last night', 'this morning' to show when a news event happened. Example: The accident happened last night.",
+        "explanation_translation": {
+          "Hindi": "समाचार की घटना कब हुई यह बताने के लिए 'yesterday', 'last night', 'this morning' जैसे शब्दों का उपयोग करें। उदाहरण: The accident happened last night.",
+          "Japanese": "ニュースの出来事がいつ起こったかを示すために「yesterday」「last night」「this morning」などを使います。例：The accident happened last night."
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What is the title of a news article usually called?",
+        "question_translation": {
+          "Hindi": "समाचार लेख का शीर्षक आमतौर पर क्या कहलाता है?",
+          "Japanese": "ニュース記事のタイトルは通常何と呼ばれますか？"
+        },
+        "options": [
+          "headline",
+          "reporter",
+          "coverage"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "The journalist works as a ___ for the local newspaper.",
+        "question_translation": {
+          "Hindi": "पत्रकार स्थानीय अखबार में एक ___ के रूप में काम करता है।",
+          "Japanese": "そのジャーナリストは地元新聞の___として働いています。"
+        },
+        "options": [
+          "reporter",
+          "editor",
+          "broadcast"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Breaking news refers to news that is reported immediately.",
+        "question_translation": {
+          "Hindi": "ब्रेकिंग न्यूज़ उस समाचार को कहते हैं जो तुरंत रिपोर्ट किया जाता है।",
+          "Japanese": "速報とはすぐに報道されるニュースのことです。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which word means 'the person who decides what stories are published'?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द उस व्यक्ति को दर्शाता है जो तय करता है कि कौन सी खबरें प्रकाशित होंगी?",
+          "Japanese": "どの言葉が「どの記事を掲載するか決める人」を意味しますか？"
+        },
+        "options": [
+          "editor",
+          "reporter",
+          "source"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "The event received wide media ___.",
+        "question_translation": {
+          "Hindi": "घटना को व्यापक मीडिया ___ मिला।",
+          "Japanese": "その出来事は幅広いメディア___を受けました。"
+        },
+        "options": [
+          "coverage",
+          "headline",
+          "journalism"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [was, passed, law, the, yesterday]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [was, passed, law, the, yesterday]",
+          "Japanese": "並べ替え: [was, passed, law, the, yesterday]"
+        },
+        "options": [
+          "was",
+          "passed",
+          "law",
+          "the",
+          "yesterday"
+        ],
+        "answer": [
+          "the",
+          "law",
+          "was",
+          "passed",
+          "yesterday"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The reporter said that the news ___ true.",
+        "question_translation": {
+          "Hindi": "रिपोर्टर ने कहा कि खबर ___ सच थी।",
+          "Japanese": "記者はそのニュースが___本当だと言いました。"
+        },
+        "options": [
+          "was",
+          "is",
+          "be"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence uses reported speech correctly?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य reported speech का सही उपयोग करता है?",
+          "Japanese": "どの文が間接話法を正しく使っていますか？"
+        },
+        "options": [
+          "He said, the news is important.",
+          "He said that the news was important.",
+          "He said the news important."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [morning, this, was, accident, the, reported]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [morning, this, was, accident, the, reported]",
+          "Japanese": "並べ替え: [morning, this, was, accident, the, reported]"
+        },
+        "options": [
+          "morning",
+          "this",
+          "was",
+          "accident",
+          "the",
+          "reported"
+        ],
+        "answer": [
+          "the",
+          "accident",
+          "was",
+          "reported",
+          "this",
+          "morning"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "The news was ___ live on TV.",
+        "question_translation": {
+          "Hindi": "समाचार का टीवी पर सीधा ___ किया गया।",
+          "Japanese": "ニュースはテレビで生___されました。"
+        },
+        "options": [
+          "broadcast",
+          "editor",
+          "coverage"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What did the speaker hear?",
+        "audio_text": "The headline said that a new bridge was opened yesterday.",
+        "question_translation": {
+          "Hindi": "वक्ता ने क्या सुना?",
+          "Japanese": "話者は何を聞きましたか？"
+        },
+        "options": [
+          "A bridge will open tomorrow",
+          "A new bridge opened yesterday",
+          "A bridge is under construction"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen2",
+        "type": "multipleChoice",
+        "question": "Who gave the information in the news?",
+        "audio_text": "According to official sources, the storm will arrive tonight.",
+        "question_translation": {
+          "Hindi": "समाचार में जानकारी किसने दी?",
+          "Japanese": "ニュースの情報は誰が提供しましたか？"
+        },
+        "options": [
+          "A reporter",
+          "Official sources",
+          "The editor"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen3",
+        "type": "trueFalse",
+        "question": "The news was broadcast live on radio.",
+        "audio_text": "The news was broadcast live on the radio this morning.",
+        "question_translation": {
+          "Hindi": "समाचार का सीधा प्रसारण रेडियो पर हुआ।",
+          "Japanese": "ニュースは今朝ラジオで生放送されました。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What field did the speaker study?",
+        "audio_text": "I studied journalism at university to become a reporter.",
+        "question_translation": {
+          "Hindi": "वक्ता ने कौन सा विषय पढ़ा?",
+          "Japanese": "話者は何を勉強しましたか？"
+        },
+        "options": [
+          "Medicine",
+          "Journalism",
+          "Engineering"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listen5",
+        "type": "multipleChoice",
+        "question": "What is the speaker talking about?",
+        "audio_text": "Breaking news: The airport is closed due to heavy snow.",
+        "question_translation": {
+          "Hindi": "वक्ता किस बारे में बात कर रहा है?",
+          "Japanese": "話者は何について話していますか？"
+        },
+        "options": [
+          "The airport is open",
+          "The airport is closed",
+          "The airport will open tomorrow"
+        ],
+        "answer": 1
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'The headline was very interesting.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The headline was very interesting.'",
+          "Japanese": "言ってください: 'The headline was very interesting.'"
+        },
+        "options": [],
+        "answer": "the headline was very interesting"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'The reporter asked questions about the story.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The reporter asked questions about the story.'",
+          "Japanese": "言ってください: 'The reporter asked questions about the story.'"
+        },
+        "options": [],
+        "answer": "the reporter asked questions about the story"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Breaking news was broadcast live.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Breaking news was broadcast live.'",
+          "Japanese": "言ってください: 'Breaking news was broadcast live.'"
+        },
+        "options": [],
+        "answer": "breaking news was broadcast live"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'The editor approved the article.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The editor approved the article.'",
+          "Japanese": "言ってください: 'The editor approved the article.'"
+        },
+        "options": [],
+        "answer": "the editor approved the article"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'I studied journalism at university.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I studied journalism at university.'",
+          "Japanese": "言ってください: 'I studied journalism at university.'"
+        },
+        "options": [],
+        "answer": "i studied journalism at university"
+      }
+    ]
+  }
+
 }

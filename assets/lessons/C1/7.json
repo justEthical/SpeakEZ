@@ -1,187 +1,574 @@
 {
-  "id": "lesson_writing_academic_essays_c1_001",
-  "lesson_name": "Writing Academic Essays",
+  "id": "lesson_stance_evaluation_c1",
+  "lesson_name": "Stance & Evaluation (Apparently/Arguably)",
   "purpose": "All",
   "cefrLevel": "C1",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "thesis statement", "meaning": "the main idea of an essay, usually in one sentence" },
-      { "word": "coherence", "meaning": "logical connection and flow in writing" },
-      { "word": "citation", "meaning": "giving credit to the source of information" },
-      { "word": "argument", "meaning": "a reason or set of reasons to support an idea" },
-      { "word": "counterargument", "meaning": "an argument against your main point" },
-      { "word": "introduction", "meaning": "the first part of an essay that presents the topic" },
-      { "word": "conclusion", "meaning": "the final part that summarizes the essay" },
-      { "word": "evidence", "meaning": "facts or examples to support your argument" },
-      { "word": "transition", "meaning": "words or phrases that connect ideas" },
-      { "word": "plagiarism", "meaning": "using someone else's work as your own without credit" }
+      {
+        "word": "apparently",
+        "word_translation": {
+          "Hindi": "प्रकट रूप से",
+          "Japanese": "どうやら"
+        },
+        "meaning": "Used to describe something that seems true based on what you have heard, though you are not certain",
+        "meaning_translation": {
+          "Hindi": "किसी ऐसी चीज़ का वर्णन करने के लिए जिसका सच होना लगता है, लेकिन आप निश्चित नहीं हैं",
+          "Japanese": "聞いたことに基づいて本当のように見えるが、確信はないときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Apparently, the meeting has been postponed.",
+            "translation": {
+              "Hindi": "प्रकट रूप से, बैठक स्थगित कर दी गई है।",
+              "Japanese": "どうやら会議は延期されたようです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "arguably",
+        "word_translation": {
+          "Hindi": "कह सकते हैं",
+          "Japanese": "おそらく"
+        },
+        "meaning": "Used when stating an opinion that can be supported with reasoning, even if others may disagree",
+        "meaning_translation": {
+          "Hindi": "जब किसी राय को तर्क के साथ प्रस्तुत किया जा सकता है, भले ही अन्य असहमत हों",
+          "Japanese": "他の人が反対する可能性があっても、理由を挙げて主張できるときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "She is arguably the best player on the team.",
+            "translation": {
+              "Hindi": "कह सकते हैं कि वह टीम की सबसे अच्छी खिलाड़ी है।",
+              "Japanese": "彼女はおそらくチームで最も優れた選手だと言える。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "stance",
+        "word_translation": {
+          "Hindi": "रुख",
+          "Japanese": "立場"
+        },
+        "meaning": "A position or attitude on an issue",
+        "meaning_translation": {
+          "Hindi": "किसी मुद्दे पर एक दृष्टिकोण या रवैया",
+          "Japanese": "ある問題に対する立場や態度"
+        },
+        "examples": [
+          {
+            "sentence": "His stance on climate change is very clear.",
+            "translation": {
+              "Hindi": "जलवायु परिवर्तन पर उसका रुख बहुत स्पष्ट है।",
+              "Japanese": "彼の気候変動に対する立場はとても明確だ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evaluation",
+        "word_translation": {
+          "Hindi": "मूल्यांकन",
+          "Japanese": "評価"
+        },
+        "meaning": "A judgment or assessment of something’s value, importance, or quality",
+        "meaning_translation": {
+          "Hindi": "किसी चीज़ के मूल्य, महत्व या गुणवत्ता का आकलन",
+          "Japanese": "物事の価値、重要性、質を判断すること"
+        },
+        "examples": [
+          {
+            "sentence": "The evaluation of the project was mostly positive.",
+            "translation": {
+              "Hindi": "परियोजना का मूल्यांकन अधिकांशतः सकारात्मक था।",
+              "Japanese": "プロジェクトの評価はほとんど肯定的だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "reportedly",
+        "word_translation": {
+          "Hindi": "खबरों के अनुसार",
+          "Japanese": "報道によると"
+        },
+        "meaning": "According to reports or what people say",
+        "meaning_translation": {
+          "Hindi": "रिपोर्टों या लोगों की बातों के अनुसार",
+          "Japanese": "報道や人々の話によると"
+        },
+        "examples": [
+          {
+            "sentence": "The company is reportedly launching a new product.",
+            "translation": {
+              "Hindi": "खबरों के अनुसार कंपनी एक नया उत्पाद लॉन्च कर रही है।",
+              "Japanese": "報道によると、その会社は新製品を発売する予定だ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "supposedly",
+        "word_translation": {
+          "Hindi": "कथित रूप से",
+          "Japanese": "一応"
+        },
+        "meaning": "Believed to be true, but possibly not",
+        "meaning_translation": {
+          "Hindi": "जिसे सच माना जाता है, लेकिन संभव है कि न हो",
+          "Japanese": "本当だと信じられているが、そうでない可能性もある"
+        },
+        "examples": [
+          {
+            "sentence": "He is supposedly an expert in the field.",
+            "translation": {
+              "Hindi": "कथित रूप से वह इस क्षेत्र का विशेषज्ञ है।",
+              "Japanese": "彼は一応その分野の専門家だとされている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "evidently",
+        "word_translation": {
+          "Hindi": "स्पष्ट रूप से",
+          "Japanese": "明らかに"
+        },
+        "meaning": "Clearly or obviously true, based on evidence",
+        "meaning_translation": {
+          "Hindi": "साक्ष्यों के आधार पर स्पष्ट या जाहिर तौर पर सच",
+          "Japanese": "証拠に基づいて明らかに本当であること"
+        },
+        "examples": [
+          {
+            "sentence": "Evidently, she had prepared well for the debate.",
+            "translation": {
+              "Hindi": "स्पष्ट रूप से उसने बहस के लिए अच्छी तैयारी की थी।",
+              "Japanese": "彼女は明らかに討論の準備をしていた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "plausibly",
+        "word_translation": {
+          "Hindi": "संभावित रूप से",
+          "Japanese": "もっともらしく"
+        },
+        "meaning": "In a way that seems reasonable or believable",
+        "meaning_translation": {
+          "Hindi": "ऐसे तरीके से जो तर्कसंगत या विश्वसनीय लगे",
+          "Japanese": "もっともらしく、信じられるように"
+        },
+        "examples": [
+          {
+            "sentence": "The theory can plausibly explain the sudden changes.",
+            "translation": {
+              "Hindi": "यह सिद्धांत अचानक हुए परिवर्तनों को संभावित रूप से समझा सकता है।",
+              "Japanese": "この理論は突然の変化をもっともらしく説明できる。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "ostensibly",
+        "word_translation": {
+          "Hindi": "ऊपरी तौर पर",
+          "Japanese": "表向きは"
+        },
+        "meaning": "Seeming to be true or stated as such, but not necessarily so",
+        "meaning_translation": {
+          "Hindi": "ऐसा लगना कि सच है या ऐसा बताया जाना, लेकिन जरूरी नहीं कि ऐसा हो",
+          "Japanese": "本当のように見える、またはそう述べられるが、必ずしもそうではない"
+        },
+        "examples": [
+          {
+            "sentence": "The trip was ostensibly for research purposes.",
+            "translation": {
+              "Hindi": "यह यात्रा ऊपरी तौर पर शोध उद्देश्यों के लिए थी।",
+              "Japanese": "その旅行は表向きは研究目的だった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "presumably",
+        "word_translation": {
+          "Hindi": "संभवत:",
+          "Japanese": "おそらく"
+        },
+        "meaning": "Used to say what you think is true, based on what you know",
+        "meaning_translation": {
+          "Hindi": "इसका उपयोग यह कहने के लिए किया जाता है कि आपको जो पता है उसके आधार पर आप क्या सच मानते हैं",
+          "Japanese": "知っていることに基づいておそらく本当だと言うときに使う"
+        },
+        "examples": [
+          {
+            "sentence": "Presumably, she will arrive by noon.",
+            "translation": {
+              "Hindi": "संभवत: वह दोपहर तक पहुँच जाएगी।",
+              "Japanese": "彼女はおそらく正午までに到着するだろう。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using Formal Language",
-        "explanation": "Academic essays require formal language. Avoid contractions (use 'do not' instead of 'don't') and slang."
+        "title": "Using 'Apparently' for Uncertain Information",
+        "explanation": "Use 'apparently' to report something you have heard but are not completely sure about. Example: 'Apparently, they are moving abroad.'",
+        "explanation_translation": {
+          "Hindi": "'apparently' का उपयोग उस जानकारी के लिए करें जो आपने सुनी है लेकिन जिसके बारे में आप पूरी तरह सुनिश्चित नहीं हैं। उदाहरण: 'Apparently, they are moving abroad.'",
+          "Japanese": "「apparently」は聞いたことがあるが完全には確信していない情報を報告するときに使う。例：'Apparently, they are moving abroad.'"
+        }
       },
       {
-        "title": "Passive Voice",
-        "explanation": "The passive voice is often used in academic writing. Example: 'The results were analyzed.'"
+        "title": "Using 'Arguably' for Strong Opinions",
+        "explanation": "Use 'arguably' to present an opinion that could be defended logically, even if it is debatable. Example: 'She is arguably the most talented student in the class.'",
+        "explanation_translation": {
+          "Hindi": "'arguably' का उपयोग उस राय को प्रस्तुत करने के लिए करें जिसे तर्कसंगत रूप से बचाव किया जा सकता है, भले ही वह विवादास्पद हो। उदाहरण: 'She is arguably the most talented student in the class.'",
+          "Japanese": "「arguably」は議論の余地があっても論理的に正当化できる意見を述べるときに使う。例：'She is arguably the most talented student in the class.'"
+        }
+      },
+      {
+        "title": "Distinguishing Between Reporting and Evaluation",
+        "explanation": "Words like 'reportedly', 'supposedly', 'apparently' report information, while 'arguably', 'plausibly' show evaluation or opinion.",
+        "explanation_translation": {
+          "Hindi": "'reportedly', 'supposedly', 'apparently' जैसे शब्द जानकारी की रिपोर्ट करते हैं, जबकि 'arguably', 'plausibly' मूल्यांकन या राय दिखाते हैं।",
+          "Japanese": "「reportedly」「supposedly」「apparently」は情報を伝える語で、「arguably」「plausibly」は評価や意見を示す語。"
+        }
+      },
+      {
+        "title": "Formality and Academic Writing",
+        "explanation": "Stance markers like 'arguably' are common in academic writing, while 'apparently' is more neutral and used in reporting.",
+        "explanation_translation": {
+          "Hindi": "'arguably' जैसे रुख सूचक शब्द शैक्षणिक लेखन में सामान्य हैं, जबकि 'apparently' अधिक तटस्थ है और रिपोर्टिंग में उपयोग किया जाता है।",
+          "Japanese": "「arguably」のような立場を示す語は学術的な文章でよく使われ、「apparently」はより中立的で報告に使われる。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "A strong thesis statement guides the entire essay.", "translation": "" },
-      { "sentence": "Coherence makes your writing easier to understand.", "translation": "" },
-      { "sentence": "All sources must be cited to avoid plagiarism.", "translation": "" },
-      { "sentence": "The introduction should outline the main points.", "translation": "" },
-      { "sentence": "A good conclusion summarizes the arguments and presents a final thought.", "translation": "" }
     ]
   },
   "question_pools": {
-    "vocabulary": [
-      {
-        "id": "vocab1",
-        "type": "multipleChoice",
-        "question": "What is a thesis statement?",
-        "options": ["The essay's main idea", "A quote", "A reference list"],
-        "answer": 0
+  "vocabulary": [
+    {
+      "id": "vocab1",
+      "type": "multipleChoice",
+      "question": "Which word suggests reporting information that may not be certain?",
+      "question_translation": {
+        "Hindi": "कौन सा शब्द ऐसी जानकारी की रिपोर्टिंग का संकेत देता है जो निश्चित नहीं हो सकती?",
+        "Japanese": "確かではない情報を報告することを示す語はどれですか？"
       },
-      {
-        "id": "vocab2",
-        "type": "trueFalse",
-        "question": "Plagiarism is using someone else's work without credit.",
-        "options": ["True", "False"],
-        "answer": 0
+      "options": [
+        "apparently",
+        "arguably",
+        "clearly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab2",
+      "type": "fillInTheBlanks",
+      "question": "She is ___ the best candidate for the position.",
+      "question_translation": {
+        "Hindi": "वह इस पद के लिए ___ सबसे अच्छी उम्मीदवार है।",
+        "Japanese": "彼女はこのポジションにおいて___最高の候補者だ。"
       },
-      {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "What does 'coherence' mean in writing?",
-        "options": ["Correct grammar", "Logical flow", "Number of words"],
-        "answer": 1
+      "options": [
+        "arguably",
+        "apparently",
+        "reportedly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab3",
+      "type": "trueFalse",
+      "question": "'Arguably' introduces an opinion that can be defended with reasoning.",
+      "question_translation": {
+        "Hindi": "'Arguably' एक ऐसे विचार को प्रस्तुत करता है जिसे तर्क के साथ बचाव किया जा सकता है।",
+        "Japanese": "「arguably」は理由を挙げて正当化できる意見を導入する。"
       },
-      {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which section of an essay summarizes the main points?",
-        "options": ["Body", "Introduction", "Conclusion"],
-        "answer": 2
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab4",
+      "type": "multipleChoice",
+      "question": "Which stance marker would you use to indicate something is believed but not confirmed?",
+      "question_translation": {
+        "Hindi": "कौन सा रुख सूचक आप उपयोग करेंगे यह दिखाने के लिए कि कुछ माना जाता है लेकिन पुष्टि नहीं हुई?",
+        "Japanese": "確かではないが信じられていることを示すために使う立場マーカーはどれですか？"
       },
-      {
-        "id": "vocab5",
-        "type": "fillInTheBlanks",
-        "question": "A ___ is an argument against your main point.",
-        "options": ["evidence", "citation", "counterargument"],
-        "answer": 2
-      }
-    ],
-    "sentence": [
-      {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The ___ presents the topic and outlines the essay.",
-        "options": ["body", "introduction", "conclusion"],
-        "answer": 1
+      "options": [
+        "supposedly",
+        "arguably",
+        "clearly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "vocab5",
+      "type": "fillInTheBlanks",
+      "question": "The results were ___ positive, though more data is needed.",
+      "question_translation": {
+        "Hindi": "परिणाम ___ सकारात्मक थे, हालांकि और डेटा की आवश्यकता है।",
+        "Japanese": "結果は___肯定的だったが、さらなるデータが必要だ。"
       },
-      {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "Facts and examples are used as ___.",
-        "options": ["citation", "evidence", "thesis"],
-        "answer": 1
+      "options": [
+        "evidently",
+        "apparently",
+        "arguably"
+      ],
+      "answer": 1
+    }
+  ],
+  "sentence": [
+    {
+      "id": "sent1",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [apparently, been, has, meeting, postponed, the]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [apparently, been, has, meeting, postponed, the]",
+        "Japanese": "並べ替え: [apparently, been, has, meeting, postponed, the]"
       },
-      {
-        "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [should, your, summarize, conclusion, essay, the]",
-        "options": ["should", "your", "summarize", "conclusion", "essay", "the"],
-        "answer": ["Your", "conclusion", "should", "summarize", "the", "essay"]
+      "options": [
+        "apparently",
+        "been",
+        "has",
+        "meeting",
+        "postponed",
+        "the"
+      ],
+      "answer": [
+        "Apparently",
+        "the",
+        "meeting",
+        "has",
+        "been",
+        "postponed"
+      ]
+    },
+    {
+      "id": "sent2",
+      "type": "fillInTheBlanks",
+      "question": "___, the company will announce a merger next week.",
+      "question_translation": {
+        "Hindi": "___, कंपनी अगले हफ्ते विलय की घोषणा करेगी।",
+        "Japanese": "___会社は来週合併を発表する予定だ。"
       },
-      {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "___ words help connect ideas and paragraphs.",
-        "options": ["Thesis", "Transition", "Introduction"],
-        "answer": 1
+      "options": [
+        "Reportedly",
+        "Arguably",
+        "Clearly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent3",
+      "type": "multipleChoice",
+      "question": "Which sentence uses 'arguably' correctly?",
+      "question_translation": {
+        "Hindi": "कौन सा वाक्य 'arguably' का सही उपयोग करता है?",
+        "Japanese": "どの文が「arguably」を正しく使っていますか？"
       },
-      {
-        "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [statement, the, guides, entire, thesis, essay, the]",
-        "options": ["statement", "the", "guides", "entire", "thesis", "essay", "the"],
-        "answer": ["The", "thesis", "statement", "guides", "the", "entire", "essay"]
-      }
-    ],
-    "listening": [
-      {
-        "id": "listen1",
-        "type": "listening",
-        "question": "If you hear, 'Your argument lacks evidence,' what does it mean?",
-        "options": ["You have too many facts", "You need more support for your ideas", "Your essay is too long"],
-        "answer": 1
+      "options": [
+        "He is arguably the best singer of his generation.",
+        "He is apparently the best singer of his generation, with no doubt.",
+        "He is arguably late for class every day."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "sent4",
+      "type": "sentenceRearranging",
+      "question": "Arrange: [is, best, player, she, the, arguably, team, the, on]",
+      "question_translation": {
+        "Hindi": "व्यवस्थित करें: [is, best, player, she, the, arguably, team, the, on]",
+        "Japanese": "並べ替え: [is, best, player, she, the, arguably, team, the, on]"
       },
-      {
-        "id": "listen2",
-        "type": "listening",
-        "question": "If someone says, 'Include a counterargument,' what should you do?",
-        "options": ["Add an opposing view", "Rewrite your thesis", "Change your topic"],
-        "answer": 0
+      "options": [
+        "is",
+        "best",
+        "player",
+        "she",
+        "the",
+        "arguably",
+        "team",
+        "the",
+        "on"
+      ],
+      "answer": [
+        "She",
+        "is",
+        "arguably",
+        "the",
+        "best",
+        "player",
+        "on",
+        "the",
+        "team"
+      ]
+    },
+    {
+      "id": "sent5",
+      "type": "fillInTheBlanks",
+      "question": "The new theory can ___ explain the phenomenon.",
+      "question_translation": {
+        "Hindi": "नया सिद्धांत घटना को ___ समझा सकता है।",
+        "Japanese": "新しい理論はその現象を___説明できる。"
       },
-      {
-        "id": "listen3",
-        "type": "listening",
-        "question": "Which part of the essay is usually written last?",
-        "options": ["Introduction", "Body", "Conclusion"],
-        "answer": 2
+      "options": [
+        "plausibly",
+        "apparently",
+        "reportedly"
+      ],
+      "answer": 0
+    }
+  ],
+  "listening": [
+    {
+      "id": "listen1",
+      "type": "multipleChoice",
+      "question": "What does the speaker imply?",
+      "audio_text": "Apparently, the conference has been moved online.",
+      "question_translation": {
+        "Hindi": "वक्ता क्या संकेत देता है?",
+        "Japanese": "話者は何を示唆していますか？"
       },
-      {
-        "id": "listen4",
-        "type": "listening",
-        "question": "If a professor says, 'Use more transitions,' what does it mean?",
-        "options": ["Add more connecting words", "Write more paragraphs", "Use passive voice"],
-        "answer": 0
+      "options": [
+        "The speaker is certain of the information",
+        "The speaker heard it but is not fully sure",
+        "The speaker disagrees with the decision"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen2",
+      "type": "trueFalse",
+      "question": "The speaker uses 'arguably' to show a strong, reasoned opinion.",
+      "audio_text": "She is arguably the most creative member of the team.",
+      "question_translation": {
+        "Hindi": "वक्ता 'arguably' का उपयोग एक मजबूत, तर्कसंगत राय दिखाने के लिए करता है।",
+        "Japanese": "話者は「arguably」を使って強い、理由に基づいた意見を示している。"
       },
-      {
-        "id": "listen5",
-        "type": "listening",
-        "question": "If you hear, 'Do not plagiarize,' what should you do?",
-        "options": ["Copy from sources", "Paraphrase and cite your sources", "Omit references"],
-        "answer": 1
-      }
-    ],
-    "speaking": [
-      {
-        "id": "speak1",
-        "type": "speaking",
-        "question": "Say: 'My essay has a clear thesis statement.'",
-        "options": [],
-        "answer": "My essay has a clear thesis statement."
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen3",
+      "type": "multipleChoice",
+      "question": "What is being reported?",
+      "audio_text": "Reportedly, the company is opening new offices in Asia.",
+      "question_translation": {
+        "Hindi": "क्या रिपोर्ट किया जा रहा है?",
+        "Japanese": "何が報告されていますか？"
       },
-      {
-        "id": "speak2",
-        "type": "speaking",
-        "question": "Say: 'I use evidence to support my arguments.'",
-        "options": [],
-        "answer": "I use evidence to support my arguments."
+      "options": [
+        "The company confirmed expansion",
+        "The company may expand according to reports",
+        "The company denied expansion"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "listen4",
+      "type": "fillInTheBlanks",
+      "question": "The speaker says: 'Evidently, she had ___ for the exam.'",
+      "audio_text": "Evidently, she had prepared well for the exam.",
+      "question_translation": {
+        "Hindi": "वक्ता कहते हैं: 'स्पष्ट रूप से उसने परीक्षा के लिए ___।'",
+        "Japanese": "話者は「明らかに彼女は試験のために___した」と言っています。"
       },
-      {
-        "id": "speak3",
-        "type": "speaking",
-        "question": "Say: 'Transitions connect my ideas clearly.'",
-        "options": [],
-        "answer": "Transitions connect my ideas clearly."
+      "options": [
+        "prepared well",
+        "failed",
+        "forgotten"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "listen5",
+      "type": "multipleChoice",
+      "question": "Which stance does the speaker take?",
+      "audio_text": "Supposedly, the research will be published next year.",
+      "question_translation": {
+        "Hindi": "वक्ता कौन सा रुख लेता है?",
+        "Japanese": "話者はどのような立場を取っていますか？"
       },
-      {
-        "id": "speak4",
-        "type": "speaking",
-        "question": "Say: 'I always cite my sources properly.'",
-        "options": [],
-        "answer": "I always cite my sources properly."
+      "options": [
+        "Absolute certainty",
+        "Skeptical reporting",
+        "Logical evaluation"
+      ],
+      "answer": 1
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking",
+      "question": "Say: 'Apparently, the project deadline has been extended.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Apparently, the project deadline has been extended.'",
+        "Japanese": "言ってください: 'Apparently, the project deadline has been extended.'"
       },
-      {
-        "id": "speak5",
-        "type": "speaking",
-        "question": "Say: 'The conclusion summarizes the main points of my essay.'",
-        "options": [],
-        "answer": "The conclusion summarizes the main points of my essay."
-      }
-    ]
-  }
+      "options": [],
+      "answer": "apparently the project deadline has been extended"
+    },
+    {
+      "id": "speak2",
+      "type": "speaking",
+      "question": "Say: 'She is arguably the best student in the class.'",
+      "question_translation": {
+        "Hindi": "कहें: 'She is arguably the best student in the class.'",
+        "Japanese": "言ってください: 'She is arguably the best student in the class.'"
+      },
+      "options": [],
+      "answer": "she is arguably the best student in the class"
+    },
+    {
+      "id": "speak3",
+      "type": "speaking",
+      "question": "Say: 'Reportedly, the team will travel abroad next month.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Reportedly, the team will travel abroad next month.'",
+        "Japanese": "言ってください: 'Reportedly, the team will travel abroad next month.'"
+      },
+      "options": [],
+      "answer": "reportedly the team will travel abroad next month"
+    },
+    {
+      "id": "speak4",
+      "type": "speaking",
+      "question": "Say: 'Evidently, he worked hard on the presentation.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Evidently, he worked hard on the presentation.'",
+        "Japanese": "言ってください: 'Evidently, he worked hard on the presentation.'"
+      },
+      "options": [],
+      "answer": "evidently he worked hard on the presentation"
+    },
+    {
+      "id": "speak5",
+      "type": "speaking",
+      "question": "Say: 'Supposedly, this book explains the theory in detail.'",
+      "question_translation": {
+        "Hindi": "कहें: 'Supposedly, this book explains the theory in detail.'",
+        "Japanese": "言ってください: 'Supposedly, this book explains the theory in detail.'"
+      },
+      "options": [],
+      "answer": "supposedly this book explains the theory in detail"
+    }
+  ]
+}
+
 }

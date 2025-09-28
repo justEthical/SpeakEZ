@@ -1,4 +1,552 @@
 {
-  "id": 25,
-  "message": "This is file number 25"
+  "id": "lesson_pronunciation_reduction_linking_001",
+  "lesson_name": "Pronunciation: Subtle Reduction & Linking",
+  "purpose": "All",
+  "cefrLevel": "C2",
+  "lesson_intro": {
+    "vocabulary": [
+      {
+        "word": "reduction",
+        "word_translation": {
+          "Hindi": "ध्वनि संक्षेपण",
+          "Japanese": "弱化（リダクション）"
+        },
+        "meaning": "The process of making certain sounds weaker or shorter in connected speech.",
+        "meaning_translation": {
+          "Hindi": "जुड़े हुए भाषण में कुछ ध्वनियों को कमजोर या छोटा करना।",
+          "Japanese": "連続した話し言葉で特定の音を弱くまたは短くすること。"
+        },
+        "examples": [
+          {
+            "sentence": "In casual speech, 'going to' often reduces to 'gonna'.",
+            "translation": {
+              "Hindi": "सामान्य बोलचाल में 'going to' अक्सर 'gonna' बन जाता है।",
+              "Japanese": "カジュアルな会話では「going to」はしばしば「gonna」になります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "linking",
+        "word_translation": {
+          "Hindi": "ध्वनि जोड़ना",
+          "Japanese": "リンキング"
+        },
+        "meaning": "Smoothly connecting the final sound of one word to the beginning of the next.",
+        "meaning_translation": {
+          "Hindi": "एक शब्द की अंतिम ध्वनि को अगले शब्द की शुरुआती ध्वनि से सहजता से जोड़ना।",
+          "Japanese": "ある単語の最後の音を次の単語の最初の音と滑らかにつなぐこと。"
+        },
+        "examples": [
+          {
+            "sentence": "Say 'turn off' as [turnoff] without a gap.",
+            "translation": {
+              "Hindi": "'turn off' को बिना रुकावट [turnoff] की तरह कहें।",
+              "Japanese": "「turn off」を隙間なく[turnoff]のように発音します。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "connected speech",
+        "word_translation": {
+          "Hindi": "जुड़ा हुआ भाषण",
+          "Japanese": "連続音声"
+        },
+        "meaning": "Natural speech where sounds influence each other at word boundaries.",
+        "meaning_translation": {
+          "Hindi": "प्राकृतिक भाषण जिसमें ध्वनियाँ शब्दों की सीमाओं पर एक-दूसरे को प्रभावित करती हैं।",
+          "Japanese": "単語の境界で音が互いに影響し合う自然な話し方。"
+        },
+        "examples": [
+          {
+            "sentence": "Connected speech makes 'did you' sound like 'didja'.",
+            "translation": {
+              "Hindi": "जुड़े हुए भाषण में 'did you' 'didja' जैसा सुनाई देता है।",
+              "Japanese": "連続音声では「did you」は「didja」のように聞こえます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "elision",
+        "word_translation": {
+          "Hindi": "ध्वनि लोप",
+          "Japanese": "脱落（エリジョン）"
+        },
+        "meaning": "Dropping a sound or syllable in rapid speech.",
+        "meaning_translation": {
+          "Hindi": "तेज़ बोलचाल में ध्वनि या अक्षर को हटा देना।",
+          "Japanese": "速い話し方で音や音節を省略すること。"
+        },
+        "examples": [
+          {
+            "sentence": "In 'friendship', the 'd' is often elided in fast speech.",
+            "translation": {
+              "Hindi": "'friendship' में तेज़ बोलचाल में 'd' अक्सर हटा दी जाती है।",
+              "Japanese": "「friendship」では速い会話で「d」が脱落することがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "assimilation",
+        "word_translation": {
+          "Hindi": "समानता",
+          "Japanese": "同化（アシミレーション）"
+        },
+        "meaning": "When a sound changes to become more like a neighboring sound.",
+        "meaning_translation": {
+          "Hindi": "जब कोई ध्वनि पड़ोसी ध्वनि के समान हो जाती है।",
+          "Japanese": "音が隣の音に似たものに変化すること。"
+        },
+        "examples": [
+          {
+            "sentence": "In 'input', the /n/ can sound like /m/ before /p/.",
+            "translation": {
+              "Hindi": "'input' में /n/ /p/ से पहले /m/ जैसा सुनाई दे सकता है।",
+              "Japanese": "「input」では/p/の前で/n/が/m/のように聞こえることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intrusive r",
+        "word_translation": {
+          "Hindi": "अतिरिक्त 'r'",
+          "Japanese": "挿入r"
+        },
+        "meaning": "Adding an /r/ sound between words to make speech smoother.",
+        "meaning_translation": {
+          "Hindi": "भाषण को सहज बनाने के लिए शब्दों के बीच /r/ ध्वनि जोड़ना।",
+          "Japanese": "発話を滑らかにするために単語の間に/r/音を挿入すること。"
+        },
+        "examples": [
+          {
+            "sentence": "In British English, 'law and order' can sound like 'law-r-and order'.",
+            "translation": {
+              "Hindi": "ब्रिटिश अंग्रेज़ी में 'law and order' 'law-r-and order' जैसा सुनाई दे सकता है।",
+              "Japanese": "イギリス英語では「law and order」が「law-r-and order」のように聞こえることがあります。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "schwa",
+        "word_translation": {
+          "Hindi": "श्वा",
+          "Japanese": "シュワー（曖昧母音）"
+        },
+        "meaning": "The weak /ə/ sound often heard in unstressed syllables.",
+        "meaning_translation": {
+          "Hindi": "कमज़ोर /ə/ ध्वनि जो अक्सर बिना बल वाले अक्षरों में सुनाई देती है।",
+          "Japanese": "強勢のない音節によく現れる弱い/ə/音。"
+        },
+        "examples": [
+          {
+            "sentence": "The 'a' in 'sofa' is a schwa.",
+            "translation": {
+              "Hindi": "'sofa' में 'a' श्वा है।",
+              "Japanese": "「sofa」の「a」はシュワーです。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "flapping",
+        "word_translation": {
+          "Hindi": "फ्लैपिंग",
+          "Japanese": "フラッピング"
+        },
+        "meaning": "Pronouncing /t/ or /d/ as a quick tap between vowels, common in American English.",
+        "meaning_translation": {
+          "Hindi": "अमेरिकी अंग्रेज़ी में स्वर के बीच /t/ या /d/ को तेज़ टैप की तरह उच्चारित करना।",
+          "Japanese": "アメリカ英語で母音の間の/t/や/d/を素早いタップ音として発音すること。"
+        },
+        "examples": [
+          {
+            "sentence": "'Water' often sounds like 'wadder' in American English.",
+            "translation": {
+              "Hindi": "अमेरिकी अंग्रेज़ी में 'Water' अक्सर 'wadder' जैसा सुनाई देता है।",
+              "Japanese": "アメリカ英語では「water」はしばしば「wadder」のように聞こえます。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "intonation smoothing",
+        "word_translation": {
+          "Hindi": "स्वर समतल करना",
+          "Japanese": "イントネーションの滑らかさ"
+        },
+        "meaning": "Adjusting pitch and tone to make speech flow naturally between linked words.",
+        "meaning_translation": {
+          "Hindi": "शब्दों को जोड़ते समय भाषण को स्वाभाविक रूप से बहने देने के लिए स्वर और टोन को समायोजित करना।",
+          "Japanese": "単語をつなぐときに自然な流れを作るために声の高さと調子を調整すること。"
+        },
+        "examples": [
+          {
+            "sentence": "Speakers smooth intonation when linking words like 'go on'.",
+            "translation": {
+              "Hindi": "वक्ता 'go on' जैसे शब्दों को जोड़ते समय स्वर को समतल करते हैं।",
+              "Japanese": "話者は「go on」のような単語をつなぐときにイントネーションを滑らかにします。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "weak forms",
+        "word_translation": {
+          "Hindi": "कमज़ोर रूप",
+          "Japanese": "弱形"
+        },
+        "meaning": "Unstressed words that are pronounced in a shorter or weaker way.",
+        "meaning_translation": {
+          "Hindi": "वे शब्द जो बिना बल के छोटे या कमजोर तरीके से उच्चारित होते हैं।",
+          "Japanese": "強勢のない語が短くまたは弱く発音されること。"
+        },
+        "examples": [
+          {
+            "sentence": "The word 'of' is usually pronounced /əv/ in fast speech.",
+            "translation": {
+              "Hindi": "'of' शब्द को तेज़ बोलचाल में आमतौर पर /əv/ उच्चारित किया जाता है।",
+              "Japanese": "速い会話では「of」は通常/əv/と発音されます。"
+            }
+          }
+        ]
+      }
+    ],
+    "grammar_tips": [
+      {
+        "title": "Using Reduction Naturally",
+        "explanation": "Common function words like 'to', 'of', and 'for' often reduce in fast speech. Practice reducing them without losing clarity.",
+        "explanation_translation": {
+          "Hindi": "तेज़ बोलचाल में 'to', 'of', और 'for' जैसे आम शब्द अक्सर संक्षिप्त हो जाते हैं। स्पष्टता खोए बिना उन्हें संक्षिप्त करने का अभ्यास करें।",
+          "Japanese": "速い会話では「to」「of」「for」などの機能語がしばしば弱化します。意味を失わずに自然に弱化させる練習をしましょう。"
+        }
+      },
+      {
+        "title": "Linking Final and Initial Sounds",
+        "explanation": "Link consonants to vowels and vowels to vowels across word boundaries. Example: 'pick it up' → /pɪkɪtʌp/.",
+        "explanation_translation": {
+          "Hindi": "शब्दों के बीच व्यंजनों को स्वरों से और स्वरों को स्वरों से जोड़ें। उदाहरण: 'pick it up' → /pɪkɪtʌp/।",
+          "Japanese": "単語の境界を越えて子音を母音に、母音を母音につなげます。例：pick it up → /pɪkɪtʌp/。"
+        }
+      },
+      {
+        "title": "Balancing Clarity and Fluency",
+        "explanation": "Reduce and link sounds to speak naturally, but avoid over-reducing so your speech stays understandable.",
+        "explanation_translation": {
+          "Hindi": "प्राकृतिक रूप से बोलने के लिए ध्वनियों को संक्षिप्त और जोड़ें, लेकिन अत्यधिक संक्षेपण से बचें ताकि आपकी बात स्पष्ट रहे।",
+          "Japanese": "自然に話すために音を弱化させたりつなげたりしますが、過度に弱化させないようにして理解しやすさを保ちましょう。"
+        }
+      }
+    ]
+  },
+  "question_pools": {
+    "vocabulary": [
+      {
+        "id": "vocab1",
+        "type": "multipleChoice",
+        "question": "What does 'elision' mean in connected speech?",
+        "question_translation": {
+          "Hindi": "जुड़े हुए भाषण में 'elision' का क्या अर्थ है?",
+          "Japanese": "連続音声において「elision」は何を意味しますか？"
+        },
+        "options": [
+          "Dropping a sound or syllable",
+          "Adding an /r/ sound",
+          "Increasing pitch"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab2",
+        "type": "fillInTheBlanks",
+        "question": "In casual speech, 'going to' often reduces to ___.",
+        "question_translation": {
+          "Hindi": "सामान्य बोलचाल में 'going to' अक्सर ___ बन जाता है।",
+          "Japanese": "カジュアルな会話では「going to」はしばしば___になります。"
+        },
+        "options": [
+          "gonna",
+          "go to",
+          "gotta"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab3",
+        "type": "trueFalse",
+        "question": "Linking connects the final sound of one word to the beginning of the next.",
+        "question_translation": {
+          "Hindi": "लिंकिंग एक शब्द की अंतिम ध्वनि को अगले शब्द की प्रारंभिक ध्वनि से जोड़ता है।",
+          "Japanese": "リンキングは1つの単語の最後の音を次の単語の最初の音につなぎます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab4",
+        "type": "multipleChoice",
+        "question": "Which feature describes pronouncing /t/ as a quick tap between vowels?",
+        "question_translation": {
+          "Hindi": "कौन सी विशेषता स्वर के बीच /t/ को एक तेज़ टैप के रूप में उच्चारित करने को दर्शाती है?",
+          "Japanese": "母音の間の/t/を素早いタップ音として発音する特徴はどれですか？"
+        },
+        "options": [
+          "Flapping",
+          "Intrusive r",
+          "Assimilation"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "vocab5",
+        "type": "fillInTheBlanks",
+        "question": "British speakers may insert an ___ sound between vowels in phrases like 'law and order'.",
+        "question_translation": {
+          "Hindi": "ब्रिटिश वक्ता 'law and order' जैसे वाक्यांशों में स्वरों के बीच ___ ध्वनि डाल सकते हैं।",
+          "Japanese": "イギリスの話者は「law and order」のような句で母音の間に___音を挿入することがあります。"
+        },
+        "options": [
+          "r",
+          "t",
+          "m"
+        ],
+        "answer": 0
+      }
+    ],
+    "sentence": [
+      {
+        "id": "sent1",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [smoothly, we, words, link]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [smoothly, we, words, link]",
+          "Japanese": "並べ替え: [smoothly, we, words, link]"
+        },
+        "options": [
+          "smoothly",
+          "we",
+          "words",
+          "link"
+        ],
+        "answer": [
+          "we",
+          "link",
+          "words",
+          "smoothly"
+        ]
+      },
+      {
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "The /t/ in 'water' becomes a quick tap in American English, called ___.",
+        "question_translation": {
+          "Hindi": "अमेरिकी अंग्रेज़ी में 'water' का /t/ एक तेज़ टैप बन जाता है, जिसे ___ कहा जाता है।",
+          "Japanese": "アメリカ英語では「water」の/t/が素早いタップ音になり、これは___と呼ばれます。"
+        },
+        "options": [
+          "flapping",
+          "schwa",
+          "elision"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent3",
+        "type": "multipleChoice",
+        "question": "Which sentence shows reduction?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य संक्षेपण (reduction) दिखाता है?",
+          "Japanese": "どの文がリダクション（弱化）を示していますか？"
+        },
+        "options": [
+          "I’m gonna call you later.",
+          "I am going to call you later.",
+          "I will call you later."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "sent4",
+        "type": "sentenceRearranging",
+        "question": "Arrange: [schwa, a, sound, weak, is]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [schwa, a, sound, weak, is]",
+          "Japanese": "並べ替え: [schwa, a, sound, weak, is]"
+        },
+        "options": [
+          "schwa",
+          "a",
+          "sound",
+          "weak",
+          "is"
+        ],
+        "answer": [
+          "schwa",
+          "is",
+          "a",
+          "weak",
+          "sound"
+        ]
+      },
+      {
+        "id": "sent5",
+        "type": "fillInTheBlanks",
+        "question": "When sounds blend at word boundaries, it’s called ___.",
+        "question_translation": {
+          "Hindi": "जब ध्वनियाँ शब्दों की सीमाओं पर मिलती हैं, तो इसे ___ कहा जाता है।",
+          "Japanese": "単語の境界で音が混ざり合うことを___と呼びます。"
+        },
+        "options": [
+          "connected speech",
+          "intonation smoothing",
+          "clipping"
+        ],
+        "answer": 0
+      }
+    ],
+    "listening": [
+      {
+        "id": "listen1",
+        "type": "multipleChoice",
+        "question": "What feature is demonstrated here?",
+        "audio_text": "I’m gonna visit tomorrow.",
+        "question_translation": {
+          "Hindi": "यहाँ कौन सी विशेषता दिखाई दे रही है?",
+          "Japanese": "ここで示されている特徴は何ですか？"
+        },
+        "options": [
+          "Reduction",
+          "Linking",
+          "Intrusive r"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen2",
+        "type": "trueFalse",
+        "question": "Linking makes speech sound smoother and faster.",
+        "audio_text": "Say it aloud: 'pick it up' → /pɪkɪtʌp/.",
+        "question_translation": {
+          "Hindi": "लिंकिंग भाषण को अधिक सहज और तेज़ बनाती है।",
+          "Japanese": "リンキングは話を滑らかで速く聞こえさせます。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen3",
+        "type": "multipleChoice",
+        "question": "Which word uses a schwa sound here?",
+        "audio_text": "I need a cup of tea.",
+        "question_translation": {
+          "Hindi": "यहाँ कौन सा शब्द श्वा ध्वनि का उपयोग करता है?",
+          "Japanese": "ここでシュワー音を使っている単語はどれですか？"
+        },
+        "options": [
+          "of",
+          "cup",
+          "tea"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen4",
+        "type": "multipleChoice",
+        "question": "What process turns 'did you' into 'didja'?",
+        "audio_text": "Did you see that?",
+        "question_translation": {
+          "Hindi": "'did you' को 'didja' में बदलने की प्रक्रिया क्या है?",
+          "Japanese": "「did you」を「didja」に変えるプロセスは何ですか？"
+        },
+        "options": [
+          "Assimilation",
+          "Flapping",
+          "Elision"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listen5",
+        "type": "trueFalse",
+        "question": "Intrusive r adds an /r/ sound between vowels.",
+        "audio_text": "Example: 'law and order' → 'law-r-and order'.",
+        "question_translation": {
+          "Hindi": "इंट्रूसिव 'r' स्वरों के बीच /r/ ध्वनि जोड़ता है।",
+          "Japanese": "挿入rは母音の間に/r/音を追加します。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
+      }
+    ],
+    "speaking": [
+      {
+        "id": "speak1",
+        "type": "speaking",
+        "question": "Say: 'I’m gonna call you later.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I’m gonna call you later.'",
+          "Japanese": "言ってください: 'I’m gonna call you later.'"
+        },
+        "options": [],
+        "answer": "i’m gonna call you later"
+      },
+      {
+        "id": "speak2",
+        "type": "speaking",
+        "question": "Say: 'Pick it up' with linking.",
+        "question_translation": {
+          "Hindi": "लिंकिंग के साथ कहें: 'Pick it up'",
+          "Japanese": "リンキングを使って言ってください: 'Pick it up'"
+        },
+        "options": [],
+        "answer": "pick it up"
+      },
+      {
+        "id": "speak3",
+        "type": "speaking",
+        "question": "Say: 'Did you see that?' reducing it naturally.",
+        "question_translation": {
+          "Hindi": "प्राकृतिक संक्षेपण के साथ कहें: 'Did you see that?'",
+          "Japanese": "自然な弱化を使って言ってください: 'Did you see that?'"
+        },
+        "options": [],
+        "answer": "didja see that"
+      },
+      {
+        "id": "speak4",
+        "type": "speaking",
+        "question": "Say: 'A cup of tea' with schwa in 'of'.",
+        "question_translation": {
+          "Hindi": "'of' में श्वा ध्वनि के साथ कहें: 'A cup of tea'",
+          "Japanese": "「of」にシュワー音を入れて言ってください: 'A cup of tea'"
+        },
+        "options": [],
+        "answer": "a cup of tea"
+      },
+      {
+        "id": "speak5",
+        "type": "speaking",
+        "question": "Say: 'Law and order' with intrusive r.",
+        "question_translation": {
+          "Hindi": "इंट्रूसिव r के साथ कहें: 'Law and order'",
+          "Japanese": "挿入rを使って言ってください: 'Law and order'"
+        },
+        "options": [],
+        "answer": "law r and order"
+      }
+    ]
+  }
 }

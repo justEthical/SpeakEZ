@@ -1,36 +1,262 @@
 {
-  "id": "lesson_exploring_stereotypes_prejudices_001",
-  "lesson_name": "Exploring Stereotypes & Prejudices",
+  "id": "lesson_passives_b2_006",
+  "lesson_name": "Passives Across Tenses (Process vs. Result)",
   "purpose": "All",
   "cefrLevel": "B2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "stereotype", "meaning": "a simple idea about a group that may not be true" },
-      { "word": "prejudice", "meaning": "an unfair feeling or dislike for a group" },
-      { "word": "discrimination", "meaning": "unfair treatment because of a group" },
-      { "word": "assumption", "meaning": "something you believe without proof" },
-      { "word": "bias", "meaning": "a strong feeling for or against something, often unfair" },
-      { "word": "diversity", "meaning": "many different kinds of people or things" },
-      { "word": "inclusion", "meaning": "making sure everyone is part of a group" },
-      { "word": "tolerance", "meaning": "accepting differences" },
-      { "word": "equality", "meaning": "everyone being treated the same way" },
-      { "word": "marginalize", "meaning": "to push someone out of an important group" }
+      {
+        "word": "passive voice",
+        "word_translation": {
+          "Hindi": "कर्मवाच्य",
+          "Japanese": "受動態"
+        },
+        "meaning": "A structure where the focus is on the action or the receiver of the action, not the doer",
+        "meaning_translation": {
+          "Hindi": "वह संरचना जिसमें ध्यान क्रिया या क्रिया प्राप्त करने वाले पर होता है, करने वाले पर नहीं",
+          "Japanese": "動作主ではなく動作やその受け手に焦点を当てる構文"
+        },
+        "examples": [
+          {
+            "sentence": "The book was written by a famous author.",
+            "translation": {
+              "Hindi": "किताब एक प्रसिद्ध लेखक द्वारा लिखी गई थी।",
+              "Japanese": "その本は有名な作家によって書かれた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "process passive",
+        "word_translation": {
+          "Hindi": "प्रक्रिया कर्मवाच्य",
+          "Japanese": "過程の受動態"
+        },
+        "meaning": "Emphasizes the ongoing action of the verb",
+        "meaning_translation": {
+          "Hindi": "क्रिया की चल रही प्रक्रिया पर जोर देना",
+          "Japanese": "動作の進行に焦点を当てる受動態"
+        },
+        "examples": [
+          {
+            "sentence": "The bridge is being built.",
+            "translation": {
+              "Hindi": "पुल बनाया जा रहा है।",
+              "Japanese": "橋が建設されているところだ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "result passive",
+        "word_translation": {
+          "Hindi": "परिणाम कर्मवाच्य",
+          "Japanese": "結果の受動態"
+        },
+        "meaning": "Emphasizes the finished state after an action",
+        "meaning_translation": {
+          "Hindi": "किसी क्रिया के बाद की पूर्ण स्थिति पर जोर देना",
+          "Japanese": "動作の後の完了状態に焦点を当てる受動態"
+        },
+        "examples": [
+          {
+            "sentence": "The bridge is built.",
+            "translation": {
+              "Hindi": "पुल बना हुआ है।",
+              "Japanese": "橋は建てられている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "agent",
+        "word_translation": {
+          "Hindi": "कर्ता",
+          "Japanese": "動作主"
+        },
+        "meaning": "The doer of the action in passive sentences, often introduced with 'by'",
+        "meaning_translation": {
+          "Hindi": "कर्मवाच्य वाक्य में क्रिया करने वाला, जिसे अक्सर 'by' के साथ दिखाया जाता है",
+          "Japanese": "受動態文で動作を行う者、多くは 'by' で導入される"
+        },
+        "examples": [
+          {
+            "sentence": "The cake was baked by my mother.",
+            "translation": {
+              "Hindi": "केक मेरी माँ द्वारा बेक किया गया था।",
+              "Japanese": "ケーキは母によって焼かれた。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "get-passive",
+        "word_translation": {
+          "Hindi": "get-कर्मवाच्य",
+          "Japanese": "get受動態"
+        },
+        "meaning": "An informal passive form using 'get' instead of 'be'",
+        "meaning_translation": {
+          "Hindi": "'be' के बजाय 'get' का उपयोग करके बनाया गया अनौपचारिक कर्मवाच्य",
+          "Japanese": "'be' の代わりに 'get' を使ったカジュアルな受動態"
+        },
+        "examples": [
+          {
+            "sentence": "He got promoted last year.",
+            "translation": {
+              "Hindi": "उसे पिछले साल प्रमोशन मिला।",
+              "Japanese": "彼は去年昇進した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "past participle",
+        "word_translation": {
+          "Hindi": "भूतकाल कृदंत",
+          "Japanese": "過去分詞"
+        },
+        "meaning": "The verb form used in passive constructions after 'be' or 'get'",
+        "meaning_translation": {
+          "Hindi": "'be' या 'get' के बाद कर्मवाच्य संरचनाओं में प्रयुक्त क्रिया रूप",
+          "Japanese": "'be' や 'get' の後に受動態で使われる動詞の形"
+        },
+        "examples": [
+          {
+            "sentence": "The homework was completed on time.",
+            "translation": {
+              "Hindi": "होमवर्क समय पर पूरा किया गया।",
+              "Japanese": "宿題は時間通りに終わった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "continuous passive",
+        "word_translation": {
+          "Hindi": "सतत कर्मवाच्य",
+          "Japanese": "進行形の受動態"
+        },
+        "meaning": "Passive forms that show ongoing actions",
+        "meaning_translation": {
+          "Hindi": "कर्मवाच्य रूप जो चल रही क्रियाओं को दिखाते हैं",
+          "Japanese": "進行中の動作を示す受動態"
+        },
+        "examples": [
+          {
+            "sentence": "The room was being cleaned when I arrived.",
+            "translation": {
+              "Hindi": "जब मैं पहुँचा तो कमरा साफ़ किया जा रहा था।",
+              "Japanese": "私が到着したとき、その部屋は掃除されているところだった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "perfect passive",
+        "word_translation": {
+          "Hindi": "परिपूर्ण कर्मवाच्य",
+          "Japanese": "完了形の受動態"
+        },
+        "meaning": "Passive forms that show completed actions at a certain point",
+        "meaning_translation": {
+          "Hindi": "कर्मवाच्य रूप जो किसी समय पर पूर्ण की गई क्रियाओं को दिखाते हैं",
+          "Japanese": "ある時点で完了した動作を示す受動態"
+        },
+        "examples": [
+          {
+            "sentence": "The documents have been signed.",
+            "translation": {
+              "Hindi": "दस्तावेज़ों पर हस्ताक्षर किए जा चुके हैं।",
+              "Japanese": "書類は署名された。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "focus",
+        "word_translation": {
+          "Hindi": "केंद्रबिंदु",
+          "Japanese": "焦点"
+        },
+        "meaning": "What the passive sentence emphasizes: the process or the result",
+        "meaning_translation": {
+          "Hindi": "कर्मवाच्य वाक्य किस पर जोर देता है: प्रक्रिया या परिणाम",
+          "Japanese": "受動態文が強調するもの：過程か結果か"
+        },
+        "examples": [
+          {
+            "sentence": "Process: The meal is being prepared. Result: The meal is prepared.",
+            "translation": {
+              "Hindi": "प्रक्रिया: भोजन तैयार किया जा रहा है। परिणाम: भोजन तैयार है।",
+              "Japanese": "過程: 食事が準備されている。結果: 食事が準備できている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "transitive verb",
+        "word_translation": {
+          "Hindi": "सकर्मक क्रिया",
+          "Japanese": "他動詞"
+        },
+        "meaning": "A verb that takes a direct object; required for passive structures",
+        "meaning_translation": {
+          "Hindi": "वह क्रिया जो सीधा कर्म लेती है; कर्मवाच्य संरचनाओं के लिए आवश्यक",
+          "Japanese": "直接目的語を取る動詞；受動態を作るのに必要"
+        },
+        "examples": [
+          {
+            "sentence": "The letter was written yesterday.",
+            "translation": {
+              "Hindi": "पत्र कल लिखा गया था।",
+              "Japanese": "その手紙は昨日書かれた。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Using Modal Verbs to Express Uncertainty",
-        "explanation": "Use 'might', 'could', or 'may' to show that something is possible but not certain. Example: This stereotype might not be true."
+        "title": "Basic Passive Structure",
+        "explanation": "Use be/get + past participle. Example: The window was broken.",
+        "explanation_translation": {
+          "Hindi": "be/get + past participle का उपयोग करें। उदाहरण: The window was broken.",
+          "Japanese": "be/get + 過去分詞を使う。例：The window was broken."
+        }
       },
       {
-        "title": "Forming Passive Sentences",
-        "explanation": "Use passive voice to focus on the action or situation. Example: Some people are marginalized in society."
+        "title": "Process Passive",
+        "explanation": "Use continuous passive forms to show the action is in progress. Example: The house is being painted.",
+        "explanation_translation": {
+          "Hindi": "चल रही क्रिया दिखाने के लिए continuous passive का उपयोग करें। उदाहरण: The house is being painted.",
+          "Japanese": "動作が進行中であることを示すために進行形の受動態を使う。例：The house is being painted."
+        }
+      },
+      {
+        "title": "Result Passive",
+        "explanation": "Use simple passive forms to show the action is complete. Example: The house is painted.",
+        "explanation_translation": {
+          "Hindi": "पूर्ण क्रिया दिखाने के लिए simple passive का उपयोग करें। उदाहरण: The house is painted.",
+          "Japanese": "動作が完了したことを示すために単純受動態を使う。例：The house is painted."
+        }
+      },
+      {
+        "title": "Passive Across Tenses",
+        "explanation": "Passives exist in all tenses. Example: Present Perfect: The documents have been signed. Future: The project will be completed.",
+        "explanation_translation": {
+          "Hindi": "कर्मवाच्य सभी कालों में मौजूद होता है। उदाहरण: Present Perfect: The documents have been signed. Future: The project will be completed.",
+          "Japanese": "受動態はすべての時制に存在する。例：現在完了: The documents have been signed. 未来: The project will be completed."
+        }
+      },
+      {
+        "title": "Choosing Process vs. Result",
+        "explanation": "If the focus is on the action → process passive. If the focus is on the finished state → result passive.",
+        "explanation_translation": {
+          "Hindi": "यदि ध्यान क्रिया पर है → process passive। यदि ध्यान पूर्ण स्थिति पर है → result passive।",
+          "Japanese": "動作に焦点を当てる場合 → 過程の受動態。完了した状態に焦点を当てる場合 → 結果の受動態。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "Stereotypes can lead to prejudice and discrimination.", "translation": "" },
-      { "sentence": "We should celebrate diversity and practice inclusion.", "translation": "" },
-      { "sentence": "An assumption is not always correct.", "translation": "" },
-      { "sentence": "Many groups have been marginalized in history.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -38,110 +264,248 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "Which word means 'a simple idea about a group that may not be true'?",
-        "options": ["stereotype", "equality", "inclusion"],
-        "answer": 0
+        "question": "Which sentence shows a process passive?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य प्रक्रिया कर्मवाच्य दिखाता है?",
+          "Japanese": "どの文が過程の受動態を示していますか？"
+        },
+        "options": [
+          "The bridge is built.",
+          "The bridge is being built.",
+          "The bridge was built."
+        ],
+        "answer": 1
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "___ means unfair treatment because of a group.",
-        "options": ["Diversity", "Discrimination", "Tolerance"],
-        "answer": 1
+        "question": "The documents have ___ signed.",
+        "question_translation": {
+          "Hindi": "दस्तावेज़ों पर ___ हस्ताक्षर किए जा चुके हैं।",
+          "Japanese": "書類は___署名された。"
+        },
+        "options": [
+          "been",
+          "being",
+          "be"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which word means 'accepting differences'?",
-        "options": ["Tolerance", "Assumption", "Bias"],
+        "type": "trueFalse",
+        "question": "A result passive focuses on the finished state of the action.",
+        "question_translation": {
+          "Hindi": "परिणाम कर्मवाच्य क्रिया की पूर्ण स्थिति पर केंद्रित होता है।",
+          "Japanese": "結果の受動態は動作の完了状態に焦点を当てる。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "vocab4",
-        "type": "trueFalse",
-        "question": "'Prejudice' means an unfair feeling or dislike for a group.",
-        "options": ["True", "False"],
-        "answer": 0
+        "type": "multipleChoice",
+        "question": "Which auxiliary is commonly used in passives?",
+        "question_translation": {
+          "Hindi": "कौन सा सहायक क्रिया सामान्यतः कर्मवाच्य में प्रयोग होती है?",
+          "Japanese": "受動態でよく使われる助動詞はどれですか？"
+        },
+        "options": [
+          "do",
+          "be",
+          "have"
+        ],
+        "answer": 1
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Which word means 'to push someone out of an important group'?",
-        "options": ["Include", "Marginalize", "Assume"],
-        "answer": 1
+        "type": "fillInTheBlanks",
+        "question": "He got ___ in an accident last year.",
+        "question_translation": {
+          "Hindi": "वह पिछले साल एक दुर्घटना में ___।",
+          "Japanese": "彼は去年事故で___。"
+        },
+        "options": [
+          "injured",
+          "injure",
+          "injuring"
+        ],
+        "answer": 0
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "Stereotypes can lead to ___ and discrimination.",
-        "options": ["bias", "prejudice", "diversity"],
-        "answer": 1
+        "type": "sentenceRearranging",
+        "question": "Arrange: [being, cleaned, is, the, room]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [being, cleaned, is, the, room]",
+          "Japanese": "並べ替え: [being, cleaned, is, the, room]"
+        },
+        "options": [
+          "being",
+          "cleaned",
+          "is",
+          "the",
+          "room"
+        ],
+        "answer": [
+          "the",
+          "room",
+          "is",
+          "being",
+          "cleaned"
+        ]
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "We should celebrate ___ and practice inclusion.",
-        "options": ["diversity", "equality", "prejudice"],
+        "question": "The project will ___ completed by June.",
+        "question_translation": {
+          "Hindi": "परियोजना जून तक ___ पूरी हो जाएगी।",
+          "Japanese": "プロジェクトは6月までに___完了するだろう。"
+        },
+        "options": [
+          "be",
+          "been",
+          "being"
+        ],
         "answer": 0
       },
       {
         "id": "sent3",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [is, not, always, assumption, an, correct]",
-        "options": ["is", "not", "always", "assumption", "an", "correct"],
-        "answer": ["An", "assumption", "is", "not", "always", "correct"]
+        "type": "multipleChoice",
+        "question": "Which is a result passive?",
+        "question_translation": {
+          "Hindi": "इनमें से कौन सा परिणाम कर्मवाच्य है?",
+          "Japanese": "どれが結果の受動態ですか？"
+        },
+        "options": [
+          "The report is being typed.",
+          "The report is typed.",
+          "The report was being typed."
+        ],
+        "answer": 1
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "Many groups have been ___ in history.",
-        "options": ["marginalize", "included", "marginalized"],
-        "answer": 2
+        "question": "The letter ___ written yesterday.",
+        "question_translation": {
+          "Hindi": "पत्र कल ___ लिखा गया था।",
+          "Japanese": "手紙は昨日___書かれた。"
+        },
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
+        "answer": 0
       },
       {
         "id": "sent5",
         "type": "sentenceRearranging",
-        "question": "Arrange: [be, might, true, not, stereotype, this]",
-        "options": ["be", "might", "true", "not", "stereotype", "this"],
-        "answer": ["This", "stereotype", "might", "not", "be", "true"]
+        "question": "Arrange: [signed, been, documents, have, the]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [signed, been, documents, have, the]",
+          "Japanese": "並べ替え: [signed, been, documents, have, the]"
+        },
+        "options": [
+          "signed",
+          "been",
+          "documents",
+          "have",
+          "the"
+        ],
+        "answer": [
+          "the",
+          "documents",
+          "have",
+          "been",
+          "signed"
+        ]
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "What can stereotypes lead to? (Audio: 'Stereotypes can lead to prejudice and discrimination.')",
-        "options": ["Tolerance", "Prejudice and discrimination", "Diversity"],
-        "answer": 1
+        "type": "multipleChoice",
+        "question": "What tense is the passive here?",
+        "audio_text": "The room was being painted when I arrived.",
+        "question_translation": {
+          "Hindi": "यहाँ कर्मवाच्य किस काल में है?",
+          "Japanese": "ここでの受動態は何時制ですか？"
+        },
+        "options": [
+          "Past continuous passive",
+          "Present perfect passive",
+          "Future passive"
+        ],
+        "answer": 0
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "What should we celebrate? (Audio: 'We should celebrate diversity and practice inclusion.')",
-        "options": ["Discrimination", "Assumption", "Diversity"],
-        "answer": 2
+        "type": "trueFalse",
+        "question": "The speaker is using a process passive: 'The bridge is being repaired.'",
+        "audio_text": "The bridge is being repaired.",
+        "question_translation": {
+          "Hindi": "वक्ता प्रक्रिया कर्मवाच्य का उपयोग कर रहा है: 'The bridge is being repaired.'",
+          "Japanese": "話者は過程の受動態を使っている: 'The bridge is being repaired.'"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "What is not always correct? (Audio: 'An assumption is not always correct.')",
-        "options": ["A stereotype", "An assumption", "A prejudice"],
+        "type": "multipleChoice",
+        "question": "What is emphasized in this sentence?",
+        "audio_text": "The documents have been signed.",
+        "question_translation": {
+          "Hindi": "इस वाक्य में किस पर जोर दिया गया है?",
+          "Japanese": "この文で強調されているのは何ですか？"
+        },
+        "options": [
+          "The process",
+          "The result",
+          "The agent"
+        ],
         "answer": 1
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "What happened to many groups in history? (Audio: 'Many groups have been marginalized in history.')",
-        "options": ["Included", "Marginalized", "Celebrated"],
+        "type": "multipleChoice",
+        "question": "Who is the agent here?",
+        "audio_text": "The cake was baked by my mother.",
+        "question_translation": {
+          "Hindi": "यहाँ कर्ता कौन है?",
+          "Japanese": "ここでの動作主は誰ですか？"
+        },
+        "options": [
+          "The cake",
+          "My mother",
+          "Yesterday"
+        ],
         "answer": 1
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "What might not be true? (Audio: 'This stereotype might not be true.')",
-        "options": ["This stereotype", "This bias", "This diversity"],
+        "type": "trueFalse",
+        "question": "'He got promoted last year' is an example of get-passive.",
+        "audio_text": "He got promoted last year.",
+        "question_translation": {
+          "Hindi": "'He got promoted last year' get-कर्मवाच्य का उदाहरण है।",
+          "Japanese": "'He got promoted last year' は get受動態の例です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -149,37 +513,57 @@
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Say: 'Stereotypes can lead to prejudice and discrimination.'",
+        "question": "Say: 'The documents have been signed.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The documents have been signed.'",
+          "Japanese": "言ってください: 'The documents have been signed.'"
+        },
         "options": [],
-        "answer": "Stereotypes can lead to prejudice and discrimination."
+        "answer": "the documents have been signed"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Say: 'We should celebrate diversity and practice inclusion.'",
+        "question": "Say: 'The bridge is being built.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The bridge is being built.'",
+          "Japanese": "言ってください: 'The bridge is being built.'"
+        },
         "options": [],
-        "answer": "We should celebrate diversity and practice inclusion."
+        "answer": "the bridge is being built"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Say: 'An assumption is not always correct.'",
+        "question": "Say: 'The cake was baked by my mother.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The cake was baked by my mother.'",
+          "Japanese": "言ってください: 'The cake was baked by my mother.'"
+        },
         "options": [],
-        "answer": "An assumption is not always correct."
+        "answer": "the cake was baked by my mother"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Say: 'Many groups have been marginalized in history.'",
+        "question": "Say: 'He got promoted last year.'",
+        "question_translation": {
+          "Hindi": "कहें: 'He got promoted last year.'",
+          "Japanese": "言ってください: 'He got promoted last year.'"
+        },
         "options": [],
-        "answer": "Many groups have been marginalized in history."
+        "answer": "he got promoted last year"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Say: 'This stereotype might not be true.'",
+        "question": "Say: 'The room was being cleaned when I arrived.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The room was being cleaned when I arrived.'",
+          "Japanese": "言ってください: 'The room was being cleaned when I arrived.'"
+        },
         "options": [],
-        "answer": "This stereotype might not be true."
+        "answer": "the room was being cleaned when i arrived"
       }
     ]
   }

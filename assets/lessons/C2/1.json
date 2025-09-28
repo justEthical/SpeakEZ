@@ -1,37 +1,262 @@
 {
-  "id": "lesson_analyzing_philosophical_texts_c2_001",
-  "lesson_name": "Analyzing Philosophical Texts",
-  "purpose": "Academic, Philosophy, Critical Thinking",
+  "id": "lesson_near_native_pragmatics_001",
+  "lesson_name": "Near-Native Pragmatics: Implicature & Inference",
+  "purpose": "All",
   "cefrLevel": "C2",
   "lesson_intro": {
     "vocabulary": [
-      { "word": "ontology", "meaning": "the study of being and existence" },
-      { "word": "epistemology", "meaning": "the study of knowledge and belief" },
-      { "word": "dialectic", "meaning": "discussion or reasoning by dialogue as a method of intellectual investigation" },
-      { "word": "paradox", "meaning": "a statement that seems contradictory but may be true" },
-      { "word": "axiom", "meaning": "a statement accepted as true without proof" },
-      { "word": "empiricism", "meaning": "the theory that all knowledge comes from experience" },
-      { "word": "metaphysics", "meaning": "the branch of philosophy dealing with the nature of reality" },
-      { "word": "determinism", "meaning": "the belief that all events are caused by previous events" },
-      { "word": "teleology", "meaning": "the explanation of phenomena by the purpose they serve" },
-      { "word": "solipsism", "meaning": "the idea that only one's own mind is sure to exist" }
+      {
+        "word": "implicature",
+        "word_translation": {
+          "Hindi": "अंतर्निहित अर्थ",
+          "Japanese": "含意"
+        },
+        "meaning": "An implied meaning that is suggested but not explicitly stated",
+        "meaning_translation": {
+          "Hindi": "एक निहित अर्थ जो सीधे नहीं कहा गया है लेकिन सुझाया गया है",
+          "Japanese": "明示されていないが暗示されている意味"
+        },
+        "examples": [
+          {
+            "sentence": "When she said 'It's cold in here,' the implicature was that she wanted the window closed.",
+            "translation": {
+              "Hindi": "जब उसने कहा 'यहाँ ठंड है,' तो अंतर्निहित अर्थ था कि वह चाहती थी कि खिड़की बंद हो जाए।",
+              "Japanese": "彼女が「ここは寒い」と言ったとき、その含意は窓を閉めてほしいということだった。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "inference",
+        "word_translation": {
+          "Hindi": "अनुमान",
+          "Japanese": "推論"
+        },
+        "meaning": "A conclusion reached based on evidence and reasoning rather than explicit statements",
+        "meaning_translation": {
+          "Hindi": "एक निष्कर्ष जो प्रमाण और तर्क पर आधारित है न कि सीधे कथन पर",
+          "Japanese": "明示的な発言ではなく、証拠と推論に基づいて導かれる結論"
+        },
+        "examples": [
+          {
+            "sentence": "From his silence, I made the inference that he disagreed.",
+            "translation": {
+              "Hindi": "उसकी चुप्पी से मैंने अनुमान लगाया कि वह असहमत था।",
+              "Japanese": "彼の沈黙から、私は彼が反対していると推論した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "presupposition",
+        "word_translation": {
+          "Hindi": "पूर्वधारणा",
+          "Japanese": "前提"
+        },
+        "meaning": "An implicit assumption that must be true for a statement to make sense",
+        "meaning_translation": {
+          "Hindi": "एक निहित धारणा जो कथन को समझ में आने के लिए सत्य होनी चाहिए",
+          "Japanese": "発言が意味を持つために真でなければならない暗黙の前提"
+        },
+        "examples": [
+          {
+            "sentence": "The question 'When did you stop smoking?' presupposes that you smoked before.",
+            "translation": {
+              "Hindi": "प्रश्न 'आपने धूम्रपान कब छोड़ा?' यह पूर्वधारणा करता है कि आप पहले धूम्रपान करते थे।",
+              "Japanese": "「いつタバコをやめたのですか？」という質問は、以前喫煙していたことを前提としている。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "pragmatics",
+        "word_translation": {
+          "Hindi": "प्राग्मेटिक्स",
+          "Japanese": "語用論"
+        },
+        "meaning": "The study of how context influences the interpretation of meaning in communication",
+        "meaning_translation": {
+          "Hindi": "कैसे संदर्भ संचार में अर्थ की व्याख्या को प्रभावित करता है, इसका अध्ययन",
+          "Japanese": "文脈がコミュニケーションにおける意味の解釈にどのように影響するかを研究する学問"
+        },
+        "examples": [
+          {
+            "sentence": "Pragmatics helps us understand indirect speech acts and implied meanings.",
+            "translation": {
+              "Hindi": "प्राग्मेटिक्स हमें अप्रत्यक्ष भाषण कार्यों और निहित अर्थों को समझने में मदद करता है।",
+              "Japanese": "語用論は間接的な発話行為や含意を理解するのに役立つ。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "contextualization",
+        "word_translation": {
+          "Hindi": "संदर्भानुसार रखना",
+          "Japanese": "文脈化"
+        },
+        "meaning": "Placing information within the relevant situation to interpret meaning correctly",
+        "meaning_translation": {
+          "Hindi": "अर्थ को सही ढंग से समझने के लिए जानकारी को प्रासंगिक स्थिति में रखना",
+          "Japanese": "意味を正しく解釈するために情報を関連する状況に置くこと"
+        },
+        "examples": [
+          {
+            "sentence": "Effective communication requires careful contextualization of your words.",
+            "translation": {
+              "Hindi": "प्रभावी संचार के लिए आपके शब्दों को सावधानीपूर्वक संदर्भानुसार रखना आवश्यक है।",
+              "Japanese": "効果的なコミュニケーションには言葉を慎重に文脈化する必要がある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "indirectness",
+        "word_translation": {
+          "Hindi": "अप्रत्यक्षता",
+          "Japanese": "間接性"
+        },
+        "meaning": "A way of communicating meaning without stating it plainly",
+        "meaning_translation": {
+          "Hindi": "अर्थ को सीधे कहे बिना संप्रेषित करने का एक तरीका",
+          "Japanese": "意味をはっきり言わずに伝える方法"
+        },
+        "examples": [
+          {
+            "sentence": "Indirectness can make requests sound more polite.",
+            "translation": {
+              "Hindi": "अप्रत्यक्षता अनुरोधों को अधिक विनम्र बना सकती है।",
+              "Japanese": "間接的に言うことで依頼がより丁寧に聞こえることがある。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "nuance",
+        "word_translation": {
+          "Hindi": "सूक्ष्म अंतर",
+          "Japanese": "微妙な差異"
+        },
+        "meaning": "A subtle difference in meaning or expression",
+        "meaning_translation": {
+          "Hindi": "अर्थ या अभिव्यक्ति में एक सूक्ष्म अंतर",
+          "Japanese": "意味や表現の微妙な違い"
+        },
+        "examples": [
+          {
+            "sentence": "Understanding the nuance of tone is crucial for native-like fluency.",
+            "translation": {
+              "Hindi": "स्वर के सूक्ष्म अंतर को समझना मूल जैसी धाराप्रवाहता के लिए महत्वपूर्ण है।",
+              "Japanese": "トーンの微妙な違いを理解することはネイティブのような流暢さに不可欠です。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "cooperative principle",
+        "word_translation": {
+          "Hindi": "सहयोगी सिद्धांत",
+          "Japanese": "協調の原則"
+        },
+        "meaning": "The idea that speakers generally try to be informative, truthful, relevant, and clear",
+        "meaning_translation": {
+          "Hindi": "यह विचार कि वक्ता आम तौर पर जानकारीपूर्ण, सत्यनिष्ठ, प्रासंगिक और स्पष्ट होने की कोशिश करते हैं",
+          "Japanese": "話者が一般的に情報的で、真実で、関連性があり、明確であろうとするという考え"
+        },
+        "examples": [
+          {
+            "sentence": "Grice’s cooperative principle explains many conversational implicatures.",
+            "translation": {
+              "Hindi": "ग्रेस का सहयोगी सिद्धांत कई वार्तालाप निहितार्थों को समझाता है।",
+              "Japanese": "グライスの協調の原則は多くの会話における含意を説明する。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "flout",
+        "word_translation": {
+          "Hindi": "उपेक्षा करना",
+          "Japanese": "公然と無視する"
+        },
+        "meaning": "To deliberately break a conversational maxim to imply a deeper meaning",
+        "meaning_translation": {
+          "Hindi": "गहरे अर्थ का संकेत देने के लिए जानबूझकर वार्तालाप के नियम को तोड़ना",
+          "Japanese": "より深い意味を暗示するために会話の公理を意図的に破ること"
+        },
+        "examples": [
+          {
+            "sentence": "He flouted the maxim of quantity by giving too little information.",
+            "translation": {
+              "Hindi": "उसने बहुत कम जानकारी देकर मात्रा के नियम की उपेक्षा की।",
+              "Japanese": "彼は情報をほとんど与えず、量の公理を公然と無視した。"
+            }
+          }
+        ]
+      },
+      {
+        "word": "sarcasm",
+        "word_translation": {
+          "Hindi": "व्यंग्य",
+          "Japanese": "皮肉"
+        },
+        "meaning": "Using irony to mock or convey contempt, often flouting normal meaning",
+        "meaning_translation": {
+          "Hindi": "विडंबना का उपयोग करके उपहास या तिरस्कार व्यक्त करना, अक्सर सामान्य अर्थ को तोड़ते हुए",
+          "Japanese": "皮肉を使って嘲笑や軽蔑を表現すること、通常の意味を無視することが多い"
+        },
+        "examples": [
+          {
+            "sentence": "Saying 'Great job!' when someone fails is sarcasm.",
+            "translation": {
+              "Hindi": "'बहुत अच्छा किया!' कहना जब कोई असफल हो, व्यंग्य है।",
+              "Japanese": "誰かが失敗したときに「よくやった！」と言うのは皮肉だ。"
+            }
+          }
+        ]
+      }
     ],
     "grammar_tips": [
       {
-        "title": "Complex Sentences for Critical Analysis",
-        "explanation": "Use subordinate clauses to express relationships and nuances, e.g., 'Although the argument is compelling, it fails to address...' "
+        "title": "Conversational Implicature",
+        "explanation": "Implicature arises when a speaker implies something beyond the literal meaning, often following or violating Grice’s maxims.",
+        "explanation_translation": {
+          "Hindi": "अंतर्निहित अर्थ तब उत्पन्न होता है जब वक्ता शाब्दिक अर्थ से परे कुछ संकेत देता है, अक्सर ग्रेस के सिद्धांतों का पालन करते हुए या उन्हें तोड़ते हुए।",
+          "Japanese": "含意は、話者が文字通りの意味を超えて何かを暗示するときに生じ、しばしばグライスの公理に従ったり違反したりする。"
+        }
       },
       {
-        "title": "Nominalization in Academic Writing",
-        "explanation": "Transform verbs or adjectives into nouns for formal tone, e.g., 'to analyze' → 'analysis', 'certain' → 'certainty'."
+        "title": "Scalar Implicature",
+        "explanation": "When using terms like 'some', it implies 'not all'. Example: 'Some students passed' often suggests not all passed.",
+        "explanation_translation": {
+          "Hindi": "'कुछ' जैसे शब्दों का उपयोग करते समय, इसका अर्थ अक्सर 'सभी नहीं' होता है। उदाहरण: 'कुछ छात्र पास हुए' का मतलब अक्सर होता है कि सभी पास नहीं हुए।",
+          "Japanese": "「いくつか」のような語を使うとき、それはしばしば「すべてではない」を暗示する。例：「いくつかの学生が合格した」はしばしば全員が合格したわけではないことを示す。"
+        }
+      },
+      {
+        "title": "Presupposition Triggers",
+        "explanation": "Words like 'stop', 'again', 'too' trigger presuppositions. Example: 'She stopped smoking' presupposes she smoked before.",
+        "explanation_translation": {
+          "Hindi": "'रोकना', 'फिर से', 'भी' जैसे शब्द पूर्वधारणाएँ उत्पन्न करते हैं। उदाहरण: 'उसने धूम्रपान करना बंद कर दिया' यह पूर्वधारणा करता है कि वह पहले धूम्रपान करती थी।",
+          "Japanese": "「やめた」「また」「も」などの語は前提を引き起こす。例：「彼女は喫煙をやめた」は、彼女が以前喫煙していたことを前提としている。"
+        }
+      },
+      {
+        "title": "Inference Markers",
+        "explanation": "Expressions like 'therefore', 'so', 'must have' signal logical conclusions. Example: 'He must have left early' shows reasoning.",
+        "explanation_translation": {
+          "Hindi": "'इसलिए', 'तो', 'ज़रूर होगा' जैसे अभिव्यक्तियाँ तार्किक निष्कर्षों का संकेत देती हैं। उदाहरण: 'वह ज़रूर जल्दी चला गया होगा' तर्क दिखाता है।",
+          "Japanese": "「だから」「それで」「に違いない」などの表現は論理的な結論を示す。例：「彼は早く帰ったに違いない」は推論を示す。"
+        }
+      },
+      {
+        "title": "Politeness & Indirectness",
+        "explanation": "Native speakers often soften requests using indirectness. Example: 'Could you open the window?' instead of 'Open the window.'",
+        "explanation_translation": {
+          "Hindi": "मूल वक्ता अक्सर अनुरोधों को नरम करने के लिए अप्रत्यक्षता का उपयोग करते हैं। उदाहरण: 'क्या आप खिड़की खोल सकते हैं?' बजाय 'खिड़की खोलो।'",
+          "Japanese": "ネイティブは依頼を和らげるためによく間接的に言う。例：「窓を開けてもらえますか？」は「窓を開けて」に比べて丁寧。"
+        }
       }
-    ],
-    "example_sentences": [
-      { "sentence": "Epistemology explores how we acquire knowledge.", "translation": "" },
-      { "sentence": "The philosopher presented a paradox that challenged common beliefs.", "translation": "" },
-      { "sentence": "Determinism suggests that all actions are the result of prior causes.", "translation": "" },
-      { "sentence": "The ontological question remains central to many philosophical debates.", "translation": "" },
-      { "sentence": "Empiricism emphasizes observation and experience over theory.", "translation": "" }
     ]
   },
   "question_pools": {
@@ -39,110 +264,245 @@
       {
         "id": "vocab1",
         "type": "multipleChoice",
-        "question": "What does 'ontology' study?",
-        "options": ["Knowledge", "Existence", "Morality"],
-        "answer": 1
+        "question": "Which term refers to an implied meaning not explicitly stated?",
+        "question_translation": {
+          "Hindi": "कौन सा शब्द अप्रत्यक्ष रूप से व्यक्त अर्थ को संदर्भित करता है?",
+          "Japanese": "明示されていない含意を指す用語はどれですか？"
+        },
+        "options": [
+          "implicature",
+          "context",
+          "statement"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab2",
         "type": "fillInTheBlanks",
-        "question": "A(n) ___ is accepted as true without proof.",
-        "options": ["axiom", "paradox", "dialectic"],
+        "question": "From her silence, I made the ___ that she was upset.",
+        "question_translation": {
+          "Hindi": "उसकी चुप्पी से मैंने यह ___ लगाया कि वह परेशान थी।",
+          "Japanese": "彼女の沈黙から、彼女が怒っていると___しました。"
+        },
+        "options": [
+          "inference",
+          "sarcasm",
+          "contextualization"
+        ],
         "answer": 0
       },
       {
         "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which branch deals with reality's nature?",
-        "options": ["Metaphysics", "Empiricism", "Teleology"],
+        "type": "trueFalse",
+        "question": "Presuppositions are assumptions that must be true for a sentence to make sense.",
+        "question_translation": {
+          "Hindi": "पूर्वधारणाएँ वे धारणाएँ हैं जो किसी वाक्य को समझने योग्य बनाने के लिए सत्य होनी चाहिए।",
+          "Japanese": "前提は、文が意味を持つために真でなければならない仮定です。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
         "id": "vocab4",
-        "type": "trueFalse",
-        "question": "Solipsism holds that only one's own mind can be known to exist.",
-        "options": ["True", "False"],
-        "answer": 0
+        "type": "multipleChoice",
+        "question": "What does it mean to flout a conversational maxim?",
+        "question_translation": {
+          "Hindi": "वार्तालाप नियम की उपेक्षा करने का क्या अर्थ है?",
+          "Japanese": "会話の公理を無視するとはどういう意味ですか？"
+        },
+        "options": [
+          "Follow the rules strictly",
+          "Break it deliberately to imply something",
+          "Ignore the listener completely"
+        ],
+        "answer": 1
       },
       {
         "id": "vocab5",
-        "type": "multipleChoice",
-        "question": "Empiricism values knowledge from:",
-        "options": ["Logic", "Authority", "Experience"],
-        "answer": 2
+        "type": "fillInTheBlanks",
+        "question": "Using irony to mock someone is called ___.",
+        "question_translation": {
+          "Hindi": "किसी का मज़ाक उड़ाने के लिए विडंबना का उपयोग करना ___ कहलाता है।",
+          "Japanese": "皮肉を使って誰かをからかうことを___と言います。"
+        },
+        "options": [
+          "sarcasm",
+          "implicature",
+          "politeness"
+        ],
+        "answer": 0
       }
     ],
     "sentence": [
       {
         "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "___ is the study of knowledge and justified belief.",
-        "options": ["Epistemology", "Ontology", "Teleology"],
-        "answer": 0
+        "type": "sentenceRearranging",
+        "question": "Arrange: [must, he, have, early, left]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [must, he, have, early, left]",
+          "Japanese": "並べ替え: [must, he, have, early, left]"
+        },
+        "options": [
+          "must",
+          "he",
+          "have",
+          "early",
+          "left"
+        ],
+        "answer": [
+          "he",
+          "must",
+          "have",
+          "left",
+          "early"
+        ]
       },
       {
         "id": "sent2",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [philosophy, questions, metaphysical, explores, fundamental]",
-        "options": ["philosophy", "questions", "metaphysical", "explores", "fundamental"],
-        "answer": ["Philosophy", "explores", "fundamental", "metaphysical", "questions"]
+        "type": "fillInTheBlanks",
+        "question": "She ___ the maxim of quantity by saying too little.",
+        "question_translation": {
+          "Hindi": "उसने बहुत कम बोलकर मात्रा के नियम को ___।",
+          "Japanese": "彼女は少なすぎる情報を与えて量の公理を___しました。"
+        },
+        "options": [
+          "flouted",
+          "followed",
+          "ignored"
+        ],
+        "answer": 0
       },
       {
         "id": "sent3",
-        "type": "fillInTheBlanks",
-        "question": "A ___ often appears self-contradictory but can reveal deeper truths.",
-        "options": ["paradox", "axiom", "determinism"],
+        "type": "multipleChoice",
+        "question": "Which sentence shows a presupposition?",
+        "question_translation": {
+          "Hindi": "कौन सा वाक्य एक पूर्वधारणा दिखाता है?",
+          "Japanese": "どの文が前提を示していますか？"
+        },
+        "options": [
+          "She stopped eating sugar.",
+          "He is tall.",
+          "It’s raining."
+        ],
         "answer": 0
       },
       {
         "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "___ is a reasoning process involving dialogue and argument.",
-        "options": ["Empiricism", "Dialectic", "Solipsism"],
-        "answer": 1
+        "type": "sentenceRearranging",
+        "question": "Arrange: [some, students, passed]",
+        "question_translation": {
+          "Hindi": "व्यवस्थित करें: [some, students, passed]",
+          "Japanese": "並べ替え: [some, students, passed]"
+        },
+        "options": [
+          "some",
+          "students",
+          "passed"
+        ],
+        "answer": [
+          "some",
+          "students",
+          "passed"
+        ]
       },
       {
         "id": "sent5",
-        "type": "sentenceRearranging",
-        "question": "Arrange: [debate, determinism, in, is, central, philosophical, many]",
-        "options": ["debate", "determinism", "in", "is", "central", "philosophical", "many"],
-        "answer": ["Determinism", "is", "central", "in", "many", "philosophical", "debate"]
+        "type": "fillInTheBlanks",
+        "question": "The cooperative ___ explains why speakers usually stay relevant.",
+        "question_translation": {
+          "Hindi": "सहयोगी ___ समझाता है कि वक्ता आमतौर पर प्रासंगिक क्यों रहते हैं।",
+          "Japanese": "協調の___は、話者が通常なぜ関連性を保つかを説明します。"
+        },
+        "options": [
+          "principle",
+          "rule",
+          "tone"
+        ],
+        "answer": 0
       }
     ],
     "listening": [
       {
         "id": "listen1",
-        "type": "listening",
-        "question": "What is the focus of epistemology?",
-        "options": ["Being", "Knowledge", "Morality"],
+        "type": "multipleChoice",
+        "question": "What does the speaker imply when saying: 'Some people passed the test'?",
+        "audio_text": "Some people passed the test.",
+        "question_translation": {
+          "Hindi": "वक्ता 'कुछ लोग परीक्षा पास हुए' कहकर क्या संकेत देता है?",
+          "Japanese": "話者が「何人かの人がテストに合格した」と言うとき、何を暗示していますか？"
+        },
+        "options": [
+          "All people passed",
+          "Not everyone passed",
+          "No one passed"
+        ],
         "answer": 1
       },
       {
         "id": "listen2",
-        "type": "listening",
-        "question": "If something is described as 'teleological,' what does it relate to?",
-        "options": ["Purpose", "Experience", "Existence"],
+        "type": "multipleChoice",
+        "question": "What presupposition does the sentence carry: 'She stopped complaining'?",
+        "audio_text": "She stopped complaining.",
+        "question_translation": {
+          "Hindi": "'उसने शिकायत करना बंद कर दिया' वाक्य में क्या पूर्वधारणा है?",
+          "Japanese": "「彼女は不満を言うのをやめた」という文にはどのような前提がありますか？"
+        },
+        "options": [
+          "She used to complain",
+          "She never complained",
+          "She is complaining now"
+        ],
         "answer": 0
       },
       {
         "id": "listen3",
-        "type": "listening",
-        "question": "When a philosopher uses a paradox, what are they often trying to do?",
-        "options": ["Prove a fact", "Challenge assumptions", "Describe reality"],
-        "answer": 1
+        "type": "trueFalse",
+        "question": "The statement 'He must have left early' shows inference.",
+        "audio_text": "He must have left early.",
+        "question_translation": {
+          "Hindi": "'वह ज़रूर जल्दी चला गया होगा' कथन अनुमान दिखाता है।",
+          "Japanese": "「彼は早く帰ったに違いない」という文は推論を示しています。"
+        },
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0
       },
       {
         "id": "listen4",
-        "type": "listening",
-        "question": "What does determinism suggest about human actions?",
-        "options": ["They are free", "They are random", "They are caused by prior events"],
-        "answer": 2
+        "type": "multipleChoice",
+        "question": "What does the speaker likely want when saying: 'It’s chilly here'?",
+        "audio_text": "It's chilly here.",
+        "question_translation": {
+          "Hindi": "वक्ता 'यहाँ ठंड है' कहकर संभवतः क्या चाहता है?",
+          "Japanese": "話者が「ここは寒い」と言うとき、おそらく何を望んでいますか？"
+        },
+        "options": [
+          "To close a window",
+          "To turn on a fan",
+          "To leave the room"
+        ],
+        "answer": 0
       },
       {
         "id": "listen5",
-        "type": "listening",
-        "question": "What is an axiom?",
-        "options": ["A proven fact", "A statement accepted without proof", "A debated opinion"],
+        "type": "multipleChoice",
+        "question": "When the speaker says 'Great job!' after a failure, what is it?",
+        "audio_text": "Great job!",
+        "question_translation": {
+          "Hindi": "जब वक्ता असफलता के बाद 'बहुत अच्छा किया!' कहता है, तो यह क्या है?",
+          "Japanese": "失敗した後に話者が「よくやった！」と言うのは何ですか？"
+        },
+        "options": [
+          "Literal praise",
+          "Sarcasm",
+          "Inference"
+        ],
         "answer": 1
       }
     ],
@@ -150,37 +510,57 @@
       {
         "id": "speak1",
         "type": "speaking",
-        "question": "Summarize the main idea of a philosophical text you have read.",
+        "question": "Say: 'The implicature was clear to me.'",
+        "question_translation": {
+          "Hindi": "कहें: 'The implicature was clear to me.'",
+          "Japanese": "言ってください: 'The implicature was clear to me.'"
+        },
         "options": [],
-        "answer": "The main idea of the philosophical text is..."
+        "answer": "the implicature was clear to me"
       },
       {
         "id": "speak2",
         "type": "speaking",
-        "question": "Explain the difference between ontology and epistemology.",
+        "question": "Say: 'I made an inference from her tone.'",
+        "question_translation": {
+          "Hindi": "कहें: 'I made an inference from her tone.'",
+          "Japanese": "言ってください: 'I made an inference from her tone.'"
+        },
         "options": [],
-        "answer": "Ontology is the study of being and existence, while epistemology is the study of knowledge and belief."
+        "answer": "i made an inference from her tone"
       },
       {
         "id": "speak3",
         "type": "speaking",
-        "question": "Use 'paradox' in a sentence related to philosophy.",
+        "question": "Say: 'She flouted the maxim of relevance.'",
+        "question_translation": {
+          "Hindi": "कहें: 'She flouted the maxim of relevance.'",
+          "Japanese": "言ってください: 'She flouted the maxim of relevance.'"
+        },
         "options": [],
-        "answer": "The paradox in the philosopher's argument made me think more deeply."
+        "answer": "she flouted the maxim of relevance"
       },
       {
         "id": "speak4",
         "type": "speaking",
-        "question": "Describe a philosophical debate using the word 'dialectic'.",
+        "question": "Say: 'Context is essential for pragmatics.'",
+        "question_translation": {
+          "Hindi": "कहें: 'Context is essential for pragmatics.'",
+          "Japanese": "言ってください: 'Context is essential for pragmatics.'"
+        },
         "options": [],
-        "answer": "The dialectic between the two philosophers led to new insights."
+        "answer": "context is essential for pragmatics"
       },
       {
         "id": "speak5",
         "type": "speaking",
-        "question": "Discuss how empiricism influences modern science.",
+        "question": "Say: 'That remark was pure sarcasm.'",
+        "question_translation": {
+          "Hindi": "कहें: 'That remark was pure sarcasm.'",
+          "Japanese": "言ってください: 'That remark was pure sarcasm.'"
+        },
         "options": [],
-        "answer": "Empiricism influences modern science by emphasizing the importance of observation and experience."
+        "answer": "that remark was pure sarcasm"
       }
     ]
   }
