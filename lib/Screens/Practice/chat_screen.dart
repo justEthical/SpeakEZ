@@ -87,13 +87,13 @@ class _ChatScreenState extends State<ChatScreen> {
             widget.scenarioModel.title,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.black87,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
             ),
           ),
           leading: IconButton(
-            icon: const Icon(
+            icon:  Icon(
               Icons.arrow_back_ios_new_rounded,
-              color: Colors.black54,
+              color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
             ),
             onPressed: () {
               isBottomSheetOpen = true;
@@ -135,18 +135,18 @@ class _ChatScreenState extends State<ChatScreen> {
                               );
                             },
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Theme.of(context).primaryColor,
+                              backgroundColor: Theme.of(context).colorScheme.primary,
                               minimumSize: const Size(double.infinity, 50),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
                               ),
                             ),
-                            child: const Text(
+                            child: Text(
                               "View Results",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 18,
-                                color: Colors.white,
+                                color: Theme.of(context).colorScheme.onPrimary,
                               ),
                             ),
                           ),

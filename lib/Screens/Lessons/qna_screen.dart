@@ -92,7 +92,7 @@ class QnaScreen extends StatelessWidget {
                         question.audioText != null 
                             ? ElevatedButton(
                               style:  ElevatedButton.styleFrom(
-                                backgroundColor: Colors.deepPurple
+                                backgroundColor: Theme.of(context).colorScheme.primary
                               ),
                               onPressed: () {
                                 PostHogService.instance.captureClick(
@@ -110,7 +110,7 @@ class QnaScreen extends StatelessWidget {
                               },
                               child: Text(
                                 "Listen 🔊",
-                                style: TextStyle(color: Colors.white),
+                                style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                               ),
                             )
                             : SizedBox(),

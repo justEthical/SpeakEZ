@@ -62,10 +62,10 @@ class VocalbularyScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _progressIndicator(),
+              _progressIndicator(context),
               SizedBox(height: 18),
               _content(),
-              _bottomButtons(),
+              _bottomButtons(context),
             ],
           ),
         ),
@@ -73,7 +73,7 @@ class VocalbularyScreen extends StatelessWidget {
     );
   }
 
-  Widget _progressIndicator() {
+  Widget _progressIndicator(context) {
     final c = Get.find<QuestionOptionsController>();
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
     if (vocabulary.isEmpty) return const SizedBox.shrink();
@@ -93,7 +93,7 @@ class VocalbularyScreen extends StatelessWidget {
                   border: Border.all(color: Colors.grey, width: 0.4),
                   color:
                       e <= c.currentWordMeaningIndex.value
-                          ? Colors.deepPurple
+                          ? Theme.of(context).colorScheme.primary
                           : Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -138,7 +138,7 @@ class VocalbularyScreen extends StatelessWidget {
     );
   }
 
-  Widget _bottomButtons() {
+  Widget _bottomButtons(context) {
     final c = Get.find<QuestionOptionsController>();
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
     
@@ -157,7 +157,7 @@ class VocalbularyScreen extends StatelessWidget {
                       c.currentWordMeaningIndex.value--;
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurple,
+                      backgroundColor: Theme.of(context).colorScheme.primary,
                       fixedSize: Size(100, 40),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -188,7 +188,7 @@ class VocalbularyScreen extends StatelessWidget {
             }
           },
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.deepPurple,
+            backgroundColor: Theme.of(context).colorScheme.primary,
             fixedSize: Size(100, 40),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),

@@ -51,9 +51,9 @@ class ResultScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   const Spacer(flex: 2),
-                  _buildHeaderText(),
+                  _buildHeaderText(context),
                   const SizedBox(height: 16),
-                  _buildResultText(c, accuracy),
+                  _buildResultText(c, accuracy, context),
                   const Spacer(flex: 1),
                   _buildCenterAnimation(accuracy), // Center animation(),
                   const Spacer(flex: 2),
@@ -75,7 +75,7 @@ class ResultScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 24),
-                  _buildDoneButton(),
+                  _buildDoneButton(context  ),
                   const Spacer(flex: 1),
                 ],
               ),
@@ -86,24 +86,24 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildHeaderText() {
+  Widget _buildHeaderText(context) {
     return Text(
       "Lesson Completed",
       textAlign: TextAlign.center,
       style: GoogleFonts.nunito(
         fontSize: 28,
         fontWeight: FontWeight.w800,
-        color: Colors.black87,
+        color: Theme.of(context).textTheme.bodyMedium?.color,
       ),
     );
   }
 
-  Widget _buildResultText(QuestionOptionsController c, double accuracy) {
+  Widget _buildResultText(QuestionOptionsController c, double accuracy, context) {
     return Text(
       c.getResultScreenText(accuracy),
       textAlign: TextAlign.center,
       style: GoogleFonts.nunito(
-        color: Colors.black54,
+        color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
         fontSize: 18,
         fontWeight: FontWeight.w600,
       ),
@@ -201,7 +201,7 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildDoneButton() {
+  Widget _buildDoneButton(context) {
     return ElevatedButton(
       onPressed: () {
         Get.find<QuestionOptionsController>().isFromRetest = false;
@@ -215,7 +215,7 @@ class ResultScreen extends StatelessWidget {
         Get.delete<QuestionOptionsController>(force: true);
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.onSurface,
         fixedSize: const Size(double.infinity, 55),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
         textStyle: GoogleFonts.nunito(
@@ -223,7 +223,7 @@ class ResultScreen extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      child: const Text("Done", style: TextStyle(color: Colors.white)),
+      child: Text("Done", style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor)),
     );
   }
 }

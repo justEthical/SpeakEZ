@@ -19,9 +19,10 @@ class AnswerResultBottomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
     return Container(
+      
       padding: EdgeInsets.all(15),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(  context).scaffoldBackgroundColor,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20),
           topRight: Radius.circular(20),
@@ -74,7 +75,7 @@ class AnswerResultBottomSheet extends StatelessWidget {
                 c.moveToNextQuestion();
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black,
+                backgroundColor: Theme.of(context).colorScheme.onSurface,
                 fixedSize: Size(Get.width - 30, 55),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(45),
@@ -84,7 +85,7 @@ class AnswerResultBottomSheet extends StatelessWidget {
                 "Next",
                 style: TextStyle(
                   fontFamily: AppStrings.nunitoFont,
-                  color: Colors.white,
+                  color: Theme.of(context).scaffoldBackgroundColor,
                 ),
               ),
             ),

@@ -108,7 +108,7 @@ class OnboardingScreen extends StatelessWidget {
                               },
                               child: Text(
                                 "Previous",
-                                style: TextStyle(color: Colors.white),
+                                style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                               ),
                             )
                             : SizedBox(),
@@ -139,7 +139,7 @@ class OnboardingScreen extends StatelessWidget {
                       }
                       c.currentOnboardingIndex.value++;
                     },
-                    child: Text("Next", style: TextStyle(color: Colors.white)),
+                    child: Text("Next", style: TextStyle(color: Theme.of(context).colorScheme.onPrimary)),
                   ),
                 ],
               ),

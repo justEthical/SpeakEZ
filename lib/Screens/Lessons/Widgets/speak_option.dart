@@ -39,7 +39,7 @@ class _SpeakOptionState extends State<SpeakOption> {
                         ? Text(
                           "Tap to stop",
                           style: TextStyle(
-                            color: Colors.deepPurple,
+                            color: Theme.of(context).colorScheme.primary,
                             fontSize: 12,
                             fontStyle: FontStyle.italic,
                             fontWeight: FontWeight.w600,
@@ -55,10 +55,10 @@ class _SpeakOptionState extends State<SpeakOption> {
                             color:
                                 c.isListeningLessonAnswer.value
                                     ? Colors.grey.shade200
-                                    : Colors.deepPurple,
+                                    : Theme.of(context).colorScheme.primary,
                             borderRadius: BorderRadius.circular(100),
                             border: Border.all(
-                              color: Colors.deepPurple,
+                              color: Theme.of(context).colorScheme.primary,
                               width: 0.4,
                             ),
                           ),
@@ -78,10 +78,10 @@ class _SpeakOptionState extends State<SpeakOption> {
                               color:
                                   c.isListeningLessonAnswer.value
                                       ? Colors.grey.shade200
-                                      : Colors.deepPurple,
+                                      : Theme.of(context).colorScheme.primary,
                               borderRadius: BorderRadius.circular(100),
                               border: Border.all(
-                                color: Colors.deepPurple,
+                                color: Theme.of(context).colorScheme.primary,
                                 width: 0.4,
                               ),
                             ),
@@ -103,7 +103,7 @@ class _SpeakOptionState extends State<SpeakOption> {
                           ? "Processing..."
                           : "Listening...",
                       style: TextStyle(
-                        color: Colors.deepPurple,
+                        color: Theme.of(context).colorScheme.primary,
                         fontSize: 12,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w600,
@@ -116,7 +116,7 @@ class _SpeakOptionState extends State<SpeakOption> {
                     color:
                         c.isListeningLessonAnswer.value
                             ? Colors.white
-                            : Colors.deepPurple,
+                            : Theme.of(context).colorScheme.primary,
                     borderRadius: BorderRadius.circular(100),
                   ),
                   child: IconButton(
@@ -125,14 +125,14 @@ class _SpeakOptionState extends State<SpeakOption> {
                           await Permission.microphone.request();
                       if (micPermission.isGranted) {
                         // if(globalController.isWhisperInitialized.value){
-                          c.startRecording();
+                          // c.startRecording();
                         // }else{
                           // used when whisper model is not initialized or not present
-                          // c.googleSpeechToText();
+                          c.googleSpeechToText();
                         // }
                       }
                     },
-                    icon: Icon(Icons.mic, color: Colors.white, size: 40),
+                    icon: Icon(Icons.mic, color: Theme.of(context).colorScheme.onPrimary, size: 40),
                   ),
                 ),
       ),

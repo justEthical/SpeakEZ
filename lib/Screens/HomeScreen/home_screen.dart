@@ -60,7 +60,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F6FA),
       appBar: _HomeAppBar(animationController: _staggerController),
       body: SingleChildScrollView(
         child: Padding(
@@ -149,7 +148,6 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: const Color(0xFFF5F6FA),
       elevation: 0,
       title: FadeTransition(
         opacity: Tween<double>(
@@ -171,7 +169,7 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
             () => Text(
               "Hi, ${globalController.userProfile.value.displayName}!",
               style: GoogleFonts.nunito(
-                color: Colors.black87,
+                color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontWeight: FontWeight.w800,
                 fontSize: 22,
               ),
@@ -205,7 +203,7 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                 },
                 child: SvgPicture.asset(
                   AppAssets.settings,
-                  colorFilter: const ColorFilter.mode(Colors.black54, BlendMode.srcIn),
+                  colorFilter:  ColorFilter.mode(Theme.of(context).colorScheme.onSurface, BlendMode.srcIn),
                 ),
               ),
             ),
@@ -259,7 +257,7 @@ class _LearnByLevelSection extends StatelessWidget {
     showModalBottomSheet(
       context: context,
       showDragHandle: true,
-      backgroundColor: Colors.white,
+      backgroundColor: Theme.of(  context).scaffoldBackgroundColor,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
@@ -282,16 +280,16 @@ class _LearnByLevelSection extends StatelessWidget {
                 style: GoogleFonts.nunito(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
-                  color: Colors.black.withValues(alpha: 0.7),
+                  color: Theme.of(context).textTheme.bodyMedium?.color?.withOpacity(0.7),
                 ),
               ),
               const Spacer(),
               TextButton(
                 onPressed: () => _showLevelInfoSheet(context),
-                child: const Text(
+                child: Text(
                   "See all",
                   style: TextStyle(
-                    color: Colors.deepPurple,
+                    color: Theme.of(context).colorScheme.primary,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

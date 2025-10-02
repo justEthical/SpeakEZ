@@ -32,7 +32,7 @@ class _ResultTileState extends State<ResultTile> {
           child: Container(
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.onSecondary,
               borderRadius: BorderRadius.circular(10),
             ),
             padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
@@ -45,7 +45,7 @@ class _ResultTileState extends State<ResultTile> {
                       height: 50,
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: Colors.deepPurple,
+                        color: Theme.of(context).colorScheme.primary,
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: const [
                           BoxShadow(
@@ -59,7 +59,7 @@ class _ResultTileState extends State<ResultTile> {
                       padding: EdgeInsets.all(widget.padding),
                       child: SvgPicture.asset(
                         widget.icon,
-                        color: Colors.white,
+                        color: Theme.of(context).colorScheme.onPrimary,
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -72,10 +72,10 @@ class _ResultTileState extends State<ResultTile> {
                             ? const SizedBox()
                             : Text(
                               widget.heading,
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontSize: 12,
                                 fontWeight: FontWeight.w400,
-                                color: Colors.deepPurple
+                                color: Theme.of(context).colorScheme.primary
                               ),
                             ),
                         const SizedBox(height: 5),

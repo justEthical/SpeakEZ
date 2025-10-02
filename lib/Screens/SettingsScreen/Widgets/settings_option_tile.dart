@@ -40,7 +40,7 @@ class _SettingsOptionTileState extends State<SettingsOptionTile> {
           child: Container(
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.onSecondary,
               borderRadius: BorderRadius.circular(10),
             ),
             padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
@@ -53,7 +53,7 @@ class _SettingsOptionTileState extends State<SettingsOptionTile> {
                       height: 50,
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: Colors.deepPurple,
+                        color: Theme.of(context).colorScheme.primary,
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: const [
                           BoxShadow(
@@ -65,7 +65,7 @@ class _SettingsOptionTileState extends State<SettingsOptionTile> {
                         ],
                       ),
                       padding: const EdgeInsets.all(10),
-                      child: SvgPicture.asset(widget.icon, color: Colors.white),
+                      child: SvgPicture.asset(widget.icon, color: Theme.of(context).colorScheme.onPrimary),
                     ),
                     const SizedBox(width: 20),
                     Column(

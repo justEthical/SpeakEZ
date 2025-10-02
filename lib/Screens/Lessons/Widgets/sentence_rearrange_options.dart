@@ -75,14 +75,14 @@ class _SentenceRearrangeOptionsState extends State<SentenceRearrangeOptions> {
                                 vertical: 5,
                               ),
                               decoration: BoxDecoration(
-                                color: Colors.deepPurple,
+                                color: Theme.of(context).colorScheme.primary,
                                 borderRadius: BorderRadius.circular(5),
                               ),
                               child: Text(
                                 "${c.sentenceRearrangeTempList[index]} ",
                                 style: TextStyle(
                                   fontSize: 16,
-                                  color: Colors.white,
+                                  color: Theme.of(context).colorScheme.onPrimary,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -123,7 +123,7 @@ class _SentenceRearrangeOptionsState extends State<SentenceRearrangeOptions> {
                     "${c.sentenceRearrangeOptionList[index]} ",
                     style: TextStyle(
                       fontSize: 16,
-                      color: Colors.white,
+                      color: Theme.of(context).colorScheme.onPrimary,
                       fontWeight: FontWeight.bold,
                     ),
                   ),

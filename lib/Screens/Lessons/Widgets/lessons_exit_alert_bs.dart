@@ -13,7 +13,6 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     return Container(
       padding: EdgeInsets.all(15),
-      color: Colors.white,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -31,7 +30,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
                 : "Are you sure you want to exit and discard your current lessson's progress?",
             textAlign: TextAlign.center,
             style: TextStyle(
-              color: Colors.black,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
               fontSize: c.isUnlockTest ? 16 : 20,
               fontWeight: FontWeight.w700,
             ),
@@ -46,7 +45,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
             ),
             child: Text(
               c.isUnlockTest ?  "Continue Test" : "Continue learning",
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
             ),
           ),
           SizedBox(height: 12),

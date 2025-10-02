@@ -80,7 +80,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
               borderRadius: BorderRadius.circular(100),
               color: Colors.grey.shade300,
             ),
-            child: Icon(Icons.close, color: Colors.black),
+            child: Icon(Icons.close, color: Theme.of(context).scaffoldBackgroundColor),
           ),
         ),
       ),
@@ -145,7 +145,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                     ElevatedButton(
                       onPressed: _navigateToQuestions,
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.deepPurple,
+                        backgroundColor: Theme.of(context).colorScheme.primary,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
@@ -154,7 +154,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                       child: Text(
                         "Start",
                         style: GoogleFonts.poppins(
-                          color: Colors.white,
+                          color: Theme.of(context).colorScheme.onPrimary,
                           fontWeight: FontWeight.w600,
                         ),
                       ),

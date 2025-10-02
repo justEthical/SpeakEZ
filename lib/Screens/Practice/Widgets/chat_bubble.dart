@@ -42,10 +42,10 @@ class ChatBubble extends StatelessWidget {
                 child: Container(
                   margin: EdgeInsets.only(bottom: 10),
                   decoration: BoxDecoration(
-                    gradient: const LinearGradient(
+                    gradient: LinearGradient(
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
-                      colors: [Colors.deepPurpleAccent, Colors.deepPurple],
+                      colors: [Colors.deepPurpleAccent, Theme.of(context).colorScheme.primary],
                     ),
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(10),
@@ -56,7 +56,7 @@ class ChatBubble extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   child: Text(
                     chatModel.message,
-                    style: TextStyle(color: Colors.white, fontSize: 15),
+                    style: TextStyle(color: Theme.of(context).colorScheme.onPrimary, fontSize: 15),
                   ),
                 ),
               ),
@@ -97,7 +97,7 @@ class ChatBubble extends StatelessWidget {
               padding: const EdgeInsets.all(10),
               child: Text(
               chatModel.message,
-                style: TextStyle(color: Colors.white, fontSize: 15),
+                style: TextStyle(color: Theme.of(context).colorScheme.onPrimary, fontSize: 15),
               ),
             ),
           ) : ConstrainedBox(
@@ -105,13 +105,13 @@ class ChatBubble extends StatelessWidget {
             child: Container(
               margin: EdgeInsets.only(bottom: 10),
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.onSecondary,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(10),
                   topRight: Radius.circular(10),
                   bottomLeft: Radius.circular(10),
                 ),
-                border: Border.all(color: Colors.deepPurple),
+                border: Border.all(color: Theme.of(context).colorScheme.primary),
               ),
               padding: const EdgeInsets.all(10),
               child: Column(
@@ -119,7 +119,7 @@ class ChatBubble extends StatelessWidget {
                 children: [
                   Text(
                   chatModel.message,
-                    style: TextStyle(color: Colors.black, fontSize: 15),
+                    style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color, fontSize: 15),
                   ),
                   Divider(),
                   Text(
