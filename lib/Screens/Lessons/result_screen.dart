@@ -215,7 +215,7 @@ class ResultScreen extends StatelessWidget {
         Get.delete<QuestionOptionsController>(force: true);
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.onSurface,
         fixedSize: const Size(double.infinity, 55),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
         textStyle: GoogleFonts.nunito(
@@ -223,7 +223,7 @@ class ResultScreen extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      child: Text("Done", style: TextStyle(color: Theme.of(context).colorScheme.onPrimary)),
+      child: Text("Done", style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor)),
     );
   }
 }

@@ -15,7 +15,7 @@ class CustomDialogs {
       child: Container(
         // padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).scaffoldBackgroundColor,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Column(
@@ -75,7 +75,7 @@ class CustomDialogs {
       child: Container(
         // padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).scaffoldBackgroundColor  ,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Column(
@@ -112,7 +112,7 @@ class CustomDialogs {
       child: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).scaffoldBackgroundColor,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Column(
@@ -173,7 +173,7 @@ class CustomDialogs {
       child: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).scaffoldBackgroundColor,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Column(
@@ -265,6 +265,5 @@ class CustomDialogs {
       ),
     );
   }
-
 
 }
