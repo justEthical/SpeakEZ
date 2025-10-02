@@ -46,14 +46,14 @@ class _LoginSignUpSwitchState extends State<LoginSignUpSwitch> {
                       right: !c.isloginForm.value ? 0 : switchButtonWidth),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Colors.white),
+                      color: Theme.of(context).colorScheme.primary),
                   child: Center(
                       child: Text(
                     c.switchButtonText.value,
-                    style: const TextStyle(
+                    style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
-                        color: Colors.black),
+                        color: Colors.white),
                   )),
                 )),
           ],

@@ -18,7 +18,7 @@ class ContinueButton extends StatelessWidget {
       child: Obx(
         () => ElevatedButton(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.black,
+            backgroundColor: Theme.of(context).colorScheme.onSurface,
             fixedSize: Size(Get.width, 55),
           ),
           onPressed:
@@ -38,11 +38,19 @@ class ContinueButton extends StatelessWidget {
                         );
                         break;
                       case QuestionType.speaking:
-                      final speakingAccuracy = c.calculateAccuracy(question.answer, globalController.transcriptionText.value.trim());
-                      _playAudio(c.isSpeakingQuestionAccurate(speakingAccuracy), c);  
+                        final speakingAccuracy = c.calculateAccuracy(
+                          question.answer,
+                          globalController.transcriptionText.value.trim(),
+                        );
+                        _playAudio(
+                          c.isSpeakingQuestionAccurate(speakingAccuracy),
+                          c,
+                        );
                         c.showAnswerResultBottomSheet(
-                            isAnswerCorrect: c.isSpeakingQuestionAccurate(speakingAccuracy),
-                            correctAnswer: question.answer
+                          isAnswerCorrect: c.isSpeakingQuestionAccurate(
+                            speakingAccuracy,
+                          ),
+                          correctAnswer: question.answer,
                         );
                         break;
                       default:
@@ -57,19 +65,25 @@ class ContinueButton extends StatelessWidget {
                         break;
                     }
                   },
-          child: Text("Check", style: TextStyle(color: Colors.white)),
+          child: Text(
+            "Check",
+            style: TextStyle(
+              color: Theme.of(context).scaffoldBackgroundColor,
+              fontWeight: FontWeight.w600,
+              fontSize: 15,
+            ),
+          ),
         ),
       ),
     );
   }
 
   void _playAudio(bool isAnswerCorrect, QuestionOptionsController c) {
-
     if (isAnswerCorrect) {
-                          c.correctAnswer++;
-                          FlameAudio.play(AppAssets.correct);
-                        } else {
-                          FlameAudio.play(AppAssets.incorrect);
-                        }
+      c.correctAnswer++;
+      FlameAudio.play(AppAssets.correct);
+    } else {
+      FlameAudio.play(AppAssets.incorrect);
+    }
   }
 }

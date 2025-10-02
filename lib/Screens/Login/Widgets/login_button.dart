@@ -26,17 +26,17 @@ class SubmitButton extends StatelessWidget {
         fixedSize: Size(Get.width - 40, 50),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
-          side: const BorderSide(width: 0.56, color: Colors.deepPurple),
+          side:  BorderSide(width: 0.56, color: Theme.of(context).colorScheme.primary),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       ),
       child: Center(
         child: Text(
           title.toString(),
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w400,
-            color: Colors.deepPurple,
+            color: Theme.of(context).colorScheme.primary,
           ),
         ),
       ),
@@ -69,7 +69,7 @@ class GoogleLoginButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           side: const BorderSide(width: 0.56, color: Colors.black),
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.onSurface,
       ),
       child: Center(
         child: Row(
@@ -79,12 +79,12 @@ class GoogleLoginButton extends StatelessWidget {
               padding: const EdgeInsets.all(10.0),
               child: SvgPicture.asset(AppAssets.google),
             ),
-            const Text(
+             Text(
               "Login with Google",
               style: TextStyle(
                 fontSize: 16,
                 // fontWeight: FontWeight.w600,
-                color: Colors.white,
+                color: Theme.of(context).scaffoldBackgroundColor,
               ),
             ),
           ],

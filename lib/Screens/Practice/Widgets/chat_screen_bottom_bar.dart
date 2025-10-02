@@ -27,7 +27,7 @@ class ChatScreenBottomBar extends StatelessWidget {
                         c.stopRecording();
                       },
                       icon: Icon(Icons.close),
-                      color: Colors.grey,
+                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                     )
                     : SizedBox(),
           ),
@@ -82,7 +82,7 @@ class ChatScreenBottomBar extends StatelessWidget {
                             ? Icons.play_arrow
                             : Icons.pause,
                       ),
-                      color: Colors.grey,
+                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                     )
                     : SizedBox(),
           ),

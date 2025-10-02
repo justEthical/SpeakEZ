@@ -13,7 +13,7 @@ class ExitAlertChatBottomSheet extends StatelessWidget {
     final c = Get.find<PracticeController>();
     return Container(
       padding: EdgeInsets.all(15),
-      color: Colors.white,
+      color: Theme.of(context).scaffoldBackgroundColor,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -29,7 +29,7 @@ class ExitAlertChatBottomSheet extends StatelessWidget {
             "Are you sure you want to exit and End this conversation",
             textAlign: TextAlign.center,
             style: TextStyle(
-              color: Colors.black,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
               fontSize: 20,
               fontWeight: FontWeight.w700,
             ),
@@ -44,7 +44,7 @@ class ExitAlertChatBottomSheet extends StatelessWidget {
             ),
             child: Text(
               "Continue learning",
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
             ),
           ),
           SizedBox(height: 12),

@@ -46,20 +46,9 @@ class VocabularyData extends StatelessWidget {
           ),
           SizedBox(height: 8),
           Center(
-            child: Container(
-              padding: EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: Colors.grey, width: 0.4),
-                color: Colors.grey[200],
-              ),
-              child: Text(
-                vocabularyItem.wordTranslation!["Hindi"].toString(),
-                style: GoogleFonts.poppins(
-                  fontSize: 16,
-                  fontWeight: FontWeight.normal,
-                ),
-              ),
+            child: TranslationTextView(
+              text: vocabularyItem.wordTranslation!["Hindi"].toString(),
+              
             ),
           ),
           SizedBox(height: 18),

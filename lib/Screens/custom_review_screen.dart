@@ -23,7 +23,7 @@ class CustomReviewScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(100),
               color: Colors.grey.shade300,
             ),
-            child: Icon(Icons.close, color: Colors.black),
+            child: Icon(Icons.close, color: Theme.of(context).textTheme.bodyMedium?.color),
           ),
         ),
       ),
@@ -42,7 +42,7 @@ class CustomReviewScreen extends StatelessWidget {
                 "Please rate your experience",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black54,
+                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
                 ),
@@ -55,7 +55,7 @@ class CustomReviewScreen extends StatelessWidget {
                 AppStrings.reviewRequest,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Theme.of(context).textTheme.bodyMedium?.color,
                   fontSize: 16,
                   fontWeight: FontWeight.w800,
                 ),
@@ -96,7 +96,7 @@ class _HighlightButtonState extends State<HighlightButton>
     )..repeat(reverse: true);
 
     _colorAnimation = ColorTween(
-      begin: Colors.deepPurple,
+      begin: Theme.of(context).colorScheme.primary,
       end: Colors.deepPurple.shade700, // highlight color
     ).animate(_controller);
   }

@@ -85,13 +85,13 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 gradient: LinearGradient(
-                  colors: [Colors.deepPurple, Color(0xFF4A90E2)],
+                  colors: [Theme.of(context).colorScheme.primary, Color(0xFF4A90E2)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.deepPurple.withOpacity(0.3),
+                    color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
                     blurRadius: 15,
                     offset: const Offset(0, 5),
                   ),
@@ -211,7 +211,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                     style: GoogleFonts.nunito(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w800,
-                                      color: Colors.deepPurple,
+                                      color: Theme.of(context).colorScheme.primary,
                                     ),
                                   ),
                                 ),

@@ -34,7 +34,6 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F6FA),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -68,7 +67,7 @@ class _Header extends StatelessWidget {
             style: GoogleFonts.nunito(
               fontSize: 28,
               fontWeight: FontWeight.w800,
-              color: Colors.black87,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
             ),
           ),
           const SizedBox(height: 15),
@@ -76,14 +75,14 @@ class _Header extends StatelessWidget {
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
-              color: Colors.deepPurple.withOpacity(0.1),
+              color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
             ),
             child: Row(
               children: [
                 CircleAvatar(
                   radius: 25,
-                  backgroundColor: Colors.deepPurple,
-                  child: const Icon(Icons.rocket_launch_rounded, color: Colors.white),
+                  backgroundColor: Theme.of(context).colorScheme.primary,
+                  child: Icon(Icons.rocket_launch_rounded, color: Theme.of(context).colorScheme.onPrimary),
                 ),
                 const SizedBox(width: 15),
                 Expanded(
@@ -95,7 +94,7 @@ class _Header extends StatelessWidget {
                         style: GoogleFonts.nunito(
                           fontWeight: FontWeight.w700,
                           fontSize: 18,
-                          color: Colors.deepPurple,
+                          color: Theme.of(context).colorScheme.primary,
                         ),
                       ),
                       const SizedBox(height: 4),
@@ -104,7 +103,7 @@ class _Header extends StatelessWidget {
                         style: GoogleFonts.nunito(
                           fontWeight: FontWeight.w600,
                           fontSize: 14,
-                          color: Colors.black54,
+                          color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                         ),
                       ),
                     ],
@@ -161,7 +160,7 @@ class _DownloadingState extends StatelessWidget {
               "Downloading Natasha AI…",
               textAlign: TextAlign.center,
               style: GoogleFonts.nunito(
-                color: Colors.black87,
+                color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
               ),
@@ -171,7 +170,7 @@ class _DownloadingState extends StatelessWidget {
                   "The download is about 60 MB. Please keep the app open. (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
                   textAlign: TextAlign.center,
                   style: GoogleFonts.nunito(
-                    color: Colors.black54,
+                    color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
                   ),
@@ -182,7 +181,7 @@ class _DownloadingState extends StatelessWidget {
                   child: LinearProgressIndicator(
                     value: globalController.aiModelDownloadProgress.value / 100,
                     backgroundColor: Colors.grey.shade300,
-                    valueColor: const AlwaysStoppedAnimation<Color>(Colors.deepPurple),
+                    valueColor:  AlwaysStoppedAnimation<Color>(Theme.of(context).colorScheme.primary),
                   ),
                 )),
           ],

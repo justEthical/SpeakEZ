@@ -32,7 +32,7 @@ class PracticeResultSreen extends StatelessWidget {
 
         actions: [
           IconButton(
-            icon: Icon(Icons.share_outlined, color: Colors.black54),
+            icon: Icon(Icons.share_outlined, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6)),
             onPressed: () async {
               CustomLoader.showLoader();
               await c.captureAndShare(globalKey);
@@ -57,7 +57,7 @@ class PracticeResultSreen extends StatelessWidget {
                     const SizedBox(height: 24),
                     _buildMotivationCard(context, theme),
                     const SizedBox(height: 24),
-                    _buildFeedbackSection(c),
+                    _buildFeedbackSection(c, context),
                   ],
                 ),
               ),
@@ -79,14 +79,14 @@ class PracticeResultSreen extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [Colors.deepPurple, theme.primaryColor],
+          colors: [Theme.of(context).colorScheme.primary, theme.primaryColor],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.deepPurple.withOpacity(0.3),
+            color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
             blurRadius: 15,
             offset: const Offset(0, 5),
           ),
@@ -122,9 +122,9 @@ class PracticeResultSreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.deepPurple.withOpacity(0.05),
+        color: Theme.of(context).colorScheme.primary.withOpacity(0.05),
         borderRadius: BorderRadius.circular(15),
-        border: Border.all(color: Colors.deepPurple.withOpacity(0.1)),
+        border: Border.all(color: Theme.of(context).colorScheme.primary.withOpacity(0.1)),
       ),
       child: Text(
         result.motivation,
@@ -132,14 +132,14 @@ class PracticeResultSreen extends StatelessWidget {
         style: GoogleFonts.nunito(
           fontSize: 16,
           fontWeight: FontWeight.w600,
-          color: Colors.black87,
+          color: Theme.of(context).textTheme.bodyMedium?.color,
           fontStyle: FontStyle.italic,
         ),
       ),
     );
   }
 
-  Widget _buildFeedbackSection(PracticeController c) {
+  Widget _buildFeedbackSection(PracticeController c, context) {
     final [scoreMap, feedbackList] = c.getAverageScoreAndFeedback();
     return Column(
       children: [
@@ -200,7 +200,7 @@ class PracticeResultSreen extends StatelessWidget {
                 Text(
                   'Detailed Feedback',
                   style: TextStyle(
-                    color: Colors.deepPurple,
+                    color: Theme.of(context).colorScheme.primary,
                     fontSize: 16,
                     fontWeight: FontWeight.w800,
                   ),
@@ -208,7 +208,7 @@ class PracticeResultSreen extends StatelessWidget {
                 SizedBox(width: 10),
                 Icon(
                   Icons.arrow_forward_ios,
-                  color: Colors.deepPurple,
+                  color: Theme.of(context).colorScheme.primary,
                   size: 16,
                 ),
               ],
@@ -249,7 +249,7 @@ class PracticeResultSreen extends StatelessWidget {
         child: Text(
           "Done",
           style: GoogleFonts.nunito(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.onPrimary,
             fontWeight: FontWeight.w800,
             fontSize: 18,
           ),

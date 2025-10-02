@@ -17,7 +17,7 @@ class ProgressBar extends StatelessWidget {
             width:
                 ((Get.width - 30) / c.maxNumberOfAiResponsesPerSession) * (c.currentUserSessionMessage.value),
             decoration: BoxDecoration(
-              color: Colors.deepPurple,
+              color: Theme.of(context).colorScheme.primary,
               borderRadius: BorderRadius.circular(10),
             ),
           ),
@@ -26,7 +26,7 @@ class ProgressBar extends StatelessWidget {
           width: Get.width - 30,
           height: 10,
           decoration: BoxDecoration(
-            color: Colors.deepPurple.withOpacity(0.5),
+            color: Theme.of(context).colorScheme.primary.withOpacity(0.5),
             borderRadius: BorderRadius.circular(10),
           ),
         ),

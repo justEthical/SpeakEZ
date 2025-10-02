@@ -9,7 +9,7 @@ import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 
 class CustomDialogs {
-  static Widget logoutDialog() {
+  static Widget logoutDialog(BuildContext context) {
     return Dialog(
       insetPadding: const EdgeInsets.all(20),
       child: Container(
@@ -43,7 +43,7 @@ class CustomDialogs {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: const Text('Yes'),
+                  child: Text('Yes'),
                 ),
                 Spacer(),
                 ElevatedButton(
@@ -51,14 +51,14 @@ class CustomDialogs {
                     Get.back();
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.deepPurple,
+                    backgroundColor: Theme.of(context).colorScheme.primary,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: const Text(
+                  child: Text(
                     'Cancel',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                   ),
                 ),
               ],
@@ -69,7 +69,7 @@ class CustomDialogs {
     );
   }
 
-  static Widget enableMicrophonePermissionFromSettings() {
+  static Widget enableMicrophonePermissionFromSettings(BuildContext context) {
     return Dialog(
       insetPadding: const EdgeInsets.all(20),
       child: Container(
@@ -91,14 +91,14 @@ class CustomDialogs {
                 globalController.openAppSetting();
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: Theme.of(context).colorScheme.primary,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
               ),
               child: Text(
                 "Open Settings",
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
               ),
             ),
           ],
@@ -107,7 +107,7 @@ class CustomDialogs {
     );
   }
 
-  static Widget deleteConfirmationDialog() {
+  static Widget deleteConfirmationDialog(BuildContext context) {
     return Dialog(
       child: Container(
         padding: const EdgeInsets.all(20),
@@ -142,7 +142,7 @@ class CustomDialogs {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: const Text('Delete'),
+                  child: Text('Delete'),
                 ),
                 Spacer(),
                 ElevatedButton(
@@ -150,14 +150,14 @@ class CustomDialogs {
                     Get.back();
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.deepPurple,
+                    backgroundColor: Theme.of(context).colorScheme.primary,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: const Text(
+                  child: Text(
                     'Cancel',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                   ),
                 ),
               ],
@@ -168,7 +168,7 @@ class CustomDialogs {
     );
   }
 
-  static Widget levelIsLockedDialog(String englishLevel, bool isLocked) {
+  static Widget levelIsLockedDialog(BuildContext context, String englishLevel, bool isLocked) {
     return Dialog(
       child: Container(
         padding: const EdgeInsets.all(20),
@@ -230,7 +230,7 @@ class CustomDialogs {
                     ),
                     fixedSize: const Size(106, 40),
                   ),
-                  child: const Text(
+                  child: Text(
                     'UNLOCK',
                     style: TextStyle(color: Colors.grey),
                   ),
@@ -247,15 +247,15 @@ class CustomDialogs {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.deepPurple,
+                    backgroundColor: Theme.of(context).colorScheme.primary,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                     fixedSize: const Size(106, 40),
                   ),
-                  child: const Text(
+                  child: Text(
                     'View',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                   ),
                 ),
               ],

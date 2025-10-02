@@ -44,7 +44,7 @@ class _ReauthenticationBottomSheetState
                   borderRadius: BorderRadius.circular(100),
                   color: Colors.grey.shade300,
                 ),
-                child: Icon(Icons.close, color: Colors.black, size: 18),
+                child: Icon(Icons.close, color: Theme.of(context).textTheme.bodyMedium?.color, size: 18),
               ),
             ),
             SizedBox(height: 20),
@@ -70,7 +70,7 @@ class _ReauthenticationBottomSheetState
                 CustomLoader.hideLoader();
                 if (result) {
                   Get.back();
-                  Get.dialog(CustomDialogs.deleteConfirmationDialog());
+                  Get.dialog(CustomDialogs.deleteConfirmationDialog(Get.context!));
                 }
               },
               style: ElevatedButton.styleFrom(
@@ -90,12 +90,12 @@ class _ReauthenticationBottomSheetState
                       padding: const EdgeInsets.all(10.0),
                       child: SvgPicture.asset(AppAssets.google),
                     ),
-                    const Text(
+                   Text(
                       "Login with Google",
                       style: TextStyle(
                         fontSize: 16,
                         // fontWeight: FontWeight.w600,
-                        color: Colors.white,
+                        color: Theme.of(context).colorScheme.onPrimary,
                       ),
                     ),
                   ],
@@ -116,7 +116,7 @@ class _ReauthenticationBottomSheetState
                       obscureText: isObscure,
                       decoration: InputDecoration(
                         filled: true,
-                        fillColor: Colors.deepPurple.withOpacity(0.1),
+                        fillColor: Theme.of(context).colorScheme.primary.withOpacity(0.1),
                         prefixIcon: Container(
                           padding: const EdgeInsets.all(15),
                           width: 10,
@@ -141,7 +141,7 @@ class _ReauthenticationBottomSheetState
                                   ? AppAssets.eyeClosed
                                   : AppAssets.eyeIcon,
                               fit: BoxFit.contain,
-                              color: Colors.black,
+                              color: Theme.of(context).textTheme.bodyMedium?.color,
                             ),
                           ),
                         ),
@@ -185,7 +185,7 @@ class _ReauthenticationBottomSheetState
                         CustomLoader.hideLoader();
                         if (result) {
                           Get.back();
-                          Get.dialog(CustomDialogs.deleteConfirmationDialog());
+                          Get.dialog(CustomDialogs.deleteConfirmationDialog(Get.context!));
                         }
                       } else {
                         globalController.showSnackbarWithGetX(
@@ -198,9 +198,9 @@ class _ReauthenticationBottomSheetState
                       fixedSize: Size(Get.width - 40, 50),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
-                        side: const BorderSide(
+                        side:  BorderSide(
                           width: 0.56,
-                          color: Colors.deepPurple,
+                          color: Theme.of(context).colorScheme.primary,
                         ),
                       ),
                       backgroundColor: Colors.white,
@@ -208,10 +208,10 @@ class _ReauthenticationBottomSheetState
                     child: Center(
                       child: Text(
                         "Reauthenticate",
-                        style: const TextStyle(
+                        style:  TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w400,
-                          color: Colors.deepPurple,
+                          color: Theme.of(context).colorScheme.primary,
                         ),
                       ),
                     ),

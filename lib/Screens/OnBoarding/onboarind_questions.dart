@@ -26,10 +26,10 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Theme.of(context).colorScheme.primary,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
+          icon: Icon(Icons.arrow_back_ios, color: Theme.of(context).colorScheme.onPrimary),
           onPressed: () {
             if (c.onboardingQuestionsController.page != 0) {
               c.onboardingQuestionsController.previousPage(
@@ -40,9 +40,9 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
             }
           },
         ),
-        title: const Text(
+        title: Text(
           'Back',
-          style: TextStyle(color: Colors.white, fontSize: 16),
+          style: TextStyle(color: Theme.of(context).colorScheme.onPrimary, fontSize: 16),
         ),
         titleSpacing: -10,
       ),
@@ -51,18 +51,18 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
+             Text(
               'Tell us about yourself',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
-                color: Colors.black,
+                color: Theme.of(context).textTheme.bodyMedium?.color,
               ),
             ),
             const SizedBox(height: 8),
-            const Text(
+            Text(
               'Help us personalize your experience',
-              style: TextStyle(fontSize: 18, color: Colors.grey),
+              style: TextStyle(fontSize: 18, color: Theme.of(context).textTheme.bodySmall?.color),
             ),
             const SizedBox(height: 20),
             QuestionProgressBar(),

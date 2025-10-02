@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Constants/app_colors.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -22,17 +21,18 @@ class ListOfLessons extends StatefulWidget {
 
 class _ListOfLessonsState extends State<ListOfLessons> {
   final c = Get.find<HomeScreenController>();
+
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return Scaffold(
       // backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.white,
         elevation: 0,
         title: Text(
           "${widget.englishLevel} Level Lessons",
           style: TextStyle(
-            color: Colors.black,
+            color: Theme.of(context).textTheme.bodyMedium?.color,
             fontSize: 24,
             fontFamily: AppStrings.nunitoFont,
             fontWeight: FontWeight.bold,
@@ -42,7 +42,10 @@ class _ListOfLessonsState extends State<ListOfLessons> {
           onPressed: () {
             Get.back();
           },
-          icon: const Icon(Icons.arrow_back_ios, color: Colors.black),
+          icon: Icon(
+            Icons.arrow_back_ios,
+            color: Theme.of(context).textTheme.bodyMedium?.color,
+          ),
         ),
       ),
       body: Padding(
@@ -55,13 +58,13 @@ class _ListOfLessonsState extends State<ListOfLessons> {
               child: ListView.builder(
                 itemCount: AppData.lessonNames[widget.englishLevel]!.length,
                 itemBuilder: (ctx, i) {
-                  final islessonCompleted =
-                      _islessonCompleted(i);
+                  final islessonCompleted = _islessonCompleted(i);
                   return Container(
                     margin: const EdgeInsets.only(bottom: 15),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
-                      color: Colors.white,
+                      color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1)  ,
+                      border: Border.all(color: theme.colorScheme.primary, width: 0.4),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey.withOpacity(0.2),
@@ -77,13 +80,11 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                         horizontal: 15,
                       ),
                       leading: CircleAvatar(
-                        backgroundColor: AppColors.primaryColor.withOpacity(
-                          0.1,
-                        ),
+                        backgroundColor: Colors.grey.shade300,
                         child: Text(
                           (i + 1).toString(),
-                          style: const TextStyle(
-                            color: AppColors.primaryColor,
+                          style: TextStyle(
+                            color: theme.primaryColor,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -113,17 +114,16 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                           islessonCompleted
                               ? ElevatedButton(
                                 onPressed: () {
-                                  
                                   Get.to(
                                     () => LessonIntroScreen(
                                       lessonIndex: i + 1,
                                       englishLevel: widget.englishLevel,
                                     ),
-                                    
                                   );
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
+                                  backgroundColor:
+                                      Theme.of(context).colorScheme.primary,
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(8),
                                   ),
@@ -131,7 +131,8 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                                 child: Text(
                                   'RETEST',
                                   style: TextStyle(
-                                    color: Colors.white,
+                                    color:
+                                        Theme.of(context).colorScheme.onPrimary,
                                     fontSize: 12,
                                   ),
                                 ),
@@ -141,12 +142,16 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                                 children: [
                                   Icon(
                                     Icons.lock,
-                                    color: Colors.grey,
+                                    color: Theme.of(
+                                      context,
+                                    ).colorScheme.onSurface.withOpacity(0.6),
                                     size: 20,
                                   ),
-                                  const Icon(
+                                  Icon(
                                     Icons.arrow_forward_ios,
-                                    color: Colors.grey,
+                                    color: Theme.of(
+                                      context,
+                                    ).colorScheme.onSurface.withOpacity(0.6),
                                     size: 20,
                                   ),
                                 ],
@@ -162,17 +167,20 @@ class _ListOfLessonsState extends State<ListOfLessons> {
     );
   }
 
-  bool _islessonCompleted(int index){
-    if(widget.isLessonLocked){
-      return false; 
+  bool _islessonCompleted(int index) {
+    if (widget.isLessonLocked) {
+      return false;
     }
-    final indexOfCurrentLesson = AppData.englishLevel.indexOf(globalController.userProfile.value.currentEnglishLevel);
+    final indexOfCurrentLesson = AppData.englishLevel.indexOf(
+      globalController.userProfile.value.currentEnglishLevel,
+    );
     final englishLevelIndex = AppData.englishLevel.indexOf(widget.englishLevel);
-    if(indexOfCurrentLesson > englishLevelIndex){
+    if (indexOfCurrentLesson > englishLevelIndex) {
       return true;
     }
-    if(indexOfCurrentLesson == englishLevelIndex){
-      return globalController.userProfile.value.currentEnglishLevelProgress > index;
+    if (indexOfCurrentLesson == englishLevelIndex) {
+      return globalController.userProfile.value.currentEnglishLevelProgress >
+          index;
     }
     return false;
   }

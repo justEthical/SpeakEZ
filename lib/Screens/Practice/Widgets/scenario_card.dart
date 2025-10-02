@@ -19,7 +19,7 @@ class ScenarioCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.onSecondary,
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: Colors.grey.shade200, width: 1),
         boxShadow: [
@@ -39,7 +39,7 @@ class ScenarioCard extends StatelessWidget {
                 height: 80,
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: Colors.deepPurple.withOpacity(0.1),
+                  color: Colors.deepPurple.shade100,
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: SvgPicture.asset(scenarioModel.imagePath),
@@ -63,7 +63,7 @@ class ScenarioCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       style: GoogleFonts.nunito(
                         fontSize: 14,
-                        color: Colors.black54,
+                        color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -76,8 +76,8 @@ class ScenarioCard extends StatelessWidget {
           ElevatedButton(
             onPressed: () => c.getMicrophonePermission(scenarioModel),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.deepPurple,
-              foregroundColor: Colors.white,
+              backgroundColor: Theme.of(context).colorScheme.primary,
+              foregroundColor: Theme.of(context).colorScheme.onPrimary,
               minimumSize: const Size(double.infinity, 50),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),

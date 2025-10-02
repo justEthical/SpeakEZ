@@ -6,6 +6,7 @@ class LevelBottomSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Theme.of(context).scaffoldBackgroundColor,
       padding: const EdgeInsets.only(top: 0, left: 16, right: 16, bottom: 24),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -26,7 +27,7 @@ class LevelBottomSheet extends StatelessWidget {
                     color: Colors.grey,
                     borderRadius: BorderRadius.circular(40),
                   ),
-                  child: Icon(Icons.close, color: Colors.white, size: 20),
+                  child: Icon(Icons.close, color: Theme.of(context).colorScheme.onPrimary, size: 20),
                 ),
               ),
             ],
@@ -131,7 +132,7 @@ class LevelItem extends StatelessWidget {
               const SizedBox(height: 4),
               Text(
                 description,
-                style: TextStyle(fontSize: 14, color: Colors.grey[600]),
+                style: TextStyle(fontSize: 14, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6)),
               ),
             ],
           ),

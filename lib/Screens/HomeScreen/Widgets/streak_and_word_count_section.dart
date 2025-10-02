@@ -83,7 +83,7 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
                   icon: AppAssets.medal,
                   progress:
                       "${globalController.userProfile.value.wordLearned}",
-                  color: Colors.deepPurple,
+                  color: Theme.of(context).colorScheme.primary,
                 ),
               ],
             ),
@@ -146,7 +146,7 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
                     title,
                     style: GoogleFonts.nunito(
                       fontWeight: FontWeight.w600,
-                      color: Colors.black54,
+                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                     ),
                   ),
                   const SizedBox(height: 5),

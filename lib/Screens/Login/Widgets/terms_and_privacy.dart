@@ -12,7 +12,7 @@ class TermsAndPrivacy extends StatelessWidget {
       textAlign: TextAlign.center,
 
       text: TextSpan(
-        style: const TextStyle(color: Colors.black),
+        style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color),
         children: <TextSpan>[
           const TextSpan(text: 'By continuing, you agree to our '),
           TextSpan(
