@@ -14,10 +14,9 @@ class DetailedResult extends StatelessWidget {
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
-        backgroundColor: Colors.white,
         elevation: 0,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black54),
+          icon: Icon(Icons.arrow_back_ios_new_rounded, color: Theme.of(context).textTheme.bodyMedium?.color ),
           onPressed: () => Get.back(),
         ),
         title: Text(
@@ -25,7 +24,7 @@ class DetailedResult extends StatelessWidget {
           style: GoogleFonts.nunito(
             fontSize: 22,
             fontWeight: FontWeight.w800,
-            color: Colors.black87,
+            color: Theme.of(context).textTheme.bodyMedium?.color    ,
           ),
         ),
         centerTitle: true,
@@ -54,7 +53,7 @@ class DetailedResult extends StatelessWidget {
             ElevatedButton(
               onPressed: () => Get.back(),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black,
+                backgroundColor: Theme.of(context).colorScheme.onSurface,
                 foregroundColor: Colors.white,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
@@ -64,7 +63,7 @@ class DetailedResult extends StatelessWidget {
               child: Text(
                 "Done",
                 style: GoogleFonts.nunito(
-                  color: Colors.white,
+                  color: Theme.of(context).scaffoldBackgroundColor,
                   fontWeight: FontWeight.w800,
                   fontSize: 18,
                 ),

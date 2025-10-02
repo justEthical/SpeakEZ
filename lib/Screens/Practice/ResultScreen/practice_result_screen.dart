@@ -188,9 +188,9 @@ class PracticeResultSreen extends StatelessWidget {
             height: 50,
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).scaffoldBackgroundColor,
               borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: Colors.black, width: 1),
+              border: Border.all(color: Theme.of(context).colorScheme.onSurface , width: 1),
             ),
 
             padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
@@ -240,7 +240,7 @@ class PracticeResultSreen extends StatelessWidget {
           }
         },
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.black,
+          backgroundColor: Theme.of(context).colorScheme.onSurface,
           minimumSize: const Size(double.infinity, 55),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
@@ -249,7 +249,7 @@ class PracticeResultSreen extends StatelessWidget {
         child: Text(
           "Done",
           style: GoogleFonts.nunito(
-            color: Theme.of(context).colorScheme.onPrimary,
+            color: Theme.of(context).scaffoldBackgroundColor,
             fontWeight: FontWeight.w800,
             fontSize: 18,
           ),

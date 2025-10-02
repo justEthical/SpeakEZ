@@ -32,7 +32,7 @@ class _ResultTileState extends State<ResultTile> {
           child: Container(
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.onSecondary,
               borderRadius: BorderRadius.circular(10),
             ),
             padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
