@@ -79,7 +79,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
       });
       showDialog(
         context: context,
-        builder: (ctx) => CustomDialogs.levelIsLockedDialog(widget.level, widget.isLocked),
+        builder: (ctx) => CustomDialogs.levelIsLockedDialog(ctx, widget.level, widget.isLocked),
       );
     }
   }
@@ -163,7 +163,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                                     child: Text(
                                       widget.level,
                                       style: GoogleFonts.nunito(
-                                        color: Colors.white,
+                                        color: Theme.of(context).colorScheme.onPrimary,
                                         fontSize: 24,
                                         fontWeight: FontWeight.w900,
                                       ),
@@ -177,9 +177,9 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                                     builder: (context, value, child) {
                                       return Transform.rotate(
                                         angle: value * 0.1,
-                                        child: const Icon(
+                                        child:  Icon(
                                           Icons.lock,
-                                          color: Colors.white70,
+                                          color: Theme.of(context).colorScheme.onPrimary.withOpacity(0.7),
                                           size: 20,
                                         ),
                                       );

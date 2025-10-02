@@ -12,12 +12,12 @@ class TranslationTextView extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: Colors.grey, width: 0.4),
-        color: Colors.grey[200],
+        color: Theme.of(context).colorScheme.primary.withValues(alpha:  0.1)   ,
       ),
       child: Text(
         text,
         textAlign: TextAlign.start,
-        style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.normal),
+        style: GoogleFonts.poppins(fontSize: 14, fontWeight: FontWeight.normal),
       ),
     );
   }

@@ -71,7 +71,7 @@ class AppEntry extends StatelessWidget {
         navigatorObservers: [PosthogObserver()],
         theme: lightTheme,
         darkTheme: darkTheme,
-        themeMode: ThemeMode.light, // 👈 auto switch based on OS
+        themeMode: ThemeMode.system, // 👈 auto switch based on OS
         home: const Wrapper(),
       ),
     );

@@ -26,7 +26,7 @@ class SettingScreens extends StatelessWidget {
             width: Get.width,
             padding: const EdgeInsets.only(bottom: 15),
             decoration: BoxDecoration(
-              color: Colors.deepPurple,
+              color: Theme.of(context).colorScheme.primary,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20),
@@ -45,7 +45,7 @@ class SettingScreens extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.w700,
-                          color: Colors.white,
+                          color: Theme.of(context).colorScheme.onPrimary,
                           fontFamily: AppStrings.nunitoFont,
                         ),
                       ),
@@ -62,13 +62,13 @@ class SettingScreens extends StatelessWidget {
                         child: Container(
                           padding: const EdgeInsets.all(5),
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: Theme.of(context).colorScheme.onPrimary,
                             shape: BoxShape.circle,
                           ),
                           child: Icon(
                             Icons.close,
                             size: 20,
-                            color: Colors.deepPurple,
+                            color: Theme.of(context).colorScheme.primary,
                           ),
                         ),
                       ),
@@ -84,7 +84,7 @@ class SettingScreens extends StatelessWidget {
                         width: 80,
                         height: 80,
                         decoration: BoxDecoration(
-                          color: Colors.white,
+                          color: Theme.of(context).colorScheme.onPrimary,
                           border: Border.all(color: Colors.white, width: 2),
                           borderRadius: BorderRadius.circular(100),
                         ),
@@ -103,7 +103,7 @@ class SettingScreens extends StatelessWidget {
                               globalController.userProfile.value.displayName,
                               style: TextStyle(
                                 fontSize: 16,
-                                color: Colors.white,
+                                color: Theme.of(context).colorScheme.onPrimary,
                                 fontWeight: FontWeight.w700,
                                 fontFamily: AppStrings.nunitoFont,
                               ),
@@ -117,7 +117,7 @@ class SettingScreens extends StatelessWidget {
                               overflow: TextOverflow.ellipsis,
                               style: TextStyle(
                                 fontSize: 16,
-                                color: Colors.white,
+                                color: Theme.of(context).colorScheme.onPrimary,
                                 fontWeight: FontWeight.w700,
                                 fontFamily: AppStrings.nunitoFont,
                               ),
@@ -169,7 +169,7 @@ class SettingScreens extends StatelessWidget {
                   onTap: () async {
                     Get.defaultDialog(
                       titleStyle: const TextStyle(fontSize: 0),
-                      content: CustomDialogs.logoutDialog(),
+                      content: CustomDialogs.logoutDialog(Get.context!),
                     );
                   },
                   icon: AppAssets.logOut,
@@ -197,7 +197,7 @@ class SettingScreens extends StatelessWidget {
                     style: GoogleFonts.bebasNeue(
                       fontSize: 20,
                       fontWeight: FontWeight.w900,
-                      color: Colors.black38,
+                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.4),
                     ),
                   ),
                 ),

@@ -42,14 +42,14 @@ class GrammerTipsScreen extends StatelessWidget {
           width: Get.width,
           padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
           child: Column(
-            children: [_progressIndicator(), _content(), _bottomButtons()],
+            children: [_progressIndicator(context), _content(), _bottomButtons(context)],
           ),
         ),
       ),
     );
   }
 
-  Widget _progressIndicator() {
+  Widget _progressIndicator(context) {
     final c = Get.find<QuestionOptionsController>();
     final grammarTips = lesson.lessonIntro?.grammarTips ?? [];
     if (grammarTips.isEmpty) return const SizedBox.shrink();
@@ -71,7 +71,7 @@ class GrammerTipsScreen extends StatelessWidget {
                   border: Border.all(color: Colors.grey, width: 0.4),
                   color:
                       e <= c.currentGrammerTipIndex.value
-                          ? Colors.deepPurple
+                          ? Theme.of(context).colorScheme.primary
                           : Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -134,7 +134,7 @@ class GrammerTipsScreen extends StatelessWidget {
     );
   }
 
-  Widget _bottomButtons() {
+  Widget _bottomButtons(context) {
     final c = Get.find<QuestionOptionsController>();
     final grammarTips = lesson.lessonIntro?.grammarTips ?? [];
     
@@ -153,7 +153,7 @@ class GrammerTipsScreen extends StatelessWidget {
                       c.currentGrammerTipIndex.value--;
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurple,
+                      backgroundColor: Theme.of(context).colorScheme.primary,
                       fixedSize: Size(100, 40),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -186,7 +186,7 @@ class GrammerTipsScreen extends StatelessWidget {
             }
           },
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.deepPurple,
+            backgroundColor: Theme.of(context).colorScheme.primary,
             fixedSize: Size(100, 40),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),

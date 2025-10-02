@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
@@ -34,17 +35,19 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F6FA),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const _Header(),
+            _Header(),
             const SizedBox(height: 20),
             Expanded(
-              child: Obx(() => globalController.isAiModelDownloaded.value
-                  ? const _ScenarioList()
-                  : const _DownloadingState()),
+              child: Obx(
+                () =>
+                    globalController.isAiModelDownloaded.value
+                        ? const _ScenarioList()
+                        : const _DownloadingState(),
+              ),
             ),
           ],
         ),
@@ -53,11 +56,21 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   }
 }
 
-class _Header extends StatelessWidget {
-  const _Header();
+class _Header extends StatefulWidget {
+  _Header();
+
+  @override
+  State<_Header> createState() => _HeaderState();
+}
+
+class _HeaderState extends State<_Header> {
+  
 
   @override
   Widget build(BuildContext context) {
+    final isShowPracticeTabInfoBanner =
+      globalController.prefs?.getBool(AppStrings.isShowPracticeTabInfoBanner) ??
+      true;
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
       child: Column(
@@ -68,51 +81,80 @@ class _Header extends StatelessWidget {
             style: GoogleFonts.nunito(
               fontSize: 28,
               fontWeight: FontWeight.w800,
-              color: Colors.black87,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
             ),
           ),
-          const SizedBox(height: 15),
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(15),
-              color: Colors.deepPurple.withOpacity(0.1),
-            ),
-            child: Row(
-              children: [
-                CircleAvatar(
-                  radius: 25,
-                  backgroundColor: Colors.deepPurple,
-                  child: const Icon(Icons.rocket_launch_rounded, color: Colors.white),
-                ),
-                const SizedBox(width: 15),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Practice with Natasha",
-                        style: GoogleFonts.nunito(
-                          fontWeight: FontWeight.w700,
-                          fontSize: 18,
-                          color: Colors.deepPurple,
+          SizedBox(height: isShowPracticeTabInfoBanner ?  15 : 0),
+          isShowPracticeTabInfoBanner
+              ? Stack(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.primary.withOpacity(0.1),
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 25,
+                          backgroundColor:
+                              Theme.of(context).colorScheme.primary,
+                          child: Icon(
+                            Icons.rocket_launch_rounded,
+                            color: Theme.of(context).colorScheme.onPrimary,
+                          ),
                         ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        "Select a scenario to start practicing.",
-                        style: GoogleFonts.nunito(
-                          fontWeight: FontWeight.w600,
-                          fontSize: 14,
-                          color: Colors.black54,
+                        const SizedBox(width: 15),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Practice with Natasha",
+                                style: GoogleFonts.nunito(
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 18,
+                                  color: Theme.of(context).colorScheme.primary,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              Text(
+                                "Select a scenario to start practicing.",
+                                style: GoogleFonts.nunito(
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 14,
+                                  color: Theme.of(
+                                    context,
+                                  ).colorScheme.onSurface.withOpacity(0.6),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ),
+
+                  Positioned(
+                    right: 0,
+                    child: IconButton(
+                      icon: const Icon(Icons.close),
+                      color: Theme.of(context).colorScheme.primary,
+                      onPressed: () {
+                        globalController.prefs?.setBool(
+                          AppStrings.isShowPracticeTabInfoBanner,
+                          false,
+                        );
+                        setState(() {});
+                      },
+                    ),
+                  ),
+                ],
+              )
+              : const SizedBox(),
         ],
       ),
     );
@@ -130,9 +172,7 @@ class _ScenarioList extends StatelessWidget {
       itemBuilder: (ctx, i) {
         return Padding(
           padding: const EdgeInsets.only(bottom: 15.0),
-          child: ScenarioCard(
-            scenarioModel: scenarios[i],
-          ),
+          child: ScenarioCard(scenarioModel: scenarios[i]),
         );
       },
     );
@@ -161,30 +201,38 @@ class _DownloadingState extends StatelessWidget {
               "Downloading Natasha AI…",
               textAlign: TextAlign.center,
               style: GoogleFonts.nunito(
-                color: Colors.black87,
+                color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
               ),
             ),
             const SizedBox(height: 10),
-            Obx(() => Text(
-                  "The download is about 60 MB. Please keep the app open. (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.nunito(
-                    color: Colors.black54,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
-                  ),
-                )),
+            Obx(
+              () => Text(
+                "The download is about 60 MB. Please keep the app open. (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
+                textAlign: TextAlign.center,
+                style: GoogleFonts.nunito(
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.onSurface.withOpacity(0.6),
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
             const SizedBox(height: 20),
-            Obx(() => Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 30.0),
-                  child: LinearProgressIndicator(
-                    value: globalController.aiModelDownloadProgress.value / 100,
-                    backgroundColor: Colors.grey.shade300,
-                    valueColor: const AlwaysStoppedAnimation<Color>(Colors.deepPurple),
+            Obx(
+              () => Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 30.0),
+                child: LinearProgressIndicator(
+                  value: globalController.aiModelDownloadProgress.value / 100,
+                  backgroundColor: Colors.grey.shade300,
+                  valueColor: AlwaysStoppedAnimation<Color>(
+                    Theme.of(context).colorScheme.primary,
                   ),
-                )),
+                ),
+              ),
+            ),
           ],
         ),
       ),

@@ -51,7 +51,7 @@ class _AnimatedDoughnutState extends State<AnimatedDoughnut>
       alignment: Alignment.center,
       children: [
         CustomPaint(
-          painter: DoughnutPainter(progress: _animation.value),
+          painter: DoughnutPainter(progress: _animation.value, fillColor: Theme.of(context).colorScheme.primary),
           size: const Size(80, 80),
         ),
         Container(
@@ -88,7 +88,7 @@ class DoughnutPainter extends CustomPainter {
   DoughnutPainter({
     required this.progress,
     this.backgroundColor = Colors.grey,
-    this.fillColor = Colors.deepPurple,
+    required this.fillColor,
   });
 
   @override

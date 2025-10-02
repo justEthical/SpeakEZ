@@ -13,10 +13,10 @@ class TopText extends StatelessWidget {
       children: [
         Text(
           heading,
-          style: const TextStyle(
+          style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.w900,
-              color: Colors.black),
+              color: Theme.of(context).textTheme.bodyMedium?.color),
         ),
         const SizedBox(
           height: 8,

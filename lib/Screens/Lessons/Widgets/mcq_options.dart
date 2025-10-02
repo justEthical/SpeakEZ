@@ -29,42 +29,41 @@ class _McqOptionsState extends State<McqOptions> {
     return Column(
       children: [
         ...List.generate(widget.question.options!.length, (i) {
-          return Obx(() => InkWell(
-                      onTap: () {
-                        ttsHelper.speak(widget.question.options![i]);
-                        c.currentSelectedOptionIndex.value = i;
-                        c.shouldEnableContinueButton(widget.question.type);
-                        
-                      },
-                      child: Container(
-                        width: Get.width - 30,
-                        height: 50,
-                        margin: EdgeInsets.only(bottom: 7),
-                        decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey, width: 0.4),
-                          color: c.currentSelectedOptionIndex.value == i ? Colors.deepPurple : Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-                          boxShadow: [
-                            BoxShadow(
-                              color:  Colors.grey.shade100,
-                              spreadRadius: 0,
-                              blurRadius: 5,
-                              offset: const Offset(0, 3),
-                            ),
-                          ],
-                        ),
-                        child: Center(
-                          child: Text(
-                            widget.question.options![i],
-                            textAlign: TextAlign.center,
-                  style: GoogleFonts.poppins(
-                    fontSize: 16,
-                    color: c.currentSelectedOptionIndex.value == i ? Colors.white : Colors.black,
-                    fontWeight: FontWeight.normal,
+          return Obx(
+            () => InkWell(
+              onTap: () {
+                ttsHelper.speak(widget.question.options![i]);
+                c.currentSelectedOptionIndex.value = i;
+                c.shouldEnableContinueButton(widget.question.type);
+              },
+              child: Container(
+                width: Get.width - 30,
+                height: 50,
+                margin: EdgeInsets.only(bottom: 7),
+                decoration: BoxDecoration(
+                  border: Border.all(color: c.currentSelectedOptionIndex.value == i? Theme.of(context).colorScheme.onSurface : Colors.grey, width: 0.4),
+                  color:
+                      c.currentSelectedOptionIndex.value == i
+                          ? Theme.of(context).colorScheme.primary
+                          : Colors.grey[300],
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Center(
+                  child: Text(
+                    widget.question.options![i],
+                    textAlign: TextAlign.center,
+                    style: GoogleFonts.poppins(
+                      fontSize: 16,
+                      color:
+                          c.currentSelectedOptionIndex.value == i
+                              ? Colors.white
+                              : Colors.black,
+                      fontWeight: FontWeight.normal,
+                    ),
                   ),
                 ),
               ),
-            ),)
+            ),
           );
         }),
       ],
