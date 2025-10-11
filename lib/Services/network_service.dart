@@ -36,7 +36,7 @@ class NetworkService {
     String systemPrompt,
     String userPrompt) {
     return {
-      "model":  "google/gemma-3-12b-it", // "mistralai/Mistral-Small-3.2-24B-Instruct-2506", //
+      "model":  "openai/gpt-oss-20b", // "mistralai/Mistral-Small-3.2-24B-Instruct-2506", //
       "messages": [
         {
             "role": 'system',
@@ -48,6 +48,7 @@ class NetworkService {
         },
       ],
       "response_format": { "type": "json_object" },
+      "reasoning_effort": "none",
       "temperature": 0,
       "seed": 7
     };
