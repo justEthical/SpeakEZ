@@ -298,19 +298,17 @@
         "answer": 1
       },
       {
-        "id": "vocab5",
-        "type": "trueFalse",
-        "question": "Russian is a nationality.",
-        "question_translation": {
-          "Hindi": "रूसी एक राष्ट्रीयता है।",
-          "Japanese": "ロシア人は国籍ですか？"
-        },
-        "options": [
-          "True",
-          "False"
-        ],
-        "answer": 0
-      }
+  "id": "vocab5",
+  "type": "trueFalse",
+  "question": "A person from India is called Indian.",
+  "question_translation": {
+    "Hindi": "भारत से आने वाले व्यक्ति को भारतीय कहते हैं।",
+    "Japanese": "インド出身の人はインド人と呼ばれますか？"
+  },
+  "options": ["True", "False"],
+  "answer": 0
+}
+
     ],
     "sentence": [
       {
@@ -329,20 +327,21 @@
         "answer": 2
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "___ is a language.",
-        "question_translation": {
-          "Hindi": "___ एक भाषा है।",
-          "Japanese": "___は言語です。"
-        },
-        "options": [
-          "French",
-          "Japanese",
-          "Russian"
-        ],
-        "answer": 1
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "He speaks ___.",
+  "question_translation": {
+    "Hindi": "वह ___ बोलता है।",
+    "Japanese": "彼は___を話します。"
+  },
+  "options": [
+    "Russian",
+    "Country",
+    "Nationality"
+  ],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

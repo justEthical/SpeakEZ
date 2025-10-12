@@ -249,16 +249,17 @@
         "answer": 2
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "He is ___ because it is raining.",
-        "question_translation": {
-          "Hindi": "वह ___ है क्योंकि बारिश हो रही है।",
-          "Japanese": "雨が降っているので彼は___です。"
-        },
-        "options": ["excited", "sad", "proud"],
-        "answer": 1
-      },
+  "id": "vocab2",
+  "type": "fillInTheBlanks",
+  "question": "He is ___ because he lost his toy.",
+  "question_translation": {
+    "Hindi": "वह ___ है क्योंकि उसका खिलौना खो गया।",
+    "Japanese": "おもちゃをなくしたので彼は___です。"
+  },
+  "options": ["happy", "sad", "angry"],
+  "answer": 1
+}
+,
       {
         "id": "vocab3",
         "type": "multipleChoice",
@@ -306,16 +307,17 @@
         "answer": 2
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "The children are ___ for the picnic.",
-        "question_translation": {
-          "Hindi": "बच्चे पिकनिक के लिए ___ हैं।",
-          "Japanese": "子どもたちはピクニックを___にしています。"
-        },
-        "options": ["tired", "excited", "proud"],
-        "answer": 1
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "She feels ___ before the exam.",
+  "question_translation": {
+    "Hindi": "परीक्षा से पहले वह ___ महसूस करती है।",
+    "Japanese": "テストの前に彼女は___と感じます。"
+  },
+  "options": ["nervous", "tired", "happy"],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

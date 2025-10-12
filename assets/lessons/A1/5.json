@@ -205,27 +205,29 @@
     ],
     "sentence": [
       {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "I have two ___.",
-        "question_translation": {
-          "Hindi": "मेरे दो ___ हैं।",
-          "Japanese": "私は___が二人います。"
-        },
-        "options": ["sisters", "brothers", "uncles"],
-        "answer": 1
-      },
+  "id": "sent1",
+  "type": "fillInTheBlanks",
+  "question": "My father and mother are my ___.",
+  "question_translation": {
+    "Hindi": "मेरे पिता और माता मेरे ___ हैं।",
+    "Japanese": "私の父と母は私の___です。"
+  },
+  "options": ["parents", "brothers", "friends"],
+  "answer": 0
+}
+,
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "My ___ is very kind.",
-        "question_translation": {
-          "Hindi": "मेरी ___ बहुत दयालु हैं।",
-          "Japanese": "私の___はとても優しいです。"
-        },
-        "options": ["aunt", "mother", "grandmother"],
-        "answer": 1
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "My uncle is my father's ___.",
+  "question_translation": {
+    "Hindi": "मेरा चाचा मेरे पिता के ___ हैं।",
+    "Japanese": "私のおじさんは私の父の___です。"
+  },
+  "options": ["brother", "father", "cousin"],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",
@@ -249,16 +251,17 @@
         "answer": ["I", "have", "one", "sister"]
       },
       {
-        "id": "sent5",
-        "type": "fillInTheBlanks",
-        "question": "My grandparents ___ with us.",
-        "question_translation": {
-          "Hindi": "मेरे दादा-दादी हमारे साथ ___ हैं।",
-          "Japanese": "私の祖父母は私たちと一緒に___。"
-        },
-        "options": ["live", "go", "eat"],
-        "answer": 0
-      }
+  "id": "sent5",
+  "type": "fillInTheBlanks",
+  "question": "My grandparents ___ in the same house with us.",
+  "question_translation": {
+    "Hindi": "मेरे दादा-दादी हमारे साथ एक ही घर में ___ हैं।",
+    "Japanese": "私の祖父母は私たちと同じ家に___います。"
+  },
+  "options": ["live", "Father", "drive"],
+  "answer": 0
+}
+
     ],
     "listening": [
       {

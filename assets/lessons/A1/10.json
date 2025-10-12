@@ -295,27 +295,29 @@
     ],
     "sentence": [
       {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "My house has two ___.",
-        "question_translation": {
-          "Hindi": "मेरे घर में दो ___ हैं।",
-          "Japanese": "私の家には___が二つあります。"
-        },
-        "options": ["kitchens", "bedrooms", "bathrooms"],
-        "answer": 2
-      },
+  "id": "sent1",
+  "type": "fillInTheBlanks",
+  "question": "My house has two ___ where we sleep.",
+  "question_translation": {
+    "Hindi": "मेरे घर में दो ___ हैं जहाँ हम सोते हैं।",
+    "Japanese": "私の家には寝るための___が二つあります。"
+  },
+  "options": ["kitchens", "bedrooms", "bathrooms"],
+  "answer": 1
+}
+,
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "There is a ___ in my house.",
-        "question_translation": {
-          "Hindi": "मेरे घर में एक ___ है।",
-          "Japanese": "私の家には___があります。"
-        },
-        "options": ["room", "kitchen", "garden"],
-        "answer": 2
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "There is a ___ where we cook food.",
+  "question_translation": {
+    "Hindi": "एक ___ है जहाँ हम खाना बनाते हैं।",
+    "Japanese": "料理をする___があります。"
+  },
+  "options": ["room", "kitchen", "garden"],
+  "answer": 1
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

@@ -329,20 +329,21 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "I need to ___ my phone.",
-        "question_translation": {
-          "Hindi": "मुझे अपना फ़ोन ___ करना है।",
-          "Japanese": "私は電話を___しなければなりません。"
-        },
-        "options": [
-          "charge",
-          "screen",
-          "call"
-        ],
-        "answer": 0
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "She wants to ___ her friend.",
+  "question_translation": {
+    "Hindi": "वह अपने दोस्त को ___ करना चाहती है।",
+    "Japanese": "彼女は友だちに___したいです。"
+  },
+  "options": [
+    "call",
+    "camera",
+    "screen"
+  ],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",
