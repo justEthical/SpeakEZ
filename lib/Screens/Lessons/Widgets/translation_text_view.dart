@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 
 class TranslationTextView extends StatelessWidget {
   final String text;
@@ -17,7 +17,7 @@ class TranslationTextView extends StatelessWidget {
       child: Text(
         text,
         textAlign: TextAlign.start,
-        style: GoogleFonts.poppins(fontSize: 14, fontWeight: FontWeight.normal),
+        style: TextStyle(fontSize: 14, fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.normal),
       ),
     );
   }

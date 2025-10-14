@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
@@ -52,7 +52,7 @@ class QnaScreen extends StatelessWidget {
           ),
           title: Text(
             c.isUnlockTest ? lesson.lessonName : "Test Your Knowledge",
-            style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 20, fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.bold),
           ),
         ),
         body: Container(
@@ -75,8 +75,9 @@ class QnaScreen extends StatelessWidget {
                         Text(
                           "Q${i + 1}. ${question.question}",
                           textAlign: TextAlign.start,
-                          style: GoogleFonts.poppins(
+                          style: TextStyle(
                             fontSize: 16,
+                            fontFamily: AppStrings.poppinsFont,
                             fontWeight: FontWeight.normal,
                           ),
                         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/vocabulary_data.dart';
 import 'package:speak_ez/Screens/Lessons/grammer_tips_screen.dart';
@@ -37,8 +37,9 @@ class VocalbularyScreen extends StatelessWidget {
           ),
           title: Text(
             "Vocalbulary",
-            style: GoogleFonts.poppins(
+            style: TextStyle(
               fontSize: 20,
+              fontFamily: AppStrings.poppinsFont,
               fontWeight: FontWeight.bold,
             ),
           ),

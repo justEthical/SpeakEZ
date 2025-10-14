@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
@@ -35,7 +35,8 @@ class GrammerTipsScreen extends StatelessWidget {
           ),
           title: Text(
             "Grammer Tips",
-            style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 20,
+            fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.bold),
           ),
         ),
         body: Container(
@@ -109,16 +110,18 @@ class GrammerTipsScreen extends StatelessWidget {
               SizedBox(height: 18),
               Text(
                 tip.title,
-                style: GoogleFonts.poppins(
+                style: TextStyle(
                   fontSize: 18,
+                  fontFamily: AppStrings.poppinsFont,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               SizedBox(height: 10),
               Text(
                 tip.explanation,
-                style: GoogleFonts.poppins(
+                style: TextStyle(
                   fontSize: 16,
+                  fontFamily: AppStrings.poppinsFont,
                   fontWeight: FontWeight.w500,
                 ),
               ),

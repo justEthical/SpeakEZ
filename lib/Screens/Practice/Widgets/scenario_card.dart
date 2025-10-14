@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 
@@ -51,8 +51,9 @@ class ScenarioCard extends StatelessWidget {
                   children: [
                     Text(
                       scenarioModel.title,
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
                         fontSize: 18,
+                        fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w800,
                       ),
                     ),
@@ -61,8 +62,9 @@ class ScenarioCard extends StatelessWidget {
                       scenarioModel.description,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
                         fontSize: 14,
+                        fontFamily: AppStrings.nunitoFont,
                         color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                         fontWeight: FontWeight.w600,
                       ),
@@ -82,8 +84,9 @@ class ScenarioCard extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),
               ),
-              textStyle: GoogleFonts.nunito(
+              textStyle: TextStyle(
                 fontSize: 16,
+                fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w800,
               ),
             ),

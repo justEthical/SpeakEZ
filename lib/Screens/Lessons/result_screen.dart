@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
@@ -90,8 +90,9 @@ class ResultScreen extends StatelessWidget {
     return Text(
       "Lesson Completed",
       textAlign: TextAlign.center,
-      style: GoogleFonts.nunito(
+      style: TextStyle(
         fontSize: 28,
+        fontFamily: AppStrings.nunitoFont,
         fontWeight: FontWeight.w800,
         color: Theme.of(context).textTheme.bodyMedium?.color,
       ),
@@ -102,7 +103,8 @@ class ResultScreen extends StatelessWidget {
     return Text(
       c.getResultScreenText(accuracy),
       textAlign: TextAlign.center,
-      style: GoogleFonts.nunito(
+      style: TextStyle(
+        fontFamily: AppStrings.nunitoFont,
         color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
         fontSize: 18,
         fontWeight: FontWeight.w600,
@@ -171,9 +173,10 @@ class ResultScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 14.0),
                   child: Text(
                     analytics,
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
                       color: color,
                       fontSize: 25,
+                      fontFamily: AppStrings.nunitoFont,
                       fontWeight: FontWeight.w900,
                     ),
                   ),
@@ -185,9 +188,10 @@ class ResultScreen extends StatelessWidget {
                   child: Center(
                     child: Text(
                       analyticsTitle,
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
+                        fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w700,
                       ),
                     ),
@@ -218,8 +222,9 @@ class ResultScreen extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.onSurface,
         fixedSize: const Size(double.infinity, 55),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-        textStyle: GoogleFonts.nunito(
+        textStyle: TextStyle(
           fontSize: 18,
+          fontFamily: AppStrings.nunitoFont,
           fontWeight: FontWeight.bold,
         ),
       ),
