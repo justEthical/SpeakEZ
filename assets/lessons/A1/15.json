@@ -306,16 +306,17 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "Sheep give us ___.",
-        "question_translation": {
-          "Hindi": "भेड़ हमें ___ देती हैं।",
-          "Japanese": "ひつじは___をくれます。"
-        },
-        "options": ["milk", "wool", "meat"],
-        "answer": 1
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "We make sweaters from the ___ of sheep.",
+  "question_translation": {
+    "Hindi": "हम भेड़ की ___ से स्वेटर बनाते हैं।",
+    "Japanese": "私たちは羊の___からセーターを作ります。"
+  },
+  "options": ["milk", "wool", "meat"],
+  "answer": 1
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

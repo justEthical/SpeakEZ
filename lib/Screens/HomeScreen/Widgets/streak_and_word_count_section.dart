@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 
 class StreakAndWordCountSection extends StatefulWidget {
@@ -144,8 +144,9 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
                   const SizedBox(height: 15),
                   Text(
                     title,
-                    style: GoogleFonts.nunito(
+                    style: TextStyle(
                       fontWeight: FontWeight.w600,
+                      fontFamily: AppStrings.nunitoFont,
                       color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                     ),
                   ),
@@ -157,8 +158,9 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
                         scale: 0.5 + (_counterAnimation.value * 0.5),
                         child: Text(
                           progress,
-                          style: GoogleFonts.nunito(
+                          style: TextStyle(
                             fontSize: 20,
+                            fontFamily: AppStrings.nunitoFont,
                             fontWeight: FontWeight.w800,
                             color: color,
                           ),

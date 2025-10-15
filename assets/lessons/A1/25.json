@@ -253,20 +253,17 @@
         "answer": 0
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "Turn ___ at the traffic light.",
-        "question_translation": {
-          "Hindi": "ट्रैफिक लाइट पर ___ मुड़ें।",
-          "Japanese": "信号で___に曲がってください。"
-        },
-        "options": [
-          "straight",
-          "right",
-          "between"
-        ],
-        "answer": 1
-      },
+  "id": "vocab2",
+  "type": "fillInTheBlanks",
+  "question": "Walk ___ to reach the library.",
+  "question_translation": {
+    "Hindi": "पुस्तकालय पहुँचने के लिए ___ चलें।",
+    "Japanese": "図書館に行くには___に歩いてください。"
+  },
+  "options": ["between", "straight", "corner"],
+  "answer": 1
+}
+,
       {
         "id": "vocab3",
         "type": "multipleChoice",

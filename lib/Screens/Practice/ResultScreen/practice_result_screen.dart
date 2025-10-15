@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -96,17 +95,19 @@ class PracticeResultSreen extends StatelessWidget {
         children: [
           Text(
             c.formatDateToLongString(DateTime.now()),
-            style: GoogleFonts.nunito(
+            style: TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.w600,
+              fontFamily: AppStrings.nunitoFont,
               color: Colors.white.withOpacity(0.8),
             ),
           ),
           const SizedBox(height: 12),
           Text(
             "Score: ${c.getOverAllScore(result)}/100",
-            style: GoogleFonts.nunito(
+            style: TextStyle(
               fontSize: 36,
+              fontFamily: AppStrings.nunitoFont,
               color: Colors.white,
               fontWeight: FontWeight.w900,
             ),
@@ -129,9 +130,10 @@ class PracticeResultSreen extends StatelessWidget {
       child: Text(
         result.motivation,
         textAlign: TextAlign.center,
-        style: GoogleFonts.nunito(
+        style: TextStyle(
           fontSize: 16,
           fontWeight: FontWeight.w600,
+          fontFamily: AppStrings.nunitoFont,
           color: Theme.of(context).textTheme.bodyMedium?.color,
           fontStyle: FontStyle.italic,
         ),
@@ -248,9 +250,10 @@ class PracticeResultSreen extends StatelessWidget {
         ),
         child: Text(
           "Done",
-          style: GoogleFonts.nunito(
+          style: TextStyle(
             color: Theme.of(context).scaffoldBackgroundColor,
             fontWeight: FontWeight.w800,
+            fontFamily: AppStrings.nunitoFont,
             fontSize: 18,
           ),
         ),

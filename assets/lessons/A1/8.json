@@ -170,16 +170,17 @@
         "answer": 1
       },
       {
-        "id": "vocab3",
-        "type": "multipleChoice",
-        "question": "Which object is used for reading?",
-        "question_translation": {
-          "Hindi": "पढ़ने के लिए किस वस्तु का उपयोग करते हैं?",
-          "Japanese": "読むために使うものはどれですか？"
-        },
-        "options": ["Pencil", "Book", "Bag"],
-        "answer": 1
-      },
+  "id": "vocab4",
+  "type": "trueFalse",
+  "question": "A board is something the teacher writes on.",
+  "question_translation": {
+    "Hindi": "बोर्ड वह है जिस पर शिक्षक लिखते हैं।",
+    "Japanese": "黒板は先生が書くものです。"
+  },
+  "options": ["True", "False"],
+  "answer": 0
+}
+,
       {
         "id": "vocab4",
         "type": "trueFalse",
@@ -238,16 +239,17 @@
         "answer": ["I", "have", "a", "blue", "pen"]
       },
       {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "There are many ___ in my bag.",
-        "question_translation": {
-          "Hindi": "मेरे बैग में कई ___ हैं।",
-          "Japanese": "私のかばんにはたくさんの___があります。"
-        },
-        "options": ["notebooks", "books", "erasers"],
-        "answer": 1
-      },
+  "id": "sent4",
+  "type": "fillInTheBlanks",
+  "question": "There are many notebooks in my bag for writing.",
+  "question_translation": {
+    "Hindi": "मेरे बैग में लिखने के लिए कई नोटबुक्स हैं।",
+    "Japanese": "私のかばんには書くためのノートがたくさんあります。"
+  },
+  "options": ["notebooks", "books", "erasers"],
+  "answer": 0
+}
+,
       {
         "id": "sent5",
         "type": "sentenceRearranging",

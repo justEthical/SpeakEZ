@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
@@ -78,9 +77,10 @@ class _HeaderState extends State<_Header> {
         children: [
           Text(
             "Speaking Practice",
-            style: GoogleFonts.nunito(
+            style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.w800,
+              fontFamily: AppStrings.nunitoFont,
               color: Theme.of(context).textTheme.bodyMedium?.color,
             ),
           ),
@@ -114,18 +114,20 @@ class _HeaderState extends State<_Header> {
                             children: [
                               Text(
                                 "Practice with Natasha",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
                                   fontWeight: FontWeight.w700,
                                   fontSize: 18,
+                                  fontFamily: AppStrings.nunitoFont,
                                   color: Theme.of(context).colorScheme.primary,
                                 ),
                               ),
                               const SizedBox(height: 4),
                               Text(
                                 "Select a scenario to start practicing.",
-                                style: GoogleFonts.nunito(
+                                style: TextStyle(
                                   fontWeight: FontWeight.w600,
                                   fontSize: 14,
+                                  fontFamily: AppStrings.nunitoFont,
                                   color: Theme.of(
                                     context,
                                   ).colorScheme.onSurface.withOpacity(0.6),
@@ -200,9 +202,10 @@ class _DownloadingState extends StatelessWidget {
             Text(
               "Downloading Natasha AI…",
               textAlign: TextAlign.center,
-              style: GoogleFonts.nunito(
+              style: TextStyle(
                 color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontSize: 20,
+                fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w700,
               ),
             ),
@@ -211,7 +214,8 @@ class _DownloadingState extends StatelessWidget {
               () => Text(
                 "The download is about 60 MB. Please keep the app open. (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
                 textAlign: TextAlign.center,
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: AppStrings.nunitoFont,
                   color: Theme.of(
                     context,
                   ).colorScheme.onSurface.withOpacity(0.6),

@@ -245,7 +245,11 @@
           "Hindi": "किस जानवर की काली धारियाँ होती हैं?",
           "Japanese": "どの動物に黒いしま模様がありますか？"
         },
-        "options": ["Zebra", "Monkey", "Bear"],
+        "options": [
+          "Zebra",
+          "Monkey",
+          "Bear"
+        ],
         "answer": 0
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "___ को जंगल का राजा कहा जाता है।",
           "Japanese": "___はジャングルの王様と呼ばれます。"
         },
-        "options": ["lion", "giraffe", "fox"],
+        "options": [
+          "lion",
+          "giraffe",
+          "fox"
+        ],
         "answer": 0
       },
       {
@@ -267,7 +275,11 @@
           "Hindi": "किस जानवर की गर्दन लंबी होती है?",
           "Japanese": "どの動物の首が長いですか？"
         },
-        "options": ["Bear", "Giraffe", "Wolf"],
+        "options": [
+          "Bear",
+          "Giraffe",
+          "Wolf"
+        ],
         "answer": 1
       },
       {
@@ -278,7 +290,11 @@
           "Hindi": "कौन सा जानवर पेड़ पर चढ़ सकता है?",
           "Japanese": "どの動物が木に登れますか？"
         },
-        "options": ["Lion", "Elephant", "Monkey"],
+        "options": [
+          "Lion",
+          "Elephant",
+          "Monkey"
+        ],
         "answer": 2
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "हाथियों की सूंड होती है।",
           "Japanese": "ゾウには鼻があります。"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -297,12 +316,16 @@
       {
         "id": "sent1",
         "type": "fillInTheBlanks",
-        "question": "The ___ can run very fast.",
+        "question": "The ___ do not eat meat. They eat grass.",
         "question_translation": {
-          "Hindi": "___ बहुत तेज दौड़ सकता है।",
-          "Japanese": "___はとても速く走れます。"
+          "Hindi": "___ मांस नहीं खाते। वे घास खाते हैं।",
+          "Japanese": "___は肉を食べません。草を食べます。"
         },
-        "options": ["bear", "deer", "fox"],
+        "options": [
+          "lion",
+          "deer",
+          "tiger"
+        ],
         "answer": 1
       },
       {
@@ -313,7 +336,11 @@
           "Hindi": "___ ज़ोर से दहाड़ता है।",
           "Japanese": "___は大きな声でほえます。"
         },
-        "options": ["wolf", "lion", "zebra"],
+        "options": [
+          "wolf",
+          "lion",
+          "zebra"
+        ],
         "answer": 1
       },
       {
@@ -324,8 +351,22 @@
           "Hindi": "[lives, in, the, forest, tiger, the] को सही क्रम में लगाएं।",
           "Japanese": "[lives, in, the, forest, tiger, the]を並べ替えましょう。"
         },
-        "options": ["lives", "in", "the", "forest", "tiger", "the"],
-        "answer": ["The", "tiger", "lives", "in", "the", "forest"]
+        "options": [
+          "lives",
+          "in",
+          "the",
+          "forest",
+          "tiger",
+          "the"
+        ],
+        "answer": [
+          "The",
+          "tiger",
+          "lives",
+          "in",
+          "the",
+          "forest"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "___ बहुत चालाक है।",
           "Japanese": "___はとても賢いです。"
         },
-        "options": ["zebra", "bear", "fox"],
+        "options": [
+          "zebra",
+          "bear",
+          "fox"
+        ],
         "answer": 2
       },
       {
@@ -346,8 +391,20 @@
           "Hindi": "[ears, big, has, the, elephant] को सही क्रम में लगाएं।",
           "Japanese": "[ears, big, has, the, elephant]を並べ替えましょう。"
         },
-        "options": ["ears", "big", "has", "the", "elephant"],
-        "answer": ["The", "elephant", "has", "big", "ears"]
+        "options": [
+          "ears",
+          "big",
+          "has",
+          "the",
+          "elephant"
+        ],
+        "answer": [
+          "The",
+          "elephant",
+          "has",
+          "big",
+          "ears"
+        ]
       }
     ],
     "listening": [
@@ -360,7 +417,11 @@
           "Hindi": "वक्ता ने कौन सा जानवर बताया?",
           "Japanese": "話者はどの動物について言いましたか？"
         },
-        "options": ["Lion", "Deer", "Fox"],
+        "options": [
+          "Lion",
+          "Deer",
+          "Fox"
+        ],
         "answer": 0
       },
       {
@@ -372,7 +433,11 @@
           "Hindi": "भालू क्या पकड़ता है?",
           "Japanese": "くまは何をとりますか？"
         },
-        "options": ["Fish", "Fruit", "Grass"],
+        "options": [
+          "Fish",
+          "Fruit",
+          "Grass"
+        ],
         "answer": 0
       },
       {
@@ -384,7 +449,11 @@
           "Hindi": "जिराफ़ क्या खाता है?",
           "Japanese": "キリンは何を食べますか？"
         },
-        "options": ["Fruit", "Leaves", "Meat"],
+        "options": [
+          "Fruit",
+          "Leaves",
+          "Meat"
+        ],
         "answer": 1
       },
       {
@@ -396,7 +465,11 @@
           "Hindi": "कौन सा जानवर बहुत तेज दौड़ता है?",
           "Japanese": "どの動物がとても速く走りますか？"
         },
-        "options": ["Bear", "Wolf", "Deer"],
+        "options": [
+          "Bear",
+          "Wolf",
+          "Deer"
+        ],
         "answer": 2
       },
       {
@@ -408,7 +481,11 @@
           "Hindi": "ज़ेब्रा की धारियाँ किस रंग की होती हैं?",
           "Japanese": "シマウマのしま模様は何色ですか？"
         },
-        "options": ["Black and white", "Brown and white", "Red and yellow"],
+        "options": [
+          "Black and white",
+          "Brown and white",
+          "Red and yellow"
+        ],
         "answer": 0
       }
     ],

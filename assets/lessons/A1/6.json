@@ -159,16 +159,17 @@
         "answer": 1
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "She has black ___.",
-        "question_translation": {
-          "Hindi": "उसके काले ___ हैं।",
-          "Japanese": "彼女には黒い___があります。"
-        },
-        "options": ["hair", "eyes", "smile"],
-        "answer": 0
-      },
+  "id": "vocab2",
+  "type": "fillInTheBlanks",
+  "question": "She has long black ___.",
+  "question_translation": {
+    "Hindi": "उसके लंबे काले ___ हैं।",
+    "Japanese": "彼女は長い黒い___をしています。"
+  },
+  "options": ["hair", "eyes", "smile"],
+  "answer": 0
+}
+,
       {
         "id": "vocab3",
         "type": "multipleChoice",
@@ -238,16 +239,17 @@
         "answer": ["She", "has", "long", "hair"]
       },
       {
-        "id": "sent4",
-        "type": "fillInTheBlanks",
-        "question": "My grandfather is ___.",
-        "question_translation": {
-          "Hindi": "मेरे दादा ___ हैं।",
-          "Japanese": "私の祖父は___です。"
-        },
-        "options": ["young", "old", "tall"],
-        "answer": 1
-      },
+  "id": "sent4",
+  "type": "fillInTheBlanks",
+  "question": "My grandfather has gray hair because he is ___.",
+  "question_translation": {
+    "Hindi": "मेरे दादा के बाल सफेद हैं क्योंकि वे ___ हैं।",
+    "Japanese": "私の祖父は白髪なので、彼は___です。"
+  },
+  "options": ["old", "tall", "young"],
+  "answer": 0
+}
+,
       {
         "id": "sent5",
         "type": "sentenceRearranging",

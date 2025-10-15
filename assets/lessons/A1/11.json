@@ -274,20 +274,17 @@
         "answer": 1
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "There is a ___ beside the bed.",
-        "question_translation": {
-          "Hindi": "बिस्तर के पास एक ___ है।",
-          "Japanese": "ベッドのそばに___があります。"
-        },
-        "options": [
-          "lamp",
-          "table",
-          "wardrobe"
-        ],
-        "answer": 0
-      },
+  "id": "vocab2",
+  "type": "fillInTheBlanks",
+  "question": "There is a ___ on the table beside the bed.",
+  "question_translation": {
+    "Hindi": "बिस्तर के पास रखी मेज़ पर एक ___ है।",
+    "Japanese": "ベッドのそばのテーブルの上に___があります。"
+  },
+  "options": ["lamp", "chair", "wardrobe"],
+  "answer": 0
+}
+,
       {
         "id": "vocab3",
         "type": "multipleChoice",
@@ -335,20 +332,17 @@
     ],
     "sentence": [
       {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "There are two ___ in the kitchen.",
-        "question_translation": {
-          "Hindi": "रसोईघर में दो ___ हैं।",
-          "Japanese": "台所に___が二つあります。"
-        },
-        "options": [
-          "beds",
-          "chairs",
-          "tables"
-        ],
-        "answer": 1
-      },
+  "id": "sent1",
+  "type": "fillInTheBlanks",
+  "question": "There are two ___ in the kitchen where we sit.",
+  "question_translation": {
+    "Hindi": "रसोईघर में दो ___ हैं जहाँ हम बैठते हैं।",
+    "Japanese": "台所には座るための___が二つあります。"
+  },
+  "options": ["beds", "chairs", "tables"],
+  "answer": 1
+}
+,
       {
         "id": "sent2",
         "type": "fillInTheBlanks",

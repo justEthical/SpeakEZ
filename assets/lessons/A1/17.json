@@ -256,7 +256,7 @@
           "Hindi": "हम सलाद में ___ डालते हैं।",
           "Japanese": "サラダに___を使います。"
         },
-        "options": ["mango", "onion", "tomato"],
+        "options": ["mango", "onion", "spinach"],
         "answer": 2
       },
       {
@@ -271,16 +271,17 @@
         "answer": 0
       },
       {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which vegetable has many layers?",
-        "question_translation": {
-          "Hindi": "कौन सी सब्ज़ी में कई परतें होती हैं?",
-          "Japanese": "どの野菜に層がたくさんありますか？"
-        },
-        "options": ["Cabbage", "Mango", "Onion"],
-        "answer": 2
-      },
+  "id": "vocab4",
+  "type": "multipleChoice",
+  "question": "Which round vegetable has many layers and a strong smell?",
+  "question_translation": {
+    "Hindi": "कौन सी गोल सब्ज़ी में कई परतें और तेज़ गंध होती है?",
+    "Japanese": "どの丸い野菜が層が多くて強いにおいがありますか？"
+  },
+  "options": ["Cabbage", "Mango", "Onion"],
+  "answer": 2
+}
+,
       {
         "id": "vocab5",
         "type": "trueFalse",

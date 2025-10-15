@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_data.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 
@@ -114,8 +114,9 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                   children: [
                     Text(
                       "Current Level: ${userProfile.currentEnglishLevel}",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
                         fontSize: 16,
+                        fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w700,
                         color: Colors.white.withOpacity(0.8),
                       ),
@@ -125,8 +126,9 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                       lessonNames.isNotEmpty
                           ? lessonNames[userProfile.currentEnglishLevelProgress]
                           : "Introduction",
-                      style: GoogleFonts.nunito(
+                      style: TextStyle(
                         fontSize: 22,
+                        fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w800,
                         color: Colors.white,
                       ),
@@ -163,8 +165,9 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                               builder: (context, value, child) {
                                 return Text(
                                   "${value.toStringAsFixed(0)}%",
-                                  style: GoogleFonts.nunito(
+                                  style: TextStyle(
                                     fontSize: 16,
+                                    fontFamily: AppStrings.nunitoFont,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
@@ -208,8 +211,9 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                 child: Center(
                                   child: Text(
                                     progress == 0.0 ? "Start Learning" : "Continue Learning",
-                                    style: GoogleFonts.nunito(
+                                    style: TextStyle(
                                       fontSize: 16,
+                                      fontFamily: AppStrings.nunitoFont,
                                       fontWeight: FontWeight.w800,
                                       color: Theme.of(context).colorScheme.primary,
                                     ),

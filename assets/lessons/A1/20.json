@@ -245,7 +245,11 @@
           "Hindi": "कौन सा खेल रैकेट से खेला जाता है?",
           "Japanese": "どのスポーツでラケットを使いますか？"
         },
-        "options": ["Football", "Tennis", "Cricket"],
+        "options": [
+          "Football",
+          "Tennis",
+          "Cricket"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "वे समुद्र किनारे ___ खेलते हैं।",
           "Japanese": "彼らはビーチで___をします。"
         },
-        "options": ["badminton", "cricket", "volleyball"],
+        "options": [
+          "badminton",
+          "cricket",
+          "volleyball"
+        ],
         "answer": 2
       },
       {
@@ -267,18 +275,26 @@
           "Hindi": "कौन सा खेल पानी में खेला जाता है?",
           "Japanese": "どのスポーツは水の中で行いますか？"
         },
-        "options": ["Swimming", "Basketball", "Running"],
+        "options": [
+          "Swimming",
+          "Basketball",
+          "Running"
+        ],
         "answer": 0
       },
       {
         "id": "vocab4",
         "type": "multipleChoice",
-        "question": "Which game is famous in India?",
+        "question": "Which sport has the most fans in India?",
         "question_translation": {
-          "Hindi": "भारत में कौन सा खेल प्रसिद्ध है?",
-          "Japanese": "インドで有名なスポーツはどれですか？"
+          "Hindi": "भारत में किस खेल के सबसे अधिक प्रशंसक हैं?",
+          "Japanese": "インドで最もファンが多いスポーツはどれですか？"
         },
-        "options": ["Football", "Cricket", "Volleyball"],
+        "options": [
+          "Football",
+          "Cricket",
+          "Volleyball"
+        ],
         "answer": 1
       },
       {
@@ -289,7 +305,10 @@
           "Hindi": "क्या योग एक प्रकार का खेल है?",
           "Japanese": "ヨガはスポーツの一種ですか？"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,18 +321,26 @@
           "Hindi": "वह हर रविवार ___ खेलती है।",
           "Japanese": "彼女は毎週日曜日に___をします。"
         },
-        "options": ["yoga", "tennis", "football"],
+        "options": [
+          "yoga",
+          "tennis",
+          "football"
+        ],
         "answer": 1
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "___ is popular in the USA.",
+        "question": "Basketball is popular in the ___.",
         "question_translation": {
-          "Hindi": "___ अमेरिका में लोकप्रिय है।",
-          "Japanese": "___はアメリカで人気です。"
+          "Hindi": "बास्केटबॉल ___ में लोकप्रिय है।",
+          "Japanese": "バスケットボールは___で人気があります。"
         },
-        "options": ["Cricket", "Basketball", "Volleyball"],
+        "options": [
+          "India",
+          "USA",
+          "Japan"
+        ],
         "answer": 1
       },
       {
@@ -324,18 +351,34 @@
           "Hindi": "[in, every, goes, running, he, morning] को सही क्रम में लगाएं।",
           "Japanese": "[in, every, goes, running, he, morning]を並べ替えましょう。"
         },
-        "options": ["every", "goes", "running", "he", "morning"],
-        "answer": ["He", "goes", "running", "every", "morning"]
+        "options": [
+          "every",
+          "goes",
+          "running",
+          "he",
+          "morning"
+        ],
+        "answer": [
+          "He",
+          "goes",
+          "running",
+          "every",
+          "morning"
+        ]
       },
       {
         "id": "sent4",
         "type": "fillInTheBlanks",
-        "question": "___ is fast and fun.",
+        "question": "Table tennis is a ___ and fun sport.",
         "question_translation": {
-          "Hindi": "___ तेज़ और मज़ेदार है।",
-          "Japanese": "___は速くて楽しいです。"
+          "Hindi": "टेबल टेनिस एक ___ और मज़ेदार खेल है।",
+          "Japanese": "卓球は___で楽しいスポーツです。"
         },
-        "options": ["Yoga", "Table tennis", "Badminton"],
+        "options": [
+          "slow",
+          "fast",
+          "quiet"
+        ],
         "answer": 1
       },
       {
@@ -346,8 +389,22 @@
           "Hindi": "[mother, my, every, yoga, morning, does] को सही क्रम में लगाएं।",
           "Japanese": "[mother, my, every, yoga, morning, does]を並べ替えましょう。"
         },
-        "options": ["mother", "my", "every", "yoga", "morning", "does"],
-        "answer": ["My", "mother", "does", "yoga", "every", "morning"]
+        "options": [
+          "mother",
+          "my",
+          "every",
+          "yoga",
+          "morning",
+          "does"
+        ],
+        "answer": [
+          "My",
+          "mother",
+          "does",
+          "yoga",
+          "every",
+          "morning"
+        ]
       }
     ],
     "listening": [
@@ -360,7 +417,11 @@
           "Hindi": "वक्ता ने कौन सा खेल बताया?",
           "Japanese": "話者はどのスポーツについて言いましたか？"
         },
-        "options": ["Football", "Basketball", "Cricket"],
+        "options": [
+          "Football",
+          "Basketball",
+          "Cricket"
+        ],
         "answer": 0
       },
       {
@@ -372,7 +433,11 @@
           "Hindi": "कौन सा खेल अच्छा व्यायाम है?",
           "Japanese": "どのスポーツが良い運動ですか？"
         },
-        "options": ["Badminton", "Swimming", "Yoga"],
+        "options": [
+          "Badminton",
+          "Swimming",
+          "Yoga"
+        ],
         "answer": 1
       },
       {
@@ -384,7 +449,11 @@
           "Hindi": "मेरी माँ हर सुबह क्या करती हैं?",
           "Japanese": "私の母は毎朝何をしますか？"
         },
-        "options": ["Yoga", "Running", "Tennis"],
+        "options": [
+          "Yoga",
+          "Running",
+          "Tennis"
+        ],
         "answer": 0
       },
       {
@@ -396,7 +465,11 @@
           "Hindi": "कौन सा खेल शटलकोक से खेला जाता है?",
           "Japanese": "どのスポーツがシャトルを使いますか？"
         },
-        "options": ["Football", "Badminton", "Basketball"],
+        "options": [
+          "Football",
+          "Badminton",
+          "Basketball"
+        ],
         "answer": 1
       },
       {
@@ -408,7 +481,11 @@
           "Hindi": "कौन सा खेल तेज़ और मज़ेदार है?",
           "Japanese": "どのスポーツが速くて楽しいですか？"
         },
-        "options": ["Table tennis", "Cricket", "Volleyball"],
+        "options": [
+          "Table tennis",
+          "Cricket",
+          "Volleyball"
+        ],
         "answer": 0
       }
     ],

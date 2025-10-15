@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -52,8 +52,9 @@ class _McqOptionsState extends State<McqOptions> {
                   child: Text(
                     widget.question.options![i],
                     textAlign: TextAlign.center,
-                    style: GoogleFonts.poppins(
+                    style: TextStyle(
                       fontSize: 16,
+                      fontFamily: AppStrings.poppinsFont,
                       color:
                           c.currentSelectedOptionIndex.value == i
                               ? Colors.white

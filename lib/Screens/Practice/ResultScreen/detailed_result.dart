@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
 
@@ -21,8 +21,9 @@ class DetailedResult extends StatelessWidget {
         ),
         title: Text(
           "Detailed Feedback",
-          style: GoogleFonts.nunito(
+          style: TextStyle(
             fontSize: 22,
+            fontFamily: AppStrings.nunitoFont,
             fontWeight: FontWeight.w800,
             color: Theme.of(context).textTheme.bodyMedium?.color    ,
           ),
@@ -62,7 +63,8 @@ class DetailedResult extends StatelessWidget {
               ),
               child: Text(
                 "Done",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
+                  fontFamily: AppStrings.nunitoFont,
                   color: Theme.of(context).scaffoldBackgroundColor,
                   fontWeight: FontWeight.w800,
                   fontSize: 18,

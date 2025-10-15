@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card.dart';
@@ -168,8 +168,9 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           child: Obx(
             () => Text(
               "Hi, ${globalController.userProfile.value.displayName}!",
-              style: GoogleFonts.nunito(
+              style: TextStyle(     
                 color: Theme.of(context).textTheme.bodyMedium?.color,
+                fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w800,
                 fontSize: 22,
               ),
@@ -277,9 +278,10 @@ class _LearnByLevelSection extends StatelessWidget {
             children: [
               Text(
                 "Learn by level",
-                style: GoogleFonts.nunito(
+                style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
+                  fontFamily: AppStrings.nunitoFont,
                   color: Theme.of(context).textTheme.bodyMedium?.color?.withOpacity(0.7),
                 ),
               ),

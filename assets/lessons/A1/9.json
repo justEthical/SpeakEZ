@@ -295,16 +295,17 @@
     ],
     "sentence": [
       {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "My favorite subject is ___. (math)",
-        "question_translation": {
-          "Hindi": "मेरा पसंदीदा विषय ___ है।",
-          "Japanese": "私の好きな科目は___です。"
-        },
-        "options": ["history", "math", "music"],
-        "answer": 1
-      },
+  "id": "sent1",
+  "type": "fillInTheBlanks",
+  "question": "I like solving problems. My favorite subject is ___.",
+  "question_translation": {
+    "Hindi": "मुझे समस्याएँ हल करना पसंद है। मेरा पसंदीदा विषय ___ है।",
+    "Japanese": "私は問題を解くのが好きです。私の好きな科目は___です。"
+  },
+  "options": ["music", "math", "art"],
+  "answer": 1
+}
+,
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
@@ -376,17 +377,18 @@
         "answer": 1
       },
       {
-        "id": "listen3",
-        "type": "multipleChoice",
-        "question": "Which subject is about computers?",
-        "audio_text": "We learn about computers.",
-        "question_translation": {
-          "Hindi": "कौन सा विषय कंप्यूटर के बारे में है?",
-          "Japanese": "どの科目がコンピュータについてですか？"
-        },
-        "options": ["English", "Computer", "Science"],
-        "answer": 1
-      },
+  "id": "listen3",
+  "type": "multipleChoice",
+  "question": "Which subject teaches about plants and animals?",
+  "audio_text": "We learn about plants and animals in science class.",
+  "question_translation": {
+    "Hindi": "कौन सा विषय पौधों और जानवरों के बारे में सिखाता है?",
+    "Japanese": "どの科目が植物と動物について教えますか？"
+  },
+  "options": ["Math", "Science", "History"],
+  "answer": 1
+}
+,
       {
         "id": "listen4",
         "type": "multipleChoice",
