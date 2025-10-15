@@ -253,20 +253,21 @@
         "answer": 0
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "She has many ___ in her pocket.",
-        "question_translation": {
-          "Hindi": "उसकी जेब में कई ___ हैं।",
-          "Japanese": "彼女のポケットにはたくさんの___があります。"
-        },
-        "options": [
-          "notes",
-          "coins",
-          "prices"
-        ],
-        "answer": 1
-      },
+  "id": "vocab2",
+  "type": "fillInTheBlanks",
+  "question": "A ___ is a small round metal money.",
+  "question_translation": {
+    "Hindi": "___ एक छोटा गोल धातु का पैसा है।",
+    "Japanese": "___は小さな丸い金属のお金です。"
+  },
+  "options": [
+    "wallet",
+    "coin",
+    "note"
+  ],
+  "answer": 1
+}
+,
       {
         "id": "vocab3",
         "type": "multipleChoice",
@@ -298,19 +299,20 @@
         "answer": 1
       },
       {
-        "id": "vocab5",
-        "type": "trueFalse",
-        "question": "We buy things from the shop.",
-        "question_translation": {
-          "Hindi": "हम दुकान से चीज़ें खरीदते हैं।",
-          "Japanese": "お店で物を買いますか？"
-        },
-        "options": [
-          "True",
-          "False"
-        ],
-        "answer": 0
-      }
+  "id": "vocab5",
+  "type": "trueFalse",
+  "question": "A wallet is used to keep money.",
+  "question_translation": {
+    "Hindi": "पैसे रखने के लिए वॉलेट का उपयोग किया जाता है।",
+    "Japanese": "お金を入れるために財布が使われますか？"
+  },
+  "options": [
+    "True",
+    "False"
+  ],
+  "answer": 0
+}
+
     ],
     "sentence": [
       {
@@ -329,20 +331,21 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "He gives a ten rupee ___.",
-        "question_translation": {
-          "Hindi": "वह दस रुपये का ___ देता है।",
-          "Japanese": "彼は10ルピーの___を渡します。"
-        },
-        "options": [
-          "note",
-          "coin",
-          "price"
-        ],
-        "answer": 0
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "She keeps her ___ in a wallet.",
+  "question_translation": {
+    "Hindi": "वह अपने ___ को वॉलेट में रखती है।",
+    "Japanese": "彼女は___を財布に入れます。"
+  },
+  "options": [
+    "money",
+    "bag",
+    "market"
+  ],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

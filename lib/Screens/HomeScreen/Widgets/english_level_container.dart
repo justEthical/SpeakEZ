@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 
@@ -162,9 +162,10 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                                     color: Colors.transparent,
                                     child: Text(
                                       widget.level,
-                                      style: GoogleFonts.nunito(
+                                      style: TextStyle(
                                         color: Theme.of(context).colorScheme.onPrimary,
                                         fontSize: 24,
+                                        fontFamily: AppStrings.nunitoFont,
                                         fontWeight: FontWeight.w900,
                                       ),
                                     ),
@@ -189,7 +190,8 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                             ),
                             Text(
                               "${widget.lessons} Lessons",
-                              style: GoogleFonts.nunito(
+                              style: TextStyle(
+                                fontFamily: AppStrings.nunitoFont,
                                 color: Colors.white.withOpacity(0.9),
                                 fontWeight: FontWeight.w600,
                               ),

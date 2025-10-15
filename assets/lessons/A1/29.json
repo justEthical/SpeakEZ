@@ -329,20 +329,21 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "Don't forget your ___.",
-        "question_translation": {
-          "Hindi": "अपना ___ लेना न भूलें।",
-          "Japanese": "___を忘れないでください。"
-        },
-        "options": [
-          "discount",
-          "receipt",
-          "change"
-        ],
-        "answer": 2
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "She got a ___ after paying.",
+  "question_translation": {
+    "Hindi": "भुगतान के बाद उसे एक ___ मिला।",
+    "Japanese": "支払いの後、彼女は___をもらいました。"
+  },
+  "options": [
+    "receipt",
+    "bag",
+    "discount"
+  ],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

@@ -329,20 +329,21 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "My uncle is an ___.",
-        "question_translation": {
-          "Hindi": "मेरे चाचा ___ हैं।",
-          "Japanese": "私のおじは___です。"
-        },
-        "options": [
-          "engineer",
-          "driver",
-          "nurse"
-        ],
-        "answer": 0
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "The doctor works at the ___.",
+  "question_translation": {
+    "Hindi": "डॉक्टर ___ में काम करता है।",
+    "Japanese": "医者は___で働いています。"
+  },
+  "options": [
+    "restaurant",
+    "hospital",
+    "shop"
+  ],
+  "answer": 1
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

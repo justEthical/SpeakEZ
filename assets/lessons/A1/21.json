@@ -245,7 +245,11 @@
           "Hindi": "जागने के बाद आप क्या करते हैं?",
           "Japanese": "起きたあと何をしますか？"
         },
-        "options": ["Go to bed", "Brush teeth", "Have lunch"],
+        "options": [
+          "Go to bed",
+          "Brush teeth",
+          "Have lunch"
+        ],
         "answer": 1
       },
       {
@@ -256,7 +260,11 @@
           "Hindi": "हम 7 बजे ___ करते हैं।",
           "Japanese": "私たちは7時に___をします。"
         },
-        "options": ["go to school", "have breakfast", "study"],
+        "options": [
+          "go to school",
+          "have breakfast",
+          "study"
+        ],
         "answer": 1
       },
       {
@@ -267,29 +275,40 @@
           "Hindi": "छात्र कहाँ पढ़ाई करते हैं?",
           "Japanese": "生徒はどこで勉強しますか？"
         },
-        "options": ["Bedroom", "Classroom", "Garden"],
+        "options": [
+          "Bedroom",
+          "Classroom",
+          "Garden"
+        ],
         "answer": 1
       },
       {
         "id": "vocab4",
         "type": "multipleChoice",
-        "question": "What do you do before sleeping?",
+        "question": "What do people usually do just before going to sleep?",
         "question_translation": {
-          "Hindi": "सोने से पहले आप क्या करते हैं?",
-          "Japanese": "寝る前に何をしますか？"
+          "Hindi": "लोग आमतौर पर सोने से ठीक पहले क्या करते हैं?",
+          "Japanese": "人々は寝る直前に普通何をしますか？"
         },
-        "options": ["Do homework", "Go to bed", "Have lunch"],
-        "answer": 1
+        "options": [
+          "Turn off the light",
+          "Have lunch",
+          "Go to school"
+        ],
+        "answer": 0
       },
       {
         "id": "vocab5",
         "type": "trueFalse",
-        "question": "You take a shower at night.",
+        "question": "People usually have breakfast in the morning.",
         "question_translation": {
-          "Hindi": "आप रात में नहाते हैं।",
-          "Japanese": "あなたは夜シャワーを浴びますか？"
+          "Hindi": "लोग आमतौर पर सुबह नाश्ता करते हैं।",
+          "Japanese": "人々は普通、朝に朝ごはんを食べます。"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       }
     ],
@@ -302,19 +321,27 @@
           "Hindi": "मैं 6 बजे ___ करता हूँ।",
           "Japanese": "私は6時に___します。"
         },
-        "options": ["wake up", "go to school", "have lunch"],
+        "options": [
+          "wake up",
+          "go to school",
+          "have lunch"
+        ],
         "answer": 0
       },
       {
         "id": "sent2",
         "type": "fillInTheBlanks",
-        "question": "She ___ every morning.",
+        "question": "She ___ her teeth every morning.",
         "question_translation": {
-          "Hindi": "वह हर सुबह ___ करती है।",
-          "Japanese": "彼女は毎朝___をします。"
+          "Hindi": "वह हर सुबह अपने दाँत ___ करती है।",
+          "Japanese": "彼女は毎朝歯を___します。"
         },
-        "options": ["gets dressed", "takes a shower", "does homework"],
-        "answer": 1
+        "options": [
+          "brushes",
+          "washes",
+          "cleans"
+        ],
+        "answer": 0
       },
       {
         "id": "sent3",
@@ -324,8 +351,22 @@
           "Hindi": "[school, go, I, to, by, bus] को सही क्रम में लगाएं।",
           "Japanese": "[school, go, I, to, by, bus]を並べ替えましょう。"
         },
-        "options": ["school", "go", "I", "to", "by", "bus"],
-        "answer": ["I", "go", "to", "school", "by", "bus"]
+        "options": [
+          "school",
+          "go",
+          "I",
+          "to",
+          "by",
+          "bus"
+        ],
+        "answer": [
+          "I",
+          "go",
+          "to",
+          "school",
+          "by",
+          "bus"
+        ]
       },
       {
         "id": "sent4",
@@ -335,7 +376,11 @@
           "Hindi": "बच्चे स्कूल के लिए ___ करते हैं।",
           "Japanese": "子どもたちは学校のために___します。"
         },
-        "options": ["go to bed", "get dressed", "study"],
+        "options": [
+          "go to bed",
+          "get dressed",
+          "study"
+        ],
         "answer": 1
       },
       {
@@ -346,8 +391,24 @@
           "Hindi": "[do, I, my, evening, homework, in, the] को सही क्रम में लगाएं।",
           "Japanese": "[do, I, my, evening, homework, in, the]を並べ替えましょう。"
         },
-        "options": ["do", "I", "my", "evening", "homework", "in", "the"],
-        "answer": ["I", "do", "my", "homework", "in", "the", "evening"]
+        "options": [
+          "do",
+          "I",
+          "my",
+          "evening",
+          "homework",
+          "in",
+          "the"
+        ],
+        "answer": [
+          "I",
+          "do",
+          "my",
+          "homework",
+          "in",
+          "the",
+          "evening"
+        ]
       }
     ],
     "listening": [
@@ -360,7 +421,11 @@
           "Hindi": "वक्ता कितने बजे उठता है?",
           "Japanese": "話者は何時に起きますか？"
         },
-        "options": ["6 o’clock", "7 o’clock", "8 o’clock"],
+        "options": [
+          "6 o’clock",
+          "7 o’clock",
+          "8 o’clock"
+        ],
         "answer": 0
       },
       {
@@ -372,7 +437,11 @@
           "Hindi": "नाश्ते के बाद वह क्या करता है?",
           "Japanese": "朝ごはんの後で彼は何をしますか？"
         },
-        "options": ["Goes to school", "Brushes his teeth", "Gets dressed"],
+        "options": [
+          "Goes to school",
+          "Brushes his teeth",
+          "Gets dressed"
+        ],
         "answer": 1
       },
       {
@@ -384,7 +453,11 @@
           "Hindi": "विद्यार्थी कहाँ पढ़ाई करते हैं?",
           "Japanese": "生徒はどこで勉強しますか？"
         },
-        "options": ["Classroom", "Garden", "Home"],
+        "options": [
+          "Classroom",
+          "Garden",
+          "Home"
+        ],
         "answer": 0
       },
       {
@@ -396,7 +469,11 @@
           "Hindi": "वह गृहकार्य कब करता है?",
           "Japanese": "彼はいつ宿題をしますか？"
         },
-        "options": ["Morning", "Afternoon", "Evening"],
+        "options": [
+          "Morning",
+          "Afternoon",
+          "Evening"
+        ],
         "answer": 2
       },
       {
@@ -408,7 +485,11 @@
           "Hindi": "बच्चे 9 बजे क्या करते हैं?",
           "Japanese": "子どもたちは9時に何をしますか？"
         },
-        "options": ["Go to bed", "Get dressed", "Go to school"],
+        "options": [
+          "Go to bed",
+          "Get dressed",
+          "Go to school"
+        ],
         "answer": 0
       }
     ],

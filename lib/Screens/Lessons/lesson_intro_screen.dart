@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
@@ -114,8 +114,9 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                           ? "Level Unlock Test"
                           : "Welcome to the lesson",
                           textAlign: TextAlign.center,
-                      style: GoogleFonts.poppins(
+                      style: TextStyle(
                         fontSize: 16,
+                        fontFamily: AppStrings.poppinsFont,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
@@ -123,8 +124,9 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                     Text(
                       c.lessonModel!.lessonName,
                       textAlign: TextAlign.center,
-                      style: GoogleFonts.poppins(
+                      style: TextStyle(
                         fontSize: 20,
+                        fontFamily: AppStrings.poppinsFont,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -134,8 +136,9 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                       child: Text(
                         "You have to score more than 80% to unlock the ${widget.englishLevel} level",
                         textAlign: TextAlign.center,
-                        style: GoogleFonts.poppins(
+                        style: TextStyle(
                           fontSize: 20,
+                          fontFamily: AppStrings.poppinsFont,
                           fontWeight: FontWeight.w400,
                         ),
                       ),
@@ -153,9 +156,10 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                       ),
                       child: Text(
                         "Start",
-                        style: GoogleFonts.poppins(
+                        style: TextStyle(
                           color: Theme.of(context).colorScheme.onPrimary,
                           fontWeight: FontWeight.w600,
+                          fontFamily: AppStrings.poppinsFont,
                         ),
                       ),
                     ),

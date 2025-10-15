@@ -295,27 +295,29 @@
     ],
     "sentence": [
       {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "She drinks ___ every morning.",
-        "question_translation": {
-          "Hindi": "वह हर सुबह ___ पीती है।",
-          "Japanese": "彼女は毎朝___を飲みます。"
-        },
-        "options": ["water", "tea", "juice"],
-        "answer": 1
-      },
+  "id": "sent1",
+  "type": "fillInTheBlanks",
+  "question": "She drinks ___ every morning to stay awake.",
+  "question_translation": {
+    "Hindi": "वह हर सुबह जागने के लिए ___ पीती है।",
+    "Japanese": "彼女は目を覚ますために毎朝___を飲みます。"
+  },
+  "options": ["water", "tea", "juice"],
+  "answer": 1
+}
+,
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "We have ___ for dinner.",
-        "question_translation": {
-          "Hindi": "हम रात के खाने में ___ खाते हैं।",
-          "Japanese": "晩ご飯に___を食べます。"
-        },
-        "options": ["rice", "coffee", "bread"],
-        "answer": 0
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "We eat ___ with a spoon.",
+  "question_translation": {
+    "Hindi": "हम चम्मच से ___ खाते हैं।",
+    "Japanese": "私たちはスプーンで___を食べます。"
+  },
+  "options": ["rice", "coffee", "bread"],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

@@ -283,20 +283,21 @@
         "answer": 2
       },
       {
-        "id": "vocab4",
-        "type": "multipleChoice",
-        "question": "Which transport do you pay a driver to use?",
-        "question_translation": {
-          "Hindi": "किस वाहन में ड्राइवर को पैसे देते हैं?",
-          "Japanese": "運転手にお金を払う乗り物はどれですか？"
-        },
-        "options": [
-          "Taxi",
-          "Bicycle",
-          "Bus"
-        ],
-        "answer": 0
-      },
+  "id": "vocab4",
+  "type": "multipleChoice",
+  "question": "Which vehicle carries heavy things?",
+  "question_translation": {
+    "Hindi": "कौन सा वाहन भारी सामान ले जाता है?",
+    "Japanese": "重い荷物を運ぶ乗り物はどれですか？"
+  },
+  "options": [
+    "Car",
+    "Truck",
+    "Bicycle"
+  ],
+  "answer": 1
+}
+,
       {
         "id": "vocab5",
         "type": "trueFalse",
@@ -329,20 +330,21 @@
         "answer": 0
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "My uncle rides a ___.",
-        "question_translation": {
-          "Hindi": "मेरे चाचा ___ चलाते हैं।",
-          "Japanese": "おじは___に乗ります。"
-        },
-        "options": [
-          "motorcycle",
-          "car",
-          "subway"
-        ],
-        "answer": 0
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "My grandparents go to the market by ___.",
+  "question_translation": {
+    "Hindi": "मेरे दादा-दादी ___ से बाज़ार जाते हैं।",
+    "Japanese": "祖父母は___で市場へ行きます。"
+  },
+  "options": [
+    "train",
+    "bicycle",
+    "car"
+  ],
+  "answer": 2
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

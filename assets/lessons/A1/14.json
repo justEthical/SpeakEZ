@@ -306,16 +306,17 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "Put the food on the ___.",
-        "question_translation": {
-          "Hindi": "खाना ___ पर रखें।",
-          "Japanese": "食べ物を___にのせてください。"
-        },
-        "options": ["cup", "pan", "plate"],
-        "answer": 2
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "Put the food on the ___ to eat.",
+  "question_translation": {
+    "Hindi": "खाना खाने के लिए ___ पर रखें।",
+    "Japanese": "食べるために食べ物を___にのせてください。"
+  },
+  "options": ["cup", "pan", "plate"],
+  "answer": 2
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

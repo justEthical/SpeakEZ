@@ -2,8 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
@@ -55,8 +55,9 @@ class _ReauthenticationBottomSheetState
           child: Text(
             "Please reauthentication to proceed further.",
             textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(
+            style: TextStyle(
               fontSize: 16,
+              fontFamily: AppStrings.poppinsFont,
               fontWeight: FontWeight.bold,
             ),
           ),

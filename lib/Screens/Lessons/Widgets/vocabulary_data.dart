@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get_utils/src/extensions/export.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -23,8 +23,9 @@ class VocabularyData extends StatelessWidget {
             children: [
               Text(
                 vocabularyItem.word.capitalize!,
-                style: GoogleFonts.poppins(
+                style: TextStyle(
                   fontSize: 20,
+                  fontFamily: AppStrings.poppinsFont,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -55,8 +56,9 @@ class VocabularyData extends StatelessWidget {
           Text(
             "Meaning:",
             textAlign: TextAlign.start,
-            style: GoogleFonts.poppins(
+            style: TextStyle(
               fontSize: 17,
+              fontFamily: AppStrings.poppinsFont,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -64,8 +66,9 @@ class VocabularyData extends StatelessWidget {
           Text(
             vocabularyItem.meaning,
             textAlign: TextAlign.start,
-            style: GoogleFonts.poppins(
+            style: TextStyle(
               fontSize: 16,
+              fontFamily: AppStrings.poppinsFont,
               fontWeight: FontWeight.normal,
             ),
           ),
@@ -77,8 +80,9 @@ class VocabularyData extends StatelessWidget {
           SizedBox(height: 18),
           Text(
             "Example Sentence(s)",
-            style: GoogleFonts.poppins(
+            style: TextStyle(
               fontSize: 17,
+              fontFamily: AppStrings.poppinsFont,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -92,8 +96,9 @@ class VocabularyData extends StatelessWidget {
                   children: [
                     Text(
                       "${index + 1}. ${vocabularyItem.examples[index].sentence}",
-                      style: GoogleFonts.poppins(
+                      style: TextStyle(
                         fontSize: 16,
+                        fontFamily: AppStrings.poppinsFont,
                         fontWeight: FontWeight.normal,
                       ),
                       textAlign: TextAlign.start,

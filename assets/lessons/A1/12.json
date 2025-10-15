@@ -155,16 +155,16 @@
         "answer": 0
       },
       {
-        "id": "vocab3",
-        "type": "fillInTheBlanks",
-        "question": "She is wearing a red ___.",
-        "question_translation": {
-          "Hindi": "वह लाल ___ पहन रही है।",
-          "Japanese": "彼女は赤い___をかぶっています。"
-        },
-        "options": ["shirt", "hat", "bag"],
-        "answer": 1
-      },
+    "id": "vocab3",
+    "type": "fillInTheBlanks",
+    "question": "She is wearing a red ___ on her head.",
+    "question_translation": {
+      "Hindi": "वह अपने सिर पर लाल ___ पहन रही है।",
+      "Japanese": "彼女は頭に赤い___をかぶっています。"
+    },
+    "options": ["shirt", "hat", "bag"],
+    "answer": 1
+  },
       {
         "id": "vocab4",
         "type": "trueFalse",
@@ -201,16 +201,19 @@
         "answer": 0
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "He bought black ___.",
-        "question_translation": {
-          "Hindi": "उसने काली ___ खरीदी।",
-          "Japanese": "彼は黒い___を買いました。"
-        },
-        "options": ["pants", "shoes", "hat"],
-        "answer": 0
-      },
+  "sent2": {
+    "id": "sent2",
+    "type": "fillInTheBlanks",
+    "question": "He bought black ___ for his feet.",
+    "question_translation": {
+      "Hindi": "उसने अपने पैरों के लिए काले ___ खरीदे।",
+      "Japanese": "彼は足のために黒い___を買いました。"
+    },
+    "options": ["pants", "shoes", "hat"],
+    "answer": 1
+  }
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",

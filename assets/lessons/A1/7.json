@@ -159,16 +159,17 @@
         "answer": 0
       },
       {
-        "id": "vocab2",
-        "type": "fillInTheBlanks",
-        "question": "Chocolate is ___.",
-        "question_translation": {
-          "Hindi": "चॉकलेट ___ है।",
-          "Japanese": "チョコレートは___です。"
-        },
-        "options": ["brown", "pink", "black"],
-        "answer": 0
-      },
+  "id": "vocab2",
+  "type": "fillInTheBlanks",
+  "question": "Milk chocolate is ___.",
+  "question_translation": {
+    "Hindi": "मिल्क चॉकलेट ___ होती है।",
+    "Japanese": "ミルクチョコレートは___です。"
+  },
+  "options": ["brown", "pink", "black"],
+  "answer": 0
+}
+,
       {
         "id": "vocab3",
         "type": "multipleChoice",
@@ -205,16 +206,17 @@
     ],
     "sentence": [
       {
-        "id": "sent1",
-        "type": "fillInTheBlanks",
-        "question": "The ___ is black.",
-        "question_translation": {
-          "Hindi": "___ काली है।",
-          "Japanese": "___は黒いです。"
-        },
-        "options": ["apple", "sky", "night"],
-        "answer": 2
-      },
+  "id": "sent1",
+  "type": "fillInTheBlanks",
+  "question": "The ___ is black and full of stars.",
+  "question_translation": {
+    "Hindi": "___ काली होती है और तारों से भरी होती है।",
+    "Japanese": "___は黒くて星がたくさんあります。"
+  },
+  "options": ["apple", "sky", "night"],
+  "answer": 2
+}
+,
       {
         "id": "sent2",
         "type": "fillInTheBlanks",

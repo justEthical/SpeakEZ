@@ -329,20 +329,21 @@
         "answer": 1
       },
       {
-        "id": "sent2",
-        "type": "fillInTheBlanks",
-        "question": "It is ___ past nine.",
-        "question_translation": {
-          "Hindi": "यह नौ ___ बजे हैं।",
-          "Japanese": "今は9時___です。"
-        },
-        "options": [
-          "half",
-          "quarter",
-          "minute"
-        ],
-        "answer": 0
-      },
+  "id": "sent2",
+  "type": "fillInTheBlanks",
+  "question": "It is ten ___ five.",
+  "question_translation": {
+    "Hindi": "यह दस बजकर ___ मिनट हैं।",
+    "Japanese": "今は10時___分です。"
+  },
+  "options": [
+    "past",
+    "to",
+    "o’clock"
+  ],
+  "answer": 0
+}
+,
       {
         "id": "sent3",
         "type": "sentenceRearranging",
