@@ -64,6 +64,7 @@ dependencies:
   firebase_remote_config: ^5.5.0
   flutter_dotenv: ^6.0.0
   posthog_flutter: ^5.3.1
+  firebase_messaging: ^15.2.10
 
 dev_dependencies:
   flutter_test:

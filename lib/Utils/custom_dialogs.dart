@@ -69,7 +69,7 @@ class CustomDialogs {
     );
   }
 
-  static Widget enableMicrophonePermissionFromSettings(BuildContext context) {
+  static Widget enablePermissionFromSettings(BuildContext context, String infoText) {
     return Dialog(
       insetPadding: const EdgeInsets.all(20),
       child: Container(
@@ -80,8 +80,8 @@ class CustomDialogs {
         ),
         child: Column(
           children: [
-            const Text(
-              'Please enable microphone permission from settings.',
+             Text(
+              infoText,
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
             ),
