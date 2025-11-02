@@ -104,6 +104,7 @@ flutter:
   assets:
     - assets/lottie/
     - assets/images/
+    - assets/images/practice-tab-icons/
     - assets/lessons/A1/
     - assets/lessons/A2/
     - assets/lessons/B1/
@@ -112,7 +113,6 @@ flutter:
     - assets/lessons/C2/
     - assets/lessons/UnlockLevel/
     - assets/audio/
-    - assets/questions/A1/
     - .env
     # - assets/whisper_model/
 

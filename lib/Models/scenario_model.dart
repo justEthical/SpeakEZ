@@ -8,6 +8,7 @@ class ScenarioModel {
   final String level;
   final String prompt;
   final String intro;
+  final String category;
 
   ScenarioModel({
     required this.title,
@@ -16,6 +17,16 @@ class ScenarioModel {
     required this.level,
     required this.prompt,
     required this.intro,
+    this.category = '',
+  });
+}
+class ScenarioCategoryModel {
+  final String title;
+  final String assetPath;
+
+  ScenarioCategoryModel({
+    required this.title,
+    required this.assetPath,
   });
 }
 

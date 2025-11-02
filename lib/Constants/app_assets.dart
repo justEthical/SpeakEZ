@@ -1,6 +1,7 @@
 class AppAssets {
   static String _getFullLottiePath(String name) => "assets/lottie/$name";
   static String _getFullImagePath(String name) => "assets/images/$name";
+  static String _getPracticeCategoryPath(String name) => "assets/images/practice-tab-icons/$name";
 
   // lottie animations
   static String get onboaring1 => _getFullLottiePath("first.lottie");
@@ -20,6 +21,8 @@ class AppAssets {
   static String get unlock => _getFullLottiePath("unlock.lottie");
   static String get locked => _getFullLottiePath("locked.lottie");
   static String get key => _getFullLottiePath("key.lottie");  
+
+  static String get placeholder => _getFullImagePath("placeholder.png");
 
   //Audio files
   static String get correct => "correct.mp3";
@@ -85,4 +88,31 @@ class AppAssets {
   static String get totalSpeakingTime =>
       _getFullImagePath("total_speaking_time.svg");
   static String get tip => _getFullImagePath("tip.svg");
+
+
+  // practice tab category
+  static String get dailyLifeRoutines => _getPracticeCategoryPath("daily_life_routines.png"); 
+  static String get educationLearning => _getPracticeCategoryPath("education_learning.png");
+  static String get familyFriendsRelationships => _getPracticeCategoryPath("family_friends_relationships.png");
+  static String get foodTravelCulture => _getPracticeCategoryPath("food_travel_culture.png"); 
+  static String get imaginationCreativityReflection => _getPracticeCategoryPath("imagination_creativity_reflection.png"); 
+  static String get opinionsEmotionsSocialLife => _getPracticeCategoryPath("opinions_emotions_social_life.png"); 
+  static String get societyEnvironmentGlobalIssues => _getPracticeCategoryPath("society_environment_global_issues.png");
+  static String get shoppingMoneyServices => _getPracticeCategoryPath("shopping_money_services.png");
+  static String get technologyModernLife => _getPracticeCategoryPath("technology_modern_life.png");
+  static String get workBusinessCareer => _getPracticeCategoryPath("work_business_career.png");
 }
+
+
+/*
+✅ Renamed: Society, Environment & Global Issues.png → society_environment_global_issuespng
+✅ Renamed: Imagination, Creativity & Reflection.png → imagination_creativity_reflectionpng
+✅ Renamed: Food, Travel & Culture.png → food_travel_culturepng
+✅ Renamed: Family, Friends & Relationships.png → family_friends_relationshipspng
+✅ Renamed: Technology & Modern Life.png → technology_modern_lifepng
+✅ Renamed: Shopping, Money & Services.png → shopping_money_servicespng
+✅ Renamed: Education & Learning.png → education_learningpng
+✅ Renamed: Work, Business & Career.png → work_business_careerpng
+✅ Renamed: Daily Life & Routines.png → daily_life_routinespng
+✅ Renamed: Opinions, Emotions & Social Life.png → opinions_emotions_social_lifepng
+*/
