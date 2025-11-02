@@ -366,7 +366,7 @@ static List<ScenarioCategoryModel> scenarioCategories = [
 ScenarioModel(
   title: 'Talking About Yourself',
   description: 'Introduce yourself and share basic personal information confidently.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.talkingAboutYourself,
   level: 'A1',
   category: 'Daily Life & Routines',
   prompt: 'Act as a friendly stranger. Ask me to introduce myself, my name, where I live, and what I do.',
@@ -375,7 +375,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Daily Schedule',
   description: 'Talk about your daily routine and what you do from morning to night.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.dailySchedule,
   level: 'A1',
   category: 'Daily Life & Routines',
   prompt: 'Ask me to describe my daily activities and help me use correct tense forms.',
@@ -384,7 +384,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Weekend Plans',
   description: 'Discuss weekend activities and how you like to relax.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.weekendPlans,
   level: 'A2',
   category: 'Daily Life & Routines',
   prompt: 'Pretend to be my friend. Ask about my weekend plans and suggest ideas for fun activities.',
@@ -393,7 +393,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Morning & Night Routine',
   description: 'Describe what you usually do after waking up and before sleeping.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.morningAndNightRoutine,
   level: 'A1',
   category: 'Daily Life & Routines',
   prompt: 'Ask me to describe my morning and night routines step by step.',
@@ -402,7 +402,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Household Chores',
   description: 'Talk about cleaning, cooking, and other daily household tasks.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.householdChores,
   level: 'A2',
   category: 'Daily Life & Routines',
   prompt: 'Act as a roommate. Discuss how we can divide household chores fairly.',
@@ -411,7 +411,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Using Public Transport',
   description: 'Practice talking about buses, trains, and commuting in English.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.usingPublicTransport,
   level: 'A2',
   category: 'Daily Life & Routines',
   prompt: 'Act as a ticket officer. Ask me where I’m going and help me buy a ticket.',
@@ -420,7 +420,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Managing Time',
   description: 'Learn to talk about schedules and balancing time effectively.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.managingTime,
   level: 'B1',
   category: 'Daily Life & Routines',
   prompt: 'Act as a mentor. Ask me how I manage my time and suggest better ways.',
@@ -429,7 +429,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Health & Self-Care',
   description: 'Discuss health habits, fitness, and mental well-being.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.healthSelfCare,
   level: 'B1',
   category: 'Daily Life & Routines',
   prompt: 'Act as a health coach. Ask me about my exercise and diet routines.',
@@ -438,7 +438,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Introducing Your Family',
   description: 'Learn to describe family members and their occupations.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.introducingYourFamily,
   level: 'A1',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as a new friend. Ask me to talk about my family and what they do.',
@@ -447,7 +447,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Describing People',
   description: 'Use adjectives to talk about appearance and personality.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.describingPeople,
   level: 'A2',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as a curious friend. Ask me to describe someone I know.',
@@ -456,7 +456,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Friendship & Trust',
   description: 'Talk about what makes a good friend and share friendship stories.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.friendshipTrust,
   level: 'B1',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as my best friend. Discuss what friendship means to us.',
@@ -465,7 +465,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Talking About Childhood',
   description: 'Share memories and experiences from your early life.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.talkingAboutChildhood,
   level: 'B1',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as a school friend. Ask me about my childhood memories.',
@@ -474,7 +474,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Celebrations & Family Events',
   description: 'Discuss birthdays, weddings, and family gatherings.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.celebrationsFamilyEvents,
   level: 'A2',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as a cousin. Ask about how my family celebrates events.',
@@ -483,7 +483,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Handling Conflicts Politely',
   description: 'Practice resolving disagreements using calm, polite English.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.handlingConflictsPolitely,
   level: 'B2',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as a friend in conflict. Let’s practice apologizing and resolving problems.',
@@ -492,7 +492,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Talking About Relationships',
   description: 'Discuss types of relationships and what makes them healthy.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.talkingAboutRelationships,
   level: 'B2',
   category: 'Family, Friends & Relationships',
   prompt: 'Act as a counselor. Ask me how I maintain healthy relationships.',
@@ -501,7 +501,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Ordering Food at a Restaurant',
   description: 'Learn how to order, ask about menu items, and handle bills politely.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.orderingFoodAtARestaurant,
   level: 'A2',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a restaurant waiter. Take my order and ask follow-up questions about food and drinks.',
@@ -510,7 +510,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Describing Favorite Dishes',
   description: 'Talk about your favorite foods, ingredients, and flavors.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.describingFavoriteDishes,
   level: 'A2',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a food blogger. Ask me to describe my favorite dish and how it’s made.',
@@ -519,7 +519,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Traveling Abroad',
   description: 'Practice conversations at airports, immigration, and sightseeing spots.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.travelingAbroad,
   level: 'B1',
   category: 'Food, Travel & Culture',
   prompt: 'Act as an airport staff or tourist guide. Ask me travel questions and help me practice useful phrases.',
@@ -528,7 +528,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Booking Hotels and Flights',
   description: 'Learn to make travel bookings and ask about facilities.',
-  imagePath: AppAssets.placeholder,
+        imagePath: AppAssets.bookingHotelsAndFlights,
   level: 'B1',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a hotel receptionist. Help me book a room and answer my questions.',
@@ -537,7 +537,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Festivals and Traditions',
   description: 'Talk about cultural festivals and how you celebrate them.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.festivalsAndTraditions,
   level: 'A2',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a friend from another country. Ask me to describe my favorite festival.',
@@ -546,7 +546,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Local Culture and Customs',
   description: 'Discuss traditions, habits, and manners across cultures.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.localCultureAndCustoms,
   level: 'B2',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a traveler visiting my country. Ask about local culture and etiquette.',
@@ -555,7 +555,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Food from Different Countries',
   description: 'Compare cuisines and discuss international dining experiences.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.foodFromDifferentCountries,
   level: 'B1',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a chef from another country. Let’s discuss food from our cultures.',
@@ -564,7 +564,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Travel Experiences and Memories',
   description: 'Share memorable travel experiences and favorite destinations.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.travelExperiencesAndMemories,
   level: 'B2',
   category: 'Food, Travel & Culture',
   prompt: 'Act as a travel buddy. Ask me about my best trips and what I learned.',
@@ -573,7 +573,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'School and College Life',
   description: 'Talk about your classes, teachers, and experiences in school or college.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.schoolAndCollegeLife,
   level: 'A2',
   category: 'Education & Learning',
   prompt: 'Act as a classmate. Ask me questions about my school life and hobbies.',
@@ -582,7 +582,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Favorite Subjects and Teachers',
   description: 'Describe subjects you enjoy and teachers who inspired you.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.favoriteSubjectsAndTeachers,
   level: 'A2',
   category: 'Education & Learning',
   prompt: 'Act as a student. Ask me about my favorite subjects and teachers.',
@@ -591,7 +591,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Online Learning',
   description: 'Discuss e-learning platforms, advantages, and challenges.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.onlineLearning,
   level: 'B1',
   category: 'Education & Learning',
   prompt: 'Act as an online instructor. Ask me about my online study habits.',
@@ -600,7 +600,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Study Habits and Exam Preparation',
   description: 'Share techniques for studying and managing exam stress.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.studyHabitsAndExamPreparation,
   level: 'B1',
   category: 'Education & Learning',
   prompt: 'Act as a study coach. Ask me about my exam preparation routine.',
@@ -609,7 +609,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Talking About Mistakes',
   description: 'Learn to discuss errors and how to learn from them positively.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.talkingAboutMistakes,
   level: 'B2',
   category: 'Education & Learning',
   prompt: 'Act as a teacher. Ask me what mistakes I’ve learned from in studies.',
@@ -618,7 +618,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Learning New Skills',
   description: 'Talk about learning languages, instruments, or digital skills.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.learningNewSkills,
   level: 'B1',
   category: 'Education & Learning',
   prompt: 'Act as a friend. Ask me what new skill I want to learn and why.',
@@ -627,7 +627,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Future Education Goals',
   description: 'Discuss your study plans and future ambitions.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.futureEducationGoals,
   level: 'B2',
   category: 'Education & Learning',
   prompt: 'Act as a career counselor. Ask me about my future academic goals.',
@@ -636,7 +636,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Job Interview Practice',
   description: 'Prepare for interviews and learn professional self-introduction skills.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.jobInterviewPractice,
   level: 'B2',
   category: 'Work, Business & Career',
   prompt: 'Act as an interviewer. Ask me common job interview questions and give feedback.',
@@ -645,7 +645,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Workplace Communication',
   description: 'Discuss projects, deadlines, and teamwork with colleagues.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.workplaceCommunication,
   level: 'B1',
   category: 'Work, Business & Career',
   prompt: 'Act as a coworker. Start a chat about an upcoming project deadline.',
@@ -654,7 +654,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Giving and Receiving Feedback',
   description: 'Practice giving constructive feedback and responding professionally.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.givingAndReceivingFeedback,
   level: 'B2',
   category: 'Work, Business & Career',
   prompt: 'Act as my team lead. Give me feedback and ask for mine too.',
@@ -663,7 +663,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Making Business Calls',
   description: 'Handle formal phone conversations with confidence.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.makingBusinessCalls,
   level: 'B1',
   category: 'Work, Business & Career',
   prompt: 'Act as a client on a business call. Ask questions about a project update.',
@@ -672,7 +672,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Professional Emails',
   description: 'Learn how to write and reply to formal emails.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.professionalEmails,
   level: 'B2',
   category: 'Work, Business & Career',
   prompt: 'Act as my manager. Ask me to write or reply to a formal work email.',
@@ -681,7 +681,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Time Management at Work',
   description: 'Discuss managing workload, priorities, and deadlines effectively.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.timeManagementAtWork,
   level: 'B1',
   category: 'Work, Business & Career',
   prompt: 'Act as my mentor. Ask me how I plan my workday and suggest improvements.',
@@ -690,7 +690,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Work–Life Balance',
   description: 'Talk about maintaining balance between job and personal life.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.workLifeBalance,
   level: 'B1',
   category: 'Work, Business & Career',
   prompt: 'Act as a friend. Discuss how to relax after work and avoid burnout.',
@@ -699,7 +699,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Career Goals and Ambitions',
   description: 'Discuss short-term and long-term professional aspirations.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.careerGoalsAndAmbitions,
   level: 'B2',
   category: 'Work, Business & Career',
   prompt: 'Act as a career coach. Ask me about my goals and future plans.',
@@ -708,7 +708,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Buying Clothes or Gadgets',
   description: 'Practice asking about sizes, prices, and features in stores.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.buyingClothesOrGadgets,
   level: 'A2',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a store assistant. Ask me what I’m looking for and suggest options.',
@@ -717,7 +717,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Comparing Prices and Discounts',
   description: 'Learn how to ask for deals and compare prices politely.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.comparingPricesAndDiscounts,
   level: 'B1',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a shopkeeper. Offer me discounts and explain price differences.',
@@ -726,7 +726,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Banking and Payments',
   description: 'Talk about accounts, loans, and digital transactions in English.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.bankingAndPayments,
   level: 'B2',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a bank staff member. Help me open an account or set up online banking.',
@@ -735,7 +735,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Asking for Help in a Store',
   description: 'Learn how to approach staff and request assistance politely.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.askingForHelpInAStore,
   level: 'A2',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a shop assistant. Help me find a product in the store.',
@@ -744,7 +744,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Online Shopping and Reviews',
   description: 'Discuss online purchases and writing product feedback.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.onlineShoppingAndReviews,
   level: 'B1',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a customer-service agent. Ask me about my order experience.',
@@ -753,7 +753,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Saving and Budgeting Money',
   description: 'Learn how to talk about saving, expenses, and financial planning.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.savingAndBudgetingMoney,
   level: 'B1',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a financial advisor. Ask me about my spending habits and savings goals.',
@@ -762,7 +762,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Returning or Exchanging Products',
   description: 'Practice polite phrases for refunds and exchanges.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.returningOrExchangingProducts,
   level: 'B2',
   category: 'Shopping, Money & Services',
   prompt: 'Act as a store manager. Help me return or exchange a product politely.',
@@ -771,7 +771,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Expressing Opinions Politely',
   description: 'Learn to share and discuss opinions without sounding rude.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.expressingOpinionsPolitely,
   level: 'B1',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a debate partner. Ask me about my opinion on simple topics like movies or food.',
@@ -780,7 +780,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Talking About Feelings',
   description: 'Use emotional vocabulary to describe how you feel and why.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.talkingAboutFeelings,
   level: 'A2',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a friend. Ask me how I feel today and why.',
@@ -789,7 +789,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Handling Stress',
   description: 'Talk about stress, relaxation, and coping techniques.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.handlingStress,
   level: 'B1',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a therapist. Ask me about what stresses me and how I relax.',
@@ -798,7 +798,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Making Small Talk',
   description: 'Practice light conversation for social and work settings.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.makingSmallTalk,
   level: 'A2',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a colleague. Start a short, friendly chat about the day.',
@@ -807,7 +807,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Agreeing and Disagreeing',
   description: 'Use natural phrases to agree or disagree politely.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.agreeingAndDisagreeing,
   level: 'B1',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a discussion partner. Share your opinion and ask if I agree.',
@@ -816,7 +816,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Sharing Experiences',
   description: 'Talk about memorable experiences and what you learned.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.sharingExperiences,
   level: 'B2',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a podcast host. Ask me to share an interesting life story.',
@@ -825,7 +825,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Talking About Kindness',
   description: 'Discuss acts of kindness and how to express gratitude.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.talkingAboutKindness,
   level: 'A2',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a friend. Ask me about a time I helped someone or received help.',
@@ -834,7 +834,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Apologizing and Forgiving',
   description: 'Practice how to apologize and accept apologies in English.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.apologizingAndForgiving,
   level: 'A2',
   category: 'Opinions, Emotions & Social Life',
   prompt: 'Act as a friend. Pretend I made a mistake—help me practice apologizing.',
@@ -843,7 +843,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Using Smartphones and Apps',
   description: 'Talk about favorite apps, features, and phone habits.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.usingSmartphonesAndApps,
   level: 'A2',
   category: 'Technology & Modern Life',
   prompt: 'Act as a tech enthusiast. Ask me what apps I use most and why.',
@@ -852,7 +852,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Social Media Influence',
   description: 'Discuss how social media affects people’s lives.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.socialMediaInfluence,
   level: 'B1',
   category: 'Technology & Modern Life',
   prompt: 'Act as a friend. Ask me how social media changes communication.',
@@ -861,7 +861,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Artificial Intelligence in Daily Life',
   description: 'Talk about AI tools and how they’re shaping the world.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.artificialIntelligenceInDailyLife,
   level: 'B2',
   category: 'Technology & Modern Life',
   prompt: 'Act as a tech journalist. Ask me how I use AI in daily life.',
@@ -870,7 +870,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Online Safety and Privacy',
   description: 'Learn to discuss internet safety and digital privacy concerns.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.onlineSafetyAndPrivacy,
   level: 'B1',
   category: 'Technology & Modern Life',
   prompt: 'Act as a cybersecurity expert. Ask me how I protect my online data.',
@@ -879,7 +879,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Work From Home Lifestyle',
   description: 'Discuss pros and cons of remote work and productivity tips.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.workFromHomeLifestyle,
   level: 'B1',
   category: 'Technology & Modern Life',
   prompt: 'Act as a coworker. Ask me how I manage work-from-home routines.',
@@ -888,7 +888,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Digital Addiction',
   description: 'Talk about screen time and healthy tech habits.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.digitalAddiction,
   level: 'B2',
   category: 'Technology & Modern Life',
   prompt: 'Act as a life coach. Ask me about my screen habits and solutions.',
@@ -897,7 +897,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Balancing Screen Time',
   description: 'Learn expressions to talk about balancing technology use.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.balancingScreenTime,
   level: 'A2',
   category: 'Technology & Modern Life',
   prompt: 'Act as a friend. Ask me how I relax without my phone.',
@@ -906,7 +906,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Pollution and Climate Change',
   description: 'Discuss global warming, pollution, and environmental solutions.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.pollutionAndClimateChange,
   level: 'B2',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as an environmental activist. Ask me what I do to protect the planet.',
@@ -915,7 +915,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Helping the Community',
   description: 'Talk about volunteering and helping people in need.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.helpingTheCommunity,
   level: 'A2',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as a volunteer coordinator. Ask me about my experience helping others.',
@@ -924,7 +924,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Gender Equality',
   description: 'Discuss fairness, equality, and opportunities for all genders.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.genderEquality,
   level: 'B2',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as a social worker. Ask me what gender equality means to me.',
@@ -933,7 +933,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Peace and Global Cooperation',
   description: 'Talk about peace, unity, and global understanding.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.peaceAndGlobalCooperation,
   level: 'B1',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as a peace ambassador. Ask me how countries can work together.',
@@ -942,7 +942,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Animal Welfare',
   description: 'Discuss kindness toward animals and protecting wildlife.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.animalWelfare,
   level: 'A2',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as an animal shelter worker. Ask me about my favorite animals.',
@@ -951,7 +951,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Waste Management',
   description: 'Learn to talk about recycling, plastic use, and clean surroundings.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.wasteManagement,
   level: 'B1',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as a city officer. Ask me how I manage household waste.',
@@ -960,7 +960,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Sustainable Living',
   description: 'Discuss eco-friendly habits like saving energy and reducing waste.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.sustainableLiving,
   level: 'B2',
   category: 'Society, Environment & Global Issues',
   prompt: 'Act as a sustainability expert. Ask me about eco-friendly habits.',
@@ -969,7 +969,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Storytelling Practice',
   description: 'Develop creativity and storytelling skills in English.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.storytellingPractice,
   level: 'B1',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a listener. Ask me to tell a short story about any topic.',
@@ -978,7 +978,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'What Would You Do If…',
   description: 'Practice conditional speech and hypothetical situations.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.whatWouldYouDoIf,
   level: 'B2',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a curious friend. Ask me “what would you do if…” type questions.',
@@ -987,7 +987,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Dreams and Goals',
   description: 'Talk about ambitions, dreams, and how to achieve them.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.dreamsAndGoals,
   level: 'B1',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a life coach. Ask me about my future dreams and goals.',
@@ -996,7 +996,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Lessons Learned from Life',
   description: 'Reflect on personal growth and life experiences.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.lessonsLearnedFromLife,
   level: 'B2',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a friend. Ask me about the most important lesson I’ve learned.',
@@ -1005,7 +1005,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Motivation and Inspiration',
   description: 'Discuss what inspires you and how to stay motivated.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.motivationAndInspiration,
   level: 'B1',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a mentor. Ask me what keeps me motivated every day.',
@@ -1014,7 +1014,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'Describing Art and Music',
   description: 'Express opinions about music, movies, and artworks.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.describingArtAndMusic,
   level: 'B2',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as an artist. Ask me what kind of music or art I like.',
@@ -1023,7 +1023,7 @@ ScenarioModel(
 ScenarioModel(
   title: 'The Future of the World',
   description: 'Talk about technology, environment, and humanity’s future.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.theFutureOfTheWorld,
   level: 'C1',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a futurist. Ask me how I imagine the world 50 years from now.',
@@ -1032,14 +1032,12 @@ ScenarioModel(
 ScenarioModel(
   title: 'Staying Positive',
   description: 'Learn phrases to express hope and positivity.',
-  imagePath: AppAssets.placeholder,
+  imagePath: AppAssets.stayingPositive,
   level: 'A2',
   category: 'Imagination, Creativity & Reflection',
   prompt: 'Act as a motivational friend. Ask me how I stay positive in tough times.',
   intro: 'Hello! I’m Natasha. How do you stay positive when life gets hard?',
 ),
-
-
   ];
 
   static List<String> englishLevel = ["A1", "A2", "B1", "B2", "C1", "C2"];
