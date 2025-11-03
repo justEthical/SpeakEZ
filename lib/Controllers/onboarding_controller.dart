@@ -14,6 +14,7 @@ import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 class OnboardingController extends GetxController {
   final onboardingPageIndicator = PageController(initialPage: 0);
@@ -96,6 +97,8 @@ class OnboardingController extends GetxController {
     CustomLoader.showLoader();
     final userData = await AuthService.loginWithEmail(email, password);
     if (userData?.user != null) {
+      final notificationTokken = await FirebaseMessaging.instance.getToken();
+      await FirestoreHelper.updateUserField({'notificationToken': notificationTokken ?? ''}); 
       final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
       if (userProfile != null) {
         globalController.userProfile.value = userProfile;
@@ -145,6 +148,8 @@ class OnboardingController extends GetxController {
         saveUserProfile(userData);
         Get.offAll(() => OnboarindQuestions());
       } else {
+        final notificationTokken = await FirebaseMessaging.instance.getToken();
+        await FirestoreHelper.updateUserField({'notificationToken': notificationTokken ?? ''}); 
         final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
         if (userProfile != null) {
           globalController.userProfile.value = userProfile;
@@ -175,6 +180,8 @@ class OnboardingController extends GetxController {
     UserCredential userData, {
     String userName = '',
   }) async {
+    final notificationToken = await FirebaseMessaging.instance.getToken();
+
     CustomLoader.showLoader();
     var userProfile = UserProfileModel(
       uid: userData.user!.uid,
@@ -191,6 +198,7 @@ class OnboardingController extends GetxController {
       confidence: onboardingQuestionAnswerMap['confidence'] ?? '',
       preferredPractice: onboardingQuestionAnswerMap['preferredPractice'] ?? '',
       motherTongue: onboardingQuestionAnswerMap['motherTongue'] ?? '',
+      notificationToken: notificationToken ?? '',
       isShownCustomReviewDialogOnce: false,
     );
     globalController.userProfile.value = userProfile;

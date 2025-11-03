@@ -12,6 +12,7 @@ import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -94,6 +95,22 @@ class GlobalController extends GetxController {
     if (!opened) {
       // handle failure to open settings
       print('Could not open settings');
+    }
+  }
+
+  void askNotificationPermission() async {
+    final status = await Permission.notification.status;
+    if (!status.isGranted) {
+      if (status.isPermanentlyDenied) {
+        Get.defaultDialog(
+        titleStyle: const TextStyle(fontSize: 0),
+        content: CustomDialogs.enablePermissionFromSettings(
+          Get.context!,
+          'Please enable notification permission from settings to keep updated.',
+        ),
+      );
+      }
+      await Permission.notification.request();
     }
   }
 

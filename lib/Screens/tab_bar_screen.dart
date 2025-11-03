@@ -22,6 +22,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
+    globalController.askNotificationPermission();
     Future.delayed(Duration.zero, () async {
       if (!await WhisperHelper.isModelAvailable()) {
         WhisperHelper.runSilentDownload();

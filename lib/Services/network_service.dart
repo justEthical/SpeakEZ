@@ -31,7 +31,6 @@ class NetworkService {
     }
   }
 
-
   static Map getBody(
     String systemPrompt,
     String userPrompt) {

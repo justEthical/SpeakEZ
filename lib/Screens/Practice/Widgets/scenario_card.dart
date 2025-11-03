@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
@@ -42,7 +41,7 @@ class ScenarioCard extends StatelessWidget {
                   color: Colors.deepPurple.shade100,
                   borderRadius: BorderRadius.circular(15),
                 ),
-                child: SvgPicture.asset(scenarioModel.imagePath),
+                child: Image.asset(scenarioModel.imagePath),
               ),
               const SizedBox(width: 16),
               Expanded(
