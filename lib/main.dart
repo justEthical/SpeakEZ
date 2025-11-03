@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -16,8 +17,9 @@ import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
+import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
-import 'package:speak_ez/Utils/theme.dart';
+ import 'package:speak_ez/Utils/theme.dart';
 
 import 'Controllers/global_controller.dart';
 
@@ -26,9 +28,9 @@ void main() async {
   await Firebase.initializeApp();
   unawaited(MobileAds.instance.initialize());
   await dotenv.load(fileName: ".env");
-  
+
   await PostHogService.instance.initialize();
-  
+
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
@@ -51,8 +53,12 @@ void main() async {
     );
     return true;
   };
-  runApp(const AppEntry()
-  );
+  FirebaseMessaging.instance.onTokenRefresh.listen((newToken) {
+    FirestoreHelper.updateUserField({
+      'notificationToken': newToken,
+    }); // 🔄 handle token update here
+  });
+  runApp(const AppEntry());
 }
 
 class AppEntry extends StatelessWidget {

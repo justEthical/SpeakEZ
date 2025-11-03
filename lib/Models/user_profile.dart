@@ -16,6 +16,7 @@ class UserProfileModel {
   String confidence;
   String preferredPractice;
   String motherTongue;
+  String notificationToken;
   DateTime? unlockTestLastTime;
 
   UserProfileModel({
@@ -34,6 +35,7 @@ class UserProfileModel {
     required this.preferredPractice,
     required this.motherTongue,
     required this.isShownCustomReviewDialogOnce,
+    required this.notificationToken,
     this.unlockTestLastTime,  
   });
 
@@ -57,6 +59,7 @@ class UserProfileModel {
       preferredPractice: map['preferredPractice'] ?? '',
       motherTongue: map['motherTongue'] ?? '',
       isShownCustomReviewDialogOnce: map['isShownCustomReviewDialogOnce'] ?? false,
+      notificationToken: map['notificationToken'] ?? '',
       unlockTestLastTime: map['unlockTestLastTime'] != null ? DateTime.fromMillisecondsSinceEpoch(map['unlockTestLastTime']) : null
     );
   }
@@ -79,6 +82,7 @@ class UserProfileModel {
       'preferredPractice': preferredPractice,
       'motherTongue': motherTongue,
       'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce,
+      'notificationToken': notificationToken,
       'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch  
     };
   }

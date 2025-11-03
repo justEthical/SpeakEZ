@@ -373,7 +373,10 @@ class PracticeController extends GetxController {
     } else if (status.isPermanentlyDenied) {
       Get.defaultDialog(
         titleStyle: const TextStyle(fontSize: 0),
-        content: CustomDialogs.enableMicrophonePermissionFromSettings(Get.context!),
+        content: CustomDialogs.enablePermissionFromSettings(
+          Get.context!,
+          'Please enable microphone permission from settings.',
+        ),
       );
     } else {
       final status = await Permission.microphone.request();
