@@ -149,7 +149,7 @@ class _HeaderState extends State<_Header> {
                       borderRadius: BorderRadius.circular(15),
                       color: Theme.of(
                         context,
-                      ).colorScheme.primary.withOpacity(0.1),
+                      ).colorScheme.primary.withValues(alpha: 0.1),
                     ),
                     child: Row(
                       children: [

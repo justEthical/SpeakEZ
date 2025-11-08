@@ -6,6 +6,7 @@ class UserProfileModel {
   int wordLearned;
   final String displayName;
   bool isShownCustomReviewDialogOnce;
+  bool? isSupportsOndeviceTranscription;
 
   final String? photoUrl;
   final String email;
@@ -37,6 +38,7 @@ class UserProfileModel {
     required this.isShownCustomReviewDialogOnce,
     required this.notificationToken,
     this.unlockTestLastTime,  
+    this.isSupportsOndeviceTranscription, 
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -61,6 +63,7 @@ class UserProfileModel {
       isShownCustomReviewDialogOnce: map['isShownCustomReviewDialogOnce'] ?? false,
       notificationToken: map['notificationToken'] ?? '',
       unlockTestLastTime: map['unlockTestLastTime'] != null ? DateTime.fromMillisecondsSinceEpoch(map['unlockTestLastTime']) : null
+      ,isSupportsOndeviceTranscription: map['isSupportsOndeviceTranscription'] ?? false
     );
   }
 
@@ -83,7 +86,8 @@ class UserProfileModel {
       'motherTongue': motherTongue,
       'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce,
       'notificationToken': notificationToken,
-      'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch  
+      'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch,
+      'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription  
     };
   }
 }

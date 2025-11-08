@@ -250,10 +250,13 @@ class WhisperHelper {
       if(difference <= 5.0) {
         globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, true);
         globalController.isDeepInfraTranscription.value = false;
+        globalController.userProfile.value.isSupportsOndeviceTranscription = true;
       }else{
         globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, false);
         globalController.isDeepInfraTranscription.value = true;
+        globalController.userProfile.value.isSupportsOndeviceTranscription = false;
       }
+      globalController.updateProfile();
       print('TRANSCRIBED: $result');
 
       whisperSendPort.send('stop');
