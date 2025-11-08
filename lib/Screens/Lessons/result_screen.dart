@@ -26,7 +26,7 @@ class ResultScreen extends StatelessWidget {
         DateTime.now().difference(c.qnaStartTime).inSeconds;
     final timeTookForQna = c.formatSecondsToMinutes(timeTookForQnaInSeconds);
     if (globalController.isWhisperInitialized.value) {
-      globalController.whisperSendPort.send('stop');
+      globalController.whisperSendPort?.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
     return Scaffold(

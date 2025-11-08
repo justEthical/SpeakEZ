@@ -179,4 +179,6 @@ class AppAssets {
   static String get describingArtAndMusic => _getScenarioCategoryPath("describing_art_and_music.png");
   static String get makingBusinessCalls => _getScenarioCategoryPath("making_business_calls.png");
   static String get digitalAddiction => _getScenarioCategoryPath("digital_addiction.jpg");
+
+  static String get whisperTestAudio => "assets/audio/whisper_test.wav";
 }

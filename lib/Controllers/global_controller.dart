@@ -19,7 +19,7 @@ import 'package:url_launcher/url_launcher.dart';
 class GlobalController extends GetxController {
   static GlobalController instance = Get.find();
   SharedPreferences? prefs;
-  late SendPort whisperSendPort; // send port to whisper isolate
+  SendPort? whisperSendPort; // send port to whisper isolate
   var isWhisperInitialized = false.obs;
   var transcriptionText = "".obs;
   var isLastChunkTranscribed = false.obs;
@@ -35,9 +35,10 @@ class GlobalController extends GetxController {
   var transcription = "".obs;
 
   var aiModelDownloadProgress = 0.0.obs;
-  var isAiModelDownloaded = false.obs;
+  var isAiModelDownloaded = true.obs;
   final currentLessonsVersion = "1.0.0";
   var remoteConfig = {};
+  var isDeepInfraTranscription = true.obs;
 
   @override
   void onReady() {
@@ -47,12 +48,21 @@ class GlobalController extends GetxController {
     getAppDocDirectoryPath();
   }
 
+  setIsDeepInfraTranscription() {
+    final isOnDeviceTranscriptionSupported = prefs?.getBool(AppStrings.isOnDeviceTranscriptionSupported);
+    if(isOnDeviceTranscriptionSupported == null || !isOnDeviceTranscriptionSupported) {
+      isDeepInfraTranscription.value = true;
+    }else{
+      isDeepInfraTranscription.value = false;
+    }
+  }
+
   
 
   Future<void> startWhisperIsolate() async {
     if (isWhisperInitialized.value) {
       print("Whisper already initialized");
-      whisperSendPort.send('stop');
+      whisperSendPort?.send('stop');
     } else if(isAiModelDownloaded.value) {
       final ReceivePort onMainReceive = ReceivePort();
 

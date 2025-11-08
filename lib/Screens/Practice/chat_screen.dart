@@ -35,16 +35,16 @@ class _ChatScreenState extends State<ChatScreen> {
     );
     PostHogService.instance.capture(
       PostHogEvents.practiceStarted,
-      properties: {
-        'scenario_title': widget.scenarioModel.title,
-      },
+      properties: {'scenario_title': widget.scenarioModel.title},
     );
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       c.currentScenarioModel = widget.scenarioModel;
       c.currentConversationSummary = '';
       c.aiResponseList.clear();
       c.addInitialMessage();
-      globalController.startWhisperIsolate();
+      if (!globalController.isDeepInfraTranscription.value) {
+        globalController.startWhisperIsolate();
+      }
     });
   }
 
@@ -58,12 +58,13 @@ class _ChatScreenState extends State<ChatScreen> {
         'messages_count': c.currentUserSessionMessage.value,
       },
     );
-    if (globalController.isWhisperInitialized.value) {
-      globalController.whisperSendPort.send('stop');
+    if (globalController.isWhisperInitialized.value &&
+        !globalController.isDeepInfraTranscription.value) {
+      globalController.whisperSendPort?.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
     c.currentUserSessionMessage.value = 0;
-    c.isChatResultReady.value = false; 
+    c.isChatResultReady.value = false;
     ttsHelper.stop();
     print("dissposed");
   }
@@ -91,7 +92,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
           ),
           leading: IconButton(
-            icon:  Icon(
+            icon: Icon(
               Icons.arrow_back_ios_new_rounded,
               color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
             ),
@@ -135,7 +136,8 @@ class _ChatScreenState extends State<ChatScreen> {
                               );
                             },
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Theme.of(context).colorScheme.primary,
+                              backgroundColor:
+                                  Theme.of(context).colorScheme.primary,
                               minimumSize: const Size(double.infinity, 50),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
@@ -160,6 +162,3 @@ class _ChatScreenState extends State<ChatScreen> {
     );
   }
 }
-
-
-  

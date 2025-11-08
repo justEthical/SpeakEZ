@@ -42,12 +42,14 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
             _Header(),
             const SizedBox(height: 20),
             Expanded(
-              child: Obx(
-                () =>
-                    globalController.isAiModelDownloaded.value
-                        ? ScenarioCategoryGrid() //const _ScenarioList()
-                        : const _DownloadingState(),
-              ),
+              child: ScenarioCategoryGrid()
+              // Obx(
+              //   () =>
+                    // globalController.isAiModelDownloaded.value
+                    //     ? 
+                        // ScenarioCategoryGrid() 
+                        // : const _DownloadingState(),
+              // ),
             ),
           ],
         ),

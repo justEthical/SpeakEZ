@@ -33,9 +33,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     super.initState();
     PostHogService.instance.captureScreenView('home_screen');
     c.fetchUserDetails();
-    WhisperHelper.isModelAvailable().then((isAvailable) {
-      globalController.isAiModelDownloaded.value = isAvailable;
-    });
+    // WhisperHelper.isModelAvailable().then((isAvailable) {
+    //   globalController.isAiModelDownloaded.value = isAvailable;
+    // });
 
     _staggerController = AnimationController(
       duration: const Duration(milliseconds: 1500),

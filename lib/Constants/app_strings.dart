@@ -61,6 +61,7 @@ Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
   static const String remoteConfig = "remote_config";
   static const String completedPracticeSessions = "completed_practice_sessions";
   static const String isShowPracticeTabInfoBanner = "is_show_practice_tab_info_banner";
+  static const String isOnDeviceTranscriptionSupported = "is_on_device_transcription_supported";
 
   static const String appWriteProjectId = "68922bff001e5c2efef0";
   static const String appWriteEndPointUrl = "https://nyc.cloud.appwrite.io/v1";

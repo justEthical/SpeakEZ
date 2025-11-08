@@ -50,7 +50,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
       }else{
         c.isFromRetest = false;
       }
-      globalController.startWhisperIsolate();
+      // globalController.startWhisperIsolate();
     });
   }
 

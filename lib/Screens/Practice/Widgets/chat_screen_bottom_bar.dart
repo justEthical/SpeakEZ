@@ -27,7 +27,9 @@ class ChatScreenBottomBar extends StatelessWidget {
                         c.stopRecording();
                       },
                       icon: Icon(Icons.close),
-                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.onSurface.withValues( alpha: 0.6),
                     )
                     : SizedBox(),
           ),
@@ -35,26 +37,22 @@ class ChatScreenBottomBar extends StatelessWidget {
             () =>
                 c.isRecordingInProgress.value
                     ? InkWell(
-                      onTap: () => c.addChatCellTranscriptionData(),
-                      child: AnimatedDoughnut())
+                      onTap: () async {
+                        c.endRecording();
+                      },
+                      child: AnimatedDoughnut(),
+                    )
                     : Opacity(
-                      opacity:
-                          c.isSpeaking.value ||
-                                  !globalController.isWhisperInitialized.value
-                              ? 0.4
-                              : 1,
+                      opacity: _shouldEnableMic() ? 1.0 : 0.4,  
                       child: InkWell(
                         onTap: () {
-                          if (!c.isSpeaking.value &&
-                              globalController.isWhisperInitialized.value) {
+                          if (_shouldEnableMic()) {
                             c.startRecording();
                           }
                         },
                         child: Lottie.asset(
                           AppAssets.mic,
-                          animate:
-                              !(c.isSpeaking.value ||
-                                  !globalController.isWhisperInitialized.value),
+                          animate: _shouldEnableLottieAnimation(),
                           width: 100,
                           height: 100,
                           decoder: globalController.customDecoder,
@@ -82,7 +80,9 @@ class ChatScreenBottomBar extends StatelessWidget {
                             ? Icons.play_arrow
                             : Icons.pause,
                       ),
-                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.onSurface.withValues(alpha: 0.6),
                     )
                     : SizedBox(),
           ),
@@ -90,4 +90,26 @@ class ChatScreenBottomBar extends StatelessWidget {
       ),
     );
   }
+
+  bool _shouldEnableLottieAnimation() {
+    final c = Get.find<PracticeController>();
+    if (globalController.isDeepInfraTranscription.value) {
+      return !c.isSpeaking.value;
+    } else {
+      return !(c.isSpeaking.value ||
+          !globalController.isWhisperInitialized.value);
+    }
+  }
+
+
+
+  bool _shouldEnableMic() {
+    final c = Get.find<PracticeController>();
+    if (globalController.isDeepInfraTranscription.value) {
+      return !c.isSpeaking.value;
+    } else {
+      return !c.isSpeaking.value &&
+                              globalController.isWhisperInitialized.value;
+    }
+  }   
 }
