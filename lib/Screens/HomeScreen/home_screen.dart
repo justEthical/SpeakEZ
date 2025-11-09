@@ -10,7 +10,6 @@ import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
@@ -33,9 +32,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     super.initState();
     PostHogService.instance.captureScreenView('home_screen');
     c.fetchUserDetails();
-    WhisperHelper.isModelAvailable().then((isAvailable) {
-      globalController.isAiModelDownloaded.value = isAvailable;
-    });
+    // WhisperHelper.isModelAvailable().then((isAvailable) {
+    //   globalController.isAiModelDownloaded.value = isAvailable;
+    // });
 
     _staggerController = AnimationController(
       duration: const Duration(milliseconds: 1500),

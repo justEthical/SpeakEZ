@@ -150,7 +150,7 @@ class AppAssets {
   static String get talkingAboutChildhood => _getScenarioCategoryPath("talking_about_childhood.png");
   static String get whatWouldYouDoIf => _getScenarioCategoryPath("what_would_you_do_if.png");
   static String get introducingYourFamily => _getScenarioCategoryPath("introducing_your_family.png");
-  static String get balancingScreenTime => _getScenarioCategoryPath("balancing_screen_time.png");
+  static String get balancingScreenTime => _getScenarioCategoryPath("balancing_screen_time.jpg");
   static String get favoriteSubjectsAndTeachers => _getScenarioCategoryPath("favorite_subjects_and_teachers.png");
   static String get talkingAboutMistakes => _getScenarioCategoryPath("talking_about_mistakes.png");
   static String get handlingStress => _getScenarioCategoryPath("handling_stress.png");
@@ -178,5 +178,7 @@ class AppAssets {
   static String get makingSmallTalk => _getScenarioCategoryPath("making_small_talk.png");
   static String get describingArtAndMusic => _getScenarioCategoryPath("describing_art_and_music.png");
   static String get makingBusinessCalls => _getScenarioCategoryPath("making_business_calls.png");
-  static String get digitalAddiction => _getScenarioCategoryPath("digital_addiction.png");
+  static String get digitalAddiction => _getScenarioCategoryPath("digital_addiction.jpg");
+
+  static String get whisperTestAudio => "assets/audio/whisper_test.wav";
 }

@@ -49,16 +49,36 @@ class PracticeController extends GetxController {
 
   void startRecording() {
     recorder = AudioChunkRecorder();
-    recorder?.startAutoRecording();
     _addRecordingChatCell();
+    if (globalController.isDeepInfraTranscription.value) {
+      recorder?.startRecording(); // normal full 30 second recording
+    } else {
+      recorder?.startAutoRecording(); // auto recording with chunks on pauses
+    }
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {
         print("Timer stopped");
-        addChatCellTranscriptionData();
+        endRecording();
       } else {
-        // print("Timmer running ${remainingSeconds.value}");
         remainingSeconds.value--;
       }
+    });
+  }
+
+  void endRecording(){
+    isRecordingInProgress.value = false;
+        if (globalController.isDeepInfraTranscription.value) {
+          stopNormalRecording();
+        } else {
+          recorder?.stop();
+          addChatCellTranscriptionData();
+        }
+  }
+
+  void stopNormalRecording() {
+    recorder?.stopRecording().then((value) {
+      _removeRecordingChat();
+      addChatCellTranscriptionData();
     });
   }
 
@@ -77,12 +97,8 @@ class PracticeController extends GetxController {
     _scrollToBottom();
   }
 
-  void addChatCellTranscriptionData() {
-    recorder?.stop();
-    _timer?.cancel();
-    isRecordingInProgress.value = false;
+  _removeRecordingChat() {
     currentChats.remove(currentChats.last);
-    totalSpeakingTime += (30 - remainingSeconds.value);
     currentChats.add(
       ChatModel(
         message: "🎙️ Recording stopped",
@@ -92,50 +108,43 @@ class PracticeController extends GetxController {
         chatType: ChatType.transcribing, // transcribing animation
       ),
     );
+  }
+
+  void addChatCellTranscriptionData() {
+    _timer?.cancel();
+    isRecordingInProgress.value = false;
+
+    totalSpeakingTime += (30 - remainingSeconds.value);
     _scrollToBottom();
     print('listener hashcode: $hashCode');
 
-    sub = globalController.isLastChunkTranscribed.listen((val) {
-      print("Listener called: $val");
-      if (val) {
-        print("transcription done");
-        // currentChats.remove(currentChats.last);
-        globalController.transcriptionText.value = removeBracketedWords(
-          globalController.transcriptionText.value,
-        );
-        // currentChats.add(
-        //   ChatModel(
-        //     message: globalController.transcriptionText.value,
-        //     time: "time",
-        //     isAI: false,
-        //     messageDuration: 30 - remainingSeconds.value,
-        //     chatType: ChatType.normalChatMesssage,
-        //   ),
-        // );
-        // currentChats.add(
-        //   ChatModel(
-        //     message: "getting AI response",
-        //     time: "time",
-        //     isAI: true,
-        //     messageDuration: 0,
-        //     chatType: ChatType.gettingAIResponse,
-        //   ),
-        // );
-        getAiResponse();
-        // if (currentUserSessionMessage.value <=
-        //     maxNumberOfAiResponsesPerSession) {
-        //   getAiResponse();
-        // }
-        // if(currentUserSessionMessage.value >=
-        //     maxNumberOfAiResponsesPerSession) {
-        //   getConversationAiFeedbackResult();
-        // }
-        _scrollToBottom();
-      }
+    if (globalController.isDeepInfraTranscription.value) {
+      globalController.transcriptionText.value = removeBracketedWords(
+        globalController.transcriptionText.value,
+      );
+      getAiResponse();
+      _scrollToBottom();
       remainingSeconds.value = 30;
-      sub.cancel();
-      globalController.isLastChunkTranscribed.value = false;
-    });
+    } else {
+      _removeRecordingChat(); // remove recording chat message and add transcribing animation
+      sub = globalController.isLastChunkTranscribed.listen((val) {
+        print("Listener called: $val");
+        if (val) {
+          print("transcription done");
+          // currentChats.remove(currentChats.last);
+          globalController.transcriptionText.value = removeBracketedWords(
+            globalController.transcriptionText.value,
+          );
+
+          getAiResponse();
+
+          _scrollToBottom();
+        }
+        remainingSeconds.value = 30;
+        sub.cancel();
+        globalController.isLastChunkTranscribed.value = false;
+      });
+    }
   }
 
   List getAverageScoreAndFeedback() {
@@ -351,6 +360,7 @@ class PracticeController extends GetxController {
     isRecordingPaused.value = true;
   }
 
+bool isBottomSheetOpen = false;
   void showExitBottomSheet(context) {
     showModalBottomSheet(
       context: context,

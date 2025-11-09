@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'dart:convert';
@@ -9,16 +11,16 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 
 class NetworkService {
   static final dio = Dio();
-  static final baseUrl =
-      'https://api.deepinfra.com/v1/openai/chat/completions';
+  static final baseUrl = 'https://api.deepinfra.com/v1/openai/chat/completions';
   static Future<String> getUserCountryFromIP() async {
     try {
       final response = await dio.get("https://ipwho.is/");
 
       if (response.statusCode == 200) {
-        final data = response.data is String
-            ? json.decode(response.data)
-            : response.data; // Dio may already parse JSON
+        final data =
+            response.data is String
+                ? json.decode(response.data)
+                : response.data; // Dio may already parse JSON
 
         print(data);
         return data["country_code"] ?? "IN"; // e.g., "IN"
@@ -31,35 +33,31 @@ class NetworkService {
     }
   }
 
-  static Map getBody(
-    String systemPrompt,
-    String userPrompt) {
+  static Map getBody(String systemPrompt, String userPrompt) {
     return {
-      "model":  "openai/gpt-oss-20b", // "mistralai/Mistral-Small-3.2-24B-Instruct-2506", //
+      "model":
+          "openai/gpt-oss-20b", // "mistralai/Mistral-Small-3.2-24B-Instruct-2506", //
       "messages": [
-        {
-            "role": 'system',
-            "content": systemPrompt,
-        },
-        {
-          "role": "user",
-          "content": userPrompt
-        },
+        {"role": 'system', "content": systemPrompt},
+        {"role": "user", "content": userPrompt},
       ],
-      "response_format": { "type": "json_object" },
+      // "response_format": { "type": "json_object" },
       "reasoning_effort": "none",
       "temperature": 0,
-      "seed": 7
+      "seed": 7,
     };
   }
 
   static Future<String?> getAiResponse({
     required String userReply,
     required String topic,
-    required  String lastAiMessage, // test also after removing it
-    required  String summary
+    required String lastAiMessage, // test also after removing it
+    required String summary,
   }) async {
-    final pastConversationEncoded = jsonEncode({'ai': lastAiMessage, 'user': userReply});
+    final pastConversationEncoded = jsonEncode({
+      'ai': lastAiMessage,
+      'user': userReply,
+    });
     final systemPrompt =
         "${AppStrings.systemPrompt2} . TOPIC: $topic.\n English level: ${globalController.userProfile.value.currentEnglishLevel}. SUMMARY: $summary";
     try {
@@ -68,7 +66,7 @@ class NetworkService {
         baseUrl,
         options: Options(
           headers: {
-            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY']??''}',
+            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY'] ?? ''}',
             'Content-Type': 'application/json',
           },
         ),
@@ -85,6 +83,7 @@ class NetworkService {
         location: 'NetworkService.getAiResponse',
         additionalProperties: {'api': 'DeepInfra', 'topic': topic},
       );
+      print('Dio error: ${e.response}');
       print('Dio error: ${e.message}');
     } catch (e) {
       PostHogService.instance.captureError(
@@ -98,10 +97,14 @@ class NetworkService {
     return null;
   }
 
-static Future<String?> getConversationAiFeedbackResult(
-   {required Map scoreMap, required List<String> feedbackList}
-  ) async {
-    final userPrompt = jsonEncode({'scoreMap': scoreMap, 'feedbackList': feedbackList});
+  static Future<String?> getConversationAiFeedbackResult({
+    required Map scoreMap,
+    required List<String> feedbackList,
+  }) async {
+    final userPrompt = jsonEncode({
+      'scoreMap': scoreMap,
+      'feedbackList': feedbackList,
+    });
     final systemPrompt =
         "${AppStrings.resultScreenSystemPrompt} user english level: ${globalController.userProfile.value.currentEnglishLevel}";
     try {
@@ -110,7 +113,7 @@ static Future<String?> getConversationAiFeedbackResult(
         baseUrl,
         options: Options(
           headers: {
-            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY']??''}',
+            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY'] ?? ''}',
             'Content-Type': 'application/json',
           },
         ),
@@ -120,14 +123,14 @@ static Future<String?> getConversationAiFeedbackResult(
       if (response.statusCode == 200) {
         return response.data['choices'][0]['message']['content'];
       }
-    } on DioException catch (e) { 
+    } on DioException catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.apiCallFailed,
         errorMessage: 'Dio error: ${e.message}',
         location: 'NetworkService.getAiResponse',
         additionalProperties: {'api': 'DeepInfra'},
       );
-      print('Dio error: ${e.message}'); 
+      print('Dio error: ${e.message}');
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.networkError,
@@ -135,8 +138,44 @@ static Future<String?> getConversationAiFeedbackResult(
         location: 'NetworkService.getAiResponse',
         additionalProperties: {'api': 'DeepInfra'},
       );
-      print('Other error: $e'); 
+      print('Other error: $e');
     }
-     return null;
+    return null;
+  }
+
+  static Future<String?> transcribeAudio(String audioFilePath) async {
+    const apiUrl =
+        'https://api.deepinfra.com/v1/inference/openai/whisper-large-v3-turbo';
+    final apiKey = dotenv.env['DEEP_INFRA_API_KEY'] ?? '';
+
+    try {
+      // Prepare the form data
+      final formData = FormData.fromMap({
+        'audio': await MultipartFile.fromFile(
+          audioFilePath,
+          filename: audioFilePath.split(Platform.pathSeparator).last,
+        ),
+        'language': 'en',
+      });
+
+      // Send POST request
+      final response = await dio.post(
+        apiUrl,
+        data: formData,
+        options: Options(
+          headers: {'Authorization': 'bearer $apiKey'},
+          contentType: 'multipart/form-data',
+        ),
+      );
+      final body = response.data;
+      return body['text'];
+    } on DioException catch (e) {
+      if (e.response != null) {
+        print('❌ Error ${e.response?.statusCode}: ${e.response?.data}');
+      } else {
+        print('⚠️ Request error: ${e.message}');
+      }
+    }
+    return null;  
   }
 }

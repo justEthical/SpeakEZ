@@ -112,3 +112,5 @@ To build the application for production, use the following Flutter CLI commands:
   ```
 
 Make sure your signing configuration in `android/app/build.gradle.kts` and the `key.properties` file are set up correctly before building.
+
+if transcription is happening with deepinfra api then isWhisperInitialized will be true

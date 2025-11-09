@@ -351,6 +351,7 @@ Mistakes are your secret weapon to get better. 💥
         ),
       ),
       isScrollControlled: true,
+      isDismissible: false,
       builder: (context) => LessonsExitAlertBottomSheet(),
     );
   }
