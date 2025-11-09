@@ -6,7 +6,10 @@ import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sherpa_onnx/sherpa_onnx.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Models/user_profile.dart';
 
 class WhisperHelper {
   static const modelName = 'base';
@@ -175,7 +178,6 @@ class WhisperHelper {
       port.close();
     }
   }
-
   static void runSilentDownload() async {
     final receivePort = ReceivePort();
     final downloadProgress = ReceivePort();
@@ -202,7 +204,8 @@ class WhisperHelper {
     ]);
 
     await resultPort.first; // You can log or ignore
-    globalController.isAiModelDownloaded.value = true;
+    // globalController.isAiModelDownloaded.value = true;
+    canModelRunOnDevice();
   }
 
   static Future<bool> isModelAvailable() async {
@@ -210,4 +213,64 @@ class WhisperHelper {
     final encoder = File('${dir.path}/$modelName.en-decoder.int8.onnx');
     return encoder.existsSync(); // Fast check
   }
+
+  /// Checks if the device can run the Whisper AI model
+  /// by spawning a silent isolate and checking the result.
+  ///
+  /// The check is done by running a small audio file through the
+  /// model and checking the result. If the result is received within
+  /// 5 seconds, it means the device can run the model.
+  ///
+  /// The result is stored in the SharedPreferences with the key
+  /// [AppStrings.isOnDeviceTranscriptionSupported].
+  ///
+  /// Additionally, [globalController.isDeepInfraTranscription] is set
+  /// to true if the device cannot run the model, and false otherwise.
+  static Future<void> canModelRunOnDevice()async{
+    final ReceivePort onMainReceive = ReceivePort();
+
+      final RootIsolateToken token = RootIsolateToken.instance!;
+      await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+        onMainReceive.sendPort,
+        globalController.appDocDirectoryPath,
+        token,
+      ]);
+
+      final SendPort whisperSendPort = await onMainReceive.first;
+      final audioFilePath = await loadAssetToFile(AppAssets.whisperTestAudio);  
+      final ReceivePort responsePort = ReceivePort();
+      final start = DateTime.now();
+      whisperSendPort.send({
+        'file': audioFilePath,
+        'replyTo': responsePort.sendPort,
+      });
+
+      final result = await responsePort.first;
+      final end = DateTime.now(); 
+      final difference = end.difference(start).inSeconds;
+      if(difference <= 5.0) {
+        globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, true);
+        globalController.isDeepInfraTranscription.value = false;
+        globalController.userProfile.value.isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(isSupportsOndeviceTranscription: false, timeTookFor10SecTranscription: difference);
+      }else{
+        globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, false);
+        globalController.isDeepInfraTranscription.value = true;
+        globalController.userProfile.value.isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(isSupportsOndeviceTranscription: false, timeTookFor10SecTranscription: difference);
+      }
+      globalController.updateProfile();
+      print('TRANSCRIBED: $result');
+
+      whisperSendPort.send('stop');
+  }
+
+  static Future<String> loadAssetToFile(String assetPath) async {
+  final data = await rootBundle.load(assetPath);
+  final bytes = data.buffer.asUint8List();
+
+  final dir = await getApplicationDocumentsDirectory();
+  final file = File('${dir.path}/${assetPath.split('/').last}');
+  await file.writeAsBytes(bytes, flush: true);
+
+  return file.path;
+}
 }

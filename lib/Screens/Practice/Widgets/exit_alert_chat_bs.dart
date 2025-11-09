@@ -5,12 +5,24 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 
-class ExitAlertChatBottomSheet extends StatelessWidget {
+class ExitAlertChatBottomSheet extends StatefulWidget {
   const ExitAlertChatBottomSheet({super.key});
 
   @override
+  State<ExitAlertChatBottomSheet> createState() => _ExitAlertChatBottomSheetState();
+}
+
+class _ExitAlertChatBottomSheetState extends State<ExitAlertChatBottomSheet> {
+  final c = Get.find<PracticeController>();
+  @override
+  void dispose() {
+    super.dispose();
+    c.isBottomSheetOpen = false;
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final c = Get.find<PracticeController>();
+    
     return Container(
       padding: EdgeInsets.all(15),
       color: Theme.of(context).scaffoldBackgroundColor,

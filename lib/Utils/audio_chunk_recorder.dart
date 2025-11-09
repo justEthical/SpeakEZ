@@ -3,6 +3,7 @@ import 'dart:isolate';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 
@@ -96,7 +97,7 @@ class AudioChunkRecorder {
       
       final ReceivePort responsePort = ReceivePort();
 
-      globalController.whisperSendPort.send({
+      globalController.whisperSendPort?.send({
         'file': filePath,
         'replyTo': responsePort.sendPort,
       });
@@ -106,4 +107,23 @@ class AudioChunkRecorder {
       globalController.transcriptionText.value += result;
     }
   }
+
+  Future<void> startRecording() async{
+    final dir = await getApplicationDocumentsDirectory();
+    final path = '${dir.path}/recording.wav';
+    _recorder.start(config, path: path);
+  }
+
+  Future<void> stopRecording() async{
+    final dir = await getApplicationDocumentsDirectory();
+    final path = '${dir.path}/recording.wav';
+    await _recorder.stop();
+    final result = await NetworkService.transcribeAudio(path);
+    if (result != null) {
+      globalController.transcriptionText.value = result;
+    }
+  }
+}
+
+class NetworkHelper {
 }

@@ -6,7 +6,6 @@ import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
 
 import 'scenarios_list.dart';
 
@@ -23,13 +22,13 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (!globalController.isAiModelDownloaded.value) {
-        WhisperHelper.isModelAvailable().then((isAvailable) {
-          globalController.isAiModelDownloaded.value = isAvailable;
-        });
-      }
-    });
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   if (!globalController.isAiModelDownloaded.value) {
+    //     WhisperHelper.isModelAvailable().then((isAvailable) {
+    //       globalController.isAiModelDownloaded.value = isAvailable;
+    //     });
+    //   }
+    // });
   }
 
   @override
@@ -42,12 +41,14 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
             _Header(),
             const SizedBox(height: 20),
             Expanded(
-              child: Obx(
-                () =>
-                    globalController.isAiModelDownloaded.value
-                        ? ScenarioCategoryGrid() //const _ScenarioList()
-                        : const _DownloadingState(),
-              ),
+              child: ScenarioCategoryGrid()
+              // Obx(
+              //   () =>
+                    // globalController.isAiModelDownloaded.value
+                    //     ? 
+                        // ScenarioCategoryGrid() 
+                        // : const _DownloadingState(),
+              // ),
             ),
           ],
         ),
@@ -147,7 +148,7 @@ class _HeaderState extends State<_Header> {
                       borderRadius: BorderRadius.circular(15),
                       color: Theme.of(
                         context,
-                      ).colorScheme.primary.withOpacity(0.1),
+                      ).colorScheme.primary.withValues(alpha: 0.1),
                     ),
                     child: Row(
                       children: [
@@ -216,8 +217,8 @@ class _HeaderState extends State<_Header> {
   }
 }
 
-class _DownloadingState extends StatelessWidget {
-  const _DownloadingState();
+class DownloadingState extends StatelessWidget {
+  const DownloadingState({super.key});
 
   @override
   Widget build(BuildContext context) {

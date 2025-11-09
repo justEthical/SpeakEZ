@@ -5,12 +5,26 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 
-class LessonsExitAlertBottomSheet extends StatelessWidget {
+class LessonsExitAlertBottomSheet extends StatefulWidget {
   const LessonsExitAlertBottomSheet({super.key});
 
   @override
+  State<LessonsExitAlertBottomSheet> createState() =>
+      _LessonsExitAlertBottomSheetState();
+}
+
+class _LessonsExitAlertBottomSheetState
+    extends State<LessonsExitAlertBottomSheet> {
+  final c = Get.find<QuestionOptionsController>();
+
+  @override
+  void dispose() {
+    super.dispose();
+    c.isBottomSheetOpen = false;
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final c = Get.find<QuestionOptionsController>();
     return Container(
       padding: EdgeInsets.all(15),
       child: Column(
@@ -44,7 +58,7 @@ class LessonsExitAlertBottomSheet extends StatelessWidget {
               fixedSize: Size(Get.width, 45),
             ),
             child: Text(
-              c.isUnlockTest ?  "Continue Test" : "Continue learning",
+              c.isUnlockTest ? "Continue Test" : "Continue learning",
               style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
             ),
           ),
