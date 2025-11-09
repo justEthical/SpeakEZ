@@ -9,6 +9,7 @@ import 'package:sherpa_onnx/sherpa_onnx.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Models/user_profile.dart';
 
 class WhisperHelper {
   static const modelName = 'base';
@@ -203,7 +204,7 @@ class WhisperHelper {
     ]);
 
     await resultPort.first; // You can log or ignore
-    globalController.isAiModelDownloaded.value = true;
+    // globalController.isAiModelDownloaded.value = true;
     canModelRunOnDevice();
   }
 
@@ -250,11 +251,11 @@ class WhisperHelper {
       if(difference <= 5.0) {
         globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, true);
         globalController.isDeepInfraTranscription.value = false;
-        globalController.userProfile.value.isSupportsOndeviceTranscription = true;
+        globalController.userProfile.value.isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(isSupportsOndeviceTranscription: false, timeTookFor10SecTranscription: difference);
       }else{
         globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, false);
         globalController.isDeepInfraTranscription.value = true;
-        globalController.userProfile.value.isSupportsOndeviceTranscription = false;
+        globalController.userProfile.value.isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(isSupportsOndeviceTranscription: false, timeTookFor10SecTranscription: difference);
       }
       globalController.updateProfile();
       print('TRANSCRIBED: $result');

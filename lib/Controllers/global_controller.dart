@@ -35,7 +35,7 @@ class GlobalController extends GetxController {
   var transcription = "".obs;
 
   var aiModelDownloadProgress = 0.0.obs;
-  var isAiModelDownloaded = true.obs;
+  // var isAiModelDownloaded = true.obs;
   final currentLessonsVersion = "1.0.0";
   var remoteConfig = {};
   var isDeepInfraTranscription = true.obs;
@@ -48,7 +48,7 @@ class GlobalController extends GetxController {
     getAppDocDirectoryPath();
   }
 
-  setIsDeepInfraTranscription() {
+  void setIsDeepInfraTranscription() {
     final isOnDeviceTranscriptionSupported = prefs?.getBool(AppStrings.isOnDeviceTranscriptionSupported);
     if(isOnDeviceTranscriptionSupported == null || !isOnDeviceTranscriptionSupported) {
       isDeepInfraTranscription.value = true;
@@ -63,7 +63,7 @@ class GlobalController extends GetxController {
     if (isWhisperInitialized.value) {
       print("Whisper already initialized");
       whisperSendPort?.send('stop');
-    } else if(isAiModelDownloaded.value) {
+    } else /* if(isAiModelDownloaded.value) */ {
       final ReceivePort onMainReceive = ReceivePort();
 
       final RootIsolateToken token = RootIsolateToken.instance!;

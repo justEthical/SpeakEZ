@@ -6,7 +6,7 @@ class UserProfileModel {
   int wordLearned;
   final String displayName;
   bool isShownCustomReviewDialogOnce;
-  bool? isSupportsOndeviceTranscription;
+  OnDeviceTranscriptionDetails? isSupportsOndeviceTranscription;
 
   final String? photoUrl;
   final String email;
@@ -37,8 +37,8 @@ class UserProfileModel {
     required this.motherTongue,
     required this.isShownCustomReviewDialogOnce,
     required this.notificationToken,
-    this.unlockTestLastTime,  
-    this.isSupportsOndeviceTranscription, 
+    this.unlockTestLastTime,
+    this.isSupportsOndeviceTranscription,
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -60,10 +60,15 @@ class UserProfileModel {
       confidence: map['confidence'] ?? '',
       preferredPractice: map['preferredPractice'] ?? '',
       motherTongue: map['motherTongue'] ?? '',
-      isShownCustomReviewDialogOnce: map['isShownCustomReviewDialogOnce'] ?? false,
+      isShownCustomReviewDialogOnce:
+          map['isShownCustomReviewDialogOnce'] ?? false,
       notificationToken: map['notificationToken'] ?? '',
-      unlockTestLastTime: map['unlockTestLastTime'] != null ? DateTime.fromMillisecondsSinceEpoch(map['unlockTestLastTime']) : null
-      ,isSupportsOndeviceTranscription: map['isSupportsOndeviceTranscription'] ?? false
+      unlockTestLastTime:
+          map['unlockTestLastTime'] != null
+              ? DateTime.fromMillisecondsSinceEpoch(map['unlockTestLastTime'])
+              : null,
+      isSupportsOndeviceTranscription: map['isSupportsOndeviceTranscription'] != null ?
+          OnDeviceTranscriptionDetails.fromMap(map['isSupportsOndeviceTranscription']) : null,
     );
   }
 
@@ -87,8 +92,32 @@ class UserProfileModel {
       'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce,
       'notificationToken': notificationToken,
       'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch,
-      'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription  
+      'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription?.toMap(),
     };
   }
 }
 
+class OnDeviceTranscriptionDetails {
+  bool isSupportsOndeviceTranscription;
+  int timeTookFor10SecTranscription;
+  OnDeviceTranscriptionDetails({
+    required this.isSupportsOndeviceTranscription,
+    required this.timeTookFor10SecTranscription,
+  });
+
+  Map<String, dynamic> toMap() {
+    return {
+      'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription,
+      'timeTookFor10SecTranscription': timeTookFor10SecTranscription,
+    };
+  }
+
+  factory OnDeviceTranscriptionDetails.fromMap(Map<String, dynamic> map) {
+    return OnDeviceTranscriptionDetails(
+      isSupportsOndeviceTranscription:
+          map['isSupportsOndeviceTranscription'] ?? false,
+      timeTookFor10SecTranscription:
+          map['timeTookFor10SecTranscription'] ?? 0,
+    );
+  }
+}
