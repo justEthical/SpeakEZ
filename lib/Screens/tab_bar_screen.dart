@@ -24,6 +24,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
     super.initState();
     globalController.askNotificationPermission();
     globalController.setIsDeepInfraTranscription();
+    PostHogService.instance.setUserIdentity();  
     Future.delayed(Duration.zero, () async {
       if (!await WhisperHelper.isModelAvailable()) {
         WhisperHelper.runSilentDownload();
