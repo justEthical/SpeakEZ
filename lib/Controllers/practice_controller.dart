@@ -360,6 +360,7 @@ class PracticeController extends GetxController {
     isRecordingPaused.value = true;
   }
 
+bool isBottomSheetOpen = false;
   void showExitBottomSheet(context) {
     showModalBottomSheet(
       context: context,

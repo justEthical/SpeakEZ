@@ -22,7 +22,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
   final c = Get.find<PracticeController>();
-  var isBottomSheetOpen = false;
+  
   @override
   void initState() {
     super.initState();
@@ -72,10 +72,10 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return PopScope(
-      canPop: isBottomSheetOpen,
+      canPop: c.isBottomSheetOpen,
       onPopInvokedWithResult: (a, _) {
-        if (!isBottomSheetOpen) {
-          isBottomSheetOpen = true;
+        if (!c.isBottomSheetOpen) {
+          c.isBottomSheetOpen = true;
           c.showExitBottomSheet(context);
         }
       },
@@ -97,7 +97,7 @@ class _ChatScreenState extends State<ChatScreen> {
               color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
             ),
             onPressed: () {
-              isBottomSheetOpen = true;
+              c.isBottomSheetOpen = true;
               c.showExitBottomSheet(context);
             },
           ),
