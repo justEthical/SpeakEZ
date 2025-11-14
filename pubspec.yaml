@@ -65,6 +65,7 @@ dependencies:
   flutter_dotenv: ^6.0.0
   posthog_flutter: ^5.3.1
   firebase_messaging: ^15.2.10
+  background_downloader: ^9.3.0
 
 dev_dependencies:
   flutter_test:

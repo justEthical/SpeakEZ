@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
@@ -24,10 +25,13 @@ class _TabBarScreenState extends State<TabBarScreen> {
     super.initState();
     globalController.askNotificationPermission();
     globalController.setIsDeepInfraTranscription();
-    PostHogService.instance.setUserIdentity();  
+    PostHogService.instance.setUserIdentity();
+    final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(AppStrings.isOnDeviceTranscriptionSupported);  
     Future.delayed(Duration.zero, () async {
-      if (!await WhisperHelper.isModelAvailable()) {
+      if (!await WhisperHelper.isModelZipAvailable() && isOnDeviceTranscriptionSupported == null) {
         WhisperHelper.runSilentDownload();
+      }else if(isOnDeviceTranscriptionSupported == null){
+        WhisperHelper.canModelRunOnDevice();
       }
     });
   }
