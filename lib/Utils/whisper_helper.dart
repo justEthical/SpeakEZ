@@ -15,6 +15,7 @@ import 'package:speak_ez/Services/posthog_service.dart';
 
 class WhisperHelper {
   static const modelName = 'base';
+  static const modelFlavourName = 'vanilla';
 
   static void whisperIsolateEntry(List args) async {
     final SendPort mainSendPort = args[0];
@@ -131,19 +132,31 @@ class WhisperHelper {
   }
 
   static void runSilentDownload() async {
+    // Check if task is already running or pending
+    final existingTasks = await FileDownloader().allTasks();
+
+    final alreadyRunning = existingTasks.any(
+      (task) => task.taskId == AppStrings.downloadWhisperModelTaskId,
+    );
+
+    if (alreadyRunning) {
+      print("Download already running. Not starting again.");
+      return;
+    }
+
     final modelDownloadUrl =
         'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip';
     final dir = await getApplicationDocumentsDirectory(); // Now safe to call
-    final zipPath = '${dir.path}/vanilla.zip';
+    final zipPath = '${dir.path}/$modelFlavourName.zip';
 
     if (File(zipPath).existsSync()) {
       await File(zipPath).delete();
     }
 
     final task = DownloadTask(
+      taskId: AppStrings.downloadWhisperModelTaskId,
       url: modelDownloadUrl,
-      filename: 'vanilla.zip',
-      // directory: dir.path,
+      filename: '$modelFlavourName.zip',
       updates: Updates.statusAndProgress, // request status and progress updates
       requiresWiFi: false,
       retries: 5,
@@ -159,15 +172,6 @@ class WhisperHelper {
     );
     // Act on the result
     if (result.status == TaskStatus.complete) {
-      // final inputStream = InputFileStream(zipPath);
-      // final archive = ZipDecoder().decodeStream(inputStream);
-      // for (final file in archive.files) {
-      //   final outPath = '${dir.path}/${file.name}';
-      //   final outFile = File(outPath);
-      //   await outFile.create(recursive: true);
-      //   await outFile.writeAsBytes(file.content);
-      //   print('[Unzip] Extracted: ${file.name}');
-      // }
       canModelRunOnDevice();
     }
   }
@@ -197,7 +201,7 @@ class WhisperHelper {
 
   static Future<bool> isModelZipAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
-    final zipPath = '${dir.path}/vanilla.zip';
+    final zipPath = '${dir.path}/$modelFlavourName.zip';
     return await File(zipPath).exists();
   }
 
@@ -215,7 +219,7 @@ class WhisperHelper {
   /// to true if the device cannot run the model, and false otherwise.
   static Future<void> canModelRunOnDevice() async {
     final dir = await getApplicationDocumentsDirectory();
-    final zipPath = '${dir.path}/vanilla.zip';
+    final zipPath = '${dir.path}/$modelFlavourName.zip';
     try {
       extractArchieve(zipPath, dir.path);
       listFiles(dir.path);
