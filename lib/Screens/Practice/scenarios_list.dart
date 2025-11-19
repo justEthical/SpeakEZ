@@ -24,7 +24,7 @@ class ScenariosList extends StatelessWidget {
             floating: true,
             expandedHeight: 150,
             automaticallyImplyLeading: false,
-            backgroundColor: Colors.deepPurple,
+            backgroundColor: Theme.of(context).colorScheme.onPrimary,
             flexibleSpace: FlexibleSpaceBar(
               title: Text(
                 "",
