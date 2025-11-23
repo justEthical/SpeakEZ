@@ -10,10 +10,12 @@ class CustomReviewScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    _showCustomReviewCloseButton();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        leading: InkWell(
+        leading: Obx(() {
+          return globalController.isCustomReviewScreenCloseButtonVisible.value ? InkWell(
           onTap: () {
             Get.back();
           },
@@ -21,13 +23,15 @@ class CustomReviewScreen extends StatelessWidget {
             margin: EdgeInsets.all(10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(100),
-              color: Colors.grey.shade300,
-            ),
-            child: Icon(Icons.close, color: Theme.of(context).textTheme.bodyMedium?.color),
+              color: Theme.of(context).colorScheme.onPrimary),
+            
+            child: Icon(Icons.close, color: Theme.of(context).scaffoldBackgroundColor),
           ),
-        ),
+        ): SizedBox.shrink();
+        }),
       ),
-      body: Padding(
+      body: 
+       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
         child: Column(
           children: [
@@ -72,6 +76,12 @@ class CustomReviewScreen extends StatelessWidget {
 
 }
 
+void _showCustomReviewCloseButton() {
+  Future.delayed(Duration(seconds: 5), () {
+    globalController.isCustomReviewScreenCloseButtonVisible.value = true;
+  });
+}
+
 
 class HighlightButton extends StatefulWidget {
   const HighlightButton({super.key});
@@ -96,8 +106,8 @@ class _HighlightButtonState extends State<HighlightButton>
     )..repeat(reverse: true);
 
     _colorAnimation = ColorTween(
-      begin: Theme.of(context).colorScheme.primary,
-      end: Colors.deepPurple.shade700, // highlight color
+      begin: Colors.deepPurple,
+      end: Colors.blue.shade700, // highlight color
     ).animate(_controller);
   }
 

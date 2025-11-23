@@ -23,7 +23,13 @@ class FirestoreHelper {
   static Future<void> updateUserField(Map<String, dynamic> value) async {
   final user = FirebaseAuth.instance.currentUser;
   if (user == null) {
-    throw Exception('No user is currently signed in.');
+    // throw Exception('No user is currently signed in.');
+    PostHogService.instance.captureError(
+      PostHogEvents.firebaseError,
+      errorMessage: 'No user is currently signed in.',
+      location: 'FirestoreHelper.updateUserField',
+    );
+    return;
   }
 
   await FirebaseFirestore.instance

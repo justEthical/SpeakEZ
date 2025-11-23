@@ -23,6 +23,7 @@ class GlobalController extends GetxController {
   var isWhisperInitialized = false.obs;
   var transcriptionText = "".obs;
   var isLastChunkTranscribed = false.obs;
+  var isCustomReviewScreenCloseButtonVisible = false.obs;
 
   var userProfile = UserProfileModel.fromMap({}).obs;
   final cutomTabBarController = PageController(initialPage: 0);
