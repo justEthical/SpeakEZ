@@ -176,20 +176,28 @@ class WhisperHelper {
     }
   }
 
-  static void extractArchieve(String zipPath, String outputDir) {
+  static Future<void> extractArchieve(String zipPath, String outputDir) async {
     try {
       final inputStream = InputFileStream(zipPath);
       final archive = ZipDecoder().decodeStream(inputStream);
+
       for (final file in archive.files) {
         final outPath = '$outputDir/${file.name}';
         final outFile = File(outPath);
-        outFile.create(recursive: true);
-        outFile.writeAsBytes(file.content);
-        print('[Unzip] Extracted: ${file.name}');
+
+        // Create parent directories
+        await outFile.create(recursive: true);
+
+        // Write file content async
+        await outFile.writeAsBytes(file.content as List<int>);
       }
     } catch (e) {
-      // Note: Cannot use PostHogService in isolate
-      print('Error extracting archive: $e');
+      PostHogService.instance.captureError(
+        PostHogEvents.whisperError,
+        errorMessage: 'Error extracting archive $e',
+        location: 'WhisperHelper.extractArchieve',
+      );
+      print('Error extracting archive (async): $e');
     }
   }
 
@@ -221,7 +229,7 @@ class WhisperHelper {
     final dir = await getApplicationDocumentsDirectory();
     final zipPath = '${dir.path}/$modelFlavourName.zip';
     try {
-      extractArchieve(zipPath, dir.path);
+      await extractArchieve(zipPath, dir.path);
       listFiles(dir.path);
     } catch (e) {
       PostHogService.instance.captureError(

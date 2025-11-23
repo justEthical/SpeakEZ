@@ -7,6 +7,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
@@ -19,7 +20,7 @@ class ResultScreen extends StatelessWidget {
     if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
     }
-    if (c.isUnlockTest){
+    if (c.isUnlockTest) {
       c.updateEnglishLevel();
     }
     final timeTookForQnaInSeconds =
@@ -33,14 +34,16 @@ class ResultScreen extends StatelessWidget {
       body: Stack(
         children: [
           // Confetti background animation
-          (accuracy >= 80  || !c.isUnlockTest)? Lottie.asset(
-            AppAssets.confetti,
-            width: Get.width,
-            height: Get.height,
-            decoder: globalController.customDecoder,
-            repeat: false,
-            fit: BoxFit.cover,
-          ): SizedBox(),
+          (accuracy >= 80 || !c.isUnlockTest)
+              ? Lottie.asset(
+                AppAssets.confetti,
+                width: Get.width,
+                height: Get.height,
+                decoder: globalController.customDecoder,
+                repeat: false,
+                fit: BoxFit.cover,
+              )
+              : SizedBox(),
 
           // Main content
           SafeArea(
@@ -75,7 +78,7 @@ class ResultScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 24),
-                  _buildDoneButton(context  ),
+                  _buildDoneButton(context),
                   const Spacer(flex: 1),
                 ],
               ),
@@ -99,7 +102,11 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildResultText(QuestionOptionsController c, double accuracy, context) {
+  Widget _buildResultText(
+    QuestionOptionsController c,
+    double accuracy,
+    context,
+  ) {
     return Text(
       c.getResultScreenText(accuracy),
       textAlign: TextAlign.center,
@@ -114,8 +121,8 @@ class ResultScreen extends StatelessWidget {
 
   Widget _buildCenterAnimation(accuracy) {
     final c = Get.find<QuestionOptionsController>();
-    if(c.isUnlockTest){
-      if( accuracy >= 80){
+    if (c.isUnlockTest) {
+      if (accuracy >= 80) {
         return SizedBox(
           width: 180,
           height: 180,
@@ -125,7 +132,7 @@ class ResultScreen extends StatelessWidget {
             repeat: true,
           ),
         );
-      }else{
+      } else {
         return SizedBox(
           width: 180,
           height: 180,
@@ -208,15 +215,23 @@ class ResultScreen extends StatelessWidget {
   Widget _buildDoneButton(context) {
     return ElevatedButton(
       onPressed: () {
-        Get.find<QuestionOptionsController>().isFromRetest = false;
-        Get.offAll(() => const TabBarScreen());
-        final isItTimeToShowCustomReview =
-            globalController.userProfile.value.currentEnglishLevelProgress % 5;
-        if ((isItTimeToShowCustomReview == 2) &&
-            !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
-          Get.to(() => const CustomReviewScreen());
-        }
-        Get.delete<QuestionOptionsController>(force: true);
+        GoogleMobileAdsService.instance.showRewarded(
+          onReward: (reward) {
+            Get.find<QuestionOptionsController>().isFromRetest = false;
+            Get.offAll(() => const TabBarScreen());
+            final isItTimeToShowCustomReview =
+                globalController.userProfile.value.currentEnglishLevelProgress %
+                5;
+            if ((isItTimeToShowCustomReview == 2) &&
+                !globalController
+                    .userProfile
+                    .value
+                    .isShownCustomReviewDialogOnce) {
+              Get.to(() => const CustomReviewScreen());
+            }
+            Get.delete<QuestionOptionsController>(force: true);
+          },
+        );
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Theme.of(context).colorScheme.onSurface,
@@ -228,7 +243,10 @@ class ResultScreen extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      child: Text("Done", style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor)),
+      child: Text(
+        "Done",
+        style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor),
+      ),
     );
   }
 }
