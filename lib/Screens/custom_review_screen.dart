@@ -125,7 +125,8 @@ class _HighlightButtonState extends State<HighlightButton>
         return ElevatedButton(
           onPressed: () {
             Get.back();
-            globalController.openUrl(AppStrings.appPlayStoreUrl);
+            globalController.showReviewDialog();
+            // globalController.openUrl(AppStrings.appPlayStoreUrl);
             globalController.userProfile.value.isShownCustomReviewDialogOnce = true;
             globalController.updateProfile();
           },
