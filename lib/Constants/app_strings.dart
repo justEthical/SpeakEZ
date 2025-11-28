@@ -65,6 +65,7 @@ Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
   static const String isOnDeviceTranscriptionSupported = "is_on_device_transcription_supported";
 
   // Admob
-  static const String rewardedInterstitialAdUnitId = "ca-app-pub-5948017215945465/8101238252";  
+  static const String rewardedInterstitialAdUnitId = "ca-app-pub-5948017215945465/4170178867";  
+  static const String rewardedAdUnitId = "ca-app-pub-5948017215945465/1763615176";
 
 }

@@ -200,6 +200,7 @@ class OnboardingController extends GetxController {
       motherTongue: onboardingQuestionAnswerMap['motherTongue'] ?? '',
       notificationToken: notificationToken ?? '',
       isShownCustomReviewDialogOnce: false,
+      gems: 500
     );
     globalController.userProfile.value = userProfile;
     globalController.prefs?.setString(

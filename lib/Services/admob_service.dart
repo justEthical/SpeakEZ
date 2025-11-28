@@ -12,12 +12,12 @@ class GoogleMobileAdsService {
   // Banner
   BannerAd? _bannerAd;
   final ValueNotifier<bool> isBannerLoaded = ValueNotifier(false);
-  final testBannerAdId = 'ca-app-pub-3940256099942544/6300978111';  
+  final testBannerAdId = 'ca-app-pub-3940256099942544/6300978111';
 
   // Interstitial
   InterstitialAd? _interstitialAd;
   bool _interstitialLoading = false;
-  final testInterstitialAdId = 'ca-app-pub-3940256099942544/1033173712';  
+  final testInterstitialAdId = 'ca-app-pub-3940256099942544/1033173712';
 
   // Rewarded
   RewardedAd? _rewardedAd;
@@ -63,7 +63,7 @@ class GoogleMobileAdsService {
     _bannerAd?.dispose();
     isBannerLoaded.value = false;
 
-    if(kDebugMode){
+    if (kDebugMode) {
       adUnitId = testBannerAdId;
     }
 
@@ -103,7 +103,7 @@ class GoogleMobileAdsService {
     if (_interstitialLoading || _interstitialAd != null) return;
     _interstitialLoading = true;
 
-  if(kDebugMode){
+    if (kDebugMode) {
       adUnitId = testInterstitialAdId;
     }
     await InterstitialAd.load(
@@ -146,7 +146,7 @@ class GoogleMobileAdsService {
     if (_rewardedLoading || _rewardedAd != null) return;
     _rewardedLoading = true;
 
-if(kDebugMode){
+    if (kDebugMode) {
       adUnitId = testRewardedAdId;
     }
     await RewardedAd.load(
@@ -154,6 +154,7 @@ if(kDebugMode){
       request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (ad) {
+          print('ad loaded successfully');
           _rewardedLoading = false;
           _rewardedAd = ad;
 
@@ -163,12 +164,14 @@ if(kDebugMode){
               _rewardedAd = null;
             },
             onAdFailedToShowFullScreenContent: (ad, err) {
+              print('ad failed to show $err');
               ad.dispose();
               _rewardedAd = null;
             },
           );
         },
         onAdFailedToLoad: (err) {
+          print('Ad load failed $err');
           _rewardedLoading = false;
           _rewardedAd = null;
         },
@@ -176,14 +179,10 @@ if(kDebugMode){
     );
   }
 
-  bool showRewarded({
-    required Function(RewardItem) onReward,
-  }) {
+  bool showRewarded({required Function(RewardItem) onReward}) {
     if (_rewardedAd == null) return false;
 
-    _rewardedAd!.show(
-      onUserEarnedReward: (ad, reward) => onReward(reward),
-    );
+    _rewardedAd!.show(onUserEarnedReward: (ad, reward) => onReward(reward));
 
     return true;
   }
@@ -195,7 +194,7 @@ if(kDebugMode){
     if (_rewardedInterstitialLoading || _rewardedInterstitialAd != null) return;
     _rewardedInterstitialLoading = true;
 
-    if(kDebugMode){
+    if (kDebugMode) {
       adUnitId = testRewardedInterstitialAdId;
     }
 
@@ -226,9 +225,7 @@ if(kDebugMode){
     );
   }
 
-  bool showRewardedInterstitial({
-    required Function(RewardItem) onReward,
-  }) {
+  bool showRewardedInterstitial({required Function(RewardItem) onReward}) {
     if (_rewardedInterstitialAd == null) return false;
 
     _rewardedInterstitialAd!.show(

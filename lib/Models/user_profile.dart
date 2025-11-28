@@ -19,6 +19,7 @@ class UserProfileModel {
   String motherTongue;
   String notificationToken;
   DateTime? unlockTestLastTime;
+  int gems;
 
   UserProfileModel({
     required this.uid,
@@ -37,8 +38,10 @@ class UserProfileModel {
     required this.motherTongue,
     required this.isShownCustomReviewDialogOnce,
     required this.notificationToken,
+    required this.gems,
     this.unlockTestLastTime,
     this.isSupportsOndeviceTranscription,
+
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -69,6 +72,7 @@ class UserProfileModel {
               : null,
       isSupportsOndeviceTranscription: map['isSupportsOndeviceTranscription'] != null ?
           OnDeviceTranscriptionDetails.fromMap(map['isSupportsOndeviceTranscription']) : null,
+          gems: map['gems'] ?? 0
     );
   }
 
@@ -93,6 +97,7 @@ class UserProfileModel {
       'notificationToken': notificationToken,
       'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch,
       'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription?.toMap(),
+      'gems': gems,
     };
   }
 }

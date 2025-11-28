@@ -4,13 +4,18 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
+import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
-  const TabBarScreen({super.key});
+  final bool showStreakOrGemDialog;
+  final int? gemEarned;
+  final int? streak;
+  const TabBarScreen({super.key,  this.showStreakOrGemDialog = false, this.gemEarned, this.streak});
 
   @override
   State<TabBarScreen> createState() => _TabBarScreenState();
@@ -34,6 +39,12 @@ class _TabBarScreenState extends State<TabBarScreen> {
         WhisperHelper.canModelRunOnDevice();
       }
     });
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      // if(widget.showStreakOrGemDialog){
+
+      // }
+      Get.to(StreakScreen(gems: 100,));
+    });
   }
 
   @override
@@ -54,7 +65,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
         body: PageView(
           controller: globalController.cutomTabBarController,
           physics: NeverScrollableScrollPhysics(),
-          children: [HomeScreen(), PracticeSpeaking()],
+          children: [HomeScreen(), PracticeSpeaking(), SettingScreens()],
         ),
         bottomNavigationBar: Obx(
           () => BottomNavigationBar(
@@ -83,6 +94,10 @@ class _TabBarScreenState extends State<TabBarScreen> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.chat_bubble_outline),
                 label: "Practice",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.settings),
+                label: "Profile",
               ),
             ],
             currentIndex: globalController.currentTabIndex.value,

@@ -17,6 +17,7 @@ class ResultScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
+    globalController.userProfile.value.gems += accuracy.toInt();
     if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
     }
@@ -113,7 +114,7 @@ class ResultScreen extends StatelessWidget {
       style: TextStyle(
         fontFamily: AppStrings.nunitoFont,
         color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
-        fontSize: 18,
+        fontSize: 14,
         fontWeight: FontWeight.w600,
       ),
     );
@@ -215,7 +216,7 @@ class ResultScreen extends StatelessWidget {
   Widget _buildDoneButton(context) {
     return ElevatedButton(
       onPressed: () {
-        GoogleMobileAdsService.instance.showRewarded(
+        GoogleMobileAdsService.instance.showRewardedInterstitial(
           onReward: (reward) {
             Get.find<QuestionOptionsController>().isFromRetest = false;
             Get.offAll(() => const TabBarScreen());

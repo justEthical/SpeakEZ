@@ -52,7 +52,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
         c.isFromRetest = false;
       }
       // globalController.startWhisperIsolate();
-      GoogleMobileAdsService.instance.loadRewarded(
+      GoogleMobileAdsService.instance.loadRewardedInterstitial(
         adUnitId: AppStrings.rewardedInterstitialAdUnitId,
       );
     });
