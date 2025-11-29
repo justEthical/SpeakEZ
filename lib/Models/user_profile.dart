@@ -20,6 +20,7 @@ class UserProfileModel {
   String notificationToken;
   DateTime? unlockTestLastTime;
   int gems;
+  WeekDaysStreak weekDaysStreak;
 
   UserProfileModel({
     required this.uid,
@@ -41,7 +42,7 @@ class UserProfileModel {
     required this.gems,
     this.unlockTestLastTime,
     this.isSupportsOndeviceTranscription,
-
+    required this.weekDaysStreak,
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -72,7 +73,8 @@ class UserProfileModel {
               : null,
       isSupportsOndeviceTranscription: map['isSupportsOndeviceTranscription'] != null ?
           OnDeviceTranscriptionDetails.fromMap(map['isSupportsOndeviceTranscription']) : null,
-          gems: map['gems'] ?? 0
+          gems: map['gems'] ?? 0,
+      weekDaysStreak: map['weekDaysStreak'] != null ? WeekDaysStreak.fromMap(map['weekDaysStreak']) : WeekDaysStreak.fromMap({}),
     );
   }
 
@@ -98,6 +100,7 @@ class UserProfileModel {
       'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch,
       'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription?.toMap(),
       'gems': gems,
+      'weekDaysStreak': weekDaysStreak.toMap(),
     };
   }
 }
@@ -124,5 +127,50 @@ class OnDeviceTranscriptionDetails {
       timeTookFor10SecTranscription:
           map['timeTookFor10SecTranscription'] ?? 0,
     );
+  }
+}
+
+class WeekDaysStreak{
+  
+  bool monday;
+  bool tuesday;
+  bool wednesday;
+  bool thursday;
+  bool friday;
+  bool saturday;
+  bool sunday;
+  WeekDaysStreak({
+    
+    required this.monday,
+    required this.tuesday,
+    required this.wednesday,
+    required this.thursday,
+    required this.friday,
+    required this.saturday,
+    required this.sunday,
+  });
+  
+  factory WeekDaysStreak.fromMap(Map<String, dynamic> map) {
+    return WeekDaysStreak(
+      monday: map['monday'] ?? false,
+      tuesday: map['tuesday'] ?? false,
+      wednesday: map['wednesday'] ?? false,
+      thursday: map['thursday'] ?? false,
+      friday: map['friday'] ?? false,
+      saturday: map['saturday'] ?? false,
+      sunday: map['sunday'] ?? false
+    );
+  }
+  
+   Map<String, bool> toMap() {
+    return {
+      'monday': monday,
+      'tuesday': tuesday,
+      'wednesday': wednesday,
+      'thursday': thursday,
+      'friday': friday,
+      'saturday': saturday,
+      'sunday': sunday,
+    };
   }
 }

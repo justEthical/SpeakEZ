@@ -18,6 +18,7 @@ class ResultScreen extends StatelessWidget {
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     globalController.userProfile.value.gems += accuracy.toInt();
+    updateTodayWeekDayStreak(); // update current week day streak
     if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
     }
@@ -249,5 +250,32 @@ class ResultScreen extends StatelessWidget {
         style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor),
       ),
     );
+  }
+}
+
+void updateTodayWeekDayStreak(){
+  final now = DateTime.now();
+  switch(now.weekday) {
+    case DateTime.monday:
+      globalController.userProfile.value.weekDaysStreak.monday = true;
+      break;
+    case DateTime.tuesday:
+      globalController.userProfile.value.weekDaysStreak.tuesday = true;
+      break;
+    case DateTime.wednesday:
+      globalController.userProfile.value.weekDaysStreak.wednesday = true;
+      break;
+    case DateTime.thursday:
+      globalController.userProfile.value.weekDaysStreak.thursday = true;
+      break;
+    case DateTime.friday:
+      globalController.userProfile.value.weekDaysStreak.friday = true;
+      break;
+    case DateTime.saturday:
+      globalController.userProfile.value.weekDaysStreak.saturday = true;
+      break;
+    case DateTime.sunday:
+      globalController.userProfile.value.weekDaysStreak.sunday = true;
+      break;
   }
 }

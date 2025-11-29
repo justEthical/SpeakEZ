@@ -12,10 +12,8 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
-  final bool showStreakOrGemDialog;
   final int? gemEarned;
-  final int? streak;
-  const TabBarScreen({super.key,  this.showStreakOrGemDialog = false, this.gemEarned, this.streak});
+  const TabBarScreen({super.key, this.gemEarned});
 
   @override
   State<TabBarScreen> createState() => _TabBarScreenState();
@@ -31,19 +29,21 @@ class _TabBarScreenState extends State<TabBarScreen> {
     globalController.askNotificationPermission();
     globalController.setIsDeepInfraTranscription();
     PostHogService.instance.setUserIdentity();
-    final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(AppStrings.isOnDeviceTranscriptionSupported);  
+    final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(
+      AppStrings.isOnDeviceTranscriptionSupported,
+    );
     Future.delayed(Duration.zero, () async {
-      if (!await WhisperHelper.isModelZipAvailable() && isOnDeviceTranscriptionSupported == null) {
+      if (!await WhisperHelper.isModelZipAvailable() &&
+          isOnDeviceTranscriptionSupported == null) {
         WhisperHelper.runSilentDownload();
-      }else if(isOnDeviceTranscriptionSupported == null){
+      } else if (isOnDeviceTranscriptionSupported == null) {
         WhisperHelper.canModelRunOnDevice();
       }
     });
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      // if(widget.showStreakOrGemDialog){
-
-      // }
-      Get.to(StreakScreen(gems: 100,));
+      if (widget.gemEarned != null) {
+        Get.to(StreakScreen(gems: 100));
+      }
     });
   }
 
