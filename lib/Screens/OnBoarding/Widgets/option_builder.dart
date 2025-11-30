@@ -24,7 +24,7 @@ class OptionsBuilder extends StatelessWidget {
             color:
                 c.onboardingQuestionAnswerMap[model.id] == label
                     ? Colors.purple
-                    : const Color(0xFFF2F2F2),
+                    : Theme.of(context).colorScheme.onSecondary,
             borderRadius: BorderRadius.circular(10),
           ),
           child: Center(
@@ -36,7 +36,7 @@ class OptionsBuilder extends StatelessWidget {
                     c.onboardingQuestionAnswerMap[model.id] ==
                             label
                         ? Colors.white
-                        : Colors.black87,
+                        : Theme.of(context).textTheme.bodyMedium?.color,
               ),
             ),
           ),

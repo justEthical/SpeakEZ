@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
@@ -9,7 +8,6 @@ import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
-import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
@@ -109,10 +107,7 @@ class _AnimatedSection extends StatelessWidget {
     return AnimatedBuilder(
       animation: controller,
       builder: (context, child) {
-        final animation = Tween<double>(
-          begin: 0.0,
-          end: 1.0,
-        ).animate(
+        final animation = Tween<double>(begin: 0.0, end: 1.0).animate(
           CurvedAnimation(
             parent: controller,
             curve: Interval(
@@ -149,25 +144,26 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       elevation: 0,
       title: FadeTransition(
-        opacity: Tween<double>(
-          begin: 0.0,
-          end: 1.0,
-        ).animate(CurvedAnimation(
-          parent: animationController,
-          curve: const Interval(0.0, 0.5, curve: Curves.easeOut),
-        )),
+        opacity: Tween<double>(begin: 0.0, end: 1.0).animate(
+          CurvedAnimation(
+            parent: animationController,
+            curve: const Interval(0.0, 0.5, curve: Curves.easeOut),
+          ),
+        ),
         child: SlideTransition(
           position: Tween<Offset>(
             begin: const Offset(-0.3, 0),
             end: Offset.zero,
-          ).animate(CurvedAnimation(
-            parent: animationController,
-            curve: const Interval(0.0, 0.5, curve: Curves.easeOutCubic),
-          )),
+          ).animate(
+            CurvedAnimation(
+              parent: animationController,
+              curve: const Interval(0.0, 0.5, curve: Curves.easeOutCubic),
+            ),
+          ),
           child: Obx(
             () => Text(
               "Hi, ${globalController.userProfile.value.displayName}!",
-              style: TextStyle(     
+              style: TextStyle(
                 color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w800,
@@ -181,31 +177,25 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
         Padding(
           padding: const EdgeInsets.only(right: 10.0),
           child: ScaleTransition(
-            scale: Tween<double>(
-              begin: 0.0,
-              end: 1.0,
-            ).animate(CurvedAnimation(
-              parent: animationController,
-              curve: const Interval(0.2, 0.7, curve: Curves.elasticOut),
-            )),
-            child: IconButton(
-              onPressed: () {
-                Get.to(() => const SettingScreens());
-              },
-              icon: TweenAnimationBuilder<double>(
-                duration: const Duration(milliseconds: 300),
-                tween: Tween(begin: 0.0, end: 1.0),
-                builder: (context, value, child) {
-                  return Transform.rotate(
-                    angle: value * 2 * 3.14159,
-                    child: child,
-                  );
-                },
-                child: SvgPicture.asset(
-                  AppAssets.settings,
-                  colorFilter:  ColorFilter.mode(Theme.of(context).colorScheme.onSurface, BlendMode.srcIn),
-                ),
+            scale: Tween<double>(begin: 0.0, end: 1.0).animate(
+              CurvedAnimation(
+                parent: animationController,
+                curve: const Interval(0.2, 0.7, curve: Curves.elasticOut),
               ),
+            ),
+            child: Row(
+              children: [
+                SizedBox(width: 18, height: 30, child: Image.asset(AppAssets.gem),),SizedBox(width: 6,),
+                Text(
+                  globalController.userProfile.value.gems.toString(),
+                  style: TextStyle(
+                    color: Theme.of(context).textTheme.bodyMedium?.color,
+                    fontFamily: AppStrings.nunitoFont,
+                    fontWeight: FontWeight.w800,
+                    fontSize: 22,
+                  ),
+                ),
+              ],
             ),
           ),
         ),
@@ -257,7 +247,7 @@ class _LearnByLevelSection extends StatelessWidget {
     showModalBottomSheet(
       context: context,
       showDragHandle: true,
-      backgroundColor: Theme.of(  context).scaffoldBackgroundColor,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
@@ -281,7 +271,9 @@ class _LearnByLevelSection extends StatelessWidget {
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
                   fontFamily: AppStrings.nunitoFont,
-                  color: Theme.of(context).textTheme.bodyMedium?.color?.withOpacity(0.7),
+                  color: Theme.of(
+                    context,
+                  ).textTheme.bodyMedium?.color?.withOpacity(0.7),
                 ),
               ),
               const Spacer(),
@@ -307,7 +299,9 @@ class _LearnByLevelSection extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             itemBuilder: (context, index) {
               final item = levels[index];
-              final englishLevelIndex = AppData.englishLevel.indexOf(globalController.userProfile.value.currentEnglishLevel);
+              final englishLevelIndex = AppData.englishLevel.indexOf(
+                globalController.userProfile.value.currentEnglishLevel,
+              );
               final isLevelLocked = index > englishLevelIndex;
               return Padding(
                 padding: const EdgeInsets.only(right: 15.0),

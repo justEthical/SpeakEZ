@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
+import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
+import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
-  const TabBarScreen({super.key});
+  final int? gemEarned;
+  const TabBarScreen({super.key, this.gemEarned});
 
   @override
   State<TabBarScreen> createState() => _TabBarScreenState();
@@ -24,9 +28,21 @@ class _TabBarScreenState extends State<TabBarScreen> {
     super.initState();
     globalController.askNotificationPermission();
     globalController.setIsDeepInfraTranscription();
+    PostHogService.instance.setUserIdentity();
+    final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(
+      AppStrings.isOnDeviceTranscriptionSupported,
+    );
     Future.delayed(Duration.zero, () async {
-      if (!await WhisperHelper.isModelAvailable()) {
+      if (!await WhisperHelper.isModelZipAvailable() &&
+          isOnDeviceTranscriptionSupported == null) {
         WhisperHelper.runSilentDownload();
+      } else if (isOnDeviceTranscriptionSupported == null) {
+        WhisperHelper.canModelRunOnDevice();
+      }
+    });
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      if (widget.gemEarned != null) {
+        Get.to(StreakScreen(gems: 100));
       }
     });
   }
@@ -49,7 +65,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
         body: PageView(
           controller: globalController.cutomTabBarController,
           physics: NeverScrollableScrollPhysics(),
-          children: [HomeScreen(), PracticeSpeaking()],
+          children: [HomeScreen(), PracticeSpeaking(), SettingScreens()],
         ),
         bottomNavigationBar: Obx(
           () => BottomNavigationBar(
@@ -78,6 +94,10 @@ class _TabBarScreenState extends State<TabBarScreen> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.chat_bubble_outline),
                 label: "Practice",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.settings),
+                label: "Profile",
               ),
             ],
             currentIndex: globalController.currentTabIndex.value,

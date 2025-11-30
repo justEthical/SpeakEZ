@@ -31,7 +31,6 @@ class CustomLoader {
   static void hideLoader() {
     if (Get.isDialogOpen!) {
       Get.back();
-
     }
   }
 }

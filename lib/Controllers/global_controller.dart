@@ -4,6 +4,7 @@ import 'dart:isolate';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:in_app_review/in_app_review.dart';
 import 'package:lottie/lottie.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
@@ -23,6 +24,7 @@ class GlobalController extends GetxController {
   var isWhisperInitialized = false.obs;
   var transcriptionText = "".obs;
   var isLastChunkTranscribed = false.obs;
+  var isCustomReviewScreenCloseButtonVisible = false.obs;
 
   var userProfile = UserProfileModel.fromMap({}).obs;
   final cutomTabBarController = PageController(initialPage: 0);
@@ -49,15 +51,16 @@ class GlobalController extends GetxController {
   }
 
   void setIsDeepInfraTranscription() {
-    final isOnDeviceTranscriptionSupported = prefs?.getBool(AppStrings.isOnDeviceTranscriptionSupported);
-    if(isOnDeviceTranscriptionSupported == null || !isOnDeviceTranscriptionSupported) {
+    final isOnDeviceTranscriptionSupported = prefs?.getBool(
+      AppStrings.isOnDeviceTranscriptionSupported,
+    );
+    if (isOnDeviceTranscriptionSupported == null ||
+        !isOnDeviceTranscriptionSupported) {
       isDeepInfraTranscription.value = true;
-    }else{
+    } else {
       isDeepInfraTranscription.value = false;
     }
   }
-
-  
 
   Future<void> startWhisperIsolate() async {
     if (isWhisperInitialized.value) {
@@ -113,12 +116,12 @@ class GlobalController extends GetxController {
     if (!status.isGranted) {
       if (status.isPermanentlyDenied) {
         Get.defaultDialog(
-        titleStyle: const TextStyle(fontSize: 0),
-        content: CustomDialogs.enablePermissionFromSettings(
-          Get.context!,
-          'Please enable notification permission from settings to keep updated.',
-        ),
-      );
+          titleStyle: const TextStyle(fontSize: 0),
+          content: CustomDialogs.enablePermissionFromSettings(
+            Get.context!,
+            'Please enable notification permission from settings to keep updated.',
+          ),
+        );
       }
       await Permission.notification.request();
     }
@@ -137,16 +140,16 @@ class GlobalController extends GetxController {
     );
   }
 
-void updateProfile()async{
-  
-  // updating user profile in local storage
-  globalController.prefs?.setString(
-    AppStrings.userProfile,
-    jsonEncode(userProfile.value.toMap()),
-  );
-  // updating user profile in firestore
-  FirestoreHelper.updateUserField(userProfile.value.toMap()); 
-}
+  void updateProfile() async {
+    // updating user profile in local storage
+    globalController.prefs?.setString(
+      AppStrings.userProfile,
+      jsonEncode(userProfile.value.toMap()),
+    );
+    // updating user profile in firestore
+    FirestoreHelper.updateUserField(userProfile.value.toMap());
+  }
+
   Future<void> openUrl(String urlString) async {
     final Uri url = Uri.parse(urlString);
     if (!await launchUrl(url)) {
@@ -155,13 +158,21 @@ void updateProfile()async{
   }
 
   String removeTicksJson(String text) {
-    if(text.startsWith('```') && text.endsWith('```')) { 
+    if (text.startsWith('```') && text.endsWith('```')) {
       text = text.replaceAll('json', '');
       text = text.replaceAll('```', '');
       text = text.trim();
       return text;
     } else {
       return text;
+    }
+  }
+
+  Future<void> showReviewDialog() async {
+    final InAppReview inAppReview = InAppReview.instance;
+
+    if (await inAppReview.isAvailable()) {
+      inAppReview.requestReview();
     }
   }
 }

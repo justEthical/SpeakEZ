@@ -65,19 +65,19 @@ class PracticeController extends GetxController {
     });
   }
 
-  void endRecording(){
+  void endRecording() {
     isRecordingInProgress.value = false;
-        if (globalController.isDeepInfraTranscription.value) {
-          stopNormalRecording();
-        } else {
-          recorder?.stop();
-          addChatCellTranscriptionData();
-        }
+    if (globalController.isDeepInfraTranscription.value) {
+      stopNormalRecording();
+    } else {
+      recorder?.stop();
+      addChatCellTranscriptionData();
+    }
   }
 
   void stopNormalRecording() {
-    recorder?.stopRecording().then((value) {
-      _removeRecordingChat();
+    _removeRecordingChat();
+    recorder?.stopRecording().then((value) {      
       addChatCellTranscriptionData();
     });
   }
@@ -360,7 +360,7 @@ class PracticeController extends GetxController {
     isRecordingPaused.value = true;
   }
 
-bool isBottomSheetOpen = false;
+  bool isBottomSheetOpen = false;
   void showExitBottomSheet(context) {
     showModalBottomSheet(
       context: context,
