@@ -201,16 +201,17 @@ class QuestionOptionsController extends GetxController {
       globalController.userProfile.value.currentEnglishLevelProgress = 0;
     } else {
       globalController.userProfile.value.currentEnglishLevelProgress++;
-      updateStreak();
 
       // Only update word count for regular lessons that have intro and is not from retest 
       if (currentLessonModel.lessonIntro != null && !isFromRetest) {
         globalController.userProfile.value.wordLearned +=
             currentLessonModel.lessonIntro!.vocabulary.length;
       }
-      globalController.userProfile.value.lastActive = DateTime.now();
+      
     }
 
+    updateStreak();
+    globalController.userProfile.value.lastActive = DateTime.now();
     globalController.updateProfile();
   }
 

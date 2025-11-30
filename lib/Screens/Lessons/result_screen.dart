@@ -11,13 +11,13 @@ import 'package:speak_ez/Services/admob_service.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     globalController.userProfile.value.gems += accuracy.toInt();
+    
     updateTodayWeekDayStreak(); // update current week day streak
     if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
@@ -80,7 +80,7 @@ class ResultScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 24),
-                  _buildDoneButton(context),
+                  _buildDoneButton(context, accuracy.toInt()),
                   const Spacer(flex: 1),
                 ],
               ),
@@ -214,13 +214,13 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildDoneButton(context) {
+  Widget _buildDoneButton(context, int gemsEarned) {
     return ElevatedButton(
       onPressed: () {
         GoogleMobileAdsService.instance.showRewardedInterstitial(
           onReward: (reward) {
             Get.find<QuestionOptionsController>().isFromRetest = false;
-            Get.offAll(() => const TabBarScreen());
+            Get.offAll(() => TabBarScreen(gemEarned: gemsEarned,));
             final isItTimeToShowCustomReview =
                 globalController.userProfile.value.currentEnglishLevelProgress %
                 5;

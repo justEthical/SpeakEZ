@@ -44,17 +44,7 @@ class VocalbularyScreen extends StatelessWidget {
             ),
           ),
           actions: [
-            Transform.scale(
-              scale: 0.8,
-              child: Obx(
-                () => Switch(
-                  value: c.isAutoSpeakVocabularyOn.value,
-                  onChanged: (val) {
-                    c.isAutoSpeakVocabularyOn.value = val;
-                  },
-                ),
-              ),
-            ),
+            
           ],
         ),
         body: Container(
@@ -78,7 +68,7 @@ class VocalbularyScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
     if (vocabulary.isEmpty) return const SizedBox.shrink();
-    
+
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -109,16 +99,14 @@ class VocalbularyScreen extends StatelessWidget {
   Widget _content() {
     final c = Get.find<QuestionOptionsController>();
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
-    
+
     if (vocabulary.isEmpty) {
       return const Expanded(
         flex: 10,
-        child: Center(
-          child: Text('No vocabulary items available'),
-        ),
+        child: Center(child: Text('No vocabulary items available')),
       );
     }
-    
+
     return Expanded(
       flex: 10,
       child: PageView.builder(
@@ -128,12 +116,10 @@ class VocalbularyScreen extends StatelessWidget {
         itemCount: vocabulary.length,
         itemBuilder: (ctx, i) {
           final vocabularyModel = vocabulary[i];
-          if(c.isAutoSpeakVocabularyOn.value){
+          if (c.isAutoSpeakVocabularyOn.value) {
             ttsHelper.speak(vocabularyModel.word);
           }
-          return VocabularyData(
-            vocabularyItem: vocabularyModel,
-          );
+          return VocabularyData(vocabularyItem: vocabularyModel);
         },
       ),
     );
@@ -142,72 +128,104 @@ class VocalbularyScreen extends StatelessWidget {
   Widget _bottomButtons(context) {
     final c = Get.find<QuestionOptionsController>();
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
-    
-    return Row(
+
+    return Column(
       children: [
-        Obx(
-          () =>
-              c.currentWordMeaningIndex.value == 0
-                  ? SizedBox()
-                  : ElevatedButton(
-                    onPressed: () {
-                      c.wordMeaningPageController.previousPage(
-                        duration: const Duration(milliseconds: 300),
-                        curve: Curves.linear,
-                      );
-                      c.currentWordMeaningIndex.value--;
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Theme.of(context).colorScheme.primary,
-                      fixedSize: Size(100, 40),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                    child: Text(
-                      "Prev",
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
-                        fontSize: 16,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
-        ),
-        Spacer(),
-        ElevatedButton(
-          onPressed: () {
-            if (vocabulary.isNotEmpty &&
-                c.currentWordMeaningIndex.value < vocabulary.length - 1) {
-              c.wordMeaningPageController.nextPage(
-                duration: const Duration(milliseconds: 300),
-                curve: Curves.linear,
-              );
-              c.currentWordMeaningIndex.value++;
-            } else {
-              Get.off(GrammerTipsScreen(lesson: lesson));
-            }
-          },
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Theme.of(context).colorScheme.primary,
-            fixedSize: Size(100, 40),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
+        Container(
+          width: Get.width,
+          height: 40,
+          decoration: BoxDecoration(
+            color: Colors.transparent,
+            borderRadius: BorderRadius.circular(10),
+            border: Border.all(color: Colors.grey, width: 1),
           ),
-          child: Obx(
-            () => Text(
-              vocabulary.isNotEmpty &&
-                      c.currentWordMeaningIndex.value == vocabulary.length - 1
-                  ? "Done"
-                  : "Next",
-              style: TextStyle(
-                fontWeight: FontWeight.w600,
-                fontSize: 16,
-                color: Colors.white,
+          child: Row(
+            children: [SizedBox(width: 8,),
+            Text("Auto speak",),
+            Spacer(),
+            Transform.scale(
+              scale: 0.8,
+              child: Obx(
+                () => Switch(
+                  value: c.isAutoSpeakVocabularyOn.value,
+                  onChanged: (val) {
+                    c.isAutoSpeakVocabularyOn.value = val;
+                  },
+                ),
               ),
             ),
-          ),
+          ]),
+        ),
+        SizedBox(height: 10),
+        Row(
+          children: [
+            Obx(
+              () =>
+                  c.currentWordMeaningIndex.value == 0
+                      ? SizedBox()
+                      : ElevatedButton(
+                        onPressed: () {
+                          c.wordMeaningPageController.previousPage(
+                            duration: const Duration(milliseconds: 300),
+                            curve: Curves.linear,
+                          );
+                          c.currentWordMeaningIndex.value--;
+                        },
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor:
+                              Theme.of(context).colorScheme.primary,
+                          fixedSize: Size(100, 40),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
+                        child: Text(
+                          "Prev",
+                          style: TextStyle(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 16,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+            ),
+            Spacer(),
+            ElevatedButton(
+              onPressed: () {
+                if (vocabulary.isNotEmpty &&
+                    c.currentWordMeaningIndex.value < vocabulary.length - 1) {
+                  c.wordMeaningPageController.nextPage(
+                    duration: const Duration(milliseconds: 300),
+                    curve: Curves.linear,
+                  );
+                  c.currentWordMeaningIndex.value++;
+                } else {
+                  Get.off(GrammerTipsScreen(lesson: lesson));
+                }
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Theme.of(context).colorScheme.primary,
+                fixedSize: Size(100, 40),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              child: Obx(
+                () => Text(
+                  vocabulary.isNotEmpty &&
+                          c.currentWordMeaningIndex.value ==
+                              vocabulary.length - 1
+                      ? "Done"
+                      : "Next",
+                  style: TextStyle(
+                    fontWeight: FontWeight.w600,
+                    fontSize: 16,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ],
     );
