@@ -2,6 +2,7 @@ class AppStrings {
   static const String appName = 'SpeakEZ';
   static const String nunitoFont = "Nunito";
   static const String poppinsFont = "Poppins";
+  static const String downloadWhisperModelTaskId = 'download-whisper-model-task-id';
   static const String termsAndConditionsUrl =
       "https://docs.google.com/document/d/11FvxDJvzon4p8jY-JtANv_UGw1U4cvYb7peQpRSz7RI/edit?usp=sharing";
   static const String privacyPolicyUrl =
@@ -63,8 +64,8 @@ Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
   static const String isShowPracticeTabInfoBanner = "is_show_practice_tab_info_banner";
   static const String isOnDeviceTranscriptionSupported = "is_on_device_transcription_supported";
 
-  static const String appWriteProjectId = "68922bff001e5c2efef0";
-  static const String appWriteEndPointUrl = "https://nyc.cloud.appwrite.io/v1";
-  static const String appStorageBuckerId = "689233a2002934deb1b4";
+  // Admob
+  static const String rewardedInterstitialAdUnitId = "ca-app-pub-5948017215945465/4170178867";  
+  static const String rewardedAdUnitId = "ca-app-pub-5948017215945465/1763615176";
 
 }

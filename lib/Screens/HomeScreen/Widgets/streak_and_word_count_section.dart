@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 
 class StreakAndWordCountSection extends StatefulWidget {
   const StreakAndWordCountSection({super.key});
@@ -68,6 +69,7 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
               children: [
                 Obx(
                   () => _buildProgressCard(
+                    onTap: () => Get.to(StreakScreen()),
                     context,
                     title: "Current Streak",
                     icon: AppAssets.flame,
@@ -99,6 +101,7 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
     required String icon,
     required String progress,
     required Color color,
+    VoidCallback? onTap,
   }) {
     return Expanded(
       child: TweenAnimationBuilder<double>(
@@ -109,6 +112,7 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
             onTapDown: (_) => setState(() {}),
             onTapUp: (_) => setState(() {}),
             onTapCancel: () => setState(() {}),
+            onTap: onTap,
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 150),
               transform: Matrix4.identity()..scale(scale * 0.98),

@@ -30,6 +30,8 @@ class CustomDialogs {
               children: [
                 ElevatedButton(
                   onPressed: () async {
+                    Get.delete<GlobalController>();
+                    Get.put(GlobalController());
                     AuthService.logout();
                     await globalController.prefs?.clear();
                     globalController.prefs?.setString(
@@ -128,6 +130,8 @@ class CustomDialogs {
               children: [
                 ElevatedButton(
                   onPressed: () async {
+                    Get.delete<GlobalController>();
+                    Get.put(GlobalController());
                     final res = await FirestoreHelper.deleteCurrentUser();
                     if (res) {
                       globalController.prefs?.setString(

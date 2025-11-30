@@ -50,29 +50,18 @@ class SettingScreens extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
-                      InkWell(
-                        onTap: () {
-                          PostHogService.instance.captureClick(
-                            'settings_close',
-                            elementType: 'button',
-                            screenName: 'settings_screen',
-                          );
-                          Get.back();
-                        },
-                        child: Container(
-                          padding: const EdgeInsets.all(5),
-                          decoration: BoxDecoration(
-                            color: Theme.of(context).colorScheme.onPrimary,
-                            shape: BoxShape.circle,
-                          ),
-                          child: Icon(
-                            Icons.close,
-                            size: 20,
-                            color: Theme.of(context).colorScheme.primary,
-                          ),
+                      SizedBox(width: 18, height: 30, child: Image.asset(AppAssets.gem),),
+                      SizedBox(width: 8,),
+                      Text(
+                        globalController.userProfile.value.gems.toString(),
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w700,
+                          color: Theme.of(context).colorScheme.onPrimary,
+                          fontFamily: AppStrings.nunitoFont,
                         ),
                       ),
-                      SizedBox(width: 20),
+                      SizedBox(width: 20,)
                     ],
                   ),
                   SizedBox(height: 15),

@@ -8,6 +8,7 @@ import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/vocalbulary_screen.dart';
 import 'package:speak_ez/Screens/Lessons/qna_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 
 class LessonIntroScreen extends StatefulWidget {
   final int? lessonIndex;
@@ -47,10 +48,13 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
       c.currentQuestionIndex.value = 0;
       if (widget.lessonIndex != null) {
         c.isFromRetest = true;
-      }else{
+      } else {
         c.isFromRetest = false;
       }
       // globalController.startWhisperIsolate();
+      GoogleMobileAdsService.instance.loadRewardedInterstitial(
+        adUnitId: AppStrings.rewardedInterstitialAdUnitId,
+      );
     });
   }
 
@@ -80,7 +84,10 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
               borderRadius: BorderRadius.circular(100),
               color: Colors.grey.shade300,
             ),
-            child: Icon(Icons.close, color: Theme.of(context).scaffoldBackgroundColor),
+            child: Icon(
+              Icons.close,
+              color: Theme.of(context).scaffoldBackgroundColor,
+            ),
           ),
         ),
       ),
@@ -113,7 +120,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                       c.lessonModel!.lessonType == LessonType.unlockTest
                           ? "Level Unlock Test"
                           : "Welcome to the lesson",
-                          textAlign: TextAlign.center,
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
                         fontFamily: AppStrings.poppinsFont,
@@ -131,18 +138,20 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                       ),
                     ),
                     SizedBox(height: 10),
-                    c.isUnlockTest ?   Container(
-                      margin: EdgeInsets.symmetric(horizontal: 10),
-                      child: Text(
-                        "You have to score more than 80% to unlock the ${widget.englishLevel} level",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontFamily: AppStrings.poppinsFont,
-                          fontWeight: FontWeight.w400,
-                        ),
-                      ),
-                    ) : SizedBox(),
+                    c.isUnlockTest
+                        ? Container(
+                          margin: EdgeInsets.symmetric(horizontal: 10),
+                          child: Text(
+                            "You have to score more than 80% to unlock the ${widget.englishLevel} level",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontFamily: AppStrings.poppinsFont,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        )
+                        : SizedBox(),
                     SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
                     Spacer(),
                     ElevatedButton(

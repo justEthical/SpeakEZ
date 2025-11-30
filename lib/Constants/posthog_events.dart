@@ -56,6 +56,7 @@ class PostHogEvents {
   static const String errorOccurred = 'error_occurred';
   static const String apiCallFailed = 'api_call_failed';
   static const String authenticationError = 'authentication_error';
+  static const String whisperError = 'whisper_error';
   static const String networkError = 'network_error';
   static const String permissionDenied = 'permission_denied';
   static const String firebaseError = 'firebase_error';

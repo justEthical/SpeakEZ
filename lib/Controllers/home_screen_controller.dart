@@ -48,6 +48,22 @@ class HomeScreenController extends GetxController {
       jsonDecode(profileData!),
     );
     calculateStreak();
+    // update weekDaysStreak if its monday
+    updateWeekDaysStreak(); 
+  }
+
+  void updateWeekDaysStreak() {
+    final now = DateTime.now();
+    if(now.weekday == DateTime.monday) {
+      globalController.userProfile.value.weekDaysStreak = WeekDaysStreak.fromMap({});
+      globalController.prefs?.setString(
+        AppStrings.userProfile,
+        jsonEncode(globalController.userProfile.value.toMap()),
+      );
+      FirestoreHelper.updateUserField(
+        globalController.userProfile.value.toMap(),
+      );
+    }
   }
 
   Future<void> deleteFolderRecursively(String folderPath) async {

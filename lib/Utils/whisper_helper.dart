@@ -2,17 +2,20 @@ import 'dart:io';
 import 'dart:isolate';
 import 'dart:typed_data';
 import 'package:archive/archive.dart';
-import 'package:dio/dio.dart';
+import 'package:background_downloader/background_downloader.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sherpa_onnx/sherpa_onnx.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/user_profile.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
 
 class WhisperHelper {
   static const modelName = 'base';
+  static const modelFlavourName = 'vanilla';
 
   static void whisperIsolateEntry(List args) async {
     final SendPort mainSendPort = args[0];
@@ -36,21 +39,20 @@ class WhisperHelper {
       } else if (message is Map &&
           message.containsKey('file') &&
           message.containsKey('replyTo')) {
-            final SendPort replyTo = message['replyTo'] as SendPort;
+        final SendPort replyTo = message['replyTo'] as SendPort;
         try {
           final filePath = message['file'] as String;
-        
 
-        final bytes = await File(filePath).readAsBytes();
-        final samples = downmixAndNormalizeWav(bytes);
+          final bytes = await File(filePath).readAsBytes();
+          final samples = downmixAndNormalizeWav(bytes);
 
-        final stream = recognizer.createStream();
-        stream.acceptWaveform(sampleRate: 16000, samples: samples);
-        recognizer.decode(stream);
-        final result = recognizer.getResult(stream);
-        stream.free();
+          final stream = recognizer.createStream();
+          stream.acceptWaveform(sampleRate: 16000, samples: samples);
+          recognizer.decode(stream);
+          final result = recognizer.getResult(stream);
+          stream.free();
 
-        replyTo.send(result.text);// send back transcription
+          replyTo.send(result.text); // send back transcription
         } catch (e) {
           // Note: Cannot use PostHogService in isolate
           replyTo.send(e.toString());
@@ -65,6 +67,8 @@ class WhisperHelper {
   static OfflineRecognizer initWhisperRecognizer(String path) {
     final dir = Directory(path);
 
+    // var k = dir.existsSync();
+
     final recognizer = OfflineRecognizer(
       OfflineRecognizerConfig(
         model: OfflineModelConfig(
@@ -78,6 +82,24 @@ class WhisperHelper {
       ),
     );
     return recognizer;
+  }
+
+  static void listFiles(String path) {
+    final directory = Directory(path);
+
+    if (!directory.existsSync()) {
+      print("Directory does not exist");
+      return;
+    }
+
+    // List all entries
+    directory.list().listen((entity) {
+      if (entity is File) {
+        print("File: ${entity.path}");
+      } else if (entity is Directory) {
+        print("Directory: ${entity.path}");
+      }
+    });
   }
 
   static Float32List downmixAndNormalizeWav(Uint8List bytes) {
@@ -109,109 +131,86 @@ class WhisperHelper {
     return floatSamples;
   }
 
-  static void _modelDownloadWorker(List args) async {
-    final RootIsolateToken rootIsolateToken = args[0]; // first arg is token
-    final SendPort replyTo = args[1];
-    final SendPort downloadProgress = args[2];
-    // 🛠 Fix here
-    BackgroundIsolateBinaryMessenger.ensureInitialized(rootIsolateToken);
+  static void runSilentDownload() async {
+    // Check if task is already running or pending
+    final existingTasks = await FileDownloader().allTasks();
 
-    final port = ReceivePort();
-    replyTo.send(port.sendPort);
+    final alreadyRunning = existingTasks.any(
+      (task) => task.taskId == AppStrings.downloadWhisperModelTaskId,
+    );
 
-    await for (var message in port) {
-      final String url = message[0];
-      final String fileName = message[1];
-      final SendPort replyTo = message[2];
+    if (alreadyRunning) {
+      print("Download already running. Not starting again.");
+      return;
+    }
 
-      try {
-        final dir =
-            await getApplicationDocumentsDirectory(); // Now safe to call
-        final zipPath = '${dir.path}/$fileName';
+    final modelDownloadUrl =
+        'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip';
+    final dir = await getApplicationDocumentsDirectory(); // Now safe to call
+    final zipPath = '${dir.path}/$modelFlavourName.zip';
 
-        final dio = Dio();
-        print('[Download] Starting from $url');
+    if (File(zipPath).existsSync()) {
+      await File(zipPath).delete();
+    }
 
-        await dio.download(
-          url,
-          zipPath,
-          onReceiveProgress: (rec, total) {
-            var percent = double.parse((rec / total * 100).toStringAsFixed(1));
-            if (total != -1) {
-              downloadProgress.send(percent);
-              // print(
-              //   '[Download Progress] $percent%',
-              // );
-            }
-          },
-          options: Options(receiveTimeout: Duration.zero),
-        );
+    final task = DownloadTask(
+      taskId: AppStrings.downloadWhisperModelTaskId,
+      url: modelDownloadUrl,
+      filename: '$modelFlavourName.zip',
+      updates: Updates.statusAndProgress, // request status and progress updates
+      requiresWiFi: false,
+      retries: 5,
+      allowPause: true,
+    );
 
-        final inputStream = InputFileStream(zipPath);
-        final archive = ZipDecoder().decodeStream(inputStream);
-        for (final file in archive.files) {
-          final outPath = '${dir.path}/${file.name}';
-          final outFile = File(outPath);
-          await outFile.create(recursive: true);
-          await outFile.writeAsBytes(file.content);
-          print('[Unzip] Extracted: ${file.name}');
-        }
-
-        // delete zip filee
-        try {
-          final file = File(zipPath);
-          if (await file.exists()) {
-            await file.delete();
-          }
-        } catch (e) {
-          // Note: Cannot use PostHogService in isolate
-          print('Error deleting file: $e');
-        }
-
-        replyTo.send('✅ Done');
-      } catch (e) {
-        // Note: Cannot use PostHogService in isolate
-        print('[Error] $e');
-        replyTo.send('❌ Failed');
-      }
-
-      port.close();
+    // Start download, and wait for result. Show progress and status changes
+    // while downloading
+    final result = await FileDownloader().download(
+      task,
+      onProgress: (progress) => print('Progress: ${progress * 100}%'),
+      onStatus: (status) => print('Status: $status'),
+    );
+    // Act on the result
+    if (result.status == TaskStatus.complete) {
+      canModelRunOnDevice();
     }
   }
-  static void runSilentDownload() async {
-    final receivePort = ReceivePort();
-    final downloadProgress = ReceivePort();
-    final token = RootIsolateToken.instance!;
 
-    await Isolate.spawn(_modelDownloadWorker, [
-      token,
-      receivePort.sendPort,
-      downloadProgress.sendPort,
-    ]);
+  static Future<void> extractArchieve(String zipPath, String outputDir) async {
+    try {
+      final inputStream = InputFileStream(zipPath);
+      final archive = ZipDecoder().decodeStream(inputStream);
 
-    final sendPort = await receivePort.first as SendPort;
+      for (final file in archive.files) {
+        final outPath = '$outputDir/${file.name}';
+        final outFile = File(outPath);
 
-    downloadProgress.listen((data) {
-      print("DOWNLOAD PROGRESS $data");
-      globalController.aiModelDownloadProgress.value = data;
-    });
+        // Create parent directories
+        await outFile.create(recursive: true);
 
-    final resultPort = ReceivePort();
-    sendPort.send([
-      'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip',
-      'vanilla.zip',
-      resultPort.sendPort,
-    ]);
-
-    await resultPort.first; // You can log or ignore
-    // globalController.isAiModelDownloaded.value = true;
-    canModelRunOnDevice();
+        // Write file content async
+        await outFile.writeAsBytes(file.content as List<int>);
+      }
+    } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.whisperError,
+        errorMessage: 'Error extracting archive $e',
+        location: 'WhisperHelper.extractArchieve',
+      );
+      print('Error extracting archive (async): $e');
+    }
   }
 
   static Future<bool> isModelAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
     final encoder = File('${dir.path}/$modelName.en-decoder.int8.onnx');
     return encoder.existsSync(); // Fast check
+  }
+
+  static Future<bool> isModelZipAvailable() async {
+    final dir = await getApplicationDocumentsDirectory();
+    final zipPath = '${dir.path}/$modelFlavourName.zip';
+    return await File(zipPath).exists();
   }
 
   /// Checks if the device can run the Whisper AI model
@@ -226,51 +225,84 @@ class WhisperHelper {
   ///
   /// Additionally, [globalController.isDeepInfraTranscription] is set
   /// to true if the device cannot run the model, and false otherwise.
-  static Future<void> canModelRunOnDevice()async{
+  static Future<void> canModelRunOnDevice() async {
+    final dir = await getApplicationDocumentsDirectory();
+    final zipPath = '${dir.path}/$modelFlavourName.zip';
+    try {
+      await extractArchieve(zipPath, dir.path);
+      listFiles(dir.path);
+    } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.whisperError,
+        errorMessage: 'Error during extracting zip file $e',
+        location: 'WhisperHelper.canModelRunOnDevice',
+      );
+      print('Error Extracting file: $e');
+    }
+
     final ReceivePort onMainReceive = ReceivePort();
 
-      final RootIsolateToken token = RootIsolateToken.instance!;
-      await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
-        onMainReceive.sendPort,
-        globalController.appDocDirectoryPath,
-        token,
-      ]);
+    final RootIsolateToken token = RootIsolateToken.instance!;
+    await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+      onMainReceive.sendPort,
+      globalController.appDocDirectoryPath,
+      token,
+    ]);
 
-      final SendPort whisperSendPort = await onMainReceive.first;
-      final audioFilePath = await loadAssetToFile(AppAssets.whisperTestAudio);  
-      final ReceivePort responsePort = ReceivePort();
-      final start = DateTime.now();
-      whisperSendPort.send({
-        'file': audioFilePath,
-        'replyTo': responsePort.sendPort,
-      });
+    final SendPort whisperSendPort = await onMainReceive.first;
+    final audioFilePath = await loadAssetToFile(AppAssets.whisperTestAudio);
+    final ReceivePort responsePort = ReceivePort();
+    final start = DateTime.now();
+    whisperSendPort.send({
+      'file': audioFilePath,
+      'replyTo': responsePort.sendPort,
+    });
 
-      final result = await responsePort.first;
-      final end = DateTime.now(); 
-      final difference = end.difference(start).inSeconds;
-      if(difference <= 5.0) {
-        globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, true);
-        globalController.isDeepInfraTranscription.value = false;
-        globalController.userProfile.value.isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(isSupportsOndeviceTranscription: false, timeTookFor10SecTranscription: difference);
-      }else{
-        globalController.prefs?.setBool(AppStrings.isOnDeviceTranscriptionSupported, false);
-        globalController.isDeepInfraTranscription.value = true;
-        globalController.userProfile.value.isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(isSupportsOndeviceTranscription: false, timeTookFor10SecTranscription: difference);
-      }
-      globalController.updateProfile();
-      print('TRANSCRIBED: $result');
+    final result = await responsePort.first;
+    final end = DateTime.now();
+    final difference = end.difference(start).inSeconds;
+    if (difference <= 5.0) {
+      globalController.prefs?.setBool(
+        AppStrings.isOnDeviceTranscriptionSupported,
+        true,
+      );
+      globalController.isDeepInfraTranscription.value = false;
+      globalController
+          .userProfile
+          .value
+          .isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(
+        isSupportsOndeviceTranscription: false,
+        timeTookFor10SecTranscription: difference,
+      );
+    } else {
+      globalController.prefs?.setBool(
+        AppStrings.isOnDeviceTranscriptionSupported,
+        false,
+      );
+      globalController.isDeepInfraTranscription.value = true;
+      globalController
+          .userProfile
+          .value
+          .isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(
+        isSupportsOndeviceTranscription: false,
+        timeTookFor10SecTranscription: difference,
+      );
+    }
+    globalController.updateProfile();
+    print('TRANSCRIBED: $result');
+    await File(zipPath).delete();
 
-      whisperSendPort.send('stop');
+    whisperSendPort.send('stop');
   }
 
   static Future<String> loadAssetToFile(String assetPath) async {
-  final data = await rootBundle.load(assetPath);
-  final bytes = data.buffer.asUint8List();
+    final data = await rootBundle.load(assetPath);
+    final bytes = data.buffer.asUint8List();
 
-  final dir = await getApplicationDocumentsDirectory();
-  final file = File('${dir.path}/${assetPath.split('/').last}');
-  await file.writeAsBytes(bytes, flush: true);
+    final dir = await getApplicationDocumentsDirectory();
+    final file = File('${dir.path}/${assetPath.split('/').last}');
+    await file.writeAsBytes(bytes, flush: true);
 
-  return file.path;
-}
+    return file.path;
+  }
 }

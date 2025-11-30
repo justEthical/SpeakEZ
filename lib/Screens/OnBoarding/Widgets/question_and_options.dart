@@ -18,7 +18,7 @@ class QuestionAndOptions extends StatelessWidget {
 
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).scaffoldBackgroundColor  ,
           borderRadius: BorderRadius.circular(15),
           boxShadow: [
             BoxShadow(

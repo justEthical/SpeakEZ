@@ -28,7 +28,6 @@ class PostHogService {
       config.sessionReplayConfig.maskAllImages = false;
       // Setup PostHog with the given Context and Config
       await _posthog.setup(config);
-      _posthog.identify(userId: FirebaseAuth.instance.currentUser!.uid);
       capture(PostHogEvents.appOpened);
     } catch ( e) {
       debugPrint('Failed to initialize PostHog: ${e.toString()}');
@@ -137,5 +136,9 @@ class PostHogService {
     } catch (e) {
       debugPrint('Failed to enable PostHog: $e');
     }
+  }
+
+  void setUserIdentity(){
+    _posthog.identify(userId: FirebaseAuth.instance.currentUser!.email!);
   }
 }

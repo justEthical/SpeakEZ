@@ -21,7 +21,9 @@ class AppAssets {
   static String get rating => _getFullLottiePath("rating.lottie");
   static String get unlock => _getFullLottiePath("unlock.lottie");
   static String get locked => _getFullLottiePath("locked.lottie");
-  static String get key => _getFullLottiePath("key.lottie");  
+  static String get key => _getFullLottiePath("key.lottie");
+  static String get gemAnimation => _getFullLottiePath("gem.lottie");
+  static String get streak => _getFullLottiePath("streak.lottie");  
 
   static String get placeholder => _getFullImagePath("placeholder.png");
 
@@ -39,6 +41,8 @@ class AppAssets {
   static String get eyeIcon => _getFullImagePath("eye.svg");
   static String get atIcon => _getFullImagePath("at-sign.svg");
   static String get lockIcon => _getFullImagePath("lock.svg");
+  static String get gem => _getFullImagePath("gem.png");
+  static String get fire => _getFullImagePath("fire.png");
 
   // profile
   static String helpCircle = _getFullImagePath('help-circle.svg');

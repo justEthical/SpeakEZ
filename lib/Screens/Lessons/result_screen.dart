@@ -7,19 +7,22 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     final c = Get.find<QuestionOptionsController>();
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
+    globalController.userProfile.value.gems += accuracy.toInt();
+    
+    updateTodayWeekDayStreak(); // update current week day streak
     if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
     }
-    if (c.isUnlockTest){
+    if (c.isUnlockTest) {
       c.updateEnglishLevel();
     }
     final timeTookForQnaInSeconds =
@@ -33,14 +36,16 @@ class ResultScreen extends StatelessWidget {
       body: Stack(
         children: [
           // Confetti background animation
-          (accuracy >= 80  || !c.isUnlockTest)? Lottie.asset(
-            AppAssets.confetti,
-            width: Get.width,
-            height: Get.height,
-            decoder: globalController.customDecoder,
-            repeat: false,
-            fit: BoxFit.cover,
-          ): SizedBox(),
+          (accuracy >= 80 || !c.isUnlockTest)
+              ? Lottie.asset(
+                AppAssets.confetti,
+                width: Get.width,
+                height: Get.height,
+                decoder: globalController.customDecoder,
+                repeat: false,
+                fit: BoxFit.cover,
+              )
+              : SizedBox(),
 
           // Main content
           SafeArea(
@@ -75,7 +80,7 @@ class ResultScreen extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 24),
-                  _buildDoneButton(context  ),
+                  _buildDoneButton(context, accuracy.toInt()),
                   const Spacer(flex: 1),
                 ],
               ),
@@ -99,14 +104,18 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildResultText(QuestionOptionsController c, double accuracy, context) {
+  Widget _buildResultText(
+    QuestionOptionsController c,
+    double accuracy,
+    context,
+  ) {
     return Text(
       c.getResultScreenText(accuracy),
       textAlign: TextAlign.center,
       style: TextStyle(
         fontFamily: AppStrings.nunitoFont,
         color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
-        fontSize: 18,
+        fontSize: 14,
         fontWeight: FontWeight.w600,
       ),
     );
@@ -114,8 +123,8 @@ class ResultScreen extends StatelessWidget {
 
   Widget _buildCenterAnimation(accuracy) {
     final c = Get.find<QuestionOptionsController>();
-    if(c.isUnlockTest){
-      if( accuracy >= 80){
+    if (c.isUnlockTest) {
+      if (accuracy >= 80) {
         return SizedBox(
           width: 180,
           height: 180,
@@ -125,7 +134,7 @@ class ResultScreen extends StatelessWidget {
             repeat: true,
           ),
         );
-      }else{
+      } else {
         return SizedBox(
           width: 180,
           height: 180,
@@ -205,18 +214,26 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildDoneButton(context) {
+  Widget _buildDoneButton(context, int gemsEarned) {
     return ElevatedButton(
       onPressed: () {
-        Get.find<QuestionOptionsController>().isFromRetest = false;
-        Get.offAll(() => const TabBarScreen());
-        final isItTimeToShowCustomReview =
-            globalController.userProfile.value.currentEnglishLevelProgress % 5;
-        if ((isItTimeToShowCustomReview == 2) &&
-            !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
-          Get.to(() => const CustomReviewScreen());
-        }
-        Get.delete<QuestionOptionsController>(force: true);
+        GoogleMobileAdsService.instance.showRewardedInterstitial(
+          onReward: (reward) {
+            Get.find<QuestionOptionsController>().isFromRetest = false;
+            Get.offAll(() => TabBarScreen(gemEarned: gemsEarned,));
+            final isItTimeToShowCustomReview =
+                globalController.userProfile.value.currentEnglishLevelProgress %
+                5;
+            if ((isItTimeToShowCustomReview == 2) &&
+                !globalController
+                    .userProfile
+                    .value
+                    .isShownCustomReviewDialogOnce) {
+              Get.to(() => const CustomReviewScreen());
+            }
+            Get.delete<QuestionOptionsController>(force: true);
+          },
+        );
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Theme.of(context).colorScheme.onSurface,
@@ -228,7 +245,37 @@ class ResultScreen extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      child: Text("Done", style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor)),
+      child: Text(
+        "Done",
+        style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor),
+      ),
     );
+  }
+}
+
+void updateTodayWeekDayStreak(){
+  final now = DateTime.now();
+  switch(now.weekday) {
+    case DateTime.monday:
+      globalController.userProfile.value.weekDaysStreak.monday = true;
+      break;
+    case DateTime.tuesday:
+      globalController.userProfile.value.weekDaysStreak.tuesday = true;
+      break;
+    case DateTime.wednesday:
+      globalController.userProfile.value.weekDaysStreak.wednesday = true;
+      break;
+    case DateTime.thursday:
+      globalController.userProfile.value.weekDaysStreak.thursday = true;
+      break;
+    case DateTime.friday:
+      globalController.userProfile.value.weekDaysStreak.friday = true;
+      break;
+    case DateTime.saturday:
+      globalController.userProfile.value.weekDaysStreak.saturday = true;
+      break;
+    case DateTime.sunday:
+      globalController.userProfile.value.weekDaysStreak.sunday = true;
+      break;
   }
 }

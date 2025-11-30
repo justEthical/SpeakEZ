@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 
@@ -143,6 +144,7 @@ class AuthService {
 
   static Future<void> logout() async {
     try {
+      globalController.userProfile.value = UserProfileModel.fromMap({});
       await _googleSignIn.signOut();
       await _auth.signOut();
     } catch (e) {

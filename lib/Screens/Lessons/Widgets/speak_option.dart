@@ -6,7 +6,6 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
-import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 
 class SpeakOption extends StatefulWidget {
   final Question question;
@@ -18,8 +17,6 @@ class SpeakOption extends StatefulWidget {
 
 class _SpeakOptionState extends State<SpeakOption> {
   final c = Get.find<QuestionOptionsController>();
-
-  final stt = SpeechService();
 
   @override
   void initState() {
