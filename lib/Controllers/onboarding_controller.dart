@@ -192,7 +192,7 @@ class OnboardingController extends GetxController {
       displayName: userData.user!.displayName ?? userName,
       photoUrl: userData.user!.photoURL,
       email: userData.user!.email!,
-      lastActive: DateTime.now(),
+      lastActive: DateTime(2000, 1, 1),
       userType: onboardingQuestionAnswerMap['userType'] ?? '',
       motivation: onboardingQuestionAnswerMap['motivation'] ?? '',
       confidence: onboardingQuestionAnswerMap['confidence'] ?? '',

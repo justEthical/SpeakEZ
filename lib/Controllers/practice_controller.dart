@@ -178,7 +178,7 @@ class PracticeController extends GetxController {
     );
     if (res != null) {
       resultModel = FeedbackResult.fromJson(
-        jsonDecode(globalController.removeTicksJson(res)),
+        jsonDecode(globalController.removeTickMarksJson(res)),
       );
       print(res);
       currentChats.remove(currentChats.last);
