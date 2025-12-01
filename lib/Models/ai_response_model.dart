@@ -34,7 +34,7 @@ class AIResponseModel {
 
   /// Create from a JSON string.
   factory AIResponseModel.fromJson(String source) =>
-      AIResponseModel.fromMap(jsonDecode(globalController.removeTicksJson(source)) as Map<String, dynamic>);
+      AIResponseModel.fromMap(jsonDecode(globalController.removeTickMarksJson(source)) as Map<String, dynamic>);
 
   /// Convert to a Map suitable for jsonEncode.
   Map<String, dynamic> toMap() => {

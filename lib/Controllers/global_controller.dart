@@ -157,7 +157,7 @@ class GlobalController extends GetxController {
     }
   }
 
-  String removeTicksJson(String text) {
+  String removeTickMarksJson(String text) {
     if (text.startsWith('```') && text.endsWith('```')) {
       text = text.replaceAll('json', '');
       text = text.replaceAll('```', '');

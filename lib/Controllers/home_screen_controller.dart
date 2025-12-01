@@ -54,7 +54,12 @@ class HomeScreenController extends GetxController {
 
   void updateWeekDaysStreak() {
     final now = DateTime.now();
-    if(now.weekday == DateTime.monday) {
+    final lastActive = globalController.userProfile.value.lastActive;
+    final isUpdatedWeekDaysOnce = !(lastActive.year == now.year &&
+        lastActive.month == now.month &&
+        lastActive.day == now.day);
+    
+    if(now.weekday == DateTime.monday && isUpdatedWeekDaysOnce) {
       globalController.userProfile.value.weekDaysStreak = WeekDaysStreak.fromMap({});
       globalController.prefs?.setString(
         AppStrings.userProfile,
