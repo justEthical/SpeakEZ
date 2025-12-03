@@ -11,6 +11,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/lessons_exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
@@ -412,6 +413,12 @@ Mistakes are your secret weapon to get better. 💥
       questionPageController.jumpToPage(currentQuestionIndex.value);
       currentSelectedOptionIndex.value = 100;
     } else {
+      GoogleMobileAdsService.instance.showRewardedInterstitial(
+      onReward: (reward) {
+        globalController.userProfile.value.gems += 10;
+        globalController.updateProfile();
+      },
+    );
       Get.offAll(() => ResultScreen());
     }
   }

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/ResultScreen/practice_result_screen.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_bubble.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/chat_screen_bottom_bar.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
@@ -22,7 +24,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
   final c = Get.find<PracticeController>();
-  
+
   @override
   void initState() {
     super.initState();
@@ -46,6 +48,9 @@ class _ChatScreenState extends State<ChatScreen> {
         globalController.startWhisperIsolate();
       }
     });
+    GoogleMobileAdsService.instance.loadRewardedInterstitial(
+      adUnitId: AppStrings.rewardedInterstitialAdUnitId,
+    );
   }
 
   @override
@@ -131,6 +136,15 @@ class _ChatScreenState extends State<ChatScreen> {
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             onPressed: () {
+                              PostHogService.instance.capture(
+                                PostHogEvents.practiceResultViewed,
+                                properties: {
+                                  'scenario_title': widget.scenarioModel.title,
+                                  'messages_count':
+                                      c.currentUserSessionMessage.value,
+                                },
+                              );
+                              
                               Get.off(
                                 PracticeResultSreen(result: c.resultModel!),
                               );

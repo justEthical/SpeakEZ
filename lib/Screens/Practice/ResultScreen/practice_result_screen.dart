@@ -7,6 +7,7 @@ import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Screens/Practice/ResultScreen/detailed_result.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 
 import 'Widgets/result_title.dart';
@@ -23,7 +24,12 @@ class PracticeResultSreen extends StatelessWidget {
     final c = Get.find<PracticeController>();
     final theme = Theme.of(context);
     c.updatePracticeProgress();
-
+    GoogleMobileAdsService.instance.showRewardedInterstitial(
+      onReward: (reward) {
+        globalController.userProfile.value.gems += 10;
+        globalController.updateProfile();
+      },
+    );
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
@@ -31,7 +37,10 @@ class PracticeResultSreen extends StatelessWidget {
 
         actions: [
           IconButton(
-            icon: Icon(Icons.share_outlined, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6)),
+            icon: Icon(
+              Icons.share_outlined,
+              color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+            ),
             onPressed: () async {
               CustomLoader.showLoader();
               await c.captureAndShare(globalKey);
@@ -125,7 +134,9 @@ class PracticeResultSreen extends StatelessWidget {
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary.withOpacity(0.05),
         borderRadius: BorderRadius.circular(15),
-        border: Border.all(color: Theme.of(context).colorScheme.primary.withOpacity(0.1)),
+        border: Border.all(
+          color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+        ),
       ),
       child: Text(
         result.motivation,
@@ -192,7 +203,10 @@ class PracticeResultSreen extends StatelessWidget {
             decoration: BoxDecoration(
               color: Theme.of(context).scaffoldBackgroundColor,
               borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: Theme.of(context).colorScheme.onSurface , width: 1),
+              border: Border.all(
+                color: Theme.of(context).colorScheme.onSurface,
+                width: 1,
+              ),
             ),
 
             padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
