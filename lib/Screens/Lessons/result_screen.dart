@@ -7,7 +7,6 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
-import 'package:speak_ez/Services/admob_service.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
@@ -17,7 +16,7 @@ class ResultScreen extends StatelessWidget {
     final accuracy =
         (c.correctAnswer.value / c.currentQuestionList.length) * 100;
     globalController.userProfile.value.gems += accuracy.toInt();
-    
+
     updateTodayWeekDayStreak(); // update current week day streak
     if (!c.isFromRetest || !c.isUnlockTest) {
       c.updateLesssonProgress();
@@ -217,23 +216,15 @@ class ResultScreen extends StatelessWidget {
   Widget _buildDoneButton(context, int gemsEarned) {
     return ElevatedButton(
       onPressed: () {
-        GoogleMobileAdsService.instance.showRewardedInterstitial(
-          onReward: (reward) {
-            Get.find<QuestionOptionsController>().isFromRetest = false;
-            Get.offAll(() => TabBarScreen(gemEarned: gemsEarned,));
-            final isItTimeToShowCustomReview =
-                globalController.userProfile.value.currentEnglishLevelProgress %
-                5;
-            if ((isItTimeToShowCustomReview == 2) &&
-                !globalController
-                    .userProfile
-                    .value
-                    .isShownCustomReviewDialogOnce) {
-              Get.to(() => const CustomReviewScreen());
-            }
-            Get.delete<QuestionOptionsController>(force: true);
-          },
-        );
+        Get.find<QuestionOptionsController>().isFromRetest = false;
+        Get.offAll(() => TabBarScreen(gemEarned: gemsEarned));
+        final isItTimeToShowCustomReview =
+            globalController.userProfile.value.currentEnglishLevelProgress % 5;
+        if ((isItTimeToShowCustomReview == 2) &&
+            !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
+          Get.to(() => const CustomReviewScreen());
+        }
+        Get.delete<QuestionOptionsController>(force: true);
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Theme.of(context).colorScheme.onSurface,
@@ -253,9 +244,9 @@ class ResultScreen extends StatelessWidget {
   }
 }
 
-void updateTodayWeekDayStreak(){
+void updateTodayWeekDayStreak() {
   final now = DateTime.now();
-  switch(now.weekday) {
+  switch (now.weekday) {
     case DateTime.monday:
       globalController.userProfile.value.weekDaysStreak.monday = true;
       break;

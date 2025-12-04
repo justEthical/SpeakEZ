@@ -16,7 +16,7 @@ import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
-import 'package:speak_ez/Screens/Practice/chat_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -325,6 +325,20 @@ class PracticeController extends GetxController {
     globalController.updateProfile();
   }
 
+  void showRewardedInterstitialAd() {
+    if(globalController.userProfile.value.registrationTime
+              .difference(DateTime.now())
+              .inDays >
+          2) {
+            GoogleMobileAdsService.instance.showRewardedInterstitial(
+      onReward: (reward) {
+        globalController.userProfile.value.gems += 10;
+        globalController.updateProfile();
+      },
+    );
+          }
+  }
+
   void addLastMessage() {
     currentChats.add(
       ChatModel(
@@ -376,10 +390,11 @@ class PracticeController extends GetxController {
     );
   }
 
-  void getMicrophonePermission(ScenarioModel scenarioModel) async {
+  Future<bool> getMicrophonePermission(ScenarioModel scenarioModel) async {
     final status = await Permission.microphone.status;
     if (status.isGranted) {
-      Get.to(ChatScreen(scenarioModel: scenarioModel));
+      
+      return true;
     } else if (status.isPermanentlyDenied) {
       Get.defaultDialog(
         titleStyle: const TextStyle(fontSize: 0),
@@ -391,9 +406,11 @@ class PracticeController extends GetxController {
     } else {
       final status = await Permission.microphone.request();
       if (status.isGranted) {
-        Get.to(ChatScreen(scenarioModel: scenarioModel));
+        
+        return true;
       }
     }
+    return false;
   }
 
   String formatDuration(int totalSeconds) {

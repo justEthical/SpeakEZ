@@ -159,8 +159,8 @@ class _DayStreakTile extends StatelessWidget {
 
               const Spacer(),
 
-              completed
-                  ? SizedBox(
+              completed 
+                  ? SizedBox( 
                     width: 25,
                     height: 25,
                     child: Image.asset(AppAssets.fire),
