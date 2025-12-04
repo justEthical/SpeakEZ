@@ -3,14 +3,12 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 
 class ScenarioCard extends StatelessWidget {
   final ScenarioModel scenarioModel;
 
-  const ScenarioCard({
-    super.key,
-    required this.scenarioModel,
-  });
+  const ScenarioCard({super.key, required this.scenarioModel});
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +62,9 @@ class ScenarioCard extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 14,
                         fontFamily: AppStrings.nunitoFont,
-                        color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.onSurface.withOpacity(0.6),
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -75,7 +75,21 @@ class ScenarioCard extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           ElevatedButton(
-            onPressed: () => c.getMicrophonePermission(scenarioModel),
+            onPressed: () async{
+              final status = await c.getMicrophonePermission(scenarioModel);
+              if(status){
+                showDialog(
+                context: context,
+                builder: (ctx) {
+                  return CustomDialogs.startPracticeDialog(
+                    context,
+                    scenarioModel,
+
+                  );
+                },
+              );
+              }
+            },
             style: ElevatedButton.styleFrom(
               backgroundColor: Theme.of(context).colorScheme.primary,
               foregroundColor: Theme.of(context).colorScheme.onPrimary,

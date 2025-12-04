@@ -42,7 +42,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
     });
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       if (widget.gemEarned != null) {
-        Get.to(StreakScreen(gems: 100));
+        Get.to(StreakScreen(gems: widget.gemEarned));
       }
     });
   }

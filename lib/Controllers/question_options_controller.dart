@@ -11,6 +11,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/lessons_exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
@@ -202,12 +203,11 @@ class QuestionOptionsController extends GetxController {
     } else {
       globalController.userProfile.value.currentEnglishLevelProgress++;
 
-      // Only update word count for regular lessons that have intro and is not from retest 
+      // Only update word count for regular lessons that have intro and is not from retest
       if (currentLessonModel.lessonIntro != null && !isFromRetest) {
         globalController.userProfile.value.wordLearned +=
             currentLessonModel.lessonIntro!.vocabulary.length;
       }
-      
     }
 
     updateStreak();
@@ -371,21 +371,20 @@ Mistakes are your secret weapon to get better. 💥
   }
 
   bool comparing2Lists(List<String> list1, List<dynamic> list2) {
-  // If lengths don't match, they can’t be equal
-  if (list1.length != list2.length) {
-    return false;
-  }
-
-  // Compare each element one by one
-  for (int i = 0; i < list1.length; i++) {
-    if (list1[i].toLowerCase() != list2[i].toString().toLowerCase()) {
-      return false; // mismatch found
+    // If lengths don't match, they can’t be equal
+    if (list1.length != list2.length) {
+      return false;
     }
+
+    // Compare each element one by one
+    for (int i = 0; i < list1.length; i++) {
+      if (list1[i].toLowerCase() != list2[i].toString().toLowerCase()) {
+        return false; // mismatch found
+      }
+    }
+
+    return true; // all matched
   }
-
-  return true; // all matched
-}
-
 
   void buildQnaList(Lesson lesson) {
     final tmpArray = [];
@@ -412,7 +411,22 @@ Mistakes are your secret weapon to get better. 💥
       questionPageController.jumpToPage(currentQuestionIndex.value);
       currentSelectedOptionIndex.value = 100;
     } else {
+      showRewardedInterstitialAd();
       Get.offAll(() => ResultScreen());
+    }
+  }
+
+  void showRewardedInterstitialAd() {
+    if (globalController.userProfile.value.registrationTime
+            .difference(DateTime.now())
+            .inDays >
+        2) {
+      GoogleMobileAdsService.instance.showRewardedInterstitial(
+        onReward: (reward) {
+          globalController.userProfile.value.gems += 10;
+          globalController.updateProfile();
+        },
+      );
     }
   }
 
