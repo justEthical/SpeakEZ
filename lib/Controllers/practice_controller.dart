@@ -16,7 +16,7 @@ import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
-import 'package:speak_ez/Screens/Practice/chat_screen.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -323,6 +323,20 @@ class PracticeController extends GetxController {
     globalController.userProfile.value.lastActive = DateTime.now();
 
     globalController.updateProfile();
+  }
+
+  void showRewardedInterstitialAd() {
+    if(globalController.userProfile.value.registrationTime
+              .difference(DateTime.now())
+              .inDays >
+          2) {
+            GoogleMobileAdsService.instance.showRewardedInterstitial(
+      onReward: (reward) {
+        globalController.userProfile.value.gems += 10;
+        globalController.updateProfile();
+      },
+    );
+          }
   }
 
   void addLastMessage() {

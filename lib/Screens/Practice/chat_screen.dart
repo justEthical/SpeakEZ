@@ -51,6 +51,8 @@ class _ChatScreenState extends State<ChatScreen> {
     GoogleMobileAdsService.instance.loadRewardedInterstitial(
       adUnitId: AppStrings.rewardedInterstitialAdUnitId,
     );
+    globalController.userProfile.value.gems -= 100;
+    globalController.updateProfile();
   }
 
   @override

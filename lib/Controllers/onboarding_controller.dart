@@ -204,7 +204,8 @@ class OnboardingController extends GetxController {
       notificationToken: notificationToken ?? '',
       isShownCustomReviewDialogOnce: false,
       gems: 500,
-      weekDaysStreak: WeekDaysStreak.fromMap({})
+      weekDaysStreak: WeekDaysStreak.fromMap({}),
+      registrationTime: DateTime.now(),
     );
     globalController.userProfile.value = userProfile;
     globalController.prefs?.setString(

@@ -21,6 +21,7 @@ class UserProfileModel {
   DateTime? unlockTestLastTime;
   int gems;
   WeekDaysStreak weekDaysStreak;
+  DateTime registrationTime;
 
   UserProfileModel({
     required this.uid,
@@ -43,6 +44,7 @@ class UserProfileModel {
     this.unlockTestLastTime,
     this.isSupportsOndeviceTranscription,
     required this.weekDaysStreak,
+    required this.registrationTime,
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -75,6 +77,9 @@ class UserProfileModel {
           OnDeviceTranscriptionDetails.fromMap(map['isSupportsOndeviceTranscription']) : null,
           gems: map['gems'] ?? 0,
       weekDaysStreak: map['weekDaysStreak'] != null ? WeekDaysStreak.fromMap(map['weekDaysStreak']) : WeekDaysStreak.fromMap({}),
+      registrationTime: DateTime.fromMillisecondsSinceEpoch(
+        map['registrationTime'] ?? 174998967000,
+      ),
     );
   }
 
@@ -101,6 +106,7 @@ class UserProfileModel {
       'isSupportsOndeviceTranscription': isSupportsOndeviceTranscription?.toMap(),
       'gems': gems,
       'weekDaysStreak': weekDaysStreak.toMap(),
+      'registrationTime': registrationTime.millisecondsSinceEpoch
     };
   }
 }

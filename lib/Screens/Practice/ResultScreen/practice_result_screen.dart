@@ -7,7 +7,6 @@ import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/evaluation_result.dart';
 import 'package:speak_ez/Screens/Practice/ResultScreen/detailed_result.dart';
 import 'package:speak_ez/Screens/custom_review_screen.dart';
-import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 
 import 'Widgets/result_title.dart';
@@ -24,12 +23,8 @@ class PracticeResultSreen extends StatelessWidget {
     final c = Get.find<PracticeController>();
     final theme = Theme.of(context);
     c.updatePracticeProgress();
-    GoogleMobileAdsService.instance.showRewardedInterstitial(
-      onReward: (reward) {
-        globalController.userProfile.value.gems += 10;
-        globalController.updateProfile();
-      },
-    );
+    c.showRewardedInterstitialAd();
+    
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
