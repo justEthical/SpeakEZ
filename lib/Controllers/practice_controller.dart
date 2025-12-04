@@ -376,10 +376,11 @@ class PracticeController extends GetxController {
     );
   }
 
-  void getMicrophonePermission(ScenarioModel scenarioModel) async {
+  Future<bool> getMicrophonePermission(ScenarioModel scenarioModel) async {
     final status = await Permission.microphone.status;
     if (status.isGranted) {
-      Get.to(ChatScreen(scenarioModel: scenarioModel));
+      
+      return true;
     } else if (status.isPermanentlyDenied) {
       Get.defaultDialog(
         titleStyle: const TextStyle(fontSize: 0),
@@ -391,9 +392,11 @@ class PracticeController extends GetxController {
     } else {
       final status = await Permission.microphone.request();
       if (status.isGranted) {
-        Get.to(ChatScreen(scenarioModel: scenarioModel));
+        
+        return true;
       }
     }
+    return false;
   }
 
   String formatDuration(int totalSeconds) {

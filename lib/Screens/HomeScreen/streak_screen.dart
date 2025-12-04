@@ -68,7 +68,6 @@ class StreakScreen extends StatelessWidget {
                   date: AppData.getCurrentWeekDates()[i],
                   completed: profile.weekDaysStreak.toMap().values.toList()[i],
                   isFuture: now.day < AppData.getCurrentWeekDates()[i].day,
-                  isToday: now.day == AppData.getCurrentWeekDates()[i].day,
                   label: AppData.weekDaysName[i],
                 ),
               ),
@@ -125,11 +124,9 @@ class _DayStreakTile extends StatelessWidget {
   final bool completed;
   final bool isFuture;
   final String label;
-  final bool isToday;
 
   const _DayStreakTile({
     required this.date,
-    required this.isToday,
     required this.completed,
     required this.isFuture,
     required this.label,
@@ -162,7 +159,7 @@ class _DayStreakTile extends StatelessWidget {
 
               const Spacer(),
 
-              completed || isToday
+              completed 
                   ? SizedBox( 
                     width: 25,
                     height: 25,

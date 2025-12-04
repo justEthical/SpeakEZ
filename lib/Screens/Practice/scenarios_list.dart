@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/scenario_card.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 class ScenariosList extends StatelessWidget {
@@ -15,7 +17,9 @@ class ScenariosList extends StatelessWidget {
         AppData.scenarios
             .where((scenario) => scenario.category == scenarioModel.title)
             .toList();
-
+    GoogleMobileAdsService.instance.loadRewarded(
+      adUnitId: AppStrings.rewardedAdUnitId,
+    );
     return Scaffold(
       body: CustomScrollView(
         slivers: [
@@ -52,27 +56,33 @@ class ScenariosList extends StatelessWidget {
                 child: SafeArea(
                   child: Column(
                     children: [
-                      Row(children: [Spacer(), InkWell(
-                        onTap: () {
-                          PostHogService.instance.captureClick(
-                            'practice_scenario_close',
-                            elementType: 'button',
-                            screenName: 'practice_scenario_screen',
-                          );
-                          Get.back();
-                        },
-                        child: Container(
-                          padding: const EdgeInsets.all(5),
-                          decoration: BoxDecoration(
-                            color: Theme.of(context).colorScheme.onPrimary,
-                            shape: BoxShape.circle,
+                      Row(
+                        children: [
+                          Spacer(),
+                          InkWell(
+                            onTap: () {
+                              PostHogService.instance.captureClick(
+                                'practice_scenario_close',
+                                elementType: 'button',
+                                screenName: 'practice_scenario_screen',
+                              );
+                              Get.back();
+                            },
+                            child: Container(
+                              padding: const EdgeInsets.all(5),
+                              decoration: BoxDecoration(
+                                color: Theme.of(context).colorScheme.onPrimary,
+                                shape: BoxShape.circle,
+                              ),
+                              child: Icon(
+                                Icons.close,
+                                size: 20,
+                                color: Colors.blue,
+                              ),
+                            ),
                           ),
-                          child: Icon(
-                            Icons.close,
-                            size: 20,
-                            color: Colors.blue,
-                          ),
-                  ))]),
+                        ],
+                      ),
                       Row(
                         children: [
                           Hero(
@@ -90,7 +100,7 @@ class ScenariosList extends StatelessWidget {
                           ),
                           SizedBox(width: 10),
                           SizedBox(
-                            width: Get.width - 114 ,
+                            width: Get.width - 114,
                             child: Text(
                               scenarioModel.title,
                               style: TextStyle(

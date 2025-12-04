@@ -88,7 +88,7 @@ class OnboardingController extends GetxController {
       );
       currentOnboardingQuestionIndex.value = 0;
       onboardingQuestionAnswerMap.clear();
-
+      globalController.currentTabIndex.value = 0;
       Get.offAll(() => const TabBarScreen());
     }
   }
@@ -118,6 +118,7 @@ class OnboardingController extends GetxController {
             AppStrings.userAuthState,
             "loggedIn",
           );
+          globalController.currentTabIndex.value = 0;
           Get.offAll(() => TabBarScreen());
         }
       }
@@ -134,6 +135,7 @@ class OnboardingController extends GetxController {
     final userData = await AuthService.signUpWithEmail(email, password);
     if (userData?.user != null) {
       saveUserProfile(userData!, userName: userName);
+      globalController.currentTabIndex.value = 0;
       Get.offAll(() => OnboarindQuestions());
     }
     CustomLoader.hideLoader();
@@ -168,6 +170,7 @@ class OnboardingController extends GetxController {
               AppStrings.userAuthState,
               "loggedIn",
             );
+            globalController.currentTabIndex.value = 0;
             Get.offAll(() => TabBarScreen());
           }
         }
