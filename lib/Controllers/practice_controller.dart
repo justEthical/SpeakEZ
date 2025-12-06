@@ -77,7 +77,7 @@ class PracticeController extends GetxController {
 
   void stopNormalRecording() {
     _removeRecordingChat();
-    recorder?.stopRecording().then((value) {      
+    recorder?.stopRecording().then((value) {
       addChatCellTranscriptionData();
     });
   }
@@ -325,18 +325,14 @@ class PracticeController extends GetxController {
     globalController.updateProfile();
   }
 
-  void showRewardedInterstitialAd() {
-    if(globalController.userProfile.value.registrationTime
-              .difference(DateTime.now())
-              .inDays >
-          2) {
-            GoogleMobileAdsService.instance.showRewardedInterstitial(
-      onReward: (reward) {
-        globalController.userProfile.value.gems += 10;
-        globalController.updateProfile();
-      },
-    );
-          }
+  void showInterstitialAd() {
+    final difference =
+        DateTime.now()
+            .difference(globalController.userProfile.value.registrationTime)
+            .inDays;
+    if (difference > 2) {
+      GoogleMobileAdsService.instance.showInterstitial();
+    }
   }
 
   void addLastMessage() {
@@ -393,7 +389,6 @@ class PracticeController extends GetxController {
   Future<bool> getMicrophonePermission(ScenarioModel scenarioModel) async {
     final status = await Permission.microphone.status;
     if (status.isGranted) {
-      
       return true;
     } else if (status.isPermanentlyDenied) {
       Get.defaultDialog(
@@ -406,7 +401,6 @@ class PracticeController extends GetxController {
     } else {
       final status = await Permission.microphone.request();
       if (status.isGranted) {
-        
         return true;
       }
     }

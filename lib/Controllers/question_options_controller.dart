@@ -411,22 +411,18 @@ Mistakes are your secret weapon to get better. 💥
       questionPageController.jumpToPage(currentQuestionIndex.value);
       currentSelectedOptionIndex.value = 100;
     } else {
-      showRewardedInterstitialAd();
+      showInterstitialAd();
       Get.offAll(() => ResultScreen());
     }
   }
 
-  void showRewardedInterstitialAd() {
-    if (globalController.userProfile.value.registrationTime
-            .difference(DateTime.now())
-            .inDays >
+  void showInterstitialAd() {
+    final difference = DateTime.now()
+            .difference(globalController.userProfile.value.registrationTime)
+            .inDays;
+    if (difference >
         2) {
-      GoogleMobileAdsService.instance.showRewardedInterstitial(
-        onReward: (reward) {
-          globalController.userProfile.value.gems += 10;
-          globalController.updateProfile();
-        },
-      );
+      GoogleMobileAdsService.instance.showInterstitial();
     }
   }
 
