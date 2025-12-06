@@ -42,10 +42,24 @@ class PracticeController extends GetxController {
   late StreamSubscription<bool> sub;
 
   ScenarioModel? currentScenarioModel;
-  var isSpeaking = false.obs;
+  set isSpeaking(bool value) {
+    if (globalController.isDeepInfraTranscription.value) {
+      isMicEnabled.value = !value;
+    } else {
+      isMicEnabled.value =
+          (!value && globalController.isWhisperInitialized.value);
+    }
+  }
+
+  set isAudioProcessing(bool value) {
+    isMicEnabled.value = !value;
+  }
+
   var currentConversationSummary = "";
   List<AIResponseModel> aiResponseList = [];
   var isChatResultReady = false.obs;
+
+  var isMicEnabled = false.obs;
 
   void startRecording() {
     recorder = AudioChunkRecorder();
@@ -77,6 +91,7 @@ class PracticeController extends GetxController {
 
   void stopNormalRecording() {
     _removeRecordingChat();
+    isAudioProcessing = true;
     recorder?.stopRecording().then((value) {
       addChatCellTranscriptionData();
     });
@@ -110,7 +125,7 @@ class PracticeController extends GetxController {
     );
   }
 
-  void addChatCellTranscriptionData() {
+  Future<void> addChatCellTranscriptionData() async {
     _timer?.cancel();
     isRecordingInProgress.value = false;
 
@@ -122,7 +137,7 @@ class PracticeController extends GetxController {
       globalController.transcriptionText.value = removeBracketedWords(
         globalController.transcriptionText.value,
       );
-      getAiResponse();
+      await getAiResponse();
       _scrollToBottom();
       remainingSeconds.value = 30;
     } else {
@@ -262,7 +277,7 @@ class PracticeController extends GetxController {
             chatType: ChatType.gettingAIResponse,
           ),
         );
-        getConversationAiFeedbackResult();
+        await getConversationAiFeedbackResult();
       } else {
         currentChats.add(
           ChatModel(
@@ -276,12 +291,14 @@ class PracticeController extends GetxController {
       }
 
       _scrollToBottom();
-      isSpeaking.value = true;
+      isSpeaking = true;
       if (!isLastMessage) {
         await ttsHelper.speakAndWait(aiResponse.nextAiMessage.trim());
       }
-      isSpeaking.value = false;
+      isSpeaking = false; // just to disable mic button while transcribing
     }
+
+    isAudioProcessing = false;
   }
 
   void addInitialMessage() {
@@ -297,9 +314,9 @@ class PracticeController extends GetxController {
     );
     _scrollToBottom();
     Future.delayed(const Duration(seconds: 0), () async {
-      isSpeaking.value = true;
+      isSpeaking = true;
       await ttsHelper.speakAndWait(currentScenarioModel!.intro);
-      isSpeaking.value = false;
+      isSpeaking = false;
     });
   }
 
@@ -347,9 +364,9 @@ class PracticeController extends GetxController {
     );
     _scrollToBottom();
     Future.delayed(const Duration(seconds: 0), () async {
-      isSpeaking.value = true;
+      isSpeaking = true;
       await ttsHelper.speakAndWait(AppStrings.outroMessage);
-      isSpeaking.value = false;
+      isSpeaking = false;
     });
   }
 
@@ -357,7 +374,7 @@ class PracticeController extends GetxController {
     recorder?.stop();
     _timer?.cancel();
     isRecordingInProgress.value = false;
-    isSpeaking.value = true; // just to disable mic button while transcribing
+    isSpeaking = true; // just to disable mic button while transcribing
     currentChats.remove(currentChats.last);
     globalController.transcriptionText.value = "";
     remainingSeconds.value = 30;
