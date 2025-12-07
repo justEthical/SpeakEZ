@@ -254,8 +254,7 @@ class QuestionOptionsController extends GetxController {
     });
   }
 
-
-Future<bool> getMicrophonePermission() async {
+  Future<bool> getMicrophonePermission() async {
     final status = await Permission.microphone.status;
     if (status.isGranted) {
       return true;
@@ -275,7 +274,7 @@ Future<bool> getMicrophonePermission() async {
     }
     return false;
   }
-  
+
   void googleSpeechToText() {
     isListeningLessonAnswer.value = true;
     stt.startListening(
@@ -303,10 +302,12 @@ Future<bool> getMicrophonePermission() async {
     );
   }
 
-  void stopRecording() {
+  void stopRecording() async {
     _timer?.cancel();
-    recorder.stop(isFromLesson: true);
     isAudioProcessing.value = true;
+    await recorder.stop(isFromLesson: true);
+    // BELOW COMMENTED CODE IS FOR WHISPER TRANSCRIPTION
+    /*
     sub = globalController.isLastChunkTranscribed.listen((val) {
       if (val) {
         print(globalController.transcriptionText.value);
@@ -327,7 +328,9 @@ Future<bool> getMicrophonePermission() async {
         remainingSeconds.value = 10;
         sub.cancel();
       }
-    });
+    }); */
+    isAudioProcessing.value =
+        false; // this code can be removed on implementation of whisper transcription
     stt.cancelListening();
   }
 
@@ -441,11 +444,11 @@ Mistakes are your secret weapon to get better. 💥
   }
 
   void showInterstitialAd() {
-    final difference = DateTime.now()
+    final difference =
+        DateTime.now()
             .difference(globalController.userProfile.value.registrationTime)
             .inDays;
-    if (difference >
-        2) {
+    if (difference > 2) {
       GoogleMobileAdsService.instance.showInterstitial();
     }
   }
