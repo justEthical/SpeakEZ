@@ -58,13 +58,16 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
     });
   }
 
-  void _navigateToQuestions() {
-    if (c.lessonModel!.lessonType == LessonType.unlockTest) {
-      // unlock lesson test flow
-      Get.off(QnaScreen(lesson: c.lessonModel!));
-    } else {
-      // Regular lesson flow
-      Get.off(VocalbularyScreen(lesson: c.lessonModel!));
+  void _navigateToQuestions() async {
+    final status = await c.getMicrophonePermission();
+    if (status) {
+      if (c.lessonModel!.lessonType == LessonType.unlockTest) {
+        // unlock lesson test flow
+        Get.off(QnaScreen(lesson: c.lessonModel!));
+      } else {
+        // Regular lesson flow
+        Get.off(VocalbularyScreen(lesson: c.lessonModel!));
+      }
     }
   }
 

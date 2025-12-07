@@ -118,18 +118,25 @@ class _SpeakOptionState extends State<SpeakOption> {
                   ),
                   child: IconButton(
                     onPressed: () async {
-                      final micPermission =
-                          await Permission.microphone.request();
-                      if (micPermission.isGranted) {
+                      final status = await Permission.microphone.status;
+
+                      if (status.isPermanentlyDenied) {
+                        await Permission.microphone.request();
+                      }
+                      if (status.isGranted) {
                         // if(globalController.isWhisperInitialized.value){
-                          // c.startRecording();
+                        // c.startRecording();
                         // }else{
-                          // used when whisper model is not initialized or not present
-                          c.googleSpeechToText();
+                        // used when whisper model is not initialized or not present
+                        c.googleSpeechToText();
                         // }
                       }
                     },
-                    icon: Icon(Icons.mic, color: Theme.of(context).colorScheme.onPrimary, size: 40),
+                    icon: Icon(
+                      Icons.mic,
+                      color: Theme.of(context).colorScheme.onPrimary,
+                      size: 40,
+                    ),
                   ),
                 ),
       ),
