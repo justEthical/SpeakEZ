@@ -351,6 +351,7 @@ class CustomDialogs {
                         onReward: (reward) {
                           if (reward.amount == 10) {
                             globalController.userProfile.value.gems += 100;
+                            globalController.userProfile.refresh();
                             globalController.updateProfile();
                           }
                         },

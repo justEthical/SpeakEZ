@@ -140,7 +140,11 @@
           "Hindi": "आप अपने पैरों में क्या पहनते हैं?",
           "Japanese": "足に何を履きますか？"
         },
-        "options": ["shirt", "pants", "shoes"],
+        "options": [
+          "shirt",
+          "pants",
+          "shoes"
+        ],
         "answer": 2
       },
       {
@@ -151,20 +155,28 @@
           "Hindi": "कौन सा शब्द उस वस्तु का अर्थ है जिसमें आप चीजें रखते हैं?",
           "Japanese": "物を入れて運ぶものはどれですか？"
         },
-        "options": ["bag", "hat", "shoes"],
+        "options": [
+          "bag",
+          "hat",
+          "shoes"
+        ],
         "answer": 0
       },
       {
-    "id": "vocab3",
-    "type": "fillInTheBlanks",
-    "question": "She is wearing a red ___ on her head.",
-    "question_translation": {
-      "Hindi": "वह अपने सिर पर लाल ___ पहन रही है।",
-      "Japanese": "彼女は頭に赤い___をかぶっています。"
-    },
-    "options": ["shirt", "hat", "bag"],
-    "answer": 1
-  },
+        "id": "vocab3",
+        "type": "fillInTheBlanks",
+        "question": "She is wearing a red ___ on her head.",
+        "question_translation": {
+          "Hindi": "वह अपने सिर पर लाल ___ पहन रही है।",
+          "Japanese": "彼女は頭に赤い___をかぶっています。"
+        },
+        "options": [
+          "shirt",
+          "hat",
+          "bag"
+        ],
+        "answer": 1
+      },
       {
         "id": "vocab4",
         "type": "trueFalse",
@@ -173,7 +185,10 @@
           "Hindi": "पतलून पैरों पर पहनी जाती है।",
           "Japanese": "ズボンは足に履きます。"
         },
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": 0
       },
       {
@@ -184,7 +199,11 @@
           "Hindi": "आप अपने ऊपरी शरीर पर क्या पहनते हैं?",
           "Japanese": "上半身に何を着ますか？"
         },
-        "options": ["shirt", "pants", "shoes"],
+        "options": [
+          "shirt",
+          "pants",
+          "shoes"
+        ],
         "answer": 0
       }
     ],
@@ -197,23 +216,28 @@
           "Hindi": "मैं नीली ___ पहन रहा हूँ।",
           "Japanese": "私は青い___を着ています。"
         },
-        "options": ["shirt", "pants", "bag"],
+        "options": [
+          "shirt",
+          "pants",
+          "bag"
+        ],
         "answer": 0
       },
       {
-  "sent2": {
-    "id": "sent2",
-    "type": "fillInTheBlanks",
-    "question": "He bought black ___ for his feet.",
-    "question_translation": {
-      "Hindi": "उसने अपने पैरों के लिए काले ___ खरीदे।",
-      "Japanese": "彼は足のために黒い___を買いました。"
-    },
-    "options": ["pants", "shoes", "hat"],
-    "answer": 1
-  }
-}
-,
+        "id": "sent2",
+        "type": "fillInTheBlanks",
+        "question": "He bought black ___ for his feet.",
+        "question_translation": {
+          "Hindi": "उसने अपने पैरों के लिए काले ___ खरीदे।",
+          "Japanese": "彼は足のために黒い___を買いました。"
+        },
+        "options": [
+          "pants",
+          "shoes",
+          "hat"
+        ],
+        "answer": 1
+      },
       {
         "id": "sent3",
         "type": "sentenceRearranging",
@@ -222,8 +246,20 @@
           "Hindi": "क्रम में लगाएं: [is, She, hat, wearing, a]",
           "Japanese": "並べ替え: [is, She, hat, wearing, a]"
         },
-        "options": ["is", "She", "hat", "wearing", "a"],
-        "answer": ["She", "is", "wearing", "a", "hat"]
+        "options": [
+          "is",
+          "She",
+          "hat",
+          "wearing",
+          "a"
+        ],
+        "answer": [
+          "She",
+          "is",
+          "wearing",
+          "a",
+          "hat"
+        ]
       },
       {
         "id": "sent4",
@@ -233,8 +269,18 @@
           "Hindi": "क्रम में लगाएं: [bag, my, This, is]",
           "Japanese": "並べ替え: [bag, my, This, is]"
         },
-        "options": ["bag", "my", "This", "is"],
-        "answer": ["This", "is", "my", "bag"]
+        "options": [
+          "bag",
+          "my",
+          "This",
+          "is"
+        ],
+        "answer": [
+          "This",
+          "is",
+          "my",
+          "bag"
+        ]
       },
       {
         "id": "sent5",
@@ -244,7 +290,11 @@
           "Hindi": "मेरे ___ सफेद हैं।",
           "Japanese": "私の___は白です。"
         },
-        "options": ["shoes", "pants", "hat"],
+        "options": [
+          "shoes",
+          "pants",
+          "hat"
+        ],
         "answer": 0
       }
     ],
@@ -258,7 +308,11 @@
           "Hindi": "वक्ता ने क्या कहा?",
           "Japanese": "話者は何と言いましたか？"
         },
-        "options": ["I am wearing a shirt.", "I am wearing pants.", "I am wearing a hat."],
+        "options": [
+          "I am wearing a shirt.",
+          "I am wearing pants.",
+          "I am wearing a hat."
+        ],
         "answer": 0
       },
       {
@@ -270,7 +324,11 @@
           "Hindi": "जूते किस रंग के हैं?",
           "Japanese": "靴は何色ですか？"
         },
-        "options": ["Black", "White", "Blue"],
+        "options": [
+          "Black",
+          "White",
+          "Blue"
+        ],
         "answer": 1
       },
       {
@@ -282,7 +340,11 @@
           "Hindi": "व्यक्ति क्या ले जा रहा है?",
           "Japanese": "その人は何を持っていますか？"
         },
-        "options": ["Shoes", "Hat", "Bag"],
+        "options": [
+          "Shoes",
+          "Hat",
+          "Bag"
+        ],
         "answer": 2
       },
       {
@@ -294,7 +356,11 @@
           "Hindi": "उसके सिर पर क्या है?",
           "Japanese": "彼女の頭には何がありますか？"
         },
-        "options": ["Shoes", "Hat", "Shirt"],
+        "options": [
+          "Shoes",
+          "Hat",
+          "Shirt"
+        ],
         "answer": 1
       },
       {
@@ -306,7 +372,11 @@
           "Hindi": "उसने क्या खरीदा?",
           "Japanese": "彼は何を買いましたか？"
         },
-        "options": ["Pants", "Shirt", "Bag"],
+        "options": [
+          "Pants",
+          "Shirt",
+          "Bag"
+        ],
         "answer": 0
       }
     ],

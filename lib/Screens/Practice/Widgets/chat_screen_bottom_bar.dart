@@ -29,7 +29,7 @@ class ChatScreenBottomBar extends StatelessWidget {
                       icon: Icon(Icons.close),
                       color: Theme.of(
                         context,
-                      ).colorScheme.onSurface.withValues( alpha: 0.6),
+                      ).colorScheme.onSurface.withValues(alpha: 0.6),
                     )
                     : SizedBox(),
           ),
@@ -43,16 +43,16 @@ class ChatScreenBottomBar extends StatelessWidget {
                       child: AnimatedDoughnut(),
                     )
                     : Opacity(
-                      opacity: _shouldEnableMic() ? 1.0 : 0.4,  
+                      opacity: c.isMicEnabled.value ? 1.0 : 0.4,
                       child: InkWell(
                         onTap: () {
-                          if (_shouldEnableMic()) {
+                          if (c.isMicEnabled.value) {
                             c.startRecording();
                           }
                         },
                         child: Lottie.asset(
                           AppAssets.mic,
-                          animate: _shouldEnableLottieAnimation(),
+                          animate: c.isMicEnabled.value,
                           width: 100,
                           height: 100,
                           decoder: globalController.customDecoder,
@@ -90,26 +90,4 @@ class ChatScreenBottomBar extends StatelessWidget {
       ),
     );
   }
-
-  bool _shouldEnableLottieAnimation() {
-    final c = Get.find<PracticeController>();
-    if (globalController.isDeepInfraTranscription.value) {
-      return !c.isSpeaking.value;
-    } else {
-      return !(c.isSpeaking.value ||
-          !globalController.isWhisperInitialized.value);
-    }
-  }
-
-
-
-  bool _shouldEnableMic() {
-    final c = Get.find<PracticeController>();
-    if (globalController.isDeepInfraTranscription.value) {
-      return !c.isSpeaking.value;
-    } else {
-      return !c.isSpeaking.value &&
-                              globalController.isWhisperInitialized.value;
-    }
-  }   
 }

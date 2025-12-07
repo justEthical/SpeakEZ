@@ -48,8 +48,8 @@ class _ChatScreenState extends State<ChatScreen> {
         globalController.startWhisperIsolate();
       }
     });
-    GoogleMobileAdsService.instance.loadRewardedInterstitial(
-      adUnitId: AppStrings.rewardedInterstitialAdUnitId,
+    GoogleMobileAdsService.instance.loadInterstitial(
+      adUnitId: AppStrings.interstitialAdUnitId,
     );
     globalController.userProfile.value.gems -= 100;
     globalController.updateProfile();
