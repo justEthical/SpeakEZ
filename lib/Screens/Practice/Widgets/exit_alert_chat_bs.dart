@@ -62,6 +62,7 @@ class _ExitAlertChatBottomSheetState extends State<ExitAlertChatBottomSheet> {
           SizedBox(height: 12),
           InkWell(
             onTap: () {
+              globalController.userProfile.refresh();
               c.stopRecording();
               Get.back();
               Get.back();
