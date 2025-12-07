@@ -44,7 +44,7 @@ class _ReauthenticationBottomSheetState
                   borderRadius: BorderRadius.circular(100),
                   color: Colors.grey.shade300,
                 ),
-                child: Icon(Icons.close, color: Theme.of(context).textTheme.bodyMedium?.color, size: 18),
+                child: Icon(Icons.close, color: Theme.of(context).scaffoldBackgroundColor, size: 18),
               ),
             ),
             SizedBox(height: 20),

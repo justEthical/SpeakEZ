@@ -22,13 +22,6 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   @override
   void initState() {
     super.initState();
-    // WidgetsBinding.instance.addPostFrameCallback((_) {
-    //   if (!globalController.isAiModelDownloaded.value) {
-    //     WhisperHelper.isModelAvailable().then((isAvailable) {
-    //       globalController.isAiModelDownloaded.value = isAvailable;
-    //     });
-    //   }
-    // });
   }
 
   @override
@@ -42,13 +35,6 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
             const SizedBox(height: 20),
             Expanded(
               child: ScenarioCategoryGrid()
-              // Obx(
-              //   () =>
-                    // globalController.isAiModelDownloaded.value
-                    //     ? 
-                        // ScenarioCategoryGrid() 
-                        // : const _DownloadingState(),
-              // ),
             ),
           ],
         ),

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/scenario_card.dart';
 import 'package:speak_ez/Services/admob_service.dart';
@@ -58,6 +60,18 @@ class ScenariosList extends StatelessWidget {
                     children: [
                       Row(
                         children: [
+                          Obx(
+                            () => Text(
+                              "GEMS: ${globalController.userProfile.value.gems}"
+                                  .toString(),
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          Image.asset(AppAssets.gem, width: 20, height: 20),
                           Spacer(),
                           InkWell(
                             onTap: () {
@@ -83,6 +97,7 @@ class ScenariosList extends StatelessWidget {
                           ),
                         ],
                       ),
+                      SizedBox(height: 10),
                       Row(
                         children: [
                           Hero(
