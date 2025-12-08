@@ -96,4 +96,5 @@ class PostHogEvents {
   
   static const String remoteConfigFetched = 'remote_config_fetched';
   static const String remoteConfigActivated = 'remote_config_activated';
+  static const String deepInfraTranscribe = 'deepinfra_transcribe';
 }

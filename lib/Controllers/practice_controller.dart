@@ -92,7 +92,7 @@ class PracticeController extends GetxController {
   void stopNormalRecording() {
     _removeRecordingChat();
     isAudioProcessing = true;
-    recorder?.stopRecording().then((value) {
+    recorder?.stopAndTranscribeWithDeepInfra().then((value) {
       addChatCellTranscriptionData();
     });
   }
@@ -137,6 +137,7 @@ class PracticeController extends GetxController {
       globalController.transcriptionText.value = removeBracketedWords(
         globalController.transcriptionText.value,
       );
+      removeTranscribingAnimationAddActualMessage();
       await getAiResponse();
       _scrollToBottom();
       remainingSeconds.value = 30;
@@ -150,6 +151,7 @@ class PracticeController extends GetxController {
           globalController.transcriptionText.value = removeBracketedWords(
             globalController.transcriptionText.value,
           );
+          removeTranscribingAnimationAddActualMessage();
 
           getAiResponse();
 
@@ -160,6 +162,33 @@ class PracticeController extends GetxController {
         globalController.isLastChunkTranscribed.value = false;
       });
     }
+  }
+
+  void removeTranscribingAnimationAddActualMessage() {
+    currentChats.remove(
+      currentChats.last,
+    ); // for removing transcribing(... animation) message
+    currentChats.add(
+      ChatModel(
+        message:
+            globalController
+                .transcriptionText
+                .value, // aiResponse.correctedTranscript.trim(),
+        time: "time",
+        isAI: false,
+        messageDuration: 30 - remainingSeconds.value,
+        chatType: ChatType.normalChatMesssage,
+      ),
+    );
+    currentChats.add(
+      ChatModel(
+        message: "🎙️ Recording stopped",
+        time: "time",
+        isAI: true,
+        messageDuration: 0,
+        chatType: ChatType.gettingAIResponse, // transcribing animation
+      ),
+    );
   }
 
   List getAverageScoreAndFeedback() {
@@ -244,7 +273,7 @@ class PracticeController extends GetxController {
       summary: currentConversationSummary,
     );
     print(
-      "got the ai response, time taook: ${DateTime.now().millisecondsSinceEpoch - time}",
+      "####### AI RESPONSE TIME: ${DateTime.now().millisecondsSinceEpoch - time} #######",
     );
     if (response != null) {
       AIResponseModel aiResponse = AIResponseModel.fromJson(response);
@@ -254,6 +283,10 @@ class PracticeController extends GetxController {
       currentChats.remove(
         currentChats.last,
       ); // for removing transcribing(... animation) message
+      currentChats.remove(
+        currentChats.last,
+      ); // for removing already transcribed message
+
       currentChats.add(
         ChatModel(
           message:

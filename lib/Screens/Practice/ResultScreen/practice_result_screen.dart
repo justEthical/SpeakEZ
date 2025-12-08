@@ -235,6 +235,7 @@ class PracticeResultSreen extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: ElevatedButton(
         onPressed: () {
+          globalController.userProfile.refresh(); // Refresh the user profile to update gem value 
           Get.back();
           final completedSessions =
               globalController.prefs?.getInt(
