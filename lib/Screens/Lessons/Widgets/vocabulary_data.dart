@@ -54,7 +54,7 @@ class VocabularyData extends StatelessWidget {
           ),
           SizedBox(height: 18),
           Text(
-            "Meaning:",
+            AppStrings.meaning.tr,
             textAlign: TextAlign.start,
             style: TextStyle(
               fontSize: 17,
@@ -79,7 +79,7 @@ class VocabularyData extends StatelessWidget {
           
           SizedBox(height: 18),
           Text(
-            "Example Sentence(s)",
+            AppStrings.exampleSentences.tr,
             style: TextStyle(
               fontSize: 17,
               fontFamily: AppStrings.poppinsFont,

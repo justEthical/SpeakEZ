@@ -34,7 +34,7 @@ class GrammerTipsScreen extends StatelessWidget {
             icon: const Icon(Icons.arrow_back_ios_new_rounded),
           ),
           title: Text(
-            "Grammer Tips",
+            AppStrings.grammarTips.tr,
             style: TextStyle(fontSize: 20,
             fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.bold),
           ),
@@ -88,9 +88,9 @@ class GrammerTipsScreen extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     final grammarTips = lesson.lessonIntro?.grammarTips ?? [];
     if (grammarTips.isEmpty) {
-      return const Expanded(
+      return  Expanded(
         child: Center(
-          child: Text('No grammar tips available'),
+          child: Text(AppStrings.noGrammarTipsAvailable.tr),
         ),
       );
     }
@@ -163,7 +163,7 @@ class GrammerTipsScreen extends StatelessWidget {
                       ),
                     ),
                     child: Text(
-                      "Prev",
+                      AppStrings.prev.tr,
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 16,
@@ -175,7 +175,7 @@ class GrammerTipsScreen extends StatelessWidget {
         Spacer(),
         ElevatedButton(
           onPressed: () {
-            if (grammarTips.isNotEmpty && 
+            if (grammarTips.isNotEmpty &&
                 c.currentGrammerTipIndex.value < grammarTips.length - 1) {
               c.grammerTipPageController.nextPage(
                 duration: const Duration(milliseconds: 300),
@@ -199,8 +199,8 @@ class GrammerTipsScreen extends StatelessWidget {
             () => Text(
               grammarTips.isNotEmpty &&
                       c.currentGrammerTipIndex.value == grammarTips.length - 1
-                  ? "Done"
-                  : "Next",
+                  ? AppStrings.done.tr
+                  : AppStrings.next.tr,
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 16,

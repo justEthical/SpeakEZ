@@ -30,7 +30,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
       appBar: AppBar(
         elevation: 0,
         title: Text(
-          "${widget.englishLevel} Level Lessons",
+          "${widget.englishLevel} ${AppStrings.levelLessons.tr}",
           style: TextStyle(
             color: Theme.of(context).textTheme.bodyMedium?.color,
             fontSize: 24,
@@ -100,7 +100,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                           islessonCompleted
                               ? Row(
                                 children: [
-                                  Text("Completed "),
+                                  Text(AppStrings.completed.tr),
                                   SizedBox(width: 8),
                                   Icon(
                                     Icons.check_circle,
@@ -129,7 +129,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                                   ),
                                 ),
                                 child: Text(
-                                  'RETEST',
+                                  AppStrings.retest.tr,
                                   style: TextStyle(
                                     color:
                                         Theme.of(context).colorScheme.onPrimary,

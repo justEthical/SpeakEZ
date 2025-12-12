@@ -19,7 +19,10 @@ import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
- import 'package:speak_ez/Utils/theme.dart';
+import 'package:speak_ez/Utils/localization_translation.dart';
+import 'package:speak_ez/Utils/theme.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
 
 import 'Controllers/global_controller.dart';
 
@@ -68,6 +71,20 @@ class AppEntry extends StatelessWidget {
   Widget build(BuildContext context) {
     return PostHogWidget(
       child: GetMaterialApp(
+        translations: AppTranslations(),
+        locale: const Locale('en'), // default
+        fallbackLocale: const Locale('en'),
+        supportedLocales: const [
+          Locale('en'),
+          Locale('ja'),
+          Locale('hi'),
+          Locale('es'),
+        ],
+        localizationsDelegates: const [
+          GlobalMaterialLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
         debugShowCheckedModeBanner: false,
         defaultTransition: Transition.cupertino,
         initialBinding: BindingsBuilder(() {

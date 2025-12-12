@@ -162,7 +162,7 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
           child: Obx(
             () => Text(
-              "Hi, ${globalController.userProfile.value.displayName}!",
+              "${'hi'.tr}, ${globalController.userProfile.value.displayName}!",
               style: TextStyle(
                 color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontFamily: AppStrings.nunitoFont,
@@ -266,7 +266,7 @@ class _LearnByLevelSection extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                "Learn by level",
+                AppStrings.learnByLevel.tr,
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
@@ -280,7 +280,7 @@ class _LearnByLevelSection extends StatelessWidget {
               TextButton(
                 onPressed: () => _showLevelInfoSheet(context),
                 child: Text(
-                  "See all",
+                  AppStrings.seeAll.tr,
                   style: TextStyle(
                     color: Theme.of(context).colorScheme.primary,
                     fontWeight: FontWeight.bold,

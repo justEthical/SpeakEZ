@@ -305,6 +305,7 @@ class QuestionOptionsController extends GetxController {
   void stopRecording() async {
     _timer?.cancel();
     isAudioProcessing.value = true;
+    await Future.delayed(Duration(milliseconds: 1500));
     await recorder.stop(isFromLesson: true);
     // BELOW COMMENTED CODE IS FOR WHISPER TRANSCRIPTION
     /*

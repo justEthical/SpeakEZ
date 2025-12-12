@@ -35,7 +35,7 @@ class AnswerResultBottomSheet extends StatelessWidget {
           children: [
             const SizedBox(height: 20),
             Text(
-              isAnswerCorrect ? 'Correct Answer' : 'Wrong Answer',
+              isAnswerCorrect ? AppStrings.correctAnswer.tr : AppStrings.wrongAnswer.tr,
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
@@ -82,7 +82,7 @@ class AnswerResultBottomSheet extends StatelessWidget {
                 ),
               ),
               child: Text(
-                "Next",
+                AppStrings.next.tr,
                 style: TextStyle(
                   fontFamily: AppStrings.nunitoFont,
                   color: Theme.of(context).scaffoldBackgroundColor,

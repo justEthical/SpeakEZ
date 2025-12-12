@@ -53,7 +53,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
       canPop: false,
       onPopInvokedWithResult: (a, _) {
         backButtonCount++;
-        globalController.showSnackbarWithGetX("Exit", "Press again to exit");
+        globalController.showSnackbarWithGetX(AppStrings.exit.tr, AppStrings.pressAgainToExit.tr);
         if (backButtonCount == 2) {
           SystemNavigator.pop();
         }
@@ -89,15 +89,15 @@ class _TabBarScreenState extends State<TabBarScreen> {
             items: [
               BottomNavigationBarItem(
                 icon: Icon(Icons.workspace_premium_outlined),
-                label: "Progress",
+                label: AppStrings.progress.tr,
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.chat_bubble_outline),
-                label: "Practice",
+                label: AppStrings.practice.tr,
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.settings),
-                label: "Profile",
+                label: AppStrings.profile.tr,
               ),
             ],
             currentIndex: globalController.currentTabIndex.value,

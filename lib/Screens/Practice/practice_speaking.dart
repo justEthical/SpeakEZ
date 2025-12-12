@@ -116,7 +116,7 @@ class _HeaderState extends State<_Header> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Speaking Practice",
+            AppStrings.speakingPractice.tr,
             style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.w800,
@@ -153,7 +153,7 @@ class _HeaderState extends State<_Header> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Practice with Natasha",
+                                AppStrings.practiceWithNatasha.tr,
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
                                   fontSize: 18,
@@ -163,7 +163,7 @@ class _HeaderState extends State<_Header> {
                               ),
                               const SizedBox(height: 4),
                               Text(
-                                "Select a scenario to start practicing.",
+                                AppStrings.selectScenarioToStart.tr,
                                 style: TextStyle(
                                   fontWeight: FontWeight.w600,
                                   fontSize: 14,
@@ -222,7 +222,7 @@ class DownloadingState extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Text(
-              "Downloading Natasha AI…",
+              AppStrings.downloadingNatashaAI.tr,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Theme.of(context).textTheme.bodyMedium?.color,
@@ -234,7 +234,7 @@ class DownloadingState extends StatelessWidget {
             const SizedBox(height: 10),
             Obx(
               () => Text(
-                "The download is about 60 MB. Please keep the app open. (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
+                "${AppStrings.downloadInfo.tr} (${globalController.aiModelDownloadProgress.value.toStringAsFixed(0)}%)",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontFamily: AppStrings.nunitoFont,

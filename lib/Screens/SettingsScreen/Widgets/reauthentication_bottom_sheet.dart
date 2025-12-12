@@ -53,7 +53,7 @@ class _ReauthenticationBottomSheetState
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15.0),
           child: Text(
-            "Please reauthentication to proceed further.",
+            AppStrings.reauthenticatePrompt.tr,
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 16,
@@ -92,7 +92,7 @@ class _ReauthenticationBottomSheetState
                       child: SvgPicture.asset(AppAssets.google),
                     ),
                    Text(
-                      "Login with Google",
+                      AppStrings.loginWithGoogle.tr,
                       style: TextStyle(
                         fontSize: 16,
                         // fontWeight: FontWeight.w600,
@@ -190,8 +190,8 @@ class _ReauthenticationBottomSheetState
                         }
                       } else {
                         globalController.showSnackbarWithGetX(
-                          "Error",
-                          "Please enter password.",
+                          AppStrings.error.tr,
+                          AppStrings.pleaseEnterPassword.tr,
                         );
                       }
                     },
@@ -208,7 +208,7 @@ class _ReauthenticationBottomSheetState
                     ),
                     child: Center(
                       child: Text(
-                        "Reauthenticate",
+                        AppStrings.reauthenticate.tr,
                         style:  TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w400,

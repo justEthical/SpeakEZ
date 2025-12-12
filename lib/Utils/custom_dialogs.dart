@@ -25,8 +25,8 @@ class CustomDialogs {
         ),
         child: Column(
           children: [
-            const Text(
-              'Are you sure you want to logout?',
+            Text(
+              AppStrings.areYouSureLogout.tr,
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
             ),
@@ -50,7 +50,7 @@ class CustomDialogs {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: Text('Yes'),
+                  child: Text(AppStrings.yes.tr),
                 ),
                 Spacer(),
                 ElevatedButton(
@@ -64,7 +64,7 @@ class CustomDialogs {
                     ),
                   ),
                   child: Text(
-                    'Cancel',
+                    AppStrings.cancel.tr,
                     style: TextStyle(
                       color: Theme.of(context).colorScheme.onPrimary,
                     ),
@@ -109,7 +109,7 @@ class CustomDialogs {
                 ),
               ),
               child: Text(
-                "Open Settings",
+                AppStrings.openSettings.tr,
                 style: TextStyle(
                   color: Theme.of(context).colorScheme.onPrimary,
                 ),
@@ -132,8 +132,8 @@ class CustomDialogs {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text(
-              'Are you sure you want to delete your account?\n\nThis action is irreversible.',
+            Text(
+              AppStrings.areYouSureDeleteAccount.tr,
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
             ),
@@ -158,7 +158,7 @@ class CustomDialogs {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: Text('Delete'),
+                  child: Text(AppStrings.delete.tr),
                 ),
                 Spacer(),
                 ElevatedButton(
@@ -172,7 +172,7 @@ class CustomDialogs {
                     ),
                   ),
                   child: Text(
-                    'Cancel',
+                    AppStrings.cancel.tr,
                     style: TextStyle(
                       color: Theme.of(context).colorScheme.onPrimary,
                     ),
@@ -210,8 +210,8 @@ class CustomDialogs {
                 ),
               ],
             ),
-            const Text(
-              'This level is locked. You need to complete the previous level(s) to unlock this one or unlock it by giving a test.',
+            Text(
+              AppStrings.levelLockedMessage.tr,
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
             ),
@@ -242,8 +242,8 @@ class CustomDialogs {
                       );
                     } else {
                       globalController.showSnackbarWithGetX(
-                        "Unlock test",
-                        "You can unlock this level in ${24 - timeDifference} hours.",
+                        AppStrings.unlockTest.tr,
+                        "${AppStrings.canUnlockIn.tr} ${24 - timeDifference} ${AppStrings.hours.tr}",
                       );
                     }
                   },
@@ -254,7 +254,7 @@ class CustomDialogs {
                     ),
                     fixedSize: const Size(106, 40),
                   ),
-                  child: Text('UNLOCK', style: TextStyle(color: Colors.grey)),
+                  child: Text(AppStrings.unlock.tr, style: TextStyle(color: Colors.grey)),
                 ),
                 Spacer(),
                 ElevatedButton(
@@ -275,7 +275,7 @@ class CustomDialogs {
                     fixedSize: const Size(106, 40),
                   ),
                   child: Text(
-                    'View',
+                    AppStrings.view.tr,
                     style: TextStyle(
                       color: Theme.of(context).colorScheme.onPrimary,
                     ),
@@ -322,8 +322,8 @@ class CustomDialogs {
             ),
             const SizedBox(height: 10),
 
-            const Text(
-              'Starting this practice will use 100 gems.',
+            Text(
+              AppStrings.startingPracticeWillUse.tr,
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 14, color: Colors.grey),
             ),
@@ -365,7 +365,7 @@ class CustomDialogs {
                       ),
                     ),
                     child: Text(
-                      'Watch an Ad and Get 100 Gems',
+                      AppStrings.watchAdGetGems.tr,
                       textAlign: TextAlign.center,
                       style: TextStyle(color: Colors.white),
                     ),
@@ -387,7 +387,7 @@ class CustomDialogs {
                     ),
                   ),
                   child: Text(
-                    'Start',
+                    AppStrings.start.tr,
                     style: TextStyle(
                       color:
                           hasEnoughGems

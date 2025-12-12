@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
@@ -34,7 +35,7 @@ class _SpeakOptionState extends State<SpeakOption> {
                   children: [
                     !c.isAudioProcessing.value
                         ? Text(
-                          "Tap to stop",
+                          AppStrings.tapToStop.tr,
                           style: TextStyle(
                             color: Theme.of(context).colorScheme.primary,
                             fontSize: 12,
@@ -97,8 +98,8 @@ class _SpeakOptionState extends State<SpeakOption> {
                     SizedBox(height: 5),
                     Text(
                       c.isAudioProcessing.value
-                          ? "Processing..."
-                          : "Listening...",
+                          ? AppStrings.processing.tr
+                          : AppStrings.listening.tr,
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.primary,
                         fontSize: 12,

@@ -41,7 +41,7 @@ class SettingScreens extends StatelessWidget {
                     children: [
                       SizedBox(width: 20),
                       Text(
-                        "Settings",
+                        AppStrings.settings.tr,
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.w700,
@@ -123,74 +123,88 @@ class SettingScreens extends StatelessWidget {
 
           Padding(
             padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
-            child: Column(
-              children: [
-                SettingsOptionTile(
-                  onTap: () {
-                    globalController.openUrl(AppStrings.privacyPolicyUrl);
-                  },
-                  heading: "Help",
-                  content: "Privacy Policy",
-                  icon: AppAssets.helpCircle,
-                ),
-                SettingsOptionTile(
-                  onTap: () {
-                    globalController.openUrl(AppStrings.appPlayStoreUrl);
-                  },
-                  heading: "Rate Us",
-                  content: "Rate us on Google play",
-                  icon: AppAssets.starIcon,
-                ),
-                SettingsOptionTile(
-                  onTap: () async {
-                    await SharePlus.instance.share(
-                      ShareParams(
-                        text:
-                            '${AppStrings.appShareMessage}\n${AppStrings.appPlayStoreUrl}',
-                      ),
-                    );
-                  },
-                  heading: "Refer to Friend",
-                  content: "Share it with your friends",
-                  icon: AppAssets.giftIcon,
-                ),
-                SettingsOptionTile(
-                  onTap: () async {
-                    Get.defaultDialog(
-                      titleStyle: const TextStyle(fontSize: 0),
-                      content: CustomDialogs.logoutDialog(Get.context!),
-                    );
-                  },
-                  icon: AppAssets.logOut,
-                  content: "Logout",
-                ),
-                SettingsOptionTile(
-                  onTap: () async {
-                    // Get.dialog(CustomDialogs.deleteConfirmationDialog());
-                    showModalBottomSheet(
-                      context: context,
-                      isScrollControlled: true,
-                      builder: (ctx) {
-                        return ReauthenticationBottomSheet();
+            child: SizedBox(
+              height: Get.height - 275,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    SettingsOptionTile(
+                      onTap: () {
+                        globalController.openUrl(AppStrings.privacyPolicyUrl.tr);
                       },
-                    );
-                  },
-                  icon: AppAssets.deleteIcon,
-                  heading: 'Delete Account',
-                  content: 'Delete account and data',
-                ),
-                SizedBox(height: 20),
-                Obx(
-                  () => Text(
-                    globalController.appVersion.value,
-                    style: GoogleFonts.bebasNeue(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w900,
-                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.4),
+                      heading: AppStrings.help.tr,
+                      content: AppStrings.privacyPolicy.tr,
+                      icon: AppAssets.helpCircle,
                     ),
-                  ),
+                    SettingsOptionTile(
+                      onTap: () {
+                        globalController.openUrl(AppStrings.appPlayStoreUrl);
+                      },
+                      heading: AppStrings.rateUs.tr,
+                      content: AppStrings.rateUsOnGooglePlay.tr,
+                      icon: AppAssets.starIcon,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        await SharePlus.instance.share(
+                          ShareParams(
+                            text:
+                                '${AppStrings.appShareMessage}\n${AppStrings.appPlayStoreUrl}',
+                          ),
+                        );
+                      },
+                      heading: AppStrings.referToFriend.tr,
+                      content: AppStrings.shareWithFriends.tr,
+                      icon: AppAssets.giftIcon,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        Get.defaultDialog(
+                          titleStyle: const TextStyle(fontSize: 0),
+                          content: CustomDialogs.logoutDialog(Get.context!),
+                        );
+                      },
+                      icon: AppAssets.logOut,
+                      content: AppStrings.logout.tr,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        // Get.dialog(CustomDialogs.deleteConfirmationDialog());
+                        showModalBottomSheet(
+                          context: context,
+                          isScrollControlled: true,
+                          builder: (ctx) {
+                            return ReauthenticationBottomSheet();
+                          },
+                        );
+                      },
+                      icon: AppAssets.deleteIcon,
+                      heading: AppStrings.deleteAccount.tr,
+                      content: AppStrings.deleteAccountAndData.tr,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                       Get.updateLocale(Locale('hi'));
+                      },
+                      icon: AppAssets.appLanguage,
+                      heading: "App Language",
+                      content: "Hindi",
+                    ),
+                    SizedBox(height: 20),
+                
+                    Obx(
+                      () => Text(
+                        globalController.appVersion.value,
+                        style: GoogleFonts.bebasNeue(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w900,
+                          color: Theme.of(context).colorScheme.onSurface.withOpacity(0.4),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
         ],

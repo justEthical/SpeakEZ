@@ -36,7 +36,7 @@ class VocalbularyScreen extends StatelessWidget {
             icon: const Icon(Icons.arrow_back_ios_new_rounded),
           ),
           title: Text(
-            "Vocalbulary",
+            AppStrings.vocabulary.tr,
             style: TextStyle(
               fontSize: 20,
               fontFamily: AppStrings.poppinsFont,
@@ -101,9 +101,9 @@ class VocalbularyScreen extends StatelessWidget {
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
 
     if (vocabulary.isEmpty) {
-      return const Expanded(
+      return  Expanded(
         flex: 10,
-        child: Center(child: Text('No vocabulary items available')),
+        child: Center(child: Text(AppStrings.noVocabularyAvailable.tr)),
       );
     }
 
@@ -141,7 +141,7 @@ class VocalbularyScreen extends StatelessWidget {
           ),
           child: Row(
             children: [SizedBox(width: 8,),
-            Text("Auto speak",),
+            Text(AppStrings.autoSpeak.tr,),
             Spacer(),
             Transform.scale(
               scale: 0.8,
@@ -180,7 +180,7 @@ class VocalbularyScreen extends StatelessWidget {
                           ),
                         ),
                         child: Text(
-                          "Prev",
+                          AppStrings.prev.tr,
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 16,
@@ -215,8 +215,8 @@ class VocalbularyScreen extends StatelessWidget {
                   vocabulary.isNotEmpty &&
                           c.currentWordMeaningIndex.value ==
                               vocabulary.length - 1
-                      ? "Done"
-                      : "Next",
+                      ? AppStrings.done.tr
+                      : AppStrings.next.tr,
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 16,
