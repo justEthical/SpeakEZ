@@ -72,7 +72,7 @@ class AppEntry extends StatelessWidget {
     return PostHogWidget(
       child: GetMaterialApp(
         translations: AppTranslations(),
-        locale: const Locale('en'), // default
+        locale: Get.deviceLocale, // default
         fallbackLocale: const Locale('en'),
         supportedLocales: const [
           Locale('en'),

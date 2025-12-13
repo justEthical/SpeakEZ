@@ -3,9 +3,11 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/reauthentication_bottom_sheet.dart';
+import 'package:speak_ez/Screens/SettingsScreen/Widgets/select_language.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
 import 'package:speak_ez/Utils/common_widgets.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
@@ -50,8 +52,12 @@ class SettingScreens extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
-                      SizedBox(width: 18, height: 30, child: Image.asset(AppAssets.gem),),
-                      SizedBox(width: 8,),
+                      SizedBox(
+                        width: 18,
+                        height: 30,
+                        child: Image.asset(AppAssets.gem),
+                      ),
+                      SizedBox(width: 8),
                       Text(
                         globalController.userProfile.value.gems.toString(),
                         style: TextStyle(
@@ -61,7 +67,7 @@ class SettingScreens extends StatelessWidget {
                           fontFamily: AppStrings.nunitoFont,
                         ),
                       ),
-                      SizedBox(width: 20,)
+                      SizedBox(width: 20),
                     ],
                   ),
                   SizedBox(height: 15),
@@ -130,7 +136,9 @@ class SettingScreens extends StatelessWidget {
                   children: [
                     SettingsOptionTile(
                       onTap: () {
-                        globalController.openUrl(AppStrings.privacyPolicyUrl.tr);
+                        globalController.openUrl(
+                          AppStrings.privacyPolicyUrl.tr,
+                        );
                       },
                       heading: AppStrings.help.tr,
                       content: AppStrings.privacyPolicy.tr,
@@ -184,21 +192,30 @@ class SettingScreens extends StatelessWidget {
                     ),
                     SettingsOptionTile(
                       onTap: () async {
-                       Get.updateLocale(Locale('hi'));
+                        showModalBottomSheet(
+                          context: context,
+                          showDragHandle: true,
+                          isScrollControlled: true,
+                          builder: (ctx) => SelectLanguageBottomSheet(),
+                        );
                       },
                       icon: AppAssets.appLanguage,
                       heading: "App Language",
-                      content: "Hindi",
+                      content: _getLanguage(
+                        globalController.userProfile.value.appLanguage,
+                      ),
                     ),
                     SizedBox(height: 20),
-                
+
                     Obx(
                       () => Text(
                         globalController.appVersion.value,
                         style: GoogleFonts.bebasNeue(
                           fontSize: 20,
                           fontWeight: FontWeight.w900,
-                          color: Theme.of(context).colorScheme.onSurface.withOpacity(0.4),
+                          color: Theme.of(
+                            context,
+                          ).colorScheme.onSurface.withOpacity(0.4),
                         ),
                       ),
                     ),
@@ -219,5 +236,14 @@ class SettingScreens extends StatelessWidget {
     } else {
       return globalController.userProfile.value.photoUrl!;
     }
+  }
+
+  String _getLanguage(String langCode) {
+    for (var lang in AppData.appLanguages) {
+      if (lang.code == langCode) {
+        return lang.language;
+      }
+    }
+    return "English";
   }
 }

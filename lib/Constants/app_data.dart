@@ -1,4 +1,5 @@
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Models/country_languages.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 
 class AppData {
@@ -1191,4 +1192,11 @@ class AppData {
     // Build the full week (Mon → Sun)
     return List.generate(7, (index) => monday.add(Duration(days: index)));
   }
+
+  static List<LanguageCode> appLanguages = [
+      LanguageCode(language: "English", code: "en", countryCode: "US", flag: "🇺🇸"),
+  LanguageCode(language: "हिन्दी", code: "hi", countryCode: "IN", flag: "🇮🇳"),
+  LanguageCode(language: "española", code: "es", countryCode: "ES", flag: "🇪🇸"),
+  LanguageCode(language: "日本語", code: 'ja', countryCode: "JP", flag: "🇯🇵")
+  ];
 }

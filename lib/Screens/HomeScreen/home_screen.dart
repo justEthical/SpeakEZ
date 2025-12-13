@@ -45,6 +45,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     )..repeat(reverse: true);
 
     _staggerController.forward();
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      Get.updateLocale(Locale(globalController.userProfile.value.appLanguage));
+    });
   }
 
   @override

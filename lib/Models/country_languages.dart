@@ -98,3 +98,21 @@ final List<CountryLanguage> countryLanguages = [
     "English", "Swahili"
   ])
 ];
+
+class LanguageCode{
+  final String language;
+  final String code;
+  final String countryCode;
+  final String flag;
+
+  LanguageCode({required this.language, required this.code, required this.countryCode, required this.flag});
+}
+
+final List<LanguageCode> languageCodes = [
+
+  LanguageCode(language: "Tamil", code: "ta", countryCode: "IN", flag: "🇮🇳"),
+  LanguageCode(language: "Telugu", code: "te", countryCode: "IN", flag: "🇮🇳"),
+  LanguageCode(language: "Malayalam", code: "ml", countryCode: "IN", flag: "🇮🇳"),
+  LanguageCode(language: "Kannada", code: "kn", countryCode: "IN", flag: "🇮🇳"),
+  LanguageCode(language: "French", code: "fr", countryCode: "FR", flag: "🇫🇷"),
+  ];

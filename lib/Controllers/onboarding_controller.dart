@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/country_languages.dart';
@@ -60,15 +61,22 @@ class OnboardingController extends GetxController {
   }
 
   void optionSelected(OnboardingQuestion model, String label) {
+    
+    if(model.id == "appLanguage") {
+      onboardingQuestionAnswerMap[model.id] = getAppLanguageCode(label);
+    }else{
+      onboardingQuestionAnswerMap[model.id] = label;
+    }
+    
     if (onboardingQuestionsController.page! < onboardingQuestions.length - 1) {
       onboardingQuestionsController.nextPage(
         duration: Duration(milliseconds: 300),
         curve: Curves.easeIn,
       );
       currentOnboardingQuestionIndex.value++;
-      onboardingQuestionAnswerMap[model.id] = label;
+      
     } else {
-      onboardingQuestionAnswerMap[model.id] = label;
+      // onboardingQuestionAnswerMap[model.id] = label;
       globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
       var userProfileData = globalController.prefs?.getString(
         AppStrings.userProfile,
@@ -98,7 +106,9 @@ class OnboardingController extends GetxController {
     final userData = await AuthService.loginWithEmail(email, password);
     if (userData?.user != null) {
       final notificationTokken = await FirebaseMessaging.instance.getToken();
-      await FirestoreHelper.updateUserField({'notificationToken': notificationTokken ?? ''}); 
+      await FirestoreHelper.updateUserField({
+        'notificationToken': notificationTokken ?? '',
+      });
       final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
       if (userProfile != null) {
         globalController.userProfile.value = userProfile;
@@ -151,7 +161,9 @@ class OnboardingController extends GetxController {
         Get.offAll(() => OnboarindQuestions());
       } else {
         final notificationTokken = await FirebaseMessaging.instance.getToken();
-        await FirestoreHelper.updateUserField({'notificationToken': notificationTokken ?? ''}); 
+        await FirestoreHelper.updateUserField({
+          'notificationToken': notificationTokken ?? '',
+        });
         final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
         if (userProfile != null) {
           globalController.userProfile.value = userProfile;
@@ -206,6 +218,7 @@ class OnboardingController extends GetxController {
       gems: 500,
       weekDaysStreak: WeekDaysStreak.fromMap({}),
       registrationTime: DateTime.now(),
+      appLanguage: onboardingQuestionAnswerMap['appLanguage'] ?? 'en',
     );
     globalController.userProfile.value = userProfile;
     globalController.prefs?.setString(
@@ -214,6 +227,16 @@ class OnboardingController extends GetxController {
     );
     FirestoreHelper.saveCurrentUserProfile(globalController.userProfile.value);
     CustomLoader.hideLoader();
+  }
+
+  String getAppLanguageCode(label) {
+    final lang = label.split(" ").last;
+    for (var language in AppData.appLanguages) {
+      if (language.language == lang) {
+        return language.code;
+      }
+    }
+    return "en";
   }
 
   void addLanguageBasedQuestionInOnboarding() async {
@@ -229,5 +252,16 @@ class OnboardingController extends GetxController {
         );
       }
     }
+    onboardingQuestions.add(
+      OnboardingQuestion(
+        id: "appLanguage",
+        question: "Select App Language. You can change it later from settings",
+        options: List.generate(
+          AppData.appLanguages.length,
+          (i) =>
+              "${AppData.appLanguages[i].flag} ${AppData.appLanguages[i].language}",
+        ),
+      ),
+    );
   }
 }
