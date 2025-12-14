@@ -18,6 +18,7 @@ import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Services/local_notification.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Utils/localization_translation.dart';
 import 'package:speak_ez/Utils/theme.dart';
@@ -31,7 +32,7 @@ void main() async {
   await Firebase.initializeApp();
   unawaited(MobileAds.instance.initialize());
   await dotenv.load(fileName: ".env");
-
+  LocalNotificationService().init();
   await PostHogService.instance.initialize();
 
   await SystemChrome.setPreferredOrientations([
