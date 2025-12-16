@@ -24,6 +24,10 @@ class ChatBubble extends StatelessWidget {
             margin: EdgeInsets.only(bottom: 10),
             width: 40,
             height: 40,
+            decoration: BoxDecoration(
+              border: Border.all(color: Theme.of(context).colorScheme.primary, width: 1.0),
+              borderRadius: BorderRadius.circular(60),
+            ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(60),
               child: Image.asset(AppAssets.natashaChat),
@@ -69,17 +73,24 @@ class ChatBubble extends StatelessWidget {
                           fontSize: 15,
                         ),
                       ),
+                      SizedBox(height: 5,),
                       Row(
                         children: [
-                          InkWell(
-                            onTap: () async {
-                              if (c.isMicEnabled.value) {
-                                c.isSpeaking = true;
-                                await ttsHelper.speakAndWait(chatModel.message);
-                                c.isSpeaking = false;
-                              }
-                            },
-                            child: Icon(Icons.volume_down),
+                          Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.grey,
+                            ),
+                            child: InkWell(
+                              onTap: () async {
+                                if (c.isMicEnabled.value) {
+                                  c.isSpeaking = true;
+                                  await ttsHelper.speakAndWait(chatModel.message);
+                                  c.isSpeaking = false;
+                                }
+                              },
+                              child: Icon(Icons.volume_down),
+                            ),
                           ),
                         ],
                       ),

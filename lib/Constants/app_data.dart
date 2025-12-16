@@ -1194,9 +1194,9 @@ class AppData {
   }
 
   static List<LanguageCode> appLanguages = [
-      LanguageCode(language: "English", code: "en", countryCode: "US", flag: "🇺🇸"),
-  LanguageCode(language: "हिन्दी", code: "hi", countryCode: "IN", flag: "🇮🇳"),
-  LanguageCode(language: "española", code: "es", countryCode: "ES", flag: "🇪🇸"),
-  LanguageCode(language: "日本語", code: 'ja', countryCode: "JP", flag: "🇯🇵")
+      LanguageCode(language: "English", englishName: "English",  code: "en", countryCode: "US", flag: "🇺🇸"),
+  LanguageCode(language: "हिन्दी", englishName: "Hindi", code: "hi", countryCode: "IN", flag: "🇮🇳"),
+  LanguageCode(language: "española", englishName: "Spanish", code: "es", countryCode: "ES", flag: "🇪🇸"),
+  LanguageCode(language: "日本語", englishName: "Japanese", code: 'ja', countryCode: "JP", flag: "🇯🇵")
   ];
 }

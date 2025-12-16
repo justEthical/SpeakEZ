@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
@@ -102,7 +103,7 @@ class GrammerTipsScreen extends StatelessWidget {
         itemCount: grammarTips.length,
         itemBuilder: (ctx, i) {
           final tip = grammarTips[i];
-          final hindiTranslation = tip.explanationTranslation?["Hindi"] ?? "";
+          final hindiTranslation = tip.explanationTranslation?[globalController.getLessonTranslationLanguage()] ?? "";
           
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,

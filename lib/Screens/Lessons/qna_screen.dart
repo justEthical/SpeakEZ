@@ -86,7 +86,7 @@ class QnaScreen extends StatelessWidget {
                           text:
                               c
                                   .currentQuestionList[i]
-                                  .questionTranslation!["Hindi"]
+                                  .questionTranslation![globalController.getLessonTranslationLanguage()]
                                   .toString(),
                         ),
                         SizedBox(height: 10),

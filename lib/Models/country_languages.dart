@@ -104,15 +104,7 @@ class LanguageCode{
   final String code;
   final String countryCode;
   final String flag;
+  final String englishName;
 
-  LanguageCode({required this.language, required this.code, required this.countryCode, required this.flag});
+  LanguageCode({required this.language, required this.code, required this.countryCode, required this.flag, required this.englishName});
 }
-
-final List<LanguageCode> languageCodes = [
-
-  LanguageCode(language: "Tamil", code: "ta", countryCode: "IN", flag: "🇮🇳"),
-  LanguageCode(language: "Telugu", code: "te", countryCode: "IN", flag: "🇮🇳"),
-  LanguageCode(language: "Malayalam", code: "ml", countryCode: "IN", flag: "🇮🇳"),
-  LanguageCode(language: "Kannada", code: "kn", countryCode: "IN", flag: "🇮🇳"),
-  LanguageCode(language: "French", code: "fr", countryCode: "FR", flag: "🇫🇷"),
-  ];
