@@ -332,6 +332,7 @@ class QuestionOptionsController extends GetxController {
     }); */
     isAudioProcessing.value =
         false; // this code can be removed on implementation of whisper transcription
+    isListeningLessonAnswer.value = false;
     stt.cancelListening();
   }
 
