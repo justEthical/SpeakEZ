@@ -9,7 +9,9 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:scroll_screenshot/scroll_screenshot.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/ai_response_model.dart';
 import 'package:speak_ez/Models/chat_model.dart';
@@ -18,6 +20,7 @@ import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/network_service.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
@@ -87,6 +90,18 @@ class PracticeController extends GetxController {
       recorder?.stop();
       addChatCellTranscriptionData();
     }
+  }
+
+ScenarioModel getFreeTalkScenario() {
+    return ScenarioModel(
+      title: "Free Talk",
+      description:
+          "You can practice speaking on any topic of your choice.",
+      imagePath: AppAssets.freeTalk,
+      level: "A2",
+      prompt: "Start a conversation about any topic of your choice.",
+      intro: "Hi, I’m Natasha, your English practice buddy. What would you like to talk about today?",
+    );
   }
 
   void stopNormalRecording() {
@@ -227,6 +242,21 @@ class PracticeController extends GetxController {
       print(res);
       currentChats.remove(currentChats.last);
       isChatResultReady.value = true;
+
+      final isFreeTalk = currentScenarioModel?.title == 'Free Talk';
+      PostHogService.instance.capture(
+        isFreeTalk ? PostHogEvents.freeTalkCompleted : PostHogEvents.practiceCompleted,
+        properties: {
+          'scenario_title': currentScenarioModel?.title ?? 'unknown',
+          'total_speaking_time': totalSpeakingTime,
+          'messages_count': currentUserSessionMessage.value,
+          'fluency_score': scoreMap['fluency'],
+          'grammar_score': scoreMap['grammar'],
+          'vocabulary_score': scoreMap['vocabulary'],
+          'pronunciation_score': scoreMap['pronunciation'],
+        },
+      );
+
       addLastMessage();
     }
   }

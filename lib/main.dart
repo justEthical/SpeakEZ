@@ -13,6 +13,7 @@ import 'package:posthog_flutter/posthog_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
@@ -91,6 +92,7 @@ class AppEntry extends StatelessWidget {
         initialBinding: BindingsBuilder(() {
           Get.put(GlobalController());
           Get.put(OnboardingController());
+          Get.lazyPut<PracticeController>(() => PracticeController(), fenix: true);
         }),
         navigatorObservers: [PosthogObserver()],
         theme: lightTheme,

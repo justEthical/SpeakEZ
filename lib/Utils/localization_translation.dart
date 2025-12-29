@@ -78,6 +78,9 @@ class AppTranslations extends Translations {
       // Tab Bar
       'progress': "Progress",
       'practice': "Practice",
+      'freeTalk': "Free Talk",
+      'freeTalkDescription': "Practice speaking on any topic of your choice.",
+      'startFreeTalk': "Start Free Talk",
       'profile': "Profile",
       'exit': "Exit",
       'pressAgainToExit': "Press again to exit",
@@ -252,6 +255,9 @@ class AppTranslations extends Translations {
       // Tab Bar
       'progress': "進捗",
       'practice': "練習",
+      'freeTalk': "フリートーク",
+      'freeTalkDescription': "好きなトピックでスピーキングを練習しましょう。",
+      'startFreeTalk': "フリートークを始める",
       'profile': "プロフィール",
       'exit': "終了",
       'pressAgainToExit': "もう一度押すと終了します",
@@ -422,6 +428,9 @@ class AppTranslations extends Translations {
       // Tab Bar
       'progress': "प्रगति",
       'practice': "अभ्यास",
+      'freeTalk': "फ्री टॉक",
+      'freeTalkDescription': "अपनी पसंद के किसी भी विषय पर बोलने का अभ्यास करें।",
+      'startFreeTalk': "फ्री टॉक शुरू करें",
       'profile': "प्रोफ़ाइल",
       'exit': "निकास",
       'pressAgainToExit': "बाहर निकलने के लिए फिर से दबाएँ",
@@ -597,6 +606,9 @@ class AppTranslations extends Translations {
   // Tabs
   'progress': "Progreso",
   'practice': "Práctica",
+  'freeTalk': "Conversación libre",
+  'freeTalkDescription': "Practica hablando sobre cualquier tema que prefieras.",
+  'startFreeTalk': "Iniciar conversación libre",
   'profile': "Perfil",
   'exit': "Salir",
   'pressAgainToExit': "Pulsa de nuevo para salir",

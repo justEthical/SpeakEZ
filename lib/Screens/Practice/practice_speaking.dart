@@ -17,7 +17,7 @@ class PracticeSpeaking extends StatefulWidget {
 }
 
 class _PracticeSpeakingState extends State<PracticeSpeaking> {
-  final PracticeController c = Get.put(PracticeController());
+  final PracticeController c = Get.find();
 
   @override
   void initState() {
@@ -27,15 +27,48 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        title: Text(
+          AppStrings.speakingPractice.tr,
+          style: TextStyle(
+            color: Theme.of(context).textTheme.bodyMedium?.color,
+            fontFamily: AppStrings.nunitoFont,
+            fontWeight: FontWeight.w800,
+            fontSize: 22,
+          ),
+        ),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 10.0),
+            child: Row(
+              children: [
+                SizedBox(
+                  width: 18,
+                  height: 30,
+                  child: Image.asset(AppAssets.gem),
+                ),
+                SizedBox(width: 6),
+                Text(
+                  globalController.userProfile.value.gems.toString(),
+                  style: TextStyle(
+                    color: Theme.of(context).textTheme.bodyMedium?.color,
+                    fontFamily: AppStrings.nunitoFont,
+                    fontWeight: FontWeight.w800,
+                    fontSize: 22,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _Header(),
-            const SizedBox(height: 20),
-            Expanded(
-              child: ScenarioCategoryGrid()
-            ),
+            Expanded(child: ScenarioCategoryGrid()),
           ],
         ),
       ),
@@ -64,7 +97,11 @@ class ScenarioCategoryGrid extends StatelessWidget {
             ),
             child: InkWell(
               onTap: () {
-                Get.to(ScenariosList(scenarioModel: AppData.scenarioCategories[index],));
+                Get.to(
+                  ScenariosList(
+                    scenarioModel: AppData.scenarioCategories[index],
+                  ),
+                );
               },
               child: Padding(
                 padding: EdgeInsetsGeometry.all(10),
@@ -110,23 +147,13 @@ class _HeaderState extends State<_Header> {
           AppStrings.isShowPracticeTabInfoBanner,
         ) ??
         true;
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            AppStrings.speakingPractice.tr,
-            style: TextStyle(
-              fontSize: 28,
-              fontWeight: FontWeight.w800,
-              fontFamily: AppStrings.nunitoFont,
-              color: Theme.of(context).textTheme.bodyMedium?.color,
-            ),
-          ),
-          SizedBox(height: isShowPracticeTabInfoBanner ? 15 : 0),
-          isShowPracticeTabInfoBanner
-              ? Stack(
+    return isShowPracticeTabInfoBanner
+        ? Padding(
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Stack(
                 children: [
                   Container(
                     padding: const EdgeInsets.all(16),
@@ -195,11 +222,11 @@ class _HeaderState extends State<_Header> {
                     ),
                   ),
                 ],
-              )
-              : const SizedBox(),
-        ],
-      ),
-    );
+              ),
+            ],
+          ),
+        )
+        : SizedBox();
   }
 }
 

@@ -24,6 +24,7 @@ class AppAssets {
   static String get key => _getFullLottiePath("key.lottie");
   static String get gemAnimation => _getFullLottiePath("gem.lottie");
   static String get streak => _getFullLottiePath("streak.lottie");  
+  static String get freeTalk => _getFullLottiePath("free_talk.lottie");
 
   static String get placeholder => _getFullImagePath("placeholder.png");
 

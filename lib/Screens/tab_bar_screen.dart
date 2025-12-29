@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Screens/FreeTalk/free_talk.dart';
 import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
@@ -65,25 +66,26 @@ class _TabBarScreenState extends State<TabBarScreen> {
         body: PageView(
           controller: globalController.cutomTabBarController,
           physics: NeverScrollableScrollPhysics(),
-          children: [HomeScreen(), PracticeSpeaking(), SettingScreens()],
+          children: [HomeScreen(), PracticeSpeaking(), FreeTalk(), SettingScreens()],
         ),
         bottomNavigationBar: Obx(
           () => BottomNavigationBar(
+            type: BottomNavigationBarType.fixed,
             onTap: (value) {
-              final tabName = value == 0 ? 'progress' : 'practice';
+              final tabNames = ['progress', 'practice', 'free_talk', 'settings'];
               PostHogService.instance.capture(
                 PostHogEvents.tabChanged,
                 properties: {
-                  'tab_name': tabName,
+                  'tab_name': tabNames[value],
                   'tab_index': value,
                   'screen_name': 'tab_bar_screen',
                 },
               );
               globalController.currentTabIndex.value = value;
-              globalController.cutomTabBarController.animateToPage(
+              globalController.cutomTabBarController.jumpToPage(
                 value,
-                duration: Duration(milliseconds: 300),
-                curve: Curves.easeIn,
+                // duration: Duration(milliseconds: 300),
+                // curve: Curves.easeIn,
               );
             },
             items: [
@@ -94,6 +96,10 @@ class _TabBarScreenState extends State<TabBarScreen> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.chat_bubble_outline),
                 label: AppStrings.practice.tr,
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.record_voice_over_rounded),
+                label: AppStrings.freeTalk.tr,
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.settings),

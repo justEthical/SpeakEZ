@@ -81,6 +81,9 @@ static const String c2Description = "c2Description";
 // Tab Bar
 static const String progress = "progress";
 static const String practice = "practice";
+static const String freeTalk = "freeTalk";
+static const String freeTalkDescription = "freeTalkDescription";
+static const String startFreeTalk = "startFreeTalk";
 static const String profile = "profile";
 static const String exit = "exit";
 static const String pressAgainToExit = "pressAgainToExit";
