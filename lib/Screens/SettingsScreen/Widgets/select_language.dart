@@ -26,10 +26,10 @@ class SelectLanguageBottomSheet extends StatelessWidget {
           for (var lang in AppData.appLanguages)
             ListTile(
               onTap: () {
+                Get.back();
                 Get.updateLocale(Locale(lang.code));
                 globalController.userProfile.value.appLanguage = lang.code;
                 globalController.updateProfile();
-                Get.back();
               },
               leading: Text(lang.flag),
               title: Text(lang.language),
