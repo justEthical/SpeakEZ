@@ -114,11 +114,20 @@ class AudioChunkRecorder {
     _recorder.start(config, path: path);
   }
 
-  Future<void> stopRecording() async{
+  Future<void> stopAndTranscribeWithDeepInfra() async{
+    final now = DateTime.now().millisecondsSinceEpoch;
     final dir = await getApplicationDocumentsDirectory();
     final path = '${dir.path}/recording.wav';
     await _recorder.stop();
     final result = await NetworkService.transcribeAudio(path);
+    final duration = DateTime.now().millisecondsSinceEpoch - now;
+    print("########  DURATION: $duration ########");
+    PostHogService.instance.capture(
+      PostHogEvents.deepInfraTranscribe,
+      properties: {
+        'duration': duration,
+      },
+    );
     if (result != null) {
       globalController.transcriptionText.value = result;
     }

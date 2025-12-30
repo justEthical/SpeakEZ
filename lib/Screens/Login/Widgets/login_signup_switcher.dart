@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 
 class LoginSignUpSwitch extends StatefulWidget {
@@ -33,8 +34,8 @@ class _LoginSignUpSwitchState extends State<LoginSignUpSwitch> {
               width: Get.width - 50,
               height: 40,
               child: Row(children: [
-                _buttonBackgroundText("Login"),
-                _buttonBackgroundText("Register"),
+                _buttonBackgroundText(AppStrings.login.tr.tr),
+                _buttonBackgroundText(AppStrings.register.tr.tr),
               ]),
             ),
             Obx(() => AnimatedContainer(
@@ -64,7 +65,7 @@ class _LoginSignUpSwitchState extends State<LoginSignUpSwitch> {
     return InkWell(
       onTap: () {
         c.isloginForm.value = !c.isloginForm.value;
-        c.switchButtonText.value = c.isloginForm.value ? "Login" : "Register";
+        c.switchButtonText.value = c.isloginForm.value ? AppStrings.login.tr.tr : AppStrings.register.tr.tr;
         // setState(() {});
       },
       child: SizedBox(

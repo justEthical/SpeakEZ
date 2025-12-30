@@ -108,7 +108,7 @@ class PracticeResultSreen extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
-            "Score: ${c.getOverAllScore(result)}/100",
+            "${AppStrings.score.tr}: ${c.getOverAllScore(result)}/100",
             style: TextStyle(
               fontSize: 36,
               fontFamily: AppStrings.nunitoFont,
@@ -154,38 +154,38 @@ class PracticeResultSreen extends StatelessWidget {
         ResultTile(
           onTap: () {},
           icon: AppAssets.fluency,
-          heading: 'Fluency (${scoreMap['fluency']}/10)',
+          heading: '${AppStrings.fluency.tr} (${scoreMap['fluency']}/10)',
           content: result.fluency,
           padding: 10,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.grammar,
-          heading: 'Grammar (${scoreMap['grammar']}/10)',
+          heading: '${AppStrings.grammar.tr} (${scoreMap['grammar']}/10)',
           content: result.grammar,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.vocabulary,
-          heading: 'Vocabulary (${scoreMap['vocabulary']}/10)',
+          heading: '${AppStrings.vocabulary.tr} (${scoreMap['vocabulary']}/10)',
           content: result.vocabulary,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.prononciation,
-          heading: 'Pronunciation (${scoreMap['pronunciation']}/10)',
+          heading: '${AppStrings.pronunciationLabel.tr} (${scoreMap['pronunciation']}/10)',
           content: result.pronunciation,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.totalSpeakingTime,
-          heading: 'Total Speaking Time',
-          content: '${c.formatDuration(c.totalSpeakingTime)} Minutes',
+          heading: AppStrings.totalSpeakingTime.tr,
+          content: '${c.formatDuration(c.totalSpeakingTime)} ${AppStrings.minutes.tr}',
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.tip,
-          heading: 'Suggestion',
+          heading: AppStrings.suggestion.tr,
           content: result.suggestion,
         ),
         InkWell(
@@ -209,7 +209,7 @@ class PracticeResultSreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Detailed Feedback',
+                  AppStrings.detailedFeedback.tr,
                   style: TextStyle(
                     color: Theme.of(context).colorScheme.primary,
                     fontSize: 16,
@@ -235,10 +235,11 @@ class PracticeResultSreen extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: ElevatedButton(
         onPressed: () {
+          globalController.userProfile.refresh(); // Refresh the user profile to update gem value 
           Get.back();
           final completedSessions =
               globalController.prefs?.getInt(
-                AppStrings.completedPracticeSessions,
+                AppStrings.completedPracticeSessions.tr,
               ) ??
               0;
           final isItTimeToShowCustomReview = completedSessions % 5;
@@ -258,7 +259,7 @@ class PracticeResultSreen extends StatelessWidget {
           ),
         ),
         child: Text(
-          "Done",
+          AppStrings.done.tr,
           style: TextStyle(
             color: Theme.of(context).scaffoldBackgroundColor,
             fontWeight: FontWeight.w800,

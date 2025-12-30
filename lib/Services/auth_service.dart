@@ -146,6 +146,7 @@ class AuthService {
     try {
       globalController.userProfile.value = UserProfileModel.fromMap({});
       await _googleSignIn.signOut();
+      await _googleSignIn.disconnect();
       await _auth.signOut();
     } catch (e) {
       PostHogService.instance.captureError(

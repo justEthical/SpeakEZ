@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 
@@ -40,8 +41,8 @@ class _LessonsExitAlertBottomSheetState
           ),
           Text(
             c.isUnlockTest
-                ? "⚠️ Exiting will immediately end this test. You will not be able to attempt any UNLOCK LEVEL TEST again until 24 hours have passed. Do you still want to Exit?"
-                : "Are you sure you want to exit and discard your current lessson's progress?",
+                ? "⚠️ ${AppStrings.exitUnlockTestWarning.tr}"
+                : AppStrings.exitLessonConfirmation.tr,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Theme.of(context).textTheme.bodyMedium?.color,
@@ -58,7 +59,7 @@ class _LessonsExitAlertBottomSheetState
               fixedSize: Size(Get.width, 45),
             ),
             child: Text(
-              c.isUnlockTest ? "Continue Test" : "Continue learning",
+              c.isUnlockTest ? AppStrings.continueTest.tr : AppStrings.continueLearning.tr,
               style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
             ),
           ),
@@ -70,7 +71,7 @@ class _LessonsExitAlertBottomSheetState
               Get.delete<QuestionOptionsController>(force: true);
             },
             child: Text(
-              "Exit and Discard",
+              AppStrings.exitAndDiscard.tr,
               style: TextStyle(color: Colors.red),
             ),
           ),

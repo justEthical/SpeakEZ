@@ -28,7 +28,7 @@ class StreakScreen extends StatelessWidget {
             gems != null ?  Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                _labelText(context, "You got: "),
+                _labelText(context, AppStrings.youGot.tr),
                 _labelText(context, gems.toString()),
                 Image.asset(AppAssets.gem, width: 20, height: 20),
               ],
@@ -48,7 +48,7 @@ class StreakScreen extends StatelessWidget {
 
             /// --- Streak Days ---
             Text(
-              "Your current Streak is ${profile.currentStreak} days",
+              "${AppStrings.yourCurrentStreakIs.tr} ${profile.currentStreak} ${AppStrings.days.tr}",
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: theme,
@@ -87,8 +87,8 @@ class StreakScreen extends StatelessWidget {
                     context,
                   ).colorScheme.primary.withValues(alpha: 0.1),
                 ),
-                child: const Text(
-                  "Close",
+                child: Text(
+                  AppStrings.close.tr,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 14,

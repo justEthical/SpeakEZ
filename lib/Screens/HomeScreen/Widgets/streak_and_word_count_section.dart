@@ -71,17 +71,17 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
                   () => _buildProgressCard(
                     onTap: () => Get.to(StreakScreen()),
                     context,
-                    title: "Current Streak",
+                    title: AppStrings.currentStreak.tr,
                     icon: AppAssets.flame,
                     progress:
-                        "${globalController.userProfile.value.currentStreak} days",
+                        "${globalController.userProfile.value.currentStreak} ${AppStrings.days.tr}",
                     color: Colors.deepOrange,
                   ),
                 ),
                 const SizedBox(width: 20),
                 _buildProgressCard(
                   context,
-                  title: "Words Learned",
+                  title: AppStrings.wordsLearned.tr,
                   icon: AppAssets.medal,
                   progress:
                       "${globalController.userProfile.value.wordLearned}",

@@ -62,7 +62,7 @@ class ScenariosList extends StatelessWidget {
                         children: [
                           Obx(
                             () => Text(
-                              "GEMS: ${globalController.userProfile.value.gems}"
+                              "${AppStrings.gems.tr}: ${globalController.userProfile.value.gems}"
                                   .toString(),
                               style: TextStyle(
                                 fontSize: 20,

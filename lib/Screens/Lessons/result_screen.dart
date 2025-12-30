@@ -67,13 +67,13 @@ class ResultScreen extends StatelessWidget {
                       _buildResultAnalyticCard(
                         context,
                         "${accuracy.toStringAsFixed(0)}%",
-                        "Accuracy",
+                        AppStrings.accuracy.tr,
                         Colors.green,
                       ),
                       _buildResultAnalyticCard(
                         context,
                         timeTookForQna,
-                        "Time Taken",
+                        AppStrings.timeTaken.tr,
                         Colors.blue,
                       ),
                     ],
@@ -92,7 +92,7 @@ class ResultScreen extends StatelessWidget {
 
   Widget _buildHeaderText(context) {
     return Text(
-      "Lesson Completed",
+      AppStrings.lessonCompleted.tr,
       textAlign: TextAlign.center,
       style: TextStyle(
         fontSize: 28,
@@ -237,7 +237,7 @@ class ResultScreen extends StatelessWidget {
         ),
       ),
       child: Text(
-        "Done",
+        AppStrings.done.tr,
         style: TextStyle(color: Theme.of(context).scaffoldBackgroundColor),
       ),
     );

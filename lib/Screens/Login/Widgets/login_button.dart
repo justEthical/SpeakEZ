@@ -1,5 +1,6 @@
 import 'package:flutter_svg/svg.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -9,7 +10,7 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 class SubmitButton extends StatelessWidget {
   final String title;
   final VoidCallback? onTap;
-  const SubmitButton({super.key, this.title = "Login", required this.onTap});
+  const SubmitButton({super.key, required this.title, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -49,6 +50,7 @@ class GoogleLoginButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final c = Get.find<OnboardingController>();
     return ElevatedButton(
       onPressed: () async {
         PostHogService.instance.capture(
@@ -80,7 +82,7 @@ class GoogleLoginButton extends StatelessWidget {
               child: SvgPicture.asset(AppAssets.google),
             ),
              Text(
-              "Login with Google",
+              "${c.isloginForm.value ? AppStrings.login.tr.tr : AppStrings.register.tr.tr} with Google",
               style: TextStyle(
                 fontSize: 16,
                 // fontWeight: FontWeight.w600,

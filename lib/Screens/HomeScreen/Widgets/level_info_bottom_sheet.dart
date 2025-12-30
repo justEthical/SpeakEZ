@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/utils.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 
 class LevelBottomSheet extends StatelessWidget {
   const LevelBottomSheet({super.key});
@@ -14,8 +16,8 @@ class LevelBottomSheet extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Text(
-                'Learn by Level',
+               Text(
+                AppStrings.learnByLevel.tr,
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               InkWell(
@@ -33,46 +35,45 @@ class LevelBottomSheet extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 16),
-          const LevelItem(
+           LevelItem(
             level: 'A1',
-            title: 'A1 Beginner',
-            description: 'Start learning the language',
+            title: AppStrings.a1Beginner.tr,
+            description: AppStrings.a1Description.tr,
             color: Color(0xFF4D8B6F),
           ),
           const SizedBox(height: 16),
-          const LevelItem(
+           LevelItem(
             level: 'A2',
-            title: 'A2 Elementary',
-            description: 'Can communicate using simple sentences',
+            title: AppStrings.a2Elementary.tr,
+            description: AppStrings.a2Description.tr,
             color: Color(0xFF4D8B6F),
           ),
           const SizedBox(height: 16),
-          const LevelItem(
+           LevelItem(
             level: 'B1',
-            title: 'B1 Intermediate',
-            description: 'Can describe scenes and express thoughts coherently',
+            title: AppStrings.b1Intermediate.tr,
+            description: AppStrings.b1Description.tr,
             color: Color(0xFF5875A6),
           ),
           const SizedBox(height: 16),
-          const LevelItem(
+           LevelItem(
             level: 'B2',
-            title: 'B2 Upper-Intermediate',
-            description:
-                'Can understand complex texts and express ideas effortlessly',
+            title: AppStrings.b2UpperIntermediate.tr,
+            description: AppStrings.b2Description.tr,
             color: Color(0xFF5875A6),
           ),
-          const SizedBox(height: 16),
-          const LevelItem(
+           const SizedBox(height: 16),
+           LevelItem(
             level: 'C1',
-            title: 'C1 Advanced',
-            description: 'Can communicate fluently with native speakers',
+            title: AppStrings.c1Advanced.tr,
+            description: AppStrings.c1Description.tr,
             color: Color(0xFFAA8B56),
           ),
           const SizedBox(height: 16),
-          const LevelItem(
+           LevelItem(
             level: 'C2',
-            title: 'C2 Expert',
-            description: 'Has mastered the language to a native level',
+            title: AppStrings.c2Expert.tr,
+            description: AppStrings.c2Description.tr,
             color: Color(0xFFAA8B56),
           ),
         ],

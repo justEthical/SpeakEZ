@@ -51,7 +51,7 @@ class QnaScreen extends StatelessWidget {
             icon: const Icon(Icons.arrow_back_ios_new_rounded),
           ),
           title: Text(
-            c.isUnlockTest ? lesson.lessonName : "Test Your Knowledge",
+            c.isUnlockTest ? lesson.lessonName : AppStrings.testYourKnowledge.tr,
             style: TextStyle(fontSize: 20, fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.bold),
           ),
         ),
@@ -86,11 +86,11 @@ class QnaScreen extends StatelessWidget {
                           text:
                               c
                                   .currentQuestionList[i]
-                                  .questionTranslation!["Hindi"]
+                                  .questionTranslation![globalController.getLessonTranslationLanguage()]
                                   .toString(),
                         ),
                         SizedBox(height: 10),
-                        question.audioText != null 
+                        question.audioText != null
                             ? ElevatedButton(
                               style:  ElevatedButton.styleFrom(
                                 backgroundColor: Theme.of(context).colorScheme.primary
@@ -110,7 +110,7 @@ class QnaScreen extends StatelessWidget {
                                 );
                               },
                               child: Text(
-                                "Listen 🔊",
+                                "${AppStrings.listen.tr} 🔊",
                                 style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                               ),
                             )

@@ -1,3 +1,4 @@
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -36,12 +37,12 @@ class _LoginSignUpState extends State<LoginSignUp> {
             // mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Obx(() => c.isloginForm.value
-                  ? const TopText(
-                      heading: "Welcome Back",
-                      subHeading: "Glad to see you again")
-                  : const TopText(
-                      heading: "Let's Start",
-                      subHeading: "Create your account in simple steps",
+                  ?  TopText(
+                      heading: AppStrings.welcomeBack.tr,
+                      subHeading: AppStrings.gladToSeeYouAgain.tr)
+                  :  TopText(
+                      heading: AppStrings.letsStart.tr,
+                      subHeading: AppStrings.createAccountInSimpleSteps.tr,
                     )),
               const SizedBox(
                 height: 15,

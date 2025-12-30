@@ -24,6 +24,7 @@ class AppAssets {
   static String get key => _getFullLottiePath("key.lottie");
   static String get gemAnimation => _getFullLottiePath("gem.lottie");
   static String get streak => _getFullLottiePath("streak.lottie");  
+  static String get freeTalk => _getFullLottiePath("free_talk.lottie");
 
   static String get placeholder => _getFullImagePath("placeholder.png");
 
@@ -50,6 +51,7 @@ class AppAssets {
   static String giftIcon = _getFullImagePath('gift.svg');
   static String logOut = _getFullImagePath('log-out.svg');
   static String deleteIcon = _getFullImagePath('trash.svg');
+  static String appLanguage = _getFullImagePath('app_language.svg');
 
   // Home
   static String flame = _getFullImagePath('flame-icon.svg');

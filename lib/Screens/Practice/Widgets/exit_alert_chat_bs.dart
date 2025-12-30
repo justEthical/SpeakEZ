@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 
@@ -38,7 +39,7 @@ class _ExitAlertChatBottomSheetState extends State<ExitAlertChatBottomSheet> {
             ),
           ),
           Text(
-            "Are you sure you want to exit and End this conversation",
+            AppStrings.exitChatConfirmation.tr,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Theme.of(context).textTheme.bodyMedium?.color,
@@ -55,7 +56,7 @@ class _ExitAlertChatBottomSheetState extends State<ExitAlertChatBottomSheet> {
               fixedSize: Size(Get.width, 45),
             ),
             child: Text(
-              "Continue learning",
+              AppStrings.continueLearning.tr,
               style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
             ),
           ),
@@ -68,7 +69,7 @@ class _ExitAlertChatBottomSheetState extends State<ExitAlertChatBottomSheet> {
               Get.back();
             },
             child: Text(
-              "Close and discard",
+              AppStrings.closeAndDiscard.tr,
               style: TextStyle(color: Colors.red),
             ),
           ),

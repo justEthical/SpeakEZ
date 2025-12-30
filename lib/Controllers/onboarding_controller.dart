@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/country_languages.dart';
@@ -12,6 +13,7 @@ import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Services/local_notification.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -59,38 +61,109 @@ class OnboardingController extends GetxController {
     return allowedDomains.contains(domain);
   }
 
-  void optionSelected(OnboardingQuestion model, String label) {
-    if (onboardingQuestionsController.page! < onboardingQuestions.length - 1) {
-      onboardingQuestionsController.nextPage(
-        duration: Duration(milliseconds: 300),
-        curve: Curves.easeIn,
-      );
-      currentOnboardingQuestionIndex.value++;
-      onboardingQuestionAnswerMap[model.id] = label;
+  Future<void> optionSelected(
+    OnboardingQuestion question,
+    String selectedLabel,
+  ) async {
+    await _saveAnswer(question, selectedLabel);
+
+    if (_hasNextQuestion()) {
+      _goToNextQuestion();
     } else {
-      onboardingQuestionAnswerMap[model.id] = label;
-      globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
-      var userProfileData = globalController.prefs?.getString(
-        AppStrings.userProfile,
-      );
-      Map<String, dynamic> userProfile = jsonDecode(userProfileData!);
-      userProfile.addAll(onboardingQuestionAnswerMap);
-      globalController.userProfile.value = UserProfileModel.fromMap(
-        userProfile,
-      );
-      FirestoreHelper.saveCurrentUserProfile(
-        globalController.userProfile.value,
-      );
-      globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
-      globalController.prefs?.setString(
-        AppStrings.userProfile,
-        jsonEncode(userProfile),
-      );
-      currentOnboardingQuestionIndex.value = 0;
-      onboardingQuestionAnswerMap.clear();
-      globalController.currentTabIndex.value = 0;
-      Get.offAll(() => const TabBarScreen());
+      await _completeOnboarding();
     }
+  }
+
+  Future<void> _saveAnswer(OnboardingQuestion question, String label) async {
+    switch (question.id) {
+      case "appLanguage":
+        onboardingQuestionAnswerMap[question.id] = getAppLanguageCode(label);
+        return;
+
+      case "preferredPracticeTime":
+        final time = await _resolvePracticeTime(question, label);
+        onboardingQuestionAnswerMap[question.id] = time;
+        final granted =
+            await LocalNotificationService().requestNotificationPermission();
+
+        if (granted) {
+          await LocalNotificationService().scheduleDailyReminder(time: time);
+        }
+        return;
+
+      default:
+        onboardingQuestionAnswerMap[question.id] = label;
+        return;
+    }
+  }
+
+  Future<String> _resolvePracticeTime(
+    OnboardingQuestion question,
+    String label,
+  ) async {
+    // Custom time option (last option)
+    if (label == question.options.last) {
+      final pickedTime = await pickPracticeTime(Get.context!);
+      return pickedTime ?? "17:00"; // fallback
+    }
+
+    // Preset time options
+    if (label == question.options.first) {
+      return "08:00"; // Morning
+    }
+
+    if (label == question.options[1]) {
+      return "12:00"; // Afternoon
+    }
+
+    return "18:00"; // Evening
+  }
+
+  bool _hasNextQuestion() {
+    return onboardingQuestionsController.page! < onboardingQuestions.length - 1;
+  }
+
+  void _goToNextQuestion() {
+    onboardingQuestionsController.nextPage(
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeIn,
+    );
+    currentOnboardingQuestionIndex.value++;
+  }
+
+  Future<void> _completeOnboarding() async {
+    globalController.prefs?.setString(AppStrings.userAuthState, "loggedIn");
+
+    final userProfileData = globalController.prefs?.getString(
+      AppStrings.userProfile,
+    );
+
+    final Map<String, dynamic> userProfile = jsonDecode(userProfileData!);
+
+    userProfile.addAll(onboardingQuestionAnswerMap);
+
+    globalController.userProfile.value = UserProfileModel.fromMap(userProfile);
+
+    // await FirestoreHelper.saveCurrentUserProfile(
+    //   globalController.userProfile.value,
+    // );
+
+    // globalController.prefs?.setString(
+    //   AppStrings.userProfile,
+    //   jsonEncode(userProfile),
+    // );
+
+    globalController.updateProfile();
+
+    _resetOnboardingState();
+
+    Get.offAll(() => const TabBarScreen());
+  }
+
+  void _resetOnboardingState() {
+    currentOnboardingQuestionIndex.value = 0;
+    onboardingQuestionAnswerMap.clear();
+    globalController.currentTabIndex.value = 0;
   }
 
   Future<void> emailLogin(String email, String password) async {
@@ -98,7 +171,9 @@ class OnboardingController extends GetxController {
     final userData = await AuthService.loginWithEmail(email, password);
     if (userData?.user != null) {
       final notificationTokken = await FirebaseMessaging.instance.getToken();
-      await FirestoreHelper.updateUserField({'notificationToken': notificationTokken ?? ''}); 
+      await FirestoreHelper.updateUserField({
+        'notificationToken': notificationTokken ?? '',
+      });
       final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
       if (userProfile != null) {
         globalController.userProfile.value = userProfile;
@@ -151,7 +226,9 @@ class OnboardingController extends GetxController {
         Get.offAll(() => OnboarindQuestions());
       } else {
         final notificationTokken = await FirebaseMessaging.instance.getToken();
-        await FirestoreHelper.updateUserField({'notificationToken': notificationTokken ?? ''}); 
+        await FirestoreHelper.updateUserField({
+          'notificationToken': notificationTokken ?? '',
+        });
         final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
         if (userProfile != null) {
           globalController.userProfile.value = userProfile;
@@ -206,6 +283,7 @@ class OnboardingController extends GetxController {
       gems: 500,
       weekDaysStreak: WeekDaysStreak.fromMap({}),
       registrationTime: DateTime.now(),
+      appLanguage: onboardingQuestionAnswerMap['appLanguage'] ?? 'en',
     );
     globalController.userProfile.value = userProfile;
     globalController.prefs?.setString(
@@ -214,6 +292,37 @@ class OnboardingController extends GetxController {
     );
     FirestoreHelper.saveCurrentUserProfile(globalController.userProfile.value);
     CustomLoader.hideLoader();
+  }
+
+  String getAppLanguageCode(label) {
+    final lang = label.split(" ").last;
+    for (var language in AppData.appLanguages) {
+      if (language.language == lang) {
+        return language.code;
+      }
+    }
+    return "en";
+  }
+
+  Future<String?> pickPracticeTime(BuildContext context) async {
+    final TimeOfDay? selectedTime = await showTimePicker(
+      context: context,
+      initialTime: const TimeOfDay(hour: 8, minute: 0), // default
+    );
+
+    if (selectedTime != null) {
+      // Save time (e.g. 08:00)
+      print('Selected time: ${selectedTime.format(context)}');
+      return formatTimeOfDay(selectedTime);
+      // TODO: store + schedule notification
+    }
+    return null;
+  }
+
+  String formatTimeOfDay(TimeOfDay time) {
+    final hour = time.hour.toString().padLeft(2, '0');
+    final minute = time.minute.toString().padLeft(2, '0');
+    return '$hour:$minute';
   }
 
   void addLanguageBasedQuestionInOnboarding() async {
@@ -229,5 +338,16 @@ class OnboardingController extends GetxController {
         );
       }
     }
+    onboardingQuestions.add(
+      OnboardingQuestion(
+        id: "appLanguage",
+        question: "Select App Language. You can change it later from settings",
+        options: List.generate(
+          AppData.appLanguages.length,
+          (i) =>
+              "${AppData.appLanguages[i].flag} ${AppData.appLanguages[i].language}",
+        ),
+      ),
+    );
   }
 }

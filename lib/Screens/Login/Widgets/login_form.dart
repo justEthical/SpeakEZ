@@ -1,4 +1,5 @@
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/Login/Widgets/Or_separator.dart';
 import 'package:speak_ez/Screens/Login/Widgets/custom_text_field.dart';
@@ -19,21 +20,21 @@ class LoginForm extends StatelessWidget {
         children: [
           CustomTextField(
             textCtrl: c.emailController,
-            hintText: "Enter Email...",
+            hintText: AppStrings.enterEmail.tr,
             leadingIcon: AppAssets.atIcon,
-            title: "Email",
+            title: AppStrings.email.tr.tr,
             isPassword: false,
           ),
           const SizedBox(height: 20),
           CustomTextField(
             textCtrl: c.passwordController,
-            hintText: "Enter password...",
+            hintText: AppStrings.enterPassword.tr,
             leadingIcon: AppAssets.lockIcon,
-            title: "Password",
+            title: AppStrings.password.tr,
             isPassword: true,
           ),
           const SizedBox(height: 40),
-          SubmitButton(
+          SubmitButton(title: AppStrings.login.tr.tr,
             onTap: () async {
               if (c.loginFormKey.currentState!.validate()) {
                 c.emailLogin(
