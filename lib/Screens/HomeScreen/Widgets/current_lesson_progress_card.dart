@@ -113,7 +113,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Current Level: ${userProfile.currentEnglishLevel}",
+                      "${AppStrings.currentLevel.tr}: ${userProfile.currentEnglishLevel}",
                       style: TextStyle(
                         fontSize: 16,
                         fontFamily: AppStrings.nunitoFont,
@@ -125,7 +125,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                     Text(
                       lessonNames.isNotEmpty
                           ? lessonNames[userProfile.currentEnglishLevelProgress]
-                          : "Introduction",
+                          : AppStrings.introduction.tr,
                       style: TextStyle(
                         fontSize: 22,
                         fontFamily: AppStrings.nunitoFont,
@@ -210,7 +210,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                 ),
                                 child: Center(
                                   child: Text(
-                                    progress == 0.0 ? "Start Learning" : "Continue Learning",
+                                    progress == 0.0 ? 'startLearning'.tr : 'continueLearning'.tr,
                                     style: TextStyle(
                                       fontSize: 16,
                                       fontFamily: AppStrings.nunitoFont,

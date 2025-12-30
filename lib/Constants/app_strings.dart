@@ -9,6 +9,175 @@ class AppStrings {
       "https://docs.google.com/document/d/1JZ3ysesz4XjXubRnxb_FaPu_E3PoYSHXQ76VJC35P6s/edit?usp=sharing";
   static const String appPlayStoreUrl = "https://play.google.com/store/apps/details?id=com.english.learning.speakez.ai";
 
+  // ============== UI STRINGS ==============
+static const String login = "login";
+static const String register = "register";
+static const String email = "email";
+static const String password = "password";
+static const String confirmPassword = "confirmPassword";
+static const String fullName = "fullName";
+static const String enterEmail = "enterEmail";
+static const String enterPassword = "enterPassword";
+static const String welcomeBack = "welcomeBack";
+static const String gladToSeeYouAgain = "gladToSeeYouAgain";
+static const String letsStart = "letsStart";
+static const String createAccountInSimpleSteps = "createAccountInSimpleSteps";
+static const String or = "or";
+static const String loginWithGoogle = "loginWithGoogle";
+static const String registerWithGoogle = "registerWithGoogle";
+static const String byContinuingYouAgree = "byContinuingYouAgree";
+static const String termsOfService = "termsOfService";
+static const String and = "and";
+static const String privacyPolicy = "privacyPolicy";
+
+// Settings
+static const String settings = "settings";
+static const String help = "help";
+static const String rateUs = "rateUs";
+static const String rateUsOnGooglePlay = "rateUsOnGooglePlay";
+static const String referToFriend = "referToFriend";
+static const String shareWithFriends = "shareWithFriends";
+static const String logout = "logout";
+static const String deleteAccount = "deleteAccount";
+static const String deleteAccountAndData = "deleteAccountAndData";
+static const String reauthenticatePrompt = "reauthenticatePrompt";
+static const String reauthenticate = "reauthenticate";
+static const String error = "error";
+static const String pleaseEnterPassword = "pleaseEnterPassword";
+
+// Home Screen
+static const String hi = "hi";
+static const String currentStreak = "currentStreak";
+static const String wordsLearned = "wordsLearned";
+static const String days = "days";
+static const String currentLevel = "currentLevel";
+static const String introduction = "introduction";
+static const String startLearning = "startLearning";
+static const String continueLearning = "continueLearning";
+static const String learnByLevel = "learnByLevel";
+static const String seeAll = "seeAll";
+static const String lessons = "lessons";
+static const String levelLessons = "levelLessons";
+static const String completed = "completed";
+static const String retest = "retest";
+static const String close = "close";
+static const String youGot = "youGot";
+static const String yourCurrentStreakIs = "yourCurrentStreakIs";
+
+// Level Bottom Sheet
+static const String a1Beginner = "a1Beginner";
+static const String a1Description = "a1Description";
+static const String a2Elementary = "a2Elementary";
+static const String a2Description = "a2Description";
+static const String b1Intermediate = "b1Intermediate";
+static const String b1Description = "b1Description";
+static const String b2UpperIntermediate = "b2UpperIntermediate";
+static const String b2Description = "b2Description";
+static const String c1Advanced = "c1Advanced";
+static const String c1Description = "c1Description";
+static const String c2Expert = "c2Expert";
+static const String c2Description = "c2Description";
+
+// Tab Bar
+static const String progress = "progress";
+static const String practice = "practice";
+static const String freeTalk = "freeTalk";
+static const String freeTalkDescription = "freeTalkDescription";
+static const String startFreeTalk = "startFreeTalk";
+static const String profile = "profile";
+static const String exit = "exit";
+static const String pressAgainToExit = "pressAgainToExit";
+
+// Onboarding
+static const String previous = "previous";
+static const String next = "next";
+static const String back = "back";
+static const String tellUsAboutYourself = "tellUsAboutYourself";
+static const String helpUsPersonalize = "helpUsPersonalize";
+
+// Lesson Screens
+static const String levelUnlockTest = "levelUnlockTest";
+static const String welcomeToTheLesson = "welcomeToTheLesson";
+static const String unlockTestScoreRequirement = "unlockTestScoreRequirement";
+static const String level = "level";
+static const String start = "start";
+static const String vocabulary = "vocabulary";
+static const String grammarTips = "grammarTips";
+static const String testYourKnowledge = "testYourKnowledge";
+static const String noVocabularyAvailable = "noVocabularyAvailable";
+static const String noGrammarTipsAvailable = "noGrammarTipsAvailable";
+static const String autoSpeak = "autoSpeak";
+static const String prev = "prev";
+static const String done = "done";
+static const String meaning = "meaning";
+static const String exampleSentences = "exampleSentences";
+static const String listen = "listen";
+static const String check = "check";
+
+// Answer Result Bottom Sheet
+static const String correctAnswer = "correctAnswer";
+static const String wrongAnswer = "wrongAnswer";
+
+// Lesson Exit Alert
+static const String exitUnlockTestWarning = "exitUnlockTestWarning";
+static const String exitLessonConfirmation = "exitLessonConfirmation";
+static const String continueTest = "continueTest";
+static const String exitAndDiscard = "exitAndDiscard";
+
+// Speaking Question
+static const String tapToStop = "tapToStop";
+static const String processing = "processing";
+static const String listening = "listening";
+
+// Result Screen
+static const String lessonCompleted = "lessonCompleted";
+static const String accuracy = "accuracy";
+static const String timeTaken = "timeTaken";
+
+// Practice Screen
+static const String speakingPractice = "speakingPractice";
+static const String practiceWithNatasha = "practiceWithNatasha";
+static const String selectScenarioToStart = "selectScenarioToStart";
+static const String downloadingNatashaAI = "downloadingNatashaAI";
+static const String downloadInfo = "downloadInfo";
+static const String gems = "gems";
+static const String startPractice = "startPractice";
+static const String viewResults = "viewResults";
+
+// Chat Exit Alert
+static const String exitChatConfirmation = "exitChatConfirmation";
+static const String closeAndDiscard = "closeAndDiscard";
+
+// Practice Result Screen
+static const String score = "score";
+static const String fluency = "fluency";
+static const String grammar = "grammar";
+static const String pronunciationLabel = "pronunciationLabel";
+static const String totalSpeakingTime = "totalSpeakingTime";
+static const String suggestion = "suggestion";
+static const String detailedFeedback = "detailedFeedback";
+static const String minutes = "minutes";
+
+// Dialogs
+static const String areYouSureLogout = "areYouSureLogout";
+static const String yes = "yes";
+static const String cancel = "cancel";
+static const String openSettings = "openSettings";
+static const String areYouSureDeleteAccount = "areYouSureDeleteAccount";
+static const String delete = "delete";
+static const String levelLockedMessage = "levelLockedMessage";
+static const String unlock = "unlock";
+static const String view = "view";
+static const String unlockTest = "unlockTest";
+static const String canUnlockIn = "canUnlockIn";
+static const String hours = "hours";
+static const String startingPracticeWillUse = "startingPracticeWillUse";
+static const String watchAdGetGems = "watchAdGetGems";
+
+// Review Screen
+static const String pleaseRateYourExperience = "pleaseRateYourExperience";
+
+
   // static const String initialMessage =
   //     "Hi, I’m Natasha, your English speaking practice partner! Let’s have a conversation and improve your English together. Feel free to say anything or ask me questions. Ready to start chatting?";
   static const String systemPrompt =

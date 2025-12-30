@@ -43,7 +43,7 @@ class CustomReviewScreen extends StatelessWidget {
             Flexible(
               flex: 1,
               child: Text(
-                "Please rate your experience",
+                AppStrings.pleaseRateYourExperience.tr.tr,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
@@ -137,8 +137,8 @@ class _HighlightButtonState extends State<HighlightButton>
               borderRadius: BorderRadius.circular(12),
             ),
           ),
-          child: const Text(
-            'Rate Us',
+          child: Text(
+            AppStrings.rateUs.tr.tr,
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.w800,

@@ -107,7 +107,7 @@ class OnboardingScreen extends StatelessWidget {
                                     );
                               },
                               child: Text(
-                                "Previous",
+                                AppStrings.previous.tr,
                                 style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
                               ),
                             )
@@ -139,7 +139,7 @@ class OnboardingScreen extends StatelessWidget {
                       }
                       c.currentOnboardingIndex.value++;
                     },
-                    child: Text("Next", style: TextStyle(color: Theme.of(context).colorScheme.onPrimary)),
+                    child: Text(AppStrings.next.tr, style: TextStyle(color: Theme.of(context).colorScheme.onPrimary)),
                   ),
                 ],
               ),

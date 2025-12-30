@@ -6,6 +6,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/answer_result_bottom_sheet.dart';
@@ -13,6 +14,7 @@ import 'package:speak_ez/Screens/Lessons/Widgets/lessons_exit_alert_bs.dart';
 import 'package:speak_ez/Screens/Lessons/result_screen.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Utils/audio_chunk_recorder.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
@@ -252,6 +254,27 @@ class QuestionOptionsController extends GetxController {
     });
   }
 
+  Future<bool> getMicrophonePermission() async {
+    final status = await Permission.microphone.status;
+    if (status.isGranted) {
+      return true;
+    } else if (status.isPermanentlyDenied) {
+      Get.defaultDialog(
+        titleStyle: const TextStyle(fontSize: 0),
+        content: CustomDialogs.enablePermissionFromSettings(
+          Get.context!,
+          'Please enable microphone permission from settings.',
+        ),
+      );
+    } else {
+      final status = await Permission.microphone.request();
+      if (status.isGranted) {
+        return true;
+      }
+    }
+    return false;
+  }
+
   void googleSpeechToText() {
     isListeningLessonAnswer.value = true;
     stt.startListening(
@@ -279,10 +302,13 @@ class QuestionOptionsController extends GetxController {
     );
   }
 
-  void stopRecording() {
+  void stopRecording() async {
     _timer?.cancel();
-    recorder.stop(isFromLesson: true);
     isAudioProcessing.value = true;
+    await Future.delayed(Duration(milliseconds: 1500));
+    await recorder.stop(isFromLesson: true);
+    // BELOW COMMENTED CODE IS FOR WHISPER TRANSCRIPTION
+    /*
     sub = globalController.isLastChunkTranscribed.listen((val) {
       if (val) {
         print(globalController.transcriptionText.value);
@@ -303,7 +329,10 @@ class QuestionOptionsController extends GetxController {
         remainingSeconds.value = 10;
         sub.cancel();
       }
-    });
+    }); */
+    isAudioProcessing.value =
+        false; // this code can be removed on implementation of whisper transcription
+    isListeningLessonAnswer.value = false;
     stt.cancelListening();
   }
 
@@ -417,11 +446,11 @@ Mistakes are your secret weapon to get better. 💥
   }
 
   void showInterstitialAd() {
-    final difference = DateTime.now()
+    final difference =
+        DateTime.now()
             .difference(globalController.userProfile.value.registrationTime)
             .inDays;
-    if (difference >
-        2) {
+    if (difference > 2) {
       GoogleMobileAdsService.instance.showInterstitial();
     }
   }

@@ -58,13 +58,16 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
     });
   }
 
-  void _navigateToQuestions() {
-    if (c.lessonModel!.lessonType == LessonType.unlockTest) {
-      // unlock lesson test flow
-      Get.off(QnaScreen(lesson: c.lessonModel!));
-    } else {
-      // Regular lesson flow
-      Get.off(VocalbularyScreen(lesson: c.lessonModel!));
+  void _navigateToQuestions() async {
+    final status = await c.getMicrophonePermission();
+    if (status) {
+      if (c.lessonModel!.lessonType == LessonType.unlockTest) {
+        // unlock lesson test flow
+        Get.off(QnaScreen(lesson: c.lessonModel!));
+      } else {
+        // Regular lesson flow
+        Get.off(VocalbularyScreen(lesson: c.lessonModel!));
+      }
     }
   }
 
@@ -118,8 +121,8 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                     SizedBox(width: Get.width, height: 20),
                     Text(
                       c.lessonModel!.lessonType == LessonType.unlockTest
-                          ? "Level Unlock Test"
-                          : "Welcome to the lesson",
+                          ? AppStrings.levelUnlockTest.tr
+                          : AppStrings.welcomeToTheLesson.tr,
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
@@ -142,7 +145,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                         ? Container(
                           margin: EdgeInsets.symmetric(horizontal: 10),
                           child: Text(
-                            "You have to score more than 80% to unlock the ${widget.englishLevel} level",
+                            "${AppStrings.unlockTestScoreRequirement.tr} ${widget.englishLevel} ${AppStrings.level.tr}",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 20,
@@ -164,7 +167,7 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                         fixedSize: Size(Get.width - 30, 50),
                       ),
                       child: Text(
-                        "Start",
+                        AppStrings.start.tr,
                         style: TextStyle(
                           color: Theme.of(context).colorScheme.onPrimary,
                           fontWeight: FontWeight.w600,

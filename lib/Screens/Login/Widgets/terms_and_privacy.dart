@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -14,9 +15,9 @@ class TermsAndPrivacy extends StatelessWidget {
       text: TextSpan(
         style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color),
         children: <TextSpan>[
-          const TextSpan(text: 'By continuing, you agree to our '),
+           TextSpan(text: AppStrings.byContinuingYouAgree.tr),
           TextSpan(
-            text: 'Terms of Service',
+            text: AppStrings.termsOfService.tr,
             style: const TextStyle(decoration: TextDecoration.underline),
             // You can add a tap gesture recognizer here to handle clicks
             recognizer:
@@ -26,9 +27,9 @@ class TermsAndPrivacy extends StatelessWidget {
                     _launchUrl(AppStrings.termsAndConditionsUrl);
                   },
           ),
-          const TextSpan(text: ' and '),
+           TextSpan(text: AppStrings.and.tr),
           TextSpan(
-            text: 'Privacy Policy',
+            text: AppStrings.privacyPolicy.tr,
             style: const TextStyle(decoration: TextDecoration.underline),
             // You can add a tap gesture recognizer here to handle clicks
             recognizer:

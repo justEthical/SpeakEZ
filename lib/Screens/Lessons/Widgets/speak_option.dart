@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
@@ -34,7 +35,7 @@ class _SpeakOptionState extends State<SpeakOption> {
                   children: [
                     !c.isAudioProcessing.value
                         ? Text(
-                          "Tap to stop",
+                          AppStrings.tapToStop.tr,
                           style: TextStyle(
                             color: Theme.of(context).colorScheme.primary,
                             fontSize: 12,
@@ -97,8 +98,8 @@ class _SpeakOptionState extends State<SpeakOption> {
                     SizedBox(height: 5),
                     Text(
                       c.isAudioProcessing.value
-                          ? "Processing..."
-                          : "Listening...",
+                          ? AppStrings.processing.tr
+                          : AppStrings.listening.tr,
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.primary,
                         fontSize: 12,
@@ -118,18 +119,25 @@ class _SpeakOptionState extends State<SpeakOption> {
                   ),
                   child: IconButton(
                     onPressed: () async {
-                      final micPermission =
-                          await Permission.microphone.request();
-                      if (micPermission.isGranted) {
+                      final status = await Permission.microphone.status;
+
+                      if (status.isPermanentlyDenied) {
+                        await Permission.microphone.request();
+                      }
+                      if (status.isGranted) {
                         // if(globalController.isWhisperInitialized.value){
-                          // c.startRecording();
+                        // c.startRecording();
                         // }else{
-                          // used when whisper model is not initialized or not present
-                          c.googleSpeechToText();
+                        // used when whisper model is not initialized or not present
+                        c.googleSpeechToText();
                         // }
                       }
                     },
-                    icon: Icon(Icons.mic, color: Theme.of(context).colorScheme.onPrimary, size: 40),
+                    icon: Icon(
+                      Icons.mic,
+                      color: Theme.of(context).colorScheme.onPrimary,
+                      size: 40,
+                    ),
                   ),
                 ),
       ),

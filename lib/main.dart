@@ -13,13 +13,18 @@ import 'package:posthog_flutter/posthog_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarding_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
+import 'package:speak_ez/Services/local_notification.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
- import 'package:speak_ez/Utils/theme.dart';
+import 'package:speak_ez/Utils/localization_translation.dart';
+import 'package:speak_ez/Utils/theme.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
 
 import 'Controllers/global_controller.dart';
 
@@ -28,7 +33,7 @@ void main() async {
   await Firebase.initializeApp();
   unawaited(MobileAds.instance.initialize());
   await dotenv.load(fileName: ".env");
-
+  LocalNotificationService().init();
   await PostHogService.instance.initialize();
 
   await SystemChrome.setPreferredOrientations([
@@ -68,11 +73,26 @@ class AppEntry extends StatelessWidget {
   Widget build(BuildContext context) {
     return PostHogWidget(
       child: GetMaterialApp(
+        translations: AppTranslations(),
+        locale: Get.deviceLocale, // default
+        fallbackLocale: const Locale('en'),
+        supportedLocales: const [
+          Locale('en'),
+          Locale('ja'),
+          Locale('hi'),
+          Locale('es'),
+        ],
+        localizationsDelegates: const [
+          GlobalMaterialLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
         debugShowCheckedModeBanner: false,
         defaultTransition: Transition.cupertino,
         initialBinding: BindingsBuilder(() {
           Get.put(GlobalController());
           Get.put(OnboardingController());
+          Get.lazyPut<PracticeController>(() => PracticeController(), fenix: true);
         }),
         navigatorObservers: [PosthogObserver()],
         theme: lightTheme,

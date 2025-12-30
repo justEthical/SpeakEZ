@@ -25,6 +25,7 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+        isCoreLibraryDesugaringEnabled = true
     }
 
     kotlinOptions {
@@ -75,6 +76,9 @@ dependencies {
   implementation("com.google.firebase:firebase-crashlytics")
   implementation("com.google.firebase:firebase-crashlytics-ndk")
 
+  // ✅ REQUIRED for flutter_local_notifications
+  coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+  
   // TODO: Add the dependencies for Firebase products you want to use
   // When using the BoM, don't specify versions in Firebase dependencies
   // https://firebase.google.com/docs/android/setup#available-libraries

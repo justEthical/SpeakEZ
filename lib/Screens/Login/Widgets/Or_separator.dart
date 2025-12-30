@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/utils.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 
 class OrSeparator extends StatelessWidget {
   const OrSeparator({super.key});
@@ -19,9 +21,9 @@ class OrSeparator extends StatelessWidget {
           decoration: BoxDecoration(
               color: Colors.grey.withOpacity(0.2),
               borderRadius: BorderRadius.circular(20)),
-          child: const Center(
+          child:  Center(
             child: Text(
-              "OR",
+              AppStrings.or.tr,
               style: TextStyle(
                 fontSize: 12,
               ),

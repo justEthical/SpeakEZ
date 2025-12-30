@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get_utils/src/extensions/export.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -48,13 +49,13 @@ class VocabularyData extends StatelessWidget {
           SizedBox(height: 8),
           Center(
             child: TranslationTextView(
-              text: vocabularyItem.wordTranslation!["Hindi"].toString(),
+              text: vocabularyItem.wordTranslation![globalController.getLessonTranslationLanguage()].toString(),
               
             ),
           ),
           SizedBox(height: 18),
           Text(
-            "Meaning:",
+            AppStrings.meaning.tr,
             textAlign: TextAlign.start,
             style: TextStyle(
               fontSize: 17,
@@ -74,12 +75,12 @@ class VocabularyData extends StatelessWidget {
           ),
           SizedBox(height: 8),
           TranslationTextView(
-            text: vocabularyItem.meaningTranslation!["Hindi"].toString(),
+            text: vocabularyItem.meaningTranslation![globalController.getLessonTranslationLanguage()].toString(),
           ),
           
           SizedBox(height: 18),
           Text(
-            "Example Sentence(s)",
+            AppStrings.exampleSentences.tr,
             style: TextStyle(
               fontSize: 17,
               fontFamily: AppStrings.poppinsFont,
@@ -106,7 +107,7 @@ class VocabularyData extends StatelessWidget {
                     SizedBox(height: 8),
                     TranslationTextView(
                       text:
-                          vocabularyItem.examples[index].translation!["Hindi"]
+                          vocabularyItem.examples[index].translation![globalController.userProfile.value.motherTongue]
                               .toString(),
                     ),
                     SizedBox(height: 18),

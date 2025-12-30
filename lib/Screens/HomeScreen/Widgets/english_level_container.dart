@@ -189,7 +189,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                               ],
                             ),
                             Text(
-                              "${widget.lessons} Lessons",
+                              "${widget.lessons} ${AppStrings.lessons.tr}",
                               style: TextStyle(
                                 fontFamily: AppStrings.nunitoFont,
                                 color: Colors.white.withOpacity(0.9),

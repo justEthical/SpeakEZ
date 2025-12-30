@@ -96,4 +96,9 @@ class PostHogEvents {
   
   static const String remoteConfigFetched = 'remote_config_fetched';
   static const String remoteConfigActivated = 'remote_config_activated';
+  static const String deepInfraTranscribe = 'deepinfra_transcribe';
+
+  static const String freeTalkScreenViewed = 'free_talk_screen_viewed';
+  static const String freeTalkStarted = 'free_talk_started';
+  static const String freeTalkCompleted = 'free_talk_completed';
 }

@@ -98,3 +98,13 @@ final List<CountryLanguage> countryLanguages = [
     "English", "Swahili"
   ])
 ];
+
+class LanguageCode{
+  final String language;
+  final String code;
+  final String countryCode;
+  final String flag;
+  final String englishName;
+
+  LanguageCode({required this.language, required this.code, required this.countryCode, required this.flag, required this.englishName});
+}

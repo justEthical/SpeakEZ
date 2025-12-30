@@ -3,9 +3,11 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/reauthentication_bottom_sheet.dart';
+import 'package:speak_ez/Screens/SettingsScreen/Widgets/select_language.dart';
 import 'package:speak_ez/Screens/SettingsScreen/Widgets/settings_option_tile.dart';
 import 'package:speak_ez/Utils/common_widgets.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
@@ -41,7 +43,7 @@ class SettingScreens extends StatelessWidget {
                     children: [
                       SizedBox(width: 20),
                       Text(
-                        "Settings",
+                        AppStrings.settings.tr,
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.w700,
@@ -50,8 +52,12 @@ class SettingScreens extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
-                      SizedBox(width: 18, height: 30, child: Image.asset(AppAssets.gem),),
-                      SizedBox(width: 8,),
+                      SizedBox(
+                        width: 18,
+                        height: 30,
+                        child: Image.asset(AppAssets.gem),
+                      ),
+                      SizedBox(width: 8),
                       Text(
                         globalController.userProfile.value.gems.toString(),
                         style: TextStyle(
@@ -61,7 +67,7 @@ class SettingScreens extends StatelessWidget {
                           fontFamily: AppStrings.nunitoFont,
                         ),
                       ),
-                      SizedBox(width: 20,)
+                      SizedBox(width: 20),
                     ],
                   ),
                   SizedBox(height: 15),
@@ -123,74 +129,99 @@ class SettingScreens extends StatelessWidget {
 
           Padding(
             padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
-            child: Column(
-              children: [
-                SettingsOptionTile(
-                  onTap: () {
-                    globalController.openUrl(AppStrings.privacyPolicyUrl);
-                  },
-                  heading: "Help",
-                  content: "Privacy Policy",
-                  icon: AppAssets.helpCircle,
-                ),
-                SettingsOptionTile(
-                  onTap: () {
-                    globalController.openUrl(AppStrings.appPlayStoreUrl);
-                  },
-                  heading: "Rate Us",
-                  content: "Rate us on Google play",
-                  icon: AppAssets.starIcon,
-                ),
-                SettingsOptionTile(
-                  onTap: () async {
-                    await SharePlus.instance.share(
-                      ShareParams(
-                        text:
-                            '${AppStrings.appShareMessage}\n${AppStrings.appPlayStoreUrl}',
-                      ),
-                    );
-                  },
-                  heading: "Refer to Friend",
-                  content: "Share it with your friends",
-                  icon: AppAssets.giftIcon,
-                ),
-                SettingsOptionTile(
-                  onTap: () async {
-                    Get.defaultDialog(
-                      titleStyle: const TextStyle(fontSize: 0),
-                      content: CustomDialogs.logoutDialog(Get.context!),
-                    );
-                  },
-                  icon: AppAssets.logOut,
-                  content: "Logout",
-                ),
-                SettingsOptionTile(
-                  onTap: () async {
-                    // Get.dialog(CustomDialogs.deleteConfirmationDialog());
-                    showModalBottomSheet(
-                      context: context,
-                      isScrollControlled: true,
-                      builder: (ctx) {
-                        return ReauthenticationBottomSheet();
+            child: SizedBox(
+              height: Get.height - 275,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    SettingsOptionTile(
+                      onTap: () {
+                        globalController.openUrl(
+                          AppStrings.privacyPolicyUrl.tr,
+                        );
                       },
-                    );
-                  },
-                  icon: AppAssets.deleteIcon,
-                  heading: 'Delete Account',
-                  content: 'Delete account and data',
-                ),
-                SizedBox(height: 20),
-                Obx(
-                  () => Text(
-                    globalController.appVersion.value,
-                    style: GoogleFonts.bebasNeue(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w900,
-                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.4),
+                      heading: AppStrings.help.tr,
+                      content: AppStrings.privacyPolicy.tr,
+                      icon: AppAssets.helpCircle,
                     ),
-                  ),
+                    SettingsOptionTile(
+                      onTap: () {
+                        globalController.openUrl(AppStrings.appPlayStoreUrl);
+                      },
+                      heading: AppStrings.rateUs.tr,
+                      content: AppStrings.rateUsOnGooglePlay.tr,
+                      icon: AppAssets.starIcon,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        await SharePlus.instance.share(
+                          ShareParams(
+                            text:
+                                '${AppStrings.appShareMessage}\n${AppStrings.appPlayStoreUrl}',
+                          ),
+                        );
+                      },
+                      heading: AppStrings.referToFriend.tr,
+                      content: AppStrings.shareWithFriends.tr,
+                      icon: AppAssets.giftIcon,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        Get.defaultDialog(
+                          titleStyle: const TextStyle(fontSize: 0),
+                          content: CustomDialogs.logoutDialog(Get.context!),
+                        );
+                      },
+                      icon: AppAssets.logOut,
+                      content: AppStrings.logout.tr,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        // Get.dialog(CustomDialogs.deleteConfirmationDialog());
+                        showModalBottomSheet(
+                          context: context,
+                          isScrollControlled: true,
+                          builder: (ctx) {
+                            return ReauthenticationBottomSheet();
+                          },
+                        );
+                      },
+                      icon: AppAssets.deleteIcon,
+                      heading: AppStrings.deleteAccount.tr,
+                      content: AppStrings.deleteAccountAndData.tr,
+                    ),
+                    SettingsOptionTile(
+                      onTap: () async {
+                        showModalBottomSheet(
+                          context: context,
+                          showDragHandle: true,
+                          isScrollControlled: true,
+                          builder: (ctx) => SelectLanguageBottomSheet(),
+                        );
+                      },
+                      icon: AppAssets.appLanguage,
+                      heading: "App Language",
+                      content: _getLanguage(
+                        globalController.userProfile.value.appLanguage,
+                      ),
+                    ),
+                    SizedBox(height: 20),
+
+                    Obx(
+                      () => Text(
+                        globalController.appVersion.value,
+                        style: GoogleFonts.bebasNeue(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w900,
+                          color: Theme.of(
+                            context,
+                          ).colorScheme.onSurface.withOpacity(0.4),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
         ],
@@ -205,5 +236,14 @@ class SettingScreens extends StatelessWidget {
     } else {
       return globalController.userProfile.value.photoUrl!;
     }
+  }
+
+  String _getLanguage(String langCode) {
+    for (var lang in AppData.appLanguages) {
+      if (lang.code == langCode) {
+        return lang.language;
+      }
+    }
+    return "English";
   }
 }

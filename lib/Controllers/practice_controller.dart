@@ -9,7 +9,9 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:scroll_screenshot/scroll_screenshot.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/ai_response_model.dart';
 import 'package:speak_ez/Models/chat_model.dart';
@@ -18,6 +20,7 @@ import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/exit_alert_chat_bs.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/network_service.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
@@ -27,7 +30,7 @@ class PracticeController extends GetxController {
   AudioChunkRecorder? recorder;
 
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 10;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 5 : 15;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -89,10 +92,22 @@ class PracticeController extends GetxController {
     }
   }
 
+ScenarioModel getFreeTalkScenario() {
+    return ScenarioModel(
+      title: "Free Talk",
+      description:
+          "You can practice speaking on any topic of your choice.",
+      imagePath: AppAssets.freeTalk,
+      level: "A2",
+      prompt: "Start a conversation about any topic of your choice.",
+      intro: "Hi, I’m Natasha, your English practice buddy. What would you like to talk about today?",
+    );
+  }
+
   void stopNormalRecording() {
     _removeRecordingChat();
     isAudioProcessing = true;
-    recorder?.stopRecording().then((value) {
+    recorder?.stopAndTranscribeWithDeepInfra().then((value) {
       addChatCellTranscriptionData();
     });
   }
@@ -137,6 +152,7 @@ class PracticeController extends GetxController {
       globalController.transcriptionText.value = removeBracketedWords(
         globalController.transcriptionText.value,
       );
+      removeTranscribingAnimationAddActualMessage();
       await getAiResponse();
       _scrollToBottom();
       remainingSeconds.value = 30;
@@ -150,6 +166,7 @@ class PracticeController extends GetxController {
           globalController.transcriptionText.value = removeBracketedWords(
             globalController.transcriptionText.value,
           );
+          removeTranscribingAnimationAddActualMessage();
 
           getAiResponse();
 
@@ -160,6 +177,33 @@ class PracticeController extends GetxController {
         globalController.isLastChunkTranscribed.value = false;
       });
     }
+  }
+
+  void removeTranscribingAnimationAddActualMessage() {
+    currentChats.remove(
+      currentChats.last,
+    ); // for removing transcribing(... animation) message
+    currentChats.add(
+      ChatModel(
+        message:
+            globalController
+                .transcriptionText
+                .value, // aiResponse.correctedTranscript.trim(),
+        time: "time",
+        isAI: false,
+        messageDuration: 30 - remainingSeconds.value,
+        chatType: ChatType.normalChatMesssage,
+      ),
+    );
+    currentChats.add(
+      ChatModel(
+        message: "🎙️ Recording stopped",
+        time: "time",
+        isAI: true,
+        messageDuration: 0,
+        chatType: ChatType.gettingAIResponse, // transcribing animation
+      ),
+    );
   }
 
   List getAverageScoreAndFeedback() {
@@ -198,6 +242,21 @@ class PracticeController extends GetxController {
       print(res);
       currentChats.remove(currentChats.last);
       isChatResultReady.value = true;
+
+      final isFreeTalk = currentScenarioModel?.title == 'Free Talk';
+      PostHogService.instance.capture(
+        isFreeTalk ? PostHogEvents.freeTalkCompleted : PostHogEvents.practiceCompleted,
+        properties: {
+          'scenario_title': currentScenarioModel?.title ?? 'unknown',
+          'total_speaking_time': totalSpeakingTime,
+          'messages_count': currentUserSessionMessage.value,
+          'fluency_score': scoreMap['fluency'],
+          'grammar_score': scoreMap['grammar'],
+          'vocabulary_score': scoreMap['vocabulary'],
+          'pronunciation_score': scoreMap['pronunciation'],
+        },
+      );
+
       addLastMessage();
     }
   }
@@ -244,7 +303,7 @@ class PracticeController extends GetxController {
       summary: currentConversationSummary,
     );
     print(
-      "got the ai response, time taook: ${DateTime.now().millisecondsSinceEpoch - time}",
+      "####### AI RESPONSE TIME: ${DateTime.now().millisecondsSinceEpoch - time} #######",
     );
     if (response != null) {
       AIResponseModel aiResponse = AIResponseModel.fromJson(response);
@@ -254,6 +313,10 @@ class PracticeController extends GetxController {
       currentChats.remove(
         currentChats.last,
       ); // for removing transcribing(... animation) message
+      currentChats.remove(
+        currentChats.last,
+      ); // for removing already transcribed message
+
       currentChats.add(
         ChatModel(
           message:
@@ -322,10 +385,10 @@ class PracticeController extends GetxController {
 
   void updatePracticeProgress() {
     final completedSessions =
-        globalController.prefs?.getInt(AppStrings.completedPracticeSessions) ??
+        globalController.prefs?.getInt(AppStrings.completedPracticeSessions.tr) ??
         0;
     globalController.prefs?.setInt(
-      AppStrings.completedPracticeSessions,
+      AppStrings.completedPracticeSessions.tr,
       completedSessions + 1,
     );
 

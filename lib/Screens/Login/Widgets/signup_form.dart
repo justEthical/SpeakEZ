@@ -1,4 +1,5 @@
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Screens/Login/Widgets/Or_separator.dart';
 import 'package:speak_ez/Screens/Login/Widgets/custom_text_field.dart';
@@ -18,40 +19,40 @@ class SignUpForm extends StatelessWidget {
         children: [
           CustomTextField(
             textCtrl: c.nameController,
-            hintText: "Full Name",
+            hintText: AppStrings.fullName.tr.tr,
             leadingIcon: AppAssets.user,
-            title: "Full Name ",
+            title: AppStrings.fullName.tr.tr,
             isPassword: false,
             keyBoardType: TextInputType.name,
           ),
           _gap(),
           CustomTextField(
             textCtrl: c.emailController,
-            hintText: "Email",
+            hintText: AppStrings.email.tr.tr,
             leadingIcon: AppAssets.atIcon,
-            title: "Email",
+            title: AppStrings.email.tr.tr,
             isPassword: false,
             keyBoardType: TextInputType.emailAddress,
           ),
           _gap(),
           CustomTextField(
             textCtrl: c.passwordController,
-            hintText: "Password",
+            hintText: AppStrings.password.tr.tr,
             leadingIcon: AppAssets.lockIcon,
-            title: "Password",
+            title: AppStrings.password.tr.tr,
             isPassword: true,
           ),
           CustomTextField(
             textCtrl: c.confirmPasswordController,
-            hintText: "Confirm Password",
+            hintText: AppStrings.confirmPassword.tr.tr,
             leadingIcon: AppAssets.lockIcon,
-            title: "Confirm Password",
+            title: AppStrings.confirmPassword.tr.tr,
             isPassword: true,
           ),
 
           _gap(val: 20),
           SubmitButton(
-            title: "Register",
+            title: AppStrings.register.tr.tr,
             onTap: () async {
               if (c.signupFormKey.currentState!.validate()) {
                 c.emailSignUp(

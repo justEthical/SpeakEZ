@@ -22,6 +22,7 @@ class UserProfileModel {
   int gems;
   WeekDaysStreak weekDaysStreak;
   DateTime registrationTime;
+  String appLanguage;
 
   UserProfileModel({
     required this.uid,
@@ -45,6 +46,7 @@ class UserProfileModel {
     this.isSupportsOndeviceTranscription,
     required this.weekDaysStreak,
     required this.registrationTime,
+    required this.appLanguage
   });
 
   // Factory constructor: handles Firestore Timestamp to DateTime
@@ -80,6 +82,7 @@ class UserProfileModel {
       registrationTime: DateTime.fromMillisecondsSinceEpoch(
         map['registrationTime'] ?? 174998967000,
       ),
+      appLanguage: map['appLanguage'] ?? 'en',
     );
   }
 
@@ -107,6 +110,7 @@ class UserProfileModel {
       'gems': gems,
       'weekDaysStreak': weekDaysStreak.toMap(),
       'registrationTime': registrationTime.millisecondsSinceEpoch
+      , 'appLanguage': appLanguage
     };
   }
 }

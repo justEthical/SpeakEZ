@@ -103,7 +103,7 @@ class ScenarioCard extends StatelessWidget {
                 fontWeight: FontWeight.w800,
               ),
             ),
-            child: const Text("Start Practice"),
+            child: Text(AppStrings.startPractice.tr),
           ),
         ],
       ),
