@@ -53,15 +53,26 @@ class QuestionAndOptions extends StatelessWidget {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
-                        children:
-                            onboardingQuestions[i].options
-                                .map(
-                                  (option) => OptionsBuilder(
-                                    model: onboardingQuestions[i],
-                                    label: option,
-                                  ),
-                                )
-                                .toList(),
+                        children: [
+                          ...onboardingQuestions[i].options.map(
+                            (option) => OptionsBuilder(
+                              model: onboardingQuestions[i],
+                              label: option,
+                            ),
+                          ),
+                          if (onboardingQuestions[i].id == 'motherTongue')
+                            Padding(
+                              padding: const EdgeInsets.only(top: 16),
+                              child: Text(
+                                'More languages coming soon!',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.grey.shade600,
+                                  fontStyle: FontStyle.italic,
+                                ),
+                              ),
+                            ),
+                        ],
                       ),
                     ),
                   ),

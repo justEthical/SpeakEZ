@@ -6,7 +6,6 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Models/country_languages.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
@@ -14,7 +13,7 @@ import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/local_notification.dart';
-import 'package:speak_ez/Services/network_service.dart';
+// import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
@@ -120,7 +119,7 @@ class OnboardingController extends GetxController {
   }
 
   bool _hasNextQuestion() {
-    return onboardingQuestionsController.page! < onboardingQuestions.length - 1;
+    return currentOnboardingQuestionIndex.value < onboardingQuestions.length - 1;
   }
 
   void _goToNextQuestion() {
@@ -138,7 +137,12 @@ class OnboardingController extends GetxController {
       AppStrings.userProfile,
     );
 
-    final Map<String, dynamic> userProfile = jsonDecode(userProfileData!);
+    if (userProfileData == null) {
+      debugPrint('User profile data is null in _completeOnboarding');
+      return;
+    }
+
+    final Map<String, dynamic> userProfile = jsonDecode(userProfileData);
 
     userProfile.addAll(onboardingQuestionAnswerMap);
 
@@ -325,19 +329,15 @@ class OnboardingController extends GetxController {
     return '$hour:$minute';
   }
 
-  void addLanguageBasedQuestionInOnboarding() async {
-    final countryCode = await NetworkService.getUserCountryFromIP();
-    for (var country in countryLanguages) {
-      if (country.countryCode == countryCode) {
-        onboardingQuestions.add(
-          OnboardingQuestion(
-            id: "motherTongue",
-            question: "Which language do you speak at home?",
-            options: country.languages,
-          ),
-        );
-      }
-    }
+  void addLanguageBasedQuestionInOnboarding() {
+    // Only show Hindi and Japanese for now
+    onboardingQuestions.add(
+      OnboardingQuestion(
+        id: "motherTongue",
+        question: "Which language do you speak at home?",
+        options: ["Hindi", "Japanese"],
+      ),
+    );
     onboardingQuestions.add(
       OnboardingQuestion(
         id: "appLanguage",
