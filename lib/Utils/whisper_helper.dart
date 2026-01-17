@@ -3,6 +3,7 @@ import 'dart:isolate';
 import 'dart:typed_data';
 import 'package:archive/archive.dart';
 import 'package:background_downloader/background_downloader.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sherpa_onnx/sherpa_onnx.dart';
@@ -88,16 +89,16 @@ class WhisperHelper {
     final directory = Directory(path);
 
     if (!directory.existsSync()) {
-      print("Directory does not exist");
+      debugPrint("Directory does not exist");
       return;
     }
 
     // List all entries
     directory.list().listen((entity) {
       if (entity is File) {
-        print("File: ${entity.path}");
+        debugPrint("File: ${entity.path}");
       } else if (entity is Directory) {
-        print("Directory: ${entity.path}");
+        debugPrint("Directory: ${entity.path}");
       }
     });
   }
@@ -140,7 +141,7 @@ class WhisperHelper {
     );
 
     if (alreadyRunning) {
-      print("Download already running. Not starting again.");
+      debugPrint("Download already running. Not starting again.");
       return;
     }
 
@@ -167,8 +168,8 @@ class WhisperHelper {
     // while downloading
     final result = await FileDownloader().download(
       task,
-      onProgress: (progress) => print('Progress: ${progress * 100}%'),
-      onStatus: (status) => print('Status: $status'),
+      onProgress: (progress) => debugPrint('Progress: ${progress * 100}%'),
+      onStatus: (status) => debugPrint('Status: $status'),
     );
     // Act on the result
     if (result.status == TaskStatus.complete) {
@@ -197,7 +198,7 @@ class WhisperHelper {
         errorMessage: 'Error extracting archive $e',
         location: 'WhisperHelper.extractArchieve',
       );
-      print('Error extracting archive (async): $e');
+      debugPrint('Error extracting archive (async): $e');
     }
   }
 
@@ -237,7 +238,7 @@ class WhisperHelper {
         errorMessage: 'Error during extracting zip file $e',
         location: 'WhisperHelper.canModelRunOnDevice',
       );
-      print('Error Extracting file: $e');
+      debugPrint('Error Extracting file: $e');
     }
 
     final ReceivePort onMainReceive = ReceivePort();
@@ -289,7 +290,7 @@ class WhisperHelper {
       );
     }
     globalController.updateProfile();
-    print('TRANSCRIBED: $result');
+    debugPrint('TRANSCRIBED: $result');
     await File(zipPath).delete();
 
     whisperSendPort.send('stop');

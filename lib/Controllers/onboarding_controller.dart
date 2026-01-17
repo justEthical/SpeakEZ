@@ -81,12 +81,23 @@ class OnboardingController extends GetxController {
 
       case "preferredPracticeTime":
         final time = await _resolvePracticeTime(question, label);
+        debugPrint('Resolved practice time: $time');
         onboardingQuestionAnswerMap[question.id] = time;
         final granted =
             await LocalNotificationService().requestNotificationPermission();
+        debugPrint('Notification permission granted: $granted');
 
         if (granted) {
-          await LocalNotificationService().scheduleDailyReminder(time: time);
+          // Show immediate test notification to verify notifications work
+          // await LocalNotificationService().showTestNotification();
+
+          // Test: Schedule notification for 1 minute from now
+          // await LocalNotificationService().testScheduledNotification();
+
+          final scheduled = await LocalNotificationService().scheduleDailyReminder(time: time);
+          debugPrint('Scheduled daily reminder for $time: $scheduled');
+        } else {
+          debugPrint('Notification permission denied, skipping schedule');
         }
         return;
 
@@ -224,7 +235,7 @@ class OnboardingController extends GetxController {
     CustomLoader.showLoader();
     final userData = await AuthService.signInWithGoogle();
     if (userData?.user != null) {
-      print(userData!.additionalUserInfo!.isNewUser);
+      debugPrint(userData!.additionalUserInfo!.isNewUser.toString());
       if (userData.additionalUserInfo!.isNewUser) {
         saveUserProfile(userData);
         Get.offAll(() => OnboarindQuestions());
@@ -316,7 +327,7 @@ class OnboardingController extends GetxController {
 
     if (selectedTime != null) {
       // Save time (e.g. 08:00)
-      print('Selected time: ${selectedTime.format(context)}');
+      debugPrint('Selected time: ${selectedTime.format(context)}');
       return formatTimeOfDay(selectedTime);
       // TODO: store + schedule notification
     }

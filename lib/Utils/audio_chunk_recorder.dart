@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:isolate';
+import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -34,13 +35,13 @@ class AudioChunkRecorder {
         errorMessage: e.toString(),
         location: 'AudioChunkRecorder.startWhisperRecording',
       );
-      print(e.toString());
+      debugPrint(e.toString());
     }
     final hasPermission = await _recorder.hasPermission();
     if (hasPermission) {
       while (!_shouldStop) {
         final path = '${dir.path}/${_fileIndex++}.wav';
-        print('🎙️ Recording: $path');
+        debugPrint('🎙️ Recording: $path');
 
         await _recorder.start(config, path: path);
 
@@ -54,10 +55,10 @@ class AudioChunkRecorder {
           final amplitude = await _recorder.getAmplitude();
           final double level = amplitude.current;
 
-          // print('🔊 Amplitude: $level at ${duration}s');
+          // debugPrint('🔊 Amplitude: $level at ${duration}s');
 
           if (duration >= 5 && level < -13.0) {
-            print('⏸️ Silence detected, stopping chunk...');
+            debugPrint('⏸️ Silence detected, stopping chunk...');
             recording = false;
 
             await _recorder.stop();
@@ -67,9 +68,9 @@ class AudioChunkRecorder {
         }
       }
 
-      print('🛑 Recording fully stopped');
+      debugPrint('🛑 Recording fully stopped');
     } else {
-      print('Permission not granted');
+      debugPrint('Permission not granted');
     }
   }
 
@@ -82,10 +83,10 @@ class AudioChunkRecorder {
     }
     final dir = await getApplicationDocumentsDirectory();
     final lastRecordingChunkPath = '${dir.path}/${_fileIndex - 1}.wav';
-    print("heerree");
+    debugPrint("heerree");
     await transcribeWithPersistentIsolate(lastRecordingChunkPath, isFromLesson);
     globalController.isLastChunkTranscribed.value = true;
-    print("last recording transcribed");
+    debugPrint("last recording transcribed");
   }
 
   Future<void> transcribeWithPersistentIsolate(
@@ -93,7 +94,7 @@ class AudioChunkRecorder {
     bool isFromLesson,
   ) async {
     if (File(filePath).existsSync()) {
-      print('file exists');
+      debugPrint('file exists');
       
       final ReceivePort responsePort = ReceivePort();
 
@@ -103,7 +104,7 @@ class AudioChunkRecorder {
       });
 
       final result = await responsePort.first;
-      print('TRANSCRIBED: $result');
+      debugPrint('TRANSCRIBED: $result');
       globalController.transcriptionText.value += result;
     }
   }
@@ -121,7 +122,7 @@ class AudioChunkRecorder {
     await _recorder.stop();
     final result = await NetworkService.transcribeAudio(path);
     final duration = DateTime.now().millisecondsSinceEpoch - now;
-    print("########  DURATION: $duration ########");
+    debugPrint("########  DURATION: $duration ########");
     PostHogService.instance.capture(
       PostHogEvents.deepInfraTranscribe,
       properties: {
