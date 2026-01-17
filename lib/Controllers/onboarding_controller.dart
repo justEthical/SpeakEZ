@@ -77,6 +77,7 @@ class OnboardingController extends GetxController {
     switch (question.id) {
       case "appLanguage":
         onboardingQuestionAnswerMap[question.id] = getAppLanguageCode(label);
+        onboardingQuestionAnswerMap[question.id] = label;
         return;
 
       case "preferredPracticeTime":
@@ -85,6 +86,7 @@ class OnboardingController extends GetxController {
         onboardingQuestionAnswerMap[question.id] = time;
         final granted =
             await LocalNotificationService().requestNotificationPermission();
+            onboardingQuestionAnswerMap[question.id] = time;
         debugPrint('Notification permission granted: $granted');
 
         if (granted) {
@@ -293,6 +295,8 @@ class OnboardingController extends GetxController {
       confidence: onboardingQuestionAnswerMap['confidence'] ?? '',
       preferredPractice: onboardingQuestionAnswerMap['preferredPractice'] ?? '',
       motherTongue: onboardingQuestionAnswerMap['motherTongue'] ?? '',
+      dailyStudyDuration: onboardingQuestionAnswerMap['dailyStudyDuration'] ?? '',
+      preferredPracticeTime: onboardingQuestionAnswerMap['preferredPracticeTime'] ?? '',
       notificationToken: notificationToken ?? '',
       isShownCustomReviewDialogOnce: false,
       gems: 500,

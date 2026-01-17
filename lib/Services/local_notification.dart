@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
@@ -104,7 +105,7 @@ class LocalNotificationService {
       await _plugin.zonedSchedule(
         notificationId,
         'Time to practice English 🎤',
-        'Just 5 minutes of speaking today',
+        'Just ${globalController.userProfile.value.dailyStudyDuration} of speaking today',
         scheduled,
         const NotificationDetails(
           android: AndroidNotificationDetails(

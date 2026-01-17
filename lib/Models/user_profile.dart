@@ -17,6 +17,8 @@ class UserProfileModel {
   String confidence;
   String preferredPractice;
   String motherTongue;
+  String dailyStudyDuration;
+  String preferredPracticeTime;
   String notificationToken;
   DateTime? unlockTestLastTime;
   int gems;
@@ -39,6 +41,8 @@ class UserProfileModel {
     required this.confidence,
     required this.preferredPractice,
     required this.motherTongue,
+    required this.dailyStudyDuration,
+    required this.preferredPracticeTime,
     required this.isShownCustomReviewDialogOnce,
     required this.notificationToken,
     required this.gems,
@@ -68,6 +72,8 @@ class UserProfileModel {
       confidence: map['confidence'] ?? '',
       preferredPractice: map['preferredPractice'] ?? '',
       motherTongue: map['motherTongue'] ?? '',
+      dailyStudyDuration: map['dailyStudyDuration'] ?? '',
+      preferredPracticeTime: map['preferredPracticeTime'] ?? '',
       isShownCustomReviewDialogOnce:
           map['isShownCustomReviewDialogOnce'] ?? false,
       notificationToken: map['notificationToken'] ?? '',
@@ -103,6 +109,8 @@ class UserProfileModel {
       'confidence': confidence,
       'preferredPractice': preferredPractice,
       'motherTongue': motherTongue,
+      'dailyStudyDuration': dailyStudyDuration,
+      'preferredPracticeTime': preferredPracticeTime,
       'isShownCustomReviewDialogOnce': isShownCustomReviewDialogOnce,
       'notificationToken': notificationToken,
       'unlockTestLastTime': unlockTestLastTime?.millisecondsSinceEpoch,
