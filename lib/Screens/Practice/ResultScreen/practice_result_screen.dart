@@ -24,7 +24,7 @@ class PracticeResultSreen extends StatelessWidget {
     final theme = Theme.of(context);
     c.updatePracticeProgress();
     c.showInterstitialAd();
-    
+
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
@@ -154,33 +154,38 @@ class PracticeResultSreen extends StatelessWidget {
         ResultTile(
           onTap: () {},
           icon: AppAssets.fluency,
-          heading: '${AppStrings.fluency.tr} (${scoreMap['fluency']}/10)',
+          heading:
+              '${AppStrings.fluency.tr} (${scoreMap['fluency'].toStringAsFixed(1)}/10)',
           content: result.fluency,
           padding: 10,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.grammar,
-          heading: '${AppStrings.grammar.tr} (${scoreMap['grammar']}/10)',
+          heading:
+              '${AppStrings.grammar.tr} (${scoreMap['grammar'].toStringAsFixed(1)}/10)',
           content: result.grammar,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.vocabulary,
-          heading: '${AppStrings.vocabulary.tr} (${scoreMap['vocabulary']}/10)',
+          heading:
+              '${AppStrings.vocabulary.tr} (${scoreMap['vocabulary'].toStringAsFixed(1)}/10)',
           content: result.vocabulary,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.prononciation,
-          heading: '${AppStrings.pronunciationLabel.tr} (${scoreMap['pronunciation']}/10)',
+          heading:
+              '${AppStrings.pronunciationLabel.tr} (${scoreMap['pronunciation'].toStringAsFixed(1)}/10)',
           content: result.pronunciation,
         ),
         ResultTile(
           onTap: () {},
           icon: AppAssets.totalSpeakingTime,
           heading: AppStrings.totalSpeakingTime.tr,
-          content: '${c.formatDuration(c.totalSpeakingTime)} ${AppStrings.minutes.tr}',
+          content:
+              '${c.formatDuration(c.totalSpeakingTime)} ${AppStrings.minutes.tr}',
         ),
         ResultTile(
           onTap: () {},
@@ -235,8 +240,8 @@ class PracticeResultSreen extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: ElevatedButton(
         onPressed: () {
-          globalController.userProfile.refresh(); // Refresh the user profile to update gem value 
-          Get.back();
+          globalController.userProfile
+              .refresh(); // Refresh the user profile to update gem value
           final completedSessions =
               globalController.prefs?.getInt(
                 AppStrings.completedPracticeSessions.tr,
@@ -248,7 +253,14 @@ class PracticeResultSreen extends StatelessWidget {
                   .userProfile
                   .value
                   .isShownCustomReviewDialogOnce) {
-            Get.to(() => const CustomReviewScreen());
+            showReviewPromptBottomSheet(
+              context,
+              onClose: () {
+                Get.back();
+              },
+            );
+          } else {
+            Get.back();
           }
         },
         style: ElevatedButton.styleFrom(
