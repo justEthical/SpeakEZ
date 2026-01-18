@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/user_profile.dart';
@@ -45,7 +46,7 @@ class AuthService {
         'Error',
         'Error during Google sign-in: $e',
       );
-      print("Error during Google sign-in: $e");
+      debugPrint("Error during Google sign-in: $e");
       return null;
     }
   }
@@ -58,7 +59,7 @@ class AuthService {
       UserCredential userCredential = await FirebaseAuth.instance
           .createUserWithEmailAndPassword(email: email, password: password);
 
-      print('Signup successful: ${userCredential.user?.email}');
+      debugPrint('Signup successful: ${userCredential.user?.email}');
       return userCredential;
     } on FirebaseAuthException catch (e) {
       PostHogService.instance.captureError(
@@ -72,19 +73,19 @@ class AuthService {
           'Error',
           'The password provided is too weak.',
         );
-        print('The password provided is too weak.');
+        debugPrint('The password provided is too weak.');
       } else if (e.code == 'email-already-in-use') {
         globalController.showSnackbarWithGetX(
           'Error',
           'The account already exists for that email.',
         );
-        print('The account already exists for that email.');
+        debugPrint('The account already exists for that email.');
       } else {
         globalController.showSnackbarWithGetX(
           'Error',
           'Signup error: ${e.message}',
         );
-        print('Signup error: ${e.message}');
+        debugPrint('Signup error: ${e.message}');
       }
     } catch (e) {
       PostHogService.instance.captureError(
@@ -93,7 +94,7 @@ class AuthService {
         location: 'AuthService.signUpWithEmail',
       );
       globalController.showSnackbarWithGetX('Error', 'Unexpected error: $e');
-      print('Unexpected error: $e');
+      debugPrint('Unexpected error: $e');
     }
     return null;
   }
@@ -106,7 +107,7 @@ class AuthService {
       UserCredential userCredential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
 
-      print('Login successful: ${userCredential.user?.email}');
+      debugPrint('Login successful: ${userCredential.user?.email}');
       return userCredential;
     } on FirebaseAuthException catch (e) {
       PostHogService.instance.captureError(
@@ -120,15 +121,15 @@ class AuthService {
           'Error',
           'No user found for that email.',
         );
-        print('No user found for that email.');
+        debugPrint('No user found for that email.');
       } else if (e.code == 'wrong-password') {
-        print('Wrong password provided for that user.');
+        debugPrint('Wrong password provided for that user.');
       } else {
         globalController.showSnackbarWithGetX(
           'Error',
           'Login error: ${e.message}',
         );
-        print('Login error: ${e.message}');
+        debugPrint('Login error: ${e.message}');
       }
     } catch (e) {
       PostHogService.instance.captureError(
@@ -137,7 +138,7 @@ class AuthService {
         location: 'AuthService.loginWithEmail',
       );
       globalController.showSnackbarWithGetX('Error', 'Unexpected error: $e');
-      print('Unexpected error: $e');
+      debugPrint('Unexpected error: $e');
     }
     return null;
   }
@@ -154,7 +155,7 @@ class AuthService {
         errorMessage: 'Error during Google sign-out: $e',
         location: 'AuthService.logout',
       );
-      print("Error during Google sign-out: $e");
+      debugPrint("Error during Google sign-out: $e");
     }
   }
 
@@ -163,7 +164,7 @@ class AuthService {
     final User? user = auth.currentUser;
 
     if (user == null) {
-      print("No user is currently signed in.");
+      debugPrint("No user is currently signed in.");
       globalController.showSnackbarWithGetX(
         "Error",
         "No user is currently signed in.",
@@ -175,7 +176,7 @@ class AuthService {
       // Step 1: Trigger Google Sign-In flow
       final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
       if (googleUser == null) {
-        print("Google Sign-In cancelled by user.");
+        debugPrint("Google Sign-In cancelled by user.");
         globalController.showSnackbarWithGetX(
           "Error",
           "Google Sign-In cancelled by user.",
@@ -195,7 +196,7 @@ class AuthService {
 
       // Step 4: Reauthenticate
       await user.reauthenticateWithCredential(credential);
-      print("Reauthentication successful.");
+      debugPrint("Reauthentication successful.");
       return true;
     } catch (e) {
       PostHogService.instance.captureError(
@@ -207,7 +208,7 @@ class AuthService {
         'Error',
         'Reauthentication failed: $e',
       );
-      print("Reauthentication failed: $e");
+      debugPrint("Reauthentication failed: $e");
       return false;
     }
   }
@@ -220,7 +221,7 @@ class AuthService {
     final User? user = auth.currentUser;
 
     if (user == null) {
-      print("No user is currently signed in.");
+      debugPrint("No user is currently signed in.");
       globalController.showSnackbarWithGetX(
         "Error",
         "No user is currently signed in.",
@@ -238,7 +239,7 @@ class AuthService {
       // Step 2: Reauthenticate
       await user.reauthenticateWithCredential(credential);
 
-      print("Reauthentication successful.");
+      debugPrint("Reauthentication successful.");
       return true;
     } on FirebaseAuthException catch (e) {
       PostHogService.instance.captureError(
@@ -251,7 +252,7 @@ class AuthService {
         "Error",
         "Reauthentication failed: ${e.message}",
       );
-      print("FirebaseAuthException: ${e.code} - ${e.message}");
+      debugPrint("FirebaseAuthException: ${e.code} - ${e.message}");
       // Handle error: wrong-password, user-mismatch, etc.
     } catch (e) {
       PostHogService.instance.captureError(
@@ -263,7 +264,7 @@ class AuthService {
         "Error",
         "Error during reauthentication: $e",
       );
-      print("Error during reauthentication: $e");
+      debugPrint("Error during reauthentication: $e");
     }
     return false;
   }

@@ -64,7 +64,7 @@ class GlobalController extends GetxController {
 
   Future<void> startWhisperIsolate() async {
     if (isWhisperInitialized.value) {
-      print("Whisper already initialized");
+      debugPrint("Whisper already initialized");
       whisperSendPort?.send('stop');
     } else /* if(isAiModelDownloaded.value) */ {
       final ReceivePort onMainReceive = ReceivePort();
@@ -78,7 +78,7 @@ class GlobalController extends GetxController {
 
       whisperSendPort = await onMainReceive.first;
       isWhisperInitialized.value = true;
-      print('Whisper isolate started $whisperSendPort');
+      debugPrint('Whisper isolate started $whisperSendPort');
     }
   }
 
@@ -107,7 +107,7 @@ class GlobalController extends GetxController {
     bool opened = await openAppSettings();
     if (!opened) {
       // handle failure to open settings
-      print('Could not open settings');
+      debugPrint('Could not open settings');
     }
   }
 

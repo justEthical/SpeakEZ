@@ -154,7 +154,7 @@ class GoogleMobileAdsService {
       request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (ad) {
-          print('ad loaded successfully');
+          debugPrint('ad loaded successfully');
           _rewardedLoading = false;
           _rewardedAd = ad;
 
@@ -164,14 +164,14 @@ class GoogleMobileAdsService {
               _rewardedAd = null;
             },
             onAdFailedToShowFullScreenContent: (ad, err) {
-              print('ad failed to show $err');
+              debugPrint('ad failed to show $err');
               ad.dispose();
               _rewardedAd = null;
             },
           );
         },
         onAdFailedToLoad: (err) {
-          print('Ad load failed $err');
+          debugPrint('Ad load failed $err');
           _rewardedLoading = false;
           _rewardedAd = null;
         },

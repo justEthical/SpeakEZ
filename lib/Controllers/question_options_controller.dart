@@ -247,7 +247,7 @@ class QuestionOptionsController extends GetxController {
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {
         stopRecording();
-        print("Timer stopped");
+        debugPrint("Timer stopped");
       } else {
         remainingSeconds.value--;
       }
@@ -280,7 +280,7 @@ class QuestionOptionsController extends GetxController {
     stt.startListening(
       (result) {
         globalController.transcriptionText.value = result;
-        print(globalController.transcriptionText.value);
+        debugPrint(globalController.transcriptionText.value);
       },
       (isListening) {
         globalController.isLastChunkTranscribed.value = isListening;
@@ -311,17 +311,17 @@ class QuestionOptionsController extends GetxController {
     /*
     sub = globalController.isLastChunkTranscribed.listen((val) {
       if (val) {
-        print(globalController.transcriptionText.value);
+        debugPrint(globalController.transcriptionText.value);
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
         globalController.transcriptionText.value = removeBracketedWords(
           globalController.transcriptionText.value,
         );
         // removing non alphabet characters like !, @, #, %, comma (,) etc
-        print(globalController.transcriptionText.value);
+        debugPrint(globalController.transcriptionText.value);
         globalController.transcriptionText.value = removeNonAlphabet(
           globalController.transcriptionText.value,
         );
-        print(globalController.transcriptionText.value);
+        debugPrint(globalController.transcriptionText.value);
 
         isContinueButtonEnabled.value = true;
         isAudioProcessing.value = false;
@@ -425,7 +425,7 @@ Mistakes are your secret weapon to get better. 💥
         tmpArray.add(randomNumber);
       }
     }
-    print(tmpArray);
+    debugPrint(tmpArray.toString());
     for (var i in tmpArray) {
       currentQuestionList.add(lesson.questionPools.vocabulary[i]);
       currentQuestionList.add(lesson.questionPools.sentence[i]);
@@ -496,7 +496,7 @@ Mistakes are your secret weapon to get better. 💥
         match++;
       }
     }
-    print((match / correctAnswerList.length) * 100);
+    debugPrint(((match / correctAnswerList.length) * 100).toString());
     return (match / correctAnswerList.length) * 100;
   }
 

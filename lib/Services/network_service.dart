@@ -12,6 +12,7 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 class NetworkService {
   static final dio = Dio();
   static final baseUrl = 'https://api.deepinfra.com/v1/openai/chat/completions';
+
   static Future<String> getUserCountryFromIP() async {
     try {
       final response = await dio.get("https://ipwho.is/");
@@ -22,13 +23,11 @@ class NetworkService {
                 ? json.decode(response.data)
                 : response.data; // Dio may already parse JSON
 
-        print(data);
         return data["country_code"] ?? "IN"; // e.g., "IN"
       } else {
         return "IN";
       }
     } catch (e) {
-      print("Error fetching country: $e");
       return "Unknown";
     }
   }
@@ -36,12 +35,12 @@ class NetworkService {
   static Map getBody(String systemPrompt, String userPrompt) {
     return {
       "model":
-          "openai/gpt-oss-20b", // "mistralai/Mistral-Small-3.2-24B-Instruct-2506", //
+          "google/gemma-3-12b-it",
       "messages": [
         {"role": 'system', "content": systemPrompt},
         {"role": "user", "content": userPrompt},
       ],
-      // "response_format": { "type": "json_object" },
+      "response_format": { "type": "json_object" },
       "reasoning_effort": "none",
       "temperature": 0,
       "seed": 7,
@@ -72,9 +71,10 @@ class NetworkService {
         ),
         data: jsonEncode(body),
       );
-      // print(response.data);
+
       if (response.statusCode == 200) {
-        return response.data['choices'][0]['message']['content'];
+        final aiResponse = response.data['choices'][0]['message']['content'];
+        return aiResponse;
       }
     } on DioException catch (e) {
       PostHogService.instance.captureError(
@@ -83,8 +83,6 @@ class NetworkService {
         location: 'NetworkService.getAiResponse',
         additionalProperties: {'api': 'DeepInfra', 'topic': topic},
       );
-      print('Dio error: ${e.response}');
-      print('Dio error: ${e.message}');
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.networkError,
@@ -92,7 +90,6 @@ class NetworkService {
         location: 'NetworkService.getAiResponse',
         additionalProperties: {'api': 'DeepInfra', 'topic': topic},
       );
-      print('Other error: $e');
     }
     return null;
   }
@@ -119,26 +116,25 @@ class NetworkService {
         ),
         data: jsonEncode(body),
       );
-      print(response.data);
+
       if (response.statusCode == 200) {
-        return response.data['choices'][0]['message']['content'];
+        final aiResponse = response.data['choices'][0]['message']['content'];
+        return aiResponse;
       }
     } on DioException catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.apiCallFailed,
         errorMessage: 'Dio error: ${e.message}',
-        location: 'NetworkService.getAiResponse',
+        location: 'NetworkService.getConversationAiFeedbackResult',
         additionalProperties: {'api': 'DeepInfra'},
       );
-      print('Dio error: ${e.message}');
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.networkError,
         errorMessage: 'Other error: $e',
-        location: 'NetworkService.getAiResponse',
+        location: 'NetworkService.getConversationAiFeedbackResult',
         additionalProperties: {'api': 'DeepInfra'},
       );
-      print('Other error: $e');
     }
     return null;
   }
@@ -169,13 +165,9 @@ class NetworkService {
       );
       final body = response.data;
       return body['text'];
-    } on DioException catch (e) {
-      if (e.response != null) {
-        print('❌ Error ${e.response?.statusCode}: ${e.response?.data}');
-      } else {
-        print('⚠️ Request error: ${e.message}');
-      }
+    } on DioException catch (_) {
+      // Error handled silently
     }
-    return null;  
+    return null;
   }
 }

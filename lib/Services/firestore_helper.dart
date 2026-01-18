@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
@@ -77,7 +78,7 @@ class FirestoreHelper {
 
     // Step 2: Delete Firebase Auth user
     await user.delete();
-    print("✅ User deleted from Firebase Auth and Firestore.");
+    debugPrint("✅ User deleted from Firebase Auth and Firestore.");
     return true;
   } on FirebaseAuthException catch (e) {
     PostHogService.instance.captureError(
@@ -87,10 +88,10 @@ class FirestoreHelper {
       additionalProperties: {'error_code': e.code},
     );
     if (e.code == 'requires-recent-login') {
-      print("⚠️ The user needs to re-authenticate before deleting the account.");
+      debugPrint("⚠️ The user needs to re-authenticate before deleting the account.");
       // You should prompt the user to re-login and then try again.
     } else {
-      print("❌ FirebaseAuthException: ${e.code} - ${e.message}");
+      debugPrint("❌ FirebaseAuthException: ${e.code} - ${e.message}");
     }
   } catch (e) {
     PostHogService.instance.captureError(
@@ -98,7 +99,7 @@ class FirestoreHelper {
       errorMessage: 'Error deleting user: $e',
       location: 'FirestoreHelper.deleteCurrentUser',
     );
-    print("❌ Error deleting user: $e");
+    debugPrint("❌ Error deleting user: $e");
   }
   return false; 
 }

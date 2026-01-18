@@ -133,6 +133,8 @@ class _WrapperState extends State<Wrapper> {
       AppStrings.userAuthState,
     );
     if (userAuthState == "loggedIn") {
+      // Fetch user profile and reschedule notification (handles reinstall scenario)
+      await _loadUserProfileAndRescheduleNotification();
       Get.offAll(() => TabBarScreen());
     } else if (userAuthState == "loggedOut") {
       Get.offAll(() => LoginSignUp());
@@ -140,6 +142,33 @@ class _WrapperState extends State<Wrapper> {
       Get.offAll(() => OnboarindQuestions());
     } else {
       Get.offAll(() => OnboardingScreen());
+    }
+  }
+
+  /// Fetches user profile from Firestore and reschedules daily notification
+  /// This handles the reinstall scenario where local notifications are cleared
+  Future<void> _loadUserProfileAndRescheduleNotification() async {
+    try {
+      final userProfile = await FirestoreHelper.fetchCurrentUserProfile();
+      if (userProfile != null) {
+        globalController.userProfile.value = userProfile;
+
+        // Reschedule notification if user has a preferred practice time
+        if (userProfile.preferredPracticeTime.isNotEmpty) {
+          var hasPermission = await LocalNotificationService().hasNotificationPermission();
+          if (!hasPermission) {
+            hasPermission = await LocalNotificationService().requestNotificationPermission();
+          }
+          if (hasPermission) {
+            await LocalNotificationService().scheduleDailyReminder(
+              time: userProfile.preferredPracticeTime,
+            );
+            debugPrint('Rescheduled daily reminder for ${userProfile.preferredPracticeTime}');
+          }
+        }
+      }
+    } catch (e) {
+      debugPrint('Error loading user profile: $e');
     }
   }
 }
