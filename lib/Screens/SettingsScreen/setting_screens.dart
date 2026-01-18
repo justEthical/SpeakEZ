@@ -130,7 +130,7 @@ class SettingScreens extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
             child: SizedBox(
-              height: Get.height - 275,
+              height: Get.height - 291,
               child: SingleChildScrollView(
                 child: Column(
                   children: [
