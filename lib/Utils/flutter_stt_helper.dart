@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 
 class SpeechService {
@@ -9,14 +10,14 @@ class SpeechService {
   Future<void> startListening(Function(String) onResult, Function(bool) isListeningState) async {
     bool available = await _speech.initialize(
       onStatus: (status) {
-        print("Status: $status");
+        debugPrint("Status: $status");
         if (status == "done" || status == "notListening") {
           isListening = false;
           isListeningState(false);
         } 
       },
       onError: (error) {
-        print("Error: $error");
+        debugPrint("Error: $error");
         isListeningState(false);
       },
     );
@@ -30,7 +31,7 @@ class SpeechService {
         },
       );
     } else {
-      print('Speech recognition not available');
+      debugPrint('Speech recognition not available');
     }
   }
 

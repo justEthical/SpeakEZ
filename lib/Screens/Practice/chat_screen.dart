@@ -73,7 +73,7 @@ class _ChatScreenState extends State<ChatScreen> {
     c.currentUserSessionMessage.value = 0;
     c.isChatResultReady.value = false;
     ttsHelper.stop();
-    print("dissposed");
+    debugPrint("dissposed");
   }
 
   @override

@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 
@@ -25,10 +26,10 @@ void main() {
       expect(lesson.questionPools.listening, isNotEmpty);
       expect(lesson.questionPools.speaking, isNotEmpty);
       
-      print('✅ Regular lesson parsed successfully');
-      print('Lesson: ${lesson.lessonName}');
-      print('Type: ${lesson.lessonType}');
-      print('Has intro: ${lesson.lessonIntro != null}');
+      debugPrint('✅ Regular lesson parsed successfully');
+      debugPrint('Lesson: ${lesson.lessonName}');
+      debugPrint('Type: ${lesson.lessonType}');
+      debugPrint('Has intro: ${lesson.lessonIntro != null}');
     });
     
     test('Should parse unlock test JSON correctly', () async {
@@ -63,11 +64,11 @@ void main() {
         lesson.questionPools.speaking.length
       );
       
-      print('✅ Unlock test parsed successfully');
-      print('Lesson: ${lesson.lessonName}');
-      print('Type: ${lesson.lessonType}');
-      print('Has grammar pool: ${lesson.questionPools.grammar != null}');
-      print('Total questions: ${allQuestions.length}');
+      debugPrint('✅ Unlock test parsed successfully');
+      debugPrint('Lesson: ${lesson.lessonName}');
+      debugPrint('Type: ${lesson.lessonType}');
+      debugPrint('Has grammar pool: ${lesson.questionPools.grammar != null}');
+      debugPrint('Total questions: ${allQuestions.length}');
     });
     
     test('Should handle Question translations correctly', () async {
@@ -84,7 +85,7 @@ void main() {
       expect(vocabQuestion.questionTranslation!['Hindi'], isNotNull);
       expect(vocabQuestion.questionTranslation!['Japanese'], isNotNull);
       
-      print('✅ Translations handled correctly');
+      debugPrint('✅ Translations handled correctly');
     });
   });
 }

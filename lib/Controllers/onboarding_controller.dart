@@ -6,7 +6,6 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Models/country_languages.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
@@ -14,7 +13,7 @@ import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/local_notification.dart';
-import 'package:speak_ez/Services/network_service.dart';
+// import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Utils/custom_loader.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
@@ -78,16 +77,29 @@ class OnboardingController extends GetxController {
     switch (question.id) {
       case "appLanguage":
         onboardingQuestionAnswerMap[question.id] = getAppLanguageCode(label);
+        onboardingQuestionAnswerMap[question.id] = label;
         return;
 
       case "preferredPracticeTime":
         final time = await _resolvePracticeTime(question, label);
+        debugPrint('Resolved practice time: $time');
         onboardingQuestionAnswerMap[question.id] = time;
         final granted =
             await LocalNotificationService().requestNotificationPermission();
+            onboardingQuestionAnswerMap[question.id] = time;
+        debugPrint('Notification permission granted: $granted');
 
         if (granted) {
-          await LocalNotificationService().scheduleDailyReminder(time: time);
+          // Show immediate test notification to verify notifications work
+          // await LocalNotificationService().showTestNotification();
+
+          // Test: Schedule notification for 1 minute from now
+          // await LocalNotificationService().testScheduledNotification();
+
+          final scheduled = await LocalNotificationService().scheduleDailyReminder(time: time);
+          debugPrint('Scheduled daily reminder for $time: $scheduled');
+        } else {
+          debugPrint('Notification permission denied, skipping schedule');
         }
         return;
 
@@ -120,7 +132,7 @@ class OnboardingController extends GetxController {
   }
 
   bool _hasNextQuestion() {
-    return onboardingQuestionsController.page! < onboardingQuestions.length - 1;
+    return currentOnboardingQuestionIndex.value < onboardingQuestions.length - 1;
   }
 
   void _goToNextQuestion() {
@@ -138,7 +150,12 @@ class OnboardingController extends GetxController {
       AppStrings.userProfile,
     );
 
-    final Map<String, dynamic> userProfile = jsonDecode(userProfileData!);
+    if (userProfileData == null) {
+      debugPrint('User profile data is null in _completeOnboarding');
+      return;
+    }
+
+    final Map<String, dynamic> userProfile = jsonDecode(userProfileData);
 
     userProfile.addAll(onboardingQuestionAnswerMap);
 
@@ -220,7 +237,7 @@ class OnboardingController extends GetxController {
     CustomLoader.showLoader();
     final userData = await AuthService.signInWithGoogle();
     if (userData?.user != null) {
-      print(userData!.additionalUserInfo!.isNewUser);
+      debugPrint(userData!.additionalUserInfo!.isNewUser.toString());
       if (userData.additionalUserInfo!.isNewUser) {
         saveUserProfile(userData);
         Get.offAll(() => OnboarindQuestions());
@@ -278,6 +295,8 @@ class OnboardingController extends GetxController {
       confidence: onboardingQuestionAnswerMap['confidence'] ?? '',
       preferredPractice: onboardingQuestionAnswerMap['preferredPractice'] ?? '',
       motherTongue: onboardingQuestionAnswerMap['motherTongue'] ?? '',
+      dailyStudyDuration: onboardingQuestionAnswerMap['dailyStudyDuration'] ?? '',
+      preferredPracticeTime: onboardingQuestionAnswerMap['preferredPracticeTime'] ?? '',
       notificationToken: notificationToken ?? '',
       isShownCustomReviewDialogOnce: false,
       gems: 500,
@@ -312,7 +331,7 @@ class OnboardingController extends GetxController {
 
     if (selectedTime != null) {
       // Save time (e.g. 08:00)
-      print('Selected time: ${selectedTime.format(context)}');
+      debugPrint('Selected time: ${selectedTime.format(context)}');
       return formatTimeOfDay(selectedTime);
       // TODO: store + schedule notification
     }
@@ -325,19 +344,15 @@ class OnboardingController extends GetxController {
     return '$hour:$minute';
   }
 
-  void addLanguageBasedQuestionInOnboarding() async {
-    final countryCode = await NetworkService.getUserCountryFromIP();
-    for (var country in countryLanguages) {
-      if (country.countryCode == countryCode) {
-        onboardingQuestions.add(
-          OnboardingQuestion(
-            id: "motherTongue",
-            question: "Which language do you speak at home?",
-            options: country.languages,
-          ),
-        );
-      }
-    }
+  void addLanguageBasedQuestionInOnboarding() {
+    // Only show Hindi and Japanese for now
+    onboardingQuestions.add(
+      OnboardingQuestion(
+        id: "motherTongue",
+        question: "Which language do you speak at home?",
+        options: ["Hindi", "Japanese"],
+      ),
+    );
     onboardingQuestions.add(
       OnboardingQuestion(
         id: "appLanguage",

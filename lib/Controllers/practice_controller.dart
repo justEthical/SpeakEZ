@@ -74,7 +74,7 @@ class PracticeController extends GetxController {
     }
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {
-        print("Timer stopped");
+        debugPrint("Timer stopped");
         endRecording();
       } else {
         remainingSeconds.value--;
@@ -146,7 +146,7 @@ ScenarioModel getFreeTalkScenario() {
 
     totalSpeakingTime += (30 - remainingSeconds.value);
     _scrollToBottom();
-    print('listener hashcode: $hashCode');
+    debugPrint('listener hashcode: $hashCode');
 
     if (globalController.isDeepInfraTranscription.value) {
       globalController.transcriptionText.value = removeBracketedWords(
@@ -159,9 +159,9 @@ ScenarioModel getFreeTalkScenario() {
     } else {
       _removeRecordingChat(); // remove recording chat message and add transcribing animation
       sub = globalController.isLastChunkTranscribed.listen((val) {
-        print("Listener called: $val");
+        debugPrint("Listener called: $val");
         if (val) {
-          print("transcription done");
+          debugPrint("transcription done");
           // currentChats.remove(currentChats.last);
           globalController.transcriptionText.value = removeBracketedWords(
             globalController.transcriptionText.value,
@@ -239,7 +239,7 @@ ScenarioModel getFreeTalkScenario() {
       resultModel = FeedbackResult.fromJson(
         jsonDecode(globalController.removeTickMarksJson(res)),
       );
-      print(res);
+      debugPrint(res);
       currentChats.remove(currentChats.last);
       isChatResultReady.value = true;
 
@@ -295,14 +295,14 @@ ScenarioModel getFreeTalkScenario() {
 
   Future<void> getAiResponse() async {
     final time = DateTime.now().millisecondsSinceEpoch;
-    print("getting ai response");
+    debugPrint("getting ai response");
     var response = await NetworkService.getAiResponse(
       userReply: globalController.transcriptionText.value,
       topic: currentScenarioModel!.prompt,
       lastAiMessage: getLastAiMessage(),
       summary: currentConversationSummary,
     );
-    print(
+    debugPrint(
       "####### AI RESPONSE TIME: ${DateTime.now().millisecondsSinceEpoch - time} #######",
     );
     if (response != null) {

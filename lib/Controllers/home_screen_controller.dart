@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:archive/archive.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -77,7 +78,7 @@ class HomeScreenController extends GetxController {
     if (await dir.exists()) {
       try {
         await dir.delete(recursive: true);
-        print('Deleted folder: $folderPath');
+        debugPrint('Deleted folder: $folderPath');
       } catch (e) {
         PostHogService.instance.captureError(
           'file_system_error',
@@ -85,10 +86,10 @@ class HomeScreenController extends GetxController {
           location: 'HomeScreenController.deleteFolder',
           additionalProperties: {'folder_path': folderPath},
         );
-        print('Error deleting folder: $e');
+        debugPrint('Error deleting folder: $e');
       }
     } else {
-      print('Folder does not exist: $folderPath');
+      debugPrint('Folder does not exist: $folderPath');
     }
   }
 
@@ -100,7 +101,7 @@ class HomeScreenController extends GetxController {
     final zipFile = File(zipFilePath);
 
     if (!await zipFile.exists()) {
-      print('Zip file not found: $zipFilePath');
+      debugPrint('Zip file not found: $zipFilePath');
       return;
     }
 
@@ -125,7 +126,7 @@ class HomeScreenController extends GetxController {
         }
       }
 
-      print('Unzipped to $destinationDirectory');
+      debugPrint('Unzipped to $destinationDirectory');
     } catch (e) {
       PostHogService.instance.captureError(
         'file_system_error',
@@ -136,7 +137,7 @@ class HomeScreenController extends GetxController {
           'destination': destinationDirectory,
         },
       );
-      print('Error unzipping file: $e');
+      debugPrint('Error unzipping file: $e');
     }
   }
 
