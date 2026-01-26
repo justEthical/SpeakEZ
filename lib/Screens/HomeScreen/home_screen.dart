@@ -8,6 +8,7 @@ import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
+import 'package:speak_ez/Screens/HomeScreen/Widgets/practice_cards_section.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
@@ -72,17 +73,23 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 controller: _staggerController,
                 child: const StreakAndWordCountSection(),
               ),
-              const SizedBox(height: 30),
+              const SizedBox(height: 20),
               _AnimatedSection(
-                delay: 200,
+                delay: 150,
                 controller: _staggerController,
                 child: CurrentLessonProgressCard(
                   floatingController: _floatingController,
                 ),
               ),
+              const SizedBox(height: 20),
+              _AnimatedSection(
+                delay: 300,
+                controller: _staggerController,
+                child: const PracticeCardsSection(),
+              ),
               const SizedBox(height: 30),
               _AnimatedSection(
-                delay: 400,
+                delay: 450,
                 controller: _staggerController,
                 child: _LearnByLevelSection(),
               ),

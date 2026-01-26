@@ -8,35 +8,118 @@ import 'package:speak_ez/Models/ai_response_model.dart';
 import 'package:speak_ez/Models/chat_model.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
-class ChatBubble extends StatelessWidget {
+class ChatBubble extends StatefulWidget {
   final AIResponseModel? aiResponseModel;
   final ChatModel chatModel;
   const ChatBubble({super.key, required this.chatModel, this.aiResponseModel});
 
   @override
+  State<ChatBubble> createState() => _ChatBubbleState();
+}
+
+class _ChatBubbleState extends State<ChatBubble>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _scaleAnimation;
+  late Animation<double> _fadeAnimation;
+  late Animation<Offset> _slideAnimation;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 300),
+      vsync: this,
+    );
+
+    _scaleAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: Curves.easeOutBack,
+      ),
+    );
+
+    _fadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.6, curve: Curves.easeOut),
+      ),
+    );
+
+    // AI messages slide from left, user messages slide from right
+    final slideBegin = widget.chatModel.isAI
+        ? const Offset(-0.3, 0.1)
+        : const Offset(0.3, 0.1);
+
+    _slideAnimation = Tween<Offset>(
+      begin: slideBegin,
+      end: Offset.zero,
+    ).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: Curves.easeOutCubic,
+      ),
+    );
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final PracticeController c = Get.find();
-    if (chatModel.isAI) {
-      return Row(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            width: 40,
-            height: 40,
-            decoration: BoxDecoration(
-              border: Border.all(color: Theme.of(context).colorScheme.primary, width: 1.0),
-              borderRadius: BorderRadius.circular(60),
-            ),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(60),
-              child: Image.asset(AppAssets.natashaChat),
+
+    return AnimatedBuilder(
+      animation: _controller,
+      builder: (context, child) {
+        return FadeTransition(
+          opacity: _fadeAnimation,
+          child: SlideTransition(
+            position: _slideAnimation,
+            child: ScaleTransition(
+              scale: _scaleAnimation,
+              alignment: widget.chatModel.isAI
+                  ? Alignment.bottomLeft
+                  : Alignment.bottomRight,
+              child: child,
             ),
           ),
-          SizedBox(width: 8),
+        );
+      },
+      child: widget.chatModel.isAI
+          ? _buildAIBubble(context, c)
+          : _buildUserBubble(context),
+    );
+  }
 
-          ChatType.gettingAIResponse == chatModel.chatType
-              ? SizedBox(
+  Widget _buildAIBubble(BuildContext context, PracticeController c) {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.end,
+      children: [
+        Container(
+          margin: const EdgeInsets.only(bottom: 10),
+          width: 40,
+          height: 40,
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: Theme.of(context).colorScheme.primary,
+              width: 1.0,
+            ),
+            borderRadius: BorderRadius.circular(60),
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(60),
+            child: Image.asset(AppAssets.natashaChat),
+          ),
+        ),
+        const SizedBox(width: 8),
+        ChatType.gettingAIResponse == widget.chatModel.chatType
+            ? SizedBox(
                 width: 45,
                 height: 45,
                 child: Lottie.asset(
@@ -44,10 +127,10 @@ class ChatBubble extends StatelessWidget {
                   decoder: globalController.customDecoder,
                 ),
               )
-              : ConstrainedBox(
+            : ConstrainedBox(
                 constraints: BoxConstraints(maxWidth: Get.width - 120),
                 child: Container(
-                  margin: EdgeInsets.only(bottom: 10),
+                  margin: const EdgeInsets.only(bottom: 10),
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       begin: Alignment.topRight,
@@ -57,7 +140,7 @@ class ChatBubble extends StatelessWidget {
                         Theme.of(context).colorScheme.primary,
                       ],
                     ),
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(10),
                       topRight: Radius.circular(10),
                       bottomRight: Radius.circular(10),
@@ -67,13 +150,13 @@ class ChatBubble extends StatelessWidget {
                   child: Column(
                     children: [
                       Text(
-                        chatModel.message,
+                        widget.chatModel.message,
                         style: TextStyle(
                           color: Theme.of(context).colorScheme.onPrimary,
                           fontSize: 15,
                         ),
                       ),
-                      SizedBox(height: 5,),
+                      const SizedBox(height: 5),
                       Row(
                         children: [
                           Container(
@@ -85,11 +168,13 @@ class ChatBubble extends StatelessWidget {
                               onTap: () async {
                                 if (c.isMicEnabled.value) {
                                   c.isSpeaking = true;
-                                  await ttsHelper.speakAndWait(chatModel.message);
+                                  await ttsHelper.speakAndWait(
+                                    widget.chatModel.message,
+                                  );
                                   c.isSpeaking = false;
                                 }
                               },
-                              child: Icon(Icons.volume_down),
+                              child: const Icon(Icons.volume_down),
                             ),
                           ),
                         ],
@@ -98,16 +183,17 @@ class ChatBubble extends StatelessWidget {
                   ),
                 ),
               ),
-          Spacer(),
-        ],
-      );
-    } else {
-      return Row(
-        children: [
-          Spacer(),
+        const Spacer(),
+      ],
+    );
+  }
 
-          chatModel.chatType == ChatType.transcribing
-              ? SizedBox(
+  Widget _buildUserBubble(BuildContext context) {
+    return Row(
+      children: [
+        const Spacer(),
+        widget.chatModel.chatType == ChatType.transcribing
+            ? SizedBox(
                 width: 45,
                 height: 45,
                 child: Lottie.asset(
@@ -115,18 +201,18 @@ class ChatBubble extends StatelessWidget {
                   decoder: globalController.customDecoder,
                 ),
               )
-              : (aiResponseModel == null
-                  ? ConstrainedBox(
+            : (widget.aiResponseModel == null
+                ? ConstrainedBox(
                     constraints: BoxConstraints(maxWidth: Get.width - 120),
                     child: Container(
-                      margin: EdgeInsets.only(bottom: 10),
-                      decoration: BoxDecoration(
+                      margin: const EdgeInsets.only(bottom: 10),
+                      decoration: const BoxDecoration(
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(10),
                           topRight: Radius.circular(10),
                           bottomLeft: Radius.circular(10),
                         ),
-                        gradient: const LinearGradient(
+                        gradient: LinearGradient(
                           begin: Alignment.topRight,
                           end: Alignment.bottomLeft,
                           colors: [
@@ -137,7 +223,7 @@ class ChatBubble extends StatelessWidget {
                       ),
                       padding: const EdgeInsets.all(10),
                       child: Text(
-                        chatModel.message,
+                        widget.chatModel.message,
                         style: TextStyle(
                           color: Theme.of(context).colorScheme.onPrimary,
                           fontSize: 15,
@@ -145,13 +231,13 @@ class ChatBubble extends StatelessWidget {
                       ),
                     ),
                   )
-                  : ConstrainedBox(
+                : ConstrainedBox(
                     constraints: BoxConstraints(maxWidth: Get.width - 120),
                     child: Container(
-                      margin: EdgeInsets.only(bottom: 10),
+                      margin: const EdgeInsets.only(bottom: 10),
                       decoration: BoxDecoration(
                         color: Theme.of(context).colorScheme.onSecondary,
-                        borderRadius: BorderRadius.only(
+                        borderRadius: const BorderRadius.only(
                           topLeft: Radius.circular(10),
                           topRight: Radius.circular(10),
                           bottomLeft: Radius.circular(10),
@@ -165,17 +251,17 @@ class ChatBubble extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Text(
-                            chatModel.message,
+                            widget.chatModel.message,
                             style: TextStyle(
                               color:
                                   Theme.of(context).textTheme.bodyMedium?.color,
                               fontSize: 15,
                             ),
                           ),
-                          Divider(),
+                          const Divider(),
                           Text(
-                            aiResponseModel!.enhancedTranscript,
-                            style: TextStyle(
+                            widget.aiResponseModel!.enhancedTranscript,
+                            style: const TextStyle(
                               color: Colors.green,
                               fontSize: 15,
                               fontWeight: FontWeight.bold,
@@ -185,8 +271,7 @@ class ChatBubble extends StatelessWidget {
                       ),
                     ),
                   )),
-        ],
-      );
-    }
+      ],
+    );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
@@ -22,12 +23,30 @@ class ChatScreen extends StatefulWidget {
   State<ChatScreen> createState() => _ChatScreenState();
 }
 
-class _ChatScreenState extends State<ChatScreen> {
+class _ChatScreenState extends State<ChatScreen> with SingleTickerProviderStateMixin {
   final c = Get.find<PracticeController>();
+
+  late AnimationController _appBarController;
+  late Animation<double> _titleAnimation;
 
   @override
   void initState() {
     super.initState();
+
+    _appBarController = AnimationController(
+      duration: const Duration(milliseconds: 500),
+      vsync: this,
+    );
+
+    _titleAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _appBarController,
+        curve: Curves.easeOut,
+      ),
+    );
+
+    _appBarController.forward();
+
     PostHogService.instance.captureScreenView(
       'practice_chat_screen',
       properties: {
@@ -57,6 +76,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   void dispose() {
+    _appBarController.dispose();
     super.dispose();
     PostHogService.instance.capture(
       PostHogEvents.practiceExited,
@@ -91,22 +111,45 @@ class _ChatScreenState extends State<ChatScreen> {
           elevation: 0,
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           centerTitle: true,
-          title: Text(
-            widget.scenarioModel.title,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Theme.of(context).textTheme.bodyMedium?.color,
+          title: FadeTransition(
+            opacity: _titleAnimation,
+            child: SlideTransition(
+              position: Tween<Offset>(
+                begin: const Offset(0, -0.5),
+                end: Offset.zero,
+              ).animate(_titleAnimation),
+              child: Text(
+                widget.scenarioModel.title,
+                style: TextStyle(
+                  fontWeight: FontWeight.w800,
+                  fontFamily: AppStrings.nunitoFont,
+                  fontSize: 18,
+                  color: Theme.of(context).textTheme.bodyMedium?.color,
+                ),
+              ),
             ),
           ),
-          leading: IconButton(
-            icon: Icon(
-              Icons.arrow_back_ios_new_rounded,
-              color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+          leading: FadeTransition(
+            opacity: _titleAnimation,
+            child: IconButton(
+              icon: Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Icon(
+                  Icons.arrow_back_ios_new_rounded,
+                  size: 18,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+              ),
+              onPressed: () {
+                HapticFeedback.lightImpact();
+                c.isBottomSheetOpen = true;
+                c.showExitBottomSheet(context);
+              },
             ),
-            onPressed: () {
-              c.isBottomSheetOpen = true;
-              c.showExitBottomSheet(context);
-            },
           ),
         ),
         body: Padding(
@@ -146,7 +189,7 @@ class _ChatScreenState extends State<ChatScreen> {
                                       c.currentUserSessionMessage.value,
                                 },
                               );
-                              
+
                               Get.off(
                                 PracticeResultSreen(result: c.resultModel!),
                               );

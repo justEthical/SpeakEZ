@@ -52,6 +52,15 @@ class AppTranslations extends Translations {
       'continueLearning': "Continue Learning",
       'learnByLevel': "Learn by level",
       'seeAll': "See all",
+
+      // Practice Cards
+      'selectScenario': "Scenario Practice",
+      'practiceRealConversations': "Practice real-life conversations with AI",
+      'explore': "Explore",
+      'freeTalkTitle': "Free Speaking",
+      'talkAboutAnything': "Talk about anything you want with AI",
+      'startNow': "Start Now",
+      'conversationProgress': "Conversation Progress",
       'lessons': "Lessons",
       'levelLessons': "Level Lessons",
       'completed': "Completed",
@@ -235,6 +244,15 @@ class AppTranslations extends Translations {
       'continueLearning': "学習を続ける",
       'learnByLevel': "レベル別に学ぶ",
       'seeAll': "すべて見る",
+
+      // Practice Cards
+      'selectScenario': "シナリオ練習",
+      'practiceRealConversations': "AIと実際の会話を練習しましょう",
+      'explore': "探索する",
+      'freeTalkTitle': "フリースピーキング",
+      'talkAboutAnything': "AIと好きなトピックで会話しましょう",
+      'startNow': "今すぐ開始",
+      'conversationProgress': "会話の進捗",
       'lessons': "レッスン",
       'levelLessons': "レベルレッスン",
       'completed': "完了",
@@ -411,6 +429,15 @@ class AppTranslations extends Translations {
       'continueLearning': "सीखना जारी रखें",
       'learnByLevel': "स्तर के अनुसार सीखें",
       'seeAll': "सब देखें",
+
+      // Practice Cards
+      'selectScenario': "परिदृश्य अभ्यास",
+      'practiceRealConversations': "AI के साथ वास्तविक बातचीत का अभ्यास करें",
+      'explore': "खोजें",
+      'freeTalkTitle': "फ्री स्पीकिंग",
+      'talkAboutAnything': "AI के साथ किसी भी विषय पर बात करें",
+      'startNow': "अभी शुरू करें",
+      'conversationProgress': "बातचीत की प्रगति",
       'lessons': "पाठ",
       'levelLessons': "स्तर के पाठ",
       'completed': "पूर्ण",
@@ -596,6 +623,15 @@ class AppTranslations extends Translations {
   'continueLearning': "Continuar aprendiendo",
   'learnByLevel': "Aprender por nivel",
   'seeAll': "Ver todo",
+
+  // Practice Cards
+  'selectScenario': "Práctica de Escenarios",
+  'practiceRealConversations': "Practica conversaciones reales con IA",
+  'explore': "Explorar",
+  'freeTalkTitle': "Hablar Libremente",
+  'talkAboutAnything': "Habla de cualquier tema con la IA",
+  'startNow': "Comenzar Ahora",
+  'conversationProgress': "Progreso de la Conversación",
   'lessons': "Lecciones",
   'levelLessons': "Lecciones del nivel",
   'completed': "Completado",
