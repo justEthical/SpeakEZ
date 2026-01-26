@@ -64,12 +64,18 @@ class StreakScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: List.generate(
                 7,
-                (i) => _DayStreakTile(
-                  date: AppData.getCurrentWeekDates()[i],
-                  completed: profile.weekDaysStreak.toMap().values.toList()[i],
-                  isFuture: now.day < AppData.getCurrentWeekDates()[i].day,
-                  label: AppData.weekDaysName[i],
-                ),
+                (i) {
+                  final weekDate = AppData.getCurrentWeekDates()[i];
+                  final today = DateTime(now.year, now.month, now.day);
+                  final tileDate = DateTime(weekDate.year, weekDate.month, weekDate.day);
+                  return _DayStreakTile(
+                    date: weekDate,
+                    completed: profile.weekDaysStreak.toMap().values.toList()[i],
+                    isFuture: tileDate.isAfter(today),
+                    isToday: tileDate.isAtSameMomentAs(today),
+                    label: AppData.weekDaysName[i],
+                  );
+                },
               ),
             ),
 
@@ -123,12 +129,14 @@ class _DayStreakTile extends StatelessWidget {
   final DateTime date;
   final bool completed;
   final bool isFuture;
+  final bool isToday;
   final String label;
 
   const _DayStreakTile({
     required this.date,
     required this.completed,
     required this.isFuture,
+    required this.isToday,
     required this.label,
   });
 
@@ -144,39 +152,27 @@ class _DayStreakTile extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 4),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
-            border: Border.all(color: Colors.grey, width: 0.4),
+            border: Border.all(
+              color: isToday ? Colors.orange : Colors.grey,
+              width: isToday ? 1.5 : 0.4,
+            ),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 date.day.toString(),
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 16,
                   fontFamily: AppStrings.poppinsFont,
+                  fontWeight: isToday ? FontWeight.bold : FontWeight.normal,
+                  color: isToday ? Colors.orange : null,
                 ),
               ),
 
               const Spacer(),
 
-              completed 
-                  ? SizedBox( 
-                    width: 25,
-                    height: 25,
-                    child: Image.asset(AppAssets.fire),
-                  )
-                  : Container(
-                    height: 20,
-                    width: 20,
-                    decoration: BoxDecoration(
-                      color:
-                          isFuture
-                              ? Colors.transparent
-                              : Colors.grey.withValues(alpha: 0.3),
-                      border: Border.all(color: Colors.grey, width: 0.4),
-                      borderRadius: BorderRadius.circular(50),
-                    ),
-                  ),
+              _buildStatusIcon(),
             ],
           ),
         ),
@@ -185,12 +181,58 @@ class _DayStreakTile extends StatelessWidget {
 
         Text(
           label,
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 11,
             fontFamily: AppStrings.poppinsFont,
+            fontWeight: isToday ? FontWeight.bold : FontWeight.normal,
+            color: isToday ? Colors.orange : null,
           ),
         ),
       ],
     );
+  }
+
+  Widget _buildStatusIcon() {
+    if (completed) {
+      // Completed day - show fire icon
+      return SizedBox(
+        width: 25,
+        height: 25,
+        child: Image.asset(AppAssets.fire),
+      );
+    } else if (isToday) {
+      // Today but not completed - show paused Lottie streak
+      return SizedBox(
+        width: 25,
+        height: 25,
+        child: Lottie.asset(
+          AppAssets.streak,
+          animate: false, // Paused state
+          decoder: globalController.customDecoder,
+        ),
+      );
+    } else if (isFuture) {
+      // Future day - show transparent circle
+      return Container(
+        height: 20,
+        width: 20,
+        decoration: BoxDecoration(
+          color: Colors.transparent,
+          border: Border.all(color: Colors.grey, width: 0.4),
+          borderRadius: BorderRadius.circular(50),
+        ),
+      );
+    } else {
+      // Past day not completed - show grey filled circle
+      return Container(
+        height: 20,
+        width: 20,
+        decoration: BoxDecoration(
+          color: Colors.grey.withValues(alpha: 0.3),
+          border: Border.all(color: Colors.grey, width: 0.4),
+          borderRadius: BorderRadius.circular(50),
+        ),
+      );
+    }
   }
 }

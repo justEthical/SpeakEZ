@@ -25,6 +25,7 @@ import 'package:speak_ez/Utils/custom_dialogs.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
 import '../Utils/audio_chunk_recorder.dart';
+import 'package:speak_ez/Screens/Lessons/result_screen.dart' show updateTodayWeekDayStreak;
 
 class PracticeController extends GetxController {
   AudioChunkRecorder? recorder;
@@ -399,6 +400,9 @@ ScenarioModel getFreeTalkScenario() {
         lastActive.day == now.day)) {
       globalController.userProfile.value.currentStreak++;
     }
+
+    // Update the weekly streak calendar for today
+    updateTodayWeekDayStreak();
 
     globalController.userProfile.value.lastActive = DateTime.now();
 
