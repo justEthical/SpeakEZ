@@ -272,7 +272,7 @@ class WhisperHelper {
           .userProfile
           .value
           .isSupportsOndeviceTranscription = OnDeviceTranscriptionDetails(
-        isSupportsOndeviceTranscription: false,
+        isSupportsOndeviceTranscription: true,
         timeTookFor10SecTranscription: difference,
       );
     } else {
