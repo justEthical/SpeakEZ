@@ -219,6 +219,10 @@ class AppTranslations extends Translations {
       'settingsLevel': "Level",
       'settingsWords': "Words",
 
+      // Preparing Screen
+      'preparingTitle': "Creating Your Perfect Learning Plan",
+      'preparingSubtitle': "Personalizing just for you",
+
     },
 
     // ================= JAPANESE =================
@@ -429,6 +433,10 @@ class AppTranslations extends Translations {
       'settingsLogoutSubtitle': "アカウントからログアウト",
       'settingsLevel': "レベル",
       'settingsWords': "単語",
+
+      // Preparing Screen
+      'preparingTitle': "あなた専用の学習プランを作成中",
+      'preparingSubtitle': "パーソナライズしています",
 
     },
 
@@ -649,6 +657,10 @@ class AppTranslations extends Translations {
       'settingsLevel': "स्तर",
       'settingsWords': "शब्द",
 
+      // Preparing Screen
+      'preparingTitle': "आपके लिए सर्वश्रेष्ठ लर्निंग प्लान बना रहे हैं",
+      'preparingSubtitle': "आपके लिए पर्सनलाइज़ कर रहे हैं",
+
     },
 
     // ================ Spanish =================
@@ -864,6 +876,10 @@ class AppTranslations extends Translations {
   'settingsLogoutSubtitle': "Cerrar sesión de tu cuenta",
   'settingsLevel': "Nivel",
   'settingsWords': "Palabras",
+
+  // Preparing Screen
+  'preparingTitle': "Creando tu plan de aprendizaje perfecto",
+  'preparingSubtitle': "Personalizando para ti",
 
 }
 

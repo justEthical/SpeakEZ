@@ -9,6 +9,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
+import 'package:speak_ez/Screens/OnBoarding/preparing_screen.dart';
 import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
@@ -174,7 +175,7 @@ class OnboardingController extends GetxController {
 
     _resetOnboardingState();
 
-    Get.offAll(() => const TabBarScreen());
+    Get.offAll(() => const PreparingScreen());
   }
 
   void _resetOnboardingState() {
