@@ -1,153 +1,238 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lottie/lottie.dart';
-import 'package:speak_ez/Constants/app_assets.dart';
-import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 
-class CustomReviewScreen extends StatelessWidget {
-  const CustomReviewScreen({super.key});
+/// Shows the review prompt as a non-dismissible bottom sheet.
+///
+/// [onClose] is called when the close button is tapped, after handling the response.
+/// Use this callback to navigate away from the current screen.
+///
+/// If user taps "Yes" → sets flag and shows in-app review, then calls onClose
+/// If user taps "No" → sets flag and shows dummy feedback, then calls onClose
+/// If user taps close button without responding → flag is NOT set, just calls onClose
+void showReviewPromptBottomSheet(BuildContext context, {required VoidCallback onClose}) {
+  showModalBottomSheet(
+    context: context,
+    isDismissible: false,
+    enableDrag: false,
+    isScrollControlled: true,
+    backgroundColor: Colors.transparent,
+    builder: (BuildContext context) {
+      return _ReviewPromptBottomSheet(onClose: onClose);
+    },
+  );
+}
+
+/// Bottom sheet widget for the review prompt
+class _ReviewPromptBottomSheet extends StatelessWidget {
+  final VoidCallback onClose;
+
+  const _ReviewPromptBottomSheet({required this.onClose});
 
   @override
   Widget build(BuildContext context) {
-    _showCustomReviewCloseButton();
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        leading: Obx(() {
-          return globalController.isCustomReviewScreenCloseButtonVisible.value ? InkWell(
-          onTap: () {
-            Get.back();
-          },
-          child: Container(
-            margin: EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(100),
-              color: Theme.of(context).colorScheme.onPrimary),
-            
-            child: Icon(Icons.close, color: Theme.of(context).scaffoldBackgroundColor),
-          ),
-        ): SizedBox.shrink();
-        }),
+    final theme = Theme.of(context);
+
+    return Container(
+      decoration: BoxDecoration(
+        color: theme.scaffoldBackgroundColor,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
       ),
-      body: 
-       Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
-        child: Column(
-          children: [
-            Lottie.asset(
-              AppAssets.rating,
-            
-              decoder: globalController.customDecoder,
+      padding: const EdgeInsets.fromLTRB(24, 16, 24, 32),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          // Close button row
+          Align(
+            alignment: Alignment.topRight,
+            child: IconButton(
+              onPressed: () {
+                // Close without setting flag - user didn't respond
+                Navigator.of(context).pop();
+                onClose();
+              },
+              icon: Icon(
+                Icons.close,
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                size: 28,
+              ),
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(),
             ),
-            Flexible(
-              flex: 1,
+          ),
+          const SizedBox(height: 8),
+          // Question text
+          Text(
+            'didYouLikeTheSession'.tr,
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
+              color: theme.colorScheme.onSurface,
+            ),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 32),
+          // "Yes, loved it!" button
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+                _onPositiveResponse(onClose);
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green.shade600,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
               child: Text(
-                AppStrings.pleaseRateYourExperience.tr.tr,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
-                  fontSize: 20,
+                'yesLovedIt'.tr,
+                style: const TextStyle(
+                  color: Colors.white,
                   fontWeight: FontWeight.w700,
+                  fontSize: 17,
                 ),
               ),
             ),
-            SizedBox(height: 20),
-            Flexible(
-              flex: 1,
+          ),
+          const SizedBox(height: 14),
+          // "Not really" button
+          SizedBox(
+            width: double.infinity,
+            child: OutlinedButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+                _onNegativeResponse(context, onClose);
+              },
+              style: OutlinedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                side: BorderSide(
+                  color: theme.colorScheme.outline,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
               child: Text(
-                AppStrings.reviewRequest,
-                textAlign: TextAlign.center,
+                'notReally'.tr,
                 style: TextStyle(
-                  color: Theme.of(context).textTheme.bodyMedium?.color,
-                  fontSize: 16,
-                  fontWeight: FontWeight.w800,
+                  color: theme.colorScheme.onSurface,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 17,
                 ),
               ),
             ),
-            Spacer(),
-            HighlightButton(),
+          ),
+          // Extra bottom padding for safe area
+          SizedBox(height: MediaQuery.of(context).padding.bottom),
+        ],
+      ),
+    );
+  }
+}
+
+/// User liked the session - set flag, show in-app review, then call onClose
+void _onPositiveResponse(VoidCallback onClose) {
+  // Set the flag so we don't ask again
+  globalController.userProfile.value.isShownCustomReviewDialogOnce = true;
+  globalController.updateProfile();
+
+  // Show the native in-app review dialog
+  globalController.showReviewDialog();
+
+  // Navigate away
+  onClose();
+}
+
+/// User didn't like the session - set flag, show dummy feedback, then call onClose
+void _onNegativeResponse(BuildContext context, VoidCallback onClose) {
+  // Set the flag so we don't ask again
+  // globalController.userProfile.value.isShownCustomReviewDialogOnce = true;
+  // globalController.updateProfile();
+
+  // Show dummy feedback bottom sheet
+  _showDummyFeedbackBottomSheet(context, onClose: onClose);
+}
+
+/// Shows a dummy feedback bottom sheet with just a "Done" button
+void _showDummyFeedbackBottomSheet(BuildContext context, {required VoidCallback onClose}) {
+  showModalBottomSheet(
+    context: context,
+    isDismissible: false,
+    enableDrag: false,
+    isScrollControlled: true,
+    backgroundColor: Colors.transparent,
+    builder: (BuildContext context) {
+      final theme = Theme.of(context);
+
+      return Container(
+        decoration: BoxDecoration(
+          color: theme.scaffoldBackgroundColor,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        padding: const EdgeInsets.fromLTRB(24, 16, 24, 32),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Close button row
+            Align(
+              alignment: Alignment.topRight,
+              child: IconButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                  onClose();
+                },
+                icon: Icon(
+                  Icons.close,
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                  size: 28,
+                ),
+                padding: EdgeInsets.zero,
+                constraints: const BoxConstraints(),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'thankYouFeedback'.tr,
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+                color: theme.colorScheme.onSurface,
+              ),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 32),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                  onClose();
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: theme.colorScheme.primary,
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14),
+                  ),
+                ),
+                child: Text(
+                  'feedbackDone'.tr,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
+                    fontSize: 17,
+                  ),
+                ),
+              ),
+            ),
+            // Extra bottom padding for safe area
+            SizedBox(height: MediaQuery.of(context).padding.bottom),
           ],
         ),
-      ),
-    );
-  }
-
-
+      );
+    },
+  );
 }
-
-void _showCustomReviewCloseButton() {
-  Future.delayed(Duration(seconds: 5), () {
-    globalController.isCustomReviewScreenCloseButtonVisible.value = true;
-  });
-}
-
-
-class HighlightButton extends StatefulWidget {
-  const HighlightButton({super.key});
-
-  @override
-  // ignore: library_private_types_in_public_api
-  _HighlightButtonState createState() => _HighlightButtonState();
-}
-
-class _HighlightButtonState extends State<HighlightButton>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<Color?> _colorAnimation;
-
-  @override
-  void initState() {
-    super.initState();
-
-    _controller = AnimationController(
-      vsync: this,
-      duration: const Duration(seconds: 1), // blinking speed
-    )..repeat(reverse: true);
-
-    _colorAnimation = ColorTween(
-      begin: Colors.deepPurple,
-      end: Colors.blue.shade700, // highlight color
-    ).animate(_controller);
-  }
-
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: _colorAnimation,
-      builder: (context, child) {
-        return ElevatedButton(
-          onPressed: () {
-            Get.back();
-            globalController.showReviewDialog();
-            // globalController.openUrl(AppStrings.appPlayStoreUrl);
-            globalController.userProfile.value.isShownCustomReviewDialogOnce = true;
-            globalController.updateProfile();
-          },
-          style: ElevatedButton.styleFrom(
-            backgroundColor: _colorAnimation.value, // animate background
-            fixedSize: Size(Get.width - 40, 50),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-          ),
-          child: Text(
-            AppStrings.rateUs.tr.tr,
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.w800,
-              fontSize: 20
-            ),
-          ),
-        );
-      },
-    );
-  }
-}
-

@@ -3,6 +3,7 @@ import 'dart:isolate';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:lottie/lottie.dart';
@@ -128,16 +129,18 @@ class GlobalController extends GetxController {
   }
 
   void showSnackbarWithGetX(String title, String message) {
-    Future.delayed(
-      Duration(microseconds: 100),
-      () => Get.snackbar(
-        title,
-        message,
-        backgroundColor: Colors.black,
-        colorText: Colors.white,
-        snackPosition: SnackPosition.BOTTOM,
-      ),
-    );
+    // Future.delayed(
+    //   Duration(microseconds: 100),
+    //   () => Get.snackbar(
+    //     title,
+    //     message,
+    //     backgroundColor: Colors.black,
+    //     colorText: Colors.white,
+    //     snackPosition: SnackPosition.BOTTOM,
+    //   ),
+    // );
+
+    Fluttertoast.showToast(msg: message, timeInSecForIosWeb: 3);
   }
 
   void updateProfile() async {
@@ -176,10 +179,10 @@ class GlobalController extends GetxController {
     }
   }
 
-  String getLessonTranslationLanguage(){
-    if(globalController.userProfile.value.motherTongue == "Japanese"){
+  String getLessonTranslationLanguage() {
+    if (globalController.userProfile.value.motherTongue == "Japanese") {
       return "Japanese";
-    }else{
+    } else {
       return "Hindi";
     }
   }

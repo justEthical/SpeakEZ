@@ -283,6 +283,7 @@ class QuestionOptionsController extends GetxController {
         debugPrint(globalController.transcriptionText.value);
       },
       (isListening) {
+        final currentQuestionCtrl = Get.find<QuestionOptionsController>();
         globalController.isLastChunkTranscribed.value = isListening;
         // removing bracketed words like [MUSIC], [BLANK], [NOISE] etc
         globalController.transcriptionText.value = removeBracketedWords(
@@ -293,10 +294,10 @@ class QuestionOptionsController extends GetxController {
           globalController.transcriptionText.value,
         );
         if (globalController.transcriptionText.value.isNotEmpty) {
-          isContinueButtonEnabled.value = true;
+          currentQuestionCtrl.isContinueButtonEnabled.value = true;
         }
         if (!isListening) {
-          isListeningLessonAnswer.value = false;
+          currentQuestionCtrl.isListeningLessonAnswer.value = false;
         }
       },
     );
