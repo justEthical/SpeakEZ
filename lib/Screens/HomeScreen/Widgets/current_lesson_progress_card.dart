@@ -127,13 +127,13 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                           ? lessonNames[userProfile.currentEnglishLevelProgress]
                           : AppStrings.introduction.tr,
                       style: TextStyle(
-                        fontSize: 22,
+                        fontSize: 18,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w800,
                         color: Colors.white,
                       ),
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 12),
                     Row(
                       children: [
                         Expanded(
@@ -154,7 +154,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                             ),
                           ),
                         ),
-                        const SizedBox(width: 15),
+                        const SizedBox(width: 12),
                         AnimatedBuilder(
                           animation: _progressAnimation,
                           builder: (context, child) {
@@ -178,7 +178,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                         ),
                       ],
                     ),
-                    const SizedBox(height: 25),
+                    const SizedBox(height: 20),
                     AnimatedBuilder(
                       animation: _buttonAnimation,
                       builder: (context, child) {

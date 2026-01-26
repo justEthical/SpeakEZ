@@ -57,7 +57,7 @@ class _PracticeSpeakingState extends State<PracticeSpeaking>
               color: Theme.of(context).textTheme.bodyMedium?.color,
               fontFamily: AppStrings.nunitoFont,
               fontWeight: FontWeight.w800,
-              fontSize: 22,
+              fontSize: 18,
             ),
           ),
         ),
@@ -74,19 +74,19 @@ class _PracticeSpeakingState extends State<PracticeSpeaking>
               child: Row(
                 children: [
                   SizedBox(
-                    width: 18,
-                    height: 30,
+                    width: 16,
+                    height: 24,
                     child: Image.asset(AppAssets.gem),
                   ),
-                  const SizedBox(width: 6),
+                  const SizedBox(width: 4),
                   Obx(
                     () => Text(
                       globalController.userProfile.value.gems.toString(),
                       style: TextStyle(
                         color: Theme.of(context).textTheme.bodyMedium?.color,
                         fontFamily: AppStrings.nunitoFont,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 22,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16,
                       ),
                     ),
                   ),
