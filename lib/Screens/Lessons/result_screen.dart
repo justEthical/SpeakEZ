@@ -216,15 +216,19 @@ class ResultScreen extends StatelessWidget {
   Widget _buildDoneButton(context, int gemsEarned) {
     return ElevatedButton(
       onPressed: () {
-        Get.find<QuestionOptionsController>().isFromRetest = false;
-        Get.offAll(() => TabBarScreen(gemEarned: gemsEarned));
         final isItTimeToShowCustomReview =
             globalController.userProfile.value.currentEnglishLevelProgress % 5;
         if ((isItTimeToShowCustomReview == 2) &&
             !globalController.userProfile.value.isShownCustomReviewDialogOnce) {
-          Get.to(() => const CustomReviewScreen());
+          showReviewPromptBottomSheet(
+            context,
+            onClose: () {
+              closeBottomSheet(gemsEarned);
+            },
+          );
+        } else {
+          closeBottomSheet(gemsEarned);
         }
-        Get.delete<QuestionOptionsController>(force: true);
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Theme.of(context).colorScheme.onSurface,
@@ -242,6 +246,12 @@ class ResultScreen extends StatelessWidget {
       ),
     );
   }
+}
+
+void closeBottomSheet(int gemsEarned) {
+  Get.find<QuestionOptionsController>().isFromRetest = false;
+              Get.offAll(() => TabBarScreen(gemEarned: gemsEarned));
+              Get.delete<QuestionOptionsController>(force: true);
 }
 
 void updateTodayWeekDayStreak() {

@@ -179,6 +179,11 @@ class AppTranslations extends Translations {
 
       // Review Screen
       'pleaseRateYourExperience': "Please rate your experience",
+      'didYouLikeTheSession': "Did you vibe with this session? 🔥",
+      'yesLovedIt': "Yesss, loved it! 💯",
+      'notReally': "Nah, not really",
+      'thankYouFeedback': "Thanks for keeping it real with us! We got you. 🙏",
+      'feedbackDone': "Done",
     },
 
     // ================= JAPANESE =================
@@ -350,6 +355,11 @@ class AppTranslations extends Translations {
 
       // Review Screen
       'pleaseRateYourExperience': "体験を評価してください",
+      'didYouLikeTheSession': "このセッション、良かった？ 🔥",
+      'yesLovedIt': "めっちゃ良かった！ 💯",
+      'notReally': "うーん、微妙かも",
+      'thankYouFeedback': "正直に教えてくれてありがとう！ 🙏",
+      'feedbackDone': "完了",
     },
 
     // ================= Hindi =================
@@ -529,6 +539,11 @@ class AppTranslations extends Translations {
 
       // Review Screen
       'pleaseRateYourExperience': "कृपया अपने अनुभव को रेट करें",
+      'didYouLikeTheSession': "सेशन कैसा लगा? मज़ा आया? 🔥",
+      'yesLovedIt': "हाँ बहुत बढ़िया! 💯",
+      'notReally': "नहीं, ज़्यादा नहीं",
+      'thankYouFeedback': "सच बताने के लिए थैंक्स! हम सुधारेंगे। 🙏",
+      'feedbackDone': "ठीक है",
     },
 
     // ================ Spanish =================
@@ -705,6 +720,11 @@ class AppTranslations extends Translations {
 
   // Review Screen
   'pleaseRateYourExperience': "Por favor califica tu experiencia",
+  'didYouLikeTheSession': "¿Te gustó la sesión? 🔥",
+  'yesLovedIt': "¡Sí, estuvo increíble! 💯",
+  'notReally': "No mucho, la verdad",
+  'thankYouFeedback': "¡Gracias por ser honesto! Lo tenemos en cuenta. 🙏",
+  'feedbackDone': "Listo",
 }
 
   };

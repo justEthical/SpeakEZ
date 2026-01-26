@@ -49,18 +49,25 @@ class HomeScreenController extends GetxController {
       jsonDecode(profileData!),
     );
     calculateStreak();
-    // update weekDaysStreak if its monday
+    // reset weekDaysStreak if it's the first app open of the new week
     updateWeekDaysStreak(); 
   }
 
   void updateWeekDaysStreak() {
     final now = DateTime.now();
     final lastActive = globalController.userProfile.value.lastActive;
-    final isUpdatedWeekDaysOnce = !(lastActive.year == now.year &&
-        lastActive.month == now.month &&
-        lastActive.day == now.day);
-    
-    if(now.weekday == DateTime.monday && isUpdatedWeekDaysOnce) {
+
+    // Calculate the start of the current week (Monday at 00:00:00)
+    // weekday: Monday = 1, Sunday = 7
+    // Subtracting (weekday - 1) days from today gives us this week's Monday
+    final startOfCurrentWeek = DateTime(now.year, now.month, now.day)
+        .subtract(Duration(days: now.weekday - 1));
+
+    final lastActiveDate = DateTime(lastActive.year, lastActive.month, lastActive.day);
+
+    // If lastActive is before this week's Monday, reset the weekly streak
+    // This handles: user opens app on Tuesday (or any day) for the first time this week
+    if (lastActiveDate.isBefore(startOfCurrentWeek)) {
       globalController.userProfile.value.weekDaysStreak = WeekDaysStreak.fromMap({});
       globalController.prefs?.setString(
         AppStrings.userProfile,

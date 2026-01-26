@@ -14,7 +14,34 @@ class OptionsBuilder extends StatelessWidget {
     final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Obx(() {
-      final isSelected = c.onboardingQuestionAnswerMap[model.id] == label;
+      final storedValue = c.onboardingQuestionAnswerMap[model.id];
+      bool isSelected = storedValue == label;
+
+      // Handle custom time option: if this is the last option of preferredPracticeTime,
+      // check if stored value is a custom time (not one of the preset times)
+      if (!isSelected && model.id == 'preferredPracticeTime') {
+        switch (storedValue) {
+          case '08:00':
+            if (label == '🔅 Morning 8:00 AM') {
+              isSelected = true;
+            }
+            break;
+          case '12:00':
+            if (label == '☀️ Afternoon 12:00 PM') {
+              isSelected = true;
+            }
+            break;
+          case '18:00':
+            if (label == '🌙 Evening 6:00 PM') {
+              isSelected = true;
+            }
+            break;
+          default:
+            if (storedValue != null && label == '⏰ Pick a time') {
+              isSelected = true;
+            }
+        }
+      }
 
       return Padding(
         padding: const EdgeInsets.only(bottom: 12),
@@ -33,35 +60,40 @@ class OptionsBuilder extends StatelessWidget {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
               decoration: BoxDecoration(
-                color: isSelected
-                    ? Colors.green
-                    : isDarkMode
+                color:
+                    isSelected
+                        ? Colors.green
+                        : isDarkMode
                         ? Colors.grey.shade800.withValues(alpha: 0.5)
                         : Colors.white,
                 borderRadius: BorderRadius.circular(14),
                 border: Border.all(
-                  color: isSelected
-                      ? Colors.green
-                      : isDarkMode
+                  color:
+                      isSelected
+                          ? Colors.green
+                          : isDarkMode
                           ? Colors.grey.shade600
                           : Colors.grey.shade300,
                   width: isSelected ? 2 : 1.5,
                 ),
-                boxShadow: isSelected
-                    ? [
-                        BoxShadow(
-                          color: Colors.green.withValues(alpha: 0.25),
-                          blurRadius: 12,
-                          offset: const Offset(0, 4),
-                        ),
-                      ]
-                    : [
-                        BoxShadow(
-                          color: Colors.black.withValues(alpha: isDarkMode ? 0.2 : 0.04),
-                          blurRadius: 8,
-                          offset: const Offset(0, 2),
-                        ),
-                      ],
+                boxShadow:
+                    isSelected
+                        ? [
+                          BoxShadow(
+                            color: Colors.green.withValues(alpha: 0.25),
+                            blurRadius: 12,
+                            offset: const Offset(0, 4),
+                          ),
+                        ]
+                        : [
+                          BoxShadow(
+                            color: Colors.black.withValues(
+                              alpha: isDarkMode ? 0.2 : 0.04,
+                            ),
+                            blurRadius: 8,
+                            offset: const Offset(0, 2),
+                          ),
+                        ],
               ),
               child: Row(
                 children: [
@@ -70,10 +102,12 @@ class OptionsBuilder extends StatelessWidget {
                       label,
                       style: TextStyle(
                         fontSize: 16,
-                        fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
-                        color: isSelected
-                            ? Colors.white
-                            : Theme.of(context).textTheme.bodyLarge?.color,
+                        fontWeight:
+                            isSelected ? FontWeight.w600 : FontWeight.w500,
+                        color:
+                            isSelected
+                                ? Colors.white
+                                : Theme.of(context).textTheme.bodyLarge?.color,
                       ),
                     ),
                   ),
@@ -83,25 +117,25 @@ class OptionsBuilder extends StatelessWidget {
                     height: 24,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: isSelected
-                          ? Colors.white
-                          : Colors.transparent,
+                      color: isSelected ? Colors.white : Colors.transparent,
                       border: Border.all(
-                        color: isSelected
-                            ? Colors.white
-                            : isDarkMode
+                        color:
+                            isSelected
+                                ? Colors.white
+                                : isDarkMode
                                 ? Colors.grey.shade500
                                 : Colors.grey.shade400,
                         width: 2,
                       ),
                     ),
-                    child: isSelected
-                        ? const Icon(
-                            Icons.check,
-                            size: 16,
-                            color: Colors.green,
-                          )
-                        : null,
+                    child:
+                        isSelected
+                            ? const Icon(
+                              Icons.check,
+                              size: 16,
+                              color: Colors.green,
+                            )
+                            : null,
                   ),
                 ],
               ),

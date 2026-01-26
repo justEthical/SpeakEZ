@@ -30,104 +30,92 @@ class ScenariosList extends StatelessWidget {
             floating: true,
             expandedHeight: 150,
             automaticallyImplyLeading: false,
-            backgroundColor: Theme.of(context).colorScheme.onPrimary,
-            flexibleSpace: FlexibleSpaceBar(
-              title: Text(
-                "",
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.deepPurple,
+            flexibleSpace: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [Colors.deepPurple, Colors.blue],
                 ),
               ),
-              titlePadding: const EdgeInsetsDirectional.only(
-                start: 16,
-                bottom: 0,
-              ),
-              background: Container(
-                padding: EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [Colors.deepPurple, Colors.blue],
-                  ),
-                ),
-                child: SafeArea(
-                  child: Column(
-                    children: [
-                      Row(
-                        children: [
-                          Obx(
-                            () => Text(
-                              "${AppStrings.gems.tr}: ${globalController.userProfile.value.gems}"
-                                  .toString(),
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
+              child: FlexibleSpaceBar(
+                collapseMode: CollapseMode.pin,
+                background: SafeArea(
+                  child: Padding(
+                    padding: EdgeInsets.all(12),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Obx(
+                              () => Text(
+                                "${AppStrings.gems.tr}: ${globalController.userProfile.value.gems}"
+                                    .toString(),
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
                               ),
                             ),
-                          ),
-                          Image.asset(AppAssets.gem, width: 20, height: 20),
-                          Spacer(),
-                          InkWell(
-                            onTap: () {
-                              PostHogService.instance.captureClick(
-                                'practice_scenario_close',
-                                elementType: 'button',
-                                screenName: 'practice_scenario_screen',
-                              );
-                              Get.back();
-                            },
-                            child: Container(
-                              padding: const EdgeInsets.all(5),
-                              decoration: BoxDecoration(
-                                color: Theme.of(context).colorScheme.onPrimary,
-                                shape: BoxShape.circle,
-                              ),
-                              child: Icon(
-                                Icons.close,
-                                size: 20,
-                                color: Colors.blue,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      SizedBox(height: 10),
-                      Row(
-                        children: [
-                          Hero(
-                            tag: scenarioModel.title,
-                            child: Container(
-                              width: 80,
-                              height: 80,
-                              padding: EdgeInsets.all(10),
-                              decoration: BoxDecoration(
-                                color: Colors.deepPurple.shade200,
-                                borderRadius: BorderRadius.circular(15),
-                              ),
-                              child: Image.asset(scenarioModel.assetPath),
-                            ),
-                          ),
-                          SizedBox(width: 10),
-                          SizedBox(
-                            width: Get.width - 114,
-                            child: Text(
-                              scenarioModel.title,
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
+                            Image.asset(AppAssets.gem, width: 20, height: 20),
+                            Spacer(),
+                            InkWell(
+                              onTap: () {
+                                PostHogService.instance.captureClick(
+                                  'practice_scenario_close',
+                                  elementType: 'button',
+                                  screenName: 'practice_scenario_screen',
+                                );
+                                Get.back();
+                              },
+                              child: Container(
+                                padding: const EdgeInsets.all(5),
+                                decoration: BoxDecoration(
+                                  color: Theme.of(context).colorScheme.onPrimary,
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Icon(
+                                  Icons.close,
+                                  size: 20,
+                                  color: Colors.blue,
+                                ),
                               ),
                             ),
-                          ),
-                        ],
-                      ),
-                    ],
+                          ],
+                        ),
+                        SizedBox(height: 10),
+                        Row(
+                          children: [
+                            Hero(
+                              tag: scenarioModel.title,
+                              child: Container(
+                                width: 80,
+                                height: 80,
+                                padding: EdgeInsets.all(10),
+                                decoration: BoxDecoration(
+                                  color: Colors.deepPurple.shade200,
+                                  borderRadius: BorderRadius.circular(15),
+                                ),
+                                child: Image.asset(scenarioModel.assetPath),
+                              ),
+                            ),
+                            SizedBox(width: 10),
+                            SizedBox(
+                              width: Get.width - 114,
+                              child: Text(
+                                scenarioModel.title,
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),

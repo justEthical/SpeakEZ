@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Screens/FreeTalk/free_talk.dart';
@@ -68,45 +69,61 @@ class _TabBarScreenState extends State<TabBarScreen> {
           physics: NeverScrollableScrollPhysics(),
           children: [HomeScreen(), PracticeSpeaking(), FreeTalk(), SettingScreens()],
         ),
-        bottomNavigationBar: Obx(
-          () => BottomNavigationBar(
-            type: BottomNavigationBarType.fixed,
-            onTap: (value) {
-              final tabNames = ['progress', 'practice', 'free_talk', 'settings'];
-              PostHogService.instance.capture(
-                PostHogEvents.tabChanged,
-                properties: {
-                  'tab_name': tabNames[value],
-                  'tab_index': value,
-                  'screen_name': 'tab_bar_screen',
-                },
-              );
-              globalController.currentTabIndex.value = value;
-              globalController.cutomTabBarController.jumpToPage(
-                value,
-                // duration: Duration(milliseconds: 300),
-                // curve: Curves.easeIn,
-              );
-            },
-            items: [
-              BottomNavigationBarItem(
-                icon: Icon(Icons.workspace_premium_outlined),
-                label: AppStrings.progress.tr,
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.chat_bubble_outline),
-                label: AppStrings.practice.tr,
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.record_voice_over_rounded),
-                label: AppStrings.freeTalk.tr,
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.settings),
-                label: AppStrings.profile.tr,
+        bottomNavigationBar: Container(
+          height: 60,
+          margin: EdgeInsets.only(left: 15, right: 15, bottom: 10),
+          decoration: BoxDecoration(
+            color: Theme.of(context).scaffoldBackgroundColor,
+            border: Border.all(color: Colors.grey, width: 0.4),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.3),
+                spreadRadius: 2,
+                blurRadius: 2,
+                offset: const Offset(0, 4),
               ),
             ],
-            currentIndex: globalController.currentTabIndex.value,
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Obx(
+            () => SalomonBottomBar(
+              currentIndex: globalController.currentTabIndex.value,
+              onTap: (value) {
+                final tabNames = ['progress', 'practice', 'free_talk', 'settings'];
+                PostHogService.instance.capture(
+                  PostHogEvents.tabChanged,
+                  properties: {
+                    'tab_name': tabNames[value],
+                    'tab_index': value,
+                    'screen_name': 'tab_bar_screen',
+                  },
+                );
+                globalController.currentTabIndex.value = value;
+                globalController.cutomTabBarController.jumpToPage(value);
+              },
+              items: [
+                SalomonBottomBarItem(
+                  icon: Icon(Icons.workspace_premium_outlined),
+                  title: Text(AppStrings.progress.tr),
+                  selectedColor: Colors.deepPurple,
+                ),
+                SalomonBottomBarItem(
+                  icon: Icon(Icons.chat_bubble_outline),
+                  title: Text(AppStrings.practice.tr),
+                  selectedColor: Colors.blue,
+                ),
+                SalomonBottomBarItem(
+                  icon: Icon(Icons.record_voice_over_rounded),
+                  title: Text(AppStrings.freeTalk.tr),
+                  selectedColor: Colors.orange,
+                ),
+                SalomonBottomBarItem(
+                  icon: Icon(Icons.settings),
+                  title: Text(AppStrings.profile.tr),
+                  selectedColor: Colors.teal,
+                ),
+              ],
+            ),
           ),
         ),
       ),
