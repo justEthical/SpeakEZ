@@ -193,6 +193,32 @@ class AppTranslations extends Translations {
       'notReally': "Nah, not really",
       'thankYouFeedback': "Thanks for keeping it real with us! We got you. 🙏",
       'feedbackDone': "Done",
+
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "Why Free Talk?",
+      'freeTalkFeature1Title': "Unlimited Topics",
+      'freeTalkFeature1Desc': "Talk about anything that interests you",
+      'freeTalkFeature2Title': "AI-Powered",
+      'freeTalkFeature2Desc': "Smart conversations with Natasha AI",
+      'freeTalkFeature3Title': "Instant Feedback",
+      'freeTalkFeature3Desc': "Get real-time tips to improve",
+      'freeTalkTopicsTitle': "Need inspiration?",
+      'freeTalkTopic1': "My hobbies",
+      'freeTalkTopic2': "Travel plans",
+      'freeTalkTopic3': "Favorite movies",
+      'freeTalkTopic4': "Daily routine",
+      'freeTalkTopic5': "Dream job",
+      'freeTalkTopic6': "Weekend plans",
+
+      // Settings Screen Enhanced
+      'settingsAppSection': "APP SETTINGS",
+      'settingsSupportSection': "SUPPORT",
+      'settingsAccountSection': "ACCOUNT",
+      'settingsLanguage': "App Language",
+      'settingsLogoutSubtitle': "Sign out of your account",
+      'settingsLevel': "Level",
+      'settingsWords': "Words",
+
     },
 
     // ================= JAPANESE =================
@@ -378,6 +404,32 @@ class AppTranslations extends Translations {
       'notReally': "うーん、微妙かも",
       'thankYouFeedback': "正直に教えてくれてありがとう！ 🙏",
       'feedbackDone': "完了",
+
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "フリートークの魅力",
+      'freeTalkFeature1Title': "無限のトピック",
+      'freeTalkFeature1Desc': "好きなことについて話そう",
+      'freeTalkFeature2Title': "AI搭載",
+      'freeTalkFeature2Desc': "ナターシャAIとスマートな会話",
+      'freeTalkFeature3Title': "即座のフィードバック",
+      'freeTalkFeature3Desc': "リアルタイムで改善のヒントを取得",
+      'freeTalkTopicsTitle': "何を話そうか迷ったら？",
+      'freeTalkTopic1': "趣味について",
+      'freeTalkTopic2': "旅行の計画",
+      'freeTalkTopic3': "好きな映画",
+      'freeTalkTopic4': "日常生活",
+      'freeTalkTopic5': "夢の仕事",
+      'freeTalkTopic6': "週末の予定",
+
+      // Settings Screen Enhanced
+      'settingsAppSection': "アプリ設定",
+      'settingsSupportSection': "サポート",
+      'settingsAccountSection': "アカウント",
+      'settingsLanguage': "アプリの言語",
+      'settingsLogoutSubtitle': "アカウントからログアウト",
+      'settingsLevel': "レベル",
+      'settingsWords': "単語",
+
     },
 
     // ================= Hindi =================
@@ -571,6 +623,32 @@ class AppTranslations extends Translations {
       'notReally': "नहीं, ज़्यादा नहीं",
       'thankYouFeedback': "सच बताने के लिए थैंक्स! हम सुधारेंगे। 🙏",
       'feedbackDone': "ठीक है",
+
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "फ्री टॉक क्यों?",
+      'freeTalkFeature1Title': "असीमित विषय",
+      'freeTalkFeature1Desc': "अपनी पसंद के किसी भी विषय पर बात करें",
+      'freeTalkFeature2Title': "AI संचालित",
+      'freeTalkFeature2Desc': "नताशा AI के साथ स्मार्ट बातचीत",
+      'freeTalkFeature3Title': "तुरंत फीडबैक",
+      'freeTalkFeature3Desc': "सुधार के लिए रीयल-टाइम सुझाव",
+      'freeTalkTopicsTitle': "कुछ आइडिया चाहिए?",
+      'freeTalkTopic1': "मेरी हॉबी",
+      'freeTalkTopic2': "यात्रा की योजना",
+      'freeTalkTopic3': "पसंदीदा फिल्में",
+      'freeTalkTopic4': "रोज़ की दिनचर्या",
+      'freeTalkTopic5': "सपनों की नौकरी",
+      'freeTalkTopic6': "वीकेंड प्लान",
+
+      // Settings Screen Enhanced
+      'settingsAppSection': "ऐप सेटिंग्स",
+      'settingsSupportSection': "सहायता",
+      'settingsAccountSection': "खाता",
+      'settingsLanguage': "ऐप की भाषा",
+      'settingsLogoutSubtitle': "अपने खाते से लॉगआउट करें",
+      'settingsLevel': "स्तर",
+      'settingsWords': "शब्द",
+
     },
 
     // ================ Spanish =================
@@ -761,6 +839,32 @@ class AppTranslations extends Translations {
   'notReally': "No mucho, la verdad",
   'thankYouFeedback': "¡Gracias por ser honesto! Lo tenemos en cuenta. 🙏",
   'feedbackDone': "Listo",
+
+  // Free Talk Screen Enhanced
+  'freeTalkWhyTitle': "¿Por qué Conversación Libre?",
+  'freeTalkFeature1Title': "Temas ilimitados",
+  'freeTalkFeature1Desc': "Habla de lo que más te interese",
+  'freeTalkFeature2Title': "Con IA",
+  'freeTalkFeature2Desc': "Conversaciones inteligentes con Natasha AI",
+  'freeTalkFeature3Title': "Retroalimentación instantánea",
+  'freeTalkFeature3Desc': "Consejos en tiempo real para mejorar",
+  'freeTalkTopicsTitle': "¿Necesitas inspiración?",
+  'freeTalkTopic1': "Mis pasatiempos",
+  'freeTalkTopic2': "Planes de viaje",
+  'freeTalkTopic3': "Películas favoritas",
+  'freeTalkTopic4': "Rutina diaria",
+  'freeTalkTopic5': "Trabajo soñado",
+  'freeTalkTopic6': "Planes del fin de semana",
+
+  // Settings Screen Enhanced
+  'settingsAppSection': "AJUSTES DE LA APP",
+  'settingsSupportSection': "SOPORTE",
+  'settingsAccountSection': "CUENTA",
+  'settingsLanguage': "Idioma de la app",
+  'settingsLogoutSubtitle': "Cerrar sesión de tu cuenta",
+  'settingsLevel': "Nivel",
+  'settingsWords': "Palabras",
+
 }
 
   };
