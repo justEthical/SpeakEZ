@@ -46,9 +46,11 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
         ),
         titleSpacing: -10,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Column(
+      body: SafeArea(
+        top: false, // AppBar handles the top
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
              Text(
@@ -69,6 +71,7 @@ class _OnboarindQuestionsState extends State<OnboarindQuestions> {
             const SizedBox(height: 20),
             QuestionAndOptions(),
           ],
+        ),
         ),
       ),
     );

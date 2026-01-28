@@ -82,23 +82,25 @@ class StreakScreen extends StatelessWidget {
             const Spacer(),
 
             /// --- Close Btn ---
-            InkWell(
-              onTap: () => Get.back(),
-              child: Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: Colors.grey, width: 0.4),
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.primary.withValues(alpha: 0.1),
-                ),
-                child: Text(
-                  AppStrings.close.tr,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontFamily: AppStrings.poppinsFont,
+            SafeArea(
+              child: InkWell(
+                onTap: () => Get.back(),
+                child: Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: Colors.grey, width: 0.4),
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.primary.withValues(alpha: 0.1),
+                  ),
+                  child: Text(
+                    AppStrings.close.tr,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontFamily: AppStrings.poppinsFont,
+                    ),
                   ),
                 ),
               ),
@@ -201,14 +203,14 @@ class _DayStreakTile extends StatelessWidget {
         child: Image.asset(AppAssets.fire),
       );
     } else if (isToday) {
-      // Today but not completed - show paused Lottie streak
-      return SizedBox(
-        width: 25,
-        height: 25,
-        child: Lottie.asset(
-          AppAssets.streak,
-          animate: false, // Paused state
-          decoder: globalController.customDecoder,
+      // Today but not completed - show empty circle (orange border indicates it's today)
+      return Container(
+        height: 20,
+        width: 20,
+        decoration: BoxDecoration(
+          color: Colors.transparent,
+          border: Border.all(color: Colors.orange, width: 1.5),
+          borderRadius: BorderRadius.circular(50),
         ),
       );
     } else if (isFuture) {
