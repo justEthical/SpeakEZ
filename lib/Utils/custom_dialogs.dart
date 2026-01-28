@@ -518,11 +518,11 @@ class CustomDialogs {
                         Get.back();
                         GoogleMobileAdsService.instance.showRewarded(
                           onReward: (reward) {
-                            if (reward.amount == 10) {
+                            
                               globalController.userProfile.value.gems += 100;
                               globalController.userProfile.refresh();
                               globalController.updateProfile();
-                            }
+                            
                           },
                         );
                       },

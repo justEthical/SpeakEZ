@@ -9,6 +9,7 @@ import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
@@ -42,6 +43,11 @@ class _TabBarScreenState extends State<TabBarScreen> {
         WhisperHelper.canModelRunOnDevice();
       }
     });
+    // check if gems are lower than 100 then only load rewarded ad
+    // for free talk session
+    if(globalController.userProfile.value.gems < 100){
+      GoogleMobileAdsService.instance.loadRewarded(adUnitId: AppStrings.rewardedAdUnitId);
+    }
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       if (widget.gemEarned != null) {
         Get.to(StreakScreen(gems: widget.gemEarned));

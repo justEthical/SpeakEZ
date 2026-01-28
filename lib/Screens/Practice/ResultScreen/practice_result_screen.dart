@@ -301,17 +301,17 @@ class _PracticeResultSreenState extends State<PracticeResultSreen>
                         ),
                       ),
                       // Success animation
-                      Center(
-                        child: SizedBox(
-                          width: 120,
-                          height: 120,
-                          child: Lottie.asset(
-                            AppAssets.resultSuccess,
-                            decoder: globalController.customDecoder,
-                            repeat: false,
-                          ),
-                        ),
-                      ),
+                      // Center(
+                      //   child: SizedBox(
+                      //     width: 120,
+                      //     height: 120,
+                      //     child: Lottie.asset(
+                      //       AppAssets.resultSuccess,
+                      //       decoder: globalController.customDecoder,
+                      //       repeat: false,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),

@@ -121,6 +121,13 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
                 child: _buildHeroSection(),
               ),
               const SizedBox(height: 24),
+              // Start Button
+              _AnimatedSection(
+                delay: 600,
+                controller: _staggerController,
+                child: _buildStartButton(),
+              ),
+              const SizedBox(height: 40),
               // Feature Highlights
               _AnimatedSection(
                 delay: 200,
@@ -135,13 +142,8 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
                 child: _buildTopicSuggestions(),
               ),
               const SizedBox(height: 30),
-              // Start Button
-              _AnimatedSection(
-                delay: 600,
-                controller: _staggerController,
-                child: _buildStartButton(),
-              ),
-              const SizedBox(height: 40),
+              
+              
             ],
           ),
         ),
@@ -156,7 +158,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(24),
         gradient: const LinearGradient(
-          colors: [Color(0xFFF59E0B), Color(0xFFEF4444)],
+          colors: [ Color.fromARGB(255, 38, 242, 99), Color.fromARGB(255, 42, 11, 245)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
