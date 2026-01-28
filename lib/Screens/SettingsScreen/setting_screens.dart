@@ -230,7 +230,7 @@ class _SettingScreensState extends State<SettingScreens>
                             color: Theme.of(context)
                                 .colorScheme
                                 .onSurface
-                                .withOpacity(0.4),
+                                .withValues(alpha: 0.4),
                           ),
                         ),
                       ),
@@ -254,7 +254,7 @@ class _SettingScreensState extends State<SettingScreens>
         gradient: LinearGradient(
           colors: [
             Theme.of(context).colorScheme.primary,
-            Theme.of(context).colorScheme.primary.withOpacity(0.8),
+            Theme.of(context).colorScheme.primary.withValues(alpha: 0.8),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -265,7 +265,7 @@ class _SettingScreensState extends State<SettingScreens>
         ),
         boxShadow: [
           BoxShadow(
-            color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+            color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
             blurRadius: 20,
             offset: const Offset(0, 10),
           ),
@@ -295,7 +295,7 @@ class _SettingScreensState extends State<SettingScreens>
                       vertical: 6,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withValues(alpha: 0.2),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Row(
@@ -340,12 +340,12 @@ class _SettingScreensState extends State<SettingScreens>
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         border: Border.all(
-                          color: Colors.white.withOpacity(0.5),
+                          color: Colors.white.withValues(alpha: 0.5),
                           width: 3,
                         ),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.2),
+                            color: Colors.black.withValues(alpha: 0.2),
                             blurRadius: 15,
                             offset: const Offset(0, 5),
                           ),
@@ -384,7 +384,7 @@ class _SettingScreensState extends State<SettingScreens>
                               color: Theme.of(context)
                                   .colorScheme
                                   .onPrimary
-                                  .withOpacity(0.8),
+                                  .withValues(alpha: 0.8),
                               fontWeight: FontWeight.w500,
                               fontFamily: AppStrings.nunitoFont,
                             ),
@@ -399,7 +399,7 @@ class _SettingScreensState extends State<SettingScreens>
                             vertical: 4,
                           ),
                           decoration: BoxDecoration(
-                            color: Colors.white.withOpacity(0.2),
+                            color: Colors.white.withValues(alpha: 0.2),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Obx(
@@ -478,10 +478,10 @@ class _SettingScreensState extends State<SettingScreens>
         child: Container(
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 12),
           decoration: BoxDecoration(
-            color: color.withOpacity(0.1),
+            color: color.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(16),
             border: Border.all(
-              color: color.withOpacity(0.2),
+              color: color.withValues(alpha: 0.2),
               width: 1,
             ),
           ),
@@ -513,7 +513,7 @@ class _SettingScreensState extends State<SettingScreens>
                       .textTheme
                       .bodyMedium
                       ?.color
-                      ?.withOpacity(0.6),
+                      ?.withValues(alpha: 0.6),
                 ),
               ),
             ],
@@ -543,7 +543,7 @@ class _SettingScreensState extends State<SettingScreens>
                   .textTheme
                   .bodyMedium
                   ?.color
-                  ?.withOpacity(0.5),
+                  ?.withValues(alpha: 0.5),
             ),
           ),
         ),
@@ -553,7 +553,7 @@ class _SettingScreensState extends State<SettingScreens>
             borderRadius: BorderRadius.circular(20),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withOpacity(0.05),
+                color: Colors.black.withValues(alpha: 0.05),
                 blurRadius: 10,
                 offset: const Offset(0, 4),
               ),
@@ -595,7 +595,7 @@ class _SettingScreensState extends State<SettingScreens>
                     width: 44,
                     height: 44,
                     decoration: BoxDecoration(
-                      color: item.color.withOpacity(0.15),
+                      color: item.color.withValues(alpha: 0.15),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Icon(
@@ -632,7 +632,7 @@ class _SettingScreensState extends State<SettingScreens>
                                   .textTheme
                                   .bodyMedium
                                   ?.color
-                                  ?.withOpacity(0.5),
+                                  ?.withValues(alpha: 0.5),
                             ),
                           ),
                         ],
@@ -645,7 +645,7 @@ class _SettingScreensState extends State<SettingScreens>
                         .textTheme
                         .bodyMedium
                         ?.color
-                        ?.withOpacity(0.3),
+                        ?.withValues(alpha: 0.3),
                     size: 24,
                   ),
                 ],
@@ -659,7 +659,7 @@ class _SettingScreensState extends State<SettingScreens>
                         .textTheme
                         .bodyMedium
                         ?.color
-                        ?.withOpacity(0.1),
+                        ?.withValues(alpha: 0.1),
                   ),
                 ),
             ],
@@ -682,7 +682,7 @@ class _SettingScreensState extends State<SettingScreens>
   String _getImageUrl() {
     if (globalController.userProfile.value.photoUrl == '' ||
         globalController.userProfile.value.photoUrl == null) {
-      return 'https://avatar.iran.liara.run/public';
+      return 'https://picsum.photos/id/237/200';
     } else {
       return globalController.userProfile.value.photoUrl!;
     }

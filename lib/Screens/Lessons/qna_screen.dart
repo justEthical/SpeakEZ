@@ -55,79 +55,81 @@ class QnaScreen extends StatelessWidget {
             style: TextStyle(fontSize: 20, fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.bold),
           ),
         ),
-        body: Container(
-          padding: EdgeInsets.all(15),
-          child: Column(
-            children: [
-              ProgressBar(),
-              SizedBox(height: 15),
-              Expanded(
-                child: PageView.builder(
-                  controller: c.questionPageController,
-                  physics: NeverScrollableScrollPhysics(),
-                  itemCount: c.currentQuestionList.length,
-                  itemBuilder: (ctx, i) {
-                    final question = c.currentQuestionList[i];
-                    question.audioText != null ? ttsHelper.speak(question.audioText!) : null; 
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Q${i + 1}. ${question.question}",
-                          textAlign: TextAlign.start,
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontFamily: AppStrings.poppinsFont,
-                            fontWeight: FontWeight.normal,
+        body: SafeArea(
+          child: Container(
+            padding: EdgeInsets.all(15),
+            child: Column(
+              children: [
+                ProgressBar(),
+                SizedBox(height: 15),
+                Expanded(
+                  child: PageView.builder(
+                    controller: c.questionPageController,
+                    physics: NeverScrollableScrollPhysics(),
+                    itemCount: c.currentQuestionList.length,
+                    itemBuilder: (ctx, i) {
+                      final question = c.currentQuestionList[i];
+                      question.audioText != null ? ttsHelper.speak(question.audioText!) : null; 
+                      return Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Q${i + 1}. ${question.question}",
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontFamily: AppStrings.poppinsFont,
+                              fontWeight: FontWeight.normal,
+                            ),
                           ),
-                        ),
-                        SizedBox(height: 10),
-                        TranslationTextView(
-                          text:
-                              c
-                                  .currentQuestionList[i]
-                                  .questionTranslation![globalController.getLessonTranslationLanguage()]
-                                  .toString(),
-                        ),
-                        SizedBox(height: 10),
-                        question.audioText != null
-                            ? ElevatedButton(
-                              style:  ElevatedButton.styleFrom(
-                                backgroundColor: Theme.of(context).colorScheme.primary
-                              ),
-                              onPressed: () {
-                                PostHogService.instance.captureClick(
-                                  'listen_audio',
-                                  elementType: 'button',
-                                  screenName: 'qna_screen',
-                                  additionalProperties: {
-                                    'question_index': i,
-                                    'lesson_id': lesson.id,
-                                  },
-                                );
-                                ttsHelper.speak(
-                                  question.audioText!,
-                                );
-                              },
-                              child: Text(
-                                "${AppStrings.listen.tr} 🔊",
-                                style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
-                              ),
-                            )
-                            : SizedBox(),
-                        Spacer(),
-                        OptionBuilder(question: question),
-                        SizedBox(height: 15),
-                        ContinueButton(
-                          question:
-                              c.currentQuestionList[c.currentQuestionIndex.value],
-                        ),
-                      ],
-                    );
-                  },
+                          SizedBox(height: 10),
+                          TranslationTextView(
+                            text:
+                                c
+                                    .currentQuestionList[i]
+                                    .questionTranslation![globalController.getLessonTranslationLanguage()]
+                                    .toString(),
+                          ),
+                          SizedBox(height: 10),
+                          question.audioText != null
+                              ? ElevatedButton(
+                                style:  ElevatedButton.styleFrom(
+                                  backgroundColor: Theme.of(context).colorScheme.primary
+                                ),
+                                onPressed: () {
+                                  PostHogService.instance.captureClick(
+                                    'listen_audio',
+                                    elementType: 'button',
+                                    screenName: 'qna_screen',
+                                    additionalProperties: {
+                                      'question_index': i,
+                                      'lesson_id': lesson.id,
+                                    },
+                                  );
+                                  ttsHelper.speak(
+                                    question.audioText!,
+                                  );
+                                },
+                                child: Text(
+                                  "${AppStrings.listen.tr} 🔊",
+                                  style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
+                                ),
+                              )
+                              : SizedBox(),
+                          Spacer(),
+                          OptionBuilder(question: question),
+                          SizedBox(height: 15),
+                          ContinueButton(
+                            question:
+                                c.currentQuestionList[c.currentQuestionIndex.value],
+                          ),
+                        ],
+                      );
+                    },
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

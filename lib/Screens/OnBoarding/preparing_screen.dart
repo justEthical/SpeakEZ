@@ -95,7 +95,7 @@ class _PreparingScreenState extends State<PreparingScreen>
             end: Alignment.bottomCenter,
             colors: [
               Theme.of(context).scaffoldBackgroundColor,
-              primaryColor.withOpacity(0.1),
+              primaryColor.withValues(alpha: 0.1),
             ],
           ),
         ),
@@ -116,7 +116,7 @@ class _PreparingScreenState extends State<PreparingScreen>
                         width: Get.width * 0.6,
                         height: Get.width * 0.6,
                         decoration: BoxDecoration(
-                          color: primaryColor.withOpacity(0.1),
+                          color: primaryColor.withValues(alpha: 0.1),
                           borderRadius: BorderRadius.circular(Get.width * 0.3),
                         ),
                         child: Padding(
@@ -163,7 +163,7 @@ class _PreparingScreenState extends State<PreparingScreen>
                               .textTheme
                               .bodyMedium
                               ?.color
-                              ?.withOpacity(0.7),
+                              ?.withValues(alpha: 0.7),
                         ),
                       ),
                       SizedBox(
@@ -178,7 +178,7 @@ class _PreparingScreenState extends State<PreparingScreen>
                                 .textTheme
                                 .bodyMedium
                                 ?.color
-                                ?.withOpacity(0.7),
+                                ?.withValues(alpha: 0.7),
                           ),
                         ),
                       ),
@@ -200,7 +200,7 @@ class _PreparingScreenState extends State<PreparingScreen>
                             child: LinearProgressIndicator(
                               value: value,
                               minHeight: 6,
-                              backgroundColor: primaryColor.withOpacity(0.2),
+                              backgroundColor: primaryColor.withValues(alpha: 0.2),
                               valueColor: AlwaysStoppedAnimation<Color>(
                                 primaryColor,
                               ),

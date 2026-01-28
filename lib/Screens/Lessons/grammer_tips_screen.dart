@@ -40,11 +40,13 @@ class GrammerTipsScreen extends StatelessWidget {
             fontFamily: AppStrings.poppinsFont, fontWeight: FontWeight.bold),
           ),
         ),
-        body: Container(
-          width: Get.width,
-          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
-          child: Column(
-            children: [_progressIndicator(context), _content(), _bottomButtons(context)],
+        body: SafeArea(
+          child: Container(
+            width: Get.width,
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+            child: Column(
+              children: [_progressIndicator(context), _content(), _bottomButtons(context)],
+            ),
           ),
         ),
       ),

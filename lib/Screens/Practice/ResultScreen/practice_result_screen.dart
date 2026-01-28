@@ -185,29 +185,32 @@ class _PracticeResultSreenState extends State<PracticeResultSreen>
           const SizedBox(width: 10),
         ],
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            RepaintBoundary(
-              key: globalKey,
-              child: Container(
-                padding: const EdgeInsets.all(16.0),
-                color: theme.scaffoldBackgroundColor,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _buildScoreCard(context, c, theme),
-                    const SizedBox(height: 24),
-                    _buildMotivationCard(context, theme),
-                    const SizedBox(height: 24),
-                    _buildFeedbackSection(c, context),
-                  ],
+      body: SafeArea(
+        top: false,
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              RepaintBoundary(
+                key: globalKey,
+                child: Container(
+                  padding: const EdgeInsets.all(16.0),
+                  color: theme.scaffoldBackgroundColor,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      _buildScoreCard(context, c, theme),
+                      const SizedBox(height: 24),
+                      _buildMotivationCard(context, theme),
+                      const SizedBox(height: 24),
+                      _buildFeedbackSection(c, context),
+                    ],
+                  ),
                 ),
               ),
-            ),
-            _buildDoneButton(context, theme),
-            const SizedBox(height: 16),
-          ],
+              _buildDoneButton(context, theme),
+              const SizedBox(height: 16),
+            ],
+          ),
         ),
       ),
     );

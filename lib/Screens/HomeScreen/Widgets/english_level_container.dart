@@ -130,7 +130,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                                 Colors.grey.shade600,
                               ]
                             : [
-                                widget.color.withOpacity(0.8),
+                                widget.color.withValues(alpha: 0.8),
                                 widget.color,
                               ],
                         begin: Alignment.topLeft,
@@ -140,7 +140,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                       boxShadow: [
                         if (!widget.isLocked)
                           BoxShadow(
-                            color: widget.color.withOpacity(0.4),
+                            color: widget.color.withValues(alpha: 0.4),
                             blurRadius: 10 + elevation,
                             offset: Offset(0, 4 + elevation / 2),
                             spreadRadius: elevation / 4,
@@ -180,7 +180,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                                         angle: value * 0.1,
                                         child:  Icon(
                                           Icons.lock,
-                                          color: Theme.of(context).colorScheme.onPrimary.withOpacity(0.7),
+                                          color: Theme.of(context).colorScheme.onPrimary.withValues(alpha: 0.7),
                                           size: 20,
                                         ),
                                       );
@@ -192,7 +192,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                               "${widget.lessons} ${AppStrings.lessons.tr}",
                               style: TextStyle(
                                 fontFamily: AppStrings.nunitoFont,
-                                color: Colors.white.withOpacity(0.9),
+                                color: Colors.white.withValues(alpha: 0.9),
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -205,7 +205,7 @@ class _EnglishLevelContainerState extends State<EnglishLevelContainer>
                                 borderRadius: BorderRadius.circular(20),
                                 gradient: RadialGradient(
                                   colors: [
-                                    Colors.white.withOpacity(0.3),
+                                    Colors.white.withValues(alpha: 0.3),
                                     Colors.transparent,
                                   ],
                                 ),

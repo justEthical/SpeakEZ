@@ -91,7 +91,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
                     blurRadius: 15,
                     offset: const Offset(0, 5),
                   ),
@@ -118,7 +118,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                         fontSize: 16,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w700,
-                        color: Colors.white.withOpacity(0.8),
+                        color: Colors.white.withValues(alpha: 0.8),
                       ),
                     ),
                     const SizedBox(height: 8),
@@ -145,9 +145,9 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                 return LinearProgressIndicator(
                                   value: progress * _progressAnimation.value,
                                   minHeight: 10,
-                                  backgroundColor: Colors.white.withOpacity(0.2),
+                                  backgroundColor: Colors.white.withValues(alpha: 0.2),
                                   valueColor: AlwaysStoppedAnimation<Color>(
-                                    Colors.white.withOpacity(0.9),
+                                    Colors.white.withValues(alpha: 0.9),
                                   ),
                                 );
                               },
@@ -202,7 +202,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                   borderRadius: BorderRadius.circular(15),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black.withOpacity(0.1),
+                                      color: Colors.black.withValues(alpha: 0.1),
                                       blurRadius: 8,
                                       offset: const Offset(0, 2),
                                     ),

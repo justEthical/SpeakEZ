@@ -47,17 +47,19 @@ class VocalbularyScreen extends StatelessWidget {
             
           ],
         ),
-        body: Container(
-          width: Get.width,
-          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              _progressIndicator(context),
-              SizedBox(height: 18),
-              _content(),
-              _bottomButtons(context),
-            ],
+        body: SafeArea(
+          child: Container(
+            width: Get.width,
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _progressIndicator(context),
+                SizedBox(height: 18),
+                _content(),
+                _bottomButtons(context),
+              ],
+            ),
           ),
         ),
       ),

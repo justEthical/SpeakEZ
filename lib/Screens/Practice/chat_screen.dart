@@ -135,7 +135,7 @@ class _ChatScreenState extends State<ChatScreen> with SingleTickerProviderStateM
               icon: Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                  color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(
@@ -174,45 +174,47 @@ class _ChatScreenState extends State<ChatScreen> with SingleTickerProviderStateM
                 ),
               ),
               const SizedBox(height: 10),
-              Obx(
-                () =>
-                    c.isChatResultReady.value
-                        ? Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            onPressed: () {
-                              PostHogService.instance.capture(
-                                PostHogEvents.practiceResultViewed,
-                                properties: {
-                                  'scenario_title': widget.scenarioModel.title,
-                                  'messages_count':
-                                      c.currentUserSessionMessage.value,
-                                },
-                              );
-
-                              Get.off(
-                                PracticeResultSreen(result: c.resultModel!),
-                              );
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor:
-                                  Theme.of(context).colorScheme.primary,
-                              minimumSize: const Size(double.infinity, 50),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(12),
+              SafeArea(
+                child: Obx(
+                  () =>
+                      c.isChatResultReady.value
+                          ? Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 8.0),
+                            child: ElevatedButton(
+                              onPressed: () {
+                                PostHogService.instance.capture(
+                                  PostHogEvents.practiceResultViewed,
+                                  properties: {
+                                    'scenario_title': widget.scenarioModel.title,
+                                    'messages_count':
+                                        c.currentUserSessionMessage.value,
+                                  },
+                                );
+                
+                                Get.off(
+                                  PracticeResultSreen(result: c.resultModel!),
+                                );
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    Theme.of(context).colorScheme.primary,
+                                minimumSize: const Size(double.infinity, 50),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                              ),
+                              child: Text(
+                                "View Results",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                  color: Theme.of(context).colorScheme.onPrimary,
+                                ),
                               ),
                             ),
-                            child: Text(
-                              "View Results",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
-                                color: Theme.of(context).colorScheme.onPrimary,
-                              ),
-                            ),
-                          ),
-                        )
-                        : ChatScreenBottomBar(),
+                          )
+                          : ChatScreenBottomBar(),
+                ),
               ),
             ],
           ),

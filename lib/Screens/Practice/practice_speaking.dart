@@ -263,7 +263,7 @@ class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
             ),
             boxShadow: [
               BoxShadow(
-                color: gradientColors[0].withOpacity(0.3),
+                color: gradientColors[0].withValues(alpha: 0.3),
                 blurRadius: 12,
                 offset: const Offset(0, 6),
               ),
@@ -280,7 +280,7 @@ class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
                   height: 80,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.white.withOpacity(0.1),
+                    color: Colors.white.withValues(alpha: 0.1),
                   ),
                 ),
               ),
@@ -292,7 +292,7 @@ class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
                   height: 60,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.white.withOpacity(0.08),
+                    color: Colors.white.withValues(alpha: 0.08),
                   ),
                 ),
               ),
@@ -309,7 +309,7 @@ class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
                           child: Container(
                             padding: const EdgeInsets.all(12),
                             decoration: BoxDecoration(
-                              color: Colors.white.withOpacity(0.2),
+                              color: Colors.white.withValues(alpha: 0.2),
                               borderRadius: BorderRadius.circular(16),
                             ),
                             child: Image.asset(
@@ -342,7 +342,7 @@ class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
                             vertical: 4,
                           ),
                           decoration: BoxDecoration(
-                            color: Colors.white.withOpacity(0.2),
+                            color: Colors.white.withValues(alpha: 0.2),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Row(
@@ -448,14 +448,14 @@ class _AnimatedHeaderState extends State<_AnimatedHeader>
                 gradient: LinearGradient(
                   colors: [
                     Theme.of(context).colorScheme.primary,
-                    Theme.of(context).colorScheme.primary.withOpacity(0.7),
+                    Theme.of(context).colorScheme.primary.withValues(alpha: 0.7),
                   ],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
                     blurRadius: 15,
                     offset: const Offset(0, 6),
                   ),
@@ -476,7 +476,7 @@ class _AnimatedHeaderState extends State<_AnimatedHeader>
                       width: 55,
                       height: 55,
                       decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withValues(alpha: 0.2),
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: const Icon(
@@ -507,7 +507,7 @@ class _AnimatedHeaderState extends State<_AnimatedHeader>
                             fontWeight: FontWeight.w500,
                             fontSize: 13,
                             fontFamily: AppStrings.nunitoFont,
-                            color: Colors.white.withOpacity(0.85),
+                            color: Colors.white.withValues(alpha: 0.85),
                           ),
                         ),
                       ],
@@ -535,7 +535,7 @@ class _AnimatedHeaderState extends State<_AnimatedHeader>
                     padding: const EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.close_rounded,
-                      color: Colors.white.withOpacity(0.7),
+                      color: Colors.white.withValues(alpha: 0.7),
                       size: 20,
                     ),
                   ),
@@ -584,7 +584,7 @@ class DownloadingState extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontFamily: AppStrings.nunitoFont,
-                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),

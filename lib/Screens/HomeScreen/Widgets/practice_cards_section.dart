@@ -106,7 +106,7 @@ class _ScenarioPracticeCardState extends State<_ScenarioPracticeCard>
             ),
             boxShadow: [
               BoxShadow(
-                color: const Color(0xFF6366F1).withOpacity(0.3),
+                color: const Color(0xFF6366F1).withValues(alpha: 0.3),
                 blurRadius: 15,
                 offset: const Offset(0, 8),
               ),
@@ -134,7 +134,7 @@ class _ScenarioPracticeCardState extends State<_ScenarioPracticeCard>
                         fontSize: 13,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w500,
-                        color: Colors.white.withOpacity(0.85),
+                        color: Colors.white.withValues(alpha: 0.85),
                       ),
                     ),
                     const SizedBox(height: 12),
@@ -144,7 +144,7 @@ class _ScenarioPracticeCardState extends State<_ScenarioPracticeCard>
                         vertical: 8,
                       ),
                       decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withValues(alpha: 0.2),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Row(
@@ -181,7 +181,7 @@ class _ScenarioPracticeCardState extends State<_ScenarioPracticeCard>
                       width: 65,
                       height: 65,
                       decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withValues(alpha: 0.2),
                         borderRadius: BorderRadius.circular(18),
                       ),
                       child: const Icon(
@@ -285,7 +285,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
             ),
             boxShadow: [
               BoxShadow(
-                color: const Color(0xFFF59E0B).withOpacity(0.3),
+                color: const Color(0xFFF59E0B).withValues(alpha: 0.3),
                 blurRadius: 15,
                 offset: const Offset(0, 8),
               ),
@@ -313,7 +313,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
                         fontSize: 13,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w500,
-                        color: Colors.white.withOpacity(0.85),
+                        color: Colors.white.withValues(alpha: 0.85),
                       ),
                     ),
                     const SizedBox(height: 12),
@@ -323,7 +323,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
                         vertical: 8,
                       ),
                       decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withValues(alpha: 0.2),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Row(
@@ -360,7 +360,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
                       width: 65,
                       height: 65,
                       decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withValues(alpha: 0.2),
                         borderRadius: BorderRadius.circular(18),
                       ),
                       child: const Icon(

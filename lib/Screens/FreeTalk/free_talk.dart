@@ -162,7 +162,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
         ),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFFF59E0B).withOpacity(0.3),
+            color: const Color(0xFFF59E0B).withValues(alpha: 0.3),
             blurRadius: 20,
             offset: const Offset(0, 10),
           ),
@@ -181,7 +181,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
                     width: Get.width * 0.4,
                     height: Get.width * 0.4,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withValues(alpha: 0.2),
                       borderRadius: BorderRadius.circular(100),
                     ),
                     child: Padding(
@@ -214,7 +214,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
               fontFamily: AppStrings.nunitoFont,
               fontSize: 15,
               fontWeight: FontWeight.w500,
-              color: Colors.white.withOpacity(0.9),
+              color: Colors.white.withValues(alpha: 0.9),
             ),
           ),
         ],
@@ -253,7 +253,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
             fontFamily: AppStrings.nunitoFont,
             fontSize: 18,
             fontWeight: FontWeight.w700,
-            color: Theme.of(context).textTheme.bodyMedium?.color?.withOpacity(0.8),
+            color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.8),
           ),
         ),
         const SizedBox(height: 12),
@@ -267,10 +267,10 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
       margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: (feature['color'] as Color).withOpacity(0.1),
+        color: (feature['color'] as Color).withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
-          color: (feature['color'] as Color).withOpacity(0.2),
+          color: (feature['color'] as Color).withValues(alpha: 0.2),
           width: 1,
         ),
       ),
@@ -280,7 +280,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: (feature['color'] as Color).withOpacity(0.15),
+              color: (feature['color'] as Color).withValues(alpha: 0.15),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Icon(
@@ -310,7 +310,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
                     fontFamily: AppStrings.nunitoFont,
                     fontSize: 13,
                     fontWeight: FontWeight.w500,
-                    color: Theme.of(context).textTheme.bodyMedium?.color?.withOpacity(0.6),
+                    color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
                   ),
                 ),
               ],
@@ -340,7 +340,7 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
             fontFamily: AppStrings.nunitoFont,
             fontSize: 18,
             fontWeight: FontWeight.w700,
-            color: Theme.of(context).textTheme.bodyMedium?.color?.withOpacity(0.8),
+            color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.8),
           ),
         ),
         const SizedBox(height: 12),
@@ -357,10 +357,10 @@ class _FreeTalkState extends State<FreeTalk> with TickerProviderStateMixin {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+        color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
-          color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+          color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
           width: 1,
         ),
       ),
@@ -476,7 +476,7 @@ class _StartFreeTalkButtonState extends State<_StartFreeTalkButton>
             ),
             boxShadow: [
               BoxShadow(
-                color: const Color(0xFFF59E0B).withOpacity(0.4),
+                color: const Color(0xFFF59E0B).withValues(alpha: 0.4),
                 blurRadius: 15,
                 offset: const Offset(0, 8),
               ),

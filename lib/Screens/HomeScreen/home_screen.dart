@@ -286,7 +286,7 @@ class _LearnByLevelSection extends StatelessWidget {
                   fontFamily: AppStrings.nunitoFont,
                   color: Theme.of(
                     context,
-                  ).textTheme.bodyMedium?.color?.withOpacity(0.7),
+                  ).textTheme.bodyMedium?.color?.withValues(alpha: 0.7),
                 ),
               ),
               const Spacer(),

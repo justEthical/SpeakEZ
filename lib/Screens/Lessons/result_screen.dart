@@ -113,7 +113,7 @@ class ResultScreen extends StatelessWidget {
       textAlign: TextAlign.center,
       style: TextStyle(
         fontFamily: AppStrings.nunitoFont,
-        color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
         fontSize: 14,
         fontWeight: FontWeight.w600,
       ),
@@ -166,13 +166,13 @@ class ResultScreen extends StatelessWidget {
       width: Get.width * 0.5 - 30,
       child: Card(
         elevation: 8,
-        shadowColor: color.withOpacity(0.3),
+        shadowColor: color.withValues(alpha: 0.3),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(
             decoration: BoxDecoration(
-              border: Border.all(color: color.withOpacity(0.5), width: 1),
+              border: Border.all(color: color.withValues(alpha: 0.5), width: 1),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Column(

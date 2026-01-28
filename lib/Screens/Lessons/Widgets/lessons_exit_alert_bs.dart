@@ -26,57 +26,59 @@ class _LessonsExitAlertBottomSheetState
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.all(15),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          SizedBox(
-            height: 200,
-            width: 200,
-            child: Lottie.asset(
-              AppAssets.exitAlert,
-              decoder: globalController.customDecoder,
+    return SafeArea(
+      child: Container(
+        padding: EdgeInsets.all(15),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            SizedBox(
+              height: 200,
+              width: 200,
+              child: Lottie.asset(
+                AppAssets.exitAlert,
+                decoder: globalController.customDecoder,
+              ),
             ),
-          ),
-          Text(
-            c.isUnlockTest
-                ? "⚠️ ${AppStrings.exitUnlockTestWarning.tr}"
-                : AppStrings.exitLessonConfirmation.tr,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Theme.of(context).textTheme.bodyMedium?.color,
-              fontSize: c.isUnlockTest ? 16 : 20,
-              fontWeight: FontWeight.w700,
+            Text(
+              c.isUnlockTest
+                  ? "⚠️ ${AppStrings.exitUnlockTestWarning.tr}"
+                  : AppStrings.exitLessonConfirmation.tr,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Theme.of(context).textTheme.bodyMedium?.color,
+                fontSize: c.isUnlockTest ? 16 : 20,
+                fontWeight: FontWeight.w700,
+              ),
             ),
-          ),
-
-          SizedBox(height: 20),
-          ElevatedButton(
-            onPressed: () => Get.back(),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.black,
-              fixedSize: Size(Get.width, 45),
+      
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => Get.back(),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.black,
+                fixedSize: Size(Get.width, 45),
+              ),
+              child: Text(
+                c.isUnlockTest ? AppStrings.continueTest.tr : AppStrings.continueLearning.tr,
+                style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
+              ),
             ),
-            child: Text(
-              c.isUnlockTest ? AppStrings.continueTest.tr : AppStrings.continueLearning.tr,
-              style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
+            SizedBox(height: 12),
+            InkWell(
+              onTap: () {
+                Get.back();
+                Get.back();
+                Get.delete<QuestionOptionsController>(force: true);
+              },
+              child: Text(
+                AppStrings.exitAndDiscard.tr,
+                style: TextStyle(color: Colors.red),
+              ),
             ),
-          ),
-          SizedBox(height: 12),
-          InkWell(
-            onTap: () {
-              Get.back();
-              Get.back();
-              Get.delete<QuestionOptionsController>(force: true);
-            },
-            child: Text(
-              AppStrings.exitAndDiscard.tr,
-              style: TextStyle(color: Colors.red),
-            ),
-          ),
-          SizedBox(height: 30),
-        ],
+            SizedBox(height: 30),
+          ],
+        ),
       ),
     );
   }
