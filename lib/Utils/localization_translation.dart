@@ -120,6 +120,10 @@ class AppTranslations extends Translations {
       'exampleSentences': "Example Sentence(s)",
       'listen': "Listen",
       'check': "Check",
+      'word': "Word",
+      'tip': "Tip",
+      'startQuiz': "Start Quiz",
+      'question': "Question",
 
       // Answer Result
       'correctAnswer': "Correct Answer",
@@ -340,6 +344,10 @@ class AppTranslations extends Translations {
       'exampleSentences': "例文",
       'listen': "聞く",
       'check': "チェック",
+      'word': "単語",
+      'tip': "ヒント",
+      'startQuiz': "クイズ開始",
+      'question': "問題",
 
       // Answer Result
       'correctAnswer': "正解",
@@ -558,6 +566,10 @@ class AppTranslations extends Translations {
       'exampleSentences': "उदाहरण वाक्य",
       'listen': "सुनें",
       'check': "जाँच करें",
+      'word': "शब्द",
+      'tip': "सुझाव",
+      'startQuiz': "क्विज़ शुरू करें",
+      'question': "प्रश्न",
 
       // Answer Result
       'correctAnswer': "सही उत्तर",
@@ -779,6 +791,10 @@ class AppTranslations extends Translations {
   'exampleSentences': "Frases de ejemplo",
   'listen': "Escuchar",
   'check': "Comprobar",
+  'word': "Palabra",
+  'tip': "Consejo",
+  'startQuiz': "Iniciar Quiz",
+  'question': "Pregunta",
 
   // Answer Result
   'correctAnswer': "Respuesta correcta",
