@@ -10,7 +10,6 @@ import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
 import 'package:speak_ez/Screens/OnBoarding/preparing_screen.dart';
-import 'package:speak_ez/Screens/tab_bar_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Services/local_notification.dart';
@@ -212,7 +211,7 @@ class OnboardingController extends GetxController {
             "loggedIn",
           );
           globalController.currentTabIndex.value = 0;
-          Get.offAll(() => TabBarScreen());
+          Get.offAll(() => const PreparingScreen());
         }
       }
     } else {}
@@ -266,7 +265,7 @@ class OnboardingController extends GetxController {
               "loggedIn",
             );
             globalController.currentTabIndex.value = 0;
-            Get.offAll(() => TabBarScreen());
+            Get.offAll(() => const PreparingScreen());
           }
         }
       }

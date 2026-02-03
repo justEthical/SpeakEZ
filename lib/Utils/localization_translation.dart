@@ -226,6 +226,12 @@ class AppTranslations extends Translations {
       // Preparing Screen
       'preparingTitle': "Creating Your Perfect Learning Plan",
       'preparingSubtitle': "Personalizing just for you",
+      'downloadingLessons': "Personalizing AI lessons for you",
+      'extractingLessons': "Setting up your learning content",
+      'preparingComplete': "Ready to learn",
+      'errorOccurred': "Something went wrong",
+      'downloadError': "Failed to download lessons. Please check your internet connection and try again.",
+      'retry': "Retry",
 
     },
 
@@ -445,6 +451,12 @@ class AppTranslations extends Translations {
       // Preparing Screen
       'preparingTitle': "あなた専用の学習プランを作成中",
       'preparingSubtitle': "パーソナライズしています",
+      'downloadingLessons': "AIレッスンをパーソナライズ中",
+      'extractingLessons': "学習コンテンツを準備中",
+      'preparingComplete': "学習の準備完了",
+      'errorOccurred': "エラーが発生しました",
+      'downloadError': "レッスンのダウンロードに失敗しました。インターネット接続を確認して再試行してください。",
+      'retry': "再試行",
 
     },
 
@@ -672,6 +684,12 @@ class AppTranslations extends Translations {
       // Preparing Screen
       'preparingTitle': "आपके लिए सर्वश्रेष्ठ लर्निंग प्लान बना रहे हैं",
       'preparingSubtitle': "आपके लिए पर्सनलाइज़ कर रहे हैं",
+      'downloadingLessons': "AI पाठ आपके लिए तैयार हो रहे हैं",
+      'extractingLessons': "लर्निंग कंटेंट सेट अप हो रहा है",
+      'preparingComplete': "सीखने के लिए तैयार",
+      'errorOccurred': "कुछ गड़बड़ हुई",
+      'downloadError': "पाठ डाउनलोड करने में विफल। कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।",
+      'retry': "पुनः प्रयास करें",
 
     },
 
@@ -896,6 +914,12 @@ class AppTranslations extends Translations {
   // Preparing Screen
   'preparingTitle': "Creando tu plan de aprendizaje perfecto",
   'preparingSubtitle': "Personalizando para ti",
+  'downloadingLessons': "Personalizando lecciones de IA para ti",
+  'extractingLessons': "Configurando tu contenido de aprendizaje",
+  'preparingComplete': "Listo para aprender",
+  'errorOccurred': "Algo salió mal",
+  'downloadError': "Error al descargar las lecciones. Por favor verifica tu conexión a internet e inténtalo de nuevo.",
+  'retry': "Reintentar",
 
 }
 

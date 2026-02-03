@@ -207,13 +207,12 @@ class QnaScreen extends StatelessWidget {
                               ],
                             ),
                           ),
-                          const SizedBox(height: 12),
-                          TranslationTextView(
-                            text: c
-                                .currentQuestionList[i]
-                                .questionTranslation![globalController.getLessonTranslationLanguage()]
-                                .toString(),
-                          ),
+                          if (c.currentQuestionList[i].questionTranslation != null) ...[
+                            const SizedBox(height: 12),
+                            TranslationTextView(
+                              text: c.currentQuestionList[i].questionTranslation!,
+                            ),
+                          ],
                           const Spacer(),
                           OptionBuilder(question: question),
                           const SizedBox(height: 16),

@@ -3,7 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get_utils/src/extensions/export.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
-import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/lesson_model.dart';
 import 'package:speak_ez/Screens/Lessons/Widgets/translation_text_view.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
@@ -83,10 +82,12 @@ class VocabularyData extends StatelessWidget {
                     ),
                   ],
                 ),
-                const SizedBox(height: 12),
-                TranslationTextView(
-                  text: vocabularyItem.wordTranslation![globalController.getLessonTranslationLanguage()].toString(),
-                ),
+                if (vocabularyItem.wordTranslation != null) ...[
+                  const SizedBox(height: 12),
+                  TranslationTextView(
+                    text: vocabularyItem.wordTranslation!,
+                  ),
+                ],
               ],
             ),
           ),
@@ -110,10 +111,12 @@ class VocabularyData extends StatelessWidget {
                     height: 1.5,
                   ),
                 ),
-                const SizedBox(height: 12),
-                TranslationTextView(
-                  text: vocabularyItem.meaningTranslation![globalController.getLessonTranslationLanguage()].toString(),
-                ),
+                if (vocabularyItem.meaningTranslation != null) ...[
+                  const SizedBox(height: 12),
+                  TranslationTextView(
+                    text: vocabularyItem.meaningTranslation!,
+                  ),
+                ],
               ],
             ),
           ),
@@ -177,10 +180,12 @@ class VocabularyData extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 10),
-                        TranslationTextView(
-                          text: vocabularyItem.examples[index].translation![globalController.userProfile.value.motherTongue].toString(),
-                        ),
+                        if (vocabularyItem.examples[index].translation != null) ...[
+                          const SizedBox(height: 10),
+                          TranslationTextView(
+                            text: vocabularyItem.examples[index].translation!,
+                          ),
+                        ],
                       ],
                     ),
                   ),
