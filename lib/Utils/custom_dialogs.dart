@@ -18,9 +18,7 @@ class CustomDialogs {
   static Widget logoutDialog(BuildContext context) {
     return Dialog(
       insetPadding: const EdgeInsets.all(24),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
         decoration: BoxDecoration(
@@ -64,7 +62,9 @@ class CustomDialogs {
                 fontSize: 13,
                 fontWeight: FontWeight.w500,
                 fontFamily: AppStrings.nunitoFont,
-                color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
+                color: Theme.of(
+                  context,
+                ).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
               ),
             ),
             const SizedBox(height: 16),
@@ -110,9 +110,7 @@ class CustomDialogs {
   ) {
     return Dialog(
       insetPadding: const EdgeInsets.all(24),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       child: Container(
         padding: const EdgeInsets.all(24),
         decoration: BoxDecoration(
@@ -127,7 +125,9 @@ class CustomDialogs {
               width: 64,
               height: 64,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
+                color: Theme.of(
+                  context,
+                ).colorScheme.primary.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(16),
               ),
               child: Icon(
@@ -156,7 +156,9 @@ class CustomDialogs {
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
                 fontFamily: AppStrings.nunitoFont,
-                color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
+                color: Theme.of(
+                  context,
+                ).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
               ),
             ),
             const SizedBox(height: 24),
@@ -180,9 +182,7 @@ class CustomDialogs {
   static Widget deleteConfirmationDialog(BuildContext context) {
     return Dialog(
       insetPadding: const EdgeInsets.all(24),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       child: Container(
         padding: const EdgeInsets.all(24),
         decoration: BoxDecoration(
@@ -226,7 +226,9 @@ class CustomDialogs {
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
                 fontFamily: AppStrings.nunitoFont,
-                color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
+                color: Theme.of(
+                  context,
+                ).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
               ),
             ),
             const SizedBox(height: 24),
@@ -274,9 +276,7 @@ class CustomDialogs {
   ) {
     return Dialog(
       insetPadding: const EdgeInsets.all(24),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       child: Container(
         padding: const EdgeInsets.all(24),
         decoration: BoxDecoration(
@@ -294,13 +294,17 @@ class CustomDialogs {
                 child: Container(
                   padding: const EdgeInsets.all(4),
                   decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.1),
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Icon(
                     Icons.close_rounded,
                     size: 20,
-                    color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.5),
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.5),
                   ),
                 ),
               ),
@@ -339,7 +343,9 @@ class CustomDialogs {
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
                 fontFamily: AppStrings.nunitoFont,
-                color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
+                color: Theme.of(
+                  context,
+                ).textTheme.bodyMedium?.color?.withValues(alpha: 0.6),
               ),
             ),
             const SizedBox(height: 24),
@@ -352,10 +358,17 @@ class CustomDialogs {
                     onPressed: () {
                       Get.back();
                       final timeDifference =
-                          globalController.userProfile.value.unlockTestLastTime != null
+                          globalController
+                                      .userProfile
+                                      .value
+                                      .unlockTestLastTime !=
+                                  null
                               ? DateTime.now()
                                   .difference(
-                                    globalController.userProfile.value.unlockTestLastTime!,
+                                    globalController
+                                        .userProfile
+                                        .value
+                                        .unlockTestLastTime!,
                                   )
                                   .inHours
                               : 25;
@@ -408,9 +421,7 @@ class CustomDialogs {
 
     return Dialog(
       insetPadding: const EdgeInsets.all(24),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
       child: Container(
         padding: const EdgeInsets.all(24),
         decoration: BoxDecoration(
@@ -428,13 +439,17 @@ class CustomDialogs {
                 child: Container(
                   padding: const EdgeInsets.all(4),
                   decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.1),
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Icon(
                     Icons.close_rounded,
                     size: 20,
-                    color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.5),
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.5),
                   ),
                 ),
               ),
@@ -455,7 +470,9 @@ class CustomDialogs {
                 width: 64,
                 height: 64,
                 decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.primary.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Icon(
@@ -483,7 +500,9 @@ class CustomDialogs {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
+                color: Theme.of(
+                  context,
+                ).colorScheme.primary.withValues(alpha: 0.08),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Row(
@@ -498,7 +517,9 @@ class CustomDialogs {
                         fontSize: 12,
                         fontWeight: FontWeight.w600,
                         fontFamily: AppStrings.nunitoFont,
-                        color: Theme.of(context).textTheme.bodyMedium?.color?.withValues(alpha: 0.7),
+                        color: Theme.of(
+                          context,
+                        ).textTheme.bodyMedium?.color?.withValues(alpha: 0.7),
                       ),
                     ),
                   ),
@@ -518,12 +539,13 @@ class CustomDialogs {
                         Get.back();
                         GoogleMobileAdsService.instance.showRewarded(
                           onReward: (reward) {
-                            
-                              globalController.userProfile.value.gems += 100;
-                              globalController.userProfile.refresh();
-                              globalController.updateProfile();
-                            
+                            globalController.userProfile.value.gems += 100;
+                            globalController.userProfile.refresh();
+                            globalController.updateProfile();
                           },
+                        );
+                        GoogleMobileAdsService.instance.loadRewarded(
+                          adUnitId: AppStrings.rewardedAdUnitId,
                         );
                       },
                       color: const Color(0xFF10B981),
@@ -537,12 +559,13 @@ class CustomDialogs {
               width: double.infinity,
               child: _DialogButton(
                 text: AppStrings.start.tr,
-                onPressed: hasEnoughGems
-                    ? () {
-                        Get.back();
-                        Get.to(ChatScreen(scenarioModel: scenarioModel));
-                      }
-                    : null,
+                onPressed:
+                    hasEnoughGems
+                        ? () {
+                          Get.back();
+                          Get.to(ChatScreen(scenarioModel: scenarioModel));
+                        }
+                        : null,
                 color: Theme.of(context).colorScheme.primary,
                 icon: Icons.arrow_forward_rounded,
               ),
@@ -585,38 +608,44 @@ class _DialogButtonState extends State<_DialogButton> {
       onTapDown: isDisabled ? null : (_) => setState(() => _isPressed = true),
       onTapUp: isDisabled ? null : (_) => setState(() => _isPressed = false),
       onTapCancel: isDisabled ? null : () => setState(() => _isPressed = false),
-      onTap: isDisabled
-          ? null
-          : () {
-              HapticFeedback.lightImpact();
-              widget.onPressed?.call();
-            },
+      onTap:
+          isDisabled
+              ? null
+              : () {
+                HapticFeedback.lightImpact();
+                widget.onPressed?.call();
+              },
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 150),
         transform: Matrix4.identity()..scale(_isPressed ? 0.97 : 1.0),
         padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
         decoration: BoxDecoration(
-          color: widget.isOutlined
-              ? Colors.transparent
-              : isDisabled
+          color:
+              widget.isOutlined
+                  ? Colors.transparent
+                  : isDisabled
                   ? Colors.grey.shade300
                   : buttonColor,
           borderRadius: BorderRadius.circular(14),
-          border: widget.isOutlined
-              ? Border.all(
-                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.2),
-                  width: 1.5,
-                )
-              : null,
-          boxShadow: widget.isOutlined || isDisabled
-              ? null
-              : [
-                  BoxShadow(
-                    color: buttonColor.withValues(alpha: 0.3),
-                    blurRadius: 8,
-                    offset: const Offset(0, 4),
-                  ),
-                ],
+          border:
+              widget.isOutlined
+                  ? Border.all(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.onSurface.withValues(alpha: 0.2),
+                    width: 1.5,
+                  )
+                  : null,
+          boxShadow:
+              widget.isOutlined || isDisabled
+                  ? null
+                  : [
+                    BoxShadow(
+                      color: buttonColor.withValues(alpha: 0.3),
+                      blurRadius: 8,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -625,9 +654,10 @@ class _DialogButtonState extends State<_DialogButton> {
               Icon(
                 widget.icon,
                 size: 18,
-                color: widget.isOutlined
-                    ? Theme.of(context).textTheme.bodyMedium?.color
-                    : isDisabled
+                color:
+                    widget.isOutlined
+                        ? Theme.of(context).textTheme.bodyMedium?.color
+                        : isDisabled
                         ? Colors.grey
                         : Colors.white,
               ),
@@ -643,9 +673,10 @@ class _DialogButtonState extends State<_DialogButton> {
                   fontSize: 14,
                   fontWeight: FontWeight.w700,
                   fontFamily: AppStrings.nunitoFont,
-                  color: widget.isOutlined
-                      ? Theme.of(context).textTheme.bodyMedium?.color
-                      : isDisabled
+                  color:
+                      widget.isOutlined
+                          ? Theme.of(context).textTheme.bodyMedium?.color
+                          : isDisabled
                           ? Colors.grey
                           : Colors.white,
                 ),
