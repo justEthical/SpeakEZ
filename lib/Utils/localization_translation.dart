@@ -52,6 +52,15 @@ class AppTranslations extends Translations {
       'continueLearning': "Continue Learning",
       'learnByLevel': "Learn by level",
       'seeAll': "See all",
+
+      // Practice Cards
+      'selectScenario': "Scenario Practice",
+      'practiceRealConversations': "Practice real-life conversations with AI",
+      'explore': "Explore",
+      'freeTalkTitle': "Free Speaking",
+      'talkAboutAnything': "Talk about anything you want with AI",
+      'startNow': "Start Now",
+      'conversationProgress': "Conversation Progress",
       'lessons': "Lessons",
       'levelLessons': "Level Lessons",
       'completed': "Completed",
@@ -111,6 +120,10 @@ class AppTranslations extends Translations {
       'exampleSentences': "Example Sentence(s)",
       'listen': "Listen",
       'check': "Check",
+      'word': "Word",
+      'tip': "Tip",
+      'startQuiz': "Start Quiz",
+      'question': "Question",
 
       // Answer Result
       'correctAnswer': "Correct Answer",
@@ -184,6 +197,42 @@ class AppTranslations extends Translations {
       'notReally': "Nah, not really",
       'thankYouFeedback': "Thanks for keeping it real with us! We got you. 🙏",
       'feedbackDone': "Done",
+
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "Why Free Talk?",
+      'freeTalkFeature1Title': "Unlimited Topics",
+      'freeTalkFeature1Desc': "Talk about anything that interests you",
+      'freeTalkFeature2Title': "AI-Powered",
+      'freeTalkFeature2Desc': "Smart conversations with Natasha AI",
+      'freeTalkFeature3Title': "Instant Feedback",
+      'freeTalkFeature3Desc': "Get real-time tips to improve",
+      'freeTalkTopicsTitle': "Need inspiration?",
+      'freeTalkTopic1': "My hobbies",
+      'freeTalkTopic2': "Travel plans",
+      'freeTalkTopic3': "Favorite movies",
+      'freeTalkTopic4': "Daily routine",
+      'freeTalkTopic5': "Dream job",
+      'freeTalkTopic6': "Weekend plans",
+
+      // Settings Screen Enhanced
+      'settingsAppSection': "APP SETTINGS",
+      'settingsSupportSection': "SUPPORT",
+      'settingsAccountSection': "ACCOUNT",
+      'settingsLanguage': "App Language",
+      'settingsLogoutSubtitle': "Sign out of your account",
+      'settingsLevel': "Level",
+      'settingsWords': "Words",
+
+      // Preparing Screen
+      'preparingTitle': "Creating Your Perfect Learning Plan",
+      'preparingSubtitle': "Personalizing just for you",
+      'downloadingLessons': "Personalizing AI lessons for you",
+      'extractingLessons': "Setting up your learning content",
+      'preparingComplete': "Ready to learn",
+      'errorOccurred': "Something went wrong",
+      'downloadError': "Failed to download lessons. Please check your internet connection and try again.",
+      'retry': "Retry",
+
     },
 
     // ================= JAPANESE =================
@@ -235,6 +284,15 @@ class AppTranslations extends Translations {
       'continueLearning': "学習を続ける",
       'learnByLevel': "レベル別に学ぶ",
       'seeAll': "すべて見る",
+
+      // Practice Cards
+      'selectScenario': "シナリオ練習",
+      'practiceRealConversations': "AIと実際の会話を練習しましょう",
+      'explore': "探索する",
+      'freeTalkTitle': "フリースピーキング",
+      'talkAboutAnything': "AIと好きなトピックで会話しましょう",
+      'startNow': "今すぐ開始",
+      'conversationProgress': "会話の進捗",
       'lessons': "レッスン",
       'levelLessons': "レベルレッスン",
       'completed': "完了",
@@ -292,6 +350,10 @@ class AppTranslations extends Translations {
       'exampleSentences': "例文",
       'listen': "聞く",
       'check': "チェック",
+      'word': "単語",
+      'tip': "ヒント",
+      'startQuiz': "クイズ開始",
+      'question': "問題",
 
       // Answer Result
       'correctAnswer': "正解",
@@ -360,6 +422,42 @@ class AppTranslations extends Translations {
       'notReally': "うーん、微妙かも",
       'thankYouFeedback': "正直に教えてくれてありがとう！ 🙏",
       'feedbackDone': "完了",
+
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "フリートークの魅力",
+      'freeTalkFeature1Title': "無限のトピック",
+      'freeTalkFeature1Desc': "好きなことについて話そう",
+      'freeTalkFeature2Title': "AI搭載",
+      'freeTalkFeature2Desc': "ナターシャAIとスマートな会話",
+      'freeTalkFeature3Title': "即座のフィードバック",
+      'freeTalkFeature3Desc': "リアルタイムで改善のヒントを取得",
+      'freeTalkTopicsTitle': "何を話そうか迷ったら？",
+      'freeTalkTopic1': "趣味について",
+      'freeTalkTopic2': "旅行の計画",
+      'freeTalkTopic3': "好きな映画",
+      'freeTalkTopic4': "日常生活",
+      'freeTalkTopic5': "夢の仕事",
+      'freeTalkTopic6': "週末の予定",
+
+      // Settings Screen Enhanced
+      'settingsAppSection': "アプリ設定",
+      'settingsSupportSection': "サポート",
+      'settingsAccountSection': "アカウント",
+      'settingsLanguage': "アプリの言語",
+      'settingsLogoutSubtitle': "アカウントからログアウト",
+      'settingsLevel': "レベル",
+      'settingsWords': "単語",
+
+      // Preparing Screen
+      'preparingTitle': "あなた専用の学習プランを作成中",
+      'preparingSubtitle': "パーソナライズしています",
+      'downloadingLessons': "AIレッスンをパーソナライズ中",
+      'extractingLessons': "学習コンテンツを準備中",
+      'preparingComplete': "学習の準備完了",
+      'errorOccurred': "エラーが発生しました",
+      'downloadError': "レッスンのダウンロードに失敗しました。インターネット接続を確認して再試行してください。",
+      'retry': "再試行",
+
     },
 
     // ================= Hindi =================
@@ -411,6 +509,15 @@ class AppTranslations extends Translations {
       'continueLearning': "सीखना जारी रखें",
       'learnByLevel': "स्तर के अनुसार सीखें",
       'seeAll': "सब देखें",
+
+      // Practice Cards
+      'selectScenario': "परिदृश्य अभ्यास",
+      'practiceRealConversations': "AI के साथ वास्तविक बातचीत का अभ्यास करें",
+      'explore': "खोजें",
+      'freeTalkTitle': "फ्री स्पीकिंग",
+      'talkAboutAnything': "AI के साथ किसी भी विषय पर बात करें",
+      'startNow': "अभी शुरू करें",
+      'conversationProgress': "बातचीत की प्रगति",
       'lessons': "पाठ",
       'levelLessons': "स्तर के पाठ",
       'completed': "पूर्ण",
@@ -471,6 +578,10 @@ class AppTranslations extends Translations {
       'exampleSentences': "उदाहरण वाक्य",
       'listen': "सुनें",
       'check': "जाँच करें",
+      'word': "शब्द",
+      'tip': "सुझाव",
+      'startQuiz': "क्विज़ शुरू करें",
+      'question': "प्रश्न",
 
       // Answer Result
       'correctAnswer': "सही उत्तर",
@@ -544,6 +655,42 @@ class AppTranslations extends Translations {
       'notReally': "नहीं, ज़्यादा नहीं",
       'thankYouFeedback': "सच बताने के लिए थैंक्स! हम सुधारेंगे। 🙏",
       'feedbackDone': "ठीक है",
+
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "फ्री टॉक क्यों?",
+      'freeTalkFeature1Title': "असीमित विषय",
+      'freeTalkFeature1Desc': "अपनी पसंद के किसी भी विषय पर बात करें",
+      'freeTalkFeature2Title': "AI संचालित",
+      'freeTalkFeature2Desc': "नताशा AI के साथ स्मार्ट बातचीत",
+      'freeTalkFeature3Title': "तुरंत फीडबैक",
+      'freeTalkFeature3Desc': "सुधार के लिए रीयल-टाइम सुझाव",
+      'freeTalkTopicsTitle': "कुछ आइडिया चाहिए?",
+      'freeTalkTopic1': "मेरी हॉबी",
+      'freeTalkTopic2': "यात्रा की योजना",
+      'freeTalkTopic3': "पसंदीदा फिल्में",
+      'freeTalkTopic4': "रोज़ की दिनचर्या",
+      'freeTalkTopic5': "सपनों की नौकरी",
+      'freeTalkTopic6': "वीकेंड प्लान",
+
+      // Settings Screen Enhanced
+      'settingsAppSection': "ऐप सेटिंग्स",
+      'settingsSupportSection': "सहायता",
+      'settingsAccountSection': "खाता",
+      'settingsLanguage': "ऐप की भाषा",
+      'settingsLogoutSubtitle': "अपने खाते से लॉगआउट करें",
+      'settingsLevel': "स्तर",
+      'settingsWords': "शब्द",
+
+      // Preparing Screen
+      'preparingTitle': "आपके लिए सर्वश्रेष्ठ लर्निंग प्लान बना रहे हैं",
+      'preparingSubtitle': "आपके लिए पर्सनलाइज़ कर रहे हैं",
+      'downloadingLessons': "AI पाठ आपके लिए तैयार हो रहे हैं",
+      'extractingLessons': "लर्निंग कंटेंट सेट अप हो रहा है",
+      'preparingComplete': "सीखने के लिए तैयार",
+      'errorOccurred': "कुछ गड़बड़ हुई",
+      'downloadError': "पाठ डाउनलोड करने में विफल। कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।",
+      'retry': "पुनः प्रयास करें",
+
     },
 
     // ================ Spanish =================
@@ -596,6 +743,15 @@ class AppTranslations extends Translations {
   'continueLearning': "Continuar aprendiendo",
   'learnByLevel': "Aprender por nivel",
   'seeAll': "Ver todo",
+
+  // Practice Cards
+  'selectScenario': "Práctica de Escenarios",
+  'practiceRealConversations': "Practica conversaciones reales con IA",
+  'explore': "Explorar",
+  'freeTalkTitle': "Hablar Libremente",
+  'talkAboutAnything': "Habla de cualquier tema con la IA",
+  'startNow': "Comenzar Ahora",
+  'conversationProgress': "Progreso de la Conversación",
   'lessons': "Lecciones",
   'levelLessons': "Lecciones del nivel",
   'completed': "Completado",
@@ -653,6 +809,10 @@ class AppTranslations extends Translations {
   'exampleSentences': "Frases de ejemplo",
   'listen': "Escuchar",
   'check': "Comprobar",
+  'word': "Palabra",
+  'tip': "Consejo",
+  'startQuiz': "Iniciar Quiz",
+  'question': "Pregunta",
 
   // Answer Result
   'correctAnswer': "Respuesta correcta",
@@ -725,6 +885,42 @@ class AppTranslations extends Translations {
   'notReally': "No mucho, la verdad",
   'thankYouFeedback': "¡Gracias por ser honesto! Lo tenemos en cuenta. 🙏",
   'feedbackDone': "Listo",
+
+  // Free Talk Screen Enhanced
+  'freeTalkWhyTitle': "¿Por qué Conversación Libre?",
+  'freeTalkFeature1Title': "Temas ilimitados",
+  'freeTalkFeature1Desc': "Habla de lo que más te interese",
+  'freeTalkFeature2Title': "Con IA",
+  'freeTalkFeature2Desc': "Conversaciones inteligentes con Natasha AI",
+  'freeTalkFeature3Title': "Retroalimentación instantánea",
+  'freeTalkFeature3Desc': "Consejos en tiempo real para mejorar",
+  'freeTalkTopicsTitle': "¿Necesitas inspiración?",
+  'freeTalkTopic1': "Mis pasatiempos",
+  'freeTalkTopic2': "Planes de viaje",
+  'freeTalkTopic3': "Películas favoritas",
+  'freeTalkTopic4': "Rutina diaria",
+  'freeTalkTopic5': "Trabajo soñado",
+  'freeTalkTopic6': "Planes del fin de semana",
+
+  // Settings Screen Enhanced
+  'settingsAppSection': "AJUSTES DE LA APP",
+  'settingsSupportSection': "SOPORTE",
+  'settingsAccountSection': "CUENTA",
+  'settingsLanguage': "Idioma de la app",
+  'settingsLogoutSubtitle': "Cerrar sesión de tu cuenta",
+  'settingsLevel': "Nivel",
+  'settingsWords': "Palabras",
+
+  // Preparing Screen
+  'preparingTitle': "Creando tu plan de aprendizaje perfecto",
+  'preparingSubtitle': "Personalizando para ti",
+  'downloadingLessons': "Personalizando lecciones de IA para ti",
+  'extractingLessons': "Configurando tu contenido de aprendizaje",
+  'preparingComplete': "Listo para aprender",
+  'errorOccurred': "Algo salió mal",
+  'downloadError': "Error al descargar las lecciones. Por favor verifica tu conexión a internet e inténtalo de nuevo.",
+  'retry': "Reintentar",
+
 }
 
   };

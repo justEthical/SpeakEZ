@@ -67,7 +67,7 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                       border: Border.all(color: theme.colorScheme.primary, width: 0.4),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.grey.withOpacity(0.2),
+                          color: Colors.grey.withValues(alpha: 0.2),
                           spreadRadius: 1,
                           blurRadius: 5,
                           offset: const Offset(0, 3),
@@ -144,14 +144,14 @@ class _ListOfLessonsState extends State<ListOfLessons> {
                                     Icons.lock,
                                     color: Theme.of(
                                       context,
-                                    ).colorScheme.onSurface.withOpacity(0.6),
+                                    ).colorScheme.onSurface.withValues(alpha: 0.6),
                                     size: 20,
                                   ),
                                   Icon(
                                     Icons.arrow_forward_ios,
                                     color: Theme.of(
                                       context,
-                                    ).colorScheme.onSurface.withOpacity(0.6),
+                                    ).colorScheme.onSurface.withValues(alpha: 0.6),
                                     size: 20,
                                   ),
                                 ],

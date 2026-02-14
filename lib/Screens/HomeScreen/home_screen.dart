@@ -8,6 +8,7 @@ import 'package:speak_ez/Controllers/home_screen_controller.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/current_lesson_progress_card.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/english_level_container.dart';
 import 'package:speak_ez/Screens/HomeScreen/Widgets/streak_and_word_count_section.dart';
+import 'package:speak_ez/Screens/HomeScreen/Widgets/practice_cards_section.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 import 'Widgets/level_info_bottom_sheet.dart';
@@ -72,17 +73,23 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 controller: _staggerController,
                 child: const StreakAndWordCountSection(),
               ),
-              const SizedBox(height: 30),
+              const SizedBox(height: 20),
               _AnimatedSection(
-                delay: 200,
+                delay: 150,
                 controller: _staggerController,
                 child: CurrentLessonProgressCard(
                   floatingController: _floatingController,
                 ),
               ),
+              const SizedBox(height: 20),
+              _AnimatedSection(
+                delay: 300,
+                controller: _staggerController,
+                child: const PracticeCardsSection(),
+              ),
               const SizedBox(height: 30),
               _AnimatedSection(
-                delay: 400,
+                delay: 450,
                 controller: _staggerController,
                 child: _LearnByLevelSection(),
               ),
@@ -170,7 +177,7 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                 color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w800,
-                fontSize: 22,
+                fontSize: 18,
               ),
             ),
           ),
@@ -188,14 +195,17 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
             ),
             child: Row(
               children: [
-                SizedBox(width: 18, height: 30, child: Image.asset(AppAssets.gem),),SizedBox(width: 6,),
-                Text(
-                  globalController.userProfile.value.gems.toString(),
-                  style: TextStyle(
-                    color: Theme.of(context).textTheme.bodyMedium?.color,
-                    fontFamily: AppStrings.nunitoFont,
-                    fontWeight: FontWeight.w800,
-                    fontSize: 22,
+                SizedBox(width: 16, height: 24, child: Image.asset(AppAssets.gem)),
+                const SizedBox(width: 4),
+                Obx(
+                  () => Text(
+                    globalController.userProfile.value.gems.toString(),
+                    style: TextStyle(
+                      color: Theme.of(context).textTheme.bodyMedium?.color,
+                      fontFamily: AppStrings.nunitoFont,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 16,
+                    ),
                   ),
                 ),
               ],
@@ -276,7 +286,7 @@ class _LearnByLevelSection extends StatelessWidget {
                   fontFamily: AppStrings.nunitoFont,
                   color: Theme.of(
                     context,
-                  ).textTheme.bodyMedium?.color?.withOpacity(0.7),
+                  ).textTheme.bodyMedium?.color?.withValues(alpha: 0.7),
                 ),
               ),
               const Spacer(),

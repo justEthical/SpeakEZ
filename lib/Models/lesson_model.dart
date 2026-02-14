@@ -25,20 +25,20 @@ class Lesson {
   factory Lesson.fromJson(Map<String, dynamic> json) {
     // Detect if this is an unlock test based on purpose
     final isUnlockTest = json['purpose'] == 'LevelUnlockTest';
-    
+
     return Lesson(
       id: json['id'],
       lessonName: json['lesson_name'] ?? json['lessonName'],
       purpose: json['purpose'],
       cefrLevel: json['cefrLevel'],
-      lessonIntro: json['lesson_intro'] != null 
-          ? LessonIntro.fromJson(json['lesson_intro']) 
+      lessonIntro: json['lesson_intro'] != null
+          ? LessonIntro.fromJson(json['lesson_intro'])
           : null,
       questionPools: QuestionPools.fromJson(json['question_pools']),
       lessonType: isUnlockTest ? LessonType.unlockTest : LessonType.regular,
     );
   }
-  
+
   // Factory constructor for UnlockTest compatibility
   factory Lesson.fromUnlockTest(Map<String, dynamic> json) => Lesson(
     id: json['id'],
@@ -71,9 +71,9 @@ class LessonIntro {
 
 class VocabularyItem {
   final String word;
-  final Map<String, String>? wordTranslation;
+  final String? wordTranslation;
   final String meaning;
-  final Map<String, String>? meaningTranslation;
+  final String? meaningTranslation;
   final List<ExampleSentence> examples;
 
   VocabularyItem({
@@ -86,15 +86,9 @@ class VocabularyItem {
 
   factory VocabularyItem.fromJson(Map<String, dynamic> json) => VocabularyItem(
     word: json['word'],
-    wordTranslation:
-        json['word_translation'] != null
-            ? Map<String, String>.from(json['word_translation'])
-            : null,
+    wordTranslation: json['word_translation'],
     meaning: json['meaning'],
-    meaningTranslation:
-        json['meaning_translation'] != null
-            ? Map<String, String>.from(json['meaning_translation'])
-            : null,
+    meaningTranslation: json['meaning_translation'],
     examples:
         (json['examples'] as List)
             .map((e) => ExampleSentence.fromJson(e))
@@ -105,7 +99,7 @@ class VocabularyItem {
 class GrammarTip {
   final String title;
   final String explanation;
-  final Map<String, String>? explanationTranslation;
+  final String? explanationTranslation;
 
   GrammarTip({
     required this.title,
@@ -116,26 +110,20 @@ class GrammarTip {
   factory GrammarTip.fromJson(Map<String, dynamic> json) => GrammarTip(
     title: json['title'],
     explanation: json['explanation'],
-    explanationTranslation:
-        json['explanation_translation'] != null
-            ? Map<String, String>.from(json['explanation_translation'])
-            : null,
+    explanationTranslation: json['explanation_translation'],
   );
 }
 
 class ExampleSentence {
   final String sentence;
-  final Map<String, String>? translation;
+  final String? translation;
 
   ExampleSentence({required this.sentence, this.translation});
 
   factory ExampleSentence.fromJson(Map<String, dynamic> json) =>
       ExampleSentence(
         sentence: json['sentence'],
-        translation:
-            json['translation'] != null
-                ? Map<String, String>.from(json['translation'])
-                : null,
+        translation: json['translation'],
       );
 }
 
@@ -167,7 +155,7 @@ class QuestionPools {
     speaking:
         (json['speaking'] as List).map((e) => Question.fromJson(e)).toList(),
   );
-  
+
   // Helper to get all questions for unlock tests
   List<Question> get allQuestions {
     final all = <Question>[];
@@ -185,7 +173,7 @@ class Question {
   final QuestionType type;
   final String question;
   final String? audioText;
-  final Map<String, String>? questionTranslation;
+  final String? questionTranslation;
   final List<dynamic>? options;
   final dynamic answer;
 
@@ -200,21 +188,12 @@ class Question {
   });
 
   factory Question.fromJson(Map<String, dynamic> json) {
-    // Handle Translation class from UnlockTest model
-    Map<String, String>? translation;
-    if (json['question_translation'] != null) {
-      final trans = json['question_translation'];
-      if (trans is Map) {
-        translation = Map<String, String>.from(trans);
-      }
-    }
-    
     return Question(
       id: json['id'],
       type: QuestionType.values.firstWhere((e) => e.name == json['type']),
       question: json['question'],
       audioText: json['audio_text'],
-      questionTranslation: translation,
+      questionTranslation: json['question_translation'],
       options: json['options'] as List<dynamic>?,
       answer: json['answer'],
     );

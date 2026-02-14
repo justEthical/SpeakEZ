@@ -157,21 +157,23 @@ class _LessonIntroScreenState extends State<LessonIntroScreen> {
                         : SizedBox(),
                     SizedBox(width: Get.width * 0.2, height: Get.width * 0.2),
                     Spacer(),
-                    ElevatedButton(
-                      onPressed: _navigateToQuestions,
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Theme.of(context).colorScheme.primary,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
+                    SafeArea(
+                      child: ElevatedButton(
+                        onPressed: _navigateToQuestions,
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Theme.of(context).colorScheme.primary,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          fixedSize: Size(Get.width - 30, 50),
                         ),
-                        fixedSize: Size(Get.width - 30, 50),
-                      ),
-                      child: Text(
-                        AppStrings.start.tr,
-                        style: TextStyle(
-                          color: Theme.of(context).colorScheme.onPrimary,
-                          fontWeight: FontWeight.w600,
-                          fontFamily: AppStrings.poppinsFont,
+                        child: Text(
+                          AppStrings.start.tr,
+                          style: TextStyle(
+                            color: Theme.of(context).colorScheme.onPrimary,
+                            fontWeight: FontWeight.w600,
+                            fontFamily: AppStrings.poppinsFont,
+                          ),
                         ),
                       ),
                     ),

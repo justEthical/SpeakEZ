@@ -1199,4 +1199,10 @@ class AppData {
   LanguageCode(language: "española", englishName: "Spanish", code: "es", countryCode: "ES", flag: "🇪🇸"),
   LanguageCode(language: "日本語", englishName: "Japanese", code: 'ja', countryCode: "JP", flag: "🇯🇵")
   ];
+
+  static Map<String, String> appLanguagesMap = {
+    "Hindi": "https://github.com/justEthical/VideoGen/releases/download/hindi/hi.zip",
+    "Japanese": "https://github.com/justEthical/VideoGen/releases/download/japanese/ja.zip",
+  };
 }
+

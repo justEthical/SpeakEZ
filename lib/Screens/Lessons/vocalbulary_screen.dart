@@ -28,36 +28,66 @@ class VocalbularyScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
+          elevation: 0,
           leading: IconButton(
             onPressed: () {
               c.isBottomSheetOpen = true;
               c.showExitBottomSheet(context);
             },
-            icon: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
-          title: Text(
-            AppStrings.vocabulary.tr,
-            style: TextStyle(
-              fontSize: 20,
-              fontFamily: AppStrings.poppinsFont,
-              fontWeight: FontWeight.bold,
+            icon: Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(
+                Icons.arrow_back_ios_new_rounded,
+                size: 18,
+                color: Theme.of(context).colorScheme.primary,
+              ),
             ),
           ),
-          actions: [
-            
-          ],
-        ),
-        body: Container(
-          width: Get.width,
-          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          title: Row(
+            mainAxisSize: MainAxisSize.min,
             children: [
-              _progressIndicator(context),
-              SizedBox(height: 18),
-              _content(),
-              _bottomButtons(context),
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [
+                      Theme.of(context).colorScheme.primary,
+                      Theme.of(context).colorScheme.primary.withOpacity(0.7),
+                    ],
+                  ),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Icon(Icons.menu_book_rounded, color: Colors.white, size: 20),
+              ),
+              const SizedBox(width: 10),
+              Text(
+                AppStrings.vocabulary.tr,
+                style: TextStyle(
+                  fontSize: 20,
+                  fontFamily: AppStrings.poppinsFont,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
+          ),
+        ),
+        body: SafeArea(
+          child: Container(
+            width: Get.width,
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _progressIndicator(context),
+                const SizedBox(height: 16),
+                _content(),
+                _bottomButtons(context),
+              ],
+            ),
           ),
         ),
       ),
@@ -69,30 +99,60 @@ class VocalbularyScreen extends StatelessWidget {
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
     if (vocabulary.isEmpty) return const SizedBox.shrink();
 
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        ...List.generate(
-          vocabulary.length,
-          (e) => GestureDetector(
-            onTap: () {},
-            child: Obx(
-              () => Container(
-                width: (Get.width / vocabulary.length) - 10,
-                height: 4,
-                decoration: BoxDecoration(
-                  border: Border.all(color: Colors.grey, width: 0.4),
-                  color:
-                      e <= c.currentWordMeaningIndex.value
-                          ? Theme.of(context).colorScheme.primary
-                          : Colors.grey[300],
-                  borderRadius: BorderRadius.circular(10),
-                ),
-              ),
-            ),
-          ),
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Theme.of(context).colorScheme.primary.withOpacity(0.05),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
         ),
-      ],
+      ),
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Obx(() => Text(
+                "${AppStrings.word.tr} ${c.currentWordMeaningIndex.value + 1} of ${vocabulary.length}",
+                style: TextStyle(
+                  fontSize: 13,
+                  fontFamily: AppStrings.poppinsFont,
+                  fontWeight: FontWeight.w600,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+              )),
+              Obx(() => Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.primary,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Text(
+                  "${((c.currentWordMeaningIndex.value + 1) / vocabulary.length * 100).toInt()}%",
+                  style: const TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              )),
+            ],
+          ),
+          const SizedBox(height: 12),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: Obx(() => LinearProgressIndicator(
+              value: (c.currentWordMeaningIndex.value + 1) / vocabulary.length,
+              backgroundColor: Colors.grey.shade200,
+              valueColor: AlwaysStoppedAnimation<Color>(
+                Theme.of(context).colorScheme.primary,
+              ),
+              minHeight: 8,
+            )),
+          ),
+        ],
+      ),
     );
   }
 
@@ -101,9 +161,29 @@ class VocalbularyScreen extends StatelessWidget {
     final vocabulary = lesson.lessonIntro?.vocabulary ?? [];
 
     if (vocabulary.isEmpty) {
-      return  Expanded(
+      return Expanded(
         flex: 10,
-        child: Center(child: Text(AppStrings.noVocabularyAvailable.tr)),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.library_books_outlined,
+                size: 64,
+                color: Colors.grey.shade400,
+              ),
+              const SizedBox(height: 16),
+              Text(
+                AppStrings.noVocabularyAvailable.tr,
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.grey.shade600,
+                  fontFamily: AppStrings.poppinsFont,
+                ),
+              ),
+            ],
+          ),
+        ),
       );
     }
 
@@ -133,94 +213,136 @@ class VocalbularyScreen extends StatelessWidget {
       children: [
         Container(
           width: Get.width,
-          height: 40,
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
           decoration: BoxDecoration(
-            color: Colors.transparent,
-            borderRadius: BorderRadius.circular(10),
-            border: Border.all(color: Colors.grey, width: 1),
+            gradient: LinearGradient(
+              colors: [
+                Theme.of(context).colorScheme.primary.withOpacity(0.08),
+                Theme.of(context).colorScheme.primary.withOpacity(0.03),
+              ],
+            ),
+            borderRadius: BorderRadius.circular(14),
+            border: Border.all(
+              color: Theme.of(context).colorScheme.primary.withOpacity(0.15),
+            ),
           ),
           child: Row(
-            children: [SizedBox(width: 8,),
-            Text(AppStrings.autoSpeak.tr,),
-            Spacer(),
-            Transform.scale(
-              scale: 0.8,
-              child: Obx(
-                () => Switch(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.primary.withOpacity(0.15),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Icon(
+                  Icons.volume_up_rounded,
+                  color: Theme.of(context).colorScheme.primary,
+                  size: 20,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  AppStrings.autoSpeak.tr,
+                  style: TextStyle(
+                    fontFamily: AppStrings.poppinsFont,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 14,
+                  ),
+                ),
+              ),
+              Obx(
+                () => Switch.adaptive(
                   value: c.isAutoSpeakVocabularyOn.value,
+                  activeColor: Theme.of(context).colorScheme.primary,
                   onChanged: (val) {
                     c.isAutoSpeakVocabularyOn.value = val;
                   },
                 ),
               ),
-            ),
-          ]),
+            ],
+          ),
         ),
-        SizedBox(height: 10),
+        const SizedBox(height: 16),
         Row(
           children: [
             Obx(
-              () =>
-                  c.currentWordMeaningIndex.value == 0
-                      ? SizedBox()
-                      : ElevatedButton(
+              () => c.currentWordMeaningIndex.value == 0
+                  ? const SizedBox(width: 100)
+                  : Expanded(
+                      child: OutlinedButton.icon(
                         onPressed: () {
                           c.wordMeaningPageController.previousPage(
                             duration: const Duration(milliseconds: 300),
-                            curve: Curves.linear,
+                            curve: Curves.easeInOut,
                           );
                           c.currentWordMeaningIndex.value--;
                         },
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor:
-                              Theme.of(context).colorScheme.primary,
-                          fixedSize: Size(100, 40),
+                        style: OutlinedButton.styleFrom(
+                          foregroundColor: Theme.of(context).colorScheme.primary,
+                          side: BorderSide(
+                            color: Theme.of(context).colorScheme.primary,
+                            width: 1.5,
+                          ),
+                          padding: const EdgeInsets.symmetric(vertical: 14),
                           shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
+                            borderRadius: BorderRadius.circular(14),
                           ),
                         ),
-                        child: Text(
+                        icon: const Icon(Icons.arrow_back_rounded, size: 20),
+                        label: Text(
                           AppStrings.prev.tr,
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
-                            fontSize: 16,
-                            color: Colors.white,
+                            fontSize: 15,
+                            fontFamily: AppStrings.poppinsFont,
                           ),
                         ),
                       ),
+                    ),
             ),
-            Spacer(),
-            ElevatedButton(
-              onPressed: () {
-                if (vocabulary.isNotEmpty &&
-                    c.currentWordMeaningIndex.value < vocabulary.length - 1) {
-                  c.wordMeaningPageController.nextPage(
-                    duration: const Duration(milliseconds: 300),
-                    curve: Curves.linear,
-                  );
-                  c.currentWordMeaningIndex.value++;
-                } else {
-                  Get.off(GrammerTipsScreen(lesson: lesson));
-                }
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Theme.of(context).colorScheme.primary,
-                fixedSize: Size(100, 40),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-              ),
+            const SizedBox(width: 12),
+            Expanded(
               child: Obx(
-                () => Text(
-                  vocabulary.isNotEmpty &&
-                          c.currentWordMeaningIndex.value ==
-                              vocabulary.length - 1
-                      ? AppStrings.done.tr
-                      : AppStrings.next.tr,
-                  style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 16,
-                    color: Colors.white,
+                () => ElevatedButton.icon(
+                  onPressed: () {
+                    if (vocabulary.isNotEmpty &&
+                        c.currentWordMeaningIndex.value < vocabulary.length - 1) {
+                      c.wordMeaningPageController.nextPage(
+                        duration: const Duration(milliseconds: 300),
+                        curve: Curves.easeInOut,
+                      );
+                      c.currentWordMeaningIndex.value++;
+                    } else {
+                      Get.off(GrammerTipsScreen(lesson: lesson));
+                    }
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Theme.of(context).colorScheme.primary,
+                    foregroundColor: Colors.white,
+                    elevation: 0,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                  ),
+                  icon: Icon(
+                    vocabulary.isNotEmpty &&
+                            c.currentWordMeaningIndex.value == vocabulary.length - 1
+                        ? Icons.check_rounded
+                        : Icons.arrow_forward_rounded,
+                    size: 20,
+                  ),
+                  label: Text(
+                    vocabulary.isNotEmpty &&
+                            c.currentWordMeaningIndex.value == vocabulary.length - 1
+                        ? AppStrings.done.tr
+                        : AppStrings.next.tr,
+                    style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 15,
+                      fontFamily: AppStrings.poppinsFont,
+                    ),
                   ),
                 ),
               ),

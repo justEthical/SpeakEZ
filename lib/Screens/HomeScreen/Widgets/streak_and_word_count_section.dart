@@ -118,11 +118,11 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
               transform: Matrix4.identity()..scale(scale * 0.98),
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: color.withOpacity(0.1),
+                color: color.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(15),
                 boxShadow: [
                   BoxShadow(
-                    color: color.withOpacity(0.2),
+                    color: color.withValues(alpha: 0.2),
                     blurRadius: 8,
                     offset: const Offset(0, 4),
                   ),
@@ -151,7 +151,7 @@ class _StreakAndWordCountSectionState extends State<StreakAndWordCountSection>
                     style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontFamily: AppStrings.nunitoFont,
-                      color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
+                      color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
                     ),
                   ),
                   const SizedBox(height: 5),

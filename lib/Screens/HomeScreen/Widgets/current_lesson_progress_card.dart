@@ -91,7 +91,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
                     blurRadius: 15,
                     offset: const Offset(0, 5),
                   ),
@@ -118,7 +118,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                         fontSize: 16,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w700,
-                        color: Colors.white.withOpacity(0.8),
+                        color: Colors.white.withValues(alpha: 0.8),
                       ),
                     ),
                     const SizedBox(height: 8),
@@ -127,13 +127,13 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                           ? lessonNames[userProfile.currentEnglishLevelProgress]
                           : AppStrings.introduction.tr,
                       style: TextStyle(
-                        fontSize: 22,
+                        fontSize: 18,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w800,
                         color: Colors.white,
                       ),
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 12),
                     Row(
                       children: [
                         Expanded(
@@ -145,16 +145,16 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                 return LinearProgressIndicator(
                                   value: progress * _progressAnimation.value,
                                   minHeight: 10,
-                                  backgroundColor: Colors.white.withOpacity(0.2),
+                                  backgroundColor: Colors.white.withValues(alpha: 0.2),
                                   valueColor: AlwaysStoppedAnimation<Color>(
-                                    Colors.white.withOpacity(0.9),
+                                    Colors.white.withValues(alpha: 0.9),
                                   ),
                                 );
                               },
                             ),
                           ),
                         ),
-                        const SizedBox(width: 15),
+                        const SizedBox(width: 12),
                         AnimatedBuilder(
                           animation: _progressAnimation,
                           builder: (context, child) {
@@ -178,7 +178,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                         ),
                       ],
                     ),
-                    const SizedBox(height: 25),
+                    const SizedBox(height: 20),
                     AnimatedBuilder(
                       animation: _buttonAnimation,
                       builder: (context, child) {
@@ -202,7 +202,7 @@ class _CurrentLessonProgressCardState extends State<CurrentLessonProgressCard>
                                   borderRadius: BorderRadius.circular(15),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black.withOpacity(0.1),
+                                      color: Colors.black.withValues(alpha: 0.1),
                                       blurRadius: 8,
                                       offset: const Offset(0, 2),
                                     ),

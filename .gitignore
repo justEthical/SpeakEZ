@@ -46,4 +46,6 @@ app.*.map.json
 /android/app/release
 /bundletool.jar
 *.apks
+/backend/service-account.json
+/backend/node_modules
 

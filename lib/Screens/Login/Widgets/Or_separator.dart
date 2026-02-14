@@ -12,14 +12,14 @@ class OrSeparator extends StatelessWidget {
         Expanded(
           child: Container(
             height: 1,
-            color: Colors.grey.withOpacity(0.3),
+            color: Colors.grey.withValues(alpha: 0.3),
           ),
         ),
         Container(
           height: 30,
           width: 30,
           decoration: BoxDecoration(
-              color: Colors.grey.withOpacity(0.2),
+              color: Colors.grey.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(20)),
           child:  Center(
             child: Text(
@@ -33,7 +33,7 @@ class OrSeparator extends StatelessWidget {
         Expanded(
           child: Container(
             height: 1,
-            color: Colors.grey.withOpacity(0.3),
+            color: Colors.grey.withValues(alpha: 0.3),
           ),
         )
       ],
