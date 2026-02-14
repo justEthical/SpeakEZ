@@ -5,9 +5,12 @@ import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
+import 'package:speak_ez/Utils/custom_dialogs.dart';
 
 import 'scenarios_list.dart';
 
@@ -20,12 +23,12 @@ class PracticeSpeaking extends StatefulWidget {
 
 class _PracticeSpeakingState extends State<PracticeSpeaking>
     with TickerProviderStateMixin {
-  final PracticeController c = Get.find();
   late AnimationController _staggerController;
 
   @override
   void initState() {
     super.initState();
+    PostHogService.instance.captureScreenView('practice_speaking_screen');
     _staggerController = AnimationController(
       duration: const Duration(milliseconds: 1200),
       vsync: this,
@@ -172,10 +175,7 @@ class _ScenarioCategoryCard extends StatefulWidget {
   final ScenarioCategoryModel category;
   final int index;
 
-  const _ScenarioCategoryCard({
-    required this.category,
-    required this.index,
-  });
+  const _ScenarioCategoryCard({required this.category, required this.index});
 
   @override
   State<_ScenarioCategoryCard> createState() => _ScenarioCategoryCardState();
@@ -243,10 +243,7 @@ class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
     return AnimatedBuilder(
       animation: _scaleAnimation,
       builder: (context, child) {
-        return Transform.scale(
-          scale: _scaleAnimation.value,
-          child: child,
-        );
+        return Transform.scale(scale: _scaleAnimation.value, child: child);
       },
       child: GestureDetector(
         onTapDown: _onTapDown,
@@ -409,13 +406,6 @@ class _AnimatedHeaderState extends State<_AnimatedHeader>
 
   @override
   Widget build(BuildContext context) {
-    final isShowPracticeTabInfoBanner =
-        globalController.prefs?.getBool(AppStrings.isShowPracticeTabInfoBanner) ?? true;
-
-    if (!isShowPracticeTabInfoBanner) {
-      return const SizedBox();
-    }
-
     return AnimatedBuilder(
       animation: widget.controller,
       builder: (context, child) {
@@ -439,110 +429,148 @@ class _AnimatedHeaderState extends State<_AnimatedHeader>
       },
       child: Padding(
         padding: const EdgeInsets.fromLTRB(20, 15, 20, 10),
-        child: Stack(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(18),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                gradient: LinearGradient(
-                  colors: [
-                    Theme.of(context).colorScheme.primary,
-                    Theme.of(context).colorScheme.primary.withValues(alpha: 0.7),
-                  ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
+        child: GestureDetector(
+          onTap: () async {
+            HapticFeedback.lightImpact();
+            PostHogService.instance.capture(
+              PostHogEvents.freeTalkStarted,
+              properties: {'screen_name': 'practice_speaking_screen'},
+            );
+            final practiceController = Get.find<PracticeController>();
+            final scenarioModel = practiceController.getFreeTalkScenario();
+            final status = await practiceController.getMicrophonePermission(
+              scenarioModel,
+            );
+
+            if (!context.mounted) return;
+            if (status) {
+              showDialog(
+                context: context,
+                builder: (ctx) {
+                  return CustomDialogs.startPracticeDialog(
+                    context,
+                    scenarioModel,
+                  );
+                },
+              );
+            }
+          },
+          child: Container(
+            height: 120,
+            padding: const EdgeInsets.all(18),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              gradient: const LinearGradient(
+                colors: [Color(0xFF10B981), Color(0xFF2563EB)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: const Color(0xFF10B981).withValues(alpha: 0.3),
+                  blurRadius: 15,
+                  offset: const Offset(0, 6),
                 ),
-                boxShadow: [
-                  BoxShadow(
-                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
-                    blurRadius: 15,
-                    offset: const Offset(0, 6),
-                  ),
-                ],
-              ),
-              child: Row(
-                children: [
-                  AnimatedBuilder(
-                    animation: _pulseController,
-                    builder: (context, child) {
-                      final scale = 1.0 + (_pulseController.value * 0.1);
-                      return Transform.scale(
-                        scale: scale,
-                        child: child,
-                      );
-                    },
-                    child: Container(
-                      width: 55,
-                      height: 55,
-                      decoration: BoxDecoration(
-                        color: Colors.white.withValues(alpha: 0.2),
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      child: const Icon(
-                        Icons.rocket_launch_rounded,
-                        color: Colors.white,
-                        size: 28,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(width: 15),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          AppStrings.practiceWithNatasha.tr,
-                          style: const TextStyle(
-                            fontWeight: FontWeight.w800,
-                            fontSize: 17,
-                            fontFamily: AppStrings.nunitoFont,
-                            color: Colors.white,
-                          ),
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          AppStrings.selectScenarioToStart.tr,
-                          style: TextStyle(
-                            fontWeight: FontWeight.w500,
-                            fontSize: 13,
-                            fontFamily: AppStrings.nunitoFont,
-                            color: Colors.white.withValues(alpha: 0.85),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
+              ],
             ),
-            Positioned(
-              right: 4,
-              top: 4,
-              child: Material(
-                color: Colors.transparent,
-                child: InkWell(
-                  borderRadius: BorderRadius.circular(20),
-                  onTap: () {
-                    HapticFeedback.lightImpact();
-                    globalController.prefs?.setBool(
-                      AppStrings.isShowPracticeTabInfoBanner,
-                      false,
-                    );
-                    setState(() {});
+            child: Row(
+              children: [
+                AnimatedBuilder(
+                  animation: _pulseController,
+                  builder: (context, child) {
+                    final scale = 1.0 + (_pulseController.value * 0.1);
+                    return Transform.scale(scale: scale, child: child);
                   },
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Icon(
-                      Icons.close_rounded,
-                      color: Colors.white.withValues(alpha: 0.7),
-                      size: 20,
+                  child: Container(
+                    width: 72,
+                    height: 72,
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.2),
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(6),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(12),
+                        child: Image.asset(
+                          AppAssets.natashaChat,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                     ),
                   ),
                 ),
-              ),
+                const SizedBox(width: 15),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'freeTalkTitle'.tr,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w800,
+                          fontSize: 17,
+                          fontFamily: AppStrings.nunitoFont,
+                          color: Colors.white,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        'talkAboutAnything'.tr,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          fontSize: 13,
+                          fontFamily: AppStrings.nunitoFont,
+                          color: Colors.white.withValues(alpha: 0.85),
+                        ),
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 10,
+                              vertical: 4,
+                            ),
+                            decoration: BoxDecoration(
+                              color: Colors.white.withValues(alpha: 0.2),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  'practice'.tr,
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 11,
+                                    fontFamily: AppStrings.nunitoFont,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                                const SizedBox(width: 4),
+                                const Icon(
+                                  Icons.arrow_forward_rounded,
+                                  color: Colors.white,
+                                  size: 12,
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                // const SizedBox(width: 8),
+                // const Icon(
+                //   Icons.arrow_forward_rounded,
+                //   color: Colors.white,
+                //   size: 20,
+                // ),
+              ],
             ),
-          ],
+          ),
         ),
       ),
     );
@@ -584,7 +612,9 @@ class DownloadingState extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontFamily: AppStrings.nunitoFont,
-                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.onSurface.withValues(alpha: 0.6),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),

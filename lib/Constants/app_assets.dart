@@ -25,6 +25,7 @@ class AppAssets {
   static String get gemAnimation => _getFullLottiePath("gem.lottie");
   static String get streak => _getFullLottiePath("streak.lottie");  
   static String get freeTalk => _getFullLottiePath("free_talk.lottie");
+  static String get vocabTab => _getFullLottiePath('vocab_tab.lottie');
 
   static String get placeholder => _getFullImagePath("placeholder.png");
 

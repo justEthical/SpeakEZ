@@ -108,7 +108,7 @@ class AppTranslations extends Translations {
           "You have to score more than 80% to unlock the",
       'level': "level",
       'start': "Start",
-      'vocabulary': "Vocalbulary",
+      'vocabulary': "Vocabulary",
       'grammarTips': "Grammer Tips",
       'testYourKnowledge': "Test Your Knowledge",
       'noVocabularyAvailable': "No vocabulary items available",
@@ -222,6 +222,15 @@ class AppTranslations extends Translations {
       'settingsLogoutSubtitle': "Sign out of your account",
       'settingsLevel': "Level",
       'settingsWords': "Words",
+      'vocabularyBuilder': "Vocabulary Builder",
+      'vocabularyBuilderSubtitle':
+          "Practice pronunciation and master new words with confidence.",
+      'pronunciationPractice': "Pronunciation Practice",
+      'pronunciationPracticeSubtitle':
+          "Improve your speaking clarity and sound natural.",
+      'vocabularyPractice': "Vocabulary Practice",
+      'vocabularyPracticeSubtitle':
+          "Learn and review useful words for daily conversations.",
 
       // Preparing Screen
       'preparingTitle': "Creating Your Perfect Learning Plan",
@@ -230,9 +239,9 @@ class AppTranslations extends Translations {
       'extractingLessons': "Setting up your learning content",
       'preparingComplete': "Ready to learn",
       'errorOccurred': "Something went wrong",
-      'downloadError': "Failed to download lessons. Please check your internet connection and try again.",
+      'downloadError':
+          "Failed to download lessons. Please check your internet connection and try again.",
       'retry': "Retry",
-
     },
 
     // ================= JAPANESE =================
@@ -447,6 +456,12 @@ class AppTranslations extends Translations {
       'settingsLogoutSubtitle': "アカウントからログアウト",
       'settingsLevel': "レベル",
       'settingsWords': "単語",
+      'vocabularyBuilder': "語彙ビルダー",
+      'vocabularyBuilderSubtitle': "発音を練習し、新しい単語を自信を持って身につけましょう。",
+      'pronunciationPractice': "発音練習",
+      'pronunciationPracticeSubtitle': "発話の明瞭さを高め、自然な話し方を目指しましょう。",
+      'vocabularyPractice': "語彙練習",
+      'vocabularyPracticeSubtitle': "日常会話で役立つ単語を学び、復習しましょう。",
 
       // Preparing Screen
       'preparingTitle': "あなた専用の学習プランを作成中",
@@ -457,7 +472,6 @@ class AppTranslations extends Translations {
       'errorOccurred': "エラーが発生しました",
       'downloadError': "レッスンのダウンロードに失敗しました。インターネット接続を確認して再試行してください。",
       'retry': "再試行",
-
     },
 
     // ================= Hindi =================
@@ -546,7 +560,8 @@ class AppTranslations extends Translations {
       'progress': "प्रगति",
       'practice': "अभ्यास",
       'freeTalk': "फ्री टॉक",
-      'freeTalkDescription': "अपनी पसंद के किसी भी विषय पर बोलने का अभ्यास करें।",
+      'freeTalkDescription':
+          "अपनी पसंद के किसी भी विषय पर बोलने का अभ्यास करें।",
       'startFreeTalk': "फ्री टॉक शुरू करें",
       'profile': "प्रोफ़ाइल",
       'exit': "निकास",
@@ -680,6 +695,15 @@ class AppTranslations extends Translations {
       'settingsLogoutSubtitle': "अपने खाते से लॉगआउट करें",
       'settingsLevel': "स्तर",
       'settingsWords': "शब्द",
+      'vocabularyBuilder': "शब्दावली बिल्डर",
+      'vocabularyBuilderSubtitle':
+          "उच्चारण का अभ्यास करें और नए शब्द आत्मविश्वास से सीखें।",
+      'pronunciationPractice': "उच्चारण अभ्यास",
+      'pronunciationPracticeSubtitle':
+          "अपनी बोलने की स्पष्टता सुधारें और अधिक स्वाभाविक लगें।",
+      'vocabularyPractice': "शब्दावली अभ्यास",
+      'vocabularyPracticeSubtitle':
+          "दैनिक बातचीत के लिए उपयोगी शब्द सीखें और दोहराएँ।",
 
       // Preparing Screen
       'preparingTitle': "आपके लिए सर्वश्रेष्ठ लर्निंग प्लान बना रहे हैं",
@@ -688,240 +712,251 @@ class AppTranslations extends Translations {
       'extractingLessons': "लर्निंग कंटेंट सेट अप हो रहा है",
       'preparingComplete': "सीखने के लिए तैयार",
       'errorOccurred': "कुछ गड़बड़ हुई",
-      'downloadError': "पाठ डाउनलोड करने में विफल। कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।",
+      'downloadError':
+          "पाठ डाउनलोड करने में विफल। कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।",
       'retry': "पुनः प्रयास करें",
-
     },
 
     // ================ Spanish =================
     'es': {
+      // Login & Auth
+      'login': "Iniciar sesión",
+      'register': "Registrarse",
+      'email': "Correo electrónico",
+      'password': "Contraseña",
+      'confirmPassword': "Confirmar contraseña",
+      'fullName': "Nombre completo",
+      'enterEmail': "Introduzca el correo...",
+      'enterPassword': "Introduzca la contraseña...",
+      'welcomeBack': "Bienvenido de nuevo",
+      'gladToSeeYouAgain': "Nos alegra verte de nuevo",
+      'letsStart': "Comencemos",
+      'createAccountInSimpleSteps': "Crea tu cuenta en simples pasos",
+      'or': "o",
+      'loginWithGoogle': "Iniciar con Google",
+      'registerWithGoogle': "Registrarse con Google",
+      'byContinuingYouAgree': "Al continuar aceptas nuestros ",
+      'termsOfService': "Términos de servicio",
+      'and': " y ",
+      'privacyPolicy': "Política de privacidad",
 
-  // Login & Auth
-  'login': "Iniciar sesión",
-  'register': "Registrarse",
-  'email': "Correo electrónico",
-  'password': "Contraseña",
-  'confirmPassword': "Confirmar contraseña",
-  'fullName': "Nombre completo",
-  'enterEmail': "Introduzca el correo...",
-  'enterPassword': "Introduzca la contraseña...",
-  'welcomeBack': "Bienvenido de nuevo",
-  'gladToSeeYouAgain': "Nos alegra verte de nuevo",
-  'letsStart': "Comencemos",
-  'createAccountInSimpleSteps': "Crea tu cuenta en simples pasos",
-  'or': "o",
-  'loginWithGoogle': "Iniciar con Google",
-  'registerWithGoogle': "Registrarse con Google",
-  'byContinuingYouAgree': "Al continuar aceptas nuestros ",
-  'termsOfService': "Términos de servicio",
-  'and': " y ",
-  'privacyPolicy': "Política de privacidad",
+      // Settings
+      'settings': "Ajustes",
+      'help': "Ayuda",
+      'rateUs': "Califícanos",
+      'rateUsOnGooglePlay': "Califícanos en Google Play",
+      'referToFriend': "Recomendar a un amigo",
+      'shareWithFriends': "Compartir con amigos",
+      'logout': "Cerrar sesión",
+      'deleteAccount': "Eliminar cuenta",
+      'deleteAccountAndData': "Eliminar cuenta y datos",
+      'reauthenticatePrompt': "Por favor vuelve a autenticarte para continuar.",
+      'reauthenticate': "Reautenticar",
+      'error': "Error",
+      'pleaseEnterPassword': "Por favor introduce tu contraseña.",
 
-  // Settings
-  'settings': "Ajustes",
-  'help': "Ayuda",
-  'rateUs': "Califícanos",
-  'rateUsOnGooglePlay': "Califícanos en Google Play",
-  'referToFriend': "Recomendar a un amigo",
-  'shareWithFriends': "Compartir con amigos",
-  'logout': "Cerrar sesión",
-  'deleteAccount': "Eliminar cuenta",
-  'deleteAccountAndData': "Eliminar cuenta y datos",
-  'reauthenticatePrompt': "Por favor vuelve a autenticarte para continuar.",
-  'reauthenticate': "Reautenticar",
-  'error': "Error",
-  'pleaseEnterPassword': "Por favor introduce tu contraseña.",
+      // Home
+      'hi': "Hola",
+      'currentStreak': "Racha actual",
+      'wordsLearned': "Palabras aprendidas",
+      'days': "días",
+      'currentLevel': "Nivel actual",
+      'introduction': "Introducción",
+      'startLearning': "Comenzar a aprender",
+      'continueLearning': "Continuar aprendiendo",
+      'learnByLevel': "Aprender por nivel",
+      'seeAll': "Ver todo",
 
-  // Home
-  'hi': "Hola",
-  'currentStreak': "Racha actual",
-  'wordsLearned': "Palabras aprendidas",
-  'days': "días",
-  'currentLevel': "Nivel actual",
-  'introduction': "Introducción",
-  'startLearning': "Comenzar a aprender",
-  'continueLearning': "Continuar aprendiendo",
-  'learnByLevel': "Aprender por nivel",
-  'seeAll': "Ver todo",
+      // Practice Cards
+      'selectScenario': "Práctica de Escenarios",
+      'practiceRealConversations': "Practica conversaciones reales con IA",
+      'explore': "Explorar",
+      'freeTalkTitle': "Hablar Libremente",
+      'talkAboutAnything': "Habla de cualquier tema con la IA",
+      'startNow': "Comenzar Ahora",
+      'conversationProgress': "Progreso de la Conversación",
+      'lessons': "Lecciones",
+      'levelLessons': "Lecciones del nivel",
+      'completed': "Completado",
+      'retest': "Reevaluar",
+      'close': "Cerrar",
+      'youGot': "Obtuviste: ",
+      'yourCurrentStreakIs': "Tu racha actual es",
 
-  // Practice Cards
-  'selectScenario': "Práctica de Escenarios",
-  'practiceRealConversations': "Practica conversaciones reales con IA",
-  'explore': "Explorar",
-  'freeTalkTitle': "Hablar Libremente",
-  'talkAboutAnything': "Habla de cualquier tema con la IA",
-  'startNow': "Comenzar Ahora",
-  'conversationProgress': "Progreso de la Conversación",
-  'lessons': "Lecciones",
-  'levelLessons': "Lecciones del nivel",
-  'completed': "Completado",
-  'retest': "Reevaluar",
-  'close': "Cerrar",
-  'youGot': "Obtuviste: ",
-  'yourCurrentStreakIs': "Tu racha actual es",
+      // Level Bottom Sheet
+      'a1Beginner': "A1 Principiante",
+      'a1Description': "Comienza a aprender el idioma",
+      'a2Elementary': "A2 Elemental",
+      'a2Description': "Puedes comunicarte con frases sencillas",
+      'b1Intermediate': "B1 Intermedio",
+      'b1Description': "Puedes describir situaciones y expresar ideas",
+      'b2UpperIntermediate': "B2 Intermedio alto",
+      'b2Description':
+          "Puedes entender textos complejos y comunicarte con fluidez",
+      'c1Advanced': "C1 Avanzado",
+      'c1Description': "Puedes comunicarte con hablantes nativos con fluidez",
+      'c2Expert': "C2 Experto",
+      'c2Description': "Manejas el idioma a un nivel casi nativo",
 
-  // Level Bottom Sheet
-  'a1Beginner': "A1 Principiante",
-  'a1Description': "Comienza a aprender el idioma",
-  'a2Elementary': "A2 Elemental",
-  'a2Description': "Puedes comunicarte con frases sencillas",
-  'b1Intermediate': "B1 Intermedio",
-  'b1Description': "Puedes describir situaciones y expresar ideas",
-  'b2UpperIntermediate': "B2 Intermedio alto",
-  'b2Description': "Puedes entender textos complejos y comunicarte con fluidez",
-  'c1Advanced': "C1 Avanzado",
-  'c1Description': "Puedes comunicarte con hablantes nativos con fluidez",
-  'c2Expert': "C2 Experto",
-  'c2Description': "Manejas el idioma a un nivel casi nativo",
+      // Tabs
+      'progress': "Progreso",
+      'practice': "Práctica",
+      'freeTalk': "Conversación libre",
+      'freeTalkDescription':
+          "Practica hablando sobre cualquier tema que prefieras.",
+      'startFreeTalk': "Iniciar conversación libre",
+      'profile': "Perfil",
+      'exit': "Salir",
+      'pressAgainToExit': "Pulsa de nuevo para salir",
 
-  // Tabs
-  'progress': "Progreso",
-  'practice': "Práctica",
-  'freeTalk': "Conversación libre",
-  'freeTalkDescription': "Practica hablando sobre cualquier tema que prefieras.",
-  'startFreeTalk': "Iniciar conversación libre",
-  'profile': "Perfil",
-  'exit': "Salir",
-  'pressAgainToExit': "Pulsa de nuevo para salir",
+      // Onboarding
+      'previous': "Anterior",
+      'next': "Siguiente",
+      'back': "Atrás",
+      'tellUsAboutYourself': "Cuéntanos sobre ti",
+      'helpUsPersonalize': "Ayúdanos a personalizar tu experiencia",
 
-  // Onboarding
-  'previous': "Anterior",
-  'next': "Siguiente",
-  'back': "Atrás",
-  'tellUsAboutYourself': "Cuéntanos sobre ti",
-  'helpUsPersonalize': "Ayúdanos a personalizar tu experiencia",
+      // Lessons
+      'levelUnlockTest': "Prueba de desbloqueo",
+      'welcomeToTheLesson': "Bienvenido a la lección",
+      'unlockTestScoreRequirement':
+          "Necesitas más del 80% para desbloquear este nivel",
+      'level': "Nivel",
+      'start': "Comenzar",
+      'vocabulary': "Vocabulario",
+      'grammarTips': "Consejos de gramática",
+      'testYourKnowledge': "Prueba tus conocimientos",
+      'noVocabularyAvailable': "No hay vocabulario disponible",
+      'noGrammarTipsAvailable': "No hay consejos de gramática disponibles",
+      'autoSpeak': "Lectura automática",
+      'prev': "Anterior",
+      'done': "Listo",
+      'meaning': "Significado:",
+      'exampleSentences': "Frases de ejemplo",
+      'listen': "Escuchar",
+      'check': "Comprobar",
+      'word': "Palabra",
+      'tip': "Consejo",
+      'startQuiz': "Iniciar Quiz",
+      'question': "Pregunta",
 
-  // Lessons
-  'levelUnlockTest': "Prueba de desbloqueo",
-  'welcomeToTheLesson': "Bienvenido a la lección",
-  'unlockTestScoreRequirement': "Necesitas más del 80% para desbloquear este nivel",
-  'level': "Nivel",
-  'start': "Comenzar",
-  'vocabulary': "Vocabulario",
-  'grammarTips': "Consejos de gramática",
-  'testYourKnowledge': "Prueba tus conocimientos",
-  'noVocabularyAvailable': "No hay vocabulario disponible",
-  'noGrammarTipsAvailable': "No hay consejos de gramática disponibles",
-  'autoSpeak': "Lectura automática",
-  'prev': "Anterior",
-  'done': "Listo",
-  'meaning': "Significado:",
-  'exampleSentences': "Frases de ejemplo",
-  'listen': "Escuchar",
-  'check': "Comprobar",
-  'word': "Palabra",
-  'tip': "Consejo",
-  'startQuiz': "Iniciar Quiz",
-  'question': "Pregunta",
+      // Answer Result
+      'correctAnswer': "Respuesta correcta",
+      'wrongAnswer': "Respuesta incorrecta",
 
-  // Answer Result
-  'correctAnswer': "Respuesta correcta",
-  'wrongAnswer': "Respuesta incorrecta",
+      // Lesson Exit Alerts
+      'exitUnlockTestWarning':
+          "Si sales ahora, se dará por terminada la prueba. No podrás volver a intentarla durante 24 horas. ¿Seguro que quieres salir?",
+      'exitLessonConfirmation':
+          "¿Seguro que quieres salir y perder tu progreso actual?",
+      'continueTest': "Continuar prueba",
+      'exitAndDiscard': "Salir y descartar",
 
-  // Lesson Exit Alerts
-  'exitUnlockTestWarning':
-      "Si sales ahora, se dará por terminada la prueba. No podrás volver a intentarla durante 24 horas. ¿Seguro que quieres salir?",
-  'exitLessonConfirmation':
-      "¿Seguro que quieres salir y perder tu progreso actual?",
-  'continueTest': "Continuar prueba",
-  'exitAndDiscard': "Salir y descartar",
+      // Speaking Question
+      'tapToStop': "Toca para detener",
+      'processing': "Procesando...",
+      'listening': "Escuchando...",
 
-  // Speaking Question
-  'tapToStop': "Toca para detener",
-  'processing': "Procesando...",
-  'listening': "Escuchando...",
+      // Result
+      'lessonCompleted': "Lección completada",
+      'accuracy': "Precisión",
+      'timeTaken': "Tiempo usado",
 
-  // Result
-  'lessonCompleted': "Lección completada",
-  'accuracy': "Precisión",
-  'timeTaken': "Tiempo usado",
+      // Practice
+      'speakingPractice': "Práctica de habla",
+      'practiceWithNatasha': "Practicar con Natasha",
+      'selectScenarioToStart': "Selecciona un escenario para comenzar",
+      'downloadingNatashaAI': "Descargando Natasha AI...",
+      'downloadInfo':
+          "La descarga pesa alrededor de 60 MB. Mantén la app abierta.",
+      'gems': "Gemas",
+      'startPractice': "Iniciar práctica",
+      'viewResults': "Ver resultados",
 
-  // Practice
-  'speakingPractice': "Práctica de habla",
-  'practiceWithNatasha': "Practicar con Natasha",
-  'selectScenarioToStart': "Selecciona un escenario para comenzar",
-  'downloadingNatashaAI': "Descargando Natasha AI...",
-  'downloadInfo': "La descarga pesa alrededor de 60 MB. Mantén la app abierta.",
-  'gems': "Gemas",
-  'startPractice': "Iniciar práctica",
-  'viewResults': "Ver resultados",
+      // Chat Exit
+      'exitChatConfirmation': "¿Deseas finalizar la conversación?",
+      'closeAndDiscard': "Cerrar y descartar",
 
-  // Chat Exit
-  'exitChatConfirmation': "¿Deseas finalizar la conversación?",
-  'closeAndDiscard': "Cerrar y descartar",
+      // Practice Result
+      'score': "Puntuación",
+      'fluency': "Fluidez",
+      'grammar': "Gramática",
+      'pronunciationLabel': "Pronunciación",
+      'totalSpeakingTime': "Tiempo total hablando",
+      'suggestion': "Sugerencia",
+      'detailedFeedback': "Retroalimentación detallada",
+      'minutes': "minutos",
 
-  // Practice Result
-  'score': "Puntuación",
-  'fluency': "Fluidez",
-  'grammar': "Gramática",
-  'pronunciationLabel': "Pronunciación",
-  'totalSpeakingTime': "Tiempo total hablando",
-  'suggestion': "Sugerencia",
-  'detailedFeedback': "Retroalimentación detallada",
-  'minutes': "minutos",
+      // Dialogs
+      'areYouSureLogout': "¿Seguro que deseas cerrar sesión?",
+      'yes': "Sí",
+      'cancel': "Cancelar",
+      'openSettings': "Abrir ajustes",
+      'areYouSureDeleteAccount':
+          "¿Seguro que deseas eliminar tu cuenta?\n\nEsta acción es irreversible.",
+      'delete': "Eliminar",
+      'levelLockedMessage':
+          "Este nivel está bloqueado. Completa los niveles anteriores o realiza la prueba para desbloquearlo.",
+      'unlock': "Desbloquear",
+      'view': "Ver",
+      'unlockTest': "Prueba de desbloqueo",
+      'canUnlockIn': "Podrás desbloquear en:",
+      'hours': "horas",
+      'startingPracticeWillUse': "Comenzar esta práctica consumirá 100 gemas.",
+      'watchAdGetGems': "Ver anuncio y obtener 100 gemas",
 
-  // Dialogs
-  'areYouSureLogout': "¿Seguro que deseas cerrar sesión?",
-  'yes': "Sí",
-  'cancel': "Cancelar",
-  'openSettings': "Abrir ajustes",
-  'areYouSureDeleteAccount':
-      "¿Seguro que deseas eliminar tu cuenta?\n\nEsta acción es irreversible.",
-  'delete': "Eliminar",
-  'levelLockedMessage':
-      "Este nivel está bloqueado. Completa los niveles anteriores o realiza la prueba para desbloquearlo.",
-  'unlock': "Desbloquear",
-  'view': "Ver",
-  'unlockTest': "Prueba de desbloqueo",
-  'canUnlockIn': "Podrás desbloquear en:",
-  'hours': "horas",
-  'startingPracticeWillUse': "Comenzar esta práctica consumirá 100 gemas.",
-  'watchAdGetGems': "Ver anuncio y obtener 100 gemas",
+      // Review Screen
+      'pleaseRateYourExperience': "Por favor califica tu experiencia",
+      'didYouLikeTheSession': "¿Te gustó la sesión? 🔥",
+      'yesLovedIt': "¡Sí, estuvo increíble! 💯",
+      'notReally': "No mucho, la verdad",
+      'thankYouFeedback': "¡Gracias por ser honesto! Lo tenemos en cuenta. 🙏",
+      'feedbackDone': "Listo",
 
-  // Review Screen
-  'pleaseRateYourExperience': "Por favor califica tu experiencia",
-  'didYouLikeTheSession': "¿Te gustó la sesión? 🔥",
-  'yesLovedIt': "¡Sí, estuvo increíble! 💯",
-  'notReally': "No mucho, la verdad",
-  'thankYouFeedback': "¡Gracias por ser honesto! Lo tenemos en cuenta. 🙏",
-  'feedbackDone': "Listo",
+      // Free Talk Screen Enhanced
+      'freeTalkWhyTitle': "¿Por qué Conversación Libre?",
+      'freeTalkFeature1Title': "Temas ilimitados",
+      'freeTalkFeature1Desc': "Habla de lo que más te interese",
+      'freeTalkFeature2Title': "Con IA",
+      'freeTalkFeature2Desc': "Conversaciones inteligentes con Natasha AI",
+      'freeTalkFeature3Title': "Retroalimentación instantánea",
+      'freeTalkFeature3Desc': "Consejos en tiempo real para mejorar",
+      'freeTalkTopicsTitle': "¿Necesitas inspiración?",
+      'freeTalkTopic1': "Mis pasatiempos",
+      'freeTalkTopic2': "Planes de viaje",
+      'freeTalkTopic3': "Películas favoritas",
+      'freeTalkTopic4': "Rutina diaria",
+      'freeTalkTopic5': "Trabajo soñado",
+      'freeTalkTopic6': "Planes del fin de semana",
 
-  // Free Talk Screen Enhanced
-  'freeTalkWhyTitle': "¿Por qué Conversación Libre?",
-  'freeTalkFeature1Title': "Temas ilimitados",
-  'freeTalkFeature1Desc': "Habla de lo que más te interese",
-  'freeTalkFeature2Title': "Con IA",
-  'freeTalkFeature2Desc': "Conversaciones inteligentes con Natasha AI",
-  'freeTalkFeature3Title': "Retroalimentación instantánea",
-  'freeTalkFeature3Desc': "Consejos en tiempo real para mejorar",
-  'freeTalkTopicsTitle': "¿Necesitas inspiración?",
-  'freeTalkTopic1': "Mis pasatiempos",
-  'freeTalkTopic2': "Planes de viaje",
-  'freeTalkTopic3': "Películas favoritas",
-  'freeTalkTopic4': "Rutina diaria",
-  'freeTalkTopic5': "Trabajo soñado",
-  'freeTalkTopic6': "Planes del fin de semana",
+      // Settings Screen Enhanced
+      'settingsAppSection': "AJUSTES DE LA APP",
+      'settingsSupportSection': "SOPORTE",
+      'settingsAccountSection': "CUENTA",
+      'settingsLanguage': "Idioma de la app",
+      'settingsLogoutSubtitle': "Cerrar sesión de tu cuenta",
+      'settingsLevel': "Nivel",
+      'settingsWords': "Palabras",
+      'vocabularyBuilder': "Constructor de Vocabulario",
+      'vocabularyBuilderSubtitle':
+          "Practica pronunciación y domina nuevas palabras con confianza.",
+      'pronunciationPractice': "Práctica de Pronunciación",
+      'pronunciationPracticeSubtitle':
+          "Mejora la claridad al hablar y suena más natural.",
+      'vocabularyPractice': "Práctica de Vocabulario",
+      'vocabularyPracticeSubtitle':
+          "Aprende y repasa palabras útiles para conversaciones diarias.",
 
-  // Settings Screen Enhanced
-  'settingsAppSection': "AJUSTES DE LA APP",
-  'settingsSupportSection': "SOPORTE",
-  'settingsAccountSection': "CUENTA",
-  'settingsLanguage': "Idioma de la app",
-  'settingsLogoutSubtitle': "Cerrar sesión de tu cuenta",
-  'settingsLevel': "Nivel",
-  'settingsWords': "Palabras",
-
-  // Preparing Screen
-  'preparingTitle': "Creando tu plan de aprendizaje perfecto",
-  'preparingSubtitle': "Personalizando para ti",
-  'downloadingLessons': "Personalizando lecciones de IA para ti",
-  'extractingLessons': "Configurando tu contenido de aprendizaje",
-  'preparingComplete': "Listo para aprender",
-  'errorOccurred': "Algo salió mal",
-  'downloadError': "Error al descargar las lecciones. Por favor verifica tu conexión a internet e inténtalo de nuevo.",
-  'retry': "Reintentar",
-
-}
-
+      // Preparing Screen
+      'preparingTitle': "Creando tu plan de aprendizaje perfecto",
+      'preparingSubtitle': "Personalizando para ti",
+      'downloadingLessons': "Personalizando lecciones de IA para ti",
+      'extractingLessons': "Configurando tu contenido de aprendizaje",
+      'preparingComplete': "Listo para aprender",
+      'errorOccurred': "Algo salió mal",
+      'downloadError':
+          "Error al descargar las lecciones. Por favor verifica tu conexión a internet e inténtalo de nuevo.",
+      'retry': "Reintentar",
+    },
   };
 }
