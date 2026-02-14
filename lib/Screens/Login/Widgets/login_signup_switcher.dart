@@ -23,7 +23,7 @@ class _LoginSignUpSwitchState extends State<LoginSignUpSwitch> {
         height: 50,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
-            color: Colors.grey.withOpacity(0.2)),
+            color: Colors.grey.withValues(alpha: 0.2)),
         child: Stack(
           children: [
             SizedBox(

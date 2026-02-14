@@ -2,6 +2,7 @@ import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/question_options_controller.dart'
     show QuestionOptionsController;
@@ -16,64 +17,107 @@ class ContinueButton extends StatelessWidget {
     final c = Get.find<QuestionOptionsController>();
     return SafeArea(
       child: Obx(
-        () => ElevatedButton(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Theme.of(context).colorScheme.onSurface,
-            fixedSize: Size(Get.width, 55),
-          ),
-          onPressed:
-              !c.isContinueButtonEnabled.value
-                  ? null
-                  : () async {
-                    switch (question.type) {
-                      case QuestionType.sentenceRearranging:
-                        final isAnswerCorrect = c.comparing2Lists(
-                          c.sentenceRearrangeTempList,
-                          question.answer,
-                        );
-                        _playAudio(isAnswerCorrect, c);
-                        c.showAnswerResultBottomSheet(
-                          isAnswerCorrect: isAnswerCorrect,
-                          correctAnswer: question.answer.join(" "),
-                        );
-                        break;
-                      case QuestionType.speaking:
-                        final speakingAccuracy = c.calculateAccuracy(
-                          question.answer,
-                          globalController.transcriptionText.value.trim(),
-                        );
-                        _playAudio(
-                          c.isSpeakingQuestionAccurate(speakingAccuracy),
-                          c,
-                        );
-                        c.showAnswerResultBottomSheet(
-                          isAnswerCorrect: c.isSpeakingQuestionAccurate(
-                            speakingAccuracy,
-                          ),
-                          correctAnswer: question.answer,
-                        );
-                        break;
-                      default:
-                        final isAnswerCorrect =
-                            c.currentSelectedOptionIndex.value ==
-                            question.answer;
-                        _playAudio(isAnswerCorrect, c);
-                        c.showAnswerResultBottomSheet(
-                          isAnswerCorrect: isAnswerCorrect,
-                          correctAnswer: question.options![question.answer],
-                        );
-                        break;
-                    }
-                  },
-          child: Text(
-            "Check",
-            style: TextStyle(
-              color: Theme.of(context).scaffoldBackgroundColor,
-              fontWeight: FontWeight.w600,
-              fontSize: 15,
+        () {
+          final isEnabled = c.isContinueButtonEnabled.value;
+          return AnimatedContainer(
+            duration: const Duration(milliseconds: 200),
+            width: Get.width,
+            height: 56,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(16),
+              gradient: isEnabled
+                  ? LinearGradient(
+                      colors: [
+                        Theme.of(context).colorScheme.tertiary,
+                        Theme.of(context).colorScheme.tertiary.withValues(alpha: 0.85),
+                      ],
+                    )
+                  : null,
+              color: isEnabled ? null : Colors.grey.shade300,
+              boxShadow: isEnabled
+                  ? [
+                      BoxShadow(
+                        color: Theme.of(context).colorScheme.tertiary.withValues(alpha: 0.35),
+                        blurRadius: 16,
+                        offset: const Offset(0, 6),
+                      ),
+                    ]
+                  : null,
             ),
-          ),
-        ),
+            child: Material(
+              color: Colors.transparent,
+              child: InkWell(
+                onTap: !isEnabled
+                    ? null
+                    : () async {
+                        switch (question.type) {
+                          case QuestionType.sentenceRearranging:
+                            final isAnswerCorrect = c.comparing2Lists(
+                              c.sentenceRearrangeTempList,
+                              question.answer,
+                            );
+                            _playAudio(isAnswerCorrect, c);
+                            c.showAnswerResultBottomSheet(
+                              isAnswerCorrect: isAnswerCorrect,
+                              correctAnswer: question.answer.join(" "),
+                            );
+                            break;
+                          case QuestionType.speaking:
+                            final speakingAccuracy = c.calculateAccuracy(
+                              question.answer,
+                              globalController.transcriptionText.value.trim(),
+                            );
+                            _playAudio(
+                              c.isSpeakingQuestionAccurate(speakingAccuracy),
+                              c,
+                            );
+                            c.showAnswerResultBottomSheet(
+                              isAnswerCorrect: c.isSpeakingQuestionAccurate(
+                                speakingAccuracy,
+                              ),
+                              correctAnswer: question.answer,
+                            );
+                            break;
+                          default:
+                            final isAnswerCorrect =
+                                c.currentSelectedOptionIndex.value ==
+                                question.answer;
+                            _playAudio(isAnswerCorrect, c);
+                            c.showAnswerResultBottomSheet(
+                              isAnswerCorrect: isAnswerCorrect,
+                              correctAnswer: question.options![question.answer],
+                            );
+                            break;
+                        }
+                      },
+                borderRadius: BorderRadius.circular(16),
+                child: Center(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.check_circle_outline_rounded,
+                        color: isEnabled ? Colors.white : Colors.grey.shade500,
+                        size: 22,
+                      ),
+                      const SizedBox(width: 10),
+                      Text(
+                        AppStrings.check.tr,
+                        style: TextStyle(
+                          color: isEnabled ? Colors.white : Colors.grey.shade500,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          fontFamily: AppStrings.poppinsFont,
+                          letterSpacing: 0.5,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          );
+        },
       ),
     );
   }

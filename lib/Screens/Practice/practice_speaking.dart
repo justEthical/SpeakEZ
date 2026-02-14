@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
@@ -6,6 +7,7 @@ import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
+import 'package:speak_ez/Models/scenario_model.dart';
 
 import 'scenarios_list.dart';
 
@@ -16,12 +18,25 @@ class PracticeSpeaking extends StatefulWidget {
   State<PracticeSpeaking> createState() => _PracticeSpeakingState();
 }
 
-class _PracticeSpeakingState extends State<PracticeSpeaking> {
+class _PracticeSpeakingState extends State<PracticeSpeaking>
+    with TickerProviderStateMixin {
   final PracticeController c = Get.find();
+  late AnimationController _staggerController;
 
   @override
   void initState() {
     super.initState();
+    _staggerController = AnimationController(
+      duration: const Duration(milliseconds: 1200),
+      vsync: this,
+    );
+    _staggerController.forward();
+  }
+
+  @override
+  void dispose() {
+    _staggerController.dispose();
+    super.dispose();
   }
 
   @override
@@ -29,36 +44,54 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        title: Text(
-          AppStrings.speakingPractice.tr,
-          style: TextStyle(
-            color: Theme.of(context).textTheme.bodyMedium?.color,
-            fontFamily: AppStrings.nunitoFont,
-            fontWeight: FontWeight.w800,
-            fontSize: 22,
+        title: FadeTransition(
+          opacity: Tween<double>(begin: 0.0, end: 1.0).animate(
+            CurvedAnimation(
+              parent: _staggerController,
+              curve: const Interval(0.0, 0.3, curve: Curves.easeOut),
+            ),
+          ),
+          child: Text(
+            AppStrings.speakingPractice.tr,
+            style: TextStyle(
+              color: Theme.of(context).textTheme.bodyMedium?.color,
+              fontFamily: AppStrings.nunitoFont,
+              fontWeight: FontWeight.w800,
+              fontSize: 18,
+            ),
           ),
         ),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 10.0),
-            child: Row(
-              children: [
-                SizedBox(
-                  width: 18,
-                  height: 30,
-                  child: Image.asset(AppAssets.gem),
+            child: ScaleTransition(
+              scale: Tween<double>(begin: 0.0, end: 1.0).animate(
+                CurvedAnimation(
+                  parent: _staggerController,
+                  curve: const Interval(0.1, 0.4, curve: Curves.elasticOut),
                 ),
-                SizedBox(width: 6),
-                Text(
-                  globalController.userProfile.value.gems.toString(),
-                  style: TextStyle(
-                    color: Theme.of(context).textTheme.bodyMedium?.color,
-                    fontFamily: AppStrings.nunitoFont,
-                    fontWeight: FontWeight.w800,
-                    fontSize: 22,
+              ),
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: 16,
+                    height: 24,
+                    child: Image.asset(AppAssets.gem),
                   ),
-                ),
-              ],
+                  const SizedBox(width: 4),
+                  Obx(
+                    () => Text(
+                      globalController.userProfile.value.gems.toString(),
+                      style: TextStyle(
+                        color: Theme.of(context).textTheme.bodyMedium?.color,
+                        fontFamily: AppStrings.nunitoFont,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
@@ -67,8 +100,10 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _Header(),
-            Expanded(child: ScenarioCategoryGrid()),
+            _AnimatedHeader(controller: _staggerController),
+            Expanded(
+              child: _AnimatedScenarioGrid(controller: _staggerController),
+            ),
           ],
         ),
       ),
@@ -76,55 +111,267 @@ class _PracticeSpeakingState extends State<PracticeSpeaking> {
   }
 }
 
-class ScenarioCategoryGrid extends StatelessWidget {
-  const ScenarioCategoryGrid({super.key});
+class _AnimatedScenarioGrid extends StatelessWidget {
+  final AnimationController controller;
+
+  const _AnimatedScenarioGrid({required this.controller});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-      child: GridView.count(
-        crossAxisCount: 2,
-        crossAxisSpacing: 15,
-        mainAxisSpacing: 15,
-        children: List.generate(
-          AppData.scenarioCategories.length,
-          (index) => Container(
-            decoration: BoxDecoration(
-              border: Border.all(color: Colors.grey, width: 2),
-              color: Theme.of(context).scaffoldBackgroundColor,
-              borderRadius: BorderRadius.circular(15),
-            ),
-            child: InkWell(
-              onTap: () {
-                Get.to(
-                  ScenariosList(
-                    scenarioModel: AppData.scenarioCategories[index],
+      padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+      child: GridView.builder(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          crossAxisSpacing: 15,
+          mainAxisSpacing: 15,
+          childAspectRatio: 0.95,
+        ),
+        itemCount: AppData.scenarioCategories.length,
+        itemBuilder: (context, index) {
+          final delay = 0.2 + (index * 0.08);
+          final endDelay = (delay + 0.4).clamp(0.0, 1.0);
+
+          return AnimatedBuilder(
+            animation: controller,
+            builder: (context, child) {
+              final animation = Tween<double>(begin: 0.0, end: 1.0).animate(
+                CurvedAnimation(
+                  parent: controller,
+                  curve: Interval(
+                    delay.clamp(0.0, 1.0),
+                    endDelay,
+                    curve: Curves.easeOutBack,
                   ),
-                );
-              },
-              child: Padding(
-                padding: EdgeInsetsGeometry.all(10),
+                ),
+              );
+
+              return FadeTransition(
+                opacity: animation,
+                child: SlideTransition(
+                  position: Tween<Offset>(
+                    begin: const Offset(0, 0.3),
+                    end: Offset.zero,
+                  ).animate(animation),
+                  child: child,
+                ),
+              );
+            },
+            child: _ScenarioCategoryCard(
+              category: AppData.scenarioCategories[index],
+              index: index,
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+class _ScenarioCategoryCard extends StatefulWidget {
+  final ScenarioCategoryModel category;
+  final int index;
+
+  const _ScenarioCategoryCard({
+    required this.category,
+    required this.index,
+  });
+
+  @override
+  State<_ScenarioCategoryCard> createState() => _ScenarioCategoryCardState();
+}
+
+class _ScenarioCategoryCardState extends State<_ScenarioCategoryCard>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _scaleController;
+  late Animation<double> _scaleAnimation;
+
+  // Gradient colors for each category
+  static const List<List<Color>> _gradients = [
+    [Color(0xFF667eea), Color(0xFF764ba2)], // Purple
+    [Color(0xFFf093fb), Color(0xFFf5576c)], // Pink
+    [Color(0xFF4facfe), Color(0xFF00f2fe)], // Blue
+    [Color(0xFF43e97b), Color(0xFF38f9d7)], // Green
+    [Color(0xFFfa709a), Color(0xFFfee140)], // Orange-Pink
+    [Color(0xFF30cfd0), Color(0xFF330867)], // Cyan-Purple
+    [Color(0xFFa8edea), Color(0xFFfed6e3)], // Mint-Pink
+    [Color(0xFFffecd2), Color(0xFFfcb69f)], // Peach
+  ];
+
+  @override
+  void initState() {
+    super.initState();
+    _scaleController = AnimationController(
+      duration: const Duration(milliseconds: 150),
+      vsync: this,
+    );
+    _scaleAnimation = Tween<double>(begin: 1.0, end: 0.95).animate(
+      CurvedAnimation(parent: _scaleController, curve: Curves.easeInOut),
+    );
+  }
+
+  @override
+  void dispose() {
+    _scaleController.dispose();
+    super.dispose();
+  }
+
+  void _onTapDown(TapDownDetails details) {
+    _scaleController.forward();
+  }
+
+  void _onTapUp(TapUpDetails details) {
+    _scaleController.reverse();
+  }
+
+  void _onTapCancel() {
+    _scaleController.reverse();
+  }
+
+  void _onTap() {
+    HapticFeedback.lightImpact();
+    Get.to(
+      () => ScenariosList(scenarioModel: widget.category),
+      transition: Transition.cupertino,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final gradientColors = _gradients[widget.index % _gradients.length];
+
+    return AnimatedBuilder(
+      animation: _scaleAnimation,
+      builder: (context, child) {
+        return Transform.scale(
+          scale: _scaleAnimation.value,
+          child: child,
+        );
+      },
+      child: GestureDetector(
+        onTapDown: _onTapDown,
+        onTapUp: _onTapUp,
+        onTapCancel: _onTapCancel,
+        onTap: _onTap,
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            gradient: LinearGradient(
+              colors: gradientColors,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: gradientColors[0].withValues(alpha: 0.3),
+                blurRadius: 12,
+                offset: const Offset(0, 6),
+              ),
+            ],
+          ),
+          child: Stack(
+            children: [
+              // Background pattern
+              Positioned(
+                right: -20,
+                top: -20,
+                child: Container(
+                  width: 80,
+                  height: 80,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.white.withValues(alpha: 0.1),
+                  ),
+                ),
+              ),
+              Positioned(
+                left: -15,
+                bottom: -15,
+                child: Container(
+                  width: 60,
+                  height: 60,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.white.withValues(alpha: 0.08),
+                  ),
+                ),
+              ),
+              // Content
+              Padding(
+                padding: const EdgeInsets.all(16),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Expanded(
-                      child: Hero(
-                        tag: AppData.scenarioCategories[index].title,
-                        child: Image.asset(
-                          AppData.scenarioCategories[index].assetPath,
+                      child: Center(
+                        child: Hero(
+                          tag: widget.category.title,
+                          child: Container(
+                            padding: const EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              color: Colors.white.withValues(alpha: 0.2),
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            child: Image.asset(
+                              widget.category.assetPath,
+                              fit: BoxFit.contain,
+                            ),
+                          ),
                         ),
                       ),
                     ),
-                    SizedBox(height: 8),
+                    const SizedBox(height: 12),
                     Text(
-                      AppData.scenarioCategories[index].title,
-                      textAlign: TextAlign.center,
+                      widget.category.title,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontFamily: AppStrings.nunitoFont,
+                        fontWeight: FontWeight.w700,
+                        height: 1.2,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 4,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.2),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Text(
+                                'practice'.tr,
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 11,
+                                  fontFamily: AppStrings.nunitoFont,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                              const SizedBox(width: 4),
+                              const Icon(
+                                Icons.arrow_forward_rounded,
+                                color: Colors.white,
+                                size: 12,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
               ),
-            ),
+            ],
           ),
         ),
       ),
@@ -132,101 +379,173 @@ class ScenarioCategoryGrid extends StatelessWidget {
   }
 }
 
-class _Header extends StatefulWidget {
-  _Header();
+class _AnimatedHeader extends StatefulWidget {
+  final AnimationController controller;
+
+  const _AnimatedHeader({required this.controller});
 
   @override
-  State<_Header> createState() => _HeaderState();
+  State<_AnimatedHeader> createState() => _AnimatedHeaderState();
 }
 
-class _HeaderState extends State<_Header> {
+class _AnimatedHeaderState extends State<_AnimatedHeader>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _pulseController;
+
+  @override
+  void initState() {
+    super.initState();
+    _pulseController = AnimationController(
+      duration: const Duration(milliseconds: 2000),
+      vsync: this,
+    )..repeat(reverse: true);
+  }
+
+  @override
+  void dispose() {
+    _pulseController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     final isShowPracticeTabInfoBanner =
-        globalController.prefs?.getBool(
-          AppStrings.isShowPracticeTabInfoBanner,
-        ) ??
-        true;
-    return isShowPracticeTabInfoBanner
-        ? Padding(
-          padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Stack(
+        globalController.prefs?.getBool(AppStrings.isShowPracticeTabInfoBanner) ?? true;
+
+    if (!isShowPracticeTabInfoBanner) {
+      return const SizedBox();
+    }
+
+    return AnimatedBuilder(
+      animation: widget.controller,
+      builder: (context, child) {
+        final animation = Tween<double>(begin: 0.0, end: 1.0).animate(
+          CurvedAnimation(
+            parent: widget.controller,
+            curve: const Interval(0.1, 0.5, curve: Curves.easeOutCubic),
+          ),
+        );
+
+        return FadeTransition(
+          opacity: animation,
+          child: SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0, -0.3),
+              end: Offset.zero,
+            ).animate(animation),
+            child: child,
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(20, 15, 20, 10),
+        child: Stack(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(18),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                gradient: LinearGradient(
+                  colors: [
+                    Theme.of(context).colorScheme.primary,
+                    Theme.of(context).colorScheme.primary.withValues(alpha: 0.7),
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
+                    blurRadius: 15,
+                    offset: const Offset(0, 6),
+                  ),
+                ],
+              ),
+              child: Row(
                 children: [
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(15),
-                      color: Theme.of(
-                        context,
-                      ).colorScheme.primary.withValues(alpha: 0.1),
+                  AnimatedBuilder(
+                    animation: _pulseController,
+                    builder: (context, child) {
+                      final scale = 1.0 + (_pulseController.value * 0.1);
+                      return Transform.scale(
+                        scale: scale,
+                        child: child,
+                      );
+                    },
+                    child: Container(
+                      width: 55,
+                      height: 55,
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.2),
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: const Icon(
+                        Icons.rocket_launch_rounded,
+                        color: Colors.white,
+                        size: 28,
+                      ),
                     ),
-                    child: Row(
+                  ),
+                  const SizedBox(width: 15),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        CircleAvatar(
-                          radius: 25,
-                          backgroundColor:
-                              Theme.of(context).colorScheme.primary,
-                          child: Icon(
-                            Icons.rocket_launch_rounded,
-                            color: Theme.of(context).colorScheme.onPrimary,
+                        Text(
+                          AppStrings.practiceWithNatasha.tr,
+                          style: const TextStyle(
+                            fontWeight: FontWeight.w800,
+                            fontSize: 17,
+                            fontFamily: AppStrings.nunitoFont,
+                            color: Colors.white,
                           ),
                         ),
-                        const SizedBox(width: 15),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                AppStrings.practiceWithNatasha.tr,
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w700,
-                                  fontSize: 18,
-                                  fontFamily: AppStrings.nunitoFont,
-                                  color: Theme.of(context).colorScheme.primary,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                AppStrings.selectScenarioToStart.tr,
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 14,
-                                  fontFamily: AppStrings.nunitoFont,
-                                  color: Theme.of(
-                                    context,
-                                  ).colorScheme.onSurface.withOpacity(0.6),
-                                ),
-                              ),
-                            ],
+                        const SizedBox(height: 4),
+                        Text(
+                          AppStrings.selectScenarioToStart.tr,
+                          style: TextStyle(
+                            fontWeight: FontWeight.w500,
+                            fontSize: 13,
+                            fontFamily: AppStrings.nunitoFont,
+                            color: Colors.white.withValues(alpha: 0.85),
                           ),
                         ),
                       ],
                     ),
                   ),
-
-                  Positioned(
-                    right: 0,
-                    child: IconButton(
-                      icon: const Icon(Icons.close),
-                      color: Theme.of(context).colorScheme.primary,
-                      onPressed: () {
-                        globalController.prefs?.setBool(
-                          AppStrings.isShowPracticeTabInfoBanner,
-                          false,
-                        );
-                        setState(() {});
-                      },
-                    ),
-                  ),
                 ],
               ),
-            ],
-          ),
-        )
-        : SizedBox();
+            ),
+            Positioned(
+              right: 4,
+              top: 4,
+              child: Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  borderRadius: BorderRadius.circular(20),
+                  onTap: () {
+                    HapticFeedback.lightImpact();
+                    globalController.prefs?.setBool(
+                      AppStrings.isShowPracticeTabInfoBanner,
+                      false,
+                    );
+                    setState(() {});
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Icon(
+                      Icons.close_rounded,
+                      color: Colors.white.withValues(alpha: 0.7),
+                      size: 20,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
 
@@ -265,9 +584,7 @@ class DownloadingState extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontFamily: AppStrings.nunitoFont,
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.onSurface.withOpacity(0.6),
+                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),
@@ -277,11 +594,15 @@ class DownloadingState extends StatelessWidget {
             Obx(
               () => Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 30.0),
-                child: LinearProgressIndicator(
-                  value: globalController.aiModelDownloadProgress.value / 100,
-                  backgroundColor: Colors.grey.shade300,
-                  valueColor: AlwaysStoppedAnimation<Color>(
-                    Theme.of(context).colorScheme.primary,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: LinearProgressIndicator(
+                    value: globalController.aiModelDownloadProgress.value / 100,
+                    backgroundColor: Colors.grey.shade300,
+                    minHeight: 8,
+                    valueColor: AlwaysStoppedAnimation<Color>(
+                      Theme.of(context).colorScheme.primary,
+                    ),
                   ),
                 ),
               ),

@@ -179,13 +179,6 @@ class GlobalController extends GetxController {
     }
   }
 
-  String getLessonTranslationLanguage() {
-    if (globalController.userProfile.value.motherTongue == "Japanese") {
-      return "Japanese";
-    } else {
-      return "Hindi";
-    }
-  }
 }
 
 GlobalController globalController = GlobalController.instance;

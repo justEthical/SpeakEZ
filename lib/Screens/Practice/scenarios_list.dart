@@ -72,7 +72,8 @@ class ScenariosList extends StatelessWidget {
                               child: Container(
                                 padding: const EdgeInsets.all(5),
                                 decoration: BoxDecoration(
-                                  color: Theme.of(context).colorScheme.onPrimary,
+                                  color:
+                                      Theme.of(context).colorScheme.onPrimary,
                                   shape: BoxShape.circle,
                                 ),
                                 child: Icon(
@@ -123,14 +124,21 @@ class ScenariosList extends StatelessWidget {
           ),
           SliverList(
             delegate: SliverChildBuilderDelegate((context, i) {
-              return Padding(
-                padding: const EdgeInsets.only(
-                  left: 15.0,
-                  right: 15.0,
-                  top: 15.0,
-                ),
-                child: ScenarioCard(scenarioModel: scenarioList[i]),
-              );
+              return scenarioList.length - 1 == i
+                  ? SafeArea(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 15),
+                      child: ScenarioCard(scenarioModel: scenarioList[i]),
+                    ),
+                  )
+                  : Padding(
+                    padding: const EdgeInsets.only(
+                      left: 15.0,
+                      right: 15.0,
+                      top: 15.0,
+                    ),
+                    child: ScenarioCard(scenarioModel: scenarioList[i]),
+                  );
             }, childCount: scenarioList.length),
           ),
         ],

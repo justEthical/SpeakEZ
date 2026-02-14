@@ -9,6 +9,7 @@ import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
+import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Utils/whisper_helper.dart';
@@ -42,6 +43,11 @@ class _TabBarScreenState extends State<TabBarScreen> {
         WhisperHelper.canModelRunOnDevice();
       }
     });
+    // check if gems are lower than 100 then only load rewarded ad
+    // for free talk session
+    if(globalController.userProfile.value.gems < 100){
+      GoogleMobileAdsService.instance.loadRewarded(adUnitId: AppStrings.rewardedAdUnitId);
+    }
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       if (widget.gemEarned != null) {
         Get.to(StreakScreen(gems: widget.gemEarned));
@@ -69,60 +75,62 @@ class _TabBarScreenState extends State<TabBarScreen> {
           physics: NeverScrollableScrollPhysics(),
           children: [HomeScreen(), PracticeSpeaking(), FreeTalk(), SettingScreens()],
         ),
-        bottomNavigationBar: Container(
-          height: 60,
-          margin: EdgeInsets.only(left: 15, right: 15, bottom: 10),
-          decoration: BoxDecoration(
-            color: Theme.of(context).scaffoldBackgroundColor,
-            border: Border.all(color: Colors.grey, width: 0.4),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.grey.withOpacity(0.3),
-                spreadRadius: 2,
-                blurRadius: 2,
-                offset: const Offset(0, 4),
-              ),
-            ],
-            borderRadius: BorderRadius.circular(20),
-          ),
-          child: Obx(
-            () => SalomonBottomBar(
-              currentIndex: globalController.currentTabIndex.value,
-              onTap: (value) {
-                final tabNames = ['progress', 'practice', 'free_talk', 'settings'];
-                PostHogService.instance.capture(
-                  PostHogEvents.tabChanged,
-                  properties: {
-                    'tab_name': tabNames[value],
-                    'tab_index': value,
-                    'screen_name': 'tab_bar_screen',
-                  },
-                );
-                globalController.currentTabIndex.value = value;
-                globalController.cutomTabBarController.jumpToPage(value);
-              },
-              items: [
-                SalomonBottomBarItem(
-                  icon: Icon(Icons.workspace_premium_outlined),
-                  title: Text(AppStrings.progress.tr),
-                  selectedColor: Colors.deepPurple,
-                ),
-                SalomonBottomBarItem(
-                  icon: Icon(Icons.chat_bubble_outline),
-                  title: Text(AppStrings.practice.tr),
-                  selectedColor: Colors.blue,
-                ),
-                SalomonBottomBarItem(
-                  icon: Icon(Icons.record_voice_over_rounded),
-                  title: Text(AppStrings.freeTalk.tr),
-                  selectedColor: Colors.orange,
-                ),
-                SalomonBottomBarItem(
-                  icon: Icon(Icons.settings),
-                  title: Text(AppStrings.profile.tr),
-                  selectedColor: Colors.teal,
+        bottomNavigationBar: SafeArea(
+          child: Container(
+            height: 60,
+            margin: EdgeInsets.only(left: 15, right: 15, bottom: 10),
+            decoration: BoxDecoration(
+              color: Theme.of(context).scaffoldBackgroundColor,
+              border: Border.all(color: Colors.grey, width: 0.4),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.withValues(alpha: 0.3),
+                  spreadRadius: 2,
+                  blurRadius: 2,
+                  offset: const Offset(0, 4),
                 ),
               ],
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Obx(
+              () => SalomonBottomBar(
+                currentIndex: globalController.currentTabIndex.value,
+                onTap: (value) {
+                  final tabNames = ['progress', 'practice', 'free_talk', 'settings'];
+                  PostHogService.instance.capture(
+                    PostHogEvents.tabChanged,
+                    properties: {
+                      'tab_name': tabNames[value],
+                      'tab_index': value,
+                      'screen_name': 'tab_bar_screen',
+                    },
+                  );
+                  globalController.currentTabIndex.value = value;
+                  globalController.cutomTabBarController.jumpToPage(value);
+                },
+                items: [
+                  SalomonBottomBarItem(
+                    icon: Icon(Icons.workspace_premium_outlined),
+                    title: Text(AppStrings.progress.tr),
+                    selectedColor: Colors.deepPurple,
+                  ),
+                  SalomonBottomBarItem(
+                    icon: Icon(Icons.chat_bubble_outline),
+                    title: Text(AppStrings.practice.tr),
+                    selectedColor: Colors.blue,
+                  ),
+                  SalomonBottomBarItem(
+                    icon: Icon(Icons.record_voice_over_rounded),
+                    title: Text(AppStrings.freeTalk.tr),
+                    selectedColor: Colors.orange,
+                  ),
+                  SalomonBottomBarItem(
+                    icon: Icon(Icons.settings),
+                    title: Text(AppStrings.profile.tr),
+                    selectedColor: Colors.teal,
+                  ),
+                ],
+              ),
             ),
           ),
         ),

@@ -68,6 +68,11 @@ class QuestionOptionsController extends GetxController {
   }) async {
     final profile = globalController.userProfile.value;
 
+    // Ensure appDocDirectoryPath is initialized
+    if (globalController.appDocDirectoryPath.isEmpty) {
+      await globalController.getAppDocDirectoryPath();
+    }
+
     // Build the relative core path once (e.g., /lessons/A1/14.json)
     final nextLessonIndex = profile.currentEnglishLevelProgress + 1;
     String corePath = '';
@@ -79,20 +84,14 @@ class QuestionOptionsController extends GetxController {
     }
 
     // Absolute file path in app's documents dir
-    // final storagePath = "${globalController.appDocDirectoryPath}$corePath";
-    // final storageFile = File(storagePath);
+    final storagePath = "${globalController.appDocDirectoryPath}$corePath";
+    final storageFile = File(storagePath);
+
+    debugPrint('Loading lesson from: $storagePath');
 
     try {
-      // // 1) Try app storage override first
-      // if (await storageFile.exists()) {
-      //   final text = await storageFile.readAsString();
-      //   final map = jsonDecode(text) as Map<String, dynamic>;
-      //   return Lesson.fromJson(map);
-      // }
-
-      // 2) Fall back to bundled asset
-      final assetPath = "assets$corePath";
-      final text = await rootBundle.loadString(assetPath);
+      // Load lesson from AppDocDirectory
+      final text = await storageFile.readAsString();
       final map = jsonDecode(text) as Map<String, dynamic>;
       return Lesson.fromJson(map);
     } on FormatException catch (e) {
@@ -100,16 +99,18 @@ class QuestionOptionsController extends GetxController {
       PostHogService.instance.captureError(
         'lesson_load_error',
         errorMessage: "Invalid lesson JSON at $corePath: ${e.message}",
-        location: 'QuestionOptionsController.loadLessonFromStorageOrAsset',
+        location: 'QuestionOptionsController.setCurrentLesson',
         additionalProperties: {'path': corePath},
       );
       throw Exception("Invalid lesson JSON at $corePath: ${e.message}");
     } on FileSystemException catch (e) {
       // IO errors (permissions, missing file when expected, etc.)
+      debugPrint('File error at path: $storagePath - ${e.message}');
       PostHogService.instance.captureError(
         'lesson_load_error',
-        errorMessage: "File error while loading lesson: ${e.message}",
-        location: 'QuestionOptionsController.loadLessonFromStorageOrAsset',
+        errorMessage: "File error while loading lesson at $storagePath: ${e.message}",
+        location: 'QuestionOptionsController.setCurrentLesson',
+        additionalProperties: {'path': storagePath},
       );
       throw Exception("File error while loading lesson: ${e.message}");
     } catch (e) {
@@ -117,7 +118,7 @@ class QuestionOptionsController extends GetxController {
       PostHogService.instance.captureError(
         'lesson_load_error',
         errorMessage: "Unexpected error loading lesson $corePath: $e",
-        location: 'QuestionOptionsController.loadLessonFromStorageOrAsset',
+        location: 'QuestionOptionsController.setCurrentLesson',
         additionalProperties: {'path': corePath},
       );
       throw Exception("Unexpected error loading lesson $corePath: $e");
@@ -132,9 +133,22 @@ class QuestionOptionsController extends GetxController {
 
     final corePath = "/lessons/UnlockLevel/$fileName";
 
+    // Absolute file path in app's documents dir
+    final storagePath = "${globalController.appDocDirectoryPath}$corePath";
+    final storageFile = File(storagePath);
+
     try {
-      final assetPath = "assets$corePath";
-      final text = await rootBundle.loadString(assetPath);
+      String text;
+
+      // 1) Try app storage override first (downloaded lessons with translations)
+      if (await storageFile.exists()) {
+        text = await storageFile.readAsString();
+      } else {
+        // 2) Fall back to bundled asset
+        final assetPath = "assets$corePath";
+        text = await rootBundle.loadString(assetPath);
+      }
+
       final map = jsonDecode(text) as Map<String, dynamic>;
       final lessonModel = Lesson.fromJson(map);
       addQuestionRandomly(lessonModel);
