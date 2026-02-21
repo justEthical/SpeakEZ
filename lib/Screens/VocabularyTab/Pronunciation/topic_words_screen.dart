@@ -144,11 +144,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
     );
     setState(() => _scoreResult = result);
 
-    // Auto-advance on pass if not on last word
-    final words = _vocabController.currentTopicWords.value.words;
-    if (result.isPass && _currentIndex < words.length - 1) {
-      Future.delayed(const Duration(milliseconds: 1600), () {
-        if (mounted) _goTo(_currentIndex + 1);
+    if (result.isPass) {
+      Future.delayed(const Duration(milliseconds: 600), () {
+        if (mounted) _showNextSheet();
       });
     }
   }
@@ -192,11 +190,10 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
     }
   }
 
-  void _showOptions() {
+  void _showNextSheet() {
     final words = _vocabController.currentTopicWords.value.words;
-    final isFirst = _currentIndex == 0;
     final isLast = _currentIndex == words.length - 1;
-    final canAdvance = _scoreResult?.isPass == true;
+    final score = _scoreResult?.score.round() ?? 0;
 
     showModalBottomSheet(
       context: context,
@@ -206,10 +203,11 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
       ),
       builder: (_) => SafeArea(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 24),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
+              // Handle bar
               Container(
                 width: 40,
                 height: 4,
@@ -218,41 +216,70 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                   borderRadius: BorderRadius.circular(2),
                 ),
               ),
-              const SizedBox(height: 20),
-              _BottomSheetOption(
-                label: 'Skip this word',
-                icon: Icons.skip_next_rounded,
-                color: const Color(0xFF6B7280),
-                onTap: () {
-                  Get.back();
-                  _skipWord();
-                },
-              ),
-              if (!isFirst) ...[
-                const SizedBox(height: 10),
-                _BottomSheetOption(
-                  label: 'Previous word',
-                  icon: Icons.arrow_back_ios_new_rounded,
-                  color: widget.accent,
-                  onTap: () {
-                    Get.back();
-                    _goTo(_currentIndex - 1);
-                  },
+              const SizedBox(height: 24),
+              // Score circle
+              Container(
+                width: 72,
+                height: 72,
+                decoration: const BoxDecoration(
+                  color: Color(0xFFD1FAE5),
+                  shape: BoxShape.circle,
                 ),
-              ],
-              const SizedBox(height: 10),
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.check_rounded,
+                          color: Color(0xFF10B981), size: 28),
+                      Text(
+                        '$score',
+                        style: const TextStyle(
+                          color: Color(0xFF10B981),
+                          fontFamily: AppStrings.nunitoFont,
+                          fontWeight: FontWeight.w900,
+                          fontSize: 14,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 14),
+              Text(
+                score >= 90 ? 'Excellent!' : 'Good job!',
+                style: const TextStyle(
+                  color: Color(0xFF101828),
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 20,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                'Pronunciation score: $score / 100',
+                style: TextStyle(
+                  color: const Color(0xFF101828).withValues(alpha: 0.45),
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 13,
+                ),
+              ),
+              const SizedBox(height: 24),
               _BottomSheetOption(
                 label: isLast ? 'Finish' : 'Next word',
-                icon: isLast ? Icons.check_rounded : Icons.arrow_forward_ios_rounded,
-                color: canAdvance ? widget.accent : const Color(0xFFD1D5DB),
-                filled: canAdvance,
-                onTap: canAdvance
-                    ? () {
-                        Get.back();
-                        if (isLast) Get.back();
-                        else _goTo(_currentIndex + 1);
-                      }
-                    : null,
+                icon: isLast
+                    ? Icons.check_rounded
+                    : Icons.arrow_forward_ios_rounded,
+                color: widget.accent,
+                filled: true,
+                onTap: () {
+                  Get.back();
+                  if (isLast) {
+                    Get.back();
+                  } else {
+                    _goTo(_currentIndex + 1);
+                  }
+                },
               ),
             ],
           ),
@@ -300,6 +327,20 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
             ),
           ],
         ),
+        actions: [
+          TextButton(
+            onPressed: _skipWord,
+            child: Text(
+              'Skip',
+              style: TextStyle(
+                color: _ink.withValues(alpha: 0.45),
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w700,
+                fontSize: 14,
+              ),
+            ),
+          ),
+        ],
       ),
       body: Obx(() {
         if (_vocabController.isLoadingTopicWords.value) {
@@ -381,17 +422,13 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
             ),
 
-            // Result panel
+            // Fail message (only shown when answer is wrong)
             AnimatedSize(
               duration: const Duration(milliseconds: 300),
               curve: Curves.easeOutCubic,
-              child: _scoreResult != null
+              child: _scoreResult != null && !_scoreResult!.isPass
                   ? _ResultPanel(
-                      result: _scoreResult!,
                       transcript: _transcript,
-                      accent: widget.accent,
-                      isLast:
-                          _currentIndex == words.length - 1,
                       onTryAgain: () =>
                           setState(() => _scoreResult = null),
                     )
@@ -406,43 +443,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               onMic: _toggleMic,
             ),
 
-            // Options trigger
-            SafeArea(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(0, 0, 0, 14),
-                child: GestureDetector(
-                  onTap: _showOptions,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 10),
-                    decoration: BoxDecoration(
-                      color: widget.accent.withValues(alpha: 0.08),
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(
-                        color: widget.accent.withValues(alpha: 0.18),
-                      ),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(Icons.tune_rounded,
-                            size: 15, color: widget.accent),
-                        const SizedBox(width: 6),
-                        Text(
-                          'Options',
-                          style: TextStyle(
-                            color: widget.accent,
-                            fontFamily: AppStrings.nunitoFont,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 13,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-            ),
+            const SizedBox(height: 8),
           ],
         );
       }),
@@ -852,138 +853,107 @@ class _SpeakButton extends StatelessWidget {
   }
 }
 
-// ─── Result panel ─────────────────────────────────────────────────────────────
+// ─── Result panel (fail state only) ──────────────────────────────────────────
 
 class _ResultPanel extends StatelessWidget {
   const _ResultPanel({
-    required this.result,
     required this.transcript,
-    required this.accent,
-    required this.isLast,
     required this.onTryAgain,
   });
 
-  final PronunciationScoreResult result;
   final String transcript;
-  final Color accent;
-  final bool isLast;
   final VoidCallback onTryAgain;
-
-  Color get _bandColor {
-    if (result.score >= 90) return const Color(0xFF10B981);
-    if (result.score >= 75) return const Color(0xFF3B82F6);
-    if (result.score >= 60) return const Color(0xFFF59E0B);
-    return const Color(0xFFEF4444);
-  }
-
-  IconData get _bandIcon {
-    if (result.score >= 90) return Icons.star_rounded;
-    if (result.score >= 75) return Icons.check_circle_rounded;
-    if (result.score >= 60) return Icons.warning_amber_rounded;
-    return Icons.replay_rounded;
-  }
 
   @override
   Widget build(BuildContext context) {
-    final color = _bandColor;
     return Container(
       margin: const EdgeInsets.fromLTRB(20, 0, 20, 10),
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.08),
+        color: const Color(0xFFFFF7ED),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: color.withValues(alpha: 0.25), width: 1.2),
+        border: Border.all(
+          color: const Color(0xFFF97316).withValues(alpha: 0.30),
+          width: 1.2,
+        ),
       ),
       child: Row(
         children: [
-          // Score circle
+          // Icon
           Container(
-            width: 52,
-            height: 52,
+            width: 48,
+            height: 48,
             decoration: BoxDecoration(
-              color: color.withValues(alpha: 0.12),
+              color: const Color(0xFFF97316).withValues(alpha: 0.12),
               shape: BoxShape.circle,
             ),
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(_bandIcon, color: color, size: 18),
-                  Text(
-                    '${result.score.round()}',
-                    style: TextStyle(
-                      color: color,
-                      fontFamily: AppStrings.nunitoFont,
-                      fontWeight: FontWeight.w900,
-                      fontSize: 13,
-                    ),
-                  ),
-                ],
-              ),
+            child: const Center(
+              child: Icon(Icons.replay_rounded,
+                  color: Color(0xFFEA580C), size: 22),
             ),
           ),
           const SizedBox(width: 12),
-          // Text info
+          // Message
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  result.band,
+                const Text(
+                  'Not quite right!',
                   style: TextStyle(
-                    color: color,
+                    color: Color(0xFF9A3412),
                     fontFamily: AppStrings.nunitoFont,
                     fontWeight: FontWeight.w800,
                     fontSize: 14,
                   ),
                 ),
                 const SizedBox(height: 2),
-                Text(
-                  'You said: "$transcript"',
-                  style: TextStyle(
-                    color: const Color(0xFF101828).withValues(alpha: 0.6),
-                    fontFamily: AppStrings.nunitoFont,
-                    fontWeight: FontWeight.w600,
-                    fontSize: 12,
-                  ),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-                if (result.isPass && !isLast)
+                if (transcript.isNotEmpty)
                   Text(
-                    'Moving to next word…',
-                    style: TextStyle(
-                      color: color,
+                    'You said: "$transcript"',
+                    style: const TextStyle(
+                      color: Color(0xFFC2410C),
                       fontFamily: AppStrings.nunitoFont,
                       fontWeight: FontWeight.w600,
                       fontSize: 12,
                     ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
-              ],
-            ),
-          ),
-          // Try again button (only on fail)
-          if (!result.isPass)
-            GestureDetector(
-              onTap: onTryAgain,
-              child: Container(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  'Retry',
+                const SizedBox(height: 2),
+                const Text(
+                  'Give it another try!',
                   style: TextStyle(
-                    color: color,
+                    color: Color(0xFFC2410C),
                     fontFamily: AppStrings.nunitoFont,
-                    fontWeight: FontWeight.w800,
+                    fontWeight: FontWeight.w600,
                     fontSize: 12,
                   ),
                 ),
+              ],
+            ),
+          ),
+          // Retry button
+          GestureDetector(
+            onTap: onTryAgain,
+            child: Container(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                color: const Color(0xFFF97316).withValues(alpha: 0.14),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: const Text(
+                'Retry',
+                style: TextStyle(
+                  color: Color(0xFF9A3412),
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 12,
+                ),
               ),
             ),
+          ),
         ],
       ),
     );
