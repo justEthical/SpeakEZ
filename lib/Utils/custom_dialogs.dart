@@ -617,7 +617,11 @@ class _DialogButtonState extends State<_DialogButton> {
               },
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 150),
-        transform: Matrix4.identity()..scale(_isPressed ? 0.97 : 1.0),
+        transform: Matrix4.diagonal3Values(
+          _isPressed ? 0.97 : 1.0,
+          _isPressed ? 0.97 : 1.0,
+          1.0,
+        ),
         padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
         decoration: BoxDecoration(
           color:

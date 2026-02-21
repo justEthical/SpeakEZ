@@ -195,7 +195,11 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
             ),
             child: Row(
               children: [
-                SizedBox(width: 16, height: 24, child: Image.asset(AppAssets.gem)),
+                SizedBox(
+                  width: 16,
+                  height: 24,
+                  child: Image.asset(AppAssets.gem),
+                ),
                 const SizedBox(width: 4),
                 Obx(
                   () => Text(

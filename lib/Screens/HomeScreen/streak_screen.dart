@@ -17,73 +17,77 @@ class StreakScreen extends StatelessWidget {
     final profile = globalController.userProfile.value;
 
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Spacer(),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Spacer(),
 
-            /// --- Gems Earned ---
-            gems != null ?  Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                _labelText(context, AppStrings.youGot.tr),
-                _labelText(context, gems.toString()),
-                Image.asset(AppAssets.gem, width: 20, height: 20),
-              ],
-            ): SizedBox(),
+              /// --- Gems Earned ---
+              gems != null
+                  ? Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      _labelText(context, AppStrings.youGot.tr),
+                      _labelText(context, gems.toString()),
+                      Image.asset(AppAssets.gem, width: 20, height: 20),
+                    ],
+                  )
+                  : SizedBox(),
 
-            SizedBox(
-              width: Get.width / 3,
-              height: Get.width / 3,
-              child: Lottie.asset(
-                AppAssets.streak,
-                repeat: true,
-                decoder: globalController.customDecoder,
+              SizedBox(
+                width: Get.width / 3,
+                height: Get.width / 3,
+                child: Lottie.asset(
+                  AppAssets.streak,
+                  repeat: true,
+                  decoder: globalController.customDecoder,
+                ),
               ),
-            ),
 
-            const SizedBox(height: 20),
+              const SizedBox(height: 20),
 
-            /// --- Streak Days ---
-            Text(
-              "${AppStrings.yourCurrentStreakIs.tr} ${profile.currentStreak} ${AppStrings.days.tr}",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: theme,
-                fontSize: 20,
-                fontWeight: FontWeight.w700,
+              /// --- Streak Days ---
+              Text(
+                "${AppStrings.yourCurrentStreakIs.tr} ${profile.currentStreak} ${AppStrings.days.tr}",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: theme,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                ),
               ),
-            ),
 
-            const SizedBox(height: 20),
+              const SizedBox(height: 20),
 
-            /// --- Weekly Calendar ---
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: List.generate(
-                7,
-                (i) {
+              /// --- Weekly Calendar ---
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: List.generate(7, (i) {
                   final weekDate = AppData.getCurrentWeekDates()[i];
                   final today = DateTime(now.year, now.month, now.day);
-                  final tileDate = DateTime(weekDate.year, weekDate.month, weekDate.day);
+                  final tileDate = DateTime(
+                    weekDate.year,
+                    weekDate.month,
+                    weekDate.day,
+                  );
                   return _DayStreakTile(
                     date: weekDate,
-                    completed: profile.weekDaysStreak.toMap().values.toList()[i],
+                    completed:
+                        profile.weekDaysStreak.toMap().values.toList()[i],
                     isFuture: tileDate.isAfter(today),
                     isToday: tileDate.isAtSameMomentAs(today),
                     label: AppData.weekDaysName[i],
                   );
-                },
+                }),
               ),
-            ),
 
-            const Spacer(),
+              const Spacer(),
 
-            /// --- Close Btn ---
-            SafeArea(
-              child: InkWell(
+              /// --- Close Btn ---
+              InkWell(
                 onTap: () => Get.back(),
                 child: Container(
                   padding: const EdgeInsets.all(8),
@@ -104,8 +108,8 @@ class StreakScreen extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

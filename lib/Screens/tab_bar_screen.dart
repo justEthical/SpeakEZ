@@ -8,7 +8,7 @@ import 'package:speak_ez/Screens/HomeScreen/home_screen.dart';
 import 'package:speak_ez/Screens/HomeScreen/streak_screen.dart';
 import 'package:speak_ez/Screens/Practice/practice_speaking.dart';
 import 'package:speak_ez/Screens/SettingsScreen/setting_screens.dart';
-import 'package:speak_ez/Screens/VocabularyBuilder/vocabulary_builder_screen.dart';
+import 'package:speak_ez/Screens/VocabularyTab/vocabulary_builder_screen.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';

@@ -187,5 +187,15 @@ class AppAssets {
   static String get makingBusinessCalls => _getScenarioCategoryPath("making_business_calls.png");
   static String get digitalAddiction => _getScenarioCategoryPath("digital_addiction.jpg");
 
+  // Vocab Tab icons
+  static String get level_1 => _getFullImagePath("level_1.svg");
+  static String get level_2 => _getFullImagePath("level_2.svg");
+  static String get level_3 => _getFullImagePath("level_3.svg");
+  static String get level_4 => _getFullImagePath("level_4.svg");
+  static String get level_5 => _getFullImagePath("level_5.svg");
+  static String get level_6 => _getFullImagePath("level_6.svg");
+
+  static String levelIcon(int index) => _getFullImagePath("level_${index + 1}.svg");
+
   static String get whisperTestAudio => "assets/audio/whisper_test.wav";
 }
