@@ -46,6 +46,13 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
   PronunciationScoreResult? _scoreResult;
   String _transcript = '';
 
+  // Lesson result tracking
+  bool _wordCompleted = false;
+  int _skippedCount = 0;
+  int _perfectCount = 0;
+  int _incorrectCount = 0;
+  bool _showSummary = false;
+
   @override
   void initState() {
     super.initState();
@@ -144,7 +151,15 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
     );
     setState(() => _scoreResult = result);
 
-    if (result.isPass) {
+    if (result.isPass && !_wordCompleted) {
+      setState(() {
+        _wordCompleted = true;
+        if (result.score >= 90) {
+          _perfectCount++;
+        } else {
+          _incorrectCount++;
+        }
+      });
       Future.delayed(const Duration(milliseconds: 600), () {
         if (mounted) _showNextSheet();
       });
@@ -175,6 +190,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
       _transcript = '';
       _isListening = false;
       _isSpeaking = false;
+      _wordCompleted = false;
     });
     ttsHelper.stop();
     if (_speechService.isListening) _speechService.stopListening();
@@ -182,12 +198,41 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
   }
 
   void _skipWord() {
+    if (_wordCompleted) return;
     final words = _vocabController.currentTopicWords.value.words;
+    setState(() {
+      _skippedCount++;
+      _wordCompleted = true;
+    });
     if (_currentIndex < words.length - 1) {
       _goTo(_currentIndex + 1);
     } else {
-      Get.back();
+      setState(() => _showSummary = true);
     }
+  }
+
+  void _resetLesson() {
+    ttsHelper.stop();
+    if (_speechService.isListening) _speechService.stopListening();
+    setState(() {
+      _currentIndex = 0;
+      _skippedCount = 0;
+      _perfectCount = 0;
+      _incorrectCount = 0;
+      _showSummary = false;
+      _scoreResult = null;
+      _transcript = '';
+      _isListening = false;
+      _isSpeaking = false;
+      _wordCompleted = false;
+    });
+    // PageView is re-attached on the next frame after _showSummary = false
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        _pageController.jumpToPage(0);
+        _autoSpeak();
+      }
+    });
   }
 
   void _showNextSheet() {
@@ -266,16 +311,16 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
               const SizedBox(height: 24),
               _BottomSheetOption(
-                label: isLast ? 'Finish' : 'Next word',
+                label: isLast ? 'See Results' : 'Next word',
                 icon: isLast
-                    ? Icons.check_rounded
+                    ? Icons.bar_chart_rounded
                     : Icons.arrow_forward_ios_rounded,
                 color: widget.accent,
                 filled: true,
                 onTap: () {
                   Get.back();
                   if (isLast) {
-                    Get.back();
+                    setState(() => _showSummary = true);
                   } else {
                     _goTo(_currentIndex + 1);
                   }
@@ -283,6 +328,124 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
             ],
           ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSummaryView(int totalWords) {
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+        child: Column(
+          children: [
+            const Spacer(flex: 2),
+
+            // Trophy icon
+            Container(
+              width: 100,
+              height: 100,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [widget.accent, widget.accent.withValues(alpha: 0.7)],
+                ),
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: widget.accent.withValues(alpha: 0.35),
+                    blurRadius: 28,
+                    offset: const Offset(0, 10),
+                  ),
+                ],
+              ),
+              child: const Icon(Icons.emoji_events_rounded,
+                  color: Colors.white, size: 50),
+            ),
+
+            const SizedBox(height: 22),
+
+            const Text(
+              'Lesson Complete!',
+              style: TextStyle(
+                color: _ink,
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w900,
+                fontSize: 26,
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              widget.topicName,
+              style: TextStyle(
+                color: _ink.withValues(alpha: 0.45),
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w600,
+                fontSize: 15,
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              '$totalWords word${totalWords == 1 ? '' : 's'} completed',
+              style: TextStyle(
+                color: _ink.withValues(alpha: 0.3),
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w600,
+                fontSize: 13,
+              ),
+            ),
+
+            const SizedBox(height: 32),
+
+            // Stat cards
+            Row(
+              children: [
+                _StatCard(
+                  icon: Icons.star_rounded,
+                  color: const Color(0xFF10B981),
+                  value: _perfectCount,
+                  label: 'Perfect',
+                ),
+                const SizedBox(width: 12),
+                _StatCard(
+                  icon: Icons.close_rounded,
+                  color: const Color(0xFFEF4444),
+                  value: _incorrectCount,
+                  label: 'Incorrect',
+                ),
+                const SizedBox(width: 12),
+                _StatCard(
+                  icon: Icons.skip_next_rounded,
+                  color: const Color(0xFF9CA3AF),
+                  value: _skippedCount,
+                  label: 'Skipped',
+                ),
+              ],
+            ),
+
+            const Spacer(flex: 3),
+
+            // Try Again
+            _BottomSheetOption(
+              label: 'Try Again',
+              icon: Icons.replay_rounded,
+              color: widget.accent,
+              filled: true,
+              onTap: _resetLesson,
+            ),
+            const SizedBox(height: 12),
+
+            // Exit
+            _BottomSheetOption(
+              label: 'Exit Lesson',
+              icon: Icons.exit_to_app_rounded,
+              color: const Color(0xFF6B7280),
+              onTap: () => Get.back(),
+            ),
+
+            const SizedBox(height: 8),
+          ],
         ),
       ),
     );
@@ -327,20 +490,22 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
             ),
           ],
         ),
-        actions: [
-          TextButton(
-            onPressed: _skipWord,
-            child: Text(
-              'Skip',
-              style: TextStyle(
-                color: _ink.withValues(alpha: 0.45),
-                fontFamily: AppStrings.nunitoFont,
-                fontWeight: FontWeight.w700,
-                fontSize: 14,
-              ),
-            ),
-          ),
-        ],
+        actions: _showSummary
+            ? const []
+            : [
+                TextButton(
+                  onPressed: _skipWord,
+                  child: Text(
+                    'Skip',
+                    style: TextStyle(
+                      color: _ink.withValues(alpha: 0.45),
+                      fontFamily: AppStrings.nunitoFont,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 14,
+                    ),
+                  ),
+                ),
+              ],
       ),
       body: Obx(() {
         if (_vocabController.isLoadingTopicWords.value) {
@@ -362,6 +527,10 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
             ),
           );
+        }
+
+        if (_showSummary) {
+          return _buildSummaryView(words.length);
         }
 
         return Column(
@@ -1080,6 +1249,76 @@ class _SentenceRow extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+// ─── Stat card (summary screen) ───────────────────────────────────────────────
+
+class _StatCard extends StatelessWidget {
+  const _StatCard({
+    required this.icon,
+    required this.color,
+    required this.value,
+    required this.label,
+  });
+
+  final IconData icon;
+  final Color color;
+  final int value;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 20),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.05),
+              blurRadius: 10,
+              offset: const Offset(0, 3),
+            ),
+          ],
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.12),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: color, size: 22),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              '$value',
+              style: TextStyle(
+                color: color,
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w900,
+                fontSize: 24,
+              ),
+            ),
+            const SizedBox(height: 2),
+            Text(
+              label,
+              style: const TextStyle(
+                color: Color(0xFF6B7280),
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w600,
+                fontSize: 11,
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
