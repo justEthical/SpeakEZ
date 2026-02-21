@@ -28,9 +28,6 @@ class TopicWordsScreen extends StatefulWidget {
 
 class _TopicWordsScreenState extends State<TopicWordsScreen>
     with SingleTickerProviderStateMixin {
-  static const Color _ink = Color(0xFF101828);
-  static const Color _surface = Color(0xFFF7F8FC);
-
   final _vocabController = Get.find<VocabularyTabController>();
   final _pageController = PageController();
   final _speechService = SpeechService();
@@ -239,10 +236,12 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
     final words = _vocabController.currentTopicWords.value.words;
     final isLast = _currentIndex == words.length - 1;
     final score = _scoreResult?.score.round() ?? 0;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final sheetBg = Theme.of(context).colorScheme.onSecondary;
 
     showModalBottomSheet(
       context: context,
-      backgroundColor: Colors.white,
+      backgroundColor: sheetBg,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
@@ -257,7 +256,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                 width: 40,
                 height: 4,
                 decoration: BoxDecoration(
-                  color: const Color(0xFFE5E7EB),
+                  color: isDark
+                      ? Colors.white.withValues(alpha: 0.15)
+                      : const Color(0xFFE5E7EB),
                   borderRadius: BorderRadius.circular(2),
                 ),
               ),
@@ -291,9 +292,11 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
               const SizedBox(height: 14),
               Text(
-                score >= 90 ? 'Excellent!' : 'Good job!',
-                style: const TextStyle(
-                  color: Color(0xFF101828),
+                score >= 90
+                    ? AppStrings.vocabExcellent.tr
+                    : AppStrings.vocabGoodJob.tr,
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.onSurface,
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w800,
                   fontSize: 20,
@@ -301,9 +304,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
               const SizedBox(height: 4),
               Text(
-                'Pronunciation score: $score / 100',
+                '${AppStrings.vocabPronunciationScore.tr}: $score / 100',
                 style: TextStyle(
-                  color: const Color(0xFF101828).withValues(alpha: 0.45),
+                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.45),
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w600,
                   fontSize: 13,
@@ -311,7 +314,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               ),
               const SizedBox(height: 24),
               _BottomSheetOption(
-                label: isLast ? 'See Results' : 'Next word',
+                label: isLast
+                    ? AppStrings.vocabSeeResults.tr
+                    : AppStrings.vocabNextWord.tr,
                 icon: isLast
                     ? Icons.bar_chart_rounded
                     : Icons.arrow_forward_ios_rounded,
@@ -334,6 +339,8 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
   }
 
   Widget _buildSummaryView(int totalWords) {
+    final ink = Theme.of(context).colorScheme.onSurface;
+
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
@@ -366,10 +373,10 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
 
             const SizedBox(height: 22),
 
-            const Text(
-              'Lesson Complete!',
+            Text(
+              AppStrings.vocabLessonComplete.tr,
               style: TextStyle(
-                color: _ink,
+                color: ink,
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w900,
                 fontSize: 26,
@@ -379,7 +386,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
             Text(
               widget.topicName,
               style: TextStyle(
-                color: _ink.withValues(alpha: 0.45),
+                color: ink.withValues(alpha: 0.45),
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w600,
                 fontSize: 15,
@@ -387,9 +394,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
             ),
             const SizedBox(height: 8),
             Text(
-              '$totalWords word${totalWords == 1 ? '' : 's'} completed',
+              '$totalWords ${AppStrings.vocabWordsCompleted.tr}',
               style: TextStyle(
-                color: _ink.withValues(alpha: 0.3),
+                color: ink.withValues(alpha: 0.3),
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w600,
                 fontSize: 13,
@@ -405,21 +412,21 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                   icon: Icons.star_rounded,
                   color: const Color(0xFF10B981),
                   value: _perfectCount,
-                  label: 'Perfect',
+                  label: AppStrings.vocabPerfect.tr,
                 ),
                 const SizedBox(width: 12),
                 _StatCard(
                   icon: Icons.close_rounded,
                   color: const Color(0xFFEF4444),
                   value: _incorrectCount,
-                  label: 'Incorrect',
+                  label: AppStrings.vocabIncorrect.tr,
                 ),
                 const SizedBox(width: 12),
                 _StatCard(
                   icon: Icons.skip_next_rounded,
                   color: const Color(0xFF9CA3AF),
                   value: _skippedCount,
-                  label: 'Skipped',
+                  label: AppStrings.vocabSkipped.tr,
                 ),
               ],
             ),
@@ -428,7 +435,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
 
             // Try Again
             _BottomSheetOption(
-              label: 'Try Again',
+              label: AppStrings.vocabTryAgain.tr,
               icon: Icons.replay_rounded,
               color: widget.accent,
               filled: true,
@@ -438,7 +445,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
 
             // Exit
             _BottomSheetOption(
-              label: 'Exit Lesson',
+              label: AppStrings.vocabExitLesson.tr,
               icon: Icons.exit_to_app_rounded,
               color: const Color(0xFF6B7280),
               onTap: () => Get.back(),
@@ -458,22 +465,23 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
 
   @override
   Widget build(BuildContext context) {
+    final ink = Theme.of(context).colorScheme.onSurface;
+
     return Scaffold(
-      backgroundColor: _surface,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
           onPressed: () => Get.back(),
-          icon: const Icon(Icons.arrow_back_ios_new_rounded, color: _ink),
+          icon: Icon(Icons.arrow_back_ios_new_rounded, color: ink),
         ),
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               widget.topicName,
-              style: const TextStyle(
-                color: _ink,
+              style: TextStyle(
+                color: ink,
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w800,
                 fontSize: 16,
@@ -482,7 +490,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
             Text(
               widget.levelCode,
               style: TextStyle(
-                color: _ink.withValues(alpha: 0.45),
+                color: ink.withValues(alpha: 0.45),
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w600,
                 fontSize: 12,
@@ -496,9 +504,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                 TextButton(
                   onPressed: _skipWord,
                   child: Text(
-                    'Skip',
+                    AppStrings.vocabSkip.tr,
                     style: TextStyle(
-                      color: _ink.withValues(alpha: 0.45),
+                      color: ink.withValues(alpha: 0.45),
                       fontFamily: AppStrings.nunitoFont,
                       fontWeight: FontWeight.w700,
                       fontSize: 14,
@@ -519,9 +527,9 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
         if (words.isEmpty) {
           return Center(
             child: Text(
-              'No words found for this topic.',
+              AppStrings.vocabNoWordsFound.tr,
               style: TextStyle(
-                color: _ink.withValues(alpha: 0.5),
+                color: ink.withValues(alpha: 0.5),
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w600,
               ),
@@ -637,10 +645,12 @@ class _WordCard extends StatelessWidget {
   final VoidCallback onSpeak;
   final VoidCallback onSpeakSlow;
 
-  static const Color _ink = Color(0xFF101828);
-
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final cardBg = Theme.of(context).colorScheme.onSecondary;
+    final ink = Theme.of(context).colorScheme.onSurface;
+
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
       child: Column(
@@ -651,11 +661,11 @@ class _WordCard extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: cardBg,
               borderRadius: BorderRadius.circular(20),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withValues(alpha: 0.05),
+                  color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
                   blurRadius: 16,
                   offset: const Offset(0, 4),
                 ),
@@ -679,7 +689,7 @@ class _WordCard extends StatelessWidget {
                 Text(
                   word.phoneticRespelling,
                   style: TextStyle(
-                    color: _ink.withValues(alpha: 0.4),
+                    color: ink.withValues(alpha: 0.4),
                     fontFamily: AppStrings.nunitoFont,
                     fontWeight: FontWeight.w600,
                     fontSize: 16,
@@ -708,14 +718,14 @@ class _WordCard extends StatelessWidget {
 
                 // Speak buttons
                 const SizedBox(height: 16),
-                Divider(height: 1, color: _ink.withValues(alpha: 0.06)),
+                Divider(height: 1, color: ink.withValues(alpha: 0.06)),
                 const SizedBox(height: 14),
                 Row(
                   children: [
                     Expanded(
                       child: _SpeakButton(
                         icon: Icons.volume_up_rounded,
-                        label: 'Speak',
+                        label: AppStrings.vocabSpeak.tr,
                         accent: accent,
                         disabled: isSpeaking,
                         onTap: onSpeak,
@@ -725,7 +735,7 @@ class _WordCard extends StatelessWidget {
                     Expanded(
                       child: _SpeakButton(
                         icon: Icons.slow_motion_video_rounded,
-                        label: 'Slow',
+                        label: AppStrings.vocabSlow.tr,
                         accent: accent,
                         disabled: isSpeaking,
                         onTap: onSpeakSlow,
@@ -741,15 +751,15 @@ class _WordCard extends StatelessWidget {
 
           // Definition
           _InfoBlock(
-            label: 'Definition',
+            label: AppStrings.vocabDefinition.tr,
             accent: accent,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   word.definition,
-                  style: const TextStyle(
-                    color: _ink,
+                  style: TextStyle(
+                    color: ink,
                     fontFamily: AppStrings.nunitoFont,
                     fontWeight: FontWeight.w600,
                     fontSize: 14,
@@ -761,7 +771,7 @@ class _WordCard extends StatelessWidget {
                   Text(
                     word.definationTranslation,
                     style: TextStyle(
-                      color: _ink.withValues(alpha: 0.5),
+                      color: ink.withValues(alpha: 0.5),
                       fontFamily: AppStrings.nunitoFont,
                       fontWeight: FontWeight.w500,
                       fontSize: 13,
@@ -778,7 +788,7 @@ class _WordCard extends StatelessWidget {
           // Example sentences
           if (word.sentences.isNotEmpty)
             _InfoBlock(
-              label: 'Examples',
+              label: AppStrings.vocabExamples.tr,
               accent: accent,
               child: Column(
                 children: [
@@ -821,7 +831,7 @@ class _ActionRow extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 4, 20, 12),
       child: Center(
-        child: isListening ? _buildListening() : _buildIdle(),
+        child: isListening ? _buildListening(context) : _buildIdle(),
       ),
     );
   }
@@ -856,7 +866,7 @@ class _ActionRow extends StatelessWidget {
         ),
         const SizedBox(height: 16),
         Text(
-          'Tap to speak',
+          AppStrings.vocabTapToSpeak.tr,
           style: TextStyle(
             color: accent,
             fontFamily: AppStrings.nunitoFont,
@@ -868,7 +878,7 @@ class _ActionRow extends StatelessWidget {
     );
   }
 
-  Widget _buildListening() {
+  Widget _buildListening(BuildContext context) {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -885,7 +895,7 @@ class _ActionRow extends StatelessWidget {
               Icon(Icons.touch_app_rounded, size: 16, color: accent),
               const SizedBox(width: 6),
               Text(
-                'Tap to stop',
+                AppStrings.tapToStop.tr,
                 style: TextStyle(
                   color: accent,
                   fontFamily: AppStrings.nunitoFont,
@@ -956,7 +966,7 @@ class _ActionRow extends StatelessWidget {
                 ),
               ),
               Text(
-                'Listening',
+                AppStrings.vocabListening.tr,
                 style: TextStyle(
                   color: Colors.red.shade700,
                   fontFamily: AppStrings.nunitoFont,
@@ -1067,9 +1077,9 @@ class _ResultPanel extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'Not quite right!',
-                  style: TextStyle(
+                Text(
+                  AppStrings.vocabNotQuiteRight.tr,
+                  style: const TextStyle(
                     color: Color(0xFF9A3412),
                     fontFamily: AppStrings.nunitoFont,
                     fontWeight: FontWeight.w800,
@@ -1079,7 +1089,7 @@ class _ResultPanel extends StatelessWidget {
                 const SizedBox(height: 2),
                 if (transcript.isNotEmpty)
                   Text(
-                    'You said: "$transcript"',
+                    '${AppStrings.vocabYouSaid.tr} "$transcript"',
                     style: const TextStyle(
                       color: Color(0xFFC2410C),
                       fontFamily: AppStrings.nunitoFont,
@@ -1090,9 +1100,9 @@ class _ResultPanel extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                 const SizedBox(height: 2),
-                const Text(
-                  'Give it another try!',
-                  style: TextStyle(
+                Text(
+                  AppStrings.vocabGiveItAnotherTry.tr,
+                  style: const TextStyle(
                     color: Color(0xFFC2410C),
                     fontFamily: AppStrings.nunitoFont,
                     fontWeight: FontWeight.w600,
@@ -1112,9 +1122,9 @@ class _ResultPanel extends StatelessWidget {
                 color: const Color(0xFFF97316).withValues(alpha: 0.14),
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: const Text(
-                'Retry',
-                style: TextStyle(
+              child: Text(
+                'retry'.tr,
+                style: const TextStyle(
                   color: Color(0xFF9A3412),
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w800,
@@ -1144,15 +1154,18 @@ class _InfoBlock extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final cardBg = Theme.of(context).colorScheme.onSecondary;
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: cardBg,
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.04),
+            color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.04),
             blurRadius: 10,
             offset: const Offset(0, 3),
           ),
@@ -1179,80 +1192,6 @@ class _InfoBlock extends StatelessWidget {
   }
 }
 
-// ─── Sentence row ─────────────────────────────────────────────────────────────
-
-class _SentenceRow extends StatelessWidget {
-  const _SentenceRow({
-    required this.sentence,
-    required this.accent,
-    required this.index,
-  });
-
-  final VocabSentence sentence;
-  final Color accent;
-  final int index;
-
-  static const Color _ink = Color(0xFF101828);
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Container(
-          margin: const EdgeInsets.only(top: 3),
-          width: 20,
-          height: 20,
-          decoration: BoxDecoration(
-            color: accent.withValues(alpha: 0.10),
-            shape: BoxShape.circle,
-          ),
-          child: Center(
-            child: Text(
-              '${index + 1}',
-              style: TextStyle(
-                color: accent,
-                fontFamily: AppStrings.nunitoFont,
-                fontWeight: FontWeight.w800,
-                fontSize: 11,
-              ),
-            ),
-          ),
-        ),
-        const SizedBox(width: 10),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                sentence.sentence,
-                style: const TextStyle(
-                  color: _ink,
-                  fontFamily: AppStrings.nunitoFont,
-                  fontWeight: FontWeight.w700,
-                  fontSize: 14,
-                  height: 1.4,
-                ),
-              ),
-              const SizedBox(height: 2),
-              Text(
-                sentence.translation,
-                style: TextStyle(
-                  color: _ink.withValues(alpha: 0.5),
-                  fontFamily: AppStrings.nunitoFont,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 13,
-                  height: 1.4,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ],
-    );
-  }
-}
-
 // ─── Stat card (summary screen) ───────────────────────────────────────────────
 
 class _StatCard extends StatelessWidget {
@@ -1270,15 +1209,19 @@ class _StatCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final cardBg = Theme.of(context).colorScheme.onSecondary;
+    final labelColor = Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.45);
+
     return Expanded(
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 20),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: cardBg,
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withValues(alpha: 0.05),
+              color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
               blurRadius: 10,
               offset: const Offset(0, 3),
             ),
@@ -1309,8 +1252,8 @@ class _StatCard extends StatelessWidget {
             const SizedBox(height: 2),
             Text(
               label,
-              style: const TextStyle(
-                color: Color(0xFF6B7280),
+              style: TextStyle(
+                color: labelColor,
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w600,
                 fontSize: 11,
@@ -1376,6 +1319,80 @@ class _BottomSheetOption extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+// ─── Sentence row ─────────────────────────────────────────────────────────────
+
+class _SentenceRow extends StatelessWidget {
+  const _SentenceRow({
+    required this.sentence,
+    required this.accent,
+    required this.index,
+  });
+
+  final VocabSentence sentence;
+  final Color accent;
+  final int index;
+
+  @override
+  Widget build(BuildContext context) {
+    final ink = Theme.of(context).colorScheme.onSurface;
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          margin: const EdgeInsets.only(top: 3),
+          width: 20,
+          height: 20,
+          decoration: BoxDecoration(
+            color: accent.withValues(alpha: 0.10),
+            shape: BoxShape.circle,
+          ),
+          child: Center(
+            child: Text(
+              '${index + 1}',
+              style: TextStyle(
+                color: accent,
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w800,
+                fontSize: 11,
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                sentence.sentence,
+                style: TextStyle(
+                  color: ink,
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w700,
+                  fontSize: 14,
+                  height: 1.4,
+                ),
+              ),
+              const SizedBox(height: 2),
+              Text(
+                sentence.translation,
+                style: TextStyle(
+                  color: ink.withValues(alpha: 0.5),
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w500,
+                  fontSize: 13,
+                  height: 1.4,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }

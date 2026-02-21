@@ -182,6 +182,40 @@ class AppStrings {
 
   // Review Screen
   static const String pleaseRateYourExperience = "pleaseRateYourExperience";
+
+  // Vocabulary Flow
+  static const String vocabPickEra = "vocabPickEra";
+  static const String vocabPickEraSubtitle = "vocabPickEraSubtitle";
+  static const String vocabSelected = "vocabSelected";
+  static const String vocabTapToSelect = "vocabTapToSelect";
+  static const String vocabDay = "vocabDay";
+  static const String vocabDays = "vocabDays";
+  static const String vocabTopics = "vocabTopics";
+  static const String vocabTopicsDone = "vocabTopicsDone";
+  static const String vocabNoWordsFound = "vocabNoWordsFound";
+  static const String vocabTapToSpeak = "vocabTapToSpeak";
+  static const String vocabListening = "vocabListening";
+  static const String vocabSpeak = "vocabSpeak";
+  static const String vocabSlow = "vocabSlow";
+  static const String vocabDefinition = "vocabDefinition";
+  static const String vocabExamples = "vocabExamples";
+  static const String vocabNotQuiteRight = "vocabNotQuiteRight";
+  static const String vocabYouSaid = "vocabYouSaid";
+  static const String vocabGiveItAnotherTry = "vocabGiveItAnotherTry";
+  static const String vocabNextWord = "vocabNextWord";
+  static const String vocabSeeResults = "vocabSeeResults";
+  static const String vocabExcellent = "vocabExcellent";
+  static const String vocabGoodJob = "vocabGoodJob";
+  static const String vocabPronunciationScore = "vocabPronunciationScore";
+  static const String vocabLessonComplete = "vocabLessonComplete";
+  static const String vocabWordsCompleted = "vocabWordsCompleted";
+  static const String vocabTryAgain = "vocabTryAgain";
+  static const String vocabExitLesson = "vocabExitLesson";
+  static const String vocabPerfect = "vocabPerfect";
+  static const String vocabIncorrect = "vocabIncorrect";
+  static const String vocabSkip = "vocabSkip";
+  static const String vocabSkipped = "vocabSkipped";
+
   static const String vocabularyBuilder = "vocabularyBuilder";
   static const String vocabularyBuilderSubtitle = "vocabularyBuilderSubtitle";
   static const String pronunciationPractice = "pronunciationPractice";

@@ -20,8 +20,6 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   final c = Get.put(VocabularyTabController());
 
   int _selectedIndex = 0;
-  static const Color _ink = Color(0xFF101828);
-  static const Color _surface = Color(0xFFF7F8FC);
   static const List<Color> _selectedGradient = [
     Color(0xFF0EA5E9),
     Color(0xFF2563EB),
@@ -30,22 +28,24 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   @override
   Widget build(BuildContext context) {
     PostHogService.instance.captureScreenView('pronunciation_intro_screen');
+    final colorScheme = Theme.of(context).colorScheme;
+    final ink = colorScheme.onSurface;
+
     return Scaffold(
-      backgroundColor: _surface,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
           onPressed: () => Get.back(),
-          icon: const Icon(
+          icon: Icon(
             Icons.arrow_back_ios_new_rounded,
-            color: _ink,
-          )
+            color: ink,
+          ),
         ),
         title: Text(
           AppStrings.pronunciationPractice.tr,
-          style: const TextStyle(
-            color: _ink,
+          style: TextStyle(
+            color: ink,
             fontFamily: AppStrings.nunitoFont,
             fontWeight: FontWeight.w800,
           ),
@@ -101,22 +101,22 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                         ),
                       ],
                     ),
-                    child: const Column(
+                    child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Pick Your Pronunciation Era',
-                          style: TextStyle(
+                          AppStrings.vocabPickEra.tr,
+                          style: const TextStyle(
                             color: Colors.white,
                             fontSize: 22,
                             fontFamily: AppStrings.nunitoFont,
                             fontWeight: FontWeight.w900,
                           ),
                         ),
-                        SizedBox(height: 8),
+                        const SizedBox(height: 8),
                         Text(
-                          'Select one level and start a focused pronunciation session.',
-                          style: TextStyle(
+                          AppStrings.vocabPickEraSubtitle.tr,
+                          style: const TextStyle(
                             color: Colors.white,
                             fontSize: 14,
                             fontFamily: AppStrings.nunitoFont,
@@ -216,6 +216,17 @@ class _LevelTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final cardBg = colorScheme.onSecondary;
+    final ink = colorScheme.onSurface;
+    final unselectedBorder = isDark
+        ? Colors.white.withValues(alpha: 0.10)
+        : const Color(0xFFE5E7EB);
+    final subtleText = isDark
+        ? Colors.white.withValues(alpha: 0.45)
+        : const Color(0xFF6B7280);
+
     return Material(
       color: Colors.transparent,
       child: InkWell(
@@ -227,20 +238,18 @@ class _LevelTile extends StatelessWidget {
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(18),
-            color: Colors.white,
+            color: cardBg,
             border: Border.all(
-              color:
-                  isSelected
-                      ? const Color(0xFF2563EB)
-                      : const Color(0xFFE5E7EB),
+              color: isSelected
+                  ? const Color(0xFF2563EB)
+                  : unselectedBorder,
               width: isSelected ? 2.4 : 1.2,
             ),
             boxShadow: [
               BoxShadow(
-                color:
-                    isSelected
-                        ? const Color(0xFF2563EB).withValues(alpha: 0.20)
-                        : Colors.black.withValues(alpha: 0.05),
+                color: isSelected
+                    ? const Color(0xFF2563EB).withValues(alpha: 0.20)
+                    : Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
                 blurRadius: isSelected ? 16 : 10,
                 offset: const Offset(0, 6),
               ),
@@ -248,7 +257,6 @@ class _LevelTile extends StatelessWidget {
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            // mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Spacer(),
               SvgPicture.asset(
@@ -262,10 +270,9 @@ class _LevelTile extends StatelessWidget {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
-                  color:
-                      isSelected
-                          ? const Color(0xFF1D4ED8)
-                          : const Color(0xFF111827),
+                  color: isSelected
+                      ? const Color(0xFF1D4ED8)
+                      : ink,
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w900,
                   fontSize: 16,
@@ -277,10 +284,9 @@ class _LevelTile extends StatelessWidget {
                 maxLines: 3,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
-                  color:
-                      isSelected
-                          ? const Color(0xFF2563EB).withValues(alpha: 0.8)
-                          : const Color(0xFF6B7280),
+                  color: isSelected
+                      ? const Color(0xFF2563EB).withValues(alpha: 0.8)
+                      : subtleText,
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w600,
                   fontSize: 11,
@@ -291,12 +297,13 @@ class _LevelTile extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    isSelected ? 'Selected' : 'Tap to select',
+                    isSelected
+                        ? AppStrings.vocabSelected.tr
+                        : AppStrings.vocabTapToSelect.tr,
                     style: TextStyle(
-                      color:
-                          isSelected
-                              ? const Color(0xFF1D4ED8)
-                              : const Color(0xFF6B7280),
+                      color: isSelected
+                          ? const Color(0xFF1D4ED8)
+                          : subtleText,
                       fontFamily: AppStrings.nunitoFont,
                       fontWeight: FontWeight.w700,
                       fontSize: 12,
@@ -308,10 +315,9 @@ class _LevelTile extends StatelessWidget {
                         ? Icons.check_circle_rounded
                         : Icons.arrow_forward_rounded,
                     size: 18,
-                    color:
-                        isSelected
-                            ? const Color(0xFF1D4ED8)
-                            : const Color(0xFF9CA3AF),
+                    color: isSelected
+                        ? const Color(0xFF1D4ED8)
+                        : subtleText,
                   ),
                 ],
               ),

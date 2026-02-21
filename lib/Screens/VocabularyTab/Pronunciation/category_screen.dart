@@ -32,9 +32,6 @@ class CategoryScreen extends StatefulWidget {
 }
 
 class _CategoryScreenState extends State<CategoryScreen> {
-  static const Color _ink = Color(0xFF101828);
-  static const Color _surface = Color(0xFFF7F8FC);
-
   static const List<Color> _palette = [
     Color(0xFF0EA5E9),
     Color(0xFF10B981),
@@ -71,19 +68,20 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final ink = Theme.of(context).colorScheme.onSurface;
+
     return Scaffold(
-      backgroundColor: _surface,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
           onPressed: () => Get.back(),
-          icon: const Icon(Icons.arrow_back_ios_new_rounded, color: _ink),
+          icon: Icon(Icons.arrow_back_ios_new_rounded, color: ink),
         ),
         title: Text(
           widget.levelCode,
-          style: const TextStyle(
-            color: _ink,
+          style: TextStyle(
+            color: ink,
             fontFamily: AppStrings.nunitoFont,
             fontWeight: FontWeight.w800,
           ),
@@ -109,8 +107,8 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   children: [
                     Text(
                       level.title,
-                      style: const TextStyle(
-                        color: _ink,
+                      style: TextStyle(
+                        color: ink,
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w900,
                         fontSize: 24,
@@ -120,7 +118,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     Text(
                       level.subtitle,
                       style: TextStyle(
-                        color: _ink.withValues(alpha: 0.5),
+                        color: ink.withValues(alpha: 0.5),
                         fontFamily: AppStrings.nunitoFont,
                         fontWeight: FontWeight.w600,
                         fontSize: 13,
@@ -129,11 +127,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     const SizedBox(height: 14),
                     Row(
                       children: [
-                        _Pill('${level.metadata.totalTopics} days'),
+                        _Pill('${level.metadata.totalTopics} ${AppStrings.vocabDays.tr}'),
                         const SizedBox(width: 8),
-                        _Pill('${level.metadata.totalCategories} sections'),
+                        _Pill('${level.metadata.totalCategories} ${AppStrings.vocabTopics.tr}'),
                         const SizedBox(width: 8),
-                        _Pill('${level.metadata.totalWords} words'),
+                        _Pill('${level.metadata.totalWords} ${AppStrings.vocabulary.tr}'),
                       ],
                     ),
                   ],
@@ -206,13 +204,17 @@ class _SectionCardState extends State<_SectionCard> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final cardBg = Theme.of(context).colorScheme.onSecondary;
+    final ink = Theme.of(context).colorScheme.onSurface;
+
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: cardBg,
         borderRadius: BorderRadius.circular(18),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.045),
+            color: Colors.black.withValues(alpha: isDark ? 0.25 : 0.045),
             blurRadius: 12,
             offset: const Offset(0, 4),
           ),
@@ -246,8 +248,8 @@ class _SectionCardState extends State<_SectionCard> {
                         children: [
                           Text(
                             s.categoryName,
-                            style: const TextStyle(
-                              color: Color(0xFF111827),
+                            style: TextStyle(
+                              color: ink,
                               fontFamily: AppStrings.nunitoFont,
                               fontWeight: FontWeight.w800,
                               fontSize: 15,
@@ -255,9 +257,9 @@ class _SectionCardState extends State<_SectionCard> {
                           ),
                           const SizedBox(height: 2),
                           Text(
-                            'Days ${s.startDay}–$_endDay  ·  ${s.topics.length} topics',
+                            '${AppStrings.vocabDays.tr} ${s.startDay}–$_endDay  ·  ${s.topics.length} ${AppStrings.vocabTopics.tr}',
                             style: TextStyle(
-                              color: const Color(0xFF6B7280).withValues(alpha: 0.9),
+                              color: ink.withValues(alpha: 0.45),
                               fontFamily: AppStrings.nunitoFont,
                               fontWeight: FontWeight.w600,
                               fontSize: 12,
@@ -346,6 +348,8 @@ class _TopicRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final ink = Theme.of(context).colorScheme.onSurface;
+
     return IntrinsicHeight(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -413,7 +417,7 @@ class _TopicRow extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Day $dayNumber',
+                            '${AppStrings.vocabDay.tr} $dayNumber',
                             style: TextStyle(
                               color: accent,
                               fontFamily: AppStrings.nunitoFont,
@@ -424,8 +428,8 @@ class _TopicRow extends StatelessWidget {
                           const SizedBox(height: 1),
                           Text(
                             topicName,
-                            style: const TextStyle(
-                              color: Color(0xFF111827),
+                            style: TextStyle(
+                              color: ink,
                               fontFamily: AppStrings.nunitoFont,
                               fontWeight: FontWeight.w700,
                               fontSize: 14,
@@ -437,7 +441,7 @@ class _TopicRow extends StatelessWidget {
                     Icon(
                       Icons.arrow_forward_ios_rounded,
                       size: 12,
-                      color: const Color(0xFF9CA3AF).withValues(alpha: 0.7),
+                      color: ink.withValues(alpha: 0.3),
                     ),
                   ],
                 ),
@@ -492,7 +496,7 @@ class _MilestoneBanner extends StatelessWidget {
             ),
           ),
           Text(
-            '$topicCount topics done',
+            '$topicCount ${AppStrings.vocabTopicsDone.tr}',
             style: TextStyle(
               color: accent.withValues(alpha: 0.7),
               fontFamily: AppStrings.nunitoFont,
