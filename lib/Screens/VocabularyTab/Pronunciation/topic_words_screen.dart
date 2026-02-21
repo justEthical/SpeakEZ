@@ -135,11 +135,12 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
 
   void _onListeningDone() {
     setState(() => _isListening = false);
-    if (_transcript.isEmpty) return;
+    final cleaned = _cleanTranscript(_transcript);
+    if (cleaned.isEmpty) return;
 
     final result = _scoringService.evaluate(
       targetWord: _currentWord.word,
-      transcript: _transcript,
+      transcript: cleaned,
     );
     setState(() => _scoreResult = result);
 
@@ -150,6 +151,13 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
         if (mounted) _goTo(_currentIndex + 1);
       });
     }
+  }
+
+  // Removes noise tags like [MUSIC] and non-alphabetic chars, matching lesson logic
+  String _cleanTranscript(String text) {
+    text = text.replaceAll(RegExp(r'\[.*?\]'), '');
+    text = text.replaceAll(RegExp(r'[^a-zA-Z\s]'), ' ');
+    return text.replaceAll(RegExp(r'\s+'), ' ').trim();
   }
 
   // ── Navigation ─────────────────────────────────────────────────────────────
@@ -173,6 +181,84 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
     ttsHelper.stop();
     if (_speechService.isListening) _speechService.stopListening();
     _autoSpeak();
+  }
+
+  void _skipWord() {
+    final words = _vocabController.currentTopicWords.value.words;
+    if (_currentIndex < words.length - 1) {
+      _goTo(_currentIndex + 1);
+    } else {
+      Get.back();
+    }
+  }
+
+  void _showOptions() {
+    final words = _vocabController.currentTopicWords.value.words;
+    final isFirst = _currentIndex == 0;
+    final isLast = _currentIndex == words.length - 1;
+    final canAdvance = _scoreResult?.isPass == true;
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.white,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (_) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                width: 40,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFE5E7EB),
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+              const SizedBox(height: 20),
+              _BottomSheetOption(
+                label: 'Skip this word',
+                icon: Icons.skip_next_rounded,
+                color: const Color(0xFF6B7280),
+                onTap: () {
+                  Get.back();
+                  _skipWord();
+                },
+              ),
+              if (!isFirst) ...[
+                const SizedBox(height: 10),
+                _BottomSheetOption(
+                  label: 'Previous word',
+                  icon: Icons.arrow_back_ios_new_rounded,
+                  color: widget.accent,
+                  onTap: () {
+                    Get.back();
+                    _goTo(_currentIndex - 1);
+                  },
+                ),
+              ],
+              const SizedBox(height: 10),
+              _BottomSheetOption(
+                label: isLast ? 'Finish' : 'Next word',
+                icon: isLast ? Icons.check_rounded : Icons.arrow_forward_ios_rounded,
+                color: canAdvance ? widget.accent : const Color(0xFFD1D5DB),
+                filled: canAdvance,
+                onTap: canAdvance
+                    ? () {
+                        Get.back();
+                        if (isLast) Get.back();
+                        else _goTo(_currentIndex + 1);
+                      }
+                    : null,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 
   VocabWord get _currentWord =>
@@ -312,7 +398,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                   : const SizedBox.shrink(),
             ),
 
-            // Action row (mic only)
+            // Action row (mic)
             _ActionRow(
               accent: widget.accent,
               isListening: _isListening,
@@ -320,15 +406,42 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
               onMic: _toggleMic,
             ),
 
-            // Bottom nav
-            _BottomNav(
-              currentIndex: _currentIndex,
-              total: words.length,
-              accent: widget.accent,
-              canAdvance: _scoreResult != null && _scoreResult!.isPass,
-              onPrev: () => _goTo(_currentIndex - 1),
-              onNext: () => _goTo(_currentIndex + 1),
-              onDone: () => Get.back(),
+            // Options trigger
+            SafeArea(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(0, 0, 0, 14),
+                child: GestureDetector(
+                  onTap: _showOptions,
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 10),
+                    decoration: BoxDecoration(
+                      color: widget.accent.withValues(alpha: 0.08),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: widget.accent.withValues(alpha: 0.18),
+                      ),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(Icons.tune_rounded,
+                            size: 15, color: widget.accent),
+                        const SizedBox(width: 6),
+                        Text(
+                          'Options',
+                          style: TextStyle(
+                            color: widget.accent,
+                            fontFamily: AppStrings.nunitoFont,
+                            fontWeight: FontWeight.w700,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
             ),
           ],
         );
@@ -535,24 +648,156 @@ class _ActionRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final micButton = _ActionButton(
-      icon: isListening ? Icons.stop_rounded : Icons.mic_rounded,
-      label: isListening ? 'Stop' : 'Speak it',
-      color: isListening ? Colors.red.shade500 : accent,
-      filled: isListening,
-      onTap: onMic,
-    );
-
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
-      child: isListening
-          ? AnimatedBuilder(
-              animation: pulseAnimation,
-              builder: (_, child) =>
-                  Transform.scale(scale: pulseAnimation.value, child: child),
-              child: micButton,
-            )
-          : micButton,
+      padding: const EdgeInsets.fromLTRB(20, 4, 20, 12),
+      child: Center(
+        child: isListening ? _buildListening() : _buildIdle(),
+      ),
+    );
+  }
+
+  Widget _buildIdle() {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        // Circular mic button
+        GestureDetector(
+          onTap: onMic,
+          child: Container(
+            width: 80,
+            height: 80,
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [accent, accent.withValues(alpha: 0.8)],
+              ),
+              borderRadius: BorderRadius.circular(100),
+              boxShadow: [
+                BoxShadow(
+                  color: accent.withValues(alpha: 0.35),
+                  blurRadius: 20,
+                  offset: const Offset(0, 8),
+                ),
+              ],
+            ),
+            child: const Icon(Icons.mic_rounded, color: Colors.white, size: 36),
+          ),
+        ),
+        const SizedBox(height: 16),
+        Text(
+          'Tap to speak',
+          style: TextStyle(
+            color: accent,
+            fontFamily: AppStrings.nunitoFont,
+            fontSize: 14,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildListening() {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        // "Tap to stop" hint
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          decoration: BoxDecoration(
+            color: accent.withValues(alpha: 0.10),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(Icons.touch_app_rounded, size: 16, color: accent),
+              const SizedBox(width: 6),
+              Text(
+                'Tap to stop',
+                style: TextStyle(
+                  color: accent,
+                  fontFamily: AppStrings.nunitoFont,
+                  fontSize: 13,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 20),
+        // Pulsing red stop button
+        AnimatedBuilder(
+          animation: pulseAnimation,
+          builder: (_, child) =>
+              Transform.scale(scale: pulseAnimation.value, child: child),
+          child: GestureDetector(
+            onTap: onMic,
+            child: Container(
+              width: 80,
+              height: 80,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [Colors.red.shade400, Colors.red.shade600],
+                ),
+                borderRadius: BorderRadius.circular(100),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.red.withValues(alpha: 0.4),
+                    blurRadius: 20,
+                    spreadRadius: 2,
+                  ),
+                ],
+              ),
+              child: Center(
+                child: Container(
+                  width: 24,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        // "Listening" status badge
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          decoration: BoxDecoration(
+            color: Colors.red.withValues(alpha: 0.10),
+            borderRadius: BorderRadius.circular(25),
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                width: 8,
+                height: 8,
+                margin: const EdgeInsets.only(right: 8),
+                decoration: BoxDecoration(
+                  color: Colors.red,
+                  borderRadius: BorderRadius.circular(4),
+                ),
+              ),
+              Text(
+                'Listening',
+                style: TextStyle(
+                  color: Colors.red.shade700,
+                  fontFamily: AppStrings.nunitoFont,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
@@ -598,55 +843,6 @@ class _SpeakButton extends StatelessWidget {
                 fontFamily: AppStrings.nunitoFont,
                 fontWeight: FontWeight.w700,
                 fontSize: 13,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _ActionButton extends StatelessWidget {
-  const _ActionButton({
-    required this.icon,
-    required this.label,
-    required this.color,
-    required this.onTap,
-    this.filled = false,
-  });
-
-  final IconData icon;
-  final String label;
-  final Color color;
-  final VoidCallback onTap;
-  final bool filled;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 12),
-        decoration: BoxDecoration(
-          color: filled ? color : color.withValues(alpha: 0.08),
-          borderRadius: BorderRadius.circular(14),
-          border: filled
-              ? null
-              : Border.all(color: color.withValues(alpha: 0.25), width: 1.2),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(icon, color: filled ? Colors.white : color, size: 22),
-            const SizedBox(height: 4),
-            Text(
-              label,
-              style: TextStyle(
-                color: filled ? Colors.white : color,
-                fontFamily: AppStrings.nunitoFont,
-                fontWeight: FontWeight.w700,
-                fontSize: 12,
               ),
             ),
           ],
@@ -918,135 +1114,56 @@ class _SentenceRow extends StatelessWidget {
   }
 }
 
-// ─── Bottom nav ───────────────────────────────────────────────────────────────
+// ─── Bottom sheet option ──────────────────────────────────────────────────────
 
-class _BottomNav extends StatelessWidget {
-  const _BottomNav({
-    required this.currentIndex,
-    required this.total,
-    required this.accent,
-    required this.canAdvance,
-    required this.onPrev,
-    required this.onNext,
-    required this.onDone,
-  });
-
-  final int currentIndex;
-  final int total;
-  final Color accent;
-  final bool canAdvance;
-  final VoidCallback onPrev;
-  final VoidCallback onNext;
-  final VoidCallback onDone;
-
-  bool get _isFirst => currentIndex == 0;
-  bool get _isLast => currentIndex == total - 1;
-
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
-        child: Row(
-          children: [
-            _NavButton(
-              onTap: _isFirst ? null : onPrev,
-              accent: accent,
-              icon: Icons.arrow_back_ios_new_rounded,
-              label: 'Prev',
-              filled: false,
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: _isLast
-                  ? _NavButton(
-                      onTap: canAdvance ? onDone : null,
-                      accent: accent,
-                      icon: Icons.check_rounded,
-                      label: 'Done',
-                      filled: true,
-                      expand: true,
-                    )
-                  : _NavButton(
-                      onTap: canAdvance ? onNext : null,
-                      accent: accent,
-                      icon: Icons.arrow_forward_ios_rounded,
-                      label: 'Next',
-                      filled: true,
-                      expand: true,
-                      iconTrailing: true,
-                    ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _NavButton extends StatelessWidget {
-  const _NavButton({
-    required this.onTap,
-    required this.accent,
-    required this.icon,
+class _BottomSheetOption extends StatelessWidget {
+  const _BottomSheetOption({
     required this.label,
-    required this.filled,
-    this.expand = false,
-    this.iconTrailing = false,
+    required this.icon,
+    required this.color,
+    required this.onTap,
+    this.filled = false,
   });
 
-  final VoidCallback? onTap;
-  final Color accent;
-  final IconData icon;
   final String label;
+  final IconData icon;
+  final Color color;
+  final VoidCallback? onTap;
   final bool filled;
-  final bool expand;
-  final bool iconTrailing;
 
   @override
   Widget build(BuildContext context) {
     final disabled = onTap == null;
-    final bg =
-        filled ? (disabled ? Colors.grey.shade200 : accent) : Colors.transparent;
-    final fg = filled ? Colors.white : (disabled ? Colors.grey.shade400 : accent);
-    final border = filled
-        ? null
-        : Border.all(
-            color: disabled ? Colors.grey.shade300 : accent,
-            width: 1.5,
-          );
-
+    final effectiveColor = disabled ? const Color(0xFFD1D5DB) : color;
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: expand ? double.infinity : null,
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
         decoration: BoxDecoration(
-          color: bg,
+          color: filled
+              ? effectiveColor
+              : effectiveColor.withValues(alpha: 0.08),
           borderRadius: BorderRadius.circular(14),
-          border: border,
+          border: filled
+              ? null
+              : Border.all(
+                  color: effectiveColor.withValues(alpha: 0.20), width: 1),
         ),
         child: Row(
-          mainAxisSize: expand ? MainAxisSize.max : MainAxisSize.min,
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            if (!iconTrailing) ...[
-              Icon(icon, color: fg, size: 16),
-              const SizedBox(width: 6),
-            ],
+            Icon(icon,
+                color: filled ? Colors.white : effectiveColor, size: 20),
+            const SizedBox(width: 12),
             Text(
               label,
               style: TextStyle(
-                color: fg,
+                color: filled ? Colors.white : effectiveColor,
                 fontFamily: AppStrings.nunitoFont,
-                fontWeight: FontWeight.w800,
+                fontWeight: FontWeight.w700,
                 fontSize: 15,
               ),
             ),
-            if (iconTrailing) ...[
-              const SizedBox(width: 6),
-              Icon(icon, color: fg, size: 16),
-            ],
           ],
         ),
       ),
