@@ -69,6 +69,73 @@ class Metadata {
       };
 }
 
+// ─── Topic content models ─────────────────────────────────────────────────────
+
+class TopicWordContent {
+  final String topic;
+  final List<VocabWord> words;
+
+  TopicWordContent({required this.topic, required this.words});
+
+  factory TopicWordContent.fromJson(Map<String, dynamic> json) {
+    return TopicWordContent(
+      topic: json['topic'] ?? '',
+      words: (json['words'] as List? ?? [])
+          .map((w) => VocabWord.fromJson(w as Map<String, dynamic>))
+          .toList(),
+    );
+  }
+
+  static TopicWordContent empty() => TopicWordContent(topic: '', words: []);
+}
+
+class VocabWord {
+  final String word;
+  final String phoneticRespelling;
+  final String translation;
+  final String definition;
+  final String definationTranslation;
+  final List<VocabSentence> sentences;
+
+  VocabWord({
+    required this.word,
+    required this.phoneticRespelling,
+    required this.translation,
+    required this.definition,
+    required this.definationTranslation,
+    required this.sentences,
+  });
+
+  factory VocabWord.fromJson(Map<String, dynamic> json) {
+    return VocabWord(
+      word: json['word'] ?? '',
+      phoneticRespelling: json['phoneticRespelling'] ?? '',
+      translation: json['translation'] ?? '',
+      definition: json['definition'] ?? '',
+      definationTranslation: json['definationTranslation'] ?? '',
+      sentences: (json['sentence'] as List? ?? [])
+          .map((s) => VocabSentence.fromJson(s as Map<String, dynamic>))
+          .toList(),
+    );
+  }
+}
+
+class VocabSentence {
+  final String sentence;
+  final String translation;
+
+  VocabSentence({required this.sentence, required this.translation});
+
+  factory VocabSentence.fromJson(Map<String, dynamic> json) {
+    return VocabSentence(
+      sentence: json['sentence'] ?? '',
+      translation: json['translation'] ?? '',
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 class Category {
   final String categoryName;
   final List<String> topics;

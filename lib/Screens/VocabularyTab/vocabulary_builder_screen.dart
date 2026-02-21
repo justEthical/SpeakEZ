@@ -5,7 +5,7 @@ import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
-import 'package:speak_ez/Screens/Pronunciation/pronunciation_intro_screen.dart';
+import 'package:speak_ez/Screens/VocabularyTab/Pronunciation/pronunciation_intro_screen.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 class VocabularyBuilderScreen extends StatefulWidget {
