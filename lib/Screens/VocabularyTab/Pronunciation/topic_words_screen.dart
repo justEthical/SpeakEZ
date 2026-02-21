@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/vocabulary_tab_controller.dart';
 import 'package:speak_ez/Models/pronunciation_word_model.dart';
+import 'package:speak_ez/Services/pronunciation_scoring_service.dart';
+import 'package:speak_ez/Utils/flutter_stt_helper.dart';
+import 'package:speak_ez/Utils/tts_helper.dart';
 
 class TopicWordsScreen extends StatefulWidget {
   final String levelCode;
@@ -22,31 +26,133 @@ class TopicWordsScreen extends StatefulWidget {
   State<TopicWordsScreen> createState() => _TopicWordsScreenState();
 }
 
-class _TopicWordsScreenState extends State<TopicWordsScreen> {
+class _TopicWordsScreenState extends State<TopicWordsScreen>
+    with SingleTickerProviderStateMixin {
   static const Color _ink = Color(0xFF101828);
   static const Color _surface = Color(0xFFF7F8FC);
 
-  final _controller = Get.find<VocabularyTabController>();
+  final _vocabController = Get.find<VocabularyTabController>();
   final _pageController = PageController();
+  final _speechService = SpeechService();
+  final _scoringService = PronunciationScoringService();
+
+  // Pulse animation for mic listening state
+  late AnimationController _pulseController;
+  late Animation<double> _pulseAnimation;
+
   int _currentIndex = 0;
+  bool _isListening = false;
+  bool _isSpeaking = false;
+  PronunciationScoreResult? _scoreResult;
+  String _transcript = '';
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      _controller.loadTopicWords(
+    _pulseController = AnimationController(
+      duration: const Duration(milliseconds: 1200),
+      vsync: this,
+    )..repeat(reverse: true);
+    _pulseAnimation = Tween<double>(begin: 1.0, end: 1.18).animate(
+      CurvedAnimation(parent: _pulseController, curve: Curves.easeInOut),
+    );
+
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      await _vocabController.loadTopicWords(
         widget.levelCode,
         widget.categoryName,
         widget.topicName,
       );
+      _autoSpeak();
     });
   }
 
   @override
   void dispose() {
+    _pulseController.dispose();
     _pageController.dispose();
+    ttsHelper.stop();
+    if (_speechService.isListening) _speechService.stopListening();
     super.dispose();
   }
+
+  // ── TTS ────────────────────────────────────────────────────────────────────
+
+  void _autoSpeak() {
+    Future.delayed(const Duration(milliseconds: 300), () {
+      if (mounted) _speak();
+    });
+  }
+
+  Future<void> _speak() async {
+    if (_isSpeaking) return;
+    await ttsHelper.stop();
+    setState(() => _isSpeaking = true);
+    try {
+      await ttsHelper.speakWordAndWait(_currentWord.word);
+    } finally {
+      if (mounted) setState(() => _isSpeaking = false);
+    }
+  }
+
+  Future<void> _speakSlow() async {
+    if (_isSpeaking) return;
+    await ttsHelper.stop();
+    setState(() => _isSpeaking = true);
+    try {
+      await ttsHelper.speakSlowAndWait(_currentWord.word);
+    } finally {
+      if (mounted) setState(() => _isSpeaking = false);
+    }
+  }
+
+  // ── Mic ────────────────────────────────────────────────────────────────────
+
+  Future<void> _toggleMic() async {
+    if (_isListening) {
+      _speechService.stopListening();
+      setState(() => _isListening = false);
+      return;
+    }
+
+    final status = await Permission.microphone.request();
+    if (!status.isGranted) return;
+
+    await ttsHelper.stop();
+    setState(() {
+      _scoreResult = null;
+      _transcript = '';
+      _isListening = true;
+    });
+
+    _speechService.startListening(
+      (text) => setState(() => _transcript = text),
+      (listening) {
+        if (!listening && mounted) _onListeningDone();
+      },
+    );
+  }
+
+  void _onListeningDone() {
+    setState(() => _isListening = false);
+    if (_transcript.isEmpty) return;
+
+    final result = _scoringService.evaluate(
+      targetWord: _currentWord.word,
+      transcript: _transcript,
+    );
+    setState(() => _scoreResult = result);
+
+    // Auto-advance on pass if not on last word
+    final words = _vocabController.currentTopicWords.value.words;
+    if (result.isPass && _currentIndex < words.length - 1) {
+      Future.delayed(const Duration(milliseconds: 1600), () {
+        if (mounted) _goTo(_currentIndex + 1);
+      });
+    }
+  }
+
+  // ── Navigation ─────────────────────────────────────────────────────────────
 
   void _goTo(int index) {
     _pageController.animateToPage(
@@ -55,6 +161,24 @@ class _TopicWordsScreenState extends State<TopicWordsScreen> {
       curve: Curves.easeOutCubic,
     );
   }
+
+  void _onPageChanged(int i) {
+    setState(() {
+      _currentIndex = i;
+      _scoreResult = null;
+      _transcript = '';
+      _isListening = false;
+      _isSpeaking = false;
+    });
+    ttsHelper.stop();
+    if (_speechService.isListening) _speechService.stopListening();
+    _autoSpeak();
+  }
+
+  VocabWord get _currentWord =>
+      _vocabController.currentTopicWords.value.words[_currentIndex];
+
+  // ── Build ──────────────────────────────────────────────────────────────────
 
   @override
   Widget build(BuildContext context) {
@@ -92,13 +216,13 @@ class _TopicWordsScreenState extends State<TopicWordsScreen> {
         ),
       ),
       body: Obx(() {
-        if (_controller.isLoadingTopicWords.value) {
+        if (_vocabController.isLoadingTopicWords.value) {
           return Center(
             child: CircularProgressIndicator(color: widget.accent),
           );
         }
 
-        final words = _controller.currentTopicWords.value.words;
+        final words = _vocabController.currentTopicWords.value.words;
 
         if (words.isEmpty) {
           return Center(
@@ -117,17 +241,26 @@ class _TopicWordsScreenState extends State<TopicWordsScreen> {
           children: [
             // Progress bar
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+              padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
               child: Row(
                 children: [
                   Expanded(
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(4),
-                      child: LinearProgressIndicator(
-                        value: (_currentIndex + 1) / words.length,
-                        backgroundColor: widget.accent.withValues(alpha: 0.12),
-                        color: widget.accent,
-                        minHeight: 5,
+                    child: TweenAnimationBuilder<double>(
+                      duration: const Duration(milliseconds: 500),
+                      curve: Curves.easeOutCubic,
+                      tween: Tween<double>(
+                        begin: 0,
+                        end: (_currentIndex + 1) / words.length,
+                      ),
+                      builder: (_, value, __) => ClipRRect(
+                        borderRadius: BorderRadius.circular(4),
+                        child: LinearProgressIndicator(
+                          value: value,
+                          backgroundColor:
+                              widget.accent.withValues(alpha: 0.12),
+                          color: widget.accent,
+                          minHeight: 5,
+                        ),
                       ),
                     ),
                   ),
@@ -149,18 +282,50 @@ class _TopicWordsScreenState extends State<TopicWordsScreen> {
             Expanded(
               child: PageView.builder(
                 controller: _pageController,
+                physics: const NeverScrollableScrollPhysics(),
                 itemCount: words.length,
-                onPageChanged: (i) => setState(() => _currentIndex = i),
-                itemBuilder: (context, i) =>
-                    _WordCard(word: words[i], accent: widget.accent),
+                onPageChanged: _onPageChanged,
+                itemBuilder: (context, i) => _WordCard(
+                  word: words[i],
+                  accent: widget.accent,
+                  isSpeaking: _isSpeaking,
+                  onSpeak: _speak,
+                  onSpeakSlow: _speakSlow,
+                ),
               ),
             ),
 
-            // Navigation buttons
+            // Result panel
+            AnimatedSize(
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
+              child: _scoreResult != null
+                  ? _ResultPanel(
+                      result: _scoreResult!,
+                      transcript: _transcript,
+                      accent: widget.accent,
+                      isLast:
+                          _currentIndex == words.length - 1,
+                      onTryAgain: () =>
+                          setState(() => _scoreResult = null),
+                    )
+                  : const SizedBox.shrink(),
+            ),
+
+            // Action row (mic only)
+            _ActionRow(
+              accent: widget.accent,
+              isListening: _isListening,
+              pulseAnimation: _pulseAnimation,
+              onMic: _toggleMic,
+            ),
+
+            // Bottom nav
             _BottomNav(
               currentIndex: _currentIndex,
               total: words.length,
               accent: widget.accent,
+              canAdvance: _scoreResult != null && _scoreResult!.isPass,
               onPrev: () => _goTo(_currentIndex - 1),
               onNext: () => _goTo(_currentIndex + 1),
               onDone: () => Get.back(),
@@ -175,21 +340,30 @@ class _TopicWordsScreenState extends State<TopicWordsScreen> {
 // ─── Word card ────────────────────────────────────────────────────────────────
 
 class _WordCard extends StatelessWidget {
-  const _WordCard({required this.word, required this.accent});
+  const _WordCard({
+    required this.word,
+    required this.accent,
+    required this.isSpeaking,
+    required this.onSpeak,
+    required this.onSpeakSlow,
+  });
 
   final VocabWord word;
   final Color accent;
+  final bool isSpeaking;
+  final VoidCallback onSpeak;
+  final VoidCallback onSpeakSlow;
 
   static const Color _ink = Color(0xFF101828);
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.fromLTRB(20, 8, 20, 8),
+      padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Word + phonetic
+          // Word card
           Container(
             width: double.infinity,
             padding: const EdgeInsets.all(24),
@@ -206,6 +380,7 @@ class _WordCard extends StatelessWidget {
             ),
             child: Column(
               children: [
+                // TODO: animation goes here
                 Text(
                   word.word,
                   textAlign: TextAlign.center,
@@ -230,8 +405,8 @@ class _WordCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 12),
                 Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 16, vertical: 8),
                   decoration: BoxDecoration(
                     color: accent.withValues(alpha: 0.08),
                     borderRadius: BorderRadius.circular(12),
@@ -246,6 +421,34 @@ class _WordCard extends StatelessWidget {
                       fontSize: 18,
                     ),
                   ),
+                ),
+
+                // Speak buttons
+                const SizedBox(height: 16),
+                Divider(height: 1, color: _ink.withValues(alpha: 0.06)),
+                const SizedBox(height: 14),
+                Row(
+                  children: [
+                    Expanded(
+                      child: _SpeakButton(
+                        icon: Icons.volume_up_rounded,
+                        label: 'Speak',
+                        accent: accent,
+                        disabled: isSpeaking,
+                        onTap: onSpeak,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: _SpeakButton(
+                        icon: Icons.slow_motion_video_rounded,
+                        label: 'Slow',
+                        accent: accent,
+                        disabled: isSpeaking,
+                        onTap: onSpeakSlow,
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
@@ -308,7 +511,283 @@ class _WordCard extends StatelessWidget {
               ),
             ),
 
-          const SizedBox(height: 20),
+          const SizedBox(height: 12),
+        ],
+      ),
+    );
+  }
+}
+
+// ─── Action row ───────────────────────────────────────────────────────────────
+
+class _ActionRow extends StatelessWidget {
+  const _ActionRow({
+    required this.accent,
+    required this.isListening,
+    required this.pulseAnimation,
+    required this.onMic,
+  });
+
+  final Color accent;
+  final bool isListening;
+  final Animation<double> pulseAnimation;
+  final VoidCallback onMic;
+
+  @override
+  Widget build(BuildContext context) {
+    final micButton = _ActionButton(
+      icon: isListening ? Icons.stop_rounded : Icons.mic_rounded,
+      label: isListening ? 'Stop' : 'Speak it',
+      color: isListening ? Colors.red.shade500 : accent,
+      filled: isListening,
+      onTap: onMic,
+    );
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
+      child: isListening
+          ? AnimatedBuilder(
+              animation: pulseAnimation,
+              builder: (_, child) =>
+                  Transform.scale(scale: pulseAnimation.value, child: child),
+              child: micButton,
+            )
+          : micButton,
+    );
+  }
+}
+
+// ─── Speak button (inside word card) ─────────────────────────────────────────
+
+class _SpeakButton extends StatelessWidget {
+  const _SpeakButton({
+    required this.icon,
+    required this.label,
+    required this.accent,
+    required this.disabled,
+    required this.onTap,
+  });
+
+  final IconData icon;
+  final String label;
+  final Color accent;
+  final bool disabled;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final color = disabled ? const Color(0xFFD1D5DB) : accent;
+    return GestureDetector(
+      onTap: disabled ? null : onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.08),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: color.withValues(alpha: 0.2), width: 1),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, color: color, size: 18),
+            const SizedBox(width: 6),
+            Text(
+              label,
+              style: TextStyle(
+                color: color,
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w700,
+                fontSize: 13,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ActionButton extends StatelessWidget {
+  const _ActionButton({
+    required this.icon,
+    required this.label,
+    required this.color,
+    required this.onTap,
+    this.filled = false,
+  });
+
+  final IconData icon;
+  final String label;
+  final Color color;
+  final VoidCallback onTap;
+  final bool filled;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        decoration: BoxDecoration(
+          color: filled ? color : color.withValues(alpha: 0.08),
+          borderRadius: BorderRadius.circular(14),
+          border: filled
+              ? null
+              : Border.all(color: color.withValues(alpha: 0.25), width: 1.2),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon, color: filled ? Colors.white : color, size: 22),
+            const SizedBox(height: 4),
+            Text(
+              label,
+              style: TextStyle(
+                color: filled ? Colors.white : color,
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w700,
+                fontSize: 12,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// ─── Result panel ─────────────────────────────────────────────────────────────
+
+class _ResultPanel extends StatelessWidget {
+  const _ResultPanel({
+    required this.result,
+    required this.transcript,
+    required this.accent,
+    required this.isLast,
+    required this.onTryAgain,
+  });
+
+  final PronunciationScoreResult result;
+  final String transcript;
+  final Color accent;
+  final bool isLast;
+  final VoidCallback onTryAgain;
+
+  Color get _bandColor {
+    if (result.score >= 90) return const Color(0xFF10B981);
+    if (result.score >= 75) return const Color(0xFF3B82F6);
+    if (result.score >= 60) return const Color(0xFFF59E0B);
+    return const Color(0xFFEF4444);
+  }
+
+  IconData get _bandIcon {
+    if (result.score >= 90) return Icons.star_rounded;
+    if (result.score >= 75) return Icons.check_circle_rounded;
+    if (result.score >= 60) return Icons.warning_amber_rounded;
+    return Icons.replay_rounded;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final color = _bandColor;
+    return Container(
+      margin: const EdgeInsets.fromLTRB(20, 0, 20, 10),
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: color.withValues(alpha: 0.25), width: 1.2),
+      ),
+      child: Row(
+        children: [
+          // Score circle
+          Container(
+            width: 52,
+            height: 52,
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.12),
+              shape: BoxShape.circle,
+            ),
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(_bandIcon, color: color, size: 18),
+                  Text(
+                    '${result.score.round()}',
+                    style: TextStyle(
+                      color: color,
+                      fontFamily: AppStrings.nunitoFont,
+                      fontWeight: FontWeight.w900,
+                      fontSize: 13,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(width: 12),
+          // Text info
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  result.band,
+                  style: TextStyle(
+                    color: color,
+                    fontFamily: AppStrings.nunitoFont,
+                    fontWeight: FontWeight.w800,
+                    fontSize: 14,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  'You said: "$transcript"',
+                  style: TextStyle(
+                    color: const Color(0xFF101828).withValues(alpha: 0.6),
+                    fontFamily: AppStrings.nunitoFont,
+                    fontWeight: FontWeight.w600,
+                    fontSize: 12,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                if (result.isPass && !isLast)
+                  Text(
+                    'Moving to next word…',
+                    style: TextStyle(
+                      color: color,
+                      fontFamily: AppStrings.nunitoFont,
+                      fontWeight: FontWeight.w600,
+                      fontSize: 12,
+                    ),
+                  ),
+              ],
+            ),
+          ),
+          // Try again button (only on fail)
+          if (!result.isPass)
+            GestureDetector(
+              onTap: onTryAgain,
+              child: Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                decoration: BoxDecoration(
+                  color: color.withValues(alpha: 0.12),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text(
+                  'Retry',
+                  style: TextStyle(
+                    color: color,
+                    fontFamily: AppStrings.nunitoFont,
+                    fontWeight: FontWeight.w800,
+                    fontSize: 12,
+                  ),
+                ),
+              ),
+            ),
         ],
       ),
     );
@@ -446,6 +925,7 @@ class _BottomNav extends StatelessWidget {
     required this.currentIndex,
     required this.total,
     required this.accent,
+    required this.canAdvance,
     required this.onPrev,
     required this.onNext,
     required this.onDone,
@@ -454,6 +934,7 @@ class _BottomNav extends StatelessWidget {
   final int currentIndex;
   final int total;
   final Color accent;
+  final bool canAdvance;
   final VoidCallback onPrev;
   final VoidCallback onNext;
   final VoidCallback onDone;
@@ -465,10 +946,9 @@ class _BottomNav extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(20, 8, 20, 16),
+        padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
         child: Row(
           children: [
-            // Prev
             _NavButton(
               onTap: _isFirst ? null : onPrev,
               accent: accent,
@@ -477,11 +957,10 @@ class _BottomNav extends StatelessWidget {
               filled: false,
             ),
             const SizedBox(width: 12),
-            // Next / Done
             Expanded(
               child: _isLast
                   ? _NavButton(
-                      onTap: onDone,
+                      onTap: canAdvance ? onDone : null,
                       accent: accent,
                       icon: Icons.check_rounded,
                       label: 'Done',
@@ -489,7 +968,7 @@ class _BottomNav extends StatelessWidget {
                       expand: true,
                     )
                   : _NavButton(
-                      onTap: onNext,
+                      onTap: canAdvance ? onNext : null,
                       accent: accent,
                       icon: Icons.arrow_forward_ios_rounded,
                       label: 'Next',
@@ -527,37 +1006,15 @@ class _NavButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final disabled = onTap == null;
-    final bg = filled
-        ? (disabled ? Colors.grey.shade200 : accent)
-        : Colors.transparent;
-    final fg = filled
-        ? Colors.white
-        : (disabled ? Colors.grey.shade400 : accent);
-    final border = filled ? null : Border.all(color: disabled ? Colors.grey.shade300 : accent, width: 1.5);
-
-    Widget content = Row(
-      mainAxisSize: expand ? MainAxisSize.max : MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        if (!iconTrailing) ...[
-          Icon(icon, color: fg, size: 16),
-          const SizedBox(width: 6),
-        ],
-        Text(
-          label,
-          style: TextStyle(
-            color: fg,
-            fontFamily: AppStrings.nunitoFont,
-            fontWeight: FontWeight.w800,
-            fontSize: 15,
-          ),
-        ),
-        if (iconTrailing) ...[
-          const SizedBox(width: 6),
-          Icon(icon, color: fg, size: 16),
-        ],
-      ],
-    );
+    final bg =
+        filled ? (disabled ? Colors.grey.shade200 : accent) : Colors.transparent;
+    final fg = filled ? Colors.white : (disabled ? Colors.grey.shade400 : accent);
+    final border = filled
+        ? null
+        : Border.all(
+            color: disabled ? Colors.grey.shade300 : accent,
+            width: 1.5,
+          );
 
     return GestureDetector(
       onTap: onTap,
@@ -569,7 +1026,29 @@ class _NavButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(14),
           border: border,
         ),
-        child: content,
+        child: Row(
+          mainAxisSize: expand ? MainAxisSize.max : MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            if (!iconTrailing) ...[
+              Icon(icon, color: fg, size: 16),
+              const SizedBox(width: 6),
+            ],
+            Text(
+              label,
+              style: TextStyle(
+                color: fg,
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w800,
+                fontSize: 15,
+              ),
+            ),
+            if (iconTrailing) ...[
+              const SizedBox(width: 6),
+              Icon(icon, color: fg, size: 16),
+            ],
+          ],
+        ),
       ),
     );
   }
