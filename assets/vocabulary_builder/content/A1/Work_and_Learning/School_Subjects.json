@@ -1,1 +1,260 @@
-{}
+{
+  "topic": "School Subjects",
+  "words": [
+    {
+      "word": "Subject",
+      "phoneticRespelling": "SUB-jikt",
+      "translation": "विषय",
+      "definition": "An area of knowledge that is studied in school or college.",
+      "definationTranslation": "ज्ञान का वह क्षेत्र जिसका स्कूल या कॉलेज में अध्ययन किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Math is my favorite subject.",
+          "translation": "गणित मेरा पसंदीदा विषय है।"
+        },
+        {
+          "sentence": "How many subjects are you studying this year?",
+          "translation": "आप इस साल कितने विषयों की पढ़ाई कर रहे हैं?"
+        }
+      ]
+    },
+    {
+      "word": "Mathematics",
+      "phoneticRespelling": "math-uh-MAT-iks",
+      "translation": "गणित",
+      "definition": "The study of numbers, shapes, and patterns.",
+      "definationTranslation": "संख्याओं, आकृतियों और पैटर्न का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "Mathematics helps in developing logical thinking.",
+          "translation": "गणित तार्किक सोच विकसित करने में मदद करता है।"
+        },
+        {
+          "sentence": "I need to practice my mathematics problems.",
+          "translation": "मुझे अपने गणित के सवालों का अभ्यास करने की ज़रूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "Science",
+      "phoneticRespelling": "SY-uhnss",
+      "translation": "विज्ञान",
+      "definition": "The study of the natural world based on facts learned through experiments.",
+      "definationTranslation": "प्रयोगों के माध्यम से सीखे गए तथ्यों पर आधारित प्राकृतिक दुनिया का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "We did a fun experiment in the science lab.",
+          "translation": "हमने विज्ञान प्रयोगशाला में एक मजेदार प्रयोग किया।"
+        },
+        {
+          "sentence": "Science explains how things work.",
+          "translation": "विज्ञान बताता है कि चीजें कैसे काम करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "English",
+      "phoneticRespelling": "ING-glish",
+      "translation": "अंग्रेज़ी",
+      "definition": "The study of the English language, including grammar, reading, and writing.",
+      "definationTranslation": "अंग्रेजी भाषा का अध्ययन, जिसमें व्याकरण, पढ़ना और लिखना शामिल है।",
+      "sentence": [
+        {
+          "sentence": "SpeakEZ AI is a great tool for learning English.",
+          "translation": "SpeakEZ AI अंग्रेज़ी सीखने के लिए एक बेहतरीन टूल है।"
+        },
+        {
+          "sentence": "She is very good at English literature.",
+          "translation": "वह अंग्रेजी साहित्य में बहुत अच्छी है।"
+        }
+      ]
+    },
+    {
+      "word": "History",
+      "phoneticRespelling": "HISS-tuh-ree",
+      "translation": "इतिहास",
+      "definition": "The study of past events, particularly in human affairs.",
+      "definationTranslation": "बीती हुई घटनाओं का अध्ययन, विशेष रूप से मानवीय मामलों में।",
+      "sentence": [
+        {
+          "sentence": "History teaches us about ancient civilizations.",
+          "translation": "इतिहास हमें प्राचीन सभ्यताओं के बारे में सिखाता है।"
+        },
+        {
+          "sentence": "I have a history exam tomorrow.",
+          "translation": "कल मेरी इतिहास की परीक्षा है।"
+        }
+      ]
+    },
+    {
+      "word": "Geography",
+      "phoneticRespelling": "jee-OG-ruh-fee",
+      "translation": "भूगोल",
+      "definition": "The study of the earth's physical features, climate, and population.",
+      "definationTranslation": "पृथ्वी की भौतिक विशेषताओं, जलवायु और जनसंख्या का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "In geography, we learned about the different continents.",
+          "translation": "भूगोल में हमने विभिन्न महाद्वीपों के बारे में सीखा।"
+        },
+        {
+          "sentence": "Use a map for your geography homework.",
+          "translation": "अपने भूगोल के होमवर्क के लिए नक्शे का उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "Computer Science",
+      "phoneticRespelling": "kuhm-PYOO-tur SY-uhnss",
+      "translation": "कंप्यूटर विज्ञान",
+      "definition": "The study of computers and computational systems, including programming.",
+      "definationTranslation": "कंप्यूटर और कंप्यूटिंग प्रणालियों का अध्ययन, जिसमें प्रोग्रामिंग भी शामिल है।",
+      "sentence": [
+        {
+          "sentence": "Computer science is essential for a Flutter developer.",
+          "translation": "एक फ्लटर डेवलपर के लिए कंप्यूटर विज्ञान आवश्यक है।"
+        },
+        {
+          "sentence": "They are learning Python in computer science class.",
+          "translation": "वे कंप्यूटर साइंस की क्लास में पायथन सीख रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Art",
+      "phoneticRespelling": "ART",
+      "translation": "कला",
+      "definition": "The study of creative activities like painting, drawing, and sculpture.",
+      "definationTranslation": "पेंटिंग, ड्राइंग और मूर्तिकला जैसी रचनात्मक गतिविधियों का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "We are making clay models in our art class.",
+          "translation": "हम अपनी कला की कक्षा में मिट्टी के मॉडल बना रहे हैं।"
+        },
+        {
+          "sentence": "Art allows you to express your feelings.",
+          "translation": "कला आपको अपनी भावनाओं को व्यक्त करने की अनुमति देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Physical Education (P.E.)",
+      "phoneticRespelling": "FIZ-ih-kuhl ed-joo-KAY-shuhn",
+      "translation": "शारीरिक शिक्षा",
+      "definition": "School subject that focuses on physical fitness and sports.",
+      "definationTranslation": "स्कूली विषय जो शारीरिक फिटनेस और खेल पर केंद्रित है।",
+      "sentence": [
+        {
+          "sentence": "We play football during Physical Education.",
+          "translation": "शारीरिक शिक्षा के दौरान हम फुटबॉल खेलते हैं।"
+        },
+        {
+          "sentence": "P.E. helps students stay active and healthy.",
+          "translation": "P.E. छात्रों को सक्रिय और स्वस्थ रहने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Literature",
+      "phoneticRespelling": "LIT-ur-uh-chur",
+      "translation": "साहित्य",
+      "definition": "The study of written works, such as novels, poems, and plays.",
+      "definationTranslation": "लिखित कृतियों का अध्ययन, जैसे उपन्यास, कविताएँ और नाटक।",
+      "sentence": [
+        {
+          "sentence": "I love reading classic literature.",
+          "translation": "मुझे क्लासिक साहित्य पढ़ना पसंद है।"
+        },
+        {
+          "sentence": "The teacher assigned a new poem in literature class.",
+          "translation": "शिक्षक ने साहित्य की कक्षा में एक नई कविता दी।"
+        }
+      ]
+    },
+    {
+      "word": "Physics",
+      "phoneticRespelling": "FIZ-iks",
+      "translation": "भौतिक विज्ञान",
+      "definition": "The science that deals with matter, energy, and force.",
+      "definationTranslation": "वह विज्ञान जो पदार्थ, ऊर्जा और बल से संबंधित है।",
+      "sentence": [
+        {
+          "sentence": "Physics helps us understand the laws of motion.",
+          "translation": "भौतिक विज्ञान हमें गति के नियमों को समझने में मदद करता।"
+        },
+        {
+          "sentence": "He is studying physics at the university.",
+          "translation": "वह विश्वविद्यालय में भौतिकी की पढ़ाई कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Chemistry",
+      "phoneticRespelling": "KEM-iss-tree",
+      "translation": "रसायन विज्ञान",
+      "definition": "The science that deals with elements and how they react with each other.",
+      "definationTranslation": "वह विज्ञान जो तत्वों और वे एक-दूसरे के साथ कैसे प्रतिक्रिया करते हैं, उससे संबंधित है।",
+      "sentence": [
+        {
+          "sentence": "Chemistry involves studying atoms and molecules.",
+          "translation": "रसायन विज्ञान में परमाणुओं और अणुओं का अध्ययन शामिल है।"
+        },
+        {
+          "sentence": "Wear goggles during the chemistry lab session.",
+          "translation": "केमिस्ट्री लैब सत्र के दौरान चश्मा पहनें।"
+        }
+      ]
+    },
+    {
+      "word": "Biology",
+      "phoneticRespelling": "by-OL-uh-jee",
+      "translation": "जीव विज्ञान",
+      "definition": "The study of living organisms and their life processes.",
+      "definationTranslation": "जीवित जीवों और उनकी जीवन प्रक्रियाओं का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "Biology explains how the human body works.",
+          "translation": "जीव विज्ञान बताता है कि मानव शरीर कैसे काम करता है।"
+        },
+        {
+          "sentence": "We studied plant cells in biology today.",
+          "translation": "हमने आज जीव विज्ञान में पौधों की कोशिकाओं का अध्ययन किया।"
+        }
+      ]
+    },
+    {
+      "word": "Economics",
+      "phoneticRespelling": "ek-uh-NOM-iks",
+      "translation": "अर्थशास्त्र",
+      "definition": "The study of how wealth is created and used.",
+      "definationTranslation": "धन कैसे बनाया और उपयोग किया जाता है, इसका अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "Economics is important for understanding the market.",
+          "translation": "बाजार को समझने के लिए अर्थशास्त्र महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "She is interested in global economics.",
+          "translation": "उसकी वैश्विक अर्थशास्त्र में रुचि है।"
+        }
+      ]
+    },
+    {
+      "word": "Civics",
+      "phoneticRespelling": "SIV-iks",
+      "translation": "नागरिक शास्त्र",
+      "definition": "The study of the rights and duties of citizens.",
+      "definationTranslation": "नागरिकों के अधिकारों और कर्तव्यों का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "Civics class teaches us about our government.",
+          "translation": "नागरिक शास्त्र की कक्षा हमें हमारी सरकार के बारे में सिखाती है।"
+        },
+        {
+          "sentence": "It is important to learn civics to be a good citizen.",
+          "translation": "एक अच्छा नागरिक बनने के लिए नागरिक शास्त्र सीखना महत्वपूर्ण है।"
+        }
+      ]
+    }
+  ]
+}
