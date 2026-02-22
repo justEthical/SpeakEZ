@@ -4,9 +4,9 @@
   "subtitle": "Can handle a trip to the grocery store alone",
   "metadata": {
     "total_words": 1200,
-    "total_topics": 50,
-    "words_per_topic": 24,
-    "total_categories": 6
+    "total_topics": 80,
+    "words_per_topic": 15,
+    "total_categories": 8
   },
   "categories": [
     {
@@ -19,7 +19,9 @@
         "Invitations and Plans",
         "Celebrations and Parties",
         "Morning and Evening Routines",
-        "Personal Hygiene"
+        "Personal Hygiene",
+        "Life Milestones",
+        "Family Traditions"
       ]
     },
     {
@@ -32,7 +34,9 @@
         "At the Mall",
         "Electronics and Gadgets",
         "Returning Items",
-        "Household Appliances"
+        "Household Appliances",
+        "Local Markets",
+        "Kitchen Essentials"
       ]
     },
     {
@@ -46,7 +50,8 @@
         "At the Hotel",
         "Tourist Attractions",
         "Traveling Abroad",
-        "At the Beach"
+        "At the Beach",
+        "Asking for Directions"
       ]
     },
     {
@@ -59,7 +64,9 @@
         "Finding an Apartment",
         "Home Repairs",
         "Furniture and Decor",
-        "At the Bank"
+        "At the Bank",
+        "Job Applications",
+        "Online Learning"
       ]
     },
     {
@@ -72,7 +79,9 @@
         "TV Shows and Series",
         "Concerts and Events",
         "Games and Gaming",
-        "Saving and Spending"
+        "Saving and Spending",
+        "Sports and Teams",
+        "Outdoor Activities"
       ]
     },
     {
@@ -86,7 +95,38 @@
         "Email and Messaging",
         "Social Media Basics",
         "Making Appointments",
-        "Using Computers"
+        "Using Computers",
+        "Staying Safe Online"
+      ]
+    },
+    {
+      "category_name": "Nature and Environment",
+      "topics": [
+        "Weather and Seasons",
+        "Animals and Pets",
+        "Plants and Gardens",
+        "At the Park",
+        "Recycling and Waste",
+        "Natural Landscapes",
+        "Outdoor Weather Gear",
+        "Urban Nature",
+        "Camping and Hiking",
+        "Environmental Awareness"
+      ]
+    },
+    {
+      "category_name": "Community and Services",
+      "topics": [
+        "At the Post Office",
+        "At the Library",
+        "Local Government",
+        "Community Events",
+        "Volunteering",
+        "Emergency Services",
+        "Neighborhood Safety",
+        "Public Facilities",
+        "Social Services",
+        "Cultural Centers"
       ]
     }
   ]
