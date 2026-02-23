@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
@@ -20,16 +21,25 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   final c = Get.put(VocabularyTabController());
 
   int _selectedIndex = 0;
+  static const Set<String> _unlockedLevels = {'A1', 'A2'};
   static const List<Color> _selectedGradient = [
     Color(0xFF0EA5E9),
     Color(0xFF2563EB),
   ];
+
+  bool _isLevelUnlocked(String levelCode) =>
+      _unlockedLevels.contains(levelCode);
+
+  void _showComingSoonToast() {
+    Fluttertoast.showToast(msg: 'Coming soon');
+  }
 
   @override
   Widget build(BuildContext context) {
     PostHogService.instance.captureScreenView('pronunciation_intro_screen');
     final colorScheme = Theme.of(context).colorScheme;
     final ink = colorScheme.onSurface;
+    final levels = AppData.englishVobularyLevels.entries.toList();
 
     return Scaffold(
       appBar: AppBar(
@@ -37,10 +47,7 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
         elevation: 0,
         leading: IconButton(
           onPressed: () => Get.back(),
-          icon: Icon(
-            Icons.arrow_back_ios_new_rounded,
-            color: ink,
-          ),
+          icon: Icon(Icons.arrow_back_ios_new_rounded, color: ink),
         ),
         title: Text(
           AppStrings.pronunciationPractice.tr,
@@ -95,7 +102,9 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                       ),
                       boxShadow: [
                         BoxShadow(
-                          color: const Color(0xFF0EA5E9).withValues(alpha: 0.35),
+                          color: const Color(
+                            0xFF0EA5E9,
+                          ).withValues(alpha: 0.35),
                           blurRadius: 24,
                           offset: const Offset(0, 12),
                         ),
@@ -129,7 +138,7 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                   const SizedBox(height: 18),
                   Expanded(
                     child: GridView.builder(
-                      itemCount: AppData.englishVobularyLevels.length,
+                      itemCount: levels.length,
                       gridDelegate:
                           const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2,
@@ -138,14 +147,23 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                             childAspectRatio: 0.88,
                           ),
                       itemBuilder: (context, index) {
-                        final entry = AppData.englishVobularyLevels.entries.toList()[index];
+                        final entry = levels[index];
+                        final levelCode = entry.key;
+                        final isUnlocked = _isLevelUnlocked(levelCode);
                         final isSelected = _selectedIndex == index;
                         return _LevelTile(
                           title: entry.value['title'] as String,
                           subtitle: entry.value['subtitle'] as String,
                           isSelected: isSelected,
+                          isLocked: !isUnlocked,
                           index: index,
-                          onTap: () => setState(() => _selectedIndex = index),
+                          onTap: () {
+                            if (!isUnlocked) {
+                              _showComingSoonToast();
+                              return;
+                            }
+                            setState(() => _selectedIndex = index);
+                          },
                         );
                       },
                     ),
@@ -156,10 +174,14 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                     child: DecoratedBox(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
-                        gradient: const LinearGradient(colors: _selectedGradient),
+                        gradient: const LinearGradient(
+                          colors: _selectedGradient,
+                        ),
                         boxShadow: [
                           BoxShadow(
-                            color: const Color(0xFF2563EB).withValues(alpha: 0.3),
+                            color: const Color(
+                              0xFF2563EB,
+                            ).withValues(alpha: 0.3),
                             blurRadius: 16,
                             offset: const Offset(0, 8),
                           ),
@@ -167,7 +189,12 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                       ),
                       child: ElevatedButton(
                         onPressed: () async {
-                          Get.to(CategoryScreen(levelCode: AppData.englishVobularyLevels.keys.toList()[_selectedIndex],));
+                          final selectedLevelCode = levels[_selectedIndex].key;
+                          if (!_isLevelUnlocked(selectedLevelCode)) {
+                            _showComingSoonToast();
+                            return;
+                          }
+                          Get.to(CategoryScreen(levelCode: selectedLevelCode));
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.transparent,
@@ -204,6 +231,7 @@ class _LevelTile extends StatelessWidget {
     required this.title,
     required this.subtitle,
     required this.isSelected,
+    required this.isLocked,
     required this.index,
     required this.onTap,
   });
@@ -211,6 +239,7 @@ class _LevelTile extends StatelessWidget {
   final String title;
   final String subtitle;
   final bool isSelected;
+  final bool isLocked;
   final int index;
   final VoidCallback onTap;
 
@@ -220,12 +249,10 @@ class _LevelTile extends StatelessWidget {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final cardBg = colorScheme.onSecondary;
     final ink = colorScheme.onSurface;
-    final unselectedBorder = isDark
-        ? Colors.white.withValues(alpha: 0.10)
-        : const Color(0xFFE5E7EB);
-    final subtleText = isDark
-        ? Colors.white.withValues(alpha: 0.45)
-        : const Color(0xFF6B7280);
+    final unselectedBorder =
+        isDark ? Colors.white.withValues(alpha: 0.10) : const Color(0xFFE5E7EB);
+    final subtleText =
+        isDark ? Colors.white.withValues(alpha: 0.45) : const Color(0xFF6B7280);
 
     return Material(
       color: Colors.transparent,
@@ -240,16 +267,15 @@ class _LevelTile extends StatelessWidget {
             borderRadius: BorderRadius.circular(18),
             color: cardBg,
             border: Border.all(
-              color: isSelected
-                  ? const Color(0xFF2563EB)
-                  : unselectedBorder,
+              color: isSelected ? const Color(0xFF2563EB) : unselectedBorder,
               width: isSelected ? 2.4 : 1.2,
             ),
             boxShadow: [
               BoxShadow(
-                color: isSelected
-                    ? const Color(0xFF2563EB).withValues(alpha: 0.20)
-                    : Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
+                color:
+                    isSelected
+                        ? const Color(0xFF2563EB).withValues(alpha: 0.20)
+                        : Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
                 blurRadius: isSelected ? 16 : 10,
                 offset: const Offset(0, 6),
               ),
@@ -270,9 +296,7 @@ class _LevelTile extends StatelessWidget {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
-                  color: isSelected
-                      ? const Color(0xFF1D4ED8)
-                      : ink,
+                  color: isSelected ? const Color(0xFF1D4ED8) : ink,
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w900,
                   fontSize: 16,
@@ -284,9 +308,10 @@ class _LevelTile extends StatelessWidget {
                 maxLines: 3,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
-                  color: isSelected
-                      ? const Color(0xFF2563EB).withValues(alpha: 0.8)
-                      : subtleText,
+                  color:
+                      isSelected
+                          ? const Color(0xFF2563EB).withValues(alpha: 0.8)
+                          : subtleText,
                   fontFamily: AppStrings.nunitoFont,
                   fontWeight: FontWeight.w600,
                   fontSize: 11,
@@ -297,13 +322,18 @@ class _LevelTile extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    isSelected
+                    isLocked
+                        ? 'Coming soon'
+                        : isSelected
                         ? AppStrings.vocabSelected.tr
                         : AppStrings.vocabTapToSelect.tr,
                     style: TextStyle(
-                      color: isSelected
-                          ? const Color(0xFF1D4ED8)
-                          : subtleText,
+                      color:
+                          isLocked
+                              ? subtleText
+                              : isSelected
+                              ? const Color(0xFF1D4ED8)
+                              : subtleText,
                       fontFamily: AppStrings.nunitoFont,
                       fontWeight: FontWeight.w700,
                       fontSize: 12,
@@ -311,13 +341,18 @@ class _LevelTile extends StatelessWidget {
                   ),
                   const Spacer(),
                   Icon(
-                    isSelected
+                    isLocked
+                        ? Icons.lock_rounded
+                        : isSelected
                         ? Icons.check_circle_rounded
                         : Icons.arrow_forward_rounded,
                     size: 18,
-                    color: isSelected
-                        ? const Color(0xFF1D4ED8)
-                        : subtleText,
+                    color:
+                        isLocked
+                            ? subtleText
+                            : isSelected
+                            ? const Color(0xFF1D4ED8)
+                            : subtleText,
                   ),
                 ],
               ),

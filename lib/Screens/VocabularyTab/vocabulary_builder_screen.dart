@@ -160,16 +160,19 @@ class _VocabularyBuilderScreenState extends State<VocabularyBuilderScreen>
                   title: AppStrings.vocabularyPractice.tr,
                   subtitle: AppStrings.vocabularyPracticeSubtitle.tr,
                   icon: Icons.menu_book_rounded,
-                  buttonText: 'explore'.tr,
+                  buttonText: 'Coming soon',
                   gradientColors: const [Color(0xFFF59E0B), Color(0xFFEF4444)],
+                  isLocked: true,
                   onTap: () {
                     PostHogService.instance.capture(
                       PostHogEvents.cardClicked,
                       properties: {
                         'card_name': 'vocabulary_practice',
                         'screen_name': 'vocabulary_builder_screen',
+                        'status': 'coming_soon',
                       },
                     );
+                    globalController.showSnackbarWithGetX('', 'Coming soon');
                   },
                 ),
               ),
@@ -321,6 +324,7 @@ class _PracticeCard extends StatelessWidget {
     required this.buttonText,
     required this.gradientColors,
     required this.onTap,
+    this.isLocked = false,
   });
 
   final String title;
@@ -329,99 +333,105 @@ class _PracticeCard extends StatelessWidget {
   final String buttonText;
   final List<Color> gradientColors;
   final VoidCallback onTap;
+  final bool isLocked;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
-      child: Container(
-        width: double.infinity,
-        padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
-          gradient: LinearGradient(
-            colors: gradientColors,
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
+      child: Opacity(
+        opacity: isLocked ? 0.82 : 1,
+        child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            gradient: LinearGradient(
+              colors: gradientColors,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: gradientColors.first.withValues(alpha: 0.3),
+                blurRadius: 15,
+                offset: const Offset(0, 8),
+              ),
+            ],
           ),
-          boxShadow: [
-            BoxShadow(
-              color: gradientColors.first.withValues(alpha: 0.3),
-              blurRadius: 15,
-              offset: const Offset(0, 8),
-            ),
-          ],
-        ),
-        child: Row(
-          children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontFamily: AppStrings.nunitoFont,
-                      fontWeight: FontWeight.w800,
-                      fontSize: 18,
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontFamily: AppStrings.nunitoFont,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 18,
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    subtitle,
-                    style: TextStyle(
-                      color: Colors.white.withValues(alpha: 0.85),
-                      fontFamily: AppStrings.nunitoFont,
-                      fontWeight: FontWeight.w500,
-                      fontSize: 13,
+                    const SizedBox(height: 6),
+                    Text(
+                      subtitle,
+                      style: TextStyle(
+                        color: Colors.white.withValues(alpha: 0.85),
+                        fontFamily: AppStrings.nunitoFont,
+                        fontWeight: FontWeight.w500,
+                        fontSize: 13,
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 12),
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 14,
-                      vertical: 8,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withValues(alpha: 0.2),
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          buttonText,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontFamily: AppStrings.nunitoFont,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 13,
+                    const SizedBox(height: 12),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 14,
+                        vertical: 8,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.2),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            buttonText,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontFamily: AppStrings.nunitoFont,
+                              fontWeight: FontWeight.w700,
+                              fontSize: 13,
+                            ),
                           ),
-                        ),
-                        const SizedBox(width: 4),
-                        const Icon(
-                          Icons.arrow_forward_rounded,
-                          color: Colors.white,
-                          size: 16,
-                        ),
-                      ],
+                          const SizedBox(width: 4),
+                          Icon(
+                            isLocked
+                                ? Icons.lock_rounded
+                                : Icons.arrow_forward_rounded,
+                            color: Colors.white,
+                            size: 16,
+                          ),
+                        ],
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            const SizedBox(width: 15),
-            Container(
-              width: 65,
-              height: 65,
-              decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha: 0.2),
-                borderRadius: BorderRadius.circular(18),
+              const SizedBox(width: 15),
+              Container(
+                width: 65,
+                height: 65,
+                decoration: BoxDecoration(
+                  color: Colors.white.withValues(alpha: 0.2),
+                  borderRadius: BorderRadius.circular(18),
+                ),
+                child: Icon(icon, color: Colors.white),
               ),
-              child: Icon(icon, color: Colors.white),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
