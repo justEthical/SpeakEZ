@@ -1,3 +1,260 @@
 {
-  "topic": "Tourist Attractions"
+  "topic": "Tourist Attractions",
+  "words": [
+    {
+      "word": "landmark",
+      "phoneticRespelling": "LAND-mahrk",
+      "translation": "मशहूर स्थल / पहचान चिह्न",
+      "definition": "A famous building or object that is easily recognized and helps you know where you are.",
+      "definationTranslation": "एक प्रसिद्ध इमारत या वस्तु जिसे आसानी से पहचाना जा सकता है और जो आपको यह जानने में मदद करती है कि आप कहाँ हैं।",
+      "sentence": [
+        {
+          "sentence": "The Eiffel Tower is the most famous landmark in Paris.",
+          "translation": "एफ़िल टॉवर पेरिस का सबसे प्रसिद्ध मील का पत्थर (landmark) है।"
+        },
+        {
+          "sentence": "India Gate is a major landmark in Delhi.",
+          "translation": "इंडिया गेट दिल्ली का एक प्रमुख पहचान स्थल है।"
+        }
+      ]
+    },
+    {
+      "word": "itinerary",
+      "phoneticRespelling": "ahy-TIN-uh-rer-ee",
+      "translation": "यात्रा कार्यक्रम",
+      "definition": "A detailed plan or route for a journey.",
+      "definationTranslation": "यात्रा के लिए एक विस्तृत योजना या मार्ग।",
+      "sentence": [
+        {
+          "sentence": "We have a very busy itinerary for our three-day trip.",
+          "translation": "हमारी तीन दिवसीय यात्रा के लिए हमारा यात्रा कार्यक्रम बहुत व्यस्त है।"
+        },
+        {
+          "sentence": "The tour guide gave us a copy of the travel itinerary.",
+          "translation": "टूर गाइड ने हमें यात्रा कार्यक्रम की एक प्रति दी।"
+        }
+      ]
+    },
+    {
+      "word": "scenic",
+      "phoneticRespelling": "SEE-nik",
+      "translation": "प्राकृतिक सुंदरता वाला / सुरम्य",
+      "definition": "Having beautiful natural scenery.",
+      "definationTranslation": "सुंदर प्राकृतिक दृश्यों वाला।",
+      "sentence": [
+        {
+          "sentence": "We took a scenic route through the mountains.",
+          "translation": "हमने पहाड़ों के बीच से एक सुंदर प्राकृतिक रास्ता चुना।"
+        },
+        {
+          "sentence": "The view from the balcony is absolutely scenic.",
+          "translation": "बालकनी से नज़ारा वाकई में बहुत खूबसूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "heritage",
+      "phoneticRespelling": "HER-i-tij",
+      "translation": "विरासत",
+      "definition": "The history, traditions, and buildings that are part of a country's culture.",
+      "definationTranslation": "इतिहास, परंपराएं और इमारतें जो किसी देश की संस्कृति का हिस्सा हैं।",
+      "sentence": [
+        {
+          "sentence": "The Taj Mahal is an important part of India's world heritage.",
+          "translation": "ताजमहल भारत की विश्व विरासत का एक महत्वपूर्ण हिस्सा है।"
+        },
+        {
+          "sentence": "We must protect our cultural heritage for future generations.",
+          "translation": "हमें अपनी सांस्कृतिक विरासत को भावी पीढ़ियों के लिए सुरक्षित रखना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "souvenir",
+      "phoneticRespelling": "soo-vuh-NEER",
+      "translation": "यादगार / स्मृति चिन्ह",
+      "definition": "Something you buy to help you remember a place you visited.",
+      "definationTranslation": "वह चीज़ जो आप किसी स्थान की यात्रा को याद रखने के लिए खरीदते हैं।",
+      "sentence": [
+        {
+          "sentence": "I bought a small magnet as a souvenir from the museum.",
+          "translation": "मैंने संग्रहालय से एक स्मृति चिन्ह के रूप में एक छोटा चुंबक खरीदा।"
+        },
+        {
+          "sentence": "This t-shirt is my favorite souvenir from London.",
+          "translation": "यह टी-शर्ट लंदन से मेरा पसंदीदा स्मृति चिन्ह है।"
+        }
+      ]
+    },
+    {
+      "word": "monument",
+      "phoneticRespelling": "MON-yuh-muhnt",
+      "translation": "स्मारक",
+      "definition": "A structure built to honor a person or an event.",
+      "definationTranslation": "किसी व्यक्ति या घटना के सम्मान में बनाई गई संरचना।",
+      "sentence": [
+        {
+          "sentence": "They visited the historic monuments of Ancient Rome.",
+          "translation": "उन्होंने प्राचीन रोम के ऐतिहासिक स्मारकों का दौरा किया।"
+        },
+        {
+          "sentence": "The statue was built as a monument to the soldiers.",
+          "translation": "मूर्ति सैनिकों के स्मारक के रूप में बनाई गई थी।"
+        }
+      ]
+    },
+    {
+      "word": "admission",
+      "phoneticRespelling": "ad-MISH-uhn",
+      "translation": "प्रवेश शुल्क",
+      "definition": "The money you pay to enter a place like a museum or park.",
+      "definationTranslation": "संग्रहालय या पार्क जैसी जगह में प्रवेश करने के लिए आपके द्वारा दिया जाने वाला पैसा।",
+      "sentence": [
+        {
+          "sentence": "The admission fee to the zoo is five dollars.",
+          "translation": "चिड़ियाघर का प्रवेश शुल्क पाँच डॉलर है।"
+        },
+        {
+          "sentence": "Students can get free admission on Tuesdays.",
+          "translation": "छात्रों को मंगलवार को मुफ्त प्रवेश मिल सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "spectacular",
+      "phoneticRespelling": "spek-TAK-yuh-ler",
+      "translation": "शानदार / भव्य",
+      "definition": "Very exciting and impressive to look at.",
+      "definationTranslation": "देखने में बहुत रोमांचक और प्रभावशाली।",
+      "sentence": [
+        {
+          "sentence": "The fireworks display was absolutely spectacular.",
+          "translation": "आतिशबाजी का प्रदर्शन वाकई शानदार था।"
+        },
+        {
+          "sentence": "We had a spectacular view of the ocean from our hotel.",
+          "translation": "हमारे होटल से समुद्र का भव्य नज़ारा दिख रहा था।"
+        }
+      ]
+    },
+    {
+      "word": "guided tour",
+      "phoneticRespelling": "GAHY-did TOOR",
+      "translation": "निर्देशित यात्रा",
+      "definition": "A tour where a person explains things about the place you are visiting.",
+      "definationTranslation": "एक यात्रा जहाँ एक व्यक्ति उस स्थान के बारे में बताता है जिसका आप दौरा कर रहे हैं।",
+      "sentence": [
+        {
+          "sentence": "We took a guided tour to learn more about the castle's history.",
+          "translation": "हमने महल के इतिहास के बारे में और जानने के लिए एक 'गाइडेड टूर' (निर्देशित यात्रा) लिया।"
+        },
+        {
+          "sentence": "Is a guided tour included in the ticket price?",
+          "translation": "क्या टिकट की कीमत में गाइडेड टूर शामिल है?"
+        }
+      ]
+    },
+    {
+      "word": "breathtaking",
+      "phoneticRespelling": "BRETH-tey-king",
+      "translation": "अत्यंत सुंदर / दिलकश",
+      "definition": "Extremely beautiful or surprising.",
+      "definationTranslation": "अत्यंत सुंदर या आश्चर्यजनक।",
+      "sentence": [
+        {
+          "sentence": "The sunset over the mountains was breathtaking.",
+          "translation": "पहाड़ों पर सूर्यास्त का नज़ारा दिलकश था।"
+        },
+        {
+          "sentence": "The architecture of the cathedral is breathtaking.",
+          "translation": "कैथेड्रल की वास्तुकला बहुत ही सुंदर है।"
+        }
+      ]
+    },
+    {
+      "word": "exhibition",
+      "phoneticRespelling": "ek-suh-BISH-uhn",
+      "translation": "प्रदर्शनी",
+      "definition": "A public show of art, objects, or skills.",
+      "definationTranslation": "कला, वस्तुओं या कौशल का सार्वजनिक प्रदर्शन।",
+      "sentence": [
+        {
+          "sentence": "There is a new photography exhibition at the gallery.",
+          "translation": "गैलरी में एक नई फोटोग्राफी प्रदर्शनी लगी है।"
+        },
+        {
+          "sentence": "The museum is hosting an exhibition on ancient Egypt.",
+          "translation": "संग्रहालय प्राचीन मिस्र पर एक प्रदर्शनी की मेजबानी कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "thrilling",
+      "phoneticRespelling": "THRIL-ing",
+      "translation": "रोमांचक",
+      "definition": "Extremely exciting and enjoyable.",
+      "definationTranslation": "बेहद रोमांचक और आनंददायक।",
+      "sentence": [
+        {
+          "sentence": "The roller coaster ride was truly thrilling.",
+          "translation": "रोलर कोस्टर की सवारी वास्तव में रोमांचक थी।"
+        },
+        {
+          "sentence": "It was a thrilling experience to see a tiger in the wild.",
+          "translation": "जंगल में बाघ को देखना एक रोमांचक अनुभव था।"
+        }
+      ]
+    },
+    {
+      "word": "bustling",
+      "phoneticRespelling": "BUHS-ling",
+      "translation": "हलचल भरा / व्यस्त",
+      "definition": "Full of busy activity.",
+      "definationTranslation": "व्यस्त गतिविधि से भरा हुआ।",
+      "sentence": [
+        {
+          "sentence": "The city center is always bustling with people.",
+          "translation": "शहर का केंद्र हमेशा लोगों की हलचल से भरा रहता है।"
+        },
+        {
+          "sentence": "We explored the bustling night markets of Bangkok.",
+          "translation": "हमने बैंकॉक के हलचल भरे नाइट मार्केट्स की सैर की।"
+        }
+      ]
+    },
+    {
+      "word": "picturesque",
+      "phoneticRespelling": "pik-cher-ESK",
+      "translation": "चित्र जैसा सुंदर",
+      "definition": "Attractive in appearance, like a beautiful picture.",
+      "definationTranslation": "दिखने में आकर्षक, जैसे कि कोई सुंदर चित्र।",
+      "sentence": [
+        {
+          "sentence": "The village is very picturesque with its narrow streets and colorful houses.",
+          "translation": "गाँव अपनी संकरी गलियों और रंगीन घरों के साथ बहुत ही सुंदर (picturesque) है।"
+        },
+        {
+          "sentence": "We stayed at a picturesque cottage near the lake.",
+          "translation": "हम झील के पास एक बहुत ही सुंदर झोपड़ी (cottage) में ठहरे।"
+        }
+      ]
+    },
+    {
+      "word": "must-see",
+      "phoneticRespelling": "MUHST-see",
+      "translation": "अवश्य देखने योग्य",
+      "definition": "Something that is so good that you must visit it.",
+      "definationTranslation": "कुछ ऐसा जो इतना अच्छा हो कि आपको उसे देखना ही चाहिए।",
+      "sentence": [
+        {
+          "sentence": "The Grand Canyon is a must-see for anyone visiting Arizona.",
+          "translation": "एरिज़ोना जाने वाले किसी भी व्यक्ति के लिए ग्रैंड कैन्यन अवश्य देखने योग्य स्थान है।"
+        },
+        {
+          "sentence": "This museum is a must-see attraction in the city.",
+          "translation": "यह संग्रहालय शहर का एक अनिवार्य आकर्षण है।"
+        }
+      ]
+    }
+  ]
 }

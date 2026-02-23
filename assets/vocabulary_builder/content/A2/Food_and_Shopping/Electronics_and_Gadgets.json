@@ -1,3 +1,260 @@
 {
-  "topic": "Electronics and Gadgets"
+  "topic": "Electronics and Gadgets",
+  "words": [
+    {
+      "word": "smartphone",
+      "phoneticRespelling": "SMAHRT-fohn",
+      "translation": "स्मार्टफोन",
+      "definition": "A mobile phone that can connect to the internet and run apps.",
+      "definationTranslation": "एक मोबाइल फोन जो इंटरनेट से जुड़ सकता है और ऐप्स चला सकता है।",
+      "sentence": [
+        {
+          "sentence": "I use my smartphone to take photos and check emails.",
+          "translation": "मैं फोटो लेने और ईमेल चेक करने के लिए अपने स्मार्टफोन का उपयोग करता हूँ।"
+        },
+        {
+          "sentence": "The battery of my smartphone lasts all day.",
+          "translation": "मेरे स्मार्टफोन की बैटरी पूरे दिन चलती है।"
+        }
+      ]
+    },
+    {
+      "word": "laptop",
+      "phoneticRespelling": "LAP-top",
+      "translation": "लैपटॉप",
+      "definition": "A small computer that you can carry with you.",
+      "definationTranslation": "एक छोटा कंप्यूटर जिसे आप अपने साथ ले जा सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "He opened his laptop to start working on the project.",
+          "translation": "उसने प्रोजेक्ट पर काम शुरू करने के लिए अपना लैपटॉप खोला।"
+        },
+        {
+          "sentence": "I need a lightweight laptop for traveling.",
+          "translation": "मुझे यात्रा के लिए हल्के वजन वाले लैपटॉप की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "charger",
+      "phoneticRespelling": "CHAHR-jer",
+      "translation": "चार्जर",
+      "definition": "A device used to put electricity into a battery.",
+      "definationTranslation": "बैटरी में बिजली भरने के लिए उपयोग किया जाने वाला उपकरण।",
+      "sentence": [
+        {
+          "sentence": "I forgot my phone charger at home.",
+          "translation": "मैं अपने फोन का चार्जर घर पर भूल गया।"
+        },
+        {
+          "sentence": "Does this charger work with your laptop?",
+          "translation": "क्या यह चार्जर आपके लैपटॉप के साथ काम करता है?"
+        }
+      ]
+    },
+    {
+      "word": "headphones",
+      "phoneticRespelling": "HED-fohnz",
+      "translation": "हेडफ़ोन",
+      "definition": "A piece of equipment that you wear over your ears to listen to music.",
+      "definationTranslation": "उपकरण का एक टुकड़ा जिसे आप संगीत सुनने के लिए अपने कानों पर पहनते हैं।",
+      "sentence": [
+        {
+          "sentence": "He put on his headphones to block out the noise.",
+          "translation": "उसने शोर को रोकने के लिए अपने हेडफ़ोन पहन लिए।"
+        },
+        {
+          "sentence": "Wireless headphones are very popular these days.",
+          "translation": "वायरलेस हेडफ़ोन आजकल बहुत लोकप्रिय हैं।"
+        }
+      ]
+    },
+    {
+      "word": "screen",
+      "phoneticRespelling": "SKREEN",
+      "translation": "स्क्रीन / पर्दा",
+      "definition": "The flat part of a television or computer where the image appears.",
+      "definationTranslation": "टेलीविजन या कंप्यूटर का वह सपाट हिस्सा जहां चित्र दिखाई देता है।",
+      "sentence": [
+        {
+          "sentence": "The screen of my tablet is cracked.",
+          "translation": "मेरे टैबलेट की स्क्रीन टूट गई है।"
+        },
+        {
+          "sentence": "This television has a very large screen.",
+          "translation": "इस टेलीविज़न की स्क्रीन बहुत बड़ी है।"
+        }
+      ]
+    },
+    {
+      "word": "wireless",
+      "phoneticRespelling": "WAHYER-lis",
+      "translation": "बेतार / वायरलेस",
+      "definition": "Using radio signals instead of wires to connect to the internet or other devices.",
+      "definationTranslation": "इंटरनेट या अन्य उपकरणों से जुड़ने के लिए तारों के बजाय रेडियो संकेतों का उपयोग करना।",
+      "sentence": [
+        {
+          "sentence": "The office has a fast wireless connection.",
+          "translation": "कार्यालय में तेज़ वायरलेस कनेक्शन है।"
+        },
+        {
+          "sentence": "I bought a wireless mouse for my computer.",
+          "translation": "मैंने अपने कंप्यूटर के लिए एक वायरलेस माउस खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "battery",
+      "phoneticRespelling": "BAT-uh-ree",
+      "translation": "बैटरी",
+      "definition": "An object that provides electricity for a gadget.",
+      "definationTranslation": "एक वस्तु जो गैजेट के लिए बिजली प्रदान करती है।",
+      "sentence": [
+        {
+          "sentence": "My camera battery is low; I need to charge it.",
+          "translation": "मेरे कैमरे की बैटरी कम है; मुझे इसे चार्ज करने की ज़रूरत है।"
+        },
+        {
+          "sentence": "This remote control needs two new batteries.",
+          "translation": "इस रिमोट कंट्रोल को दो नई बैटरियों की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "camera",
+      "phoneticRespelling": "KAM-ruh",
+      "translation": "कैमरा",
+      "definition": "A device used for taking photographs or recording videos.",
+      "definationTranslation": "तस्वीरें लेने या वीडियो रिकॉर्ड करने के लिए उपयोग किया जाने वाला उपकरण।",
+      "sentence": [
+        {
+          "sentence": "She pointed the camera at the flowers and took a photo.",
+          "translation": "उसने फूलों की ओर कैमरा घुमाया और एक फोटो ली।"
+        },
+        {
+          "sentence": "Most smartphones have a very good camera.",
+          "translation": "ज्यादातर स्मार्टफोन में बहुत अच्छा कैमरा होता है।"
+        }
+      ]
+    },
+    {
+      "word": "power bank",
+      "phoneticRespelling": "POU-er bangk",
+      "translation": "पावर बैंक",
+      "definition": "A portable device that can charge gadgets when you are away from a plug.",
+      "definationTranslation": "एक पोर्टेबल उपकरण जो प्लग से दूर होने पर गैजेट्स को चार्ज कर सकता है।",
+      "sentence": [
+        {
+          "sentence": "I always carry a power bank when I go on long trips.",
+          "translation": "लंबी यात्रा पर जाते समय मैं हमेशा अपने साथ पावर बैंक रखता हूँ।"
+        },
+        {
+          "sentence": "My power bank can charge my phone three times.",
+          "translation": "मेरा पावर बैंक मेरे फोन को तीन बार चार्ज कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "smartwatch",
+      "phoneticRespelling": "SMAHRT-woch",
+      "translation": "स्मार्टवॉच",
+      "definition": "A watch that has many of the features of a smartphone.",
+      "definationTranslation": "एक घड़ी जिसमें स्मार्टफोन की कई विशेषताएं होती हैं।",
+      "sentence": [
+        {
+          "sentence": "My smartwatch tracks how many steps I walk every day.",
+          "translation": "मेरी स्मार्टवॉच ट्रैक करती है कि मैं हर दिन कितने कदम चलता हूँ।"
+        },
+        {
+          "sentence": "He received a text message on his smartwatch.",
+          "translation": "उसे अपनी स्मार्टवॉच पर एक टेक्स्ट मैसेज मिला।"
+        }
+      ]
+    },
+    {
+      "word": "tablet",
+      "phoneticRespelling": "TAB-lit",
+      "translation": "टैबलेट",
+      "definition": "A small computer with a large touch screen.",
+      "definationTranslation": "एक बड़ी टच स्क्रीन वाला छोटा कंप्यूटर।",
+      "sentence": [
+        {
+          "sentence": "The children love playing games on the tablet.",
+          "translation": "बच्चों को टैबलेट पर गेम खेलना बहुत पसंद है।"
+        },
+        {
+          "sentence": "I use my tablet to read digital books.",
+          "translation": "मैं डिजिटल किताबें पढ़ने के लिए अपने टैबलेट का उपयोग करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "speaker",
+      "phoneticRespelling": "SPEE-ker",
+      "translation": "स्पीकर",
+      "definition": "A device that makes sound louder.",
+      "definationTranslation": "एक उपकरण जो ध्वनि को तेज़ बनाता है।",
+      "sentence": [
+        {
+          "sentence": "Connect your phone to the Bluetooth speaker to play music.",
+          "translation": "संगीत चलाने के लिए अपने फोन को ब्लूटूथ स्पीकर से जोड़ें।"
+        },
+        {
+          "sentence": "The sound from the speakers was very clear.",
+          "translation": "स्पीकर से आने वाली आवाज़ बहुत साफ थी।"
+        }
+      ]
+    },
+    {
+      "word": "keyboard",
+      "phoneticRespelling": "KEE-bawrd",
+      "translation": "कीबोर्ड",
+      "definition": "A set of keys used for typing on a computer.",
+      "definationTranslation": "कंप्यूटर पर टाइप करने के लिए उपयोग किए जाने वाले बटनों का एक सेट।",
+      "sentence": [
+        {
+          "sentence": "She types very fast on her computer keyboard.",
+          "translation": "वह अपने कंप्यूटर कीबोर्ड पर बहुत तेज़ टाइप करती है।"
+        },
+        {
+          "sentence": "I spilled some water on my keyboard by mistake.",
+          "translation": "मैंने गलती से अपने कीबोर्ड पर थोड़ा पानी गिरा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "storage",
+      "phoneticRespelling": "STAWR-ij",
+      "translation": "भंडारण / स्टोरेज",
+      "definition": "The amount of space available for saving data on a device.",
+      "definationTranslation": "किसी डिवाइस पर डेटा सहेजने के लिए उपलब्ध स्थान की मात्रा।",
+      "sentence": [
+        {
+          "sentence": "I need to delete some photos because my phone storage is full.",
+          "translation": "मुझे कुछ तस्वीरें हटाने की ज़रूरत है क्योंकि मेरे फोन का स्टोरेज भर गया है।"
+        },
+        {
+          "sentence": "This laptop has one terabyte of storage.",
+          "translation": "इस लैपटॉप में एक टेराबाइट स्टोरेज है।"
+        }
+      ]
+    },
+    {
+      "word": "feature",
+      "phoneticRespelling": "FEE-cher",
+      "translation": "विशेषता / फीचर",
+      "definition": "An important part or ability of a gadget.",
+      "definationTranslation": "किसी गैजेट का एक महत्वपूर्ण हिस्सा या क्षमता।",
+      "sentence": [
+        {
+          "sentence": "The new phone has a special water-resistant feature.",
+          "translation": "नए फोन में एक विशेष जल-प्रतिरोधी विशेषता है।"
+        },
+        {
+          "sentence": "What is your favorite feature of this camera?",
+          "translation": "इस कैमरे की आपकी पसंदीदा विशेषता क्या है?"
+        }
+      ]
+    }
+  ]
 }

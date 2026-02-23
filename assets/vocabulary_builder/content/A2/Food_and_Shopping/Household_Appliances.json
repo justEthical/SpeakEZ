@@ -1,3 +1,260 @@
 {
-  "topic": "Household Appliances"
+  "topic": "Household Appliances",
+  "words": [
+    {
+      "word": "refrigerator",
+      "phoneticRespelling": "ri-FRIJ-uh-rey-ter",
+      "translation": "फ्रिज",
+      "definition": "A large piece of electrical equipment used for keeping food and drinks cold.",
+      "definationTranslation": "भोजन और पेय पदार्थों को ठंडा रखने के लिए उपयोग किया जाने वाला एक बड़ा विद्युत उपकरण।",
+      "sentence": [
+        {
+          "sentence": "Please put the milk back in the refrigerator.",
+          "translation": "कृपया दूध वापस फ्रिज में रख दें।"
+        },
+        {
+          "sentence": "Our refrigerator is full of fresh vegetables.",
+          "translation": "हमारा फ्रिज ताजी सब्जियों से भरा है।"
+        }
+      ]
+    },
+    {
+      "word": "microwave",
+      "phoneticRespelling": "MAHY-kruh-weyv",
+      "translation": "माइक्रोवेव",
+      "definition": "An electric oven that uses waves of energy to cook or heat food very quickly.",
+      "definationTranslation": "एक इलेक्ट्रिक ओवन जो भोजन को बहुत जल्दी पकाने या गर्म करने के लिए ऊर्जा की तरंगों का उपयोग करता है।",
+      "sentence": [
+        {
+          "sentence": "You can heat the pizza in the microwave for one minute.",
+          "translation": "आप पिज्जा को माइक्रोवेव में एक मिनट के लिए गर्म कर सकते हैं।"
+        },
+        {
+          "sentence": "I use the microwave to defrost frozen meat.",
+          "translation": "मैं जमे हुए मांस को पिघलाने के लिए माइक्रोवेव का उपयोग करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "washing machine",
+      "phoneticRespelling": "WOSH-ing muh-SHEEN",
+      "translation": "वाशिंग मशीन",
+      "definition": "A machine for washing clothes.",
+      "definationTranslation": "कपड़े धोने की मशीन।",
+      "sentence": [
+        {
+          "sentence": "I need to put my dirty clothes in the washing machine.",
+          "translation": "मुझे अपने गंदे कपड़े वाशिंग मशीन में डालने हैं।"
+        },
+        {
+          "sentence": "The washing machine is making a loud noise.",
+          "translation": "वाशिंग मशीन तेज़ आवाज़ कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "vacuum cleaner",
+      "phoneticRespelling": "VAK-yoom klee-ner",
+      "translation": "वैक्यूम क्लीनर",
+      "definition": "An electrical machine that cleans floors by sucking up dust and dirt.",
+      "definationTranslation": "एक विद्युत मशीन जो धूल और गंदगी को सोखकर फर्श साफ करती है।",
+      "sentence": [
+        {
+          "sentence": "I use the vacuum cleaner to clean the carpets every Sunday.",
+          "translation": "मैं हर रविवार को कालीन साफ करने के लिए वैक्यूम क्लीनर का उपयोग करता हूँ।"
+        },
+        {
+          "sentence": "The vacuum cleaner is very easy to use.",
+          "translation": "वैक्यूम क्लीनर का उपयोग करना बहुत आसान है।"
+        }
+      ]
+    },
+    {
+      "word": "air conditioner",
+      "phoneticRespelling": "AIR kuhn-DISH-uh-ner",
+      "translation": "वातानुकूलक (एसी)",
+      "definition": "A machine that keeps the air in a building cool and dry.",
+      "definationTranslation": "एक मशीन जो इमारत की हवा को ठंडा और शुष्क रखती है।",
+      "sentence": [
+        {
+          "sentence": "It is very hot today, so please turn on the air conditioner.",
+          "translation": "आज बहुत गर्मी है, इसलिए कृपया एयर कंडीशनर चला दें।"
+        },
+        {
+          "sentence": "The air conditioner makes the room very comfortable.",
+          "translation": "एयर कंडीशनर कमरे को बहुत आरामदायक बना देता है।"
+        }
+      ]
+    },
+    {
+      "word": "toaster",
+      "phoneticRespelling": "TOH-ster",
+      "translation": "टोस्टर",
+      "definition": "An electrical device used for making toast.",
+      "definationTranslation": "टोस्ट बनाने के लिए इस्तेमाल किया जाने वाला एक विद्युत उपकरण।",
+      "sentence": [
+        {
+          "sentence": "I put two slices of bread in the toaster.",
+          "translation": "मैंने टोस्टर में ब्रेड के दो स्लाइस डाले।"
+        },
+        {
+          "sentence": "Be careful, the toaster is still hot.",
+          "translation": "सावधान रहें, टोस्टर अभी भी गर्म है।"
+        }
+      ]
+    },
+    {
+      "word": "kettle",
+      "phoneticRespelling": "KET-l",
+      "translation": "केटली",
+      "definition": "A container with a lid and handle, used for boiling water.",
+      "definationTranslation": "ढक्कन और हैंडल वाला एक बर्तन, जिसका उपयोग पानी उबालने के लिए किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "I will boil some water in the kettle for tea.",
+          "translation": "मैं चाय के लिए केतली में थोड़ा पानी उबालूँगा।"
+        },
+        {
+          "sentence": "The electric kettle switches off automatically when the water boils.",
+          "translation": "पानी उबलने पर इलेक्ट्रिक केतली अपने आप बंद हो जाती है।"
+        }
+      ]
+    },
+    {
+      "word": "dishwasher",
+      "phoneticRespelling": "DISH-wosh-er",
+      "translation": "बर्तन धोने की मशीन",
+      "definition": "A machine that washes plates, glasses, and cutlery.",
+      "definationTranslation": "एक मशीन जो प्लेट, गिलास और कटलरी धोती है।",
+      "sentence": [
+        {
+          "sentence": "Don't forget to load the dishwasher after dinner.",
+          "translation": "रात के खाने के बाद डिशवॉशर में बर्तन डालना न भूलें।"
+        },
+        {
+          "sentence": "Using a dishwasher saves a lot of time.",
+          "translation": "डिशवॉशर का उपयोग करने से काफी समय बचता है।"
+        }
+      ]
+    },
+    {
+      "word": "iron",
+      "phoneticRespelling": "AHY-ern",
+      "translation": "इस्त्री / प्रेस",
+      "definition": "A tool that is heated and used for making clothes smooth.",
+      "definationTranslation": "एक उपकरण जिसे गर्म किया जाता है और कपड़ों को चिकना करने (सिलवटें हटाने) के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "I need to iron my shirt for the interview.",
+          "translation": "मुझे इंटरव्यू के लिए अपनी शर्ट पर इस्त्री करने की ज़रूरत है।"
+        },
+        {
+          "sentence": "Is the iron hot enough yet?",
+          "translation": "क्या प्रेस अभी पर्याप्त गर्म है?"
+        }
+      ]
+    },
+    {
+      "word": "blender",
+      "phoneticRespelling": "BLEN-der",
+      "translation": "मिक्सर / ब्लेंडर",
+      "definition": "An electric machine used for breaking food into very small pieces or making liquids smooth.",
+      "definationTranslation": "भोजन को बहुत छोटे टुकड़ों में तोड़ने या तरल पदार्थ को चिकना बनाने के लिए उपयोग की जाने वाली इलेक्ट्रिक मशीन।",
+      "sentence": [
+        {
+          "sentence": "I use the blender to make fruit smoothies.",
+          "translation": "मैं फ्रूट स्मूदी बनाने के लिए ब्लेंडर का उपयोग करता हूँ।"
+        },
+        {
+          "sentence": "Put the bananas and milk in the blender.",
+          "translation": "केले और दूध को ब्लेंडर में डालें।"
+        }
+      ]
+    },
+    {
+      "word": "fan",
+      "phoneticRespelling": "FAN",
+      "translation": "पंखा",
+      "definition": "An electrical device that moves the air to make you feel cool.",
+      "definationTranslation": "एक विद्युत उपकरण जो आपको ठंडक महसूस कराने के लिए हवा को चलाता है।",
+      "sentence": [
+        {
+          "sentence": "The ceiling fan is rotating very slowly.",
+          "translation": "छत का पंखा बहुत धीरे घूम रहा है।"
+        },
+        {
+          "sentence": "Turn on the fan if you feel warm.",
+          "translation": "अगर आपको गर्मी लग रही है तो पंखा चला दें।"
+        }
+      ]
+    },
+    {
+      "word": "oven",
+      "phoneticRespelling": "UHV-uhn",
+      "translation": "ओवन / तंदूर",
+      "definition": "A piece of kitchen equipment with a door which is used for baking or roasting food.",
+      "definationTranslation": "दरवाजे वाला रसोई का एक उपकरण जिसका उपयोग भोजन को बेक करने या भूनने के लिए किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The chicken is roasting in the oven.",
+          "translation": "चिकन ओवन में भुन रहा है।"
+        },
+        {
+          "sentence": "Preheat the oven to 180°C before baking the cake.",
+          "translation": "केक बेक करने से पहले ओवन को 180°C पर पहले से गर्म कर लें।"
+        }
+      ]
+    },
+    {
+      "word": "hairdryer",
+      "phoneticRespelling": "HAIR-drahy-er",
+      "translation": "हेयर ड्रायर",
+      "definition": "A small machine that blows out hot air to dry your hair.",
+      "definationTranslation": "एक छोटी मशीन जो आपके बालों को सुखाने के लिए गर्म हवा बाहर निकालती है।",
+      "sentence": [
+        {
+          "sentence": "She used a hairdryer to dry her hair quickly.",
+          "translation": "उसने अपने बालों को जल्दी सुखाने के लिए हेयर ड्रायर का इस्तेमाल किया।"
+        },
+        {
+          "sentence": "My hairdryer has three different heat settings.",
+          "translation": "मेरे हेयर ड्रायर में तीन अलग-अलग हीट सेटिंग्स हैं।"
+        }
+      ]
+    },
+    {
+      "word": "stove",
+      "phoneticRespelling": "STOHV",
+      "translation": "चूल्हा",
+      "definition": "A piece of equipment that you cook food on.",
+      "definationTranslation": "उपकरण का एक टुकड़ा जिस पर आप खाना पकाते हैं।",
+      "sentence": [
+        {
+          "sentence": "The soup is heating on the stove.",
+          "translation": "सूप चूल्हे पर गर्म हो रहा है।"
+        },
+        {
+          "sentence": "Make sure to turn off the stove when you finish cooking.",
+          "translation": "खाना पकाने के बाद चूल्हा बंद करना सुनिश्चित करें।"
+        }
+      ]
+    },
+    {
+      "word": "water purifier",
+      "phoneticRespelling": "WAW-ter PYUR-uh-fahy-er",
+      "translation": "पानी साफ करने की मशीन (आरओ)",
+      "definition": "A device used to remove dirt and bacteria from water.",
+      "definationTranslation": "पानी से गंदगी और बैक्टीरिया हटाने के लिए इस्तेमाल किया जाने वाला उपकरण।",
+      "sentence": [
+        {
+          "sentence": "We drink water from the water purifier for safety.",
+          "translation": "हम सुरक्षा के लिए वॉटर प्यूरीफायर का पानी पीते हैं।"
+        },
+        {
+          "sentence": "The filter in the water purifier needs to be changed.",
+          "translation": "वॉटर प्यूरीफायर का फिल्टर बदलने की जरूरत है।"
+        }
+      ]
+    }
+  ]
 }

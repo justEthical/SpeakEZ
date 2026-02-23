@@ -1,3 +1,260 @@
 {
-  "topic": "Food Preferences"
+  "topic": "Food Preferences",
+  "words": [
+    {
+      "word": "favorite",
+      "phoneticRespelling": "FEY-ver-it",
+      "translation": "पसंदीदा",
+      "definition": "The person or thing that you like more than any other.",
+      "definationTranslation": "वह व्यक्ति या वस्तु जिसे आप किसी भी अन्य से अधिक पसंद करते हैं।",
+      "sentence": [
+        {
+          "sentence": "Pizza is my favorite food.",
+          "translation": "पिज्जा मेरा पसंदीदा खाना है।"
+        },
+        {
+          "sentence": "What is your favorite type of dessert?",
+          "translation": "आपका पसंदीदा प्रकार का डेजर्ट कौन सा है?"
+        }
+      ]
+    },
+    {
+      "word": "delicious",
+      "phoneticRespelling": "dih-LISH-uhs",
+      "translation": "स्वादिष्ट",
+      "definition": "Having a very pleasant taste or smell.",
+      "definationTranslation": "बहुत सुखद स्वाद या गंध होना।",
+      "sentence": [
+        {
+          "sentence": "This chocolate cake is delicious!",
+          "translation": "यह चॉकलेट केक स्वादिष्ट है!"
+        },
+        {
+          "sentence": "My mother cooks delicious meals every day.",
+          "translation": "मेरी माँ हर दिन स्वादिष्ट भोजन बनाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "vegetarian",
+      "phoneticRespelling": "vej-i-TAIR-ee-uhn",
+      "translation": "शाकाहारी",
+      "definition": "A person who does not eat meat or fish.",
+      "definationTranslation": "वह व्यक्ति जो मांस या मछली नहीं खाता है।",
+      "sentence": [
+        {
+          "sentence": "She is a vegetarian, so she only eats vegetables and fruits.",
+          "translation": "वह शाकाहारी है, इसलिए वह केवल सब्जियां और फल खाती है।"
+        },
+        {
+          "sentence": "Are there any vegetarian options on the menu?",
+          "translation": "क्या मेनू में कोई शाकाहारी विकल्प है?"
+        }
+      ]
+    },
+    {
+      "word": "spicy",
+      "phoneticRespelling": "SPAHY-see",
+      "translation": "मसालेदार / तीखा",
+      "definition": "Food that has a strong taste because of spices.",
+      "definationTranslation": "मसालों के कारण तेज स्वाद वाला भोजन।",
+      "sentence": [
+        {
+          "sentence": "I love spicy food, but it makes me drink a lot of water.",
+          "translation": "मुझे मसालेदार खाना पसंद है, लेकिन इससे मुझे बहुत पानी पीना पड़ता है।"
+        },
+        {
+          "sentence": "Is this curry very spicy?",
+          "translation": "क्या यह करी बहुत तीखी है?"
+        }
+      ]
+    },
+    {
+      "word": "sweet",
+      "phoneticRespelling": "SWEET",
+      "translation": "मीठा",
+      "definition": "Having a taste like sugar or honey.",
+      "definationTranslation": "चीनी या शहद जैसा स्वाद होना।",
+      "sentence": [
+        {
+          "sentence": "I have a sweet tooth, so I love eating candy.",
+          "translation": "मुझे मीठा खाना बहुत पसंद है, इसलिए मुझे कैंडी खाना अच्छा लगता है।"
+        },
+        {
+          "sentence": "This tea is too sweet for me.",
+          "translation": "यह चाय मेरे लिए बहुत मीठी है।"
+        }
+      ]
+    },
+    {
+      "word": "salty",
+      "phoneticRespelling": "SAWL-tee",
+      "translation": "नमकीन",
+      "definition": "Containing or tasting of salt.",
+      "definationTranslation": "नमक युक्त या नमक जैसा स्वाद वाला।",
+      "sentence": [
+        {
+          "sentence": "These potato chips are very salty.",
+          "translation": "ये आलू के चिप्स बहुत नमकीन हैं।"
+        },
+        {
+          "sentence": "I don't like salty food because it makes me thirsty.",
+          "translation": "मुझे नमकीन खाना पसंद नहीं है क्योंकि इससे मुझे प्यास लगती है।"
+        }
+      ]
+    },
+    {
+      "word": "bitter",
+      "phoneticRespelling": "BIT-er",
+      "translation": "कड़वा",
+      "definition": "Having a sharp, strong, and often unpleasant taste.",
+      "definationTranslation": "एक तीखा, तेज़ और अक्सर अप्रिय स्वाद होना।",
+      "sentence": [
+        {
+          "sentence": "Dark coffee can taste quite bitter without sugar.",
+          "translation": "बिना चीनी के डार्क कॉफी काफी कड़वी लग सकती है।"
+        },
+        {
+          "sentence": "Medicine often has a bitter taste.",
+          "translation": "दवाई का स्वाद अक्सर कड़वा होता है।"
+        }
+      ]
+    },
+    {
+      "word": "sour",
+      "phoneticRespelling": "SOU-er",
+      "translation": "खट्टा",
+      "definition": "Having a sharp taste like a lemon or an unripe fruit.",
+      "definationTranslation": "नींबू या कच्चे फल जैसा तीखा स्वाद होना।",
+      "sentence": [
+        {
+          "sentence": "Lemons have a very sour taste.",
+          "translation": "नींबू का स्वाद बहुत खट्टा होता है।"
+        },
+        {
+          "sentence": "This milk has gone sour.",
+          "translation": "यह दूध खट्टा हो गया है (खराब हो गया है)।"
+        }
+      ]
+    },
+    {
+      "word": "healthy",
+      "phoneticRespelling": "HEL-thee",
+      "translation": "स्वस्थ / पौष्टिक",
+      "definition": "Food that is good for your body.",
+      "definationTranslation": "वह भोजन जो आपके शरीर के लिए अच्छा हो।",
+      "sentence": [
+        {
+          "sentence": "Eating salad is a healthy choice for lunch.",
+          "translation": "दोपहर के भोजन के लिए सलाद खाना एक स्वस्थ विकल्प है।"
+        },
+        {
+          "sentence": "I try to eat healthy food most of the time.",
+          "translation": "मैं ज्यादातर समय पौष्टिक भोजन खाने की कोशिश करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "junk food",
+      "phoneticRespelling": "JUHNGK food",
+      "translation": "जंक फूड",
+      "definition": "Food that is unhealthy but quick and easy to eat.",
+      "definationTranslation": "वह भोजन जो अस्वास्थ्यकर है लेकिन खाने में त्वरित और आसान है।",
+      "sentence": [
+        {
+          "sentence": "You should not eat too much junk food.",
+          "translation": "आपको बहुत अधिक जंक फूड नहीं खाना चाहिए।"
+        },
+        {
+          "sentence": "Burgers and fries are common types of junk food.",
+          "translation": "बर्गर और फ्राइज़ जंक फूड के सामान्य प्रकार हैं।"
+        }
+      ]
+    },
+    {
+      "word": "allergic",
+      "phoneticRespelling": "uh-LUR-jik",
+      "translation": "एलर्जी होना",
+      "definition": "Having a bad reaction to a certain food.",
+      "definationTranslation": "किसी विशेष भोजन के प्रति खराब प्रतिक्रिया होना।",
+      "sentence": [
+        {
+          "sentence": "I am allergic to peanuts, so I cannot eat them.",
+          "translation": "मुझे मूंगफली से एलर्जी है, इसलिए मैं उन्हें नहीं खा सकता।"
+        },
+        {
+          "sentence": "Does this dish contain milk? I am allergic to dairy.",
+          "translation": "क्या इस व्यंजन में दूध है? मुझे डेयरी उत्पादों से एलर्जी है।"
+        }
+      ]
+    },
+    {
+      "word": "tasty",
+      "phoneticRespelling": "TEYS-tee",
+      "translation": "स्वादिष्ट / जायकेदार",
+      "definition": "Food that has a good flavor.",
+      "definationTranslation": "अच्छा स्वाद वाला भोजन।",
+      "sentence": [
+        {
+          "sentence": "The soup was very tasty and warm.",
+          "translation": "सूप बहुत स्वादिष्ट और गर्म था।"
+        },
+        {
+          "sentence": "This restaurant is famous for its tasty snacks.",
+          "translation": "यह रेस्तरां अपने जायकेदार स्नैक्स के लिए प्रसिद्ध है।"
+        }
+      ]
+    },
+    {
+      "word": "homemade",
+      "phoneticRespelling": "HOHM-meyd",
+      "translation": "घर का बना",
+      "definition": "Food made at home rather than bought from a shop or restaurant.",
+      "definationTranslation": "दुकान या रेस्तरां से खरीदने के बजाय घर पर बना भोजन।",
+      "sentence": [
+        {
+          "sentence": "I prefer homemade cookies over store-bought ones.",
+          "translation": "मुझे दुकान से खरीदी गई कुकीज़ के बजाय घर की बनी कुकीज़ पसंद हैं।"
+        },
+        {
+          "sentence": "Nothing is better than a homemade dinner.",
+          "translation": "घर के बने रात के खाने से बेहतर कुछ भी नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "refreshing",
+      "phoneticRespelling": "ri-FRESH-ing",
+      "translation": "ताज़गी देने वाला",
+      "definition": "Making you feel less hot or tired.",
+      "definationTranslation": "आपको कम गर्मी या थकान महसूस कराना।",
+      "sentence": [
+        {
+          "sentence": "A cold glass of lemonade is very refreshing in summer.",
+          "translation": "गर्मियों में एक गिलास ठंडा नींबू पानी बहुत ताज़गी देने वाला होता है।"
+        },
+        {
+          "sentence": "The fresh fruit salad was very refreshing.",
+          "translation": "ताजे फलों का सलाद बहुत ताज़गी देने वाला था।"
+        }
+      ]
+    },
+    {
+      "word": "bland",
+      "phoneticRespelling": "BLAND",
+      "translation": "फीका",
+      "definition": "Food that has very little flavor or taste.",
+      "definationTranslation": "वह भोजन जिसमें बहुत कम स्वाद या ज़ायका हो।",
+      "sentence": [
+        {
+          "sentence": "The rice was a bit bland, so I added some salt.",
+          "translation": "चावल थोड़े फीके थे, इसलिए मैंने थोड़ा नमक मिला दिया।"
+        },
+        {
+          "sentence": "He prefers bland food because spicy food hurts his stomach.",
+          "translation": "वह फीका खाना पसंद करता है क्योंकि मसालेदार खाने से उसके पेट में दर्द होता है।"
+        }
+      ]
+    }
+  ]
 }

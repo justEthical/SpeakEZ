@@ -1,3 +1,260 @@
 {
-  "topic": "Natural Disasters"
+  "topic": "Natural Disasters",
+  "words": [
+    {
+      "word": "earthquake",
+      "phoneticRespelling": "URTH-kweyk",
+      "translation": "भूकंप",
+      "definition": "A sudden shaking of the ground caused by movements within the earth's crust.",
+      "definationTranslation": "पृथ्वी की पपड़ी के भीतर हलचल के कारण जमीन का अचानक हिलना।",
+      "sentence": [
+        {
+          "sentence": "The earthquake caused many buildings to collapse.",
+          "translation": "भूकंप के कारण कई इमारतें ढह गईं।"
+        },
+        {
+          "sentence": "Did you feel the earthquake last night?",
+          "translation": "क्या आपने कल रात भूकंप महसूस किया?"
+        }
+      ]
+    },
+    {
+      "word": "flood",
+      "phoneticRespelling": "FLUHD",
+      "translation": "बाढ़",
+      "definition": "An overflow of a large amount of water beyond its normal limits.",
+      "definationTranslation": "सामान्य सीमा से बाहर बड़ी मात्रा में पानी का भर जाना।",
+      "sentence": [
+        {
+          "sentence": "The heavy rain caused a massive flood in the city.",
+          "translation": "भारी बारिश के कारण शहर में भीषण बाढ़ आ गई।"
+        },
+        {
+          "sentence": "The village was evacuated due to the flood warning.",
+          "translation": "बाढ़ की चेतावनी के कारण गाँव को खाली करा लिया गया।"
+        }
+      ]
+    },
+    {
+      "word": "drought",
+      "phoneticRespelling": "DROUT",
+      "translation": "सूखा",
+      "definition": "A long period of time when there is little or no rain.",
+      "definationTranslation": "लंबे समय तक बहुत कम या बिल्कुल बारिश न होना।",
+      "sentence": [
+        {
+          "sentence": "The farmers lost their crops due to the severe drought.",
+          "translation": "भीषण सूखे के कारण किसानों की फसल बर्बाद हो गई।"
+        },
+        {
+          "sentence": "Water was rationed during the drought.",
+          "translation": "सूखे के दौरान पानी का राशन किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "landslide",
+      "phoneticRespelling": "LAND-slahyd",
+      "translation": "भूस्खलन",
+      "definition": "The sliding down of a mass of earth or rock from a mountain or cliff.",
+      "definationTranslation": "पहाड़ या चट्टान से मिट्टी या चट्टानों का नीचे खिसकना।",
+      "sentence": [
+        {
+          "sentence": "The road was blocked by a massive landslide.",
+          "translation": "सड़क एक बड़े भूस्खलन से अवरुद्ध हो गई थी।"
+        },
+        {
+          "sentence": "Landslides are common in this hilly region during monsoon.",
+          "translation": "मानसून के दौरान इस पहाड़ी क्षेत्र में भूस्खलन होना आम बात है।"
+        }
+      ]
+    },
+    {
+      "word": "wildfire",
+      "phoneticRespelling": "WAHYLD-fahy-er",
+      "translation": "दावानल / जंगल की आग",
+      "definition": "A large, destructive fire that spreads quickly over woodland or brush.",
+      "definationTranslation": "एक बड़ी, विनाशकारी आग जो जंगल या झाड़ियों में तेज़ी से फैलती है।",
+      "sentence": [
+        {
+          "sentence": "The wildfire destroyed thousands of acres of forest.",
+          "translation": "जंगल की आग ने हजारों एकड़ जंगल को नष्ट कर दिया।"
+        },
+        {
+          "sentence": "Firefighters are struggling to contain the wildfire.",
+          "translation": "दमकलकर्मी जंगल की आग पर काबू पाने के लिए संघर्ष कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "cyclone",
+      "phoneticRespelling": "SAHY-klohn",
+      "translation": "चक्रवात",
+      "definition": "A system of winds rotating inward to an area of low atmospheric pressure.",
+      "definationTranslation": "हवाओं की एक प्रणाली जो कम वायुमंडलीय दबाव वाले क्षेत्र की ओर अंदर की ओर घूमती है।",
+      "sentence": [
+        {
+          "sentence": "The cyclone hit the coastal areas with great force.",
+          "translation": "चक्रवात ने तटीय इलाकों में काफी जोर से दस्तक दी।"
+        },
+        {
+          "sentence": "People were moved to shelters before the cyclone arrived.",
+          "translation": "चक्रवात के आने से पहले लोगों को आश्रय स्थलों में ले जाया गया।"
+        }
+      ]
+    },
+    {
+      "word": "tsunami",
+      "phoneticRespelling": "tsoo-NAH-mee",
+      "translation": "सुनामी",
+      "definition": "A long, high sea wave caused by an underwater earthquake.",
+      "definationTranslation": "पानी के नीचे भूकंप के कारण आने वाली एक लंबी और ऊंची समुद्री लहर।",
+      "sentence": [
+        {
+          "sentence": "The tsunami waves reached far inland.",
+          "translation": "सुनामी की लहरें काफी अंदर तक पहुँच गईं।"
+        },
+        {
+          "sentence": "A tsunami warning was issued following the sea quake.",
+          "translation": "समुद्र में भूकंप के बाद सुनामी की चेतावनी जारी की गई थी।"
+        }
+      ]
+    },
+    {
+      "word": "volcanic eruption",
+      "phoneticRespelling": "vol-KAN-ik ih-RUHP-shuhn",
+      "translation": "ज्वालामुखी विस्फोट",
+      "definition": "The sudden discharge of steam and lava from a volcano.",
+      "definationTranslation": "ज्वालामुखी से भाप और लावा का अचानक निकलना।",
+      "sentence": [
+        {
+          "sentence": "The volcanic eruption sent ash clouds high into the sky.",
+          "translation": "ज्वालामुखी विस्फोट ने राख के बादलों को आकाश में ऊँचा भेज दिया।"
+        },
+        {
+          "sentence": "Villages near the mountain were covered in lava.",
+          "translation": "पहाड़ के पास के गाँव लावे से ढंक गए थे।"
+        }
+      ]
+    },
+    {
+      "word": "avalanche",
+      "phoneticRespelling": "AV-uh-lanch",
+      "translation": "हिमस्खलन",
+      "definition": "A mass of snow, ice, and rocks falling rapidly down a mountainside.",
+      "definationTranslation": "पहाड़ की ढलान से तेज़ी से गिरने वाली बर्फ और चट्टानों का ढेर।",
+      "sentence": [
+        {
+          "sentence": "The skiers were warned about the risk of an avalanche.",
+          "translation": "स्कीयरों को हिमस्खलन के खतरे के बारे में चेतावनी दी गई थी।"
+        },
+        {
+          "sentence": "An avalanche can be triggered by loud noises or movements.",
+          "translation": "तेज़ आवाज़ या हलचल से हिमस्खलन शुरू हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "evacuation",
+      "phoneticRespelling": "ih-vak-yoo-EY-shuhn",
+      "translation": "निकासी",
+      "definition": "Moving people from a dangerous place to a safer one.",
+      "definationTranslation": "लोगों को खतरनाक जगह से सुरक्षित जगह पर ले जाना।",
+      "sentence": [
+        {
+          "sentence": "The emergency services ordered an immediate evacuation.",
+          "translation": "आपातकालीन सेवाओं ने तत्काल निकासी का आदेश दिया।"
+        },
+        {
+          "sentence": "The evacuation plan was carried out smoothly.",
+          "translation": "निकासी योजना को सुचारू रूप से क्रियान्वित किया गया।"
+        }
+      ]
+    },
+    {
+      "word": "aftershock",
+      "phoneticRespelling": "AF-ter-shok",
+      "translation": "भूकंप के बाद के झटके",
+      "definition": "A smaller earthquake that follows a larger earthquake.",
+      "definationTranslation": "एक बड़े भूकंप के बाद आने वाला छोटा भूकंप।",
+      "sentence": [
+        {
+          "sentence": "Several aftershocks were felt throughout the day.",
+          "translation": "पूरे दिन भूकंप के बाद के कई झटके महसूस किए गए।"
+        },
+        {
+          "sentence": "Aftershocks can cause further damage to weakened buildings.",
+          "translation": "भूकंप के बाद के झटके कमजोर इमारतों को और नुकसान पहुँचा सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "casualty",
+      "phoneticRespelling": "KAZ-yoo-uhl-tee",
+      "translation": "हताहत / हताहतों की संख्या",
+      "definition": "A person killed or injured in an accident or disaster.",
+      "definationTranslation": "दुर्घटना या आपदा में मारा गया या घायल हुआ व्यक्ति।",
+      "sentence": [
+        {
+          "sentence": "There were no reported casualties in the storm.",
+          "translation": "तूफान में किसी के हताहत होने की खबर नहीं है।"
+        },
+        {
+          "sentence": "Emergency teams are working to minimize casualties.",
+          "translation": "आपातकालीन टीमें हताहतों की संख्या को कम करने के लिए काम कर रही हैं।"
+        }
+      ]
+    },
+    {
+      "word": "relief",
+      "phoneticRespelling": "ri-LEEF",
+      "translation": "राहत",
+      "definition": "Food, money, or help that is given to people in a disaster area.",
+      "definationTranslation": "आपदा क्षेत्र के लोगों को दिया जाने वाला भोजन, पैसा या मदद।",
+      "sentence": [
+        {
+          "sentence": "The government sent relief supplies to the flood victims.",
+          "translation": "सरकार ने बाढ़ पीड़ितों के लिए राहत सामग्री भेजी।"
+        },
+        {
+          "sentence": "International aid agencies are providing disaster relief.",
+          "translation": "अंतरराष्ट्रीय सहायता एजेंसियां आपदा राहत प्रदान कर रही हैं।"
+        }
+      ]
+    },
+    {
+      "word": "seismic",
+      "phoneticRespelling": "SAHYZ-mik",
+      "translation": "भूकंपीय",
+      "definition": "Relating to earthquakes or other vibrations of the earth.",
+      "definationTranslation": "भूकंप या पृथ्वी के अन्य कंपनों से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "The station recorded seismic activity early this morning.",
+          "translation": "स्टेशन ने आज सुबह तड़के भूकंपीय गतिविधि दर्ज की।"
+        },
+        {
+          "sentence": "Modern buildings are designed to withstand seismic waves.",
+          "translation": "आधुनिक इमारतों को भूकंपीय तरंगों का सामना करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "magnitude",
+      "phoneticRespelling": "MAG-nih-tood",
+      "translation": "परिमाण / तीव्रता (तीव्रता)",
+      "definition": "The great size or extent of something; for earthquakes, it's the strength.",
+      "definationTranslation": "किसी चीज़ का बड़ा आकार या विस्तार; भूकंप के लिए, यह उसकी शक्ति है।",
+      "sentence": [
+        {
+          "sentence": "The earthquake had a magnitude of 7.2 on the Richter scale.",
+          "translation": "रिक्टर पैमाने पर भूकंप की तीव्रता 7.2 थी।"
+        },
+        {
+          "sentence": "We didn't realize the magnitude of the disaster at first.",
+          "translation": "शुरू में हमें आपदा की भयावहता का अंदाजा नहीं हुआ।"
+        }
+      ]
+    }
+  ]
 }

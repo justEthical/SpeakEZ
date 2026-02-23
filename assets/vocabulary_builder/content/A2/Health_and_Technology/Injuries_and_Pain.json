@@ -1,3 +1,260 @@
 {
-  "topic": "Injuries and Pain"
+  "topic": "Injuries and Pain",
+  "words": [
+    {
+      "word": "sprain",
+      "phoneticRespelling": "SPREYN",
+      "translation": "मोच आना",
+      "definition": "An injury to a joint caused by a sudden twist, stretching the ligaments.",
+      "definationTranslation": "अचानक मुड़ने के कारण जोड़ में लगी चोट, जिससे लिगामेंट्स खिंच जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "I have a bad sprain in my ankle from playing football.",
+          "translation": "फुटबॉल खेलने से मेरे टखने में गंभीर मोच आ गई है।"
+        },
+        {
+          "sentence": "You should wrap a bandage around that sprain.",
+          "translation": "आपको उस मोच पर पट्टी बाँध लेनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "fracture",
+      "phoneticRespelling": "FRAK-cher",
+      "translation": "हड्डी टूटना (फ्रैक्चर)",
+      "definition": "A crack or break in a bone.",
+      "definationTranslation": "हड्डी में दरार या उसका टूटना।",
+      "sentence": [
+        {
+          "sentence": "The X-ray showed a small fracture in his wrist.",
+          "translation": "एक्स-रे में उसकी कलाई में एक छोटा फ्रैक्चर दिखा।"
+        },
+        {
+          "sentence": "She needs a cast for her arm fracture.",
+          "translation": "उसकी बांह के फ्रैक्चर के लिए प्लास्टर की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "swelling",
+      "phoneticRespelling": "SWEL-ing",
+      "translation": "सूजन",
+      "definition": "An area on the body that has become larger than normal due to injury or illness.",
+      "definationTranslation": "चोट या बीमारी के कारण शरीर का वह हिस्सा जो सामान्य से बड़ा हो गया हो।",
+      "sentence": [
+        {
+          "sentence": "Use an ice pack to reduce the swelling.",
+          "translation": "सूजन कम करने के लिए आइस पैक का उपयोग करें।"
+        },
+        {
+          "sentence": "The swelling on my knee has gone down today.",
+          "translation": "मेरे घुटने की सूजन आज कम हो गई है।"
+        }
+      ]
+    },
+    {
+      "word": "bruise",
+      "phoneticRespelling": "BROOZ",
+      "translation": "नील पड़ना / खरोंच",
+      "definition": "A dark purple or blue mark on the skin caused by a hit or fall.",
+      "definationTranslation": "चोट लगने या गिरने के कारण त्वचा पर गहरा बैंगनी या नीला निशान।",
+      "sentence": [
+        {
+          "sentence": "He has a large bruise on his leg after the accident.",
+          "translation": "दुर्घटना के बाद उसके पैर पर एक बड़ा नील पड़ गया है।"
+        },
+        {
+          "sentence": "Don't worry, it's just a small bruise.",
+          "translation": "चिंता न करें, यह सिर्फ एक छोटी सी खरोंच है।"
+        }
+      ]
+    },
+    {
+      "word": "muscle cramp",
+      "phoneticRespelling": "MUHS-uhl kramp",
+      "translation": "मांसपेशियों में खिंचाव / ऐंठन",
+      "definition": "A sudden and painful tightening of a muscle.",
+      "definationTranslation": "मांसपेशियों का अचानक और दर्दनाक रूप से कड़ा हो जाना।",
+      "sentence": [
+        {
+          "sentence": "I got a muscle cramp in my leg while swimming.",
+          "translation": "तैरते समय मेरे पैर की मांसपेशी में ऐंठन आ गई।"
+        },
+        {
+          "sentence": "Drinking water can help prevent muscle cramps.",
+          "translation": "पानी पीने से मांसपेशियों में खिंचाव को रोकने में मदद मिल सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "wound",
+      "phoneticRespelling": "WOOND",
+      "translation": "घाव / ज़ख्म",
+      "definition": "An injury to living tissue caused by a cut, blow, or other impact.",
+      "definationTranslation": "कटने, वार करने या अन्य प्रभाव से जीवित ऊतक (टिशू) को लगी चोट।",
+      "sentence": [
+        {
+          "sentence": "The nurse cleaned the wound with antiseptic.",
+          "translation": "नर्स ने एंटीसेप्टिक से घाव साफ किया।"
+        },
+        {
+          "sentence": "It took a long time for the deep wound to heal.",
+          "translation": "गहरे घाव को भरने में काफी समय लगा।"
+        }
+      ]
+    },
+    {
+      "word": "chronic pain",
+      "phoneticRespelling": "KRON-ik peyn",
+      "translation": "पुरानी या लंबे समय का दर्द",
+      "definition": "Pain that lasts for a long time, often for months or years.",
+      "definationTranslation": "दर्द जो लंबे समय तक बना रहता है, अक्सर महीनों या वर्षों तक।",
+      "sentence": [
+        {
+          "sentence": "Yoga can be very helpful for managing chronic back pain.",
+          "translation": "पीठ के पुराने दर्द को प्रबंधित करने के लिए योग बहुत सहायक हो सकता है।"
+        },
+        {
+          "sentence": "He has been suffering from chronic pain since the injury.",
+          "translation": "चोट लगने के बाद से वह पुराने दर्द से जूझ रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "dizziness",
+      "phoneticRespelling": "DIZ-ee-nis",
+      "translation": "चक्कर आना",
+      "definition": "A feeling that everything is spinning around and that you might fall.",
+      "definationTranslation": "यह महसूस होना कि सब कुछ घूम रहा है और आप गिर सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "Dizziness is a common side effect of this medicine.",
+          "translation": "चक्कर आना इस दवा का एक सामान्य दुष्प्रभाव है।"
+        },
+        {
+          "sentence": "Sit down if you feel any dizziness.",
+          "translation": "यदि आपको चक्कर महसूस हो तो बैठ जाएं।"
+        }
+      ]
+    },
+    {
+      "word": "stiffness",
+      "phoneticRespelling": "STIF-nis",
+      "translation": "जकड़न",
+      "definition": "Difficulty in moving your joints or muscles easily.",
+      "definationTranslation": "जोड़ों या मांसपेशियों को आसानी से हिलाने-डुलाने में कठिनाई।",
+      "sentence": [
+        {
+          "sentence": "I feel some stiffness in my neck after sleeping poorly.",
+          "translation": "ठीक से न सोने के कारण मुझे अपनी गर्दन में कुछ जकड़न महसूस हो रही है।"
+        },
+        {
+          "sentence": "Gentle stretching can help reduce muscle stiffness.",
+          "translation": "हल्का स्ट्रेचिंग मांसपेशियों की जकड़न को कम करने में मदद कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "numbness",
+      "phoneticRespelling": "NUHM-nis",
+      "translation": "सुन्न होना",
+      "definition": "Lack of feeling in a part of the body.",
+      "definationTranslation": "शरीर के किसी अंग में महसूस करने की शक्ति का अभाव।",
+      "sentence": [
+        {
+          "sentence": "The cold caused numbness in my fingers.",
+          "translation": "ठंड के कारण मेरी उंगलियां सुन्न हो गईं।"
+        },
+        {
+          "sentence": "Call the doctor if you experience sudden numbness.",
+          "translation": "यदि आपको अचानक सुन्नता महसूस हो तो डॉक्टर को बुलाएं।"
+        }
+      ]
+    },
+    {
+      "word": "inflammation",
+      "phoneticRespelling": "in-fluh-MEY-shuhn",
+      "translation": "जलन और सूजन (इन्फ्लेमेशन)",
+      "definition": "Redness, swelling, and pain in a part of the body.",
+      "definationTranslation": "शरीर के किसी हिस्से में लालिमा, सूजन और दर्द।",
+      "sentence": [
+        {
+          "sentence": "This cream helps reduce skin inflammation.",
+          "translation": "यह क्रीम त्वचा की जलन और सूजन को कम करने में मदद करती है।"
+        },
+        {
+          "sentence": "Inflammation is the body's natural response to injury.",
+          "translation": "इन्फ्लेमेशन चोट के प्रति शरीर की प्राकृतिक प्रतिक्रिया है।"
+        }
+      ]
+    },
+    {
+      "word": "dislocation",
+      "phoneticRespelling": "dis-loh-KEY-shuhn",
+      "translation": "हड्डी खिसकना",
+      "definition": "An injury where a bone is pushed out of its joint.",
+      "definationTranslation": "ऐसी चोट जहाँ हड्डी अपने जोड़ से बाहर निकल जाती है।",
+      "sentence": [
+        {
+          "sentence": "A shoulder dislocation is very painful.",
+          "translation": "कंधे का अपनी जगह से खिसकना बहुत दर्दनाक होता है।"
+        },
+        {
+          "sentence": "The doctor put the bone back after the dislocation.",
+          "translation": "हड्डी खिसकने के बाद डॉक्टर ने उसे वापस अपनी जगह पर लगा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "stinging",
+      "phoneticRespelling": "STING-ing",
+      "translation": "चुभन वाला दर्द",
+      "definition": "A sharp, burning pain, like a bee sting.",
+      "definationTranslation": "मधुमक्खी के डंक जैसा तेज़, जलन वाला दर्द।",
+      "sentence": [
+        {
+          "sentence": "I felt a stinging sensation when the medicine touched the cut.",
+          "translation": "जब दवा घाव पर लगी तो मुझे चुभन महसूस हुई।"
+        },
+        {
+          "sentence": "A stinging pain in the eyes can be caused by smoke.",
+          "translation": "धुएं के कारण आंखों में चुभन वाला दर्द हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "bandage",
+      "phoneticRespelling": "BAN-dij",
+      "translation": "पट्टी",
+      "definition": "A strip of cloth used to bind or protect an injury.",
+      "definationTranslation": "चोट को बाँधने या सुरक्षित रखने के लिए इस्तेमाल किया जाने वाला कपड़े का टुकड़ा।",
+      "sentence": [
+        {
+          "sentence": "Keep the bandage clean and dry.",
+          "translation": "पट्टी को साफ और सूखा रखें।"
+        },
+        {
+          "sentence": "He had a small bandage on his forehead.",
+          "translation": "उसके माथे पर एक छोटी सी पट्टी थी।"
+        }
+      ]
+    },
+    {
+      "word": "internal injury",
+      "phoneticRespelling": "in-TUR-nl IN-juh-ree",
+      "translation": "अंदरूनी चोट",
+      "definition": "Damage to organs inside the body that is not visible on the skin.",
+      "definationTranslation": "शरीर के अंदर के अंगों को होने वाला नुकसान जो त्वचा पर दिखाई नहीं देता।",
+      "sentence": [
+        {
+          "sentence": "Doctors are checking for any internal injuries after the fall.",
+          "translation": "गिरने के बाद डॉक्टर किसी भी अंदरूनी चोट की जांच कर रहे हैं।"
+        },
+        {
+          "sentence": "Internal injuries can be more dangerous than external ones.",
+          "translation": "अंदरूनी चोटें बाहरी चोटों की तुलना में अधिक खतरनाक हो सकती हैं।"
+        }
+      ]
+    }
+  ]
 }

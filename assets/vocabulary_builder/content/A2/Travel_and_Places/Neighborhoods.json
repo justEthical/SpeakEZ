@@ -1,3 +1,260 @@
 {
-  "topic": "Neighborhoods"
+  "topic": "Neighborhoods",
+  "words": [
+    {
+      "word": "residential",
+      "phoneticRespelling": "rez-i-DEN-shuhl",
+      "translation": "आवासीय",
+      "definition": "An area where people live, rather than where offices or factories are.",
+      "definationTranslation": "वह क्षेत्र जहाँ लोग रहते हैं, बजाय इसके कि वहाँ कार्यालय या कारखाने हों।",
+      "sentence": [
+        {
+          "sentence": "Our house is located in a quiet residential neighborhood.",
+          "translation": "हमारा घर एक शांत आवासीय पड़ोस में स्थित है।"
+        },
+        {
+          "sentence": "Speed limits are lower in residential areas for safety.",
+          "translation": "सुरक्षा के लिए आवासीय क्षेत्रों में गति सीमा कम होती है।"
+        }
+      ]
+    },
+    {
+      "word": "amenities",
+      "phoneticRespelling": "uh-MEN-i-teez",
+      "translation": "सुविधाएं",
+      "definition": "Useful features or facilities like parks, shops, and gyms in a neighborhood.",
+      "definationTranslation": "एक पड़ोस में पार्क, दुकान और जिम जैसी उपयोगी विशेषताएं या सुविधाएं।",
+      "sentence": [
+        {
+          "sentence": "The neighborhood has excellent amenities, including a public pool.",
+          "translation": "पड़ोस में एक सार्वजनिक पूल सहित बेहतरीन सुविधाएं हैं।"
+        },
+        {
+          "sentence": "We chose this area because of the nearby amenities.",
+          "translation": "हमने पास की सुविधाओं के कारण इस क्षेत्र को चुना।"
+        }
+      ]
+    },
+    {
+      "word": "outskirts",
+      "phoneticRespelling": "OUT-skurts",
+      "translation": "सरहद / बाहरी इलाका",
+      "definition": "The parts of a town or city that are furthest from the center.",
+      "definationTranslation": "किसी कस्बे या शहर के वे हिस्से जो केंद्र से सबसे दूर हैं।",
+      "sentence": [
+        {
+          "sentence": "They live on the outskirts of London, where it is more peaceful.",
+          "translation": "वे लंदन के बाहरी इलाके में रहते हैं, जहाँ अधिक शांति है।"
+        },
+        {
+          "sentence": "A new shopping mall is being built on the outskirts of the city.",
+          "translation": "शहर के बाहरी इलाके में एक नया शॉपिंग मॉल बनाया जा रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "vibrant",
+      "phoneticRespelling": "VAHY-bruhnt",
+      "translation": "जीवंत / जोश से भरा",
+      "definition": "Full of energy, excitement, and activity.",
+      "definationTranslation": "ऊर्जा, उत्साह और गतिविधि से भरपूर।",
+      "sentence": [
+        {
+          "sentence": "This neighborhood is known for its vibrant nightlife.",
+          "translation": "यह पड़ोस अपनी जीवंत नाइटलाइफ़ के लिए जाना जाता है।"
+        },
+        {
+          "sentence": "The market area is very vibrant on Sunday mornings.",
+          "translation": "रविवार की सुबह बाजार क्षेत्र बहुत जीवंत रहता है।"
+        }
+      ]
+    },
+    {
+      "word": "commute",
+      "phoneticRespelling": "kuh-MYOOT",
+      "translation": "आना-जाना (काम के लिए)",
+      "definition": "The journey you make between home and work every day.",
+      "definationTranslation": "आपके घर और काम के बीच की वह यात्रा जो आप हर दिन करते हैं।",
+      "sentence": [
+        {
+          "sentence": "I have a long commute from my neighborhood to the office.",
+          "translation": "मेरे पड़ोस से ऑफिस तक का सफर काफी लंबा है।"
+        },
+        {
+          "sentence": "Many people live here because the commute is very easy.",
+          "translation": "कई लोग यहाँ रहते हैं क्योंकि यहाँ से आना-जाना बहुत आसान है।"
+        }
+      ]
+    },
+    {
+      "word": "community",
+      "phoneticRespelling": "kuh-MYOO-ni-tee",
+      "translation": "समुदाय",
+      "definition": "The people living in one particular area or people who are considered as a unit.",
+      "definationTranslation": "एक विशेष क्षेत्र में रहने वाले लोग या वे लोग जिन्हें एक इकाई माना जाता है।",
+      "sentence": [
+        {
+          "sentence": "There is a strong sense of community in our small town.",
+          "translation": "हमारे छोटे से शहर में समुदाय की एक मजबूत भावना है।"
+        },
+        {
+          "sentence": "The local community center offers classes for kids.",
+          "translation": "स्थानीय सामुदायिक केंद्र बच्चों के लिए कक्षाएं प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "suburb",
+      "phoneticRespelling": "SUHB-urb",
+      "translation": "उपनगर",
+      "definition": "An area on the edge of a large town or city where people who work in the town or city often live.",
+      "definationTranslation": "एक बड़े कस्बे या शहर के किनारे का क्षेत्र जहाँ अक्सर उस कस्बे या शहर में काम करने वाले लोग रहते हैं।",
+      "sentence": [
+        {
+          "sentence": "Life in the suburbs is usually quieter than in the city center.",
+          "translation": "उपनगरों में जीवन आमतौर पर शहर के केंद्र की तुलना में शांत होता है।"
+        },
+        {
+          "sentence": "They recently moved from a busy city to a green suburb.",
+          "translation": "वे हाल ही में एक व्यस्त शहर से हरे-भरे उपनगर में चले गए।"
+        }
+      ]
+    },
+    {
+      "word": "downtown",
+      "phoneticRespelling": "DOUN-toun",
+      "translation": "शहर का मुख्य केंद्र",
+      "definition": "The central part or main business and commercial area of a town or city.",
+      "definationTranslation": "किसी कस्बे या शहर का मध्य भाग या मुख्य व्यवसाय और वाणिज्यिक क्षेत्र।",
+      "sentence": [
+        {
+          "sentence": "We are going downtown to see a movie tonight.",
+          "translation": "हम आज रात मूवी देखने के लिए शहर के केंद्र (डाउनटाउन) जा रहे हैं।"
+        },
+        {
+          "sentence": "Rent is very high in the downtown area.",
+          "translation": "डाउनटाउन क्षेत्र में किराया बहुत अधिक है।"
+        }
+      ]
+    },
+    {
+      "word": "sidewalk",
+      "phoneticRespelling": "SAHYD-wawk",
+      "translation": "फुटपाथ",
+      "definition": "A path with a hard surface on one or both sides of a road, for people to walk on.",
+      "definationTranslation": "सड़क के एक या दोनों तरफ एक कठोर सतह वाला रास्ता, जिस पर लोग चल सकें।",
+      "sentence": [
+        {
+          "sentence": "The children are playing on the sidewalk safely.",
+          "translation": "बच्चे फुटपाथ पर सुरक्षित रूप से खेल रहे हैं।"
+        },
+        {
+          "sentence": "Please clear the snow from the sidewalk in front of your house.",
+          "translation": "कृपया अपने घर के सामने फुटपाथ से बर्फ साफ करें।"
+        }
+      ]
+    },
+    {
+      "word": "neighborly",
+      "phoneticRespelling": "NEY-ber-lee",
+      "translation": "मैत्रीपूर्ण / मिलनसार",
+      "definition": "Friendly and helpful to people who live near you.",
+      "definationTranslation": "अपने पास रहने वाले लोगों के प्रति मिलनसार और मददगार होना।",
+      "sentence": [
+        {
+          "sentence": "It was very neighborly of him to help me carry my groceries.",
+          "translation": "उनका मेरा किराने का सामान ले जाने में मदद करना बहुत मिलनसार व्यवहार था।"
+        },
+        {
+          "sentence": "The people in this building are very neighborly.",
+          "translation": "इस इमारत के लोग बहुत मिलनसार हैं।"
+        }
+      ]
+    },
+    {
+      "word": "spacious",
+      "phoneticRespelling": "SPEY-shuhs",
+      "translation": "विशाल / खुला",
+      "definition": "Having a lot of space inside.",
+      "definationTranslation": "भीतर बहुत अधिक जगह होना।",
+      "sentence": [
+        {
+          "sentence": "The apartments in this neighborhood are very spacious.",
+          "translation": "इस पड़ोस के अपार्टमेंट बहुत विशाल हैं।"
+        },
+        {
+          "sentence": "I like this park because it is so spacious and green.",
+          "translation": "मुझे यह पार्क पसंद है क्योंकि यह बहुत विशाल और हरा-भरा है।"
+        }
+      ]
+    },
+    {
+      "word": "crowded",
+      "phoneticRespelling": "KROU-did",
+      "translation": "भीड़भाड़ वाला",
+      "definition": "Full of people.",
+      "definationTranslation": "लोगों से भरा हुआ।",
+      "sentence": [
+        {
+          "sentence": "The streets are always crowded during the rush hour.",
+          "translation": "रश आवर के दौरान सड़कें हमेशा भीड़भाड़ वाली रहती हैं।"
+        },
+        {
+          "sentence": "I avoid the crowded market on weekends.",
+          "translation": "मैं सप्ताहांत पर भीड़भाड़ वाले बाजार में जाने से बचता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "safety",
+      "phoneticRespelling": "SEYF-tee",
+      "translation": "सुरक्षा",
+      "definition": "The state of being protected from danger or harm.",
+      "definationTranslation": "खतरे या नुकसान से सुरक्षित रहने की अवस्था।",
+      "sentence": [
+        {
+          "sentence": "The safety of the neighborhood is a top priority for families.",
+          "translation": "परिवारों के लिए पड़ोस की सुरक्षा सर्वोच्च प्राथमिकता है।"
+        },
+        {
+          "sentence": "Installing streetlights has improved the safety of our area.",
+          "translation": "स्ट्रीटलाइट लगाने से हमारे क्षेत्र की सुरक्षा में सुधार हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "convenient",
+      "phoneticRespelling": "kuhn-VEEN-yuhnt",
+      "translation": "सुविधाजनक",
+      "definition": "Easy to use or suitable for your needs; near to a particular place.",
+      "definationTranslation": "उपयोग करने में आसान या आपकी आवश्यकताओं के लिए उपयुक्त; किसी विशेष स्थान के पास।",
+      "sentence": [
+        {
+          "sentence": "It is very convenient to have a grocery store just across the street.",
+          "translation": "सड़क के ठीक उस पार किराने की दुकान होना बहुत सुविधाजनक है।"
+        },
+        {
+          "sentence": "The bus stop is in a very convenient location.",
+          "translation": "बस स्टॉप बहुत ही सुविधाजनक स्थान पर है।"
+        }
+      ]
+    },
+    {
+      "word": "affluent",
+      "phoneticRespelling": "AF-loo-uhnt",
+      "translation": "धनी / समृद्ध",
+      "definition": "Having a lot of money or owning a lot of things; wealthy.",
+      "definationTranslation": "बहुत सारा पैसा होना या बहुत सारी चीज़ों का मालिक होना; धनी।",
+      "sentence": [
+        {
+          "sentence": "This is one of the most affluent neighborhoods in the city.",
+          "translation": "यह शहर के सबसे धनी पड़ोस में से एक है।"
+        },
+        {
+          "sentence": "They live in an affluent area with big houses and private parks.",
+          "translation": "वे बड़े घरों और निजी पार्कों वाले एक समृद्ध क्षेत्र में रहते हैं।"
+        }
+      ]
+    }
+  ]
 }

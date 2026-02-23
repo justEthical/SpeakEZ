@@ -1,3 +1,260 @@
 {
-  "topic": "Weather and Seasons"
+  "topic": "Weather and Seasons",
+  "words": [
+    {
+      "word": "humidity",
+      "phoneticRespelling": "hyoo-MID-ih-tee",
+      "translation": "नमी / आर्द्रता",
+      "definition": "The amount of water vapor in the air.",
+      "definationTranslation": "हवा में जलवाष्प की मात्रा।",
+      "sentence": [
+        {
+          "sentence": "The high humidity makes the summer heat feel much worse.",
+          "translation": "अत्यधिक नमी के कारण गर्मियों की गर्मी और भी खराब महसूस होती है।"
+        },
+        {
+          "sentence": "Humidity levels are usually lower in the winter.",
+          "translation": "सर्दियों में नमी का स्तर आमतौर पर कम होता है।"
+        }
+      ]
+    },
+    {
+      "word": "monsoon",
+      "phoneticRespelling": "mon-SOON",
+      "translation": "मानसून",
+      "definition": "A seasonal prevailing wind in South Asia, bringing heavy rain between June and September.",
+      "definationTranslation": "दक्षिण एशिया में चलने वाली एक मौसमी हवा, जो जून और सितंबर के बीच भारी बारिश लाती है।",
+      "sentence": [
+        {
+          "sentence": "The arrival of the monsoon brings relief from the intense heat.",
+          "translation": "मानसून के आगमन से भीषण गर्मी से राहत मिलती है।"
+        },
+        {
+          "sentence": "Traffic in the city often slows down during the monsoon.",
+          "translation": "मानसून के दौरान शहर में यातायात अक्सर धीमा हो जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "forecast",
+      "phoneticRespelling": "FAWR-kast",
+      "translation": "पूर्वानुमान",
+      "definition": "A prediction or estimate of future weather.",
+      "definationTranslation": "भविष्य के मौसम की भविष्यवाणी या अनुमान।",
+      "sentence": [
+        {
+          "sentence": "Check the weather forecast before planning your outdoor trip.",
+          "translation": "अपनी बाहरी यात्रा की योजना बनाने से पहले मौसम का पूर्वानुमान देख लें।"
+        },
+        {
+          "sentence": "The forecast predicts scattered showers for tomorrow afternoon.",
+          "translation": "पूर्वानुमान कल दोपहर के लिए छिटपुट बारिश की भविष्यवाणी करता है।"
+        }
+      ]
+    },
+    {
+      "word": "equinox",
+      "phoneticRespelling": "EE-kwuh-noks",
+      "translation": "विषुव (जब दिन और रात बराबर होते हैं)",
+      "definition": "The time or date (twice each year) at which the sun crosses the celestial equator, when day and night are of equal length.",
+      "definationTranslation": "वह समय या तारीख (हर साल दो बार) जब सूर्य खगोलीय भूमध्य रेखा को पार करता है, जब दिन और रात समान लंबाई के होते हैं।",
+      "sentence": [
+        {
+          "sentence": "The spring equinox marks the beginning of the warmer season.",
+          "translation": "वसंत विषुव गर्म मौसम की शुरुआत का प्रतीक है।"
+        },
+        {
+          "sentence": "In March and September, we experience the equinox.",
+          "translation": "मार्च और सितंबर में, हम विषुव का अनुभव करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "precipitation",
+      "phoneticRespelling": "pri-sip-ih-TEY-shuhn",
+      "translation": "वर्षा / ओलावृष्टि",
+      "definition": "Any form of water, such as rain, snow, sleet, or hail, that falls to the ground.",
+      "definationTranslation": "पानी का कोई भी रूप, जैसे बारिश, बर्फ, ओले या ओलावृष्टि, जो जमीन पर गिरता है।",
+      "sentence": [
+        {
+          "sentence": "The mountains received heavy precipitation in the form of snow.",
+          "translation": "पहाड़ों में बर्फ के रूप में भारी वर्षा हुई।"
+        },
+        {
+          "sentence": "There is a 50% chance of precipitation today.",
+          "translation": "आज वर्षा होने की 50% संभावना है।"
+        }
+      ]
+    },
+    {
+      "word": "solstice",
+      "phoneticRespelling": "SOL-stis",
+      "translation": "संक्रांति (अयनकाल)",
+      "definition": "Either of the two times in the year when the sun reaches its highest or lowest point in the sky at noon, marked by the longest and shortest days.",
+      "definationTranslation": "वर्ष में दो समयों में से एक जब सूर्य दोपहर में आकाश में अपने उच्चतम या निम्नतम बिंदु पर पहुँचता है, जिसे सबसे लंबे और सबसे छोटे दिनों द्वारा चिह्नित किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The winter solstice is the shortest day of the year.",
+          "translation": "शीतकालीन संक्रांति वर्ष का सबसे छोटा दिन होता है।"
+        },
+        {
+          "sentence": "Many cultures celebrate the summer solstice.",
+          "translation": "कई संस्कृतियाँ ग्रीष्मकालीन संक्रांति मनाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "overcast",
+      "phoneticRespelling": "OH-ver-kast",
+      "translation": "बादलों से घिरा हुआ",
+      "definition": "When the sky is completely covered by clouds and there is little or no sunshine.",
+      "definationTranslation": "जब आकाश पूरी तरह से बादलों से ढका हो और धूप बहुत कम या बिल्कुल न हो।",
+      "sentence": [
+        {
+          "sentence": "It was an overcast day, so we didn't need our sunglasses.",
+          "translation": "आज बादलों वाला दिन था, इसलिए हमें अपने धूप के चश्मे की ज़रूरत नहीं पड़ी।"
+        },
+        {
+          "sentence": "The overcast weather made the photos look a bit dull.",
+          "translation": "बादल छाए रहने के कारण तस्वीरें थोड़ी फीकी लग रही थीं।"
+        }
+      ]
+    },
+    {
+      "word": "breeze",
+      "phoneticRespelling": "BREEZ",
+      "translation": "मंद हवा / समीर",
+      "definition": "A gentle, light wind.",
+      "definationTranslation": "एक हल्की, मंद हवा।",
+      "sentence": [
+        {
+          "sentence": "A cool breeze was blowing from the sea.",
+          "translation": "समुद्र की ओर से ठंडी हवा चल रही थी।"
+        },
+        {
+          "sentence": "The light breeze made the afternoon very pleasant.",
+          "translation": "हल्की हवा ने दोपहर को बहुत सुखद बना दिया।"
+        }
+      ]
+    },
+    {
+      "word": "autumn",
+      "phoneticRespelling": "AW-tuhm",
+      "translation": "पतझड़",
+      "definition": "The season between summer and winter when leaves fall from trees; also called fall.",
+      "definationTranslation": "गर्मियों और सर्दियों के बीच का मौसम जब पेड़ों से पत्तियां गिरती हैं; इसे 'फॉल' भी कहा जाता है।",
+      "sentence": [
+        {
+          "sentence": "The leaves turn beautiful shades of orange and red in autumn.",
+          "translation": "पतझड़ में पत्तियां नारंगी और लाल रंग के सुंदर रंगों में बदल जाती हैं।"
+        },
+        {
+          "sentence": "I love the crisp, cool air of early autumn.",
+          "translation": "मुझे शुरुआती पतझड़ की ताज़ा, ठंडी हवा बहुत पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "scorching",
+      "phoneticRespelling": "SKAWR-ching",
+      "translation": "भीषण गर्मी / झुलसाने वाला",
+      "definition": "Extremely hot weather.",
+      "definationTranslation": "बेहद गर्म मौसम।",
+      "sentence": [
+        {
+          "sentence": "The scorching sun made it impossible to walk outside at noon.",
+          "translation": "झुलसाने वाली धूप ने दोपहर में बाहर निकलना असंभव कर दिया।"
+        },
+        {
+          "sentence": "We stayed indoors to escape the scorching afternoon heat.",
+          "translation": "हम दोपहर की भीषण गर्मी से बचने के लिए घर के अंदर ही रहे।"
+        }
+      ]
+    },
+    {
+      "word": "thundery",
+      "phoneticRespelling": "THUHN-duh-ree",
+      "translation": "तूफानी / बिजली की कड़क वाला",
+      "definition": "Weather characterized by thunder and lightning.",
+      "definationTranslation": "गड़गड़ाहट और बिजली की कड़क वाला मौसम।",
+      "sentence": [
+        {
+          "sentence": "The sky looks very thundery; we should probably stay home.",
+          "translation": "आसमान बहुत तूफानी लग रहा है; हमें शायद घर पर ही रहना चाहिए।"
+        },
+        {
+          "sentence": "A thundery rainstorm started just as we reached the car.",
+          "translation": "जैसे ही हम कार तक पहुँचे, बिजली की कड़क के साथ बारिश शुरू हो गई।"
+        }
+      ]
+    },
+    {
+      "word": "misty",
+      "phoneticRespelling": "MIS-tee",
+      "translation": "धुंधला",
+      "definition": "Weather with full of mist or thin fog.",
+      "definationTranslation": "धुंध या कोहरे से भरा मौसम।",
+      "sentence": [
+        {
+          "sentence": "The mountains looked magical on a misty morning.",
+          "translation": "धुंध भरी सुबह में पहाड़ जादुई लग रहे थे।"
+        },
+        {
+          "sentence": "Driving can be dangerous in misty conditions.",
+          "translation": "धुंधली स्थितियों में गाड़ी चलाना खतरनाक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "drought",
+      "phoneticRespelling": "DROUT",
+      "translation": "सूखा",
+      "definition": "A prolonged period of abnormally low rainfall, leading to a shortage of water.",
+      "definationTranslation": "असामान्य रूप से कम वर्षा की लंबी अवधि, जिससे पानी की कमी हो जाती है।",
+      "sentence": [
+        {
+          "sentence": "The severe drought destroyed most of the crops this year.",
+          "translation": "भीषण सूखे ने इस साल अधिकांश फसलों को नष्ट कर दिया।"
+        },
+        {
+          "sentence": "Many villages are facing water scarcity due to the drought.",
+          "translation": "सूखे के कारण कई गाँव पानी की किल्लत का सामना कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "cyclone",
+      "phoneticRespelling": "SAHY-klohn",
+      "translation": "चक्रवात",
+      "definition": "A system of winds rotating inward to an area of low atmospheric pressure.",
+      "definationTranslation": "कम वायुमंडलीय दबाव वाले क्षेत्र की ओर अंदर की ओर घूमने वाली हवाओं की एक प्रणाली।",
+      "sentence": [
+        {
+          "sentence": "The cyclone caused heavy damage to the coastal areas.",
+          "translation": "चक्रवात के कारण तटीय क्षेत्रों को भारी नुकसान हुआ।"
+        },
+        {
+          "sentence": "People were evacuated before the cyclone reached the land.",
+          "translation": "चक्रवात के जमीन पर पहुँचने से पहले लोगों को बाहर निकाल लिया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "hailstorm",
+      "phoneticRespelling": "HEYL-stawrm",
+      "translation": "ओलावृष्टि / ओलों का तूफान",
+      "definition": "A storm that produces small balls of ice (hail).",
+      "definationTranslation": "एक तूफान जिसमें बर्फ के छोटे गोले (ओले) गिरते हैं।",
+      "sentence": [
+        {
+          "sentence": "The hailstorm cracked the windshield of our car.",
+          "translation": "ओलावृष्टि ने हमारी कार का अगला शीशा तोड़ दिया।"
+        },
+        {
+          "sentence": "Large pieces of ice fell during the sudden hailstorm.",
+          "translation": "अचानक हुई ओलावृष्टि के दौरान बर्फ के बड़े टुकड़े गिरे।"
+        }
+      ]
+    }
+  ]
 }

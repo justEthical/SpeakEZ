@@ -1,3 +1,260 @@
 {
-  "topic": "At the Supermarket"
+  "topic": "At the Supermarket",
+  "words": [
+    {
+      "word": "aisle",
+      "phoneticRespelling": "AYL",
+      "translation": "गलियारा",
+      "definition": "A passage between shelves of goods in a supermarket.",
+      "definationTranslation": "सुपरमार्केट में सामान की अलमारियों के बीच का रास्ता।",
+      "sentence": [
+        {
+          "sentence": "You can find the milk in the dairy aisle.",
+          "translation": "आप डेयरी वाले गलियारे में दूध पा सकते हैं।"
+        },
+        {
+          "sentence": "The cereal aisle is very crowded today.",
+          "translation": "अनाज वाला गलियारा आज बहुत भीड़भाड़ वाला है।"
+        }
+      ]
+    },
+    {
+      "word": "groceries",
+      "phoneticRespelling": "GROH-suh-reez",
+      "translation": "किराने का सामान",
+      "definition": "Food and other goods bought at a supermarket.",
+      "definationTranslation": "सुपरमार्केट में खरीदा गया भोजन और अन्य सामान।",
+      "sentence": [
+        {
+          "sentence": "I need to buy some groceries for dinner.",
+          "translation": "मुझे रात के खाने के लिए कुछ किराने का सामान खरीदना है।"
+        },
+        {
+          "sentence": "She put all the groceries in the car.",
+          "translation": "उसने सारा किराने का सामान कार में रख दिया।"
+        }
+      ]
+    },
+    {
+      "word": "checkout",
+      "phoneticRespelling": "CHEK-out",
+      "translation": "पैसे चुकाने का स्थान",
+      "definition": "The place where you pay for your goods in a shop.",
+      "definationTranslation": "दुकान में वह स्थान जहाँ आप अपने सामान का भुगतान करते हैं।",
+      "sentence": [
+        {
+          "sentence": "There is a long queue at the checkout counter.",
+          "translation": "चेकआउट काउंटर पर एक लंबी कतार है।"
+        },
+        {
+          "sentence": "Please take your items to the checkout.",
+          "translation": "कृपया अपना सामान चेकआउट पर ले जाएं।"
+        }
+      ]
+    },
+    {
+      "word": "basket",
+      "phoneticRespelling": "BAS-kit",
+      "translation": "टोकरी",
+      "definition": "A container used for carrying a few items while shopping.",
+      "definationTranslation": "खरीदारी करते समय कुछ सामान ले जाने के लिए इस्तेमाल किया जाने वाला कंटेनर।",
+      "sentence": [
+        {
+          "sentence": "I only need a few things, so I will use a basket.",
+          "translation": "मुझे केवल कुछ ही चीज़ों की ज़रूरत है, इसलिए मैं टोकरी का उपयोग करूँगा।"
+        },
+        {
+          "sentence": "The basket is heavy with apples.",
+          "translation": "सेबों की वजह से टोकरी भारी है।"
+        }
+      ]
+    },
+    {
+      "word": "shelf",
+      "phoneticRespelling": "SHELF",
+      "translation": "अलमारी / ताक",
+      "definition": "A flat board on a wall or in a cupboard where goods are kept.",
+      "definationTranslation": "दीवार पर या अलमारी में एक सपाट बोर्ड जहाँ सामान रखा जाता है।",
+      "sentence": [
+        {
+          "sentence": "The juice is on the top shelf.",
+          "translation": "जूस सबसे ऊपर वाली अलमारी पर है।"
+        },
+        {
+          "sentence": "He reached for a can of soup on the shelf.",
+          "translation": "उसने अलमारी पर रखे सूप के डिब्बे की ओर हाथ बढ़ाया।"
+        }
+      ]
+    },
+    {
+      "word": "frozen food",
+      "phoneticRespelling": "FROH-zuhn food",
+      "translation": "जमा हुआ भोजन",
+      "definition": "Food that has been preserved by freezing.",
+      "definationTranslation": "भोजन जिसे जमाकर सुरक्षित रखा गया हो।",
+      "sentence": [
+        {
+          "sentence": "I bought some frozen food like peas and pizza.",
+          "translation": "मैंने मटर और पिज्जा जैसा कुछ फ्रोजन फूड खरीदा।"
+        },
+        {
+          "sentence": "The frozen food section is at the back of the store.",
+          "translation": "फ्रोजन फूड सेक्शन स्टोर के पीछे की तरफ है।"
+        }
+      ]
+    },
+    {
+      "word": "dairy",
+      "phoneticRespelling": "DAIR-ee",
+      "translation": "दुग्ध उत्पाद",
+      "definition": "Foods made from milk, such as cheese and yogurt.",
+      "definationTranslation": "दूध से बने खाद्य पदार्थ, जैसे पनीर और दही।",
+      "sentence": [
+        {
+          "sentence": "Do we have any cheese in the dairy section?",
+          "translation": "क्या हमारे पास डेयरी सेक्शन में कोई पनीर है?"
+        },
+        {
+          "sentence": "I need to buy milk from the dairy aisle.",
+          "translation": "मुझे डेयरी वाले गलियारे से दूध खरीदना है।"
+        }
+      ]
+    },
+    {
+      "word": "bakery",
+      "phoneticRespelling": "BEY-kuh-ree",
+      "translation": "बेकरी",
+      "definition": "A place where bread and cakes are made or sold.",
+      "definationTranslation": "वह स्थान जहाँ ब्रेड और केक बनाए या बेचे जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "The bakery smells like fresh bread.",
+          "translation": "बेकरी से ताज़ा ब्रेड की खुशबू आ रही है।"
+        },
+        {
+          "sentence": "I bought a chocolate cake from the bakery.",
+          "translation": "मैंने बेकरी से एक चॉकलेट केक खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "produce",
+      "phoneticRespelling": "PROH-doos",
+      "translation": "कृषि उत्पाद (फल और सब्जियां)",
+      "definition": "Fresh fruits and vegetables.",
+      "definationTranslation": "ताजे फल और सब्जियां।",
+      "sentence": [
+        {
+          "sentence": "The fresh produce section has organic spinach.",
+          "translation": "ताजा उत्पाद विभाग में जैविक पालक है।"
+        },
+        {
+          "sentence": "We should buy more fresh produce every week.",
+          "translation": "हमें हर हफ्ते अधिक ताजे फल और सब्जियां खरीदनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "barcode",
+      "phoneticRespelling": "BAHR-kohd",
+      "translation": "बारकोड",
+      "definition": "A pattern of black lines that a computer reads to find the price.",
+      "definationTranslation": "काली रेखाओं का एक पैटर्न जिसे कंप्यूटर कीमत जानने के लिए पढ़ता है।",
+      "sentence": [
+        {
+          "sentence": "The cashier scanned the barcode on the milk carton.",
+          "translation": "कैशियर ने दूध के पैकेट पर बारकोड को स्कैन किया।"
+        },
+        {
+          "sentence": "I can't see the price because the barcode is damaged.",
+          "translation": "मैं कीमत नहीं देख पा रहा हूँ क्योंकि बारकोड खराब हो गया है।"
+        }
+      ]
+    },
+    {
+      "word": "loyalty card",
+      "phoneticRespelling": "LOI-uhl-tee kahrd",
+      "translation": "वफादारी कार्ड / रिवॉर्ड कार्ड",
+      "definition": "A card given by a shop to give regular customers points or discounts.",
+      "definationTranslation": "नियमित ग्राहकों को अंक या छूट देने के लिए दुकान द्वारा दिया गया कार्ड।",
+      "sentence": [
+        {
+          "sentence": "Do you have a loyalty card for this supermarket?",
+          "translation": "क्या आपके पास इस सुपरमार्केट का लॉयल्टी कार्ड है?"
+        },
+        {
+          "sentence": "I use my loyalty card to get points every time I shop.",
+          "translation": "मैं हर बार खरीदारी करते समय अंक पाने के लिए अपने लॉयल्टी कार्ड का उपयोग करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "organic",
+      "phoneticRespelling": "awr-GAN-ik",
+      "translation": "जैविक",
+      "definition": "Food grown without using artificial chemicals.",
+      "definationTranslation": "कृत्रिम रसायनों के उपयोग के बिना उगाया गया भोजन।",
+      "sentence": [
+        {
+          "sentence": "Organic vegetables are usually more expensive.",
+          "translation": "जैविक सब्जियां आमतौर पर अधिक महंगी होती हैं।"
+        },
+        {
+          "sentence": "I prefer buying organic eggs.",
+          "translation": "मैं जैविक अंडे खरीदना पसंद करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "stock",
+      "phoneticRespelling": "STOK",
+      "translation": "भंडार / स्टॉक",
+      "definition": "The supply of goods available for sale.",
+      "definationTranslation": "बिक्री के लिए उपलब्ध वस्तुओं की आपूर्ति।",
+      "sentence": [
+        {
+          "sentence": "I'm sorry, that brand is out of stock.",
+          "translation": "क्षमा करें, उस ब्रांड का स्टॉक खत्म हो गया है।"
+        },
+        {
+          "sentence": "They are busy putting new stock on the shelves.",
+          "translation": "वे अलमारियों पर नया स्टॉक रखने में व्यस्त हैं।"
+        }
+      ]
+    },
+    {
+      "word": "beverages",
+      "phoneticRespelling": "BEV-rij-iz",
+      "translation": "पेय पदार्थ",
+      "definition": "Any type of drink, such as soda, juice, or water.",
+      "definationTranslation": "किसी भी प्रकार का पेय, जैसे सोडा, जूस या पानी।",
+      "sentence": [
+        {
+          "sentence": "The beverages are located next to the snacks.",
+          "translation": "पेय पदार्थ स्नैक्स के बगल में स्थित हैं।"
+        },
+        {
+          "sentence": "We need to buy some cold beverages for the party.",
+          "translation": "हमें पार्टी के लिए कुछ ठंडे पेय पदार्थ खरीदने की ज़रूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "weighing scale",
+      "phoneticRespelling": "WEY-ing skeyl",
+      "translation": "वजन करने वाली मशीन",
+      "definition": "A machine used to find out how heavy something is.",
+      "definationTranslation": "किसी चीज़ का वजन कितना है, यह जानने के लिए उपयोग की जाने वाली मशीन।",
+      "sentence": [
+        {
+          "sentence": "Please put the bananas on the weighing scale.",
+          "translation": "कृपया केलों को वजन करने वाली मशीन पर रखें।"
+        },
+        {
+          "sentence": "The weighing scale shows that these potatoes are two kilograms.",
+          "translation": "वजन करने वाली मशीन दिखाती है कि ये आलू दो किलोग्राम के हैं।"
+        }
+      ]
+    }
+  ]
 }

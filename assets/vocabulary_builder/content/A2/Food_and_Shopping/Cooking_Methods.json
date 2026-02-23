@@ -1,3 +1,260 @@
 {
-  "topic": "Cooking Methods"
+  "topic": "Cooking Methods",
+  "words": [
+    {
+      "word": "boil",
+      "phoneticRespelling": "BOIL",
+      "translation": "उबालना",
+      "definition": "To cook food in very hot water that is bubbling.",
+      "definationTranslation": "भोजन को बहुत गर्म पानी में पकाना जिसमें बुलबुले बन रहे हों।",
+      "sentence": [
+        {
+          "sentence": "First, boil the water before adding the pasta.",
+          "translation": "सबसे पहले, पास्ता डालने से पहले पानी उबालें।"
+        },
+        {
+          "sentence": "I like to boil eggs for breakfast.",
+          "translation": "मुझे नाश्ते के लिए अंडे उबालना पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "fry",
+      "phoneticRespelling": "FRY",
+      "translation": "तलना",
+      "definition": "To cook food in hot oil or fat.",
+      "definationTranslation": "भोजन को गर्म तेल या वसा में पकाना।",
+      "sentence": [
+        {
+          "sentence": "You need to fry the onions until they are brown.",
+          "translation": "आपको प्याज को भूरा होने तक तलने की जरूरत है।"
+        },
+        {
+          "sentence": "Don't fry the chicken for too long.",
+          "translation": "चिकन को बहुत देर तक न तलें।"
+        }
+      ]
+    },
+    {
+      "word": "bake",
+      "phoneticRespelling": "BEYK",
+      "translation": "सेंकना / बेक करना",
+      "definition": "To cook food in an oven using dry heat.",
+      "definationTranslation": "सूखी गर्मी का उपयोग करके ओवन में भोजन पकाना।",
+      "sentence": [
+        {
+          "sentence": "My mother is going to bake a cake for my birthday.",
+          "translation": "मेरी माँ मेरे जन्मदिन के लिए केक बेक करने जा रही हैं।"
+        },
+        {
+          "sentence": "I love the smell of fresh bread when we bake it.",
+          "translation": "जब हम ब्रेड सेंकते हैं तो मुझे उसकी ताजी महक बहुत पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "grill",
+      "phoneticRespelling": "GRIL",
+      "translation": "भूनना (ग्रिल करना)",
+      "definition": "To cook food over or under strong, direct heat.",
+      "definationTranslation": "तेज़, सीधी गर्मी के ऊपर या नीचे भोजन पकाना।",
+      "sentence": [
+        {
+          "sentence": "We usually grill vegetables in the summer.",
+          "translation": "हम आमतौर पर गर्मियों में सब्जियां ग्रिल करते हैं।"
+        },
+        {
+          "sentence": "The chef will grill the fish with lemon.",
+          "translation": "शेफ नींबू के साथ मछली को ग्रिल करेगा।"
+        }
+      ]
+    },
+    {
+      "word": "steam",
+      "phoneticRespelling": "STEEM",
+      "translation": "भाप में पकाना",
+      "definition": "To cook food using the vapor that rises from boiling water.",
+      "definationTranslation": "उबलते पानी से उठने वाली भाप का उपयोग करके भोजन पकाना।",
+      "sentence": [
+        {
+          "sentence": "Steaming is a very healthy way to cook broccoli.",
+          "translation": "ब्रोकोली पकाने के लिए भाप में पकाना एक बहुत ही स्वास्थ्यवर्धक तरीका है।"
+        },
+        {
+          "sentence": "You should steam the momos for ten minutes.",
+          "translation": "आपको मोमोज को दस मिनट तक भाप में पकाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "roast",
+      "phoneticRespelling": "ROHST",
+      "translation": "भूनना (रोस्ट करना)",
+      "definition": "To cook meat or vegetables in an oven or over a fire.",
+      "definationTranslation": "ओवन में या आग पर मांस या सब्जियों को पकाना।",
+      "sentence": [
+        {
+          "sentence": "We roast a whole chicken every Sunday.",
+          "translation": "हम हर रविवार को एक पूरा चिकन रोस्ट करते हैं।"
+        },
+        {
+          "sentence": "Roasted potatoes are my favorite side dish.",
+          "translation": "रोस्ट किए हुए आलू मेरे पसंदीदा साइड डिश हैं।"
+        }
+      ]
+    },
+    {
+      "word": "stir-fry",
+      "phoneticRespelling": "STUR-fry",
+      "translation": "तेजी से तलना",
+      "definition": "To fry small pieces of food quickly while moving them around in a pan.",
+      "definationTranslation": "कढ़ाई में हिलाते हुए भोजन के छोटे टुकड़ों को जल्दी से तलना।",
+      "sentence": [
+        {
+          "sentence": "Add the peppers and stir-fry them for two minutes.",
+          "translation": "मिर्च डालें और उन्हें दो मिनट तक स्टिर-फ्राई करें।"
+        },
+        {
+          "sentence": "Stir-fry cooking is very common in Chinese food.",
+          "translation": "चीनी भोजन में स्टिर-फ्राई कुकिंग बहुत आम है।"
+        }
+      ]
+    },
+    {
+      "word": "simmer",
+      "phoneticRespelling": "SIM-er",
+      "translation": "धीमी आंच पर पकाना",
+      "definition": "To cook something liquid gently, just below the boiling point.",
+      "definationTranslation": "किसी तरल चीज़ को उबलने के बिंदु से थोड़ा नीचे धीरे-धीरे पकाना।",
+      "sentence": [
+        {
+          "sentence": "Let the soup simmer for twenty minutes.",
+          "translation": "सूप को बीस मिनट तक धीमी आंच पर पकने दें।"
+        },
+        {
+          "sentence": "Turn down the heat and let the sauce simmer.",
+          "translation": "आंच धीमी करें और सॉस को उबलने दें।"
+        }
+      ]
+    },
+    {
+      "word": "chop",
+      "phoneticRespelling": "CHOP",
+      "translation": "काटना / टुकड़े करना",
+      "definition": "To cut something into small pieces with a knife.",
+      "definationTranslation": "चाकू से किसी चीज़ को छोटे-छोटे टुकड़ों में काटना।",
+      "sentence": [
+        {
+          "sentence": "Please chop the carrots into small cubes.",
+          "translation": "कृपया गाजर को छोटे क्यूब्स में काट लें।"
+        },
+        {
+          "sentence": "I need to chop some garlic for the pasta.",
+          "translation": "मुझे पास्ता के लिए कुछ लहसुन काटने की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "whisk",
+      "phoneticRespelling": "WISK",
+      "translation": "फेंटना",
+      "definition": "To mix liquids or eggs quickly using a special tool.",
+      "definationTranslation": "एक विशेष उपकरण का उपयोग करके तरल पदार्थ या अंडे को जल्दी से मिलाना।",
+      "sentence": [
+        {
+          "sentence": "Whisk the eggs until they are light and fluffy.",
+          "translation": "अंडों को हल्का और झागदार होने तक फेंटें।"
+        },
+        {
+          "sentence": "Use a fork to whisk the cream.",
+          "translation": "क्रीम फेंटने के लिए कांटे (चम्मच) का प्रयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "knead",
+      "phoneticRespelling": "NEED",
+      "translation": "गूंथना",
+      "definition": "To press and stretch dough with your hands to make it ready for baking.",
+      "definationTranslation": "आटा बेक करने के लिए तैयार करने हेतु हाथों से उसे दबाना और खींचना।",
+      "sentence": [
+        {
+          "sentence": "You must knead the dough for ten minutes to make soft bread.",
+          "translation": "नरम ब्रेड बनाने के लिए आपको दस मिनट तक आटा गूंथना चाहिए।"
+        },
+        {
+          "sentence": "It is relaxing to knead bread dough by hand.",
+          "translation": "हाथ से ब्रेड का आटा गूंथना आरामदायक होता है।"
+        }
+      ]
+    },
+    {
+      "word": "peel",
+      "phoneticRespelling": "PEEL",
+      "translation": "छीलना",
+      "definition": "To remove the outer skin of a fruit or vegetable.",
+      "definationTranslation": "किसी फल या सब्जी की बाहरी खाल उतारना।",
+      "sentence": [
+        {
+          "sentence": "Can you help me peel the potatoes?",
+          "translation": "क्या आप आलू छीलने में मेरी मदद कर सकते हैं?"
+        },
+        {
+          "sentence": "Peel the apple before eating it.",
+          "translation": "सेब खाने से पहले उसे छील लें।"
+        }
+      ]
+    },
+    {
+      "word": "grate",
+      "phoneticRespelling": "GREYT",
+      "translation": "कद्दूकस करना",
+      "definition": "To rub food against a sharp tool to cut it into very small pieces.",
+      "definationTranslation": "भोजन को बहुत छोटे टुकड़ों में काटने के लिए उसे किसी नुकीले उपकरण पर रगड़ना।",
+      "sentence": [
+        {
+          "sentence": "Grate some cheese over the pizza.",
+          "translation": "पिज्जा के ऊपर थोड़ा पनीर कद्दूकस करें।"
+        },
+        {
+          "sentence": "She used a tool to grate the ginger.",
+          "translation": "उसने अदरक को कद्दूकस करने के लिए एक उपकरण का इस्तेमाल किया।"
+        }
+      ]
+    },
+    {
+      "word": "marinate",
+      "phoneticRespelling": "MA-ruh-neyt",
+      "translation": "मसाले में भिगोना",
+      "definition": "To soak meat or fish in a liquid with spices before cooking.",
+      "definationTranslation": "पकाने से पहले मांस या मछली को मसालों के साथ तरल में भिगोना।",
+      "sentence": [
+        {
+          "sentence": "Marinate the chicken for at least one hour.",
+          "translation": "चिकन को कम से कम एक घंटे के लिए मैरीनेट करें।"
+        },
+        {
+          "sentence": "The longer you marinate the meat, the better it tastes.",
+          "translation": "आप मांस को जितना अधिक समय तक मैरीनेट करेंगे, उसका स्वाद उतना ही बेहतर होगा।"
+        }
+      ]
+    },
+    {
+      "word": "melt",
+      "phoneticRespelling": "MELT",
+      "translation": "पिघलाना",
+      "definition": "To turn a solid into a liquid by heating it.",
+      "definationTranslation": "किसी ठोस चीज़ को गर्म करके तरल में बदलना।",
+      "sentence": [
+        {
+          "sentence": "Melt the butter in a pan over low heat.",
+          "translation": "एक पैन में धीमी आंच पर मक्खन पिघलाएं।"
+        },
+        {
+          "sentence": "The chocolate will melt if you leave it in the sun.",
+          "translation": "अगर आप चॉकलेट को धूप में छोड़ देंगे तो वह पिघल जाएगी।"
+        }
+      ]
+    }
+  ]
 }

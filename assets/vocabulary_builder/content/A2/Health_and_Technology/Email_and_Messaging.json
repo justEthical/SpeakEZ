@@ -1,3 +1,260 @@
 {
-  "topic": "Email and Messaging"
+  "topic": "Email and Messaging",
+  "words": [
+    {
+      "word": "attachment",
+      "phoneticRespelling": "uh-TACH-muhnt",
+      "translation": "संलग्नक (अटैचमेंट)",
+      "definition": "A computer file sent along with an email message.",
+      "definationTranslation": "एक कंप्यूटर फ़ाइल जो ईमेल संदेश के साथ भेजी जाती है।",
+      "sentence": [
+        {
+          "sentence": "Please find the resume in the email attachment.",
+          "translation": "कृपया ईमेल अटैचमेंट में बायोडाटा देखें।"
+        },
+        {
+          "sentence": "I forgot to include the attachment in my last mail.",
+          "translation": "मैं अपने पिछले मेल में अटैचमेंट जोड़ना भूल गया।"
+        }
+      ]
+    },
+    {
+      "word": "subject line",
+      "phoneticRespelling": "SUHB-jikt lahy n",
+      "translation": "विषय रेखा",
+      "definition": "The place in an email where you write what the message is about.",
+      "definationTranslation": "ईमेल में वह स्थान जहाँ आप लिखते हैं कि संदेश किस बारे में है।",
+      "sentence": [
+        {
+          "sentence": "Make sure to write a clear subject line.",
+          "translation": "सुनिश्चित करें कि आप एक स्पष्ट विषय रेखा लिखें।"
+        },
+        {
+          "sentence": "The subject line says 'Meeting Update'.",
+          "translation": "विषय रेखा में 'मीटिंग अपडेट' लिखा है।"
+        }
+      ]
+    },
+    {
+      "word": "recipient",
+      "phoneticRespelling": "ri-SIP-ee-uhnt",
+      "translation": "प्राप्तकर्ता",
+      "definition": "The person who receives the message.",
+      "definationTranslation": "वह व्यक्ति जिसे संदेश प्राप्त होता है।",
+      "sentence": [
+        {
+          "sentence": "Check the recipient's email address before clicking send.",
+          "translation": "भेजें बटन पर क्लिक करने से पहले प्राप्तकर्ता के ईमेल पते की जाँच करें।"
+        },
+        {
+          "sentence": "The email was sent to the wrong recipient.",
+          "translation": "ईमेल गलत प्राप्तकर्ता को भेज दिया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "forward",
+      "phoneticRespelling": "FAWR-werd",
+      "translation": "आगे भेजना (फॉरवर्ड)",
+      "definition": "To send a message you received to another person.",
+      "definationTranslation": "प्राप्त संदेश को किसी दूसरे व्यक्ति को भेजना।",
+      "sentence": [
+        {
+          "sentence": "Could you forward that email to me?",
+          "translation": "क्या आप वह ईमेल मुझे फॉरवर्ड कर सकते हैं?"
+        },
+        {
+          "sentence": "I will forward the details to the whole team.",
+          "translation": "मैं पूरी टीम को विवरण फॉरवर्ड कर दूँगा।"
+        }
+      ]
+    },
+    {
+      "word": "reply all",
+      "phoneticRespelling": "ri-PLAHY awl",
+      "translation": "सभी को उत्तर देना",
+      "definition": "To send a response to everyone who received the original message.",
+      "definationTranslation": "उन सभी को उत्तर भेजना जिन्हें मूल संदेश प्राप्त हुआ था।",
+      "sentence": [
+        {
+          "sentence": "Be careful when using 'Reply All' for private messages.",
+          "translation": "निजी संदेशों के लिए 'रिप्लाई ऑल' का उपयोग करते समय सावधान रहें।"
+        },
+        {
+          "sentence": "He clicked 'Reply All' by mistake.",
+          "translation": "उसने गलती से 'रिप्लाई ऑल' पर क्लिक कर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "draft",
+      "phoneticRespelling": "DRAFT",
+      "translation": "प्रारूप (ड्राफ्ट)",
+      "definition": "A piece of writing or a message that is not yet finished.",
+      "definationTranslation": "लेखन का एक टुकड़ा या संदेश जो अभी पूरा नहीं हुआ है।",
+      "sentence": [
+        {
+          "sentence": "I saved the email as a draft to finish it later.",
+          "translation": "मैंने ईमेल को बाद में पूरा करने के लिए ड्राफ्ट के रूप में सहेज लिया।"
+        },
+        {
+          "sentence": "Check your drafts folder for the unsent message.",
+          "translation": "न भेजे गए संदेश के लिए अपना ड्राफ्ट फोल्डर देखें।"
+        }
+      ]
+    },
+    {
+      "word": "spam",
+      "phoneticRespelling": "SPAM",
+      "translation": "स्पैम (अवांछित डाक)",
+      "definition": "Unwanted or junk email, usually sent to many people.",
+      "definationTranslation": "अवांछित या रद्दी ईमेल, जो आमतौर पर बहुत से लोगों को भेजी जाती है।",
+      "sentence": [
+        {
+          "sentence": "Check your spam folder if you haven't received my mail.",
+          "translation": "यदि आपको मेरा मेल नहीं मिला है, तो अपना स्पैम फोल्डर देखें।"
+        },
+        {
+          "sentence": "My inbox is full of spam messages.",
+          "translation": "मेरा इनबॉक्स स्पैम संदेशों से भरा है।"
+        }
+      ]
+    },
+    {
+      "word": "inbox",
+      "phoneticRespelling": "IN-boks",
+      "translation": "इनबॉक्स",
+      "definition": "The place where new email messages arrive.",
+      "definationTranslation": "वह स्थान जहाँ नए ईमेल संदेश आते हैं।",
+      "sentence": [
+        {
+          "sentence": "I have twenty unread emails in my inbox.",
+          "translation": "मेरे इनबॉक्स में बीस बिना पढ़े हुए ईमेल हैं।"
+        },
+        {
+          "sentence": "She checks her inbox every morning.",
+          "translation": "वह हर सुबह अपना इनबॉक्स चेक करती है।"
+        }
+      ]
+    },
+    {
+      "word": "cc (carbon copy)",
+      "phoneticRespelling": "SEE-see",
+      "translation": "प्रतिलिपि (सीसी)",
+      "definition": "To send a copy of an email to someone else for their information.",
+      "definationTranslation": "जानकारी के लिए किसी और को ईमेल की प्रतिलिपि भेजना।",
+      "sentence": [
+        {
+          "sentence": "Please CC the manager on all project emails.",
+          "translation": "कृपया सभी प्रोजेक्ट ईमेल पर मैनेजर को सीसी करें।"
+        },
+        {
+          "sentence": "I was CC'd on that conversation.",
+          "translation": "मुझे उस बातचीत में सीसी किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "notification",
+      "phoneticRespelling": "noh-tuh-fi-KEY-shuhn",
+      "translation": "सूचना (नोटिफिकेशन)",
+      "definition": "A sound or message on your phone or computer telling you about something new.",
+      "definationTranslation": "आपके फोन या कंप्यूटर पर एक ध्वनि या संदेश जो आपको किसी नई चीज़ के बारे में बताता है।",
+      "sentence": [
+        {
+          "sentence": "I turned off notifications to focus on my work.",
+          "translation": "मैंने अपने काम पर ध्यान केंद्रित करने के लिए नोटिफिकेशन बंद कर दिए।"
+        },
+        {
+          "sentence": "You have a new message notification.",
+          "translation": "आपके पास एक नया संदेश नोटिफिकेशन है।"
+        }
+      ]
+    },
+    {
+      "word": "instant messaging",
+      "phoneticRespelling": "IN-stuhnt MES-ij-ing",
+      "translation": "त्वरित संदेश सेवा",
+      "definition": "A service that allows people to chat in real-time online.",
+      "definationTranslation": "एक सेवा जो लोगों को ऑनलाइन रीयल-टाइम में चैट करने की अनुमति देती है।",
+      "sentence": [
+        {
+          "sentence": "WhatsApp is a popular instant messaging app.",
+          "translation": "व्हाट्सएप एक लोकप्रिय इंस्टेंट मैसेजिंग ऐप है।"
+        },
+        {
+          "sentence": "We use instant messaging to communicate quickly at work.",
+          "translation": "हम काम पर जल्दी संवाद करने के लिए इंस्टेंट मैसेजिंग का उपयोग करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "read receipt",
+      "phoneticRespelling": "REED ri-SEET",
+      "translation": "पढ़ने की पुष्टि (रीड रसीद)",
+      "definition": "A feature that tells the sender when a message has been read.",
+      "definationTranslation": "एक सुविधा जो भेजने वाले को बताती है कि संदेश कब पढ़ा गया है।",
+      "sentence": [
+        {
+          "sentence": "She has turned off her read receipts.",
+          "translation": "उसने अपनी रीड रसीदें बंद कर दी हैं।"
+        },
+        {
+          "sentence": "I can see the blue ticks, so I know he saw the read receipt.",
+          "translation": "मैं नीले टिक देख सकता हूँ, इसलिए मुझे पता है कि उसने रीड रसीद देख ली है।"
+        }
+      ]
+    },
+    {
+      "word": "signature",
+      "phoneticRespelling": "SIG-nuh-cher",
+      "translation": "हस्ताक्षर / ईमेल सिग्नेचर",
+      "definition": "A block of text automatically added to the end of an email.",
+      "definationTranslation": "ईमेल के अंत में स्वचालित रूप से जोड़ा गया टेक्स्ट का एक ब्लॉक।",
+      "sentence": [
+        {
+          "sentence": "My email signature includes my phone number.",
+          "translation": "मेरे ईमेल सिग्नेचर में मेरा फोन नंबर शामिल है।"
+        },
+        {
+          "sentence": "You can change your professional signature in settings.",
+          "translation": "आप सेटिंग्स में अपना पेशेवर सिग्नेचर बदल सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "emoji",
+      "phoneticRespelling": "i-MOH-jee",
+      "translation": "इमोजी",
+      "definition": "A small digital image used to express an emotion or idea.",
+      "definationTranslation": "भावना या विचार व्यक्त करने के लिए उपयोग की जाने वाली एक छोटी डिजिटल छवि।",
+      "sentence": [
+        {
+          "sentence": "He sent a laughing emoji in response to my joke.",
+          "translation": "उसने मेरे चुटकुले के जवाब में एक हँसता हुआ इमोजी भेजा।"
+        },
+        {
+          "sentence": "Using too many emojis in a formal email is not professional.",
+          "translation": "फॉर्मल ईमेल में बहुत अधिक इमोजी का उपयोग करना पेशेवर नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "group chat",
+      "phoneticRespelling": "GROOP chat",
+      "translation": "ग्रुप चैट",
+      "definition": "A messaging conversation between more than two people.",
+      "definationTranslation": "दो से अधिक लोगों के बीच एक संदेश वार्तालाप।",
+      "sentence": [
+        {
+          "sentence": "I will share the photos in our family group chat.",
+          "translation": "मैं हमारे फैमिली ग्रुप चैट में फोटो शेयर करूँगा।"
+        },
+        {
+          "sentence": "The group chat is very active today.",
+          "translation": "ग्रुप चैट आज बहुत सक्रिय है।"
+        }
+      ]
+    }
+  ]
 }

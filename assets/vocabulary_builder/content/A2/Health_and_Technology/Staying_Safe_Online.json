@@ -1,3 +1,260 @@
 {
-  "topic": "Staying Safe Online"
+  "topic": "Staying Safe Online",
+  "words": [
+    {
+      "word": "phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "फिशिंग / धोखाधड़ी वाला ईमेल",
+      "definition": "A dishonest way of trying to get someone's personal information by sending fake emails or messages.",
+      "definationTranslation": "नकली ईमेल या संदेश भेजकर किसी की व्यक्तिगत जानकारी प्राप्त करने का एक बेईमानी भरा तरीका।",
+      "sentence": [
+        {
+          "sentence": "Don't click on that link; it looks like a phishing scam.",
+          "translation": "उस लिंक पर क्लिक न करें; यह एक फिशिंग स्कैम जैसा लग रहा है।"
+        },
+        {
+          "sentence": "The bank will never ask for your password via email, so watch out for phishing.",
+          "translation": "बैंक कभी भी ईमेल के माध्यम से आपका पासवर्ड नहीं मांगेगा, इसलिए फिशिंग से सावधान रहें।"
+        }
+      ]
+    },
+    {
+      "word": "two-factor authentication (2FA)",
+      "phoneticRespelling": "TOO-fak-ter aw-then-ti-KEY-shuhn",
+      "translation": "दो-चरणीय प्रमाणीकरण",
+      "definition": "A security process that requires two different ways to prove your identity before logging in.",
+      "definationTranslation": "एक सुरक्षा प्रक्रिया जिसमें लॉग इन करने से पहले आपकी पहचान साबित करने के लिए दो अलग-अलग तरीकों की आवश्यकता होती है।",
+      "sentence": [
+        {
+          "sentence": "I enabled two-factor authentication to keep my account safe.",
+          "translation": "मैंने अपने खाते को सुरक्षित रखने के लिए दो-चरणीय प्रमाणीकरण सक्षम किया।"
+        },
+        {
+          "sentence": "You will receive a code on your phone as part of the two-factor authentication.",
+          "translation": "दो-चरणीय प्रमाणीकरण के भाग के रूप में आपको अपने फोन पर एक कोड प्राप्त होगा।"
+        }
+      ]
+    },
+    {
+      "word": "malware",
+      "phoneticRespelling": "MAL-wair",
+      "translation": "मैलवेयर / हानिकारक सॉफ्टवेयर",
+      "definition": "Software that is specifically designed to disrupt, damage, or gain unauthorized access to a computer system.",
+      "definationTranslation": "सॉफ्टवेयर जिसे विशेष रूप से कंप्यूटर सिस्टम को बाधित करने, नुकसान पहुँचाने या अनधिकृत पहुंच प्राप्त करने के लिए डिज़ाइन किया गया है।",
+      "sentence": [
+        {
+          "sentence": "Scanning your laptop regularly helps prevent malware infections.",
+          "translation": "अपने लैपटॉप को नियमित रूप से स्कैन करने से मैलवेयर संक्रमण को रोकने में मदद मिलती है।"
+        },
+        {
+          "sentence": "Downloading files from unknown websites can install malware on your Mac.",
+          "translation": "अज्ञात वेबसाइटों से फाइलें डाउनलोड करने से आपके मैक पर मैलवेयर इंस्टॉल हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "encryption",
+      "phoneticRespelling": "en-KRIP-shuhn",
+      "translation": "एन्क्रिप्शन / कूटलेखन",
+      "definition": "The process of converting information into a secret code to prevent unauthorized access.",
+      "definationTranslation": "अनधिकृत पहुंच को रोकने के लिए जानकारी को गुप्त कोड में बदलने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "WhatsApp uses end-to-end encryption to keep your chats private.",
+          "translation": "व्हाट्सएप आपकी चैट को निजी रखने के लिए एंड-टू-एंड एन्क्रिप्शन का उपयोग करता है।"
+        },
+        {
+          "sentence": "Encryption ensures that only the sender and receiver can read the message.",
+          "translation": "एन्क्रिप्शन यह सुनिश्चित करता है कि केवल भेजने वाला और प्राप्त करने वाला ही संदेश पढ़ सके।"
+        }
+      ]
+    },
+    {
+      "word": "privacy settings",
+      "phoneticRespelling": "PRAHY-vuh-see set-ingz",
+      "translation": "गोपनीयता सेटिंग्स",
+      "definition": "Options on social media or websites that let you control who can see your information.",
+      "definationTranslation": "सोशल मीडिया या वेबसाइटों पर वे विकल्प जो आपको यह नियंत्रित करने देते हैं कि आपकी जानकारी कौन देख सकता है।",
+      "sentence": [
+        {
+          "sentence": "You should check your privacy settings to keep your profile private.",
+          "translation": "अपनी प्रोफाइल को प्राइवेट रखने के लिए आपको अपनी गोपनीयता सेटिंग्स की जांच करनी चाहिए।"
+        },
+        {
+          "sentence": "The app updated its privacy settings, so I need to review them.",
+          "translation": "ऐप ने अपनी गोपनीयता सेटिंग्स अपडेट की हैं, इसलिए मुझे उनकी समीक्षा करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "scam",
+      "phoneticRespelling": "SKAM",
+      "translation": "घोटाला / धोखाधड़ी",
+      "definition": "A clever and dishonest plan for making money or getting an advantage.",
+      "definationTranslation": "पैसा बनाने या लाभ प्राप्त करने की एक चतुर और बेईमानी भरी योजना।",
+      "sentence": [
+        {
+          "sentence": "Beware of online scams that promise quick money.",
+          "translation": "जल्दी पैसा देने का वादा करने वाले ऑनलाइन घोटालों से सावधान रहें।"
+        },
+        {
+          "sentence": "He lost a lot of money in a crypto-currency scam.",
+          "translation": "उसने क्रिप्टो-करंसी घोटाले में बहुत सारा पैसा खो दिया।"
+        }
+      ]
+    },
+    {
+      "word": "data breach",
+      "phoneticRespelling": "DEY-tuh breech",
+      "translation": "डेटा लीक / डेटा उल्लंघन",
+      "definition": "An incident where confidential information is stolen or viewed by someone who is not authorized.",
+      "definationTranslation": "एक ऐसी घटना जहाँ गोपनीय जानकारी चोरी हो जाती है या किसी ऐसे व्यक्ति द्वारा देखी जाती है जो अधिकृत नहीं है।",
+      "sentence": [
+        {
+          "sentence": "The company reported a major data breach affecting millions of users.",
+          "translation": "कंपनी ने लाखों उपयोगकर्ताओं को प्रभावित करने वाले एक बड़े डेटा लीक की सूचना दी।"
+        },
+        {
+          "sentence": "I changed my password after hearing about the data breach.",
+          "translation": "डेटा लीक के बारे में सुनने के बाद मैंने अपना पासवर्ड बदल दिया।"
+        }
+      ]
+    },
+    {
+      "word": "public Wi-Fi",
+      "phoneticRespelling": "PUHB-lik WAHY-fahy",
+      "translation": "सार्वजनिक वाई-फाई",
+      "definition": "A Wi-Fi network that is available to everyone, often in places like cafes or airports.",
+      "definationTranslation": "एक वाई-फाई नेटवर्क जो सभी के लिए उपलब्ध है, अक्सर कैफे या हवाई अड्डों जैसी जगहों पर।",
+      "sentence": [
+        {
+          "sentence": "Avoid checking your bank account while connected to public Wi-Fi.",
+          "translation": "सार्वजनिक वाई-फाई से कनेक्ट होने के दौरान अपना बैंक खाता चेक करने से बचें।"
+        },
+        {
+          "sentence": "Using a VPN is safer when you use public Wi-Fi.",
+          "translation": "जब आप सार्वजनिक वाई-फाई का उपयोग करते हैं तो वीपीएन (VPN) का उपयोग करना अधिक सुरक्षित होता है।"
+        }
+      ]
+    },
+    {
+      "word": "identity theft",
+      "phoneticRespelling": "ahy-DEN-ti-tee theft",
+      "translation": "पहचान की चोरी",
+      "definition": "The illegal use of another person's personal details to steal money or get credit.",
+      "definationTranslation": "पैसे चुराने या क्रेडिट प्राप्त करने के लिए दूसरे व्यक्ति के व्यक्तिगत विवरणों का अवैध उपयोग।",
+      "sentence": [
+        {
+          "sentence": "Shredding old bills can help prevent identity theft.",
+          "translation": "पुराने बिलों को नष्ट करने से पहचान की चोरी रोकने में मदद मिल सकती है।"
+        },
+        {
+          "sentence": "Identity theft is a serious crime that can ruin your credit score.",
+          "translation": "पहचान की चोरी एक गंभीर अपराध है जो आपके क्रेडिट स्कोर को खराब कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "VPN (Virtual Private Network)",
+      "phoneticRespelling": "VEE-PEE-EN",
+      "translation": "वीपीएन",
+      "definition": "A service that protects your internet connection and privacy online.",
+      "definationTranslation": "एक सेवा जो आपके इंटरनेट कनेक्शन और ऑनलाइन गोपनीयता की रक्षा करती है।",
+      "sentence": [
+        {
+          "sentence": "A VPN hides your IP address from hackers.",
+          "translation": "वीपीएन आपके आईपी एड्रेस को हैकर्स से छुपाता है।"
+        },
+        {
+          "sentence": "I use a VPN whenever I work from a coffee shop.",
+          "translation": "जब भी मैं कॉफी शॉप से काम करता हूँ तो वीपीएन का उपयोग करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "secure website (HTTPS)",
+      "phoneticRespelling": "si-KYOOR WEB-sahyt",
+      "translation": "सुरक्षित वेबसाइट",
+      "definition": "A website that uses encryption to protect the data sent between your browser and the site.",
+      "definationTranslation": "एक वेबसाइट जो आपके ब्राउज़र और साइट के बीच भेजे गए डेटा की सुरक्षा के लिए एन्क्रिप्शन का उपयोग करती है।",
+      "sentence": [
+        {
+          "sentence": "Look for the padlock icon to ensure it's a secure website.",
+          "translation": "यह सुनिश्चित करने के लिए कि यह एक सुरक्षित वेबसाइट है, पैडलॉक (ताले का) आइकन देखें।"
+        },
+        {
+          "sentence": "Only enter your credit card details on a secure website.",
+          "translation": "केवल सुरक्षित वेबसाइट पर ही अपने क्रेडिट कार्ड का विवरण दर्ज करें।"
+        }
+      ]
+    },
+    {
+      "word": "strong password",
+      "phoneticRespelling": "STRAWNG PAS-wurd",
+      "translation": "मजबूत पासवर्ड",
+      "definition": "A password that is difficult for people or computers to guess.",
+      "definationTranslation": "एक पासवर्ड जिसका अनुमान लगाना लोगों या कंप्यूटर के लिए कठिन हो।",
+      "sentence": [
+        {
+          "sentence": "A strong password should include letters, numbers, and symbols.",
+          "translation": "एक मजबूत पासवर्ड में अक्षर, अंक और प्रतीक (symbols) शामिल होने चाहिए।"
+        },
+        {
+          "sentence": "Don't use your birthday as part of your password; it's not a strong password.",
+          "translation": "अपने जन्मदिन को अपने पासवर्ड के हिस्से के रूप में उपयोग न करें; यह एक मजबूत पासवर्ड नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "firewall",
+      "phoneticRespelling": "FAHY-er-wawl",
+      "translation": "फ़ायरवॉल",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic.",
+      "definationTranslation": "एक सुरक्षा प्रणाली जो आने वाले और जाने वाले नेटवर्क ट्रैफ़िक की निगरानी और नियंत्रण करती है।",
+      "sentence": [
+        {
+          "sentence": "Make sure your computer's firewall is turned on.",
+          "translation": "सुनिश्चित करें कि आपके कंप्यूटर का फ़ायरवॉल चालू है।"
+        },
+        {
+          "sentence": "A firewall acts as a barrier between your computer and the internet.",
+          "translation": "फ़ायरवॉल आपके कंप्यूटर और इंटरनेट के बीच एक बाधा के रूप में कार्य करता है।"
+        }
+      ]
+    },
+    {
+      "word": "suspicious",
+      "phoneticRespelling": "suh-SPISH-uhs",
+      "translation": "संदिग्ध",
+      "definition": "Making you feel that something is wrong or dishonest.",
+      "definationTranslation": "यह महसूस कराना कि कुछ गलत या बेईमानी भरा है।",
+      "sentence": [
+        {
+          "sentence": "I received a suspicious email asking for my bank details.",
+          "translation": "मुझे एक संदिग्ध ईमेल मिला जिसमें मेरे बैंक विवरण मांगे गए थे।"
+        },
+        {
+          "sentence": "Report any suspicious activity on your account immediately.",
+          "translation": "अपने खाते पर किसी भी संदिग्ध गतिविधि की तुरंत रिपोर्ट करें।"
+        }
+      ]
+    },
+    {
+      "word": "unauthorized access",
+      "phoneticRespelling": "uhn-AW-thuh-rahyzd AK-ses",
+      "translation": "अनधिकृत पहुंच",
+      "definition": "When someone gets into a computer system or account without permission.",
+      "definationTranslation": "जब कोई बिना अनुमति के कंप्यूटर सिस्टम या अकाउंट में घुस जाता है।",
+      "sentence": [
+        {
+          "sentence": "The security system prevents unauthorized access to the database.",
+          "translation": "सुरक्षा प्रणाली डेटाबेस तक अनधिकृत पहुंच को रोकती है।"
+        },
+        {
+          "sentence": "Changing your password regularly reduces the risk of unauthorized access.",
+          "translation": "नियमित रूप से अपना पासवर्ड बदलने से अनधिकृत पहुंच का जोखिम कम हो जाता।"
+        }
+      ]
+    }
+  ]
 }

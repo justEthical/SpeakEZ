@@ -1,3 +1,260 @@
 {
-  "topic": "Recycling and Waste"
+  "topic": "Recycling and Waste",
+  "words": [
+    {
+      "word": "recycle",
+      "phoneticRespelling": "ree-SAHY-kuhl",
+      "translation": "पुनर्चक्रण करना (रीसाइकल)",
+      "definition": "To convert waste into reusable material.",
+      "definationTranslation": "कचरे को दोबारा उपयोग करने योग्य सामग्री में बदलना।",
+      "sentence": [
+        {
+          "sentence": "You should recycle plastic bottles instead of throwing them away.",
+          "translation": "आपको प्लास्टिक की बोतलों को फेंकने के बजाय उन्हें रीसाइकल करना चाहिए।"
+        },
+        {
+          "sentence": "Our city has a very efficient system to recycle paper and glass.",
+          "translation": "हमारे शहर में कागज और कांच को रीसाइकल करने की बहुत कुशल प्रणाली है।"
+        }
+      ]
+    },
+    {
+      "word": "landfill",
+      "phoneticRespelling": "LAND-fil",
+      "translation": "कचरा भराव क्षेत्र (लैंडफिल)",
+      "definition": "A place where waste is disposed of by burying it under layers of earth.",
+      "definationTranslation": "वह स्थान जहाँ कचरे को मिट्टी की परतों के नीचे दबाकर निपटाया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Too much plastic ends up in the landfill every year.",
+          "translation": "हर साल बहुत सारा प्लास्टिक लैंडफिल में चला जाता है।"
+        },
+        {
+          "sentence": "The local landfill is reaching its maximum capacity.",
+          "translation": "स्थानीय लैंडफिल अपनी अधिकतम क्षमता तक पहुँच रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "e-waste",
+      "phoneticRespelling": "EE-weyst",
+      "translation": "ई-कचरा (इलेक्ट्रॉनिक कचरा)",
+      "definition": "Discarded electronic devices such as mobile phones, computers, and chargers.",
+      "definationTranslation": "मोबाइल फोन, कंप्यूटर और चार्जर जैसे फेंके गए इलेक्ट्रॉनिक उपकरण।",
+      "sentence": [
+        {
+          "sentence": "Old laptops and broken chargers should be disposed of as e-waste.",
+          "translation": "पुराने लैपटॉप और टूटे हुए चार्जर का निपटान ई-कचरे के रूप में किया जाना चाहिए।"
+        },
+        {
+          "sentence": "E-waste contains toxic materials that can leak into the ground.",
+          "translation": "ई-कचरे में जहरीले पदार्थ होते हैं जो जमीन में रिस सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "single-use",
+      "phoneticRespelling": "SING-guhl YOOS",
+      "translation": "एकल-उपयोग (सिर्फ एक बार इस्तेमाल होने वाला)",
+      "definition": "Designed to be used once and then thrown away.",
+      "definationTranslation": "एक बार उपयोग करने और फिर फेंक देने के लिए डिज़ाइन किया गया।",
+      "sentence": [
+        {
+          "sentence": "Many countries have banned single-use plastic straws.",
+          "translation": "कई देशों ने एकल-उपयोग वाले प्लास्टिक स्ट्रॉ पर प्रतिबंध लगा दिया है।"
+        },
+        {
+          "sentence": "Try to avoid single-use coffee cups by bringing your own mug.",
+          "translation": "अपना खुद का मग लाकर एकल-उपयोग वाले कॉफी कप से बचने की कोशिश करें।"
+        }
+      ]
+    },
+    {
+      "word": "sorting",
+      "phoneticRespelling": "SAWR-ting",
+      "translation": "छंटाई करना",
+      "definition": "The process of separating waste into different categories like paper, plastic, and metal.",
+      "definationTranslation": "कचरे को कागज, प्लास्टिक और धातु जैसी विभिन्न श्रेणियों में अलग करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Sorting your trash at home makes the recycling process much easier.",
+          "translation": "घर पर अपने कचरे की छंटाई करने से रीसाइकलिंग प्रक्रिया बहुत आसान हो जाती है।"
+        },
+        {
+          "sentence": "The facility uses machines for the automated sorting of materials.",
+          "translation": "संस्थान सामग्रियों की स्वचालित छंटाई के लिए मशीनों का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "upcycling",
+      "phoneticRespelling": "UHP-sahy-kling",
+      "translation": "अपसाइक्लिंग (कचरे से बेहतर चीज़ बनाना)",
+      "definition": "Reusing discarded objects to create something of higher value or quality than the original.",
+      "definationTranslation": "पुरानी वस्तुओं का पुन: उपयोग करके मूल से अधिक मूल्य या गुणवत्ता वाली चीज़ बनाना।",
+      "sentence": [
+        {
+          "sentence": "She is upcycling old glass jars into beautiful flower vases.",
+          "translation": "वह कांच के पुराने जार को सुंदर फूलों के गुलदस्ते में अपसाइकल कर रही है।"
+        },
+        {
+          "sentence": "Upcycling is a creative way to reduce waste.",
+          "translation": "अपसाइक्लिंग कचरे को कम करने का एक रचनात्मक तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "contamination",
+      "phoneticRespelling": "kuhn-tam-uh-NEY-shuhn",
+      "translation": "दूषण / मिलावट (रीसाइकिलिंग में)",
+      "definition": "When non-recyclable items are mixed with recyclables, making the whole batch unusable.",
+      "definationTranslation": "जब न रीसाइकिल होने वाली चीजें रीसाइकिल होने वाली चीजों के साथ मिल जाती हैं, जिससे पूरा बैच अनुपयोगी हो जाता है।",
+      "sentence": [
+        {
+          "sentence": "Greasy pizza boxes can cause contamination in the paper recycling bin.",
+          "translation": "चिकने पिज्जा बॉक्स पेपर रीसाइकिलिंग बिन में दूषण (गंदगी) पैदा कर सकते हैं।"
+        },
+        {
+          "sentence": "Rinse your food containers to avoid contamination.",
+          "translation": "दूषण से बचने के लिए अपने खाने के डिब्बों को धो लें।"
+        }
+      ]
+    },
+    {
+      "word": "hazardous waste",
+      "phoneticRespelling": "HAZ-er-duhs weyst",
+      "translation": "खतरनाक कचरा",
+      "definition": "Waste that is dangerous or potentially harmful to our health or the environment.",
+      "definationTranslation": "वह कचरा जो हमारे स्वास्थ्य या पर्यावरण के लिए खतरनाक या संभावित रूप से हानिकारक है।",
+      "sentence": [
+        {
+          "sentence": "Batteries and paint are considered hazardous waste.",
+          "translation": "बैटरियों और पेंट को खतरनाक कचरा माना जाता है।"
+        },
+        {
+          "sentence": "Never pour hazardous waste down the drain.",
+          "translation": "खतरनाक कचरे को कभी भी नाली में न बहाएं।"
+        }
+      ]
+    },
+    {
+      "word": "biodegradable",
+      "phoneticRespelling": "bahy-oh-di-GREY-duh-buhl",
+      "translation": "जैविक रूप से सड़नशील",
+      "definition": "Capable of being decomposed by bacteria or other living organisms.",
+      "definationTranslation": "बैक्टीरिया या अन्य जीवित जीवों द्वारा विघटित होने में सक्षम।",
+      "sentence": [
+        {
+          "sentence": "Switching to biodegradable bags helps keep our oceans clean.",
+          "translation": "जैविक रूप से सड़नशील बैग अपनाने से हमारे समुद्रों को साफ रखने में मदद मिलती है।"
+        },
+        {
+          "sentence": "Food waste is biodegradable and can be turned into compost.",
+          "translation": "खाने का कचरा बायोडिग्रेडेबल होता है और इसे खाद में बदला जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "reusable",
+      "phoneticRespelling": "ree-YOO-zuh-buhl",
+      "translation": "दोबारा इस्तेमाल होने योग्य",
+      "definition": "Able to be used again or more than once.",
+      "definationTranslation": "दोबारा या एक से अधिक बार उपयोग किए जाने में सक्षम।",
+      "sentence": [
+        {
+          "sentence": "Reusable shopping bags are much stronger than plastic ones.",
+          "translation": "दोबारा इस्तेमाल होने वाले शॉपिंग बैग प्लास्टिक के बैग की तुलना में बहुत मजबूत होते हैं।"
+        },
+        {
+          "sentence": "Using a reusable water bottle is a simple way to help the planet.",
+          "translation": "दोबारा इस्तेमाल होने वाली पानी की बोतल का उपयोग करना ग्रह की मदद करने का एक सरल तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "incineration",
+      "phoneticRespelling": "in-sin-uh-REY-shuhn",
+      "translation": "भस्मीकरण (कचरा जलाना)",
+      "definition": "The process of burning waste material to dispose of it.",
+      "definationTranslation": "कचरे के निपटान के लिए उसे जलाने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Incineration can reduce the volume of waste but may release harmful gases.",
+          "translation": "भस्मीकरण कचरे की मात्रा को कम कर सकता है लेकिन हानिकारक गैसें छोड़ सकता है।"
+        },
+        {
+          "sentence": "Modern incineration plants also generate energy from waste.",
+          "translation": "आधुनिक भस्मीकरण संयंत्र कचरे से ऊर्जा भी पैदा करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "circular economy",
+      "phoneticRespelling": "SUR-kyuh-ler ih-KON-uh-mee",
+      "translation": "चक्रीय अर्थव्यवस्था",
+      "definition": "An economic system aimed at eliminating waste and the continual use of resources.",
+      "definationTranslation": "एक आर्थिक प्रणाली जिसका उद्देश्य कचरे को खत्म करना और संसाधनों का निरंतर उपयोग करना है।",
+      "sentence": [
+        {
+          "sentence": "The circular economy focuses on repairing and recycling instead of throwing away.",
+          "translation": "चक्रीय अर्थव्यवस्था फेंकने के बजाय मरम्मत और रीसाइकिलिंग पर ध्यान केंद्रित करती है।"
+        },
+        {
+          "sentence": "Businesses are adopting a circular economy model to be more sustainable.",
+          "translation": "व्यवसाय अधिक टिकाऊ बनने के लिए चक्रीय अर्थव्यवस्था मॉडल अपना रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "compostable",
+      "phoneticRespelling": "KOM-poh-stuh-buhl",
+      "translation": "खाद बनाने योग्य",
+      "definition": "Material that can be broken down into natural elements in a compost environment.",
+      "definationTranslation": "ऐसी सामग्री जिसे खाद के वातावरण में प्राकृतिक तत्वों में तोड़ा जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "These take-away containers are made from compostable materials.",
+          "translation": "ये टेक-अवे कंटेनर खाद बनाने योग्य सामग्री से बने हैं।"
+        },
+        {
+          "sentence": "Compostable items should not be put in the regular recycling bin.",
+          "translation": "खाद बनाने योग्य वस्तुओं को नियमित रीसाइकिलिंग बिन में नहीं डालना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "scrap",
+      "phoneticRespelling": "SKRAP",
+      "translation": "कबाड़ / रद्दी",
+      "definition": "Small pieces of waste material, especially metal, that can be repurposed.",
+      "definationTranslation": "कचरे के छोटे टुकड़े, विशेष रूप से धातु, जिन्हें दोबारा उपयोग में लाया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "He sold the old car parts to a scrap dealer.",
+          "translation": "उसने पुरानी कार के पुर्जे एक कबाड़ी को बेच दिए।"
+        },
+        {
+          "sentence": "The artist uses scrap metal to create unique sculptures.",
+          "translation": "कलाकार अद्वितीय मूर्तियां बनाने के लिए रद्दी धातु का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "zero waste",
+      "phoneticRespelling": "ZEER-oh weyst",
+      "translation": "शून्य कचरा (ज़ीरो वेस्ट)",
+      "definition": "A lifestyle or goal of sending no trash to landfills or incinerators.",
+      "definationTranslation": "एक जीवनशैली या लक्ष्य जिसमें लैंडफिल या भस्मीकरण संयंत्रों में कोई कचरा न भेजा जाए।",
+      "sentence": [
+        {
+          "sentence": "Living a zero waste life requires careful planning and shopping.",
+          "translation": "शून्य कचरा जीवन जीने के लिए सावधानीपूर्वक योजना और खरीदारी की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "The zero waste movement is gaining popularity among young people.",
+          "translation": "शून्य कचरा आंदोलन युवाओं के बीच लोकप्रियता हासिल कर रहा है।"
+        }
+      ]
+    }
+  ]
 }

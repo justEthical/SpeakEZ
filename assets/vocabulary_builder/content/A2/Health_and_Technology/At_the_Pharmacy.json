@@ -1,3 +1,260 @@
 {
-  "topic": "At the Pharmacy"
+  "topic": "At the Pharmacy",
+  "words": [
+    {
+      "word": "prescription",
+      "phoneticRespelling": "pri-SKRIP-shuhn",
+      "translation": "नुस्खा (परचा)",
+      "definition": "A piece of paper on which a doctor writes the medicine you need.",
+      "definationTranslation": "एक कागज़ का टुकड़ा जिस पर डॉक्टर आपकी ज़रूरत की दवा लिखता है।",
+      "sentence": [
+        {
+          "sentence": "The pharmacist is preparing your prescription now.",
+          "translation": "फार्मासिस्ट अभी आपका पर्चा तैयार कर रहा है।"
+        },
+        {
+          "sentence": "You cannot buy this medicine without a prescription.",
+          "translation": "आप यह दवा बिना डॉक्टर के पर्चे के नहीं खरीद सकते।"
+        }
+      ]
+    },
+    {
+      "word": "pharmacist",
+      "phoneticRespelling": "FAHR-muh-sist",
+      "translation": "दवा विक्रेता (फार्मासिस्ट)",
+      "definition": "A person who is trained to prepare and sell medicines.",
+      "definationTranslation": "एक व्यक्ति जो दवाएं तैयार करने और बेचने के लिए प्रशिक्षित है।",
+      "sentence": [
+        {
+          "sentence": "You can ask the pharmacist for advice on your cough.",
+          "translation": "आप अपनी खांसी के बारे में फार्मासिस्ट से सलाह ले सकते हैं।"
+        },
+        {
+          "sentence": "The pharmacist explained how to take the pills.",
+          "translation": "फार्मासिस्ट ने बताया कि गोलियां कैसे लेनी हैं।"
+        }
+      ]
+    },
+    {
+      "word": "dosage",
+      "phoneticRespelling": "DOH-sij",
+      "translation": "खुराक",
+      "definition": "The exact amount of medicine that you should take.",
+      "definationTranslation": "दवा की वह सटीक मात्रा जो आपको लेनी चाहिए।",
+      "sentence": [
+        {
+          "sentence": "What is the correct dosage for a child?",
+          "translation": "बच्चे के लिए सही खुराक क्या है?"
+        },
+        {
+          "sentence": "Do not exceed the recommended dosage.",
+          "translation": "सिफारिश की गई खुराक से अधिक न लें।"
+        }
+      ]
+    },
+    {
+      "word": "ointment",
+      "phoneticRespelling": "OINT-muhnt",
+      "translation": "मलहम",
+      "definition": "A smooth substance that you rub on the skin to heal a wound.",
+      "definationTranslation": "एक चिकना पदार्थ जिसे आप घाव भरने के लिए त्वचा पर रगड़ते हैं।",
+      "sentence": [
+        {
+          "sentence": "Apply this ointment to the rash twice a day.",
+          "translation": "इस मलहम को दिन में दो बार दाने पर लगाएं।"
+        },
+        {
+          "sentence": "The doctor prescribed an antiseptic ointment.",
+          "translation": "डॉक्टर ने एक एंटीसेप्टिक मलहम लिखा है।"
+        }
+      ]
+    },
+    {
+      "word": "syrup",
+      "phoneticRespelling": "SIR-uhp",
+      "translation": "सिरप (तरल दवा)",
+      "definition": "A sweet liquid medicine.",
+      "definationTranslation": "एक मीठी तरल दवा।",
+      "sentence": [
+        {
+          "sentence": "Give the baby five milliliters of the cough syrup.",
+          "translation": "बच्चे को पांच मिलीलीटर खांसी का सिरप दें।"
+        },
+        {
+          "sentence": "Shake the syrup bottle well before use.",
+          "translation": "इस्तेमाल से पहले सिरप की बोतल को अच्छी तरह हिलाएं।"
+        }
+      ]
+    },
+    {
+      "word": "capsule",
+      "phoneticRespelling": "KAP-suhl",
+      "translation": "कैप्सूल",
+      "definition": "A small container with medicine inside that you swallow whole.",
+      "definationTranslation": "दवा के साथ एक छोटा कंटेनर जिसे आप पूरा निगल जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "You need to take one capsule every morning.",
+          "translation": "आपको हर सुबह एक कैप्सूल लेने की ज़रूरत है।"
+        },
+        {
+          "sentence": "The capsules are easier to swallow than tablets.",
+          "translation": "कैप्सूल गोलियों की तुलना में निगलने में आसान होते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "side effects",
+      "phoneticRespelling": "SAHYD i-fekts",
+      "translation": "दुष्प्रभाव (साइड इफेक्ट्स)",
+      "definition": "Unpleasant effects that a medicine may have on your body.",
+      "definationTranslation": "अप्रिय प्रभाव जो दवा आपके शरीर पर डाल सकती है।",
+      "sentence": [
+        {
+          "sentence": "Does this medicine have any side effects like drowsiness?",
+          "translation": "क्या इस दवा का कोई साइड इफेक्ट जैसे उनींदापन है?"
+        },
+        {
+          "sentence": "The side effects of this antibiotic are very mild.",
+          "translation": "इस एंटीबायोटिक के दुष्प्रभाव बहुत कम हैं।"
+        }
+      ]
+    },
+    {
+      "word": "over-the-counter",
+      "phoneticRespelling": "oh-ver-thuh-KOUN-ter",
+      "translation": "बिना पर्चे के मिलने वाली दवा",
+      "definition": "Medicines that can be bought without a doctor's prescription.",
+      "definationTranslation": "वे दवाएं जो डॉक्टर के पर्चे के बिना खरीदी जा सकती हैं।",
+      "sentence": [
+        {
+          "sentence": "Aspirin is an over-the-counter medication.",
+          "translation": "एस्पिरिन बिना पर्चे के मिलने वाली दवा है।"
+        },
+        {
+          "sentence": "You can find over-the-counter cold remedies in aisle four.",
+          "translation": "आप गलियारा नंबर चार में बिना पर्चे वाली सर्दी की दवाएं पा सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "painkiller",
+      "phoneticRespelling": "PEYN-kil-er",
+      "translation": "दर्द निवारक",
+      "definition": "A medicine used to reduce or stop pain.",
+      "definationTranslation": "दर्द को कम करने या रोकने के लिए इस्तेमाल की जाने वाली दवा।",
+      "sentence": [
+        {
+          "sentence": "I took a painkiller for my headache.",
+          "translation": "मैंने अपने सिरदर्द के लिए दर्द निवारक दवा ली।"
+        },
+        {
+          "sentence": "Strong painkillers require a prescription.",
+          "translation": "शक्तिशाली दर्द निवारक दवाओं के लिए पर्चे की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "bandage",
+      "phoneticRespelling": "BAN-dij",
+      "translation": "पट्टी",
+      "definition": "A long piece of cloth used for wrapping around an injury.",
+      "definationTranslation": "चोट के चारों ओर लपेटने के लिए इस्तेमाल किया जाने वाला कपड़े का एक लंबा टुकड़ा।",
+      "sentence": [
+        {
+          "sentence": "The nurse put a bandage on my sprained ankle.",
+          "translation": "नर्स ने मेरे मोच वाले टखने पर पट्टी बांधी।"
+        },
+        {
+          "sentence": "You should change the bandage every day.",
+          "translation": "आपको हर दिन पट्टी बदलनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "thermometer",
+      "phoneticRespelling": "ther-MOM-i-ter",
+      "translation": "तापमापी (थर्मामीटर)",
+      "definition": "An instrument for measuring body temperature.",
+      "definationTranslation": "शरीर के तापमान को मापने का एक उपकरण।",
+      "sentence": [
+        {
+          "sentence": "Use the thermometer to check if he has a fever.",
+          "translation": "थर्मामीटर का उपयोग करके जांचें कि क्या उसे बुखार है।"
+        },
+        {
+          "sentence": "Clean the thermometer with alcohol after use.",
+          "translation": "उपयोग के बाद थर्मामीटर को अल्कोहल से साफ करें।"
+        }
+      ]
+    },
+    {
+      "word": "allergy",
+      "phoneticRespelling": "AL-er-jee",
+      "translation": "एलर्जी",
+      "definition": "A condition that makes you feel ill when you eat or touch something.",
+      "definationTranslation": "एक ऐसी स्थिति जो कुछ खाने या छूने पर आपको बीमार महसूस कराती है।",
+      "sentence": [
+        {
+          "sentence": "Do you have any allergy to penicillin?",
+          "translation": "क्या आपको पेनिसिलिन से कोई एलर्जी है?"
+        },
+        {
+          "sentence": "The pharmacist asked about my allergies before giving the medicine.",
+          "translation": "दवा देने से पहले फार्मासिस्ट ने मेरी एलर्जी के बारे में पूछा।"
+        }
+      ]
+    },
+    {
+      "word": "expiration date",
+      "phoneticRespelling": "ek-spuh-REY-shuhn deyt",
+      "translation": "समाप्ति तिथि",
+      "definition": "The date after which a medicine should not be used.",
+      "definationTranslation": "वह तारीख जिसके बाद दवा का उपयोग नहीं किया जाना चाहिए।",
+      "sentence": [
+        {
+          "sentence": "Always check the expiration date on the box.",
+          "translation": "हमेशा बॉक्स पर समाप्ति तिथि की जांच करें।"
+        },
+        {
+          "sentence": "This medicine is past its expiration date.",
+          "translation": "इस दवा की समाप्ति तिथि निकल चुकी है।"
+        }
+      ]
+    },
+    {
+      "word": "drops",
+      "phoneticRespelling": "DROPS",
+      "translation": "बूंदें (ड्रॉप्स)",
+      "definition": "Medicine that is put into the eyes, ears, or nose in small amounts.",
+      "definationTranslation": "दवा जो आंखों, कानों या नाक में कम मात्रा में डाली जाती है।",
+      "sentence": [
+        {
+          "sentence": "The doctor gave me some eye drops for my infection.",
+          "translation": "डॉक्टर ने मुझे संक्रमण के लिए आंखों की कुछ बूंदें दीं।"
+        },
+        {
+          "sentence": "Put two drops in each ear tonight.",
+          "translation": "आज रात प्रत्येक कान में दो बूंदें डालें।"
+        }
+      ]
+    },
+    {
+      "word": "inhaler",
+      "phoneticRespelling": "in-HEY-ler",
+      "translation": "इनहेलर",
+      "definition": "A small device used for breathing in medicine, often for asthma.",
+      "definationTranslation": "दवा को सांस के साथ अंदर लेने के लिए इस्तेमाल किया जाने वाला एक छोटा उपकरण, अक्सर अस्थमा के लिए।",
+      "sentence": [
+        {
+          "sentence": "He always carries his inhaler in case of an asthma attack.",
+          "translation": "अस्थमा के दौरे की स्थिति में वह हमेशा अपना इनहेलर साथ रखता है।"
+        },
+        {
+          "sentence": "The pharmacist showed her how to use the inhaler correctly.",
+          "translation": "फार्मासिस्ट ने उसे दिखाया कि इनहेलर का सही तरीके से उपयोग कैसे किया जाए।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,3 +1,260 @@
 {
-  "topic": "Dining Out"
+  "topic": "Dining Out",
+  "words": [
+    {
+      "word": "reservation",
+      "phoneticRespelling": "rez-er-VEY-shun",
+      "translation": "आरक्षण (बुकिंग)",
+      "definition": "An arrangement to have a table kept for you at a restaurant.",
+      "definationTranslation": "एक रेस्तरां में अपने लिए एक टेबल सुरक्षित रखने की व्यवस्था।",
+      "sentence": [
+        {
+          "sentence": "I made a reservation for two people at 8 PM.",
+          "translation": "मैंने रात 8 बजे दो लोगों के लिए रिजर्वेशन कराया है।"
+        },
+        {
+          "sentence": "The restaurant is full, do you have a reservation?",
+          "translation": "रेस्तरां भरा हुआ है, क्या आपके पास रिजर्वेशन है?"
+        }
+      ]
+    },
+    {
+      "word": "menu",
+      "phoneticRespelling": "MEN-yoo",
+      "translation": "मेन्यू / भोजन सूची",
+      "definition": "A list of food and drinks that you can order in a restaurant.",
+      "definationTranslation": "भोजन और पेय पदार्थों की एक सूची जिन्हें आप रेस्तरां में ऑर्डर कर सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "Can we see the menu, please?",
+          "translation": "क्या हम मेन्यू देख सकते हैं, कृपया?"
+        },
+        {
+          "sentence": "The dessert menu looks delicious.",
+          "translation": "डेजर्ट मेन्यू स्वादिष्ट लग रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "waiter",
+      "phoneticRespelling": "WEY-ter",
+      "translation": "बैरक / वेटर",
+      "definition": "A person whose job is to bring food and drinks to customers at their tables.",
+      "definationTranslation": "एक व्यक्ति जिसका काम ग्राहकों के टेबल पर भोजन और पेय लाना है।",
+      "sentence": [
+        {
+          "sentence": "The waiter recommended the special pasta.",
+          "translation": "वेटर ने विशेष पास्ता की सिफारिश की।"
+        },
+        {
+          "sentence": "We called the waiter to ask for some water.",
+          "translation": "हमने कुछ पानी मांगने के लिए वेटर को बुलाया।"
+        }
+      ]
+    },
+    {
+      "word": "order",
+      "phoneticRespelling": "AWR-der",
+      "translation": "ऑर्डर देना",
+      "definition": "To ask for food or drink in a restaurant.",
+      "definationTranslation": "रेस्तरां में भोजन या पेय मांगना।",
+      "sentence": [
+        {
+          "sentence": "Are you ready to order your meal now?",
+          "translation": "क्या आप अब अपना भोजन ऑर्डर करने के लिए तैयार हैं?"
+        },
+        {
+          "sentence": "I would like to order a glass of orange juice.",
+          "translation": "मैं एक गिलास संतरे का जूस ऑर्डर करना चाहूँगा।"
+        }
+      ]
+    },
+    {
+      "word": "starter",
+      "phoneticRespelling": "STAHR-ter",
+      "translation": "शुरुआती खाना (स्टार्टर)",
+      "definition": "A small amount of food eaten before the main part of a meal.",
+      "definationTranslation": "भोजन के मुख्य भाग से पहले खाया जाने वाला कम मात्रा में भोजन।",
+      "sentence": [
+        {
+          "sentence": "I will have the tomato soup as a starter.",
+          "translation": "मैं स्टार्टर के तौर पर टमाटर का सूप लूँगा।"
+        },
+        {
+          "sentence": "The starters were very tasty.",
+          "translation": "स्टार्टर्स बहुत स्वादिष्ट थे।"
+        }
+      ]
+    },
+    {
+      "word": "main course",
+      "phoneticRespelling": "meyn KAWRS",
+      "translation": "मुख्य भोजन",
+      "definition": "The largest or most important part of a meal.",
+      "definationTranslation": "भोजन का सबसे बड़ा या सबसे महत्वपूर्ण हिस्सा।",
+      "sentence": [
+        {
+          "sentence": "For the main course, I would like the grilled fish.",
+          "translation": "मुख्य भोजन के लिए, मैं ग्रिल्ड फिश चाहूँगा।"
+        },
+        {
+          "sentence": "Vegetarian options are available for the main course.",
+          "translation": "मुख्य भोजन के लिए शाकाहारी विकल्प उपलब्ध हैं।"
+        }
+      ]
+    },
+    {
+      "word": "dessert",
+      "phoneticRespelling": "dih-ZURT",
+      "translation": "मिठाई (डेजर्ट)",
+      "definition": "Sweet food eaten at the end of a meal.",
+      "definationTranslation": "भोजन के अंत में खाया जाने वाला मीठा भोजन।",
+      "sentence": [
+        {
+          "sentence": "Would you like to see the dessert menu?",
+          "translation": "क्या आप डेजर्ट मेन्यू देखना चाहेंगे?"
+        },
+        {
+          "sentence": "Ice cream is a popular dessert.",
+          "translation": "आइसक्रीम एक लोकप्रिय डेजर्ट है।"
+        }
+      ]
+    },
+    {
+      "word": "bill",
+      "phoneticRespelling": "BIL",
+      "translation": "बिल",
+      "definition": "A piece of paper that shows how much you have to pay for your meal.",
+      "definationTranslation": "कागज का एक टुकड़ा जो दिखाता है कि आपको अपने भोजन के लिए कितना भुगतान करना है।",
+      "sentence": [
+        {
+          "sentence": "Excuse me, can we have the bill, please?",
+          "translation": "क्षमा करें, क्या हमें बिल मिल सकता है, कृपया?"
+        },
+        {
+          "sentence": "Check the bill to make sure it is correct.",
+          "translation": "बिल की जांच करें ताकि सुनिश्चित हो सके कि यह सही है।"
+        }
+      ]
+    },
+    {
+      "word": "tip",
+      "phoneticRespelling": "TIP",
+      "translation": "बख्शिश (टिप)",
+      "definition": "A small amount of extra money given to a waiter for good service.",
+      "definationTranslation": "अच्छी सेवा के लिए वेटर को दी जाने वाली अतिरिक्त धन की एक छोटी राशि।",
+      "sentence": [
+        {
+          "sentence": "He left a generous tip for the waiter.",
+          "translation": "उसने वेटर के लिए उदार टिप छोड़ी।"
+        },
+        {
+          "sentence": "Is the tip included in the bill?",
+          "translation": "क्या टिप बिल में शामिल है?"
+        }
+      ]
+    },
+    {
+      "word": "napkin",
+      "phoneticRespelling": "NAP-kin",
+      "translation": "नेपकिन / रूमाल",
+      "definition": "A piece of cloth or paper used at meals for protecting your clothes and cleaning your lips.",
+      "definationTranslation": "भोजन के समय कपड़ों की सुरक्षा और होंठों को साफ करने के लिए इस्तेमाल किया जाने वाला कपड़ा या कागज का टुकड़ा।",
+      "sentence": [
+        {
+          "sentence": "Please use your napkin to wipe your hands.",
+          "translation": "कृपया अपने हाथ पोंछने के लिए नेपकिन का प्रयोग करें।"
+        },
+        {
+          "sentence": "The waiter placed a clean napkin on the table.",
+          "translation": "वेटर ने टेबल पर एक साफ नेपकिन रखा।"
+        }
+      ]
+    },
+    {
+      "word": "beverage",
+      "phoneticRespelling": "BEV-rij",
+      "translation": "पेय पदार्थ",
+      "definition": "A drink of any type.",
+      "definationTranslation": "किसी भी प्रकार का पेय।",
+      "sentence": [
+        {
+          "sentence": "What beverages do you serve here?",
+          "translation": "आप यहाँ कौन से पेय पदार्थ परोसते हैं?"
+        },
+        {
+          "sentence": "I would like a cold beverage with my lunch.",
+          "translation": "मैं अपने दोपहर के भोजन के साथ एक ठंडा पेय चाहूँगा।"
+        }
+      ]
+    },
+    {
+      "word": "vegetarian",
+      "phoneticRespelling": "vej-i-TAIR-ee-uhn",
+      "translation": "शाकाहारी",
+      "definition": "A person who does not eat meat or fish.",
+      "definationTranslation": "वह व्यक्ति जो मांस या मछली नहीं खाता।",
+      "sentence": [
+        {
+          "sentence": "Do you have any vegetarian dishes?",
+          "translation": "क्या आपके पास कोई शाकाहारी व्यंजन है?"
+        },
+        {
+          "sentence": "She is a vegetarian, so she doesn't eat chicken.",
+          "translation": "वह शाकाहारी है, इसलिए वह चिकन नहीं खाती है।"
+        }
+      ]
+    },
+    {
+      "word": "spicy",
+      "phoneticRespelling": "SPAHY-see",
+      "translation": "मसालेदार / तीखा",
+      "definition": "Food that has a strong taste from spices or chili.",
+      "definationTranslation": "भोजन जिसका स्वाद मसालों या मिर्च के कारण तीव्र होता है।",
+      "sentence": [
+        {
+          "sentence": "This curry is very spicy.",
+          "translation": "यह करी बहुत मसालेदार है।"
+        },
+        {
+          "sentence": "I don't like spicy food very much.",
+          "translation": "मुझे मसालेदार खाना बहुत ज्यादा पसंद नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "cutlery",
+      "phoneticRespelling": "KUT-luh-ree",
+      "translation": "छुरी-कांटा (कटलरी)",
+      "definition": "Knives, forks, and spoons used for eating food.",
+      "definationTranslation": "खाना खाने के लिए इस्तेमाल होने वाले चाकू, कांटे और चम्मच।",
+      "sentence": [
+        {
+          "sentence": "The waiter brought clean cutlery for us.",
+          "translation": "वेटर हमारे लिए साफ कटलरी लाया।"
+        },
+        {
+          "sentence": "Can I have another piece of cutlery, please?",
+          "translation": "क्या मुझे एक और कटलरी मिल सकती है, कृपया?"
+        }
+      ]
+    },
+    {
+      "word": "recommend",
+      "phoneticRespelling": "rek-uh-MEND",
+      "translation": "सिफारिश करना / सुझाव देना",
+      "definition": "To suggest something as being good or suitable.",
+      "definationTranslation": "किसी चीज़ को अच्छा या उपयुक्त बताकर उसका सुझाव देना।",
+      "sentence": [
+        {
+          "sentence": "Which dish do you recommend?",
+          "translation": "आप किस व्यंजन की सिफारिश करते हैं?"
+        },
+        {
+          "sentence": "My friend recommended this restaurant to me.",
+          "translation": "मेरे दोस्त ने मुझे इस रेस्तरां का सुझाव दिया था।"
+        }
+      ]
+    }
+  ]
 }

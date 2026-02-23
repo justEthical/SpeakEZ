@@ -1,3 +1,260 @@
 {
-  "topic": "Workplace Communication"
+  "topic": "Workplace Communication",
+  "words": [
+    {
+      "word": "email",
+      "phoneticRespelling": "EE-meyl",
+      "translation": "ईमेल",
+      "definition": "A message sent from one computer to another over the internet.",
+      "definationTranslation": "इंटरनेट के माध्यम से एक कंप्यूटर से दूसरे कंप्यूटर पर भेजा गया संदेश।",
+      "sentence": [
+        {
+          "sentence": "I will send you an email with the project details.",
+          "translation": "मैं आपको प्रोजेक्ट विवरण के साथ एक ईमेल भेजूंगा।"
+        },
+        {
+          "sentence": "Please check your email for the meeting link.",
+          "translation": "कृपया मीटिंग लिंक के लिए अपना ईमेल देखें।"
+        }
+      ]
+    },
+    {
+      "word": "message",
+      "phoneticRespelling": "MES-ij",
+      "translation": "संदेश",
+      "definition": "A short piece of information that you give to a person when you cannot speak to them directly.",
+      "definationTranslation": "जानकारी का एक छोटा हिस्सा जो आप किसी व्यक्ति को तब देते हैं जब आप उनसे सीधे बात नहीं कर सकते।",
+      "sentence": [
+        {
+          "sentence": "I left a message for the manager on his desk.",
+          "translation": "मैंने मैनेजर के डेस्क पर उनके लिए एक संदेश छोड़ दिया।"
+        },
+        {
+          "sentence": "Did you get my text message?",
+          "translation": "क्या आपको मेरा टेक्स्ट संदेश मिला?"
+        }
+      ]
+    },
+    {
+      "word": "reply",
+      "phoneticRespelling": "ri-PLAHY",
+      "translation": "उत्तर देना",
+      "definition": "To answer someone by speaking or writing.",
+      "definationTranslation": "बोलकर या लिखकर किसी को उत्तर देना।",
+      "sentence": [
+        {
+          "sentence": "Please reply to this email by tomorrow morning.",
+          "translation": "कृपया कल सुबह तक इस ईमेल का उत्तर दें।"
+        },
+        {
+          "sentence": "I am waiting for her reply to my question.",
+          "translation": "मैं अपने प्रश्न पर उसके उत्तर की प्रतीक्षा कर रहा हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "call",
+      "phoneticRespelling": "KAWL",
+      "translation": "कॉल करना",
+      "definition": "To speak to someone by phone.",
+      "definationTranslation": "फोन के माध्यम से किसी से बात करना।",
+      "sentence": [
+        {
+          "sentence": "I need to make a quick phone call to a client.",
+          "translation": "मुझे एक क्लाइंट को तुरंत फोन कॉल करने की जरूरत है।"
+        },
+        {
+          "sentence": "Can we have a call at 3 PM to discuss the plan?",
+          "translation": "क्या हम योजना पर चर्चा करने के लिए दोपहर 3 बजे कॉल कर सकते हैं?"
+        }
+      ]
+    },
+    {
+      "word": "presentation",
+      "phoneticRespelling": "pre-zen-TAY-shuhn",
+      "translation": "प्रस्तुति (प्रेजेंटेशन)",
+      "definition": "A formal talk to a group of people about a specific subject.",
+      "definationTranslation": "किसी विशिष्ट विषय के बारे में लोगों के समूह से औपचारिक बातचीत।",
+      "sentence": [
+        {
+          "sentence": "He gave a great presentation about the new software.",
+          "translation": "उसने नए सॉफ्टवेयर के बारे में एक बेहतरीन प्रेजेंटेशन दी।"
+        },
+        {
+          "sentence": "I am preparing slides for my presentation.",
+          "translation": "मैं अपनी प्रेजेंटेशन के लिए स्लाइड्स तैयार कर रहा हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "discuss",
+      "phoneticRespelling": "dih-SKUS",
+      "translation": "चर्चा करना",
+      "definition": "To talk about something with someone and exchange ideas.",
+      "definationTranslation": "किसी के साथ किसी विषय पर बात करना और विचारों का आदान-प्रदान करना।",
+      "sentence": [
+        {
+          "sentence": "We need to discuss the budget for next month.",
+          "translation": "हमें अगले महीने के बजट पर चर्चा करने की जरूरत है।"
+        },
+        {
+          "sentence": "Let's discuss this problem in the meeting.",
+          "translation": "आइए मीटिंग में इस समस्या पर चर्चा करें।"
+        }
+      ]
+    },
+    {
+      "word": "feedback",
+      "phoneticRespelling": "FEED-bak",
+      "translation": "प्रतिक्रिया (फीडबैक)",
+      "definition": "Comments or information about how good a person's work is.",
+      "definationTranslation": "किसी व्यक्ति का काम कितना अच्छा है, इसके बारे में टिप्पणियाँ या जानकारी।",
+      "sentence": [
+        {
+          "sentence": "My boss gave me some useful feedback on my report.",
+          "translation": "मेरे बॉस ने मेरी रिपोर्ट पर कुछ उपयोगी फीडबैक दिया।"
+        },
+        {
+          "sentence": "We welcome feedback from our customers.",
+          "translation": "हम अपने ग्राहकों की प्रतिक्रिया का स्वागत करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "attachment",
+      "phoneticRespelling": "uh-TACH-muhnt",
+      "translation": "अनुलग्नक (अटैचमेंट)",
+      "definition": "A file that is sent along with an email.",
+      "definationTranslation": "एक फाइल जो ईमेल के साथ भेजी जाती है।",
+      "sentence": [
+        {
+          "sentence": "Please see the attachment for the full document.",
+          "translation": "पूरे दस्तावेज़ के लिए कृपया अटैचमेंट देखें।"
+        },
+        {
+          "sentence": "I forgot to add the attachment to my email.",
+          "translation": "मैं अपने ईमेल में अटैचमेंट जोड़ना भूल गया।"
+        }
+      ]
+    },
+    {
+      "word": "colleague",
+      "phoneticRespelling": "KOL-eeg",
+      "translation": "सहकर्मी",
+      "definition": "A person who works with you in the same company or office.",
+      "definationTranslation": "एक व्यक्ति जो आपके साथ एक ही कंपनी या कार्यालय में काम करता है।",
+      "sentence": [
+        {
+          "sentence": "I talked to a colleague about the new project.",
+          "translation": "मैंने एक सहकर्मी से नए प्रोजेक्ट के बारे में बात की।"
+        },
+        {
+          "sentence": "My colleagues are very supportive.",
+          "translation": "मेरे सहकर्मी बहुत सहयोगी हैं।"
+        }
+      ]
+    },
+    {
+      "word": "forward",
+      "phoneticRespelling": "FAWR-werd",
+      "translation": "आगे भेजना (फॉरवर्ड)",
+      "definition": "To send an email you received to another person.",
+      "definationTranslation": "आपको प्राप्त हुए ईमेल को किसी अन्य व्यक्ति को भेजना।",
+      "sentence": [
+        {
+          "sentence": "Can you forward that email to me, please?",
+          "translation": "क्या आप कृपया वह ईमेल मुझे फॉरवर्ड कर सकते हैं?"
+        },
+        {
+          "sentence": "I will forward your message to the manager.",
+          "translation": "मैं आपका संदेश मैनेजर को फॉरवर्ड कर दूंगा।"
+        }
+      ]
+    },
+    {
+      "word": "formal",
+      "phoneticRespelling": "FAWR-muhl",
+      "translation": "औपचारिक",
+      "definition": "Using serious or professional language.",
+      "definationTranslation": "गंभीर या पेशेवर भाषा का उपयोग करना।",
+      "sentence": [
+        {
+          "sentence": "You should use formal language when writing to a client.",
+          "translation": "क्लाइंट को लिखते समय आपको औपचारिक भाषा का उपयोग करना चाहिए।"
+        },
+        {
+          "sentence": "The meeting was very formal.",
+          "translation": "मीटिंग बहुत औपचारिक थी।"
+        }
+      ]
+    },
+    {
+      "word": "inform",
+      "phoneticRespelling": "in-FAWRM",
+      "translation": "सूचित करना",
+      "definition": "To tell someone about particular facts.",
+      "definationTranslation": "किसी को विशेष तथ्यों के बारे में बताना।",
+      "sentence": [
+        {
+          "sentence": "Please inform me if you are going to be late.",
+          "translation": "यदि आपको देर होने वाली हो तो कृपया मुझे सूचित करें।"
+        },
+        {
+          "sentence": "We will inform all staff about the changes.",
+          "translation": "हम सभी कर्मचारियों को बदलावों के बारे में सूचित करेंगे।"
+        }
+      ]
+    },
+    {
+      "word": "request",
+      "phoneticRespelling": "ri-KWEST",
+      "translation": "अनुरोध करना",
+      "definition": "The act of asking for something politely.",
+      "definationTranslation": "शालीनता से कुछ मांगने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "I sent a request for more information.",
+          "translation": "मैंने अधिक जानकारी के लिए एक अनुरोध भेजा।"
+        },
+        {
+          "sentence": "The manager approved my request for a holiday.",
+          "translation": "मैनेजर ने छुट्टी के लिए मेरे अनुरोध को मंजूरी दे दी।"
+        }
+      ]
+    },
+    {
+      "word": "urgent",
+      "phoneticRespelling": "UR-juhnt",
+      "translation": "जरूरी (अति आवश्यक)",
+      "definition": "Something that needs to be dealt with immediately.",
+      "definationTranslation": "कुछ ऐसा जिससे तुरंत निपटने की आवश्यकता हो।",
+      "sentence": [
+        {
+          "sentence": "I have an urgent task to finish before I go home.",
+          "translation": "घर जाने से पहले मुझे एक बहुत जरूरी काम पूरा करना है।"
+        },
+        {
+          "sentence": "This email is urgent; please read it now.",
+          "translation": "यह ईमेल बहुत जरूरी है; कृपया इसे अभी पढ़ें।"
+        }
+      ]
+    },
+    {
+      "word": "brief",
+      "phoneticRespelling": "BREEF",
+      "translation": "संक्षिप्त",
+      "definition": "Lasting only a short time or using few words.",
+      "definationTranslation": "केवल थोड़े समय के लिए रहने वाला या कम शब्दों का उपयोग करने वाला।",
+      "sentence": [
+        {
+          "sentence": "Let's have a brief chat before the meeting starts.",
+          "translation": "मीटिंग शुरू होने से पहले आइए एक संक्षिप्त बातचीत करते हैं।"
+        },
+        {
+          "sentence": "He gave a brief description of the project.",
+          "translation": "उसने प्रोजेक्ट का संक्षिप्त विवरण दिया।"
+        }
+      ]
+    }
+  ]
 }
