@@ -6,25 +6,30 @@
     "total_words": 3200,
     "total_topics": 160,
     "words_per_topic": 20,
-    "total_categories": 10
+    "total_categories": 12
   },
   "categories": [
     {
-      "category_name": "Professional Life and Business",
+      "category_name": "Professional Life",
       "topics": [
-        "Corporate Strategy",
         "Leadership and Management",
         "Negotiation Skills",
-        "Marketing and Advertising",
-        "Financial Planning",
-        "Business Ethics",
         "Networking and Connections",
         "Project Management",
         "Remote Work",
         "Performance Reviews",
         "Client Relations",
+        "Business Communication"
+      ]
+    },
+    {
+      "category_name": "Business and Workplace Strategy",
+      "topics": [
+        "Corporate Strategy",
+        "Marketing and Advertising",
+        "Financial Planning",
+        "Business Ethics",
         "Workplace Innovation",
-        "Business Communication",
         "Startup Culture",
         "Sales Techniques",
         "Risk Management"
@@ -199,20 +204,25 @@
       ]
     },
     {
-      "category_name": "Media and Communication",
+      "category_name": "Media Studies",
       "topics": [
         "News Literacy",
         "Digital Journalism",
         "Social Media Trends",
         "Content Creation",
+        "Media Bias",
+        "Advertising Strategies",
+        "Podcast Production",
+        "Visual Storytelling"
+      ]
+    },
+    {
+      "category_name": "Communication and Audience Strategy",
+      "topics": [
         "Public Speaking",
         "Interpersonal Communication",
         "Brand Communication",
         "Online Communities",
-        "Media Bias",
-        "Advertising Strategies",
-        "Podcast Production",
-        "Visual Storytelling",
         "Cross-Platform Messaging",
         "Crisis Communication",
         "Audience Engagement",
