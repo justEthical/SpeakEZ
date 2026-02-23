@@ -3,10 +3,10 @@
   "title": "Office Ready",
   "subtitle": "Good enough for a basic job or internship",
   "metadata": {
-    "total_words": 2000,
-    "total_topics": 60,
-    "words_per_topic": 33,
-    "total_categories": 7
+    "total_words": 1600,
+    "total_topics": 80,
+    "words_per_topic": 20,
+    "total_categories": 10
   },
   "categories": [
     {
@@ -19,8 +19,7 @@
         "Conflict Resolution",
         "Life Milestones",
         "Cultural Identity",
-        "Expressing Opinions",
-        "Habits and Routines"
+        "Expressing Opinions"
       ]
     },
     {
@@ -33,8 +32,7 @@
         "Workplace Problems",
         "Teamwork and Collaboration",
         "Professional Skills",
-        "Work-Life Balance",
-        "Entrepreneurship Basics"
+        "Work-Life Balance"
       ]
     },
     {
@@ -60,8 +58,7 @@
         "Immigration and Customs",
         "Local Traditions",
         "Adventure Travel",
-        "Living Abroad",
-        "Transportation Issues"
+        "Living Abroad"
       ]
     },
     {
@@ -87,8 +84,7 @@
         "Housing and Real Estate",
         "Urban vs Rural Life",
         "Transportation Systems",
-        "Public Services",
-        "Volunteering"
+        "Public Services"
       ]
     },
     {
@@ -101,8 +97,46 @@
         "Digital Entertainment",
         "Creative Hobbies",
         "Sports and Competitions",
-        "Food and Cooking Culture",
-        "Fashion and Style"
+        "Food and Cooking Culture"
+      ]
+    },
+    {
+      "category_name": "Technology and Daily Life",
+      "topics": [
+        "Smartphone Usage",
+        "Online Privacy",
+        "Remote Communication",
+        "Everyday Apps",
+        "Basic Cybersecurity",
+        "Digital Payments",
+        "Shopping Online",
+        "Technology at Home"
+      ]
+    },
+    {
+      "category_name": "Personal Effectiveness and Wellbeing",
+      "topics": [
+        "Habits and Routines",
+        "Self-Confidence",
+        "Exam Preparation",
+        "Study Techniques",
+        "Preventive Care",
+        "Healthy Habits",
+        "Using AI Tools",
+        "Troubleshooting Devices"
+      ]
+    },
+    {
+      "category_name": "Public and Professional Engagement",
+      "topics": [
+        "Entrepreneurship Basics",
+        "Customer Service",
+        "Transportation Issues",
+        "Travel Safety",
+        "Volunteering",
+        "Digital Citizenship",
+        "Fashion and Style",
+        "Podcast and Streaming Culture"
       ]
     }
   ]

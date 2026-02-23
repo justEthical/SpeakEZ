@@ -283,6 +283,7 @@ Speak naturally 😃. Speak confidently 💪. SpeakEZ AI 🌟.''';
       "is_show_practice_tab_info_banner";
   static const String isOnDeviceTranscriptionSupported =
       "is_on_device_transcription_supported";
+  static const String vocabProgressData = "vocab_progress_data";
 
   // Admob
   static const String rewardedInterstitialAdUnitId =

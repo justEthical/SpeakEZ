@@ -47,6 +47,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       c.loadLevelData(widget.levelCode);
+      c.loadVocabProgress();
     });
   }
 
@@ -314,6 +315,8 @@ class _SectionCardState extends State<_SectionCard> {
                         _MilestoneBanner(
                           categoryName: s.categoryName,
                           topicCount: s.topics.length,
+                          topics: s.topics,
+                          levelCode: widget.levelCode,
                           accent: s.accent,
                         ),
                       ],
@@ -330,7 +333,7 @@ class _SectionCardState extends State<_SectionCard> {
 // ─── Topic row ────────────────────────────────────────────────────────────────
 
 class _TopicRow extends StatelessWidget {
-  const _TopicRow({
+  _TopicRow({
     required this.dayNumber,
     required this.topicName,
     required this.accent,
@@ -346,6 +349,8 @@ class _TopicRow extends StatelessWidget {
   final String levelCode;
   final String categoryName;
 
+  final _c = Get.find<VocabularyTabController>();
+
   @override
   Widget build(BuildContext context) {
     final ink = Theme.of(context).colorScheme.onSurface;
@@ -359,29 +364,46 @@ class _TopicRow extends StatelessWidget {
             width: 40,
             child: Column(
               children: [
-                Container(
-                  width: 32,
-                  height: 32,
-                  decoration: BoxDecoration(
-                    color: accent.withValues(alpha: 0.10),
-                    shape: BoxShape.circle,
-                    border: Border.all(
-                      color: accent.withValues(alpha: 0.35),
-                      width: 1.5,
+                Obx(() {
+                  final completed = _c.isTopicCompleted(
+                    levelCode,
+                    categoryName,
+                    topicName,
+                  );
+                  return Container(
+                    width: 32,
+                    height: 32,
+                    decoration: BoxDecoration(
+                      color: completed
+                          ? const Color(0xFF10B981)
+                          : accent.withValues(alpha: 0.10),
+                      shape: BoxShape.circle,
+                      border: completed
+                          ? null
+                          : Border.all(
+                              color: accent.withValues(alpha: 0.35),
+                              width: 1.5,
+                            ),
                     ),
-                  ),
-                  child: Center(
-                    child: Text(
-                      '$dayNumber',
-                      style: TextStyle(
-                        color: accent,
-                        fontFamily: AppStrings.nunitoFont,
-                        fontWeight: FontWeight.w800,
-                        fontSize: dayNumber >= 10 ? 10 : 12,
-                      ),
+                    child: Center(
+                      child: completed
+                          ? const Icon(
+                              Icons.check_rounded,
+                              color: Colors.white,
+                              size: 18,
+                            )
+                          : Text(
+                              '$dayNumber',
+                              style: TextStyle(
+                                color: accent,
+                                fontFamily: AppStrings.nunitoFont,
+                                fontWeight: FontWeight.w800,
+                                fontSize: dayNumber >= 10 ? 10 : 12,
+                              ),
+                            ),
                     ),
-                  ),
-                ),
+                  );
+                }),
                 if (showLine)
                   Expanded(
                     child: Center(
@@ -438,6 +460,39 @@ class _TopicRow extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Obx(() {
+                      final result = _c.getTopicResult(
+                        levelCode,
+                        categoryName,
+                        topicName,
+                      );
+                      if (result != null) {
+                        return Padding(
+                          padding: const EdgeInsets.only(right: 4),
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 8,
+                              vertical: 3,
+                            ),
+                            decoration: BoxDecoration(
+                              color: const Color(0xFF10B981)
+                                  .withValues(alpha: 0.10),
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Text(
+                              '${result.perfectCount}/${result.totalWords}',
+                              style: const TextStyle(
+                                color: Color(0xFF10B981),
+                                fontFamily: AppStrings.nunitoFont,
+                                fontWeight: FontWeight.w700,
+                                fontSize: 11,
+                              ),
+                            ),
+                          ),
+                        );
+                      }
+                      return const SizedBox.shrink();
+                    }),
                     Icon(
                       Icons.arrow_forward_ios_rounded,
                       size: 12,
@@ -457,15 +512,21 @@ class _TopicRow extends StatelessWidget {
 // ─── Milestone banner ─────────────────────────────────────────────────────────
 
 class _MilestoneBanner extends StatelessWidget {
-  const _MilestoneBanner({
+  _MilestoneBanner({
     required this.categoryName,
     required this.topicCount,
+    required this.topics,
+    required this.levelCode,
     required this.accent,
   });
 
   final String categoryName;
   final int topicCount;
+  final List<String> topics;
+  final String levelCode;
   final Color accent;
+
+  final _c = Get.find<VocabularyTabController>();
 
   @override
   Widget build(BuildContext context) {
@@ -495,15 +556,22 @@ class _MilestoneBanner extends StatelessWidget {
               ),
             ),
           ),
-          Text(
-            '$topicCount ${AppStrings.vocabTopicsDone.tr}',
-            style: TextStyle(
-              color: accent.withValues(alpha: 0.7),
-              fontFamily: AppStrings.nunitoFont,
-              fontWeight: FontWeight.w600,
-              fontSize: 11,
-            ),
-          ),
+          Obx(() {
+            final done = _c.completedTopicsInCategory(
+              levelCode,
+              categoryName,
+              topics,
+            );
+            return Text(
+              '$done / $topicCount ${AppStrings.vocabTopicsDone.tr}',
+              style: TextStyle(
+                color: accent.withValues(alpha: 0.7),
+                fontFamily: AppStrings.nunitoFont,
+                fontWeight: FontWeight.w600,
+                fontSize: 11,
+              ),
+            );
+          }),
         ],
       ),
     );

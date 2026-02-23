@@ -6,6 +6,8 @@ import 'package:speak_ez/Controllers/vocabulary_tab_controller.dart';
 import 'package:speak_ez/Models/pronunciation_word_model.dart';
 import 'package:speak_ez/Services/pronunciation_scoring_service.dart';
 import 'package:speak_ez/Utils/flutter_stt_helper.dart';
+import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Models/vocab_topic_progress.dart';
 import 'package:speak_ez/Utils/tts_helper.dart';
 
 class TopicWordsScreen extends StatefulWidget {
@@ -49,6 +51,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
   int _perfectCount = 0;
   int _incorrectCount = 0;
   bool _showSummary = false;
+  bool _progressSaved = false;
 
   @override
   void initState() {
@@ -204,7 +207,40 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
     if (_currentIndex < words.length - 1) {
       _goTo(_currentIndex + 1);
     } else {
+      if (!_progressSaved) _saveProgress();
       setState(() => _showSummary = true);
+    }
+  }
+
+  void _saveProgress() {
+    final words = _vocabController.currentTopicWords.value.words;
+    final key = _vocabController.topicKey(
+      widget.levelCode,
+      widget.categoryName,
+      widget.topicName,
+    );
+
+    final isFirstCompletion = !_vocabController.isTopicCompleted(
+      widget.levelCode,
+      widget.categoryName,
+      widget.topicName,
+    );
+
+    final result = VocabTopicResult(
+      perfectCount: _perfectCount,
+      incorrectCount: _incorrectCount,
+      skippedCount: _skippedCount,
+      totalWords: words.length,
+      completedAt: DateTime.now().millisecondsSinceEpoch,
+    );
+
+    _vocabController.saveTopicResult(key, result);
+    _progressSaved = true;
+
+    // Increment wordLearned only on first-time completion
+    if (isFirstCompletion) {
+      globalController.userProfile.value.wordLearned += words.length;
+      globalController.updateProfile();
     }
   }
 
@@ -217,6 +253,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
       _perfectCount = 0;
       _incorrectCount = 0;
       _showSummary = false;
+      _progressSaved = false;
       _scoreResult = null;
       _transcript = '';
       _isListening = false;
@@ -325,6 +362,7 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                 onTap: () {
                   Get.back();
                   if (isLast) {
+                    if (!_progressSaved) _saveProgress();
                     setState(() => _showSummary = true);
                   } else {
                     _goTo(_currentIndex + 1);
