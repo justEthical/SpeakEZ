@@ -1,4 +1,345 @@
 {
   "topic": "Everyday Apps",
-  "words": []
+  "words": [
+    {
+      "word": "interface",
+      "phoneticRespelling": "IN-ter-feys",
+      "translation": "इंटरफेस",
+      "definition": "The way a computer program or app presents itself to the user.",
+      "definationTranslation": "जिस तरह से एक कंप्यूटर प्रोग्राम या ऐप उपयोगकर्ता के सामने खुद को प्रस्तुत करता है।",
+      "sentence": [
+        {
+          "sentence": "The app has a very simple and clean interface.",
+          "translation": "ऐप का इंटरफेस बहुत सरल और साफ है।"
+        },
+        {
+          "sentence": "A good interface makes the app easy to use.",
+          "translation": "एक अच्छा इंटरफेस ऐप को उपयोग करने में आसान बनाता है।"
+        }
+      ]
+    },
+    {
+      "word": "notification",
+      "phoneticRespelling": "noh-tuh-fi-KAY-shuhn",
+      "translation": "सूचना / नोटिफिकेशन",
+      "definition": "A message that appears on your screen to tell you something new.",
+      "definationTranslation": "एक संदेश जो आपको कुछ नया बताने के लिए आपकी स्क्रीन पर दिखाई देता है।",
+      "sentence": [
+        {
+          "sentence": "I received a notification about the new update.",
+          "translation": "मुझे नए अपडेट के बारे में एक नोटिफिकेशन मिला।"
+        },
+        {
+          "sentence": "You can turn off notifications in the settings.",
+          "translation": "आप सेटिंग्स में नोटिफिकेशन बंद कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "settings",
+      "phoneticRespelling": "SET-ingz",
+      "translation": "सेटिंग्स",
+      "definition": "The place where you can change how an app looks or works.",
+      "definationTranslation": "वह स्थान जहाँ आप बदल सकते हैं कि ऐप कैसा दिखता है या कैसे काम करता है।",
+      "sentence": [
+        {
+          "sentence": "You can change the language in the app settings.",
+          "translation": "आप ऐप सेटिंग्स में भाषा बदल सकते हैं।"
+        },
+        {
+          "sentence": "Check your privacy settings to stay safe.",
+          "translation": "सुरक्षित रहने के लिए अपनी गोपनीयता सेटिंग्स की जांच करें।"
+        }
+      ]
+    },
+    {
+      "word": "feature",
+      "phoneticRespelling": "FEE-cher",
+      "translation": "विशेषता / फीचर",
+      "definition": "A typical quality or an important part of an app.",
+      "definationTranslation": "ऐप की एक विशिष्ट गुणवत्ता या एक महत्वपूर्ण हिस्सा।",
+      "sentence": [
+        {
+          "sentence": "The dark mode feature is very popular among users.",
+          "translation": "डार्क मोड फीचर उपयोगकर्ताओं के बीच बहुत लोकप्रिय है।"
+        },
+        {
+          "sentence": "The latest version includes several new features.",
+          "translation": "नवीनतम संस्करण में कई नई विशेषताएं शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "navigation",
+      "phoneticRespelling": "nav-i-GAY-shuhn",
+      "translation": "नेविगेशन",
+      "definition": "The act of moving around within an app to find what you need.",
+      "definationTranslation": "अपनी ज़रूरत की चीज़ ढूँढ़ने के लिए ऐप के भीतर घूमने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "The bottom navigation bar makes it easy to switch tabs.",
+          "translation": "नीचे का नेविगेशन बार टैब बदलना आसान बनाता है।"
+        },
+        {
+          "sentence": "Clear navigation is important for a good user experience.",
+          "translation": "अच्छे उपयोगकर्ता अनुभव के लिए स्पष्ट नेविगेशन महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "browser",
+      "phoneticRespelling": "BROW-zer",
+      "translation": "ब्राउज़र",
+      "definition": "A program used to look at pages on the internet.",
+      "definationTranslation": "इंटरनेट पर पेज देखने के लिए इस्तेमाल किया जाने वाला प्रोग्राम।",
+      "sentence": [
+        {
+          "sentence": "Which web browser do you usually use?",
+          "translation": "आप आमतौर पर कौन सा वेब ब्राउज़र उपयोग करते हैं?"
+        },
+        {
+          "sentence": "You can open the link in your mobile browser.",
+          "translation": "आप अपने मोबाइल ब्राउज़र में लिंक खोल सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "account",
+      "phoneticRespelling": "uh-KOUNT",
+      "translation": "खाता / अकाउंट",
+      "definition": "An arrangement that allows you to use a service or app.",
+      "definationTranslation": "एक व्यवस्था जो आपको किसी सेवा या ऐप का उपयोग करने की अनुमति देती है।",
+      "sentence": [
+        {
+          "sentence": "I need to create a new account to use this app.",
+          "translation": "इस ऐप का उपयोग करने के लिए मुझे एक नया अकाउंट बनाना होगा।"
+        },
+        {
+          "sentence": "Don't forget to log out of your account.",
+          "translation": "अपने अकाउंट से लॉग आउट करना न भूलें।"
+        }
+      ]
+    },
+    {
+      "word": "profile",
+      "phoneticRespelling": "PROH-fahyl",
+      "translation": "प्रोफ़ाइल",
+      "definition": "Information about a person that is shown on an app.",
+      "definationTranslation": "किसी व्यक्ति के बारे में जानकारी जो ऐप पर दिखाई जाती है।",
+      "sentence": [
+        {
+          "sentence": "You can upload a photo to your profile.",
+          "translation": "आप अपनी प्रोफ़ाइल पर एक फोटो अपलोड कर सकते हैं।"
+        },
+        {
+          "sentence": "She updated her profile with her new job title.",
+          "translation": "उसने अपने नए जॉब टाइटल के साथ अपनी प्रोफ़ाइल अपडेट की।"
+        }
+      ]
+    },
+    {
+      "word": "search",
+      "phoneticRespelling": "SURCH",
+      "translation": "खोज / सर्च",
+      "definition": "To look for information within an app.",
+      "definationTranslation": "ऐप के भीतर जानकारी ढूँढना।",
+      "sentence": [
+        {
+          "sentence": "Use the search bar to find the song you want.",
+          "translation": "अपनी पसंद का गाना खोजने के लिए सर्च बार का उपयोग करें।"
+        },
+        {
+          "sentence": "I am searching for a good English learning app.",
+          "translation": "मैं एक अच्छे इंग्लिश लर्निंग ऐप की तलाश कर रहा हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "feed",
+      "phoneticRespelling": "FEED",
+      "translation": "फ़ीड",
+      "definition": "A list of new content that is constantly updated on an app.",
+      "definationTranslation": "नई सामग्री की एक सूची जो ऐप पर लगातार अपडेट होती रहती है।",
+      "sentence": [
+        {
+          "sentence": "I spent an hour scrolling through my social media feed.",
+          "translation": "मैंने अपने सोशल मीडिया फ़ीड को स्क्रॉल करने में एक घंटा बिताया।"
+        },
+        {
+          "sentence": "The news feed shows the latest headlines.",
+          "translation": "न्यूज़ फ़ीड नवीनतम सुर्खियां दिखाता है।"
+        }
+      ]
+    },
+    {
+      "word": "scroll",
+      "phoneticRespelling": "SKROHL",
+      "translation": "स्क्रॉल करना",
+      "definition": "To move up, down, or across the screen to see more content.",
+      "definationTranslation": "अधिक सामग्री देखने के लिए स्क्रीन पर ऊपर, नीचे या इधर-उधर जाना।",
+      "sentence": [
+        {
+          "sentence": "Scroll down to see the rest of the article.",
+          "translation": "बाकी लेख देखने के लिए नीचे स्क्रॉल करें।"
+        },
+        {
+          "sentence": "You can scroll through the photos in the gallery.",
+          "translation": "आप गैलरी में फोटो देख सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "sync",
+      "phoneticRespelling": "SINGK",
+      "translation": "सिंक / तालमेल",
+      "definition": "To make data on two or more devices the same.",
+      "definationTranslation": "दो या दो से अधिक उपकरणों पर डेटा को एक जैसा बनाना।",
+      "sentence": [
+        {
+          "sentence": "The app will sync your data across all your devices.",
+          "translation": "ऐप आपके सभी उपकरणों पर आपके डेटा को सिंक कर देगा।"
+        },
+        {
+          "sentence": "It takes a few seconds to sync your contacts.",
+          "translation": "आपके संपर्कों को सिंक करने में कुछ सेकंड लगते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "offline",
+      "phoneticRespelling": "AWF-lahyn",
+      "translation": "ऑफ़लाइन",
+      "definition": "Not connected to the internet.",
+      "definationTranslation": "इंटरनेट से नहीं जुड़ा हुआ।",
+      "sentence": [
+        {
+          "sentence": "This app allows you to read lessons offline.",
+          "translation": "यह ऐप आपको पाठों को ऑफ़लाइन पढ़ने की अनुमति देता है।"
+        },
+        {
+          "sentence": "I downloaded the map so I can use it offline.",
+          "translation": "मैंने मैप डाउनलोड कर लिया है ताकि मैं इसका ऑफ़लाइन उपयोग कर सकूं।"
+        }
+      ]
+    },
+    {
+      "word": "upload",
+      "phoneticRespelling": "uhp-LOHD",
+      "translation": "अपलोड",
+      "definition": "To send data from your device to the internet or another system.",
+      "definationTranslation": "अपने डिवाइस से इंटरनेट या किसी अन्य सिस्टम पर डेटा भेजना।",
+      "sentence": [
+        {
+          "sentence": "It took a long time to upload the video.",
+          "translation": "वीडियो अपलोड करने में काफी समय लगा।"
+        },
+        {
+          "sentence": "You can upload your homework to the school app.",
+          "translation": "आप अपना होमवर्क स्कूल ऐप पर अपलोड कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "share",
+      "phoneticRespelling": "SHAIR",
+      "translation": "साझा करना / शेयर",
+      "definition": "To give someone else access to content or information.",
+      "definationTranslation": "किसी और को सामग्री या जानकारी तक पहुंच देना।",
+      "sentence": [
+        {
+          "sentence": "You can share this post with your friends.",
+          "translation": "आप इस पोस्ट को अपने दोस्तों के साथ शेयर कर सकते हैं।"
+        },
+        {
+          "sentence": "I shared my location so they could find me.",
+          "translation": "मैंने अपना लोकेशन साझा किया ताकि वे मुझे ढूंढ सकें।"
+        }
+      ]
+    },
+    {
+      "word": "storage",
+      "phoneticRespelling": "STAWR-ij",
+      "translation": "स्टोरेज / भंडारण",
+      "definition": "The space available on a device to keep data and apps.",
+      "definationTranslation": "डेटा और ऐप्स रखने के लिए डिवाइस पर उपलब्ध स्थान।",
+      "sentence": [
+        {
+          "sentence": "My phone is running out of storage space.",
+          "translation": "मेरे फोन का स्टोरेज स्पेस खत्म हो रहा है।"
+        },
+        {
+          "sentence": "Cloud storage is a great way to save your photos.",
+          "translation": "अपनी तस्वीरों को सुरक्षित रखने के लिए क्लाउड स्टोरेज एक बेहतरीन तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "feedback",
+      "phoneticRespelling": "FEED-bak",
+      "translation": "प्रतिक्रिया / फीडबैक",
+      "definition": "Information about how good or useful something is.",
+      "definationTranslation": "कोई चीज़ कितनी अच्छी या उपयोगी है, इसके बारे में जानकारी।",
+      "sentence": [
+        {
+          "sentence": "We would love to hear your feedback on our new app.",
+          "translation": "हमें अपने नए ऐप पर आपकी प्रतिक्रिया सुनना अच्छा लगेगा।"
+        },
+        {
+          "sentence": "The developer improved the app based on user feedback.",
+          "translation": "डेवलपर ने उपयोगकर्ता के फीडबैक के आधार पर ऐप में सुधार किया।"
+        }
+      ]
+    },
+    {
+      "word": "permission",
+      "phoneticRespelling": "per-MISH-uhn",
+      "translation": "अनुमति",
+      "definition": "The act of allowing an app to access certain data on your device.",
+      "definationTranslation": "किसी ऐप को आपके डिवाइस पर कुछ डेटा तक पहुंचने की अनुमति देने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "The app needs permission to access your camera.",
+          "translation": "ऐप को आपके कैमरे तक पहुंचने की अनुमति चाहिए।"
+        },
+        {
+          "sentence": "Be careful about which permissions you grant to an app.",
+          "translation": "सावधान रहें कि आप किसी ऐप को कौन सी अनुमति देते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "premium",
+      "phoneticRespelling": "PREE-mee-uhm",
+      "translation": "प्रीमियम",
+      "definition": "A version of an app that has more features but usually costs money.",
+      "definationTranslation": "ऐप का एक संस्करण जिसमें अधिक विशेषताएं होती हैं लेकिन आमतौर पर इसके लिए पैसे लगते हैं।",
+      "sentence": [
+        {
+          "sentence": "Premium users don't see any advertisements.",
+          "translation": "प्रीमियम उपयोगकर्ताओं को कोई विज्ञापन नहीं दिखता।"
+        },
+        {
+          "sentence": "You can upgrade to premium to unlock all lessons.",
+          "translation": "सभी पाठों को अनलॉक करने के लिए आप प्रीमियम में अपग्रेड कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "version",
+      "phoneticRespelling": "VUR-zhuhn",
+      "translation": "संस्करण / वर्जन",
+      "definition": "A particular form of an app that has been updated or changed.",
+      "definationTranslation": "ऐप का एक विशेष रूप जिसे अपडेट या बदला गया है।",
+      "sentence": [
+        {
+          "sentence": "Please make sure you are using the latest version of the app.",
+          "translation": "कृपया सुनिश्चित करें कि आप ऐप के नवीनतम वर्जन का उपयोग कर रहे हैं।"
+        },
+        {
+          "sentence": "The old version of the app was much slower.",
+          "translation": "ऐप का पुराना वर्जन काफी धीमा था।"
+        }
+      ]
+    }
+  ]
 }

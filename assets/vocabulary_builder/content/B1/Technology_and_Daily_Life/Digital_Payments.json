@@ -1,4 +1,345 @@
 {
   "topic": "Digital Payments",
-  "words": []
+  "words": [
+    {
+      "word": "transaction",
+      "phoneticRespelling": "tran-ZAK-shuhn",
+      "translation": "लेन-देन",
+      "definition": "An instance of buying or selling something; a business deal.",
+      "definationTranslation": "कुछ खरीदने या बेचने की प्रक्रिया; एक व्यावसायिक सौदा।",
+      "sentence": [
+        {
+          "sentence": "The online transaction was completed in seconds.",
+          "translation": "ऑनलाइन लेन-देन सेकंडों में पूरा हो गया।"
+        },
+        {
+          "sentence": "Please keep a record of every transaction.",
+          "translation": "कृपया हर लेन-देन का रिकॉर्ड रखें।"
+        }
+      ]
+    },
+    {
+      "word": "wallet",
+      "phoneticRespelling": "WOL-it",
+      "translation": "बटुआ / डिजिटल वॉलेट",
+      "definition": "A digital application that allows you to store money and make electronic payments.",
+      "definationTranslation": "एक डिजिटल एप्लिकेशन जो आपको पैसे जमा करने और इलेक्ट्रॉनिक भुगतान करने की अनुमति देता है।",
+      "sentence": [
+        {
+          "sentence": "I used my digital wallet to pay for the coffee.",
+          "translation": "मैंने कॉफी के भुगतान के लिए अपने डिजिटल वॉलेट का उपयोग किया।"
+        },
+        {
+          "sentence": "You can add money to your wallet using a credit card.",
+          "translation": "आप क्रेडिट कार्ड का उपयोग करके अपने वॉलेट में पैसे जोड़ सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "receipt",
+      "phoneticRespelling": "ri-SEET",
+      "translation": "रसीद",
+      "definition": "A piece of paper or electronic message that proves you have paid for something.",
+      "definationTranslation": "कागज का एक टुकड़ा या इलेक्ट्रॉनिक संदेश जो यह साबित करता है कि आपने किसी चीज़ के लिए भुगतान किया है।",
+      "sentence": [
+        {
+          "sentence": "The app will send a digital receipt to your email.",
+          "translation": "ऐप आपके ईमेल पर एक डिजिटल रसीद भेजेगा।"
+        },
+        {
+          "sentence": "Always check your receipt for errors.",
+          "translation": "हमेशा अपनी रसीद में गलतियों की जांच करें।"
+        }
+      ]
+    },
+    {
+      "word": "billing",
+      "phoneticRespelling": "BIL-ing",
+      "translation": "बिलिंग / बिल बनाना",
+      "definition": "The process of sending a bill to a customer for goods or services.",
+      "definationTranslation": "वस्तुओं या सेवाओं के लिए ग्राहक को बिल भेजने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Please check your billing address before confirming.",
+          "translation": "पुष्टि करने से पहले कृपया अपना बिलिंग पता जांचें।"
+        },
+        {
+          "sentence": "Monthly billing happens on the first day of each month.",
+          "translation": "मासिक बिलिंग प्रत्येक महीने के पहले दिन होती है।"
+        }
+      ]
+    },
+    {
+      "word": "contactless",
+      "phoneticRespelling": "KON-takt-lis",
+      "translation": "संपर्क रहित",
+      "definition": "A way of paying where you hold your card or phone near a machine instead of swiping it.",
+      "definationTranslation": "भुगतान करने का एक तरीका जहाँ आप स्वाइप करने के बजाय अपने कार्ड या फोन को मशीन के पास रखते हैं।",
+      "sentence": [
+        {
+          "sentence": "Contactless payments are faster than using cash.",
+          "translation": "संपर्क रहित भुगतान नकद उपयोग करने से तेज़ होते हैं।"
+        },
+        {
+          "sentence": "Most modern cards have a contactless chip.",
+          "translation": "अधिकांश आधुनिक कार्डों में संपर्क रहित चिप होती है।"
+        }
+      ]
+    },
+    {
+      "word": "currency",
+      "phoneticRespelling": "KUR-uhn-see",
+      "translation": "मुद्रा",
+      "definition": "The system of money used in a particular country.",
+      "definationTranslation": "किसी विशेष देश में उपयोग की जाने वाली धन की प्रणाली।",
+      "sentence": [
+        {
+          "sentence": "The app automatically converts the price to your local currency.",
+          "translation": "ऐप स्वचालित रूप से कीमत को आपकी स्थानीय मुद्रा में बदल देता है।"
+        },
+        {
+          "sentence": "Digital payments support many different currencies.",
+          "translation": "डिजिटल भुगतान कई अलग-अलग मुद्राओं का समर्थन करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "refund",
+      "phoneticRespelling": "REE-fuhnd",
+      "translation": "धनवापसी",
+      "definition": "Money that is given back to you because you are not happy with a product or service.",
+      "definationTranslation": "वह पैसा जो आपको वापस दिया जाता है क्योंकि आप किसी उत्पाद या सेवा से खुश नहीं हैं।",
+      "sentence": [
+        {
+          "sentence": "I requested a refund after the app didn't work.",
+          "translation": "ऐप के काम न करने पर मैंने रिफंड का अनुरोध किया।"
+        },
+        {
+          "sentence": "The refund will be credited to your account in three days.",
+          "translation": "रिफंड तीन दिनों में आपके खाते में जमा कर दिया जाएगा।"
+        }
+      ]
+    },
+    {
+      "word": "limit",
+      "phoneticRespelling": "LIM-it",
+      "translation": "सीमा",
+      "definition": "The maximum amount of money you can spend or transfer.",
+      "definationTranslation": "पैसे की वह अधिकतम राशि जिसे आप खर्च या स्थानांतरित कर सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "There is a daily limit on how much you can transfer.",
+          "translation": "आप कितना ट्रांसफर कर सकते हैं, इसकी एक दैनिक सीमा है।"
+        },
+        {
+          "sentence": "You can increase your payment limit in the settings.",
+          "translation": "आप सेटिंग्स में अपनी भुगतान सीमा बढ़ा सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "gateway",
+      "phoneticRespelling": "GAYT-way",
+      "translation": "गेटवे",
+      "definition": "A service that processes credit card payments for online stores.",
+      "definationTranslation": "एक सेवा जो ऑनलाइन स्टोर के लिए क्रेडिट कार्ड भुगतान की प्रक्रिया करती है।",
+      "sentence": [
+        {
+          "sentence": "The payment gateway is secure and encrypted.",
+          "translation": "पेमेंट गेटवे सुरक्षित और एन्क्रिप्टेड है।"
+        },
+        {
+          "sentence": "Our app uses a reliable gateway to handle transactions.",
+          "translation": "हमारा ऐप ट्रांजेक्शन संभालने के लिए एक विश्वसनीय गेटवे का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "balance",
+      "phoneticRespelling": "BAL-uhns",
+      "translation": "शेष राशि",
+      "definition": "The amount of money you have in your bank account or digital wallet.",
+      "definationTranslation": "आपके बैंक खाते या डिजिटल वॉलेट में मौजूद धन की राशि।",
+      "sentence": [
+        {
+          "sentence": "Check your balance before making a purchase.",
+          "translation": "खरीदारी करने से पहले अपनी शेष राशि की जांच करें।"
+        },
+        {
+          "sentence": "My wallet balance is low, so I need to add money.",
+          "translation": "मेरे वॉलेट की शेष राशि कम है, इसलिए मुझे पैसे जोड़ने की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "transfer",
+      "phoneticRespelling": "trans-FUR",
+      "translation": "स्थानांतरण",
+      "definition": "To move money from one account to another.",
+      "definationTranslation": "पैसे को एक खाते से दूसरे खाते में भेजना।",
+      "sentence": [
+        {
+          "sentence": "It is very easy to transfer money using a mobile app.",
+          "translation": "मोबाइल ऐप का उपयोग करके पैसे ट्रांसफर करना बहुत आसान है।"
+        },
+        {
+          "sentence": "I will transfer the rent to the landlord tonight.",
+          "translation": "मैं आज रात मकान मालिक को किराया ट्रांसफर कर दूंगा।"
+        }
+      ]
+    },
+    {
+      "word": "subscription",
+      "phoneticRespelling": "suhb-SKRIP-shuhn",
+      "translation": "सदस्यता",
+      "definition": "An arrangement to pay money regularly to receive a service or product.",
+      "definationTranslation": "किसी सेवा या उत्पाद को प्राप्त करने के लिए नियमित रूप से पैसे देने की व्यवस्था।",
+      "sentence": [
+        {
+          "sentence": "The monthly subscription fee is very affordable.",
+          "translation": "मासिक सदस्यता शुल्क बहुत सस्ता है।"
+        },
+        {
+          "sentence": "You can cancel your subscription at any time.",
+          "translation": "आप किसी भी समय अपनी सदस्यता रद्द कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "verification",
+      "phoneticRespelling": "ver-uh-fi-KAY-shuhn",
+      "translation": "सत्यापन",
+      "definition": "The process of checking that something is true or correct.",
+      "definationTranslation": "यह जाँचने की प्रक्रिया कि कुछ सच या सही है।",
+      "sentence": [
+        {
+          "sentence": "The bank requires identity verification for large payments.",
+          "translation": "बैंक को बड़े भुगतान के लिए पहचान सत्यापन की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "Wait for the verification code on your phone.",
+          "translation": "अपने फोन पर सत्यापन कोड की प्रतीक्षा करें।"
+        }
+      ]
+    },
+    {
+      "word": "merchant",
+      "phoneticRespelling": "MUR-chuhnt",
+      "translation": "व्यापारी",
+      "definition": "A person or company involved in wholesale trade or retailing.",
+      "definationTranslation": "थोक व्यापार या खुदरा बिक्री में शामिल व्यक्ति या कंपनी।",
+      "sentence": [
+        {
+          "sentence": "The merchant accepted the payment immediately.",
+          "translation": "व्यापारी ने तुरंत भुगतान स्वीकार कर लिया।"
+        },
+        {
+          "sentence": "Digital payments help small merchants grow their business.",
+          "translation": "डिजिटल भुगतान छोटे व्यापारियों को अपना व्यवसाय बढ़ाने में मदद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "statement",
+      "phoneticRespelling": "STAYT-muhnt",
+      "translation": "विवरण / स्टेटमेंट",
+      "definition": "A document showing all the money that has gone into and out of an account.",
+      "definationTranslation": "एक दस्तावेज जो खाते में आने और जाने वाले सभी पैसों को दिखाता है।",
+      "sentence": [
+        {
+          "sentence": "You can download your monthly statement from the app.",
+          "translation": "आप ऐप से अपना मासिक स्टेटमेंट डाउनलोड कर सकते हैं।"
+        },
+        {
+          "sentence": "I found a mistake in my bank statement.",
+          "translation": "मुझे अपने बैंक स्टेटमेंट में एक गलती मिली।"
+        }
+      ]
+    },
+    {
+      "word": "declined",
+      "phoneticRespelling": "di-KLYND",
+      "translation": "अस्वीकार कर दिया",
+      "definition": "When a payment is refused by the bank or the system.",
+      "definationTranslation": "जब बैंक या सिस्टम द्वारा भुगतान को मना कर दिया जाता है।",
+      "sentence": [
+        {
+          "sentence": "My transaction was declined due to insufficient funds.",
+          "translation": "अपर्याप्त राशि के कारण मेरा लेन-देन अस्वीकार कर दिया गया था।"
+        },
+        {
+          "sentence": "If your card is declined, please contact the bank.",
+          "translation": "यदि आपका कार्ड अस्वीकार कर दिया जाता है, तो कृपया बैंक से संपर्क करें।"
+        }
+      ]
+    },
+    {
+      "word": "commission",
+      "phoneticRespelling": "kuh-MISH-uhn",
+      "translation": "आयोग / दस्तूरी",
+      "definition": "An extra amount of money that is paid to a person or company for a service.",
+      "definationTranslation": "किसी सेवा के लिए किसी व्यक्ति या कंपनी को भुगतान की जाने वाली अतिरिक्त राशि।",
+      "sentence": [
+        {
+          "sentence": "The app takes a small commission on every sale.",
+          "translation": "ऐप हर बिक्री पर एक छोटा कमीशन लेता है।"
+        },
+        {
+          "sentence": "Is there any commission for international transfers?",
+          "translation": "क्या अंतर्राष्ट्रीय स्थानांतरण के लिए कोई कमीशन है?"
+        }
+      ]
+    },
+    {
+      "word": "charge",
+      "phoneticRespelling": "CHAHRJ",
+      "translation": "शुल्क",
+      "definition": "The amount of money that you have to pay for something.",
+      "definationTranslation": "वह राशि जो आपको किसी चीज़ के लिए चुकानी पड़ती है।",
+      "sentence": [
+        {
+          "sentence": "There is no extra charge for using this service.",
+          "translation": "इस सेवा का उपयोग करने के लिए कोई अतिरिक्त शुल्क नहीं है।"
+        },
+        {
+          "sentence": "The bank will charge a small fee for ATM withdrawals.",
+          "translation": "एटीएम से निकासी के लिए बैंक एक छोटा शुल्क लेगा।"
+        }
+      ]
+    },
+    {
+      "word": "authorized",
+      "phoneticRespelling": "AW-thuh-ryzd",
+      "translation": "अधिकृत",
+      "definition": "Having official permission to do something.",
+      "definationTranslation": "कुछ करने की आधिकारिक अनुमति होना।",
+      "sentence": [
+        {
+          "sentence": "Only authorized users can access the payment data.",
+          "translation": "केवल अधिकृत उपयोगकर्ता ही भुगतान डेटा तक पहुंच सकते हैं।"
+        },
+        {
+          "sentence": "The payment was authorized by the owner of the card.",
+          "translation": "भुगतान को कार्ड के मालिक द्वारा अधिकृत किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "invoice",
+      "phoneticRespelling": "IN-vois",
+      "translation": "चालान / बीजक",
+      "definition": "A list of goods sent or services provided, with a statement of the sum due.",
+      "definationTranslation": "भेजे गए सामान या प्रदान की गई सेवाओं की सूची, देय राशि के विवरण के साथ।",
+      "sentence": [
+        {
+          "sentence": "The company sent an invoice for the software services.",
+          "translation": "कंपनी ने सॉफ्टवेयर सेवाओं के लिए एक चालान भेजा।"
+        },
+        {
+          "sentence": "Please pay the invoice within seven days.",
+          "translation": "कृपया सात दिनों के भीतर चालान का भुगतान करें।"
+        }
+      ]
+    }
+  ]
 }

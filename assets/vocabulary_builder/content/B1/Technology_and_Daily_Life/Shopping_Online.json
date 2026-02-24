@@ -1,4 +1,345 @@
 {
   "topic": "Shopping Online",
-  "words": []
+  "words": [
+    {
+      "word": "e-commerce",
+      "phoneticRespelling": "EE-kom-ers",
+      "translation": "ई-कॉमर्स",
+      "definition": "The buying and selling of goods or services using the internet.",
+      "definationTranslation": "इंटरनेट का उपयोग करके वस्तुओं या सेवाओं को खरीदना और बेचना।",
+      "sentence": [
+        {
+          "sentence": "E-commerce has made it possible to shop from home.",
+          "translation": "ई-कॉमर्स ने घर से खरीदारी करना संभव बना दिया है।"
+        },
+        {
+          "sentence": "He runs a successful e-commerce business.",
+          "translation": "वह एक सफल ई-कॉमर्स व्यवसाय चलाता है।"
+        }
+      ]
+    },
+    {
+      "word": "cart",
+      "phoneticRespelling": "KAHRT",
+      "translation": "कार्ट / टोकरी",
+      "definition": "A virtual folder that holds the items you want to buy before you pay.",
+      "definationTranslation": "एक वर्चुअल फ़ोल्डर जो भुगतान करने से पहले उन वस्तुओं को रखता है जिन्हें आप खरीदना चाहते हैं।",
+      "sentence": [
+        {
+          "sentence": "I added the shoes to my shopping cart.",
+          "translation": "मैंने जूतों को अपनी शॉपिंग कार्ट में जोड़ लिया।"
+        },
+        {
+          "sentence": "Don't forget to check your cart before checking out.",
+          "translation": "चेकआउट करने से पहले अपनी कार्ट की जांच करना न भूलें।"
+        }
+      ]
+    },
+    {
+      "word": "checkout",
+      "phoneticRespelling": "CHEK-out",
+      "translation": "चेकआउट",
+      "definition": "The final step of an online purchase where you pay for your items.",
+      "definationTranslation": "ऑनलाइन खरीदारी का अंतिम चरण जहाँ आप अपनी वस्तुओं के लिए भुगतान करते हैं।",
+      "sentence": [
+        {
+          "sentence": "The checkout process was very smooth and fast.",
+          "translation": "चेकआउट की प्रक्रिया बहुत सुचारू और तेज़ थी।"
+        },
+        {
+          "sentence": "Please enter your address at the checkout page.",
+          "translation": "कृपया चेकआउट पेज पर अपना पता दर्ज करें।"
+        }
+      ]
+    },
+    {
+      "word": "discount",
+      "phoneticRespelling": "DIS-kount",
+      "translation": "छूट / डिस्काउंट",
+      "definition": "A reduction in the usual price of something.",
+      "definationTranslation": "किसी चीज़ की सामान्य कीमत में कमी।",
+      "sentence": [
+        {
+          "sentence": "I got a twenty percent discount on this laptop.",
+          "translation": "मुझे इस लैपटॉप पर बीस प्रतिशत की छूट मिली।"
+        },
+        {
+          "sentence": "Online stores often offer discounts during festivals.",
+          "translation": "ऑनलाइन स्टोर अक्सर त्योहारों के दौरान छूट देते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "review",
+      "phoneticRespelling": "ri-VYOO",
+      "translation": "समीक्षा / रिव्यू",
+      "definition": "A report written by a customer giving their opinion about a product.",
+      "definationTranslation": "ग्राहक द्वारा लिखा गया एक विवरण जो किसी उत्पाद के बारे में उनकी राय देता है।",
+      "sentence": [
+        {
+          "sentence": "I always read the customer reviews before buying anything.",
+          "translation": "मैं कुछ भी खरीदने से पहले हमेशा ग्राहकों की समीक्षाएं पढ़ता हूं।"
+        },
+        {
+          "sentence": "The product has a five-star review on the website.",
+          "translation": "वेबसाइट पर उत्पाद की फाइव-स्टार समीक्षा है।"
+        }
+      ]
+    },
+    {
+      "word": "shipping",
+      "phoneticRespelling": "SHIP-ing",
+      "translation": "शिपिंग / ढुलाई",
+      "definition": "The process of transporting goods from the seller to the buyer.",
+      "definationTranslation": "विक्रेता से खरीदार तक सामान पहुँचाने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The website offers free shipping on orders over five hundred rupees.",
+          "translation": "वेबसाइट पाँच सौ रुपये से अधिक के ऑर्डर पर मुफ्त शिपिंग देती है।"
+        },
+        {
+          "sentence": "Shipping usually takes three to five business days.",
+          "translation": "शिपिंग में आमतौर पर तीन से पांच कार्यदिवस लगते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "delivery",
+      "phoneticRespelling": "di-LIV-uh-ree",
+      "translation": "वितरण / डिलीवरी",
+      "definition": "The act of bringing letters, packages, or goods to a person.",
+      "definationTranslation": "किसी व्यक्ति को पत्र, पैकेज या सामान पहुँचाने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "The delivery boy will arrive in ten minutes.",
+          "translation": "डिलीवरी बॉय दस मिनट में आ जाएगा।"
+        },
+        {
+          "sentence": "You can track your delivery status online.",
+          "translation": "आप अपनी डिलीवरी की स्थिति ऑनलाइन ट्रैक कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "inventory",
+      "phoneticRespelling": "IN-vuhn-tawr-ee",
+      "translation": "माल सूची / इन्वेंटरी",
+      "definition": "A list of goods or items that a store has in stock.",
+      "definationTranslation": "सामानों या वस्तुओं की सूची जो एक स्टोर के पास स्टॉक में है।",
+      "sentence": [
+        {
+          "sentence": "The item is out of stock in our current inventory.",
+          "translation": "यह वस्तु हमारी वर्तमान इन्वेंटरी में स्टॉक से बाहर है।"
+        },
+        {
+          "sentence": "Online stores update their inventory in real-time.",
+          "translation": "ऑनलाइन स्टोर अपनी इन्वेंटरी को वास्तविक समय में अपडेट करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "wishlist",
+      "phoneticRespelling": "WISH-list",
+      "translation": "विशलिस्ट / इच्छा सूची",
+      "definition": "A feature that allows users to save items they want to buy later.",
+      "definationTranslation": "एक सुविधा जो उपयोगकर्ताओं को उन वस्तुओं को सहेजने की अनुमति देती है जिन्हें वे बाद में खरीदना चाहते हैं।",
+      "sentence": [
+        {
+          "sentence": "I have added several books to my wishlist.",
+          "translation": "मैंने अपनी विशलिस्ट में कई किताबें जोड़ी हैं।"
+        },
+        {
+          "sentence": "The app notifies me when items on my wishlist go on sale.",
+          "translation": "जब मेरी विशलिस्ट की चीज़ें सेल पर आती हैं तो ऐप मुझे सूचित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "promo code",
+      "phoneticRespelling": "PROH-moh kohd",
+      "translation": "प्रोमो कोड",
+      "definition": "A string of letters or numbers used to get a special offer or discount.",
+      "definationTranslation": "विशेष ऑफ़र या छूट प्राप्त करने के लिए उपयोग किए जाने वाले अक्षरों या अंकों की एक श्रृंखला।",
+      "sentence": [
+        {
+          "sentence": "Enter the promo code to get ten percent off your first order.",
+          "translation": "अपने पहले ऑर्डर पर दस प्रतिशत की छूट पाने के लिए प्रोमो कोड दर्ज करें।"
+        },
+        {
+          "sentence": "This promo code has already expired.",
+          "translation": "यह प्रोमो कोड पहले ही समाप्त हो चुका है।"
+        }
+      ]
+    },
+    {
+      "word": "refund",
+      "phoneticRespelling": "REE-fuhnd",
+      "translation": "धनवापसी / रिफंड",
+      "definition": "Money that is returned to you when you return a product.",
+      "definationTranslation": "जब आप कोई उत्पाद वापस करते हैं तो आपको वापस दिया जाने वाला पैसा।",
+      "sentence": [
+        {
+          "sentence": "If the shirt doesn't fit, you can ask for a refund.",
+          "translation": "यदि शर्ट फिट नहीं आती है, तो आप रिफंड मांग सकते हैं।"
+        },
+        {
+          "sentence": "The refund will be processed within a week.",
+          "translation": "रिफंड एक सप्ताह के भीतर संसाधित किया जाएगा।"
+        }
+      ]
+    },
+    {
+      "word": "return",
+      "phoneticRespelling": "ri-TURN",
+      "translation": "वापसी / रिटर्न",
+      "definition": "To send a product back to the seller because it is not suitable.",
+      "definationTranslation": "उपयुक्त न होने के कारण उत्पाद को विक्रेता को वापस भेजना।",
+      "sentence": [
+        {
+          "sentence": "You can return the item if it is damaged.",
+          "translation": "यदि सामान क्षतिग्रस्त है तो आप उसे वापस कर सकते हैं।"
+        },
+        {
+          "sentence": "Please check the return policy before you buy.",
+          "translation": "खरीदने से पहले कृपया रिटर्न पॉलिसी की जांच करें।"
+        }
+      ]
+    },
+    {
+      "word": "tracking number",
+      "phoneticRespelling": "TRAK-ing num-ber",
+      "translation": "ट्रैकिंग नंबर",
+      "definition": "A unique number assigned to a package to follow its journey.",
+      "definationTranslation": "किसी पैकेज की यात्रा पर नज़र रखने के लिए उसे दिया गया एक विशिष्ट नंबर।",
+      "sentence": [
+        {
+          "sentence": "The seller sent me a tracking number for my order.",
+          "translation": "विक्रेता ने मुझे मेरे ऑर्डर के लिए एक ट्रैकिंग नंबर भेजा।"
+        },
+        {
+          "sentence": "Input your tracking number on the courier's website.",
+          "translation": "कूरियर की वेबसाइट पर अपना ट्रैकिंग नंबर डालें।"
+        }
+      ]
+    },
+    {
+      "word": "supplier",
+      "phoneticRespelling": "suh-PLAHY-er",
+      "translation": "आपूर्तिकर्ता / सप्लायर",
+      "definition": "A person or organization that provides goods or services.",
+      "definationTranslation": "एक व्यक्ति या संगठन जो वस्तुओं या सेवाओं की आपूर्ति करता है।",
+      "sentence": [
+        {
+          "sentence": "We buy our products directly from the supplier.",
+          "translation": "हम अपने उत्पाद सीधे सप्लायर से खरीदते हैं।"
+        },
+        {
+          "sentence": "The supplier promised to deliver the stock by Friday.",
+          "translation": "सप्लायर ने शुक्रवार तक स्टॉक देने का वादा किया।"
+        }
+      ]
+    },
+    {
+      "word": "catalog",
+      "phoneticRespelling": "KAT-l-awg",
+      "translation": "सूची / कैटलॉग",
+      "definition": "A complete list of items for sale, often with descriptions and prices.",
+      "definationTranslation": "बिक्री के लिए वस्तुओं की एक पूरी सूची, अक्सर विवरण और कीमतों के साथ।",
+      "sentence": [
+        {
+          "sentence": "You can browse the online catalog to see all our products.",
+          "translation": "हमारे सभी उत्पादों को देखने के लिए आप ऑनलाइन कैटलॉग ब्राउज़ कर सकते हैं।"
+        },
+        {
+          "sentence": "New items are added to the catalog every month.",
+          "translation": "कैटलॉग में हर महीने नई वस्तुएं जोड़ी जाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "recommendation",
+      "phoneticRespelling": "rek-uh-men-DAY-shuhn",
+      "translation": "सिफारिश / सुझाव",
+      "definition": "A suggestion that something is good or suitable for a particular person.",
+      "definationTranslation": "एक सुझाव कि कुछ किसी विशेष व्यक्ति के लिए अच्छा या उपयुक्त है।",
+      "sentence": [
+        {
+          "sentence": "The app gives product recommendations based on your history.",
+          "translation": "ऐप आपके इतिहास के आधार पर उत्पाद सुझाव देता है।"
+        },
+        {
+          "sentence": "I bought this phone because of a friend's recommendation.",
+          "translation": "मैंने एक दोस्त की सिफारिश के कारण यह फोन खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "payment method",
+      "phoneticRespelling": "PAY-muhnt meth-uhd",
+      "translation": "भुगतान विधि",
+      "definition": "The way a customer chooses to pay for their purchase.",
+      "definationTranslation": "जिस तरह से ग्राहक अपनी खरीदारी के लिए भुगतान करना चुनता है।",
+      "sentence": [
+        {
+          "sentence": "Which payment method do you prefer: credit card or UPI?",
+          "translation": "आप कौन सी भुगतान विधि पसंद करते हैं: क्रेडिट कार्ड या यूपीआई?"
+        },
+        {
+          "sentence": "You can save your preferred payment method in the app.",
+          "translation": "आप ऐप में अपनी पसंदीदा भुगतान विधि सहेज सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "customer support",
+      "phoneticRespelling": "KUS-tuh-mer suh-PAWRT",
+      "translation": "ग्राहक सहायता",
+      "definition": "Help provided by a company to customers who have problems or questions.",
+      "definationTranslation": "उन ग्राहकों को कंपनी द्वारा दी जाने वाली सहायता जिन्हें समस्याएं या प्रश्न हैं।",
+      "sentence": [
+        {
+          "sentence": "Customer support helped me track my lost package.",
+          "translation": "ग्राहक सहायता ने मुझे मेरा खोया हुआ पैकेज ट्रैक करने में मदद की।"
+        },
+        {
+          "sentence": "You can contact customer support via live chat.",
+          "translation": "आप लाइव चैट के माध्यम से ग्राहक सहायता से संपर्क कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "fraud",
+      "phoneticRespelling": "FRAWD",
+      "translation": "धोखाधड़ी",
+      "definition": "The crime of cheating someone in order to get money.",
+      "definationTranslation": "पैसा पाने के लिए किसी को धोखा देने का अपराध।",
+      "sentence": [
+        {
+          "sentence": "Be careful of online fraud when using unknown websites.",
+          "translation": "अज्ञात वेबसाइटों का उपयोग करते समय ऑनलाइन धोखाधड़ी से सावधान रहें।"
+        },
+        {
+          "sentence": "Report any suspicious activity to prevent fraud.",
+          "translation": "धोखाधड़ी रोकने के लिए किसी भी संदिग्ध गतिविधि की रिपोर्ट करें।"
+        }
+      ]
+    },
+    {
+      "word": "marketplace",
+      "phoneticRespelling": "MAHR-kit-pleys",
+      "translation": "बाज़ार / मार्केटप्लेस",
+      "definition": "An online platform where different sellers can list and sell their products.",
+      "definationTranslation": "एक ऑनलाइन प्लेटफ़ॉर्म जहाँ विभिन्न विक्रेता अपने उत्पादों को सूचीबद्ध कर सकते हैं और बेच सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "Amazon is a popular online marketplace.",
+          "translation": "अमेज़ॅन एक लोकप्रिय ऑनलाइन मार्केटप्लेस है।"
+        },
+        {
+          "sentence": "It is easy for small businesses to sell on a digital marketplace.",
+          "translation": "छोटे व्यवसायों के लिए डिजिटल मार्केटप्लेस पर बेचना आसान है।"
+        }
+      ]
+    }
+  ]
 }

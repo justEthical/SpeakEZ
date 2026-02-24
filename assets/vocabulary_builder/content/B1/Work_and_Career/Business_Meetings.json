@@ -1,4 +1,345 @@
 {
   "topic": "Business Meetings",
-  "words": []
+  "words": [
+    {
+      "word": "agenda",
+      "phoneticRespelling": "uh-JEN-duh",
+      "translation": "कार्यसूची",
+      "definition": "A list of items to be discussed at a meeting.",
+      "definationTranslation": "बैठक में चर्चा किए जाने वाले विषयों की सूची।",
+      "sentence": [
+        {
+          "sentence": "Have you seen the agenda for tomorrow's meeting?",
+          "translation": "क्या आपने कल की बैठक की कार्यसूची देखी है?"
+        },
+        {
+          "sentence": "We have several important points on the agenda today.",
+          "translation": "आज हमारी कार्यसूची में कई महत्वपूर्ण बिंदु हैं।"
+        }
+      ]
+    },
+    {
+      "word": "minutes",
+      "phoneticRespelling": "MIN-its",
+      "translation": "बैठक का विवरण",
+      "definition": "The official written record of what was said and decided in a meeting.",
+      "definationTranslation": "बैठक में कही गई बातों और लिए गए निर्णयों का आधिकारिक लिखित रिकॉर्ड।",
+      "sentence": [
+        {
+          "sentence": "She is responsible for taking the minutes during the session.",
+          "translation": "वह सत्र के दौरान बैठक का विवरण लिखने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The minutes of the last meeting were approved by everyone.",
+          "translation": "पिछली बैठक के विवरण को सभी ने मंजूरी दे दी थी।"
+        }
+      ]
+    },
+    {
+      "word": "collaborate",
+      "phoneticRespelling": "kuh-LAB-uh-reyt",
+      "translation": "सहयोग करना",
+      "definition": "To work together with others to achieve something.",
+      "definationTranslation": "कुछ हासिल करने के लिए दूसरों के साथ मिलकर काम करना।",
+      "sentence": [
+        {
+          "sentence": "We need to collaborate to finish this project on time.",
+          "translation": "इस प्रोजेक्ट को समय पर पूरा करने के लिए हमें सहयोग करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "Our teams will collaborate on the new marketing plan.",
+          "translation": "हमारी टीमें नई मार्केटिंग योजना पर सहयोग करेंगी।"
+        }
+      ]
+    },
+    {
+      "word": "postpone",
+      "phoneticRespelling": "pohst-POHN",
+      "translation": "स्थगित करना",
+      "definition": "To delay an event and plan it for a later time.",
+      "definationTranslation": "किसी कार्यक्रम में देरी करना और उसे बाद के समय के लिए निर्धारित करना।",
+      "sentence": [
+        {
+          "sentence": "The manager decided to postpone the meeting until Friday.",
+          "translation": "मैनेजर ने बैठक को शुक्रवार तक स्थगित करने का फैसला किया।"
+        },
+        {
+          "sentence": "We had to postpone the discussion because the CEO was busy.",
+          "translation": "हमें चर्चा स्थगित करनी पड़ी क्योंकि सीईओ व्यस्त थे।"
+        }
+      ]
+    },
+    {
+      "word": "deadline",
+      "phoneticRespelling": "DED-layn",
+      "translation": "समय सीमा",
+      "definition": "The latest time or date by which something should be completed.",
+      "definationTranslation": "वह अंतिम समय या तारीख जब तक कुछ पूरा हो जाना चाहिए।",
+      "sentence": [
+        {
+          "sentence": "The deadline for the report is tomorrow at noon.",
+          "translation": "रिपोर्ट की समय सीमा कल दोपहर तक है।"
+        },
+        {
+          "sentence": "We are working hard to meet the project deadline.",
+          "translation": "हम प्रोजेक्ट की समय सीमा को पूरा करने के लिए कड़ी मेहनत कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "feedback",
+      "phoneticRespelling": "FEED-bak",
+      "translation": "प्रतिक्रिया",
+      "definition": "Information or opinions about something, such as a new product.",
+      "definationTranslation": "किसी चीज़ के बारे में जानकारी या राय, जैसे कि एक नया उत्पाद।",
+      "sentence": [
+        {
+          "sentence": "Please provide your feedback on the new proposal.",
+          "translation": "कृपया नए प्रस्ताव पर अपनी प्रतिक्रिया दें।"
+        },
+        {
+          "sentence": "Positive feedback helps improve employee morale.",
+          "translation": "सकारात्मक प्रतिक्रिया कर्मचारियों का मनोबल बढ़ाने में मदद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "brainstorm",
+      "phoneticRespelling": "BRAYN-stawrm",
+      "translation": "विचार-मंथन",
+      "definition": "To suggest a lot of ideas for a future activity or very quickly.",
+      "definationTranslation": "भविष्य की गतिविधि के लिए बहुत सारे विचार सुझाना या बहुत जल्दी विचार देना।",
+      "sentence": [
+        {
+          "sentence": "Let's brainstorm some ideas for the upcoming campaign.",
+          "translation": "आइए आगामी अभियान के लिए कुछ विचारों पर विचार-मंथन करें।"
+        },
+        {
+          "sentence": "We had a productive session to brainstorm solutions.",
+          "translation": "समाधानों पर विचार-मंथन करने के लिए हमारा सत्र उत्पादक रहा।"
+        }
+      ]
+    },
+    {
+      "word": "consensus",
+      "phoneticRespelling": "kuhn-SEN-suhs",
+      "translation": "आम सहमति",
+      "definition": "A general agreement among a group of people.",
+      "definationTranslation": "लोगों के एक समूह के बीच एक सामान्य समझौता।",
+      "sentence": [
+        {
+          "sentence": "The board reached a consensus on the budget.",
+          "translation": "बोर्ड बजट पर आम सहमति पर पहुँच गया।"
+        },
+        {
+          "sentence": "We need to build a consensus before making a decision.",
+          "translation": "निर्णय लेने से पहले हमें आम सहमति बनाने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "objective",
+      "phoneticRespelling": "uhb-JEK-tiv",
+      "translation": "लक्ष्य",
+      "definition": "Something that you plan to do or achieve.",
+      "definationTranslation": "कुछ ऐसा जिसे आप करने या हासिल करने की योजना बनाते हैं।",
+      "sentence": [
+        {
+          "sentence": "The main objective of this meeting is to increase sales.",
+          "translation": "इस बैठक का मुख्य लक्ष्य बिक्री बढ़ाना है।"
+        },
+        {
+          "sentence": "Our clear objective is to improve customer service.",
+          "translation": "हमारा स्पष्ट लक्ष्य ग्राहक सेवा में सुधार करना है।"
+        }
+      ]
+    },
+    {
+      "word": "proposal",
+      "phoneticRespelling": "pruh-POH-zuhl",
+      "translation": "प्रस्ताव",
+      "definition": "A formal plan or suggestion, especially for others to consider.",
+      "definationTranslation": "एक औपचारिक योजना या सुझाव, विशेष रूप से दूसरों के विचार करने के लिए।",
+      "sentence": [
+        {
+          "sentence": "She presented a new proposal for the project.",
+          "translation": "उन्होंने प्रोजेक्ट के लिए एक नया प्रस्ताव पेश किया।"
+        },
+        {
+          "sentence": "The client accepted our business proposal.",
+          "translation": "क्लाइंट ने हमारे व्यावसायिक प्रस्ताव को स्वीकार कर लिया।"
+        }
+      ]
+    },
+    {
+      "word": "presentation",
+      "phoneticRespelling": "pre-zen-TAY-shuhn",
+      "translation": "प्रस्तुति",
+      "definition": "A talk giving information about something to a group of people.",
+      "definationTranslation": "लोगों के एक समूह को किसी चीज़ के बारे में जानकारी देने वाली बातचीत।",
+      "sentence": [
+        {
+          "sentence": "The sales presentation lasted for thirty minutes.",
+          "translation": "बिक्री प्रस्तुति तीस मिनट तक चली।"
+        },
+        {
+          "sentence": "He used slides to make his presentation more interesting.",
+          "translation": "उन्होंने अपनी प्रस्तुति को और अधिक रोचक बनाने के लिए स्लाइड्स का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "strategy",
+      "phoneticRespelling": "STRAT-uh-jee",
+      "translation": "रणनीति",
+      "definition": "A long-term plan to achieve a specific goal.",
+      "definationTranslation": "एक विशिष्ट लक्ष्य प्राप्त करने के लिए एक दीर्घकालिक योजना।",
+      "sentence": [
+        {
+          "sentence": "We need a new strategy to stay competitive.",
+          "translation": "प्रतिस्पर्धी बने रहने के लिए हमें एक नई रणनीति की आवश्यकता है।"
+        },
+        {
+          "sentence": "The company's strategy is to focus on digital growth.",
+          "translation": "कंपनी की रणनीति डिजिटल विकास पर ध्यान केंद्रित करने की है।"
+        }
+      ]
+    },
+    {
+      "word": "update",
+      "phoneticRespelling": "UHP-deyt",
+      "translation": "ताज़ा जानकारी",
+      "definition": "The latest information on a particular situation.",
+      "definationTranslation": "किसी विशेष स्थिति पर नवीनतम जानकारी।",
+      "sentence": [
+        {
+          "sentence": "Can you give us an update on the project status?",
+          "translation": "क्या आप हमें प्रोजेक्ट की स्थिति के बारे में ताज़ा जानकारी दे सकते हैं?"
+        },
+        {
+          "sentence": "I will send an update via email by the end of the day.",
+          "translation": "मैं दिन के अंत तक ईमेल के माध्यम से ताज़ा जानकारी भेज दूँगा।"
+        }
+      ]
+    },
+    {
+      "word": "implementation",
+      "phoneticRespelling": "im-pluh-men-TAY-shuhn",
+      "translation": "कार्यान्वयन",
+      "definition": "The process of putting a decision or plan into effect.",
+      "definationTranslation": "किसी निर्णय या योजना को प्रभावी करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The implementation of the new policy starts next month.",
+          "translation": "नई नीति का कार्यान्वयन अगले महीने से शुरू होगा।"
+        },
+        {
+          "sentence": "Successful implementation requires everyone's cooperation.",
+          "translation": "सफल कार्यान्वयन के लिए सभी के सहयोग की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "efficient",
+      "phoneticRespelling": "ih-FISH-uhnt",
+      "translation": "कुशल",
+      "definition": "Working in a way that does not waste time, money, or energy.",
+      "definationTranslation": "इस तरह से काम करना जिससे समय, पैसा या ऊर्जा बर्बाद न हो।",
+      "sentence": [
+        {
+          "sentence": "We need to find a more efficient way to process orders.",
+          "translation": "हमें ऑर्डर संसाधित करने के लिए अधिक कुशल तरीका खोजने की आवश्यकता है।"
+        },
+        {
+          "sentence": "An efficient meeting should have a clear goal.",
+          "translation": "एक कुशल बैठक का स्पष्ट लक्ष्य होना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "clarify",
+      "phoneticRespelling": "KLAR-uh-fahy",
+      "translation": "स्पष्ट करना",
+      "definition": "To make something clearer or easier to understand.",
+      "definationTranslation": "किसी चीज़ को अधिक स्पष्ट या समझने में आसान बनाना।",
+      "sentence": [
+        {
+          "sentence": "Could you clarify the last point you made?",
+          "translation": "क्या आप अपने द्वारा बताए गए अंतिम बिंदु को स्पष्ट कर सकते हैं?"
+        },
+        {
+          "sentence": "The manager used examples to clarify the new rules.",
+          "translation": "मैनेजर ने नए नियमों को स्पष्ट करने के लिए उदाहरणों का इस्तेमाल किया।"
+        }
+      ]
+    },
+    {
+      "word": "summary",
+      "phoneticRespelling": "SUHM-uh-ree",
+      "translation": "सारांश",
+      "definition": "A short statement of the main points of something.",
+      "definationTranslation": "किसी चीज़ के मुख्य बिंदुओं का संक्षिप्त विवरण।",
+      "sentence": [
+        {
+          "sentence": "She gave a brief summary of the project's progress.",
+          "translation": "उन्होंने प्रोजेक्ट की प्रगति का संक्षिप्त सारांश दिया।"
+        },
+        {
+          "sentence": "At the end, he provided a summary of the key decisions.",
+          "translation": "अंत में, उन्होंने प्रमुख निर्णयों का सारांश प्रदान किया।"
+        }
+      ]
+    },
+    {
+      "word": "brief",
+      "phoneticRespelling": "BREEF",
+      "translation": "संक्षिप्त",
+      "definition": "Lasting only a short time or using few words.",
+      "definationTranslation": "केवल थोड़े समय के लिए रहना या कुछ ही शब्दों का उपयोग करना।",
+      "sentence": [
+        {
+          "sentence": "We had a brief meeting to discuss the urgent issue.",
+          "translation": "हमने तत्काल मुद्दे पर चर्चा करने के लिए एक संक्षिप्त बैठक की।"
+        },
+        {
+          "sentence": "Please keep your presentation brief and to the point.",
+          "translation": "कृपया अपनी प्रस्तुति संक्षिप्त और सटीक रखें।"
+        }
+      ]
+    },
+    {
+      "word": "delegate",
+      "phoneticRespelling": "DEL-uh-geyt",
+      "translation": "कार्य सौंपना",
+      "definition": "To give a particular job or duty to someone else.",
+      "definationTranslation": "किसी विशेष काम या कर्तव्य को किसी और को सौंपना।",
+      "sentence": [
+        {
+          "sentence": "A good manager knows how to delegate tasks.",
+          "translation": "एक अच्छा मैनेजर जानता है कि कार्यों को कैसे सौंपना है।"
+        },
+        {
+          "sentence": "You should delegate the technical work to the experts.",
+          "translation": "आपको तकनीकी कार्य विशेषज्ञों को सौंपना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "negotiate",
+      "phoneticRespelling": "nuh-GOH-shee-eyt",
+      "translation": "मोलभाव करना",
+      "definition": "To try to reach an agreement by formal discussion.",
+      "definationTranslation": "औपचारिक चर्चा द्वारा समझौते तक पहुँचने का प्रयास करना।",
+      "sentence": [
+        {
+          "sentence": "They need to negotiate a better price for the materials.",
+          "translation": "उन्हें सामग्री के लिए बेहतर कीमत पर मोलभाव करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "We are ready to negotiate the terms of the contract.",
+          "translation": "हम अनुबंध की शर्तों पर मोलभाव करने के लिए तैयार हैं।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,345 @@
 {
   "topic": "Alternative Medicine",
-  "words": []
+  "words": [
+    {
+      "word": "Acupuncture",
+      "phoneticRespelling": "AK-yoo-pungk-cher",
+      "translation": "एक्यूपंक्चर",
+      "definition": "A treatment where thin needles are put into specific parts of the body.",
+      "definitionTranslation": "एक उपचार जिसमें शरीर के विशिष्ट अंगों में पतली सुइयां चुभाई जाती हैं।",
+      "sentence": [
+        {
+          "sentence": "He tried acupuncture to help with his back pain.",
+          "translation": "उसने अपनी पीठ के दर्द में मदद के लिए एक्यूपंक्चर की कोशिश की।"
+        },
+        {
+          "sentence": "Many people find acupuncture very relaxing.",
+          "translation": "कई लोगों को एक्यूपंक्चर बहुत आरामदायक लगता है।"
+        }
+      ]
+    },
+    {
+      "word": "Holistic",
+      "phoneticRespelling": "hoh-LIS-tik",
+      "translation": "समग्र",
+      "definition": "Dealing with the whole person rather than just the symptoms of a disease.",
+      "definitionTranslation": "किसी बीमारी के लक्षणों के बजाय पूरे व्यक्ति (शरीर और मन) का उपचार करना।",
+      "sentence": [
+        {
+          "sentence": "She prefers a holistic approach to healthcare.",
+          "translation": "वह स्वास्थ्य सेवा के प्रति समग्र दृष्टिकोण पसंद करती है।"
+        },
+        {
+          "sentence": "Yoga is considered a holistic exercise.",
+          "translation": "योग को एक समग्र व्यायाम माना जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Remedy",
+      "phoneticRespelling": "REM-uh-dee",
+      "translation": "उपाय / उपचार",
+      "definition": "A successful way of curing an illness or a problem.",
+      "definitionTranslation": "किसी बीमारी या समस्या को ठीक करने का एक सफल तरीका।",
+      "sentence": [
+        {
+          "sentence": "Ginger tea is a great natural remedy for a cold.",
+          "translation": "अदरक की चाय सर्दी के लिए एक बेहतरीन प्राकृतिक उपचार है।"
+        },
+        {
+          "sentence": "There is no simple remedy for this skin condition.",
+          "translation": "त्वचा की इस स्थिति का कोई सरल उपाय नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "Therapy",
+      "phoneticRespelling": "THER-uh-pee",
+      "translation": "चिकित्सा / थेरेपी",
+      "definition": "A treatment that helps someone feel better or grow stronger.",
+      "definitionTranslation": "एक उपचार जो किसी को बेहतर महसूस करने या मजबूत होने में मदद करता है।",
+      "sentence": [
+        {
+          "sentence": "Physical therapy helped him walk again.",
+          "translation": "फिजिकल थेरेपी ने उसे फिर से चलने में मदद की।"
+        },
+        {
+          "sentence": "Music therapy is used to reduce stress.",
+          "translation": "तनाव कम करने के लिए संगीत चिकित्सा का उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Herbal",
+      "phoneticRespelling": "UR-buhl",
+      "translation": "हर्बल / जड़ी-बूटी संबंधी",
+      "definition": "Made of herbs or relating to plants used in medicine.",
+      "definitionTranslation": "जड़ी-बूटियों से बना या चिकित्सा में प्रयुक्त पौधों से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "She drinks herbal tea every night.",
+          "translation": "वह हर रात हर्बल चाय पीती है।"
+        },
+        {
+          "sentence": "Herbal medicine is popular in many cultures.",
+          "translation": "हर्बल दवा कई संस्कृतियों में लोकप्रिय है।"
+        }
+      ]
+    },
+    {
+      "word": "Meditation",
+      "phoneticRespelling": "med-i-TAY-shuhn",
+      "translation": "ध्यान",
+      "definition": "The practice of thinking deeply in silence to relax the mind.",
+      "definitionTranslation": "मन को शांत करने के लिए मौन में गहराई से सोचने का अभ्यास।",
+      "sentence": [
+        {
+          "sentence": "Daily meditation helps improve focus.",
+          "translation": "दैनिक ध्यान एकाग्रता सुधारने में मदद करता है।"
+        },
+        {
+          "sentence": "He started meditation to manage his anxiety.",
+          "translation": "उसने अपनी घबराहट को प्रबंधित करने के लिए ध्यान शुरू किया।"
+        }
+      ]
+    },
+    {
+      "word": "Supplement",
+      "phoneticRespelling": "SUHP-luh-muhnt",
+      "translation": "पूरक / सप्लीमेंट",
+      "definition": "Something added to the diet to improve health.",
+      "definitionTranslation": "स्वास्थ्य सुधार के लिए आहार में जोड़ी गई कोई चीज़।",
+      "sentence": [
+        {
+          "sentence": "I take a vitamin supplement every morning.",
+          "translation": "मैं हर सुबह एक विटामिन सप्लीमेंट लेता हूँ।"
+        },
+        {
+          "sentence": "You should consult a doctor before taking supplements.",
+          "translation": "सप्लीमेंट लेने से पहले आपको डॉक्टर से सलाह लेनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Homeopathy",
+      "phoneticRespelling": "hoh-mee-OP-uh-thee",
+      "translation": "होम्योपैथी",
+      "definition": "A system of natural medicine using very small doses of substances.",
+      "definitionTranslation": "पदार्थों की बहुत कम मात्रा का उपयोग करने वाली प्राकृतिक चिकित्सा की एक प्रणाली।",
+      "sentence": [
+        {
+          "sentence": "Homeopathy is based on the idea of 'like cures like'.",
+          "translation": "होम्योपैथी 'समः समं शमयति' के विचार पर आधारित है।"
+        },
+        {
+          "sentence": "She treats her allergies with homeopathy.",
+          "translation": "वह अपनी एलर्जी का इलाज होम्योपैथी से करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Chronic",
+      "phoneticRespelling": "KRON-ik",
+      "translation": "पुरानी / दीर्घकालिक",
+      "definition": "Lasting for a long time or constantly recurring.",
+      "definitionTranslation": "लंबे समय तक चलने वाला या बार-बार होने वाला।",
+      "sentence": [
+        {
+          "sentence": "He suffers from chronic back pain.",
+          "translation": "वह पीठ के पुराने दर्द से पीड़ित है।"
+        },
+        {
+          "sentence": "Alternative medicine can help manage chronic illness.",
+          "translation": "वैकल्पिक चिकित्सा पुरानी बीमारी को प्रबंधित करने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Wellness",
+      "phoneticRespelling": "WEL-nis",
+      "translation": "स्वस्थता / कल्याण",
+      "definition": "The state of being in good health, especially as an actively pursued goal.",
+      "definitionTranslation": "अच्छे स्वास्थ्य की स्थिति, विशेष रूप से एक सक्रिय लक्ष्य के रूप में।",
+      "sentence": [
+        {
+          "sentence": "The spa offers many wellness treatments.",
+          "translation": "स्पा कई वेलनेस उपचार प्रदान करता है।"
+        },
+        {
+          "sentence": "Mental wellness is as important as physical health.",
+          "translation": "मानसिक स्वस्थता शारीरिक स्वास्थ्य जितनी ही महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Practitioner",
+      "phoneticRespelling": "prak-TISH-uh-ner",
+      "translation": "चिकित्सक / अभ्यासकर्ता",
+      "definition": "A person who works in a professional medical or therapy job.",
+      "definitionTranslation": "वह व्यक्ति जो किसी पेशेवर चिकित्सा या थेरेपी के काम में लगा हो।",
+      "sentence": [
+        {
+          "sentence": "She is a licensed acupuncture practitioner.",
+          "translation": "वह एक लाइसेंस प्राप्त एक्यूपंक्चर चिकित्सक है।"
+        },
+        {
+          "sentence": "Always check the credentials of your practitioner.",
+          "translation": "हमेशा अपने चिकित्सक की साख की जांच करें।"
+        }
+      ]
+    },
+    {
+      "word": "Essential Oil",
+      "phoneticRespelling": "uh-SEN-shuhl OIL",
+      "translation": "आवश्यक तेल",
+      "definition": "Natural oils used in aromatherapy for their pleasant smell and healing properties.",
+      "definitionTranslation": "अपनी सुखद गंध और उपचार गुणों के लिए अरोमाथेरेपी में उपयोग किए जाने वाले प्राकृतिक तेल।",
+      "sentence": [
+        {
+          "sentence": "Lavender essential oil can help you sleep.",
+          "translation": "लैवेंडर का आवश्यक तेल आपको सोने में मदद कर सकता है।"
+        },
+        {
+          "sentence": "Essential oils are extracted from plants.",
+          "translation": "पौधों से आवश्यक तेल निकाले जाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Detox",
+      "phoneticRespelling": "DEE-toks",
+      "translation": "विषहरण / डिटॉक्स",
+      "definition": "A process of removing harmful substances from the body.",
+      "definitionTranslation": "शरीर से हानिकारक पदार्थों को बाहर निकालने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Many people go on a juice detox in the spring.",
+          "translation": "कई लोग वसंत ऋतु में जूस डिटॉक्स करते हैं।"
+        },
+        {
+          "sentence": "Drinking water is the best way to detox naturally.",
+          "translation": "पानी पीना स्वाभाविक रूप से डिटॉक्स करने का सबसे अच्छा तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "Healing",
+      "phoneticRespelling": "HEE-ling",
+      "translation": "उपचार / चंगा होना",
+      "definition": "The process of becoming healthy again.",
+      "definitionTranslation": "फिर से स्वस्थ होने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Nature has amazing healing powers.",
+          "translation": "प्रकृति में अद्भुत उपचार शक्तियां हैं।"
+        },
+        {
+          "sentence": "The wound is healing slowly.",
+          "translation": "घाव धीरे-धीरे भर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Massage",
+      "phoneticRespelling": "muh-SAHZH",
+      "translation": "मालिश",
+      "definition": "Rubbing and pressing muscles to reduce pain and relax.",
+      "definitionTranslation": "दर्द कम करने और आराम करने के लिए मांसपेशियों को रगड़ना और दबाना।",
+      "sentence": [
+        {
+          "sentence": "A head massage can relieve a headache.",
+          "translation": "सिर की मालिश से सिरदर्द में राहत मिल सकती है।"
+        },
+        {
+          "sentence": "He went for a professional massage after the race.",
+          "translation": "वह दौड़ के बाद पेशेवर मालिश के लिए गया।"
+        }
+      ]
+    },
+    {
+      "word": "Nutrient",
+      "phoneticRespelling": "NOO-tree-uhnt",
+      "translation": "पोषक तत्व",
+      "definition": "Substances that plants and animals need to live and grow.",
+      "definitionTranslation": "वे पदार्थ जिनकी पौधों और जानवरों को जीवित रहने और बढ़ने के लिए आवश्यकता होती है।",
+      "sentence": [
+        {
+          "sentence": "Vegetables are full of important nutrients.",
+          "translation": "सब्जियां महत्वपूर्ण पोषक तत्वों से भरपूर होती हैं।"
+        },
+        {
+          "sentence": "A balanced diet provides all the necessary nutrients.",
+          "translation": "संतुलित आहार सभी आवश्यक पोषक तत्व प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Well-being",
+      "phoneticRespelling": "WEL-bee-ing",
+      "translation": "भलाई / सुख-स्वास्थ्य",
+      "definition": "A feeling of being comfortable, healthy, and happy.",
+      "definitionTranslation": "आरामदायक, स्वस्थ और खुश रहने की भावना।",
+      "sentence": [
+        {
+          "sentence": "Exercise is good for your emotional well-being.",
+          "translation": "व्यायाम आपकी भावनात्मक भलाई के लिए अच्छा है।"
+        },
+        {
+          "sentence": "The company cares about the well-being of its workers.",
+          "translation": "कंपनी अपने कर्मचारियों के सुख-स्वास्थ्य की परवाह करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Allergy",
+      "phoneticRespelling": "AL-er-jee",
+      "translation": "एलर्जी",
+      "definition": "A reaction by the body to something like pollen, dust, or food.",
+      "definitionTranslation": "पराग, धूल या भोजन जैसी किसी चीज़ के प्रति शरीर की प्रतिक्रिया।",
+      "sentence": [
+        {
+          "sentence": "I have a severe allergy to peanuts.",
+          "translation": "मुझे मूंगफली से गंभीर एलर्जी है।"
+        },
+        {
+          "sentence": "Natural remedies can sometimes treat seasonal allergies.",
+          "translation": "प्राकृतिक उपचार कभी-कभी मौसमी एलर्जी का इलाज कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Stress",
+      "phoneticRespelling": "STRES",
+      "translation": "तनाव",
+      "definition": "Great worry caused by a difficult situation.",
+      "definitionTranslation": "कठिन परिस्थिति के कारण होने वाली बड़ी चिंता।",
+      "sentence": [
+        {
+          "sentence": "Yoga is a great way to reduce stress.",
+          "translation": "तनाव कम करने के लिए योग एक बेहतरीन तरीका है।"
+        },
+        {
+          "sentence": "Work stress can lead to health problems.",
+          "translation": "काम का तनाव स्वास्थ्य समस्याओं का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Prevention",
+      "phoneticRespelling": "pri-VEN-shuhn",
+      "translation": "निवारण / रोकथाम",
+      "definition": "The act of stopping something from happening.",
+      "definitionTranslation": "किसी चीज़ को होने से रोकने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "Prevention is better than cure.",
+          "translation": "इलाज से बेहतर रोकथाम है।"
+        },
+        {
+          "sentence": "Alternative medicine often focuses on disease prevention.",
+          "translation": "वैकल्पिक चिकित्सा अक्सर बीमारी की रोकथाम पर ध्यान केंद्रित करती है।"
+        }
+      ]
+    }
+  ]
 }

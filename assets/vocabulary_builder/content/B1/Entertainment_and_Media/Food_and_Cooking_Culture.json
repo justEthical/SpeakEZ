@@ -1,4 +1,345 @@
 {
   "topic": "Food and Cooking Culture",
-  "words": []
+  "words": [
+    {
+      "word": "cuisine",
+      "phoneticRespelling": "kwi-ZEEN",
+      "translation": "व्यंजन शैली / खान-पान",
+      "definition": "A style or method of cooking, especially as characteristic of a particular country or region.",
+      "definationTranslation": "खाना पकाने की एक शैली या विधि, विशेष रूप से किसी विशेष देश या क्षेत्र की विशेषता।",
+      "sentence": [
+        {
+          "sentence": "Italian cuisine is famous all over the world for its pasta and pizza.",
+          "translation": "इतालवी व्यंजन शैली अपने पास्ता और पिज्जा के लिए पूरी दुनिया में प्रसिद्ध है।"
+        },
+        {
+          "sentence": "I love exploring different cuisines when I travel to new places.",
+          "translation": "जब मैं नई जगहों की यात्रा करता हूँ तो मुझे विभिन्न व्यंजनों को आज़माना पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "ingredient",
+      "phoneticRespelling": "in-GREE-dee-uhnt",
+      "translation": "सामग्री / घटक",
+      "definition": "Any of the foods or substances that are combined to make a particular dish.",
+      "definationTranslation": "कोई भी भोजन या पदार्थ जिसे एक विशेष व्यंजन बनाने के लिए मिलाया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Fresh ingredients are the secret to a delicious meal.",
+          "translation": "ताजी सामग्री एक स्वादिष्ट भोजन का रहस्य है।"
+        },
+        {
+          "sentence": "Do we have all the ingredients for the cake?",
+          "translation": "क्या हमारे पास केक बनाने की सारी सामग्री है?"
+        }
+      ]
+    },
+    {
+      "word": "recipe",
+      "phoneticRespelling": "RES-uh-pee",
+      "translation": "नुस्खा / विधि",
+      "definition": "A set of instructions for preparing a particular dish, including a list of the ingredients required.",
+      "definationTranslation": "एक विशेष व्यंजन तैयार करने के निर्देशों का एक सेट, जिसमें आवश्यक सामग्रियों की सूची शामिल है।",
+      "sentence": [
+        {
+          "sentence": "My grandmother gave me her secret recipe for apple pie.",
+          "translation": "मेरी दादी ने मुझे एप्पल पाई का अपना गुप्त नुस्खा दिया।"
+        },
+        {
+          "sentence": "I am following a new recipe I found online.",
+          "translation": "मैं ऑनलाइन मिले एक नए नुस्खे का पालन कर रहा हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "authentic",
+      "phoneticRespelling": "aw-THEN-tik",
+      "translation": "प्रामाणिक / असली",
+      "definition": "Made or done in the traditional way of a particular culture.",
+      "definationTranslation": "किसी विशेष संस्कृति के पारंपरिक तरीके से बनाया या किया गया।",
+      "sentence": [
+        {
+          "sentence": "This restaurant serves authentic Indian street food.",
+          "translation": "यह रेस्तरां असली भारतीय स्ट्रीट फूड परोसता है।"
+        },
+        {
+          "sentence": "It is hard to find authentic spices in this city.",
+          "translation": "इस शहर में असली मसाले मिलना मुश्किल है।"
+        }
+      ]
+    },
+    {
+      "word": "marinate",
+      "phoneticRespelling": "MAR-uh-neyt",
+      "translation": "मैरीनेट करना",
+      "definition": "To soak meat or vegetables in a sauce before cooking to add flavor.",
+      "definationTranslation": "स्वाद बढ़ाने के लिए पकाने से पहले मांस या सब्जियों को सॉस में भिगोना।",
+      "sentence": [
+        {
+          "sentence": "You should marinate the chicken for at least two hours.",
+          "translation": "आपको चिकन को कम से कम दो घंटे के लिए मैरीनेट करना चाहिए।"
+        },
+        {
+          "sentence": "The longer you marinate the meat, the more flavorful it becomes.",
+          "translation": "आप मांस को जितनी देर मैरीनेट करेंगे, वह उतना ही स्वादिष्ट होता जाएगा।"
+        }
+      ]
+    },
+    {
+      "word": "aroma",
+      "phoneticRespelling": "uh-ROH-muh",
+      "translation": "सुगंध / खुशबू",
+      "definition": "A distinctive, typically pleasant smell, especially of food or drink.",
+      "definationTranslation": "एक विशिष्ट, आमतौर पर सुखद गंध, विशेष रूप से भोजन या पेय की।",
+      "sentence": [
+        {
+          "sentence": "The aroma of freshly baked bread filled the kitchen.",
+          "translation": "ताजी बनी ब्रेड की खुशबू से रसोई भर गई।"
+        },
+        {
+          "sentence": "I love the aroma of coffee in the morning.",
+          "translation": "मुझे सुबह कॉफी की सुगंध पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "garnishing",
+      "phoneticRespelling": "GAHR-nish-ing",
+      "translation": "सजावट",
+      "definition": "Adding small decorative items to food to improve its appearance.",
+      "definationTranslation": "भोजन के रूप को बेहतर बनाने के लिए उसमें छोटी सजावटी चीजें जोड़ना।",
+      "sentence": [
+        {
+          "sentence": "Garnishing with fresh parsley makes the dish look professional.",
+          "translation": "ताजी पार्सले से सजावट करने से व्यंजन पेशेवर दिखता है।"
+        },
+        {
+          "sentence": "He finished the soup by garnishing it with a little cream.",
+          "translation": "उसने थोड़ी सी क्रीम के साथ सजाकर सूप तैयार किया।"
+        }
+      ]
+    },
+    {
+      "word": "seasoning",
+      "phoneticRespelling": "SEE-zuh-ning",
+      "translation": "मसाले डालना / छौंकना",
+      "definition": "Salt, herbs, or spices added to food to enhance its flavor.",
+      "definationTranslation": "भोजन का स्वाद बढ़ाने के लिए उसमें नमक, जड़ी-बूटियाँ या मसाले डालना।",
+      "sentence": [
+        {
+          "sentence": "Check the seasoning before you serve the soup.",
+          "translation": "सूप परोसने से पहले मसालों की जाँच कर लें।"
+        },
+        {
+          "sentence": "Proper seasoning is essential for a good steak.",
+          "translation": "एक अच्छे स्टेक के लिए सही मात्रा में नमक-मसाला डालना आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "delicacy",
+      "phoneticRespelling": "DEL-i-kuh-see",
+      "translation": "स्वादिष्ट / दुर्लभ भोजन",
+      "definition": "A choice or expensive food, often specific to a certain region.",
+      "definationTranslation": "एक चुनिंदा या महंगा भोजन, जो अक्सर एक निश्चित क्षेत्र के लिए विशिष्ट होता है।",
+      "sentence": [
+        {
+          "sentence": "Caviar is considered a luxury delicacy in many cultures.",
+          "translation": "कई संस्कृतियों में कैवियार को एक लग्जरी व्यंजन माना जाता है।"
+        },
+        {
+          "sentence": "This local delicacy is only available during the summer months.",
+          "translation": "यह स्थानीय व्यंजन केवल गर्मियों के महीनों के दौरान उपलब्ध होता है।"
+        }
+      ]
+    },
+    {
+      "word": "beverage",
+      "phoneticRespelling": "BEV-er-ij",
+      "translation": "पेय पदार्थ",
+      "definition": "A drink, especially one other than water.",
+      "definationTranslation": "एक पेय, विशेष रूप से पानी के अलावा।",
+      "sentence": [
+        {
+          "sentence": "Would you like a hot or cold beverage?",
+          "translation": "क्या आप गर्म या ठंडा पेय पदार्थ लेना पसंद करेंगे?"
+        },
+        {
+          "sentence": "Tea is the most popular beverage in India.",
+          "translation": "चाय भारत में सबसे लोकप्रिय पेय पदार्थ है।"
+        }
+      ]
+    },
+    {
+      "word": "vegetarian",
+      "phoneticRespelling": "vej-i-TAIR-ee-uhn",
+      "translation": "शाकाहारी",
+      "definition": "A person who does not eat meat for health or ethical reasons.",
+      "definationTranslation": "वह व्यक्ति जो स्वास्थ्य या नैतिक कारणों से मांस नहीं खाता है।",
+      "sentence": [
+        {
+          "sentence": "Is there a vegetarian option on the menu?",
+          "translation": "क्या मेनू में कोई शाकाहारी विकल्प है?"
+        },
+        {
+          "sentence": "He decided to become a vegetarian last year.",
+          "translation": "उसने पिछले साल शाकाहारी बनने का फैसला किया।"
+        }
+      ]
+    },
+    {
+      "word": "nutritious",
+      "phoneticRespelling": "noo-TRISH-uhs",
+      "translation": "पौष्टिक",
+      "definition": "Providing the substances necessary for health and growth.",
+      "definationTranslation": "स्वास्थ्य और विकास के लिए आवश्यक पदार्थ प्रदान करना।",
+      "sentence": [
+        {
+          "sentence": "A balanced diet should include nutritious vegetables.",
+          "translation": "संतुलित आहार में पौष्टिक सब्जियां शामिल होनी चाहिए।"
+        },
+        {
+          "sentence": "Home-cooked meals are usually more nutritious than fast food.",
+          "translation": "घर का बना खाना आमतौर पर फास्ट फूड से ज्यादा पौष्टिक होता है।"
+        }
+      ]
+    },
+    {
+      "word": "street food",
+      "phoneticRespelling": "STREET food",
+      "translation": "स्ट्रीट फूड / रेहड़ी का खाना",
+      "definition": "Ready-to-eat food or drink sold by a vendor in a street or other public place.",
+      "definationTranslation": "गली या अन्य सार्वजनिक स्थान पर विक्रेता द्वारा बेचा जाने वाला खाने-पीने का तैयार सामान।",
+      "sentence": [
+        {
+          "sentence": "The street food in Bangkok is incredibly diverse.",
+          "translation": "बैंकॉक का स्ट्रीट फूड अविश्वसनीय रूप से विविध है।"
+        },
+        {
+          "sentence": "You must try the street food if you visit Mumbai.",
+          "translation": "यदि आप मुंबई जाते हैं तो आपको स्ट्रीट फूड जरूर आजमाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "simmer",
+      "phoneticRespelling": "SIM-er",
+      "translation": "धीमी आंच पर पकना",
+      "definition": "To cook food gently in liquid just below the boiling point.",
+      "definationTranslation": "भोजन को उबलने के बिंदु से ठीक नीचे तरल में धीरे से पकाना।",
+      "sentence": [
+        {
+          "sentence": "Let the sauce simmer for 20 minutes to thicken.",
+          "translation": "चटनी को गाढ़ा होने के लिए 20 मिनट तक धीमी आंच पर पकने दें।"
+        },
+        {
+          "sentence": "Simmer the soup until the vegetables are tender.",
+          "translation": "सूप को तब तक धीमी आंच पर पकाएं जब तक सब्जियां नरम न हो जाएं।"
+        }
+      ]
+    },
+    {
+      "word": "appetizer",
+      "phoneticRespelling": "AP-i-tai-zer",
+      "translation": "क्षुधावर्धक / स्टार्टर",
+      "definition": "A small dish of food or a drink taken before a meal to stimulate the appetite.",
+      "definationTranslation": "भूख बढ़ाने के लिए भोजन से पहले लिया जाने वाला भोजन या पेय का एक छोटा व्यंजन।",
+      "sentence": [
+        {
+          "sentence": "We ordered some spring rolls as an appetizer.",
+          "translation": "हमने ऐपेटाइज़र के रूप में कुछ स्प्रिंग रोल ऑर्डर किए।"
+        },
+        {
+          "sentence": "The appetizers were served shortly after we arrived.",
+          "translation": "हमारे आने के कुछ ही समय बाद ऐपेटाइज़र परोसे गए।"
+        }
+      ]
+    },
+    {
+      "word": "confectionery",
+      "phoneticRespelling": "kuhn-FEK-shuh-ner-ee",
+      "translation": "मिष्ठान / हलवाई की दुकान",
+      "definition": "Sweets and chocolates collectively.",
+      "definationTranslation": "सामूहिक रूप से मिठाइयाँ और चॉकलेट।",
+      "sentence": [
+        {
+          "sentence": "This shop is famous for its traditional confectionery.",
+          "translation": "यह दुकान अपने पारंपरिक मिष्ठान के लिए प्रसिद्ध है।"
+        },
+        {
+          "sentence": "I bought some confectionery for the children.",
+          "translation": "मैंने बच्चों के लिए कुछ मिठाइयाँ खरीदीं।"
+        }
+      ]
+    },
+    {
+      "word": "stale",
+      "phoneticRespelling": "STEYL",
+      "translation": "बासी",
+      "definition": "Food that is no longer fresh and pleasant to eat (usually bread or cake).",
+      "definationTranslation": "भोजन जो अब ताज़ा और खाने में सुखद नहीं है (आमतौर पर ब्रेड या केक)।",
+      "sentence": [
+        {
+          "sentence": "The bread went stale because the bag was left open.",
+          "translation": "ब्रेड बासी हो गई क्योंकि बैग खुला छोड़ दिया गया था।"
+        },
+        {
+          "sentence": "Don't eat that cake, it tastes stale.",
+          "translation": "वह केक मत खाओ, उसका स्वाद बासी है।"
+        }
+      ]
+    },
+    {
+      "word": "flavorful",
+      "phoneticRespelling": "FLEY-ver-fuhl",
+      "translation": "स्वादिष्ट / जायकेदार",
+      "definition": "Having a full, pleasant taste.",
+      "definationTranslation": "पूरा और सुखद स्वाद होना।",
+      "sentence": [
+        {
+          "sentence": "This soup is very flavorful and aromatic.",
+          "translation": "यह सूप बहुत ही जायकेदार और खुशबूदार है।"
+        },
+        {
+          "sentence": "Herbs make the meat much more flavorful.",
+          "translation": "जड़ी-बूटियाँ मांस को और भी स्वादिष्ट बना देती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "culinary",
+      "phoneticRespelling": "KUHL-uh-ner-ee",
+      "translation": "पाक-कला संबंधी",
+      "definition": "Related to cooking or the kitchen.",
+      "definationTranslation": "खाना पकाने या रसोई से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "She decided to go to culinary school to become a chef.",
+          "translation": "उसने शेफ बनने के लिए कुलीनरी स्कूल (पाक-कला स्कूल) जाने का फैसला किया।"
+        },
+        {
+          "sentence": "The city is known for its rich culinary traditions.",
+          "translation": "यह शहर अपनी समृद्ध पाक परंपराओं के लिए जाना जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "savor",
+      "phoneticRespelling": "SEY-ver",
+      "translation": "स्वाद लेना / आनंद लेना",
+      "definition": "To taste good food or drink and enjoy it completely.",
+      "definationTranslation": "अच्छे भोजन या पेय का स्वाद लेना और उसका पूरी तरह से आनंद लेना।",
+      "sentence": [
+        {
+          "sentence": "It is important to slow down and savor every bite.",
+          "translation": "गति धीमी करना और हर निवाले का स्वाद लेना महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "He closed his eyes to savor the rich taste of the chocolate.",
+          "translation": "उसने चॉकलेट के भरपूर स्वाद का आनंद लेने के लिए अपनी आँखें बंद कर लीं।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,345 @@
 {
   "topic": "Basic Cybersecurity",
-  "words": []
+  "words": [
+    {
+      "word": "password",
+      "phoneticRespelling": "PAS-wurd",
+      "translation": "पासवर्ड / कूटशब्द",
+      "definition": "A secret word or phrase used to gain access to a computer system or service.",
+      "definationTranslation": "कंप्यूटर सिस्टम या सेवा तक पहुंच प्राप्त करने के लिए उपयोग किया जाने वाला एक गुप्त शब्द या वाक्यांश।",
+      "sentence": [
+        {
+          "sentence": "You should never share your password with anyone.",
+          "translation": "आपको अपना पासवर्ड कभी किसी के साथ साझा नहीं करना चाहिए।"
+        },
+        {
+          "sentence": "A strong password includes numbers and symbols.",
+          "translation": "एक मजबूत पासवर्ड में अंक और प्रतीक शामिल होते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "hacker",
+      "phoneticRespelling": "HAK-er",
+      "translation": "हैकर",
+      "definition": "A person who uses computers to get unauthorized access to data.",
+      "definationTranslation": "एक व्यक्ति जो डेटा तक अनधिकृत पहुंच प्राप्त करने के लिए कंप्यूटर का उपयोग करता है।",
+      "sentence": [
+        {
+          "sentence": "A hacker tried to break into the bank's network.",
+          "translation": "एक हैकर ने बैंक के नेटवर्क में सेंध लगाने की कोशिश की।"
+        },
+        {
+          "sentence": "Ethical hackers help companies find security holes.",
+          "translation": "एथिकल हैकर कंपनियों को सुरक्षा कमियों को खोजने में मदद करते।"
+        }
+      ]
+    },
+    {
+      "word": "phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "फिशिंग",
+      "definition": "The practice of sending fraudulent emails to trick people into revealing personal information.",
+      "definationTranslation": "लोगों को व्यक्तिगत जानकारी प्रकट करने के लिए धोखा देने वाले ईमेल भेजने का अभ्यास।",
+      "sentence": [
+        {
+          "sentence": "Be careful of phishing emails that ask for your credit card details.",
+          "translation": "उन फिशिंग ईमेल से सावधान रहें जो आपके क्रेडिट कार्ड विवरण मांगते हैं।"
+        },
+        {
+          "sentence": "I deleted the suspicious email because it looked like phishing.",
+          "translation": "मैंने संदिग्ध ईमेल हटा दिया क्योंकि वह फिशिंग जैसा लग रहा था।"
+        }
+      ]
+    },
+    {
+      "word": "antivirus",
+      "phoneticRespelling": "an-tee-VY-ruhs",
+      "translation": "एंटीवायरस",
+      "definition": "Software designed to detect and destroy computer viruses.",
+      "definationTranslation": "कंप्यूटर वायरस का पता लगाने और उन्हें नष्ट करने के लिए डिज़ाइन किया गया सॉफ़्टवेयर।",
+      "sentence": [
+        {
+          "sentence": "You must install an antivirus to protect your laptop.",
+          "translation": "अपने लैपटॉप की सुरक्षा के लिए आपको एंटीवायरस इंस्टॉल करना चाहिए।"
+        },
+        {
+          "sentence": "My antivirus found a threat in the downloaded file.",
+          "translation": "मेरे एंटीवायरस ने डाउनलोड की गई फ़ाइल में एक खतरा पाया।"
+        }
+      ]
+    },
+    {
+      "word": "firewall",
+      "phoneticRespelling": "FYER-wawl",
+      "translation": "फ़ायरवॉल",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic.",
+      "definationTranslation": "एक सुरक्षा प्रणाली जो आने वाले और जाने वाले नेटवर्क ट्रैफ़िक की निगरानी और नियंत्रण करती है।",
+      "sentence": [
+        {
+          "sentence": "The company firewall blocks unauthorized websites.",
+          "translation": "कंपनी का फ़ायरवॉल अनधिकृत वेबसाइटों को रोकता है।"
+        },
+        {
+          "sentence": "Keep your firewall active to stay safe online.",
+          "translation": "ऑनलाइन सुरक्षित रहने के लिए अपना फ़ायरवॉल सक्रिय रखें।"
+        }
+      ]
+    },
+    {
+      "word": "encryption",
+      "phoneticRespelling": "en-KRIP-shuhn",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting information into a secret code to prevent unauthorized access.",
+      "definationTranslation": "अनधिकृत पहुंच को रोकने के लिए जानकारी को एक गुप्त कोड में बदलने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "WhatsApp uses end-to-end encryption for private messages.",
+          "translation": "व्हाट्सएप निजी संदेशों के लिए एंड-टू-एंड एन्क्रिप्शन का उपयोग करता है।"
+        },
+        {
+          "sentence": "Encryption ensures that only the receiver can read the data.",
+          "translation": "एन्क्रिप्शन यह सुनिश्चित करता है कि केवल प्राप्तकर्ता ही डेटा पढ़ सके।"
+        }
+      ]
+    },
+    {
+      "word": "backup",
+      "phoneticRespelling": "BAK-uhp",
+      "translation": "बैकअप",
+      "definition": "A copy of data made in case the original is lost or damaged.",
+      "definationTranslation": "डेटा की एक प्रति जो मूल के खो जाने या क्षतिग्रस्त होने की स्थिति में बनाई जाती है।",
+      "sentence": [
+        {
+          "sentence": "Always create a backup of your important documents.",
+          "translation": "हमेशा अपने महत्वपूर्ण दस्तावेजों का बैकअप बनाएं।"
+        },
+        {
+          "sentence": "I lost my phone, but I have a cloud backup of my photos.",
+          "translation": "मैंने अपना फोन खो दिया, लेकिन मेरे पास अपनी तस्वीरों का क्लाउड बैकअप है।"
+        }
+      ]
+    },
+    {
+      "word": "malware",
+      "phoneticRespelling": "MAL-wair",
+      "translation": "मालवेयर",
+      "definition": "Software that is specifically designed to disrupt, damage, or gain unauthorized access to a computer system.",
+      "definationTranslation": "सॉफ़्टवेयर जिसे विशेष रूप से कंप्यूटर सिस्टम को बाधित करने, क्षति पहुँचाने या अनधिकृत पहुँच प्राप्त करने के लिए डिज़ाइन किया गया है।",
+      "sentence": [
+        {
+          "sentence": "Downloading files from unknown sites can infect your PC with malware.",
+          "translation": "अज्ञात साइटों से फ़ाइलें डाउनलोड करने से आपका पीसी मालवेयर से संक्रमित हो सकता है।"
+        },
+        {
+          "sentence": "Malware can steal your personal information quietly.",
+          "translation": "मालवेयर आपकी व्यक्तिगत जानकारी चुपचाप चुरा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "scam",
+      "phoneticRespelling": "SKAM",
+      "translation": "घोटाला / धोखाधड़ी",
+      "definition": "A dishonest scheme or a fraud.",
+      "definationTranslation": "एक बेईमानी भरी योजना या धोखाधड़ी।",
+      "sentence": [
+        {
+          "sentence": "Don't fall for the scam that promises free money.",
+          "translation": "मुफ्त पैसे का वादा करने वाले घोटाले में न फंसें।"
+        },
+        {
+          "sentence": "He lost his savings in an online investment scam.",
+          "translation": "उसने ऑनलाइन निवेश घोटाले में अपनी बचत खो दी।"
+        }
+      ]
+    },
+    {
+      "word": "privacy",
+      "phoneticRespelling": "PRY-vuh-see",
+      "translation": "गोपनीयता",
+      "definition": "The state of being free from public attention or unauthorized intrusion.",
+      "definationTranslation": "सार्वजनिक ध्यान या अनधिकृत हस्तक्षेप से मुक्त होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "You should check your social media privacy settings.",
+          "translation": "आपको अपने सोशल मीडिया गोपनीयता सेटिंग्स की जांच करनी चाहिए।"
+        },
+        {
+          "sentence": "Data privacy is a major concern for internet users today.",
+          "translation": "डेटा गोपनीयता आज इंटरनेट उपयोगकर्ताओं के लिए एक प्रमुख चिंता का विषय है।"
+        }
+      ]
+    },
+    {
+      "word": "secure",
+      "phoneticRespelling": "si-KYOOR",
+      "translation": "सुरक्षित",
+      "definition": "Fixed or fastened so as not to give way, become loose, or be lost.",
+      "definationTranslation": "तय या बांधा हुआ ताकि रास्ता न दे, ढीला न हो, या खो न जाए।",
+      "sentence": [
+        {
+          "sentence": "Make sure the website is secure before entering your password.",
+          "translation": "पासवर्ड डालने से पहले सुनिश्चित करें कि वेबसाइट सुरक्षित है।"
+        },
+        {
+          "sentence": "Use a secure Wi-Fi connection for online banking.",
+          "translation": "ऑनलाइन बैंकिंग के लिए सुरक्षित वाई-फाई कनेक्शन का उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "vulnerability",
+      "phoneticRespelling": "vuhl-ner-uh-BIL-i-tee",
+      "translation": "भेद्यता / कमी",
+      "definition": "A weakness in a system that can be exploited by a threat.",
+      "definationTranslation": "सिस्टम में एक कमजोरी जिसका उपयोग किसी खतरे द्वारा किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "The latest update fixes a major security vulnerability.",
+          "translation": "नवीनतम अपडेट एक प्रमुख सुरक्षा भेद्यता को ठीक करता है।"
+        },
+        {
+          "sentence": "Hackers look for a vulnerability to enter the database.",
+          "translation": "हैकर डेटाबेस में प्रवेश करने के लिए किसी कमी की तलाश करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "authentication",
+      "phoneticRespelling": "aw-then-ti-KAY-shuhn",
+      "translation": "प्रमाणीकरण",
+      "definition": "The process of proving that something is true, genuine, or valid.",
+      "definationTranslation": "यह साबित करने की प्रक्रिया कि कुछ सच, असली या मान्य है।",
+      "sentence": [
+        {
+          "sentence": "Two-factor authentication adds an extra layer of security.",
+          "translation": "टू-फैक्टर ऑथेंटिकेशन सुरक्षा की एक अतिरिक्त परत जोड़ता है।"
+        },
+        {
+          "sentence": "The app requires fingerprint authentication to open.",
+          "translation": "ऐप को खोलने के लिए फिंगरप्रिंट प्रमाणीकरण की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "spyware",
+      "phoneticRespelling": "SPY-wair",
+      "translation": "स्पाइवेयर",
+      "definition": "Software that enables a user to obtain secret information about another's computer activities.",
+      "definationTranslation": "सॉफ़्टवेयर जो उपयोगकर्ता को दूसरे की कंप्यूटर गतिविधियों के बारे में गुप्त जानकारी प्राप्त करने में सक्षम बनाता है।",
+      "sentence": [
+        {
+          "sentence": "Spyware can record everything you type on your keyboard.",
+          "translation": "स्पाइवेयर वह सब कुछ रिकॉर्ड कर सकता है जो आप अपने कीबोर्ड पर टाइप करते हैं।"
+        },
+        {
+          "sentence": "His computer was slow because of hidden spyware.",
+          "translation": "छिपे हुए स्पाइवेयर के कारण उसका कंप्यूटर धीमा था।"
+        }
+      ]
+    },
+    {
+      "word": "update",
+      "phoneticRespelling": "uhp-DAYT",
+      "translation": "अपडेट",
+      "definition": "A change or addition to computer software that makes it more modern or fixes problems.",
+      "definationTranslation": "कंप्यूटर सॉफ़्टवेयर में बदलाव या वृद्धि जो इसे अधिक आधुनिक बनाती है या समस्याओं को ठीक करती है।",
+      "sentence": [
+        {
+          "sentence": "Always install the latest software update for better security.",
+          "translation": "बेहतर सुरक्षा के लिए हमेशा नवीनतम सॉफ़्टवेयर अपडेट इंस्टॉल करें।"
+        },
+        {
+          "sentence": "The system update includes new features and bug fixes.",
+          "translation": "सिस्टम अपडेट में नए फीचर्स और बग फिक्स शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "breach",
+      "phoneticRespelling": "BREECH",
+      "translation": "उल्लंघन / सेंध",
+      "definition": "An act of breaking or failing to observe a law, agreement, or code of conduct.",
+      "definationTranslation": "कानून, समझौते या आचार संहिता को तोड़ने या पालन करने में विफल रहने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "The company reported a massive data breach last night.",
+          "translation": "कंपनी ने कल रात एक बड़े डेटा उल्लंघन की सूचना दी।"
+        },
+        {
+          "sentence": "A security breach can lead to stolen identity.",
+          "translation": "सुरक्षा में सेंध लगने से पहचान चोरी हो सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "suspicious",
+      "phoneticRespelling": "suh-SPISH-uhs",
+      "translation": "संदिग्ध",
+      "definition": "Having or showing a cautious distrust of someone or something.",
+      "definationTranslation": "किसी व्यक्ति या वस्तु के प्रति सतर्क अविश्वास होना या दिखाना।",
+      "sentence": [
+        {
+          "sentence": "Do not click on suspicious links in text messages.",
+          "translation": "टेक्स्ट मैसेज में संदिग्ध लिंक पर क्लिक न करें।"
+        },
+        {
+          "sentence": "The bank noticed suspicious activity on my account.",
+          "translation": "बैंक ने मेरे खाते में संदिग्ध गतिविधि देखी।"
+        }
+      ]
+    },
+    {
+      "word": "identity",
+      "phoneticRespelling": "eye-DEN-ti-tee",
+      "translation": "पहचान",
+      "definition": "The characteristics determining who or what a person or thing is.",
+      "definationTranslation": "किसी व्यक्ति या वस्तु की पहचान करने वाली विशेषताएं।",
+      "sentence": [
+        {
+          "sentence": "Identity theft is a serious crime in the digital world.",
+          "translation": "डिजिटल दुनिया में पहचान की चोरी एक गंभीर अपराध है।"
+        },
+        {
+          "sentence": "Keep your ID card safe to protect your identity.",
+          "translation": "अपनी पहचान सुरक्षित रखने के लिए अपना आईडी कार्ड सुरक्षित रखें।"
+        }
+      ]
+    },
+    {
+      "word": "spam",
+      "phoneticRespelling": "SPAM",
+      "translation": "स्पैम",
+      "definition": "Irrelevant or unsolicited messages sent over the internet.",
+      "definationTranslation": "इंटरनेट पर भेजे गए अप्रासंगिक या अनचाहे संदेश।",
+      "sentence": [
+        {
+          "sentence": "My inbox is full of junk spam emails.",
+          "translation": "मेरा इनबॉक्स बेकार स्पैम ईमेल से भरा है।"
+        },
+        {
+          "sentence": "Use a spam filter to keep your inbox clean.",
+          "translation": "अपने इनबॉक्स को साफ रखने के लिए स्पैम फ़िल्टर का उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "download",
+      "phoneticRespelling": "DOWN-lohd",
+      "translation": "डाउनलोड",
+      "definition": "To copy data from one computer system to another, typically over the internet.",
+      "definationTranslation": "एक कंप्यूटर सिस्टम से दूसरे में डेटा कॉपी करना, आमतौर पर इंटरनेट के माध्यम से।",
+      "sentence": [
+        {
+          "sentence": "Never download apps from unverified sources.",
+          "translation": "सत्यापित न किए गए स्रोतों से कभी भी ऐप डाउनलोड न करें।"
+        },
+        {
+          "sentence": "The download was fast because of the high-speed internet.",
+          "translation": "हाई-स्पीड इंटरनेट की वजह से डाउनलोड तेज़ था।"
+        }
+      ]
+    }
+  ]
 }

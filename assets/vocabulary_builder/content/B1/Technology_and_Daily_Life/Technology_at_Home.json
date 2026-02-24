@@ -1,4 +1,345 @@
 {
   "topic": "Technology at Home",
-  "words": []
+  "words": [
+    {
+      "word": "smart home",
+      "phoneticRespelling": "SMAHRT hohm",
+      "translation": "स्मार्ट होम",
+      "definition": "A home equipped with devices that can be controlled remotely by a phone or computer.",
+      "definationTranslation": "एक ऐसा घर जो उन उपकरणों से लैस है जिन्हें फोन या कंप्यूटर द्वारा दूर से नियंत्रित किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "He spent the weekend setting up his new smart home system.",
+          "translation": "उसने अपना नया स्मार्ट होम सिस्टम सेट करने में सप्ताहांत बिताया।"
+        },
+        {
+          "sentence": "A smart home can help you save energy by turning off lights automatically.",
+          "translation": "एक स्मार्ट होम लाइटों को स्वचालित रूप से बंद करके ऊर्जा बचाने में आपकी मदद कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "automation",
+      "phoneticRespelling": "aw-tuh-MAY-shuhn",
+      "translation": "स्वचालन / ऑटोमेशन",
+      "definition": "The use of technology to perform tasks without human help.",
+      "definationTranslation": "मानवीय मदद के बिना कार्यों को करने के लिए तकनीक का उपयोग।",
+      "sentence": [
+        {
+          "sentence": "Home automation allows the curtains to open at sunrise.",
+          "translation": "होम ऑटोमेशन पर्दों को सूर्योदय के समय खुलने की अनुमति देता है।"
+        },
+        {
+          "sentence": "I love the automation features on my new coffee machine.",
+          "translation": "मुझे अपनी नई कॉफी मशीन की ऑटोमेशन विशेषताएं बहुत पसंद हैं।"
+        }
+      ]
+    },
+    {
+      "word": "appliance",
+      "phoneticRespelling": "uh-PLAHY-uhns",
+      "translation": "उपकरण",
+      "definition": "A machine used in the home for a particular job, like a fridge or toaster.",
+      "definationTranslation": "किसी विशेष कार्य के लिए घर में उपयोग की जाने वाली मशीन, जैसे फ्रिज या टोस्टर।",
+      "sentence": [
+        {
+          "sentence": "Modern kitchen appliances are designed to be energy efficient.",
+          "translation": "आधुनिक रसोई उपकरणों को ऊर्जा कुशल बनाने के लिए डिज़ाइन किया गया है।"
+        },
+        {
+          "sentence": "We need to buy a new appliance for washing clothes.",
+          "translation": "हमें कपड़े धोने के लिए एक नया उपकरण खरीदने की ज़रूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "thermostat",
+      "phoneticRespelling": "THUR-muh-stat",
+      "translation": "थर्मोस्टेट",
+      "definition": "A device used to control the temperature in a room or building.",
+      "definationTranslation": "किसी कमरे या इमारत के तापमान को नियंत्रित करने के लिए उपयोग किया जाने वाला उपकरण।",
+      "sentence": [
+        {
+          "sentence": "You can adjust the smart thermostat using an app on your phone.",
+          "translation": "आप अपने फोन पर ऐप का उपयोग करके स्मार्ट थर्मोस्टेट को एडजस्ट कर सकते हैं।"
+        },
+        {
+          "sentence": "The thermostat keeps the house warm during the winter.",
+          "translation": "थर्मोस्टेट सर्दियों के दौरान घर को गर्म रखता है।"
+        }
+      ]
+    },
+    {
+      "word": "broadband",
+      "phoneticRespelling": "BRAWD-band",
+      "translation": "ब्रॉडबैंड",
+      "definition": "A high-speed internet connection that is always on.",
+      "definationTranslation": "एक हाई-स्पीड इंटरनेट कनेक्शन जो हमेशा चालू रहता है।",
+      "sentence": [
+        {
+          "sentence": "We upgraded our broadband to support high-quality video streaming.",
+          "translation": "हमने उच्च गुणवत्ता वाली वीडियो स्ट्रीमिंग के लिए अपना ब्रॉडबैंड अपग्रेड किया।"
+        },
+        {
+          "sentence": "Most homes today have a stable broadband connection.",
+          "translation": "आज अधिकांश घरों में स्थिर ब्रॉडबैंड कनेक्शन है।"
+        }
+      ]
+    },
+    {
+      "word": "streaming",
+      "phoneticRespelling": "STREE-ming",
+      "translation": "स्ट्रीमिंग",
+      "definition": "Watching or listening to content directly from the internet without downloading.",
+      "definationTranslation": "बिना डाउनलोड किए इंटरनेट से सीधे सामग्री देखना या सुनना।",
+      "sentence": [
+        {
+          "sentence": "I enjoy streaming my favorite shows on the weekends.",
+          "translation": "मैं सप्ताहांत पर अपने पसंदीदा शो स्ट्रीमिंग करने का आनंद लेता हूँ।"
+        },
+        {
+          "sentence": "Slow internet can make streaming very frustrating.",
+          "translation": "धीमा इंटरनेट स्ट्रीमिंग को बहुत निराशाजनक बना सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "voice assistant",
+      "phoneticRespelling": "VOIS uh-SIS-tuhnt",
+      "translation": "वॉयस असिस्टेंट",
+      "definition": "Software that can perform tasks or answer questions through voice commands.",
+      "definationTranslation": "सॉफ़्टवेयर जो वॉयस कमांड के माध्यम से कार्यों को कर सकता है या सवालों के जवाब दे सकता है।",
+      "sentence": [
+        {
+          "sentence": "I asked my voice assistant to set an alarm for 7 AM.",
+          "translation": "मैंने अपने वॉयस असिस्टेंट से सुबह 7 बजे का अलार्म सेट करने के लिए कहा।"
+        },
+        {
+          "sentence": "She uses a voice assistant to play music while cooking.",
+          "translation": "वह खाना बनाते समय संगीत चलाने के लिए वॉयस असिस्टेंट का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "sensor",
+      "phoneticRespelling": "SEN-ser",
+      "translation": "सेंसर",
+      "definition": "A device that detects changes in light, heat, or movement.",
+      "definationTranslation": "एक उपकरण जो प्रकाश, गर्मी या हलचल में बदलाव का पता लगाता है।",
+      "sentence": [
+        {
+          "sentence": "The motion sensor turns the lights on when someone enters the room.",
+          "translation": "जब कोई कमरे में प्रवेश करता है तो मोशन सेंसर लाइट जला देता है।"
+        },
+        {
+          "sentence": "A smoke sensor is vital for home safety.",
+          "translation": "घर की सुरक्षा के लिए स्मोक सेंसर बहुत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "router",
+      "phoneticRespelling": "ROO-ter",
+      "translation": "राउटर",
+      "definition": "A device that sends internet signals to all the computers and phones in your home.",
+      "definationTranslation": "एक उपकरण जो आपके घर के सभी कंप्यूटरों और फोनों को इंटरनेट सिग्नल भेजता है।",
+      "sentence": [
+        {
+          "sentence": "Try restarting the router if the internet stops working.",
+          "translation": "यदि इंटरनेट काम करना बंद कर दे तो राउटर को रीस्टार्ट करने का प्रयास करें।"
+        },
+        {
+          "sentence": "The new router has a much stronger signal.",
+          "translation": "नए राउटर का सिग्नल बहुत मजबूत है।"
+        }
+      ]
+    },
+    {
+      "word": "gadget",
+      "phoneticRespelling": "GAJ-it",
+      "translation": "गैजेट",
+      "definition": "A small, useful mechanical or electronic tool.",
+      "definationTranslation": "एक छोटा, उपयोगी यांत्रिक या इलेक्ट्रॉनिक उपकरण।",
+      "sentence": [
+        {
+          "sentence": "This new kitchen gadget helps me chop vegetables quickly.",
+          "translation": "यह नया किचन गैजेट मुझे सब्जियों को जल्दी काटने में मदद करता है।"
+        },
+        {
+          "sentence": "He loves buying the latest electronic gadgets.",
+          "translation": "उसे नवीनतम इलेक्ट्रॉनिक गैजेट्स खरीदना पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "wireless",
+      "phoneticRespelling": "WAHYER-lis",
+      "translation": "वायरलेस",
+      "definition": "Technology that allows devices to communicate without using cables.",
+      "definationTranslation": "वह तकनीक जो उपकरणों को केबल के बिना संवाद करने की अनुमति देती है।",
+      "sentence": [
+        {
+          "sentence": "We have a wireless speaker in every room.",
+          "translation": "हमारे पास हर कमरे में एक वायरलेस स्पीकर है।"
+        },
+        {
+          "sentence": "Wireless mice are very convenient for work.",
+          "translation": "काम के लिए वायरलेस माउस बहुत सुविधाजनक होते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "remote control",
+      "phoneticRespelling": "ri-MOHT kuhn-TROHL",
+      "translation": "रिमोट कंट्रोल",
+      "definition": "A device used to operate another device from a distance.",
+      "definationTranslation": "दूरी से किसी अन्य उपकरण को संचालित करने के लिए उपयोग किया जाने वाला उपकरण।",
+      "sentence": [
+        {
+          "sentence": "I can't find the remote control for the television.",
+          "translation": "मुझे टेलीविजन का रिमोट कंट्रोल नहीं मिल रहा है।"
+        },
+        {
+          "sentence": "The app on my phone acts as a remote control for the air conditioner.",
+          "translation": "मेरे फोन का ऐप एयर कंडीशनर के लिए रिमोट कंट्रोल के रूप में कार्य करता है।"
+        }
+      ]
+    },
+    {
+      "word": "outlet",
+      "phoneticRespelling": "OUT-let",
+      "translation": "आउटलेट / सॉकेट",
+      "definition": "A place on a wall where you can plug in electrical equipment.",
+      "definationTranslation": "दीवार पर एक जगह जहाँ आप बिजली के उपकरण लगा सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "Is there an available outlet to charge my laptop?",
+          "translation": "क्या मेरे लैपटॉप को चार्ज करने के लिए कोई आउटलेट उपलब्ध है?"
+        },
+        {
+          "sentence": "Be careful not to overload a single electrical outlet.",
+          "translation": "सावधान रहें कि एक ही इलेक्ट्रिकल आउटलेट पर ज्यादा लोड न डालें।"
+        }
+      ]
+    },
+    {
+      "word": "installation",
+      "phoneticRespelling": "in-stuh-LAY-shuhn",
+      "translation": "स्थापना / इंस्टॉलेशन",
+      "definition": "The act of putting a new piece of equipment in place and making it ready to use.",
+      "definationTranslation": "उपकरण के एक नए टुकड़े को उसकी जगह पर रखने और उसे उपयोग के लिए तैयार करने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "The installation of the home security system took all day.",
+          "translation": "होम सिक्योरिटी सिस्टम के इंस्टॉलेशन में पूरा दिन लग गया।"
+        },
+        {
+          "sentence": "You should read the manual before starting the installation.",
+          "translation": "इंस्टॉलेशन शुरू करने से पहले आपको मैनुअल पढ़ना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "subscription",
+      "phoneticRespelling": "suhb-SKRIP-shuhn",
+      "translation": "सदस्यता / सब्सक्रिप्शन",
+      "definition": "A regular payment for a service like internet or a streaming app.",
+      "definationTranslation": "इंटरनेट या स्ट्रीमिंग ऐप जैसी सेवा के लिए नियमित भुगतान।",
+      "sentence": [
+        {
+          "sentence": "Our monthly subscription for the streaming service is quite cheap.",
+          "translation": "स्ट्रीमिंग सेवा के लिए हमारा मासिक सब्सक्रिप्शन काफी सस्ता है।"
+        },
+        {
+          "sentence": "I forgot to renew my internet subscription.",
+          "translation": "मैं अपना इंटरनेट सब्सक्रिप्शन रिन्यू करना भूल गया।"
+        }
+      ]
+    },
+    {
+      "word": "maintenance",
+      "phoneticRespelling": "MAYN-tuh-nuhns",
+      "translation": "रखरखाव",
+      "definition": "The work needed to keep something in good condition.",
+      "definationTranslation": "किसी चीज़ को अच्छी स्थिति में रखने के लिए आवश्यक कार्य।",
+      "sentence": [
+        {
+          "sentence": "Regular maintenance of your AC will make it last longer.",
+          "translation": "अपने एसी का नियमित रखरखाव इसे लंबे समय तक चलने में मदद करेगा।"
+        },
+        {
+          "sentence": "The software update includes some system maintenance.",
+          "translation": "सॉफ्टवेयर अपडेट में कुछ सिस्टम रखरखाव शामिल है।"
+        }
+      ]
+    },
+    {
+      "word": "hardware",
+      "phoneticRespelling": "HAHRD-wair",
+      "translation": "हार्डवेयर",
+      "definition": "The physical parts of a computer or electronic system.",
+      "definationTranslation": "कंप्यूटर या इलेक्ट्रॉनिक सिस्टम के भौतिक भाग।",
+      "sentence": [
+        {
+          "sentence": "We need to upgrade the hardware to improve the system speed.",
+          "translation": "सिस्टम की गति सुधारने के लिए हमें हार्डवेयर अपग्रेड करना होगा।"
+        },
+        {
+          "sentence": "The hardware for the smart lock is very durable.",
+          "translation": "स्मार्ट लॉक का हार्डवेयर बहुत टिकाऊ है।"
+        }
+      ]
+    },
+    {
+      "word": "setup",
+      "phoneticRespelling": "SET-uhp",
+      "translation": "सेटअप",
+      "definition": "The way in which something is organized or arranged.",
+      "definationTranslation": "जिस तरह से किसी चीज़ को व्यवस्थित या व्यवस्थित किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The initial setup of the router was very easy.",
+          "translation": "राउटर का शुरुआती सेटअप बहुत आसान था।"
+        },
+        {
+          "sentence": "I like your home office setup.",
+          "translation": "मुझे आपका होम ऑफिस सेटअप पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "compatibility",
+      "phoneticRespelling": "kuhm-pat-uh-BIL-i-tee",
+      "translation": "अनुकूलता",
+      "definition": "The ability of different devices or systems to work together.",
+      "definationTranslation": "विभिन्न उपकरणों या प्रणालियों की एक साथ काम करने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Check the compatibility of the smart bulb with your current lamp.",
+          "translation": "अपने वर्तमान लैंप के साथ स्मार्ट बल्ब की अनुकूलता की जांच करें।"
+        },
+        {
+          "sentence": "The app has compatibility issues with older smartphones.",
+          "translation": "ऐप में पुराने स्मार्टफोन के साथ अनुकूलता संबंधी समस्याएं हैं।"
+        }
+      ]
+    },
+    {
+      "word": "efficient",
+      "phoneticRespelling": "i-FISH-uhnt",
+      "translation": "कुशल / कार्यक्षम",
+      "definition": "Working well and not wasting time, money, or energy.",
+      "definationTranslation": "अच्छी तरह से काम करना और समय, पैसा या ऊर्जा बर्बाद न करना।",
+      "sentence": [
+        {
+          "sentence": "Energy-efficient bulbs are better for the environment.",
+          "translation": "ऊर्जा-कुशल बल्ब पर्यावरण के लिए बेहतर होते हैं।"
+        },
+        {
+          "sentence": "This new heater is much more efficient than the old one.",
+          "translation": "यह नया हीटर पुराने वाले की तुलना में कहीं अधिक कुशल है।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,345 @@
 {
   "topic": "Medical Appointments",
-  "words": []
+  "words": [
+    {
+      "word": "Appointment",
+      "phoneticRespelling": "uh-POINT-muhnt",
+      "translation": "नियुक्ति / मुलाकात का समय",
+      "definition": "A formal arrangement to meet or visit someone at a particular time.",
+      "definitionTranslation": "किसी विशेष समय पर किसी से मिलने या जाने की औपचारिक व्यवस्था।",
+      "sentence": [
+        {
+          "sentence": "I have an appointment with the doctor at 10 AM.",
+          "translation": "डॉक्टर के साथ सुबह 10 बजे मेरी मुलाकात का समय तय है।"
+        },
+        {
+          "sentence": "You need to call the clinic to cancel your appointment.",
+          "translation": "अपनी अपॉइंटमेंट रद्द करने के लिए आपको क्लिनिक में कॉल करना होगा।"
+        }
+      ]
+    },
+    {
+      "word": "Consultation",
+      "phoneticRespelling": "kon-suhl-TEY-shuhn",
+      "translation": "परामर्श",
+      "definition": "A meeting with an expert, such as a doctor, to seek advice.",
+      "definitionTranslation": "सलाह लेने के लिए किसी विशेषज्ञ, जैसे डॉक्टर, के साथ बैठक।",
+      "sentence": [
+        {
+          "sentence": "The first consultation usually takes about thirty minutes.",
+          "translation": "पहला परामर्श आमतौर पर लगभग तीस मिनट का होता है।"
+        },
+        {
+          "sentence": "You can book a video consultation if you cannot visit the hospital.",
+          "translation": "यदि आप अस्पताल नहीं जा सकते हैं तो आप वीडियो परामर्श बुक कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Symptom",
+      "phoneticRespelling": "SIMP-tuhm",
+      "translation": "लक्षण",
+      "definition": "A physical or mental feature that indicates a condition or disease.",
+      "definitionTranslation": "एक शारीरिक या मानसिक विशेषता जो किसी स्थिति या बीमारी का संकेत देती है।",
+      "sentence": [
+        {
+          "sentence": "A high fever is a common symptom of the flu.",
+          "translation": "तेज बुखार फ्लू का एक सामान्य लक्षण है।"
+        },
+        {
+          "sentence": "Please describe your symptoms to the nurse.",
+          "translation": "कृपया नर्स को अपने लक्षणों के बारे में बताएं।"
+        }
+      ]
+    },
+    {
+      "word": "Prescription",
+      "phoneticRespelling": "pri-SKRIP-shuhn",
+      "translation": "नुस्खा / पर्चा",
+      "definition": "A piece of paper on which a doctor writes the medicine you need.",
+      "definitionTranslation": "कागज का एक टुकड़ा जिस पर डॉक्टर आपकी ज़रूरत की दवा लिखता है।",
+      "sentence": [
+        {
+          "sentence": "The chemist will give you medicine based on this prescription.",
+          "translation": "केमिस्ट इस पर्चे के आधार पर आपको दवा देगा।"
+        },
+        {
+          "sentence": "I need to get a refill for my prescription.",
+          "translation": "मुझे अपने पर्चे की दवा दोबारा लेनी है।"
+        }
+      ]
+    },
+    {
+      "word": "Diagnosis",
+      "phoneticRespelling": "dahy-uhg-NOH-sis",
+      "translation": "रोग की पहचान / निदान",
+      "definition": "The identification of the nature of an illness by examination of the symptoms.",
+      "definitionTranslation": "लक्षणों की जांच करके बीमारी की प्रकृति की पहचान करना।",
+      "sentence": [
+        {
+          "sentence": "The doctor's diagnosis was a mild infection.",
+          "translation": "डॉक्टर द्वारा पहचाना गया रोग एक हल्का संक्रमण था।"
+        },
+        {
+          "sentence": "Waiting for a medical diagnosis can be stressful.",
+          "translation": "चिकित्सीय निदान का इंतज़ार करना तनावपूर्ण हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Referral",
+      "phoneticRespelling": "ri-FUR-uhl",
+      "translation": "रेफ़रल / दूसरे डॉक्टर के पास भेजना",
+      "definition": "The act of sending someone to a specialist for further help.",
+      "definitionTranslation": "आगे की मदद के लिए किसी को विशेषज्ञ के पास भेजने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "My GP gave me a referral to see a heart specialist.",
+          "translation": "मेरे सामान्य चिकित्सक (GP) ने मुझे हृदय विशेषज्ञ से मिलने के लिए रेफ़रल दिया।"
+        },
+        {
+          "sentence": "You need a referral letter before you book the appointment.",
+          "translation": "अपॉइंटमेंट बुक करने से पहले आपको रेफ़रल पत्र की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Receptionist",
+      "phoneticRespelling": "ri-SEP-shuh-nist",
+      "translation": "रिसेप्शनिस्ट / स्वागतकर्ता",
+      "definition": "The person who greets patients and handles bookings at the clinic.",
+      "definitionTranslation": "वह व्यक्ति जो रोगियों का स्वागत करता है और क्लिनिक में बुकिंग संभालता है।",
+      "sentence": [
+        {
+          "sentence": "Ask the receptionist for a check-in form.",
+          "translation": "रिसेप्शनिस्ट से चेक-इन फॉर्म मांगें।"
+        },
+        {
+          "sentence": "The receptionist told me the doctor is running ten minutes late.",
+          "translation": "रिसेप्शनिस्ट ने मुझे बताया कि डॉक्टर दस मिनट की देरी से चल रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Examination",
+      "phoneticRespelling": "ig-zam-uh-NEY-shuhn",
+      "translation": "जांच / परीक्षण",
+      "definition": "A close look at the body by a medical professional to check health.",
+      "definitionTranslation": "स्वास्थ्य की जांच के लिए चिकित्सा पेशेवर द्वारा शरीर की बारीकी से जांच।",
+      "sentence": [
+        {
+          "sentence": "The doctor performed a physical examination of my throat.",
+          "translation": "डॉक्टर ने मेरे गले की शारीरिक जांच की।"
+        },
+        {
+          "sentence": "A regular examination can help find problems early.",
+          "translation": "नियमित जांच से समस्याओं को जल्दी खोजने में मदद मिल सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Specialist",
+      "phoneticRespelling": "SPESH-uh-list",
+      "translation": "विशेषज्ञ",
+      "definition": "A doctor who focuses on a specific area of medicine.",
+      "definitionTranslation": "एक डॉक्टर जो चिकित्सा के एक विशिष्ट क्षेत्र पर ध्यान केंद्रित करता है।",
+      "sentence": [
+        {
+          "sentence": "I was referred to a skin specialist for my rash.",
+          "translation": "मुझे अपनी खुजली के लिए त्वचा विशेषज्ञ के पास भेजा गया था।"
+        },
+        {
+          "sentence": "The specialist explained the surgery in detail.",
+          "translation": "विशेषज्ञ ने सर्जरी के बारे में विस्तार से समझाया।"
+        }
+      ]
+    },
+    {
+      "word": "Follow-up",
+      "phoneticRespelling": "FOL-oh-uhp",
+      "translation": "फॉलो-अप / अगली मुलाक़ात",
+      "definition": "An appointment to check the progress of a previous treatment.",
+      "definitionTranslation": "पिछले उपचार की प्रगति की जांच करने के लिए एक अपॉइंटमेंट।",
+      "sentence": [
+        {
+          "sentence": "The doctor wants to see me for a follow-up next week.",
+          "translation": "डॉक्टर अगले हफ्ते फॉलो-अप के लिए मुझसे मिलना चाहते हैं।"
+        },
+        {
+          "sentence": "Follow-up visits are important to ensure you are healing.",
+          "translation": "यह सुनिश्चित करने के लिए कि आप ठीक हो रहे हैं, फॉलो-अप मुलाकातें महत्वपूर्ण हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Insurance",
+      "phoneticRespelling": "in-SHUR-uhns",
+      "translation": "बीमा",
+      "definition": "An agreement where a company pays for your medical costs.",
+      "definitionTranslation": "एक समझौता जहां एक कंपनी आपके चिकित्सा खर्चों का भुगतान करती है।",
+      "sentence": [
+        {
+          "sentence": "Does the clinic accept my health insurance?",
+          "translation": "क्या क्लिनिक मेरा स्वास्थ्य बीमा स्वीकार करता है?"
+        },
+        {
+          "sentence": "Medical insurance can cover the cost of surgery.",
+          "translation": "चिकित्सा बीमा सर्जरी की लागत को कवर कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Waiting Room",
+      "phoneticRespelling": "WEY-ting ROOM",
+      "translation": "प्रतीक्षा कक्ष",
+      "definition": "An area where patients sit until the doctor is ready to see them.",
+      "definitionTranslation": "एक क्षेत्र जहां मरीज तब तक बैठते हैं जब तक डॉक्टर उन्हें देखने के लिए तैयार न हो जाए।",
+      "sentence": [
+        {
+          "sentence": "There were five people in the waiting room.",
+          "translation": "प्रतीक्षा कक्ष में पांच लोग थे।"
+        },
+        {
+          "sentence": "Please take a seat in the waiting room.",
+          "translation": "कृपया प्रतीक्षा कक्ष में बैठें।"
+        }
+      ]
+    },
+    {
+      "word": "Chronic",
+      "phoneticRespelling": "KRON-ik",
+      "translation": "दीर्घकालिक / पुरानी",
+      "definition": "A condition that lasts for a very long time.",
+      "definitionTranslation": "एक ऐसी स्थिति जो बहुत लंबे समय तक बनी रहती है।",
+      "sentence": [
+        {
+          "sentence": "Diabetes is a chronic condition that needs regular care.",
+          "translation": "मधुमेह एक दीर्घकालिक स्थिति है जिसे नियमित देखभाल की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "He visits the clinic often for his chronic back pain.",
+          "translation": "वह अपनी पीठ के पुराने दर्द के लिए अक्सर क्लिनिक जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Allergy",
+      "phoneticRespelling": "AL-er-jee",
+      "translation": "एलर्जी",
+      "definition": "A condition where you become ill after eating or touching something.",
+      "definitionTranslation": "ऐसी स्थिति जिसमें आप कुछ खाने या छूने के बाद बीमार हो जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "Do you have any allergy to penicillin?",
+          "translation": "क्या आपको पेनिसिलिन से कोई एलर्जी है?"
+        },
+        {
+          "sentence": "I mentioned my nut allergy to the doctor.",
+          "translation": "मैंने डॉक्टर को अपनी नट्स (मेवे) की एलर्जी के बारे में बताया।"
+        }
+      ]
+    },
+    {
+      "word": "Dose",
+      "phoneticRespelling": "DOHS",
+      "translation": "खुराक",
+      "definition": "A measured amount of medicine to be taken at one time.",
+      "definitionTranslation": "एक बार में ली जाने वाली दवा की मापी गई मात्रा।",
+      "sentence": [
+        {
+          "sentence": "Take one dose of this syrup after dinner.",
+          "translation": "रात के खाने के बाद इस सिरप की एक खुराक लें।"
+        },
+        {
+          "sentence": "Do not exceed the recommended dose.",
+          "translation": "अनुशंसित खुराक से अधिक न लें।"
+        }
+      ]
+    },
+    {
+      "word": "Pharmacist",
+      "phoneticRespelling": "FAHR-muh-sist",
+      "translation": "दवा विक्रेता / फार्मासिस्ट",
+      "definition": "A person trained to prepare and give out medicines.",
+      "definitionTranslation": "दवाएं तैयार करने और देने के लिए प्रशिक्षित व्यक्ति।",
+      "sentence": [
+        {
+          "sentence": "The pharmacist explained how to take the pills.",
+          "translation": "फार्मासिस्ट ने बताया कि गोलियां कैसे लेनी हैं।"
+        },
+        {
+          "sentence": "You can ask the pharmacist for advice on minor health issues.",
+          "translation": "आप छोटी स्वास्थ्य समस्याओं पर सलाह के लिए फार्मासिस्ट से पूछ सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Consent",
+      "phoneticRespelling": "kuhn-SENT",
+      "translation": "सहमति",
+      "definition": "Permission for something to happen or agreement to do something.",
+      "definitionTranslation": "किसी चीज़ के होने की अनुमति या कुछ करने की सहमति।",
+      "sentence": [
+        {
+          "sentence": "The patient must sign a consent form before surgery.",
+          "translation": "सर्जरी से पहले मरीज को सहमति पत्र पर हस्ताक्षर करने चाहिए।"
+        },
+        {
+          "sentence": "The doctor asked for my consent to share the results.",
+          "translation": "डॉक्टर ने परिणाम साझा करने के लिए मेरी सहमति मांगी।"
+        }
+      ]
+    },
+    {
+      "word": "Urgent",
+      "phoneticRespelling": "UR-juhnt",
+      "translation": "अति आवश्यक / तत्काल",
+      "definition": "Requiring immediate action or attention.",
+      "definitionTranslation": "तत्काल कार्रवाई या ध्यान की आवश्यकता।",
+      "sentence": [
+        {
+          "sentence": "I need an urgent appointment because my pain is worsening.",
+          "translation": "मुझे तत्काल अपॉइंटमेंट चाहिए क्योंकि मेरा दर्द बढ़ रहा है।"
+        },
+        {
+          "sentence": "The clinic handles urgent cases without a booking.",
+          "translation": "क्लिनिक बिना बुकिंग के तत्काल मामलों को संभालता है।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccination",
+      "phoneticRespelling": "vak-suh-NEY-shuhn",
+      "translation": "टीकाकरण",
+      "definition": "Treatment with a vaccine to produce immunity against a disease.",
+      "definitionTranslation": "किसी बीमारी के खिलाफ प्रतिरोधक क्षमता पैदा करने के लिए टीके के साथ उपचार।",
+      "sentence": [
+        {
+          "sentence": "Childhood vaccinations are free at the local clinic.",
+          "translation": "स्थानीय क्लिनिक में बचपन के टीकाकरण मुफ्त हैं।"
+        },
+        {
+          "sentence": "I need a flu vaccination before winter starts.",
+          "translation": "सर्दी शुरू होने से पहले मुझे फ्लू के टीकाकरण की ज़रूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "Medical History",
+      "phoneticRespelling": "MED-i-kuhl HIS-tuh-ree",
+      "translation": "चिकित्सा इतिहास",
+      "definition": "A record of past health problems and treatments.",
+      "definitionTranslation": "पिछली स्वास्थ्य समस्याओं और उपचारों का रिकॉर्ड।",
+      "sentence": [
+        {
+          "sentence": "The doctor will look at your medical history during the visit.",
+          "translation": "मुलाकात के दौरान डॉक्टर आपके चिकित्सा इतिहास को देखेंगे।"
+        },
+        {
+          "sentence": "It is important to provide an accurate medical history.",
+          "translation": "सटीक चिकित्सा इतिहास प्रदान करना महत्वपूर्ण है।"
+        }
+      ]
+    }
+  ]
 }

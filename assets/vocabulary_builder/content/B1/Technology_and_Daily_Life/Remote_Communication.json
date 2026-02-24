@@ -1,4 +1,345 @@
 {
   "topic": "Remote Communication",
-  "words": []
+  "words": [
+    {
+      "word": "video conferencing",
+      "phoneticRespelling": "VID-ee-oh KON-fer-uhn-sing",
+      "translation": "वीडियो कॉन्फ्रेंसिंग",
+      "definition": "A meeting where people at different locations use cameras and microphones to see and hear each other.",
+      "definationTranslation": "एक बैठक जहाँ विभिन्न स्थानों पर लोग एक-दूसरे को देखने और सुनने के लिए कैमरे और माइक्रोफ़ोन का उपयोग करते हैं।",
+      "sentence": [
+        {
+          "sentence": "We have a video conferencing session every Monday morning.",
+          "translation": "हर सोमवार सुबह हमारा एक वीडियो कॉन्फ्रेंसिंग सत्र होता है।"
+        },
+        {
+          "sentence": "The quality of video conferencing depends on your internet speed.",
+          "translation": "वीडियो कॉन्फ्रेंसिंग की गुणवत्ता आपकी इंटरनेट गति पर निर्भर करती है।"
+        }
+      ]
+    },
+    {
+      "word": "synchronous",
+      "phoneticRespelling": "SING-kruh-nuhs",
+      "translation": "समकालिक / एक ही समय में",
+      "definition": "Communication that happens in real-time, where everyone is present at the same time.",
+      "definationTranslation": "संचार जो वास्तविक समय में होता है, जहाँ हर कोई एक ही समय में मौजूद होता है।",
+      "sentence": [
+        {
+          "sentence": "Phone calls and live chats are examples of synchronous communication.",
+          "translation": "फोन कॉल और लाइव चैट समकालिक संचार के उदाहरण हैं।"
+        },
+        {
+          "sentence": "Synchronous meetings help in making quick decisions.",
+          "translation": "समकालिक बैठकें त्वरित निर्णय लेने में मदद करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "asynchronous",
+      "phoneticRespelling": "ay-SING-kruh-nuhs",
+      "translation": "असमकालिक / अलग समय में",
+      "definition": "Communication where there is a delay between sending a message and receiving a reply.",
+      "definationTranslation": "संचार जहाँ संदेश भेजने और उत्तर प्राप्त करने के बीच देरी होती है।",
+      "sentence": [
+        {
+          "sentence": "Email is a common form of asynchronous communication.",
+          "translation": "ईमेल असमकालिक संचार का एक सामान्य रूप है।"
+        },
+        {
+          "sentence": "Asynchronous work allows people to work in different time zones.",
+          "translation": "असमकालिक कार्य लोगों को विभिन्न टाइम ज़ोन में काम करने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "bandwidth",
+      "phoneticRespelling": "BAND-width",
+      "translation": "बैंडविड्थ",
+      "definition": "The amount of data that can be sent over an internet connection in a certain amount of time.",
+      "definationTranslation": "डेटा की वह मात्रा जिसे एक निश्चित समय में इंटरनेट कनेक्शन पर भेजा जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "High-definition video calls require more bandwidth.",
+          "translation": "हाई-डेफिनिशन वीडियो कॉल के लिए अधिक बैंडविड्थ की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "Low bandwidth can cause your screen to freeze during a call.",
+          "translation": "कम बैंडविड्थ कॉल के दौरान आपकी स्क्रीन को फ्रीज कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "collaboration",
+      "phoneticRespelling": "kuh-lab-uh-RAY-shuhn",
+      "translation": "सहयोग",
+      "definition": "The act of working together with other people to achieve a goal.",
+      "definationTranslation": "किसी लक्ष्य को प्राप्त करने के लिए अन्य लोगों के साथ मिलकर काम करने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "Online tools make collaboration much easier for remote teams.",
+          "translation": "ऑनलाइन टूल रिमोट टीमों के लिए सहयोग को बहुत आसान बनाते हैं।"
+        },
+        {
+          "sentence": "Effective collaboration is key to the success of our project.",
+          "translation": "प्रभावी सहयोग हमारे प्रोजेक्ट की सफलता की कुंजी है।"
+        }
+      ]
+    },
+    {
+      "word": "headset",
+      "phoneticRespelling": "HED-set",
+      "translation": "हेडसेट",
+      "definition": "A device with a microphone and headphones used for listening and speaking.",
+      "definationTranslation": "माइक्रोफ़ोन और हेडफ़ोन वाला एक उपकरण जिसका उपयोग सुनने और बोलने के लिए किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "I use a noise-canceling headset for all my meetings.",
+          "translation": "मैं अपनी सभी मीटिंग्स के लिए नॉइज़-कैंसलिंग हेडसेट का उपयोग करता हूँ।"
+        },
+        {
+          "sentence": "Make sure your headset is plugged in correctly.",
+          "translation": "सुनिश्चित करें कि आपका हेडसेट सही ढंग से लगा हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "mute",
+      "phoneticRespelling": "MYOOT",
+      "translation": "म्यूट / मौन",
+      "definition": "To turn off the sound or microphone on a device.",
+      "definationTranslation": "किसी डिवाइस पर आवाज़ या माइक्रोफ़ोन को बंद करना।",
+      "sentence": [
+        {
+          "sentence": "Please stay on mute if you are not speaking.",
+          "translation": "यदि आप बोल नहीं रहे हैं तो कृपया म्यूट पर रहें।"
+        },
+        {
+          "sentence": "I forgot to unmute myself before I started talking.",
+          "translation": "बात करना शुरू करने से पहले मैं खुद को अनम्यूट करना भूल गया।"
+        }
+      ]
+    },
+    {
+      "word": "screen sharing",
+      "phoneticRespelling": "SKREEN shair-ing",
+      "translation": "स्क्रीन शेयरिंग",
+      "definition": "A feature that allows others to see what is on your computer screen during a call.",
+      "definationTranslation": "एक विशेषता जो कॉल के दौरान दूसरों को यह देखने की अनुमति देती है कि आपके कंप्यूटर की स्क्रीन पर क्या है।",
+      "sentence": [
+        {
+          "sentence": "I will use screen sharing to show you the presentation.",
+          "translation": "मैं आपको प्रेजेंटेशन दिखाने के लिए स्क्रीन शेयरिंग का उपयोग करूंगा।"
+        },
+        {
+          "sentence": "Screen sharing is very helpful for technical support.",
+          "translation": "तकनीकी सहायता के लिए स्क्रीन शेयरिंग बहुत मददगार है।"
+        }
+      ]
+    },
+    {
+      "word": "webinar",
+      "phoneticRespelling": "WEB-uh-nahr",
+      "translation": "वेबिनार",
+      "definition": "A seminar or presentation conducted over the internet.",
+      "definationTranslation": "इंटरनेट पर आयोजित एक सेमिनार या प्रेजेंटेशन।",
+      "sentence": [
+        {
+          "sentence": "I registered for a webinar on artificial intelligence.",
+          "translation": "मैंने आर्टिफिशियल इंटेलिजेंस पर एक वेबिनार के लिए पंजीकरण किया।"
+        },
+        {
+          "sentence": "The webinar included a question and answer session.",
+          "translation": "वेबिनार में एक प्रश्न और उत्तर सत्र शामिल था।"
+        }
+      ]
+    },
+    {
+      "word": "instant messaging",
+      "phoneticRespelling": "IN-stuhnt MES-ij-ing",
+      "translation": "तत्काल संदेश भेजना",
+      "definition": "Online chat that offers real-time text transmission over the internet.",
+      "definationTranslation": "ऑनलाइन चैट जो इंटरनेट पर वास्तविक समय में टेक्स्ट भेजने की सुविधा देती है।",
+      "sentence": [
+        {
+          "sentence": "We use instant messaging for quick team updates.",
+          "translation": "हम त्वरित टीम अपडेट के लिए इंस्टेंट मैसेजिंग का उपयोग करते हैं।"
+        },
+        {
+          "sentence": "Instant messaging is faster than writing an email.",
+          "translation": "इंस्टेंट मैसेजिंग ईमेल लिखने से तेज़ है।"
+        }
+      ]
+    },
+    {
+      "word": "platform",
+      "phoneticRespelling": "PLAT-fawrm",
+      "translation": "प्लेटफॉर्म / मंच",
+      "definition": "An application or website used to host communication or work.",
+      "definationTranslation": "संचार या कार्य की मेजबानी के लिए उपयोग किया जाने वाला एप्लिकेशन या वेबसाइट।",
+      "sentence": [
+        {
+          "sentence": "Which platform do you prefer for video calls?",
+          "translation": "आप वीडियो कॉल के लिए कौन सा प्लेटफॉर्म पसंद करते हैं?"
+        },
+        {
+          "sentence": "This platform allows us to manage all our tasks in one place.",
+          "translation": "यह प्लेटफॉर्म हमें अपने सभी कार्यों को एक ही स्थान पर प्रबंधित करने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "virtual background",
+      "phoneticRespelling": "VUR-choo-uhl BAK-ground",
+      "translation": "आभासी पृष्ठभूमि",
+      "definition": "A digital image used to hide the real background behind you during a video call.",
+      "definationTranslation": "वीडियो कॉल के दौरान आपके पीछे की वास्तविक पृष्ठभूमि को छिपाने के लिए उपयोग की जाने वाली डिजिटल छवि।",
+      "sentence": [
+        {
+          "sentence": "He used a virtual background of a library for his interview.",
+          "translation": "उसने अपने इंटरव्यू के लिए लाइब्रेरी के वर्चुअल बैकग्राउंड का उपयोग किया।"
+        },
+        {
+          "sentence": "Virtual backgrounds help maintain privacy at home.",
+          "translation": "वर्चुअल बैकग्राउंड घर पर गोपनीयता बनाए रखने में मदद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "connectivity",
+      "phoneticRespelling": "kon-ek-TIV-i-tee",
+      "translation": "कनेक्टिविटी / जुड़ाव",
+      "definition": "The ability of a device or computer to connect to the internet or other systems.",
+      "definationTranslation": "किसी डिवाइस या कंप्यूटर की इंटरनेट या अन्य सिस्टम से जुड़ने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Poor connectivity can make remote work very difficult.",
+          "translation": "खराब कनेक्टिविटी रिमोट वर्क को बहुत कठिन बना सकती है।"
+        },
+        {
+          "sentence": "We are testing the network connectivity in the new office.",
+          "translation": "हम नए कार्यालय में नेटवर्क कनेक्टिविटी का परीक्षण कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "workspace",
+      "phoneticRespelling": "WURK-speys",
+      "translation": "कार्यक्षेत्र",
+      "definition": "The area or environment where you perform your job, either physical or digital.",
+      "definationTranslation": "वह क्षेत्र या वातावरण जहाँ आप अपना काम करते हैं, चाहे वह भौतिक हो या डिजिटल।",
+      "sentence": [
+        {
+          "sentence": "I have set up a quiet workspace in my bedroom.",
+          "translation": "मैंने अपने बेडरूम में एक शांत कार्यक्षेत्र स्थापित किया है।"
+        },
+        {
+          "sentence": "The digital workspace includes all our shared files.",
+          "translation": "डिजिटल वर्कस्पेस में हमारी सभी साझा फाइलें शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "participant",
+      "phoneticRespelling": "pahr-TIS-uh-puhnt",
+      "translation": "प्रतिभागी",
+      "definition": "A person who takes part in an event or a meeting.",
+      "definationTranslation": "वह व्यक्ति जो किसी कार्यक्रम या बैठक में भाग लेता है।",
+      "sentence": [
+        {
+          "sentence": "There were over fifty participants in the online session.",
+          "translation": "ऑनलाइन सत्र में पचास से अधिक प्रतिभागी थे।"
+        },
+        {
+          "sentence": "The host can manage the list of participants.",
+          "translation": "होस्ट प्रतिभागियों की सूची का प्रबंधन कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "schedule",
+      "phoneticRespelling": "SKEJ-ool",
+      "translation": "अनुसूची / समय सारिणी",
+      "definition": "A plan that gives a list of events and when they will happen.",
+      "definationTranslation": "एक योजना जो घटनाओं की सूची और उनके होने का समय बताती है।",
+      "sentence": [
+        {
+          "sentence": "I need to schedule a meeting with the development team.",
+          "translation": "मुझे डेवलपमेंट टीम के साथ एक मीटिंग शेड्यूल करने की जरूरत है।"
+        },
+        {
+          "sentence": "Check your schedule before inviting more people.",
+          "translation": "अधिक लोगों को आमंत्रित करने से पहले अपनी समय सारिणी जांच लें।"
+        }
+      ]
+    },
+    {
+      "word": "feedback loop",
+      "phoneticRespelling": "FEED-bak loop",
+      "translation": "फीडबैक लूप",
+      "definition": "The process of providing information about a result to improve future performance.",
+      "definationTranslation": "भविष्य के प्रदर्शन में सुधार के लिए परिणाम के बारे में जानकारी प्रदान करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "A good feedback loop is necessary for remote team growth.",
+          "translation": "रिमोट टीम के विकास के लिए एक अच्छा फीडबैक लूप आवश्यक है।"
+        },
+        {
+          "sentence": "We use weekly surveys as part of our feedback loop.",
+          "translation": "हम अपने फीडबैक लूप के हिस्से के रूप में साप्ताहिक सर्वेक्षणों का उपयोग करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "noise-canceling",
+      "phoneticRespelling": "NOIZ-kan-suh-ling",
+      "translation": "शोर कम करने वाला",
+      "definition": "Technology that reduces unwanted background sounds.",
+      "definationTranslation": "तकनीक जो अवांछित पृष्ठभूमि ध्वनियों को कम करती है।",
+      "sentence": [
+        {
+          "sentence": "Noise-canceling headphones are great for working in loud cafes.",
+          "translation": "तेज़ आवाज़ वाले कैफे में काम करने के लिए नॉइज़-कैंसलिंग हेडफ़ोन बेहतरीन हैं।"
+        },
+        {
+          "sentence": "My microphone has noise-canceling features.",
+          "translation": "मेरे माइक्रोफ़ोन में नॉइज़-कैंसलिंग विशेषताएं हैं।"
+        }
+      ]
+    },
+    {
+      "word": "productivity",
+      "phoneticRespelling": "proh-duhk-TIV-i-tee",
+      "translation": "उत्पादकता",
+      "definition": "The rate at which a person or company produces goods or services.",
+      "definationTranslation": "वह दर जिस पर कोई व्यक्ति या कंपनी वस्तुओं या सेवाओं का उत्पादन करती है।",
+      "sentence": [
+        {
+          "sentence": "Clear communication improves the team's productivity.",
+          "translation": "स्पष्ट संचार टीम की उत्पादकता में सुधार करता है।"
+        },
+        {
+          "sentence": "I find that working from home increases my productivity.",
+          "translation": "मैं पाता हूँ कि घर से काम करने से मेरी उत्पादकता बढ़ती है।"
+        }
+      ]
+    },
+    {
+      "word": "invite",
+      "phoneticRespelling": "in-VAYT",
+      "translation": "आमंत्रण",
+      "definition": "A request to join a meeting or event.",
+      "definationTranslation": "किसी मीटिंग या कार्यक्रम में शामिल होने का अनुरोध।",
+      "sentence": [
+        {
+          "sentence": "Did you receive the invite for the Zoom call?",
+          "translation": "क्या आपको ज़ूम कॉल का आमंत्रण मिला?"
+        },
+        {
+          "sentence": "I will send the calendar invite shortly.",
+          "translation": "मैं शीघ्र ही कैलेंडर आमंत्रण भेजूंगा।"
+        }
+      ]
+    }
+  ]
 }

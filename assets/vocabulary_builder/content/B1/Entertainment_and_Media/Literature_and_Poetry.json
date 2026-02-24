@@ -1,4 +1,345 @@
 {
   "topic": "Literature and Poetry",
-  "words": []
+  "words": [
+    {
+      "word": "metaphor",
+      "phoneticRespelling": "MET-uh-fawr",
+      "translation": "रूपक",
+      "definition": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
+      "definationTranslation": "एक अलंकार जिसमें किसी शब्द या वाक्यांश को ऐसी वस्तु या क्रिया पर लागू किया जाता है जिस पर वह शाब्दिक रूप से लागू नहीं होता।",
+      "sentence": [
+        {
+          "sentence": "The poet used the metaphor 'life is a roller coaster' to describe ups and downs.",
+          "translation": "कवि ने उतार-चढ़ाव का वर्णन करने के लिए 'जीवन एक रोलर कोस्टर है' रूपक का उपयोग किया।"
+        },
+        {
+          "sentence": "Understanding metaphors is key to appreciating deep poetry.",
+          "translation": "गहरी कविता की सराहना करने के लिए रूपकों को समझना महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "narrative",
+      "phoneticRespelling": "NAR-uh-tiv",
+      "translation": "कथा / वर्णन",
+      "definition": "A spoken or written account of connected events; a story.",
+      "definationTranslation": "जुड़ी हुई घटनाओं का मौखिक या लिखित विवरण; एक कहानी।",
+      "sentence": [
+        {
+          "sentence": "The novel has a complex narrative that jumps between the past and present.",
+          "translation": "उपन्यास में एक जटिल कथा है जो अतीत और वर्तमान के बीच घूमती है।"
+        },
+        {
+          "sentence": "She is a master of first-person narrative.",
+          "translation": "वह प्रथम-पुरुष कथा (वर्णन) की मास्टर है।"
+        }
+      ]
+    },
+    {
+      "word": "stanza",
+      "phoneticRespelling": "STAN-zuh",
+      "translation": "पद्य / श्लोक",
+      "definition": "A group of lines forming the basic recurring metrical unit in a poem.",
+      "definationTranslation": "लाइनों का एक समूह जो एक कविता में बुनियादी आवर्ती मीट्रिक इकाई बनाता है।",
+      "sentence": [
+        {
+          "sentence": "The poem consists of four stanzas with a simple rhyme scheme.",
+          "translation": "कविता में एक साधारण तुकबंदी योजना के साथ चार पद्य शामिल हैं।"
+        },
+        {
+          "sentence": "Please read the second stanza aloud to the class.",
+          "translation": "कृपया कक्षा में दूसरा पद्य जोर से पढ़ें।"
+        }
+      ]
+    },
+    {
+      "word": "rhyme",
+      "phoneticRespelling": "RAHYM",
+      "translation": "तुकबंदी",
+      "definition": "Correspondence of sound between words or the endings of words, especially when these are used at the ends of lines of poetry.",
+      "definationTranslation": "शब्दों या शब्दों के अंत के बीच ध्वनि की समानता, खासकर जब ये कविता की पंक्तियों के अंत में उपयोग किए जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "Children love nursery rhymes because they are easy to remember.",
+          "translation": "बच्चों को बाल कविताएँ (नर्सरी राइम्स) पसंद होती हैं क्योंकि उन्हें याद रखना आसान होता है।"
+        },
+        {
+          "sentence": "The words 'cat' and 'hat' rhyme perfectly.",
+          "translation": "'कैट' और 'हैट' शब्द पूरी तरह से तुकबंदी करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "fiction",
+      "phoneticRespelling": "FIK-shuhn",
+      "translation": "कल्पना / कथा साहित्य",
+      "definition": "Literature in the form of prose, especially short stories and novels, that describes imaginary events and people.",
+      "definationTranslation": "गद्य के रूप में साहित्य, विशेष रूप से छोटी कहानियाँ और उपन्यास, जो काल्पनिक घटनाओं और लोगों का वर्णन करते हैं।",
+      "sentence": [
+        {
+          "sentence": "I enjoy reading science fiction to explore futuristic ideas.",
+          "translation": "मुझे भविष्य के विचारों का पता लगाने के लिए विज्ञान कथा पढ़ना पसंद है।"
+        },
+        {
+          "sentence": "The characters in this book are works of fiction.",
+          "translation": "इस पुस्तक के पात्र कल्पना की उपज हैं।"
+        }
+      ]
+    },
+    {
+      "word": "non-fiction",
+      "phoneticRespelling": "non-FIK-shuhn",
+      "translation": "यथार्थवादी साहित्य",
+      "definition": "Prose writing that is based on facts, real events, and real people.",
+      "definationTranslation": "गद्य लेखन जो तथ्यों, वास्तविक घटनाओं और वास्तविक लोगों पर आधारित है।",
+      "sentence": [
+        {
+          "sentence": "Biographies are a popular form of non-fiction.",
+          "translation": "जीवनियाँ यथार्थवादी साहित्य का एक लोकप्रिय रूप हैं।"
+        },
+        {
+          "sentence": "I learned a lot about history from reading non-fiction books.",
+          "translation": "मैंने यथार्थवादी किताबें पढ़कर इतिहास के बारे में बहुत कुछ सीखा।"
+        }
+      ]
+    },
+    {
+      "word": "symbolism",
+      "phoneticRespelling": "SIM-buh-liz-uhm",
+      "translation": "प्रतीकवाद",
+      "definition": "The use of symbols to represent ideas or qualities.",
+      "definationTranslation": "विचारों या गुणों का प्रतिनिधित्व करने के लिए प्रतीकों का उपयोग।",
+      "sentence": [
+        {
+          "sentence": "The white dove is used as symbolism for peace in the story.",
+          "translation": "कहानी में सफेद कबूतर का उपयोग शांति के प्रतीक के रूप में किया गया है।"
+        },
+        {
+          "sentence": "The author uses dark weather as symbolism for the character's sadness.",
+          "translation": "लेखक पात्र की उदासी के प्रतीक के रूप में खराब मौसम का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "anthology",
+      "phoneticRespelling": "an-THOL-uh-jee",
+      "translation": "संग्रह / संकलन",
+      "definition": "A published collection of poems or other pieces of writing.",
+      "definationTranslation": "कविताओं या लेखन के अन्य अंशों का एक प्रकाशित संग्रह।",
+      "sentence": [
+        {
+          "sentence": "This anthology contains the best short stories of the decade.",
+          "translation": "इस संकलन में दशक की सर्वश्रेष्ठ लघु कहानियाँ शामिल हैं।"
+        },
+        {
+          "sentence": "The library has a vast anthology of romantic poetry.",
+          "translation": "पुस्तकालय में रोमांटिक कविता का एक विशाल संग्रह है।"
+        }
+      ]
+    },
+    {
+      "word": "protagonist",
+      "phoneticRespelling": "proh-TAG-uh-nist",
+      "translation": "नायक / मुख्य पात्र",
+      "definition": "The main character in a story, novel, or play.",
+      "definationTranslation": "किसी कहानी, उपन्यास या नाटक का मुख्य पात्र।",
+      "sentence": [
+        {
+          "sentence": "The protagonist struggles to overcome many obstacles.",
+          "translation": "मुख्य पात्र कई बाधाओं को पार करने के लिए संघर्ष करता है।"
+        },
+        {
+          "sentence": "Harry Potter is the protagonist of the famous book series.",
+          "translation": "हैरी पॉटर प्रसिद्ध पुस्तक श्रृंखला के नायक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "biography",
+      "phoneticRespelling": "bahy-OG-ruh-fee",
+      "translation": "जीवनी",
+      "definition": "An account of someone's life written by someone else.",
+      "definationTranslation": "किसी और के द्वारा लिखा गया किसी के जीवन का विवरण।",
+      "sentence": [
+        {
+          "sentence": "I am reading a biography of Steve Jobs.",
+          "translation": "मैं स्टीव जॉब्स की जीवनी पढ़ रहा हूँ।"
+        },
+        {
+          "sentence": "The biography provides deep insight into the leader's childhood.",
+          "translation": "जीवनी नेता के बचपन के बारे में गहरी जानकारी प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "literary",
+      "phoneticRespelling": "LIT-uh-rer-ee",
+      "translation": "साहित्यिक",
+      "definition": "Concerning the writing, study, or content of literature, especially of high intellectual value.",
+      "definationTranslation": "साहित्य के लेखन, अध्ययन या सामग्री से संबंधित, विशेष रूप से उच्च बौद्धिक मूल्य का।",
+      "sentence": [
+        {
+          "sentence": "The city holds a famous literary festival every winter.",
+          "translation": "शहर हर सर्दियों में एक प्रसिद्ध साहित्यिक उत्सव आयोजित करता है।"
+        },
+        {
+          "sentence": "She won an award for her literary achievements.",
+          "translation": "उन्होंने अपनी साहित्यिक उपलब्धियों के लिए एक पुरस्कार जीता।"
+        }
+      ]
+    },
+    {
+      "word": "dialogue",
+      "phoneticRespelling": "DAHY-uh-lawg",
+      "translation": "संवाद",
+      "definition": "Conversation between two or more people as a feature of a book, play, or movie.",
+      "definationTranslation": "पुस्तक, नाटक या फिल्म की विशेषता के रूप में दो या दो से अधिक लोगों के बीच बातचीत।",
+      "sentence": [
+        {
+          "sentence": "The dialogue in the play was very natural and witty.",
+          "translation": "नाटक में संवाद बहुत स्वाभाविक और मजाकिया था।"
+        },
+        {
+          "sentence": "Good dialogue helps to reveal a character's personality.",
+          "translation": "अच्छा संवाद किसी पात्र के व्यक्तित्व को उजागर करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "imagery",
+      "phoneticRespelling": "IM-ij-ree",
+      "translation": "चित्रात्मक भाषा",
+      "definition": "Visually descriptive or figurative language, especially in a literary work.",
+      "definationTranslation": "दृश्य रूप से वर्णनात्मक या आलंकारिक भाषा, विशेष रूप से एक साहित्यिक कृति में।",
+      "sentence": [
+        {
+          "sentence": "The author's use of imagery made me feel like I was actually in the forest.",
+          "translation": "लेखक के चित्रात्मक भाषा के उपयोग ने मुझे ऐसा महसूस कराया जैसे मैं वास्तव में जंगल में था।"
+        },
+        {
+          "sentence": "Poetry often relies on vivid imagery to evoke emotions.",
+          "translation": "कविता अक्सर भावनाओं को जगाने के लिए ज्वलंत चित्रण पर निर्भर करती है।"
+        }
+      ]
+    },
+    {
+      "word": "manuscript",
+      "phoneticRespelling": "MAN-yuh-skript",
+      "translation": "हस्तलिपि / पांडुलिपि",
+      "definition": "A book, document, or piece of music written by hand rather than typed or printed.",
+      "definationTranslation": "हाथ से लिखी गई किताब, दस्तावेज़ या संगीत का टुकड़ा, न कि टाइप या प्रिंट किया हुआ।",
+      "sentence": [
+        {
+          "sentence": "The author sent her manuscript to several publishers.",
+          "translation": "लेखिका ने अपनी पांडुलिपि कई प्रकाशकों को भेजी।"
+        },
+        {
+          "sentence": "The ancient manuscript was kept in a glass case at the museum.",
+          "translation": "प्राचीन पांडुलिपि को संग्रहालय में कांच के बक्से में रखा गया था।"
+        }
+      ]
+    },
+    {
+      "word": "prose",
+      "phoneticRespelling": "PROHZ",
+      "translation": "गद्य",
+      "definition": "Written or spoken language in its ordinary form, without metrical structure.",
+      "definationTranslation": "अपने साधारण रूप में लिखित या बोली जाने वाली भाषा, बिना किसी पद्य संरचना के।",
+      "sentence": [
+        {
+          "sentence": "Most novels are written in prose.",
+          "translation": "अधिकांश उपन्यास गद्य में लिखे जाते हैं।"
+        },
+        {
+          "sentence": "His prose style is clear and easy to understand.",
+          "translation": "उनकी गद्य शैली स्पष्ट और समझने में आसान है।"
+        }
+      ]
+    },
+    {
+      "word": "alliteration",
+      "phoneticRespelling": "uh-lit-uh-REY-shuhn",
+      "translation": "अनुप्रास",
+      "definition": "The occurrence of the same letter or sound at the beginning of adjacent or closely connected words.",
+      "definationTranslation": "समीपवर्ती या बारीकी से जुड़े शब्दों की शुरुआत में एक ही अक्षर या ध्वनि का आना।",
+      "sentence": [
+        {
+          "sentence": "'Peter Piper picked a peck of pickled peppers' is a famous example of alliteration.",
+          "translation": "'पीटर पाइपर पिक्ड अ पेक ऑफ पिक्ल्ड पेपर्स' अनुप्रास का एक प्रसिद्ध उदाहरण है।"
+        },
+        {
+          "sentence": "Alliteration adds a musical quality to the poem.",
+          "translation": "अनुप्रास कविता में एक संगीतमय गुण जोड़ता है।"
+        }
+      ]
+    },
+    {
+      "word": "theme",
+      "phoneticRespelling": "THEEM",
+      "translation": "विषय-वस्तु / थीम",
+      "definition": "The main subject or central idea of a piece of writing.",
+      "definationTranslation": "लेखन के एक टुकड़े का मुख्य विषय या केंद्रीय विचार।",
+      "sentence": [
+        {
+          "sentence": "The central theme of the story is the power of friendship.",
+          "translation": "कहानी की मुख्य विषय-वस्तु मित्रता की शक्ति है।"
+        },
+        {
+          "sentence": "Love and betrayal are common themes in literature.",
+          "translation": "साहित्य में प्रेम और विश्वासघात सामान्य विषय हैं।"
+        }
+      ]
+    },
+    {
+      "word": "irony",
+      "phoneticRespelling": "AHY-ruh-nee",
+      "translation": "विडंबना / व्यंग्य",
+      "definition": "The expression of one's meaning by using language that normally signifies the opposite, typically for humorous or emphatic effect.",
+      "definationTranslation": "ऐसी भाषा का उपयोग करके अपने अर्थ की अभिव्यक्ति जो आम तौर पर विपरीत का संकेत देती है, आमतौर पर विनोदी या जोरदार प्रभाव के लिए।",
+      "sentence": [
+        {
+          "sentence": "It was a tragic irony that the fire station burned down.",
+          "translation": "यह एक दुखद विडंबना थी कि फायर स्टेशन ही जल गया।"
+        },
+        {
+          "sentence": "The author uses irony to criticize social injustice.",
+          "translation": "लेखक सामाजिक अन्याय की आलोचना करने के लिए व्यंग्य का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "haiku",
+      "phoneticRespelling": "HAHY-koo",
+      "translation": "हाइकु (जापानी कविता)",
+      "definition": "A Japanese poem of seventeen syllables, in three lines of five, seven, and five.",
+      "definationTranslation": "सत्रह अक्षरों की एक जापानी कविता, जिसमें पाँच, सात और पाँच की तीन पंक्तियाँ होती हैं।",
+      "sentence": [
+        {
+          "sentence": "We practiced writing a haiku in our English class today.",
+          "translation": "आज हमने अपनी अंग्रेजी कक्षा में हाइकु लिखने का अभ्यास किया।"
+        },
+        {
+          "sentence": "A haiku often focuses on a single moment in nature.",
+          "translation": "हाइकु अक्सर प्रकृति के एक ही क्षण पर ध्यान केंद्रित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "interpretation",
+      "phoneticRespelling": "in-tur-pri-TEY-shuhn",
+      "translation": "व्याख्या",
+      "definition": "The action of explaining the meaning of something.",
+      "definationTranslation": "किसी चीज़ के अर्थ को समझाने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "Each reader may have a different interpretation of the poem's ending.",
+          "translation": "प्रत्येक पाठक की कविता के अंत की अलग व्याख्या हो सकती है।"
+        },
+        {
+          "sentence": "The critic's interpretation shed new light on the classic novel.",
+          "translation": "समीक्षक की व्याख्या ने क्लासिक उपन्यास पर नया प्रकाश डाला।"
+        }
+      ]
+    }
+  ]
 }

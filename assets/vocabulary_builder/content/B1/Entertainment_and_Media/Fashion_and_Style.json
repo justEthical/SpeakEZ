@@ -1,4 +1,345 @@
 {
   "topic": "Fashion and Style",
-  "words": []
+  "words": [
+    {
+      "word": "aesthetic",
+      "phoneticRespelling": "es-THET-ik",
+      "translation": "सौंदर्यबोध / शैली",
+      "definition": "A particular style or appearance that someone chooses to follow.",
+      "definationTranslation": "एक विशेष शैली या रूप जिसे कोई व्यक्ति अपनाना चुनता है।",
+      "sentence": [
+        {
+          "sentence": "She has a very minimalist aesthetic when it comes to her wardrobe.",
+          "translation": "जब उसकी अलमारी की बात आती है तो उसका सौंदर्यबोध बहुत न्यूनतम होता है।"
+        },
+        {
+          "sentence": "The store's aesthetic is inspired by 90s street fashion.",
+          "translation": "स्टोर की शैली 90 के दशक के स्ट्रीट फैशन से प्रेरित है।"
+        }
+      ]
+    },
+    {
+      "word": "sustainable",
+      "phoneticRespelling": "suh-STEY-nuh-buhl",
+      "translation": "टिकाऊ / पर्यावरण के अनुकूल",
+      "definition": "Fashion produced in a way that is kind to the environment and workers.",
+      "definationTranslation": "ऐसा फैशन जो पर्यावरण और श्रमिकों के प्रति दयालु तरीके से तैयार किया गया हो।",
+      "sentence": [
+        {
+          "sentence": "Many young people prefer buying sustainable brands to protect the planet.",
+          "translation": "ग्रह की रक्षा के लिए कई युवा टिकाऊ ब्रांड खरीदना पसंद करते हैं।"
+        },
+        {
+          "sentence": "Sustainable fashion often involves using organic or recycled materials.",
+          "translation": "टिकाऊ फैशन में अक्सर जैविक या पुनर्नवीनीकरण सामग्री का उपयोग शामिल होता है।"
+        }
+      ]
+    },
+    {
+      "word": "versatile",
+      "phoneticRespelling": "VUR-suh-tl",
+      "translation": "बहुमुखी",
+      "definition": "Clothing that can be used in many different ways or for different occasions.",
+      "definationTranslation": "ऐसे कपड़े जिनका उपयोग कई अलग-अलग तरीकों से या अलग-अलग अवसरों के लिए किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "A black blazer is a versatile piece that goes with almost anything.",
+          "translation": "एक ब्लैक ब्लेज़र एक बहुमुखी चीज़ है जो लगभग किसी भी चीज़ के साथ जाती है।"
+        },
+        {
+          "sentence": "I look for versatile items when I pack for a long trip.",
+          "translation": "जब मैं लंबी यात्रा के लिए पैक करता हूँ तो मैं बहुमुखी वस्तुओं की तलाश करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "vintage",
+      "phoneticRespelling": "VIN-tij",
+      "translation": "विंटेज / पुराना और उत्कृष्ट",
+      "definition": "Clothing from a previous era, usually at least 20 years old.",
+      "definationTranslation": "पिछले युग के कपड़े, आमतौर पर कम से कम 20 साल पुराने।",
+      "sentence": [
+        {
+          "sentence": "She found a beautiful vintage dress at the thrift store.",
+          "translation": "उसे थ्रिफ्ट स्टोर में एक सुंदर विंटेज ड्रेस मिली।"
+        },
+        {
+          "sentence": "Vintage styles often come back into fashion after a few decades.",
+          "translation": "विंटेज शैलियाँ अक्सर कुछ दशकों के बाद फिर से फैशन में आ जाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "tailored",
+      "phoneticRespelling": "TEY-lerd",
+      "translation": "सिला हुआ / फिटिंग वाला",
+      "definition": "Clothing made or adjusted to fit a person's body shape perfectly.",
+      "definationTranslation": "किसी व्यक्ति के शरीर के आकार में पूरी तरह फिट होने के लिए बनाए गए या समायोजित किए गए कपड़े।",
+      "sentence": [
+        {
+          "sentence": "He looked very professional in his tailored suit.",
+          "translation": "वह अपने फिटिंग वाले सूट में बहुत पेशेवर लग रहे थे।"
+        },
+        {
+          "sentence": "Tailored clothes usually look more expensive than off-the-rack items.",
+          "translation": "सिले हुए कपड़े आमतौर पर रेडीमेड वस्तुओं की तुलना में अधिक महंगे दिखते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "accessory",
+      "phoneticRespelling": "ak-SES-uh-ree",
+      "translation": "सहायक सामग्री / एक्सेसरी",
+      "definition": "An item used to contribute, in a secondary manner, to an individual's outfit.",
+      "definationTranslation": "किसी व्यक्ति के पहनावे में गौण रूप से योगदान देने के लिए उपयोग की जाने वाली वस्तु।",
+      "sentence": [
+        {
+          "sentence": "A colorful scarf is the perfect accessory for a plain dress.",
+          "translation": "एक साधारण पोशाक के लिए रंगीन स्कार्फ एक आदर्श एक्सेसरी है।"
+        },
+        {
+          "sentence": "Belts and hats are common accessories that can change a look.",
+          "translation": "बेल्ट और टोपी सामान्य एक्सेसरीज़ हैं जो लुक को बदल सकती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "glamorous",
+      "phoneticRespelling": "GLAM-er-uhs",
+      "translation": "आकर्षक / ग्लैमरस",
+      "definition": "Attractive in an exciting and special way.",
+      "definationTranslation": "रोमांचक और विशेष तरीके से आकर्षक।",
+      "sentence": [
+        {
+          "sentence": "The movie stars looked glamorous on the red carpet.",
+          "translation": "रेड कार्पेट पर फिल्मी सितारे ग्लैमरस लग रहे थे।"
+        },
+        {
+          "sentence": "She wore a glamorous gold gown to the award ceremony.",
+          "translation": "उन्होंने पुरस्कार समारोह में एक आकर्षक सुनहरी गाउन पहनी थी।"
+        }
+      ]
+    },
+    {
+      "word": "sophisticated",
+      "phoneticRespelling": "suh-FIS-ti-key-tid",
+      "translation": "परिष्कृत / सुसंस्कृत",
+      "definition": "Having a high degree of complexity and elegance.",
+      "definationTranslation": "उच्च स्तर की जटिलता और भव्यता होना।",
+      "sentence": [
+        {
+          "sentence": "Her style is very sophisticated and modern.",
+          "translation": "उनकी शैली बहुत परिष्कृत और आधुनिक है।"
+        },
+        {
+          "sentence": "Dark colors often give a more sophisticated look.",
+          "translation": "गहरे रंग अक्सर अधिक परिष्कृत लुक देते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "trendsetter",
+      "phoneticRespelling": "TREND-set-er",
+      "translation": "नई शैली शुरू करने वाला",
+      "definition": "A person who leads the way in fashion or ideas.",
+      "definationTranslation": "एक व्यक्ति जो फैशन या विचारों में नेतृत्व करता है।",
+      "sentence": [
+        {
+          "sentence": "She is a trendsetter who is always the first to wear new styles.",
+          "translation": "वह एक ट्रेंडसेटर है जो हमेशा नई शैलियों को पहनने वाली पहली व्यक्ति होती है।"
+        },
+        {
+          "sentence": "Social media influencers are often seen as trendsetters.",
+          "translation": "सोशल मीडिया इन्फ्लुएंसर्स को अक्सर ट्रेंडसेटर के रूप में देखा जाता।"
+        }
+      ]
+    },
+    {
+      "word": "monochrome",
+      "phoneticRespelling": "MON-uh-krohm",
+      "translation": "एक रंग का / मोनोक्रोम",
+      "definition": "Using only one color or different shades of the same color.",
+      "definationTranslation": "केवल एक रंग या एक ही रंग के विभिन्न शेड्स का उपयोग करना।",
+      "sentence": [
+        {
+          "sentence": "He wore a monochrome outfit consisting entirely of grey.",
+          "translation": "उसने पूरी तरह से भूरे रंग का मोनोक्रोम पहनावा पहना था।"
+        },
+        {
+          "sentence": "Monochrome looks are simple yet very stylish.",
+          "translation": "मोनोक्रोम लुक सरल लेकिन बहुत स्टाइलिश होते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "texture",
+      "phoneticRespelling": "TEKS-cher",
+      "translation": "बनावट",
+      "definition": "The feel, appearance, or consistency of a fabric.",
+      "definationTranslation": "कपड़े का अहसास, रूप या स्थिरता।",
+      "sentence": [
+        {
+          "sentence": "I love the soft texture of silk against my skin.",
+          "translation": "मुझे अपनी त्वचा पर रेशम की मुलायम बनावट पसंद है।"
+        },
+        {
+          "sentence": "Mixing different textures can make an outfit more interesting.",
+          "translation": "अलग-अलग बनावटों को मिलाने से पहनावा और दिलचस्प हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "thrifting",
+      "phoneticRespelling": "THRIF-ting",
+      "translation": "सेकंड-हैंड खरीदारी",
+      "definition": "The act of shopping at second-hand stores to find unique or cheap items.",
+      "definationTranslation": "अद्वितीय या सस्ती वस्तुओं को खोजने के लिए सेकंड-हैंड स्टोर पर खरीदारी करने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "Thrifting is a great way to find one-of-a-kind fashion pieces.",
+          "translation": "अद्वितीय फैशन पीस खोजने के लिए थ्रिफ्टिंग एक शानदार तरीका है।"
+        },
+        {
+          "sentence": "She spent her Saturday thrifting for vintage jackets.",
+          "translation": "उसने अपना शनिवार विंटेज जैकेट की खरीदारी (थ्रिफ्टिंग) में बिताया।"
+        }
+      ]
+    },
+    {
+      "word": "outfit",
+      "phoneticRespelling": "OUT-fit",
+      "translation": "पहनावा / आउटफिट",
+      "definition": "A set of clothes worn together, especially for a particular occasion.",
+      "definationTranslation": "एक साथ पहने जाने वाले कपड़ों का एक सेट, विशेष रूप से किसी विशेष अवसर के लिए।",
+      "sentence": [
+        {
+          "sentence": "That’s a great outfit for a job interview.",
+          "translation": "नौकरी के इंटरव्यू के लिए यह एक बेहतरीन पहनावा है।"
+        },
+        {
+          "sentence": "I need to choose an outfit for the party tonight.",
+          "translation": "मुझे आज रात की पार्टी के लिए एक आउटफिट चुनना है।"
+        }
+      ]
+    },
+    {
+      "word": "silhouette",
+      "phoneticRespelling": "sil-oo-ET",
+      "translation": "रूपरेखा / बाहरी आकृति",
+      "definition": "The dark shape and outline of someone or something visible against a lighter background.",
+      "definationTranslation": "हल्के बैकग्राउंड के मुकाबले किसी व्यक्ति या चीज़ की काली आकृति और रूपरेखा।",
+      "sentence": [
+        {
+          "sentence": "The dress has a very classic A-line silhouette.",
+          "translation": "इस ड्रेस की रूपरेखा बहुत ही क्लासिक ए-लाइन है।"
+        },
+        {
+          "sentence": "Fashion designers often focus on the silhouette of their garments.",
+          "translation": "फैशन डिजाइनर अक्सर अपने कपड़ों की रूपरेखा (सिलुएट) पर ध्यान केंद्रित करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "chic",
+      "phoneticRespelling": "SHEEK",
+      "translation": "सजीला / ठाठदार",
+      "definition": "Elegantly and stylishly fashionable.",
+      "definationTranslation": "शानदार और स्टाइलिश रूप से फैशनेबल।",
+      "sentence": [
+        {
+          "sentence": "Her apartment is as chic as her wardrobe.",
+          "translation": "उसका अपार्टमेंट उसकी अलमारी की तरह ही ठाठदार है।"
+        },
+        {
+          "sentence": "French style is often described as effortless and chic.",
+          "translation": "फ्रांसीसी शैली को अक्सर सहज और सजीला बताया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "silhouette",
+      "phoneticRespelling": "sil-oo-ET",
+      "translation": "रूपरेखा / बाहरी आकृति",
+      "definition": "The dark shape and outline of someone or something visible against a lighter background.",
+      "definationTranslation": "हल्के बैकग्राउंड के मुकाबले किसी व्यक्ति या चीज़ की काली आकृति और रूपरेखा।",
+      "sentence": [
+        {
+          "sentence": "The dress has a very classic A-line silhouette.",
+          "translation": "इस ड्रेस की रूपरेखा बहुत ही क्लासिक ए-लाइन है।"
+        },
+        {
+          "sentence": "Fashion designers often focus on the silhouette of their garments.",
+          "translation": "फैशन डिजाइनर अक्सर अपने कपड़ों की रूपरेखा (सिलुएट) पर ध्यान केंद्रित करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "complement",
+      "phoneticRespelling": "KOM-pluh-ment",
+      "translation": "पूरक होना",
+      "definition": "A thing that completes or brings to perfection a style or outfit.",
+      "definationTranslation": "वह चीज़ जो किसी शैली या पहनावे को पूर्ण या परिपूर्ण बनाती है।",
+      "sentence": [
+        {
+          "sentence": "The gold watch complements his suit perfectly.",
+          "translation": "सोने की घड़ी उसके सूट की पूरी तरह से पूरक है।"
+        },
+        {
+          "sentence": "Those shoes really complement the color of your bag.",
+          "translation": "वे जूते वास्तव में आपके बैग के रंग के पूरक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "statement piece",
+      "phoneticRespelling": "STEYT-muhnt pees",
+      "translation": "आकर्षक वस्तु",
+      "definition": "A bold or unique item of clothing or jewelry that stands out.",
+      "definationTranslation": "कपड़े या गहनों की एक साहसिक या अनूठी वस्तु जो सबसे अलग दिखती है।",
+      "sentence": [
+        {
+          "sentence": "Her large necklace served as a statement piece for her simple look.",
+          "translation": "उनका बड़ा हार उनके साधारण लुक के लिए एक आकर्षक वस्तु (स्टेटमेंट पीस) बन गया।"
+        },
+        {
+          "sentence": "Every wardrobe needs at least one statement piece.",
+          "translation": "हर अलमारी में कम से कम एक आकर्षक वस्तु होनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "fabrics",
+      "phoneticRespelling": "FAB-riks",
+      "translation": "कपड़े / वस्त्र",
+      "definition": "Material produced by weaving or knitting fibers.",
+      "definationTranslation": "तंतुओं को बुनकर या गूंथकर बनाई गई सामग्री।",
+      "sentence": [
+        {
+          "sentence": "Natural fabrics like cotton and linen are great for summer.",
+          "translation": "सूती और लिनन जैसे प्राकृतिक कपड़े गर्मियों के लिए बेहतरीन होते हैं।"
+        },
+        {
+          "sentence": "High-quality fabrics make a garment last longer.",
+          "translation": "उच्च गुणवत्ता वाले कपड़े परिधान को लंबे समय तक टिकाऊ बनाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "tailor-made",
+      "phoneticRespelling": "TEY-ler-MEYD",
+      "translation": "खास तौर पर सिला हुआ",
+      "definition": "Specially made for a particular person.",
+      "definationTranslation": "विशेष रूप से किसी विशेष व्यक्ति के लिए बनाया गया।",
+      "sentence": [
+        {
+          "sentence": "He prefers tailor-made shirts over standard sizes.",
+          "translation": "वह मानक साइज़ के बजाय खास तौर पर सिलाए गए शर्ट पसंद करता है।"
+        },
+        {
+          "sentence": "This dress looks like it was tailor-made for you.",
+          "translation": "यह ड्रेस ऐसी लग रही है जैसे इसे खास तौर पर आपके लिए ही सिला गया हो।"
+        }
+      ]
+    }
+  ]
 }

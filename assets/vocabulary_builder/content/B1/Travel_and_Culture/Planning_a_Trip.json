@@ -1,4 +1,345 @@
 {
   "topic": "Planning a Trip",
-  "words": []
+  "words": [
+    {
+      "word": "budget",
+      "phoneticRespelling": "BUHJ-it",
+      "translation": "बजट / खर्च की सीमा",
+      "definition": "A plan to show how much money a person or organization will earn and how they will spend it.",
+      "definationTranslation": "यह दिखाने की योजना कि कोई व्यक्ति या संगठन कितना पैसा कमाएगा और उसे कैसे खर्च करेगा।",
+      "sentence": [
+        {
+          "sentence": "We need to set a strict budget for our summer vacation.",
+          "translation": "हमें अपनी गर्मियों की छुट्टियों के लिए एक सख्त बजट निर्धारित करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "Traveling by bus is a good way to save your budget.",
+          "translation": "बस से यात्रा करना आपके बजट को बचाने का एक अच्छा तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "reservation",
+      "phoneticRespelling": "rez-er-VEY-shuhn",
+      "translation": "आरक्षण",
+      "definition": "An arrangement to have something kept for you, such as a seat on a plane or a table in a restaurant.",
+      "definationTranslation": "अपने लिए कुछ सुरक्षित रखने की व्यवस्था, जैसे विमान में सीट या रेस्तरां में टेबल।",
+      "sentence": [
+        {
+          "sentence": "I made a hotel reservation for two nights.",
+          "translation": "मैंने दो रातों के लिए होटल का आरक्षण कराया है।"
+        },
+        {
+          "sentence": "Do you have a reservation under the name Sharma?",
+          "translation": "क्या आपके पास शर्मा नाम से कोई आरक्षण है?"
+        }
+      ]
+    },
+    {
+      "word": "itinerary",
+      "phoneticRespelling": "ahy-TIN-uh-rer-ee",
+      "translation": "यात्रा कार्यक्रम",
+      "definition": "A detailed plan or route of a journey.",
+      "definationTranslation": "किसी यात्रा की विस्तृत योजना या मार्ग।",
+      "sentence": [
+        {
+          "sentence": "The travel agent sent us a copy of our itinerary.",
+          "translation": "ट्रैवल एजेंट ने हमें हमारे यात्रा कार्यक्रम की एक प्रति भेजी।"
+        },
+        {
+          "sentence": "We added a visit to the museum to our itinerary.",
+          "translation": "हमने अपने यात्रा कार्यक्रम में संग्रहालय का दौरा भी जोड़ दिया।"
+        }
+      ]
+    },
+    {
+      "word": "destination",
+      "phoneticRespelling": "des-tuh-NEY-shuhn",
+      "translation": "गंतव्य / मंजिल",
+      "definition": "The place where someone is going or where something is being sent.",
+      "definationTranslation": "वह स्थान जहाँ कोई जा रहा है या जहाँ कुछ भेजा जा रहा है।",
+      "sentence": [
+        {
+          "sentence": "Paris is a popular tourist destination.",
+          "translation": "पेरिस एक लोकप्रिय पर्यटक गंतव्य है।"
+        },
+        {
+          "sentence": "It took us twelve hours to reach our final destination.",
+          "translation": "हमें अपने अंतिम गंतव्य तक पहुँचने में बारह घंटे लगे।"
+        }
+      ]
+    },
+    {
+      "word": "accommodation",
+      "phoneticRespelling": "uh-kom-uh-DEY-shuhn",
+      "translation": "आवास / ठहरने की जगह",
+      "definition": "A place where you live or stay, especially when you are traveling.",
+      "definationTranslation": "वह स्थान जहाँ आप रहते हैं या ठहरते हैं, विशेष रूप से जब आप यात्रा कर रहे हों।",
+      "sentence": [
+        {
+          "sentence": "The price of the tour includes all accommodation and meals.",
+          "translation": "टूर की कीमत में सभी आवास और भोजन शामिल हैं।"
+        },
+        {
+          "sentence": "We are looking for cheap accommodation near the city center.",
+          "translation": "हम सिटी सेंटर के पास सस्ते आवास की तलाश कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "insurance",
+      "phoneticRespelling": "in-SHUR-uhns",
+      "translation": "बीमा",
+      "definition": "An agreement in which you pay a company money and they pay your costs if you have an accident or injury.",
+      "definationTranslation": "एक समझौता जिसमें आप किसी कंपनी को पैसे देते हैं और दुर्घटना या चोट लगने पर वे आपके खर्चों का भुगतान करते हैं।",
+      "sentence": [
+        {
+          "sentence": "It is wise to buy travel insurance before going abroad.",
+          "translation": "विदेश जाने से पहले यात्रा बीमा खरीदना समझदारी है।"
+        },
+        {
+          "sentence": "Does your insurance cover lost luggage?",
+          "translation": "क्या आपका बीमा खोए हुए सामान को कवर करता है?"
+        }
+      ]
+    },
+    {
+      "word": "off-peak",
+      "phoneticRespelling": "awf-PEEK",
+      "translation": "कम भीड़ वाला समय",
+      "definition": "At a time when fewer people are using a service, such as traveling or using electricity.",
+      "definationTranslation": "ऐसे समय में जब कम लोग किसी सेवा का उपयोग कर रहे हों, जैसे यात्रा करना या बिजली का उपयोग करना।",
+      "sentence": [
+        {
+          "sentence": "Flights are much cheaper if you travel during off-peak seasons.",
+          "translation": "यदि आप कम भीड़ वाले मौसम में यात्रा करते हैं तो उड़ानें बहुत सस्ती होती हैं।"
+        },
+        {
+          "sentence": "I prefer to visit the park during off-peak hours.",
+          "translation": "मैं कम भीड़ वाले घंटों के दौरान पार्क जाना पसंद करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "sightseeing",
+      "phoneticRespelling": "SAHYT-see-ing",
+      "translation": "दर्शनीय स्थलों की सैर",
+      "definition": "The activity of visiting interesting places, especially by people on holiday.",
+      "definationTranslation": "दिलचस्प स्थानों पर जाने की गतिविधि, विशेष रूप से छुट्टियों पर गए लोगों द्वारा।",
+      "sentence": [
+        {
+          "sentence": "We spent the whole day sightseeing in Rome.",
+          "translation": "हमने पूरा दिन रोम में दर्शनीय स्थलों की सैर में बिताया।"
+        },
+        {
+          "sentence": "The bus tour is a great way to do some sightseeing.",
+          "translation": "बस टूर दर्शनीय स्थलों की सैर करने का एक शानदार तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "package tour",
+      "phoneticRespelling": "PAK-ij toor",
+      "translation": "पैकेज टूर",
+      "definition": "A holiday organized by a travel company at a fixed price that includes travel, hotel, and sometimes meals.",
+      "definationTranslation": "एक ट्रैवल कंपनी द्वारा एक निश्चित कीमत पर आयोजित छुट्टी जिसमें यात्रा, होटल और कभी-कभी भोजन शामिल होता है।",
+      "sentence": [
+        {
+          "sentence": "They booked a package tour to Egypt.",
+          "translation": "उन्होंने मिस्र के लिए एक पैकेज टूर बुक किया।"
+        },
+        {
+          "sentence": "A package tour is often more convenient for first-time travelers.",
+          "translation": "पहली बार यात्रा करने वालों के लिए पैकेज टूर अक्सर अधिक सुविधाजनक होता है।"
+        }
+      ]
+    },
+    {
+      "word": "vibrant",
+      "phoneticRespelling": "VAHY-bruhnt",
+      "translation": "जीवंत / जोश से भरा",
+      "definition": "Full of energy and life.",
+      "definationTranslation": "ऊर्जा और जीवन से भरपूर।",
+      "sentence": [
+        {
+          "sentence": "Mumbai is a vibrant city that never sleeps.",
+          "translation": "मुंबई एक जीवंत शहर है जो कभी नहीं सोता।"
+        },
+        {
+          "sentence": "The market was vibrant and full of colorful stalls.",
+          "translation": "बाजार जीवंत था और रंगीन स्टालों से भरा था।"
+        }
+      ]
+    },
+    {
+      "word": "scenic",
+      "phoneticRespelling": "SEE-nik",
+      "translation": "सुंदर दृश्यों वाला",
+      "definition": "Having beautiful natural scenery.",
+      "definationTranslation": "सुंदर प्राकृतिक दृश्यों वाला।",
+      "sentence": [
+        {
+          "sentence": "We took the scenic route through the mountains.",
+          "translation": "हमने पहाड़ों के बीच से सुंदर दृश्यों वाला रास्ता चुना।"
+        },
+        {
+          "sentence": "The hotel offers a scenic view of the lake.",
+          "translation": "होटल झील का एक सुंदर दृश्य प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "flexible",
+      "phoneticRespelling": "FLEK-suh-buhl",
+      "translation": "लचीला",
+      "definition": "Able to change easily according to the situation.",
+      "definationTranslation": "स्थिति के अनुसार आसानी से बदलने में सक्षम।",
+      "sentence": [
+        {
+          "sentence": "Our travel plans are flexible, so we can stay longer if we want.",
+          "translation": "हमारी यात्रा योजनाएं लचीली हैं, इसलिए यदि हम चाहें तो अधिक समय तक रुक सकते हैं।"
+        },
+        {
+          "sentence": "Being flexible with your dates can save you money on flights.",
+          "translation": "अपनी तारीखों के मामले में लचीला होना आपको उड़ानों पर पैसे बचा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "essential",
+      "phoneticRespelling": "uh-SEN-shuhl",
+      "translation": "आवश्यक / ज़रूरी",
+      "definition": "Completely necessary or extremely important.",
+      "definationTranslation": "पूरी तरह से आवश्यक या अत्यंत महत्वपूर्ण।",
+      "sentence": [
+        {
+          "sentence": "Comfortable shoes are essential for a walking tour.",
+          "translation": "वॉकिंग टूर के लिए आरामदायक जूते आवश्यक हैं।"
+        },
+        {
+          "sentence": "It is essential to check the weather forecast before you leave.",
+          "translation": "निकलने से पहले मौसम का पूर्वानुमान देखना ज़रूरी है।"
+        }
+      ]
+    },
+    {
+      "word": "recommendation",
+      "phoneticRespelling": "rek-uh-men-DEY-shuhn",
+      "translation": "सिफारिश / सलाह",
+      "definition": "A suggestion that something is good or suitable for a particular purpose.",
+      "definationTranslation": "एक सुझाव कि कुछ किसी विशेष उद्देश्य के लिए अच्छा या उपयुक्त है।",
+      "sentence": [
+        {
+          "sentence": "Do you have any restaurant recommendations in this area?",
+          "translation": "क्या आपके पास इस क्षेत्र में किसी रेस्तरां की सिफारिश है?"
+        },
+        {
+          "sentence": "I chose this hotel based on my friend's recommendation.",
+          "translation": "मैंने अपने दोस्त की सिफारिश के आधार पर इस होटल को चुना।"
+        }
+      ]
+    },
+    {
+      "word": "explore",
+      "phoneticRespelling": "ik-SPLAWR",
+      "translation": "खोजना / छानबीन करना",
+      "definition": "To travel through an unfamiliar area in order to learn about it.",
+      "definationTranslation": "किसी अपरिचित क्षेत्र के बारे में जानने के लिए उसमें यात्रा करना।",
+      "sentence": [
+        {
+          "sentence": "We spent the morning exploring the old town.",
+          "translation": "हमने सुबह पुराने शहर को एक्सप्लोर करने में बिताई।"
+        },
+        {
+          "sentence": "I want to explore the local culture and traditions.",
+          "translation": "मैं स्थानीय संस्कृति और परंपराओं को जानना चाहता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "forecast",
+      "phoneticRespelling": "FAWR-kast",
+      "translation": "पूर्वानुमान",
+      "definition": "A statement of what is likely to happen in the future, especially regarding weather.",
+      "definationTranslation": "भविष्य में क्या होने की संभावना है, इसका विवरण, विशेष रूप से मौसम के संबंध में।",
+      "sentence": [
+        {
+          "sentence": "The weather forecast says it will rain tomorrow.",
+          "translation": "मौसम के पूर्वानुमान में कहा गया है कि कल बारिश होगी।"
+        },
+        {
+          "sentence": "Always check the forecast before planning outdoor activities.",
+          "translation": "बाहरी गतिविधियों की योजना बनाने से पहले हमेशा पूर्वानुमान की जांच करें।"
+        }
+      ]
+    },
+    {
+      "word": "transportation",
+      "phoneticRespelling": "trans-per-TEY-shuhn",
+      "translation": "परिवहन",
+      "definition": "A system of vehicles, such as buses or trains, for getting from one place to another.",
+      "definationTranslation": "एक स्थान से दूसरे स्थान पर जाने के लिए वाहनों की एक प्रणाली, जैसे बसें या ट्रेनें।",
+      "sentence": [
+        {
+          "sentence": "Public transportation in this city is very efficient.",
+          "translation": "इस शहर में सार्वजनिक परिवहन बहुत कुशल है।"
+        },
+        {
+          "sentence": "We need to arrange transportation from the airport to the hotel.",
+          "translation": "हमें हवाई अड्डे से होटल तक परिवहन की व्यवस्था करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "checklist",
+      "phoneticRespelling": "CHEK-list",
+      "translation": "जांच सूची",
+      "definition": "A list of things that you must do or get ready for something.",
+      "definationTranslation": "उन चीजों की सूची जो आपको किसी चीज़ के लिए करनी चाहिए या तैयार करनी चाहिए।",
+      "sentence": [
+        {
+          "sentence": "I made a checklist to ensure I didn't forget anything.",
+          "translation": "मैंने यह सुनिश्चित करने के लिए एक चेकलिस्ट बनाई कि मैं कुछ भूल न जाऊँ।"
+        },
+        {
+          "sentence": "Check your packing checklist one last time.",
+          "translation": "अपनी पैकिंग चेकलिस्ट की एक आखिरी बार जांच कर लें।"
+        }
+      ]
+    },
+    {
+      "word": "logistics",
+      "phoneticRespelling": "loh-JIS-tiks",
+      "translation": "लॉजिस्टिक / योजना और प्रबंधन",
+      "definition": "The careful organization of a complicated activity so that it happens successfully.",
+      "definationTranslation": "एक जटिल गतिविधि का सावधानीपूर्वक संगठन ताकि वह सफलतापूर्वक घटित हो।",
+      "sentence": [
+        {
+          "sentence": "The logistics of planning a trip for twenty people are difficult.",
+          "translation": "बीस लोगों की यात्रा की योजना बनाने का प्रबंधन कठिन है।"
+        },
+        {
+          "sentence": "We need to figure out the logistics of getting to the remote island.",
+          "translation": "हमें दूरस्थ द्वीप तक पहुँचने के प्रबंधन को समझने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "memorable",
+      "phoneticRespelling": "MEM-er-uh-buhl",
+      "translation": "यादगार",
+      "definition": "Likely to be remembered because it is special or very good.",
+      "definationTranslation": "याद रखे जाने योग्य क्योंकि यह विशेष या बहुत अच्छा है।",
+      "sentence": [
+        {
+          "sentence": "Our dinner by the beach was a memorable experience.",
+          "translation": "समुद्र तट के किनारे हमारा डिनर एक यादगार अनुभव था।"
+        },
+        {
+          "sentence": "She gave a very memorable performance.",
+          "translation": "उसने बहुत ही यादगार प्रस्तुति दी।"
+        }
+      ]
+    }
+  ]
 }

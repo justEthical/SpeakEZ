@@ -1,4 +1,345 @@
 {
   "topic": "Transportation Issues",
-  "words": []
+  "words": [
+    {
+      "word": "delay",
+      "phoneticRespelling": "dih-LEY",
+      "translation": "देरी / विलंब",
+      "definition": "A period of time when you have to wait because of a problem that makes something slow or late.",
+      "definationTranslation": "समय की वह अवधि जब आपको किसी समस्या के कारण प्रतीक्षा करनी पड़ती है जो किसी चीज़ को धीमा या देर से करती है।",
+      "sentence": [
+        {
+          "sentence": "There is a two-hour delay on all flights to New York due to the storm.",
+          "translation": "तूफान के कारण न्यूयॉर्क की सभी उड़ानों में दो घंटे की देरी है।"
+        },
+        {
+          "sentence": "I apologize for the delay in responding to your email.",
+          "translation": "आपके ईमेल का जवाब देने में हुई देरी के लिए मैं क्षमा चाहता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "cancellation",
+      "phoneticRespelling": "kan-suh-LEY-shuhn",
+      "translation": "रद्दीकरण",
+      "definition": "The act of deciding that an organized event or journey will not happen.",
+      "definationTranslation": "यह निर्णय लेने की क्रिया कि कोई आयोजित कार्यक्रम या यात्रा नहीं होगी।",
+      "sentence": [
+        {
+          "sentence": "The train cancellation caused a lot of trouble for the commuters.",
+          "translation": "ट्रेन रद्द होने के कारण यात्रियों को काफी परेशानी हुई।"
+        },
+        {
+          "sentence": "We received a notice about the flight cancellation.",
+          "translation": "हमें उड़ान रद्द होने के बारे में एक नोटिस मिला।"
+        }
+      ]
+    },
+    {
+      "word": "congestion",
+      "phoneticRespelling": "kuhn-JES-chuhn",
+      "translation": "भीड़भाड़ / जाम",
+      "definition": "The state of being extremely full of traffic or people.",
+      "definationTranslation": "यातायात या लोगों से अत्यधिक भरे होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "Heavy traffic congestion delayed our arrival by an hour.",
+          "translation": "भारी ट्रैफिक जाम ने हमारे आगमन में एक घंटे की देरी कर दी।"
+        },
+        {
+          "sentence": "The government is trying to reduce road congestion in the city.",
+          "translation": "सरकार शहर में सड़क की भीड़भाड़ को कम करने की कोशिश कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "breakdown",
+      "phoneticRespelling": "BREYK-doun",
+      "translation": "खराबी",
+      "definition": "A failure of a machine or vehicle to work correctly.",
+      "definationTranslation": "किसी मशीन या वाहन का सही ढंग से काम न करना या खराब होना।",
+      "sentence": [
+        {
+          "sentence": "The bus breakdown left us stranded on the highway.",
+          "translation": "बस की खराबी ने हमें हाईवे पर फंसा दिया।"
+        },
+        {
+          "sentence": "Regular maintenance can help prevent a car breakdown.",
+          "translation": "नियमित रखरखाव कार की खराबी को रोकने में मदद कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "overcrowded",
+      "phoneticRespelling": "oh-ver-KROU-did",
+      "translation": "अत्यधिक भीड़भाड़ वाला",
+      "definition": "Containing too many people or things.",
+      "definationTranslation": "जिसमें बहुत अधिक लोग या चीजें हों।",
+      "sentence": [
+        {
+          "sentence": "The morning local trains are always overcrowded.",
+          "translation": "सुबह की लोकल ट्रेनों में हमेशा अत्यधिक भीड़ रहती है।"
+        },
+        {
+          "sentence": "The prison is overcrowded and lacks basic facilities.",
+          "translation": "जेल में क्षमता से अधिक लोग हैं और बुनियादी सुविधाओं की कमी है।"
+        }
+      ]
+    },
+    {
+      "word": "commute",
+      "phoneticRespelling": "kuh-MYOOT",
+      "translation": "आना-जाना (घर से काम के बीच)",
+      "definition": "To travel some distance between one's home and place of work on a regular basis.",
+      "definationTranslation": "नियमित रूप से अपने घर और कार्यस्थल के बीच कुछ दूरी तय करना।",
+      "sentence": [
+        {
+          "sentence": "His daily commute takes about forty-five minutes by train.",
+          "translation": "ट्रेन से उसके दैनिक आने-जाने में लगभग पैंतालीस मिनट लगते हैं।"
+        },
+        {
+          "sentence": "Many people are now working from home to avoid the commute.",
+          "translation": "आने-जाने से बचने के लिए अब कई लोग घर से काम कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "gridlock",
+      "phoneticRespelling": "GRID-lok",
+      "translation": "पूर्ण यातायात जाम",
+      "definition": "A situation where no progress can be made because of a complete block in traffic.",
+      "definationTranslation": "ऐसी स्थिति जिसमें यातायात पूरी तरह ठप होने के कारण कोई प्रगति नहीं हो पाती।",
+      "sentence": [
+        {
+          "sentence": "The city center was in a total gridlock after the accident.",
+          "translation": "हादसे के बाद सिटी सेंटर में पूरी तरह से चक्का जाम हो गया था।"
+        },
+        {
+          "sentence": "Political gridlock is preventing the new law from being passed.",
+          "translation": "राजनीतिक गतिरोध नए कानून को पारित होने से रोक रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "punctual",
+      "phoneticRespelling": "PUHNGK-choo-uhl",
+      "translation": "समय का पाबंद",
+      "definition": "Arriving or doing something at the expected or correct time.",
+      "definationTranslation": "अपेक्षित या सही समय पर पहुँचना या कुछ करना।",
+      "sentence": [
+        {
+          "sentence": "The Japanese train system is famous for being punctual.",
+          "translation": "जापानी ट्रेन प्रणाली समय की पाबंद होने के लिए प्रसिद्ध है।"
+        },
+        {
+          "sentence": "Please try to be punctual for the meeting.",
+          "translation": "कृपया मीटिंग के लिए समय के पाबंद होने की कोशिश करें।"
+        }
+      ]
+    },
+    {
+      "word": "diversion",
+      "phoneticRespelling": "dih-VUR-zhuhn",
+      "translation": "मार्ग परिवर्तन",
+      "definition": "A different route that is used because a road is closed.",
+      "definationTranslation": "एक अलग रास्ता जिसका उपयोग सड़क बंद होने के कारण किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Follow the signs for the road diversion.",
+          "translation": "सड़क मार्ग परिवर्तन के संकेतों का पालन करें।"
+        },
+        {
+          "sentence": "The construction work caused a major diversion for traffic.",
+          "translation": "निर्माण कार्य के कारण यातायात में बड़ा मार्ग परिवर्तन हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "refund",
+      "phoneticRespelling": "REE-fuhnd",
+      "translation": "धनवापसी / रिफंड",
+      "definition": "An amount of money that is given back to you, especially because you are not happy with something.",
+      "definationTranslation": "पैसे की वह राशि जो आपको वापस दी जाती है, खासकर इसलिए क्योंकि आप किसी चीज़ से खुश नहीं हैं।",
+      "sentence": [
+        {
+          "sentence": "I requested a refund after the flight was canceled.",
+          "translation": "उड़ान रद्द होने के बाद मैंने रिफंड का अनुरोध किया।"
+        },
+        {
+          "sentence": "You are entitled to a full refund if the item is faulty.",
+          "translation": "यदि वस्तु दोषपूर्ण है तो आप पूर्ण रिफंड के हकदार हैं।"
+        }
+      ]
+    },
+    {
+      "word": "missed connection",
+      "phoneticRespelling": "mist kuh-NEK-shuhn",
+      "translation": "अगली फ्लाइट या ट्रेन छूटना",
+      "definition": "Failing to catch a second flight or train because the first one was late.",
+      "definationTranslation": "पहली फ्लाइट या ट्रेन लेट होने के कारण दूसरी फ्लाइट या ट्रेन न पकड़ पाना।",
+      "sentence": [
+        {
+          "sentence": "Due to the delay in Mumbai, I had a missed connection in Dubai.",
+          "translation": "मुंबई में देरी के कारण, दुबई में मेरी अगली फ्लाइट छूट गई।"
+        },
+        {
+          "sentence": "The airline provided a hotel stay because of the missed connection.",
+          "translation": "अगली फ्लाइट छूटने के कारण एयरलाइन ने होटल में ठहरने की व्यवस्था की।"
+        }
+      ]
+    },
+    {
+      "word": "complaint",
+      "phoneticRespelling": "kuhm-PLEYNT",
+      "translation": "शिकायत",
+      "definition": "A statement that something is unsatisfactory or unacceptable.",
+      "definationTranslation": "यह कथन कि कुछ असंतोषजनक या अस्वीकार्य है।",
+      "sentence": [
+        {
+          "sentence": "I want to file a formal complaint about the poor service.",
+          "translation": "मैं खराब सेवा के बारे में औपचारिक शिकायत दर्ज करना चाहता हूँ।"
+        },
+        {
+          "sentence": "The manager handled our complaint very professionally.",
+          "translation": "मैनेजर ने हमारी शिकायत को बहुत पेशेवर तरीके से संभाला।"
+        }
+      ]
+    },
+    {
+      "word": "detour",
+      "phoneticRespelling": "DEE-toor",
+      "translation": "घुमावदार रास्ता / चक्कर",
+      "definition": "A long or roundabout route that is taken to avoid something or to visit somewhere.",
+      "definationTranslation": "एक लंबा या घुमावदार रास्ता जो किसी चीज़ से बचने या कहीं जाने के लिए लिया जाता है।",
+      "sentence": [
+        {
+          "sentence": "We had to take a detour because the bridge was under repair.",
+          "translation": "हमें चक्कर लगाकर जाना पड़ा क्योंकि पुल की मरम्मत हो रही थी।"
+        },
+        {
+          "sentence": "We took a small detour to see the beautiful lake.",
+          "translation": "हमने सुंदर झील देखने के लिए एक छोटा सा चक्कर लगाया।"
+        }
+      ]
+    },
+    {
+      "word": "stranded",
+      "phoneticRespelling": "STRAN-did",
+      "translation": "फंसा हुआ",
+      "definition": "Unable to leave a place because of a problem such as a lack of transport.",
+      "definationTranslation": "परिवहन की कमी जैसी समस्या के कारण किसी स्थान को छोड़ने में असमर्थ।",
+      "sentence": [
+        {
+          "sentence": "Hundreds of passengers were stranded at the airport due to the snow.",
+          "translation": "बर्फबारी के कारण सैकड़ों यात्री हवाई अड्डे पर फंसे रहे।"
+        },
+        {
+          "sentence": "He was left stranded in a foreign city without any money.",
+          "translation": "वह बिना किसी पैसे के एक विदेशी शहर में फंसा रह गया।"
+        }
+      ]
+    },
+    {
+      "word": "compensation",
+      "phoneticRespelling": "kom-puhn-SEY-shuhn",
+      "translation": "मुआवजा / हर्जाना",
+      "definition": "Money that is paid to someone because they have suffered a loss or injury.",
+      "definationTranslation": "पैसे जो किसी को इसलिए दिए जाते हैं क्योंकि उन्हें नुकसान या चोट लगी है।",
+      "sentence": [
+        {
+          "sentence": "The airline offered $200 in compensation for the long delay.",
+          "translation": "एयरलाइन ने लंबी देरी के लिए मुआवजे के रूप में $200 की पेशकश की।"
+        },
+        {
+          "sentence": "He received compensation after the accident.",
+          "translation": "हादसे के बाद उसे मुआवजा मिला।"
+        }
+      ]
+    },
+    {
+      "word": "maintenance",
+      "phoneticRespelling": "MEYN-tuh-nuhns",
+      "translation": "रखरखाव",
+      "definition": "The work that is done to keep something in good condition.",
+      "definationTranslation": "किसी चीज़ को अच्छी स्थिति में रखने के लिए किया जाने वाला कार्य।",
+      "sentence": [
+        {
+          "sentence": "The train line is closed for essential maintenance this weekend.",
+          "translation": "इस सप्ताह के अंत में आवश्यक रखरखाव के लिए ट्रेन लाइन बंद है।"
+        },
+        {
+          "sentence": "Car maintenance is expensive but necessary.",
+          "translation": "कार का रखरखाव महंगा है लेकिन ज़रूरी है।"
+        }
+      ]
+    },
+    {
+      "word": "alternative",
+      "phoneticRespelling": "awl-TUR-nuh-tiv",
+      "translation": "विकल्प",
+      "definition": "Something that you can choose to do or use instead of something else.",
+      "definationTranslation": "कुछ ऐसा जिसे आप किसी अन्य चीज़ के स्थान पर करने या उपयोग करने के लिए चुन सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "Is there an alternative route to the airport?",
+          "translation": "क्या हवाई अड्डे के लिए कोई वैकल्पिक रास्ता है?"
+        },
+        {
+          "sentence": "We had to find an alternative way to travel because of the strike.",
+          "translation": "हड़ताल के कारण हमें यात्रा करने का वैकल्पिक तरीका खोजना पड़ा।"
+        }
+      ]
+    },
+    {
+      "word": "commuter",
+      "phoneticRespelling": "kuh-MYOO-ter",
+      "translation": "दैनिक यात्री",
+      "definition": "A person who travels a long distance to work every day.",
+      "definationTranslation": "वह व्यक्ति जो हर दिन काम के लिए लंबी दूरी तय करता है।",
+      "sentence": [
+        {
+          "sentence": "The trains were packed with exhausted commuters.",
+          "translation": "ट्रेनें थके हुए दैनिक यात्रियों से भरी हुई थीं।"
+        },
+        {
+          "sentence": "Commuters are complaining about the rising ticket prices.",
+          "translation": "दैनिक यात्री टिकटों की बढ़ती कीमतों के बारे में शिकायत कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "valid",
+      "phoneticRespelling": "VAL-id",
+      "translation": "वैध / मान्य",
+      "definition": "Legally or officially acceptable.",
+      "definationTranslation": "कानूनी या आधिकारिक रूप से स्वीकार्य।",
+      "sentence": [
+        {
+          "sentence": "Your ticket is only valid for the morning train.",
+          "translation": "आपका टिकट केवल सुबह की ट्रेन के लिए मान्य है।"
+        },
+        {
+          "sentence": "Do you have a valid passport?",
+          "translation": "क्या आपके पास वैध पासपोर्ट है?"
+        }
+      ]
+    },
+    {
+      "word": "announcement",
+      "phoneticRespelling": "uh-NOUNS-muhnt",
+      "translation": "घोषणा",
+      "definition": "A formal public statement about a fact, occurrence, or intention.",
+      "definationTranslation": "किसी तथ्य, घटना या इरादे के बारे में औपचारिक सार्वजनिक विवरण।",
+      "sentence": [
+        {
+          "sentence": "Listen to the announcement for the platform change.",
+          "translation": "प्लेटफॉर्म परिवर्तन की घोषणा ध्यान से सुनें।"
+        },
+        {
+          "sentence": "They made an announcement about the delay.",
+          "translation": "उन्होंने देरी के बारे में एक घोषणा की।"
+        }
+      ]
+    }
+  ]
 }

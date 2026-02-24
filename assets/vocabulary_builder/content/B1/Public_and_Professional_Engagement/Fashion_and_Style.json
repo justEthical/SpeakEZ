@@ -1,4 +1,345 @@
 {
   "topic": "Fashion and Style",
-  "words": []
+  "words": [
+    {
+      "word": "outfit",
+      "phoneticRespelling": "OUT-fit",
+      "translation": "पोशाक",
+      "definition": "A set of clothes worn together for a particular occasion.",
+      "definationTranslation": "किसी विशेष अवसर के लिए एक साथ पहने जाने वाले कपड़ों का सेट।",
+      "sentence": [
+        {
+          "sentence": "She wore a stylish outfit to the job interview.",
+          "translation": "उसने नौकरी के इंटरव्यू के लिए एक स्टाइलिश पोशाक पहनी थी।"
+        },
+        {
+          "sentence": "I need to choose an outfit for the wedding tomorrow.",
+          "translation": "मुझे कल की शादी के लिए एक पोशाक चुनने की ज़रूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "trendy",
+      "phoneticRespelling": "TREN-dee",
+      "translation": "फैशनेबल/चलन में",
+      "definition": "Very fashionable or up to date with current styles.",
+      "definationTranslation": "बहुत फैशनेबल या वर्तमान शैलियों के साथ अद्यतित।",
+      "sentence": [
+        {
+          "sentence": "She always wears trendy clothes from local boutiques.",
+          "translation": "वह हमेशा स्थानीय बुटीक से चलन में रहने वाले कपड़े पहनती है।"
+        },
+        {
+          "sentence": "That hairstyle is very trendy right now.",
+          "translation": "वह हेयरस्टाइल अभी बहुत चलन में है।"
+        }
+      ]
+    },
+    {
+      "word": "accessory",
+      "phoneticRespelling": "ak-SES-uh-ree",
+      "translation": "सहायक वस्तु/एक्सेसरी",
+      "definition": "Something added to clothing to make it more attractive, such as jewelry or a belt.",
+      "definationTranslation": "कपड़ों को अधिक आकर्षक बनाने के लिए जोड़ी गई चीज़, जैसे गहने या बेल्ट।",
+      "sentence": [
+        {
+          "sentence": "A simple necklace is a perfect accessory for this dress.",
+          "translation": "एक साधारण हार इस ड्रेस के लिए एक आदर्श एक्सेसरी है।"
+        },
+        {
+          "sentence": "He likes to wear stylish accessories like watches and hats.",
+          "translation": "वह घड़ी और टोपी जैसी स्टाइलिश एक्सेसरीज़ पहनना पसंद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "casual",
+      "phoneticRespelling": "KAZH-oo-uhl",
+      "translation": "अनौपचारिक/कैजुअल",
+      "definition": "Relaxed and unceremonious clothes suitable for everyday wear.",
+      "definationTranslation": "रोज़मर्रा के पहनने के लिए उपयुक्त आरामदायक और अनौपचारिक कपड़े।",
+      "sentence": [
+        {
+          "sentence": "The office has a casual dress code on Fridays.",
+          "translation": "शुक्रवार को ऑफिस में कैजुअल ड्रेस कोड होता है।"
+        },
+        {
+          "sentence": "I prefer wearing casual clothes like jeans and t-shirts.",
+          "translation": "मैं जींस और टी-शर्ट जैसे कैजुअल कपड़े पहनना पसंद करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "formal",
+      "phoneticRespelling": "FAWR-muhl",
+      "translation": "औपचारिक",
+      "definition": "Clothes worn for important or official social events.",
+      "definationTranslation": "महत्वपूर्ण या आधिकारिक सामाजिक कार्यक्रमों के लिए पहने जाने वाले कपड़े।",
+      "sentence": [
+        {
+          "sentence": "Men are expected to wear formal suits to the ceremony.",
+          "translation": "समारोह में पुरुषों से औपचारिक सूट पहनने की अपेक्षा की जाती है।"
+        },
+        {
+          "sentence": "She looked beautiful in her formal evening gown.",
+          "translation": "वह अपने औपचारिक इवनिंग गाउन में सुंदर लग रही थी।"
+        }
+      ]
+    },
+    {
+      "word": "elegant",
+      "phoneticRespelling": "EL-i-guhnt",
+      "translation": "शानदार/सुरुचिपूर्ण",
+      "definition": "Graceful and stylish in appearance or manner.",
+      "definationTranslation": "दिखने या व्यवहार में सुंदर और स्टाइलिश।",
+      "sentence": [
+        {
+          "sentence": "She chose an elegant dress for the dinner party.",
+          "translation": "उसने डिनर पार्टी के लिए एक शानदार ड्रेस चुनी।"
+        },
+        {
+          "sentence": "The hotel lobby was decorated in an elegant style.",
+          "translation": "होटल की लॉबी को एक शानदार शैली में सजाया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "wardrobe",
+      "phoneticRespelling": "WAWR-drohb",
+      "translation": "अलमारी/कपड़ों का संग्रह",
+      "definition": "The total collection of clothes that a person owns.",
+      "definationTranslation": "किसी व्यक्ति के पास मौजूद कपड़ों का कुल संग्रह।",
+      "sentence": [
+        {
+          "sentence": "I need to update my summer wardrobe with new shirts.",
+          "translation": "मुझे अपनी गर्मियों की अलमारी को नई शर्ट के साथ अपडेट करने की ज़रूरत है।"
+        },
+        {
+          "sentence": "She has a huge wardrobe full of designer shoes.",
+          "translation": "उसके पास डिज़ाइनर जूतों से भरी एक विशाल अलमारी है।"
+        }
+      ]
+    },
+    {
+      "word": "fabric",
+      "phoneticRespelling": "FAB-rik",
+      "translation": "कपड़ा/फ़ैब्रिक",
+      "definition": "Material produced by weaving or knitting fibers.",
+      "definationTranslation": "फाइबर को बुनकर तैयार की गई सामग्री।",
+      "sentence": [
+        {
+          "sentence": "Cotton is a very breathable fabric for hot weather.",
+          "translation": "गर्म मौसम के लिए सूती एक बहुत ही हवादार कपड़ा है।"
+        },
+        {
+          "sentence": "The dress is made of high-quality silk fabric.",
+          "translation": "यह ड्रेस उच्च गुणवत्ता वाले रेशमी कपड़े से बनी है।"
+        }
+      ]
+    },
+    {
+      "word": "vintage",
+      "phoneticRespelling": "VIN-tij",
+      "translation": "पुराने ज़माने का",
+      "definition": "Clothes from a previous era that are still stylish today.",
+      "definationTranslation": "पिछली पीढ़ी के कपड़े जो आज भी स्टाइलिश हैं।",
+      "sentence": [
+        {
+          "sentence": "She loves shopping for vintage jackets at thrift stores.",
+          "translation": "उसे थ्रिफ्ट स्टोर्स से पुराने ज़माने की जैकेट खरीदना पसंद है।"
+        },
+        {
+          "sentence": "Vintage fashion is becoming popular again among young people.",
+          "translation": "युवाओं के बीच विंटेज फैशन फिर से लोकप्रिय हो रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "tailored",
+      "phoneticRespelling": "TAY-lerd",
+      "translation": "माप के अनुसार सिला हुआ",
+      "definition": "Clothes made or adjusted to fit a person perfectly.",
+      "definationTranslation": "किसी व्यक्ति को पूरी तरह फिट होने के लिए बनाए या समायोजित किए गए कपड़े।",
+      "sentence": [
+        {
+          "sentence": "A tailored suit looks much better than a ready-made one.",
+          "translation": "माप के अनुसार सिला हुआ सूट तैयार सूट की तुलना में बहुत बेहतर दिखता है।"
+        },
+        {
+          "sentence": "He prefers tailored trousers for a sharp look.",
+          "translation": "वह शार्प लुक के लिए माप के अनुसार सिली हुई पतलून पसंद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "sustainable",
+      "phoneticRespelling": "suh-STAY-nuh-buhl",
+      "translation": "टिकाऊ/पर्यावरण अनुकूल",
+      "definition": "Fashion that is produced in an eco-friendly and ethical way.",
+      "definationTranslation": "फैशन जो पर्यावरण के अनुकूल और नैतिक तरीके से तैयार किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Many brands are now switching to sustainable materials.",
+          "translation": "कई ब्रांड अब टिकाऊ सामग्री की ओर रुख कर रहे हैं।"
+        },
+        {
+          "sentence": "Buying sustainable fashion helps protect the environment.",
+          "translation": "टिकाऊ फैशन खरीदना पर्यावरण की रक्षा में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "texture",
+      "phoneticRespelling": "TEKS-cher",
+      "translation": "बनावट",
+      "definition": "The feel, appearance, or consistency of a surface or a fabric.",
+      "definationTranslation": "किसी सतह या कपड़े का स्पर्श, रूप या सघनता।",
+      "sentence": [
+        {
+          "sentence": "I love the soft texture of this wool sweater.",
+          "translation": "मुझे इस ऊनी स्वेटर की नरम बनावट बहुत पसंद है।"
+        },
+        {
+          "sentence": "The fabric has a rough texture but looks very stylish.",
+          "translation": "कपड़े की बनावट खुरदरी है लेकिन यह बहुत स्टाइलिश दिखता है।"
+        }
+      ]
+    },
+    {
+      "word": "brand",
+      "phoneticRespelling": "BRAND",
+      "translation": "ब्रांड",
+      "definition": "A type of product manufactured by a particular company under a particular name.",
+      "definationTranslation": "किसी विशेष कंपनी द्वारा किसी विशेष नाम के तहत निर्मित उत्पाद का एक प्रकार।",
+      "sentence": [
+        {
+          "sentence": "What is your favorite clothing brand?",
+          "translation": "आपका पसंदीदा कपड़ों का ब्रांड कौन सा है?"
+        },
+        {
+          "sentence": "She only buys luxury brands for her handbags.",
+          "translation": "वह अपने हैंडबैग के लिए केवल लग्जरी ब्रांड ही खरीदती है।"
+        }
+      ]
+    },
+    {
+      "word": "sophisticated",
+      "phoneticRespelling": "suh-FIS-ti-key-tid",
+      "translation": "परिपक्व/सुलझा हुआ",
+      "definition": "Having a lot of experience and knowledge of fashion and culture.",
+      "definationTranslation": "फैशन और संस्कृति का बहुत अनुभव और ज्ञान होना।",
+      "sentence": [
+        {
+          "sentence": "Her style is very sophisticated and modern.",
+          "translation": "उसकी शैली बहुत परिपक्व और आधुनिक है।"
+        },
+        {
+          "sentence": "A black dress is a sophisticated choice for any gala.",
+          "translation": "किसी भी पर्व के लिए काली ड्रेस एक परिपक्व पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "classic",
+      "phoneticRespelling": "KLAS-ik",
+      "translation": "सदाबहार/क्लासिक",
+      "definition": "A style that is simple, elegant, and never goes out of fashion.",
+      "definationTranslation": "एक ऐसी शैली जो सरल, शानदार है और कभी फैशन से बाहर नहीं होती।",
+      "sentence": [
+        {
+          "sentence": "A white shirt and blue jeans is a classic look.",
+          "translation": "सफेद शर्ट और नीली जींस एक सदाबहार लुक है।"
+        },
+        {
+          "sentence": "Classic fashion items are worth investing in.",
+          "translation": "क्लासिक फैशन आइटम में निवेश करना सार्थक है।"
+        }
+      ]
+    },
+    {
+      "word": "mannequin",
+      "phoneticRespelling": "MAN-i-kin",
+      "translation": "पुतला",
+      "definition": "A dummy used to display clothes in a shop window.",
+      "definationTranslation": "दुकान की खिड़की में कपड़े प्रदर्शित करने के लिए इस्तेमाल किया जाने वाला पुतला।",
+      "sentence": [
+        {
+          "sentence": "The mannequin was wearing the latest summer collection.",
+          "translation": "पुतले ने नवीनतम समर कलेक्शन पहना हुआ था।"
+        },
+        {
+          "sentence": "Stores use mannequins to show how clothes fit on a person.",
+          "translation": "स्टोर पुतलों का उपयोग यह दिखाने के लिए करते हैं कि कपड़े किसी व्यक्ति पर कैसे फिट बैठते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "pattern",
+      "phoneticRespelling": "PAT-ern",
+      "translation": "डिज़ाइन/पैटर्न",
+      "definition": "A repeated decorative design on fabric.",
+      "definationTranslation": "कपड़े पर बार-बार दोहराया जाने वाला सजावटी डिज़ाइन।",
+      "sentence": [
+        {
+          "sentence": "I like the floral pattern on your dress.",
+          "translation": "मुझे आपकी ड्रेस पर फूलों वाला पैटर्न पसंद है।"
+        },
+        {
+          "sentence": "He wore a shirt with a striped pattern.",
+          "translation": "उसने धारीदार पैटर्न वाली शर्ट पहनी थी।"
+        }
+      ]
+    },
+    {
+      "word": "fitting",
+      "phoneticRespelling": "FIT-ing",
+      "translation": "नाप/फिटिंग",
+      "definition": "The act of trying on clothes to see if they fit correctly.",
+      "definationTranslation": "कपड़े पहनकर देखने की क्रिया कि वे सही बैठते हैं या नहीं।",
+      "sentence": [
+        {
+          "sentence": "I have a fitting for my wedding dress this afternoon.",
+          "translation": "आज दोपहर मेरी शादी की ड्रेस की फिटिंग है।"
+        },
+        {
+          "sentence": "The fitting rooms are located at the back of the store.",
+          "translation": "फिटिंग रूम स्टोर के पिछले हिस्से में स्थित हैं।"
+        }
+      ]
+    },
+    {
+      "word": "collection",
+      "phoneticRespelling": "kuh-LEK-shuhn",
+      "translation": "संग्रह/कलेक्शन",
+      "definition": "A range of new seasonal clothes released by a designer.",
+      "definationTranslation": "एक डिज़ाइनर द्वारा जारी किए गए नए मौसमी कपड़ों की एक श्रृंखला।",
+      "sentence": [
+        {
+          "sentence": "The designer showcased her winter collection in Paris.",
+          "translation": "डिज़ाइनर ने पेरिस में अपना विंटर कलेक्शन प्रदर्शित किया।"
+        },
+        {
+          "sentence": "I love the colors in this year’s spring collection.",
+          "translation": "मुझे इस साल के स्प्रिंग कलेक्शन के रंग बहुत पसंद हैं।"
+        }
+      ]
+    },
+    {
+      "word": "stylish",
+      "phoneticRespelling": "STAHY-lish",
+      "translation": "सजीला/स्टाइलिश",
+      "definition": "Having a good sense of style and looking attractive.",
+      "definationTranslation": "स्टाइल की अच्छी समझ होना और आकर्षक दिखना।",
+      "sentence": [
+        {
+          "sentence": "He is one of the most stylish people I know.",
+          "translation": "वह मेरे जानने वाले सबसे स्टाइलिश लोगों में से एक है।"
+        },
+        {
+          "sentence": "You look very stylish in those sunglasses.",
+          "translation": "आप उन धूप के चश्मों में बहुत स्टाइलिश लग रहे हैं।"
+        }
+      ]
+    }
+  ]
 }

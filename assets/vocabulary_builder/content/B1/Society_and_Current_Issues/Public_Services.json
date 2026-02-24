@@ -1,4 +1,345 @@
 {
   "topic": "Public Services",
-  "words": []
+  "words": [
+    {
+      "word": "infrastructure",
+      "phoneticRespelling": "IN-fruh-struk-cher",
+      "translation": "बुनियादी ढांचा",
+      "definition": "The basic physical and organizational structures (e.g., buildings, roads, power supplies) needed for the operation of a society.",
+      "definationTranslation": "समाज के संचालन के लिए आवश्यक बुनियादी भौतिक और संगठनात्मक संरचनाएं (जैसे, भवन, सड़कें, बिजली की आपूर्ति)।",
+      "sentence": [
+        {
+          "sentence": "The government is investing in new infrastructure to improve transport.",
+          "translation": "सरकार परिवहन में सुधार के लिए नए बुनियादी ढांचे में निवेश कर रही है।"
+        },
+        {
+          "sentence": "Good infrastructure is essential for the economic growth of a city.",
+          "translation": "शहर के आर्थिक विकास के लिए अच्छा बुनियादी ढांचा आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "sanitation",
+      "phoneticRespelling": "san-i-TEY-shun",
+      "translation": "स्वच्छता",
+      "definition": "Conditions relating to public health, especially the provision of clean drinking water and adequate sewage disposal.",
+      "definationTranslation": "सार्वजनिक स्वास्थ्य से संबंधित स्थितियां, विशेष रूप से स्वच्छ पेयजल और पर्याप्त सीवरेज निपटान का प्रावधान।",
+      "sentence": [
+        {
+          "sentence": "Improving sanitation in rural areas can prevent many diseases.",
+          "translation": "ग्रामीण क्षेत्रों में स्वच्छता में सुधार कई बीमारियों को रोक सकता है।"
+        },
+        {
+          "sentence": "The city's sanitation department collects trash twice a week.",
+          "translation": "शहर का स्वच्छता विभाग सप्ताह में दो बार कचरा इकट्ठा करता है।"
+        }
+      ]
+    },
+    {
+      "word": "welfare",
+      "phoneticRespelling": "WEL-fair",
+      "translation": "कल्याण",
+      "definition": "Statutory procedure or social effort designed to promote the basic physical and material well-being of people in need.",
+      "definationTranslation": "जरूरतमंद लोगों के बुनियादी शारीरिक और भौतिक कल्याण को बढ़ावा देने के लिए डिज़ाइन की गई वैधानिक प्रक्रिया या सामाजिक प्रयास।",
+      "sentence": [
+        {
+          "sentence": "The government provides welfare support to families with low income.",
+          "translation": "सरकार कम आय वाले परिवारों को कल्याणकारी सहायता प्रदान करती है।"
+        },
+        {
+          "sentence": "Child welfare is a top priority for the local administration.",
+          "translation": "स्थानीय प्रशासन के लिए बाल कल्याण एक सर्वोच्च प्राथमिकता है।"
+        }
+      ]
+    },
+    {
+      "word": "healthcare",
+      "phoneticRespelling": "HELTH-kair",
+      "translation": "स्वास्थ्य सेवा",
+      "definition": "The organized provision of medical care to individuals or a community.",
+      "definationTranslation": "व्यक्तियों या समुदाय को चिकित्सा देखभाल का संगठित प्रावधान।",
+      "sentence": [
+        {
+          "sentence": "Access to affordable healthcare is a basic human right.",
+          "translation": "किफायती स्वास्थ्य सेवा तक पहुंच एक बुनियादी मानव अधिकार है।"
+        },
+        {
+          "sentence": "The public healthcare system was tested during the pandemic.",
+          "translation": "महामारी के दौरान सार्वजनिक स्वास्थ्य प्रणाली की परीक्षा हुई थी।"
+        }
+      ]
+    },
+    {
+      "word": "emergency",
+      "phoneticRespelling": "ih-MUR-juhn-see",
+      "translation": "आपातकालीन",
+      "definition": "A serious, unexpected, and often dangerous situation requiring immediate action.",
+      "definationTranslation": "एक गंभीर, अप्रत्याशित और अक्सर खतरनाक स्थिति जिसके लिए तत्काल कार्रवाई की आवश्यकता होती है।",
+      "sentence": [
+        {
+          "sentence": "In case of an emergency, please dial the local help number.",
+          "translation": "आपात स्थिति में, कृपया स्थानीय सहायता नंबर डायल करें।"
+        },
+        {
+          "sentence": "The hospital has a specialized unit for emergency cases.",
+          "translation": "अस्पताल में आपातकालीन मामलों के लिए एक विशेष इकाई है।"
+        }
+      ]
+    },
+    {
+      "word": "utility",
+      "phoneticRespelling": "yoo-TIL-i-tee",
+      "translation": "जनोपयोगी सेवा",
+      "definition": "A public service such as water, gas, or electricity provided to the community.",
+      "definationTranslation": "समुदाय को प्रदान की जाने वाली पानी, गैस या बिजली जैसी सार्वजनिक सेवा।",
+      "sentence": [
+        {
+          "sentence": "Electricity is a critical utility for modern life.",
+          "translation": "बिजली आधुनिक जीवन के लिए एक महत्वपूर्ण जनोपयोगी सेवा है।"
+        },
+        {
+          "sentence": "Many people struggle to pay their monthly utility bills.",
+          "translation": "कई लोग अपने मासिक उपयोगिता बिलों का भुगतान करने के लिए संघर्ष करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "transportation",
+      "phoneticRespelling": "trans-per-TEY-shun",
+      "translation": "परिवहन",
+      "definition": "The action of transporting someone or something or the system of vehicles for doing this.",
+      "definationTranslation": "किसी को या किसी चीज़ को ले जाने की क्रिया या ऐसा करने के लिए वाहनों की प्रणाली।",
+      "sentence": [
+        {
+          "sentence": "Public transportation reduces the number of cars on the road.",
+          "translation": "सार्वजनिक परिवहन सड़क पर कारों की संख्या को कम करता है।"
+        },
+        {
+          "sentence": "The city is expanding its public transportation network.",
+          "translation": "शहर अपने सार्वजनिक परिवहन नेटवर्क का विस्तार कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "subsidy",
+      "phoneticRespelling": "SUB-si-dee",
+      "translation": "सब्सिडी / आर्थिक सहायता",
+      "definition": "A sum of money granted by the government or a public body to assist an industry or business.",
+      "definationTranslation": "किसी उद्योग या व्यवसाय की सहायता के लिए सरकार या सार्वजनिक निकाय द्वारा दी गई धन की राशि।",
+      "sentence": [
+        {
+          "sentence": "Farmers often receive a subsidy for buying seeds and fertilizers.",
+          "translation": "किसानों को अक्सर बीज और उर्वरक खरीदने के लिए सब्सिडी मिलती है।"
+        },
+        {
+          "sentence": "The government announced a subsidy on solar panels.",
+          "translation": "सरकार ने सोलर पैनल पर सब्सिडी की घोषणा की।"
+        }
+      ]
+    },
+    {
+      "word": "allocation",
+      "phoneticRespelling": "al-uh-KEY-shun",
+      "translation": "आवंटन",
+      "definition": "The action or process of distributing something, especially resources or money.",
+      "definationTranslation": "किसी चीज़, विशेष रूप से संसाधनों या धन को वितरित करने की क्रिया या प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The budget allocation for education has increased this year.",
+          "translation": "इस वर्ष शिक्षा के लिए बजट आवंटन में वृद्धि हुई है।"
+        },
+        {
+          "sentence": "Efficient resource allocation is key to successful public services.",
+          "translation": "सफल सार्वजनिक सेवाओं के लिए कुशल संसाधन आवंटन महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "bureaucracy",
+      "phoneticRespelling": "byoo-ROK-ruh-see",
+      "translation": "नौकरशाही",
+      "definition": "A system of government in which most of the important decisions are made by state officials rather than by elected representatives.",
+      "definationTranslation": "सरकार की एक प्रणाली जिसमें अधिकांश महत्वपूर्ण निर्णय निर्वाचित प्रतिनिधियों के बजाय राज्य के अधिकारियों द्वारा लिए जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "Too much bureaucracy can slow down the delivery of public services.",
+          "translation": "बहुत अधिक नौकरशाही सार्वजनिक सेवाओं की डिलीवरी को धीमा कर सकती है।"
+        },
+        {
+          "sentence": "He complained about the bureaucracy involved in getting a passport.",
+          "translation": "उसने पासपोर्ट प्राप्त करने में शामिल नौकरशाही के बारे में शिकायत की।"
+        }
+      ]
+    },
+    {
+      "word": "governance",
+      "phoneticRespelling": "GUV-er-nuhns",
+      "translation": "शासन",
+      "definition": "The action or manner of governing a state, organization, etc.",
+      "definationTranslation": "किसी राज्य, संगठन आदि पर शासन करने की क्रिया या तरीका।",
+      "sentence": [
+        {
+          "sentence": "Good governance ensures that public funds are used effectively.",
+          "translation": "सुशासन यह सुनिश्चित करता है कि सार्वजनिक धन का प्रभावी ढंग से उपयोग किया जाए।"
+        },
+        {
+          "sentence": "Transparency is an essential element of modern governance.",
+          "translation": "आधुनिक शासन का पारदर्शिता एक आवश्यक तत्व है।"
+        }
+      ]
+    },
+    {
+      "word": "administration",
+      "phoneticRespelling": "ad-min-uh-STREY-shun",
+      "translation": "प्रशासन",
+      "definition": "The process or activity of running a business, organization, or government.",
+      "definationTranslation": "किसी व्यवसाय, संगठन या सरकार को चलाने की प्रक्रिया या गतिविधि।",
+      "sentence": [
+        {
+          "sentence": "The local administration is responsible for cleaning the parks.",
+          "translation": "स्थानीय प्रशासन पार्कों की सफाई के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "She works in the hospital administration department.",
+          "translation": "वह अस्पताल प्रशासन विभाग में काम करती है।"
+        }
+      ]
+    },
+    {
+      "word": "municipal",
+      "phoneticRespelling": "myoo-NIS-uh-puhl",
+      "translation": "नगर पालिका संबंधी",
+      "definition": "Relating to a city or town or its governing body.",
+      "definationTranslation": "किसी शहर या कस्बे या उसके शासी निकाय से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "The municipal council voted for the new parking rules.",
+          "translation": "नगर परिषद ने पार्किंग के नए नियमों के लिए मतदान किया।"
+        },
+        {
+          "sentence": "Municipal services include waste collection and street lighting.",
+          "translation": "नगरपालिका सेवाओं में कचरा संग्रह और स्ट्रीट लाइटिंग शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "community",
+      "phoneticRespelling": "kuh-MYOO-ni-tee",
+      "translation": "समुदाय",
+      "definition": "A group of people living in the same place or having a particular characteristic in common.",
+      "definationTranslation": "एक ही स्थान पर रहने वाले या समान विशेषता वाले लोगों का समूह।",
+      "sentence": [
+        {
+          "sentence": "The community center offers free classes for seniors.",
+          "translation": "सामुदायिक केंद्र वरिष्ठ नागरिकों के लिए मुफ्त कक्षाएं प्रदान करता है।"
+        },
+        {
+          "sentence": "Public services should be designed to meet community needs.",
+          "translation": "सार्वजनिक सेवाओं को सामुदायिक आवश्यकताओं को पूरा करने के लिए डिज़ाइन किया जाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "maintenance",
+      "phoneticRespelling": "MEYN-tuh-nuhns",
+      "translation": "रखरखाव",
+      "definition": "The process of preserving a condition or situation or the state of being preserved.",
+      "definationTranslation": "किसी स्थिति या स्थिति को सुरक्षित रखने की प्रक्रिया या सुरक्षित रहने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "Road maintenance is crucial for preventing traffic accidents.",
+          "translation": "सड़क दुर्घटनाओं को रोकने के लिए सड़क का रखरखाव महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "The library is closed today for routine maintenance.",
+          "translation": "नियमित रखरखाव के लिए आज पुस्तकालय बंद है।"
+        }
+      ]
+    },
+    {
+      "word": "policy",
+      "phoneticRespelling": "POL-uh-see",
+      "translation": "नीति",
+      "definition": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
+      "definationTranslation": "सरकार, पार्टी, व्यवसाय या व्यक्ति द्वारा अपनाई या प्रस्तावित कार्रवाई का मार्ग या सिद्धांत।",
+      "sentence": [
+        {
+          "sentence": "The government introduced a new policy for renewable energy.",
+          "translation": "सरकार ने नवीकरणीय ऊर्जा के लिए एक नई नीति पेश की।"
+        },
+        {
+          "sentence": "It is our policy to provide equal services to everyone.",
+          "translation": "सभी को समान सेवाएं प्रदान करना हमारी नीति है।"
+        }
+      ]
+    },
+    {
+      "word": "reform",
+      "phoneticRespelling": "ri-FAWRM",
+      "translation": "सुधार",
+      "definition": "Make changes in something in order to improve it.",
+      "definationTranslation": "किसी चीज में सुधार के लिए उसमें बदलाव करना।",
+      "sentence": [
+        {
+          "sentence": "There is a need for reform in the public education system.",
+          "translation": "सार्वजनिक शिक्षा प्रणाली में सुधार की आवश्यकता है।"
+        },
+        {
+          "sentence": "The tax reform aimed to help low-income families.",
+          "translation": "कर सुधार का उद्देश्य कम आय वाले परिवारों की मदद करना था।"
+        }
+      ]
+    },
+    {
+      "word": "budget",
+      "phoneticRespelling": "BUJ-it",
+      "translation": "बजट",
+      "definition": "An estimate of income and expenditure for a set period of time.",
+      "definationTranslation": "एक निर्धारित समय अवधि के लिए आय और व्यय का अनुमान।",
+      "sentence": [
+        {
+          "sentence": "The city budget must be approved by the mayor.",
+          "translation": "नगर बजट को मेयर द्वारा अनुमोदित किया जाना चाहिए।"
+        },
+        {
+          "sentence": "We need to plan our household budget carefully.",
+          "translation": "हमें अपने घरेलू बजट की सावधानीपूर्वक योजना बनाने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "entitlement",
+      "phoneticRespelling": "en-TAHY-tl-muhnt",
+      "translation": "अधिकार / पात्रता",
+      "definition": "The fact of having a right to something.",
+      "definationTranslation": "किसी चीज़ पर अधिकार होने का तथ्य।",
+      "sentence": [
+        {
+          "sentence": "Every citizen has an entitlement to basic education.",
+          "translation": "प्रत्येक नागरिक को बुनियादी शिक्षा का अधिकार है।"
+        },
+        {
+          "sentence": "Please check your entitlement for the government pension.",
+          "translation": "कृपया सरकारी पेंशन के लिए अपनी पात्रता की जांच करें।"
+        }
+      ]
+    },
+    {
+      "word": "accessibility",
+      "phoneticRespelling": "ak-ses-uh-BIL-i-tee",
+      "translation": "पहुंच",
+      "definition": "The quality of being able to be reached or entered.",
+      "definationTranslation": "पहुंचने या प्रवेश करने में सक्षम होने का गुण।",
+      "sentence": [
+        {
+          "sentence": "The new subway station improved accessibility for the disabled.",
+          "translation": "नए सबवे स्टेशन ने विकलांगों के लिए पहुंच में सुधार किया।"
+        },
+        {
+          "sentence": "Website accessibility is important for reaching all users.",
+          "translation": "सभी उपयोगकर्ताओं तक पहुंचने के लिए वेबसाइट की पहुंच महत्वपूर्ण है।"
+        }
+      ]
+    }
+  ]
 }

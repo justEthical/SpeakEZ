@@ -1,4 +1,345 @@
 {
   "topic": "Immigration and Customs",
-  "words": []
+  "words": [
+    {
+      "word": "declaration",
+      "phoneticRespelling": "dek-luh-REY-shuhn",
+      "translation": "घोषणा",
+      "definition": "A formal statement of goods being brought into a country.",
+      "definationTranslation": "किसी देश में लाए जा रहे सामान का औपचारिक विवरण।",
+      "sentence": [
+        {
+          "sentence": "You must fill out a customs declaration form before landing.",
+          "translation": "उतरने से पहले आपको सीमा शुल्क घोषणा फॉर्म भरना होगा।"
+        },
+        {
+          "sentence": "Do you have anything to add to your declaration?",
+          "translation": "क्या आपके पास अपनी घोषणा में जोड़ने के लिए कुछ है?"
+        }
+      ]
+    },
+    {
+      "word": "prohibited",
+      "phoneticRespelling": "proh-HIB-i-tid",
+      "translation": "वर्जित / निषिद्ध",
+      "definition": "That has been forbidden by law.",
+      "definationTranslation": "जिसे कानून द्वारा वर्जित किया गया हो।",
+      "sentence": [
+        {
+          "sentence": "Fresh fruits and vegetables are prohibited items.",
+          "translation": "ताजे फल और सब्जियां निषिद्ध वस्तुएं हैं।"
+        },
+        {
+          "sentence": "Smoking is strictly prohibited in the airport.",
+          "translation": "हवाई अड्डे पर धूम्रपान सख्त वर्जित है।"
+        }
+      ]
+    },
+    {
+      "word": "visa",
+      "phoneticRespelling": "VEE-zuh",
+      "translation": "वीजा",
+      "definition": "An official mark in a passport that allows you to enter or leave a country.",
+      "definationTranslation": "पासपोर्ट में एक आधिकारिक निशान जो आपको किसी देश में प्रवेश करने या छोड़ने की अनुमति देता है।",
+      "sentence": [
+        {
+          "sentence": "I applied for a tourist visa last week.",
+          "translation": "मैंने पिछले हफ्ते टूरिस्ट वीजा के लिए आवेदन किया था।"
+        },
+        {
+          "sentence": "Your visa is valid for three months.",
+          "translation": "आपका वीजा तीन महीने के लिए वैध है।"
+        }
+      ]
+    },
+    {
+      "word": "citizenship",
+      "phoneticRespelling": "SIT-i-zuhn-ship",
+      "translation": "नागरिकता",
+      "definition": "The status of being a citizen of a particular country.",
+      "definationTranslation": "किसी विशेष देश का नागरिक होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "She holds dual citizenship in India and Canada.",
+          "translation": "उसके पास भारत और कनाडा की दोहरी नागरिकता है।"
+        },
+        {
+          "sentence": "He is applying for American citizenship.",
+          "translation": "वह अमेरिकी नागरिकता के लिए आवेदन कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "inspection",
+      "phoneticRespelling": "in-SPEK-shuhn",
+      "translation": "जांच / निरीक्षण",
+      "definition": "The act of looking at something carefully to check its condition.",
+      "definationTranslation": "किसी चीज़ की स्थिति की जांच करने के लिए उसे ध्यान से देखने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "The customs officer carried out a thorough inspection of the bags.",
+          "translation": "सीमा शुल्क अधिकारी ने बैगों की गहन जांच की।"
+        },
+        {
+          "sentence": "Random inspections are common at the border.",
+          "translation": "सीमा पर रैंडम जांच आम बात है।"
+        }
+      ]
+    },
+    {
+      "word": "restricted",
+      "phoneticRespelling": "ri-STRIK-tid",
+      "translation": "प्रतिबंधित",
+      "definition": "Limited or controlled by rules or laws.",
+      "definationTranslation": "नियमों या कानूनों द्वारा सीमित या नियंत्रित।",
+      "sentence": [
+        {
+          "sentence": "Certain medicines are restricted in this country.",
+          "translation": "इस देश में कुछ दवाएं प्रतिबंधित हैं।"
+        },
+        {
+          "sentence": "Access to the staff area is restricted.",
+          "translation": "स्टाफ क्षेत्र में प्रवेश प्रतिबंधित है।"
+        }
+      ]
+    },
+    {
+      "word": "residence",
+      "phoneticRespelling": "REZ-i-duhns",
+      "translation": "निवास",
+      "definition": "The fact of living in a particular place.",
+      "definationTranslation": "किसी विशेष स्थान पर रहने का तथ्य।",
+      "sentence": [
+        {
+          "sentence": "You need to provide proof of residence.",
+          "translation": "आपको निवास का प्रमाण देना होगा।"
+        },
+        {
+          "sentence": "He was granted permanent residence in Australia.",
+          "translation": "उसे ऑस्ट्रेलिया में स्थायी निवास की अनुमति दी गई थी।"
+        }
+      ]
+    },
+    {
+      "word": "immigration",
+      "phoneticRespelling": "im-i-GREY-shuhn",
+      "translation": "प्रवासन",
+      "definition": "The process of coming to live permanently in a foreign country.",
+      "definationTranslation": "किसी विदेशी देश में स्थायी रूप से रहने के लिए आने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The immigration queue was very long this morning.",
+          "translation": "आज सुबह इमिग्रेशन की लाइन बहुत लंबी थी।"
+        },
+        {
+          "sentence": "He works as an immigration officer at the airport.",
+          "translation": "वह हवाई अड्डे पर एक इमिग्रेशन अधिकारी के रूप में काम करता है।"
+        }
+      ]
+    },
+    {
+      "word": "currency",
+      "phoneticRespelling": "KUR-uhn-see",
+      "translation": "मुद्रा",
+      "definition": "The system of money used in a particular country.",
+      "definationTranslation": "किसी विशेष देश में उपयोग की जाने वाली धन प्रणाली।",
+      "sentence": [
+        {
+          "sentence": "You must declare if you are carrying large amounts of currency.",
+          "translation": "यदि आप बड़ी मात्रा में मुद्रा ले जा रहे हैं तो आपको घोषणा करनी होगी।"
+        },
+        {
+          "sentence": "What is the local currency in Japan?",
+          "translation": "जापान में स्थानीय मुद्रा क्या है?"
+        }
+      ]
+    },
+    {
+      "word": "duty-free",
+      "phoneticRespelling": "doo-tee-FREE",
+      "translation": "शुल्क मुक्त",
+      "definition": "Goods that can be bought without paying taxes.",
+      "definationTranslation": "वे सामान जो बिना कर चुकाए खरीदे जा सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "I bought some perfume at the duty-free shop.",
+          "translation": "मैंने ड्यूटी-फ्री शॉप से कुछ परफ्यूम खरीदा।"
+        },
+        {
+          "sentence": "Is there a limit on duty-free alcohol?",
+          "translation": "क्या ड्यूटी-फ्री शराब पर कोई सीमा है?"
+        }
+      ]
+    },
+    {
+      "word": "passport",
+      "phoneticRespelling": "PAS-pawrt",
+      "translation": "पारपत्र / पासपोर्ट",
+      "definition": "An official document issued by a government, certifying the holder's identity and citizenship.",
+      "definationTranslation": "सरकार द्वारा जारी एक आधिकारिक दस्तावेज, जो धारक की पहचान और नागरिकता प्रमाणित करता है।",
+      "sentence": [
+        {
+          "sentence": "Please have your passport ready for inspection.",
+          "translation": "कृपया निरीक्षण के लिए अपना पासपोर्ट तैयार रखें।"
+        },
+        {
+          "sentence": "My passport expires next year.",
+          "translation": "मेरा पासपोर्ट अगले साल समाप्त हो रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "entry",
+      "phoneticRespelling": "EN-tree",
+      "translation": "प्रवेश",
+      "definition": "The act of coming into a place.",
+      "definationTranslation": "किसी स्थान पर आने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "The officer stamped my passport for entry.",
+          "translation": "अधिकारी ने प्रवेश के लिए मेरे पासपोर्ट पर मुहर लगा दी।"
+        },
+        {
+          "sentence": "Illegal entry into the country can lead to deportation.",
+          "translation": "देश में अवैध प्रवेश से निर्वासन हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "official",
+      "phoneticRespelling": "uh-FISH-uhl",
+      "translation": "आधिकारिक / अधिकारी",
+      "definition": "A person who holds a position of authority in an organization.",
+      "definationTranslation": "वह व्यक्ति जो किसी संगठन में अधिकार के पद पर हो।",
+      "sentence": [
+        {
+          "sentence": "The customs official asked to see my baggage.",
+          "translation": "सीमा शुल्क अधिकारी ने मेरा सामान दिखाने को कहा।"
+        },
+        {
+          "sentence": "We are waiting for an official statement.",
+          "translation": "हम एक आधिकारिक बयान का इंतजार कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "valid",
+      "phoneticRespelling": "VAL-id",
+      "translation": "वैध",
+      "definition": "Legally or officially acceptable.",
+      "definationTranslation": "कानूनी या आधिकारिक रूप से स्वीकार्य।",
+      "sentence": [
+        {
+          "sentence": "Do you have a valid driver's license?",
+          "translation": "क्या आपके पास वैध ड्राइविंग लाइसेंस है?"
+        },
+        {
+          "sentence": "Your ticket is no longer valid.",
+          "translation": "आपका टिकट अब वैध नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "origin",
+      "phoneticRespelling": "AWR-i-jin",
+      "translation": "उत्पत्ति / मूल स्थान",
+      "definition": "The place where someone or something comes from.",
+      "definationTranslation": "वह स्थान जहाँ से कोई व्यक्ति या वस्तु आती है।",
+      "sentence": [
+        {
+          "sentence": "What is the country of origin for these goods?",
+          "translation": "इन सामानों का मूल देश कौन सा है?"
+        },
+        {
+          "sentence": "The documents prove his place of origin.",
+          "translation": "दस्तावेज़ उसके मूल स्थान को सिद्ध करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "biometrics",
+      "phoneticRespelling": "bahy-oh-MET-riks",
+      "translation": "बायोमेट्रिक्स",
+      "definition": "The measurement and analysis of people's unique physical characteristics.",
+      "definationTranslation": "लोगों की अद्वितीय शारीरिक विशेषताओं का माप और विश्लेषण।",
+      "sentence": [
+        {
+          "sentence": "Modern passports often contain biometric data.",
+          "translation": "आधुनिक पासपोर्ट में अक्सर बायोमेट्रिक डेटा होता है।"
+        },
+        {
+          "sentence": "The airport uses biometrics for faster security checks.",
+          "translation": "हवाई अड्डा तेजी से सुरक्षा जांच के लिए बायोमेट्रिक्स का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "settle",
+      "phoneticRespelling": "SET-l",
+      "translation": "बसना",
+      "definition": "To go and live permanently in a new place.",
+      "definationTranslation": "किसी नए स्थान पर स्थायी रूप से रहने जाना।",
+      "sentence": [
+        {
+          "sentence": "Many immigrants choose to settle in big cities.",
+          "translation": "कई अप्रवासी बड़े शहरों में बसना चुनते हैं।"
+        },
+        {
+          "sentence": "They decided to settle in London.",
+          "translation": "उन्होंने लंदन में बसने का फैसला किया।"
+        }
+      ]
+    },
+    {
+      "word": "compliance",
+      "phoneticRespelling": "kuhm-PLAHY-uhns",
+      "translation": "अनुपालन",
+      "definition": "The act of obeying a law or rule.",
+      "definationTranslation": "किसी कानून या नियम को मानने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "Compliance with customs regulations is mandatory.",
+          "translation": "सीमा शुल्क नियमों का अनुपालन अनिवार्य है।"
+        },
+        {
+          "sentence": "The company is in full compliance with safety laws.",
+          "translation": "कंपनी सुरक्षा कानूनों का पूरी तरह से अनुपालन कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "scanner",
+      "phoneticRespelling": "SKAN-er",
+      "translation": "स्कैनर",
+      "definition": "A device that examines something by passing a beam of light or X-rays over it.",
+      "definationTranslation": "एक उपकरण जो प्रकाश की किरण या एक्स-रे गुजारकर किसी चीज़ की जांच करता है।",
+      "sentence": [
+        {
+          "sentence": "Put your hand luggage through the X-ray scanner.",
+          "translation": "अपना हाथ का सामान एक्स-रे स्कैनर के माध्यम से निकालें।"
+        },
+        {
+          "sentence": "The body scanner detected a metal object.",
+          "translation": "बॉडी स्कैनर ने एक धातु की वस्तु का पता लगाया।"
+        }
+      ]
+    },
+    {
+      "word": "purpose",
+      "phoneticRespelling": "PUR-puhs",
+      "translation": "उद्देश्य",
+      "definition": "The reason why something is done or used.",
+      "definationTranslation": "वह कारण जिससे कुछ किया या उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "What is the purpose of your visit?",
+          "translation": "आपकी यात्रा का उद्देश्य क्या है?"
+        },
+        {
+          "sentence": "The purpose of this meeting is to discuss the new project.",
+          "translation": "इस बैठक का उद्देश्य नए प्रोजेक्ट पर चर्चा करना है।"
+        }
+      ]
+    }
+  ]
 }

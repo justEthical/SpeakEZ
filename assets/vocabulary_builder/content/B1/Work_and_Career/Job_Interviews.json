@@ -1,4 +1,345 @@
 {
   "topic": "Job Interviews",
-  "words": []
+  "words": [
+    {
+      "word": "interviewer",
+      "phoneticRespelling": "IN-ter-vyoo-er",
+      "translation": "साक्षात्कारकर्ता",
+      "definition": "The person who asks questions to see if you are suitable for a job.",
+      "definationTranslation": "वह व्यक्ति जो यह देखने के लिए प्रश्न पूछता है कि क्या आप नौकरी के लिए उपयुक्त हैं।",
+      "sentence": [
+        {
+          "sentence": "The interviewer asked me about my experience with Flutter.",
+          "translation": "साक्षात्कारकर्ता ने मुझसे फ्लटर के साथ मेरे अनुभव के बारे में पूछा।"
+        },
+        {
+          "sentence": "Try to make eye contact with your interviewer.",
+          "translation": "अपने साक्षात्कारकर्ता के साथ आँखें मिलाने (eye contact) की कोशिश करें।"
+        }
+      ]
+    },
+    {
+      "word": "candidate",
+      "phoneticRespelling": "KAN-di-deyt",
+      "translation": "उम्मीदवार",
+      "definition": "A person who is applying for a job.",
+      "definationTranslation": "वह व्यक्ति जो नौकरी के लिए आवेदन कर रहा है।",
+      "sentence": [
+        {
+          "sentence": "There were many strong candidates for the developer position.",
+          "translation": "डेवलपर पद के लिए कई मजबूत उम्मीदवार थे।"
+        },
+        {
+          "sentence": "The successful candidate will start work next Monday.",
+          "translation": "सफल उम्मीदवार अगले सोमवार से काम शुरू करेगा।"
+        }
+      ]
+    },
+    {
+      "word": "resume",
+      "phoneticRespelling": "RE-zoo-mey",
+      "translation": "बायोडाटा",
+      "definition": "A document that describes your education and work experience.",
+      "definationTranslation": "एक दस्तावेज़ जो आपकी शिक्षा और कार्य अनुभव का वर्णन करता है।",
+      "sentence": [
+        {
+          "sentence": "I updated my resume to include my latest AI project.",
+          "translation": "मैंने अपने नवीनतम एआई प्रोजेक्ट को शामिल करने के लिए अपना बायोडाटा अपडेट किया।"
+        },
+        {
+          "sentence": "Make sure there are no spelling mistakes in your resume.",
+          "translation": "सुनिश्चित करें कि आपके बायोडाटा में वर्तनी (spelling) की कोई गलती न हो।"
+        }
+      ]
+    },
+    {
+      "word": "strength",
+      "phoneticRespelling": "STRENGKTH",
+      "translation": "ताकत / खूबी",
+      "definition": "A particular quality or skill that makes you good at something.",
+      "definationTranslation": "एक विशेष गुण या कौशल जो आपको किसी चीज़ में अच्छा बनाता है।",
+      "sentence": [
+        {
+          "sentence": "My greatest strength is my ability to solve complex bugs quickly.",
+          "translation": "मेरी सबसे बड़ी ताकत जटिल बग्स को जल्दी हल करने की मेरी क्षमता है।"
+        },
+        {
+          "sentence": "The manager asked me to describe my professional strengths.",
+          "translation": "मैनेजर ने मुझे अपनी पेशेवर खूबियों का वर्णन करने के लिए कहा।"
+        }
+      ]
+    },
+    {
+      "word": "weakness",
+      "phoneticRespelling": "WEEK-nis",
+      "translation": "कमजोरी",
+      "definition": "A quality or feature that prevents someone from being effective.",
+      "definationTranslation": "एक गुण या विशेषता जो किसी को प्रभावी होने से रोकती है।",
+      "sentence": [
+        {
+          "sentence": "It is important to show how you are working to improve your weakness.",
+          "translation": "यह दिखाना महत्वपूर्ण है कि आप अपनी कमजोरी को सुधारने के लिए कैसे काम कर रहे हैं।"
+        },
+        {
+          "sentence": "Don't say you have no weaknesses; everyone has one.",
+          "translation": "यह न कहें कि आपकी कोई कमजोरी नहीं है; हर किसी की एक होती है।"
+        }
+      ]
+    },
+    {
+      "word": "punctual",
+      "phoneticRespelling": "PUHNGK-choo-uhl",
+      "translation": "समय का पाबंद",
+      "definition": "Arriving at the right time and not being late.",
+      "definationTranslation": "सही समय पर पहुँचना और देर न करना।",
+      "sentence": [
+        {
+          "sentence": "You must be punctual for your job interview.",
+          "translation": "आपको अपने नौकरी के साक्षात्कार के लिए समय का पाबंद होना चाहिए।"
+        },
+        {
+          "sentence": "Being punctual shows that you are professional.",
+          "translation": "समय का पाबंद होना यह दर्शाता है कि आप पेशेवर हैं।"
+        }
+      ]
+    },
+    {
+      "word": "background",
+      "phoneticRespelling": "BAK-ground",
+      "translation": "पृष्ठभूमि",
+      "definition": "The type of experience, training, and education you have.",
+      "definationTranslation": "आपके पास जिस प्रकार का अनुभव, प्रशिक्षण और शिक्षा है।",
+      "sentence": [
+        {
+          "sentence": "Can you tell me a little about your professional background?",
+          "translation": "क्या आप मुझे अपनी पेशेवर पृष्ठभूमि के बारे में थोड़ा बता सकते हैं?"
+        },
+        {
+          "sentence": "She has a strong background in mobile app development.",
+          "translation": "उसकी मोबाइल ऐप डेवलपमेंट में मजबूत पृष्ठभूमि है।"
+        }
+      ]
+    },
+    {
+      "word": "requirement",
+      "phoneticRespelling": "ri-KWAHYER-muhnt",
+      "translation": "आवश्यकता",
+      "definition": "Something that is needed or demanded for a job.",
+      "definationTranslation": "नौकरी के लिए जिस चीज़ की आवश्यकता या माँग की जाती है।",
+      "sentence": [
+        {
+          "sentence": "Experience with Dart is a key requirement for this role.",
+          "translation": "डार्ट (Dart) के साथ अनुभव इस भूमिका के लिए एक प्रमुख आवश्यकता है।"
+        },
+        {
+          "sentence": "Does he meet all the requirements for the position?",
+          "translation": "क्या वह इस पद की सभी आवश्यकताओं को पूरा करता है?"
+        }
+      ]
+    },
+    {
+      "word": "relevant",
+      "phoneticRespelling": "REL-uh-vuhnt",
+      "translation": "प्रासंगिक",
+      "definition": "Closely connected or appropriate to what is being discussed or done.",
+      "definationTranslation": "जो चर्चा या किए जा रहे कार्य से निकटता से जुड़ा या उपयुक्त हो।",
+      "sentence": [
+        {
+          "sentence": "Please only list relevant work experience on your application.",
+          "translation": "कृपया अपने आवेदन पर केवल प्रासंगिक कार्य अनुभव ही सूचीबद्ध करें।"
+        },
+        {
+          "sentence": "The candidate provided many relevant examples of their work.",
+          "translation": "उम्मीदवार ने अपने काम के कई प्रासंगिक उदाहरण दिए।"
+        }
+      ]
+    },
+    {
+      "word": "confident",
+      "phoneticRespelling": "KON-fi-dent",
+      "translation": "आत्मविश्वासी",
+      "definition": "Feeling sure about your own ability to do things and be successful.",
+      "definationTranslation": "काम करने और सफल होने की अपनी क्षमता के बारे में निश्चित महसूस करना।",
+      "sentence": [
+        {
+          "sentence": "Try to sound confident when answering questions.",
+          "translation": "प्रश्नों के उत्तर देते समय आत्मविश्वासी दिखने की कोशिश करें।"
+        },
+        {
+          "sentence": "She was confident during the technical round of the interview.",
+          "translation": "साक्षात्कार के तकनीकी दौर के दौरान वह आत्मविश्वासी थी।"
+        }
+      ]
+    },
+    {
+      "word": "salary expectation",
+      "phoneticRespelling": "SAL-uh-ree ek-spek-TAY-shuhn",
+      "translation": "वेतन की अपेक्षा",
+      "definition": "The amount of money you hope to earn in a new job.",
+      "definationTranslation": "वह राशि जो आप नई नौकरी में कमाने की उम्मीद करते हैं।",
+      "sentence": [
+        {
+          "sentence": "What is your salary expectation for this junior developer role?",
+          "translation": "इस जूनियर डेवलपर भूमिका के लिए आपके वेतन की क्या अपेक्षा है?"
+        },
+        {
+          "sentence": "It is better to research market rates before discussing salary expectations.",
+          "translation": "वेतन की अपेक्षाओं पर चर्चा करने से पहले बाजार की दरों पर शोध करना बेहतर है।"
+        }
+      ]
+    },
+    {
+      "word": "follow-up",
+      "phoneticRespelling": "FOL-oh-uhp",
+      "translation": "अनुवर्ती (फॉलो-अप)",
+      "definition": "An action or communication done after a meeting to show continued interest.",
+      "definationTranslation": "निरंतर रुचि दिखाने के लिए बैठक के बाद की गई कार्रवाई या संचार।",
+      "sentence": [
+        {
+          "sentence": "Sending a follow-up email after an interview is a good habit.",
+          "translation": "साक्षात्कार के बाद फॉलो-अप ईमेल भेजना एक अच्छी आदत है।"
+        },
+        {
+          "sentence": "I haven't heard back, so I will send a follow-up message.",
+          "translation": "मुझे अभी तक कोई जवाब नहीं मिला है, इसलिए मैं एक फॉलो-अप संदेश भेजूंगा।"
+        }
+      ]
+    },
+    {
+      "word": "soft skills",
+      "phoneticRespelling": "SOFT SKILZ",
+      "translation": "व्यवहार कौशल",
+      "definition": "Personal attributes that enable someone to interact effectively with others.",
+      "definationTranslation": "व्यक्तिगत गुण जो किसी को दूसरों के साथ प्रभावी ढंग से बातचीत करने में सक्षम बनाते हैं।",
+      "sentence": [
+        {
+          "sentence": "Interviewers value soft skills like communication and teamwork.",
+          "translation": "साक्षात्कारकर्ता संचार और टीम वर्क जैसे व्यवहार कौशल को महत्व देते।"
+        },
+        {
+          "sentence": "Your soft skills are just as important as your coding skills.",
+          "translation": "आपका व्यवहार कौशल आपके कोडिंग कौशल जितना ही महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "body language",
+      "phoneticRespelling": "BOD-ee LANG-gwij",
+      "translation": "शारीरिक हाव-भाव",
+      "definition": "The way you sit, stand, and move that shows how you feel.",
+      "definationTranslation": "आपके बैठने, खड़े होने और हिलने-डुलने का तरीका जो यह दर्शाता है कि आप कैसा महसूस करते हैं।",
+      "sentence": [
+        {
+          "sentence": "Positive body language can make a great impression.",
+          "translation": "सकारात्मक शारीरिक हाव-भाव एक अच्छा प्रभाव डाल सकते हैं।"
+        },
+        {
+          "sentence": "Crossing your arms might show negative body language.",
+          "translation": "अपनी बाहें मोड़ना (cross arms) नकारात्मक शारीरिक हाव-भाव दिखा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "achievement",
+      "phoneticRespelling": "uh-CHEEV-muhnt",
+      "translation": "उपलब्धि",
+      "definition": "Something very good and difficult that you have succeeded in doing.",
+      "definationTranslation": "कुछ बहुत अच्छा और कठिन जिसे करने में आप सफल हुए हैं।",
+      "sentence": [
+        {
+          "sentence": "Launching my own app was my proudest achievement.",
+          "translation": "अपना खुद का ऐप लॉन्च करना मेरी सबसे गौरवपूर्ण उपलब्धि थी।"
+        },
+        {
+          "sentence": "Talk about your achievements to show what you can do.",
+          "translation": "यह दिखाने के लिए अपनी उपलब्धियों के बारे में बात करें कि आप क्या कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "vacancy",
+      "phoneticRespelling": "VEY-kuhn-see",
+      "translation": "रिक्त पद",
+      "definition": "A job that is available for someone to do.",
+      "definationTranslation": "एक नौकरी जो किसी के करने के लिए उपलब्ध है।",
+      "sentence": [
+        {
+          "sentence": "Is there a vacancy for a mobile developer in your company?",
+          "translation": "क्या आपकी कंपनी में मोबाइल डेवलपर के लिए कोई रिक्त पद है?"
+        },
+        {
+          "sentence": "The company announced two new vacancies in the IT department.",
+          "translation": "कंपनी ने आईटी विभाग में दो नए रिक्त पदों की घोषणा की।"
+        }
+      ]
+    },
+    {
+      "word": "references",
+      "phoneticRespelling": "REF-er-uhn-siz",
+      "translation": "संदर्भ (रेफरेंस)",
+      "definition": "People who can talk about your character or work ability to a potential employer.",
+      "definationTranslation": "वे लोग जो संभावित नियोक्ता से आपके चरित्र या कार्य क्षमता के बारे में बात कर सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "The company asked for two professional references.",
+          "translation": "कंपनी ने दो पेशेवर संदर्भ मांगे।"
+        },
+        {
+          "sentence": "Always ask your references for permission before listing them.",
+          "translation": "अपने संदर्भों को सूचीबद्ध करने से पहले हमेशा उनसे अनुमति मांगें।"
+        }
+      ]
+    },
+    {
+      "word": "technical round",
+      "phoneticRespelling": "TEK-ni-kuhl round",
+      "translation": "तकनीकी दौर",
+      "definition": "An interview stage where your specific job skills are tested.",
+      "definationTranslation": "साक्षात्कार का एक चरण जहाँ आपके विशिष्ट नौकरी कौशल का परीक्षण किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "I have to pass the technical round to get the job.",
+          "translation": "नौकरी पाने के लिए मुझे तकनीकी दौर पास करना होगा।"
+        },
+        {
+          "sentence": "They asked me to write code during the technical round.",
+          "translation": "उन्होंने मुझे तकनीकी दौर के दौरान कोड लिखने के लिए कहा।"
+        }
+      ]
+    },
+    {
+      "word": "probation",
+      "phoneticRespelling": "proh-BEY-shuhn",
+      "translation": "परिवीक्षा (प्रोबेशन)",
+      "definition": "A trial period when you first start a job to see if you are suitable.",
+      "definationTranslation": "एक परीक्षण अवधि जब आप पहली बार नौकरी शुरू करते हैं यह देखने के लिए कि क्या आप उपयुक्त हैं।",
+      "sentence": [
+        {
+          "sentence": "New employees are usually on probation for three months.",
+          "translation": "नए कर्मचारी आमतौर पर तीन महीने के प्रोबेशन पर होते हैं।"
+        },
+        {
+          "sentence": "My probation period ends next week.",
+          "translation": "मेरी प्रोबेशन अवधि अगले सप्ताह समाप्त हो रही है।"
+        }
+      ]
+    },
+    {
+      "word": "contract",
+      "phoneticRespelling": "KON-trakt",
+      "translation": "अनुबंध / कॉन्ट्रैक्ट",
+      "definition": "A legal agreement between an employer and an employee.",
+      "definationTranslation": "नियोक्ता और कर्मचारी के बीच एक कानूनी समझौता।",
+      "sentence": [
+        {
+          "sentence": "Read the employment contract carefully before signing.",
+          "translation": "हस्ताक्षर करने से पहले रोजगार अनुबंध को ध्यान से पढ़ें।"
+        },
+        {
+          "sentence": "My contract is for one year with an option to renew.",
+          "translation": "मेरा अनुबंध नवीनीकरण के विकल्प के साथ एक वर्ष के लिए है।"
+        }
+      ]
+    }
+  ]
 }

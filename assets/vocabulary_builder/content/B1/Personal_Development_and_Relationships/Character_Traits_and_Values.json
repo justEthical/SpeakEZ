@@ -1,4 +1,345 @@
 {
   "topic": "Character Traits and Values",
-  "words": []
+  "words": [
+    {
+      "word": "ambitious",
+      "phoneticRespelling": "am-BISH-uhs",
+      "translation": "महत्वाकांक्षी",
+      "definition": "Having a strong desire to succeed or be powerful.",
+      "definationTranslation": "सफल होने या शक्तिशाली बनने की तीव्र इच्छा रखना।",
+      "sentence": [
+        {
+          "sentence": "He is an ambitious developer who wants to launch his own startup.",
+          "translation": "वह एक महत्वाकांक्षी डेवलपर है जो अपना खुद का स्टार्टअप शुरू करना चाहता है।"
+        },
+        {
+          "sentence": "She has ambitious plans for the future.",
+          "translation": "भविष्य के लिए उसकी महत्वाकांक्षी योजनाएं हैं।"
+        }
+      ]
+    },
+    {
+      "word": "integrity",
+      "phoneticRespelling": "in-TEG-ri-tee",
+      "translation": "अखंडता / ईमानदारी",
+      "definition": "The quality of being honest and having strong moral principles.",
+      "definationTranslation": "ईमानदार होने और मजबूत नैतिक सिद्धांतों को रखने का गुण।",
+      "sentence": [
+        {
+          "sentence": "A leader should be a person of integrity.",
+          "translation": "एक नेता को ईमानदारी वाला व्यक्ति होना चाहिए।"
+        },
+        {
+          "sentence": "He never compromised his integrity for money.",
+          "translation": "उसने पैसे के लिए अपनी ईमानदारी से कभी समझौता नहीं किया।"
+        }
+      ]
+    },
+    {
+      "word": "disciplined",
+      "phoneticRespelling": "DIS-uh-plind",
+      "translation": "अनुशासित",
+      "definition": "Showing a controlled form of behavior or way of working.",
+      "definationTranslation": "व्यवहार या काम करने के तरीके का एक नियंत्रित रूप दिखाना।",
+      "sentence": [
+        {
+          "sentence": "You need to be disciplined to learn a new language.",
+          "translation": "एक नई भाषा सीखने के लिए आपको अनुशासित होने की आवश्यकता है।"
+        },
+        {
+          "sentence": "She follows a disciplined routine every morning.",
+          "translation": "वह हर सुबह एक अनुशासित दिनचर्या का पालन करती है।"
+        }
+      ]
+    },
+    {
+      "word": "humble",
+      "phoneticRespelling": "HUHM-buhl",
+      "translation": "विनम्र",
+      "definition": "Not proud or arrogant; modest.",
+      "definationTranslation": "गर्व या अभिमानी नहीं; मामूली।",
+      "sentence": [
+        {
+          "sentence": "Despite his success, he remains very humble.",
+          "translation": "अपनी सफलता के बावजूद, वह बहुत विनम्र बने हुए हैं।"
+        },
+        {
+          "sentence": "He gave a humble speech after winning the award.",
+          "translation": "पुरस्कार जीतने के बाद उन्होंने एक विनम्र भाषण दिया।"
+        }
+      ]
+    },
+    {
+      "word": "resilient",
+      "phoneticRespelling": "ri-ZIL-yuhnt",
+      "translation": "लचीला / उभरने वाला",
+      "definition": "Able to withstand or recover quickly from difficult conditions.",
+      "definationTranslation": "कठिन परिस्थितियों का सामना करने या उनसे जल्दी उबरने में सक्षम।",
+      "sentence": [
+        {
+          "sentence": "Successful entrepreneurs are usually very resilient.",
+          "translation": "सफल उद्यमी आमतौर पर बहुत लचीले होते हैं।"
+        },
+        {
+          "sentence": "The economy is proving to be resilient.",
+          "translation": "अर्थव्यवस्था लचीली साबित हो रही है।"
+        }
+      ]
+    },
+    {
+      "word": "optimistic",
+      "phoneticRespelling": "op-tuh-MIS-tik",
+      "translation": "आशावादी",
+      "definition": "Hopeful and confident about the future.",
+      "definationTranslation": "भविष्य के प्रति आशान्वित और आश्वस्त।",
+      "sentence": [
+        {
+          "sentence": "She is optimistic that she will get the job.",
+          "translation": "वह आशावादी है कि उसे नौकरी मिल जाएगी।"
+        },
+        {
+          "sentence": "An optimistic attitude helps in solving problems.",
+          "translation": "एक आशावादी दृष्टिकोण समस्याओं को सुलझाने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "creative",
+      "phoneticRespelling": "kree-AY-tiv",
+      "translation": "रचनात्मक",
+      "definition": "Involving the use of imagination to create something new.",
+      "definationTranslation": "कुछ नया बनाने के लिए कल्पना के उपयोग को शामिल करना।",
+      "sentence": [
+        {
+          "sentence": "The designer came up with a creative solution.",
+          "translation": "डिजाइनर एक रचनात्मक समाधान लेकर आया।"
+        },
+        {
+          "sentence": "She has a very creative mind.",
+          "translation": "उसका दिमाग बहुत रचनात्मक है।"
+        }
+      ]
+    },
+    {
+      "word": "responsible",
+      "phoneticRespelling": "ri-SPON-suh-buhl",
+      "translation": "जिम्मेदार",
+      "definition": "Having an obligation to do something, or having control over someone.",
+      "definationTranslation": "कुछ करने का दायित्व होना, या किसी पर नियंत्रण होना।",
+      "sentence": [
+        {
+          "sentence": "You are responsible for your own mistakes.",
+          "translation": "आप अपनी गलतियों के लिए खुद जिम्मेदार हैं।"
+        },
+        {
+          "sentence": "He is a responsible employee who meets every deadline.",
+          "translation": "वह एक जिम्मेदार कर्मचारी है जो हर समय सीमा को पूरा करता है।"
+        }
+      ]
+    },
+    {
+      "word": "patience",
+      "phoneticRespelling": "PAY-shuhnss",
+      "translation": "धैर्य",
+      "definition": "The capacity to accept or tolerate delay or trouble without getting angry.",
+      "definationTranslation": "बिना क्रोधित हुए देरी या परेशानी को स्वीकार करने या सहने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Teaching requires a lot of patience.",
+          "translation": "शिक्षण के लिए बहुत धैर्य की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "I'm running out of patience with this slow computer.",
+          "translation": "इस धीमे कंप्यूटर के साथ मेरा धैर्य खत्म हो रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "courageous",
+      "phoneticRespelling": "kuh-RAY-juhs",
+      "translation": "साहसी",
+      "definition": "Not deterred by danger or pain; brave.",
+      "definationTranslation": "खतरे या दर्द से विचलित न होना; बहादुर।",
+      "sentence": [
+        {
+          "sentence": "It was courageous of her to speak up against the injustice.",
+          "translation": "अन्याय के खिलाफ आवाज उठाना उसका साहस था।"
+        },
+        {
+          "sentence": "The courageous soldier saved many lives.",
+          "translation": "साहसी सैनिक ने कई जानें बचाईं।"
+        }
+      ]
+    },
+    {
+      "word": "determined",
+      "phoneticRespelling": "di-TUR-mind",
+      "translation": "दृढ़ निश्चय",
+      "definition": "Having made a firm decision and being resolved not to change it.",
+      "definationTranslation": "एक दृढ़ निर्णय लेना और उसे न बदलने का संकल्प लेना।",
+      "sentence": [
+        {
+          "sentence": "She is determined to finish the project on time.",
+          "translation": "वह समय पर प्रोजेक्ट पूरा करने के लिए दृढ़ संकल्पित है।"
+        },
+        {
+          "sentence": "He has a determined look on his face.",
+          "translation": "उसके चेहरे पर दृढ़ निश्चय का भाव है।"
+        }
+      ]
+    },
+    {
+      "word": "compassionate",
+      "phoneticRespelling": "kuhm-PASH-uh-nit",
+      "translation": "दयालु / करुणामय",
+      "definition": "Feeling or showing sympathy and concern for others.",
+      "definationTranslation": "दूसरों के प्रति सहानुभूति और चिंता महसूस करना या दिखाना।",
+      "sentence": [
+        {
+          "sentence": "The nurse was very compassionate toward the patients.",
+          "translation": "नर्स मरीजों के प्रति बहुत करुणामय थी।"
+        },
+        {
+          "sentence": "We need more compassionate leaders in the world.",
+          "translation": "हमें दुनिया में और अधिक दयालु नेताओं की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "reliable",
+      "phoneticRespelling": "ri-LAHY-uh-buhl",
+      "translation": "विश्वसनीय",
+      "definition": "Consistently good in quality or performance; able to be trusted.",
+      "definationTranslation": "गुणवत्ता या प्रदर्शन में लगातार अच्छा; जिस पर भरोसा किया जा सके।",
+      "sentence": [
+        {
+          "sentence": "My car is old but it is still reliable.",
+          "translation": "मेरी कार पुरानी है लेकिन यह अभी भी विश्वसनीय है।"
+        },
+        {
+          "sentence": "We are looking for a reliable person to join our team.",
+          "translation": "हम अपनी टीम में शामिल होने के लिए एक विश्वसनीय व्यक्ति की तलाश कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "independent",
+      "phoneticRespelling": "in-di-PEN-duhnt",
+      "translation": "स्वतंत्र",
+      "definition": "Not depending on another for livelihood or aid.",
+      "definationTranslation": "आजीविका या सहायता के लिए दूसरे पर निर्भर न होना।",
+      "sentence": [
+        {
+          "sentence": "She moved out of her parents' house to become more independent.",
+          "translation": "वह अधिक स्वतंत्र होने के लिए अपने माता-पिता के घर से बाहर चली गई।"
+        },
+        {
+          "sentence": "The app works as an independent tool.",
+          "translation": "यह ऐप एक स्वतंत्र टूल के रूप में काम करता है।"
+        }
+      ]
+    },
+    {
+      "word": "fair",
+      "phoneticRespelling": "FAIR",
+      "translation": "निष्पक्ष",
+      "definition": "Treating people equally without favoritism or discrimination.",
+      "definationTranslation": "बिना किसी पक्षपात या भेदभाव के लोगों के साथ समान व्यवहार करना।",
+      "sentence": [
+        {
+          "sentence": "The judge gave a fair decision.",
+          "translation": "न्यायाधीश ने निष्पक्ष निर्णय दिया।"
+        },
+        {
+          "sentence": "It is not fair to blame him for everything.",
+          "translation": "हर चीज के लिए उसे दोष देना उचित नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "honest",
+      "phoneticRespelling": "AH-nist",
+      "translation": "ईमानदार",
+      "definition": "Free of deceit and untruthfulness; sincere.",
+      "definationTranslation": "छल और असत्य से मुक्त; सच्चा।",
+      "sentence": [
+        {
+          "sentence": "Give me your honest opinion about the app.",
+          "translation": "मुझे ऐप के बारे में अपनी ईमानदार राय दें।"
+        },
+        {
+          "sentence": "He is an honest man who never cheats.",
+          "translation": "वह एक ईमानदार आदमी है जो कभी धोखा नहीं देता।"
+        }
+      ]
+    },
+    {
+      "word": "loyal",
+      "phoneticRespelling": "LOI-uhl",
+      "translation": "वफादार",
+      "definition": "Giving or showing firm and constant support to a person or institution.",
+      "definationTranslation": "किसी व्यक्ति या संस्था को दृढ़ और निरंतर समर्थन देना या दिखाना।",
+      "sentence": [
+        {
+          "sentence": "They have been loyal customers for over ten years.",
+          "translation": "वे दस वर्षों से अधिक समय से वफादार ग्राहक रहे हैं।"
+        },
+        {
+          "sentence": "A loyal friend stays with you during hard times.",
+          "translation": "एक वफादार दोस्त कठिन समय में आपके साथ रहता है।"
+        }
+      ]
+    },
+    {
+      "word": "wise",
+      "phoneticRespelling": "WAHYZ",
+      "translation": "बुद्धिमान",
+      "definition": "Having or showing experience, knowledge, and good judgment.",
+      "definationTranslation": "अनुभव, ज्ञान और अच्छा निर्णय लेना या दिखाना।",
+      "sentence": [
+        {
+          "sentence": "My grandfather always gave me wise advice.",
+          "translation": "मेरे दादाजी ने मुझे हमेशा बुद्धिमानी भरी सलाह दी।"
+        },
+        {
+          "sentence": "It was a wise decision to save money.",
+          "translation": "पैसे बचाना एक समझदारी भरा फैसला था।"
+        }
+      ]
+    },
+    {
+      "word": "generous",
+      "phoneticRespelling": "JEN-uhr-uhs",
+      "translation": "उदार",
+      "definition": "Showing a readiness to give more of something than is strictly necessary.",
+      "definationTranslation": "आवश्यकता से अधिक कुछ देने की तत्परता दिखाना।",
+      "sentence": [
+        {
+          "sentence": "He is very generous with his time and money.",
+          "translation": "वह अपने समय और धन के साथ बहुत उदार है।"
+        },
+        {
+          "sentence": "Thank you for your generous donation.",
+          "translation": "आपके उदार दान के लिए धन्यवाद।"
+        }
+      ]
+    },
+    {
+      "word": "tolerant",
+      "phoneticRespelling": "TOL-er-uhnt",
+      "translation": "सहनशील",
+      "definition": "Showing willingness to allow the existence of opinions or behavior that one does not necessarily agree with.",
+      "definationTranslation": "उन विचारों या व्यवहार के अस्तित्व की अनुमति देने की इच्छा दिखाना जिनसे कोई आवश्यक रूप से सहमत नहीं है।",
+      "sentence": [
+        {
+          "sentence": "We must be tolerant of different cultures.",
+          "translation": "हमें विभिन्न संस्कृतियों के प्रति सहनशील होना चाहिए।"
+        },
+        {
+          "sentence": "The community is very tolerant and welcoming.",
+          "translation": "समुदाय बहुत सहनशील और स्वागत करने वाला है।"
+        }
+      ]
+    }
+  ]
 }

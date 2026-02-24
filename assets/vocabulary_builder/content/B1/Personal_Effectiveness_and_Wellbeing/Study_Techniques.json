@@ -1,4 +1,345 @@
 {
   "topic": "Study Techniques",
-  "words": []
+  "words": [
+    {
+      "word": "summarize",
+      "phoneticRespelling": "SUM-uh-rahyz",
+      "translation": "सारांश निकालना",
+      "definition": "To give a brief statement of the main points of something.",
+      "definationTranslation": "किसी चीज़ के मुख्य बिंदुओं का संक्षिप्त विवरण देना।",
+      "sentence": [
+        {
+          "sentence": "After reading the chapter, try to summarize it in three sentences.",
+          "translation": "अध्याय पढ़ने के बाद, इसे तीन वाक्यों में सारांशित करने का प्रयास करें।"
+        },
+        {
+          "sentence": "It is helpful to summarize your notes before an exam.",
+          "translation": "परीक्षा से पहले अपने नोट्स का सारांश निकालना मददगार होता है।"
+        }
+      ]
+    },
+    {
+      "word": "concentrate",
+      "phoneticRespelling": "KON-suhn-treyt",
+      "translation": "ध्यान केंद्रित करना",
+      "definition": "To focus all one's attention on a particular object or activity.",
+      "definationTranslation": "अपना पूरा ध्यान किसी विशेष वस्तु या गतिविधि पर लगाना।",
+      "sentence": [
+        {
+          "sentence": "It is hard to concentrate when there is too much noise.",
+          "translation": "जब बहुत अधिक शोर होता है तो ध्यान केंद्रित करना कठिन होता है।"
+        },
+        {
+          "sentence": "I need a quiet place to concentrate on my homework.",
+          "translation": "मुझे अपने होमवर्क पर ध्यान केंद्रित करने के लिए एक शांत जगह चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "memorize",
+      "phoneticRespelling": "MEM-uh-rahyz",
+      "translation": "याद करना",
+      "definition": "To learn something so that you can remember it perfectly.",
+      "definationTranslation": "किसी चीज़ को इस तरह सीखना कि आप उसे पूरी तरह याद रख सकें।",
+      "sentence": [
+        {
+          "sentence": "She had to memorize a long poem for the English class.",
+          "translation": "उसे अंग्रेजी कक्षा के लिए एक लंबी कविता याद करनी थी।"
+        },
+        {
+          "sentence": "Don't just memorize the facts; try to understand them.",
+          "translation": "केवल तथ्यों को याद न करें; उन्हें समझने की कोशिश करें।"
+        }
+      ]
+    },
+    {
+      "word": "revise",
+      "phoneticRespelling": "ri-VAHYZ",
+      "translation": "दोहराना",
+      "definition": "To study again something you have already learned in preparation for an exam.",
+      "definationTranslation": "परीक्षा की तैयारी में पहले से सीखी गई किसी चीज़ का फिर से अध्ययन करना।",
+      "sentence": [
+        {
+          "sentence": "I need to revise my math lessons this weekend.",
+          "translation": "मुझे इस सप्ताह के अंत में अपने गणित के पाठों को दोहराने की ज़रूरत है।"
+        },
+        {
+          "sentence": "Revision is the key to getting good marks.",
+          "translation": "अच्छे अंक प्राप्त करने की कुंजी दोहराना है।"
+        }
+      ]
+    },
+    {
+      "word": "brainstorm",
+      "phoneticRespelling": "BREYN-stawrm",
+      "translation": "विचार-मंथन",
+      "definition": "To suggest a lot of ideas very quickly before deciding which ones are the best.",
+      "definationTranslation": "सबसे अच्छे विचारों का निर्णय लेने से पहले बहुत तेज़ी से कई विचार सुझाना।",
+      "sentence": [
+        {
+          "sentence": "Let's brainstorm some ideas for our group project.",
+          "translation": "आइए हमारे ग्रुप प्रोजेक्ट के लिए कुछ विचारों पर विचार-मंथन करें।"
+        },
+        {
+          "sentence": "Brainstorming helps in finding creative solutions.",
+          "translation": "विचार-मंथन रचनात्मक समाधान खोजने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "highlight",
+      "phoneticRespelling": "HAHY-lahyt",
+      "translation": "मुख्य अंश को चिह्नित करना",
+      "definition": "To mark a part of a text with a bright color to show it is important.",
+      "definationTranslation": "किसी पाठ के एक हिस्से को चमकीले रंग से चिह्नित करना ताकि यह पता चले कि वह महत्वपूर्ण है।",
+      "sentence": [
+        {
+          "sentence": "You should highlight the keywords in the paragraph.",
+          "translation": "आपको अनुच्छेद में मुख्य शब्दों को हाइलाइट करना चाहिए।"
+        },
+        {
+          "sentence": "I use a yellow marker to highlight important dates.",
+          "translation": "मैं महत्वपूर्ण तारीखों को चिह्नित करने के लिए पीले मार्कर का उपयोग करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "consistency",
+      "phoneticRespelling": "kuhn-SIS-tuhn-see",
+      "translation": "निरंतरता",
+      "definition": "Always behaving or performing in a similar way.",
+      "definationTranslation": "हमेशा एक समान तरीके से व्यवहार करना या प्रदर्शन करना।",
+      "sentence": [
+        {
+          "sentence": "Consistency in your study routine will lead to success.",
+          "translation": "आपकी पढ़ाई की दिनचर्या में निरंतरता सफलता की ओर ले जाएगी।"
+        },
+        {
+          "sentence": "Learning a language requires consistency and practice.",
+          "translation": "भाषा सीखने के लिए निरंतरता और अभ्यास की आवश्यकता होती।"
+        }
+      ]
+    },
+    {
+      "word": "distraction",
+      "phoneticRespelling": "dih-STRAK-shuhn",
+      "translation": "ध्यान भटकाना",
+      "definition": "Something that takes your attention away from what you are doing.",
+      "definationTranslation": "कोई ऐसी चीज़ जो आपका ध्यान उस काम से हटा दे जो आप कर रहे हैं।",
+      "sentence": [
+        {
+          "sentence": "Turn off your phone to avoid any distraction while studying.",
+          "translation": "पढ़ते समय किसी भी तरह के ध्यान भटकाव से बचने के लिए अपना फोन बंद कर दें।"
+        },
+        {
+          "sentence": "Music can be a distraction for some students.",
+          "translation": "संगीत कुछ छात्रों के लिए ध्यान भटकाने वाला हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "prioritize",
+      "phoneticRespelling": "prahy-AWR-i-tahyz",
+      "translation": "प्राथमिकता देना",
+      "definition": "To decide which tasks are the most important so you can do them first.",
+      "definationTranslation": "यह तय करना कि कौन से कार्य सबसे महत्वपूर्ण हैं ताकि आप उन्हें पहले कर सकें।",
+      "sentence": [
+        {
+          "sentence": "You should prioritize your difficult subjects in the morning.",
+          "translation": "आपको सुबह अपने कठिन विषयों को प्राथमिकता देनी चाहिए।"
+        },
+        {
+          "sentence": "Learn to prioritize your work to manage time better.",
+          "translation": "समय का बेहतर प्रबंधन करने के लिए अपने काम को प्राथमिकता देना सीखें।"
+        }
+      ]
+    },
+    {
+      "word": "effective",
+      "phoneticRespelling": "ih-FEK-tiv",
+      "translation": "प्रभावी",
+      "definition": "Successful in producing a desired or intended result.",
+      "definationTranslation": "वांछित या इच्छित परिणाम उत्पन्न करने में सफल।",
+      "sentence": [
+        {
+          "sentence": "Flashcards are an effective way to learn vocabulary.",
+          "translation": "शब्दावली सीखने के लिए फ्लैशकार्ड एक प्रभावी तरीका है।"
+        },
+        {
+          "sentence": "This study technique is very effective for long-term memory.",
+          "translation": "यह अध्ययन तकनीक दीर्घकालिक स्मृति के लिए बहुत प्रभावी है।"
+        }
+      ]
+    },
+    {
+      "word": "schedule",
+      "phoneticRespelling": "SKEJ-ool",
+      "translation": "समय सारिणी",
+      "definition": "A plan that lists all the work that you have to do and when you must do each thing.",
+      "definationTranslation": "एक योजना जो उन सभी कामों को सूचीबद्ध करती है जो आपको करने हैं और आपको हर काम कब करना है।",
+      "sentence": [
+        {
+          "sentence": "I have a very busy study schedule this week.",
+          "translation": "इस सप्ताह मेरा पढ़ाई का शेड्यूल बहुत व्यस्त है।"
+        },
+        {
+          "sentence": "Try to stick to your daily schedule as much as possible.",
+          "translation": "जितना हो सके अपनी दैनिक समय सारिणी का पालन करने का प्रयास करें।"
+        }
+      ]
+    },
+    {
+      "word": "active recall",
+      "phoneticRespelling": "AK-tiv REE-kawl",
+      "translation": "सक्रिय स्मरण",
+      "definition": "A study method where you test yourself instead of just reading.",
+      "definationTranslation": "एक अध्ययन पद्धति जहाँ आप केवल पढ़ने के बजाय स्वयं का परीक्षण करते हैं।",
+      "sentence": [
+        {
+          "sentence": "Active recall is much better than passive reading.",
+          "translation": "सक्रिय स्मरण निष्क्रिय पढ़ने की तुलना में बहुत बेहतर है।"
+        },
+        {
+          "sentence": "I use active recall to remember difficult concepts.",
+          "translation": "मैं कठिन अवधारणाओं को याद रखने के लिए सक्रिय स्मरण का उपयोग करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "resource",
+      "phoneticRespelling": "REE-sawrs",
+      "translation": "संसाधन",
+      "definition": "A source of information or help, such as a book or website.",
+      "definationTranslation": "सूचना या सहायता का एक स्रोत, जैसे कि कोई पुस्तक या वेबसाइट।",
+      "sentence": [
+        {
+          "sentence": "The internet is a great resource for learning English.",
+          "translation": "अंग्रेजी सीखने के लिए इंटरनेट एक बेहतरीन संसाधन है।"
+        },
+        {
+          "sentence": "You should use all the library resources available to you.",
+          "translation": "आपको अपने लिए उपलब्ध पुस्तकालय के सभी संसाधनों का उपयोग करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "analyze",
+      "phoneticRespelling": "AN-l-ahyz",
+      "translation": "विश्लेषण करना",
+      "definition": "To examine something in detail to understand it better.",
+      "definationTranslation": "किसी चीज़ को बेहतर ढंग से समझने के लिए उसका विस्तार से परीक्षण करना।",
+      "sentence": [
+        {
+          "sentence": "We need to analyze the data before writing the report.",
+          "translation": "रिपोर्ट लिखने से पहले हमें डेटा का विश्लेषण करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "Try to analyze your mistakes so you don't repeat them.",
+          "translation": "अपनी गलतियों का विश्लेषण करने की कोशिश करें ताकि आप उन्हें दोहराएं नहीं।"
+        }
+      ]
+    },
+    {
+      "word": "comprehension",
+      "phoneticRespelling": "kom-pri-HEN-shuhn",
+      "translation": "समझ",
+      "definition": "The ability to understand something fully.",
+      "definationTranslation": "किसी चीज़ को पूरी तरह समझने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Reading daily improves your reading comprehension skills.",
+          "translation": "प्रतिदिन पढ़ने से आपके पढ़ने की समझ के कौशल में सुधार होता है।"
+        },
+        {
+          "sentence": "The exam tests your listening comprehension.",
+          "translation": "परीक्षा आपके सुनने की समझ का परीक्षण करती है।"
+        }
+      ]
+    },
+    {
+      "word": "deadline",
+      "phoneticRespelling": "DED-lahyn",
+      "translation": "अंतिम समय सीमा",
+      "definition": "A time or day by which something must be done.",
+      "definationTranslation": "वह समय या दिन जब तक कोई काम पूरा हो जाना चाहिए।",
+      "sentence": [
+        {
+          "sentence": "I must finish my assignment before the deadline.",
+          "translation": "मुझे समय सीमा से पहले अपना असाइनमेंट पूरा करना होगा।"
+        },
+        {
+          "sentence": "The deadline for the project is Friday.",
+          "translation": "प्रोजेक्ट की समय सीमा शुक्रवार है।"
+        }
+      ]
+    },
+    {
+      "word": "evaluation",
+      "phoneticRespelling": "ih-val-yoo-EY-shuhn",
+      "translation": "मूल्यांकन",
+      "definition": "The process of judging the quality or importance of something.",
+      "definationTranslation": "किसी चीज़ की गुणवत्ता या महत्व को आंकने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Self-evaluation helps you identify your weaknesses.",
+          "translation": "स्व-मूल्यांकन आपको अपनी कमजोरियों को पहचानने में मदद करता है।"
+        },
+        {
+          "sentence": "The teacher gave an honest evaluation of my performance.",
+          "translation": "शिक्षक ने मेरे प्रदर्शन का ईमानदार मूल्यांकन किया।"
+        }
+      ]
+    },
+    {
+      "word": "clarify",
+      "phoneticRespelling": "KLAR-uh-fahy",
+      "translation": "स्पष्ट करना",
+      "definition": "To make something easier to understand by explaining it clearly.",
+      "definationTranslation": "स्पष्ट रूप से समझाकर किसी चीज़ को समझना आसान बनाना।",
+      "sentence": [
+        {
+          "sentence": "Could you clarify the last point of the lesson?",
+          "translation": "क्या आप पाठ के अंतिम बिंदु को स्पष्ट कर सकते हैं?"
+        },
+        {
+          "sentence": "I asked the teacher to clarify the instructions.",
+          "translation": "मैंने शिक्षक से निर्देशों को स्पष्ट करने के लिए कहा।"
+        }
+      ]
+    },
+    {
+      "word": "elaborate",
+      "phoneticRespelling": "ih-LAB-uh-reyt",
+      "translation": "विस्तार से बताना",
+      "definition": "To add more information or explain something in more detail.",
+      "definationTranslation": "अधिक जानकारी जोड़ना या किसी चीज़ को अधिक विस्तार से समझाना।",
+      "sentence": [
+        {
+          "sentence": "Can you elaborate on your answer?",
+          "translation": "क्या आप अपने उत्तर को विस्तार से बता सकते हैं?"
+        },
+        {
+          "sentence": "She refused to elaborate on her study plans.",
+          "translation": "उसने अपनी अध्ययन योजनाओं के बारे में विस्तार से बताने से इनकार कर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "procrastinate",
+      "phoneticRespelling": "proh-KRAS-tuh-neyt",
+      "translation": "टालमटोल करना",
+      "definition": "To keep delaying something that must be done, often because it is unpleasant.",
+      "definationTranslation": "किसी ऐसे काम में देरी करते रहना जो किया जाना चाहिए, अक्सर इसलिए क्योंकि वह अप्रिय है।",
+      "sentence": [
+        {
+          "sentence": "Don't procrastinate; start your essay today.",
+          "translation": "टालमटोल न करें; अपना निबंध आज ही शुरू करें।"
+        },
+        {
+          "sentence": "I used to procrastinate a lot, but now I use a timer.",
+          "translation": "मैं पहले बहुत टालमटोल करता था, लेकिन अब मैं टाइमर का उपयोग करता हूँ।"
+        }
+      ]
+    }
+  ]
 }

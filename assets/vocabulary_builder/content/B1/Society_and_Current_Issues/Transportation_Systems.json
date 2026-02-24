@@ -1,4 +1,345 @@
 {
   "topic": "Transportation Systems",
-  "words": []
+  "words": [
+    {
+      "word": "commute",
+      "phoneticRespelling": "kuh-MYOOT",
+      "translation": "आवागमन / सफर",
+      "definition": "To travel some distance between one's home and place of work on a regular basis.",
+      "definationTranslation": "नियमित रूप से अपने घर और कार्यस्थल के बीच कुछ दूरी की यात्रा करना।",
+      "sentence": [
+        {
+          "sentence": "My daily commute takes about forty-five minutes by train.",
+          "translation": "मेरे दैनिक आवागमन में ट्रेन से लगभग पैंतालीस मिनट लगते हैं।"
+        },
+        {
+          "sentence": "Many people prefer to work from home to avoid the long commute.",
+          "translation": "बहुत से लोग लंबे सफर से बचने के लिए घर से काम करना पसंद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "congestion",
+      "phoneticRespelling": "kuhn-JES-chun",
+      "translation": "भीड़भाड़ / जाम",
+      "definition": "The state of being extremely full or blocked, especially with traffic.",
+      "definationTranslation": "अत्यधिक भरा हुआ या अवरुद्ध होने की स्थिति, विशेष रूप से यातायात के साथ।",
+      "sentence": [
+        {
+          "sentence": "Traffic congestion in the city center is getting worse every year.",
+          "translation": "शहर के केंद्र में यातायात की भीड़भाड़ हर साल खराब होती जा रही है।"
+        },
+        {
+          "sentence": "The new highway was built to reduce congestion on local roads.",
+          "translation": "स्थानीय सड़कों पर जाम कम करने के लिए नया हाईवे बनाया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "transit",
+      "phoneticRespelling": "TRAN-zit",
+      "translation": "पारगमन / पारवहन",
+      "definition": "The carrying of people or goods from one place to another, especially on public transport.",
+      "definationTranslation": "लोगों या सामान को एक स्थान से दूसरे स्थान तक ले जाना, विशेष रूप से सार्वजनिक परिवहन पर।",
+      "sentence": [
+        {
+          "sentence": "The city's rapid transit system includes buses, trams, and subways.",
+          "translation": "शहर की रैपिड ट्रांजिट प्रणाली में बसें, ट्राम और सबवे शामिल हैं।"
+        },
+        {
+          "sentence": "Goods are often damaged while in transit if not packed correctly.",
+          "translation": "यदि सही ढंग से पैक न किया जाए तो पारगमन के दौरान सामान अक्सर क्षतिग्रस्त हो जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "pedestrian",
+      "phoneticRespelling": "puh-DES-tree-uhn",
+      "translation": "पैदल यात्री",
+      "definition": "A person walking rather than traveling in a vehicle.",
+      "definationTranslation": "वाहन में यात्रा करने के बजाय पैदल चलने वाला व्यक्ति।",
+      "sentence": [
+        {
+          "sentence": "The government is planning to create more pedestrian zones in the town.",
+          "translation": "सरकार शहर में अधिक पैदल यात्री क्षेत्र बनाने की योजना बना रही है।"
+        },
+        {
+          "sentence": "Drivers must always stop for pedestrians at the crosswalk.",
+          "translation": "ड्राइवरों को क्रॉसवाक पर पैदल यात्रियों के लिए हमेशा रुकना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "interchange",
+      "phoneticRespelling": "IN-ter-cheynj",
+      "translation": "अंर्तबदल केंद्र / जंक्शन",
+      "definition": "A station where different public transport routes or systems meet.",
+      "definationTranslation": "एक स्टेशन जहाँ विभिन्न सार्वजनिक परिवहन मार्ग या प्रणालियाँ मिलती हैं।",
+      "sentence": [
+        {
+          "sentence": "You need to change trains at the next interchange station.",
+          "translation": "आपको अगले इंटरचेंज स्टेशन पर ट्रेन बदलनी होगी।"
+        },
+        {
+          "sentence": "The bus interchange is located right next to the shopping mall.",
+          "translation": "बस इंटरचेंज शॉपिंग मॉल के ठीक बगल में स्थित है।"
+        }
+      ]
+    },
+    {
+      "word": "fare",
+      "phoneticRespelling": "FAIR",
+      "translation": "किराया",
+      "definition": "The money a passenger on public transportation has to pay.",
+      "definationTranslation": "सार्वजनिक परिवहन पर एक यात्री को दिया जाने वाला पैसा।",
+      "sentence": [
+        {
+          "sentence": "The bus fare has increased by ten percent this month.",
+          "translation": "इस महीने बस के किराए में दस प्रतिशत की वृद्धि हुई है।"
+        },
+        {
+          "sentence": "Children under five years old can travel for half fare.",
+          "translation": "पाँच साल से कम उम्र के बच्चे आधे किराए पर यात्रा कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "terminal",
+      "phoneticRespelling": "TUR-muh-nl",
+      "translation": "टर्मिनल / अंतिम स्टेशन",
+      "definition": "A departure and arrival point for planes, trains, or buses.",
+      "definationTranslation": "विमानों, ट्रेनों या बसों के प्रस्थान और आगमन का बिंदु।",
+      "sentence": [
+        {
+          "sentence": "Our flight departs from Terminal 3 of the international airport.",
+          "translation": "हमारी उड़ान अंतरराष्ट्रीय हवाई अड्डे के टर्मिनल 3 से प्रस्थान करती है।"
+        },
+        {
+          "sentence": "The bus terminal is crowded during the holiday season.",
+          "translation": "त्योहारों के सीजन में बस टर्मिनल पर भीड़ रहती है।"
+        }
+      ]
+    },
+    {
+      "word": "logistics",
+      "phoneticRespelling": "loh-JIS-tiks",
+      "translation": "रसद / संभार-तंत्र",
+      "definition": "The detailed coordination of a complex operation involving many people, facilities, or supplies.",
+      "definationTranslation": "कई लोगों, सुविधाओं या आपूर्तियों से जुड़े एक जटिल ऑपरेशन का विस्तृत समन्वय।",
+      "sentence": [
+        {
+          "sentence": "He works in logistics, managing the delivery of goods across the country.",
+          "translation": "वह रसद में काम करता है, देश भर में सामानों की डिलीवरी का प्रबंधन करता है।"
+        },
+        {
+          "sentence": "The logistics of moving a whole family abroad are very difficult.",
+          "translation": "पूरे परिवार को विदेश ले जाने की रसद बहुत कठिन है।"
+        }
+      ]
+    },
+    {
+      "word": "freight",
+      "phoneticRespelling": "FREYT",
+      "translation": "माल / माल ढुलाई",
+      "definition": "Goods transported in bulk by truck, train, ship, or aircraft.",
+      "definationTranslation": "ट्रक, ट्रेन, जहाज या विमान द्वारा थोक में ले जाया जाने वाला सामान।",
+      "sentence": [
+        {
+          "sentence": "Freight trains are used to carry heavy materials like coal and steel.",
+          "translation": "मालगाड़ियों का उपयोग कोयले और स्टील जैसी भारी सामग्री ले जाने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "The cost of air freight is much higher than sea freight.",
+          "translation": "हवाई माल ढुलाई की लागत समुद्री माल ढुलाई की तुलना में बहुत अधिक है।"
+        }
+      ]
+    },
+    {
+      "word": "accessible",
+      "phoneticRespelling": "ak-SES-uh-buhl",
+      "translation": "सुलभ / पहुँच योग्य",
+      "definition": "Able to be reached or used easily by everyone, including people with disabilities.",
+      "definationTranslation": "विकलांग लोगों सहित सभी के द्वारा आसानी से पहुँचा या उपयोग किया जा सकने वाला।",
+      "sentence": [
+        {
+          "sentence": "All public buses in the city are now wheelchair accessible.",
+          "translation": "शहर की सभी सार्वजनिक बसें अब व्हीलचेयर सुलभ हैं।"
+        },
+        {
+          "sentence": "The station is easily accessible from the main highway.",
+          "translation": "मुख्य हाईवे से स्टेशन तक आसानी से पहुँचा जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "timetable",
+      "phoneticRespelling": "TAHYM-tey-buhl",
+      "translation": "समय-सारणी",
+      "definition": "A chart showing the times at which trains, buses, or planes leave and arrive.",
+      "definationTranslation": "ट्रेनों, बसों या विमानों के जाने और आने का समय दिखाने वाला चार्ट।",
+      "sentence": [
+        {
+          "sentence": "Please check the train timetable before heading to the station.",
+          "translation": "स्टेशन जाने से पहले कृपया ट्रेन की समय-सारणी देख लें।"
+        },
+        {
+          "sentence": "The bus company recently changed its summer timetable.",
+          "translation": "बस कंपनी ने हाल ही में अपनी ग्रीष्मकालीन समय-सारणी बदली है।"
+        }
+      ]
+    },
+    {
+      "word": "infrastructure",
+      "phoneticRespelling": "IN-fruh-struk-cher",
+      "translation": "बुनियादी ढांचा",
+      "definition": "The basic systems and services, such as transport and power, that a country uses.",
+      "definationTranslation": "बुनियादी प्रणालियाँ और सेवाएँ, जैसे परिवहन और बिजली, जिनका उपयोग कोई देश करता है।",
+      "sentence": [
+        {
+          "sentence": "Good transport infrastructure attracts new businesses to the area.",
+          "translation": "अच्छा परिवहन बुनियादी ढांचा क्षेत्र में नए व्यवसायों को आकर्षित करता है।"
+        },
+        {
+          "sentence": "The city needs to update its aging subway infrastructure.",
+          "translation": "शहर को अपने पुराने सबवे बुनियादी ढांचे को अपडेट करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "sustainable",
+      "phoneticRespelling": "suh-STEY-nuh-buhl",
+      "translation": "सतत / टिकाऊ",
+      "definition": "Involving methods that do not completely use up or destroy natural resources.",
+      "definationTranslation": "ऐसी विधियों को शामिल करना जो प्राकृतिक संसाधनों का पूरी तरह से उपयोग या विनाश नहीं करती हैं।",
+      "sentence": [
+        {
+          "sentence": "Electric bikes are a more sustainable form of transportation.",
+          "translation": "इलेक्ट्रिक बाइक परिवहन का एक अधिक टिकाऊ रूप हैं।"
+        },
+        {
+          "sentence": "The goal is to create a sustainable public transport network.",
+          "translation": "लक्ष्य एक टिकाऊ सार्वजनिक परिवहन नेटवर्क बनाना है।"
+        }
+      ]
+    },
+    {
+      "word": "shuttle",
+      "phoneticRespelling": "SHUT-l",
+      "translation": "शटल / आने-जाने वाली सेवा",
+      "definition": "A vehicle that travels regularly between two places.",
+      "definationTranslation": "एक वाहन जो नियमित रूप से दो स्थानों के बीच यात्रा करता है।",
+      "sentence": [
+        {
+          "sentence": "The hotel provides a free shuttle service to the airport.",
+          "translation": "होटल हवाई अड्डे के लिए मुफ्त शटल सेवा प्रदान करता है।"
+        },
+        {
+          "sentence": "A shuttle bus runs between the parking lot and the stadium.",
+          "translation": "पार्किंग स्थल और स्टेडियम के बीच एक शटल बस चलती है।"
+        }
+      ]
+    },
+    {
+      "word": "efficiency",
+      "phoneticRespelling": "ih-FISH-uhn-see",
+      "translation": "कार्यक्षमता / दक्षता",
+      "definition": "The ability to do something well or achieve a result without wasting time or resources.",
+      "definationTranslation": "समय या संसाधनों को बर्बाद किए बिना कुछ अच्छा करने या परिणाम प्राप्त करने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "New technology has improved the efficiency of the rail network.",
+          "translation": "नई तकनीक ने रेल नेटवर्क की कार्यक्षमता में सुधार किया है।"
+        },
+        {
+          "sentence": "We need to improve fuel efficiency to save money and the environment.",
+          "translation": "हमें पैसे और पर्यावरण बचाने के लिए ईंधन दक्षता में सुधार करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "navigation",
+      "phoneticRespelling": "nav-i-GEY-shun",
+      "translation": "मार्गदर्शन / नेविगेशन",
+      "definition": "The process or activity of accurately finding one's way through an area.",
+      "definationTranslation": "किसी क्षेत्र के माध्यम से अपना रास्ता सटीक रूप से खोजने की प्रक्रिया या गतिविधि।",
+      "sentence": [
+        {
+          "sentence": "Satellite navigation helps drivers find the fastest route.",
+          "translation": "सैटेलाइट नेविगेशन ड्राइवरों को सबसे तेज़ रास्ता खोजने में मदद करता है।"
+        },
+        {
+          "sentence": "The pilot is responsible for the safe navigation of the aircraft.",
+          "translation": "पायलट विमान के सुरक्षित नेविगेशन के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "autonomous",
+      "phoneticRespelling": "aw-TON-uh-muhs",
+      "translation": "स्वायत्त / स्व-चालित",
+      "definition": "Acting independently or having the freedom to do so; often refers to self-driving vehicles.",
+      "definationTranslation": "स्वतंत्र रूप से कार्य करना; अक्सर स्व-चालित वाहनों को संदर्भित करता है।",
+      "sentence": [
+        {
+          "sentence": "Autonomous cars could significantly reduce road accidents in the future.",
+          "translation": "स्वायत्त कारें भविष्य में सड़क दुर्घटनाओं को काफी कम कर सकती हैं।"
+        },
+        {
+          "sentence": "The airport is testing autonomous shuttles for moving passengers.",
+          "translation": "हवाई अड्डा यात्रियों को ले जाने के लिए स्वायत्त शटल का परीक्षण कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "fleet",
+      "phoneticRespelling": "FLEET",
+      "translation": "बेड़ा / बेड़े",
+      "definition": "A group of vehicles, such as buses or ships, owned or operated by one company.",
+      "definationTranslation": "एक ही कंपनी के स्वामित्व या संचालन वाले वाहनों का एक समूह, जैसे बसें या जहाज।",
+      "sentence": [
+        {
+          "sentence": "The taxi company is replacing its entire fleet with hybrid cars.",
+          "translation": "टैक्सी कंपनी अपने पूरे बेड़े को हाइब्रिड कारों से बदल रही है।"
+        },
+        {
+          "sentence": "Managing a large fleet of delivery trucks requires careful planning.",
+          "translation": "डिलीवरी ट्रकों के एक बड़े बेड़े के प्रबंधन के लिए सावधानीपूर्वक योजना की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "reliability",
+      "phoneticRespelling": "ri-lahy-uh-BIL-i-tee",
+      "translation": "विश्वसनीयता",
+      "definition": "The quality of being trustworthy or performing consistently well.",
+      "definationTranslation": "भरोसेमंद होने या लगातार अच्छा प्रदर्शन करने का गुण।",
+      "sentence": [
+        {
+          "sentence": "The reliability of public transport is a major concern for commuters.",
+          "translation": "सार्वजनिक परिवहन की विश्वसनीयता यात्रियों के लिए एक प्रमुख चिंता का विषय है।"
+        },
+        {
+          "sentence": "The new engines are known for their high reliability and low maintenance.",
+          "translation": "नए इंजन अपनी उच्च विश्वसनीयता और कम रखरखाव के लिए जाने जाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "emission",
+      "phoneticRespelling": "ih-MISH-uhn",
+      "translation": "निकासी / उत्सर्जन",
+      "definition": "The production and discharge of something, especially gas or radiation.",
+      "definationTranslation": "किसी चीज़ का उत्पादन और निर्वहन, विशेष रूप से गैस या विकिरण।",
+      "sentence": [
+        {
+          "sentence": "The government wants to reduce carbon emissions from transport by 50%.",
+          "translation": "सरकार परिवहन से होने वाले कार्बन उत्सर्जन को 50% तक कम करना चाहती है।"
+        },
+        {
+          "sentence": "Low-emission zones restrict older, polluting vehicles from the city center.",
+          "translation": "कम उत्सर्जन वाले क्षेत्र पुराने, प्रदूषण फैलाने वाले वाहनों को शहर के केंद्र से प्रतिबंधित करते हैं।"
+        }
+      ]
+    }
+  ]
 }

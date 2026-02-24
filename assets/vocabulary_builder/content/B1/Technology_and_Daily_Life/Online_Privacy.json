@@ -1,4 +1,345 @@
 {
   "topic": "Online Privacy",
-  "words": []
+  "words": [
+    {
+      "word": "anonymity",
+      "phoneticRespelling": "an-uh-NIM-i-tee",
+      "translation": "गुमनामी",
+      "definition": "The state of being unknown or unidentifiable online.",
+      "definationTranslation": "ऑनलाइन अज्ञात या पहचानने योग्य न होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "Some users prefer anonymity to protect their personal views.",
+          "translation": "कुछ उपयोगकर्ता अपने व्यक्तिगत विचारों की रक्षा के लिए गुमनामी पसंद करते हैं।"
+        },
+        {
+          "sentence": "A VPN can help you maintain your anonymity.",
+          "translation": "एक वीपीएन आपकी गुमनामी बनाए रखने में मदद कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "cookies",
+      "phoneticRespelling": "KOOK-eez",
+      "translation": "कुकीज़",
+      "definition": "Small files stored on your computer by websites to track your activity.",
+      "definationTranslation": "आपकी गतिविधि को ट्रैक करने के लिए वेबसाइटों द्वारा आपके कंप्यूटर पर संग्रहीत छोटी फाइलें।",
+      "sentence": [
+        {
+          "sentence": "You can clear your cookies to improve your privacy.",
+          "translation": "आप अपनी गोपनीयता सुधारने के लिए अपनी कुकीज़ मिटा सकते हैं।"
+        },
+        {
+          "sentence": "Websites use cookies to remember your login details.",
+          "translation": "वेबसाइटें आपके लॉगिन विवरण को याद रखने के लिए कुकीज़ का उपयोग करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "encryption",
+      "phoneticRespelling": "en-KRIP-shuhn",
+      "translation": "एन्क्रिप्शन",
+      "definition": "A way of scrambling data so that only authorized people can read it.",
+      "definationTranslation": "डेटा को कूटबद्ध करने का एक तरीका ताकि केवल अधिकृत लोग ही इसे पढ़ सकें।",
+      "sentence": [
+        {
+          "sentence": "Encryption is essential for safe online banking.",
+          "translation": "सुरक्षित ऑनलाइन बैंकिंग के लिए एन्क्रिप्शन आवश्यक है।"
+        },
+        {
+          "sentence": "The app uses end-to-end encryption for all chats.",
+          "translation": "ऐप सभी चैट के लिए एंड-टू-एंड एन्क्रिप्शन का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "tracking",
+      "phoneticRespelling": "TRAK-ing",
+      "translation": "ट्रैकिंग / पीछा करना",
+      "definition": "The act of following a user's behavior across the internet.",
+      "definationTranslation": "इंटरनेट पर उपयोगकर्ता के व्यवहार पर नज़र रखने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "Many apps use tracking to show you targeted ads.",
+          "translation": "कई ऐप आपको लक्षित विज्ञापन दिखाने के लिए ट्रैकिंग का उपयोग करते हैं।"
+        },
+        {
+          "sentence": "You can disable ad tracking in your phone's settings.",
+          "translation": "आप अपने फोन की सेटिंग्स में विज्ञापन ट्रैकिंग को अक्षम कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "surveillance",
+      "phoneticRespelling": "ser-VAY-luhns",
+      "translation": "निगरानी",
+      "definition": "The careful watching of someone, especially by the police or government.",
+      "definationTranslation": "किसी की सावधानीपूर्वक निगरानी, विशेष रूप से पुलिस या सरकार द्वारा।",
+      "sentence": [
+        {
+          "sentence": "Some people worry about government surveillance on the internet.",
+          "translation": "कुछ लोग इंटरनेट पर सरकारी निगरानी के बारे में चिंता करते हैं।"
+        },
+        {
+          "sentence": "The security camera provides constant surveillance.",
+          "translation": "सुरक्षा कैमरा निरंतर निगरानी प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "breach",
+      "phoneticRespelling": "BREECH",
+      "translation": "उल्लंघन / सेंध",
+      "definition": "An event where private data is exposed or stolen.",
+      "definationTranslation": "ऐसी घटना जहाँ निजी डेटा उजागर या चोरी हो जाता है।",
+      "sentence": [
+        {
+          "sentence": "The company suffered a major data breach last month.",
+          "translation": "पिछले महीने कंपनी को एक बड़े डेटा उल्लंघन का सामना करना पड़ा।"
+        },
+        {
+          "sentence": "Change your password if there is a security breach.",
+          "translation": "यदि सुरक्षा में सेंध लगती है, तो अपना पासवर्ड बदलें।"
+        }
+      ]
+    },
+    {
+      "word": "permission",
+      "phoneticRespelling": "per-MISH-uhn",
+      "translation": "अनुमति",
+      "definition": "Approval to access certain features or data on a device.",
+      "definationTranslation": "डिवाइस पर कुछ सुविधाओं या डेटा तक पहुंचने की मंजूरी।",
+      "sentence": [
+        {
+          "sentence": "The app asked for permission to access my location.",
+          "translation": "ऐप ने मेरे स्थान तक पहुंचने की अनुमति मांगी।"
+        },
+        {
+          "sentence": "Only grant permission to apps you trust.",
+          "translation": "केवल उन्हीं ऐप्स को अनुमति दें जिन पर आप भरोसा करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "policy",
+      "phoneticRespelling": "POL-uh-see",
+      "translation": "नीति",
+      "definition": "A set of rules describing how a company handles your data.",
+      "definationTranslation": "नियमों का एक समूह जो बताता है कि कंपनी आपके डेटा को कैसे संभालती है।",
+      "sentence": [
+        {
+          "sentence": "Always read the privacy policy before signing up.",
+          "translation": "साइन अप करने से पहले हमेशा गोपनीयता नीति पढ़ें।"
+        },
+        {
+          "sentence": "The new policy protects user data more strictly.",
+          "translation": "नई नीति उपयोगकर्ता डेटा की अधिक कड़ाई से रक्षा करती है।"
+        }
+      ]
+    },
+    {
+      "word": "leak",
+      "phoneticRespelling": "LEEK",
+      "translation": "रिसाव / लीक",
+      "definition": "The accidental disclosure of private information.",
+      "definationTranslation": "निजी जानकारी का आकस्मिक खुलासा।",
+      "sentence": [
+        {
+          "sentence": "A data leak can ruin a company's reputation.",
+          "translation": "डेटा लीक कंपनी की प्रतिष्ठा को खराब कर सकता है।"
+        },
+        {
+          "sentence": "Private photos were found in the recent information leak.",
+          "translation": "हालिया सूचना लीक में निजी तस्वीरें मिलीं।"
+        }
+      ]
+    },
+    {
+      "word": "incognito",
+      "phoneticRespelling": "in-kog-NEE-toh",
+      "translation": "गुप्त / इन्कोग्निटो",
+      "definition": "A web browser mode that does not save your history or cookies.",
+      "definationTranslation": "एक वेब ब्राउज़र मोड जो आपके इतिहास या कुकीज़ को सहेजता नहीं है।",
+      "sentence": [
+        {
+          "sentence": "Use incognito mode if you are on a public computer.",
+          "translation": "यदि आप सार्वजनिक कंप्यूटर पर हैं तो इन्कोग्निटो मोड का उपयोग करें।"
+        },
+        {
+          "sentence": "Incognito mode doesn't make you completely invisible.",
+          "translation": "इन्कोग्निटो मोड आपको पूरी तरह से अदृश्य नहीं बनाता है।"
+        }
+      ]
+    },
+    {
+      "word": "identity",
+      "phoneticRespelling": "ahy-DEN-ti-tee",
+      "translation": "पहचान",
+      "definition": "The personal information that makes you who you are.",
+      "definationTranslation": "व्यक्तिगत जानकारी जो आपको वह बनाती है जो आप हैं।",
+      "sentence": [
+        {
+          "sentence": "Protect your identity by using strong passwords.",
+          "translation": "मजबूत पासवर्ड का उपयोग करके अपनी पहचान सुरक्षित रखें।"
+        },
+        {
+          "sentence": "Identity theft is a growing problem worldwide.",
+          "translation": "पहचान की चोरी दुनिया भर में एक बढ़ती हुई समस्या है।"
+        }
+      ]
+    },
+    {
+      "word": "consent",
+      "phoneticRespelling": "kuhn-SENT",
+      "translation": "सहमति",
+      "definition": "Permission for something to happen or agreement to do something.",
+      "definationTranslation": "कुछ होने के लिए अनुमति या कुछ करने के लिए समझौता।",
+      "sentence": [
+        {
+          "sentence": "The app must ask for your consent before sharing data.",
+          "translation": "डेटा साझा करने से पहले ऐप को आपकी सहमति मांगनी होगी।"
+        },
+        {
+          "sentence": "You have the right to withdraw your consent at any time.",
+          "translation": "आपके पास किसी भी समय अपनी सहमति वापस लेने का अधिकार है।"
+        }
+      ]
+    },
+    {
+      "word": "exposure",
+      "phoneticRespelling": "ik-SPOH-zher",
+      "translation": "जोखिम / अनावृत्ति",
+      "definition": "The state of being vulnerable to cyber threats or data theft.",
+      "definationTranslation": "साइबर खतरों या डेटा चोरी के प्रति संवेदनशील होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "Posting too much online increases your risk of exposure.",
+          "translation": "ऑनलाइन बहुत अधिक पोस्ट करना आपके जोखिम को बढ़ाता है।"
+        },
+        {
+          "sentence": "The leak led to the exposure of thousands of emails.",
+          "translation": "लीक के कारण हजारों ईमेल उजागर हो गए।"
+        }
+      ]
+    },
+    {
+      "word": "secure",
+      "phoneticRespelling": "si-KYOOR",
+      "translation": "सुरक्षित",
+      "definition": "Protected against danger or unauthorized access.",
+      "definationTranslation": "खतरे या अनधिकृत पहुंच से सुरक्षित।",
+      "sentence": [
+        {
+          "sentence": "Always use a secure connection for private tasks.",
+          "translation": "निजी कार्यों के लिए हमेशा सुरक्षित कनेक्शन का उपयोग करें।"
+        },
+        {
+          "sentence": "Is your home Wi-Fi secure?",
+          "translation": "क्या आपका होम वाई-फाई सुरक्षित है?"
+        }
+      ]
+    },
+    {
+      "word": "metadata",
+      "phoneticRespelling": "MET-uh-dey-tuh",
+      "translation": "मेटाडेटा",
+      "definition": "Data that describes other data, such as the time a photo was taken.",
+      "definationTranslation": "डेटा जो अन्य डेटा का वर्णन करता है, जैसे फोटो लेने का समय।",
+      "sentence": [
+        {
+          "sentence": "Metadata can reveal your location even if you don't say it.",
+          "translation": "मेटाडेटा आपके स्थान को प्रकट कर सकता है भले ही आप इसे न बताएं।"
+        },
+        {
+          "sentence": "The app removes metadata before uploading your files.",
+          "translation": "ऐप आपकी फ़ाइलों को अपलोड करने से पहले मेटाडेटा हटा देता है।"
+        }
+      ]
+    },
+    {
+      "word": "sensitive",
+      "phoneticRespelling": "SEN-si-tiv",
+      "translation": "संवेदनशील",
+      "definition": "Information that needs to be protected, such as health or financial records.",
+      "definationTranslation": "वह जानकारी जिसे सुरक्षित रखने की आवश्यकता है, जैसे स्वास्थ्य या वित्तीय रिकॉर्ड।",
+      "sentence": [
+        {
+          "sentence": "Be careful when sharing sensitive information online.",
+          "translation": "ऑनलाइन संवेदनशील जानकारी साझा करते समय सावधान रहें।"
+        },
+        {
+          "sentence": "The hacker gained access to sensitive government data.",
+          "translation": "हैकर ने संवेदनशील सरकारी डेटा तक पहुंच प्राप्त कर ली।"
+        }
+      ]
+    },
+    {
+      "word": "block",
+      "phoneticRespelling": "BLOK",
+      "translation": "ब्लॉक करना / रोकना",
+      "definition": "To stop something from happening or someone from contacting you.",
+      "definationTranslation": "कुछ होने से रोकना या किसी को आपसे संपर्क करने से रोकना।",
+      "sentence": [
+        {
+          "sentence": "I decided to block the suspicious user.",
+          "translation": "मैंने संदिग्ध उपयोगकर्ता को ब्लॉक करने का फैसला किया।"
+        },
+        {
+          "sentence": "You can use an extension to block ads.",
+          "translation": "आप विज्ञापनों को रोकने के लिए एक्सटेंशन का उपयोग कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "terms",
+      "phoneticRespelling": "TURMZ",
+      "translation": "शर्तें",
+      "definition": "The legal conditions you agree to when using a service.",
+      "definationTranslation": "किसी सेवा का उपयोग करते समय आप जिन कानूनी शर्तों से सहमत होते हैं।",
+      "sentence": [
+        {
+          "sentence": "By clicking 'Agree', you accept the terms of service.",
+          "translation": "'सहमत' पर क्लिक करके, आप सेवा की शर्तों को स्वीकार करते हैं।"
+        },
+        {
+          "sentence": "The terms clearly state how your data is used.",
+          "translation": "शर्तें स्पष्ट रूप से बताती हैं कि आपके डेटा का उपयोग कैसे किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "outsource",
+      "phoneticRespelling": "OUT-sawrs",
+      "translation": "बाहरी स्रोत से काम लेना",
+      "definition": "When a company pays another company to handle its data or tasks.",
+      "definationTranslation": "जब कोई कंपनी अपने डेटा या कार्यों को संभालने के लिए दूसरी कंपनी को भुगतान करती है।",
+      "sentence": [
+        {
+          "sentence": "Some companies outsource their data storage to cloud providers.",
+          "translation": "कुछ कंपनियां अपना डेटा स्टोरेज क्लाउड प्रदाताओं को आउटसोर्स करती हैं।"
+        },
+        {
+          "sentence": "Outsourcing can sometimes lead to privacy risks.",
+          "translation": "आउटसोर्सिंग से कभी-कभी गोपनीयता जोखिम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "third-party",
+      "phoneticRespelling": "THURD-pahr-tee",
+      "translation": "तीसरा पक्ष / थर्ड-पार्टी",
+      "definition": "A company or person other than the user and the main app provider.",
+      "definationTranslation": "उपयोगकर्ता और मुख्य ऐप प्रदाता के अलावा कोई कंपनी या व्यक्ति।",
+      "sentence": [
+        {
+          "sentence": "The app shares information with third-party advertisers.",
+          "translation": "ऐप तीसरे पक्ष के विज्ञापनदाताओं के साथ जानकारी साझा करता है।"
+        },
+        {
+          "sentence": "Avoid installing software from third-party websites.",
+          "translation": "तीसरे पक्ष की वेबसाइटों से सॉफ़्टवेयर इंस्टॉल करने से बचें।"
+        }
+      ]
+    }
+  ]
 }
