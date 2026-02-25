@@ -553,115 +553,117 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
                 ),
               ],
       ),
-      body: Obx(() {
-        if (_vocabController.isLoadingTopicWords.value) {
-          return Center(
-            child: CircularProgressIndicator(color: widget.accent),
-          );
-        }
-
-        final words = _vocabController.currentTopicWords.value.words;
-
-        if (words.isEmpty) {
-          return Center(
-            child: Text(
-              AppStrings.vocabNoWordsFound.tr,
-              style: TextStyle(
-                color: ink.withValues(alpha: 0.5),
-                fontFamily: AppStrings.nunitoFont,
-                fontWeight: FontWeight.w600,
+      body: SafeArea(
+        child: Obx(() {
+          if (_vocabController.isLoadingTopicWords.value) {
+            return Center(
+              child: CircularProgressIndicator(color: widget.accent),
+            );
+          }
+        
+          final words = _vocabController.currentTopicWords.value.words;
+        
+          if (words.isEmpty) {
+            return Center(
+              child: Text(
+                AppStrings.vocabNoWordsFound.tr,
+                style: TextStyle(
+                  color: ink.withValues(alpha: 0.5),
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
-            ),
-          );
-        }
-
-        if (_showSummary) {
-          return _buildSummaryView(words.length);
-        }
-
-        return Column(
-          children: [
-            // Progress bar
-            Padding(
-              padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: TweenAnimationBuilder<double>(
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOutCubic,
-                      tween: Tween<double>(
-                        begin: 0,
-                        end: (_currentIndex + 1) / words.length,
-                      ),
-                      builder: (_, value, __) => ClipRRect(
-                        borderRadius: BorderRadius.circular(4),
-                        child: LinearProgressIndicator(
-                          value: value,
-                          backgroundColor:
-                              widget.accent.withValues(alpha: 0.12),
-                          color: widget.accent,
-                          minHeight: 5,
+            );
+          }
+        
+          if (_showSummary) {
+            return _buildSummaryView(words.length);
+          }
+        
+          return Column(
+            children: [
+              // Progress bar
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: TweenAnimationBuilder<double>(
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOutCubic,
+                        tween: Tween<double>(
+                          begin: 0,
+                          end: (_currentIndex + 1) / words.length,
+                        ),
+                        builder: (_, value, __) => ClipRRect(
+                          borderRadius: BorderRadius.circular(4),
+                          child: LinearProgressIndicator(
+                            value: value,
+                            backgroundColor:
+                                widget.accent.withValues(alpha: 0.12),
+                            color: widget.accent,
+                            minHeight: 5,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  const SizedBox(width: 12),
-                  Text(
-                    '${_currentIndex + 1} / ${words.length}',
-                    style: TextStyle(
-                      color: widget.accent,
-                      fontFamily: AppStrings.nunitoFont,
-                      fontWeight: FontWeight.w700,
-                      fontSize: 13,
+                    const SizedBox(width: 12),
+                    Text(
+                      '${_currentIndex + 1} / ${words.length}',
+                      style: TextStyle(
+                        color: widget.accent,
+                        fontFamily: AppStrings.nunitoFont,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 13,
+                      ),
                     ),
-                  ),
-                ],
-              ),
-            ),
-
-            // Word cards
-            Expanded(
-              child: PageView.builder(
-                controller: _pageController,
-                physics: const NeverScrollableScrollPhysics(),
-                itemCount: words.length,
-                onPageChanged: _onPageChanged,
-                itemBuilder: (context, i) => _WordCard(
-                  word: words[i],
-                  accent: widget.accent,
-                  isSpeaking: _isSpeaking,
-                  onSpeak: _speak,
-                  onSpeakSlow: _speakSlow,
+                  ],
                 ),
               ),
-            ),
-
-            // Fail message (only shown when answer is wrong)
-            AnimatedSize(
-              duration: const Duration(milliseconds: 300),
-              curve: Curves.easeOutCubic,
-              child: _scoreResult != null && !_scoreResult!.isPass
-                  ? _ResultPanel(
-                      transcript: _transcript,
-                      onTryAgain: () =>
-                          setState(() => _scoreResult = null),
-                    )
-                  : const SizedBox.shrink(),
-            ),
-
-            // Action row (mic)
-            _ActionRow(
-              accent: widget.accent,
-              isListening: _isListening,
-              pulseAnimation: _pulseAnimation,
-              onMic: _toggleMic,
-            ),
-
-            const SizedBox(height: 8),
-          ],
-        );
-      }),
+        
+              // Word cards
+              Expanded(
+                child: PageView.builder(
+                  controller: _pageController,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: words.length,
+                  onPageChanged: _onPageChanged,
+                  itemBuilder: (context, i) => _WordCard(
+                    word: words[i],
+                    accent: widget.accent,
+                    isSpeaking: _isSpeaking,
+                    onSpeak: _speak,
+                    onSpeakSlow: _speakSlow,
+                  ),
+                ),
+              ),
+        
+              // Fail message (only shown when answer is wrong)
+              AnimatedSize(
+                duration: const Duration(milliseconds: 300),
+                curve: Curves.easeOutCubic,
+                child: _scoreResult != null && !_scoreResult!.isPass
+                    ? _ResultPanel(
+                        transcript: _transcript,
+                        onTryAgain: () =>
+                            setState(() => _scoreResult = null),
+                      )
+                    : const SizedBox.shrink(),
+              ),
+        
+              // Action row (mic)
+              _ActionRow(
+                accent: widget.accent,
+                isListening: _isListening,
+                pulseAnimation: _pulseAnimation,
+                onMic: _toggleMic,
+              ),
+        
+              const SizedBox(height: 8),
+            ],
+          );
+        }),
+      ),
     );
   }
 }

@@ -88,72 +88,74 @@ class _CategoryScreenState extends State<CategoryScreen> {
           ),
         ),
       ),
-      body: Obx(() {
-        final level = c.currentEnglishVocabLevel.value;
-
-        if (level.categories.isEmpty) {
-          return const Center(child: CircularProgressIndicator());
-        }
-
-        final sections = _buildSections(level.categories);
-
-        return CustomScrollView(
-          slivers: [
-            // Header
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(20, 4, 20, 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      level.title,
-                      style: TextStyle(
-                        color: ink,
-                        fontFamily: AppStrings.nunitoFont,
-                        fontWeight: FontWeight.w900,
-                        fontSize: 24,
+      body: SafeArea(
+        child: Obx(() {
+          final level = c.currentEnglishVocabLevel.value;
+        
+          if (level.categories.isEmpty) {
+            return const Center(child: CircularProgressIndicator());
+          }
+        
+          final sections = _buildSections(level.categories);
+        
+          return CustomScrollView(
+            slivers: [
+              // Header
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 4, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        level.title,
+                        style: TextStyle(
+                          color: ink,
+                          fontFamily: AppStrings.nunitoFont,
+                          fontWeight: FontWeight.w900,
+                          fontSize: 24,
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      level.subtitle,
-                      style: TextStyle(
-                        color: ink.withValues(alpha: 0.5),
-                        fontFamily: AppStrings.nunitoFont,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 13,
+                      const SizedBox(height: 4),
+                      Text(
+                        level.subtitle,
+                        style: TextStyle(
+                          color: ink.withValues(alpha: 0.5),
+                          fontFamily: AppStrings.nunitoFont,
+                          fontWeight: FontWeight.w600,
+                          fontSize: 13,
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 14),
-                    Row(
-                      children: [
-                        _Pill('${level.metadata.totalTopics} ${AppStrings.vocabDays.tr}'),
-                        const SizedBox(width: 8),
-                        _Pill('${level.metadata.totalCategories} ${AppStrings.vocabTopics.tr}'),
-                        const SizedBox(width: 8),
-                        _Pill('${level.metadata.totalWords} ${AppStrings.vocabulary.tr}'),
-                      ],
-                    ),
-                  ],
+                      const SizedBox(height: 14),
+                      Row(
+                        children: [
+                          _Pill('${level.metadata.totalTopics} ${AppStrings.vocabDays.tr}'),
+                          const SizedBox(width: 8),
+                          _Pill('${level.metadata.totalCategories} ${AppStrings.vocabTopics.tr}'),
+                          const SizedBox(width: 8),
+                          _Pill('${level.metadata.totalWords} ${AppStrings.vocabulary.tr}'),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-            // Sections
-            SliverPadding(
-              padding: const EdgeInsets.fromLTRB(20, 0, 20, 36),
-              sliver: SliverList.separated(
-                itemCount: sections.length,
-                separatorBuilder: (_, __) => const SizedBox(height: 12),
-                itemBuilder: (context, index) => _SectionCard(
-                  section: sections[index],
-                  levelCode: widget.levelCode,
+              // Sections
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 36),
+                sliver: SliverList.separated(
+                  itemCount: sections.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 12),
+                  itemBuilder: (context, index) => _SectionCard(
+                    section: sections[index],
+                    levelCode: widget.levelCode,
+                  ),
                 ),
               ),
-            ),
-          ],
-        );
-      }),
+            ],
+          );
+        }),
+      ),
     );
   }
 }

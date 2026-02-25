@@ -1,4 +1,345 @@
 {
   "topic": "Street Art",
-  "words": []
+  "words": [
+    {
+      "word": "Mural",
+      "phoneticRespelling": "MYOOR-uhl",
+      "translation": "भित्ति चित्र",
+      "definition": "A large painting applied directly to a wall or ceiling.",
+      "definationTranslation": "सीधे दीवार या छत पर की गई एक बड़ी पेंटिंग।",
+      "sentence": [
+        {
+          "sentence": "The city commissioned a local artist to paint a giant mural on the library wall.",
+          "translation": "शहर ने पुस्तकालय की दीवार पर एक विशाल भित्ति चित्र बनाने के लिए एक स्थानीय कलाकार को नियुक्त किया।"
+        },
+        {
+          "sentence": "Murals can transform a boring gray building into a work of art.",
+          "translation": "भित्ति चित्र एक उबाऊ भूरी इमारत को कलाकृति में बदल सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Stencil",
+      "phoneticRespelling": "STEN-suhl",
+      "translation": "स्टेंसिल / खाका",
+      "definition": "A thin sheet with a design cut out, used to create a pattern by applying pigment through the holes.",
+      "definationTranslation": "डिजाइन कटा हुआ एक पतला शीट, जिसका उपयोग छेद के माध्यम से रंग लगाकर पैटर्न बनाने के लिए किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Banksy is famous for using stencils to create his political art quickly.",
+          "translation": "बैंक्सी अपनी राजनीतिक कला को तेजी से बनाने के लिए स्टेंसिल का उपयोग करने के लिए प्रसिद्ध हैं।"
+        },
+        {
+          "sentence": "The artist spray-painted the same stencil across several locations.",
+          "translation": "कलाकार ने कई स्थानों पर एक ही स्टेंसिल का स्प्रे-पेंट किया।"
+        }
+      ]
+    },
+    {
+      "word": "Graffiti",
+      "phoneticRespelling": "gruh-FEE-tee",
+      "translation": "ग्राफिटी / दीवार पर चित्रकारी",
+      "definition": "Writing or drawings scribbled, scratched, or sprayed illicitly on a wall or other surface in a public place.",
+      "definationTranslation": "सार्वजनिक स्थान पर दीवार या अन्य सतह पर अवैध रूप से लिखे गए शब्द या बनाए गए चित्र।",
+      "sentence": [
+        {
+          "sentence": "Some see graffiti as vandalism, while others see it as a legitimate art form.",
+          "translation": "कुछ लोग ग्राफिटी को तोड़फोड़ मानते हैं, जबकि अन्य इसे एक वैध कला रूप के रूप में देखते हैं।"
+        },
+        {
+          "sentence": "Street art evolved from the early days of simple graffiti tags.",
+          "translation": "स्ट्रीट आर्ट साधारण ग्राफिटी टैग के शुरुआती दिनों से विकसित हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "Vandalism",
+      "phoneticRespelling": "VAN-duh-li-zuhm",
+      "translation": "तोड़फोड़ / सार्वजनिक संपत्ति का नुकसान",
+      "definition": "Action involving deliberate destruction of or damage to public or private property.",
+      "definationTranslation": "सार्वजनिक या निजी संपत्ति के जानबूझकर विनाश या क्षति से जुड़ी कार्रवाई।",
+      "sentence": [
+        {
+          "sentence": "The shop owner reported the spray-painting as an act of vandalism.",
+          "translation": "दुकान मालिक ने स्प्रे-पेंटिंग को तोड़फोड़ की घटना के रूप में दर्ज कराया।"
+        },
+        {
+          "sentence": "There is a fine line between creative street art and pure vandalism.",
+          "translation": "रचनात्मक स्ट्रीट आर्ट और शुद्ध तोड़फोड़ के बीच एक बहुत ही बारीक रेखा है।"
+        }
+      ]
+    },
+    {
+      "word": "Commission",
+      "phoneticRespelling": "kuh-MISH-uhn",
+      "translation": "काम सौंपना / नियुक्त करना",
+      "definition": "To formally request the production of a piece of art.",
+      "definationTranslation": "औपचारिक रूप से कला के किसी नमूने के निर्माण का अनुरोध करना।",
+      "sentence": [
+        {
+          "sentence": "The tech company decided to commission a mural for their new office lobby.",
+          "translation": "टेक कंपनी ने अपने नए ऑफिस लॉबी के लिए एक भित्ति चित्र बनाने का काम सौंपने का फैसला किया।"
+        },
+        {
+          "sentence": "Most famous street artists now receive expensive commissions from cities.",
+          "translation": "अधिकांश प्रसिद्ध स्ट्रीट कलाकारों को अब शहरों से महंगे काम (commissions) मिलते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Provocative",
+      "phoneticRespelling": "pruh-VOK-uh-tiv",
+      "translation": "उत्तेजक / विचारोत्तेजक",
+      "definition": "Causing annoyance, anger, or another strong reaction, especially deliberately.",
+      "definationTranslation": "झुंझलाहट, गुस्सा या अन्य मजबूत प्रतिक्रिया पैदा करना, विशेष रूप से जानबूझकर।",
+      "sentence": [
+        {
+          "sentence": "The artist's provocative work sparked a massive debate about free speech.",
+          "translation": "कलाकार के उत्तेजक काम ने अभिव्यक्ति की स्वतंत्रता पर एक बड़ी बहस छेड़ दी।"
+        },
+        {
+          "sentence": "Street art is often used to send a provocative political message.",
+          "translation": "स्ट्रीट आर्ट का उपयोग अक्सर विचारोत्तेजक राजनीतिक संदेश भेजने के लिए किया जाता।"
+        }
+      ]
+    },
+    {
+      "word": "Public Domain",
+      "phoneticRespelling": "PUHB-lik doh-MEYN",
+      "translation": "सार्वजनिक संपत्ति / पब्लिक डोमेन",
+      "definition": "Land or creative work that is owned by the public and not subject to copyright.",
+      "definationTranslation": "भूमि या रचनात्मक कार्य जो जनता के स्वामित्व में है और कॉपीराइट के अधीन नहीं है।",
+      "sentence": [
+        {
+          "sentence": "Once an artist paints on a public wall, the art effectively enters the public domain.",
+          "translation": "एक बार जब कोई कलाकार सार्वजनिक दीवार पर पेंट करता है, तो कला प्रभावी रूप से सार्वजनिक संपत्ति बन जाती है।"
+        },
+        {
+          "sentence": "Copyright laws are complicated when art is created in the public domain.",
+          "translation": "पब्लिक डोमेन में बनाई गई कला के लिए कॉपीराइट कानून जटिल होते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Urban",
+      "phoneticRespelling": "UR-buhn",
+      "translation": "शहरी",
+      "definition": "Relating to, or characteristic of a town or city.",
+      "definationTranslation": "किसी कस्बे या शहर से संबंधित या उसकी विशेषता।",
+      "sentence": [
+        {
+          "sentence": "Urban art festivals have become popular in major cities worldwide.",
+          "translation": "प्रमुख शहरों में शहरी कला उत्सव दुनिया भर में लोकप्रिय हो गए हैं।"
+        },
+        {
+          "sentence": "The mural reflects the diversity of the urban community.",
+          "translation": "भित्ति चित्र शहरी समुदाय की विविधता को दर्शाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Symbolism",
+      "phoneticRespelling": "SIM-buh-li-zuhm",
+      "translation": "प्रतीकवाद",
+      "definition": "The use of symbols to represent ideas or qualities.",
+      "definationTranslation": "विचारों या गुणों का प्रतिनिधित्व करने के लिए प्रतीकों का उपयोग।",
+      "sentence": [
+        {
+          "sentence": "The white dove in the mural is full of symbolism for peace.",
+          "translation": "भित्ति चित्र में सफेद कबूतर शांति के प्रतीकवाद से भरा है।"
+        },
+        {
+          "sentence": "You need to understand the cultural symbolism to appreciate the art fully.",
+          "translation": "कला की पूरी तरह से सराहना करने के लिए आपको सांस्कृतिक प्रतीकवाद को समझने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Guerrilla",
+      "phoneticRespelling": "guh-RIL-uh",
+      "translation": "छापामार / अनधिकृत",
+      "definition": "Activities performed in an irregular or unofficial way, often without permission.",
+      "definationTranslation": "अनियमित या अनौपचारिक तरीके से की गई गतिविधियाँ, अक्सर अनुमति के बिना।",
+      "sentence": [
+        {
+          "sentence": "Guerrilla gardening involves planting flowers in public spaces without asking.",
+          "translation": "छापामार बागवानी (Guerrilla gardening) में बिना पूछे सार्वजनिक स्थानों पर फूल लगाना शामिल है।"
+        },
+        {
+          "sentence": "The artist is known for his guerrilla marketing tactics.",
+          "translation": "कलाकार अपनी 'छापामार मार्केटिंग' (guerrilla marketing) रणनीति के लिए जाना जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Perspective",
+      "phoneticRespelling": "per-SPEK-tiv",
+      "translation": "दृष्टिकोण / परिप्रेक्ष्य",
+      "definition": "A particular way of seeing or thinking about something.",
+      "definationTranslation": "किसी चीज़ को देखने या सोचने का एक विशेष तरीका।",
+      "sentence": [
+        {
+          "sentence": "Street art provides a fresh perspective on the city's history.",
+          "translation": "स्ट्रीट आर्ट शहर के इतिहास पर एक ताज़ा दृष्टिकोण प्रदान करता है।"
+        },
+        {
+          "sentence": "Traveling changes your perspective on different cultures.",
+          "translation": "यात्रा विभिन्न संस्कृतियों पर आपके दृष्टिकोण को बदल देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Tag",
+      "phoneticRespelling": "TAG",
+      "translation": "टैग / हस्ताक्षर",
+      "definition": "A stylized signature of a graffiti artist.",
+      "definationTranslation": "एक ग्राफिटी कलाकार का एक शैलीबद्ध हस्ताक्षर।",
+      "sentence": [
+        {
+          "sentence": "He left his tag on the bottom corner of the subway map.",
+          "translation": "उसने सबवे मैप के नीचे के कोने पर अपना टैग (हस्ताक्षर) छोड़ दिया।"
+        },
+        {
+          "sentence": "Tagging is the most basic and common form of graffiti.",
+          "translation": "टैगिंग ग्राफिटी का सबसे बुनियादी और सामान्य रूप है।"
+        }
+      ]
+    },
+    {
+      "word": "Authenticity",
+      "phoneticRespelling": "aw-then-TIS-i-tee",
+      "translation": "प्रामाणिकता / असलियत",
+      "definition": "The quality of being real or true.",
+      "definationTranslation": "असली या सच्चा होने का गुण।",
+      "sentence": [
+        {
+          "sentence": "Street art loses its authenticity when it is moved into a fancy gallery.",
+          "translation": "जब स्ट्रीट आर्ट को किसी शानदार गैलरी में ले जाया जाता है, तो वह अपनी प्रामाणिकता खो देता है।"
+        },
+        {
+          "sentence": "The raw energy of the street gives the work its authenticity.",
+          "translation": "सड़क की कच्ची ऊर्जा काम को उसकी असलियत (authenticity) प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Aesthetic",
+      "phoneticRespelling": "es-THET-ik",
+      "translation": "सौंदर्यबोध / शैली",
+      "definition": "Relating to beauty or the appreciation of art.",
+      "definationTranslation": "सुंदरता या कला की सराहना से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "The industrial aesthetic of the neighborhood is perfect for street art.",
+          "translation": "पड़ोस की औद्योगिक शैली (aesthetic) स्ट्रीट आर्ट के लिए एकदम सही है।"
+        },
+        {
+          "sentence": "I really like the neon aesthetic used in this mural.",
+          "translation": "मुझे इस भित्ति चित्र में उपयोग की गई नियॉन शैली बहुत पसंद है।"
+        }
+      ]
+    },
+    {
+      "word": "Subversion",
+      "phoneticRespelling": "suhb-VUR-zhuhn",
+      "translation": "तख्तापलट / व्यवस्था को चुनौती देना",
+      "definition": "The undermining of the power and authority of an established system or institution.",
+      "definationTranslation": "एक स्थापित प्रणाली या संस्था की शक्ति और अधिकार को कमजोर करना।",
+      "sentence": [
+        {
+          "sentence": "The mural was an act of subversion against the corrupt government.",
+          "translation": "भित्ति चित्र भ्रष्ट सरकार के खिलाफ व्यवस्था को चुनौती देने (subversion) का एक कार्य था।"
+        },
+        {
+          "sentence": "Humor is a common tool for subversion in street art.",
+          "translation": "स्ट्रीट आर्ट में व्यवस्था को चुनौती देने के लिए हास्य एक सामान्य उपकरण है।"
+        }
+      ]
+    },
+    {
+      "word": "Ephemeral",
+      "phoneticRespelling": "i-FEM-er-uhl",
+      "translation": "अल्पकालिक / क्षणभंगुर",
+      "definition": "Lasting for a very short time.",
+      "definationTranslation": "बहुत कम समय के लिए रहने वाला।",
+      "sentence": [
+        {
+          "sentence": "The beauty of street art is that it is often ephemeral; it might be gone tomorrow.",
+          "translation": "स्ट्रीट आर्ट की खूबसूरती यह है कि यह अक्सर अल्पकालिक होता है; यह कल शायद गायब हो जाए।"
+        },
+        {
+          "sentence": "Social media stories are an ephemeral form of communication.",
+          "translation": "सोशल मीडिया स्टोरीज़ संचार का एक अल्पकालिक रूप हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Legalize",
+      "phoneticRespelling": "LEE-guh-lahyz",
+      "translation": "वैध करना",
+      "definition": "To make something that was illegal permissible by law.",
+      "definationTranslation": "कानून द्वारा किसी अवैध चीज़ को अनुमति योग्य बनाना।",
+      "sentence": [
+        {
+          "sentence": "Some cities have set up 'free walls' to legalize street art in certain areas.",
+          "translation": "कुछ शहरों ने कुछ क्षेत्रों में स्ट्रीट आर्ट को वैध करने के लिए 'फ्री वॉल' स्थापित की हैं।"
+        },
+        {
+          "sentence": "Activists are fighting to legalize graffiti in designated urban zones.",
+          "translation": "कार्यकर्ता निर्धारित शहरी क्षेत्रों में ग्राफिटी को वैध बनाने के लिए लड़ रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Visual",
+      "phoneticRespelling": "VIZH-oo-uhl",
+      "translation": "दृश्य / विजुअल",
+      "definition": "Relating to seeing or sight.",
+      "definationTranslation": "देखने या दृष्टि से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "Street art creates a powerful visual impact on pedestrians.",
+          "translation": "स्ट्रीट आर्ट पैदल यात्रियों पर एक शक्तिशाली दृश्य प्रभाव (visual impact) डालता है।"
+        },
+        {
+          "sentence": "The artist used bright colors to grab visual attention.",
+          "translation": "कलाकार ने दृश्य ध्यान आकर्षित करने के लिए चमकीले रंगों का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Underground",
+      "phoneticRespelling": "UHN-der-ground",
+      "translation": "भूमिगत / गुप्त / मुख्यधारा से अलग",
+      "definition": "A group or movement that is outside of the mainstream.",
+      "definationTranslation": "एक समूह या आंदोलन जो मुख्यधारा से बाहर है।",
+      "sentence": [
+        {
+          "sentence": "The underground art scene is where the most experimental work happens.",
+          "translation": "अंडरग्राउंड आर्ट सीन वह जगह है जहाँ सबसे अधिक प्रयोगात्मक काम होता है।"
+        },
+        {
+          "sentence": "The DJ started in the underground club circuit.",
+          "translation": "डीजे ने अंडरग्राउंड क्लब सर्किट से शुरुआत की।"
+        }
+      ]
+    },
+    {
+      "word": "Heritage",
+      "phoneticRespelling": "HER-i-tij",
+      "translation": "विरासत",
+      "definition": "Property that is or may be inherited; an inheritance of cultural traditions.",
+      "definationTranslation": "संपत्ति जो विरासत में मिली है या मिल सकती है; सांस्कृतिक परंपराओं की विरासत।",
+      "sentence": [
+        {
+          "sentence": "The mural celebrates the rich industrial heritage of the town.",
+          "translation": "भित्ति चित्र शहर की समृद्ध औद्योगिक विरासत का जश्न मनाता है।"
+        },
+        {
+          "sentence": "We must protect our cultural heritage from being destroyed.",
+          "translation": "हमें अपनी सांस्कृतिक विरासत को नष्ट होने से बचाना चाहिए।"
+        }
+      ]
+    }
+  ]
 }

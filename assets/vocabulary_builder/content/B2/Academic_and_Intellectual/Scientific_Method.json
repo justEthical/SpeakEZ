@@ -1,4 +1,345 @@
 {
   "topic": "Scientific Method",
-  "words": []
+  "words": [
+    {
+      "word": "observation",
+      "phoneticRespelling": "ob-zur-VAY-shuhn",
+      "translation": "अवलोकन",
+      "definition": "The act of noticing and describing events or processes in a careful, orderly way.",
+      "definationTranslation": "घटनाओं या प्रक्रियाओं को सावधानीपूर्वक और व्यवस्थित तरीके से नोटिस करने और उनका वर्णन करने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "Scientific inquiry often begins with careful observation of a phenomenon.",
+          "translation": "वैज्ञानिक जांच अक्सर किसी घटना के सावधानीपूर्वक अवलोकन से शुरू होती है।"
+        },
+        {
+          "sentence": "His detailed observations led to a new theory.",
+          "translation": "उनके विस्तृत अवलोकनों ने एक नए सिद्धांत को जन्म दिया।"
+        }
+      ]
+    },
+    {
+      "word": "hypothesis",
+      "phoneticRespelling": "hahy-POTH-uh-sis",
+      "translation": "परिकल्पना",
+      "definition": "A testable explanation for a set of observations based on available data and prior knowledge.",
+      "definationTranslation": "उपलब्ध डेटा और पूर्व ज्ञान के आधार पर अवलोकनों के एक समूह के लिए एक परीक्षण योग्य स्पष्टीकरण।",
+      "sentence": [
+        {
+          "sentence": "The scientist formulated a hypothesis about the plant's growth.",
+          "translation": "वैज्ञानिक ने पौधे के विकास के बारे में एक परिकल्पना तैयार की।"
+        },
+        {
+          "sentence": "A good hypothesis is specific and can be disproved.",
+          "translation": "एक अच्छी परिकल्पना विशिष्ट होती है और उसे अस्वीकृत किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "experiment",
+      "phoneticRespelling": "ik-SPER-uh-ment",
+      "translation": "प्रयोग",
+      "definition": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact.",
+      "definationTranslation": "एक वैज्ञानिक प्रक्रिया जो किसी खोज को करने, परिकल्पना का परीक्षण करने या ज्ञात तथ्य को प्रदर्शित करने के लिए की जाती है।",
+      "sentence": [
+        {
+          "sentence": "They designed an experiment to test the effects of the new drug.",
+          "translation": "उन्होंने नई दवा के प्रभावों का परीक्षण करने के लिए एक प्रयोग तैयार किया।"
+        },
+        {
+          "sentence": "The results of the experiment supported their hypothesis.",
+          "translation": "प्रयोग के परिणामों ने उनकी परिकल्पना का समर्थन किया।"
+        }
+      ]
+    },
+    {
+      "word": "variable",
+      "phoneticRespelling": "VAIR-ee-uh-buhl",
+      "translation": "चर",
+      "definition": "Any factor, trait, or condition that can exist in differing amounts or types.",
+      "definationTranslation": "कोई भी कारक, विशेषता या स्थिति जो विभिन्न मात्राओं या प्रकारों में मौजूद हो सकती है।",
+      "sentence": [
+        {
+          "sentence": "In an experiment, researchers manipulate the independent variable.",
+          "translation": "एक प्रयोग में, शोधकर्ता स्वतंत्र चर में हेरफेर करते हैं।"
+        },
+        {
+          "sentence": "Temperature was a key variable in his research.",
+          "translation": "तापमान उनके शोध में एक महत्वपूर्ण चर था।"
+        }
+      ]
+    },
+    {
+      "word": "independent variable",
+      "phoneticRespelling": "in-di-PEN-duhnt VAIR-ee-uh-buhl",
+      "translation": "स्वतंत्र चर",
+      "definition": "The variable that is changed or controlled in a scientific experiment to test the effects on the dependent variable.",
+      "definationTranslation": "वह चर जिसे वैज्ञानिक प्रयोग में आश्रित चर पर प्रभावों का परीक्षण करने के लिए बदला या नियंत्रित किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The amount of fertilizer used was the independent variable in the plant growth study.",
+          "translation": "पौधे के विकास के अध्ययन में उपयोग की गई उर्वरक की मात्रा स्वतंत्र चर थी।"
+        },
+        {
+          "sentence": "Manipulating the independent variable helps determine causation.",
+          "translation": "स्वतंत्र चर में हेरफेर करने से कार्य-कारण निर्धारित करने में मदद मिलती है।"
+        }
+      ]
+    },
+    {
+      "word": "dependent variable",
+      "phoneticRespelling": "di-PEN-duhnt VAIR-ee-uh-buhl",
+      "translation": "आश्रित चर",
+      "definition": "The variable that is measured or observed and is expected to change as a result of the manipulation of the independent variable.",
+      "definationTranslation": "वह चर जिसे मापा या देखा जाता है और स्वतंत्र चर के हेरफेर के परिणामस्वरूप बदलने की उम्मीद की जाती है।",
+      "sentence": [
+        {
+          "sentence": "The height of the plants was the dependent variable.",
+          "translation": "पौधों की ऊँचाई आश्रित चर थी।"
+        },
+        {
+          "sentence": "The dependent variable's change indicates the effect of the experiment.",
+          "translation": "आश्रित चर का परिवर्तन प्रयोग के प्रभाव को इंगित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "control group",
+      "phoneticRespelling": "kuhn-TROL groop",
+      "translation": "नियंत्रण समूह",
+      "definition": "A group in an experiment or study that does not receive treatment by the researchers and is then used as a benchmark to measure how the other tested subjects do.",
+      "definationTranslation": "एक प्रयोग या अध्ययन में एक समूह जिसे शोधकर्ताओं द्वारा उपचार नहीं मिलता है और फिर अन्य परीक्षण किए गए विषयों के प्रदर्शन को मापने के लिए एक बेंचमार्क के रूप में उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The control group received a placebo in the drug trial.",
+          "translation": "दवा परीक्षण में नियंत्रण समूह को एक प्लेसिबो मिला।"
+        },
+        {
+          "sentence": "Comparing results with the control group is essential for valid conclusions.",
+          "translation": "मान्य निष्कर्षों के लिए नियंत्रण समूह के साथ परिणामों की तुलना करना आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "experimental group",
+      "phoneticRespelling": "ik-sper-uh-MEN-tuhl groop",
+      "translation": "प्रयोगात्मक समूह",
+      "definition": "The group in an experiment that receives the treatment or manipulation of the independent variable.",
+      "definationTranslation": "एक प्रयोग में वह समूह जिसे स्वतंत्र चर का उपचार या हेरफेर मिलता है।",
+      "sentence": [
+        {
+          "sentence": "The experimental group was given the new teaching method.",
+          "translation": "प्रयोगात्मक समूह को नई शिक्षण विधि दी गई।"
+        },
+        {
+          "sentence": "Data from the experimental group is analyzed against the control group.",
+          "translation": "प्रयोगात्मक समूह के डेटा का नियंत्रण समूह के विरुद्ध विश्लेषण किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "डेटा",
+      "definition": "Facts and statistics collected together for reference or analysis.",
+      "definationTranslation": "संदर्भ या विश्लेषण के लिए एक साथ एकत्र किए गए तथ्य और आंकड़े।",
+      "sentence": [
+        {
+          "sentence": "The scientists collected a lot of data during their fieldwork.",
+          "translation": "वैज्ञानिकों ने अपने क्षेत्रीय कार्य के दौरान बहुत सारा डेटा एकत्र किया।"
+        },
+        {
+          "sentence": "Accurate data is crucial for reliable scientific findings.",
+          "translation": "विश्वसनीय वैज्ञानिक निष्कर्षों के लिए सटीक डेटा महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "analysis",
+      "phoneticRespelling": "uh-NAL-uh-sis",
+      "translation": "विश्लेषण",
+      "definition": "Detailed examination of the elements or structure of something, typically as a basis for discussion or interpretation.",
+      "definationTranslation": "किसी चीज़ के तत्वों या संरचना की विस्तृत जाँच, आमतौर पर चर्चा या व्याख्या के आधार के रूप में।",
+      "sentence": [
+        {
+          "sentence": "Data analysis revealed significant patterns.",
+          "translation": "डेटा विश्लेषण ने महत्वपूर्ण पैटर्न का खुलासा किया।"
+        },
+        {
+          "sentence": "Her analysis of the results was very thorough.",
+          "translation": "परिणामों का उनका विश्लेषण बहुत गहन था।"
+        }
+      ]
+    },
+    {
+      "word": "conclusion",
+      "phoneticRespelling": "kuhn-KLOO-zhuhn",
+      "translation": "निष्कर्ष",
+      "definition": "A judgment or decision reached after careful consideration of the available evidence.",
+      "definationTranslation": "उपलब्ध साक्ष्य पर सावधानीपूर्वक विचार करने के बाद पहुंचा गया एक निर्णय या फैसला।",
+      "sentence": [
+        {
+          "sentence": "The conclusion of the study supported the initial hypothesis.",
+          "translation": "अध्ययन के निष्कर्ष ने प्रारंभिक परिकल्पना का समर्थन किया।"
+        },
+        {
+          "sentence": "Drawing a valid conclusion requires unbiased interpretation of results.",
+          "translation": "एक वैध निष्कर्ष निकालने के लिए परिणामों की निष्पक्ष व्याख्या की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "theory",
+      "phoneticRespelling": "THEE-uh-ree",
+      "translation": "सिद्धांत",
+      "definition": "A well-substantiated explanation of some aspect of the natural world, based on a body of facts that have been repeatedly confirmed through observation and experiment.",
+      "definationTranslation": "प्राकृतिक दुनिया के कुछ पहलू का एक अच्छी तरह से पुष्ट स्पष्टीकरण, तथ्यों के एक समूह पर आधारित है जिसे अवलोकन और प्रयोग के माध्यम से बार-बार पुष्टि की गई है।",
+      "sentence": [
+        {
+          "sentence": "The theory of evolution is a cornerstone of modern biology.",
+          "translation": "विकास का सिद्धांत आधुनिक जीव विज्ञान की आधारशिला है।"
+        },
+        {
+          "sentence": "A scientific theory is not just a guess; it's strongly supported by evidence.",
+          "translation": "एक वैज्ञानिक सिद्धांत केवल एक अनुमान नहीं है; यह साक्ष्य द्वारा दृढ़ता से समर्थित है।"
+        }
+      ]
+    },
+    {
+      "word": "law",
+      "phoneticRespelling": "LAW",
+      "translation": "नियम",
+      "definition": "A statement that describes an observable phenomenon in nature but does not explain why or how the phenomenon occurs.",
+      "definationTranslation": "एक बयान जो प्रकृति में एक अवलोकनीय घटना का वर्णन करता है लेकिन यह नहीं बताता कि घटना क्यों या कैसे होती है।",
+      "sentence": [
+        {
+          "sentence": "Newton's law of universal gravitation describes how objects attract each other.",
+          "translation": "न्यूटन का सार्वभौमिक गुरुत्वाकर्षण का नियम बताता है कि वस्तुएँ एक दूसरे को कैसे आकर्षित करती हैं।"
+        },
+        {
+          "sentence": "Scientific laws are typically universally accepted and describe fundamental principles.",
+          "translation": "वैज्ञानिक नियम आमतौर पर सार्वभौमिक रूप से स्वीकृत होते हैं और मौलिक सिद्धांतों का वर्णन करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "replication",
+      "phoneticRespelling": "rep-li-KAY-shuhn",
+      "translation": "प्रतिकृति",
+      "definition": "The act of repeating an experiment or study to confirm its results.",
+      "definationTranslation": "अपने परिणामों की पुष्टि करने के लिए एक प्रयोग या अध्ययन को दोहराने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "Replication of studies is important for validating scientific findings.",
+          "translation": "वैज्ञानिक निष्कर्षों को मान्य करने के लिए अध्ययनों की प्रतिकृति महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "Lack of replication can lead to questions about a study's reliability.",
+          "translation": "प्रतिकृति की कमी एक अध्ययन की विश्वसनीयता के बारे में सवाल उठा सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "peer review",
+      "phoneticRespelling": "PEER ree-VYOO",
+      "translation": "साथी समीक्षा",
+      "definition": "Evaluation of a scientific work by others working in the same field.",
+      "definationTranslation": "एक ही क्षेत्र में काम करने वाले अन्य लोगों द्वारा एक वैज्ञानिक कार्य का मूल्यांकन।",
+      "sentence": [
+        {
+          "sentence": "Before publication, research papers undergo rigorous peer review.",
+          "translation": "प्रकाशन से पहले, शोध पत्र कठोर साथी समीक्षा से गुजरते हैं।"
+        },
+        {
+          "sentence": "Peer review helps ensure the quality and validity of scientific research.",
+          "translation": "साथी समीक्षा वैज्ञानिक अनुसंधान की गुणवत्ता और वैधता सुनिश्चित करने में मदद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "falsifiability",
+      "phoneticRespelling": "fawl-suh-fy-uh-BIL-i-tee",
+      "translation": "मिथ्याकरणीयता",
+      "definition": "The ability of a hypothesis or theory to be disproved by evidence.",
+      "definationTranslation": "साक्ष्य द्वारा परिकल्पना या सिद्धांत के असिद्ध होने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "A key characteristic of a scientific hypothesis is its falsifiability.",
+          "translation": "एक वैज्ञानिक परिकल्पना की एक प्रमुख विशेषता इसकी मिथ्याकरणीयता है।"
+        },
+        {
+          "sentence": "If a claim lacks falsifiability, it cannot be tested scientifically.",
+          "translation": "यदि किसी दावे में मिथ्याकरणीयता की कमी है, तो उसे वैज्ञानिक रूप से परीक्षण नहीं किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "qualitative data",
+      "phoneticRespelling": "KWOL-i-tay-tiv DAY-tuh",
+      "translation": "गुणात्मक डेटा",
+      "definition": "Information that describes qualities or characteristics, often collected through interviews, observations, or open-ended questions.",
+      "definationTranslation": "वह जानकारी जो गुणों या विशेषताओं का वर्णन करती है, अक्सर साक्षात्कार, अवलोकन या खुले-समाप्त प्रश्नों के माध्यम से एकत्र की जाती है।",
+      "sentence": [
+        {
+          "sentence": "The study collected qualitative data on participants' experiences.",
+          "translation": "अध्ययन ने प्रतिभागियों के अनुभवों पर गुणात्मक डेटा एकत्र किया।"
+        },
+        {
+          "sentence": "Qualitative data can provide rich insights into human behavior.",
+          "translation": "गुणात्मक डेटा मानव व्यवहार में समृद्ध अंतर्दृष्टि प्रदान कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "quantitative data",
+      "phoneticRespelling": "KWON-ti-tay-tiv DAY-tuh",
+      "translation": "मात्रात्मक डेटा",
+      "definition": "Numerical information that can be measured or counted.",
+      "definationTranslation": "संख्यात्मक जानकारी जिसे मापा या गिना जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "The experiment yielded a large amount of quantitative data.",
+          "translation": "प्रयोग ने बड़ी मात्रा में मात्रात्मक डेटा उत्पन्न किया।"
+        },
+        {
+          "sentence": "Statistical analysis is used to interpret quantitative data.",
+          "translation": "मात्रात्मक डेटा की व्याख्या करने के लिए सांख्यिकीय विश्लेषण का उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "statistical significance",
+      "phoneticRespelling": "stuh-TIS-ti-kuhl sig-NIF-i-kuhns",
+      "translation": "सांख्यिकीय महत्व",
+      "definition": "The probability of finding a given deviation from the null hypothesis, or a more extreme one, in a sample.",
+      "definationTranslation": "शून्य परिकल्पना से दिए गए विचलन, या एक नमूने में अधिक चरम विचलन को खोजने की संभावना।",
+      "sentence": [
+        {
+          "sentence": "The results showed statistical significance, suggesting the treatment was effective.",
+          "translation": "परिणामों ने सांख्यिकीय महत्व दिखाया, यह सुझाव देते हुए कि उपचार प्रभावी था।"
+        },
+        {
+          "sentence": "Achieving statistical significance is a common goal in scientific studies.",
+          "translation": "वैज्ञानिक अध्ययनों में सांख्यिकीय महत्व प्राप्त करना एक सामान्य लक्ष्य है।"
+        }
+      ]
+    },
+    {
+      "word": "bias",
+      "phoneticRespelling": "BAHY-uhs",
+      "translation": "पूर्वाग्रह",
+      "definition": "A systematic error in a study or experiment design that leads to an incorrect estimate of the effect or association.",
+      "definationTranslation": "एक अध्ययन या प्रयोग डिजाइन में एक व्यवस्थित त्रुटि जो प्रभाव या जुड़ाव के गलत अनुमान की ओर ले जाती है।",
+      "sentence": [
+        {
+          "sentence": "Researchers must work to minimize bias in their data collection.",
+          "translation": "शोधकर्ताओं को अपने डेटा संग्रह में पूर्वाग्रह को कम करने के लिए काम करना चाहिए।"
+        },
+        {
+          "sentence": "Unconscious bias can unknowingly influence experimental results.",
+          "translation": "अचेतन पूर्वाग्रह अनजाने में प्रायोगिक परिणामों को प्रभावित कर सकता है।"
+        }
+      ]
+    }
+  ]
 }

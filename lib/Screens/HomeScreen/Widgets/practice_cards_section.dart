@@ -15,7 +15,7 @@ class PracticeCardsSection extends StatelessWidget {
         children: [
           _ScenarioPracticeCard(),
           const SizedBox(height: 15),
-          _FreeTalkCard(),
+          _VocabularyBuilderCard(),
         ],
       ),
     );
@@ -201,12 +201,12 @@ class _ScenarioPracticeCardState extends State<_ScenarioPracticeCard>
   }
 }
 
-class _FreeTalkCard extends StatefulWidget {
+class _VocabularyBuilderCard extends StatefulWidget {
   @override
-  State<_FreeTalkCard> createState() => _FreeTalkCardState();
+  State<_VocabularyBuilderCard> createState() => _VocabularyBuilderCardState();
 }
 
-class _FreeTalkCardState extends State<_FreeTalkCard>
+class _VocabularyBuilderCardState extends State<_VocabularyBuilderCard>
     with TickerProviderStateMixin {
   late AnimationController _scaleController;
   late AnimationController _pulseController;
@@ -298,7 +298,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'freeTalkTitle'.tr,
+                      'vocabularyBuilder'.tr,
                       style: const TextStyle(
                         fontSize: 18,
                         fontFamily: AppStrings.nunitoFont,
@@ -308,7 +308,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
                     ),
                     const SizedBox(height: 6),
                     Text(
-                      'talkAboutAnything'.tr,
+                      'vocabularyBuilderSubtitle'.tr,
                       style: TextStyle(
                         fontSize: 13,
                         fontFamily: AppStrings.nunitoFont,
@@ -364,7 +364,7 @@ class _FreeTalkCardState extends State<_FreeTalkCard>
                         borderRadius: BorderRadius.circular(18),
                       ),
                       child: const Icon(
-                        Icons.mic_rounded,
+                        Icons.menu_book_rounded,
                         color: Colors.white,
                         size: 32,
                       ),

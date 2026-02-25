@@ -1,4 +1,345 @@
 {
   "topic": "Academic Research",
-  "words": []
+  "words": [
+    {
+      "word": "Abstract",
+      "phoneticRespelling": "AB-strakt",
+      "translation": "सारांश",
+      "definition": "A short summary of a research paper or academic article.",
+      "definationTranslation": "एक शोध पत्र या शैक्षणिक लेख का संक्षिप्त सारांश।",
+      "sentence": [
+        {
+          "sentence": "Read the abstract before deciding to read the full paper.",
+          "translation": "पूरा पेपर पढ़ने का निर्णय लेने से पहले सारांश पढ़ें।"
+        },
+        {
+          "sentence": "The abstract outlines the key findings of the study.",
+          "translation": "सारांश अध्ययन के प्रमुख निष्कर्षों को रेखांकित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hypothesis",
+      "phoneticRespelling": "hahy-POTH-uh-sis",
+      "translation": "परिकल्पना",
+      "definition": "An idea or explanation that you then test through study and experimentation.",
+      "definationTranslation": "एक विचार या स्पष्टीकरण जिसे आप अध्ययन और प्रयोग के माध्यम से परीक्षण करते हैं।",
+      "sentence": [
+        {
+          "sentence": "Our hypothesis was proven correct after the final experiment.",
+          "translation": "अंतिम प्रयोग के बाद हमारी परिकल्पना सही साबित हुई।"
+        },
+        {
+          "sentence": "The researcher formulated a new hypothesis regarding climate change.",
+          "translation": "शोधकर्ता ने जलवायु परिवर्तन के संबंध में एक नई परिकल्पना तैयार की।"
+        }
+      ]
+    },
+    {
+      "word": "Methodology",
+      "phoneticRespelling": "meth-uh-DOL-uh-jee",
+      "translation": "कार्यप्रणाली",
+      "definition": "A system of methods used in a particular area of study or activity.",
+      "definationTranslation": "अध्ययन या गतिविधि के किसी विशेष क्षेत्र में उपयोग की जाने वाली विधियों की एक प्रणाली।",
+      "sentence": [
+        {
+          "sentence": "The methodology section explains how the data was collected.",
+          "translation": "कार्यप्रणाली अनुभाग बताता है कि डेटा कैसे एकत्र किया गया था।"
+        },
+        {
+          "sentence": "The professor questioned the methodology of the survey.",
+          "translation": "प्रोफेसर ने सर्वेक्षण की कार्यप्रणाली पर सवाल उठाया।"
+        }
+      ]
+    },
+    {
+      "word": "Empirical",
+      "phoneticRespelling": "em-PIR-i-kuhl",
+      "translation": "अनुभवजन्य",
+      "definition": "Based on observation or experience rather than theory or pure logic.",
+      "definationTranslation": "सिद्धांत या शुद्ध तर्क के बजाय अवलोकन या अनुभव पर आधारित।",
+      "sentence": [
+        {
+          "sentence": "We need empirical evidence to support your claims.",
+          "translation": "हमें आपके दावों का समर्थन करने के लिए अनुभवजन्य साक्ष्य चाहिए।"
+        },
+        {
+          "sentence": "The study provides empirical data on student behavior.",
+          "translation": "अध्ययन छात्र व्यवहार पर अनुभवजन्य डेटा प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Plagiarism",
+      "phoneticRespelling": "PLAY-juh-riz-uhm",
+      "translation": "साहित्यिक चोरी",
+      "definition": "The practice of taking someone else's work or ideas and passing them off as one's own.",
+      "definationTranslation": "किसी और के काम या विचारों को लेने और उन्हें अपना बताकर पेश करने का अभ्यास।",
+      "sentence": [
+        {
+          "sentence": "The university has a zero-tolerance policy for plagiarism.",
+          "translation": "विश्वविद्यालय में साहित्यिक चोरी के लिए जीरो-टोलरेंस नीति है।"
+        },
+        {
+          "sentence": "Always cite your sources to avoid accusations of plagiarism.",
+          "translation": "साहित्यिक चोरी के आरोपों से बचने के लिए हमेशा अपने स्रोतों का उल्लेख करें।"
+        }
+      ]
+    },
+    {
+      "word": "Literature Review",
+      "phoneticRespelling": "LIT-er-uh-cher ri-VYOO",
+      "translation": "साहित्य समीक्षा",
+      "definition": "An assessment of a body of research that addresses a specific topic.",
+      "definationTranslation": "अनुसंधान के एक निकाय का मूल्यांकन जो एक विशिष्ट विषय को संबोधित करता है।",
+      "sentence": [
+        {
+          "sentence": "The first chapter of her thesis is a literature review.",
+          "translation": "उनके शोध प्रबंध का पहला अध्याय साहित्य समीक्षा है।"
+        },
+        {
+          "sentence": "A good literature review identifies gaps in current research.",
+          "translation": "एक अच्छी साहित्य समीक्षा वर्तमान शोध में कमियों की पहचान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Quantitative",
+      "phoneticRespelling": "KWON-ti-tay-tiv",
+      "translation": "मात्रात्मक",
+      "definition": "Relating to information that can be expressed as a number or amount.",
+      "definationTranslation": "ऐसी जानकारी से संबंधित जिसे संख्या या मात्रा के रूप में व्यक्त किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "Quantitative research involves analyzing statistics.",
+          "translation": "मात्रात्मक अनुसंधान में आंकड़ों का विश्लेषण करना शामिल है।"
+        },
+        {
+          "sentence": "The results were based on quantitative analysis of the survey.",
+          "translation": "परिणाम सर्वेक्षण के मात्रात्मक विश्लेषण पर आधारित थे।"
+        }
+      ]
+    },
+    {
+      "word": "Qualitative",
+      "phoneticRespelling": "KWOL-i-tay-tiv",
+      "translation": "गुणात्मक",
+      "definition": "Relating to the quality or standard of something rather than its quantity.",
+      "definationTranslation": "किसी चीज़ की मात्रा के बजाय उसकी गुणवत्ता या मानक से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "Qualitative data is collected through interviews and observations.",
+          "translation": "गुणात्मक डेटा साक्षात्कार और अवलोकन के माध्यम से एकत्र किया जाता है।"
+        },
+        {
+          "sentence": "She preferred a qualitative approach to understand human emotions.",
+          "translation": "उन्होंने मानवीय भावनाओं को समझने के लिए गुणात्मक दृष्टिकोण को प्राथमिकता दी।"
+        }
+      ]
+    },
+    {
+      "word": "Variable",
+      "phoneticRespelling": "VAIR-ee-uh-buhl",
+      "translation": "चर",
+      "definition": "An element, feature, or factor that is liable to vary or change.",
+      "definationTranslation": "एक तत्व, विशेषता या कारक जिसमें भिन्नता या परिवर्तन होने की संभावना हो।",
+      "sentence": [
+        {
+          "sentence": "Temperature is a key variable in this chemical experiment.",
+          "translation": "इस रासायनिक प्रयोग में तापमान एक प्रमुख चर है।"
+        },
+        {
+          "sentence": "We need to control other variables to get accurate results.",
+          "translation": "सटीक परिणाम प्राप्त करने के लिए हमें अन्य चरों को नियंत्रित करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Peer-reviewed",
+      "phoneticRespelling": "PEER-ri-vyood",
+      "translation": "सहकर्मी-समीक्षित",
+      "definition": "Evaluated by other experts in the same field to ensure quality.",
+      "definationTranslation": "गुणवत्ता सुनिश्चित करने के लिए उसी क्षेत्र के अन्य विशेषज्ञों द्वारा मूल्यांकन किया गया।",
+      "sentence": [
+        {
+          "sentence": "You should only cite peer-reviewed journals in your essay.",
+          "translation": "आपको अपने निबंध में केवल सहकर्मी-समीक्षित पत्रिकाओं का ही उल्लेख करना चाहिए।"
+        },
+        {
+          "sentence": "The article went through a strict peer-reviewed process.",
+          "translation": "लेख एक सख्त सहकर्मी-समीक्षित प्रक्रिया से गुजरा।"
+        }
+      ]
+    },
+    {
+      "word": "Correlation",
+      "phoneticRespelling": "kawr-uh-LAY-shuhn",
+      "translation": "सहसंबंध",
+      "definition": "A mutual relationship or connection between two or more things.",
+      "definationTranslation": "दो या दो से अधिक चीजों के बीच पारस्परिक संबंध या जुड़ाव।",
+      "sentence": [
+        {
+          "sentence": "There is a high correlation between smoking and lung cancer.",
+          "translation": "धूम्रपान और फेफड़ों के कैंसर के बीच गहरा सहसंबंध है।"
+        },
+        {
+          "sentence": "Correlation does not always imply causation.",
+          "translation": "सहसंबंध का मतलब हमेशा कारण संबंध नहीं होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Bibliography",
+      "phoneticRespelling": "bib-lee-OG-ruh-fee",
+      "translation": "संदर्भ ग्रंथ सूची",
+      "definition": "A list of the books and articles referred to in a scholarly work.",
+      "definationTranslation": "किसी विद्वतापूर्ण कार्य में संदर्भित पुस्तकों और लेखों की सूची।",
+      "sentence": [
+        {
+          "sentence": "Check the bibliography for further reading on this topic.",
+          "translation": "इस विषय पर आगे पढ़ने के लिए संदर्भ ग्रंथ सूची देखें।"
+        },
+        {
+          "sentence": "Your bibliography must follow the APA style guide.",
+          "translation": "आपकी संदर्भ ग्रंथ सूची को APA शैली गाइड का पालन करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Critique",
+      "phoneticRespelling": "kri-TEEK",
+      "translation": "आलोचनात्मक विश्लेषण",
+      "definition": "A detailed analysis and assessment of something, especially a literary or philosophical theory.",
+      "definationTranslation": "किसी चीज़ का विस्तृत विश्लेषण और मूल्यांकन, विशेष रूप से एक साहित्यिक या दार्शनिक सिद्धांत का।",
+      "sentence": [
+        {
+          "sentence": "The professor gave a constructive critique of my research proposal.",
+          "translation": "प्रोफेसर ने मेरे शोध प्रस्ताव का रचनात्मक आलोचनात्मक विश्लेषण किया।"
+        },
+        {
+          "sentence": "Students were asked to write a critique of the new study.",
+          "translation": "छात्रों को नए अध्ययन का आलोचनात्मक विश्लेषण लिखने के लिए कहा गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Dataset",
+      "phoneticRespelling": "DAY-tuh-set",
+      "translation": "डेटासेट",
+      "definition": "A collection of related sets of information that is composed of separate elements.",
+      "definationTranslation": "जानकारी के संबंधित सेटों का एक संग्रह जो अलग-अलग तत्वों से बना होता है।",
+      "sentence": [
+        {
+          "sentence": "The researchers used a massive dataset from the World Bank.",
+          "translation": "शोधकर्ताओं ने विश्व बैंक के एक विशाल डेटासेट का उपयोग किया।"
+        },
+        {
+          "sentence": "We need to clean the dataset before starting the analysis.",
+          "translation": "विश्लेषण शुरू करने से पहले हमें डेटासेट को साफ करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Ethical",
+      "phoneticRespelling": "ETH-i-kuhl",
+      "translation": "नैतिक",
+      "definition": "Relating to moral principles or the branch of knowledge dealing with these.",
+      "definationTranslation": "नैतिक सिद्धांतों या उनसे संबंधित ज्ञान की शाखा से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "Ethical considerations are vital when conducting human trials.",
+          "translation": "मानव परीक्षण करते समय नैतिक विचार महत्वपूर्ण होते हैं।"
+        },
+        {
+          "sentence": "The committee ensures that all research follows ethical guidelines.",
+          "translation": "समिति यह सुनिश्चित करती है कि सभी शोध नैतिक दिशानिर्देशों का पालन करें।"
+        }
+      ]
+    },
+    {
+      "word": "Inference",
+      "phoneticRespelling": "IN-fer-uhns",
+      "translation": "निष्कर्ष",
+      "definition": "A conclusion reached on the basis of evidence and reasoning.",
+      "definationTranslation": "साक्ष्य और तर्क के आधार पर पहुँचा गया निष्कर्ष।",
+      "sentence": [
+        {
+          "sentence": "We can make an inference based on the initial findings.",
+          "translation": "हम शुरुआती निष्कर्षों के आधार पर एक अनुमान लगा सकते हैं।"
+        },
+        {
+          "sentence": "His inference was that the experiment would fail under high pressure.",
+          "translation": "उनका निष्कर्ष था कि उच्च दबाव में प्रयोग विफल हो जाएगा।"
+        }
+      ]
+    },
+    {
+      "word": "Objective",
+      "phoneticRespelling": "uhb-JEK-tiv",
+      "translation": "निष्पक्ष",
+      "definition": "Not influenced by personal feelings or opinions in considering and representing facts.",
+      "definationTranslation": "तथ्यों पर विचार करने और उनका प्रतिनिधित्व करने में व्यक्तिगत भावनाओं या विचारों से प्रभावित न होना।",
+      "sentence": [
+        {
+          "sentence": "A researcher must remain objective throughout the study.",
+          "translation": "एक शोधकर्ता को पूरे अध्ययन के दौरान निष्पक्ष रहना चाहिए।"
+        },
+        {
+          "sentence": "The report provides an objective view of the situation.",
+          "translation": "रिपोर्ट स्थिति का निष्पक्ष दृष्टिकोण प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Paradigm",
+      "phoneticRespelling": "PAR-uh-dahym",
+      "translation": "प्रतिमान / विचारधारा",
+      "definition": "A typical example or pattern of something; a model or world view.",
+      "definationTranslation": "किसी चीज़ का एक विशिष्ट उदाहरण या पैटर्न; एक मॉडल या विश्व दृष्टिकोण।",
+      "sentence": [
+        {
+          "sentence": "The new discovery caused a paradigm shift in physics.",
+          "translation": "नई खोज ने भौतिकी में एक वैचारिक बदलाव (पैराडाइम शिफ्ट) पैदा किया।"
+        },
+        {
+          "sentence": "This theory fits the current scientific paradigm.",
+          "translation": "यह सिद्धांत वर्तमान वैज्ञानिक प्रतिमान में फिट बैठता है।"
+        }
+      ]
+    },
+    {
+      "word": "Primary Source",
+      "phoneticRespelling": "PRAHY-mer-ee sawrs",
+      "translation": "प्राथमिक स्रोत",
+      "definition": "An original object or document which is a first-hand item from a time or event.",
+      "definationTranslation": "एक मूल वस्तु या दस्तावेज़ जो किसी समय या घटना की प्रत्यक्ष वस्तु है।",
+      "sentence": [
+        {
+          "sentence": "Diaries and photographs are excellent primary sources for historians.",
+          "translation": "इतिहासकारों के लिए डायरी और तस्वीरें बेहतरीन प्राथमिक स्रोत हैं।"
+        },
+        {
+          "sentence": "The researcher examined the primary source documents in the archive.",
+          "translation": "शोधकर्ता ने संग्रह में प्राथमिक स्रोत दस्तावेजों की जांच की।"
+        }
+      ]
+    },
+    {
+      "word": "Validity",
+      "phoneticRespelling": "vuh-LID-i-tee",
+      "translation": "मान्यता / वैधता",
+      "definition": "The quality of being logically or factually sound; soundness or cogency.",
+      "definationTranslation": "तार्किक या तथ्यात्मक रूप से सही होने का गुण; मजबूती या अकाट्यता।",
+      "sentence": [
+        {
+          "sentence": "We need to check the validity of the data before publishing.",
+          "translation": "प्रकाशन से पहले हमें डेटा की वैधता की जांच करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "The small sample size calls into question the validity of the results.",
+          "translation": "छोटा नमूना आकार परिणामों की वैधता पर सवाल खड़ा करता है।"
+        }
+      ]
+    }
+  ]
 }

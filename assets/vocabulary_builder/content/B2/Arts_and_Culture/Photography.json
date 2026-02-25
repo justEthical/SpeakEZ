@@ -1,4 +1,345 @@
 {
   "topic": "Photography",
-  "words": []
+  "words": [
+    {
+      "word": "Composition",
+      "phoneticRespelling": "kom-puh-ZISH-uhn",
+      "translation": "रचना / बनावट",
+      "definition": "The way in which the elements of a photo are arranged.",
+      "definationTranslation": "किसी फोटो के तत्वों को व्यवस्थित करने का तरीका।",
+      "sentence": [
+        {
+          "sentence": "The rule of thirds is a basic principle of good composition.",
+          "translation": "तिहाई का नियम (rule of thirds) अच्छी रचना का एक बुनियादी सिद्धांत है।"
+        },
+        {
+          "sentence": "Great composition can make even a simple subject look interesting.",
+          "translation": "बेहतरीन बनावट एक साधारण विषय को भी दिलचस्प बना सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Exposure",
+      "phoneticRespelling": "ik-SPOH-zher",
+      "translation": "एक्सपोज़र / प्रकाश की मात्रा",
+      "definition": "The amount of light that reaches the camera sensor.",
+      "definationTranslation": "कैमरा सेंसर तक पहुँचने वाले प्रकाश की मात्रा।",
+      "sentence": [
+        {
+          "sentence": "The photo was ruined because the exposure was too high.",
+          "translation": "फोटो खराब हो गई क्योंकि एक्सपोज़र बहुत अधिक था।"
+        },
+        {
+          "sentence": "You can adjust the exposure to capture details in the shadows.",
+          "translation": "छाया में विवरण कैद करने के लिए आप एक्सपोज़र को समायोजित कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Aperture",
+      "phoneticRespelling": "AP-er-cher",
+      "translation": "अपर्चर / लेंस का छेद",
+      "definition": "The opening in a lens through which light passes to enter the camera.",
+      "definationTranslation": "लेंस का वह छेद जिससे होकर प्रकाश कैमरे में प्रवेश करता है।",
+      "sentence": [
+        {
+          "sentence": "A wide aperture creates a beautiful blurred background.",
+          "translation": "एक चौड़ा अपर्चर एक सुंदर धुंधला बैकग्राउंड बनाता है।"
+        },
+        {
+          "sentence": "The photographer changed the aperture to let in more light.",
+          "translation": "फोटोग्राफर ने अधिक प्रकाश आने देने के लिए अपर्चर बदल दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Shutter Speed",
+      "phoneticRespelling": "SHUHT-er speed",
+      "translation": "शटर स्पीड",
+      "definition": "The length of time the camera shutter is open.",
+      "definationTranslation": "वह समय जितनी देर कैमरे का शटर खुला रहता है।",
+      "sentence": [
+        {
+          "sentence": "Use a fast shutter speed to freeze a moving object.",
+          "translation": "चलती हुई वस्तु को स्थिर (freeze) करने के लिए तेज़ शटर स्पीड का उपयोग करें।"
+        },
+        {
+          "sentence": "A slow shutter speed is great for capturing light trails at night.",
+          "translation": "रात में लाइट ट्रेल्स कैद करने के लिए धीमी शटर स्पीड बेहतरीन होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Depth of Field",
+      "phoneticRespelling": "depth uhv feeld",
+      "translation": "डेप्थ ऑफ फील्ड / फोकस की गहराई",
+      "definition": "The distance between the nearest and furthest objects that are in sharp focus.",
+      "definationTranslation": "सबसे पास और सबसे दूर की वस्तुओं के बीच की दूरी जो स्पष्ट फोकस में हों।",
+      "sentence": [
+        {
+          "sentence": "Portrait photographers often prefer a shallow depth of field.",
+          "translation": "पोर्ट्रेट फोटोग्राफर अक्सर कम गहराई वाले फोकस (shallow depth of field) को पसंद करते हैं।"
+        },
+        {
+          "sentence": "Landscape photos usually require a deep depth of field.",
+          "translation": "लैंडस्केप तस्वीरों में आमतौर पर गहरी फोकस गहराई की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Contrast",
+      "phoneticRespelling": "KON-trast",
+      "translation": "कंट्रास्ट / विषमता",
+      "definition": "The difference between the darkest and lightest tones in a photo.",
+      "definationTranslation": "एक फोटो में सबसे गहरे और सबसे हल्के टोन के बीच का अंतर।",
+      "sentence": [
+        {
+          "sentence": "Increasing the contrast makes the colors look more dramatic.",
+          "translation": "कंट्रास्ट बढ़ाने से रंग अधिक नाटकीय लगते हैं।"
+        },
+        {
+          "sentence": "High contrast images have very bright whites and deep blacks.",
+          "translation": "हाई कंट्रास्ट वाली छवियों में बहुत चमकीला सफेद और गहरा काला रंग होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Saturation",
+      "phoneticRespelling": "sach-uh-REY-shuhn",
+      "translation": "सैचुरेशन / रंगों की तीव्रता",
+      "definition": "The intensity or purity of a color.",
+      "definationTranslation": "रंग की तीव्रता या शुद्धता।",
+      "sentence": [
+        {
+          "sentence": "The sunset photos have a high level of color saturation.",
+          "translation": "सूर्यास्त की तस्वीरों में रंगों की तीव्रता (saturation) का स्तर अधिक होता है।"
+        },
+        {
+          "sentence": "Lowering the saturation gives the image a vintage feel.",
+          "translation": "सैचुरेशन कम करने से छवि को एक विंटेज अहसास मिलता है।"
+        }
+      ]
+    },
+    {
+      "word": "Perspective",
+      "phoneticRespelling": "per-SPEK-tiv",
+      "translation": "परिप्रेक्ष्य / नजरिया",
+      "definition": "The sense of depth or spatial relationships between objects in a photo.",
+      "definationTranslation": "एक फोटो में वस्तुओं के बीच गहराई या स्थानिक संबंधों का अहसास।",
+      "sentence": [
+        {
+          "sentence": "Shooting from a low angle gives a powerful perspective to buildings.",
+          "translation": "कम कोण (low angle) से शूटिंग करने से इमारतों को एक प्रभावशाली परिप्रेक्ष्य मिलता है।"
+        },
+        {
+          "sentence": "The wide-angle lens distorted the perspective of the room.",
+          "translation": "वाइड-एंगल लेंस ने कमरे के नजरिए (perspective) को विकृत कर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Candid",
+      "phoneticRespelling": "KAN-did",
+      "translation": "कैंडिड / सहज",
+      "definition": "A photo taken informally, especially without the subject's knowledge.",
+      "definationTranslation": "अनौपचारिक रूप से ली गई फोटो, विशेष रूप से विषय की जानकारी के बिना।",
+      "sentence": [
+        {
+          "sentence": "I prefer candid shots over posed family portraits.",
+          "translation": "मैं पोज़ दिए हुए फैमिली पोर्ट्रेट के बजाय कैंडिड शॉट्स पसंद करता हूँ।"
+        },
+        {
+          "sentence": "Candid photography captures true emotions and moments.",
+          "translation": "कैंडिड फोटोग्राफी सच्चे जज्बात और पलों को कैद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Framing",
+      "phoneticRespelling": "FREY-ming",
+      "translation": "फ्रेमिंग",
+      "definition": "Using elements within the scene to create a frame around the subject.",
+      "definationTranslation": "विषय के चारों ओर एक फ्रेम बनाने के लिए दृश्य के भीतर के तत्वों का उपयोग करना।",
+      "sentence": [
+        {
+          "sentence": "The photographer used the tree branches for natural framing.",
+          "translation": "फोटोग्राफर ने प्राकृतिक फ्रेमिंग के लिए पेड़ की टहनियों का उपयोग किया।"
+        },
+        {
+          "sentence": "Framing helps to draw the viewer's eye directly to the subject.",
+          "translation": "फ्रेमिंग दर्शक की नज़र सीधे विषय की ओर खींचने में मदद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Aesthetic",
+      "phoneticRespelling": "es-THET-ik",
+      "translation": "सौंदर्यबोध / शैली",
+      "definition": "A particular style or appearance that is visually pleasing.",
+      "definationTranslation": "एक विशेष शैली या रूप जो देखने में सुखद हो।",
+      "sentence": [
+        {
+          "sentence": "Her Instagram feed has a very consistent aesthetic.",
+          "translation": "उसका इंस्टाग्राम फीड बहुत ही सुसंगत सौंदर्यबोध (aesthetic) वाला है।"
+        },
+        {
+          "sentence": "The minimalist aesthetic is very popular in modern photography.",
+          "translation": "आधुनिक फोटोग्राफी में 'मिनिमलिस्ट एस्थेटिक' बहुत लोकप्रिय है।"
+        }
+      ]
+    },
+    {
+      "word": "Backlit",
+      "phoneticRespelling": "BAK-lit",
+      "translation": "बैकलिट / पीछे से रोशनी",
+      "definition": "When the main light source is behind the subject.",
+      "definationTranslation": "जब प्रकाश का मुख्य स्रोत विषय के पीछे होता है।",
+      "sentence": [
+        {
+          "sentence": "The backlit leaves glowed beautifully in the morning sun.",
+          "translation": "सुबह की धूप में पीछे से रोशनी वाले (backlit) पत्ते खूबसूरती से चमक रहे थे।"
+        },
+        {
+          "sentence": "Backlit portraits can sometimes result in a silhouette effect.",
+          "translation": "पीछे से रोशनी वाले पोर्ट्रेट कभी-कभी सिलहूट (silhouette) प्रभाव पैदा कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Monochrome",
+      "phoneticRespelling": "MON-uh-krohm",
+      "translation": "मोनोक्रोम / एकरंगा",
+      "definition": "A photo made of different shades of a single color, usually black and white.",
+      "definationTranslation": "एक ही रंग के विभिन्न शेड्स से बनी फोटो, आमतौर पर काला और सफेद।",
+      "sentence": [
+        {
+          "sentence": "Monochrome photography highlights textures and patterns.",
+          "translation": "मोनोक्रोम फोटोग्राफी बनावट और पैटर्न को उजागर करती है।"
+        },
+        {
+          "sentence": "He decided to print the entire series in monochrome.",
+          "translation": "उसने पूरी श्रृंखला को मोनोक्रोम में प्रिंट करने का फैसला किया।"
+        }
+      ]
+    },
+    {
+      "word": "Post-processing",
+      "phoneticRespelling": "pohst-PROS-es-ing",
+      "translation": "पोस्ट-प्रोसेसिंग / संपादन",
+      "definition": "Editing an image after it has been taken using software.",
+      "definationTranslation": "सॉफ्टवेयर का उपयोग करके फोटो लेने के बाद उसे संपादित करना।",
+      "sentence": [
+        {
+          "sentence": "Post-processing can turn a good photo into a masterpiece.",
+          "translation": "पोस्ट-प्रोसेसिंग एक अच्छी फोटो को उत्कृष्ट कृति में बदल सकती है।"
+        },
+        {
+          "sentence": "I spend about an hour on post-processing for every shoot.",
+          "translation": "मैं हर शूट के लिए पोस्ट-प्रोसेसिंग पर लगभग एक घंटा खर्च करता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "Focal Point",
+      "phoneticRespelling": "FOH-kuhl poynt",
+      "translation": "केंद्र बिंदु",
+      "definition": "The central interest or main subject in a photograph.",
+      "definationTranslation": "एक तस्वीर में केंद्रीय रुचि या मुख्य विषय।",
+      "sentence": [
+        {
+          "sentence": "The red umbrella acts as the focal point of the image.",
+          "translation": "लाल छतरी छवि के केंद्र बिंदु (focal point) के रूप में कार्य करती है।"
+        },
+        {
+          "sentence": "Without a clear focal point, the viewer might get confused.",
+          "translation": "बिना किसी स्पष्ट केंद्र बिंदु के, दर्शक भ्रमित हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Grainy",
+      "phoneticRespelling": "GREY-nee",
+      "translation": "दानेदार",
+      "definition": "When a photo looks textured or 'noisy' because of high ISO or low light.",
+      "definationTranslation": "जब हाई ISO या कम रोशनी के कारण फोटो बनावट वाली या 'शोर' (noisy) जैसी दिखती है।",
+      "sentence": [
+        {
+          "sentence": "The night photos came out a bit grainy because I didn't use a tripod.",
+          "translation": "रात की तस्वीरें थोड़ी दानेदार (grainy) आईं क्योंकि मैंने ट्राइपॉड का उपयोग नहीं किया था।"
+        },
+        {
+          "sentence": "Some people like the grainy look of old film cameras.",
+          "translation": "कुछ लोग पुराने फिल्म कैमरों के दानेदार लुक को पसंद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Landscape",
+      "phoneticRespelling": "LAND-skeyp",
+      "translation": "लैंडस्केप / परिदृश्य",
+      "definition": "A photo depicting an area of land or nature.",
+      "definationTranslation": "भूमि या प्रकृति के क्षेत्र को दर्शाने वाली फोटो।",
+      "sentence": [
+        {
+          "sentence": "I love taking landscape photos during the golden hour.",
+          "translation": "मुझे गोल्डन आवर के दौरान लैंडस्केप फोटो लेना पसंद है।"
+        },
+        {
+          "sentence": "The gallery is famous for its stunning mountain landscapes.",
+          "translation": "गैलरी अपने शानदार पहाड़ी परिदृश्यों के लिए प्रसिद्ध है।"
+        }
+      ]
+    },
+    {
+      "word": "Portrait",
+      "phoneticRespelling": "PAWR-trit",
+      "translation": "पोर्ट्रेट / व्यक्तिचित्र",
+      "definition": "A photo of a person or group of people that captures their personality.",
+      "definationTranslation": "किसी व्यक्ति या लोगों के समूह की फोटो जो उनके व्यक्तित्व को दर्शाती है।",
+      "sentence": [
+        {
+          "sentence": "He took a beautiful portrait of his grandmother.",
+          "translation": "उसने अपनी दादी का एक सुंदर पोर्ट्रेट लिया।"
+        },
+        {
+          "sentence": "Good lighting is the most important part of a portrait.",
+          "translation": "एक पोर्ट्रेट का सबसे महत्वपूर्ण हिस्सा अच्छी रोशनी है।"
+        }
+      ]
+    },
+    {
+      "word": "Visual",
+      "phoneticRespelling": "VIZH-oo-uhl",
+      "translation": "दृश्य / विजुअल",
+      "definition": "Relating to seeing or sight.",
+      "definationTranslation": "देखने या दृष्टि से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "Photography is a powerful visual storytelling tool.",
+          "translation": "फोटोग्राफी एक शक्तिशाली दृश्य कहानी (visual storytelling) उपकरण है।"
+        },
+        {
+          "sentence": "The visual impact of the photo was immediate.",
+          "translation": "फोटो का दृश्य प्रभाव (visual impact) तुरंत पड़ा।"
+        }
+      ]
+    },
+    {
+      "word": "Macro",
+      "phoneticRespelling": "MAK-roh",
+      "translation": "मैक्रो / सूक्ष्म",
+      "definition": "Extreme close-up photography, usually of very small subjects.",
+      "definationTranslation": "अत्यधिक क्लोज़-अप फोटोग्राफी, आमतौर पर बहुत छोटे विषयों की।",
+      "sentence": [
+        {
+          "sentence": "Macro photography allows you to see the details on an insect's wing.",
+          "translation": "मैक्रो फोटोग्राफी आपको एक कीट के पंख पर विवरण देखने की अनुमति देती है।"
+        },
+        {
+          "sentence": "I bought a macro lens to take photos of flowers in my garden.",
+          "translation": "मैंने अपने बगीचे में फूलों की तस्वीरें लेने के लिए एक मैक्रो लेंस खरीदा।"
+        }
+      ]
+    }
+  ]
 }

@@ -21,7 +21,7 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   final c = Get.put(VocabularyTabController());
 
   int _selectedIndex = 0;
-  static const Set<String> _unlockedLevels = {'A1', 'A2'};
+  static const Set<String> _unlockedLevels = {'A1', 'A2', 'B1'};
   static const List<Color> _selectedGradient = [
     Color(0xFF0EA5E9),
     Color(0xFF2563EB),
