@@ -3,10 +3,10 @@
   "title": "Cultural Insider",
   "subtitle": "You get the slang and the 'hidden' meanings",
   "metadata": {
-    "total_words": 7000,
-    "total_topics": 120,
-    "words_per_topic": 58,
-    "total_categories": 12
+    "total_words": 5000,
+    "total_topics": 200,
+    "words_per_topic": 25,
+    "total_categories": 15
   },
   "categories": [
     {
@@ -21,7 +21,10 @@
         "Organizational Culture Change",
         "Crisis Communication",
         "Stakeholder Capitalism",
-        "Disruptive Innovation"
+        "Disruptive Innovation",
+        "Executive Decision Making",
+        "Corporate Ethics",
+        "Leadership Resilience"
       ]
     },
     {
@@ -36,7 +39,10 @@
         "Paradigm Shifts",
         "Ontological Perspectives",
         "Academic Controversies",
-        "Interdisciplinary Synthesis"
+        "Interdisciplinary Synthesis",
+        "Research Methodology",
+        "Scholarly Debate",
+        "Knowledge Production"
       ]
     },
     {
@@ -51,7 +57,10 @@
         "Comparative Legal Systems",
         "Procedural Law",
         "Tort Theory",
-        "Legislative Drafting"
+        "Legislative Drafting",
+        "Cybercrime Law",
+        "Privacy Legislation",
+        "Corporate Liability"
       ]
     },
     {
@@ -66,7 +75,11 @@
         "Game Theory Applications",
         "Development Economics",
         "Financial Crises",
-        "Quantitative Finance"
+        "Quantitative Finance",
+        "Sovereign Debt",
+        "Market Microstructure",
+        "Fiscal Austerity",
+        "Shadow Banking"
       ]
     },
     {
@@ -81,7 +94,11 @@
         "Materials Science",
         "Particle Physics",
         "Cognitive Science",
-        "Climate Modeling"
+        "Climate Modeling",
+        "Quantum Mechanics",
+        "Genomic Research",
+        "Biophysics",
+        "Dark Matter Theory"
       ]
     },
     {
@@ -96,7 +113,10 @@
         "Consciousness Studies",
         "Free Will and Determinism",
         "Social Contract Theory",
-        "Postcolonial Thought"
+        "Postcolonial Thought",
+        "Nihilism and Absurdism",
+        "Pragmatism",
+        "Dialectical Reasoning"
       ]
     },
     {
@@ -111,7 +131,10 @@
         "Cyberwarfare",
         "Globalization Critique",
         "Regional Integration",
-        "Transnational Governance"
+        "Transnational Governance",
+        "Energy Geopolitics",
+        "Proxy Conflicts",
+        "Diplomatic Immunity"
       ]
     },
     {
@@ -126,7 +149,11 @@
         "Cryptography",
         "Edge Computing",
         "Human-Computer Interaction",
-        "AI Ethics and Alignment"
+        "AI Ethics and Alignment",
+        "Blockchain Architecture",
+        "Autonomous Systems",
+        "Cybersecurity Frameworks",
+        "Cloud Infrastructure"
       ]
     },
     {
@@ -141,7 +168,10 @@
         "Semiotics",
         "Cultural Hegemony",
         "Canon Formation",
-        "Modernist Aesthetics"
+        "Modernist Aesthetics",
+        "Queer Theory",
+        "Dystopian Literature",
+        "Mythocriticism"
       ]
     },
     {
@@ -156,7 +186,11 @@
         "Healthcare Policy Reform",
         "Clinical Trials",
         "Telemedicine",
-        "Medical Informatics"
+        "Medical Informatics",
+        "Pandemic Preparedness",
+        "Neuropharmacology",
+        "Regenerative Medicine",
+        "Global Health Equity"
       ]
     },
     {
@@ -171,7 +205,10 @@
         "Circular Economy",
         "Water Resource Management",
         "Environmental Impact Assessment",
-        "Sustainable Agriculture"
+        "Sustainable Agriculture",
+        "Ocean Acidification",
+        "Renewable Energy Policy",
+        "Land Use Planning"
       ]
     },
     {
@@ -186,7 +223,65 @@
         "Gender Studies",
         "Collective Behavior",
         "Kinship Systems",
-        "Urban Anthropology"
+        "Urban Anthropology",
+        "Race and Identity",
+        "Digital Anthropology",
+        "Social Mobility"
+      ]
+    },
+    {
+      "category_name": "Psychology and Cognitive Science",
+      "topics": [
+        "Cognitive Behavioral Theory",
+        "Neuropsychology",
+        "Developmental Psychology",
+        "Social Psychology",
+        "Psycholinguistics",
+        "Emotional Intelligence",
+        "Memory and Learning",
+        "Psychological Disorders",
+        "Decision-Making Biases",
+        "Personality Theory",
+        "Attachment Theory",
+        "Consciousness and Perception",
+        "Positive Psychology",
+        "Cross-cultural Psychology"
+      ]
+    },
+    {
+      "category_name": "Education Systems and Pedagogy",
+      "topics": [
+        "Curriculum Design",
+        "Educational Psychology",
+        "Constructivist Learning",
+        "Higher Education Policy",
+        "Inclusive Education",
+        "Critical Pedagogy",
+        "Assessment and Evaluation",
+        "Educational Technology",
+        "Lifelong Learning",
+        "Comparative Education",
+        "Teacher Professional Development",
+        "Literacy and Numeracy",
+        "Education Equity"
+      ]
+    },
+    {
+      "category_name": "Media, Ethics and Information Theory",
+      "topics": [
+        "Information Theory",
+        "Media Epistemology",
+        "Algorithmic Bias",
+        "Digital Surveillance",
+        "Press Freedom",
+        "Misinformation Dynamics",
+        "Data Privacy Ethics",
+        "Attention Economy",
+        "Platform Governance",
+        "Computational Propaganda",
+        "Media Literacy",
+        "Ethics of AI Journalism",
+        "Information Warfare"
       ]
     }
   ]
