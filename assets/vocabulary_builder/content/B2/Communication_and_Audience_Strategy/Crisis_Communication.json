@@ -1,4 +1,345 @@
 {
   "topic": "Crisis Communication",
-  "words": []
+  "words": [
+    {
+      "word": "crisis",
+      "phoneticRespelling": "KRY-sis",
+      "translation": "संकट",
+      "definition": "A time of intense difficulty or danger.",
+      "definationTranslation": "तीव्र कठिनाई या खतरे का समय।",
+      "sentence": [
+        {
+          "sentence": "The company faced a major crisis after the data breach.",
+          "translation": "कंपनी को डेटा उल्लंघन के बाद एक प्रमुख संकट का सामना करना पड़ा।"
+        },
+        {
+          "sentence": "Effective crisis management saved the event from disaster.",
+          "translation": "प्रभावी संकट प्रबंधन ने घटना को आपदा से बचा लिया।"
+        }
+      ]
+    },
+    {
+      "word": "emergency",
+      "phoneticRespelling": "ih-MUR-juhn-see",
+      "translation": "आपातकाल",
+      "definition": "A serious, urgent, and dangerous situation.",
+      "definationTranslation": "गंभीर, तत्काल और खतरनाक स्थिति।",
+      "sentence": [
+        {
+          "sentence": "The hospital declared a code blue emergency.",
+          "translation": "अस्पताल ने कोड ब्लू आपातकाल घोषित किया।"
+        },
+        {
+          "sentence": "In an emergency, follow the evacuation plan.",
+          "translation": "आपातकाल में, निकासी योजना का पालन करें।"
+        }
+      ]
+    },
+    {
+      "word": "disaster",
+      "phoneticRespelling": "dih-ZAS-tur",
+      "translation": "आपदा",
+      "definition": "A sudden event causing great damage or suffering.",
+      "definationTranslation": "अचानक घटना जो बड़ा नुकसान या पीड़ा पैदा करती है।",
+      "sentence": [
+        {
+          "sentence": "The earthquake was a natural disaster for the region.",
+          "translation": "भूकंप क्षेत्र के लिए प्राकृतिक आपदा था।"
+        },
+        {
+          "sentence": "They prepared a disaster response team.",
+          "translation": "उन्होंने आपदा प्रतिक्रिया टीम तैयार की।"
+        }
+      ]
+    },
+    {
+      "word": "protocol",
+      "phoneticRespelling": "PROH-tuh-kol",
+      "translation": "प्रोटोकॉल",
+      "definition": "A set of rules or procedures to follow.",
+      "definationTranslation": "पालन करने के लिए नियमों या प्रक्रियाओं का समूह।",
+      "sentence": [
+        {
+          "sentence": "Follow the safety protocol during the drill.",
+          "translation": "ड्रिल के दौरान सुरक्षा प्रोटोकॉल का पालन करें।"
+        },
+        {
+          "sentence": "The protocol for crisis calls is strict.",
+          "translation": "संकट कॉल के लिए प्रोटोकॉल कड़ा है।"
+        }
+      ]
+    },
+    {
+      "word": "escalate",
+      "phoneticRespelling": "ES-kuh-layt",
+      "translation": "वृद्धि करना",
+      "definition": "To make a problem more serious or intense.",
+      "definationTranslation": "किसी समस्या को अधिक गंभीर या तीव्र बनाना।",
+      "sentence": [
+        {
+          "sentence": "Do not let the issue escalate further.",
+          "translation": "समस्या को और बढ़ने न दें।"
+        },
+        {
+          "sentence": "The conflict began to escalate quickly.",
+          "translation": "संघर्ष जल्दी बढ़ने लगा।"
+        }
+      ]
+    },
+    {
+      "word": "mitigate",
+      "phoneticRespelling": "MIT-ih-gayt",
+      "translation": "निराकरण करना",
+      "definition": "To make something less severe or harmful.",
+      "definationTranslation": "किसी चीज को कम गंभीर या हानिकारक बनाना।",
+      "sentence": [
+        {
+          "sentence": "They took steps to mitigate the damage.",
+          "translation": "उन्होंने नुकसान को कम करने के कदम उठाए।"
+        },
+        {
+          "sentence": "Training helps mitigate risks in crises.",
+          "translation": "प्रशिक्षण संकटों में जोखिमों को कम करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "containment",
+      "phoneticRespelling": "kuhn-TAYN-muhnt",
+      "translation": "नियंत्रण",
+      "definition": "The action of keeping something harmful within limits.",
+      "definationTranslation": "किसी हानिकारक चीज को सीमाओं के भीतर रखने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "Containment of the fire was their priority.",
+          "translation": "आग का नियंत्रण उनकी प्राथमिकता थी।"
+        },
+        {
+          "sentence": "Effective containment stopped the rumor spread.",
+          "translation": "प्रभावी नियंत्रण ने अफवाह के प्रसार को रोक दिया।"
+        }
+      ]
+    },
+    {
+      "word": "evacuate",
+      "phoneticRespelling": "ih-VAK-yoo-ayt",
+      "translation": "निकालना",
+      "definition": "To move people away from a dangerous place.",
+      "definationTranslation": "लोगों को खतरनाक जगह से हटाना।",
+      "sentence": [
+        {
+          "sentence": "Residents were told to evacuate immediately.",
+          "translation": "निवासियों को तुरंत निकालने को कहा गया।"
+        },
+        {
+          "sentence": "The building was evacuated due to a gas leak.",
+          "translation": "गैस रिसाव के कारण भवन को खाली कराया गया।"
+        }
+      ]
+    },
+    {
+      "word": "briefing",
+      "phoneticRespelling": "BREE-fing",
+      "translation": "संक्षिप्त जानकारी",
+      "definition": "A short meeting to give important information.",
+      "definationTranslation": "महत्वपूर्ण जानकारी देने के लिए छोटी बैठक।",
+      "sentence": [
+        {
+          "sentence": "The team attended a crisis briefing.",
+          "translation": "टीम ने संकट संक्षिप्त जानकारी में भाग लिया।"
+        },
+        {
+          "sentence": "A daily briefing kept everyone updated.",
+          "translation": "दैनिक संक्षिप्त जानकारी ने सभी को अपडेट रखा।"
+        }
+      ]
+    },
+    {
+      "word": "debrief",
+      "phoneticRespelling": "dee-BREEF",
+      "translation": "पोस्ट-रिव्यू",
+      "definition": "To question someone after an event to get details.",
+      "definationTranslation": "घटना के बाद विवरण प्राप्त करने के लिए किसी से पूछताछ करना।",
+      "sentence": [
+        {
+          "sentence": "They will debrief the staff after the incident.",
+          "translation": "घटना के बाद वे स्टाफ से पोस्ट-रिव्यू करेंगे।"
+        },
+        {
+          "sentence": "The debrief revealed key lessons learned.",
+          "translation": "पोस्ट-रिव्यू ने मुख्य सीखें प्रकट कीं।"
+        }
+      ]
+    },
+    {
+      "word": "spokesperson",
+      "phoneticRespelling": "SPOHK-pur-suhn",
+      "translation": "प्रवक्ता",
+      "definition": "A person who speaks officially for a group.",
+      "definationTranslation": "समूह की ओर से आधिकारिक रूप से बोलने वाला व्यक्ति।",
+      "sentence": [
+        {
+          "sentence": "The spokesperson addressed the media.",
+          "translation": "प्रवक्ता ने मीडिया को संबोधित किया।"
+        },
+        {
+          "sentence": "She acts as the company's spokesperson in crises.",
+          "translation": "वह संकटों में कंपनी की प्रवक्ता के रूप में कार्य करती है।"
+        }
+      ]
+    },
+    {
+      "word": "reassure",
+      "phoneticRespelling": "ree-uh-SHOOR",
+      "translation": "आश्वस्त करना",
+      "definition": "To restore confidence or relieve anxiety.",
+      "definationTranslation": "आत्मविश्वास बहाल करना या चिंता कम करना।",
+      "sentence": [
+        {
+          "sentence": "The leader reassured the public.",
+          "translation": "नेता ने जनता को आश्वस्त किया।"
+        },
+        {
+          "sentence": "Clear communication helps reassure stakeholders.",
+          "translation": "स्पष्ट संचार हितधारकों को आश्वस्त करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "transparency",
+      "phoneticRespelling": "trans-PAIR-uhn-see",
+      "translation": "पारदर्शिता",
+      "definition": "Openness and honesty in communication.",
+      "definationTranslation": "संचार में खुलापन और ईमानदारी।",
+      "sentence": [
+        {
+          "sentence": "Transparency builds trust during crises.",
+          "translation": "पारदर्शिता संकटों के दौरान विश्वास बनाती है।"
+        },
+        {
+          "sentence": "They promised full transparency on the issue.",
+          "translation": "उन्होंने मुद्दे पर पूर्ण पारदर्शिता का वादा किया।"
+        }
+      ]
+    },
+    {
+      "word": "rumor",
+      "phoneticRespelling": "ROO-mur",
+      "translation": "अफवाह",
+      "definition": "Unverified information spreading informally.",
+      "definationTranslation": "अनौपचारिक रूप से फैलने वाली अपुष्ट जानकारी।",
+      "sentence": [
+        {
+          "sentence": "A rumor caused panic among employees.",
+          "translation": "एक अफवाह ने कर्मचारियों में घबराहट पैदा की।"
+        },
+        {
+          "sentence": "They worked to dispel the rumor quickly.",
+          "translation": "उन्होंने अफवाह को जल्दी से दूर करने का काम किया।"
+        }
+      ]
+    },
+    {
+      "word": "stakeholder",
+      "phoneticRespelling": "STAYK-hohl-dur",
+      "translation": "हितधारक",
+      "definition": "A person or group with interest in an organization.",
+      "definationTranslation": "संगठन में रुचि रखने वाला व्यक्ति या समूह।",
+      "sentence": [
+        {
+          "sentence": "Stakeholders demanded updates on the crisis.",
+          "translation": "हितधारकों ने संकट पर अपडेट मांगे।"
+        },
+        {
+          "sentence": "Communicate directly with all stakeholders.",
+          "translation": "सभी हितधारकों से सीधे संवाद करें।"
+        }
+      ]
+    },
+    {
+      "word": "hotline",
+      "phoneticRespelling": "HOT-line",
+      "translation": "हॉटलाइन",
+      "definition": "A direct phone line for urgent communication.",
+      "definationTranslation": "तत्काल संचार के लिए सीधी फोन लाइन।",
+      "sentence": [
+        {
+          "sentence": "Call the crisis hotline for help.",
+          "translation": "मदद के लिए संकट हॉटलाइन पर कॉल करें।"
+        },
+        {
+          "sentence": "The hotline was overwhelmed with calls.",
+          "translation": "हॉटलाइन कॉल्स से अभिभूत हो गई।"
+        }
+      ]
+    },
+    {
+      "word": "coordination",
+      "phoneticRespelling": "koh-awr-dih-NAY-shuhn",
+      "translation": "समन्वय",
+      "definition": "The organization of activities to work together effectively.",
+      "definationTranslation": "गतिविधियों का संगठन प्रभावी ढंग से एक साथ काम करने के लिए।",
+      "sentence": [
+        {
+          "sentence": "Coordination between teams was crucial.",
+          "translation": "टीमों के बीच समन्वय महत्वपूर्ण था।"
+        },
+        {
+          "sentence": "Poor coordination worsened the crisis.",
+          "translation": "खराब समन्वय ने संकट को बदतर बना दिया।"
+        }
+      ]
+    },
+    {
+      "word": "alert",
+      "phoneticRespelling": "uh-LURT",
+      "translation": "चेतावनी",
+      "definition": "A warning about a possible danger.",
+      "definationTranslation": "संभावित खतरे की चेतावनी।",
+      "sentence": [
+        {
+          "sentence": "A severe weather alert was issued.",
+          "translation": "गंभीर मौसम चेतावनी जारी की गई।"
+        },
+        {
+          "sentence": "The system sends instant alerts to users.",
+          "translation": "सिस्टम उपयोगकर्ताओं को तत्काल चेतावनियां भेजता है।"
+        }
+      ]
+    },
+    {
+      "word": "resilience",
+      "phoneticRespelling": "rih-ZIL-yuhns",
+      "translation": "लचीलापन",
+      "definition": "The ability to recover quickly from difficulties.",
+      "definationTranslation": "कठिनाइयों से जल्दी उबरने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "The community's resilience shone through.",
+          "translation": "समुदाय का लचीलापन चमका।"
+        },
+        {
+          "sentence": "Building resilience is key in crisis training.",
+          "translation": "संकट प्रशिक्षण में लचीलापन बनाना महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "aftermath",
+      "phoneticRespelling": "AF-tur-math",
+      "translation": "परिणाम",
+      "definition": "The consequences or results following an event.",
+      "definationTranslation": "घटना के बाद के परिणाम या परिणाम।",
+      "sentence": [
+        {
+          "sentence": "The aftermath required extensive recovery efforts.",
+          "translation": "परिणाम को बड़े पुनर्प्राप्ति प्रयासों की आवश्यकता थी।"
+        },
+        {
+          "sentence": "They assessed the aftermath of the flood.",
+          "translation": "उन्होंने बाढ़ के परिणाम का आकलन किया।"
+        }
+      ]
+    }
+  ]
 }

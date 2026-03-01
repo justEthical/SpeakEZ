@@ -1,4 +1,345 @@
 {
   "topic": "Wildlife Protection",
-  "words": []
+  "words": [
+    {
+      "word": "Conservation",
+      "phoneticRespelling": "kon-sur-VAY-shun",
+      "translation": "संरक्षण",
+      "definition": "The act of preserving or protecting something, especially the natural environment.",
+      "definationTranslation": "किसी चीज़ को संरक्षित या सुरक्षित रखने का कार्य, विशेष रूप से प्राकृतिक पर्यावरण।",
+      "sentence": [
+        {
+          "sentence": "The organization is working on conservation of wildlife.",
+          "translation": "संगठन वन्यजीव संरक्षण पर काम कर रहा है।"
+        },
+        {
+          "sentence": "Conservation efforts are necessary to protect the environment.",
+          "translation": "पर्यावरण की रक्षा के लिए संरक्षण प्रयास आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Endangered",
+      "phoneticRespelling": "en-DAYN-jerd",
+      "translation": "लुप्तप्राय",
+      "definition": "Seriously at risk of dying out or becoming extinct.",
+      "definationTranslation": "विलुप्त होने या विनाश के खतरे में होना।",
+      "sentence": [
+        {
+          "sentence": "The endangered species need our protection.",
+          "translation": "लुप्तप्राय प्रजातियों को हमारे संरक्षण की आवश्यकता है।"
+        },
+        {
+          "sentence": "The list of endangered animals is growing every year.",
+          "translation": "लुप्तप्राय जानवरों की सूची हर साल बढ़ रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Habitat",
+      "phoneticRespelling": "HAB-uh-tat",
+      "translation": "आवास",
+      "definition": "The natural environment in which an animal or plant lives.",
+      "definationTranslation": "प्राकृतिक पर्यावरण जिसमें एक जानवर या पौधा रहता है।",
+      "sentence": [
+        {
+          "sentence": "The habitat of the polar bear is the Arctic region.",
+          "translation": "पोलर भालू का आवास आर्कटिक क्षेत्र है।"
+        },
+        {
+          "sentence": "The destruction of habitat is a major threat to wildlife.",
+          "translation": "आवास का विनाश वन्यजीवों के लिए एक बड़ा खतरा है।"
+        }
+      ]
+    },
+    {
+      "word": "Pollution",
+      "phoneticRespelling": "puh-LOO-shun",
+      "translation": "प्रदूषण",
+      "definition": "The act of making something dirty or contaminated.",
+      "definationTranslation": "किसी चीज़ को गंदा या दूषित करने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "Air pollution is a major problem in urban areas.",
+          "translation": "वायु प्रदूषण शहरी क्षेत्रों में एक बड़ी समस्या है।"
+        },
+        {
+          "sentence": "Water pollution is harming the aquatic life.",
+          "translation": "जल प्रदूषण जलीय जीवन को नुकसान पहुँचा रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Wildlife",
+      "phoneticRespelling": "WIL-duh-lahf",
+      "translation": "वन्यजीव",
+      "definition": "Animals that live in their natural environment, not domesticated.",
+      "definationTranslation": "जानवर जो अपने प्राकृतिक पर्यावरण में रहते हैं, घरेलू नहीं।",
+      "sentence": [
+        {
+          "sentence": "The wildlife in the forest is amazing.",
+          "translation": "जंगल में वन्यजीव अद्भुत हैं।"
+        },
+        {
+          "sentence": "We need to protect the wildlife and their habitats.",
+          "translation": "हमें वन्यजीवों और उनके आवासों की रक्षा करनी है।"
+        }
+      ]
+    },
+    {
+      "word": "Sanctuary",
+      "phoneticRespelling": "SAN-kuh-ree",
+      "translation": "अभयारण्य",
+      "definition": "A place where people or animals can be safe and protected.",
+      "definationTranslation": "एक स्थान जहां लोग या जानवर सुरक्षित और संरक्षित रह सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "The wildlife sanctuary is a safe haven for animals.",
+          "translation": "वन्यजीव अभयारण्य जानवरों के लिए एक सुरक्षित आश्रय है।"
+        },
+        {
+          "sentence": "The government has set up a sanctuary for endangered species.",
+          "translation": "सरकार ने लुप्तप्राय प्रजातियों के लिए एक अभयारण्य स्थापित किया है।"
+        }
+      ]
+    },
+    {
+      "word": "Ecosystem",
+      "phoneticRespelling": "EH-koh-sis-tuhm",
+      "translation": "पारिस्थितिकी तंत्र",
+      "definition": "A community of living and non-living things that interact with each other.",
+      "definationTranslation": "एक जीवित और अजीवित चीजों का समुदाय जो एक दूसरे के साथ परस्पर क्रिया करते हैं।",
+      "sentence": [
+        {
+          "sentence": "The ecosystem of the forest is very delicate.",
+          "translation": "जंगल का पारिस्थितिकी तंत्र बहुत ही नाजुक है।"
+        },
+        {
+          "sentence": "The destruction of the ecosystem can have severe consequences.",
+          "translation": "पारिस्थितिकी तंत्र का विनाश गंभीर परिणाम हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Biodiversity",
+      "phoneticRespelling": "bahy-oh-die-ver-si-tee",
+      "translation": "जैव विविधता",
+      "definition": "The variety of different plants, animals, and microorganisms that live in an ecosystem.",
+      "definationTranslation": "एक पारिस्थितिकी तंत्र में रहने वाले विभिन्न पौधों, जानवरों और सूक्ष्मजीवों की विविधता।",
+      "sentence": [
+        {
+          "sentence": "The biodiversity of the Amazon rainforest is incredible.",
+          "translation": "अमेज़ॅन वर्षावन की जैव विविधता अविश्वसनीय है।"
+        },
+        {
+          "sentence": "The loss of biodiversity can have severe consequences for the environment.",
+          "translation": "जैव विविधता की हानि पर्यावरण के लिए गंभीर परिणाम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Extinction",
+      "phoneticRespelling": "ek-STINK-shun",
+      "translation": "विलुप्तता",
+      "definition": "The state or process of a species or group of organisms becoming extinct.",
+      "definationTranslation": "एक प्रजाति या जीवों के समूह के विलुप्त होने की स्थिति या प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The extinction of the dinosaurs is a mystery.",
+          "translation": "डायनासोर की विलुप्तता एक रहस्य है।"
+        },
+        {
+          "sentence": "The rate of extinction is increasing due to human activities.",
+          "translation": "मानव गतिविधियों के कारण विलुप्तता की दर बढ़ रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Sustainable",
+      "phoneticRespelling": "suh-STAY-nuh-buhl",
+      "translation": "स्थायी",
+      "definition": "Able to be maintained or supported without depleting natural resources.",
+      "definationTranslation": "प्राकृतिक संसाधनों को समाप्त किए बिना बनाए रखा या समर्थित किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "Sustainable development is necessary for the future.",
+          "translation": "स्थायी विकास भविष्य के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "The company is working towards sustainable practices.",
+          "translation": "कंपनी स्थायी प्रथाओं की ओर काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Ecology",
+      "phoneticRespelling": "EH-kol-uh-jee",
+      "translation": "पारिस्थितिकी",
+      "definition": "The study of the relationships between living organisms and their environment.",
+      "definationTranslation": "जीवित जीवों और उनके पर्यावरण के बीच संबंधों का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "The study of ecology is important for conservation.",
+          "translation": "संरक्षण के लिए पारिस्थितिकी का अध्ययन महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "Ecology helps us understand the impact of human activities on the environment.",
+          "translation": "पारिस्थितिकी हमें पर्यावरण पर मानव गतिविधियों के प्रभाव को समझने में मदद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Environmentalism",
+      "phoneticRespelling": "en-vi-ruh-n-MEN-tul-iz-uhm",
+      "translation": "पर्यावरणवाद",
+      "definition": "A social and political movement that seeks to protect the natural environment.",
+      "definationTranslation": "एक सामाजिक और राजनीतिक आंदोलन जो प्राकृतिक पर्यावरण की रक्षा करना चाहता है।",
+      "sentence": [
+        {
+          "sentence": "Environmentalism is a growing movement worldwide.",
+          "translation": "पर्यावरणवाद विश्वभर में बढ़ता आंदोलन है।"
+        },
+        {
+          "sentence": "The goal of environmentalism is to preserve the natural world.",
+          "translation": "पर्यावरणवाद का लक्ष्य प्राकृतिक दुनिया को संरक्षित करना है।"
+        }
+      ]
+    },
+    {
+      "word": "Recycle",
+      "phoneticRespelling": "ri-SAH-kul",
+      "translation": "पुनर्चक्रित",
+      "definition": "To treat or process something so that it can be used again.",
+      "definationTranslation": "किसी चीज़ को ऐसे उपचारित या प्रक्रिया करना ताकि वह फिर से उपयोग की जा सके।",
+      "sentence": [
+        {
+          "sentence": "We need to recycle more to reduce waste.",
+          "translation": "अपशिष्ट को कम करने के लिए हमें अधिक पुनर्चक्रित करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "The company is encouraging employees to recycle paper and plastic.",
+          "translation": "कंपनी कर्मचारियों को कागज़ और प्लास्टिक को पुनर्चक्रित करने के लिए प्रोत्साहित कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Renewable",
+      "phoneticRespelling": "ri-NOO-uh-buhl",
+      "translation": "नवीकरणीय",
+      "definition": "Able to be replaced or replenished naturally.",
+      "definationTranslation": "प्राकृतिक रूप से बदला या पुनः भरा जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "Renewable energy sources are becoming more popular.",
+          "translation": "नवीकरणीय ऊर्जा स्रोत अधिक लोकप्रिय हो रहे हैं।"
+        },
+        {
+          "sentence": "The use of renewable resources can reduce our reliance on fossil fuels.",
+          "translation": "नवीकरणीय संसाधनों का उपयोग जीवाश्म ईंधन पर हमारी निर्भरता को कम कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Toxic",
+      "phoneticRespelling": "TOK-sik",
+      "translation": "विषाक्त",
+      "definition": "Poisonous or harmful to living organisms.",
+      "definationTranslation": "जीवित जीवों के लिए जहरीला या हानिकारक।",
+      "sentence": [
+        {
+          "sentence": "The toxic chemicals in the water are harming the fish.",
+          "translation": "पानी में विषाक्त रसायन मछलियों को नुकसान पहुँचा रहे हैं।"
+        },
+        {
+          "sentence": "The company is being sued for releasing toxic waste into the environment.",
+          "translation": "कंपनी पर्यावरण में विषाक्त अपशिष्ट छोड़ने के लिए मुकदमा चलाया जा रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Wilderness",
+      "phoneticRespelling": "WIL-duh-ris",
+      "translation": "जंगली क्षेत्र",
+      "definition": "A wild and natural area, often uninhabited by humans.",
+      "definationTranslation": "एक जंगली और प्राकृतिक क्षेत्र, अक्सर मानवों द्वारा अनबासी है।",
+      "sentence": [
+        {
+          "sentence": "The wilderness area is home to many endangered species.",
+          "translation": "जंगली क्षेत्र में कई लुप्तप्राय प्रजातियाँ अपना घर बनाती हैं।"
+        },
+        {
+          "sentence": "The government has set aside a large area of wilderness for conservation.",
+          "translation": "सरकार ने संरक्षण के लिए एक बड़े जंगली क्षेत्र को अलग रखा है।"
+        }
+      ]
+    },
+    {
+      "word": "Deforestation",
+      "phoneticRespelling": "dee-for-uh-STAY-shun",
+      "translation": "वनस्पति विनाश",
+      "definition": "The act of cutting down trees in a forest, usually as a result of human activities.",
+      "definationTranslation": "एक वन में पेड़ों को काटने का कार्य, आमतौर पर मानव गतिविधियों के परिणामस्वरूप।",
+      "sentence": [
+        {
+          "sentence": "Deforestation is a major contributor to climate change.",
+          "translation": "वनस्पति विनाश जलवायु परिवर्तन में एक प्रमुख योगदानकर्ता है।"
+        },
+        {
+          "sentence": "The government is taking steps to prevent deforestation and promote reforestation.",
+          "translation": "सरकार वनस्पति विनाश को रोकने और पुनर्वनीकरण को बढ़ावा देने के लिए कदम उठा रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Climate",
+      "phoneticRespelling": "KLAY-mit",
+      "translation": "जलवायु",
+      "definition": "The weather conditions in a particular area over a long period of time.",
+      "definationTranslation": "एक विशिष्ट क्षेत्र में एक लंबे समय के दौरान मौसम की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "The climate in the mountains is very cold.",
+          "translation": "पहाड़ों में जलवायु बहुत ठंडी है।"
+        },
+        {
+          "sentence": "The changing climate is having a significant impact on the environment.",
+          "translation": "जलवायु परिवर्तन पर्यावरण पर महत्वपूर्ण प्रभाव डाल रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Natural",
+      "phoneticRespelling": "NAY-chuh-rul",
+      "translation": "प्राकृतिक",
+      "definition": "Existing in or caused by nature, not made or caused by humans.",
+      "definationTranslation": "प्रकृति में मौजूद या प्रकृति द्वारा उत्पन्न, मानव द्वारा नहीं बनाया या उत्पन्न।",
+      "sentence": [
+        {
+          "sentence": "The natural beauty of the landscape is breathtaking.",
+          "translation": "भूदृश्य की प्राकृतिक सुंदरता सांस लेने वाली है।"
+        },
+        {
+          "sentence": "The company is committed to using natural and sustainable materials.",
+          "translation": "कंपनी प्राकृतिक और स्थायी सामग्री का उपयोग करने के लिए प्रतिबद्ध है।"
+        }
+      ]
+    },
+    {
+      "word": "Emission",
+      "phoneticRespelling": "ih-MISH-un",
+      "translation": "उत्सर्जन",
+      "definition": "The act of releasing or giving off something, especially a gas or radiation.",
+      "definationTranslation": "कुछ को छोड़ने या देने का कार्य, विशेष रूप से एक गैस या विकिरण।",
+      "sentence": [
+        {
+          "sentence": "The emission of greenhouse gases is contributing to climate change.",
+          "translation": "ग्रीनहाउस गैसों का उत्सर्जन जलवायु परिवर्तन में योगदान दे रहा है।"
+        },
+        {
+          "sentence": "The company is working to reduce its carbon emission.",
+          "translation": "कंपनी अपने कार्बन उत्सर्जन को कम करने के लिए काम कर रही है।"
+        }
+      ]
+    }
+  ]
 }

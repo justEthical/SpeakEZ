@@ -1,4 +1,345 @@
 {
   "topic": "Financial Planning",
-  "words": []
+  "words": [
+    {
+      "word": "budget",
+      "phoneticRespelling": "BUH-jit",
+      "translation": "बजट",
+      "definition": "A plan for spending and saving money over a period of time.",
+      "definationTranslation": "एक निश्चित अवधि के लिए धन व्यय और बचत की योजना।",
+      "sentence": [
+        {
+          "sentence": "She created a monthly budget to control her expenses.",
+          "translation": "उसने अपने खर्चों को नियंत्रित करने के लिए मासिक बजट बनाया।"
+        },
+        {
+          "sentence": "Sticking to a budget helps avoid debt.",
+          "translation": "बजट का पालन करने से कर्ज से बचा जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "savings",
+      "phoneticRespelling": "SEY-vings",
+      "translation": "बचत",
+      "definition": "Money set aside for future use rather than spent immediately.",
+      "definationTranslation": "भविष्य के उपयोग के लिए तुरंत खर्च न करने वाली धनराशि।",
+      "sentence": [
+        {
+          "sentence": "His savings account grew steadily over the years.",
+          "translation": "उसका बचत खाता वर्षों में धीरे-धीरे बढ़ा।"
+        },
+        {
+          "sentence": "Building savings is key to financial security.",
+          "translation": "बचत बनाना वित्तीय सुरक्षा की कुंजी है।"
+        }
+      ]
+    },
+    {
+      "word": "investment",
+      "phoneticRespelling": "in-VEST-muhnt",
+      "translation": "निवेश",
+      "definition": "The act of putting money into assets to generate income or profit.",
+      "definationTranslation": "धन को संपत्तियों में लगाने की क्रिया ताकि आय या लाभ हो।",
+      "sentence": [
+        {
+          "sentence": "Real estate is a popular investment option.",
+          "translation": "रियल एस्टेट एक लोकप्रिय निवेश विकल्प है।"
+        },
+        {
+          "sentence": "Diversify your investments to reduce risk.",
+          "translation": "जोखिम कम करने के लिए निवेश विविधीकृत करें।"
+        }
+      ]
+    },
+    {
+      "word": "retirement",
+      "phoneticRespelling": "rih-TIRE-muhnt",
+      "translation": "सेवानिवृत्ति",
+      "definition": "The period when a person stops working permanently, often supported by savings.",
+      "definationTranslation": "वह अवधि जब व्यक्ति स्थायी रूप से काम बंद कर देता है, अक्सर बचत से समर्थित।",
+      "sentence": [
+        {
+          "sentence": "He planned for retirement by contributing to a pension fund.",
+          "translation": "उसने पेंशन फंड में योगदान देकर सेवानिवृत्ति की योजना बनाई।"
+        },
+        {
+          "sentence": "Early retirement requires careful financial planning.",
+          "translation": "जल्दी सेवानिवृत्ति के लिए सावधानीपूर्वक वित्तीय योजना जरूरी है।"
+        }
+      ]
+    },
+    {
+      "word": "debt",
+      "phoneticRespelling": "det",
+      "translation": "ऋण",
+      "definition": "Money owed to another person or institution.",
+      "definationTranslation": "दूसरे व्यक्ति या संस्थान को बकाया धन।",
+      "sentence": [
+        {
+          "sentence": "Paying off debt should be a priority.",
+          "translation": "ऋण चुकाना प्राथमिकता होनी चाहिए।"
+        },
+        {
+          "sentence": "High-interest debt can trap you financially.",
+          "translation": "उच्च ब्याज वाला ऋण आपको वित्तीय रूप से फंसा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "asset",
+      "phoneticRespelling": "A-set",
+      "translation": "संपत्ति",
+      "definition": "Something valuable that an individual or company owns.",
+      "definationTranslation": "व्यक्ति या कंपनी द्वारा स्वामित्व वाली मूल्यवान वस्तु।",
+      "sentence": [
+        {
+          "sentence": "Her home is her biggest asset.",
+          "translation": "उसका घर उसकी सबसे बड़ी संपत्ति है।"
+        },
+        {
+          "sentence": "List all your assets before planning.",
+          "translation": "योजना बनाने से पहले अपनी सभी संपत्तियों की सूची बनाएं।"
+        }
+      ]
+    },
+    {
+      "word": "liability",
+      "phoneticRespelling": "lye-uh-BIL-ih-tee",
+      "translation": "दायित्व",
+      "definition": "A financial obligation or debt that must be paid.",
+      "definationTranslation": "वित्तीय दायित्व या ऋण जो चुकाना आवश्यक है।",
+      "sentence": [
+        {
+          "sentence": "Loans are a major liability on his balance sheet.",
+          "translation": "ऋण उसके बैलेंस शीट पर प्रमुख दायित्व हैं।"
+        },
+        {
+          "sentence": "Reduce liabilities to improve net worth.",
+          "translation": "शुद्ध मूल्य सुधारने के लिए दायित्व कम करें।"
+        }
+      ]
+    },
+    {
+      "word": "income",
+      "phoneticRespelling": "IN-kuhm",
+      "translation": "आय",
+      "definition": "Money received, especially on a regular basis, for work or investments.",
+      "definationTranslation": "धन प्राप्ति, विशेष रूप से नियमित रूप से, कार्य या निवेश के लिए।",
+      "sentence": [
+        {
+          "sentence": "Her monthly income covers all expenses.",
+          "translation": "उसकी मासिक आय सभी खर्चों को कवर करती है।"
+        },
+        {
+          "sentence": "Passive income from rentals boosted his savings.",
+          "translation": "किराए से निष्क्रिय आय ने उसकी बचत बढ़ाई।"
+        }
+      ]
+    },
+    {
+      "word": "expense",
+      "phoneticRespelling": "ek-SPENS",
+      "translation": "व्यय",
+      "definition": "The cost required for something; money spent.",
+      "definationTranslation": "किसी चीज के लिए आवश्यक लागत; खर्च किया गया धन।",
+      "sentence": [
+        {
+          "sentence": "Track your daily expenses to save more.",
+          "translation": "अधिक बचत के लिए दैनिक व्यय ट्रैक करें।"
+        },
+        {
+          "sentence": "Unexpected expenses can derail your budget.",
+          "translation": "अप्रत्याशित व्यय आपके बजट को पटरी से उतार सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "portfolio",
+      "phoneticRespelling": "por-uh-FOH-lee-oh",
+      "translation": "पोर्टफोलियो",
+      "definition": "A collection of investments owned by an individual.",
+      "definationTranslation": "व्यक्ति द्वारा स्वामित्व वाले निवेशों का संग्रह।",
+      "sentence": [
+        {
+          "sentence": "Review your investment portfolio annually.",
+          "translation": "अपने निवेश पोर्टफोलियो की वार्षिक समीक्षा करें।"
+        },
+        {
+          "sentence": "A balanced portfolio minimizes risks.",
+          "translation": "संतुलित पोर्टफोलियो जोखिमों को कम करता है।"
+        }
+      ]
+    },
+    {
+      "word": "diversify",
+      "phoneticRespelling": "dih-VUR-suh-fye",
+      "translation": "विविधीकृत करना",
+      "definition": "To spread investments across different assets to reduce risk.",
+      "definationTranslation": "जोखिम कम करने के लिए विभिन्न संपत्तियों में निवेश फैलाना।",
+      "sentence": [
+        {
+          "sentence": "Investors should diversify to protect their wealth.",
+          "translation": "निवेशकों को अपनी संपत्ति की रक्षा के लिए विविधीकृत करना चाहिए।"
+        },
+        {
+          "sentence": "Don't put all eggs in one basket; diversify.",
+          "translation": "सभी अंडे एक टोकरी में न रखें; विविधीकृत करें।"
+        }
+      ]
+    },
+    {
+      "word": "compound",
+      "phoneticRespelling": "kuhm-POWND",
+      "translation": "चक्रवृद्धि",
+      "definition": "Interest calculated on the initial principal and accumulated interest.",
+      "definationTranslation": "प्रारंभिक मूलधन और संचित ब्याज पर गणना किया गया ब्याज।",
+      "sentence": [
+        {
+          "sentence": "Compound interest grows your savings exponentially.",
+          "translation": "चक्रवृद्धि ब्याज आपकी बचत को तेजी से बढ़ाता है।"
+        },
+        {
+          "sentence": "Start early to benefit from compound growth.",
+          "translation": "चक्रवृद्धि वृद्धि का लाभ लेने के लिए जल्दी शुरू करें।"
+        }
+      ]
+    },
+    {
+      "word": "inflation",
+      "phoneticRespelling": "in-FLEY-shuhn",
+      "translation": "मुद्रास्फीति",
+      "definition": "The rate at which the general level of prices for goods rises.",
+      "definationTranslation": "वस्तुओं की कीमतों के सामान्य स्तर की वृद्धि की दर।",
+      "sentence": [
+        {
+          "sentence": "Inflation erodes the value of savings over time.",
+          "translation": "मुद्रास्फीति समय के साथ बचत के मूल्य को कम करती है।"
+        },
+        {
+          "sentence": "Plan for inflation in long-term goals.",
+          "translation": "दीर्घकालिक लक्ष्यों में मुद्रास्फीति की योजना बनाएं।"
+        }
+      ]
+    },
+    {
+      "word": "emergency",
+      "phoneticRespelling": "ih-MUR-juhn-see",
+      "translation": "आपातकालीन",
+      "definition": "A fund set aside for unexpected financial needs.",
+      "definationTranslation": "अप्रत्याशित वित्तीय जरूरतों के लिए अलग रखा गया कोष।",
+      "sentence": [
+        {
+          "sentence": "Build an emergency fund covering six months' expenses.",
+          "translation": "छह महीने के खर्च कवर करने वाले आपातकालीन कोष बनाएं।"
+        },
+        {
+          "sentence": "The emergency fund saved him during job loss.",
+          "translation": "आपातकालीन कोष ने नौकरी छूटने पर उसे बचाया।"
+        }
+      ]
+    },
+    {
+      "word": "tax",
+      "phoneticRespelling": "taks",
+      "translation": "कर",
+      "definition": "A compulsory contribution to government revenue.",
+      "definationTranslation": "सरकारी राजस्व में अनिवार्य योगदान।",
+      "sentence": [
+        {
+          "sentence": "Tax deductions can lower your liability.",
+          "translation": "कर कटौती आपकी दायित्व कम कर सकती हैं।"
+        },
+        {
+          "sentence": "File your tax return before the deadline.",
+          "translation": "समय सीमा से पहले अपना कर रिटर्न दाखिल करें।"
+        }
+      ]
+    },
+    {
+      "word": "credit",
+      "phoneticRespelling": "KRED-it",
+      "translation": "क्रेडिट",
+      "definition": "The ability to borrow money under agreed terms.",
+      "definationTranslation": "सहमत शर्तों पर धन उधार लेने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Good credit score helps get loans easily.",
+          "translation": "अच्छा क्रेडिट स्कोर ऋण आसानी से दिलाता है।"
+        },
+        {
+          "sentence": "Use credit wisely to build history.",
+          "translation": "इतिहास बनाने के लिए क्रेडिट का समझदारी से उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "equity",
+      "phoneticRespelling": "EK-wih-tee",
+      "translation": "इक्विटी",
+      "definition": "The value of an asset minus any debts against it.",
+      "definationTranslation": "संपत्ति का मूल्य उस पर किसी भी ऋण को घटाकर।",
+      "sentence": [
+        {
+          "sentence": "Home equity can be used for loans.",
+          "translation": "घर की इक्विटी ऋण के लिए उपयोग की जा सकती है।"
+        },
+        {
+          "sentence": "Building equity increases your net worth.",
+          "translation": "इक्विटी बनाना आपके शुद्ध मूल्य को बढ़ाता है।"
+        }
+      ]
+    },
+    {
+      "word": "annuity",
+      "phoneticRespelling": "uh-NYOO-ih-tee",
+      "translation": "एन्युटी",
+      "definition": "A financial product providing fixed payments over time.",
+      "definationTranslation": "समय के साथ निश्चित भुगतान प्रदान करने वाला वित्तीय उत्पाद।",
+      "sentence": [
+        {
+          "sentence": "An annuity ensures steady retirement income.",
+          "translation": "एन्युटी सेवानिवृत्ति में स्थिर आय सुनिश्चित करती है।"
+        },
+        {
+          "sentence": "Consider annuities for long-term security.",
+          "translation": "दीर्घकालिक सुरक्षा के लिए एन्युटी पर विचार करें।"
+        }
+      ]
+    },
+    {
+      "word": "estate",
+      "phoneticRespelling": "ih-STAYT",
+      "translation": "संपदा",
+      "definition": "All the property and money owned by a person at death.",
+      "definationTranslation": "व्यक्ति की मृत्यु पर स्वामित्व वाली सभी संपत्ति और धन।",
+      "sentence": [
+        {
+          "sentence": "Plan your estate to protect your family.",
+          "translation": "अपने परिवार की रक्षा के लिए संपदा की योजना बनाएं।"
+        },
+        {
+          "sentence": "Estate planning avoids legal complications.",
+          "translation": "संपदा योजना कानूनी जटिलताओं से बचाती है।"
+        }
+      ]
+    },
+    {
+      "word": "fiduciary",
+      "phoneticRespelling": "fih-DOO-shee-er-ee",
+      "translation": "फिड्यूशियरी",
+      "definition": "A person or organization that manages money for another with duty of care.",
+      "definationTranslation": "दूसरे के धन का प्रबंधन करने वाला व्यक्ति या संगठन जिसका कर्तव्य है देखभाल।",
+      "sentence": [
+        {
+          "sentence": "Choose a fiduciary advisor for your portfolio.",
+          "translation": "अपने पोर्टफोलियो के लिए फिड्यूशियरी सलाहकार चुनें।"
+        },
+        {
+          "sentence": "Fiduciary duty ensures your best interests.",
+          "translation": "फिड्यूशियरी कर्तव्य आपके सर्वोत्तम हित सुनिश्चित करता है।"
+        }
+      ]
+    }
+  ]
 }

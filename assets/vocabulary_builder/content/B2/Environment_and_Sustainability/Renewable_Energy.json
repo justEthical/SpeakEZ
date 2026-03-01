@@ -1,4 +1,345 @@
 {
   "topic": "Renewable Energy",
-  "words": []
+  "words": [
+    {
+      "word": "Solar",
+      "phoneticRespelling": "SOH-lur",
+      "translation": "सौर",
+      "definition": "related to the sun",
+      "definationTranslation": "सूरज से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The solar panels are used to generate electricity.",
+          "translation": "सौर पैनल बिजली उत्पन्न करने के लिए उपयोग किए जाते हैं."
+        },
+        {
+          "sentence": "The solar energy is a renewable source of energy.",
+          "translation": "सौर ऊर्जा ऊर्जा का एक अक्षय स्रोत है."
+        }
+      ]
+    },
+    {
+      "word": "Wind",
+      "phoneticRespelling": "WIND",
+      "translation": "हवा",
+      "definition": "natural movement of air",
+      "definationTranslation": "वायु की प्राकृतिक गति",
+      "sentence": [
+        {
+          "sentence": "The wind turbine is used to generate electricity.",
+          "translation": "पवन चक्की बिजली उत्पन्न करने के लिए उपयोग की जाती है."
+        },
+        {
+          "sentence": "The wind energy is a clean source of energy.",
+          "translation": "पवन ऊर्जा ऊर्जा का एक स्वच्छ स्रोत है."
+        }
+      ]
+    },
+    {
+      "word": "Biomass",
+      "phoneticRespelling": "BY-oh-mass",
+      "translation": "जैव पदार्थ",
+      "definition": "organic matter that can be used as fuel",
+      "definationTranslation": "जैविक पदार्थ जिसे ईंधन के रूप में उपयोग किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The biomass is used to generate heat and electricity.",
+          "translation": "जैव पदार्थ गर्मी और बिजली उत्पन्न करने के लिए उपयोग किया जाता है."
+        },
+        {
+          "sentence": "The biomass is a renewable source of energy.",
+          "translation": "जैव पदार्थ ऊर्जा का एक अक्षय स्रोत है."
+        }
+      ]
+    },
+    {
+      "word": "Geothermal",
+      "phoneticRespelling": "jee-oh-THUR-mul",
+      "translation": "भू-thermal",
+      "definition": "related to the heat of the earth",
+      "definationTranslation": "पृथ्वी की गर्मी से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The geothermal energy is used to generate electricity.",
+          "translation": "भू-थर्मल ऊर्जा बिजली उत्पन्न करने के लिए उपयोग की जाती है."
+        },
+        {
+          "sentence": "The geothermal energy is a clean source of energy.",
+          "translation": "भू-थर्मल ऊर्जा ऊर्जा का एक स्वच्छ स्रोत है."
+        }
+      ]
+    },
+    {
+      "word": "Hydro",
+      "phoneticRespelling": "HY-droh",
+      "translation": "जल",
+      "definition": "related to water",
+      "definationTranslation": "जल से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The hydro energy is used to generate electricity.",
+          "translation": "जल ऊर्जा बिजली उत्पन्न करने के लिए उपयोग की जाती है."
+        },
+        {
+          "sentence": "The hydro energy is a renewable source of energy.",
+          "translation": "जल ऊर्जा ऊर्जा का एक अक्षय स्रोत है."
+        }
+      ]
+    },
+    {
+      "word": "Turbine",
+      "phoneticRespelling": "TUR-byne",
+      "translation": "तुर्बाइन",
+      "definition": "a machine that converts energy into motion",
+      "definationTranslation": "एक मशीन जो ऊर्जा को गति में परिवर्तित करती है",
+      "sentence": [
+        {
+          "sentence": "The turbine is used to generate electricity.",
+          "translation": "तुर्बाइन बिजली उत्पन्न करने के लिए उपयोग की जाती है."
+        },
+        {
+          "sentence": "The turbine is a key component of a power plant.",
+          "translation": "तुर्बाइन एक बिजली संयंत्र का एक महत्वपूर्ण घटक है."
+        }
+      ]
+    },
+    {
+      "word": "Panel",
+      "phoneticRespelling": "PAN-ul",
+      "translation": "पैनल",
+      "definition": "a flat piece of material used to absorb or reflect energy",
+      "definationTranslation": "एक समतल टुकड़ा जो ऊर्जा को अवशोषित या परावर्तित करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The solar panel is used to generate electricity.",
+          "translation": "सौर पैनल बिजली उत्पन्न करने के लिए उपयोग किया जाता है."
+        },
+        {
+          "sentence": "The panel is a key component of a solar energy system.",
+          "translation": "पैनल एक सौर ऊर्जा प्रणाली का एक महत्वपूर्ण घटक है."
+        }
+      ]
+    },
+    {
+      "word": "Renewable",
+      "phoneticRespelling": "ri-NOO-uh-bul",
+      "translation": "अक्षय",
+      "definition": "can be replenished or restored naturally",
+      "definationTranslation": "जो प्राकृतिक रूप से पूरक या पुनर्स्थापित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The renewable energy sources are becoming increasingly popular.",
+          "translation": "अक्षय ऊर्जा स्रोतों की लोकप्रियता बढ़ रही है."
+        },
+        {
+          "sentence": "The renewable energy is a sustainable solution for the future.",
+          "translation": "अक्षय ऊर्जा भविष्य के लिए एक सतत समाधान है."
+        }
+      ]
+    },
+    {
+      "word": "Sustainable",
+      "phoneticRespelling": "suh-STAY-nuh-bul",
+      "translation": "सतत",
+      "definition": "able to be maintained or supported without harming the environment",
+      "definationTranslation": "पर्यावरण को नुकसान पहुंचाए बिना बनाए रखा या समर्थित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The sustainable energy solutions are becoming increasingly popular.",
+          "translation": "सतत ऊर्जा समाधानों की लोकप्रियता बढ़ रही है."
+        },
+        {
+          "sentence": "The sustainable development is a key goal for the future.",
+          "translation": "सतत विकास भविष्य के लिए एक महत्वपूर्ण लक्ष्य है."
+        }
+      ]
+    },
+    {
+      "word": "Energy",
+      "phoneticRespelling": "EN-ur-jee",
+      "translation": "ऊर्जा",
+      "definition": "the ability to do work",
+      "definationTranslation": "कार्य करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The energy is a vital component of our daily lives.",
+          "translation": "ऊर्जा हमारे दैनिक जीवन का एक महत्वपूर्ण घटक है."
+        },
+        {
+          "sentence": "The energy is a key driver of economic growth.",
+          "translation": "ऊर्जा आर्थिक विकास का एक महत्वपूर्ण चालक है."
+        }
+      ]
+    },
+    {
+      "word": "Power",
+      "phoneticRespelling": "POH-ur",
+      "translation": "शक्ति",
+      "definition": "the ability to do work or cause change",
+      "definationTranslation": "कार्य करने या परिवर्तन का कारण बनने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The power plant generates electricity for the city.",
+          "translation": "बिजली संयंत्र शहर के लिए बिजली उत्पन्न करता है."
+        },
+        {
+          "sentence": "The power of renewable energy is becoming increasingly recognized.",
+          "translation": "अक्षय ऊर्जा की शक्ति धीरे-धीरे मान्यता प्राप्त कर रही है."
+        }
+      ]
+    },
+    {
+      "word": "Grid",
+      "phoneticRespelling": "GRID",
+      "translation": "जाल",
+      "definition": "a network of lines or pathways that connect points or areas",
+      "definationTranslation": "एक नेटवर्क जो बिंदुओं या क्षेत्रों को जोड़ने वाली रेखाओं या मार्गों का",
+      "sentence": [
+        {
+          "sentence": "The power grid is a complex network of transmission lines.",
+          "translation": "बिजली ग्रिड एक जटिल ट्रांसमिशन लाइनों का नेटवर्क है."
+        },
+        {
+          "sentence": "The grid is an essential component of a power system.",
+          "translation": "जाल एक शक्ति प्रणाली का एक महत्वपूर्ण घटक है."
+        }
+      ]
+    },
+    {
+      "word": "Transmission",
+      "phoneticRespelling": "tranz-MISH-un",
+      "translation": "संचरण",
+      "definition": "the act of sending or conveying something",
+      "definationTranslation": "किसी चीज़ को भेजने या संचारित करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The transmission lines carry electricity from the power plant to the city.",
+          "translation": "संचरण लाइनें बिजली संयंत्र से शहर तक बिजली पहुंचाती हैं।"
+        },
+        {
+          "sentence": "The transmission of energy is a critical component of a power system.",
+          "translation": "ऊर्जा का संचरण एक शक्ति प्रणाली का एक महत्वपूर्ण घटक है."
+        }
+      ]
+    },
+    {
+      "word": "Generation",
+      "phoneticRespelling": "jen-uh-REY-shun",
+      "translation": "उत्पादन",
+      "definition": "the act of producing or creating something",
+      "definationTranslation": "किसी चीज़ का उत्पादन या निर्माण करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The generation of electricity is a complex process.",
+          "translation": "बिजली का उत्पादन एक जटिल प्रक्रिया है."
+        },
+        {
+          "sentence": "The generation of renewable energy is becoming increasingly important.",
+          "translation": "अक्षय ऊर्जा का उत्पादन धीरे-धीरे महत्वपूर्ण हो रहा है."
+        }
+      ]
+    },
+    {
+      "word": "Distribution",
+      "phoneticRespelling": "dis-tri-BYOO-shun",
+      "translation": "वितरण",
+      "definition": "the act of delivering or spreading something",
+      "definationTranslation": "किसी चीज़ को वितरित या फैलाने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The distribution of electricity is a critical component of a power system.",
+          "translation": "बिजली का वितरण एक शक्ति प्रणाली का एक महत्वपूर्ण घटक है."
+        },
+        {
+          "sentence": "The distribution of renewable energy is becoming increasingly important.",
+          "translation": "अक्षय ऊर्जा का वितरण धीरे-धीरे महत्वपूर्ण हो रहा है."
+        }
+      ]
+    },
+    {
+      "word": "Efficiency",
+      "phoneticRespelling": "eh-FISH-uh-see",
+      "translation": "कुशलता",
+      "definition": "the ability to produce a desired result with a minimum of waste or excess",
+      "definationTranslation": "न्यूनतम अपशिष्ट या अधिक के साथ एक वांछित परिणाम का उत्पादन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The efficiency of a power plant is an important factor in determining its cost-effectiveness.",
+          "translation": "एक बिजली संयंत्र की कुशलता इसकी लागत-प्रभावशीलता का निर्धारण करने में एक महत्वपूर्ण कारक है."
+        },
+        {
+          "sentence": "The efficiency of renewable energy systems is becoming increasingly important.",
+          "translation": "अक्षय ऊर्जा प्रणालियों की कुशलता धीरे-धीरे महत्वपूर्ण हो रही है."
+        }
+      ]
+    },
+    {
+      "word": "Conservation",
+      "phoneticRespelling": "kahn-sur-VAY-shun",
+      "translation": "संरक्षण",
+      "definition": "the act of preserving or protecting something",
+      "definationTranslation": "किसी चीज़ का संरक्षण या रक्षा करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The conservation of energy is an important goal for the future.",
+          "translation": "ऊर्जा का संरक्षण भविष्य के लिए एक महत्वपूर्ण लक्ष्य है."
+        },
+        {
+          "sentence": "The conservation of natural resources is becoming increasingly important.",
+          "translation": "प्राकृतिक संसाधनों का संरक्षण धीरे-धीरे महत्वपूर्ण हो रहा है."
+        }
+      ]
+    },
+    {
+      "word": "Sustainability",
+      "phoneticRespelling": "suh-stay-nuh-BIL-i-tee",
+      "translation": "सततता",
+      "definition": "the ability to be maintained or supported without harming the environment",
+      "definationTranslation": "पर्यावरण को नुकसान पहुंचाए बिना बनाए रखा या समर्थित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The sustainability of renewable energy systems is becoming increasingly important.",
+          "translation": "अक्षय ऊर्जा प्रणालियों की सततता धीरे-धीरे महत्वपूर्ण हो रही है."
+        },
+        {
+          "sentence": "The sustainability of natural resources is a critical component of a healthy ecosystem.",
+          "translation": "प्राकृतिक संसाधनों की सततता एक स्वस्थ पारिस्थितिकी तंत्र का एक महत्वपूर्ण घटक है."
+        }
+      ]
+    },
+    {
+      "word": "Environmental",
+      "phoneticRespelling": "en-vy-ruh-n-MEN-tul",
+      "translation": "पर्यावरण",
+      "definition": "related to the natural world and the impact of human activity on it",
+      "definationTranslation": "प्राकृतिक दुनिया और मानव गतिविधि के इसके प्रभाव से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The environmental impact of renewable energy systems is becoming increasingly important.",
+          "translation": "अक्षय ऊर्जा प्रणालियों का पर्यावरण प्रभाव धीरे-धीरे महत्वपूर्ण हो रहा है."
+        },
+        {
+          "sentence": "The environmental protection is a critical component of a sustainable future.",
+          "translation": "पर्यावरण संरक्षण एक सतत भविष्य का एक महत्वपूर्ण घटक है."
+        }
+      ]
+    },
+    {
+      "word": "Climate",
+      "phoneticRespelling": "KLY-mit",
+      "translation": "जलवायु",
+      "definition": "the weather conditions prevailing in an area",
+      "definationTranslation": "किसी क्षेत्र में प्रबल मौसम की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The climate change is a critical issue for the future.",
+          "translation": "जलवायु परिवर्तन भविष्य के लिए एक महत्वपूर्ण मुद्दा है."
+        },
+        {
+          "sentence": "The climate protection is a key goal for the environmental sustainability.",
+          "translation": "जलवायु संरक्षण पर्यावरण स्थिरता के लिए एक महत्वपूर्ण लक्ष्य है."
+        }
+      ]
+    }
+  ]
 }

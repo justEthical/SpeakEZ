@@ -1,4 +1,345 @@
 {
   "topic": "Urban Planning",
-  "words": []
+  "words": [
+    {
+      "word": "Architecture",
+      "phoneticRespelling": "AR-ki-tek-cher",
+      "translation": "वास्तुकला",
+      "definition": "The art or science of building design",
+      "definationTranslation": "भवन डिज़ाइन की कला या विज्ञान",
+      "sentence": [
+        {
+          "sentence": "The city's architecture is a mix of modern and ancient styles",
+          "translation": "शहर की वास्तुकला में आधुनिक और प्राचीन शैलियों का मिश्रण है"
+        },
+        {
+          "sentence": "The architect designed the building with sustainable architecture in mind",
+          "translation": "वास्तुकार ने इमारत को टिकाऊ वास्तुकला को ध्यान में रखकर डिज़ाइन किया"
+        }
+      ]
+    },
+    {
+      "word": "Development",
+      "phoneticRespelling": "di-VEH-luhp-muhnt",
+      "translation": "विकास",
+      "definition": "The process of building or creating something new",
+      "definationTranslation": "किसी नए को बनाने याสร्जन करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's development plan includes new infrastructure projects",
+          "translation": "शहर की विकास योजना में नए बुनियादी ढांचे परियोजनाएं शामिल हैं"
+        },
+        {
+          "sentence": "The company's development team is working on a new product",
+          "translation": "कंपनी की विकास टीम एक नए उत्पाद पर काम कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Infrastructure",
+      "phoneticRespelling": "in-fruh-STRAHK-cher",
+      "translation": "बुनियादी ढांचा",
+      "definition": "The basic structures and systems of a country or organization",
+      "definationTranslation": "किसी देश या संगठन की मूलभूत संरचनाएं और प्रणालियां",
+      "sentence": [
+        {
+          "sentence": "The city's infrastructure is in need of repair",
+          "translation": "शहर के बुनियादी ढांचे को मरम्मत की आवश्यकता है"
+        },
+        {
+          "sentence": "The company is investing in new infrastructure to improve efficiency",
+          "translation": "कंपनी कार्यक्षमता में सुधार के लिए नए बुनियादी ढांचे में निवेश कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Sustainability",
+      "phoneticRespelling": "suh-stay-nuh-BIL-i-tee",
+      "translation": "स्थायित्व",
+      "definition": "The ability to maintain or support a process without harming the environment",
+      "definationTranslation": "प्रक्रिया को पर्यावरण को नुकसान पहुंचाए बिना बनाए रखने या समर्थन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The city is working towards sustainability in its development plans",
+          "translation": "शहर अपनी विकास योजनाओं में स्थायित्व की दिशा में काम कर रहा है"
+        },
+        {
+          "sentence": "The company is committed to sustainability in its business practices",
+          "translation": "कंपनी अपने व्यावसायिक प्रथाओं में स्थायित्व के लिए प्रतिबद्ध है"
+        }
+      ]
+    },
+    {
+      "word": "Transportation",
+      "phoneticRespelling": "tranz-por-TAY-shuhn",
+      "translation": "परिवहन",
+      "definition": "The movement of people or goods from one place to another",
+      "definationTranslation": "लोगों या माल की एक स्थान से दूसरे स्थान तक ले जाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's transportation system is efficient and well-organized",
+          "translation": "शहर की परिवहन प्रणाली कुशल और अच्छी तरह से संगठित है"
+        },
+        {
+          "sentence": "The company is investing in new transportation technologies",
+          "translation": "कंपनी नए परिवहन प्रौद्योगिकियों में निवेश कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Community",
+      "phoneticRespelling": "kuh-MYOO-ni-tee",
+      "translation": "समुदाय",
+      "definition": "A group of people living in a particular area or having a common interest",
+      "definationTranslation": "किसी विशिष्ट क्षेत्र में रहने वाले या साझा हित रखने वाले लोगों का समूह",
+      "sentence": [
+        {
+          "sentence": "The city's community is diverse and vibrant",
+          "translation": "शहर का समुदाय विविध और जीवंत है"
+        },
+        {
+          "sentence": "The company is committed to giving back to the community",
+          "translation": "कंपनी समुदाय को वापस देने के लिए समर्पित है"
+        }
+      ]
+    },
+    {
+      "word": "Governance",
+      "phoneticRespelling": "GUV-ern-uhns",
+      "translation": "शासन",
+      "definition": "The act or process of governing or controlling a country, organization, or system",
+      "definationTranslation": "किसी देश, संगठन या प्रणाली को शासित करने या नियंत्रित करने की क्रिया या प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's governance structure is complex and bureaucratic",
+          "translation": "शहर की शासन संरचना जटिल और नौकरशाही है"
+        },
+        {
+          "sentence": "The company's governance policies are transparent and fair",
+          "translation": "कंपनी की शासन नीतियां पारदर्शी और न्यायसंगत हैं"
+        }
+      ]
+    },
+    {
+      "word": "Housing",
+      "phoneticRespelling": "HAH-zing",
+      "translation": "आवास",
+      "definition": "The act of providing or having a place to live",
+      "definationTranslation": "एक रहने की जगह प्रदान करने या होने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's housing market is competitive and expensive",
+          "translation": "शहर का आवास बाजार竞争ी और महंगा है"
+        },
+        {
+          "sentence": "The company is investing in affordable housing projects",
+          "translation": "कंपनी सस्ते आवास परियोजनाओं में निवेश कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Economy",
+      "phoneticRespelling": "eh-KAH-nuh-mee",
+      "translation": "अर्थव्यवस्था",
+      "definition": "The system of production, distribution, and exchange of goods and services",
+      "definationTranslation": "उत्पादन, वितरण और विनिमय की वस्तुओं और सेवाओं की प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The city's economy is strong and diverse",
+          "translation": "शहर की अर्थव्यवस्था मजबूत और विविध है"
+        },
+        {
+          "sentence": "The company is trying to stimulate the local economy",
+          "translation": "कंपनी स्थानीय अर्थव्यवस्था को उत्तेजित करने की कोशिश कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Environment",
+      "phoneticRespelling": "en-VIE-ruhnmuhnt",
+      "translation": "पर्यावरण",
+      "definition": "The natural world around us, including air, water, and land",
+      "definationTranslation": "हमारे आसपास की प्राकृतिक दुनिया, जिसमें हवा, पानी और भूमि शामिल हैं",
+      "sentence": [
+        {
+          "sentence": "The city is working to protect the environment",
+          "translation": "शहर पर्यावरण की रक्षा करने के लिए काम कर रहा है"
+        },
+        {
+          "sentence": "The company is committed to reducing its environmental impact",
+          "translation": "कंपनी अपने पर्यावरणीय प्रभाव को कम करने के लिए प्रतिबद्ध है"
+        }
+      ]
+    },
+    {
+      "word": "Design",
+      "phoneticRespelling": "di-ZAHYN",
+      "translation": "डिज़ाइन",
+      "definition": "The act of creating or planning something, such as a building or a product",
+      "definationTranslation": "किसी चीज़, जैसे कि एक इमारत या उत्पाद, को बनाने या योजना बनाने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's design is a mix of modern and historical styles",
+          "translation": "शहर का डिज़ाइन आधुनिक और ऐतिहासिक शैलियों का मिश्रण है"
+        },
+        {
+          "sentence": "The company is known for its innovative design solutions",
+          "translation": "कंपनी अपने नवीन डिज़ाइन समाधानों के लिए जानी जाती है"
+        }
+      ]
+    },
+    {
+      "word": "Planning",
+      "phoneticRespelling": "PLAH-nin",
+      "translation": "योजना",
+      "definition": "The act of making a plan or decision about something",
+      "definationTranslation": "किसी चीज़ के बारे में एक योजना या निर्णय बनाने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's planning department is responsible for urban development",
+          "translation": "शहर का योजना विभाग शहरी विकास के लिए जिम्मेदार है"
+        },
+        {
+          "sentence": "The company is planning to expand its operations",
+          "translation": "कंपनी अपने संचालन का विस्तार करने की योजना बना रही है"
+        }
+      ]
+    },
+    {
+      "word": "Policy",
+      "phoneticRespelling": "POH-li-see",
+      "translation": "नीति",
+      "definition": "A course of action or decision made by a government or organization",
+      "definationTranslation": "एक सरकार या संगठन द्वारा की गई कार्रवाई या निर्णय",
+      "sentence": [
+        {
+          "sentence": "The city's policy on urban planning is focused on sustainability",
+          "translation": "शहर की शहरी योजना पर नीति स्थायित्व पर केंद्रित है"
+        },
+        {
+          "sentence": "The company's policy is to prioritize customer satisfaction",
+          "translation": "कंपनी की नीति ग्राहक संतुष्टि को प्राथमिकता देना है"
+        }
+      ]
+    },
+    {
+      "word": "Public",
+      "phoneticRespelling": "PUH-blik",
+      "translation": "सार्वजनिक",
+      "definition": "Open to or affecting the public, or done for the benefit of the public",
+      "definationTranslation": "सार्वजनिक के लिए खुला, या सार्वजनिक के लाभ के लिए किया गया",
+      "sentence": [
+        {
+          "sentence": "The city's public transportation system is efficient and convenient",
+          "translation": "शहर की सार्वजनिक परिवहन प्रणाली कुशल और सुविधाजनक है"
+        },
+        {
+          "sentence": "The company is committed to serving the public interest",
+          "translation": "कंपनी सार्वजनिक हित की सेवा करने के लिए प्रतिबद्ध है"
+        }
+      ]
+    },
+    {
+      "word": "Space",
+      "phoneticRespelling": "SPAY-s",
+      "translation": "स्थान",
+      "definition": "A particular area or location, or the amount of room or capacity available",
+      "definationTranslation": "एक विशिष्ट क्षेत्र या स्थान, या उपलब्ध कमरे या क्षमता की मात्रा",
+      "sentence": [
+        {
+          "sentence": "The city's public spaces are well-designed and well-maintained",
+          "translation": "शहर के सार्वजनिक स्थान अच्छी तरह से डिज़ाइन किए गए हैं और अच्छी तरह से बनाए रखे गए हैं"
+        },
+        {
+          "sentence": "The company is looking for new space to expand its operations",
+          "translation": "कंपनी अपने संचालन का विस्तार करने के लिए नए स्थान की तलाश में है"
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "phoneticRespelling": "SIH-stuhm",
+      "translation": "प्रणाली",
+      "definition": "A set of connected things or parts that work together to achieve a common goal",
+      "definationTranslation": "एक संयुक्त चीजों या भागों का सेट जो एक सामान्य लक्ष्य को प्राप्त करने के लिए एक साथ काम करता है",
+      "sentence": [
+        {
+          "sentence": "The city's transportation system is complex and efficient",
+          "translation": "शहर की परिवहन प्रणाली जटिल और कुशल है"
+        },
+        {
+          "sentence": "The company's management system is designed to promote productivity",
+          "translation": "कंपनी की प्रबंधन प्रणाली उत्पादकता को बढ़ावा देने के लिए डिज़ाइन की गई है"
+        }
+      ]
+    },
+    {
+      "word": "Traffic",
+      "phoneticRespelling": "TRAH-fik",
+      "translation": "यातायात",
+      "definition": "The movement of people or vehicles on roads or other routes",
+      "definationTranslation": "सड़कों या अन्य मार्गों पर लोगों या वाहनों की आवाजाही",
+      "sentence": [
+        {
+          "sentence": "The city's traffic congestion is a major problem",
+          "translation": "शहर की यातायात भीड़ एक बड़ी समस्या है"
+        },
+        {
+          "sentence": "The company is working to reduce traffic accidents",
+          "translation": "कंपनी यातायात दुर्घटनाओं को कम करने के लिए काम कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Utility",
+      "phoneticRespelling": "yoo-TIL-i-tee",
+      "translation": "उपयोगिता",
+      "definition": "A company or organization that provides a public service, such as electricity or water",
+      "definationTranslation": "एक कंपनी या संगठन जो एक सार्वजनिक सेवा प्रदान करता है, जैसे कि बिजली या पानी",
+      "sentence": [
+        {
+          "sentence": "The city's utility company provides electricity and water to residents",
+          "translation": "शहर की उपयोगिता कंपनी निवासियों को बिजली और पानी प्रदान करती है"
+        },
+        {
+          "sentence": "The company is a leading provider of utility services",
+          "translation": "कंपनी उपयोगिता सेवाओं का अग्रणी प्रदाता है"
+        }
+      ]
+    },
+    {
+      "word": "Zoning",
+      "phoneticRespelling": "ZOHN-ing",
+      "translation": "ज़ोनिंग",
+      "definition": "The act of dividing an area into zones or sections for specific uses",
+      "definationTranslation": "एक क्षेत्र को विशिष्ट उपयोगों के लिए क्षेत्रों या खंडों में विभाजित करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The city's zoning laws regulate land use and development",
+          "translation": "शहर के ज़ोनिंग कानून भूमि उपयोग और विकास को विनियमित करते हैं"
+        },
+        {
+          "sentence": "The company is seeking a zoning variance to build a new facility",
+          "translation": "कंपनी एक नए सुविधा के निर्माण के लिए ज़ोनिंग विचलन की तलाश में है"
+        }
+      ]
+    },
+    {
+      "word": "Gentrification",
+      "phoneticRespelling": "jen-tri-fi-KAY-shuhn",
+      "translation": "सभ्यीकरण (जेंट्रिफिकेशन)",
+      "definition": "The process where a poor area is changed by wealthier people moving in",
+      "definationTranslation": "वह प्रक्रिया जहाँ अमीर लोगों के आने से किसी गरीब इलाके का स्वरूप बदल जाता है",
+      "sentence": [
+        {
+          "sentence": "Gentrification can lead to higher property taxes and displaced residents.",
+          "translation": "सभ्यीकरण (जेंट्रिफिकेशन) से संपत्ति कर में वृद्धि और निवासियों का विस्थापन हो सकता है।"
+        },
+        {
+          "sentence": "The neighborhood has seen rapid gentrification over the last decade.",
+          "translation": "पिछले एक दशक में इस पड़ोस में तेजी से सभ्यीकरण देखा गया है।"
+        }
+      ]
+    }
+  ]
 }

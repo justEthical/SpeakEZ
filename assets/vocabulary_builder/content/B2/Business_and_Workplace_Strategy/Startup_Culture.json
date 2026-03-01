@@ -1,4 +1,345 @@
 {
   "topic": "Startup Culture",
-  "words": []
+  "words": [
+    {
+      "word": "hustle",
+      "phoneticRespelling": "huh-suhl",
+      "translation": "मेहनत",
+      "definition": "To work very hard with a lot of energy and determination.",
+      "definationTranslation": "बहुत ऊर्जा और दृढ़ संकल्प के साथ कड़ी मेहनत करना।",
+      "sentence": [
+        {
+          "sentence": "Startup founders often hustle day and night to meet deadlines.",
+          "translation": "स्टार्टअप संस्थापक अक्सर समय सीमा पूरा करने के लिए दिन-रात मेहनत करते हैं।"
+        },
+        {
+          "sentence": "She hustled to launch her app before the competition.",
+          "translation": "उसने प्रतियोगिता से पहले अपना ऐप लॉन्च करने के लिए मेहनत की।"
+        }
+      ]
+    },
+    {
+      "word": "pivot",
+      "phoneticRespelling": "piv-uht",
+      "translation": "मोड़ लेना",
+      "definition": "To change direction or strategy suddenly, especially in business.",
+      "definationTranslation": "अचानक दिशा या रणनीति बदलना, विशेष रूप से व्यवसाय में।",
+      "sentence": [
+        {
+          "sentence": "The team decided to pivot from hardware to software.",
+          "translation": "टीम ने हार्डवेयर से सॉफ्टवेयर की ओर मोड़ लेने का फैसला किया।"
+        },
+        {
+          "sentence": "Pivoting saved the startup from failure.",
+          "translation": "मोड़ लेने से स्टार्टअप की विफलता से बचत हुई।"
+        }
+      ]
+    },
+    {
+      "word": "bootstrap",
+      "phoneticRespelling": "boh-struh-strap",
+      "translation": "स्वयं से शुरू करना",
+      "definition": "To start a business with little money, using personal resources.",
+      "definationTranslation": "कम पैसे से व्यवसाय शुरू करना, व्यक्तिगत संसाधनों का उपयोग करके।",
+      "sentence": [
+        {
+          "sentence": "They bootstrapped their company without any investors.",
+          "translation": "उन्होंने किसी निवेशक के बिना अपनी कंपनी को स्वयं से शुरू किया।"
+        },
+        {
+          "sentence": "Bootstrapping requires creativity and frugality.",
+          "translation": "स्वयं से शुरू करने के लिए रचनात्मकता और किफायत की जरूरत होती है।"
+        }
+      ]
+    },
+    {
+      "word": "scalability",
+      "phoneticRespelling": "ska-luh-bil-i-tee",
+      "translation": "विस्तार क्षमता",
+      "definition": "The ability of a business to grow and handle increased demand.",
+      "definationTranslation": "व्यवसाय की बढ़ने और बढ़ी मांग को संभालने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Investors look for scalability in startup ideas.",
+          "translation": "निवेशक स्टार्टअप विचारों में विस्तार क्षमता की तलाश करते हैं।"
+        },
+        {
+          "sentence": "Cloud services improve the scalability of apps.",
+          "translation": "क्लाउड सेवाएं ऐप्स की विस्तार क्षमता बढ़ाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "disruptive",
+      "phoneticRespelling": "dis-ruhp-tiv",
+      "translation": "क्रांतिकारी",
+      "definition": "Innovative in a way that changes an industry significantly.",
+      "definationTranslation": "किसी उद्योग को महत्वपूर्ण रूप से बदलने वाले नवीन तरीके से।",
+      "sentence": [
+        {
+          "sentence": "Uber is a disruptive force in transportation.",
+          "translation": "उबर परिवहन में एक क्रांतिकारी शक्ति है।"
+        },
+        {
+          "sentence": "Disruptive startups challenge established companies.",
+          "translation": "क्रांतिकारी स्टार्टअप स्थापित कंपनियों को चुनौती देते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "lean",
+      "phoneticRespelling": "leen",
+      "translation": "पतला",
+      "definition": "Operating with minimal resources to test ideas quickly.",
+      "definationTranslation": "विचारों को जल्दी परीक्षण करने के लिए न्यूनतम संसाधनों के साथ संचालित करना।",
+      "sentence": [
+        {
+          "sentence": "They run a lean startup to avoid waste.",
+          "translation": "वे बर्बादी से बचने के लिए पतला स्टार्टअप चलाते हैं।"
+        },
+        {
+          "sentence": "Lean methodology focuses on customer feedback.",
+          "translation": "पतली कार्यप्रणाली ग्राहक प्रतिक्रिया पर केंद्रित है।"
+        }
+      ]
+    },
+    {
+      "word": "MVP",
+      "phoneticRespelling": "em-vee-pee",
+      "translation": "न्यूनतम व्यवहार्य उत्पाद",
+      "definition": "Minimum Viable Product: A basic version to test the market.",
+      "definationTranslation": "न्यूनतम व्यवहार्य उत्पाद: बाजार परीक्षण के लिए बुनियादी संस्करण।",
+      "sentence": [
+        {
+          "sentence": "Launch an MVP to gather user data.",
+          "translation": "उपयोगकर्ता डेटा एकत्र करने के लिए MVP लॉन्च करें।"
+        },
+        {
+          "sentence": "Our MVP received great initial feedback.",
+          "translation": "हमारा MVP को प्रारंभिक प्रतिक्रिया शानदार मिली।"
+        }
+      ]
+    },
+    {
+      "word": "traction",
+      "phoneticRespelling": "trak-shuhn",
+      "translation": "गति",
+      "definition": "Evidence of growing interest or sales in a product.",
+      "definationTranslation": "उत्पाद में बढ़ती रुचि या बिक्री का प्रमाण।",
+      "sentence": [
+        {
+          "sentence": "The app gained traction within weeks.",
+          "translation": "ऐप को हफ्तों में गति मिल गई।"
+        },
+        {
+          "sentence": "Investors want proof of traction.",
+          "translation": "निवेशक गति का प्रमाण चाहते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "pitch",
+      "phoneticRespelling": "pich",
+      "translation": "प्रस्तुति",
+      "definition": "A short presentation to convince investors or customers.",
+      "definationTranslation": "निवेशकों या ग्राहकों को मनाने के लिए छोटी प्रस्तुति।",
+      "sentence": [
+        {
+          "sentence": "She nailed the pitch to the venture capitalists.",
+          "translation": "उसने वेंचर कैपिटलिस्टों को प्रस्तुति में सफलता पाई।"
+        },
+        {
+          "sentence": "Prepare a strong pitch deck.",
+          "translation": "एक मजबूत प्रस्तुति डेक तैयार करें।"
+        }
+      ]
+    },
+    {
+      "word": "accelerator",
+      "phoneticRespelling": "ak-sel-uh-rey-ter",
+      "translation": "त्वरक",
+      "definition": "A program that helps startups grow faster with mentorship.",
+      "definationTranslation": "मार्गदर्शन के साथ स्टार्टअप को तेजी से बढ़ने में मदद करने वाला कार्यक्रम।",
+      "sentence": [
+        {
+          "sentence": "Y Combinator is a famous startup accelerator.",
+          "translation": "वाई कॉम्बिनेटर एक प्रसिद्ध स्टार्टअप त्वरक है।"
+        },
+        {
+          "sentence": "The accelerator provided funding and advice.",
+          "translation": "त्वरक ने फंडिंग और सलाह प्रदान की।"
+        }
+      ]
+    },
+    {
+      "word": "unicorn",
+      "phoneticRespelling": "yoo-ni-kawrn",
+      "translation": "यूनिकॉर्न",
+      "definition": "A startup valued at over one billion dollars.",
+      "definationTranslation": "एक अरब डॉलर से अधिक मूल्यवान स्टार्टअप।",
+      "sentence": [
+        {
+          "sentence": "ByteDance became a unicorn in record time.",
+          "translation": "बाइटडांस रिकॉर्ड समय में यूनिकॉर्न बन गया।"
+        },
+        {
+          "sentence": "Everyone dreams of building a unicorn.",
+          "translation": "हर कोई यूनिकॉर्न बनाने का सपना देखता है।"
+        }
+      ]
+    },
+    {
+      "word": "angel investor",
+      "phoneticRespelling": "eyn-juhl in-ves-ter",
+      "translation": "एंजेल निवेशक",
+      "definition": "A wealthy individual who invests early in startups.",
+      "definationTranslation": "धनी व्यक्ति जो स्टार्टअप में शुरुआती निवेश करता है।",
+      "sentence": [
+        {
+          "sentence": "An angel investor funded their prototype.",
+          "translation": "एक एंजेल निवेशक ने उनके प्रोटोटाइप को फंड किया।"
+        },
+        {
+          "sentence": "Angel investors take high risks.",
+          "translation": "एंजेल निवेशक उच्च जोखिम लेते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "venture capital",
+      "phoneticRespelling": "ven-cher kap-i-tuhl",
+      "translation": "वेंचर कैपिटल",
+      "definition": "Funding from firms for high-growth startups.",
+      "definationTranslation": "उच्च विकास वाले स्टार्टअप के लिए फर्मों से फंडिंग।",
+      "sentence": [
+        {
+          "sentence": "They secured venture capital for expansion.",
+          "translation": "उन्होंने विस्तार के लिए वेंचर कैपिटल प्राप्त किया।"
+        },
+        {
+          "sentence": "Venture capital fuels innovation.",
+          "translation": "वेंचर कैपिटल नवाचार को ईंधन देता है।"
+        }
+      ]
+    },
+    {
+      "word": "burn rate",
+      "phoneticRespelling": "burn rey",
+      "translation": "जलने की दर",
+      "definition": "The speed at which a startup spends its money.",
+      "definationTranslation": "स्टार्टअप द्वारा पैसा खर्च करने की गति।",
+      "sentence": [
+        {
+          "sentence": "Our burn rate is too high this month.",
+          "translation": "हमारी जलने की दर इस महीने बहुत अधिक है।"
+        },
+        {
+          "sentence": "Monitor the burn rate closely.",
+          "translation": "जलने की दर को करीब से निगरानी करें।"
+        }
+      ]
+    },
+    {
+      "word": "runway",
+      "phoneticRespelling": "ruhn-wey",
+      "translation": "रनवे",
+      "definition": "The time a startup can operate before running out of money.",
+      "definationTranslation": "पैसे खत्म होने से पहले स्टार्टअप संचालित रहने का समय।",
+      "sentence": [
+        {
+          "sentence": "We have six months of runway left.",
+          "translation": "हमारे पास छह महीने का रनवे बचा है।"
+        },
+        {
+          "sentence": "Extend the runway by cutting costs.",
+          "translation": "लागत कम करके रनवे बढ़ाएं।"
+        }
+      ]
+    },
+    {
+      "word": "agile",
+      "phoneticRespelling": "a-juhl",
+      "translation": "चुस्त",
+      "definition": "A flexible method of software development with quick iterations.",
+      "definationTranslation": "तेजी से पुनरावृत्तियों के साथ लचीली सॉफ्टवेयर विकास विधि।",
+      "sentence": [
+        {
+          "sentence": "Startups use agile to adapt fast.",
+          "translation": "स्टार्टअप तेजी से अनुकूलित करने के लिए चुस्त का उपयोग करते हैं।"
+        },
+        {
+          "sentence": "Agile sprints improve productivity.",
+          "translation": "चुस्त स्प्रिंट उत्पादकता बढ़ाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "freemium",
+      "phoneticRespelling": "free-mee-uhm",
+      "translation": "फ्रीमियम",
+      "definition": "A model offering basic features free and premium for a fee.",
+      "definationTranslation": "मॉडल जो बुनियादी सुविधाएं मुफ्त और प्रीमियम शुल्क पर प्रदान करता है।",
+      "sentence": [
+        {
+          "sentence": "Dropbox uses a freemium business model.",
+          "translation": "ड्रॉपबॉक्स फ्रीमियम व्यवसाय मॉडल का उपयोग करता है।"
+        },
+        {
+          "sentence": "Freemium attracts many users quickly.",
+          "translation": "फ्रीमियम जल्दी कई उपयोगकर्ताओं को आकर्षित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "hackathon",
+      "phoneticRespelling": "hak-uh-thon",
+      "translation": "हैकाथॉन",
+      "definition": "An event where developers build software in a short time.",
+      "definationTranslation": "एक कार्यक्रम जहां डेवलपर्स कम समय में सॉफ्टवेयर बनाते हैं।",
+      "sentence": [
+        {
+          "sentence": "The startup won the hackathon prize.",
+          "translation": "स्टार्टअप ने हैकाथॉन पुरस्कार जीता।"
+        },
+        {
+          "sentence": "Hackathons foster innovation.",
+          "translation": "हैकाथॉन नवाचार को बढ़ावा देते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "exit strategy",
+      "phoneticRespelling": "eg-zit strat-uh-jee",
+      "translation": "निकास रणनीति",
+      "definition": "A plan for selling the company or going public.",
+      "definationTranslation": "कंपनी बेचने या सार्वजनिक होने की योजना।",
+      "sentence": [
+        {
+          "sentence": "Investors ask about the exit strategy.",
+          "translation": "निवेशक निकास रणनीति के बारे में पूछते हैं।"
+        },
+        {
+          "sentence": "An IPO is their exit strategy.",
+          "translation": "आईपीओ उनकी निकास रणनीति है।"
+        }
+      ]
+    },
+    {
+      "word": "co-founder",
+      "phoneticRespelling": "koh-foun-der",
+      "translation": "सह-संस्थापक",
+      "definition": "A person who starts a company with others.",
+      "definationTranslation": "एक व्यक्ति जो दूसरों के साथ कंपनी शुरू करता है।",
+      "sentence": [
+        {
+          "sentence": "The co-founders share equity equally.",
+          "translation": "सह-संस्थापक इक्विटी को समान रूप से साझा करते हैं।"
+        },
+        {
+          "sentence": "She is a co-founder of the tech startup.",
+          "translation": "वह टेक स्टार्टअप की सह-संस्थापक है।"
+        }
+      ]
+    }
+  ]
 }

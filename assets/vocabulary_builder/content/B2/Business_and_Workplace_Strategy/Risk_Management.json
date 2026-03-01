@@ -1,4 +1,345 @@
 {
   "topic": "Risk Management",
-  "words": []
+  "words": [
+    {
+      "word": "risk",
+      "phoneticRespelling": "risk",
+      "translation": "जोखिम",
+      "definition": "The possibility of loss, injury, or other negative outcomes.",
+      "definationTranslation": "हानि, चोट या अन्य नकारात्मक परिणामों की संभावना।",
+      "sentence": [
+        {
+          "sentence": "Every investment carries some risk.",
+          "translation": "हर निवेश में कुछ जोखिम होता है।"
+        },
+        {
+          "sentence": "She assessed the risk before proceeding.",
+          "translation": "वह आगे बढ़ने से पहले जोखिम का आकलन किया।"
+        }
+      ]
+    },
+    {
+      "word": "hazard",
+      "phoneticRespelling": "HAZ-erd",
+      "translation": "खतरा",
+      "definition": "A source of potential danger or harm.",
+      "definationTranslation": "संभावित खतरे या हानि का स्रोत।",
+      "sentence": [
+        {
+          "sentence": "The chemical spill was a major hazard.",
+          "translation": "रासायनिक रिसाव एक बड़ा खतरा था।"
+        },
+        {
+          "sentence": "They identified hazards in the workplace.",
+          "translation": "उन्होंने कार्यस्थल में खतरों की पहचान की।"
+        }
+      ]
+    },
+    {
+      "word": "mitigate",
+      "phoneticRespelling": "MIT-i-gate",
+      "translation": "कम करना",
+      "definition": "To make something less severe or serious.",
+      "definationTranslation": "किसी चीज को कम गंभीर या तीव्र बनाना।",
+      "sentence": [
+        {
+          "sentence": "We must mitigate the effects of climate change.",
+          "translation": "हमें जलवायु परिवर्तन के प्रभावों को कम करना चाहिए।"
+        },
+        {
+          "sentence": "Insurance helps mitigate financial risks.",
+          "translation": "बीमा वित्तीय जोखिमों को कम करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "vulnerability",
+      "phoneticRespelling": "vul-ner-uh-BIL-i-tee",
+      "translation": "कमजोरी",
+      "definition": "The state of being open to attack or damage.",
+      "definationTranslation": "हमले या क्षति के लिए खुला होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "The system has a security vulnerability.",
+          "translation": "सिस्टम में एक सुरक्षा कमजोरी है।"
+        },
+        {
+          "sentence": "Poverty increases vulnerability to disease.",
+          "translation": "गरीबी बीमारी के प्रति कमजोरी बढ़ाती है।"
+        }
+      ]
+    },
+    {
+      "word": "assess",
+      "phoneticRespelling": "uh-SES",
+      "translation": "मूल्यांकन करना",
+      "definition": "To evaluate or estimate the nature or quality of something.",
+      "definationTranslation": "किसी चीज की प्रकृति या गुणवत्ता का मूल्यांकन या अनुमान लगाना।",
+      "sentence": [
+        {
+          "sentence": "They assess risks during planning.",
+          "translation": "वे योजना के दौरान जोखिमों का मूल्यांकन करते हैं।"
+        },
+        {
+          "sentence": "The doctor assessed the patient's condition.",
+          "translation": "डॉक्टर ने रोगी की स्थिति का मूल्यांकन किया।"
+        }
+      ]
+    },
+    {
+      "word": "exposure",
+      "phoneticRespelling": "ek-SPOH-zher",
+      "translation": "एक्सपोजर",
+      "definition": "The state of being exposed to something harmful.",
+      "definationTranslation": "किसी हानिकारक चीज के संपर्क में होने की स्थिति।",
+      "sentence": [
+        {
+          "sentence": "Reduce your exposure to sunlight.",
+          "translation": "सूर्य की रोशनी के संपर्क को कम करें।"
+        },
+        {
+          "sentence": "Market exposure can lead to losses.",
+          "translation": "बाजार एक्सपोजर नुकसान का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "contingency",
+      "phoneticRespelling": "kun-TIN-jen-see",
+      "translation": "आकस्मिकता",
+      "definition": "An event or situation that is possible but not certain.",
+      "definationTranslation": "एक घटना या स्थिति जो संभव है लेकिन निश्चित नहीं।",
+      "sentence": [
+        {
+          "sentence": "We have a contingency plan ready.",
+          "translation": "हमारे पास आकस्मिक योजना तैयार है।"
+        },
+        {
+          "sentence": "Budget for contingencies in projects.",
+          "translation": "परियोजनाओं में आकस्मिकताओं के लिए बजट करें।"
+        }
+      ]
+    },
+    {
+      "word": "liability",
+      "phoneticRespelling": "ly-uh-BIL-i-tee",
+      "translation": "दायित्व",
+      "definition": "A legal responsibility for one's actions or debts.",
+      "definationTranslation": "अपने कार्यों या ऋणों के लिए कानूनी जिम्मेदारी।",
+      "sentence": [
+        {
+          "sentence": "The company faces product liability.",
+          "translation": "कंपनी उत्पाद दायित्व का सामना कर रही है।"
+        },
+        {
+          "sentence": "Insurance covers professional liability.",
+          "translation": "बीमा पेशेवर दायित्व को कवर करता है।"
+        }
+      ]
+    },
+    {
+      "word": "compliance",
+      "phoneticRespelling": "kum-PLY-ens",
+      "translation": "अनुपालन",
+      "definition": "The act of following rules or standards.",
+      "definationTranslation": "नियमों या मानकों का पालन करने की क्रिया।",
+      "sentence": [
+        {
+          "sentence": "Compliance with regulations is mandatory.",
+          "translation": "नियमों के अनुपालन अनिवार्य है।"
+        },
+        {
+          "sentence": "Audit ensures regulatory compliance.",
+          "translation": "ऑडिट नियामक अनुपालन सुनिश्चित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "threat",
+      "phoneticRespelling": "thret",
+      "translation": "धमकी",
+      "definition": "A possible danger or source of harm.",
+      "definationTranslation": "संभावित खतरा या हानि का स्रोत।",
+      "sentence": [
+        {
+          "sentence": "Cyber threats are increasing daily.",
+          "translation": "साइबर धमकियां रोज बढ़ रही हैं।"
+        },
+        {
+          "sentence": "Identify potential threats early.",
+          "translation": "संभावित धमकियों की जल्दी पहचान करें।"
+        }
+      ]
+    },
+    {
+      "word": "safeguard",
+      "phoneticRespelling": "SEYG-gahrd",
+      "translation": "सुरक्षा उपाय",
+      "definition": "A measure taken to protect against risk.",
+      "definationTranslation": "जोखिम से बचाव के लिए उठाया गया उपाय।",
+      "sentence": [
+        {
+          "sentence": "Install safeguards on machinery.",
+          "translation": "मशीनरी पर सुरक्षा उपाय लगाएं।"
+        },
+        {
+          "sentence": "These policies safeguard our interests.",
+          "translation": "ये नीतियां हमारी हितों की रक्षा करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "probability",
+      "phoneticRespelling": "prob-uh-BIL-i-tee",
+      "translation": "संभावना",
+      "definition": "The likelihood that something will happen.",
+      "definationTranslation": "किसी चीज के होने की संभावना।",
+      "sentence": [
+        {
+          "sentence": "The probability of rain is high.",
+          "translation": "बारिश की संभावना अधिक है।"
+        },
+        {
+          "sentence": "Calculate the probability of failure.",
+          "translation": "विफलता की संभावना की गणना करें।"
+        }
+      ]
+    },
+    {
+      "word": "impact",
+      "phoneticRespelling": "IM-pakt",
+      "translation": "प्रभाव",
+      "definition": "The effect or influence of an event or action.",
+      "definationTranslation": "किसी घटना या क्रिया का प्रभाव या प्रभाव।",
+      "sentence": [
+        {
+          "sentence": "Assess the impact of the decision.",
+          "translation": "निर्णय के प्रभाव का मूल्यांकन करें।"
+        },
+        {
+          "sentence": "The storm had a huge impact.",
+          "translation": "तूफान का बहुत बड़ा प्रभाव था।"
+        }
+      ]
+    },
+    {
+      "word": "hedge",
+      "phoneticRespelling": "hej",
+      "translation": "जोखिम कम करना",
+      "definition": "To protect against loss by balancing risks.",
+      "definationTranslation": "जोखिमों को संतुलित करके हानि से बचाना।",
+      "sentence": [
+        {
+          "sentence": "Investors hedge against market drops.",
+          "translation": "निवेशक बाजार गिरावट के खिलाफ हेज करते हैं।"
+        },
+        {
+          "sentence": "Use derivatives to hedge risks.",
+          "translation": "जोखिमों को हेज करने के लिए डेरिवेटिव्स का उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "resilience",
+      "phoneticRespelling": "ri-ZIL-yens",
+      "translation": "लचीलापन",
+      "definition": "The ability to recover quickly from difficulties.",
+      "definationTranslation": "कठिनाइयों से जल्दी उबरने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Build resilience into the system.",
+          "translation": "सिस्टम में लचीलापन बनाएं।"
+        },
+        {
+          "sentence": "Economic resilience is key now.",
+          "translation": "आर्थिक लचीलापन अब महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "audit",
+      "phoneticRespelling": "AW-dit",
+      "translation": "लेखा परीक्षा",
+      "definition": "A systematic review of processes or accounts.",
+      "definationTranslation": "प्रक्रियाओं या खातों की व्यवस्थित समीक्षा।",
+      "sentence": [
+        {
+          "sentence": "Conduct a risk audit annually.",
+          "translation": "वार्षिक रूप से जोखिम ऑडिट करें।"
+        },
+        {
+          "sentence": "The audit revealed compliance issues.",
+          "translation": "ऑडिट ने अनुपालन समस्याओं का खुलासा किया।"
+        }
+      ]
+    },
+    {
+      "word": "diversify",
+      "phoneticRespelling": "di-VUR-si-fy",
+      "translation": "विविधीकृत करना",
+      "definition": "To spread investments to reduce risk.",
+      "definationTranslation": "जोखिम कम करने के लिए निवेशों को फैलाना।",
+      "sentence": [
+        {
+          "sentence": "Diversify your portfolio wisely.",
+          "translation": "अपने पोर्टफोलियो को बुद्धिमानी से विविधीकृत करें।"
+        },
+        {
+          "sentence": "Diversification lowers overall risk.",
+          "translation": "विविधीकरण समग्र जोखिम कम करता है।"
+        }
+      ]
+    },
+    {
+      "word": "proactive",
+      "phoneticRespelling": "pro-AK-tiv",
+      "translation": "सक्रिय",
+      "definition": "Taking action to prevent problems before they occur.",
+      "definationTranslation": "समस्याओं के होने से पहले उन्हें रोकने के लिए कार्रवाई करना।",
+      "sentence": [
+        {
+          "sentence": "Adopt a proactive risk approach.",
+          "translation": "जोखिम के लिए सक्रिय दृष्टिकोण अपनाएं।"
+        },
+        {
+          "sentence": "Proactive measures save time.",
+          "translation": "सक्रिय उपाय समय बचाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "tolerance",
+      "phoneticRespelling": "TOL-er-ens",
+      "translation": "सहनशीलता",
+      "definition": "The level of risk one is willing to accept.",
+      "definationTranslation": "जोखिम का वह स्तर जो कोई स्वीकार करने को तैयार हो।",
+      "sentence": [
+        {
+          "sentence": "Her risk tolerance is low.",
+          "translation": "उसकी जोखिम सहनशीलता कम है।"
+        },
+        {
+          "sentence": "Define your risk tolerance clearly.",
+          "translation": "अपनी जोखिम सहनशीलता स्पष्ट रूप से परिभाषित करें।"
+        }
+      ]
+    },
+    {
+      "word": "insure",
+      "phoneticRespelling": "in-SHOOR",
+      "translation": "बीमा करना",
+      "definition": "To arrange for compensation against potential loss.",
+      "definationTranslation": "संभावित हानि के खिलाफ मुआवजे की व्यवस्था करना।",
+      "sentence": [
+        {
+          "sentence": "Insure your property against fire.",
+          "translation": "अपनी संपत्ति को आग के खिलाफ बीमा करें।"
+        },
+        {
+          "sentence": "Businesses insure key assets.",
+          "translation": "व्यवसाय महत्वपूर्ण संपत्तियों का बीमा करते हैं।"
+        }
+      ]
+    }
+  ]
 }

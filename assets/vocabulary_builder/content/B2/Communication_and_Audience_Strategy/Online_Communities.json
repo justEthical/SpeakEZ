@@ -1,4 +1,345 @@
 {
   "topic": "Online Communities",
-  "words": []
+  "words": [
+    {
+      "word": "forum",
+      "phoneticRespelling": "FOR-uhm",
+      "translation": "फोरम",
+      "definition": "An online discussion site where people can post messages and reply to others.",
+      "definationTranslation": "एक ऑनलाइन चर्चा साइट जहाँ लोग संदेश पोस्ट कर सकते हैं और दूसरों का जवाब दे सकते हैं।",
+      "sentence": [
+        {
+          "sentence": "I found a great forum for gamers.",
+          "translation": "मुझे गेमर्स के लिए एक शानदार फोरम मिला।"
+        },
+        {
+          "sentence": "She posts daily on the photography forum.",
+          "translation": "वह फोटोग्राफी फोरम पर रोज पोस्ट करती है।"
+        }
+      ]
+    },
+    {
+      "word": "subreddit",
+      "phoneticRespelling": "SUB-red-it",
+      "translation": "सबरेडिट",
+      "definition": "A subreddit is a specific community within Reddit focused on a particular topic.",
+      "definationTranslation": "सबरेडिट रेडिट के अंदर एक विशेष समुदाय है जो किसी खास विषय पर केंद्रित होता है।",
+      "sentence": [
+        {
+          "sentence": "The r/science subreddit has millions of subscribers.",
+          "translation": "आर/साइंस सबरेडिट के लाखों सब्सक्राइबर हैं।"
+        },
+        {
+          "sentence": "Join the subreddit for book recommendations.",
+          "translation": "किताब सिफारिशों के लिए सबरेडिट जॉइन करें।"
+        }
+      ]
+    },
+    {
+      "word": "thread",
+      "phoneticRespelling": "thred",
+      "translation": "थ्रेड",
+      "definition": "A series of connected messages or posts on a forum or social media.",
+      "definationTranslation": "फोरम या सोशल मीडिया पर जुड़े हुए संदेशों या पोस्टों की श्रृंखला।",
+      "sentence": [
+        {
+          "sentence": "The thread about climate change got heated.",
+          "translation": "जलवायु परिवर्तन के बारे में थ्रेड गर्म हो गया।"
+        },
+        {
+          "sentence": "Start a new thread for your question.",
+          "translation": "अपने सवाल के लिए नया थ्रेड शुरू करें।"
+        }
+      ]
+    },
+    {
+      "word": "moderator",
+      "phoneticRespelling": "MOD-uh-ray-ter",
+      "translation": "मॉडरेटर",
+      "definition": "A person who oversees and enforces rules in an online community.",
+      "definationTranslation": "एक व्यक्ति जो ऑनलाइन समुदाय में नियमों की निगरानी और प्रवर्तन करता है।",
+      "sentence": [
+        {
+          "sentence": "The moderator banned the troll.",
+          "translation": "मॉडरेटर ने ट्रोल को बैन कर दिया।"
+        },
+        {
+          "sentence": "Contact the moderator if there's spam.",
+          "translation": "अगर स्पैम हो तो मॉडरेटर से संपर्क करें।"
+        }
+      ]
+    },
+    {
+      "word": "upvote",
+      "phoneticRespelling": "UP-voht",
+      "translation": "अपवोट",
+      "definition": "To indicate approval or agreement with a post by clicking an up arrow.",
+      "definationTranslation": "पोस्ट पर सहमति या अनुमोदन दिखाने के लिए ऊपर की तीर पर क्लिक करना।",
+      "sentence": [
+        {
+          "sentence": "I upvote helpful comments.",
+          "translation": "मैं सहायक कमेंट्स को अपवोट करता हूँ।"
+        },
+        {
+          "sentence": "This post deserves an upvote.",
+          "translation": "यह पोस्ट अपवोट के योग्य है।"
+        }
+      ]
+    },
+    {
+      "word": "downvote",
+      "phoneticRespelling": "DOWN-voht",
+      "translation": "डाउनवोट",
+      "definition": "To indicate disapproval of a post by clicking a down arrow.",
+      "definationTranslation": "पोस्ट की नापसंदगी दिखाने के लिए नीचे की तीर पर क्लिक करना।",
+      "sentence": [
+        {
+          "sentence": "Don't downvote just because you disagree.",
+          "translation": "सिर्फ असहमति के कारण डाउनवोट न करें।"
+        },
+        {
+          "sentence": "The rude comment got many downvotes.",
+          "translation": "रूड कमेंट को बहुत डाउनवोट मिले।"
+        }
+      ]
+    },
+    {
+      "word": "troll",
+      "phoneticRespelling": "trohl",
+      "translation": "ट्रोल",
+      "definition": "Someone who posts provocative messages to provoke reactions in an online community.",
+      "definationTranslation": "कोई व्यक्ति जो ऑनलाइन समुदाय में प्रतिक्रियाएँ भड़काने के लिए उत्तेजक संदेश पोस्ट करता है।",
+      "sentence": [
+        {
+          "sentence": "Ignore the troll in the comments.",
+          "translation": "कमेंट्स में ट्रोल को इग्नोर करें।"
+        },
+        {
+          "sentence": "Trolls ruin good discussions.",
+          "translation": "ट्रोल अच्छी चर्चाओं को बर्बाद कर देते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "lurker",
+      "phoneticRespelling": "LUR-ker",
+      "translation": "लर्कर",
+      "definition": "A user who reads posts without actively participating or posting.",
+      "definationTranslation": "एक उपयोगकर्ता जो पोस्ट पढ़ता है लेकिन सक्रिय रूप से भाग नहीं लेता या पोस्ट नहीं करता।",
+      "sentence": [
+        {
+          "sentence": "Many lurkers quietly observe forums.",
+          "translation": "कई लर्कर चुपचाप फोरम्स देखते हैं।"
+        },
+        {
+          "sentence": "Stop being a lurker and comment!",
+          "translation": "लर्कर बनना बंद करें और कमेंट करें!"
+        }
+      ]
+    },
+    {
+      "word": "karma",
+      "phoneticRespelling": "KAR-muh",
+      "translation": "कर्मा",
+      "definition": "A score on platforms like Reddit based on upvotes minus downvotes.",
+      "definationTranslation": "रेडिट जैसे प्लेटफॉर्म पर अपवोट माइनस डाउनवोट के आधार पर स्कोर।",
+      "sentence": [
+        {
+          "sentence": "His high karma shows he's respected.",
+          "translation": "उसका ऊँचा कर्मा दिखाता है कि वह सम्मानित है।"
+        },
+        {
+          "sentence": "Build karma by posting quality content.",
+          "translation": "गुणवत्ता वाली सामग्री पोस्ट करके कर्मा बनाएँ।"
+        }
+      ]
+    },
+    {
+      "word": "flame war",
+      "phoneticRespelling": "fleym wor",
+      "translation": "फ्लेम वॉर",
+      "definition": "An intense argument in an online discussion that escalates aggressively.",
+      "definationTranslation": "ऑनलाइन चर्चा में तीव्र बहस जो आक्रामक रूप से बढ़ जाती है।",
+      "sentence": [
+        {
+          "sentence": "The politics thread turned into a flame war.",
+          "translation": "राजनीति थ्रेड फ्लेम वॉर में बदल गया।"
+        },
+        {
+          "sentence": "Moderators stop flame wars quickly.",
+          "translation": "मॉडरेटर फ्लेम वॉर को जल्दी रोकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "hashtag",
+      "phoneticRespelling": "HASH-tag",
+      "translation": "हैशटैग",
+      "definition": "A word or phrase preceded by # used to identify topics on social media.",
+      "definationTranslation": "सोशल मीडिया पर विषयों की पहचान के लिए # से पहले लगा शब्द या वाक्यांश।",
+      "sentence": [
+        {
+          "sentence": "Use #OnlineCommunities to join the chat.",
+          "translation": "चैट जॉइन करने के लिए #ऑनलाइनकम्युनिटीज इस्तेमाल करें।"
+        },
+        {
+          "sentence": "Trending hashtags connect global communities.",
+          "translation": "ट्रेंडिंग हैशटैग वैश्विक समुदायों को जोड़ते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "DM",
+      "phoneticRespelling": "dee-em",
+      "translation": "डीएम",
+      "definition": "Direct message; a private message sent to one person on social platforms.",
+      "definationTranslation": "डायरेक्ट मैसेज; सोशल प्लेटफॉर्म पर एक व्यक्ति को भेजा गया निजी संदेश।",
+      "sentence": [
+        {
+          "sentence": "Send me a DM for details.",
+          "translation": "विवरण के लिए मुझे डीएम भेजें।"
+        },
+        {
+          "sentence": "She got a creepy DM from a stranger.",
+          "translation": "उसे अजनबी से डरावना डीएम मिला।"
+        }
+      ]
+    },
+    {
+      "word": "echo chamber",
+      "phoneticRespelling": "EK-oh CHAYM-ber",
+      "translation": "इको चैंबर",
+      "definition": "An environment where people only encounter beliefs that reinforce their own.",
+      "definationTranslation": "एक वातावरण जहाँ लोग केवल अपनी मान्यताओं को मजबूत करने वाली बातें ही सुनते हैं।",
+      "sentence": [
+        {
+          "sentence": "Social media creates echo chambers.",
+          "translation": "सोशल मीडिया इको चैंबर बनाता है।"
+        },
+        {
+          "sentence": "Avoid echo chambers for balanced views.",
+          "translation": "संतुलित दृष्टिकोण के लिए इको चैंबर से बचें।"
+        }
+      ]
+    },
+    {
+      "word": "viral",
+      "phoneticRespelling": "VY-ruhl",
+      "translation": "वायरल",
+      "definition": "Content that spreads rapidly across online communities and social media.",
+      "definationTranslation": "ऑनलाइन समुदायों और सोशल मीडिया पर तेजी से फैलने वाली सामग्री।",
+      "sentence": [
+        {
+          "sentence": "The video went viral overnight.",
+          "translation": "वीडियो रातोंरात वायरल हो गया।"
+        },
+        {
+          "sentence": "Viral memes unite online communities.",
+          "translation": "वायरल मीम्स ऑनलाइन समुदायों को एकजुट करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "meme",
+      "phoneticRespelling": "meem",
+      "translation": "मेम",
+      "definition": "An image, video, or phrase that spreads humorously in online communities.",
+      "definationTranslation": "ऑनलाइन समुदायों में हास्यपूर्ण तरीके से फैलने वाली तस्वीर, वीडियो या वाक्यांश।",
+      "sentence": [
+        {
+          "sentence": "This meme perfectly captures the mood.",
+          "translation": "यह मेम मूड को बिल्कुल कैप्चर करता है।"
+        },
+        {
+          "sentence": "Memes are the language of the internet.",
+          "translation": "मेम्स इंटरनेट की भाषा हैं।"
+        }
+      ]
+    },
+    {
+      "word": "block",
+      "phoneticRespelling": "blok",
+      "translation": "ब्लॉक",
+      "definition": "To prevent someone from contacting or seeing your posts on a platform.",
+      "definationTranslation": "किसी को प्लेटफॉर्म पर संपर्क करने या आपकी पोस्ट देखने से रोकना।",
+      "sentence": [
+        {
+          "sentence": "I had to block the harasser.",
+          "translation": "मुझे उत्पीड़क को ब्लॉक करना पड़ा।"
+        },
+        {
+          "sentence": "Block users who spam your feed.",
+          "translation": "अपने फीड में स्पैम करने वालों को ब्लॉक करें।"
+        }
+      ]
+    },
+    {
+      "word": "subgroup",
+      "phoneticRespelling": "SUB-groop",
+      "translation": "उपसमूह",
+      "definition": "A smaller community within a larger online group sharing specific interests.",
+      "definationTranslation": "बड़े ऑनलाइन समूह के अंदर विशिष्ट रुचियों वाले छोटा समुदाय।",
+      "sentence": [
+        {
+          "sentence": "The vegan subgroup is very active.",
+          "translation": "वेजन उपसमूह बहुत सक्रिय है।"
+        },
+        {
+          "sentence": "Join the subgroup for beginners.",
+          "translation": "नौसिखियों के लिए उपसमूह जॉइन करें।"
+        }
+      ]
+    },
+    {
+      "word": "netiquette",
+      "phoneticRespelling": "NET-i-ket",
+      "translation": "नेटीक्वेट",
+      "definition": "Etiquette or proper behavior guidelines for online interactions.",
+      "definationTranslation": "ऑनलाइन इंटरैक्शन्स के लिए शिष्टाचार या उचित व्यवहार दिशानिर्देश।",
+      "sentence": [
+        {
+          "sentence": "Follow netiquette to stay respectful.",
+          "translation": "सम्मान बनाए रखने के लिए नेटीक्वेट फॉलो करें।"
+        },
+        {
+          "sentence": "Netiquette prevents misunderstandings.",
+          "translation": "नेटीक्वेट गलतफहमियाँ रोकता है।"
+        }
+      ]
+    },
+    {
+      "word": "ban",
+      "phoneticRespelling": "ban",
+      "translation": "बैन",
+      "definition": "To prohibit a user from participating in a community, often permanently.",
+      "definationTranslation": "किसी उपयोगकर्ता को समुदाय में भाग लेने से रोकना, अक्सर स्थायी रूप से।",
+      "sentence": [
+        {
+          "sentence": "He got a ban for hate speech.",
+          "translation": "उसे नफरत भरी भाषा के लिए बैन मिला।"
+        },
+        {
+          "sentence": "Repeated violations lead to a ban.",
+          "translation": "बार-बार उल्लंघन बैन का कारण बनते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "engagement",
+      "phoneticRespelling": "en-GAYJ-ment",
+      "translation": "एंगेजमेंट",
+      "definition": "The level of interaction, likes, comments, and shares on online content.",
+      "definationTranslation": "ऑनलाइन सामग्री पर इंटरैक्शन, लाइक्स, कमेंट्स और शेयर्स का स्तर।",
+      "sentence": [
+        {
+          "sentence": "High engagement boosts visibility.",
+          "translation": "उच्च एंगेजमेंट दृश्यता बढ़ाता है।"
+        },
+        {
+          "sentence": "Communities thrive on engagement.",
+          "translation": "समुदाय एंगेजमेंट पर फलते-फूलते हैं।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,345 @@
 {
   "topic": "Environmental Policy",
-  "words": []
+  "words": [
+    {
+      "word": "Sustainability",
+      "phoneticRespelling": "suh-STAY-nuh-bil-uh-tee",
+      "translation": "स्थायित्व",
+      "definition": "The ability to be maintained at a certain level without depleting natural resources",
+      "definationTranslation": "किसी निश्चित स्तर पर प्राकृतिक संसाधनों को समाप्त किए बिना बनाए रखा जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company's sustainability policy aims to reduce carbon emissions.",
+          "translation": "कंपनी की स्थायित्व नीति कार्बन उत्सर्जन को कम करने का उद्देश्य रखती है।"
+        },
+        {
+          "sentence": "The government has launched a new initiative to promote sustainability in rural areas.",
+          "translation": "सरकार ने ग्रामीण क्षेत्रों में स्थायित्व को बढ़ावा देने के लिए एक नयी पहल शुरू की है।"
+        }
+      ]
+    },
+    {
+      "word": "Conservation",
+      "phoneticRespelling": "kahn-SUR-vey-shun",
+      "translation": "संरक्षण",
+      "definition": "The act of preserving or protecting something, especially the natural environment",
+      "definationTranslation": "किसी चीज़, विशेष रूप से प्राकृतिक वातावरण को संरक्षित या सुरक्षित करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The conservation efforts have helped to protect the endangered species.",
+          "translation": "संरक्षण प्रयासों ने लुप्तप्राय प्रजातियों की रक्षा में मदद की है।"
+        },
+        {
+          "sentence": "The government has established a conservation program to preserve the natural resources.",
+          "translation": "सरकार ने प्राकृतिक संसाधनों को संरक्षित करने के लिए एक संरक्षण कार्यक्रम स्थापित किया है।"
+        }
+      ]
+    },
+    {
+      "word": "Renewable",
+      "phoneticRespelling": "ree-NOO-uh-bul",
+      "translation": "नवीकरणीय",
+      "definition": "Able to be replaced or replenished naturally",
+      "definationTranslation": "जो प्राकृतिक रूप से प्रतिस्थापित या पुनः भरा जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company uses renewable energy sources to power its operations.",
+          "translation": "कंपनी अपने संचालन को चलाने के लिए नवीकरणीय ऊर्जा स्रोतों का उपयोग करती है।"
+        },
+        {
+          "sentence": "The government has set a target to increase the use of renewable energy by 20% by 2025.",
+          "translation": "सरकार ने 2025 तक नवीकरणीय ऊर्जा के उपयोग को 20% तक बढ़ाने का लक्ष्य निर्धारित किया है।"
+        }
+      ]
+    },
+    {
+      "word": "Ecosystem",
+      "phoneticRespelling": "EH-koh-sis-tuhm",
+      "translation": "पारितंत्र",
+      "definition": "A community of living and non-living things that interact with each other in a specific environment",
+      "definationTranslation": "एक विशिष्ट वातावरण में एक दूसरे के साथ बातचीत करने वाली जीवित और非- जीवित चीजों का एक समुदाय",
+      "sentence": [
+        {
+          "sentence": "The ecosystem of the forest is fragile and needs to be protected.",
+          "translation": "जंगल का पारितंत्र नाजुक है और इसका संरक्षण करने की आवश्यकता है।"
+        },
+        {
+          "sentence": "The ecosystem services provided by the wetlands are essential for human well-being.",
+          "translation": "तालाबों द्वारा प्रदान की जाने वाली पारितंत्र सेवाएं मानव कल्याण के लिए आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Biodiversity",
+      "phoneticRespelling": "bye-oh-DIE-ver-si-tee",
+      "translation": "जैव विविधता",
+      "definition": "The variety of different plants, animals, and microorganisms that live in an ecosystem",
+      "definationTranslation": "एक पारितंत्र में रहने वाले विभिन्न पौधों, जानवरों और सूक्ष्मजीवों की विविधता",
+      "sentence": [
+        {
+          "sentence": "The biodiversity of the rainforest is incredibly rich and diverse.",
+          "translation": "वर्षावन की जैव विविधता अविश्वसनीय रूप से समृद्ध और विविध है।"
+        },
+        {
+          "sentence": "The loss of biodiversity can have severe consequences for the environment.",
+          "translation": "जैव विविधता की हानि के पर्यावरण के लिए गंभीर परिणाम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Climate",
+      "phoneticRespelling": "KLY-mit",
+      "translation": "जलवायु",
+      "definition": "The weather conditions prevailing in an area over a long period",
+      "definationTranslation": "एक क्षेत्र में लंबे समय तक प्रचलित मौसम की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The climate of the region is hot and humid during the summer months.",
+          "translation": "क्षेत्र की जलवायु गर्मियों के महीनों में गर्म और आर्द्र होती है।"
+        },
+        {
+          "sentence": "The climate change is a major environmental issue that needs to be addressed.",
+          "translation": "जलवायु परिवर्तन एक प्रमुख पर्यावरणीय मुद्दा है जिसे संबोधित किया जाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Pollution",
+      "phoneticRespelling": "puh-LOO-shun",
+      "translation": "प्रदूषण",
+      "definition": "The act of contaminating or dirtying the environment",
+      "definationTranslation": "पर्यावरण को दूषित या गंदा करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The pollution in the city is a major health concern.",
+          "translation": "शहर में प्रदूषण एक प्रमुख स्वास्थ्य चिंता है।"
+        },
+        {
+          "sentence": "The government has implemented strict laws to reduce pollution.",
+          "translation": "सरकार ने प्रदूषण को कम करने के लिए सख्त कानून लागू किए हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Recycle",
+      "phoneticRespelling": "ree-SAY-kul",
+      "translation": "पुनर्चक्रण",
+      "definition": "To treat or process something so that it can be used again",
+      "definationTranslation": "किसी चीज़ को ऐसे उपचार या प्रक्रिया करना ताकि वह फिर से उपयोग की जा सके",
+      "sentence": [
+        {
+          "sentence": "We should recycle plastic bottles to reduce waste.",
+          "translation": "हमें प्लास्टिक की बोतलें पुनर्चक्रण करनी चाहिए ताकि कचरा कम हो सके।"
+        },
+        {
+          "sentence": "The company has a recycling program to reduce its environmental impact.",
+          "translation": "कंपनी का एक पुनर्चक्रण कार्यक्रम है जो अपने पर्यावरणीय प्रभाव को कम करने के लिए है।"
+        }
+      ]
+    },
+    {
+      "word": "Sustainable",
+      "phoneticRespelling": "suh-STAY-nuh-bul",
+      "translation": "स्थायी",
+      "definition": "Able to be maintained or supported without depleting natural resources",
+      "definationTranslation": "प्राकृतिक संसाधनों को समाप्त किए बिना बनाए रखा या समर्थित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company aims to be sustainable in its operations and reduce its carbon footprint.",
+          "translation": "कंपनी अपने संचालन में स्थायी होने और अपने कार्बन पदचिह्न को कम करने का लक्ष्य रखती है।"
+        },
+        {
+          "sentence": "The sustainable development goals are aimed at promoting economic growth and reducing poverty.",
+          "translation": "स्थायी विकास लक्ष्य आर्थिक विकास को बढ़ावा देने और गरीबी को कम करने के लिए हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Environmental",
+      "phoneticRespelling": "en-VIE-ruh-nuh-ment-ul",
+      "translation": "पर्यावरणीय",
+      "definition": "Relating to the natural world and the impact of human activity on it",
+      "definationTranslation": "प्राकृतिक विश्व और मानव गतिविधि के इसके प्रभाव से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The environmental impact of the project needs to be assessed.",
+          "translation": "परियोजना के पर्यावरणीय प्रभाव का आकलन किया जाना चाहिए।"
+        },
+        {
+          "sentence": "The company has an environmental policy to reduce its impact on the environment.",
+          "translation": "कंपनी की पर्यावरण नीति है जो पर्यावरण पर इसके प्रभाव को कम करने के लिए है।"
+        }
+      ]
+    },
+    {
+      "word": "Greenhouse",
+      "phoneticRespelling": "GREEN-hous",
+      "translation": "ग्रीनहाउस",
+      "definition": "A building in which plants are grown under controlled conditions, especially for protection from cold weather",
+      "definationTranslation": "एक भवन जिसमें पौधों को नियंत्रित परिस्थितियों में उगाया जाता है, विशेष रूप से ठंडे मौसम से सुरक्षा के लिए",
+      "sentence": [
+        {
+          "sentence": "The greenhouse effect is a major contributor to global warming.",
+          "translation": "ग्रीनहाउस प्रभाव वैश्विक तापमान वृद्धि में एक प्रमुख योगदानकर्ता है।"
+        },
+        {
+          "sentence": "The greenhouse is used to grow exotic plants that require a warm and humid environment.",
+          "translation": "ग्रीनहाउस का उपयोग विदेशी पौधों को उगाने के लिए किया जाता है जिन्हें गर्म और आर्द्र वातावरण की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Ecofriendly",
+      "phoneticRespelling": "EE-koh-FREND-lee",
+      "translation": "पर्यावरण अनुकूल",
+      "definition": "Not harmful to the environment",
+      "definationTranslation": "पर्यावरण के लिए हानिकारक नहीं",
+      "sentence": [
+        {
+          "sentence": "The company has launched an ecofriendly product line that is biodegradable.",
+          "translation": "कंपनी ने एक पर्यावरण अनुकूल उत्पाद श्रृंखला शुरू की है जो जैविक रूप से अवशोषित हो जाती है।"
+        },
+        {
+          "sentence": "The ecofriendly practices of the hotel have reduced its carbon footprint.",
+          "translation": "होटल की पर्यावरण अनुकूल प्रथाओं ने इसके कार्बन पदचिह्न को कम कर दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Waste",
+      "phoneticRespelling": "WAYST",
+      "translation": "कचरा",
+      "definition": "Unwanted or unusable materials or substances",
+      "definationTranslation": "अवांछित या अप्रयोज्य सामग्री या पदार्थ",
+      "sentence": [
+        {
+          "sentence": "The company has a waste management program to reduce its environmental impact.",
+          "translation": "कंपनी का एक कचरा प्रबंधन कार्यक्रम है जो पर्यावरण पर इसके प्रभाव को कम करने के लिए है।"
+        },
+        {
+          "sentence": "The waste disposal facility is designed to handle hazardous materials.",
+          "translation": "कचरा निपटान सुविधा जोखимभर सामग्री को संभालने के लिए डिज़ाइन की गई है।"
+        }
+      ]
+    },
+    {
+      "word": "Toxic",
+      "phoneticRespelling": "TOK-sik",
+      "translation": "विषाक्त",
+      "definition": "Poisonous or harmful to living organisms",
+      "definationTranslation": "जीवित प्राणियों के लिए जहरीला या हानिकारक",
+      "sentence": [
+        {
+          "sentence": "The toxic chemicals in the water are a major health concern.",
+          "translation": "पानी में विषाक्त रसायन स्वास्थ्य के लिए एक प्रमुख चिंता है।"
+        },
+        {
+          "sentence": "The company has been fined for releasing toxic waste into the environment.",
+          "translation": "कंपनी पर पर्यावरण में विषाक्त कचरा छोड़ने के लिए जुर्माना लगाया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Carbon",
+      "phoneticRespelling": "KAR-bun",
+      "translation": "कार्बन",
+      "definition": "A chemical element that is a major component of all living things",
+      "definationTranslation": "एक रासायनिक तत्व जो सभी जीवित चीजों का एक प्रमुख घटक है",
+      "sentence": [
+        {
+          "sentence": "The company has a goal to reduce its carbon footprint by 50% by 2025.",
+          "translation": "कंपनी का लक्ष्य 2025 तक अपने कार्बन पदचिह्न को 50% तक कम करना है।"
+        },
+        {
+          "sentence": "The carbon emissions from the factory are a major contributor to air pollution.",
+          "translation": "कारखाने से कार्बन उत्सर्जन वायु प्रदूषण में एक प्रमुख योगदानकर्ता है।"
+        }
+      ]
+    },
+    {
+      "word": "Energy",
+      "phoneticRespelling": "EN-ur-jee",
+      "translation": "ऊर्जा",
+      "definition": "The ability or capacity to do work",
+      "definationTranslation": "काम करने की क्षमता या क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company is investing in renewable energy sources to reduce its dependence on fossil fuels.",
+          "translation": "कंपनी जीवाश्म ईंधन पर अपनी निर्भरता को कम करने के लिए नवीकरणीय ऊर्जा स्रोतों में निवेश कर रही है।"
+        },
+        {
+          "sentence": "The energy efficiency of the building has been improved by installing solar panels.",
+          "translation": "सौर पैनल स्थापित करके भवन की ऊर्जा कुशलता में सुधार किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Natural",
+      "phoneticRespelling": "NAY-chur-ul",
+      "translation": "प्राकृतिक",
+      "definition": "Existing in or caused by nature",
+      "definationTranslation": "प्रकृति में मौजूद या प्रकृति द्वारा कारण",
+      "sentence": [
+        {
+          "sentence": "The natural beauty of the landscape is breathtaking.",
+          "translation": "परिदृश्य की प्राकृतिक सुंदरता अद्भुत है।"
+        },
+        {
+          "sentence": "The company uses natural ingredients in its products to reduce its environmental impact.",
+          "translation": "कंपनी अपने उत्पादों में प्राकृतिक सामग्री का उपयोग करती है जो पर्यावरण पर इसके प्रभाव को कम करने के लिए है।"
+        }
+      ]
+    },
+    {
+      "word": "Resource",
+      "phoneticRespelling": "REH-sors",
+      "translation": "संसाधन",
+      "definition": "A supply of something that can be used to help or support someone or something",
+      "definationTranslation": "किसी चीज़ की आपूर्ति जिसका उपयोग किसी की सहायता या समर्थन के लिए किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company has a wealth of resources to help it achieve its goals.",
+          "translation": "कंपनी के पास अपने लक्ष्यों को प्राप्त करने में मदद करने के लिए बहुत सारे संसाधन हैं।"
+        },
+        {
+          "sentence": "The natural resource management program aims to conserve and sustainably use natural resources.",
+          "translation": "प्राकृतिक संसाधन प्रबंधन कार्यक्रम का उद्देश्य प्राकृतिक संसाधनों को संरक्षित करना और उन्हें टिकाऊ तरीके से उपयोग करना है।"
+        }
+      ]
+    },
+    {
+      "word": " Management",
+      "phoneticRespelling": "MAN-ij-muhnt",
+      "translation": "प्रबंधन",
+      "definition": "The act or process of managing or controlling something",
+      "definationTranslation": "किसी चीज़ को प्रबंधित या नियंत्रित करने की क्रिया या प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company has a team of experts to manage its environmental impact.",
+          "translation": "कंपनी के पास अपने पर्यावरणीय प्रभाव को प्रबंधित करने के लिए विशेषज्ञों की एक टीम है।"
+        },
+        {
+          "sentence": "The management of the natural resources is crucial for the sustainable development of the country.",
+          "translation": "देश के स्थायी विकास के लिए प्राकृतिक संसाधनों का प्रबंधन महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Policy",
+      "phoneticRespelling": "POL-uh-see",
+      "translation": "नीति",
+      "definition": "A plan or course of action intended to achieve a particular purpose",
+      "definationTranslation": "एक विशिष्ट उद्देश्य को प्राप्त करने के लिए योजना या कार्रवाई का एक पाठ्यक्रम",
+      "sentence": [
+        {
+          "sentence": "The company has a environmental policy to reduce its carbon footprint.",
+          "translation": "कंपनी की पर्यावरण नीति है जो अपने कार्बन पदचिह्न को कम करने के लिए है।"
+        },
+        {
+          "sentence": "The government has introduced a new policy to promote sustainable development.",
+          "translation": "सरकार ने स्थायी विकास को बढ़ावा देने के लिए một नई नीति पेश की है।"
+        }
+      ]
+    }
+  ]
 }
