@@ -1,4 +1,329 @@
 {
   "topic": "Cybersecurity",
-  "words": []
+  "words": [
+    {
+      "word": "Malware",
+      "phoneticRespelling": "MAL-ware",
+      "translation": "खराब सॉफ्टवेयर",
+      "definition": "Software that is intended to harm or exploit a computer system",
+      "definationTranslation": "एक सॉफ्टवेयर जो एक कंप्यूटर सिस्टम को नुकसान पहुंचाने या शोषित करने के लिए डिज़ाइन किया गया है",
+      "sentence": [
+        {
+          "sentence": "The company's computer system was infected with malware.",
+          "translation": "कंपनी का कंप्यूटर सिस्टम मैलवेयर से संक्रमित था।"
+        },
+        {
+          "sentence": "The antivirus software detected and removed the malware from the computer.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने मैलवेयर का पता लगाया और इसे कंप्यूटर से हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "मछली पकड़ना",
+      "definition": "The act of attempting to obtain sensitive information by disguising as a trustworthy entity",
+      "definationTranslation": "एक विश्वसनीय इकाई के रूप में प्रस्तुत करके संवेदनशील जानकारी प्राप्त करने का प्रयास",
+      "sentence": [
+        {
+          "sentence": "The email was a phishing attempt to steal my password.",
+          "translation": "ईमेल मेरा पासवर्ड चोरी करने का एक फ़िशिंग प्रयास था।"
+        },
+        {
+          "sentence": "The company warned its employees about phishing scams.",
+          "translation": "कंपनी ने अपने कर्मचारियों को फ़िशिंग स्कैम के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FYER-wahl",
+      "translation": "अग्नि दीवार",
+      "definition": "A system or network that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "एक प्रणाली या नेटवर्क जो आने वाले और जाने वाले नेटवर्क ट्रैफिक की निगरानी और नियंत्रण करता है",
+      "sentence": [
+        {
+          "sentence": "The firewall blocked the malicious traffic from entering the network.",
+          "translation": "फ़ायरवॉल ने दुर्भावनापूर्ण ट्रैफिक को नेटवर्क में प्रवेश करने से रोका।"
+        },
+        {
+          "sentence": "The company installed a firewall to protect its network from cyber threats.",
+          "translation": "कंपनी ने साइबर खतरों से अपने नेटवर्क की रक्षा के लिए एक फ़ायरवॉल स्थापित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIHP-shun",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable ciphertext",
+      "definationTranslation": "प्लेनटेक्स्ट को अपठित साइटेक्स्ट में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company used encryption to protect its sensitive data.",
+          "translation": "कंपनी ने अपने संवेदनशील डेटा की रक्षा के लिए एन्क्रिप्शन का उपयोग किया।"
+        },
+        {
+          "sentence": "The encryption algorithm made it difficult for hackers to access the data.",
+          "translation": "एन्क्रिप्शन एल्गोरिदम ने हैकर्स को डेटा तक पहुंचने में मुश्किल बना दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Virus",
+      "phoneticRespelling": "VY-rus",
+      "translation": "वायरस",
+      "definition": "A type of malware that replicates itself by attaching to other programs",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो अन्य कार्यक्रमों से जुड़कर खुद को दोहराता है",
+      "sentence": [
+        {
+          "sentence": "The computer was infected with a virus that deleted all the files.",
+          "translation": "कंप्यूटर एक वायरस से संक्रमित था जिसने सभी फ़ाइलों को मिटा दिया।"
+        },
+        {
+          "sentence": "The antivirus software removed the virus from the computer.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने कंप्यूटर से वायरस को हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Password",
+      "phoneticRespelling": "PASS-wurd",
+      "translation": "पासवर्ड",
+      "definition": "A secret word or phrase used to gain access to a computer system",
+      "definationTranslation": "एक गुप्त शब्द या वाक्यांश जो एक कंप्यूटर सिस्टम तक पहुंचने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The user forgot their password and couldn't log in.",
+          "translation": "उपयोगकर्ता ने अपना पासवर्ड भूल गया और लॉग इन नहीं कर सका।"
+        },
+        {
+          "sentence": "The password was strong and difficult to guess.",
+          "translation": "पासवर्ड मजबूत था और इसका अनुमान लगाना मुश्किल था।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A group of computers connected together to share resources",
+      "definationTranslation": "संसाधन साझा करने के लिए एक साथ जुड़े कंप्यूटरों का समूह",
+      "sentence": [
+        {
+          "sentence": "The company's network was hacked and sensitive data was stolen.",
+          "translation": "कंपनी के नेटवर्क में हैकिंग हुई और संवेदनशील डेटा चोरी हो गया।"
+        },
+        {
+          "sentence": "The network administrator managed the company's network.",
+          "translation": "नेटवर्क प्रशासक ने कंपनी के नेटवर्क का प्रबंधन किया।"
+        }
+      ]
+    },
+    {
+      "word": "Threat",
+      "phoneticRespelling": "THRET",
+      "translation": "खतरा",
+      "definition": "A potential occurrence that could compromise the security of a system",
+      "definationTranslation": "एक संभावित घटना जो एक प्रणाली की सुरक्षा को खतरे में डाल सकती है",
+      "sentence": [
+        {
+          "sentence": "The company identified a threat to its network and took action.",
+          "translation": "कंपनी ने अपने नेटवर्क के लिए एक खतरे की पहचान की और कार्रवाई की।"
+        },
+        {
+          "sentence": "The threat of cyber attacks is increasing every day.",
+          "translation": "साइबर हमलों का खतरा हर दिन बढ़ रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Hack",
+      "phoneticRespelling": "HAK",
+      "translation": "हैक",
+      "definition": "To gain unauthorized access to a computer system",
+      "definationTranslation": "एक कंप्यूटर सिस्टम तक अनधिकृत पहुंच प्राप्त करना",
+      "sentence": [
+        {
+          "sentence": "The hacker tried to hack into the company's database.",
+          "translation": "हैकर ने कंपनी के डेटाबेस में हैक करने की कोशिश की।"
+        },
+        {
+          "sentence": "The company's system was hacked and sensitive data was stolen.",
+          "translation": "कंपनी के सिस्टम में हैकिंग हुई और संवेदनशील डेटा चोरी हो गया।"
+        }
+      ]
+    },
+    {
+      "word": "Spam",
+      "phoneticRespelling": "SPAM",
+      "translation": "स्पैम",
+      "definition": "Unsolicited commercial emails sent to a large number of recipients",
+      "definationTranslation": "एक बड़ी संख्या में प्राप्तकर्ताओं को भेजे गए अनचाहे व्यावसायिक ईमेल",
+      "sentence": [
+        {
+          "sentence": "The email account was flooded with spam messages.",
+          "translation": "ईमेल खाते में स्पैम संदेशों से भर गया।"
+        },
+        {
+          "sentence": "The spam filter blocked the unwanted emails.",
+          "translation": "स्पैम फ़िल्टर ने अवांछित ईमेल को ब्लॉक कर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Phreak",
+      "phoneticRespelling": "FREEK",
+      "translation": "फ़्रीक",
+      "definition": "A person who hacks into telephone systems",
+      "definationTranslation": "एक व्यक्ति जो टेलीफोन प्रणालियों में हैक करता है",
+      "sentence": [
+        {
+          "sentence": "The phreak was able to hack into the telephone exchange.",
+          "translation": "फ़्रीक टेलीफोन एक्सचेंज में हैक करने में सक्षम था।"
+        },
+        {
+          "sentence": "The phreak was caught by the authorities and charged with hacking.",
+          "translation": "फ़्रीक को अधिकारियों ने पकड़ लिया और हैकिंग के आरोप में आरोपित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Trojan",
+      "phoneticRespelling": "TROH-jun",
+      "translation": "ट्रोजन",
+      "definition": "A type of malware that disguises itself as a legitimate program",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो खुद को एक वैध कार्यक्रम के रूप में प्रस्तुत करता है",
+      "sentence": [
+        {
+          "sentence": "The trojan horse virus infected the computer.",
+          "translation": "ट्रोजन हॉर्स वायरस ने कंप्यूटर को संक्रमित किया।"
+        },
+        {
+          "sentence": "The antivirus software detected and removed the trojan.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने ट्रोजन का पता लगाया और इसे हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Worm",
+      "phoneticRespelling": "WURM",
+      "translation": "कृमि",
+      "definition": "A type of malware that replicates itself and spreads to other computers",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो खुद को दोहराता है और अन्य कंप्यूटरों में फैलता है",
+      "sentence": [
+        {
+          "sentence": "The worm infected the entire network.",
+          "translation": "कृमि ने पूरे नेटवर्क को संक्रमित किया।"
+        },
+        {
+          "sentence": "The antivirus software removed the worm from the computer.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने कंप्यूटर से कृमि को हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Botnet",
+      "phoneticRespelling": "BOT-net",
+      "translation": "बॉटनेट",
+      "definition": "A network of private computers infected with malware and controlled remotely",
+      "definationTranslation": "एक निजी कंप्यूटरों का नेटवर्क जो मैलवेयर से संक्रमित है और दूरस्थ रूप से नियंत्रित किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The botnet was used to launch a cyber attack.",
+          "translation": "बॉटनेट का उपयोग साइबर हमला शुरू करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "The authorities shut down the botnet and arrested the hackers.",
+          "translation": "अधिकारियों ने बॉटनेट को बंद कर दिया और हैकर्स को गिरफ्तार कर लिया।"
+        }
+      ]
+    },
+    {
+      "word": "Spyware",
+      "phoneticRespelling": "SPY-ware",
+      "translation": "स्पाईवेयर",
+      "definition": "A type of malware that secretly monitors and collects user data",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो गुप्त रूप से उपयोगकर्ता डेटा की निगरानी और संग्रह करता है",
+      "sentence": [
+        {
+          "sentence": "The spyware was installed on the computer without the user's knowledge.",
+          "translation": "स्पाईवेयर को उपयोगकर्ता की जानकारी के बिना कंप्यूटर पर स्थापित किया गया था।"
+        },
+        {
+          "sentence": "The antivirus software detected and removed the spyware.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने स्पाईवेयर का पता लगाया और इसे हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Adware",
+      "phoneticRespelling": "AD-ware",
+      "translation": "एडवेयर",
+      "definition": "A type of malware that displays unwanted advertisements",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो अवांछित विज्ञापन प्रदर्शित करता है",
+      "sentence": [
+        {
+          "sentence": "The adware infected the computer and displayed pop-up ads.",
+          "translation": "एडवेयर ने कंप्यूटर को संक्रमित किया और पॉप-अप विज्ञापन प्रदर्शित किए।"
+        },
+        {
+          "sentence": "The antivirus software removed the adware from the computer.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने कंप्यूटर से एडवेयर को हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Rootkit",
+      "phoneticRespelling": "ROOT-kit",
+      "translation": "रूटकिट",
+      "definition": "A type of malware that hides itself and other malware from the operating system",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो खुद को और अन्य मैलवेयर को ऑपरेटिंग सिस्टम से छुपाता है",
+      "sentence": [
+        {
+          "sentence": "The rootkit was difficult to detect and remove.",
+          "translation": "रूटकिट का पता लगाना और हटाना मुश्किल था।"
+        },
+        {
+          "sentence": "The antivirus software was able to detect and remove the rootkit.",
+          "translation": "एंटीवायरस सॉफ्टवेयर रूटकिट का पता लगाने और इसे हटाने में सक्षम था।"
+        }
+      ]
+    },
+    {
+      "word": "Keylogger",
+      "phoneticRespelling": "KEE-log-er",
+      "translation": "कीलॉगर",
+      "definition": "A type of malware that records keystrokes",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो कीस्ट्रोक्स को रिकॉर्ड करता है",
+      "sentence": [
+        {
+          "sentence": "The keylogger was used to steal sensitive information.",
+          "translation": "कीलॉगर का उपयोग संवेदनशील जानकारी चोरी करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "The antivirus software detected and removed the keylogger.",
+          "translation": "एंटीवायरस सॉफ्टवेयर ने कीलॉगर का पता लगाया और इसे हटा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Ransomware",
+      "phoneticRespelling": "RAN-som-ware",
+      "translation": "रैंसमवेयर",
+      "definition": "A type of malware that demands payment in exchange for restoring access to data",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो डेटा तक पहुंच बहाल करने के बदले में भुगतान की मांग करता है",
+      "sentence": [
+        {
+          "sentence": "The ransomware attack locked the company's data and demanded payment.",
+          "translation": "रैंसमवेयर हमले ने कंपनी के डेटा को लॉक कर दिया और भुगतान की मांग की।"
+        },
+        {
+          "sentence": "The company paid the ransom and regained access to its data.",
+          "translation": "कंपनी ने फिरौती का भुगतान किया और अपने डेटा तक फिर से पहुंच प्राप्त की।"
+        }
+      ]
+    }
+  ],
+  "_warning": "Requested 20 words but got 19."
 }

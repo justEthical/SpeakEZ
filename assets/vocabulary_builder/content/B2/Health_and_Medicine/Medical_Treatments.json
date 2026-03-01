@@ -1,4 +1,328 @@
 {
   "topic": "Medical Treatments",
-  "words": []
+  "words": [
+    {
+      "word": "Therapy",
+      "phoneticRespelling": "THAIR-uh-pee",
+      "translation": "चिकित्सा",
+      "definition": "The treatment of a disease or condition.",
+      "definationTranslation": "एक बीमारी या स्थिति का इलाज",
+      "sentence": [
+        {
+          "sentence": "The patient underwent therapy to recover from the injury.",
+          "translation": "मरीज ने चोट से उबरने के लिए चिकित्सा की।"
+        },
+        {
+          "sentence": "Therapy can help people manage their stress and anxiety.",
+          "translation": "चिकित्सा लोगों को तनाव और चिंता को नियंत्रित करने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Surgery",
+      "phoneticRespelling": "SUR-jur-ee",
+      "translation": "शल्य चिकित्सा",
+      "definition": "A medical procedure that involves manual or instrumental treatment of a part of the body.",
+      "definationTranslation": "एक चिकित्सा प्रक्रिया जिसमें शरीर के किसी हिस्से का मैनुअल या इंस्ट्रूमेंटल उपचार शामिल होता है।",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended surgery to repair the damaged tendon.",
+          "translation": "डॉक्टर ने क्षतिग्रस्त टेंडन को ठीक करने के लिए शल्य चिकित्सा की सिफारिश की।"
+        },
+        {
+          "sentence": "The patient was nervous about the upcoming surgery.",
+          "translation": "रोगी आगामी शल्य चिकित्सा के बारे में चिंतित था।"
+        }
+      ]
+    },
+    {
+      "word": "Medication",
+      "phoneticRespelling": "MED-ih-KAY-shun",
+      "translation": "दवा",
+      "definition": "A substance used to treat or prevent a disease or condition.",
+      "definationTranslation": "एक पदार्थ जिसका उपयोग एक बीमारी या स्थिति के इलाज या रोकथाम के लिए किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed medication to reduce the patient's symptoms.",
+          "translation": "डॉक्टर ने मरीज के लक्षणों को कम करने के लिए दवा लिखी।"
+        },
+        {
+          "sentence": "It is essential to take medication as directed by the doctor.",
+          "translation": "डॉक्टर द्वारा निर्देशित अनुसार दवा लेना जरूरी है।"
+        }
+      ]
+    },
+    {
+      "word": "Diagnosis",
+      "phoneticRespelling": "DY-ug-NOH-sis",
+      "translation": "निदान",
+      "definition": "The process of identifying a disease or condition.",
+      "definationTranslation": "एक बीमारी या स्थिति की पहचान की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The doctor made a diagnosis based on the patient's symptoms and test results.",
+          "translation": "डॉक्टर ने मरीज के लक्षणों और परीक्षण परिणामों के आधार पर निदान किया।"
+        },
+        {
+          "sentence": "A correct diagnosis is crucial for effective treatment.",
+          "translation": "कारगर उपचार के लिए सटीक निदान महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Prognosis",
+      "phoneticRespelling": "PROG-noh-sis",
+      "translation": "पूर्वानुमान",
+      "definition": "A forecast or prediction of the likely outcome of a disease or condition.",
+      "definationTranslation": "एक बीमारी या स्थिति के संभावित परिणाम की भविष्यवाणी।",
+      "sentence": [
+        {
+          "sentence": "The doctor provided a prognosis based on the patient's medical history and current condition.",
+          "translation": "डॉक्टर ने मरीज के चिकित्सा इतिहास और वर्तमान स्थिति के आधार पर पूर्वानुमान दिया।"
+        },
+        {
+          "sentence": "The prognosis for the patient's recovery was positive.",
+          "translation": "मरीज के ठीक होने का पूर्वानुमान सकारात्मक था।"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "phoneticRespelling": "TREET-muhnt",
+      "translation": "उपचार",
+      "definition": "The application of remedies to a disease or condition.",
+      "definationTranslation": "एक बीमारी या स्थिति के लिए उपचार का प्रयोग।",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended a course of treatment to manage the patient's symptoms.",
+          "translation": "डॉक्टर ने मरीज के लक्षणों को नियंत्रित करने के लिए उपचार का एक कोर्स सिफारिश किया।"
+        },
+        {
+          "sentence": "The patient responded well to the treatment and made a full recovery.",
+          "translation": "मरीज उपचार का अच्छी तरह से जवाब दिया और पूरी तरह से ठीक हो गया।"
+        }
+      ]
+    },
+    {
+      "word": "Rehabilitation",
+      "phoneticRespelling": "REE-huh-bih-LIE-tay-shun",
+      "translation": "पुनर्वास",
+      "definition": "The process of restoring someone's health or normal life through training and therapy.",
+      "definationTranslation": "प्रशिक्षण और चिकित्सा के माध्यम से किसी के स्वास्थ्य या सामान्य जीवन को बहाल करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The patient underwent rehabilitation to regain strength and mobility after the accident.",
+          "translation": "दुर्घटना के बाद मरीज ने शक्ति और गतिशीलता हासिल करने के लिए पुनर्वास किया।"
+        },
+        {
+          "sentence": "Rehabilitation is an important part of the recovery process.",
+          "translation": "पुनर्वास पुनरुद्धार प्रक्रिया का एक महत्वपूर्ण हिस्सा है।"
+        }
+      ]
+    },
+    {
+      "word": "Prescription",
+      "phoneticRespelling": "PRIH-skrip-shun",
+      "translation": "नुस्खा",
+      "definition": "A written order from a doctor for a patient to take a specific medication or treatment.",
+      "definationTranslation": "एक डॉक्टर द्वारा एक मरीज के लिए एक विशिष्ट दवा या उपचार लेने के लिए लिखित आदेश।",
+      "sentence": [
+        {
+          "sentence": "The doctor wrote a prescription for the patient to take antibiotics.",
+          "translation": "डॉक्टर ने मरीज के लिए एंटीबायोटिक्स लेने के लिए एक नुस्खा लिखा।"
+        },
+        {
+          "sentence": "It is essential to follow the prescription carefully to ensure effective treatment.",
+          "translation": "कारगर उपचार सुनिश्चित करने के लिए नुस्खे का सावधानीपूर्वक पालन करना आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Dose",
+      "phoneticRespelling": "DOH-s",
+      "translation": "खुराक",
+      "definition": "The amount of a medication or substance that is taken or administered at one time.",
+      "definationTranslation": "एक दवा या पदार्थ की मात्रा जो एक समय में ली जाती है या प्रशासित की जाती है।",
+      "sentence": [
+        {
+          "sentence": "The doctor instructed the patient to take a specific dose of the medication at bedtime.",
+          "translation": "डॉक्टर ने मरीज को सोने से पहले दवा की एक विशिष्ट खुराक लेने के लिए निर्देशित किया।"
+        },
+        {
+          "sentence": "It is crucial to follow the recommended dose to avoid any adverse effects.",
+          "translation": "किसी भी प्रतिकूल प्रभाव से बचने के लिए सिफारिश की गई खुराक का पालन करना महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Side Effect",
+      "phoneticRespelling": "SYD EF-uhkt",
+      "translation": "साइड इफेक्ट",
+      "definition": "An unwanted or unfavorable consequence of a medication or treatment.",
+      "definationTranslation": "एक दवा या उपचार का अवांछित या अनुकूल परिणाम नहीं है।",
+      "sentence": [
+        {
+          "sentence": "The patient experienced a side effect from the medication and had to discontinue its use.",
+          "translation": "मरीज ने दवा से एक साइड इफेक्ट का अनुभव किया और इसका उपयोग बंद करना पड़ा।"
+        },
+        {
+          "sentence": "The doctor warned the patient about the potential side effects of the treatment.",
+          "translation": "डॉक्टर ने मरीज को उपचार के संभावित साइड इफेक्ट्स के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Allergy",
+      "phoneticRespelling": "AL-ur-jee",
+      "translation": "एलर्जी",
+      "definition": "An overreaction of the body's immune system to a specific substance.",
+      "definationTranslation": "एक विशिष्ट पदार्थ के लिए शरीर की प्रतिरक्षा प्रणाली की अधिक प्रतिक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The patient had a severe allergy to peanuts and had to avoid them completely.",
+          "translation": "मरीज को मूंगफली से गंभीर एलर्जी थी और उन्हें पूरी तरह से避 करना पड़ा।"
+        },
+        {
+          "sentence": "The doctor asked the patient about any allergies before prescribing medication.",
+          "translation": "डॉक्टर ने दवा लिखने से पहले मरीज से किसी भी एलर्जी के बारे में पूछा।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccination",
+      "phoneticRespelling": "VAK-suh-NAY-shun",
+      "translation": "टीकाकरण",
+      "definition": "The act of giving someone a vaccine to prevent a disease or infection.",
+      "definationTranslation": "किसी को एक बीमारी या संक्रमण को रोकने के लिए एक वैक्सीन देने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended vaccination to protect against the flu.",
+          "translation": "डॉक्टर ने फ्लू से बचाव के लिए टीकाकरण की सिफारिश की।"
+        },
+        {
+          "sentence": "Vaccination is an effective way to prevent the spread of infectious diseases.",
+          "translation": "संक्रामक रोगों के फैलाव को रोकने के लिए टीकाकरण एक प्रभावी तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "Immunization",
+      "phoneticRespelling": "IM-yoo-nuh-ZAY-shun",
+      "translation": "प्रतिरक्षण",
+      "definition": "The process of becoming immune to a disease or infection.",
+      "definationTranslation": "एक बीमारी या संक्रमण के प्रति प्रतिरक्षित होने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Immunization is an essential step in preventing the spread of infectious diseases.",
+          "translation": "संक्रामक रोगों के फैलाव को रोकने में प्रतिरक्षण एक महत्वपूर्ण कदम है।"
+        },
+        {
+          "sentence": "The doctor emphasized the importance of immunization for children.",
+          "translation": "डॉक्टर ने बच्चों के लिए प्रतिरक्षण के महत्व पर जोर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Hospitalization",
+      "phoneticRespelling": "HOS-pih-tul-AY-zay-shun",
+      "translation": "हॉस्पिटलाइजेशन",
+      "definition": "The act of admitting someone to a hospital for treatment or care.",
+      "definationTranslation": "उपचार या देखभाल के लिए किसी को अस्पताल में भर्ती करने का कार्य।",
+      "sentence": [
+        {
+          "sentence": "The patient required hospitalization due to the severity of the illness.",
+          "translation": "बीमारी की गंभीरता के कारण मरीज को अस्पताल में भर्ती होने की आवश्यकता थी।"
+        },
+        {
+          "sentence": "The doctor decided that hospitalization was necessary for the patient's recovery.",
+          "translation": "डॉक्टर ने यह फैसला किया कि मरीज के ठीक होने के लिए अस्पताल में भर्ती होना जरूरी था।"
+        }
+      ]
+    },
+    {
+      "word": "Outpatient",
+      "phoneticRespelling": "OUT-PAY-shent",
+      "translation": "आउटपेशेंट",
+      "definition": "A patient who receives medical treatment or care without being admitted to a hospital.",
+      "definationTranslation": "एक मरीज जो अस्पताल में भर्ती हुए बिना चिकित्सा उपचार या देखभाल प्राप्त करता है।",
+      "sentence": [
+        {
+          "sentence": "The doctor saw the patient as an outpatient and prescribed medication.",
+          "translation": "डॉक्टर ने मरीज को आउटपेशेंट के रूप में देखा और दवा लिखी।"
+        },
+        {
+          "sentence": "The outpatient clinic provided medical care to patients who did not require hospitalization.",
+          "translation": "आउटपेशेंट क्लिनिक ने उन मरीजों को चिकित्सा देखभाल प्रदान की जिन्हें अस्पताल में भर्ती होने की आवश्यकता नहीं थी।"
+        }
+      ]
+    },
+    {
+      "word": "Emergency",
+      "phoneticRespelling": "ih-MUR-jen-see",
+      "translation": "आपातकाल",
+      "definition": "A sudden and urgent situation that requires immediate attention or action.",
+      "definationTranslation": "एक अचानक और तत्काल स्थिति जो तुरंत ध्यान या कार्रवाई की मांग करती है।",
+      "sentence": [
+        {
+          "sentence": "The patient was rushed to the emergency room due to severe chest pain.",
+          "translation": "सीने में गंभीर दर्द के कारण मरीज को आपातकालीन कक्ष में ले जाया गया।"
+        },
+        {
+          "sentence": "The doctor was on call to respond to any emergency situations that may arise.",
+          "translation": "डॉक्टर आपातकालीन स्थिति का जवाब देने के लिए कॉल पर था जो उत्पन्न हो सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Operation",
+      "phoneticRespelling": "OP-uh-RAY-shun",
+      "translation": "ऑपरेशन",
+      "definition": "A surgical procedure performed to repair or remove a part of the body.",
+      "definationTranslation": "शरीर के एक हिस्से की मरम्मत या हटाने के लिए किया जाने वाला एक शल्य चिकित्सा प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The patient underwent an operation to repair a damaged ligament.",
+          "translation": "मरीज ने एक क्षतिग्रस्त लिगामेंट की मरम्मत के लिए एक ऑपरेशन किया।"
+        },
+        {
+          "sentence": "The doctor performed the operation with great skill and precision.",
+          "translation": "डॉक्टर ने ऑपरेशन को बहुत कौशल और सटीकता के साथ किया।"
+        }
+      ]
+    },
+    {
+      "word": "Recovery",
+      "phoneticRespelling": "rih-KOH-vuh-ree",
+      "translation": "पुनरुद्धार",
+      "definition": "The process of regaining health or strength after an illness or injury.",
+      "definationTranslation": "एक बीमारी या चोट के बाद स्वास्थ्य या शक्ति हासिल करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The patient made a full recovery after several months of therapy.",
+          "translation": "कई महीनों के चिकित्सा के बाद मरीज पूरी तरह से ठीक हो गया।"
+        },
+        {
+          "sentence": "The doctor monitored the patient's recovery and adjusted the treatment plan accordingly.",
+          "translation": "डॉक्टर ने मरीज के पुनरुद्धार की निगरानी की और उपचार योजना को उसके अनुसार समायोजित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Physiotherapy",
+      "phoneticRespelling": "FIZ-ee-oh-THAIR-uh-pee",
+      "translation": "भौतिक चिकित्सा",
+      "definition": "The treatment of physical disorders or injuries using physical methods such as exercise, massage, or heat.",
+      "definationTranslation": "व्यायाम, मालिश, या गर्मी जैसे शारीरिक तरीकों का उपयोग करके शारीरिक विकारों या चोटों का उपचार।",
+      "sentence": [
+        {
+          "sentence": "The patient underwent physiotherapy to regain strength and mobility after the accident.",
+          "translation": "दुर्घटना के बाद मरीज ने शक्ति और गतिशीलता हासिल करने के लिए भौतिक चिकित्सा की।"
+        },
+        {
+          "sentence": "Physiotherapy is an effective way to manage chronic pain and improve overall health.",
+          "translation": "भौतिक चिकित्सा पुराने दर्द को नियंत्रित करने और सामान्य स्वास्थ्य में सुधार करने का एक प्रभावी तरीका है।"
+        }
+      ]
+    }
+  ]
 }

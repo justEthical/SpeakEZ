@@ -1,4 +1,362 @@
 {
   "topic": "Emergency Care",
-  "words": []
+  "words": [
+    {
+      "word": "Ambulance",
+      "phoneticRespelling": "AM-byuh-luhns",
+      "translation": "उपचार वाहन",
+      "definition": "A vehicle equipped for emergency medical care",
+      "definationTranslation": "आपातकालीन चिकित्सा देखभाल के लिए सुसज्जित वाहन",
+      "sentence": [
+        {
+          "sentence": "Call an ambulance immediately.",
+          "translation": "तुरंत एक एम्बुलेंस बुलाएं।"
+        },
+        {
+          "sentence": "The ambulance arrived quickly.",
+          "translation": "एम्बुलेंस जल्दी आया।"
+        }
+      ]
+    },
+    {
+      "word": "Emergency",
+      "phoneticRespelling": "i-MER-jen-see",
+      "translation": "आपातकाल",
+      "definition": "A serious situation that requires immediate action",
+      "definationTranslation": "एक गंभीर स्थिति जिसमें तुरंत कार्रवाई की आवश्यकता होती है",
+      "sentence": [
+        {
+          "sentence": "The hospital has an emergency room.",
+          "translation": "हॉस्पिटल में एक आपातकालीन कक्ष है।"
+        },
+        {
+          "sentence": "In case of emergency, call the police.",
+          "translation": "आपातकाल की स्थिति में, पुलिस को बुलाएं।"
+        }
+      ]
+    },
+    {
+      "word": "First Aid",
+      "phoneticRespelling": "FER-st AYD",
+      "translation": "प्राथमिक चिकित्सा",
+      "definition": "Basic medical care given to someone who is injured or sick",
+      "definationTranslation": "जिसे चोट लगी है या बीमार है, उसे दी जाने वाली मूलभूत चिकित्सा देखभाल",
+      "sentence": [
+        {
+          "sentence": "First aid is very important in emergency situations.",
+          "translation": "आपातकालीन स्थितियों में प्राथमिक चिकित्सा बहुत महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "I know how to give first aid.",
+          "translation": "मुझे प्राथमिक चिकित्सा देना आता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hospital",
+      "phoneticRespelling": "HAH-spi-tl",
+      "translation": "अस्पताल",
+      "definition": "A place where people go to receive medical care",
+      "definationTranslation": "एक स्थान जहां लोग चिकित्सा देखभाल प्राप्त करने के लिए जाते हैं",
+      "sentence": [
+        {
+          "sentence": "I'm going to the hospital to visit my friend.",
+          "translation": "मैं अपने दोस्त से मिलने के लिए अस्पताल जा रहा हूं।"
+        },
+        {
+          "sentence": "The hospital is open 24 hours a day.",
+          "translation": "अस्पताल दिन-रात 24 घंटे खुला रहता है।"
+        }
+      ]
+    },
+    {
+      "word": "Injury",
+      "phoneticRespelling": "IN-juh-ree",
+      "translation": "चोट",
+      "definition": "Harm or damage to a person's body",
+      "definationTranslation": "किसी व्यक्ति के शरीर को होने वाली हानि या क्षति",
+      "sentence": [
+        {
+          "sentence": "The player suffered a serious injury during the game.",
+          "translation": "खिलाड़ी को खेल के दौरान गंभीर चोट लगी।"
+        },
+        {
+          "sentence": "The doctor treated my injury.",
+          "translation": "डॉक्टर ने मेरी चोट का इलाज किया।"
+        }
+      ]
+    },
+    {
+      "word": "Medicine",
+      "phoneticRespelling": "MED-i-sin",
+      "translation": "दवा",
+      "definition": "A substance used to treat a disease or injury",
+      "definationTranslation": "एक दवा या चिकित्सा जो बीमारी या चोट के इलाज के लिए उपयोग की जाती है",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed some medicine for my cold.",
+          "translation": "डॉक्टर ने मेरी सर्दी के लिए कुछ दवा लिखी।"
+        },
+        {
+          "sentence": "I need to take my medicine every day.",
+          "translation": "मुझे हर दिन अपनी दवा लेनी होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Nurse",
+      "phoneticRespelling": "NER-s",
+      "translation": "नर्स",
+      "definition": "A person who takes care of people who are sick or injured",
+      "definationTranslation": "एक व्यक्ति जो बीमार या घायल लोगों की देखभाल करता है",
+      "sentence": [
+        {
+          "sentence": "The nurse helped me with my medication.",
+          "translation": "नर्स ने मेरी दवा के साथ मेरी मदद की।"
+        },
+        {
+          "sentence": "My sister is a nurse at the hospital.",
+          "translation": "मेरी बहन अस्पताल में एक नर्स है।"
+        }
+      ]
+    },
+    {
+      "word": "Operation",
+      "phoneticRespelling": "OP-uh-rey-shun",
+      "translation": "सर्जरी",
+      "definition": "A medical procedure in which a person's body is cut open",
+      "definationTranslation": "एक चिकित्सकीय प्रक्रिया जिसमें व्यक्ति के शरीर को खोला जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor performed a successful operation.",
+          "translation": "डॉक्टर ने एक सफल सर्जरी की।"
+        },
+        {
+          "sentence": "I need to have an operation to fix my knee.",
+          "translation": "मुझे अपने घुटने को ठीक करने के लिए एक सर्जरी करानी होगी।"
+        }
+      ]
+    },
+    {
+      "word": "Patient",
+      "phoneticRespelling": "PAY-shent",
+      "translation": "रोगी",
+      "definition": "A person who is receiving medical care",
+      "definationTranslation": "एक व्यक्ति जो चिकित्सा देखभाल प्राप्त कर रहा है",
+      "sentence": [
+        {
+          "sentence": "The patient is in stable condition.",
+          "translation": "रोगी स्थिर स्थिति में है।"
+        },
+        {
+          "sentence": "The doctor examined the patient carefully.",
+          "translation": "डॉक्टर ने रोगी की सावधानी से जांच की।"
+        }
+      ]
+    },
+    {
+      "word": "Recovery",
+      "phoneticRespelling": "ri-KUH-vuh-ree",
+      "translation": "स्वस्थ होना",
+      "definition": "The process of becoming healthy again after an illness or injury",
+      "definationTranslation": "बीमारी या चोट के बाद फिर से स्वस्थ होने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The recovery process took several months.",
+          "translation": "स्वस्थ होने की प्रक्रिया में कई महीने लगे।"
+        },
+        {
+          "sentence": "I'm still in recovery after my surgery.",
+          "translation": "मैं अभी भी अपनी सर्जरी के बाद स्वस्थ हो रहा हूं।"
+        }
+      ]
+    },
+    {
+      "word": "Rescue",
+      "phoneticRespelling": "REZ-kyoo",
+      "translation": "बचाव",
+      "definition": "The act of saving someone from a dangerous situation",
+      "definationTranslation": "किसी को एक खतरनाक स्थिति से बचाने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The rescue team saved the people from the burning building.",
+          "translation": "बचाव दल ने लोगों को जलते हुए भवन से बचाया।"
+        },
+        {
+          "sentence": "The Coast Guard rescue team is very brave.",
+          "translation": "तट रक्षक बचाव दल बहुत बहादुर है।"
+        }
+      ]
+    },
+    {
+      "word": "Surgery",
+      "phoneticRespelling": "SUR-juh-ree",
+      "translation": "सर्जरी",
+      "definition": "A medical procedure in which a person's body is cut open",
+      "definationTranslation": "एक चिकित्सकीय प्रक्रिया जिसमें व्यक्ति के शरीर को खोला जाता है",
+      "sentence": [
+        {
+          "sentence": "I need to have surgery to fix my broken arm.",
+          "translation": "मुझे अपने टूटे हुए हाथ को ठीक करने के लिए सर्जरी करानी होगी।"
+        },
+        {
+          "sentence": "The surgery was a success.",
+          "translation": "सर्जरी सफल रही।"
+        }
+      ]
+    },
+    {
+      "word": "Triage",
+      "phoneticRespelling": "TREE-ahj",
+      "translation": "त्रिस्तरीय चिकित्सा",
+      "definition": "The process of determining the priority of patients' treatment",
+      "definationTranslation": "रोगियों के इलाज की प्राथमिकता का निर्धारण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The nurse performed triage on the injured patients.",
+          "translation": "नर्स ने घायल मरीजों पर त्रिस्तरीय चिकित्सा की।"
+        },
+        {
+          "sentence": "Triage is an important part of emergency care.",
+          "translation": "त्रिस्तरीय चिकित्सा आपातकालीन देखभाल का एक महत्वपूर्ण हिस्सा है।"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "phoneticRespelling": "TREET-muhnt",
+      "translation": "इलाज",
+      "definition": "The act of giving medical care to someone who is sick or injured",
+      "definationTranslation": "किसी बीमार या घायल व्यक्ति को चिकित्सा देखभाल प्रदान करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed treatment for my illness.",
+          "translation": "डॉक्टर ने मेरी बीमारी के लिए उपचार लिखा।"
+        },
+        {
+          "sentence": "The treatment was very effective.",
+          "translation": "उपचार बहुत प्रभावी था।"
+        }
+      ]
+    },
+    {
+      "word": "Trauma",
+      "phoneticRespelling": "TRAW-muh",
+      "translation": "आघात",
+      "definition": "A serious injury or shock to the body",
+      "definationTranslation": "शरीर को एक गंभीर चोट या झटका",
+      "sentence": [
+        {
+          "sentence": "The patient suffered a traumatic brain injury.",
+          "translation": "मरीज को मस्तिष्क की गंभीर चोट लगी।"
+        },
+        {
+          "sentence": "The trauma center is equipped to handle emergencies.",
+          "translation": "आघात केंद्र आपातकालीन स्थितियों को संभालने के लिए सुसज्जित है।"
+        }
+      ]
+    },
+    {
+      "word": "Urgent",
+      "phoneticRespelling": "UR-jent",
+      "translation": "तात्कालिक",
+      "definition": "Requiring immediate attention or action",
+      "definationTranslation": "तुरंत ध्यान या कार्रवाई की आवश्यकता",
+      "sentence": [
+        {
+          "sentence": "The situation is urgent and requires immediate attention.",
+          "translation": "स्थिति तात्कालिक है और तुरंत ध्यान देने की आवश्यकता है।"
+        },
+        {
+          "sentence": "The urgent care center is open 24 hours a day.",
+          "translation": "तात्कालिक देखभाल केंद्र दिन-रात 24 घंटे खुला रहता है।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccination",
+      "phoneticRespelling": "vak-si-NEY-shun",
+      "translation": "टीकाकरण",
+      "definition": "The act of giving someone a vaccine to prevent a disease",
+      "definationTranslation": "किसी को एक रोग को रोकने के लिए एक टीका देने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The vaccination is very important for children.",
+          "translation": "टीकाकरण बच्चों के लिए बहुत महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "I got a vaccination against the flu.",
+          "translation": "मैंने फ्लू के खिलाफ टीका लगवाया।"
+        }
+      ]
+    },
+    {
+      "word": "Wound",
+      "phoneticRespelling": "WOOND",
+      "translation": "चोट",
+      "definition": "An injury to the body, especially one that is cut or torn",
+      "definationTranslation": "शरीर को एक चोट, विशेष रूप से एक जो कटा या फटा हुआ है",
+      "sentence": [
+        {
+          "sentence": "The wound was infected and needed to be treated.",
+          "translation": "चोट संक्रमित थी और उसका इलाज करने की आवश्यकता थी।"
+        },
+        {
+          "sentence": "The doctor cleaned and bandaged the wound.",
+          "translation": "डॉक्टर ने चोट को साफ किया और पट्टी बांधी।"
+        }
+      ]
+    },
+    {
+      "word": "X-ray",
+      "phoneticRespelling": "EKS-rey",
+      "translation": "एक्स-रे",
+      "definition": "A photographic image of the inside of the body",
+      "definationTranslation": "शरीर के अंदर की एक फोटोग्राफिक छवि",
+      "sentence": [
+        {
+          "sentence": "The doctor ordered an X-ray to check for broken bones.",
+          "translation": "डॉक्टर ने टूटी हुई हड्डियों की जांच के लिए एक्स-रे का आदेश दिया।"
+        },
+        {
+          "sentence": "The X-ray showed a fracture in my ankle.",
+          "translation": "एक्स-रे में मेरे पैर के टखने में एक फ्रैक्चर दिखा।"
+        }
+      ]
+    },
+    {
+      "word": "Yellow Fever",
+      "phoneticRespelling": "YEL-oh FEE-vur",
+      "translation": "पीत ज्वर",
+      "definition": "A serious disease that is spread by mosquitoes",
+      "definationTranslation": "एक गंभीर बीमारी जो मच्छरों द्वारा फैलाई जाती है",
+      "sentence": [
+        {
+          "sentence": "Yellow fever is a serious disease that requires immediate attention.",
+          "translation": "पीत ज्वर एक गंभीर बीमारी है जिसके लिए तुरंत ध्यान देने की आवश्यकता है।"
+        },
+        {
+          "sentence": "The vaccine for yellow fever is very effective.",
+          "translation": "पीत ज्वर का टीका बहुत प्रभावी है।"
+        }
+      ]
+    },
+    {
+      "word": "Zinc",
+      "phoneticRespelling": "ZING-k",
+      "translation": "जस्ता",
+      "definition": "A mineral that is important for the body's immune system",
+      "definationTranslation": "एक खनिज जो शरीर की प्रतिरक्षा प्रणाली के लिए महत्वपूर्ण है",
+      "sentence": [
+        {
+          "sentence": "Zinc is an important mineral for the body's immune system.",
+          "translation": "जस्ता शरीर की प्रतिरक्षा प्रणाली के लिए एक महत्वपूर्ण खनिज है।"
+        },
+        {
+          "sentence": "I take zinc supplements to boost my immune system.",
+          "translation": "मैं अपनी प्रतिरक्षा प्रणाली को बढ़ाने के लिए जस्ता की खुराक लेता हूं।"
+        }
+      ]
+    }
+  ]
 }

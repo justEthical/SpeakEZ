@@ -1,4 +1,329 @@
 {
   "topic": "Product Design",
-  "words": []
+  "words": [
+    {
+      "word": "prototype",
+      "phoneticRespelling": "PROH-tuh-tahyp",
+      "translation": "प्रोटोटाइप",
+      "definition": "A preliminary model of a product or design",
+      "definationTranslation": "किसी उत्पाद या डिजाइन का प्रारंभिक मॉडल",
+      "sentence": [
+        {
+          "sentence": "The company created a prototype of their new smartphone to test its features.",
+          "translation": "कंपनी ने अपने नए स्मार्टफोन की विशेषताओं का परीक्षण करने के लिए एक प्रोटोटाइप बनाया।"
+        },
+        {
+          "sentence": "The designer built a prototype of the chair to see how it would look in the room.",
+          "translation": "डिजाइनर ने कमरे में इसकी देखभाल कैसे होगी यह देखने के लिए कुर्सी का एक प्रोटोटाइप बनाया।"
+        }
+      ]
+    },
+    {
+      "word": "aesthetic",
+      "phoneticRespelling": "es-THET-ik",
+      "translation": "सौंदर्य",
+      "definition": "Relating to the appreciation of beauty or taste",
+      "definationTranslation": "सौंदर्य या स्वाद की प्रशंसा से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The new product's aesthetic design made it stand out in the market.",
+          "translation": "नए उत्पाद का सौंदर्य डिजाइन इसे बाजार में अलग बनाता है।"
+        },
+        {
+          "sentence": "The company hired a designer to improve the aesthetic of their website.",
+          "translation": "कंपनी ने अपनी वेबसाइट के सौंदर्य को बेहतर बनाने के लिए एक डिजाइनर को काम पर रखा।"
+        }
+      ]
+    },
+    {
+      "word": "ergonomic",
+      "phoneticRespelling": "ur-guh-NAH-mik",
+      "translation": "मानव-सौम्य",
+      "definition": "Designed to reduce physical strain or discomfort",
+      "definationTranslation": "शारीरिक तनाव या असुविधा को कम करने के लिए डिज़ाइन किया गया",
+      "sentence": [
+        {
+          "sentence": "The ergonomic chair was designed to reduce back pain for office workers.",
+          "translation": "मानव-सौम्य कुर्सी को कार्यालय कर्मचारियों के लिए पीठ दर्द को कम करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company invested in ergonomic equipment to improve employee comfort.",
+          "translation": "कंपनी ने कर्मचारी आराम को बेहतर बनाने के लिए मानव-सौम्य उपकरण में निवेश किया।"
+        }
+      ]
+    },
+    {
+      "word": "sustainable",
+      "phoneticRespelling": "suh-STAY-nuh-buhl",
+      "translation": "स्थायी",
+      "definition": "Able to be maintained or supported without harm to the environment",
+      "definationTranslation": "पर्यावरण को नुकसान पहुंचाए बिना बनाए रखा या समर्थित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company aims to create sustainable products that reduce waste.",
+          "translation": "कंपनी का लक्ष्य अपशिष्ट को कम करने वाले स्थायी उत्पाद बनाना है।"
+        },
+        {
+          "sentence": "The new building was designed with sustainable materials and energy-efficient systems.",
+          "translation": "नए भवन को स्थायी सामग्री और ऊर्जा-कुशल प्रणालियों के साथ डिज़ाइन किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "interface",
+      "phoneticRespelling": "IN-tur-feys",
+      "translation": "इंटरफ़ेस",
+      "definition": "A point of interaction between two systems or devices",
+      "definationTranslation": "दो प्रणालियों या उपकरणों के बीच परस्पर क्रिया का बिंदु",
+      "sentence": [
+        {
+          "sentence": "The user interface of the new software was intuitive and easy to use.",
+          "translation": "नये सॉफ्टवेयर का उपयोगकर्ता इंटरफ़ेस सहज और उपयोग में आसान था।"
+        },
+        {
+          "sentence": "The company designed a new interface for their website to improve user experience.",
+          "translation": "कंपनी ने उपयोगकर्ता अनुभव को बेहतर बनाने के लिए अपनी वेबसाइट के लिए एक नया इंटरफ़ेस डिज़ाइन किया।"
+        }
+      ]
+    },
+    {
+      "word": "usability",
+      "phoneticRespelling": "yoo-zuh-BIL-i-tee",
+      "translation": "उपयोगिता",
+      "definition": "The quality of being easy to use or operate",
+      "definationTranslation": "आसानी से उपयोग या संचालित करने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The new product's usability was a major factor in its success.",
+          "translation": "नये उत्पाद की उपयोगिता उसकी सफलता का एक प्रमुख कारक था।"
+        },
+        {
+          "sentence": "The company conducted usability testing to improve the user experience of their website.",
+          "translation": "कंपनी ने अपनी वेबसाइट के उपयोगकर्ता अनुभव को बेहतर बनाने के लिए उपयोगिता परीक्षण किया।"
+        }
+      ]
+    },
+    {
+      "word": "iteration",
+      "phoneticRespelling": "i-tur-AY-shun",
+      "translation": "पुनरावृत्ति",
+      "definition": "A repeated process of refining or improving a design",
+      "definationTranslation": "एक डिजाइन को परिष्कृत या सुधारने की प्रक्रिया का पुनरावृत्ति",
+      "sentence": [
+        {
+          "sentence": "The design team went through several iterations before finalizing the product.",
+          "translation": "डिजाइन टीम ने उत्पाद को अंतिम रूप देने से पहले कई पुनरावृत्तियों से गुजरी।"
+        },
+        {
+          "sentence": "The company used an iterative approach to develop their new software.",
+          "translation": "कंपनी ने अपने नए सॉफ्टवेयर को विकसित करने के लिए एक पुनरावृत्तिपूर्ण दृष्टिकोण का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "innovation",
+      "phoneticRespelling": "in-uh-VAY-shun",
+      "translation": "नवाचार",
+      "definition": "The introduction of new or original ideas, methods, or products",
+      "definationTranslation": "नए या मौलिक विचारों, तरीकों या उत्पादों का परिचय",
+      "sentence": [
+        {
+          "sentence": "The company's innovation in technology led to the development of new products.",
+          "translation": "कंपनी की प्रौद्योगिकी में नवाचार ने नए उत्पादों के विकास को जन्म दिया।"
+        },
+        {
+          "sentence": "The innovation of the new material led to a breakthrough in the industry.",
+          "translation": "नए सामग्री का नवाचार उद्योग में एक सफलता को जन्म दिया।"
+        }
+      ]
+    },
+    {
+      "word": "mockup",
+      "phoneticRespelling": "MAH-kuhp",
+      "translation": "मॉकअप",
+      "definition": "A model or representation of a design or product",
+      "definationTranslation": "एक डिजाइन या उत्पाद का मॉडल या प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The designer created a mockup of the new website to show to the client.",
+          "translation": "डिजाइनर ने ग्राहक को दिखाने के लिए नए वेबसाइट का मॉकअप बनाया।"
+        },
+        {
+          "sentence": "The company used a mockup to test the usability of their new product.",
+          "translation": "कंपनी ने अपने नए उत्पाद की उपयोगिता का परीक्षण करने के लिए एक मॉकअप का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "rendering",
+      "phoneticRespelling": "REN-der-ing",
+      "translation": "प्रस्तुतिकरण",
+      "definition": "A visual representation of a design or product",
+      "definationTranslation": "एक डिजाइन या उत्पाद का दृश्य प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The architect created a rendering of the new building to show to the client.",
+          "translation": "वास्तुकार ने ग्राहक को दिखाने के लिए नए भवन का प्रस्तुतिकरण बनाया।"
+        },
+        {
+          "sentence": "The company used a rendering to visualize the new product's design.",
+          "translation": "कंपनी ने नए उत्पाद के डिजाइन को दृश्य化 करने के लिए एक प्रस्तुतिकरण का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "blueprint",
+      "phoneticRespelling": "BLOO-print",
+      "translation": "नीला निर्देश",
+      "definition": "A detailed plan or diagram of a design or product",
+      "definationTranslation": "एक डिजाइन या उत्पाद की विस्तृत योजना या आरेख",
+      "sentence": [
+        {
+          "sentence": "The engineer created a blueprint of the new machine to guide its construction.",
+          "translation": "इंजीनियर ने नए मशीन के निर्माण के लिए एक नीला निर्देश बनाया।"
+        },
+        {
+          "sentence": "The company used a blueprint to plan the layout of their new office.",
+          "translation": "कंपनी ने अपने नए कार्यालय के लेआउट की योजना बनाने के लिए एक नीला निर्देश का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "layout",
+      "phoneticRespelling": "LAY-owt",
+      "translation": "लेआउट",
+      "definition": "The way in which something is arranged or organized",
+      "definationTranslation": "किसी चीज़ को व्यवस्थित या आयोजित करने का तरीका",
+      "sentence": [
+        {
+          "sentence": "The designer created a layout for the new website to improve user experience.",
+          "translation": "डिजाइनर ने उपयोगकर्ता अनुभव को बेहतर बनाने के लिए नए वेबसाइट के लिए एक लेआउट बनाया।"
+        },
+        {
+          "sentence": "The company used a layout to plan the arrangement of their new store.",
+          "translation": "कंपनी ने अपने नए स्टोर के लेआउट की योजना बनाने के लिए एक लेआउट का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "typography",
+      "phoneticRespelling": "tah-POG-ruh-fee",
+      "translation": "टाइपोग्राफी",
+      "definition": "The art or technique of arranging type in a visually appealing way",
+      "definationTranslation": "प्रकार को दृश्य रूप से आकर्षक तरीके से व्यवस्थित करने की कला या तकनीक",
+      "sentence": [
+        {
+          "sentence": "The designer used typography to make the text more readable.",
+          "translation": "डिजाइनर ने पाठ को अधिक पठनीय बनाने के लिए टाइपोग्राफी का उपयोग किया।"
+        },
+        {
+          "sentence": "The company used typography to create a visually appealing logo.",
+          "translation": "कंपनी ने दृश्य रूप से आकर्षक लोगो बनाने के लिए टाइपोग्राफी का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "iconic",
+      "phoneticRespelling": "ahy-KAH-nik",
+      "translation": "प्रतीकात्मक",
+      "definition": "Representing or symbolizing something, especially a concept or idea",
+      "definationTranslation": "किसी चीज़ का प्रतिनिधित्व करना या प्रतीक करना, विशेष रूप से एक अवधारणा या विचार",
+      "sentence": [
+        {
+          "sentence": "The iconic logo of the company is recognized worldwide.",
+          "translation": "कंपनी का प्रतीकात्मक लोगो दुनिया भर में मान्यता प्राप्त है।"
+        },
+        {
+          "sentence": "The designer created an iconic design for the new product.",
+          "translation": "डिजाइनर ने नए उत्पाद के लिए एक प्रतीकात्मक डिजाइन बनाया।"
+        }
+      ]
+    },
+    {
+      "word": "minimalist",
+      "phoneticRespelling": "MIN-uh-muh-list",
+      "translation": "न्यूनतमवादी",
+      "definition": "Having or characterized by a minimal amount of decoration or ornamentation",
+      "definationTranslation": "न्यूनतम सजावट या अलंकरण की मात्रा होना या इसकी विशेषता होना",
+      "sentence": [
+        {
+          "sentence": "The minimalist design of the new product made it stand out.",
+          "translation": "नए उत्पाद का न्यूनतमवादी डिजाइन इसे अलग बनाता है।"
+        },
+        {
+          "sentence": "The company used a minimalist approach to design their new website.",
+          "translation": "कंपनी ने अपनी नई वेबसाइट को डिज़ाइन करने के लिए एक न्यूनतमवादी दृष्टिकोण का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "accessibility",
+      "phoneticRespelling": "ak-ses-uh-BIL-i-tee",
+      "translation": "सुलभता",
+      "definition": "The quality of being easy to reach or use",
+      "definationTranslation": "पहुंचने या उपयोग करने में आसानी की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The new website's accessibility features made it easy for everyone to use.",
+          "translation": "नयी वेबसाइट की सुलभता सुविधाएं इसे हर किसी के लिए उपयोग करना आसान बनाती हैं।"
+        },
+        {
+          "sentence": "The company improved the accessibility of their product for people with disabilities.",
+          "translation": "कंपनी ने विकलांग लोगों के लिए अपने उत्पाद की सुलभता में सुधार किया।"
+        }
+      ]
+    },
+    {
+      "word": "compatibility",
+      "phoneticRespelling": "kam-pat-uh-BIL-i-tee",
+      "translation": "संगतता",
+      "definition": "The quality of being able to work or function together",
+      "definationTranslation": "साथ में काम करने या कार्य करने में सक्षम होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The new software's compatibility with other programs was a major selling point.",
+          "translation": "नए सॉफ्टवेयर की अन्य कार्यक्रमों के साथ संगतता एक प्रमुख बिक्री बिंदु थी।"
+        },
+        {
+          "sentence": "The company ensured the compatibility of their product with different devices.",
+          "translation": "कंपनी ने अपने उत्पाद की विभिन्न उपकरणों के साथ संगतता सुनिश्चित की।"
+        }
+      ]
+    },
+    {
+      "word": "responsive",
+      "phoneticRespelling": "ri-SPON-siv",
+      "translation": "प्रतिक्रियाशील",
+      "definition": "Able to respond quickly and effectively to a situation or stimulus",
+      "definationTranslation": "एक स्थिति या उत्तेजना के लिए जल्दी और प्रभावी ढंग से प्रतिक्रिया देने में सक्षम",
+      "sentence": [
+        {
+          "sentence": "The company's responsive website design made it easy to navigate on mobile devices.",
+          "translation": "कंपनी का प्रतिक्रियाशील वेबसाइट डिजाइन मोबाइल डिवाइस पर नेविगेट करना आसान बनाता है।"
+        },
+        {
+          "sentence": "The designer created a responsive layout for the new application.",
+          "translation": "डिजाइनर ने नए अनुप्रयोग के लिए एक प्रतिक्रियाशील लेआउट बनाया।"
+        }
+      ]
+    },
+    {
+      "word": "scalability",
+      "phoneticRespelling": "SKAY-luh-bil-i-tee",
+      "translation": "मापनीयता",
+      "definition": "The ability of a system or product to handle increased load or demand",
+      "definationTranslation": "एक प्रणाली या उत्पाद की बढ़ी हुई लोड या मांग को संभालने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company's scalable software solution helped them grow their business.",
+          "translation": "कंपनी का मापनीय सॉफ्टवेयर समाधान उन्हें अपना व्यवसाय बढ़ाने में मदद करता है।"
+        },
+        {
+          "sentence": "The designer created a scalable design for the new website to accommodate growing traffic.",
+          "translation": "डिजाइनर ने बढ़ती हुई ट्रैफिक को समायोजित करने के लिए नए वेबसाइट के लिए एक मापनीय डिजाइन बनाया।"
+        }
+      ]
+    }
+  ],
+  "_warning": "Requested 20 words but got 19."
 }

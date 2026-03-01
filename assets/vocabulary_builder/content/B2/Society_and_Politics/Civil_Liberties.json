@@ -1,4 +1,413 @@
 {
   "topic": "Civil Liberties",
-  "words": []
+  "words": [
+    {
+      "word": "Freedom",
+      "phoneticRespelling": "FREED-uhm",
+      "translation": "आजादी",
+      "definition": "The state of being able to act and make decisions without being controlled by anyone else",
+      "definationTranslation": "किसी और के द्वारा नियंत्रित किए बिना कार्य करने और निर्णय लेने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The country values freedom of speech and expression.",
+          "translation": "देश भाषण और अभिव्यक्ति की स्वतंत्रता को महत्व देता है।"
+        },
+        {
+          "sentence": "The new law aims to increase individual freedom and autonomy.",
+          "translation": "नया कानून व्यक्तिगत स्वतंत्रता और स्वायत्तता को बढ़ाने का उद्देश्य है।"
+        }
+      ]
+    },
+    {
+      "word": "Equality",
+      "phoneticRespelling": "ih-KWOL-uh-tee",
+      "translation": "समानता",
+      "definition": "The state of being equal in status, rights, and opportunities",
+      "definationTranslation": "स्थिति, अधिकारों और अवसरों में समान होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The constitution guarantees equality before the law for all citizens.",
+          "translation": "संविधान सभी नागरिकों के लिए कानून के समक्ष समानता की गारंटी देता है।"
+        },
+        {
+          "sentence": "The company promotes equality and diversity in the workplace.",
+          "translation": "कंपनी कार्यस्थल में समानता और विविधता को बढ़ावा देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Justice",
+      "phoneticRespelling": "JUH-stis",
+      "translation": "न्याय",
+      "definition": "The quality of being just and fair in all dealings",
+      "definationTranslation": "सभी लेन-देन में न्यायपूर्ण और निष्पक्ष होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The court is committed to upholding justice and fairness.",
+          "translation": "न्यायालय न्याय और निष्पक्षता को बनाए रखने के लिए प्रतिबद्ध है।"
+        },
+        {
+          "sentence": "The human rights organization fights for justice and equality.",
+          "translation": "मानवाधिकार संगठन न्याय और समानता के लिए लड़ता है।"
+        }
+      ]
+    },
+    {
+      "word": "Rights",
+      "phoneticRespelling": "RAITS",
+      "translation": "अधिकार",
+      "definition": "A moral or legal entitlement to have or do something",
+      "definationTranslation": "कुछ करने या प्राप्त करने के लिए एक नैतिक या कानूनी अधिकार",
+      "sentence": [
+        {
+          "sentence": "The Universal Declaration of Human Rights outlines fundamental rights and freedoms.",
+          "translation": "मानवाधिकार की सार्वभौम घोषणा में मौलिक अधिकारों और स्वतंत्रताओं का वर्णन किया गया है।"
+        },
+        {
+          "sentence": "The government is responsible for protecting the rights of its citizens.",
+          "translation": "सरकार अपने नागरिकों के अधिकारों की रक्षा के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Democracy",
+      "phoneticRespelling": "dih-MAH-kruh-see",
+      "translation": "लोकतंत्र",
+      "definition": "A system of government in which power is held by the people",
+      "definationTranslation": "एक सरकार प्रणाली जिसमें शक्ति लोगों के पास है",
+      "sentence": [
+        {
+          "sentence": "The country is a democracy, where citizens have the right to vote.",
+          "translation": "देश एक लोकतंत्र है, जहां नागरिकों के पास वोट देने का अधिकार है।"
+        },
+        {
+          "sentence": "Democracy ensures that power is distributed equally among all citizens.",
+          "translation": "लोकतंत्र सुनिश्चित करता है कि शक्ति सभी नागरिकों के बीच समान रूप से वितरित की जाती है।"
+        }
+      ]
+    },
+    {
+      "word": "Constitution",
+      "phoneticRespelling": "kahn-stuh-TOO-shuhn",
+      "translation": "संविधान",
+      "definition": "The fundamental law of a country or state",
+      "definationTranslation": "एक देश या राज्य का मूल कानून",
+      "sentence": [
+        {
+          "sentence": "The constitution outlines the framework of the government.",
+          "translation": "संविधान सरकार के ढांचे को परिभाषित करता है।"
+        },
+        {
+          "sentence": "The supreme court interprets the constitution and ensures its implementation.",
+          "translation": "सुप्रीम कोर्ट संविधान की व्याख्या करता है और इसके कार्यान्वयन को सुनिश्चित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Liberty",
+      "phoneticRespelling": "LIB-ur-tee",
+      "translation": "स्वतंत्रता",
+      "definition": "The state of being free from oppressive restrictions",
+      "definationTranslation": "दमनकारी प्रतिबंधों से मुक्त होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The statue of liberty symbolizes freedom and democracy.",
+          "translation": "स्वतंत्रता की मूर्ति स्वतंत्रता और लोकतंत्र का प्रतीक है।"
+        },
+        {
+          "sentence": "The country values individual liberty and autonomy.",
+          "translation": "देश व्यक्तिगत स्वतंत्रता और स्वायत्तता को महत्व देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "sih-KYOO-ruh-tee",
+      "translation": "सुरक्षा",
+      "definition": "The state of being protected from harm or danger",
+      "definationTranslation": "नुकसान या खतरे से सुरक्षित होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The government is responsible for providing national security.",
+          "translation": "सरकार राष्ट्रीय सुरक्षा प्रदान करने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The company ensures the security and privacy of its customers' data.",
+          "translation": "कंपनी अपने ग्राहकों के डेटा की सुरक्षा और गोपनीयता सुनिश्चित करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Tolerance",
+      "phoneticRespelling": "TAH-luh-rin-suh",
+      "translation": "सहिष्णुता",
+      "definition": "The ability to accept and respect different opinions and beliefs",
+      "definationTranslation": "विभिन्न मतों और विश्वासों को स्वीकार करने और सम्मान करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The teacher promoted tolerance and understanding among her students.",
+          "translation": "शिक्षिका ने अपने छात्रों के बीच सहिष्णुता और समझ को बढ़ावा दिया।"
+        },
+        {
+          "sentence": "The city is known for its tolerance and acceptance of diversity.",
+          "translation": "शहर अपनी विविधता की सहिष्णुता और स्वीकृति के लिए जाना जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Discrimination",
+      "phoneticRespelling": "dis-krim-uh-NAY-shuhn",
+      "translation": "भेदभाव",
+      "definition": "The act of treating someone unfairly because of their race, gender, or other characteristics",
+      "definationTranslation": "किसी को उनकी जाति, लिंग, या अन्य विशेषताओं के कारण अनुचित तरीके से व्यवहार करना",
+      "sentence": [
+        {
+          "sentence": "The company has a zero-tolerance policy towards discrimination.",
+          "translation": "कंपनी भेदभाव के प्रति शून्य-सहिष्णुता नीति का पालन करती है।"
+        },
+        {
+          "sentence": "The government is working to eliminate discrimination against minorities.",
+          "translation": "सरकार अल्पसंख्यकों के खिलाफ भेदभाव को समाप्त करने का काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Prejudice",
+      "phoneticRespelling": "PREH-jhuh-dis",
+      "translation": "पूर्वाग्रह",
+      "definition": "A preconceived opinion or attitude, often based on stereotypes",
+      "definationTranslation": "एक पूर्व-निर्धारित राय या दृष्टिकोण, अक्सर रूढ़िवादिता पर आधारित",
+      "sentence": [
+        {
+          "sentence": "The teacher tried to overcome her prejudice against the new student.",
+          "translation": "शिक्षिका ने नए छात्र के प्रति अपने पूर्वाग्रह को दूर करने की कोशिश की।"
+        },
+        {
+          "sentence": "The media often perpetuates prejudice and stereotypes.",
+          "translation": "मीडिया अक्सर पूर्वाग्रह और रूढ़िवादिता को बढ़ावा देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Stereotype",
+      "phoneticRespelling": "STER-ee-uh-tahyp",
+      "translation": "रूढ़िवादिता",
+      "definition": "A fixed, oversimplified image or idea of a person or group",
+      "definationTranslation": "एक व्यक्ति या समूह की एक स्थिर, अति साधारण छवि या विचार",
+      "sentence": [
+        {
+          "sentence": "The movie challenged common stereotypes about women.",
+          "translation": "फिल्म ने महिलाओं के बारे में आम रूढ़िवादिता को चुनौती दी।"
+        },
+        {
+          "sentence": "The company is working to break down stereotypes in the workplace.",
+          "translation": "कंपनी कार्यस्थल में रूढ़िवादिता को तोड़ने का काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Privilege",
+      "phoneticRespelling": "PRIV-uh-lej",
+      "translation": "विशेषाधिकार",
+      "definition": "A special right or advantage granted to a particular person or group",
+      "definationTranslation": "एक विशेष व्यक्ति या समूह को दिया गया एक विशेष अधिकार या लाभ",
+      "sentence": [
+        {
+          "sentence": "The royal family has many privileges and immunities.",
+          "translation": "शाही परिवार के पास कई विशेषाधिकार और प्रतिरक्षाएं हैं।"
+        },
+        {
+          "sentence": "The company offers privileges to its loyal customers.",
+          "translation": "कंपनी अपने वफादार ग्राहकों को विशेषाधिकार प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Oppression",
+      "phoneticRespelling": "uh-PRE-shuhn",
+      "translation": "उत्पीड़न",
+      "definition": "The state of being subject to harsh and unfair treatment",
+      "definationTranslation": "कठोर और अनुचित व्यवहार के अधीन होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The people rose up against the oppression of the dictator.",
+          "translation": "लोग तानाशाह के उत्पीड़न के खिलाफ उठ खड़े हुए।"
+        },
+        {
+          "sentence": "The organization works to end oppression and promote human rights.",
+          "translation": "संगठन उत्पीड़न को समाप्त करने और मानवाधिकारों को बढ़ावा देने का काम करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Empowerment",
+      "phoneticRespelling": "em-POH-er-muhnt",
+      "translation": "सशक्तिकरण",
+      "definition": "The process of gaining control and confidence",
+      "definationTranslation": "नियंत्रण और आत्मविश्वास प्राप्त करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The program aims to empower women and girls through education.",
+          "translation": "कार्यक्रम शिक्षा के माध्यम से महिलाओं और लड़कियों को सशक्त बनाने का उद्देश्य है।"
+        },
+        {
+          "sentence": "The company's mission is to empower its employees to make decisions.",
+          "translation": "कंपनी का मिशन अपने कर्मचारियों को निर्णय लेने के लिए सशक्त बनाना है।"
+        }
+      ]
+    },
+    {
+      "word": "Accountability",
+      "phoneticRespelling": "uh-koun-tuh-BIL-uh-tee",
+      "translation": "जिम्मेदारी",
+      "definition": "The state of being responsible and answerable for one's actions",
+      "definationTranslation": "जिम्मेदार और अपने कार्यों के लिए उत्तरदायी होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The government is accountable to the people for its actions.",
+          "translation": "सरकार अपने कार्यों के लिए लोगों के प्रति जवाबदेह है।"
+        },
+        {
+          "sentence": "The company emphasizes accountability and transparency in its operations.",
+          "translation": "कंपनी अपने संचालन में जिम्मेदारी और पारदर्शिता पर जोर देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Transparency",
+      "phoneticRespelling": "trans-PAYR-uh-see",
+      "translation": "पारदर्शिता",
+      "definition": "The state of being open and honest in all dealings",
+      "definationTranslation": "सभी लेन-देन में खुला और ईमानदार होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company values transparency in its business practices.",
+          "translation": "कंपनी अपनी व्यावसायिक प्रथाओं में पारदर्शिता को महत्व देती है।"
+        },
+        {
+          "sentence": "The government is working to increase transparency in its decision-making process.",
+          "translation": "सरकार अपनी निर्णय लेने की प्रक्रिया में पारदर्शिता बढ़ाने का काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Activism",
+      "phoneticRespelling": "AK-ti-viz-uhm",
+      "translation": "कार्यकर्ता",
+      "definition": "The practice of actively working to promote social change",
+      "definationTranslation": "सामाजिक परिवर्तन को बढ़ावा देने के लिए सक्रिय रूप से काम करने की प्रथा",
+      "sentence": [
+        {
+          "sentence": "The environmental activist group is fighting to protect the forest.",
+          "translation": "पर्यावरणवादी समूह वन की रक्षा के लिए लड़ रहा है।"
+        },
+        {
+          "sentence": "The student became involved in activism to promote social justice.",
+          "translation": "छात्र सामाजिक न्याय को बढ़ावा देने के लिए सक्रियता में शामिल हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Legislation",
+      "phoneticRespelling": "lej-is-LAY-shuhn",
+      "translation": "विधायीकरण",
+      "definition": "The process of making or enacting laws",
+      "definationTranslation": "कानून बनाने या अधिनियमित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The government is working on new legislation to protect the environment.",
+          "translation": "सरकार पर्यावरण की रक्षा के लिए नए विधायीकरण पर काम कर रही है।"
+        },
+        {
+          "sentence": "The company is lobbying for legislation that benefits its industry.",
+          "translation": "कंपनी अपने उद्योग को लाभान्वित करने वाले विधायीकरण के लिए समर्थन कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Policy",
+      "phoneticRespelling": "POL-uh-see",
+      "translation": "नीति",
+      "definition": "A set of principles or rules that guide decisions and actions",
+      "definationTranslation": "निर्णयों और कार्यों को मार्गदर्शन देने वाले सिद्धांतों या नियमों का सेट",
+      "sentence": [
+        {
+          "sentence": "The company's policy is to prioritize customer satisfaction.",
+          "translation": "कंपनी की नीति ग्राहक संतुष्टि को प्राथमिकता देना है।"
+        },
+        {
+          "sentence": "The government is reviewing its policy on immigration.",
+          "translation": "सरकार अपनी आव्रजन नीति की समीक्षा कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Citizenship",
+      "phoneticRespelling": "SIT-uh-zuhn-ship",
+      "translation": "नागरिकता",
+      "definition": "The state of being a citizen of a country",
+      "definationTranslation": "एक देश का नागरिक होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The new law grants citizenship to refugees.",
+          "translation": "नया कानून शरणार्थियों को नागरिकता प्रदान करता है।"
+        },
+        {
+          "sentence": "The company offers citizenship programs to its employees.",
+          "translation": "कंपनी अपने कर्मचारियों को नागरिकता कार्यक्रम प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Participation",
+      "phoneticRespelling": "pahr-tuh-suh-PAY-shuhn",
+      "translation": "भागीदारी",
+      "definition": "The act of taking part or sharing in something",
+      "definationTranslation": "कुछ में भाग लेने या भागीदार होने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The company encourages employee participation in decision-making.",
+          "translation": "कंपनी निर्णय लेने में कर्मचारी भागीदारी को प्रोत्साहित करती है।"
+        },
+        {
+          "sentence": "The government promotes public participation in the democratic process.",
+          "translation": "सरकार लोकतांत्रिक प्रक्रिया में सार्वजनिक भागीदारी को बढ़ावा देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Pluralism",
+      "phoneticRespelling": "PLOO-ruh-liz-uhm",
+      "translation": "बहुलवाद",
+      "definition": "The state of having multiple cultures, beliefs, or identities",
+      "definationTranslation": "एक से अधिक संस्कृतियों, विश्वासों या पहचानों की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The city celebrates its pluralism with a festival of cultures.",
+          "translation": "शहर एक संस्कृति समारोह के साथ अपने बहुलवाद का जश्न मनाता है।"
+        },
+        {
+          "sentence": "The company values pluralism and diversity in the workplace.",
+          "translation": "कंपनी कार्यस्थल में बहुलवाद और विविधता को महत्व देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Inclusion",
+      "phoneticRespelling": "in-KLOO-zhuhn",
+      "translation": "समावेशन",
+      "definition": "The state of being included or made part of something",
+      "definationTranslation": "कुछ का हिस्सा होने या बनाए जाने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company promotes inclusion and diversity in the workplace.",
+          "translation": "कंपनी कार्यस्थल में समावेशन और विविधता को बढ़ावा देती है।"
+        },
+        {
+          "sentence": "The government is working to increase inclusion for people with disabilities.",
+          "translation": "सरकार विकलांग लोगों के लिए समावेशन को बढ़ाने का काम कर रही है।"
+        }
+      ]
+    }
+  ]
 }

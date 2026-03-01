@@ -1,4 +1,328 @@
 {
   "topic": "Chronic Illness",
-  "words": []
+  "words": [
+    {
+      "word": "Diabetes",
+      "phoneticRespelling": "dy-uh-BEE-teez",
+      "translation": "मधुमेह",
+      "definition": "A chronic condition where the body's ability to produce or respond to insulin is impaired",
+      "definationTranslation": "एक पुरानी स्थिति जहां शरीर की इंसुलिन का उत्पादन या प्रतिक्रिया करने की क्षमता बाधित हो जाती है",
+      "sentence": [
+        {
+          "sentence": "Diabetes is a chronic illness that requires regular monitoring and treatment",
+          "translation": "मधुमेह एक पुरानी बीमारी है जिसके लिए नियमित निगरानी और उपचार की आवश्यकता होती है"
+        },
+        {
+          "sentence": "If left untreated, diabetes can lead to serious complications",
+          "translation": "अगर इसका इलाज नहीं किया जाता है, तो मधुमेह गंभीर जटिलताओं का कारण बन सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Hypertension",
+      "phoneticRespelling": "hy-pur-TEHN-shun",
+      "translation": "उच्च रक्तचाप",
+      "definition": "A chronic condition where the blood pressure is consistently too high",
+      "definationTranslation": "एक पुरानी स्थिति जहां रक्तचाप लगातार बहुत अधिक होता है",
+      "sentence": [
+        {
+          "sentence": "Hypertension is a common chronic illness that can increase the risk of heart disease",
+          "translation": "उच्च रक्तचाप एक सामान्य पुरानी बीमारी है जो हृदय रोग के खतरे को बढ़ा सकती है"
+        },
+        {
+          "sentence": "Regular exercise and a healthy diet can help manage hypertension",
+          "translation": "नियमित व्यायाम और स्वस्थ आहार उच्च रक्तचाप को नियंत्रित करने में मदद कर सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Arthritis",
+      "phoneticRespelling": "ar-THRY-tis",
+      "translation": "गठिया",
+      "definition": "A chronic condition that causes inflammation and pain in the joints",
+      "definationTranslation": "एक पुरानी स्थिति जो जोड़ों में सूजन और दर्द का कारण बनती है",
+      "sentence": [
+        {
+          "sentence": "Arthritis is a chronic illness that can make everyday activities difficult",
+          "translation": "गठिया एक पुरानी बीमारी है जो दैनिक गतिविधियों को मुश्किल बना सकती है"
+        },
+        {
+          "sentence": "There are many types of arthritis, including osteoarthritis and rheumatoid arthritis",
+          "translation": "गठिया के कई प्रकार होते हैं, जिनमें ऑस्टियोआर्थराइटिस और रुमेटीइड गठिया शामिल हैं"
+        }
+      ]
+    },
+    {
+      "word": "Epilepsy",
+      "phoneticRespelling": "EP-uh-leh-see",
+      "translation": "मिर्गी",
+      "definition": "A chronic condition that causes seizures and affects the brain's electrical activity",
+      "definationTranslation": "एक पुरानी स्थिति जो दौरे का कारण बनती है और मस्तिष्क की विद्युत गतिविधि को प्रभावित करती है",
+      "sentence": [
+        {
+          "sentence": "Epilepsy is a chronic illness that can be controlled with medication and lifestyle changes",
+          "translation": "मिर्गी एक पुरानी बीमारी है जो दवा और जीवनशैली में बदलाव के साथ नियंत्रित की जा सकती है"
+        },
+        {
+          "sentence": "People with epilepsy can lead active and independent lives with proper treatment",
+          "translation": "उचित उपचार के साथ, मिर्गी से पीड़ित लोग सक्रिय और स्वतंत्र जीवन जी सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Asthma",
+      "phoneticRespelling": "AZ-muh",
+      "translation": "दमा",
+      "definition": "A chronic condition that causes inflammation and constriction of the airways",
+      "definationTranslation": "एक पुरानी स्थिति जो वायुमार्ग में सूजन और संकीर्णता का कारण बनती है",
+      "sentence": [
+        {
+          "sentence": "Asthma is a chronic illness that can be managed with medication and avoidance of triggers",
+          "translation": "दमा एक पुरानी बीमारी है जो दवा और ट्रिगर्स से बचाव के साथ प्रबंधित की जा सकती है"
+        },
+        {
+          "sentence": "People with asthma should always carry an inhaler with them in case of an emergency",
+          "translation": "दमा से पीड़ित लोगों को हमेशा अपने साथ एक इनहेलर रखकर अपातकालीन स्थिति के लिए तैयार रहना चाहिए"
+        }
+      ]
+    },
+    {
+      "word": "Multiple Sclerosis",
+      "phoneticRespelling": "MUL-ti-pul skluh-ROH-sis",
+      "translation": "बहुसंख्यक शैथ्य",
+      "definition": "A chronic condition that affects the central nervous system and causes symptoms such as numbness and vision loss",
+      "definationTranslation": "एक पुरानी स्थिति जो केंद्रीय तंत्रिका तंत्र को प्रभावित करती है और सुन्नता और दृष्टि हानि जैसे लक्षण पैदा करती है",
+      "sentence": [
+        {
+          "sentence": "Multiple sclerosis is a chronic illness that can cause a range of symptoms, from mild to severe",
+          "translation": "बहुसंख्यक शैथ्य एक पुरानी बीमारी है जो हल्के से लेकर गंभीर तक के लक्षण पैदा कर सकती है"
+        },
+        {
+          "sentence": "There is currently no cure for multiple sclerosis, but treatment can help manage symptoms",
+          "translation": "वर्तमान में बहुसंख्यक शैथ्य का कोई इलाज नहीं है, लेकिन उपचार लक्षणों को नियंत्रित करने में मदद कर सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Cystic Fibrosis",
+      "phoneticRespelling": "SIS-tik FY-broh-sis",
+      "translation": "सिस्टिक फाइब्रोसिस",
+      "definition": "A chronic condition that causes thick, sticky mucus to build up in the lungs and digestive tract",
+      "definationTranslation": "एक पुरानी स्थिति जो फेफड़ों और पाचन तंत्र में गाढ़ा, चिपचिपा कफ जमा करती है",
+      "sentence": [
+        {
+          "sentence": "Cystic fibrosis is a chronic illness that requires regular medical care and treatment",
+          "translation": "सिस्टिक फाइब्रोसिस एक पुरानी बीमारी है जिसके लिए नियमित चिकित्सा देखभाल और उपचार की आवश्यकता होती है"
+        },
+        {
+          "sentence": "People with cystic fibrosis often experience respiratory and digestive problems",
+          "translation": "सिस्टिक फाइब्रोसिस से पीड़ित लोग अक्सर श्वसन और पाचन समस्याओं का अनुभव करते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Lupus",
+      "phoneticRespelling": "LOO-pus",
+      "translation": "लूपस",
+      "definition": "A chronic condition that causes inflammation and damage to various parts of the body, including the skin, joints, and organs",
+      "definationTranslation": "एक पुरानी स्थिति जो शरीर के विभिन्न भागों में सूजन और क्षति का कारण बनती है, जिनमें त्वचा, जोड़ और अंग शामिल हैं",
+      "sentence": [
+        {
+          "sentence": "Lupus is a chronic illness that can be difficult to diagnose and treat",
+          "translation": "लूपस एक पुरानी बीमारी है जिसका निदान और उपचार करना मुश्किल हो सकता है"
+        },
+        {
+          "sentence": "Women are more likely to develop lupus than men, and it often affects people of African American, Hispanic, and Asian descent",
+          "translation": "महिलाओं में लूपस विकसित होने की संभावना पुरुषों की तुलना में अधिक होती है, और यह अक्सर अफ्रीकी अमेरिकी, हिस्पैनिक और एशियाई मूल के लोगों को प्रभावित करता है"
+        }
+      ]
+    },
+    {
+      "word": "Parkinson's Disease",
+      "phoneticRespelling": "PAR-kin-sunz dih-ZEEZ",
+      "translation": "पार्किंसन रोग",
+      "definition": "A chronic condition that affects movement and coordination, causing symptoms such as tremors and rigidity",
+      "definationTranslation": "एक पुरानी स्थिति जो गति और समन्वय को प्रभावित करती है, जो कि कंपकंपी और कठोरता जैसे लक्षण पैदा करती है",
+      "sentence": [
+        {
+          "sentence": "Parkinson's disease is a chronic illness that can cause significant disability and impairment",
+          "translation": "पार्किंसन रोग एक पुरानी बीमारी है जो महत्वपूर्ण विकलांगता और हानि का कारण बन सकती है"
+        },
+        {
+          "sentence": "There is currently no cure for Parkinson's disease, but treatment can help manage symptoms and slow disease progression",
+          "translation": "वर्तमान में पार्किंसन रोग का कोई इलाज नहीं है, लेकिन उपचार लक्षणों को नियंत्रित करने और बीमारी की प्रगति को धीमा करने में मदद कर सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Chronic Pain",
+      "phoneticRespelling": "KRON-ik PAYN",
+      "translation": "पुराना दर्द",
+      "definition": "A chronic condition that causes persistent pain that can interfere with daily life and activities",
+      "definationTranslation": "एक पुरानी स्थिति जो लगातार दर्द का कारण बनती है जो दैनिक जीवन और गतिविधियों में हस्तक्षेप कर सकती है",
+      "sentence": [
+        {
+          "sentence": "Chronic pain is a chronic illness that can be managed with medication, therapy, and lifestyle changes",
+          "translation": "पुराना दर्द एक पुरानी बीमारी है जो दवा, चिकित्सा और जीवनशैली में बदलाव के साथ प्रबंधित की जा सकती है"
+        },
+        {
+          "sentence": "People with chronic pain often experience emotional and mental health issues, such as depression and anxiety",
+          "translation": "पुराने दर्द से पीड़ित लोग अक्सर भावनात्मक और मानसिक स्वास्थ्य समस्याओं का अनुभव करते हैं, जैसे कि अवसाद और चिंता"
+        }
+      ]
+    },
+    {
+      "word": "Kidney Disease",
+      "phoneticRespelling": "KID-nee dih-ZEEZ",
+      "translation": "गुर्दे की बीमारी",
+      "definition": "A chronic condition that causes damage to the kidneys and can lead to kidney failure",
+      "definationTranslation": "एक पुरानी स्थिति जो गुर्दे को नुकसान पहुंचाती है और गुर्दे की विफलता का कारण बन सकती है",
+      "sentence": [
+        {
+          "sentence": "Kidney disease is a chronic illness that can be managed with medication, diet, and lifestyle changes",
+          "translation": "गुर्दे की बीमारी एक पुरानी बीमारी है जो दवा, आहार और जीवनशैली में बदलाव के साथ प्रबंधित की जा सकती है"
+        },
+        {
+          "sentence": "People with kidney disease often require dialysis or a kidney transplant to survive",
+          "translation": "गुर्दे की बीमारी से पीड़ित लोग अक्सर जीवित रहने के लिए डायलिसिस या गुर्दे प्रत्यारोपण की आवश्यकता होती है"
+        }
+      ]
+    },
+    {
+      "word": "Liver Disease",
+      "phoneticRespelling": "LIV-er dih-ZEEZ",
+      "translation": "यकृत रोग",
+      "definition": "A chronic condition that causes damage to the liver and can lead to liver failure",
+      "definationTranslation": "एक पुरानी स्थिति जो यकृत को नुकसान पहुंचाती है और यकृत विफलता का कारण बन सकती है",
+      "sentence": [
+        {
+          "sentence": "Liver disease is a chronic illness that can be managed with medication, diet, and lifestyle changes",
+          "translation": "यकृत रोग एक पुरानी बीमारी है जो दवा, आहार और जीवनशैली में बदलाव के साथ प्रबंधित की जा सकती है"
+        },
+        {
+          "sentence": "People with liver disease often require a liver transplant to survive",
+          "translation": "यकृत रोग से पीड़ित लोग अक्सर जीवित रहने के लिए यकृत प्रत्यारोपण की आवश्यकता होती है"
+        }
+      ]
+    },
+    {
+      "word": "Heart Failure",
+      "phoneticRespelling": "HART FAYL-yur",
+      "translation": "हृदय विफलता",
+      "definition": "A chronic condition that causes the heart to become unable to pump enough blood to meet the body's needs",
+      "definationTranslation": "एक पुरानी स्थिति जो हृदय को पर्याप्त रक्त पंप करने में असमर्थ बना देती है जो शरीर की जरूरतों को पूरा करने के लिए आवश्यक है",
+      "sentence": [
+        {
+          "sentence": "Heart failure is a chronic illness that can be managed with medication, lifestyle changes, and medical devices",
+          "translation": "हृदय विफलता एक पुरानी बीमारी है जो दवा, जीवनशैली में बदलाव और चिकित्सा उपकरणों के साथ प्रबंधित की जा सकती है"
+        },
+        {
+          "sentence": "People with heart failure often experience symptoms such as shortness of breath and fatigue",
+          "translation": "हृदय विफलता से पीड़ित लोग अक्सर सांस फूलने और थकान जैसे लक्षणों का अनुभव करते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Stroke",
+      "phoneticRespelling": "STROHK",
+      "translation": "पक्षाघात",
+      "definition": "A chronic condition that occurs when the blood supply to the brain is interrupted, causing damage to brain tissue",
+      "definationTranslation": "एक पुरानी स्थिति जो तब होती है जब मस्तिष्क में रक्त की आपूर्ति बाधित हो जाती है, जिससे मस्तिष्क के ऊतकों को नुकसान पहुंचता है",
+      "sentence": [
+        {
+          "sentence": "Stroke is a chronic illness that can cause significant disability and impairment",
+          "translation": "पक्षाघात एक पुरानी बीमारी है जो महत्वपूर्ण विकलांगता और हानि का कारण बन सकती है"
+        },
+        {
+          "sentence": "People who have had a stroke often require rehabilitation and therapy to regain lost functions",
+          "translation": "जिन लोगों को पक्षाघात हुआ है, उन्हें अक्सर खोए हुए कार्यों को पुनर्प्राप्त करने के लिए पुनर्वास और चिकित्सा की आवश्यकता होती है"
+        }
+      ]
+    },
+    {
+      "word": "Cancer",
+      "phoneticRespelling": "KAN-sur",
+      "translation": "कैंसर",
+      "definition": "A chronic condition that causes abnormal cell growth and can lead to tumor formation",
+      "definationTranslation": "एक पुरानी स्थिति जो असामान्य कोशिका वृद्धि का कारण बनती है और ट्यूमर निर्माण का कारण बन सकती है",
+      "sentence": [
+        {
+          "sentence": "Cancer is a chronic illness that can be treated with surgery, chemotherapy, and radiation therapy",
+          "translation": "कैंसर एक पुरानी बीमारी है जो सर्जरी, कीमोथेरेपी और विकिरण चिकित्सा के साथ इलाज की जा सकती है"
+        },
+        {
+          "sentence": "People with cancer often experience symptoms such as pain, fatigue, and weight loss",
+          "translation": "कैंसर से पीड़ित लोग अक्सर दर्द, थकान और वजन घटाने जैसे लक्षणों का अनुभव करते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Alzheimer's Disease",
+      "phoneticRespelling": "ALTS-hy-merz dih-ZEEZ",
+      "translation": "एल्जाइमर रोग",
+      "definition": "A chronic condition that causes progressive memory loss and cognitive decline",
+      "definationTranslation": "एक पुरानी स्थिति जो渐ात्मक स्मृति हानि और संज्ञानात्मकdecline का कारण बनती है",
+      "sentence": [
+        {
+          "sentence": "Alzheimer's disease is a chronic illness that can cause significant disability and impairment",
+          "translation": "एल्जाइमर रोग एक पुरानी बीमारी है जो महत्वपूर्ण विकलांगता और हानि का कारण बन सकती है"
+        },
+        {
+          "sentence": "People with Alzheimer's disease often require assistance with daily activities and care",
+          "translation": "एल्जाइमर रोग से पीड़ित लोग अक्सर दैनिक गतिविधियों और देखभाल के साथ सहायता की आवश्यकता होती है"
+        }
+      ]
+    },
+    {
+      "word": "Huntington's Disease",
+      "phoneticRespelling": "HUN-ting-tunz dih-ZEEZ",
+      "translation": "हंटिंगटन रोग",
+      "definition": "A chronic condition that causes progressive damage to the brain and nervous system",
+      "definationTranslation": "एक पुरानी स्थिति जो मस्तिष्क और तंत्रिका तंत्र को渐ात्मक नुकसान पहुंचाती है",
+      "sentence": [
+        {
+          "sentence": "Huntington's disease is a chronic illness that can cause significant disability and impairment",
+          "translation": "हंटिंगटन रोग एक पुरानी बीमारी है जो महत्वपूर्ण विकलांगता और हानि का कारण बन सकती है"
+        },
+        {
+          "sentence": "People with Huntington's disease often experience symptoms such as tremors and cognitive decline",
+          "translation": "हंटिंगटन रोग से पीड़ित लोग अक्सर कंपकंपी और संज्ञानात्मकdecline जैसे लक्षणों का अनुभव करते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Muscular Dystrophy",
+      "phoneticRespelling": "MUS-kyoo-lur DIS-troh-fee",
+      "translation": "मांसपेशीय विकृति",
+      "definition": "A chronic condition that causes progressive muscle weakness and degeneration",
+      "definationTranslation": "एक पुरानी स्थिति जो मांसपेशियों की渐ात्मक कमजोरी और विकार का कारण बनती है",
+      "sentence": [
+        {
+          "sentence": "Muscular dystrophy is a chronic illness that can cause significant disability and impairment",
+          "translation": "मांसपेशीय विकृति एक पुरानी बीमारी है जो महत्वपूर्ण विकलांगता और हानि का कारण बन सकती है"
+        },
+        {
+          "sentence": "People with muscular dystrophy often require assistance with daily activities and care",
+          "translation": "मांसपेशीय विकृति से पीड़ित लोग अक्सर दैनिक गतिविधियों और देखभाल के साथ सहायता की आवश्यकता होती है"
+        }
+      ]
+    },
+    {
+      "word": "Sickle Cell Anemia",
+      "phoneticRespelling": "SICK-ul sel uh-NEE-mee-uh",
+      "translation": "सिकल सेल अनीमिया",
+      "definition": "A chronic condition that causes the red blood cells to become misshapen and break down",
+      "definationTranslation": "एक पुरानी स्थिति जो लाल रक्त कोशिकाओं को विकृत और टूटने का कारण बनती है",
+      "sentence": [
+        {
+          "sentence": "Sickle cell anemia is a chronic illness that can cause significant disability and impairment",
+          "translation": "सिकल सेल अनीमिया एक पुरानी बीमारी है जो महत्वपूर्ण विकलांगता और हानि का कारण बन सकती है"
+        },
+        {
+          "sentence": "People with sickle cell anemia often require regular medical care and treatment to manage symptoms",
+          "translation": "सिकल सेल अनीमिया से पीड़ित लोग अक्सर लक्षणों को नियंत्रित करने के लिए नियमित चिकित्सा देखभाल और उपचार की आवश्यकता होती है"
+        }
+      ]
+    }
+  ]
 }

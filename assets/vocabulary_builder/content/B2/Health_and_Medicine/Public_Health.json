@@ -1,4 +1,345 @@
 {
   "topic": "Public Health",
-  "words": []
+  "words": [
+    {
+      "word": "epidemic",
+      "phoneticRespelling": "ep-uh-DEM-ik",
+      "translation": "महामारी",
+      "definition": "A rapid spread of a disease to a large number of people in a given population at the same time.",
+      "definationTranslation": "एक ही समय में किसी दिए गए आबादी के बड़ी संख्या में लोगों तक रोग का तेजी से फैलाव।",
+      "sentence": [
+        {
+          "sentence": "The flu became an epidemic in the city last winter.",
+          "translation": "पिछले सर्दियों में शहर में फ्लू महामारी बन गया।"
+        },
+        {
+          "sentence": "Health officials worked to prevent the epidemic from spreading further.",
+          "translation": "स्वास्थ्य अधिकारियों ने महामारी को और फैलने से रोकने के लिए काम किया।"
+        }
+      ]
+    },
+    {
+      "word": "pandemic",
+      "phoneticRespelling": "pan-DEM-ik",
+      "translation": "महामारी",
+      "definition": "An epidemic that has spread over several countries or continents, affecting a large number of people.",
+      "definationTranslation": "एक महामारी जो कई देशों या महाद्वीपों पर फैल गई हो और बड़ी संख्या में लोगों को प्रभावित करे।",
+      "sentence": [
+        {
+          "sentence": "COVID-19 was declared a global pandemic in 2020.",
+          "translation": "COVID-19 को 2020 में वैश्विक महामारी घोषित किया गया।"
+        },
+        {
+          "sentence": "Governments imposed lockdowns during the pandemic to save lives.",
+          "translation": "सरकारों ने जान बचाने के लिए महामारी के दौरान लॉकडाउन लगाए।"
+        }
+      ]
+    },
+    {
+      "word": "vaccination",
+      "phoneticRespelling": "vak-suh-NAY-shuhn",
+      "translation": "टीकाकरण",
+      "definition": "The process of giving a vaccine to a person to protect them from a disease.",
+      "definationTranslation": "किसी व्यक्ति को बीमारी से बचाने के लिए वैक्सीन देने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Vaccination rates have improved in rural areas.",
+          "translation": "ग्रामीण क्षेत्रों में टीकाकरण दरें सुधर गई हैं।"
+        },
+        {
+          "sentence": "The government offers free vaccination for children under five.",
+          "translation": "सरकार पांच साल से कम उम्र के बच्चों के लिए मुफ्त टीकाकरण प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "hygiene",
+      "phoneticRespelling": "HI-jen",
+      "translation": "स्वच्छता",
+      "definition": "Conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness.",
+      "definationTranslation": "स्वास्थ्य बनाए रखने और बीमारी रोकने के लिए अनुकूल स्थितियां या अभ्यास, विशेष रूप से सफाई के माध्यम से।",
+      "sentence": [
+        {
+          "sentence": "Good hygiene is essential in hospitals to prevent infections.",
+          "translation": "संक्रमण रोकने के लिए अस्पतालों में अच्छी स्वच्छता आवश्यक है।"
+        },
+        {
+          "sentence": "Schools teach children about personal hygiene from an early age.",
+          "translation": "स्कूल छोटी उम्र से ही बच्चों को व्यक्तिगत स्वच्छता सिखाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "outbreak",
+      "phoneticRespelling": "OUT-breyk",
+      "translation": "प्रकोप",
+      "definition": "A sudden occurrence of a disease in a specific area or population.",
+      "definationTranslation": "किसी विशिष्ट क्षेत्र या आबादी में रोग का अचानक प्रकोप।",
+      "sentence": [
+        {
+          "sentence": "There was a cholera outbreak in the flood-affected region.",
+          "translation": "बाढ़ प्रभावित क्षेत्र में हैजा का प्रकोप हुआ।"
+        },
+        {
+          "sentence": "Authorities responded quickly to the outbreak of measles.",
+          "translation": "प्राधिकरणों ने खसरे के प्रकोप पर तेजी से प्रतिक्रिया दी।"
+        }
+      ]
+    },
+    {
+      "word": "quarantine",
+      "phoneticRespelling": "KWAIR-uhn-teen",
+      "translation": "क्वारंटाइन",
+      "definition": "A period of isolation imposed on people or animals potentially exposed to a contagious disease.",
+      "definationTranslation": "संदिग्ध संक्रामक रोग से प्रभावित लोगों या जानवरों पर लगाया गया अलगाव का समय।",
+      "sentence": [
+        {
+          "sentence": "Travelers from high-risk areas must undergo quarantine.",
+          "translation": "उच्च जोखिम वाले क्षेत्रों से आने वाले यात्रियों को क्वारंटाइन से गुजरना पड़ता है।"
+        },
+        {
+          "sentence": "The ship was placed in quarantine after a crew member fell ill.",
+          "translation": "एक चालक दल के सदस्य बीमार होने के बाद जहाज को क्वारंटाइन में रखा गया।"
+        }
+      ]
+    },
+    {
+      "word": "sanitation",
+      "phoneticRespelling": "san-ih-TAY-shuhn",
+      "translation": "स्वच्छता व्यवस्था",
+      "definition": "The provision of facilities and services for the safe disposal of human waste and wastewater.",
+      "definationTranslation": "मानव अपशिष्ट और अपशिष्ट जल के सुरक्षित निपटान के लिए सुविधाओं और सेवाओं का प्रावधान।",
+      "sentence": [
+        {
+          "sentence": "Poor sanitation leads to waterborne diseases in slums.",
+          "translation": "झुग्गी-झोपड़ियों में खराब स्वच्छता व्यवस्था जलजनित रोगों का कारण बनती है।"
+        },
+        {
+          "sentence": "The city invested in better sanitation to improve public health.",
+          "translation": "शहर ने सार्वजनिक स्वास्थ्य सुधारने के लिए बेहतर स्वच्छता व्यवस्था में निवेश किया।"
+        }
+      ]
+    },
+    {
+      "word": "contagious",
+      "phoneticRespelling": "kuhn-TAY-juhs",
+      "translation": "संक्रामक",
+      "definition": "Of a disease, capable of being transmitted from one person to another by contact or close proximity.",
+      "definationTranslation": "संपर्क या निकटता से एक व्यक्ति से दूसरे में स्थानांतरित होने में सक्षम रोग।",
+      "sentence": [
+        {
+          "sentence": "Chickenpox is highly contagious among children.",
+          "translation": "चिकनपॉक्स बच्चों के बीच अत्यधिक संक्रामक है।"
+        },
+        {
+          "sentence": "Stay home if you have a contagious illness.",
+          "translation": "यदि आपके पास संक्रामक बीमारी है तो घर पर रहें।"
+        }
+      ]
+    },
+    {
+      "word": "immunity",
+      "phoneticRespelling": "ih-MYOO-nih-tee",
+      "translation": "प्रतिरक्षा",
+      "definition": "The ability of an organism to resist a particular infection or toxin by preventing its development.",
+      "definationTranslation": "किसी जीव के उसके विकास को रोककर किसी विशेष संक्रमण या विष से प्रतिरोध करने की क्षमता।",
+      "sentence": [
+        {
+          "sentence": "Herd immunity protects vulnerable populations.",
+          "translation": "समूह प्रतिरक्षा कमजोर आबादी की रक्षा करती है।"
+        },
+        {
+          "sentence": "Vaccines help build immunity against common diseases.",
+          "translation": "टीके सामान्य रोगों के खिलाफ प्रतिरक्षा बनाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "surveillance",
+      "phoneticRespelling": "ser-VAY-luhns",
+      "translation": "निगरानी",
+      "definition": "Close observation of a population or area to detect early signs of disease spread.",
+      "definationTranslation": "रोग प्रसार के प्रारंभिक संकेतों का पता लगाने के लिए किसी आबादी या क्षेत्र की निकट निगरानी।",
+      "sentence": [
+        {
+          "sentence": "Health surveillance systems track disease patterns nationwide.",
+          "translation": "स्वास्थ्य निगरानी प्रणालियां देशव्यापी रोग पैटर्न ट्रैक करती हैं।"
+        },
+        {
+          "sentence": "Enhanced surveillance prevented a larger outbreak.",
+          "translation": "बढ़ी हुई निगरानी ने बड़े प्रकोप को रोका।"
+        }
+      ]
+    },
+    {
+      "word": "malnutrition",
+      "phoneticRespelling": "mal-noo-TRISH-uhn",
+      "translation": "कुपोषण",
+      "definition": "A condition resulting from eating a diet in which nutrients are either inadequate or excessive.",
+      "definationTranslation": "पोषक तत्वों की अपर्याप्त या अत्यधिक मात्रा वाली आहार खाने से होने वाली स्थिति।",
+      "sentence": [
+        {
+          "sentence": "Malnutrition affects child development in poor communities.",
+          "translation": "कुपोषण गरीब समुदायों में बच्चे के विकास को प्रभावित करता है।"
+        },
+        {
+          "sentence": "Public health campaigns aim to reduce malnutrition rates.",
+          "translation": "सार्वजनिक स्वास्थ्य अभियान कुपोषण दरों को कम करने का लक्ष्य रखते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "sterilization",
+      "phoneticRespelling": "ster-uh-lih-ZAY-shuhn",
+      "translation": "जर्मीफ्रीकरण",
+      "definition": "The process of making something free from bacteria or other living microorganisms.",
+      "definationTranslation": "किसी चीज को बैक्टीरिया या अन्य जीवित सूक्ष्मजीवों से मुक्त करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Proper sterilization of medical tools prevents infections.",
+          "translation": "चिकित्सा उपकरणों का उचित जर्मीफ्रीकरण संक्रमण रोकता है।"
+        },
+        {
+          "sentence": "Water sterilization is crucial in disaster zones.",
+          "translation": "आपदा क्षेत्रों में पानी का जर्मीफ्रीकरण महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "morbidity",
+      "phoneticRespelling": "mor-BID-ih-tee",
+      "translation": "रुग्णता",
+      "definition": "The incidence or prevalence of a particular disease in a population.",
+      "definationTranslation": "किसी आबादी में किसी विशेष रोग की घटना या प्रसार।",
+      "sentence": [
+        {
+          "sentence": "High morbidity rates strain healthcare systems.",
+          "translation": "उच्च रुग्णता दरें स्वास्थ्य प्रणालियों पर दबाव डालती हैं।"
+        },
+        {
+          "sentence": "Studies track morbidity from lifestyle diseases.",
+          "translation": "अध्ययन जीवनशैली रोगों से रुग्णता ट्रैक करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "mortality",
+      "phoneticRespelling": "mor-TAL-ih-tee",
+      "translation": "मृत्यु दर",
+      "definition": "The number of deaths in a given population over a specific time period.",
+      "definationTranslation": "किसी दिए गए समय अवधि में किसी दी गई आबादी में मृत्यु की संख्या।",
+      "sentence": [
+        {
+          "sentence": "Infant mortality has declined due to better healthcare.",
+          "translation": "बेहतर स्वास्थ्य देखभाल के कारण शिशु मृत्यु दर घटी है।"
+        },
+        {
+          "sentence": "Public health measures reduced mortality from tuberculosis.",
+          "translation": "सार्वजनिक स्वास्थ्य उपायों ने तपेदिक से मृत्यु दर कम की।"
+        }
+      ]
+    },
+    {
+      "word": "vector",
+      "phoneticRespelling": "VEK-ter",
+      "translation": "वाहक",
+      "definition": "An organism that transmits a disease from one host to another.",
+      "definationTranslation": "एक जीव जो रोग को एक मेजबान से दूसरे तक स्थानांतरित करता है।",
+      "sentence": [
+        {
+          "sentence": "Mosquitoes are a common vector for malaria.",
+          "translation": "मच्छर मलेरिया के सामान्य वाहक हैं।"
+        },
+        {
+          "sentence": "Controlling vectors helps prevent dengue outbreaks.",
+          "translation": "वाहकों को नियंत्रित करना डेंगू प्रकोप रोकने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "pathogen",
+      "phoneticRespelling": "PATH-uh-juhn",
+      "translation": "रोगजनक",
+      "definition": "A bacterium, virus, or other microorganism that can cause disease.",
+      "definationTranslation": "एक बैक्टीरिया, वायरस या अन्य सूक्ष्मजीव जो रोग पैदा कर सकता है।",
+      "sentence": [
+        {
+          "sentence": "Antibiotics fight bacterial pathogens effectively.",
+          "translation": "एंटीबायोटिक्स बैक्टीरियल रोगजनकों से प्रभावी ढंग से लड़ते हैं।"
+        },
+        {
+          "sentence": "The lab identified the pathogen causing the outbreak.",
+          "translation": "लैब ने प्रकोप का कारण बनने वाले रोगजनक की पहचान की।"
+        }
+      ]
+    },
+    {
+      "word": "antiviral",
+      "phoneticRespelling": "an-tee-VY-ruhl",
+      "translation": "एंटीवायरल",
+      "definition": "A medicine that inhibits the growth of viruses.",
+      "definationTranslation": "एक दवा जो वायरस के विकास को रोकती है।",
+      "sentence": [
+        {
+          "sentence": "Antiviral drugs treat influenza in high-risk patients.",
+          "translation": "एंटीवायरल दवाएं उच्च जोखिम वाले रोगियों में इन्फ्लूएंजा का इलाज करती हैं।"
+        },
+        {
+          "sentence": "New antivirals show promise against emerging viruses.",
+          "translation": "नई एंटीवायरल दवाएं उभरते वायरसों के खिलाफ आशाजनक दिख रही हैं।"
+        }
+      ]
+    },
+    {
+      "word": "screening",
+      "phoneticRespelling": "SKREE-ning",
+      "translation": "स्क्रीनिंग",
+      "definition": "Testing a population for a disease, often before symptoms appear.",
+      "definationTranslation": "लक्षण दिखने से पहले किसी आबादी का रोग के लिए परीक्षण।",
+      "sentence": [
+        {
+          "sentence": "Regular cancer screening saves lives through early detection.",
+          "translation": "नियमित कैंसर स्क्रीनिंग शुरुआती पहचान से जान बचाती है।"
+        },
+        {
+          "sentence": "Free screening programs are available in community centers.",
+          "translation": "समुदाय केंद्रों में मुफ्त स्क्रीनिंग कार्यक्रम उपलब्ध हैं।"
+        }
+      ]
+    },
+    {
+      "word": "prevention",
+      "phoneticRespelling": "prih-VEN-shuhn",
+      "translation": "रोकथाम",
+      "definition": "Actions taken to stop a disease or injury from occurring.",
+      "definationTranslation": "रोग या चोट को होने से रोकने के लिए उठाए गए कदम।",
+      "sentence": [
+        {
+          "sentence": "Prevention is better than cure, as the saying goes.",
+          "translation": "कहावत के अनुसार, रोकथाम इलाज से बेहतर है।"
+        },
+        {
+          "sentence": "Public health focuses on disease prevention strategies.",
+          "translation": "सार्वजनिक स्वास्थ्य रोग रोकथाम रणनीतियों पर केंद्रित है।"
+        }
+      ]
+    },
+    {
+      "word": "rehabilitation",
+      "phoneticRespelling": "ree-huh-bil-ih-TAY-shuhn",
+      "translation": "पुनर्वास",
+      "definition": "The process of helping someone recover from illness or injury to regain normal function.",
+      "definationTranslation": "किसी को बीमारी या चोट से उबरने में मदद करने की प्रक्रिया ताकि सामान्य कार्य प्राप्त हो।",
+      "sentence": [
+        {
+          "sentence": "Post-stroke rehabilitation improves patient mobility.",
+          "translation": "स्ट्रोक के बाद पुनर्वास रोगी की गतिशीलता सुधारता है।"
+        },
+        {
+          "sentence": "Community rehabilitation centers support mental health recovery.",
+          "translation": "समुदाय पुनर्वास केंद्र मानसिक स्वास्थ्य पुनर्प्राप्ति का समर्थन करते हैं।"
+        }
+      ]
+    }
+  ]
 }

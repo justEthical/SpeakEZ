@@ -1,4 +1,396 @@
 {
   "topic": "Political Systems",
-  "words": []
+  "words": [
+    {
+      "word": "Democracy",
+      "phoneticRespelling": "dɪˈmɒkrəsi",
+      "translation": "लोकतंत्र",
+      "definition": "A system of government where power is held by the people",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति लोगों के पास होती है",
+      "sentence": [
+        {
+          "sentence": "India is a democracy where citizens have the right to vote.",
+          "translation": "भारत एक लोकतंत्र है जहां नागरिकों को वोट देने का अधिकार है।"
+        },
+        {
+          "sentence": "The country transitioned to democracy after decades of authoritarian rule.",
+          "translation": "देश ने अधिनायकवादी शासन के दशकों के बाद लोकतंत्र में परिवर्तन किया।"
+        }
+      ]
+    },
+    {
+      "word": "Monarchy",
+      "phoneticRespelling": "ˈmɒnərki",
+      "translation": "राजतन्त्र",
+      "definition": "A system of government where power is held by a king or queen",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति एक राजा या रानी के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The monarchy has been the traditional form of government in many countries.",
+          "translation": "राजतन्त्र कई देशों में पारंपरिक शासन का रूप रहा है।"
+        },
+        {
+          "sentence": "The monarch serves as the head of state in a constitutional monarchy.",
+          "translation": "संवैधानिक राजतन्त्र में राजा राज्य के प्रमुख के रूप में कार्य करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Oligarchy",
+      "phoneticRespelling": "ˌɒlɪˈɡɑːrkɪ",
+      "translation": "अल्पसंख्यक शासन",
+      "definition": "A system of government where power is held by a small group of people",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति कुछ लोगों के समूह के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The country was ruled by an oligarchy of wealthy businessmen.",
+          "translation": "देश कुछ धनी व्यवसायियों के अल्पसंख्यक शासन द्वारा शासित था।"
+        },
+        {
+          "sentence": "The oligarchy controlled the government and economy of the country.",
+          "translation": "अल्पसंख्यक शासन ने देश की सरकार और अर्थव्यवस्था को नियंत्रित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Theocracy",
+      "phoneticRespelling": "θiˈɒkrəsi",
+      "translation": "धार्मिक शासन",
+      "definition": "A system of government where power is held by religious leaders",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति धार्मिक नेताओं के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The country is a theocracy where Islamic law is the basis of the legal system.",
+          "translation": "देश एक धार्मिक शासन है जहां इस्लामिक कानून कानूनी प्रणाली का आधार है।"
+        },
+        {
+          "sentence": "The theocracy has been criticized for its human rights record.",
+          "translation": "मानवाधिकार रिकॉर्ड के लिए धार्मिक शासन की आलोचना की गई है।"
+        }
+      ]
+    },
+    {
+      "word": "Federalism",
+      "phoneticRespelling": "ˈfɛdərəlɪzəm",
+      "translation": "संघीयवाद",
+      "definition": "A system of government where power is divided between a central authority and constituent units",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति एक केंद्रीय प्राधिकरण और घटक इकाइयों के बीच विभाजित होती है",
+      "sentence": [
+        {
+          "sentence": "The United States is a federal republic with a system of federalism.",
+          "translation": "संयुक्त राज्य अमेरिका एक संघीय गणराज्य है जिसमें संघीयवाद की प्रणाली है।"
+        },
+        {
+          "sentence": "Federalism allows for greater autonomy and regional representation.",
+          "translation": "संघीयवाद अधिक स्वायत्तता और क्षेत्रीय प्रतिनिधित्व की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Constitution",
+      "phoneticRespelling": "kɒnstɪˈtuːʃən",
+      "translation": "संविधान",
+      "definition": "A document that outlines the fundamental principles and structure of a government",
+      "definationTranslation": "एक दस्तावेज जो एक सरकार के मौलिक सिद्धांतों और संरचना को रेखांकित करता है",
+      "sentence": [
+        {
+          "sentence": "The constitution is the supreme law of the land.",
+          "translation": "संविधान देश का सर्वोच्च कानून है।"
+        },
+        {
+          "sentence": "The constitution guarantees certain rights and freedoms to citizens.",
+          "translation": "संविधान नागरिकों को कुछ अधिकारों और स्वतंत्रताओं की गारंटी देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Parliament",
+      "phoneticRespelling": "ˈpɑːrləmənt",
+      "translation": "संसद",
+      "definition": "A legislative body that makes laws for a country or state",
+      "definationTranslation": "एक विधायिका जो एक देश या राज्य के लिए कानून बनाती है",
+      "sentence": [
+        {
+          "sentence": "The parliament is responsible for passing laws and approving the budget.",
+          "translation": "संसद कानून बनाने और बजट को मंजूरी देने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The parliament represents the interests of the people and holds the government accountable.",
+          "translation": "संसद लोगों के हितों का प्रतिनिधित्व करती है और सरकार को जवाबदेह ठहराती है।"
+        }
+      ]
+    },
+    {
+      "word": "Bureaucracy",
+      "phoneticRespelling": "bjʊˈrɒkrəsi",
+      "translation": "नौकरशाही",
+      "definition": "A system of administration where decisions are made by officials",
+      "definationTranslation": "एक प्रशासन प्रणाली जिसमें अधिकारियों द्वारा निर्णय लिए जाते हैं",
+      "sentence": [
+        {
+          "sentence": "The bureaucracy is often criticized for being slow and inefficient.",
+          "translation": "नौकरशाही अक्सर धीमी और अकुशल होने के लिए आलोचना की जाती है।"
+        },
+        {
+          "sentence": "The bureaucracy plays a crucial role in implementing government policies.",
+          "translation": "नौकरशाही सरकारी नीतियों को लागू करने में एक महत्वपूर्ण भूमिका निभाती है।"
+        }
+      ]
+    },
+    {
+      "word": "Legislation",
+      "phoneticRespelling": "lɛdʒɪsˈleɪʃən",
+      "translation": "विधायी",
+      "definition": "The process of making laws",
+      "definationTranslation": "कानून बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The legislation process involves debate and voting in the parliament.",
+          "translation": "विधायी प्रक्रिया में संसद में बहस और मतदान शामिल है।"
+        },
+        {
+          "sentence": "The government is responsible for introducing new legislation to address social issues.",
+          "translation": "सरकार सामाजिक मुद्दों को संबोधित करने के लिए नए विधायी प्रस्ताव पेश करने के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Policy",
+      "phoneticRespelling": "ˈpɒlɪsi",
+      "translation": "नीति",
+      "definition": "A course of action or decision made by a government or organization",
+      "definationTranslation": "एक सरकार या संगठन द्वारा की गई कार्रवाई या निर्णय",
+      "sentence": [
+        {
+          "sentence": "The government's policy on education has been a topic of debate.",
+          "translation": "शिक्षा पर सरकार की नीति एक विवादास्पद विषय रही है।"
+        },
+        {
+          "sentence": "The company's policy is to provide excellent customer service.",
+          "translation": "कंपनी की नीति उत्कृष्ट ग्राहक सेवा प्रदान करना है।"
+        }
+      ]
+    },
+    {
+      "word": "Administration",
+      "phoneticRespelling": "ədˌmɪnɪˈstreɪʃən",
+      "translation": "प्रशासन",
+      "definition": "The process of managing and organizing a government or organization",
+      "definationTranslation": "एक सरकार या संगठन को प्रबंधित और व्यवस्थित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The administration of the country is divided into three branches.",
+          "translation": "देश का प्रशासन तीन शाखाओं में विभाजित है।"
+        },
+        {
+          "sentence": "The university's administration is responsible for overseeing academic programs.",
+          "translation": "विश्वविद्यालय का प्रशासन अकादमिक कार्यक्रमों की देखरेख करने के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Election",
+      "phoneticRespelling": "ɪˈlɛkʃən",
+      "translation": "चुनाव",
+      "definition": "A process of choosing a person or group to hold public office",
+      "definationTranslation": "एक व्यक्ति या समूह को सार्वजनिक पद पर चुनने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The election was held to choose a new president.",
+          "translation": "एक नए राष्ट्रपति का चयन करने के लिए चुनाव आयोजित किया गया था।"
+        },
+        {
+          "sentence": "The election campaign was marked by intense debate and controversy.",
+          "translation": "चुनाव अभियान तीव्र बहस और विवाद से चिह्नित था।"
+        }
+      ]
+    },
+    {
+      "word": "Campaign",
+      "phoneticRespelling": "kæmˈpeɪn",
+      "translation": "अभियान",
+      "definition": "A series of activities or events aimed at achieving a specific goal",
+      "definationTranslation": "एक विशिष्ट लक्ष्य को प्राप्त करने के लिए गतिविधियों या घटनाओं की श्रृंखला",
+      "sentence": [
+        {
+          "sentence": "The company launched a marketing campaign to promote their new product.",
+          "translation": "कंपनी ने अपने नए उत्पाद को बढ़ावा देने के लिए एक विपणन अभियान शुरू किया।"
+        },
+        {
+          "sentence": "The environmental group started a campaign to reduce plastic waste.",
+          "translation": "पर्यावरण समूह ने प्लास्टिक कचरे को कम करने के लिए एक अभियान शुरू किया।"
+        }
+      ]
+    },
+    {
+      "word": "Government",
+      "phoneticRespelling": "ˈɡʌvənmənt",
+      "translation": "सरकार",
+      "definition": "The system or group of people that exercises authority and control over a country or state",
+      "definationTranslation": "प्रणाली या लोगों का समूह जो एक देश या राज्य पर अधिकार और नियंत्रण का प्रयोग करता है",
+      "sentence": [
+        {
+          "sentence": "The government is responsible for providing public services and infrastructure.",
+          "translation": "सरकार सार्वजनिक सेवाओं और बुनियादी ढांचे को प्रदान करने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The government has the power to make and enforce laws.",
+          "translation": "सरकार के पास कानून बनाने और लागू करने की शक्ति है।"
+        }
+      ]
+    },
+    {
+      "word": "Politics",
+      "phoneticRespelling": "ˈpɒlɪtɪks",
+      "translation": "राजनीति",
+      "definition": "The study of government, politics, and the exercise of power",
+      "definationTranslation": "सरकार, राजनीति और शक्ति के प्रयोग का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Politics is a complex and multifaceted field of study.",
+          "translation": "राजनीति एक जटिल और बहुस्तरीय अध्ययन क्षेत्र है।"
+        },
+        {
+          "sentence": "The politics of the country are influenced by various factors.",
+          "translation": "देश की राजनीति विभिन्न कारकों से प्रभावित है।"
+        }
+      ]
+    },
+    {
+      "word": "Republic",
+      "phoneticRespelling": "ˈrɛpʌblɪk",
+      "translation": "गणराज्य",
+      "definition": "A system of government where power is held by the people or their elected representatives",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति लोगों या उनके निर्वाचित प्रतिनिधियों के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The United States is a federal republic with a democratic system.",
+          "translation": "संयुक्त राज्य अमेरिका एक संघीय गणराज्य है जिसमें एक लोकतांत्रिक प्रणाली है।"
+        },
+        {
+          "sentence": "The republic has a president as its head of state.",
+          "translation": "गणराज्य के पास एक राष्ट्रपति है जो इसका राज्य का प्रमुख है।"
+        }
+      ]
+    },
+    {
+      "word": "Tyranny",
+      "phoneticRespelling": "ˈtɪrəni",
+      "translation": "निरंकुशता",
+      "definition": "A system of government where power is held by a single person or group",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति एक व्यक्ति या समूह के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The country was ruled by a tyranny for many years.",
+          "translation": "देश पर कई वर्षों तक एक निरंकुशता द्वारा शासन किया गया था।"
+        },
+        {
+          "sentence": "The people suffered under the tyranny of the dictator.",
+          "translation": "लोग तानाशाह की निरंकुशता के तहत पीड़ित थे।"
+        }
+      ]
+    },
+    {
+      "word": "Anarchy",
+      "phoneticRespelling": "ˈænɑːki",
+      "translation": "अराजकता",
+      "definition": "A system where there is no central government or authority",
+      "definationTranslation": "एक प्रणाली जिसमें कोई केंद्रीय सरकार या प्राधिकरण नहीं है",
+      "sentence": [
+        {
+          "sentence": "The country descended into anarchy after the collapse of the government.",
+          "translation": "सरकार के पतन के बाद देश अराजकता में गिर गया।"
+        },
+        {
+          "sentence": "The lack of authority led to a state of anarchy in the region.",
+          "translation": "प्राधिकरण की कमी के कारण क्षेत्र में अराजकता की स्थिति उत्पन्न हुई।"
+        }
+      ]
+    },
+    {
+      "word": "Federation",
+      "phoneticRespelling": "fɛdəˈreɪʃən",
+      "translation": "संघ",
+      "definition": "A system of government where power is divided between a central authority and constituent units",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति एक केंद्रीय प्राधिकरण और घटक इकाइयों के बीच विभाजित होती है",
+      "sentence": [
+        {
+          "sentence": "The country is a federation of states with a central government.",
+          "translation": "देश एक केंद्रीय सरकार के साथ राज्यों का एक संघ है।"
+        },
+        {
+          "sentence": "The federation has a complex system of governance.",
+          "translation": "संघ की शासन प्रणाली जटिल है।"
+        }
+      ]
+    },
+    {
+      "word": "Dictatorship",
+      "phoneticRespelling": "dɪkˈteɪtəʃɪp",
+      "translation": "तानाशाही",
+      "definition": "A system of government where power is held by a single person or group",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति एक व्यक्ति या समूह के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The country was ruled by a dictatorship for many years.",
+          "translation": "देश पर कई वर्षों तक एक तानाशाही द्वारा शासन किया गया था।"
+        },
+        {
+          "sentence": "The people suffered under the dictatorship of the ruler.",
+          "translation": "लोग शासक की तानाशाही के तहत पीड़ित थे।"
+        }
+      ]
+    },
+    {
+      "word": "Autocracy",
+      "phoneticRespelling": "ɔːˈtɒkrəsi",
+      "translation": "स्वेच्छाचार",
+      "definition": "A system of government where power is held by a single person",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति एक व्यक्ति के पास होती है",
+      "sentence": [
+        {
+          "sentence": "The country was ruled by an autocracy for many years.",
+          "translation": "देश पर कई वर्षों तक एक स्वेच्छाचार द्वारा शासन किया गया था।"
+        },
+        {
+          "sentence": "The autocracy was marked by a lack of accountability and transparency.",
+          "translation": "स्वेच्छाचार में जिम्मेदारी और पारदर्शिता की कमी थी।"
+        }
+      ]
+    },
+    {
+      "word": "Communism",
+      "phoneticRespelling": "ˈkɒmjʊnɪzəm",
+      "translation": "साम्यवाद",
+      "definition": "A system of government where resources are owned and controlled by the community",
+      "definationTranslation": "एक प्रणाली जिसमें संसाधन समुदाय द्वारा स्वामित्व और नियंत्रित होते हैं",
+      "sentence": [
+        {
+          "sentence": "Communism aims to create a classless society.",
+          "translation": "साम्यवाद एक वर्गहीन समाज बनाने का उद्देश्य रखता है।"
+        },
+        {
+          "sentence": "The communist party has been in power for decades.",
+          "translation": "साम्यवादी पार्टी दशकों से सत्ता में है।"
+        }
+      ]
+    },
+    {
+      "word": "Socialism",
+      "phoneticRespelling": "ˈsoʊʃəlɪzəm",
+      "translation": "समाजवाद",
+      "definition": "A system of government where resources are owned and controlled by the state",
+      "definationTranslation": "एक प्रणाली जिसमें संसाधन राज्य द्वारा स्वामित्व और नियंत्रित होते हैं",
+      "sentence": [
+        {
+          "sentence": "Socialism aims to reduce economic inequality.",
+          "translation": "समाजवाद आर्थिक असमानता को कम करने का उद्देश्य रखता है।"
+        },
+        {
+          "sentence": "The socialist party has implemented policies to help the poor.",
+          "translation": "समाजवादी पार्टी ने गरीबों की मदद के लिए नीतियां लागू की हैं।"
+        }
+      ]
+    }
+  ]
 }

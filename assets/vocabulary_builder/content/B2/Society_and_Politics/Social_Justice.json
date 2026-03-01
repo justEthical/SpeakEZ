@@ -1,4 +1,345 @@
 {
   "topic": "Social Justice",
-  "words": []
+  "words": [
+    {
+      "word": "Equality",
+      "phoneticRespelling": "iˈkwɒlɪti",
+      "translation": "समानता",
+      "definition": "the state of being equal in status, rights, and opportunities",
+      "definationTranslation": "स्थिति, अधिकारों और अवसरों में समान होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The country is striving for equality among all its citizens.",
+          "translation": "देश अपने सभी नागरिकों के बीच समानता की दिशा में काम कर रहा है।"
+        },
+        {
+          "sentence": "Equality is a fundamental human right that should be respected by all.",
+          "translation": "समानता एक मौलिक मानवाधिकार है जिसे सभी को सम्मानित करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Discrimination",
+      "phoneticRespelling": "dɪˌskrɪmɪˈneɪʃən",
+      "translation": "भेदभाव",
+      "definition": "the unjust or prejudicial treatment of different categories of people, especially on the grounds of race, age, sex, or disability",
+      "definationTranslation": "विभिन्न श्रेणियों के लोगों का अन्यायपूर्ण या पक्षपातपूर्ण व्यवहार, विशेष रूप से जाति, आयु, लिंग या विकलांगता के आधार पर",
+      "sentence": [
+        {
+          "sentence": "The company was sued for discrimination against employees with disabilities.",
+          "translation": "कंपनी को विकलांग कर्मचारियों के खिलाफ भेदभाव के लिए मुकदमा चलाया गया था।"
+        },
+        {
+          "sentence": "Racial discrimination is a serious issue that needs to be addressed.",
+          "translation": "जातिगत भेदभाव एक गंभीर मुद्दा है जिस पर ध्यान देने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Justice",
+      "phoneticRespelling": "ˈdʒʌstɪs",
+      "translation": "न्याय",
+      "definition": "the quality of being just, fair, and morally right",
+      "definationTranslation": "न्यायपूर्ण, निष्पक्ष और नैतिक रूप से सही होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The judge is known for her commitment to justice and fairness.",
+          "translation": "न्यायाधीश न्याय और निष्पक्षता के प्रति उनकी प्रतिबद्धता के लिए जाने जाते हैं।"
+        },
+        {
+          "sentence": "The people are demanding justice for the victims of the crime.",
+          "translation": "लोग अपराध के पीड़ितों के लिए न्याय की मांग कर रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Freedom",
+      "phoneticRespelling": "ˈfrēdəm",
+      "translation": "स्वतंत्रता",
+      "definition": "the power or right to act, speak, or think as one wants without hindrance or restraint",
+      "definationTranslation": "बिना किसी बाधा या प्रतिबंध के जैसा चाहे वैसा कार्य करने, बोलने या सोचने की शक्ति या अधिकार",
+      "sentence": [
+        {
+          "sentence": "The country values freedom of speech and expression.",
+          "translation": "देश भाषण और अभिव्यक्ति की स्वतंत्रता को महत्व देता है।"
+        },
+        {
+          "sentence": "The activists are fighting for freedom and human rights.",
+          "translation": "कार्यकर्ता स्वतंत्रता और मानवाधिकारों के लिए लड़ रहे हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Inequality",
+      "phoneticRespelling": "ˌɪnɪˈkwɒlɪti",
+      "translation": "असमानता",
+      "definition": "the state of not being equal, especially in status, rights, or opportunities",
+      "definationTranslation": "समान नहीं होने की स्थिति, विशेष रूप से स्थिति, अधिकारों या अवसरों में",
+      "sentence": [
+        {
+          "sentence": "The government is working to reduce inequality among its citizens.",
+          "translation": "सरकार अपने नागरिकों के बीच असमानता को कम करने का काम कर रही है।"
+        },
+        {
+          "sentence": "Income inequality is a major issue in many countries.",
+          "translation": "आय असमानता कई देशों में एक बड़ा मुद्दा है।"
+        }
+      ]
+    },
+    {
+      "word": "Prejudice",
+      "phoneticRespelling": "ˈpreʤədɪs",
+      "translation": "पूर्वाग्रह",
+      "definition": "a preconceived opinion that is not based on reason or actual experience",
+      "definationTranslation": "एक पूर्वनिर्धारित राय जो तर्क या वास्तविक अनुभव पर आधारित नहीं है",
+      "sentence": [
+        {
+          "sentence": "The company has a policy to prevent prejudice in the workplace.",
+          "translation": "कंपनी की नीति कार्यस्थल में पूर्वाग्रह को रोकने के लिए है।"
+        },
+        {
+          "sentence": "Racial prejudice is a serious issue that affects many communities.",
+          "translation": "जातिगत पूर्वाग्रह एक गंभीर मुद्दा है जो कई समुदायों को प्रभावित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Tolerance",
+      "phoneticRespelling": "ˈtɒlərəns",
+      "translation": "सहिष्णुता",
+      "definition": "the ability to accept or endure the existence of opinions or behavior that one dislikes or disagrees with",
+      "definationTranslation": "अपनी असहमति या अस्वीकृति के बावजूद राय या व्यवहार के अस्तित्व को स्वीकार या सहन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The city is known for its tolerance and acceptance of diversity.",
+          "translation": "शहर अपनी विविधता और सहिष्णुता के लिए जाना जाता है।"
+        },
+        {
+          "sentence": "We need to practice tolerance and understanding towards people with different cultures.",
+          "translation": "हमें विभिन्न संस्कृतियों वाले लोगों के प्रति सहिष्णुता और समझ का अभ्यास करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Empathy",
+      "phoneticRespelling": "ˈɛmpəθi",
+      "translation": "सहानुभूति",
+      "definition": "the ability to understand and share the feelings of another",
+      "definationTranslation": "किसी अन्य की भावनाओं को समझने और साझा करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The counselor showed empathy towards the client's situation.",
+          "translation": "परामर्शदाता ने ग्राहक की स्थिति के प्रति सहानुभूति दिखाई।"
+        },
+        {
+          "sentence": "Empathy is essential for building strong relationships.",
+          "translation": "सहानुभूति मजबूत संबंध बनाने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Solidarity",
+      "phoneticRespelling": "səˈlɪdærɪti",
+      "translation": "एकता",
+      "definition": "the unity and cooperation of a group of people who share common interests or goals",
+      "definationTranslation": "एक समूह की एकता और सहयोग जो साझा हितों या लक्ष्यों को साझा करता है",
+      "sentence": [
+        {
+          "sentence": "The workers showed solidarity by going on strike together.",
+          "translation": "श्रमिकों ने एक साथ हड़ताल पर जाकर एकता दिखाई।"
+        },
+        {
+          "sentence": "The community came together in solidarity to support the victims of the disaster.",
+          "translation": "समुदाय आपदा के पीड़ितों का समर्थन करने के लिए एकता के साथ एकजुट हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Oppression",
+      "phoneticRespelling": "əˈprɛʃən",
+      "translation": "उत्पीड़न",
+      "definition": "the state of being subject to oppressive treatment or control",
+      "definationTranslation": "दमनकारी उपचार या नियंत्रण के अधीन होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The people are fighting against oppression and seeking freedom.",
+          "translation": "लोग उत्पीड़न के खिलाफ लड़ रहे हैं और स्वतंत्रता की मांग कर रहे हैं।"
+        },
+        {
+          "sentence": "The government has been accused of oppression and human rights violations.",
+          "translation": "सरकार पर उत्पीड़न और मानवाधिकारों के उल्लंघन का आरोप लगाया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Human Rights",
+      "phoneticRespelling": "ˌhuːmən ˈraɪts",
+      "translation": "मानवाधिकार",
+      "definition": "the basic rights and freedoms that all people are entitled to",
+      "definationTranslation": "मौलिक अधिकार और स्वतंत्रता जिसके हकदार सभी लोग हैं",
+      "sentence": [
+        {
+          "sentence": "The organization works to promote human rights and social justice.",
+          "translation": "संगठन मानवाधिकारों और सामाजिक न्याय को बढ़ावा देने का काम करता है।"
+        },
+        {
+          "sentence": "Human rights are universal and inalienable.",
+          "translation": "मानवाधिकार सार्वभौमिक और अविभाज्य हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Diversity",
+      "phoneticRespelling": "dɪˈvɜːrsɪti",
+      "translation": "विविधता",
+      "definition": "the state of being diverse, especially in terms of culture, race, or ethnicity",
+      "definationTranslation": "विविध होने की स्थिति, विशेष रूप से संस्कृति, जाति या जातीयता के संदर्भ में",
+      "sentence": [
+        {
+          "sentence": "The city celebrates its diversity with a cultural festival.",
+          "translation": "शहर एक सांस्कृतिक त्योहार के साथ अपनी विविधता का जश्न मनाता है।"
+        },
+        {
+          "sentence": "Diversity is essential for a healthy and thriving society.",
+          "translation": "विविधता एक स्वस्थ और समृद्ध समाज के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Activism",
+      "phoneticRespelling": "ˈæktɪvɪzəm",
+      "translation": "कार्यकर्तावाद",
+      "definition": "the use of direct and vigorous action to bring about political or social change",
+      "definationTranslation": "राजनीतिक या सामाजिक परिवर्तन लाने के लिए सीधे और जोरदार कार्रवाई का उपयोग",
+      "sentence": [
+        {
+          "sentence": "The activist group uses social media to promote their cause.",
+          "translation": "कार्यकर्ता समूह सोशल मीडिया का उपयोग अपने कारण को बढ़ावा देने के लिए करता है।"
+        },
+        {
+          "sentence": "Activism can be an effective way to bring about social change.",
+          "translation": "कार्यकर्तावाद सामाजिक परिवर्तन लाने का एक प्रभावी तरीका हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Advocacy",
+      "phoneticRespelling": "ˈædvəkəsi",
+      "translation": "पैरवी",
+      "definition": "the act of publicly supporting or recommending a particular cause or policy",
+      "definationTranslation": "एक विशिष्ट कारण या नीति का सार्वजनिक रूप से समर्थन या अनुशंसा करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The organization provides advocacy services for victims of domestic violence.",
+          "translation": "संगठन घरेलू हिंसा के पीड़ितों के लिए पैरवी सेवाएं प्रदान करता है।"
+        },
+        {
+          "sentence": "Advocacy is an important tool for bringing about social change.",
+          "translation": "पैरवी सामाजिक परिवर्तन लाने के लिए एक महत्वपूर्ण उपकरण है।"
+        }
+      ]
+    },
+    {
+      "word": "Pluralism",
+      "phoneticRespelling": "ˈplʊrəlɪzəm",
+      "translation": "बहुलवाद",
+      "definition": "the state of being diverse, especially in terms of culture, religion, or ideology",
+      "definationTranslation": "विविध होने की स्थिति, विशेष रूप से संस्कृति, धर्म या विचारधारा के संदर्भ में",
+      "sentence": [
+        {
+          "sentence": "The country values pluralism and promotes diversity.",
+          "translation": "देश बहुलवाद को महत्व देता है और विविधता को बढ़ावा देता है।"
+        },
+        {
+          "sentence": "Pluralism is essential for a healthy and inclusive society.",
+          "translation": "बहुलवाद एक स्वस्थ और समावेशी समाज के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Segregation",
+      "phoneticRespelling": "ˌsɛgrɪˈɡeɪʃən",
+      "translation": "अलगाव",
+      "definition": "the act of separating people or things from others, especially on the basis of race, sex, or other characteristics",
+      "definationTranslation": "लोगों या चीजों को दूसरों से अलग करने का कार्य, विशेष रूप से जाति, लिंग या अन्य विशेषताओं के आधार पर",
+      "sentence": [
+        {
+          "sentence": "The policy of segregation was abolished in the country many years ago.",
+          "translation": "अलगाव की नीति कई वर्षों पहले देश में समाप्त कर दी गई थी।"
+        },
+        {
+          "sentence": "Racial segregation is a form of discrimination that is morally wrong.",
+          "translation": "जातिगत अलगाव भेदभाव का एक रूप है जो नैतिक रूप से गलत है।"
+        }
+      ]
+    },
+    {
+      "word": "Privilege",
+      "phoneticRespelling": "ˈprɪvɪlɪdʒ",
+      "translation": "विशेषाधिकार",
+      "definition": "a special right or advantage that is enjoyed by a particular person or group",
+      "definationTranslation": "एक विशेष अधिकार या लाभ जो एक विशिष्ट व्यक्ति या समूह द्वारा आनंदित है",
+      "sentence": [
+        {
+          "sentence": "The wealthy have a privilege that others do not have.",
+          "translation": "धनी लोगों के पास एक विशेषाधिकार है जो दूसरों के पास नहीं है।"
+        },
+        {
+          "sentence": "Privilege can be a barrier to social mobility and equality.",
+          "translation": "विशेषाधिकार सामाजिक गतिशीलता और समानता के लिए एक बाधा हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Marginalization",
+      "phoneticRespelling": "ˌmɑːrdʒɪnəlaɪˈzeɪʃən",
+      "translation": "हाशिए पर",
+      "definition": "the act of treating someone or something as unimportant or insignificant",
+      "definationTranslation": "किसी को या कुछ को अप्रासंगिक या महत्वहीन के रूप में व्यवहार करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The community has been marginalized and excluded from decision-making processes.",
+          "translation": "समुदाय को हाशिए पर रखा गया है और निर्णय लेने की प्रक्रियाओं से बाहर रखा गया है।"
+        },
+        {
+          "sentence": "Marginalization can lead to social and economic exclusion.",
+          "translation": "हाशिए पर रखने से सामाजिक और आर्थिक बहिष्कार हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Exclusion",
+      "phoneticRespelling": "ˌɛksˈkluːʒən",
+      "translation": "बहिष्कार",
+      "definition": "the state of being excluded or left out",
+      "definationTranslation": "बाहर रखे जाने या छोड़ दिए जाने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The policy of exclusion has been criticized for being discriminatory.",
+          "translation": "भेदभावपूर्ण होने के लिए बहिष्कार की नीति की आलोचना की गई है।"
+        },
+        {
+          "sentence": "Exclusion can have negative effects on mental and physical health.",
+          "translation": "बहिष्कार मानसिक और शारीरिक स्वास्थ्य पर नकारात्मक प्रभाव डाल सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Stereotype",
+      "phoneticRespelling": "ˈstɛriətaɪp",
+      "translation": "स्टीरियोटाइप",
+      "definition": "a fixed, oversimplified image or idea of a person or group",
+      "definationTranslation": "एक व्यक्ति या समूह की एक निश्चित, अत्यधिक सरलीकृत छवि या विचार",
+      "sentence": [
+        {
+          "sentence": "The media often perpetuate stereotypes about different cultures.",
+          "translation": "मीडिया अक्सर विभिन्न संस्कृतियों के बारे में स्टीरियोटाइप को बढ़ावा देता है।"
+        },
+        {
+          "sentence": "Stereotypes can be harmful and lead to prejudice and discrimination.",
+          "translation": "स्टीरियोटाइप हानिकारक हो सकते हैं और पूर्वाग्रह और भेदभाव की ओर ले जा सकते हैं।"
+        }
+      ]
+    }
+  ]
 }

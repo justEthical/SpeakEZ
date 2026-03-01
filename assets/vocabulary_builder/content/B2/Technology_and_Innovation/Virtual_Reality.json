@@ -1,4 +1,413 @@
 {
   "topic": "Virtual Reality",
-  "words": []
+  "words": [
+    {
+      "word": "Virtual",
+      "phoneticRespelling": "ˈvɜːr.tʃʊəl",
+      "translation": "आभासी",
+      "definition": "Not physically existing as such but made by software to appear to do so",
+      "definationTranslation": "जो वास्तव में मौजूद नहीं है लेकिन सॉफ्टवेयर द्वारा ऐसा प्रतीत होता है",
+      "sentence": [
+        {
+          "sentence": "The virtual tour of the museum was very informative.",
+          "translation": "संग्रहालय की आभासी यात्रा बहुत जानकारीपूर्ण थी।"
+        },
+        {
+          "sentence": "The company uses virtual reality to train its employees.",
+          "translation": "कंपनी अपने कर्मचारियों को प्रशिक्षित करने के लिए आभासी वास्तविकता का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Reality",
+      "phoneticRespelling": "rɪˈæl.ɪ.ti",
+      "translation": "वास्तविकता",
+      "definition": "The state of things as they actually exist, rather than as they may appear or may be perceived",
+      "definationTranslation": "चीजों की वास्तविक स्थिति, जैसा कि वे वास्तव में मौजूद हैं, न कि जैसा कि वे प्रतीत हो सकते हैं या महसूस किए जा सकते हैं",
+      "sentence": [
+        {
+          "sentence": "The reality of the situation was harsh.",
+          "translation": "स्थिति की वास्तविकता कठोर थी।"
+        },
+        {
+          "sentence": "The virtual reality experience was so real that it felt like actual reality.",
+          "translation": "आभासी वास्तविकता का अनुभव इतना वास्तविक था कि यह वास्तविक वास्तविकता जैसा महसूस हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Headset",
+      "phoneticRespelling": "ˈhɛd.sɛt",
+      "translation": "हेडसेट",
+      "definition": "A device worn on the head, typically including a pair of headphones and a microphone",
+      "definationTranslation": "सिर पर पहनने वाला एक उपकरण, जिसमें आमतौर पर एक जोड़ी हेडफ़ोन और एक माइक्रोफ़ोन शामिल होता है",
+      "sentence": [
+        {
+          "sentence": "The virtual reality headset provided an immersive experience.",
+          "translation": "आभासी वास्तविकता हेडसेट ने एक विसर्जन अनुभव प्रदान किया।"
+        },
+        {
+          "sentence": "She wore a headset to listen to music while working.",
+          "translation": "उसने काम करते समय संगीत सुनने के लिए हेडसेट पहना था।"
+        }
+      ]
+    },
+    {
+      "word": "Avatar",
+      "phoneticRespelling": "ˈæv.ə.tɑːr",
+      "translation": "अवतार",
+      "definition": "A computer user's representation of themselves in the form of a cartoon-like character",
+      "definationTranslation": "एक कंप्यूटर उपयोगकर्ता का एक कार्टून जैसे पात्र के रूप में स्वयं का प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The avatar in the virtual world was a digital representation of the user.",
+          "translation": "आभासी दुनिया में अवतार उपयोगकर्ता का एक डिजिटल प्रतिनिधित्व था।"
+        },
+        {
+          "sentence": "She created an avatar for her online gaming profile.",
+          "translation": "उसने अपने ऑनलाइन गेमिंग प्रोफ़ाइल के लिए एक अवतार बनाया।"
+        }
+      ]
+    },
+    {
+      "word": "Simulation",
+      "phoneticRespelling": "sɪm.jʊˈleɪ.ʃən",
+      "translation": "सिमुलेशन",
+      "definition": "The act of imitating the appearance or character of something, especially for the purpose of training or research",
+      "definationTranslation": "किसी चीज़ की उपस्थिति या चरित्र की नकल करने का कार्य, विशेष रूप से प्रशिक्षण या अनुसंधान के उद्देश्य से",
+      "sentence": [
+        {
+          "sentence": "The simulation of the flight was very realistic.",
+          "translation": "उड़ान का सिमुलेशन बहुत वास्तविक था।"
+        },
+        {
+          "sentence": "The company uses simulation to test its new products.",
+          "translation": "कंपनी अपने नए उत्पादों को परीक्षण करने के लिए सिमुलेशन का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Goggles",
+      "phoneticRespelling": "ˈɡɒɡ.əlz",
+      "translation": "गॉगल्स",
+      "definition": "A pair of glasses with lenses that are designed to protect the eyes, typically from wind, dust, or chemicals",
+      "definationTranslation": "एक जोड़ी चश्मे के साथ लेंस जो आंखों की रक्षा के लिए डिज़ाइन किए गए हैं, आमतौर पर हवा, धूल या रसायनों से",
+      "sentence": [
+        {
+          "sentence": "The virtual reality goggles provided a 3D view.",
+          "translation": "आभासी वास्तविकता गॉगल्स ने 3D दृश्य प्रदान किया।"
+        },
+        {
+          "sentence": "She wore goggles to protect her eyes while swimming.",
+          "translation": "उसने तैराकी करते समय अपनी आंखों की रक्षा के लिए गॉगल्स पहने थे।"
+        }
+      ]
+    },
+    {
+      "word": "Controller",
+      "phoneticRespelling": "kənˈtrōl.ər",
+      "translation": "नियंत्रक",
+      "definition": "A device that controls the operation of a machine or system",
+      "definationTranslation": "एक उपकरण जो एक मशीन या प्रणाली के संचालन को नियंत्रित करता है",
+      "sentence": [
+        {
+          "sentence": "The virtual reality controller allowed her to interact with the virtual world.",
+          "translation": "आभासी वास्तविकता नियंत्रक ने उसे आभासी दुनिया के साथ बातचीत करने की अनुमति दी।"
+        },
+        {
+          "sentence": "The game controller was very responsive.",
+          "translation": "गेम नियंत्रक बहुत प्रतिक्रियाशील था।"
+        }
+      ]
+    },
+    {
+      "word": "Sensors",
+      "phoneticRespelling": "ˈsɛn.sərz",
+      "translation": "सेंसर",
+      "definition": "Devices that detect and respond to physical parameters, such as temperature, light, or motion",
+      "definationTranslation": "उपकरण जो भौतिक मापदंडों का पता लगाते हैं और प्रतिक्रिया करते हैं, जैसे कि तापमान, प्रकाश, या गति",
+      "sentence": [
+        {
+          "sentence": "The virtual reality headset used sensors to track the user's movements.",
+          "translation": "आभासी वास्तविकता हेडसेट ने उपयोगकर्ता की गतिविधियों को ट्रैक करने के लिए सेंसर का उपयोग किया।"
+        },
+        {
+          "sentence": "The car's sensors detected the obstacle and applied the brakes.",
+          "translation": "कार के सेंसर ने बाधा का पता लगाया और ब्रेक लगा दिए।"
+        }
+      ]
+    },
+    {
+      "word": "Interface",
+      "phoneticRespelling": "ˈɪn.tər.feɪs",
+      "translation": "इंटरफ़ेस",
+      "definition": "A point of interaction between two systems, devices, or environments",
+      "definationTranslation": "दो प्रणालियों, उपकरणों या वातावरणों के बीच परस्पर क्रिया का बिंदु",
+      "sentence": [
+        {
+          "sentence": "The user interface of the virtual reality system was very intuitive.",
+          "translation": "आभासी वास्तविकता प्रणाली का उपयोगकर्ता इंटरफ़ेस बहुत直觀 था।"
+        },
+        {
+          "sentence": "The interface between the computer and the printer was not working properly.",
+          "translation": "कंप्यूटर और प्रिंटर के बीच इंटरफ़ेस ठीक से काम नहीं कर रहा था।"
+        }
+      ]
+    },
+    {
+      "word": "Feedback",
+      "phoneticRespelling": "ˈfiːd.bæk",
+      "translation": "प्रतिक्रिया",
+      "definition": "Information or comments about someone's performance or work, used as a basis for improvement",
+      "definationTranslation": "किसी के प्रदर्शन या काम के बारे में जानकारी या टिप्पणियां, जो सुधार के लिए आधार के रूप में उपयोग की जाती हैं",
+      "sentence": [
+        {
+          "sentence": "The virtual reality system provided feedback to the user through vibrations.",
+          "translation": "आभासी वास्तविकता प्रणाली ने उपयोगकर्ता को कंपन के माध्यम से प्रतिक्रिया प्रदान की।"
+        },
+        {
+          "sentence": "She asked for feedback on her presentation from her colleagues.",
+          "translation": "उसने अपने सहयोगियों से अपनी प्रस्तुति पर प्रतिक्रिया मांगी।"
+        }
+      ]
+    },
+    {
+      "word": "Gaming",
+      "phoneticRespelling": "ˈɡeɪ.mɪŋ",
+      "translation": "गेमिंग",
+      "definition": "The activity of playing games, especially video games",
+      "definationTranslation": "खेल खेलने की गतिविधि, विशेष रूप से वीडियो गेम",
+      "sentence": [
+        {
+          "sentence": "The virtual reality gaming experience was very immersive.",
+          "translation": "आभासी वास्तविकता गेमिंग अनुभव बहुत विसर्जन था।"
+        },
+        {
+          "sentence": "He spent most of his free time gaming.",
+          "translation": "उसने अपने अधिकांश खाली समय गेमिंग में बिताया।"
+        }
+      ]
+    },
+    {
+      "word": "Console",
+      "phoneticRespelling": "kənˈsoʊl",
+      "translation": "कंसोल",
+      "definition": "An electronic device that is used to control and play video games",
+      "definationTranslation": "एक इलेक्ट्रॉनिक उपकरण जो वीडियो गेम को नियंत्रित और खेलने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The virtual reality console was very expensive.",
+          "translation": "आभासी वास्तविकता कंसोल बहुत महंगा था।"
+        },
+        {
+          "sentence": "He bought a new gaming console for his birthday.",
+          "translation": "उसने अपने जन्मदिन के लिए एक नया गेमिंग कंसोल खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Haptic",
+      "phoneticRespelling": "ˈhæp.tɪk",
+      "translation": "स्पर्श",
+      "definition": "Relating to the sense of touch, especially in relation to technology that simulates the sense of touch",
+      "definationTranslation": "स्पर्श की भावना से संबंधित, विशेष रूप से प्रौद्योगिकी के संबंध में जो स्पर्श की भावना को अनुकरण करती है",
+      "sentence": [
+        {
+          "sentence": "The haptic feedback in the virtual reality system was very realistic.",
+          "translation": "आभासी वास्तविकता प्रणाली में स्पर्श प्रतिक्रिया बहुत वास्तविक थी।"
+        },
+        {
+          "sentence": "The haptic technology allowed her to feel the texture of the virtual objects.",
+          "translation": "स्पर्श प्रौद्योगिकी ने उसे आभासी वस्तुओं की बनावट को महसूस करने की अनुमति दी।"
+        }
+      ]
+    },
+    {
+      "word": "Immersive",
+      "phoneticRespelling": "ɪˈmɜːr.sɪv",
+      "translation": "विसर्जन",
+      "definition": "Giving a person a strong feeling of being completely involved in something",
+      "definationTranslation": "किसी व्यक्ति को पूरी तरह से किसी चीज़ में शामिल होने की एक मजबूत भावना देना",
+      "sentence": [
+        {
+          "sentence": "The immersive experience of the virtual reality system was amazing.",
+          "translation": "आभासी वास्तविकता प्रणाली का विसर्जन अनुभव अद्भुत था।"
+        },
+        {
+          "sentence": "The immersive nature of the movie made her feel like she was part of the story.",
+          "translation": "फिल्म की विसर्जन प्रकृति ने उसे ऐसा महसूस कराया जैसे कि वह कहानी का हिस्सा थी।"
+        }
+      ]
+    },
+    {
+      "word": "Interactive",
+      "phoneticRespelling": "ɪn.tərˈæk.tɪv",
+      "translation": "अंतरक्रियात्मक",
+      "definition": "Allowing or involving the exchange of information or communication between people or devices",
+      "definationTranslation": "लोगों या उपकरणों के बीच जानकारी या संचार के आदान-प्रदान की अनुमति देना या उसमें शामिल होना",
+      "sentence": [
+        {
+          "sentence": "The interactive virtual reality system allowed users to engage with the virtual world.",
+          "translation": "अंतरक्रियात्मक आभासी वास्तविकता प्रणाली ने उपयोगकर्ताओं को आभासी दुनिया के साथ जुड़ने की अनुमति दी।"
+        },
+        {
+          "sentence": "The interactive exhibition was very engaging.",
+          "translation": "अंतरक्रियात्मक प्रदर्शनी बहुत आकर्षक थी।"
+        }
+      ]
+    },
+    {
+      "word": "Motion",
+      "phoneticRespelling": "ˈmoʊ.ʃən",
+      "translation": "गति",
+      "definition": "The act of moving or a change in position",
+      "definationTranslation": "गति करने या स्थिति में परिवर्तन का कार्य",
+      "sentence": [
+        {
+          "sentence": "The motion sensors in the virtual reality system detected the user's movements.",
+          "translation": "आभासी वास्तविकता प्रणाली में गति सेंसर ने उपयोगकर्ता की गतिविधियों का पता लगाया।"
+        },
+        {
+          "sentence": "The motion of the train was smooth.",
+          "translation": "रेलगाड़ी की गति चिकनी थी।"
+        }
+      ]
+    },
+    {
+      "word": "Tracking",
+      "phoneticRespelling": "ˈtræk.ɪŋ",
+      "translation": "ट्रैकिंग",
+      "definition": "The act of following or monitoring the movement or progress of something",
+      "definationTranslation": "किसी चीज़ की गति या प्रगति का अनुसरण या निगरानी करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The virtual reality system used tracking technology to follow the user's movements.",
+          "translation": "आभासी वास्तविकता प्रणाली ने उपयोगकर्ता की गतिविधियों का अनुसरण करने के लिए ट्रैकिंग प्रौद्योगिकी का उपयोग किया।"
+        },
+        {
+          "sentence": "The company uses tracking software to monitor its shipments.",
+          "translation": "कंपनी अपने शिपमेंट की निगरानी के लिए ट्रैकिंग सॉफ़्टवेयर का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Visual",
+      "phoneticRespelling": "ˈvɪʒ.u.əl",
+      "translation": "दृश्य",
+      "definition": "Relating to the sense of sight or the ability to see",
+      "definationTranslation": "दृष्टि की भावना या देखने की क्षमता से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The visual effects in the virtual reality system were stunning.",
+          "translation": "आभासी वास्तविकता प्रणाली में दृश्य प्रभाव चौंकाने वाले थे।"
+        },
+        {
+          "sentence": "The visual display of the data was very helpful.",
+          "translation": "डेटा का दृश्य प्रदर्शन बहुत सहायक था।"
+        }
+      ]
+    },
+    {
+      "word": "Environment",
+      "phoneticRespelling": "ɪnˈvaɪ.rən.mənt",
+      "translation": "पर्यावरण",
+      "definition": "The external surroundings or conditions in which something exists or operates",
+      "definationTranslation": "बाहरी परिवेश या परिस्थितियाँ जिनमें कुछ अस्तित्व में है या संचालित होता है",
+      "sentence": [
+        {
+          "sentence": "The virtual reality environment was very realistic.",
+          "translation": "आभासी वास्तविकता पर्यावरण बहुत वास्तविक था।"
+        },
+        {
+          "sentence": "The company is working to reduce its impact on the environment.",
+          "translation": "कंपनी पर्यावरण पर अपने प्रभाव को कम करने के लिए काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Technology",
+      "phoneticRespelling": "tɛkˈnɒl.ə.dʒi",
+      "translation": "प्रौद्योगिकी",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry",
+      "definationTranslation": "व्यावहारिक उद्देश्यों के लिए वैज्ञानिक ज्ञान का अनुप्रयोग, विशेष रूप से उद्योग में",
+      "sentence": [
+        {
+          "sentence": "The virtual reality technology is advancing rapidly.",
+          "translation": "आभासी वास्तविकता प्रौद्योगिकी तेजी से आगे बढ़ रही है।"
+        },
+        {
+          "sentence": "The company invests heavily in new technology.",
+          "translation": "कंपनी नई प्रौद्योगिकी में भारी निवेश करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Computer",
+      "phoneticRespelling": "kəmˈpjuː.tər",
+      "translation": "कंप्यूटर",
+      "definition": "An electronic device for storing and processing data",
+      "definationTranslation": "डेटा को संग्रहीत और प्रोसेस करने के लिए एक इलेक्ट्रॉनिक उपकरण",
+      "sentence": [
+        {
+          "sentence": "The virtual reality system used a powerful computer to process the graphics.",
+          "translation": "आभासी वास्तविकता प्रणाली ने ग्राफिक्स को प्रोसेस करने के लिए एक शक्तिशाली कंप्यूटर का उपयोग किया।"
+        },
+        {
+          "sentence": "She used her computer to work from home.",
+          "translation": "उसने घर से काम करने के लिए अपने कंप्यूटर का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Design",
+      "phoneticRespelling": "dɪˈzaɪn",
+      "translation": "डिज़ाइन",
+      "definition": "A plan or drawing that shows how something is to be made or constructed",
+      "definationTranslation": "एक योजना या चित्र जो दिखाता है कि कुछ कैसे बनाया जाना है या निर्मित किया जाना है",
+      "sentence": [
+        {
+          "sentence": "The design of the virtual reality system was very innovative.",
+          "translation": "आभासी वास्तविकता प्रणाली का डिज़ाइन बहुत नवाचारी था।"
+        },
+        {
+          "sentence": "She studied design in college.",
+          "translation": "उसने कॉलेज में डिज़ाइन का अध्ययन किया।"
+        }
+      ]
+    },
+    {
+      "word": "Experience",
+      "phoneticRespelling": "ɛkˈspɪə.rɪəns",
+      "translation": "अनुभव",
+      "definition": "A person's knowledge or skill gained from what they have done or seen",
+      "definationTranslation": "एक व्यक्ति का ज्ञान या कौशल जो उन्होंने जो किया है या देखा है उसे प्राप्त किया है",
+      "sentence": [
+        {
+          "sentence": "The virtual reality experience was very memorable.",
+          "translation": "आभासी वास्तविकता अनुभव बहुत यादगार था।"
+        },
+        {
+          "sentence": "She has a lot of experience in marketing.",
+          "translation": "उसके पास विपणन में बहुत अनुभव है।"
+        }
+      ]
+    },
+    {
+      "word": "Simulation",
+      "phoneticRespelling": "sɪm.jʊˈleɪ.ʃən",
+      "translation": "सिमुलेशन",
+      "definition": "The act of imitating the appearance or character of something, especially for the purpose of training or research",
+      "definationTranslation": "किसी चीज़ की उपस्थिति या चरित्र की नकल करने का कार्य, विशेष रूप से प्रशिक्षण या अनुसंधान के उद्देश्य से",
+      "sentence": [
+        {
+          "sentence": "The simulation of the flight was very realistic.",
+          "translation": "उड़ान का सिमुलेशन बहुत वास्तविक था।"
+        },
+        {
+          "sentence": "The company uses simulation to test its new products.",
+          "translation": "कंपनी अपने नए उत्पादों को परीक्षण करने के लिए सिमुलेशन का उपयोग करती है।"
+        }
+      ]
+    }
+  ]
 }

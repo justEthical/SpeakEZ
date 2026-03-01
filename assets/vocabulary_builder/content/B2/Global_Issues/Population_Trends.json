@@ -1,4 +1,311 @@
 {
   "topic": "Population Trends",
-  "words": []
+  "words": [
+    {
+      "word": "urbanization",
+      "phoneticRespelling": "ur-buh-nuh-ZAY-shun",
+      "translation": "शहरीकरण",
+      "definition": "the process of people moving from rural areas to cities",
+      "definationTranslation": "ग्रामीण क्षेत्रों से शहरों में लोगों के जाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The government is working to reduce urbanization by creating jobs in rural areas.",
+          "translation": "सरकार ग्रामीण क्षेत्रों में रोजगार создाकर शहरीकरण को कम करने का काम कर रही है।"
+        },
+        {
+          "sentence": "Urbanization has led to an increase in pollution and traffic congestion in cities.",
+          "translation": "शहरीकरण के कारण शहरों में प्रदूषण और यातायात की भीड़ बढ़ गई है।"
+        }
+      ]
+    },
+    {
+      "word": "migration",
+      "phoneticRespelling": "my-GREY-shun",
+      "translation": "प्रवासन",
+      "definition": "the movement of people from one place to another",
+      "definationTranslation": "एक स्थान से दूसरे स्थान पर लोगों की आवाजाही",
+      "sentence": [
+        {
+          "sentence": "The country has seen a significant increase in migration due to economic instability.",
+          "translation": "आर्थिक अस्थिरता के कारण देश में प्रवासन में उल्लेखनीय वृद्धि हुई है।"
+        },
+        {
+          "sentence": "Migration can have both positive and negative effects on the economy and society.",
+          "translation": "प्रवासन का अर्थव्यवस्था और समाज पर सकारात्मक और नकारात्मक दोनों प्रभाव पड़ सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "demography",
+      "phoneticRespelling": "de-MAH-gruh-fee",
+      "translation": "जनसांख्यिकी",
+      "definition": "the study of the characteristics of a population",
+      "definationTranslation": "एक जनसंख्या की विशेषताओं का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Demography is an important tool for understanding population trends and making informed decisions.",
+          "translation": "जनसांख्यिकी जनसंख्या की प्रवृत्तियों को समझने और सूचित निर्णय लेने के लिए एक महत्वपूर्ण औजार है।"
+        },
+        {
+          "sentence": "The demography of a country can affect its economy, politics, and social structures.",
+          "translation": "किसी देश की जनसांख्यिकी उसकी अर्थव्यवस्था, राजनीति और सामाजिक संरचनाओं को प्रभावित कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "population growth",
+      "phoneticRespelling": "pah-pyoo-LEY-shun GROH-th",
+      "translation": "जनसंख्या वृद्धि",
+      "definition": "the increase in the number of people in a population",
+      "definationTranslation": "एक जनसंख्या में लोगों की संख्या में वृद्धि",
+      "sentence": [
+        {
+          "sentence": "The country is experiencing rapid population growth, which is putting a strain on its resources.",
+          "translation": "देश तेजी से जनसंख्या वृद्धि का अनुभव कर रहा है, जो इसके संसाधनों पर दबाव डाल रहा है।"
+        },
+        {
+          "sentence": "Population growth can lead to increased competition for jobs, housing, and other resources.",
+          "translation": "जनसंख्या वृद्धि नौकरियों, आवास और अन्य संसाधनों के लिए बढ़ी हुई प्रतिस्पर्धा का कारण बन सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "fertility rate",
+      "phoneticRespelling": "fur-TIL-i-tee RAYT",
+      "translation": "प्रजनन दर",
+      "definition": "the average number of children born to a woman in her lifetime",
+      "definationTranslation": "एक महिला के जीवनकाल में औसतन पैदा होने वाले बच्चों की संख्या",
+      "sentence": [
+        {
+          "sentence": "The fertility rate in the country has been declining due to increased access to education and family planning.",
+          "translation": "देश में प्रजनन दर शिक्षा और परिवार नियोजन तक बढ़े हुए पहुंच के कारण घट रही है।"
+        },
+        {
+          "sentence": "A low fertility rate can lead to an aging population and a shortage of workers.",
+          "translation": "कम प्रजनन दर एक बुजुर्ग जनसंख्या और श्रमिकों की कमी का कारण बन सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "mortality rate",
+      "phoneticRespelling": "mawr-TAL-i-tee RAYT",
+      "translation": "मृत्यु दर",
+      "definition": "the number of deaths per 1,000 people in a population",
+      "definationTranslation": "एक जनसंख्या में 1,000 लोगों में मृत्यु की संख्या",
+      "sentence": [
+        {
+          "sentence": "The mortality rate in the country has decreased significantly due to improvements in healthcare.",
+          "translation": "स्वास्थ्य सेवा में सुधार के कारण देश में मृत्यु दर में काफी कमी आई है।"
+        },
+        {
+          "sentence": "A high mortality rate can be an indicator of poor living conditions and inadequate healthcare.",
+          "translation": "उच्च मृत्यु दर खराब जीवन स्थितियों और अपर्याप्त स्वास्थ्य सेवा का संकेतक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "life expectancy",
+      "phoneticRespelling": "LIEF ek-SPEK-tuh-see",
+      "translation": "आयु प्रत्याशा",
+      "definition": "the average number of years a person is expected to live",
+      "definationTranslation": "एक व्यक्ति को जीने के लिए अपेक्षित औसत वर्षों की संख्या",
+      "sentence": [
+        {
+          "sentence": "The life expectancy in the country has increased significantly due to improvements in healthcare and living standards.",
+          "translation": "स्वास्थ्य सेवा और जीवन स्तर में सुधार के कारण देश में आयु प्रत्याशा में काफी वृद्धि हुई है।"
+        },
+        {
+          "sentence": "A high life expectancy can be an indicator of good living conditions and access to quality healthcare.",
+          "translation": "उच्च आयु प्रत्याशा अच्छी जीवन स्थितियों और गुणवत्तापूर्ण स्वास्थ्य सेवा तक पहुंच का संकेतक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "aging population",
+      "phoneticRespelling": "AY-jing pah-pyoo-LEY-shun",
+      "translation": "बुजुर्ग जनसंख्या",
+      "definition": "a population with a high proportion of older people",
+      "definationTranslation": "एक जनसंख्या जिसमें वृद्ध लोगों का उच्च अनुपात है",
+      "sentence": [
+        {
+          "sentence": "The country is experiencing an aging population, which is putting a strain on its pension and healthcare systems.",
+          "translation": "देश एक बुजुर्ग जनसंख्या का अनुभव कर रहा है, जो इसके पेंशन और स्वास्थ्य सेवा प्रणालियों पर दबाव डाल रहा है।"
+        },
+        {
+          "sentence": "An aging population can lead to a shortage of workers and a decrease in economic growth.",
+          "translation": "बुजुर्ग जनसंख्या श्रमिकों की कमी और आर्थिक विकास में कमी का कारण बन सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "youth population",
+      "phoneticRespelling": "YOOTH pah-pyoo-LEY-shun",
+      "translation": "युवा जनसंख्या",
+      "definition": "a population with a high proportion of young people",
+      "definationTranslation": "एक जनसंख्या जिसमें युवा लोगों का उच्च अनुपात है",
+      "sentence": [
+        {
+          "sentence": "The country has a large youth population, which is a significant asset for its economic development.",
+          "translation": "देश में एक बड़ी युवा जनसंख्या है, जो इसके आर्थिक विकास के लिए एक महत्वपूर्ण संपत्ति है।"
+        },
+        {
+          "sentence": "A youth population can bring new ideas and energy to a country, but it can also lead to unemployment and social unrest.",
+          "translation": "एक युवा जनसंख्या एक देश में नई विचारधारा और ऊर्जा ला सकती है, लेकिन यह बेरोजगारी और सामाजिक अशांति का कारण भी बन सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "population density",
+      "phoneticRespelling": "pah-pyoo-LEY-shun DEN-si-tee",
+      "translation": "जनसंख्या घनत्व",
+      "definition": "the number of people per unit area of land",
+      "definationTranslation": "भूमि के एक इकाई क्षेत्र में लोगों की संख्या",
+      "sentence": [
+        {
+          "sentence": "The population density in the city is very high, which can lead to overcrowding and pollution.",
+          "translation": "शहर में जनसंख्या घनत्व बहुत अधिक है, जो भीड़भाड़ और प्रदूषण का कारण बन सकता है।"
+        },
+        {
+          "sentence": "A high population density can put a strain on a country's resources and infrastructure.",
+          "translation": "उच्च जनसंख्या घनत्व एक देश के संसाधनों और बुनियादी ढांचे पर दबाव डाल सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "urban sprawl",
+      "phoneticRespelling": "UR-bun SPRAWL",
+      "translation": "शहरी विस्तार",
+      "definition": "the spreading of a city into surrounding areas",
+      "definationTranslation": "एक शहर का आसपास के क्षेत्रों में फैलाव",
+      "sentence": [
+        {
+          "sentence": "The city is experiencing urban sprawl, which is leading to the destruction of natural habitats and increased traffic congestion.",
+          "translation": "शहर शहरी विस्तार का अनुभव कर रहा है, जो प्राकृतिक आवासों के विनाश और यातायात की भीड़ बढ़ने का कारण बन रहा है।"
+        },
+        {
+          "sentence": "Urban sprawl can lead to a decrease in air quality and an increase in pollution.",
+          "translation": "शहरी विस्तार वायु गुणवत्ता में कमी और प्रदूषण में वृद्धि का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "sustainability",
+      "phoneticRespelling": "suh-STAY-nuh-bil-i-tee",
+      "translation": "टिकाऊपन",
+      "definition": "the ability to maintain or support a process without depleting resources",
+      "definationTranslation": "एक प्रक्रिया को संसाधनों को समाप्त किए बिना बनाए रखने या समर्थन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company is working to improve its sustainability by reducing waste and increasing energy efficiency.",
+          "translation": "कंपनी अपशिष्ट को कम करने और ऊर्जा दक्षता में वृद्धि करके अपने टिकाऊपन में सुधार करने का काम कर रही है।"
+        },
+        {
+          "sentence": "Sustainability is essential for ensuring that a population can thrive without harming the environment.",
+          "translation": "टिकाऊपन पर्यावरण को नुकसान पहुंचाए बिना एक जनसंख्या को समृद्धि प्राप्त करने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "environmental impact",
+      "phoneticRespelling": "en-VIE-ruh-nmeht-ul IM-pakt",
+      "translation": "पर्यावरणीय प्रभाव",
+      "definition": "the effect of human activities on the environment",
+      "definationTranslation": "मानव गतिविधियों का पर्यावरण पर प्रभाव",
+      "sentence": [
+        {
+          "sentence": "The environmental impact of the new development project is a major concern for the local community.",
+          "translation": "नए विकास परियोजना का पर्यावरणीय प्रभाव स्थानीय समुदाय के लिए एक बड़ी चिंता है।"
+        },
+        {
+          "sentence": "The company is working to minimize its environmental impact by reducing waste and increasing recycling.",
+          "translation": "कंपनी अपशिष्ट को कम करने और पुनर्चक्रण में वृद्धि करके अपने पर्यावरणीय प्रभाव को कम करने का काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "ecosystem",
+      "phoneticRespelling": "EH-koh-sis-tuhm",
+      "translation": "पारिस्थितिकी तंत्र",
+      "definition": "a community of living and non-living things that interact with each other",
+      "definationTranslation": "एक जीवित और अजीवित चीजों का समुदाय जो एक दूसरे के साथ परस्पर क्रिया करता है",
+      "sentence": [
+        {
+          "sentence": "The ecosystem of the forest is fragile and can be easily damaged by human activities.",
+          "translation": "वन का पारिस्थितिकी तंत्र नाजुक है और मानव गतिविधियों से आसानी से क्षतिग्रस्त हो सकता है।"
+        },
+        {
+          "sentence": "The health of an ecosystem is essential for maintaining biodiversity and supporting life.",
+          "translation": "एक पारिस्थितिकी तंत्र का स्वास्थ्य जैव विविधता को बनाए रखने और जीवन को समर्थन देने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "biodiversity",
+      "phoneticRespelling": "BY-oh-dy-VER-si-tee",
+      "translation": "जैव विविधता",
+      "definition": "the variety of different species of plants and animals in an ecosystem",
+      "definationTranslation": "एक पारिस्थितिकी तंत्र में पौधों और जानवरों की विभिन्न प्रजातियों की विविधता",
+      "sentence": [
+        {
+          "sentence": "The biodiversity of the rainforest is being threatened by deforestation and climate change.",
+          "translation": "वर्षा वन की जैव विविधता वनस्पति विनाश और जलवायु परिवर्तन से खतरे में है।"
+        },
+        {
+          "sentence": "Maintaining biodiversity is essential for ensuring the health and resilience of an ecosystem.",
+          "translation": "जैव विविधता को बनाए रखना एक पारिस्थितिकी तंत्र के स्वास्थ्य और लचीलापन को सुनिश्चित करने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "conservation",
+      "phoneticRespelling": "kahn-sur-VAY-shun",
+      "translation": "संरक्षण",
+      "definition": "the act of preserving or protecting something, especially the environment",
+      "definationTranslation": "कुछ को संरक्षित या सुरक्षित करने का कार्य, विशेष रूप से पर्यावरण",
+      "sentence": [
+        {
+          "sentence": "The organization is working to promote conservation efforts and protect endangered species.",
+          "translation": "संगठन संरक्षण प्रयासों को बढ़ावा देने और लुप्तप्राय प्रजातियों की रक्षा के लिए काम कर रहा है।"
+        },
+        {
+          "sentence": "Conservation is essential for maintaining the health and beauty of the natural world.",
+          "translation": "संरक्षण प्राकृतिक世界 के स्वास्थ्य और सौंदर्य को बनाए रखने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "resource management",
+      "phoneticRespelling": "REH-sors MAN-ij-ment",
+      "translation": "संसाधन प्रबंधन",
+      "definition": "the process of planning, organizing, and controlling the use of resources",
+      "definationTranslation": "संसाधनों के उपयोग की योजना, संगठन और नियंत्रण की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company is working to improve its resource management to reduce waste and increase efficiency.",
+          "translation": "कंपनी अपशिष्ट को कम करने और दक्षता में वृद्धि करने के लिए अपने संसाधन प्रबंधन में सुधार करने का काम कर रही है।"
+        },
+        {
+          "sentence": "Effective resource management is essential for achieving sustainability and minimizing environmental impact.",
+          "translation": "प्रभावी संसाधन प्रबंधन टिकाऊपन हासिल करने और पर्यावरणीय प्रभाव को कम करने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "sustainable development",
+      "phoneticRespelling": "suh-STAY-nuh-bul dih-VEL-uhp-muhnt",
+      "translation": "टिकाऊ विकास",
+      "definition": "development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+      "definationTranslation": "विकास जो वर्तमान की जरूरतों को पूरा करता है बिना भविष्य की पीढ़ियों की अपनी जरूरतों को पूरा करने की क्षमता को खतरे में डाले",
+      "sentence": [
+        {
+          "sentence": "The company is committed to sustainable development and is working to reduce its environmental impact.",
+          "translation": "कंपनी टिकाऊ विकास के लिए प्रतिबद्ध है और अपने पर्यावरणीय प्रभाव को कम करने का काम कर रही है।"
+        },
+        {
+          "sentence": "Sustainable development is essential for ensuring that the needs of present and future generations are met.",
+          "translation": "टिकाऊ विकास वर्तमान और भविष्य की पीढ़ियों की जरूरतों को पूरा करने के लिए आवश्यक है।"
+        }
+      ]
+    }
+  ]
 }

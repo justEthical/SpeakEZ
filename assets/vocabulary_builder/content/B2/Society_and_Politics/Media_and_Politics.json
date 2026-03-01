@@ -1,4 +1,362 @@
 {
   "topic": "Media and Politics",
-  "words": []
+  "words": [
+    {
+      "word": "Democracy",
+      "phoneticRespelling": "dɪˈmɑkrəsi",
+      "translation": "लोकतंत्र",
+      "definition": "A system of government where power is held by the people, either directly or through elected representatives",
+      "definationTranslation": "एक प्रणाली जिसमें सरकार की शक्ति लोगों के पास होती है, या तो सीधे या चुने हुए प्रतिनिधियों के माध्यम से",
+      "sentence": [
+        {
+          "sentence": "The country transitioned to democracy after decades of authoritarian rule.",
+          "translation": "देश ने कई दशकों के अधिनायकवादी शासन के बाद लोकतंत्र में परिवर्तन किया।"
+        },
+        {
+          "sentence": "Democracy is the best system of government, as it gives power to the people.",
+          "translation": "लोकतंत्र सरकार की सबसे अच्छी प्रणाली है, क्योंकि यह लोगों को शक्ति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Journalist",
+      "phoneticRespelling": "ˈdʒərnəlɪst",
+      "translation": "पत्रकार",
+      "definition": "A person who writes or reports news for a newspaper, magazine, or broadcast.",
+      "definationTranslation": "एक व्यक्ति जो समाचार पत्र, पत्रिका या प्रसारण के लिए समाचार लिखता है या रिपोर्ट करता है।",
+      "sentence": [
+        {
+          "sentence": "The journalist was investigating a story about government corruption.",
+          "translation": "पत्रकार सरकारी भ्रष्टाचार के बारे में एक कहानी की जांच कर रहे थे।"
+        },
+        {
+          "sentence": "She is a famous journalist who has written many books on politics.",
+          "translation": "वह एक प्रसिद्ध पत्रकार हैं जिन्होंने राजनीति पर कई पुस्तकें लिखी हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Campaign",
+      "phoneticRespelling": "kæmˈpeɪn",
+      "translation": "अभियान",
+      "definition": "A series of activities or events designed to achieve a particular goal or promote a particular idea.",
+      "definationTranslation": "एक विशिष्ट लक्ष्य को प्राप्त करने या एक विशिष्ट विचार को बढ़ावा देने के लिए डिज़ाइन की गई गतिविधियों या घटनाओं की श्रृंखला।",
+      "sentence": [
+        {
+          "sentence": "The politician launched a campaign to become the next president.",
+          "translation": "राजनेता ने अगले राष्ट्रपति बनने के लिए एक अभियान शुरू किया।"
+        },
+        {
+          "sentence": "The company is running a campaign to promote its new product.",
+          "translation": "कंपनी अपने नए उत्पाद को बढ़ावा देने के लिए एक अभियान चला रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Debate",
+      "phoneticRespelling": "dɪˈbeɪt",
+      "translation": "वाद-विवाद",
+      "definition": "A discussion or argument between two or more people, especially about a political or public issue.",
+      "definationTranslation": "दो या दो से अधिक लोगों के बीच एक चर्चा या तर्क, विशेष रूप से एक राजनीतिक या सार्वजनिक मुद्दे के बारे में।",
+      "sentence": [
+        {
+          "sentence": "The candidates participated in a debate on live television.",
+          "translation": "उम्मीदवारों ने लाइव टेलीविजन पर एक वाद-विवाद में भाग लिया।"
+        },
+        {
+          "sentence": "The students had a heated debate about the pros and cons of social media.",
+          "translation": "छात्रों ने सोशल मीडिया के पक्ष और विपक्ष पर एक गर्म बहस की।"
+        }
+      ]
+    },
+    {
+      "word": "Election",
+      "phoneticRespelling": "ɪˈlɛkʃən",
+      "translation": "चुनाव",
+      "definition": "A process in which people vote to choose their representatives or leaders.",
+      "definationTranslation": "एक प्रक्रिया जिसमें लोग अपने प्रतिनिधियों या नेताओं को चुनने के लिए मतदान करते हैं।",
+      "sentence": [
+        {
+          "sentence": "The country is gearing up for the upcoming election.",
+          "translation": "देश आगामी चुनाव के लिए तैयार हो रहा है।"
+        },
+        {
+          "sentence": "The election results were announced after a week of counting votes.",
+          "translation": "वोटों की गणना के एक सप्ताह बाद चुनाव परिणाम घोषित किए गए।"
+        }
+      ]
+    },
+    {
+      "word": "Government",
+      "phoneticRespelling": "ˈɡʌvərmənt",
+      "translation": "सरकार",
+      "definition": "The system or group of people that exercises authority and control over a country or state.",
+      "definationTranslation": "वह प्रणाली या लोगों का समूह जो एक देश या राज्य पर अधिकार और नियंत्रण का प्रयोग करता है।",
+      "sentence": [
+        {
+          "sentence": "The government has announced a new policy to boost the economy.",
+          "translation": "सरकार ने अर्थव्यवस्था को बढ़ावा देने के लिए एक नई नीति की घोषणा की है।"
+        },
+        {
+          "sentence": "The government is responsible for providing basic amenities to its citizens.",
+          "translation": "सरकार को अपने नागरिकों को बुनियादी सुविधाएं प्रदान करने के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Media",
+      "phoneticRespelling": "ˈmiːdiə",
+      "translation": "मीडिया",
+      "definition": "The main means of mass communication, including television, radio, and newspapers.",
+      "definationTranslation": "मुख्य माध्यमों से द्रव्यमान संचार, जिसमें टेलीविजन, रेडियो और समाचार पत्र शामिल हैं।",
+      "sentence": [
+        {
+          "sentence": "The media plays a crucial role in shaping public opinion.",
+          "translation": "मीडिया जनमत बनाने में एक महत्वपूर्ण भूमिका निभाता है।"
+        },
+        {
+          "sentence": "Social media has become an essential tool for businesses to reach their target audience.",
+          "translation": "सोशल मीडिया व्यवसायों के लिए अपने लक्ष्य दर्शकों तक पहुंचने के लिए एक आवश्यक उपकरण बन गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Politician",
+      "phoneticRespelling": "ˈpɑlɪtɪʃən",
+      "translation": "राजनेता",
+      "definition": "A person who is involved in politics, especially as a member of a government or legislature.",
+      "definationTranslation": "एक व्यक्ति जो राजनीति में शामिल है, विशेष रूप से एक सरकार या विधायिका के सदस्य के रूप में।",
+      "sentence": [
+        {
+          "sentence": "The politician was accused of corruption and resigned from his post.",
+          "translation": "राजनेता पर भ्रष्टाचार का आरोप लगाया गया और उन्होंने अपने पद से इस्तीफा दे दिया।"
+        },
+        {
+          "sentence": "She is a renowned politician who has been in office for over two decades.",
+          "translation": "वह एक प्रसिद्ध राजनेता हैं जो दो दशक से अधिक समय से पद पर हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Propaganda",
+      "phoneticRespelling": "prɒpəˈɡændə",
+      "translation": "प्रचार",
+      "definition": "Information, especially of a biased or misleading nature, used to promote a political cause or point of view.",
+      "definationTranslation": "जानकारी, विशेष रूप से पूर्वाग्रहपूर्ण या भ्रामक प्रकृति की, एक राजनीतिक कारण या दृष्टिकोण को बढ़ावा देने के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The government was accused of spreading propaganda to influence public opinion.",
+          "translation": "सरकार पर जनमत को प्रभावित करने के लिए प्रचार फैलाने का आरोप लगाया गया।"
+        },
+        {
+          "sentence": "The company used propaganda to promote its new product and increase sales.",
+          "translation": "कंपनी ने अपने नए उत्पाद को बढ़ावा देने और बिक्री बढ़ाने के लिए प्रचार किया।"
+        }
+      ]
+    },
+    {
+      "word": "Protest",
+      "phoneticRespelling": "ˈproʊtɛst",
+      "translation": "विरोध",
+      "definition": "A statement or action expressing disapproval or objection, especially a public demonstration.",
+      "definationTranslation": "एक बयान या कार्य जो अस्वीकृति या आपत्ति को व्यक्त करता है, विशेष रूप से एक सार्वजनिक प्रदर्शन।",
+      "sentence": [
+        {
+          "sentence": "The students organized a protest against the government's new policy.",
+          "translation": "छात्रों ने सरकार की नई नीति के खिलाफ एक विरोध प्रदर्शन का आयोजन किया।"
+        },
+        {
+          "sentence": "The workers went on strike to protest against the company's decision.",
+          "translation": "कर्मचारियों ने कंपनी के फैसले के खिलाफ विरोध में हड़ताल पर गए।"
+        }
+      ]
+    },
+    {
+      "word": "Reform",
+      "phoneticRespelling": "rɪˈfɔrm",
+      "translation": "सुधार",
+      "definition": "The act of changing something, especially a system or institution, in order to improve it.",
+      "definationTranslation": "किसी चीज़ को बदलने का कार्य, विशेष रूप से एक प्रणाली या संस्थान को, इसे बेहतर बनाने के लिए।",
+      "sentence": [
+        {
+          "sentence": "The government has announced plans to reform the education system.",
+          "translation": "सरकार ने शिक्षा प्रणाली में सुधार की योजनाएं घोषित की हैं।"
+        },
+        {
+          "sentence": "The company is undergoing a major reform to increase its efficiency.",
+          "translation": "कंपनी अपनी कुशलता बढ़ाने के लिए एक बड़े सुधार से गुजर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Scandal",
+      "phoneticRespelling": "ˈskændəl",
+      "translation": "केलेंकारी",
+      "definition": "A situation in which someone, especially a public figure, is involved in a scandalous or disreputable activity.",
+      "definationTranslation": "एक स्थिति जिसमें कोई, विशेष रूप से एक सार्वजनिक व्यक्ति, एक घिनौनी या अपमानजनक गतिविधि में शामिल है।",
+      "sentence": [
+        {
+          "sentence": "The politician was involved in a scandal that led to their resignation.",
+          "translation": "राजनेता एक केलेंकारी में शामिल थे जिससे उनके इस्तीफे की आवश्यकता हुई।"
+        },
+        {
+          "sentence": "The company was embroiled in a scandal that damaged its reputation.",
+          "translation": "कंपनी एक केलेंकारी में उलझी हुई थी जिसने उसकी प्रतिष्ठा को नुकसान पहुंचाया।"
+        }
+      ]
+    },
+    {
+      "word": "Speech",
+      "phoneticRespelling": "spiːtʃ",
+      "translation": "भाषण",
+      "definition": "The act of speaking, especially in a formal or public setting.",
+      "definationTranslation": "बोलने का कार्य, विशेष रूप से एक औपचारिक या सार्वजनिक सेटिंग में।",
+      "sentence": [
+        {
+          "sentence": "The politician delivered a powerful speech at the conference.",
+          "translation": "राजनेता ने सम्मेलन में एक शक्तिशाली भाषण दिया।"
+        },
+        {
+          "sentence": "The student gave a speech on the importance of environmental conservation.",
+          "translation": "छात्र ने पर्यावरण संरक्षण के महत्व पर एक भाषण दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Terrorism",
+      "phoneticRespelling": "ˈtɛrərɪzəm",
+      "translation": "आतंकवाद",
+      "definition": "The use of violence and intimidation, especially against civilians, in the pursuit of political aims.",
+      "definationTranslation": "राजनीतिक उद्देश्यों की प्राप्ति में, विशेष रूप से नागरिकों के खिलाफ हिंसा और धमकी का उपयोग।",
+      "sentence": [
+        {
+          "sentence": "The country has been affected by terrorism for many years.",
+          "translation": "देश कई वर्षों से आतंकवाद से प्रभावित है।"
+        },
+        {
+          "sentence": "The government has taken steps to combat terrorism and ensure national security.",
+          "translation": "सरकार ने आतंकवाद से निपटने और राष्ट्रीय सुरक्षा सुनिश्चित करने के लिए कदम उठाए हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Voting",
+      "phoneticRespelling": "ˈvoʊtɪŋ",
+      "translation": "वोटिंग",
+      "definition": "The act of choosing a candidate or option by marking a ballot or casting a vote.",
+      "definationTranslation": "एक उम्मीदवार या विकल्प को चुनने का कार्य, एक मतपत्र पर चिह्न लगाकर या वोट डालकर।",
+      "sentence": [
+        {
+          "sentence": "Voting is a fundamental right of citizens in a democratic country.",
+          "translation": "वोट देना एक लोकतांत्रिक देश में नागरिकों का एक मौलिक अधिकार है।"
+        },
+        {
+          "sentence": "The voting process was transparent and fair, ensuring the integrity of the election.",
+          "translation": "वोटिंग प्रक्रिया पारदर्शी और न्यायसंगत थी, जिससे चुनाव की अखंडता सुनिश्चित हुई।"
+        }
+      ]
+    },
+    {
+      "word": "Activist",
+      "phoneticRespelling": "ˈæktɪvɪst",
+      "translation": "कार्यकर्ता",
+      "definition": "A person who actively works to promote or achieve a particular goal, especially in the areas of politics, social justice, or the environment.",
+      "definationTranslation": "एक व्यक्ति जो विशेष रूप से राजनीति, सामाजिक न्याय या पर्यावरण के क्षेत्र में एक विशिष्ट लक्ष्य को बढ़ावा देने या प्राप्त करने के लिए सक्रिय रूप से काम करता है।",
+      "sentence": [
+        {
+          "sentence": "The activist was arrested for participating in a protest against the government.",
+          "translation": "सरकार के खिलाफ विरोध में भाग लेने के लिए कार्यकर्ता को गिरफ्तार किया गया था।"
+        },
+        {
+          "sentence": "She is a renowned activist who has been fighting for women's rights for many years.",
+          "translation": "वह एक प्रसिद्ध कार्यकर्ता हैं जो कई वर्षों से महिलाओं के अधिकारों के लिए लड़ रही हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Broadcast",
+      "phoneticRespelling": "ˈbrɔːdkɑːst",
+      "translation": "प्रसारण",
+      "definition": "A program or performance that is transmitted on television or radio.",
+      "definationTranslation": "एक कार्यक्रम या प्रदर्शन जो टेलीविजन या रेडियो पर प्रसारित किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The news broadcast was watched by millions of people around the world.",
+          "translation": "विश्व भर के लाखों लोगों ने समाचार प्रसारण देखा।"
+        },
+        {
+          "sentence": "The company will broadcast its new advertisement on social media.",
+          "translation": "कंपनी सोशल मीडिया पर अपना नया विज्ञापन प्रसारित करेगी।"
+        }
+      ]
+    },
+    {
+      "word": "Censorship",
+      "phoneticRespelling": "ˈsɛnsəʃɪp",
+      "translation": "सेंसरशिप",
+      "definition": "The practice of suppressing or deleting parts of books, films, or other media that are considered objectionable.",
+      "definationTranslation": "पुस्तकों, फिल्मों या अन्य मीडिया के हिस्सों को दबाने या हटाने की प्रथा, जो आपत्तिजनक माने जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "The government has been accused of censorship for blocking certain websites.",
+          "translation": "सरकार पर कुछ वेबसाइटों को ब्लॉक करने के लिए सेंसरशिप का आरोप लगाया गया है।"
+        },
+        {
+          "sentence": "The company has faced criticism for its censorship policies on social media.",
+          "translation": "कंपनी को सोशल मीडिया पर अपनी सेंसरशिप नीतियों के लिए आलोचना का सामना करना पड़ा है।"
+        }
+      ]
+    },
+    {
+      "word": "Conference",
+      "phoneticRespelling": "ˈkɑnfərəns",
+      "translation": "सम्मेलन",
+      "definition": "A meeting of people, especially experts or professionals, to discuss a particular topic or issue.",
+      "definationTranslation": "लोगों की एक बैठक, विशेष रूप से विशेषज्ञों या पेशेवरों की, एक विशिष्ट विषय या मुद्दे पर चर्चा करने के लिए।",
+      "sentence": [
+        {
+          "sentence": "The company hosted a conference to launch its new product.",
+          "translation": "कंपनी ने अपने नए उत्पाद को लॉन्च करने के लिए एक सम्मेलन की मेजबानी की।"
+        },
+        {
+          "sentence": "The conference was attended by experts from around the world to discuss climate change.",
+          "translation": "जलवायु परिवर्तन पर चर्चा करने के लिए विश्व भर के विशेषज्ञों ने सम्मेलन में भाग लिया।"
+        }
+      ]
+    },
+    {
+      "word": "Corruption",
+      "phoneticRespelling": "kəˈrʌpʃən",
+      "translation": "भ्रष्टाचार",
+      "definition": "The act of giving or receiving bribes, or the abuse of power for personal gain.",
+      "definationTranslation": "रिश्वत देने या लेने का कार्य, या व्यक्तिगत लाभ के लिए शक्ति का दुरुपयोग।",
+      "sentence": [
+        {
+          "sentence": "The government has launched an investigation into corruption allegations against the minister.",
+          "translation": "सरकार ने मंत्री के खिलाफ भ्रष्टाचार के आरोपों की जांच शुरू की है।"
+        },
+        {
+          "sentence": "The company has been accused of corruption and has faced severe penalties.",
+          "translation": "कंपनी पर भ्रष्टाचार का आरोप लगाया गया है और उसे कड़ी सजा का सामना करना पड़ा है।"
+        }
+      ]
+    },
+    {
+      "word": "Diplomacy",
+      "phoneticRespelling": "dɪˈplɒməsi",
+      "translation": "कूटनीति",
+      "definition": "The art or practice of conducting negotiations between nations, organizations, or individuals.",
+      "definationTranslation": "राष्ट्रों, संगठनों या व्यक्तियों के बीच वार्ता करने की कला या अभ्यास।",
+      "sentence": [
+        {
+          "sentence": "The diplomat was known for his exceptional diplomacy skills.",
+          "translation": "राजनयिक को उनके असाधारण कूटनीति कौशल के लिए जाना जाता था।"
+        },
+        {
+          "sentence": "The country has been using diplomacy to resolve the conflict with its neighbor.",
+          "translation": "देश अपने पड़ोसी के साथ संघर्ष को हल करने के लिए कूटनीति का उपयोग कर रहा है।"
+        }
+      ]
+    }
+  ]
 }

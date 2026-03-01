@@ -1,4 +1,311 @@
 {
   "topic": "Global Health",
-  "words": []
+  "words": [
+    {
+      "word": "Epidemiology",
+      "phoneticRespelling": "EP-ih-DEE-mee-OL-uh-jee",
+      "translation": "माहिती विज्ञान",
+      "definition": "The study of how diseases spread and can be controlled in populations",
+      "definationTranslation": "बीमारियों के फैलने और जनसंख्या में उनके नियंत्रण के तरीकों का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The epidemiology of the disease was studied to understand its origin and transmission.",
+          "translation": "बीमारी की उत्पत्ति और प्रसार को समझने के लिए इसके महामारी विज्ञान का अध्ययन किया गया ।"
+        },
+        {
+          "sentence": "Epidemiology is a crucial field in global health, helping to track and prevent outbreaks.",
+          "translation": "महामारी विज्ञान वैश्विक स्वास्थ्य में एक महत्वपूर्ण क्षेत्र है, जो प्रकोप को ट्रैक और रोकने में मदद करता है ।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccination",
+      "phoneticRespelling": "VAK-suh-NAY-shun",
+      "translation": "टीकाकरण",
+      "definition": "The act of giving someone a vaccine to prevent a disease",
+      "definationTranslation": "किसी बीमारी को रोकने के लिए किसी को टीका देने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Vaccination is one of the most effective ways to prevent the spread of infectious diseases.",
+          "translation": "टीकाकरण संक्रामक बीमारियों के प्रसार को रोकने के सबसे प्रभावी तरीकों में से एक है ।"
+        },
+        {
+          "sentence": "The vaccination campaign helped to eradicate the disease from the region.",
+          "translation": "टीकाकरण अभियान ने क्षेत्र से बीमारी को खत्म करने में मदद की ।"
+        }
+      ]
+    },
+    {
+      "word": "Pandemic",
+      "phoneticRespelling": "PAN-deh-mik",
+      "translation": "महामारी",
+      "definition": "A widespread outbreak of a disease that affects a large number of people",
+      "definationTranslation": "एक बीमारी का व्यापक प्रकोप जो बड़ी संख्या में लोगों को प्रभावित करता है",
+      "sentence": [
+        {
+          "sentence": "The pandemic had a significant impact on global economies and health systems.",
+          "translation": "महामारी का वैश्विक अर्थव्यवस्थाओं और स्वास्थ्य प्रणालियों पर महत्वपूर्ण प्रभाव पड़ा ।"
+        },
+        {
+          "sentence": "The World Health Organization declared the outbreak a pandemic, triggering a global response.",
+          "translation": "विश्व स्वास्थ्य संगठन ने प्रकोप को महामारी घोषित किया, जिससे वैश्विक प्रतिक्रिया शुरू हुई ।"
+        }
+      ]
+    },
+    {
+      "word": "Sanitation",
+      "phoneticRespelling": "SAN-ih-TAY-shun",
+      "translation": "स्वच्छता",
+      "definition": "The practice of keeping environments clean and hygienic to prevent the spread of diseases",
+      "definationTranslation": "बीमारियों के प्रसार को रोकने के लिए पर्यावरण को स्वच्छ और स्वच्छ बनाने की प्रथा",
+      "sentence": [
+        {
+          "sentence": "Sanitation is essential for maintaining public health, especially in crowded cities.",
+          "translation": "स्वच्छता सार्वजनिक स्वास्थ्य को बनाए रखने के लिए आवश्यक है, विशेष रूप से भीड़भाड़ वाले शहरों में ।"
+        },
+        {
+          "sentence": "The lack of proper sanitation in the refugee camp led to the outbreak of a waterborne disease.",
+          "translation": "शरणार्थी शिविर में उचित स्वच्छता की कमी के कारण जलजनित बीमारी का प्रकोप हुआ ।"
+        }
+      ]
+    },
+    {
+      "word": "Malaria",
+      "phoneticRespelling": "MAL-ehr-ee-uh",
+      "translation": "मलेरिया",
+      "definition": "A serious and sometimes life-threatening disease caused by a parasite",
+      "definationTranslation": "एक परजीवी के कारण होने वाली एक गंभीर और कभी-कभी जानलेवा बीमारी",
+      "sentence": [
+        {
+          "sentence": "Malaria is a major public health problem in many tropical countries.",
+          "translation": "मलेरिया कई उष्णकटिबंधीय देशों में एक प्रमुख सार्वजनिक स्वास्थ्य समस्या है ।"
+        },
+        {
+          "sentence": "The World Health Organization has launched a campaign to eliminate malaria worldwide.",
+          "translation": "विश्व स्वास्थ्य संगठन ने विश्वभर में मलेरिया को खत्म करने के लिए एक अभियान शुरू किया है ।"
+        }
+      ]
+    },
+    {
+      "word": "Quarantine",
+      "phoneticRespelling": "KWOH-rin-teen",
+      "translation": "पृथक कारावास",
+      "definition": "A state of isolation or confinement, especially to prevent the spread of a disease",
+      "definationTranslation": "एकांत या बंदी की स्थिति, विशेष रूप से बीमारी के प्रसार को रोकने के लिए",
+      "sentence": [
+        {
+          "sentence": "The passengers were put in quarantine after arriving from a country with a high risk of infection.",
+          "translation": "संक्रमण के उच्च जोखिम वाले देश से आने के बाद यात्रियों को पृथक कारावास में रखा गया ।"
+        },
+        {
+          "sentence": "The government imposed a quarantine on the city to prevent the spread of the disease.",
+          "translation": "सरकार ने बीमारी के प्रसार को रोकने के लिए शहर में पृथक कारावास लगा दिया ।"
+        }
+      ]
+    },
+    {
+      "word": "Hygiene",
+      "phoneticRespelling": "HY-jee-nee",
+      "translation": "स्वच्छता",
+      "definition": "The practice of keeping oneself and one's surroundings clean and free from disease",
+      "definationTranslation": "स्वयं और अपने आसपास के वातावरण को स्वच्छ और बीमारियों से मुक्त रखने की प्रथा",
+      "sentence": [
+        {
+          "sentence": "Good hygiene practices are essential for maintaining public health.",
+          "translation": "सार्वजनिक स्वास्थ्य को बनाए रखने के लिए अच्छी स्वच्छता प्रथा आवश्यक है ।"
+        },
+        {
+          "sentence": "The hospital emphasized the importance of hygiene in preventing hospital-acquired infections.",
+          "translation": "अस्पताल ने अस्पताल में होने वाले संक्रमणों को रोकने में स्वच्छता के महत्व पर जोर दिया ।"
+        }
+      ]
+    },
+    {
+      "word": "Eradication",
+      "phoneticRespelling": "i-RAD-uh-KAY-shun",
+      "translation": "उन्मूलन",
+      "definition": "The complete elimination of a disease or a problem",
+      "definationTranslation": "एक बीमारी या समस्या का पूर्ण उन्मूलन",
+      "sentence": [
+        {
+          "sentence": "The global campaign for the eradication of polio has been successful in many countries.",
+          "translation": "पोलियो के उन्मूलन के लिए वैश्विक अभियान कई देशों में सफल रहा है ।"
+        },
+        {
+          "sentence": "The eradication of smallpox is considered one of the greatest achievements in public health.",
+          "translation": "चेचक के उन्मूलन को सार्वजनिक स्वास्थ्य में सबसे बड़ी उपलब्धियों में से एक माना जाता है ।"
+        }
+      ]
+    },
+    {
+      "word": "Transmission",
+      "phoneticRespelling": "tranz-MISH-un",
+      "translation": "प्रसार",
+      "definition": "The act or process of passing something, especially a disease, from one person or place to another",
+      "definationTranslation": "किसी चीज़, विशेष रूप से एक बीमारी को एक व्यक्ति या स्थान से दूसरे व्यक्ति या स्थान पर पहुंचाने की क्रिया या प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The transmission of the disease was traced back to a contaminated water source.",
+          "translation": "बीमारी के प्रसार को एक दूषित जल स्रोत तक追ाया गया ।"
+        },
+        {
+          "sentence": "The doctor explained the modes of transmission of the virus to the patient.",
+          "translation": "डॉक्टर ने रोगी को वायरस के प्रसार के तरीकों के बारे में बताया ।"
+        }
+      ]
+    },
+    {
+      "word": "Immunization",
+      "phoneticRespelling": "IM-yoo-nuh-ZAY-shun",
+      "translation": "प्रतिरक्षण",
+      "definition": "The process of making someone or something immune to a disease",
+      "definationTranslation": "किसी व्यक्ति या चीज़ को एक बीमारी से प्रतिरक्षित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Immunization is a crucial step in preventing the spread of infectious diseases.",
+          "translation": "प्रतिरक्षण संक्रामक बीमारियों के प्रसार को रोकने में एक महत्वपूर्ण कदम है ।"
+        },
+        {
+          "sentence": "The immunization program helped to reduce the incidence of vaccine-preventable diseases.",
+          "translation": "प्रतिरक्षण कार्यक्रम ने टीका-रोकथाम योग्य बीमारियों के घटना को कम करने में मदद की ।"
+        }
+      ]
+    },
+    {
+      "word": "Healthcare",
+      "phoneticRespelling": "HELTH-kayr",
+      "translation": "स्वास्थ्य सेवा",
+      "definition": "The provision of medical care and services to individuals or communities",
+      "definationTranslation": "व्यक्तियों या समुदायों को चिकित्सा देखभाल और सेवाएं प्रदान करना",
+      "sentence": [
+        {
+          "sentence": "The government has launched a new healthcare program to improve access to medical care.",
+          "translation": "सरकार ने चिकित्सा देखभाल तक पहुंच में सुधार के लिए एक नई स्वास्थ्य सेवा कार्यक्रम शुरू किया है ।"
+        },
+        {
+          "sentence": "The hospital provides high-quality healthcare services to patients from all over the world.",
+          "translation": "अस्पताल दुनिया भर के मरीजों को उच्च गुणवत्ता वाली स्वास्थ्य सेवाएं प्रदान करता है ।"
+        }
+      ]
+    },
+    {
+      "word": "Outbreak",
+      "phoneticRespelling": "OUT-brayk",
+      "translation": "प्रकोप",
+      "definition": "A sudden and rapid increase in the incidence of a disease or condition",
+      "definationTranslation": "एक बीमारी या स्थिति के मामलों में अचानक और तेजी से वृद्धि",
+      "sentence": [
+        {
+          "sentence": "The outbreak of the disease was caused by a contaminated food source.",
+          "translation": "बीमारी के प्रकोप का कारण एक दूषित खाद्य स्रोत था ।"
+        },
+        {
+          "sentence": "The government declared a state of emergency in response to the outbreak of the virus.",
+          "translation": "सरकार ने वायरस के प्रकोप के जवाब में आपातकाल की स्थिति घोषित की ।"
+        }
+      ]
+    },
+    {
+      "word": "Infection",
+      "phoneticRespelling": "in-FEK-shun",
+      "translation": "संक्रमण",
+      "definition": "The invasion and colonization of a host organism's body by a pathogen",
+      "definationTranslation": "एक मेजबान जीव के शरीर में एक पथोजीन द्वारा आक्रमण और उपनिवेश",
+      "sentence": [
+        {
+          "sentence": "The infection was treated with antibiotics and the patient recovered quickly.",
+          "translation": "संक्रमण का इलाज एंटीबायोटिक्स से किया गया और मरीज जल्दी ठीक हो गया ।"
+        },
+        {
+          "sentence": "The doctor warned the patient about the risk of infection after the surgery.",
+          "translation": "डॉक्टर ने रोगी को सर्जरी के बाद संक्रमण के खतरे के बारे में चेतावनी दी ।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccine",
+      "phoneticRespelling": "VAK-seen",
+      "translation": "टीका",
+      "definition": "A substance used to stimulate the production of antibodies and provide immunity against a disease",
+      "definationTranslation": "एक बीमारी के खिलाफ एंटीबॉडी का उत्पादन उत्तेजित करने और प्रतिरक्षा प्रदान करने के लिए उपयोग किया जाने वाला पदार्थ",
+      "sentence": [
+        {
+          "sentence": "The vaccine was developed to protect against the deadly disease.",
+          "translation": "जानलेवा बीमारी के खिलाफ सुरक्षा के लिए टीका विकसित किया गया था ।"
+        },
+        {
+          "sentence": "The doctor recommended that the patient receive the vaccine to prevent infection.",
+          "translation": "डॉक्टर ने रोगी को संक्रमण को रोकने के लिए टीका लेने की सलाह दी ।"
+        }
+      ]
+    },
+    {
+      "word": "Diagnosis",
+      "phoneticRespelling": "DY-ug-NOH-sis",
+      "translation": "निदान",
+      "definition": "The process of identifying a disease or condition by examining its symptoms and signs",
+      "definationTranslation": "लक्षणों और संकेतों की जांच करके एक बीमारी या स्थिति की पहचान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The doctor made a diagnosis of the patient's condition after conducting a series of tests.",
+          "translation": "परीक्षणों की एक श्रृंखला आयोजित करने के बाद डॉक्टर ने रोगी की स्थिति का निदान किया ।"
+        },
+        {
+          "sentence": "The diagnosis of the disease was confirmed by a laboratory test.",
+          "translation": "लैबोरेटरी परीक्षण द्वारा बीमारी के निदान की पुष्टि की गई ।"
+        }
+      ]
+    },
+    {
+      "word": "Prevention",
+      "phoneticRespelling": "pri-VEN-shun",
+      "translation": "रोकथाम",
+      "definition": "The act of preventing something, especially a disease or a problem, from happening",
+      "definationTranslation": "कुछ, विशेष रूप से एक बीमारी या समस्या को होने से रोकने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Prevention is the best way to avoid getting sick.",
+          "translation": "बीमार पड़ने से बचने के लिए रोकथाम सबसे अच्छा तरीका है ।"
+        },
+        {
+          "sentence": "The government launched a campaign to promote prevention and early detection of diseases.",
+          "translation": "सरकार ने बीमारियों की रोकथाम औरearlyज्ञान को बढ़ावा देने के लिए एक अभियान शुरू किया ।"
+        }
+      ]
+    },
+    {
+      "word": "Therapy",
+      "phoneticRespelling": "THAYR-uh-pee",
+      "translation": "चिकित्सा",
+      "definition": "The treatment of a disease or a condition, especially by using medicines or other medical treatments",
+      "definationTranslation": "एक बीमारी या स्थिति का इलाज, विशेष रूप से दवाओं या अन्य चिकित्सा उपचारों का उपयोग करके",
+      "sentence": [
+        {
+          "sentence": "The patient underwent therapy to recover from the illness.",
+          "translation": "रोगी ने बीमारी से उबरने के लिए चिकित्सा का सहारा लिया ।"
+        },
+        {
+          "sentence": "The doctor recommended a course of therapy to manage the symptoms of the disease.",
+          "translation": "डॉक्टर ने बीमारी के लक्षणों को प्रबंधित करने के लिए चिकित्सा के एक कourseकी सिफारिश की ।"
+        }
+      ]
+    },
+    {
+      "word": "Medicine",
+      "phoneticRespelling": "MED-uh-sin",
+      "translation": "दवा",
+      "definition": "A substance or treatment used to prevent or cure a disease or a condition",
+      "definationTranslation": "एक बीमारी या स्थिति को रोकने या इलाज करने के लिए उपयोग किया जाने वाला पदार्थ या उपचार",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed a course of medicine to treat the patient's condition.",
+          "translation": "डॉक्टर ने रोगी की स्थिति का इलाज करने के लिए दवा का एक कोर्स लिखा ।"
+        },
+        {
+          "sentence": "The new medicine has been shown to be effective in treating the disease.",
+          "translation": "नई दवा को बीमारी के इलाज में प्रभावी दिखाया गया है ।"
+        }
+      ]
+    }
+  ]
 }

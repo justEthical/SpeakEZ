@@ -1,4 +1,328 @@
 {
   "topic": "Pharmaceuticals",
-  "words": []
+  "words": [
+    {
+      "word": "Medicine",
+      "phoneticRespelling": "MED-sin",
+      "translation": "दवा",
+      "definition": "A substance used to treat a disease or medical condition",
+      "definationTranslation": "बीमारी या चिकित्सा स्थिति का इलाज करने के लिए उपयोग किए जाने वाले पदार्थ",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed a new medicine for her patient.",
+          "translation": "डॉक्टर ने अपने मरीज के लिए एक नई दवा का सुझाव दिया।"
+        },
+        {
+          "sentence": "The company is developing a new medicine to treat cancer.",
+          "translation": "कंपनी कैंसर के इलाज के लिए एक नई दवा विकसित कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Pharmacy",
+      "phoneticRespelling": "FAR-muh-see",
+      "translation": "फार्मेसी",
+      "definition": "A store where medicines are sold",
+      "definationTranslation": "जहां दवाएं बेची जाती हैं",
+      "sentence": [
+        {
+          "sentence": "I need to go to the pharmacy to pick up my prescription.",
+          "translation": "मुझे अपना पर्चा लेने के लिए फार्मेसी जाने की जरूरत है।"
+        },
+        {
+          "sentence": "The pharmacy is open 24 hours a day.",
+          "translation": "फार्मेसी 24 घंटे खुली रहती है।"
+        }
+      ]
+    },
+    {
+      "word": "Prescription",
+      "phoneticRespelling": "prih-SKRIP-shun",
+      "translation": "पर्चा",
+      "definition": "A written order from a doctor for a patient to take a certain medicine",
+      "definationTranslation": "एक डॉक्टर द्वारा लिखित आदेश जिसमें मरीज को कोई विशिष्ट दवा लेने के लिए कहा जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor wrote a prescription for antibiotics.",
+          "translation": "डॉक्टर ने एंटीबायोटिक्स के लिए पर्चा लिखा।"
+        },
+        {
+          "sentence": "I need to fill my prescription at the pharmacy.",
+          "translation": "मुझे फार्मेसी में अपना पर्चा भरने की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "Dose",
+      "phoneticRespelling": "DOH-s",
+      "translation": " खुराक",
+      "definition": "The amount of medicine to be taken at one time",
+      "definationTranslation": "एक समय में लेने के लिए दवा की मात्रा",
+      "sentence": [
+        {
+          "sentence": "The doctor told me to take two doses of the medicine per day.",
+          "translation": "डॉक्टर ने मुझे प्रतिदिन दवा की दो खुराक लेने के लिए कहा।"
+        },
+        {
+          "sentence": "The instructions on the label indicate the correct dose.",
+          "translation": "लेबल पर दिए गए निर्देश правильी खुराक को दर्शाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccine",
+      "phoneticRespelling": "VAK-sin",
+      "translation": "वैक्सीन",
+      "definition": "A medicine that helps prevent a particular disease",
+      "definationTranslation": "एक दवा जो किसी विशिष्ट बीमारी को रोकने में मदद करती है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended a vaccine to prevent the flu.",
+          "translation": "डॉक्टर ने फ्लू से बचाव के लिए वैक्सीन की सिफारिश की।"
+        },
+        {
+          "sentence": "The vaccine has been proven to be highly effective.",
+          "translation": "वैक्सीन को बहुत प्रभावी साबित किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Tablet",
+      "phoneticRespelling": "TAB-lit",
+      "translation": "गोली",
+      "definition": "A small, solid piece of medicine that is swallowed",
+      "definationTranslation": "एक छोटी, ठोस दवा का टुकड़ा जो निगला जाता है",
+      "sentence": [
+        {
+          "sentence": "I take one tablet of the medicine with breakfast.",
+          "translation": "मैं नाश्ते के साथ दवा की एक गोली लेता हूं।"
+        },
+        {
+          "sentence": "The doctor prescribed two tablets to be taken twice a day.",
+          "translation": "डॉक्टर ने दिन में दो बार दो गोलियां लेने का सुझाव दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Capsule",
+      "phoneticRespelling": "KAP-sool",
+      "translation": "कैप्सूल",
+      "definition": "A small, enclosed container that holds a dose of medicine",
+      "definationTranslation": "एक छोटा, बंद कंटेनर जिसमें दवा की एक खुराक होती है",
+      "sentence": [
+        {
+          "sentence": "The medicine comes in a capsule that is easy to swallow.",
+          "translation": "दवा एक कैप्सूल में आती है जो निगलने में आसान है।"
+        },
+        {
+          "sentence": "I take one capsule of the supplement per day.",
+          "translation": "मैं प्रतिदिन पूरक की एक कैप्सूल लेता हूं।"
+        }
+      ]
+    },
+    {
+      "word": "Syrup",
+      "phoneticRespelling": "SIHR-up",
+      "translation": "शरबत",
+      "definition": "A sweet, liquid medicine that is taken by mouth",
+      "definationTranslation": "एक मीठा, तरल दवा जो मुंह से ली जाती है",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed a syrup to help soothe the cough.",
+          "translation": "डॉक्टर ने खांसी को शांत करने में मदद के लिए एक शरबत का सुझाव दिया।"
+        },
+        {
+          "sentence": "I give my child a spoonful of syrup to help with the fever.",
+          "translation": "मैं अपने बच्चे को बुखार से निपटने में मदद के लिए एक चम्मच शरबत देता हूं।"
+        }
+      ]
+    },
+    {
+      "word": "Injection",
+      "phoneticRespelling": "in-JEK-shun",
+      "translation": "इंजेक्शन",
+      "definition": "A method of giving medicine through a needle into the body",
+      "definationTranslation": "एक सुई के माध्यम से शरीर में दवा देने का तरीका",
+      "sentence": [
+        {
+          "sentence": "The doctor gave me an injection to help with the pain.",
+          "translation": "डॉक्टर ने दर्द से निपटने में मदद के लिए मुझे एक इंजेक्शन दिया।"
+        },
+        {
+          "sentence": "I hate getting injections, they scare me.",
+          "translation": "मुझे इंजेक्शन लगवाना पसंद नहीं है, वे मुझे डराते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Side effect",
+      "phoneticRespelling": "SAHYD eh-fekt",
+      "translation": "साइड इफेक्ट",
+      "definition": "An unwanted or unpleasant effect of a medicine",
+      "definationTranslation": "एक दवा का अवांछित या अप्रिय प्रभाव",
+      "sentence": [
+        {
+          "sentence": "The side effects of the medicine were listed on the label.",
+          "translation": "दवा के साइड इफेक्ट लेबल पर सूचीबद्ध थे।"
+        },
+        {
+          "sentence": "I experienced some side effects after taking the new medicine.",
+          "translation": "नई दवा लेने के बाद मुझे कुछ साइड इफेक्ट्स का अनुभव हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Antibiotic",
+      "phoneticRespelling": "an-tee-bahy-OT-ik",
+      "translation": "एंटीबायोटिक",
+      "definition": "A medicine that is used to treat infections caused by bacteria",
+      "definationTranslation": "एक दवा जो बैक्टीरिया के कारण होने वाले संक्रमणों का इलाज करने के लिए उपयोग की जाती है",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed an antibiotic to treat the infection.",
+          "translation": "डॉक्टर ने संक्रमण का इलाज करने के लिए एक एंटीबायोटिक का सुझाव दिया।"
+        },
+        {
+          "sentence": "I have to take an antibiotic for the next week.",
+          "translation": "मुझे अगले हफ्ते के लिए एक एंटीबायोटिक लेना होगा।"
+        }
+      ]
+    },
+    {
+      "word": "Allergy",
+      "phoneticRespelling": "AL-er-jee",
+      "translation": "एलर्जी",
+      "definition": "A condition in which the body reacts to a particular substance",
+      "definationTranslation": "एक स्थिति जिसमें शरीर किसी विशिष्ट पदार्थ के प्रति प्रतिक्रिया करता है",
+      "sentence": [
+        {
+          "sentence": "I have an allergy to peanuts.",
+          "translation": "मुझे मूंगफली से एलर्जी है।"
+        },
+        {
+          "sentence": "The doctor tested me for allergies to common foods.",
+          "translation": "डॉक्टर ने आम खाद्य पदार्थों से एलर्जी के लिए मेरी जांच की।"
+        }
+      ]
+    },
+    {
+      "word": "Dosage",
+      "phoneticRespelling": "DOH-sij",
+      "translation": " खुराक मात्रा",
+      "definition": "The amount of medicine that should be taken at one time",
+      "definationTranslation": "एक समय में लेने के लिए दवा की मात्रा",
+      "sentence": [
+        {
+          "sentence": "The dosage instructions are on the label.",
+          "translation": "खुराक निर्देश लेबल पर हैं।"
+        },
+        {
+          "sentence": "I need to adjust the dosage of my medication.",
+          "translation": "मुझे अपनी दवा की खुराक को समायोजित करने की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "Generic",
+      "phoneticRespelling": "JEN-er-ik",
+      "translation": "जेनेरिक",
+      "definition": "A type of medicine that is not a brand name and is often less expensive",
+      "definationTranslation": "एक दवा का प्रकार जो कोई ब्रांड नाम नहीं है और thường कम महंगा होता है",
+      "sentence": [
+        {
+          "sentence": "I prefer to buy generic medicines because they are cheaper.",
+          "translation": "मैं जेनेरिक दवाओं को खरीदना पसंद करता हूं क्योंकि वे सस्ती होती हैं।"
+        },
+        {
+          "sentence": "The generic version of the medicine is just as effective.",
+          "translation": "दवा का जेनेरिक संस्करण उतना ही प्रभावी है।"
+        }
+      ]
+    },
+    {
+      "word": "Label",
+      "phoneticRespelling": "LAY-buhl",
+      "translation": "लेबल",
+      "definition": "A tag or sign that gives information about a medicine",
+      "definationTranslation": "एक टैग या संकेत जो एक दवा के बारे में जानकारी प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "The label on the medicine bottle says to take two tablets per day.",
+          "translation": "दवा की बोतल पर लेबल कहता है कि प्रतिदिन दो गोलियां लें।"
+        },
+        {
+          "sentence": "I need to read the label carefully before taking the medicine.",
+          "translation": "मुझे दवा लेने से पहले लेबल को सावधानी से पढ़ने की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "Overdose",
+      "phoneticRespelling": "OH-vur-DOH-s",
+      "translation": "अतिदुष्ण",
+      "definition": "To take too much of a medicine, which can be harmful",
+      "definationTranslation": "दवा की अधिक मात्रा लेना, जो हानिकारक हो सकता है",
+      "sentence": [
+        {
+          "sentence": "I accidentally took an overdose of the medicine.",
+          "translation": "मैंने अनजाने में दवा की अधिक मात्रा ले ली।"
+        },
+        {
+          "sentence": "The doctor warned me about the dangers of an overdose.",
+          "translation": "डॉक्टर ने मुझे अतिदुष्ण के खतरों के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Prescribe",
+      "phoneticRespelling": "prih-SKRIB",
+      "translation": "पर्चा देना",
+      "definition": "To tell someone to take a particular medicine",
+      "definationTranslation": "किसी को कोई विशिष्ट दवा लेने के लिए कहना",
+      "sentence": [
+        {
+          "sentence": "The doctor will prescribe a medicine to help with the pain.",
+          "translation": "डॉक्टर दर्द से निपटने में मदद के लिए एक दवा का सुझाव देंगे।"
+        },
+        {
+          "sentence": "I need to see a doctor to get a prescription for my medication.",
+          "translation": "मुझे अपनी दवा के लिए पर्चा प्राप्त करने के लिए डॉक्टर से मिलने की जरूरत है।"
+        }
+      ]
+    },
+    {
+      "word": "Manufacturer",
+      "phoneticRespelling": "MAN-yuh-FEK-chuh-r",
+      "translation": "निर्माता",
+      "definition": "A company that makes medicines",
+      "definationTranslation": "एक कंपनी जो दवाएं बनाती है",
+      "sentence": [
+        {
+          "sentence": "The manufacturer of the medicine is a well-known company.",
+          "translation": "दवा का निर्माता एक प्रसिद्ध कंपनी है।"
+        },
+        {
+          "sentence": "I want to know the name of the manufacturer of my medication.",
+          "translation": "मैं अपनी दवा के निर्माता का नाम जानना चाहता हूं।"
+        }
+      ]
+    },
+    {
+      "word": "Expiry date",
+      "phoneticRespelling": "EK-spy-rayt DEYT",
+      "translation": "समाप्ति तिथि",
+      "definition": "The date after which a medicine should not be used",
+      "definationTranslation": "तिथि जिसके बाद दवा का उपयोग नहीं किया जाना चाहिए",
+      "sentence": [
+        {
+          "sentence": "I need to check the expiry date of my medicine before taking it.",
+          "translation": "मुझे दवा लेने से पहले इसकी समाप्ति तिथि की जांच करने की जरूरत है।"
+        },
+        {
+          "sentence": "The expiry date of the medicine is printed on the label.",
+          "translation": "दवा की समाप्ति तिथि लेबल पर मुद्रित है।"
+        }
+      ]
+    }
+  ]
 }

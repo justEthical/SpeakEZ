@@ -1,4 +1,345 @@
 {
   "topic": "Medical Ethics",
-  "words": []
+  "words": [
+    {
+      "word": "Autonomy",
+      "phoneticRespelling": "AW-toh-muh-nee",
+      "translation": "स्वायत्तता",
+      "definition": "The right of patients to make decisions about their own medical care",
+      "definationTranslation": "मरीजों को अपने स्वास्थ्य सेवा के बारे में निर्णय लेने का अधिकार",
+      "sentence": [
+        {
+          "sentence": "The doctor respected the patient's autonomy and allowed them to make their own decisions.",
+          "translation": "डॉक्टर ने मरीज की स्वायत्तता का सम्मान किया और उन्हें अपने निर्णय लेने दिया।"
+        },
+        {
+          "sentence": "The patient's autonomy was compromised when the doctor made decisions without their consent.",
+          "translation": "मरीज की स्वायत्तता खतरे में पड़ गई जब डॉक्टर ने उनकी सहमति के बिना निर्णय लिया।"
+        }
+      ]
+    },
+    {
+      "word": "Beneficence",
+      "phoneticRespelling": "buh-NEF-uh-suhns",
+      "translation": "उपकारिता",
+      "definition": "The principle of doing good and promoting the well-being of patients",
+      "definationTranslation": "मरीजों की भलाई को बढ़ावा देने और उनका अच्छा करने का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The doctor's actions were guided by the principle of beneficence.",
+          "translation": "डॉक्टर की क्रियाएं उपकारिता के सिद्धांत से निर्देशित थीं।"
+        },
+        {
+          "sentence": "The nurse's kindness and compassion exemplified the principle of beneficence.",
+          "translation": "नर्स की दयालुता और करुणा ने उपकारिता के सिद्धांत का उदाहरण प्रस्तुत किया।"
+        }
+      ]
+    },
+    {
+      "word": "Non-maleficence",
+      "phoneticRespelling": "non-muh-LEF-uh-suhns",
+      "translation": "अहिंसा",
+      "definition": "The principle of doing no harm to patients",
+      "definationTranslation": "मरीजों को कोई नुकसान न पहुंचाने का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The doctor took every precaution to avoid harming the patient.",
+          "translation": "डॉक्टर ने मरीज को नुकसान से बचाने के लिए हर सावधानी बरती।"
+        },
+        {
+          "sentence": "The nurse's actions were guided by the principle of non-maleficence.",
+          "translation": "नर्स की क्रियाएं अहिंसा के सिद्धांत से निर्देशित थीं।"
+        }
+      ]
+    },
+    {
+      "word": "Justice",
+      "phoneticRespelling": "JUH-stis",
+      "translation": "न्याय",
+      "definition": "The principle of fairness and equality in the distribution of healthcare resources",
+      "definationTranslation": "स्वास्थ्य सेवा संसाधनों के वितरण में न्याय और समानता का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The healthcare system strives to promote justice and equality for all patients.",
+          "translation": "स्वास्थ्य सेवा प्रणाली सभी मरीजों के लिए न्याय और समानता को बढ़ावा देने की कोशिश करती है।"
+        },
+        {
+          "sentence": "The doctor believed in the principle of justice and treated all patients with fairness and respect.",
+          "translation": "डॉक्टर को न्याय के सिद्धांत में विश्वास था और उन्होंने सभी मरीजों के साथ न्याय और सम्मान के साथ व्यवहार किया।"
+        }
+      ]
+    },
+    {
+      "word": "Confidentiality",
+      "phoneticRespelling": "kon-fuh-DEN-shuhl",
+      "translation": "गोपनीयता",
+      "definition": "The principle of keeping patient information private and secure",
+      "definationTranslation": "मरीज की जानकारी को निजी और सुरक्षित रखने का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The doctor maintained confidentiality by not disclosing the patient's medical records.",
+          "translation": "डॉक्टर ने मरीज के मेडिकल रिकॉर्ड का खुलासा नहीं करके गोपनीयता बनाए रखी।"
+        },
+        {
+          "sentence": "The nurse ensured confidentiality by keeping the patient's information secure.",
+          "translation": "नर्स ने मरीज की जानकारी को सुरक्षित रखकर गोपनीयता की गारंटी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Informed Consent",
+      "phoneticRespelling": "in-FORMD KUHN-sent",
+      "translation": "सूचित सहमति",
+      "definition": "The principle of obtaining patient consent before treating them",
+      "definationTranslation": "मरीज का इलाज करने से पहले उनकी सहमति प्राप्त करने का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The doctor obtained informed consent from the patient before performing the surgery.",
+          "translation": "डॉक्टर ने सर्जरी करने से पहले मरीज से सूचित सहमति प्राप्त की।"
+        },
+        {
+          "sentence": "The nurse explained the treatment options to the patient and obtained their informed consent.",
+          "translation": "नर्स ने मरीज को उपचार विकल्पों के बारे में समझाया और उनकी सूचित सहमति प्राप्त की।"
+        }
+      ]
+    },
+    {
+      "word": "Euthanasia",
+      "phoneticRespelling": "yoo-thuh-NEY-zee-uh",
+      "translation": "इयूथेनेशिया",
+      "definition": "The act of ending a patient's life to relieve their suffering",
+      "definationTranslation": "मरीज की पीड़ा से मुक्ति दिलाने के लिए उनकी जान लेने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The debate about euthanasia continues to be a contentious issue in medical ethics.",
+          "translation": "इयूथेनेशिया के बारे में बहस चिकित्सा नीतिशास्त्र में अभी भी एक विवादास्पद मुद्दा बनी हुई है।"
+        },
+        {
+          "sentence": "The doctor was opposed to euthanasia and believed in preserving human life.",
+          "translation": "डॉक्टर इयूथेनेशिया के विरोधी थे और उन्हें मानव जीवन की रक्षा में विश्वास था।"
+        }
+      ]
+    },
+    {
+      "word": "Palliative Care",
+      "phoneticRespelling": "PAL-ee-uh-tiv KAIR",
+      "translation": "पैलिएटिव देखभाल",
+      "definition": "The care provided to patients with terminal illnesses to relieve their suffering",
+      "definationTranslation": "अंतिम बीमारियों से पीड़ित मरीजों को उनकी पीड़ा से मुक्ति दिलाने के लिए प्रदान की जाने वाली देखभाल",
+      "sentence": [
+        {
+          "sentence": "The hospital provided palliative care to patients with terminal cancer.",
+          "translation": "हॉस्पिटल ने अंतिम कैंसर से पीड़ित मरीजों को पैलिएटिव देखभाल प्रदान की।"
+        },
+        {
+          "sentence": "The nurse specialized in palliative care and provided comfort to dying patients.",
+          "translation": "नर्स ने पैलिएटिव देखभाल में विशेषज्ञता प्राप्त की और मरने वाले मरीजों को आराम प्रदान किया।"
+        }
+      ]
+    },
+    {
+      "word": "Medical Malpractice",
+      "phoneticRespelling": "MED-uh-kuhl MAL-prak-tis",
+      "translation": "चिकित्सीय लापरवाही",
+      "definition": "The failure of a healthcare provider to meet the standard of care",
+      "definationTranslation": "स्वास्थ्य सेवा प्रदाता द्वारा देखभाल के मानक को पूरा न करना",
+      "sentence": [
+        {
+          "sentence": "The doctor was sued for medical malpractice after the patient's death.",
+          "translation": "मरीज की मौत के बाद डॉक्टर के खिलाफ चिकित्सीय लापरवाही का मामला दायर किया गया।"
+        },
+        {
+          "sentence": "The hospital was accused of medical malpractice and had to pay compensation to the patient's family.",
+          "translation": "हॉस्पिटल पर चिकित्सीय लापरवाही का आरोप लगाया गया और उन्हें मरीज के परिवार को मुआवजा देना पड़ा।"
+        }
+      ]
+    },
+    {
+      "word": "Informed Refusal",
+      "phoneticRespelling": "in-FORMD REE-fyoo-zuhl",
+      "translation": "सूचित अस्वीकृति",
+      "definition": "The principle of allowing patients to refuse treatment after being informed of the risks and benefits",
+      "definationTranslation": "मरीजों को जोखिमों और लाभों के बारे में सूचित किए जाने के बाद उपचार से इनकार करने की अनुमति देने का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The doctor respected the patient's informed refusal and did not force them to undergo treatment.",
+          "translation": "डॉक्टर ने मरीज की सूचित अस्वीकृति का सम्मान किया और उन्हें उपचार के लिए मजबूर नहीं किया।"
+        },
+        {
+          "sentence": "The nurse explained the treatment options to the patient and accepted their informed refusal.",
+          "translation": "नर्स ने मरीज को उपचार विकल्पों के बारे में समझाया और उनकी सूचित अस्वीकृति को स्वीकार किया।"
+        }
+      ]
+    },
+    {
+      "word": "Assisted Suicide",
+      "phoneticRespelling": "uh-SIS-tid SOO-uh-syd",
+      "translation": "सहायता प्राप्त आत्महत्या",
+      "definition": "The act of helping a patient to end their life",
+      "definationTranslation": "मरीज को अपनी जान लेने में मदद करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The debate about assisted suicide continues to be a contentious issue in medical ethics.",
+          "translation": "सहायता प्राप्त आत्महत्या के बारे में बहस चिकित्सा नीतिशास्त्र में अभी भी एक विवादास्पद मुद्दा बनी हुई है।"
+        },
+        {
+          "sentence": "The doctor was opposed to assisted suicide and believed in preserving human life.",
+          "translation": "डॉक्टर सहायता प्राप्त आत्महत्या के विरोधी थे और उन्हें मानव जीवन की रक्षा में विश्वास था।"
+        }
+      ]
+    },
+    {
+      "word": "Human Dignity",
+      "phoneticRespelling": "HYOO-muhn DIG-nuh-tee",
+      "translation": "मानव गरिमा",
+      "definition": "The principle of respecting and valuing the worth and autonomy of every human being",
+      "definationTranslation": "प्रत्येक मानव की गरिमा और स्वायत्तता का सम्मान और मूल्यांकन करने का सिद्धांत",
+      "sentence": [
+        {
+          "sentence": "The doctor treated the patient with respect and dignity.",
+          "translation": "डॉक्टर ने मरीज को सम्मान और गरिमा के साथ व्यवहार किया।"
+        },
+        {
+          "sentence": "The nurse believed in upholding human dignity and treated all patients with compassion and kindness.",
+          "translation": "नर्स को मानव गरिमा की रक्षा में विश्वास था और उन्होंने सभी मरीजों के साथ करुणा और दयालुता के साथ व्यवहार किया।"
+        }
+      ]
+    },
+    {
+      "word": "Vulnerability",
+      "phoneticRespelling": "vuhl-ner-uh-BIL-uh-tee",
+      "translation": "कमजोरी",
+      "definition": "The state of being susceptible to physical or emotional harm",
+      "definationTranslation": "शारीरिक या मानसिक नुकसान के प्रति संवेदनशील होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The patient's vulnerability made them more susceptible to infection.",
+          "translation": "मरीज की कमजोरी ने उन्हें संक्रमण के प्रति अधिक संवेदनशील बनाया।"
+        },
+        {
+          "sentence": "The nurse took extra precautions to protect the vulnerable patient from harm.",
+          "translation": "नर्स ने कमजोर मरीज को नुकसान से बचाने के लिए अतिरिक्त सावधानी बरती।"
+        }
+      ]
+    },
+    {
+      "word": "Compassion",
+      "phoneticRespelling": "kuhm-PASH-uhn",
+      "translation": "करुणा",
+      "definition": "The feeling of sympathy and concern for the well-being of others",
+      "definationTranslation": "दूसरों की भलाई के लिए सहानुभूति और चिंता की भावना",
+      "sentence": [
+        {
+          "sentence": "The doctor showed compassion and empathy towards the patient.",
+          "translation": "डॉक्टर ने मरीज के प्रति करुणा और संवेदनशीलता दिखाई।"
+        },
+        {
+          "sentence": "The nurse's compassion and kindness made the patient feel comfortable and secure.",
+          "translation": "नर्स की करुणा और दयालुता ने मरीज को आरामदायक और सुरक्षित महसूस कराया।"
+        }
+      ]
+    },
+    {
+      "word": "Empathy",
+      "phoneticRespelling": "EM-puh-thee",
+      "translation": "संवेदनशीलता",
+      "definition": "The ability to understand and share the feelings of others",
+      "definationTranslation": "दूसरों की भावनाओं को समझने और साझा करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The doctor's empathy helped the patient to feel understood and supported.",
+          "translation": "डॉक्टर की संवेदनशीलता ने मरीज को समझने और समर्थन देने में मदद की।"
+        },
+        {
+          "sentence": "The nurse's empathy and compassion made the patient feel more at ease.",
+          "translation": "नर्स की संवेदनशीलता और करुणा ने मरीज को अधिक आराम महसूस कराया।"
+        }
+      ]
+    },
+    {
+      "word": "Respect",
+      "phoneticRespelling": "ri-SPEKT",
+      "translation": "सम्मान",
+      "definition": "The feeling of esteem and regard for the worth and dignity of others",
+      "definationTranslation": "दूसरों की गरिमा और मूल्य के लिए सम्मान और आदर की भावना",
+      "sentence": [
+        {
+          "sentence": "The doctor treated the patient with respect and dignity.",
+          "translation": "डॉक्टर ने मरीज को सम्मान और गरिमा के साथ व्यवहार किया।"
+        },
+        {
+          "sentence": "The nurse showed respect and kindness towards the patient and their family.",
+          "translation": "नर्स ने मरीज और उनके परिवार के प्रति सम्मान और दयालुता दिखाई।"
+        }
+      ]
+    },
+    {
+      "word": "Trust",
+      "phoneticRespelling": "TRUHST",
+      "translation": "विश्वास",
+      "definition": "The feeling of confidence and reliance on the integrity and abilities of others",
+      "definationTranslation": "दूसरों की अखंडता और क्षमताओं पर विश्वास और भरोसे की भावना",
+      "sentence": [
+        {
+          "sentence": "The patient had trust in the doctor's abilities and judgment.",
+          "translation": "मरीज को डॉक्टर की क्षमताओं और निर्णय पर विश्वास था।"
+        },
+        {
+          "sentence": "The nurse's professionalism and compassion helped to build trust with the patient.",
+          "translation": "नर्स की पेशेवरता और करुणा ने मरीज के साथ विश्वास बनाने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Accountability",
+      "phoneticRespelling": "uh-KOWN-tuh-BIL-uh-tee",
+      "translation": "जिम्मेदारी",
+      "definition": "The state of being responsible and answerable for one's actions",
+      "definationTranslation": "अपने कार्यों के लिए जिम्मेदार और जवाबदेह होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The doctor was held accountable for the patient's care and well-being.",
+          "translation": "डॉक्टर को मरीज की देखभाल और भलाई के लिए जिम्मेदार ठहराया गया।"
+        },
+        {
+          "sentence": "The nurse took accountability for their actions and ensured that the patient received proper care.",
+          "translation": "नर्स ने अपने कार्यों के लिए जिम्मेदारी ली और सुनिश्चित किया कि मरीज को उचित देखभाल मिले।"
+        }
+      ]
+    },
+    {
+      "word": "Transparency",
+      "phoneticRespelling": "trans-PAR-uhn-see",
+      "translation": "पारदर्शिता",
+      "definition": "The state of being open and honest in one's actions and decisions",
+      "definationTranslation": "अपने कार्यों और निर्णयों में खुला और ईमानदार होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The doctor was transparent about the patient's diagnosis and treatment options.",
+          "translation": "डॉक्टर ने मरीज के निदान और उपचार विकल्पों के बारे में पारदर्शिता रखी।"
+        },
+        {
+          "sentence": "The nurse's transparency and honesty helped to build trust with the patient.",
+          "translation": "नर्स की पारदर्शिता और ईमानदारी ने मरीज के साथ विश्वास बनाने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Cultural Competence",
+      "phoneticRespelling": "KUL-chur-uhl KOM-puh-tuhn-s",
+      "translation": "सांस्कृतिक क्षमता",
+      "definition": "The ability to understand and respond to the cultural needs of patients",
+      "definationTranslation": "मरीजों की सांस्कृतिक आवश्यकताओं को समझने और उनका उत्तर देने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The doctor's cultural competence helped to improve patient outcomes and satisfaction.",
+          "translation": "डॉक्टर की सांस्कृतिक क्षमता ने मरीज के परिणामों और संतुष्टि को बेहतर बनाने में मदद की।"
+        },
+        {
+          "sentence": "The nurse's cultural competence and sensitivity made the patient feel more comfortable and understood.",
+          "translation": "नर्स की सांस्कृतिक क्षमता और संवेदनशीलता ने मरीज को अधिक आरामदायक और समझा हुआ महसूस कराया।"
+        }
+      ]
+    }
+  ]
 }

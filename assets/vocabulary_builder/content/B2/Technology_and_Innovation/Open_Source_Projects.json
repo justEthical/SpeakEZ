@@ -1,4 +1,413 @@
 {
   "topic": "Open Source Projects",
-  "words": []
+  "words": [
+    {
+      "word": "Collaboration",
+      "phoneticRespelling": "kəˌlæbəˈreɪʃən",
+      "translation": "सहयोग",
+      "definition": "The act of working together to achieve a common goal",
+      "definationTranslation": "एक साझा लक्ष्य प्राप्त करने के लिए एक साथ काम करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source project encouraged collaboration among developers worldwide.",
+          "translation": "खुले स्रोत परियोजना ने विश्वभर के डेवलपर्स के बीच सहयोग को बढ़ावा दिया।"
+        },
+        {
+          "sentence": "Collaboration is key to the success of any open-source project.",
+          "translation": "किसी भी खुले स्रोत परियोजना की सफलता के लिए सहयोग महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Community",
+      "phoneticRespelling": "kəˈmjuːnɪti",
+      "translation": "समुदाय",
+      "definition": "A group of people sharing common interests or goals",
+      "definationTranslation": "एक ही रुचि या लक्ष्य साझा करने वाले लोगों का समूह",
+      "sentence": [
+        {
+          "sentence": "The open-source community is known for its generosity and willingness to help.",
+          "translation": "खुले स्रोत समुदाय को उसकी उदारता और मदद करने की इच्छा के लिए जाना जाता है।"
+        },
+        {
+          "sentence": "The project's community is very active and supportive.",
+          "translation": "परियोजना का समुदाय बहुत सक्रिय और सहायक है।"
+        }
+      ]
+    },
+    {
+      "word": "Contribution",
+      "phoneticRespelling": "ˌkɒntrɪˈbjuːʃən",
+      "translation": "योगदान",
+      "definition": "The act of giving or supplying something, especially to help achieve a goal",
+      "definationTranslation": "कुछ देने या उपलब्ध कराने की क्रिया, विशेष रूप से एक लक्ष्य प्राप्त करने में मदद करने के लिए",
+      "sentence": [
+        {
+          "sentence": "Every contribution to the project, no matter how small, is valuable.",
+          "translation": "परियोजना में हर योगदान, चाहे वह कितना भी छोटा क्यों न हो, मूल्यवान है।"
+        },
+        {
+          "sentence": "The developer's contribution to the open-source project was recognized globally.",
+          "translation": "डेवलपर का खुले स्रोत परियोजना में योगदान विश्वभर में मान्यता प्राप्त हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Customization",
+      "phoneticRespelling": "ˌkʌstəmaɪˈzeɪʃən",
+      "translation": "अनुकूलन",
+      "definition": "The act of modifying something to suit individual needs or preferences",
+      "definationTranslation": "व्यक्तिगत आवश्यकताओं या पसंद के अनुसार कुछ को संशोधित करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source software allows for high customization.",
+          "translation": "खुले स्रोत सॉफ्टवेयर उच्च अनुकूलन की अनुमति देता है।"
+        },
+        {
+          "sentence": "Customization is one of the key benefits of using open-source products.",
+          "translation": "अनुकूलन खुले स्रोत उत्पादों का उपयोग करने के प्रमुख लाभों में से एक है।"
+        }
+      ]
+    },
+    {
+      "word": "Development",
+      "phoneticRespelling": "dɪˈvɛləpmənt",
+      "translation": "विकास",
+      "definition": "The process of creating or improving something, especially a product or system",
+      "definationTranslation": "किसी चीज़ को बनाने या सुधारने की प्रक्रिया, विशेष रूप से एक उत्पाद या प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The development of the open-source project was a gradual process.",
+          "translation": "खुले स्रोत परियोजना का विकास एक क्रमिक प्रक्रिया थी।"
+        },
+        {
+          "sentence": "The company invests heavily in the development of new open-source technologies.",
+          "translation": "कंपनी नए खुले स्रोत प्रौद्योगिकियों के विकास में भारी निवेश करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Distribution",
+      "phoneticRespelling": "dɪstrɪˈbjuːʃən",
+      "translation": "वितरण",
+      "definition": "The act of giving or supplying something to a number of people or places",
+      "definationTranslation": "कुछ को कई लोगों या स्थानों पर देने या उपलब्ध कराने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source software is available for free distribution.",
+          "translation": "खुले स्रोत सॉफ्टवेयर मुफ्त वितरण के लिए उपलब्ध है।"
+        },
+        {
+          "sentence": "The company is responsible for the distribution of the open-source product.",
+          "translation": "कंपनी खुले स्रोत उत्पाद के वितरण के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Documentation",
+      "phoneticRespelling": "dɒkjuːmɛnˈteɪʃən",
+      "translation": "दस्तावेज़ीकरण",
+      "definition": "The act of creating and maintaining written records or documents",
+      "definationTranslation": "लिखित रिकॉर्ड या दस्तावेज़ बनाने और बनाए रखने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Good documentation is essential for any open-source project.",
+          "translation": "किसी भी खुले स्रोत परियोजना के लिए अच्छा दस्तावेज़ीकरण आवश्यक है।"
+        },
+        {
+          "sentence": "The project's documentation is well-organized and easy to follow.",
+          "translation": "परियोजना का दस्तावेज़ीकरण अच्छी तरह से संगठित है और इसका पालन करना आसान है।"
+        }
+      ]
+    },
+    {
+      "word": "Feedback",
+      "phoneticRespelling": "ˈfiːdˌbæk",
+      "translation": "प्रतिक्रिया",
+      "definition": "Information or comments about something, especially about its quality or performance",
+      "definationTranslation": "किसी चीज़ के बारे में जानकारी या टिप्पणियां, विशेष रूप से इसकी गुणवत्ता या प्रदर्शन के बारे में",
+      "sentence": [
+        {
+          "sentence": "The open-source community values feedback from its users.",
+          "translation": "खुले स्रोत समुदाय अपने उपयोगकर्ताओं से प्रतिक्रिया को महत्व देता है।"
+        },
+        {
+          "sentence": "The developer welcomes feedback on the new open-source project.",
+          "translation": "डेवलपर नए खुले स्रोत परियोजना पर प्रतिक्रिया का स्वागत करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Flexibility",
+      "phoneticRespelling": "ˌflɛksɪˈbɪlɪti",
+      "translation": "लचीलापन",
+      "definition": "The ability to change or adapt to new or different situations",
+      "definationTranslation": "नई या अलग-अलग स्थितियों में बदलने या अनुकूलन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "Open-source software offers flexibility in customization and development.",
+          "translation": "खुले स्रोत सॉफ्टवेयर अनुकूलन और विकास में लचीलापन प्रदान करता है।"
+        },
+        {
+          "sentence": "The open-source platform provides flexibility for users to modify it as needed.",
+          "translation": "खुले स्रोत प्लेटफ़ॉर्म उपयोगकर्ताओं को आवश्यकतानुसार इसे संशोधित करने के लिए लचीलापन प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Forum",
+      "phoneticRespelling": "ˈfɔːrəm",
+      "translation": "मंच",
+      "definition": "A place or opportunity for discussion, debate, or exchange of ideas",
+      "definationTranslation": "चर्चा, बहस, या विचारों के आदान-प्रदान के लिए एक स्थान या अवसर",
+      "sentence": [
+        {
+          "sentence": "The open-source community uses online forums for discussion and support.",
+          "translation": "खुले स्रोत समुदाय चर्चा और समर्थन के लिए ऑनलाइन मंचों का उपयोग करता है।"
+        },
+        {
+          "sentence": "The project's forum is active and helpful for troubleshooting.",
+          "translation": "परियोजना का मंच सक्रिय और समस्या निवारण के लिए सहायक है।"
+        }
+      ]
+    },
+    {
+      "word": "Freedom",
+      "phoneticRespelling": "ˈfrɪdəm",
+      "translation": "स्वतंत्रता",
+      "definition": "The state of being able to act or make decisions without restriction",
+      "definationTranslation": "किसी प्रतिबंध के बिना कार्य करने या निर्णय लेने में सक्षम होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "Open-source software gives users the freedom to modify and distribute it.",
+          "translation": "खुले स्रोत सॉफ्टवेयर उपयोगकर्ताओं को इसे संशोधित और वितरित करने की स्वतंत्रता देता है।"
+        },
+        {
+          "sentence": "The open-source community values freedom and transparency.",
+          "translation": "खुले स्रोत समुदाय स्वतंत्रता और पारदर्शिता को महत्व देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Implementation",
+      "phoneticRespelling": "ɪmplɪmɛnˈteɪʃən",
+      "translation": "कार्यान्वयन",
+      "definition": "The act of putting a plan or system into operation",
+      "definationTranslation": "एक योजना या प्रणाली को संचालन में लाने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The implementation of the open-source project was a complex task.",
+          "translation": "खुले स्रोत परियोजना का कार्यान्वयन एक जटिल कार्य था।"
+        },
+        {
+          "sentence": "The company is responsible for the implementation of the new open-source technology.",
+          "translation": "कंपनी नई खुले स्रोत प्रौद्योगिकी के कार्यान्वयन के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Integration",
+      "phoneticRespelling": "ɪntɪˈɡreɪʃən",
+      "translation": "एकीकरण",
+      "definition": "The act of combining different things to form a whole",
+      "definationTranslation": "विभिन्न चीजों को एक पूरे के रूप में बनाने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source project requires integration with other systems.",
+          "translation": "खुले स्रोत परियोजना को अन्य प्रणालियों के साथ एकीकरण की आवश्यकता है।"
+        },
+        {
+          "sentence": "The company specializes in the integration of open-source technologies.",
+          "translation": "कंपनी खुले स्रोत प्रौद्योगिकियों के एकीकरण में विशेषज्ञता रखती है।"
+        }
+      ]
+    },
+    {
+      "word": "Licensing",
+      "phoneticRespelling": "ˈlaɪsənsɪŋ",
+      "translation": "लाइसेंसिंग",
+      "definition": "The act of giving or getting official permission to do or use something",
+      "definationTranslation": "कुछ करने या उपयोग करने के लिए आधिकारिक अनुमति देने या प्राप्त करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source project uses a permissive licensing model.",
+          "translation": "खुले स्रोत परियोजना एक अनुमति देने वाले लाइसेंसिंग मॉडल का उपयोग करती है।"
+        },
+        {
+          "sentence": "The company is careful about licensing when using open-source software.",
+          "translation": "कंपनी खुले स्रोत सॉफ्टवेयर का उपयोग करते समय लाइसेंसिंग के बारे में सावधानी बरतती है।"
+        }
+      ]
+    },
+    {
+      "word": "Maintenance",
+      "phoneticRespelling": "ˈmeɪntɪnəns",
+      "translation": "रखरखाव",
+      "definition": "The act of keeping something in good condition or working order",
+      "definationTranslation": "किसी चीज़ को अच्छी स्थिति में या कार्य करने के क्रम में रखने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source community is responsible for the maintenance of the project.",
+          "translation": "खुले स्रोत समुदाय परियोजना के रखरखाव के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The company provides maintenance support for its open-source products.",
+          "translation": "कंपनी अपने खुले स्रोत उत्पादों के लिए रखरखाव समर्थन प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Modification",
+      "phoneticRespelling": "ˌmɒdɪfɪˈkeɪʃən",
+      "translation": "संशोधन",
+      "definition": "The act of changing or altering something",
+      "definationTranslation": "किसी चीज़ को बदलने या संशोधित करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Open-source software allows for modification and customization.",
+          "translation": "खुले स्रोत सॉफ्टवेयर संशोधन और अनुकूलन की अनुमति देता है।"
+        },
+        {
+          "sentence": "The developer made significant modifications to the open-source project.",
+          "translation": "डेवलपर ने खुले स्रोत परियोजना में महत्वपूर्ण संशोधन किए।"
+        }
+      ]
+    },
+    {
+      "word": "Openness",
+      "phoneticRespelling": "ˈoʊpənnɪs",
+      "translation": "खुलापन",
+      "definition": "The quality of being open or transparent in actions or decisions",
+      "definationTranslation": "कार्यों या निर्णयों में खुला या पारदर्शी होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The open-source community values openness and transparency.",
+          "translation": "खुले स्रोत समुदाय खुलापन और पारदर्शिता को महत्व देता है।"
+        },
+        {
+          "sentence": "The company promotes openness in its development processes.",
+          "translation": "कंपनी अपनी विकास प्रक्रियाओं में खुलापन को बढ़ावा देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Participation",
+      "phoneticRespelling": "pɑːrtɪsɪˈpeɪʃən",
+      "translation": "भागीदारी",
+      "definition": "The act of taking part or sharing in something",
+      "definationTranslation": "किसी चीज़ में भाग लेने या हिस्सा लेने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The open-source project encourages participation from developers worldwide.",
+          "translation": "खुले स्रोत परियोजना विश्वभर के डेवलपर्स से भागीदारी को बढ़ावा देती है।"
+        },
+        {
+          "sentence": "The company supports participation in open-source initiatives.",
+          "translation": "कंपनी खुले स्रोत पहलों में भागीदारी का समर्थन करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Repository",
+      "phoneticRespelling": "rɛpəˈzɪtɔri",
+      "translation": "भंडार",
+      "definition": "A place where things are stored, especially in a computer system",
+      "definationTranslation": "एक स्थान जहां चीजें संग्रहीत की जाती हैं, विशेष रूप से एक कंप्यूटर प्रणाली में",
+      "sentence": [
+        {
+          "sentence": "The open-source project is hosted in a public repository.",
+          "translation": "खुले स्रोत परियोजना एक सार्वजनिक भंडार में होस्ट की जाती है।"
+        },
+        {
+          "sentence": "The company uses a private repository for its open-source projects.",
+          "translation": "कंपनी अपनी खुले स्रोत परियोजनाओं के लिए एक निजी भंडार का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "sɪˈkjʊərɪti",
+      "translation": "सुरक्षा",
+      "definition": "The state of being safe or protected from harm or danger",
+      "definationTranslation": "सुरक्षित या हानि या खतरे से सुरक्षित होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The open-source project prioritizes security and stability.",
+          "translation": "खुले स्रोत परियोजना सुरक्षा और स्थिरता को प्राथमिकता देती है।"
+        },
+        {
+          "sentence": "The company takes security seriously in its open-source products.",
+          "translation": "कंपनी अपने खुले स्रोत उत्पादों में सुरक्षा को गंभीरता से लेती है।"
+        }
+      ]
+    },
+    {
+      "word": "Source",
+      "phoneticRespelling": "soʊrs",
+      "translation": "स्रोत",
+      "definition": "The place or person from which something comes or is obtained",
+      "definationTranslation": "स्थान या व्यक्ति जिससे कुछ आता है या प्राप्त किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The open-source project makes its source code available to the public.",
+          "translation": "खुले स्रोत परियोजना अपने स्रोत कोड को सार्वजनिक रूप से उपलब्ध कराती है।"
+        },
+        {
+          "sentence": "The company uses open-source technologies from various sources.",
+          "translation": "कंपनी विभिन्न स्रोतों से खुले स्रोत प्रौद्योगिकियों का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Stability",
+      "phoneticRespelling": "ˈstæbɪlɪti",
+      "translation": "स्थिरता",
+      "definition": "The state of being firm or unchanged",
+      "definationTranslation": "स्थिर या अपरिवर्तित होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The open-source project aims for stability and reliability.",
+          "translation": "खुले स्रोत परियोजना स्थिरता और विश्वसनीयता के लिए प्रयास करती है।"
+        },
+        {
+          "sentence": "The company values stability in its open-source products.",
+          "translation": "कंपनी अपने खुले स्रोत उत्पादों में स्थिरता को महत्व देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Sustainability",
+      "phoneticRespelling": "səˌsteɪnəˈbɪlɪti",
+      "translation": "स्थायित्व",
+      "definition": "The ability to maintain or support something over time",
+      "definationTranslation": "किसी चीज़ को समय के साथ बनाए रखने या समर्थन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The open-source project focuses on sustainability and long-term maintenance.",
+          "translation": "खुले स्रोत परियोजना स्थायित्व और दीर्घकालिक रखरखाव पर ध्यान केंद्रित करती है।"
+        },
+        {
+          "sentence": "The company prioritizes sustainability in its open-source initiatives.",
+          "translation": "कंपनी अपनी खुले स्रोत पहलों में स्थायित्व को प्राथमिकता देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Transparency",
+      "phoneticRespelling": "trænsˈpærənsi",
+      "translation": "पारदर्शिता",
+      "definition": "The state of being clear or easy to understand",
+      "definationTranslation": "स्पष्ट या समझने में आसान होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The open-source community values transparency in its development processes.",
+          "translation": "खुले स्रोत समुदाय अपनी विकास प्रक्रियाओं में पारदर्शिता को महत्व देता है।"
+        },
+        {
+          "sentence": "The company promotes transparency in its open-source projects.",
+          "translation": "कंपनी अपनी खुले स्रोत परियोजनाओं में पारदर्शिता को बढ़ावा देती है।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,413 @@
 {
   "topic": "Patient Communication",
-  "words": []
+  "words": [
+    {
+      "word": "Diagnosis",
+      "phoneticRespelling": "dy-AG-noh-sis",
+      "translation": "निदान",
+      "definition": "The process of identifying a disease or condition",
+      "definationTranslation": "एक बीमारी या स्थिति की पहचान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The doctor made a diagnosis based on the test results",
+          "translation": "डॉक्टर ने परीक्षण परिणामों के आधार पर निदान किया"
+        },
+        {
+          "sentence": "A correct diagnosis is essential for effective treatment",
+          "translation": "प्रभावी उपचार के लिए एक सही निदान आवश्यक है"
+        }
+      ]
+    },
+    {
+      "word": "Symptom",
+      "phoneticRespelling": "SIMP-tuhm",
+      "translation": "लक्षण",
+      "definition": "A sign or indication of a disease or condition",
+      "definationTranslation": "एक बीमारी या स्थिति का संकेत या सूचक",
+      "sentence": [
+        {
+          "sentence": "The patient reported a symptom of severe headache",
+          "translation": "रोगी ने गंभीर सिरदर्द के लक्षण की सूचना दी"
+        },
+        {
+          "sentence": "The doctor asked the patient to describe their symptoms",
+          "translation": "डॉक्टर ने रोगी से अपने लक्षणों का वर्णन करने के लिए कहा"
+        }
+      ]
+    },
+    {
+      "word": "Medication",
+      "phoneticRespelling": "MED-ih-KAY-shuhn",
+      "translation": "दवा",
+      "definition": "A substance used to treat a disease or condition",
+      "definationTranslation": "एक बीमारी या स्थिति के इलाज के लिए उपयोग की जाने वाली एक पदार्थ",
+      "sentence": [
+        {
+          "sentence": "The patient was prescribed medication to manage their symptoms",
+          "translation": "रोगी को अपने लक्षणों को प्रबंधित करने के लिए दवा निर्धारित की गई थी"
+        },
+        {
+          "sentence": "The doctor explained the possible side effects of the medication",
+          "translation": "डॉक्टर ने दवा के संभावित दुष्प्रभावों के बारे में बताया"
+        }
+      ]
+    },
+    {
+      "word": "Hospital",
+      "phoneticRespelling": "HAH-spi-tl",
+      "translation": "अस्पताल",
+      "definition": "A place where people go to receive medical care",
+      "definationTranslation": "एक ऐसा स्थान जहां लोग चिकित्सा देखभाल प्राप्त करने जाते हैं",
+      "sentence": [
+        {
+          "sentence": "The patient was admitted to the hospital for further treatment",
+          "translation": "रोगी को आगे के उपचार के लिए अस्पताल में भर्ती कराया गया था"
+        },
+        {
+          "sentence": "The hospital provides emergency services 24 hours a day",
+          "translation": "अस्पताल 24 घंटे आपातकालीन सेवाएं प्रदान करता है"
+        }
+      ]
+    },
+    {
+      "word": "Recovery",
+      "phoneticRespelling": "rih-KAH-vuh-ree",
+      "translation": "सुधार",
+      "definition": "The process of getting better after an illness or injury",
+      "definationTranslation": "एक बीमारी या चोट के बाद बेहतर होने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The patient is expected to make a full recovery",
+          "translation": "उम्मीद है कि रोगी पूर्ण सुधार करेगा"
+        },
+        {
+          "sentence": "The recovery process can take several weeks or months",
+          "translation": "सुधार प्रक्रिया में कई हफ्ते या महीने लग सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "phoneticRespelling": "TREET-muhnt",
+      "translation": "इलाज",
+      "definition": "The process of providing medical care to a patient",
+      "definationTranslation": "एक रोगी को चिकित्सा देखभाल प्रदान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended a course of treatment for the patient",
+          "translation": "डॉक्टर ने रोगी के लिए उपचार का एक कोर्स अनुशंसित किया"
+        },
+        {
+          "sentence": "The treatment plan included medication and physical therapy",
+          "translation": "उपचार योजना में दवा और भौतिक चिकित्सा शामिल थी"
+        }
+      ]
+    },
+    {
+      "word": "Caregiver",
+      "phoneticRespelling": "KAYR-gih-vur",
+      "translation": "देखभाल करने वाला",
+      "definition": "A person who provides care and support to a patient",
+      "definationTranslation": "एक व्यक्ति जो रोगी को देखभाल और समर्थन प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "The caregiver helped the patient with daily activities",
+          "translation": "देखभाल करने वाले ने रोगी को दैनिक गतिविधियों में मदद की"
+        },
+        {
+          "sentence": "The caregiver provided emotional support to the patient",
+          "translation": "देखभाल करने वाले ने रोगी को भावनात्मक समर्थन प्रदान किया"
+        }
+      ]
+    },
+    {
+      "word": "Prescription",
+      "phoneticRespelling": "prih-SKRIHP-shuhn",
+      "translation": "पर्चा",
+      "definition": "A written order from a doctor for medication or treatment",
+      "definationTranslation": "दवा या उपचार के लिए एक डॉक्टर से लिखित आदेश",
+      "sentence": [
+        {
+          "sentence": "The doctor wrote a prescription for the patient",
+          "translation": "डॉक्टर ने रोगी के लिए एक पर्चा लिखा"
+        },
+        {
+          "sentence": "The patient took the prescription to the pharmacy to fill it",
+          "translation": "रोगी ने पर्चा भरने के लिए इसे फार्मेसी में ले गया"
+        }
+      ]
+    },
+    {
+      "word": "Discharge",
+      "phoneticRespelling": "DIS-chahrj",
+      "translation": "छुट्टी",
+      "definition": "The process of releasing a patient from the hospital",
+      "definationTranslation": "अस्पताल से एक रोगी को छोड़ने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The patient was discharged from the hospital after a week",
+          "translation": "एक सप्ताह के बाद रोगी को अस्पताल से छुट्टी दे दी गई"
+        },
+        {
+          "sentence": "The doctor gave the patient instructions for post-discharge care",
+          "translation": "डॉक्टर ने रोगी को चिकित्सा छुट्टी के बाद की देखभाल के लिए निर्देश दिए"
+        }
+      ]
+    },
+    {
+      "word": "Medical",
+      "phoneticRespelling": "MED-ih-kuhl",
+      "translation": "चिकित्सा",
+      "definition": "Relating to the science or practice of medicine",
+      "definationTranslation": "चिकित्सा विज्ञान या अभ्यास से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The medical team worked together to diagnose the patient",
+          "translation": "चिकित्सा टीम ने रोगी का निदान करने के लिए मिलकर काम किया"
+        },
+        {
+          "sentence": "The medical equipment was state-of-the-art",
+          "translation": "चिकित्सा उपकरण आधुनिक था"
+        }
+      ]
+    },
+    {
+      "word": "Nurse",
+      "phoneticRespelling": "NURS",
+      "translation": "नर्स",
+      "definition": "A person trained to care for the sick or injured",
+      "definationTranslation": "बीमार या घायल की देखभाल के लिए प्रशिक्षित एक व्यक्ति",
+      "sentence": [
+        {
+          "sentence": "The nurse took the patient's vital signs",
+          "translation": "नर्स ने रोगी के जीवनकाल संकेत लिए"
+        },
+        {
+          "sentence": "The nurse administered the medication to the patient",
+          "translation": "नर्स ने रोगी को दवा दी"
+        }
+      ]
+    },
+    {
+      "word": "Therapy",
+      "phoneticRespelling": "THAYR-uh-pee",
+      "translation": "चिकित्सा",
+      "definition": "The treatment of a disease or condition using a specific method",
+      "definationTranslation": "एक विशिष्ट तरीके से एक बीमारी या स्थिति का उपचार",
+      "sentence": [
+        {
+          "sentence": "The patient underwent physical therapy to recover from the injury",
+          "translation": "रोगी ने चोट से उबरने के लिए शारीरिक चिकित्सा का सहारा लिया"
+        },
+        {
+          "sentence": "The therapist worked with the patient to develop a therapy plan",
+          "translation": "थेरेपिस्ट ने रोगी के साथ एक चिकित्सा योजना विकसित करने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Healthcare",
+      "phoneticRespelling": "HELTH-kayr",
+      "translation": "स्वास्थ्य सेवा",
+      "definition": "The organization and provision of medical care",
+      "definationTranslation": "चिकित्सा देखभाल का संगठन और प्रावधान",
+      "sentence": [
+        {
+          "sentence": "The healthcare system in the country is well-developed",
+          "translation": "देश में स्वास्थ्य सेवा प्रणाली अच्छी तरह से विकसित है"
+        },
+        {
+          "sentence": "The healthcare provider worked to improve patient outcomes",
+          "translation": "स्वास्थ्य सेवा प्रदाता ने रोगी परिणामों में सुधार करने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Patient",
+      "phoneticRespelling": "PAY-shuhnt",
+      "translation": "रोगी",
+      "definition": "A person who is receiving medical care",
+      "definationTranslation": "एक व्यक्ति जो चिकित्सा देखभाल प्राप्त कर रहा है",
+      "sentence": [
+        {
+          "sentence": "The patient was nervous about the upcoming surgery",
+          "translation": "रोगी आगामी सर्जरी के बारे में चिंतित था"
+        },
+        {
+          "sentence": "The doctor explained the treatment options to the patient",
+          "translation": "डॉक्टर ने रोगी को उपचार विकल्पों के बारे में बताया"
+        }
+      ]
+    },
+    {
+      "word": "Illness",
+      "phoneticRespelling": "IL-nis",
+      "translation": "बीमारी",
+      "definition": "A disease or condition that affects the body or mind",
+      "definationTranslation": "एक बीमारी या स्थिति जो शरीर या मन को प्रभावित करती है",
+      "sentence": [
+        {
+          "sentence": "The patient was suffering from a chronic illness",
+          "translation": "रोगी एक पुरानी बीमारी से पीड़ित था"
+        },
+        {
+          "sentence": "The doctor worked to understand the underlying cause of the illness",
+          "translation": "डॉक्टर ने बीमारी के मूल कारण को समझने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Injury",
+      "phoneticRespelling": "IN-juh-ree",
+      "translation": "चोट",
+      "definition": "Harm or damage to a person's body",
+      "definationTranslation": "एक व्यक्ति के शरीर को नुकसान या क्षति",
+      "sentence": [
+        {
+          "sentence": "The patient suffered a severe injury in the accident",
+          "translation": "दुर्घटना में रोगी को गंभीर चोट आई"
+        },
+        {
+          "sentence": "The doctor treated the injury and helped the patient recover",
+          "translation": "डॉक्टर ने चोट का इलाज किया और रोगी को उबरने में मदद की"
+        }
+      ]
+    },
+    {
+      "word": "Rehabilitation",
+      "phoneticRespelling": "ree-huh-BIL-ih-TAY-shuhn",
+      "translation": "पुनर्वास",
+      "definition": "The process of helping someone recover from an illness or injury",
+      "definationTranslation": "एक बीमारी या चोट से किसी को उबरने में मदद करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The rehabilitation center helped the patient regain their strength",
+          "translation": "पुनर्वास केंद्र ने रोगी को अपनी ताकत वापस पाने में मदद की"
+        },
+        {
+          "sentence": "The rehabilitation process was long and challenging",
+          "translation": "पुनर्वास प्रक्रिया लंबी और चुनौतीपूर्ण थी"
+        }
+      ]
+    },
+    {
+      "word": "Surgery",
+      "phoneticRespelling": "SUR-juh-ree",
+      "translation": "सर्जरी",
+      "definition": "A medical operation to repair or remove a part of the body",
+      "definationTranslation": "शरीर के एक भाग की मरम्मत या हटाने के लिए एक चिकित्सा ऑपरेशन",
+      "sentence": [
+        {
+          "sentence": "The patient underwent surgery to repair a torn ligament",
+          "translation": "रोगी ने एक फटे हुए लिगामेंट की मरम्मत के लिए सर्जरी का सहारा लिया"
+        },
+        {
+          "sentence": "The surgeon performed the surgery with precision and care",
+          "translation": "सर्जन ने सर्जरी को सटीकता और देखभाल के साथ किया"
+        }
+      ]
+    },
+    {
+      "word": "Doctor",
+      "phoneticRespelling": "DAH-kter",
+      "translation": "डॉक्टर",
+      "definition": "A person who is trained to provide medical care",
+      "definationTranslation": "एक व्यक्ति जो चिकित्सा देखभाल प्रदान करने के लिए प्रशिक्षित है",
+      "sentence": [
+        {
+          "sentence": "The doctor examined the patient and prescribed medication",
+          "translation": "डॉक्टर ने रोगी की जांच की और दवा निर्धारित की"
+        },
+        {
+          "sentence": "The doctor explained the diagnosis and treatment options to the patient",
+          "translation": "डॉक्टर ने रोगी को निदान और उपचार विकल्पों के बारे में बताया"
+        }
+      ]
+    },
+    {
+      "word": "Pharmacy",
+      "phoneticRespelling": "FAR-muh-see",
+      "translation": "फार्मेसी",
+      "definition": "A place where medicines are prepared and sold",
+      "definationTranslation": "एक स्थान जहां दवाएं तैयार की जाती हैं और बेची जाती हैं",
+      "sentence": [
+        {
+          "sentence": "The patient went to the pharmacy to fill their prescription",
+          "translation": "रोगी अपना पर्चा भरने के लिए फार्मेसी गया"
+        },
+        {
+          "sentence": "The pharmacist helped the patient understand their medication",
+          "translation": "फार्मासिस्ट ने रोगी को उनकी दवा के बारे में समझने में मदद की"
+        }
+      ]
+    },
+    {
+      "word": "Medical Record",
+      "phoneticRespelling": "MED-ih-kuhl REH-kurd",
+      "translation": "चिकित्सा रिकॉर्ड",
+      "definition": "A document that contains a patient's medical history",
+      "definationTranslation": "एक दस्तावेज जिसमें एक रोगी का चिकित्सा इतिहास होता है",
+      "sentence": [
+        {
+          "sentence": "The doctor reviewed the patient's medical record before the appointment",
+          "translation": "डॉक्टर ने नियुक्ति से पहले रोगी का चिकित्सा रिकॉर्ड देखा"
+        },
+        {
+          "sentence": "The medical record was used to track the patient's progress",
+          "translation": "चिकित्सा रिकॉर्ड का उपयोग रोगी की प्रगति को ट्रैक करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Health",
+      "phoneticRespelling": "HELTH",
+      "translation": "स्वास्थ्य",
+      "definition": "A state of complete physical, mental, and emotional well-being",
+      "definationTranslation": "शारीरिक, मानसिक और भावनात्मक स्वास्थ्य की एक स्थिति",
+      "sentence": [
+        {
+          "sentence": "Good health is essential for a happy life",
+          "translation": "सुखी जीवन के लिए अच्छा स्वास्थ्य आवश्यक है"
+        },
+        {
+          "sentence": "The patient's health improved significantly after the treatment",
+          "translation": "उपचार के बाद रोगी का स्वास्थ्य काफी हद तक सुधर गया"
+        }
+      ]
+    },
+    {
+      "word": "Examination",
+      "phoneticRespelling": "eg-ZAM-uh-NAY-shuhn",
+      "translation": "परीक्षा",
+      "definition": "A medical test or check-up to assess a patient's condition",
+      "definationTranslation": "एक रोगी की स्थिति का आकलन करने के लिए एक चिकित्सा परीक्षण या जांच",
+      "sentence": [
+        {
+          "sentence": "The doctor performed a thorough examination of the patient",
+          "translation": "डॉक्टर ने रोगी का विस्तृत परीक्षण किया"
+        },
+        {
+          "sentence": "The examination revealed a underlying medical condition",
+          "translation": "परीक्षा ने एक अंतर्निहित चिकित्सा स्थिति का खुलासा किया"
+        }
+      ]
+    },
+    {
+      "word": "Appointment",
+      "phoneticRespelling": "uh-POYN-tment",
+      "translation": "नियुक्ति",
+      "definition": "A scheduled meeting with a doctor or healthcare provider",
+      "definationTranslation": "एक डॉक्टर या स्वास्थ्य सेवा प्रदाता के साथ एक निर्धारित बैठक",
+      "sentence": [
+        {
+          "sentence": "The patient made an appointment with the doctor for a check-up",
+          "translation": "रोगी ने जांच के लिए डॉक्टर के साथ एक नियुक्ति बनाई"
+        },
+        {
+          "sentence": "The appointment was scheduled for the following week",
+          "translation": "नियुक्ति अगले सप्ताह के लिए निर्धारित की गई थी"
+        }
+      ]
+    }
+  ]
 }

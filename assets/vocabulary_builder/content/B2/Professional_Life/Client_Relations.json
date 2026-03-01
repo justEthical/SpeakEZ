@@ -1,4 +1,396 @@
 {
   "topic": "Client Relations",
-  "words": []
+  "words": [
+    {
+      "word": "account",
+      "phoneticRespelling": "uh-KOWN-t",
+      "translation": "खाता",
+      "definition": "a record of money paid or owed to a person or business",
+      "definationTranslation": "किसी व्यक्ति या व्यवसाय को दिए या बकाया पैसे का रिकॉर्ड",
+      "sentence": [
+        {
+          "sentence": "The company will review your account to determine the best course of action.",
+          "translation": "कंपनी आपके खाते की समीक्षा करेगी ताकि सबसे अच्छा कार्रवाई का निर्धारण किया जा सके।"
+        },
+        {
+          "sentence": "Please update your account information to ensure timely payments.",
+          "translation": "समय पर भुगतान सुनिश्चित करने के लिए कृपया अपने खाता जानकारी को अद्यतन करें।"
+        }
+      ]
+    },
+    {
+      "word": "liaise",
+      "phoneticRespelling": "LEE-ayz",
+      "translation": "संवाद करना",
+      "definition": "to communicate and cooperate with another person or organization",
+      "definationTranslation": "किसी अन्य व्यक्ति या संगठन के साथ संवाद और सहयोग करना",
+      "sentence": [
+        {
+          "sentence": "The marketing team will liaise with the sales department to launch the new product.",
+          "translation": "विपणन टीम नए उत्पाद को लॉन्च करने के लिए बिक्री विभाग के साथ संवाद करेगी।"
+        },
+        {
+          "sentence": "I will liaise with the client to understand their requirements.",
+          "translation": "मैं ग्राहक के साथ संवाद करूंगा ताकि उनकी आवश्यकताओं को समझ सकूं।"
+        }
+      ]
+    },
+    {
+      "word": "pitch",
+      "phoneticRespelling": "PICH",
+      "translation": "प्रस्तुति",
+      "definition": "a talk or presentation, especially one that is intended to persuade someone to buy or invest in something",
+      "definationTranslation": "एक बातचीत या प्रस्तुति, विशेष रूप से एक जो किसी को कुछ खरीदने या निवेश करने के लिए राजी करने के लिए है",
+      "sentence": [
+        {
+          "sentence": "The sales team will make a pitch to the potential client tomorrow.",
+          "translation": "बिक्री टीम कल संभावित ग्राहक के लिए एक प्रस्तुति देगी।"
+        },
+        {
+          "sentence": "The entrepreneur prepared a pitch to present to the investors.",
+          "translation": "उद्यमी निवेशकों को प्रस्तुत करने के लिए एक प्रस्तुति तैयार की।"
+        }
+      ]
+    },
+    {
+      "word": "network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "a group of people who exchange information, resources, and services",
+      "definationTranslation": "एक समूह जो जानकारी, संसाधनों और सेवाओं का आदान-प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "Attending conferences is a great way to network and meet new people in your industry.",
+          "translation": "सम्मेलनों में भाग लेना अपने उद्योग में नए लोगों से मिलने और नेटवर्क बनाने का एक अच्छा तरीका है।"
+        },
+        {
+          "sentence": "The company's network of suppliers is very strong.",
+          "translation": "कंपनी का आपूर्तिकर्ताओं का नेटवर्क बहुत मजबूत है।"
+        }
+      ]
+    },
+    {
+      "word": "brief",
+      "phoneticRespelling": "BREEF",
+      "translation": "संक्षिप्त",
+      "definition": "a document that summarizes the main points of a project or proposal",
+      "definationTranslation": "एक दस्तावेज जो एक परियोजना या प्रस्ताव के मुख्य बिंदुओं का सारांश देता है",
+      "sentence": [
+        {
+          "sentence": "The marketing team prepared a brief for the new campaign.",
+          "translation": "विपणन टीम ने नए अभियान के लिए एक संक्षिप्त बनाया।"
+        },
+        {
+          "sentence": "Please review the brief before the meeting.",
+          "translation": "कृपया बैठक से पहले संक्षिप्त की समीक्षा करें।"
+        }
+      ]
+    },
+    {
+      "word": "stakeholder",
+      "phoneticRespelling": "STAYK-hoh-ldur",
+      "translation": "हितधारक",
+      "definition": "a person or organization that has an interest or concern in a project or business",
+      "definationTranslation": "एक व्यक्ति या संगठन जो एक परियोजना या व्यवसाय में रुचि या चिंता रखता है",
+      "sentence": [
+        {
+          "sentence": "The company must consider the needs of all stakeholders.",
+          "translation": "कंपनी को सभी हितधारकों की आवश्यकताओं पर विचार करना होगा।"
+        },
+        {
+          "sentence": "The stakeholders will review the proposal before making a decision.",
+          "translation": "हितधारक प्रस्ताव पर निर्णय लेने से पहले इसकी समीक्षा करेंगे।"
+        }
+      ]
+    },
+    {
+      "word": "deadline",
+      "phoneticRespelling": "DED-lahn",
+      "translation": "अंतिम तिथि",
+      "definition": "a date or time by which something must be done",
+      "definationTranslation": "एक तिथि या समय जिसके द्वारा कुछ करना होगा",
+      "sentence": [
+        {
+          "sentence": "The project must be completed by the deadline.",
+          "translation": "परियोजना को अंतिम तिथि तक पूरा किया जाना होगा।"
+        },
+        {
+          "sentence": "Please submit your report before the deadline.",
+          "translation": "कृपया अंतिम तिथि से पहले अपनी रिपोर्ट जमा करें।"
+        }
+      ]
+    },
+    {
+      "word": "negotiate",
+      "phoneticRespelling": "ni-GOH-see-ayt",
+      "translation": "बातचीत करना",
+      "definition": "to discuss and agree on the terms of a contract or agreement",
+      "definationTranslation": "एक अनुबंध या समझौते की शर्तों पर चर्चा करना और सहमत होना",
+      "sentence": [
+        {
+          "sentence": "The team will negotiate the contract with the supplier.",
+          "translation": "टीम आपूर्तिकर्ता के साथ अनुबंध पर बातचीत करेगी।"
+        },
+        {
+          "sentence": "We need to negotiate the price of the service.",
+          "translation": "हमें सेवा की कीमत पर बातचीत करनी होगी।"
+        }
+      ]
+    },
+    {
+      "word": "proposal",
+      "phoneticRespelling": "pruh-POH-zul",
+      "translation": "प्रस्ताव",
+      "definition": "a plan or suggestion for a project or business",
+      "definationTranslation": "एक परियोजना या व्यवसाय के लिए एक योजना या सुझाव",
+      "sentence": [
+        {
+          "sentence": "The company will review the proposal before making a decision.",
+          "translation": "कंपनी निर्णय लेने से पहले प्रस्ताव की समीक्षा करेगी।"
+        },
+        {
+          "sentence": "Please submit your proposal by the end of the week.",
+          "translation": "कृपया सप्ताह के अंत तक अपना प्रस्ताव जमा करें।"
+        }
+      ]
+    },
+    {
+      "word": "partnership",
+      "phoneticRespelling": "PAR-tuh-nur-ship",
+      "translation": "साझेदारी",
+      "definition": "a relationship between two or more people or organizations that work together",
+      "definationTranslation": "दो या अधिक लोगों या संगठनों के बीच एक संबंध जो एक साथ काम करते हैं",
+      "sentence": [
+        {
+          "sentence": "The company has formed a partnership with a new supplier.",
+          "translation": "कंपनी ने एक नए आपूर्तिकर्ता के साथ साझेदारी बनाई है।"
+        },
+        {
+          "sentence": "The partnership will help us expand our business.",
+          "translation": "साझेदारी हमें अपने व्यवसाय को विस्तारित करने में मदद करेगी।"
+        }
+      ]
+    },
+    {
+      "word": "consultant",
+      "phoneticRespelling": "kun-SUL-tnt",
+      "translation": "परामर्शदाता",
+      "definition": "a person who gives expert advice to a company or organization",
+      "definationTranslation": "एक व्यक्ति जो किसी कंपनी या संगठन को विशेषज्ञ सलाह देता है",
+      "sentence": [
+        {
+          "sentence": "The company hired a consultant to improve their marketing strategy.",
+          "translation": "कंपनी ने अपनी विपणन रणनीति में सुधार के लिए एक परामर्शदाता को नियुक्त किया।"
+        },
+        {
+          "sentence": "The consultant will review our current operations and provide recommendations.",
+          "translation": "परामर्शदाता हमारे वर्तमान संचालन की समीक्षा करेगा और सिफारिशें प्रदान करेगा।"
+        }
+      ]
+    },
+    {
+      "word": "objective",
+      "phoneticRespelling": "uhb-JEK-tiv",
+      "translation": "उद्देश्य",
+      "definition": "a goal or aim that a person or organization is trying to achieve",
+      "definationTranslation": "एक लक्ष्य या उद्देश्य जो एक व्यक्ति या संगठन प्राप्त करने का प्रयास कर रहा है",
+      "sentence": [
+        {
+          "sentence": "The company's objective is to increase sales by 10% this year.",
+          "translation": "कंपनी का उद्देश्य इस वर्ष बिक्री को 10% बढ़ाना है।"
+        },
+        {
+          "sentence": "Our objective is to provide the best customer service.",
+          "translation": "हमारा उद्देश्य सर्वोत्तम ग्राहक सेवा प्रदान करना है।"
+        }
+      ]
+    },
+    {
+      "word": "strategy",
+      "phoneticRespelling": "STRAT-uh-jee",
+      "translation": "रणनीति",
+      "definition": "a plan of action designed to achieve a particular goal or objective",
+      "definationTranslation": "एक विशेष लक्ष्य या उद्देश्य को प्राप्त करने के लिए डिज़ाइन की गई एक कार्य योजना",
+      "sentence": [
+        {
+          "sentence": "The company will develop a new strategy to compete in the market.",
+          "translation": "कंपनी बाजार में प्रतिस्पर्धा करने के लिए एक नई रणनीति विकसित करेगी।"
+        },
+        {
+          "sentence": "Our strategy is to focus on customer satisfaction.",
+          "translation": "हमारी रणनीति ग्राहक संतुष्टि पर केंद्रित है।"
+        }
+      ]
+    },
+    {
+      "word": "meeting",
+      "phoneticRespelling": "MEE-ting",
+      "translation": "बैठक",
+      "definition": "a gathering of people, especially for discussion or business",
+      "definationTranslation": "लोगों का एक समूह, विशेष रूप से चर्चा या व्यवसाय के लिए",
+      "sentence": [
+        {
+          "sentence": "The team will have a meeting to discuss the project.",
+          "translation": "टीम परियोजना पर चर्चा करने के लिए एक बैठक करेगी।"
+        },
+        {
+          "sentence": "Please attend the meeting at 2 PM.",
+          "translation": "कृपया 2 बजे बैठक में भाग लें।"
+        }
+      ]
+    },
+    {
+      "word": "feedback",
+      "phoneticRespelling": "FEE-dbak",
+      "translation": "प्रतिक्रिया",
+      "definition": "information or comments about something, especially about its quality or performance",
+      "definationTranslation": "कुछ के बारे में जानकारी या टिप्पणियां, विशेष रूप से इसकी गुणवत्ता या प्रदर्शन के बारे में",
+      "sentence": [
+        {
+          "sentence": "The company values customer feedback to improve their services.",
+          "translation": "कंपनी अपनी सेवाओं में सुधार के लिए ग्राहक प्रतिक्रिया को महत्व देती है।"
+        },
+        {
+          "sentence": "Please provide feedback on the new product.",
+          "translation": "कृपया नए उत्पाद पर प्रतिक्रिया प्रदान करें।"
+        }
+      ]
+    },
+    {
+      "word": "report",
+      "phoneticRespelling": "ri-PORT",
+      "translation": "रिपोर्ट",
+      "definition": "a document that gives information about something, especially a detailed account of a situation or event",
+      "definationTranslation": "एक दस्तावेज जो कुछ के बारे में जानकारी देता है, विशेष रूप से एक स्थिति या घटना का एक विस्तृत विवरण",
+      "sentence": [
+        {
+          "sentence": "The team will submit a report on the project's progress.",
+          "translation": "टीम परियोजना की प्रगति पर एक रिपोर्ट जमा करेगी।"
+        },
+        {
+          "sentence": "Please review the report and provide your comments.",
+          "translation": "कृपया रिपोर्ट की समीक्षा करें और अपनी टिप्पणियां प्रदान करें।"
+        }
+      ]
+    },
+    {
+      "word": "presentation",
+      "phoneticRespelling": "prez-n-TAY-shun",
+      "translation": "प्रस्तुति",
+      "definition": "a talk or show that is given to an audience, especially to explain or promote something",
+      "definationTranslation": "एक बातचीत या शो जो एक दर्शकों के लिए दिया जाता है, विशेष रूप से कुछ को समझाने या बढ़ावा देने के लिए",
+      "sentence": [
+        {
+          "sentence": "The team will give a presentation to the client tomorrow.",
+          "translation": "टीम कल ग्राहक को एक प्रस्तुति देगी।"
+        },
+        {
+          "sentence": "Please prepare a presentation for the meeting.",
+          "translation": "कृपया बैठक के लिए एक प्रस्तुति तैयार करें।"
+        }
+      ]
+    },
+    {
+      "word": "agenda",
+      "phoneticRespelling": "AJ-en-duh",
+      "translation": "कार्यसूची",
+      "definition": "a list of things to be discussed or done at a meeting",
+      "definationTranslation": "एक बैठक में चर्चा करने या करने के लिए चीजों की सूची",
+      "sentence": [
+        {
+          "sentence": "The team will review the agenda for the meeting.",
+          "translation": "टीम बैठक के लिए कार्यसूची की समीक्षा करेगी।"
+        },
+        {
+          "sentence": "Please add your items to the agenda.",
+          "translation": "कृपया अपने आइटम को कार्यसूची में जोड़ें।"
+        }
+      ]
+    },
+    {
+      "word": "minutes",
+      "phoneticRespelling": "MIN-it-siz",
+      "translation": "मिनट",
+      "definition": "a written record of what happened at a meeting",
+      "definationTranslation": "एक बैठक में क्या हुआ, इसका लिखित रिकॉर्ड",
+      "sentence": [
+        {
+          "sentence": "The team will take minutes during the meeting.",
+          "translation": "टीम बैठक के दौरान मिनट लेगी।"
+        },
+        {
+          "sentence": "Please review the minutes of the last meeting.",
+          "translation": "कृपया पिछली बैठक के मिनटों की समीक्षा करें।"
+        }
+      ]
+    },
+    {
+      "word": "delegate",
+      "phoneticRespelling": "DEL-uh-gate",
+      "translation": "प्रतिनिधि",
+      "definition": "a person who is chosen to represent a group or organization",
+      "definationTranslation": "एक व्यक्ति जो एक समूह या संगठन का प्रतिनिधित्व करने के लिए चुना जाता है",
+      "sentence": [
+        {
+          "sentence": "The company will delegate a representative to attend the conference.",
+          "translation": "कंपनी सम्मेलन में भाग लेने के लिए एक प्रतिनिधि को नियुक्त करेगी।"
+        },
+        {
+          "sentence": "I will delegate tasks to the team members.",
+          "translation": "मैं टीम के सदस्यों को कार्य सौंपूंगा।"
+        }
+      ]
+    },
+    {
+      "word": "collaborate",
+      "phoneticRespelling": "kuh-LAB-uh-reyt",
+      "translation": "सहयोग करना",
+      "definition": "to work together with someone or a group to achieve a common goal",
+      "definationTranslation": "किसी के साथ या एक समूह के साथ मिलकर एक सामान्य लक्ष्य को प्राप्त करने के लिए काम करना",
+      "sentence": [
+        {
+          "sentence": "The teams will collaborate to complete the project.",
+          "translation": "टीमें परियोजना को पूरा करने के लिए सहयोग करेंगी।"
+        },
+        {
+          "sentence": "We need to collaborate to achieve our objectives.",
+          "translation": "हमें अपने उद्देश्यों को प्राप्त करने के लिए सहयोग करने की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "communicate",
+      "phoneticRespelling": "kuh-MYOO-ni-kayt",
+      "translation": "संवाद करना",
+      "definition": "to give or exchange information, ideas, or messages",
+      "definationTranslation": "जानकारी, विचारों या संदेशों को देना या आदान-प्रदान करना",
+      "sentence": [
+        {
+          "sentence": "The team will communicate with the client to understand their needs.",
+          "translation": "टीम ग्राहक के साथ संवाद करेगी ताकि उनकी आवश्यकताओं को समझ सके।"
+        },
+        {
+          "sentence": "Please communicate your ideas to the team.",
+          "translation": "कृपया अपने विचारों को टीम के साथ साझा करें।"
+        }
+      ]
+    },
+    {
+      "word": "coordinate",
+      "phoneticRespelling": "koh-OR-din-ayt",
+      "translation": "समन्वय करना",
+      "definition": "to organize and manage the different parts of a project or system",
+      "definationTranslation": "एक परियोजना या प्रणाली के विभिन्न भागों को व्यवस्थित और प्रबंधित करना",
+      "sentence": [
+        {
+          "sentence": "The team will coordinate the logistics of the event.",
+          "translation": "टीम आयोजन के लॉजिस्टिक्स को समन्वयित करेगी।"
+        },
+        {
+          "sentence": "Please coordinate with the marketing team to launch the campaign.",
+          "translation": "कृपया अभियान शुरू करने के लिए विपणन टीम के साथ समन्वय करें।"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,311 @@
 {
   "topic": "International Trade",
-  "words": []
+  "words": [
+    {
+      "word": "Export",
+      "phoneticRespelling": "EK-sport",
+      "translation": "निर्यात",
+      "definition": "To send goods or services to another country for sale",
+      "definationTranslation": "किसी देश से अन्य देश में माल या सेवाएं बेचने के लिए भेजना",
+      "sentence": [
+        {
+          "sentence": "The company will export its products to Europe next year.",
+          "translation": "कंपनी अगले वर्ष यूरोप में अपने उत्पादों का निर्यात करेगी।"
+        },
+        {
+          "sentence": "Export of textiles is a significant part of our country's economy.",
+          "translation": "कपड़ों का निर्यात हमारे देश की अर्थव्यवस्था का एक महत्वपूर्ण हिस्सा है।"
+        }
+      ]
+    },
+    {
+      "word": "Import",
+      "phoneticRespelling": "IM-port",
+      "translation": "आयात",
+      "definition": "To bring goods or services into a country for sale or use",
+      "definationTranslation": "माल या सेवाएं बेचने या उपयोग के लिए किसी देश में लाना",
+      "sentence": [
+        {
+          "sentence": "We import most of our electronics from China.",
+          "translation": "हम अधिकांश इलेक्ट्रॉनिक्स चीन से आयात करते हैं।"
+        },
+        {
+          "sentence": "The import of foreign goods has increased significantly in recent years.",
+          "translation": "विदेशी माल का आयात हाल के वर्षों में काफी बढ़ा है।"
+        }
+      ]
+    },
+    {
+      "word": "Tariff",
+      "phoneticRespelling": "TAR-if",
+      "translation": "सीमा शुल्क",
+      "definition": "A tax on goods or services imported into a country",
+      "definationTranslation": "किसी देश में आयातित माल या सेवाओं पर लगाया गया कर",
+      "sentence": [
+        {
+          "sentence": "The new tariff on steel imports has affected the construction industry.",
+          "translation": "स्टील आयात पर新 शर्त सीमा शुल्क ने निर्माण उद्योग को प्रभावित किया है।"
+        },
+        {
+          "sentence": "The country has imposed a high tariff on luxury goods.",
+          "translation": "देश ने विलासिता की वस्तुओं पर उच्च सीमा शुल्क लगाया है।"
+        }
+      ]
+    },
+    {
+      "word": "Quota",
+      "phoneticRespelling": "KWO-tah",
+      "translation": "कोटा",
+      "definition": "A limited amount of something that is allowed to be imported or exported",
+      "definationTranslation": "आयात या निर्यात की जाने वाली किसी चीज़ की सीमित मात्रा",
+      "sentence": [
+        {
+          "sentence": "The country has set a quota on the import of sugar.",
+          "translation": "देश ने चीनी के आयात पर एक कोटा निर्धारित किया है।"
+        },
+        {
+          "sentence": "The company has exceeded its quota for exporting textiles.",
+          "translation": "कंपनी ने कपड़ों के निर्यात के लिए अपने कोटे को पार कर लिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Embargo",
+      "phoneticRespelling": "EM-bahr-goh",
+      "translation": "प्रतिबंध",
+      "definition": "A government order that prohibits trade with a particular country or company",
+      "definationTranslation": "एक सरकारी आदेश जो किसी विशिष्ट देश या कंपनी के साथ व्यापार पर प्रतिबंध लगाता है",
+      "sentence": [
+        {
+          "sentence": "The government has imposed an embargo on the export of arms to the troubled country.",
+          "translation": "सरकार ने परेशान देश में हथियारों के निर्यात पर प्रतिबंध लगाया है।"
+        },
+        {
+          "sentence": "The embargo on oil exports has had a significant impact on the country's economy.",
+          "translation": "तेल निर्यात पर प्रतिबंध का देश की अर्थव्यवस्था पर काफी प्रभाव पड़ा है।"
+        }
+      ]
+    },
+    {
+      "word": "Trade Agreement",
+      "phoneticRespelling": "TRAID Uh-GREE-muhnt",
+      "translation": "व्यापार समझौता",
+      "definition": "A formal agreement between two or more countries regarding trade",
+      "definationTranslation": "दो या दो से अधिक देशों के बीच व्यापार के संबंध में एक औपचारिक समझौता",
+      "sentence": [
+        {
+          "sentence": "The two countries signed a trade agreement to reduce tariffs and increase trade.",
+          "translation": "दोनों देशों ने सीमा शुल्क को कम करने और व्यापार को बढ़ाने के लिए एक व्यापार समझौता पर हस्ताक्षर किए।"
+        },
+        {
+          "sentence": "The trade agreement has been beneficial for both countries, increasing exports and imports.",
+          "translation": "व्यापार समझौता दोनों देशों के लिए फायदेमंद साबित हुआ है, निर्यात और आयात में वृद्धि हुई है।"
+        }
+      ]
+    },
+    {
+      "word": "Free Trade",
+      "phoneticRespelling": "FREAY TRAID",
+      "translation": "मुक्त व्यापार",
+      "definition": "Trade between countries without tariffs, quotas, or other trade barriers",
+      "definationTranslation": "सीमा शुल्क, कोटा, या अन्य व्यापार बाधाओं के बिना देशों के बीच व्यापार",
+      "sentence": [
+        {
+          "sentence": "The free trade agreement between the two countries has increased trade and investment.",
+          "translation": "दोनों देशों के बीच मुक्त व्यापार समझौते ने व्यापार और निवेश को बढ़ावा दिया है।"
+        },
+        {
+          "sentence": "Free trade has been shown to increase economic growth and reduce poverty.",
+          "translation": "मुक्त व्यापार आर्थिक विकास को बढ़ाने और गरीबी को कम करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Protectionism",
+      "phoneticRespelling": "pruh-TEK-shuh-niz-uhm",
+      "translation": "संरक्षणवाद",
+      "definition": "The practice of protecting a country's industries by imposing tariffs, quotas, and other trade barriers",
+      "definationTranslation": "सीमा शुल्क, कोटा, और अन्य व्यापार बाधाओं को लगाकर एक देश के उद्योगों की रक्षा करने की प्रथा",
+      "sentence": [
+        {
+          "sentence": "The country's protectionist policies have been criticized by its trading partners.",
+          "translation": "देश की संरक्षणवादी नीतियों की इसके व्यापारिक भागीदारों द्वारा आलोचना की गई है।"
+        },
+        {
+          "sentence": "Protectionism can lead to higher prices and reduced competition in the domestic market.",
+          "translation": "संरक्षणवाद घरेलू बाजार में उच्च कीमतों और प्रतिस्पर्धा में कमी का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Globalization",
+      "phoneticRespelling": "GLOH-buh-lie-zay-shun",
+      "translation": "वैश्वीकरण",
+      "definition": "The process of increasing global connectivity and exchange of goods, services, and ideas",
+      "definationTranslation": "वैश्विक जुड़ाव और माल, सेवाओं, और विचारों के आदान-प्रदान की बढ़ती प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Globalization has led to increased trade and investment between countries.",
+          "translation": "वैश्वीकरण ने देशों के बीच व्यापार और निवेश को बढ़ावा दिया है।"
+        },
+        {
+          "sentence": "Globalization has also led to the growth of multinational corporations.",
+          "translation": "वैश्वीकरण ने बहुराष्ट्रीय निगमों के विकास को भी बढ़ावा दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Foreign Exchange",
+      "phoneticRespelling": "FOR-in EK-schange",
+      "translation": "विदेशी मुद्रा विनिमय",
+      "definition": "The system by which countries exchange their currencies for other currencies",
+      "definationTranslation": "देशों द्वारा अपनी मुद्राओं को अन्य मुद्राओं के लिए विनिमय करने की प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The foreign exchange market is one of the largest financial markets in the world.",
+          "translation": "विदेशी मुद्रा विनिमय बाजार दुनिया के सबसे बड़े वित्तीय बाजारों में से एक है।"
+        },
+        {
+          "sentence": "The value of a country's currency can fluctuate in the foreign exchange market.",
+          "translation": "एक देश की मुद्रा का मूल्य विदेशी मुद्रा विनिमय बाजार में उतार-चढ़ाव हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Trade Balance",
+      "phoneticRespelling": "TRAID BAL-uhns",
+      "translation": "व्यापार संतुलन",
+      "definition": "The difference between a country's exports and imports",
+      "definationTranslation": "किसी देश के निर्यात और आयात के बीच का अंतर",
+      "sentence": [
+        {
+          "sentence": "The country's trade balance is in deficit, meaning it imports more than it exports.",
+          "translation": "देश का व्यापार संतुलन घाटे में है, अर्थात यह निर्यात की तुलना में अधिक आयात करता है।"
+        },
+        {
+          "sentence": "A trade surplus can be beneficial for a country's economy, as it indicates a strong export sector.",
+          "translation": "व्यापार अधिशेष एक देश की अर्थव्यवस्था के लिए फायदेमंद हो सकता है, क्योंकि यह एक मजबूत निर्यात क्षेत्र का संकेत देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Trade Deficit",
+      "phoneticRespelling": "TRAID DEH-fuh-sit",
+      "translation": "व्यापार घाटा",
+      "definition": "A situation in which a country imports more than it exports",
+      "definationTranslation": "एक स्थिति जिसमें एक देश निर्यात की तुलना में अधिक आयात करता है",
+      "sentence": [
+        {
+          "sentence": "The country's trade deficit has been increasing over the past few years.",
+          "translation": "देश का व्यापार घाटा पिछले कुछ वर्षों से बढ़ रहा है।"
+        },
+        {
+          "sentence": "A trade deficit can lead to a decrease in a country's foreign exchange reserves.",
+          "translation": "व्यापार घाटा एक देश के विदेशी मुद्रा भंडार में कमी का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Trade Surplus",
+      "phoneticRespelling": "TRAID SUR-pluh-s",
+      "translation": "व्यापार अधिशेष",
+      "definition": "A situation in which a country exports more than it imports",
+      "definationTranslation": "एक स्थिति जिसमें एक देश आयात की तुलना में अधिक निर्यात करता है",
+      "sentence": [
+        {
+          "sentence": "The country's trade surplus has been increasing due to its strong manufacturing sector.",
+          "translation": "देश का व्यापार अधिशेष अपने मजबूत विनिर्माण क्षेत्र के कारण बढ़ रहा है।"
+        },
+        {
+          "sentence": "A trade surplus can lead to an increase in a country's foreign exchange reserves.",
+          "translation": "व्यापार अधिशेष एक देश के विदेशी मुद्रा भंडार में वृद्धि का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Customs",
+      "phoneticRespelling": "KUH-stuhmz",
+      "translation": "सीमा शुल्क",
+      "definition": "The government agency responsible for collecting duties and taxes on imported goods",
+      "definationTranslation": "आयातित माल पर करों और शुल्कों को इकट्ठा करने के लिए जिम्मेदार सरकारी एजेंसी",
+      "sentence": [
+        {
+          "sentence": "The customs agency is responsible for enforcing trade laws and regulations.",
+          "translation": "सीमा शुल्क एजेंसी व्यापार कानूनों और नियमों को लागू करने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The customs process can be complex and time-consuming, especially for large shipments.",
+          "translation": "सीमा शुल्क प्रक्रिया जटिल और समय लेने वाली हो सकती है, विशेष रूप से बड़ी खेप के लिए।"
+        }
+      ]
+    },
+    {
+      "word": "Shipper",
+      "phoneticRespelling": "SHIP-ur",
+      "translation": "भेजने वाला",
+      "definition": "A person or company that sends goods to another country for sale or use",
+      "definationTranslation": "एक व्यक्ति या कंपनी जो माल को बेचने या उपयोग के लिए किसी अन्य देश में भेजता है",
+      "sentence": [
+        {
+          "sentence": "The shipper is responsible for ensuring that the goods are properly packaged and labeled.",
+          "translation": "भेजने वाला यह सुनिश्चित करने के लिए जिम्मेदार है कि माल ठीक से पैक और लेबल किया गया है।"
+        },
+        {
+          "sentence": "The shipper must comply with all relevant laws and regulations when exporting goods.",
+          "translation": "भेजने वाले को माल को निर्यात करते समय सभी प्रासंगिक कानूनों और नियमों का पालन करना होगा।"
+        }
+      ]
+    },
+    {
+      "word": "Consignment",
+      "phoneticRespelling": "kahn-SAHYN-muhnt",
+      "translation": "प्रेषण",
+      "definition": "A shipment of goods sent to a buyer or agent for sale or use",
+      "definationTranslation": "माल की एक खेप जो किसी खरीदार या एजेंट को बेचने या उपयोग के लिए भेजी जाती है",
+      "sentence": [
+        {
+          "sentence": "The consignment of goods was sent to the buyer in a foreign country.",
+          "translation": "माल का प्रेषण विदेशी देश में खरीदार को भेजा गया था।"
+        },
+        {
+          "sentence": "The consignment must be properly documented and insured to avoid any losses.",
+          "translation": "प्रेषण को ठीक से प्रलेखित और बीमाकृत किया जाना चाहिए ताकि किसी भी नुकसान से बचा जा सके।"
+        }
+      ]
+    },
+    {
+      "word": "Incoterms",
+      "phoneticRespelling": "in-KOH-ter-mz",
+      "translation": "इनकोटर्म्स",
+      "definition": "A set of standardized terms used in international trade to define the responsibilities of buyers and sellers",
+      "definationTranslation": "अंतर्राष्ट्रीय व्यापार में खरीदारों और विक्रेताओं की जिम्मेदारियों को परिभाषित करने के लिए उपयोग किए जाने वाले मानक शब्दों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "Incoterms are widely used in international trade to clarify the terms of sale and delivery.",
+          "translation": "इनकोटर्म्स का व्यापक रूप से अंतर्राष्ट्रीय व्यापार में बिक्री और वितरण की शर्तों को स्पष्ट करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "Incoterms help to avoid misunderstandings and disputes between buyers and sellers.",
+          "translation": "इनकोटर्म्स खरीदारों और विक्रेताओं के बीच गलतफहमी और विवादों को避ने में मदद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Letter of Credit",
+      "phoneticRespelling": "LEH-tur UV KREH-dit",
+      "translation": "Letter of Credit",
+      "definition": "A document issued by a bank that guarantees payment to a seller upon presentation of certain documents",
+      "definationTranslation": "एक दस्तावेज जो एक बैंक द्वारा जारी किया जाता है जो कertain दस्तावेजों के पresentation पर विक्रेता को भुगतान की गारंटी देता है",
+      "sentence": [
+        {
+          "sentence": "The letter of credit is a common payment method used in international trade.",
+          "translation": "लेटर ऑफ क्रेडिट अंतर्राष्ट्रीय व्यापार में उपयोग किया जाने वाला एक सामान्य भुगतान विधि है।"
+        },
+        {
+          "sentence": "The letter of credit provides a level of security for both the buyer and the seller.",
+          "translation": "लेटर ऑफ क्रेडिट खरीदार और विक्रेता दोनों के लिए एक स्तर की सुरक्षा प्रदान करता है।"
+        }
+      ]
+    }
+  ]
 }

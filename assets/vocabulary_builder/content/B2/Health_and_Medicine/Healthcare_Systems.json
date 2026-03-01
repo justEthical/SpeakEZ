@@ -1,4 +1,345 @@
 {
   "topic": "Healthcare Systems",
-  "words": []
+  "words": [
+    {
+      "word": "Patient",
+      "phoneticRespelling": "PAY-shent",
+      "translation": "मरीज",
+      "definition": "A person who is receiving medical care",
+      "definationTranslation": "चिकित्सा देखभाल प्राप्त करने वाला व्यक्ति",
+      "sentence": [
+        {
+          "sentence": "The patient was given a thorough check-up by the doctor.",
+          "translation": "मरीज का डॉक्टर ने विस्तार से परीक्षण किया।"
+        },
+        {
+          "sentence": "The patient's family was worried about his condition.",
+          "translation": "मरीज के परिवार को उनकी स्थिति के बारे में चिंता थी।"
+        }
+      ]
+    },
+    {
+      "word": "Hospital",
+      "phoneticRespelling": "HAH-spi-tl",
+      "translation": "अस्पताल",
+      "definition": "A place where people go to receive medical care",
+      "definationTranslation": "एक स्थान जहां लोग चिकित्सा देखभाल प्राप्त करने जाते हैं",
+      "sentence": [
+        {
+          "sentence": "The hospital is equipped with the latest medical technology.",
+          "translation": "अस्पताल में नवीनतम चिकित्सा प्रौद्योगिकी की सुविधा है।"
+        },
+        {
+          "sentence": "The patient was rushed to the hospital in an emergency.",
+          "translation": "मरीज को आपात स्थिति में अस्पताल ले जाया गया।"
+        }
+      ]
+    },
+    {
+      "word": "Doctor",
+      "phoneticRespelling": "DAHK-ter",
+      "translation": "डॉक्टर",
+      "definition": "A person who is qualified to practice medicine",
+      "definationTranslation": "एक व्यक्ति जो चिकित्सा का अभ्यास करने के लिए योग्य है",
+      "sentence": [
+        {
+          "sentence": "The doctor examined the patient and prescribed some medication.",
+          "translation": "डॉक्टर ने मरीज का परीक्षण किया और कुछ दवा लेने की सलाह दी।"
+        },
+        {
+          "sentence": "The doctor has many years of experience in his field.",
+          "translation": "डॉक्टर के पास अपने क्षेत्र में कई वर्षों का अनुभव है।"
+        }
+      ]
+    },
+    {
+      "word": "Nurse",
+      "phoneticRespelling": "NER-s",
+      "translation": "नर्स",
+      "definition": "A person who is trained to care for the sick or injured",
+      "definationTranslation": "एक व्यक्ति जो बीमार या घायल लोगों की देखभाल करने के लिए प्रशिक्षित है",
+      "sentence": [
+        {
+          "sentence": "The nurse took the patient's temperature and blood pressure.",
+          "translation": "नर्स ने मरीज का तापमान और रक्तचाप लिया।"
+        },
+        {
+          "sentence": "The nurse was very kind and caring towards the patient.",
+          "translation": "नर्स मरीज के प्रति बहुत दयालु और देखभाल करने वाली थी।"
+        }
+      ]
+    },
+    {
+      "word": "Medicine",
+      "phoneticRespelling": "MED-sin",
+      "translation": "दवा",
+      "definition": "A substance used to treat or cure a disease",
+      "definationTranslation": "एक ऐसा पदार्थ जो बीमारी का इलाज या उपचार करता है",
+      "sentence": [
+        {
+          "sentence": "The doctor prescribed some medicine to cure the patient's illness.",
+          "translation": "डॉक्टर ने मरीज की बीमारी का इलाज करने के लिए कुछ दवा लिखी।"
+        },
+        {
+          "sentence": "The patient forgot to take his medicine this morning.",
+          "translation": "मरीज ने सुबह अपनी दवा लेना भूल गया।"
+        }
+      ]
+    },
+    {
+      "word": "Insurance",
+      "phoneticRespelling": "in-SHUH-rns",
+      "translation": "बीमा",
+      "definition": "A plan that helps pay for medical expenses",
+      "definationTranslation": "एक योजना जो चिकित्सा खर्चों का भुगतान करने में मदद करती है",
+      "sentence": [
+        {
+          "sentence": "The patient had insurance that covered most of his medical expenses.",
+          "translation": "मरीज के पास बीमा था जो उनके अधिकांश चिकित्सा खर्चों को कवर करता था।"
+        },
+        {
+          "sentence": "The company offers insurance plans to its employees.",
+          "translation": "कंपनी अपने कर्मचारियों को बीमा योजनाएं प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Emergency",
+      "phoneticRespelling": "i-MER-juhn-see",
+      "translation": "आपात",
+      "definition": "A serious situation that requires immediate attention",
+      "definationTranslation": "एक गंभीर स्थिति जिसमें तुरंत ध्यान देने की आवश्यकता होती है",
+      "sentence": [
+        {
+          "sentence": "The patient was rushed to the hospital in an emergency.",
+          "translation": "मरीज को आपात स्थिति में अस्पताल ले जाया गया।"
+        },
+        {
+          "sentence": "The emergency room was crowded with patients waiting to be seen.",
+          "translation": "आपातकालीन कक्ष मरीजों से भरा हुआ था जो देखे जाने का इंतजार कर रहे थे।"
+        }
+      ]
+    },
+    {
+      "word": "Surgery",
+      "phoneticRespelling": "SUR-juh-ree",
+      "translation": "सर्जरी",
+      "definition": "A medical operation to repair or remove a part of the body",
+      "definationTranslation": "शरीर के एक हिस्से को ठीक करने या हटाने के लिए एक चिकित्सा ऑपरेशन",
+      "sentence": [
+        {
+          "sentence": "The patient underwent surgery to repair a damaged tendon.",
+          "translation": "मरीज ने एक क्षतिग्रस्त टेंडन की मरम्मत के लिए सर्जरी की।"
+        },
+        {
+          "sentence": "The doctor explained the risks and benefits of the surgery to the patient.",
+          "translation": "डॉक्टर ने मरीज को सर्जरी के जोखिमों और फायदों के बारे में समझाया।"
+        }
+      ]
+    },
+    {
+      "word": "Recovery",
+      "phoneticRespelling": "ri-KUH-vree",
+      "translation": "पुनरुय्द्व",
+      "definition": "The process of getting better after an illness or injury",
+      "definationTranslation": "एक बीमारी या चोट के बाद ठीक होने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The patient's recovery was slow but steady.",
+          "translation": "मरीज की पुनरुद्व बहुत धीमी लेकिन स्थिर थी।"
+        },
+        {
+          "sentence": "The doctor said that the patient's recovery would take several weeks.",
+          "translation": "डॉक्टर ने कहा कि मरीज की पुनरुद्व कई हफ्तों ले लेगी।"
+        }
+      ]
+    },
+    {
+      "word": "Therapy",
+      "phoneticRespelling": "THAIR-uh-pee",
+      "translation": "चिकित्सा",
+      "definition": "A treatment that helps someone recover from an illness or injury",
+      "definationTranslation": "एक उपचार जो किसी को एक बीमारी या चोट से उबरने में मदद करता है",
+      "sentence": [
+        {
+          "sentence": "The patient underwent therapy to regain the use of his arm.",
+          "translation": "मरीज ने अपनी बांह का उपयोग फिर से हासिल करने के लिए चिकित्सा की।"
+        },
+        {
+          "sentence": "The doctor recommended therapy to help the patient deal with anxiety.",
+          "translation": "डॉक्टर ने मरीज को चिंता से निपटने में मदद करने के लिए चिकित्सा की सलाह दी।"
+        }
+      ]
+    },
+    {
+      "word": "Pharmacy",
+      "phoneticRespelling": "FAR-muh-see",
+      "translation": "फार्मेसी",
+      "definition": "A store where medicines are sold",
+      "definationTranslation": "एक दुकान जहां दवाएं बेची जाती हैं",
+      "sentence": [
+        {
+          "sentence": "The patient picked up his prescription at the pharmacy.",
+          "translation": "मरीज ने फार्मेसी में अपना पर्चा लिया।"
+        },
+        {
+          "sentence": "The pharmacy was open 24 hours a day.",
+          "translation": "फार्मेसी 24 घंटे खुली रहती थी।"
+        }
+      ]
+    },
+    {
+      "word": "Diagnosis",
+      "phoneticRespelling": "dai-uhg-NOH-sis",
+      "translation": "निदान",
+      "definition": "The identification of a disease or condition",
+      "definationTranslation": "एक रोग या स्थिति की पहचान",
+      "sentence": [
+        {
+          "sentence": "The doctor made a diagnosis of the patient's illness.",
+          "translation": "डॉक्टर ने मरीज की बीमारी का निदान किया।"
+        },
+        {
+          "sentence": "The diagnosis was confirmed by the test results.",
+          "translation": "निदान की पुष्टि परीक्षण परिणामों द्वारa रा गई।"
+        }
+      ]
+    },
+    {
+      "word": "Prognosis",
+      "phoneticRespelling": "prohg-NOH-sis",
+      "translation": "रोग की पूर्वापेक्षा",
+      "definition": "A prediction of the likely outcome of a disease or condition",
+      "definationTranslation": "एक रोग या स्थिति के संभावित परिणाम की भविष्यवाणी",
+      "sentence": [
+        {
+          "sentence": "The doctor gave the patient a good prognosis.",
+          "translation": "डॉक्टर ने मरीज को एक अच्छी रोग की पूर्वापेक्षा दी।"
+        },
+        {
+          "sentence": "The prognosis was guarded due to the severity of the illness.",
+          "translation": "रोग की गंभीरता के कारण रोग की पूर्वापेक्षा सावधानी से की गई।"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "phoneticRespelling": "TREE-tment",
+      "translation": "उपचार",
+      "definition": "The care and management of a patient",
+      "definationTranslation": "एक मरीज की देखभाल और प्रबंधन",
+      "sentence": [
+        {
+          "sentence": "The patient received treatment for his illness.",
+          "translation": "मरीज को उसकी बीमारी का उपचार मिला।"
+        },
+        {
+          "sentence": "The treatment was effective in reducing the patient's symptoms.",
+          "translation": "उपचार मरीज के लक्षणों को कम करने में प्रभावी था।"
+        }
+      ]
+    },
+    {
+      "word": "Prevention",
+      "phoneticRespelling": "pri-VEN-shun",
+      "translation": "रोकथाम",
+      "definition": "The act of stopping something from happening",
+      "definationTranslation": "कुछ होने से रोकने का कार्य",
+      "sentence": [
+        {
+          "sentence": "Prevention is the best way to avoid getting sick.",
+          "translation": "रोकथाम बीमार होने से बचने का सबसे अच्छा तरीका है।"
+        },
+        {
+          "sentence": "The doctor emphasized the importance of prevention in maintaining good health.",
+          "translation": "डॉक्टर ने अच्छा स्वास्थ्य बनाए रखने में रोकथाम के महत्व पर जोर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Vaccination",
+      "phoneticRespelling": "vak-si-NAY-shun",
+      "translation": "टीकाकरण",
+      "definition": "The act of giving someone a vaccine to prevent a disease",
+      "definationTranslation": "किसी को एक बीमारी को रोकने के लिए एक टीका देने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The patient received a vaccination against the flu.",
+          "translation": "मरीज को इन्फ्लूएंजा के खिलाफ टीकाकरण मिला।"
+        },
+        {
+          "sentence": "Vaccination is an effective way to prevent the spread of diseases.",
+          "translation": "टीकाकरण बीमारियों के प्रसार को रोकने का एक प्रभावी तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "Hygiene",
+      "phoneticRespelling": "HAHY-jeen",
+      "translation": "स्वच्छता",
+      "definition": "The practice of keeping yourself and your surroundings clean",
+      "definationTranslation": "अपने आप को और अपने आसपास के वातावरण को साफ रखने का अभ्यास",
+      "sentence": [
+        {
+          "sentence": "Good hygiene is essential for maintaining good health.",
+          "translation": "अच्छी स्वच्छता अच्छा स्वास्थ्य बनाए रखने के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "The doctor emphasized the importance of hygiene in preventing the spread of diseases.",
+          "translation": "डॉक्टर ने बीमारियों के प्रसार को रोकने में स्वच्छता के महत्व पर जोर दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Sanitation",
+      "phoneticRespelling": "san-i-TAY-shun",
+      "translation": "स्वच्छता व्यवस्था",
+      "definition": "The system of keeping a place clean and free from disease",
+      "definationTranslation": "एक स्थान को साफ और बीमारी से मुक्त रखने की प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The hospital has a good sanitation system in place.",
+          "translation": "अस्पताल में एक अच्छी स्वच्छता व्यवस्था है।"
+        },
+        {
+          "sentence": "Sanitation is an important aspect of maintaining good health.",
+          "translation": "स्वच्छता व्यवस्था अच्छा स्वास्थ्य बनाए रखने का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "Epidemiology",
+      "phoneticRespelling": "eh-pih-dee-mee-OL-uh-jee",
+      "translation": "महामारी विज्ञान",
+      "definition": "The study of the spread of diseases",
+      "definationTranslation": "बीमारियों के प्रसार का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The epidemiologist studied the spread of the disease.",
+          "translation": "महामारी विज्ञानी ने बीमारी के प्रसार का अध्ययन किया।"
+        },
+        {
+          "sentence": "Epidemiology is an important field in the study of public health.",
+          "translation": "महामारी विज्ञान सार्वजनिक स्वास्थ्य के अध्ययन में एक महत्वपूर्ण क्षेत्र है।"
+        }
+      ]
+    },
+    {
+      "word": "Public Health",
+      "phoneticRespelling": "PUH-blik HETH",
+      "translation": "सार्वजनिक स्वास्थ्य",
+      "definition": "The health and well-being of a community or population",
+      "definationTranslation": "एक समुदाय या जनसंख्या का स्वास्थ्य और कल्याण",
+      "sentence": [
+        {
+          "sentence": "The public health department worked to prevent the spread of diseases.",
+          "translation": "सार्वजनिक स्वास्थ्य विभाग ने बीमारियों के प्रसार को रोकने के लिए काम किया।"
+        },
+        {
+          "sentence": "Public health is an important aspect of maintaining a healthy community.",
+          "translation": "सार्वजनिक स्वास्थ्य एक स्वस्थ समुदाय को बनाए रखने का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    }
+  ]
 }

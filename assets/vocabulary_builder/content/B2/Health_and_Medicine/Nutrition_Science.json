@@ -1,4 +1,396 @@
 {
   "topic": "Nutrition Science",
-  "words": []
+  "words": [
+    {
+      "word": "Protein",
+      "phoneticRespelling": "PROH-teen",
+      "translation": "प्रोटीन",
+      "definition": "A type of nutrient that is essential for building and repairing tissues in the body",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जो शरीर में ऊतकों के निर्माण और मरम्मत के लिए आवश्यक है",
+      "sentence": [
+        {
+          "sentence": "The athlete made sure to consume enough protein after her workout.",
+          "translation": "एथलीट ने व्यायाम के बाद पर्याप्त प्रोटीन का सेवन करना सुनिश्चित किया।"
+        },
+        {
+          "sentence": "Protein is an important component of a healthy diet.",
+          "translation": "प्रोटीन स्वस्थ आहार का एक महत्वपूर्ण घटक है।"
+        }
+      ]
+    },
+    {
+      "word": "Calorie",
+      "phoneticRespelling": "KAL-uh-ree",
+      "translation": "कैलोरी",
+      "definition": "A unit of energy that is used to measure the amount of energy that foods produce",
+      "definationTranslation": "एक ऊर्जा इकाई जिसका उपयोग भोजन द्वारा उत्पादित ऊर्जा की मात्रा को मापने के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The dieter was careful to count her daily calorie intake.",
+          "translation": "डायेटर ने अपने दैनिक कैलोरी सेवन को गिनने का ध्यान रखा।"
+        },
+        {
+          "sentence": "The calorie content of the meal was surprisingly high.",
+          "translation": "भोजन की कैलोरी सामग्री आश्चर्यजनक रूप से अधिक थी।"
+        }
+      ]
+    },
+    {
+      "word": "Vitamin",
+      "phoneticRespelling": "VYE-tuh-min",
+      "translation": "विटामिन",
+      "definition": "A type of nutrient that is essential for maintaining good health",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जो अच्छे स्वास्थ्य को बनाए रखने के लिए आवश्यक है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended taking a daily vitamin supplement.",
+          "translation": "डॉक्टर ने दैनिक विटामिन पूरक लेने की सलाह दी।"
+        },
+        {
+          "sentence": "Vitamin C is important for a healthy immune system.",
+          "translation": "विटामिन सी स्वस्थ प्रतिरक्षा प्रणाली के लिए महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Mineral",
+      "phoneticRespelling": "MIN-uh-rul",
+      "translation": "खनिज",
+      "definition": "A type of nutrient that is essential for maintaining good health",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जो अच्छे स्वास्थ्य को बनाए रखने के लिए आवश्यक है",
+      "sentence": [
+        {
+          "sentence": "The mineral content of the water was tested.",
+          "translation": "पानी की खनिज सामग्री की जांच की गई।"
+        },
+        {
+          "sentence": "Minerals such as calcium and iron are important for bone health.",
+          "translation": "कैल्शियम और आयरन जैसे खनिज हड्डी के स्वास्थ्य के लिए महत्वपूर्ण हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Carbohydrate",
+      "phoneticRespelling": "KAR-boh-HYE-drayt",
+      "translation": "कार्बोहाइड्रेट",
+      "definition": "A type of nutrient that is used by the body for energy",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जिसका उपयोग शरीर द्वारा ऊर्जा के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The athlete loaded up on carbohydrates before the big game.",
+          "translation": "एथलीट ने बड़े खेल से पहले कार्बोहाइड्रेट से भर लिया।"
+        },
+        {
+          "sentence": "Whole grain bread is a good source of complex carbohydrates.",
+          "translation": "साबुत अनाज की रोटी जटिल कार्बोहाइड्रेट का एक अच्छा स्रोत है।"
+        }
+      ]
+    },
+    {
+      "word": "Fiber",
+      "phoneticRespelling": "FYE-ber",
+      "translation": "फाइबर",
+      "definition": "A type of nutrient that is used by the body to promote digestive health",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जिसका उपयोग शरीर द्वारा पाचन स्वास्थ्य को बढ़ावा देने के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended increasing fiber intake to improve digestion.",
+          "translation": "डॉक्टर ने पाचन में सुधार करने के लिए फाइबर का सेवन बढ़ाने की सलाह दी।"
+        },
+        {
+          "sentence": "Fiber-rich foods such as fruits and vegetables are important for a healthy diet.",
+          "translation": "फल और सब्जियां जैसे फाइबर से भरपूर खाद्य पदार्थ स्वस्थ आहार के लिए महत्वपूर्ण हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Sodium",
+      "phoneticRespelling": "SOH-dee-uhm",
+      "translation": "सोडियम",
+      "definition": "A type of mineral that is used by the body to regulate fluid balance",
+      "definationTranslation": "एक प्रकार का खनिज जिसका उपयोग शरीर द्वारा द्रव संतुलन को नियंत्रित करने के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended reducing sodium intake to lower blood pressure.",
+          "translation": "डॉक्टर ने रक्तचाप को कम करने के लिए सोडियम का सेवन कम करने की सलाह दी।"
+        },
+        {
+          "sentence": "Sodium is an essential mineral, but excessive intake can be harmful.",
+          "translation": "सोडियम एक आवश्यक खनिज है, लेकिन अधिक सेवन हानिकारक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Sugar",
+      "phoneticRespelling": "SHOO-gur",
+      "translation": "चीनी",
+      "definition": "A type of carbohydrate that is used by the body for energy",
+      "definationTranslation": "एक प्रकार का कार्बोहाइड्रेट जिसका उपयोग शरीर द्वारा ऊर्जा के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended reducing sugar intake to improve health.",
+          "translation": "डॉक्टर ने स्वास्थ्य में सुधार करने के लिए चीनी का सेवन कम करने की सलाह दी।"
+        },
+        {
+          "sentence": "Sugar is a simple carbohydrate that is quickly digested by the body.",
+          "translation": "चीनी एक सरल कार्बोहाइड्रेट है जो शरीर द्वारा तेजी से पाचित किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Fat",
+      "phoneticRespelling": "FAT",
+      "translation": "वसा",
+      "definition": "A type of nutrient that is used by the body for energy and to absorb vitamins",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जिसका उपयोग शरीर द्वारा ऊर्जा के लिए और विटामिन को अवशोषित करने के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended reducing fat intake to improve heart health.",
+          "translation": "डॉक्टर ने हृदय स्वास्थ्य में सुधार करने के लिए वसा का सेवन कम करने की सलाह दी।"
+        },
+        {
+          "sentence": "Fat is an essential nutrient, but excessive intake can be harmful.",
+          "translation": "वसा एक आवश्यक पोषक तत्व है, लेकिन अधिक सेवन हानिकारक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cholesterol",
+      "phoneticRespelling": "koh-LES-tuh-rul",
+      "translation": "कोलेस्ट्रॉल",
+      "definition": "A type of fat that is used by the body to build and maintain cell membranes",
+      "definationTranslation": "एक प्रकार का वसा जिसका उपयोग शरीर द्वारा कोशिका झिल्लियों के निर्माण और रखरखाव के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended reducing cholesterol intake to improve heart health.",
+          "translation": "डॉक्टर ने हृदय स्वास्थ्य में सुधार करने के लिए कोलेस्ट्रॉल का सेवन कम करने की सलाह दी।"
+        },
+        {
+          "sentence": "High levels of cholesterol can increase the risk of heart disease.",
+          "translation": "कोलेस्ट्रॉल के उच्च स्तर हृदय रोग के जोखिम को बढ़ा सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Nutrient",
+      "phoneticRespelling": "NOO-tree-ent",
+      "translation": "पोषक तत्व",
+      "definition": "A substance that is used by the body to promote growth and maintenance",
+      "definationTranslation": "एक पदार्थ जिसका उपयोग शरीर द्वारा विकास और रखरखाव को बढ़ावा देने के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The nutrient content of the meal was balanced and healthy.",
+          "translation": "भोजन की पोषक तत्व सामग्री संतुलित और स्वस्थ थी।"
+        },
+        {
+          "sentence": "Essential nutrients such as vitamins and minerals are important for a healthy diet.",
+          "translation": "विटामिन और खनिज जैसे आवश्यक पोषक तत्व स्वस्थ आहार के लिए महत्वपूर्ण हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Diet",
+      "phoneticRespelling": "DY-et",
+      "translation": "आहार",
+      "definition": "The food and drink that a person consumes on a regular basis",
+      "definationTranslation": "भोजन और पेय जिसे एक व्यक्ति नियमित रूप से उपभोग करता है",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended a healthy diet to improve overall health.",
+          "translation": "डॉक्टर ने समग्र स्वास्थ्य में सुधार करने के लिए एक स्वस्थ आहार की सलाह दी।"
+        },
+        {
+          "sentence": "A balanced diet is essential for maintaining good health.",
+          "translation": "एक संतुलित आहार अच्छे स्वास्थ्य को बनाए रखने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Hydration",
+      "phoneticRespelling": "hye-DRAY-shun",
+      "translation": "निर्जलीकरण",
+      "definition": "The process of providing the body with enough water to function properly",
+      "definationTranslation": "शरीर को ठीक से काम करने के लिए पर्याप्त पानी प्रदान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The athlete focused on hydration to improve performance.",
+          "translation": "एथलीट ने प्रदर्शन में सुधार करने के लिए निर्जलीकरण पर ध्यान केंद्रित किया।"
+        },
+        {
+          "sentence": "Proper hydration is essential for maintaining good health.",
+          "translation": "निर्जलीकरण अच्छे स्वास्थ्य को बनाए रखने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Malnutrition",
+      "phoneticRespelling": "mal-noo-TRISH-un",
+      "translation": "कुपोषण",
+      "definition": "A condition that occurs when the body does not receive the nutrients it needs to function properly",
+      "definationTranslation": "एक स्थिति जो तब होती है जब शरीर को ठीक से काम करने के लिए आवश्यक पोषक तत्व नहीं मिलते हैं",
+      "sentence": [
+        {
+          "sentence": "The doctor diagnosed the patient with malnutrition.",
+          "translation": "डॉक्टर ने मरीज़ को कुपोषण का निदान किया।"
+        },
+        {
+          "sentence": "Malnutrition can have serious consequences for overall health.",
+          "translation": "कुपोषण के समग्र स्वास्थ्य पर गंभीर परिणाम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Supplement",
+      "phoneticRespelling": "SUH-pleh-ment",
+      "translation": "पूरक",
+      "definition": "A substance that is added to the diet to provide extra nutrients",
+      "definationTranslation": "एक पदार्थ जो आहार में जोड़ा जाता है ताकि अतिरिक्त पोषक तत्व प्रदान किए जा सकें",
+      "sentence": [
+        {
+          "sentence": "The doctor recommended taking a daily supplement to improve overall health.",
+          "translation": "डॉक्टर ने समग्र स्वास्थ्य में सुधार करने के लिए एक दैनिक पूरक लेने की सलाह दी।"
+        },
+        {
+          "sentence": "Vitamin supplements can help fill nutritional gaps in the diet.",
+          "translation": "विटामिन पूरक आहार में पोषण संबंधी अंतराल को भरने में मदद कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Deficiency",
+      "phoneticRespelling": "dih-FIH-shun-see",
+      "translation": "अभाव",
+      "definition": "A condition that occurs when the body does not receive enough of a particular nutrient",
+      "definationTranslation": "एक स्थिति जो तब होती है जब शरीर को किसी विशिष्ट पोषक तत्व की पर्याप्त मात्रा नहीं मिलती है",
+      "sentence": [
+        {
+          "sentence": "The doctor diagnosed the patient with a vitamin deficiency.",
+          "translation": "डॉक्टर ने मरीज़ को विटामिन की कमी का निदान किया।"
+        },
+        {
+          "sentence": "A deficiency in essential nutrients can have serious consequences for overall health.",
+          "translation": "आवश्यक पोषक तत्वों में कमी के गंभीर परिणाम समग्र स्वास्थ्य के लिए हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Nutritionist",
+      "phoneticRespelling": "noo-TRIH-shuh-nist",
+      "translation": "पोषण विशेषज्ञ",
+      "definition": "A person who studies and advises on the relationship between diet and health",
+      "definationTranslation": "एक व्यक्ति जो आहार और स्वास्थ्य के बीच संबंध का अध्ययन और परामर्श करता है",
+      "sentence": [
+        {
+          "sentence": "The nutritionist recommended a personalized diet plan.",
+          "translation": "पोषण विशेषज्ञ ने एक व्यक्तिगत आहार योजना की सिफारिश की।"
+        },
+        {
+          "sentence": "A registered nutritionist can provide expert advice on healthy eating.",
+          "translation": "एक पंजीकृत पोषण विशेषज्ञ स्वस्थ भोजन पर विशेषज्ञ सलाह प्रदान कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Obesity",
+      "phoneticRespelling": "oh-BEE-see-tee",
+      "translation": "मोटापा",
+      "definition": "A condition that occurs when a person has an excessive amount of body fat",
+      "definationTranslation": "एक स्थिति जो तब होती है जब एक व्यक्ति के शरीर में अत्यधिक मात्रा में वसा होती है",
+      "sentence": [
+        {
+          "sentence": "The doctor warned the patient about the risks of obesity.",
+          "translation": "डॉक्टर ने मरीज़ को मोटापे के खतरों के बारे में चेतावनी दी।"
+        },
+        {
+          "sentence": "Obesity can increase the risk of serious health problems, such as diabetes and heart disease.",
+          "translation": "मोटापा मधुमेह और हृदय रोग जैसी गंभीर स्वास्थ्य समस्याओं के जोखिम को बढ़ा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Keto",
+      "phoneticRespelling": "KEE-toh",
+      "translation": "कीटो",
+      "definition": "A type of diet that is high in fat and low in carbohydrates",
+      "definationTranslation": "एक प्रकार का आहार जो वसा में उच्च और कार्बोहाइड्रेट में कम होता है",
+      "sentence": [
+        {
+          "sentence": "The keto diet has been shown to be effective for weight loss.",
+          "translation": "कीटो आहार को वजन घटाने के लिए प्रभावी दिखाया गया है।"
+        },
+        {
+          "sentence": "A keto diet can help improve blood sugar control and increase energy levels.",
+          "translation": "एक कीटो आहार रक्त शर्करा नियंत्रण में सुधार करने और ऊर्जा स्तर बढ़ाने में मदद कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Intuitive",
+      "phoneticRespelling": "in-TOO-uh-tiv",
+      "translation": "सहज",
+      "definition": "A type of eating that involves listening to the body's hunger and fullness cues",
+      "definationTranslation": "एक प्रकार का भोजन जिसमें शरीर की भूख और पूर्णता के संकेतों को सुनना शामिल है",
+      "sentence": [
+        {
+          "sentence": "Intuitive eating can help individuals develop a healthier relationship with food.",
+          "translation": "सहज भोजन व्यक्तियों को भोजन के साथ एक स्वस्थ संबंध विकसित करने में मदद कर सकता है।"
+        },
+        {
+          "sentence": "Practicing intuitive eating can lead to a more balanced and nourishing diet.",
+          "translation": "सहज भोजन का अभ्यास एक अधिक संतुलित और पौष्टिक आहार की ओर ले जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Portion",
+      "phoneticRespelling": "POR-shun",
+      "translation": "भाग",
+      "definition": "A specific amount of food that is served or consumed",
+      "definationTranslation": "एक विशिष्ट मात्रा में भोजन जो परोसा जाता है या उपभोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The dieter was careful to control her portion sizes.",
+          "translation": "डायेटर ने अपने भाग आकारों पर नियंत्रण करने का ध्यान रखा।"
+        },
+        {
+          "sentence": "Eating large portions can lead to overeating and weight gain.",
+          "translation": "बड़े भाग खाने से अधिक खाने और वजन बढ़ने की समस्या हो सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Macronutrient",
+      "phoneticRespelling": "mak-roh-NOO-tree-ent",
+      "translation": "मैक्रो पोषक तत्व",
+      "definition": "A type of nutrient that provides energy and supports growth and maintenance",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जो ऊर्जा प्रदान करता है और विकास और रखरखाव का समर्थन करता है",
+      "sentence": [
+        {
+          "sentence": "The three main macronutrients are carbohydrates, protein, and fat.",
+          "translation": "तीन मुख्य मैक्रो पोषक तत्व कार्बोहाइड्रेट, प्रोटीन और वसा हैं।"
+        },
+        {
+          "sentence": "A balanced diet should include a variety of macronutrients to support overall health.",
+          "translation": "एक संतुलित आहार में समग्र स्वास्थ्य का समर्थन करने के लिए विभिन्न मैक्रो पोषक तत्व शामिल होने चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Micronutrient",
+      "phoneticRespelling": "my-kroh-NOO-tree-ent",
+      "translation": "माइक्रो पोषक तत्व",
+      "definition": "A type of nutrient that is required in small amounts to support growth and maintenance",
+      "definationTranslation": "एक प्रकार का पोषक तत्व जो विकास और रखरखाव का समर्थन करने के लिए छोटी मात्रा में आवश्यक है",
+      "sentence": [
+        {
+          "sentence": "Vitamins and minerals are examples of micronutrients.",
+          "translation": "विटामिन और खनिज माइक्रो पोषक तत्वों के उदाहरण हैं।"
+        },
+        {
+          "sentence": "A deficiency in micronutrients can have serious consequences for overall health.",
+          "translation": "माइक्रो पोषक तत्वों में कमी के गंभीर परिणाम समग्र स्वास्थ्य के लिए हो सकते हैं।"
+        }
+      ]
+    }
+  ]
 }

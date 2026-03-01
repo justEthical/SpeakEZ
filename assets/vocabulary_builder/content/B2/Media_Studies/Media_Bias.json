@@ -1,4 +1,362 @@
 {
   "topic": "Media Bias",
-  "words": []
+  "words": [
+    {
+      "word": "Journalism",
+      "phoneticRespelling": "JUR-nuhl-iz-uhm",
+      "translation": "Patrakarita",
+      "definition": "The activity or profession of writing for newspapers, magazines, or news websites",
+      "definationTranslation": "Akharat, magzino, ya news websites ke liye likhne ka kaam ya pesha",
+      "sentence": [
+        {
+          "sentence": "She is studying journalism to become a reporter.",
+          "translation": "Vah reporter banne ke liye patrakarita ki padhai kar rahi hai."
+        },
+        {
+          "sentence": "Journalism is a tough job that requires a lot of research and investigation.",
+          "translation": "Patrakarita ek mushkil kaam hai jo bahut saare research aur jaanch ki maang karta hai."
+        }
+      ]
+    },
+    {
+      "word": "Bias",
+      "phoneticRespelling": "BY-uhs",
+      "translation": "Pakshpaat",
+      "definition": "A prejudice in favor of or against one thing, person, or group compared with another",
+      "definationTranslation": "Ek cheez, vyakti, ya samuh ke prati ya uske virudh ek prathmikta",
+      "sentence": [
+        {
+          "sentence": "The media bias towards the government is evident in their reporting.",
+          "translation": "Media ki sarkar ke prati pakshpaat unke riporting me spasht hai."
+        },
+        {
+          "sentence": "The journalist tried to avoid bias in her article.",
+          "translation": "Patrakaar ne apne lekh me pakshpaat se bachne ki koshish ki."
+        }
+      ]
+    },
+    {
+      "word": "Objective",
+      "phoneticRespelling": "Uhb-JEK-tiv",
+      "translation": "Akhilhit",
+      "definition": "Not influenced by personal feelings or opinions",
+      "definationTranslation": "Vyaaktigat bhavnao ya raiyon se prabhavit nahin",
+      "sentence": [
+        {
+          "sentence": "A good journalist should strive to be objective in their reporting.",
+          "translation": "Ek achhe patrakaar ko apne riporting me akhilhit hone ki koshish karni chahiye."
+        },
+        {
+          "sentence": "The researcher tried to remain objective during the experiment.",
+          "translation": "Anusandhanakaar ne prayog ke dauran akhilhit rehne ki koshish ki."
+        }
+      ]
+    },
+    {
+      "word": "Censorship",
+      "phoneticRespelling": "SEN-ser-ship",
+      "translation": "Sanshodhan",
+      "definition": "The practice of suppressing or deleting parts of publications, films, or other media",
+      "definationTranslation": "Prakashnon, filmon, ya anya media ke hisson ko dabane ya mithane ka abhyas",
+      "sentence": [
+        {
+          "sentence": "The government has been accused of censorship for banning certain books.",
+          "translation": "Kuch kitabo ko pratibandhit karne ke liye sarkar par sanshodhan ka arthi lagaya gaya hai."
+        },
+        {
+          "sentence": "The social media platform was criticized for its censorship policies.",
+          "translation": "Samajik media manch par uske sanshodhan neeti ke liye alochit kiya gaya hai."
+        }
+      ]
+    },
+    {
+      "word": "Propaganda",
+      "phoneticRespelling": "pruh-puh-GAN-duh",
+      "translation": "Prachaar",
+      "definition": "Information, especially of a biased or misleading nature, used to promote a political cause or point of view",
+      "definationTranslation": "Jaankaari, vishesh roop se pakshpaat ya bhramaatmak prakriti ki, jo ek rajnitik kaaran ya drishtikon ko badhava dene ke liye upyog ki jati hai",
+      "sentence": [
+        {
+          "sentence": "The government was accused of spreading propaganda to influence public opinion.",
+          "translation": "Sarkar par janmat ka abhipray prabhavit karne ke liye prachaar phailane ka arthi lagaya gaya hai."
+        },
+        {
+          "sentence": "The company used propaganda to promote their new product.",
+          "translation": "Company ne apne naye utpad ko badhava dene ke liye prachaar ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Stereotype",
+      "phoneticRespelling": "STEER-ee-uh-tipe",
+      "translation": "Aakrti",
+      "definition": "A fixed, oversimplified image or idea of a person, group, or thing",
+      "definationTranslation": "Ek vyakti, samuh, ya cheez ki ek sthir, adhik saral aakrti ya vichar",
+      "sentence": [
+        {
+          "sentence": "The media often perpetuates stereotypes about certain groups of people.",
+          "translation": "Media aksar kuch logon ke samuhon ke baare me aakrtiyaan ko banaye rakhta hai."
+        },
+        {
+          "sentence": "The movie tried to break down stereotypes about women.",
+          "translation": "Film ne mahilaon ke baare me aakrtiyaan ko todne ki koshish ki."
+        }
+      ]
+    },
+    {
+      "word": "Discrimination",
+      "phoneticRespelling": "dis-kri-muh-NEY-shuhn",
+      "translation": "Bhedbhaav",
+      "definition": "The practice of treating a person or group differently, usually unfairly, because of their race, sex, or other characteristics",
+      "definationTranslation": "Ek vyakti ya samuh ko unke varn, ling, ya anya visheshataon ke kaaran alag tareeke se vyavhaar karna, aam taur par anyaayapoorn roop se",
+      "sentence": [
+        {
+          "sentence": "The company was accused of discrimination against female employees.",
+          "translation": "Company par mahila karmitron ke khilaf bhedbhaav ka arthi lagaya gaya hai."
+        },
+        {
+          "sentence": "The law prohibits discrimination on the basis of race or religion.",
+          "translation": "Kanoon varn ya dharm ke aadhar par bhedbhaav par pratibandh lagata hai."
+        }
+      ]
+    },
+    {
+      "word": "Freedom",
+      "phoneticRespelling": "FREE-duhm",
+      "translation": "Svaatantrata",
+      "definition": "The power or right to act, speak, or think as one wants without hindrance or restraint",
+      "definationTranslation": "Bina rok-tok ya bandish ke apni ichchha anusaar kaarya karna, bolna, ya sochne ka adhikaar ya shakti",
+      "sentence": [
+        {
+          "sentence": "The country values freedom of speech and expression.",
+          "translation": "Des svaatantrata aur abhivyakti ki aazadi ko mahatva deti hai."
+        },
+        {
+          "sentence": "The artist fought for freedom to create without censorship.",
+          "translation": "Kalaakaar sanshodhan ke bina nirmiti ki svaatantrata ke liye ladte hain."
+        }
+      ]
+    },
+    {
+      "word": "Regulation",
+      "phoneticRespelling": "reg-yuh-LEY-shuhn",
+      "translation": "Niyantran",
+      "definition": "A rule or law that controls or directs something",
+      "definationTranslation": "Ek niyam ya kanoon jo kisi cheez ko niyantrit ya nirdeshit karta hai",
+      "sentence": [
+        {
+          "sentence": "The government introduced new regulations to control the media.",
+          "translation": "Sarkar ne media ko niyantrit karne ke liye naye niyantran prastut kiye."
+        },
+        {
+          "sentence": "The company has to comply with strict regulations to operate in the country.",
+          "translation": "Company ko des me kaarya karna hai, isliye vah kathor niyantran ka paalan karta hai."
+        }
+      ]
+    },
+    {
+      "word": "Accountability",
+      "phoneticRespelling": "uh-koun-tuh-BIL-uh-tee",
+      "translation": "Javabdehi",
+      "definition": "The state of being accountable; liability to be called to account; the obligation to answer for one's actions",
+      "definationTranslation": "Javabdehi ka sthiti; apne kaaryon ke liye uttar dene ka bandhan",
+      "sentence": [
+        {
+          "sentence": "The media should be held accountable for spreading false information.",
+          "translation": "Media ko galat jaankaari phailane ke liye javabdehi hona chahiye."
+        },
+        {
+          "sentence": "The government has introduced new laws to increase accountability in public institutions.",
+          "translation": "Sarkar ne janata ke sansthanon me javabdehi badhane ke liye naye kanoon prastut kiye hain."
+        }
+      ]
+    },
+    {
+      "word": "Transparency",
+      "phoneticRespelling": "trans-PAYR-uhn-see",
+      "translation": "Pardarshita",
+      "definition": "The quality of being transparent; easy to see through or understand",
+      "definationTranslation": "Pardarshita ki gunvatta; aasani se samajhne ya dekhe jaane yogya",
+      "sentence": [
+        {
+          "sentence": "The company has pledged to maintain transparency in its business dealings.",
+          "translation": "Company ne apne vyavsayik len-den me pardarshita banaye rakhne ka vaada kiya hai."
+        },
+        {
+          "sentence": "The government has introduced new laws to increase transparency in public institutions.",
+          "translation": "Sarkar ne janata ke sansthanon me pardarshita badhane ke liye naye kanoon prastut kiye hain."
+        }
+      ]
+    },
+    {
+      "word": "Privatization",
+      "phoneticRespelling": "pry-vuh-ty-ZAY-shuhn",
+      "translation": "Niji-karan",
+      "definition": "The transfer of ownership or control of a business or industry from the public sector to the private sector",
+      "definationTranslation": "Ek vyavsay ya udyog ke swamitva ya niyantran ka sthanantaran janata kshetra se niji kshetra me",
+      "sentence": [
+        {
+          "sentence": "The government has announced plans to privatize the state-owned media.",
+          "translation": "Sarkar ne sarkari swamitva vale media ko niji-karan karne ke yojna ka elaan kiya hai."
+        },
+        {
+          "sentence": "The company has been privatized and is now owned by a private investor.",
+          "translation": "Company ka niji-karan ho chuka hai aur ab ek niji niveshak ke swami hai."
+        }
+      ]
+    },
+    {
+      "word": "Commercialization",
+      "phoneticRespelling": "kuh-MUR-shuh-lahy-zay-shuhn",
+      "translation": "Vyanjikaran",
+      "definition": "The act or process of making something, especially a product or service, appealing to a wider audience in order to generate more sales or revenue",
+      "definationTranslation": "Ek utpad ya sewa ko adhik upbhoktaon ke liye aakarshak banane ka kaam ya prakriya, jisse adhik bikri ya aay utpann ho",
+      "sentence": [
+        {
+          "sentence": "The commercialization of the media has led to a decrease in the quality of content.",
+          "translation": "Media ka vyanjikaran, visheshkar content ki gunvatta me giravat ka kaaran ban gaya hai."
+        },
+        {
+          "sentence": "The company has been accused of commercializing a traditional art form.",
+          "translation": "Company par ek paramparik kala swaroop ko vyanjikaran ka arthi lagaya gaya hai."
+        }
+      ]
+    },
+    {
+      "word": "Sensationalism",
+      "phoneticRespelling": "sen-SAY-shuh-nl-iz-uhm",
+      "translation": "Sensational-ta",
+      "definition": "The use of exciting or shocking stories or language at the expense of accuracy, in order to provoke public interest or excitement",
+      "definationTranslation": "Sachchai ke kharche par, aakarshak ya chaukaane wali kahaaniyon ya bhasha ka upyog, janata ke rochak ya utsaah ko badhava dene ke liye",
+      "sentence": [
+        {
+          "sentence": "The media has been accused of sensationalism in its reporting of the scandal.",
+          "translation": "Media par ghotala ke riporting me sensational-ta ka arthi lagaya gaya hai."
+        },
+        {
+          "sentence": "The journalist was criticized for using sensational language in her article.",
+          "translation": "Patrakaar par apne lekh me sensational bhasha ka upyog karne ke liye aalochit kiya gaya."
+        }
+      ]
+    },
+    {
+      "word": "Manipulation",
+      "phoneticRespelling": "man-uh-pyoo-LAY-shuhn",
+      "translation": "Dochana",
+      "definition": "The act of influencing or controlling someone or something in a clever or deceitful way",
+      "definationTranslation": "Kisi vyakti ya cheez ko chatur ya dhokhe se prabhavit ya niyantrit karne ka kaam",
+      "sentence": [
+        {
+          "sentence": "The government has been accused of manipulating the media to influence public opinion.",
+          "translation": "Sarkar par media ko dochana karke janmat ke abhipray ko prabhavit karne ka arthi lagaya gaya hai."
+        },
+        {
+          "sentence": "The company has been accused of manipulating its financial reports.",
+          "translation": "Company par apne vaarshik riport ko dochana karne ka arthi lagaya gaya hai."
+        }
+      ]
+    },
+    {
+      "word": "Pluralism",
+      "phoneticRespelling": "PLOO-ruh-liz-uhm",
+      "translation": "Bahulvaad",
+      "definition": "The state of being diverse or having many different elements, especially in a society or culture",
+      "definationTranslation": "Vividhta ya kai alag-alag tatvon ka hona, visheshkar ek samaj ya sanskriti me",
+      "sentence": [
+        {
+          "sentence": "The media should reflect the pluralism of the society it serves.",
+          "translation": "Media ko us samaj ki vividhta ko darshana chahiye jiske liye vah kaarya karta hai."
+        },
+        {
+          "sentence": "The company values pluralism and diversity in its workforce.",
+          "translation": "Company vividhta aur bahulvaad ko apne karmchariyon me mahatva deti hai."
+        }
+      ]
+    },
+    {
+      "word": "Representation",
+      "phoneticRespelling": "rep-ruh-ZEN-tay-shuhn",
+      "translation": "Praatinidhitva",
+      "definition": "The act of representing or speaking on behalf of someone or something",
+      "definationTranslation": "Kisi vyakti ya cheez ke paksh me bolne ya pratinidhitva karne ka kaam",
+      "sentence": [
+        {
+          "sentence": "The media should provide fair representation of all groups in society.",
+          "translation": "Media ko samaj ke sabhi vargon ka nyaypuran praatinidhitva dena chahiye."
+        },
+        {
+          "sentence": "The company has been accused of lacking representation of diverse groups in its workforce.",
+          "translation": "Company par vividh samuhon ke karmchariyon ki kami ke arthi lagaya gaya hai."
+        }
+      ]
+    },
+    {
+      "word": "Diversity",
+      "phoneticRespelling": "dy-VER-si-tee",
+      "translation": "Vividhta",
+      "definition": "The state of being diverse or having many different elements, especially in a society or culture",
+      "definationTranslation": "Vividhta ya kai alag-alag tatvon ka hona, visheshkar ek samaj ya sanskriti me",
+      "sentence": [
+        {
+          "sentence": "The media should reflect the diversity of the society it serves.",
+          "translation": "Media ko us samaj ki vividhta ko darshana chahiye jiske liye vah kaarya karta hai."
+        },
+        {
+          "sentence": "The company values diversity and inclusivity in its workforce.",
+          "translation": "Company vividhta aur samaveshan ko apne karmchariyon me mahatva deti hai."
+        }
+      ]
+    },
+    {
+      "word": "Inclusivity",
+      "phoneticRespelling": "in-kloo-SIV-i-tee",
+      "translation": "Samaveshan",
+      "definition": "The state of being inclusive; the practice of including all people, regardless of their background or identity",
+      "definationTranslation": "Samaveshan ki sthiti; sabhi logon ko, unke peechhe ya pahchan ke bina, shaamil karne ka abhyas",
+      "sentence": [
+        {
+          "sentence": "The media should strive for inclusivity in its reporting and representation.",
+          "translation": "Media ko apne riporting aur praatinidhitva me samaveshan ke liye prayas karna chahiye."
+        },
+        {
+          "sentence": "The company values inclusivity and diversity in its workforce.",
+          "translation": "Company vividhta aur samaveshan ko apne karmchariyon me mahatva deti hai."
+        }
+      ]
+    },
+    {
+      "word": "Ethics",
+      "phoneticRespelling": "ETH-iks",
+      "translation": "Naitikta",
+      "definition": "The branch of philosophy that deals with moral principles and values",
+      "definationTranslation": "Darshan shastra ka ek ang, jo naitik siddhanton aur moolyon se sambandhit hai",
+      "sentence": [
+        {
+          "sentence": "The media should adhere to high ethical standards in its reporting.",
+          "translation": "Media ko apne riporting me ucche naitik maanakon ka paalan karna chahiye."
+        },
+        {
+          "sentence": "The company has a strong commitment to ethics and corporate responsibility.",
+          "translation": "Company ko naitikta aur corporate jimmedari ke prati majboot pratibaddhata hai."
+        }
+      ]
+    },
+    {
+      "word": "Professionalism",
+      "phoneticRespelling": "pruh-FESH-uh-nl-iz-uhm",
+      "translation": "Peshewarpan",
+      "definition": "The skill, competence, or character expected of a professional",
+      "definationTranslation": "Ek peshewar se apekshit kushalata, yogyata, ya charitra",
+      "sentence": [
+        {
+          "sentence": "The journalist was praised for her professionalism in her reporting.",
+          "translation": "Patrakaar ki apne riporting me peshewarpan ki prashansa ki gayi."
+        },
+        {
+          "sentence": "The company values professionalism and integrity in its employees.",
+          "translation": "Company peshewarpan aur satyanishta ko apne karmchariyon me mahatva deti hai."
+        }
+      ]
+    }
+  ]
 }

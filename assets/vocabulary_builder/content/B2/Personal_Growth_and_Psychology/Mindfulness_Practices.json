@@ -1,4 +1,345 @@
 {
   "topic": "Mindfulness Practices",
-  "words": []
+  "words": [
+    {
+      "word": "mindfulness",
+      "phoneticRespelling": "MYND-fuhl-nis",
+      "translation": "सजगता",
+      "definition": "The practice of maintaining a moment-by-moment awareness of thoughts, feelings, and surroundings.",
+      "definationTranslation": "विचारों, भावनाओं और आसपास के वातावरण की क्षण-प्रति-क्षण जागरूकता बनाए रखने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "She practices mindfulness every morning to start her day calmly.",
+          "translation": "वह हर सुबह शांतिपूर्वक अपना दिन शुरू करने के लिए सजगता का अभ्यास करती है।"
+        },
+        {
+          "sentence": "Mindfulness helps reduce stress in busy lives.",
+          "translation": "सजगता व्यस्त जीवन में तनाव कम करने में मदद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "meditation",
+      "phoneticRespelling": "med-ih-TAY-shun",
+      "translation": "ध्यान",
+      "definition": "A mental exercise involving focus on the breath or a mantra to calm the mind.",
+      "definationTranslation": "श्वास या मंत्र पर ध्यान केंद्रित करके मन को शांत करने वाला मानसिक व्यायाम।",
+      "sentence": [
+        {
+          "sentence": "Daily meditation improves concentration.",
+          "translation": "दैनिक ध्यान एकाग्रता में सुधार करता है।"
+        },
+        {
+          "sentence": "He sits quietly for meditation after work.",
+          "translation": "वह काम के बाद शांत बैठकर ध्यान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "breath",
+      "phoneticRespelling": "breth",
+      "translation": "श्वास",
+      "definition": "The air inhaled and exhaled during respiration, often focused on in mindfulness.",
+      "definationTranslation": "श्वसन के दौरान ली गई और छोड़ी गई हवा, जिस पर सजगता में अक्सर ध्यान दिया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Focus on your breath to stay present.",
+          "translation": "वर्तमान में रहने के लिए अपनी श्वास पर ध्यान दें।"
+        },
+        {
+          "sentence": "Deep breath helps during moments of anxiety.",
+          "translation": "गहरी श्वास चिंता के क्षणों में मदद करती है।"
+        }
+      ]
+    },
+    {
+      "word": "awareness",
+      "phoneticRespelling": "uh-WAIR-nis",
+      "translation": "जागरूकता",
+      "definition": "The state of being conscious of one's thoughts, feelings, or environment.",
+      "definationTranslation": "अपने विचारों, भावनाओं या पर्यावरण के प्रति सचेत होने की अवस्था।",
+      "sentence": [
+        {
+          "sentence": "Increase your awareness of daily habits.",
+          "translation": "अपनी दैनिक आदतों की जागरूकता बढ़ाएं।"
+        },
+        {
+          "sentence": "Awareness prevents mindless eating.",
+          "translation": "जागरूकता बिना सोचे खाने से रोकती है।"
+        }
+      ]
+    },
+    {
+      "word": "presence",
+      "phoneticRespelling": "PREZ-ens",
+      "translation": "उपस्थिति",
+      "definition": "The act of being fully engaged in the current moment without distraction.",
+      "definationTranslation": "वर्तमान क्षण में पूर्ण रूप से संलग्न रहना बिना विचलित हुए।",
+      "sentence": [
+        {
+          "sentence": "Practice presence during conversations.",
+          "translation": "बातचीत के दौरान उपस्थिति का अभ्यास करें।"
+        },
+        {
+          "sentence": "She values presence over perfection.",
+          "translation": "वह पूर्णता से अधिक उपस्थिति को महत्व देती है।"
+        }
+      ]
+    },
+    {
+      "word": "serenity",
+      "phoneticRespelling": "suh-REN-i-tee",
+      "translation": "शांति",
+      "definition": "A state of calmness and peacefulness of mind.",
+      "definationTranslation": "मन की शांति और शांतिपूर्ण अवस्था।",
+      "sentence": [
+        {
+          "sentence": "Mindfulness brings serenity to chaos.",
+          "translation": "सजगता अराजकता में शांति लाती है।"
+        },
+        {
+          "sentence": "Find serenity in quiet nature walks.",
+          "translation": "शांत प्रकृति की सैर में शांति पाएं।"
+        }
+      ]
+    },
+    {
+      "word": "mantra",
+      "phoneticRespelling": "MAN-truh",
+      "translation": "मंत्र",
+      "definition": "A word or phrase repeated silently to aid concentration during meditation.",
+      "definationTranslation": "ध्यान के दौरान एकाग्रता में सहायता के लिए चुपचाप दोहराया जाने वाला शब्द या वाक्यांश।",
+      "sentence": [
+        {
+          "sentence": "Repeat your mantra to stay focused.",
+          "translation": "एकाग्र रहने के लिए अपना मंत्र दोहराएं।"
+        },
+        {
+          "sentence": "Her mantra is peace and calm.",
+          "translation": "उसका मंत्र शांति और शांत है।"
+        }
+      ]
+    },
+    {
+      "word": "gratitude",
+      "phoneticRespelling": "GRAT-i-tood",
+      "translation": "कृतज्ञता",
+      "definition": "The quality of being thankful and appreciative of what one has.",
+      "definationTranslation": "जो कुछ है उसके प्रति आभारी और सराहनीय होने की गुणवत्ता।",
+      "sentence": [
+        {
+          "sentence": "Practice gratitude daily for better mood.",
+          "translation": "बेहतर मनोदशा के लिए रोज कृतज्ञता का अभ्यास करें।"
+        },
+        {
+          "sentence": "Gratitude journaling enhances happiness.",
+          "translation": "कृतज्ञता जर्नलिंग खुशी बढ़ाती है।"
+        }
+      ]
+    },
+    {
+      "word": "intention",
+      "phoneticRespelling": "in-TEN-shun",
+      "translation": "इरादा",
+      "definition": "A deliberate aim or purpose set before a mindfulness practice.",
+      "definationTranslation": "सजगता अभ्यास से पहले निर्धारित जानबूझकर उद्देश्य या लक्ष्य।",
+      "sentence": [
+        {
+          "sentence": "Set a clear intention for your session.",
+          "translation": "अपने सत्र के लिए स्पष्ट इरादा निर्धारित करें।"
+        },
+        {
+          "sentence": "Intention guides mindful actions.",
+          "translation": "इरादा सजग कार्यों का मार्गदर्शन करता है।"
+        }
+      ]
+    },
+    {
+      "word": "centering",
+      "phoneticRespelling": "SEN-ter-ing",
+      "translation": "केंद्रित करना",
+      "definition": "The process of focusing inward to achieve emotional balance.",
+      "definationTranslation": "भावनात्मक संतुलन प्राप्त करने के लिए भीतर की ओर ध्यान केंद्रित करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Centering breath calms nerves.",
+          "translation": "केंद्रित श्वास नसों को शांत करती है।"
+        },
+        {
+          "sentence": "She uses centering before meetings.",
+          "translation": "वह मीटिंग से पहले केंद्रित करती है।"
+        }
+      ]
+    },
+    {
+      "word": "visualization",
+      "phoneticRespelling": "vizh-oo-uh-li-ZAY-shun",
+      "translation": "कल्पना",
+      "definition": "Creating mental images to promote relaxation or positive outcomes.",
+      "definationTranslation": "आराम या सकारात्मक परिणामों को बढ़ावा देने के लिए मानसिक चित्र बनाना।",
+      "sentence": [
+        {
+          "sentence": "Visualization aids goal achievement.",
+          "translation": "कल्पना लक्ष्य प्राप्ति में सहायता करती है।"
+        },
+        {
+          "sentence": "Practice visualization for stress relief.",
+          "translation": "तनाव मुक्ति के लिए कल्पना का अभ्यास करें।"
+        }
+      ]
+    },
+    {
+      "word": "compassion",
+      "phoneticRespelling": "kum-PASH-un",
+      "translation": "करुणा",
+      "definition": "Sympathetic awareness of others' suffering with a desire to help.",
+      "definationTranslation": "दूसरों के दुख के प्रति सहानुभूतिपूर्ण जागरूकता सहायता की इच्छा के साथ।",
+      "sentence": [
+        {
+          "sentence": "Cultivate compassion for yourself first.",
+          "translation": "सबसे पहले स्वयं के लिए करुणा विकसित करें।"
+        },
+        {
+          "sentence": "Compassion meditation fosters empathy.",
+          "translation": "करुणा ध्यान सहानुभूति बढ़ाता है।"
+        }
+      ]
+    },
+    {
+      "word": "detachment",
+      "phoneticRespelling": "di-TACH-ment",
+      "translation": "अलगाव",
+      "definition": "Releasing emotional attachment to thoughts or outcomes.",
+      "definationTranslation": "विचारों या परिणामों से भावनात्मक लगाव छोड़ना।",
+      "sentence": [
+        {
+          "sentence": "Detachment brings mental freedom.",
+          "translation": "अलगाव मानसिक स्वतंत्रता लाता है।"
+        },
+        {
+          "sentence": "Practice detachment from worries.",
+          "translation": "चिंताओं से अलगाव का अभ्यास करें।"
+        }
+      ]
+    },
+    {
+      "word": "equanimity",
+      "phoneticRespelling": "ek-wuh-NIM-i-tee",
+      "translation": "समभाव",
+      "definition": "Mental calmness and evenness of temper, especially in difficulties.",
+      "definationTranslation": "मानसिक शांति और स्वभाव की समानता, विशेष रूप से कठिनाइयों में।",
+      "sentence": [
+        {
+          "sentence": "Equanimity helps face challenges.",
+          "translation": "समभाव चुनौतियों का सामना करने में मदद करता है।"
+        },
+        {
+          "sentence": "Mindfulness builds equanimity.",
+          "translation": "सजगता समभाव बनाती है।"
+        }
+      ]
+    },
+    {
+      "word": "reflection",
+      "phoneticRespelling": "ri-FLEK-shun",
+      "translation": "चिंतन",
+      "definition": "Thoughtful consideration of one's experiences or actions.",
+      "definationTranslation": "अपने अनुभवों या कार्यों पर विचारपूर्ण विचार।",
+      "sentence": [
+        {
+          "sentence": "End your day with reflection.",
+          "translation": "अपना दिन चिंतन के साथ समाप्त करें।"
+        },
+        {
+          "sentence": "Reflection promotes personal growth.",
+          "translation": "चिंतन व्यक्तिगत विकास को बढ़ावा देता है।"
+        }
+      ]
+    },
+    {
+      "word": "posture",
+      "phoneticRespelling": "POS-cher",
+      "translation": "मुद्रा",
+      "definition": "The position of the body while sitting or standing, important in meditation.",
+      "definationTranslation": "बैठते या खड़े होते समय शरीर की स्थिति, ध्यान में महत्वपूर्ण।",
+      "sentence": [
+        {
+          "sentence": "Maintain good posture during practice.",
+          "translation": "अभ्यास के दौरान अच्छी मुद्रा बनाए रखें।"
+        },
+        {
+          "sentence": "Proper posture enhances breathing.",
+          "translation": "उचित मुद्रा श्वास को बेहतर बनाती है।"
+        }
+      ]
+    },
+    {
+      "word": "mindful",
+      "phoneticRespelling": "MYND-ful",
+      "translation": "सजग",
+      "definition": "Attentive and aware of what is happening in the present moment.",
+      "definationTranslation": "वर्तमान क्षण में हो रही चीजों के प्रति ध्यानपूर्ण और जागरूक।",
+      "sentence": [
+        {
+          "sentence": "Eat meals in a mindful way.",
+          "translation": "भोजन सजग तरीके से करें।"
+        },
+        {
+          "sentence": "Be mindful of your words.",
+          "translation": "अपने शब्दों के प्रति सजग रहें।"
+        }
+      ]
+    },
+    {
+      "word": "tranquility",
+      "phoneticRespelling": "tran-KWIL-i-tee",
+      "translation": "निरामिषता",
+      "definition": "A state of great peace and quietness.",
+      "definationTranslation": "महान शांति और शांतता की अवस्था।",
+      "sentence": [
+        {
+          "sentence": "Seek tranquility in meditation.",
+          "translation": "ध्यान में निरामिषता की तलाश करें।"
+        },
+        {
+          "sentence": "Nature offers tranquility to the mind.",
+          "translation": "प्रकृति मन को निरामिषता प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "acceptance",
+      "phoneticRespelling": "ak-SEP-tans",
+      "translation": "स्वीकृति",
+      "definition": "The willingness to embrace reality without resistance.",
+      "definationTranslation": "प्रतिरोध के बिना वास्तविकता को अपनाने की इच्छा।",
+      "sentence": [
+        {
+          "sentence": "Acceptance reduces inner conflict.",
+          "translation": "स्वीकृति आंतरिक संघर्ष कम करती है।"
+        },
+        {
+          "sentence": "Practice acceptance of emotions.",
+          "translation": "भावनाओं की स्वीकृति का अभ्यास करें।"
+        }
+      ]
+    },
+    {
+      "word": "grounding",
+      "phoneticRespelling": "GROWN-ding",
+      "translation": "ग्राउंडिंग",
+      "definition": "A technique to reconnect with the present through sensory awareness.",
+      "definationTranslation": "इंद्रिय जागरूकता के माध्यम से वर्तमान से पुनः जुड़ने की तकनीक।",
+      "sentence": [
+        {
+          "sentence": "Grounding exercises calm panic.",
+          "translation": "ग्राउंडिंग व्यायाम घबराहट शांत करते हैं।"
+        },
+        {
+          "sentence": "Use grounding when overwhelmed.",
+          "translation": "अधिक भार होने पर ग्राउंडिंग का उपयोग करें।"
+        }
+      ]
+    }
+  ]
 }

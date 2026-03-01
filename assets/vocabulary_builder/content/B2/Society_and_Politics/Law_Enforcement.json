@@ -1,4 +1,379 @@
 {
   "topic": "Law Enforcement",
-  "words": []
+  "words": [
+    {
+      "word": "arrest",
+      "phoneticRespelling": "uh-REST",
+      "translation": "गिरफ्तार",
+      "definition": "to take someone into police custody",
+      "definationTranslation": "पुलिस हिरासत में लेना",
+      "sentence": [
+        {
+          "sentence": "The police arrested the suspect for robbery.",
+          "translation": "पुलिस ने लूट के संदिग्ध को गिरफ्तार किया।"
+        },
+        {
+          "sentence": "She was arrested for driving under the influence.",
+          "translation": "उन्हें शराब पीकर गाड़ी चलाने के लिए गिरफ्तार किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "investigate",
+      "phoneticRespelling": "in-VES-ti-gayt",
+      "translation": "जांच करना",
+      "definition": "to carry out a systematic inquiry or investigation",
+      "definationTranslation": "एक व्यवस्थित जांच या जांच करना",
+      "sentence": [
+        {
+          "sentence": "The police will investigate the crime scene.",
+          "translation": "पुलिस अपराध स्थल की जांच करेगी।"
+        },
+        {
+          "sentence": "They investigated the company for tax evasion.",
+          "translation": "उन्होंने कर चोरी के लिए कंपनी की जांच की।"
+        }
+      ]
+    },
+    {
+      "word": "evidence",
+      "phoneticRespelling": "EV-uh-dehns",
+      "translation": "सबूत",
+      "definition": "information or objects used to support a claim or prove something",
+      "definationTranslation": "किसी दावे को समर्थन देने या कुछ साबित करने के लिए उपयोग की जाने वाली जानकारी या वस्तुएं",
+      "sentence": [
+        {
+          "sentence": "The police found evidence of a break-in.",
+          "translation": "पुलिस ने घुसपैठ के सबूत पाए।"
+        },
+        {
+          "sentence": "The company presented evidence of their financial stability.",
+          "translation": "कंपनी ने अपनी वित्तीय स्थिरता के सबूत प्रस्तुत किए।"
+        }
+      ]
+    },
+    {
+      "word": "trial",
+      "phoneticRespelling": "TRAY-ul",
+      "translation": "मुकदमा",
+      "definition": "a formal examination of evidence in a court of law",
+      "definationTranslation": "कानून के न्यायालय में सबूत की औपचारिक जांच",
+      "sentence": [
+        {
+          "sentence": "The trial began with the opening statements.",
+          "translation": "मुकदमा खुलने के बयानों के साथ शुरू हुआ।"
+        },
+        {
+          "sentence": "The defendant's trial was highly publicized.",
+          "translation": "प्रतिवादी का मुकदमा व्यापक रूप से प्रचारित किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "testify",
+      "phoneticRespelling": "TES-ti-fy",
+      "translation": "गवाही देना",
+      "definition": "to give evidence or testimony in a court of law",
+      "definationTranslation": "कानून के न्यायालय में सबूत या गवाही देना",
+      "sentence": [
+        {
+          "sentence": "The witness will testify against the defendant.",
+          "translation": "गवाह प्रतिवादी के खिलाफ गवाही देगा।"
+        },
+        {
+          "sentence": "She was called to testify in the trial.",
+          "translation": "उन्हें मुकदमे में गवाही देने के लिए बुलाया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "verdict",
+      "phoneticRespelling": "VER-dikt",
+      "translation": "फैसला",
+      "definition": "the decision made by a jury or judge in a court of law",
+      "definationTranslation": "कानून के न्यायालय में एक जूरी या न्यायाधीश द्वारा किया गया निर्णय",
+      "sentence": [
+        {
+          "sentence": "The jury delivered a guilty verdict.",
+          "translation": "जूरी ने दोषी का फैसला सुनाया।"
+        },
+        {
+          "sentence": "The verdict was met with widespread criticism.",
+          "translation": "फैसले का व्यापक आलोचना के साथ सामना किया गया।"
+        }
+      ]
+    },
+    {
+      "word": "sentence",
+      "phoneticRespelling": "SEN-tuhns",
+      "translation": "वाक्य",
+      "definition": "the punishment given to someone found guilty of a crime",
+      "definationTranslation": "किसी अपराध के दोषी पाए जाने वाले को दी जाने वाली सजा",
+      "sentence": [
+        {
+          "sentence": "The judge handed down a harsh sentence.",
+          "translation": "न्यायाधीश ने एक कठोर वाक्य सुनाया।"
+        },
+        {
+          "sentence": "He received a life sentence for murder.",
+          "translation": "उन्हें हत्या के लिए आजीवन कारावास की सजा मिली।"
+        }
+      ]
+    },
+    {
+      "word": "crime",
+      "phoneticRespelling": "KRYM",
+      "translation": "अपराध",
+      "definition": "an act or omission that constitutes an offense and is punishable by law",
+      "definationTranslation": "एक कार्य या लापरवाही जो एक अपराध का गठन करती है और कानून द्वारा दंडनीय है",
+      "sentence": [
+        {
+          "sentence": "The police are investigating a serious crime.",
+          "translation": "पुलिस एक गंभीर अपराध की जांच कर रही है।"
+        },
+        {
+          "sentence": "The company was accused of a white-collar crime.",
+          "translation": "कंपनी पर एक सफेदपोश अपराध का आरोप लगाया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "policeman",
+      "phoneticRespelling": "puh-LIS-muhn",
+      "translation": "पुलिस अधिकारी",
+      "definition": "a person whose job is to enforce laws and maintain order",
+      "definationTranslation": "एक व्यक्ति जिसका काम कानूनों को लागू करना और व्यवस्था बनाए रखना है",
+      "sentence": [
+        {
+          "sentence": "The policeman directed traffic at the intersection.",
+          "translation": "पुलिस अधिकारी ने चौराहे पर यातायात को निर्देशित किया।"
+        },
+        {
+          "sentence": "He became a policeman to serve his community.",
+          "translation": "उन्होंने अपने समुदाय की सेवा करने के लिए पुलिस अधिकारी बने।"
+        }
+      ]
+    },
+    {
+      "word": "detective",
+      "phoneticRespelling": "di-TEK-tiv",
+      "translation": "गुप्तचर",
+      "definition": "a person who investigates crimes and gathers evidence",
+      "definationTranslation": "एक व्यक्ति जो अपराधों की जांच करता है और सबूत इकट्ठा करता है",
+      "sentence": [
+        {
+          "sentence": "The detective was assigned to the murder case.",
+          "translation": "गुप्तचर को हत्या के मामले में सौंपा गया था।"
+        },
+        {
+          "sentence": "She worked as a detective for many years.",
+          "translation": "उन्होंने कई वर्षों तक एक गुप्तचर के रूप में काम किया।"
+        }
+      ]
+    },
+    {
+      "word": "forensic",
+      "phoneticRespelling": "fuh-REN-sik",
+      "translation": "न्यायिक",
+      "definition": "relating to the use of science and technology in the investigation of crimes",
+      "definationTranslation": "अपराधों की जांच में विज्ञान और प्रौद्योगिकी के उपयोग से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The forensic team collected evidence from the crime scene.",
+          "translation": "न्यायिक टीम ने अपराध स्थल से सबूत इकट्ठा किए।"
+        },
+        {
+          "sentence": "Forensic analysis helped solve the case.",
+          "translation": "न्यायिक विश्लेषण ने मामले को हल करने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "interrogate",
+      "phoneticRespelling": "in-TER-uh-geyt",
+      "translation": "पूछताछ करना",
+      "definition": "to question someone closely, often in an aggressive or forceful manner",
+      "definationTranslation": "किसी से करीब से पूछताछ करना, अक्सर आक्रामक या बलपूर्वक तरीके से",
+      "sentence": [
+        {
+          "sentence": "The police interrogated the suspect for hours.",
+          "translation": "पुलिस ने संदिग्ध को घंटों तक पूछताछ की।"
+        },
+        {
+          "sentence": "They interrogated the prisoner to get a confession.",
+          "translation": "उन्होंने कैदी से पूछताछ की ताकि उन्हें एक स्वीकृति मिल सके।"
+        }
+      ]
+    },
+    {
+      "word": "surveillance",
+      "phoneticRespelling": "sur-VAY-luhns",
+      "translation": "निगरानी",
+      "definition": "the act of watching or monitoring someone or something, often secretly",
+      "definationTranslation": "किसी व्यक्ति या चीज़ को देखने या निगरानी करने का कार्य, अक्सर गुप्त रूप से",
+      "sentence": [
+        {
+          "sentence": "The police put the suspect under surveillance.",
+          "translation": "पुलिस ने संदिग्ध पर निगरानी रखी।"
+        },
+        {
+          "sentence": "The company uses surveillance cameras for security.",
+          "translation": "कंपनी सुरक्षा के लिए निगरानी कैमरों का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "warrant",
+      "phoneticRespelling": "WAR-uhnt",
+      "translation": "वारंट",
+      "definition": "a document that gives the police the authority to arrest someone or search a place",
+      "definationTranslation": "एक दस्तावेज जो पुलिस को किसी व्यक्ति को गिरफ्तार करने या किसी स्थान की तलाशी लेने के लिए अधिकार देता है",
+      "sentence": [
+        {
+          "sentence": "The police obtained a warrant for the suspect's arrest.",
+          "translation": "पुलिस ने संदिग्ध की गिरफ्तारी के लिए वारंट प्राप्त किया।"
+        },
+        {
+          "sentence": "The judge issued a search warrant for the premises.",
+          "translation": "न्यायाधीश ने परिसर के लिए एक तलाशी वारंट जारी किया।"
+        }
+      ]
+    },
+    {
+      "word": "arraignment",
+      "phoneticRespelling": "uh-RAYN-muhnt",
+      "translation": "मुकदमा चलाना",
+      "definition": "the act of bringing someone before a court to answer charges",
+      "definationTranslation": "किसी व्यक्ति को आरोपों का जवाब देने के लिए अदालत के सामने लाने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The defendant's arraignment was scheduled for next week.",
+          "translation": "प्रतिवादी का मुकदमा चलाना अगले सप्ताह के लिए निर्धारित किया गया था।"
+        },
+        {
+          "sentence": "The arraignment process can be lengthy and complicated.",
+          "translation": "मुकदमा चलाने की प्रक्रिया लंबी और जटिल हो सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "bail",
+      "phoneticRespelling": "BAYL",
+      "translation": "जमानत",
+      "definition": "the temporary release of someone from custody, usually in exchange for a payment",
+      "definationTranslation": "किसी व्यक्ति को हिरासत से अस्थायी रूप से रिहा करना, आमतौर पर एक भुगतान के बदले में",
+      "sentence": [
+        {
+          "sentence": "The judge set bail at $10,000.",
+          "translation": "न्यायाधीश ने जमानत 10,000 डॉलर पर तय की।"
+        },
+        {
+          "sentence": "He was released on bail pending trial.",
+          "translation": "उन्हें मुकदमे से पहले जमानत पर रिहा किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "courtroom",
+      "phoneticRespelling": "KORT-room",
+      "translation": "अदालत कक्ष",
+      "definition": "a room where legal proceedings take place",
+      "definationTranslation": "एक कमरा जहां कानूनी कार्यवाही होती है",
+      "sentence": [
+        {
+          "sentence": "The courtroom was filled with spectators.",
+          "translation": "अदालत कक्ष दर्शकों से भरा हुआ था।"
+        },
+        {
+          "sentence": "The judge banged his gavel in the courtroom.",
+          "translation": "न्यायाधीश ने अदालत कक्ष में अपना हथौड़ा बजाया।"
+        }
+      ]
+    },
+    {
+      "word": "testimony",
+      "phoneticRespelling": "TES-ti-moh-nee",
+      "translation": "गवाही",
+      "definition": "a statement made by a witness under oath in a court of law",
+      "definationTranslation": "कानून के न्यायालय में शपथ के तहत एक गवाह द्वारा बनाया गया बयान",
+      "sentence": [
+        {
+          "sentence": "The witness gave false testimony.",
+          "translation": "गवाह ने झूठी गवाही दी।"
+        },
+        {
+          "sentence": "Her testimony was crucial to the case.",
+          "translation": "उनकी गवाही मामले के लिए महत्वपूर्ण थी।"
+        }
+      ]
+    },
+    {
+      "word": "prosecutor",
+      "phoneticRespelling": "PROH-si-kyoo-ter",
+      "translation": "अभियोक्ता",
+      "definition": "a lawyer who represents the state in a court of law",
+      "definationTranslation": "एक वकील जो कानून के न्यायालय में राज्य का प्रतिनिधित्व करता है",
+      "sentence": [
+        {
+          "sentence": "The prosecutor presented the case against the defendant.",
+          "translation": "अभियोक्ता ने प्रतिवादी के खिलाफ मामला प्रस्तुत किया।"
+        },
+        {
+          "sentence": "She was a skilled prosecutor with many years of experience.",
+          "translation": "वह एक कुशल अभियोक्ता थी जिसके पास कई वर्षों का अनुभव था।"
+        }
+      ]
+    },
+    {
+      "word": "defendant",
+      "phoneticRespelling": "di-FEN-duhnt",
+      "translation": "प्रतिवादी",
+      "definition": "a person who is accused of a crime and is on trial",
+      "definationTranslation": "एक व्यक्ति जिस पर अपराध का आरोप लगाया गया है और जो मुकदमे का सामना कर रहा है",
+      "sentence": [
+        {
+          "sentence": "The defendant pleaded not guilty.",
+          "translation": "प्रतिवादी ने निर्दोष होने की दलील दी।"
+        },
+        {
+          "sentence": "The defendant's lawyer made a strong argument.",
+          "translation": "प्रतिवादी के वकील ने एक मजबूत तर्क दिया।"
+        }
+      ]
+    },
+    {
+      "word": "plaintiff",
+      "phoneticRespelling": "PLAYN-tif",
+      "translation": "वादी",
+      "definition": "a person who brings a lawsuit against someone",
+      "definationTranslation": "एक व्यक्ति जो किसी के खिलाफ मुकदमा चलाता है",
+      "sentence": [
+        {
+          "sentence": "The plaintiff sought damages for the injury.",
+          "translation": "वादी ने चोट के लिए हर्जाने की मांग की।"
+        },
+        {
+          "sentence": "The plaintiff's case was dismissed by the court.",
+          "translation": "वादी का मामला अदालत द्वारा खारिज कर दिया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "judge",
+      "phoneticRespelling": "JUHJ",
+      "translation": "न्यायाधीश",
+      "definition": "a public official who presides over a court of law",
+      "definationTranslation": "एक सार्वजनिक अधिकारी जो कानून के न्यायालय की अध्यक्षता करता है",
+      "sentence": [
+        {
+          "sentence": "The judge banged his gavel to signal the start of the trial.",
+          "translation": "न्यायाधीश ने अपना हथौड़ा बजाया ताकि मुकदमे की शुरुआत का संकेत मिल सके।"
+        },
+        {
+          "sentence": "She was appointed as a judge in the high court.",
+          "translation": "उन्हें उच्च न्यायालय में न्यायाधीश के रूप में नियुक्त किया गया था।"
+        }
+      ]
+    }
+  ]
 }

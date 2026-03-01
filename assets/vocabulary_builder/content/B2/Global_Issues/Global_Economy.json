@@ -1,4 +1,379 @@
 {
   "topic": "Global Economy",
-  "words": []
+  "words": [
+    {
+      "word": "Economy",
+      "phoneticRespelling": "EH-koh-nuh-mee",
+      "translation": "अर्थव्यवस्था",
+      "definition": "The system of production, distribution, and exchange of goods and services",
+      "definationTranslation": "उत्पादन, वितरण और सेवाओं के विनिमय की प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The global economy is facing a severe crisis.",
+          "translation": "वैश्विक अर्थव्यवस्था एक गंभीर संकट का सामना कर रही है।"
+        },
+        {
+          "sentence": "The economy of a country depends on various factors.",
+          "translation": "किसी देश की अर्थव्यवस्था विभिन्न कारकों पर निर्भर करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Trade",
+      "phoneticRespelling": "TRAYD",
+      "translation": "व्यापार",
+      "definition": "The exchange of goods or services between countries or organizations",
+      "definationTranslation": "देशों या संगठनों के बीच वस्तुओं या सेवाओं का आदान-प्रदान",
+      "sentence": [
+        {
+          "sentence": "International trade plays a vital role in the global economy.",
+          "translation": "अंतरराष्ट्रीय व्यापार वैश्विक अर्थव्यवस्था में एक महत्वपूर्ण भूमिका निभाता है।"
+        },
+        {
+          "sentence": "The country's trade deficit is a major concern.",
+          "translation": "देश का व्यापार घाटा एक प्रमुख चिंता का विषय है।"
+        }
+      ]
+    },
+    {
+      "word": "Investment",
+      "phoneticRespelling": "IN-vuh-stuh-ment",
+      "translation": "निवेश",
+      "definition": "The act of putting money into something in order to earn a profit",
+      "definationTranslation": "लाभ कमाने के लिए किसी चीज़ में पैसा लगाने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Foreign investment is essential for economic growth.",
+          "translation": "आर्थिक विकास के लिए विदेशी निवेश आवश्यक है।"
+        },
+        {
+          "sentence": "The company is planning to make a significant investment in the new project.",
+          "translation": "कंपनी नए परियोजना में महत्वपूर्ण निवेश करने की योजना बना रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Market",
+      "phoneticRespelling": "MAR-kit",
+      "translation": "बाजार",
+      "definition": "A place where buyers and sellers interact to exchange goods or services",
+      "definationTranslation": "एक स्थान जहां खरीदार और विक्रेता वस्तुओं या सेवाओं के आदान-प्रदान के लिए बातचीत करते हैं",
+      "sentence": [
+        {
+          "sentence": "The global market is becoming increasingly competitive.",
+          "translation": "वैश्विक बाजार तेजी से प्रतिस्पर्धी हो रहा है।"
+        },
+        {
+          "sentence": "The company is trying to expand its market share.",
+          "translation": "कंपनी अपने बाजार हिस्सेदारी को बढ़ाने की कोशिश कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Growth",
+      "phoneticRespelling": "GROH-th",
+      "translation": "विकास",
+      "definition": "An increase in size, amount, or degree",
+      "definationTranslation": "आकार, मात्रा या डिग्री में वृद्धि",
+      "sentence": [
+        {
+          "sentence": "The country's economic growth is expected to slow down.",
+          "translation": "देश की आर्थिक विकास धीमी होने की उम्मीद है।"
+        },
+        {
+          "sentence": "The company's growth strategy is focused on innovation.",
+          "translation": "कंपनी की विकास रणनीति नवाचार पर केंद्रित है।"
+        }
+      ]
+    },
+    {
+      "word": "Recession",
+      "phoneticRespelling": "RI-seh-shun",
+      "translation": "मंदी",
+      "definition": "A period of economic decline or slowdown",
+      "definationTranslation": "आर्थिक गिरावट या धीमी गति की अवधि",
+      "sentence": [
+        {
+          "sentence": "The country is experiencing a severe recession.",
+          "translation": "देश एक गंभीर मंदी का सामना कर रहा है।"
+        },
+        {
+          "sentence": "The recession has had a significant impact on the job market.",
+          "translation": "मंदी का रोजगार बाजार पर महत्वपूर्ण प्रभाव पड़ा है।"
+        }
+      ]
+    },
+    {
+      "word": "Inflation",
+      "phoneticRespelling": "IN-fley-shun",
+      "translation": "मुद्रास्फीति",
+      "definition": "A sustained increase in the general price level of goods and services",
+      "definationTranslation": "वस्तुओं और सेवाओं के सामान्य मूल्य स्तर में लगातार वृद्धि",
+      "sentence": [
+        {
+          "sentence": "The country is struggling to control inflation.",
+          "translation": "देश मुद्रास्फीति को नियंत्रित करने के लिए संघर्ष कर रहा है।"
+        },
+        {
+          "sentence": "Inflation can erode the purchasing power of consumers.",
+          "translation": "मुद्रास्फीति उपभोक्ताओं की क्रय शक्ति को कम कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Unemployment",
+      "phoneticRespelling": "UN-em-ploy-ment",
+      "translation": "बेरोजगारी",
+      "definition": "The state of being without a job or occupation",
+      "definationTranslation": "नौकरी या व्यवसाय के बिना की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The country's unemployment rate is a major concern.",
+          "translation": "देश की बेरोजगारी दर एक प्रमुख चिंता का विषय है।"
+        },
+        {
+          "sentence": "The government is trying to reduce unemployment through job creation programs.",
+          "translation": "सरकार रोजगार सृजन कार्यक्रमों के माध्यम से बेरोजगारी को कम करने की कोशिश कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Fiscal",
+      "phoneticRespelling": "FIS-kul",
+      "translation": "वित्तीय",
+      "definition": "Relating to government revenue or expenditure",
+      "definationTranslation": "सरकारी राजस्व या व्यय से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The government's fiscal policy is focused on reducing the deficit.",
+          "translation": "सरकार की वित्तीय नीति घाटे को कम करने पर केंद्रित है।"
+        },
+        {
+          "sentence": "The company's fiscal year ends in December.",
+          "translation": "कंपनी का वित्तीय वर्ष दिसंबर में समाप्त होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Monetary",
+      "phoneticRespelling": "MAH-nuh-tree",
+      "translation": "मौद्रिक",
+      "definition": "Relating to money or currency",
+      "definationTranslation": "पैसे या मुद्रा से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The central bank's monetary policy is aimed at controlling inflation.",
+          "translation": "केंद्रीय बैंक की मौद्रिक नीति मुद्रास्फीति को नियंत्रित करने के लिए लक्षित है।"
+        },
+        {
+          "sentence": "The country's monetary system is based on a fiat currency.",
+          "translation": "देश की मौद्रिक प्रणाली एक फिएट मुद्रा पर आधारित है।"
+        }
+      ]
+    },
+    {
+      "word": "Globalization",
+      "phoneticRespelling": "GLOH-buh-lie-zay-shun",
+      "translation": "वैश्वीकरण",
+      "definition": "The process of international integration and interconnectedness",
+      "definationTranslation": "अंतरराष्ट्रीय एकीकरण और अंतरसंबंध की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Globalization has led to increased trade and investment between countries.",
+          "translation": "वैश्वीकरण ने देशों के बीच व्यापार और निवेश में वृद्धि की है।"
+        },
+        {
+          "sentence": "The company is taking advantage of globalization to expand its business.",
+          "translation": "कंपनी अपने व्यवसाय को बढ़ाने के लिए वैश्वीकरण का लाभ उठा रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Sustainable",
+      "phoneticRespelling": "SUH-stey-nuh-buhl",
+      "translation": "टिकाऊ",
+      "definition": "Able to be maintained or supported without depleting natural resources",
+      "definationTranslation": "प्राकृतिक संसाधनों को समाप्त किए बिना बनाए रखा या समर्थित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company is committed to sustainable development.",
+          "translation": "कंपनी टिकाऊ विकास के लिए प्रतिबद्ध है।"
+        },
+        {
+          "sentence": "Sustainable practices are essential for environmental protection.",
+          "translation": "पर्यावरण संरक्षण के लिए टिकाऊ अभ्यास आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Development",
+      "phoneticRespelling": "DIH-vuh-lohpm-ent",
+      "translation": "विकास",
+      "definition": "The process of growth or improvement",
+      "definationTranslation": "वृद्धि या सुधार की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The country's development is dependent on foreign investment.",
+          "translation": "देश का विकास विदेशी निवेश पर निर्भर है।"
+        },
+        {
+          "sentence": "The company is focused on sustainable development.",
+          "translation": "कंपनी टिकाऊ विकास पर केंद्रित है।"
+        }
+      ]
+    },
+    {
+      "word": "Poverty",
+      "phoneticRespelling": "POH-vur-tee",
+      "translation": "गरीबी",
+      "definition": "The state of being extremely poor",
+      "definationTranslation": "बहुत गरीब होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The government is working to reduce poverty in the country.",
+          "translation": "सरकार देश में गरीबी को कम करने के लिए काम कर रही है।"
+        },
+        {
+          "sentence": "Poverty is a major challenge facing the world today.",
+          "translation": "गरीबी आज दुनिया के सामने एक बड़ी चुनौती है।"
+        }
+      ]
+    },
+    {
+      "word": "Inequality",
+      "phoneticRespelling": "IN-ih-kwuh-luh-tee",
+      "translation": "असमानता",
+      "definition": "The state of being unequal or uneven",
+      "definationTranslation": "असमान या असमान होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The country is struggling to address income inequality.",
+          "translation": "देश आय असमानता को संबोधित करने के लिए संघर्ष कर रहा है।"
+        },
+        {
+          "sentence": "The company is working to reduce inequality in the workplace.",
+          "translation": "कंपनी कार्यस्थल में असमानता को कम करने के लिए काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Corporation",
+      "phoneticRespelling": "KOR-puh-rey-shun",
+      "translation": "निगम",
+      "definition": "A large business or organization",
+      "definationTranslation": "एक बड़ा व्यवसाय या संगठन",
+      "sentence": [
+        {
+          "sentence": "The corporation is a major player in the global economy.",
+          "translation": "निगम वैश्विक अर्थव्यवस्था में एक प्रमुख खिलाड़ी है।"
+        },
+        {
+          "sentence": "The company is a multinational corporation with operations in several countries.",
+          "translation": "कंपनी एक बहुराष्ट्रीय निगम है जिसके कई देशों में कार्य हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Entrepreneur",
+      "phoneticRespelling": "AHN-truh-pruh-nur",
+      "translation": "उद्यमी",
+      "definition": "A person who starts and runs their own business",
+      "definationTranslation": "एक व्यक्ति जो अपना खुद का व्यवसाय शुरू करता है और चलाता है",
+      "sentence": [
+        {
+          "sentence": "The entrepreneur is a key driver of innovation and economic growth.",
+          "translation": "उद्यमी नवाचार और आर्थिक विकास का एक महत्वपूर्ण चालक है।"
+        },
+        {
+          "sentence": "The company was founded by a successful entrepreneur.",
+          "translation": "कंपनी एक सफल उद्यमी द्वारा स्थापित की गई थी।"
+        }
+      ]
+    },
+    {
+      "word": "Microfinance",
+      "phoneticRespelling": "MY-kroh-FY-nans",
+      "translation": "सूक्ष्म वित्त",
+      "definition": "The provision of financial services to low-income individuals or organizations",
+      "definationTranslation": "निम्न-आय व्यक्तियों या संगठनों को वित्तीय सेवाओं का प्रावधान",
+      "sentence": [
+        {
+          "sentence": "Microfinance has helped to alleviate poverty in many developing countries.",
+          "translation": "सूक्ष्म वित्त ने कई विकासशील देशों में गरीबी को कम करने में मदद की है।"
+        },
+        {
+          "sentence": "The company provides microfinance services to small businesses and entrepreneurs.",
+          "translation": "कंपनी छोटे व्यवसायों और उद्यमियों को सूक्ष्म वित्त सेवाएं प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Financial",
+      "phoneticRespelling": "FY-nan-shul",
+      "translation": "वित्तीय",
+      "definition": "Relating to money or finance",
+      "definationTranslation": "पैसे या वित्त से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The company's financial performance has been improving over the past year.",
+          "translation": "कंपनी का वित्तीय प्रदर्शन पिछले वर्ष में सुधरा है।"
+        },
+        {
+          "sentence": "The financial sector is a critical part of the economy.",
+          "translation": "वित्तीय क्षेत्र अर्थव्यवस्था का एक महत्वपूर्ण हिस्सा है।"
+        }
+      ]
+    },
+    {
+      "word": "Economic",
+      "phoneticRespelling": "EH-koh-nom-ik",
+      "translation": "आर्थिक",
+      "definition": "Relating to the economy or economics",
+      "definationTranslation": "अर्थव्यवस्था या अर्थशास्त्र से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The economic crisis has had a significant impact on the country.",
+          "translation": "आर्थिक संकट का देश पर महत्वपूर्ण प्रभाव पड़ा है।"
+        },
+        {
+          "sentence": "The company's economic performance is closely tied to the global market.",
+          "translation": "कंपनी का आर्थिक प्रदर्शन वैश्विक बाजार से घनिष्ठ रूप से जुड़ा हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "Industry",
+      "phoneticRespelling": "IN-duh-stree",
+      "translation": "उद्योग",
+      "definition": "A group of companies or organizations that produce similar goods or services",
+      "definationTranslation": "समान वस्तुओं या सेवाओं का उत्पादन करने वाली कंपनियों या संगठनों का समूह",
+      "sentence": [
+        {
+          "sentence": "The industry is experiencing a period of rapid growth.",
+          "translation": "उद्योग तेजी से विकास की अवधि से गुजर रहा है।"
+        },
+        {
+          "sentence": "The company is a leader in the technology industry.",
+          "translation": "कंपनी प्रौद्योगिकी उद्योग में एक नेता है।"
+        }
+      ]
+    },
+    {
+      "word": "Infrastructure",
+      "phoneticRespelling": "IN-fruh-struhk-chur",
+      "translation": "अवसंरचना",
+      "definition": "The basic systems and structures that a country or organization needs to function",
+      "definationTranslation": "एक देश या संगठन को कार्य करने के लिए आवश्यक मूल प्रणाली और संरचनाएं",
+      "sentence": [
+        {
+          "sentence": "The country is investing heavily in its infrastructure.",
+          "translation": "देश अपनी अवसंरचना में भारी निवेश कर रहा है।"
+        },
+        {
+          "sentence": "The company's infrastructure is designed to support its global operations.",
+          "translation": "कंपनी की अवसंरचना अपने वैश्विक कार्यों का समर्थन करने के लिए डिज़ाइन की गई है।"
+        }
+      ]
+    }
+  ]
 }

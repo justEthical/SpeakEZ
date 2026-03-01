@@ -1,4 +1,345 @@
 {
   "topic": "Health Insurance",
-  "words": []
+  "words": [
+    {
+      "word": "premium",
+      "phoneticRespelling": "PREM-ee-uhm",
+      "translation": "primaam",
+      "definition": "a regular payment for an insurance policy",
+      "definationTranslation": "bima policee ke liye niyamit bharan",
+      "sentence": [
+        {
+          "sentence": "The monthly premium for health insurance is quite high.",
+          "translation": "svaasthya bima ke maasik primaam bahut adhik hai."
+        },
+        {
+          "sentence": "She paid her premium on time to avoid penalty.",
+          "translation": "unhone dand se bachen ke liye samay par apna primaam bhara."
+        }
+      ]
+    },
+    {
+      "word": "deductible",
+      "phoneticRespelling": "di-DUK-ti-buhl",
+      "translation": "katavayee",
+      "definition": "an amount that must be paid before an insurance policy begins to pay",
+      "definationTranslation": "bima policee ka bhugtaan shuru hone se pehle bharna hoga",
+      "sentence": [
+        {
+          "sentence": "The deductible on my health insurance is $500.",
+          "translation": "meri svaasthya bima par katavayee $500 hai."
+        },
+        {
+          "sentence": "High deductible plans often have lower premiums.",
+          "translation": "ucch katavayee yaantron mein aksar nichit primaam hota hai."
+        }
+      ]
+    },
+    {
+      "word": "co-pay",
+      "phoneticRespelling": "koh-pay",
+      "translation": "sah-bharan",
+      "definition": "a fixed amount paid by the patient for a medical service",
+      "definationTranslation": "chikitsa seva ke liye rogī dwara bhara gaya ek nishchit bharan",
+      "sentence": [
+        {
+          "sentence": "The co-pay for a doctor's visit is $20.",
+          "translation": "daktar ki mulaaqaat ka sah-bharan $20 hai."
+        },
+        {
+          "sentence": "My co-pay for prescriptions is $10.",
+          "translation": "mere nuskhon ka sah-bharan $10 hai."
+        }
+      ]
+    },
+    {
+      "word": "claim",
+      "phoneticRespelling": "klaym",
+      "translation": "davaa",
+      "definition": "a request for payment from an insurance company",
+      "definationTranslation": "bima kampni se bhugtaan ke liye anurodh",
+      "sentence": [
+        {
+          "sentence": "You need to file a claim to get reimbursement.",
+          "translation": "bharan vapas pane ke liye aapko davaa darj karnee chaahiye."
+        },
+        {
+          "sentence": "The insurance company will review your claim.",
+          "translation": "bima kampni aapki davaa ka samīksha karegee."
+        }
+      ]
+    },
+    {
+      "word": "pre-existing",
+      "phoneticRespelling": "pree-eg-zist-ing",
+      "translation": "purv-maurit",
+      "definition": "a medical condition that existed before the insurance policy started",
+      "definationTranslation": "bima policee shuru hone se pehle maujood ek chikitsa sthiti",
+      "sentence": [
+        {
+          "sentence": "Pre-existing conditions are often not covered by insurance.",
+          "translation": "purv-maurit sthitiyon ko aksar bima dwara dhakiya nahin jaata."
+        },
+        {
+          "sentence": "She had a pre-existing condition that made it hard to get insurance.",
+          "translation": "uske paas ek purv-maurit sthiti thee jo bima praapt karne mein kathin thee."
+        }
+      ]
+    },
+    {
+      "word": "provider",
+      "phoneticRespelling": "pruh-vahy-der",
+      "translation": "sevaa-pradaata",
+      "definition": "a doctor, hospital, or other healthcare professional",
+      "definationTranslation": "daktar, aspatal, ya anya swaasthya seva pradaata",
+      "sentence": [
+        {
+          "sentence": "My healthcare provider is very experienced.",
+          "translation": "mera swaasthya seva pradaata bahut anubhavī hai."
+        },
+        {
+          "sentence": "The insurance company has a list of approved providers.",
+          "translation": "bima kampni ke paas manya seva pradaaton ki soochi hai."
+        }
+      ]
+    },
+    {
+      "word": "network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "jaal",
+      "definition": "a group of healthcare providers who have an agreement with an insurance company",
+      "definationTranslation": "bima kampni ke saath samjhauta karne vaale swaasthya seva pradaaton ka samauh",
+      "sentence": [
+        {
+          "sentence": "The insurance company has a large network of providers.",
+          "translation": "bima kampni ke paas seva pradaaton ka bada jaal hai."
+        },
+        {
+          "sentence": "I need to choose a provider within the network.",
+          "translation": "mujhe jaal ke andar se ek seva pradaata chunnaa hoga."
+        }
+      ]
+    },
+    {
+      "word": "coverage",
+      "phoneticRespelling": "KUH-ver-ij",
+      "translation": "dhakiya",
+      "definition": "the amount of protection provided by an insurance policy",
+      "definationTranslation": "bima policee dwara pradaan ki gayi suraksha ki maatra",
+      "sentence": [
+        {
+          "sentence": "The coverage on my policy is excellent.",
+          "translation": "meri policee par dhakiya utkrisht hai."
+        },
+        {
+          "sentence": "I need to check the coverage before buying a policy.",
+          "translation": "main policy khareedne se pehle dhakiya jaanchanaa chaahunga."
+        }
+      ]
+    },
+    {
+      "word": "exclusion",
+      "phoneticRespelling": "ek-SKLUSH-uhn",
+      "translation": "bahishkaar",
+      "definition": "a condition or situation that is not covered by an insurance policy",
+      "definationTranslation": "bima policee dwara dhakiya naheen gaya ek sthiti ya paristhiti",
+      "sentence": [
+        {
+          "sentence": "The policy has an exclusion for pre-existing conditions.",
+          "translation": "Policee mein purv-maurit sthitiyon ke liye bahishkaar hai."
+        },
+        {
+          "sentence": "I need to read the exclusions carefully before buying a policy.",
+          "translation": "main policy khareedne se pehle bahishkaar kaa dhyaan se padhunga."
+        }
+      ]
+    },
+    {
+      "word": "limit",
+      "phoneticRespelling": "LIH-mit",
+      "translation": "seemaa",
+      "definition": "the maximum amount of money that an insurance policy will pay",
+      "definationTranslation": "bima policee dwara bhara jaane vaala dhan ki adhiktam raashi",
+      "sentence": [
+        {
+          "sentence": "The policy has a limit on the amount of coverage.",
+          "translation": "Policee mein dhakiya ki maatra par seemaa hai."
+        },
+        {
+          "sentence": "I need to check the limit before filing a claim.",
+          "translation": "main davaa darj karne se pehle seemaa jaanchanaa chaahunga."
+        }
+      ]
+    },
+    {
+      "word": "reimbursement",
+      "phoneticRespelling": "ree-im-BURS-muhnt",
+      "translation": "bharan vapas",
+      "definition": "the act of paying back money to someone who has paid for a medical service",
+      "definationTranslation": "chikitsa seva ke liye bharna vaale vyakti ko bharan vapas karne ka kaam",
+      "sentence": [
+        {
+          "sentence": "The insurance company will provide reimbursement for the treatment.",
+          "translation": "bima kampni ilaj ke liye bharan vapas karegee."
+        },
+        {
+          "sentence": "I need to submit my receipts for reimbursement.",
+          "translation": "mujhe bharan vapas ke liye mere rasaideon ko prastut karanaa hoga."
+        }
+      ]
+    },
+    {
+      "word": "out-of-pocket",
+      "phoneticRespelling": "oht-UH-v POH-ket",
+      "translation": "apne kharche se",
+      "definition": "paid by the patient, rather than by an insurance company",
+      "definationTranslation": "bima kampni ke baajay rogee dwara bhara gaya",
+      "sentence": [
+        {
+          "sentence": "I had to pay out-of-pocket for the prescription.",
+          "translation": "mujhe nuskhon ke liye apne kharche se bharna padaa."
+        },
+        {
+          "sentence": "The out-of-pocket costs for healthcare can be very high.",
+          "translation": "svaasthya seva ke liye apne kharche se kharch hote hain."
+        }
+      ]
+    },
+    {
+      "word": "broker",
+      "phoneticRespelling": "BROH-ker",
+      "translation": "madhyasth",
+      "definition": "a person who helps people choose and buy insurance policies",
+      "definationTranslation": "ek vyakti jo logon ko bima policee chunne aur khareedne mein madad kartaa hai",
+      "sentence": [
+        {
+          "sentence": "The broker helped me choose the right policy.",
+          "translation": "madhyasth ne mujhe sahee policee chunne mein madad kee."
+        },
+        {
+          "sentence": "I need to contact a broker to get a quote for insurance.",
+          "translation": "main bima ke liye uddarpan praapt karne ke liye ek madhyasth se sampark karoonga."
+        }
+      ]
+    },
+    {
+      "word": "quote",
+      "phoneticRespelling": "KWOHT",
+      "translation": "uddarpan",
+      "definition": "an estimate of the cost of an insurance policy",
+      "definationTranslation": "bima policee ke kharch ka anumaan",
+      "sentence": [
+        {
+          "sentence": "I got a quote from the insurance company.",
+          "translation": "maine bima kampni se uddarpan praapt kiya."
+        },
+        {
+          "sentence": "The quote includes the premium, deductible, and co-pay.",
+          "translation": "uddarpan mein primaam, katavayee, aur sah-bharan shaamil hain."
+        }
+      ]
+    },
+    {
+      "word": "enrollment",
+      "phoneticRespelling": "en-ROHL-muhnt",
+      "translation": "nirmaan",
+      "definition": "the process of registering for an insurance policy",
+      "definationTranslation": "bima policee ke liye nirmaan praakriyaa",
+      "sentence": [
+        {
+          "sentence": "The enrollment period for the new policy is open.",
+          "translation": "naye policee ke liye nirmaan avadhi khulee hai."
+        },
+        {
+          "sentence": "I need to complete the enrollment process to get insurance.",
+          "translation": "main bima praapt karne ke liye nirmaan praakriyaa poora karoonga."
+        }
+      ]
+    },
+    {
+      "word": "premiumpayment",
+      "phoneticRespelling": "PREM-ee-uhm PAY-muhnt",
+      "translation": "primaam bharan",
+      "definition": "the act of paying the premium for an insurance policy",
+      "definationTranslation": "bima policee ke primaam ka bharan karne ka kaam",
+      "sentence": [
+        {
+          "sentence": "The premium payment is due on the 15th of every month.",
+          "translation": "primaam bharan har mahine ke 15 ve din kee jaat hai."
+        },
+        {
+          "sentence": "I need to make the premium payment to avoid penalty.",
+          "translation": "main dand se bachen ke liye primaam bharan karoonga."
+        }
+      ]
+    },
+    {
+      "word": "beneficiary",
+      "phoneticRespelling": "ben-uh-FIH-shuh-ree",
+      "translation": "labhpaatri",
+      "definition": "a person who receives the benefits of an insurance policy",
+      "definationTranslation": "bima policee ke laabh praapt karne vaalaa vyakti",
+      "sentence": [
+        {
+          "sentence": "The beneficiary of my policy is my wife.",
+          "translation": "meri policee ke labhpaatri meree patnee hain."
+        },
+        {
+          "sentence": "I need to designate a beneficiary for my insurance policy.",
+          "translation": "main apni bima policee ke liye ek labhpaatri nirdhaarit karoonga."
+        }
+      ]
+    },
+    {
+      "word": "underwriting",
+      "phoneticRespelling": "UHN-der-rayt-ing",
+      "translation": "bhoomika",
+      "definition": "the process of evaluating the risk of an insurance policy",
+      "definationTranslation": "bima policee ke jokhim ka moolyankan karne ka prakaar",
+      "sentence": [
+        {
+          "sentence": "The underwriting process takes several days.",
+          "translation": "bhoomika prakaar kai din lagtaa hai."
+        },
+        {
+          "sentence": "The underwriter will review my application and determine the premium.",
+          "translation": "bhoomikaakaar meri aavedika ka samīksha karega aur primaam nirdhaarit karega."
+        }
+      ]
+    },
+    {
+      "word": "adjuster",
+      "phoneticRespelling": "uh-JUH-stur",
+      "translation": "samayojak",
+      "definition": "a person who investigates and settles insurance claims",
+      "definationTranslation": "bima davaaon ka anveshan aur nibandhan karne vaalaa vyakti",
+      "sentence": [
+        {
+          "sentence": "The adjuster will investigate the claim and determine the payout.",
+          "translation": "samayojak davaa ka anveshan karega aur bharaan ka nirdhaar karaga."
+        },
+        {
+          "sentence": "I need to contact the adjuster to discuss my claim.",
+          "translation": "main apni davaa par charcha karne ke liye samayojak se sampark karoonga."
+        }
+      ]
+    },
+    {
+      "word": "policyholder",
+      "phoneticRespelling": "POL-uh-see-hol-duhr",
+      "translation": "policee dharaak",
+      "definition": "a person who owns an insurance policy",
+      "definationTranslation": "bima policee ka maalik",
+      "sentence": [
+        {
+          "sentence": "The policyholder has the right to cancel the policy.",
+          "translation": "policee dharaak ko policee radd karne kaa adhikaar hai."
+        },
+        {
+          "sentence": "I am the policyholder and I need to make the premium payment.",
+          "translation": "main policee dharaak hoon aur mujhe primaam bharan karnaa hoga."
+        }
+      ]
+    }
+  ]
 }

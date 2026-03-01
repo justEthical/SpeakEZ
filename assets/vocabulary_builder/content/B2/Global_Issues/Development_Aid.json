@@ -1,4 +1,345 @@
 {
   "topic": "Development Aid",
-  "words": []
+  "words": [
+    {
+      "word": "aid",
+      "phoneticRespelling": "ayd",
+      "translation": "सहायता",
+      "definition": "financial or material help given to a country by organizations or other countries",
+      "definationTranslation": "देशों या संगठनों द्वारा किसी देश को दी जाने वाली वित्तीय या भौतिक सहायता",
+      "sentence": [
+        {
+          "sentence": "The country received aid after the disaster.",
+          "translation": "देश को आपदा के बाद सहायता प्राप्त हुई।"
+        },
+        {
+          "sentence": "International aid is crucial for recovery.",
+          "translation": "अंतरराष्ट्रीय सहायता पुनर्वास के लिए महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "donor",
+      "phoneticRespelling": "doh-ner",
+      "translation": "दाता",
+      "definition": "a person or country that gives money or help to support a cause",
+      "definationTranslation": "एक व्यक्ति या देश जो किसी उद्देश्य का समर्थन करने के लिए धन या सहायता देता है",
+      "sentence": [
+        {
+          "sentence": "The donor pledged millions for the project.",
+          "translation": "दाता ने परियोजना के लिए लाखों का वचन दिया।"
+        },
+        {
+          "sentence": "Major donors met to discuss funding.",
+          "translation": "प्रमुख दाताओं ने वित्तपोषण पर चर्चा करने के लिए मुलाकात की।"
+        }
+      ]
+    },
+    {
+      "word": "recipient",
+      "phoneticRespelling": "ri-sip-ee-uhnt",
+      "translation": "प्राप्तकर्ता",
+      "definition": "a person or country that receives aid or help",
+      "definationTranslation": "एक व्यक्ति या देश जो सहायता या मदद प्राप्त करता है",
+      "sentence": [
+        {
+          "sentence": "The recipient used the funds wisely.",
+          "translation": "प्राप्तकर्ता ने धन का बुद्धिमानी से उपयोग किया।"
+        },
+        {
+          "sentence": "Recipients must report on progress.",
+          "translation": "प्राप्तकर्ताओं को प्रगति पर रिपोर्ट करनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "grant",
+      "phoneticRespelling": "grant",
+      "translation": "अनुदान",
+      "definition": "an amount of money given for a specific purpose, especially without expectation of repayment",
+      "definationTranslation": "विशेष उद्देश्य के लिए दिया गया धनराशि, विशेष रूप से बिना वापसी की अपेक्षा के",
+      "sentence": [
+        {
+          "sentence": "They awarded a grant for education.",
+          "translation": "उन्होंने शिक्षा के लिए अनुदान दिया।"
+        },
+        {
+          "sentence": "The grant supported infrastructure projects.",
+          "translation": "अनुदान ने बुनियादी ढांचा परियोजनाओं का समर्थन किया।"
+        }
+      ]
+    },
+    {
+      "word": "poverty",
+      "phoneticRespelling": "pov-er-tee",
+      "translation": "गरीबी",
+      "definition": "the state of being extremely poor",
+      "definationTranslation": "अत्यधिक गरीब होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "Aid aims to reduce poverty in rural areas.",
+          "translation": "सहायता ग्रामीण क्षेत्रों में गरीबी कम करने का लक्ष्य रखती है।"
+        },
+        {
+          "sentence": "Poverty affects millions worldwide.",
+          "translation": "गरीबी दुनिया भर में लाखों को प्रभावित करती है।"
+        }
+      ]
+    },
+    {
+      "word": "infrastructure",
+      "phoneticRespelling": "in-fruh-struk-cher",
+      "translation": "बुनियादी ढांचा",
+      "definition": "the basic physical structures needed for a society, like roads and schools",
+      "definationTranslation": "समाज के लिए आवश्यक बुनियादी भौतिक संरचनाएं, जैसे सड़कें और स्कूल",
+      "sentence": [
+        {
+          "sentence": "Aid funded new infrastructure projects.",
+          "translation": "सहायता ने नई बुनियादी ढांचा परियोजनाओं को वित्तपोषित किया।"
+        },
+        {
+          "sentence": "Poor infrastructure hinders development.",
+          "translation": "खराब बुनियादी ढांचा विकास को बाधित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "sustainable",
+      "phoneticRespelling": "suh-stey-nuh-buhl",
+      "translation": "टिकाऊ",
+      "definition": "able to be maintained over time without harming the environment or resources",
+      "definationTranslation": "पर्यावरण या संसाधनों को नुकसान पहुंचाए बिना समय के साथ बनाए रखा जा सकने योग्य",
+      "sentence": [
+        {
+          "sentence": "They promote sustainable development aid.",
+          "translation": "वे टिकाऊ विकास सहायता को बढ़ावा देते हैं।"
+        },
+        {
+          "sentence": "Sustainable practices ensure long-term benefits.",
+          "translation": "टिकाऊ प्रथाएं दीर्घकालिक लाभ सुनिश्चित करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "humanitarian",
+      "phoneticRespelling": "hyoo-man-uh-tair-ee-uhn",
+      "translation": "मानवीय",
+      "definition": "concerned with reducing suffering and improving welfare in emergencies",
+      "definationTranslation": "आपात स्थितियों में पीड़ा कम करने और कल्याण सुधारने से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Humanitarian aid arrived quickly.",
+          "translation": "मानवीय सहायता जल्दी पहुंची।"
+        },
+        {
+          "sentence": "NGOs provide humanitarian assistance.",
+          "translation": "एनजीओ मानवीय सहायता प्रदान करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "NGO",
+      "phoneticRespelling": "en-jee-oh",
+      "translation": "एनजीओ",
+      "definition": "non-governmental organization that works on aid and development projects",
+      "definationTranslation": "सहायता और विकास परियोजनाओं पर काम करने वाला गैर-सरकारी संगठन",
+      "sentence": [
+        {
+          "sentence": "The NGO distributed food aid.",
+          "translation": "एनजीओ ने भोजन सहायता वितरित की।"
+        },
+        {
+          "sentence": "NGOs coordinate with governments.",
+          "translation": "एनजीओ सरकारों के साथ समन्वय करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "bilateral",
+      "phoneticRespelling": "bahy-lat-er-uhl",
+      "translation": "द्विपक्षीय",
+      "definition": "involving two countries, like aid from one nation to another",
+      "definationTranslation": "दो देशों से संबंधित, जैसे एक राष्ट्र से दूसरे को सहायता",
+      "sentence": [
+        {
+          "sentence": "They signed a bilateral aid agreement.",
+          "translation": "उन्होंने द्विपक्षीय सहायता समझौते पर हस्ताक्षर किए।"
+        },
+        {
+          "sentence": "Bilateral talks focused on trade.",
+          "translation": "द्विपक्षीय वार्ता व्यापार पर केंद्रित थी।"
+        }
+      ]
+    },
+    {
+      "word": "multilateral",
+      "phoneticRespelling": "muhl-tee-lat-er-uhl",
+      "translation": "बहुपक्षीय",
+      "definition": "involving several countries or organizations, like UN aid programs",
+      "definationTranslation": "कई देशों या संगठनों से संबंधित, जैसे संयुक्त राष्ट्र सहायता कार्यक्रम",
+      "sentence": [
+        {
+          "sentence": "Multilateral aid comes from the World Bank.",
+          "translation": "बहुपक्षीय सहायता विश्व बैंक से आती है।"
+        },
+        {
+          "sentence": "The forum discussed multilateral cooperation.",
+          "translation": "फोरम ने बहुपक्षीय सहयोग पर चर्चा की।"
+        }
+      ]
+    },
+    {
+      "word": "disbursement",
+      "phoneticRespelling": "dis-burs-muhnt",
+      "translation": "वितरण",
+      "definition": "the act of paying out or distributing money, especially aid funds",
+      "definationTranslation": "धन, विशेष रूप से सहायता निधि का भुगतान या वितरण करना",
+      "sentence": [
+        {
+          "sentence": "Disbursement of funds began this month.",
+          "translation": "इस महीने धन का वितरण शुरू हुआ।"
+        },
+        {
+          "sentence": "Delays in disbursement hurt projects.",
+          "translation": "वितरण में देरी परियोजनाओं को नुकसान पहुंचाती है।"
+        }
+      ]
+    },
+    {
+      "word": "corruption",
+      "phoneticRespelling": "kuh-rahp-shuhn",
+      "translation": "भ्रष्टाचार",
+      "definition": "dishonest or illegal behavior, especially by those in power, affecting aid",
+      "definationTranslation": "अधिकारियों द्वारा बेईमानी या अवैध व्यवहार, जो सहायता को प्रभावित करता है",
+      "sentence": [
+        {
+          "sentence": "Corruption diverts aid from the needy.",
+          "translation": "भ्रष्टाचार सहायता को जरूरतमंदों से भटकाता है।"
+        },
+        {
+          "sentence": "They monitor aid to prevent corruption.",
+          "translation": "वे भ्रष्टाचार रोकने के लिए सहायता की निगरानी करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "empowerment",
+      "phoneticRespelling": "em-pow-er-muhnt",
+      "translation": "सशक्तिकरण",
+      "definition": "the process of giving people more control over their lives through aid",
+      "definationTranslation": "सहायता के माध्यम से लोगों को उनके जीवन पर अधिक नियंत्रण देने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Aid focuses on women's empowerment.",
+          "translation": "सहायता महिलाओं के सशक्तिकरण पर केंद्रित है।"
+        },
+        {
+          "sentence": "Empowerment leads to self-reliance.",
+          "translation": "सशक्तिकरण आत्मनिर्भरता की ओर ले जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "capacity",
+      "phoneticRespelling": "kuh-pas-i-tee",
+      "translation": "क्षमता",
+      "definition": "the ability of a country to manage its own development with aid",
+      "definationTranslation": "सहायता के साथ किसी देश की अपने विकास को प्रबंधित करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "Aid builds local capacity.",
+          "translation": "सहायता स्थानीय क्षमता बनाती है।"
+        },
+        {
+          "sentence": "They lack the capacity to respond.",
+          "translation": "उनके पास प्रतिक्रिया देने की क्षमता की कमी है।"
+        }
+      ]
+    },
+    {
+      "word": "relief",
+      "phoneticRespelling": "ri-leef",
+      "translation": "राहत",
+      "definition": "immediate help given to people in distress, like after a disaster",
+      "definationTranslation": "आपदा के बाद संकट में लोगों को दी जाने वाली तत्काल सहायता",
+      "sentence": [
+        {
+          "sentence": "Relief efforts saved many lives.",
+          "translation": "राहत प्रयासों ने कई जिंदगियां बचाईं।"
+        },
+        {
+          "sentence": "They sent relief supplies urgently.",
+          "translation": "उन्होंने राहत सामग्री तत्काल भेजी।"
+        }
+      ]
+    },
+    {
+      "word": "dependency",
+      "phoneticRespelling": "di-pen-duhn-see",
+      "translation": "निर्भरता",
+      "definition": "a state where a country relies too much on foreign aid",
+      "definationTranslation": "ऐसी स्थिति जहां कोई देश विदेशी सहायता पर अत्यधिक निर्भर हो",
+      "sentence": [
+        {
+          "sentence": "Aid can create dependency if misused.",
+          "translation": "यदि गलत उपयोग किया जाए तो सहायता निर्भरता पैदा कर सकती है।"
+        },
+        {
+          "sentence": "They aim to reduce dependency.",
+          "translation": "वे निर्भरता कम करने का लक्ष्य रखते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "governance",
+      "phoneticRespelling": "guh-ver-nuhns",
+      "translation": "शासन",
+      "definition": "the way a country is governed, which affects aid effectiveness",
+      "definationTranslation": "किसी देश के शासित होने का तरीका, जो सहायता की प्रभावशीलता को प्रभावित करता है",
+      "sentence": [
+        {
+          "sentence": "Good governance improves aid outcomes.",
+          "translation": "अच्छा शासन सहायता परिणामों को सुधारता है।"
+        },
+        {
+          "sentence": "Aid conditions include governance reforms.",
+          "translation": "सहायता शर्तों में शासन सुधार शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "allocation",
+      "phoneticRespelling": "al-uh-kay-shuhn",
+      "translation": "आवंटन",
+      "definition": "the process of deciding how to distribute aid funds",
+      "definationTranslation": "सहायता निधि वितरित करने का निर्णय लेने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Aid allocation prioritizes the poorest.",
+          "translation": "सहायता आवंटन सबसे गरीबों को प्राथमिकता देता है।"
+        },
+        {
+          "sentence": "They reviewed the allocation plan.",
+          "translation": "उन्होंने आवंटन योजना की समीक्षा की।"
+        }
+      ]
+    },
+    {
+      "word": "impact",
+      "phoneticRespelling": "im-pakt",
+      "translation": "प्रभाव",
+      "definition": "the effect or influence of aid on development",
+      "definationTranslation": "विकास पर सहायता का प्रभाव या प्रभाव",
+      "sentence": [
+        {
+          "sentence": "They measure the impact of aid.",
+          "translation": "वे सहायता के प्रभाव को मापते हैं।"
+        },
+        {
+          "sentence": "Positive impact requires monitoring.",
+          "translation": "सकारात्मक प्रभाव के लिए निगरानी आवश्यक है।"
+        }
+      ]
+    }
+  ]
 }

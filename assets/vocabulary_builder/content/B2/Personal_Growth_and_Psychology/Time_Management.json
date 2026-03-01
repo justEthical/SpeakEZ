@@ -1,4 +1,345 @@
 {
   "topic": "Time Management",
-  "words": []
+  "words": [
+    {
+      "word": "priority",
+      "phoneticRespelling": "pry-OR-i-tee",
+      "translation": "प्राथमिकता",
+      "definition": "Something that is very important and must be dealt with before other things.",
+      "definationTranslation": "कुछ ऐसा जो बहुत महत्वपूर्ण है और अन्य चीजों से पहले निपटा जाना चाहिए।",
+      "sentence": [
+        {
+          "sentence": "She set her family as her top priority.",
+          "translation": "उसने अपने परिवार को अपनी शीर्ष प्राथमिकता बनाया।"
+        },
+        {
+          "sentence": "Priorities help in effective time management.",
+          "translation": "प्राथमिकताएं प्रभावी समय प्रबंधन में मदद करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "procrastinate",
+      "phoneticRespelling": "proh-KRAS-tuh-nayt",
+      "translation": "टालमटोल करना",
+      "definition": "To delay or postpone action; put off doing something.",
+      "definationTranslation": "कार्रवाई को टालना या स्थगित करना; कुछ करने को टाल देना।",
+      "sentence": [
+        {
+          "sentence": "Don't procrastinate on your assignments.",
+          "translation": "अपने असाइनमेंट्स पर टालमटोल न करें।"
+        },
+        {
+          "sentence": "Procrastination leads to last-minute stress.",
+          "translation": "टालमटोल अंतिम मिनट के तनाव का कारण बनती है।"
+        }
+      ]
+    },
+    {
+      "word": "deadline",
+      "phoneticRespelling": "DEED-lyn",
+      "translation": "समय सीमा",
+      "definition": "The latest time by which something should be completed.",
+      "definationTranslation": "किसी चीज को पूरा करने की अंतिम समय सीमा।",
+      "sentence": [
+        {
+          "sentence": "The project deadline is next Friday.",
+          "translation": "प्रोजेक्ट की समय सीमा अगला शुक्रवार है।"
+        },
+        {
+          "sentence": "Missing deadlines can harm your reputation.",
+          "translation": "समय सीमाएं चूकना आपकी प्रतिष्ठा को नुकसान पहुंचा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "schedule",
+      "phoneticRespelling": "SKED-jool",
+      "translation": "कार्यसूची",
+      "definition": "A plan for carrying out a process or procedure, giving lists of intended events and times.",
+      "definationTranslation": "किसी प्रक्रिया या प्रक्रिया को चलाने की योजना, जिसमें नियोजित घटनाओं और समयों की सूची दी जाती है।",
+      "sentence": [
+        {
+          "sentence": "I need to create a daily schedule.",
+          "translation": "मुझे एक दैनिक कार्यसूची बनाने की जरूरत है।"
+        },
+        {
+          "sentence": "Stick to your schedule to stay productive.",
+          "translation": "उत्पादक बने रहने के लिए अपनी कार्यसूची का पालन करें।"
+        }
+      ]
+    },
+    {
+      "word": "productive",
+      "phoneticRespelling": "proh-DUK-tiv",
+      "translation": "उत्पादक",
+      "definition": "Achieving or producing a significant amount of results.",
+      "definationTranslation": "काफी मात्रा में परिणाम प्राप्त करना या उत्पादित करना।",
+      "sentence": [
+        {
+          "sentence": "Morning hours are when I'm most productive.",
+          "translation": "सुबह के घंटे वे हैं जब मैं सबसे अधिक उत्पादक होता हूं।"
+        },
+        {
+          "sentence": "Good time management makes you more productive.",
+          "translation": "अच्छा समय प्रबंधन आपको अधिक उत्पादक बनाता है।"
+        }
+      ]
+    },
+    {
+      "word": "distraction",
+      "phoneticRespelling": "dih-STRAK-shun",
+      "translation": "व्याकुलता",
+      "definition": "A thing that prevents someone from giving full attention to something else.",
+      "definationTranslation": "ऐसी चीज जो किसी को किसी अन्य चीज पर पूरा ध्यान देने से रोकती है।",
+      "sentence": [
+        {
+          "sentence": "Social media is a major distraction at work.",
+          "translation": "सोशल मीडिया काम पर एक प्रमुख व्याकुलता है।"
+        },
+        {
+          "sentence": "Eliminate distractions to focus better.",
+          "translation": "बेहतर फोकस करने के लिए व्याकुलताओं को समाप्त करें।"
+        }
+      ]
+    },
+    {
+      "word": "task",
+      "phoneticRespelling": "task",
+      "translation": "कार्य",
+      "definition": "A piece of work to be done or undertaken.",
+      "definationTranslation": "किया या शुरू किया जाने वाला कार्य का एक टुकड़ा।",
+      "sentence": [
+        {
+          "sentence": "Break the project into smaller tasks.",
+          "translation": "प्रोजेक्ट को छोटे-छोटे कार्यों में तोड़ें।"
+        },
+        {
+          "sentence": "Complete one task before starting another.",
+          "translation": "दूसरा शुरू करने से पहले एक कार्य पूरा करें।"
+        }
+      ]
+    },
+    {
+      "word": "allocate",
+      "phoneticRespelling": "AL-uh-kayt",
+      "translation": "आवंटित करना",
+      "definition": "To distribute resources or duties for a particular purpose.",
+      "definationTranslation": "संसाधनों या कर्तव्यों को किसी विशेष उद्देश्य के लिए वितरित करना।",
+      "sentence": [
+        {
+          "sentence": "Allocate time for breaks in your day.",
+          "translation": "अपने दिन में ब्रेक के लिए समय आवंटित करें।"
+        },
+        {
+          "sentence": "Managers allocate tasks to team members.",
+          "translation": "मैनेजर टीम सदस्यों को कार्य आवंटित करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "efficient",
+      "phoneticRespelling": "ih-FISH-unt",
+      "translation": "कुशल",
+      "definition": "Achieving maximum productivity with minimum wasted effort or expense.",
+      "definationTranslation": "न्यूनतम बर्बाद प्रयास या खर्च के साथ अधिकतम उत्पादकता प्राप्त करना।",
+      "sentence": [
+        {
+          "sentence": "Use efficient methods to save time.",
+          "translation": "समय बचाने के लिए कुशल तरीकों का उपयोग करें।"
+        },
+        {
+          "sentence": "She is an efficient worker who meets all deadlines.",
+          "translation": "वह एक कुशल कार्यकर्ता है जो सभी समय सीमाओं को पूरा करती है।"
+        }
+      ]
+    },
+    {
+      "word": "postpone",
+      "phoneticRespelling": "pohst-POHN",
+      "translation": "स्थगित करना",
+      "definition": "To put off to a later time; delay.",
+      "definationTranslation": "बाद के समय के लिए टाल देना; विलंब करना।",
+      "sentence": [
+        {
+          "sentence": "We had to postpone the meeting until tomorrow.",
+          "translation": "हमें बैठक को कल तक स्थगित करना पड़ा।"
+        },
+        {
+          "sentence": "Avoid postponing important decisions.",
+          "translation": "महत्वपूर्ण निर्णयों को स्थगित करने से बचें।"
+        }
+      ]
+    },
+    {
+      "word": "multitask",
+      "phoneticRespelling": "MUL-tee-task",
+      "translation": "बहु-कार्य करना",
+      "definition": "To handle more than one task at the same time.",
+      "definationTranslation": "एक ही समय में एक से अधिक कार्य संभालना।",
+      "sentence": [
+        {
+          "sentence": "I can multitask while listening to music.",
+          "translation": "मैं संगीत सुनते हुए बहु-कार्य कर सकता हूं।"
+        },
+        {
+          "sentence": "Multitasking often reduces efficiency.",
+          "translation": "बहु-कार्य अक्सर दक्षता को कम करता है।"
+        }
+      ]
+    },
+    {
+      "word": "delegate",
+      "phoneticRespelling": "DEL-uh-gayt",
+      "translation": "प्रतिनिधि बनाना",
+      "definition": "To assign responsibility or authority to someone else.",
+      "definationTranslation": "जिम्मेदारी या अधिकार को किसी अन्य को सौंपना।",
+      "sentence": [
+        {
+          "sentence": "Delegate tasks to free up your time.",
+          "translation": "अपना समय मुक्त करने के लिए कार्यों को प्रतिनिधि बनाएं।"
+        },
+        {
+          "sentence": "Good leaders know how to delegate effectively.",
+          "translation": "अच्छे नेता प्रभावी ढंग से प्रतिनिधि बनाने का तरीका जानते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "focus",
+      "phoneticRespelling": "FOH-kus",
+      "translation": "फोकस",
+      "definition": "To direct one's attention or efforts towards something.",
+      "definationTranslation": "अपना ध्यान या प्रयास किसी चीज की ओर निर्देशित करना।",
+      "sentence": [
+        {
+          "sentence": "Focus on one goal at a time.",
+          "translation": "एक समय में एक लक्ष्य पर फोकस करें।"
+        },
+        {
+          "sentence": "Lose focus and you'll waste time.",
+          "translation": "फोकस खो दें और आप समय बर्बाद करेंगे।"
+        }
+      ]
+    },
+    {
+      "word": "routine",
+      "phoneticRespelling": "roo-TEEN",
+      "translation": "दैनिक दिनचर्या",
+      "definition": "A regular procedure or sequence of actions followed habitually.",
+      "definationTranslation": "आदतन अनुसरण की जाने वाली नियमित प्रक्रिया या कार्यों का क्रम।",
+      "sentence": [
+        {
+          "sentence": "Establish a morning routine for better productivity.",
+          "translation": "बेहतर उत्पादकता के लिए सुबह की दिनचर्या स्थापित करें।"
+        },
+        {
+          "sentence": "Stick to your daily routine.",
+          "translation": "अपनी दैनिक दिनचर्या का पालन करें।"
+        }
+      ]
+    },
+    {
+      "word": "urgency",
+      "phoneticRespelling": "UR-jun-see",
+      "translation": "तात्कालिकता",
+      "definition": "The quality of requiring immediate action or attention.",
+      "definationTranslation": "तत्काल कार्रवाई या ध्यान की आवश्यकता वाली गुणवत्ता।",
+      "sentence": [
+        {
+          "sentence": "Handle tasks with high urgency first.",
+          "translation": "उच्च तात्कालिकता वाले कार्य पहले संभालें।"
+        },
+        {
+          "sentence": "Assess the urgency of each email.",
+          "translation": "प्रत्येक ईमेल की तात्कालिकता का आकलन करें।"
+        }
+      ]
+    },
+    {
+      "word": "planner",
+      "phoneticRespelling": "PLAN-er",
+      "translation": "योजनाकार",
+      "definition": "A person or tool that helps organize tasks and time.",
+      "definationTranslation": "कार्यों और समय को व्यवस्थित करने में मदद करने वाला व्यक्ति या उपकरण।",
+      "sentence": [
+        {
+          "sentence": "Use a digital planner to track deadlines.",
+          "translation": "समय सीमाओं को ट्रैक करने के लिए डिजिटल प्लानर का उपयोग करें।"
+        },
+        {
+          "sentence": "I'm not a good planner without reminders.",
+          "translation": "रीमाइंडर के बिना मैं अच्छा योजनाकार नहीं हूं।"
+        }
+      ]
+    },
+    {
+      "word": "interrupt",
+      "phoneticRespelling": "in-ter-RUPT",
+      "translation": "बाधित करना",
+      "definition": "To stop the continuous progress of an activity or process.",
+      "definationTranslation": "किसी गतिविधि या प्रक्रिया की निरंतर प्रगति को रोकना।",
+      "sentence": [
+        {
+          "sentence": "Constant calls interrupt my work flow.",
+          "translation": "निरंतर कॉल मेरे कार्य प्रवाह को बाधित करते हैं।"
+        },
+        {
+          "sentence": "Minimize interruptions during deep work.",
+          "translation": "गहन कार्य के दौरान बाधाओं को कम करें।"
+        }
+      ]
+    },
+    {
+      "word": "goal",
+      "phoneticRespelling": "gohl",
+      "translation": "लक्ष्य",
+      "definition": "An aim or desired result.",
+      "definationTranslation": "एक उद्देश्य या वांछित परिणाम।",
+      "sentence": [
+        {
+          "sentence": "Set clear goals for the week.",
+          "translation": "सप्ताह के लिए स्पष्ट लक्ष्य निर्धारित करें।"
+        },
+        {
+          "sentence": "Achieving goals requires good time management.",
+          "translation": "लक्ष्यों को प्राप्त करने के लिए अच्छे समय प्रबंधन की आवश्यकता है।"
+        }
+      ]
+    },
+    {
+      "word": "balance",
+      "phoneticRespelling": "BAL-uhns",
+      "translation": "संतुलन",
+      "definition": "A state in which work and personal life are properly proportioned.",
+      "definationTranslation": "ऐसी स्थिति जिसमें कार्य और व्यक्तिगत जीवन उचित रूप से संतुलित हों।",
+      "sentence": [
+        {
+          "sentence": "Work-life balance is key to happiness.",
+          "translation": "कार्य-जीवन संतुलन खुशी की कुंजी है।"
+        },
+        {
+          "sentence": "Poor time management disrupts balance.",
+          "translation": "खराब समय प्रबंधन संतुलन को बाधित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "timely",
+      "phoneticRespelling": "TYM-lee",
+      "translation": "समय पर",
+      "definition": "Done or occurring at a favorable or useful time.",
+      "definationTranslation": "उचित या उपयोगी समय पर किया गया या होने वाला।",
+      "sentence": [
+        {
+          "sentence": "Submit your report in a timely manner.",
+          "translation": "अपनी रिपोर्ट समय पर जमा करें।"
+        },
+        {
+          "sentence": "Timely decisions prevent problems.",
+          "translation": "समय पर निर्णय समस्याओं को रोकते हैं।"
+        }
+      ]
+    }
+  ]
 }

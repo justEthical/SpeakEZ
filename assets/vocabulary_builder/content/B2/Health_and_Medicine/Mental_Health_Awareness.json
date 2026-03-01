@@ -1,4 +1,345 @@
 {
   "topic": "Mental Health Awareness",
-  "words": []
+  "words": [
+    {
+      "word": "Anxiety",
+      "phoneticRespelling": "ANG-zee-uh-tee",
+      "translation": "चिंता",
+      "definition": "A feeling of worry, nervousness, or fear about the future or about things that may happen",
+      "definationTranslation": "भविष्य या घटनाओं के बारे में चिंता, चिंता या डर की भावना",
+      "sentence": [
+        {
+          "sentence": "I have been experiencing anxiety lately.",
+          "translation": "मुझे हाल ही में चिंता का अनुभव हो रहा है।"
+        },
+        {
+          "sentence": "The doctor prescribed medication to help reduce anxiety.",
+          "translation": "डॉक्टर ने चिंता को कम करने में मदद करने के लिए दवा लिखी।"
+        }
+      ]
+    },
+    {
+      "word": "Depression",
+      "phoneticRespelling": "deh-PREH-shuhn",
+      "translation": "अवसाद",
+      "definition": "A mental health disorder characterized by feelings of sadness, hopelessness, and a lack of interest in activities",
+      "definationTranslation": "एक मानसिक स्वास्थ्य विकार जो उदासी, निराशा और गतिविधियों में रुचि की कमी की भावनाओं से चिह्नित होता है",
+      "sentence": [
+        {
+          "sentence": "Depression is a treatable condition.",
+          "translation": "अवसाद एक उपचार योग्य स्थिति है।"
+        },
+        {
+          "sentence": "If you are experiencing depression, seek help immediately.",
+          "translation": "यदि आप अवसाद का अनुभव कर रहे हैं, तो तुरंत मदद लें।"
+        }
+      ]
+    },
+    {
+      "word": "Psychotherapy",
+      "phoneticRespelling": "sy-koh-THAIR-uh-pee",
+      "translation": "मानसिक चिकित्सा",
+      "definition": "A type of therapy that involves talking to a trained therapist to help manage mental health conditions",
+      "definationTranslation": "एक प्रकार की चिकित्सा जिसमें मानसिक स्वास्थ्य स्थितियों को प्रबंधित करने में मदद करने के लिए एक प्रशिक्षित चिकित्सक से बात करना शामिल है",
+      "sentence": [
+        {
+          "sentence": "Psychotherapy can help individuals cope with their emotions.",
+          "translation": "मानसिक चिकित्सा व्यक्तियों को उनकी भावनाओं से निपटने में मदद कर सकती है।"
+        },
+        {
+          "sentence": "The therapist used psychotherapy to help the patient overcome their fears.",
+          "translation": "चिकित्सक ने रोगी को अपने डर पर काबू पाने में मदद करने के लिए मानसिक चिकित्सा का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Stress",
+      "phoneticRespelling": "STRESS",
+      "translation": "तनाव",
+      "definition": "A state of mental or emotional tension or strain",
+      "definationTranslation": "मानसिक या भावनात्मक तनाव या दबाव की स्थिति",
+      "sentence": [
+        {
+          "sentence": "I am feeling stressed about the upcoming exam.",
+          "translation": "मैं आगामी परीक्षा के बारे में तनाव महसूस कर रहा हूं।"
+        },
+        {
+          "sentence": "Exercise can help reduce stress and improve mood.",
+          "translation": "व्यायाम तनाव को कम करने और मूड में सुधार करने में मदद कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Self-care",
+      "phoneticRespelling": "SELF-KAYR",
+      "translation": "आत्म-देखभाल",
+      "definition": "The practice of taking care of one's physical, emotional, and mental health",
+      "definationTranslation": "शारीरिक, भावनात्मक और मानसिक स्वास्थ्य की देखभाल करने का अभ्यास",
+      "sentence": [
+        {
+          "sentence": "Self-care is essential for maintaining good mental health.",
+          "translation": "आत्म-देखभाल अच्छे मानसिक स्वास्थ्य को बनाए रखने के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "Engaging in self-care activities can help reduce stress and anxiety.",
+          "translation": "आत्म-देखभाल गतिविधियों में भाग लेने से तनाव और चिंता कम हो सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Mindfulness",
+      "phoneticRespelling": "MAYN-dfuhl-nis",
+      "translation": "समता",
+      "definition": "The practice of being present and fully engaged in the current moment",
+      "definationTranslation": "वर्तमान क्षण में उपस्थित और पूरी तरह से शामिल होने का अभ्यास",
+      "sentence": [
+        {
+          "sentence": "Mindfulness can help reduce stress and improve focus.",
+          "translation": "समता तनाव को कम करने और फोकस में सुधार करने में मदद कर सकती है।"
+        },
+        {
+          "sentence": "The mindfulness exercise helped me stay calm and focused.",
+          "translation": "समता अभ्यास ने मुझे शांत और केंद्रित रहने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Resilience",
+      "phoneticRespelling": "rih-ZIL-yuhns",
+      "translation": "सहनशीलता",
+      "definition": "The ability to withstand or recover from difficult situations or challenges",
+      "definationTranslation": "कठिन स्थितियों या चुनौतियों से निपटने या पुनर्प्राप्त करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "Developing resilience can help individuals cope with stressful situations.",
+          "translation": "सहनशीलता विकसित करने से व्यक्तियों को तनावपूर्ण स्थितियों से निपटने में मदद मिल सकती है।"
+        },
+        {
+          "sentence": "The team's resilience helped them overcome the obstacles and achieve their goal.",
+          "translation": "टीम की सहनशीलता ने उन्हें बाधाओं पर काबू पाने और अपने लक्ष्य को प्राप्त करने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Trauma",
+      "phoneticRespelling": "TROH-muh",
+      "translation": "संघात",
+      "definition": "A deeply distressing or disturbing experience",
+      "definationTranslation": "एक अत्यधिक परेशान या परेशान करने वाला अनुभव",
+      "sentence": [
+        {
+          "sentence": "The patient had experienced trauma in their childhood.",
+          "translation": "रोगी ने अपने बचपन में संघात का अनुभव किया था।"
+        },
+        {
+          "sentence": "The therapist helped the client process their trauma and heal.",
+          "translation": "चिकित्सक ने ग्राहक को उनके संघात को संसाधित करने और ठीक होने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Coping",
+      "phoneticRespelling": "KOH-ping",
+      "translation": "सामना करना",
+      "definition": "The ability to deal with or manage difficult situations or emotions",
+      "definationTranslation": "कठिन स्थितियों या भावनाओं से निपटने या प्रबंधित करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "Healthy coping mechanisms can help individuals manage stress.",
+          "translation": "स्वस्थ सामना तंत्र व्यक्तियों को तनाव को प्रबंधित करने में मदद कर सकते हैं।"
+        },
+        {
+          "sentence": "The support group helped me develop effective coping strategies.",
+          "translation": "समर्थन समूह ने मुझे प्रभावी सामना रणनीतियों को विकसित करने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Empathy",
+      "phoneticRespelling": "EM-puh-thee",
+      "translation": "सहानुभूति",
+      "definition": "The ability to understand and share the feelings of another person",
+      "definationTranslation": "किसी अन्य व्यक्ति की भावनाओं को समझने और उन्हें साझा करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "Empathy is an important trait for a therapist to have.",
+          "translation": "सहानुभूति एक चिकित्सक के लिए एक महत्वपूर्ण गुण है।"
+        },
+        {
+          "sentence": "The counselor showed empathy towards the client and helped them feel understood.",
+          "translation": "परामर्शदाता ने ग्राहक के प्रति सहानुभूति दिखाई और उन्हें समझा हुआ महसूस कराया।"
+        }
+      ]
+    },
+    {
+      "word": "Neuroplasticity",
+      "phoneticRespelling": "noor-oh-plas-TIS-uh-tee",
+      "translation": "न्यूरोप्लास्टिसिटी",
+      "definition": "The brain's ability to change and adapt throughout life",
+      "definationTranslation": "मस्तिष्क की परिवर्तन और अनुकूलन की क्षमता जीवन भर",
+      "sentence": [
+        {
+          "sentence": "Neuroplasticity allows the brain to reorganize itself in response to new experiences.",
+          "translation": "न्यूरोप्लास्टिसिटी मस्तिष्क को नई अनुभूतियों के प्रतिसाद में स्वयं को पुनर्गठित करने की अनुमति देती है।"
+        },
+        {
+          "sentence": "The concept of neuroplasticity has revolutionized our understanding of brain development.",
+          "translation": "न्यूरोप्लास्टिसिटी की अवधारणा ने मस्तिष्क विकास के हमारे समझ को क्रांतिकारी बना दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Mental",
+      "phoneticRespelling": "MEN-tuhl",
+      "translation": "मानसिक",
+      "definition": "Relating to the mind or intellect",
+      "definationTranslation": "मस्तिष्क या बुद्धि से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Mental health is just as important as physical health.",
+          "translation": "मानसिक स्वास्थ्य शारीरिक स्वास्थ्य जितना ही महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "The mental demands of the job were taking a toll on her well-being.",
+          "translation": "नौकरी की मानसिक मांगें उसके कल्याण पर असर डाल रही थीं।"
+        }
+      ]
+    },
+    {
+      "word": "Health",
+      "phoneticRespelling": "HELTH",
+      "translation": "स्वास्थ्य",
+      "definition": "A state of complete physical, mental, and emotional well-being",
+      "definationTranslation": "शारीरिक, मानसिक और भावनात्मक स्वास्थ्य की स्थिति",
+      "sentence": [
+        {
+          "sentence": "Good health is essential for a happy and productive life.",
+          "translation": "सुखी और उत्पादक जीवन के लिए अच्छा स्वास्थ्य आवश्यक है।"
+        },
+        {
+          "sentence": "The importance of health cannot be overstated.",
+          "translation": "स्वास्थ्य के महत्व को कम आंका नहीं जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Wellness",
+      "phoneticRespelling": "WEL-nis",
+      "translation": "सुकून",
+      "definition": "A state of being healthy and happy",
+      "definationTranslation": "स्वस्थ और खुश होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "Wellness is a holistic approach to health that includes physical, mental, and emotional well-being.",
+          "translation": "सुकून स्वास्थ्य का एक संपूर्ण दृष्टिकोण है जिसमें शारीरिक, मानसिक और भावनात्मक स्वास्थ्य शामिल है।"
+        },
+        {
+          "sentence": "The wellness program helped employees manage stress and improve their overall health.",
+          "translation": "सुकून कार्यक्रम ने कर्मचारियों को तनाव को प्रबंधित करने और अपने सामान्य स्वास्थ्य में सुधार करने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Self-esteem",
+      "phoneticRespelling": "SELF-eh-STEEM",
+      "translation": "आत्म-सम्मान",
+      "definition": "A person's overall sense of worth or value",
+      "definationTranslation": "एक व्यक्ति की समग्र मूल्य या आत्म-सम्मान की भावना",
+      "sentence": [
+        {
+          "sentence": "Low self-esteem can lead to mental health issues.",
+          "translation": "निम्न आत्म-सम्मान मानसिक स्वास्थ्य समस्याओं का कारण बन सकता है।"
+        },
+        {
+          "sentence": "The therapy helped her build her self-esteem and confidence.",
+          "translation": "चिकित्सा ने उसे अपने आत्म-सम्मान और आत्मविश्वास को बनाने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Confidence",
+      "phoneticRespelling": "KON-fi-duhns",
+      "translation": "आत्मविश्वास",
+      "definition": "A feeling of faith in one's abilities or judgments",
+      "definationTranslation": "अपनी क्षमताओं या निर्णयों में विश्वास की भावना",
+      "sentence": [
+        {
+          "sentence": "Confidence is key to success in any field.",
+          "translation": "आत्मविश्वास किसी भी क्षेत्र में सफलता की कुंजी है।"
+        },
+        {
+          "sentence": "The coach helped the player build confidence in their abilities.",
+          "translation": "कोच ने खिलाड़ी को अपनी क्षमताओं में आत्मविश्वास बनाने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Support",
+      "phoneticRespelling": "suh-PORT",
+      "translation": "सहारा",
+      "definition": "The act of giving assistance or help to someone",
+      "definationTranslation": "किसी को सहायता या मदद देने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The support group provided a safe space for people to share their experiences.",
+          "translation": "समर्थन समूह ने लोगों को अपने अनुभव साझा करने के लिए एक सुरक्षित स्थान प्रदान किया।"
+        },
+        {
+          "sentence": "The company offers support to employees who are struggling with mental health issues.",
+          "translation": "कंपनी मानसिक स्वास्थ्य समस्याओं से जूझ रहे कर्मचारियों को सहारा देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Recovery",
+      "phoneticRespelling": "rih-KUH-vuh-ree",
+      "translation": "पुनर्प्राप्ति",
+      "definition": "The process of regaining health or strength after an illness or injury",
+      "definationTranslation": "बीमारी या चोट के बाद स्वास्थ्य या शक्ति पुनः प्राप्त करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The recovery process can be long and challenging.",
+          "translation": "पुनर्प्राप्ति प्रक्रिया लंबी और चुनौतीपूर्ण हो सकती है।"
+        },
+        {
+          "sentence": "The therapist helped the patient develop a recovery plan.",
+          "translation": "चिकित्सक ने रोगी को पुनर्प्राप्ति योजना विकसित करने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Therapist",
+      "phoneticRespelling": "THAIR-uh-pist",
+      "translation": "चिकित्सक",
+      "definition": "A person trained to help people with mental health issues",
+      "definationTranslation": "मानसिक स्वास्थ्य समस्याओं वाले लोगों की मदद करने के लिए प्रशिक्षित व्यक्ति",
+      "sentence": [
+        {
+          "sentence": "The therapist helped me work through my emotions.",
+          "translation": "चिकित्सक ने मुझे अपनी भावनाओं के माध्यम से काम करने में मदद की।"
+        },
+        {
+          "sentence": "The therapist offered guidance and support throughout the recovery process.",
+          "translation": "चिकित्सक ने पुनर्प्राप्ति प्रक्रिया के दौरान मार्गदर्शन और सहारा प्रदान किया।"
+        }
+      ]
+    },
+    {
+      "word": "Counselor",
+      "phoneticRespelling": "KOWN-suh-lur",
+      "translation": "परामर्शदाता",
+      "definition": "A person who provides guidance and support to individuals",
+      "definationTranslation": "एक व्यक्ति जो व्यक्तियों को मार्गदर्शन और सहारा प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "The counselor helped me explore my career options.",
+          "translation": "परामर्शदाता ने मुझे अपने करियर विकल्पों का अन्वेषण करने में मदद की।"
+        },
+        {
+          "sentence": "The counselor provided a safe and supportive environment for the client.",
+          "translation": "परामर्शदाता ने ग्राहक के लिए एक सुरक्षित और समर्थनकारी वातावरण प्रदान किया।"
+        }
+      ]
+    }
+  ]
 }

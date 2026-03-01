@@ -1,4 +1,345 @@
 {
   "topic": "Habit Formation",
-  "words": []
+  "words": [
+    {
+      "word": "habit",
+      "phoneticRespelling": "HAB-it",
+      "translation": "आदत",
+      "definition": "A regular tendency or practice.",
+      "definationTranslation": "नियमित प्रवृत्ति या अभ्यास।",
+      "sentence": [
+        {
+          "sentence": "Smoking is a bad habit that harms health.",
+          "translation": "धूम्रपान स्वास्थ्य को नुकसान पहुँचाने वाली बुरी आदत है।"
+        },
+        {
+          "sentence": "She has a habit of reading before bed.",
+          "translation": "उसकी सोने से पहले पढ़ने की आदत है।"
+        }
+      ]
+    },
+    {
+      "word": "routine",
+      "phoneticRespelling": "roo-TEEN",
+      "translation": "दैनिक क्रम",
+      "definition": "A sequence of actions regularly followed.",
+      "definationTranslation": "नियमित रूप से की जाने वाली कार्यों की शृंखला।",
+      "sentence": [
+        {
+          "sentence": "A morning routine helps start the day well.",
+          "translation": "सुबह का दैनिक क्रम दिन की अच्छी शुरुआत करता है।"
+        },
+        {
+          "sentence": "He follows the same routine every workday.",
+          "translation": "वह हर कार्यदिवस एक ही दैनिक क्रम का पालन करता है।"
+        }
+      ]
+    },
+    {
+      "word": "consistency",
+      "phoneticRespelling": "kon-SIS-tun-see",
+      "translation": "निरंतरता",
+      "definition": "Steadfast adherence to the same principles.",
+      "definationTranslation": "एक ही सिद्धांतों का दृढ़ता से पालन।",
+      "sentence": [
+        {
+          "sentence": "Consistency is key to building habits.",
+          "translation": "निरंतरता आदतें बनाने की कुंजी है।"
+        },
+        {
+          "sentence": "Her consistency in practice led to success.",
+          "translation": "उसकी अभ्यास में निरंतरता ने सफलता दिलाई।"
+        }
+      ]
+    },
+    {
+      "word": "discipline",
+      "phoneticRespelling": "DIS-uh-plin",
+      "translation": "आत्म-अनुशासन",
+      "definition": "Training to act in accordance with rules.",
+      "definationTranslation": "नियमों के अनुसार कार्य करने का प्रशिक्षण।",
+      "sentence": [
+        {
+          "sentence": "Self-discipline is essential for habit formation.",
+          "translation": "आत्म-अनुशासन आदत निर्माण के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "He lacks the discipline to stick to diets.",
+          "translation": "उसे आहार पर टिके रहने का अनुशासन की कमी है।"
+        }
+      ]
+    },
+    {
+      "word": "motivation",
+      "phoneticRespelling": "moh-tuh-VAY-shun",
+      "translation": "प्रेरणा",
+      "definition": "The reason or reasons one has for acting.",
+      "definationTranslation": "कार्य करने का कारण या कारण।",
+      "sentence": [
+        {
+          "sentence": "Strong motivation helps maintain new habits.",
+          "translation": "मजबूत प्रेरणा नई आदतों को बनाए रखने में मदद करती है।"
+        },
+        {
+          "sentence": "Lack of motivation derails habit formation.",
+          "translation": "प्रेरणा की कमी आदत निर्माण को पटरी से उतार देती है।"
+        }
+      ]
+    },
+    {
+      "word": "trigger",
+      "phoneticRespelling": "TRIG-er",
+      "translation": "उत्तेजक",
+      "definition": "A stimulus that initiates a response.",
+      "definationTranslation": "प्रतिक्रिया शुरू करने वाला उत्तेजना।",
+      "sentence": [
+        {
+          "sentence": "Seeing coffee is a trigger for my habit.",
+          "translation": "कॉफी देखना मेरी आदत का उत्तेजक है।"
+        },
+        {
+          "sentence": "Use positive triggers to form good habits.",
+          "translation": "अच्छी आदतें बनाने के लिए सकारात्मक उत्तेजकों का उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "cue",
+      "phoneticRespelling": "KYOO",
+      "translation": "संकेत",
+      "definition": "A signal prompting a particular action.",
+      "definationTranslation": "किसी विशेष क्रिया को प्रेरित करने वाला संकेत।",
+      "sentence": [
+        {
+          "sentence": "The alarm is my cue to exercise.",
+          "translation": "अलार्म व्यायाम करने का मेरा संकेत है।"
+        },
+        {
+          "sentence": "Visual cues reinforce habit loops.",
+          "translation": "दृश्य संकेत आदत चक्र को मजबूत करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "reward",
+      "phoneticRespelling": "rih-WARD",
+      "translation": "पुरस्कार",
+      "definition": "Something given in return for good behavior.",
+      "definationTranslation": "अच्छे व्यवहार के बदले में दिया जाने वाला कुछ।",
+      "sentence": [
+        {
+          "sentence": "A treat serves as a reward after workouts.",
+          "translation": "व्यायाम के बाद ट्रीट पुरस्कार के रूप में काम करती है।"
+        },
+        {
+          "sentence": "Rewards make habits more appealing.",
+          "translation": "पुरस्कार आदतों को अधिक आकर्षक बनाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "relapse",
+      "phoneticRespelling": "ree-LAPS",
+      "translation": "पुनरावृत्ति",
+      "definition": "A return to a previous bad habit.",
+      "definationTranslation": "पिछली बुरी आदत में वापसी।",
+      "sentence": [
+        {
+          "sentence": "He experienced a relapse into smoking.",
+          "translation": "उसने धूम्रपान में पुनरावृत्ति का अनुभव किया।"
+        },
+        {
+          "sentence": "Avoid relapse by tracking progress.",
+          "translation": "प्रगति ट्रैक करके पुनरावृत्ति से बचें।"
+        }
+      ]
+    },
+    {
+      "word": "keystone",
+      "phoneticRespelling": "KEES-tone",
+      "translation": "मुख्य पत्थर",
+      "definition": "A habit that triggers many others.",
+      "definationTranslation": "एक ऐसी आदत जो कई अन्य को ट्रिगर करती है।",
+      "sentence": [
+        {
+          "sentence": "Exercise is a keystone habit for health.",
+          "translation": "व्यायाम स्वास्थ्य के लिए मुख्य पत्थर आदत है।"
+        },
+        {
+          "sentence": "Keystone habits transform daily routines.",
+          "translation": "मुख्य पत्थर आदतें दैनिक क्रम को बदल देती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "momentum",
+      "phoneticRespelling": "moh-MEN-tum",
+      "translation": "गति",
+      "definition": "The force that keeps an activity going.",
+      "definationTranslation": "गतिविधि को जारी रखने वाली शक्ति।",
+      "sentence": [
+        {
+          "sentence": "Build momentum with small daily wins.",
+          "translation": "छोटी दैनिक जीतों से गति बनाएं।"
+        },
+        {
+          "sentence": "Losing momentum stalls habit formation.",
+          "translation": "गति खोने से आदत निर्माण रुक जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "persistence",
+      "phoneticRespelling": "per-SIS-tuns",
+      "translation": "दृढ़ता",
+      "definition": "Continued effort despite difficulties.",
+      "definationTranslation": "कठिनाइयों के बावजूद निरंतर प्रयास।",
+      "sentence": [
+        {
+          "sentence": "Persistence turns intentions into habits.",
+          "translation": "दृढ़ता इरादों को आदतों में बदल देती है।"
+        },
+        {
+          "sentence": "She showed great persistence in learning.",
+          "translation": "उसने सीखने में बड़ी दृढ़ता दिखाई।"
+        }
+      ]
+    },
+    {
+      "word": "incremental",
+      "phoneticRespelling": "in-kruh-MEN-tul",
+      "translation": "क्रमिक",
+      "definition": "Increasing gradually by small amounts.",
+      "definationTranslation": "छोटी मात्राओं से धीरे-धीरे बढ़ने वाला।",
+      "sentence": [
+        {
+          "sentence": "Incremental changes lead to lasting habits.",
+          "translation": "क्रमिक परिवर्तन स्थायी आदतों की ओर ले जाते हैं।"
+        },
+        {
+          "sentence": "Use incremental steps for big goals.",
+          "translation": "बड़े लक्ष्यों के लिए क्रमिक चरणों का उपयोग करें।"
+        }
+      ]
+    },
+    {
+      "word": "reinforce",
+      "phoneticRespelling": "ree-in-FORS",
+      "translation": "मजबूत करना",
+      "definition": "Strengthen or support an action.",
+      "definationTranslation": "किसी क्रिया को मजबूत या समर्थन करना।",
+      "sentence": [
+        {
+          "sentence": "Positive feedback reinforces good habits.",
+          "translation": "सकारात्मक प्रतिक्रिया अच्छी आदतों को मजबूत करती है।"
+        },
+        {
+          "sentence": "Repeat actions to reinforce habits.",
+          "translation": "आदतों को मजबूत करने के लिए क्रियाओं को दोहराएं।"
+        }
+      ]
+    },
+    {
+      "word": "plateau",
+      "phoneticRespelling": "pla-TOH",
+      "translation": "स्थिर अवस्था",
+      "definition": "A period of little or no progress.",
+      "definationTranslation": "थोड़ी या कोई प्रगति न होने की अवधि।",
+      "sentence": [
+        {
+          "sentence": "Hitting a plateau tests habit strength.",
+          "translation": "स्थिर अवस्था में पहुँचना आदत की ताकत की परीक्षा लेता है।"
+        },
+        {
+          "sentence": "Break through the plateau with variety.",
+          "translation": "विविधता से स्थिर अवस्था को तोड़ें।"
+        }
+      ]
+    },
+    {
+      "word": "accountability",
+      "phoneticRespelling": "uh-koun-tuh-BIL-uh-tee",
+      "translation": "जवाबदेही",
+      "definition": "Responsibility to someone for actions.",
+      "definationTranslation": "कार्यों के लिए किसी के प्रति जिम्मेदारी।",
+      "sentence": [
+        {
+          "sentence": "Accountability partners boost habit success.",
+          "translation": "जवाबदेही साझेदार आदत सफलता बढ़ाते हैं।"
+        },
+        {
+          "sentence": "Share goals for greater accountability.",
+          "translation": "अधिक जवाबदेही के लिए लक्ष्य साझा करें।"
+        }
+      ]
+    },
+    {
+      "word": "track",
+      "phoneticRespelling": "TRAK",
+      "translation": "ट्रैक करना",
+      "definition": "Monitor progress over time.",
+      "definationTranslation": "समय के साथ प्रगति की निगरानी करना।",
+      "sentence": [
+        {
+          "sentence": "Track your habits in a journal.",
+          "translation": "अपनी आदतों को जर्नल में ट्रैक करें।"
+        },
+        {
+          "sentence": "Apps help track daily routines.",
+          "translation": "ऐप्स दैनिक क्रम को ट्रैक करने में मदद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "commitment",
+      "phoneticRespelling": "kuh-MIT-munt",
+      "translation": "प्रतिबद्धता",
+      "definition": "A pledge to do something.",
+      "definationTranslation": "कुछ करने का वचन।",
+      "sentence": [
+        {
+          "sentence": "Make a firm commitment to change.",
+          "translation": "परिवर्तन के लिए दृढ़ प्रतिबद्धता करें।"
+        },
+        {
+          "sentence": "Commitment sustains long-term habits.",
+          "translation": "प्रतिबद्धता दीर्घकालिक आदतों को बनाए रखती है।"
+        }
+      ]
+    },
+    {
+      "word": "behavior",
+      "phoneticRespelling": "bih-HAYV-yer",
+      "translation": "व्यवहार",
+      "definition": "The way one acts or conducts oneself.",
+      "definationTranslation": "कार्य करने या आचरण करने का तरीका।",
+      "sentence": [
+        {
+          "sentence": "Habits shape daily behavior patterns.",
+          "translation": "आदतें दैनिक व्यवहार पैटर्न बनाती हैं।"
+        },
+        {
+          "sentence": "Change behavior through small habits.",
+          "translation": "छोटी आदतों से व्यवहार बदलें।"
+        }
+      ]
+    },
+    {
+      "word": "sustain",
+      "phoneticRespelling": "suh-STAYN",
+      "translation": "बनाए रखना",
+      "definition": "Maintain over a period of time.",
+      "definationTranslation": "किसी अवधि तक बनाए रखना।",
+      "sentence": [
+        {
+          "sentence": "Sustain habits with regular reminders.",
+          "translation": "नियमित याददाश्त से आदतों को बनाए रखें।"
+        },
+        {
+          "sentence": "It's hard to sustain motivation alone.",
+          "translation": "अकेले प्रेरणा बनाए रखना कठिन है।"
+        }
+      ]
+    }
+  ]
 }

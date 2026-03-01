@@ -1,4 +1,345 @@
 {
   "topic": "Podcast Production",
-  "words": []
+  "words": [
+    {
+      "word": "microphone",
+      "phoneticRespelling": "MY-kruh-fone",
+      "translation": "माइक्रोफोन",
+      "definition": "A device used to capture sound, essential for recording voices in podcasts.",
+      "definationTranslation": "एक उपकरण जो ध्वनि को कैप्चर करने के लिए उपयोग किया जाता है, पॉडकास्ट में आवाज़ रिकॉर्ड करने के लिए आवश्यक।",
+      "sentence": [
+        {
+          "sentence": "She tested the microphone before starting the podcast.",
+          "translation": "उसने पॉडकास्ट शुरू करने से पहले माइक्रोफोन का परीक्षण किया।"
+        },
+        {
+          "sentence": "A good microphone improves audio quality significantly.",
+          "translation": "एक अच्छा माइक्रोफोन ऑडियो गुणवत्ता को काफी सुधारता है।"
+        }
+      ]
+    },
+    {
+      "word": "headphones",
+      "phoneticRespelling": "HED-fones",
+      "translation": "हेडफोन्स",
+      "definition": "Devices worn over the ears to listen to audio privately during recording or editing.",
+      "definationTranslation": "रिकॉर्डिंग या एडिटिंग के दौरान ऑडियो को निजी रूप से सुनने के लिए कानों पर पहने जाने वाले उपकरण।",
+      "sentence": [
+        {
+          "sentence": "He wore headphones to monitor the sound levels.",
+          "translation": "उसने ध्वनि स्तर की निगरानी के लिए हेडफोन्स पहने।"
+        },
+        {
+          "sentence": "Closed-back headphones prevent sound leakage.",
+          "translation": "क्लोज्ड-बैक हेडफोन्स ध्वनि रिसाव को रोकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "script",
+      "phoneticRespelling": "skript",
+      "translation": "स्क्रिप्ट",
+      "definition": "A written outline or full text prepared for a podcast episode.",
+      "definationTranslation": "पॉडकास्ट एपिसोड के लिए तैयार किया गया लिखित रूपरेखा या पूरा पाठ।",
+      "sentence": [
+        {
+          "sentence": "They finalized the script late last night.",
+          "translation": "उन्होंने स्क्रिप्ट कल रात देर से अंतिम रूप दिया।"
+        },
+        {
+          "sentence": "A clear script keeps the podcast on track.",
+          "translation": "एक स्पष्ट स्क्रिप्ट पॉडकास्ट को ट्रैक पर रखती है।"
+        }
+      ]
+    },
+    {
+      "word": "recording",
+      "phoneticRespelling": "ree-KOR-ding",
+      "translation": "रिकॉर्डिंग",
+      "definition": "The process of capturing audio for a podcast.",
+      "definationTranslation": "पॉडकास्ट के लिए ऑडियो कैप्चर करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The recording session lasted two hours.",
+          "translation": "रिकॉर्डिंग सत्र दो घंटे तक चला।"
+        },
+        {
+          "sentence": "We had to redo the recording due to noise.",
+          "translation": "शोर के कारण हमें रिकॉर्डिंग दोबारा करनी पड़ी।"
+        }
+      ]
+    },
+    {
+      "word": "editing",
+      "phoneticRespelling": "ED-i-ting",
+      "translation": "एडिटिंग",
+      "definition": "Modifying recorded audio by cutting, adding effects, or adjusting levels.",
+      "definationTranslation": "रिकॉर्ड किए गए ऑडियो को काटने, प्रभाव जोड़ने या स्तर समायोजित करके संशोधित करना।",
+      "sentence": [
+        {
+          "sentence": "Editing took longer than the actual recording.",
+          "translation": "एडिटिंग ने वास्तविक रिकॉर्डिंग से अधिक समय लिया।"
+        },
+        {
+          "sentence": "Skilled editing makes podcasts more engaging.",
+          "translation": "कुशल एडिटिंग पॉडकास्ट को अधिक आकर्षक बनाती है।"
+        }
+      ]
+    },
+    {
+      "word": "episode",
+      "phoneticRespelling": "EP-i-sohd",
+      "translation": "एपिसोड",
+      "definition": "A single installment of a podcast series.",
+      "definationTranslation": "पॉडकास्ट सीरीज़ का एकल किस्त।",
+      "sentence": [
+        {
+          "sentence": "This is our tenth episode on history.",
+          "translation": "यह हमारा इतिहास पर दसवां एपिसोड है।"
+        },
+        {
+          "sentence": "Fans eagerly await the next episode.",
+          "translation": "प्रशंसक अगले एपिसोड का बेसब्री से इंतजार करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "host",
+      "phoneticRespelling": "host",
+      "translation": "होस्ट",
+      "definition": "The person who leads and presents the podcast.",
+      "definationTranslation": "वह व्यक्ति जो पॉडकास्ट का नेतृत्व करता है और प्रस्तुत करता है।",
+      "sentence": [
+        {
+          "sentence": "The host interviewed a famous author.",
+          "translation": "होस्ट ने एक प्रसिद्ध लेखक का साक्षात्कार लिया।"
+        },
+        {
+          "sentence": "She is an excellent podcast host.",
+          "translation": "वह एक उत्कृष्ट पॉडकास्ट होस्ट है।"
+        }
+      ]
+    },
+    {
+      "word": "guest",
+      "phoneticRespelling": "gest",
+      "translation": "मेहमान",
+      "definition": "A person invited to appear on a podcast episode.",
+      "definationTranslation": "पॉडकास्ट एपिसोड पर प्रकट होने के लिए आमंत्रित व्यक्ति।",
+      "sentence": [
+        {
+          "sentence": "We have a special guest this week.",
+          "translation": "इस सप्ताह हमारे पास एक विशेष मेहमान है।"
+        },
+        {
+          "sentence": "The guest shared valuable insights.",
+          "translation": "मेहमान ने मूल्यवान अंतर्दृष्टि साझा की।"
+        }
+      ]
+    },
+    {
+      "word": "intro",
+      "phoneticRespelling": "IN-troh",
+      "translation": "इंट्रो",
+      "definition": "The opening segment of a podcast that introduces the topic.",
+      "definationTranslation": "पॉडकास्ट का उद्घाटन खंड जो विषय का परिचय देता है।",
+      "sentence": [
+        {
+          "sentence": "The intro music sets the tone.",
+          "translation": "इंट्रो संगीत स्वर सेट करता है।"
+        },
+        {
+          "sentence": "Keep the intro short and catchy.",
+          "translation": "इंट्रो को छोटा और आकर्षक रखें।"
+        }
+      ]
+    },
+    {
+      "word": "outro",
+      "phoneticRespelling": "OW-troh",
+      "translation": "आउट्रो",
+      "definition": "The closing segment of a podcast, often with calls to action.",
+      "definationTranslation": "पॉडकास्ट का समापन खंड, अक्सर कार्रवाई के आह्वान के साथ।",
+      "sentence": [
+        {
+          "sentence": "The outro thanks the listeners.",
+          "translation": "आउट्रो श्रोताओं का धन्यवाद करता है।"
+        },
+        {
+          "sentence": "Record the outro after the main content.",
+          "translation": "मुख्य सामग्री के बाद आउट्रो रिकॉर्ड करें।"
+        }
+      ]
+    },
+    {
+      "word": "audio",
+      "phoneticRespelling": "AW-dee-oh",
+      "translation": "ऑडियो",
+      "definition": "Sound content that forms the basis of podcasts.",
+      "definationTranslation": "ध्वनि सामग्री जो पॉडकास्ट का आधार बनाती है।",
+      "sentence": [
+        {
+          "sentence": "High-quality audio attracts more listeners.",
+          "translation": "उच्च गुणवत्ता वाला ऑडियो अधिक श्रोताओं को आकर्षित करता है।"
+        },
+        {
+          "sentence": "Export the audio in MP3 format.",
+          "translation": "ऑडियो को MP3 फॉर्मेट में निर्यात करें।"
+        }
+      ]
+    },
+    {
+      "word": "software",
+      "phoneticRespelling": "SAWF-twehr",
+      "translation": "सॉफ्टवेयर",
+      "definition": "Programs used for recording, editing, and producing podcasts.",
+      "definationTranslation": "रिकॉर्डिंग, एडिटिंग और पॉडकास्ट उत्पादन के लिए उपयोग किए जाने वाले प्रोग्राम।",
+      "sentence": [
+        {
+          "sentence": "Audacity is free podcast software.",
+          "translation": "ऑडैसिटी मुफ्त पॉडकास्ट सॉफ्टवेयर है।"
+        },
+        {
+          "sentence": "Update your editing software regularly.",
+          "translation": "अपने एडिटिंग सॉफ्टवेयर को नियमित रूप से अपडेट करें।"
+        }
+      ]
+    },
+    {
+      "word": "soundboard",
+      "phoneticRespelling": "SOWND-bord",
+      "translation": "साउंडबोर्ड",
+      "definition": "A device or software for triggering sound effects during live recording.",
+      "definationTranslation": "लाइव रिकॉर्डिंग के दौरान ध्वनि प्रभाव ट्रिगर करने के लिए एक उपकरण या सॉफ्टवेयर।",
+      "sentence": [
+        {
+          "sentence": "Use the soundboard for funny effects.",
+          "translation": "मज़ेदार प्रभावों के लिए साउंडबोर्ड का उपयोग करें।"
+        },
+        {
+          "sentence": "The soundboard added humor to the show.",
+          "translation": "साउंडबोर्ड ने शो में हास्य जोड़ा।"
+        }
+      ]
+    },
+    {
+      "word": "mixer",
+      "phoneticRespelling": "MIKS-er",
+      "translation": "मिक्सर",
+      "definition": "Equipment that combines multiple audio sources into one output.",
+      "definationTranslation": "उपकरण जो कई ऑडियो स्रोतों को एक आउटपुट में जोड़ता है।",
+      "sentence": [
+        {
+          "sentence": "Connect the mics to the mixer.",
+          "translation": "माइक्स को मिक्सर से कनेक्ट करें।"
+        },
+        {
+          "sentence": "A digital mixer simplifies production.",
+          "translation": "एक डिजिटल मिक्सर उत्पादन को सरल बनाता है।"
+        }
+      ]
+    },
+    {
+      "word": "publish",
+      "phoneticRespelling": "PUB-lish",
+      "translation": "प्रकाशित करना",
+      "definition": "To release a podcast episode to platforms for public access.",
+      "definationTranslation": "पॉडकास्ट एपिसोड को सार्वजनिक पहुंच के लिए प्लेटफॉर्म पर जारी करना।",
+      "sentence": [
+        {
+          "sentence": "We publish new episodes every Friday.",
+          "translation": "हम हर शुक्रवार नए एपिसोड प्रकाशित करते हैं।"
+        },
+        {
+          "sentence": "Publish after final quality checks.",
+          "translation": "अंतिम गुणवत्ता जाँच के बाद प्रकाशित करें।"
+        }
+      ]
+    },
+    {
+      "word": "platform",
+      "phoneticRespelling": "PLAT-form",
+      "translation": "प्लेटफॉर्म",
+      "definition": "Online services like Spotify or Apple Podcasts where episodes are hosted.",
+      "definationTranslation": "ऑनलाइन सेवाएँ जैसे स्पॉटिफाई या एप्पल पॉडकास्ट जहाँ एपिसोड होस्ट किए जाते हैं।",
+      "sentence": [
+        {
+          "sentence": "Upload to multiple platforms.",
+          "translation": "कई प्लेटफॉर्म पर अपलोड करें।"
+        },
+        {
+          "sentence": "Spotify is a popular podcast platform.",
+          "translation": "स्पॉटिफाई एक लोकप्रिय पॉडकास्ट प्लेटफॉर्म है।"
+        }
+      ]
+    },
+    {
+      "word": "promotion",
+      "phoneticRespelling": "pruh-MOH-shun",
+      "translation": "प्रमोशन",
+      "definition": "Marketing efforts to attract listeners to a podcast.",
+      "definationTranslation": "पॉडकास्ट के लिए श्रोताओं को आकर्षित करने के विपणन प्रयास।",
+      "sentence": [
+        {
+          "sentence": "Social media is key for promotion.",
+          "translation": "सोशल मीडिया प्रमोशन के लिए महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "Effective promotion boosts downloads.",
+          "translation": "प्रभावी प्रमोशन डाउनलोड बढ़ाता है।"
+        }
+      ]
+    },
+    {
+      "word": "feedback",
+      "phoneticRespelling": "FEED-bak",
+      "translation": "फीडबैक",
+      "definition": "Listener comments or reviews that help improve the podcast.",
+      "definationTranslation": "श्रोता टिप्पणियाँ या समीक्षाएँ जो पॉडकास्ट को सुधारने में मदद करती हैं।",
+      "sentence": [
+        {
+          "sentence": "Positive feedback encourages the team.",
+          "translation": "सकारात्मक फीडबैक टीम को प्रोत्साहित करता है।"
+        },
+        {
+          "sentence": "We appreciate constructive feedback.",
+          "translation": "हम रचनात्मक फीडबैक की सराहना करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "jingle",
+      "phoneticRespelling": "JING-gul",
+      "translation": "जिंगल",
+      "definition": "A short, catchy tune used in podcast intros or transitions.",
+      "definationTranslation": "पॉडकास्ट इंट्रो या ट्रांज़िशन में उपयोग किया जाने वाला छोटा, आकर्षक धुन।",
+      "sentence": [
+        {
+          "sentence": "The jingle makes the podcast memorable.",
+          "translation": "जिंगल पॉडकास्ट को यादगार बनाता है।"
+        },
+        {
+          "sentence": "Create a custom jingle for branding.",
+          "translation": "ब्रांडिंग के लिए कस्टम जिंगल बनाएँ।"
+        }
+      ]
+    },
+    {
+      "word": "analytics",
+      "phoneticRespelling": "an-uh-LIT-iks",
+      "translation": "एनालिटिक्स",
+      "definition": "Data on listener numbers, locations, and engagement for podcasts.",
+      "definationTranslation": "श्रोता संख्या, स्थान और संलग्नता पर पॉडकास्ट के लिए डेटा।",
+      "sentence": [
+        {
+          "sentence": "Check analytics to see listener growth.",
+          "translation": "श्रोता वृद्धि देखने के लिए एनालिटिक्स जाँचें।"
+        },
+        {
+          "sentence": "Analytics guide future episode topics.",
+          "translation": "एनालिटिक्स भविष्य के एपिसोड विषयों का मार्गदर्शन करते हैं।"
+        }
+      ]
+    }
+  ]
 }

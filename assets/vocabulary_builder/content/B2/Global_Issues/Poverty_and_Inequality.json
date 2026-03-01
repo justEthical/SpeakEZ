@@ -1,4 +1,328 @@
 {
   "topic": "Poverty and Inequality",
-  "words": []
+  "words": [
+    {
+      "word": "poverty",
+      "phoneticRespelling": "POV-er-tee",
+      "translation": "गरीबी",
+      "definition": "the state of being extremely poor",
+      "definationTranslation": "बेहद गरीबी की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The government has launched a program to eradicate poverty.",
+          "translation": "सरकार ने गरीबी को समाप्त करने के लिए एक कार्यक्रम शुरू किया है।"
+        },
+        {
+          "sentence": "Poverty is a major issue in many developing countries.",
+          "translation": "गरीबी कई विकासशील देशों में एक प्रमुख मुद्दा है।"
+        }
+      ]
+    },
+    {
+      "word": "inequality",
+      "phoneticRespelling": "in-EH-kwol-i-tee",
+      "translation": "असमानता",
+      "definition": "a state of not being equal",
+      "definationTranslation": "बराबर न होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The country is struggling to reduce economic inequality.",
+          "translation": "देश आर्थिक असमानता को कम करने के लिए संघर्ष कर रहा है।"
+        },
+        {
+          "sentence": "Inequality can lead to social unrest and conflict.",
+          "translation": "असमानता सामाजिक अशांति और संघर्ष का कारण बन सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "disadvantaged",
+      "phoneticRespelling": "dis-ad-VAN-tijd",
+      "translation": "वंचित",
+      "definition": "having less advantage than others",
+      "definationTranslation": "दूसरों की तुलना में कम लाभ होना",
+      "sentence": [
+        {
+          "sentence": "The disadvantaged communities are often marginalized.",
+          "translation": "वंचित समुदाय अक्सर हाशिए पर डाल दिए जाते हैं।"
+        },
+        {
+          "sentence": "The government should provide support to disadvantaged groups.",
+          "translation": "सरकार को वंचित समूहों को सहायता प्रदान करनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "underprivileged",
+      "phoneticRespelling": "un-der-PRIH-vuh-lijd",
+      "translation": "विपन्न",
+      "definition": "not having the usual rights or advantages",
+      "definationTranslation": "सामान्य अधिकारों या लाभों का अभाव होना",
+      "sentence": [
+        {
+          "sentence": "The underprivileged children need access to quality education.",
+          "translation": "विपन्न बच्चों को गुणवत्तापूर्ण शिक्षा तक पहुंच की आवश्यकता है।"
+        },
+        {
+          "sentence": "The organization is working to empower underprivileged women.",
+          "translation": "संगठन विपन्न महिलाओं को सशक्त बनाने के लिए काम कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "vulnerable",
+      "phoneticRespelling": "VUL-nuh-ruh-buhl",
+      "translation": "कमजोर",
+      "definition": "capable of being hurt or damaged",
+      "definationTranslation": "नुकसान या चोट के लिए सक्षम होना",
+      "sentence": [
+        {
+          "sentence": "The vulnerable population is at risk of exploitation.",
+          "translation": "कमजोर आबादी शोषण के जोखिम में है।"
+        },
+        {
+          "sentence": "The government should protect the vulnerable sections of society.",
+          "translation": "सरकार को समाज के कमजोर वर्गों की रक्षा करनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "exploitation",
+      "phoneticRespelling": "eks-ploh-TAY-shun",
+      "translation": "शोषण",
+      "definition": "the act of using someone for personal gain",
+      "definationTranslation": "व्यक्तिगत लाभ के लिए किसी का उपयोग करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The company is accused of exploitation of its workers.",
+          "translation": "कंपनी पर अपने कर्मचारियों के शोषण का आरोप है।"
+        },
+        {
+          "sentence": "The government should act to prevent exploitation of vulnerable groups.",
+          "translation": "सरकार को कमजोर समूहों के शोषण को रोकने के लिए कार्रवाई करनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "discrimination",
+      "phoneticRespelling": "dis-kri-muh-NAY-shun",
+      "translation": "भेदभाव",
+      "definition": "the act of treating someone unfairly",
+      "definationTranslation": "किसी के साथ अन्यायपूर्ण व्यवहार करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The company has been accused of discrimination against minorities.",
+          "translation": "कंपनी पर अल्पसंख्यकों के खिलाफ भेदभाव का आरोप है।"
+        },
+        {
+          "sentence": "Discrimination can have serious consequences for individuals and society.",
+          "translation": "भेदभाव के व्यक्तियों और समाज के लिए गंभीर परिणाम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "inequity",
+      "phoneticRespelling": "in-EH-kwi-tee",
+      "translation": "अन्याय",
+      "definition": "a state of not being fair or just",
+      "definationTranslation": "न्याय या निष्पक्षता की स्थिति न होना",
+      "sentence": [
+        {
+          "sentence": "The inequity in the education system is a major concern.",
+          "translation": "शिक्षा प्रणाली में अन्याय एक प्रमुख चिंता का विषय है।"
+        },
+        {
+          "sentence": "The government should work to reduce inequity in healthcare.",
+          "translation": "सरकार को स्वास्थ्य सेवा में अन्याय को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "marginalized",
+      "phoneticRespelling": "MAR-jih-nuh-lahyzd",
+      "translation": "हाशिए पर",
+      "definition": "pushed to the edge of society",
+      "definationTranslation": "सOCIETY के किनारे पर धकेला गया",
+      "sentence": [
+        {
+          "sentence": "The marginalized communities are often ignored by policymakers.",
+          "translation": "हाशिए पर पड़े समुदायों को अक्सर नीति निर्माताओं द्वारा अनदेखा किया जाता है।"
+        },
+        {
+          "sentence": "The organization is working to empower marginalized groups.",
+          "translation": "संगठन हाशिए पर पड़े समूहों को सशक्त बनाने के लिए काम कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "oppression",
+      "phoneticRespelling": "uh-PREH-shun",
+      "translation": "दमन",
+      "definition": "the act of treating someone cruelly or unfairly",
+      "definationTranslation": "किसी के साथ क्रूरता से या अन्यायपूर्ण तरीके से व्यवहार करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The oppression of minority groups is a serious human rights issue.",
+          "translation": "अल्पसंख्यक समूहों का दमन एक गंभीर मानवाधिकार मुद्दा है।"
+        },
+        {
+          "sentence": "The government should work to prevent oppression of vulnerable groups.",
+          "translation": "सरकार को कमजोर समूहों के दमन को रोकने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "empowerment",
+      "phoneticRespelling": "em-POH-er-muhnt",
+      "translation": "सशक्तिकरण",
+      "definition": "the act of giving someone power or authority",
+      "definationTranslation": "किसी को शक्ति या अधिकार देने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The organization is working to promote empowerment of women.",
+          "translation": "संगठन महिलाओं के सशक्तिकरण को बढ़ावा देने के लिए काम कर रहा है।"
+        },
+        {
+          "sentence": "Empowerment of marginalized groups is essential for social justice.",
+          "translation": "हाशिए पर पड़े समूहों का सशक्तिकरण सामाजिक न्याय के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "socioeconomic",
+      "phoneticRespelling": "soh-see-uh-KAH-nom-ik",
+      "translation": "समाज-आर्थिक",
+      "definition": "related to the interaction between social and economic factors",
+      "definationTranslation": "सामाजिक और आर्थिक कारकों के बीच परस्पर क्रिया से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The socioeconomic status of a person can affect their access to education.",
+          "translation": "किसी व्यक्ति की समाज-आर्थिक स्थिति उनकी शिक्षा तक पहुंच को प्रभावित कर सकती है।"
+        },
+        {
+          "sentence": "The government should consider socioeconomic factors when creating policies.",
+          "translation": "सरकार को नीतियां बनाते समय समाज-आर्थिक कारकों पर विचार करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "deprivation",
+      "phoneticRespelling": "deh-pri-VAY-shun",
+      "translation": "वंचना",
+      "definition": "the act of taking something away from someone",
+      "definationTranslation": "किसी से कुछ लेने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The deprivation of basic rights is a serious issue.",
+          "translation": "मूलभूत अधिकारों की वंचना एक गंभीर मुद्दा है।"
+        },
+        {
+          "sentence": "The organization is working to reduce deprivation of essential services.",
+          "translation": "संगठन आवश्यक सेवाओं की वंचना को कम करने के लिए काम कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "exclusion",
+      "phoneticRespelling": "eks-KLOO-zhun",
+      "translation": "बहिष्कार",
+      "definition": "the act of leaving someone out",
+      "definationTranslation": "किसी को बाहर रखने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The exclusion of marginalized groups from decision-making processes is a concern.",
+          "translation": "निर्णय लेने की प्रक्रियाओं से हाशिए पर पड़े समूहों का बहिष्कार एक चिंता का विषय है।"
+        },
+        {
+          "sentence": "The government should work to reduce exclusion of vulnerable populations.",
+          "translation": "सरकार को कमजोर आबादी के बहिष्कार को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "disparities",
+      "phoneticRespelling": "dis-PAR-uh-teez",
+      "translation": "असमानताएं",
+      "definition": "differences or inequalities",
+      "definationTranslation": "अंतर या असमानताएं",
+      "sentence": [
+        {
+          "sentence": "The disparities in healthcare are a major concern.",
+          "translation": "स्वास्थ्य सेवा में असमानताएं एक प्रमुख चिंता का विषय है।"
+        },
+        {
+          "sentence": "The government should work to reduce disparities in education.",
+          "translation": "सरकार को शिक्षा में असमानताओं को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "inequitable",
+      "phoneticRespelling": "in-EH-kwi-tuh-buhl",
+      "translation": "अन्यायपूर्ण",
+      "definition": "not fair or just",
+      "definationTranslation": "न्यायपूर्ण या उचित नहीं",
+      "sentence": [
+        {
+          "sentence": "The inequitable distribution of resources is a major issue.",
+          "translation": "संसाधनों का अन्यायपूर्ण वितरण एक प्रमुख मुद्दा है।"
+        },
+        {
+          "sentence": "The government should work to reduce inequitable practices in the workplace.",
+          "translation": "सरकार को कार्यस्थल पर अन्यायपूर्ण प्रथाओं को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "underdevelopment",
+      "phoneticRespelling": "uhn-der-duh-VEL-uhp-muhnt",
+      "translation": "अविकास",
+      "definition": "the state of not being fully developed",
+      "definationTranslation": "पूरी तरह से विकसित न होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The underdevelopment of rural areas is a major concern.",
+          "translation": "ग्रामीण क्षेत्रों का अविकास एक प्रमुख चिंता का विषय है।"
+        },
+        {
+          "sentence": "The government should work to reduce underdevelopment in marginalized communities.",
+          "translation": "सरकार को हाशिए पर पड़े समुदायों में अविकास को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "segregation",
+      "phoneticRespelling": "seg-ruh-GAY-shun",
+      "translation": "पृथक्करण",
+      "definition": "the act of separating someone or something",
+      "definationTranslation": "किसी या कुछ को अलग करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The segregation of marginalized groups is a serious issue.",
+          "translation": "हाशिए पर पड़े समूहों का पृथक्करण एक गंभीर मुद्दा है।"
+        },
+        {
+          "sentence": "The government should work to reduce segregation in public spaces.",
+          "translation": "सरकार को सार्वजनिक स्थानों पर पृथक्करण को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "marginality",
+      "phoneticRespelling": "mar-jih-NAL-uh-tee",
+      "translation": "हाशियापन",
+      "definition": "the state of being on the edge of society",
+      "definationTranslation": "समाज के किनारे पर होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The marginality of certain groups is a major concern.",
+          "translation": "कुछ समूहों का हाशियापन एक प्रमुख चिंता का विषय है।"
+        },
+        {
+          "sentence": "The government should work to reduce marginality in rural areas.",
+          "translation": "सरकार को ग्रामीण क्षेत्रों में हाशियापन को कम करने के लिए काम करना चाहिए।"
+        }
+      ]
+    }
+  ]
 }
