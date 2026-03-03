@@ -3,7 +3,7 @@
   "words": [
     {
       "word": "Interface",
-      "phoneticRespelling": "ˈɪntərfeɪs",
+      "phoneticRespelling": "IN-tur-feys",
       "translation": "इंटरफ़ेस",
       "definition": "A point where two systems, subjects, or organizations meet and interact.",
       "definationTranslation": "दो प्रणालियों, विषयों या संगठनों के बीच बातचीत का बिंदु",
@@ -13,416 +13,331 @@
           "translation": "नये सॉफ़्टवेयर का उपयोगकर्ता इंटरफ़ेस बहुत ही सहज है।"
         },
         {
-          "sentence": "The interface between the computer and the printer was faulty.",
-          "translation": "कंप्यूटर और प्रिंटर के बीच इंटरफ़ेस दोषपूर्ण था।"
+          "sentence": "A good interface makes complex tasks feel simple.",
+          "translation": "एक अच्छा इंटरफ़ेस जटिल कार्यों को सरल महसूस कराता है।"
         }
       ]
     },
     {
-      "word": "Input",
-      "phoneticRespelling": "ˈɪnpʊt",
-      "translation": "इनपुट",
-      "definition": "Data or information that is put into a computer or other device.",
-      "definationTranslation": "कोई डेटा या जानकारी जो कंप्यूटर या अन्य डिवाइस में डाली जाती है।",
+      "word": "Usability",
+      "phoneticRespelling": "yoo-zuh-BIL-i-tee",
+      "translation": "उपयोगिता",
+      "definition": "The ease of use and learnability of a human-made object.",
+      "definationTranslation": "किसी मानव निर्मित वस्तु के उपयोग में आसानी और सीखने की क्षमता।",
       "sentence": [
         {
-          "sentence": "The input device is used to enter data into the computer.",
-          "translation": "इनपुट डिवाइस का उपयोग कंप्यूटर में डेटा दर्ज करने के लिए किया जाता है।"
+          "sentence": "The app's usability was improved after the user test.",
+          "translation": "यूजर टेस्ट के बाद ऐप की उपयोगिता में सुधार किया गया।"
         },
         {
-          "sentence": "The input from the sensor was used to control the robot.",
-          "translation": "सेंसर से इनपुट का उपयोग रोबोट को नियंत्रित करने के लिए किया गया था।"
+          "sentence": "Usability is the core of human-computer interaction.",
+          "translation": "उपयोगिता मानव-कंप्यूटर संपर्क का मूल है।"
         }
       ]
     },
     {
-      "word": "Output",
-      "phoneticRespelling": "ˈaʊtpʊt",
-      "translation": "आउटपुट",
-      "definition": "Data or information that is produced by a computer or other device.",
-      "definationTranslation": "कोई डेटा या जानकारी जो कंप्यूटर या अन्य डिवाइस द्वारा उत्पादित की जाती है।",
+      "word": "Interaction",
+      "phoneticRespelling": "in-tur-AK-shun",
+      "translation": "बातचीत/परस्पर क्रिया",
+      "definition": "The communication between a human user and a computer system.",
+      "definationTranslation": "मानव उपयोगकर्ता और कंप्यूटर सिस्टम के बीच संचार।",
       "sentence": [
         {
-          "sentence": "The output of the printer was very clear.",
-          "translation": "प्रिंटर का आउटपुट बहुत ही स्पष्ट था।"
+          "sentence": "Voice interaction is becoming more popular than typing.",
+          "translation": "टाइपिंग की तुलना में वॉयस इंटरेक्शन अधिक लोकप्रिय हो रहा है।"
         },
         {
-          "sentence": "The output from the program was not what we expected.",
-          "translation": "प्रोग्राम से आउटपुट हमारी अपेक्षा के अनुसार नहीं था।"
+          "sentence": "The interaction design determines how a user feels about the app.",
+          "translation": "इंटरेक्शन डिज़ाइन यह निर्धारित करता है कि उपयोगकर्ता ऐप के बारे में कैसा महसूस करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Feedback",
+      "phoneticRespelling": "FEED-bak",
+      "translation": "प्रतिक्रिया",
+      "definition": "Information about reactions to a product or a person's performance of a task.",
+      "definationTranslation": "किसी उत्पाद या किसी व्यक्ति के कार्य के प्रदर्शन के प्रति प्रतिक्रियाओं की जानकारी।",
+      "sentence": [
+        {
+          "sentence": "The button provides haptic feedback when pressed.",
+          "translation": "दबाए जाने पर बटन हैप्टिक फीडबैक प्रदान करता है।"
+        },
+        {
+          "sentence": "Immediate feedback helps users understand if their action worked.",
+          "translation": "तत्काल प्रतिक्रिया उपयोगकर्ताओं को यह समझने में मदद करती है कि उनकी कार्रवाई काम कर गई या नहीं।"
+        }
+      ]
+    },
+    {
+      "word": "Intuitive",
+      "phoneticRespelling": "in-TOO-i-tiv",
+      "translation": "सहज/स्वाभाविक",
+      "definition": "Easy to use or understand without the need for conscious reasoning.",
+      "definationTranslation": "चेतन तर्क की आवश्यकता के बिना उपयोग करने या समझने में आसान।",
+      "sentence": [
+        {
+          "sentence": "The layout is so intuitive that even a child can use it.",
+          "translation": "लेआउट इतना सहज है कि एक बच्चा भी इसका उपयोग कर सकता है।"
+        },
+        {
+          "sentence": "Modern design aims to be as intuitive as possible.",
+          "translation": "आधुनिक डिज़ाइन का लक्ष्य यथासंभव सहज होना है।"
+        }
+      ]
+    },
+    {
+      "word": "Accessibility",
+      "phoneticRespelling": "ak-ses-uh-BIL-i-tee",
+      "translation": "सुलभता",
+      "definition": "The design of products for people who experience disabilities.",
+      "definationTranslation": "विकलांगता का अनुभव करने वाले लोगों के लिए उत्पादों का डिज़ाइन।",
+      "sentence": [
+        {
+          "sentence": "Screen readers are essential for web accessibility.",
+          "translation": "वेब सुलभता के लिए स्क्रीन रीडर आवश्यक हैं।"
+        },
+        {
+          "sentence": "The developer focused on accessibility to reach more users.",
+          "translation": "डेवलपर ने अधिक उपयोगकर्ताओं तक पहुंचने के लिए सुलभता पर ध्यान केंद्रित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Navigation",
+      "phoneticRespelling": "nav-i-GAY-shun",
+      "translation": "नेविगेशन",
+      "definition": "The process of moving through a website or application.",
+      "definationTranslation": "वेबसाइट या एप्लिकेशन के माध्यम से आगे बढ़ने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The navigation menu is hidden on mobile screens.",
+          "translation": "नेविगेशन मेनू मोबाइल स्क्रीन पर छिपा होता है।"
+        },
+        {
+          "sentence": "Clear navigation helps users find information quickly.",
+          "translation": "स्पष्ट नेविगेशन उपयोगकर्ताओं को जानकारी जल्दी खोजने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Affordance",
+      "phoneticRespelling": "uh-FAWR-duhns",
+      "translation": "सामर्थ्य/संकेत",
+      "definition": "Properties of an object that show how it can be used.",
+      "definationTranslation": "किसी वस्तु के वे गुण जो दिखाते हैं कि उसका उपयोग कैसे किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "A button's 3D look provides an affordance that it can be clicked.",
+          "translation": "बटन का 3D लुक यह संकेत देता है कि इसे क्लिक किया जा सकता है।"
+        },
+        {
+          "sentence": "Poor affordance can lead to user confusion.",
+          "translation": "खराब संकेत उपयोगकर्ता के भ्रम का कारण बन सकते हैं।"
         }
       ]
     },
     {
       "word": "Algorithm",
-      "phoneticRespelling": "ˈælɡərɪðəm",
+      "phoneticRespelling": "AL-guh-ri-thum",
       "translation": "अल्गोरिदम",
       "definition": "A set of instructions used to solve a problem or perform a task.",
       "definationTranslation": "किसी समस्या को हल करने या कार्य करने के लिए निर्देशों का एक सेट",
       "sentence": [
         {
-          "sentence": "The algorithm used in the program was very efficient.",
-          "translation": "प्रोग्राम में उपयोग किया गया अल्गोरिदम बहुत ही कुशल था।"
+          "sentence": "The search algorithm shows the most relevant results.",
+          "translation": "खोज अल्गोरिदम सबसे प्रासंगिक परिणाम दिखाता है।"
         },
         {
-          "sentence": "The algorithm for solving the puzzle was complex.",
-          "translation": "पहेली को हल करने के लिए अल्गोरिदम जटिल था।"
+          "sentence": "The algorithm for sorting data was very efficient.",
+          "translation": "डेटा को सॉर्ट करने का अल्गोरिदम बहुत कुशल था।"
         }
       ]
     },
     {
-      "word": "Database",
-      "phoneticRespelling": "ˈdeɪtəbeɪs",
-      "translation": "डेटाबेस",
-      "definition": "A collection of organized data that is stored in a way that allows for efficient retrieval.",
-      "definationTranslation": "संगठित डेटा का संग्रह जो कुशलता से पुनर्प्राप्ति की अनुमति देने के लिए संग्रहीत किया जाता है।",
+      "word": "Input",
+      "phoneticRespelling": "IN-poot",
+      "translation": "इनपुट",
+      "definition": "Data or information that is put into a computer.",
+      "definationTranslation": "कोई डेटा या जानकारी जो कंप्यूटर में डाली जाती है।",
       "sentence": [
         {
-          "sentence": "The database of the company was very large.",
-          "translation": "कंपनी का डेटाबेस बहुत बड़ा था।"
+          "sentence": "Touch is the primary input for smartphones.",
+          "translation": "स्मार्टफोन के लिए टच प्राथमिक इनपुट है।"
         },
         {
-          "sentence": "The database was used to store customer information.",
-          "translation": "डेटाबेस का उपयोग ग्राहक जानकारी संग्रहीत करने के लिए किया जाता था।"
+          "sentence": "The system processes the user input in real-time.",
+          "translation": "सिस्टम रीयल-टाइम में यूजर इनपुट को प्रोसेस करता है।"
         }
       ]
     },
     {
-      "word": "Network",
-      "phoneticRespelling": "ˈnɛtˌwɜːrk",
-      "translation": "नेटवर्क",
-      "definition": "A system of interconnected devices or computers that can communicate with each other.",
-      "definationTranslation": "एक दूसरे के साथ संवाद करने में सक्षम उपकरणों या कंप्यूटरों का एक जाल।",
+      "word": "Output",
+      "phoneticRespelling": "OWT-poot",
+      "translation": "आउटपुट",
+      "definition": "The result produced by a computer after processing data.",
+      "definationTranslation": "डेटा प्रोसेसिंग के बाद कंप्यूटर द्वारा उत्पन्न परिणाम।",
       "sentence": [
         {
-          "sentence": "The network of the company was very secure.",
-          "translation": "कंपनी का नेटवर्क बहुत ही सुरक्षित था।"
+          "sentence": "The visual output is displayed on the monitor.",
+          "translation": "विजुअल आउटपुट मॉनिटर पर प्रदर्शित होता है।"
         },
         {
-          "sentence": "The network was used to share files and resources.",
-          "translation": "नेटवर्क का उपयोग फ़ाइलों और संसाधनों को साझा करने के लिए किया जाता था।"
+          "sentence": "Check the output for any error messages.",
+          "translation": "किसी भी त्रुटि संदेश के लिए आउटपुट की जाँच करें।"
         }
       ]
     },
     {
-      "word": "Password",
-      "phoneticRespelling": "ˈpæswɜːrd",
-      "translation": "पासवर्ड",
-      "definition": "A secret word or phrase used to gain access to a computer or other device.",
-      "definationTranslation": "कंप्यूटर या अन्य डिवाइस तक पहुंचने के लिए उपयोग किया जाने वाला एक गुप्त शब्द या वाक्यांश।",
+      "word": "Protocol",
+      "phoneticRespelling": "PROH-tuh-kawl",
+      "translation": "प्रोटोकॉल",
+      "definition": "A set of rules governing the exchange of data.",
+      "definationTranslation": "डेटा के आदान-प्रदान को नियंत्रित करने वाले नियमों का एक सेट।",
       "sentence": [
         {
-          "sentence": "The password of the account was very strong.",
-          "translation": "खाते का पासवर्ड बहुत मजबूत था।"
+          "sentence": "HTTPS is a secure protocol for the internet.",
+          "translation": "HTTPS इंटरनेट के लिए एक सुरक्षित प्रोटोकॉल है।"
         },
         {
-          "sentence": "The password was required to login to the system.",
-          "translation": "पासवर्ड सिस्टम में लॉग इन करने के लिए आवश्यक था।"
+          "sentence": "The devices must follow the same protocol to communicate.",
+          "translation": "संवाद करने के लिए उपकरणों को एक ही प्रोटोकॉल का पालन करना चाहिए।"
         }
       ]
     },
     {
-      "word": "Security",
-      "phoneticRespelling": "sɪˈkjʊərɪti",
-      "translation": "सुरक्षा",
-      "definition": "The state of being protected against unauthorized access or harm.",
-      "definationTranslation": "अनधिकृत पहुंच या नुकसान के खिलाफ संरक्षित होने की स्थिति।",
+      "word": "Latency",
+      "phoneticRespelling": "LAY-tun-see",
+      "translation": "विलंबता",
+      "definition": "The delay before a transfer of data begins following an instruction.",
+      "definationTranslation": "निर्देश के बाद डेटा का स्थानांतरण शुरू होने से पहले की देरी।",
       "sentence": [
         {
-          "sentence": "The security of the system was very important.",
-          "translation": "सिस्टम की सुरक्षा बहुत महत्वपूर्ण थी।"
+          "sentence": "High latency can make a video game unplayable.",
+          "translation": "उच्च विलंबता एक वीडियो गेम को खेलने लायक नहीं बना सकती है।"
         },
         {
-          "sentence": "The security measures were taken to protect the data.",
-          "translation": "डेटा की सुरक्षा के लिए सुरक्षा उपाय किए गए थे।"
+          "sentence": "The new 5G network reduces network latency significantly.",
+          "translation": "नया 5G नेटवर्क काफी हद तक नेटवर्क विलंबता को कम करता है।"
         }
       ]
     },
     {
-      "word": "Software",
-      "phoneticRespelling": "ˈsɒftwɛər",
-      "translation": "सॉफ़्टवेयर",
-      "definition": "Programs and operating systems used by a computer.",
-      "definationTranslation": "कंप्यूटर द्वारा उपयोग किए जाने वाले कार्यक्रम और ऑपरेटिंग सिस्टम।",
+      "word": "Haptic",
+      "phoneticRespelling": "HAP-tik",
+      "translation": "स्पर्श-संबंधी",
+      "definition": "Relating to the sense of touch, especially in computer interfaces.",
+      "definationTranslation": "स्पर्श की भावना से संबंधित, विशेष रूप से कंप्यूटर इंटरफेस में।",
       "sentence": [
         {
-          "sentence": "The software of the computer was very advanced.",
-          "translation": "कंप्यूटर का सॉफ़्टवेयर बहुत उन्नत था।"
+          "sentence": "Haptic technology allows you to feel vibrations in the controller.",
+          "translation": "हैप्टिक तकनीक आपको कंट्रोलर में कंपन महसूस करने की अनुमति देती है।"
         },
         {
-          "sentence": "The software was used to perform various tasks.",
-          "translation": "सॉफ़्टवेयर का उपयोग विभिन्न कार्यों को करने के लिए किया जाता था।"
+          "sentence": "The phone uses haptic alerts for notifications.",
+          "translation": "फोन नोटिफिकेशन के लिए हैप्टिक अलर्ट का उपयोग करता है।"
         }
       ]
     },
     {
-      "word": "Hardware",
-      "phoneticRespelling": "ˈhɑːrdwɛər",
-      "translation": "हार्डवेयर",
-      "definition": "The physical parts of a computer or other device.",
-      "definationTranslation": "कंप्यूटर या अन्य डिवाइस के भौतिक भाग।",
+      "word": "Fidelity",
+      "phoneticRespelling": "fi-DEL-i-tee",
+      "translation": "सटीकता/वफादारी",
+      "definition": "The degree of exactness with which something is copied or reproduced.",
+      "definationTranslation": "किसी चीज़ को कितनी सटीकता से कॉपी या पुनरुत्पादित किया गया है।",
       "sentence": [
         {
-          "sentence": "The hardware of the computer was very expensive.",
-          "translation": "कंप्यूटर का हार्डवेयर बहुत महंगा था।"
+          "sentence": "We started with a low-fidelity wireframe.",
+          "translation": "हमने लो-फिडेलिटी वायरफ्रेम के साथ शुरुआत की।"
         },
         {
-          "sentence": "The hardware was damaged due to a power surge.",
-          "translation": "हार्डवेयर पावर सर्ज के कारण क्षतिग्रस्त हो गया था।"
+          "sentence": "The high-fidelity prototype looks like the real app.",
+          "translation": "हाई-फिडेलिटी प्रोटोटाइप असली ऐप जैसा दिखता है।"
         }
       ]
     },
     {
-      "word": "Mouse",
-      "phoneticRespelling": "maʊs",
-      "translation": "माउस",
-      "definition": "A small device used to control the movement of a cursor on a computer screen.",
-      "definationTranslation": "कंप्यूटर स्क्रीन पर कर्सर की गति को नियंत्रित करने के लिए उपयोग किया जाने वाला एक छोटा उपकरण।",
+      "word": "Iterative",
+      "phoneticRespelling": "IT-er-uh-tiv",
+      "translation": "पुनरावृत्तिपूर्ण",
+      "definition": "A process of repeating steps to improve a design.",
+      "definationTranslation": "डिज़ाइन को बेहतर बनाने के लिए चरणों को दोहराने की एक प्रक्रिया।",
       "sentence": [
         {
-          "sentence": "The mouse was very sensitive.",
-          "translation": "माउस बहुत संवेदनशील था।"
+          "sentence": "Design is an iterative process of testing and refining.",
+          "translation": "डिज़ाइन परीक्षण और सुधार की एक पुनरावृत्तिपूर्ण प्रक्रिया है।"
         },
         {
-          "sentence": "The mouse was used to navigate through the website.",
-          "translation": "माउस का उपयोग वेबसाइट के माध्यम से नेविगेट करने के लिए किया जाता था।"
+          "sentence": "The team took an iterative approach to software development.",
+          "translation": "टीम ने सॉफ्टवेयर विकास के लिए एक पुनरावृत्तिपूर्ण दृष्टिकोण अपनाया।"
         }
       ]
     },
     {
-      "word": "Keyboard",
-      "phoneticRespelling": "ˈkiːbɔrd",
-      "translation": "कीबोर्ड",
-      "definition": "A device used to enter text or commands into a computer.",
-      "definationTranslation": "पाठ या निर्देशों को कंप्यूटर में दर्ज करने के लिए उपयोग किया जाने वाला उपकरण।",
+      "word": "Constraint",
+      "phoneticRespelling": "kun-STRAYNT",
+      "translation": "सीमा/बाधा",
+      "definition": "A limitation or restriction on design choices.",
+      "definationTranslation": "डिज़ाइन विकल्पों पर एक सीमा या प्रतिबंध।",
       "sentence": [
         {
-          "sentence": "The keyboard was very comfortable to type on.",
-          "translation": "कीबोर्ड पर टाइप करना बहुत आरामदायक था।"
+          "sentence": "Budget constraints prevented us from adding more features.",
+          "translation": "बजट की कमी ने हमें और अधिक सुविधाएं जोड़ने से रोक दिया।"
         },
         {
-          "sentence": "The keyboard was used to enter data into the computer.",
-          "translation": "कीबोर्ड का उपयोग कंप्यूटर में डेटा दर्ज करने के लिए किया जाता था।"
+          "sentence": "Mobile devices have screen size constraints.",
+          "translation": "मोबाइल उपकरणों में स्क्रीन के आकार की सीमाएँ होती हैं।"
         }
       ]
     },
     {
-      "word": "Monitor",
-      "phoneticRespelling": "ˈmɒnɪtər",
-      "translation": "मॉनिटर",
-      "definition": "A device that displays the output of a computer.",
-      "definationTranslation": "एक उपकरण जो कंप्यूटर के आउटपुट को प्रदर्शित करता है।",
+      "word": "Cognitive",
+      "phoneticRespelling": "KOG-ni-tiv",
+      "translation": "संज्ञानात्मक/मानसिक",
+      "definition": "Relating to the mental processes of perception and memory.",
+      "definationTranslation": "धारणा और स्मृति की मानसिक प्रक्रियाओं से संबंधित।",
       "sentence": [
         {
-          "sentence": "The monitor was very clear.",
-          "translation": "मॉनिटर बहुत स्पष्ट था।"
+          "sentence": "A complex UI increases the cognitive load on the user.",
+          "translation": "एक जटिल UI उपयोगकर्ता पर मानसिक बोझ बढ़ाता है।"
         },
         {
-          "sentence": "The monitor was used to display the results of the program.",
-          "translation": "मॉनिटर का उपयोग प्रोग्राम के परिणामों को प्रदर्शित करने के लिए किया जाता था।"
+          "sentence": "Good design respects the user's cognitive limits.",
+          "translation": "अच्छा डिज़ाइन उपयोगकर्ता की मानसिक सीमाओं का सम्मान करता है।"
         }
       ]
     },
     {
-      "word": "Printer",
-      "phoneticRespelling": "ˈprɪntər",
-      "translation": "प्रिंटर",
-      "definition": "A device that produces a hard copy of data or text.",
-      "definationTranslation": "एक उपकरण जो डेटा या पाठ की एक कठोर प्रति उत्पन्न करता है।",
+      "word": "Heuristic",
+      "phoneticRespelling": "hyoo-RIS-tik",
+      "translation": "अनुमानी/खोजपरक",
+      "definition": "A practical method used for problem-solving or evaluation.",
+      "definationTranslation": "समस्या-समाधान या मूल्यांकन के लिए उपयोग की जाने वाली एक व्यावहारिक विधि।",
       "sentence": [
         {
-          "sentence": "The printer was very fast.",
-          "translation": "प्रिंटर बहुत तेज था।"
+          "sentence": "We performed a heuristic evaluation of the website.",
+          "translation": "हमने वेबसाइट का ह्यूरिस्टिक मूल्यांकन किया।"
         },
         {
-          "sentence": "The printer was used to print out the documents.",
-          "translation": "प्रिंटर का उपयोग दस्तावेजों को प्रिंट करने के लिए किया जाता था।"
+          "sentence": "Heuristics are 'rules of thumb' for good design.",
+          "translation": "ह्यूरिस्टिक्स अच्छे डिज़ाइन के लिए 'अनुभवजन्य नियम' हैं।"
         }
       ]
     },
     {
-      "word": "Scanner",
-      "phoneticRespelling": "ˈskænər",
-      "translation": "स्कैनर",
-      "definition": "A device that captures images or text from a physical source.",
-      "definationTranslation": "एक उपकरण जो एक भौतिक स्रोत से छवियों या पाठ को कैप्चर करता है।",
+      "word": "Persona",
+      "phoneticRespelling": "per-SOH-nuh",
+      "translation": "व्यक्तित्व/पात्र",
+      "definition": "A fictional character created to represent a user type.",
+      "definationTranslation": "उपयोगकर्ता प्रकार का प्रतिनिधित्व करने के लिए बनाया गया एक काल्पनिक पात्र।",
       "sentence": [
         {
-          "sentence": "The scanner was very useful.",
-          "translation": "स्कैनर बहुत उपयोगी था।"
+          "sentence": "The design team created a persona named 'Rahul' to represent a student.",
+          "translation": "डिज़ाइन टीम ने एक छात्र का प्रतिनिधित्व करने के लिए 'राहुल' नाम का एक पात्र बनाया।"
         },
         {
-          "sentence": "The scanner was used to scan the documents.",
-          "translation": "स्कैनर का उपयोग दस्तावेजों को स्कैन करने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Touchscreen",
-      "phoneticRespelling": "ˈtʌtʃskriːn",
-      "translation": "टचस्क्रीन",
-      "definition": "A display device that responds to touch input.",
-      "definationTranslation": "एक प्रदर्शन उपकरण जो स्पर्श इनपुट का जवाब देता है।",
-      "sentence": [
-        {
-          "sentence": "The touchscreen was very responsive.",
-          "translation": "टचस्क्रीन बहुत प्रतिक्रियाशील था।"
-        },
-        {
-          "sentence": "The touchscreen was used to navigate through the menu.",
-          "translation": "टचस्क्रीन का उपयोग मेनू के माध्यम से नेविगेट करने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Microphone",
-      "phoneticRespelling": "ˈmaɪkrəfoʊn",
-      "translation": "माइक्रोफ़ोन",
-      "definition": "A device that converts sound into an electrical signal.",
-      "definationTranslation": "एक उपकरण जो ध्वनि को एक विद्युत संकेत में परिवर्तित करता है।",
-      "sentence": [
-        {
-          "sentence": "The microphone was very sensitive.",
-          "translation": "माइक्रोफ़ोन बहुत संवेदनशील था।"
-        },
-        {
-          "sentence": "The microphone was used to record the audio.",
-          "translation": "माइक्रोफ़ोन का उपयोग ऑडियो रिकॉर्ड करने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Speaker",
-      "phoneticRespelling": "ˈspiːkər",
-      "translation": "स्पीकर",
-      "definition": "A device that converts an electrical signal into sound.",
-      "definationTranslation": "एक उपकरण जो एक विद्युत संकेत को ध्वनि में परिवर्तित करता है।",
-      "sentence": [
-        {
-          "sentence": "The speaker was very loud.",
-          "translation": "स्पीकर बहुत जोर से था।"
-        },
-        {
-          "sentence": "The speaker was used to play the music.",
-          "translation": "स्पीकर का उपयोग संगीत बजाने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Webcam",
-      "phoneticRespelling": "ˈwɛbkæm",
-      "translation": "वेबकैम",
-      "definition": "A camera that captures images or video and transmits them over the internet.",
-      "definationTranslation": "एक कैमरा जो छवियों या वीडियो को कैप्चर करता है और उन्हें इंटरनेट के माध्यम से प्रसारित करता है।",
-      "sentence": [
-        {
-          "sentence": "The webcam was very useful for video conferencing.",
-          "translation": "वेबकैम वीडियो कॉन्फ़्रेंसिंग के लिए बहुत उपयोगी था।"
-        },
-        {
-          "sentence": "The webcam was used to capture photos.",
-          "translation": "वेबकैम का उपयोग फ़ोटो कैप्चर करने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Server",
-      "phoneticRespelling": "ˈsɜːrvər",
-      "translation": "सर्वर",
-      "definition": "A computer that provides services or resources to other computers on a network.",
-      "definationTranslation": "एक कंप्यूटर जो नेटवर्क पर अन्य कंप्यूटरों को सेवाएं या संसाधन प्रदान करता है।",
-      "sentence": [
-        {
-          "sentence": "The server was very powerful.",
-          "translation": "सर्वर बहुत शक्तिशाली था।"
-        },
-        {
-          "sentence": "The server was used to host the website.",
-          "translation": "सर्वर का उपयोग वेबसाइट को होस्ट करने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Client",
-      "phoneticRespelling": "ˈklaɪənt",
-      "translation": "क्लाइंट",
-      "definition": "A computer or device that uses the services or resources provided by a server.",
-      "definationTranslation": "एक कंप्यूटर या डिवाइस जो सर्वर द्वारा प्रदान की गई सेवाओं या संसाधनों का उपयोग करता है।",
-      "sentence": [
-        {
-          "sentence": "The client was very satisfied with the service.",
-          "translation": "क्लाइंट सेवा से बहुत संतुष्ट था।"
-        },
-        {
-          "sentence": "The client was used to access the server.",
-          "translation": "क्लाइंट का उपयोग सर्वर तक पहुंचने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Cloud",
-      "phoneticRespelling": "klaʊd",
-      "translation": "क्लाउड",
-      "definition": "A model of delivering computing services over the internet.",
-      "definationTranslation": "इंटरनेट के माध्यम से कम्प्यूटिंग सेवाएं प्रदान करने का एक मॉडल।",
-      "sentence": [
-        {
-          "sentence": "The cloud was very useful for storing data.",
-          "translation": "क्लाउड डेटा संग्रहीत करने के लिए बहुत उपयोगी था।"
-        },
-        {
-          "sentence": "The cloud was used to access the applications.",
-          "translation": "क्लाउड का उपयोग एप्लिकेशन तक पहुंचने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Firewall",
-      "phoneticRespelling": "ˈfaɪərwɔːl",
-      "translation": "फ़ायरवॉल",
-      "definition": "A system that monitors and controls incoming and outgoing network traffic.",
-      "definationTranslation": "एक प्रणाली जो आने वाले और जाने वाले नेटवर्क ट्रैफ़िक की निगरानी और नियंत्रण करती है।",
-      "sentence": [
-        {
-          "sentence": "The firewall was very secure.",
-          "translation": "फ़ायरवॉल बहुत सुरक्षित था।"
-        },
-        {
-          "sentence": "The firewall was used to block the malicious traffic.",
-          "translation": "फ़ायरवॉल का उपयोग दुर्भावनापूर्ण ट्रैफ़िक को ब्लॉक करने के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Encryption",
-      "phoneticRespelling": "ɛnˈkrɪpʃən",
-      "translation": "एन्क्रिप्शन",
-      "definition": "The process of converting data into a code to protect it from unauthorized access.",
-      "definationTranslation": "डेटा को अनधिकृत पहुंच से बचाने के लिए इसे कोड में परिवर्तित करने की प्रक्रिया।",
-      "sentence": [
-        {
-          "sentence": "The encryption was very strong.",
-          "translation": "एन्क्रिप्शन बहुत मजबूत था।"
-        },
-        {
-          "sentence": "The encryption was used to protect the data.",
-          "translation": "एन्क्रिप्शन का उपयोग डेटा की सुरक्षा के लिए किया जाता था।"
-        }
-      ]
-    },
-    {
-      "word": "Decryption",
-      "phoneticRespelling": "dɪˈkrɪpʃən",
-      "translation": "डीक्रिप्शन",
-      "definition": "The process of converting encrypted data back into its original form.",
-      "definationTranslation": "एन्क्रिप्टेड डेटा को उसके मूल रूप में वापस परिवर्तित करने की प्रक्रिया।",
-      "sentence": [
-        {
-          "sentence": "The decryption was very fast.",
-          "translation": "डीक्रिप्शन बहुत तेज था।"
-        },
-        {
-          "sentence": "The decryption was used to access the encrypted data.",
-          "translation": "डीक्रिप्शन का उपयोग एन्क्रिप्टेड डेटा तक पहुंचने के लिए किया जाता था।"
+          "sentence": "Using personas helps developers build features for real people.",
+          "translation": "पात्रों (personas) का उपयोग करने से डेवलपर्स को वास्तविक लोगों के लिए सुविधाएं बनाने में मदद मिलती है।"
         }
       ]
     }

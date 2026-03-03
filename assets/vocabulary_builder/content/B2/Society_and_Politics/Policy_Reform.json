@@ -38,13 +38,13 @@
     {
       "word": "Legislation",
       "phoneticRespelling": "lej-is-LAY-shuhn",
-      "translation": "विधायिका",
+      "translation": "विधायिका/विधान",
       "definition": "Laws or a law that has been made by a government",
       "definationTranslation": "एक सरकार द्वारा बनाए गए कानून या कानून",
       "sentence": [
         {
           "sentence": "The new legislation will come into effect next year.",
-          "translation": "नया विधायिका अगले साल लागू होगा"
+          "translation": "नया विधान अगले साल लागू होगा"
         },
         {
           "sentence": "The legislation is aimed at protecting the environment.",
@@ -106,7 +106,7 @@
     {
       "word": "Initiative",
       "phoneticRespelling": "ih-NISH-uh-tiv",
-      "translation": "उद्योग",
+      "translation": "पहल",
       "definition": "A new plan or action that is intended to solve a problem or improve a situation",
       "definationTranslation": "एक नई योजना या कार्रवाई जिसका उद्देश्य एक समस्या का समाधान करना या स्थिति में सुधार करना है",
       "sentence": [
@@ -123,8 +123,8 @@
     {
       "word": "Accountability",
       "phoneticRespelling": "uh-koun-tuh-BIL-uh-tee",
-      "translation": "जिम्मेदारी",
-      "definition": "The state of being responsible for something, especially in a official or professional context",
+      "translation": "जवाबदेही",
+      "definition": "The state of being responsible for something, especially in an official context",
       "definationTranslation": "किसी चीज के लिए जिम्मेदार होने की स्थिति, विशेष रूप से एक आधिकारिक या पेशेवर संदर्भ में",
       "sentence": [
         {
@@ -141,7 +141,7 @@
       "word": "Transparency",
       "phoneticRespelling": "trans-PAR-uh-see",
       "translation": "पारदर्शिता",
-      "definition": "The state of being clear and open in all dealings, so that everything can be seen and understood",
+      "definition": "The state of being clear and open in all dealings",
       "definationTranslation": "स्पष्ट और खुले में सभी लेन-देन की स्थिति, ताकि सब कुछ देखा और समझा जा सके",
       "sentence": [
         {
@@ -158,7 +158,7 @@
       "word": "Stakeholder",
       "phoneticRespelling": "STAYK-hoh-ldur",
       "translation": "हितधारक",
-      "definition": "A person or group that has an interest or concern in something, especially a business or organization",
+      "definition": "A person or group that has an interest or concern in something",
       "definationTranslation": "एक व्यक्ति या समूह जिसका किसी चीज में हित या चिंता है, विशेष रूप से एक व्यवसाय या संगठन में",
       "sentence": [
         {
@@ -209,7 +209,7 @@
       "word": "Participation",
       "phoneticRespelling": "pahr-tuh-suh-PAY-shuhn",
       "translation": "भागीदारी",
-      "definition": "The act of taking part or sharing in something, especially an activity or a decision-making process",
+      "definition": "The act of taking part or sharing in something",
       "definationTranslation": "किसी चीज में भाग लेने या हिस्सा लेने की प्रक्रिया, विशेष रूप से एक गतिविधि या निर्णय लेने की प्रक्रिया में",
       "sentence": [
         {
@@ -243,7 +243,7 @@
       "word": "Framework",
       "phoneticRespelling": "FREYM-wurk",
       "translation": "फ्रेमवर्क",
-      "definition": "A set of rules, principles, or ideas that provide a structure for something",
+      "definition": "A set of rules or ideas that provide a structure for something",
       "definationTranslation": "नियमों, सिद्धांतों या विचारों का एक सेट जो किसी चीज के लिए एक संरचना प्रदान करता है",
       "sentence": [
         {
@@ -260,7 +260,7 @@
       "word": "Strategy",
       "phoneticRespelling": "STRAD-uh-jee",
       "translation": "रणनीति",
-      "definition": "A plan of action designed to achieve a particular goal or objective",
+      "definition": "A plan of action designed to achieve a particular goal",
       "definationTranslation": "एक विशिष्ट लक्ष्य या उद्देश्य को प्राप्त करने के लिए डिज़ाइन की गई कार्रवाई की योजना",
       "sentence": [
         {
@@ -277,7 +277,7 @@
       "word": "Development",
       "phoneticRespelling": "di-VEL-uhp-muhnt",
       "translation": "विकास",
-      "definition": "The process of growing or becoming more advanced, especially in terms of economic or social progress",
+      "definition": "The process of growing or becoming more advanced",
       "definationTranslation": "बढ़ने या अधिक उन्नत होने की प्रक्रिया, विशेष रूप से आर्थिक या सामाजिक प्रगति के संदर्भ में",
       "sentence": [
         {
@@ -294,7 +294,7 @@
       "word": "Investment",
       "phoneticRespelling": "in-VES-tuh-ment",
       "translation": "निवेश",
-      "definition": "The act of putting money or resources into something in order to earn a profit or achieve a goal",
+      "definition": "The act of putting money or resources into something to earn a profit",
       "definationTranslation": "किसी चीज में पैसा या संसाधन लगाने की प्रक्रिया, जिससे लाभ कमाया जा सके या एक लक्ष्य प्राप्त किया जा सके",
       "sentence": [
         {
@@ -306,7 +306,40 @@
           "translation": "सरकार ने आर्थिक वृद्धि को बढ़ावा देने के लिए एक नए निवेश योजना की घोषणा की है"
         }
       ]
+    },
+    {
+      "word": "Referendum",
+      "phoneticRespelling": "ref-uh-REN-duhm",
+      "translation": "जनमत संग्रह",
+      "definition": "A general vote by the electorate on a single political question",
+      "definationTranslation": "एक एकल राजनीतिक प्रश्न पर मतदाताओं द्वारा किया गया सामान्य मतदान",
+      "sentence": [
+        {
+          "sentence": "The government decided to hold a referendum on the proposed constitutional changes.",
+          "translation": "सरकार ने प्रस्तावित संवैधानिक परिवर्तनों पर जनमत संग्रह कराने का निर्णय लिया।"
+        },
+        {
+          "sentence": "The policy was approved after a nationwide referendum.",
+          "translation": "देशव्यापी जनमत संग्रह के बाद नीति को मंजूरी दी गई।"
+        }
+      ]
+    },
+    {
+      "word": "Mandate",
+      "phoneticRespelling": "MAN-deyt",
+      "translation": "जनादेश",
+      "definition": "The authority to carry out a policy, given by the electorate to a winner in an election",
+      "definationTranslation": "चुनाव में विजेता को मतदाताओं द्वारा दी गई नीति को लागू करने की शक्ति",
+      "sentence": [
+        {
+          "sentence": "The election victory gave the party a clear mandate for economic reform.",
+          "translation": "चुनाव में जीत ने पार्टी को आर्थिक सुधार के लिए स्पष्ट जनादेश दिया।"
+        },
+        {
+          "sentence": "Without a public mandate, the controversial law was difficult to enforce.",
+          "translation": "बिना सार्वजनिक जनादेश के, विवादास्पद कानून को लागू करना कठिन था।"
+        }
+      ]
     }
-  ],
-  "_warning": "Requested 20 words but got 18."
+  ]
 }
