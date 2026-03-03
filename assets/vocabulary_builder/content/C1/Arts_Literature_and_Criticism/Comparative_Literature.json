@@ -1,1 +1,5 @@
-{}
+{
+  "error": "Failed to parse JSON",
+  "detail": "Unterminated string starting at: line 484 column 32 (char 25345)",
+  "raw_output": "\"topic\": \"Comparative Literature\",\n  \"words\": [\n    {\n      \"word\": \"allusion\",\n      \"phoneticRespelling\": \"uh-LOO-see-on\",\n      \"translation\": \"संकेत\",\n      \"definition\": \"a reference to a person, place, event, or work of art that is outside the text itself\",\n      \"definationTranslation\": \"किसी व्यक्ति, स्थान, घटना या कलाकृति का संदर्भ जो पाठ के बाहर है\",\n      \"sentence\": [\n        {\n          \"sentence\": \"The author made an allusion to Shakespeare's Romeo and Juliet in her novel.\",\n      "
+}

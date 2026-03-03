@@ -1,1 +1,414 @@
-{}
+{
+  "topic": "Quantitative Analysis",
+  "words": [
+    {
+      "word": "Hypothesis",
+      "phoneticRespelling": "hi-POH-thuh-sis",
+      "translation": "अनुमान",
+      "definition": "A supposition or proposed explanation made on the basis of limited evidence as a starting point for further investigation",
+      "definationTranslation": "सीमित प्रमाणों के आधार पर आगे की जांच के लिए एक प्रस्तावित व्याख्या के रूप में की गई एक धारणा या अनुमान",
+      "sentence": [
+        {
+          "sentence": "The researcher formulated a hypothesis to test the relationship between the variables.",
+          "translation": "शोधकर्ता ने परिवर्तनीयों के बीच संबंध का परीक्षण करने के लिए एक अनुमान का गठन किया।"
+        },
+        {
+          "sentence": "The hypothesis was proven to be correct after conducting several experiments.",
+          "translation": "कई प्रयोग करने के बाद यह पाया गया कि अनुमान सही था।"
+        }
+      ]
+    },
+    {
+      "word": "Variable",
+      "phoneticRespelling": "VAY-ree-uh-bul",
+      "translation": "परिवर्तनशील",
+      "definition": "A quantity that may change or be changed within the scope of a scientific experiment or study",
+      "definationTranslation": "एक मात्रा जो वैज्ञानिक प्रयोग या अध्ययन के दायरे के भीतर बदल सकती है या बदली जा सकती है",
+      "sentence": [
+        {
+          "sentence": "The researcher controlled for extraneous variables to ensure the accuracy of the results.",
+          "translation": "शोधकर्ता ने परिणामों की सटीकता सुनिश्चित करने के लिए अनावश्यक परिवर्तनशीलों को नियंत्रित किया।"
+        },
+        {
+          "sentence": "The variable in the experiment was the amount of light exposure.",
+          "translation": "प्रयोग में परिवर्तनशील प्रकाश के संपर्क की मात्रा थी।"
+        }
+      ]
+    },
+    {
+      "word": "Correlation",
+      "phoneticRespelling": "koh-rel-AY-shun",
+      "translation": "संबंध",
+      "definition": "A statistical relationship between two or more variables that tend to move together",
+      "definationTranslation": "दो या अधिक परिवर्तनीयों के बीच एक सांख्यिकीय संबंध जो एक साथ चलने की प्रवृत्ति रखते हैं",
+      "sentence": [
+        {
+          "sentence": "The study found a strong correlation between the amount of exercise and overall health.",
+          "translation": "अध्ययन में व्यायाम की मात्रा और समग्र स्वास्थ्य के बीच एक मजबूत संबंध पाया गया।"
+        },
+        {
+          "sentence": "The correlation between the two variables was not statistically significant.",
+          "translation": "दो परिवर्तनशीलों के बीच संबंध सांख्यिकीय रूप से महत्वपूर्ण नहीं था।"
+        }
+      ]
+    },
+    {
+      "word": "Regression",
+      "phoneticRespelling": "ri-GREH-shun",
+      "translation": "प्रतिगमन",
+      "definition": "A statistical method for establishing a relationship between two or more variables",
+      "definationTranslation": "दो या अधिक परिवर्तनीयों के बीच संबंध स्थापित करने के लिए एक सांख्यिकीय विधि",
+      "sentence": [
+        {
+          "sentence": "The researcher used regression analysis to model the relationship between the variables.",
+          "translation": "शोधकर्ता ने परिवर्तनीयों के बीच संबंध को मॉडल करने के लिए प्रतिगमन विश्लेषण का उपयोग किया।"
+        },
+        {
+          "sentence": "The regression line showed a positive slope, indicating a direct relationship.",
+          "translation": "प्रतिगमन रेखा में एक सकारात्मक ढलान दिखाई दी, जो एक प्रत्यक्ष संबंध को दर्शाती है।"
+        }
+      ]
+    },
+    {
+      "word": "Coefficient",
+      "phoneticRespelling": "koh-ee-FISH-ent",
+      "translation": "गुणांक",
+      "definition": "A numerical value that represents the strength and direction of a relationship between two variables",
+      "definationTranslation": "एक संख्यात्मक मान जो दो परिवर्तनीयों के बीच संबंध की ताकत और दिशा का प्रतिनिधित्व करता है",
+      "sentence": [
+        {
+          "sentence": "The coefficient of determination was high, indicating a strong relationship.",
+          "translation": "निर्धारण का गुणांक उच्च था, जो एक मजबूत संबंध को दर्शाता है।"
+        },
+        {
+          "sentence": "The coefficient of correlation was low, indicating a weak relationship.",
+          "translation": "संबंध का गुणांक कम था, जो एक कमजोर संबंध को दर्शाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Distribution",
+      "phoneticRespelling": "dis-tri-BYOO-shun",
+      "translation": "वितरण",
+      "definition": "The way in which something is shared or spread out",
+      "definationTranslation": "किसी चीज को कैसे बांटा जाता है या फैलाया जाता है",
+      "sentence": [
+        {
+          "sentence": "The normal distribution is a common probability distribution in statistics.",
+          "translation": "सांख्यिकी में सामान्य वितरण एक सामान्य संभावना वितरण है।"
+        },
+        {
+          "sentence": "The distribution of the data was skewed to the right.",
+          "translation": "डेटा का वितरण दायीं ओर झुका हुआ था।"
+        }
+      ]
+    },
+    {
+      "word": "Variance",
+      "phoneticRespelling": "VAY-ree-uhns",
+      "translation": "प्रसार",
+      "definition": "A measure of the spread or dispersion of a set of data",
+      "definationTranslation": "एक डेटा सेट के प्रसार या वितरण का एक माप",
+      "sentence": [
+        {
+          "sentence": "The variance of the data was high, indicating a wide spread.",
+          "translation": "डेटा का प्रसार अधिक था, जो एक व्यापक प्रसार को दर्शाता है।"
+        },
+        {
+          "sentence": "The variance of the sample was lower than the population variance.",
+          "translation": "नमूने का प्रसार जनसंख्या प्रसार से कम था।"
+        }
+      ]
+    },
+    {
+      "word": "Standardization",
+      "phoneticRespelling": "STAN-durd-ih-ZAY-shun",
+      "translation": "मानकीकरण",
+      "definition": "The process of making something conform to a standard",
+      "definationTranslation": "किसी चीज को एक मानक के अनुरूप बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company standardized its manufacturing process to improve efficiency.",
+          "translation": "कंपनी ने उत्पादन प्रक्रिया को मानकीकृत करने के लिए कुशलता में सुधार किया।"
+        },
+        {
+          "sentence": "The data was standardized to have a mean of 0 and a variance of 1.",
+          "translation": "डेटा को मानकीकृत किया गया ताकि इसका माध्य 0 और प्रसार 1 हो।"
+        }
+      ]
+    },
+    {
+      "word": "Normalization",
+      "phoneticRespelling": "nor-muh-lie-ZAY-shun",
+      "translation": "सामान्यीकरण",
+      "definition": "The process of making something conform to a standard or normal range",
+      "definationTranslation": "किसी चीज को एक मानक या सामान्य श्रेणी के अनुरूप बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The data was normalized to fit within a specific range.",
+          "translation": "डेटा को एक विशिष्ट श्रेणी के भीतर फिट करने के लिए सामान्यीकृत किया गया।"
+        },
+        {
+          "sentence": "The normalization process reduced the impact of outliers.",
+          "translation": "सामान्यीकरण प्रक्रिया ने असंगति के प्रभाव को कम किया।"
+        }
+      ]
+    },
+    {
+      "word": "Outlier",
+      "phoneticRespelling": "OUT-lie-ur",
+      "translation": "असंगति",
+      "definition": "A data point that is significantly different from the other data points",
+      "definationTranslation": "एक डेटा बिंदु जो अन्य डेटा बिंदुओं से काफी भिन्न है",
+      "sentence": [
+        {
+          "sentence": "The outlier in the data was removed to improve the accuracy of the analysis.",
+          "translation": "विश्लेषण की सटीकता में सुधार करने के लिए डेटा में असंगति को हटा दिया गया था।"
+        },
+        {
+          "sentence": "The outliers in the dataset were identified and investigated further.",
+          "translation": "डेटासेट में असंगतियों की पहचान की गई और आगे जांच की गई।"
+        }
+      ]
+    },
+    {
+      "word": "Trend",
+      "phoneticRespelling": "TREND",
+      "translation": "प्रवृत्ति",
+      "definition": "A general direction or pattern in which something is moving or changing",
+      "definationTranslation": "एक सामान्य दिशा या पैटर्न जिसमें कुछ बढ़ रहा है या बदल रहा है",
+      "sentence": [
+        {
+          "sentence": "The trend in the data showed an increase in sales over time.",
+          "translation": "डेटा में प्रवृत्ति ने समय के साथ बिक्री में वृद्धि दिखाई।"
+        },
+        {
+          "sentence": "The trend in the market was towards more sustainable products.",
+          "translation": "बाजार में प्रवृत्ति अधिक टिकाऊ उत्पादों की ओर थी।"
+        }
+      ]
+    },
+    {
+      "word": "Forecast",
+      "phoneticRespelling": "FOR-kast",
+      "translation": "पूर्वानुमान",
+      "definition": "A prediction or estimate of future events or trends",
+      "definationTranslation": "भविष्य की घटनाओं या प्रवृत्तियों की भविष्यवाणी या अनुमान",
+      "sentence": [
+        {
+          "sentence": "The company made a forecast of its future sales based on historical data.",
+          "translation": "कंपनी ने ऐतिहासिक डेटा के आधार पर अपनी भविष्य की बिक्री का पूर्वानुमान लगाया।"
+        },
+        {
+          "sentence": "The forecast indicated a high probability of a recession.",
+          "translation": "पूर्वानुमान ने एक मंदी की उच्च संभावना को दर्शाया।"
+        }
+      ]
+    },
+    {
+      "word": "Model",
+      "phoneticRespelling": "MOD-ul",
+      "translation": "मॉडल",
+      "definition": "A mathematical or statistical representation of a system or process",
+      "definationTranslation": "एक प्रणाली या प्रक्रिया का गणितीय या सांख्यिकीय प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The researcher developed a model to simulate the behavior of the system.",
+          "translation": "शोधकर्ता ने प्रणाली के व्यवहार को अनुकरण करने के लिए एक मॉडल विकसित किया।"
+        },
+        {
+          "sentence": "The model was used to predict the outcome of different scenarios.",
+          "translation": "मॉडल का उपयोग विभिन्न परिदृश्यों के परिणाम की भविष्यवाणी करने के लिए किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Simulation",
+      "phoneticRespelling": "sim-yoo-LAY-shun",
+      "translation": "अनुकरण",
+      "definition": "The use of a model to mimic the behavior of a system or process",
+      "definationTranslation": "एक मॉडल का उपयोग एक प्रणाली या प्रक्रिया के व्यवहार को अनुकरण करने के लिए",
+      "sentence": [
+        {
+          "sentence": "The simulation showed the potential outcomes of different policy decisions.",
+          "translation": "अनुकरण ने विभिन्न नीति निर्णयों के संभावित परिणामों को दिखाया।"
+        },
+        {
+          "sentence": "The simulation was used to test the robustness of the system.",
+          "translation": "अनुकरण का उपयोग प्रणाली की मजबूती का परीक्षण करने के लिए किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "अल्गोरिदम",
+      "definition": "A set of rules or procedures for solving a problem or performing a task",
+      "definationTranslation": "एक समस्या का समाधान करने या एक कार्य को पूरा करने के लिए नियमों या प्रक्रियाओं का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The algorithm was designed to optimize the solution to the problem.",
+          "translation": "अल्गोरिदम को समस्या के समाधान को अनुकूलित करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The algorithm was used to analyze large datasets and identify patterns.",
+          "translation": "अल्गोरिदम का उपयोग बड़े डेटासेट का विश्लेषण करने और पैटर्न की पहचान करने के लिए किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "डेटा",
+      "definition": "Facts and statistics collected together for reference or analysis",
+      "definationTranslation": "संदर्भ या विश्लेषण के लिए एकत्र किए गए तथ्य और आंकड़े",
+      "sentence": [
+        {
+          "sentence": "The data was collected from various sources and analyzed to draw conclusions.",
+          "translation": "डेटा विभिन्न स्रोतों से एकत्र किया गया था और निष्कर्ष निकालने के लिए विश्लेषित किया गया था।"
+        },
+        {
+          "sentence": "The data was visualized using charts and graphs to facilitate understanding.",
+          "translation": "डेटा को समझने में सुविधा के लिए चार्ट और ग्राफ का उपयोग करके दृश्यीकृत किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Statistical",
+      "phoneticRespelling": "stuh-TIS-ti-kuhl",
+      "translation": "सांख्यिकीय",
+      "definition": "Relating to the collection, analysis, and interpretation of numerical data",
+      "definationTranslation": "संख्यात्मक डेटा के संग्रह, विश्लेषण और व्याख्या से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The statistical analysis revealed trends and patterns in the data.",
+          "translation": "सांख्यिकीय विश्लेषण ने डेटा में प्रवृत्तियों और पैटर्न को उजागर किया।"
+        },
+        {
+          "sentence": "The statistical model was used to predict future outcomes.",
+          "translation": "सांख्यिकीय मॉडल का उपयोग भविष्य के परिणामों की भविष्यवाणी करने के लिए किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Inference",
+      "phoneticRespelling": "in-FUR-uhns",
+      "translation": "अनुमान",
+      "definition": "A conclusion or opinion based on evidence and reasoning",
+      "definationTranslation": "साक्ष्य और तर्क पर आधारित एक निष्कर्ष या राय",
+      "sentence": [
+        {
+          "sentence": "The researcher made an inference about the population based on the sample data.",
+          "translation": "शोधकर्ता ने नमूना डेटा के आधार पर जनसंख्या के बारे में एक अनुमान लगाया।"
+        },
+        {
+          "sentence": "The inference was supported by the data and statistical analysis.",
+          "translation": "अनुमान को डेटा और सांख्यिकीय विश्लेषण द्वारा समर्थित किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Probability",
+      "phoneticRespelling": "prob-uh-BIL-i-tee",
+      "translation": "संभावना",
+      "definition": "A measure of the likelihood of an event occurring",
+      "definationTranslation": "एक घटना के घटित होने की संभावना का एक माप",
+      "sentence": [
+        {
+          "sentence": "The probability of the event was calculated using statistical formulas.",
+          "translation": "सांख्यिकीय सूत्रों का उपयोग करके घटना की संभावना की गणना की गई थी।"
+        },
+        {
+          "sentence": "The probability of success was high due to the large sample size.",
+          "translation": "बड़े नमूना आकार के कारण सफलता की संभावना अधिक थी।"
+        }
+      ]
+    },
+    {
+      "word": "Sampling",
+      "phoneticRespelling": "SAM-plin",
+      "translation": "नमूनाकरण",
+      "definition": "The process of selecting a subset of data from a larger population",
+      "definationTranslation": "एक बड़ी जनसंख्या से डेटा का एक उपसमूह चुनने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The sampling method was chosen to ensure representation of the population.",
+          "translation": "नमूनाकरण विधि का चयन जनसंख्या के प्रतिनिधित्व को सुनिश्चित करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "The sampling frame was defined to include all possible participants.",
+          "translation": "नमूना फ्रेम को सभी संभावित भागीदारों को शामिल करने के लिए परिभाषित किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Survey",
+      "phoneticRespelling": "SUR-vay",
+      "translation": "सर्वेक्षण",
+      "definition": "A systematic collection of data from a sample of people or objects",
+      "definationTranslation": "लोगों या वस्तुओं के एक नमूने से डेटा का एक व्यवस्थित संग्रह",
+      "sentence": [
+        {
+          "sentence": "The survey was conducted to gather information about public opinion.",
+          "translation": "सर्वेक्षण को सार्वजनिक राय के बारे में जानकारी इकट्ठा करने के लिए आयोजित किया गया था।"
+        },
+        {
+          "sentence": "The survey results were used to inform policy decisions.",
+          "translation": "सर्वेक्षण के परिणाम नीति निर्णयों को सूचित करने के लिए उपयोग किए गए थे।"
+        }
+      ]
+    },
+    {
+      "word": "Census",
+      "phoneticRespelling": "SEN-sus",
+      "translation": "जनगणना",
+      "definition": "An official count or survey of a population",
+      "definationTranslation": "एक जनसंख्या की आधिकारिक गणना या सर्वेक्षण",
+      "sentence": [
+        {
+          "sentence": "The census was conducted to gather data on the population's demographics.",
+          "translation": "जनसंख्या के जनांकड़ों पर डेटा इकट्ठा करने के लिए जनगणना आयोजित की गई थी।"
+        },
+        {
+          "sentence": "The census results were used to allocate resources and plan services.",
+          "translation": "जनगणना के परिणाम संसाधनों को आवंटित करने और सेवाओं की योजना बनाने के लिए उपयोग किए गए थे।"
+        }
+      ]
+    },
+    {
+      "word": "Descriptive",
+      "phoneticRespelling": "di-SKRIP-tiv",
+      "translation": "विवरणात्मक",
+      "definition": "Serving to describe or characterize something",
+      "definationTranslation": "किसी चीज का वर्णन या विशेषता करने वाला",
+      "sentence": [
+        {
+          "sentence": "The descriptive statistics provided an overview of the data.",
+          "translation": "विवरणात्मक सांख्यिकी ने डेटा का एक अवलोकन प्रदान किया।"
+        },
+        {
+          "sentence": "The descriptive analysis revealed patterns and trends in the data.",
+          "translation": "विवरणात्मक विश्लेषण ने डेटा में पैटर्न और प्रवृत्तियों को उजागर किया।"
+        }
+      ]
+    },
+    {
+      "word": "Inferential",
+      "phoneticRespelling": "in-FER-en-shul",
+      "translation": "अनुमानात्मक",
+      "definition": "Relating to the use of statistics to make inferences about a population",
+      "definationTranslation": "एक जनसंख्या के बारे में अनुमान लगाने के लिए सांख्यिकी के उपयोग से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The inferential statistics were used to make predictions about the population.",
+          "translation": "अनुमानात्मक सांख्यिकी का उपयोग जनसंख्या के बारे में भविष्यवाणियां करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "The inferential analysis revealed insights into the population's characteristics.",
+          "translation": "अनुमानात्मक विश्लेषण ने जनसंख्या की विशेषताओं के बारे में अंतर्दृष्टि प्रदान की।"
+        }
+      ]
+    }
+  ],
+  "_warning": "Requested 25 words but got 24."
+}

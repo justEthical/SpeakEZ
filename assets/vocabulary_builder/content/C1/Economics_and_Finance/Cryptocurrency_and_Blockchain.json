@@ -1,1 +1,498 @@
-{}
+{
+  "topic": "Cryptocurrency and Blockchain",
+  "words": [
+    {
+      "word": "Blockchain",
+      "phoneticRespelling": "BLOK-chayn",
+      "translation": "ब्लॉकचेन",
+      "definition": "A digital ledger that records transactions across a network of computers",
+      "definationTranslation": "एक डिजिटल बहीखाता जो कंप्यूटरों के नेटवर्क में लेनदेन को रिकॉर्ड करता है",
+      "sentence": [
+        {
+          "sentence": "The company uses blockchain technology to secure its transactions.",
+          "translation": "कंपनी लेनदेन को सुरक्षित करने के लिए ब्लॉकचेन तकनीक का उपयोग करती है।"
+        },
+        {
+          "sentence": "Blockchain is a key component of most cryptocurrencies.",
+          "translation": "ब्लॉकचेन अधिकांश क्रिप्टोकरेंसी का एक प्रमुख घटक है।"
+        }
+      ]
+    },
+    {
+      "word": "Cryptocurrency",
+      "phoneticRespelling": "KRIP-toh-KUR-en-see",
+      "translation": "क्रिप्टोकरेंसी",
+      "definition": "A digital or virtual currency that uses cryptography for security",
+      "definationTranslation": "एक डिजिटल या आभासी मुद्रा जो सुरक्षा के लिए क्रिप्टोग्राफी का उपयोग करती है",
+      "sentence": [
+        {
+          "sentence": "Bitcoin is a popular cryptocurrency.",
+          "translation": "बिटकॉइन एक लोकप्रिय क्रिप्टोकरेंसी है।"
+        },
+        {
+          "sentence": "The use of cryptocurrency is becoming more widespread.",
+          "translation": "क्रिप्टोकरेंसी का उपयोग अधिक व्यापक होता जा रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Mining",
+      "phoneticRespelling": "MAY-ning",
+      "translation": "खनन",
+      "definition": "The process of validating transactions on a blockchain network",
+      "definationTranslation": "ब्लॉकचेन नेटवर्क पर लेनदेन को मान्य करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Mining is a crucial part of the blockchain ecosystem.",
+          "translation": "खनन ब्लॉकचेन पारिस्थितिकी का एक महत्वपूर्ण हिस्सा है।"
+        },
+        {
+          "sentence": "The mining process requires significant computational power.",
+          "translation": "खनन प्रक्रिया में महत्वपूर्ण कम्प्यूटेशनल शक्ति की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Wallet",
+      "phoneticRespelling": "WAH-let",
+      "translation": "वॉलेट",
+      "definition": "A software program that stores, sends, and receives digital currency",
+      "definationTranslation": "एक सॉफ्टवेयर प्रोग्राम जो डिजिटल मुद्रा को संग्रहीत, भेजता और प्राप्त करता है",
+      "sentence": [
+        {
+          "sentence": "You need a digital wallet to store your cryptocurrency.",
+          "translation": "आपको अपनी क्रिप्टोकरेंसी को संग्रहीत करने के लिए एक डिजिटल वॉलेट की आवश्यकता है।"
+        },
+        {
+          "sentence": "The wallet provides a secure way to manage your cryptocurrency.",
+          "translation": "वॉलेट आपकी क्रिप्टोकरेंसी को प्रबंधित करने का एक सुरक्षित तरीका प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Transaction",
+      "phoneticRespelling": "TRAN-zak-shun",
+      "translation": "लेनदेन",
+      "definition": "The act of sending or receiving digital currency",
+      "definationTranslation": "डिजिटल मुद्रा को भेजने या प्राप्त करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The transaction was confirmed by the blockchain network.",
+          "translation": "लेनदेन को ब्लॉकचेन नेटवर्क द्वारा पुष्टि की गई थी।"
+        },
+        {
+          "sentence": "The transaction fee is paid to the miners for validating the transaction.",
+          "translation": "लेनदेन शुल्क को लेनदेन को मान्य करने के लिए खननकर्ताओं को भुगतान किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Node",
+      "phoneticRespelling": "NOHD",
+      "translation": "नोड",
+      "definition": "A computer that connects to a blockchain network",
+      "definationTranslation": "एक कंप्यूटर जो ब्लॉकचेन नेटवर्क से जुड़ता है",
+      "sentence": [
+        {
+          "sentence": "Each node on the network has a copy of the blockchain.",
+          "translation": "नेटवर्क पर प्रत्येक नोड के पास ब्लॉकचेन की एक प्रति है।"
+        },
+        {
+          "sentence": "The node verifies the transactions and updates the blockchain.",
+          "translation": "नोड लेनदेन को सत्यापित करता है और ब्लॉकचेन को अपडेट करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Private Key",
+      "phoneticRespelling": "PRY-vit KEE",
+      "translation": "निजी कुंजी",
+      "definition": "A unique code used to access and manage a cryptocurrency wallet",
+      "definationTranslation": "एक क्रिप्टोकरेंसी वॉलेट तक पहुंचने और प्रबंधित करने के लिए उपयोग किया जाने वाला एक अद्वितीय कोड",
+      "sentence": [
+        {
+          "sentence": "The private key is used to sign transactions and control the wallet.",
+          "translation": "निजी कुंजी का उपयोग लेनदेन पर हस्ताक्षर करने और वॉलेट को नियंत्रित करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "You should keep your private key secure to prevent unauthorized access.",
+          "translation": "आपको अपनी निजी कुंजी को सुरक्षित रखना चाहिए ताकि अनधिकृत पहुंच को रोका जा सके।"
+        }
+      ]
+    },
+    {
+      "word": "Public Key",
+      "phoneticRespelling": "PUB-lik KEE",
+      "translation": "सार्वजनिक कुंजी",
+      "definition": "A unique code used to receive cryptocurrency",
+      "definationTranslation": "क्रिप्टोकरेंसी प्राप्त करने के लिए उपयोग किया जाने वाला एक अद्वितीय कोड",
+      "sentence": [
+        {
+          "sentence": "The public key is used to receive cryptocurrency and verify transactions.",
+          "translation": "सार्वजनिक कुंजी का उपयोग क्रिप्टोकरेंसी प्राप्त करने और लेनदेन को सत्यापित करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "You can share your public key with others to receive cryptocurrency.",
+          "translation": "आप दूसरों के साथ अपनी सार्वजनिक कुंजी साझा कर सकते हैं ताकि क्रिप्टोकरेंसी प्राप्त की जा सके।"
+        }
+      ]
+    },
+    {
+      "word": "Hash",
+      "phoneticRespelling": "HASH",
+      "translation": "हैश",
+      "definition": "A digital fingerprint of a piece of data",
+      "definationTranslation": "एक डेटा का डिजिटल फिंगरप्रिंट",
+      "sentence": [
+        {
+          "sentence": "The hash is used to identify and verify data on the blockchain.",
+          "translation": "हैश का उपयोग ब्लॉकचेन पर डेटा की पहचान और सत्यापन के लिए किया जाता है।"
+        },
+        {
+          "sentence": "The hash is unique to each block of transactions on the blockchain.",
+          "translation": "हैश ब्लॉकचेन पर प्रत्येक लेनदेन ब्लॉक के लिए अद्वितीय है।"
+        }
+      ]
+    },
+    {
+      "word": "Decentralized",
+      "phoneticRespelling": "DEE-sen-truh-lized",
+      "translation": "विकेंद्रीकृत",
+      "definition": "A system or network that operates without a central authority",
+      "definationTranslation": "एक प्रणाली या नेटवर्क जो केंद्रीय प्राधिकरण के बिना संचालित होता है",
+      "sentence": [
+        {
+          "sentence": "The blockchain is a decentralized system for recording transactions.",
+          "translation": "ब्लॉकचेन लेनदेन को रिकॉर्ड करने के लिए एक विकेंद्रीकृत प्रणाली है।"
+        },
+        {
+          "sentence": "Decentralized systems are more secure and transparent than centralized ones.",
+          "translation": "विकेंद्रीकृत प्रणालियां केंद्रीकृत लोगों की तुलना में अधिक सुरक्षित और पारदर्शी हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Consensus",
+      "phoneticRespelling": "KON-sen-sus",
+      "translation": "समर्थन",
+      "definition": "An agreement among nodes on a blockchain network about the state of the blockchain",
+      "definationTranslation": "ब्लॉकचेन नेटवर्क पर नोड्स के बीच ब्लॉकचेन की स्थिति के बारे में एक समझौता",
+      "sentence": [
+        {
+          "sentence": "Consensus is achieved through a process of validation and verification.",
+          "translation": "समर्थन सत्यापन और सत्यापन की प्रक्रिया के माध्यम से प्राप्त किया जाता है।"
+        },
+        {
+          "sentence": "The consensus mechanism ensures the integrity of the blockchain.",
+          "translation": "समर्थन तंत्र ब्लॉकचेन की अखंडता सुनिश्चित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Smart Contract",
+      "phoneticRespelling": "SMART KON-trakt",
+      "translation": "स्मार्ट अनुबंध",
+      "definition": "A self-executing contract with the terms of the agreement written directly into lines of code",
+      "definationTranslation": "एक स्व-अमलकरण अनुबंध जिसमें समझौते की शर्तें कोड की पंक्तियों में सीधे लिखी जाती हैं",
+      "sentence": [
+        {
+          "sentence": "Smart contracts are used to automate the execution of agreements on the blockchain.",
+          "translation": "स्मार्ट अनुबंध ब्लॉकचेन पर समझौतों के अमलकरण को स्वचालित करने के लिए उपयोग किए जाते हैं।"
+        },
+        {
+          "sentence": "The smart contract ensures that the terms of the agreement are fulfilled.",
+          "translation": "स्मार्ट अनुबंध यह सुनिश्चित करता है कि समझौते की शर्तें पूरी हुईं।"
+        }
+      ]
+    },
+    {
+      "word": "Token",
+      "phoneticRespelling": "TOH-ken",
+      "translation": "टोकन",
+      "definition": "A digital asset issued on a blockchain",
+      "definationTranslation": "ब्लॉकचेन पर जारी एक डिजिटल परिसंपत्ति",
+      "sentence": [
+        {
+          "sentence": "The token can be used to represent a particular asset or utility.",
+          "translation": "टोकन का उपयोग एक विशिष्ट परिसंपत्ति या उपयोगिता का प्रतिनिधित्व करने के लिए किया जा सकता है।"
+        },
+        {
+          "sentence": "The token is traded on cryptocurrency exchanges.",
+          "translation": "टोकन क्रिप्टोकरेंसी एक्सचेंजों पर कारोबार किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "ICO",
+      "phoneticRespelling": "AY-SEE-OH",
+      "translation": "आईसीओ",
+      "definition": "An initial coin offering, a way for companies to raise funds by issuing their own cryptocurrency",
+      "definationTranslation": "एक प्रारंभिक सिक्का पेशकश, कंपनियों के लिए अपनी क्रिप्टोकरेंसी जारी करके धन जुटाने का एक तरीका",
+      "sentence": [
+        {
+          "sentence": "The company raised millions of dollars through an ICO.",
+          "translation": "कंपनी ने आईसीओ के माध्यम से लाखों डॉलर जुटाए।"
+        },
+        {
+          "sentence": "The ICO market has been plagued by scams and regulatory issues.",
+          "translation": "आईसीओ बाजार पर धोखाधड़ी और नियामक मुद्दों से प्रभावित हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "Fork",
+      "phoneticRespelling": "FOR-k",
+      "translation": "फोर्क",
+      "definition": "A change to the protocol of a blockchain that creates a new version of the blockchain",
+      "definationTranslation": "ब्लॉकचेन के प्रोटोकॉल में एक परिवर्तन जो ब्लॉकचेन का एक नया संस्करण बनाता है",
+      "sentence": [
+        {
+          "sentence": "The fork created a new cryptocurrency with its own blockchain.",
+          "translation": "फोर्क ने अपने स्वयं के ब्लॉकचेन के साथ एक नई क्रिप्टोकरेंसी बनाई।"
+        },
+        {
+          "sentence": "The fork was caused by a disagreement among the developers.",
+          "translation": "फोर्क विकासकों के बीच असहमति के कारण हुआ था।"
+        }
+      ]
+    },
+    {
+      "word": "Address",
+      "phoneticRespelling": "AD-res",
+      "translation": "पता",
+      "definition": "A unique identifier for a user on a blockchain",
+      "definationTranslation": "ब्लॉकचेन पर एक उपयोगकर्ता के लिए एक अद्वितीय पहचानकर्ता",
+      "sentence": [
+        {
+          "sentence": "The address is used to send and receive cryptocurrency.",
+          "translation": "पते का उपयोग क्रिप्टोकरेंसी भेजने और प्राप्त करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "The address is a long string of characters that is unique to each user.",
+          "translation": "पता एक लंबी अक्षरों की स्ट्रिंग है जो प्रत्येक उपयोगकर्ता के लिए अद्वितीय है।"
+        }
+      ]
+    },
+    {
+      "word": "Exchange",
+      "phoneticRespelling": "EK-schange",
+      "translation": "एक्सचेंज",
+      "definition": "A platform that allows users to buy, sell, and trade cryptocurrencies",
+      "definationTranslation": "एक मंच जो उपयोगकर्ताओं को क्रिप्टोकरेंसी खरीदने, बेचने और व्यापार करने की अनुमति देता है",
+      "sentence": [
+        {
+          "sentence": "The exchange allows users to trade cryptocurrencies for fiat currency.",
+          "translation": "एक्सचेंज उपयोगकर्ताओं को क्रिप्टोकरेंसी को फियाट मुद्रा के लिए व्यापार करने की अनुमति देता है।"
+        },
+        {
+          "sentence": "The exchange is a popular platform for buying and selling cryptocurrencies.",
+          "translation": "एक्सचेंज क्रिप्टोकरेंसी खरीदने और बेचने के लिए एक लोकप्रिय मंच है।"
+        }
+      ]
+    },
+    {
+      "word": "Gas",
+      "phoneticRespelling": "GAS",
+      "translation": "गैस",
+      "definition": "A unit of measurement for the computational effort required to execute a transaction on a blockchain",
+      "definationTranslation": "ब्लॉकचेन पर एक लेनदेन को निष्पादित करने के लिए आवश्यक गणना प्रयास के लिए एक माप इकाई",
+      "sentence": [
+        {
+          "sentence": "The gas limit determines the maximum amount of gas that can be used for a transaction.",
+          "translation": "गैस सीमा एक लेनदेन के लिए उपयोग की जा सकने वाली अधिकतम गैस की मात्रा निर्धारित करती है।"
+        },
+        {
+          "sentence": "The gas price is the amount of cryptocurrency required to execute a transaction.",
+          "translation": "गैस मूल्य एक लेनदेन को निष्पादित करने के लिए आवश्यक क्रिप्टोकरेंसी की मात्रा है।"
+        }
+      ]
+    },
+    {
+      "word": "HODL",
+      "phoneticRespelling": "HOH-dul",
+      "translation": "होल्ड",
+      "definition": "A strategy of holding onto a cryptocurrency for long-term investment",
+      "definationTranslation": "दीर्घकालिक निवेश के लिए एक क्रिप्टोकरेंसी को पकड़कर रखने की एक रणनीति",
+      "sentence": [
+        {
+          "sentence": "The investor decided to HODL the cryptocurrency despite the market fluctuations.",
+          "translation": "निवेशक ने बाजार की उतार-चढ़ाव के बावजूद क्रिप्टोकरेंसी को पकड़कर रखने का फैसला किया।"
+        },
+        {
+          "sentence": "HODL is a popular strategy among cryptocurrency investors.",
+          "translation": "होल्ड क्रिप्टोकरेंसी निवेशकों के बीच एक लोकप्रिय रणनीति है।"
+        }
+      ]
+    },
+    {
+      "word": "Satoshi",
+      "phoneticRespelling": "SAH-toh-see",
+      "translation": "सतोशी",
+      "definition": "The smallest unit of bitcoin, equal to 0.00000001 BTC",
+      "definationTranslation": "बिटकॉइन की सबसे छोटी इकाई, जो 0.00000001 बीटीसी के बराबर है",
+      "sentence": [
+        {
+          "sentence": "The satoshi is named after the creator of bitcoin.",
+          "translation": "सतोशी को बिटकॉइन के निर्माता के नाम पर रखा गया है।"
+        },
+        {
+          "sentence": "The satoshi is used to represent small amounts of bitcoin.",
+          "translation": "सतोशी का उपयोग बिटकॉइन की छोटी मात्रा का प्रतिनिधित्व करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Sharding",
+      "phoneticRespelling": "SHAR-ding",
+      "translation": "शार्डिंग",
+      "definition": "A technique for dividing a blockchain into smaller, more manageable pieces",
+      "definationTranslation": "ब्लॉकचेन को छोटे और अधिक प्रबंधनीय टुकड़ों में विभाजित करने की एक तकनीक",
+      "sentence": [
+        {
+          "sentence": "Sharding is used to improve the scalability of a blockchain.",
+          "translation": "शार्डिंग का उपयोग ब्लॉकचेन की स्केलेबिलिटी में सुधार करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "Sharding allows for faster transaction processing and increased storage capacity.",
+          "translation": "शार्डिंग तेजी से लेनदेन प्रसंस्करण और बढ़ी हुई भंडारण क्षमता की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Soft Fork",
+      "phoneticRespelling": "SOFT FOR-k",
+      "translation": "सॉफ्ट फोर्क",
+      "definition": "A change to the protocol of a blockchain that is backward compatible",
+      "definationTranslation": "ब्लॉकचेन के प्रोटोकॉल में एक परिवर्तन जो पिछड़ा अनुकूल है",
+      "sentence": [
+        {
+          "sentence": "The soft fork is a minor change to the blockchain protocol.",
+          "translation": "सॉफ्ट फोर्क ब्लॉकचेन प्रोटोकॉल में एक छोटा सा परिवर्तन है।"
+        },
+        {
+          "sentence": "The soft fork is compatible with the existing blockchain.",
+          "translation": "सॉफ्ट फोर्क मौजूदा ब्लॉकचेन के साथ संगत है।"
+        }
+      ]
+    },
+    {
+      "word": "Hard Fork",
+      "phoneticRespelling": "HARD FOR-k",
+      "translation": "हार्ड फोर्क",
+      "definition": "A change to the protocol of a blockchain that is not backward compatible",
+      "definationTranslation": "ब्लॉकचेन के प्रोटोकॉल में एक परिवर्तन जो पिछड़ा अनुकूल नहीं है",
+      "sentence": [
+        {
+          "sentence": "The hard fork is a major change to the blockchain protocol.",
+          "translation": "हार्ड फोर्क ब्लॉकचेन प्रोटोकॉल में एक बड़ा परिवर्तन है।"
+        },
+        {
+          "sentence": "The hard fork creates a new blockchain that is not compatible with the old one.",
+          "translation": "हार्ड फोर्क एक नया ब्लॉकचेन बनाता है जो पुराने के साथ संगत नहीं है।"
+        }
+      ]
+    },
+    {
+      "word": "Off-Chain",
+      "phoneticRespelling": "OF-CHAYN",
+      "translation": "ऑफ-चेन",
+      "definition": "Transactions or data that occur outside of a blockchain",
+      "definationTranslation": "लेनदेन या डेटा जो ब्लॉकचेन के बाहर होता है",
+      "sentence": [
+        {
+          "sentence": "Off-chain transactions are not recorded on the blockchain.",
+          "translation": "ऑफ-चेन लेनदेन ब्लॉकचेन पर दर्ज नहीं किए जाते हैं।"
+        },
+        {
+          "sentence": "Off-chain data is not stored on the blockchain.",
+          "translation": "ऑफ-चेन डेटा ब्लॉकचेन पर संग्रहीत नहीं किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "On-Chain",
+      "phoneticRespelling": "ON-CHAYN",
+      "translation": "ऑन-चेन",
+      "definition": "Transactions or data that occur on a blockchain",
+      "definationTranslation": "लेनदेन या डेटा जो ब्लॉकचेन पर होता है",
+      "sentence": [
+        {
+          "sentence": "On-chain transactions are recorded on the blockchain.",
+          "translation": "ऑन-चेन लेनदेन ब्लॉकचेन पर दर्ज किए जाते हैं।"
+        },
+        {
+          "sentence": "On-chain data is stored on the blockchain.",
+          "translation": "ऑन-चेन डेटा ब्लॉकचेन पर संग्रहीत किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Rebase",
+      "phoneticRespelling": "REE-bayz",
+      "translation": "रीबेस",
+      "definition": "To adjust the supply of a cryptocurrency to maintain its value",
+      "definationTranslation": "एक क्रिप्टोकरेंसी की आपूर्ति को समायोजित करने के लिए इसके मूल्य को बनाए रखने के लिए",
+      "sentence": [
+        {
+          "sentence": "The cryptocurrency was rebased to maintain its value.",
+          "translation": "क्रिप्टोकरेंसी को इसके मूल्य को बनाए रखने के लिए रीबेस किया गया था।"
+        },
+        {
+          "sentence": "Rebasing is a way to control the supply of a cryptocurrency.",
+          "translation": "रीबेसिंग एक क्रिप्टोकरेंसी की आपूर्ति को नियंत्रित करने का एक तरीका है।"
+        }
+      ]
+    },
+    {
+      "word": "Staking",
+      "phoneticRespelling": "STAY-king",
+      "translation": "स्टेकिंग",
+      "definition": "The process of holding and validating transactions on a proof-of-stake blockchain",
+      "definationTranslation": "एक प्रूफ-ऑफ-स्टेक ब्लॉकचेन पर लेनदेन को पकड़ने और सत्यापित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Staking is a way to validate transactions on a blockchain.",
+          "translation": "स्टेकिंग एक ब्लॉकचेन पर लेनदेन को सत्यापित करने का एक तरीका है।"
+        },
+        {
+          "sentence": "Staking requires holding a certain amount of cryptocurrency.",
+          "translation": "स्टेकिंग के लिए एक निश्चित मात्रा में क्रिप्टोकरेंसी रखने की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Validator",
+      "phoneticRespelling": "VAH-li-day-tor",
+      "translation": "वैलिडेटर",
+      "definition": "A node that verifies the validity of transactions on a blockchain",
+      "definationTranslation": "एक नोड जो ब्लॉकचेन पर लेनदेन की वैधता को सत्यापित करता है",
+      "sentence": [
+        {
+          "sentence": "The validator checks the transactions for validity.",
+          "translation": "वैलिडेटर लेनदेन को वैधता के लिए जांचता है।"
+        },
+        {
+          "sentence": "The validator is responsible for maintaining the integrity of the blockchain.",
+          "translation": "वैलिडेटर ब्लॉकचेन की अखंडता को बनाए रखने के लिए जिम्मेदार है।"
+        }
+      ]
+    },
+    {
+      "word": "Voting",
+      "phoneticRespelling": "VOH-ting",
+      "translation": "वोटिंग",
+      "definition": "The process of making decisions on a blockchain through a consensus mechanism",
+      "definationTranslation": "एक सहमति तंत्र के माध्यम से ब्लॉकचेन पर निर्णय लेने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Voting is used to make decisions on the blockchain.",
+          "translation": "वोटिंग का उपयोग ब्लॉकचेन पर निर्णय लेने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "Voting is a way to ensure that decisions are made in a decentralized manner.",
+          "translation": "वोटिंग एक तरीका है जिससे यह सुनिश्चित किया जा सके कि निर्णय विकेंद्रीकृत तरीके से किए जाते हैं।"
+        }
+      ]
+    }
+  ]
+}

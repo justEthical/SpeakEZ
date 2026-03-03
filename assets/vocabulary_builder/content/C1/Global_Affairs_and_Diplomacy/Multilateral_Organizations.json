@@ -1,1 +1,5 @@
-{}
+{
+  "error": "Failed to parse JSON",
+  "detail": "Unterminated string starting at: line 436 column 11 (char 26807)",
+  "raw_output": "\"topic\": \"Multilateral Organizations\",\n  \"words\": [\n    {\n      \"word\": \"United Nations\",\n      \"phoneticRespelling\": \"YOO-ni-ted NAY-shuns\",\n      \"translation\": \"संयुक्त राष्ट्र\",\n      \"definition\": \"An international organization that aims to promote peace, security, and cooperation among its member states\",\n      \"definationTranslation\": \"एक अंतरराष्ट्रीय संगठन जिसका उद्देश्य अपने सदस्य राज्यों के बीच शांति, सुरक्षा और सहयोग को बढ़ावा देना है\",\n      \"sentence\": [\n        {\n          \"senten"
+}

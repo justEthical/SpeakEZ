@@ -1,1 +1,5 @@
-{}
+{
+  "error": "Failed to parse JSON",
+  "detail": "Unterminated string starting at: line 386 column 26 (char 24993)",
+  "raw_output": "\"topic\": \"Behavioral Economics\",\n  \"words\": [\n    {\n      \"word\": \"Anchoring\",\n      \"phoneticRespelling\": \"AN-chor-ing\",\n      \"translation\": \"निर्धारण\",\n      \"definition\": \"The tendency to rely too heavily on the first piece of information encountered when making a decision.\",\n      \"definationTranslation\": \"निर्णय लेते समय मिलने वाली पहली जानकारी पर बहुत अधिक निर्भर करने की प्रवृत्ति\",\n      \"sentence\": [\n        {\n          \"sentence\": \"The company used anchoring to make the new price seem "
+}

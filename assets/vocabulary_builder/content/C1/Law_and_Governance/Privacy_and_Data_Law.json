@@ -1,1 +1,447 @@
-{}
+{
+  "topic": "Privacy and Data Law",
+  "words": [
+    {
+      "word": "confidentiality",
+      "phoneticRespelling": "konFI-den-shul",
+      "translation": "गोपनीयता",
+      "definition": "The state of keeping information secret",
+      "definationTranslation": "गुप्त जानकारी रखने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company must maintain confidentiality of customer data.",
+          "translation": "कंपनी को ग्राहक डेटा की गोपनीयता बनाए रखनी होगी।"
+        },
+        {
+          "sentence": "Confidentiality agreements are essential in business deals.",
+          "translation": "व्यावसायिक सौदों में गोपनीयता समझौते आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "compliance",
+      "phoneticRespelling": "kumPLI-ans",
+      "translation": "अनुपालन",
+      "definition": "The act of obeying rules or regulations",
+      "definationTranslation": "नियमों या विनियमों का पालन करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The company ensures compliance with data protection laws.",
+          "translation": "कंपनी डेटा संरक्षण कानूनों के अनुपालन की सुनिश्चित करती है।"
+        },
+        {
+          "sentence": "Compliance with regulations is crucial for businesses.",
+          "translation": "विनियमों का अनुपालन व्यवसायों के लिए महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "consent",
+      "phoneticRespelling": "konSENT",
+      "translation": "सहमति",
+      "definition": "Agreement to do something, especially to allow something to happen",
+      "definationTranslation": "कुछ करने की सहमति, विशेष रूप से कुछ होने की अनुमति देने के लिए",
+      "sentence": [
+        {
+          "sentence": "Users must give consent before personal data is collected.",
+          "translation": "व्यक्तिगत डेटा एकत्र करने से पहले उपयोगकर्ताओं को सहमति देनी होगी।"
+        },
+        {
+          "sentence": "Informed consent is necessary for medical procedures.",
+          "translation": "चिकित्सा प्रक्रियाओं के लिए सूचित सहमति आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "data",
+      "phoneticRespelling": "DAY-tah",
+      "translation": "डेटा",
+      "definition": "Information, especially facts or numbers, collected for examination or analysis",
+      "definationTranslation": "जानकारी, विशेष रूप से तथ्य या संख्याएं, जांच या विश्लेषण के लिए एकत्र की जाती हैं",
+      "sentence": [
+        {
+          "sentence": "The company collects and analyzes customer data to improve services.",
+          "translation": "कंपनी ग्राहक डेटा एकत्र करती है और सेवाओं में सुधार के लिए विश्लेषण करती है।"
+        },
+        {
+          "sentence": "Data protection laws regulate the use of personal data.",
+          "translation": "डेटा संरक्षण कानून व्यक्तिगत डेटा के उपयोग को नियंत्रित करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "database",
+      "phoneticRespelling": "DAY-tah-bays",
+      "translation": "डेटाबेस",
+      "definition": "A collection of organized data, especially one that is accessible by computer",
+      "definationTranslation": "संगठित डेटा का संग्रह, विशेष रूप से वह जो कंप्यूटर द्वारा सुलभ है",
+      "sentence": [
+        {
+          "sentence": "The company uses a database to store customer information.",
+          "translation": "कंपनी ग्राहक जानकारी संग्रहीत करने के लिए एक डेटाबेस का उपयोग करती है।"
+        },
+        {
+          "sentence": "The database is protected by firewalls and encryption.",
+          "translation": "डेटाबेस फ़ायरवॉल और एन्क्रिप्शन द्वारा संरक्षित है।"
+        }
+      ]
+    },
+    {
+      "word": "disclosure",
+      "phoneticRespelling": "dis-KLOH-zher",
+      "translation": "प्रकटीकरण",
+      "definition": "The act of making something known or public",
+      "definationTranslation": "कुछ को जानने या सार्वजनिक करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The company must make disclosure of data breaches.",
+          "translation": "कंपनी को डेटा उल्लंघनों का खुलासा करना होगा।"
+        },
+        {
+          "sentence": "Disclosure of personal data requires consent.",
+          "translation": "व्यक्तिगत डेटा का खुलासा करने के लिए सहमति की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "encryption",
+      "phoneticRespelling": "en-KRIHP-shun",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting data into a code to protect it from unauthorized access",
+      "definationTranslation": "डेटा को अनधिकृत पहुंच से बचाने के लिए इसे एक कोड में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company uses encryption to protect customer data.",
+          "translation": "कंपनी ग्राहक डेटा की सुरक्षा के लिए एन्क्रिप्शन का उपयोग करती है।"
+        },
+        {
+          "sentence": "Encryption is a key aspect of data security.",
+          "translation": "एन्क्रिप्शन डेटा सुरक्षा का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "fraud",
+      "phoneticRespelling": "FRAWD",
+      "translation": "धोखाधड़ी",
+      "definition": "The act of deceiving someone in order to get money or benefit",
+      "definationTranslation": "किसी को धोखा देने की क्रिया जिससे पैसा या लाभ प्राप्त हो",
+      "sentence": [
+        {
+          "sentence": "The company has measures to prevent online fraud.",
+          "translation": "कंपनी ने ऑनलाइन धोखाधड़ी को रोकने के उपाय किए हैं।"
+        },
+        {
+          "sentence": "Fraud detection is a critical aspect of data security.",
+          "translation": "धोखाधड़ी का पता लगाना डेटा सुरक्षा का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "identity",
+      "phoneticRespelling": "ih-DEN-ti-tee",
+      "translation": "पहचान",
+      "definition": "The state of being who or what someone or something is",
+      "definationTranslation": "किसी के या कुछ के वह होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "Identity theft is a growing concern.",
+          "translation": "पहचान चोरी एक बढ़ती चिंता है।"
+        },
+        {
+          "sentence": "The company verifies the identity of its customers.",
+          "translation": "कंपनी अपने ग्राहकों की पहचान को सत्यापित करती है।"
+        }
+      ]
+    },
+    {
+      "word": "information",
+      "phoneticRespelling": "in-for-MAY-shun",
+      "translation": "सूचना",
+      "definition": "Knowledge or facts about something, especially when found out by investigation or discovery",
+      "definationTranslation": "कुछ के बारे में ज्ञान या तथ्य, विशेष रूप से जब जांच या खोज द्वारा पता चलता है",
+      "sentence": [
+        {
+          "sentence": "The company collects and analyzes customer information.",
+          "translation": "कंपनी ग्राहक सूचना एकत्र करती है और विश्लेषण करती है।"
+        },
+        {
+          "sentence": "Information security is a top priority for businesses.",
+          "translation": "सूचना सुरक्षा व्यवसायों के लिए शीर्ष प्राथमिकता है।"
+        }
+      ]
+    },
+    {
+      "word": "intrusion",
+      "phoneticRespelling": "in-TROO-zhun",
+      "translation": "अतिक्रमण",
+      "definition": "The act of entering a place or system without permission",
+      "definationTranslation": "किसी स्थान या प्रणाली में अनुमति के बिना प्रवेश करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The company has measures to prevent intrusion into its database.",
+          "translation": "कंपनी ने अपने डेटाबेस में अतिक्रमण को रोकने के उपाय किए हैं।"
+        },
+        {
+          "sentence": "Intrusion detection systems are essential for data security.",
+          "translation": "अतिक्रमण का पता लगाने वाली प्रणाली डेटा सुरक्षा के लिए आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "jurisdiction",
+      "phoneticRespelling": "joo-RIHS-dik-shun",
+      "translation": "न्यायालय क्षेत्र",
+      "definition": "The authority of a court or government to make decisions about something",
+      "definationTranslation": "किसी न्यायालय या सरकार की किसी बात के बारे में निर्णय लेने की अधिकारिता",
+      "sentence": [
+        {
+          "sentence": "The company must comply with the jurisdiction of the country.",
+          "translation": "कंपनी को देश के न्यायालय क्षेत्र के अनुपालन की आवश्यकता है।"
+        },
+        {
+          "sentence": "Jurisdiction is a critical aspect of data protection laws.",
+          "translation": "न्यायालय क्षेत्र डेटा संरक्षण कानूनों का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "liability",
+      "phoneticRespelling": "lie-uh-BIL-i-tee",
+      "translation": "दायित्व",
+      "definition": "The state of being responsible for something, especially in a legal sense",
+      "definationTranslation": "कुछ के लिए जिम्मेदार होने की स्थिति, विशेष रूप से कानूनी अर्थ में",
+      "sentence": [
+        {
+          "sentence": "The company has liability insurance to protect against data breaches.",
+          "translation": "कंपनी के पास डेटा उल्लंघनों के खिलाफ सुरक्षा के लिए दायित्व बीमा है।"
+        },
+        {
+          "sentence": "Liability for data protection is a major concern for businesses.",
+          "translation": "डेटा संरक्षण के लिए दायित्व व्यवसायों के लिए एक बड़ी चिंता है।"
+        }
+      ]
+    },
+    {
+      "word": "malware",
+      "phoneticRespelling": "MAL-ware",
+      "translation": "मैलवेयर",
+      "definition": "Software that is intended to harm or exploit a computer system",
+      "definationTranslation": "सॉफ़्टवेयर जो एक कंप्यूटर प्रणाली को नुकसान पहुंचाने या शोषण करने के लिए डिज़ाइन किया गया है",
+      "sentence": [
+        {
+          "sentence": "The company has measures to prevent malware attacks.",
+          "translation": "कंपनी ने मैलवेयर हमलों को रोकने के उपाय किए हैं।"
+        },
+        {
+          "sentence": "Malware can cause significant damage to computer systems.",
+          "translation": "मैलवेयर कंप्यूटर प्रणालियों को महत्वपूर्ण नुकसान पहुंचा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "notification",
+      "phoneticRespelling": "noh-ti-FIH-kay-shun",
+      "translation": "सूचना",
+      "definition": "The act of informing someone or something about something",
+      "definationTranslation": "किसी को या कुछ के बारे में कुछ के बारे में सूचित करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The company must provide notification of data breaches to affected customers.",
+          "translation": "कंपनी को प्रभावित ग्राहकों को डेटा उल्लंघनों की सूचना देनी होगी।"
+        },
+        {
+          "sentence": "Notification of changes to terms and conditions is essential.",
+          "translation": "शर्तों और स्थितियों में परिवर्तनों की सूचना देना आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "personal",
+      "phoneticRespelling": "PUR-suh-nl",
+      "translation": "व्यक्तिगत",
+      "definition": "Relating to a person's private life or affairs",
+      "definationTranslation": "किसी व्यक्ति के निजी जीवन या मामलों से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Personal data includes information about an individual's private life.",
+          "translation": "व्यक्तिगत डेटा में किसी व्यक्ति के निजी जीवन के बारे में जानकारी शामिल है।"
+        },
+        {
+          "sentence": "Personal data protection is a fundamental right.",
+          "translation": "व्यक्तिगत डेटा संरक्षण एक मौलिक अधिकार है।"
+        }
+      ]
+    },
+    {
+      "word": "policy",
+      "phoneticRespelling": "POL-uh-see",
+      "translation": "नीति",
+      "definition": "A set of rules or principles that guide decisions or actions",
+      "definationTranslation": "निर्णय या क्रियाओं को मार्गदर्शन करने वाले नियमों या सिद्धांतों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The company has a data protection policy in place.",
+          "translation": "कंपनी के पास एक डेटा संरक्षण नीति है।"
+        },
+        {
+          "sentence": "Policy changes must be communicated to all stakeholders.",
+          "translation": "नीति परिवर्तनों को सभी हितधारकों को सूचित किया जाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "privacy",
+      "phoneticRespelling": "PRIH-vuh-see",
+      "translation": "गोपनीयता",
+      "definition": "The state of being private or free from public attention",
+      "definationTranslation": "निजी होने या सार्वजनिक ध्यान से मुक्त होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company respects the privacy of its customers.",
+          "translation": "कंपनी अपने ग्राहकों की गोपनीयता का सम्मान करती है।"
+        },
+        {
+          "sentence": "Privacy is a fundamental human right.",
+          "translation": "गोपनीयता एक मौलिक मानवाधिकार है।"
+        }
+      ]
+    },
+    {
+      "word": "protection",
+      "phoneticRespelling": "proh-TEK-shun",
+      "translation": "संरक्षण",
+      "definition": "The act of keeping someone or something safe from harm or danger",
+      "definationTranslation": "किसी को या कुछ को नुकसान या खतरे से सुरक्षित रखने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "The company provides data protection to its customers.",
+          "translation": "कंपनी अपने ग्राहकों को डेटा संरक्षण प्रदान करती है।"
+        },
+        {
+          "sentence": "Data protection is a critical aspect of privacy laws.",
+          "translation": "डेटा संरक्षण गोपनीयता कानूनों का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "regulation",
+      "phoneticRespelling": "reg-yoo-LAY-shun",
+      "translation": "विनियमन",
+      "definition": "A rule or law that controls or directs something",
+      "definationTranslation": "एक नियम या कानून जो कुछ को नियंत्रित या निर्देशित करता है",
+      "sentence": [
+        {
+          "sentence": "The company must comply with data protection regulations.",
+          "translation": "कंपनी को डेटा संरक्षण विनियमों के अनुपालन की आवश्यकता है।"
+        },
+        {
+          "sentence": "Regulation of personal data is essential for privacy.",
+          "translation": "गोपनीयता के लिए व्यक्तिगत डेटा का विनियमन आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "risk",
+      "phoneticRespelling": "RISK",
+      "translation": "जोखिम",
+      "definition": "A situation that could possibly lead to harm or danger",
+      "definationTranslation": "एक स्थिति जो संभावित रूप से नुकसान या खतरे का कारण बन सकती है",
+      "sentence": [
+        {
+          "sentence": "The company assesses the risk of data breaches.",
+          "translation": "कंपनी डेटा उल्लंघनों के जोखिम का आकलन करती है।"
+        },
+        {
+          "sentence": "Risk management is crucial for data protection.",
+          "translation": "जोखिम प्रबंधन डेटा संरक्षण के लिए महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "security",
+      "phoneticRespelling": "sih-KYOO-ri-tee",
+      "translation": "सुरक्षा",
+      "definition": "The state of being safe or protected from harm or danger",
+      "definationTranslation": "सुरक्षित होने या नुकसान या खतरे से संरक्षित होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company prioritizes data security.",
+          "translation": "कंपनी डेटा सुरक्षा को प्राथमिकता देती है।"
+        },
+        {
+          "sentence": "Security measures are in place to protect customer data.",
+          "translation": "ग्राहक डेटा की सुरक्षा के लिए सुरक्षा उपाय किए गए हैं।"
+        }
+      ]
+    },
+    {
+      "word": "sensitive",
+      "phoneticRespelling": "SEN-si-tiv",
+      "translation": "संवेदनशील",
+      "definition": "Requiring special care or attention because of being easily upset or damaged",
+      "definationTranslation": "विशेष देखभाल या ध्यान की आवश्यकता होने के कारण आसानी से परेशान या क्षतिग्रस्त होने के कारण",
+      "sentence": [
+        {
+          "sentence": "The company handles sensitive customer data with care.",
+          "translation": "कंपनी संवेदनशील ग्राहक डेटा को सावधानी से संभालती है।"
+        },
+        {
+          "sentence": "Sensitive information requires special protection.",
+          "translation": "संवेदनशील जानकारी के लिए विशेष सुरक्षा की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "threat",
+      "phoneticRespelling": "THRET",
+      "translation": "खतरा",
+      "definition": "A situation or event that could possibly cause harm or danger",
+      "definationTranslation": "एक स्थिति या घटना जो संभावित रूप से नुकसान या खतरा का कारण बन सकती है",
+      "sentence": [
+        {
+          "sentence": "The company assesses the threat of data breaches.",
+          "translation": "कंपनी डेटा उल्लंघनों के खतरे का आकलन करती है।"
+        },
+        {
+          "sentence": "Threats to data security must be addressed promptly.",
+          "translation": "डेटा सुरक्षा के खतरों को तुरंत संबोधित किया जाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "transparency",
+      "phoneticRespelling": "trans-PAR-en-see",
+      "translation": "पारदर्शिता",
+      "definition": "The state of being clear or transparent in actions or decisions",
+      "definationTranslation": "क्रियाओं या निर्णयों में स्पष्ट या पारदर्शी होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company values transparency in its data handling practices.",
+          "translation": "कंपनी अपने डेटा हैंडलिंग प्रथाओं में पारदर्शिता को महत्व देती है।"
+        },
+        {
+          "sentence": "Transparency is essential for building trust with customers.",
+          "translation": "ग्राहकों के साथ विश्वास बनाने के लिए पारदर्शिता आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "trust",
+      "phoneticRespelling": "TRUST",
+      "translation": "विश्वास",
+      "definition": "The state of believing in the honesty or reliability of someone or something",
+      "definationTranslation": "किसी के या कुछ की ईमानदारी या विश्वसनीयता में विश्वास करने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company works to build trust with its customers.",
+          "translation": "कंपनी अपने ग्राहकों के साथ विश्वास बनाने का प्रयास करती है।"
+        },
+        {
+          "sentence": "Trust is essential for a successful business relationship.",
+          "translation": "विश्वास एक सफल व्यावसायिक संबंध के लिए आवश्यक है।"
+        }
+      ]
+    }
+  ]
+}

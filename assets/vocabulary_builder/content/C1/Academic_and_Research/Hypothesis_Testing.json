@@ -1,1 +1,481 @@
-{}
+{
+  "topic": "Hypothesis Testing",
+  "words": [
+    {
+      "word": "Hypothesis",
+      "phoneticRespelling": "hi-POH-thuh-sis",
+      "translation": "कल्पना",
+      "definition": "An educated guess or a suggested explanation for a phenomenon",
+      "definationTranslation": "एक शिक्षित अनुमान या किसी घटना के लिए एक सुझाई गई व्याख्या",
+      "sentence": [
+        {
+          "sentence": "The researcher formulated a hypothesis to explain the unusual results.",
+          "translation": "शोधकर्ता ने असामान्य परिणामों की व्याख्या करने के लिए एक परिकल्पना तैयार की।"
+        },
+        {
+          "sentence": "The hypothesis was tested and found to be incorrect.",
+          "translation": "परिकल्पना का परीक्षण किया गया और यह गलत पाया गया।"
+        }
+      ]
+    },
+    {
+      "word": "Null",
+      "phoneticRespelling": "NUHL",
+      "translation": "शून्य",
+      "definition": "A hypothesis that states there is no effect or no difference",
+      "definationTranslation": "एक परिकल्पना जो यह कहती है कि कोई प्रभाव या कोई अंतर नहीं है",
+      "sentence": [
+        {
+          "sentence": "The null hypothesis states that the new medicine has no effect on the disease.",
+          "translation": "शून्य परिकल्पना यह कहती है कि नई दवा रोग पर कोई प्रभाव नहीं डालती है।"
+        },
+        {
+          "sentence": "The researcher rejected the null hypothesis and concluded that the results were significant.",
+          "translation": "शोधकर्ता ने शून्य परिकल्पना को अस्वीकार कर दिया और निष्कर्ष निकाला कि परिणाम महत्वपूर्ण थे।"
+        }
+      ]
+    },
+    {
+      "word": "Alternative",
+      "phoneticRespelling": "AL-tur-nuh-teeve",
+      "translation": "वैकल्पिक",
+      "definition": "A hypothesis that states there is an effect or a difference",
+      "definationTranslation": "एक परिकल्पना जो यह कहती है कि एक प्रभाव या एक अंतर है",
+      "sentence": [
+        {
+          "sentence": "The alternative hypothesis states that the new policy will increase sales.",
+          "translation": "वैकल्पिक परिकल्पना यह कहती है कि नई नीति बिक्री को बढ़ाएगी।"
+        },
+        {
+          "sentence": "The researcher tested the alternative hypothesis and found it to be true.",
+          "translation": "शोधकर्ता ने वैकल्पिक परिकल्पना का परीक्षण किया और पाया कि यह सच है।"
+        }
+      ]
+    },
+    {
+      "word": "Variable",
+      "phoneticRespelling": "VAY-ree-uh-bul",
+      "translation": "चल",
+      "definition": "A characteristic or attribute that can be measured or observed",
+      "definationTranslation": "एक विशेषता या गुण जो मापा जा सकता है या देखा जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The researcher identified several variables that could affect the outcome of the experiment.",
+          "translation": "शोधकर्ता ने कई चलों की पहचान की जो प्रयोग के परिणाम को प्रभावित कर सकते हैं।"
+        },
+        {
+          "sentence": "The variable of interest was the amount of time it took for the reaction to occur.",
+          "translation": "रुचि का चल यह था कि प्रतिक्रिया होने में कितना समय लगा।"
+        }
+      ]
+    },
+    {
+      "word": "Sample",
+      "phoneticRespelling": "SAM-pul",
+      "translation": "नमूना",
+      "definition": "A subset of individuals or items selected from a larger population",
+      "definationTranslation": "एक बड़ी आबादी से चुने गए व्यक्तियों या वस्तुओं का एक उपसमूह",
+      "sentence": [
+        {
+          "sentence": "The researcher selected a random sample of 100 participants for the study.",
+          "translation": "शोधकर्ता ने अध्ययन के लिए 100 प्रतिभागियों का एक यादृच्छिक नमूना चुना।"
+        },
+        {
+          "sentence": "The sample size was too small to produce reliable results.",
+          "translation": "नमूना आकार विश्वसनीय परिणाम उत्पन्न करने के लिए बहुत छोटा था।"
+        }
+      ]
+    },
+    {
+      "word": "Population",
+      "phoneticRespelling": "POH-pyoo-LAY-shun",
+      "translation": "जनसंख्या",
+      "definition": "The entire group of individuals or items that the researcher is interested in",
+      "definationTranslation": "वह पूरा समूह जिसमें शोधकर्ता रुचि रखता है",
+      "sentence": [
+        {
+          "sentence": "The population of interest was all adults living in the city.",
+          "translation": "रुचि की जनसंख्या शहर में रहने वाले सभी वयस्क थे।"
+        },
+        {
+          "sentence": "The researcher wanted to make inferences about the population based on the sample data.",
+          "translation": "शोधकर्ता नमूना डेटा के आधार पर जनसंख्या के बारे में निष्कर्ष निकालना चाहता था।"
+        }
+      ]
+    },
+    {
+      "word": "Inference",
+      "phoneticRespelling": "IN-fur-ens",
+      "translation": "निष्कर्ष",
+      "definition": "A conclusion drawn from data or evidence",
+      "definationTranslation": "डेटा या साक्ष्य से निकाला गया निष्कर्ष",
+      "sentence": [
+        {
+          "sentence": "The researcher made an inference about the population based on the sample data.",
+          "translation": "शोधकर्ता ने नमूना डेटा के आधार पर जनसंख्या के बारे में एक निष्कर्ष निकाला।"
+        },
+        {
+          "sentence": "The inference was that the new treatment was effective in reducing symptoms.",
+          "translation": "निष्कर्ष यह था कि नई उपचार ने लक्षणों को कम करने में प्रभावी था।"
+        }
+      ]
+    },
+    {
+      "word": "Significance",
+      "phoneticRespelling": "SIG-nif-i-kans",
+      "translation": "महत्व",
+      "definition": "The extent to which a result is unlikely to occur by chance",
+      "definationTranslation": "एक परिणाम के द्वारा अवसर पर होने की संभावना की मात्रा",
+      "sentence": [
+        {
+          "sentence": "The researcher determined the significance of the results using a statistical test.",
+          "translation": "शोधकर्ता ने एक सांख्यिकीय परीक्षण का उपयोग करके परिणामों के महत्व का निर्धारण किया।"
+        },
+        {
+          "sentence": "The results were statistically significant, indicating a real effect.",
+          "translation": "परिणाम सांख्यिकीय रूप से महत्वपूर्ण थे, जो एक वास्तविक प्रभाव को दर्शाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Type",
+      "phoneticRespelling": "TIEP",
+      "translation": "प्रकार",
+      "definition": "A category or classification of something",
+      "definationTranslation": "कुछ की एक श्रेणी या वर्गीकरण",
+      "sentence": [
+        {
+          "sentence": "The researcher identified two types of errors that could occur in the study.",
+          "translation": "शोधकर्ता ने अध्ययन में हो सकने वाली दो प्रकार की त्रुटियों की पहचान की।"
+        },
+        {
+          "sentence": "The type of data collected was quantitative and qualitative.",
+          "translation": "एकत्रित किए गए डेटा का प्रकार मात्रात्मक और गुणात्मक था।"
+        }
+      ]
+    },
+    {
+      "word": "Error",
+      "phoneticRespelling": "ER-or",
+      "translation": "त्रुटि",
+      "definition": "A mistake or inaccuracy in a measurement or calculation",
+      "definationTranslation": "एक माप या गणना में एक गलती या अशुद्धि",
+      "sentence": [
+        {
+          "sentence": "The researcher tried to minimize the error in the measurements.",
+          "translation": "शोधकर्ता ने माप में त्रुटि को कम करने की कोशिश की।"
+        },
+        {
+          "sentence": "The error in the calculation led to incorrect conclusions.",
+          "translation": "गणना में त्रुटि ने गलत निष्कर्षों की ओर ले जाने वाली थी।"
+        }
+      ]
+    },
+    {
+      "word": "Confidence",
+      "phoneticRespelling": "KON-fi-dens",
+      "translation": "आत्मविश्वास",
+      "definition": "The degree of certainty or trust in a result or conclusion",
+      "definationTranslation": "एक परिणाम या निष्कर्ष में निश्चितता या विश्वास की डिग्री",
+      "sentence": [
+        {
+          "sentence": "The researcher had high confidence in the results of the study.",
+          "translation": "शोधकर्ता को अध्ययन के परिणामों पर उच्च आत्मविश्वास था।"
+        },
+        {
+          "sentence": "The confidence interval was narrow, indicating a precise estimate.",
+          "translation": "आत्मविश्वास अंतराल संकीर्ण था, जो एक सटीक अनुमान को दर्शाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Interval",
+      "phoneticRespelling": "IN-tur-val",
+      "translation": "अंतराल",
+      "definition": "A range of values within which a population parameter is likely to lie",
+      "definationTranslation": "एक श्रेणी मान जिसके भीतर एक जनसंख्या मापदंड संभवतः स्थित है",
+      "sentence": [
+        {
+          "sentence": "The confidence interval was calculated to determine the population mean.",
+          "translation": "आत्मविश्वास अंतराल की गणना जनसंख्या के माध्य को निर्धारित करने के लिए की गई थी।"
+        },
+        {
+          "sentence": "The interval was wide, indicating a large amount of variability.",
+          "translation": "अंतराल चौड़ा था, जो बहुत अधिक परिवर्तनशीलता को दर्शाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Parameter",
+      "phoneticRespelling": "pah-RAH-mee-ter",
+      "translation": "मापदंड",
+      "definition": "A characteristic or attribute of a population",
+      "definationTranslation": "एक जनसंख्या की विशेषता या गुण",
+      "sentence": [
+        {
+          "sentence": "The researcher estimated the population parameter using a sample.",
+          "translation": "शोधकर्ता ने एक नमूने का उपयोग करके जनसंख्या मापदंड का अनुमान लगाया।"
+        },
+        {
+          "sentence": "The parameter of interest was the mean score of the population.",
+          "translation": "रुचि का मापदंड जनसंख्या का औसत स्कोर था।"
+        }
+      ]
+    },
+    {
+      "word": "Estimate",
+      "phoneticRespelling": "ES-ti-mate",
+      "translation": "अनुमान",
+      "definition": "A value or quantity that is approximate or rough",
+      "definationTranslation": "एक मूल्य या मात्रा जो लगभग या खुरदरा है",
+      "sentence": [
+        {
+          "sentence": "The researcher made an estimate of the population mean.",
+          "translation": "शोधकर्ता ने जनसंख्या के माध्य का अनुमान लगाया।"
+        },
+        {
+          "sentence": "The estimate was based on a small sample size.",
+          "translation": "अनुमान एक छोटे नमूना आकार पर आधारित था।"
+        }
+      ]
+    },
+    {
+      "word": "Bias",
+      "phoneticRespelling": "BI-as",
+      "translation": "पूर्वाग्रह",
+      "definition": "A systematic error or distortion in a measurement or calculation",
+      "definationTranslation": "एक माप या गणना में एक व्यवस्थित त्रुटि या विकृति",
+      "sentence": [
+        {
+          "sentence": "The researcher tried to minimize bias in the sampling method.",
+          "translation": "शोधकर्ता ने नमूना विधि में पूर्वाग्रह को कम करने की कोशिश की।"
+        },
+        {
+          "sentence": "The bias in the measurement led to incorrect results.",
+          "translation": "माप में पूर्वाग्रह ने गलत परिणामों की ओर ले जाने वाला था।"
+        }
+      ]
+    },
+    {
+      "word": "Validity",
+      "phoneticRespelling": "vah-LID-i-tee",
+      "translation": "वैधता",
+      "definition": "The extent to which a measurement or instrument measures what it is supposed to",
+      "definationTranslation": "एक माप या उपकरण के द्वारा जो यह मापा जा रहा है उसकी मात्रा",
+      "sentence": [
+        {
+          "sentence": "The researcher evaluated the validity of the measurement tool.",
+          "translation": "शोधकर्ता ने माप उपकरण की वैधता का मूल्यांकन किया।"
+        },
+        {
+          "sentence": "The validity of the results was questioned due to the small sample size.",
+          "translation": "छोटे नमूना आकार के कारण परिणामों की वैधता पर प्रश्नचिह्न लगाया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Reliability",
+      "phoneticRespelling": "ri-LY-uh-bil-i-tee",
+      "translation": "विश्वसनीयता",
+      "definition": "The extent to which a measurement or instrument produces consistent results",
+      "definationTranslation": "एक माप या उपकरण के द्वारा जो सुसंगत परिणाम उत्पन्न करता है उसकी मात्रा",
+      "sentence": [
+        {
+          "sentence": "The researcher evaluated the reliability of the measurement tool.",
+          "translation": "शोधकर्ता ने माप उपकरण की विश्वसनीयता का मूल्यांकन किया।"
+        },
+        {
+          "sentence": "The reliability of the results was high due to the large sample size.",
+          "translation": "परिणामों की विश्वसनीयता बड़े नमूना आकार के कारण उच्च थी।"
+        }
+      ]
+    },
+    {
+      "word": "Generalizability",
+      "phoneticRespelling": "JEN-er-uh-li-zuh-bil-i-tee",
+      "translation": "सामान्यीकरण",
+      "definition": "The extent to which results can be applied to a larger population",
+      "definationTranslation": "एक परिणाम को एक बड़ी आबादी पर लागू किया जा सकता है उसकी मात्रा",
+      "sentence": [
+        {
+          "sentence": "The researcher evaluated the generalizability of the results to the larger population.",
+          "translation": "शोधकर्ता ने परिणामों के सामान्यीकरण का मूल्यांकन बड़ी आबादी के लिए किया।"
+        },
+        {
+          "sentence": "The results had low generalizability due to the small sample size.",
+          "translation": "परिणामों का सामान्यीकरण छोटे नमूना आकार के कारण कम था।"
+        }
+      ]
+    },
+    {
+      "word": "Inferential",
+      "phoneticRespelling": "in-FUR-en-shul",
+      "translation": "निष्कर्षात्मक",
+      "definition": "Relating to the process of making conclusions or inferences",
+      "definationTranslation": "निष्कर्ष या निष्कर्ष निकालने की प्रक्रिया से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The researcher used inferential statistics to make conclusions about the population.",
+          "translation": "शोधकर्ता ने जनसंख्या के बारे में निष्कर्ष निकालने के लिए निष्कर्षात्मक सांख्यिकी का उपयोग किया।"
+        },
+        {
+          "sentence": "The inferential statistics revealed a significant relationship between the variables.",
+          "translation": "निष्कर्षात्मक सांख्यिकी ने चरों के बीच एक महत्वपूर्ण संबंध को उजागर किया।"
+        }
+      ]
+    },
+    {
+      "word": "Descriptive",
+      "phoneticRespelling": "di-SKRIP-tiv",
+      "translation": "विवरणात्मक",
+      "definition": "Relating to the process of describing or summarizing data",
+      "definationTranslation": "डेटा का वर्णन या सारांश करने की प्रक्रिया से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The researcher used descriptive statistics to summarize the data.",
+          "translation": "शोधकर्ता ने डेटा को सारांशित करने के लिए विवरणात्मक सांख्यिकी का उपयोग किया।"
+        },
+        {
+          "sentence": "The descriptive statistics provided a clear picture of the data.",
+          "translation": "विवरणात्मक सांख्यिकी ने डेटा की एक स्पष्ट तस्वीर प्रदान की।"
+        }
+      ]
+    },
+    {
+      "word": "Correlation",
+      "phoneticRespelling": "koh-re-LAY-shun",
+      "translation": "संबंध",
+      "definition": "A relationship between two or more variables",
+      "definationTranslation": "दो या अधिक चरों के बीच एक संबंध",
+      "sentence": [
+        {
+          "sentence": "The researcher found a strong correlation between the variables.",
+          "translation": "शोधकर्ता ने चरों के बीच एक मजबूत संबंध पाया।"
+        },
+        {
+          "sentence": "The correlation between the variables was weak.",
+          "translation": "चरों के बीच संबंध कमजोर था।"
+        }
+      ]
+    },
+    {
+      "word": "Regression",
+      "phoneticRespelling": "ri-GREH-shun",
+      "translation": "प्रतिगमन",
+      "definition": "A statistical method for modeling the relationship between variables",
+      "definationTranslation": "चरों के बीच संबंध को मॉडल करने के लिए एक सांख्यिकीय विधि",
+      "sentence": [
+        {
+          "sentence": "The researcher used regression analysis to model the relationship between the variables.",
+          "translation": "शोधकर्ता ने चरों के बीच संबंध को मॉडल करने के लिए प्रतिगमन विश्लेषण का उपयोग किया।"
+        },
+        {
+          "sentence": "The regression model revealed a significant relationship between the variables.",
+          "translation": "प्रतिगमन मॉडल ने चरों के बीच एक महत्वपूर्ण संबंध को उजागर किया।"
+        }
+      ]
+    },
+    {
+      "word": "Coefficient",
+      "phoneticRespelling": "koh-eh-FISH-ent",
+      "translation": "गुणांक",
+      "definition": "A numerical value that represents the strength of a relationship",
+      "definationTranslation": "एक संख्यात्मक मूल्य जो एक संबंध की ताकत को दर्शाता है",
+      "sentence": [
+        {
+          "sentence": "The researcher calculated the coefficient of determination.",
+          "translation": "शोधकर्ता ने निर्धारण के गुणांक की गणना की।"
+        },
+        {
+          "sentence": "The coefficient of correlation was high, indicating a strong relationship.",
+          "translation": "संबंध का गुणांक उच्च था, जो एक मजबूत संबंध को दर्शाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Criterion",
+      "phoneticRespelling": "KRY-tee-ree-on",
+      "translation": "मानदंड",
+      "definition": "A standard or measure used to evaluate or judge something",
+      "definationTranslation": "एक मानक या माप जो किसी चीज़ का मूल्यांकन या न्याय करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The researcher used a criterion to evaluate the effectiveness of the treatment.",
+          "translation": "शोधकर्ता ने उपचार की प्रभावशीलता का मूल्यांकन करने के लिए एक मानदंड का उपयोग किया।"
+        },
+        {
+          "sentence": "The criterion for inclusion in the study was strict.",
+          "translation": "अध्ययन में सम्मिलित होने के लिए मानदंड सख्त था।"
+        }
+      ]
+    },
+    {
+      "word": "Power",
+      "phoneticRespelling": "POH-wur",
+      "translation": "शक्ति",
+      "definition": "The ability of a statistical test to detect a significant effect",
+      "definationTranslation": "एक सांख्यिकीय परीक्षण की एक महत्वपूर्ण प्रभाव का पता लगाने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The researcher calculated the power of the statistical test.",
+          "translation": "शोधकर्ता ने सांख्यिकीय परीक्षण की शक्ति की गणना की।"
+        },
+        {
+          "sentence": "The power of the test was low, indicating a high risk of Type II error.",
+          "translation": "परीक्षण की शक्ति कम थी, जो प्रकार II त्रुटि के उच्च जोखिम को दर्शाती है।"
+        }
+      ]
+    },
+    {
+      "word": "Robust",
+      "phoneticRespelling": "roh-BUST",
+      "translation": "सुदृढ़",
+      "definition": "Able to withstand or resist changes or variations",
+      "definationTranslation": "परिवर्तनों या भिन्नताओं का सामना करने या प्रतिरोध करने में सक्षम",
+      "sentence": [
+        {
+          "sentence": "The researcher used a robust statistical method to analyze the data.",
+          "translation": "शोधकर्ता ने डेटा का विश्लेषण करने के लिए एक सुदृढ़ सांख्यिकीय विधि का उपयोग किया।"
+        },
+        {
+          "sentence": "The robustness of the results was evaluated using sensitivity analysis.",
+          "translation": "संवेदनशीलता विश्लेषण का उपयोग करके परिणामों की सुदृढ़ता का मूल्यांकन किया गया।"
+        }
+      ]
+    },
+    {
+      "word": "Sensitivity",
+      "phoneticRespelling": "sen-si-TIV-i-tee",
+      "translation": "संवेदनशीलता",
+      "definition": "The ability of a test or measurement to detect small changes or differences",
+      "definationTranslation": "एक परीक्षण या माप की छोटे परिवर्तनों या अंतरों का पता लगाने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The researcher evaluated the sensitivity of the measurement tool.",
+          "translation": "शोधकर्ता ने माप उपकरण की संवेदनशीलता का मूल्यांकन किया।"
+        },
+        {
+          "sentence": "The sensitivity of the test was high, indicating a low risk of false negatives.",
+          "translation": "परीक्षण की संवेदनशीलता उच्च थी, जो नकारात्मक परिणामों के निम्न जोखिम को दर्शाती है।"
+        }
+      ]
+    },
+    {
+      "word": "Specificity",
+      "phoneticRespelling": "spes-uh-FIS-i-tee",
+      "translation": "विशिष्टता",
+      "definition": "The ability of a test or measurement to detect only the intended outcome",
+      "definationTranslation": "एक परीक्षण या माप की केवल इरादा परिणाम का पता लगाने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The researcher evaluated the specificity of the measurement tool.",
+          "translation": "शोधकर्ता ने माप उपकरण की विशिष्टता का मूल्यांकन किया।"
+        },
+        {
+          "sentence": "The specificity of the test was high, indicating a low risk of false positives.",
+          "translation": "परीक्षण की विशिष्टता उच्च थी, जो झूठी सकारात्मक परिणामों के निम्न जोखिम को दर्शाती है।"
+        }
+      ]
+    }
+  ]
+}

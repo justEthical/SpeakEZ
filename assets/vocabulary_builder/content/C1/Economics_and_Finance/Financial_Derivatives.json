@@ -1,1 +1,532 @@
-{}
+{
+  "topic": "Financial Derivatives",
+  "words": [
+    {
+      "word": "Option",
+      "phoneticRespelling": "OP-shun",
+      "translation": "विकल्प",
+      "definition": "A contract giving the buyer the right to buy or sell an asset at a specified price",
+      "definationTranslation": "एक अनुबंध जिसमें खरीदार को एक निश्चित मूल्य पर एक परिसंपत्ति खरीदने या बेचने का अधिकार मिलता है",
+      "sentence": [
+        {
+          "sentence": "The company has an option to buy back the shares at a later date.",
+          "translation": "कंपनी के पास बाद की तारीख में शेयरों को वापस खरीदने का विकल्प है।"
+        },
+        {
+          "sentence": "The investor bought an option to sell the stock at a higher price.",
+          "translation": "निवेशक ने स्टॉक को उच्च मूल्य पर बेचने का विकल्प खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Futures",
+      "phoneticRespelling": "FYOO-churs",
+      "translation": "भविष्य",
+      "definition": "A contract to buy or sell an asset at a specified price on a specific date",
+      "definationTranslation": "एक अनुबंध जिसमें एक निश्चित मूल्य पर एक परिसंपत्ति खरीदने या बेचने की तारीख निर्धारित की जाती है",
+      "sentence": [
+        {
+          "sentence": "The company has signed a futures contract to buy oil at a fixed price.",
+          "translation": "कंपनी ने एक निश्चित मूल्य पर तेल खरीदने के लिए एक फ्यूचर्स अनुबंध पर हस्ताक्षर किए हैं।"
+        },
+        {
+          "sentence": "The investor is holding a futures contract to sell wheat at a higher price.",
+          "translation": "निवेशक उच्च मूल्य पर गेहूं बेचने के लिए एक फ्यूचर्स अनुबंध धारण कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Swap",
+      "phoneticRespelling": "SWAP",
+      "translation": "विनिमय",
+      "definition": "An agreement to exchange a series of cash flows over a period of time",
+      "definationTranslation": "एक निश्चित अवधि में नकदी प्रवाह की एक श्रृंखला का आदान-प्रदान करने के लिए एक समझौता",
+      "sentence": [
+        {
+          "sentence": "The company has entered into a swap agreement to exchange interest rates.",
+          "translation": "कंपनी ने ब्याज दरों का आदान-प्रदान करने के लिए एक स्वैप समझौते में प्रवेश किया है।"
+        },
+        {
+          "sentence": "The investor is using a swap to hedge against currency fluctuations.",
+          "translation": "निवेशक मुद्रा में उतार-चढ़ाव के खिलाफ हेज करने के लिए स्वैप का उपयोग कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Hedge",
+      "phoneticRespelling": "HEJ",
+      "translation": "हेज",
+      "definition": "A strategy to reduce or manage risk by taking a position in a security that offsets potential losses",
+      "definationTranslation": "संभावित नुकसान को ऑफसेट करने वाली एक सुरक्षा में एक स्थिति लेने के द्वारा जोखिम को कम करने या प्रबंधित करने की एक रणनीति",
+      "sentence": [
+        {
+          "sentence": "The company is using a hedge to protect itself against potential losses.",
+          "translation": "कंपनी संभावित नुकसान के खिलाफ अपनी रक्षा करने के लिए एक हेज का उपयोग कर रही है।"
+        },
+        {
+          "sentence": "The investor is hedging against a potential decline in stock prices.",
+          "translation": "निवेशक स्टॉक मूल्य में संभावित गिरावट के खिलाफ हेज कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Leverage",
+      "phoneticRespelling": "LEV-er-ij",
+      "translation": "लीवरेज",
+      "definition": "The use of borrowed money to increase potential returns on an investment",
+      "definationTranslation": "निवेश पर संभावित रिटर्न को बढ़ाने के लिए उधार ली गई धन का उपयोग",
+      "sentence": [
+        {
+          "sentence": "The company is using leverage to finance its expansion plans.",
+          "translation": "कंपनी अपने विस्तार योजनाओं को वित्तपोषित करने के लिए लीवरेज का उपयोग कर रही है।"
+        },
+        {
+          "sentence": "The investor is using leverage to increase potential returns on his investment.",
+          "translation": "निवेशक अपने निवेश पर संभावित रिटर्न को बढ़ाने के लिए लीवरेज का उपयोग कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Derivative",
+      "phoneticRespelling": "DEH-ri-vuh-tiv",
+      "translation": "प्रत्यागम",
+      "definition": "A financial instrument whose value is derived from the value of an underlying asset",
+      "definationTranslation": "एक वित्तीय उपकरण जिसका मूल्य एक अंतर्निहित परिसंपत्ति के मूल्य से प्राप्त किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The company is trading in derivatives to manage its risk.",
+          "translation": "कंपनी जोखिम प्रबंधन के लिए डेरिवेटिव में व्यापार कर रही है।"
+        },
+        {
+          "sentence": "The investor is investing in derivatives to increase potential returns.",
+          "translation": "निवेशक संभावित रिटर्न को बढ़ाने के लिए डेरिवेटिव में निवेश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Asset",
+      "phoneticRespelling": "AS-et",
+      "translation": "परिसंपत्ति",
+      "definition": "A valuable resource owned or controlled by a company or individual",
+      "definationTranslation": "एक मूल्यवान संसाधन जो एक कंपनी या व्यक्ति द्वारा स्वामित्व या नियंत्रित किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The company's assets include cash, inventory, and property.",
+          "translation": "कंपनी की परिसंपत्तियों में नकद, इन्वेंट्री, और संपत्ति शामिल हैं।"
+        },
+        {
+          "sentence": "The investor's assets include stocks, bonds, and real estate.",
+          "translation": "निवेशक की परिसंपत्तियों में स्टॉक, बॉन्ड, और रियल एस्टेट शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Liability",
+      "phoneticRespelling": "lie-uh-BIL-i-tee",
+      "translation": "दायित्व",
+      "definition": "A debt or financial obligation that a company or individual is responsible for",
+      "definationTranslation": "एक ऋण या वित्तीय दायित्व जिसके लिए एक कंपनी या व्यक्ति जिम्मेदार है",
+      "sentence": [
+        {
+          "sentence": "The company's liabilities include loans and accounts payable.",
+          "translation": "कंपनी के दायित्वों में ऋण और खातों का भुगतान शामिल है।"
+        },
+        {
+          "sentence": "The investor's liabilities include debts and taxes owed.",
+          "translation": "निवेशक के दायित्वों में ऋण और बकाया कर शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Risk",
+      "phoneticRespelling": "RISK",
+      "translation": "जोखिम",
+      "definition": "The possibility of loss or damage to an investment or asset",
+      "definationTranslation": "एक निवेश या परिसंपत्ति को हानि या नुकसान की संभावना",
+      "sentence": [
+        {
+          "sentence": "The company is taking a risk by investing in a new market.",
+          "translation": "कंपनी एक नए बाजार में निवेश करके जोखिम उठा रही है।"
+        },
+        {
+          "sentence": "The investor is trying to minimize risk by diversifying his portfolio.",
+          "translation": "निवेशक अपने पोर्टफोलियो को विविध बनाकर जोखिम को कम करने की कोशिश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Return",
+      "phoneticRespelling": "ree-TURN",
+      "translation": "रिटर्न",
+      "definition": "The profit or gain from an investment or asset",
+      "definationTranslation": "एक निवेश या परिसंपत्ति से लाभ या लाभ",
+      "sentence": [
+        {
+          "sentence": "The company is expecting a high return on its investment.",
+          "translation": "कंपनी अपने निवेश पर उच्च रिटर्न की उम्मीद कर रही है।"
+        },
+        {
+          "sentence": "The investor is looking for a high return on his investment.",
+          "translation": "निवेशक अपने निवेश पर उच्च रिटर्न की तलाश में है।"
+        }
+      ]
+    },
+    {
+      "word": "Volatility",
+      "phoneticRespelling": "vol-uh-TIL-i-tee",
+      "translation": "अस्थिरता",
+      "definition": "The degree of uncertainty or fluctuation in the value of an investment or asset",
+      "definationTranslation": "एक निवेश या परिसंपत्ति के मूल्य में अनिश्चितता या उतार-चढ़ाव की डिग्री",
+      "sentence": [
+        {
+          "sentence": "The stock market is experiencing high volatility due to economic uncertainty.",
+          "translation": "आर्थिक अनिश्चितता के कारण शेयर बाजार में उच्च अस्थिरता का अनुभव हो रहा है।"
+        },
+        {
+          "sentence": "The investor is trying to manage volatility by diversifying his portfolio.",
+          "translation": "निवेशक अपने पोर्टफोलियो को विविध बनाकर अस्थिरता को प्रबंधित करने की कोशिश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Liquidity",
+      "phoneticRespelling": "lih-KWID-i-tee",
+      "translation": "द्रवता",
+      "definition": "The ability to buy or sell an asset quickly and at a fair price",
+      "definationTranslation": "एक परिसंपत्ति को जल्दी और उचित मूल्य पर खरीदने या बेचने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company is looking for a liquid asset to invest in.",
+          "translation": "कंपनी एक द्रव परिसंपत्ति में निवेश करने की तलाश में है।"
+        },
+        {
+          "sentence": "The investor is trying to maintain liquidity in his portfolio.",
+          "translation": "निवेशक अपने पोर्टफोलियो में द्रवता बनाए रखने की कोशिश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Diversification",
+      "phoneticRespelling": "die-ver-suh-FEE-kay-shun",
+      "translation": "विविधीकरण",
+      "definition": "The strategy of spreading investments across different asset classes to reduce risk",
+      "definationTranslation": "जोखिम को कम करने के लिए विभिन्न परिसंपत्ति वर्गों में निवेश फैलाने की रणनीति",
+      "sentence": [
+        {
+          "sentence": "The company is using diversification to reduce its risk.",
+          "translation": "कंपनी जोखिम को कम करने के लिए विविधीकरण का उपयोग कर रही है।"
+        },
+        {
+          "sentence": "The investor is diversifying his portfolio to minimize risk.",
+          "translation": "निवेशक जोखिम को कम करने के लिए अपने पोर्टफोलियो को विविध बना रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Portfolio",
+      "phoneticRespelling": "por-TFOH-lee-oh",
+      "translation": "पोर्टफोलियो",
+      "definition": "A collection of investments held by an individual or institution",
+      "definationTranslation": "एक व्यक्ति या संस्था द्वारा आयोजित निवेशों का संग्रह",
+      "sentence": [
+        {
+          "sentence": "The investor's portfolio includes stocks, bonds, and real estate.",
+          "translation": "निवेशक के पोर्टफोलियो में स्टॉक, बॉन्ड, और रियल एस्टेट शामिल हैं।"
+        },
+        {
+          "sentence": "The company's portfolio is diversified across different asset classes.",
+          "translation": "कंपनी का पोर्टफोलियो विभिन्न परिसंपत्ति वर्गों में विविध है।"
+        }
+      ]
+    },
+    {
+      "word": "Investment",
+      "phoneticRespelling": "in-VES-tment",
+      "translation": "निवेश",
+      "definition": "The act of putting money into something with the expectation of earning a profit",
+      "definationTranslation": "कुछ में पैसा लगाने की क्रिया, जिसमें लाभ कमाने की उम्मीद होती है",
+      "sentence": [
+        {
+          "sentence": "The company is making an investment in a new project.",
+          "translation": "कंपनी एक नए परियोजना में निवेश कर रही है।"
+        },
+        {
+          "sentence": "The investor is looking for a good investment opportunity.",
+          "translation": "निवेशक एक अच्छे निवेश अवसर की तलाश में है।"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "si-KYOO-ri-tee",
+      "translation": "सुरक्षा",
+      "definition": "A financial instrument that represents ownership or a claim on an asset",
+      "definationTranslation": "एक वित्तीय उपकरण जो एक परिसंपत्ति पर स्वामित्व या दावे का प्रतिनिधित्व करता है",
+      "sentence": [
+        {
+          "sentence": "The company is issuing a new security to raise capital.",
+          "translation": "कंपनी पूंजी जुटाने के लिए एक नया सुरक्षा जारी कर रही है।"
+        },
+        {
+          "sentence": "The investor is buying a security to gain exposure to a new market.",
+          "translation": "निवेशक एक नए बाजार में एक्सपोजर प्राप्त करने के लिए एक सुरक्षा खरीद रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Commodity",
+      "phoneticRespelling": "kuh-MOD-i-tee",
+      "translation": "वस्तु",
+      "definition": "A raw material or primary product that can be bought or sold",
+      "definationTranslation": "एक कच्चा माल या प्राथमिक उत्पाद जो खरीदा या बेचा जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The company is trading in commodities such as oil and gold.",
+          "translation": "कंपनी तेल और सोने जैसी वस्तुओं में व्यापार कर रही है।"
+        },
+        {
+          "sentence": "The investor is investing in commodities to diversify his portfolio.",
+          "translation": "निवेशक अपने पोर्टफोलियो को विविध बनाने के लिए वस्तुओं में निवेश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Currency",
+      "phoneticRespelling": "KUR-en-see",
+      "translation": "मुद्रा",
+      "definition": "A system of money in a country or region",
+      "definationTranslation": "एक देश या क्षेत्र में पैसे की एक प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The company is dealing with currency fluctuations in its international trade.",
+          "translation": "कंपनी अपने अंतरराष्ट्रीय व्यापार में मुद्रा में उतार-चढ़ाव के साथ काम कर रही है।"
+        },
+        {
+          "sentence": "The investor is investing in currency markets to earn a profit.",
+          "translation": "निवेशक लाभ कमाने के लिए मुद्रा बाजार में निवेश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Exchange",
+      "phoneticRespelling": "eks-CHAYN-j",
+      "translation": "विनिमय",
+      "definition": "A place or system where people buy and sell things, especially stocks and shares",
+      "definationTranslation": "एक स्थान या प्रणाली जहां लोग चीजें खरीदते और बेचते हैं, विशेष रूप से स्टॉक और शेयर",
+      "sentence": [
+        {
+          "sentence": "The company is listed on the stock exchange.",
+          "translation": "कंपनी स्टॉक एक्सचेंज में सूचीबद्ध है।"
+        },
+        {
+          "sentence": "The investor is trading on the foreign exchange market.",
+          "translation": "निवेशक विदेशी मुद्रा बाजार में व्यापार कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Margin",
+      "phoneticRespelling": "MAR-jin",
+      "translation": "मार्जिन",
+      "definition": "The difference between the market value of a security and the loan amount",
+      "definationTranslation": "एक सुरक्षा के बाजार मूल्य और ऋण राशि के बीच का अंतर",
+      "sentence": [
+        {
+          "sentence": "The investor is using margin to buy more stocks.",
+          "translation": "निवेशक अधिक स्टॉक खरीदने के लिए मार्जिन का उपयोग कर रहा है।"
+        },
+        {
+          "sentence": "The company is maintaining a margin of safety in its financial planning.",
+          "translation": "कंपनी अपनी वित्तीय योजना में एक सुरक्षा मार्जिन बनाए रख रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Collateral",
+      "phoneticRespelling": "kuh-LAT-er-ul",
+      "translation": "बंधक",
+      "definition": "An asset or property that is used to secure a loan",
+      "definationTranslation": "एक परिसंपत्ति या संपत्ति जो एक ऋण को सुरक्षित करने के लिए उपयोग की जाती है",
+      "sentence": [
+        {
+          "sentence": "The company is using its assets as collateral for a loan.",
+          "translation": "कंपनी अपनी परिसंपत्तियों को ऋण के लिए बंधक के रूप में उपयोग कर रही है।"
+        },
+        {
+          "sentence": "The investor is requiring collateral for a loan to a small business.",
+          "translation": "निवेशक एक छोटे व्यवसाय को ऋण के लिए बंधक की मांग कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Yield",
+      "phoneticRespelling": "YEELD",
+      "translation": "प्रतिफल",
+      "definition": "The return on an investment, expressed as a percentage",
+      "definationTranslation": "एक निवेश पर रिटर्न, जो एक प्रतिशत के रूप में व्यक्त किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The company is offering a high yield on its bonds.",
+          "translation": "कंपनी अपने बॉन्ड पर उच्च प्रतिफल की पेशकश कर रही है।"
+        },
+        {
+          "sentence": "The investor is looking for a high-yield investment opportunity.",
+          "translation": "निवेशक एक उच्च प्रतिफल निवेश अवसर की तलाश में है।"
+        }
+      ]
+    },
+    {
+      "word": "Maturity",
+      "phoneticRespelling": "muh-TYOOR-i-tee",
+      "translation": "परिपक्वता",
+      "definition": "The date on which a debt or investment becomes due for payment",
+      "definationTranslation": "एक ऋण या निवेश के भुगतान के लिए देय होने की तारीख",
+      "sentence": [
+        {
+          "sentence": "The company's bonds have a maturity date of 5 years.",
+          "translation": "कंपनी के बॉन्ड की परिपक्वता तिथि 5 वर्ष है।"
+        },
+        {
+          "sentence": "The investor is waiting for the maturity of his investment.",
+          "translation": "निवेशक अपने निवेश की परिपक्वता की प्रतीक्षा कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Credit",
+      "phoneticRespelling": "KREH-dit",
+      "translation": "साख",
+      "definition": "The ability to borrow money or obtain goods and services without immediate payment",
+      "definationTranslation": "बिना तुरंत भुगतान के पैसे उधार लेने या सामान और सेवाएं प्राप्त करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company has a good credit rating.",
+          "translation": "कंपनी की साख रेटिंग अच्छी है।"
+        },
+        {
+          "sentence": "The investor is checking the credit history of a potential borrower.",
+          "translation": "निवेशक एक संभावित उधारकर्ता के क्रेडिट इतिहास की जांच कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Debt",
+      "phoneticRespelling": "DET",
+      "translation": "ऋण",
+      "definition": "An amount of money that is owed or borrowed",
+      "definationTranslation": "एक पैसे की राशि जो बकाया या उधार ली जाती है",
+      "sentence": [
+        {
+          "sentence": "The company has a large debt to pay off.",
+          "translation": "कंपनी को एक बड़ा ऋण चुकाना है।"
+        },
+        {
+          "sentence": "The investor is trying to reduce his debt.",
+          "translation": "निवेशक अपने ऋण को कम करने की कोशिश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Equity",
+      "phoneticRespelling": "EH-kwi-tee",
+      "translation": "सामानता",
+      "definition": "The value of a company or asset after debts have been subtracted",
+      "definationTranslation": "एक कंपनी या परिसंपत्ति का मूल्य ऋणों को घटाने के बाद",
+      "sentence": [
+        {
+          "sentence": "The company's equity is increasing due to its profits.",
+          "translation": "कंपनी की सामानता उसके लाभ के कारण बढ़ रही है।"
+        },
+        {
+          "sentence": "The investor is looking to increase his equity in the company.",
+          "translation": "निवेशक कंपनी में अपनी सामानता बढ़ाने की कोशिश कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Finance",
+      "phoneticRespelling": "FIE-nans",
+      "translation": "वित्त",
+      "definition": "The management of money and investments",
+      "definationTranslation": "पैसे और निवेशों का प्रबंधन",
+      "sentence": [
+        {
+          "sentence": "The company's finance department is responsible for managing its funds.",
+          "translation": "कंपनी का वित्त विभाग अपने फंड के प्रबंधन के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The investor is seeking financial advice from a professional.",
+          "translation": "निवेशक एक पेशेवर से वित्तीय सलाह मांग रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Transaction",
+      "phoneticRespelling": "tranz-AK-shun",
+      "translation": "लेन-देन",
+      "definition": "A business deal or exchange of goods or services",
+      "definationTranslation": "एक व्यावसायिक सौदा या सामान या सेवाओं का आदान-प्रदान",
+      "sentence": [
+        {
+          "sentence": "The company is processing a large transaction.",
+          "translation": "कंपनी एक बड़े लेन-देन को संसाधित कर रही है।"
+        },
+        {
+          "sentence": "The investor is facilitating a transaction between two parties.",
+          "translation": "निवेशक दो पक्षों के बीच एक लेन-देन को सुविधाजनक बना रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Broker",
+      "phoneticRespelling": "BROH-ker",
+      "translation": "ब्रोकर",
+      "definition": "A person or company that buys and sells assets on behalf of clients",
+      "definationTranslation": "एक व्यक्ति या कंपनी जो ग्राहकों की ओर से परिसंपत्तियां खरीदती और बेचती है",
+      "sentence": [
+        {
+          "sentence": "The company is using a broker to buy and sell stocks.",
+          "translation": "कंपनी स्टॉक खरीदने और बेचने के लिए एक ब्रोकर का उपयोग कर रही है।"
+        },
+        {
+          "sentence": "The investor is working with a broker to manage his portfolio.",
+          "translation": "निवेशक अपने पोर्टफोलियो को प्रबंधित करने के लिए एक ब्रोकर के साथ काम कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Clearing",
+      "phoneticRespelling": "KLEH-ring",
+      "translation": "साफ़ करना",
+      "definition": "The process of verifying and settling transactions",
+      "definationTranslation": "लेन-देनों को सत्यापित करने और निपटाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company is using a clearinghouse to process its transactions.",
+          "translation": "कंपनी अपने लेन-देनों को संसाधित करने के लिए एक क्लियरिंगहाउस का उपयोग कर रही है।"
+        },
+        {
+          "sentence": "The investor is waiting for the clearing process to complete.",
+          "translation": "निवेशक साफ़ करने की प्रक्रिया के पूरा होने की प्रतीक्षा कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Settlement",
+      "phoneticRespelling": "SEH-tul-ment",
+      "translation": "निपटान",
+      "definition": "The process of completing a transaction and transferring ownership",
+      "definationTranslation": "एक लेन-देन को पूरा करने और स्वामित्व हस्तांतरित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company is processing the settlement of a large transaction.",
+          "translation": "कंपनी एक बड़े लेन-देन के निपटान को संसाधित कर रही है।"
+        },
+        {
+          "sentence": "The investor is waiting for the settlement of his investment.",
+          "translation": "निवेशक अपने निवेश के निपटान की प्रतीक्षा कर रहा है।"
+        }
+      ]
+    }
+  ]
+}

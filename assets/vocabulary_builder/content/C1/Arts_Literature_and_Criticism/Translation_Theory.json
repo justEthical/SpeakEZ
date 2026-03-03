@@ -1,1 +1,5 @@
-{}
+{
+  "error": "Failed to parse JSON",
+  "detail": "Unterminated string starting at: line 474 column 23 (char 26100)",
+  "raw_output": "\"topic\": \"Translation Theory\",\n  \"words\": [\n    {\n      \"word\": \"Equivalence\",\n      \"phoneticRespelling\": \"e-KWI-va-lens\",\n      \"translation\": \"समानता\",\n      \"definition\": \"The state of being equal or equivalent in value, quantity, or significance.\",\n      \"definationTranslation\": \"मूल्य, मात्रा या महत्व में समान या तुल्य होने की स्थिति।\",\n      \"sentence\": [\n        {\n          \"sentence\": \"The translation aimed to achieve equivalence between the source and target texts.\",\n          \"transla"
+}
