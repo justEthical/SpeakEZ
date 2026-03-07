@@ -1,5 +1,430 @@
 {
-  "error": "Failed to parse JSON",
-  "detail": "Unterminated string starting at: line 517 column 21 (char 26306)",
-  "raw_output": "\"topic\": \"Professional Networking\",\n  \"words\": [\n    {\n      \"word\": \"networking\",\n      \"phoneticRespelling\": \"NET-work-ing\",\n      \"translation\": \"नेटवर्किंग\",\n      \"definition\": \"the act of making contact and exchanging information with people in your industry or profession\",\n      \"definationTranslation\": \"अपने उद्योग या पेशे में लोगों के साथ संपर्क करना और जानकारी का आदान-प्रदान करने की प्रक्रिया\",\n      \"sentence\": [\n        {\n          \"sentence\": \"She is attending the conference to do s"
+  "topic": "Professional Networking",
+  "words": [
+    {
+      "word": "Networking",
+      "phoneticRespelling": "NET-work-ing",
+      "translation": "नेटवर्किंग",
+      "definition": "The act of making contact and exchanging information with people in your industry or profession",
+      "definationTranslation": "अपने उद्योग या पेशे में लोगों के साथ संपर्क करना और जानकारी का आदान-प्रदान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "She is attending the conference to do some professional networking and meet potential partners.",
+          "translation": "वह पेशेवर नेटवर्किंग करने और संभावित भागीदारों से मिलने के लिए सम्मेलन में भाग ले रही है।"
+        },
+        {
+          "sentence": "Effective networking can lead to new job opportunities and career growth.",
+          "translation": "प्रभावी नेटवर्किंग से नौकरी के नए अवसर और करियर में वृद्धि हो सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Rapport",
+      "phoneticRespelling": "ra-PORE",
+      "translation": "तालमेल",
+      "definition": "A close and harmonious relationship in which the people or groups concerned understand each other's feelings or ideas",
+      "definationTranslation": "एक घनिष्ठ और सामंजस्यपूर्ण संबंध जिसमें संबंधित लोग या समूह एक-दूसरे की भावनाओं या विचारों को समझते हैं",
+      "sentence": [
+        {
+          "sentence": "He quickly established a rapport with the new clients during the first meeting.",
+          "translation": "उन्होंने पहली बैठक के दौरान नए ग्राहकों के साथ जल्दी से तालमेल स्थापित कर लिया।"
+        },
+        {
+          "sentence": "Building rapport is the first step toward a successful long-term partnership.",
+          "translation": "सफल दीर्घकालिक साझेदारी की दिशा में तालमेल बनाना पहला कदम है।"
+        }
+      ]
+    },
+    {
+      "word": "Reciprocity",
+      "phoneticRespelling": "reh-suh-PROS-ih-tee",
+      "translation": "पारस्परिकता",
+      "definition": "The practice of exchanging things with others for mutual benefit",
+      "definationTranslation": "आपसी लाभ के लिए दूसरों के साथ चीजों का आदान-प्रदान करने का अभ्यास",
+      "sentence": [
+        {
+          "sentence": "Networking is based on the principle of reciprocity; you help others, and they help you.",
+          "translation": "नेटवर्किंग पारस्परिकता के सिद्धांत पर आधारित है; आप दूसरों की मदद करते हैं, और वे आपकी मदद करते हैं।"
+        },
+        {
+          "sentence": "The contract was signed on the basis of reciprocity between the two firms.",
+          "translation": "अनुबंध पर दोनों फर्मों के बीच पारस्परिकता के आधार पर हस्ताक्षर किए गए थे।"
+        }
+      ]
+    },
+    {
+      "word": "Mentorship",
+      "phoneticRespelling": "MEN-tor-ship",
+      "translation": "परामर्शदाता",
+      "definition": "The guidance provided by a mentor, especially an experienced person in a company or educational institution",
+      "definationTranslation": "एक संरक्षक द्वारा प्रदान किया गया मार्गदर्शन, विशेष रूप से किसी कंपनी या शैक्षणिक संस्थान में एक अनुभवी व्यक्ति",
+      "sentence": [
+        {
+          "sentence": "She sought mentorship from a senior developer to improve her coding skills.",
+          "translation": "उन्होंने अपने कोडिंग कौशल को सुधारने के लिए एक वरिष्ठ डेवलपर से परामर्श मांगा।"
+        },
+        {
+          "sentence": "A good mentorship program can significantly reduce the learning curve for new employees.",
+          "translation": "एक अच्छा परामर्श कार्यक्रम नए कर्मचारियों के लिए सीखने की प्रक्रिया को काफी कम कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Referral",
+      "phoneticRespelling": "ri-FUR-ul",
+      "translation": "संदर्भ",
+      "definition": "The act of sending someone to another person or place for help, information, or advice",
+      "definationTranslation": "किसी को मदद, जानकारी या सलाह के लिए किसी अन्य व्यक्ति या स्थान पर भेजने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "He landed an interview at the tech company thanks to a referral from a former colleague.",
+          "translation": "एक पूर्व सहयोगी के संदर्भ की बदौलत उन्हें टेक कंपनी में इंटरव्यू मिला।"
+        },
+        {
+          "sentence": "The business grew quickly through word-of-mouth referrals.",
+          "translation": "व्यवसाय मौखिक संदर्भों (वर्ड-ऑफ-माउथ) के माध्यम से तेजी से बढ़ा।"
+        }
+      ]
+    },
+    {
+      "word": "Acquaintance",
+      "phoneticRespelling": "uh-KWAYN-tunss",
+      "translation": "परिचित",
+      "definition": "A person one knows slightly, but who is not a close friend",
+      "definationTranslation": "एक व्यक्ति जिसे कोई थोड़ा जानता है, लेकिन वह करीबी दोस्त नहीं है",
+      "sentence": [
+        {
+          "sentence": "A professional acquaintance at the conference told me about a job opening.",
+          "translation": "सम्मेलन में एक पेशेवर परिचित ने मुझे नौकरी के अवसर के बारे में बताया।"
+        },
+        {
+          "sentence": "It is useful to turn casual acquaintances into valuable business contacts.",
+          "translation": "आकस्मिक परिचितों को मूल्यवान व्यावसायिक संपर्कों में बदलना उपयोगी होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Alumni",
+      "phoneticRespelling": "uh-LUM-nye",
+      "translation": "भूतपूर्व छात्र",
+      "definition": "Former students of a particular school, college, or university",
+      "definationTranslation": "किसी विशेष स्कूल, कॉलेज या विश्वविद्यालय के पूर्व छात्र",
+      "sentence": [
+        {
+          "sentence": "The university's alumni network is a great resource for finding mentors.",
+          "translation": "विश्वविद्यालय का पूर्व छात्र नेटवर्क मेंटर्स खोजने के लिए एक बेहतरीन संसाधन है।"
+        },
+        {
+          "sentence": "He reached out to the college alumni to discuss industry trends.",
+          "translation": "उन्होंने उद्योग के रुझानों पर चर्चा करने के लिए कॉलेज के पूर्व छात्रों से संपर्क किया।"
+        }
+      ]
+    },
+    {
+      "word": "Authenticity",
+      "phoneticRespelling": "aw-then-TISS-ih-tee",
+      "translation": "प्रमाणिकता",
+      "definition": "The quality of being genuine and true to one's own personality or spirit",
+      "definationTranslation": "वास्तविक होने और अपने स्वयं के व्यक्तित्व या भावना के प्रति सच्चे होने का गुण",
+      "sentence": [
+        {
+          "sentence": "Authenticity is key to building trust in long-term professional relationships.",
+          "translation": "दीर्घकालिक पेशेवर संबंधों में विश्वास बनाने के लिए प्रमाणिकता महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "People appreciate authenticity more than a polished sales pitch.",
+          "translation": "लोग पॉलिश की हुई सेल्स पिच की तुलना में प्रमाणिकता की अधिक सराहना करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Callow",
+      "phoneticRespelling": "KAL-oh",
+      "translation": "अनुभवहीन",
+      "definition": "Inexperienced and immature (often used to describe someone new to a profession)",
+      "definationTranslation": "अनुभवहीन और अपरिपक्व (अक्सर किसी पेशे में नए व्यक्ति का वर्णन करने के लिए उपयोग किया जाता है)",
+      "sentence": [
+        {
+          "sentence": "Networking helps callow graduates learn the unwritten rules of the industry.",
+          "translation": "नेटवर्किंग अनुभवहीन स्नातकों को उद्योग के अलिखित नियमों को सीखने में मदद करती है।"
+        },
+        {
+          "sentence": "Though he was callow when he started, his mentors helped him grow quickly.",
+          "translation": "हालांकि शुरुआत में वह अनुभवहीन था, लेकिन उसके मेंटर्स ने उसे जल्दी आगे बढ़ने में मदद की।"
+        }
+      ]
+    },
+    {
+      "word": "Cold-call",
+      "phoneticRespelling": "KOHLD-kawl",
+      "translation": "बिना पूर्व सूचना के संपर्क करना",
+      "definition": "To make an unsolicited visit or telephone call to someone in an attempt to sell goods or services, or to network",
+      "definationTranslation": "वस्तुओं या सेवाओं को बेचने या नेटवर्किंग करने के प्रयास में किसी को अयाचित मुलाकात या टेलीफोन कॉल करना",
+      "sentence": [
+        {
+          "sentence": "Cold-calling potential clients requires confidence and a clear value proposition.",
+          "translation": "संभावित ग्राहकों को कोल्ड-कॉल करने के लिए आत्मविश्वास और स्पष्ट मूल्य प्रस्ताव की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "I managed to get a meeting by cold-calling the hiring manager directly.",
+          "translation": "मैं सीधे भर्ती प्रबंधक को कोल्ड-कॉल करके मीटिंग करने में सफल रहा।"
+        }
+      ]
+    },
+    {
+      "word": "Credential",
+      "phoneticRespelling": "kruh-DEN-shul",
+      "translation": "प्रत्यय-पत्र / योग्यता",
+      "definition": "A qualification, achievement, or aspect of a person's background that makes them suitable for something",
+      "definationTranslation": "किसी व्यक्ति की पृष्ठभूमि की योग्यता, उपलब्धि या पहलू जो उन्हें किसी चीज़ के लिए उपयुक्त बनाता है",
+      "sentence": [
+        {
+          "sentence": "Networking is easier when you have the right credentials to back up your claims.",
+          "translation": "जब आपके पास अपने दावों का समर्थन करने के लिए सही योग्यता होती है, तो नेटवर्किंग आसान हो जाती है।"
+        },
+        {
+          "sentence": "She shared her academic credentials on her professional profile.",
+          "translation": "उसने अपने पेशेवर प्रोफाइल पर अपनी शैक्षणिक योग्यता साझा की।"
+        }
+      ]
+    },
+    {
+      "word": "Elevator Pitch",
+      "phoneticRespelling": "EL-uh-vay-ter PITCH",
+      "translation": "संक्षिप्त परिचय",
+      "definition": "A succinct and persuasive sales pitch for a product, service, or oneself",
+      "definationTranslation": "किसी उत्पाद, सेवा या स्वयं के लिए एक संक्षिप्त और प्रेरक बिक्री पिच",
+      "sentence": [
+        {
+          "sentence": "Every entrepreneur should have a 30-second elevator pitch ready.",
+          "translation": "प्रत्येक उद्यमी के पास 30 सेकंड का संक्षिप्त परिचय (एलिवेटर पिच) तैयार होना चाहिए।"
+        },
+        {
+          "sentence": "I practiced my elevator pitch so I could introduce SpeakEZ AI clearly to investors.",
+          "translation": "मैंने अपने संक्षिप्त परिचय का अभ्यास किया ताकि मैं निवेशकों को स्पष्ट रूप से SpeakEZ AI का परिचय दे सकूं।"
+        }
+      ]
+    },
+    {
+      "word": "Endorsement",
+      "phoneticRespelling": "en-DORSS-munt",
+      "translation": "समर्थन / पुष्टि",
+      "definition": "An act of giving one's public approval or support to someone or something",
+      "definationTranslation": "किसी को या किसी चीज़ को सार्वजनिक स्वीकृति या समर्थन देने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Skills endorsements on professional platforms can boost your credibility.",
+          "translation": "पेशेवर प्लेटफार्मों पर कौशल समर्थन आपकी विश्वसनीयता को बढ़ा सकते हैं।"
+        },
+        {
+          "sentence": "A strong endorsement from a former boss is very valuable during a job search.",
+          "translation": "नौकरी की खोज के दौरान पूर्व बॉस से एक मजबूत समर्थन बहुत मूल्यवान होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Etiquette",
+      "phoneticRespelling": "ET-ih-ket",
+      "translation": "शिष्टाचार",
+      "definition": "The customary code of polite behavior in society or among members of a particular profession",
+      "definationTranslation": "समाज में या किसी विशेष पेशे के सदस्यों के बीच विनम्र व्यवहार का प्रथागत कोड",
+      "sentence": [
+        {
+          "sentence": "Business etiquette dictates that you should follow up within 24 hours of a meeting.",
+          "translation": "व्यावसायिक शिष्टाचार यह कहता है कि आपको मीटिंग के 24 घंटों के भीतर फॉलो-अप करना चाहिए।"
+        },
+        {
+          "sentence": "Proper email etiquette is essential when reaching out to strangers for help.",
+          "translation": "मदद के लिए अजनबियों से संपर्क करते समय उचित ईमेल शिष्टाचार आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Follow-up",
+      "phoneticRespelling": "FOL-oh-up",
+      "translation": "अनुवर्ती कार्रवाई",
+      "definition": "A continuation or review of a previous action or contact",
+      "definationTranslation": "पिछली कार्रवाई या संपर्क की निरंतरता या समीक्षा",
+      "sentence": [
+        {
+          "sentence": "Sending a thank-you note is a simple but effective follow-up after an interview.",
+          "translation": "इंटरव्यू के बाद धन्यवाद नोट भेजना एक सरल लेकिन प्रभावी अनुवर्ती कार्रवाई है।"
+        },
+        {
+          "sentence": "The success of networking often depends on the quality of your follow-up.",
+          "translation": "नेटवर्किंग की सफलता अक्सर आपकी अनुवर्ती कार्रवाई की गुणवत्ता पर निर्भर करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Handshake",
+      "phoneticRespelling": "HAND-shayk",
+      "translation": "हाथ मिलाना",
+      "definition": "A formal greeting or a way of sealing an agreement",
+      "definationTranslation": "एक औपचारिक अभिवादन या समझौते पर मुहर लगाने का एक तरीका",
+      "sentence": [
+        {
+          "sentence": "A firm handshake can convey confidence and professionalism.",
+          "translation": "एक मजबूत हाथ मिलाना आत्मविश्वास और व्यावसायिकता व्यक्त कर सकता है।"
+        },
+        {
+          "sentence": "The deal was finalized with a handshake and a promise of future cooperation.",
+          "translation": "हाथ मिलाने और भविष्य के सहयोग के वादे के साथ सौदा अंतिम रूप दिया गया।"
+        }
+      ]
+    },
+    {
+      "word": "Impactful",
+      "phoneticRespelling": "im-PAKT-ful",
+      "translation": "प्रभावशाली",
+      "definition": "Having a major impact or effect",
+      "definationTranslation": "एक बड़ा प्रभाव या असर होना",
+      "sentence": [
+        {
+          "sentence": "Meeting the right people can lead to an impactful change in your career path.",
+          "translation": "सही लोगों से मिलना आपके करियर पथ में एक प्रभावशाली बदलाव ला सकता है।"
+        },
+        {
+          "sentence": "He gave an impactful presentation that impressed the entire board.",
+          "translation": "उन्होंने एक प्रभावशाली प्रस्तुति दी जिसने पूरे बोर्ड को प्रभावित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Interpersonal",
+      "phoneticRespelling": "in-ter-PUR-suh-nul",
+      "translation": "परस्पर व्यक्तिगत",
+      "definition": "Relating to relationships or communication between people",
+      "definationTranslation": "लोगों के बीच संबंधों या संचार से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Strong interpersonal skills are necessary for effective networking.",
+          "translation": "प्रभावी नेटवर्किंग के लिए मजबूत परस्पर व्यक्तिगत कौशल आवश्यक हैं।"
+        },
+        {
+          "sentence": "She excels in roles that require high interpersonal interaction.",
+          "translation": "वह उन भूमिकाओं में उत्कृष्ट है जिनमें उच्च परस्पर व्यक्तिगत बातचीत की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Leverage",
+      "phoneticRespelling": "LEV-ur-ij",
+      "translation": "लाभ उठाना",
+      "definition": "To use something to its maximum advantage",
+      "definationTranslation": "किसी चीज़ का उसके अधिकतम लाभ के लिए उपयोग करना",
+      "sentence": [
+        {
+          "sentence": "You can leverage your existing network to find new freelance clients.",
+          "translation": "नए फ्रीलांस क्लाइंट खोजने के लिए आप अपने मौजूदा नेटवर्क का लाभ उठा सकते हैं।"
+        },
+        {
+          "sentence": "The company decided to leverage social media to boost its marketing efforts.",
+          "translation": "कंपनी ने अपने विपणन प्रयासों को बढ़ावा देने के लिए सोशल मीडिया का लाभ उठाने का निर्णय लिया।"
+        }
+      ]
+    },
+    {
+      "word": "Niche",
+      "phoneticRespelling": "NEESH",
+      "translation": "विशिष्ट क्षेत्र",
+      "definition": "A specialized segment of the market for a particular kind of product or service",
+      "definationTranslation": "किसी विशेष प्रकार के उत्पाद या सेवा के लिए बाजार का एक विशेष खंड",
+      "sentence": [
+        {
+          "sentence": "Networking within your niche helps you become a thought leader in that area.",
+          "translation": "अपने विशिष्ट क्षेत्र (नीश) के भीतर नेटवर्किंग करने से आपको उस क्षेत्र में थॉट लीडर बनने में मदद मिलती है।"
+        },
+        {
+          "sentence": "SpeakEZ AI fills a niche for GenZ learners who want to master professional English.",
+          "translation": "SpeakEZ AI उन GenZ शिक्षार्थियों के लिए एक विशिष्ट क्षेत्र की कमी को पूरा करता है जो पेशेवर अंग्रेजी में महारत हासिल करना चाहते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Peer",
+      "phoneticRespelling": "PEER",
+      "translation": "साथी / समान स्तर का व्यक्ति",
+      "definition": "A person of the same age, status, or ability as another specified person",
+      "definationTranslation": "दूसरे निर्दिष्ट व्यक्ति के समान आयु, स्थिति या क्षमता वाला व्यक्ति",
+      "sentence": [
+        {
+          "sentence": "Networking with your peers allows you to share common challenges and solutions.",
+          "translation": "अपने साथियों के साथ नेटवर्किंग करने से आप सामान्य चुनौतियों और समाधानों को साझा कर सकते हैं।"
+        },
+        {
+          "sentence": "The project was evaluated by a committee of his professional peers.",
+          "translation": "परियोजना का मूल्यांकन उसके पेशेवर साथियों की एक समिति द्वारा किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Perspective",
+      "phoneticRespelling": "pur-SPEK-tiv",
+      "translation": "दृष्टिकोण",
+      "definition": "A particular attitude toward or way of regarding something; a point of view",
+      "definationTranslation": "किसी चीज़ के प्रति एक विशेष रवैया या देखने का तरीका; एक दृष्टिकोण",
+      "sentence": [
+        {
+          "sentence": "Talking to people from different backgrounds gives you a fresh perspective on your work.",
+          "translation": "अलग-अलग पृष्ठभूमि के लोगों से बात करने से आपको अपने काम पर एक नया दृष्टिकोण मिलता है।"
+        },
+        {
+          "sentence": "From a developer's perspective, the new M2 chip is a game changer.",
+          "translation": "एक डेवलपर के दृष्टिकोण से, नया M2 चिप गेम चेंजर है।"
+        }
+      ]
+    },
+    {
+      "word": "Portfolio",
+      "phoneticRespelling": "port-FOH-lee-oh",
+      "translation": "पोर्टफोलियो",
+      "definition": "A set of pieces of creative work collected by someone to display their skills",
+      "definationTranslation": "किसी के द्वारा अपने कौशल को प्रदर्शित करने के लिए एकत्र किए गए रचनात्मक कार्यों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "I showed my portfolio of Flutter apps during the networking event.",
+          "translation": "मैंने नेटवर्किंग इवेंट के दौरान अपने फ़्लटर ऐप्स का पोर्टफोलियो दिखाया।"
+        },
+        {
+          "sentence": "A strong digital portfolio is essential for designers and developers today.",
+          "translation": "डिजाइनरों और डेवलपर्स के लिए आज एक मजबूत डिजिटल पोर्टफोलियो आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Proactive",
+      "phoneticRespelling": "proh-AK-tiv",
+      "translation": "सक्रिय",
+      "definition": "Creating or controlling a situation by causing something to happen rather than responding to it after it has happened",
+      "definationTranslation": "किसी स्थिति को होने के बाद उस पर प्रतिक्रिया देने के बजाय कुछ घटित करके उसे बनाना या नियंत्रित करना",
+      "sentence": [
+        {
+          "sentence": "You need to be proactive in reaching out to potential mentors.",
+          "translation": "आपको संभावित मेंटर्स तक पहुँचने में सक्रिय रहने की आवश्यकता है।"
+        },
+        {
+          "sentence": "The company took proactive measures to prevent data breaches.",
+          "translation": "कंपनी ने डेटा उल्लंघन को रोकने के लिए सक्रिय उपाय किए।"
+        }
+      ]
+    },
+    {
+      "word": "Synergy",
+      "phoneticRespelling": "SIN-er-jee",
+      "translation": "सामंजस्य",
+      "definition": "The interaction of two or more agents or forces so that their combined effect is greater than the sum of their individual effects",
+      "definationTranslation": "दो या दो से अधिक एजेंटों या बलों की बातचीत ताकि उनका संयुक्त प्रभाव उनके व्यक्तिगत प्रभावों के योग से अधिक हो",
+      "sentence": [
+        {
+          "sentence": "Networking often leads to synergy between two different startups.",
+          "translation": "नेटवर्किंग अक्सर दो अलग-अलग स्टार्टअप्स के बीच सामंजस्य की ओर ले जाती है।"
+        },
+        {
+          "sentence": "The team worked with great synergy to complete the project ahead of schedule.",
+          "translation": "टीम ने निर्धारित समय से पहले परियोजना को पूरा करने के लिए महान सामंजस्य के साथ काम किया।"
+        }
+      ]
+    }
+  ]
 }

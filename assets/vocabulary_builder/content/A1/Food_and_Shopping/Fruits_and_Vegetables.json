@@ -1,3 +1,260 @@
 {
-  "topic": "Fruits and Vegetables"
+  "topic": "Fruits and Vegetables",
+  "words": [
+    {
+      "word": "Apple",
+      "phoneticRespelling": "A-puhl",
+      "translation": "सेब",
+      "definition": "A round fruit with red, green, or yellow skin and a crisp inside.",
+      "definationTranslation": "लाल, हरे या पीले छिलके वाला एक गोल फल जिसका अंदर का हिस्सा कुरकुरा होता है।",
+      "sentence": [
+        {
+          "sentence": "I eat a red apple every morning.",
+          "translation": "मैं हर सुबह एक लाल सेब खाता हूँ।"
+        },
+        {
+          "sentence": "Do you like green apples or red apples?",
+          "translation": "क्या आपको हरे सेब पसंद हैं या लाल सेब?"
+        }
+      ]
+    },
+    {
+      "word": "Banana",
+      "phoneticRespelling": "buh-NA-nuh",
+      "translation": "केला",
+      "definition": "A long, curved fruit with a yellow skin.",
+      "definationTranslation": "पीले छिलके वाला एक लंबा, मुड़ा हुआ फल।",
+      "sentence": [
+        {
+          "sentence": "The banana is very sweet and soft.",
+          "translation": "केला बहुत मीठा और नरम होता है।"
+        },
+        {
+          "sentence": "I put a banana in my cereal.",
+          "translation": "मैं अपने अनाज (cereal) में एक केला डालता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "Orange",
+      "phoneticRespelling": "AW-rinj",
+      "translation": "संतरा",
+      "definition": "A round, orange-colored fruit that is juicy.",
+      "definationTranslation": "एक गोल, नारंगी रंग का फल जो रसीला होता है।",
+      "sentence": [
+        {
+          "sentence": "I like to drink fresh orange juice.",
+          "translation": "मुझे ताजा संतरे का जूस पीना पसंद है।"
+        },
+        {
+          "sentence": "This orange is very easy to peel.",
+          "translation": "इस संतरे को छीलना बहुत आसान है।"
+        }
+      ]
+    },
+    {
+      "word": "Mango",
+      "phoneticRespelling": "MAN-goh",
+      "translation": "आम",
+      "definition": "A sweet tropical fruit with a yellow or red skin.",
+      "definationTranslation": "पीले या लाल छिलके वाला एक मीठा उष्णकटिबंधीय फल।",
+      "sentence": [
+        {
+          "sentence": "Mango is my favorite fruit in summer.",
+          "translation": "गर्मियों में आम मेरा पसंदीदा फल है।"
+        },
+        {
+          "sentence": "We can make a delicious shake with mango.",
+          "translation": "हम आम से एक स्वादिष्ट शेक बना सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Grapes",
+      "phoneticRespelling": "GREYPS",
+      "translation": "अंगूर",
+      "definition": "Small, round green or purple fruits that grow in bunches.",
+      "definationTranslation": "छोटे, गोल हरे या बैंगनी फल जो गुच्छों में उगते हैं।",
+      "sentence": [
+        {
+          "sentence": "She bought a big bunch of sweet grapes.",
+          "translation": "उसने मीठे अंगूरों का एक बड़ा गुच्छा खरीदा।"
+        },
+        {
+          "sentence": "Purple grapes are usually sweeter than green ones.",
+          "translation": "बैंगनी अंगूर आमतौर पर हरे अंगूरों से ज्यादा मीठे होते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Potato",
+      "phoneticRespelling": "puh-TEY-toh",
+      "translation": "आलू",
+      "definition": "A round vegetable with brown skin that grows under the ground.",
+      "definationTranslation": "भूरे छिलके वाली एक गोल सब्जी जो जमीन के नीचे उगती है।",
+      "sentence": [
+        {
+          "sentence": "I want to eat hot boiled potatoes.",
+          "translation": "मैं गर्म उबले हुए आलू खाना चाहता हूँ।"
+        },
+        {
+          "sentence": "Can you peel the potatoes for the soup?",
+          "translation": "क्या आप सूप के लिए आलू छील सकते हैं?"
+        }
+      ]
+    },
+    {
+      "word": "Tomato",
+      "phoneticRespelling": "tuh-MAY-toh",
+      "translation": "टमाटर",
+      "definition": "A soft, red fruit used as a vegetable in cooking.",
+      "definationTranslation": "एक नरम, लाल फल जिसे खाना पकाने में सब्जी के रूप में उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Add two fresh tomatoes to the green salad.",
+          "translation": "हरे सलाद में दो ताजे टमाटर डालिए।"
+        },
+        {
+          "sentence": "Is a tomato a fruit or a vegetable?",
+          "translation": "क्या टमाटर एक फल है या सब्जी?"
+        }
+      ]
+    },
+    {
+      "word": "Onion",
+      "phoneticRespelling": "U-nyuhn",
+      "translation": "प्याज",
+      "definition": "A round vegetable with many layers and a strong smell.",
+      "definationTranslation": "कई परतों और तेज गंध वाली एक गोल सब्जी।",
+      "sentence": [
+        {
+          "sentence": "The onion makes my eyes water when I cut it.",
+          "translation": "प्याज काटते समय मेरी आँखों में पानी आ जाता है।"
+        },
+        {
+          "sentence": "I always fry onions before adding the rice.",
+          "translation": "मैं चावल डालने से पहले हमेशा प्याज भूनता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "Carrot",
+      "phoneticRespelling": "KA-ruht",
+      "translation": "गाजर",
+      "definition": "A long, orange root vegetable.",
+      "definationTranslation": "एक लंबी, नारंगी रंग की जड़ वाली सब्जी।",
+      "sentence": [
+        {
+          "sentence": "Eating carrots is good for your eyesight.",
+          "translation": "गाजर खाना आपकी आंखों की रोशनी के लिए अच्छा होता है।"
+        },
+        {
+          "sentence": "The rabbit is eating a small carrot.",
+          "translation": "खरगोश एक छोटी गाजर खा रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Lemon",
+      "phoneticRespelling": "LE-muhn",
+      "translation": "नींबू",
+      "definition": "A small, yellow, sour fruit.",
+      "definationTranslation": "एक छोटा, पीला, खट्टा फल।",
+      "sentence": [
+        {
+          "sentence": "I need a slice of lemon for my water.",
+          "translation": "मुझे अपने पानी के लिए नींबू का एक टुकड़ा चाहिए।"
+        },
+        {
+          "sentence": "Lemon juice is very sour but healthy.",
+          "translation": "नींबू का रस बहुत खट्टा लेकिन सेहतमंद होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Watermelon",
+      "phoneticRespelling": "WAW-ter-me-luhn",
+      "translation": "तरबूज",
+      "definition": "A very large, green fruit with red inside and a lot of water.",
+      "definationTranslation": "एक बहुत बड़ा, हरा फल जिसके अंदर लाल रंग और बहुत सारा पानी होता है।",
+      "sentence": [
+        {
+          "sentence": "Cold watermelon is perfect for a hot day.",
+          "translation": "गर्म दिन के लिए ठंडा तरबूज एकदम सही है।"
+        },
+        {
+          "sentence": "We cut the watermelon into big slices.",
+          "translation": "हमने तरबूज को बड़े टुकड़ों में काट दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Cucumber",
+      "phoneticRespelling": "KYOO-kum-ber",
+      "translation": "खीरा",
+      "definition": "A long, green vegetable often eaten in salads.",
+      "definationTranslation": "एक लंबी, हरी सब्जी जिसे अक्सर सलाद में खाया जाता है।",
+      "sentence": [
+        {
+          "sentence": "This cucumber is very cool and fresh.",
+          "translation": "यह खीरा बहुत ठंडा और ताजा है।"
+        },
+        {
+          "sentence": "I eat cucumber sticks with my lunch.",
+          "translation": "मैं अपने दोपहर के भोजन के साथ खीरे के टुकड़े (sticks) खाता हूँ।"
+        }
+      ]
+    },
+    {
+      "word": "Garlic",
+      "phoneticRespelling": "GAHR-lik",
+      "translation": "लहसुन",
+      "definition": "A small, white bulb with a strong taste used in cooking.",
+      "definationTranslation": "एक छोटी, सफेद गांठ जिसका स्वाद तेज होता है और खाना पकाने में उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "I use a lot of garlic in my pasta sauce.",
+          "translation": "मैं अपने पास्ता सॉस में बहुत सारा लहसुन इस्तेमाल करता हूँ।"
+        },
+        {
+          "sentence": "Garlic smells strong but tastes great.",
+          "translation": "लहसुन की गंध तेज होती है लेकिन स्वाद बहुत अच्छा होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Spinach",
+      "phoneticRespelling": "SPI-nich",
+      "translation": "पालक",
+      "definition": "A vegetable with large, green leaves.",
+      "definationTranslation": "बड़े, हरे पत्तों वाली एक सब्जी।",
+      "sentence": [
+        {
+          "sentence": "Spinach is a very healthy green vegetable.",
+          "translation": "पालक एक बहुत ही स्वास्थ्यवर्धक हरी सब्जी है।"
+        },
+        {
+          "sentence": "My mother makes a tasty spinach soup.",
+          "translation": "मेरी माँ पालक का स्वादिष्ट सूप बनाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Pineapple",
+      "phoneticRespelling": "PAYN-a-puhl",
+      "translation": "अनानास",
+      "definition": "A large tropical fruit with a tough, prickly skin.",
+      "definationTranslation": "एक बड़ा उष्णकटिबंधीय फल जिसका छिलका सख्त और कांटेदार होता है।",
+      "sentence": [
+        {
+          "sentence": "This pineapple is very sweet and juicy.",
+          "translation": "यह अनानास बहुत मीठा और रसीला है।"
+        },
+        {
+          "sentence": "Be careful, the pineapple skin is prickly.",
+          "translation": "सावधान रहें, अनानास का छिलका कांटेदार होता है।"
+        }
+      ]
+    }
+  ]
 }

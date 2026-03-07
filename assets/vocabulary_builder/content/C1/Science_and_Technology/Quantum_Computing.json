@@ -1,1 +1,430 @@
-{}
+{
+  "topic": "Quantum Computing",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "अल्गोरिदम",
+      "definition": "A set of instructions for solving a problem",
+      "definationTranslation": "किसी समस्या को हल करने के लिए निर्देशों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The new algorithm improved the speed of the computer program.",
+          "translation": "नया अल्गोरिदम कंप्यूटर प्रोग्राम की गति में सुधार करता है।"
+        },
+        {
+          "sentence": "The team developed a complex algorithm to analyze the data.",
+          "translation": "टीम ने डेटा का विश्लेषण करने के लिए एक जटिल अल्गोरिदम विकसित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Superposition",
+      "phoneticRespelling": "SOO-per-puh-zish-un",
+      "translation": "अतिस्थिति",
+      "definition": "A state where a quantum system can exist in multiple states simultaneously",
+      "definationTranslation": "एक अवस्था जहां एक क्वांटम प्रणाली एक ही समय में कई अवस्थाओं में अस्तित्व में आ सकती है",
+      "sentence": [
+        {
+          "sentence": "The concept of superposition is crucial in quantum computing.",
+          "translation": "अतिस्थिति की अवधारणा क्वांटम कम्प्यूटिंग में महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "The particle can exist in a state of superposition until observed.",
+          "translation": "कण पर्यवेक्षण तक अतिस्थिति की अवस्था में अस्तित्व में आ सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Entanglement",
+      "phoneticRespelling": "en-TANG-guh-luhnt",
+      "translation": "अपघटन",
+      "definition": "A phenomenon where two or more particles become connected and can affect each other",
+      "definationTranslation": "एक घटना जहां दो या अधिक कण जुड़ जाते हैं और एक दूसरे को प्रभावित कर सकते हैं",
+      "sentence": [
+        {
+          "sentence": "Entanglement is a key feature of quantum mechanics.",
+          "translation": "अपघटन क्वांटम मैकेनिक्स की एक महत्वपूर्ण विशेषता है।"
+        },
+        {
+          "sentence": "The entanglement of particles allows for quantum communication.",
+          "translation": "कणों का अपघटन क्वांटम संचार की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Quantum",
+      "phoneticRespelling": "KWAN-tuhm",
+      "translation": "क्वांटम",
+      "definition": "Relating to the smallest units of matter and energy",
+      "definationTranslation": "मामले और ऊर्जा की सबसे छोटी इकाइयों से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The quantum world is governed by its own set of rules.",
+          "translation": "क्वांटम दुनिया अपने नियमों के एक सेट द्वारा शासित है।"
+        },
+        {
+          "sentence": "Quantum mechanics is a fundamental theory in physics.",
+          "translation": "क्वांटम मैकेनिक्स भौतिकी में एक मौलिक सिद्धांत है।"
+        }
+      ]
+    },
+    {
+      "word": "Bit",
+      "phoneticRespelling": "BIT",
+      "translation": "बिट",
+      "definition": "A basic unit of information in computing",
+      "definationTranslation": "कंप्यूटिंग में जानकारी की एक मूल इकाई",
+      "sentence": [
+        {
+          "sentence": "A bit can have a value of either 0 or 1.",
+          "translation": "एक बिट 0 या 1 का मान हो सकता है।"
+        },
+        {
+          "sentence": "The computer processes information in bits.",
+          "translation": "कंप्यूटर जानकारी को बिट्स में संसाधित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Byte",
+      "phoneticRespelling": "BITE",
+      "translation": "बाइट",
+      "definition": "A unit of digital information",
+      "definationTranslation": "डिजिटल जानकारी की एक इकाई",
+      "sentence": [
+        {
+          "sentence": "A byte is equal to 8 bits.",
+          "translation": "एक बाइट 8 बिट्स के बराबर है।"
+        },
+        {
+          "sentence": "The file size is measured in bytes.",
+          "translation": "फ़ाइल का आकार बाइट्स में मापा जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cloud",
+      "phoneticRespelling": "KLOUD",
+      "translation": "क्लाउड",
+      "definition": "A remote storage system for data",
+      "definationTranslation": "डेटा के लिए एक दूरस्थ भंडारण प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The company stores its data in the cloud.",
+          "translation": "कंपनी अपने डेटा को क्लाउड में संग्रहीत करती है।"
+        },
+        {
+          "sentence": "Cloud computing allows for flexible data storage.",
+          "translation": "क्लाउड कंप्यूटिंग लचीले डेटा संग्रहण की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Circuit",
+      "phoneticRespelling": "SIR-kuit",
+      "translation": "सर्किट",
+      "definition": "A path through which electric current flows",
+      "definationTranslation": "एक मार्ग जिसके माध्यम से विद्युत प्रवाह बहता है",
+      "sentence": [
+        {
+          "sentence": "The circuit is closed when the switch is turned on.",
+          "translation": "सर्किट बंद हो जाता है जब स्विच चालू किया जाता है।"
+        },
+        {
+          "sentence": "The circuit board is an essential component of the computer.",
+          "translation": "सर्किट बोर्ड कंप्यूटर का एक आवश्यक घटक है।"
+        }
+      ]
+    },
+    {
+      "word": "Coding",
+      "phoneticRespelling": "KOH-ding",
+      "translation": "कोडिंग",
+      "definition": "The process of writing instructions for a computer",
+      "definationTranslation": "कंप्यूटर के लिए निर्देश लिखने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Coding is an essential skill for software developers.",
+          "translation": "कोडिंग सॉफ्टवेयर डेवलपर्स के लिए एक आवश्यक कौशल है।"
+        },
+        {
+          "sentence": "The coding process involves writing and testing code.",
+          "translation": "कोडिंग प्रक्रिया में कोड लिखना और परीक्षण करना शामिल है।"
+        }
+      ]
+    },
+    {
+      "word": "Compiler",
+      "phoneticRespelling": "kahm-PIH-ler",
+      "translation": "कंपाइलर",
+      "definition": "A program that translates code into machine language",
+      "definationTranslation": "एक कार्यक्रम जो कोड को मशीन भाषा में अनुवादित करता है",
+      "sentence": [
+        {
+          "sentence": "The compiler translates the code into a format that the computer can understand.",
+          "translation": "कंपाइलर कोड को एक प्रारूप में अनुवादित करता है जिसे कंप्यूटर समझ सकता है।"
+        },
+        {
+          "sentence": "The compiler is an essential tool for software development.",
+          "translation": "कंपाइलर सॉफ्टवेयर विकास के लिए एक आवश्यक उपकरण है।"
+        }
+      ]
+    },
+    {
+      "word": "Database",
+      "phoneticRespelling": "DAY-tuh-bayz",
+      "translation": "डेटाबेस",
+      "definition": "A collection of organized data",
+      "definationTranslation": "ऑर्गनाइज्ड डेटा का संग्रह",
+      "sentence": [
+        {
+          "sentence": "The database stores information in a structured format.",
+          "translation": "डेटाबेस जानकारी को एक संरचित प्रारूप में संग्रहीत करता है।"
+        },
+        {
+          "sentence": "The company uses a database to manage its customer information.",
+          "translation": "कंपनी अपने ग्राहकों की जानकारी को प्रबंधित करने के लिए एक डेटाबेस का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Decryption",
+      "phoneticRespelling": "dee-KRIPT-shun",
+      "translation": "डिक्रिप्शन",
+      "definition": "The process of converting encrypted data into its original form",
+      "definationTranslation": "एनक्रिप्टेड डेटा को उसके मूल रूप में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Decryption is used to access encrypted data.",
+          "translation": "डिक्रिप्शन एनक्रिप्टेड डेटा तक पहुंचने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The decryption process requires a secret key.",
+          "translation": "डिक्रिप्शन प्रक्रिया के लिए एक गुप्त कुंजी की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIPT-shun",
+      "translation": "एनक्रिप्शन",
+      "definition": "The process of converting data into a secure code",
+      "definationTranslation": "डेटा को एक सुरक्षित कोड में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Encryption is used to protect sensitive data.",
+          "translation": "एनक्रिप्शन संवेदनशील डेटा की रक्षा के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The encryption process requires a secret key.",
+          "translation": "एनक्रिप्शन प्रक्रिया के लिए एक गुप्त कुंजी की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FIRE-wahl",
+      "translation": "फायरवॉल",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "एक सुरक्षा प्रणाली जो आने वाले और बाहर जाने वाले नेटवर्क ट्रैफिक की निगरानी और नियंत्रण करती है",
+      "sentence": [
+        {
+          "sentence": "The firewall blocks unauthorized access to the network.",
+          "translation": "फायरवॉल नेटवर्क तक अनधिकृत पहुंच को ब्लॉक करता है।"
+        },
+        {
+          "sentence": "The company uses a firewall to protect its network from hackers.",
+          "translation": "कंपनी अपने नेटवर्क को हैकर्स से बचाने के लिए एक फायरवॉल का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Gateway",
+      "phoneticRespelling": "GAYT-way",
+      "translation": "गेटवे",
+      "definition": "A device that connects two or more networks",
+      "definationTranslation": "एक उपकरण जो दो या अधिक नेटवर्क को जोड़ता है",
+      "sentence": [
+        {
+          "sentence": "The gateway connects the local network to the internet.",
+          "translation": "गेटवे स्थानीय नेटवर्क को इंटरनेट से जोड़ता है।"
+        },
+        {
+          "sentence": "The gateway is used to access the internet from a private network.",
+          "translation": "गेटवे एक निजी नेटवर्क से इंटरनेट तक पहुंचने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hub",
+      "phoneticRespelling": "HUB",
+      "translation": "हब",
+      "definition": "A device that connects multiple devices to a network",
+      "definationTranslation": "एक उपकरण जो कई उपकरणों को एक नेटवर्क से जोड़ता है",
+      "sentence": [
+        {
+          "sentence": "The hub connects the computers to the network.",
+          "translation": "हब कंप्यूटरों को नेटवर्क से जोड़ता है।"
+        },
+        {
+          "sentence": "The hub is used to expand the network.",
+          "translation": "हब नेटवर्क को बढ़ाने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Interface",
+      "phoneticRespelling": "IN-ter-feys",
+      "translation": "इंटरफ़ेस",
+      "definition": "A point of interaction between two systems or devices",
+      "definationTranslation": "दो सिस्टम या उपकरणों के बीच संपर्क का बिंदु",
+      "sentence": [
+        {
+          "sentence": "The interface between the computer and the user is the keyboard and mouse.",
+          "translation": "कंप्यूटर और उपयोगकर्ता के बीच का इंटरफ़ेस कीबोर्ड और माउस है।"
+        },
+        {
+          "sentence": "The interface is designed to be user-friendly.",
+          "translation": "इंटरफ़ेस को उपयोगकर्ता-मित्र बनाने के लिए डिज़ाइन किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Internet",
+      "phoneticRespelling": "IN-ter-net",
+      "translation": "इंटरनेट",
+      "definition": "A global network of interconnected computers",
+      "definationTranslation": "इंटरकनेक्टेड कंप्यूटरों का एक वैश्विक नेटवर्क",
+      "sentence": [
+        {
+          "sentence": "The internet is used for communication and information sharing.",
+          "translation": "इंटरनेट संचार और जानकारी साझा करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The internet has revolutionized the way we live and work.",
+          "translation": "इंटरनेट ने जीवन और काम करने के तरीके को क्रांतिकारी बना दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Intranet",
+      "phoneticRespelling": "IN-truh-net",
+      "translation": "इंत्रानेट",
+      "definition": "A private network within an organization",
+      "definationTranslation": "एक संगठन के भीतर एक निजी नेटवर्क",
+      "sentence": [
+        {
+          "sentence": "The intranet is used for internal communication and collaboration.",
+          "translation": "इंट्रानेट आंतरिक संचार और सहयोग के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The intranet is a secure and private network.",
+          "translation": "इंट्रानेट एक सुरक्षित और निजी नेटवर्क है।"
+        }
+      ]
+    },
+    {
+      "word": "Malware",
+      "phoneticRespelling": "MAL-uh-ware",
+      "translation": "मालवेयर",
+      "definition": "Software designed to harm or exploit a computer system",
+      "definationTranslation": "एक कंप्यूटर सिस्टम को नुकसान पहुंचाने या शोषण करने के लिए डिज़ाइन किया गया सॉफ़्टवेयर",
+      "sentence": [
+        {
+          "sentence": "The malware infected the computer and stole sensitive data.",
+          "translation": "मालवेयर ने कंप्यूटर को संक्रमित किया और संवेदनशील डेटा चोरी किया।"
+        },
+        {
+          "sentence": "The company uses antivirus software to protect against malware.",
+          "translation": "कंपनी मालवेयर से बचाव के लिए एंटीवायरस सॉफ़्टवेयर का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Microchip",
+      "phoneticRespelling": "MY-kruh-chip",
+      "translation": "माइक्रोचिप",
+      "definition": "A small electronic device that contains a set of integrated circuits",
+      "definationTranslation": "एक nhỏ इलेक्ट्रॉनिक उपकरण जो एक सेट के एकीकृत सर्किट होता है",
+      "sentence": [
+        {
+          "sentence": "The microchip is used in a variety of electronic devices.",
+          "translation": "माइक्रोचिप का उपयोग विभिन्न इलेक्ट्रॉनिक उपकरणों में किया जाता है।"
+        },
+        {
+          "sentence": "The microchip is a crucial component of modern electronics.",
+          "translation": "माइक्रोचिप आधुनिक इलेक्ट्रॉनिक्स का एक महत्वपूर्ण घटक है।"
+        }
+      ]
+    },
+    {
+      "word": "Motherboard",
+      "phoneticRespelling": "MUTH-er-bord",
+      "translation": "मदरबोर्ड",
+      "definition": "The main circuit board of a computer",
+      "definationTranslation": "कंप्यूटर का मुख्य सर्किट बोर्ड",
+      "sentence": [
+        {
+          "sentence": "The motherboard connects all the hardware components of the computer.",
+          "translation": "मदरबोर्ड कंप्यूटर के सभी हार्डवेयर घटकों को जोड़ता है।"
+        },
+        {
+          "sentence": "The motherboard is the backbone of the computer.",
+          "translation": "मदरबोर्ड कंप्यूटर की रीढ़ की हड्डी है।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A system of interconnected computers or devices",
+      "definationTranslation": "इंटरकनेक्टेड कंप्यूटरों या उपकरणों का एक प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The network allows for communication and data sharing between devices.",
+          "translation": "नेटवर्क डिवाइसों के बीच संचार और डेटा साझा करने की अनुमति देता है।"
+        },
+        {
+          "sentence": "The company uses a network to connect its offices and employees.",
+          "translation": "कंपनी अपने कार्यालयों और कर्मचारियों को जोड़ने के लिए एक नेटवर्क का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Password",
+      "phoneticRespelling": "PASS-wurd",
+      "translation": "पासवर्ड",
+      "definition": "A secret word or phrase used to authenticate a user",
+      "definationTranslation": "एक उपयोगकर्ता को प्रमाणित करने के लिए उपयोग किया जाने वाला एक गुप्त शब्द या वाक्यांश",
+      "sentence": [
+        {
+          "sentence": "The password is used to protect the account from unauthorized access.",
+          "translation": "पासवर्ड खाते को अनधिकृत पहुंच से बचाने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The password should be kept secret and not shared with anyone.",
+          "translation": "पासवर्ड को गुप्त रखा जाना चाहिए और किसी के साथ साझा नहीं करना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Pixel",
+      "phoneticRespelling": "PIK-sul",
+      "translation": "पिक्सेल",
+      "definition": "A small unit of digital information",
+      "definationTranslation": "डिजिटल जानकारी की एक छोटी इकाई",
+      "sentence": [
+        {
+          "sentence": "The image is made up of millions of pixels.",
+          "translation": "छवि लाखों पिक्सेल से बनी है।"
+        },
+        {
+          "sentence": "The pixel is the smallest unit of digital information.",
+          "translation": "पिक्सेल डिजिटल जानकारी की सबसे छोटी इकाई है।"
+        }
+      ]
+    }
+  ]
+}

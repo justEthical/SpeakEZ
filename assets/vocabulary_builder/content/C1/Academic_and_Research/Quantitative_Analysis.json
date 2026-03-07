@@ -406,9 +406,25 @@
         {
           "sentence": "The inferential analysis revealed insights into the population's characteristics.",
           "translation": "अनुमानात्मक विश्लेषण ने जनसंख्या की विशेषताओं के बारे में अंतर्दृष्टि प्रदान की।"
+        },
+        {
+          "word": "Stochastic",
+          "phoneticRespelling": "stuh-KAS-tik",
+          "translation": "संभाव्यतापरक",
+          "definition": "Having a random probability distribution or pattern that may be analyzed statistically but may not be predicted precisely",
+          "definationTranslation": "एक यादृच्छिक संभावना वितरण या पैटर्न होना जिसका सांख्यिकीय विश्लेषण किया जा सकता है लेकिन सटीक भविष्यवाणी नहीं की जा सकती",
+          "sentence": [
+            {
+              "sentence": "The stock market is often viewed as a stochastic process due to its unpredictable fluctuations.",
+              "translation": "शेयर बाजार को अक्सर इसके अप्रत्याशित उतार-चढ़ाव के कारण एक संभाव्यतापरक प्रक्रिया के रूप में देखा जाता है।"
+            },
+            {
+              "sentence": "Researchers used a stochastic model to simulate how the virus might spread randomly through the population.",
+              "translation": "शोधकर्ताओं ने यह अनुकरण करने के लिए एक संभाव्यतापरक मॉडल का उपयोग किया कि वायरस जनसंख्या में बेतरतीब ढंग से कैसे फैल सकता है।"
+            }
+          ]
         }
       ]
     }
-  ],
-  "_warning": "Requested 25 words but got 24."
+  ]
 }

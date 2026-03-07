@@ -1,1 +1,379 @@
-{}
+{
+  "topic": "Systems Biology",
+  "words": [
+    {
+      "word": "Metabolism",
+      "phoneticRespelling": "muh-TAB-uh-liz-uhm",
+      "translation": "चयापचय",
+      "definition": "The process by which cells convert energy and nutrients into the components that make up living organisms.",
+      "definationTranslation": "जीवित प्राणियों के घटकों में ऊर्जा और पोषक तत्वों को परिवर्तित करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The researcher studied the metabolism of cancer cells.",
+          "translation": "शोधकर्ता ने कैंसर कोशिकाओं के चयापचय का अध्ययन किया।"
+        },
+        {
+          "sentence": "Metabolism is a critical aspect of systems biology.",
+          "translation": "चयापचय सिस्टम्स बायोलॉजी की एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "Genome",
+      "phoneticRespelling": "JEE-nohm",
+      "translation": "जीनोम",
+      "definition": "The complete set of genetic instructions encoded in an organism's DNA.",
+      "definationTranslation": "एक जीव के डीएनए में एनकोडेड जेनेटिक निर्देशों का पूरा सेट।",
+      "sentence": [
+        {
+          "sentence": "The human genome project aimed to sequence the entire human genome.",
+          "translation": "मानव जीनोम परियोजना का उद्देश्य पूरे मानव जीनोम को अनुक्रमित करना था।"
+        },
+        {
+          "sentence": "Understanding the genome is essential for systems biology.",
+          "translation": "जीनोम को समझना सिस्टम्स बायोलॉजी के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Proteome",
+      "phoneticRespelling": "PROH-tee-ohm",
+      "translation": "प्रोटियोम",
+      "definition": "The complete set of proteins produced by an organism's genes.",
+      "definationTranslation": "एक जीव के जीनों द्वारा उत्पादित प्रोटीन का पूरा सेट।",
+      "sentence": [
+        {
+          "sentence": "The proteome of a cell can be analyzed using mass spectrometry.",
+          "translation": "एक कोशिका के प्रोटियोम का विश्लेषण द्रव्यमान स्पेक्ट्रोमीटर का उपयोग करके किया जा सकता है।"
+        },
+        {
+          "sentence": "Studying the proteome is important for understanding cellular functions.",
+          "translation": "सेलुलर कार्यों को समझने के लिए प्रोटियोम का अध्ययन करना महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Systems",
+      "phoneticRespelling": "SIS-tuhmz",
+      "translation": "सिस्टम",
+      "definition": "A set of components that work together to achieve a common goal.",
+      "definationTranslation": "एक सामान्य लक्ष्य को प्राप्त करने के लिए मिलकर काम करने वाले घटकों का एक सेट।",
+      "sentence": [
+        {
+          "sentence": "Biological systems are complex and highly regulated.",
+          "translation": "जैविक प्रणालियाँ जटिल और उच्च नियामक होती हैं।"
+        },
+        {
+          "sentence": "Understanding systems is crucial for systems biology.",
+          "translation": "प्रणालियों को समझना सिस्टम्स बायोलॉजी के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A system of interconnected components that exchange information or resources.",
+      "definationTranslation": "पारस्परिक रूप से जुड़े हुए घटकों की एक प्रणाली जो जानकारी या संसाधनों का आदान-प्रदान करती है।",
+      "sentence": [
+        {
+          "sentence": "Biological networks can be modeled using computational tools.",
+          "translation": "जैविक नेटवर्क को कम्प्यूटेशनल टूल्स का उपयोग करके मॉडल किया जा सकता है।"
+        },
+        {
+          "sentence": "Network analysis is a key aspect of systems biology.",
+          "translation": "नेटवर्क विश्लेषण सिस्टम्स बायोलॉजी का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    },
+    {
+      "word": "Regulation",
+      "phoneticRespelling": "reg-yoo-LEH-shuhn",
+      "translation": "विनियमन",
+      "definition": "The process by which cells control the expression of genes and the activity of proteins.",
+      "definationTranslation": "एक प्रक्रिया जिसके द्वारा कोशिकाएं जीनों की अभिव्यक्ति और प्रोटीनों की गतिविधि को नियंत्रित करती हैं।",
+      "sentence": [
+        {
+          "sentence": "Regulation of gene expression is crucial for cellular function.",
+          "translation": "जीन अभिव्यक्ति का विनियमन सेलुलर कार्य के लिए महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "Regulation of protein activity is essential for maintaining cellular homeostasis.",
+          "translation": "प्रोटीन गतिविधि का विनियमन सेलुलर होमियोस्टेसिस को बनाए रखने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Modeling",
+      "phoneticRespelling": "MOH-dul-ing",
+      "translation": "मॉडलिंग",
+      "definition": "The process of creating mathematical or computational representations of biological systems.",
+      "definationTranslation": "जैविक प्रणालियों के गणितीय या कम्प्यूटेशनल प्रतिनिधित्व बनाने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Modeling can be used to simulate the behavior of complex biological systems.",
+          "translation": "मॉडलिंग का उपयोग जटिल जैविक प्रणालियों के व्यवहार को सिमुलेट करने के लिए किया जा सकता है।"
+        },
+        {
+          "sentence": "Modeling is an essential tool for systems biology research.",
+          "translation": "मॉडलिंग सिस्टम्स बायोलॉजी शोध के लिए एक आवश्यक उपकरण है।"
+        }
+      ]
+    },
+    {
+      "word": "Simulation",
+      "phoneticRespelling": "sim-yoo-LEH-shuhn",
+      "translation": "सिमुलेशन",
+      "definition": "The process of using computational models to mimic the behavior of biological systems.",
+      "definationTranslation": "जैविक प्रणालियों के व्यवहार को अनुकरण करने के लिए कम्प्यूटेशनल मॉडल का उपयोग करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Simulation can be used to predict the behavior of complex biological systems.",
+          "translation": "सिमुलेशन का उपयोग जटिल जैविक प्रणालियों के व्यवहार को भविष्य कहने के लिए किया जा सकता है।"
+        },
+        {
+          "sentence": "Simulation is a powerful tool for systems biology research.",
+          "translation": "सिमुलेशन सिस्टम्स बायोलॉजी शोध के लिए एक शक्तिशाली उपकरण है।"
+        }
+      ]
+    },
+    {
+      "word": "Dynamics",
+      "phoneticRespelling": "dai-NAM-iks",
+      "translation": "गतिकी",
+      "definition": "The study of the behavior of biological systems over time.",
+      "definationTranslation": "जैविक प्रणालियों के व्यवहार का समय के साथ अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "Understanding the dynamics of biological systems is essential for systems biology.",
+          "translation": "जैविक प्रणालियों की गतिकी को समझना सिस्टम्स बायोलॉजी के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "Dynamics can be used to study the behavior of complex biological systems.",
+          "translation": "गतिकी का उपयोग जटिल जैविक प्रणालियों के व्यवहार का अध्ययन करने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Feedback",
+      "phoneticRespelling": "FEE-d백",
+      "translation": "फीडबैक",
+      "definition": "A process by which the output of a system is used to control the input.",
+      "definationTranslation": "एक प्रक्रिया जिसमें एक प्रणाली का आउटपुट इनपुट को नियंत्रित करने के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "Feedback is an important mechanism for regulating biological systems.",
+          "translation": "फीडबैक जैविक प्रणालियों को विनियमित करने के लिए एक महत्वपूर्ण तंत्र है।"
+        },
+        {
+          "sentence": "Feedback can be used to maintain homeostasis in biological systems.",
+          "translation": "फीडबैक का उपयोग जैविक प्रणालियों में होमियोस्टेसिस को बनाए रखने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Homeostasis",
+      "phoneticRespelling": "hoh-mee-oh-STAY-sis",
+      "translation": "होमियोस्टेसिस",
+      "definition": "The ability of a biological system to maintain a stable internal environment despite changes in the external environment.",
+      "definationTranslation": "एक जैविक प्रणाली की अपने आंतरिक वातावरण को स्थिर बनाए रखने की क्षमता, बाहरी वातावरण में परिवर्तन के बावजूद।",
+      "sentence": [
+        {
+          "sentence": "Homeostasis is essential for the survival of living organisms.",
+          "translation": "होमियोस्टेसिस जीवित प्राणियों के जीवन के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "Homeostasis is maintained through a variety of mechanisms, including feedback.",
+          "translation": "होमियोस्टेसिस को विभिन्न तंत्रों के माध्यम से बनाए रखा जाता है, जिनमें फीडबैक भी शामिल है।"
+        }
+      ]
+    },
+    {
+      "word": "Pathway",
+      "phoneticRespelling": "PATH-wey",
+      "translation": "पथ",
+      "definition": "A series of biochemical reactions that occur in a biological system.",
+      "definationTranslation": "जैविक प्रणाली में होने वाली एक श्रृंखला जैव रासायनिक प्रतिक्रियाएं।",
+      "sentence": [
+        {
+          "sentence": "The pathway of glucose metabolism is essential for energy production in cells.",
+          "translation": "कोशिकाओं में ऊर्जा उत्पादन के लिए ग्लूकोज चयापचय का पथ अत्यंत महत्वपूर्ण है।"
+        },
+        {
+          "sentence": "Understanding the pathways of biological systems is crucial for systems biology research.",
+          "translation": "जैविक प्रणालियों के पथों को समझना सिस्टम्स बायोलॉजी शोध के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Interactome",
+      "phoneticRespelling": "in-ter-AK-tohm",
+      "translation": "अन्तःक्रिया प्रणाली",
+      "definition": "The complete set of interactions between proteins and other molecules in a biological system.",
+      "definationTranslation": "एक जैविक प्रणाली में प्रोटीन और अन्य अणुओं के बीच की पूरी सेट अन्तक्रियाएं।",
+      "sentence": [
+        {
+          "sentence": "The interactome is a complex network of interactions that regulate biological processes.",
+          "translation": "अन्तःक्रिया प्रणाली जैविक प्रक्रियाओं को विनियमित करने वाली एक जटिल नेटवर्क है।"
+        },
+        {
+          "sentence": "Understanding the interactome is essential for systems biology research.",
+          "translation": "अन्तःक्रिया प्रणाली को समझना सिस्टम्स बायोलॉजी शोध के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Ome",
+      "phoneticRespelling": "OH-mee",
+      "translation": "ओम",
+      "definition": "A suffix used to denote a complete set of related molecules or biological entities.",
+      "definationTranslation": "एक प्रत्यय जो संबंधित अणुओं या जीववैज्ञानिक इकाइयों के एक पूरे सेट को दर्शाने के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The genome, proteome, and transcriptome are all examples of omes.",
+          "translation": "जीनोम, प्रोटियोम और ट्रांस्क्रिप्टोम सभी ओम के उदाहरण हैं।"
+        },
+        {
+          "sentence": "The study of omes is essential for understanding biological systems.",
+          "translation": "ओम का अध्ययन जैविक प्रणालियों को समझने के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Transcriptome",
+      "phoneticRespelling": "tran-SKRIP-tohm",
+      "translation": "ट्रांस्क्रिप्टोम",
+      "definition": "The complete set of transcripts in a cell or organism.",
+      "definationTranslation": "एक कोशिका या जीव में सभी ट्रांस्क्रिप्ट का पूरा सेट।",
+      "sentence": [
+        {
+          "sentence": "The transcriptome is a critical aspect of systems biology.",
+          "translation": "ट्रांस्क्रिप्टोम सिस्टम्स बायोलॉजी का एक महत्वपूर्ण पहलू है।"
+        },
+        {
+          "sentence": "Understanding the transcriptome is essential for understanding gene regulation.",
+          "translation": "ट्रांस्क्रिप्टोम को समझना जीन नियमन को समझने के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Epigenome",
+      "phoneticRespelling": "eh-pih-jee-NOHM",
+      "translation": "एपिजीनोम",
+      "definition": "The complete set of epigenetic modifications in a cell or organism.",
+      "definationTranslation": "एक कोशिका या जीव में सभी एपिजेनेटिक संशोधनों का पूरा सेट।",
+      "sentence": [
+        {
+          "sentence": "The epigenome plays a critical role in gene regulation.",
+          "translation": "एपिजीनोम जीन नियमन में एक महत्वपूर्ण भूमिका निभाता है।"
+        },
+        {
+          "sentence": "Understanding the epigenome is essential for understanding cellular differentiation.",
+          "translation": "एपिजीनोम को समझना सेलुलर विभेदन को समझने के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Microbiome",
+      "phoneticRespelling": "my-kroh-BY-ohm",
+      "translation": "माइक्रोबायोम",
+      "definition": "The complete set of microorganisms in a particular environment or ecosystem.",
+      "definationTranslation": "एक विशिष्ट वातावरण या पारिस्थितिकी तंत्र में सभी माइक्रोоргैनिज्म का पूरा सेट।",
+      "sentence": [
+        {
+          "sentence": "The human microbiome plays a critical role in human health.",
+          "translation": "मानव माइक्रोबायोम मानव स्वास्थ्य में एक महत्वपूर्ण भूमिका निभाता है।"
+        },
+        {
+          "sentence": "Understanding the microbiome is essential for understanding ecosystem function.",
+          "translation": "माइक्रोबायोम को समझना पारिस्थितिकी तंत्र के कार्य को समझने के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Bioinformatics",
+      "phoneticRespelling": "bye-oh-in-fer-MAT-iks",
+      "translation": "जैव सूचना विज्ञान",
+      "definition": "The use of computational tools and methods to analyze and interpret biological data.",
+      "definationTranslation": "जैविक डेटा का विश्लेषण और व्याख्या करने के लिए कम्प्यूटेशनल टूल्स और तरीकों का उपयोग।",
+      "sentence": [
+        {
+          "sentence": "Bioinformatics is a critical tool for systems biology research.",
+          "translation": "जैव सूचना विज्ञान सिस्टम्स बायोलॉजी शोध के लिए एक महत्वपूर्ण उपकरण है।"
+        },
+        {
+          "sentence": "Bioinformatics can be used to analyze large datasets and identify patterns.",
+          "translation": "जैव सूचना विज्ञान का उपयोग बड़े डेटासेट का विश्लेषण करने और पैटर्न की पहचान करने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Computational",
+      "phoneticRespelling": "kahm-pyoo-TEY-shuhn-al",
+      "translation": "कम्प्यूटेशनल",
+      "definition": "Relating to or involving the use of computers or computational methods.",
+      "definationTranslation": "कम्प्यूटर या कम्प्यूटेशनल तरीकों के उपयोग से संबंधित या उनमें शामिल।",
+      "sentence": [
+        {
+          "sentence": "Computational models can be used to simulate complex biological systems.",
+          "translation": "कम्प्यूटेशनल मॉडल्स का उपयोग जटिल जैविक प्रणालियों को सिमुलेट करने के लिए किया जा सकता है।"
+        },
+        {
+          "sentence": "Computational tools are essential for systems biology research.",
+          "translation": "कम्प्यूटेशनल टूल्स सिस्टम्स बायोलॉजी शोध के लिए अत्यंत महत्वपूर्ण हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Biological",
+      "phoneticRespelling": "bye-uh-LOJ-ih-kul",
+      "translation": "जैविक",
+      "definition": "Relating to or characteristic of living organisms.",
+      "definationTranslation": "जीवित प्राणियों से संबंधित या उनकी विशेषता वाला।",
+      "sentence": [
+        {
+          "sentence": "Biological systems are complex and highly regulated.",
+          "translation": "जैविक प्रणालियाँ जटिल और उच्च नियामक होती हैं।"
+        },
+        {
+          "sentence": "Biological processes are essential for life.",
+          "translation": "जैविक प्रक्रियाएं जीवन के लिए आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Systems",
+      "phoneticRespelling": "SIS-tuhmz",
+      "translation": "प्रणालियाँ",
+      "definition": "A set of components that work together to achieve a common goal.",
+      "definationTranslation": "एक सामान्य लक्ष्य को प्राप्त करने के लिए मिलकर काम करने वाले घटकों का एक सेट।",
+      "sentence": [
+        {
+          "sentence": "Biological systems are complex and highly regulated.",
+          "translation": "जैविक प्रणालियाँ जटिल और उच्च नियामक होती हैं।"
+        },
+        {
+          "sentence": "Understanding systems is crucial for systems biology.",
+          "translation": "प्रणालियों को समझना सिस्टम्स बायोलॉजी के लिए अत्यंत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Cellular",
+      "phoneticRespelling": "SEL-yoo-lur",
+      "translation": "सेलुलर",
+      "definition": "Relating to or characteristic of cells.",
+      "definationTranslation": "कोशिकाओं से संबंधित या उनकी विशेषता वाला।",
+      "sentence": [
+        {
+          "sentence": "Cellular processes are essential for life.",
+          "translation": "सेलुलर प्रक्रियाएं जीवन के लिए आवश्यक हैं।"
+        },
+        {
+          "sentence": "Cellular biology is a key aspect of systems biology.",
+          "translation": "सेलुलर बायोलॉजी सिस्टम्स बायोलॉजी का एक महत्वपूर्ण पहलू है।"
+        }
+      ]
+    }
+  ]
+}

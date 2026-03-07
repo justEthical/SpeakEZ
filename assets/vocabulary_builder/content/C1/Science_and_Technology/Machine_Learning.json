@@ -1,1 +1,379 @@
-{}
+{
+  "topic": "Machine Learning",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "algorithm",
+      "definition": "a set of rules for solving a problem",
+      "definationTranslation": "samasya hal karne ke liye niyamon ka samuh",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in this program is very efficient.",
+          "translation": "Is program mein upyog kiya gaya algorithm bahut hi kushal hai."
+        },
+        {
+          "sentence": "The team developed a new algorithm for data analysis.",
+          "translation": "Team ne data vishleshan ke liye ek naya algorithm viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Artificial",
+      "phoneticRespelling": "ar-ti-FISH-ul",
+      "translation": "kritrim",
+      "definition": "made or produced by humans",
+      "definationTranslation": "manav Dwara banaya ya utpadit",
+      "sentence": [
+        {
+          "sentence": "Artificial intelligence is a key area of research in machine learning.",
+          "translation": "Kritrim buddhimatta machine learning mein anusandhan ka ek mahatvapoorn kshetra hai."
+        },
+        {
+          "sentence": "The company is developing artificial intelligence systems.",
+          "translation": "Company kritrim buddhimatta pranaliyon ka vikas kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Classification",
+      "phoneticRespelling": "klas-uh-fi-KAY-shun",
+      "translation": "vargon ka",
+      "definition": "the act of assigning something to a category",
+      "definationTranslation": "kisi cheez ko ek shreni mein rakha jana",
+      "sentence": [
+        {
+          "sentence": "The classification of the data is an important step in machine learning.",
+          "translation": "Machine learning mein data ki vargon ka ek mahatvapoorn charan hai."
+        },
+        {
+          "sentence": "The algorithm is used for classification and regression tasks.",
+          "translation": "Algorithm vargon ka aur regression karyon ke liye upyog kiya jata hai."
+        }
+      ]
+    },
+    {
+      "word": "Clustering",
+      "phoneticRespelling": "KLUS-ter-ing",
+      "translation": "samuhikaran",
+      "definition": "the act of grouping similar things together",
+      "definationTranslation": "samihi cheezon ko ek saath samuh mein rakhna",
+      "sentence": [
+        {
+          "sentence": "Clustering is a type of unsupervised learning in machine learning.",
+          "translation": "Machine learning mein clustering anugamiya adhigam ka ek prakaar hai."
+        },
+        {
+          "sentence": "The algorithm uses clustering to group similar data points together.",
+          "translation": "Algorithm samuhikaran ka upyog karke samaan data binduon ko ek saath jodta hai."
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "data",
+      "definition": "facts and statistics collected together",
+      "definationTranslation": "ekatra kiye gaye tathy aur sankhyaiki",
+      "sentence": [
+        {
+          "sentence": "The company collects and analyzes large amounts of data.",
+          "translation": "Company bade matra mein data ikattha karti hai aur uska vishleshan karti hai."
+        },
+        {
+          "sentence": "The data is used to train machine learning models.",
+          "translation": "Data machine learning model ko prashikshit karne ke liye upyog kiya jata hai."
+        }
+      ]
+    },
+    {
+      "word": "Deep",
+      "phoneticRespelling": "DEEP",
+      "translation": "gahra",
+      "definition": "extending far down or having a great depth",
+      "definationTranslation": "bahut neeche tak jaana ya gehra hona",
+      "sentence": [
+        {
+          "sentence": "Deep learning is a key area of research in machine learning.",
+          "translation": "Gahra adhigam machine learning mein anusandhan ka ek mahatvapoorn kshetra hai."
+        },
+        {
+          "sentence": "The company is developing deep learning algorithms for image recognition.",
+          "translation": "Company chitra pehchan ke liye gahra adhigam algorithm ko viksit kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Learning",
+      "phoneticRespelling": "LURN-ing",
+      "translation": "sikhna",
+      "definition": "the act of gaining knowledge or skills",
+      "definationTranslation": "gyan ya kaushal prapt karna",
+      "sentence": [
+        {
+          "sentence": "Machine learning is a type of artificial intelligence.",
+          "translation": "Machine learning kritrim buddhimatta ka ek prakaar hai."
+        },
+        {
+          "sentence": "The company provides learning opportunities for its employees.",
+          "translation": "Company apne karmchariyon ke liye sikhne ke avsar pradaan karti hai."
+        }
+      ]
+    },
+    {
+      "word": "Model",
+      "phoneticRespelling": "MOD-ul",
+      "translation": "model",
+      "definition": "a three-dimensional representation of a person or thing",
+      "definationTranslation": "kisi vyakti ya vastu ki tri-aayami prastuti",
+      "sentence": [
+        {
+          "sentence": "The company developed a new model for predicting customer behavior.",
+          "translation": "Company ne grahak vyavhar ka anuman lagaane ke liye ek naya model viksit kiya."
+        },
+        {
+          "sentence": "The machine learning model is trained on large amounts of data.",
+          "translation": "Machine learning model ko bade matra mein data par prashikshit kiya jata hai."
+        }
+      ]
+    },
+    {
+      "word": "Natural",
+      "phoneticRespelling": "NAY-chrul",
+      "translation": "prakritik",
+      "definition": "existing in or formed by nature",
+      "definationTranslation": "prakriti mein maujood ya uske dwara nirmit",
+      "sentence": [
+        {
+          "sentence": "Natural language processing is a key area of research in machine learning.",
+          "translation": "Prakritik bhasha pranali machine learning mein anusandhan ka ek mahatvapoorn kshetra hai."
+        },
+        {
+          "sentence": "The company is developing natural language processing algorithms.",
+          "translation": "Company prakritik bhasha pranali algorithm ko viksit kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Neural",
+      "phoneticRespelling": "NOOR-ul",
+      "translation": "tantrik",
+      "definition": "relating to the nervous system",
+      "definationTranslation": "tantrik tantra se sambandhit",
+      "sentence": [
+        {
+          "sentence": "Neural networks are a key component of deep learning algorithms.",
+          "translation": "Tantrik jali gahra adhigam algorithm ka ek mahatvapoorn ghatak hai."
+        },
+        {
+          "sentence": "The company is developing neural networks for image recognition.",
+          "translation": "Company chitra pehchan ke liye tantrik jali ko viksit kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "jali",
+      "definition": "a system of interconnected things",
+      "definationTranslation": "sambandhit cheezon ka ek tantr",
+      "sentence": [
+        {
+          "sentence": "The neural network is trained on large amounts of data.",
+          "translation": "Tantrik jali ko bade matra mein data par prashikshit kiya jata hai."
+        },
+        {
+          "sentence": "The company is developing a network of artificial intelligence systems.",
+          "translation": "Company kritrim buddhimatta pranaliyon ka ek jali viksit kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Optimization",
+      "phoneticRespelling": "OP-ti-mee-ZAY-shun",
+      "translation": "utkarn",
+      "definition": "the act of making something as effective or efficient as possible",
+      "definationTranslation": "kisi cheez ko sabse adhik prabhavi ya kushal banane ka karya",
+      "sentence": [
+        {
+          "sentence": "The company is using optimization techniques to improve the performance of its algorithms.",
+          "translation": "Company apne algorithm ke pradarshan ko sudharne ke liye utkarn takneekon ka upyog kar rahi hai."
+        },
+        {
+          "sentence": "The optimization process is a key part of machine learning.",
+          "translation": "Utkarn prakriya machine learning ka ek mahatvapoorn bhag hai."
+        }
+      ]
+    },
+    {
+      "word": "Pattern",
+      "phoneticRespelling": "PAT-urn",
+      "translation": "pattern",
+      "definition": "a repeated or regular arrangement of things",
+      "definationTranslation": "cheezon ka punaravritti ya niyamit vyavastha",
+      "sentence": [
+        {
+          "sentence": "The algorithm is designed to recognize patterns in the data.",
+          "translation": "Algorithm data mein pattern ko pehchanne ke liye design kiya gaya hai."
+        },
+        {
+          "sentence": "The company is using pattern recognition to improve its predictive models.",
+          "translation": "Company apne anuman model ko sudharne ke liye pattern pehchan ka upyog kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Prediction",
+      "phoneticRespelling": "pri-DIK-shun",
+      "translation": "bhavishyavani",
+      "definition": "the act of saying what will happen in the future",
+      "definationTranslation": "bhavishya mein kya hoga iska kaha jana",
+      "sentence": [
+        {
+          "sentence": "The company is using machine learning for prediction and forecasting.",
+          "translation": "Company bhavishyavani aur anuman ke liye machine learning ka upyog kar rahi hai."
+        },
+        {
+          "sentence": "The prediction model is trained on large amounts of data.",
+          "translation": "Bhavishyavani model ko bade matra mein data par prashikshit kiya jata hai."
+        }
+      ]
+    },
+    {
+      "word": "Regulation",
+      "phoneticRespelling": "REG-yoo-LEY-shun",
+      "translation": "niyam",
+      "definition": "the act of controlling or directing something",
+      "definationTranslation": "kisi cheez ko niyantrit ya nirdeshit karna",
+      "sentence": [
+        {
+          "sentence": "The company is subject to regulation by the government.",
+          "translation": "Company sarkar ke niyam ka palan karti hai."
+        },
+        {
+          "sentence": "The regulation of artificial intelligence is a complex issue.",
+          "translation": "Kritrim buddhimatta ka niyam ek jatil samasya hai."
+        }
+      ]
+    },
+    {
+      "word": "Robotics",
+      "phoneticRespelling": "roh-BOT-iks",
+      "translation": "robotics",
+      "definition": "the study of robots and their applications",
+      "definationTranslation": "robot aur unke upyog ka adhyayan",
+      "sentence": [
+        {
+          "sentence": "The company is developing robotics systems for manufacturing and logistics.",
+          "translation": "Company utpadan aur logistiks ke liye robotics pranali ko viksit kar rahi hai."
+        },
+        {
+          "sentence": "Robotics is a key area of research in machine learning.",
+          "translation": "Robotics machine learning mein anusandhan ka ek mahatvapoorn kshetra hai."
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "phoneticRespelling": "SIS-tem",
+      "translation": "pranali",
+      "definition": "a set of things that work together",
+      "definationTranslation": "ek saath kaam karne wali cheezon ka samuh",
+      "sentence": [
+        {
+          "sentence": "The company is developing a system for machine learning and artificial intelligence.",
+          "translation": "Company machine learning aur kritrim buddhimatta ke liye ek pranali viksit kar rahi hai."
+        },
+        {
+          "sentence": "The system is designed to improve the efficiency of the company's operations.",
+          "translation": "Pranali company ke prakriyao ki kushalta ko sudharne ke liye design ki gayi hai."
+        }
+      ]
+    },
+    {
+      "word": "Technology",
+      "phoneticRespelling": "TEK-nol-uh-jee",
+      "translation": "praudyogiki",
+      "definition": "the study and use of technical methods and tools",
+      "definationTranslation": "takneeki vidhiyon aur upkaranon ka adhyayan aur upyog",
+      "sentence": [
+        {
+          "sentence": "The company is using technology to improve its products and services.",
+          "translation": "Company apne utpadon aur sewaon ko sudharne ke liye praudyogiki ka upyog kar rahi hai."
+        },
+        {
+          "sentence": "Technology is a key driver of innovation and growth.",
+          "translation": "Praudyogiki navachar aur vriddhi ka ek mahatvapoorn chalak hai."
+        }
+      ]
+    },
+    {
+      "word": "Training",
+      "phoneticRespelling": "TRAY-ning",
+      "translation": "prashikshan",
+      "definition": "the act of teaching or learning the skills you need to do a job",
+      "definationTranslation": "ek naukri ke liye aavshyak kaushal ko sikhne ya sikhane ka karya",
+      "sentence": [
+        {
+          "sentence": "The company provides training to its employees to improve their skills.",
+          "translation": "Company apne karmchariyon ko unke kaushal ko sudharne ke liye prashikshan pradaan karti hai."
+        },
+        {
+          "sentence": "The training process is a key part of machine learning.",
+          "translation": "Prashikshan prakriya machine learning ka ek mahatvapoorn bhag hai."
+        }
+      ]
+    },
+    {
+      "word": "Unsupervised",
+      "phoneticRespelling": "un-soo-PUR-vid",
+      "translation": "anugamiya rahit",
+      "definition": "not controlled or directed by someone or something",
+      "definationTranslation": "kisi ya kisi cheez ke niyantrit ya nirdeshan mein nahin",
+      "sentence": [
+        {
+          "sentence": "Unsupervised learning is a type of machine learning.",
+          "translation": "Anugamiya rahit adhigam machine learning ka ek prakaar hai."
+        },
+        {
+          "sentence": "The company is using unsupervised learning to analyze customer data.",
+          "translation": "Company grahak data ka vishleshan karne ke liye anugamiya rahit adhigam ka upyog kar rahi hai."
+        }
+      ]
+    },
+    {
+      "word": "Validation",
+      "phoneticRespelling": "val-i-DAY-shun",
+      "translation": "mulyankan",
+      "definition": "the act of checking or testing something to make sure it is correct",
+      "definationTranslation": "kisi cheez ko sahi hona sunishchit karne ke liye jaanch ya parikshya karna",
+      "sentence": [
+        {
+          "sentence": "The company is using validation to test its machine learning models.",
+          "translation": "Company apne machine learning model ko parikshan karne ke liye mulyankan ka upyog kar rahi hai."
+        },
+        {
+          "sentence": "Validation is a key part of the machine learning process.",
+          "translation": "Mulyankan machine learning prakriya ka ek mahatvapoorn bhag hai."
+        }
+      ]
+    },
+    {
+      "word": "Visualization",
+      "phoneticRespelling": "viz-yoo-uh-LIE-zay-shun",
+      "translation": "dristikon",
+      "definition": "the act of creating a picture or image in your mind",
+      "definationTranslation": "apne man mein ek chitra ya prateek banaana",
+      "sentence": [
+        {
+          "sentence": "The company is using visualization to present its data in a more engaging way.",
+          "translation": "Company apne data ko adhik aakarshak tareeke se prastut karne ke liye dristikon ka upyog kar rahi hai."
+        },
+        {
+          "sentence": "Visualization is a key part of data analysis and machine learning.",
+          "translation": "Dristikon data vishleshan aur machine learning ka ek mahatvapoorn bhag hai."
+        }
+      ]
+    }
+  ]
+}

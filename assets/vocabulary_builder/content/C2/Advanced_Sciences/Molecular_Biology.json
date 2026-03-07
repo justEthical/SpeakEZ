@@ -1,1 +1,396 @@
-{}
+{
+  "topic": "Molecular Biology",
+  "words": [
+    {
+      "word": "Chromosome",
+      "phoneticRespelling": "KROH-muh-some",
+      "translation": "क्रोमोसोम",
+      "definition": "A thread-like structure that carries hereditary information in the nucleus of living cells",
+      "definationTranslation": "एक धागे जैसी संरचना जो जीवित कोशिकाओं के नाभिक में वंशानुगत जानकारी ले जाती है",
+      "sentence": [
+        {
+          "sentence": "The chromosome is a vital component of the cell.",
+          "translation": "क्रोमोसोम कोशिका का एक महत्वपूर्ण घटक है"
+        },
+        {
+          "sentence": "Chromosomes are found in the nucleus of eukaryotic cells.",
+          "translation": "क्रोमोसोम यूकेरियोटिक कोशिकाओं के नाभिक में पाए जाते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Gene",
+      "phoneticRespelling": "JEEN",
+      "translation": "जीन",
+      "definition": "A unit of heredity that is passed from one generation to the next",
+      "definationTranslation": "एक वंशानुगत इकाई जो एक पीढ़ी से दूसरी पीढ़ी तक पहुंचाई जाती है",
+      "sentence": [
+        {
+          "sentence": "The gene is responsible for the trait.",
+          "translation": "जीन विशेषता के लिए जिम्मेदार है"
+        },
+        {
+          "sentence": "Genes are made up of DNA.",
+          "translation": "जीन डीएनए से बने होते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Protein",
+      "phoneticRespelling": "PROH-teen",
+      "translation": "प्रोटीन",
+      "definition": "A complex molecule made up of amino acids",
+      "definationTranslation": "एक जटिल अणु जो अमीनो एसिड से बना होता है",
+      "sentence": [
+        {
+          "sentence": "Proteins are essential for the body.",
+          "translation": "प्रोटीन शरीर के लिए आवश्यक हैं"
+        },
+        {
+          "sentence": "The protein is used to build and repair tissues.",
+          "translation": "प्रोटीन का उपयोग टिश्यू को बनाने और मरम्मत करने के लिए किया जाता है"
+        }
+      ]
+    },
+    {
+      "word": "DNA",
+      "phoneticRespelling": "DEE-en-AY",
+      "translation": "डीएनए",
+      "definition": "A molecule that carries genetic information",
+      "definationTranslation": "एक अणु जो आनुवंशिक जानकारी ले जाता है",
+      "sentence": [
+        {
+          "sentence": "DNA is found in the nucleus of cells.",
+          "translation": "डीएनए कोशिकाओं के नाभिक में पाया जाता है"
+        },
+        {
+          "sentence": "The DNA molecule is double-stranded.",
+          "translation": "डीएनए अणु दोहरी-स्ट्रैंडेड होता है"
+        }
+      ]
+    },
+    {
+      "word": "RNA",
+      "phoneticRespelling": "AR-en-AY",
+      "translation": "आरएनए",
+      "definition": "A molecule that carries genetic information from DNA to the ribosomes",
+      "definationTranslation": "एक अणु जो डीएनए से राइबोसोम तक आनुवंशिक जानकारी ले जाता है",
+      "sentence": [
+        {
+          "sentence": "RNA is involved in protein synthesis.",
+          "translation": "आरएनए प्रोटीन संश्लेषण में शामिल है"
+        },
+        {
+          "sentence": "The RNA molecule is single-stranded.",
+          "translation": "आरएनए अणु एकल-स्ट्रैंडेड होता है"
+        }
+      ]
+    },
+    {
+      "word": "Cell",
+      "phoneticRespelling": "SEL",
+      "translation": "कोशिका",
+      "definition": "The basic structural and functional unit of living organisms",
+      "definationTranslation": "जीवित जीवों की मूल संरचनात्मक और कार्यात्मक इकाई",
+      "sentence": [
+        {
+          "sentence": "The cell is the smallest unit of life.",
+          "translation": "कोशिका जीवन की सबसे छोटी इकाई है"
+        },
+        {
+          "sentence": "Cells are the building blocks of tissues.",
+          "translation": "कोशिकाएं टिश्यू के निर्माण खंड हैं"
+        }
+      ]
+    },
+    {
+      "word": "Mitosis",
+      "phoneticRespelling": "MY-toh-sis",
+      "translation": "माइटोसिस",
+      "definition": "The process of cell division that results in two daughter cells",
+      "definationTranslation": "कोशिका विभाजन की प्रक्रिया जो दो पुत्री कोशिकाओं के परिणामस्वरूप होती है",
+      "sentence": [
+        {
+          "sentence": "Mitosis is a type of cell division.",
+          "translation": "माइटोसिस कोशिका विभाजन का एक प्रकार है"
+        },
+        {
+          "sentence": "The mitosis process occurs in somatic cells.",
+          "translation": "माइटोसिस प्रक्रिया सोमेटिक कोशिकाओं में होती है"
+        }
+      ]
+    },
+    {
+      "word": "Meiosis",
+      "phoneticRespelling": "MY-oh-sis",
+      "translation": "मायोसिस",
+      "definition": "The process of cell division that results in four daughter cells",
+      "definationTranslation": "कोशिका विभाजन की प्रक्रिया जो चार पुत्री कोशिकाओं के परिणामस्वरूप होती है",
+      "sentence": [
+        {
+          "sentence": "Meiosis is a type of cell division.",
+          "translation": "मायोसिस कोशिका विभाजन का एक प्रकार है"
+        },
+        {
+          "sentence": "The meiosis process occurs in reproductive cells.",
+          "translation": "मायोसिस प्रक्रिया जनन कोशिकाओं में होती है"
+        }
+      ]
+    },
+    {
+      "word": "Genome",
+      "phoneticRespelling": "JEE-nohm",
+      "translation": "जीनोम",
+      "definition": "The complete set of genetic instructions in an organism",
+      "definationTranslation": "एक जीव में आनुवंशिक निर्देशों का पूरा सेट",
+      "sentence": [
+        {
+          "sentence": "The genome is made up of DNA.",
+          "translation": "जीनोम डीएनए से बना होता है"
+        },
+        {
+          "sentence": "The human genome is composed of more than 3 billion base pairs.",
+          "translation": "मानव जीनोम में 3 अरब से अधिक बेस जोड़े हैं"
+        }
+      ]
+    },
+    {
+      "word": "Mutation",
+      "phoneticRespelling": "MYOO-tay-shun",
+      "translation": "उत्परिवर्तन",
+      "definition": "A change in the DNA sequence of an organism",
+      "definationTranslation": "एक जीव के डीएनए अनुक्रम में परिवर्तन",
+      "sentence": [
+        {
+          "sentence": "The mutation can be inherited.",
+          "translation": "उत्परिवर्तन वंशानुगत हो सकता है"
+        },
+        {
+          "sentence": "Mutations can occur spontaneously or as a result of environmental factors.",
+          "translation": "उत्परिवर्तन स्वतः हो सकता है या पर्यावरणीय कारकों के परिणामस्वरूप हो सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Transcription",
+      "phoneticRespelling": "TRAN-skrip-shun",
+      "translation": "प्रतिलेखन",
+      "definition": "The process of creating a complementary RNA copy from a DNA template",
+      "definationTranslation": "एक डीएनए टेम्पलेट से एक पूरक आरएनए प्रतिलिपि बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Transcription is the first step in gene expression.",
+          "translation": "प्रतिलेखन जीन अभिव्यक्ति का पहला चरण है"
+        },
+        {
+          "sentence": "The transcription process involves the unwinding of DNA.",
+          "translation": "प्रतिलेखन प्रक्रिया में डीएनए का अनविंडिंग शामिल है"
+        }
+      ]
+    },
+    {
+      "word": "Translation",
+      "phoneticRespelling": "TRAN-slay-shun",
+      "translation": "अनुवाद",
+      "definition": "The process of creating a protein from a sequence of amino acids",
+      "definationTranslation": "एक प्रोटीन को एक क्रम của अमीनो एसिड से बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Translation is the process of creating a protein.",
+          "translation": "अनुवाद प्रोटीन बनाने की प्रक्रिया है"
+        },
+        {
+          "sentence": "The translation process involves the ribosomes.",
+          "translation": "अनुवाद प्रक्रिया में राइबोसोम शामिल हैं"
+        }
+      ]
+    },
+    {
+      "word": "Recombination",
+      "phoneticRespelling": "RE-kom-by-NEY-shun",
+      "translation": "पुनर्संयोजन",
+      "definition": "The process of exchanging genetic material between two organisms",
+      "definationTranslation": "दो जीवों के बीच आनुवंशिक सामग्री का आदान-प्रदान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Recombination is a key process in genetics.",
+          "translation": "पुनर्संयोजन आनुवंशिकी में एक महत्वपूर्ण प्रक्रिया है"
+        },
+        {
+          "sentence": "The recombination process involves the exchange of genetic material.",
+          "translation": "पुनर्संयोजन प्रक्रिया में आनुवंशिक सामग्री का आदान-प्रदान शामिल है"
+        }
+      ]
+    },
+    {
+      "word": "Epigenetics",
+      "phoneticRespelling": "EH-pi-jeh-NEH-tiks",
+      "translation": "एपीजेनेटिक्स",
+      "definition": "The study of heritable changes in gene function that do not involve changes to the underlying DNA sequence",
+      "definationTranslation": "जीन कार्य में वंशानुगत परिवर्तनों का अध्ययन जो अंतर्निहित डीएनए अनुक्रम में परिवर्तन को शामिल नहीं करता है",
+      "sentence": [
+        {
+          "sentence": "Epigenetics is a field of study that is rapidly growing.",
+          "translation": "एपीजेनेटिक्स एक अध्ययन का क्षेत्र है जो तेजी से बढ़ रहा है"
+        },
+        {
+          "sentence": "The epigenetics field involves the study of gene expression.",
+          "translation": "एपीजेनेटिक्स क्षेत्र जीन अभिव्यक्ति के अध्ययन को शामिल करता है"
+        }
+      ]
+    },
+    {
+      "word": "Phenotype",
+      "phoneticRespelling": "FEE-noh-tayp",
+      "translation": "विशेषता",
+      "definition": "The physical and behavioral characteristics of an organism",
+      "definationTranslation": "एक जीव की भौतिक और व्यवहारिक विशेषताएं",
+      "sentence": [
+        {
+          "sentence": "The phenotype is the physical expression of an organism's genotype.",
+          "translation": "विशेषता एक जीव के जीनोटाइप की भौतिक अभिव्यक्ति है"
+        },
+        {
+          "sentence": "The phenotype can be influenced by environmental factors.",
+          "translation": "विशेषता पर्यावरणीय कारकों से प्रभावित हो सकती है"
+        }
+      ]
+    },
+    {
+      "word": "Genotype",
+      "phoneticRespelling": "JEE-noh-tayp",
+      "translation": "जीनोटाइप",
+      "definition": "The complete set of genetic information in an organism",
+      "definationTranslation": "एक जीव में आनुवंशिक जानकारी का पूरा सेट",
+      "sentence": [
+        {
+          "sentence": "The genotype is the genetic makeup of an organism.",
+          "translation": "जीनोटाइप एक जीव की आनुवंशिक बनावट है"
+        },
+        {
+          "sentence": "The genotype determines the phenotype.",
+          "translation": "जीनोटाइप विशेषता को निर्धारित करता है"
+        }
+      ]
+    },
+    {
+      "word": "Evolution",
+      "phoneticRespelling": "EH-voh-LOO-shun",
+      "translation": "विकास",
+      "definition": "The process of change in the characteristics of a species over time",
+      "definationTranslation": "एक प्रजाति की विशेषताओं में परिवर्तन की प्रक्रिया समय के साथ",
+      "sentence": [
+        {
+          "sentence": "Evolution is the process of species change.",
+          "translation": "विकास प्रजाति परिवर्तन की प्रक्रिया है"
+        },
+        {
+          "sentence": "The evolution process involves natural selection.",
+          "translation": "विकास प्रक्रिया में प्राकृतिक चयन शामिल है"
+        }
+      ]
+    },
+    {
+      "word": "Natural Selection",
+      "phoneticRespelling": "NAY-chuh-rul si-LEK-shun",
+      "translation": "प्राकृतिक चयन",
+      "definition": "The process by which populations of organisms adapt and evolve over time",
+      "definationTranslation": "एक प्रक्रिया जिसमें जीवों की आबादी समय के साथ अनुकूलन और विकास करती है",
+      "sentence": [
+        {
+          "sentence": "Natural selection is a key driver of evolution.",
+          "translation": "प्राकृतिक चयन विकास का एक प्रमुख चालक है"
+        },
+        {
+          "sentence": "The natural selection process involves the survival of the fittest.",
+          "translation": "प्राकृतिक चयन प्रक्रिया में सर्वश्रेष्ठ का अस्तित्व शामिल है"
+        }
+      ]
+    },
+    {
+      "word": "Species",
+      "phoneticRespelling": "SPEE-seez",
+      "translation": "प्रजाति",
+      "definition": "A group of organisms that can interbreed and produce fertile offspring",
+      "definationTranslation": "एक जीवों का समूह जो अंतर्प्रजनन कर सकता है और उपजाऊ संतान पैदा कर सकता है",
+      "sentence": [
+        {
+          "sentence": "A species is a group of organisms that can interbreed.",
+          "translation": "एक प्रजाति एक जीवों का समूह है जो अंतर्प्रजनन कर सकता है"
+        },
+        {
+          "sentence": "The species is a fundamental unit of classification.",
+          "translation": "प्रजाति वर्गीकरण की एक मूलभूत इकाई है"
+        }
+      ]
+    },
+    {
+      "word": "Tissue",
+      "phoneticRespelling": "TISH-yoo",
+      "translation": "टिश्यू",
+      "definition": "A group of cells that work together to perform a specific function",
+      "definationTranslation": "एक जीव के कोशिकाओं का समूह जो एक विशिष्ट कार्य करने के लिए मिलकर काम करता है",
+      "sentence": [
+        {
+          "sentence": "Tissue is a group of cells that work together.",
+          "translation": "टिश्यू एक कोशिकाओं का समूह है जो मिलकर काम करता है"
+        },
+        {
+          "sentence": "The tissue is a level of organization in living organisms.",
+          "translation": "टिश्यू जीवित जीवों में संगठन का एक स्तर है"
+        }
+      ]
+    },
+    {
+      "word": "Organ",
+      "phoneticRespelling": "OR-gan",
+      "translation": "अंग",
+      "definition": "A self-contained part of an organism that performs a specific function",
+      "definationTranslation": "एक जीव का स्व-निहित भाग जो एक विशिष्ट कार्य करता है",
+      "sentence": [
+        {
+          "sentence": "An organ is a self-contained part of an organism.",
+          "translation": "एक अंग एक जीव का स्व-निहित भाग है"
+        },
+        {
+          "sentence": "The organ is a level of organization in living organisms.",
+          "translation": "अंग जीवित जीवों में संगठन का एक स्तर है"
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "phoneticRespelling": "SIS-tuhm",
+      "translation": "प्रणाली",
+      "definition": "A group of organs that work together to perform a specific function",
+      "definationTranslation": "एक अंगों का समूह जो एक विशिष्ट कार्य करने के लिए मिलकर काम करता है",
+      "sentence": [
+        {
+          "sentence": "A system is a group of organs that work together.",
+          "translation": "एक प्रणाली एक अंगों का समूह है जो मिलकर काम करता है"
+        },
+        {
+          "sentence": "The system is a level of organization in living organisms.",
+          "translation": "प्रणाली जीवित जीवों में संगठन का एक स्तर है"
+        }
+      ]
+    },
+    {
+      "word": "Ecology",
+      "phoneticRespelling": "EH-koh-loh-jee",
+      "translation": "पारिस्थितिकी",
+      "definition": "The study of the relationships between organisms and their environment",
+      "definationTranslation": "जीवों और उनके पर्यावरण के बीच संबंधों का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Ecology is the study of the relationships between organisms and their environment.",
+          "translation": "पारिस्थितिकी जीवों और उनके पर्यावरण के बीच संबंधों का अध्ययन है"
+        },
+        {
+          "sentence": "The ecology field involves the study of ecosystems.",
+          "translation": "पारिस्थितिकी क्षेत्र में पारिस्थितिक तंत्र का अध्ययन शामिल है"
+        }
+      ]
+    }
+  ]
+}

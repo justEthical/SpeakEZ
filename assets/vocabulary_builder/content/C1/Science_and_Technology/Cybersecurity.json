@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Cybersecurity",
+  "words": [
+    {
+      "word": "Vulnerability",
+      "phoneticRespelling": "vuhl-ner-uh-bil-ih-tee",
+      "translation": "कमजोरी",
+      "definition": "A weakness or flaw in a system that can be exploited by an attacker",
+      "definationTranslation": "किसी प्रणाली में एक कमजोरी या दोष जिसे हमलावर द्वारा शोषित किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The software's vulnerability was patched by the developers.",
+          "translation": "सॉफ्टवेयर की कमजोरी को विकासकों द्वारा ठीक किया गया था"
+        },
+        {
+          "sentence": "The company's vulnerability to cyber attacks was a major concern.",
+          "translation": "कंपनी की साइबर हमलों के प्रति कमजोरी एक बड़ा चिंता का विषय था"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-kript-shun",
+      "translation": "एनक्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable code to protect it from unauthorized access",
+      "definationTranslation": "अनाधिकृत पहुंच से इसे बचाने के लिए प्लेनटेक्स्ट को अपरिथत कोड में बदलने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company uses encryption to protect sensitive data.",
+          "translation": "कंपनी संवेदनशील डेटा की सुरक्षा के लिए एनक्रिप्शन का उपयोग करती है"
+        },
+        {
+          "sentence": "Encryption is an essential tool for safeguarding online transactions.",
+          "translation": "एनक्रिप्शन ऑनलाइन लेनदेन की सुरक्षा के लिए एक आवश्यक उपकरण है"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FAYR-wawl",
+      "translation": "अग्निमंडल",
+      "definition": "A network security system that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "एक नेटवर्क सुरक्षा प्रणाली जो आने वाले और जाने वाले नेटवर्क ट्रैफिक की निगरानी और नियंत्रण करती है",
+      "sentence": [
+        {
+          "sentence": "The company installed a firewall to block malicious traffic.",
+          "translation": "कंपनी ने दुर्भाग्यपूर्ण ट्रैफिक को ब्लॉक करने के लिए एक अग्निमंडल स्थापित किया"
+        },
+        {
+          "sentence": "The firewall is an essential component of the network's security system.",
+          "translation": "अग्निमंडल नेटवर्क की सुरक्षा प्रणाली का एक आवश्यक घटक है"
+        }
+      ]
+    },
+    {
+      "word": "Malware",
+      "phoneticRespelling": "MAL-wair",
+      "translation": "दुर्भाग्यपूर्ण सॉफ्टवेयर",
+      "definition": "Software that is designed to harm or exploit a computer system",
+      "definationTranslation": "एक सॉफ्टवेयर जो कंप्यूटर प्रणाली को नुकसान पहुंचाने या शोषण करने के लिए डिज़ाइन किया गया है",
+      "sentence": [
+        {
+          "sentence": "The malware infected the computer and caused it to crash.",
+          "translation": "दुर्भाग्यपूर्ण सॉफ्टवेयर ने कंप्यूटर को संक्रमित किया और इसे क्रैश कर दिया"
+        },
+        {
+          "sentence": "The company's antivirus software detected and removed the malware.",
+          "translation": "कंपनी के एंटीवायरस सॉफ्टवेयर ने दुर्भाग्यपूर्ण सॉफ्टवेयर का पता लगाया और उसे हटा दिया"
+        }
+      ]
+    },
+    {
+      "word": "Phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "मछली पकड़ना",
+      "definition": "A type of cyber attack that involves tricking individuals into revealing sensitive information",
+      "definationTranslation": "एक प्रकार का साइबर हमला जिसमें व्यक्तियों को संवेदनशील जानकारी का खुलासा करने के लिए धोखा दिया जाता है",
+      "sentence": [
+        {
+          "sentence": "The company warned its employees about the dangers of phishing.",
+          "translation": "कंपनी ने अपने कर्मचारियों को मछली पकड़ने के खतरों के बारे में चेतावनी दी"
+        },
+        {
+          "sentence": "The phishing email looked legitimate, but it was actually a scam.",
+          "translation": "मछली पकड़ने वाला ईमेल वैध दिखाई दिया, लेकिन वास्तव में यह एक धोखाधड़ी थी"
+        }
+      ]
+    },
+    {
+      "word": "Password",
+      "phoneticRespelling": "PASS-wurd",
+      "translation": "पासवर्ड",
+      "definition": "A secret word or phrase used to gain access to a computer system or network",
+      "definationTranslation": "कंप्यूटर प्रणाली या नेटवर्क तक पहुंच प्राप्त करने के लिए उपयोग किया जाने वाला एक गुप्त शब्द या वाक्यांश",
+      "sentence": [
+        {
+          "sentence": "The user forgot their password and had to reset it.",
+          "translation": "उपयोगकर्ता ने अपना पासवर्ड भूल गया और इसे पुनः स्थापित करना पड़ा"
+        },
+        {
+          "sentence": "The password is required to access the secure website.",
+          "translation": "सुरक्षित वेबसाइट तक पहुंच प्राप्त करने के लिए पासवर्ड आवश्यक है"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A system of interconnected computers and devices",
+      "definationTranslation": "इंटरकनेक्टेड कंप्यूटर और उपकरणों की प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The company's network is protected by a firewall and antivirus software.",
+          "translation": "कंपनी का नेटवर्क एक अग्निमंडल और एंटीवायरस सॉफ्टवेयर द्वारा सुरक्षित है"
+        },
+        {
+          "sentence": "The network is an essential part of the organization's infrastructure.",
+          "translation": "नेटवर्क संगठन के बुनियादी ढांचे का एक आवश्यक हिस्सा है"
+        }
+      ]
+    },
+    {
+      "word": "EncryptionKey",
+      "phoneticRespelling": "en-kript-kee",
+      "translation": "एनक्रिप्शन कुंजी",
+      "definition": "A code or password used to encrypt and decrypt data",
+      "definationTranslation": "एक कोड या पासवर्ड जो डेटा को एनक्रिप्ट और डिक्रिप्ट करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The encryption key is required to access the encrypted data.",
+          "translation": "एनक्रिप्टेड डेटा तक पहुंच प्राप्त करने के लिए एनक्रिप्शन कुंजी आवश्यक है"
+        },
+        {
+          "sentence": "The encryption key is stored securely to prevent unauthorized access.",
+          "translation": "एनक्रिप्शन कुंजी को असुरक्षित पहुंच से रोकने के लिए सुरक्षित रूप से संग्रहीत किया जाता है"
+        }
+      ]
+    },
+    {
+      "word": "Cybercrime",
+      "phoneticRespelling": "SAI-ber-krym",
+      "translation": "साइबर अपराध",
+      "definition": "A crime that involves the use of computers and the internet",
+      "definationTranslation": "एक अपराध जिसमें कंप्यूटर और इंटरनेट का उपयोग शामिल है",
+      "sentence": [
+        {
+          "sentence": "The company is vulnerable to cybercrime.",
+          "translation": "कंपनी साइबर अपराध के प्रति संवेदनशील है"
+        },
+        {
+          "sentence": "The police are investigating a case of cybercrime.",
+          "translation": "पुलिस एक साइबर अपराध के मामले की जांच कर रही है"
+        }
+      ]
+    },
+    {
+      "word": "Hacker",
+      "phoneticRespelling": "HAK-er",
+      "translation": "हैकर",
+      "definition": "A person who uses computers to gain unauthorized access to data or systems",
+      "definationTranslation": "एक व्यक्ति जो डेटा या प्रणालियों तक अनाधिकृत पहुंच प्राप्त करने के लिए कंप्यूटर का उपयोग करता है",
+      "sentence": [
+        {
+          "sentence": "The hacker was caught by the authorities.",
+          "translation": "हैकर को अधिकारियों द्वारा पकड़ा गया"
+        },
+        {
+          "sentence": "The company hired a hacker to test its security systems.",
+          "translation": "कंपनी ने अपने सुरक्षा प्रणालियों का परीक्षण करने के लिए एक हैकर को नियुक्त किया"
+        }
+      ]
+    },
+    {
+      "word": "Spam",
+      "phoneticRespelling": "SPAM",
+      "translation": "स्पैम",
+      "definition": "Unsolicited emails or messages, often containing advertisements or viruses",
+      "definationTranslation": "अनचाहे ईमेल या संदेश, अक्सर विज्ञापन या वायरस शामिल",
+      "sentence": [
+        {
+          "sentence": "The email provider blocked the spam messages.",
+          "translation": "ईमेल प्रदाता ने स्पैम संदेशों को ब्लॉक कर दिया"
+        },
+        {
+          "sentence": "The company received a lot of spam emails every day.",
+          "translation": "कंपनी को हर दिन बहुत सारे स्पैम ईमेल मिले"
+        }
+      ]
+    },
+    {
+      "word": "Trojan",
+      "phoneticRespelling": "TROH-jun",
+      "translation": "ट्रोजन",
+      "definition": "A type of malware that disguises itself as legitimate software",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो खुद को वैध सॉफ्टवेयर के रूप में प्रस्तुत करता है",
+      "sentence": [
+        {
+          "sentence": "The trojan virus infected the computer and caused it to crash.",
+          "translation": "ट्रोजन वायरस ने कंप्यूटर को संक्रमित किया और इसे क्रैश कर दिया"
+        },
+        {
+          "sentence": "The company's antivirus software detected and removed the trojan.",
+          "translation": "कंपनी के एंटीवायरस सॉफ्टवेयर ने ट्रोजन का पता लगाया और उसे हटा दिया"
+        }
+      ]
+    },
+    {
+      "word": "Virus",
+      "phoneticRespelling": "VAI-rus",
+      "translation": "वायरस",
+      "definition": "A type of malware that replicates itself and causes harm to a computer system",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो खुद को दोहराता है और कंप्यूटर प्रणाली को नुकसान पहुंचाता है",
+      "sentence": [
+        {
+          "sentence": "The virus infected the computer and caused it to crash.",
+          "translation": "वायरस ने कंप्यूटर को संक्रमित किया और इसे क्रैश कर दिया"
+        },
+        {
+          "sentence": "The company's antivirus software detected and removed the virus.",
+          "translation": "कंपनी के एंटीवायरस सॉफ्टवेयर ने वायरस का पता लगाया और उसे हटा दिया"
+        }
+      ]
+    },
+    {
+      "word": "Worm",
+      "phoneticRespelling": "WURM",
+      "translation": "कृमि",
+      "definition": "A type of malware that replicates itself and spreads to other computers",
+      "definationTranslation": "एक प्रकार का मैलवेयर जो खुद को दोहराता है और अन्य कंप्यूटरों में फैलता है",
+      "sentence": [
+        {
+          "sentence": "The worm infected the computer and spread to other machines.",
+          "translation": "कृमि ने कंप्यूटर को संक्रमित किया और अन्य मशीनों में फैल गया"
+        },
+        {
+          "sentence": "The company's antivirus software detected and removed the worm.",
+          "translation": "कंपनी के एंटीवायरस सॉफ्टवेयर ने कृमि का पता लगाया और उसे हटा दिया"
+        }
+      ]
+    },
+    {
+      "word": "Botnet",
+      "phoneticRespelling": "BOHT-net",
+      "translation": "बॉटनेट",
+      "definition": "A network of private computers infected with malicious software and controlled remotely",
+      "definationTranslation": "दुर्भाग्यपूर्ण सॉफ्टवेयर से संक्रमित निजी कंप्यूटरों का नेटवर्क और दूरस्थ रूप से नियंत्रित",
+      "sentence": [
+        {
+          "sentence": "The botnet was used to launch a cyber attack on the company.",
+          "translation": "बॉटनेट का उपयोग कंपनी पर साइबर हमला करने के लिए किया गया था"
+        },
+        {
+          "sentence": "The botnet was shut down by the authorities.",
+          "translation": "बॉटनेट को अधिकारियों द्वारा बंद कर दिया गया"
+        }
+      ]
+    },
+    {
+      "word": "DenialOfService",
+      "phoneticRespelling": "di-NAYL duh SER-vis",
+      "translation": "सेवा से इनकार",
+      "definition": "A type of cyber attack that involves flooding a computer system with traffic in order to make it unavailable",
+      "definationTranslation": "एक प्रकार का साइबर हमला जिसमें एक कंप्यूटर प्रणाली को यातायात से भर दिया जाता है ताकि यह अप्राप्य हो जाए",
+      "sentence": [
+        {
+          "sentence": "The company's website was targeted by a denial of service attack.",
+          "translation": "कंपनी की वेबसाइट पर सेवा से इनकार हमला किया गया था"
+        },
+        {
+          "sentence": "The denial of service attack caused the website to crash.",
+          "translation": "सेवा से इनकार हमले के कारण वेबसाइट क्रैश हो गई"
+        }
+      ]
+    },
+    {
+      "word": "Intrusion",
+      "phoneticRespelling": "in-TROO-zhun",
+      "translation": "अतिक्रमण",
+      "definition": "The act of entering or gaining access to a computer system without authorization",
+      "definationTranslation": "अनुमति के बिना कंप्यूटर प्रणाली में प्रवेश करने या पहुंच प्राप्त करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The company detected an intrusion attempt on its network.",
+          "translation": "कंपनी ने अपने नेटवर्क पर अतिक्रमण प्रयास का पता लगाया"
+        },
+        {
+          "sentence": "The intrusion was prevent by the company's security systems.",
+          "translation": "अतिक्रमण को कंपनी के सुरक्षा प्रणालियों द्वारा रोका गया"
+        }
+      ]
+    },
+    {
+      "word": "Patch",
+      "phoneticRespelling": "PACH",
+      "translation": "पैच",
+      "definition": "A piece of code that is used to fix a bug or vulnerability in a computer program",
+      "definationTranslation": "एक कंप्यूटर प्रोग्राम में एक बग या कमजोरी को ठीक करने के लिए उपयोग किया जाने वाला कोड का एक टुकड़ा",
+      "sentence": [
+        {
+          "sentence": "The company released a patch to fix the vulnerability in its software.",
+          "translation": "कंपनी ने अपने सॉफ्टवेयर में कमजोरी को ठीक करने के लिए एक पैच जारी किया"
+        },
+        {
+          "sentence": "The patch was applied to the system to prevent further attacks.",
+          "translation": "पैच को आगे के हमलों को रोकने के लिए प्रणाली में लागू किया गया"
+        }
+      ]
+    },
+    {
+      "word": "Secure",
+      "phoneticRespelling": "si-KYUR",
+      "translation": "सुरक्षित",
+      "definition": "Protected from or resistant to attack or damage",
+      "definationTranslation": "हमले या नुकसान से सुरक्षित या प्रतिरोधी",
+      "sentence": [
+        {
+          "sentence": "The company's data is stored in a secure location.",
+          "translation": "कंपनी का डेटा एक सुरक्षित स्थान पर संग्रहीत किया जाता है"
+        },
+        {
+          "sentence": "The secure connection ensures that the data is transmitted safely.",
+          "translation": "सुरक्षित कनेक्शन यह सुनिश्चित करता है कि डेटा सुरक्षित रूप से प्रेषित किया जाता है"
+        }
+      ]
+    },
+    {
+      "word": "Threat",
+      "phoneticRespelling": "THRET",
+      "translation": "धमकी",
+      "definition": "A potential or actual danger to a computer system or network",
+      "definationTranslation": "एक कंप्यूटर प्रणाली या नेटवर्क के लिए एक संभावित या वास्तविक खतरा",
+      "sentence": [
+        {
+          "sentence": "The company identified a threat to its network and took action to mitigate it.",
+          "translation": "कंपनी ने अपने नेटवर्क के लिए एक खतरे की पहचान की और इसे कम करने के लिए कार्रवाई की"
+        },
+        {
+          "sentence": "The threat to the company's data was neutralized by its security team.",
+          "translation": "कंपनी के डेटा के लिए खतरे को इसकी सुरक्षा टीम द्वारा तटस्थ किया गया"
+        }
+      ]
+    },
+    {
+      "word": "Update",
+      "phoneticRespelling": "UP-dayt",
+      "translation": "अद्यतन",
+      "definition": "To bring a computer program or system up to date with the latest features or security patches",
+      "definationTranslation": "एक कंप्यूटर प्रोग्राम या प्रणाली को नवीनतम विशेषताओं या सुरक्षा पैच के साथ अद्यतन करना",
+      "sentence": [
+        {
+          "sentence": "The company updates its software regularly to ensure security.",
+          "translation": "कंपनी अपने सॉफ्टवेयर को नियमित रूप से अद्यतन करती है ताकि सुरक्षा सुनिश्चित हो"
+        },
+        {
+          "sentence": "The update fixed a vulnerability in the system.",
+          "translation": "अद्यतन ने प्रणाली में एक कमजोरी को ठीक किया"
+        }
+      ]
+    },
+    {
+      "word": "Virtualization",
+      "phoneticRespelling": "ver-chuh-lie-ZAY-shun",
+      "translation": "वर्चुअलाइजेशन",
+      "definition": "The process of creating a virtual version of a physical computer system or resource",
+      "definationTranslation": "एक भौतिक कंप्यूटर प्रणाली या संसाधन का एक वर्चुअल संस्करण बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company uses virtualization to increase the efficiency of its servers.",
+          "translation": "कंपनी अपने सर्वर की दक्षता बढ़ाने के लिए वर्चुअलाइजेशन का उपयोग करती है"
+        },
+        {
+          "sentence": "Virtualization allows for greater flexibility and scalability.",
+          "translation": "वर्चुअलाइजेशन अधिक लचीलापन और मापनीयता की अनुमति देता है"
+        }
+      ]
+    },
+    {
+      "word": "Cloud",
+      "phoneticRespelling": "KLOUD",
+      "translation": "क्लाउड",
+      "definition": "A model for delivering computing services over the internet",
+      "definationTranslation": "इंटरनेट पर कंप्यूटिंग सेवाओं को वितरित करने के लिए एक मॉडल",
+      "sentence": [
+        {
+          "sentence": "The company uses cloud computing to store and process its data.",
+          "translation": "कंपनी अपने डेटा को संग्रहीत और प्रोसेस करने के लिए क्लाउड कंप्यूटिंग का उपयोग करती है"
+        },
+        {
+          "sentence": "The cloud provides a flexible and scalable infrastructure for the company.",
+          "translation": "क्लाउड कंपनी के लिए एक लचीला और मापनीय इंफ्रास्ट्रक्चर प्रदान करता है"
+        }
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "अल्गोरिदम",
+      "definition": "A set of instructions used to solve a specific problem or perform a particular task",
+      "definationTranslation": "एक विशिष्ट समस्या का समाधान करने या एक विशिष्ट कार्य करने के लिए उपयोग किए जाने वाले निर्देशों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The algorithm is used to encrypt and decrypt the data.",
+          "translation": "अल्गोरिदम का उपयोग डेटा को एनक्रिप्ट और डिक्रिप्ट करने के लिए किया जाता है"
+        },
+        {
+          "sentence": "The algorithm is designed to improve the efficiency of the system.",
+          "translation": "अल्गोरिदम को प्रणाली की दक्षता में सुधार करने के लिए डिज़ाइन किया गया है"
+        }
+      ]
+    }
+  ]
+}

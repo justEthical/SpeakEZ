@@ -1,1 +1,362 @@
-{}
+{
+  "topic": "Neuroscience",
+  "words": [
+    {
+      "word": "Neuron",
+      "phoneticRespelling": "NOO-ron",
+      "translation": "न्यूरॉन",
+      "definition": "A nerve cell that transmits nerve impulses",
+      "definationTranslation": "एक तंत्रिका कोशिका जो तंत्रिका आवेगों को प्रसारित करती है",
+      "sentence": [
+        {
+          "sentence": "The neuron is the basic unit of the nervous system.",
+          "translation": "न्यूरॉन तंत्रिका तंत्र की मूल इकाई है।"
+        },
+        {
+          "sentence": "Neurons communicate with each other through synapses.",
+          "translation": "न्यूरॉन सिनैप्स के माध्यम से एक दूसरे के साथ संवाद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Synapse",
+      "phoneticRespelling": "SIN-aps",
+      "translation": "सिनैप्स",
+      "definition": "A small gap between two neurons where chemical signals are exchanged",
+      "definationTranslation": "दो न्यूरॉन के बीच एक छोटा सा अंतर जहां रासायनिक संकेतों का आदान-प्रदान होता है",
+      "sentence": [
+        {
+          "sentence": "The synapse plays a crucial role in learning and memory.",
+          "translation": "सिनैप्स सीखने और स्मृति में एक महत्वपूर्ण भूमिका निभाता है।"
+        },
+        {
+          "sentence": "Neurotransmitters are released into the synapse to transmit signals.",
+          "translation": "संकेतों को प्रसारित करने के लिए न्यूरोट्रांसमीटर को सिनैप्स में जारी किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cerebrum",
+      "phoneticRespelling": "SEH-ree-bruhm",
+      "translation": "मस्तिष्क",
+      "definition": "The largest part of the brain responsible for processing sensory information",
+      "definationTranslation": "ब्रेन का सबसे बड़ा हिस्सा जो संवेदी जानकारी को प्रोसेस करने के लिए ज़िम्मेदार है",
+      "sentence": [
+        {
+          "sentence": "The cerebrum is divided into two hemispheres.",
+          "translation": "मस्तिष्क को दो गोलार्धों में बांटा गया है।"
+        },
+        {
+          "sentence": "The cerebrum controls voluntary movements and cognitive functions.",
+          "translation": "मस्तिष्क स्वैच्छिक आंदोलनों और संज्ञानात्मक कार्यों को नियंत्रित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cerebellum",
+      "phoneticRespelling": "SEH-ruh-bell-uhm",
+      "translation": "मस्तिष्कमेरु",
+      "definition": "A part of the brain that coordinates muscle movements and balance",
+      "definationTranslation": "ब्रेन का एक हिस्सा जो मांसपेशियों की गति और संतुलन को समन्वयित करता है",
+      "sentence": [
+        {
+          "sentence": "The cerebellum is located at the base of the brain.",
+          "translation": "मस्तिष्कमेरु ब्रेन के आधार पर स्थित है।"
+        },
+        {
+          "sentence": "Damage to the cerebellum can cause coordination and balance problems.",
+          "translation": "मस्तिष्कमेरु को नुकसान से समन्वय और संतुलन संबंधी समस्याएं हो सकती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Brainstem",
+      "phoneticRespelling": "BRAHN-stem",
+      "translation": "मस्तिष्कबीज",
+      "definition": "A part of the brain that connects the cerebrum to the spinal cord",
+      "definationTranslation": "ब्रेन का एक हिस्सा जो मस्तिष्क को रीढ़ की हड्डी से जोड़ता है",
+      "sentence": [
+        {
+          "sentence": "The brainstem regulates basic functions such as breathing and heart rate.",
+          "translation": "मस्तिष्कबीज श्वसन और हृदय गति जैसे मूलभूत कार्यों को नियंत्रित करता है।"
+        },
+        {
+          "sentence": "The brainstem plays a crucial role in maintaining consciousness.",
+          "translation": "मस्तिष्कबीज चेतना को बनाए रखने में एक महत्वपूर्ण भूमिका निभाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Neurotransmitter",
+      "phoneticRespelling": "NOO-ruh-tran-zmit-er",
+      "translation": "न्यूरोट्रांसमीटर",
+      "definition": "A chemical messenger that transmits signals between neurons",
+      "definationTranslation": "एक रासायनिक संदेशवाहक जो न्यूरॉन के बीच संकेतों को प्रसारित करता है",
+      "sentence": [
+        {
+          "sentence": "Neurotransmitters are released into the synapse to transmit signals.",
+          "translation": "न्यूरोट्रांसमीटर को सिनैप्स में जारी किया जाता है ताकि संकेतों को प्रसारित किया जा सके।"
+        },
+        {
+          "sentence": "Dopamine is a type of neurotransmitter that plays a role in reward and motivation.",
+          "translation": "डोपामाइन एक प्रकार का न्यूरोट्रांसमीटर है जो पुरस्कार और प्रेरणा में एक भूमिका निभाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Dendrite",
+      "phoneticRespelling": "DEN-drahyt",
+      "translation": "डेन्ड्राइट",
+      "definition": "A branching extension of a neuron that receives signals from other neurons",
+      "definationTranslation": "एक न्यूरॉन का शाखित विस्तार जो अन्य न्यूरॉन से संकेत प्राप्त करता है",
+      "sentence": [
+        {
+          "sentence": "Dendrites are responsible for receiving and processing synaptic inputs.",
+          "translation": "डेन्ड्राइट सिनैप्टिक इनपुट्स को प्राप्त करने और प्रोसेस करने के लिए जिम्मेदार हैं।"
+        },
+        {
+          "sentence": "The dendrites of a neuron can change and adapt over time.",
+          "translation": "एक न्यूरॉन के डेन्ड्राइट समय के साथ बदल और अनुकूलित हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Axon",
+      "phoneticRespelling": "AK-suhn",
+      "translation": "एक्सॉन",
+      "definition": "A long, thin extension of a neuron that carries signals away from the cell body",
+      "definationTranslation": "एक न्यूरॉन का लंबा, पतला विस्तार जो सिग्नल को सेल बॉडी से दूर ले जाता है",
+      "sentence": [
+        {
+          "sentence": "The axon is responsible for transmitting signals to other neurons or to muscles or glands.",
+          "translation": "एक्सॉन अन्य न्यूरॉन या मांसपेशियों या ग्रंथियों को संकेतों को प्रसारित करने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The axon is surrounded by a myelin sheath that helps to speed up signal transmission.",
+          "translation": "एक्सॉन एक माइलिन शीथ से घिरा होता है जो संकेत प्रसारित करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Myelin",
+      "phoneticRespelling": "MY-uh-lin",
+      "translation": "माइलिन",
+      "definition": "A fatty substance that surrounds and insulates axons",
+      "definationTranslation": "एक वसायुक्त पदार्थ जो एक्सॉन को घेरता है और उन्हें इन्सुलेट करता है",
+      "sentence": [
+        {
+          "sentence": "Myelin helps to speed up signal transmission by reducing electrical resistance.",
+          "translation": "माइलिन बिजली प्रतिरोध को कम करके संकेत प्रसारण को तेज करने में मदद करता है।"
+        },
+        {
+          "sentence": "Damage to the myelin sheath can cause demyelinating diseases such as multiple sclerosis.",
+          "translation": "माइलिन की शीथ को नुकसान से डिमाइलिनेटिंग रोग जैसे मल्टिपल स्केलेरोसिस हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Glia",
+      "phoneticRespelling": "GLY-uh",
+      "translation": "ग्लिया",
+      "definition": "A type of non-neuronal cell that provides support and insulation to neurons",
+      "definationTranslation": "एक प्रकार का नॉन-न्यूरोनल सेल जो न्यूरॉन को सहारा और इन्सुलेशन प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "Glia cells play a crucial role in maintaining the health and function of neurons.",
+          "translation": "ग्लिया सेल न्यूरॉन के स्वास्थ्य और कार्य को बनाए रखने में एक महत्वपूर्ण भूमिका निभाते हैं।"
+        },
+        {
+          "sentence": "There are several types of glia cells, including astrocytes and oligodendrocytes.",
+          "translation": "ग्लिया सेल के कई प्रकार हैं, जिनमें एस्ट्रोसाइट्स और ऑलिगोडेंड्रोसाइट्स शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Astrocyte",
+      "phoneticRespelling": "AS-troh-syht",
+      "translation": "एस्ट्रोसाइट",
+      "definition": "A type of glia cell that provides nutrients and support to neurons",
+      "definationTranslation": "एक प्रकार का ग्लिया सेल जो न्यूरॉन को पोषण और सहारा प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "Astrocytes play a crucial role in maintaining the health and function of neurons.",
+          "translation": "एस्ट्रोसाइट न्यूरॉन के स्वास्थ्य और कार्य को बनाए रखने में एक महत्वपूर्ण भूमिका निभाते हैं।"
+        },
+        {
+          "sentence": "Astrocytes can also help to remove waste products from the brain.",
+          "translation": "एस्ट्रोसाइट मस्तिष्क से अपशिष्ट उत्पादों को हटाने में भी मदद कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Oligodendrocyte",
+      "phoneticRespelling": "OH-luh-goh-dehn-droh-syht",
+      "translation": "ऑलिगोडेंड्रोसाइट",
+      "definition": "A type of glia cell that produces myelin to insulate axons",
+      "definationTranslation": "एक प्रकार का ग्लिया सेल जो एक्सॉन को इन्सुलेट करने के लिए माइलिन का उत्पादन करता है",
+      "sentence": [
+        {
+          "sentence": "Oligodendrocytes are responsible for producing myelin in the central nervous system.",
+          "translation": "ऑलिगोडेंड्रोसाइट केंद्रीय तंत्रिका तंत्र में माइलिन का उत्पादन करने के लिए जिम्मेदार हैं।"
+        },
+        {
+          "sentence": "Damage to oligodendrocytes can cause demyelinating diseases such as multiple sclerosis.",
+          "translation": "ऑलिगोडेंड्रोसाइट को नुकसान से डिमाइलिनेटिंग रोग जैसे मल्टिपल स्केलेरोसिस हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Electroencephalogram",
+      "phoneticRespelling": "ih-lek-troh-en-seh-FAH-loh-gram",
+      "translation": "इलेक्ट्रोएन्सेफ्लोग्राम",
+      "definition": "A test that measures the electrical activity of the brain",
+      "definationTranslation": "एक परीक्षण जो मस्तिष्क की विद्युत गतिविधि को मापता है",
+      "sentence": [
+        {
+          "sentence": "An electroencephalogram can help diagnose neurological disorders such as epilepsy.",
+          "translation": "इलेक्ट्रोएन्सेफ्लोग्राम मिर्गी जैसे तंत्रिका तंत्र विकारों के निदान में मदद कर सकता है।"
+        },
+        {
+          "sentence": "The electroencephalogram is a non-invasive test that can be used to monitor brain activity.",
+          "translation": "इलेक्ट्रोएन्सेफ्लोग्राम एक गैर-इनवेसिव परीक्षण है जिसका उपयोग मस्तिष्क गतिविधि की निगरानी के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Functional MRI",
+      "phoneticRespelling": "FUNK-shuhn-uhl EM-ree",
+      "translation": "फंक्शनल एमआरआई",
+      "definition": "A type of imaging test that measures changes in blood flow in the brain",
+      "definationTranslation": "एक प्रकार का इमेजिंग परीक्षण जो मस्तिष्क में रक्त प्रवाह में परिवर्तन को मापता है",
+      "sentence": [
+        {
+          "sentence": "Functional MRI can help diagnose neurological disorders such as stroke or brain tumors.",
+          "translation": "फंक्शनल एमआरआई स्ट्रोक या मस्तिष्क ट्यूमर जैसे तंत्रिका तंत्र विकारों के निदान में मदद कर सकता है।"
+        },
+        {
+          "sentence": "The functional MRI is a non-invasive test that can be used to monitor brain activity and function.",
+          "translation": "फंक्शनल एमआरआई एक गैर-इनवेसिव परीक्षण है जिसका उपयोग मस्तिष्क गतिविधि और कार्य की निगरानी के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Neuroplasticity",
+      "phoneticRespelling": "NOO-ruh-plas-tis-uh-tee",
+      "translation": "न्यूरोप्लास्टिसिटी",
+      "definition": "The brain's ability to adapt and change in response to new experiences",
+      "definationTranslation": "मस्तिष्क की नई अनुभवों के जवाब में अनुकूलन और परिवर्तन की क्षमता",
+      "sentence": [
+        {
+          "sentence": "Neuroplasticity is essential for learning and memory.",
+          "translation": "न्यूरोप्लास्टिसिटी सीखने और स्मृति के लिए आवश्यक है।"
+        },
+        {
+          "sentence": "Neuroplasticity can help the brain recover from injury or disease.",
+          "translation": "न्यूरोप्लास्टिसिटी मस्तिष्क को चोट या बीमारी से उबरने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Neurogenesis",
+      "phoneticRespelling": "NOO-ruh-jen-uh-sis",
+      "translation": "न्यूरोजेनेसिस",
+      "definition": "The process by which new neurons are generated in the brain",
+      "definationTranslation": "एक प्रक्रिया जिसमें मस्तिष्क में नए न्यूरॉन उत्पन्न होते हैं",
+      "sentence": [
+        {
+          "sentence": "Neurogenesis occurs in certain parts of the brain, such as the hippocampus.",
+          "translation": "न्यूरोजेनेसिस मस्तिष्क के कुछ हिस्सों में होता है, जैसे कि हिप्पोकैम्पस।"
+        },
+        {
+          "sentence": "Neurogenesis can be promoted by exercise, meditation, and other lifestyle factors.",
+          "translation": "न्यूरोजेनेसिस को व्यायाम, ध्यान और अन्य जीवनशैली कारकों द्वारा बढ़ावा दिया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Synaptic Pruning",
+      "phoneticRespelling": "SIN-ap-tik PROO-ning",
+      "translation": "सिनैप्टिक प्रूनिंग",
+      "definition": "The process by which the brain eliminates unnecessary neural connections",
+      "definationTranslation": "एक प्रक्रिया जिसमें मस्तिष्क अनावश्यक तंत्रिका संबंधों को समाप्त करता है",
+      "sentence": [
+        {
+          "sentence": "Synaptic pruning is an important process for learning and memory.",
+          "translation": "सिनैप्टिक प्रूनिंग सीखने और स्मृति के लिए एक महत्वपूर्ण प्रक्रिया है।"
+        },
+        {
+          "sentence": "Synaptic pruning can help to refine and strengthen neural connections.",
+          "translation": "सिनैप्टिक प्रूनिंग तंत्रिका संबंधों को परिष्कृत और मजबूत करने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Neurodegeneration",
+      "phoneticRespelling": "NOO-ruh-deh-jen-uh-REH-shuhn",
+      "translation": "न्यूरोडीजनरेशन",
+      "definition": "The progressive loss of neurons and neural connections in the brain",
+      "definationTranslation": "मस्तिष्क में न्यूरॉन और तंत्रिका संबंधों की क्रमिक हानि",
+      "sentence": [
+        {
+          "sentence": "Neurodegeneration can lead to neurological disorders such as Alzheimer's disease.",
+          "translation": "न्यूरोडीजनरेशन अल्जाइमर रोग जैसे तंत्रिका तंत्र विकारों का कारण बन सकता है।"
+        },
+        {
+          "sentence": "Neurodegeneration can be caused by a combination of genetic and environmental factors.",
+          "translation": "न्यूरोडीजनरेशन आनुवंशिक और पर्यावरणीय कारकों के संयोजन के कारण हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Neuropsychology",
+      "phoneticRespelling": "NOO-ruh-sy-kol-uh-jee",
+      "translation": "न्यूरोसाइकोलॉजी",
+      "definition": "The study of the relationship between the brain and behavior",
+      "definationTranslation": "मस्तिष्क और व्यवहार के बीच संबंध का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Neuropsychology is an interdisciplinary field that combines psychology and neuroscience.",
+          "translation": "न्यूरोसाइकोलॉजी एक अंतःविषय क्षेत्र है जो मनोविज्ञान और तंत्रिका विज्ञान को मिलाता है।"
+        },
+        {
+          "sentence": "Neuropsychology can help us understand the neural basis of behavior and cognition.",
+          "translation": "न्यूरोसाइकोलॉजी हमें व्यवहार और संज्ञान के तंत्रिका आधार को समझने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Neuropharmacology",
+      "phoneticRespelling": "NOO-ruh-far-muh-kol-uh-jee",
+      "translation": "न्यूरोफार्माकोलॉजी",
+      "definition": "The study of the effects of drugs on the nervous system",
+      "definationTranslation": "तंत्रिका तंत्र पर दवाओं के प्रभावों का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Neuropharmacology is a field that combines neuroscience and pharmacology.",
+          "translation": "न्यूरोफार्माकोलॉजी एक क्षेत्र है जो तंत्रिका विज्ञान और फार्माकोलॉजी को मिलाता है।"
+        },
+        {
+          "sentence": "Neuropharmacology can help us understand the mechanisms of action of drugs on the nervous system.",
+          "translation": "न्यूरोफार्माकोलॉजी हमें तंत्रिका तंत्र पर दवाओं के क्रिया के तंत्र को समझने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Neurology",
+      "phoneticRespelling": "NOO-rol-uh-jee",
+      "translation": "न्यूरोलॉजी",
+      "definition": "The branch of medicine that deals with the diagnosis and treatment of disorders of the nervous system",
+      "definationTranslation": "चिकित्सा की एक शाखा जो तंत्रिका तंत्र के विकारों के निदान और उपचार से संबंधित है",
+      "sentence": [
+        {
+          "sentence": "Neurology is a medical specialty that requires specialized training and education.",
+          "translation": "न्यूरोलॉजी एक चिकित्सा विशेषता है जिसके लिए विशेष प्रशिक्षण और शिक्षा की आवश्यकता होती है।"
+        },
+        {
+          "sentence": "Neurology can help us understand and treat a wide range of neurological disorders.",
+          "translation": "न्यूरोलॉजी हमें विभिन्न प्रकार के तंत्रिका तंत्र विकारों को समझने और उपचार में मदद कर सकती है।"
+        }
+      ]
+    }
+  ]
+}

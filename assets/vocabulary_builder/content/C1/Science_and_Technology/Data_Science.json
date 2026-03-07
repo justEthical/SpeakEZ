@@ -1,1 +1,345 @@
-{}
+{
+  "topic": "Data Science",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-rih-thuhm",
+      "translation": "Algothon",
+      "definition": "A set of rules used to solve a problem",
+      "definationTranslation": "Ek samasya ko hal karne ke liye upyog kiye gaye niyamon ka samuh",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in the machine learning model was complex.",
+          "translation": "Machine learning model mein upyog kiya gaya algothon jatil tha."
+        },
+        {
+          "sentence": "The team developed a new algorithm to improve the software.",
+          "translation": "Team ne software mein sudhar ke liye ek naya algothon viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Artificial",
+      "phoneticRespelling": "ar-tuh-FISH-ul",
+      "translation": "Kritrim",
+      "definition": "Made or produced by humans, especially using technology",
+      "definationTranslation": "Manav dwara banaya ya utpadit, vishesh roop se praudyogiki ka upyog karke",
+      "sentence": [
+        {
+          "sentence": "The company is working on artificial intelligence.",
+          "translation": "Company kritrim buddhimatta par kaam kar rahi hai."
+        },
+        {
+          "sentence": "The artificial flower looked very realistic.",
+          "translation": "Kritrim phool bahut hi vastavik dikh raha tha."
+        }
+      ]
+    },
+    {
+      "word": "Classification",
+      "phoneticRespelling": "klas-uh-fi-KAY-shun",
+      "translation": "Vargeekaran",
+      "definition": "The process of assigning something to a category",
+      "definationTranslation": "Kisi cheez ko ek shreni mein aabaadi dene ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The classification of the data was done using machine learning.",
+          "translation": "Data ka vargeekaran machine learning ka upyog karke kiya gaya tha."
+        },
+        {
+          "sentence": "The company uses classification to segment their customers.",
+          "translation": "Company apne grahakon ko vibhajan ke liye vargeekaran ka upyog karti hai."
+        }
+      ]
+    },
+    {
+      "word": "Clustering",
+      "phoneticRespelling": "KLAH-stur-ing",
+      "translation": "Samuhikaran",
+      "definition": "The process of grouping similar objects or data points",
+      "definationTranslation": "Samantar vastuon ya data binduon ko samuh mein aabaadi dene ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The clustering algorithm was used to group similar customers.",
+          "translation": "Samuhikaran algothon ka upyog milon wale grahakon ko samuh mein karne ke liye kiya gaya tha."
+        },
+        {
+          "sentence": "The team used clustering to identify patterns in the data.",
+          "translation": "Team ne data mein pattern ko pahchanne ke liye samuhikaran ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "Data",
+      "definition": "Facts and statistics collected together for reference or analysis",
+      "definationTranslation": "Sandarbh ya vishleshan ke liye ekatrit kiye gaye tathya aur aankade",
+      "sentence": [
+        {
+          "sentence": "The company collects data on customer behavior.",
+          "translation": "Company grahak vyavhar ke baare mein data ikattha karti hai."
+        },
+        {
+          "sentence": "The data collected from the experiment was analyzed.",
+          "translation": "Prayog se ikattha kiya gaya data vishleshan kiya gaya."
+        }
+      ]
+    },
+    {
+      "word": "Deep",
+      "phoneticRespelling": "DEEP",
+      "translation": "Gahra",
+      "definition": "Extending far down or inward, especially in a vertical direction",
+      "definationTranslation": "Nichla ya andar ki ore, vishesh roop se ek lambi disha mein",
+      "sentence": [
+        {
+          "sentence": "The deep learning model was used to analyze the data.",
+          "translation": "Data ka vishleshan karne ke liye gahri siksha model ka upyog kiya gaya tha."
+        },
+        {
+          "sentence": "The team conducted a deep analysis of the market trends.",
+          "translation": "Team ne bazaar ki dishaon ka gahra vishleshan kiya."
+        }
+      ]
+    },
+    {
+      "word": "Learning",
+      "phoneticRespelling": "LUR-ning",
+      "translation": "Siksha",
+      "definition": "The process of acquiring knowledge or skills",
+      "definationTranslation": "Gyan ya kaushal prapt karne ki prakriya",
+      "sentence": [
+        {
+          "sentence": "The company uses machine learning to improve their services.",
+          "translation": "Company apni sevao mein sudhar ke liye machine siksha ka upyog karti hai."
+        },
+        {
+          "sentence": "The team developed a new learning algorithm.",
+          "translation": "Team ne ek naya siksha algothon viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Machine",
+      "phoneticRespelling": "MASH-een",
+      "translation": "Machine",
+      "definition": "A device with moving parts that performs a particular function",
+      "definationTranslation": "Gatividhiyon wali ek upkaran jo vishisht karya karta hai",
+      "sentence": [
+        {
+          "sentence": "The company uses machine learning to analyze the data.",
+          "translation": "Company data ka vishleshan karne ke liye machine siksha ka upyog karti hai."
+        },
+        {
+          "sentence": "The team built a machine that could perform complex tasks.",
+          "translation": "Team ne ek machine banayi jo jatil karya kar sakti thi."
+        }
+      ]
+    },
+    {
+      "word": "Model",
+      "phoneticRespelling": "MOD-ul",
+      "translation": "Model",
+      "definition": "A three-dimensional representation of a person or thing",
+      "definationTranslation": "Ek vyakti ya vastu ka tri-maayi pirstuti",
+      "sentence": [
+        {
+          "sentence": "The company developed a new machine learning model.",
+          "translation": "Company ne ek naya machine siksha model viksit kiya."
+        },
+        {
+          "sentence": "The team built a model of the city to plan the development.",
+          "translation": "Team ne vikas yojana banane ke liye shahar ka model banaya."
+        }
+      ]
+    },
+    {
+      "word": "Natural",
+      "phoneticRespelling": "NAY-chruh-ul",
+      "translation": "Prakritik",
+      "definition": "Existing in or caused by nature, not made or caused by humans",
+      "definationTranslation": "Prakriti mein astitva ya prakriti dwara utpann, manav dwara nahin banaya gaya",
+      "sentence": [
+        {
+          "sentence": "The natural language processing algorithm was complex.",
+          "translation": "Prakritik bhasha prasanshkan algothon jatil tha."
+        },
+        {
+          "sentence": "The team studied the natural behavior of the customers.",
+          "translation": "Team ne grahakon ke prakritik vyavhar ka adhyayan kiya."
+        }
+      ]
+    },
+    {
+      "word": "Neural",
+      "phoneticRespelling": "NOOR-ul",
+      "translation": "Nadiya",
+      "definition": "Relating to the nerves or nervous system",
+      "definationTranslation": "Nadiyon ya nadiya pranali se sambandhit",
+      "sentence": [
+        {
+          "sentence": "The neural network was used to analyze the data.",
+          "translation": "Data ka vishleshan karne ke liye nadiya jalachar ka upyog kiya gaya tha."
+        },
+        {
+          "sentence": "The team developed a neural language model.",
+          "translation": "Team ne ek nadiya bhasha model viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "Jalachar",
+      "definition": "A system of interconnected things or people",
+      "definationTranslation": "Ek doosre se jude cheezon ya logon ka pranali",
+      "sentence": [
+        {
+          "sentence": "The company uses a neural network to analyze the data.",
+          "translation": "Company data ka vishleshan karne ke liye nadiya jalachar ka upyog karti hai."
+        },
+        {
+          "sentence": "The team built a network of sensors to collect data.",
+          "translation": "Team ne data ikattha karne ke liye sensoron ka jalachar banaya."
+        }
+      ]
+    },
+    {
+      "word": "Pattern",
+      "phoneticRespelling": "PAT-ern",
+      "translation": "Pattern",
+      "definition": "A regular arrangement of shapes or colors",
+      "definationTranslation": "Aakritiyon ya rangon ka niyamit vitran",
+      "sentence": [
+        {
+          "sentence": "The team identified a pattern in the data.",
+          "translation": "Team ne data mein ek pattern ko pahchana."
+        },
+        {
+          "sentence": "The company uses pattern recognition to analyze the data.",
+          "translation": "Company data ka vishleshan karne ke liye pattern pahchan ka upyog karti hai."
+        }
+      ]
+    },
+    {
+      "word": "Prediction",
+      "phoneticRespelling": "pri-DIK-shun",
+      "translation": "Bhavishyavani",
+      "definition": "A statement about what will happen in the future",
+      "definationTranslation": "Bhavishya mein hone wali ghatnaon ke baare mein ek bayan",
+      "sentence": [
+        {
+          "sentence": "The company uses machine learning to make predictions.",
+          "translation": "Company bhavishyavani karne ke liye machine siksha ka upyog karti hai."
+        },
+        {
+          "sentence": "The team made a prediction about the market trends.",
+          "translation": "Team ne bazaar ki dishaon ke baare mein ek bhavishyavani ki."
+        }
+      ]
+    },
+    {
+      "word": "Regression",
+      "phoneticRespelling": "ri-GREH-shun",
+      "translation": "Patan",
+      "definition": "The act of moving backward or returning to a previous state",
+      "definationTranslation": "Pichhe jaane ya pichle sthiti mein lautne ka karya",
+      "sentence": [
+        {
+          "sentence": "The team used regression analysis to identify the relationship between variables.",
+          "translation": "Team ne chanon ke beech sambandh ko pahchanne ke liye patan vishleshan ka upyog kiya."
+        },
+        {
+          "sentence": "The company uses regression to predict the customer behavior.",
+          "translation": "Company grahak vyavhar ki bhavishyavani karne ke liye patan ka upyog karti hai."
+        }
+      ]
+    },
+    {
+      "word": "Statistical",
+      "phoneticRespelling": "stuh-TIS-ti-kuhl",
+      "translation": "Aankadiya",
+      "definition": "Relating to the study of statistics",
+      "definationTranslation": "Aankade ki adhyayan se sambandhit",
+      "sentence": [
+        {
+          "sentence": "The company uses statistical methods to analyze the data.",
+          "translation": "Company data ka vishleshan karne ke liye aankadiya vidhiyon ka upyog karti hai."
+        },
+        {
+          "sentence": "The team conducted a statistical analysis of the market trends.",
+          "translation": "Team ne bazaar ki dishaon ka aankadiya vishleshan kiya."
+        }
+      ]
+    },
+    {
+      "word": "Supervised",
+      "phoneticRespelling": "soo-PUR-vid",
+      "translation": "Parikshit",
+      "definition": "Having a person or thing that is in charge or responsible",
+      "definationTranslation": "Jismein ek vyakti ya vastu adhishthata ya jimmedar hoti hai",
+      "sentence": [
+        {
+          "sentence": "The company uses supervised learning to train the model.",
+          "translation": "Company model ko prashikshit karne ke liye parikshit siksha ka upyog karti hai."
+        },
+        {
+          "sentence": "The team developed a supervised algorithm to analyze the data.",
+          "translation": "Team ne data ka vishleshan karne ke liye ek parikshit algothon viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Unsupervised",
+      "phoneticRespelling": "un-soo-PUR-vid",
+      "translation": "Aprikshit",
+      "definition": "Not having a person or thing that is in charge or responsible",
+      "definationTranslation": "Jismein ek vyakti ya vastu adhishthata ya jimmedar nahin hoti",
+      "sentence": [
+        {
+          "sentence": "The company uses unsupervised learning to identify patterns in the data.",
+          "translation": "Company data mein pattern ko pahchanne ke liye aprikshit siksha ka upyog karti hai."
+        },
+        {
+          "sentence": "The team developed an unsupervised algorithm to analyze the data.",
+          "translation": "Team ne data ka vishleshan karne ke liye ek aprikshit algothon viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Validation",
+      "phoneticRespelling": "val-i-DEY-shun",
+      "translation": "Mulyankan",
+      "definition": "The process of checking or proving the quality or accuracy of something",
+      "definationTranslation": "Kisi cheez ki gunvatta ya satyata ko jaanchne ya sidh karne ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The company uses validation to check the accuracy of the data.",
+          "translation": "Company data ki satyata ko jaanchne ke liye mulyankan ka upyog karti hai."
+        },
+        {
+          "sentence": "The team conducted a validation of the model to ensure its accuracy.",
+          "translation": "Team ne model ki satyata ko sunishchit karne ke liye ek mulyankan kiya."
+        }
+      ]
+    },
+    {
+      "word": "Visualization",
+      "phoneticRespelling": "vizh-oo-uh-LIE-zay-shun",
+      "translation": "Drishtikaran",
+      "definition": "The process of making something visible or easier to understand",
+      "definationTranslation": "Kisi cheez ko dikhayi dene ya samajhne mein aasan banane ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The company uses visualization to make the data easier to understand.",
+          "translation": "Company data ko samajhne mein aasan banane ke liye drishtikaran ka upyog karti hai."
+        },
+        {
+          "sentence": "The team created a visualization of the data to identify patterns.",
+          "translation": "Team ne pattern ko pahchanne ke liye data ka drishtikaran banaya."
+        }
+      ]
+    }
+  ]
+}
