@@ -1,1 +1,430 @@
-{}
+{
+  "topic": "Natural Language Processing",
+  "words": [
+    {
+      "word": "Tokenization",
+      "phoneticRespelling": "toh-kuh-nie-zay-shun",
+      "translation": "टोकनीकरण",
+      "definition": "The process of breaking down text into individual words or tokens.",
+      "definationTranslation": "पाठ को व्यक्तिगत शब्दों या टोकन में तोड़ने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Tokenization is a fundamental step in natural language processing.",
+          "translation": "टोकनीकरण प्राकृतिक भाषा संसाधन में एक मूलभूत चरण है"
+        },
+        {
+          "sentence": "The algorithm used tokenization to split the text into individual words.",
+          "translation": "एल्गोरिथ्म ने पाठ को व्यक्तिगत शब्दों में विभाजित करने के लिए टोकनीकरण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Stemming",
+      "phoneticRespelling": "STEM-ing",
+      "translation": "स्टेमिंग",
+      "definition": "The process of reducing a word to its base form.",
+      "definationTranslation": "एक शब्द को उसके आधार रूप में कम करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Stemming is used to normalize words to their base form.",
+          "translation": "स्टेमिंग शब्दों को उनके आधार रूप में सामान्य करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used stemming to reduce words to their base form.",
+          "translation": "एल्गोरिथ्म ने शब्दों को उनके आधार रूप में कम करने के लिए स्टेमिंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Lemmatization",
+      "phoneticRespelling": "lem-uh-tie-zay-shun",
+      "translation": "लेम्मेटिकेशन",
+      "definition": "The process of reducing a word to its base or root form.",
+      "definationTranslation": "एक शब्द को उसके आधार या मूल रूप में कम करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Lemmatization is used to normalize words to their base form.",
+          "translation": "लेम्मेटिकेशन शब्दों को उनके आधार रूप में सामान्य करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used lemmatization to reduce words to their base form.",
+          "translation": "एल्गोरिथ्म ने शब्दों को उनके आधार रूप में कम करने के लिए लेम्मेटिकेशन का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Named Entity Recognition",
+      "phoneticRespelling": "NAYMD EN-ti-tee REK-uhg-nish-un",
+      "translation": "नामित इकाई पहचान",
+      "definition": "The process of identifying named entities in text.",
+      "definationTranslation": "पाठ में नामित इकाइयों की पहचान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Named entity recognition is used to identify names, locations, and organizations.",
+          "translation": "नामित इकाई पहचान नाम, स्थानों और संगठनों की पहचान करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used named entity recognition to identify entities in the text.",
+          "translation": "एल्गोरिथ्म ने पाठ में इकाइयों की पहचान करने के लिए नामित इकाई पहचान का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Part-of-Speech Tagging",
+      "phoneticRespelling": "PAHRT UV SPEECH TAG-ing",
+      "translation": "भाषण का अंश टैगिंग",
+      "definition": "The process of identifying the part of speech of each word in text.",
+      "definationTranslation": "पाठ में प्रत्येक शब्द के भाषण के अंश की पहचान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Part-of-speech tagging is used to identify the grammatical category of each word.",
+          "translation": "भाषण का अंश टैगिंग प्रत्येक शब्द की व्याकरणिक श्रेणी की पहचान करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used part-of-speech tagging to identify the parts of speech in the text.",
+          "translation": "एल्गोरिथ्म ने पाठ में भाषण के अंशों की पहचान करने के लिए भाषण का अंश टैगिंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Dependency Parsing",
+      "phoneticRespelling": "dee-PEN-dee-see PAR-sing",
+      "translation": "निर्भरता वाक्य रचना",
+      "definition": "The process of analyzing the grammatical structure of a sentence.",
+      "definationTranslation": "एक वाक्य के व्याकरणिक संरचना का विश्लेषण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Dependency parsing is used to analyze the grammatical structure of a sentence.",
+          "translation": "निर्भरता वाक्य रचना एक वाक्य के व्याकरणिक संरचना का विश्लेषण करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used dependency parsing to analyze the sentence structure.",
+          "translation": "एल्गोरिथ्म ने वाक्य संरचना का विश्लेषण करने के लिए निर्भरता वाक्य रचना का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Sentiment Analysis",
+      "phoneticRespelling": "sen-tuh-ment AN-uh-lis-is",
+      "translation": "भाव विश्लेषण",
+      "definition": "The process of analyzing the sentiment or emotional tone of text.",
+      "definationTranslation": "पाठ के भाव या भावनात्मक स्वर का विश्लेषण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Sentiment analysis is used to determine the emotional tone of text.",
+          "translation": "भाव विश्लेषण पाठ के भावनात्मक स्वर का निर्धारण करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used sentiment analysis to analyze the sentiment of the text.",
+          "translation": "एल्गोरिथ्म ने पाठ के भाव का विश्लेषण करने के लिए भाव विश्लेषण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Topic Modeling",
+      "phoneticRespelling": "TOP-ik MOD-el-ing",
+      "translation": "विषय मॉडलिंग",
+      "definition": "The process of identifying the underlying topics or themes in a large corpus of text.",
+      "definationTranslation": "एक विशाल पाठ संग्रह में निहित विषयों या विषयों की पहचान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Topic modeling is used to identify the underlying topics in a large corpus of text.",
+          "translation": "विषय मॉडलिंग एक विशाल पाठ संग्रह में निहित विषयों की पहचान करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used topic modeling to identify the topics in the text.",
+          "translation": "एल्गोरिथ्म ने पाठ में विषयों की पहचान करने के लिए विषय मॉडलिंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Language Modeling",
+      "phoneticRespelling": "LANG-gwij MOD-el-ing",
+      "translation": "भाषा मॉडलिंग",
+      "definition": "The process of predicting the next word in a sequence of text.",
+      "definationTranslation": "पाठ के क्रम में अगले शब्द की भविष्यवाणी करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Language modeling is used to predict the next word in a sentence.",
+          "translation": "भाषा मॉडलिंग एक वाक्य में अगले शब्द की भविष्यवाणी करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used language modeling to predict the next word in the text.",
+          "translation": "एल्गोरिथ्म ने पाठ में अगले शब्द की भविष्यवाणी करने के लिए भाषा मॉडलिंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Machine Learning",
+      "phoneticRespelling": "MASH-een LERN-ing",
+      "translation": "मशीन लर्निंग",
+      "definition": "The process of training a machine to perform a task.",
+      "definationTranslation": "एक मशीन को एक कार्य करने के लिए प्रशिक्षित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Machine learning is used to train a machine to perform a task.",
+          "translation": "मशीन लर्निंग एक मशीन को एक कार्य करने के लिए प्रशिक्षित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used machine learning to train the machine.",
+          "translation": "एल्गोरिथ्म ने मशीन को प्रशिक्षित करने के लिए मशीन लर्निंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Deep Learning",
+      "phoneticRespelling": "DEEP LERN-ing",
+      "translation": "गहरा लर्निंग",
+      "definition": "The process of training a machine to perform a task using neural networks.",
+      "definationTranslation": "तंत्रिका नेटवर्क का उपयोग करके एक मशीन को एक कार्य करने के लिए प्रशिक्षित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Deep learning is used to train a machine to perform a task using neural networks.",
+          "translation": "गहरा लर्निंग तंत्रिका नेटवर्क का उपयोग करके एक मशीन को एक कार्य करने के लिए प्रशिक्षित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used deep learning to train the machine.",
+          "translation": "एल्गोरिथ्म ने मशीन को प्रशिक्षित करने के लिए गहरा लर्निंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Natural Language",
+      "phoneticRespelling": "NAY-chur-al LANG-gwij",
+      "translation": "प्राकृतिक भाषा",
+      "definition": "A language that is spoken or written by humans.",
+      "definationTranslation": "एक भाषा जो मानव द्वारा बोली या लिखी जाती है",
+      "sentence": [
+        {
+          "sentence": "Natural language is used to communicate with humans.",
+          "translation": "प्राकृतिक भाषा मानव के साथ संवाद करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used natural language to communicate with the user.",
+          "translation": "एल्गोरिथ्म ने उपयोगकर्ता के साथ संवाद करने के लिए प्राकृतिक भाषा का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Processing",
+      "phoneticRespelling": "PROH-ses-ing",
+      "translation": "प्रसंस्करण",
+      "definition": "The act of performing operations on data.",
+      "definationTranslation": "डेटा पर संचालन करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Processing is used to perform operations on data.",
+          "translation": "प्रसंस्करण डेटा पर संचालन करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used processing to analyze the data.",
+          "translation": "एल्गोरिथ्म ने डेटा का विश्लेषण करने के लिए प्रसंस्करण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Artificial Intelligence",
+      "phoneticRespelling": "ar-tuh-FISH-ul IN-tel-uh-jens",
+      "translation": "कृत्रिम बुद्धिमत्ता",
+      "definition": "The development of computer systems that can perform tasks that typically require human intelligence.",
+      "definationTranslation": "मानव बुद्धिमत्ता की आवश्यकता वाले कार्यों को करने में सक्षम कंप्यूटर सिस्टम का विकास",
+      "sentence": [
+        {
+          "sentence": "Artificial intelligence is used to develop computer systems that can perform tasks that typically require human intelligence.",
+          "translation": "कृत्रिम बुद्धिमत्ता मानव बुद्धिमत्ता की आवश्यकता वाले कार्यों को करने में सक्षम कंप्यूटर सिस्टम के विकास के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used artificial intelligence to develop the computer system.",
+          "translation": "एल्गोरिथ्म ने कंप्यूटर सिस्टम के विकास के लिए कृत्रिम बुद्धिमत्ता का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Human-Computer Interaction",
+      "phoneticRespelling": "HYOO-man KOM-pyoo-ter IN-ter-ak-shun",
+      "translation": "मानव-कंप्यूटर परस्पर क्रिया",
+      "definition": "The study of how humans interact with computers.",
+      "definationTranslation": "मानव के कंप्यूटर के साथ परस्पर क्रिया करने का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Human-computer interaction is used to study how humans interact with computers.",
+          "translation": "मानव-कंप्यूटर परस्पर क्रिया मानव के कंप्यूटर के साथ परस्पर क्रिया करने के अध्ययन के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used human-computer interaction to study the user interface.",
+          "translation": "एल्गोरिथ्म ने उपयोगकर्ता इंटरफ़ेस का अध्ययन करने के लिए मानव-कंप्यूटर परस्पर क्रिया का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Syntax",
+      "phoneticRespelling": "SIN-taks",
+      "translation": "वाक्य रचना",
+      "definition": "The set of rules that govern the structure of a language.",
+      "definationTranslation": "एक भाषा की संरचना को नियंत्रित करने वाले नियमों का सेट",
+      "sentence": [
+        {
+          "sentence": "Syntax is used to govern the structure of a language.",
+          "translation": "वाक्य रचना एक भाषा की संरचना को नियंत्रित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used syntax to analyze the language structure.",
+          "translation": "एल्गोरिथ्म ने भाषा संरचना का विश्लेषण करने के लिए वाक्य रचना का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Semantics",
+      "phoneticRespelling": "seh-MAN-tiks",
+      "translation": "अर्थशास्त्र",
+      "definition": "The study of the meaning of words and phrases.",
+      "definationTranslation": "शब्दों और वाक्यांशों के अर्थ का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Semantics is used to study the meaning of words and phrases.",
+          "translation": "अर्थशास्त्र शब्दों और वाक्यांशों के अर्थ के अध्ययन के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used semantics to analyze the meaning of the text.",
+          "translation": "एल्गोरिथ्म ने पाठ के अर्थ का विश्लेषण करने के लिए अर्थशास्त्र का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Pragmatics",
+      "phoneticRespelling": "PRAG-muh-tiks",
+      "translation": "प्राग्मेटिक्स",
+      "definition": "The study of how context affects the meaning of words and phrases.",
+      "definationTranslation": "संदर्भ के प्रभाव से शब्दों और वाक्यांशों के अर्थ का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Pragmatics is used to study how context affects the meaning of words and phrases.",
+          "translation": "प्राग्मेटिक्स संदर्भ के प्रभाव से शब्दों और वाक्यांशों के अर्थ के अध्ययन के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used pragmatics to analyze the context of the text.",
+          "translation": "एल्गोरिथ्म ने पाठ के संदर्भ का विश्लेषण करने के लिए प्राग्मेटिक्स का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Discourse",
+      "phoneticRespelling": "DIS-kors",
+      "translation": "वार्ता",
+      "definition": "A unit of language that is larger than a sentence.",
+      "definationTranslation": "एक भाषा की इकाई जो एक वाक्य से बड़ी है",
+      "sentence": [
+        {
+          "sentence": "Discourse is used to refer to a unit of language that is larger than a sentence.",
+          "translation": "वार्ता एक भाषा की इकाई को संदर्भित करने के लिए उपयोग किया जाता है जो एक वाक्य से बड़ी है"
+        },
+        {
+          "sentence": "The algorithm used discourse to analyze the structure of the text.",
+          "translation": "एल्गोरिथ्म ने पाठ की संरचना का विश्लेषण करने के लिए वार्ता का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Dialogue",
+      "phoneticRespelling": "DIE-uh-log",
+      "translation": "संवाद",
+      "definition": "A conversation between two or more people.",
+      "definationTranslation": "दो या दो से अधिक लोगों के बीच एक बातचीत",
+      "sentence": [
+        {
+          "sentence": "Dialogue is used to refer to a conversation between two or more people.",
+          "translation": "संवाद दो या दो से अधिक लोगों के बीच एक बातचीत को संदर्भित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used dialogue to analyze the conversation between the user and the system.",
+          "translation": "एल्गोरिथ्म ने उपयोगकर्ता और सिस्टम के बीच की बातचीत का विश्लेषण करने के लिए संवाद का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Narrative",
+      "phoneticRespelling": "NAR-uh-tiv",
+      "translation": "कथा",
+      "definition": "A story or account of events.",
+      "definationTranslation": "घटनाओं की एक कहानी या विवरण",
+      "sentence": [
+        {
+          "sentence": "Narrative is used to refer to a story or account of events.",
+          "translation": "कथा एक कहानी या घटनाओं के विवरण को संदर्भित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used narrative to analyze the story in the text.",
+          "translation": "एल्गोरिथ्म ने पाठ में कहानी का विश्लेषण करने के लिए कथा का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Genre",
+      "phoneticRespelling": "ZHON-rey",
+      "translation": "विधा",
+      "definition": "A category of artistic or literary work.",
+      "definationTranslation": "कलात्मक या साहित्यिक कार्य की एक श्रेणी",
+      "sentence": [
+        {
+          "sentence": "Genre is used to refer to a category of artistic or literary work.",
+          "translation": "विधा एक कलात्मक या साहित्यिक कार्य की एक श्रेणी को संदर्भित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used genre to analyze the type of text.",
+          "translation": "एल्गोरिथ्म ने पाठ के प्रकार का विश्लेषण करने के लिए विधा का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Style",
+      "phoneticRespelling": "STILE",
+      "translation": "शैली",
+      "definition": "The way in which something is written or expressed.",
+      "definationTranslation": "किसी चीज़ को लिखने या अभिव्यक्त करने का तरीका",
+      "sentence": [
+        {
+          "sentence": "Style is used to refer to the way in which something is written or expressed.",
+          "translation": "शैली किसी चीज़ को लिखने या अभिव्यक्त करने के तरीके को संदर्भित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used style to analyze the writing style of the author.",
+          "translation": "एल्गोरिथ्म ने लेखक की लेखन शैली का विश्लेषण करने के लिए शैली का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Tone",
+      "phoneticRespelling": "TOHN",
+      "translation": "स्वर",
+      "definition": "The attitude or feeling conveyed by a piece of writing.",
+      "definationTranslation": "एक लेखन के द्वारा व्यक्त की गई दृष्टिकोण या भावना",
+      "sentence": [
+        {
+          "sentence": "Tone is used to refer to the attitude or feeling conveyed by a piece of writing.",
+          "translation": "स्वर एक लेखन के द्वारा व्यक्त की गई दृष्टिकोण या भावना को संदर्भित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used tone to analyze the sentiment of the text.",
+          "translation": "एल्गोरिथ्म ने पाठ के भाव का विश्लेषण करने के लिए स्वर का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Rhetoric",
+      "phoneticRespelling": "REH-tor-ik",
+      "translation": "वाक्पटुता",
+      "definition": "The art of using language effectively and persuasively.",
+      "definationTranslation": "भाषा का प्रभावी और प्रभावशाली उपयोग करने की कला",
+      "sentence": [
+        {
+          "sentence": "Rhetoric is used to refer to the art of using language effectively and persuasively.",
+          "translation": "वाक्पटुता भाषा का प्रभावी और प्रभावशाली उपयोग करने की कला को संदर्भित करने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The algorithm used rhetoric to analyze the persuasive language in the text.",
+          "translation": "एल्गोरिथ्म ने पाठ में प्रभावशाली भाषा का विश्लेषण करने के लिए वाक्पटुता का उपयोग किया"
+        }
+      ]
+    }
+  ]
+}

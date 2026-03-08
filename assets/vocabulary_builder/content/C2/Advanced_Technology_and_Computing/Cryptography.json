@@ -1,1 +1,430 @@
-{}
+{
+  "topic": "Cryptography",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "Algorithm",
+      "definition": "A set of instructions used to solve a problem or perform a calculation",
+      "definationTranslation": "Ek samaasya ko hal karne ya ganana karne ke liye upyog kiye jane wale nirdeshon ka samuh",
+      "sentence": [
+        {
+          "sentence": "The new algorithm was much faster than the old one",
+          "translation": "Naya algorithm purane ke mukable bahut tez tha"
+        },
+        {
+          "sentence": "The company uses a complex algorithm to encrypt its data",
+          "translation": "Company apne data ko encrypt karne ke liye ek jatil algorithm ka upyog karti hai"
+        }
+      ]
+    },
+    {
+      "word": "Asymmetric",
+      "phoneticRespelling": "AY-si-me-trik",
+      "translation": "Asammetrik",
+      "definition": "Not symmetric, having different keys for encryption and decryption",
+      "definationTranslation": "Sammetrik nahin, encryption aur decryption ke liye alag-alag keys hona",
+      "sentence": [
+        {
+          "sentence": "Asymmetric encryption is more secure than symmetric encryption",
+          "translation": "Asammetrik encryption symmetric encryption se adhik surakshit hai"
+        },
+        {
+          "sentence": "The company uses asymmetric keys to encrypt its data",
+          "translation": "Company apne data ko encrypt karne ke liye asammetrik keys ka upyog karti hai"
+        }
+      ]
+    },
+    {
+      "word": "Block",
+      "phoneticRespelling": "BLOK",
+      "translation": "Block",
+      "definition": "A group of bits or bytes that are encrypted together",
+      "definationTranslation": "Ek samuh jo milkar encrypt kiya jata hai",
+      "sentence": [
+        {
+          "sentence": "The block size of the encryption algorithm was 128 bits",
+          "translation": "Encryption algorithm ka block size 128 bits tha"
+        },
+        {
+          "sentence": "The company uses a block cipher to encrypt its data",
+          "translation": "Company apne data ko encrypt karne ke liye block cipher ka upyog karti hai"
+        }
+      ]
+    },
+    {
+      "word": "Certificate",
+      "phoneticRespelling": "SUR-ti-fi-ket",
+      "translation": "Pramanpatra",
+      "definition": "A digital document that verifies the identity of a person or organization",
+      "definationTranslation": "Ek digital document jo kisi vyakti ya sangathan ki pahchaan ko pramanit karta hai",
+      "sentence": [
+        {
+          "sentence": "The company obtained a certificate from a trusted authority",
+          "translation": "Company ne ek vishvasniya adhikari se pramanpatra praapt kiya"
+        },
+        {
+          "sentence": "The certificate ensured the authenticity of the website",
+          "translation": "Pramanpatra ne website ki asliyat ko sunischit kiya"
+        }
+      ]
+    },
+    {
+      "word": "Cipher",
+      "phoneticRespelling": "SAI-fer",
+      "translation": "Chitr",
+      "definition": "An algorithm used to encrypt and decrypt data",
+      "definationTranslation": "Ek algorithm jo data ko encrypt aur decrypt karne ke liye upyog kiya jata hai",
+      "sentence": [
+        {
+          "sentence": "The company uses a cipher to protect its data",
+          "translation": "Company apne data ko surakshit rakhne ke liye ek chitr ka upyog karti hai"
+        },
+        {
+          "sentence": "The cipher was cracked by a team of hackers",
+          "translation": "Chitr ko hack karna vale ek team ne tod diya"
+        }
+      ]
+    },
+    {
+      "word": "Decryption",
+      "phoneticRespelling": "di-KRIHP-shun",
+      "translation": "Avincohit",
+      "definition": "The process of converting encrypted data back into its original form",
+      "definationTranslation": "Encrypted data ko punah apne mool roop mein parivaartit karne ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The decryption process was slow and inefficient",
+          "translation": "Avincohit prakriya dheemi aur aprabhavi thi"
+        },
+        {
+          "sentence": "The company uses a decryption key to access its encrypted data",
+          "translation": "Company apne encrypted data tak pahunchne ke liye avincohit key ka upyog karti hai"
+        }
+      ]
+    },
+    {
+      "word": "Digital",
+      "phoneticRespelling": "DIJ-ih-tl",
+      "translation": "Digital",
+      "definition": "Relating to computers or electronic devices",
+      "definationTranslation": "Computer ya electronic upkaranon se sambandhit",
+      "sentence": [
+        {
+          "sentence": "The company uses digital signatures to authenticate its documents",
+          "translation": "Company apne dastavezon ko pramanit karne ke liye digital hastaksharon ka upyog karti hai"
+        },
+        {
+          "sentence": "The digital certificate ensured the authenticity of the website",
+          "translation": "Digital pramanpatra ne website ki asliyat ko sunischit kiya"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIHP-shun",
+      "translation": "Samcohit",
+      "definition": "The process of converting plaintext into ciphertext",
+      "definationTranslation": "Plaintext ko ciphertext mein parivaartit karne ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The encryption process was complex and time-consuming",
+          "translation": "Samcohit prakriya jatil aur samay-leen thi"
+        },
+        {
+          "sentence": "The company uses encryption to protect its sensitive data",
+          "translation": "Company apne samvedansheel data ko surakshit rakhne ke liye samcohit ka upyog karti hai"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FAHY-er-wahl",
+      "translation": "Agni-aavarodh",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "Ek suraksha pranaali jo aane-wale aur jaane-wale network traffic par niyantran karti hai",
+      "sentence": [
+        {
+          "sentence": "The company uses a firewall to protect its network from hackers",
+          "translation": "Company apne network ko hack karna vale se surakshit rakhne ke liye agni-aavarodh ka upyog karti hai"
+        },
+        {
+          "sentence": "The firewall blocked all incoming traffic from unknown sources",
+          "translation": "Agni-aavarodh ne anjaane strot se aane wale sabhi traffic ko aavarodhit kiya"
+        }
+      ]
+    },
+    {
+      "word": "Hash",
+      "phoneticRespelling": "HASH",
+      "translation": "Hash",
+      "definition": "A digital fingerprint of a piece of data",
+      "definationTranslation": "Ek tukde ke data ka digital udaharan",
+      "sentence": [
+        {
+          "sentence": "The company uses a hash function to verify the integrity of its data",
+          "translation": "Company apne data ki akhandata ko pramanit karne ke liye hash function ka upyog karti hai"
+        },
+        {
+          "sentence": "The hash value was used to ensure the authenticity of the document",
+          "translation": "Hash moolya ko dastavez ki asliyat ko sunischit karne ke liye upyog kiya gaya"
+        }
+      ]
+    },
+    {
+      "word": "Key",
+      "phoneticRespelling": "KEE",
+      "translation": "Chabi",
+      "definition": "A secret code used to encrypt and decrypt data",
+      "definationTranslation": "Ek gupt code jo data ko encrypt aur decrypt karne ke liye upyog kiya jata hai",
+      "sentence": [
+        {
+          "sentence": "The company uses a key to encrypt its sensitive data",
+          "translation": "Company apne samvedansheel data ko encrypt karne ke liye chabi ka upyog karti hai"
+        },
+        {
+          "sentence": "The key was lost and the data was inaccessible",
+          "translation": "Chabi kho gayi aur data apraapt ho gaya"
+        }
+      ]
+    },
+    {
+      "word": "Malware",
+      "phoneticRespelling": "MAL-wair",
+      "translation": "Durupayog",
+      "definition": "Software designed to harm or exploit a computer system",
+      "definationTranslation": "Ek computer pranaali ko nuksan pahunchaane ya uska durupyog karne ke liye design kiya gaya software",
+      "sentence": [
+        {
+          "sentence": "The company's network was infected with malware",
+          "translation": "Company ka network durupayog se prabhavit ho gaya"
+        },
+        {
+          "sentence": "The malware was designed to steal sensitive data",
+          "translation": "Durupayog ko samvedansheel data churaane ke liye design kiya gaya tha"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "Jaal",
+      "definition": "A system of connected computers and devices",
+      "definationTranslation": "Jude hue computer aur upkaranon ka ek pranaali",
+      "sentence": [
+        {
+          "sentence": "The company's network was hacked by a group of hackers",
+          "translation": "Company ka jaal ek samuh ke hack karna vale dwara tod diya gaya"
+        },
+        {
+          "sentence": "The network was slow and unreliable",
+          "translation": "Jaal dheema aur aprabhavi tha"
+        }
+      ]
+    },
+    {
+      "word": "Password",
+      "phoneticRespelling": "PASS-wurd",
+      "translation": "Password",
+      "definition": "A secret word or phrase used to authenticate a user",
+      "definationTranslation": "Ek gupt shabd ya vaakya jo upyogkarta ko pramanit karne ke liye upyog kiya jata hai",
+      "sentence": [
+        {
+          "sentence": "The user forgot their password and was locked out of their account",
+          "translation": "Upyogkarta ne apna password bhula diya aur unka khata band ho gaya"
+        },
+        {
+          "sentence": "The password was weak and easily guessable",
+          "translation": "Password kamzor tha aur aasaanai se anumaan lagaya ja sakta tha"
+        }
+      ]
+    },
+    {
+      "word": "Phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "Matsya-bhari",
+      "definition": "A type of cyber attack where sensitive information is stolen through deception",
+      "definationTranslation": "Ek prakaar ka saiber hamla jahaan samvedansheel jaankari ko dhokha se churaya jata hai",
+      "sentence": [
+        {
+          "sentence": "The company's employees were targeted by a phishing scam",
+          "translation": "Company ke karmitton ko matsya-bhari ghotala ka nishana banaaya gaya"
+        },
+        {
+          "sentence": "The phishing email was designed to look like a legitimate message",
+          "translation": "Matsya-bhari email ko ek vaastavik sandesh jaisa dikhne ke liye design kiya gaya tha"
+        }
+      ]
+    },
+    {
+      "word": "Private",
+      "phoneticRespelling": "PRY-vit",
+      "translation": "Gyaat",
+      "definition": "Belonging to or intended for a particular individual or group",
+      "definationTranslation": "Ek vishisht vyakti ya samuh ke liye arth ya uddeshya",
+      "sentence": [
+        {
+          "sentence": "The company's private data was leaked to the public",
+          "translation": "Company ka gyaat data jaanata ke paas lek ho gaya"
+        },
+        {
+          "sentence": "The private key was used to decrypt the message",
+          "translation": "Gyaat chabi ko sandesh ko avincohit karne ke liye upyog kiya gaya"
+        }
+      ]
+    },
+    {
+      "word": "Protocol",
+      "phoneticRespelling": "PROH-tuh-kol",
+      "translation": "Pratipatti",
+      "definition": "A set of rules or procedures for communication",
+      "definationTranslation": "Sanchar ke liye niyam ya prakriyaon ka ek samuh",
+      "sentence": [
+        {
+          "sentence": "The company uses a protocol to secure its network",
+          "translation": "Company apne jaal ko surakshit rakhne ke liye pratipatti ka upyog karti hai"
+        },
+        {
+          "sentence": "The protocol was designed to ensure the integrity of the data",
+          "translation": "Pratipatti ko data ki akhandata ko sunischit karne ke liye design kiya gaya tha"
+        }
+      ]
+    },
+    {
+      "word": "Public",
+      "phoneticRespelling": "PUHB-lik",
+      "translation": "Sarvajanik",
+      "definition": "Available or accessible to everyone",
+      "definationTranslation": "Har kisi ke liye uplabdh ya prapt",
+      "sentence": [
+        {
+          "sentence": "The company's public data was accessible to anyone",
+          "translation": "Company ka sarvajanik data har kisi ke liye prapt tha"
+        },
+        {
+          "sentence": "The public key was used to encrypt the message",
+          "translation": "Sarvajanik chabi ko sandesh ko encrypt karne ke liye upyog kiya gaya"
+        }
+      ]
+    },
+    {
+      "word": "Secure",
+      "phoneticRespelling": "si-KYOOR",
+      "translation": "Surakshit",
+      "definition": "Protected from unauthorized access or harm",
+      "definationTranslation": "Anadhikrit pravaesh ya nuksaan se surakshit",
+      "sentence": [
+        {
+          "sentence": "The company's network was secure and reliable",
+          "translation": "Company ka jaal surakshit aur vishvasniya tha"
+        },
+        {
+          "sentence": "The secure protocol ensured the confidentiality of the data",
+          "translation": "Surakshit pratipatti ne data ki gopniyata ko sunischit kiya"
+        }
+      ]
+    },
+    {
+      "word": "Server",
+      "phoneticRespelling": "SUR-ver",
+      "translation": "Server",
+      "definition": "A computer that provides services to other computers",
+      "definationTranslation": "Ek computer jo anya computeron ko sevayein pradaan karta hai",
+      "sentence": [
+        {
+          "sentence": "The company's server was hacked and sensitive data was stolen",
+          "translation": "Company ka server hack ho gaya aur samvedansheel data churaaya gaya"
+        },
+        {
+          "sentence": "The server was slow and unable to handle the traffic",
+          "translation": "Server dheema tha aur traffic ko sambhalne mein asamarth tha"
+        }
+      ]
+    },
+    {
+      "word": "Software",
+      "phoneticRespelling": "SOFT-wair",
+      "translation": "Safthvare",
+      "definition": "Programs and operating systems used by computers",
+      "definationTranslation": "Computer dwara upyog kiye jaane wale program aur operating system",
+      "sentence": [
+        {
+          "sentence": "The company uses software to manage its network",
+          "translation": "Company apne jaal ka prabandhan karne ke liye safthvare ka upyog karti hai"
+        },
+        {
+          "sentence": "The software was buggy and caused problems",
+          "translation": "Safthvare mein khamaayen thi aur samasyaen paida karti thi"
+        }
+      ]
+    },
+    {
+      "word": "Symmetric",
+      "phoneticRespelling": "si-MET-rik",
+      "translation": "Sammetrik",
+      "definition": "Having the same keys for encryption and decryption",
+      "definationTranslation": "Encryption aur decryption ke liye samaan keys hona",
+      "sentence": [
+        {
+          "sentence": "The symmetric encryption algorithm was fast and efficient",
+          "translation": "Sammetrik encryption algorithm tez aur kushal tha"
+        },
+        {
+          "sentence": "The company uses symmetric keys to encrypt its data",
+          "translation": "Company apne data ko encrypt karne ke liye sammetrik keys ka upyog karti hai"
+        }
+      ]
+    },
+    {
+      "word": "Token",
+      "phoneticRespelling": "TOH-ken",
+      "translation": "Token",
+      "definition": "A small device or symbol used for authentication",
+      "definationTranslation": "Ek chhota upkaran ya chinh jo pramanikaran ke liye upyog kiya jata hai",
+      "sentence": [
+        {
+          "sentence": "The company uses a token to authenticate its employees",
+          "translation": "Company apne karmitton ko pramanit karne ke liye token ka upyog karti hai"
+        },
+        {
+          "sentence": "The token was required to access the secure website",
+          "translation": "Surakshit website tak pahunchne ke liye token aavashyak tha"
+        }
+      ]
+    },
+    {
+      "word": "Virus",
+      "phoneticRespelling": "VAHY-rus",
+      "translation": "Virus",
+      "definition": "A type of malware that replicates itself",
+      "definationTranslation": "Ek prakaar ka durupayog jo apne aap ko pratikriti karta hai",
+      "sentence": [
+        {
+          "sentence": "The company's network was infected with a virus",
+          "translation": "Company ka jaal virus se prabhavit ho gaya"
+        },
+        {
+          "sentence": "The virus was designed to steal sensitive information",
+          "translation": "Virus ko samvedansheel jaankari churaane ke liye design kiya gaya tha"
+        }
+      ]
+    },
+    {
+      "word": "Worm",
+      "phoneticRespelling": "WURM",
+      "translation": "Kri",
+      "definition": "A type of malware that spreads from computer to computer",
+      "definationTranslation": "Ek prakaar ka durupayog jo ek computer se doosre computer mein phailta hai",
+      "sentence": [
+        {
+          "sentence": "The company's network was infected with a worm",
+          "translation": "Company ka jaal kri se prabhavit ho gaya"
+        },
+        {
+          "sentence": "The worm was designed to cause damage to the system",
+          "translation": "Kri ko pranaali ko nuksaan pahunchaane ke liye design kiya gaya tha"
+        }
+      ]
+    }
+  ]
+}

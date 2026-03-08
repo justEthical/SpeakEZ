@@ -3,7 +3,7 @@
   "words": [
     {
       "word": "Asylum",
-      "phoneticRespelling": "AY-si-lum",
+      "phoneticRespelling": "A-sy-lum",
       "translation": "शरण",
       "definition": "A place of safety or refuge, especially for someone who is escaping from war, persecution, or natural disaster",
       "definationTranslation": "एक सुरक्षित स्थान या शरण, विशेष रूप से किसी के लिए जो युद्ध, उत्पीड़न, या प्राकृतिक आपदा से बच रहा है",
@@ -357,7 +357,74 @@
           "translation": "सरकार ने विदेशी भीति के खिलाफ और सहिष्णुता को बढ़ावा देने के लिए एक अभियान शुरू किया है।"
         }
       ]
+    },
+    {
+      "word": "Brain Drain",
+      "phoneticRespelling": "BRAYN DRAYN",
+      "translation": "प्रतिभा पलायन",
+      "definition": "The emigration of highly trained or intelligent people from a particular country",
+      "definationTranslation": "किसी विशेष देश से उच्च प्रशिक्षित या बुद्धिमान लोगों का प्रवास",
+      "sentence": [
+        {
+          "sentence": "The country is suffering from a massive brain drain as young doctors move abroad for better pay.",
+          "translation": "देश बड़े पैमाने पर प्रतिभा पलायन से जूझ रहा है क्योंकि युवा डॉक्टर बेहतर वेतन के लिए विदेश जा रहे हैं।"
+        },
+        {
+          "sentence": "Investment in local research centers is necessary to stop the brain drain of scientists.",
+          "translation": "वैज्ञानिकों के प्रतिभा पलायन को रोकने के लिए स्थानीय अनुसंधान केंद्रों में निवेश आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Remittance",
+      "phoneticRespelling": "ri-MIT-uhns",
+      "translation": "प्रेषण",
+      "definition": "A sum of money sent, especially by mail, in payment for goods or services or as a gift",
+      "definationTranslation": "पैसे की एक राशि जो भेजी जाती है, विशेष रूप से मेल द्वारा, माल या सेवाओं के भुगतान के रूप में या उपहार के रूप में",
+      "sentence": [
+        {
+          "sentence": "Remittances from workers abroad are a major source of income for many developing nations.",
+          "translation": "विदेशों में काम करने वाले श्रमिकों द्वारा भेजा गया प्रेषण कई विकासशील देशों के लिए आय का एक प्रमुख स्रोत है।"
+        },
+        {
+          "sentence": "He sends a monthly remittance to support his parents back home.",
+          "translation": "वह घर पर अपने माता-पिता की सहायता के लिए मासिक प्रेषण भेजता है।"
+        }
+      ]
+    },
+    {
+      "word": "Pull Factor",
+      "phoneticRespelling": "PUL FAK-tur",
+      "translation": "आकर्षक कारक",
+      "definition": "Something that attracts people to go and live in a particular place",
+      "definationTranslation": "कुछ ऐसा जो लोगों को किसी विशेष स्थान पर जाने और रहने के लिए आकर्षित करता है",
+      "sentence": [
+        {
+          "sentence": "Better healthcare and higher wages are powerful pull factors for modern migrants.",
+          "translation": "बेहतर स्वास्थ्य सेवा और उच्च वेतन आधुनिक प्रवासियों के लिए शक्तिशाली आकर्षक कारक हैं।"
+        },
+        {
+          "sentence": "The country's stable political climate acted as a pull factor for those escaping unrest.",
+          "translation": "देश की स्थिर राजनीतिक स्थिति ने अशांति से बचने वालों के लिए एक आकर्षक कारक के रूप में कार्य किया।"
+        }
+      ]
+    },
+    {
+      "word": "Push Factor",
+      "phoneticRespelling": "PUSH FAK-tur",
+      "translation": "प्रतिकूल कारक",
+      "definition": "A negative aspect or condition that motivates one to leave one's country or region",
+      "definationTranslation": "एक नकारात्मक पहलू या स्थिति जो किसी को अपने देश या क्षेत्र को छोड़ने के लिए प्रेरित करती है",
+      "sentence": [
+        {
+          "sentence": "Lack of job opportunities is a common push factor in rural areas.",
+          "translation": "ग्रामीण क्षेत्रों में नौकरी के अवसरों की कमी एक सामान्य प्रतिकूल कारक है।"
+        },
+        {
+          "sentence": "Environmental disasters can serve as push factors that force families to relocate.",
+          "translation": "पर्यावरणीय आपदाएं प्रतिकूल कारकों के रूप में कार्य कर सकती हैं जो परिवारों को स्थानांतरित होने के लिए मजबूर करती हैं।"
+        }
+      ]
     }
-  ],
-  "_warning": "Requested 25 words but got 21."
+  ]
 }

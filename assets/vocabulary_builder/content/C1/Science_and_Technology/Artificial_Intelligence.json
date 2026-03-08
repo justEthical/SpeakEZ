@@ -340,6 +340,91 @@
           "translation": "निर्णय लेने की प्रक्रिया में संज्ञानात्मक पूर्वाग्रह त्रुटियों का कारण बन सकता है।"
         }
       ]
+    },
+    {
+      "word": "Inference",
+      "phoneticRespelling": "IN-fer-unss",
+      "translation": "निष्कर्ष / अनुमान",
+      "definition": "The process of a trained AI model making predictions or decisions based on new data",
+      "definationTranslation": "एक प्रशिक्षित एआई मॉडल द्वारा नए डेटा के आधार पर भविष्यवाणियां करने या निर्णय लेने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Local inference on an M2 Mac is much faster than using a cloud-based API.",
+          "translation": "क्लाउड-आधारित एपीआई का उपयोग करने की तुलना में एम2 मैक पर स्थानीय निष्कर्ष (इन्फरेंस) बहुत तेज़ है।"
+        },
+        {
+          "sentence": "The time taken for inference determines the responsiveness of the app.",
+          "translation": "निष्कर्ष के लिए लिया गया समय ऐप की प्रतिक्रियाशीलता को निर्धारित करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Weights",
+      "phoneticRespelling": "WAYTS",
+      "translation": "वेट्स / भार",
+      "definition": "Parameters within a neural network that determine the strength of the connection between neurons",
+      "definationTranslation": "न्यूरल नेटवर्क के भीतर के पैरामीटर जो न्यूरॉन्स के बीच संबंध की मजबूती को निर्धारित करते हैं",
+      "sentence": [
+        {
+          "sentence": "Training a model involves adjusting the weights to minimize errors.",
+          "translation": "एक मॉडल को प्रशिक्षित करने में त्रुटियों को कम करने के लिए वेट्स को समायोजित करना शामिल है।"
+        },
+        {
+          "sentence": "The model weights are saved in a file so the AI can be used later.",
+          "translation": "मॉडल वेट्स को एक फाइल में सहेजा जाता है ताकि एआई का उपयोग बाद में किया जा सके।"
+        }
+      ]
+    },
+    {
+      "word": "Fine-tuning",
+      "phoneticRespelling": "FYN-TOO-ning",
+      "translation": "फाइन-ट्यूनिंग",
+      "definition": "Taking a pre-trained model and training it further on a specific dataset",
+      "definationTranslation": "एक पूर्व-प्रशिक्षित मॉडल लेना और उसे एक विशिष्ट डेटासेट पर आगे प्रशिक्षित करना",
+      "sentence": [
+        {
+          "sentence": "Fine-tuning a language model can help it understand specific medical or legal terms.",
+          "translation": "एक भाषा मॉडल की फाइन-ट्यूनिंग उसे विशिष्ट चिकित्सा या कानूनी शब्दों को समझने में मदद कर सकती है।"
+        },
+        {
+          "sentence": "We used fine-tuning to improve the accuracy of the speech recognition system.",
+          "translation": "हमने स्पीच रिकग्निशन सिस्टम की सटीकता में सुधार के लिए फाइन-ट्यूनिंग का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Heuristic",
+      "phoneticRespelling": "hyoo-RISS-tik",
+      "translation": "अनुभवजन्य / ह्यूरिस्टिक",
+      "definition": "A problem-solving approach that uses a practical method or various shortcuts",
+      "definationTranslation": "समस्या-समाधान का एक दृष्टिकोण जो व्यावहारिक पद्धति या विभिन्न शॉर्टकट्स का उपयोग करता है",
+      "sentence": [
+        {
+          "sentence": "The AI uses a heuristic to find a good enough solution quickly.",
+          "translation": "एआई जल्दी से एक पर्याप्त अच्छा समाधान खोजने के लिए ह्यूरिस्टिक का उपयोग करता है।"
+        },
+        {
+          "sentence": "Heuristics are useful when an exhaustive search is too slow.",
+          "translation": "ह्यूरिस्टिक्स तब उपयोगी होते हैं जब संपूर्ण खोज बहुत धीमी होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Optimization",
+      "phoneticRespelling": "AHP-tih-mih-ZAY-shun",
+      "translation": "इष्टतमीकरण / अनुकूलन",
+      "definition": "The process of making a system or design as effective or functional as possible",
+      "definationTranslation": "किसी सिस्टम या डिज़ाइन को यथासंभव प्रभावी या कार्यात्मक बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Code optimization is necessary to run large models on mobile devices.",
+          "translation": "मोबाइल उपकरणों पर बड़े मॉडल चलाने के लिए कोड अनुकूलन आवश्यक है।"
+        },
+        {
+          "sentence": "The optimization of the neural network reduced the memory usage by half.",
+          "translation": "न्यूरल नेटवर्क के अनुकूलन ने मेमोरी के उपयोग को आधा कम कर दिया।"
+        }
+      ]
     }
   ]
 }

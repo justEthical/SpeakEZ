@@ -391,7 +391,40 @@
           "translation": "कृमि ने कंपनी की पूरी कंप्यूटर प्रणाली को संक्रमित कर दिया।"
         }
       ]
+    },
+    {
+      "word": "Propaganda",
+      "phoneticRespelling": "prop-uh-GAN-duh",
+      "translation": "प्रचार",
+      "definition": "Information, especially of a biased or misleading nature, used to promote a political cause or point of view",
+      "definationTranslation": "जानकारी, विशेष रूप से पक्षपाती या भ्रामक प्रकृति की, जिसका उपयोग राजनीतिक कारण या दृष्टिकोण को बढ़ावा देने के लिए किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The regime used state-controlled media to spread propaganda and maintain control.",
+          "translation": "शासन ने प्रचार फैलाने और नियंत्रण बनाए रखने के लिए राज्य-नियंत्रित मीडिया का उपयोग किया।"
+        },
+        {
+          "sentence": "He analyzed the wartime propaganda to understand how public opinion was manipulated.",
+          "translation": "उसने यह समझने के लिए युद्धकालीन प्रचार का विश्लेषण किया कि जनमत को कैसे प्रभावित किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIP-shun",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting information or data into a code, especially to prevent unauthorized access",
+      "definationTranslation": "सूचना या डेटा को कोड में बदलने की प्रक्रिया, विशेष रूप से अनधिकृत पहुंच को रोकने के लिए",
+      "sentence": [
+        {
+          "sentence": "End-to-end encryption ensures that only the sender and recipient can read the messages.",
+          "translation": "एंड-टू-एंड एन्क्रिप्शन यह सुनिश्चित करता है कि केवल भेजने वाला और प्राप्त करने वाला ही संदेश पढ़ सकें।"
+        },
+        {
+          "sentence": "The hacker found it impossible to bypass the high-level encryption of the database.",
+          "translation": "हैकर के लिए डेटाबेस के उच्च-स्तरीय एन्क्रिप्शन को बायपास करना असंभव था।"
+        }
+      ]
     }
-  ],
-  "_warning": "Requested 25 words but got 23."
+  ]
 }

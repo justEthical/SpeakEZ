@@ -376,22 +376,55 @@
       ]
     },
     {
-      "word": "Yield",
-      "phoneticRespelling": "YEELD",
-      "translation": "उपज",
-      "definition": "The income or return on an investment, expressed as a percentage",
-      "definationTranslation": "एक निवेश पर आय या रिटर्न, प्रतिशत के रूप में व्यक्त",
+      "word": "Capital Allocation",
+      "phoneticRespelling": "KAP-i-tul al-oh-KAY-shun",
+      "translation": "पूंजी आवंटन",
+      "definition": "The process of deciding where to put financial resources to maximize profits and efficiency.",
+      "definationTranslation": "लाभ और दक्षता को अधिकतम करने के लिए वित्तीय संसाधनों को कहाँ लगाया जाए, यह तय करने की प्रक्रिया।",
       "sentence": [
         {
-          "sentence": "The bond offers a high yield to attract investors.",
-          "translation": "बॉन्ड निवेशकों को आकर्षित करने के लिए उच्च उपज प्रदान करता है।"
+          "sentence": "Effective capital allocation is a hallmark of a disciplined investment manager.",
+          "translation": "प्रभावी पूंजी आवंटन एक अनुशासित निवेश प्रबंधक की पहचान है।"
         },
         {
-          "sentence": "The yield on the investment is higher than expected.",
-          "translation": "निवेश पर उपज अपेक्षा से अधिक है।"
+          "sentence": "The CEO's strategy focused on capital allocation toward high-growth tech projects.",
+          "translation": "सीईओ की रणनीति उच्च-विकास वाली तकनीकी परियोजनाओं की ओर पूंजी आवंटन पर केंद्रित थी।"
+        }
+      ]
+    },
+    {
+      "word": "Arbitrage",
+      "phoneticRespelling": "AHR-bi-trahzh",
+      "translation": "मध्यस्थता",
+      "definition": "The simultaneous buying and selling of securities, currency, or commodities in different markets to take advantage of differing prices for the same asset.",
+      "definationTranslation": "एक ही संपत्ति के लिए अलग-अलग कीमतों का लाभ उठाने के लिए विभिन्न बाजारों में प्रतिभूतियों, मुद्रा या वस्तुओं की एक साथ खरीद और बिक्री।",
+      "sentence": [
+        {
+          "sentence": "High-frequency traders use sophisticated algorithms to profit from small arbitrage opportunities.",
+          "translation": "हाई-फ़्रीक्वेंसी ट्रेडर्स छोटे मध्यस्थता अवसरों से लाभ कमाने के लिए परिष्कृत एल्गोरिदम का उपयोग करते हैं।"
+        },
+        {
+          "sentence": "Arbitrage helps ensure that prices in different markets do not deviate significantly from each other.",
+          "translation": "मध्यस्थता यह सुनिश्चित करने में मदद करती है कि विभिन्न बाजारों में कीमतें एक-दूसरे से काफी अलग न हों।"
+        }
+      ]
+    },
+    {
+      "word": "Alpha",
+      "phoneticRespelling": "AL-fuh",
+      "translation": "अल्फा (अतिरिक्त रिटर्न)",
+      "definition": "A measure of an investment's performance compared to a benchmark, representing the value added by a manager.",
+      "definationTranslation": "बेंचमार्क की तुलना में निवेश के प्रदर्शन का एक माप, जो प्रबंधक द्वारा जोड़े गए मूल्य का प्रतिनिधित्व करता है।",
+      "sentence": [
+        {
+          "sentence": "The fund manager was praised for consistently generating alpha in a flat market.",
+          "translation": "एक स्थिर बाजार में लगातार अल्फा उत्पन्न करने के लिए फंड मैनेजर की प्रशंसा की गई।"
+        },
+        {
+          "sentence": "In portfolio management, seeking alpha involves identifying undervalued securities.",
+          "translation": "पोर्टफोलियो प्रबंधन में, अल्फा की तलाश में कम मूल्यांकित प्रतिभूतियों की पहचान करना शामिल है।"
         }
       ]
     }
-  ],
-  "_warning": "Requested 25 words but got 23."
+  ]
 }

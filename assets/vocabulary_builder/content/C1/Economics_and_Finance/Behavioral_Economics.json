@@ -1,5 +1,430 @@
 {
-  "error": "Failed to parse JSON",
-  "detail": "Unterminated string starting at: line 386 column 26 (char 24993)",
-  "raw_output": "\"topic\": \"Behavioral Economics\",\n  \"words\": [\n    {\n      \"word\": \"Anchoring\",\n      \"phoneticRespelling\": \"AN-chor-ing\",\n      \"translation\": \"निर्धारण\",\n      \"definition\": \"The tendency to rely too heavily on the first piece of information encountered when making a decision.\",\n      \"definationTranslation\": \"निर्णय लेते समय मिलने वाली पहली जानकारी पर बहुत अधिक निर्भर करने की प्रवृत्ति\",\n      \"sentence\": [\n        {\n          \"sentence\": \"The company used anchoring to make the new price seem "
+  "topic": "Behavioral Economics",
+  "words": [
+    {
+      "word": "Anchoring",
+      "phoneticRespelling": "AN-chor-ing",
+      "translation": "निर्धारण",
+      "definition": "The tendency to rely too heavily on the first piece of information encountered when making a decision.",
+      "definationTranslation": "निर्णय लेते समय मिलने वाली पहली जानकारी पर बहुत अधिक निर्भर करने की प्रवृत्ति",
+      "sentence": [
+        {
+          "sentence": "The company used anchoring to make the new price seem like a bargain compared to the original.",
+          "translation": "कंपनी ने मूल कीमत की तुलना में नई कीमत को एक सस्ते सौदे जैसा दिखाने के लिए 'एंकरिंग' का उपयोग किया।"
+        },
+        {
+          "sentence": "Initial price estimates can act as an anchoring point for future negotiations.",
+          "translation": "प्रारंभिक मूल्य अनुमान भविष्य की बातचीत के लिए एक निर्धारण बिंदु के रूप में कार्य कर सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Heuristic",
+      "phoneticRespelling": "hyoo-RIS-tik",
+      "translation": "अनुमानी",
+      "definition": "A mental shortcut that allows people to solve problems and make judgments quickly and efficiently.",
+      "definationTranslation": "एक मानसिक शॉर्टकट जो लोगों को समस्याओं को हल करने और निर्णय जल्दी लेने की अनुमति देता है।",
+      "sentence": [
+        {
+          "sentence": "The availability heuristic leads people to overestimate the probability of rare events.",
+          "translation": "उपलब्धता अनुमानी लोगों को दुर्लभ घटनाओं की संभावना को कम करने के लिए प्रेरित करती है।"
+        },
+        {
+          "sentence": "Heuristics are useful for quick decisions but can lead to systematic cognitive biases.",
+          "translation": "अनुमानी त्वरित निर्णयों के लिए उपयोगी हैं लेकिन व्यवस्थित संज्ञानात्मक पूर्वाग्रहों का कारण बन सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Loss Aversion",
+      "phoneticRespelling": "LOSS uh-VUR-zhun",
+      "translation": "हानि का डर",
+      "definition": "The psychological phenomenon where the pain of losing is twice as powerful as the joy of gaining.",
+      "definationTranslation": "वह मनोवैज्ञानिक घटना जहाँ खोने का दुख पाने की खुशी से दोगुना शक्तिशाली होता है।",
+      "sentence": [
+        {
+          "sentence": "Loss aversion explains why investors hold onto losing stocks for too long.",
+          "translation": "हानि का डर बताता है कि क्यों निवेशक घाटे वाले शेयरों को बहुत लंबे समय तक रोके रखते हैं।"
+        },
+        {
+          "sentence": "Marketers use loss aversion by framing offers as 'don't miss out' rather than 'gain this'.",
+          "translation": "विपणक प्रस्तावों को 'इसे प्राप्त करें' के बजाय 'इसे न खोएं' के रूप में तैयार करके हानि के डर का उपयोग करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Nudge",
+      "phoneticRespelling": "NUJ",
+      "translation": "प्रोत्साहन",
+      "definition": "A subtle policy shift or environmental change that encourages people to make better decisions.",
+      "definationTranslation": "एक सूक्ष्म नीति परिवर्तन या पर्यावरणीय परिवर्तन जो लोगों को बेहतर निर्णय लेने के लिए प्रोत्साहित करता है।",
+      "sentence": [
+        {
+          "sentence": "Placing fruit at eye level in the cafeteria is a simple nudge for healthy eating.",
+          "translation": "कैफेटेरिया में आंखों के स्तर पर फल रखना स्वस्थ खान-पान के लिए एक सरल प्रोत्साहन है।"
+        },
+        {
+          "sentence": "The government used a nudge by making organ donation the default option.",
+          "translation": "सरकार ने अंग दान को डिफ़ॉल्ट विकल्प बनाकर एक प्रोत्साहन का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Prospect Theory",
+      "phoneticRespelling": "PROS-pekt THEE-uh-ree",
+      "translation": "प्रत्याशा सिद्धांत",
+      "definition": "A theory describing how people choose between probabilistic alternatives that involve risk.",
+      "definationTranslation": "एक सिद्धांत जो बताता है कि लोग जोखिम भरे विकल्पों के बीच कैसे चुनाव करते हैं।",
+      "sentence": [
+        {
+          "sentence": "Prospect theory suggests that people value gains and losses differently.",
+          "translation": "प्रत्याशा सिद्धांत बताता है कि लोग लाभ और हानि को अलग-अलग महत्व देते हैं।"
+        },
+        {
+          "sentence": "This theory won a Nobel Prize for its insights into human decision-making.",
+          "translation": "इस सिद्धांत ने मानव निर्णय लेने की प्रक्रिया में अपनी अंतर्दृष्टि के लिए नोबेल पुरस्कार जीता।"
+        }
+      ]
+    },
+    {
+      "word": "Cognitive Bias",
+      "phoneticRespelling": "KOG-ni-tiv BY-uhs",
+      "translation": "संज्ञानात्मक पूर्वाग्रह",
+      "definition": "A systematic error in thinking that affects the decisions and judgments people make.",
+      "definationTranslation": "सोचने में एक व्यवस्थित त्रुटि जो लोगों द्वारा किए गए निर्णयों और निर्णयों को प्रभावित करती है।",
+      "sentence": [
+        {
+          "sentence": "Confirmation bias is a common cognitive bias where we only seek information that supports our views.",
+          "translation": "पुष्टि पूर्वाग्रह एक सामान्य संज्ञानात्मक पूर्वाग्रह है जहाँ हम केवल वही जानकारी खोजते हैं जो हमारे विचारों का समर्थन करती है।"
+        },
+        {
+          "sentence": "Awareness of cognitive bias can help professionals make more objective choices.",
+          "translation": "संज्ञानात्मक पूर्वाग्रह के बारे में जागरूकता पेशेवरों को अधिक निष्पक्ष चुनाव करने में मदद कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Framing Effect",
+      "phoneticRespelling": "FRAY-ming i-FEKT",
+      "translation": "फ्रेमिंग प्रभाव",
+      "definition": "The way information is presented, which influences how people perceive and process it.",
+      "definationTranslation": "जानकारी प्रस्तुत करने का तरीका, जो प्रभावित करता है कि लोग इसे कैसे देखते और संसाधित करते हैं।",
+      "sentence": [
+        {
+          "sentence": "The framing effect makes '90% fat-free' sound better than '10% fat'.",
+          "translation": "फ्रेमिंग प्रभाव '90% वसा रहित' को '10% वसा' से बेहतर बनाता है।"
+        },
+        {
+          "sentence": "Doctors must be careful of the framing effect when explaining surgery risks.",
+          "translation": "सर्जरी के जोखिमों को समझाते समय डॉक्टरों को फ्रेमिंग प्रभाव के बारे में सावधान रहना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Sunk Cost Fallacy",
+      "phoneticRespelling": "SUNK KOST FAL-uh-see",
+      "translation": "डूबी हुई लागत का भ्रम",
+      "definition": "Continuing a behavior as a result of previously invested resources (time, money, or effort).",
+      "definationTranslation": "पहले निवेश किए गए संसाधनों (समय, पैसा, या प्रयास) के परिणामस्वरूप व्यवहार को जारी रखना।",
+      "sentence": [
+        {
+          "sentence": "Watching a boring movie to the end just because you paid for it is the sunk cost fallacy.",
+          "translation": "केवल इसलिए अंत तक एक उबाऊ फिल्म देखना क्योंकि आपने इसके लिए भुगतान किया है, डूबी हुई लागत का भ्रम है।"
+        },
+        {
+          "sentence": "Businesses often fall into the sunk cost fallacy by funding failing projects.",
+          "translation": "व्यवसाय अक्सर विफल परियोजनाओं को वित्तपोषित करके डूबी हुई लागत के भ्रम में पड़ जाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Altruism",
+      "phoneticRespelling": "AL-troo-iz-um",
+      "translation": "परोपकारिता",
+      "definition": "The belief in or practice of disinterested and selfless concern for the well-being of others.",
+      "definationTranslation": "दूसरों के कल्याण के लिए निस्वार्थ चिंता का विश्वास या अभ्यास।",
+      "sentence": [
+        {
+          "sentence": "Pure altruism is often studied to see if humans ever act without any personal gain.",
+          "translation": "शुद्ध परोपकारिता का अक्सर यह देखने के लिए अध्ययन किया जाता है कि क्या मनुष्य कभी बिना किसी व्यक्तिगत लाभ के कार्य करते हैं।"
+        },
+        {
+          "sentence": "Reciprocal altruism suggests we help others expecting help in return later.",
+          "translation": "पारस्परिक परोपकारिता बताती है कि हम बाद में बदले में मदद की उम्मीद करते हुए दूसरों की मदद करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Bounded Rationality",
+      "phoneticRespelling": "BOUND-ed rash-uh-NAL-i-tee",
+      "translation": "सीमित तर्कसंगतता",
+      "definition": "The idea that decision-making is limited by the information available and the cognitive limitations of the mind.",
+      "definationTranslation": "यह विचार कि निर्णय लेना उपलब्ध जानकारी और मस्तिष्क की संज्ञानात्मक सीमाओं द्वारा सीमित है।",
+      "sentence": [
+        {
+          "sentence": "Bounded rationality explains why we often settle for a 'good enough' choice.",
+          "translation": "सीमित तर्कसंगतता बताती है कि क्यों हम अक्सर 'पर्याप्त अच्छे' विकल्प पर समझौता कर लेते हैं।"
+        },
+        {
+          "sentence": "Humans cannot process all data at once due to bounded rationality.",
+          "translation": "सीमित तर्कसंगतता के कारण मनुष्य एक साथ सभी डेटा को संसाधित नहीं कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Endowment Effect",
+      "phoneticRespelling": "en-DOW-muhnt i-FEKT",
+      "translation": "बंदोबस्ती प्रभाव",
+      "definition": "The tendency for people to value something more highly simply because they own it.",
+      "definationTranslation": "लोगों में किसी चीज़ को केवल इसलिए अधिक महत्व देने की प्रवृत्ति क्योंकि वे उसके मालिक हैं।",
+      "sentence": [
+        {
+          "sentence": "The endowment effect makes selling a used car difficult because the owner overvalues it.",
+          "translation": "बंदोबस्ती प्रभाव पुरानी कार बेचना मुश्किल बना देता है क्योंकि मालिक उसे अधिक महत्व देता है।"
+        },
+        {
+          "sentence": "Free trials exploit the endowment effect to make users feel like they already own the service.",
+          "translation": "नि: शुल्क परीक्षण बंदोबस्ती प्रभाव का फायदा उठाते हैं ताकि उपयोगकर्ताओं को लगे कि वे पहले से ही सेवा के मालिक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Hyperbolic Discounting",
+      "phoneticRespelling": "hy-pur-BOL-ik DIS-kownt-ing",
+      "translation": "अतिशयोक्तिपूर्ण छूट",
+      "definition": "The tendency to prefer smaller-sooner rewards over larger-later rewards.",
+      "definationTranslation": "बड़े-देर से मिलने वाले पुरस्कारों की तुलना में छोटे-जल्दी मिलने वाले पुरस्कारों को प्राथमिकता देने की प्रवृत्ति।",
+      "sentence": [
+        {
+          "sentence": "Hyperbolic discounting explains why people struggle to save money for retirement.",
+          "translation": "अतिशयोक्तिपूर्ण छूट बताती है कि लोग सेवानिवृत्ति के लिए पैसे बचाने में क्यों संघर्ष करते हैं।"
+        },
+        {
+          "sentence": "Choosing a cookie now over a healthy meal later is an example of hyperbolic discounting.",
+          "translation": "बाद में स्वस्थ भोजन के बजाय अभी कुकी चुनना अतिशयोक्तिपूर्ण छूट का एक उदाहरण है।"
+        }
+      ]
+    },
+    {
+      "word": "Choice Overload",
+      "phoneticRespelling": "CHOYS OH-vur-lohd",
+      "translation": "विकल्प अधिभार",
+      "definition": "A cognitive process in which people have a difficult time making a decision when faced with many options.",
+      "definationTranslation": "एक संज्ञानात्मक प्रक्रिया जिसमें लोगों को कई विकल्पों का सामना करने पर निर्णय लेने में कठिनाई होती है।",
+      "sentence": [
+        {
+          "sentence": "Too many flavors of jam can lead to choice overload, resulting in no purchase at all.",
+          "translation": "जैम के बहुत सारे स्वाद विकल्प अधिभार का कारण बन सकते हैं, जिसके परिणामस्वरूप कोई खरीदारी नहीं होती है।"
+        },
+        {
+          "sentence": "Streaming services try to prevent choice overload by using personalized recommendations.",
+          "translation": "स्ट्रीमिंग सेवाएं व्यक्तिगत अनुशंसाओं का उपयोग करके विकल्प अधिभार को रोकने की कोशिश करती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Social Proof",
+      "phoneticRespelling": "SOH-shul PROOF",
+      "translation": "सामाजिक प्रमाण",
+      "definition": "The tendency of people to look to the behavior of others to determine their own actions.",
+      "definationTranslation": "अपने स्वयं के कार्यों को निर्धारित करने के लिए दूसरों के व्यवहार की ओर देखने की लोगों की प्रवृत्ति।",
+      "sentence": [
+        {
+          "sentence": "Long lines outside a restaurant act as social proof that the food is excellent.",
+          "translation": "एक रेस्तरां के बाहर लंबी लाइनें सामाजिक प्रमाण के रूप में कार्य करती हैं कि भोजन उत्कृष्ट है।"
+        },
+        {
+          "sentence": "Testimonials on a website are a powerful form of social proof for SpeakEZ AI.",
+          "translation": "वेबसाइट पर प्रशंसापत्र SpeakEZ AI के लिए सामाजिक प्रमाण का एक शक्तिशाली रूप हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Status Quo Bias",
+      "phoneticRespelling": "STAY-tus KWOH BY-uhs",
+      "translation": "यथास्थिति पूर्वाग्रह",
+      "definition": "An emotional bias; a preference for the current state of affairs.",
+      "definationTranslation": "एक भावनात्मक पूर्वाग्रह; मामलों की वर्तमान स्थिति के लिए प्राथमिकता।",
+      "sentence": [
+        {
+          "sentence": "Most people stick with their default insurance plan due to status quo bias.",
+          "translation": "ज्यादातर लोग यथास्थिति पूर्वाग्रह के कारण अपनी डिफ़ॉल्ट बीमा योजना के साथ बने रहते हैं।"
+        },
+        {
+          "sentence": "Overcoming status quo bias is essential for successful innovation in tech.",
+          "translation": "तकनीक में सफल नवाचार के लिए यथास्थिति पूर्वाग्रह पर काबू पाना आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Reciprocity",
+      "phoneticRespelling": "res-uh-PROS-i-tee",
+      "translation": "पारस्परिकता",
+      "definition": "A social norm of responding to a positive action with another positive action.",
+      "definationTranslation": "एक सकारात्मक कार्य का दूसरे सकारात्मक कार्य के साथ उत्तर देने का एक सामाजिक मानदंड।",
+      "sentence": [
+        {
+          "sentence": "Giving a free sample creates a sense of reciprocity that encourages customers to buy.",
+          "translation": "मुफ्त नमूना देना पारस्परिकता की भावना पैदा करता है जो ग्राहकों को खरीदने के लिए प्रोत्साहित करता है।"
+        },
+        {
+          "sentence": "Reciprocity is a key factor in building long-term professional relationships.",
+          "translation": "दीर्घकालिक व्यावसायिक संबंध बनाने में पारस्परिकता एक प्रमुख कारक है।"
+        }
+      ]
+    },
+    {
+      "word": "Availability Bias",
+      "phoneticRespelling": "uh-VAY-luh-BIL-i-tee BY-uhs",
+      "translation": "उपलब्धता पूर्वाग्रह",
+      "definition": "Judging the frequency of an event based on how easily examples come to mind.",
+      "definationTranslation": "किसी घटना की आवृत्ति को इस आधार पर आंकना कि उदाहरण कितनी आसानी से दिमाग में आते हैं।",
+      "sentence": [
+        {
+          "sentence": "Media coverage of shark attacks causes availability bias, making them seem more common than they are.",
+          "translation": "शार्क के हमलों की मीडिया कवरेज उपलब्धता पूर्वाग्रह का कारण बनती है, जिससे वे वास्तव में जितने हैं उससे अधिक सामान्य लगते हैं।"
+        },
+        {
+          "sentence": "Availability bias can distort a manager's perception of employee performance.",
+          "translation": "उपलब्धता पूर्वाग्रह कर्मचारी के प्रदर्शन के बारे में प्रबंधक की धारणा को बिगाड़ सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Mental Accounting",
+      "phoneticRespelling": "MEN-tul uh-KOUNT-ing",
+      "translation": "मानसिक लेखांकन",
+      "definition": "The tendency of people to categorize their money into different 'accounts' based on its source or intent.",
+      "definationTranslation": "लोगों की अपने पैसे को उसके स्रोत या इरादे के आधार पर अलग-अलग 'खातों' में वर्गीकृत करने की प्रवृत्ति।",
+      "sentence": [
+        {
+          "sentence": "Mental accounting explains why people spend tax refunds more freely than monthly salary.",
+          "translation": "मानसिक लेखांकन बताता है कि क्यों लोग मासिक वेतन की तुलना में टैक्स रिफंड अधिक स्वतंत्र रूप से खर्च करते हैं।"
+        },
+        {
+          "sentence": "Separating 'vacation money' from 'rent money' is a form of mental accounting.",
+          "translation": "'छुट्टी के पैसे' को 'किराये के पैसे' से अलग करना मानसिक लेखांकन का एक रूप है।"
+        }
+      ]
+    },
+    {
+      "word": "Optimism Bias",
+      "phoneticRespelling": "OP-tuh-miz-um BY-uhs",
+      "translation": "आशावाद पूर्वाग्रह",
+      "definition": "The belief that one is less likely to experience a negative event compared to others.",
+      "definationTranslation": "यह विश्वास कि दूसरों की तुलना में किसी के साथ नकारात्मक घटना होने की संभावना कम है।",
+      "sentence": [
+        {
+          "sentence": "Optimism bias leads many entrepreneurs to underestimate the risks of starting a business.",
+          "translation": "आशावाद पूर्वाग्रह कई उद्यमियों को व्यवसाय शुरू करने के जोखिमों को कम आंकने के लिए प्रेरित करता है।"
+        },
+        {
+          "sentence": "While healthy for morale, optimism bias can lead to poor financial planning.",
+          "translation": "मनोबल के लिए स्वस्थ होने के बावजूद, आशावाद पूर्वाग्रह खराब वित्तीय योजना का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Self-Serving Bias",
+      "phoneticRespelling": "SELF-SUR-ving BY-uhs",
+      "translation": "स्व-सेवारत पूर्वाग्रह",
+      "definition": "Attributing positive events to one's own character but negative events to external factors.",
+      "definationTranslation": "सकारात्मक घटनाओं को अपने चरित्र के लिए जिम्मेदार ठहराना लेकिन नकारात्मक घटनाओं को बाहरी कारकों के लिए।",
+      "sentence": [
+        {
+          "sentence": "A student who blames a bad grade on a 'unfair test' is exhibiting self-serving bias.",
+          "translation": "एक छात्र जो खराब ग्रेड के लिए 'अनुचित परीक्षा' को जिम्मेदार ठहराता है, वह स्व-सेवारत पूर्वाग्रह प्रदर्शित कर रहा है।"
+        },
+        {
+          "sentence": "Self-serving bias helps protect our self-esteem but can prevent personal growth.",
+          "translation": "स्व-सेवारत पूर्वाग्रह हमारे आत्म-सम्मान की रक्षा करने में मदद करता है लेकिन व्यक्तिगत विकास को रोक सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Incentive",
+      "phoneticRespelling": "in-SEN-tiv",
+      "translation": "प्रोत्साहन",
+      "definition": "Something that motivates or encourages an individual to perform an action.",
+      "definationTranslation": "कुछ ऐसा जो किसी व्यक्ति को कार्य करने के लिए प्रेरित या प्रोत्साहित करता है।",
+      "sentence": [
+        {
+          "sentence": "Cash bonuses are a common financial incentive used to increase productivity.",
+          "translation": "नकद बोनस उत्पादकता बढ़ाने के लिए उपयोग किया जाने वाला एक सामान्य वित्तीय प्रोत्साहन है।"
+        },
+        {
+          "sentence": "Incentives must be carefully aligned with company goals to avoid unintended behavior.",
+          "translation": "अनपेक्षित व्यवहार से बचने के लिए प्रोत्साहनों को कंपनी के लक्ष्यों के साथ सावधानीपूर्वक संरेखित किया जाना चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Game Theory",
+      "phoneticRespelling": "GAYM THEE-uh-ree",
+      "translation": "गेम थ्योरी",
+      "definition": "The study of mathematical models of strategic interaction among rational decision-makers.",
+      "definationTranslation": "तर्कसंगत निर्णय लेने वालों के बीच रणनीतिक बातचीत के गणितीय मॉडल का अध्ययन।",
+      "sentence": [
+        {
+          "sentence": "Game theory is used to predict how competitors will react to a price change.",
+          "translation": "गेम थ्योरी का उपयोग यह अनुमान लगाने के लिए किया जाता है कि प्रतिस्पर्धी मूल्य परिवर्तन पर कैसे प्रतिक्रिया देंगे।"
+        },
+        {
+          "sentence": "The prisoner's dilemma is one of the most famous examples in game theory.",
+          "translation": "कैदी की दुविधा गेम थ्योरी के सबसे प्रसिद्ध उदाहरणों में से एक है।"
+        }
+      ]
+    },
+    {
+      "word": "Market Sentiment",
+      "phoneticRespelling": "MAR-kit SEN-tuh-muhnt",
+      "translation": "बाजार की धारणा",
+      "definition": "The overall attitude of investors toward a particular security or financial market.",
+      "definationTranslation": "किसी विशेष सुरक्षा या वित्तीय बाजार के प्रति निवेशकों का समग्र दृष्टिकोण।",
+      "sentence": [
+        {
+          "sentence": "Bullish market sentiment drives stock prices higher as investors remain optimistic.",
+          "translation": "तेजी की बाजार धारणा शेयर की कीमतों को ऊपर ले जाती है क्योंकि निवेशक आशावादी बने रहते हैं।"
+        },
+        {
+          "sentence": "Panic selling is usually the result of extremely negative market sentiment.",
+          "translation": "घबराहट में बिक्री आमतौर पर बेहद नकारात्मक बाजार धारणा का परिणाम होती।"
+        }
+      ]
+    },
+    {
+      "word": "Information Asymmetry",
+      "phoneticRespelling": "in-fur-MAY-shun ay-SIM-i-tree",
+      "translation": "सूचना विषमता",
+      "definition": "A situation where one party in a transaction has more or superior information than the other.",
+      "definationTranslation": "ऐसी स्थिति जहाँ लेन-देन में एक पक्ष के पास दूसरे की तुलना में अधिक या बेहतर जानकारी होती है।",
+      "sentence": [
+        {
+          "sentence": "The used car market is a classic example of information asymmetry between sellers and buyers.",
+          "translation": "पुरानी कार का बाजार विक्रेताओं और खरीदारों के बीच सूचना विषमता का एक उत्कृष्ट उदाहरण है।"
+        },
+        {
+          "sentence": "Regulations often aim to reduce information asymmetry to protect consumers.",
+          "translation": "विनियमों का उद्देश्य अक्सर उपभोक्ताओं की रक्षा के लिए सूचना विषमता को कम करना होता है।"
+        }
+      ]
+    },
+    {
+      "word": "Dunning-Kruger Effect",
+      "phoneticRespelling": "DUN-ing KROO-gur i-FEKT",
+      "translation": "डनिंग-क्रूगर प्रभाव",
+      "definition": "A cognitive bias where people with low ability at a task overestimate their ability.",
+      "definationTranslation": "एक संज्ञानात्मक पूर्वाग्रह जहाँ किसी कार्य में कम क्षमता वाले लोग अपनी क्षमता को अधिक आंकते हैं।",
+      "sentence": [
+        {
+          "sentence": "The Dunning-Kruger effect explains why beginners sometimes feel like experts after only one lesson.",
+          "translation": "डनिंग-क्रूगर प्रभाव बताता है कि क्यों शुरुआती लोग कभी-कभी केवल एक पाठ के बाद विशेषज्ञ जैसा महसूस करते हैं।"
+        },
+        {
+          "sentence": "The Dunning-Kruger effect can lead to overconfidence in complex decision-making.",
+          "translation": "डनिंग-क्रूगर प्रभाव जटिल निर्णय लेने में अत्यधिक आत्मविश्वास पैदा कर सकता है।"
+        }
+      ]
+    }
+  ]
 }

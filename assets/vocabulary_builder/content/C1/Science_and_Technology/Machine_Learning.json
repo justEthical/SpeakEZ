@@ -374,6 +374,57 @@
           "translation": "Dristikon data vishleshan aur machine learning ka ek mahatvapoorn bhag hai."
         }
       ]
+    },
+    {
+      "word": "Weights",
+      "phoneticRespelling": "WAYTS",
+      "translation": "भार / वेट्स",
+      "definition": "Parameters within a neural network that determine the strength of the connection between neurons",
+      "definationTranslation": "न्यूरल नेटवर्क के भीतर के पैरामीटर जो न्यूरॉन्स के बीच संबंध की मजबूती निर्धारित करते हैं",
+      "sentence": [
+        {
+          "sentence": "The model's weights are adjusted during the training process to minimize error.",
+          "translation": "त्रुटि को कम करने के लिए प्रशिक्षण प्रक्रिया के दौरान मॉडल के भार (weights) को समायोजित किया जाता है।"
+        },
+        {
+          "sentence": "Downloading the pre-trained weights allowed us to use the model immediately.",
+          "translation": "प्री-प्रशिक्षित वेट्स डाउनलोड करने से हमें मॉडल का तुरंत उपयोग करने की अनुमति मिली।"
+        }
+      ]
+    },
+    {
+      "word": "Overfitting",
+      "phoneticRespelling": "OH-vur-fit-ing",
+      "translation": "ओवरफिटिंग",
+      "definition": "A modeling error that occurs when a function is too closely aligned to a limited set of data points",
+      "definationTranslation": "एक मॉडलिंग त्रुटि जो तब होती है जब कोई फंक्शन डेटा के सीमित सेट के बहुत करीब से संरेखित होता है",
+      "sentence": [
+        {
+          "sentence": "Overfitting causes the model to perform well on training data but poorly on new data.",
+          "translation": "ओवरफिटिंग के कारण मॉडल प्रशिक्षण डेटा पर तो अच्छा प्रदर्शन करता है लेकिन नए डेटा पर खराब।"
+        },
+        {
+          "sentence": "We used regularization techniques to prevent overfitting in our neural network.",
+          "translation": "हमने अपने न्यूरल नेटवर्क में ओवरफिटिंग को रोकने के लिए रेगुलेराइज़ेशन तकनीकों का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Bias",
+      "phoneticRespelling": "BY-uss",
+      "translation": "पूर्वाग्रह / बायस",
+      "definition": "An error introduced by approximating a real-life problem with a simplified model",
+      "definationTranslation": "एक सरलीकृत मॉडल के साथ वास्तविक जीवन की समस्या का अनुमान लगाने से उत्पन्न त्रुटि",
+      "sentence": [
+        {
+          "sentence": "It is important to ensure that the training data does not contain any social bias.",
+          "translation": "यह सुनिश्चित करना महत्वपूर्ण है कि प्रशिक्षण डेटा में कोई सामाजिक पूर्वाग्रह (bias) न हो।"
+        },
+        {
+          "sentence": "The algorithm's bias led to incorrect predictions for certain groups of people.",
+          "translation": "एल्गोरिदम के पूर्वाग्रह के कारण लोगों के कुछ समूहों के लिए गलत भविष्यवाणियां हुईं।"
+        }
+      ]
     }
   ]
 }

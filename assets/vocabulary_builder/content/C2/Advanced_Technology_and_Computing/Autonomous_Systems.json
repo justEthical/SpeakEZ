@@ -1,1 +1,362 @@
-{}
+{
+  "topic": "Autonomous Systems",
+  "words": [
+    {
+      "word": "Artificial",
+      "phoneticRespelling": "AR-ti-fish-ul",
+      "translation": "कृत्रिम",
+      "definition": "Made or produced by humans, especially using technology",
+      "definationTranslation": "मानवों द्वारा बनाया या उत्पादित, विशेष रूप से प्रौद्योगिकी का उपयोग करके",
+      "sentence": [
+        {
+          "sentence": "Artificial intelligence is used in autonomous vehicles.",
+          "translation": "स्वायत्त वाहनों में कृत्रिम बुद्धिमत्ता का उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The company is developing artificial muscles for robots.",
+          "translation": "कंपनी रोबोट के लिए कृत्रिम मांसपेशियों का विकास कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Autonomy",
+      "phoneticRespelling": "AW-toh-nee",
+      "translation": "स्वायत्तता",
+      "definition": "The ability of a system or vehicle to operate independently",
+      "definationTranslation": "किसी प्रणाली या वाहन की स्वतंत्र रूप से कार्य करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company is working on developing autonomy in its drones.",
+          "translation": "कंपनी अपने ड्रोन में स्वायत्तता विकसित करने पर काम कर रही है।"
+        },
+        {
+          "sentence": "Autonomy is a key feature of self-driving cars.",
+          "translation": "स्वायत्तता स्व-ड्राइविंग कारों की एक प्रमुख विशेषता है।"
+        }
+      ]
+    },
+    {
+      "word": "Robotics",
+      "phoneticRespelling": "ROH-bot-iks",
+      "translation": "रोबोटिक्स",
+      "definition": "The branch of engineering that deals with the design and operation of robots",
+      "definationTranslation": "इंजीनियरिंग की वह शाखा जो रोबोटों के डिजाइन और संचालन से संबंधित है",
+      "sentence": [
+        {
+          "sentence": "Robotics is a rapidly growing field with many applications.",
+          "translation": "रोबोटिक्स एक तेजी से बढ़ता क्षेत्र है जिसमें कई अनुप्रयोग हैं।"
+        },
+        {
+          "sentence": "The university offers a degree in robotics and artificial intelligence.",
+          "translation": "विश्वविद्यालय रोबोटिक्स और कृत्रिम बुद्धिमत्ता में एक डिग्री प्रदान करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Sensors",
+      "phoneticRespelling": "SEN-serz",
+      "translation": "सेंसर",
+      "definition": "Devices that detect and respond to physical parameters",
+      "definationTranslation": "उपकरण जो भौतिक मापदंडों का पता लगाते हैं और प्रतिक्रिया करते हैं",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses sensors to detect obstacles.",
+          "translation": "स्वायत्त वाहन बाधाओं का पता लगाने के लिए सेंसर का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot is equipped with sensors to navigate through the warehouse.",
+          "translation": "रोबोट गोदाम के माध्यम से नेविगेट करने के लिए सेंसर से सुसज्जित है।"
+        }
+      ]
+    },
+    {
+      "word": "Navigation",
+      "phoneticRespelling": "NA-vi-GAY-shun",
+      "translation": "नेविगेशन",
+      "definition": "The process of planning and controlling the movement of a vehicle or robot",
+      "definationTranslation": "किसी वाहन या रोबोट की गति की योजना बनाने और नियंत्रित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The navigation system of the autonomous vehicle uses GPS and sensors.",
+          "translation": "स्वायत्त वाहन की नेविगेशन प्रणाली जीपीएस और सेंसर का उपयोग करती है।"
+        },
+        {
+          "sentence": "The robot's navigation algorithm allows it to avoid obstacles.",
+          "translation": "रोबोट का नेविगेशन एल्गोरिदम इसे बाधाओं से बचने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Machine",
+      "phoneticRespelling": "MASH-een",
+      "translation": "मशीन",
+      "definition": "A device that is used to perform a specific task",
+      "definationTranslation": "एक उपकरण जो एक विशिष्ट कार्य करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The machine learning algorithm is used in autonomous systems.",
+          "translation": "स्वायत्त प्रणालियों में मशीन लर्निंग एल्गोरिदम का उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The robot is a complex machine that can perform multiple tasks.",
+          "translation": "रोबोट एक जटिल मशीन है जो कई कार्य कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Learning",
+      "phoneticRespelling": "LUR-ning",
+      "translation": "सीखना",
+      "definition": "The process of acquiring new knowledge or skills",
+      "definationTranslation": "नई ज्ञान या कौशल प्राप्त करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses machine learning to improve its navigation.",
+          "translation": "स्वायत्त वाहन अपनी नेविगेशन में सुधार करने के लिए मशीन लर्निंग का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot's learning algorithm allows it to adapt to new situations.",
+          "translation": "रोबोट का लर्निंग एल्गोरिदम इसे नई स्थितियों के अनुकूल बनाने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Control",
+      "phoneticRespelling": "KUN-trohl",
+      "translation": "नियंत्रण",
+      "definition": "The ability to direct or regulate the behavior of a system or vehicle",
+      "definationTranslation": "किसी प्रणाली या वाहन के व्यवहार को निर्देशित या नियंत्रित करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The control system of the autonomous vehicle uses sensors and algorithms.",
+          "translation": "स्वायत्त वाहन की नियंत्रण प्रणाली सेंसर और एल्गोरिदम का उपयोग करती है।"
+        },
+        {
+          "sentence": "The robot's control algorithm allows it to move accurately and efficiently.",
+          "translation": "रोबोट का नियंत्रण एल्गोरिदम इसे सटीकता से और कुशलता से चलने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "phoneticRespelling": "SIH-stem",
+      "translation": "प्रणाली",
+      "definition": "A set of connected components that work together to achieve a common goal",
+      "definationTranslation": "संबंधित घटकों का एक सेट जो एक सामान्य लक्ष्य को प्राप्त करने के लिए एक साथ काम करता है",
+      "sentence": [
+        {
+          "sentence": "The autonomous system uses a combination of sensors and algorithms to navigate.",
+          "translation": "स्वायत्त प्रणाली नेविगेट करने के लिए सेंसर और एल्गोरिदम का संयोजन करती है।"
+        },
+        {
+          "sentence": "The robot is part of a larger system that includes multiple components.",
+          "translation": "रोबोट एक बड़े प्रणाली का हिस्सा है जिसमें कई घटक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-rih-thuhm",
+      "translation": "एल्गोरिदम",
+      "definition": "A set of instructions that is used to solve a specific problem",
+      "definationTranslation": "एक निर्देशों का सेट जो एक विशिष्ट समस्या को हल करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses a complex algorithm to navigate through traffic.",
+          "translation": "स्वायत्त वाहन यातायात के माध्यम से नेविगेट करने के लिए एक जटिल एल्गोरिदम का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot's algorithm allows it to learn from its experiences.",
+          "translation": "रोबोट का एल्गोरिदम इसे अपने अनुभवों से सीखने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Neural",
+      "phoneticRespelling": "NOOR-ul",
+      "translation": "न्यूरल",
+      "definition": "Relating to the nervous system or artificial neural networks",
+      "definationTranslation": "तंत्रिका तंत्र या कृत्रिम न्यूरल नेटवर्क से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The neural network is used in autonomous systems to recognize patterns.",
+          "translation": "स्वायत्त प्रणालियों में पैटर्न को पहचानने के लिए न्यूरल नेटवर्क का उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The robot's neural algorithm allows it to learn from its experiences.",
+          "translation": "रोबोट का न्यूरल एल्गोरिदम इसे अपने अनुभवों से सीखने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A system of connected components that communicate with each other",
+      "definationTranslation": "संबंधित घटकों का एक सेट जो एक दूसरे के साथ संवाद करते हैं",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses a neural network to recognize objects.",
+          "translation": "स्वायत्त वाहन वस्तुओं को पहचानने के लिए एक न्यूरल नेटवर्क का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot is connected to a network of other robots and systems.",
+          "translation": "रोबोट अन्य रोबोट और प्रणालियों के एक नेटवर्क से जुड़ा हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "Computer",
+      "phoneticRespelling": "KOM-pyoo-ter",
+      "translation": "कंप्यूटर",
+      "definition": "An electronic device that can store and process data",
+      "definationTranslation": "एक इलेक्ट्रॉनिक उपकरण जो डेटा को स्टोर और प्रोसेस कर सकता है",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses a computer to control its movements.",
+          "translation": "स्वायत्त वाहन अपने आंदोलनों को नियंत्रित करने के लिए एक कंप्यूटर का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot's computer system allows it to learn from its experiences.",
+          "translation": "रोबोट की कंप्यूटर प्रणाली इसे अपने अनुभवों से सीखने की अनुमति देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Software",
+      "phoneticRespelling": "SOHFT-wair",
+      "translation": "सॉफ्टवेयर",
+      "definition": "A set of instructions that is used to operate a computer or other electronic device",
+      "definationTranslation": "एक निर्देशों का सेट जो कंप्यूटर या अन्य इलेक्ट्रॉनिक उपकरण को संचालित करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses software to control its movements and navigate.",
+          "translation": "स्वायत्त वाहन अपने आंदोलनों और नेविगेट करने के लिए सॉफ्टवेयर का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot's software system allows it to interact with its environment.",
+          "translation": "रोबोट की सॉफ्टवेयर प्रणाली इसे अपने पर्यावरण के साथ बातचीत करने की अनुमति देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Hardware",
+      "phoneticRespelling": "HARD-wair",
+      "translation": "हार्डवेयर",
+      "definition": "The physical components of a computer or other electronic device",
+      "definationTranslation": "कंप्यूटर या अन्य इलेक्ट्रॉनिक उपकरण के भौतिक घटक",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle's hardware includes sensors and cameras.",
+          "translation": "स्वायत्त वाहन के हार्डवेयर में सेंसर और कैमरे शामिल हैं।"
+        },
+        {
+          "sentence": "The robot's hardware is designed to withstand rough handling.",
+          "translation": "रोबोट का हार्डवेयर कठोर xử lý को सहन करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tah",
+      "translation": "डेटा",
+      "definition": "Facts and statistics collected together for reference or analysis",
+      "definationTranslation": "संदर्भ या विश्लेषण के लिए एक साथ संग्रहीत तथ्य और आंकड़े",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle collects data on its surroundings.",
+          "translation": "स्वायत्त वाहन अपने आसपास के वातावरण पर डेटा एकत्र करता है।"
+        },
+        {
+          "sentence": "The robot's data is used to improve its performance and accuracy.",
+          "translation": "रोबोट का डेटा इसके प्रदर्शन और सटीकता में सुधार करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Communication",
+      "phoneticRespelling": "kuh-MYOO-ni-KAY-shun",
+      "translation": "संचार",
+      "definition": "The process of exchanging information or ideas",
+      "definationTranslation": "सूचना या विचारों का आदान-प्रदान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle uses communication to interact with other vehicles.",
+          "translation": "स्वायत्त वाहन अन्य वाहनों के साथ बातचीत करने के लिए संचार का उपयोग करता है।"
+        },
+        {
+          "sentence": "The robot's communication system allows it to receive commands and send data.",
+          "translation": "रोबोट की संचार प्रणाली इसे कमांड प्राप्त करने और डेटा भेजने की अनुमति देती है।"
+        }
+      ]
+    },
+    {
+      "word": "Interface",
+      "phoneticRespelling": "IN-tur-FAYSS",
+      "translation": "इंटरफ़ेस",
+      "definition": "A point of interaction between two or more systems or devices",
+      "definationTranslation": "दो या अधिक प्रणालियों या उपकरणों के बीच परस्पर क्रिया का बिंदु",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle's interface allows users to input commands.",
+          "translation": "स्वायत्त वाहन का इंटरफ़ेस उपयोगकर्ताओं को कमांड इनपुट करने की अनुमति देता है।"
+        },
+        {
+          "sentence": "The robot's interface is designed to be user-friendly and intuitive.",
+          "translation": "रोबोट का इंटरफ़ेस उपयोगकर्ता-मित्री और सहज ज्ञान युक्त होने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Simulation",
+      "phoneticRespelling": "sih-myoo-LAY-shun",
+      "translation": "सिमुलेशन",
+      "definition": "A computer model or program that mimics a real-world system or process",
+      "definationTranslation": "एक कंप्यूटर मॉडल या प्रोग्राम जो एक वास्तविक दुनिया की प्रणाली या प्रक्रिया की नकल करता है",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle's simulation is used to test its navigation system.",
+          "translation": "स्वायत्त वाहन का सिमुलेशन अपने नेविगेशन सिस्टम का परीक्षण करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The robot's simulation allows it to practice and improve its movements.",
+          "translation": "रोबोट का सिमुलेशन इसे अभ्यास करने और अपने आंदोलनों में सुधार करने की अनुमति देता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cybernetics",
+      "phoneticRespelling": "sy-bur-NET-iks",
+      "translation": "साइबरनेटिक्स",
+      "definition": "The study of control and communication in machines and living beings",
+      "definationTranslation": "मशीनों और जीवित प्राणियों में नियंत्रण और संचार का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The field of cybernetics is related to autonomous systems and robotics.",
+          "translation": "साइबरनेटिक्स का क्षेत्र स्वायत्त प्रणालियों और रोबोटिक्स से संबंधित है।"
+        },
+        {
+          "sentence": "The study of cybernetics is used to develop more efficient and intelligent machines.",
+          "translation": "साइबरनेटिक्स का अध्ययन अधिक कुशल और बुद्धिमान मशीनों को विकसित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Intelligent",
+      "phoneticRespelling": "in-Teh-LIH-jent",
+      "translation": "बुद्धिमान",
+      "definition": "Having the ability to learn, reason, and adapt to new situations",
+      "definationTranslation": "नई स्थितियों में सीखने, तर्क करने और अनुकूलन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle is an example of an intelligent system.",
+          "translation": "स्वायत्त वाहन एक बुद्धिमान प्रणाली का एक उदाहरण है।"
+        },
+        {
+          "sentence": "The robot's intelligent algorithm allows it to make decisions and learn from its experiences.",
+          "translation": "रोबोट का बुद्धिमान एल्गोरिदम इसे निर्णय लेने और अपने अनुभवों से सीखने की अनुमति देता है।"
+        }
+      ]
+    }
+  ]
+}

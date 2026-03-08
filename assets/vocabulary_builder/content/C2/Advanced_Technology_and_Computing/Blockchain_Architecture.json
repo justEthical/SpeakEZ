@@ -1,1 +1,430 @@
-{}
+{
+  "topic": "Blockchain Architecture",
+  "words": [
+    {
+      "word": "Blockchain",
+      "phoneticRespelling": "BLOK-chayn",
+      "translation": "ब्लॉकचेन",
+      "definition": "A decentralized, digital ledger that records transactions across a network of computers",
+      "definationTranslation": "एक विकेन्द्रीकृत, डिजिटल लेजर जो कंप्यूटरों के नेटवर्क भर में लेनदेन को रिकॉर्ड करता है",
+      "sentence": [
+        {
+          "sentence": "The company uses blockchain technology to secure its transactions.",
+          "translation": "कंपनी अपने लेनदेन को सुरक्षित करने के लिए ब्लॉकचेन तकनीक का उपयोग करती है।"
+        },
+        {
+          "sentence": "Blockchain is a key component of the cryptocurrency ecosystem.",
+          "translation": "ब्लॉकचेन क्रिप्टोक्यूरेंसी इकोसिस्टम का एक मुख्य घटक है।"
+        }
+      ]
+    },
+    {
+      "word": "Decentralized",
+      "phoneticRespelling": "dee-SHEN-trul-ized",
+      "translation": "विकेन्द्रीकृत",
+      "definition": "Not controlled by a single entity or authority",
+      "definationTranslation": "एकल इकाई या प्राधिकरण द्वारा नियंत्रित नहीं",
+      "sentence": [
+        {
+          "sentence": "The decentralized nature of the internet makes it difficult to regulate.",
+          "translation": "इंटरनेट की विकेन्द्रीकृत प्रकृति इसे नियंत्रित करना मुश्किल बनाती है।"
+        },
+        {
+          "sentence": "Decentralized systems are more resilient to failures.",
+          "translation": "विकेन्द्रीकृत प्रणाली विफलताओं के लिए अधिक लचीली हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A group of computers connected together to share resources",
+      "definationTranslation": "संसाधनों को साझा करने के लिए एक साथ जुड़े कंप्यूटरों का समूह",
+      "sentence": [
+        {
+          "sentence": "The company's network was hacked by a group of cybercriminals.",
+          "translation": "कंपनी के नेटवर्क को साइबर अपराधियों के एक समूह द्वारा हैक किया गया था।"
+        },
+        {
+          "sentence": "The network is used to transfer data between devices.",
+          "translation": "नेटवर्क डिवाइसों के बीच डेटा ट्रांसफर करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Transaction",
+      "phoneticRespelling": "tranz-AK-shun",
+      "translation": "लेनदेन",
+      "definition": "The act of buying or selling something",
+      "definationTranslation": "कुछ खरीदने या बेचने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The transaction was completed successfully.",
+          "translation": "लेनदेन सफलतापूर्वक पूरा हो गया।"
+        },
+        {
+          "sentence": "The company recorded a large transaction yesterday.",
+          "translation": "कंपनी ने कल एक बड़ा लेनदेन दर्ज किया।"
+        }
+      ]
+    },
+    {
+      "word": "Cryptocurrency",
+      "phoneticRespelling": "KRIP-toh-kur-uhn-see",
+      "translation": "क्रिप्टोकरेंसी",
+      "definition": "A digital or virtual currency that uses cryptography for security",
+      "definationTranslation": "एक डिजिटल या वर्चुअल मुद्रा जो सुरक्षा के लिए क्रिप्टोग्राफी का उपयोग करती है",
+      "sentence": [
+        {
+          "sentence": "Bitcoin is a popular cryptocurrency.",
+          "translation": "बिटकॉइन एक लोकप्रिय क्रिप्टोकरेंसी है।"
+        },
+        {
+          "sentence": "The company invests in cryptocurrency.",
+          "translation": "कंपनी क्रिप्टोकरेंसी में निवेश करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Ecosystem",
+      "phoneticRespelling": "EH-koh-sis-tuhm",
+      "translation": "पर्यावरण प्रणाली",
+      "definition": "A community of living and non-living things that interact with each other",
+      "definationTranslation": "एक दूसरे के साथ बातचीत करने वाली जीवित और निर्जीव चीजों का एक समुदाय",
+      "sentence": [
+        {
+          "sentence": "The ecosystem of the forest is delicate.",
+          "translation": "वन की पारिस्थितिक प्रणाली नाजुक है।"
+        },
+        {
+          "sentence": "The company is part of the cryptocurrency ecosystem.",
+          "translation": "कंपनी क्रिप्टोकरेंसी पारिस्थितिक प्रणाली का हिस्सा है।"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "sih-KYOO-rih-tee",
+      "translation": "सुरक्षा",
+      "definition": "The state of being free from danger or threat",
+      "definationTranslation": "खतरे या धमकी से मुक्त होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company's security measures are robust.",
+          "translation": "कंपनी के सुरक्षा उपाय मजबूत हैं।"
+        },
+        {
+          "sentence": "The security of the network is a top priority.",
+          "translation": "नेटवर्क की सुरक्षा शीर्ष प्राथमिकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cryptography",
+      "phoneticRespelling": "krih-TOG-ruh-fee",
+      "translation": "क्रिप्टोग्राफी",
+      "definition": "The practice of secure communication by transforming plaintext into unreadable text",
+      "definationTranslation": "अपठित पाठ में मूल पाठ को परिवर्तित करके सुरक्षित संचार का अभ्यास",
+      "sentence": [
+        {
+          "sentence": "Cryptography is used to protect sensitive information.",
+          "translation": "संवेदनशील जानकारी की रक्षा के लिए क्रिप्टोग्राफी का उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The company uses cryptography to secure its data.",
+          "translation": "कंपनी अपने डेटा को सुरक्षित करने के लिए क्रिप्टोग्राफी का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Node",
+      "phoneticRespelling": "NOHD",
+      "translation": "नोड",
+      "definition": "A point in a network where data is processed or transmitted",
+      "definationTranslation": "एक नेटवर्क में एक बिंदु जहां डेटा संसाधित या प्रेषित किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The node is responsible for verifying transactions.",
+          "translation": "नोड लेनदेन को सत्यापित करने के लिए जिम्मेदार है।"
+        },
+        {
+          "sentence": "The company has a large network of nodes.",
+          "translation": "कंपनी के पास नोड्स का एक बड़ा नेटवर्क है।"
+        }
+      ]
+    },
+    {
+      "word": "Mining",
+      "phoneticRespelling": "MAH-ning",
+      "translation": "माइनिंग",
+      "definition": "The process of validating transactions and adding them to a blockchain",
+      "definationTranslation": "लेनदेन को वaid करने और उन्हें एक ब्लॉकचेन में जोड़ने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Mining is a crucial part of the blockchain ecosystem.",
+          "translation": "माइनिंग ब्लॉकचेन पारिस्थितिक प्रणाली का एक महत्वपूर्ण हिस्सा है।"
+        },
+        {
+          "sentence": "The company invests in mining equipment.",
+          "translation": "कंपनी माइनिंग उपकरण में निवेश करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Wallet",
+      "phoneticRespelling": "WAH-lit",
+      "translation": "वॉलेट",
+      "definition": "A software program that stores, sends, and receives digital currency",
+      "definationTranslation": "एक सॉफ्टवेयर प्रोग्राम जो डिजिटल मुद्रा को संग्रहीत, भेजता और प्राप्त करता है",
+      "sentence": [
+        {
+          "sentence": "The user downloaded a digital wallet to store their cryptocurrency.",
+          "translation": "उपयोगकर्ता ने अपनी क्रिप्टोकरेंसी को संग्रहीत करने के लिए एक डिजिटल वॉलेट डाउनलोड किया।"
+        },
+        {
+          "sentence": "The company offers a secure wallet for its customers.",
+          "translation": "कंपनी अपने ग्राहकों के लिए एक सुरक्षित वॉलेट प्रदान करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Private",
+      "phoneticRespelling": "PRY-vayt",
+      "translation": "निजी",
+      "definition": "Belonging to or intended for an individual person or group",
+      "definationTranslation": "एक व्यक्तिगत व्यक्ति या समूह के स्वामित्व में या संबंधित",
+      "sentence": [
+        {
+          "sentence": "The company keeps its financial data private.",
+          "translation": "कंपनी अपने वित्तीय डेटा को निजी रखती है।"
+        },
+        {
+          "sentence": "The private key is used to access the wallet.",
+          "translation": "निजी कुंजी का उपयोग वॉलेट तक पहुंचने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Public",
+      "phoneticRespelling": "PUH-blik",
+      "translation": "सार्वजनिक",
+      "definition": "Open to or affecting the public",
+      "definationTranslation": "सार्वजनिक के लिए खुला या प्रभावित करने वाला",
+      "sentence": [
+        {
+          "sentence": "The company's financial reports are public.",
+          "translation": "कंपनी की वित्तीय रिपोर्ट सार्वजनिक हैं।"
+        },
+        {
+          "sentence": "The public key is used to verify transactions.",
+          "translation": "सार्वजनिक कुंजी का उपयोग लेनदेन को सत्यापित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hash",
+      "phoneticRespelling": "HASH",
+      "translation": "हैश",
+      "definition": "A digital fingerprint that represents a piece of data",
+      "definationTranslation": "एक डिजिटल फिंगरप्रिंट जो डेटा के एक टुकड़े का प्रतिनिधित्व करता है",
+      "sentence": [
+        {
+          "sentence": "The hash function is used to secure data.",
+          "translation": "हैश फंक्शन का उपयोग डेटा को सुरक्षित करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "The company uses a hash to verify the authenticity of transactions.",
+          "translation": "कंपनी लेनदेन की प्रामाणिकता को सत्यापित करने के लिए एक हैश का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIP-shun",
+      "translation": "एनक्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable text",
+      "definationTranslation": "अपठित पाठ में मूल पाठ को परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company uses encryption to protect its data.",
+          "translation": "कंपनी अपने डेटा की रक्षा के लिए एनक्रिप्शन का उपयोग करती है।"
+        },
+        {
+          "sentence": "Encryption is used to secure communication over the internet.",
+          "translation": "एनक्रिप्शन का उपयोग इंटरनेट पर संचार को सुरक्षित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Decryption",
+      "phoneticRespelling": "dee-KRIP-shun",
+      "translation": "डिक्रिप्शन",
+      "definition": "The process of converting unreadable text back into plaintext",
+      "definationTranslation": "अपठित पाठ को वापस मूल पाठ में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company uses decryption to access its encrypted data.",
+          "translation": "कंपनी अपने एनक्रिप्टेड डेटा तक पहुंचने के लिए डिक्रिप्शन का उपयोग करती है।"
+        },
+        {
+          "sentence": "Decryption is the reverse process of encryption.",
+          "translation": "डिक्रिप्शन एनक्रिप्शन की विपरीत प्रक्रिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Smart",
+      "phoneticRespelling": "SMAR-t",
+      "translation": "स्मार्ट",
+      "definition": "Having or showing a natural ability to learn or understand",
+      "definationTranslation": "सीखने या समझने की प्राकृतिक क्षमता दिखाना",
+      "sentence": [
+        {
+          "sentence": "The company uses smart contracts to automate its processes.",
+          "translation": "कंपनी अपनी प्रक्रियाओं को स्वचालित करने के लिए स्मार्ट कॉन्ट्रैक्ट का उपयोग करती है।"
+        },
+        {
+          "sentence": "The smart wallet is designed to simplify transactions.",
+          "translation": "स्मार्ट वॉलेट को लेनदेन को सरल बनाने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Contract",
+      "phoneticRespelling": "KAHN-trakt",
+      "translation": "संविदा",
+      "definition": "A formal agreement between two or more parties",
+      "definationTranslation": "दो या दो से अधिक पक्षों के बीच एक औपचारिक समझौता",
+      "sentence": [
+        {
+          "sentence": "The company signed a contract with its supplier.",
+          "translation": "कंपनी ने अपने आपूर्तिकर्ता के साथ एक संविदा पर हस्ताक्षर किए।"
+        },
+        {
+          "sentence": "The smart contract is self-executing and autonomous.",
+          "translation": "स्मार्ट संविदा स्वयं कार्यक्षम और स्वायत्त है।"
+        }
+      ]
+    },
+    {
+      "word": "Autonomous",
+      "phoneticRespelling": "aw-TOH-nuh-muh-s",
+      "translation": "स्वायत्त",
+      "definition": "Having the freedom to act independently",
+      "definationTranslation": "स्वतंत्र रूप से कार्य करने की स्वतंत्रता",
+      "sentence": [
+        {
+          "sentence": "The autonomous vehicle is equipped with advanced technology.",
+          "translation": "स्वायत्त वाहन उन्नत प्रौद्योगिकी से सुसज्जित है।"
+        },
+        {
+          "sentence": "The company is working on autonomous systems for its factories.",
+          "translation": "कंपनी अपने कारखानों के लिए स्वायत्त प्रणालियों पर काम कर रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Distributed",
+      "phoneticRespelling": "DIS-trih-byoo-tid",
+      "translation": "वितरित",
+      "definition": "Spread out or dispersed over a wide area",
+      "definationTranslation": "एक विस्तृत क्षेत्र में फैला हुआ या बिखरा हुआ",
+      "sentence": [
+        {
+          "sentence": "The company has a distributed network of servers.",
+          "translation": "कंपनी के पास सर्वरों का एक वितरित नेटवर्क है।"
+        },
+        {
+          "sentence": "The distributed ledger is a key component of the blockchain.",
+          "translation": "वितरित लेजर ब्लॉकचेन का एक मुख्य घटक है।"
+        }
+      ]
+    },
+    {
+      "word": "Ledger",
+      "phoneticRespelling": "LEJ-ur",
+      "translation": "लेजर",
+      "definition": "A book or other record of financial transactions",
+      "definationTranslation": "वित्तीय लेनदेन की एक पुस्तक या अन्य रिकॉर्ड",
+      "sentence": [
+        {
+          "sentence": "The company keeps a ledger of its transactions.",
+          "translation": "कंपनी अपने लेनदेन का एक लेजर रखती है।"
+        },
+        {
+          "sentence": "The distributed ledger is a secure and transparent record of transactions.",
+          "translation": "वितरित लेजर लेनदेन का एक सुरक्षित और पारदर्शी रिकॉर्ड है।"
+        }
+      ]
+    },
+    {
+      "word": "Consensus",
+      "phoneticRespelling": "KAHN-sen-suh-s",
+      "translation": "सर्वसम्मति",
+      "definition": "A state of agreement among all parties",
+      "definationTranslation": "सभी पक्षों के बीच समझौते की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company reached a consensus on the new policy.",
+          "translation": "कंपनी ने नई नीति पर सर्वसम्मति हासिल की।"
+        },
+        {
+          "sentence": "The consensus mechanism is used to validate transactions on the blockchain.",
+          "translation": "लेनदेन को ब्लॉकचेन पर सत्यापित करने के लिए सर्वसम्मति तंत्र का उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Mechanism",
+      "phoneticRespelling": "MEK-uh-niz-uhm",
+      "translation": "तंत्र",
+      "definition": "A system of parts that work together to achieve a particular goal",
+      "definationTranslation": "एक विशिष्ट लक्ष्य को हासिल करने के लिए एक साथ काम करने वाले भागों की एक प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The mechanism of the clock is complex.",
+          "translation": "घड़ी का तंत्र जटिल है।"
+        },
+        {
+          "sentence": "The consensus mechanism is a crucial part of the blockchain.",
+          "translation": "सर्वसम्मति तंत्र ब्लॉकचेन का एक महत्वपूर्ण हिस्सा है।"
+        }
+      ]
+    },
+    {
+      "word": "Validator",
+      "phoneticRespelling": "VAH-lih-day-tur",
+      "translation": "वैधक",
+      "definition": "A person or thing that validates something",
+      "definationTranslation": "एक व्यक्ति या वस्तु जो किसी चीज़ को वैध बनाती है",
+      "sentence": [
+        {
+          "sentence": "The validator checks the transactions on the blockchain.",
+          "translation": "वैधक ब्लॉकचेन पर लेनदेन की जांच करता है।"
+        },
+        {
+          "sentence": "The company uses a validator to ensure the accuracy of its data.",
+          "translation": "कंपनी अपने डेटा की सटीकता सुनिश्चित करने के लिए एक वैधक का उपयोग करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Protocol",
+      "phoneticRespelling": "PROH-tuh-kol",
+      "translation": "प्रोटोकॉल",
+      "definition": "A set of rules or procedures for a particular activity",
+      "definationTranslation": "एक विशिष्ट गतिविधि के लिए नियमों या प्रक्रियाओं का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The company follows a protocol for handling customer complaints.",
+          "translation": "कंपनी ग्राहक शिकायतों को संभालने के लिए एक प्रोटोकॉल का पालन करती है।"
+        },
+        {
+          "sentence": "The protocol for the blockchain is complex and secure.",
+          "translation": "ब्लॉकचेन के लिए प्रोटोकॉल जटिल और सुरक्षित है।"
+        }
+      ]
+    }
+  ]
+}

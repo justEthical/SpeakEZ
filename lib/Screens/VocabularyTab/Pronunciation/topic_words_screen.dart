@@ -87,12 +87,16 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
 
   void _autoSpeak() {
     Future.delayed(const Duration(milliseconds: 300), () {
-      if (mounted) _speak();
+      if (mounted &&
+          _vocabController.currentTopicWords.value.words.isNotEmpty) {
+        _speak();
+      }
     });
   }
 
   Future<void> _speak() async {
-    if (_isSpeaking) return;
+    if (_isSpeaking ||
+        _vocabController.currentTopicWords.value.words.isEmpty) return;
     await ttsHelper.stop();
     setState(() => _isSpeaking = true);
     try {
@@ -103,7 +107,8 @@ class _TopicWordsScreenState extends State<TopicWordsScreen>
   }
 
   Future<void> _speakSlow() async {
-    if (_isSpeaking) return;
+    if (_isSpeaking ||
+        _vocabController.currentTopicWords.value.words.isEmpty) return;
     await ttsHelper.stop();
     setState(() => _isSpeaking = true);
     try {

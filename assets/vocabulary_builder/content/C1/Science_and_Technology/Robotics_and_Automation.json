@@ -357,6 +357,74 @@
           "translation": "डेटा का सिंक्रोनाइजेशन सटीक परिणाम सुनिश्चित करने के लिए आवश्यक है"
         }
       ]
+    },
+    {
+      "word": "Kinematics",
+      "phoneticRespelling": "kin-uh-MAT-iks",
+      "translation": "गतिकी / काइनेमेटिक्स",
+      "definition": "The branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion",
+      "definationTranslation": "यांत्रिकी की वह शाखा जो उन बलों के संदर्भ के बिना वस्तुओं की गति से संबंधित है जो गति का कारण बनते हैं",
+      "sentence": [
+        {
+          "sentence": "Inverse kinematics is used to calculate the joint angles needed for a robot arm to reach a specific point.",
+          "translation": "इनवर्स काइनेमेटिक्स का उपयोग रोबोट हाथ को एक विशिष्ट बिंदु तक पहुँचने के लिए आवश्यक जॉइंट एंगल्स की गणना करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "The study of kinematics is essential for designing smooth robot movements.",
+          "translation": "सुचारू रोबोट गतिविधियों को डिजाइन करने के लिए काइनेमेटिक्स का अध्ययन आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "End-effector",
+      "phoneticRespelling": "END-ee-fek-ter",
+      "translation": "एंड-इफ़ेक्टर",
+      "definition": "The device at the end of a robotic arm, designed to interact with the environment (like a gripper or tool)",
+      "definationTranslation": "रोबोटिक हाथ के अंत में लगा उपकरण, जिसे पर्यावरण के साथ बातचीत करने के लिए डिज़ाइन किया गया है (जैसे ग्रिपर या टूल)",
+      "sentence": [
+        {
+          "sentence": "The engineer attached a specialized end-effector for welding to the robot arm.",
+          "translation": "इंजीनियर ने रोबोट हाथ में वेल्डिंग के लिए एक विशेष एंड-इफ़ेक्टर लगाया।"
+        },
+        {
+          "sentence": "A vacuum suction cup is a common type of end-effector used in packaging.",
+          "translation": "वैक्यूम सक्शन कप पैकेजिंग में उपयोग किया जाने वाला एक सामान्य प्रकार का एंड-इफ़ेक्टर है।"
+        }
+      ]
+    },
+    {
+      "word": "Calibration",
+      "phoneticRespelling": "kal-uh-BRAY-shun",
+      "translation": "अंशांकन / कैलिब्रेशन",
+      "definition": "The process of adjusting a device or sensor to ensure its accuracy and precision",
+      "definationTranslation": "शुद्धता और सटीकता सुनिश्चित करने के लिए किसी उपकरण या सेंसर को समायोजित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Precise calibration of the robot's vision system is necessary for picking small parts.",
+          "translation": "छोटे हिस्सों को उठाने के लिए रोबोट के विजन सिस्टम का सटीक कैलिब्रेशन आवश्यक है।"
+        },
+        {
+          "sentence": "The sensors require regular calibration to maintain high performance.",
+          "translation": "उच्च प्रदर्शन बनाए रखने के लिए सेंसर को नियमित कैलिब्रेशन की आवश्यकता होती है।"
+        }
+      ]
+    },
+    {
+      "word": "Latency",
+      "phoneticRespelling": "LAY-ten-see",
+      "translation": "विलंबता / लेटेंसी",
+      "definition": "The delay between the instruction to a system and the initiation of the physical response",
+      "definationTranslation": "किसी सिस्टम को दिए गए निर्देश और भौतिक प्रतिक्रिया की शुरुआत के बीच का विलंब",
+      "sentence": [
+        {
+          "sentence": "Low latency is critical for teleoperation to ensure the operator feels in control.",
+          "translation": "टेलीओपेरेशन के लिए कम लेटेंसी महत्वपूर्ण है ताकि ऑपरेटर को लगे कि नियंत्रण उसके हाथ में है।"
+        },
+        {
+          "sentence": "Network latency can cause jittery movements in remote-controlled robots.",
+          "translation": "नेटवर्क लेटेंसी रिमोट-कंट्रोल रोबोट में अस्थिर गतिविधियों का कारण बन सकती है।"
+        }
+      ]
     }
   ]
 }

@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.1.1+52
+version: 1.1.2+53
 
 environment:
   sdk: ^3.7.2
@@ -134,6 +134,8 @@ flutter:
     - assets/vocabulary_builder/content/B1/Health_and_Lifestyle/
     - assets/vocabulary_builder/content/B1/Society_and_Current_Issues/
     - assets/vocabulary_builder/content/B1/Entertainment_and_Media/
+    - assets/vocabulary_builder/content/B2/Professional_Life/
+    - assets/vocabulary_builder/content/B2/Business_and_Workplace_Strategy/
     - assets/vocabulary_builder/content/B2/Academic_and_Intellectual/
     - assets/vocabulary_builder/content/B2/Society_and_Politics/
     - assets/vocabulary_builder/content/B2/Environment_and_Sustainability/
@@ -142,6 +144,8 @@ flutter:
     - assets/vocabulary_builder/content/B2/Arts_and_Culture/
     - assets/vocabulary_builder/content/B2/Global_Issues/
     - assets/vocabulary_builder/content/B2/Personal_Growth_and_Psychology/
+    - assets/vocabulary_builder/content/B2/Media_Studies/
+    - assets/vocabulary_builder/content/B2/Communication_and_Audience_Strategy/
     - assets/vocabulary_builder/content/C1/Advanced_Professional_Communication/
     - assets/vocabulary_builder/content/C1/Academic_and_Research/
     - assets/vocabulary_builder/content/C1/Law_and_Governance/
