@@ -1,1 +1,396 @@
-{}
+{
+  "topic": "Market Microstructure",
+  "words": [
+    {
+      "word": "Liquidity",
+      "phoneticRespelling": "lih-KWID-ih-tee",
+      "translation": "तारलता",
+      "definition": "The ability to buy or sell a security quickly and at a stable price",
+      "definationTranslation": "किसी सुरक्षा को जल्दी और स्थिर मूल्य पर खरीदने या बेचने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company's stock had high liquidity due to its large market capitalization",
+          "translation": "कंपनी के शेयर की तरलता उसकी बड़ी बाजार पूंजीकरण के कारण अधिक थी"
+        },
+        {
+          "sentence": "Liquidity is an important factor in determining the overall health of a market",
+          "translation": "तरलता किसी बाजार के समग्र स्वास्थ्य को निर्धारित करने में एक महत्वपूर्ण कारक है"
+        }
+      ]
+    },
+    {
+      "word": "Volatility",
+      "phoneticRespelling": "voh-luh-TIL-ih-tee",
+      "translation": "अस्थिरता",
+      "definition": "The rate at which the price of a security fluctuates",
+      "definationTranslation": "किसी सुरक्षा की कीमत में उतार-चढ़ाव की दर",
+      "sentence": [
+        {
+          "sentence": "The stock market experienced high volatility during the economic crisis",
+          "translation": "आर्थिक संकट के दौरान शेयर बाजार में उच्च अस्थिरता देखी गई"
+        },
+        {
+          "sentence": "Volatility can be a major risk factor for investors",
+          "translation": "अस्थिरता निवेशकों के लिए एक प्रमुख जोखिम कारक हो सकती है"
+        }
+      ]
+    },
+    {
+      "word": "Order",
+      "phoneticRespelling": "OR-der",
+      "translation": "आदेश",
+      "definition": "A request to buy or sell a security at a specific price",
+      "definationTranslation": "किसी सुरक्षा को निर्धारित मूल्य पर खरीदने या बेचने का अनुरोध",
+      "sentence": [
+        {
+          "sentence": "The investor placed a limit order to buy 100 shares of the company's stock",
+          "translation": "निवेशक ने कंपनी के शेयर की 100 इकाइयों को खरीदने के लिए एक सीमा आदेश दिया"
+        },
+        {
+          "sentence": "The broker executed the order quickly and efficiently",
+          "translation": "ब्रोकर ने आदेश को जल्दी और कुशलता से निष्पादित किया"
+        }
+      ]
+    },
+    {
+      "word": "Bid",
+      "phoneticRespelling": "BID",
+      "translation": "बोली",
+      "definition": "The price at which a buyer is willing to buy a security",
+      "definationTranslation": "वह मूल्य जिस पर खरीदार एक सुरक्षा को खरीदने के लिए तैयार है",
+      "sentence": [
+        {
+          "sentence": "The bid price was higher than the ask price",
+          "translation": "बोली मूल्य पूछ मूल्य से अधिक था"
+        },
+        {
+          "sentence": "The investor placed a bid on the company's stock",
+          "translation": "निवेशक ने कंपनी के शेयर पर बोली लगाई"
+        }
+      ]
+    },
+    {
+      "word": "Ask",
+      "phoneticRespelling": "ASK",
+      "translation": "पूछ",
+      "definition": "The price at which a seller is willing to sell a security",
+      "definationTranslation": "वह मूल्य जिस पर विक्रेता एक सुरक्षा को बेचने के लिए तैयार है",
+      "sentence": [
+        {
+          "sentence": "The ask price was lower than the bid price",
+          "translation": "पूछ मूल्य बोली मूल्य से कम था"
+        },
+        {
+          "sentence": "The seller set an ask price for the security",
+          "translation": "विक्रेता ने सुरक्षा के लिए एक पूछ मूल्य निर्धारित किया"
+        }
+      ]
+    },
+    {
+      "word": "Spread",
+      "phoneticRespelling": "SPRED",
+      "translation": "फैलाव",
+      "definition": "The difference between the bid and ask prices",
+      "definationTranslation": "बोली और पूछ मूल्य के बीच का अंतर",
+      "sentence": [
+        {
+          "sentence": "The spread was wide due to the low liquidity in the market",
+          "translation": "बाजार में कम तरलता के कारण फैलाव चौड़ा था"
+        },
+        {
+          "sentence": "The investor tried to minimize the spread by using a limit order",
+          "translation": "निवेशक ने सीमा आदेश का उपयोग करके फैलाव को कम करने का प्रयास किया"
+        }
+      ]
+    },
+    {
+      "word": "Market",
+      "phoneticRespelling": "MAR-kit",
+      "translation": "बाजार",
+      "definition": "A place where buyers and sellers interact to trade securities",
+      "definationTranslation": "एक स्थान जहां खरीदार और विक्रेता सुरक्षा के व्यापार के लिए परस्पर क्रिया करते हैं",
+      "sentence": [
+        {
+          "sentence": "The stock market is a key component of the financial system",
+          "translation": "शेयर बाजार वित्तीय प्रणाली का एक प्रमुख घटक है"
+        },
+        {
+          "sentence": "The market was volatile due to the economic uncertainty",
+          "translation": "आर्थिक अनिश्चितता के कारण बाजार अस्थिर था"
+        }
+      ]
+    },
+    {
+      "word": "Trader",
+      "phoneticRespelling": "TRAY-der",
+      "translation": "व्यापारी",
+      "definition": "An individual or firm that buys and sells securities",
+      "definationTranslation": "एक व्यक्ति या फर्म जो सुरक्षा खरीदती और बेचती है",
+      "sentence": [
+        {
+          "sentence": "The trader made a profit by buying low and selling high",
+          "translation": "व्यापारी ने कम खरीदकर और अधिक बेचकर लाभ अर्जित किया"
+        },
+        {
+          "sentence": "The trader used technical analysis to make informed investment decisions",
+          "translation": "व्यापारी ने सूचित निवेश निर्णय लेने के लिए तकनीकी विश्लेषण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Exchange",
+      "phoneticRespelling": "eks-CHAYN-j",
+      "translation": "विनिमय",
+      "definition": "A platform where securities are traded",
+      "definationTranslation": "एक मंच जहां सुरक्षा का व्यापार किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The stock exchange is a vital part of the financial system",
+          "translation": "शेयर विनिमय वित्तीय प्रणाली का एक महत्वपूर्ण हिस्सा है"
+        },
+        {
+          "sentence": "The company's stock is listed on the exchange",
+          "translation": "कंपनी का शेयर विनिमय पर सूचीबद्ध है"
+        }
+      ]
+    },
+    {
+      "word": "Broker",
+      "phoneticRespelling": "BROH-ker",
+      "translation": "ब्रोकर",
+      "definition": "An intermediary who facilitates the buying and selling of securities",
+      "definationTranslation": "एक मध्यवर्ती जो सुरक्षा के खरीदने और बेचने को सुविधाजनक बनाता है",
+      "sentence": [
+        {
+          "sentence": "The broker executed the trade quickly and efficiently",
+          "translation": "ब्रोकर ने व्यापार को जल्दी और कुशलता से निष्पादित किया"
+        },
+        {
+          "sentence": "The investor used a broker to buy and sell securities",
+          "translation": "निवेशक ने सुरक्षा खरीदने और बेचने के लिए एक ब्रोकर का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Clearing",
+      "phoneticRespelling": "KLEH-ring",
+      "translation": "प्रत्यायोजन",
+      "definition": "The process of settling trades and transferring ownership",
+      "definationTranslation": "व्यापार का निपटान और स्वामित्व हस्तांतरण की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The clearing house ensured that all trades were settled correctly",
+          "translation": "प्रत्यायोजन गृह ने यह सुनिश्चित किया कि सभी व्यापार सही ढंग से निपटाए गए"
+        },
+        {
+          "sentence": "The clearing process was completed within a few hours",
+          "translation": "प्रत्यायोजन प्रक्रिया कुछ घंटों के भीतर पूरी की गई"
+        }
+      ]
+    },
+    {
+      "word": "Settlement",
+      "phoneticRespelling": "SEH-tul-muhnt",
+      "translation": "निपटान",
+      "definition": "The process of transferring ownership and settling trades",
+      "definationTranslation": "स्वामित्व हस्तांतरण और व्यापार का निपटान की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The settlement process was completed within a few days",
+          "translation": "निपटान प्रक्रिया कुछ दिनों के भीतर पूरी की गई"
+        },
+        {
+          "sentence": "The investor received the settlement amount within a week",
+          "translation": "निवेशक को निपटान राशि एक सप्ताह के भीतर मिली"
+        }
+      ]
+    },
+    {
+      "word": "Trade",
+      "phoneticRespelling": "TRAYD",
+      "translation": "व्यापार",
+      "definition": "The act of buying or selling a security",
+      "definationTranslation": "सुरक्षा को खरीदने या बेचने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The trade was executed quickly and efficiently",
+          "translation": "व्यापार को जल्दी और कुशलता से निष्पादित किया गया"
+        },
+        {
+          "sentence": "The investor made a trade to buy 100 shares of the company's stock",
+          "translation": "निवेशक ने कंपनी के शेयर की 100 इकाइयों को खरीदने के लिए एक व्यापार किया"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "sih-KYOO-rih-tee",
+      "translation": "सुरक्षा",
+      "definition": "A financial instrument that represents ownership or a claim on ownership",
+      "definationTranslation": "एक वित्तीय उपकरण जो स्वामित्व या स्वामित्व पर दावे का प्रतिनिधित्व करता है",
+      "sentence": [
+        {
+          "sentence": "The company issued securities to raise capital",
+          "translation": "कंपनी ने पूंजी जुटाने के लिए सुरक्षा जारी की"
+        },
+        {
+          "sentence": "The investor bought a security to diversify their portfolio",
+          "translation": "निवेशक ने अपने पोर्टफोलियो को विविधता देने के लिए एक सुरक्षा खरीदी"
+        }
+      ]
+    },
+    {
+      "word": "Portfolio",
+      "phoneticRespelling": "pohr-TEE-foh-lee-oh",
+      "translation": "पोर्टफोलियो",
+      "definition": "A collection of investments held by an individual or institution",
+      "definationTranslation": "एक व्यक्ति या संस्था द्वारा आयोजित निवेशों का संग्रह",
+      "sentence": [
+        {
+          "sentence": "The investor's portfolio was diversified across different asset classes",
+          "translation": "निवेशक का पोर्टफोलियो विभिन्न परिसंपत्ति वर्गों में विविध था"
+        },
+        {
+          "sentence": "The portfolio manager made adjustments to the portfolio to maximize returns",
+          "translation": "पोर्टफोलियो प्रबंधक ने रिटर्न को अधिकतम करने के लिए पोर्टफोलियो में समायोजन किया"
+        }
+      ]
+    },
+    {
+      "word": "Asset",
+      "phoneticRespelling": "AS-set",
+      "translation": "परिसंपत्ति",
+      "definition": "A resource owned or controlled by an individual or institution",
+      "definationTranslation": "एक व्यक्ति या संस्था द्वारा स्वामित्व या नियंत्रित एक संसाधन",
+      "sentence": [
+        {
+          "sentence": "The company's assets included cash, stocks, and real estate",
+          "translation": "कंपनी की परिसंपत्तियों में नकदी, शेयर, और वास्तविक संपत्ति शामिल थी"
+        },
+        {
+          "sentence": "The investor's asset allocation was conservative and diversified",
+          "translation": "निवेशक का परिसंपत्ति आवंटन रूढ़िवादी और विविध था"
+        }
+      ]
+    },
+    {
+      "word": "Financial",
+      "phoneticRespelling": "fai-NAHN-shul",
+      "translation": "वित्तीय",
+      "definition": "Relating to money or finance",
+      "definationTranslation": "धन या वित्त से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The company's financial performance was strong in the last quarter",
+          "translation": "कंपनी का वित्तीय प्रदर्शन पिछली तिमाही में मजबूत था"
+        },
+        {
+          "sentence": "The investor made a financial plan to achieve their goals",
+          "translation": "निवेशक ने अपने लक्ष्यों को प्राप्त करने के लिए एक वित्तीय योजना बनाई"
+        }
+      ]
+    },
+    {
+      "word": "Investment",
+      "phoneticRespelling": "in-VES-tuh-ment",
+      "translation": "निवेश",
+      "definition": "The act of putting money into a financial instrument or asset",
+      "definationTranslation": "एक वित्तीय उपकरण या परिसंपत्ति में धन लगाने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The investor made a wise investment in the company's stock",
+          "translation": "निवेशक ने कंपनी के शेयर में एक समझदार निवेश किया"
+        },
+        {
+          "sentence": "The investment portfolio was designed to generate long-term returns",
+          "translation": "निवेश पोर्टफोलियो को दीर्घकालिक रिटर्न उत्पन्न करने के लिए डिज़ाइन किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Risk",
+      "phoneticRespelling": "RIS-k",
+      "translation": "जोखिम",
+      "definition": "The possibility of losing money or incurring a financial loss",
+      "definationTranslation": "धन खोने या वित्तीय नुकसान होने की संभावना",
+      "sentence": [
+        {
+          "sentence": "The investor took on too much risk and lost a significant amount of money",
+          "translation": "निवेशक ने बहुत अधिक जोखिम उठाया और एक महत्वपूर्ण राशि खो दी"
+        },
+        {
+          "sentence": "The company's risk management strategy was effective in minimizing losses",
+          "translation": "कंपनी की जोखिम प्रबंधन रणनीति हानियों को कम करने में प्रभावी थी"
+        }
+      ]
+    },
+    {
+      "word": "Return",
+      "phoneticRespelling": "rih-TURN",
+      "translation": "रिटर्न",
+      "definition": "The profit or gain from an investment",
+      "definationTranslation": "एक निवेश से लाभ या लाभ",
+      "sentence": [
+        {
+          "sentence": "The investor earned a high return on their investment",
+          "translation": "निवेशक ने अपने निवेश पर एक उच्च रिटर्न अर्जित किया"
+        },
+        {
+          "sentence": "The company's return on equity was higher than the industry average",
+          "translation": "कंपनी का समता पर रिटर्न उद्योग के औसत से अधिक था"
+        }
+      ]
+    },
+    {
+      "word": "Microstructure",
+      "phoneticRespelling": "mahy-kroh-STRAHK-chur",
+      "translation": "सूक्ष्म संरचना",
+      "definition": "The study of the underlying structure of a market or economy",
+      "definationTranslation": "किसी बाजार या अर्थव्यवस्था की मूलभूत संरचना का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The researcher studied the microstructure of the stock market",
+          "translation": "शोधकर्ता ने शेयर बाजार की सूक्ष्म संरचना का अध्ययन किया"
+        },
+        {
+          "sentence": "The microstructure of the economy was complex and influenced by many factors",
+          "translation": "अर्थव्यवस्था की सूक्ष्म संरचना जटिल थी और कई कारकों से प्रभावित थी"
+        }
+      ]
+    },
+    {
+      "word": "Efficient",
+      "phoneticRespelling": "ih-FIH-shuhnt",
+      "translation": "कुशल",
+      "definition": "Working or operating in a way that produces the best results with the least waste",
+      "definationTranslation": "एक ऐसा तरीका जिससे सर्वोत्तम परिणाम सबसे कम अपशिष्ट के साथ उत्पन्न होते हैं",
+      "sentence": [
+        {
+          "sentence": "The company's efficient operations led to increased profits",
+          "translation": "कंपनी के कुशल संचालन से लाभ में वृद्धि हुई"
+        },
+        {
+          "sentence": "The efficient market hypothesis suggests that markets are always efficient",
+          "translation": "कुशल बाजार की परिकल्पना सुझाव देती है कि बाजार हमेशा कुशल होते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Marketplace",
+      "phoneticRespelling": "MAR-kit-playss",
+      "translation": "बाजारस्थान",
+      "definition": "A place where buyers and sellers interact to exchange goods or services",
+      "definationTranslation": "एक स्थान जहां खरीदार और विक्रेता वस्तुओं या सेवाओं के आदान-प्रदान के लिए परस्पर क्रिया करते हैं",
+      "sentence": [
+        {
+          "sentence": "The online marketplace allowed buyers and sellers to connect easily",
+          "translation": "ऑनलाइन बाजारस्थान ने खरीदारों और विक्रेताओं को आसानी से जुड़ने की अनुमति दी"
+        },
+        {
+          "sentence": "The marketplace was a hub of activity with many buyers and sellers",
+          "translation": "बाजारस्थान एक गतिविधि का केंद्र था जिसमें कई खरीदार और विक्रेता थे"
+        }
+      ]
+    }
+  ]
+}

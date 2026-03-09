@@ -187,7 +187,12 @@ class OnboardingController extends GetxController {
     CustomLoader.showLoader();
     final userData = await AuthService.loginWithEmail(email, password);
     if (userData?.user != null) {
-      final notificationTokken = await FirebaseMessaging.instance.getToken();
+      String? notificationTokken;
+      try {
+        notificationTokken = await FirebaseMessaging.instance.getToken();
+      } catch (e) {
+        debugPrint('Failed to get FCM token: $e');
+      }
       await FirestoreHelper.updateUserField({
         'notificationToken': notificationTokken ?? '',
       });
@@ -242,7 +247,12 @@ class OnboardingController extends GetxController {
         saveUserProfile(userData);
         Get.offAll(() => OnboarindQuestions());
       } else {
-        final notificationTokken = await FirebaseMessaging.instance.getToken();
+        String? notificationTokken;
+        try {
+          notificationTokken = await FirebaseMessaging.instance.getToken();
+        } catch (e) {
+          debugPrint('Failed to get FCM token: $e');
+        }
         await FirestoreHelper.updateUserField({
           'notificationToken': notificationTokken ?? '',
         });
@@ -277,7 +287,12 @@ class OnboardingController extends GetxController {
     UserCredential userData, {
     String userName = '',
   }) async {
-    final notificationToken = await FirebaseMessaging.instance.getToken();
+    String? notificationToken;
+    try {
+      notificationToken = await FirebaseMessaging.instance.getToken();
+    } catch (e) {
+      debugPrint('Failed to get FCM token: $e');
+    }
 
     CustomLoader.showLoader();
     var userProfile = UserProfileModel(

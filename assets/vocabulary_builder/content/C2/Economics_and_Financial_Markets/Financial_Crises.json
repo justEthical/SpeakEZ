@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Financial Crises",
+  "words": [
+    {
+      "word": "Recession",
+      "phoneticRespelling": "ri-SEH-shun",
+      "translation": "मंदी",
+      "definition": "A period of economic decline",
+      "definationTranslation": "अर्थव्यवस्था में गिरावट का काल",
+      "sentence": [
+        {
+          "sentence": "The country is experiencing a recession.",
+          "translation": "देश मंदी का सामना कर रहा है।"
+        },
+        {
+          "sentence": "The recession led to high unemployment.",
+          "translation": "मंदी के कारण बेरोजगारी बढ़ गई।"
+        }
+      ]
+    },
+    {
+      "word": "Bankruptcy",
+      "phoneticRespelling": "BANK-ruhpt-see",
+      "translation": "दिवालियापन",
+      "definition": "The state of being unable to pay debts",
+      "definationTranslation": "ऋण चुकाने में असमर्थता की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company filed for bankruptcy.",
+          "translation": "कंपनी ने दिवालियापन के लिए आवेदन किया।"
+        },
+        {
+          "sentence": "The bankruptcy led to a loss of jobs.",
+          "translation": "दिवालियापन के कारण नौकरी का नुकसान हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Foreclosure",
+      "phoneticRespelling": "for-KLOH-zher",
+      "translation": "जब्ती",
+      "definition": "The act of taking possession of a property",
+      "definationTranslation": "संपत्ति पर कब्जा करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The bank initiated foreclosure proceedings.",
+          "translation": "बैंक ने जब्ती की कार्यवाही शुरू की।"
+        },
+        {
+          "sentence": "The foreclosure market is booming.",
+          "translation": "जब्ती बाजार में तेजी आ रही है।"
+        }
+      ]
+    },
+    {
+      "word": "Inflation",
+      "phoneticRespelling": "in-FLEH-shun",
+      "translation": "मुद्रास्फीति",
+      "definition": "A rise in the general price level",
+      "definationTranslation": "सामान्य मूल्य स्तर में वृद्धि",
+      "sentence": [
+        {
+          "sentence": "Inflation is eroding the purchasing power of money.",
+          "translation": "मुद्रास्फीति धन की क्रय शक्ति को कम कर रही है।"
+        },
+        {
+          "sentence": "The inflation rate is expected to rise.",
+          "translation": "मुद्रास्फीति की दर बढ़ने की उम्मीद है।"
+        }
+      ]
+    },
+    {
+      "word": "Deflation",
+      "phoneticRespelling": "dee-FLEH-shun",
+      "translation": "मुद्रासंकुचन",
+      "definition": "A fall in the general price level",
+      "definationTranslation": "सामान्य मूल्य स्तर में गिरावट",
+      "sentence": [
+        {
+          "sentence": "Deflation can lead to reduced consumer spending.",
+          "translation": "मुद्रासंकुचन से उपभोक्ता व्यय में कमी आ सकती है।"
+        },
+        {
+          "sentence": "The deflationary environment is affecting businesses.",
+          "translation": "मुद्रासंकुचन वातावरण व्यवसायों को प्रभावित कर रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Stimulus",
+      "phoneticRespelling": "STIM-yoo-lus",
+      "translation": "प्रोत्साहन",
+      "definition": "A measure to boost economic activity",
+      "definationTranslation": "अर्थव्यवस्था में गतिविधि को बढ़ावा देने के लिए उपाय",
+      "sentence": [
+        {
+          "sentence": "The government announced a stimulus package.",
+          "translation": "सरकार ने प्रोत्साहन पैकेज की घोषणा की।"
+        },
+        {
+          "sentence": "The stimulus had a positive impact on the economy.",
+          "translation": "प्रोत्साहन का अर्थव्यवस्था पर सकारात्मक प्रभाव पड़ा।"
+        }
+      ]
+    },
+    {
+      "word": "Austerity",
+      "phoneticRespelling": "AW-steh-ree-tee",
+      "translation": "कठिनाइ",
+      "definition": "A policy of reducing public spending",
+      "definationTranslation": "सार्वजनिक व्यय में कटौती की नीति",
+      "sentence": [
+        {
+          "sentence": "The government implemented austerity measures.",
+          "translation": "सरकार ने कठिनाइ उपायों को लागू किया।"
+        },
+        {
+          "sentence": "Austerity has led to widespread protests.",
+          "translation": "कठिनाइ के कारण व्यापक विरोध प्रदर्शन हुए।"
+        }
+      ]
+    },
+    {
+      "word": "Bailout",
+      "phoneticRespelling": "BAY-lout",
+      "translation": "बचाव पैकेज",
+      "definition": "A rescue package to save a company or economy",
+      "definationTranslation": "एक कंपनी या अर्थव्यवस्था को बचाने के लिए बचाव पैकेज",
+      "sentence": [
+        {
+          "sentence": "The government provided a bailout to the struggling bank.",
+          "translation": "सरकार ने संघर्षरत बैंक को बचाव पैकेज प्रदान किया।"
+        },
+        {
+          "sentence": "The bailout was met with criticism from the public.",
+          "translation": "बचाव पैकेज का सामना जनता की आलोचना से हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Subprime",
+      "phoneticRespelling": "SUB-prahym",
+      "translation": "निम्न-गुणवत्ता",
+      "definition": "A type of loan with a high risk of default",
+      "definationTranslation": "चूक का उच्च जोखिम वाला ऋण का एक प्रकार",
+      "sentence": [
+        {
+          "sentence": "The subprime mortgage crisis led to a global recession.",
+          "translation": "निम्न-गुणवत्ता वाले ऋण संकट के कारण वैश्विक मंदी आ गई।"
+        },
+        {
+          "sentence": "Subprime lending has been criticized for its role in the crisis.",
+          "translation": "निम्न-गुणवत्ता वाले ऋण को संकट में इसकी भूमिका के लिए आलोचित किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Hedging",
+      "phoneticRespelling": "HEJ-ing",
+      "translation": "हेजिंग",
+      "definition": "A strategy to reduce risk by taking a counter-position",
+      "definationTranslation": "एक प्रति-स्थिति लेकर जोखिम को कम करने की रणनीति",
+      "sentence": [
+        {
+          "sentence": "The company used hedging to protect itself from market fluctuations.",
+          "translation": "कंपनी ने बाजार में उतार-चढ़ाव से बचाव के लिए हेजिंग का उपयोग किया।"
+        },
+        {
+          "sentence": "Hedging can be an effective way to manage risk.",
+          "translation": "हेजिंग जोखिम प्रबंधन का एक प्रभावी तरीका हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Liquidity",
+      "phoneticRespelling": "lih-KWIH-dee",
+      "translation": "द्रवता",
+      "definition": "The ability to convert assets into cash quickly",
+      "definationTranslation": "संपत्ति को जल्दी से नकद में परिवर्तित करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company's liquidity is a major concern.",
+          "translation": "कंपनी की द्रवता एक बड़ा चिंता का विषय है।"
+        },
+        {
+          "sentence": "Liquidity is essential for a company's financial health.",
+          "translation": "द्रवता एक कंपनी के वित्तीय स्वास्थ्य के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Insolvency",
+      "phoneticRespelling": "in-SOL-vuh-see",
+      "translation": "दिवालियापन",
+      "definition": "The state of being unable to pay debts",
+      "definationTranslation": "ऋण चुकाने में असमर्थता की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company filed for insolvency.",
+          "translation": "कंपनी ने दिवालियापन के लिए आवेदन किया।"
+        },
+        {
+          "sentence": "Insolvency can lead to business closure.",
+          "translation": "दिवालियापन व्यवसाय के बंद होने का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Default",
+      "phoneticRespelling": "dih-FAWLT",
+      "translation": "चूक",
+      "definition": "The failure to meet a financial obligation",
+      "definationTranslation": "वित्तीय दायित्व को पूरा न करना",
+      "sentence": [
+        {
+          "sentence": "The company is at risk of defaulting on its loans.",
+          "translation": "कंपनी अपने ऋणों पर चूकने के जोखिम में है।"
+        },
+        {
+          "sentence": "Default can have severe consequences.",
+          "translation": "चूक के गंभीर परिणाम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Recovery",
+      "phoneticRespelling": "rih-KUH-vree",
+      "translation": "सुधार",
+      "definition": "The process of returning to a normal state after a crisis",
+      "definationTranslation": "संकट के बाद सामान्य स्थिति में लौटने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The economy is in the process of recovery.",
+          "translation": "अर्थव्यवस्था सुधार की प्रक्रिया में है।"
+        },
+        {
+          "sentence": "Recovery can take a long time.",
+          "translation": "सुधार में लंबा समय लग सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Quantitative",
+      "phoneticRespelling": "KWAHN-tih-tey-tiv",
+      "translation": "परिमाणात्मक",
+      "definition": "Relating to the measurement of quantity",
+      "definationTranslation": "मात्रा के मापन से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Quantitative easing is a monetary policy tool.",
+          "translation": "परिमाणात्मक छूट एक मौद्रिक नीति उपकरण है।"
+        },
+        {
+          "sentence": "Quantitative data is used to analyze market trends.",
+          "translation": "परिमाणात्मक डेटा का उपयोग बाजार की प्रवृत्तियों का विश्लेषण करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Fiscal",
+      "phoneticRespelling": "FIS-kul",
+      "translation": "वित्तीय",
+      "definition": "Relating to public finance and taxation",
+      "definationTranslation": "सार्वजनिक वित्त और कराधान से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The government's fiscal policy is under scrutiny.",
+          "translation": "सरकार की वित्तीय नीति की जांच की जा रही है।"
+        },
+        {
+          "sentence": "Fiscal responsibility is essential for economic stability.",
+          "translation": "वित्तीय जिम्मेदारी आर्थिक स्थिरता के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Monetary",
+      "phoneticRespelling": "MAH-nih-teh-ree",
+      "translation": "मौद्रिक",
+      "definition": "Relating to money and financial markets",
+      "definationTranslation": "पैसे और वित्तीय बाजारों से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Monetary policy is used to control inflation.",
+          "translation": "मौद्रिक नीति का उपयोग मुद्रास्फीति को नियंत्रित करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "Monetary policy can have a significant impact on the economy.",
+          "translation": "मौद्रिक नीति का अर्थव्यवस्था पर महत्वपूर्ण प्रभाव पड़ सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Investment",
+      "phoneticRespelling": "in-VES-tment",
+      "translation": "निवेश",
+      "definition": "The act of putting money into a venture or asset",
+      "definationTranslation": "एक उद्यम या संपत्ति में पैसा लगाने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The company made a significant investment in research and development.",
+          "translation": "कंपनी ने अनुसंधान और विकास में एक महत्वपूर्ण निवेश किया।"
+        },
+        {
+          "sentence": "Investment can be a key driver of economic growth.",
+          "translation": "निवेश आर्थिक विकास का एक महत्वपूर्ण चालक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Risk",
+      "phoneticRespelling": "RIS-k",
+      "translation": "जोखिम",
+      "definition": "The possibility of a negative outcome",
+      "definationTranslation": "एक नकारात्मक परिणाम की संभावना",
+      "sentence": [
+        {
+          "sentence": "The investment carries a high level of risk.",
+          "translation": "निवेश में उच्च स्तर का जोखिम है।"
+        },
+        {
+          "sentence": "Risk management is essential for businesses.",
+          "translation": "जोखिम प्रबंधन व्यवसायों के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Regulation",
+      "phoneticRespelling": "REH-gyoo-LEH-shun",
+      "translation": "नियमन",
+      "definition": "A rule or law that controls or directs something",
+      "definationTranslation": "एक नियम या कानून जो कुछ को नियंत्रित या निर्देशित करता है",
+      "sentence": [
+        {
+          "sentence": "The government introduced new regulations to control the financial sector.",
+          "translation": "सरकार ने वित्तीय क्षेत्र को नियंत्रित करने के लिए नए नियमों को पेश किया।"
+        },
+        {
+          "sentence": "Regulation can be necessary to protect consumers.",
+          "translation": "नियमन उपभोक्ताओं की रक्षा के लिए आवश्यक हो सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Stability",
+      "phoneticRespelling": "stuh-BIL-ih-tee",
+      "translation": "स्थिरता",
+      "definition": "The state of being firm and unchanging",
+      "definationTranslation": "स्थिर और अपरिवर्तित रहने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The government's goal is to maintain economic stability.",
+          "translation": "सरकार का लक्ष्य आर्थिक स्थिरता बनाए रखना है।"
+        },
+        {
+          "sentence": "Stability is essential for economic growth.",
+          "translation": "स्थिरता आर्थिक विकास के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Solvency",
+      "phoneticRespelling": "SAHL-vuh-see",
+      "translation": "दिवालिया न होना",
+      "definition": "The ability to pay debts and meet financial obligations",
+      "definationTranslation": "ऋण चुकाने और वित्तीय दायित्वों को पूरा करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company's solvency is a major concern.",
+          "translation": "कंपनी की दिवालिया न होने की स्थिति एक बड़ा चिंता का विषय है।"
+        },
+        {
+          "sentence": "Solvency is essential for a company's financial health.",
+          "translation": "दिवालिया न होना एक कंपनी के वित्तीय स्वास्थ्य के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Credit",
+      "phoneticRespelling": "KREH-dit",
+      "translation": "ऋण",
+      "definition": "The ability to borrow money or obtain goods and services",
+      "definationTranslation": "पैसे उधार लेने या वस्तुओं और सेवाओं को प्राप्त करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The company's credit rating has been downgraded.",
+          "translation": "कंपनी की ऋण रेटिंग को कम किया गया है।"
+        },
+        {
+          "sentence": "Credit is essential for businesses to operate.",
+          "translation": "ऋण व्यवसायों के संचालन के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Debt",
+      "phoneticRespelling": "DEH-t",
+      "translation": "ऋण",
+      "definition": "The state of owing money or being in a state of obligation",
+      "definationTranslation": "पैसे का ऋणी होने या दायित्व की स्थिति में होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The company has a high level of debt.",
+          "translation": "कंपनी के पास उच्च स्तर का ऋण है।"
+        },
+        {
+          "sentence": "Debt can be a major burden for individuals and businesses.",
+          "translation": "ऋण व्यक्तियों और व्यवसायों के लिए एक बड़ा बोझ हो सकता है।"
+        }
+      ]
+    }
+  ]
+}

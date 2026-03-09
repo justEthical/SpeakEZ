@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Derivatives and Hedging",
+  "words": [
+    {
+      "word": "Derivative",
+      "phoneticRespelling": "duh-RIV-uh-tiv",
+      "translation": "व्युत्पन्न",
+      "definition": "A financial instrument whose value is derived from an underlying asset",
+      "definationTranslation": "एक वित्तीय उपकरण जिसका मूल्य एक अंतर्निहित परिसंपत्ति से लिया जाता है",
+      "sentence": [
+        {
+          "sentence": "The company used derivatives to hedge against potential losses.",
+          "translation": "कंपनी ने संभावित नुकसान के खिलाफ हेज करने के लिए व्युत्पन्न का उपयोग किया।"
+        },
+        {
+          "sentence": "Derivatives can be used to speculate on the price of an underlying asset.",
+          "translation": "व्युत्पन्न का उपयोग एक अंतर्निहित परिसंपत्ति की कीमत पर सट्टा लगाने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hedging",
+      "phoneticRespelling": "HEJ-ing",
+      "translation": "हेजिंग",
+      "definition": "A strategy used to reduce or manage risk",
+      "definationTranslation": "जोखिम को कम करने या प्रबंधित करने के लिए उपयोग की जाने वाली रणनीति",
+      "sentence": [
+        {
+          "sentence": "The investor used hedging to minimize potential losses.",
+          "translation": "निवेशक ने संभावित नुकसान को कम करने के लिए हेजिंग का उपयोग किया।"
+        },
+        {
+          "sentence": "Hedging can be used to protect against fluctuations in currency exchange rates.",
+          "translation": "हेजिंग का उपयोग मुद्रा विनिमय दर में उतार-चढ़ाव के खिलाफ संरक्षण के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Option",
+      "phoneticRespelling": "OP-shun",
+      "translation": "विकल्प",
+      "definition": "A contract that gives the holder the right to buy or sell an underlying asset at a specified price",
+      "definationTranslation": "एक अनुबंध जो धारक को एक निर्दिष्ट मूल्य पर एक अंतर्निहित परिसंपत्ति खरीदने या बेचने का अधिकार देता है",
+      "sentence": [
+        {
+          "sentence": "The investor bought an option to buy 100 shares of stock.",
+          "translation": "निवेशक ने 100 शेयर स्टॉक खरीदने के लिए एक विकल्प खरीदा।"
+        },
+        {
+          "sentence": "The option expired worthless because the stock price never reached the strike price.",
+          "translation": "विकल्प की समय सीमा समाप्त हो गई क्योंकि स्टॉक की कीमत कभी भी आघात मूल्य तक नहीं पहुंची।"
+        }
+      ]
+    },
+    {
+      "word": "Futures",
+      "phoneticRespelling": "FYOO-churz",
+      "translation": "भविष्य",
+      "definition": "A contract to buy or sell an underlying asset at a specified price on a specified date",
+      "definationTranslation": "एक निर्दिष्ट मूल्य पर एक निर्दिष्ट तिथि पर एक अंतर्निहित परिसंपत्ति खरीदने या बेचने का अनुबंध",
+      "sentence": [
+        {
+          "sentence": "The farmer sold futures contracts to guarantee a price for his crops.",
+          "translation": "किसान ने अपनी फसलों के लिए एक मूल्य की गारंटी देने के लिए भविष्य के अनुबंध बेचे।"
+        },
+        {
+          "sentence": "The investor bought futures contracts to speculate on the price of oil.",
+          "translation": "निवेशक ने तेल की कीमत पर सट्टा लगाने के लिए भविष्य के अनुबंध खरीदे।"
+        }
+      ]
+    },
+    {
+      "word": "Swap",
+      "phoneticRespelling": "SWAP",
+      "translation": "स्वैप",
+      "definition": "A contract to exchange one asset or liability for another",
+      "definationTranslation": "एक परिसंपत्ति या देयता को दूसरे के लिए exchanged करने का अनुबंध",
+      "sentence": [
+        {
+          "sentence": "The company entered into a swap agreement to exchange fixed-rate debt for floating-rate debt.",
+          "translation": "कंपनी ने निश्चित-दर ऋण को तरण-दर ऋण के लिए exchanged करने के लिए एक स्वैप समझौते में प्रवेश किया।"
+        },
+        {
+          "sentence": "The investor used a swap to convert a fixed-rate loan to a floating-rate loan.",
+          "translation": "निवेशक ने एक निश्चित-दर ऋण को एक तरण-दर ऋण में परिवर्तित करने के लिए एक स्वैप का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Volatility",
+      "phoneticRespelling": "voh-luh-TIL-uh-tee",
+      "translation": "अस्थिरता",
+      "definition": "The degree of uncertainty or fluctuation in the value of an asset",
+      "definationTranslation": "एक परिसंपत्ति के मूल्य में अनिश्चितता या उतार-चढ़ाव की डिग्री",
+      "sentence": [
+        {
+          "sentence": "The stock's volatility made it a risky investment.",
+          "translation": "स्टॉक की अस्थिरता ने इसे एक जोखिम भरा निवेश बना दिया।"
+        },
+        {
+          "sentence": "The investor sought to reduce volatility by diversifying his portfolio.",
+          "translation": "निवेशक ने अपने पोर्टफोलियो को विविध बनाकर अस्थिरता को कम करने का प्रयास किया।"
+        }
+      ]
+    },
+    {
+      "word": "Leverage",
+      "phoneticRespelling": "LEH-vuh-rij",
+      "translation": "लीवरेज",
+      "definition": "The use of debt or other financial instruments to increase potential returns",
+      "definationTranslation": "संभावित रिटर्न को बढ़ाने के लिए ऋण या अन्य वित्तीय उपकरणों का उपयोग",
+      "sentence": [
+        {
+          "sentence": "The company used leverage to finance its expansion.",
+          "translation": "कंपनी ने अपने विस्तार के लिए लीवरेज का उपयोग किया।"
+        },
+        {
+          "sentence": "The investor used leverage to increase his potential returns, but also increased his risk.",
+          "translation": "निवेशक ने अपने संभावित रिटर्न को बढ़ाने के लिए लीवरेज का उपयोग किया, लेकिन अपने जोखिम को भी बढ़ा दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Margin",
+      "phoneticRespelling": "MAR-jin",
+      "translation": "मार्जिन",
+      "definition": "The amount of money required to enter into a derivatives contract",
+      "definationTranslation": "एक व्युत्पन्न अनुबंध में प्रवेश करने के लिए आवश्यक धन की मात्रा",
+      "sentence": [
+        {
+          "sentence": "The investor was required to pay a margin to enter into the futures contract.",
+          "translation": "निवेशक को भविष्य के अनुबंध में प्रवेश करने के लिए एक मार्जिन का भुगतान करने की आवश्यकता थी।"
+        },
+        {
+          "sentence": "The margin requirement was higher for the more volatile stock.",
+          "translation": "अधिक अस्थिर स्टॉक के लिए मार्जिन आवश्यकता अधिक थी।"
+        }
+      ]
+    },
+    {
+      "word": "Collateral",
+      "phoneticRespelling": "kuh-LAH-tuh-rul",
+      "translation": "गिरवी",
+      "definition": "An asset or property used to secure a loan or other debt",
+      "definationTranslation": "एक ऋण या अन्य देयता को सुरक्षित करने के लिए उपयोग की जाने वाली एक परिसंपत्ति या संपत्ति",
+      "sentence": [
+        {
+          "sentence": "The bank required collateral to secure the loan.",
+          "translation": "बैंक ने ऋण को सुरक्षित करने के लिए गिरवी की आवश्यकता की।"
+        },
+        {
+          "sentence": "The investor used his house as collateral to secure a loan to buy stocks.",
+          "translation": "निवेशक ने स्टॉक खरीदने के लिए ऋण सुरक्षित करने के लिए अपने घर को गिरवी के रूप में उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Risk",
+      "phoneticRespelling": "RIS-k",
+      "translation": "जोखिम",
+      "definition": "The possibility of loss or injury",
+      "definationTranslation": "नुकसान या चोट की संभावना",
+      "sentence": [
+        {
+          "sentence": "The investor took a risk by buying stocks in a volatile market.",
+          "translation": "निवेशक ने एक अस्थिर बाजार में स्टॉक खरीदकर जोखिम उठाया।"
+        },
+        {
+          "sentence": "The company tried to minimize risk by diversifying its portfolio.",
+          "translation": "कंपनी ने अपने पोर्टफोलियो को विविध बनाकर जोखिम को कम करने का प्रयास किया।"
+        }
+      ]
+    },
+    {
+      "word": "Asset",
+      "phoneticRespelling": "AS-set",
+      "translation": "परिसंपत्ति",
+      "definition": "A valuable item or resource",
+      "definationTranslation": "एक मूल्यवान आइटम या संसाधन",
+      "sentence": [
+        {
+          "sentence": "The company's assets include its factory and equipment.",
+          "translation": "कंपनी की परिसंपत्तियों में उसका कारखाना और उपकरण शामिल हैं।"
+        },
+        {
+          "sentence": "The investor's assets include his stocks and bonds.",
+          "translation": "निवेशक की परिसंपत्तियों में उसके स्टॉक और बॉन्ड शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Liability",
+      "phoneticRespelling": "lie-uh-BIL-uh-tee",
+      "translation": "देयता",
+      "definition": "A debt or obligation",
+      "definationTranslation": "एक ऋण या दायित्व",
+      "sentence": [
+        {
+          "sentence": "The company's liabilities include its debts and taxes.",
+          "translation": "कंपनी की देयताओं में उसके ऋण और कर शामिल हैं।"
+        },
+        {
+          "sentence": "The investor's liabilities include his margin calls and fees.",
+          "translation": "निवेशक की देयताओं में उसके मार्जिन कॉल और शुल्क शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Counterparty",
+      "phoneticRespelling": "KOWN-tur-par-tee",
+      "translation": "विपक्षी पक्ष",
+      "definition": "The other party in a financial transaction",
+      "definationTranslation": "एक वित्तीय लेनदेन में दूसरा पक्ष",
+      "sentence": [
+        {
+          "sentence": "The counterparty in the derivatives contract was a large bank.",
+          "translation": "व्युत्पन्न अनुबंध में विपक्षी पक्ष एक बड़ा बैंक था।"
+        },
+        {
+          "sentence": "The investor was required to disclose his identity to the counterparty.",
+          "translation": "निवेशक को विपक्षी पक्ष को अपनी पहचान का खुलासा करने की आवश्यकता थी।"
+        }
+      ]
+    },
+    {
+      "word": "Clearinghouse",
+      "phoneticRespelling": "KLEH-ruhng-hous",
+      "translation": "क्लियरिंगहाउस",
+      "definition": "An organization that facilitates the settlement of financial transactions",
+      "definationTranslation": "एक संगठन जो वित्तीय लेनदेन के निपटान को सुविधाजनक बनाता है",
+      "sentence": [
+        {
+          "sentence": "The clearinghouse guaranteed the settlement of the derivatives contract.",
+          "translation": "क्लियरिंगहाउस ने व्युत्पन्न अनुबंध के निपटान की गारंटी दी।"
+        },
+        {
+          "sentence": "The investor used a clearinghouse to settle his trades.",
+          "translation": "निवेशक ने अपने व्यापार को निपटाने के लिए एक क्लियरिंगहाउस का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Settlement",
+      "phoneticRespelling": "SEH-tul-muhnt",
+      "translation": "निपटान",
+      "definition": "The process of exchanging cash or assets to fulfill a financial obligation",
+      "definationTranslation": "एक वित्तीय दायित्व को पूरा करने के लिए नकद या परिसंपत्तियों का आदान-प्रदान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The settlement of the derivatives contract was facilitated by a clearinghouse.",
+          "translation": "व्युत्पन्न अनुबंध का निपटान एक क्लियरिंगहाउस द्वारा सुविधाजनक बनाया गया था।"
+        },
+        {
+          "sentence": "The investor received payment after the settlement of the trade.",
+          "translation": "निवेशक को व्यापार के निपटान के बाद भुगतान मिला।"
+        }
+      ]
+    },
+    {
+      "word": "Underlying",
+      "phoneticRespelling": "uhn-DAH-ling",
+      "translation": "अंतर्निहित",
+      "definition": "The asset or security that a derivative is based on",
+      "definationTranslation": "परिसंपत्ति या सुरक्षा जिस पर एक व्युत्पन्न आधारित है",
+      "sentence": [
+        {
+          "sentence": "The underlying asset of the option contract was a stock.",
+          "translation": "विकल्प अनुबंध की अंतर्निहित परिसंपत्ति एक स्टॉक थी।"
+        },
+        {
+          "sentence": "The investor bought a derivative based on the underlying asset of gold.",
+          "translation": "निवेशक ने सोने की अंतर्निहित परिसंपत्ति पर आधारित एक व्युत्पन्न खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Maturity",
+      "phoneticRespelling": "muh-CHOO-ruh-tee",
+      "translation": "परिपक्वता",
+      "definition": "The date on which a financial instrument expires or is redeemed",
+      "definationTranslation": "एक वित्तीय उपकरण की समय सीमा समाप्त होने या भुनाए जाने की तिथि",
+      "sentence": [
+        {
+          "sentence": "The maturity date of the bond was 10 years from the issue date.",
+          "translation": "बॉन्ड की परिपक्वता तिथि जारी तिथि से 10 वर्ष थी।"
+        },
+        {
+          "sentence": "The investor bought a derivative with a maturity date in 6 months.",
+          "translation": "निवेशक ने 6 महीने में परिपक्वता तिथि के साथ एक व्युत्पन्न खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Strike",
+      "phoneticRespelling": "STRYK",
+      "translation": "आघात",
+      "definition": "The price at which a derivative can be exercised",
+      "definationTranslation": "वह मूल्य जिस पर एक व्युत्पन्न का प्रयोग किया जा सकता है",
+      "sentence": [
+        {
+          "sentence": "The strike price of the option contract was $50.",
+          "translation": "विकल्प अनुबंध का आघात मूल्य $50 था।"
+        },
+        {
+          "sentence": "The investor bought a derivative with a strike price of $100.",
+          "translation": "निवेशक ने $100 के आघात मूलy के साथ एक व्युत्पन्न खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Expiration",
+      "phoneticRespelling": "ek-spi-REY-shun",
+      "translation": "समय सीमा समाप्ति",
+      "definition": "The date on which a financial instrument expires or becomes worthless",
+      "definationTranslation": "एक वित्तीय उपकरण की समय सीमा समाप्त होने या निस्तेज होने की तिथि",
+      "sentence": [
+        {
+          "sentence": "The expiration date of the option contract was last Friday.",
+          "translation": "विकल्प अनुबंध की समय सीमा समाप्ति तिथि पिछले शुक्रवार को थी।"
+        },
+        {
+          "sentence": "The investor bought a derivative with an expiration date in 3 months.",
+          "translation": "निवेशक ने 3 महीने में समय सीमा समाप्ति तिथि के साथ एक व्युत्पन्न खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Notional",
+      "phoneticRespelling": "noh-TEE-nuhl",
+      "translation": "काल्पनिक",
+      "definition": "The theoretical value of a derivative",
+      "definationTranslation": "एक व्युत्पन्न का सैद्धांतिक मूल्य",
+      "sentence": [
+        {
+          "sentence": "The notional value of the derivative was $1 million.",
+          "translation": "व्युत्पन्न का काल्पनिक मूल्य $1 मिलियन था।"
+        },
+        {
+          "sentence": "The investor bought a derivative with a notional value of $500,000.",
+          "translation": "निवेशक ने $500,000 के काल्पनिक मूल्य के साथ एक व्युत्पन्न खरीदा।"
+        }
+      ]
+    },
+    {
+      "word": "Contingent",
+      "phoneticRespelling": "kun-TIN-jent",
+      "translation": "निर्भर",
+      "definition": "Dependent on a specific event or condition",
+      "definationTranslation": "एक विशिष्ट घटना या स्थिति पर निर्भर",
+      "sentence": [
+        {
+          "sentence": "The payment was contingent on the completion of the project.",
+          "translation": "भुगतान परियोजना के पूरा होने पर निर्भर था।"
+        },
+        {
+          "sentence": "The investor's profit was contingent on the stock's performance.",
+          "translation": "निवेशक का लाभ स्टॉक के प्रदर्शन पर निर्भर था।"
+        }
+      ]
+    },
+    {
+      "word": "Premium",
+      "phoneticRespelling": "PREH-mee-uhm",
+      "translation": "प्रीमियम",
+      "definition": "The amount paid for a derivative or insurance contract",
+      "definationTranslation": "एक व्युत्पन्न या बीमा अनुबंध के लिए भुगतान की जाने वाली राशि",
+      "sentence": [
+        {
+          "sentence": "The investor paid a premium to buy the option contract.",
+          "translation": "निवेशक ने विकल्प अनुबंध खरीदने के लिए एक प्रीमियम का भुगतान किया।"
+        },
+        {
+          "sentence": "The premium for the insurance policy was higher than expected.",
+          "translation": "बीमा पॉलिसी के लिए प्रीमियम अपेक्षा से अधिक था।"
+        }
+      ]
+    },
+    {
+      "word": "Put",
+      "phoneticRespelling": "PUHT",
+      "translation": "पुट",
+      "definition": "A derivative that gives the holder the right to sell an underlying asset",
+      "definationTranslation": "एक व्युत्पन्न जो धारक को एक अंतर्निहित परिसंपत्ति बेचने का अधिकार देता है",
+      "sentence": [
+        {
+          "sentence": "The investor bought a put option to protect against a decline in the stock's value.",
+          "translation": "निवेशक ने स्टॉक के मूल्य में गिरावट के खिलाफ सुरक्षा के लिए एक पुट विकल्प खरीदा।"
+        },
+        {
+          "sentence": "The put option gave the investor the right to sell the stock at a specified price.",
+          "translation": "पुट विकल्प ने निवेशक को एक निर्दिष्ट मूल्य पर स्टॉक बेचने का अधिकार दिया।"
+        }
+      ]
+    },
+    {
+      "word": "Call",
+      "phoneticRespelling": "KAWL",
+      "translation": "कॉल",
+      "definition": "A derivative that gives the holder the right to buy an underlying asset",
+      "definationTranslation": "एक व्युत्पन्न जो धारक को एक अंतर्निहित परिसंपत्ति खरीदने का अधिकार देता है",
+      "sentence": [
+        {
+          "sentence": "The investor bought a call option to speculate on the stock's potential increase in value.",
+          "translation": "निवेशक ने स्टॉक के मूल्य में संभावित वृद्धि पर सट्टा लगाने के लिए एक कॉल विकल्प खरीदा।"
+        },
+        {
+          "sentence": "The call option gave the investor the right to buy the stock at a specified price.",
+          "translation": "कॉल विकल्प ने निवेशक को एक निर्दिष्ट मूल्य पर स्टॉक खरीदने का अधिकार दिया।"
+        }
+      ]
+    }
+  ]
+}
