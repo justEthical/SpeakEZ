@@ -1,1 +1,396 @@
-{}
+{
+  "topic": "Cyberwarfare",
+  "words": [
+    {
+      "word": "Malware",
+      "phoneticRespelling": "MAL-ware",
+      "translation": "हानिकारक सॉफ्टवेयर",
+      "definition": "Software designed to harm or exploit a computer system",
+      "definationTranslation": "कम्प्यूटर सिस्टम को नुकसान पहुंचाने या शोषण करने के लिए डिज़ाइन किया गया सॉफ़्टवेयर",
+      "sentence": [
+        {
+          "sentence": "The company's network was infected with malware.",
+          "translation": "कंपनी का नेटवर्क हानिकारक सॉफ़्टवेयर से संक्रमित हो गया था।"
+        },
+        {
+          "sentence": "Malware is a major threat to cybersecurity.",
+          "translation": "हानिकारक सॉफ़्टवेयर साइबर सुरक्षा के लिए एक बड़ा खतरा है।"
+        }
+      ]
+    },
+    {
+      "word": "Phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "मछली पकड़ना",
+      "definition": "The practice of attempting to obtain sensitive information by disguising as a trustworthy entity",
+      "definationTranslation": "एक विश्वसनीय इकाई के रूप में प्रस्तुत करके संवेदनशील जानकारी प्राप्त करने का प्रयास",
+      "sentence": [
+        {
+          "sentence": "Phishing attacks are becoming increasingly common.",
+          "translation": "मछली पकड़ने के हमले बढ़ते जा रहे हैं।"
+        },
+        {
+          "sentence": "Be cautious when clicking on links to avoid phishing scams.",
+          "translation": "मछली पकड़ने के घोटालों से बचने के लिए लिंक पर क्लिक करते समय सावधान रहें।"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FYE-er-wahl",
+      "translation": "अग्नि दीवार",
+      "definition": "A system or network that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "एक प्रणाली या नेटवर्क जो आने वाले और जाने वाले नेटवर्क ट्रैफिक की निगरानी और नियंत्रण करता है",
+      "sentence": [
+        {
+          "sentence": "The company's firewall blocked the malicious attack.",
+          "translation": "कंपनी की अग्नि दीवार ने दुर्भावनापूर्ण हमले को अवरुद्ध कर दिया।"
+        },
+        {
+          "sentence": "Firewalls are essential for protecting computer networks.",
+          "translation": "अग्नि दीवारें कंप्यूटर नेटवर्क की सुरक्षा के लिए आवश्यक हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIHP-shun",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable ciphertext",
+      "definationTranslation": "मूल पाठ को अपठ्य सिफरटेक्स्ट में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Encryption is used to protect sensitive data.",
+          "translation": "संवेदनशील डेटा की सुरक्षा के लिए एन्क्रिप्शन का उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "Encryption algorithms are used to secure online transactions.",
+          "translation": "ऑनलाइन लेन-देन को सुरक्षित करने के लिए एन्क्रिप्शन एल्गोरिदम का उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Virus",
+      "phoneticRespelling": "VYE-rus",
+      "translation": "वायरस",
+      "definition": "A piece of code that replicates itself and attaches to other programs or files",
+      "definationTranslation": "एक कोड का टुकड़ा जो स्वयं को दोहराता है और अन्य कार्यक्रमों या फ़ाइलों से जुड़ता है",
+      "sentence": [
+        {
+          "sentence": "The computer virus spread quickly through the network.",
+          "translation": "कंप्यूटर वायरस नेटवर्क के माध्यम से जल्दी फैल गया।"
+        },
+        {
+          "sentence": "Antivirus software is used to detect and remove viruses.",
+          "translation": "वायरस का पता लगाने और हटाने के लिए एंटीवायरस सॉफ्टवेयर का उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Trojan",
+      "phoneticRespelling": "TROH-jun",
+      "translation": "ट्रोजन",
+      "definition": "A type of malware that disguises itself as a legitimate program",
+      "definationTranslation": "एक प्रकार का हानिकारक सॉफ़्टवेयर जो स्वयं को एक वैध कार्यक्रम के रूप में प्रस्तुत करता है",
+      "sentence": [
+        {
+          "sentence": "The trojan horse virus infected the company's network.",
+          "translation": "ट्रोजन घोड़ा वायरस ने कंपनी के नेटवर्क को संक्रमित किया।"
+        },
+        {
+          "sentence": "Trojans can be used to steal sensitive information.",
+          "translation": "ट्रोजन्स संवेदनशील जानकारी चोरी करने के लिए उपयोग किए जा सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Worm",
+      "phoneticRespelling": "WURM",
+      "translation": "कीड़ा",
+      "definition": "A type of malware that replicates itself and spreads to other computers",
+      "definationTranslation": "एक प्रकार का हानिकारक सॉफ़्टवेयर जो स्वयं को दोहराता है और अन्य कंप्यूटरों में फैलता है",
+      "sentence": [
+        {
+          "sentence": "The worm virus spread quickly through the internet.",
+          "translation": "कीड़ा वायरस ने इंटरनेट के माध्यम से जल्दी फैल गया।"
+        },
+        {
+          "sentence": "Worms can be used to launch denial-of-service attacks.",
+          "translation": "कीड़ों का उपयोग सेवा से इनकार करने वाले हमलों को शुरू करने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Spyware",
+      "phoneticRespelling": "SPY-ware",
+      "translation": "जासूसी सॉफ्टवेयर",
+      "definition": "A type of malware that secretly monitors and collects information about a user's activities",
+      "definationTranslation": "एक प्रकार का हानिकारक सॉफ़्टवेयर जो गुप्त रूप से एक उपयोगकर्ता की गतिविधियों की निगरानी और संग्रह करता है",
+      "sentence": [
+        {
+          "sentence": "Spyware can be used to steal sensitive information.",
+          "translation": "जासूसी सॉफ्टवेयर का उपयोग संवेदनशील जानकारी चोरी करने के लिए किया जा सकता है।"
+        },
+        {
+          "sentence": "Spyware is often bundled with other software.",
+          "translation": "जासूसी सॉफ्टवेयर अक्सर अन्य सॉफ्टवेयर के साथ बंडल किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Ransomware",
+      "phoneticRespelling": "RAN-suhm-ware",
+      "translation": "फिरौती सॉफ्टवेयर",
+      "definition": "A type of malware that demands payment in exchange for restoring access to data",
+      "definationTranslation": "एक प्रकार का हानिकारक सॉफ़्टवेयर जो डेटा तक पहुंच को बहाल करने के बदले भुगतान की मांग करता है",
+      "sentence": [
+        {
+          "sentence": "Ransomware attacks have become increasingly common.",
+          "translation": "फिरौती सॉफ्टवेयर के हमले बढ़ते जा रहे हैं।"
+        },
+        {
+          "sentence": "Ransomware can be used to extort money from victims.",
+          "translation": "फिरौती सॉफ्टवेयर का उपयोग पीड़ितों से पैसे वसूलने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cyberattack",
+      "phoneticRespelling": "SY-ber-uh-tak",
+      "translation": "साइबर हमला",
+      "definition": "An attempt to compromise or disrupt a computer system or network",
+      "definationTranslation": "एक कंप्यूटर सिस्टम या नेटवर्क को समझौता करने या बाधित करने का प्रयास",
+      "sentence": [
+        {
+          "sentence": "The company suffered a major cyberattack last year.",
+          "translation": "कंपनी को पिछले साल एक बड़ा साइबर हमला झेलना पड़ा।"
+        },
+        {
+          "sentence": "Cyberattacks can have serious consequences for businesses.",
+          "translation": "साइबर हमले व्यवसायों के लिए गंभीर परिणाम हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A group of interconnected computers or devices",
+      "definationTranslation": "आपस में जुड़े कंप्यूटरों या उपकरणों का एक समूह",
+      "sentence": [
+        {
+          "sentence": "The company's network was hacked by a cyber attacker.",
+          "translation": "कंपनी के नेटवर्क में साइबर हमलावर द्वारा सेंध लगाई गई थी।"
+        },
+        {
+          "sentence": "Network security is a top priority for many organizations.",
+          "translation": "नेटवर्क सुरक्षा कई संगठनों के लिए एक शीर्ष प्राथमिकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Database",
+      "phoneticRespelling": "DAY-tuh-bays",
+      "translation": "डेटाबेस",
+      "definition": "A collection of organized data that is stored in a way that allows for efficient retrieval and manipulation",
+      "definationTranslation": "एक संगठित डेटा का संग्रह जो एक तरीके में संग्रहीत किया जाता है जो कुशल पुनर्प्राप्ति और हेरफेर की अनुमति देता है",
+      "sentence": [
+        {
+          "sentence": "The company's database was breached by a hacker.",
+          "translation": "कंपनी के डेटाबेस में एक हैकर द्वारा सेंध लगाई गई थी।"
+        },
+        {
+          "sentence": "Databases are used to store and manage large amounts of data.",
+          "translation": "डेटाबेस विशाल मात्रा में डेटा को संग्रहीत करने और प्रबंधित करने के लिए उपयोग किए जाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-rih-thuhm",
+      "translation": "अल्गोरिथ्म",
+      "definition": "A set of instructions that is used to solve a specific problem or perform a particular task",
+      "definationTranslation": "एक निर्देशों का सेट जो एक विशिष्ट समस्या को हल करने या एक विशेष कार्य करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in the software was complex and difficult to understand.",
+          "translation": "सॉफ़्टवेयर में उपयोग किया गया अल्गोरिथ्म जटिल और समझने में मुश्किल था।"
+        },
+        {
+          "sentence": "Algorithms are used in many areas of computer science.",
+          "translation": "अल्गोरिथ्म कम्प्यूटर विज्ञान के कई क्षेत्रों में उपयोग किए जाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Encryptionkey",
+      "phoneticRespelling": "en-KRIHP-shun-kee",
+      "translation": "एन्क्रिप्शन कुंजी",
+      "definition": "A secret code used to encrypt and decrypt data",
+      "definationTranslation": "डेटा को एन्क्रिप्ट और डिक्रिप्ट करने के लिए उपयोग किया जाने वाला एक गुप्त कोड",
+      "sentence": [
+        {
+          "sentence": "The encryption key was used to secure the sensitive data.",
+          "translation": "संवेदनशील डेटा को सुरक्षित करने के लिए एन्क्रिप्शन कुंजी का उपयोग किया गया था।"
+        },
+        {
+          "sentence": "Encryption keys are used to protect data from unauthorized access.",
+          "translation": "एन्क्रिप्शन कुंजी डेटा को अनधिकृत पहुंच से बचाने के लिए उपयोग की जाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Firewallrule",
+      "phoneticRespelling": "FYE-er-wahl-rool",
+      "translation": "अग्नि दीवार नियम",
+      "definition": "A set of instructions that defines how a firewall should behave",
+      "definationTranslation": "एक निर्देशों का सेट जो परिभाषित करता है कि एक अग्नि दीवार को कैसे व्यवहार करना चाहिए",
+      "sentence": [
+        {
+          "sentence": "The firewall rule was configured to block incoming traffic.",
+          "translation": "अग्नि दीवार नियम आगामी ट्रैफिक को अवरुद्ध करने के लिए कॉन्फ़िगर किया गया था।"
+        },
+        {
+          "sentence": "Firewall rules are used to control access to a network.",
+          "translation": "अग्नि दीवार नियम एक नेटवर्क तक पहुंच को नियंत्रित करने के लिए उपयोग किए जाते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Intrusion",
+      "phoneticRespelling": "in-TROO-zhun",
+      "translation": "घुसपैठ",
+      "definition": "The act of entering a computer system or network without authorization",
+      "definationTranslation": "एक कंप्यूटर सिस्टम या नेटवर्क में अधिकृत किए बिना प्रवेश करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The intrusion detection system alerted the administrator to a potential threat.",
+          "translation": "घुसपैठ पता लगाने वाली प्रणाली ने प्रशासक को एक संभावित खतरे के बारे में सचेत किया।"
+        },
+        {
+          "sentence": "Intrusion detection systems are used to identify and prevent unauthorized access.",
+          "translation": "घुसपैठ पता लगाने वाली प्रणाली अनधिकृत पहुंच की पहचान और रोकथाम के लिए उपयोग की जाती हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Vulnerability",
+      "phoneticRespelling": "vuhln-ruh-BIL-uh-tee",
+      "translation": "कमजोरी",
+      "definition": "A weakness in a computer system or network that can be exploited by an attacker",
+      "definationTranslation": "एक कंप्यूटर सिस्टम या नेटवर्क में एक कमजोरी जो एक हमलावर द्वारा शोषण की जा सकती है",
+      "sentence": [
+        {
+          "sentence": "The vulnerability in the software was exploited by a hacker.",
+          "translation": "सॉफ़्टवेयर में कमजोरी का फायदा एक हैकर ने उठाया।"
+        },
+        {
+          "sentence": "Vulnerabilities can be used to gain unauthorized access to a system.",
+          "translation": "कमजोरियों का उपयोग एक प्रणाली तक अनधिकृत पहुंच प्राप्त करने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Penetration",
+      "phoneticRespelling": "pen-uh-TRAY-shun",
+      "translation": "प्रवेश",
+      "definition": "The act of gaining access to a computer system or network",
+      "definationTranslation": "एक कंप्यूटर सिस्टम या नेटवर्क में पहुंच प्राप्त करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The penetration test revealed several vulnerabilities in the system.",
+          "translation": "प्रवेश परीक्षण में प्रणाली में कई कमजोरियों का खुलासा हुआ।"
+        },
+        {
+          "sentence": "Penetration testing is used to identify weaknesses in a system.",
+          "translation": "प्रवेश परीक्षण एक प्रणाली में कमजोरियों की पहचान करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Exploit",
+      "phoneticRespelling": "EK-splowt",
+      "translation": "शोषण",
+      "definition": "A piece of code that takes advantage of a vulnerability in a computer system or network",
+      "definationTranslation": "एक कोड का टुकड़ा जो एक कंप्यूटर सिस्टम या नेटवर्क में एक कमजोरी का लाभ उठाता है",
+      "sentence": [
+        {
+          "sentence": "The exploit was used to gain unauthorized access to the system.",
+          "translation": "शोषण का उपयोग अनधिकृत पहुंच प्राप्त करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "Exploits can be used to compromise the security of a system.",
+          "translation": "शोषण का उपयोग एक प्रणाली की सुरक्षा को समझौता करने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Backdoor",
+      "phoneticRespelling": "BAK-door",
+      "translation": "पिछवाड़ा",
+      "definition": "A secret entry point into a computer system or network",
+      "definationTranslation": "एक कंप्यूटर सिस्टम या नेटवर्क में एक गुप्त प्रवेश बिंदु",
+      "sentence": [
+        {
+          "sentence": "The backdoor was used by the hacker to gain unauthorized access to the system.",
+          "translation": "पिछवाड़े का उपयोग हैकर ने प्रणाली तक अनधिकृत पहुंच प्राप्त करने के लिए किया था।"
+        },
+        {
+          "sentence": "Backdoors can be used to bypass security measures.",
+          "translation": "पिछवाड़े का उपयोग सुरक्षा उपायों को बायपास करने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Rootkit",
+      "phoneticRespelling": "ROOT-kit",
+      "translation": "रूटकिट",
+      "definition": "A type of malware that hides itself and other malicious programs from the operating system",
+      "definationTranslation": "एक प्रकार का हानिकारक सॉफ़्टवेयर जो स्वयं और अन्य दुर्भावनापूर्ण कार्यक्रमों को ऑपरेटिंग सिस्टम से छिपाता है",
+      "sentence": [
+        {
+          "sentence": "The rootkit was used to hide the malicious software from the operating system.",
+          "translation": "रूटकिट का उपयोग ऑपरेटिंग सिस्टम से दुर्भावनापूर्ण सॉफ्टवेयर को छिपाने के लिए किया गया था।"
+        },
+        {
+          "sentence": "Rootkits can be used to conceal malicious activity.",
+          "translation": "रूटकिट का उपयोग दुर्भावनापूर्ण गतिविधि को छिपाने के लिए किया जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Keylogger",
+      "phoneticRespelling": "KEE-log-er",
+      "translation": "कीलॉगर",
+      "definition": "A type of malware that records keystrokes and sends them to a remote server",
+      "definationTranslation": "एक प्रकार का हानिकारक सॉफ़्टवेयर जो कीस्ट्रोक्स को रिकॉर्ड करता है और उन्हें एक दूरस्थ सर्वर पर भेजता है",
+      "sentence": [
+        {
+          "sentence": "The keylogger was used to steal sensitive information.",
+          "translation": "कीलॉगर का उपयोग संवेदनशील जानकारी चोरी करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "Keyloggers can be used to monitor user activity.",
+          "translation": "कीलॉगर उपयोगकर्ता गतिविधि की निगरानी के लिए उपयोग किए जा सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Botnet",
+      "phoneticRespelling": "BOT-net",
+      "translation": "बॉटनेट",
+      "definition": "A network of compromised computers that are controlled by an attacker",
+      "definationTranslation": "एक नेटवर्क जो समझौता किए गए कंप्यूटरों का है जो एक हमलावर द्वारा नियंत्रित किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The botnet was used to launch a denial-of-service attack.",
+          "translation": "बॉटनेट का उपयोग सेवा से इनकार करने वाले हमले को शुरू करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "Botnets can be used to spread malware and conduct other malicious activities.",
+          "translation": "बॉटनेट का उपयोग हानिकारक सॉफ़्टवेयर फैलाने और अन्य दुर्भावनापूर्ण गतिविधियों को करने के लिए किया जा सकता है।"
+        }
+      ]
+    }
+  ]
+}
