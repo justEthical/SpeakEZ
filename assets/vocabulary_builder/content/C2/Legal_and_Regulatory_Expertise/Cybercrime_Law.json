@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Cybercrime Law",
+  "words": [
+    {
+      "word": "Hacking",
+      "phoneticRespelling": "HAK-ing",
+      "translation": "हैकिंग",
+      "definition": "The act of gaining unauthorized access to a computer system",
+      "definationTranslation": "कम्प्यूटर सिस्टम में अनधिकृत पहुंच प्राप्त करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The company's database was compromised due to hacking.",
+          "translation": "हैकिंग के कारण कंपनी का डेटाबेस खतरे में पड़ गया।"
+        },
+        {
+          "sentence": "The hacker was able to gain access to sensitive information through hacking.",
+          "translation": "हैकर हैकिंग के माध्यम से संवेदनशील जानकारी तक पहुंच सका।"
+        }
+      ]
+    },
+    {
+      "word": "Phishing",
+      "phoneticRespelling": "FISH-ing",
+      "translation": "फ़िशिंग",
+      "definition": "The act of attempting to obtain sensitive information by disguising as a trustworthy entity",
+      "definationTranslation": "विश्वसनीय इकाई के रूप में प्रस्तुत करके संवेदनशील जानकारी प्राप्त करने का प्रयास",
+      "sentence": [
+        {
+          "sentence": "The phishing email tried to trick the user into revealing their password.",
+          "translation": "फ़िशिंग ईमेल ने उपयोगकर्ता को उनका पासवर्ड बताने के लिए धोखा देने का प्रयास किया।"
+        },
+        {
+          "sentence": "The company warned its employees about the dangers of phishing.",
+          "translation": "कंपनी ने अपने कर्मचारियों को फ़िशिंग के खतरों के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Malware",
+      "phoneticRespelling": "MAL-wair",
+      "translation": "मालवेयर",
+      "definition": "Software designed to harm or exploit a computer system",
+      "definationTranslation": "कम्प्यूटर सिस्टम को नुकसान पहुंचाने या शोषण करने के लिए डिज़ाइन किया गया सॉफ़्टवेयर",
+      "sentence": [
+        {
+          "sentence": "The malware infected the computer and caused it to crash.",
+          "translation": "मालवेयर ने कंप्यूटर को संक्रमित किया और इसे क्रैश कर दिया।"
+        },
+        {
+          "sentence": "The antivirus software was able to detect and remove the malware.",
+          "translation": "एंटीवायरस सॉफ़्टवेयर मालवेयर का पता लगाने और हटाने में सक्षम था।"
+        }
+      ]
+    },
+    {
+      "word": "Cyberstalking",
+      "phoneticRespelling": "SY-ber-stol-king",
+      "translation": "साइबर स्टॉकिंग",
+      "definition": "The act of using the internet to harass or intimidate someone",
+      "definationTranslation": "किसी को परेशान करने या डराने के लिए इंटरनेट का उपयोग करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The victim of cyberstalking felt scared and vulnerable.",
+          "translation": "साइबर स्टॉकिंग का शिकार महसूस कर रहा था और कमजोर महसूस कर रहा था।"
+        },
+        {
+          "sentence": "The police took action against the person accused of cyberstalking.",
+          "translation": "पुलिस ने साइबर स्टॉकिंग के आरोपी व्यक्ति के खिलाफ कार्रवाई की।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIH-shun",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable ciphertext",
+      "definationTranslation": "प्लेनटेक्स्ट को अन पढ़ने योग्य साइटेक्स्ट में बदलने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company used encryption to protect its sensitive data.",
+          "translation": "कंपनी ने अपने संवेदनशील डेटा की रक्षा के लिए एन्क्रिप्शन का उपयोग किया।"
+        },
+        {
+          "sentence": "The encryption algorithm was complex and difficult to crack.",
+          "translation": "एन्क्रिप्शन अल्गोरिथम जटिल और तोड़ने में मुश्किल था।"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FY-er-wol",
+      "translation": "फ़ायरवॉल",
+      "definition": "A system or network that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "एक प्रणाली या नेटवर्क जो आने वाले और जाने वाले नेटवर्क यातायात की निगरानी और नियंत्रण करता है",
+      "sentence": [
+        {
+          "sentence": "The firewall blocked the malicious traffic from entering the network.",
+          "translation": "फ़ायरवॉल ने नेटवर्क में प्रवेश करने वाले दुर्भावनापूर्ण यातायात को अवरुद्ध कर दिया।"
+        },
+        {
+          "sentence": "The company installed a firewall to protect its network from hackers.",
+          "translation": "कंपनी ने हैकर्स से अपने नेटवर्क की रक्षा के लिए एक फ़ायरवॉल स्थापित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Password",
+      "phoneticRespelling": "PASS-wurd",
+      "translation": "पासवर्ड",
+      "definition": "A secret word or phrase used to gain access to a computer system",
+      "definationTranslation": "कम्प्यूटर सिस्टम तक पहुंच प्राप्त करने के लिए उपयोग किया जाने वाला एक गुप्त शब्द या वाक्यांश",
+      "sentence": [
+        {
+          "sentence": "The user forgot their password and was unable to log in.",
+          "translation": "उपयोगकर्ता अपना पासवर्ड भूल गए और लॉग इन नहीं कर सके।"
+        },
+        {
+          "sentence": "The company required its employees to change their passwords regularly.",
+          "translation": "कंपनी ने अपने कर्मचारियों को नियमित रूप से अपने पासवर्ड बदलने की आवश्यकता थी।"
+        }
+      ]
+    },
+    {
+      "word": "Spam",
+      "phoneticRespelling": "SPAM",
+      "translation": "स्पैम",
+      "definition": "Unsolicited emails or messages sent to a large number of people",
+      "definationTranslation": "एक बड़ी संख्या में लोगों को भेजे जाने वाले अनचाहे ईमेल या संदेश",
+      "sentence": [
+        {
+          "sentence": "The spam filter caught most of the unwanted emails.",
+          "translation": "स्पैम फ़िल्टर ने अधिकांश अनचाहे ईमेल पकड़ लिए।"
+        },
+        {
+          "sentence": "The company received a large amount of spam emails every day.",
+          "translation": "कंपनी को हर दिन बहुत सारे स्पैम ईमेल मिले।"
+        }
+      ]
+    },
+    {
+      "word": "Virus",
+      "phoneticRespelling": "VY-rus",
+      "translation": "वायरस",
+      "definition": "A computer program that replicates itself and causes harm to a computer system",
+      "definationTranslation": "एक कम्प्यूटर प्रोग्राम जो खुद को दोहराता है और कम्प्यूटर सिस्टम को नुकसान पहुंचाता है",
+      "sentence": [
+        {
+          "sentence": "The virus infected the computer and caused it to crash.",
+          "translation": "वायरस ने कंप्यूटर को संक्रमित किया और इसे क्रैश कर दिया।"
+        },
+        {
+          "sentence": "The antivirus software was able to detect and remove the virus.",
+          "translation": "एंटीवायरस सॉफ़्टवेयर वायरस का पता लगाने और हटाने में सक्षम था।"
+        }
+      ]
+    },
+    {
+      "word": "Worm",
+      "phoneticRespelling": "WURM",
+      "translation": "वर्म",
+      "definition": "A self-replicating computer program that spreads from system to system",
+      "definationTranslation": "एक स्व-प्रतिकृति कम्प्यूटर प्रोग्राम जो सिस्टम से सिस्टम में फैलता है",
+      "sentence": [
+        {
+          "sentence": "The worm spread quickly through the network and caused significant damage.",
+          "translation": "वर्म ने तेजी से नेटवर्क में फैल गया और महत्वपूर्ण नुकसान पहुंचाया।"
+        },
+        {
+          "sentence": "The company took steps to prevent the worm from spreading further.",
+          "translation": "कंपनी ने वर्म को और आगे फैलने से रोकने के लिए कदम उठाए।"
+        }
+      ]
+    },
+    {
+      "word": "Trojan",
+      "phoneticRespelling": "TROH-jun",
+      "translation": "ट्रोजन",
+      "definition": "A type of malware that disguises itself as legitimate software",
+      "definationTranslation": "एक प्रकार का मालवेयर जो खुद को वैध सॉफ़्टवेयर के रूप में प्रस्तुत करता है",
+      "sentence": [
+        {
+          "sentence": "The trojan horse virus was hidden in a seemingly harmless program.",
+          "translation": "ट्रोजन हॉर्स वायरस एक प्रतीत होने वाले हानिरहित प्रोग्राम में छिपा था।"
+        },
+        {
+          "sentence": "The company warned its employees about the dangers of trojan horses.",
+          "translation": "कंपनी ने अपने कर्मचारियों को ट्रोजन हॉर्स के खतरों के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Botnet",
+      "phoneticRespelling": "BOHT-net",
+      "translation": "बॉटनेट",
+      "definition": "A network of private computers infected with malicious software",
+      "definationTranslation": "दुर्भावनापूर्ण सॉफ़्टवेयर से संक्रमित निजी कंप्यूटरों का नेटवर्क",
+      "sentence": [
+        {
+          "sentence": "The botnet was used to launch a massive cyber attack.",
+          "translation": "बॉटनेट का उपयोग एक बड़े साइबर हमले को शुरू करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "The company took steps to prevent its computers from being used in a botnet.",
+          "translation": "कंपनी ने अपने कंप्यूटरों को बॉटनेट में उपयोग किए जाने से रोकने के लिए कदम उठाए।"
+        }
+      ]
+    },
+    {
+      "word": "DDoS",
+      "phoneticRespelling": "DEE-dee-oh-ess",
+      "translation": "डीडीओएस",
+      "definition": "A type of cyber attack in which a website or network is flooded with traffic",
+      "definationTranslation": "एक प्रकार का साइबर हमला जिसमें एक वेबसाइट या नेटवर्क यातायात से भरा होता है",
+      "sentence": [
+        {
+          "sentence": "The company's website was taken down by a DDoS attack.",
+          "translation": "कंपनी की वेबसाइट को डीडीओएस हमले द्वारा नीचे ले जाया गया था।"
+        },
+        {
+          "sentence": "The company took steps to prevent its website from being vulnerable to DDoS attacks.",
+          "translation": "कंपनी ने अपनी वेबसाइट को डीडीओएस हमलों के लिए कमजोर होने से रोकने के लिए कदम उठाए।"
+        }
+      ]
+    },
+    {
+      "word": "Pharmaceutical",
+      "phoneticRespelling": "FAR-muh-seh-tih-kul",
+      "translation": "फार्मास्यूटिकल",
+      "definition": "Relating to the production and sale of medicinal drugs",
+      "definationTranslation": "चिकित्सीय दवाओं के उत्पादन और बिक्री से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The company was involved in the pharmaceutical industry.",
+          "translation": "कंपनी फार्मास्यूटिकल उद्योग में शामिल थी।"
+        },
+        {
+          "sentence": "The pharmaceutical company developed a new medicine to treat the disease.",
+          "translation": "फार्मास्यूटिकल कंपनी ने बीमारी का इलाज करने के लिए एक नई दवा विकसित की।"
+        }
+      ]
+    },
+    {
+      "word": "Cybersecurity",
+      "phoneticRespelling": "SY-ber-seh-KYUR-ih-tee",
+      "translation": "साइबर सुरक्षा",
+      "definition": "The protection of computer systems and networks from cyber threats",
+      "definationTranslation": "साइबर खतरों से कंप्यूटर सिस्टम और नेटवर्क की रक्षा",
+      "sentence": [
+        {
+          "sentence": "The company invested in cybersecurity measures to protect its data.",
+          "translation": "कंपनी ने अपने डेटा की रक्षा के लिए साइबर सुरक्षा उपायों में निवेश किया।"
+        },
+        {
+          "sentence": "The importance of cybersecurity cannot be overstated.",
+          "translation": "साइबर सुरक्षा के महत्व को कम करके नहीं आंका जा सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIH-shun",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable ciphertext",
+      "definationTranslation": "प्लेनटेक्स्ट को अन पढ़ने योग्य साइटेक्स्ट में बदलने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The company used encryption to protect its sensitive data.",
+          "translation": "कंपनी ने अपने संवेदनशील डेटा की रक्षा के लिए एन्क्रिप्शन का उपयोग किया।"
+        },
+        {
+          "sentence": "The encryption algorithm was complex and difficult to crack.",
+          "translation": "एन्क्रिप्शन अल्गोरिथम जटिल और तोड़ने में मुश्किल था।"
+        }
+      ]
+    },
+    {
+      "word": "Firewall",
+      "phoneticRespelling": "FY-er-wol",
+      "translation": "फ़ायरवॉल",
+      "definition": "A system or network that monitors and controls incoming and outgoing network traffic",
+      "definationTranslation": "एक प्रणाली या नेटवर्क जो आने वाले और जाने वाले नेटवर्क यातायात की निगरानी और नियंत्रण करता है",
+      "sentence": [
+        {
+          "sentence": "The firewall blocked the malicious traffic from entering the network.",
+          "translation": "फ़ायरवॉल ने नेटवर्क में प्रवेश करने वाले दुर्भावनापूर्ण यातायात को अवरुद्ध कर दिया।"
+        },
+        {
+          "sentence": "The company installed a firewall to protect its network from hackers.",
+          "translation": "कंपनी ने अपने नेटवर्क को हैकर्स से बचाने के लिए एक फ़ायरवॉल स्थापित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Antivirus",
+      "phoneticRespelling": "AN-tee-VY-rus",
+      "translation": "एंटीवायरस",
+      "definition": "Software designed to detect and remove malware from a computer system",
+      "definationTranslation": "मलवेयर का पता लगाने और कम्प्यूटर सिस्टम से हटाने के लिए डिज़ाइन किया गया सॉफ़्टवेयर",
+      "sentence": [
+        {
+          "sentence": "The antivirus software was able to detect and remove the virus.",
+          "translation": "एंटीवायरस सॉफ़्टवेयर वायरस का पता लगाने और हटाने में सक्षम था।"
+        },
+        {
+          "sentence": "The company installed antivirus software on all of its computers.",
+          "translation": "कंपनी ने अपने सभी कंप्यूटरों पर एंटीवायरस सॉफ़्टवेयर स्थापित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Spyware",
+      "phoneticRespelling": "SPY-wair",
+      "translation": "स्पाइवेयर",
+      "definition": "Software that secretly monitors and collects information about a user's computer activities",
+      "definationTranslation": "सॉफ़्टवेयर जो एक उपयोगकर्ता के कंप्यूटर गतिविधियों के बारे में जानकारी की निगरानी और संग्रहीत करने के लिए गुप्त रूप से",
+      "sentence": [
+        {
+          "sentence": "The spyware was installed on the computer without the user's knowledge.",
+          "translation": "स्पाइवेयर को उपयोगकर्ता की जानकारी के बिना कंप्यूटर पर स्थापित किया गया था।"
+        },
+        {
+          "sentence": "The company warned its employees about the dangers of spyware.",
+          "translation": "कंपनी ने अपने कर्मचारियों को स्पाइवेयर के खतरों के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Adware",
+      "phoneticRespelling": "AD-wair",
+      "translation": "एडवेयर",
+      "definition": "Software that displays advertisements on a user's computer",
+      "definationTranslation": "सॉफ़्टवेयर जो एक उपयोगकर्ता के कंप्यूटर पर विज्ञापन प्रदर्शित करता है",
+      "sentence": [
+        {
+          "sentence": "The adware was installed on the computer without the user's knowledge.",
+          "translation": "एडवेयर को उपयोगकर्ता की जानकारी के बिना कंप्यूटर पर स्थापित किया गया था।"
+        },
+        {
+          "sentence": "The company warned its employees about the dangers of adware.",
+          "translation": "कंपनी ने अपने कर्मचारियों को एडवेयर के खतरों के बारे में चेतावनी दी।"
+        }
+      ]
+    },
+    {
+      "word": "Ransomware",
+      "phoneticRespelling": "RAN-suhm-wair",
+      "translation": "रैनसमवेयर",
+      "definition": "Malware that demands payment in exchange for restoring access to data",
+      "definationTranslation": "मलवेयर जो डेटा तक पहुंच को पुनर्स्थापित करने के बदले में भुगतान की मांग करता है",
+      "sentence": [
+        {
+          "sentence": "The ransomware attack locked the company's files and demanded payment.",
+          "translation": "रैनसमवेयर हमले ने कंपनी की फ़ाइलों को लॉक कर दिया और भुगतान की मांग की।"
+        },
+        {
+          "sentence": "The company refused to pay the ransom and instead restored its data from backups.",
+          "translation": "कंपनी ने फिरौती का भुगतान करने से इनकार कर दिया और इसके stead अपने डेटा को बैकअप से पुनर्स्थापित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Cyberbullying",
+      "phoneticRespelling": "SY-ber-BUL-ee-ing",
+      "translation": "साइबर धमकी",
+      "definition": "The act of using the internet to harass or intimidate someone",
+      "definationTranslation": "किसी को परेशान करने या डराने के लिए इंटरनेट का उपयोग करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The victim of cyberbullying felt scared and vulnerable.",
+          "translation": "साइबर धमकी का शिकार महसूस कर रहा था और कमजोर महसूस कर रहा था।"
+        },
+        {
+          "sentence": "The company took steps to prevent cyberbullying in the workplace.",
+          "translation": "कंपनी ने कार्यस्थल में साइबर धमकी को रोकने के लिए कदम उठाए।"
+        }
+      ]
+    },
+    {
+      "word": "Cyberattack",
+      "phoneticRespelling": "SY-ber-uh-tak",
+      "translation": "साइबर हमला",
+      "definition": "An attempt to disrupt or disable a computer system or network",
+      "definationTranslation": "एक कम्प्यूटर सिस्टम या नेटवर्क को बाधित या अक्षम करने का प्रयास",
+      "sentence": [
+        {
+          "sentence": "The company suffered a cyberattack and lost sensitive data.",
+          "translation": "कंपनी को साइबर हमला हुआ और संवेदनशील डेटा खो दिया।"
+        },
+        {
+          "sentence": "The company took steps to prevent cyberattacks and protect its data.",
+          "translation": "कंपनी ने साइबर हमलों को रोकने और अपने डेटा की रक्षा के लिए कदम उठाए।"
+        }
+      ]
+    },
+    {
+      "word": "Cybersecurity",
+      "phoneticRespelling": "SY-ber-seh-KYUR-ih-tee",
+      "translation": "साइबर सुरक्षा",
+      "definition": "The protection of computer systems and networks from cyber threats",
+      "definationTranslation": "साइबर खतरों से कंप्यूटर सिस्टम और नेटवर्क की रक्षा",
+      "sentence": [
+        {
+          "sentence": "The company invested in cybersecurity measures to protect its data.",
+          "translation": "कंपनी ने अपने डेटा की रक्षा के लिए साइबर सुरक्षा उपायों में निवेश किया।"
+        },
+        {
+          "sentence": "The importance of cybersecurity cannot be overstated.",
+          "translation": "साइबर सुरक्षा के महत्व को कम करके नहीं आंका जा सकता है।"
+        }
+      ]
+    }
+  ]
+}
