@@ -1,1 +1,481 @@
-{}
+{
+  "topic": "Semiotics",
+  "words": [
+    {
+      "word": "Signifier",
+      "phoneticRespelling": "SIG-nuh-fye-er",
+      "translation": "संकेतक",
+      "definition": "A person or thing that signifies something",
+      "definationTranslation": "किसी चीज़ को संकेतित करने वाला व्यक्ति या वस्तु",
+      "sentence": [
+        {
+          "sentence": "The red flag was a signifier of danger",
+          "translation": "लाल झंडा खतरे का संकेतक था"
+        },
+        {
+          "sentence": "The artist used the color blue as a signifier of calmness",
+          "translation": "कलाकार ने शांति के संकेतक के रूप में नीले रंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Semantics",
+      "phoneticRespelling": "seh-MAN-tiks",
+      "translation": "अर्थविज्ञान",
+      "definition": "The study of meaning in language",
+      "definationTranslation": "भाषा में अर्थ का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The semantics of the sentence were unclear",
+          "translation": "वाक्य के अर्थविज्ञान अस्पष्ट थे"
+        },
+        {
+          "sentence": "The professor taught a course on semantics and pragmatics",
+          "translation": "प्रोफेसर ने अर्थविज्ञान और व्यावहारिकविज्ञान पर एक पाठ्यक्रम सिखाया"
+        }
+      ]
+    },
+    {
+      "word": "Pragmatics",
+      "phoneticRespelling": "prag-MAT-iks",
+      "translation": "व्यावहारिकविज्ञान",
+      "definition": "The study of how language is used in context",
+      "definationTranslation": "भाषा के संदर्भ में उपयोग का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The pragmatics of the conversation were complex",
+          "translation": "बातचीत के व्यावहारिकविज्ञान जटिल थे"
+        },
+        {
+          "sentence": "The teacher emphasized the importance of pragmatics in communication",
+          "translation": "शिक्षक ने संचार में व्यावहारिकविज्ञान के महत्व पर जोर दिया"
+        }
+      ]
+    },
+    {
+      "word": "Denotation",
+      "phoneticRespelling": "deh-noh-TAY-shun",
+      "translation": "अर्थ",
+      "definition": "The literal or dictionary meaning of a word",
+      "definationTranslation": "किसी शब्द का शाब्दिक या शब्दकोश अर्थ",
+      "sentence": [
+        {
+          "sentence": "The denotation of the word 'dog' is a domesticated animal",
+          "translation": "शब्द 'कुत्ता' का अर्थ एक पालतू जानवर है"
+        },
+        {
+          "sentence": "The denotation of the word 'bank' can be a financial institution or the side of a river",
+          "translation": "शब्द 'बैंक' का अर्थ एक वित्तीय संस्था या नदी का किनारा हो सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Connotation",
+      "phoneticRespelling": "konn-uh-TAY-shun",
+      "translation": "संकेत",
+      "definition": "The emotional or cultural association of a word",
+      "definationTranslation": "किसी शब्द का भावनात्मक या सांस्कृतिक संबंध",
+      "sentence": [
+        {
+          "sentence": "The word 'home' has a positive connotation for most people",
+          "translation": "शब्द 'घर' का अधिकांश लोगों के लिए एक सकारात्मक संकेत है"
+        },
+        {
+          "sentence": "The word 'war' has a negative connotation in many cultures",
+          "translation": "शब्द 'युद्ध' का कई संस्कृतियों में एक नकारात्मक संकेत है"
+        }
+      ]
+    },
+    {
+      "word": "Iconicity",
+      "phoneticRespelling": "ahy-KAH-nis-uh-tee",
+      "translation": "प्रतीकात्मकता",
+      "definition": "The quality of being an icon or a representation of something",
+      "definationTranslation": "किसी चीज़ का प्रतिनिधित्व करने या उसका प्रतीक होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The image of the American flag is an example of iconicity",
+          "translation": "अमेरिकी झंडे की छवि प्रतीकात्मकता का एक उदाहरण है"
+        },
+        {
+          "sentence": "The iconicity of the Mona Lisa makes it a cultural phenomenon",
+          "translation": "मोना लिसा की प्रतीकात्मकता इसे एक सांस्कृतिक घटना बनाती है"
+        }
+      ]
+    },
+    {
+      "word": "Indexicality",
+      "phoneticRespelling": "in-deh-SIH-kal-uh-tee",
+      "translation": "सूचकता",
+      "definition": "The quality of indicating or pointing to something",
+      "definationTranslation": "किसी चीज़ को संकेतित करने या उसकी ओर इंगित करने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The indexicality of the word 'here' refers to the present location",
+          "translation": "शब्द 'यहाँ' की सूचकता वर्तमान स्थान को संदर्भित करती है"
+        },
+        {
+          "sentence": "The indexicality of the word 'now' refers to the present time",
+          "translation": "शब्द 'अब' की सूचकता वर्तमान समय को संदर्भित करती है"
+        }
+      ]
+    },
+    {
+      "word": "Modality",
+      "phoneticRespelling": "moh-DAL-uh-tee",
+      "translation": "अवस्था",
+      "definition": "The quality or state of being possible, necessary, or obligatory",
+      "definationTranslation": "संभव, आवश्यक या अनिवार्य होने की गुणवत्ता या अवस्था",
+      "sentence": [
+        {
+          "sentence": "The modality of the sentence expresses the speaker's attitude towards the situation",
+          "translation": "वाक्य की अवस्था वक्ता के दृष्टिकोण को स्थिति के प्रति व्यक्त करती है"
+        },
+        {
+          "sentence": "The modality of the verb 'can' expresses ability or possibility",
+          "translation": "क्रिया 'कर सकता है' की अवस्था क्षमता या संभावना को व्यक्त करती है"
+        }
+      ]
+    },
+    {
+      "word": "Signification",
+      "phoneticRespelling": "sig-nuh-fi-KAY-shun",
+      "translation": "संकेतीकरण",
+      "definition": "The process of creating or conveying meaning",
+      "definationTranslation": "अर्थ बनाने या संप्रेषित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The signification of the word 'love' can vary depending on the context",
+          "translation": "शब्द 'प्रेम' का संकेतीकरण संदर्भ पर निर्भर करते हुए भिन्न हो सकता है"
+        },
+        {
+          "sentence": "The signification of the image is subjective and depends on the viewer's interpretation",
+          "translation": "छवि का संकेतीकरण विषयगत है और दर्शक की व्याख्या पर निर्भर करता है"
+        }
+      ]
+    },
+    {
+      "word": "Syntax",
+      "phoneticRespelling": "SIN-taks",
+      "translation": "वाक्य रचना",
+      "definition": "The arrangement of words and phrases to create well-formed sentences",
+      "definationTranslation": "वाक्यों और वाक्यांशों की व्यवस्था से बने संरचित वाक्य",
+      "sentence": [
+        {
+          "sentence": "The syntax of the sentence is complex and difficult to understand",
+          "translation": "वाक्य की वाक्य रचना जटिल है और समझने में मुश्किल है"
+        },
+        {
+          "sentence": "The syntax of the programming language is designed to be easy to read and write",
+          "translation": "प्रोग्रामिंग भाषा की वाक्य रचना आसानी से पढ़ने और लिखने के लिए डिज़ाइन की गई है"
+        }
+      ]
+    },
+    {
+      "word": "Narrative",
+      "phoneticRespelling": "NAR-uh-tiv",
+      "translation": "कथा",
+      "definition": "A story or account of events, told or written, in a sequence",
+      "definationTranslation": "एक कहानी या घटनाओं का लेखा-जोखा, जो क्रम में बताया या लिखा गया है",
+      "sentence": [
+        {
+          "sentence": "The narrative of the novel is engaging and suspenseful",
+          "translation": "उपन्यास की कथा आकर्षक और रोमांचक है"
+        },
+        {
+          "sentence": "The narrative of the film is nonlinear and jumps back and forth in time",
+          "translation": "फिल्म की कथा असमांतर है और समय में आगे और पीछे कूदती है"
+        }
+      ]
+    },
+    {
+      "word": "Discourse",
+      "phoneticRespelling": "DIS-kors",
+      "translation": "वार्ता",
+      "definition": "A formal or serious conversation or discussion",
+      "definationTranslation": "एक औपचारिक या गंभीर बातचीत या चर्चा",
+      "sentence": [
+        {
+          "sentence": "The discourse on climate change is ongoing and contentious",
+          "translation": "जलवायु परिवर्तन पर वार्ता जारी है और विवादास्पद है"
+        },
+        {
+          "sentence": "The discourse on social justice is an important aspect of modern society",
+          "translation": "सामाजिक न्याय पर वार्ता आधुनिक समाज का एक महत्वपूर्ण पहलू है"
+        }
+      ]
+    },
+    {
+      "word": "Rhetoric",
+      "phoneticRespelling": "REH-tor-ik",
+      "translation": "वाक्पटुता",
+      "definition": "The art of using language effectively and persuasively",
+      "definationTranslation": "भाषा का प्रभावी और आकर्षक ढंग से उपयोग करने की कला",
+      "sentence": [
+        {
+          "sentence": "The politician's rhetoric was convincing and inspiring",
+          "translation": "राजनेता की वाक्पटुता विश्वासपात्र और प्रेरक थी"
+        },
+        {
+          "sentence": "The rhetoric of the advertisement was clever and persuasive",
+          "translation": "विज्ञापन की वाक्पटुता चतुर और प्रभावशाली थी"
+        }
+      ]
+    },
+    {
+      "word": "Symbolism",
+      "phoneticRespelling": "SIM-buh-liz-uhm",
+      "translation": "प्रतीकवाद",
+      "definition": "The use of symbols or objects to represent abstract ideas or concepts",
+      "definationTranslation": "प्रतीकों या वस्तुओं का उपयोग सabstract विचारों या अवधारणाओं का प्रतिनिधित्व करने के लिए",
+      "sentence": [
+        {
+          "sentence": "The symbolism in the poem is rich and complex",
+          "translation": "कविता में प्रतीकवाद समृद्ध और जटिल है"
+        },
+        {
+          "sentence": "The symbolism of the flag represents the values and principles of the country",
+          "translation": "ध्वज का प्रतीकवाद देश के मूल्यों और सिद्धांतों का प्रतिनिधित्व करता है"
+        }
+      ]
+    },
+    {
+      "word": "Metaphor",
+      "phoneticRespelling": "MET-uh-for",
+      "translation": "रूपक",
+      "definition": "A figure of speech that compares two unlike things",
+      "definationTranslation": "एक अलंकार जो दो असमान चीजों की तुलना करता है",
+      "sentence": [
+        {
+          "sentence": "The metaphor of life as a journey is a common one",
+          "translation": "जीवन को यात्रा के रूप में रूपक एक सामान्य है"
+        },
+        {
+          "sentence": "The metaphor of the city as a jungle is a powerful one",
+          "translation": "शहर को जंगल के रूप में रूपक एक शक्तिशाली है"
+        }
+      ]
+    },
+    {
+      "word": "Irony",
+      "phoneticRespelling": "AY-ruh-nee",
+      "translation": "व्यंग्य",
+      "definition": "A figure of speech in which words are used to convey a meaning that is opposite of their literal meaning",
+      "definationTranslation": "एक अलंकार जिसमें शब्द उनके शाब्दिक अर्थ के विपरीत अर्थ व्यक्त करने के लिए उपयोग किए जाते हैं",
+      "sentence": [
+        {
+          "sentence": "The irony of the situation was not lost on me",
+          "translation": "स्थिति का व्यंग्य मुझे नहीं छुपा था"
+        },
+        {
+          "sentence": "The irony of the statement was that it was meant to be taken literally",
+          "translation": "बयान का व्यंग्य यह था कि यह शाब्दिक रूप से लेने के लिए था"
+        }
+      ]
+    },
+    {
+      "word": "Hyperbole",
+      "phoneticRespelling": "hy-PUR-buh-lee",
+      "translation": "अतिशयोक्ति",
+      "definition": "A figure of speech that involves an exaggeration used for emphasis or effect",
+      "definationTranslation": "एक अलंकार जिसमें जोर या प्रभाव के लिए अतिशयोक्ति का उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The hyperbole in the advertisement was obvious",
+          "translation": "विज्ञापन में अतिशयोक्ति स्पष्ट थी"
+        },
+        {
+          "sentence": "The hyperbole in the story was used to create a sense of drama",
+          "translation": "कथा में अतिशयोक्ति का उपयोग नाटकीयता की भावना पैदा करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Allusion",
+      "phoneticRespelling": "uh-LOO-zhuhn",
+      "translation": "संदर्भ",
+      "definition": "A reference to a person, place, event, or work of art that is outside the text itself",
+      "definationTranslation": "एक व्यक्ति, स्थान, घटना, या कला का कार्य जो कि स्वयं पाठ से बाहर है",
+      "sentence": [
+        {
+          "sentence": "The allusion to Shakespeare in the poem was clear",
+          "translation": "कविता में शेक्सपियर का संदर्भ स्पष्ट था"
+        },
+        {
+          "sentence": "The allusion to the myth of the phoenix was used to convey a sense of rebirth",
+          "translation": "फीनिक्स के मिथक का संदर्भ पुनर्जन्म की भावना को व्यक्त करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Ambiguity",
+      "phoneticRespelling": "am-buh-GYOO-uh-tee",
+      "translation": "अस्पष्टता",
+      "definition": "The state of being open to more than one interpretation",
+      "definationTranslation": "एक से अधिक व्याख्याओं के लिए खुला होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The ambiguity of the sentence made it difficult to understand",
+          "translation": "वाक्य की अस्पष्टता इसे समझने में मुश्किल बना देती है"
+        },
+        {
+          "sentence": "The ambiguity of the situation made it hard to make a decision",
+          "translation": "स्थिति की अस्पष्टता ने निर्णय लेना मुश्किल बना दिया"
+        }
+      ]
+    },
+    {
+      "word": "Anaphora",
+      "phoneticRespelling": "uh-NAH-fuh-ruh",
+      "translation": "पुनरावृत्ति",
+      "definition": "A rhetorical device in which a word or phrase is repeated at the beginning of successive clauses or sentences",
+      "definationTranslation": "एक वाकप्रतिबिम्ब जिसमें एक शब्द या वाक्यांश को लगातार खंडों या वाक्यों के आरंभ में दोहराया जाता है",
+      "sentence": [
+        {
+          "sentence": "The anaphora in the speech was effective in emphasizing the point",
+          "translation": "भाषण में पुनरावृत्ति ने बिंदु पर जोर देने में प्रभावी थी"
+        },
+        {
+          "sentence": "The anaphora in the poem created a sense of rhythm and musicality",
+          "translation": "कविता में पुनरावृत्ति ने लय और संगीतमयता की भावना पैदा की"
+        }
+      ]
+    },
+    {
+      "word": "Epistrophe",
+      "phoneticRespelling": "eh-PIH-stroh-fee",
+      "translation": "पुनरावृत्ति का अंत",
+      "definition": "A rhetorical device in which a word or phrase is repeated at the end of successive clauses or sentences",
+      "definationTranslation": "एक वाकप्रतिबिम्ब जिसमें एक शब्द या वाक्यांश को लगातार खंडों या वाक्यों के अंत में दोहराया जाता है",
+      "sentence": [
+        {
+          "sentence": "The epistrophe in the speech was effective in creating a sense of unity",
+          "translation": "भाषण में पुनरावृत्ति का अंत एकता की भावना पैदा करने में प्रभावी था"
+        },
+        {
+          "sentence": "The epistrophe in the poem created a sense of closure and finality",
+          "translation": "कविता में पुनरावृत्ति का अंत ने समापन और निश्चितता की भावना पैदा की"
+        }
+      ]
+    },
+    {
+      "word": "Enthymeme",
+      "phoneticRespelling": "en-THY-mee-mee",
+      "translation": "अनुमान",
+      "definition": "A rhetorical device that uses a syllogism to make a point or create an argument",
+      "definationTranslation": "एक वाकप्रतिबिम्ब जो एक बिंदु बनाने या तर्क बनाने के लिए एक सिल्लोजिस्म का उपयोग करता है",
+      "sentence": [
+        {
+          "sentence": "The enthymeme in the argument was convincing",
+          "translation": "तर्क में अनुमान विश्वासपात्र था"
+        },
+        {
+          "sentence": "The enthymeme in the speech was used to create a sense of logic and reason",
+          "translation": "भाषण में अनुमान का उपयोग तर्क और कारण की भावना पैदा करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Euphemism",
+      "phoneticRespelling": "YOO-fuh-miz-uhm",
+      "translation": "शिष्ट भाषा",
+      "definition": "A mild or indirect word or expression used to avoid offense or unpleasantness",
+      "definationTranslation": "एक मधुर या परोक्ष शब्द या वाक्यांश जो अपमान या अप्रियता से बचने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The euphemism in the sentence was used to avoid offending anyone",
+          "translation": "वाक्य में शिष्ट भाषा का उपयोग किसी को भी अपमानित करने से बचने के लिए किया गया था"
+        },
+        {
+          "sentence": "The euphemism in the news report was used to downplay the severity of the situation",
+          "translation": "समाचार रिपोर्ट में शिष्ट भाषा का उपयोग स्थिति की गंभीरता को कम करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Oxymoron",
+      "phoneticRespelling": "oks-ee-MOR-on",
+      "translation": "विरोधाभास",
+      "definition": "A figure of speech that combines two words or phrases that seem to be contradictory",
+      "definationTranslation": "एक अलंकार जो दो शब्दों या वाक्यांशों को जोड़ता है जो विरोधाभासी लगते हैं",
+      "sentence": [
+        {
+          "sentence": "The oxymoron in the phrase 'jumbo shrimp' is a classic example",
+          "translation": "वाक्यांश 'जंबो श्रिम्प' में विरोधाभास एक क्लासिक उदाहरण है"
+        },
+        {
+          "sentence": "The oxymoron in the phrase 'deafening silence' is a powerful one",
+          "translation": "वाक्यांश 'बहरापन शांति' में विरोधाभास एक शक्तिशाली है"
+        }
+      ]
+    },
+    {
+      "word": "Personification",
+      "phoneticRespelling": "pur-suh-nuh-fi-KAY-shun",
+      "translation": "मानवीकरण",
+      "definition": "A figure of speech that gives human-like qualities to non-human entities",
+      "definationTranslation": "एक अलंकार जो गैर-मानव इकाइयों को मानवीय गुण देता है",
+      "sentence": [
+        {
+          "sentence": "The personification of the sun in the poem was beautiful",
+          "translation": "कविता में सूर्य का मानवीकरण सुंदर था"
+        },
+        {
+          "sentence": "The personification of the wind in the story was used to create a sense of movement",
+          "translation": "कथा में हवा का मानवीकरण गति की भावना पैदा करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Simile",
+      "phoneticRespelling": "SIM-uh-lee",
+      "translation": "तुलना",
+      "definition": "A figure of speech that compares two unlike things using 'like' or 'as'",
+      "definationTranslation": "एक अलंकार जो 'जैसे' या 'जैसा' का उपयोग करके दो असमान चीजों की तुलना करता है",
+      "sentence": [
+        {
+          "sentence": "The simile in the sentence 'he ran like a cheetah' is a common one",
+          "translation": "वाक्य 'वह एक चीता की तरह दौड़ा' में तुलना एक सामान्य है"
+        },
+        {
+          "sentence": "The simile in the poem 'her eyes shone like diamonds' is a beautiful one",
+          "translation": "कविता 'उसकी आँखें हीरे की तरह चमकती थीं' में तुलना एक सुंदर है"
+        }
+      ]
+    },
+    {
+      "word": "Onomatopoeia",
+      "phoneticRespelling": "on-uh-mat-uh-PEE-uh",
+      "translation": "ध्वनि अनुकरण",
+      "definition": "A word that imitates the sound it describes",
+      "definationTranslation": "एक शब्द जो यह वर्णित करता है कि वह ध्वनि का अनुकरण करता है",
+      "sentence": [
+        {
+          "sentence": "The onomatopoeia in the sentence 'the firework exploded with a loud bang' is a great example",
+          "translation": "वाक्य 'आतिशबाजी एक जोरदार बांग के साथ फट गई' में ध्वनि अनुकरण एक शानदार उदाहरण है"
+        },
+        {
+          "sentence": "The onomatopoeia in the poem 'the rain pattered against the window with a soft plop' is a soothing one",
+          "translation": "कविता 'वर्षा खिड़की के खिलाफ एक नरम प्लॉप के साथ पड़ गई' में ध्वनि अनुकरण एक शांत है"
+        }
+      ]
+    },
+    {
+      "word": "Alliteration",
+      "phoneticRespelling": "uh-lit-uh-REY-shun",
+      "translation": "अनुप्रास",
+      "definition": "A figure of speech that involves the repetition of initial consonant sounds",
+      "definationTranslation": "एक अलंकार जिसमें प्रारंभिक व्यंजन ध्वनियों की पुनरावृत्ति शामिल है",
+      "sentence": [
+        {
+          "sentence": "The alliteration in the phrase 'she sells seashells by the seashore' is a classic example",
+          "translation": "वाक्यांश 'वह तट पर समुद्री गोले बेचती है' में अनुप्रास एक क्लासिक उदाहरण है"
+        },
+        {
+          "sentence": "The alliteration in the poem 'the silky snake slithered through the sand' is a smooth one",
+          "translation": "कविता 'रेशमी सांप रेत के माध्यम से फिसल गया' में अनुप्रास एक चिकनी है"
+        }
+      ]
+    }
+  ]
+}

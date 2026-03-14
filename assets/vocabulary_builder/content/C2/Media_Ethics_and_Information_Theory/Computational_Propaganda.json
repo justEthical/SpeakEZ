@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Computational Propaganda",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-rith-uhm",
+      "translation": "एल्गोरिदम",
+      "definition": "A set of instructions used to solve a problem or perform a computation",
+      "definationTranslation": "किसी समस्या का समाधान करने या गणना करने के लिए उपयोग किए जाने वाले निर्देशों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in the social media platform was biased towards certain groups.",
+          "translation": "सोशल मीडिया प्लेटफ़ॉर्म में उपयोग किया जाने वाला एल्गोरिदम कुछ समूहों के प्रति पक्षपाती था"
+        },
+        {
+          "sentence": "The new algorithm improved the efficiency of the propaganda detection system.",
+          "translation": "नए एल्गोरिदम ने प्रचार का पता लगाने वाली प्रणाली की कार्यक्षमता में सुधार किया"
+        }
+      ]
+    },
+    {
+      "word": "Botnet",
+      "phoneticRespelling": "BOHT-net",
+      "translation": "बोटनेट",
+      "definition": "A network of private computers infected with malicious software and controlled as a group",
+      "definationTranslation": "दुर्भाग्यपूर्ण सॉफ़्टवेयर से संक्रमित निजी कंप्यूटरों का एक नेटवर्क और एक समूह के रूप में नियंत्रित",
+      "sentence": [
+        {
+          "sentence": "The botnet was used to spread computational propaganda across the internet.",
+          "translation": "बोटनेट का उपयोग इंटरनेट पर संपूर्ण प्रचार फैलाने के लिए किया गया था"
+        },
+        {
+          "sentence": "The cybersecurity team worked to dismantle the botnet and prevent further attacks.",
+          "translation": "साइबर सुरक्षा टीम ने बोटनेट को नष्ट करने और आगे के हमलों को रोकने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Censorship",
+      "phoneticRespelling": "SEN-sur-ship",
+      "translation": "सेंसरशिप",
+      "definition": "The practice of suppressing or controlling information or ideas",
+      "definationTranslation": "जानकारी या विचारों को दबाने या नियंत्रित करने की प्रथा",
+      "sentence": [
+        {
+          "sentence": "The government implemented strict censorship laws to control computational propaganda.",
+          "translation": "सरकार ने संपूर्ण प्रचार पर नियंत्रण के लिए सख्त सेंसरशिप कानूनों को लागू किया"
+        },
+        {
+          "sentence": "The activists fought against censorship and advocated for freedom of speech.",
+          "translation": "कार्यकर्ताओं ने सेंसरशिप के खिलाफ लड़ाई लड़ी और भाषण की स्वतंत्रता की वकालत की"
+        }
+      ]
+    },
+    {
+      "word": "Disinformation",
+      "phoneticRespelling": "dis-in-for-MAY-shun",
+      "translation": "भ्रामक जानकारी",
+      "definition": "False or misleading information spread deliberately to deceive or manipulate",
+      "definationTranslation": "जानबूझकर धोखा देने या हेरफेर करने के लिए फैलाई जाने वाली झूठी या भ्रामक जानकारी",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign relied heavily on disinformation to sway public opinion.",
+          "translation": "संपूर्ण प्रचार अभियान ने जनमत को प्रभावित करने के लिए भ्रामक जानकारी पर बहुत अधिक भरोसा किया"
+        },
+        {
+          "sentence": "The fact-checking initiative aimed to combat disinformation and promote truth.",
+          "translation": "सत्य-जांच पहल ने भ्रामक जानकारी से लड़ने और सच्चाई को बढ़ावा देने का उद्देश्य रखा"
+        }
+      ]
+    },
+    {
+      "word": "Echochamber",
+      "phoneticRespelling": "EK-oh-chaym-ber",
+      "translation": "प्रतिध्वनि कक्ष",
+      "definition": "A situation in which people are only exposed to information that confirms their existing beliefs",
+      "definationTranslation": "एक स्थिति जिसमें लोग केवल उस जानकारी के संपर्क में आते हैं जो उनके मौजूदा विश्वासों की पुष्टि करती है",
+      "sentence": [
+        {
+          "sentence": "The social media algorithm created an echochamber that reinforced computational propaganda.",
+          "translation": "सोशल मीडिया एल्गोरिदम ने एक प्रतिध्वनि कक्ष बनाया जिसने संपूर्ण प्रचार को मजबूत किया"
+        },
+        {
+          "sentence": "The media outlet tried to break out of the echochamber by presenting diverse perspectives.",
+          "translation": "मीडिया आउटलेट ने विविध दृष्टिकोण प्रस्तुत करके प्रतिध्वनि कक्ष से बाहर निकलने का प्रयास किया"
+        }
+      ]
+    },
+    {
+      "word": "FakeNews",
+      "phoneticRespelling": "FAYK-nooz",
+      "translation": "झूठी खबर",
+      "definition": "False or misleading information presented as news",
+      "definationTranslation": "news के रूप में प्रस्तुत की जाने वाली झूठी या भ्रामक जानकारी",
+      "sentence": [
+        {
+          "sentence": "The spread of fake news on social media contributed to the rise of computational propaganda.",
+          "translation": "सोशल मीडिया पर झूठी खबरों के प्रसार ने संपूर्ण प्रचार के उदय में योगदान दिया"
+        },
+        {
+          "sentence": "The journalist worked to debunk fake news and promote fact-based reporting.",
+          "translation": "पत्रकार ने झूथी खबरों का खंडन करने और तथ्य-आधारित रिपोर्टिंग को बढ़ावा देने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Hatred",
+      "phoneticRespelling": "HAY-trid",
+      "translation": "नफरत",
+      "definition": "A strong feeling of dislike or hostility",
+      "definationTranslation": "नापसंद या विरोध की तीव्र भावना",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign fueled hatred towards minority groups.",
+          "translation": "संपूर्ण प्रचार अभियान ने अल्पसंख्यक समूहों के प्रति नफरत को बढ़ावा दिया"
+        },
+        {
+          "sentence": "The community came together to combat hatred and promote tolerance.",
+          "translation": "समुदाय ने नफरत से लड़ने और सहनशीलता को बढ़ावा देने के लिए एकजुट हुआ"
+        }
+      ]
+    },
+    {
+      "word": "Influence",
+      "phoneticRespelling": "IN-floo-uhns",
+      "translation": "प्रभाव",
+      "definition": "The capacity to have an effect on the character, development, or behavior of someone or something",
+      "definationTranslation": "किसी व्यक्ति या चीज़ के चरित्र, विकास, या व्यवहार पर प्रभाव डालने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign aimed to influence public opinion and shape policy.",
+          "translation": "संपूर्ण प्रचार अभियान ने जनमत को प्रभावित करने और नीति को आकार देने का लक्ष्य रखा"
+        },
+        {
+          "sentence": "The social media influencer used their platform to promote positive influence and combat hate speech.",
+          "translation": "सोशल मीडिया इन्फ्लूएंसर ने अपने मंच का उपयोग सकारात्मक प्रभाव को बढ़ावा देने और घृणा भाषण से लड़ने के लिए किया"
+        }
+      ]
+    },
+    {
+      "word": "Manipulation",
+      "phoneticRespelling": "man-i-pyu-LAY-shun",
+      "translation": "हेरफेर",
+      "definition": "The act of influencing or controlling someone or something in a clever or skillful way",
+      "definationTranslation": "किसी व्यक्ति या चीज़ को चतुर या कुशल तरीके से प्रभावित या नियंत्रित करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign used manipulation to sway public opinion.",
+          "translation": "संपूर्ण प्रचार अभियान ने जनमत को प्रभावित करने के लिए हेरफेर किया"
+        },
+        {
+          "sentence": "The activist group exposed the manipulation of facts by the government.",
+          "translation": "कार्यकर्ता समूह ने सरकार द्वारा तथ्यों के हेरफेर का खुलासा किया"
+        }
+      ]
+    },
+    {
+      "word": "Misinformation",
+      "phoneticRespelling": "mis-in-for-MAY-shun",
+      "translation": "भ्रामक जानकारी",
+      "definition": "False or inaccurate information",
+      "definationTranslation": "झूठी या अशुद्ध जानकारी",
+      "sentence": [
+        {
+          "sentence": "The spread of misinformation on social media contributed to the rise of computational propaganda.",
+          "translation": "सोशल मीडिया पर भ्रामक जानकारी के प्रसार ने संपूर्ण प्रचार के उदय में योगदान दिया"
+        },
+        {
+          "sentence": "The fact-checking initiative aimed to combat misinformation and promote truth.",
+          "translation": "सत्य-जांच पहल ने भ्रामक जानकारी से लड़ने और सच्चाई को बढ़ावा देने का उद्देश्य रखा"
+        }
+      ]
+    },
+    {
+      "word": "Polarization",
+      "phoneticRespelling": "poh-luh-ri-ZAY-shun",
+      "translation": "ध्रुवीकरण",
+      "definition": "The process of becoming more extreme or divided in opinions or attitudes",
+      "definationTranslation": "विचारों या दृष्टिकोणों में अधिक चरम या विभाजित होने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign fueled polarization and division.",
+          "translation": "संपूर्ण प्रचार अभियान ने ध्रुवीकरण और विभाजन को बढ़ावा दिया"
+        },
+        {
+          "sentence": "The community worked to combat polarization and promote unity.",
+          "translation": "समुदाय ने ध्रुवीकरण से लड़ने और एकता को बढ़ावा देने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Propaganda",
+      "phoneticRespelling": "pruh-puh-GAN-duh",
+      "translation": "प्रचार",
+      "definition": "Information or ideas that are spread to promote a particular cause or point of view",
+      "definationTranslation": "एक विशिष्ट कारण या दृष्टिकोण को बढ़ावा देने के लिए फैलाई जाने वाली जानकारी या विचार",
+      "sentence": [
+        {
+          "sentence": "The government used propaganda to influence public opinion and shape policy.",
+          "translation": "सरकार ने जनमत को प्रभावित करने और नीति को आकार देने के लिए प्रचार का उपयोग किया"
+        },
+        {
+          "sentence": "The activist group exposed the propaganda campaign and promoted critical thinking.",
+          "translation": "कार्यकर्ता समूह ने प्रचार अभियान का पर्दाफाश किया और समालोचक विचार को बढ़ावा दिया"
+        }
+      ]
+    },
+    {
+      "word": "Psychological",
+      "phoneticRespelling": "sy-koh-LOH-jih-kul",
+      "translation": "मानसिक",
+      "definition": "Relating to the mind or mental processes",
+      "definationTranslation": "मानसिक या मानसिक प्रक्रियाओं से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign used psychological manipulation to influence public opinion.",
+          "translation": "संपूर्ण प्रचार अभियान ने जनमत को प्रभावित करने के लिए मानसिक हेरफेर का उपयोग किया"
+        },
+        {
+          "sentence": "The psychologist studied the psychological effects of propaganda on individuals.",
+          "translation": "मनोवैज्ञानिक ने व्यक्तियों पर प्रचार के मानसिक प्रभावों का अध्ययन किया"
+        }
+      ]
+    },
+    {
+      "word": "SocialMedia",
+      "phoneticRespelling": "SOH-shul-MEE-dee-uh",
+      "translation": "सोशल मीडिया",
+      "definition": "Websites and applications that allow users to create and share content",
+      "definationTranslation": "वेबसाइटें और अनुप्रयोग जो उपयोगकर्ताओं को सामग्री बनाने और साझा करने की अनुमति देते हैं",
+      "sentence": [
+        {
+          "sentence": "Social media platforms were used to spread computational propaganda and influence public opinion.",
+          "translation": "सोशल मीडिया मंचों का उपयोग संपूर्ण प्रचार फैलाने और जनमत को प्रभावित करने के लिए किया गया था"
+        },
+        {
+          "sentence": "The social media company worked to combat the spread of misinformation on its platform.",
+          "translation": "सोशल मीडिया कंपनी ने अपने मंच पर भ्रामक जानकारी के प्रसार से लड़ने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Trolling",
+      "phoneticRespelling": "TROH-ling",
+      "translation": "ट्रोलिंग",
+      "definition": "The act of posting inflammatory or insulting comments online",
+      "definationTranslation": "ऑनलाइन अपमानजनक या अपमानजनक टिप्पणियां पोस्ट करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign used trolling to sow discord and confusion.",
+          "translation": "संपूर्ण प्रचार अभियान ने विभाजन और भ्रम को बोने के लिए ट्रोलिंग का उपयोग किया"
+        },
+        {
+          "sentence": "The online community worked to combat trolling and promote respectful dialogue.",
+          "translation": "ऑनलाइन समुदाय ने ट्रोलिंग से लड़ने और सम्मानजनक संवाद को बढ़ावा देने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Verification",
+      "phoneticRespelling": "ver-ih-FY-kay-shun",
+      "translation": "सत्यापन",
+      "definition": "The process of checking or testing the accuracy of something",
+      "definationTranslation": "किसी चीज़ की सटीकता की जांच या परीक्षण की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The fact-checking initiative used verification to combat misinformation and promote truth.",
+          "translation": "सत्य-जांच पहल ने भ्रामक जानकारी से लड़ने और सच्चाई को बढ़ावा देने के लिए सत्यापन का उपयोग किया"
+        },
+        {
+          "sentence": "The journalist used verification to ensure the accuracy of their reporting.",
+          "translation": "पत्रकार ने अपनी रिपोर्टिंग की सटीकता सुनिश्चित करने के लिए सत्यापन का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Vulnerability",
+      "phoneticRespelling": "vul-nuh-ruh-BIL-uh-tee",
+      "translation": "कमजोरी",
+      "definition": "The state of being weak or susceptible to attack or influence",
+      "definationTranslation": "कमजोर या हमले या प्रभाव के प्रति संवेदनशील होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign exploited vulnerability in social media platforms.",
+          "translation": "संपूर्ण प्रचार अभियान ने सोशल मीडिया मंचों में कमजोरी का फायदा उठाया"
+        },
+        {
+          "sentence": "The cybersecurity team worked to address vulnerability and protect against cyber attacks.",
+          "translation": "साइबर सुरक्षा टीम ने कमजोरी को संबोधित करने और साइबर हमलों से बचाव के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Warfare",
+      "phoneticRespelling": "WAR-fair",
+      "translation": "युद्ध",
+      "definition": "The activity of fighting a war",
+      "definationTranslation": "युद्ध लड़ने की गतिविधि",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign was a form of psychological warfare.",
+          "translation": "संपूर्ण प्रचार अभियान मानसिक युद्ध का एक रूप था"
+        },
+        {
+          "sentence": "The country engaged in cyber warfare to disrupt the enemy's communication systems.",
+          "translation": "देश ने दुश्मन के संचार प्रणाली को बाधित करने के लिए साइबर युद्ध में भाग लिया"
+        }
+      ]
+    },
+    {
+      "word": "Cyberattack",
+      "phoneticRespelling": "SY-ber-uh-tak",
+      "translation": "साइबर हमला",
+      "definition": "A malicious attempt to damage or disrupt a computer system or network",
+      "definationTranslation": "कंप्यूटर प्रणाली या नेटवर्क को नुकसान पहुंचाने या बाधित करने का दुर्भाग्यपूर्ण प्रयास",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign was accompanied by a series of cyberattacks.",
+          "translation": "संपूर्ण प्रचार अभियान के साथ एक श्रृंखला साइबर हमले हुए"
+        },
+        {
+          "sentence": "The cybersecurity team worked to prevent cyberattacks and protect sensitive information.",
+          "translation": "साइबर सुरक्षा टीम ने साइबर हमलों को रोकने और संवेदनशील जानकारी की रक्षा के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Deception",
+      "phoneticRespelling": "di-SEP-shun",
+      "translation": "छल",
+      "definition": "The act of deceiving someone or something",
+      "definationTranslation": "किसी व्यक्ति या चीज़ को धोखा देने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign used deception to sway public opinion.",
+          "translation": "संपूर्ण प्रचार अभियान ने जनमत को प्रभावित करने के लिए छल का उपयोग किया"
+        },
+        {
+          "sentence": "The journalist exposed the deception behind the propaganda campaign.",
+          "translation": "पत्रकार ने प्रचार अभियान के पीछे छल का पर्दाफाश किया"
+        }
+      ]
+    },
+    {
+      "word": "Discrimination",
+      "phoneticRespelling": "dis-krim-uh-NAY-shun",
+      "translation": "भेदभाव",
+      "definition": "The act of treating someone or something unfairly or differently",
+      "definationTranslation": "किसी व्यक्ति या चीज़ के साथ अन्यायपूर्ण या अलग तरह से व्यवहार करने का कार्य",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign promoted discrimination against minority groups.",
+          "translation": "संपूर्ण प्रचार अभियान ने अल्पसंख्यक समूहों के खिलाफ भेदभाव को बढ़ावा दिया"
+        },
+        {
+          "sentence": "The activist group worked to combat discrimination and promote equality.",
+          "translation": "कार्यकर्ता समूह ने भेदभाव से लड़ने और समानता को बढ़ावा देने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Extremism",
+      "phoneticRespelling": "eks-TREH-miz-uhm",
+      "translation": "चरमपन",
+      "definition": "The state of being extreme or radical in one's views or actions",
+      "definationTranslation": "अपने विचारों या कार्यों में चरम या क्रांतिकारी होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign promoted extremism and division.",
+          "translation": "संपूर्ण प्रचार अभियान ने चरमपन और विभाजन को बढ़ावा दिया"
+        },
+        {
+          "sentence": "The community worked to combat extremism and promote unity and understanding.",
+          "translation": "समुदाय ने चरमपन से लड़ने और एकता और समझ को बढ़ावा देने के लिए काम किया"
+        }
+      ]
+    },
+    {
+      "word": "Freedom",
+      "phoneticRespelling": "FREED-uhm",
+      "translation": "स्वतंत्रता",
+      "definition": "The state of being able to act and make decisions without restriction",
+      "definationTranslation": "प्रतिबंध के बिना कार्य करने और निर्णय लेने में सक्षम होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign threatened freedom of speech and expression.",
+          "translation": "संपूर्ण प्रचार अभियान ने भाषण और अभिव्यक्ति की स्वतंत्रता को खतरे में डाल दिया"
+        },
+        {
+          "sentence": "The activist group fought for freedom and democracy.",
+          "translation": "कार्यकर्ता समूह ने स्वतंत्रता और लोकतंत्र के लिए लड़ा"
+        }
+      ]
+    },
+    {
+      "word": "HumanRights",
+      "phoneticRespelling": "HYOO-man-RAYTS",
+      "translation": "मानवाधिकार",
+      "definition": "The basic rights and freedoms that all human beings are entitled to",
+      "definationTranslation": "मूलभूत अधिकार और स्वतंत्रता जिसके हकदार सभी मानव हैं",
+      "sentence": [
+        {
+          "sentence": "The computational propaganda campaign violated human rights and promoted discrimination.",
+          "translation": "संपूर्ण प्रचार अभियान ने मानवाधिकारों का उल्लंघन किया और भेदभाव को बढ़ावा दिया"
+        },
+        {
+          "sentence": "The activist group worked to promote human rights and protect vulnerable populations.",
+          "translation": "कार्यकर्ता समूह ने मानवाधिकारों को बढ़ावा देने और कमजोर आबादी की रक्षा के लिए काम किया"
+        }
+      ]
+    }
+  ]
+}

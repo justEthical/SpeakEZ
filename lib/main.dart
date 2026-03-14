@@ -11,6 +11,7 @@ import 'package:get/get.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:posthog_flutter/posthog_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sherpa_onnx/sherpa_onnx.dart'as sherpa_onnx;
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
@@ -33,6 +34,7 @@ void main() async {
   unawaited(MobileAds.instance.initialize());
   await dotenv.load(fileName: ".env");
   LocalNotificationService().init();
+  sherpa_onnx.initBindings(); // FFI bindings for sherpa-onnx
   await PostHogService.instance.initialize();
 
   await SystemChrome.setPreferredOrientations([

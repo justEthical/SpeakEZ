@@ -16,7 +16,7 @@ import 'package:speak_ez/Services/posthog_service.dart';
 
 class WhisperHelper {
   static const modelName = 'base';
-  static const modelFlavourName = 'vanilla';
+  static const modelFlavourName = 'canary';
 
   static void whisperIsolateEntry(List args) async {
     final SendPort mainSendPort = args[0];
@@ -24,9 +24,9 @@ class WhisperHelper {
     final RootIsolateToken token = args[2];
 
     BackgroundIsolateBinaryMessenger.ensureInitialized(token);
-    initBindings(); // FFI bindings for sherpa-onnx
+    
 
-    final recognizer = initWhisperRecognizer(modelPath);
+    final recognizer = initCanaryRecognizer(modelPath);
 
     final isolateReceivePort = ReceivePort();
     mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
@@ -42,10 +42,8 @@ class WhisperHelper {
           message.containsKey('replyTo')) {
         final SendPort replyTo = message['replyTo'] as SendPort;
         try {
-          final filePath = message['file'] as String;
+          final samples = message['samples'] as Float32List;
 
-          final bytes = await File(filePath).readAsBytes();
-          final samples = downmixAndNormalizeWav(bytes);
 
           final stream = recognizer.createStream();
           stream.acceptWaveform(sampleRate: 16000, samples: samples);
@@ -65,20 +63,22 @@ class WhisperHelper {
     // isolateReceivePort.close();
   }
 
-  static OfflineRecognizer initWhisperRecognizer(String path) {
-    final dir = Directory(path);
-
-    // var k = dir.existsSync();
+  static OfflineRecognizer initCanaryRecognizer(String path) {
+    final modelDir = '$path/$modelFlavourName';
 
     final recognizer = OfflineRecognizer(
       OfflineRecognizerConfig(
         model: OfflineModelConfig(
-          whisper: OfflineWhisperModelConfig(
-            encoder: '${dir.path}/$modelName.en-encoder.int8.onnx',
-            decoder: '${dir.path}/$modelName.en-decoder.int8.onnx',
+          canary: OfflineCanaryModelConfig(
+            encoder: '$modelDir/encoder.int8.onnx',
+            decoder: '$modelDir/decoder.int8.onnx',
+            srcLang: 'en',
+            tgtLang: 'en',
+            usePnc: true,
           ),
-          tokens: '${dir.path}/$modelName.en-tokens.txt',
-          modelType: 'whisper',
+          tokens: '$modelDir/tokens.txt',
+          numThreads: 2,
+          debug: false,
         ),
       ),
     );
@@ -146,7 +146,7 @@ class WhisperHelper {
     }
 
     final modelDownloadUrl =
-        'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.0.1/vanilla.zip';
+        'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.1.1/canary.zip';
     final dir = await getApplicationDocumentsDirectory(); // Now safe to call
     final zipPath = '${dir.path}/$modelFlavourName.zip';
 

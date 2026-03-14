@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Ethics of AI Journalism",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-go-ri-thm",
+      "translation": "अल्गोरिदम",
+      "definition": "A set of rules or procedures for solving a problem",
+      "definationTranslation": "किसी समस्या का समाधान करने के लिए नियमों या प्रक्रियाओं का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The AI system uses a complex algorithm to generate news articles.",
+          "translation": "एआई सिस्टम समाचार लेख तैयार करने के लिए एक जटिल अल्गोरिदम का उपयोग करता है।"
+        },
+        {
+          "sentence": "The algorithm is designed to minimize bias in reporting.",
+          "translation": "अल्गोरिदम रिपोर्टिंग में पूर्वाग्रह को कम करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Artificial",
+      "phoneticRespelling": "ar-ti-FISH-ul",
+      "translation": "कृत्रिम",
+      "definition": "Made or produced by human beings, especially using science and technology",
+      "definationTranslation": "मानव द्वारा निर्मित या उत्पादित, विशेष रूप से विज्ञान और प्रौद्योगिकी का उपयोग करके",
+      "sentence": [
+        {
+          "sentence": "Artificial intelligence is being used in journalism to automate tasks.",
+          "translation": "पत्रकारिता में कृत्रिम बुद्धिमत्ता का उपयोग कार्यों को स्वचालित करने के लिए किया जा रहा है।"
+        },
+        {
+          "sentence": "The artificial intelligence system can analyze large amounts of data.",
+          "translation": "कृत्रिम बुद्धिमत्ता प्रणाली बड़ी मात्रा में डेटा का विश्लेषण कर सकती है।"
+        }
+      ]
+    },
+    {
+      "word": "Bias",
+      "phoneticRespelling": "BY-uhs",
+      "translation": "पूर्वाग्रह",
+      "definition": "A prejudice in favor of or against one thing, person, or group compared with another",
+      "definationTranslation": "एक चीज, व्यक्ति या समूह के पक्ष में या उसके खिलाफ एक पूर्वाग्रह",
+      "sentence": [
+        {
+          "sentence": "The journalist tried to avoid bias in her reporting.",
+          "translation": "पत्रकार ने अपनी रिपोर्टिंग में पूर्वाग्रह से बचने की कोशिश की।"
+        },
+        {
+          "sentence": "The algorithm is designed to detect and eliminate bias.",
+          "translation": "अल्गोरिदम पूर्वाग्रह का पता लगाने और समाप्त करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Censorship",
+      "phoneticRespelling": "SEN-sur-ship",
+      "translation": "सेंसरशिप",
+      "definition": "The practice of suppressing or deleting certain words, images, or ideas from the media",
+      "definationTranslation": "मीडिया से कertain शब्दों, छवियों, या विचारों को दबाने या हटाने की प्रथा",
+      "sentence": [
+        {
+          "sentence": "The government has been accused of censorship in the media.",
+          "translation": "सरकार पर मीडिया में सेंसरशिप का आरोप लगाया गया है।"
+        },
+        {
+          "sentence": "The journalist argued that censorship is a violation of freedom of speech.",
+          "translation": "पत्रकार ने तर्क दिया कि सेंसरशिप भाषण की स्वतंत्रता का उल्लंघन है।"
+        }
+      ]
+    },
+    {
+      "word": "Code",
+      "phoneticRespelling": "KOHD",
+      "translation": "कोड",
+      "definition": "A set of rules or instructions that are used to create a computer program",
+      "definationTranslation": "एक समूह के नियम या निर्देश जो एक कंप्यूटर प्रोग्राम बनाने के लिए उपयोग किए जाते हैं",
+      "sentence": [
+        {
+          "sentence": "The programmer wrote the code for the AI system.",
+          "translation": "प्रोग्रामर ने एआई सिस्टम के लिए कोड लिखा।"
+        },
+        {
+          "sentence": "The code is used to create a chatbot that can answer questions.",
+          "translation": "कोड एक चैटबॉट बनाने के लिए उपयोग किया जाता है जो प्रश्नों का उत्तर दे सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "डेटा",
+      "definition": "Facts and statistics collected together for reference or analysis",
+      "definationTranslation": "संदर्भ या विश्लेषण के लिए एकत्रित की गई तथ्य और आंकड़े",
+      "sentence": [
+        {
+          "sentence": "The journalist used data to support her argument.",
+          "translation": "पत्रकार ने अपने तर्क का समर्थन करने के लिए डेटा का उपयोग किया।"
+        },
+        {
+          "sentence": "The AI system analyzes large amounts of data to generate news articles.",
+          "translation": "एआई सिस्टम समाचार लेख तैयार करने के लिए बड़ी मात्रा में डेटा का विश्लेषण करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Editor",
+      "phoneticRespelling": "EH-dih-tur",
+      "translation": "संपादक",
+      "definition": "A person who is in charge of a newspaper, magazine, or other publication",
+      "definationTranslation": "एक व्यक्ति जो अखबार, पत्रिका या अन्य प्रकाशन के प्रभारी होते हैं",
+      "sentence": [
+        {
+          "sentence": "The editor of the newspaper is responsible for the content.",
+          "translation": "अखबार के संपादक सामग्री के लिए जिम्मेदार हैं।"
+        },
+        {
+          "sentence": "The editor reviewed the article before it was published.",
+          "translation": "संपादक ने लेख को प्रकाशित होने से पहले उसकी समीक्षा की।"
+        }
+      ]
+    },
+    {
+      "word": "Freedom",
+      "phoneticRespelling": "FREE-duhm",
+      "translation": "स्वतंत्रता",
+      "definition": "The state of being able to act and make decisions without being controlled by others",
+      "definationTranslation": "अन्य लोगों द्वारा नियंत्रित किए बिना कार्य करने और निर्णय लेने में सक्षम होने की स्थिति",
+      "sentence": [
+        {
+          "sentence": "The journalist argued that freedom of speech is essential.",
+          "translation": "पत्रकार ने तर्क दिया कि भाषण की स्वतंत्रता आवश्यक है।"
+        },
+        {
+          "sentence": "The government should protect the freedom of the press.",
+          "translation": "सरकार को प्रेस की स्वतंत्रता की रक्षा करनी चाहिए।"
+        }
+      ]
+    },
+    {
+      "word": "Human",
+      "phoneticRespelling": "HYOO-man",
+      "translation": "मानव",
+      "definition": "Relating to or characteristic of people or humanity",
+      "definationTranslation": "लोगों या मानवता से संबंधित या विशिष्ट",
+      "sentence": [
+        {
+          "sentence": "The journalist emphasized the importance of human judgment in reporting.",
+          "translation": "पत्रकार ने रिपोर्टिंग में मानव निर्णय के महत्व पर जोर दिया।"
+        },
+        {
+          "sentence": "The AI system is designed to assist human journalists.",
+          "translation": "एआई सिस्टम मानव पत्रकारों की सहायता के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Intelligence",
+      "phoneticRespelling": "in-Tel-uh-jens",
+      "translation": "बुद्धिमत्ता",
+      "definition": "The ability to learn, understand, and adapt to new situations",
+      "definationTranslation": "नई स्थितियों में सीखने, समझने और अनुकूलन करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The AI system has artificial intelligence that can learn and adapt.",
+          "translation": "एआई सिस्टम में कृत्रим बुद्धिमत्ता है जो सीखने और अनुकूलन कर सकती है।"
+        },
+        {
+          "sentence": "Human intelligence is essential for making decisions in journalism.",
+          "translation": "पत्रकारिता में निर्णय लेने के लिए मानव बुद्धिमत्ता आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Investigate",
+      "phoneticRespelling": "in-VES-ti-gayt",
+      "translation": "जांच करना",
+      "definition": "To carry out a systematic inquiry or research into something",
+      "definationTranslation": "किसी चीज की सिस्टमेटिक जांच या शोध करना",
+      "sentence": [
+        {
+          "sentence": "The journalist will investigate the story before publishing it.",
+          "translation": "पत्रकार कहानी को प्रकाशित करने से पहले उसकी जांच करेगा।"
+        },
+        {
+          "sentence": "The AI system can investigate large amounts of data to find patterns.",
+          "translation": "एआई सिस्टम बड़ी मात्रा में डेटा की जांच कर सकता है और पैटर्न को ढूंढ सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Journalism",
+      "phoneticRespelling": "JOR-nl-iz-uhm",
+      "translation": "पत्रकारिता",
+      "definition": "The activity of writing and publishing news stories and articles",
+      "definationTranslation": "समाचार कहानियों और लेखों को लिखने और प्रकाशित करने की गतिविधि",
+      "sentence": [
+        {
+          "sentence": "Journalism is an essential part of a democratic society.",
+          "translation": "पत्रकारिता एक लोकतांत्रिक समाज का एक आवश्यक हिस्सा है।"
+        },
+        {
+          "sentence": "The AI system is being used in journalism to automate tasks.",
+          "translation": "पत्रकारिता में कार्यों को स्वचालित करने के लिए एआई सिस्टम का उपयोग किया जा रहा है।"
+        }
+      ]
+    },
+    {
+      "word": "Media",
+      "phoneticRespelling": "MEE-dee-uh",
+      "translation": "मीडिया",
+      "definition": "The main means of mass communication, such as television, radio, and newspapers",
+      "definationTranslation": "मास संचार के मुख्य साधन, जैसे कि टेलीविजन, रेडियो और अखबार",
+      "sentence": [
+        {
+          "sentence": "The media plays a crucial role in shaping public opinion.",
+          "translation": "मीडिया जनमत को आकार देने में एक महत्वपूर्ण भूमिका निभाता है।"
+        },
+        {
+          "sentence": "The AI system can analyze large amounts of media data to generate news articles.",
+          "translation": "एआई सिस्टम समाचार लेख तैयार करने के लिए बड़ी मात्रा में मीडिया डेटा का विश्लेषण कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "News",
+      "phoneticRespelling": "NOOZ",
+      "translation": "समाचार",
+      "definition": "Newly received or noteworthy information about current events",
+      "definationTranslation": "वर्तमान घटनाओं के बारे में नवीनतम प्राप्त या उल्लेखनीय जानकारी",
+      "sentence": [
+        {
+          "sentence": "The journalist wrote a news article about the recent election.",
+          "translation": "पत्रकार ने हाल के चुनाव के बारे में एक समाचार लेख लिखा।"
+        },
+        {
+          "sentence": "The AI system can generate news articles based on large amounts of data.",
+          "translation": "एआई सिस्टम बड़ी मात्रा में डेटा के आधार पर समाचार लेख तैयार कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Objective",
+      "phoneticRespelling": "ob-JEK-tiv",
+      "translation": "वस्तुनिष्ठ",
+      "definition": "Not influenced by personal feelings or opinions",
+      "definationTranslation": "व्यक्तिगत भावनाओं या राय से प्रभावित नहीं",
+      "sentence": [
+        {
+          "sentence": "The journalist tried to remain objective in her reporting.",
+          "translation": "पत्रकार ने अपनी रिपोर्टिंग में वस्तुनिष्ठ रहने की कोशिश की।"
+        },
+        {
+          "sentence": "The AI system is designed to provide objective analysis of data.",
+          "translation": "एआई सिस्टम डेटा का वस्तुनिष्ठ विश्लेषण प्रदान करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Program",
+      "phoneticRespelling": "PROH-gruhm",
+      "translation": "कार्यक्रम",
+      "definition": "A set of instructions that a computer can understand and execute",
+      "definationTranslation": "एक सेट निर्देश जो एक कंप्यूटर समझ सकता है और निष्पादित कर सकता है",
+      "sentence": [
+        {
+          "sentence": "The programmer wrote a program to automate the task.",
+          "translation": "प्रोग्रामर ने कार्य को स्वचालित करने के लिए एक कार्यक्रम लिखा।"
+        },
+        {
+          "sentence": "The AI system uses a program to generate news articles.",
+          "translation": "एआई सिस्टम समाचार लेख तैयार करने के लिए एक कार्यक्रम का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Publish",
+      "phoneticRespelling": "PUH-lish",
+      "translation": "प्रकाशित",
+      "definition": "To make something available to the public, especially through the media",
+      "definationTranslation": "किसी चीज को जनता के लिए उपलब्ध कराना, विशेष रूप से मीडिया के माध्यम से",
+      "sentence": [
+        {
+          "sentence": "The journalist will publish the article in the newspaper.",
+          "translation": "पत्रकार अखबार में लेख प्रकाशित करेगा।"
+        },
+        {
+          "sentence": "The AI system can publish news articles on the internet.",
+          "translation": "एआई सिस्टम इंटरनेट पर समाचार लेख प्रकाशित कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Report",
+      "phoneticRespelling": "ri-PORT",
+      "translation": "रिपोर्ट",
+      "definition": "A written or spoken account of something, especially an event or situation",
+      "definationTranslation": "किसी चीज का लिखित या मौखिक वर्णन, विशेष रूप से एक घटना या स्थिति",
+      "sentence": [
+        {
+          "sentence": "The journalist wrote a report on the recent disaster.",
+          "translation": "पत्रकार ने हाल की आपदा पर एक रिपोर्ट लिखी।"
+        },
+        {
+          "sentence": "The AI system can generate a report based on large amounts of data.",
+          "translation": "एआई सिस्टम बड़ी मात्रा में डेटा के आधार पर एक रिपोर्ट तैयार कर सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Research",
+      "phoneticRespelling": "REE-surch",
+      "translation": "अनुसंधान",
+      "definition": "The systematic investigation into and study of a subject",
+      "definationTranslation": "एक विषय की सिस्टमेटिक जांच और अध्ययन",
+      "sentence": [
+        {
+          "sentence": "The journalist conducted research on the topic before writing the article.",
+          "translation": "पत्रकार ने लेख लिखने से पहले विषय पर अनुसंधान किया।"
+        },
+        {
+          "sentence": "The AI system can conduct research on large amounts of data to find patterns.",
+          "translation": "एआई सिस्टम बड़ी मात्रा में डेटा पर अनुसंधान कर सकता है और पैटर्न को ढूंढ सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Robot",
+      "phoneticRespelling": "ROH-buh-t",
+      "translation": "रोबोट",
+      "definition": "A machine that can be programmed to perform a series of actions automatically",
+      "definationTranslation": "एक मशीन जो स्वचालित रूप से कार्यों की एक श्रृंखला करने के लिए प्रोग्राम की जा सकती है",
+      "sentence": [
+        {
+          "sentence": "The robot was used in the factory to automate tasks.",
+          "translation": "कारखाने में कार्यों को स्वचालित करने के लिए रोबोट का उपयोग किया गया था।"
+        },
+        {
+          "sentence": "The AI system uses a robot to collect data and generate news articles.",
+          "translation": "एआई सिस्टम डेटा एकत्र करने और समाचार लेख तैयार करने के लिए एक रोबोट का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Software",
+      "phoneticRespelling": "SOHFT-wair",
+      "translation": "सॉफ्टवेयर",
+      "definition": "Programs and operating systems used by a computer",
+      "definationTranslation": "कंप्यूटर द्वारा उपयोग किए जाने वाले प्रोग्राम और ऑपरेटिंग सिस्टम",
+      "sentence": [
+        {
+          "sentence": "The programmer wrote software to automate the task.",
+          "translation": "प्रोग्रामर ने कार्य को स्वचालित करने के लिए सॉफ्टवेयर लिखा।"
+        },
+        {
+          "sentence": "The AI system uses software to generate news articles.",
+          "translation": "एआई सिस्टम समाचार लेख तैयार करने के लिए सॉफ्टवेयर का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Technology",
+      "phoneticRespelling": "teh-NAH-luh-jee",
+      "translation": "प्रौद्योगिकी",
+      "definition": "The application of scientific knowledge for practical purposes",
+      "definationTranslation": "व्यावहारिक उद्देश्यों के लिए वैज्ञानिक ज्ञान का अनुप्रयोग",
+      "sentence": [
+        {
+          "sentence": "The journalist wrote about the latest technology trends.",
+          "translation": "पत्रकार ने नवीनतम प्रौद्योगिकी रुझानों के बारे में लिखा।"
+        },
+        {
+          "sentence": "The AI system uses advanced technology to generate news articles.",
+          "translation": "एआई सिस्टम समाचार लेख तैयार करने के लिए उन्नत प्रौद्योगिकी का उपयोग करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Transparency",
+      "phoneticRespelling": "trahn-SPEH-rehn-see",
+      "translation": "पारदर्शिता",
+      "definition": "The quality of being open and honest in all dealings",
+      "definationTranslation": "सभी लेन-देन में खुला और ईमानदार होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The journalist emphasized the importance of transparency in reporting.",
+          "translation": "पत्रकार ने रिपोर्टिंग में पारदर्शिता के महत्व पर जोर दिया।"
+        },
+        {
+          "sentence": "The AI system is designed to provide transparency in its decision-making process.",
+          "translation": "एआई सिस्टम अपनी निर्णय लेने की प्रक्रिया में पारदर्शिता प्रदान करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Truth",
+      "phoneticRespelling": "TOOTH",
+      "translation": "सत्य",
+      "definition": "The quality of being true or accurate",
+      "definationTranslation": "सत्य या सटीक होने की गुणवत्ता",
+      "sentence": [
+        {
+          "sentence": "The journalist sought to uncover the truth behind the story.",
+          "translation": "पत्रकार ने कहानी के पीछे के सत्य को उजागर करने का प्रयास किया।"
+        },
+        {
+          "sentence": "The AI system is designed to provide accurate and truthful information.",
+          "translation": "एआई सिस्टम सटीक और सच्ची जानकारी प्रदान करने के लिए डिज़ाइन किया गया है।"
+        }
+      ]
+    }
+  ]
+}

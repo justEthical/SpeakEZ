@@ -71,7 +71,7 @@ class PracticeController extends GetxController {
     if (globalController.isDeepInfraTranscription.value) {
       recorder?.startRecording(); // normal full 30 second recording
     } else {
-      recorder?.startAutoRecording(); // auto recording with chunks on pauses
+      recorder?.startRecording(); // auto recording with chunks on pauses
     }
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {

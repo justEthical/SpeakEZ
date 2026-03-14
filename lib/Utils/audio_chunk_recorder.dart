@@ -1,8 +1,10 @@
-import 'dart:io';
+import 'dart:async';
 import 'dart:isolate';
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
+import 'package:sherpa_onnx/sherpa_onnx.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Services/network_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
@@ -10,96 +12,115 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 
 class AudioChunkRecorder {
   final _recorder = AudioRecorder();
-  int _fileIndex = 0;
-  bool recording = false;
-  bool _shouldStop = false;
+  VoiceActivityDetector? _vad;
+  StreamSubscription<Uint8List>? _recordingStream;
+   // Buffer for accumulating PCM samples that don't align to windowSize
+  final List<double> _sampleBuffer = [];
+
+  bool isRecording = false;
 
   final config = RecordConfig(
-    encoder: AudioEncoder.wav,
+    encoder: AudioEncoder.pcm16bits,
     sampleRate: 16000,
-    bitRate: 128000,
+    numChannels: 1,
   );
 
-  Future<void> startAutoRecording({bool isFromLesson = false}) async {
-    final dir = await getApplicationDocumentsDirectory();
-    _shouldStop = false; // reset flag
+  Future<void> initializeVad() async {
+    final docDirectory = (await getApplicationDocumentsDirectory()).path;
+    final sileroModel = "$docDirectory/canary/silero_vad.onnx";
+    _vad = VoiceActivityDetector(
+      config: VadModelConfig(
+        sileroVad: SileroVadModelConfig(
+          model: sileroModel,
+          minSilenceDuration: 0.5,
+          minSpeechDuration: 0.25,
+          threshold: 0.3,
+        ),
+        sampleRate: 16000,
+        numThreads: 1,
+        debug: false,
+      ),
+      bufferSizeInSeconds: 30,
+    );
+  }
 
-    globalController.transcriptionText.value = "";
+  Future<void> startRecording() async {
+    if (isRecording) return;
+
+    isRecording = true;
     globalController.isLastChunkTranscribed.value = false;
+    await initializeVad();
+    final stream = await _recorder.startStream(config);
 
-    try {
-      await _recorder.stop();
+    try{
+      _recordingStream = stream.listen((data) {
+    final floatSamples = _pcm16ToFloat32(data);
+    _sampleBuffer.addAll(floatSamples);
+    const windowSize = 512;
+    while (_sampleBuffer.length >= windowSize) {
+      final chunk = Float32List.fromList(_sampleBuffer.sublist(0, windowSize));
+      _vad?.acceptWaveform(chunk);
+      _sampleBuffer.removeRange(0, windowSize);
+      _processVadSegments();
+    }
+    });
     } catch (e) {
       PostHogService.instance.captureError(
         PostHogEvents.audioError,
         errorMessage: e.toString(),
-        location: 'AudioChunkRecorder.startWhisperRecording',
+        location: 'AudioChunkRecorder.startRecording',
       );
       debugPrint(e.toString());
     }
-    final hasPermission = await _recorder.hasPermission();
-    if (hasPermission) {
-      while (!_shouldStop) {
-        final path = '${dir.path}/${_fileIndex++}.wav';
-        debugPrint('🎙️ Recording: $path');
+  }
 
-        await _recorder.start(config, path: path);
-
-        final start = DateTime.now();
-        recording = true;
-
-        while (recording && !_shouldStop) {
-          await Future.delayed(Duration(milliseconds: 500));
-
-          final duration = DateTime.now().difference(start).inSeconds;
-          final amplitude = await _recorder.getAmplitude();
-          final double level = amplitude.current;
-
-          // debugPrint('🔊 Amplitude: $level at ${duration}s');
-
-          if (duration >= 5 && level < -13.0) {
-            debugPrint('⏸️ Silence detected, stopping chunk...');
-            recording = false;
-
-            await _recorder.stop();
-            transcribeWithPersistentIsolate(path, isFromLesson);
-            break;
-          }
-        }
-      }
-
-      debugPrint('🛑 Recording fully stopped');
-    } else {
-      debugPrint('Permission not granted');
+  Future<void> _processVadSegments() async{
+    while (!_vad!.isEmpty()) {
+      final segment = _vad!.front();
+      _vad!.pop();
+      transcribeWithPersistentIsolate(segment.samples);
     }
   }
 
+  Float32List _pcm16ToFloat32(Uint8List bytes) {
+    // Copy to a fresh buffer to guarantee 2-byte alignment
+    final aligned = Uint8List.fromList(bytes);
+    final int16 = aligned.buffer.asInt16List(0, aligned.length ~/ 2);
+    return Float32List.fromList(
+      int16.map((s) => s / 32768.0).toList(),
+    );
+  }
+
   Future<void> stop({bool isFromLesson = false}) async {
-    _shouldStop = true;
-    recording = false;
-    if (await _recorder.isRecording()) {
-      await _recorder.stop();
-      await _recorder.dispose();
-    }
-    final dir = await getApplicationDocumentsDirectory();
-    final lastRecordingChunkPath = '${dir.path}/${_fileIndex - 1}.wav';
-    debugPrint("heerree");
-    await transcribeWithPersistentIsolate(lastRecordingChunkPath, isFromLesson);
+    if (!isRecording) return;
+
+    isRecording = false;
+
+    await _recordingStream?.cancel();
+    _recordingStream = null;
+
+    await _recorder.stop();
+
+    // Flush remaining audio through VAD
+    _vad!.flush();
+    final segment = _vad!.front();
+    _vad!.reset();
+    await transcribeWithPersistentIsolate(segment.samples);
+    _sampleBuffer.clear();
+
     globalController.isLastChunkTranscribed.value = true;
     debugPrint("last recording transcribed");
   }
 
   Future<void> transcribeWithPersistentIsolate(
-    String filePath,
-    bool isFromLesson,
+    Float32List samples
   ) async {
-    if (File(filePath).existsSync()) {
-      debugPrint('file exists');
-      
+    if (samples.isNotEmpty) {
+
       final ReceivePort responsePort = ReceivePort();
 
       globalController.whisperSendPort?.send({
-        'file': filePath,
+        'samples': samples,
         'replyTo': responsePort.sendPort,
       });
 
@@ -109,13 +130,7 @@ class AudioChunkRecorder {
     }
   }
 
-  Future<void> startRecording() async{
-    final dir = await getApplicationDocumentsDirectory();
-    final path = '${dir.path}/recording.wav';
-    _recorder.start(config, path: path);
-  }
-
-  Future<void> stopAndTranscribeWithDeepInfra() async{
+  Future<void> stopAndTranscribeWithDeepInfra() async {
     final now = DateTime.now().millisecondsSinceEpoch;
     final dir = await getApplicationDocumentsDirectory();
     final path = '${dir.path}/recording.wav';
@@ -125,15 +140,10 @@ class AudioChunkRecorder {
     debugPrint("########  DURATION: $duration ########");
     PostHogService.instance.capture(
       PostHogEvents.deepInfraTranscribe,
-      properties: {
-        'duration': duration,
-      },
+      properties: {'duration': duration},
     );
     if (result != null) {
       globalController.transcriptionText.value = result;
     }
   }
-}
-
-class NetworkHelper {
 }
