@@ -24,9 +24,14 @@ class WhisperHelper {
     final RootIsolateToken token = args[2];
 
     BackgroundIsolateBinaryMessenger.ensureInitialized(token);
-    
+    initBindings(); // Must be called in each isolate separately for intialising sherpa onnx
 
+    final initStart = DateTime.now();
+    debugPrint('[WhisperHelper] Model init started at $initStart');
     final recognizer = initCanaryRecognizer(modelPath);
+    final initEnd = DateTime.now();
+    final initMs = initEnd.difference(initStart).inMilliseconds;
+    debugPrint('[WhisperHelper] Model init completed in ${initMs}ms');
 
     final isolateReceivePort = ReceivePort();
     mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
@@ -38,12 +43,11 @@ class WhisperHelper {
         isolateReceivePort.close();
         break; // exit the loop and function => isolate terminates
       } else if (message is Map &&
-          message.containsKey('file') &&
+          message.containsKey('samples') &&
           message.containsKey('replyTo')) {
         final SendPort replyTo = message['replyTo'] as SendPort;
         try {
           final samples = message['samples'] as Float32List;
-
 
           final stream = recognizer.createStream();
           stream.acceptWaveform(sampleRate: 16000, samples: samples);
@@ -183,14 +187,18 @@ class WhisperHelper {
       final archive = ZipDecoder().decodeStream(inputStream);
 
       for (final file in archive.files) {
+        debugPrint('[extractArchieve] ${file.name}');
         final outPath = '$outputDir/${file.name}';
-        final outFile = File(outPath);
 
-        // Create parent directories
-        await outFile.create(recursive: true);
-
-        // Write file content async
-        await outFile.writeAsBytes(file.content as List<int>);
+        if (file.isDirectory) {
+          // Create directory
+          await Directory(outPath).create(recursive: true);
+        } else {
+          // Create file
+          final outFile = File(outPath);
+          await outFile.create(recursive: true);
+          await outFile.writeAsBytes(file.content as List<int>);
+        }
       }
     } catch (e) {
       PostHogService.instance.captureError(
@@ -244,6 +252,8 @@ class WhisperHelper {
     final ReceivePort onMainReceive = ReceivePort();
 
     final RootIsolateToken token = RootIsolateToken.instance!;
+    final spawnStart = DateTime.now();
+    debugPrint('[WhisperHelper] Spawning isolate at $spawnStart');
     await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
       onMainReceive.sendPort,
       globalController.appDocDirectoryPath,
@@ -251,11 +261,16 @@ class WhisperHelper {
     ]);
 
     final SendPort whisperSendPort = await onMainReceive.first;
+    final spawnEnd = DateTime.now();
+    final spawnMs = spawnEnd.difference(spawnStart).inMilliseconds;
+    debugPrint('[WhisperHelper] Isolate ready (spawn + model init) in ${spawnMs}ms');
     final audioFilePath = await loadAssetToFile(AppAssets.whisperTestAudio);
+    final audioBytes = await File(audioFilePath).readAsBytes();
+    final samples = downmixAndNormalizeWav(audioBytes);
     final ReceivePort responsePort = ReceivePort();
     final start = DateTime.now();
     whisperSendPort.send({
-      'file': audioFilePath,
+      'samples': samples,
       'replyTo': responsePort.sendPort,
     });
 

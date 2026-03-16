@@ -63,9 +63,6 @@ class _ChatScreenState extends State<ChatScreen> with SingleTickerProviderStateM
       c.currentConversationSummary = '';
       c.aiResponseList.clear();
       c.addInitialMessage();
-      if (!globalController.isDeepInfraTranscription.value) {
-        globalController.startWhisperIsolate();
-      }
     });
     GoogleMobileAdsService.instance.loadInterstitial(
       adUnitId: AppStrings.interstitialAdUnitId,

@@ -1,1 +1,413 @@
-{}
+{
+  "topic": "Information Theory",
+  "words": [
+    {
+      "word": "Entropy",
+      "phoneticRespelling": "EN-truh-pee",
+      "translation": "एन्ट्रॉपी",
+      "definition": "A measure of the amount of uncertainty or randomness in a system",
+      "definationTranslation": "अनिश्चितता या यादृच्छिकता की मात्रा का एक उपाय",
+      "sentence": [
+        {
+          "sentence": "The entropy of a system is a measure of its disorder.",
+          "translation": "किसी प्रणाली की एन्ट्रॉपी इसके विकार का एक उपाय है।"
+        },
+        {
+          "sentence": "Entropy is a fundamental concept in information theory.",
+          "translation": "एन्ट्रॉपी सूचना सिद्धांत में एक मूलभूत अवधारणा है।"
+        }
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "अल्गोरिथ्म",
+      "definition": "A set of instructions that is used to solve a specific problem",
+      "definationTranslation": "एक निर्देशों का समूह जो एक विशिष्ट समस्या को हल करने के लिए प्रयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in the program was very efficient.",
+          "translation": "प्रोग्राम में प्रयोग किया गया अल्गोरिथ्म बहुत कुशल था।"
+        },
+        {
+          "sentence": "Algorithms are used in computer science to solve complex problems.",
+          "translation": "अल्गोरिथ्म्स का प्रयोग कंप्यूटर विज्ञान में जटिल समस्याओं को हल करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Bit",
+      "phoneticRespelling": "BIT",
+      "translation": "बिट",
+      "definition": "A basic unit of information in computing",
+      "definationTranslation": "कंप्यूटिंग में सूचना की एक मूल इकाई",
+      "sentence": [
+        {
+          "sentence": "A bit is the smallest unit of information in a computer.",
+          "translation": "एक बिट कंप्यूटर में सूचना की सबसे छोटी इकाई है।"
+        },
+        {
+          "sentence": "Bits are used to represent information in a binary format.",
+          "translation": "बिट्स का प्रयोग द्विआधारी प्रारूप में सूचना को प्रस्तुत करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Byte",
+      "phoneticRespelling": "BITE",
+      "translation": "बाइट",
+      "definition": "A unit of digital information that consists of 8 bits",
+      "definationTranslation": "एक डिजिटल सूचना की इकाई जो 8 बिट्स से मिलकर बनती है",
+      "sentence": [
+        {
+          "sentence": "A byte is a group of 8 bits that represent a character.",
+          "translation": "एक बाइट 8 बिट्स का समूह है जो एक चरित्र को प्रस्तुत करता है।"
+        },
+        {
+          "sentence": "Bytes are used to measure the size of digital files.",
+          "translation": "बाइट्स का प्रयोग डिजिटल फाइलों के आकार को मापने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Code",
+      "phoneticRespelling": "KOHD",
+      "translation": "कोड",
+      "definition": "A set of rules or instructions that are used to represent information",
+      "definationTranslation": "एक नियमों या निर्देशों का समूह जो सूचना को प्रस्तुत करने के लिए प्रयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The code used in the program was very complex.",
+          "translation": "प्रोग्राम में प्रयोग किया गया कोड बहुत जटिल था।"
+        },
+        {
+          "sentence": "Codes are used in computer science to represent information in a compact form.",
+          "translation": "कोड्स का प्रयोग कंप्यूटर विज्ञान में सूचना को एक कॉम्पैक्ट रूप में प्रस्तुत करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Compression",
+      "phoneticRespelling": "kuhm-PREH-shuhn",
+      "translation": "संकुचन",
+      "definition": "The process of reducing the size of a digital file",
+      "definationTranslation": "एक डिजिटल फाइल के आकार को कम करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The compression algorithm used in the program was very efficient.",
+          "translation": "प्रोग्राम में प्रयोग किया गया संकुचन अल्गोरिथ्म बहुत कुशल था।"
+        },
+        {
+          "sentence": "Compression is used to reduce the size of digital files and save storage space.",
+          "translation": "संकुचन का प्रयोग डिजिटल फाइलों के आकार को कम करने और स्टोरेज स्पेस को बचाने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cybernetics",
+      "phoneticRespelling": "sy-bur-NEH-tiks",
+      "translation": "साइबर्नेटिक्स",
+      "definition": "The study of control and communication in machines and living beings",
+      "definationTranslation": "मशीनों और जीवित प्राणियों में नियंत्रण और संचार का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Cybernetics is a multidisciplinary field that combines computer science and engineering.",
+          "translation": "साइबर्नेटिक्स एक बहुसंख्यक क्षेत्र है जो कंप्यूटर विज्ञान और इंजीनियरिंग को मिलाता है।"
+        },
+        {
+          "sentence": "Cybernetics is used in robotics and artificial intelligence to control and communicate with machines.",
+          "translation": "साइबर्नेटिक्स का प्रयोग रोबोटिक्स और कृत्रिम बुद्धिमत्ता में मशीनों को नियंत्रित करने और संचार करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "डेटा",
+      "definition": "Information that is stored or transmitted in a digital format",
+      "definationTranslation": "सूचना जो डिजिटल प्रारूप में संग्रहीत या प्रेषित की जाती है",
+      "sentence": [
+        {
+          "sentence": "The data collected from the experiment was very valuable.",
+          "translation": "प्रयोग से संग्रहीत डेटा बहुत मूल्यवान था।"
+        },
+        {
+          "sentence": "Data is used in computer science to represent information in a digital format.",
+          "translation": "डेटा का प्रयोग कंप्यूटर विज्ञान में सूचना को डिजिटल प्रारूप में प्रस्तुत करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Database",
+      "phoneticRespelling": "DAY-tuh-beyz",
+      "translation": "डेटाबेस",
+      "definition": "A collection of organized data that is stored in a computer",
+      "definationTranslation": "एक संगठित डेटा का संग्रह जो कंप्यूटर में संग्रहीत किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The database used in the company was very efficient.",
+          "translation": "कंपनी में प्रयोग किया गया डेटाबेस बहुत कुशल था।"
+        },
+        {
+          "sentence": "Databases are used in computer science to store and manage large amounts of data.",
+          "translation": "डेटाबेस का प्रयोग कंप्यूटर विज्ञान में बड़ी मात्रा में डेटा को संग्रहीत और प्रबंधित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Decoding",
+      "phoneticRespelling": "dee-KOH-ding",
+      "translation": "डिकोडिंग",
+      "definition": "The process of converting encoded data into its original form",
+      "definationTranslation": "एन्कोडेड डेटा को उसके मूल रूप में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The decoding algorithm used in the program was very complex.",
+          "translation": "प्रोग्राम में प्रयोग किया गया डिकोडिंग अल्गोरिथ्म बहुत जटिल था।"
+        },
+        {
+          "sentence": "Decoding is used in computer science to convert encoded data into its original form.",
+          "translation": "डिकोडिंग का प्रयोग कंप्यूटर विज्ञान में एन्कोडेड डेटा को उसके मूल रूप में परिवर्तित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Encryption",
+      "phoneticRespelling": "en-KRIHP-shuhn",
+      "translation": "एन्क्रिप्शन",
+      "definition": "The process of converting plaintext into unreadable ciphertext",
+      "definationTranslation": "प्लेनटेक्स्ट को अपरिहार्य साइटेक्स्ट में परिवर्तित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The encryption algorithm used in the program was very secure.",
+          "translation": "प्रोग्राम में प्रयोग किया गया एन्क्रिप्शन अल्गोरिथ्म बहुत सुरक्षित था।"
+        },
+        {
+          "sentence": "Encryption is used in computer science to protect data from unauthorized access.",
+          "translation": "एन्क्रिप्शन का प्रयोग कंप्यूटर विज्ञान में डेटा को अनधिकृत पहुँच से बचाने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Feedback",
+      "phoneticRespelling": "FEE-d백",
+      "translation": "फीडबैक",
+      "definition": "Information that is used to control or modify a system",
+      "definationTranslation": "सूचना जो एक प्रणाली को नियंत्रित या संशोधित करने के लिए प्रयोग की जाती है",
+      "sentence": [
+        {
+          "sentence": "The feedback from the customers was very positive.",
+          "translation": "ग्राहकों से प्राप्त फीडबैक बहुत सकारात्मक था।"
+        },
+        {
+          "sentence": "Feedback is used in control systems to regulate and control the output.",
+          "translation": "फीडबैक का प्रयोग नियंत्रण प्रणालियों में आउटपुट को विनियमित और नियंत्रित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Frequency",
+      "phoneticRespelling": "FREH-kwuhn-see",
+      "translation": "आवृत्ति",
+      "definition": "The number of times an event occurs within a given period",
+      "definationTranslation": "एक निर्दिष्ट अवधि के भीतर एक घटना की उत्पन्न होने की संख्या",
+      "sentence": [
+        {
+          "sentence": "The frequency of the signal was very high.",
+          "translation": "संकेत की आवृत्ति बहुत उच्च थी।"
+        },
+        {
+          "sentence": "Frequency is used in physics to measure the number of oscillations per second.",
+          "translation": "आवृत्ति का प्रयोग भौतिकी में प्रति सेकंड के उतार-चढ़ाव की संख्या को मापने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Information",
+      "phoneticRespelling": "in-fuh-MEY-shuhn",
+      "translation": "सूचना",
+      "definition": "Knowledge or facts that are communicated or received",
+      "definationTranslation": "ज्ञान या तथ्य जो संवादित या प्राप्त किए जाते हैं",
+      "sentence": [
+        {
+          "sentence": "The information provided by the company was very helpful.",
+          "translation": "कंपनी द्वारा प्रदान की गई सूचना बहुत उपयोगी थी।"
+        },
+        {
+          "sentence": "Information is used in computer science to represent knowledge or facts in a digital format.",
+          "translation": "सूचना का प्रयोग कंप्यूटर विज्ञान में ज्ञान या तथ्यों को डिजिटल प्रारूप में प्रस्तुत करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Input",
+      "phoneticRespelling": "IN-puht",
+      "translation": "इनपुट",
+      "definition": "Data or information that is entered into a computer or system",
+      "definationTranslation": "डेटा या सूचना जो एक कंप्यूटर या प्रणाली में दर्ज की जाती है",
+      "sentence": [
+        {
+          "sentence": "The input device used in the computer was a keyboard.",
+          "translation": "कंप्यूटर में प्रयोग किया गया इनपुट डिवाइस एक कीबोर्ड था।"
+        },
+        {
+          "sentence": "Input is used in computer science to provide data or information to a program or system.",
+          "translation": "इनपुट का प्रयोग कंप्यूटर विज्ञान में एक प्रोग्राम या प्रणाली को डेटा या सूचना प्रदान करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Interface",
+      "phoneticRespelling": "IN-tuh-rfays",
+      "translation": "इंटरफेस",
+      "definition": "A point or surface where two or more systems or components meet",
+      "definationTranslation": "एक बिंदु या सतह जहां दो या अधिक प्रणालियों या घटक मिलते हैं",
+      "sentence": [
+        {
+          "sentence": "The interface between the two systems was very complex.",
+          "translation": "दो प्रणालियों के बीच का इंटरफेस बहुत जटिल था।"
+        },
+        {
+          "sentence": "Interface is used in computer science to interact with users or other systems.",
+          "translation": "इंटरफेस का प्रयोग कंप्यूटर विज्ञान में उपयोगकर्ताओं या अन्य प्रणालियों के साथ बातचीत करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Memory",
+      "phoneticRespelling": "MEH-muh-ree",
+      "translation": "मेमोरी",
+      "definition": "The ability of a computer or system to store and retrieve data",
+      "definationTranslation": "एक कंप्यूटर या प्रणाली की डेटा को संग्रहीत और पुनः प्राप्त करने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The memory of the computer was very limited.",
+          "translation": "कंप्यूटर की मेमोरी बहुत सीमित थी।"
+        },
+        {
+          "sentence": "Memory is used in computer science to store and retrieve data or programs.",
+          "translation": "मेमोरी का प्रयोग कंप्यूटर विज्ञान में डेटा या प्रोग्रामों को संग्रहीत और पुनः प्राप्त करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Modulation",
+      "phoneticRespelling": "muh-JOO-lay-shuhn",
+      "translation": "मॉड्यूलेशन",
+      "definition": "The process of varying the characteristics of a signal",
+      "definationTranslation": "एक संकेत के विशेषताओं को बदलने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The modulation of the signal was very complex.",
+          "translation": "संकेत का मॉड्यूलेशन बहुत जटिल था।"
+        },
+        {
+          "sentence": "Modulation is used in communication systems to transmit information.",
+          "translation": "मॉड्यूलेशन का प्रयोग संचार प्रणालियों में सूचना को प्रसारित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A group of interconnected computers or devices",
+      "definationTranslation": "एक संयुक्त कंप्यूटरों या उपकरणों का समूह",
+      "sentence": [
+        {
+          "sentence": "The network used in the company was very secure.",
+          "translation": "कंपनी में प्रयोग किया गया नेटवर्क बहुत सुरक्षित था।"
+        },
+        {
+          "sentence": "Network is used in computer science to connect and communicate with multiple devices.",
+          "translation": "नेटवर्क का प्रयोग कंप्यूटर विज्ञान में कई उपकरणों को जोड़ने और संवाद करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Noise",
+      "phoneticRespelling": "NOYZ",
+      "translation": "शोर",
+      "definition": "Unwanted or random signals that can interfere with communication",
+      "definationTranslation": "अवांछित या यादृच्छिक संकेत जो संचार में हस्तक्षेप कर सकते हैं",
+      "sentence": [
+        {
+          "sentence": "The noise in the background was very distracting.",
+          "translation": "पृष्ठभूमि में शोर बहुत विचलित करने वाला था।"
+        },
+        {
+          "sentence": "Noise is used in communication systems to describe unwanted or random signals.",
+          "translation": "शोर का प्रयोग संचार प्रणालियों में अवांछित या यादृच्छिक संकेतों को वर्णित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Output",
+      "phoneticRespelling": "OUT-puht",
+      "translation": "आउटपुट",
+      "definition": "The result or product of a process or system",
+      "definationTranslation": "एक प्रक्रिया या प्रणाली का परिणाम या उत्पाद",
+      "sentence": [
+        {
+          "sentence": "The output of the program was very accurate.",
+          "translation": "प्रोग्राम का आउटपुट बहुत सटीक था।"
+        },
+        {
+          "sentence": "Output is used in computer science to represent the result of a process or system.",
+          "translation": "आउटपुट का प्रयोग कंप्यूटर विज्ञान में एक प्रक्रिया या प्रणाली के परिणाम को प्रस्तुत करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Protocol",
+      "phoneticRespelling": "PROH-tuh-kol",
+      "translation": "प्रोटोकॉल",
+      "definition": "A set of rules or standards that govern communication",
+      "definationTranslation": "एक नियमों या मानकों का समूह जो संचार को नियंत्रित करता है",
+      "sentence": [
+        {
+          "sentence": "The protocol used in the network was very secure.",
+          "translation": "नेटवर्क में प्रयोग किया गया प्रोटोकॉल बहुत सुरक्षित था।"
+        },
+        {
+          "sentence": "Protocol is used in computer science to govern communication between devices or systems.",
+          "translation": "प्रोटोकॉल का प्रयोग कंप्यूटर विज्ञान में उपकरणों या प्रणालियों के बीच संचार को नियंत्रित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Signal",
+      "phoneticRespelling": "SIG-nuhl",
+      "translation": "संकेत",
+      "definition": "A transmission or emission of energy or information",
+      "definationTranslation": "ऊर्जा या सूचना का प्रसारण या उत्सर्जन",
+      "sentence": [
+        {
+          "sentence": "The signal from the satellite was very weak.",
+          "translation": "उपग्रह से प्राप्त संकेत बहुत कमजोर था।"
+        },
+        {
+          "sentence": "Signal is used in communication systems to transmit information.",
+          "translation": "संकेत का प्रयोग संचार प्रणालियों में सूचना को प्रसारित करने के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "phoneticRespelling": "SIH-stuhm",
+      "translation": "प्रणाली",
+      "definition": "A set of connected things or devices that work together",
+      "definationTranslation": "एक जुड़ी हुई चीजों या उपकरणों का समूह जो मिलकर काम करते हैं",
+      "sentence": [
+        {
+          "sentence": "The system used in the company was very complex.",
+          "translation": "कंपनी में प्रयोग किया गया प्रणाली बहुत जटिल था।"
+        },
+        {
+          "sentence": "System is used in computer science to describe a set of connected devices or components.",
+          "translation": "प्रणाली का प्रयोग कंप्यूटर विज्ञान में एक जुड़े हुए उपकरणों या घटकों के समूह को वर्णित करने के लिए किया जाता है।"
+        }
+      ]
+    }
+  ]
+}
