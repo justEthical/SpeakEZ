@@ -12,7 +12,7 @@ import 'package:speak_ez/Screens/VocabularyTab/vocabulary_builder_screen.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
+import 'package:speak_ez/Utils/canary_helper.dart';
 
 class TabBarScreen extends StatefulWidget {
   final int? gemEarned;
@@ -36,11 +36,11 @@ class _TabBarScreenState extends State<TabBarScreen> {
       AppStrings.isOnDeviceTranscriptionSupported,
     );
     Future.delayed(Duration.zero, () async {
-      if (!await WhisperHelper.isModelZipAvailable() &&
+      if (!await CanaryHelper.isModelZipAvailable() &&
           isOnDeviceTranscriptionSupported == null) {
-        WhisperHelper.runSilentDownload();
+        CanaryHelper.runSilentDownload();
       } else if (isOnDeviceTranscriptionSupported == null) {
-        WhisperHelper.canModelRunOnDevice();
+        CanaryHelper.canModelRunOnDevice();
       }
     });
     // check if gems are lower than 100 then only load rewarded ad

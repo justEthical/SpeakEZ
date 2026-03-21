@@ -14,7 +14,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
-class WhisperHelper {
+class CanaryHelper {
   static const modelName = 'base';
   static const modelFlavourName = 'canary';
 
@@ -27,11 +27,11 @@ class WhisperHelper {
     initBindings(); // Must be called in each isolate separately for intialising sherpa onnx
 
     final initStart = DateTime.now();
-    debugPrint('[WhisperHelper] Model init started at $initStart');
+    debugPrint('[CanaryHelper] Model init started at $initStart');
     final recognizer = initCanaryRecognizer(modelPath);
     final initEnd = DateTime.now();
     final initMs = initEnd.difference(initStart).inMilliseconds;
-    debugPrint('[WhisperHelper] Model init completed in ${initMs}ms');
+    debugPrint('[CanaryHelper] Model init completed in ${initMs}ms');
 
     final isolateReceivePort = ReceivePort();
     mainSendPort.send(isolateReceivePort.sendPort); // send entry port to main
@@ -62,12 +62,12 @@ class WhisperHelper {
             text = result.text;
             if (text.trim().isNotEmpty) break;
             if (durationSec < 0.5) break; // don't retry tiny segments
-            debugPrint('[WhisperHelper] Empty at peak=$peak, trying next...');
+            debugPrint('[CanaryHelper] Empty at peak=$peak, trying next...');
           }
 
           replyTo.send(text);
         } catch (e) {
-          debugPrint('[WhisperHelper] Transcription error: $e');
+          debugPrint('[CanaryHelper] Transcription error: $e');
           replyTo.send('');
         }
       }
@@ -91,7 +91,7 @@ class WhisperHelper {
     for (int i = 0; i < samples.length; i++) {
       normalized[i] = samples[i] * scale;
     }
-    debugPrint('[WhisperHelper] Normalized: peak ${maxAbs.toStringAsFixed(4)} → $targetPeak, scale ${scale.toStringAsFixed(2)}x');
+    debugPrint('[CanaryHelper] Normalized: peak ${maxAbs.toStringAsFixed(4)} → $targetPeak, scale ${scale.toStringAsFixed(2)}x');
     return normalized;
   }
 
@@ -232,7 +232,7 @@ class WhisperHelper {
       PostHogService.instance.captureError(
         PostHogEvents.whisperError,
         errorMessage: 'Error extracting archive $e',
-        location: 'WhisperHelper.extractArchieve',
+        location: 'CanaryHelper.extractArchieve',
       );
       debugPrint('Error extracting archive (async): $e');
     }
@@ -272,7 +272,7 @@ class WhisperHelper {
       PostHogService.instance.captureError(
         PostHogEvents.whisperError,
         errorMessage: 'Error during extracting zip file $e',
-        location: 'WhisperHelper.canModelRunOnDevice',
+        location: 'CanaryHelper.canModelRunOnDevice',
       );
       debugPrint('Error Extracting file: $e');
     }
@@ -281,8 +281,8 @@ class WhisperHelper {
 
     final RootIsolateToken token = RootIsolateToken.instance!;
     final spawnStart = DateTime.now();
-    debugPrint('[WhisperHelper] Spawning isolate at $spawnStart');
-    await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+    debugPrint('[CanaryHelper] Spawning isolate at $spawnStart');
+    await Isolate.spawn(CanaryHelper.whisperIsolateEntry, [
       onMainReceive.sendPort,
       globalController.appDocDirectoryPath,
       token,
@@ -291,7 +291,7 @@ class WhisperHelper {
     final SendPort whisperSendPort = await onMainReceive.first;
     final spawnEnd = DateTime.now();
     final spawnMs = spawnEnd.difference(spawnStart).inMilliseconds;
-    debugPrint('[WhisperHelper] Isolate ready (spawn + model init) in ${spawnMs}ms');
+    debugPrint('[CanaryHelper] Isolate ready (spawn + model init) in ${spawnMs}ms');
     final audioFilePath = await loadAssetToFile(AppAssets.whisperTestAudio);
     final audioBytes = await File(audioFilePath).readAsBytes();
     final samples = downmixAndNormalizeWav(audioBytes);

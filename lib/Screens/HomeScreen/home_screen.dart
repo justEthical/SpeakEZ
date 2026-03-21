@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     super.initState();
     PostHogService.instance.captureScreenView('home_screen');
     c.fetchUserDetails();
-    // WhisperHelper.isModelAvailable().then((isAvailable) {
+    // CanaryHelper.isModelAvailable().then((isAvailable) {
     //   globalController.isAiModelDownloaded.value = isAvailable;
     // });
 

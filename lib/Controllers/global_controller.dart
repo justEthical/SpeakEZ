@@ -15,7 +15,7 @@ import 'package:speak_ez/Models/user_profile.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
 import 'package:speak_ez/Utils/custom_dialogs.dart';
-import 'package:speak_ez/Utils/whisper_helper.dart';
+import 'package:speak_ez/Utils/canary_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class GlobalController extends GetxController {
@@ -71,7 +71,7 @@ class GlobalController extends GetxController {
       final ReceivePort onMainReceive = ReceivePort();
 
       final RootIsolateToken token = RootIsolateToken.instance!;
-      await Isolate.spawn(WhisperHelper.whisperIsolateEntry, [
+      await Isolate.spawn(CanaryHelper.whisperIsolateEntry, [
         onMainReceive.sendPort,
         globalController.appDocDirectoryPath,
         token,
