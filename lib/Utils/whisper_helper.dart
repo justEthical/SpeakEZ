@@ -48,23 +48,51 @@ class WhisperHelper {
         final SendPort replyTo = message['replyTo'] as SendPort;
         try {
           final samples = message['samples'] as Float32List;
+          final durationSec = samples.length / 16000.0;
 
-          final stream = recognizer.createStream();
-          stream.acceptWaveform(sampleRate: 16000, samples: samples);
-          recognizer.decode(stream);
-          final result = recognizer.getResult(stream);
-          stream.free();
+          // Try multiple peak levels — the int8 model is sensitive to amplitude
+          String text = '';
+          for (final peak in [0.7, 0.5, 0.9]) {
+            final normalized = _normalize(samples, targetPeak: peak);
+            final stream = recognizer.createStream();
+            stream.acceptWaveform(sampleRate: 16000, samples: normalized);
+            recognizer.decode(stream);
+            final result = recognizer.getResult(stream);
+            stream.free();
+            text = result.text;
+            if (text.trim().isNotEmpty) break;
+            if (durationSec < 0.5) break; // don't retry tiny segments
+            debugPrint('[WhisperHelper] Empty at peak=$peak, trying next...');
+          }
 
-          replyTo.send(result.text); // send back transcription
+          replyTo.send(text);
         } catch (e) {
-          // Note: Cannot use PostHogService in isolate
-          replyTo.send(e.toString());
+          debugPrint('[WhisperHelper] Transcription error: $e');
+          replyTo.send('');
         }
       }
     }
 
     // recognizer.free();
     // isolateReceivePort.close();
+  }
+
+  /// Normalize audio peak to a consistent level for the int8 Canary model.
+  /// Both too-quiet AND too-loud audio cause decode failures with int8 quantization.
+  static Float32List _normalize(Float32List samples, {double targetPeak = 0.7}) {
+    double maxAbs = 0.0;
+    for (final s in samples) {
+      final abs = s < 0 ? -s : s;
+      if (abs > maxAbs) maxAbs = abs;
+    }
+    if (maxAbs < 0.001) return samples; // silence, don't amplify noise
+    final scale = targetPeak / maxAbs;
+    final normalized = Float32List(samples.length);
+    for (int i = 0; i < samples.length; i++) {
+      normalized[i] = samples[i] * scale;
+    }
+    debugPrint('[WhisperHelper] Normalized: peak ${maxAbs.toStringAsFixed(4)} → $targetPeak, scale ${scale.toStringAsFixed(2)}x');
+    return normalized;
   }
 
   static OfflineRecognizer initCanaryRecognizer(String path) {

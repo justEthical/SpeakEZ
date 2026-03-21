@@ -9,7 +9,6 @@ import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
 import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
-import 'package:speak_ez/Screens/Practice/chat_screen.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen_intro.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/auth_service.dart';

@@ -16,6 +16,7 @@ class AudioChunkRecorder {
   StreamSubscription<Uint8List>? _recordingStream;
    // Buffer for accumulating PCM samples that don't align to windowSize
   final List<double> _sampleBuffer = [];
+  final List<Future<void>> _pendingTranscriptions = [];
 
   bool isRecording = false;
 
@@ -44,9 +45,9 @@ class AudioChunkRecorder {
     );
   }
 
-  Future<void> startRecording() async {
+  Future<void> startVADRecording() async {
     if (isRecording) return;
-
+    globalController.transcriptionText.value = "";
     isRecording = true;
     globalController.isLastChunkTranscribed.value = false;
     await initializeVad();
@@ -74,11 +75,13 @@ class AudioChunkRecorder {
     }
   }
 
-  Future<void> _processVadSegments() async{
+  void _processVadSegments() {
     while (!_vad!.isEmpty()) {
       final segment = _vad!.front();
+      final samplesCopy = Float32List.fromList(segment.samples);
       _vad!.pop();
-      transcribeWithPersistentIsolate(segment.samples);
+      final future = transcribeWithPersistentIsolate(samplesCopy);
+      _pendingTranscriptions.add(future);
     }
   }
 
@@ -101,11 +104,19 @@ class AudioChunkRecorder {
 
     await _recorder.stop();
 
+    // Wait for all in-flight transcriptions from the stream
+    await Future.wait(_pendingTranscriptions);
+    _pendingTranscriptions.clear();
+
     // Flush remaining audio through VAD
     _vad!.flush();
-    final segment = _vad!.front();
+    if (!_vad!.isEmpty()) {
+      final segment = _vad!.front();
+      final samplesCopy = Float32List.fromList(segment.samples);
+      _vad!.pop();
+      await transcribeWithPersistentIsolate(samplesCopy);
+    }
     _vad!.reset();
-    await transcribeWithPersistentIsolate(segment.samples);
     _sampleBuffer.clear();
 
     globalController.isLastChunkTranscribed.value = true;
@@ -115,20 +126,34 @@ class AudioChunkRecorder {
   Future<void> transcribeWithPersistentIsolate(
     Float32List samples
   ) async {
-    if (samples.isNotEmpty) {
+    if (samples.isEmpty) return;
 
-      final ReceivePort responsePort = ReceivePort();
+    final ReceivePort responsePort = ReceivePort();
 
-      globalController.whisperSendPort?.send({
-        'samples': samples,
-        'replyTo': responsePort.sendPort,
-      });
+    globalController.whisperSendPort?.send({
+      'samples': samples,
+      'replyTo': responsePort.sendPort,
+    });
 
-      final result = await responsePort.first;
-      debugPrint('TRANSCRIBED: $result');
-      globalController.transcriptionText.value += result;
-    }
+    final result = await responsePort.first;
+    debugPrint('TRANSCRIBED: $result');
+    globalController.transcriptionText.value += result;
   }
+
+//======================Deep infra config=========================================  
+  // Config for DeepInfra cloud fallback (WAV file recording)
+  final _fileConfig = const RecordConfig(
+    encoder: AudioEncoder.wav,
+    sampleRate: 16000,
+    bitRate: 128000,
+  );
+
+   Future<void> startRecording() async {
+    final dir = await getApplicationDocumentsDirectory();
+    final path = '${dir.path}/recording.wav';
+    _recorder.start(_fileConfig, path: path);
+  }
+
 
   Future<void> stopAndTranscribeWithDeepInfra() async {
     final now = DateTime.now().millisecondsSinceEpoch;
