@@ -101,4 +101,10 @@ class PostHogEvents {
   static const String freeTalkScreenViewed = 'free_talk_screen_viewed';
   static const String freeTalkStarted = 'free_talk_started';
   static const String freeTalkCompleted = 'free_talk_completed';
+
+  static const String notificationPermissionGranted = 'notification_permission_granted';
+  static const String notificationPermissionDenied = 'notification_permission_denied';
+  static const String notificationScheduled = 'notification_scheduled';
+  static const String notificationScheduleFailed = 'notification_schedule_failed';
+  static const String notificationTimezoneError = 'notification_timezone_error';
 }

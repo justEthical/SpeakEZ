@@ -240,7 +240,7 @@ class CanaryHelper {
 
   static Future<bool> isModelAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
-    final encoder = File('${dir.path}/$modelName.en-decoder.int8.onnx');
+    final encoder = File('${dir.path}/$modelFlavourName/encoder.int8.onnx');
     return encoder.existsSync(); // Fast check
   }
 
@@ -305,7 +305,8 @@ class CanaryHelper {
     final result = await responsePort.first;
     final end = DateTime.now();
     final difference = end.difference(start).inSeconds;
-    if (difference <= 5.0) {
+    final isSupported = difference <= 5.0;
+    if (isSupported) {
       globalController.prefs?.setBool(
         AppStrings.isOnDeviceTranscriptionSupported,
         true,
@@ -332,6 +333,15 @@ class CanaryHelper {
         timeTookFor10SecTranscription: difference,
       );
     }
+    PostHogService.instance.capture(
+      'on_device_transcription_check',
+      properties: {
+        'is_supported': isSupported,
+        'transcription_time_seconds': difference,
+        'model_init_time_ms': spawnMs,
+        'result_text': result.toString(),
+      },
+    );
     globalController.updateProfile();
     debugPrint('TRANSCRIBED: $result');
     await File(zipPath).delete();

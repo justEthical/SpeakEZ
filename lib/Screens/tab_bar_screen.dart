@@ -36,11 +36,12 @@ class _TabBarScreenState extends State<TabBarScreen> {
       AppStrings.isOnDeviceTranscriptionSupported,
     );
     Future.delayed(Duration.zero, () async {
-      if (!await CanaryHelper.isModelZipAvailable() &&
-          isOnDeviceTranscriptionSupported == null) {
-        CanaryHelper.runSilentDownload();
-      } else if (isOnDeviceTranscriptionSupported == null) {
-        CanaryHelper.canModelRunOnDevice();
+      if (isOnDeviceTranscriptionSupported == null) {
+        if (await CanaryHelper.isModelAvailable()) {
+          CanaryHelper.canModelRunOnDevice();
+        } else if (!await CanaryHelper.isModelZipAvailable()) {
+          CanaryHelper.runSilentDownload();
+        } 
       }
     });
     // check if gems are lower than 100 then only load rewarded ad
