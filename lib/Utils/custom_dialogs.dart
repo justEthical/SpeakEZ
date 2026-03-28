@@ -564,10 +564,10 @@ class CustomDialogs {
                     hasEnoughGems
                         ? () {
                           Get.back();
-                          final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(
-      AppStrings.isOnDeviceTranscriptionSupported,
-    );
-                          if (isOnDeviceTranscriptionSupported ?? false) {
+      //                     final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(
+      // AppStrings.isOnDeviceTranscriptionSupported,
+    // );
+                          if (!(globalController.isDeepInfraTranscription.value)) {
                             Get.to(
                               ChatScreenIntro(scenarioModel: scenarioModel),
                             );
