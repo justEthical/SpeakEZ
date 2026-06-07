@@ -65,6 +65,10 @@ class AppStrings {
   static const String close = "close";
   static const String youGot = "youGot";
   static const String yourCurrentStreakIs = "yourCurrentStreakIs";
+  static const String streakDays = "streakDays";
+  static const String longestStreakMsg = "longestStreakMsg";
+  static const String keepStreakMsg = "keepStreakMsg";
+  static const String streakCalendar = "streakCalendar";
 
   // Level Bottom Sheet
   static const String a1Beginner = "a1Beginner";

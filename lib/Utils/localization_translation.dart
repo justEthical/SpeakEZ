@@ -68,6 +68,10 @@ class AppTranslations extends Translations {
       'close': "Close",
       'youGot': "You got: ",
       'yourCurrentStreakIs': "Your current Streak is",
+      'streakDays': "Streak Days",
+      'longestStreakMsg': "This is the longest Streak you've ever had!",
+      'keepStreakMsg': "Keep practicing daily to grow your Streak!",
+      'streakCalendar': "Streak Calendar",
 
       // Level Bottom Sheet
       'a1Beginner': "A1 Beginner",
@@ -342,6 +346,10 @@ class AppTranslations extends Translations {
       'close': "閉じる",
       'youGot': "あなたの得点：",
       'yourCurrentStreakIs': "現在の連続日数：",
+      'streakDays': "連続日数",
+      'longestStreakMsg': "これはあなたの最長記録です！",
+      'keepStreakMsg': "毎日練習して連続日数を伸ばしましょう！",
+      'streakCalendar': "連続日数カレンダー",
 
       // Level Bottom Sheet
       'a1Beginner': "A1 初級",
@@ -605,6 +613,10 @@ class AppTranslations extends Translations {
       'close': "बंद करें",
       'youGot': "आपका स्कोर: ",
       'yourCurrentStreakIs': "आपकी वर्तमान स्ट्रीक है",
+      'streakDays': "स्ट्रीक दिन",
+      'longestStreakMsg': "यह अब तक की आपकी सबसे लंबी स्ट्रीक है!",
+      'keepStreakMsg': "अपनी स्ट्रीक बढ़ाने के लिए रोज़ अभ्यास करें!",
+      'streakCalendar': "स्ट्रीक कैलेंडर",
 
       // Level Bottom Sheet
       'a1Beginner': "A1 प्रारंभिक",
@@ -881,6 +893,10 @@ class AppTranslations extends Translations {
       'close': "Cerrar",
       'youGot': "Obtuviste: ",
       'yourCurrentStreakIs': "Tu racha actual es",
+      'streakDays': "Días de racha",
+      'longestStreakMsg': "¡Esta es la racha más larga que has tenido!",
+      'keepStreakMsg': "¡Practica a diario para aumentar tu racha!",
+      'streakCalendar': "Calendario de racha",
 
       // Level Bottom Sheet
       'a1Beginner': "A1 Principiante",

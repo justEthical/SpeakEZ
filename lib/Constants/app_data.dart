@@ -1189,6 +1189,21 @@ class AppData {
     'Sun',
   ];
 
+  static List<String> monthNames = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+
   static List<DateTime> getCurrentWeekDates() {
     final now = DateTime.now();
     // In Dart, Monday = 1, Sunday = 7
