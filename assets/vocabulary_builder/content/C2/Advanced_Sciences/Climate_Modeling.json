@@ -340,6 +340,91 @@
           "translation": "हवा का पैटर्न जलवायु परिवर्तन के कारण बदल रहा है।"
         }
       ]
+    },
+    {
+      "word": "Cryosphere",
+      "phoneticRespelling": "KRY-uh-sfeer",
+      "translation": "हिममंडल",
+      "definition": "The frozen water part of the Earth system, including glaciers and ice sheets",
+      "definationTranslation": "पृथ्वी प्रणाली का जमा हुआ पानी वाला हिस्सा, जिसमें हिमनद और बर्फ की चादरें शामिल हैं",
+      "sentence": [
+        {
+          "sentence": "The cryosphere is a critical component in global climate feedback loops.",
+          "translation": "वैश्विक जलवायु फीडबैक लूप में हिममंडल एक महत्वपूर्ण घटक है।"
+        },
+        {
+          "sentence": "Changes in the cryosphere directly impact global sea levels.",
+          "translation": "हिममंडल में बदलाव सीधे वैश्विक समुद्र स्तर को प्रभावित करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Biosphere",
+      "phoneticRespelling": "BY-uh-sfeer",
+      "translation": "जीवमंडल",
+      "definition": "The regions of the surface, atmosphere, and hydrosphere occupied by living organisms",
+      "definationTranslation": "जीवित जीवों द्वारा घेरे गए सतह, वायुमंडल और जलमंडल के क्षेत्र",
+      "sentence": [
+        {
+          "sentence": "Climate models must account for the carbon exchange within the biosphere.",
+          "translation": "जलवायु मॉडलों को जीवमंडल के भीतर कार्बन विनिमय का हिसाब रखना चाहिए।"
+        },
+        {
+          "sentence": "The health of the biosphere is deeply linked to stable weather patterns.",
+          "translation": "जीवमंडल का स्वास्थ्य स्थिर मौसम पैटर्न से गहराई से जुड़ा हुआ है।"
+        }
+      ]
+    },
+    {
+      "word": "Anthropogenic",
+      "phoneticRespelling": "an-thruh-puh-JEN-ik",
+      "translation": "मानवजनित",
+      "definition": "Environmental change caused or influenced by people, either directly or indirectly",
+      "definationTranslation": "लोगों द्वारा प्रत्यक्ष या अप्रत्यक्ष रूप से किया गया या प्रभावित पर्यावरणीय परिवर्तन",
+      "sentence": [
+        {
+          "sentence": "Most modern climate models focus on anthropogenic greenhouse gas emissions.",
+          "translation": "अधिकांश आधुनिक जलवायु मॉडल मानवजनित ग्रीनहाउस गैस उत्सर्जन पर ध्यान केंद्रित करते हैं।"
+        },
+        {
+          "sentence": "Anthropogenic factors have significantly accelerated the rate of global warming.",
+          "translation": "मानवजनित कारकों ने ग्लोबल वार्मिंग की दर को काफी तेज कर दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Paleoclimatology",
+      "phoneticRespelling": "pay-lee-oh-kly-muh-TOL-uh-jee",
+      "translation": "पुराजलवायु विज्ञान",
+      "definition": "The study of past climates throughout the Earth's history",
+      "definationTranslation": "पृथ्वी के पूरे इतिहास में पिछले जलवायु का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Paleoclimatology provides data that helps validate current climate simulations.",
+          "translation": "पुराजलवायु विज्ञान डेटा प्रदान करता है जो वर्तमान जलवायु सिमुलेशन को मान्य करने में मदद करता है।"
+        },
+        {
+          "sentence": "By studying ice cores, experts in paleoclimatology can see how CO2 levels shifted centuries ago.",
+          "translation": "बर्फ के नमूनों का अध्ययन करके, पुराजलवायु विज्ञान के विशेषज्ञ देख सकते हैं कि सदियों पहले CO2 का स्तर कैसे बदला था।"
+        }
+      ]
+    },
+    {
+      "word": "Albedo",
+      "phoneticRespelling": "al-BEE-doh",
+      "translation": "अल्बेडो",
+      "definition": "The proportion of light or radiation that is reflected by a surface, typically that of a planet or ice",
+      "definationTranslation": "प्रकाश या विकिरण का वह अनुपात जो किसी सतह द्वारा परावर्तित होता है, आमतौर पर किसी ग्रह या बर्फ की सतह द्वारा",
+      "sentence": [
+        {
+          "sentence": "The melting of Arctic ice reduces the Earth's albedo, causing more heat absorption.",
+          "translation": "आर्कटिक बर्फ के पिघलने से पृथ्वी का अल्बेडो कम हो जाता है, जिससे गर्मी का अवशोषण बढ़ जाता है।"
+        },
+        {
+          "sentence": "Albedo effect is a major variable in calculating the planet's energy balance.",
+          "translation": "ग्रह के ऊर्जा संतुलन की गणना करने में अल्बेडो प्रभाव एक प्रमुख चर (variable) है।"
+        }
+      ]
     }
   ]
 }
