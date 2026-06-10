@@ -58,6 +58,11 @@ class AppStrings {
   static const String continueLearning = "continueLearning";
   static const String learnByLevel = "learnByLevel";
   static const String seeAll = "seeAll";
+  static const String courseProgress = "courseProgress";
+  static const String realLifeConversations = "realLifeConversations";
+  static const String tierBeginner = "tierBeginner";
+  static const String tierIntermediate = "tierIntermediate";
+  static const String tierAdvanced = "tierAdvanced";
   static const String lessons = "lessons";
   static const String levelLessons = "levelLessons";
   static const String completed = "completed";

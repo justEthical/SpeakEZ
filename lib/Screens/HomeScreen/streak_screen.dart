@@ -20,6 +20,7 @@ class _StreakScreenState extends State<StreakScreen> {
 
   late DateTime _visibleMonth;
   late final Set<DateTime> _streakDates;
+  late final DateTime _today;
 
   // Brightness-derived palette, refreshed at the start of each build.
   late bool _isDark;
@@ -32,6 +33,7 @@ class _StreakScreenState extends State<StreakScreen> {
     super.initState();
     final now = DateTime.now();
     _visibleMonth = DateTime(now.year, now.month);
+    _today = DateTime(now.year, now.month, now.day);
     _streakDates = _buildStreakDates();
   }
 
@@ -354,6 +356,7 @@ class _StreakScreenState extends State<StreakScreen> {
 
           final date = DateTime(_visibleMonth.year, _visibleMonth.month, day);
           final isStreak = _streakDates.contains(date);
+          final isToday = date == _today;
           final isStart =
               isStreak && !_streakDates.contains(date.subtract(const Duration(days: 1)));
           final isEnd =
@@ -390,17 +393,29 @@ class _StreakScreenState extends State<StreakScreen> {
                         shape: BoxShape.circle,
                       ),
                     ),
+                  if (isToday)
+                    Container(
+                      width: 34,
+                      height: 34,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(color: _accent, width: 2),
+                      ),
+                    ),
                   Text(
                     "$day",
                     style: TextStyle(
                       fontSize: 14,
-                      fontWeight:
-                          isStreak ? FontWeight.w700 : FontWeight.w500,
+                      fontWeight: isStreak || isToday
+                          ? FontWeight.w700
+                          : FontWeight.w500,
                       color: isStreak && (isStart || isEnd)
                           ? Colors.white
-                          : isStreak
-                              ? _streakDayText
-                              : _accent.withValues(alpha: 0.85),
+                          : isToday
+                              ? _accent
+                              : isStreak
+                                  ? _streakDayText
+                                  : _accent.withValues(alpha: 0.85),
                       fontFamily: AppStrings.poppinsFont,
                     ),
                   ),

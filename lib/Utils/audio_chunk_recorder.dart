@@ -28,7 +28,7 @@ class AudioChunkRecorder {
 
   Future<void> initializeVad() async {
     final docDirectory = (await getApplicationDocumentsDirectory()).path;
-    final sileroModel = "$docDirectory/canary/silero_vad.onnx";
+    final sileroModel = "$docDirectory/parakeet/silero_vad.onnx";
     _vad = VoiceActivityDetector(
       config: VadModelConfig(
         sileroVad: SileroVadModelConfig(

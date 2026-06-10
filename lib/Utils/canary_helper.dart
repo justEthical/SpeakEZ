@@ -15,8 +15,7 @@ import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 class CanaryHelper {
-  static const modelName = 'base';
-  static const modelFlavourName = 'canary';
+  static const modelFlavourName = 'parakeet';
 
   static void whisperIsolateEntry(List args) async {
     final SendPort mainSendPort = args[0];
@@ -48,24 +47,15 @@ class CanaryHelper {
         final SendPort replyTo = message['replyTo'] as SendPort;
         try {
           final samples = message['samples'] as Float32List;
-          final durationSec = samples.length / 16000.0;
 
-          // Try multiple peak levels — the int8 model is sensitive to amplitude
-          String text = '';
-          for (final peak in [0.7, 0.5, 0.9]) {
-            final normalized = _normalize(samples, targetPeak: peak);
-            final stream = recognizer.createStream();
-            stream.acceptWaveform(sampleRate: 16000, samples: normalized);
-            recognizer.decode(stream);
-            final result = recognizer.getResult(stream);
-            stream.free();
-            text = result.text;
-            if (text.trim().isNotEmpty) break;
-            if (durationSec < 0.5) break; // don't retry tiny segments
-            debugPrint('[CanaryHelper] Empty at peak=$peak, trying next...');
-          }
+          // Feed raw samples directly — NeMo CTC normalizes features internally.
+          final stream = recognizer.createStream();
+          stream.acceptWaveform(sampleRate: 16000, samples: samples);
+          recognizer.decode(stream);
+          final result = recognizer.getResult(stream);
+          stream.free();
 
-          replyTo.send(text);
+          replyTo.send(result.text);
         } catch (e) {
           debugPrint('[CanaryHelper] Transcription error: $e');
           replyTo.send('');
@@ -77,36 +67,14 @@ class CanaryHelper {
     // isolateReceivePort.close();
   }
 
-  /// Normalize audio peak to a consistent level for the int8 Canary model.
-  /// Both too-quiet AND too-loud audio cause decode failures with int8 quantization.
-  static Float32List _normalize(Float32List samples, {double targetPeak = 0.7}) {
-    double maxAbs = 0.0;
-    for (final s in samples) {
-      final abs = s < 0 ? -s : s;
-      if (abs > maxAbs) maxAbs = abs;
-    }
-    if (maxAbs < 0.001) return samples; // silence, don't amplify noise
-    final scale = targetPeak / maxAbs;
-    final normalized = Float32List(samples.length);
-    for (int i = 0; i < samples.length; i++) {
-      normalized[i] = samples[i] * scale;
-    }
-    debugPrint('[CanaryHelper] Normalized: peak ${maxAbs.toStringAsFixed(4)} → $targetPeak, scale ${scale.toStringAsFixed(2)}x');
-    return normalized;
-  }
-
   static OfflineRecognizer initCanaryRecognizer(String path) {
     final modelDir = '$path/$modelFlavourName';
 
     final recognizer = OfflineRecognizer(
       OfflineRecognizerConfig(
         model: OfflineModelConfig(
-          canary: OfflineCanaryModelConfig(
-            encoder: '$modelDir/encoder.int8.onnx',
-            decoder: '$modelDir/decoder.int8.onnx',
-            srcLang: 'en',
-            tgtLang: 'en',
-            usePnc: true,
+          nemoCtc: OfflineNemoEncDecCtcModelConfig(
+            model: '$modelDir/model.int8.onnx',
           ),
           tokens: '$modelDir/tokens.txt',
           numThreads: 2,
@@ -178,7 +146,7 @@ class CanaryHelper {
     }
 
     final modelDownloadUrl =
-        'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v1.1.1/canary.zip';
+        'https://github.com/justEthical/whisper_tiny_onnx/releases/download/v2.0.0/parakeet.zip';
     final dir = await getApplicationDocumentsDirectory(); // Now safe to call
     final zipPath = '${dir.path}/$modelFlavourName.zip';
 
@@ -240,7 +208,7 @@ class CanaryHelper {
 
   static Future<bool> isModelAvailable() async {
     final dir = await getApplicationDocumentsDirectory();
-    final encoder = File('${dir.path}/$modelFlavourName/encoder.int8.onnx');
+    final encoder = File('${dir.path}/$modelFlavourName/model.int8.onnx');
     return encoder.existsSync(); // Fast check
   }
 
@@ -344,7 +312,11 @@ class CanaryHelper {
     );
     globalController.updateProfile();
     debugPrint('TRANSCRIBED: $result');
-    await File(zipPath).delete();
+    try{
+      await File(zipPath).delete();
+    }catch(e){
+      debugPrint('Error deleting zip file: $e');
+    }
 
     whisperSendPort.send('stop');
   }
