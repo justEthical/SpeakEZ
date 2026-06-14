@@ -11,6 +11,7 @@
 .history
 .svn/
 .swiftpm/
+.tmp/
 migrate_working_dir/
 
 # IntelliJ related
@@ -48,4 +49,5 @@ app.*.map.json
 *.apks
 /backend/service-account.json
 /backend/node_modules
+/scripts/
 

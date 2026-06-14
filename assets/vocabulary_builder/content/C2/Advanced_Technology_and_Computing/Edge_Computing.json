@@ -1,0 +1,430 @@
+{
+  "topic": "Edge Computing",
+  "words": [
+    {
+      "word": "Edge",
+      "phoneticRespelling": "EJ",
+      "translation": "किनारा",
+      "definition": "The edge refers to the geographic location where data is generated and processed",
+      "definationTranslation": "किनारा उस भौगोलिक स्थान को संदर्भित करता है जहां डेटा उत्पन्न और संसाधित किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The edge computing platform provides real-time analytics",
+          "translation": "एज कंप्यूटिंग प्लेटफ़ॉर्म वास्तविक समय विश्लेषण प्रदान करता है"
+        },
+        {
+          "sentence": "Edge devices are used to collect and process data at the edge",
+          "translation": "एज डिवाइस किनारे पर डेटा संग्रहीत और प्रसंस्करण के लिए उपयोग किए जाते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Cloud",
+      "phoneticRespelling": "KLAWD",
+      "translation": "बादल",
+      "definition": "A cloud is a large network of remote servers accessed over the internet",
+      "definationTranslation": "एक बादल इंटरनेट के माध्यम से एक्सेस किए गए दूरस्थ सर्वरों का एक बड़ा नेटवर्क है",
+      "sentence": [
+        {
+          "sentence": "Cloud computing is a key enabler of edge computing",
+          "translation": "क्लाउड कंप्यूटिंग एज कंप्यूटिंग को सक्षम करने वाला एक प्रमुख घटक है"
+        },
+        {
+          "sentence": "Cloud-based services are used to manage edge devices",
+          "translation": "क्लाउड-आधारित सेवाएं एज डिवाइसों के प्रबंधन के लिए उपयोग की जाती हैं"
+        }
+      ]
+    },
+    {
+      "word": "Fog",
+      "phoneticRespelling": "FOG",
+      "translation": "कोहरा",
+      "definition": "Fog computing is an intermediate layer between edge and cloud computing",
+      "definationTranslation": "फॉग कंप्यूटिंग एज और क्लाउड कंप्यूटिंग के बीच एक मध्यवर्ती परत है",
+      "sentence": [
+        {
+          "sentence": "Fog computing helps to reduce latency and improve performance",
+          "translation": "फॉग कंप्यूटिंग देरी को कम करने और प्रदर्शन में सुधार करने में मदद करता है"
+        },
+        {
+          "sentence": "Fog nodes are used to process data closer to the edge",
+          "translation": "फॉग नोड्स किनारे के करीब डेटा को संसाधित करने के लिए उपयोग किए जाते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Latency",
+      "phoneticRespelling": "LAY-ten-see",
+      "translation": "विलंब",
+      "definition": "Latency refers to the delay between the request and response",
+      "definationTranslation": "विलंब अनुरोध और प्रतिक्रिया के बीच की देरी को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Reducing latency is a key goal of edge computing",
+          "translation": "विलंब को कम करना एज कंप्यूटिंग का एक प्रमुख लक्ष्य है"
+        },
+        {
+          "sentence": "High latency can negatively impact user experience",
+          "translation": "उच्च विलंब उपयोगकर्ता अनुभव पर नकारात्मक प्रभाव डाल सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Real-time",
+      "phoneticRespelling": "REEL-tahm",
+      "translation": "वास्तविक समय",
+      "definition": "Real-time refers to the ability to process and respond to data immediately",
+      "definationTranslation": "वास्तविक समय डेटा को तुरंत संसाधित और प्रतिक्रिया देने की क्षमता को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing enables real-time analytics and decision-making",
+          "translation": "एज कंप्यूटिंग वास्तविक समय विश्लेषण और निर्णय लेने को सक्षम बनाता है"
+        },
+        {
+          "sentence": "Real-time data processing is critical for many applications",
+          "translation": "वास्तविक समय डेटा प्रसंस्करण कई अनुप्रयोगों के लिए महत्वपूर्ण है"
+        }
+      ]
+    },
+    {
+      "word": "Scalability",
+      "phoneticRespelling": "SKAY-luh-bil-uh-tee",
+      "translation": "मापनीयता",
+      "definition": "Scalability refers to the ability to increase or decrease resources as needed",
+      "definationTranslation": "मापनीयता आवश्यकतानुसार संसाधनों को बढ़ाने या घटाने की क्षमता को संदर्भित करती है",
+      "sentence": [
+        {
+          "sentence": "Edge computing solutions must be scalable to accommodate growing demand",
+          "translation": "एज कंप्यूटिंग समाधान मांग को पूरा करने के लिए मापनीय होना चाहिए"
+        },
+        {
+          "sentence": "Scalability is a key consideration for edge computing deployments",
+          "translation": "मापनीयता एज कंप्यूटिंग तैनाती के लिए एक प्रमुख विचार है"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "sih-KYOO-rih-tee",
+      "translation": "सुरक्षा",
+      "definition": "Security refers to the protection of data and systems from unauthorized access",
+      "definationTranslation": "सुरक्षा डेटा और सिस्टम को अनधिकृत पहुंच से सुरक्षा को संदर्भित करती है",
+      "sentence": [
+        {
+          "sentence": "Edge computing requires robust security measures to protect data",
+          "translation": "एज कंप्यूटिंग डेटा की सुरक्षा के लिए मजबूत सुरक्षा उपायों की आवश्यकता होती है"
+        },
+        {
+          "sentence": "Security is a top concern for edge computing deployments",
+          "translation": "सुरक्षा एज कंप्यूटिंग तैनाती के लिए एक शीर्ष चिंता का विषय है"
+        }
+      ]
+    },
+    {
+      "word": "Device",
+      "phoneticRespelling": "di-VAIS",
+      "translation": "उपकरण",
+      "definition": "A device is a piece of hardware that performs a specific function",
+      "definationTranslation": "एक उपकरण एक विशिष्ट कार्य करने वाले हार्डवेयर का एक टुकड़ा है",
+      "sentence": [
+        {
+          "sentence": "Edge devices are used to collect and process data at the edge",
+          "translation": "एज डिवाइस किनारे पर डेटा संग्रहीत और प्रसंस्करण के लिए उपयोग किए जाते हैं"
+        },
+        {
+          "sentence": "Devices can range from simple sensors to complex machines",
+          "translation": "उपकरण सरल सेंसर से लेकर जटिल मशीनों तक हो सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A network is a group of interconnected devices",
+      "definationTranslation": "एक नेटवर्क सम подсंतत उपकरणों का एक समूह है",
+      "sentence": [
+        {
+          "sentence": "Edge computing relies on a robust network infrastructure",
+          "translation": "एज कंप्यूटिंग एक मजबूत नेटवर्क इन्फ्रास्ट्रक्चर पर निर्भर करता है"
+        },
+        {
+          "sentence": "Networks can be wired or wireless",
+          "translation": "नेटवर्क तार वाले या वायरलेस हो सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "IoT",
+      "phoneticRespelling": "AY-TEE-Oh-Tee",
+      "translation": "आईओटी",
+      "definition": "IoT refers to the network of physical devices connected to the internet",
+      "definationTranslation": "आईओटी इंटरनेट से जुड़े भौतिक उपकरणों के नेटवर्क को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing is critical for IoT applications",
+          "translation": "एज कंप्यूटिंग आईओटी अनुप्रयोगों के लिए महत्वपूर्ण है"
+        },
+        {
+          "sentence": "IoT devices generate vast amounts of data",
+          "translation": "आईओटी उपकरण विशाल मात्रा में डेटा उत्पन्न करते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Gateway",
+      "phoneticRespelling": "GAYT-way",
+      "translation": "गेटवे",
+      "definition": "A gateway is a device that connects two or more networks",
+      "definationTranslation": "एक गेटवे एक उपकरण है जो दो या दो से अधिक नेटवर्क को जोड़ता है",
+      "sentence": [
+        {
+          "sentence": "Edge gateways are used to connect devices to the cloud",
+          "translation": "एज गेटवे उपकरणों को क्लाउड से जोड़ने के लिए उपयोग किए जाते हैं"
+        },
+        {
+          "sentence": "Gateways can provide security and management functions",
+          "translation": "गेटवे सुरक्षा और प्रबंधन कार्य प्रदान कर सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Sensor",
+      "phoneticRespelling": "SEN-sur",
+      "translation": "सенсর",
+      "definition": "A sensor is a device that detects and measures physical parameters",
+      "definationTranslation": "एक सेंसर एक उपकरण है जो भौतिक मापदंडों का पता लगाता और मापता है",
+      "sentence": [
+        {
+          "sentence": "Sensors are used to collect data in edge computing applications",
+          "translation": "सेंसर एज कंप्यूटिंग अनुप्रयोगों में डेटा संग्रहीत करने के लिए उपयोग किए जाते हैं"
+        },
+        {
+          "sentence": "Sensors can be used to monitor temperature, pressure, and other parameters",
+          "translation": "सेंसर तापमान, दबाव और अन्य मापदंडों की निगरानी के लिए उपयोग किए जा सकते हैं"
+        }
+      ]
+    },
+    {
+      "word": "Analytics",
+      "phoneticRespelling": "AN-uh-lih-tiks",
+      "translation": "विश्लेषण",
+      "definition": "Analytics refers to the process of analyzing data to gain insights",
+      "definationTranslation": "विश्लेषण डेटा का विश्लेषण करने और अंतर्दृष्टि प्राप्त करने की प्रक्रिया को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing enables real-time analytics and decision-making",
+          "translation": "एज कंप्यूटिंग वास्तविक समय विश्लेषण और निर्णय लेने को सक्षम बनाता है"
+        },
+        {
+          "sentence": "Analytics can be used to improve business outcomes and optimize operations",
+          "translation": "विश्लेषण व्यवसायिक परिणामों में सुधार और संचालन को अनुकूलित करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Automation",
+      "phoneticRespelling": "AW-tuh-MAY-shun",
+      "translation": "स्वचालन",
+      "definition": "Automation refers to the use of technology to automate tasks",
+      "definationTranslation": "स्वचालन कार्यों को स्वचालित करने के लिए प्रौद्योगिकी के उपयोग को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing enables automation of tasks and processes",
+          "translation": "एज कंप्यूटिंग कार्यों और प्रक्रियाओं के स्वचालन को सक्षम बनाता है"
+        },
+        {
+          "sentence": "Automation can improve efficiency and reduce costs",
+          "translation": "स्वचालन दक्षता में सुधार और लागत कम कर सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Machine",
+      "phoneticRespelling": "MASH-een",
+      "translation": "मशीन",
+      "definition": "A machine is a device that performs a specific function",
+      "definationTranslation": "एक मशीन एक विशिष्ट कार्य करने वाला उपकरण है",
+      "sentence": [
+        {
+          "sentence": "Machines can be used to automate tasks and improve efficiency",
+          "translation": "मशीनें कार्यों को स्वचालित करने और दक्षता में सुधार करने के लिए उपयोग की जा सकती हैं"
+        },
+        {
+          "sentence": "Machines can range from simple devices to complex systems",
+          "translation": "मशीनें सरल उपकरणों से लेकर जटिल प्रणालियों तक हो सकती हैं"
+        }
+      ]
+    },
+    {
+      "word": "Learning",
+      "phoneticRespelling": "LUR-ning",
+      "translation": "शिक्षा",
+      "definition": "Learning refers to the process of acquiring knowledge or skills",
+      "definationTranslation": "शिक्षा ज्ञान या कौशल प्राप्त करने की प्रक्रिया को संदर्भित करती है",
+      "sentence": [
+        {
+          "sentence": "Machine learning is a key aspect of edge computing",
+          "translation": "मशीन लर्निंग एज कंप्यूटिंग का एक प्रमुख पहलू है"
+        },
+        {
+          "sentence": "Learning can be used to improve performance and optimize operations",
+          "translation": "शिक्षा प्रदर्शन में सुधार और संचालन को अनुकूलित करने के लिए उपयोग की जा सकती है"
+        }
+      ]
+    },
+    {
+      "word": "Artificial",
+      "phoneticRespelling": "AR-ti-FISH-uhl",
+      "translation": "कृत्रिम",
+      "definition": "Artificial refers to something that is created by humans",
+      "definationTranslation": "कृत्रिम कुछ ऐसा है जो मानव द्वारा बनाया गया है",
+      "sentence": [
+        {
+          "sentence": "Artificial intelligence is used in edge computing applications",
+          "translation": "कृत्रिम बुद्धिमत्ता एज कंप्यूटिंग अनुप्रयोगों में उपयोग की जाती है"
+        },
+        {
+          "sentence": "Artificial intelligence can be used to automate tasks and improve performance",
+          "translation": "कृत्रिम बुद्धिमत्ता कार्यों को स्वचालित करने और प्रदर्शन में सुधार करने के लिए उपयोग की जा सकती है"
+        }
+      ]
+    },
+    {
+      "word": "Intelligence",
+      "phoneticRespelling": "in-TAH-luh-jens",
+      "translation": "बुद्धिमत्ता",
+      "definition": "Intelligence refers to the ability to acquire and apply knowledge",
+      "definationTranslation": "बुद्धिमत्ता ज्ञान प्राप्त करने और लागू करने की क्षमता को संदर्भित करती है",
+      "sentence": [
+        {
+          "sentence": "Artificial intelligence is used in edge computing to improve performance",
+          "translation": "कृत्रिम बुद्धिमत्ता एज कंप्यूटिंग में प्रदर्शन में सुधार करने के लिए उपयोग की जाती है"
+        },
+        {
+          "sentence": "Intelligence can be used to automate tasks and optimize operations",
+          "translation": "बुद्धिमत्ता कार्यों को स्वचालित करने और संचालन को अनुकूलित करने के लिए उपयोग की जा सकती है"
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "डेटा",
+      "definition": "Data refers to information that is collected and stored",
+      "definationTranslation": "डेटा संदर्भित करता है जानकारी जो संग्रहीत और संग्रहीत की जाती है",
+      "sentence": [
+        {
+          "sentence": "Edge computing involves the collection and processing of data",
+          "translation": "एज कंप्यूटिंग डेटा के संग्रह और प्रसंस्करण से संबंधित है"
+        },
+        {
+          "sentence": "Data can be used to gain insights and make informed decisions",
+          "translation": "डेटा अंतर्दृष्टि प्राप्त करने और सूचित निर्णय लेने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Processing",
+      "phoneticRespelling": "PRAH-ses-ing",
+      "translation": "प्रसंस्करण",
+      "definition": "Processing refers to the act of performing operations on data",
+      "definationTranslation": "प्रसंस्करण डेटा पर संचालन करने के कार्य को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing involves the processing of data in real-time",
+          "translation": "एज कंप्यूटिंग वास्तविक समय में डेटा के प्रसंस्करण से संबंधित है"
+        },
+        {
+          "sentence": "Processing can be used to extract insights and improve performance",
+          "translation": "प्रसंस्करण अंतर्दृष्टि निकालने और प्रदर्शन में सुधार करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Management",
+      "phoneticRespelling": "MAN-ij-ment",
+      "translation": "प्रबंधन",
+      "definition": "Management refers to the act of overseeing and controlling resources",
+      "definationTranslation": "प्रबंधन संसाधनों की देखरेख और नियंत्रण के कार्य को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing requires effective management of resources",
+          "translation": "एज कंप्यूटिंग संसाधनों के प्रभावी प्रबंधन की आवश्यकता होती है"
+        },
+        {
+          "sentence": "Management can be used to optimize operations and improve performance",
+          "translation": "प्रबंधन संचालन को अनुकूलित करने और प्रदर्शन में सुधार करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Infrastructure",
+      "phoneticRespelling": "IN-fruh-STRAHKT-r",
+      "translation": "इन्फ्रास्ट्रक्चर",
+      "definition": "Infrastructure refers to the underlying systems and structures that support an organization",
+      "definationTranslation": "इन्फ्रास्ट्रक्चर संगठन को समर्थन देने वाले अंतर्निहित प्रणालियों और संरचनाओं को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing requires a robust infrastructure to support applications",
+          "translation": "एज कंप्यूटिंग अनुप्रयोगों को समर्थन देने के लिए एक मजबूत इन्फ्रास्ट्रक्चर की आवश्यकता होती है"
+        },
+        {
+          "sentence": "Infrastructure can be used to improve performance and reduce costs",
+          "translation": "इन्फ्रास्ट्रक्चर प्रदर्शन में सुधार और लागत कम करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Architecture",
+      "phoneticRespelling": "AR-ki-TEK-chur",
+      "translation": "आर्किटेक्चर",
+      "definition": "Architecture refers to the design and structure of a system or application",
+      "definationTranslation": "आर्किटेक्चर एक प्रणाली या अनुप्रयोग के डिजाइन और संरचना को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing architecture is designed to support real-time applications",
+          "translation": "एज कंप्यूटिंग आर्किटेक्चर वास्तविक समय अनुप्रयोगों को समर्थन देने के लिए डिज़ाइन किया गया है"
+        },
+        {
+          "sentence": "Architecture can be used to improve performance and scalability",
+          "translation": "आर्किटेक्चर प्रदर्शन और मापनीयता में सुधार करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Deployment",
+      "phoneticRespelling": "dee-PLY-muhnt",
+      "translation": "तैनाती",
+      "definition": "Deployment refers to the act of putting a system or application into operation",
+      "definationTranslation": "तैनाती एक प्रणाली या अनुप्रयोग को संचालन में रखने के कार्य को संदर्भित करती है",
+      "sentence": [
+        {
+          "sentence": "Edge computing deployment requires careful planning and execution",
+          "translation": "एज कंप्यूटिंग तैनाती के लिए सावधानीपूर्वक योजना और कार्यान्वयन की आवश्यकता होती है"
+        },
+        {
+          "sentence": "Deployment can be used to improve performance and reduce costs",
+          "translation": "तैनाती प्रदर्शन में सुधार और लागत कम करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    },
+    {
+      "word": "Integration",
+      "phoneticRespelling": "in-tuh-GRAY-shun",
+      "translation": "एकीकरण",
+      "definition": "Integration refers to the act of combining different systems or applications",
+      "definationTranslation": "एकीकरण विभिन्न प्रणालियों या अनुप्रयोगों को मिलाने के कार्य को संदर्भित करता है",
+      "sentence": [
+        {
+          "sentence": "Edge computing integration requires careful planning and execution",
+          "translation": "एज कंप्यूटिंग एकीकरण के लिए सावधानीपूर्वक योजना और कार्यान्वयन की आवश्यकता होती है"
+        },
+        {
+          "sentence": "Integration can be used to improve performance and reduce costs",
+          "translation": "एकीकरण प्रदर्शन में सुधार और लागत कम करने के लिए उपयोग किया जा सकता है"
+        }
+      ]
+    }
+  ]
+}

@@ -1170,6 +1170,14 @@ class AppData {
   ];
 
   static List<String> englishLevel = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  static Map<String, Map> englishVobularyLevels = {
+    "A1": {"title": "Just Landed", "subtitle": "Survival basics: 'Where is the bathroom?'"},
+    "A2": {"title": "Daily Navigator", "subtitle": "Can handle a trip to the grocery store alone"},
+    "B1": {"title": "Office Ready", "subtitle": "Good enough for a basic job or internship"},
+    "B2": {"title": "Sociable", "subtitle": "Can go to a party and actually make friends"},
+    "C1": {"title": "Industry Expert", "subtitle": "Can lead a meeting or give a presentation"},
+    "C2": {"title": "Culture Insider", "subtitle": "You get the slang and the 'hidden' meanings"},
+  };
 
   static List<String> weekDaysName = [
     'Mon',
@@ -1179,6 +1187,21 @@ class AppData {
     'Fri',
     'Sat',
     'Sun',
+  ];
+
+  static List<String> monthNames = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
   ];
 
   static List<DateTime> getCurrentWeekDates() {

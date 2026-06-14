@@ -1,0 +1,430 @@
+{
+  "topic": "Neural Networks Architecture",
+  "words": [
+    {
+      "word": "Neuron",
+      "phoneticRespelling": "NOO-ron",
+      "translation": "न्यूरॉन",
+      "definition": "A nerve cell that transmits information in the form of electrical and chemical signals.",
+      "definationTranslation": "एक तंत्रिका कोशिका जो विद्युत और रासायनिक संकेतों के रूप में जानकारी प्रसारित करती है।",
+      "sentence": [
+        {
+          "sentence": "The neuron is the basic building block of the nervous system.",
+          "translation": "न्यूरॉन तंत्रिका तंत्र की मूलभूत इमारत ब्लॉक है।"
+        },
+        {
+          "sentence": "The neuron plays a crucial role in the transmission of information.",
+          "translation": "न्यूरॉन जानकारी के संचरण में एक महत्वपूर्ण भूमिका निभाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Synapse",
+      "phoneticRespelling": "SIN-aps",
+      "translation": "सिनैप्स",
+      "definition": "The gap between two neurons where chemical signals are transmitted.",
+      "definationTranslation": "दो न्यूरॉन्स के बीच का अंतर जहां रासायनिक संकेत प्रसारित होते हैं।",
+      "sentence": [
+        {
+          "sentence": "The synapse is the site of chemical signal transmission between neurons.",
+          "translation": "सिनैप्स न्यूरॉन्स के बीच रासायनिक संकेत प्रसारण का स्थल है।"
+        },
+        {
+          "sentence": "The strength of the synapse determines the strength of the signal.",
+          "translation": "सिनैप्स की ताकत संकेत की ताकत निर्धारित करती है।"
+        }
+      ]
+    },
+    {
+      "word": "Activation",
+      "phoneticRespelling": "AK-ti-vay-shun",
+      "translation": "सक्रियण",
+      "definition": "The process of making a neuron or a system active.",
+      "definationTranslation": "एक न्यूरॉन या एक प्रणाली को सक्रिय करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The activation of the neuron is a critical step in the transmission of information.",
+          "translation": "न्यूरॉन का सक्रियण जानकारी के संचरण में एक महत्वपूर्ण कदम है।"
+        },
+        {
+          "sentence": "The activation function is used to introduce non-linearity into the model.",
+          "translation": "सक्रियण कार्य मॉडल में गैर-रेखीयता को पेश करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Backpropagation",
+      "phoneticRespelling": "BAK-proh-pag-AY-shun",
+      "translation": "वापस प्रसार",
+      "definition": "The process of adjusting the model's parameters to minimize the error.",
+      "definationTranslation": "मॉडल के पैरामीटर्स को त्रुटि को कम करने के लिए समायोजित करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "Backpropagation is a widely used algorithm for training neural networks.",
+          "translation": "वापस प्रसार एक व्यापक रूप से उपयोग किया जाने वाला अल्गोरिथ्म न्यूरल नेटवर्क्स को प्रशिक्षित करने के लिए है।"
+        },
+        {
+          "sentence": "The backpropagation algorithm is used to update the model's weights and biases.",
+          "translation": "वापस प्रसार अल्गोरिथ्म मॉडल के वजनों और पूर्वाग्रहों को अद्यतन करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Bias",
+      "phoneticRespelling": "BY-as",
+      "translation": "पूर्वाग्रह",
+      "definition": "A constant value added to the output of a neuron.",
+      "definationTranslation": "एक न्यूरॉन के आउटपुट में जोड़ा गया एक नियत मान।",
+      "sentence": [
+        {
+          "sentence": "The bias term is used to shift the activation function.",
+          "translation": "पूर्वाग्रह शब्द का उपयोग सक्रियण कार्य को स्थानांतरित करने के लिए किया जाता है।"
+        },
+        {
+          "sentence": "The bias is used to adjust the output of the neuron.",
+          "translation": "पूर्वाग्रह न्यूरॉन के आउटपुट को समायोजित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Convolution",
+      "phoneticRespelling": "kun-voh-LOO-shun",
+      "translation": "अपरूपण",
+      "definition": "A mathematical operation that combines two functions.",
+      "definationTranslation": "एक गणितीय संचालन जो दो कार्यों को मिलाता है।",
+      "sentence": [
+        {
+          "sentence": "Convolution is used in image processing to extract features.",
+          "translation": "अपरूपण छवि प्रसंस्करण में विशेषताओं को निकालने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The convolution operation is used to scan the input data.",
+          "translation": "अपरूपण संचालन इनपुट डेटा को स्कैन करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Deconvolution",
+      "phoneticRespelling": "dee-kun-voh-LOO-shun",
+      "translation": "विअपरूपण",
+      "definition": "The inverse operation of convolution.",
+      "definationTranslation": "अपरूपण का व्युत्क्रम संचालन।",
+      "sentence": [
+        {
+          "sentence": "Deconvolution is used to reconstruct the original image.",
+          "translation": "विअपरूपण मूल छवि को पुनर्निर्मित करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The deconvolution operation is used to invert the convolution operation.",
+          "translation": "विअपरूपण संचालन अपरूपण संचालन को उलटने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Embedding",
+      "phoneticRespelling": "em-BED-ing",
+      "translation": "अंतःनियोजन",
+      "definition": "A way of representing words or phrases as vectors.",
+      "definationTranslation": "शब्दों या वाक्यांशों को वेक्टर के रूप में प्रस्तुत करने का एक तरीका।",
+      "sentence": [
+        {
+          "sentence": "Embedding is used in natural language processing to represent words.",
+          "translation": "अंतःनियोजन प्राकृतिक भाषा प्रसंस्करण में शब्दों को प्रस्तुत करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The embedding layer is used to convert words into vectors.",
+          "translation": "अंतःनियोजन परत शब्दों को वेक्टर में परिवर्तित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Gradient",
+      "phoneticRespelling": "GRAY-dee-ent",
+      "translation": "अवनति",
+      "definition": "A measure of how much the output of a function changes when one of its inputs changes.",
+      "definationTranslation": "एक माप जो कितना एक फंक्शन का आउटपुट बदलता है जब इसके इनपुट में से एक बदलता है।",
+      "sentence": [
+        {
+          "sentence": "The gradient is used to optimize the model's parameters.",
+          "translation": "अवनति मॉडल के पैरामीटर्स को अनुकूलित करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The gradient descent algorithm is used to minimize the loss function.",
+          "translation": "अवनति वंश अल्गोरिथ्म लॉस फंक्शन को कम करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hidden",
+      "phoneticRespelling": "HIH-den",
+      "translation": "लुका हुआ",
+      "definition": "A layer in a neural network that is not directly connected to the input or output.",
+      "definationTranslation": "एक परत एक न्यूरल नेटवर्क में जो सीधे इनपुट या आउटपुट से जुड़ा नहीं है।",
+      "sentence": [
+        {
+          "sentence": "The hidden layer is used to extract features from the input data.",
+          "translation": "लुका हुआ परत इनपुट डेटा से विशेषताओं को निकालने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The hidden layer is used to transform the input data into a higher-level representation.",
+          "translation": "लुका हुआ परत इनपुट डेटा को एक उच्च-स्तरीय प्रतिनिधित्व में परिवर्तित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Hyperparameter",
+      "phoneticRespelling": "HY-per-PAYR-uh-mee-ter",
+      "translation": "अतिपарамет्र",
+      "definition": "A parameter that is set before training a model.",
+      "definationTranslation": "एक पैरामीटर जो मॉडल को प्रशिक्षित करने से पहले निर्धारित किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The hyperparameter is used to control the model's complexity.",
+          "translation": "अतिपарамет्र मॉडल की जटिलता को नियंत्रित करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The hyperparameter is used to tune the model's performance.",
+          "translation": "अतिपарамет्र मॉडल के प्रदर्शन को समायोजित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Input",
+      "phoneticRespelling": "IN-puht",
+      "translation": "इनपुट",
+      "definition": "The data that is fed into a model.",
+      "definationTranslation": "डेटा जो एक मॉडल में आहारित किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The input data is used to train the model.",
+          "translation": "इनपुट डेटा मॉडल को प्रशिक्षित करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The input layer is used to receive the input data.",
+          "translation": "इनपुट परत इनपुट डेटा को प्राप्त करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Kernel",
+      "phoneticRespelling": "KUR-nul",
+      "translation": "कर्नल",
+      "definition": "A small matrix that is used to scan the input data.",
+      "definationTranslation": "एक छोटा मैट्रिक्स जो इनपुट डेटा को स्कैन करने के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The kernel is used to extract features from the input data.",
+          "translation": "कर्नल इनपुट डेटा से विशेषताओं को निकालने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The kernel is used to transform the input data into a higher-level representation.",
+          "translation": "कर्नल इनपुट डेटा को एक उच्च-स्तरीय प्रतिनिधित्व में परिवर्तित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Layer",
+      "phoneticRespelling": "LAY-er",
+      "translation": "परत",
+      "definition": "A group of neurons that process the input data.",
+      "definationTranslation": "न्यूरॉन्स का एक समूह जो इनपुट डेटा को प्रसंस्करण करता है।",
+      "sentence": [
+        {
+          "sentence": "The layer is used to extract features from the input data.",
+          "translation": "परत इनपुट डेटा से विशेषताओं को निकालने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The layer is used to transform the input data into a higher-level representation.",
+          "translation": "परत इनपुट डेटा को एक उच्च-स्तरीय प्रतिनिधित्व में परिवर्तित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Loss",
+      "phoneticRespelling": "LOH-s",
+      "translation": "नुकसान",
+      "definition": "The difference between the predicted output and the actual output.",
+      "definationTranslation": "भविष्यदर्शित आउटपुट और वास्तविक आउटपुट के बीच का अंतर।",
+      "sentence": [
+        {
+          "sentence": "The loss function is used to evaluate the model's performance.",
+          "translation": "नुकसान फंक्शन मॉडल के प्रदर्शन का मूल्यांकन करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The loss is used to update the model's parameters.",
+          "translation": "नुकसान मॉडल के पैरामीटर्स को अद्यतन करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Model",
+      "phoneticRespelling": "MOD-ul",
+      "translation": "मॉडल",
+      "definition": "A mathematical representation of a system.",
+      "definationTranslation": "प्रणाली का एक गणितीय प्रतिनिधित्व।",
+      "sentence": [
+        {
+          "sentence": "The model is used to make predictions.",
+          "translation": "मॉडल भविष्यवाणी करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The model is used to classify the input data.",
+          "translation": "मॉडल इनपुट डेटा को वर्गीकृत करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Neural",
+      "phoneticRespelling": "NOO-rul",
+      "translation": "तान्त्रिक",
+      "definition": "Relating to neurons or the nervous system.",
+      "definationTranslation": "न्यूरॉन्स या तंत्रिका तंत्र से संबंधित।",
+      "sentence": [
+        {
+          "sentence": "The neural network is a type of machine learning model.",
+          "translation": "तान्त्रिक नेटवर्क एक प्रकार का मशीन लर्निंग मॉडल है।"
+        },
+        {
+          "sentence": "The neural layer is used to extract features from the input data.",
+          "translation": "तान्त्रिक परत इनपुट डेटा से विशेषताओं को निकालने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A group of interconnected nodes or neurons.",
+      "definationTranslation": "इंटरकनेक्टेड नोड्स या न्यूरॉन्स का एक समूह।",
+      "sentence": [
+        {
+          "sentence": "The network is used to make predictions.",
+          "translation": "नेटवर्क भविष्यवाणी करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The network is used to classify the input data.",
+          "translation": "नेटवर्क इनपुट डेटा को वर्गीकृत करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Optimization",
+      "phoneticRespelling": "OP-ti-muh-ZAY-shun",
+      "translation": "अनुकूलन",
+      "definition": "The process of adjusting the model's parameters to minimize the loss.",
+      "definationTranslation": "मॉडल के पैरामीटर्स को लॉस को कम करने के लिए समायोजित करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The optimization algorithm is used to update the model's parameters.",
+          "translation": "अनुकूलन अल्गोरिथ्म मॉडल के पैरामीटर्स को अद्यतन करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The optimization is used to improve the model's performance.",
+          "translation": "अनुकूलन मॉडल के प्रदर्शन को बेहतर बनाने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Output",
+      "phoneticRespelling": "OUT-puht",
+      "translation": "आउटपुट",
+      "definition": "The result of a model's prediction.",
+      "definationTranslation": "मॉडल की भविष्यवाणी का परिणाम।",
+      "sentence": [
+        {
+          "sentence": "The output is used to evaluate the model's performance.",
+          "translation": "आउटपुट मॉडल के प्रदर्शन का मूल्यांकन करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The output is used to make decisions.",
+          "translation": "आउटपुट निर्णय लेने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Parameter",
+      "phoneticRespelling": "puh-RAM-uh-ter",
+      "translation": "पैरामीटर",
+      "definition": "A variable that is used to control the model's behavior.",
+      "definationTranslation": "एक चर जो मॉडल के व्यवहार को नियंत्रित करने के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The parameter is used to update the model's weights.",
+          "translation": "पैरामीटर मॉडल के वजनों को अद्यतन करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The parameter is used to adjust the model's performance.",
+          "translation": "पैरामीटर मॉडल के प्रदर्शन को समायोजित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Recurrent",
+      "phoneticRespelling": "ri-KUR-ent",
+      "translation": "पुनरावर्ती",
+      "definition": "A type of neural network that uses feedback connections.",
+      "definationTranslation": "एक प्रकार का न्यूरल नेटवर्क जो फीडबैक कनेक्शन का उपयोग करता है।",
+      "sentence": [
+        {
+          "sentence": "The recurrent neural network is used for sequence prediction.",
+          "translation": "पुनरावर्ती न्यूरल नेटवर्क अनुक्रम भविष्यवाणी के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The recurrent layer is used to model temporal relationships.",
+          "translation": "पुनरावर्ती परत कालिक संबंधों को मॉडल करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Regularization",
+      "phoneticRespelling": "REH-gyuh-luh-RAY-shun",
+      "translation": "नियमन",
+      "definition": "A technique used to prevent overfitting.",
+      "definationTranslation": "एक तकनीक जो ओवरफिटिंग को रोकने के लिए उपयोग किया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The regularization technique is used to reduce overfitting.",
+          "translation": "नियमन तकनीक ओवरफिटिंग को कम करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The regularization is used to improve the model's generalization.",
+          "translation": "नियमन मॉडल के सामान्यीकरण को बेहतर बनाने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Training",
+      "phoneticRespelling": "TRAY-ning",
+      "translation": "प्रशिक्षण",
+      "definition": "The process of adjusting the model's parameters to minimize the loss.",
+      "definationTranslation": "मॉडल के पैरामीटर्स को लॉस को कम करने के लिए समायोजित करने की प्रक्रिया।",
+      "sentence": [
+        {
+          "sentence": "The training data is used to update the model's parameters.",
+          "translation": "प्रशिक्षण डेटा मॉडल के पैरामीटर्स को अद्यतन करने के लिए उपयोग किया जाता है।"
+        },
+        {
+          "sentence": "The training is used to improve the model's performance.",
+          "translation": "प्रशिक्षण मॉडल के प्रदर्शन को बेहतर बनाने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+    "word": "Weights",
+    "phoneticRespelling": "WAYTS",
+    "translation": "वजन",
+    "definition": "The parameters within a neural network that transform input data within the network's hidden layers.",
+    "definationTranslation": "एक न्यूरल नेटवर्क के भीतर के पैरामीटर्स जो नेटवर्क की छिपी हुई परतों के भीतर इनपुट डेटा को बदलते हैं।",
+    "sentence": [
+      {
+        "sentence": "The neural network updates its weights during the training phase using gradient descent.",
+        "translation": "न्यूरल नेटवर्क ग्रेडिएंट डिसेंट का उपयोग करके प्रशिक्षण चरण के दौरान अपने वजन को अद्यतन करता है।"
+      },
+      {
+        "sentence": "Higher weights indicate that the corresponding input has a stronger influence on the neuron's output.",
+        "translation": "अधिक वजन यह दर्शाता है कि संबंधित इनपुट का न्यूरॉन के आउटपुट पर अधिक प्रभाव पड़ता है।"
+      }
+    ]
+  }
+  ]
+}

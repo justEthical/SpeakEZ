@@ -1,0 +1,430 @@
+{
+  "topic": "Distributed Systems",
+  "words": [
+    {
+      "word": "Architecture",
+      "phoneticRespelling": "AR-ki-teh-kyur",
+      "translation": "संरचना",
+      "definition": "The overall design and structure of a system",
+      "definationTranslation": "प्रणाली की समग्र डिजाइन और संरचना",
+      "sentence": [
+        {
+          "sentence": "The architecture of the distributed system was based on a hierarchical model.",
+          "translation": "वितरित प्रणाली की संरचना एक पदानुक्रमित मॉडल पर आधारित थी।"
+        },
+        {
+          "sentence": "The company hired a team of architects to design the architecture of their new distributed system.",
+          "translation": "कंपनी ने अपने नए वितरित प्रणाली की संरचना डिजाइन करने के लिए आर्किटेक्ट्स की एक टीम नियुक्त की।"
+        }
+      ]
+    },
+    {
+      "word": "Node",
+      "phoneticRespelling": "NOHD",
+      "translation": "नोड",
+      "definition": "A single computer or device in a distributed system",
+      "definationTranslation": "वितरित प्रणाली में एक单ले कंप्यूटर या डिवाइस",
+      "sentence": [
+        {
+          "sentence": "Each node in the distributed system had a unique identifier.",
+          "translation": "वितरित प्रणाली में प्रत्येक नोड की एक विशिष्ट पहचान थी।"
+        },
+        {
+          "sentence": "The node failed due to a hardware malfunction, causing the entire system to crash.",
+          "translation": "हार्डवेयर खराबी के कारण नोड विफल हो गया, जिससे पूरी प्रणाली दुर्घटनाग्रस्त हो गई।"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A collection of interconnected devices or nodes",
+      "definationTranslation": "इंटरकनेक्टेड डिवाइस या नोड्स का संग्रह",
+      "sentence": [
+        {
+          "sentence": "The network was designed to handle a large volume of traffic.",
+          "translation": "नेटवर्क को भारी यातायात को संभालने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's network was hacked, resulting in a significant data breach.",
+          "translation": "कंपनी के नेटवर्क में हैक किया गया था, जिसके परिणामस्वरूप एक महत्वपूर्ण डेटा उल्लंघन हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Protocol",
+      "phoneticRespelling": "PROH-toh-kol",
+      "translation": "प्रोटोकॉल",
+      "definition": "A set of rules or standards for communication between devices",
+      "definationTranslation": "डिवाइसों के बीच संचार के लिए नियमों या मानकों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The protocol used in the distributed system ensured reliable data transfer.",
+          "translation": "वितरित प्रणाली में उपयोग किया गया प्रोटोकॉल विश्वसनीय डेटा स्थानांतरण सुनिश्चित करता है।"
+        },
+        {
+          "sentence": "The company developed a custom protocol to meet the specific needs of their distributed system.",
+          "translation": "कंपनी ने अपने वितरित प्रणाली की विशिष्ट आवश्यकताओं को पूरा करने के लिए एक कस्टम प्रोटोकॉल विकसित किया।"
+        }
+      ]
+    },
+    {
+      "word": "Scalability",
+      "phoneticRespelling": "SKALE-uh-bil-uh-tee",
+      "translation": "स्केलेबिलिटी",
+      "definition": "The ability of a system to handle increased load or traffic",
+      "definationTranslation": "एक प्रणाली की बढ़ी हुई लोड या यातायात को संभालने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed with scalability in mind to handle increased traffic.",
+          "translation": "वितरित प्रणाली को बढ़े हुए यातायात को संभालने के लिए स्केलेबिलिटी के साथ डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's system lacked scalability, resulting in frequent crashes during peak hours.",
+          "translation": "कंपनी की प्रणाली में स्केलेबिलिटी की कमी थी, जिसके परिणामस्वरूप शीर्ष घंटों के दौरान बार-बार दुर्घटनाएं होती थीं।"
+        }
+      ]
+    },
+    {
+      "word": "Concurrency",
+      "phoneticRespelling": "kun-KYOO-ren-see",
+      "translation": "समताकृति",
+      "definition": "The ability of a system to handle multiple tasks or requests simultaneously",
+      "definationTranslation": "एक प्रणाली की एक साथ कई कार्यों या अनुरोधों को संभालने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed to handle concurrency, allowing multiple users to access the system simultaneously.",
+          "translation": "वितरित प्रणाली को समताकृति को संभालने के लिए डिज़ाइन किया गया था, जिससे कई उपयोगकर्ता एक साथ प्रणाली तक पहुंच सकते थे।"
+        },
+        {
+          "sentence": "The company's system struggled with concurrency, resulting in slow response times and errors.",
+          "translation": "कंपनी की प्रणाली को समताकृति के साथ संघर्ष था, जिसके परिणामस्वरूप धीमी प्रतिक्रिया समय और त्रुटियां हुईं।"
+        }
+      ]
+    },
+    {
+      "word": "Fault",
+      "phoneticRespelling": "FOLT",
+      "translation": "दोष",
+      "definition": "A defect or imperfection in a system or component",
+      "definationTranslation": "एक प्रणाली या घटक में एक दोष या अपूर्णता",
+      "sentence": [
+        {
+          "sentence": "The fault in the system caused a chain reaction of errors and crashes.",
+          "translation": "प्रणाली में दोष ने त्रुटियों और दुर्घटनाओं की एक श्रृंखला प्रतिक्रिया का कारण बना।"
+        },
+        {
+          "sentence": "The company's quality control team worked to identify and fix the fault in their distributed system.",
+          "translation": "कंपनी की गुणवत्ता नियंत्रण टीम ने अपने वितरित प्रणाली में दोष की पहचान करने और उसे ठीक करने के लिए काम किया।"
+        }
+      ]
+    },
+    {
+      "word": "Tolerance",
+      "phoneticRespelling": "TOL-uh-rents",
+      "translation": "सहिष्णुता",
+      "definition": "The ability of a system to continue functioning despite faults or errors",
+      "definationTranslation": "दोषों या त्रुटियों के बावजूद एक प्रणाली को काम करना जारी रखने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed with fault tolerance in mind to minimize downtime.",
+          "translation": "वितरित प्रणाली को दोष सहिष्णुता के साथ डिज़ाइन किया गया था ताकि निम्न समय को कम किया जा सके।"
+        },
+        {
+          "sentence": "The company's system lacked tolerance, resulting in frequent crashes and data loss.",
+          "translation": "कंपनी की प्रणाली में सहिष्णुता की कमी थी, जिसके परिणामस्वरूप बार-बार दुर्घटनाएं और डेटा हानि हुई।"
+        }
+      ]
+    },
+    {
+      "word": "Replication",
+      "phoneticRespelling": "REH-pluh-KAY-shun",
+      "translation": "प्रतिकृति",
+      "definition": "The process of creating duplicate copies of data or components",
+      "definationTranslation": "डेटा या घटकों की दोहरी प्रतियों का निर्माण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The distributed system used replication to ensure data availability and reliability.",
+          "translation": "वितरित प्रणाली ने डेटा उपलब्धता और विश्वसनीयता सुनिश्चित करने के लिए प्रतिकृति का उपयोग किया।"
+        },
+        {
+          "sentence": "The company's system used replication to create backup copies of critical data.",
+          "translation": "कंपनी की प्रणाली ने महत्वपूर्ण डेटा की बैकअप प्रतियां बनाने के लिए प्रतिकृति का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Partition",
+      "phoneticRespelling": "PAR-ti-shun",
+      "translation": "विभाजन",
+      "definition": "A division or separation of a system or component into smaller parts",
+      "definationTranslation": "एक प्रणाली या घटक को छोटे भागों में विभाजित करना या अलग करना",
+      "sentence": [
+        {
+          "sentence": "The distributed system was partitioned into smaller segments to improve performance and scalability.",
+          "translation": "वितरित प्रणाली को प्रदर्शन और स्केलेबिलिटी में सुधार करने के लिए छोटे खंडों में विभाजित किया गया था।"
+        },
+        {
+          "sentence": "The company's system was partitioned to separate critical and non-critical components.",
+          "translation": "कंपनी की प्रणाली को महत्वपूर्ण और गैर-महत्वपूर्ण घटकों को अलग करने के लिए विभाजित किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Consistency",
+      "phoneticRespelling": "kun-SIS-tun-see",
+      "translation": "संगतता",
+      "definition": "The degree to which a system or component behaves in a predictable and reliable manner",
+      "definationTranslation": "एक प्रणाली या घटक की भविष्यवाणी करने योग्य और विश्वसनीय तरीके से व्यवहार करने की डिग्री",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed to ensure consistency across all nodes and components.",
+          "translation": "वितरित प्रणाली को सभी नोड्स और घटकों में संगतता सुनिश्चित करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's system struggled with consistency, resulting in inconsistent data and errors.",
+          "translation": "कंपनी की प्रणाली को संगतता के साथ संघर्ष था, जिसके परिणामस्वरूप असंगत डेटा और त्रुटियां हुईं।"
+        }
+      ]
+    },
+    {
+      "word": "Latency",
+      "phoneticRespelling": "LAYT-uh-see",
+      "translation": "विलंब",
+      "definition": "The time delay between a request and a response in a system",
+      "definationTranslation": "एक प्रणाली में एक अनुरोध और एक प्रतिक्रिया के बीच का समय विलंब",
+      "sentence": [
+        {
+          "sentence": "The distributed system was optimized to minimize latency and improve response times.",
+          "translation": "वितरित प्रणाली को विलंब को कम करने और प्रतिक्रिया समय में सुधार करने के लिए अनुकूलित किया गया था।"
+        },
+        {
+          "sentence": "The company's system suffered from high latency, resulting in slow performance and user frustration.",
+          "translation": "कंपनी की प्रणाली को उच्च विलंब का सामना करना पड़ा, जिसके परिणामस्वरूप धीमी प्रदर्शन और उपयोगकर्ता निराशा हुई।"
+        }
+      ]
+    },
+    {
+      "word": "Throughput",
+      "phoneticRespelling": "THROO-poot",
+      "translation": "प्रवाह",
+      "definition": "The amount of data or work that a system can process in a given time period",
+      "definationTranslation": "एक निश्चित समय अवधि में एक प्रणाली द्वारा संसाधित किए जा सकने वाले डेटा या कार्य की मात्रा",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed to maximize throughput and handle large volumes of data.",
+          "translation": "वितरित प्रणाली को प्रवाह को अधिकतम करने और बड़ी मात्रा में डेटा को संभालने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's system struggled with throughput, resulting in slow processing times and delayed responses.",
+          "translation": "कंपनी की प्रणाली को प्रवाह के साथ संघर्ष था, जिसके परिणामस्वरूप धीमी प्रोसेसिंग समय और देरी से प्रतिक्रियाएं हुईं।"
+        }
+      ]
+    },
+    {
+      "word": "Availability",
+      "phoneticRespelling": "uh-VAY-luh-bil-uh-tee",
+      "translation": "उपलब्धता",
+      "definition": "The degree to which a system or component is accessible and usable",
+      "definationTranslation": "एक प्रणाली या घटक की जिस डिग्री तक वह قابل पहुंच और उपयोगी है",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed to ensure high availability and minimize downtime.",
+          "translation": "वितरित प्रणाली को उच्च उपलब्धता सुनिश्चित करने और न्यूनतम समय को कम करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's system struggled with availability, resulting in frequent outages and user frustration.",
+          "translation": "कंपनी की प्रणाली को उपलब्धता के साथ संघर्ष था, जिसके परिणामस्वरूप बार-बार बाधा और उपयोगकर्ता निराशा हुई।"
+        }
+      ]
+    },
+    {
+      "word": "Reliability",
+      "phoneticRespelling": "ri-LY-uh-bil-uh-tee",
+      "translation": "विश्वसनीयता",
+      "definition": "The degree to which a system or component performs its intended function correctly",
+      "definationTranslation": "एक प्रणाली या घटक की जिस डिग्री तक वह अपने अभिप्रेत कार्य को सही ढंग से करता है",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed to ensure high reliability and minimize errors.",
+          "translation": "वितरित प्रणाली को उच्च विश्वसनीयता सुनिश्चित करने और त्रुटियों को कम करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's system struggled with reliability, resulting in frequent crashes and data loss.",
+          "translation": "कंपनी की प्रणाली को विश्वसनीयता के साथ संघर्ष था, जिसके परिणामस्वरूप बार-बार दुर्घटनाएं और डेटा हानि हुई।"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "phoneticRespelling": "si-KYOO-ri-tee",
+      "translation": "सुरक्षा",
+      "definition": "The protection of a system or component from unauthorized access or malicious activity",
+      "definationTranslation": "एक प्रणाली या घटक की अनधिकृत पहुंच या दुर्भावनापूर्ण गतिविधि से रक्षा",
+      "sentence": [
+        {
+          "sentence": "The distributed system was designed with security in mind to protect sensitive data.",
+          "translation": "वितरित प्रणाली को संवेदनशील डेटा की रक्षा के लिए सुरक्षा के साथ डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's system was compromised due to a lack of security, resulting in a significant data breach.",
+          "translation": "सुरक्षा की कमी के कारण कंपनी की प्रणाली से समझौता किया गया था, जिसके परिणामस्वरूप एक महत्वपूर्ण डेटा उल्लंघन हुआ।"
+        }
+      ]
+    },
+    {
+      "word": "Cloud",
+      "phoneticRespelling": "KLOWD",
+      "translation": "क्लाउड",
+      "definition": "A model of delivering computing services over the internet",
+      "definationTranslation": "इंटरनेट के माध्यम से कंप्यूटिंग सेवाओं को वितरित करने का मॉडल",
+      "sentence": [
+        {
+          "sentence": "The company migrated its distributed system to the cloud to improve scalability and reduce costs.",
+          "translation": "कंपनी ने अपनी वितरित प्रणाली को स्केलेबिलिटी में सुधार और लागत को कम करने के लिए क्लाउड में स्थानांतरित किया।"
+        },
+        {
+          "sentence": "The cloud-based distributed system provided greater flexibility and redundancy.",
+          "translation": "क्लाउड-आधारित वितरित प्रणाली ने अधिक लचीलापन और अधिकता प्रदान की।"
+        }
+      ]
+    },
+    {
+      "word": "Cluster",
+      "phoneticRespelling": "KLUH-stur",
+      "translation": "समूह",
+      "definition": "A group of computers or nodes that work together to achieve a common goal",
+      "definationTranslation": "एक साझा लक्ष्य को प्राप्त करने के लिए एक साथ काम करने वाले कंप्यूटरों या नोड्स का समूह",
+      "sentence": [
+        {
+          "sentence": "The distributed system was composed of a cluster of nodes that worked together to process large amounts of data.",
+          "translation": "वितरित प्रणाली बड़ी मात्रा में डेटा को संसाधित करने के लिए एक साथ काम करने वाले नोड्स के एक समूह से बनी थी।"
+        },
+        {
+          "sentence": "The company's cluster was designed to provide high availability and redundancy.",
+          "translation": "कंपनी का समूह उच्च उपलब्धता और अधिकता प्रदान करने के लिए डिज़ाइन किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Grid",
+      "phoneticRespelling": "GRID",
+      "translation": "जाल",
+      "definition": "A type of distributed system that consists of a network of computers or nodes",
+      "definationTranslation": "कंप्यूटरों या नोड्स के नेटवर्क से बना एक वितरित प्रणाली का प्रकार",
+      "sentence": [
+        {
+          "sentence": "The grid-based distributed system was used to process large amounts of data and perform complex simulations.",
+          "translation": "जाल-आधारित वितरित प्रणाली का उपयोग बड़ी मात्रा में डेटा को संसाधित करने और जटिल सिमुलेशन करने के लिए किया गया था।"
+        },
+        {
+          "sentence": "The company's grid was designed to provide a flexible and scalable infrastructure for distributed computing.",
+          "translation": "कंपनी का जाल वितरित कंप्यूटिंग के लिए एक लचीला और स्केलेबल इंफ्रास्ट्रक्चर प्रदान करने के लिए डिज़ाइन किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Peer",
+      "phoneticRespelling": "PEER",
+      "translation": "सहकर्मी",
+      "definition": "A node or computer in a distributed system that has equal status and responsibilities",
+      "definationTranslation": "एक वितरित प्रणाली में एक नोड या कंप्यूटर जिसकी समान स्थिति और जिम्मेदारियां हैं",
+      "sentence": [
+        {
+          "sentence": "In a peer-to-peer distributed system, each node acts as both a client and a server.",
+          "translation": "एक सहकर्मी-से-सहकर्मी वितरित प्रणाली में, प्रत्येक नोड एक क्लाइंट और एक सर्वर के रूप में कार्य करता है।"
+        },
+        {
+          "sentence": "The company's peer-based distributed system provided a decentralized and resilient infrastructure.",
+          "translation": "कंपनी की सहकर्मी-आधारित वितरित प्रणाली ने एक विकेंद्रीकृत और लचीला इंफ्रास्ट्रक्चर प्रदान किया।"
+        }
+      ]
+    },
+    {
+      "word": "Client",
+      "phoneticRespelling": "KLAY-ent",
+      "translation": "क्लाइंट",
+      "definition": "A computer or device that requests services or resources from a server",
+      "definationTranslation": "एक कंप्यूटर या डिवाइस जो एक सर्वर से सेवाओं या संसाधनों का अनुरोध करता है",
+      "sentence": [
+        {
+          "sentence": "The client-server distributed system was designed to provide a scalable and efficient infrastructure.",
+          "translation": "क्लाइंट-सर्वर वितरित प्रणाली को एक स्केलेबल और कुशल इंफ्रास्टрук्चर प्रदान करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's client-based distributed system provided a flexible and user-friendly interface.",
+          "translation": "कंपनी की क्लाइंट-आधारित वितरित प्रणाली ने एक लचीला और उपयोगकर्ता-मित्र इंटरफ़ेस प्रदान किया।"
+        }
+      ]
+    },
+    {
+      "word": "Server",
+      "phoneticRespelling": "SUR-vur",
+      "translation": "सर्वर",
+      "definition": "A computer or device that provides services or resources to clients",
+      "definationTranslation": "एक कंप्यूटर या डिवाइस जो क्लाइंट को सेवाएं या संसाधन प्रदान करता है",
+      "sentence": [
+        {
+          "sentence": "The server-based distributed system was designed to provide a reliable and secure infrastructure.",
+          "translation": "सर्वर-आधारित वितरित प्रणाली को एक विश्वसनीय और सुरक्षित इंफ्रास्ट्रक्चर प्रदान करने के लिए डिज़ाइन किया गया था।"
+        },
+        {
+          "sentence": "The company's server-based distributed system provided a centralized and efficient infrastructure.",
+          "translation": "कंपनी की सर्वर-आधारित वितरित प्रणाली ने एक केंद्रीकृत और कुशल इंफ्रास्ट्रक्चर प्रदान किया।"
+        }
+      ]
+    },
+    {
+      "word": "Database",
+      "phoneticRespelling": "DAY-tuh-beyz",
+      "translation": "डेटाबेस",
+      "definition": "A collection of organized data that is stored in a way that allows for efficient retrieval and manipulation",
+      "definationTranslation": "एक संगठित डेटा का संग्रह जो एक ऐसे तरीके से संग्रहीत किया जाता है जिससे कि कुशल पुनर्प्राप्ति और हेरफेर संभव हो",
+      "sentence": [
+        {
+          "sentence": "The distributed system used a database to store and manage large amounts of data.",
+          "translation": "वितरित प्रणाली ने बड़ी मात्रा में डेटा को संग्रहीत और प्रबंधित करने के लिए एक डेटाबेस का उपयोग किया।"
+        },
+        {
+          "sentence": "The company's database was designed to provide a scalable and secure infrastructure for data storage and retrieval.",
+          "translation": "कंपनी का डेटाबेस डेटा स्टोरेज और पुनर्प्राप्ति के लिए एक स्केलेबल और सुरक्षित इंफ्रास्ट्रक्चर प्रदान करने के लिए डिज़ाइन किया गया था।"
+        }
+      ]
+    },
+    {
+      "word": "Consensus",
+      "phoneticRespelling": "kuhn-SEN-suhs",
+      "translation": "आम सहमति",
+      "definition": "The process of reaching an agreement among different nodes on a single data value or state",
+      "definationTranslation": "एक डेटा मान या स्थिति पर विभिन्न नोड्स के बीच समझौते पर पहुंचने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The Paxos algorithm is a well-known method for achieving consensus in distributed systems.",
+          "translation": "वितरित प्रणालियों में आम सहमति प्राप्त करने के लिए पैक्सोस एल्गोरिदम एक प्रसिद्ध तरीका है।"
+        },
+        {
+          "sentence": "Consensus is critical for maintaining data integrity across a network of independent servers.",
+          "translation": "स्वतंत्र सर्वरों के नेटवर्क में डेटा अखंडता बनाए रखने के लिए आम सहमति महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "word": "Middleware",
+      "phoneticRespelling": "MID-uhl-wair",
+      "translation": "मिडलवेयर",
+      "definition": "Software that acts as a bridge between an operating system or database and applications, especially on a network",
+      "definationTranslation": "सॉफ्टवेयर जो ऑपरेटिंग सिस्टम या डेटाबेस और एप्लिकेशन के बीच एक सेतु के रूप में कार्य करता है, विशेष रूप से नेटवर्क पर",
+      "sentence": [
+        {
+          "sentence": "Middleware simplifies the development of distributed applications by handling communication between different components.",
+          "translation": "मिडलवेयर विभिन्न घटकों के बीच संचार को संभालकर वितरित अनुप्रयोगों के विकास को सरल बनाता है।"
+        },
+        {
+          "sentence": "The company used message-oriented middleware to ensure reliable data exchange between its microservices.",
+          "translation": "कंपनी ने अपनी माइक्रोसर्विसेज के बीच विश्वसनीय डेटा विनिमय सुनिश्चित करने के लिए संदेश-उन्मुख मिडलवेयर का उपयोग किया।"
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:speak_ez/Constants/posthog_events.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
@@ -42,7 +44,17 @@ class LocalNotificationService {
 
     tz.initializeTimeZones();
     final String timeZoneName = await FlutterTimezone.getLocalTimezone();
-    tz.setLocalLocation(tz.getLocation(timeZoneName));
+    try {
+      tz.setLocalLocation(tz.getLocation(timeZoneName));
+    } catch (e) {
+      debugPrint('Could not find timezone "$timeZoneName", falling back to UTC');
+      tz.setLocalLocation(tz.getLocation('UTC'));
+      PostHogService.instance.captureError(
+        PostHogEvents.notificationTimezoneError,
+        errorMessage: 'Timezone "$timeZoneName" not found, falling back to UTC',
+        location: 'LocalNotificationService.init',
+      );
+    }
 
     _initialized = true;
   }
@@ -58,7 +70,14 @@ class LocalNotificationService {
               IOSFlutterLocalNotificationsPlugin>()
           ?.requestPermissions(alert: true, badge: true, sound: true);
       debugPrint('iOS notification permission granted: $granted');
-      return granted ?? false;
+      final isGranted = granted ?? false;
+      PostHogService.instance.capture(
+        isGranted
+            ? PostHogEvents.notificationPermissionGranted
+            : PostHogEvents.notificationPermissionDenied,
+        properties: {'platform': 'iOS'},
+      );
+      return isGranted;
     } else {
       // For Android, request notification permission
       final notifStatus = await Permission.notification.request();
@@ -68,6 +87,15 @@ class LocalNotificationService {
       final exactAlarmStatus = await Permission.scheduleExactAlarm.request();
       debugPrint('Android exact alarm permission: ${exactAlarmStatus.isGranted}');
 
+      PostHogService.instance.capture(
+        notifStatus.isGranted
+            ? PostHogEvents.notificationPermissionGranted
+            : PostHogEvents.notificationPermissionDenied,
+        properties: {
+          'platform': 'Android',
+          'exact_alarm_granted': exactAlarmStatus.isGranted,
+        },
+      );
       return notifStatus.isGranted;
     }
   }
@@ -125,10 +153,25 @@ class LocalNotificationService {
       );
 
       debugPrint('Daily reminder scheduled successfully for $time');
+      PostHogService.instance.capture(
+        PostHogEvents.notificationScheduled,
+        properties: {
+          'time': time,
+          'scheduled_at': scheduled.toIso8601String(),
+          'timezone': tz.local.name,
+        },
+      );
       return true;
     } catch (e, stackTrace) {
       debugPrint('Error scheduling notification: $e');
       debugPrint('Stack trace: $stackTrace');
+      PostHogService.instance.captureError(
+        PostHogEvents.notificationScheduleFailed,
+        errorMessage: e.toString(),
+        stackTrace: stackTrace.toString(),
+        location: 'LocalNotificationService.scheduleDailyReminder',
+        additionalProperties: {'time': time},
+      );
       return false;
     }
   }

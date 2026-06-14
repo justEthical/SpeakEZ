@@ -1,0 +1,430 @@
+{
+  "topic": "Computer Vision",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridhm",
+      "translation": "अल्गोरिदम",
+      "definition": "A set of rules for solving a problem",
+      "definationTranslation": "समस्या का समाधान करने के लिए नियमों का एक सेट",
+      "sentence": [
+        {
+          "sentence": "The computer vision algorithm detected the object",
+          "translation": "कंप्यूटर विजन अल्गोरिदम ने वस्तु का पता लगाया"
+        },
+        {
+          "sentence": "The team developed a new algorithm for image processing",
+          "translation": "टीम ने इमेज प्रोसेसिंग के लिए एक नया अल्गोरिदम विकसित किया"
+        }
+      ]
+    },
+    {
+      "word": "Artifact",
+      "phoneticRespelling": "AR-tuh-fakt",
+      "translation": "कलाकृति",
+      "definition": "An object made or given shape by humans",
+      "definationTranslation": "मानव द्वारा बनाया गया या आकार दिया गया वस्तु",
+      "sentence": [
+        {
+          "sentence": "The artifact was detected in the image",
+          "translation": "कलाकृति छवि में पता चला"
+        },
+        {
+          "sentence": "The team removed the artifact from the dataset",
+          "translation": "टीम ने डेटासेट से कलाकृति को हटा दिया"
+        }
+      ]
+    },
+    {
+      "word": "Classifier",
+      "phoneticRespelling": "KLAS-uh-fye-r",
+      "translation": "वर्गीकारक",
+      "definition": "A system that categorizes objects",
+      "definationTranslation": "वस्तुओं को वर्गीकृत करने वाला प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The classifier was trained on a large dataset",
+          "translation": "वर्गीकारक को बड़े डेटासेट पर प्रशिक्षित किया गया था"
+        },
+        {
+          "sentence": "The team used a classifier to detect objects in the image",
+          "translation": "टीम ने छवि में वस्तुओं का पता लगाने के लिए वर्गीकारक का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Clustering",
+      "phoneticRespelling": "KLUH-stur-ing",
+      "translation": "समूहन",
+      "definition": "The process of grouping similar objects",
+      "definationTranslation": "समान वस्तुओं को समूहित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Clustering is used in computer vision to group similar objects",
+          "translation": "कंप्यूटर विजन में समान वस्तुओं को समूहित करने के लिए समूहन का उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The team used clustering to identify patterns in the data",
+          "translation": "टीम ने डेटा में पैटर्न की पहचान करने के लिए समूहन का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Convolution",
+      "phoneticRespelling": "kahn-vuh-LOH-shun",
+      "translation": "झुराव",
+      "definition": "A mathematical operation used in image processing",
+      "definationTranslation": "छवि प्रसंस्करण में उपयोग की जाने वाली एक गणितीय संचालन",
+      "sentence": [
+        {
+          "sentence": "The convolution operation is used to detect edges in an image",
+          "translation": "एक छवि में किनारों का पता लगाने के लिए झुराव संचालन का उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The team used convolution to remove noise from the image",
+          "translation": "टीम ने छवि से शोर हटाने के लिए झुराव का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Deep Learning",
+      "phoneticRespelling": "DEEP LUR-ning",
+      "translation": "गहरा शिक्षण",
+      "definition": "A subfield of machine learning",
+      "definationTranslation": "मशीन लर्निंग का एक उपक्षेत्र",
+      "sentence": [
+        {
+          "sentence": "Deep learning is used in computer vision to detect objects",
+          "translation": "कंप्यूटर विजन में वस्तुओं का पता लगाने के लिए गहरा शिक्षण का उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The team used deep learning to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए गहरा शिक्षण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Detection",
+      "phoneticRespelling": "duh-TEK-shun",
+      "translation": "स्थिरीकरण",
+      "definition": "The process of locating an object",
+      "definationTranslation": "एक वस्तु का स्थान निर्धारित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The detection algorithm was able to locate the object",
+          "translation": "स्थिरीकरण अल्गोरिदम वस्तु का स्थान निर्धारित करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used detection to identify targets in the image",
+          "translation": "टीम ने छवि में लक्ष्यों की पहचान करने के लिए स्थिरीकरण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Feature",
+      "phoneticRespelling": "FEH-chur",
+      "translation": "विशेषता",
+      "definition": "A characteristic of an object",
+      "definationTranslation": "एक वस्तु की विशेषता",
+      "sentence": [
+        {
+          "sentence": "The feature extractor was able to identify the object",
+          "translation": "विशेषता निकालकर वस्तु की पहचान करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used features to develop a new object recognition system",
+          "translation": "टीम ने एक नया वस्तु मान्यता प्रणाली विकसित करने के लिए विशेषताओं का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Image",
+      "phoneticRespelling": "IM-ij",
+      "translation": "छवि",
+      "definition": "A representation of an object",
+      "definationTranslation": "एक वस्तु का प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The image was processed to enhance its quality",
+          "translation": "छवि को उसकी गुणवत्ता में सुधार करने के लिए संसाधित किया गया था"
+        },
+        {
+          "sentence": "The team used images to develop a new object detection system",
+          "translation": "टीम ने एक नया वस्तु स्थिरीकरण प्रणाली विकसित करने के लिए छवियों का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Learning",
+      "phoneticRespelling": "LUR-ning",
+      "translation": "शिक्षण",
+      "definition": "The process of acquiring knowledge",
+      "definationTranslation": "ज्ञान प्राप्त करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The learning algorithm was able to improve its performance",
+          "translation": "शिक्षण अल्गोरिदम अपने प्रदर्शन में सुधार करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used learning to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए शिक्षण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Localization",
+      "phoneticRespelling": "loh-kal-uh-ZAY-shun",
+      "translation": "स्थानीयकरण",
+      "definition": "The process of determining an object's location",
+      "definationTranslation": "एक वस्तु के स्थान का निर्धारण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The localization algorithm was able to determine the object's location",
+          "translation": "स्थानीयकरण अल्गोरिदम वस्तु के स्थान का निर्धारण करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used localization to develop a new navigation system",
+          "translation": "टीम ने एक नया नेविगेशन प्रणाली विकसित करने के लिए स्थानीयकरण का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Machine",
+      "phoneticRespelling": "muh-SHEEN",
+      "translation": "मशीन",
+      "definition": "A device that performs a specific task",
+      "definationTranslation": "एक उपकरण जो एक विशिष्ट कार्य करता है",
+      "sentence": [
+        {
+          "sentence": "The machine was able to perform the task with high accuracy",
+          "translation": "मशीन उच्च सटीकता के साथ कार्य करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used machine learning to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए मशीन लर्निंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Model",
+      "phoneticRespelling": "MAH-dl",
+      "translation": "मॉडल",
+      "definition": "A representation of a system",
+      "definationTranslation": "एक प्रणाली का प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The model was able to predict the outcome",
+          "translation": "मॉडल परिणाम की भविष्यवाणी करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used a model to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए एक मॉडल का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Neural",
+      "phoneticRespelling": "NOOR-ul",
+      "translation": "तंत्रिका",
+      "definition": "Relating to the nervous system",
+      "definationTranslation": "तंत्रिका तंत्र से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The neural network was able to learn from the data",
+          "translation": "तंत्रिका नेटवर्क डेटा से सीखने में सक्षम था"
+        },
+        {
+          "sentence": "The team used a neural network to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए तंत्रिका नेटवर्क का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "phoneticRespelling": "NET-wurk",
+      "translation": "नेटवर्क",
+      "definition": "A system of interconnected devices",
+      "definationTranslation": "एक दूसरे से जुड़े उपकरणों की प्रणाली",
+      "sentence": [
+        {
+          "sentence": "The network was able to transmit the data",
+          "translation": "नेटवर्क डेटा को प्रसारित करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used a network to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए नेटवर्क का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Object",
+      "phoneticRespelling": "OB-jekt",
+      "translation": "वस्तु",
+      "definition": "A thing that exists",
+      "definationTranslation": "एक चीज़ जो मौजूद है",
+      "sentence": [
+        {
+          "sentence": "The object was detected in the image",
+          "translation": "वस्तु छवि में पता चला"
+        },
+        {
+          "sentence": "The team used objects to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए वस्तुओं का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Optimization",
+      "phoneticRespelling": "OP-tuh-mee-ZAY-shun",
+      "translation": "अनुकूलन",
+      "definition": "The process of improving a system's performance",
+      "definationTranslation": "एक प्रणाली के प्रदर्शन में सुधार करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The optimization algorithm was able to improve the system's performance",
+          "translation": "अनुकूलन अल्गोरिदम प्रणाली के प्रदर्शन में सुधार करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used optimization to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए अनुकूलन का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Pattern",
+      "phoneticRespelling": "PAT-ern",
+      "translation": "पैटर्न",
+      "definition": "A repeated design or arrangement",
+      "definationTranslation": "एक दोहराया डिज़ाइन या व्यवस्था",
+      "sentence": [
+        {
+          "sentence": "The pattern was detected in the image",
+          "translation": "पैटर्न छवि में पता चला"
+        },
+        {
+          "sentence": "The team used patterns to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए पैटर्न का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Recognition",
+      "phoneticRespelling": "REH-kog-nish-un",
+      "translation": "मान्यता",
+      "definition": "The process of identifying an object",
+      "definationTranslation": "एक वस्तु की पहचान करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The recognition algorithm was able to identify the object",
+          "translation": "मान्यता अल्गोरिदम वस्तु की पहचान करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used recognition to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए मान्यता का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Segmentation",
+      "phoneticRespelling": "SEH-gmuhn-TAY-shun",
+      "translation": "विभाजन",
+      "definition": "The process of dividing an image into parts",
+      "definationTranslation": "एक छवि को भागों में विभाजित करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The segmentation algorithm was able to divide the image",
+          "translation": "विभाजन अल्गोरिदम छवि को विभाजित करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used segmentation to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए विभाजन का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Sensor",
+      "phoneticRespelling": "SEN-sur",
+      "translation": "सेन्सर",
+      "definition": "A device that detects a physical quantity",
+      "definationTranslation": "एक उपकरण जो एक भौतिक मात्रा का पता लगाता है",
+      "sentence": [
+        {
+          "sentence": "The sensor was able to detect the object",
+          "translation": "सेन्सर वस्तु का पता लगाने में सक्षम था"
+        },
+        {
+          "sentence": "The team used sensors to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए सेन्सर का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Signal",
+      "phoneticRespelling": "SIG-nl",
+      "translation": "सिग्नल",
+      "definition": "A transmitted message",
+      "definationTranslation": "एक प्रसारित संदेश",
+      "sentence": [
+        {
+          "sentence": "The signal was transmitted to the computer",
+          "translation": "सिग्नल कंप्यूटर को प्रसारित किया गया था"
+        },
+        {
+          "sentence": "The team used signals to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए सिग्नल का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "phoneticRespelling": "SIH-stuhm",
+      "translation": "प्रणाली",
+      "definition": "A set of interconnected components",
+      "definationTranslation": "एक दूसरे से जुड़े घटकों का सेट",
+      "sentence": [
+        {
+          "sentence": "The system was able to process the data",
+          "translation": "प्रणाली डेटा को संसाधित करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used a system to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए एक प्रणाली का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Tracking",
+      "phoneticRespelling": "TRAK-ing",
+      "translation": "ट्रैकिंग",
+      "definition": "The process of following an object's movement",
+      "definationTranslation": "एक वस्तु की गति का अनुसरण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The tracking algorithm was able to follow the object's movement",
+          "translation": "ट्रैकिंग अल्गोरिदम वस्तु की गति का अनुसरण करने में सक्षम था"
+        },
+        {
+          "sentence": "The team used tracking to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए ट्रैकिंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Vision",
+      "phoneticRespelling": "VIH-zhun",
+      "translation": "दृष्टि",
+      "definition": "The ability to see",
+      "definationTranslation": "देखने की क्षमता",
+      "sentence": [
+        {
+          "sentence": "The vision system was able to detect the object",
+          "translation": "दृष्टि प्रणाली वस्तु का पता लगाने में सक्षम था"
+        },
+        {
+          "sentence": "The team used vision to develop a new image recognition system",
+          "translation": "टीम ने एक नया छवि मान्यता प्रणाली विकसित करने के लिए दृष्टि का उपयोग किया"
+        }
+      ]
+    }
+  ]
+}

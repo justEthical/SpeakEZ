@@ -1,0 +1,288 @@
+{
+  "level": "C2",
+  "title": "Cultural Insider",
+  "subtitle": "You get the slang and the 'hidden' meanings",
+  "metadata": {
+    "total_words": 5000,
+    "total_topics": 200,
+    "words_per_topic": 25,
+    "total_categories": 15
+  },
+  "categories": [
+    {
+      "category_name": "Executive Leadership and Strategy",
+      "topics": [
+        "Transformational Leadership",
+        "Corporate Restructuring",
+        "Board-Level Governance",
+        "Strategic Foresight",
+        "Competitive Intelligence",
+        "Succession Planning",
+        "Organizational Culture Change",
+        "Crisis Communication",
+        "Stakeholder Capitalism",
+        "Disruptive Innovation",
+        "Executive Decision Making",
+        "Corporate Ethics",
+        "Leadership Resilience"
+      ]
+    },
+    {
+      "category_name": "Advanced Academic Discourse",
+      "topics": [
+        "Epistemological Frameworks",
+        "Poststructuralist Theory",
+        "Historiography",
+        "Hermeneutics",
+        "Phenomenology",
+        "Critical Discourse Analysis",
+        "Paradigm Shifts",
+        "Ontological Perspectives",
+        "Academic Controversies",
+        "Interdisciplinary Synthesis",
+        "Research Methodology",
+        "Scholarly Debate",
+        "Knowledge Production"
+      ]
+    },
+    {
+      "category_name": "Legal and Regulatory Expertise",
+      "topics": [
+        "Jurisprudence",
+        "Antitrust Law",
+        "Securities Regulation",
+        "International Arbitration",
+        "Constitutional Interpretation",
+        "Legal Philosophy",
+        "Comparative Legal Systems",
+        "Procedural Law",
+        "Tort Theory",
+        "Legislative Drafting",
+        "Cybercrime Law",
+        "Privacy Legislation",
+        "Corporate Liability"
+      ]
+    },
+    {
+      "category_name": "Economics and Financial Markets",
+      "topics": [
+        "Monetary Theory",
+        "Derivatives and Hedging",
+        "Behavioral Economics",
+        "Econometric Modeling",
+        "Capital Markets",
+        "Economic Forecasting",
+        "Game Theory Applications",
+        "Development Economics",
+        "Financial Crises",
+        "Quantitative Finance",
+        "Sovereign Debt",
+        "Market Microstructure",
+        "Fiscal Austerity",
+        "Shadow Banking"
+      ]
+    },
+    {
+      "category_name": "Advanced Sciences",
+      "topics": [
+        "Theoretical Physics",
+        "Molecular Biology",
+        "Computational Neuroscience",
+        "Systems Biology",
+        "Astrophysics",
+        "Synthetic Biology",
+        "Materials Science",
+        "Particle Physics",
+        "Cognitive Science",
+        "Climate Modeling",
+        "Quantum Mechanics",
+        "Genomic Research",
+        "Biophysics",
+        "Dark Matter Theory"
+      ]
+    },
+    {
+      "category_name": "Philosophy and Intellectual History",
+      "topics": [
+        "Continental Philosophy",
+        "Analytical Philosophy",
+        "Philosophy of Language",
+        "Ethics and Metaethics",
+        "Political Theory",
+        "Philosophy of Science",
+        "Consciousness Studies",
+        "Free Will and Determinism",
+        "Social Contract Theory",
+        "Postcolonial Thought",
+        "Nihilism and Absurdism",
+        "Pragmatism",
+        "Dialectical Reasoning"
+      ]
+    },
+    {
+      "category_name": "International Relations and Geopolitics",
+      "topics": [
+        "Realpolitik",
+        "Hegemonic Stability",
+        "Nuclear Deterrence",
+        "Regime Theory",
+        "Soft Power Dynamics",
+        "Failed States",
+        "Cyberwarfare",
+        "Globalization Critique",
+        "Regional Integration",
+        "Transnational Governance",
+        "Energy Geopolitics",
+        "Proxy Conflicts",
+        "Diplomatic Immunity"
+      ]
+    },
+    {
+      "category_name": "Advanced Technology and Computing",
+      "topics": [
+        "Neural Networks Architecture",
+        "Distributed Systems",
+        "Algorithm Complexity",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Quantum Algorithms",
+        "Cryptography",
+        "Edge Computing",
+        "Human-Computer Interaction",
+        "AI Ethics and Alignment",
+        "Blockchain Architecture",
+        "Autonomous Systems",
+        "Cybersecurity Frameworks",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "category_name": "Literary and Cultural Criticism",
+      "topics": [
+        "Deconstructionism",
+        "Psychoanalytic Criticism",
+        "Feminist Literary Theory",
+        "Postcolonial Literature",
+        "Intertextuality",
+        "Narratology",
+        "Semiotics",
+        "Cultural Hegemony",
+        "Canon Formation",
+        "Modernist Aesthetics",
+        "Queer Theory",
+        "Dystopian Literature",
+        "Mythocriticism"
+      ]
+    },
+    {
+      "category_name": "Medicine and Healthcare Systems",
+      "topics": [
+        "Medical Diagnostics",
+        "Pharmacology",
+        "Epidemiology",
+        "Healthcare Economics",
+        "Biomedical Ethics",
+        "Precision Medicine",
+        "Healthcare Policy Reform",
+        "Clinical Trials",
+        "Telemedicine",
+        "Medical Informatics",
+        "Pandemic Preparedness",
+        "Neuropharmacology",
+        "Regenerative Medicine",
+        "Global Health Equity"
+      ]
+    },
+    {
+      "category_name": "Environmental Science and Policy",
+      "topics": [
+        "Climate Mitigation Strategies",
+        "Carbon Markets",
+        "Ecological Economics",
+        "Biodiversity Conservation",
+        "Environmental Law",
+        "Geoengineering",
+        "Circular Economy",
+        "Water Resource Management",
+        "Environmental Impact Assessment",
+        "Sustainable Agriculture",
+        "Ocean Acidification",
+        "Renewable Energy Policy",
+        "Land Use Planning"
+      ]
+    },
+    {
+      "category_name": "Sociology and Anthropology",
+      "topics": [
+        "Social Stratification",
+        "Ethnographic Methods",
+        "Symbolic Interactionism",
+        "Structural Functionalism",
+        "Cultural Relativism",
+        "Postmodern Society",
+        "Gender Studies",
+        "Collective Behavior",
+        "Kinship Systems",
+        "Urban Anthropology",
+        "Race and Identity",
+        "Digital Anthropology",
+        "Social Mobility"
+      ]
+    },
+    {
+      "category_name": "Psychology and Cognitive Science",
+      "topics": [
+        "Cognitive Behavioral Theory",
+        "Neuropsychology",
+        "Developmental Psychology",
+        "Social Psychology",
+        "Psycholinguistics",
+        "Emotional Intelligence",
+        "Memory and Learning",
+        "Psychological Disorders",
+        "Decision-Making Biases",
+        "Personality Theory",
+        "Attachment Theory",
+        "Consciousness and Perception",
+        "Positive Psychology",
+        "Cross-cultural Psychology"
+      ]
+    },
+    {
+      "category_name": "Education Systems and Pedagogy",
+      "topics": [
+        "Curriculum Design",
+        "Educational Psychology",
+        "Constructivist Learning",
+        "Higher Education Policy",
+        "Inclusive Education",
+        "Critical Pedagogy",
+        "Assessment and Evaluation",
+        "Educational Technology",
+        "Lifelong Learning",
+        "Comparative Education",
+        "Teacher Professional Development",
+        "Literacy and Numeracy",
+        "Education Equity"
+      ]
+    },
+    {
+      "category_name": "Media, Ethics and Information Theory",
+      "topics": [
+        "Information Theory",
+        "Media Epistemology",
+        "Algorithmic Bias",
+        "Digital Surveillance",
+        "Press Freedom",
+        "Misinformation Dynamics",
+        "Data Privacy Ethics",
+        "Attention Economy",
+        "Platform Governance",
+        "Computational Propaganda",
+        "Media Literacy",
+        "Ethics of AI Journalism",
+        "Information Warfare"
+      ]
+    }
+  ]
+}

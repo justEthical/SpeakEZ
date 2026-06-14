@@ -1,0 +1,430 @@
+{
+  "topic": "Bioinformatics",
+  "words": [
+    {
+      "word": "Genome",
+      "phoneticRespelling": "JEE-nohm",
+      "translation": "जीनोम",
+      "definition": "The complete set of DNA (including all of its genes) in an organism",
+      "definationTranslation": "किसी जीव में डीएनए (इसके सभी जीन सहित) का पूरा सेट",
+      "sentence": [
+        {
+          "sentence": "The human genome is made up of more than three billion base pairs of DNA.",
+          "translation": "मानव जीनोम तीन अरब से अधिक डीएनए बेस जोड़ियों से बना है।"
+        },
+        {
+          "sentence": "Understanding the genome is crucial for understanding how life works.",
+          "translation": "जीवन के कार्य करने के तरीके को समझने के लिए जीनोम को समझना आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Protein",
+      "phoneticRespelling": "PROH-teen",
+      "translation": "प्रोटीन",
+      "definition": "A molecule made up of amino acids that performs a specific function in the body",
+      "definationTranslation": "एक आणविक जो अमीनो एसिड से बना होता है और शरीर में एक विशिष्ट कार्य करता है",
+      "sentence": [
+        {
+          "sentence": "Proteins are the building blocks of all living things.",
+          "translation": "प्रोटीन सभी जीवित चीजों के निर्माण खंड हैं।"
+        },
+        {
+          "sentence": "The protein structure is crucial for understanding how it functions.",
+          "translation": "प्रोटीन संरचना यह समझने के लिए महत्वपूर्ण है कि यह कैसे कार्य करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-rih-thuhm",
+      "translation": "アルゴリズम",
+      "definition": "A set of instructions that is used to solve a specific problem or perform a particular task",
+      "definationTranslation": "एक निर्देशों का सेट जो एक विशिष्ट समस्या का समाधान करने या एक विशिष्ट कार्य करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in bioinformatics is designed to analyze large amounts of data.",
+          "translation": "जैव सूचना विज्ञान में उपयोग किया जाने वाला एल्गोरिदम बड़ी मात्रा में डेटा का विश्लेषण करने के लिए डिज़ाइन किया गया है।"
+        },
+        {
+          "sentence": "The development of new algorithms is crucial for advancing the field of bioinformatics.",
+          "translation": "जैव सूचना विज्ञान के क्षेत्र में आगे बढ़ने के लिए नए एल्गोरिदम का विकास आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Database",
+      "phoneticRespelling": "DAY-tuh-bayz",
+      "translation": "डेटाबेस",
+      "definition": "A collection of organized data that is stored in a way that allows for efficient retrieval and manipulation",
+      "definationTranslation": "एक संगठित डेटा का संग्रह जो कुशलतापूर्वक पुनर्प्राप्ति और हेरफेर की अनुमति देने वाले तरीके से संग्रहीत किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The database is a critical component of any bioinformatics project.",
+          "translation": "डेटाबेस किसी भी जैव सूचना विज्ञान परियोजना का एक महत्वपूर्ण घटक है।"
+        },
+        {
+          "sentence": "The database is used to store and manage large amounts of biological data.",
+          "translation": "डेटाबेस बड़ी मात्रा में जीवविज्ञान डेटा को संग्रहीत और प्रबंधित करने के लिए उपयोग किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Sequencing",
+      "phoneticRespelling": "SEE-kwen-sing",
+      "translation": "अनुक्रमन",
+      "definition": "The process of determining the order of the nucleotide bases in a DNA molecule",
+      "definationTranslation": "एक डीएनए अणु में न्यूक्लियोटाइड बेस के क्रम का निर्धारण करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Sequencing is a critical step in understanding the genetic code.",
+          "translation": "अनुक्रमन जेनेटिक कोड को समझने में एक महत्वपूर्ण कदम है।"
+        },
+        {
+          "sentence": "The sequencing technology has revolutionized the field of bioinformatics.",
+          "translation": "अनुक्रमन प्रौद्योगिकी ने जैव सूचना विज्ञान के क्षेत्र को क्रांतिकारी बना दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Genomics",
+      "phoneticRespelling": "juh-NOM-iks",
+      "translation": "जीनोमिक्स",
+      "definition": "The study of the structure, function, and evolution of genomes",
+      "definationTranslation": "जीनोम की संरचना, कार्य और विकास का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Genomics is a rapidly advancing field that has led to many important discoveries.",
+          "translation": "जीनोमिक्स एक तेजी से आगे बढ़ रहा है जिसने कई महत्वपूर्ण खोजों को जन्म दिया है।"
+        },
+        {
+          "sentence": "The genomics revolution has transformed our understanding of biology and medicine.",
+          "translation": "जीनोमिक्स क्रांति ने जीवविज्ञान और चिकित्सा की हमारी समझ को बदल दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Transcriptome",
+      "phoneticRespelling": "tran-SKRIP-tohm",
+      "translation": "रूपांतरण",
+      "definition": "The complete set of RNA transcripts produced by an organism or a cell",
+      "definationTranslation": "एक जीव या कोशिका द्वारा उत्पादित आरएनए ट्रांसक्रिप्ट का पूरा सेट",
+      "sentence": [
+        {
+          "sentence": "The transcriptome is a dynamic and complex system that is still not fully understood.",
+          "translation": "रूपांतरण एक गतिशील और जटिल प्रणाली है जो अभी तक पूरी तरह से समझ में नहीं आई है।"
+        },
+        {
+          "sentence": "The study of the transcriptome has led to a greater understanding of gene regulation and expression.",
+          "translation": "रूपांतरण के अध्ययन से जीन विनियमन और अभिव्यक्ति की बड़ी समझ हुई है।"
+        }
+      ]
+    },
+    {
+      "word": "Phylogenetics",
+      "phoneticRespelling": "fahy-loh-juh-NEH-tiks",
+      "translation": "विकासवादी",
+      "definition": "The study of the evolutionary history and relationships among organisms",
+      "definationTranslation": "जीवों के बीच विकासवादी इतिहास और संबंधों का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Phylogenetics is a powerful tool for understanding the evolution of life on Earth.",
+          "translation": "विकासवादी एक शक्तिशाली उपकरण है जो पृथ्वी पर जीवन के विकास को समझने में मदद करता है।"
+        },
+        {
+          "sentence": "The phylogenetic tree is a visual representation of the evolutionary relationships among organisms.",
+          "translation": "विकासवादी वृक्ष जीवों के बीच विकासवादी संबंधों का एक दृश्य प्रतिनिधित्व है।"
+        }
+      ]
+    },
+    {
+      "word": "Microarray",
+      "phoneticRespelling": "MY-kroh-AY",
+      "translation": "माइक्रोएरे",
+      "definition": "A laboratory tool used to study many genes at once",
+      "definationTranslation": "एक प्रयोगशाला उपकरण जो एक बार में कई जीनों का अध्ययन करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The microarray is a powerful tool for understanding gene expression and regulation.",
+          "translation": "माइक्रोएरे जीन अभिव्यक्ति और विनियमन को समझने के लिए एक शक्तिशाली उपकरण है।"
+        },
+        {
+          "sentence": "The microarray has been used to study many different types of cancer.",
+          "translation": "माइक्रोएरे का उपयोग कई प्रकार के कैंसर के अध्ययन के लिए किया गया है।"
+        }
+      ]
+    },
+    {
+      "word": "Proteomics",
+      "phoneticRespelling": "proh-TEE-uh-miks",
+      "translation": "प्रोटियोमिक्स",
+      "definition": "The study of the structure, function, and interactions of proteins",
+      "definationTranslation": "प्रोटीन की संरचना, कार्य और परस्पर क्रियाओं का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Proteomics is a rapidly advancing field that has led to many important discoveries.",
+          "translation": "प्रोटियोमिक्स एक तेजी से आगे बढ़ रहा है जिसने कई महत्वपूर्ण खोजों को जन्म दिया है।"
+        },
+        {
+          "sentence": "The proteomics revolution has transformed our understanding of biology and medicine.",
+          "translation": "प्रोटियोमिक्स क्रांति ने जीवविज्ञान और चिकित्सा की हमारी समझ को बदल दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Metabolomics",
+      "phoneticRespelling": "met-uh-BOL-uh-miks",
+      "translation": "मेटाबोलोमिक्स",
+      "definition": "The study of the complete set of metabolites in a biological system",
+      "definationTranslation": "एक जैविक प्रणाली में मेटाबोलाइट्स के पूरे सेट का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Metabolomics is a rapidly advancing field that has led to many important discoveries.",
+          "translation": "मेटाबोलोमिक्स एक तेजी से आगे बढ़ रहा है जिसने कई महत्वपूर्ण खोजों को जन्म दिया है।"
+        },
+        {
+          "sentence": "The metabolomics revolution has transformed our understanding of biology and medicine.",
+          "translation": "मेटाबोलोमिक्स क्रांति ने जीवविज्ञान और चिकित्सा की हमारी समझ को बदल दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Gene",
+      "phoneticRespelling": "JEEN",
+      "translation": "जीन",
+      "definition": "A unit of heredity that carries information from one generation to the next",
+      "definationTranslation": "एक विरासत की इकाई जो एक पीढ़ी से अगली पीढ़ी तक जानकारी पहुंचाती है",
+      "sentence": [
+        {
+          "sentence": "The gene is the basic unit of heredity.",
+          "translation": "जीन विरासत की मूल इकाई है।"
+        },
+        {
+          "sentence": "The gene plays a critical role in the development and function of all living organisms.",
+          "translation": "जीन सभी जीवित जीवों के विकास और कार्य में एक महत्वपूर्ण भूमिका निभाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Chromosome",
+      "phoneticRespelling": "KROH-muh-sohm",
+      "translation": "क्रोमोसोम",
+      "definition": "A thread-like structure that carries genetic information in the nucleus of a cell",
+      "definationTranslation": "एक धागे जैसी संरचना जो एक कोशिका के नाभिक में जेनेटिक जानकारी लेकर चलती है",
+      "sentence": [
+        {
+          "sentence": "The chromosome is a critical component of the cell nucleus.",
+          "translation": "क्रोमोसोम कोशिका के नाभिक का एक महत्वपूर्ण घटक है।"
+        },
+        {
+          "sentence": "The chromosome plays a key role in the transmission of genetic information from one generation to the next.",
+          "translation": "क्रोमोसोम एक पीढ़ी से अगली पीढ़ी तक जेनेटिक जानकारी के संचरण में एक महत्वपूर्ण भूमिका निभाता है।"
+        }
+      ]
+    },
+    {
+      "word": "DNA",
+      "phoneticRespelling": "DEE-en-AY",
+      "translation": "डीएनए",
+      "definition": "The molecule that carries genetic information in the cells of all living organisms",
+      "definationTranslation": "एक आणविक जो सभी जीवित जीवों की कोशिकाओं में जेनेटिक जानकारी लेकर चलता है",
+      "sentence": [
+        {
+          "sentence": "DNA is the fundamental basis of life.",
+          "translation": "डीएनए जीवन का मूल आधार है।"
+        },
+        {
+          "sentence": "The discovery of DNA has revolutionized our understanding of biology and medicine.",
+          "translation": "डीएनए की खोज ने जीवविज्ञान और चिकित्सा की हमारी समझ को क्रांतिकारी बना दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "RNA",
+      "phoneticRespelling": "AR-en-AY",
+      "translation": "आरएनए",
+      "definition": "A molecule that plays a critical role in the transmission of genetic information from DNA to the proteins",
+      "definationTranslation": "एक आणविक जो डीएनए से प्रोटीन तक जेनेटिक जानकारी के संचरण में एक महत्वपूर्ण भूमिका निभाता है",
+      "sentence": [
+        {
+          "sentence": "RNA is a crucial molecule in the process of gene expression.",
+          "translation": "आरएनए जीन अभिव्यक्ति की प्रक्रिया में एक महत्वपूर्ण आणविक है।"
+        },
+        {
+          "sentence": "The discovery of RNA has led to a greater understanding of the mechanisms of gene regulation.",
+          "translation": "आरएनए की खोज ने जीन विनियमन के तंत्रों की बड़ी समझ को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Genetic",
+      "phoneticRespelling": "juh-NEH-tik",
+      "translation": "जेनेटिक",
+      "definition": "Relating to heredity and the variation of organisms",
+      "definationTranslation": "विरासत और जीवों की विविधता से संबंधित",
+      "sentence": [
+        {
+          "sentence": "Genetic factors play a critical role in the development of many diseases.",
+          "translation": "जेनेटिक कारक कई बीमारियों के विकास में एक महत्वपूर्ण भूमिका निभाते हैं।"
+        },
+        {
+          "sentence": "The study of genetic variation is essential for understanding the evolution of life on Earth.",
+          "translation": "जेनेटिक विविधता का अध्ययन पृथ्वी पर जीवन के विकास को समझने के लिए आवश्यक है।"
+        }
+      ]
+    },
+    {
+      "word": "Epigenetics",
+      "phoneticRespelling": "eh-pih-jeh-NEH-tiks",
+      "translation": "एपिजेनेटिक्स",
+      "definition": "The study of heritable changes in gene function that occur without a change in the underlying DNA sequence",
+      "definationTranslation": "एक अध्ययन जो जीन कार्य में विरासत में मिले परिवर्तनों का अध्ययन करता है जो अंतर्निहित डीएनए अनुक्रम में परिवर्तन के बिना होता है",
+      "sentence": [
+        {
+          "sentence": "Epigenetics is a rapidly advancing field that has led to many important discoveries.",
+          "translation": "एपिजेनेटिक्स एक तेजी से आगे बढ़ रहा है जिसने कई महत्वपूर्ण खोजों को जन्म दिया है।"
+        },
+        {
+          "sentence": "The study of epigenetics has transformed our understanding of gene regulation and expression.",
+          "translation": "एपिजेनेटिक्स के अध्ययन ने जीन विनियमन और अभिव्यक्ति की हमारी समझ को बदल दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Systems",
+      "phoneticRespelling": "SIH-stuhmz",
+      "translation": "सिस्टम",
+      "definition": "A set of connected things or parts that work together to achieve a common goal",
+      "definationTranslation": "एक सेट जुड़ी चीजें या भाग जो एक साझा लक्ष्य को प्राप्त करने के लिए मिलकर काम करते हैं",
+      "sentence": [
+        {
+          "sentence": "The systems approach is a holistic way of understanding complex biological systems.",
+          "translation": "सिस्टम दृष्टिकोण जटिल जैविक प्रणालियों को समझने का एक समग्र तरीका है।"
+        },
+        {
+          "sentence": "The study of systems biology has led to a greater understanding of how living organisms function.",
+          "translation": "सिस्टम जीवविज्ञान का अध्ययन जीवित जीवों के कार्य करने के तरीके की बड़ी समझ को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Biology",
+      "phoneticRespelling": "bahy-AH-leh-jee",
+      "translation": "जीवविज्ञान",
+      "definition": "The study of living organisms and their interactions with the environment",
+      "definationTranslation": "जीवित जीवों और उनके पर्यावरण के साथ परस्पर क्रियाओं का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Biology is the study of life and all its complexities.",
+          "translation": "जीवविज्ञान जीवन और इसकी सभी जटिलताओं का अध्ययन है।"
+        },
+        {
+          "sentence": "The study of biology has led to many important discoveries and advances in our understanding of the natural world.",
+          "translation": "जीवविज्ञान का अध्ययन कई महत्वपूर्ण खोजों और प्राकृतिक दुनिया की हमारी समझ में अग्रिमों को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Computer",
+      "phoneticRespelling": "k uh m-PYOO-ter",
+      "translation": "कंप्यूटर",
+      "definition": "An electronic device that can store, process, and communicate information",
+      "definationTranslation": "एक इलेक्ट्रॉनिक उपकरण जो जानकारी को संग्रहीत, प्रसंस्करण और संचार कर सकता है",
+      "sentence": [
+        {
+          "sentence": "The computer is a powerful tool for analyzing and interpreting large amounts of data.",
+          "translation": "कंप्यूटर बड़ी मात्रा में डेटा का विश्लेषण और व्याख्या करने के लिए एक शक्तिशाली उपकरण है।"
+        },
+        {
+          "sentence": "The development of computers has revolutionized many fields, including biology and medicine.",
+          "translation": "कंप्यूटरों का विकास कई क्षेत्रों में क्रांति लाया है, जिनमें जीवविज्ञान और चिकित्सा भी शामिल हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Modeling",
+      "phoneticRespelling": "MOH-deling",
+      "translation": "मॉडलिंग",
+      "definition": "The process of creating a mathematical or computational representation of a system or process",
+      "definationTranslation": "एक प्रणाली या प्रक्रिया का एक गणितीय या कम्प्यूटेशनल प्रतिनिधित्व बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Modeling is a powerful tool for understanding complex biological systems.",
+          "translation": "मॉडलिंग जटिल जैविक प्रणालियों को समझने के लिए एक शक्तिशाली उपकरण है।"
+        },
+        {
+          "sentence": "The use of modeling has led to many important advances in our understanding of biology and medicine.",
+          "translation": "मॉडलिंग का उपयोग जीवविज्ञान और चिकित्सा की हमारी समझ में कई महत्वपूर्ण अग्रिमों को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Simulation",
+      "phoneticRespelling": "sih-muh-LAY-shun",
+      "translation": "सिम्युलेशन",
+      "definition": "The process of creating a computer model of a system or process to predict its behavior",
+      "definationTranslation": "एक प्रणाली या प्रक्रिया के व्यवहार की भविष्यवाणी करने के लिए एक कम्प्यूटर मॉडल बनाने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Simulation is a powerful tool for understanding complex biological systems.",
+          "translation": "सिम्युलेशन जटिल जैविक प्रणालियों को समझने के लिए एक शक्तिशाली उपकरण है।"
+        },
+        {
+          "sentence": "The use of simulation has led to many important advances in our understanding of biology and medicine.",
+          "translation": "सिम्युलेशन का उपयोग जीवविज्ञान और चिकित्सा की हमारी समझ में कई महत्वपूर्ण अग्रिमों को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tuh",
+      "translation": "डेटा",
+      "definition": "Facts and statistics collected together for reference or analysis",
+      "definationTranslation": "संदर्भ या विश्लेषण के लिए एकत्रित किए गए तथ्य और आंकड़े",
+      "sentence": [
+        {
+          "sentence": "The data is a critical component of any scientific study.",
+          "translation": "डेटा किसी भी वैज्ञानिक अध्ययन का एक महत्वपूर्ण घटक है।"
+        },
+        {
+          "sentence": "The analysis of data has led to many important discoveries and advances in our understanding of the world.",
+          "translation": "डेटा के विश्लेषण से कई महत्वपूर्ण खोजों और हमारी दुनिया की समझ में अग्रिमों को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Statistics",
+      "phoneticRespelling": "stuh-TIS-tiks",
+      "translation": "सांख्यिकी",
+      "definition": "The study of the collection, analysis, interpretation, presentation, and organization of data",
+      "definationTranslation": "डेटा के संग्रह, विश्लेषण, व्याख्या, प्रस्तुति और संगठन का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Statistics is a powerful tool for understanding and analyzing data.",
+          "translation": "सांख्यिकी डेटा को समझने और विश्लेषण करने के लिए एक शक्तिशाली उपकरण है।"
+        },
+        {
+          "sentence": "The use of statistics has led to many important advances in our understanding of the world.",
+          "translation": "सांख्यिकी का उपयोग हमारी दुनिया की समझ में कई महत्वपूर्ण अग्रिमों को जन्म दिया है।"
+        }
+      ]
+    },
+    {
+      "word": "Informatics",
+      "phoneticRespelling": "in-foh-MAT-iks",
+      "translation": "सूचना विज्ञान",
+      "definition": "The study of the structure, behavior, and interactions of information systems",
+      "definationTranslation": "सूचना प्रणालियों की संरचना, व्यवहार और परस्पर क्रियाओं का अध्ययन",
+      "sentence": [
+        {
+          "sentence": "Informatics is a rapidly advancing field that has led to many important discoveries.",
+          "translation": "सूचना विज्ञान एक तेजी से आगे बढ़ रहा है जिसने कई महत्वपूर्ण खोजों को जन्म दिया है।"
+        },
+        {
+          "sentence": "The study of informatics has transformed our understanding of how information is processed and communicated.",
+          "translation": "सूचना विज्ञान का अध्ययन जानकारी कैसे प्रसंस्कृत और संचारित की जाती है, इसकी हमारी समझ को बदल दिया है।"
+        }
+      ]
+    }
+  ]
+}

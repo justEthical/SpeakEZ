@@ -10,6 +10,7 @@ import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
 import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
 import 'package:speak_ez/Screens/Login/login_screen.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
+import 'package:speak_ez/Screens/Practice/chat_screen_intro.dart';
 import 'package:speak_ez/Services/admob_service.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
@@ -563,7 +564,16 @@ class CustomDialogs {
                     hasEnoughGems
                         ? () {
                           Get.back();
-                          Get.to(ChatScreen(scenarioModel: scenarioModel));
+      //                     final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(
+      // AppStrings.isOnDeviceTranscriptionSupported,
+    // );
+                          if (!(globalController.isDeepInfraTranscription.value)) {
+                            Get.to(
+                              ChatScreenIntro(scenarioModel: scenarioModel),
+                            );
+                          } else {
+                            Get.to(ChatScreen(scenarioModel: scenarioModel));
+                          }
                         }
                         : null,
                 color: Theme.of(context).colorScheme.primary,
@@ -617,7 +627,11 @@ class _DialogButtonState extends State<_DialogButton> {
               },
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 150),
-        transform: Matrix4.identity()..scale(_isPressed ? 0.97 : 1.0),
+        transform: Matrix4.diagonal3Values(
+          _isPressed ? 0.97 : 1.0,
+          _isPressed ? 0.97 : 1.0,
+          1.0,
+        ),
         padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
         decoration: BoxDecoration(
           color:

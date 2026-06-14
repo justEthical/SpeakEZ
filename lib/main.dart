@@ -11,6 +11,7 @@ import 'package:get/get.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:posthog_flutter/posthog_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sherpa_onnx/sherpa_onnx.dart'as sherpa_onnx;
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Controllers/practice_controller.dart';
@@ -25,7 +26,6 @@ import 'package:speak_ez/Utils/localization_translation.dart';
 import 'package:speak_ez/Utils/theme.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-
 import 'Controllers/global_controller.dart';
 
 void main() async {
@@ -34,6 +34,7 @@ void main() async {
   unawaited(MobileAds.instance.initialize());
   await dotenv.load(fileName: ".env");
   LocalNotificationService().init();
+  sherpa_onnx.initBindings(); // FFI bindings for sherpa-onnx
   await PostHogService.instance.initialize();
 
   await SystemChrome.setPreferredOrientations([
@@ -92,7 +93,10 @@ class AppEntry extends StatelessWidget {
         initialBinding: BindingsBuilder(() {
           Get.put(GlobalController());
           Get.put(OnboardingController());
-          Get.lazyPut<PracticeController>(() => PracticeController(), fenix: true);
+          Get.lazyPut<PracticeController>(
+            () => PracticeController(),
+            fenix: true,
+          );
         }),
         navigatorObservers: [PosthogObserver()],
         theme: lightTheme,
@@ -123,7 +127,7 @@ class _WrapperState extends State<Wrapper> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      body: Center(child: CircularProgressIndicator()),
+      body: SafeArea(child: Center(child: CircularProgressIndicator())),
     );
   }
 
@@ -155,15 +159,20 @@ class _WrapperState extends State<Wrapper> {
 
         // Reschedule notification if user has a preferred practice time
         if (userProfile.preferredPracticeTime.isNotEmpty) {
-          var hasPermission = await LocalNotificationService().hasNotificationPermission();
+          var hasPermission =
+              await LocalNotificationService().hasNotificationPermission();
           if (!hasPermission) {
-            hasPermission = await LocalNotificationService().requestNotificationPermission();
+            hasPermission =
+                await LocalNotificationService()
+                    .requestNotificationPermission();
           }
           if (hasPermission) {
             await LocalNotificationService().scheduleDailyReminder(
               time: userProfile.preferredPracticeTime,
             );
-            debugPrint('Rescheduled daily reminder for ${userProfile.preferredPracticeTime}');
+            debugPrint(
+              'Rescheduled daily reminder for ${userProfile.preferredPracticeTime}',
+            );
           }
         }
       }

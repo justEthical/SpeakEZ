@@ -1,0 +1,430 @@
+{
+  "topic": "Algorithm Complexity",
+  "words": [
+    {
+      "word": "Algorithm",
+      "phoneticRespelling": "AL-guh-ridyum",
+      "translation": "Algoirthm",
+      "definition": "A set of instructions used to solve a specific problem",
+      "definationTranslation": "Kisi vishisht samasya ka samadhan karne ke liye upyog kiye jaane wale nirdeshon ka samuh",
+      "sentence": [
+        {
+          "sentence": "The algorithm used in the program helped to speed up the process.",
+          "translation": "Program mein upyog kiya gaya algorithm prakriya ko tez karne mein madad karta hai."
+        },
+        {
+          "sentence": "The team developed a new algorithm to improve the efficiency of the system.",
+          "translation": "Team ne pranaali ki kushalta mein sudhar ke liye ek naya algorithm viksit kiya."
+        }
+      ]
+    },
+    {
+      "word": "Complexity",
+      "phoneticRespelling": "kum-plek-si-tee",
+      "translation": "Jatilta",
+      "definition": "The quality of being complex or complicated",
+      "definationTranslation": "Jatil ya samajhne mein mushkil hone ki gunvatta",
+      "sentence": [
+        {
+          "sentence": "The complexity of the problem made it difficult to solve.",
+          "translation": "Samasya ki jatilta ke kaaran ise samajhna mushkil ho gaya."
+        },
+        {
+          "sentence": "The algorithm's complexity made it hard to understand and implement.",
+          "translation": "Algorithm ki jatilta ke kaaran ise samajhna aur lagu karna mushkil ho gaya."
+        }
+      ]
+    },
+    {
+      "word": "Big-O",
+      "phoneticRespelling": "big oh",
+      "translation": "Bada-O",
+      "definition": "A notation used to describe the complexity of an algorithm",
+      "definationTranslation": "Ek algorithm ki jatilta ka varnan karne ke liye upyog kiya jaane wala sanketon",
+      "sentence": [
+        {
+          "sentence": "The big-O notation is used to measure the worst-case scenario of an algorithm.",
+          "translation": "Bada-O sanketon ka upyog algorithm ke sabse buri sthiti ka maap lene ke liye kiya jaata hai."
+        },
+        {
+          "sentence": "The algorithm has a big-O of n^2, making it inefficient for large inputs.",
+          "translation": "Algorithm ka bada-O n^2 hai, jissey yeh bade input ke liye aprabhavi ho jaata hai."
+        }
+      ]
+    },
+    {
+      "word": "Time Complexity",
+      "phoneticRespelling": "tahym kum-plek-si-tee",
+      "translation": "Samay Jatilta",
+      "definition": "The amount of time an algorithm takes to complete",
+      "definationTranslation": "Ek algorithm ko poora karne mein lagne wala samay",
+      "sentence": [
+        {
+          "sentence": "The time complexity of the algorithm is O(n log n).",
+          "translation": "Algorithm ki samay jatilta O(n log n) hai."
+        },
+        {
+          "sentence": "The algorithm's time complexity makes it unsuitable for real-time applications.",
+          "translation": "Algorithm ki samay jatilta ke kaaran yeh vastavik samay ke prayog ke liye anuchit hai."
+        }
+      ]
+    },
+    {
+      "word": "Space Complexity",
+      "phoneticRespelling": "spays kum-plek-si-tee",
+      "translation": "Staan Jatilta",
+      "definition": "The amount of memory an algorithm uses",
+      "definationTranslation": "Ek algorithm dvara upyog kiya jaane wala smriti ki maatra",
+      "sentence": [
+        {
+          "sentence": "The space complexity of the algorithm is O(n).",
+          "translation": "Algorithm ki staan jatilta O(n) hai."
+        },
+        {
+          "sentence": "The algorithm's space complexity makes it suitable for systems with limited memory.",
+          "translation": "Algorithm ki staan jatilta ke kaaran yeh seemit smriti wale pranaaliyon ke liye uchit hai."
+        }
+      ]
+    },
+    {
+      "word": "Efficiency",
+      "phoneticRespelling": "eh-fih-shuhn-see",
+      "translation": "Kushalta",
+      "definition": "The quality of being efficient or effective",
+      "definationTranslation": "Kushal ya prabhaavi hone ki gunvatta",
+      "sentence": [
+        {
+          "sentence": "The algorithm's efficiency is improved by reducing the number of iterations.",
+          "translation": "Algorithm ki kushalta ko avrittikon ki sankhya kam karke sudhaar ja sakta hai."
+        },
+        {
+          "sentence": "The efficiency of the system is measured by its ability to complete tasks quickly.",
+          "translation": "Pranaali ki kushalta ko kaaryon ko jaldi poora karne ki kshamata se maapta jaata hai."
+        }
+      ]
+    },
+    {
+      "word": "Optimization",
+      "phoneticRespelling": "op-tuh-mee-zay-shun",
+      "translation": "Uttamikarn",
+      "definition": "The process of making something more efficient or effective",
+      "definationTranslation": "Kisi cheez ko adhik kushal ya prabhaavi banane ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The optimization of the algorithm improved its performance.",
+          "translation": "Algorithm ka uttamikaran uski pradarshan ko sudhaar deta hai."
+        },
+        {
+          "sentence": "The team worked on optimization techniques to reduce the system's latency.",
+          "translation": "Team ne pranaali ki vilambitata ko kam karne ke liye uttamikaran takneekon par kaam kiya."
+        }
+      ]
+    },
+    {
+      "word": "Trade-off",
+      "phoneticRespelling": "tray-doff",
+      "translation": "Vyavhar",
+      "definition": "A situation where one thing is sacrificed for another",
+      "definationTranslation": "Ek sthiti jahaan ek cheez doosri ke liye tyag di jaati hai",
+      "sentence": [
+        {
+          "sentence": "The trade-off between time and space complexity is a common challenge in algorithm design.",
+          "translation": "Samay aur staan jatilta ke beech vyavhar algorithm design mein ek aam chunauti hai."
+        },
+        {
+          "sentence": "The team had to make a trade-off between efficiency and accuracy in their algorithm.",
+          "translation": "Team ko apne algorithm mein kushalta aur satyata ke beech vyavhar karna pada."
+        }
+      ]
+    },
+    {
+      "word": "Scalability",
+      "phoneticRespelling": "skay-luh-bil-i-tee",
+      "translation": "Vristi",
+      "definition": "The ability of a system to handle increased load or demand",
+      "definationTranslation": "Ek pranaali ki badh rahe bojh ya maang ko sambhalne ki kshamata",
+      "sentence": [
+        {
+          "sentence": "The scalability of the algorithm is critical for large-scale applications.",
+          "translation": "Bade paimaane par prayog ke liye algorithm ki vristi aavashyak hai."
+        },
+        {
+          "sentence": "The team designed the system with scalability in mind to accommodate growing demand.",
+          "translation": "Team ne badhti maang ko dhyan mein rakhte hue pranaali ka design kiya hai."
+        }
+      ]
+    },
+    {
+      "word": "Worst-case",
+      "phoneticRespelling": "wurst-kays",
+      "translation": "Sabse Buri Sthiti",
+      "definition": "The most unfavorable or difficult situation",
+      "definationTranslation": "Sabse asahaj ya kathin sthiti",
+      "sentence": [
+        {
+          "sentence": "The worst-case scenario for the algorithm is when the input is extremely large.",
+          "translation": "Algorithm ke liye sabse buri sthiti tab hoti hai jab input atyadhik bada hai."
+        },
+        {
+          "sentence": "The team prepared for the worst-case scenario by implementing backup systems.",
+          "translation": "Team ne sabse buri sthiti ke liye taiyaari ki backup pranaaliyon ko lagu karke."
+        }
+      ]
+    },
+    {
+      "word": "Average-case",
+      "phoneticRespelling": "av-rij-kays",
+      "translation": "Aam Sthiti",
+      "definition": "The typical or expected situation",
+      "definationTranslation": "Aam ya aashit sthiti",
+      "sentence": [
+        {
+          "sentence": "The average-case scenario for the algorithm is when the input is moderately sized.",
+          "translation": "Algorithm ke liye aam sthiti tab hoti hai jab input madhyam aakaar ka hota hai."
+        },
+        {
+          "sentence": "The team optimized the algorithm for the average-case scenario to improve performance.",
+          "translation": "Team ne aam sthiti ke liye algorithm ko uttamikrit kiya taaki pradarshan sudhar sake."
+        }
+      ]
+    },
+    {
+      "word": "Best-case",
+      "phoneticRespelling": "best-kays",
+      "translation": "Sabse Achhi Sthiti",
+      "definition": "The most favorable or easy situation",
+      "definationTranslation": "Sabse anukul ya aasan sthiti",
+      "sentence": [
+        {
+          "sentence": "The best-case scenario for the algorithm is when the input is extremely small.",
+          "translation": "Algorithm ke liye sabse achhi sthiti tab hoti hai jab input atyadhik chhota hai."
+        },
+        {
+          "sentence": "The team designed the algorithm to take advantage of the best-case scenario.",
+          "translation": "Team ne algorithm ko sabse achhi sthiti ka laabh uthane ke liye design kiya."
+        }
+      ]
+    },
+    {
+      "word": "Asymptotic",
+      "phoneticRespelling": "as-im-toh-tik",
+      "translation": "Aakarshak",
+      "definition": "Relating to the behavior of a function as the input size approaches infinity",
+      "definationTranslation": "Ek function ki vyavhar ka sandarbh jahan input ki maatra anant tak pahunchti hai",
+      "sentence": [
+        {
+          "sentence": "The asymptotic behavior of the algorithm is important for large inputs.",
+          "translation": "Bade input ke liye algorithm ki aakarshak vyavhar mahatvapoorn hai."
+        },
+        {
+          "sentence": "The team studied the asymptotic analysis of the algorithm to understand its performance.",
+          "translation": "Team ne algorithm ki aakarshak vishleshan kiya taaki uski pradarshan ko samajh sake."
+        }
+      ]
+    },
+    {
+      "word": "Complex",
+      "phoneticRespelling": "kum-pleks",
+      "translation": "Jatil",
+      "definition": "Composed of many different and connected parts",
+      "definationTranslation": "Kai alag-alag aur judi hui bhagyon se milkar bani cheez",
+      "sentence": [
+        {
+          "sentence": "The complex algorithm required a lot of computational resources.",
+          "translation": "Jatil algorithm ko bahut saari gananaatmak sansaadhanon ki aavashyakta thi."
+        },
+        {
+          "sentence": "The team struggled to understand the complex relationships between the variables.",
+          "translation": "Team ko chhupaai sankriyaon ke beech jatil sambandhon ko samajhne mein kathinai hui."
+        }
+      ]
+    },
+    {
+      "word": "Heuristic",
+      "phoneticRespelling": "hyoo-ris-tik",
+      "translation": "Anumaanit",
+      "definition": "A method or technique that helps find a solution to a problem",
+      "definationTranslation": "Ek vidhi ya takneek jo ek samasya ka samadhan dhoondhne mein madad karti hai",
+      "sentence": [
+        {
+          "sentence": "The heuristic algorithm provided a near-optimal solution to the problem.",
+          "translation": "Anumaanit algorithm ne samasya ka lagbhag uttam samadhan pradaan kiya."
+        },
+        {
+          "sentence": "The team used a heuristic approach to solve the complex optimization problem.",
+          "translation": "Team ne jatil uttamikaran samasya ko hal karne ke liye anumaanit drishtikon ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Recursion",
+      "phoneticRespelling": "ri-kur-shun",
+      "translation": "Punaravrtti",
+      "definition": "The process of repeating a function or procedure",
+      "definationTranslation": "Ek function ya prakriya ko dohrane ka prakriya",
+      "sentence": [
+        {
+          "sentence": "The recursion in the algorithm helped to solve the problem efficiently.",
+          "translation": "Algorithm mein punaravrtti ne samasya ko kushalta se halne mein madad ki."
+        },
+        {
+          "sentence": "The team used recursion to implement the tree traversal algorithm.",
+          "translation": "Team ne vriksh parvaas algorithm ko lagu karne ke liye punaravrtti ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Dynamic",
+      "phoneticRespelling": "dahy-nam-ik",
+      "translation": "Gatishil",
+      "definition": "Characterized by constant change or progress",
+      "definationTranslation": "Nirantar parivartan ya pragati ke dwara chinhit",
+      "sentence": [
+        {
+          "sentence": "The dynamic programming approach helped to solve the optimization problem.",
+          "translation": "Gatishil programming drishtikon ne uttamikaran samasya ko halne mein madad ki."
+        },
+        {
+          "sentence": "The team used dynamic algorithms to adapt to changing market conditions.",
+          "translation": "Team ne badalte hue baajaar ki sthitiyon ke anusaar gatishil algorithm ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Greedy",
+      "phoneticRespelling": "gree-dee",
+      "translation": "Lalachhi",
+      "definition": "Making the locally optimal choice at each stage",
+      "definationTranslation": "Pratyek charan par sthaaniya roop se uttam chunav karne wala",
+      "sentence": [
+        {
+          "sentence": "The greedy algorithm made the optimal choice at each step.",
+          "translation": "Lalachhi algorithm ne pratyek charan par uttam chunav kiya."
+        },
+        {
+          "sentence": "The team used a greedy approach to solve the optimization problem.",
+          "translation": "Team ne uttamikaran samasya ko halne ke liye lalachhi drishtikon ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "NP-Complete",
+      "phoneticRespelling": "en-pee-kum-pleet",
+      "translation": "NP-Poorn",
+      "definition": "A class of problems that are at least as hard as the hardest problems in NP",
+      "definationTranslation": "Ek samasyaon ki shreni jo NP mein sabse kathin samasyaon se kam se kam utni hi kathin hai",
+      "sentence": [
+        {
+          "sentence": "The NP-complete problem was difficult to solve using traditional algorithms.",
+          "translation": "NP-poorn samasya ko paramparagat algorithm ka upyog karke hal karna mushkil tha."
+        },
+        {
+          "sentence": "The team struggled to find an efficient solution to the NP-complete problem.",
+          "translation": "Team ko NP-poorn samasya ke liye kushal samadhan dhoondhne mein kathinai hui."
+        }
+      ]
+    },
+    {
+      "word": "Approximation",
+      "phoneticRespelling": "uh-prok-suh-may-shun",
+      "translation": "Anumaan",
+      "definition": "An approximate or rough calculation or estimate",
+      "definationTranslation": "Ek anumaanit ya andaaza lagana",
+      "sentence": [
+        {
+          "sentence": "The approximation algorithm provided a close estimate of the optimal solution.",
+          "translation": "Anumaan algorithm ne uttam samadhan ka andaaza lagaya."
+        },
+        {
+          "sentence": "The team used approximation techniques to solve the complex optimization problem.",
+          "translation": "Team ne jatil uttamikaran samasya ko halne ke liye anumaan takneekon ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Polynomial",
+      "phoneticRespelling": "pah-lih-noh-mee-ul",
+      "translation": "Bahupad",
+      "definition": "A mathematical expression consisting of variables and coefficients",
+      "definationTranslation": "Chhapaavon aur gunaakon se milkar bani ganitiya abhivyakti",
+      "sentence": [
+        {
+          "sentence": "The polynomial time complexity of the algorithm made it efficient.",
+          "translation": "Algorithm ki bahupad samay jatilta ke kaaran yeh kushal tha."
+        },
+        {
+          "sentence": "The team used polynomial equations to model the complex system.",
+          "translation": "Team ne jatil pranaali ko mudrit karne ke liye bahupad samikaranon ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Exponential",
+      "phoneticRespelling": "ek-spo-nen-shul",
+      "translation": "Sanklan",
+      "definition": "Increasing or growing at a rapid rate",
+      "definationTranslation": "Tezi se badh raha ya vriddhi kar raha",
+      "sentence": [
+        {
+          "sentence": "The exponential growth of the algorithm's running time made it impractical.",
+          "translation": "Algorithm ke chalne ka samay sanklan vriddhi ke kaaran yeh avyavahaarik ho gaya."
+        },
+        {
+          "sentence": "The team struggled to optimize the exponential time complexity of the algorithm.",
+          "translation": "Team ko algorithm ki sanklan samay jatilta ko uttamikrit karne mein kathinai hui."
+        }
+      ]
+    },
+    {
+      "word": "Logarithmic",
+      "phoneticRespelling": "log-uh-ri-thm-ik",
+      "translation": "Logariddhmiya",
+      "definition": "Relating to or resembling a logarithm",
+      "definationTranslation": "Logariddh par sambandhit ya usi jaisa",
+      "sentence": [
+        {
+          "sentence": "The logarithmic time complexity of the algorithm made it efficient.",
+          "translation": "Algorithm ki logariddhmiya samay jatilta ke kaaran yeh kushal tha."
+        },
+        {
+          "sentence": "The team used logarithmic functions to analyze the system's performance.",
+          "translation": "Team ne pranaali ki pradarshan ka vishleshan karne ke liye logariddhmiya karyaon ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Linear",
+      "phoneticRespelling": "lin-ee-er",
+      "translation": "Rekhiya",
+      "definition": "Relating to or resembling a line",
+      "definationTranslation": "Rekha par sambandhit ya usi jaisa",
+      "sentence": [
+        {
+          "sentence": "The linear time complexity of the algorithm made it efficient.",
+          "translation": "Algorithm ki rekhiya samay jatilta ke kaaran yeh kushal tha."
+        },
+        {
+          "sentence": "The team used linear equations to model the system's behavior.",
+          "translation": "Team ne pranaali ke vyavhar ko mudrit karne ke liye rekhiya samikaranon ka upyog kiya."
+        }
+      ]
+    },
+    {
+      "word": "Quadratic",
+      "phoneticRespelling": "kwod-rat-ik",
+      "translation": "Vargapurn",
+      "definition": "Relating to or resembling a square or a quadratic equation",
+      "definationTranslation": "Varg par sambandhit ya usi jaisa",
+      "sentence": [
+        {
+          "sentence": "The quadratic time complexity of the algorithm made it inefficient.",
+          "translation": "Algorithm ki vargapurn samay jatilta ke kaaran yeh aprabhavi tha."
+        },
+        {
+          "sentence": "The team struggled to optimize the quadratic time complexity of the algorithm.",
+          "translation": "Team ko algorithm ki vargapurn samay jatilta ko uttamikrit karne mein kathinai hui."
+        }
+      ]
+    }
+  ]
+}
