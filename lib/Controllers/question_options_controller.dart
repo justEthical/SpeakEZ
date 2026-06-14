@@ -255,18 +255,18 @@ class QuestionOptionsController extends GetxController {
     }
   }
 
-  void startRecording() {
-    isListeningLessonAnswer.value = true;
-    recorder.startAutoRecording(isFromLesson: true);
-    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
-      if (remainingSeconds.value == 0) {
-        stopRecording();
-        debugPrint("Timer stopped");
-      } else {
-        remainingSeconds.value--;
-      }
-    });
-  }
+  // void startRecording() {
+  //   isListeningLessonAnswer.value = true;
+  //   recorder.startRecording(isFromLesson: true);
+  //   _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+  //     if (remainingSeconds.value == 0) {
+  //       stopRecording();
+  //       debugPrint("Timer stopped");
+  //     } else {
+  //       remainingSeconds.value--;
+  //     }
+  //   });
+  // }
 
   Future<bool> getMicrophonePermission() async {
     final status = await Permission.microphone.status;

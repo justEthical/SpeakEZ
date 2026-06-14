@@ -1,0 +1,430 @@
+{
+  "topic": "Econometric Modeling",
+  "words": [
+    {
+      "word": "Regression",
+      "phoneticRespelling": "ri-GREH-shuhn",
+      "translation": "प्रगति",
+      "definition": "A statistical method used to establish a relationship between two or more variables.",
+      "definationTranslation": "दो या दो से अधिक переменियों के बीच संबंध स्थापित करने के लिए उपयोग की जाने वाली एक सांख्यिकीय विधि",
+      "sentence": [
+        {
+          "sentence": "The researcher used regression analysis to identify the relationship between the variables.",
+          "translation": "शोधकर्ता ने переменियों के बीच संबंध की पहचान करने के लिए प्रगति विश्लेषण का उपयोग किया"
+        },
+        {
+          "sentence": "The company used regression modeling to forecast sales.",
+          "translation": "कंपनी ने बिक्री की भविष्यवाणी करने के लिए प्रगति मॉडलिंग का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Coefficient",
+      "phoneticRespelling": "koh-EE-shee-ent",
+      "translation": "गुणांक",
+      "definition": "A numerical value that represents the change in the dependent variable for a one-unit change in the independent variable.",
+      "definationTranslation": "एक स्वतंत्र переменी में एक इकाई परिवर्तन के लिए निर्भर परिवर्तन में परिवर्तन का प्रतिनिधित्व करने वाला एक संख्यात्मक मान",
+      "sentence": [
+        {
+          "sentence": "The coefficient of determination is used to measure the strength of the relationship.",
+          "translation": "निर्धारण का गुणांक संबंध की ताकत को मापने के लिए उपयोग किया जाता है"
+        },
+        {
+          "sentence": "The coefficient of the variable was significant, indicating a strong relationship.",
+          "translation": "परिवर्तनशील का गुणांक महत्वपूर्ण था, जो एक मजबूत संबंध का संकेत देता है"
+        }
+      ]
+    },
+    {
+      "word": "Correlation",
+      "phoneticRespelling": "koh-reh-LAY-shuhn",
+      "translation": "सहसंबंध",
+      "definition": "A statistical measure that calculates the strength and direction of the relationship between two variables.",
+      "definationTranslation": "एक सांख्यिकीय उपाय जो दो परिवर्तनशीलता के बीच संबंध की ताकत और दिशा की गणना करता है",
+      "sentence": [
+        {
+          "sentence": "The correlation between the two variables was strong and positive.",
+          "translation": "दो परिवर्तनशीलता के बीच सहसंबंध मजबूत और सकारात्मक था"
+        },
+        {
+          "sentence": "The researcher found a negative correlation between the two variables.",
+          "translation": "शोधकर्ता ने दो परिवर्तनशीलता के बीच एक नकारात्मक सहसंबंध पाया"
+        }
+      ]
+    },
+    {
+      "word": "Econometrics",
+      "phoneticRespelling": "eh-kon-uh-MEH-triks",
+      "translation": "अर्थमिति",
+      "definition": "The application of statistical methods to economic data to test hypotheses and estimate relationships.",
+      "definationTranslation": "आर्थिक डेटा का उपयोग करके परिकल्पनाओं की जांच करने और संबंधों का अनुमान लगाने के लिए सांख्यिकीय तरीकों का अनुप्रयोग",
+      "sentence": [
+        {
+          "sentence": "Econometrics is used to analyze the impact of economic policies.",
+          "translation": "अर्थमिति का उपयोग आर्थिक नीतियों के प्रभाव का विश्लेषण करने के लिए किया जाता है"
+        },
+        {
+          "sentence": "The econometrics model was used to forecast economic growth.",
+          "translation": "अर्थमिति मॉडल का उपयोग आर्थिक विकास की भविष्यवाणी करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Endogeneity",
+      "phoneticRespelling": "en-doh-JEH-nuh-tee",
+      "translation": "आंतरिकता",
+      "definition": "The phenomenon where a variable is influenced by other variables in the model, leading to biased estimates.",
+      "definationTranslation": "एक परिवर्तनशील को मॉडल में अन्य परिवर्तनशीलता द्वारा प्रभावित किया जाने की घटना, जिससे पक्षपातपूर्ण अनुमान लगते हैं",
+      "sentence": [
+        {
+          "sentence": "Endogeneity can lead to biased estimates of the regression coefficients.",
+          "translation": "आंतरिकता प्रगति गुणांकों के पक्षपातपूर्ण अनुमानों का कारण बन सकती है"
+        },
+        {
+          "sentence": "The researcher controlled for endogeneity by using instrumental variables.",
+          "translation": "शोधकर्ता ने उपकरणीय परिवर्तनशीलता का उपयोग करके आंतरिकता को नियंत्रित किया"
+        }
+      ]
+    },
+    {
+      "word": "Exogeneity",
+      "phoneticRespelling": "eks-oh-JEH-nuh-tee",
+      "translation": "बाहरीता",
+      "definition": "The phenomenon where a variable is not influenced by other variables in the model.",
+      "definationTranslation": "एक परिवर्तनशील को मॉडल में अन्य परिवर्तनशीलता द्वारा प्रभावित नहीं किया जाने की घटना",
+      "sentence": [
+        {
+          "sentence": "Exogeneity is assumed in many econometric models.",
+          "translation": "बाहरीता को कई अर्थमिति मॉडलों में माना जाता है"
+        },
+        {
+          "sentence": "The researcher tested for exogeneity using a Hausman test.",
+          "translation": "शोधकर्ता ने हाउसमन परीक्षण का उपयोग करके बाहरीता के लिए परीक्षण किया"
+        }
+      ]
+    },
+    {
+      "word": "Heteroscedasticity",
+      "phoneticRespelling": "heh-teh-roh-sked-AS-tih-suh-tee",
+      "translation": "विषमस्थानिकता",
+      "definition": "The phenomenon where the variance of the error term changes across different levels of the independent variable.",
+      "definationTranslation": "एक घटना जहां त्रुटि शब्द का परिवर्तन स्वतंत्र परिवर्तनशील के विभिन्न स्तरों पर बदल जाता है",
+      "sentence": [
+        {
+          "sentence": "Heteroscedasticity can lead to biased estimates of the regression coefficients.",
+          "translation": "विषमस्थानिकता प्रगति गुणांकों के पक्षपातपूर्ण अनुमानों का कारण बन सकती है"
+        },
+        {
+          "sentence": "The researcher used a robust standard error to account for heteroscedasticity.",
+          "translation": "शोधकर्ता ने विषमस्थानिकता के लिए एक मजबूत मानक त्रुटि का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Homoscedasticity",
+      "phoneticRespelling": "hoh-moh-sked-AS-tih-suh-tee",
+      "translation": "समस्थानिकता",
+      "definition": "The phenomenon where the variance of the error term remains constant across different levels of the independent variable.",
+      "definationTranslation": "एक घटना जहां त्रुटि शब्द का परिवर्तन स्वतंत्र परिवर्तनशील के विभिन्न स्तरों पर स्थिर रहता है",
+      "sentence": [
+        {
+          "sentence": "Homoscedasticity is assumed in many econometric models.",
+          "translation": "समस्थानिकता को कई अर्थमिति मॉडलों में माना जाता है"
+        },
+        {
+          "sentence": "The researcher tested for homoscedasticity using a Breusch-Pagan test.",
+          "translation": "शोधकर्ता ने ब्रौश-पागन परीक्षण का उपयोग करके समस्थानिकता के लिए परीक्षण किया"
+        }
+      ]
+    },
+    {
+      "word": "Inference",
+      "phoneticRespelling": "in-FER-uhns",
+      "translation": "अनुमान",
+      "definition": "The process of drawing conclusions from data using statistical methods.",
+      "definationTranslation": "सांख्यिकीय तरीकों का उपयोग करके डेटा से निष्कर्ष निकालने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The researcher used statistical inference to test the hypothesis.",
+          "translation": "शोधकर्ता ने परिकल्पना की जांच के लिए सांख्यिकीय अनुमान का उपयोग किया"
+        },
+        {
+          "sentence": "Inference is a critical component of econometric modeling.",
+          "translation": "अनुमान अर्थमिति मॉडलिंग का एक महत्वपूर्ण घटक है"
+        }
+      ]
+    },
+    {
+      "word": "Instrumental",
+      "phoneticRespelling": "in-struh-MEN-tuhl",
+      "translation": "उपकरणी",
+      "definition": "A variable that is used to identify the causal effect of another variable.",
+      "definationTranslation": "एक परिवर्तनशील जो किसी अन्य परिवर्तनशील के कारणात्मक प्रभाव की पहचान करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The researcher used an instrumental variable to identify the effect of the treatment.",
+          "translation": "शोधकर्ता ने उपचार के प्रभाव की पहचान करने के लिए एक उपकरणी परिवर्तनशील का उपयोग किया"
+        },
+        {
+          "sentence": "Instrumental variables are used to control for endogeneity.",
+          "translation": "उपकरणी परिवर्तनशीलता का उपयोग आंतरिकता को नियंत्रित करने के लिए किया जाता है"
+        }
+      ]
+    },
+    {
+      "word": "Model",
+      "phoneticRespelling": "MAH-dl",
+      "translation": "मॉडल",
+      "definition": "A mathematical representation of a real-world phenomenon.",
+      "definationTranslation": "एक वास्तविक दुनिया की घटना का एक गणितीय प्रतिनिधित्व",
+      "sentence": [
+        {
+          "sentence": "The researcher developed a model to explain the relationship between the variables.",
+          "translation": "शोधकर्ता ने परिवर्तनशीलता के बीच संबंध की व्याख्या करने के लिए एक मॉडल विकसित किया"
+        },
+        {
+          "sentence": "The model was used to forecast economic growth.",
+          "translation": "मॉडल का उपयोग आर्थिक विकास की भविष्यवाणी करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Multicollinearity",
+      "phoneticRespelling": "muhl-tee-koh-lin-EER-uh-tee",
+      "translation": "बहुसंबंधिता",
+      "definition": "The phenomenon where two or more independent variables are highly correlated with each other.",
+      "definationTranslation": "एक घटना जहां दो या दो से अधिक स्वतंत्र परिवर्तनशील एक दूसरे के साथ उच्च संबंधित होती हैं",
+      "sentence": [
+        {
+          "sentence": "Multicollinearity can lead to unstable estimates of the regression coefficients.",
+          "translation": "बहुसंबंधिता प्रगति गुणांकों के अनियमित अनुमानों का कारण बन सकती है"
+        },
+        {
+          "sentence": "The researcher used a variance inflation factor to detect multicollinearity.",
+          "translation": "शोधकर्ता ने बहुसंबंधिता का पता लगाने के लिए एक परिवर्तन सूजन कारक का उपयोग किया"
+        }
+      ]
+    },
+    {
+      "word": "Panel",
+      "phoneticRespelling": "PAN-ul",
+      "translation": "पैनल",
+      "definition": "A type of data that consists of observations over time for a group of individuals or units.",
+      "definationTranslation": "एक प्रकार का डेटा जो एक समूह के व्यक्तियों या इकाइयों के लिए समय के साथ अवलोकनों से बना होता है",
+      "sentence": [
+        {
+          "sentence": "The researcher used a panel data set to analyze the effect of the policy.",
+          "translation": "शोधकर्ता ने नीति के प्रभाव का विश्लेषण करने के लिए एक पैनल डेटा सेट का उपयोग किया"
+        },
+        {
+          "sentence": "Panel data is commonly used in econometrics to study the behavior of individuals or firms over time.",
+          "translation": "पैनल डेटा का सामान्य रूप से अर्थमिति में व्यक्तियों या कंपनियों के व्यवहार का अध्ययन करने के लिए समय के साथ उपयोग किया जाता है"
+        }
+      ]
+    },
+    {
+      "word": "Parameter",
+      "phoneticRespelling": "puh-RAM-uh-tur",
+      "translation": "पैरामीटर",
+      "definition": "A numerical value that is used to describe a population or a model.",
+      "definationTranslation": "एक संख्यात्मक मूल्य जो एक जनसंख्या या एक मॉडल का वर्णन करने के लिए उपयोग किया जाता है",
+      "sentence": [
+        {
+          "sentence": "The parameter was estimated using a maximum likelihood method.",
+          "translation": "पैरामीटर का अनुमान एक अधिकतम संभावना विधि का उपयोग करके लगाया गया था"
+        },
+        {
+          "sentence": "The parameter was used to describe the relationship between the variables.",
+          "translation": "पैरामीटर का उपयोग परिवर्तनशीलता के बीच संबंध का वर्णन करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Regression",
+      "phoneticRespelling": "ri-GREH-shuhn",
+      "translation": "प्रगति",
+      "definition": "A statistical method used to establish a relationship between two or more variables.",
+      "definationTranslation": "दो या दो से अधिक परिवर्तनशीलता के बीच संबंध स्थापित करने के लिए उपयोग की जाने वाली एक सांख्यिकीय विधि",
+      "sentence": [
+        {
+          "sentence": "The researcher used regression analysis to identify the relationship between the variables.",
+          "translation": "शोधकर्ता ने परिवर्तनशीलता के बीच संबंध की पहचान करने के लिए प्रगति विश्लेषण का उपयोग किया"
+        },
+        {
+          "sentence": "Regression is a widely used statistical method in econometrics.",
+          "translation": "प्रगति अर्थमिति में एक व्यापक रूप से उपयोग की जाने वाली सांख्यिकीय विधि है"
+        }
+      ]
+    },
+    {
+      "word": "Residual",
+      "phoneticRespelling": "rih-ZID-yoo-ul",
+      "translation": "अवशिष्ट",
+      "definition": "The difference between the observed value and the predicted value of a variable.",
+      "definationTranslation": "एक परिवर्तनशील के अवलोकित मान और अनुमानित मान के बीच का अंतर",
+      "sentence": [
+        {
+          "sentence": "The residual was used to evaluate the goodness of fit of the model.",
+          "translation": "अवशिष्ट का उपयोग मॉडल के फिट की गुणवत्ता का मूल्यांकन करने के लिए किया गया था"
+        },
+        {
+          "sentence": "The researcher analyzed the residuals to identify any patterns or anomalies.",
+          "translation": "शोधकर्ता ने किसी भी पैटर्न या असामान्यताओं की पहचान करने के लिए अवशेषों का विश्लेषण किया"
+        }
+      ]
+    },
+    {
+      "word": "Specification",
+      "phoneticRespelling": "spes-uh-fee-KAY-shuhn",
+      "translation": "विशिष्टीकरण",
+      "definition": "The process of selecting the variables and functional form of a model.",
+      "definationTranslation": "एक मॉडल के परिवर्तनशीलता और कार्यात्मक रूप का चयन करने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "The researcher used a specification test to evaluate the model.",
+          "translation": "शोधकर्ता ने मॉडल का मूल्यांकन करने के लिए एक विशिष्टीकरण परीक्षण का उपयोग किया"
+        },
+        {
+          "sentence": "Specification is an important step in the model-building process.",
+          "translation": "विशिष्टीकरण मॉडल निर्माण प्रक्रिया में एक महत्वपूर्ण चरण है"
+        }
+      ]
+    },
+    {
+      "word": "Standard",
+      "phoneticRespelling": "STAN-durd",
+      "translation": "मानक",
+      "definition": "A measure of the amount of variation in a set of data.",
+      "definationTranslation": "एक डेटा सेट में परिवर्तन की मात्रा का एक उपाय",
+      "sentence": [
+        {
+          "sentence": "The researcher used the standard deviation to measure the spread of the data.",
+          "translation": "शोधकर्ता ने डेटा के प्रसार को मापने के लिए मानक विचलन का उपयोग किया"
+        },
+        {
+          "sentence": "The standard error was used to construct a confidence interval.",
+          "translation": "मानक त्रुटि का उपयोग एक विश्वास अंतराल का निर्माण करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Statistical",
+      "phoneticRespelling": "stuh-TIS-tih-kul",
+      "translation": "सांख्यिकीय",
+      "definition": "Relating to the collection, analysis, and interpretation of data.",
+      "definationTranslation": "डेटा के संग्रह, विश्लेषण और व्याख्या से संबंधित",
+      "sentence": [
+        {
+          "sentence": "The researcher used statistical methods to analyze the data.",
+          "translation": "शोधकर्ता ने डेटा का विश्लेषण करने के लिए सांख्यिकीय तरीकों का उपयोग किया"
+        },
+        {
+          "sentence": "Statistical inference is a critical component of econometric modeling.",
+          "translation": "सांख्यिकीय अनुमान अर्थमिति मॉडलिंग का एक महत्वपूर्ण घटक है"
+        }
+      ]
+    },
+    {
+      "word": "Time",
+      "phoneticRespelling": "TAHYM",
+      "translation": "समय",
+      "definition": "A measure of the duration of an event or a period.",
+      "definationTranslation": "एक घटना या अवधि की अवधि का एक माप",
+      "sentence": [
+        {
+          "sentence": "The researcher used time series data to analyze the trend.",
+          "translation": "शोधकर्ता ने रुझान का विश्लेषण करने के लिए समय श्रृंखला डेटा का उपयोग किया"
+        },
+        {
+          "sentence": "Time is an important variable in econometric modeling.",
+          "translation": "समय अर्थमिति मॉडलिंग में एक महत्वपूर्ण परिवर्तनशील है"
+        }
+      ]
+    },
+    {
+      "word": "Variable",
+      "phoneticRespelling": "VEER-ee-uh-buhl",
+      "translation": "परिवर्तनशील",
+      "definition": "A characteristic or attribute that can take on different values or levels.",
+      "definationTranslation": "एक विशेषता या गुण जो विभिन्न मानों या स्तरों ले सकता है",
+      "sentence": [
+        {
+          "sentence": "The researcher used a variable to measure the effect of the treatment.",
+          "translation": "शोधकर्ता ने उपचार के प्रभाव को मापने के लिए एक परिवर्तनशील का उपयोग किया"
+        },
+        {
+          "sentence": "The variable was used to control for the effect of the confounding factor.",
+          "translation": "परिवर्तनशील का उपयोग सम्मिश्रण कारक के प्रभाव के लिए नियंत्रित करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Variance",
+      "phoneticRespelling": "VAYR-ee-uhns",
+      "translation": "परिवर्तन",
+      "definition": "A measure of the spread or dispersion of a set of data.",
+      "definationTranslation": "एक डेटा सेट के प्रसार या वितरण का एक उपाय",
+      "sentence": [
+        {
+          "sentence": "The researcher used the variance to measure the spread of the data.",
+          "translation": "शोधकर्ता ने डेटा के प्रसार को मापने के लिए परिवर्तन का उपयोग किया"
+        },
+        {
+          "sentence": "The variance was used to construct a confidence interval.",
+          "translation": "परिवर्तन का उपयोग एक विश्वास अंतराल का निर्माण करने के लिए किया गया था"
+        }
+      ]
+    },
+    {
+      "word": "Autocorrelation",
+      "phoneticRespelling": "aw-toh-kor-uh-LAY-shuhn",
+      "translation": "स्वतःसहसंबंध",
+      "definition": "The correlation of a variable with itself over successive time intervals, commonly found in time-series data.",
+      "definationTranslation": "क्रमिक समय अंतरालों में किसी चर का स्वयं के साथ सहसंबंध, जो आमतौर पर समय-श्रृंखला (टाइम-सीरीज) डेटा में पाया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The presence of autocorrelation in the residuals indicates that the error terms are not independent over time.",
+          "translation": "अवशिष्टों (रेसिड्यूअल्स) में स्वतःसहसंबंध की उपस्थिति यह दर्शाती है कि त्रुटि पद समय के साथ स्वतंत्र नहीं हैं।"
+        },
+        {
+          "sentence": "The Durbin-Watson statistic is commonly used to test for first-order autocorrelation in a regression model.",
+          "translation": "डर्बिन-वाटसन सांख्यिकी का उपयोग आमतौर पर प्रतिगमन (रिग्रेशन) मॉडल में प्रथम-क्रम स्वतःसहसंबंध के परीक्षण के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Stationarity",
+      "phoneticRespelling": "stay-shuhn-AIR-ih-tee",
+      "translation": "स्थिरता",
+      "definition": "A property of a time series where its statistical properties, such as mean and variance, do not change over time.",
+      "definationTranslation": "एक समय श्रृंखला का गुण जहां इसके सांख्यिकीय गुण, जैसे कि माध्य और भिन्नता, समय के साथ नहीं बदलते हैं।",
+      "sentence": [
+        {
+          "sentence": "Before running a time-series regression, engineers must ensure stationarity to avoid spurious results.",
+          "translation": "समय-श्रृंखला प्रतिगमन चलाने से पहले, नकली परिणामों से बचने के लिए इंजीनियरों को स्थिरता सुनिश्चित करनी चाहिए।"
+        },
+        {
+          "sentence": "The Augmented Dickey-Fuller test helps researchers verify the stationarity of their dataset.",
+          "translation": "ऑगमेंटेड डिकी-फुलर परीक्षण शोधकर्ताओं को उनके डेटासेट की स्थिरता को सत्यापित करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cointegration",
+      "phoneticRespelling": "koh-in-tuh-GRAY-shuhn",
+      "translation": "सह-एकत्रीकरण",
+      "definition": "A situation where two or more non-stationary time series share a long-term statistical relationship or common trend.",
+      "definationTranslation": "ऐसी स्थिति जहां दो या दो से अधिक गैर-स्थिर समय श्रृंखलाएं एक दीर्घकालिक सांख्यिकीय संबंध या सामान्य प्रवृत्ति साझा करती हैं।",
+      "sentence": [
+        {
+          "sentence": "Cointegration allows economists to model stable long-run equilibrium relationships between volatile macroeconomic variables.",
+          "translation": "सह-एकत्रीकरण अर्थशास्त्रियों को अस्थिर समष्टि आर्थिक चरों के बीच स्थिर दीर्घकालिक संतुलन संबंधों को मॉडल करने की अनुमति देता है।"
+        },
+        {
+          "sentence": "Even though stock prices appear random, cointegration techniques can reveal if they move together over the long term.",
+          "translation": "भले ही शेयरों की कीमतें यादृच्छिक (रैंडम) दिखाई दें, सह-एकत्रीकरण तकनीक यह प्रकट कर सकती है कि क्या वे दीर्घकालिक रूप से एक साथ चलती हैं।"
+        }
+      ]
+    }
+  ]
+}

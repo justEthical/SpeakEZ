@@ -31,7 +31,7 @@ class PracticeController extends GetxController {
   AudioChunkRecorder? recorder;
 
   var currentUserSessionMessage = 0.obs;
-  var maxNumberOfAiResponsesPerSession = kDebugMode ? 3 : 15;
+  var maxNumberOfAiResponsesPerSession = kDebugMode ? 15 : 15;
   final chatScrollController = ScrollController();
   var isRecordingInProgress = false.obs;
   var isRecordingPaused = false.obs;
@@ -66,12 +66,13 @@ class PracticeController extends GetxController {
   var isMicEnabled = false.obs;
 
   void startRecording() {
+    globalController.transcriptionText.value = "";
     recorder = AudioChunkRecorder();
     _addRecordingChatCell();
     if (globalController.isDeepInfraTranscription.value) {
       recorder?.startRecording(); // normal full 30 second recording
     } else {
-      recorder?.startAutoRecording(); // auto recording with chunks on pauses
+      recorder?.startVADRecording(); // auto recording with chunks on pauses
     }
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (remainingSeconds.value == 0) {

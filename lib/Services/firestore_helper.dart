@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:speak_ez/Models/user_profile.dart';
+import 'package:speak_ez/Models/vocab_topic_progress.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 import 'package:speak_ez/Constants/posthog_events.dart';
 
@@ -103,6 +104,69 @@ class FirestoreHelper {
   }
   return false; 
 }
+
+static Future<Map<String, VocabTopicResult>?> fetchVocabProgress() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) {
+      PostHogService.instance.captureError(
+        PostHogEvents.firebaseError,
+        errorMessage: 'No user is currently signed in.',
+        location: 'FirestoreHelper.fetchVocabProgress',
+      );
+      return null;
+    }
+
+    try {
+      final doc = await FirebaseFirestore.instance
+          .collection('users')
+          .doc(user.uid)
+          .collection('vocabProgress')
+          .doc('data')
+          .get();
+
+      if (doc.exists && doc.data() != null) {
+        final topics = doc.data()!['topics'] as Map<String, dynamic>? ?? {};
+        return topics.map(
+          (key, value) => MapEntry(
+            key,
+            VocabTopicResult.fromMap(value as Map<String, dynamic>),
+          ),
+        );
+      }
+      return null;
+    } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.firebaseError,
+        errorMessage: 'Error fetching vocab progress: $e',
+        location: 'FirestoreHelper.fetchVocabProgress',
+      );
+      return null;
+    }
+  }
+
+  static Future<void> saveVocabTopicResult(
+    String topicKey,
+    VocabTopicResult result,
+  ) async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) {
+      PostHogService.instance.captureError(
+        PostHogEvents.firebaseError,
+        errorMessage: 'No user is currently signed in.',
+        location: 'FirestoreHelper.saveVocabTopicResult',
+      );
+      return;
+    }
+
+    await FirebaseFirestore.instance
+        .collection('users')
+        .doc(user.uid)
+        .collection('vocabProgress')
+        .doc('data')
+        .set({
+      'topics': {topicKey: result.toMap()},
+    }, SetOptions(merge: true));
+  }
 
 static Future<Map?> fetchRemoteConfig()async{
   final doc =

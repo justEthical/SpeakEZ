@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
+import 'package:speak_ez/Constants/category_styles.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/Widgets/scenario_card.dart';
@@ -93,12 +94,18 @@ class ScenariosList extends StatelessWidget {
                               child: Container(
                                 width: 80,
                                 height: 80,
-                                padding: EdgeInsets.all(10),
                                 decoration: BoxDecoration(
-                                  color: Colors.deepPurple.shade200,
-                                  borderRadius: BorderRadius.circular(15),
+                                  color: Colors.white.withValues(alpha: 0.18),
+                                  borderRadius: BorderRadius.circular(20),
+                                  border: Border.all(
+                                    color: Colors.white.withValues(alpha: 0.25),
+                                  ),
                                 ),
-                                child: Image.asset(scenarioModel.assetPath),
+                                child: Icon(
+                                  categoryStyleForTitle(scenarioModel.title).icon,
+                                  color: Colors.white,
+                                  size: 40,
+                                ),
                               ),
                             ),
                             SizedBox(width: 10),

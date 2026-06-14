@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.38+49
+version: 1.1.7+58
 
 environment:
   sdk: ^3.7.2
@@ -114,6 +114,60 @@ flutter:
     - assets/images/practice-tab-icons/
     - assets/images/scenario-icons/
     - assets/audio/
+    - assets/vocabulary_builder/
+    - assets/vocabulary_builder/topics/
+    - assets/vocabulary_builder/content/A1/Everyday_Life/
+    - assets/vocabulary_builder/content/A1/Food_and_Shopping/
+    - assets/vocabulary_builder/content/A1/Places_and_Getting_Around/
+    - assets/vocabulary_builder/content/A1/Work_and_Learning/
+    - assets/vocabulary_builder/content/A1/Communication_and_Leisure/
+    - assets/vocabulary_builder/content/A2/Personal_Life_and_Relationships/
+    - assets/vocabulary_builder/content/A2/Food_and_Shopping/
+    - assets/vocabulary_builder/content/A2/Travel_and_Places/
+    - assets/vocabulary_builder/content/A2/Work_and_Education/
+    - assets/vocabulary_builder/content/A2/Entertainment_and_Leisure/
+    - assets/vocabulary_builder/content/A2/Health_and_Technology/
+    - assets/vocabulary_builder/content/B1/Personal_Development_and_Relationships/
+    - assets/vocabulary_builder/content/B1/Work_and_Career/
+    - assets/vocabulary_builder/content/B1/Education_and_Learning/
+    - assets/vocabulary_builder/content/B1/Travel_and_Culture/
+    - assets/vocabulary_builder/content/B1/Health_and_Lifestyle/
+    - assets/vocabulary_builder/content/B1/Society_and_Current_Issues/
+    - assets/vocabulary_builder/content/B1/Entertainment_and_Media/
+    - assets/vocabulary_builder/content/B2/Professional_Life/
+    - assets/vocabulary_builder/content/B2/Business_and_Workplace_Strategy/
+    - assets/vocabulary_builder/content/B2/Academic_and_Intellectual/
+    - assets/vocabulary_builder/content/B2/Society_and_Politics/
+    - assets/vocabulary_builder/content/B2/Environment_and_Sustainability/
+    - assets/vocabulary_builder/content/B2/Technology_and_Innovation/
+    - assets/vocabulary_builder/content/B2/Health_and_Medicine/
+    - assets/vocabulary_builder/content/B2/Arts_and_Culture/
+    - assets/vocabulary_builder/content/B2/Global_Issues/
+    - assets/vocabulary_builder/content/B2/Personal_Growth_and_Psychology/
+    - assets/vocabulary_builder/content/B2/Media_Studies/
+    - assets/vocabulary_builder/content/B2/Communication_and_Audience_Strategy/
+    - assets/vocabulary_builder/content/C1/Advanced_Professional_Communication/
+    - assets/vocabulary_builder/content/C1/Academic_and_Research/
+    - assets/vocabulary_builder/content/C1/Law_and_Governance/
+    - assets/vocabulary_builder/content/C1/Economics_and_Finance/
+    - assets/vocabulary_builder/content/C1/Science_and_Technology/
+    - assets/vocabulary_builder/content/C1/Philosophy_and_Ethics/
+    - assets/vocabulary_builder/content/C1/Global_Affairs_and_Diplomacy/
+    - assets/vocabulary_builder/content/C1/Media_and_Communication/
+    - assets/vocabulary_builder/content/C1/Arts_Literature_and_Criticism/
+    - assets/vocabulary_builder/content/C1/Environmental_and_Social_Systems/
+    - assets/vocabulary_builder/content/C2/Executive_Leadership_and_Strategy/
+    - assets/vocabulary_builder/content/C2/Advanced_Academic_Discourse/
+    - assets/vocabulary_builder/content/C2/Legal_and_Regulatory_Expertise/
+    - assets/vocabulary_builder/content/C2/Economics_and_Financial_Markets/
+    - assets/vocabulary_builder/content/C2/Advanced_Sciences/
+    - assets/vocabulary_builder/content/C2/Philosophy_and_Intellectual_History/
+    - assets/vocabulary_builder/content/C2/International_Relations_and_Geopolitics/
+    - assets/vocabulary_builder/content/C2/Advanced_Technology_and_Computing/
+    - assets/vocabulary_builder/content/C2/Literary_and_Cultural_Criticism/
+    - assets/vocabulary_builder/content/C2/Medicine_and_Healthcare_Systems/
+    - assets/vocabulary_builder/content/C2/Environmental_Science_and_Policy/
+    - assets/vocabulary_builder/content/C2/Sociology_and_Anthropology/
     - .env
     # - assets/whisper_model/
 

@@ -1,0 +1,393 @@
+Script started on Sat Feb 28 13:30:08 2026
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ]1;~/47/SpeakEZ]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ\[0m[27m[24m[J[01;32m➜  [36mSpeakEZ[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mSpeakEZ[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [Kc[1m[31mc[0m[39m[1m[31mc[1m[31md[0m[39m[0m[32mc[0m[32md[39m[32mc[32md[32m [39m[32mc[32md[39m[39m s[4ms[24m[4ms[4mc[24m[4mc[4mr[24m[4mr[4mi[24m[4mi[4mpts[1m[4m/[0m[24m[4ms[24m[0m[24m [?1l>[?2004l
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hn[1m[31mn[0m[39m[1m[31mn[1m[31mo[0m[39m[1m[31mn[1m[31mo[1m[31md[0m[39m[1m[31md[1m[31me[0m[39m[0m[32mn[0m[32mo[0m[32md[0m[32me[39m[32me[32m [39m[32me[39m[39m 
+[31mOgenerate_vocab_topic.js[0m*     prompt.md                     validate_vocab_json.js                                    
+[Jgenerate_vocab_topic_groq.js  [J[1;36mtest[0m/                         [Jvocab_progress.json           [J                            [A[A[0m[27m[24m[38C[32mnode[39m[K[1Co[4mO[4mgenerate_vocab_topic.js[24m[1m [0m[1m [1m'[0m[31D[39mn[39mo[39md[39me [24mO[24mg[24me[24mn[24me[24mr[24ma[24mt[24me[24m_[24mv[24mo[24mc[24ma[24mb[24m_[24mt[24mo[24mp[24mi[24mc[24m.[24mj[24ms[0m [0m'/Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/ [K[Kccontent/B2/Global_Issues'[A[13C[32mn[32mo[32md[32me[39m [4mO[4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m.[4mj[4ms[24m [33m'[33m/[33mU[33ms[33me[33mr[33ms[33m/[33ma[33ms[33mh[33mo[33mk[33mk[33mu[33mm[33ma[33mr[33m/[33m4[33m7[33m/[33mS[33mp[33me[33ma[33mk[33mE[33mZ[33m/[33ma[33ms[33ms[33me[33mt[33ms[33m/[33mv[33mo[33mc[33ma[33mb[33mu[33ml[33ma[33mr[33my[33m_[33mb[33mu[33mi[33ml[33md[33me[33mr[33m/[33mc[33mo[33mn[33mt[33me[33mn[33mt[33m/[33mB[33m2[33m/[33mG[33ml[33mo[33mb[33ma[33ml[33m_[33mI[33ms[33ms[33mu[33me[33ms[33m'[24m[39m[33ms[24m[39m[39m [33ms[39m[A[116C[8D[P[55C[33mc[33mo[39m[P[22C [A[44C[39m[4m/[39m[4mU[39m[4ms[39m[4me[39m[4mr[39m[4ms[39m[4m/[39m[4ma[39m[4ms[39m[4mh[39m[4mo[39m[4mk[39m[4mk[39m[4mu[39m[4mm[39m[4ma[39m[4mr[39m[4m/[39m[4m4[39m[4m7[39m[4m/[39m[4mS[39m[4mp[39m[4me[39m[4ma[39m[4mk[39m[4mE[39m[4mZ[39m[4m/[39m[4ma[39m[4ms[39m[4ms[39m[4me[39m[4mt[39m[4ms[39m[4m/[39m[4mv[39m[4mo[39m[4mc[39m[4ma[39m[4mb[39m[4mu[39m[4ml[39m[4ma[39m[4mr[39m[4my[39m[4m_[39m[4mb[39m[4mu[39m[4mi[39m[4ml[39m[4md[39m[4me[39m[4mr[39m[4m/[39m[4mc[4mo[39m[4mn[39m[4mt[39m[4me[39m[4mn[39m[4mt[39m[4m/[39m[4mB[39m[4m2[39m[4m/[39m[4mG[39m[4ml[39m[4mo[39m[4mb[39m[4ma[39m[4ml[39m[4m_[39m[4mI[39m[4ms[39m[4ms[39m[4mu[39m[4me[39m[4ms[24m[A[45C[?1l>[?2004l[1B
+[J]2;node Ogenerate_vocab_topic.js ]1;nodeFound 16 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues
+Generating topic "Cultural Globalization" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Cultural_Globalization.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Cultural_Globalization.json (20 words, 47.28s)
+Generating topic "Development Aid" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Development_Aid.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Development_Aid.json (20 words, 42.65s)
+Generating topic "Digital Divide" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Digital_Divide.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Digital_Divide.json (20 words, 31.16s)
+Generating topic "Energy Security" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Energy_Security.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Energy_Security.json (19 words, 38.70s)
+Generating topic "Food Security" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Food_Security.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Food_Security.json (20 words, 34.55s)
+Generating topic "Global Economy" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Economy.json
+NLP Cloud request failed (429): Rate limit: maximum number of requests per hour reached. Please contact support to learn how to increase this limit (if you are on the free plan, we encourage you to subscribe to the pay-as-you-go plan which provides a much higher throughput and many free requests). You can change your plan here: https://nlpcloud.com/home/plans.
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hGGlobal Economy[14D[7mG[7ml[7mo[7mb[7ma[7ml[7m [7mE[7mc[7mo[7mn[7mo[7mm[7my[27m[14D[27mG[27ml[27mo[27mb[27ma[27ml[27m [27mE[27mc[27mo[27mn[27mo[27mm[27my [13D[1m[31mG[1m[31ml[1m[31mo[1m[31mb[1m[31ma[1m[31ml[0m[39m[7C      [1m[31ma[0m[39m[0m[39m [1m[31mb[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [1m[31mG[1m[31ml[0m[39m[0m[39m [1m[31mG[0m[39m[0m[39m [0m[39m g[32mg[39m[39mg
+zsh: do you wish to see all 315 possibilities (63 lines)? n[J[A[0m[27m[24m[38Cg[KgOB[1m[31mg[1m[31mO[1m[31mB[0m[39m[1m[31mg[1m[31mO[0m[39m[0m[39m [1m[31mg[0m[39m[0m[39m [0m[32mg[39m[39m g[32mg[39m[32mg[32me[39m[1m[31mg[1m[31me[0m[39m[1m[31mg[1m[31me[1m[31mn[0m[39m[1m[31mn[1m[31me[0m[39m[0m[39mg[0m[39me[0m[39mn[0m[39mera[1m[31mg[1m[31me[1m[31mn[1m[31me[1m[31mr[1m[31ma[0m[39m[1m[31mr[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mn[0m[39m[0m[39m [1m[31mg[1m[31me[0m[39m[0m[39m [1m[31mg[0m[39m[0m[39m [0m[32mg[39m[39m l[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+[J]2;ls -G]1;ls[31mOgenerate_vocab_topic.js[39;49m[0m     prompt.md                    validate_vocab_json.js
+generate_vocab_topic_groq.js [1m[36mtest[39;49m[0m                         vocab_progress.json
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hn[1m[31mn[0m[39m[1m[31mn[0m[39m[90mode Ogenerate_vocab_topic.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/c[90mo[90mntent/B2/Global_Issues[39m[K[A[16C[1m[31mn[1m[31mo[0m[39m[1m[31mn[1m[31mo[1m[31md[0m[39m[1m[31md[1m[31me[0m[39m[0m[32mn[0m[32mo[0m[32md[0m[32me[39m[32me[32m [39m[32me[39m[39m [39mg[K[1B[K[A[44C[4mg[24m[4mg[4me[24m[4me[4mn[24m[4mn[4merate_vocab_topic_groq.js[24m[1m [0m[1m [1m'[0m[35D[39mn[39mo[39md[39me [24mg[24me[24mn[24me[24mr[24ma[24mt[24me[24m_[24mv[24mo[24mc[24ma[24mb[24m_[24mt[24mo[24mp[24mi[24mc[24m_[24mg[24mr[24mo[24mq[24m.[24mj[24ms[0m [0m'/Users/ashokkumar/47/SpeakEZ/assets/vocabulary_buil [K[Kdder/content/B2/Global_Issues'[A[9C[32mn[32mo[32md[32me[39m [4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m_[4mg[4mr[4mo[4mq[4m.[4mj[4ms[24m [33m'[33m/[33mU[33ms[33me[33mr[33ms[33m/[33ma[33ms[33mh[33mo[33mk[33mk[33mu[33mm[33ma[33mr[33m/[33m4[33m7[33m/[33mS[33mp[33me[33ma[33mk[33mE[33mZ[33m/[33ma[33ms[33ms[33me[33mt[33ms[33m/[33mv[33mo[33mc[33ma[33mb[33mu[33ml[33ma[33mr[33my[33m_[33mb[33mu[33mi[33ml[33md[33me[33mr[33m/[33mc[33mo[33mn[33mt[33me[33mn[33mt[33m/[33mB[33m2[33m/[33mG[33ml[33mo[33mb[33ma[33ml[33m_[33mI[33ms[33ms[33mu[33me[33ms[33m'[24m[39m[33ms[24m[39m[39m [33ms[39m[A[123C[8D[11D[P[51C[33md[33me[39m[P[26C [A[44C[39m[4m/[39m[4mU[39m[4ms[39m[4me[39m[4mr[39m[4ms[39m[4m/[39m[4ma[39m[4ms[39m[4mh[39m[4mo[39m[4mk[39m[4mk[39m[4mu[39m[4mm[39m[4ma[39m[4mr[39m[4m/[39m[4m4[39m[4m7[39m[4m/[39m[4mS[39m[4mp[39m[4me[39m[4ma[39m[4mk[39m[4mE[39m[4mZ[39m[4m/[39m[4ma[39m[4ms[39m[4ms[39m[4me[39m[4mt[39m[4ms[39m[4m/[39m[4mv[39m[4mo[39m[4mc[39m[4ma[39m[4mb[39m[4mu[39m[4ml[39m[4ma[39m[4mr[39m[4my[39m[4m_[39m[4mb[39m[4mu[39m[4mi[39m[4ml[39m[4md[4me[39m[4mr[39m[4m/[39m[4mc[39m[4mo[39m[4mn[39m[4mt[39m[4me[39m[4mn[39m[4mt[39m[4m/[39m[4mB[39m[4m2[39m[4m/[39m[4mG[39m[4ml[39m[4mo[39m[4mb[39m[4ma[39m[4ml[39m[4m_[39m[4mI[39m[4ms[39m[4ms[39m[4mu[39m[4me[39m[4ms[24m[A[45C[?1l>[?2004l[1B
+]2;node generate_vocab_topic_groq.js ]1;nodeFound 16 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Cultural_Globalization.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Development_Aid.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Digital_Divide.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Energy_Security.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Food_Security.json (has 346 lines, limit is 10).
+Generating topic "Global Economy" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Economy.json
+Sleeping 31s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Economy.json (22 words, 12.68s)
+Generating topic "Global Education" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Education.json
+Sleeping 50s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Education.json (20 words, 9.78s)
+Generating topic "Global Health Crises" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Health_Crises.json
+Sleeping 33s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Health_Crises.json (19 words, 7.54s)
+Generating topic "Humanitarian Response" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Humanitarian_Response.json
+Sleeping 46s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Humanitarian_Response.json (20 words, 8.48s)
+Generating topic "International Cooperation" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/International_Cooperation.json
+Sleeping 51s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/International_Cooperation.json (19 words, 11.97s)
+Generating topic "International Trade" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/International_Trade.json
+Sleeping 32s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/International_Trade.json (18 words, 10.18s)
+Generating topic "Peace and Conflict" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Peace_and_Conflict.json
+Sleeping 42s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Peace_and_Conflict.json (21 words, 10.73s)
+Generating topic "Population Trends" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Population_Trends.json
+Sleeping 45s before API request...
+Model response was not valid JSON:
+{
+  "topic": "Population Trends",
+  "words": [
+    {
+      "word": "Demography",
+      "phoneticRespelling": "de-MAH-gruh-fee",
+      "translation": "Janasankhyaki",
+      "definition": "The study of the characteristics of a population",
+      "definationTranslation": "Ek janasanakhya ki visheshtao ka adhyayan",
+      "sentence": [
+        {"sentence": "Demography is a key factor in understanding population trends.", "translation": "Janasankhyaki janasanakhya ke rujhanon ko samajhne mein ek mahatvapoorn kark hai."},
+        {"sentence": "The demography of a country can affect its economic growth.", "translation": "Ek desh ki janasankhyaki uski aarthik vridhi ko prabhavit kar sakti hai."}
+      ]
+    },
+    {
+      "word": "Urbanization",
+      "phoneticRespelling": "ur-buh-ni-ZAY-shun",
+      "translation": "Shaharikaran",
+      "definition": "The process of people moving from rural areas to cities",
+      "definationTranslation": "Gaon se shaharon mein logon ki gatividhi ka prakriya",
+      "sentence": [
+        {"sentence": "Urbanization is a major contributor to population growth in cities.", "translation": "Shaharikaran shaharon mein janasanakhya vridhi ka ek bada yogdan hai."},
+        {"sentence": "The government is working to reduce the effects of urbanization on rural areas.", "translation": "Sarkar gaaon ke kshetron par shaharikaran ke prabhaav ko kam karne ke liye kaam kar rahi hai."}
+    ],
+    {
+      "word": "Migration",
+      "phoneticRespelling": "my-GREY-shun",
+      "translation": "Pravas",
+      "definition": "The movement of people from one place to another",
+      "definationTranslation": "Ek sthan se doosre sthan par logon ki gatividhi",
+      "sentence": [
+        {"sentence": "Migration can have a significant impact on population trends.", "translation": "Pravas janasanakhya ke rujhanon par mahatvapoorn prabhaav daal sakta hai."},
+        {"sentence": "The country is seeing a large influx of migrants from neighboring countries.", "translation": "Deskh ke padosi deshon se pravasiyon ka bada pravah dekh raha hai."}
+      ]
+    },
+    {
+      "word": "Fertility",
+      "phoneticRespelling": "fur-TIL-i-tee",
+      "translation": "Utpaadakta",
+      "definition": "The ability to produce offspring",
+      "definationTranslation": "Sanatan karne ki kshamata",
+      "sentence": [
+        {"sentence": "Fertility rates are declining in many developed countries.", "translation": "Kai viksit deshon mein utpaadakta dar gir rahi hai."},
+        {"sentence": "The government is working to increase fertility rates through various policies.", "translation": "Sarkar vibhinn nitiyon ke madhyam se utpaadakta dar badhane ke liye kaam kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Mortality",
+      "phoneticRespelling": "mor-TAL-i-tee",
+      "translation": "Mrityudar",
+      "definition": "The number of deaths in a population",
+      "definationTranslation": "Ek janasanakhya mein mrityuon ki sankhya",
+      "sentence": [
+        {"sentence": "Mortality rates are declining in many countries due to advances in medicine.", "translation": "Kai deshon mein mrityudar dava mein pragati ke kaaran gir raha hai."},
+        {"sentence": "The country is working to reduce mortality rates through better healthcare.", "translation": "Deskh behtar swasthya seva ke madhyam se mrityudar ko kam karne ke liye kaam kar raha hai."}
+      ]
+    },
+    {
+      "word": "Population",
+      "phoneticRespelling": "pop-yoo-LAY-shun",
+      "translation": "Janasanakhya",
+      "definition": "The total number of people living in a particular area",
+      "definationTranslation": "Ek vishisht kshetra mein rehne vaale logon ki kul sankhya",
+      "sentence": [
+        {"sentence": "The population of the city is growing rapidly.", "translation": "Shahar ki janasanakhya tezee se badh rahi hai."},
+        {"sentence": "The country is working to control its population growth.", "translation": "Deskh apni janasanakhya vridhi ko niyantrit karne ke liye kaam kar raha hai."}
+      ]
+    },
+    {
+      "word": "Growth",
+      "phoneticRespelling": "GROH-th",
+      "translation": "Vridhi",
+      "definition": "An increase in size or amount",
+      "definationTranslation": "Aakar ya maatra mein vriddhi",
+      "sentence": [
+        {"sentence": "The population growth of the country is a major concern.", "translation": "Deskh ki janasanakhya vridhi ek bada chintajanak hai."},
+        {"sentence": "The company is experiencing rapid growth in the market.", "translation": "Company bazaar mein tezee se vridhi ka anubhav kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Decline",
+      "phoneticRespelling": "di-KLAYN",
+      "translation": "Patana",
+      "definition": "A decrease in size or amount",
+      "definationTranslation": "Aakar ya maatra mein kami",
+      "sentence": [
+        {"sentence": "The population decline in the city is a cause for concern.", "translation": "Shahar mein janasanakhya ki kami ek chintajanak kaaran hai."},
+        {"sentence": "The company is experiencing a decline in sales.", "translation": "Company bikri mein kami ka anubhav kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Stabilization",
+      "phoneticRespelling": "stay-buh-li-ZAY-shun",
+      "translation": "Sthirikaran",
+      "definition": "The process of becoming stable",
+      "definationTranslation": "Sthir ho jaane ka prakriya",
+      "sentence": [
+        {"sentence": "The population stabilization of the country is a major goal.", "translation": "Deskh ki janasanakhya sthirikaran ek bada lakshya hai."},
+        {"sentence": "The company is working towards stabilization of its finances.", "translation": "Company apne vittion ka sthirikaran ke liye kaam kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Projection",
+      "phoneticRespelling": "proh-JEK-shun",
+      "translation": "Anuman",
+      "definition": "An estimate of what may happen in the future",
+      "definationTranslation": "Bhavishya mein kya ho sakta hai, uska anuman",
+      "sentence": [
+        {"sentence": "The population projection of the country is a useful tool for planning.", "translation": "Deskh ki janasanakhya anuman yojana banane ke liye upyogi hai."},
+        {"sentence": "The company is using population projection to predict future trends.", "translation": "Company bhavishya ke rujhanon ko anuman karne ke liye janasanakhya anuman ka upyog kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Forecast",
+      "phoneticRespelling": "fore-KAST",
+      "translation": "Bhavishyavani",
+      "definition": "A prediction of what will happen in the future",
+      "definationTranslation": "Bhavishya mein kya hoga, uski bhavishyavani",
+      "sentence": [
+        {"sentence": "The population forecast of the country is a useful tool for policymakers.", "translation": "Deskh ki janasanakhya bhavishyavani niti nirmataon ke liye upyogi hai."},
+        {"sentence": "The company is using population forecast to plan for future growth.", "translation": "Company bhavishya ke vridhi ke liye yojana banane ke liye janasanakhya bhavishyavani ka upyog kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Trend",
+      "phoneticRespelling": "TREND",
+      "translation": "Rujhan",
+      "definition": "A general direction or pattern",
+      "definationTranslation": "Ek samanya disha ya pattern",
+      "sentence": [
+        {"sentence": "The population trend of the country is a major concern.", "translation": "Deskh ki janasanakhya rujhan ek bada chintajanak hai."},
+        {"sentence": "The company is analyzing population trends to predict future growth.", "translation": "Company bhavishya ke vridhi ko anuman karne ke liye janasanakhya rujhan ka vishleshan kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Demographer",
+      "phoneticRespelling": "de-MAH-gruh-fer",
+      "translation": "Janasankhyaki Visheshagya",
+      "definition": "A person who studies population trends",
+      "definationTranslation": "Ek vyakti jo janasanakhya ke rujhanon ka adhyayan karta hai",
+      "sentence": [
+        {"sentence": "The demographer is studying the population trends of the country.", "translation": "Janasankhyaki Visheshagya desh ki janasanakhya rujhanon ka adhyayan kar raha hai."},
+        {"sentence": "The company has hired a demographer to analyze population data.", "translation": "Company ne janasanakhya data ka vishleshan karne ke liye ek janasankhyaki visheshagya ko niyukt kiya hai."}
+      ]
+    },
+    {
+      "word": "Census",
+      "phoneticRespelling": "SEN-sus",
+      "translation": "Janaganana",
+      "definition": "An official count of the population",
+      "definationTranslation": "Janasanakhya ki aadhikarik ganana",
+      "sentence": [
+        {"sentence": "The country is conducting a census to gather population data.", "translation": "Deskh janasanakhya data ikattha karne ke liye ek janaganana ka aayojan kar raha hai."},
+        {"sentence": "The census is an important tool for policymakers.", "translation": "Janaganana niti nirmataon ke liye ek mahatvapoorn upkaran hai."}
+      ]
+    },
+    {
+      "word": "Survey",
+      "phoneticRespelling": "SUR-vey",
+      "translation": "Sarvekshan",
+      "definition": "A systematic gathering of data",
+      "definationTranslation": "Data ka vyavasthit roop se ikattha karna",
+      "sentence": [
+        {"sentence": "The company is conducting a survey to gather population data.", "translation": "Company janasanakhya data ikattha karne ke liye ek sarvekshan ka aayojan kar rahi hai."},
+        {"sentence": "The survey is an important tool for understanding population trends.", "translation": "Sarvekshan janasanakhya rujhanon ko samajhne ke liye ek mahatvapoorn upkaran hai."}
+      ]
+    },
+    {
+      "word": "Statistics",
+      "phoneticRespelling": "stuh-TIS-tiks",
+      "translation": "Sankhyaki",
+      "definition": "The study of the collection and analysis of data",
+      "definationTranslation": "Data ka sangrah aur vishleshan ka adhyayan",
+      "sentence": [
+        {"sentence": "The statistics of the population are an important tool for policymakers.", "translation": "Janasanakhya ki sankhyaki niti nirmataon ke liye ek mahatvapoorn upkaran hai."},
+        {"sentence": "The company is using statistics to analyze population trends.", "translation": "Company janasanakhya rujhanon ka vishleshan karne ke liye sankhyaki ka upyog kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Analysis",
+      "phoneticRespelling": "uh-NAL-uh-sis",
+      "translation": "Vishleshan",
+      "definition": "The process of examining data to understand patterns",
+      "definationTranslation": "Data ka parikshan karke patternon ko samajhne ka prakriya",
+      "sentence": [
+        {"sentence": "The analysis of population data is an important tool for policymakers.", "translation": "Janasanakhya data ka vishleshan niti nirmataon ke liye ek mahatvapoorn upkaran hai."},
+        {"sentence": "The company is using analysis to understand population trends.", "translation": "Company janasanakhya rujhanon ko samajhne ke liye vishleshan ka upyog kar rahi hai."}
+      ]
+    },
+    {
+      "word": "Data",
+      "phoneticRespelling": "DAY-tah",
+      "translation": "Data",
+      "definition": "Facts and figures collected for analysis",
+      "definationTranslation": "Vishleshan ke liye ikattha kiye gaye tathya aur aankade",
+      "sentence": [
+        {"sentence": "The data on population trends is an important tool for policymakers.", "translation": "Janasanakhya rujhanon ke data niti nirmataon ke liye ek mahatvapoorn upkaran hai."},
+        {"sentence": "The company is collecting data on population trends to predict future growth.", "translation": "Company bhavishya ke vridhi ko anuman karne ke liye janasanakhya rujhanon ke data ka sangrah kar rahi hai."}
+      ]
+    }
+  ]
+}
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hnode generate_vocab_topic_groq.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues[K[A[11C[32mn[32mo[32md[32me[39m [4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m_[4mg[4mr[4mo[4mq[4m.[4mj[4ms[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mG[4ml[4mo[4mb[4ma[4ml[4m_[4mI[4ms[4ms[4mu[4me[4ms[24m[?1l>[?2004l
+]2;node generate_vocab_topic_groq.js ]1;nodeFound 16 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Cultural_Globalization.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Development_Aid.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Digital_Divide.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Energy_Security.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Food_Security.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Economy.json (has 380 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Education.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Global_Health_Crises.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Humanitarian_Response.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/International_Cooperation.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/International_Trade.json (has 312 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Peace_and_Conflict.json (has 363 lines, limit is 10).
+Generating topic "Population Trends" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Population_Trends.json
+Sleeping 59s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Population_Trends.json (18 words, 10.73s)
+Generating topic "Poverty and Inequality" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Poverty_and_Inequality.json
+Sleeping 37s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Poverty_and_Inequality.json (19 words, 8.08s)
+Generating topic "Refugees and Migration" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Refugees_and_Migration.json
+Sleeping 35s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Refugees_and_Migration.json (20 words, 10.52s)
+Generating topic "Supply Chain Disruptions" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Supply_Chain_Disruptions.json
+Sleeping 31s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Global_Issues/Supply_Chain_Disruptions.json (20 words, 9.76s)
+Total elapsed: 201.12s
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hg[32mg[39m[32mg[32me[39m[1m[31mg[1m[31me[0m[39m[1m[31mg[0m[39m[0m[39m [0m[32mg[39m[39m n[1m[31mn[0m[39m[1m[31mn[0m[39m[90mode generate_vocab_topic_groq.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_build[90me[90mr/content/B2/Global_Issues[39m[K[A[12C[1m[31mn[1m[31mo[0m[39m[1m[31mn[1m[31mo[1m[31md[0m[39m[1m[31md[1m[31me[0m[39m[0m[32mn[0m[32mo[0m[32md[0m[32me[39m[32me[32m [39m[32me[39m[39m [39mg[4mg[24m[4mg[39m[4me[24m[4me[39m[4mn[24m[4mn[39m[4me[39m[4mr[39m[4ma[39m[4mt[39m[4me[39m[4m_[39m[4mv[39m[4mo[39m[4mc[39m[4ma[39m[4mb[39m[4m_[39m[4mt[39m[4mo[39m[4mp[39m[4mi[39m[4mc[39m[4m_[39m[4mg[39m[4mr[39m[4mo[39m[4mq[39m[4m.[39m[4mj[39m[4ms[24m[39m[1m [0m[39m/[39mU[39ms[39me[39mr[39ms[39m/[39ma[39ms[39mh[39mo[39mk[39mk[39mu[39mm[39ma[39mr[39m/[39m4[39m7[39m/[39mS[39mp[39me[39ma[39mk[39mE[39mZ[39m/[39ma[39ms[39ms[39me[39mt[39ms[39m/[39mv[39mo[39mc[39ma[39mb[39mu[39ml[39ma[39mr[39my[39m_[39mb[39mu[39mi[39ml[39mde[39mr[39m/[39mc[39mo[39mn[39mt[39me[39mn[39mt[39m/[39mB[39m2[39m/[39mG[39ml[39mo[39mb[39ma[39ml[39m_[39mI[39ms[39ms[39mu[39me[39ms[A[44C[0m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mG[4ml[4mo[4mb[4ma[4ml[4m_[4mI[4ms[4ms[4mu[4me[4ms[24m[4me[24m[24m [90ms[39m[4mu[24m[24m [39m [90mes[39m[4ms[24m[24m [39m [39m [90mues[39m[4ms[24m[24m [39m [39m [39m [90msues[39m[4mI[24m[24m [39m [39m [39m [39m [90mssues[39m[4m_[24m[24m [39m [39m [39m [39m [39m [90mIssues[39m[4ml[24m[24m [39m [39m [39m [39m [39m [39m [90m_Issues[39m[4ma[24m[24m [39m [39m [39m [39m [39m [39m [39m [8D[90ml_Issues[39m[8D[4mb[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [9D[90mal_Issues[39m[9D[4mo[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90mbal_Issues[39m[10D[4ml[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mobal_Issues[39m[11D[4mG[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90mlobal_Issues[39m[12D[4m/[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90mGlobal_Issues[39m[13D[4m/[39m[4mH[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[4mH[4me[24m[4me[4ma[24m[4ma[4mlth_and_Medicine[1m[4m/[0m[24m[4me[24m[0m[24m [?1l>[?2004l
+]2;node generate_vocab_topic_groq.js ]1;nodeFound 16 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine
+Generating topic "Chronic Illness" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Chronic_Illness.json
+Sleeping 34s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Chronic_Illness.json (19 words, 11.54s)
+Generating topic "Emergency Care" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Emergency_Care.json
+Sleeping 52s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Emergency_Care.json (21 words, 9.11s)
+Generating topic "Global Health" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Global_Health.json
+Sleeping 44s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Global_Health.json (18 words, 10.48s)
+Generating topic "Health Insurance" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Health_Insurance.json
+Sleeping 34s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Health_Insurance.json (20 words, 9.66s)
+Generating topic "Healthcare Systems" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Healthcare_Systems.json
+Sleeping 60s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Healthcare_Systems.json (20 words, 8.17s)
+Generating topic "Medical Ethics" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Ethics.json
+Sleeping 58s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Ethics.json (20 words, 10.63s)
+Generating topic "Medical Research" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Research.json
+Sleeping 32s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Research.json (20 words, 9.91s)
+Generating topic "Medical Treatments" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Treatments.json
+Sleeping 30s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Treatments.json (19 words, 10.19s)
+Generating topic "Mental Health Awareness" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Mental_Health_Awareness.json
+Sleeping 52s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Mental_Health_Awareness.json (20 words, 9.14s)
+Generating topic "Nutrition Science" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Nutrition_Science.json
+Sleeping 36s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Nutrition_Science.json (23 words, 10.88s)
+Generating topic "Patient Communication" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Patient_Communication.json
+Sleeping 31s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Patient_Communication.json (24 words, 11.12s)
+Generating topic "Pharmaceuticals" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Pharmaceuticals.json
+Sleeping 43s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Pharmaceuticals.json (19 words, 8.88s)
+Generating topic "Preventive Medicine" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Preventive_Medicine.json
+Sleeping 50s before API request...
+Groq request failed (429): {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k38v38dnee5tw9t62z1kcd7m` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99943, Requested 230. Please try again in 2m29.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hnode generate_vocab_topic_groq.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine[K[A[5C[32mn[32mo[32md[32me[39m [4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m_[4mg[4mr[4mo[4mq[4m.[4mj[4ms[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mH[4me[4ma[4ml[4mt[4mh[4m_[4ma[4mn[4md[4m_[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[?1l>[?2004l
+]2;node generate_vocab_topic_groq.js ]1;nodeFound 16 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Chronic_Illness.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Emergency_Care.json (has 363 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Global_Health.json (has 312 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Health_Insurance.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Healthcare_Systems.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Ethics.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Research.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Treatments.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Mental_Health_Awareness.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Nutrition_Science.json (has 397 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Patient_Communication.json (has 414 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Pharmaceuticals.json (has 329 lines, limit is 10).
+Generating topic "Preventive Medicine" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Preventive_Medicine.json
+Sleeping 49s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Preventive_Medicine.json (22 words, 10.91s)
+Generating topic "Public Health" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Public_Health.json
+Sleeping 35s before API request...
+Groq request failed (429): {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k38v38dnee5tw9t62z1kcd7m` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99960, Requested 228. Please try again in 2m42.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hnode generate_vocab_topic_groq.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine[K[A[5C[32mn[32mo[32md[32me[39m [4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m_[4mg[4mr[4mo[4mq[4m.[4mj[4ms[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mH[4me[4ma[4ml[4mt[4mh[4m_[4ma[4mn[4md[4m_[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[1C[8D[A[116C[11D[8D[11D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[4mj[24m[P[53C[4me[4mr[24m[P[31C [A[37C[27D[24mg[24me[24mn[24me[24mr[24ma[24mt[24me[24m_[24mv[24mo[24mc[24ma[24mb[24m_[24mt[24mo[24mp[24mi[24mc[24m_[24mg[24mr[24mo[24mq[24m.[24mj[P[54C[4mr[4m/[24m[P[30C [A[37C[P[55C[4m/[4mc[24m[P[29C [A[37C[P[56C[4mc[4mo[24m[P[28C [A[37C[P[57C[4mo[4mn[24m[P[27C [A[37C[P[58C[4mn[4mt[24m[P[26C [A[37C[P[59C[4mt[4me[24m[P[25C [A[37C[P[60C[4me[4mn[24m[P[24C [A[37C[P[61C[4mn[4mt[24m[P[23C [A[37C[P[62C[4mt[4m/[24m[P[22C [A[37C[P[63C[4m/[4mB[24m[P[21C [A[37C[P[64C[4mB[4m2[24m[P[20C [A[37C[P[65C[4m2[4m/[24m[P[19C [A[37C[P[66C[4m/[4mH[24m[P[18C [A[37C[P[67C[4mH[4me[24m[P[17C [A[37C[P[68C[4me[4ma[24m[P[16C [A[37C[P[69C[4ma[4ml[24m[P[15C [A[37C[P[70C[4ml[4mt[24m[P[14C [A[37C[P[71C[4mt[4mh[24m[P[13C [A[37C[P[72C[4mh[4m_[24m[P[12C [A[37C[P[73C[4m_[4ma[24m[P[11C [A[37C[P[74C[4ma[4mn[24m[P[10C [A[37C[P[75C[4mn[4md[24m[P[9C [A[37C[P[76C[4md[4m_[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[24m [A[37C[P[77C[4m_[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[24m [A[37C[P[78C[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[24m [A[37C[P[79C[4me[4md[4mi[4mc[4mi[4mn[4me[24m[24m [A[37C[P[80C[4md[4mi[4mc[4mi[4mn[4me[24m[24m [A[37Co[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mH[4me[4ma[4ml[4mt[4mh[4m_[4ma[4mn[4md[4m_[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[A[38C[4mO[4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m.[4mj[4ms[24m[24m[1m [0m[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt/B2/Health_and_Medicine[24m[A[38C[P[56C[4mc[4mo[24m[P[28C [A[37C[?1l>[?2004l[1B
+]2;node Ogenerate_vocab_topic.js ]1;nodeFound 16 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Chronic_Illness.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Emergency_Care.json (has 363 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Global_Health.json (has 312 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Health_Insurance.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Healthcare_Systems.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Ethics.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Research.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Medical_Treatments.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Mental_Health_Awareness.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Nutrition_Science.json (has 397 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Patient_Communication.json (has 414 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Pharmaceuticals.json (has 329 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Preventive_Medicine.json (has 380 lines, limit is 10).
+Generating topic "Public Health" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Public_Health.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Public_Health.json (20 words, 38.73s)
+Generating topic "Rehabilitation" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Rehabilitation.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Rehabilitation.json (20 words, 32.66s)
+Generating topic "Telemedicine" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Telemedicine.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine/Telemedicine.json (20 words, 33.06s)
+Total elapsed: 104.46s
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hnode Ogenerate_vocab_topic.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Health_and_Medicine[K[A[9C[32mn[32mo[32md[32me[39m [4mO[4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m.[4mj[4ms[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mH[4me[4ma[4ml[4mt[4mh[4m_[4ma[4mn[4md[4m_[4mM[4me[4md[4mi[4mc[4mi[4mn[4me[24m[4mn[24m[24m [90me[39m[4mi[24m[24m [39m [90mne[39m[4mc[24m[24m [39m [39m [90mine[39m[4mi[24m[24m [39m [39m [39m [90mcine[39m[4md[24m[24m [39m [39m [39m [39m [90micine[39m[4me[24m[24m [39m [39m [39m [39m [39m [90mdicine[39m[4mM[24m[24m [39m [39m [39m [39m [39m [39m [90medicine[39m[4m_[24m[24m [39m [39m [39m [39m [39m [39m [39m [8D[90mMedicine[39m[8D[4md[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m_Medicine[39m[9D[4mn[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90md_Medicine[39m[10D[4ma[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mnd_Medicine[39m[11D[4m_[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90mand_Medicine[39m[12D[4mh[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90m_and_Medicine[39m[13D[4mt[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90mh_and_Medicine[39m[14D[4ml[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[90mth_and_Medicine[39m[15D[4ma[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[90mlth_and_Medicine[39m[16D[4me[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[90malth_and_Medicine[39m[17D[4mH[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90mealth_and_Medicine[39m[18D[4m/[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90mHealth_and_Medicine[39m[19D[4m/[39m[4mM[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[4mM[4me[24m[4me[4mdia_Studies[1m[4m/[0m[24m[4ms[24m[0m[24m [?1l>[?2004l
+]2;node Ogenerate_vocab_topic.js ]1;nodeFound 8 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies
+Generating topic "Advertising Strategies" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Advertising_Strategies.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Advertising_Strategies.json (20 words, 36.45s)
+Generating topic "Content Creation" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Content_Creation.json
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Content_Creation.json (20 words, 34.79s)
+Generating topic "Digital Journalism" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Digital_Journalism.json
+NLP Cloud request failed (429): Rate limit: maximum number of requests per hour reached. Please contact support to learn how to increase this limit (if you are on the free plan, we encourage you to subscribe to the pay-as-you-go plan which provides a much higher throughput and many free requests). You can change your plan here: https://nlpcloud.com/home/plans.
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hnode Ogenerate_vocab_topic.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies[K[A[15C[32mn[32mo[32md[32me[39m [4mO[4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m.[4mj[4ms[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mM[4me[4md[4mi[4ma[4m_[4mS[4mt[4mu[4md[4mi[4me[4ms[24m[?1l>[?2004l
+]2;node Ogenerate_vocab_topic.js ]1;nodeFound 8 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Advertising_Strategies.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Content_Creation.json (has 346 lines, limit is 10).
+Generating topic "Digital Journalism" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Digital_Journalism.json
+NLP Cloud request failed (429): Rate limit: maximum number of requests per hour reached. Please contact support to learn how to increase this limit (if you are on the free plan, we encourage you to subscribe to the pay-as-you-go plan which provides a much higher throughput and many free requests). You can change your plan here: https://nlpcloud.com/home/plans.
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004hnode Ogenerate_vocab_topic.js /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies[K[A[15C[32mn[32mo[32md[32me[39m [4mO[4mg[4me[4mn[4me[4mr[4ma[4mt[4me[4m_[4mv[4mo[4mc[4ma[4mb[4m_[4mt[4mo[4mp[4mi[4mc[4m.[4mj[4ms[24m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mM[4me[4md[4mi[4ma[4m_[4mS[4mt[4mu[4md[4mi[4me[4ms[24m[13D[4mH[4me[4ma[4ml[4mt[4mh[4m_[4ma[4mn[4md[4m_[4mM[4me[24mdicine[4me[4md[4mi[4mc[4mi[4mn[4me[24m[A[14C[P[20C[4m_[4mg[4mr[4mo[24m[24mq[4m.[4mj[4ms[4m [4m/[4mU[4ms[4me[4mr[4ms[4m/[4ma[4ms[4mh[4mo[4mk[4mk[4mu[4mm[4ma[4mr[4m/[4m4[4m7[4m/[4mS[4mp[4me[4ma[4mk[4mE[4mZ[4m/[4ma[4ms[4ms[4me[4mt[4ms[4m/[4mv[4mo[4mc[4ma[4mb[4mu[4ml[4ma[4mr[4my[4m_[4mb[4mu[4mi[4ml[4md[4me[4mr[4m/[4mc[4mo[4mn[4mt[4me[4mn[4mt[4m/[4mB[4m2[4m/[4mH[4me[4ma[4ml[4mt[4mh[4m_[4ma[4mn[4md[4m_[4mM[4me[4md[4mi[24mcine[A[33C[4mo[4mq[2C[4ms[24m[24m [1B[44D[4mi[4mc[4mi[4mn[4me[24m[4mn[24m[24m [90me[39m[4mi[24m[24m [39m [90mne[39m[4mc[24m[24m [39m [39m [90mine[39m[4mi[24m[24m [39m [39m [39m [90mcine[39m[4md[24m[24m [39m [39m [39m [39m [90micine[39m[4me[24m[24m [39m [39m [39m [39m [39m [90mdicine[39m[4mM[24m[24m [39m [39m [39m [39m [39m [39m [90medicine[39m[4m_[24m[24m [39m [39m [39m [39m [39m [39m [39m [8D[90mMedicine[39m[8D[4md[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m_Medicine[39m[9D[4mn[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90md_Medicine[39m[10D[4ma[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mnd_Medicine[39m[11D[4m_[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90mand_Medicine[39m[12D[4mh[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90m_and_Medicine[39m[13D[4mt[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90mh_and_Medicine[39m[14D[4ml[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[90mth_and_Medicine[39m[15D[4ma[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[90mlth_and_Medicine[39m[16D[4me[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[90malth_and_Medicine[39m[17D[4mH[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90mealth_and_Medicine[39m[18D[4m/[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90mHealth_and_Medicine[39m[19D[4m/[39m[4mM[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[4mM[4me[24m[4me[4md[24m[4md[4mi[24m[4mi[4ma_Studies[1m[4m/[0m[24m[4ms[24m[0m[24m [?1l>[?2004l
+]2;node generate_vocab_topic_groq.js ]1;nodeFound 8 JSON files in /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Advertising_Strategies.json (has 346 lines, limit is 10).
+Skipping /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Content_Creation.json (has 346 lines, limit is 10).
+Generating topic "Digital Journalism" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Digital_Journalism.json
+Sleeping 43s before API request...
+Saved /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Digital_Journalism.json (20 words, 10.36s)
+Generating topic "Media Bias" -> /Users/ashokkumar/47/SpeakEZ/assets/vocabulary_builder/content/B2/Media_Studies/Media_Bias.json
+Sleeping 60s before API request...
+Groq request failed (429): {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k38v38dnee5tw9t62z1kcd7m` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99931, Requested 228. Please try again in 2m17.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+[1m[7m%[27m[1m[0m                                                                                                                            ]2;ashokkumar@Sagars-MacBook-Air:~/47/SpeakEZ/scripts]1;..eakEZ/scripts]7;file://Sagars-MacBook-Air.local/Users/ashokkumar/47/SpeakEZ/scripts\[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mfeat/vocab-builder[34m) [33m✗[00m [K[?1h=[?2004h
