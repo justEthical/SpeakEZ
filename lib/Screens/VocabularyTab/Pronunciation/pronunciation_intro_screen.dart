@@ -1,16 +1,83 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/vocabulary_tab_controller.dart';
 import 'package:speak_ez/Screens/VocabularyTab/Pronunciation/category_screen.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
+/// Fluent Flow palette, adaptive to light / dark mode.
+class _Palette {
+  final Color bg;
+  final Color card;
+  final Color border;
+  final Color title;
+  final Color desc;
+  final Color open;
+  final List<BoxShadow> cardShadow;
+
+  const _Palette({
+    required this.bg,
+    required this.card,
+    required this.border,
+    required this.title,
+    required this.desc,
+    required this.open,
+    required this.cardShadow,
+  });
+
+  static const _dark = _Palette(
+    bg: Color(0xFF091421),
+    card: Color(0xCC121C2A), // rgba(18,28,42,0.8)
+    border: Color(0x14FFFFFF), // white @ 8%
+    title: Colors.white,
+    desc: Color(0xFF9CA3AF), // gray-400
+    open: Color(0xFFD1D5DB), // gray-300
+    cardShadow: [],
+  );
+
+  static const _light = _Palette(
+    bg: Color(0xFFF8FAFC), // slate-50
+    card: Colors.white,
+    border: Color(0xFFE5E7EB), // gray-200
+    title: Color(0xFF0F172A), // slate-900
+    desc: Color(0xFF6B7280), // gray-500
+    open: Color(0xFF475569), // slate-600
+    cardShadow: [
+      BoxShadow(
+        color: Color(0x0F000000),
+        blurRadius: 10,
+        offset: Offset(0, 4),
+      ),
+    ],
+  );
+
+  static _Palette of(BuildContext context) =>
+      Theme.of(context).brightness == Brightness.dark ? _dark : _light;
+}
+
+/// Per-card accent: icon chip background tint + icon glyph + colour.
+class _LevelStyle {
+  final IconData icon;
+  final Color color;
+  const _LevelStyle(this.icon, this.color);
+}
+
+const List<_LevelStyle> _levelStyles = [
+  _LevelStyle(Icons.flight_land, Color(0xFF60A5FA)), // blue
+  _LevelStyle(Icons.navigation, Color(0xFFC084FC)), // purple
+  _LevelStyle(Icons.business_center, Color(0xFF2DD4BF)), // teal
+  _LevelStyle(Icons.groups, Color(0xFFFB923C)), // orange
+  _LevelStyle(Icons.psychology, Color(0xFFF472B6)), // pink
+  _LevelStyle(Icons.theater_comedy, Color(0xFF818CF8)), // indigo
+];
+
 class PronunciationIntroScreen extends StatefulWidget {
-  const PronunciationIntroScreen({super.key});
+  /// When shown as a bottom-tab destination there is nothing to pop back to,
+  /// so the leading back button is hidden.
+  final bool showBackButton;
+  const PronunciationIntroScreen({super.key, this.showBackButton = true});
 
   @override
   State<PronunciationIntroScreen> createState() =>
@@ -20,12 +87,7 @@ class PronunciationIntroScreen extends StatefulWidget {
 class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   final c = Get.put(VocabularyTabController());
 
-  int _selectedIndex = 0;
   static const Set<String> _unlockedLevels = {'A1', 'A2', 'B1', 'B2', 'C1'};
-  static const List<Color> _selectedGradient = [
-    Color(0xFF0EA5E9),
-    Color(0xFF2563EB),
-  ];
 
   bool _isLevelUnlocked(String levelCode) =>
       _unlockedLevels.contains(levelCode);
@@ -37,189 +99,89 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   @override
   Widget build(BuildContext context) {
     PostHogService.instance.captureScreenView('pronunciation_intro_screen');
-    final colorScheme = Theme.of(context).colorScheme;
-    final ink = colorScheme.onSurface;
+    final p = _Palette.of(context);
     final levels = AppData.englishVobularyLevels.entries.toList();
 
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        leading: IconButton(
-          onPressed: () => Get.back(),
-          icon: Icon(Icons.arrow_back_ios_new_rounded, color: ink),
-        ),
-        title: Text(
-          AppStrings.pronunciationPractice.tr,
-          style: TextStyle(
-            color: ink,
-            fontFamily: AppStrings.nunitoFont,
-            fontWeight: FontWeight.w800,
-          ),
-        ),
-      ),
+      backgroundColor: p.bg,
+      // appBar: AppBar(
+      //   backgroundColor: Colors.transparent,
+      //   elevation: 0,
+      //   automaticallyImplyLeading: false,
+      //   leading: widget.showBackButton
+      //       ? IconButton(
+      //           onPressed: () => Get.back(),
+      //           icon: const Icon(
+      //             Icons.arrow_back_ios_new_rounded,
+      //             color: Colors.white,
+      //           ),
+      //         )
+      //       : null,
+      // ),
       body: SafeArea(
-        child: Stack(
-          children: [
-            Positioned(
-              top: -90,
-              right: -60,
-              child: Container(
-                width: 220,
-                height: 220,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: const Color(0xFF22D3EE).withValues(alpha: 0.18),
+        top: false,
+        child: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
+          padding: const EdgeInsets.fromLTRB(24, 4, 24, 24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: 25),
+              Text(
+                AppStrings.vocabularyBuilder.tr,
+                style: TextStyle(
+                  color: p.title,
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 30,
+                  letterSpacing: -0.5,
                 ),
               ),
-            ),
-            Positioned(
-              top: 160,
-              left: -90,
-              child: Container(
-                width: 200,
-                height: 200,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: const Color(0xFF3B82F6).withValues(alpha: 0.12),
+              const SizedBox(height: 4),
+              Text(
+                AppStrings.vocabPickEraSubtitle.tr,
+                style: TextStyle(
+                  color: p.desc,
+                  fontFamily: AppStrings.nunitoFont,
+                  fontWeight: FontWeight.w500,
+                  fontSize: 13,
                 ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.all(20),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(24),
-                      gradient: const LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        colors: [Color(0xFF0EA5E9), Color(0xFF1D4ED8)],
-                      ),
-                      boxShadow: [
-                        BoxShadow(
-                          color: const Color(
-                            0xFF0EA5E9,
-                          ).withValues(alpha: 0.35),
-                          blurRadius: 24,
-                          offset: const Offset(0, 12),
-                        ),
-                      ],
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          AppStrings.vocabPickEra.tr,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 22,
-                            fontFamily: AppStrings.nunitoFont,
-                            fontWeight: FontWeight.w900,
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          AppStrings.vocabPickEraSubtitle.tr,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 14,
-                            fontFamily: AppStrings.nunitoFont,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 18),
-                  Expanded(
-                    child: GridView.builder(
-                      itemCount: levels.length,
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 2,
-                            mainAxisSpacing: 12,
-                            crossAxisSpacing: 12,
-                            childAspectRatio: 0.88,
-                          ),
-                      itemBuilder: (context, index) {
-                        final entry = levels[index];
-                        final levelCode = entry.key;
-                        final isUnlocked = _isLevelUnlocked(levelCode);
-                        final isSelected = _selectedIndex == index;
-                        return _LevelTile(
-                          title: entry.value['title'] as String,
-                          subtitle: entry.value['subtitle'] as String,
-                          isSelected: isSelected,
-                          isLocked: !isUnlocked,
-                          index: index,
-                          onTap: () {
-                            if (!isUnlocked) {
-                              _showComingSoonToast();
-                              return;
-                            }
-                            setState(() => _selectedIndex = index);
-                          },
-                        );
-                      },
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                    width: double.infinity,
-                    child: DecoratedBox(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(16),
-                        gradient: const LinearGradient(
-                          colors: _selectedGradient,
-                        ),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color(
-                              0xFF2563EB,
-                            ).withValues(alpha: 0.3),
-                            blurRadius: 16,
-                            offset: const Offset(0, 8),
-                          ),
-                        ],
-                      ),
-                      child: ElevatedButton(
-                        onPressed: () async {
-                          final selectedLevelCode = levels[_selectedIndex].key;
-                          if (!_isLevelUnlocked(selectedLevelCode)) {
-                            _showComingSoonToast();
-                            return;
-                          }
-                          Get.to(CategoryScreen(levelCode: selectedLevelCode));
-                        },
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.transparent,
-                          shadowColor: Colors.transparent,
-                          fixedSize: const Size(double.infinity, 56),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                        ),
-                        child: Text(
-                          'startNow'.tr,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontFamily: AppStrings.nunitoFont,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w900,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
+              const SizedBox(height: 20),
+              GridView.builder(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: levels.length,
+                gridDelegate:
+                    const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 16,
+                  crossAxisSpacing: 16,
+                  childAspectRatio: 0.82,
+                ),
+                itemBuilder: (context, index) {
+                  final entry = levels[index];
+                  final levelCode = entry.key;
+                  final isUnlocked = _isLevelUnlocked(levelCode);
+                  final style = _levelStyles[index % _levelStyles.length];
+                  return _LevelTile(
+                    title: entry.value['title'] as String,
+                    subtitle: entry.value['subtitle'] as String,
+                    style: style,
+                    palette: p,
+                    isLocked: !isUnlocked,
+                    onTap: () {
+                      if (!isUnlocked) {
+                        _showComingSoonToast();
+                        return;
+                      }
+                      Get.to(CategoryScreen(levelCode: levelCode));
+                    },
+                  );
+                },
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -230,133 +192,100 @@ class _LevelTile extends StatelessWidget {
   const _LevelTile({
     required this.title,
     required this.subtitle,
-    required this.isSelected,
+    required this.style,
+    required this.palette,
     required this.isLocked,
-    required this.index,
     required this.onTap,
   });
 
   final String title;
   final String subtitle;
-  final bool isSelected;
+  final _LevelStyle style;
+  final _Palette palette;
   final bool isLocked;
-  final int index;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final cardBg = colorScheme.onSecondary;
-    final ink = colorScheme.onSurface;
-    final unselectedBorder =
-        isDark ? Colors.white.withValues(alpha: 0.10) : const Color(0xFFE5E7EB);
-    final subtleText =
-        isDark ? Colors.white.withValues(alpha: 0.45) : const Color(0xFF6B7280);
-
     return Material(
       color: Colors.transparent,
       child: InkWell(
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(8),
         onTap: onTap,
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 220),
-          curve: Curves.easeOutCubic,
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(18),
-            color: cardBg,
-            border: Border.all(
-              color: isSelected ? const Color(0xFF2563EB) : unselectedBorder,
-              width: isSelected ? 2.4 : 1.2,
+        child: Opacity(
+          opacity: isLocked ? 0.7 : 1,
+          child: Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: palette.card,
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: palette.border, width: 1),
+              boxShadow: palette.cardShadow,
             ),
-            boxShadow: [
-              BoxShadow(
-                color:
-                    isSelected
-                        ? const Color(0xFF2563EB).withValues(alpha: 0.20)
-                        : Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
-                blurRadius: isSelected ? 16 : 10,
-                offset: const Offset(0, 6),
-              ),
-            ],
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Spacer(),
-              SvgPicture.asset(
-                AppAssets.levelIcon(index),
-                width: 36,
-                height: 36,
-              ),
-              const Spacer(),
-              Text(
-                title,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  color: isSelected ? const Color(0xFF1D4ED8) : ink,
-                  fontFamily: AppStrings.nunitoFont,
-                  fontWeight: FontWeight.w900,
-                  fontSize: 16,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    color: style.color.withValues(alpha: 0.20),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Icon(style.icon, color: style.color, size: 22),
                 ),
-              ),
-              const Spacer(),
-              Text(
-                subtitle,
-                maxLines: 3,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  color:
-                      isSelected
-                          ? const Color(0xFF2563EB).withValues(alpha: 0.8)
-                          : subtleText,
-                  fontFamily: AppStrings.nunitoFont,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 11,
-                  height: 1.4,
+                const SizedBox(height: 16),
+                Text(
+                  title,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    color: palette.title,
+                    fontFamily: AppStrings.nunitoFont,
+                    fontWeight: FontWeight.w700,
+                    fontSize: 17,
+                    height: 1.1,
+                  ),
                 ),
-              ),
-              const Spacer(),
-              Row(
-                children: [
-                  Text(
-                    isLocked
-                        ? 'Coming soon'
-                        : isSelected
-                        ? AppStrings.vocabSelected.tr
-                        : AppStrings.vocabTapToSelect.tr,
+                const SizedBox(height: 8),
+                Expanded(
+                  child: Text(
+                    subtitle,
+                    maxLines: 3,
+                    overflow: TextOverflow.ellipsis,
                     style: TextStyle(
-                      color:
-                          isLocked
-                              ? subtleText
-                              : isSelected
-                              ? const Color(0xFF1D4ED8)
-                              : subtleText,
+                      color: palette.desc,
                       fontFamily: AppStrings.nunitoFont,
-                      fontWeight: FontWeight.w700,
+                      fontWeight: FontWeight.w500,
                       fontSize: 12,
+                      height: 1.35,
                     ),
                   ),
-                  const Spacer(),
-                  Icon(
-                    isLocked
-                        ? Icons.lock_rounded
-                        : isSelected
-                        ? Icons.check_circle_rounded
-                        : Icons.arrow_forward_rounded,
-                    size: 18,
-                    color:
-                        isLocked
-                            ? subtleText
-                            : isSelected
-                            ? const Color(0xFF1D4ED8)
-                            : subtleText,
-                  ),
-                ],
-              ),
-            ],
+                ),
+                const SizedBox(height: 12),
+                Row(
+                  children: [
+                    Text(
+                      isLocked ? 'Coming soon' : 'Open',
+                      style: TextStyle(
+                        color: palette.open,
+                        fontFamily: AppStrings.nunitoFont,
+                        fontWeight: FontWeight.w600,
+                        fontSize: 12,
+                      ),
+                    ),
+                    const Spacer(),
+                    Icon(
+                      isLocked
+                          ? Icons.lock_rounded
+                          : Icons.arrow_forward_rounded,
+                      size: 16,
+                      color: palette.desc,
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),

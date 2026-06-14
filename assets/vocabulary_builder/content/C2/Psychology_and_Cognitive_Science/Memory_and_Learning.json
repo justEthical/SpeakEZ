@@ -306,6 +306,125 @@
           "translation": "सिनाप्स की ताकत को अनुभव और सीखने से संशोधित किया जा सकता है।"
         }
       ]
+    },
+    {
+      "word": "Episodic",
+      "phoneticRespelling": "ep-ih-SOD-ik",
+      "translation": "प्रकरणात्मक",
+      "definition": "relating to or consisting of episodes",
+      "definationTranslation": "प्रकरणों से संबंधित या उनसे बना हुआ",
+      "sentence": [
+        {
+          "sentence": "The doctor was trying to trigger the patient's episodic memory.",
+          "translation": "डॉक्टर मरीज की प्रकरणात्मक स्मृति को ट्रिगर करने की कोशिश कर रहे थे।"
+        },
+        {
+          "sentence": "Episodic memory is the recollection of specific events or experiences.",
+          "translation": "प्रकरणात्मक स्मृति विशिष्ट घटनाओं या अनुभवों की याददाश्त है।"
+        }
+      ]
+    },
+    {
+      "word": "Consolidation",
+      "phoneticRespelling": "kahn-sol-ih-DEY-shun",
+      "translation": "संघनन",
+      "definition": "the process of becoming more solid or united",
+      "definationTranslation": "अधिक ठोस या एकजुट होने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Memory consolidation is the process by which short-term memories become long-term.",
+          "translation": "स्मृति संघनन वह प्रक्रिया है जिसमें अल्पकालिक स्मृतियां दीर्घकालिक बन जाती हैं।"
+        },
+        {
+          "sentence": "Sleep plays an important role in the consolidation of memories.",
+          "translation": "नींद स्मृतियों के संघनन में एक महत्वपूर्ण भूमिका निभाती है।"
+        }
+      ]
+    },
+    {
+      "word": "Priming",
+      "phoneticRespelling": "PRY-ming",
+      "translation": "प्रारंभिक उत्तेजना",
+      "definition": "the act of making something ready or prepared",
+      "definationTranslation": "किसी चीज को तैयार या तैयार करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Priming can affect how we perceive and remember certain words or images.",
+          "translation": "प्रारंभिक उत्तेजना कुछ शब्दों या छवियों को हम कैसे महसूस करते हैं और याद रखते हैं इसको प्रभावित कर सकती है।"
+        },
+        {
+          "sentence": "The researcher used priming to see if it could improve memory recall.",
+          "translation": "शोधकर्ता ने स्मृति याद करने में सुधार करने के लिए प्रारंभिक उत्तेजना का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Interference",
+      "phoneticRespelling": "in-ter-FEER-uhns",
+      "translation": "हस्तक्षेप",
+      "definition": "the act of interfering or intervening",
+      "definationTranslation": "हस्तक्षेप या हस्तक्षेप करने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Interference from other memories can make it harder to recall specific information.",
+          "translation": "अन्य स्मृतियों से हस्तक्षेप विशिष्ट जानकारी को याद करना कठिन बना सकता है।"
+        },
+        {
+          "sentence": "The researcher studied the effects of interference on memory retention.",
+          "translation": "शोधकर्ता ने स्मृति अवधारण पर हस्तक्षेप के प्रभावों का अध्ययन किया।"
+        }
+      ]
+    },
+    {
+      "word": "Chunking",
+      "phoneticRespelling": "CHUHNG-king",
+      "translation": "टुकड़ेकरण",
+      "definition": "the act of breaking something into smaller parts",
+      "definationTranslation": "किसी चीज को छोटे भागों में तोड़ने की क्रिया",
+      "sentence": [
+        {
+          "sentence": "Chunking can help improve short-term memory by organizing information into smaller groups.",
+          "translation": "टुकड़ेकरण जानकारी को छोटे समूहों में व्यवस्थित करके अल्पकालिक स्मृति में सुधार कर सकता है।"
+        },
+        {
+          "sentence": "The teacher used chunking to help students remember phone numbers.",
+          "translation": "शिक्षक ने छात्रों को फोन नंबर याद रखने में मदद करने के लिए टुकड़ेकरण का उपयोग किया।"
+        }
+      ]
+    },
+    {
+      "word": "Mnemonic",
+      "phoneticRespelling": "ni-MON-ik",
+      "translation": "स्मृति संकेत",
+      "definition": "a device or technique used to improve memory",
+      "definationTranslation": "स्मृति में सुधार के लिए उपयोग किया जाने वाला एक उपकरण या तकनीक",
+      "sentence": [
+        {
+          "sentence": "The student used a mnemonic device to remember the order of the planets.",
+          "translation": "छात्र ने ग्रहों के क्रम को याद रखने के लिए एक स्मृति संकेत उपकरण का उपयोग किया।"
+        },
+        {
+          "sentence": "Mnemonics can be useful for remembering passwords or PIN numbers.",
+          "translation": "स्मृति संकेत पासवर्ड या पिन नंबर याद रखने के लिए उपयोगी हो सकते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Decay",
+      "phoneticRespelling": "di-KAY",
+      "translation": "क्षय",
+      "definition": "the process of becoming weaker or less effective",
+      "definationTranslation": "कमजोर या कम प्रभावी होने की प्रक्रिया",
+      "sentence": [
+        {
+          "sentence": "Memory decay can occur over time if information is not rehearsed or practiced.",
+          "translation": "स्मृति क्षय समय के साथ हो सकता है अगर जानकारी को अभ्यास या अभ्यास नहीं किया जाता है।"
+        },
+        {
+          "sentence": "The researcher studied the effects of decay on long-term memory.",
+          "translation": "शोधकर्ता ने दीर्घकालिक स्मृति पर क्षय के प्रभावों का अध्ययन किया।"
+        }
+      ]
     }
   ]
 }

@@ -391,6 +391,57 @@
           "translation": "बाजारस्थान एक गतिविधि का केंद्र था जिसमें कई खरीदार और विक्रेता थे"
         }
       ]
-    }
+    },
+  {
+    "word": "Order Book",
+    "phoneticRespelling": "AWR-der buk",
+    "translation": "ऑर्डर बुक",
+    "definition": "An electronic list of outstanding buy and sell orders for a specific security, organized by price level.",
+    "definationTranslation": "किसी विशिष्ट सुरक्षा के लिए बकाया खरीद और बिक्री के आदेशों की एक इलेक्ट्रॉनिक सूची, जिसे मूल्य स्तर के आधार पर व्यवस्थित किया जाता है।",
+    "sentence": [
+      {
+        "sentence": "Traders analyze the limit order book to gauge immediate supply and demand dynamics.",
+        "translation": "व्यापारी तत्काल आपूर्ति और मांग की गतिशीलता का अनुमान लगाने के लिए सीमा आदेश पुस्तक (लिमिट ऑर्डर बुक) का विश्लेषण करते हैं।"
+      },
+      {
+        "sentence": "A thin order book means that even small trades can cause significant price movements.",
+        "translation": "एक पतली ऑर्डर बुक का मतलब है कि छोटे व्यापार भी कीमतों में महत्वपूर्ण बदलाव ला सकते हैं।"
+      }
+    ]
+  },
+  {
+    "word": "Market Impact",
+    "phoneticRespelling": "MAR-kit IM-pakt",
+    "translation": "बाजार प्रभाव",
+    "definition": "The effect that a participant's trade or order has on the price of a security, typically moving the price against the trader.",
+    "definationTranslation": "किसी सुरक्षा की कीमत पर किसी प्रतिभागी के व्यापार या आदेश का प्रभाव, जो आमतौर पर मूल्य को व्यापारी के विपरीत दिशा में ले जाता है।",
+    "sentence": [
+      {
+        "sentence": "Institutional investors split large orders into smaller chunks to minimize adverse market impact.",
+        "translation": "संस्थागत निवेशक प्रतिकूल बाजार प्रभाव को कम करने के लिए बड़े आदेशों को छोटे टुकड़ों में विभाजित करते हैं।"
+      },
+      {
+        "sentence": "High market impact reflects a lack of deep liquidity at the current price levels.",
+        "translation": "उच्च बाजार प्रभाव वर्तमान मूल्य स्तरों पर गहरी तरलता की कमी को दर्शाता है।"
+      }
+    ]
+  },
+  {
+    "word": "Adverse Selection",
+    "phoneticRespelling": "ad-VURS suh-LEK-shuhn",
+    "translation": "प्रतिकूल चयन",
+    "definition": "The risk encountered by market makers when trading with better-informed counterparties, leading to systematic losses.",
+    "definationTranslation": "अधिक सूचित प्रतिपक्षों (इनफॉर्म्ड ट्रेडर्स) के साथ व्यापार करते समय बाजार निर्माताओं (मार्केट मेकर्स) द्वारा सामना किया जाने वाला जोखिम, जिससे व्यवस्थित नुकसान होता है।",
+    "sentence": [
+      {
+        "sentence": "Market makers widen their bid-ask spreads during periods of uncertainty to protect themselves against adverse selection.",
+        "translation": "बाजार निर्माता प्रतिकूल चयन के खिलाफ खुद को बचाने के लिए अनिश्चितता की अवधि के दौरान अपने बोली-पूछ के फैलाव (बिड-आस्क स्प्रेड) को बढ़ा देते हैं।"
+      },
+      {
+        "sentence": "Models of adverse selection assume that some traders possess private information about the asset's true value.",
+        "translation": "प्रतिकूल चयन के मॉडल यह मानते हैं कि कुछ व्यापारियों के पास संपत्ति के वास्तविक मूल्य के बारे में निजी जानकारी होती है।"
+      }
+    ]
+  }
   ]
 }

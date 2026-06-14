@@ -151,6 +151,7 @@ class AppStrings {
 
   // Practice Screen
   static const String speakingPractice = "speakingPractice";
+  static const String recommendedTopics = "recommendedTopics";
   static const String practiceWithNatasha = "practiceWithNatasha";
   static const String selectScenarioToStart = "selectScenarioToStart";
   static const String downloadingNatashaAI = "downloadingNatashaAI";

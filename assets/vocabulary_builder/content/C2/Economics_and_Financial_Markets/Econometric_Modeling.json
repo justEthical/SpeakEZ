@@ -374,6 +374,57 @@
           "translation": "परिवर्तन का उपयोग एक विश्वास अंतराल का निर्माण करने के लिए किया गया था"
         }
       ]
+    },
+    {
+      "word": "Autocorrelation",
+      "phoneticRespelling": "aw-toh-kor-uh-LAY-shuhn",
+      "translation": "स्वतःसहसंबंध",
+      "definition": "The correlation of a variable with itself over successive time intervals, commonly found in time-series data.",
+      "definationTranslation": "क्रमिक समय अंतरालों में किसी चर का स्वयं के साथ सहसंबंध, जो आमतौर पर समय-श्रृंखला (टाइम-सीरीज) डेटा में पाया जाता है।",
+      "sentence": [
+        {
+          "sentence": "The presence of autocorrelation in the residuals indicates that the error terms are not independent over time.",
+          "translation": "अवशिष्टों (रेसिड्यूअल्स) में स्वतःसहसंबंध की उपस्थिति यह दर्शाती है कि त्रुटि पद समय के साथ स्वतंत्र नहीं हैं।"
+        },
+        {
+          "sentence": "The Durbin-Watson statistic is commonly used to test for first-order autocorrelation in a regression model.",
+          "translation": "डर्बिन-वाटसन सांख्यिकी का उपयोग आमतौर पर प्रतिगमन (रिग्रेशन) मॉडल में प्रथम-क्रम स्वतःसहसंबंध के परीक्षण के लिए किया जाता है।"
+        }
+      ]
+    },
+    {
+      "word": "Stationarity",
+      "phoneticRespelling": "stay-shuhn-AIR-ih-tee",
+      "translation": "स्थिरता",
+      "definition": "A property of a time series where its statistical properties, such as mean and variance, do not change over time.",
+      "definationTranslation": "एक समय श्रृंखला का गुण जहां इसके सांख्यिकीय गुण, जैसे कि माध्य और भिन्नता, समय के साथ नहीं बदलते हैं।",
+      "sentence": [
+        {
+          "sentence": "Before running a time-series regression, engineers must ensure stationarity to avoid spurious results.",
+          "translation": "समय-श्रृंखला प्रतिगमन चलाने से पहले, नकली परिणामों से बचने के लिए इंजीनियरों को स्थिरता सुनिश्चित करनी चाहिए।"
+        },
+        {
+          "sentence": "The Augmented Dickey-Fuller test helps researchers verify the stationarity of their dataset.",
+          "translation": "ऑगमेंटेड डिकी-फुलर परीक्षण शोधकर्ताओं को उनके डेटासेट की स्थिरता को सत्यापित करने में मदद करता है।"
+        }
+      ]
+    },
+    {
+      "word": "Cointegration",
+      "phoneticRespelling": "koh-in-tuh-GRAY-shuhn",
+      "translation": "सह-एकत्रीकरण",
+      "definition": "A situation where two or more non-stationary time series share a long-term statistical relationship or common trend.",
+      "definationTranslation": "ऐसी स्थिति जहां दो या दो से अधिक गैर-स्थिर समय श्रृंखलाएं एक दीर्घकालिक सांख्यिकीय संबंध या सामान्य प्रवृत्ति साझा करती हैं।",
+      "sentence": [
+        {
+          "sentence": "Cointegration allows economists to model stable long-run equilibrium relationships between volatile macroeconomic variables.",
+          "translation": "सह-एकत्रीकरण अर्थशास्त्रियों को अस्थिर समष्टि आर्थिक चरों के बीच स्थिर दीर्घकालिक संतुलन संबंधों को मॉडल करने की अनुमति देता है।"
+        },
+        {
+          "sentence": "Even though stock prices appear random, cointegration techniques can reveal if they move together over the long term.",
+          "translation": "भले ही शेयरों की कीमतें यादृच्छिक (रैंडम) दिखाई दें, सह-एकत्रीकरण तकनीक यह प्रकट कर सकती है कि क्या वे दीर्घकालिक रूप से एक साथ चलती हैं।"
+        }
+      ]
     }
   ]
 }

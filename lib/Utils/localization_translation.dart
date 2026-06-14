@@ -64,6 +64,7 @@ class AppTranslations extends Translations {
       'tierAdvanced': "Advanced",
       'freeTalkTitle': "Free Speaking",
       'talkAboutAnything': "Talk about anything you want with AI",
+      'recommendedTopics': "Recommended Topics",
       'startNow': "Start Now",
       'conversationProgress': "Conversation Progress",
       'lessons': "Lessons",
@@ -242,8 +243,8 @@ class AppTranslations extends Translations {
           "Learn and review useful words for daily conversations.",
 
       // Vocabulary Flow
-      'vocabPickEra': "Pick Your Pronunciation Level",
-      'vocabPickEraSubtitle': "Select one level and start a focused pronunciation session.",
+      'vocabPickEra': "Pick Your Vocabulary Level",
+      'vocabPickEraSubtitle': "Select one level and start building your vocabulary.",
       'vocabSelected': "Selected",
       'vocabTapToSelect': "Tap to select",
       'vocabDay': "Day",
@@ -347,6 +348,7 @@ class AppTranslations extends Translations {
       'tierAdvanced': "上級",
       'freeTalkTitle': "フリースピーキング",
       'talkAboutAnything': "AIと好きなトピックで会話しましょう",
+      'recommendedTopics': "おすすめのトピック",
       'startNow': "今すぐ開始",
       'conversationProgress': "会話の進捗",
       'lessons': "レッスン",
@@ -515,8 +517,8 @@ class AppTranslations extends Translations {
       'vocabularyPracticeSubtitle': "日常会話で役立つ単語を学び、復習しましょう。",
 
       // Vocabulary Flow
-      'vocabPickEra': "発音レベルを選ぼう",
-      'vocabPickEraSubtitle': "レベルを選んで、集中した発音セッションを始めましょう。",
+      'vocabPickEra': "語彙レベルを選ぼう",
+      'vocabPickEraSubtitle': "レベルを選んで、語彙を増やしましょう。",
       'vocabSelected': "選択中",
       'vocabTapToSelect': "タップして選択",
       'vocabDay': "日",
@@ -619,6 +621,7 @@ class AppTranslations extends Translations {
       'tierAdvanced': "उन्नत",
       'freeTalkTitle': "फ्री स्पीकिंग",
       'talkAboutAnything': "AI के साथ किसी भी विषय पर बात करें",
+      'recommendedTopics': "अनुशंसित विषय",
       'startNow': "अभी शुरू करें",
       'conversationProgress': "बातचीत की प्रगति",
       'lessons': "पाठ",
@@ -799,8 +802,8 @@ class AppTranslations extends Translations {
           "दैनिक बातचीत के लिए उपयोगी शब्द सीखें और दोहराएँ।",
 
       // Vocabulary Flow
-      'vocabPickEra': "अपना उच्चारण स्तर चुनें",
-      'vocabPickEraSubtitle': "एक स्तर चुनें और केंद्रित उच्चारण सत्र शुरू करें।",
+      'vocabPickEra': "अपना शब्दावली स्तर चुनें",
+      'vocabPickEraSubtitle': "एक स्तर चुनें और अपनी शब्दावली बढ़ाना शुरू करें।",
       'vocabSelected': "चुना गया",
       'vocabTapToSelect': "चुनने के लिए टैप करें",
       'vocabDay': "दिन",
@@ -904,6 +907,7 @@ class AppTranslations extends Translations {
       'tierAdvanced': "Avanzado",
       'freeTalkTitle': "Hablar Libremente",
       'talkAboutAnything': "Habla de cualquier tema con la IA",
+      'recommendedTopics': "Temas Recomendados",
       'startNow': "Comenzar Ahora",
       'conversationProgress': "Progreso de la Conversación",
       'lessons': "Lecciones",
@@ -1083,8 +1087,8 @@ class AppTranslations extends Translations {
           "Aprende y repasa palabras útiles para conversaciones diarias.",
 
       // Vocabulary Flow
-      'vocabPickEra': "Elige tu nivel de pronunciación",
-      'vocabPickEraSubtitle': "Selecciona un nivel e inicia una sesión de pronunciación enfocada.",
+      'vocabPickEra': "Elige tu nivel de vocabulario",
+      'vocabPickEraSubtitle': "Selecciona un nivel y empieza a ampliar tu vocabulario.",
       'vocabSelected': "Seleccionado",
       'vocabTapToSelect': "Toca para seleccionar",
       'vocabDay': "Día",

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
+import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Controllers/home_screen_controller.dart';
@@ -184,7 +185,7 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                       ),
                     ),
                     Text(
-                      "${'hi'.tr}, ${profile.displayName}!",
+                      "${profile.displayName}!",
                       style: TextStyle(
                         color: palette.onSurface,
                         fontFamily: AppStrings.nunitoFont,
@@ -219,12 +220,11 @@ class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.monetization_on,
-                      color: palette.secondary, size: 18),
+                  Image.asset(AppAssets.gem, width: 18, height: 18),
                   const SizedBox(width: 6),
                   Obx(
                     () => Text(
-                      globalController.userProfile.value.gems.toString(),
+                      globalController.userProfile.value.gems.toString(),                    
                       style: TextStyle(
                         color: palette.onSurface,
                         fontFamily: AppStrings.nunitoFont,

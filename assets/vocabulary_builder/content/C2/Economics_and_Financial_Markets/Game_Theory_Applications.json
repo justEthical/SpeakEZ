@@ -391,6 +391,57 @@
           "translation": "प्रतियोगिता का स्तर एक बाजार में फर्मों के व्यवहार पर महत्वपूर्ण प्रभाव डाल सकता है।"
         }
       ]
-    }
+    },
+  {
+    "word": "Zero-Sum Game",
+    "phoneticRespelling": "ZEER-oh-suhm gaym",
+    "translation": "शून्य-योग खेल",
+    "definition": "A situation in game theory where one player's gain is exactly equal to another player's loss, resulting in a net change of wealth or benefit of zero.",
+    "definationTranslation": "खेल सिद्धांत की एक ऐसी स्थिति जिसमें एक खिलाड़ी का लाभ दूसरे खिलाड़ी के नुकसान के बिल्कुल बराबर होता है, जिससे कुल लाभ या हानि का योग शून्य होता है।",
+    "sentence": [
+      {
+        "sentence": "In a zero-sum game, there is no room for mutual cooperation because every point you win must be taken directly from your opponent.",
+        "translation": "एक शून्य-योग खेल में, पारस्परिक सहयोग की कोई गुंजाइश नहीं होती क्योंकि आपके द्वारा जीता गया हर अंक सीधे आपके प्रतिद्वंद्वी से लिया जाना चाहिए।"
+      },
+      {
+        "sentence": "Classic board games like chess or poker are perfect examples of a zero-sum game.",
+        "translation": "शतरंज या पोकर जैसे पारंपरिक बोर्ड गेम शून्य-योग खेल के आदर्श उदाहरण हैं।"
+      }
+    ]
+  },
+  {
+    "word": "Dominant Strategy",
+    "phoneticRespelling": "DAHM-uh-nuhnt STRAH-tuh-jee",
+    "translation": "प्रमुख रणनीति",
+    "definition": "A strategy that yields the highest payoff for a player, regardless of what strategies the other players choose.",
+    "definationTranslation": "एक ऐसी रणनीति जो किसी खिलाड़ी के लिए सबसे अधिक लाभ देती है, चाहे अन्य खिलाड़ी कोई भी रणनीति चुनें।",
+    "sentence": [
+      {
+        "sentence": "Confessing is the dominant strategy for both suspects in the classic Prisoner's Dilemma scenario.",
+        "translation": "पारंपरिक 'कैदी की दुविधा' परिदृश्य में दोनों संदिग्धों के लिए जुर्म कबूल करना ही प्रमुख रणनीति है।"
+      },
+      {
+        "sentence": "When a player has a dominant strategy, they do not need to waste time predicting their opponent's next move.",
+        "translation": "जब किसी खिलाड़ी के पास एक प्रमुख रणनीति होती है, तो उन्हें अपने प्रतिद्वंद्वी के अगले कदम की भविष्यवाणी करने में समय बर्बाद करने की आवश्यकता नहीं होती है।"
+      }
+    ]
+  },
+  {
+    "word": "Subgame Perfect Equilibrium",
+    "phoneticRespelling": "SUHB-gaym PUR-fikt eh-kwy-LEE-bree-um",
+    "translation": "उपखेल पूर्ण संतुलन",
+    "definition": "A refinement of Nash Equilibrium used in dynamic games, representing a profile of strategies that constitutes a Nash Equilibrium in every subgame of the original game.",
+    "definationTranslation": "गतिशील (डायनेमिक) खेलों में उपयोग किया जाने वाला नैश संतुलन का एक परिष्कृत रूप, जो उन रणनीतियों को दर्शाता है जो मूल खेल के प्रत्येक उपखेल में एक नैश संतुलन बनाती हैं।",
+    "sentence": [
+      {
+        "sentence": "Economists use backward induction to find the subgame perfect equilibrium in sequential bargaining games.",
+        "translation": "अर्थशास्त्री अनुक्रमिक सौदेबाजी के खेलों में उपखेल पूर्ण संतुलन खोजने के लिए पश्चगामी आगमन (बैकवर्ड इंडक्शन) का उपयोग करते हैं।"
+      },
+      {
+        "sentence": "A subgame perfect equilibrium eliminates non-credible threats made by players in multi-stage decisions.",
+        "translation": "एक उपखेल पूर्ण संतुलन बहु-स्तरीय निर्णयों में खिलाड़ियों द्वारा दी जाने वाली गैर-विश्वसनीय धमकियों को समाप्त करता है।"
+      }
+    ]
+  }
   ]
 }

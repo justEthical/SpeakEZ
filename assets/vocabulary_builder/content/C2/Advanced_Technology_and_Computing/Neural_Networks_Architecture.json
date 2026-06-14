@@ -408,6 +408,23 @@
           "translation": "प्रशिक्षण मॉडल के प्रदर्शन को बेहतर बनाने के लिए उपयोग किया जाता है।"
         }
       ]
-    }
+    },
+    {
+    "word": "Weights",
+    "phoneticRespelling": "WAYTS",
+    "translation": "वजन",
+    "definition": "The parameters within a neural network that transform input data within the network's hidden layers.",
+    "definationTranslation": "एक न्यूरल नेटवर्क के भीतर के पैरामीटर्स जो नेटवर्क की छिपी हुई परतों के भीतर इनपुट डेटा को बदलते हैं।",
+    "sentence": [
+      {
+        "sentence": "The neural network updates its weights during the training phase using gradient descent.",
+        "translation": "न्यूरल नेटवर्क ग्रेडिएंट डिसेंट का उपयोग करके प्रशिक्षण चरण के दौरान अपने वजन को अद्यतन करता है।"
+      },
+      {
+        "sentence": "Higher weights indicate that the corresponding input has a stronger influence on the neuron's output.",
+        "translation": "अधिक वजन यह दर्शाता है कि संबंधित इनपुट का न्यूरॉन के आउटपुट पर अधिक प्रभाव पड़ता है।"
+      }
+    ]
+  }
   ]
 }

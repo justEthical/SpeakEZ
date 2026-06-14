@@ -408,6 +408,57 @@
           "translation": "संपत्ति सुरक्षा और स्वतंत्रता की भावना प्रदान कर सकती है।"
         }
       ]
-    }
+    },
+  {
+    "word": "Stochastic Calculus",
+    "phoneticRespelling": "stuh-KAS-tik KAL-kyuh-luhs",
+    "translation": "यादृच्छिक कलन",
+    "definition": "A branch of mathematics that operates on stochastic processes, crucial for modeling random asset price movements.",
+    "definationTranslation": "गणित की एक शाखा जो यादृच्छिक (स्टोकेस्टिक) प्रक्रियाओं पर काम करती है, जो संपत्ति की यादृच्छिक कीमतों के उतार-चढ़ाव को मॉडल करने के लिए महत्वपूर्ण है।",
+    "sentence": [
+      {
+        "sentence": "Quantitative analysts utilize stochastic calculus, specifically Itô's lemma, to price complex derivative contracts.",
+        "translation": "मात्रात्मक विश्लेषक (क्वांट्स) जटिल व्युत्पन्न (डेरिवेटिव) अनुबंधों की कीमत निर्धारित करने के लिए यादृच्छिक कलन, विशेष रूप से ईटो के लेम्मा का उपयोग करते हैं।"
+      },
+      {
+        "sentence": "Understanding stochastic calculus is essential for developing continuous-time financial models.",
+        "translation": "सतत-समय (कंटीन्यूअस-टाइम) वित्तीय मॉडल विकसित करने के लिए यादृच्छिक कलन को समझना आवश्यक है।"
+      }
+    ]
+  },
+  {
+    "word": "Quantitative Easing",
+    "phoneticRespelling": "KWAHN-tih-tey-tiv EE-zing",
+    "translation": "मात्रात्मक सहजता",
+    "definition": "An unconventional monetary policy where a central bank purchases government bonds or other financial assets to inject liquidity into the economy.",
+    "definationTranslation": "एक अपरंपरागत मौद्रिक नीति जिसके तहत एक केंद्रीय बैंक अर्थव्यवस्था में तरलता लाने के लिए सरकारी बॉन्ड या अन्य वित्तीय परिसंपत्तियां खरीदता है।",
+    "sentence": [
+      {
+        "sentence": "The central bank introduced quantitative easing to lower long-term interest rates and stimulate borrowing.",
+        "translation": "केंद्रीय बैंक ने दीर्घकालिक ब्याज दरों को कम करने और ऋण लेने को बढ़ावा देने के लिए मात्रात्मक सहजता की शुरुआत की।"
+      },
+      {
+        "sentence": "Critics argue that prolonged quantitative easing can distort market risk and fuel asset price inflation.",
+        "translation": "आलोचकों का तर्क है कि लंबे समय तक चलने वाली मात्रात्मक सहजता बाजार के जोखिम को विकृत कर सकती है और परिसंपत्ति मूल्यों की मुद्रास्फीति को बढ़ावा दे सकती है।"
+      }
+    ]
+  },
+  {
+    "word": "Risk Premium",
+    "phoneticRespelling": "RISK PREE-mee-uhm",
+    "translation": "जोखिम प्रीमियम",
+    "definition": "The investment return an asset is expected to yield in excess of the risk-free rate of return.",
+    "definationTranslation": "जोखिम-मुक्त रिटर्न की दर से अधिक मिलने वाला वह निवेश रिटर्न, जो किसी परिसंपत्ति से मिलने की उम्मीद की जाती है।",
+    "sentence": [
+      {
+        "sentence": "Investors demand a higher risk premium for holding volatile equities compared to safe government bonds.",
+        "translation": "सुरक्षित सरकारी बॉन्ड की तुलना में निवेशक अस्थिर शेयरों को अपने पास रखने के लिए उच्च जोखिम प्रीमियम की मांग करते हैं।"
+      },
+      {
+        "sentence": "The market risk premium is a foundational parameter in the Capital Asset Pricing Model.",
+        "translation": "बाजार जोखिम प्रीमियम कैपिटल एसेट प्राइसिंग मॉडल (CAPM) में एक आधारभूत पैरामीटर है।"
+      }
+    ]
+  }
   ]
 }

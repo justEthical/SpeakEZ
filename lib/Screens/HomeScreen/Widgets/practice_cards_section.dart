@@ -51,15 +51,6 @@ class PracticeCardsSection extends StatelessWidget {
           const SizedBox(height: 12),
           _PracticeCard(
             palette: palette,
-            icon: Icons.record_voice_over_outlined,
-            accent: palette.secondary,
-            title: AppStrings.pronunciationPractice.tr,
-            subtitle: AppStrings.pronunciationPracticeSubtitle.tr,
-            onTap: () => _goToTab(2),
-          ),
-          const SizedBox(height: 12),
-          _PracticeCard(
-            palette: palette,
             icon: Icons.spellcheck_rounded,
             accent: palette.tertiary,
             title: AppStrings.vocabularyBuilder.tr,

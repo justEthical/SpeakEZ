@@ -374,6 +374,57 @@
           "translation": "Kshetra ek ganitiya avdharana hai jo ek bal ya prabhav ke vitran ka varnan karti hai."
         }
       ]
+    },
+    {
+      "word": "Teleportation",
+      "phoneticRespelling": "tel-uh-por-TAY-shun",
+      "translation": "दूरपरिवहन",
+      "definition": "A process by which quantum information can be transmitted from one location to another using classical communication and quantum entanglement.",
+      "definationTranslation": "एक प्रक्रिया जिसके द्वारा क्लासिकल संचार और क्वांटम एंटैंगलमेंट का उपयोग करके क्वांटम जानकारी को एक स्थान से दूसरे स्थान पर प्रेषित किया जा सकता है।",
+      "sentence": [
+        {
+          "sentence": "Quantum teleportation does not move the particle itself, but rather transfers its exact state to another particle.",
+          "translation": "क्वांटम टेलीपोर्टेशन कण को स्वयं स्थानांतरित नहीं करता है, बल्कि उसकी सटीक अवस्था को दूसरे कण में स्थानांतरित करता है।"
+        },
+        {
+          "sentence": "The research team successfully demonstrated quantum teleportation over a distance of several kilometers.",
+          "translation": "शोध दल ने कई किलोमीटर की दूरी पर क्वांटम टेलीपोर्टेशन का सफलतापूर्वक प्रदर्शन किया।"
+        }
+      ]
+    },
+    {
+      "word": "Coherence",
+      "phoneticRespelling": "koh-HEER-uhns",
+      "translation": "संबद्धता",
+      "definition": "The clear correlation between the phases of a quantum system, allowing it to maintain a superposition state.",
+      "definationTranslation": "एक क्वांटम प्रणाली के चरणों के बीच स्पष्ट संबंध, जो इसे सुपरपोजिशन अवस्था बनाए रखने की अनुमति देता है।",
+      "sentence": [
+        {
+          "sentence": "Maintaining quantum coherence is one of the biggest challenges in building stable quantum computers.",
+          "translation": "स्थिर क्वांटम कंप्यूटर बनाने में क्वांटम संबद्धता बनाए रखना सबसे बड़ी चुनौतियों में से एक है।"
+        },
+        {
+          "sentence": "External noise can easily disrupt the coherence of qubits and cause calculation errors.",
+          "translation": "बाहरी शोर आसानी से क्युबिट्स की संबद्धता को बाधित कर सकता है और गणना में त्रुटियों का कारण बन सकता है।"
+        }
+      ]
+    },
+    {
+      "word": "Decoherence",
+      "phoneticRespelling": "dee-koh-HEER-uhns",
+      "translation": "विसंबद्धता",
+      "definition": "The loss of quantum coherence due to interaction with the surrounding environment, causing the system to behave classically.",
+      "definationTranslation": "आसपास के वातावरण के साथ परस्पर क्रिया के कारण क्वांटम संबद्धता का नुकसान, जिससे प्रणाली क्लासिकल रूप से व्यवहार करने लगती है।",
+      "sentence": [
+        {
+          "sentence": "Decoherence causes a qubit to lose its fragile superposition state and collapse into a standard 0 or 1.",
+          "translation": "विसंबद्धता के कारण एक क्युबिट अपनी नाजुक सुपरपोजिशन अवस्था खो देता है और एक मानक 0 या 1 में बदल जाता है।"
+        },
+        {
+          "sentence": "Scientists use specialized shielding to protect quantum processors from environmental decoherence.",
+          "translation": "वैज्ञानिक क्वांटम प्रोसेसर को पर्यावरणीय विसंबद्धता से बचाने के लिए विशेष परिरक्षण (शील्डिंग) का उपयोग करते हैं।"
+        }
+      ]
     }
   ]
 }

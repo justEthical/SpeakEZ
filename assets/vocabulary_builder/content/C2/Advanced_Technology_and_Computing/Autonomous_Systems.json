@@ -357,6 +357,74 @@
           "translation": "रोबोट का बुद्धिमान एल्गोरिदम इसे निर्णय लेने और अपने अनुभवों से सीखने की अनुमति देता है।"
         }
       ]
-    }
+    },
+    {
+      "word": "Actuator",
+      "phoneticRespelling": "AK-choo-ay-ter",
+      "translation": "एक्चुएटर",
+      "definition": "A component of a machine that is responsible for moving and controlling a mechanism or system",
+      "definationTranslation": "किसी मशीन का वह घटक जो किसी तंत्र या प्रणाली को स्थानांतरित और नियंत्रित करने के लिए जिम्मेदार होता है",
+      "sentence": [
+        {
+          "sentence": "The robotic arm uses a powerful actuator to lift heavy objects.",
+          "translation": "रोबोटिक हाथ भारी वस्तुओं को उठाने के लिए एक शक्तिशाली एक्चुएटर का उपयोग करता है।"
+        },
+        {
+          "sentence": "Signals from the control computer trigger the vehicle's braking actuators.",
+          "translation": "कंट्रोल कंप्यूटर से मिलने वाले सिग्नल वाहन के ब्रेकिंग एक्चुएटर्स को सक्रिय करते हैं।"
+        }
+      ]
+    },
+    {
+      "word": "Telemetry",
+      "phoneticRespelling": "tuh-LEM-uh-tree",
+      "translation": "टेलीमेट्री",
+      "definition": "The automatic measurement and wireless transmission of data from remote sources",
+      "definationTranslation": "दूरस्थ स्रोतों से डेटा का स्वचालित माप और वायरलेस ट्रांसमिशन",
+      "sentence": [
+        {
+          "sentence": "The drone transmits real-time telemetry back to the ground station.",
+          "translation": "ड्रोन ग्राउंड स्टेशन पर वास्तविक समय की टेलीमेट्री वापस भेजता है।"
+        },
+        {
+          "sentence": "Engineers analyzed the rocket's telemetry data during its autonomous flight.",
+          "translation": "इंजीनियरों ने अपनी स्वायत्त उड़ान के दौरान रॉकेट के टेलीमेट्री डेटा का विश्लेषण किया।"
+        }
+      ]
+    },
+    {
+      "word": "Trajectory",
+      "phoneticRespelling": "truh-JEK-tuh-ree",
+      "translation": "प्रक्षेपवक्र",
+      "definition": "The path followed by a flying or moving object under the action of given forces",
+      "definationTranslation": "दिए गए बलों की कार्रवाई के तहत एक उड़ती हुई या चलती हुई वस्तु द्वारा तय किया गया मार्ग",
+      "sentence": [
+        {
+          "sentence": "The vehicle's computer calculates the safest trajectory to avoid collision.",
+          "translation": "वाहन का कंप्यूटर टक्कर से बचने के लिए सबसे सुरक्षित प्रक्षेपवक्र की गणना करता है।"
+        },
+        {
+          "sentence": "The autonomous drone adjusted its trajectory due to sudden wind changes.",
+          "translation": "अचानक हवा में बदलाव के कारण स्वायत्त ड्रोन ने अपने प्रक्षेपवक्र को समायोजित किया।"
+        }
+      ]
+    },
+    {
+    "word": "Kinematics",
+    "phoneticRespelling": "kin-uh-MAT-iks",
+    "translation": "गतिकी",
+    "definition": "The branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion",
+    "definationTranslation": "यांत्रिकी की वह शाखा जो वस्तुओं की गति से संबंधित है, उन बलों के संदर्भ के बिना जो गति का कारण बनते हैं",
+    "sentence": [
+      {
+        "sentence": "The engineer calculated the kinematics of the robotic arm to ensure smooth movement.",
+        "translation": "इंजीनियर ने सुचारू गति सुनिश्चित करने के लिए रोबोटिक हाथ की गतिकी की गणना की।"
+      },
+      {
+        "sentence": "Autonomous navigation systems rely on kinematics equations to predict the robot's next position.",
+        "translation": "स्वायत्त नेविगेशन सिस्टम रोबोट की अगली स्थिति का अनुमान लगाने के लिए गतिकी समीकरणों पर भरोसा करते हैं।"
+      }
+    ]
+  }
   ]
 }

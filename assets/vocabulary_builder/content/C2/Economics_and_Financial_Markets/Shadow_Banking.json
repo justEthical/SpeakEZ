@@ -391,6 +391,57 @@
           "translation": "निवेशक निवेश में शामिल जोखिम से अवगत है।"
         }
       ]
-    }
+    },
+  {
+    "word": "Special Purpose Vehicle",
+    "phoneticRespelling": "SPEH-shuhl PUR-puhs VEE-ih-kuhl",
+    "translation": "विशेष प्रयोजन वाहन (एसपीवी)",
+    "definition": "A legal entity created to fulfill narrow, specific, or temporary objectives, often used to isolate financial risk and keep debt off a parent company's balance sheet.",
+    "definationTranslation": "एक कानूनी इकाई जिसे संकीर्ण, विशिष्ट या अस्थायी उद्देश्यों को पूरा करने के लिए बनाया जाता है, जिसका उपयोग अक्सर वित्तीय जोखिम को अलग करने और पैरेंट कंपनी की बैलेंस शीट से ऋण को बाहर रखने के लिए किया जाता है।",
+    "sentence": [
+      {
+        "sentence": "Financial institutions often route mortgage-backed securities through a special purpose vehicle to isolate the assets.",
+        "translation": "वित्तीय संस्थान अक्सर परिसंपत्तियों को अलग करने के लिए एक विशेष प्रयोजन वाहन (एसपीवी) के माध्यम से बंधक-समर्थित प्रतिभूतियों (मॉर्टगेज-बैक्ड सिक्योरिटीज) को रूट करते हैं।"
+      },
+      {
+        "sentence": "The collapse of the shadow banking entity was accelerated by hidden liabilities within its offshore special purpose vehicle.",
+        "translation": "शैडो बैंकिंग इकाई का पतन उसके तट से दूर (ऑफशोर) विशेष प्रयोजन वाहन के भीतर छिपी देयताओं के कारण तेज हो गया था।"
+      }
+    ]
+  },
+  {
+    "word": "Securitization",
+    "phoneticRespelling": "seh-KYOOR-ih-tih-ZAY-shuhn",
+    "translation": "प्रतिभूतितरण",
+    "definition": "The process of pooling various types of contractual debt, such as mortgages or auto loans, and selling their related cash flows to third-party investors as securities.",
+    "definationTranslation": "विभिन्न प्रकार के अनुबंधित ऋणों, जैसे बंधक या ऑटो ऋण, को एक साथ मिलाने (पूल करने) और उनके संबंधित नकदी प्रवाह को तीसरे पक्ष के निवेशकों को प्रतिभूतियों के रूप में बेचने की प्रक्रिया।",
+    "sentence": [
+      {
+        "sentence": "Securitization allows shadow banks to transform illiquid loans into tradeable financial instruments.",
+        "translation": "प्रतिभूतितरण शैडो बैंकों को गैर-तरल ऋणों को व्यापार योग्य वित्तीय साधनों में बदलने की अनुमति देता है।"
+      },
+      {
+        "sentence": "Heavy reliance on complex securitization models contributed heavily to the systemic financial crisis.",
+        "translation": "जटिल प्रतिभूतितरण मॉडलों पर अत्यधिक निर्भरता ने प्रणालीगत वित्तीय संकट में भारी योगदान दिया।"
+      }
+    ]
+  },
+  {
+    "word": "Repurchase Agreement",
+    "phoneticRespelling": "ree-PUR-chuhs uh-GREE-muhnt",
+    "translation": "पुनः खरीद समझौता (रेपो)",
+    "definition": "A short-term borrowing mechanism involving the sale of securities together with an agreement to repurchase them at a higher price on a specified future date.",
+    "definationTranslation": "एक अल्पकालिक उधार तंत्र जिसमें प्रतिभूतियों की बिक्री के साथ उन्हें एक निर्दिष्ट भविष्य की तारीख पर उच्च मूल्य पर वापस खरीदने का समझौता शामिल होता है।",
+    "sentence": [
+      {
+        "sentence": "Non-bank financial intermediaries rely heavily on the repurchase agreement market for daily liquidity management.",
+        "translation": "गैर-बैंकिंग वित्तीय मध्यस्थ दैनिक तरलता प्रबंधन के लिए पुनः खरीद समझौते (रेपो) बाजार पर बहुत अधिक निर्भर करते."
+      },
+      {
+        "sentence": "A sudden run on the repurchase agreement market can freeze funding across the shadow banking sector.",
+        "translation": "पुनः खरीद समझौते के बाजार में अचानक आई गिरावट शैडो बैंकिंग क्षेत्र में फंडिंग को रोक सकती है।"
+      }
+    ]
+  }
   ]
 }
