@@ -87,13 +87,30 @@ class PronunciationIntroScreen extends StatefulWidget {
 class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
   final c = Get.put(VocabularyTabController());
 
-  static const Set<String> _unlockedLevels = {'A1', 'A2', 'B1', 'B2', 'C1'};
+  static const Set<String> _unlockedLevels = {'A1', 'A2', 'B1', 'B2', 'C1', 'C2'};
 
   bool _isLevelUnlocked(String levelCode) =>
       _unlockedLevels.contains(levelCode);
 
   void _showComingSoonToast() {
     Fluttertoast.showToast(msg: 'Coming soon');
+  }
+
+  /// Adaptive tile height so titles/subtitles never clip on narrow screens or
+  /// with larger OS font scales. Grows with the (clamped) text scale instead of
+  /// relying on a fixed aspect ratio.
+  double _tileExtent(BuildContext context) {
+    final media = MediaQuery.of(context);
+    final textScale = media.textScaler.scale(1.0).clamp(1.0, 1.4);
+    // Horizontal padding 24*2 + crossAxisSpacing 16.
+    final cardWidth = (media.size.width - 48 - 16) / 2;
+    // Fixed chrome: padding(40) + icon(40) + gap(16) + gap(8) + gap(12)
+    // + footer row(~18).
+    const chrome = 40 + 40 + 16 + 8 + 12 + 18;
+    final titleHeight = 2 * 17 * 1.1 * textScale;
+    final subtitleHeight = 3 * 12 * 1.35 * textScale;
+    return (chrome + titleHeight + subtitleHeight)
+        .clamp(cardWidth / 0.82, double.infinity);
   }
 
   @override
@@ -119,14 +136,12 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
       //       : null,
       // ),
       body: SafeArea(
-        top: false,
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           padding: const EdgeInsets.fromLTRB(24, 4, 24, 24),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(height: 25),
               Text(
                 AppStrings.vocabularyBuilder.tr,
                 style: TextStyle(
@@ -152,12 +167,11 @@ class _PronunciationIntroScreenState extends State<PronunciationIntroScreen> {
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
                 itemCount: levels.length,
-                gridDelegate:
-                    const SliverGridDelegateWithFixedCrossAxisCount(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   mainAxisSpacing: 16,
                   crossAxisSpacing: 16,
-                  childAspectRatio: 0.82,
+                  mainAxisExtent: _tileExtent(context),
                 ),
                 itemBuilder: (context, index) {
                   final entry = levels[index];
