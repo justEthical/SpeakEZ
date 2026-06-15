@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/vocabulary_tab_controller.dart';
-import 'package:speak_ez/Screens/VocabularyTab/Pronunciation/category_screen.dart';
+import 'package:speak_ez/Screens/VocabularyBuilder/category_screen.dart';
 import 'package:speak_ez/Services/posthog_service.dart';
 
 /// Fluent Flow palette, adaptive to light / dark mode.

@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/vocabulary_tab_controller.dart';
 import 'package:speak_ez/Models/pronunciation_word_model.dart';
-import 'package:speak_ez/Screens/VocabularyTab/Pronunciation/topic_words_screen.dart';
+import 'package:speak_ez/Screens/VocabularyBuilder/topic_words_screen.dart';
 
 // ─── Section data ─────────────────────────────────────────────────────────────
 
