@@ -1,11 +1,17 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:scroll_screenshot/scroll_screenshot.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_data.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Utils/custom_loader.dart';
 
 class StreakScreen extends StatefulWidget {
   final int? gems;
@@ -17,6 +23,9 @@ class StreakScreen extends StatefulWidget {
 
 class _StreakScreenState extends State<StreakScreen> {
   static const Color _gold = Color(0xFFF4B740);
+
+  /// Wraps the branded streak card that gets rendered into the shared image.
+  final GlobalKey _shareKey = GlobalKey();
 
   late DateTime _visibleMonth;
   late final Set<DateTime> _streakDates;
@@ -62,12 +71,76 @@ class _StreakScreenState extends State<StreakScreen> {
     });
   }
 
-  void _share() {
+  Future<void> _share() async {
     final streak = globalController.userProfile.value.currentStreak;
-    SharePlus.instance.share(
-      ShareParams(
-        text:
-            "🔥 I'm on a $streak day Streak learning English on ${AppStrings.appName}!",
+    final caption =
+        "🔥 I'm on a $streak-day streak learning English on ${AppStrings.appName}!\n\n"
+        "Practice English conversation for FREE with AI and learn through "
+        "byte-sized lessons. 🚀\n\nGet the app 👇\n${AppStrings.appPlayStoreUrl}";
+
+    try {
+      CustomLoader.showLoader();
+      final base64String =
+          await ScrollScreenshot.captureAndSaveScreenshot(_shareKey);
+      CustomLoader.hideLoader();
+
+      if (base64String == null) {
+        // Fall back to a text-only share if capture failed.
+        await SharePlus.instance.share(ShareParams(text: caption));
+        return;
+      }
+
+      final bytes = base64Decode(base64String.split(',').last);
+      final tempDir = await getTemporaryDirectory();
+      final file =
+          await File('${tempDir.path}/speakez_streak.png').create();
+      await file.writeAsBytes(bytes);
+
+      await SharePlus.instance.share(
+        ShareParams(text: caption, files: [XFile(file.path)]),
+      );
+    } catch (_) {
+      CustomLoader.hideLoader();
+      await SharePlus.instance.share(ShareParams(text: caption));
+    }
+  }
+
+  /// SpeakEZ logo + wordmark, rendered at the bottom of the shared image.
+  Widget _buildShareBranding(Color? textColor) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 24, 20, 4),
+      child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: Image.asset(AppAssets.logo, width: 30, height: 30),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                AppStrings.appName,
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w800,
+                  color: _accent,
+                  fontFamily: AppStrings.poppinsFont,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 6),
+          Text(
+            "Learn English with AI — free",
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w600,
+              color: textColor?.withValues(alpha: 0.6),
+              fontFamily: AppStrings.poppinsFont,
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -123,9 +196,16 @@ class _StreakScreenState extends State<StreakScreen> {
 
             Expanded(
               child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
+                child: RepaintBoundary(
+                  key: _shareKey,
+                  child: Container(
+                    width: double.infinity,
+                    color: _isDark
+                        ? const Color(0xFF0F1115)
+                        : const Color(0xFFEDF3FF),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 24),
                       child: Column(
@@ -220,7 +300,13 @@ class _StreakScreenState extends State<StreakScreen> {
                       ),
                       child: _buildCalendar(textColor),
                     ),
-                  ],
+
+                        /// --- Branding (shown inside the shared image) ---
+                        _buildShareBranding(textColor),
+                        const SizedBox(height: 20),
+                      ],
+                    ),
+                  ),
                 ),
               ),
             ),
