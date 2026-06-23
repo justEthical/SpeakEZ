@@ -138,20 +138,32 @@ class _AnimatedScenarioGrid extends StatelessWidget {
             ),
           ),
         ),
-        Expanded(child: _buildGrid()),
+        Expanded(child: _buildGrid(context)),
       ],
     );
   }
 
-  Widget _buildGrid() {
+  Widget _buildGrid(BuildContext context) {
+    final media = MediaQuery.of(context);
+    // Clamp the OS font scale so very large accessibility settings don't
+    // explode the card height, but still grow enough to avoid clipping.
+    final textScale = media.textScaler.scale(1.0).clamp(1.0, 1.4);
+    final cardWidth = (media.size.width - 40 - 14) / 2;
+    // Fixed chrome: top+bottom padding(36) + icon chip(52) + gap(14)
+    // + gap above button(12) + button(~36).
+    const chrome = 36 + 52 + 14 + 12 + 36;
+    final titleHeight = 3 * 16 * 1.2 * textScale;
+    final cardHeight =
+        (chrome + titleHeight).clamp(cardWidth / 0.84, double.infinity);
+
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
       child: GridView.builder(
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           crossAxisSpacing: 14,
           mainAxisSpacing: 14,
-          childAspectRatio: 0.84,
+          mainAxisExtent: cardHeight,
         ),
         itemCount: AppData.scenarioCategories.length,
         itemBuilder: (context, index) {
