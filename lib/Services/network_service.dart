@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'dart:convert';
 
@@ -11,7 +12,18 @@ import 'package:speak_ez/Constants/posthog_events.dart';
 
 class NetworkService {
   static final dio = Dio();
-  static final baseUrl = 'https://api.deepinfra.com/v1/openai/chat/completions';
+
+  // All DeepInfra traffic goes through the Cloudflare proxy, which holds the
+  // DeepInfra key and verifies the Firebase App Check token below.
+  static final _proxyBase =
+      (dotenv.env['PROXY_BASE_URL'] ?? '').replaceAll(RegExp(r'/+$'), '');
+  static final baseUrl = '$_proxyBase/v1/openai/chat/completions';
+
+  // App Check token proving the request comes from a genuine app instance.
+  static Future<Map<String, String>> _appCheckHeaders() async {
+    final token = await FirebaseAppCheck.instance.getToken() ?? '';
+    return {'X-Firebase-AppCheck': token};
+  }
 
   static Future<String> getUserCountryFromIP() async {
     try {
@@ -65,7 +77,7 @@ class NetworkService {
         baseUrl,
         options: Options(
           headers: {
-            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY'] ?? ''}',
+            ...await _appCheckHeaders(),
             'Content-Type': 'application/json',
           },
         ),
@@ -110,7 +122,7 @@ class NetworkService {
         baseUrl,
         options: Options(
           headers: {
-            'Authorization': 'Bearer ${dotenv.env['DEEP_INFRA_API_KEY'] ?? ''}',
+            ...await _appCheckHeaders(),
             'Content-Type': 'application/json',
           },
         ),
@@ -140,9 +152,8 @@ class NetworkService {
   }
 
   static Future<String?> transcribeAudio(String audioFilePath) async {
-    const apiUrl =
-        'https://api.deepinfra.com/v1/inference/openai/whisper-large-v3-turbo';
-    final apiKey = dotenv.env['DEEP_INFRA_API_KEY'] ?? '';
+    final apiUrl =
+        '$_proxyBase/v1/inference/openai/whisper-large-v3-turbo';
 
     try {
       // Prepare the form data
@@ -159,7 +170,7 @@ class NetworkService {
         apiUrl,
         data: formData,
         options: Options(
-          headers: {'Authorization': 'bearer $apiKey'},
+          headers: await _appCheckHeaders(),
           contentType: 'multipart/form-data',
         ),
       );
