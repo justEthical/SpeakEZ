@@ -1,0 +1,10 @@
+name = "speakez-proxy"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# Non-secret config. The DeepInfra key is NOT here — set it with:
+#   wrangler secret put DEEP_INFRA_API_KEY
+[vars]
+FIREBASE_PROJECT_NUMBER = "890810544590"
+FIREBASE_PROJECT_ID = "speakez-ai"
+DEEPINFRA_BASE = "https://api.deepinfra.com"
