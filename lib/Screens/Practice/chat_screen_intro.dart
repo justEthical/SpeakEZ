@@ -1,11 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:get/route_manager.dart';
+import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/Practice/chat_screen.dart';
 
@@ -90,13 +91,19 @@ class _ChatScreenIntroState extends State<ChatScreenIntro>
 
     _staggerController.forward();
 
+    // Use the backend pinned for this session (see
+    // PracticeController.beginTranscriptionSession) rather than the live global
+    // flag, so a mid-session model flip can't change routing under us.
+    final sessionUsesDeepInfra =
+        Get.find<PracticeController>().sessionUsesDeepInfra;
+
     // Whisper initialization logic (unchanged)
     if (globalController.isWhisperInitialized.value) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         _goToChat();
       });
     } else {
-      if (!globalController.isDeepInfraTranscription.value) {
+      if (!sessionUsesDeepInfra) {
         globalController.startWhisperIsolate();
       }
       _whisperSub = globalController.isWhisperInitialized.listen((val) {
@@ -104,7 +111,7 @@ class _ChatScreenIntroState extends State<ChatScreenIntro>
       });
 
       // If deep infra (no on-device), navigate immediately
-      if (globalController.isDeepInfraTranscription.value) {
+      if (sessionUsesDeepInfra) {
         WidgetsBinding.instance.addPostFrameCallback((_) {
           _goToChat();
         });

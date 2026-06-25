@@ -46,8 +46,26 @@ class PracticeController extends GetxController {
   late StreamSubscription<bool> sub;
 
   ScenarioModel? currentScenarioModel;
+
+  /// Transcription backend pinned for the lifetime of a single practice
+  /// session. Snapshotted once at session start (see [beginTranscriptionSession])
+  /// so a mid-session flip of [GlobalController.isDeepInfraTranscription] — e.g.
+  /// the on-device Parakeet model finishing download/init while a conversation
+  /// is already running — cannot switch backends mid-chat. Switching mid-session
+  /// would route turns to an on-device Whisper isolate that was never spawned
+  /// for this session, silently hanging the chat. The new backend instead takes
+  /// effect on the next session.
+  bool sessionUsesDeepInfra = true;
+
+  /// Captures the active transcription backend for the session about to start.
+  /// Call once when launching a practice/chat session, before deciding whether
+  /// to spawn the on-device Whisper isolate.
+  void beginTranscriptionSession() {
+    sessionUsesDeepInfra = globalController.isDeepInfraTranscription.value;
+  }
+
   set isSpeaking(bool value) {
-    if (globalController.isDeepInfraTranscription.value) {
+    if (sessionUsesDeepInfra) {
       isMicEnabled.value = !value;
     } else {
       isMicEnabled.value =
@@ -69,7 +87,7 @@ class PracticeController extends GetxController {
     globalController.transcriptionText.value = "";
     recorder = AudioChunkRecorder();
     _addRecordingChatCell();
-    if (globalController.isDeepInfraTranscription.value) {
+    if (sessionUsesDeepInfra) {
       recorder?.startRecording(); // normal full 30 second recording
     } else {
       recorder?.startVADRecording(); // auto recording with chunks on pauses
@@ -86,7 +104,7 @@ class PracticeController extends GetxController {
 
   void endRecording() {
     isRecordingInProgress.value = false;
-    if (globalController.isDeepInfraTranscription.value) {
+    if (sessionUsesDeepInfra) {
       stopNormalRecording();
     } else {
       recorder?.stop();
@@ -150,7 +168,7 @@ ScenarioModel getFreeTalkScenario() {
     _scrollToBottom();
     debugPrint('listener hashcode: $hashCode');
 
-    if (globalController.isDeepInfraTranscription.value) {
+    if (sessionUsesDeepInfra) {
       globalController.transcriptionText.value = removeBracketedWords(
         globalController.transcriptionText.value,
       );

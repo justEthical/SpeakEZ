@@ -5,6 +5,7 @@ import 'package:lottie/lottie.dart';
 import 'package:speak_ez/Constants/app_assets.dart';
 import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/global_controller.dart';
+import 'package:speak_ez/Controllers/practice_controller.dart';
 import 'package:speak_ez/Models/scenario_model.dart';
 import 'package:speak_ez/Screens/HomeScreen/list_of_lessons.dart';
 import 'package:speak_ez/Screens/Lessons/lesson_intro_screen.dart';
@@ -564,10 +565,14 @@ class CustomDialogs {
                     hasEnoughGems
                         ? () {
                           Get.back();
-      //                     final isOnDeviceTranscriptionSupported = globalController.prefs?.getBool(
-      // AppStrings.isOnDeviceTranscriptionSupported,
-    // );
-                          if (!(globalController.isDeepInfraTranscription.value)) {
+                          // Pin the transcription backend for this whole
+                          // session up front, so a mid-session model
+                          // download/init flip can't switch backends (and hang
+                          // the chat). Everything downstream reads this snapshot.
+                          final practiceController =
+                              Get.find<PracticeController>();
+                          practiceController.beginTranscriptionSession();
+                          if (!practiceController.sessionUsesDeepInfra) {
                             Get.to(
                               ChatScreenIntro(scenarioModel: scenarioModel),
                             );

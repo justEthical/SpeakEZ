@@ -83,7 +83,7 @@ class _ChatScreenState extends State<ChatScreen> with SingleTickerProviderStateM
       },
     );
     if (globalController.isWhisperInitialized.value &&
-        !globalController.isDeepInfraTranscription.value) {
+        !c.sessionUsesDeepInfra) {
       globalController.whisperSendPort?.send('stop');
       globalController.isWhisperInitialized.value = false;
     }
