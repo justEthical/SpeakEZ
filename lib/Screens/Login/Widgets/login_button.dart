@@ -50,7 +50,6 @@ class GoogleLoginButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final c = Get.find<OnboardingController>();
     return ElevatedButton(
       onPressed: () async {
         PostHogService.instance.capture(
@@ -82,7 +81,7 @@ class GoogleLoginButton extends StatelessWidget {
               child: SvgPicture.asset(AppAssets.google),
             ),
              Text(
-              "${c.isloginForm.value ? AppStrings.login.tr.tr : AppStrings.register.tr.tr} with Google",
+              AppStrings.loginWithGoogle.tr,
               style: TextStyle(
                 fontSize: 16,
                 // fontWeight: FontWeight.w600,

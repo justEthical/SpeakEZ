@@ -27,6 +27,10 @@ class AppStrings {
   static const String or = "or";
   static const String loginWithGoogle = "loginWithGoogle";
   static const String registerWithGoogle = "registerWithGoogle";
+  static const String continueWithGoogle = "continueWithGoogle";
+  static const String welcomeToSpeakEasyAI = "welcomeToSpeakEasyAI";
+  static const String masterEnglishSubtitle = "masterEnglishSubtitle";
+  static const String loginTagline = "loginTagline";
   static const String byContinuingYouAgree = "byContinuingYouAgree";
   static const String termsOfService = "termsOfService";
   static const String and = "and";
