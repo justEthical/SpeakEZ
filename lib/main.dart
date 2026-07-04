@@ -33,12 +33,15 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   // App Check gates the Cloudflare proxy that holds the DeepInfra key.
-  // Debug providers print a token to register in the Firebase console for local builds.
-  await FirebaseAppCheck.instance.activate(
-    androidProvider:
-        kDebugMode ? AndroidProvider.debug : AndroidProvider.playIntegrity,
-    appleProvider: kDebugMode ? AppleProvider.debug : AppleProvider.appAttest,
-  );
+  // Debug builds skip attestation and authenticate to the proxy with a shared
+  // dev secret instead (see NetworkService), so there is no per-install App
+  // Check debug token to register. Release builds always attest for real.
+  if (!kDebugMode) {
+    await FirebaseAppCheck.instance.activate(
+      androidProvider: AndroidProvider.playIntegrity,
+      appleProvider: AppleProvider.appAttest,
+    );
+  }
   unawaited(MobileAds.instance.initialize());
   await dotenv.load(fileName: ".env");
   LocalNotificationService().init();

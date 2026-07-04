@@ -1,6 +1,8 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart';
 import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'dart:convert';
@@ -20,8 +22,45 @@ class NetworkService {
   static final baseUrl = '$_proxyBase/v1/openai/chat/completions';
 
   // App Check token proving the request comes from a genuine app instance.
+  // getToken() can hang indefinitely when attestation fails (e.g. an
+  // unregistered debug token on a fresh install), so it is bounded by a
+  // timeout and never allowed to throw — a bad/absent token surfaces as a
+  // failed request instead of a frozen screen.
+  static const _appCheckTimeout = Duration(seconds: 10);
+
   static Future<Map<String, String>> _appCheckHeaders() async {
-    final token = await FirebaseAppCheck.instance.getToken() ?? '';
+    // Debug builds authenticate to the proxy with a shared dev secret instead
+    // of a Firebase App Check token, so there is no per-install debug token to
+    // register. Release builds always use real App Check attestation.
+    if (kDebugMode) {
+      final devSecret = dotenv.env['DEV_BYPASS_SECRET'] ?? '';
+      if (devSecret.isNotEmpty) {
+        return {'X-Dev-Secret': devSecret};
+      }
+    }
+
+    String token = '';
+    try {
+      token =
+          await FirebaseAppCheck.instance.getToken().timeout(
+            _appCheckTimeout,
+          ) ??
+          '';
+    } on TimeoutException catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.networkError,
+        errorMessage: 'App Check getToken timed out: $e',
+        location: 'NetworkService._appCheckHeaders',
+        additionalProperties: {'reason': 'app_check_timeout'},
+      );
+    } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.networkError,
+        errorMessage: 'App Check getToken failed: $e',
+        location: 'NetworkService._appCheckHeaders',
+        additionalProperties: {'reason': 'app_check_error'},
+      );
+    }
     return {'X-Firebase-AppCheck': token};
   }
 
