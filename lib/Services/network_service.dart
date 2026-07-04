@@ -93,8 +93,9 @@ class NetworkService {
       ],
       "response_format": { "type": "json_object" },
       "reasoning_effort": "none",
-      "temperature": 0,
-      "seed": 7,
+      // Higher temperature gives Natasha varied openers/questions instead of
+      // deterministically reusing "That's wonderful!" every turn.
+      "temperature": 0.7,
     };
   }
 
