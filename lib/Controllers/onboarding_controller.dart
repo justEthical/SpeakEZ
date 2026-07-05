@@ -9,6 +9,7 @@ import 'package:speak_ez/Controllers/global_controller.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
 import 'package:speak_ez/Models/user_profile.dart';
 import 'package:speak_ez/Screens/OnBoarding/onboarind_questions.dart';
+import 'package:speak_ez/Screens/OnBoarding/Placement/placement_intro_screen.dart';
 import 'package:speak_ez/Screens/OnBoarding/preparing_screen.dart';
 import 'package:speak_ez/Services/auth_service.dart';
 import 'package:speak_ez/Services/firestore_helper.dart';
@@ -19,7 +20,6 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 
 class OnboardingController extends GetxController {
   final onboardingPageIndicator = PageController(initialPage: 0);
-  final onboardingQuestionsController = PageController(initialPage: 0);
   var currentOnboardingQuestionIndex = 0.obs;
   var currentOnboardingIndex = 0.obs;
   var onboardingQuestionAnswerMap = <String, String>{}.obs;
@@ -136,11 +136,13 @@ class OnboardingController extends GetxController {
   }
 
   void _goToNextQuestion() {
-    onboardingQuestionsController.nextPage(
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeIn,
-    );
     currentOnboardingQuestionIndex.value++;
+  }
+
+  void goToPreviousQuestion() {
+    if (currentOnboardingQuestionIndex.value > 0) {
+      currentOnboardingQuestionIndex.value--;
+    }
   }
 
   Future<void> _completeOnboarding() async {
@@ -174,7 +176,9 @@ class OnboardingController extends GetxController {
 
     _resetOnboardingState();
 
-    Get.offAll(() => const PreparingScreen());
+    // Placement test sets the real CEFR level (overriding the A1 hard-coded at
+    // signup), then routes on to PreparingScreen.
+    Get.offAll(() => const PlacementIntroScreen());
   }
 
   void _resetOnboardingState() {
@@ -371,6 +375,9 @@ class OnboardingController extends GetxController {
   }
 
   void addLanguageBasedQuestionInOnboarding() {
+    // Guard against re-appending on screen re-entry (would duplicate questions
+    // and throw off the progress bar math).
+    if (onboardingQuestions.any((q) => q.id == "motherTongue")) return;
     // Only show Hindi and Japanese for now
     onboardingQuestions.add(
       OnboardingQuestion(
