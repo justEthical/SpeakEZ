@@ -10,6 +10,55 @@ class FirestoreHelper {
   static final db = FirebaseFirestore.instance;
   static const String usersCollection = 'users';
 
+  /// Persistent ledger of emails that have already received the welcome bonus.
+  /// This collection is intentionally NEVER deleted on account deletion, so a
+  /// user cannot re-claim the signup bonus by deleting and recreating their
+  /// account.
+  static const String welcomeBonusClaimsCollection = 'welcomeBonusClaims';
+
+  static String _normalizeEmail(String email) => email.trim().toLowerCase();
+
+  /// Returns true if this email has already claimed the welcome bonus.
+  static Future<bool> hasClaimedWelcomeBonus(String email) async {
+    try {
+      final doc = await db
+          .collection(welcomeBonusClaimsCollection)
+          .doc(_normalizeEmail(email))
+          .get();
+      return doc.exists;
+    } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.firebaseError,
+        errorMessage: 'Error checking welcome bonus claim: $e',
+        location: 'FirestoreHelper.hasClaimedWelcomeBonus',
+      );
+      // Fail open: if we can't verify (e.g. transient network error), treat as
+      // not-yet-claimed so a legitimate new user isn't silently denied their
+      // bonus. Abuse would require both deleting the account and a Firestore
+      // outage at the same time — negligible risk for a client-side guard.
+      return false;
+    }
+  }
+
+  /// Records that this email has claimed the welcome bonus.
+  static Future<void> recordWelcomeBonusClaim(String email) async {
+    try {
+      await db
+          .collection(welcomeBonusClaimsCollection)
+          .doc(_normalizeEmail(email))
+          .set({
+        'email': _normalizeEmail(email),
+        'claimedAt': FieldValue.serverTimestamp(),
+      });
+    } catch (e) {
+      PostHogService.instance.captureError(
+        PostHogEvents.firebaseError,
+        errorMessage: 'Error recording welcome bonus claim: $e',
+        location: 'FirestoreHelper.recordWelcomeBonusClaim',
+      );
+    }
+  }
+
    static Future<void> saveCurrentUserProfile(UserProfileModel userProfile) async {
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) {
@@ -76,6 +125,9 @@ class FirestoreHelper {
 
     // Step 1: Delete Firestore document
     await firestore.collection('users').doc(uid).delete();
+    // NOTE: We intentionally do NOT delete the user's entry in
+    // `welcomeBonusClaims` here — that ledger must survive account deletion to
+    // prevent re-claiming the signup bonus.
 
     // Step 2: Delete Firebase Auth user
     await user.delete();

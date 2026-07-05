@@ -295,6 +295,17 @@ class OnboardingController extends GetxController {
     }
 
     CustomLoader.showLoader();
+
+    // Grant the welcome bonus only if this email has never claimed it before.
+    // The claim is recorded in a persistent ledger that survives account
+    // deletion, so a user cannot re-claim by deleting and recreating.
+    final email = userData.user!.email!;
+    final alreadyClaimed = await FirestoreHelper.hasClaimedWelcomeBonus(email);
+    final int welcomeGems = alreadyClaimed ? 0 : 500;
+    if (!alreadyClaimed) {
+      await FirestoreHelper.recordWelcomeBonusClaim(email);
+    }
+
     var userProfile = UserProfileModel(
       uid: userData.user!.uid,
       currentEnglishLevel: 'A1',
@@ -314,7 +325,7 @@ class OnboardingController extends GetxController {
       preferredPracticeTime: onboardingQuestionAnswerMap['preferredPracticeTime'] ?? '',
       notificationToken: notificationToken ?? '',
       isShownCustomReviewDialogOnce: false,
-      gems: 500,
+      gems: welcomeGems,
       weekDaysStreak: WeekDaysStreak.fromMap({}),
       registrationTime: DateTime.now(),
       appLanguage: onboardingQuestionAnswerMap['appLanguage'] ?? 'en',
