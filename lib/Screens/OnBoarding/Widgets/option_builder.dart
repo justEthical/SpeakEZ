@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:speak_ez/Constants/app_strings.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
 import 'package:speak_ez/Models/onboarding_questions_model.dart';
+import 'package:speak_ez/Screens/HomeScreen/Widgets/home_palette.dart';
 
 class OptionsBuilder extends StatelessWidget {
   final OnboardingQuestion model;
@@ -11,7 +13,7 @@ class OptionsBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Get.find<OnboardingController>();
-    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final palette = HomePalette(context);
 
     return Obx(() {
       final storedValue = c.onboardingQuestionAnswerMap[model.id];
@@ -51,49 +53,40 @@ class OptionsBuilder extends StatelessWidget {
             onTap: () {
               Get.find<OnboardingController>().optionSelected(model, label);
             },
-            borderRadius: BorderRadius.circular(14),
-            splashColor: Colors.green.withValues(alpha: 0.1),
-            highlightColor: Colors.green.withValues(alpha: 0.05),
+            borderRadius: BorderRadius.circular(16),
+            splashColor: palette.primary.withValues(alpha: 0.1),
+            highlightColor: palette.primary.withValues(alpha: 0.05),
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 200),
               curve: Curves.easeOutCubic,
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
               decoration: BoxDecoration(
-                color:
-                    isSelected
-                        ? Colors.green
-                        : isDarkMode
-                        ? Colors.grey.shade800.withValues(alpha: 0.5)
-                        : Colors.white,
-                borderRadius: BorderRadius.circular(14),
+                color: isSelected
+                    ? palette.primary.withValues(alpha: 0.12)
+                    : palette.cardColor,
+                borderRadius: BorderRadius.circular(16),
                 border: Border.all(
-                  color:
-                      isSelected
-                          ? Colors.green
-                          : isDarkMode
-                          ? Colors.grey.shade600
-                          : Colors.grey.shade300,
+                  color: isSelected ? palette.primary : palette.cardBorder,
                   width: isSelected ? 2 : 1.5,
                 ),
-                boxShadow:
-                    isSelected
-                        ? [
-                          BoxShadow(
-                            color: Colors.green.withValues(alpha: 0.25),
-                            blurRadius: 12,
-                            offset: const Offset(0, 4),
+                boxShadow: isSelected
+                    ? [
+                        BoxShadow(
+                          color: palette.primary.withValues(alpha: 0.18),
+                          blurRadius: 12,
+                          offset: const Offset(0, 4),
+                        ),
+                      ]
+                    : [
+                        BoxShadow(
+                          color: Colors.black.withValues(
+                            alpha: palette.isDark ? 0.2 : 0.04,
                           ),
-                        ]
-                        : [
-                          BoxShadow(
-                            color: Colors.black.withValues(
-                              alpha: isDarkMode ? 0.2 : 0.04,
-                            ),
-                            blurRadius: 8,
-                            offset: const Offset(0, 2),
-                          ),
-                        ],
+                          blurRadius: 8,
+                          offset: const Offset(0, 2),
+                        ),
+                      ],
               ),
               child: Row(
                 children: [
@@ -102,12 +95,11 @@ class OptionsBuilder extends StatelessWidget {
                       label,
                       style: TextStyle(
                         fontSize: 16,
+                        fontFamily: AppStrings.nunitoFont,
                         fontWeight:
-                            isSelected ? FontWeight.w600 : FontWeight.w500,
+                            isSelected ? FontWeight.w700 : FontWeight.w600,
                         color:
-                            isSelected
-                                ? Colors.white
-                                : Theme.of(context).textTheme.bodyLarge?.color,
+                            isSelected ? palette.primary : palette.onSurface,
                       ),
                     ),
                   ),
@@ -117,25 +109,23 @@ class OptionsBuilder extends StatelessWidget {
                     height: 24,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: isSelected ? Colors.white : Colors.transparent,
+                      color: isSelected ? palette.primary : Colors.transparent,
                       border: Border.all(
-                        color:
-                            isSelected
-                                ? Colors.white
-                                : isDarkMode
-                                ? Colors.grey.shade500
-                                : Colors.grey.shade400,
+                        color: isSelected
+                            ? palette.primary
+                            : palette.onSurfaceVariant.withValues(alpha: 0.5),
                         width: 2,
                       ),
                     ),
-                    child:
-                        isSelected
-                            ? const Icon(
-                              Icons.check,
-                              size: 16,
-                              color: Colors.green,
-                            )
-                            : null,
+                    child: isSelected
+                        ? Icon(
+                            Icons.check,
+                            size: 16,
+                            color: palette.isDark
+                                ? const Color(0xFF091421)
+                                : Colors.white,
+                          )
+                        : null,
                   ),
                 ],
               ),

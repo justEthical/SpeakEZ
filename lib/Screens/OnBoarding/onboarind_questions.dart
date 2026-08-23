@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:speak_ez/Controllers/onboarding_controller.dart';
+import 'package:speak_ez/Screens/HomeScreen/Widgets/home_palette.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_and_options.dart';
 import 'package:speak_ez/Screens/OnBoarding/Widgets/question_progress_bar.dart';
 
@@ -12,67 +13,42 @@ class OnboarindQuestions extends StatefulWidget {
 }
 
 class _OnboarindQuestionsState extends State<OnboarindQuestions> {
-
   final c = Get.find<OnboardingController>();
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     c.addLanguageBasedQuestionInOnboarding();
   }
 
   @override
   Widget build(BuildContext context) {
+    final palette = HomePalette(context);
     return Scaffold(
+      backgroundColor: palette.background,
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.primary,
+        backgroundColor: palette.background,
         elevation: 0,
+        titleSpacing: 0,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios, color: Theme.of(context).colorScheme.onPrimary),
+          icon: Icon(Icons.arrow_back_ios, color: palette.onSurface, size: 20),
           onPressed: () {
-            if (c.onboardingQuestionsController.page != 0) {
-              c.onboardingQuestionsController.previousPage(
-                duration: Duration(milliseconds: 300),
-                curve: Curves.easeIn,
-              );
-              c.currentOnboardingQuestionIndex.value--;
+            if (c.currentOnboardingQuestionIndex.value != 0) {
+              c.goToPreviousQuestion();
+            } else {
+              Get.back();
             }
           },
         ),
-        title: Text(
-          'Back',
-          style: TextStyle(color: Theme.of(context).colorScheme.onPrimary, fontSize: 16),
+        // Learna-style: thin progress bar sits inline at the very top.
+        title: const Padding(
+          padding: EdgeInsets.only(right: 20),
+          child: QuestionProgressBar(),
         ),
-        titleSpacing: -10,
       ),
-      body: SafeArea(
+      body: const SafeArea(
         top: false, // AppBar handles the top
-        child: Padding(
-          padding: const EdgeInsets.all(20.0),
-          child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-             Text(
-              'Tell us about yourself',
-              style: TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-                color: Theme.of(context).textTheme.bodyMedium?.color,
-              ),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              'Help us personalize your experience',
-              style: TextStyle(fontSize: 18, color: Theme.of(context).textTheme.bodySmall?.color),
-            ),
-            const SizedBox(height: 20),
-            QuestionProgressBar(),
-            const SizedBox(height: 20),
-            QuestionAndOptions(),
-          ],
-        ),
-        ),
+        child: QuestionAndOptions(),
       ),
     );
   }

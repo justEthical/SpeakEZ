@@ -15,6 +15,12 @@ class UserProfileModel {
   String userType;
   String motivation;
   String confidence;
+  // Emotional-hook onboarding answers (Learna-style). Optional/render-agnostic
+  // — kept for personalization + analytics.
+  String painFreeze;
+  String painWords;
+  String painFear;
+  String focusArea;
   String preferredPractice;
   String motherTongue;
   String dailyStudyDuration;
@@ -39,6 +45,10 @@ class UserProfileModel {
     required this.userType,
     required this.motivation,
     required this.confidence,
+    this.painFreeze = '',
+    this.painWords = '',
+    this.painFear = '',
+    this.focusArea = '',
     required this.preferredPractice,
     required this.motherTongue,
     required this.dailyStudyDuration,
@@ -70,6 +80,10 @@ class UserProfileModel {
       userType: map['userType'] ?? '',
       motivation: map['motivation'] ?? '',
       confidence: map['confidence'] ?? '',
+      painFreeze: map['painFreeze'] ?? '',
+      painWords: map['painWords'] ?? '',
+      painFear: map['painFear'] ?? '',
+      focusArea: map['focusArea'] ?? '',
       preferredPractice: map['preferredPractice'] ?? '',
       motherTongue: map['motherTongue'] ?? '',
       dailyStudyDuration: map['dailyStudyDuration'] ?? '',
@@ -107,6 +121,10 @@ class UserProfileModel {
       'userType': userType,
       'motivation': motivation,
       'confidence': confidence,
+      'painFreeze': painFreeze,
+      'painWords': painWords,
+      'painFear': painFear,
+      'focusArea': focusArea,
       'preferredPractice': preferredPractice,
       'motherTongue': motherTongue,
       'dailyStudyDuration': dailyStudyDuration,
